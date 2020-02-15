@@ -12,16 +12,16 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41733059"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-18_
+_**Последнее изменение темы:** 2013-02-18_
 
-Если вы развернули приложение группы ответа и вам нужно восстановить сервер обратного или стандартного выпуска, вам также потребуется восстановить параметры конфигурации группы ответа.
+Если вы развернули приложение группы ответа и хотите восстановить фоновый сервер или сервер Standard Edition, также потребуется восстановить параметры конфигурации группы ответа.
 
 <div>
 
 ## <a name="to-restore-response-group-configuration-settings"></a>Восстановление параметров конфигурации группы ответа
 
-1.  В командной строке введите следующую команду:
+1.  В командной строке введите следующую команду.
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     
-    Например:
+    Пример:
     
         Import-CsRgsConfiguration -Destination "service: ApplicationServer:pool01.contoso.com" -OverwriteOwner -FileName "C:\RgsConfiguration.zip"
 

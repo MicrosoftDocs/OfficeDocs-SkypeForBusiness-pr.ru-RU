@@ -12,16 +12,16 @@ ms:contentKeyID: 49733598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe2620175c2a706bfb2c48fe7fb380d5fae4c09
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb29608b7048e1896a731a64ee644213f513ebaf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765427"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765427"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-Представления предоставляют простой способ получить доступ к сведениям о наиболее распространенных сценариях, используемых для возврата данных из базы данных CDR. Рекомендуется использовать представления для создания настраиваемых отчетов вместо использования таблиц баз данных реальных CDR; Это связано с тем, что представления базы данных более удобны для обеспечения обратной совместимости с будущими выпусками Lync Server.
+Представления позволяют легко получить доступ к сведениям посредством наиболее распространенных сценариев извлечения данных из базы данных записей о звонках (CDR). Рекомендуется использовать представления для создания настраиваемых отчетов, а не таблиц базы данных CDR; Это связано с тем, что представления базы данных чаще всего поддерживают обратную совместимость с будущими выпусками Lync Server.
 
 
 <table>
@@ -53,68 +53,68 @@ _**Тема последнего изменения:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-clientversions-view.md">Клиентверсионс представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о клиентском программном обеспечении и устройствах, используемых в сеансе связи.</p></td>
+<td><p><a href="lync-server-2013-clientversions-view.md">Представление Таблица clientversions в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о программном обеспечении и устройствах клиента, которые используются в сеансах связи.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencemessagecount-view.md">Конференцемессажекаунт представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о количестве сообщений, отправленных пользователями на Конференции.</p></td>
+<td><p><a href="lync-server-2013-conferencemessagecount-view.md">Представление Таблица conferencemessagecount в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о количестве сообщений, отправленных пользователями на конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferences-view.md">Представление "Конференции" в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о конференции, в том числе время начала, время окончания и организатора конференции.</p></td>
+<td><p><a href="lync-server-2013-conferences-view.md">Представление конференций в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о конференции, включая время начала, время окончания и инициатора конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencesessiondetails-view.md">Конференцесессиондетаилс представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о сеансе для всех сеансов конференц-связи, в том числе время начала и окончания, идентификаторы пользователей, коды ответа и диагностические идентификаторы.</p></td>
+<td><p><a href="lync-server-2013-conferencesessiondetails-view.md">Представление Таблица conferencesessiondetails в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о сеансе для всех сеансов конференц-связи, включая время начала и окончания, идентификаторы пользователей, коды ответа и диагностические идентификаторы.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferenceuris-view.md">Конференцеурис представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о URI конференций, используемых на Конференции.</p></td>
+<td><p><a href="lync-server-2013-conferenceuris-view.md">Представление Таблица conferenceuris в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о кодах URI, используемых в конференции</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-errorreport-view.md">Ерроррепорт представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения об ошибках, произошедших во время сеанса.</p></td>
+<td><p><a href="lync-server-2013-errorreport-view.md">Представление ErrorReport в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения об ошибках, возникших во время сеанса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-filetransfers-view.md">Филетрансферс представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о сеансах передачи файлов, в том числе имя файла и о том, были ли данные приняты, отклонены или отменены.</p></td>
+<td><p><a href="lync-server-2013-filetransfers-view.md">Представление Таблица filetransfers в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о сеансах с передачей файлов, включая имя файла и сведения о том, была ли передача принята, отклонена или отменена.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-focusjoinsandleaves-view.md">Фокусжоинсандлеавес представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о присоединении к Конференции и оставлении действий.</p></td>
+<td><p><a href="lync-server-2013-focusjoinsandleaves-view.md">Представление Таблица focusjoinsandleaves в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о действиях по присоединению к конференции и выходу из нее.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-mcujoinsandleaves-view.md">Мкужоинсандлеавес представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает объединенные сведения о присоединениях к Конференции и оставлении действий (каждое присоединение к Конференции сопоставлено с выходом на соответствующую конференцию).</p></td>
+<td><p><a href="lync-server-2013-mcujoinsandleaves-view.md">Представление Таблица mcujoinsandleaves в Lync Server 2013</a></p></td>
+<td><p>Возвращает объединенные сведения о действиях по присоединению к конференции и выходу из нее (каждое присоединение к конференции сопоставляется с соответствующим выходом из конференции).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcus-view.md">Мкус представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о серверах конференций.</p></td>
+<td><p><a href="lync-server-2013-mcus-view.md">Представление MCUs в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о серверах конференц-связи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-media-view.md">Представление мультимедиа в Lync Server 2013</a></p></td>
 <td><p>Возвращает сведения о типах мультимедиа, используемых в одноранговых сеансах связи.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-progressreport-view.md">Прогрессрепорт представления в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-progressreport-view.md">Представление Таблица progressreport в Lync Server 2013</a></p></td>
 <td><p>Возвращает сведения о завершенных сеансах.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-registration-view.md">Представление регистрации в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о регистрациях с помощью Lync Server.</p></td>
+<td><p>Возвращает сведения о регистрациях в Lync Server.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-sessiondetails-view.md">Сессиондетаилс представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о одноранговых сеансах, включая VoIP-звонки по телефонным каналам, два сеанса обмена мгновенными сообщениями и другие одноранговые сеансы связи.</p></td>
+<td><p><a href="lync-server-2013-sessiondetails-view.md">Представление SessionDetails в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения об одноранговых сеансах, включающих телефонные звонки VoIP-VoIP, двусторонние сеансы обмена мгновенными сообщениями или другие одноранговые сеансы связи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-user-view.md">Представление пользователя в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о пользователях, участвующих в сеансах связи.</p></td>
+<td><p><a href="lync-server-2013-user-view.md">Пользовательское представление в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения о пользователях, которые участвовали в сеансах связи.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-voipdetails-view.md">Воипдетаилс представления в Lync Server 2013</a></p></td>
-<td><p>Возвращает сведения о одноранговых сеансах с участием по крайней мере одного пользователя VoIP (с голосовым вводом-выводом).</p></td>
+<td><p><a href="lync-server-2013-voipdetails-view.md">Представление Таблица voipdetails в Lync Server 2013</a></p></td>
+<td><p>Возвращает сведения об одноранговых сеансах как минимум с одним пользователем VoIP.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление проверки подлинности Kerberos для сайта'
+title: 'Lync Server 2013: Удаление проверки подлинности Kerberos для сайта'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e88f3de6f653354087d1abd0f7884ee09eda2f36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6546ac3e13795871461dcdd425e96e801ee19e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746819"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746819"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-01-16_
+_**Последнее изменение темы:** 2012-01-16_
 
-Для успешного выполнения этой процедуры необходимо войти в систему в качестве пользователя, который является членом группы Рткуниверсалсерверадминс.
+Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.
 
-Если необходимо удалить проверку подлинности Kerberos с сайта или снять с учета сайта, необходимо удалить назначение учетной записи для проверки подлинности Kerberos с сайта с помощью командлета **Remove-кскерберосаккаунтассигнмент** . Выполните описанные ниже действия, чтобы удалить назначение учетной записи проверки подлинности Kerberos, удаляя назначение со всех компьютеров сайта.
+Если необходимо удалить проверку подлинности Kerberos с узла или прекратить использование узла, необходимо удалить назначение учетной записи проверки подлинности Kerberos с узла с помощью командлета **Remove-CsKerberosAccountAssignment**. Используйте следующую процедуру для удаления назначения учетной записи проверки подлинности Kerberos, что приводит к удалению назначения со всех компьютеров узла.
 
 <div class=" ">
 
 
 > [!WARNING]  
-> Если вы безвозвратно удаляете учетную запись с поддержкой Kerberos, вы должны использовать оснастку "пользователи и компьютеры Active Directory", чтобы удалить ее из доменных служб Active Directory после удаления задания. Если вы планируете использовать объект в будущем, вам может понадобиться сохранить объект Active Directory.
+> Если вы безвозвратно удаляете учетную запись с включенной проверкой подлинности Kerberos, следует использовать оснастку "Active Directory — пользователи и компьютеры", чтобы удалить его из доменных служб Active Directory после удаления назначения. Если вы планируете использовать данный объект в дальнейшем, возможно, потребуется сохранить объект Active Directory.
 
 
 
@@ -53,13 +53,13 @@ _**Тема последнего изменения:** 2012-01-16_
 
 <div>
 
-## <a name="to-remove-kerberos-authentication-from-a-site"></a>Удаление проверки подлинности Kerberos с сайта
+## <a name="to-remove-kerberos-authentication-from-a-site"></a>Удаление проверки подлинности Kerberos с узла
 
-1.  Войдя в группу Рткуниверсалсерверадминс, войдите в домен на компьютере с Lync Server 2013 или на компьютер, на котором установлены средства администрирования.
+1.  В качестве члена группы RTCUniversalServerAdmins Войдите на компьютер в домене, на котором работает Lync Server 2013 или на компьютер, на котором установлены средства администрирования.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  В командной строке выполните следующие две команды:
+3.  Выполните две следующие команды в командной строке:
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
@@ -69,7 +69,7 @@ _**Тема последнего изменения:** 2012-01-16_
         Enable-CsTopology
        ```
     
-    Например:
+    Пример:
     
        ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
@@ -83,7 +83,7 @@ _**Тема последнего изменения:** 2012-01-16_
     
 
     > [!IMPORTANT]  
-    > После внесения изменений в проверку подлинности Kerberos (например, для добавления учетной записи или удаления учетной записи) необходимо запустить команду <STRONG>Enable-кстопологи</STRONG> в командной строке оболочки Lync Server Management Shell.
+    > После внесения изменений в проверку подлинности Kerberos, например для добавления учетной записи или удаления учетной записи, необходимо выполнить команду <STRONG>Enable – CsTopology</STRONG> в командной строке командной консоли Lync Server.
 
     
     </div>

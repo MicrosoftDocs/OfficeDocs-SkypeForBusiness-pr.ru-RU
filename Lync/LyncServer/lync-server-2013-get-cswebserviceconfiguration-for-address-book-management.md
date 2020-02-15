@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-Ксвебсервицеконфигуратион для управления адресными книгами'
+title: 'Lync Server 2013: Get – CsWebServiceConfiguration для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730579"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Ксвебсервицеконфигуратион локально: Рткуниверсалусерадминс, Рткуниверсалсерверадминс. Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:
+Кто может запускать данный командлет: по умолчанию членам следующих групп разрешено локально запускать командлет Get-CsWebServiceConfiguration — RTCUniversalUserAdmins, RTCUniversalServerAdmins. Чтобы возвратить список всех ролей управления доступом на основе ролей, которым был назначен данный  командлет (включая любые настраиваемые роли управления доступом на основе ролей, созданные лично вами), выполните следующую команду из командной строки Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-Get-Ксвебсервицеконфигуратион возвращает сведения о конфигурации веб-служб, которые в настоящее время используются в вашей организации. % Поинтересуются службами адресных книг — это состояние функции расширения списка рассылки. Если атрибут Енаблеграупекспансион имеет значение true, ваша организация в настоящее время допускает развертывание групп.
+Командлет Get-CsWebServiceConfiguration возвращает сведения о конфигурации веб-служб, которая в данный момент используется в организации. С точки зрения служб адресной книги интерес представляет состояние функции расширения списка рассылки. Если атрибут EnableGroupExpansion имеет значение True, ваша организация допускает углубление в группы.
 
 Например:
 
@@ -52,7 +52,7 @@ Get-Ксвебсервицеконфигуратион возвращает св
 ## <a name="see-also"></a>См. также
 
 
-[Get-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+[Get — CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
   
 
 </div>

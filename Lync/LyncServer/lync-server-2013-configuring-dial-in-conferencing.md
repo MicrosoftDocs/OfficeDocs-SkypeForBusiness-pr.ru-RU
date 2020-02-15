@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка конференц-связи с телефонным подключением'
+title: 'Lync Server 2013: Настройка конференц-связи с телефонным подключением'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758143"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-10-03_
+_**Последнее изменение темы:** 2014-10-03_
 
-В этом разделе рассказывается, как настроить Конференц-связь с телефонным подключением в Lync Server 2013.
+В этом разделе описывается настройка конференц-связи с телефонным подключением Lync Server 2013.
 
 <div>
 
@@ -47,31 +47,31 @@ _**Тема последнего изменения:** 2014-10-03_
 
   - [Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [Настройка абонентских групп для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [Настройка абонентских планов для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [Проверка абонентских планов Lync Server 2013 назначенные регионы](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [Убедитесь, что в телефонных планах Lync Server 2013 назначены регионы](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [Проверка параметров политики ПИН-кодов в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [Необязательно Проверка параметров политики ПИН-кода в Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
 
   - [Настройка политики конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
   - [Настройка номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [Необязательно Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [Изменение назначенных клавиш для команд DTMF в Lync Server 2013 (необязательно)](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [Необязательно Изменение сопоставления клавиш для команд DTMF в Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [Включение и отключение объявлений о присоединении и выходе из конференции в Lync Server 2013 (необязательно)](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [Необязательно Включение и отключение объявлений о присоединении и выходе из конференции в Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [Проверка конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [Необязательно Проверка конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
   - [Развертывание надстройки собраний по сети для Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
   - [Настройка параметров учетных записей пользователей в Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
 
-  - [(Recommended) Create Conference Directories](recommended-create-conference-directories.md)
+  - [Предложен Создание каталогов конференций](recommended-create-conference-directories.md)
 
-  - [Приветствие пользователей в конференции с телефонным подключением Lync Server 2013 (необязательно)](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [Необязательно Добро пожаловать в Конференц-связь с телефонным подключением в Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 

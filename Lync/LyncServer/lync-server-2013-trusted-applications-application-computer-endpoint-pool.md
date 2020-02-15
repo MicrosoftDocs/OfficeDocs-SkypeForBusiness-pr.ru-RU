@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: доверенные приложения (приложение/компьютер/конечная точка или пул)'
+title: 'Lync Server 2013: доверенные приложения (приложение/компьютер/конечная точка/пул)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3fb02e36927c10f5a4f66f0e4908a26e440b555
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744919"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Доверенные приложения (приложение/компьютер/конечная точка или пул) в Lync Server 2013
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Доверенные приложения (приложение/компьютер/конечная точка/пул) в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744919"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-С помощью описанных в этом разделе процедур можно управлять доверенными приложениями для Lync Server 2013.
+Используйте процедуры, описанные в этом разделе, для управления доверенными приложениями для Lync Server 2013.
 
 <div>
 

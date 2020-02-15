@@ -12,16 +12,16 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e86127c2a945bcd9154df0456545f5783fd1a34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 851ac4d48a5242355baa1f25499dcaf26e8ef099
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731089"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731089"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-В панели управления Lync Server 2013 вы можете предоставить пользователям номера доступа для телефонного подключения, чтобы они могли присоединиться к собранию извне.
+В панели управления Lync Server 2013 вы можете предоставить пользователям номера доступа для телефонного подключения, чтобы они могли присоединяться к собранию извне.
 
 <div>
 
-## <a name="to-view-dial-in-access-numbers"></a>Просмотр номеров доступа для телефонного подключения
+## <a name="to-view-dial-in-access-numbers"></a>Чтобы просмотреть номера для телефонного подключения
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На левой панели навигации щелкните **Конференция**, а затем выберите **Номер для телефонного подключения**.
+3.  В левой панели навигации щелкните **Конференция**, а затем выберите **Номер для телефонного подключения**.
 
 4.  На странице **Номер для телефонного подключения** щелкните номер доступа, который следует просмотреть.
 
-5.  В окне " **Правка**" нажмите кнопку **Показать подробности...** флажок.
+5.  В разделе **Изменить** установите флажок **Подробнее…**.
 
 </div>
 
@@ -59,17 +59,17 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Просмотр номеров доступа для конференц-связи с телефонным подключением с помощью командлетов Windows PowerShell
 
-Номера доступа для конференц-связи с телефонным подключением можно просмотреть с помощью Windows PowerShell и командлета Get-КсдиалинконференЦингакцесснумбер. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Номера доступа к конференц-связи с телефонным подключением можно просмотреть с помощью Windows PowerShell и командлета Get-CsDialInConferencingAccessNumber. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-view-dial-in-conferencing-access-numbers"></a>Просмотр номеров доступа для конференц-связи с телефонным подключением
+## <a name="to-view-dial-in-conferencing-access-numbers"></a>Просмотр номеров доступа к конференц-связи с телефонным подключением
 
-  - Чтобы просмотреть сведения обо всех номерах доступа к конференц-связи с телефонным подключением, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.
+  - Чтобы просмотреть сведения обо всех номерах доступа к конференц-связи с телефонным подключением, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД:
     
         Get-CsDialInConferencingAccessNumber
     
-    Команда возвращает примерно следующую информацию:
+    Это приведет к возврату приблизительно такой информации:
     
         Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                              CN=Application Contacts,CN=RTCService=Services,
@@ -86,7 +86,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Get – CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) .
 
 </div>
 

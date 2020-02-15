@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblPreference'
+title: 'Lync Server 2013: Тблпреференце'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3976cb18336477c00a901116a125149b8c67ddeb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a>tblPreference в Lync Server 2013
+# <a name="tblpreference-in-lync-server-2013"></a>Тблпреференце в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764165"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-24_
+_**Последнее изменение темы:** 2012-09-24_
 
-Тблпреференце включает клиентские настройки пользователей. Обычно используется клиентами, предшествующими Lync 2013.
+Тблпреференце содержит параметры клиента для пользователей. Обычно они используются клиентами, предшествующими Lync 2013.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ _**Тема последнего изменения:** 2012-09-24_
 <tbody>
 <tr class="odd">
 <td><p>префлабел</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
-<td><p>Надпись с таким же форматом &lt;, как:&gt;URI SIP пользователя, | имя пользователя. &lt;наборы&gt;параметров.</p></td>
+<td><p>nvarchar (255), не равно null</p></td>
+<td><p>Метка с форматом: &lt;URI&gt;SIP пользователя | username. &lt;набор&gt;параметров.</p></td>
 </tr>
 <tr class="even">
 <td><p>префсекид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Последовательный номер (на метку) для целей управления версиями.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Порядковый номер (каждой отдельной метки) для управления версиями.</p></td>
 </tr>
 <tr class="odd">
 <td><p>префконтент</p></td>
 <td><p>nvarchar (max)</p></td>
-<td><p>Закодированное содержимое.</p></td>
+<td><p>Зашифрованное содержимое.</p></td>
 </tr>
 <tr class="even">
-<td><p>ластмодифиедби</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника, который обновил предпочтение.</p></td>
+<td><p>lastModifiedBy</p></td>
+<td><p>int, не равно null</p></td>
+<td><p>Идентификатор субъекта, обновившего параметр.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

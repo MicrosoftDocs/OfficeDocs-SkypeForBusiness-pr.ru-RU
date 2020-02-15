@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление ролей сервера'
+title: 'Lync Server 2013: Добавление ролей сервера'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738029"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-19_
+_**Последнее изменение темы:** 2012-06-19_
 
-После первоначального развертывания и запуска вы можете добавить дополнительные роли сервера для Lync Server 2013, например директора или отдельного сервера-посредника.
+После первоначального развертывания и запуска можно добавить дополнительные роли сервера для Lync Server 2013, например директора или изолированного сервера-посредника.
 
 <div>
 
 
 > [!NOTE]  
-> Прежде чем устанавливать дополнительные роли сервера, ознакомьтесь с разделами планирование, относящимися к каждой роли.
+> Перед установкой дополнительных ролей сервера ознакомьтесь с разделами по планированию по каждой устанавливаемой роли.
 
 
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-06-19_
 
   - [Настройка конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-Кроме того, дополнительные сведения о развертывании клиентского программного обеспечения и устройств, которые можно использовать в Lync Server 2013, приведены [в разделе Развертывание клиентов и устройств в Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).
+Кроме того, для получения дополнительных сведений о развертывании клиентского программного обеспечения и устройств, которые можно использовать с Lync Server 2013, ознакомьтесь со статьей [развертывание клиентов и устройств в Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).
 
 </div>
 

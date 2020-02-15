@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование мониторинга'
+title: 'Lync Server 2013: Планирование мониторинга'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04194f84b008b741bce887a3115c1ca31fc3ec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 728b65493fd573d4b9cb5a182284ac969bb6436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725339"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-05_
+_**Последнее изменение темы:** 2012-09-05_
 
-Служба мониторинга в Microsoft Lync Server 2013 предоставляет администраторам способ сбора данных об использовании, тенденциях и качества обслуживания для сеансов связи, выполняемых в своей организации. Для наблюдения в Lync Server 2013 больше не требуется отдельная серверная роль; Вместо этого служба мониторинга встроена в каждый сервер переднего плана. Однако наблюдение по умолчанию не включено в Lync Server 2013. Этот документ поможет вам определить, следует ли включить мониторинг в вашей организации.
+Служба мониторинга в Microsoft Lync Server 2013 предоставляет администраторам способ сбора данных об использовании, тенденции и качества обслуживания для сеансов связи, которые выполняются в Организации. Для мониторинга в Lync Server 2013 больше не требуется отдельная роль сервера; Вместо этого служба мониторинга встроена в каждый сервер переднего плана. Однако мониторинг по умолчанию не включен в Lync Server 2013. В этом документе содержатся сведения, помогающие определить, требуется ли мониторинг в вашей организации.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Общие сведения об отслеживании в Lync Server 2013](lync-server-2013-overview-of-monitoring.md)
+  - [Обзор мониторинга в Lync Server 2013](lync-server-2013-overview-of-monitoring.md)
 
-  - [Определение требований к мониторингу в Lync Server 2013](lync-server-2013-defining-your-requirements-for-monitoring.md)
+  - [Определение требований для мониторинга в Lync Server 2013](lync-server-2013-defining-your-requirements-for-monitoring.md)
 
   - [Включение мониторинга в Lync Server 2013](lync-server-2013-enabling-monitoring.md)
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2012-09-05_
 
   - [Компоненты и топологии для мониторинга в Lync Server 2013](lync-server-2013-components-and-topologies-for-monitoring.md)
 
-  - [Развертывание контрольного списка для мониторинга в Lync Server 2013](lync-server-2013-deployment-checklist-for-monitoring.md)
+  - [Контрольный список развертывания для мониторинга в Lync Server 2013](lync-server-2013-deployment-checklist-for-monitoring.md)
 
 </div>
 

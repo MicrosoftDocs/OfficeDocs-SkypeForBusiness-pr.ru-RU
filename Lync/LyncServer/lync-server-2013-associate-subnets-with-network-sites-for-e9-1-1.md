@@ -12,16 +12,16 @@ ms:contentKeyID: 48185787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4517272b711683c57e1a2c1f4f4c6fbd917e2abd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1883dc76953e7adb632a3abed38501c14e8a8c97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722789"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41722789"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Все подсети в сети, которые необходимо включить для E9-1-1, должны быть связаны с определенным сетевым сайтом. Это связано с тем, что сведения о подсети используются для определения сетевого сайта, на котором находится конечная точка.
+Каждая подсеть в вашей сети, для которой вы хотите включить службу E9-1-1, должна быть связана с конкретным узлом сети. Это обусловлено тем, что сведения о подсети используются для определения сайта сети, на котором находится конечная точка.
 
-E9-1-1 не имеет специальных требований для сопоставления подсетей с сетевыми сайтами. Чтобы создать связь между подсетями и сетевыми сайтами в вашей топологии, выполните действия, описанные в разделе [связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+E9-1-1 не предъявляет никаких особых требований относительно связи подсетей с сайтами сети. Чтобы создать связь между подсетями и сетевыми сайтами в топологии, выполните процедуры, описанные в разделе [связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
 </div>
 

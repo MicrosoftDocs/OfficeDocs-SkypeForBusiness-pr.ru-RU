@@ -1,5 +1,5 @@
 ---
-title: Управление чатами
+title: Управление комнатами
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32185d1f6124109bd957b0af4440ee054e872f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757163"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-rooms"></a>Управление чатами
+# <a name="manage-rooms"></a>Управление комнатами
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757163"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Создание новой почтовой комнаты для сервера чатов
+Создание новой почтовой комнаты для сервера сохраняемого чата
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
@@ -58,23 +58,23 @@ _**Тема последнего изменения:** 2013-02-21_
 
 </div>
 
-Внесение изменений в существующую запись сервера сохраняемого чата
+Внесение изменений в существующую комнату сервера сохраняемого чата
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: участники, руководители и выступающие могут быть заданы одновременно. Все они должны быть подмножеством Алловедмемберс за вычетом Дениедмемберс категории hosts. Комната с типом = Normal не может включать выступающие.
+Windows PowerShell: участники, руководители и докладчики могут быть заданы одновременно. Все они должны принадлежать к одному подмножеству AllowedMembers за исключением DeniedMembers главной категории. Комната с типом type=normal не может включать выступающих.
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a>Создание, получение, Настройка, очистка и удаление комнаты
+## <a name="create-get-set-clear-or-remove-a-room"></a>Создание, получение, задание, очистка или удаление комнаты
 
 Создание новой комнаты
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-Настройка комнаты
+Задание комнаты
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
@@ -86,9 +86,9 @@ Windows PowerShell: участники, руководители и выступ
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-WHERE — фильтр поддерживает только имя и описание и помогает находить комнаты, имя или описание которых соответствует строке ключевого слова. Пулфкдн выполняет поиск в заданном пуле серверов сохраняемого чата.
+где параметр –filter поддерживает только имя и описание и позволяет находить комнаты, имя и описание которых соответствуют строке с ключевым словом. PoolFqdn выполняет поиск в заданном пуле серверов сохраняемого чата.
 
-Очистка комнаты и удаление сообщений из комнаты
+Очистка комнаты и очистка сообщений в комнате
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 

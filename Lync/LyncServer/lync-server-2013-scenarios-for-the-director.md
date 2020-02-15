@@ -12,16 +12,16 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732621"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-22_
+_**Последнее изменение темы:** 2012-10-22_
 
-Режиссер — это сервер, на котором работает программа связи Microsoft Lync Server 2013, которая может проверять подлинность запросов пользователей, но не все учетные записи пользователей. В службе Director также размещаются веб-службы, аналогичные интерфейсу сервера переднего плана, и поступают запросы веб-билета и предоставляются другие службы.
+Директор — это сервер, на котором работает программа связи Microsoft Lync Server 2013, который может выполнять проверку подлинности запросов пользователей, но не может работать с другими учетными записями пользователей. В директоре также размещаются веб-службы, похожие на сервер переднего плана и подлинность запросов веб-билетов, а также другие службы.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Если вы развертываете режиссеров, вы должны опубликовать веб-службы для внешних пользователей, используя обратный прокси и веб-службы внешнего сервера. В следующих разделах описывается процесс планирования для возможных топологий режиссеров.
+> При развертывании режиссеров необходимо опубликовать веб-службы Director извне через обратный прокси-сервер, а также веб-службы сервера переднего плана. В следующих разделах описывается процесс планирования для возможных топологий директоров.
 
 
 
@@ -59,7 +59,7 @@ _**Тема последнего изменения:** 2012-10-22_
 
   - [Требования к оборудованию и программному обеспечению для директора в Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
-  - [Единственный директор в Lync Server 2013](lync-server-2013-single-director.md)
+  - [Один директор в Lync Server 2013](lync-server-2013-single-director.md)
 
   - [Масштабируемый пул директоров в Lync Server 2013](lync-server-2013-scaled-director-pool.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: сведения о просмотре QoE'
+title: 'Lync Server 2013: сведения о представлении QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724609"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a>QoE просмотра данных в Lync Server 2013
+# <a name="qoe-view-details-in-lync-server-2013"></a>QoE View Details in Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724609"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-В представлениях рассматриваются наиболее распространенные сценарии возврата данных из базы данных SQL QoE. Рекомендуется использовать представления для создания настраиваемых отчетов вместо прямого доступа к таблицам базы данных; Это связано с тем, что представления более удобны для обеспечения обратной совместимости с будущими выпусками.
+Представления охватывают наиболее распространенные сценарии возврата данных из базы данных SQL QoE. Рекомендуется использовать представления для создания настраиваемых отчетов вместо прямого доступа к таблицам базы данных; Это связано с тем, что представления более вероятнее всего поддерживают обратную совместимость с будущими выпусками.
 
 
 <table>
@@ -53,28 +53,28 @@ _**Тема последнего изменения:** 2012-10-03_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Аудиостреамдетаил представления в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о каждом звуковом потоке в базе данных.</p></td>
+<td><p><a href="lync-server-2013-audiostreamdetail-view.md">Представление Аудиостреамдетаил в Lync Server 2013</a></p></td>
+<td><p>Хранение информации о каждом аудиопотоке в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialine-view.md">Медиалине представления в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о каждой строке мультимедиа в базе данных. Один звуковой сеанс обычно состоит из одной линии звукового файла. Один из звуковых и видеофайлов (A/V) обычно состоит из одной линии звукового файла и одной линии видеоклипа; Тем не менее, в этом сеансе могут содержаться две строки видеофайла, если используется устройство конференц-связи или если используется представление коллекции.</p></td>
+<td><p><a href="lync-server-2013-medialine-view.md">Представление MediaLine в Lync Server 2013</a></p></td>
+<td><p>Хранит сведения о каждой строке носителя в базе данных. Один звуковой сеанс обычно содержит одну линию звукового носителя. Один сеанс аудио-и видеоданных (A/V) обычно содержит одну линию аудио-и видеоконференций; Однако в этом сеансе могут содержаться две видеолинии, если используется устройство конференц-связи или если используется представление галереи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Нетворкконфигуратионсеттингс представления в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">Представление Нетворкконфигуратионсеттингс в Lync Server 2013</a></p></td>
 <td><p>Хранит сведения о конфигурации сети.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-session-view.md">Представление сеанса в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о сеансах с записями в базе данных.</p></td>
+<td><p>Хранит информацию о сеансах с записями в базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragent-view.md">Представление "UserAgent" в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения об агентах пользователей, вовлеченных в сеансы с записями в базе данных.</p></td>
+<td><p><a href="lync-server-2013-useragent-view.md">Представление UserAgent в Lync Server 2013</a></p></td>
+<td><p>Хранит информацию об агентах пользователя, участвовавших в сеансах с записями в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostreamdetail-view.md">Видеостреамдетаил представления в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о каждом видеопотоке в базе данных.</p></td>
+<td><p><a href="lync-server-2013-videostreamdetail-view.md">Представление Видеостреамдетаил в Lync Server 2013</a></p></td>
+<td><p>Хранит информацию о каждом видеопотоке в базе данных.</p></td>
 </tr>
 </tbody>
 </table>

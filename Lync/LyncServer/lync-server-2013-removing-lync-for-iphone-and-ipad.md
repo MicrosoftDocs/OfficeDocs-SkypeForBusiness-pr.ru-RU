@@ -12,16 +12,16 @@ ms:contentKeyID: 51541476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad62e9b901eef194fd0a5d9a0fc7182d943a3409
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 06fe80342f5772568458bc7dda26f7f15c9334d1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746809"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-19_
+_**Последнее изменение темы:** 2013-02-19_
 
-Чтобы удалить Lync 2013 для iPhone или Microsoft Lync 2010 для iPad с устройства, выполните указанные ниже действия.
+Чтобы удалить Lync 2013 для iPhone или Microsoft Lync 2010 для iPad с устройства, выполните следующие действия:
 
-1.  На начальном экране мобильного устройства коснитесь значка Lync и удерживайте его.
+1.  На начальном экране мобильного устройства нажмите и удерживайте значок Lync.
 
-2.  Если плитка начинается на стабилизации видеоизображения и отображается **крестик** , коснитесь значка " **x** ", чтобы удалить приложение.
+2.  Когда отображаются плитки, начинающиеся с Шаке, а затем **нажмите x,** **чтобы удалить** приложение.
 
 </div>
 

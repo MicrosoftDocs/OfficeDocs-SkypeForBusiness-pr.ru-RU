@@ -12,16 +12,16 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740799"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-06-06_
+_**Последнее изменение темы:** 2016-06-06_
 
-Для включения единого магазина контактов в Lync Server 2013 не требуется никаких параметров топологии. Чтобы включить единое хранилище контактов для пользователей, необходимо следующее:
+Для включения единого хранилища контактов в Lync Server 2013 не требуются параметры топологии. Чтобы включить единое хранилище контактов для пользователей, необходимо выполнить следующие действия.
 
-  - Включена политика единого магазина контактов (по умолчанию включена).
+  - Политика единого хранилища контактов включена (по умолчанию — включена).
 
-  - Пользователи, которые входят в состав Lync 2013 хотя бы один раз.
+  - Пользователи входят в состав Lync 2013 по крайней мере один раз.
 
-После того как контакты пользователей будут перенесены, что происходит автоматически, когда пользователь входит в систему с помощью Lync 2013, пользователь может получить доступ к своим контактам Lync и управлять ими из Lync 2013, Outlook 2013 или Outlook Web Access. Пользователю не нужно входить в Lync для управления контактами из Outlook или Outlook Web Access.
+После миграции контактов пользователя, которые автоматически происходят при входе пользователя в Lync 2013, пользователь может получить доступ к своим контактам Lync и управлять ими из Lync 2013, Outlook 2013 или Outlook Web Access. Пользователю не нужно войти в Lync, чтобы управлять своими контактами из Outlook или Outlook Web Access.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Если пользователь входит в Lync 2010 после миграции, контакты и группы доступны и обновляются, но пользователи не могут управлять ими (то есть добавлять, удалять, перемещать, помечать, присвоенной или изменять).
+> Если пользователь входит в состав Lync 2010 после миграции, контакты и группы доступны и актуальны, но пользователь не может управлять (то есть добавлять, удалять, перемещать, помечать, унтаг или изменять) эти контакты.
 
 
 
@@ -59,9 +59,9 @@ _**Тема последнего изменения:** 2016-06-06_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Включение для пользователей единого хранилища контактов в Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [Включение пользователей для единого хранилища контактов в Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [Перенос пользователей в единое хранилище контактов в Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [Миграция пользователей в единое хранилище контактов в Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
   - [Откат перенесенных пользователей в Lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
 

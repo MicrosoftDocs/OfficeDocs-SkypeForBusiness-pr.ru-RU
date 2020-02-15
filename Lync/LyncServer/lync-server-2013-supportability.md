@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: обеспечение поддержки'
+title: Поддержка поддержки Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2829ff9869287a08532584e318362ba57e51d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 348cdf890574e80b5997dee4312ec1a4b6371566
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supportability-for-lync-server-2013"></a>Обеспечение поддержки для Lync Server 2013
+# <a name="supportability-for-lync-server-2013"></a>Поддержка для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731759"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-04-23_
+_**Последнее изменение темы:** 2012-04-23_
 
-Коммуникационное программное обеспечение Microsoft Lync Server 2013 поддерживает топологии, разработанные для удовлетворения потребностей малых, средних и больших предприятий и обладающих различными требованиями к производительности, высокой доступности и масштабируемости.
+Программное обеспечение Microsoft Lync Server 2013 Communications поддерживает топологии, предназначенные для малых, средних и больших предприятий, которые имеют различные требования к производительности, высокой доступности и масштабируемости.
 
 <div>
 
@@ -47,7 +47,7 @@ _**Тема последнего изменения:** 2012-04-23_
 
   - [Поддерживаемые топологии в Lync Server 2013](lync-server-2013-supported-topologies.md)
 
-  - [Поддерживаемое совместное размещение серверов в Lync Server 2013](lync-server-2013-supported-server-collocation.md)
+  - [Поддерживаемое выровненное размещение серверов в Lync Server 2013](lync-server-2013-supported-server-collocation.md)
 
   - [Поддерживаемые пути миграции и сценарии сосуществования в Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
 
@@ -55,9 +55,9 @@ _**Тема последнего изменения:** 2012-04-23_
 
   - [Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
-  - [Поддержка дополнительных серверов и соответствующие требования в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)
+  - [Дополнительная поддержка и требования к серверу в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)
 
-  - [Поддержка программного обеспечения и инфраструктуры клиентов и устройств в Lync Server 2013](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
+  - [Поддержка программного обеспечения и инфраструктуры для клиентов и устройств в Lync Server 2013](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
 
 </div>
 

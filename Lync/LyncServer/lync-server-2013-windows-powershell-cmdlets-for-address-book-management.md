@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты Windows PowerShell для управления адресными книгами'
+title: 'Lync Server 2013: командлеты Windows PowerShell для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec10f3e3d3d58a790ddc60fd1af1d1b09765685
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41727469"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Lync Server предоставляет несколько командлетов интерфейса командной строки Windows PowerShell для управления и настройки службы адресной книги. Некоторые из этих командлетов являются заменой для команд Абсервер. exe, используемых в предыдущих версиях Office Communications Server. В следующих разделах приведены командлеты, которые используются для задания, создания и получения сведений о службе адресной книги, ее конфигурации и сведения о веб-службах, которые используются службой адресной книги для получения доступа к службе адресной книги. файлы и параметры.
+Lync Server предоставляет несколько командлетов интерфейса командной строки Windows PowerShell для управления и настройки службы адресной книги. Некоторые из этих командлетов представляют собой замены для команд ABServer. exe, используемых в предыдущих версиях Office Communications Server. В следующих разделах описываются командлеты, используемые для задания, создания и извлечения сведений о службе адресной книги, ее настройках, а также сведений о веб-службах, которые используются службой адресной книги при извлечении клиентами ее файлов и параметров.
 
-Все эти командлеты выдаются в командной консоли Lync Server Management Shell, которую можно найти на сервере или на рабочей станции, где установлены средства администрирования.
+Все эти командлеты выдаются с помощью командной консоли Lync Server, которую можно найти в средствах Lync Server на сервере или рабочей станции, на которых установлены средства администрирования.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [New-Ксаддрессбукконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
+  - [New – CsAddressBookConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
-  - [Set-Ксаддрессбукконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
+  - [Set – CsAddressBookConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Get-Ксаддрессбукконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
+  - [Get – CsAddressBookConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Remove-Ксаддрессбукконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
+  - [Remove – CsAddressBookConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Test-Ксаддрессбуксервице для управления адресными книгами в Lync Server 2013](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
+  - [Test-CsAddressBookService для управления адресной книгой в Lync Server 2013](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
 
-  - [Test-Ксаддрессбуквебкуери для управления адресными книгами в Lync Server 2013](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
+  - [Test-CsAddressBookWebQuery для управления адресной книгой в Lync Server 2013](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
 
-  - [Update-Ксаддрессбук для управления адресными книгами в Lync Server 2013](lync-server-2013-update-csaddressbook-for-address-book-management.md)
+  - [Update — CsAddressBook для управления адресными книгами в Lync Server 2013](lync-server-2013-update-csaddressbook-for-address-book-management.md)
 
-  - [New-CsClientPolicy для управления адресными книгами в Lync Server 2013](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
+  - [New – CsClientPolicy для управления адресной книгой в Lync Server 2013](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
 
-  - [Set-CsClientPolicy для управления адресными книгами в Lync Server 2013](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
+  - [Set – CsClientPolicy для управления адресной книгой в Lync Server 2013](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
 
-  - [Get-Кссервице для управления адресными книгами в Lync Server 2013](lync-server-2013-get-csservice-for-address-book-management.md)
+  - [Get – CsService для управления адресной книгой в Lync Server 2013](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
+  - [New – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
-  - [Get-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
+  - [Get – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [Set-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
+  - [Set – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [Remove-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
+  - [Remove – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
 
 </div>
 

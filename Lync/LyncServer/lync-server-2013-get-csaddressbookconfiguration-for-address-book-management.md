@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-Ксаддрессбукконфигуратион для управления адресными книгами'
+title: 'Lync Server 2013: Get – CsAddressBookConfiguration для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30a9f29ee4842b11c503e913d1e80e97e2dab274
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d0129f32081b28e3baf11df2d5521778f5841e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756943"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-Ксаддрессбукконфигуратион для управления адресными книгами в Lync Server 2013
+# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get – CsAddressBookConfiguration для управления адресной книгой в Lync Server 2013
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41756943"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Ксаддрессбукконфигуратион локально: Рткуниверсалсерверадминс. Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:
+По умолчанию право на локальный запуск командлета Get-CsAddressBookConfiguration имеют члены группы RTCUniversalServerAdmins. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Windows PowerShell следующую команду:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsAddressBookConfiguration"}
 
-Командлет Get-Ксаддрессбукконфигуратион возвращает сведения о уже существующей конфигурации.
+Командлет Get-CsAddressBookConfiguration возвращает сведения о существующей конфигурации.
 
-Например:
+Пример:
 
     Get-CsAddressBookConfiguration -Identity site:Redmond
 
-Сочетание функциональных возможностей функций Get-Ксаддрессбукконфигуратион и Set-Ксаддрессбукконфигуратион позволяет администратору определить, какие конфигурации нужно изменить, а затем применить изменения. Например, комбинированный:
+Объединение командлетов Get-CsAddressBookConfiguration и Set-CsAddressBookConfiguration позволяет администратору определить конфигурации, требующие изменений, и затем применить изменения. Пример объединения командлетов:
 
     Get-CsAddressBookConfiguration -Filter site:* | Set-CsAddressBookConfiguration -RunTimeOfDay 23:00
 
-Возвращает все конфигурации на всех сайтах и применяет в конфигурациях Рунтимеофдай количество часов в 23:00.
+Возвращает все конфигурации сайтов и задает значение 23:00 для параметра RunTimeOfDay.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Get-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  
+[Get — CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  
   
 
 </div>

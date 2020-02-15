@@ -1,5 +1,5 @@
 ---
-title: Развертывание устройства или сервера для обеспечения связи в филиалах — задачи центрального сайта
+title: Развертывание устройства для обеспечения связи в филиалах или задач сервера-центрального сайта
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4756da7db87504e8b8c700cea1abb171b594543e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задачи центрального сайта
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013-Central Site Tasks
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41729629"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-Выполните задачи, описанные в этом разделе, на центральном сайте. Если вы развертываете бесперебойный сервер филиала, пропустите первую задачу.
+Выполните задачи, описанные в данном разделе, на центральном сайте. Если вы развертываете сервер для обеспечения связи в филиалах, пропустите первую задачу.
 
 <div>
 
 
 > [!IMPORTANT]
-> Перед выполнением задач, описанных в этом разделе, должны быть выполнены следующие условия: 
+> Перед выполнением данных задач следует обеспечить выполнение следующих условий: 
 > <UL>
 > <LI>
-> <P>Сервер Lync Server должен быть настроен на центральном сайте.</P>
+> <P>Lync Server должен быть настроен на центральном сайте.</P>
 > <LI>
-> <P>Специалист по установке на сайте филиала должен быть добавлен в группу РткуниверсалсбатечниЦианс.</P></LI></UL>Кроме того, мы рекомендуем вам выполнить указанные ниже действия.
+> <P>Следует добавить техника по установке на сайте филиала в группу RTCUniversalSBATechnicians.</P></LI></UL>Кроме того, мы рекомендуем вам выполнить следующее:
 > <UL>
 > <LI>
-> <P>Разверните DHCP-сервер на каждом сайте филиала, чтобы разрешить клиентам получать IP-адреса.</P>
+> <P>Разверните DHCP-сервер на каждом сайте филиала, чтобы клиенты могли получать IP-адреса.</P>
 > <LI>
-> <P>Кроме того, чтобы развернуть DHCP-сервер на каждом сайте филиала, включите службу DHCP для Lync Server на устройстве с бесперебойной ветвью или работающем сервере филиала с помощью командлета оболочки Lync Server Management Shell <STRONG>Set-ксрегистрарконфигуратион-енабледхкпсервер $true</STRONG>. Подробные сведения можно найти в разделе Требования к оборудованию и программному обеспечению <A href="lync-server-2013-branch-site-resiliency-requirements.md">для обеспечения устойчивости сайтов для Lync Server 2013</A> в документации по планированию.</P></LI></UL>
+> <P>В качестве альтернативы развертыванию DHCP-сервера на каждом сайте филиала включите службу DHCP Lync Server на устройстве для обеспечения связи в филиалах или сервере для обеспечения связи в филиалах с помощью командлета командной консоли Lync Server <STRONG>Set-CsRegistrarConfiguration – енабледхкпсервер $true</STRONG>. Для получения дополнительных сведений обратитесь к разделу "требования к оборудованию и программному обеспечению" <A href="lync-server-2013-branch-site-resiliency-requirements.md">для обеспечения устойчивости сайта филиала для Lync Server 2013</A> в документации по планированию.</P></LI></UL>
 
 
 
@@ -63,7 +63,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Добавление устройства для обеспечения связи в филиалах к Active Directory в Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [Добавление устройства для обеспечения связи в филиалах в Active Directory в Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
   - [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 

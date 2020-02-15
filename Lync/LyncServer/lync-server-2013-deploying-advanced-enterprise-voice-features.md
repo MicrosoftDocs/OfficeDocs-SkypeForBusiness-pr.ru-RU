@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание расширенных корпоративных голосовых функций'
+title: 'Lync Server 2013: развертывание расширенных функций корпоративной голосовой связи'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c29d679b047f5ccf616102c4b96c8468150fd77f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Развертывание улучшенных функций голосовой связи в Lync Server 2013
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41729584"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-22_
+_**Последнее изменение темы:** 2012-09-22_
 
 После настройки базовых функций Enterprise Voice для организации можно при необходимости развернуть одну или несколько расширенных функций Enterprise Voice, выполнив процедуры, описанные в этом разделе.
 
-Подробнее о расширенных функциях голосовой связи в разделе [планирование для Lync Server 2013](lync-server-2013-planning.md) можно найти в следующих разделах:
+Подробные сведения о расширенных функциях корпоративной голосовой связи можно найти в следующих разделах документации по [планированию Lync Server 2013](lync-server-2013-planning.md) :
 
   - [Планирование контроля допуска звонков в Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [Планирование чрезвычайных служб (E9-1-1) в Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [Планирование экстренных служб (E9-1-1) в Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+  - [Планирование обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [О сетевых областях, сайтах и подсетях в Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [Сведения о регионах сети, сайтах и подсетях в Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
-  - [Создание или изменение сетевого региона в Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Создание или изменение области сети в Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
 
   - [Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [Связь подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
-  - [Настройка управления допуском звонков в Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
+  - [Настройка контроля допуска звонков в Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
 
-  - [Настройка службы Enhanced 9-1-1 в Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Настройка расширенного 9-1-1 в Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
 
-  - [Настройка обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-media-bypass.md)
+  - [Настройка обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
 </div>
 

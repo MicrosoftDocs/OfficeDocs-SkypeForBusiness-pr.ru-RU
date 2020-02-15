@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: создание или изменение сетевого региона'
+title: 'Lync Server 2013: создание или изменение области сети'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75011a28567da8a6e386c42f272ee1510b8ceddc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7052109e5fe6bb7bc96a25a7ef443b9e22a07c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Создание или изменение сетевого региона в Lync Server 2013
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Создание или изменение области сети в Lync Server 2013
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41722574"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-*Регионы сетей* — это сетевые разветвители и одинарные кости, используемые в настройке управления допуском звонков, E9-1-1 и мультимедийными пропусками. Для создания и изменения областей сети выполните указанные ниже действия. Например, если вы уже создали сетевые регионы для одной голосовой связи, вам не нужно создавать новые сетевые регионы; другие дополнительные функции для корпоративной голосовой связи будут использовать те же сетевые регионы. Однако вам может потребоваться изменить существующее определение области сети для применения параметров, относящихся к функции. Например, если вы создали области сети для службы E9-1-1, для которой не требуется связанный центральный сайт, и затем развернули службу контроля допуска звонков, вам потребуется изменить определения областей сети, чтобы указать центральный сайт. Подробности можно найти [в разделе Настройка регионов сети для CAC в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
+*Области сети* представляют сетевые концентраторы или магистрали, используемые при настройке контроля допуска звонков, службы E9-1-1 и обхода сервера-посредника. Для создания и изменения областей сети используйте процедуры, описанные в этом разделе. Например, если вы уже создали области сети для одной функции голосовой связи, то вам не потребуется создавать новые области сети, поскольку остальные функции корпоративной голосовой связи будут использовать имеющиеся области сети. Тем не менее, возможно, потребуется изменить существующее определение области сети, чтобы применить специальные настройки для конкретных компонентов. Например, когда после создания областей сети для системы E9-1-1 (которой не требуется связанный центральный сайт) выполняется развертывание системы контроля допуска звонков, потребуется изменить определения области сети для указания центрального сайта. Дополнительные сведения см. [в статье configure Network regions for CAC в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
 
 <div>
 
 
 > [!NOTE]  
-> Любые особые требования к функциональным возможностям для определений сетевых областей описаны в разделе Развертывание для этой функции.
+> Все специальные требования в отношении определений области сети для конкретных компонентов указаны в документации по развертыванию данных компонентов.
 
 
 
 </div>
 
-Дополнительные сведения о работе с сетевыми областями можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
+Для получения подробных сведений о работе с областями сети обратитесь к документации по командной консоли Lync Server для следующих командлетов:
 
-  - [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
+  - [New — CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+  - [Get — CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
+  - [Set — CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
-
-<div>
-
-## <a name="create-a-network-region"></a>Создание сетевого региона
-
-Создание сетевого региона, который может использоваться для управления допуском звонков, E9-1-1 или мультимедийного обхода.
+  - [Remove — CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
 
 <div>
 
-## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>Создание сетевого региона с помощью командной консоли Lync Server Management Shell
+## <a name="create-a-network-region"></a>Создание области сети
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+Создание области сети, которая может использоваться службой контроля допуска звонков, службой E9-1-1 или при обходе сервера-посредника.
+
+<div>
+
+## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>Создание области сети с помощью консоли управления Lync Server
+
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Чтобы создать области сети, используйте командлет New-CsNetworkRegion.
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Например:
+    Пример:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
@@ -87,23 +87,23 @@ _**Тема последнего изменения:** 2012-10-19_
 
 <div>
 
-## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>Создание сетевого региона с помощью панели управления Lync Server
+## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>Создание области сети с помощью панели управления Lync Server
 
-1.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  В левой области навигации щелкните элемент **Конфигурация сети**.
+2.  В левой панели навигации выберите пункт **Конфигурация сети**.
 
-3.  Щелкните **Область**.
+3.  Щелкните **Region** (Область).
 
-4.  Выберите **Создать**.
+4.  Щелкните **New** (Создать).
 
-5.  На странице **Создание области** введите имя области сети в поле **Имя**.
+5.  На странице **New Region** (Создание области) введите имя области сети в поле **Name** (Имя).
 
-6.  Щелкните **Центральный сайт**, затем выберите центральный сайт в списке.
+6.  Щелкните **Central site** (Центральный сайт) и затем выберите центральный сайт в списке.
 
-7.  В поле **Описание** введите дополнительные сведения об области сети (необязательно).
+7.  В поле **Description** (Описание) введите дополнительные сведения об области сети (необязательно).
 
-8.  Нажмите **Исполнить**.
+8.  Нажмите кнопку **Зафиксировать**.
 
 9.  Чтобы завершить создание областей сети для вашей топологии, повторите шаги с 4 по 8, указав требуемые параметры для остальных областей.
 
@@ -113,21 +113,21 @@ _**Тема последнего изменения:** 2012-10-19_
 
 <div>
 
-## <a name="modify-a-network-region"></a>Изменение сетевого региона
+## <a name="modify-a-network-region"></a>Изменение области сети
 
-Измените параметры существующего сетевого региона, чтобы внести изменения в основные сведения о регионе или изменения, необходимые для новой функции.
+Изменение параметров существующей области сети в соответствии с изменениями основных сведений об области сети или требованиями новой функции.
 
 <div>
 
-## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>Изменение сетевого региона с помощью командной консоли Lync Server Management Shell
+## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>Изменение области сети с помощью командной консоли Lync Server
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Чтобы изменить существующую область сети, выполните командлет Set-CsNetworkRegion.
     
         Set-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Например:
+    Пример:
     
         Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
     
@@ -139,21 +139,21 @@ _**Тема последнего изменения:** 2012-10-19_
 
 <div>
 
-## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>Изменение сетевого региона с помощью панели управления Lync Server
+## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>Изменение области сети с помощью панели управления Lync Server
 
-1.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  В левой области навигации щелкните элемент **Конфигурация сети**.
+2.  В левой панели навигации щелкните **Network Configuration** (Параметры сети).
 
-3.  Нажмите кнопку навигации **Область**.
+3.  Нажмите кнопку навигации **Region** (Область).
 
 4.  В таблице щелкните область сети, которую требуется изменить.
 
-5.  Щелкните **Изменить**, затем щелкните **Подробнее**.
+5.  Щелкните **Edit** (Изменить) и затем щелкните **Show details** (Показать сведения).
 
-6.  На странице **Изменение области** измените требуемые параметры области сети.
+6.  На странице **Edit Region** (Изменение области) измените требуемые параметры области сети.
 
-7.  Нажмите **Исполнить**.
+7.  Щелкните **Commit** (Применить).
 
 8.  Чтобы завершить изменение областей сети, повторите шаги 4–7, используя параметры для других областей.
 

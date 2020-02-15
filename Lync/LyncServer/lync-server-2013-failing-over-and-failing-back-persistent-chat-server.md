@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отработка отказа и восстановление после сбоя сервера сохраняемого чата'
+title: 'Lync Server 2013: отработка отказа и сбоев обратного сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d36196da91cacfc47d0f3117a534567ab76e3946
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 78d17ee4ae73ccfa068275ca1244355253813ae6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a>Отработка отказа и восстановление после сбоя сервера сохраняемого чата в Lync Server 2013
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a>Отработка отказа и отработка отказа сервера сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765217"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-03_
+_**Последнее изменение темы:** 2012-08-03_
 
-Чтобы отдать отказ и отдать отказ на переход на сервер Lync Server 2013, постоянный чат, вам необходимо ознакомиться с процессами репликации и перемещения при сбое для Microsoft SQL Server 2008 R2 и более поздних версий. Кроме того, необходимо ознакомиться со службами сервера сохраняемого чата.
+Для отработки отказа и сбоя обратного сервера Lync Server 2013, сервера сохраняемого чата необходимо ознакомиться с процессами репликации и отработки отказа для Microsoft SQL Server 2008 R2 и более поздних версий. Кроме того, следует ознакомиться со службами сервера сохраняемого чата.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-08-03_
 
   - [Отработка отказа сервером сохраняемого чата в Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)
 
-  - [Восстановление сервера сохраняемого чата после сбоя в Lync Server 2013](lync-server-2013-failing-back-persistent-chat-server.md)
+  - [Восстановление сервера сохраняемого чата в Lync Server 2013](lync-server-2013-failing-back-persistent-chat-server.md)
 
 </div>
 

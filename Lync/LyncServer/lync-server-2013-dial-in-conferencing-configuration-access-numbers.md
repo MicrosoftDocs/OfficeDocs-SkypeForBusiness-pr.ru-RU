@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Конференц-связь с телефонным подключением (номера конфигурации/доступа)'
+title: 'Lync Server 2013: Конференц-связь с телефонным подключением (конфигурация/номера доступа)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e30bc351494185203808a9e8b0c6d7138ebf00d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 997d343d535c54a493125978a73c0a53d0a4ca44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762317"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a>Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации и доступа)
+# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a>Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации/доступа)
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762317"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-18_
+_**Последнее изменение темы:** 2012-09-18_
 
-В этом разделе объясняется, как использовать панель управления Lync Server 2013 для настройки конференц-связи с телефонным подключением для использования среды Lync Server 2013.
+В подразделах этого раздела описывается использование панели управления Lync Server 2013 для настройки конференц-связи с телефонным подключением для использования среды Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Включение и отключение конференц-связи с телефонным подключением для собраний в Lync Server 2013](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
+  - [Включение или отключение конференц-связи с телефонным подключением для собраний в Lync Server 2013](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
-  - [Номера доступа для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-dial-in-conferencing-access-numbers.md)
+  - [Номера доступа к конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-dial-in-conferencing-access-numbers.md)
 
-  - [Настройка правил для личного идентификационного номера конференц-связи с телефонным подключением (PIN) в Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
+  - [Настройка правил ПИН-кодов для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
 
 </div>
 

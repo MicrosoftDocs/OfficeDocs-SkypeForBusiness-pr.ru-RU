@@ -12,16 +12,16 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d443631591ffcb00ac9a86dff038b9bb14ec085
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0995c141c21fd24be8da31b36c483e04c626127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762087"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-15_
+_**Последнее изменение темы:** 2012-10-15_
 
-Для управления безопасностью и проверкой подлинности Lync Server 2013 выполните указанные ниже действия.
+Используйте следующие процедуры для управления безопасностью и проверкой подлинности Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>В этом разделе
 
-  - [Управление сертификатами рабочих процессов в Lync Server 2013](lync-server-2013-managing-certificates-for-operational-processes.md)
+  - [Управление сертификатами для рабочих процессов в Lync Server 2013](lync-server-2013-managing-certificates-for-operational-processes.md)
 
-  - [Управление проверкой подлинности между сервером (OAuth) и приложениями-партнерами в Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [Управление проверкой подлинности между серверами (OAuth) и партнерским приложением в Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
   - [Настройка проверки подлинности на панели управления Lync Server 2013](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
 
-  - [Управление параметрами контактов в Lync Server 2013](lync-server-2013-managing-pin-settings.md)
+  - [Управление параметрами ПИН-кодов в Lync Server 2013](lync-server-2013-managing-pin-settings.md)
 
 </div>
 

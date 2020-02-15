@@ -12,16 +12,16 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f77a307b516874449a86f42f84a3053e5f5914
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56d0ce8ddd96ec0e77136e95cf7d415acec7a96b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762547"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762547"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-Развертывание коммуникационного программного обеспечения Lync Server 2013 включает в себя подготовку доменных служб Active Directory, развертывание серверов переднего плана и других основных компонентов основного приложения Lync Server 2013, а затем развертывание дополнительных ролей сервера и функций, которые возможно, вам потребуется ваша организация, например доступ внешних пользователей и голосовой голос.
+Развертывание программного обеспечения Lync Server 2013 Communications включает подготовку доменных служб Active Directory, развертывание серверов переднего плана и других основных компонентов Lync Server 2013, а затем развертывание дополнительных ролей сервера и компонентов, которые в Организации может потребоваться, например, доступ к внешним пользователям и корпоративной голосовой связи.
 
-В этой статье описаны три сценария развертывания Lync Server 2013:
+В этой документации описываются три сценария развертывания Lync Server 2013:
 
   - Новое развертывание Lync Server 2013, Enterprise Edition
 
@@ -47,7 +47,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
   - Новое развертывание Lync Server 2013 Standard Edition или Enterprise Edition в существующем развертывании Lync Server 2010 Standard Edition или Enterprise Edition
 
-Сведения о том, как развертывать Lync Server 2013 в существующей среде Microsoft Office Communications Server 2007 или Microsoft Office Communications Server 2007 R2, можно найти в документации по [миграции](migration.md) .
+Сведения о развертывании Lync Server 2013 в существующей среде Microsoft Office Communications Server 2007 или Microsoft Office Communications Server 2007 R2 можно найти в документации по [миграции](migration.md) .
 
 <div>
 
@@ -73,15 +73,15 @@ _**Тема последнего изменения:** 2012-10-18_
 
   - [Развертывание клиентов и устройств в Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
 
-  - [Планирование и развертывание единого банка контактов в Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
+  - [Планирование и развертывание единого хранилища контактов в Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)
 
-  - [Управление проверкой подлинности между сервером (OAuth) и приложениями-партнерами в Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [Управление проверкой подлинности между серверами (OAuth) и партнерским приложением в Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [Обновление с ознакомительной версии Lync Server 2013](lync-server-2013-updating-from-the-evaluation-version.md)
+  - [Обновление ознакомительной версии Lync Server 2013](lync-server-2013-updating-from-the-evaluation-version.md)
 
   - [Развертывание удаленного управления звонками в Lync Server 2013](lync-server-2013-deploying-remote-call-control.md)
 
-  - [Развертывание поддержки мобильной работы в Lync Server 2013](lync-server-2013-deploying-mobility.md)
+  - [Развертывание мобильной работы в Lync Server 2013](lync-server-2013-deploying-mobility.md)
 
   - [Настройка интеграции с сервером Office Web Apps и Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 

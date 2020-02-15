@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: выполнение отработки отказа для пула электронной стороны ABC'
+title: 'Lync Server 2013: выполнение отработки отказа для пула переднего плана ABC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155d8224b80e614ac8609c007a16072e9d3a5c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9fd0be7bbde714a380473dc8b470437a9fee4cdc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755279"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>Выполнение отработки отказа в пуле переднего плана для электронной стороны в Lync Server 2013
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a>Выполнение отработки отказа для пула переднего плана ABC в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755279"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-В двух темах этого раздела описаны процедуры выполнения отработки отказа для пула ABC в Lync Server 2013, где есть Объединенные серверные пулы Lync Server A и B, а пул A становится невосстанавливаемым. С помощью этой процедуры вы создаете новый пул переднего плана C с новым полным доменным именем (FQDN). Пул C строится на основе данных, которые не удалось получить из пула. Эта процедура также включает в себя пару групп B и C.
+В двух подразделах этого раздела описывается процедура выполнения отработки отказа для пула ABC в Lync Server 2013, где есть связанные пулы переднего плана Lync Server A и B, а пул "а" становится невосстанавливаемым. С помощью этой процедуры вы создадите новый пул переднего плана C с новым полным доменным именем (FQDN). Пул C строится на основе информации из сбоя пула A. Кроме того, эта процедура включает в себя объединение пулов B и C.
 
-  - [Требования для резервного копирования для отработки отказа в пуле ABC в Lync Server 2013](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [Необходимые условия резервного копирования для отработки отказа для пула ABC в Lync Server 2013](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [Простая процедура отработки отказа для интерфейсного пула в Lync Server 2013](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [Процедура отработки отказа для пула переднего плана ABC в Lync Server 2013](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 

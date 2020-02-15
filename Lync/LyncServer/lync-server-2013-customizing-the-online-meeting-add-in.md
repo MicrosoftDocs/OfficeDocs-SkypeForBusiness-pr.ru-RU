@@ -12,16 +12,16 @@ ms:contentKeyID: 48183424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2a9fb05c3f1777722d1a6f7aaa49f1bb00baeff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94624d4c301d6715b1435ab26132668a8d7efd93
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728749"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-28_
+_**Последнее изменение темы:** 2012-06-28_
 
-Надстройка "собрание по сети" для Lync 2013 поддерживает управление собранием в клиенте обмена сообщениями и совместной работы в Outlook. Настроить поведение надстройки можно несколькими способами. Среди них есть новые варианты добавления логотипов и текста в текст приглашения на собрание по сети.
+Надстройка "собрание по сети" для Lync 2013 поддерживает управление собраниями в клиенте обмена сообщениями и совместной работы Outlook. Существует несколько способов настройки рабочих характеристик надстройки. Среди них — новые параметры для добавления эмблем и текста в основную часть приглашений на интерактивное собрание.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Обновление списка включения Outlook в Lync Server 2013](lync-server-2013-updating-the-outlook-enable-list.md)
+  - [Обновление списка поддержки Outlook в Lync Server 2013](lync-server-2013-updating-the-outlook-enable-list.md)
 
   - [Настройка приглашения на собрание в Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md)
 

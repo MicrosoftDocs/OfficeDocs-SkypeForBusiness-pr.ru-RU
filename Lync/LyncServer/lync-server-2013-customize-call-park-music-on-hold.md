@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка прослушивания музыки для парковки на удержании'
+title: 'Lync Server 2013: Настройка музыки парковки вызовов при удержании'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feebc353b48b3a6b8f9adb17c08ab9af778bb1ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Настройка музыкального сопровождения для приема звонков на удержании в Lync Server 2013
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Настройка музыки парковки вызовов на удержании в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728759"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-10_
+_**Последнее изменение темы:** 2012-09-10_
 
-Вы можете указать собственный музыкальный файл, который будет использоваться для сохранения музыки, вместо музыкального файла по умолчанию, который входит в состав Lync Server 2013. Чтобы настроить музыку, воспроизводимую при удержании вызова, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile**.
+Можно указать собственный музыкальный файл, который будет использоваться для хранения музыки, вместо музыкального файла по умолчанию, который поставляется с Lync Server 2013. Чтобы настроить музыку, воспроизводимую при удержании вызова, используйте командлет **Set-CsCallParkServiceMusicOnHoldFile**.
 
 <div>
 
 
 > [!NOTE]  
-> Если вы настроите музыку на удержании и хотите использовать одну и ту же музыку для нескольких сайтов, необходимо настроить музыкальный файл для каждого сайта, на котором запущено приложение для парковки звонков.
+> Если вы настраиваете музыку на удержание и хотите использовать ту же музыку для нескольких сайтов, необходимо настроить музыкальный файл для каждого сайта, на котором выполняется приложение парковки вызовов.
 
 
 
@@ -53,11 +53,11 @@ _**Тема последнего изменения:** 2012-09-10_
 
 ## <a name="to-customize-the-music-file"></a>Чтобы настроить файл музыки, выполните следующие действия
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Выполните следующую команду:
+3.  Выполняем
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -65,12 +65,12 @@ _**Тема последнего изменения:** 2012-09-10_
     
 
     > [!TIP]  
-    > Используйте командлет <STRONG>Get-CsService</STRONG> для идентификации службы. Подробности можно найти в <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">статьях Get-кссервице</A>.
+    > Используйте командлет <STRONG>Get-CsService</STRONG> для идентификации службы. Дополнительные сведения см. в статье <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get – CsService</A>.
 
     
     </div>
     
-    В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. Подробности можно найти в разделе [Set-кскаллпарксервицемусиконхолдфиле](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
+    В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. Дополнительные сведения см. в статье [Set – кскаллпарксервицемусиконхолдфиле](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -82,8 +82,8 @@ _**Тема последнего изменения:** 2012-09-10_
 ## <a name="see-also"></a>См. также
 
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Set — Кскаллпарксервицемусиконхолдфиле](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get — CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

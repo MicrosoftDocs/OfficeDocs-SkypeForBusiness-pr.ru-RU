@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты статических маршрутов'
+title: 'Lync Server 2013: командлеты статической маршрутизации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9e5b67153d353c0b08ba33853c76d16cd8ba3f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,88 +35,88 @@ ms.locfileid: "41731799"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-С помощью статических маршрутов администраторы могут заранее определять сетевые маршруты, предпринимаемые сообщениями SIP. Когда сервер получает сообщение, сервер проверяет адрес сообщения, а затем пересылает сообщение на сервер следующего прыжка, предварительно настроенный администратором. При правильной настройке статические маршруты помогают обеспечить своевременную и точную доставку сообщений с минимальными временными потерями на серверах.
+С помощью статических маршрутов администраторы могут предварительно определять сетевые маршруты, по которым будут передаваться сообщения SIP. Когда сервер получает сообщение, он проверяет его адрес и перенаправляет его на следующий сервер прыжков, настроенный администратором. При правильной настройке статические маршруты позволяют обеспечить своевременную и надежную доставку сообщений с минимальной нагрузкой на серверы.
 
 <div>
 
-## <a name="static-routing-cmdlets"></a>Командлеты статических маршрутов
+## <a name="static-routing-cmdlets"></a>Командлеты статической маршрутизации
 
-Статические маршруты, настроенные для Microsoft Lync Server 2013, должны создаваться с помощью командлета [New-ксстатикрауте](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) , если иное не рекомендовано специалистам службы поддержки Майкрософт. После создания маршрута вы можете воспользоваться командлетами Ксстатикраутингконфигуратион, чтобы добавить этот маршрут в статическое семейство маршрутизации.
+Если иное не указано в службе поддержки Майкрософт, статические маршруты, настроенные для Microsoft Lync Server 2013, должны быть созданы с помощью командлета [New – CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) . После создания маршрута вы можете добавить его в набор статической маршрутизации с помощью командлетов CsStaticRoutingConfiguration.
 
 **Статическая маршрутизация**
 
   - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+    [Get — CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [New — CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Remove — CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Set — CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [New — CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [Get — CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [New-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [New — CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [Remove — CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [Set-Ксстатикраутингконфигуратион](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [Set — CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New — CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New — CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New — CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New — CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New — CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New — CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New — CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New — CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
 </div>
 

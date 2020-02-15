@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: представление Воипдетаилс'
+title: 'Lync Server 2013: представление Таблица voipdetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4222ad7251c17501b1d9edec8cbdd8bafc015773
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-view-in-lync-server-2013"></a>Воипдетаилс представления в Lync Server 2013
+# <a name="voipdetails-view-in-lync-server-2013"></a>Представление Таблица voipdetails в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758551"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-В представлении Воипдетаилс хранятся сведения о одноранговых сеансах, где по крайней мере один пользователь является пользователем VoIP. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении Таблица voipdetails хранятся сведения об одноранговых сеансах, где по крайней мере один пользователь является пользователем VoIP. Это представление было представлено в Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> В представлении Воипдетаилс содержатся все столбцы в <A href="lync-server-2013-sessiondetails-view.md">представлении сессиондетаилс в Lync Server 2013</A> в дополнение к столбцам, перечисленным ниже.
+> В представлении Таблица voipdetails содержатся все столбцы в <A href="lync-server-2013-sessiondetails-view.md">представлении SessionDetails в Lync Server 2013</A> , а также столбцы, перечисленные ниже.
 
 
 
@@ -60,19 +60,19 @@ _**Тема последнего изменения:** 2012-10-18_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>фромфоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI телефона пользователя, запустившего сеанс.</p></td>
+<td><p>Универсальный код ресурса (URI) телефона пользователя, запустившего сеанс.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>тофоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Универсальный код ресурса (URI) пользователя, который присоединился к сеансу.</p></td>
+<td><p>Универсальный код ресурса (URI) телефона пользователя, который присоединился к сеансу.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>дисконнектедбюри</strong></p></td>
@@ -81,37 +81,37 @@ _**Тема последнего изменения:** 2012-10-18_
 </tr>
 <tr class="even">
 <td><p><strong>дисконнектедбюритипе</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Тип URI пользователя, который отключил сеанс. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Тип универсального кода ресурса (URI) пользователя, который отключил сеанс. Дополнительные сведения см. <a href="lync-server-2013-uritypes-table.md">в таблице таблица uritypes в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>дисконнектедбитенант</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Клиент пользователя, который отключил сеанс.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>дисконнектедбифоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Универсальный код ресурса (URI) пользователя, который отключил сеанс.</p></td>
+<td><p>Универсальный код ресурса (URI) телефона пользователя, который отключил сеанс.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>фроммедиатионсервер</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Сервер исправлений, используемый пользователем, который запустил сеанс.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Сервер-посредник, используемый пользователем, запустившего сеанс.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>томедиатионсервер</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Сервер исправлений, используемый пользователем, который присоединил сеанс.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Сервер-посредник, используемый пользователем, который присоединился к сеансу.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>фромгатевай</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Шлюз, используемый пользователем, который запустил сеанс.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Шлюз, используемый пользователем, запустившего сеанс.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>тогатевай</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Шлюз, используемый пользователем, который присоединился к сеансу.</p></td>
 </tr>
 </tbody>

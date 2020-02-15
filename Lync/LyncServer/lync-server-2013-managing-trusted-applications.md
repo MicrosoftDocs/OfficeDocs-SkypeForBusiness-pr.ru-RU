@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Управление надежными приложениями'
+title: 'Lync Server 2013: Управление доверенными приложениями'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 502193873b4dd80ae7d8698a98ecaad2df8a5b52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 869ee1cf5e37225e662cd8a2f9f4656dce169697
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41727779"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-С помощью процедур, описанных в этом разделе, можно просмотреть список надежных приложений или просмотреть сведения о доверенном приложении в Lync Server 2013. Эти процедуры можно выполнить в управляющей панели Lync Server 2013 или в командной консоли Lync Server Management Shell.
+С помощью процедур, описанных в этом разделе, можно просмотреть список доверенных приложений или просмотреть информацию о доверенном приложении в Lync Server 2013. Эти процедуры можно выполнить в панели управления Lync Server 2013 или в консоли управления Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр списка надежных приложений в Lync Server 2013](lync-server-2013-view-a-list-of-trusted-applications.md)
+  - [Просмотр списка доверенных приложений в Lync Server 2013](lync-server-2013-view-a-list-of-trusted-applications.md)
 
-  - [Просмотр сведений о надежном приложении в Lync Server 2013](lync-server-2013-view-trusted-application-information.md)
+  - [Просмотр сведений о доверенных приложениях в Lync Server 2013](lync-server-2013-view-trusted-application-information.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание системы комнат Lync на веб-портале администрирования'
+title: 'Lync Server 2013: развертывание веб-портала администрирования системы комнат Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7f62a5c7fde401452744abba5f4b6dfec175da2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Deploying the Lync Room System Administrative Web Portal in Lync Server 2013
+# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Развертывание веб-портала администрирования системы комнат Lync в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740809"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-05-04_
+_**Последнее изменение темы:** 2015-05-04_
 
-Портал администрирования Microsoft Lync Server 2013 Lync (ЛРС) — это веб-портал, с помощью которого организации могут сохранять Конференц-зал системы Lync. Администраторы могут использовать веб-портал ЛРС администрирования для мониторинга работоспособности ЛРС, например за счет наблюдения за подключением аудио-и видеоустройств. С помощью этого портала, администраторы могут удаленно собирать диагностические сведения, чтобы отслеживать работоспособность конференц-зала.
+Веб-портал администрирования Microsoft Lync Server 2013 Lync (LRS) — это веб-портал, который организации могут использовать для обслуживания комнат конференц-зала системы комнат Lync. Администраторы могут использовать веб-портал администрирования LRS для наблюдения за работоспособностью LRS, например, мониторингом подключенных аудио-и видеоустройств. С помощью этого портала администраторы могут удаленно собирать диагностические сведения для отслеживания работоспособности конференц-зала.
 
-Веб-портал ЛРС администрирования разворачивается на каждом сервере клиентского доступа Lync. Это руководство содержит инструкции для администраторов о том, как установить и настроить веб-портал ЛРС администрирования. Она предназначена для администраторов, которые имеют опыт администрирования Lync Server и имеют права администратора на изменение топологии сервера Lync.
+Веб-портал администрирования LRS развертывается на каждом сервере переднего плана Lync. В этом руководстве представлены инструкции для администраторов об установке и настройке веб-портала администрирования LRS. Он предназначен для администраторов, обладающих знаниями об администрировании Lync Server и имеющих права администратора на изменение топологии Lync Server.
 
-После развертывания веб-портала ЛРС на сервере администраторы могут проверить состояние всех комнат ЛРС, войдя на сайт со своих компьютеров или ноутбуков.
+После развертывания веб-портала администрирования LRS на сервере администраторы могут проверить состояние всех комнат LRS, войдя на сайт с собственных компьютеров или ноутбуков.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Когда вы устанавливаете веб-портал ЛРС на сайте Microsoft Lync Server 2013, вы должны использовать <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">веб-портал для Microsoft Lync на комнатной подсистеме для Lync Server 2013</A>.<BR>Для Skype для бизнеса Server 2015 доступна новая версия веб-портала ЛРС, но ее не следует устанавливать, если вы не развернули версию Skype для бизнеса Server 2015. Скачайте <A href="http://go.microsoft.com/fwlink/?linkid=544807">веб-портал для Microsoft Lync комнатной подсистемы для Skype для бизнеса Server 2015</A>.
+> При установке веб-портала администрирования LRS в развертывании Microsoft Lync Server 2013 следует использовать <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">веб-портал администрирования системы комнат Microsoft Lync для Lync Server 2013</A>.<BR>Для Skype для бизнеса Server 2015 доступна новая версия веб-портала администрирования LRS, но не следует устанавливать эту версию, если вы не развернули Skype для бизнеса Server 2015. Скачайте <A href="http://go.microsoft.com/fwlink/?linkid=544807">веб-портал администрирования системы комнат Microsoft Lync для Skype для бизнеса Server 2015</A>.
 
 
 
@@ -57,11 +57,11 @@ _**Тема последнего изменения:** 2015-05-04_
 
 ## <a name="in-this-section"></a>Содержание
 
-[Configuring your Lync Server 2013 environment for the Lync Room System Administrative Web Portal](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
+[Настройка среды Lync Server 2013 для веб-портала администрирования системы комнат Lync](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
 
-[Installing the Lync Room System Administrative Web Portal in Lync Server 2013](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
+[Установка веб-портала администрирования системы комнат Lync в Lync Server 2013](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
 
-[Using the Lync Room System Administrative Web Portal in Lync Server 2013](lync-server-2013-using-the-lync-room-system-administrative-web-portal.md)
+[Использование веб-портала администрирования системы комнат Lync в Lync Server 2013](lync-server-2013-using-the-lync-room-system-administrative-web-portal.md)
 
 </div>
 

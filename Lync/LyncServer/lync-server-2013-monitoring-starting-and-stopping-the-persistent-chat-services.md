@@ -12,20 +12,20 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d6f5a80a52c4bb506240dfbdf5a28929c6f3f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 398821ebd955c99b6da6430815062f9907b04cf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756783"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>Установка операционных систем и необходимого программного обеспечения на серверы в Lync Server 2013
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>Мониторинг, запуск и остановка служб сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756783"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Службы постоянной видеосвязи и проверки соответствия требованиям в чате входят в топологию Lync Server 2013 и поэтому могут быть отслеживаемы, остановлены и запущены с помощью командлетов Windows PowerShell, **Get-ксвиндовссервице**, **Stop-ксвиндовссервице**и **Start-ксвиндовссервице**соответственно.
+Службы сохраняемого чата и службы соответствия сохраняемого чата входят в топологию Lync Server 2013, поэтому их можно отслеживать, останавливать и запускать с помощью командлетов Windows PowerShell, **Get – CsWindowsService**, **Stop CsWindowsService**и **Start/CsWindowsService**соответственно.
 
 </div>
 

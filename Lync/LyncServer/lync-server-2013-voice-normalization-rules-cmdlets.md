@@ -12,16 +12,16 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce93f84f977630ec4b0764b67ce4622c9b81f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41757193"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Правила нормализации голоса используются для преобразования требования набора номера (например, набора номера 9 для доступа к внешней линии) на формат телефонного номера E. 164, используемого Microsoft Lync Server 2013.
+Правила нормализации голосовой связи используются для преобразования требования набора номера (например, набора 9 для доступа к внешней линии) к формату телефонных номеров E. 164, используемому Microsoft Lync Server 2013.
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a>Командлеты правил нормализации голосовых сообщений
+## <a name="voice-normalization-rules-cmdlets"></a>Командлеты правил нормализации голосовой связи
 
-Для управления правилами нормализации голосовой связи можно использовать следующие командлеты.
+Для управления правилами нормализации голосовой связи можно применять следующие командлеты.
 
-**Правила нормализации голосовых сообщений**
-
-  - <span></span>  
-    [Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+**Правила нормализации голосовой связи**
 
   - <span></span>  
-    [New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [Get — CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [New — CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [Remove — CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Set — CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [New — Ксвоицережекс](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 
@@ -74,7 +74,7 @@ _**Тема последнего изменения:** 2012-06-20_
 ## <a name="see-also"></a>См. также
 
 
-[Командлеты для корпоративных голосовых команд в Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
+[Командлеты корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
 [Блог Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

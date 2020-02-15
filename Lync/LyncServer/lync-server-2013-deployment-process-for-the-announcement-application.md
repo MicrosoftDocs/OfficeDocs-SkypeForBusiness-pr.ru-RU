@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: процесс развертывания для приложения извещения'
+title: 'Lync Server 2013: процесс развертывания для приложения "оповещение"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Процесс развертывания приложения для объявлений в Lync Server 2013
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Процесс развертывания приложения "объявление" в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762577"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-В этом разделе приводятся общие сведения о том, какие действия выполняются при развертывании приложения объявлений. Перед настройкой объявлений необходимо развернуть корпоративный голос. Компоненты, необходимые для приложения извещения, устанавливаются и включаются при развертывании корпоративной голосовой связи.
+В этом разделе представлен обзор действий, необходимых при развертывании приложения извещения. Перед настройкой объявлений необходимо развернуть корпоративную голосовую связь. Компоненты, необходимые для приложения извещения, устанавливаются и включаются при развертывании корпоративной голосовой связи.
 
 ### <a name="announcement-deployment-process"></a>Процесс развертывания объявлений
 
@@ -68,14 +68,14 @@ _**Тема последнего изменения:** 2012-09-12_
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">Создание объявления в Lync Server 2013</a></p>
+<td><p><a href="lync-server-2013-create-an-announcement.md">Создание извещения в Lync Server 2013</a></p>
 <p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Настройка таблицы неназначенных номеров в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Проверка развертывания объявления</p></td>
 <td><p>Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Необязательно Проверка развертывания объявления в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Необязательно Проверка развертывания объявлений в Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

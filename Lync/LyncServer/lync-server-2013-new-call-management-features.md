@@ -12,16 +12,16 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb4f93e0120d8295d601e482e0c6600a092fe599
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63715d3785d8b7a4d605b2e5acc416f36f01c2c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,22 +35,22 @@ ms.locfileid: "41765820"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-12-18_
+_**Последнее изменение темы:** 2012-12-18_
 
-В следующих разделах описаны изменения функций управления звонками в Lync Server 2013.
+В следующих разделах описываются изменения функций управления вызовами в Lync Server 2013.
 
   - [Новые функции приложения группы ответа в Lync Server 2013](lync-server-2013-new-response-group-application-features.md)
 
-  - [Новые функции приложения приостановки звонков в Lync Server 2013](lync-server-2013-new-call-park-application-features.md)
+  - [Новые функции приложения парковки вызовов в Lync Server 2013](lync-server-2013-new-call-park-application-features.md)
 
-  - [Новая функция отправки группового звонка в Lync Server 2013](lync-server-2013-new-group-call-pickup-feature.md)
+  - [Новая функция ответа на звонки в группе Lync Server 2013](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Новые возможности корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Новые функции корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

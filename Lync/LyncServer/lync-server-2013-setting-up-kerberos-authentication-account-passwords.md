@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка паролей учетных записей проверки подлинности Kerberos'
+title: 'Lync Server 2013: Настройка паролей учетных записей проверки подлинности Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764615"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-03_
+_**Последнее изменение темы:** 2010-11-03_
 
-После того как вы создадите объект компьютера для учетной записи проверки подлинности Kerberos, вы можете настроить пароль для учетной записи. Вы запускаете командлет Windows PowerShell для задания пароля учетной записи Kerberos на одном сервере. Вы можете установить пароль для объекта, созданного для проверки подлинности Kerberos. Для пароля может быть задано известное значение, но по умолчанию используется случайный пароль. Пароль доступен для всех источников проверки подлинности Kerberos, использующих эту учетную запись. Вы можете использовать командлеты Windows PowerShell для настройки и управления паролями учетной записи Kerberos.
+После создания объекта-компьютера для учетной записи проверки подлинности Kerberos можно задать пароль для учетной записи. Для задания пароля учетной записи Kerberos на одном сервере выполните командлет Windows PowerShell. Кроме того, можно задать пароль для объекта, созданного для проверки подлинности Kerberos. В качестве пароля можно использовать известное значение, однако по умолчанию используется случайный пароль. Пароль доступен всем источникам проверки подлинности Kerberos, которые используют учетную запись. Командлеты Windows PowerShell используются для настройки паролей учетных записей Kerberos и управления ими.
 
 <div>
 
 
 > [!NOTE]  
-> Объект учетной записи Kerberos является объектом компьютера, но использует параметр UserAccount для операций в командлетах Windows PowerShell, на которые указывают ссылки. Обратите внимание, что это не ошибка, но предполагаемое поведение командлета при создании и обслуживании учетной записи Kerberos.
+> Объект учетной записи Kerberos является объектом Computer, но использует параметр UserAccount для операций в командлетах Windows PowerShell, на которые указывают ссылки. Обратите внимание, что это не ошибка, а намеренное поведение командлета при использовании с учетной записью создания и поддержки Kerberos.
 
 
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2010-11-03_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Установка пароля учетной записи Kerberos для проверки подлинности на сервере в Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [Установка пароля учетной записи проверки подлинности Kerberos на сервере в Lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
   - [Синхронизация пароля учетной записи проверки подлинности Kerberos с IIS в Lync Server 2013](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 

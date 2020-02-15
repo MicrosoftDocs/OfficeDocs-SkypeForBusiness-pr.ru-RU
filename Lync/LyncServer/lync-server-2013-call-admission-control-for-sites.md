@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление допуском звонков для сайтов'
+title: 'Lync Server 2013: контроль допуска звонков для сайтов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4609a3db5b81b4a6cbf134fc2347e4fc459c58c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0cf9e589cf239cd7c0e61090dc65995ef71357d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-for-sites-in-lync-server-2013"></a>Управление допуском звонков для сайтов в Lync Server 2013
+# <a name="call-admission-control-for-sites-in-lync-server-2013"></a>Контроль допуска звонков для сайтов в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741749"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Сетевые сайты — это офисы или места в каждом сетевом регионе управления допуском звонков (CAC), E9-1-1, а также с помощью мультимедийных развертываний. С помощью процедур, описанных в этом разделе, можно настроить управление допуском звонков для сетевых сайтов.
+Сайты сети — это офисы или местоположения в каждом регионе сети развертывания контроля допуска вызовов (CAC), E9-1-1 и обхода мультимедиа. Используйте процедуры, приведенные в данном разделе для настройки контроля допуска вызовов для сайтов сети.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2013-02-21_
 
   - [Просмотр сведений о сетевом сайте в Lync Server 2013](lync-server-2013-viewing-network-site-information.md)
 
-  - [Создание и изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)
+  - [Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)
 
   - [Удаление существующего сетевого сайта в Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)
 

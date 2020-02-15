@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты управления допуском звонков'
+title: 'Lync Server 2013: командлеты контроля допуска звонков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3805a597cba993e8b50e006a198fdc693a1d595b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df8c589d6bceea4e0eec108d1d2d2c6c1ac70a37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Командлеты управления допуском звонков в Lync Server 2013
+# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Командлеты контроля допуска звонков в Lync Server 2013
 
 </div>
 
@@ -35,148 +35,148 @@ ms.locfileid: "41741779"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-03-21_
+_**Последнее изменение темы:** 2012-03-21_
 
-Управление допуском звонков (CAC) определяет, достаточно ли пропускной способности сети для установления звукового и видеосеанса в режиме реального времени. Управление CAC осуществляется с помощью конфигураинг ограничений и параметров для сетей, сайтов и подсетей и взаимодействий между ними.
+Контроль доступа звонков определяет, достаточно ли пропускной способности сети для установки аудио- или видеосеанса приемлемого качества в режиме реального времени. Вы управляете конфигурацией контроля доступа звонков, настраивая ограничения и параметры для сетей, сайтов, подсетей, а также для операций взаимодействия между ними.
 
 <div>
 
-## <a name="call-admission-control-cmdlets"></a>Командлеты управления допуском звонков
+## <a name="call-admission-control-cmdlets"></a>Командлеты контроля доступа звонков
 
-Используйте следующие командлеты для управления CAC из командной консоли Lync Server Management Shell.
+Используйте следующие командлеты для управления CAC с помощью командной консоли Lync Server.
 
-**Контроль допуска звонков**
-
-  - <span></span>  
-    [Get-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412727(v=OCS.15))
+**Контроль доступа звонков **
 
   - <span></span>  
-    [New-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398175(v=OCS.15))
+    [Get — Ксбандвидсполицисервицеконфигуратион](https://technet.microsoft.com/library/Gg412727(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398877(v=OCS.15))
+    [New — Ксбандвидсполицисервицеконфигуратион](https://technet.microsoft.com/library/Gg398175(v=OCS.15))
 
   - <span></span>  
-    [Set-CsBandwidthPolicyServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg412863(v=OCS.15))
+    [Remove — Ксбандвидсполицисервицеконфигуратион](https://technet.microsoft.com/library/Gg398877(v=OCS.15))
+
+  - <span></span>  
+    [Set — Ксбандвидсполицисервицеконфигуратион](https://technet.microsoft.com/library/Gg412863(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg425815(v=OCS.15))
+    [Get — CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg425815(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398675(v=OCS.15))
+    [New — CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398675(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398609(v=OCS.15))
+    [Remove — CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398609(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/en-us/library/Gg398338(v=OCS.15))
+    [Set — CsNetworkBandwidthPolicyProfile](https://technet.microsoft.com/library/Gg398338(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsNetworkBWAlternatePath](https://technet.microsoft.com/en-us/library/Gg398732(v=OCS.15))
+    [New — Кснетворкбвалтернатепас](https://technet.microsoft.com/library/Gg398732(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsNetworkBWPolicy](https://technet.microsoft.com/en-us/library/Gg412916(v=OCS.15))
+    [New — Кснетворкбвполици](https://technet.microsoft.com/library/Gg412916(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Кснетворкконфигуратион](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Remove — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Set — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg425817(v=OCS.15))
+    [Get — Кснетворкинтеррегионрауте](https://technet.microsoft.com/library/Gg425817(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398779(v=OCS.15))
+    [New — Кснетворкинтеррегионрауте](https://technet.microsoft.com/library/Gg398779(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398743(v=OCS.15))
+    [Remove — Кснетворкинтеррегионрауте](https://technet.microsoft.com/library/Gg398743(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkInterRegionRoute](https://technet.microsoft.com/en-us/library/Gg398410(v=OCS.15))
+    [Set — Кснетворкинтеррегионрауте](https://technet.microsoft.com/library/Gg398410(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg412769(v=OCS.15))
+    [Get — CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg412769(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398994(v=OCS.15))
+    [New — CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398994(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398963(v=OCS.15))
+    [Remove — CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398963(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkInterSitePolicy](https://technet.microsoft.com/en-us/library/Gg398772(v=OCS.15))
+    [Set — CsNetworkInterSitePolicy](https://technet.microsoft.com/library/Gg398772(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398406(v=OCS.15))
+    [Get — CsNetworkRegion](https://technet.microsoft.com/library/Gg398406(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg425829(v=OCS.15))
+    [New — CsNetworkRegion](https://technet.microsoft.com/library/Gg425829(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg398466(v=OCS.15))
+    [Remove — CsNetworkRegion](https://technet.microsoft.com/library/Gg398466(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkRegion](https://technet.microsoft.com/en-us/library/Gg413089(v=OCS.15))
+    [Set — CsNetworkRegion](https://technet.microsoft.com/library/Gg413089(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398972(v=OCS.15))
+    [Get — Кснетворкрегионлинк](https://technet.microsoft.com/library/Gg398972(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg398437(v=OCS.15))
+    [New — Кснетворкрегионлинк](https://technet.microsoft.com/library/Gg398437(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg413012(v=OCS.15))
+    [Remove — Кснетворкрегионлинк](https://technet.microsoft.com/library/Gg413012(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkRegionLink](https://technet.microsoft.com/en-us/library/Gg412867(v=OCS.15))
+    [Set — Кснетворкрегионлинк](https://technet.microsoft.com/library/Gg412867(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398766(v=OCS.15))
+    [Get — CsNetworkSite](https://technet.microsoft.com/library/Gg398766(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398365(v=OCS.15))
+    [New — CsNetworkSite](https://technet.microsoft.com/library/Gg398365(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398135(v=OCS.15))
+    [Remove — CsNetworkSite](https://technet.microsoft.com/library/Gg398135(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkSite](https://technet.microsoft.com/en-us/library/Gg398295(v=OCS.15))
+    [Set — CsNetworkSite](https://technet.microsoft.com/library/Gg398295(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412825(v=OCS.15))
+    [Get — CsNetworkSubnet](https://technet.microsoft.com/library/Gg412825(v=OCS.15))
 
   - <span></span>  
-    [New-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg398226(v=OCS.15))
+    [New — CsNetworkSubnet](https://technet.microsoft.com/library/Gg398226(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg425726(v=OCS.15))
+    [Remove — CsNetworkSubnet](https://technet.microsoft.com/library/Gg425726(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkSubnet](https://technet.microsoft.com/en-us/library/Gg412739(v=OCS.15))
+    [Set — CsNetworkSubnet](https://technet.microsoft.com/library/Gg412739(v=OCS.15))
 
 </div>
 
@@ -185,7 +185,7 @@ _**Тема последнего изменения:** 2012-03-21_
 ## <a name="see-also"></a>См. также
 
 
-[Общие сведения об управлении допуском звонков в Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
+[Обзор контроля допуска звонков в Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
 
 
 [Блог Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

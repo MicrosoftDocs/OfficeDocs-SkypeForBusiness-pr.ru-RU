@@ -1,5 +1,5 @@
 ---
-title: Управление централизованными параметрами конфигурации службы ведения журналов
+title: Управление параметрами конфигурации централизованной службы ведения журналов
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cb3b16210b3fac64c0c5bd7886849da7dd0d065
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d89e7a27833891172d60b6b853ce3c2056e498a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Управление централизованными параметрами конфигурации службы ведения журналов в Lync Server 2013
+# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41733239"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Централизованная служба ведения журнала контролируется и настраивается с помощью параметров и параметров, создаваемых и используемых централизованным контроллером службы ведения журналов (Клсконтроллер), для отправки команд агенту службы ведения журнала для отдельного компьютера ( Клсажент). Агент обрабатывает отправляемые им команды и (в случае команды запуска) использует конфигурацию сценариев, поставщиков, размера журнала, длительности трассировки и флагов для начала сбора журналов трассировки в соответствии с предоставленными сведениями о конфигурации.
+Централизованная служба ведения журналов контролируется и настраивается параметрами и параметрами, которые создаются и используются централизованным контроллером службы ведения журналов (CLSController) для отправки команд агенту службы ведения журнала в отдельном компьютере ( CLSAgent). Этот агент обрабатывает отправляемые ему команды и (в случае получения команды Start) использует конфигурацию сценариев, поставщики, размер журнала, длительность трассировки и флаги для начала сбора данных для журналов трассировки в соответствии с предоставленной информации о конфигурации.
 
 <div>
 
 
 > [!IMPORTANT]
-> Не все командлеты Windows PowerShell, указанные для централизованной службы ведения журналов, предназначены для использования с локальными развертываниями Lync Server 2013. Несмотря на то, что они работают, следующие командлеты не предназначены для работы с локальными развертываниями Lync Server 2013. 
+> Не все командлеты Windows PowerShell, перечисленные для централизованной службы ведения журналов, предназначены для использования с локальными развертываниями Lync Server 2013. Несмотря на то, что они могут показаться работоспособными, следующие командлеты не предназначены для работы с локальными развертываниями Lync Server 2013. 
 > <UL>
 > <LI>
-> <P><STRONG>Командлеты ксклсрегион:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15)">Get-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15)">Set-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15)">New-ксклсрегион</A>и <A href="https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15)">Remove-ксклсрегион</A>.</P>
+> <P><STRONG>Командлеты CsClsRegion:</STRONG> <A href="https://technet.microsoft.com/library/JJ204879(v=OCS.15)">Get-CsClsRegion</A>, <A href="https://technet.microsoft.com/library/JJ204746(v=OCS.15)">Set-CsClsRegion</A>, <A href="https://technet.microsoft.com/library/JJ204658(v=OCS.15)">New-CsClsRegion</A> и <A href="https://technet.microsoft.com/library/JJ204971(v=OCS.15)">Remove-CsClsRegion</A>.</P>
 > <LI>
-> <P><STRONG>Командлеты ксклссеарчтерм:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15)">Get-ксклссеарчтерм</A> и <A href="https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15)">Set-ксклссеарчтерм</A>.</P>
+> <P><STRONG>Командлеты CsClsSearchTerm:</STRONG> <A href="https://technet.microsoft.com/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> и <A href="https://technet.microsoft.com/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>Командлеты ксклссекуритиграуп:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15)">Get-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15)">Set-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15)">New-ксклссекуритиграуп</A>и <A href="https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15)">Remove-ксклссекуритиграуп</A>.</P></LI></UL>Параметры, определенные в этих командлетах, не мешают или не вызывают какое-либо неотрицательное поведение, но они предназначены для работы с Microsoft Office 365 и не будут давать ожидаемые результаты в локальных развертываниях. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
+> <P><STRONG>Командлеты CsClsSecurityGroup:</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> и <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>Параметры, определенные в этих командлетах, не мешают или не вызывают каких – либо неблагоприятных поведений, но они предназначены для использования с Microsoft Office 365 и не будут давать ожидаемые результаты в локальных развертываниях. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
 
 
 
@@ -60,9 +60,9 @@ _**Тема последнего изменения:** 2012-11-01_
 
 ## <a name="in-this-section"></a>Содержание
 
-В темах этого раздела определяются параметры конфигурации, параметры и параметры для централизованной службы ведения журналов. Сведения о настройке централизованной службы ведения журналов, о том, как извлекать параметры конфигурации, создавать сценарии, управлять группами безопасности для централизованной службы ведения журнала, поиска и других сведений, которые содержатся в указанных ниже разделах.
+В подразделах этого раздела определяются параметры конфигурации, параметры и параметры централизованной службы ведения журналов. Сведения о настройке централизованной службы ведения журналов, способах получения параметров конфигурации, создании сценариев, управлении группами безопасности для централизованной службы ведения журналов, поиска и многого другого, содержатся в следующих разделах.
 
-  - [Управление конфигурацией службы ведения журналов на компьютере, сайте и глобальном централизованном хранилище в Lync Server 2013](lync-server-2013-managing-computer-site-and-global-centralized-logging-service-configuration.md)
+  - [Управление конфигурацией компьютера, сайта и глобальной централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-managing-computer-site-and-global-centralized-logging-service-configuration.md)
 
   - [Настройка поставщиков для централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md)
 
@@ -75,7 +75,7 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Общие сведения об централизованной службе ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Обзор централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 [Командлеты централизованного ведения журналов в Lync Server 2013](lync-server-2013-centralized-logging-cmdlets.md)  
   
 

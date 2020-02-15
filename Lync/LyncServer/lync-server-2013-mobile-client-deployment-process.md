@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: процесс развертывания мобильного клиента'
+title: 'Lync Server 2013: процесс развертывания мобильных клиентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6beaeac91dae0ff5fbf755c4ccb33cae288df75
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 841b0349818fd94d828e3aaa93b3f7c9a99f9f00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758737"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044901"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758737"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-После завершения развертывания Microsoft Lync Server 2013 пользователи могут установить приложение Lync 2013 из мобильного магазина, с помощью которого они привычны для определенного устройства.
+После завершения развертывания Microsoft Lync Server 2013 пользователи могут установить приложение Lync 2013 из мобильного магазина, с которым они привычны для конкретных устройств.
 
 <div>
 
@@ -61,15 +61,15 @@ _**Тема последнего изменения:** 2013-02-20_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Выполнять задачи, выполняемые перед настройкой.</p></td>
+<td><p>Выполните задачи, выполняемые перед установкой.</p></td>
 <td><ol>
-<li><p>Убедитесь, что развертывание Lync Server 2013.</p></li>
-<li><p>Проверка требований сертификата.</p></li>
+<li><p>Проверьте развертывание Lync Server 2013.</p></li>
+<li><p>Проверьте требования к сертификатам.</p></li>
 </ol></td>
 <td><p>Администратор</p></td>
-<td><p><a href="lync-server-2013-planning-for-mobility.md">Планирование мобильных устройств в Lync server 2013</a> в документации по планированию сервера.</p>
-<p><a href="lync-server-2013-deploying-mobility.md">Развертывание мобильных устройств в Lync server 2013</a> в документации по развертыванию сервера.</p>
-<p><a href="lync-server-2013-certificate-infrastructure-requirements.md">Требования к инфраструктуре сертификатов для Lync Server 2013</a> в документации по планированию сервера.</p></td>
+<td><p><a href="lync-server-2013-planning-for-mobility.md">Планирование мобильных устройств в Lync server 2013</a> в документации по планированию серверов.</p>
+<p><a href="lync-server-2013-deploying-mobility.md">Развертывание мобильных устройств в Lync server 2013</a> в документации по развертыванию серверов.</p>
+<p><a href="lync-server-2013-certificate-infrastructure-requirements.md">Требования к инфраструктуре сертификатов для Lync Server 2013</a> в документации по планированию серверов.</p></td>
 </tr>
 <tr class="even">
 <td><p>Установите приложение Lync на тестовом устройстве.</p></td>
@@ -78,12 +78,12 @@ _**Тема последнего изменения:** 2013-02-20_
 <li><p>Установка из магазина, относящегося к мобильному устройству.</p></li>
 </ol></td>
 <td><p>Администратор</p></td>
-<td><p>Инструкции по установке, связанные с мобильным устройством на странице <a href="lync-server-2013-deploying-mobile-clients.md">развертывание мобильных клиентов в Lync Server 2013</a>.</p></td>
+<td><p>Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Настройте клиент.</p></td>
 <td><ul>
-<li><p>Настройте параметры входа и сведения о сервере.</p></li>
+<li><p>Настройка параметров входа и сведений о сервере.</p></li>
 </ul></td>
 <td><p>Администратор</p></td>
 <td><p><a href="lync-server-2013-deploying-mobile-clients.md">Развертывание мобильных клиентов в Lync Server 2013</a></p></td>
@@ -92,12 +92,12 @@ _**Тема последнего изменения:** 2013-02-20_
 <td><p>Протестируйте сценарии для мобильных устройств.</p></td>
 <td><ol>
 <li><p>Протестируйте обмен мгновенными сообщениями и сведения о присутствии.</p></li>
-<li><p>Протестируйте Конференц-связь с телефонным подключением.</p></li>
-<li><p>Поиск контакта в корпоративном справочнике.</p></li>
-<li><p>Тест push-уведомлений.</p></li>
+<li><p>Проверка конференц-связи с телефонным подключением.</p></li>
+<li><p>Поиск контакта в корпоративном каталоге.</p></li>
+<li><p>Протестируйте push-уведомления.</p></li>
 </ol></td>
 <td><p>Администратор</p></td>
-<td><p>Инструкции для проверки, специфичные для мобильного устройства при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</p></td>
+<td><p>Инструкции по проверке, характерные для мобильного устройства при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Установите приложение Lync на мобильных телефонах.</p></td>
@@ -106,7 +106,7 @@ _**Тема последнего изменения:** 2013-02-20_
 <li><p>Установка из магазина, относящегося к мобильному устройству.</p></li>
 </ol></td>
 <td><p>Пользователь</p></td>
-<td><p>Инструкции по установке, связанные с мобильным устройством на странице <a href="lync-server-2013-deploying-mobile-clients.md">развертывание мобильных клиентов в Lync Server 2013</a>.</p></td>
+<td><p>Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

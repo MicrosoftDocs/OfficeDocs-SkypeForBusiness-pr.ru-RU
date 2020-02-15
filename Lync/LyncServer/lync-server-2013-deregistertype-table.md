@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица DeRegisterType'
+title: 'Lync Server 2013: таблица таблица deregistertype'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762537"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deregistertype-table-in-lync-server-2013"></a>Таблица DeRegisterType в Lync Server 2013
+# <a name="deregistertype-table-in-lync-server-2013"></a>Таблица Таблица deregistertype в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762537"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Таблица Дерегистертипе — это статическая таблица, в которой хранится список возможных типов отмены регистров пользователей, например "инициировано клиентом", "регистрация просрочено" или "клиент перестает отвечать на запросы".
+Таблица DeRegisterType — это статическая таблица, в которой хранится список возможных типов отмены регистрации пользователей, например «Инициируется клиентом», «Срок действия регистрации истек», «Клиент перестал отвечать».
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -64,17 +64,17 @@ _**Тема последнего изменения:** 2012-09-28_
 </tr>
 <tr class="even">
 <td><p><strong>дерегистерреасон</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Допустимые значения:</p>
 <ul>
 <li><p>0 — неизвестно</p></li>
 <li><p>1 — клиент инициировал отмену регистрации</p></li>
 <li><p>2 — срок действия регистрации истек</p></li>
-<li><p>3 – сбой клиента</p></li>
-<li><p>4 — изменились атрибуты пользователя</p></li>
-<li><p>5 — основной регистратор изменился</p></li>
-<li><p>6 — устаревший клиент в режиме выживания</p></li>
+<li><p>3 — аварийное завершение клиента</p></li>
+<li><p>4 — атрибуты пользователя изменены</p></li>
+<li><p>5 — предпочтительный регистратор изменен</p></li>
+<li><p>6 — устаревший клиент в режиме сохранения</p></li>
 </ul></td>
 </tr>
 </tbody>

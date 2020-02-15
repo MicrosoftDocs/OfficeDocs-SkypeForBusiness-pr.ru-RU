@@ -12,20 +12,20 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfc249ec8df233e6c22c9d5c1b54b81e23c5a173
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Процесс развертывания группы ответа в Lync Server 2013
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Процесс развертывания для группы ответа в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762587"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-27_
+_**Последнее изменение темы:** 2012-09-27_
 
-В этом разделе приводятся общие этапы и инструкции по развертыванию приложения группы ответа.
+В этом разделе представлен обзор этапов и действий, необходимых при развертывании приложения группы ответа.
 
 ### <a name="response-group-deployment-process"></a>Процедура развертывания группы ответа
 
@@ -65,29 +65,29 @@ _**Тема последнего изменения:** 2012-09-27_
 </tr>
 <tr class="even">
 <td><p>Установка компонентов для группы ответа</p></td>
-<td><p>Командлеты Lync Server, панель управления Lync Server, средство настройки группы ответа, агент "вход и выход из консоли" и клиентская веб-служба "группа ответа" устанавливается как часть веб-служб. Веб-службы устанавливаются при развертывании пула Enterprise Edition или стандартного сервера выпусков.</p></td>
+<td><p>Командлеты Lync Server, панель управления Lync Server, средство настройки группы ответа, агенты входа и выхода, а также клиентская веб-служба "группа ответа" устанавливается в составе веб-служб. Веб-службы устанавливаются при развертывании пула Enterprise Edition или сервера Standard Edition.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-deploying-lync-server.md">Развертывание Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Включение пользователей для Lync 2013 и для корпоративного голосовой связи</p></td>
-<td><p>Включите пользователей, которые будут агентами для Lync Server и корпоративной голосовой связи. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило, пользователи работают с Lync Server во время развертывания Enterprise Edition или Standard Edition Server. Для пользователей, использующих корпоративную голосовую раскладку, включены пользователи.</p></td>
+<td><p>Включение пользователей для Lync 2013 и корпоративной голосовой связи</p></td>
+<td><p>Включите пользователей, которые будут агентами для Lync Server и корпоративной голосовой связи. Пользователей необходимо включить до того, как их можно будет добавлять в группы агентов. Как правило, для пользователей включена поддержка Lync Server во время развертывания Enterprise Edition или Standard Edition Server. Для пользователей включена поддержка корпоративной голосовой связи во время развертывания корпоративной голосовой связи.</p></td>
 <td><p>RTCUniversalUserAdmins</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Отключение и повторное включение учетной записи пользователя для Lync Server 2013</a></p>
-<p><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Включение пользователей корпоративной голосовой связи в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Отключение или повторное включение учетной записи пользователя для Lync Server 2013</a></p>
+<p><a href="lync-server-2013-enable-users-for-enterprise-voice.md">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Создание и настройка групп ответа, которые состоят из групп агентов, очередей и рабочих процессов</p></td>
 <td><ol>
-<li><p>С помощью панели управления Lync Server или командной консоли Lync Server вы можете сделать следующее:</p>
+<li><p>Используйте панель управления Lync Server или Командная консоль Lync Server, чтобы выполнить следующие задачи:</p>
 <ol>
 <li><p>Создайте и настройте группы агентов.</p></li>
 <li><p>Создайте и настройте очереди.</p></li>
 </ol></li>
-<li><p>Кроме того, можно использовать командную консоль Lync Server для создания стандартных рабочих часов и праздников для группы ответа.</p></li>
-<li><p>С помощью средства настройки группы ответа или командной консоли Lync Server вы можете создавать рабочие процессы (группы слежения или потоки звонков для голосовой связи), в том числе пользовательские группы ответов и рабочие часы и праздники.</p>
+<li><p>Кроме того, можно использовать командную консоль Lync Server для создания предопределенных рабочих часов и праздников для группы ответа.</p></li>
+<li><p>С помощью средства настройки группы ответа или командной консоли Lync Server можно создавать рабочие процессы (сервисные группы или потоки вызовов интерактивного речевого ответа (IVR)), в том числе настраиваемые рабочие часы и праздники для группы ответа.</p>
 <div>
 
 > [!NOTE]  
@@ -97,22 +97,22 @@ _**Тема последнего изменения:** 2012-09-27_
 </div></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
+<p>ксреспонсеграупадминистратор</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsResponseGroupManager</p></td>
-<td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Создание групп агента группы ответа Lync Server 2013</a></p>
+<td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Создание групп агентов группы ответа Lync Server 2013</a></p>
 <p><a href="lync-server-2013-create-response-group-queues.md">Создание очередей группы ответа в Lync Server 2013</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Необязательно Определение группы ответа в рабочее время в Lync Server 2013</a></p>
+<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Необязательно Определение рабочих часов для группы ответа в Lync Server 2013</a></p>
 <p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">Необязательно Определение наборов праздников группы ответа в Lync Server 2013</a></p>
 <p><a href="lync-server-2013-create-or-modify-a-workflow.md">Создание или изменение рабочего процесса в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>(Необязательно) Задание настроек на уровне приложения</p></td>
-<td><p>Используйте командную консоль Lync Server для настройки стандартной конфигурации сохранения музыки, используемого по умолчанию звукового файла для сохранения музыки, периода отсрочки агента рингбакк и контекстной конфигурации вызова.</p></td>
+<td><p>Используйте командную консоль Lync Server, чтобы настроить используемую по умолчанию конфигурацию хранения музыки, а также звуковой файл по умолчанию для хранения музыки, период отсрочки агента удерживаемого абонента и конфигурацию контекста вызовов.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
+<p>ксреспонсеграупадминистратор</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -120,13 +120,13 @@ _**Тема последнего изменения:** 2012-09-27_
 </tr>
 <tr class="even">
 <td><p>(Необязательно) Делегирование управления группами реагирования</p></td>
-<td><p>Назначьте пользователям роль Ксреспонсеграупманажер для делегирования конфигурации групп ответов. После этого диспетчер групп ответов может настроить назначенные им группы ответа.</p></td>
+<td><p>Назначьте пользователям роль CsResponseGroupManager для делегирования настройки групп ответа. После этого менеджеры группы ответа могут настраивать назначенные им группы ответа.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
-<p>CsResponseGroupAdministrator</p>
+<p>ксреспонсеграупадминистратор</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование контроля доступа на основе ролей в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование управления доступом на основе ролей в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Проверка развертывания группы ответа</p></td>

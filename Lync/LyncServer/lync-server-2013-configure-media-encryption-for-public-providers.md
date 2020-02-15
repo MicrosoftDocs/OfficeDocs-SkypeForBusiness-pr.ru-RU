@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка шифрования мультимедиа для общедоступных поставщиков'
+title: 'Lync Server 2013: Настройка шифрования мультимедиа для общедоступных поставщиков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d4ab36d19726a6092f978a2ac2a119b248cd0f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f1775a845c10797d145c7ee1ad5def3af729f4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758397"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758397"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-12-12_
+_**Последнее изменение темы:** 2014-12-12_
 
-Если вы реализуете Федерацию аудио-и видеосвязи (A/V) с Windows Live Messenger, необходимо изменить два параметра: уровень шифрования Lync Server и политика Енаблепубликклаудакцесс. По умолчанию задано значение "обязательный уровень шифрования". Этот параметр необходимо изменить на "поддерживается". Если для политики Енаблепубликклаудакцесс задано значение false, необходимо установить **значение true**. Это можно сделать в командной консоли Lync Server Management Shell.
+Если вы реализуете Федерацию аудио-и видеоданных (A/V) с помощью Windows Live Messenger, необходимо изменить два параметра: уровень шифрования Lync Server и политика свойство enablepubliccloudaccess. По умолчанию для уровня шифрования задано значение Required (Требуется). Вам необходимо изменить это значение на Supported (Поддерживается). Если параметр политики EnablePublicCloudAccess имеет значение false, то его необходимо изменить на **True**. Это можно сделать в командной консоли Lync Server.
 
 <div>
 
-## <a name="configure-federation-for-windows-live"></a>Настройка Федерации для Windows Live
+## <a name="configure-federation-for-windows-live"></a>Настройка федерации для Windows Live
 
-1.  Запустите командную консоль Lync Server на сервере переднего плана: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server на сервере переднего плана: нажмите кнопку **Пуск**, выберите **все программы**, **Microsoft Lync Server 2013**и щелкните **Lync Server Management Shell**.
 
 2.  В командной строке введите следующие команды:
     
@@ -59,7 +59,7 @@ _**Тема последнего изменения:** 2014-12-12_
     
 
     > [!NOTE]  
-    > Это действие является обязательным, так как в Windows Live Messenger не поддерживается шифрование аудио-и видеофайлов. В команде для глобальной политики задано значение параметра шифрование поддержки, а не необходимость шифрования аудио-и видеоданных. Клиенты, которые поддерживают шифрование, по-прежнему будут использовать шифрование, например Lync 2013.
+    > Этот шаг является обязательным, поскольку Windows Live Messenger не поддерживает шифрование видео и звука. Эта команда задает глобальную политику шифрования вместо требования шифрования видео и аудиоданных. Клиенты, поддерживающие шифрование, по-прежнему будут использовать шифрование, например Lync 2013.
 
     
     </div>

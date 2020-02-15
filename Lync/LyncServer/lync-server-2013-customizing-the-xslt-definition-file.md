@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка файла определений XSLT'
+title: 'Lync Server 2013: Настройка файла определения XSLT'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728709"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041078"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Настройка файла определений XSLT в Lync Server 2013
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Настройка файла определения XSLT в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728709"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-09-11_
+_**Последнее изменение темы:** 2014-09-11_
 
-Служба соответствия записывает и архивирует данные, связанные с каждым сервером Lync Server 2013, сохраняемым разговором с сервером чата, в том числе если участником:
+Служба соответствия записывает и архивирует данные, связанные с каждым сервером Lync Server 2013, сохраняемым сеансом беседы, в том числе когда участник:
 
   - Присоединение к сохраняемой комнате чата
 
@@ -51,13 +51,13 @@ _**Тема последнего изменения:** 2014-09-11_
 
   - загружает файл.
 
-Данные доставляются в формате XML, который можно преобразовать в формат, который наилучшим образом подходит для вашей организации, с помощью файла определения XSLT. Этот раздел содержит описание файла XML, созданного с помощью службы проверки совместимости. Приведены также примеры файла определения XSLT и выходного файла.
+Эти данные предоставляются в формате XML, который можно преобразовать в формат, наиболее подходящий для вашей организации, с помощью файла определения XSLT. В данном разделе рассматривается XML-файл, создаваемый службой соответствия, а также приводятся примеры файлов определения XSLT и выходных файлов.
 
 <div>
 
-## <a name="output-format"></a>Выходной формат
+## <a name="output-format"></a>Формат выходных данных
 
-Выходные данные службы соответствия подразделяются на обсуждения (элемент CONVERSATION), а затем в сообщении (элемент Messages), как показано в следующем примере кода.
+Выходные данные службы соответствия делятся на категории по беседе (элемент Conversation) и затем по сообщению (элемент Messages), как показано в следующем образце кода.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,14 +72,14 @@ _**Тема последнего изменения:** 2014-09-11_
       </Conversation>
     </Conversations>
 
-Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит код URI, назначенный комнате чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы Старттимеутк и Ендтимеутк предоставляют начальные и конечные значения для беседы, как показано в следующем примере кода.
+Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит URI-код комнаты чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы StartTimeUTC и EndTimeUTC задают начальное и конечное время беседы, как показано в следующем образце кода.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент sender представляет пользователя, который отправляет сообщение, а элемент Датетимеутк — при возникновении события, как показано в следующем примере кода.
+Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент Sender представляет пользователя, который отправляет сообщение, а элемент DateTimeUTC представляет время возникновения события, как показано в следующем образце кода.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -100,24 +100,24 @@ _**Тема последнего изменения:** 2014-09-11_
 <tr class="header">
 <th>Атрибут</th>
 <th>Описание</th>
-<th>Применение</th>
+<th>Необязательный или обязательный</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Тип</p></td>
 <td><p>Указывает тип сообщения. Типы сообщений описаны в таблице типов сообщений элемента Message.</p></td>
-<td><p>Обязательный</p></td>
+<td><p>Обязательна</p></td>
 </tr>
 <tr class="even">
-<td><p>Content</p></td>
+<td><p>Контентная</p></td>
 <td><p>Представляет собой содержимое сообщения. Для сообщений с типом Join или Part этот атрибут не используется.</p></td>
-<td><p>Необязательно </p></td>
+<td><p>Необязательна</p></td>
 </tr>
 <tr class="odd">
 <td><p>ID</p></td>
 <td><p>Указывает уникальный идентификатор содержимого. Этот атрибут используется только с сообщениями, имеющими тип Chat.</p></td>
-<td><p>Необязательно </p></td>
+<td><p>Необязательна</p></td>
 </tr>
 </tbody>
 </table>
@@ -137,34 +137,34 @@ _**Тема последнего изменения:** 2014-09-11_
 <tr class="header">
 <th>Атрибут</th>
 <th>Описание</th>
-<th>Применение</th>
+<th>Необязательный или обязательный</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Username</p></td>
+<td><p>Имя пользователя</p></td>
 <td><p>Имя отправителя.</p></td>
-<td><p>Необязательно </p></td>
+<td><p>Необязательна</p></td>
 </tr>
 <tr class="even">
 <td><p>ID</p></td>
 <td><p>Уникальный идентификатор отправителя.</p></td>
-<td><p>Обязательный</p></td>
+<td><p>Обязательна</p></td>
 </tr>
 <tr class="odd">
-<td><p>Email</p></td>
+<td><p>Электронная почта</p></td>
 <td><p>Адрес электронной почты отправителя.</p></td>
-<td><p>Необязательно </p></td>
+<td><p>Необязательна</p></td>
 </tr>
 <tr class="even">
-<td><p>Internal</p></td>
+<td><p>Внутренний</p></td>
 <td><p>Определяет, является ли пользователь внутренним или федеративным. Если задано значение true, пользователь является внутренним.</p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательна</p></td>
 </tr>
 <tr class="odd">
 <td><p>Uri</p></td>
 <td><p>Пользовательский URI для SIP.</p></td>
-<td><p>Обязательный</p></td>
+<td><p>Обязательна</p></td>
 </tr>
 </tbody>
 </table>
@@ -189,7 +189,7 @@ _**Тема последнего изменения:** 2014-09-11_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Join</p></td>
+<td><p>Присоединиться</p></td>
 <td><p>Пользователь присоединяется к комнате чата.</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -197,7 +197,7 @@ _**Тема последнего изменения:** 2014-09-11_
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Part</p></td>
+<td><p>Часть</p></td>
 <td><p>Пользователь покидает комнату чата.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -205,7 +205,7 @@ _**Тема последнего изменения:** 2014-09-11_
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p>Chat</p></td>
+<td><p>Чат</p></td>
 <td><p>Адрес электронной почты отправителя.</p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -213,7 +213,7 @@ _**Тема последнего изменения:** 2014-09-11_
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Backchat</p></td>
+<td><p>Чат</p></td>
 <td><p>Пользователь запрашивает содержимое из истории чата.</p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,9 +242,9 @@ _**Тема последнего изменения:** 2014-09-11_
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Схема выходных данных сохраняемого чата по умолчанию и пример преобразования XSL
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD-файл сохраняемого чата по умолчанию и пример преобразования XSL
 
-В следующем образце кода показан вывод по умолчанию на сервере соответствия требованиям.
+В следующем образце кода содержатся выходные данные по умолчанию с сервера соответствия.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ _**Тема последнего изменения:** 2014-09-11_
       </xs:element>
     </xs:schema>
 
-В следующем образце кода показан пример преобразования XSL.
+В следующем образце кода содержится пример преобразования XSL.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

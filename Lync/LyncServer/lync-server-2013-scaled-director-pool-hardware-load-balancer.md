@@ -12,16 +12,16 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3fc699a5d0904b3ed308928e5edec612b3af03c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63d690c224556953086128b8d7fc52f2d72f6b06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732659"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732659"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-08_
+_**Последнее изменение темы:** 2012-09-08_
 
-Масштабируемый пул, на котором развернуто несколько режиссеров для обработки дополнительной мощности и обеспечения высокой доступности, требуется балансировка нагрузки для распространения взаимодействия между клиентом и сервером со всеми участниками пула. В режиссере веб-службы размещаются очень похоже на внешний интерфейс пула. Для веб-служб требуется балансировка нагрузки оборудования.
+Масштабируемый пул директоров, где развернуто несколько директоров для обработки дополнительной емкости и обеспечения высокой доступности, требует балансировки нагрузки для распространения связи клиента и сервера со всеми участниками пула. В директоре размещены веб-службы, как и пул переднего плана. Для веб-служб требуется аппаратная балансировка нагрузки.
 
-В следующих разделах описаны вопросы планирования для развертывания пула с помощью аппаратной балансировки нагрузки. Если вы планируете использовать аппаратную балансировку нагрузки и балансировку нагрузки DNS для пула ресурсов, ознакомьтесь с разделом [масштабированный пул режиссеров — балансировка нагрузки DNS и балансировщик нагрузки оборудования в Lync Server 2013, в](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) котором описаны требования к планированию для этой топологии.
+В следующих разделах описываются рекомендации по планированию развертывания пула директоров с помощью аппаратной балансировки нагрузки. Если вы планируете использовать аппаратную балансировку нагрузки и балансировку нагрузки на DNS для пула директоров, ознакомьтесь с разделом [масштабируемый пул директоров — балансировка нагрузки на DNS и аппаратный балансировщик нагрузки в Lync Server 2013, в](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) котором описываются требования к планированию для этой топологии.
 
 ![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")
 
@@ -47,9 +47,9 @@ _**Тема последнего изменения:** 2012-09-08_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Сводка по сертификатам — масштабированный пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Сводка по сертификатам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [Сводка по портам — vасштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
 
   - [Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
 

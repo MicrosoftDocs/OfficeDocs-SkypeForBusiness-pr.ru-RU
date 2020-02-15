@@ -12,16 +12,16 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734852"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734852"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-В этой статье приведены пошаговые инструкции для задач, которые можно выполнить с помощью группы **безопасности** в Lync Server 2013 Control Panel.
+В подразделах этого раздела приводятся пошаговые процедуры для задач, которые можно выполнить с помощью группы **безопасности** в панели управления Lync Server 2013.
 
 <div>
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2013-02-21_
 
   - [Создание параметров конфигурации регистратора в Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [Изменение существующих параметров конфигурации регистратора в Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [Изменение параметров конфигурации существующего регистратора в Lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
   - [Удаление существующих параметров конфигурации регистратора в Lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
   - [Создание новых параметров конфигурации веб-службы в Lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [Изменение существующих параметров конфигурации веб-службы в Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [Изменение параметров конфигурации существующей веб-службы в Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
   - [Удаление существующих параметров конфигурации веб-службы в Lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 

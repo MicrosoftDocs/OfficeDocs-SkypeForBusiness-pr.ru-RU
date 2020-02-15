@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица SessionCorrelation'
+title: 'Lync Server 2013: таблица таблица sessioncorrelation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe8deda7486d699073bf271953e382ac7b7c508
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9551cf5824d5f13f6167f2aaeb301ab619f6209b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Таблица SessionCorrelation в Lync Server 2013
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a>Таблица Таблица sessioncorrelation в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764807"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Таблица Сессионкоррелатион является вспомогательной таблицей. Каждая запись представляет собой один элемент CorrelationID, который используется для корреляции нескольких сеансов.
+Таблица Таблица sessioncorrelation является вспомогательной таблицей. Каждая запись представляет один элемент CorrelationID, который используется для корреляции нескольких сеансов.
 
 
 <table>
@@ -49,29 +49,29 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Счет</strong></p></td>
-<td><p>целое</p></td>
+<td><p><strong>Контрольная сумма</strong></p></td>
+<td><p>int</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>коррелатионкэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, показывающий этот сервер конференц-связи A/V.</p></td>
+<td><p>Уникальный номер, идентифицирующий этот сервер аудио-и видеоконференций.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Корреляци</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Повторя</p></td>
+<td><p><strong>ИД</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Уникальные</p></td>
 <td><p>Коррелированные сеансы будут иметь одинаковый идентификатор корреляции.</p></td>
 </tr>
 <tr class="even">

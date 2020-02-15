@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддержка серверного программного обеспечения и инфраструктуры'
+title: 'Lync Server 2013: Поддержка серверного программного обеспечения и инфраструктуры'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad3368748f7cbfa1c8ca41e1c563283ef5a390bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764847"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-Программная поддержка серверных компонентов, включая все роли и хранилище Lync Server 2013, включают Поддерживаемые операционные системы, программное обеспечение для баз данных, инфраструктуру программного обеспечения и другие программы, необходимые для поддержки конкретных функций. Кроме того, она включает в себя виртуализацию серверных компонентов.
+Программная поддержка серверных компонентов, включая все роли и хранилище Lync Server 2013 Server, включает поддерживаемые операционные системы, программное обеспечение баз данных, программное обеспечение инфраструктуры и другое программное обеспечение, необходимое для поддержки определенных функций. Она также включает в себя виртуализацию серверных компонентов.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
   - [Поддержка программного обеспечения баз данных в Lync Server 2013](lync-server-2013-database-software-support.md)
 
@@ -51,15 +51,15 @@ _**Тема последнего изменения:** 2012-06-29_
 
   - [Поддержка инфраструктуры сертификатов в Lync Server 2013](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [Поддержка групповых сертификатов в Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)
+  - [Поддержка сертификатов с подстановочными знаками в Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)
 
   - [Поддержка инфраструктуры DNS в Lync Server 2013](lync-server-2013-dns-infrastructure-support.md)
 
   - [Поддержка IIS в Lync Server 2013](lync-server-2013-iis-support.md)
 
-  - [Поддержка IP и сетевого протокола в Lync Server 2013](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [Поддержка протоколов IP и сети в Lync Server 2013](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [Поддержка общедоступных служб обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-public-instant-messaging-support.md)
+  - [Общедоступная поддержка обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-public-instant-messaging-support.md)
 
   - [Поддержка браузеров для панели управления Lync Server 2013](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 

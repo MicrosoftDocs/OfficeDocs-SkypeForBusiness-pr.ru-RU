@@ -12,20 +12,20 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81b97d6a7521add62817147ae87995508b841f2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c252ef5cd96511875fa299f44ca2a707f766f59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="session-table-in-lync-server-2013"></a>Таблица Session в Lync Server 2013
+# <a name="session-table-in-lync-server-2013"></a>Таблица Sessions в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732399"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-09-09_
+_**Последнее изменение темы:** 2013-09-09_
 
-Каждая запись представляет собой один сеанс, в котором задействовано звуковое сопровождение, звук и видео. В нем содержатся общие сведения о сеансе. Сеанс определяется как диалоговое окно с помощью звукового или видеосигнала (SIP) между двумя конечными точками.
+Каждая запись представляет один сеанс, который включает звук, аудио и видео. Он содержит общие сведения о сеансе. Сеанс определяется как диалоговое окно аудио-и видеоинициации (SIP) между двумя конечными точками.
 
 
 <table>
@@ -49,10 +49,10 @@ _**Тема последнего изменения:** 2013-09-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -64,124 +64,124 @@ _**Тема последнего изменения:** 2013-09-09_
 </tr>
 <tr class="even">
 <td><p><strong>сессионсек</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Ссылка из <a href="lync-server-2013-dialog-table.md">таблицы диалогов в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>конференцекэй</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Клавиша Конференции. На которую ссылается <a href="lync-server-2013-conference-table.md">Таблица конференции в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Ключ конференции. Ссылка из <a href="lync-server-2013-conference-table.md">таблицы конференций в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>коррелатионкэй</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Ключ корреляции. На которую ссылается <a href="lync-server-2013-sessioncorrelation-table.md">Таблица сессионкоррелатион в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Ключ корреляции. Ссылка из <a href="lync-server-2013-sessioncorrelation-table.md">таблицы таблица sessioncorrelation в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>диалогкатегори</strong></p></td>
-<td><p>бит</p></td>
+<td><p>Битовая</p></td>
 <td><p> </p></td>
-<td><p>Категория диалогового окна; 0 — это сервер Lync Server для устранения проблем; 1 — это сервер исправлений для шлюза PSTN Gateway.</p></td>
+<td><p>Категория диалоговых окон; 0 — сервер Lync Server — это ветвь сервера-посредника; 1 — сервер-посредник для шлюза PSTN.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>медиатионсервербипассфлаг</strong></p></td>
-<td><p>бит</p></td>
+<td><p>Битовая</p></td>
 <td></td>
-<td><p>Флаг, указывающий, обходит ли звонок.</p></td>
+<td><p>Флаг, указывающий, выполнял ли вызов обход сервера-посредника.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>медиабипассварнингфлаг</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Это поле, если оно указано, указывает, почему звонок не обходится даже в том случае, если идентификаторы обхода не совпадают. Для Lync Server определено только одно значение.</p>
-<p>0x0001 — Неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</p></td>
+<td><p>Если это поле присутствует, оно указывает, почему вызов не может быть обойден, даже если идентификаторы обхода совпадают. Для Lync Server определено только одно значение.</p>
+<p>0x0001 — неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>StartTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Время начала звонка.</p></td>
+<td><p>Время начала вызова.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Время окончания звонка.</p></td>
+<td><p>Время окончания вызова.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллерпул</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Пул вызывающего абонента. Указана <a href="lync-server-2013-pool-table.md">Таблица пула в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Пул вызывающего абонента. Указан из <a href="lync-server-2013-pool-table.md">таблицы пула в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>каллипул</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Пул приемника вызова. Указана <a href="lync-server-2013-pool-table.md">Таблица пула в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Пул приемника вызовов. Указан из <a href="lync-server-2013-pool-table.md">таблицы пула в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллипаи</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Универсальный код ресурса (URI) SIP в удостоверении SIP (паи) принимающей конечной точки. Ссылка на которую имеется <a href="lync-server-2013-user-table.md">в таблице Users в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Универсальный код ресурса (URI) SIP в удостоверении (PAI) принимающей конечной точки. Ссылка из <a href="lync-server-2013-user-table.md">таблицы Users в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>каллерури</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>URI вызывающего абонента. Ссылка на которую имеется <a href="lync-server-2013-user-table.md">в таблице Users в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>URI вызывающего абонента. Ссылка из <a href="lync-server-2013-user-table.md">таблицы Users в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллерендпоинт</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Конечная точка вызывающего абонента. На которую ссылается <a href="lync-server-2013-endpoint-table.md">Таблица конечная точка в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Конечная точка вызывающего абонента. Указана в <a href="lync-server-2013-endpoint-table.md">таблице конечная точка в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>каллерусеражент</strong></p></td>
-<td><p>бит</p></td>
-<td><p>Другом</p></td>
+<td><p>Битовая</p></td>
+<td><p>Правительства</p></td>
 <td><p>Агент пользователя вызывающего абонента. Ссылка из <a href="lync-server-2013-useragent-table.md">таблицы UserAgent в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллприорити</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>Приоритет этого звонка.</p></td>
+<td><p>Приоритет этого вызова.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>классифиедпуркалл</strong></p></td>
-<td><p>бит</p></td>
+<td><p>Битовая</p></td>
 <td></td>
-<td><p>Этот столбец устарел и не используется в Microsoft Lync Server 2013. Вместо этого эти сведения выводятся в виде линий для отдельных носителей. Дополнительные сведения можно найти в <a href="lync-server-2013-medialine-table.md">таблице медиалине в Lync Server 2013</a> .</p></td>
+<td><p>Этот столбец устарел и не используется в Microsoft Lync Server 2013. Вместо этого эти сведения выводятся на основе линий отдельных носителей. Для получения дополнительных сведений обратитесь к <a href="lync-server-2013-medialine-table.md">таблице MediaLine в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллерпаи</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>P-утвержденные-идентификационные данные пользователя, который присоединил звонок. Идентификатор P-Assert (паи) используется для передачи истинного удостоверения пользователя, который находил звонок.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>P — утверждено — идентификатор пользователя, который поместил вызов. P-Assert-Identity (PAI) используется для передачи истинного удостоверения пользователя, который поместил вызов.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>каллиендпоинт</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Конечная точка, в которой был получен звонок.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Конечная точка, в которой был получен вызов.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>каллиусеражент</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Агент пользователя, который использовался пользователем, который получил звонок. Агенты пользователей представляют собой клиентскую конечную точку.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Агент пользователя, который использовался пользователем, получившим вызов. Агенты пользователей представляют устройство конечной точки клиента.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>каллиури</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Универсальный код ресурса (URI) SIP пользователя, который получил звонок.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Универсальный код ресурса (URI) SIP пользователя, который получил вызов.</p></td>
 </tr>
 </tbody>
 </table>

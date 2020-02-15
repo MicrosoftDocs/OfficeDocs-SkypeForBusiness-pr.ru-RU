@@ -12,16 +12,16 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755763"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-02-07_
+_**Последнее изменение темы:** 2014-02-07_
 
 Параметры праздников служат для определения дней, в которые группа ответа закрыта для использования, а также для определения действия в эти дни. Набор праздников — это коллекция праздников, которая применяется к группе ответа.
 
@@ -53,9 +53,9 @@ _**Тема последнего изменения:** 2014-02-07_
 
 ## <a name="to-create-a-holiday-set"></a>Чтобы создать набор праздников
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  Для каждого праздника, который следует определить, выполните следующую команду:
     
@@ -78,12 +78,12 @@ _**Тема последнего изменения:** 2014-02-07_
 ## <a name="see-also"></a>См. также
 
 
-[Создание или изменение рабочего процесса группы слежения в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[Создание или изменение рабочего процесса сервисной группы в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Создание или изменение интерактивного рабочего процесса в Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[New-Ксргшолидай](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+[New — Ксргшолидай](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New — CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>

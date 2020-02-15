@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: создание новых надстроек для чатов'
+title: 'Lync Server 2013: создание новых надстроек для комнат'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e69f7061abb735e751a5d5df3a1b926a7a7003dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd76602da91dfc41458d1f8fd76356cb11e6e7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>Создание новых надстроек для чатов в Lync Server 2013
+# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>Создание новых надстроек для комнат в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729719"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Чтобы создать надстройки для постоянных комнат чатов, ознакомьтесь со сведениями о [настройке надстроек для комнат в Lync Server 2013](lync-server-2013-configure-add-ins-for-rooms.md) в документации по развертыванию. Если вы являетесь администратором постоянного чата, вы можете создавать надстройки с помощью панели управления Lync Server или командлетов Windows PowerShell.
+Для создания надстроек для комнат сохраняемого чата ознакомьтесь с разделом [Настройка надстроек для комнат в Lync Server 2013](lync-server-2013-configure-add-ins-for-rooms.md) в документации по развертыванию. Если вы администратор сохраняемого чата, вы можете создавать надстройки с помощью панели управления Lync Server или командлетов Windows PowerShell.
 
 </div>
 

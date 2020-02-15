@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддерживаемое оборудование клиентов и устройств'
+title: Lync Server 2013 — поддержка оборудования клиента и устройства
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Поддерживаемое оборудование клиентов и устройств в Lync Server 2013
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Поддержка оборудования клиентов и устройств в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41729839"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
 Клиентские компьютеры должны отвечать определенным требованиям к оборудованию для поддержки клиентов в развертывании Lync Server 2013. Перед развертыванием IP-телефонов и аналоговых устройств необходимо добавить дополнительные конфигурации оборудования.
 
@@ -45,9 +45,9 @@ _**Тема последнего изменения:** 2012-10-01_
 
   - [Поддержка оборудования клиента Lync в Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Поддержка аппаратных устройств в Lync Server 2013](lync-server-2013-device-hardware-support.md)
+  - [Аппаратная поддержка устройств в Lync Server 2013](lync-server-2013-device-hardware-support.md)
 
-  - [Поддержка мобильной работы в Lync Server 2013](lync-server-2013-mobility-support.md)
+  - [Поддержка мобильных устройств в Lync Server 2013](lync-server-2013-mobility-support.md)
 
 </div>
 

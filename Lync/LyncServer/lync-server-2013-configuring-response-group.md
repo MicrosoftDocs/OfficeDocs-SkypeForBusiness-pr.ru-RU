@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка группы ответа'
+title: 'Lync Server 2013: Настройка группы ответа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739269"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739269"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-30_
+_**Последнее изменение темы:** 2012-10-30_
 
-Группа ответа — это корпоративная функция голосовой связи, которая направляет входящие звонки на группы пользователей, называемые *агентами*, например службой поддержки пользователей или рабочим столом.
+Группа ответа — это функция корпоративной голосовой связи, которая выполняет маршрутизацию и очередность входящих звонков в группы людей, называемых *агентами*, например службой поддержки или службой поддержки клиентов.
 
-Компоненты, необходимые для группы ответа, устанавливаются и включаются автоматически на сервере переднего плана или стандартном сервере Standard Edition при развертывании корпоративной голосовой связи. Чтобы предоставить доступ к группе ответа пользователям, необходимо настроить группы агента, затем очереди и рабочие процессы. Кроме того, администратор группы ответа может делегировать настройку существующего рабочего процесса в Диспетчер групп ответа, который может затем изменить и повторно настроить рабочий процесс, а также связанные группы агентов и очереди.
+Компоненты, необходимые для группы ответа, устанавливаются и включаются автоматически на сервере переднего плана или сервере Standard Edition при развертывании корпоративной голосовой связи. Чтобы предоставить доступ к группе ответа пользователям, необходимо настроить группы агентов, затем очереди и рабочие процессы. Кроме того, администратор группы ответа может делегировать настройку существующего рабочего процесса диспетчеру группы ответа, который может изменить и изменить рабочий процесс и связанные с ним группы агентов и очереди.
 
-В этом разделе рассказывается, как настроить группу ответа Lync Server 2013. Предполагается, что вы уже прочитали разделы планирование, связанные с группой ответа и развернули сервер Enterprise Edition либо сервер Standard Edition с корпоративной голосовой связью.
+В этом разделе описывается настройка группы ответа Lync Server 2013. Предполагается, что вы уже прочитали разделы планирования, связанные с группой ответа и развернули сервер Enterprise Edition или сервер Standard Edition с корпоративной голосовой связью.
 
 <div>
 
 
 > [!TIP]  
-> Сведения о создании группы ответа с помощью командной консоли Lync Server Management Shell, включая пример сценария, приведены в <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>разделе "Создание первой группы ответа с помощью командной консоли Lync Server".
+> Для получения дополнительных сведений о создании группы ответа с помощью командной консоли Lync Server, в том числе примера скрипта, обратитесь к разделу "Создание первой группы ответа с помощью <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>командной консоли Lync Server".
 
 
 
@@ -59,19 +59,19 @@ _**Тема последнего изменения:** 2012-10-30_
 
   - [Разрешения и необходимые условия для настройки группы ответа в Lync Server 2013](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [Процесс развертывания группы ответа в Lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
+  - [Процесс развертывания для группы ответа в Lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
 
   - [Обзор сценариев создания рабочих процессов в Lync Server 2013](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [Создание групп агента группы ответа Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
+  - [Создание групп агентов группы ответа Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
   - [Создание очередей группы ответа в Lync Server 2013](lync-server-2013-create-response-group-queues.md)
 
-  - [Необязательно Определение группы ответа в рабочее время в Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Необязательно Определение рабочих часов для группы ответа в Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
 
   - [Необязательно Определение наборов праздников группы ответа в Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [Создание рабочих процессов для группы ответа в Lync Server 2013](lync-server-2013-create-response-group-workflows.md)
+  - [Создание рабочих процессов группы ответа в Lync Server 2013](lync-server-2013-create-response-group-workflows.md)
 
   - [Необязательно Проверка развертывания группы ответа в Lync Server 2013](lync-server-2013-optional-verify-response-group-deployment.md)
 

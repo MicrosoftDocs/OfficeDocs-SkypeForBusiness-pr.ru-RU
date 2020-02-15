@@ -12,16 +12,16 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b15b1285fa81f59c2b0a116e8ee80eeee2e8e952
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731829"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731829"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-08_
+_**Последнее изменение темы:** 2012-09-08_
 
-После установки локального хранилища конфигурации установите серверные компоненты Lync и настройте сертификаты для режиссера, а затем запустите службы Lync Server на сервере. Вы можете использовать описанную ниже процедуру, чтобы запустить службы для каждого директора в развертывании.
+После установки локального хранилища конфигурации, установки компонентов Lync Server и настройки сертификатов в директоре необходимо запустить службы Lync Server на сервере. Чтобы запустить службы на каждом Директоре в развертывании, можно воспользоваться следующей процедурой.
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a>Запуск служб в режиссере
+## <a name="to-start-services-on-a-director"></a>Запуск служб на Директоре
 
-1.  В мастере развертывания Lync Server на странице **Lync server 2013** нажмите кнопку **выполнить** рядом с **шагом 4: запуск служб**.
+1.  В мастере развертывания Lync Server на странице **Lync server 2013** нажмите кнопку **выполнить** рядом с **шагом 4: Start Services**.
 
 2.  На странице **Запуск служб** нажмите кнопку **Далее** , чтобы запустить службы Lync Server на сервере.
 
 3.  После успешного запуска всех служб на странице **Выполнение команд** нажмите кнопку **Готово**.
 
-4.  Ниже **действия 4: запуск служб**, выбор **состояния служб (необязательно)**.
+4.  Под пунктом **Шаг 4. Запуск служб** щелкните **Состояние служб (дополнительно)**.
 
-5.  Убедитесь, что в консоли управления **службами** (MMC) на сервере запущены все службы Lync Server 2013.
+5.  В консоли **управления Microsoft (** MMC) на сервере убедитесь, что все службы Lync Server 2013 работают.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка проверки подлинности Kerberos'
+title: 'Lync Server 2013: Настройка проверки подлинности Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c644dd613b3186b314e8fc78b42197709286200
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e419b1f694965518ac505b103de599870e5049
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41732229"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Lync Server 2013 поддерживает проверку подлинности NTLM и Kerberos для веб-служб. Office Communications Server 2007 и Office Communications Server 2007 R2 использовали по умолчанию Ртккомпонентсервице и Ртксервице для учетных записей пользователей для запуска пулов приложений веб-служб, позволяя назначить пользователю имя участника службы (SPN). учетные записи и роль участника проверки подлинности. Lync Server использует сетевую службу для работы веб-служб и NetworkService не может назначать ей SPN.
+Lync Server 2013 поддерживает проверку подлинности NTLM и Kerberos для веб-служб. Office Communications Server 2007 и Office Communications Server 2007 R2 использовали Ртккомпонентсервице по умолчанию и Ртксервице в качестве учетных записей пользователей для запуска пулов приложений веб-служб, позволяя назначить пользователю имя участника-службы (SPN). учетные записи и служат субъектами проверки подлинности. Lync Server использует NetworkService для запуска веб-служб, а служба NetworkService не может иметь назначенные имена участников-служб.
 
-Чтобы решить проблему, не позволяющую объектам Active Directory хранить SPN, панель управления Lync Server может использовать объекты учетной записи компьютера для этой цели. Объекты учетной записи компьютера могут содержать имена участников службы и не могут быть причиной истечения срока действия пароля, которая была связана с использованием учетных записей пользователей в предыдущих версиях.
+Чтобы устранить проблему, связанную с отсутствием объектов Active Directory для хранения имен участников-служб, в панели управления Lync Server для этой цели можно использовать объекты учетной записи компьютера. Эти объекты могут содержать имена субъектов-служб и не имеют пароля с истекающим сроком действия, который затруднял использование учетных записей пользователей в предыдущих версиях.
 
-Вы можете использовать командлеты Windows PowerShell для настройки объектов компьютера для обеспечения проверки подлинности Kerberos.
+Командлеты Windows PowerShell используются для настройки объектов компьютеров, обеспечивающих проверку подлинности Kerberos.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Необходимые условия для включения проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
+  - [Необходимые условия для активации проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-prerequisites-for-enabling-kerberos-authentication.md)
 
-  - [Создание учетной записи для проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md)
+  - [Создание учетной записи проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md)
 
   - [Назначение учетной записи проверки подлинности Kerberos для сайта в Lync Server 2013](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)
 
   - [Настройка паролей учетных записей проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-setting-up-kerberos-authentication-account-passwords.md)
 
-  - [Добавление в Lync Server 2013 проверки подлинности Kerberos для других сайтов](lync-server-2013-add-kerberos-authentication-to-other-sites.md)
+  - [В Lync Server 2013 добавить проверку подлинности Kerberos для других сайтов](lync-server-2013-add-kerberos-authentication-to-other-sites.md)
 
   - [В Lync Server 2013 удаление проверки подлинности Kerberos для сайта](lync-server-2013-remove-kerberos-authentication-from-a-site.md)
 
-  - [Тестирование и отчет о состоянии и назначении проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
+  - [Тестирование и составление отчетов о состоянии и назначении проверки подлинности Kerberos в Lync Server 2013](lync-server-2013-testing-and-reporting-the-status-and-assignment-of-kerberos-authentication.md)
 
 </div>
 

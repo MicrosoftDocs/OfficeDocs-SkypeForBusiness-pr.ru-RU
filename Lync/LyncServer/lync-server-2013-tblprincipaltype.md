@@ -12,16 +12,16 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764089"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764089"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-ТблпринЦипалтипе содержит основные типы для классификации содержимого в таблице ТблпринЦипал.
+Таблица tblPrincipalType содержит типы субъектов для разделения содержимого таблицы tblPrincipal по категориям.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>птипеид</p></td>
-<td><p>smallint, NOT NULL</p></td>
-<td><p>Идентификатор типа участника.</p></td>
+<td><p>smallint, не может быть null</p></td>
+<td><p>Идентификатор типа субъекта.</p></td>
 </tr>
 <tr class="even">
 <td><p>птипедеск</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>nvarchar (256), не может быть null</p></td>
 <td><p>Описание типа.</p></td>
 </tr>
 <tr class="odd">
 <td><p>птипеиссистемусер</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если тип соответствует участникам, которые используются для внутренних целей.</p></td>
+<td><p>bit, не равно null</p></td>
+<td><p>Имеет значение True, если тип соответствует субъектам, которые используются во внутренних целях.</p></td>
 </tr>
 <tr class="even">
 <td><p>птипеисусер</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если тип является пользовательским типом.</p></td>
+<td><p>bit, не может быть null</p></td>
+<td><p>Имеет значение True, если тип соответствует пользователям.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </table>
 
 
-### <a name="principal-values"></a>Основные значения
+### <a name="principal-values"></a>Значения субъектов
 
 <table>
 <colgroup>
@@ -113,58 +113,58 @@ _**Тема последнего изменения:** 2012-09-12_
 <thead>
 <tr class="header">
 <th>ID</th>
-<th>Должность</th>
+<th>Роль</th>
 <th>Описание</th>
 <th>Пользователь</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Любой</p></td>
-<td><p>Универсальный принципал без известного типа. Не используется в таблице ТблпринЦипал.</p></td>
+<td><p>1 </p></td>
+<td><p>Любые</p></td>
+<td><p>Общий субъект неизвестного типа. Не используется в таблице tblPrincipal.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>анюсер</p></td>
-<td><p>Универсальный принципал для типа пользователя. Не используется в таблице ТблпринЦипал.</p></td>
+<td><p>Общий субъект типа "пользователь". Не используется в таблице tblPrincipal.</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>аниграуп</p></td>
-<td><p>Универсальный принципал с семантикой группы. Не используется в таблице ТблпринЦипал.</p></td>
+<td><p>Общий субъект типа "группа". Не используется в таблице tblPrincipal.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>системусер</p></td>
-<td><p>Основной сервер, который используется для внутренних целей с помощью сохраняемого сервера чата.</p></td>
+<td><p>Субъект, используемый сервером сохраняемого чата для внутреннего использования.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>Пользователь</p></td>
 <td><p>Обычный пользователь.</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p>No8</p></td>
-<td><p>NУДАЛЕННЫЙ</p></td>
+<td><p>8 </p></td>
+<td><p>DC</p></td>
 <td><p>Контроллер домена доменных служб Active Directory.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>@</p></td>
-<td><p>Сгруппирован</p></td>
+<td><p>9 </p></td>
+<td><p>Group</p></td>
 <td><p>Группа безопасности Active Directory.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>5-10</p></td>
-<td><p>Нее</p></td>
-<td><p>Контейнер Active Directory или подразделение.</p></td>
+<td><p>10 </p></td>
+<td><p>Folder</p></td>
+<td><p>Контейнер или подразделение Active Directory.</p></td>
 <td></td>
 </tr>
 </tbody>

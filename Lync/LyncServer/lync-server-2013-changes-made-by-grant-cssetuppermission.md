@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: изменения, внесенные пользователем Grant-Кссетуппермиссион'
+title: 'Lync Server 2013: изменения, внесенные с помощью GRANT — CsSetupPermission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Изменения, внесенные функцией Grant-Кссетуппермиссион в Lync Server 2013
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Изменения, внесенные с помощью GRANT – CsSetupPermission в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742359"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Для делегирования настройки вы можете предоставить разрешения на доступ к универсальной группе Рткуниверсалсерверадминс для определенного подразделения Active Directory (OU), включив в него членов группы Рткуниверсалсерверадминс для установки Lync Server 2013 в указанном домен, не являющийся членом группы администраторов домена.
+Чтобы делегировать установку, можно предоставить разрешения универсальной группе RTCUniversalServerAdmins для определенного подразделения Active Directory (OU), разрешив членам группы RTCUniversalServerAdmins в этом подразделении установить Lync Server 2013 в заданном домен, не являющийся членом группы администраторов домена.
 
-Командлет **Grant-кссетуппермиссион** предоставляет разрешения на доступ к группе рткуниверсалсерверадминс на подразделение, как указано в приведенной ниже таблице.
+Командлет **Grant-CsSetupPermission** предоставляет группе RTCUniversalServerAdmins разрешения на подразделение, как показано в следующей таблице.
 
-### <a name="permissions-granted-to-objects-in-the-ou"></a>Разрешения, предоставленные объектам в подразделении
+### <a name="permissions-granted-to-objects-in-the-ou"></a>Разрешения. предоставляемые на объекты в подразделении
 
 <table>
 <colgroup>
@@ -50,104 +50,104 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Разрешения применяются к:</th>
-<th>Предоставлены следующие разрешения:</th>
+<th>Разрешения применяются к</th>
+<th>Предоставляемые разрешения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Чтение передаваемые по себе</p></li>
-<li><p>Вводный текст</p></li>
-<li><p>Удалить дерево</p></li>
-<li><p>Репликация изменений каталога</p></li>
+<li><p>чтение в servicePrincipalName;</p></li>
+<li><p>запись в servicePrincipalName;</p></li>
+<li><p>удаление дерева;</p></li>
+<li><p>репликацию изменений каталога.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Дочерние объекты serviceConnectionPoint</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам serviceConnectionPoint</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Разрешения на чтение</p></li>
-<li><p>Разрешения на запись</p></li>
-<li><p>Создание дочернего элемента</p></li>
-<li><p>Удалить дочерний элемент</p></li>
-<li><p>Содержимое списка</p></li>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>чтение;</p></li>
+<li><p>запись;</p></li>
+<li><p>создание дочерних объектов;</p></li>
+<li><p>удаление дочерних объектов;</p></li>
+<li><p>перечень содержимого;</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Дочерние объекты msRTCSIP-Server</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-Server</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Дочерние msRTCSIP — объекты-компоненты</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-WebComponents</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Дочерние объекты msRTCSIP-MCU</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-MCU</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Дочерние объекты msRTCSIP-Медиатионсервер</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-MediationServer</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Дочерние объекты msRTCSIP-Аппликатионсервер</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-ApplicationServer</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Дочерние объекты msRTCSIP-Коннектионпоинт</p></td>
-<td><p>Специальный доступ:</p>
+<td><p>Объектам-потомкам msRTCSIP-ConnectionPoint</p></td>
+<td><p>Особый доступ на:</p>
 <ul>
-<li><p>Запись свойства</p></li>
-<li><p>Чтение свойства</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>запись свойства;</p></li>
+<li><p>чтение свойства;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Дочерние объекты компьютера</p></td>
-<td><p>Специальный доступ для serviceConnectionPoint:</p>
+<td><p>Объектам-потомкам Computer</p></td>
+<td><p>Особый доступ для serviceConnectionPoint на:</p>
 <ul>
-<li><p>Создание дочерних объектов</p></li>
-<li><p>Удаление дочерних объектов</p></li>
-<li><p>Удалить дерево</p></li>
+<li><p>создание дочерних объектов;</p></li>
+<li><p>удаление дочерних объектов;</p></li>
+<li><p>удаление дерева.</p></li>
 </ul>
-<p>Специальный доступ к общедоступным сведениям:</p>
+<p>Специальный доступ для общедоступных сведений на:</p>
 <ul>
-<li><p>Чтение свойства</p></li>
+<li><p>чтение свойства.</p></li>
 </ul>
-<p>Особый доступ для DNS-имени узла:</p>
+<p>Специальный доступ для имени узла DNS на:</p>
 <ul>
-<li><p>Чтение свойства</p></li>
+<li><p>чтение свойства.</p></li>
 </ul></td>
 </tr>
 </tbody>
