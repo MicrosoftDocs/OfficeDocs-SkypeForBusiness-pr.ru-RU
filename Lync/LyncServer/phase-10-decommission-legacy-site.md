@@ -12,16 +12,16 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757713"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757713"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-16_
+_**Последнее изменение темы:** 2012-10-16_
 
-В следующих разделах приведены рекомендации по удалению пулов и отключению серверов и пулов из устаревшего развертывания Office Communications Server 2007 R2. Не все процедуры, перечисленные в этом разделе, являются обязательными. Ознакомьтесь со сведениями в каждом из этих разделов, чтобы определить, какую процедуру списания следует использовать.
+В следующих разделах представлены рекомендации по списанию пулов, а также отключению и удалению серверов и пулов из устаревшего развертывания Office Communications Server 2007 R2. Не требуется выполнять все процедуры, представленные в этом разделе. Изучите информацию, представленную в каждом из разделов, чтобы определить, какие процедуры вывода из эксплуатации следует использовать.
 
 <div>
 
 
 > [!WARNING]  
-> Если вы импортировали каталоги конференций для конференц-связи с телефонным подключением на Lync Server 2013, важно перейти в каталог конференции на Lync Server 2013, прежде чем приступить к списанию пулов. Если вы списать пул без предварительного перехода в каталог конференц-связи, функция телефонного подключения для всех перенесенных собраний перестанет работать. Вы должны выполнить шаг для смены владельца для каждой из каталогов конференции в пуле старого.
+> Если вы импортировали каталоги конференций для конференц-связи с телефонным подключением в Lync Server 2013, перед началом списания пулов важно перевести его в Lync Server 2013. Если вы выводите пул из эксплуатации без предварительного переноса права владения, функция телефонного подключения для всех перенесенных собраний больше не будет работать. Необходимо выполнять процедуру переноса прав владения однократно для каждого каталога конференц-связи в устаревшем пуле.
 
 
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2012-10-16_
 
 
 > [!IMPORTANT]  
-> Сведения о переносе и обновлении приложений для управляемых API Microsoft Unified Communications (УКМА) перед списанием устаревшей среды можно найти в разделе<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Сведения о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA), предшествующих списанию устаревшей среды, приведены в разделе<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -67,9 +67,9 @@ _**Тема последнего изменения:** 2012-10-16_
 
   - [Обновление записей DNS SRV](update-dns-srv-records_1.md)
 
-  - [Списание серверов и групп](decommissioning-servers-and-pools.md)
+  - [Списание серверов и пулов](decommissioning-servers-and-pools.md)
 
-  - [Удалить Бакккомпатсите](remove-backcompatsite.md)
+  - [Удаление BackCompatSite](remove-backcompatsite.md)
 
 </div>
 

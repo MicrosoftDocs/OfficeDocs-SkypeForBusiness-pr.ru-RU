@@ -12,20 +12,20 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655cde30a3d798d57520c57e3882b2162010888c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 072dcf4cbb8f04a2db3e4b930eeaf666a031e94e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Создание политик межсайтовой сети в Lync Server 2013
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Создание межсайтовых политик для сети в Lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41740329"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-*Политика межсетевое* соединение определяет ограничения пропускной способности между сайтами, которые имеют прямые WAN-ссылки между ними.
+*Межузловая сетевая политика* задает ограничения пропускной способности между узлами, соединенными прямыми подключениями по глобальной сети.
 
-Дополнительные сведения можно найти в документации по оболочке управления Lync Server для следующих командлетов:
+Для получения дополнительных сведений обратитесь к документации по командной консоли Lync Server для следующих командлетов:
 
-  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
+  - [New — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
-  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+  - [Get — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+  - [Set — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
-  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+  - [Remove — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Политика межсетевого сайта требуется <EM>только</EM> в том случае, если имеется прямая перекрестная связь между двумя сетевыми сайтами.
+> Межузловая сетевая политика требуется <EM>только</EM> в том случае, если между двумя сетевыми узлами есть прямое соединение.
 
 
 
 </div>
 
-В примере в Северной Америке для топологии есть прямая связь между сайтами Рено и Альбукерке. Для этих двух сайтов требуется межсайтовая политика, которая применяет соответствующий профиль политики пропускной способности. В следующем примере используется профиль ссылки\_20Mb.
+В примере области "Северная Америка" топологии существует прямая ссылка между сайтами Рино и Альбукерке. Для этих двух сайтов требуется межсайтовая политика, которая применяет соответствующий профиль политики пропускной способности. В следующем примере применяется профиль канала\_20Mb.
 
 <div>
 
-## <a name="to-create-a-network-intersite-policy"></a>Создание политики межсетевого соединения
+## <a name="to-create-a-network-intersite-policy"></a>Создание межузловой сетевой политики
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Запустите командлет New-Кснетворкинтерситеполици, чтобы создать политики межсетевого сайта и применить соответствующий профиль политики пропускной способности для двух сайтов с прямой перекрестной связью. Например, выполните командлет:
+2.  Чтобы создать межузловые сетевые политики и применить соответствующий профиль политики пропускной способности для двух узлов с прямым соединением, выполните командлет New-CsNetworkInterSitePolicy. Пример:
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  При необходимости повторите шаг 2, чтобы создать политики межсетевого сайта для всех пар сетевых сайтов, имеющих прямую перекрестную ссылку.
+3.  Повторите шаг 2 для всех пар сетевых узлов, имеющих прямое соединение.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Этап 8: переход с пилотного развертывания на рабочий'
+title: 'Этап 8: переход от пилотного развертывания к рабочей среде'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72465d617e747616921825e771b3be6bff157a21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 07ab5e017f165a3dc5d9883f14b3711501a0e0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a>Этап 8: переход с пилотного развертывания на рабочий
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a>Этап 8: переход от пилотного развертывания к рабочей среде
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41727359"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-15_
+_**Последнее изменение темы:** 2012-10-15_
 
-В этом разделе описаны задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в рабочее развертывание.
+В подразделах этого раздела описываются задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Настройка маршрутов федерации и трафика мультимедиа](configure-federation-routes-and-media-traffic_1.md)
+  - [Настройка маршрутов Федерации и трафика мультимедиа](configure-federation-routes-and-media-traffic_1.md)
 
   - [Перемещение оставшихся пользователей на Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
 
-  - [Настройка шлюза КСМПП на Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Настройка шлюза XMPP в Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
 
 </div>
 

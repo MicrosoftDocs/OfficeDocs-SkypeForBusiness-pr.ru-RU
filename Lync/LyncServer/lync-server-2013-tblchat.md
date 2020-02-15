@@ -12,16 +12,16 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f3879924b37fa535973116af599f4713c58a207
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3f0672fc3cf41113c0cfa206890848f8ccbde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764225"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблчат включает в себя все сообщения чата.
+Таблица tblChat содержит все сообщения чата.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,50 +56,50 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>чаннелид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор узла.</p></td>
+<td><p>channelId</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД узла.</p></td>
 </tr>
 <tr class="even">
 <td><p>чатид</p></td>
-<td><p>bigint, NOT NULL</p></td>
-<td><p>Уникальный порядковый номер (код узла), который определяет порядок помещения в чат, созданный Тблластчатид таблицей.</p></td>
+<td><p>bigint, not null</p></td>
+<td><p>Уникальный порядковый номер (для каждого ИД узла), определяющий порядок чата, который создается таблицей tblLastChatId.</p></td>
 </tr>
 <tr class="odd">
 <td><p>чатдате</p></td>
-<td><p>bigint, NOT NULL</p></td>
+<td><p>bigint, not null</p></td>
 <td><p>Метка времени для сообщения чата.</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатора пользователя</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника плаката.</p></td>
+<td><p>userId</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД участника, отправителя сообщения.</p></td>
 </tr>
 <tr class="odd">
-<td><p>"о себе"</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если сообщение является предупредительным сообщением. В противном случае — false.</p></td>
+<td><p>Оповещатель</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True, если сообщение является оповещением. В противном случае — False.</p></td>
 </tr>
 <tr class="even">
-<td><p>конфликтов</p></td>
-<td><p>nvarchar (max), NOT NULL</p></td>
-<td><p>Содержимое чата (версия обычного текста). Содержимое обычно задается в виде обычного текста со следующими исключениями:</p>
+<td><p>содержимое</p></td>
+<td><p>nvarchar (max), not null</p></td>
+<td><p>Содержимое чата (версия обычного текста). Обычно содержимое представлено в виде обычного текста за следующими исключениями:</p>
 <ul>
-<li><p>Файлы представлены в виде ссылок MA-филелинк: Links.</p></li>
-<li><p>Ссылки представлены в виде HTML-элемента (несмотря на то, что тип контента не может считаться HTML).</p></li>
-<li><p>Истории в формате "[История]........".</p></li>
+<li><p>Файлы, представленные в виде ссылок ma-filelink:.</p></li>
+<li><p>Ссылки, представленные в виде элементов HTML (однако тип содержимого не может рассматриваться HTML).</p></li>
+<li><p>Статьи, помеченные как "[STORY]....".</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>RTF</p></td>
 <td><p>varchar (max)</p></td>
-<td><p>Содержимое чата (версия RTF). Может иметь значение null, если клиент не предоставил его.</p></td>
+<td><p>Содержимое чата (версия RTF). Может иметь значение NULL, если клиент не предоставляет ее.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

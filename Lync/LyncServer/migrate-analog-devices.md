@@ -12,16 +12,16 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e809db03cf098bea07f57673ddcbfc019e15f299
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8e176b03adf3d64b06e7bd9e2a0e72282a1f0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762977"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41762977"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-16_
+_**Последнее изменение темы:** 2012-10-16_
 
-Lync Server обеспечивает поддержку аналоговых устройств. В частности, поддерживаются аналоговые устройства аналогового и аналогового факсимильного аппарата. Вы можете настроить полные шлюзы для поддержки использования аналоговых устройств в среде Lync Server. После перехода с Lync Server 2010 на Lync Server 2013 необходимо также перенести объекты контактов, связанные с аналоговыми устройствами. Используйте командную консоль Lync Server Management Shell, чтобы сначала получить все объекты контактов, связанные с аналоговыми устройствами Lync Server 2010, а затем переместить эти объекты в пул Lync Server 2013.
+Lync Server обеспечивает поддержку аналоговых устройств. В частности, к поддерживаемым аналоговым устройствам относятся аналоговые телефоны и факсимильные аппараты. Можно настроить квалифицированные шлюзы для поддержки использования аналоговых устройств в среде Lync Server. После перехода с Lync Server 2010 на Lync Server 2013 необходимо также перенести объекты Contact, связанные с аналоговыми устройствами. Используйте командную консоль Lync Server, чтобы сначала получить все объекты Contacts, связанные с аналоговыми устройствами Lync Server 2010, а затем переместить эти объекты в пул Lync Server 2013.
 
 <div>
 
-## <a name="to-migrate-analog-devices"></a>Миграция аналоговых устройств
+## <a name="to-migrate-analog-devices"></a>Перенос аналоговых устройств
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  В командной строке выполните следующую команду:
+2.  В командной строке введите следующую команду.
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  Убедитесь, что все объекты контакта были перемещены в пул Lync Server 2013. В командной строке выполните следующую команду:
+3.  Убедитесь, что все объекты Contacts были перемещены в пул Lync Server 2013. В командной строке введите следующую команду.
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  Убедитесь, что все объекты контакта теперь связаны с пулом Lync Server 2013.
+4.  Убедитесь, что все объекты Contact теперь связаны с пулом Lync Server 2013.
 
 </div>
 

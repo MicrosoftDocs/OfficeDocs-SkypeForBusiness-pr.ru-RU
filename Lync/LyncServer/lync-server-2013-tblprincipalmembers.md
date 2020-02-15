@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblPrincipalMembers'
+title: 'Lync Server 2013: ТблпринЦипалмемберс'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa002b4b1f81cf2ebd607a99f0f00360e01e9292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c81e9ae5b2a712e3d6bb43fc35bd8083334efc1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731219"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmembers-in-lync-server-2013"></a>tblPrincipalMembers в Lync Server 2013
+# <a name="tblprincipalmembers-in-lync-server-2013"></a>ТблпринЦипалмемберс в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731219"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-ТблпринЦипалмемберс включает участников участника.
+Таблица tblPrincipalMembers содержит сведения о членстве субъектов.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,20 +56,20 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД субъекта.</p></td>
 </tr>
 <tr class="even">
 <td><p>мемберадпас</p></td>
-<td><p>nvarchar (384), NOT NULL</p></td>
-<td><p>Отличительное имя участника. Участник может не быть участником (в таблице ТблпринЦипал).</p></td>
+<td><p>nvarchar (384), not null</p></td>
+<td><p>Различающееся имя участника. Участник не должен быть субъектом (в таблице tblPrincipal).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Принид, Мемберадпас&gt;</p></td>
+<td><p>&lt;prinID, Мемберадпас&gt;</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>принид</p></td>
-<td><p>Внешний ключ с подстановкой в ТблпринЦипал. Принид.</p></td>
+<td><p>prinID</p></td>
+<td><p>Внешний ключ для поиска в таблице tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования к системе для средств администрирования'
+title: 'Lync Server 2013: системные требования для средств администрирования'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40901f879af6de5066f210b84caea30f37485983
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cafa0403035be17f3247fa289079295a0d99004e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731639"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-В следующих разделах описаны требования для установки средства администрирования и публикации топологии.
+В следующих разделах рассматриваются требования по установке средства администрирования и публикации топологии.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Программные требования для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
+  - [Требования к программному обеспечению для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
 
   - [Требования к публикации топологии в Lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
 

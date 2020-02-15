@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка маршрута отработки отказа'
+title: 'Lync Server 2013: Настройка маршрута отработки отказа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741289"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41741289"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
 В следующем примере показано, как администратор может определить маршрут отработки отказа на тот случай, если шлюз Dallas-GW1 отключается для проведения технического обслуживания или недоступен по иным причинам. В таблице ниже показаны изменения, которые нужно внести в конфигурацию.
 
@@ -60,7 +60,7 @@ _**Тема последнего изменения:** 2012-09-21_
 </tr>
 <tr class="even">
 <td><p>Локальная политика в Редмонде</p></td>
-<td><p>RedmondLocal</p></td>
+<td><p>редмондлокал</p></td>
 </tr>
 <tr class="odd">
 <td><p>Политика звонков в Далласе</p></td>
@@ -86,7 +86,7 @@ _**Тема последнего изменения:** 2012-09-21_
 <th>Название маршрута</th>
 <th>Шаблон номера</th>
 <th>Использование телефонов</th>
-<th>Линия связи</th>
+<th>Магистрали</th>
 <th>Шлюз</th>
 </tr>
 </thead>
@@ -95,18 +95,18 @@ _**Тема последнего изменения:** 2012-09-21_
 <td><p>Локальный маршрут в Редмонде</p></td>
 <td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
 <td><p>Local</p>
-<p>RedmondLocal</p></td>
+<p>редмондлокал</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p></td>
+<td><p>Red — GW1</p>
+<p>Red — GW2</p></td>
 </tr>
 <tr class="even">
 <td><p>Локальный маршрут в Далласе</p></td>
 <td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
 <td><p>Local</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas-GW1</p></td>
+<td><p>Dallas — GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Универсальный маршрут</p></td>
@@ -115,16 +115,16 @@ _**Тема последнего изменения:** 2012-09-21_
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p>
-<p>Dallas-GW1</p></td>
+<td><p>Red — GW1</p>
+<p>Red — GW2</p>
+<p>Dallas — GW1</p></td>
 </tr>
 <tr class="even">
 <td><p>Маршрут для пользователей в Далласе</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas-GW1</p></td>
+<td><p>Dallas — GW1</p></td>
 </tr>
 </tbody>
 </table>

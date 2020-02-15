@@ -12,16 +12,16 @@ ms:contentKeyID: 48185781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c8c1ff3a56d01a2d5845ad700f1fd7c0dac9f3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c01e4be23ae3f220f31a00b43268cc27c06afdac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736749"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-Чтобы установить сервер сохраняемого чата, у вас должен быть сертификат, выданный тем же центром сертификации, что и у сервера Lync Server 2013, который используется на внутренних серверах, на котором запущены веб-службы сохраняемого чата для отправки и загрузки файлов. Убедитесь, что у вас есть необходимые сертификаты перед началом установки сохраняемого чата, особенно если вы используете внешний центр сертификации.
+Чтобы установить сервер сохраняемого чата, у вас должен быть сертификат, выданный тем же ЦС, что и сервер Lync Server 2013 Internal Servers для каждого сервера, на котором запущены веб-службы сохраняемого чата для отправки и загрузки файлов. Перед началом установки сохраняемого чата убедитесь, что у вас есть необходимые сертификаты, особенно при использовании внешнего центра сертификации.
 
 </div>
 

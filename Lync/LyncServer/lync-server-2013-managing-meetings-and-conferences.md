@@ -12,16 +12,16 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033728"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762067"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-08-09_
+_**Последнее изменение темы:** 2013-08-09_
 
-В этой статье приведены пошаговые инструкции для задач, которые можно выполнять с помощью страниц в группе " **Конференц** -связь" на панели управления Lync Server.
+В подразделах этого раздела приводятся пошаговые процедуры для задач, которые можно выполнять с помощью страниц в группе **Конференц** -связи в панели управления Lync Server.
 
 <div>
 
@@ -47,9 +47,9 @@ _**Тема последнего изменения:** 2013-08-09_
 
   - [Политики конференц-связи в Lync Server 2013](lync-server-2013-conferencing-policies.md)
 
-  - [Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации и доступа)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
+  - [Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации/доступа)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [Использование звонка на телефон с поддержкой Lync и Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [Использование функции "позвонить мне" с телефонами с поддержкой Lync и Lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

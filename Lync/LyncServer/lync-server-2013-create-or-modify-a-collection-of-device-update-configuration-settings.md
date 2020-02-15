@@ -1,5 +1,5 @@
 ---
-title: Создание или изменение коллекции параметров конфигурации центра обновления устройства
+title: Создание или изменение коллекции параметров конфигурации обновления устройств
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e550f48e37ab9c225e5a4919cbc65a13fe09e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3f58e67a0d1fc8f6b01fecfbab7c7ff7dd8f31d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758123"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Создание или изменение коллекции параметров конфигурации обновления устройства в Lync Server 2013
+# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Создание или изменение коллекции параметров конфигурации обновления устройств в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758123"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Параметры конфигурации обновления устройства можно создать (только на уровне сайта) с помощью Windows PowerShell и командлета **New-ксдевицеупдатеконфигуратион** , а затем изменить с помощью командлета **Set-ксдевицеупдатеконфигуратион** . Эти командлеты можно запускать либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+Параметры конфигурации обновления устройств можно создать (только на уровне сайта) с помощью Windows PowerShell и командлета **New-CsDeviceUpdateConfiguration** , а затем изменить с помощью командлета **Set-CsDeviceUpdateConfiguration** . Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]
-> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
+> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.
 
 
 
@@ -54,21 +54,21 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-create-device-update-configuration-settings-that-use-the-default-values"></a>Создание параметров конфигурации обновления устройства, использующих значения по умолчанию
+## <a name="to-create-device-update-configuration-settings-that-use-the-default-values"></a>Создание параметров конфигурации обновления устройств, использующих значения по умолчанию
 
-  - Эта команда создает новый набор параметров конфигурации обновления устройства для сайта Redmond.
+  - Эта команда создает новый набор параметров конфигурации обновления устройств для сайта Redmond:
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond"
     
-    Поскольку в предыдущей команде не указаны никакие параметры, кроме обязательных параметров, Новая коллекция параметров конфигурации будет использовать значения по умолчанию для всех его свойств.
+    Так как в предыдущей команде не были указаны никакие параметры, кроме обязательного параметра Identity, Новая коллекция параметров конфигурации будет использовать значения по умолчанию для всех своих свойств.
 
 </div>
 
 <div>
 
-## <a name="to-change-a-single-property-value-when-creating-device-update-configuration-settings"></a>Изменение значения отдельного свойства при создании параметров конфигурации обновления устройства
+## <a name="to-change-a-single-property-value-when-creating-device-update-configuration-settings"></a>Изменение значения отдельного свойства при создании параметров конфигурации обновления устройств
 
-  - Чтобы создать параметры, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например, чтобы создать коллекцию параметров конфигурации обновления для устройств, которые по умолчанию удаляют старые файлы журнала каждые 21 дня, используйте команду, подобную следующей:
+  - Чтобы создать параметры, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например, чтобы создать коллекцию параметров конфигурации обновления устройств, которые по умолчанию удаляют старые файлы журнала каждые 21 дня, используйте команду, подобную следующей:
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00"
 
@@ -76,15 +76,15 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-device-update-configuration-settings"></a>Изменение нескольких значений свойства при создании параметров конфигурации обновления устройства
+## <a name="to-change-multiple-property-values-when-creating-device-update-configuration-settings"></a>Изменение значений нескольких свойств при создании параметров конфигурации обновления устройств
 
-  - Чтобы изменить несколько значений свойств, можно включить несколько параметров. Например, эта команда задает для интервала очистки журнала значение 21 дня, а интервал сброса журнала — 30 минут.
+  - Чтобы изменить несколько значений свойств, можно включить несколько параметров. Например, эта команда задает для интервала очистки журнала значение 21 дня, а в качестве значения интервала сброса журнала — 30 минут:
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
 </div>
 
-Подробнее об изменении существующих параметров конфигурации устройств можно узнать в разделе справки по командлету [Set-ксдевицеупдатеконфигуратион](https://technet.microsoft.com/en-us/library/Gg398320(v=OCS.15)) . Дополнительные сведения о создании коллекций параметров конфигурации можно найти в разделе справки для командлета [New-ксдевицеупдатеконфигуратион](https://technet.microsoft.com/en-us/library/Gg425761(v=OCS.15)) .
+Для получения дополнительных сведений об изменении параметров конфигурации устройств обратитесь к разделу "Справка" для командлета [Set – CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) . Для получения дополнительных сведений о создании коллекций параметров конфигурации обратитесь к разделу "Справка" для командлета [New – CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) .
 
 </div>
 

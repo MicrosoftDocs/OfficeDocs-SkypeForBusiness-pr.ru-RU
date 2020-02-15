@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование для корпоративного голосовой связи'
+title: 'Lync Server 2013: планирование для корпоративной голосовой связи'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83b0ec944ad857ffccb419cf9ed36fbca92306c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e629946d0db408e83ea12313507787df233bcbc0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41753259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Планирование для корпоративного голосовой связи в Lync Server 2013
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Планирование корпоративной голосовой связи в Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41753259"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-11-01_
+_**Последнее изменение темы:** 2013-11-01_
 
-Процесс развертывания для корпоративной голосовой связи зависит от существующей топологии, инфраструктуры и функций корпоративной голосовой связи, которые требуется поддерживать. Необходимые процедуры будут зависеть от выбранных функций, но есть и другие вопросы планирования, которые необходимо выполнить на высоком уровне.
+Процесс развертывания для корпоративной голосовой связи зависит от существующей топологии, инфраструктуры и функций корпоративной голосовой связи, которые необходимо поддерживать. Необходимые процедуры будут зависеть от выбранных функций, но существуют и другие соображения по планированию, которые необходимо выполнить на высоком уровне.
 
-Общие рекомендации состоят в том, чтобы учесть тип и количество развертываемых сайтов и их географическое положение, интенсивность вызовов на каждом сайте, типы сетевых каналов связи между сайтами, необходимость в избыточности и отработке отказов для функций голосовой связи на каждом сайте, а также потребность в использовании существующего оборудования УАТС. Существуют некоторые особенности, например высокая доступность, которые следует учитывать при планировании общего программного обеспечения для связи Lync Server. Эти аспекты рассматриваются в данном разделе по мере необходимости.
+В общем необходимо учесть типы и число развертываемых сайтов и их географическое расположение, объемы вызовов, обрабатываемых каждым сайтом, типы сетевых каналов между сайтами, необходимость обеспечения избыточности и отработки отказа для функций голосовой связи для каждого сайта, а также то, предполагается ли использовать имеющееся оборудование УАТС. Существуют некоторые соображения, такие как высокий уровень доступности, которые следует учитывать при планировании всего программного обеспечения Lync Server Communications. Эти аспекты также рассматриваются в статьях данного раздела.
 
 <div>
 
 ## <a name="planning-considerations"></a>Вопросы планирования
 
-Сведения о планировании решений, относящихся к развертыванию определенной возможности голосовой связи или сценарии развертывания или компоненту, можно найти в темах этого раздела.
+Для планирования решений, относящихся к развертыванию определенной возможности корпоративной голосовой связи или сценария развертывания или компонента, ознакомьтесь со статьями, приведенными в этом разделе.
 
-  - [Определение своих требований к корпоративной голосовой связи в Lync Server 2013](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
+  - [Определение требований для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
-  - [Оценка объема использования и трафика голосовой связи для Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md)
+  - [Оценка использования голосовой связи и трафика для Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [Components required for Enterprise Voice in Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [Компоненты, необходимые для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
 
   - [Планирование устойчивости корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
@@ -61,17 +61,17 @@ _**Тема последнего изменения:** 2013-11-01_
 
   - [Планирование контроля допуска звонков в Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [Планирование чрезвычайных служб (E9-1-1) в Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [Планирование экстренных служб (E9-1-1) в Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+  - [Планирование обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
   - [Планирование частных телефонных линий с помощью Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [Планирование маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+  - [Планирование маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
 
   - [Планирование устойчивости корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [Рекомендации по развертыванию для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
+  - [Рекомендации по развертыванию корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deployment-guidelines-for-enterprise-voice.md)
 
   - [Обзор процесса развертывания для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deployment-process-overview-for-enterprise-voice.md)
 

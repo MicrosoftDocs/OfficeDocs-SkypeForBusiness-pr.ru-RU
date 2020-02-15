@@ -1,5 +1,5 @@
 ---
-title: Перемещение объектов контактов единой системы обмена сообщениями Exchange
+title: Перемещение контактных объектов единой системы обмена сообщениями Exchange
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c02e391fa66084a27e3790ccaf42753bcaeaa16
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756043"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>Перемещение объектов контактов единой системы обмена сообщениями Exchange
+# <a name="move-exchange-unified-messaging-contact-objects"></a>Перемещение контактных объектов единой системы обмена сообщениями Exchange
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756043"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Для миграции объектов контактов для автосекретаря (AA) и доступа к подписчикам (SA) на новый сервер Lync Server 2013 сначала нужно переместить объекты из устаревшего развертывания Office Communications Server 2007 R2 на новое развертывание Lync Server 2013 с помощью командлетов **Get-ксексумконтакт** и **Move-ксексумконтакт** . На сервере Exchange Server вы можете запустить сценарий Windows PowerShell **ексчукутил** , чтобы сделать следующее для вновь развернутого пула Lync:
+Для переноса контактных объектов автосекретаря (AA) и абонентского доступа (SA) в новое развертывание Lync Server 2013 сначала необходимо переместить объекты из устаревшего развертывания Office Communications Server 2007 R2 в новое развертывание Lync Server 2013 с помощью командлетов **Get-CsExUmContact** и **Move-CsExUmContact** . Затем на сервере Exchange выполните сценарий Windows PowerShell **сценарий ExchUCUtil** , чтобы выполнить следующие действия для вновь развернутого пула Lync:
 
-  - Добавьте его в IP-шлюз единой системы обмена сообщениями.
+  - Добавить его в шлюз IP единой системы обмена сообщениями.
 
-  - Добавьте его в группу слежения единой системы обмена сообщениями.
+  - Добавить его в сервисные группы единой системы обмена сообщениями.
 
 <div>
 
 
 > [!NOTE]  
-> Чтобы использовать командлеты <STRONG>Get-ксексумконтакт</STRONG> и <STRONG>Move-ксексумконтакт</STRONG> , вы должны быть участником группы РТКУНИВЕРСАЛУСЕРАДМИНС и иметь разрешение OU на подразделение, в котором хранятся объекты контактов. Разрешение OU можно предоставить с помощью командлета <STRONG>Grant-аупермиссион</STRONG> .
+> Чтобы использовать командлеты <STRONG>Get-CsExUmContact</STRONG> и <STRONG>Move-CsExUmContact</STRONG>, вы должны быть участником группы RTCUniversalUserAdmins и иметь разрешение для подразделения, в котором хранятся контактные объекты. Разрешение для подразделения предоставляется с помощью командлета <STRONG>Grant-OUPermission</STRONG>.
 
 
 
@@ -55,45 +55,45 @@ _**Тема последнего изменения:** 2012-10-19_
 
 <div>
 
-## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a>Перемещение объектов контакта с помощью командной консоли Lync Server Management Shell
+## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a>Перемещение контактных объектов с помощью командной консоли Lync Server
 
-1.  Откройте командную консоль Lync Server Management Shell.
+1.  Откройте командную консоль Lync Server.
 
-2.  Для каждого пула, зарегистрированного в единой системе обмена сообщениями Exchange (где pool1.contoso.net — это пул из конфигурации Office Communications Server 2007 R2 и pool2.contoso.net — это пул из развертывания Lync Server 2013), введите следующую команду:
+2.  Для каждого пула, зарегистрированного в единой системе обмена сообщениями Exchange (где pool1.contoso.net — это пул из развертывания Office Communications Server 2007 R2 и pool2.contoso.net — это пул из развертывания Lync Server 2013), в командной строке введите следующую команду:
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    Чтобы убедиться в том, что объекты контакта перемещены, выполните командлет **Get-ксексумконтакт** и убедитесь, что в **регистрарпул** указывает на новый пул.
+    Чтобы проверить успешность перемещения контактных объектов, выполните командлет **Get-CsExumContact** и убедитесь, что **RegistrarPool** теперь указывает на новый пул.
 
 </div>
 
 <div>
 
-## <a name="to-run-the-exchucutil-windows-powershell-script"></a>Выполнение сценария Windows PowerShell Ексчукутил
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a>Выполнение скрипта ExchUCUtil Windows PowerShell
 
-1.  Войдите на сервер Exchange UM как пользователь с правами администратора организации Exchange.
+1.  Войдите на сервер Exchange Server с единой системой обмена сообщениями как пользователь с привилегиями администратора организации в Exchange.
 
-2.  Перейдите на Ексчукутил сценарий Windows PowerShell.
+2.  Перейдите к скрипту Windows PowerShell сценарий ExchUCUtil.
     
-    В Exchange 2007 Ексчукутил. ps1 размещается по адресу: **% Program\\Files\\%\\Scripts\\сервера Microsoft Exchange Server ексчукутил. ps1**
+    В Exchange 2007 сценарий ExchUCUtil. ps1 находится по адресу: **% Program Files\\%\\Microsoft Exchange\\Server\\Scripts сценарий ExchUCUtil. ps1**
     
-    В Exchange 2010 Ексчукутил. ps1 расположен по адресу: **% Program Files\\%\\Microsoft Exchange\\Server\\V14\\Scripts ексчукутил. ps1**
+    В Exchange 2010 сценарий ExchUCUtil. ps1 находится по адресу: **% Program Files\\%\\Microsoft Exchange\\Server\\V14\\Scripts сценарий ExchUCUtil. ps1**
 
-3.  Если Exchange развернут в одном лесе, введите:
+3.  Если Exchange развертывается в одном лесу, введите:
     
         exchucutil.ps1
     
-    Если Exchange развернут в нескольких лесах, введите:
+    Если Exchange развертывается в нескольких лесах, введите:
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    где полное доменное имя леса определяет лес, в котором развернут Lync Server 2013.
+    где полное доменное имя леса указывает лес, в котором развернут Lync Server 2013.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <EM>После</EM> запуска ексчукутил. ps1 убедитесь в том, что вы перезапустите службу <STRONG>внешнего сервера Lync Server</STRONG> (ртксрв. exe). В противном случае Lync Server 2013 не будет определять единую систему обмена сообщениями в топологии.
+    > Обязательно перезапустите службу <STRONG>Сервер переднего плана Lync Server</STRONG> (rtcsrv.exe) <EM>после</EM> выполнения скрипта exchucutil.ps1. В противном случае Lync Server 2013 не будет обнаруживать единую систему обмена сообщениями в топологии.
 
     
     </div>

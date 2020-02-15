@@ -12,16 +12,16 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85db7e4aea8405bf1ec3f94e491c7007ae8b51ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: febd806e55e8e2d6234818ec45eefb33cc3ef708
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757703"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-17_
+_**Последнее изменение темы:** 2012-09-17_
 
-Прежде чем приступить к миграции на Lync Server 2013 с Lync Server 2010, выполните действия, описанные в этом разделе.
+Прежде чем приступать к миграции на Lync Server 2013 с Lync Server 2010, выполните действия, описанные в этом разделе.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Установка обновлений для Lync Server 2010](apply-lync-server-2010-updates.md)
+  - [Применение обновлений Lync Server 2010](apply-lync-server-2010-updates.md)
 
   - [Настройка DNS-записей для развертывания пилотного пула](configure-dns-records-for-pilot-pool-deployment.md)
 
-  - [Выполнение анализатора соответствия рекомендациям](run-best-practices-analyzer.md)
+  - [Запуск анализатора соответствия рекомендациям](run-best-practices-analyzer.md)
 
   - [Резервное копирование систем и данных](back-up-systems-and-data.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765710"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765710"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-После создания пилотного пула и сведений о развертывании старых версий с Lync Server 2013 этот раздел определяет несколько конфигураций, которые необходимо выполнить в пуле пилотного проекта.
+Теперь, когда пилотный пул создан и сведения о развертывании прежних версий объединены с Lync Server 2013, в этом разделе указывается несколько конфигураций, которые необходимо выполнить в пилотном пуле.
 
 <div>
 
@@ -45,9 +45,9 @@ _**Тема последнего изменения:** 2012-10-19_
 
   - [Подключение пилотного пула к старым пограничным серверам](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Авторизовать подключение к Office Communications Server 2007 R2 Edge Server](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Авторизация подключения к пограничному серверу Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [Проверка параметров настройки](verify-configuration-settings_1.md)
+  - [Проверка параметров конфигурации](verify-configuration-settings_1.md)
 
   - [Настройка политик доступа и сертификатов шлюза XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 

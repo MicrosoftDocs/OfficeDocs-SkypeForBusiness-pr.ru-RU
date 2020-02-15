@@ -12,16 +12,16 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89e1509a1a84e0a9dd03527eedfb0b9e6da1590e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a8236145f86fa86039b4030fe82327d9fc4dfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764235"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-25_
+_**Последнее изменение темы:** 2012-06-25_
 
-Тбладминлокк содержит блокировку администратора, которая необходима для выполнения некоторых команд администратора.
+tblAdminLock содержит блокировку администратора, необходимую для запуска некоторых команд администратора.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,18 +57,18 @@ _**Тема последнего изменения:** 2012-06-25_
 <tbody>
 <tr class="odd">
 <td><p>локкекспирестиме</p></td>
-<td><p>DateTime, NOT NULL</p></td>
-<td><p>Заблокируйте дату и время окончания срока действия. Владелец может периодически увеличивать это значение.</p></td>
+<td><p>datetime, не null</p></td>
+<td><p>Дата и время истечения срока блокировки. Владелец может периодически продлевать этот срок.</p></td>
 </tr>
 <tr class="even">
 <td><p>локксерверид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор сервера, владеющего блокировкой.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Идентификатора сервера, которому принадлежит блокировка.</p></td>
 </tr>
 <tr class="odd">
 <td><p>локкакторид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника, владеющего блокировкой.</p></td>
+<td><p>int, не null</p></td>
+<td><p>Идентификатора участника, которому принадлежит блокировка.</p></td>
 </tr>
 </tbody>
 </table>

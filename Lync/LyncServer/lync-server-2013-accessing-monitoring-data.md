@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: доступ к данным наблюдения'
+title: 'Lync Server 2013: доступ к данным мониторинга'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 609963f3248d5bdd1c50eac45b74c188ab2e6c56
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3acb91831a57ba68648ee513af337abe6a894849
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41723379"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-05_
+_**Последнее изменение темы:** 2012-09-05_
 
 Данные мониторинга хранятся в двух базах данных SQL Server: LcsCdr для данных регистрации звонков и QoEMetrics для данных качества взаимодействия. Эти базы данных ничем особенным не выделяются, т. е. доступ к данным в них можно получить с помощью любого средства, которое вы обычно используете для просмотра и анализа данных SQL Server.
 
-Для получения доступа к данным наблюдения и анализа данных мониторинга необходимо предусмотреть один из инструментов, которые являются отчетами мониторинга Lync Server. Отчеты мониторинга — это набор стандартных отчетов, публикуемых службой Microsoft SQL Server Reporting Service. Эти отчеты, доступные в браузере, предоставляют сведения об использовании, диагностики звонков и качестве медиаданных на основе записей регистрации вызовов (CDR) и качества взаимодействия (QoE) в базе данных CDR и QoE. Отчеты мониторинга поставляются с Lync Server 2013 и могут быть установлены с помощью мастера развертывания Lync Server после установки Lync Server и настройки мониторинга.
+Для получения доступа к данным мониторинга и их анализа необходимо учитывать одно средство: отчеты мониторинга сервера Lync Server. Отчеты мониторинга — это набор стандартных отчетов, публикуемых службой Microsoft SQL Server Reporting Service. Эти отчеты, доступные в браузере, предоставляют сведения об использовании, диагностики звонков и качестве медиаданных на основе записей регистрации вызовов (CDR) и качества взаимодействия (QoE) в база данных CDR и QoE. Отчеты мониторинга поставляются с Lync Server 2013 и могут быть установлены с помощью мастера развертывания Lync Server после установки Lync Server и настройки мониторинга.
 
 Как было отмечено, для отчетов мониторинга требуется служба SQL Server Reporting Service, которую можно установить вместе с SQL Server в любое время после установки SQL Server.
 
-Дополнительные сведения можно найти в разделе [Установка сервера Lync server 2013 мониторинг отчетов](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) в руководстве по развертыванию lync Server 2013.
+Для получения дополнительных сведений ознакомьтесь с разделом [install the Lync server 2013 Monitoring Reports](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) в руководстве по развертыванию lync Server 2013.
 
 </div>
 

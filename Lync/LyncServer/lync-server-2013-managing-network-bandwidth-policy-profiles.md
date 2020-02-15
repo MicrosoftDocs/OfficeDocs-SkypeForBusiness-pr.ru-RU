@@ -12,16 +12,16 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f536f82042da6f24c981ea9109a2d81d1736a541
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743319"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743319"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-15_
+_**Последнее изменение темы:** 2012-10-15_
 
-С помощью описанных в этом разделе процедур можно управлять профилями политики пропускной способности сети. Сведения о требованиях к пропускной способности сети для трафика мультимедиа можно найти [в разделе Требования к пропускной способности сети для мультимедийного трафика в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+Используйте процедуры из этого раздела для управления профилями политик пропускной способности сети. Дополнительную информацию о требованиях к пропускной способности сети для трафика мультимедиа можно узнать [в статье требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр данных профиля политики пропускной способности сети в Lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+  - [Просмотр сведений о профиле политики пропускной способности сети в Lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
-  - [Создание и изменение профилей политики пропускной способности в Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
+  - [Создание или изменение профилей политики пропускной способности в Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
   - [Удаление профилей политики пропускной способности сети в Lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-10-15_
 
 ## <a name="related-sections"></a>Связанные разделы
 
-[Сетевое планирование для Lync Server 2013](lync-server-2013-network-planning.md)
+[Планирование сети для Lync Server 2013](lync-server-2013-network-planning.md)
 
 </div>
 
@@ -64,7 +64,7 @@ _**Тема последнего изменения:** 2012-10-15_
 ## <a name="see-also"></a>См. также
 
 
-[Требования к пропускной способности сети для мультимедийного трафика в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
+[Требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
   
 
 </div>

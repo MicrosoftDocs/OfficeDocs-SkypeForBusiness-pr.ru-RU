@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка IIS'
+title: 'Lync Server 2013: Настройка IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c5eb1d20997ab05f6b40c3d8b527230eef04174
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 864de129804285aaebb6584663fab2808a19ba31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729829"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-iis-for-lync-server-2013"></a>Настройка IIS для Lync Server 2013
+# <a name="configure-iis-for-lync-server-2013"></a>Настройка служб IIS для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729829"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2011-12-16_
+_**Последнее изменение темы:** 2011-12-16_
 
-Настройка служб IIS для Lync Server 2013 включает установку правильных компонентов для поддержки веб-служб, необходимых для Lync Server 2013. Подробнее об установке IIS можно узнать [в разделе Конфигурация IIS в Lync Server 2013](lync-server-2013-iis-configuration.md). Если у вас есть политика для запуска мастера настройки безопасности на серверах, прежде чем они появятся в службе или как типичная часть обслуживания, ознакомьтесь со статьей [Реактивация сервера после того, как мастер настройки безопасности закроет порт в IIS](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md) , чтобы получить информацию о побочном эффекте запуска мастера, который будет закрывать порты в конфигурации IIS 2013 для Lync Server.
+При настройке служб IIS для Lync Server 2013 включается установка правильных компонентов для поддержки веб-служб, необходимых для Lync Server 2013. Более подробную информацию об установке IIS можно узнать [в статье Конфигурация IIS в Lync Server 2013](lync-server-2013-iis-configuration.md). Если у вас есть политика для запуска мастера настройки безопасности на серверах перед их включением в службу или в качестве типичной части обслуживания, обратитесь к разделу [Повторная активация сервера после закрытия портов в IIS мастером настройки безопасности](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md) для получения сведений о побочном влиянии на работу мастера, который будет закрывать порты в конфигурации IIS Lync Server 2013.
 
 <div>
 

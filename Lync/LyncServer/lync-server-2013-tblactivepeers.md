@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblActivePeers'
+title: 'Lync Server 2013: Тблактивепирс'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29d7c5c806e7540cc742781ce364748c47c10b39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebde759bceaf682384284cffb6a2ec710050126c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblactivepeers-in-lync-server-2013"></a>tblActivePeers в Lync Server 2013
+# <a name="tblactivepeers-in-lync-server-2013"></a>Тблактивепирс в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764245"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.
+Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ _**Тема последнего изменения:** 2012-06-29_
 <tbody>
 <tr class="odd">
 <td><p>аплсерверид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор сервера, на котором размещена запись.</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД сервера, добавившего запись.</p></td>
 </tr>
 <tr class="even">
 <td><p>аплпирид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор однорангового узла, к которому подключен сервер публикации.</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД узла, к которому подключен сервер, добавивший запись.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -89,11 +89,11 @@ _**Тема последнего изменения:** 2012-06-29_
 </tr>
 <tr class="even">
 <td><p>аплсерверид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.</p></td>
+<td><p>Внешний ключ с поиском в таблице tblServerIdentity.serverID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>аплпирид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.</p></td>
+<td><p>Внешний ключ с поиском в таблице tblServerIdentity.serverID.</p></td>
 </tr>
 </tbody>
 </table>

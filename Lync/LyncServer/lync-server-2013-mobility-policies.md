@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: политики мобильной связи'
+title: 'Lync Server 2013: политики мобильности'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f96061011087bc3e23f4e57172b85cc9a379a83f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758681"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-policies-in-lync-server-2013"></a>Политики мобильной связи в Lync Server 2013
+# <a name="mobility-policies-in-lync-server-2013"></a>Политики мобильности в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758681"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-Чтобы настроить политики мобильной связи для Lync Server 2013, выполните указанные ниже действия.
+Используйте следующие процедуры для настройки политик мобильности для Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Создание и изменение политики Mobility Service в Lync Server 2013](lync-server-2013-create-or-modify-a-mobility-policy.md)
+  - [Создание или изменение политики мобильности в Lync Server 2013](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [Назначение политики мобильности на мобильные пользователи в Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Назначение индивидуальной политики мобильности в Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
   - [Принудительная Блокировка телефона в Lync Server 2013](lync-server-2013-enforce-phone-locking.md)
 

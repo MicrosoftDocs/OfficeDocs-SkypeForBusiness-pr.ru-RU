@@ -1,5 +1,5 @@
 ---
-title: Создание каталогов конференций (обязательно)
+title: Предложен Создание каталогов конференций
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d525951dcb77ee365c9c83461f678c26ae53af6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37f4a0dbd2caf7e9a04354e0b0670dcbb47adb1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>Создание каталогов конференций (обязательно)
+# <a name="recommended-create-conference-directories"></a>Предложен Создание каталогов конференций
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727339"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-10-03_
+_**Последнее изменение темы:** 2014-10-03_
 
-В каталогах конференций поддерживается сопоставление буквенно-цифровых ИДЕНТИФИКАТОРов собраний, используемых участниками для присоединения к Конференции с помощью Lync 2013, а также идентификатора конференции, который используется участниками конференц-связи с телефонным подключением для присоединения к Конференции. Идентификатор конференции представлен в следующем формате:
+Каталоги конференций поддерживают сопоставление буквенно-цифрового идентификатора собраний, который участник использует для присоединения к Конференции при использовании Lync 2013, и идентификатор одноранговой конференции, который используется участником конференц-связи с телефонным подключением для присоединения к Конференции. Формат идентификатора конференции:
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-Создание нескольких каталогов конференций позволяет присваивать конференциям короткие идентификаторы, если количество конференций не слишком велико. В организациях, где количество конференций на каждого пользователя находится в обычных пределах, рекомендуется создавать по одному каталогу конференций для каждых 999 пользователей в пуле. С помощью этого правила идентификаторы конференций обычно можно оставлять небольшим. Однако когда количество каталогов конференций (по пулам) превышает 9, длина идентификатора конференции будет увеличиваться для поддержки дополнительных конференций.
+Создание нескольких каталогов конференций позволяет использовать для конференций короткие идентификаторы, пока не будет создано значительное количество конференций. В организациях со стандартным количеством конференций на пользователя рекомендуется создавать по одному каталогу конференций для каждых 999 пользователей в пуле. Это правило позволит сохранить короткие идентификаторы конференций. Тем не менее, если число каталогов конференций (в пулах) превышает 9, длина идентификатора конференции увеличится для поддержки дополнительных конференций.
 
 <div>
 
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2014-10-03_
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    Например, в следующем примере создается каталог конференций с удостоверением 42, размещенным в пуле atl-cs-001.litwareinc.com:
+    Например, в следующем примере создается каталог конференций с идентификатором 42, размещенном в пуле atl-cs-001.litwareinc.com:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 
@@ -65,7 +65,7 @@ _**Тема последнего изменения:** 2014-10-03_
 [Требования к конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
 
 
-[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
+[New — CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
   
 
 </div>

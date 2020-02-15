@@ -1,5 +1,5 @@
 ---
-title: Миграция серверов группового чата
+title: Перенос серверов группового чата
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5741b3344c6cff3ae3acd641478c9203f5e9a6a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5446cdb144b59865f22b6bd18a73fb2782802f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763311"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a>Миграция серверов группового чата
+# <a name="migrating-group-chat-servers"></a>Перенос серверов группового чата
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763311"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-Если вы развернули сервер группового чата в устаревшей среде Lync Server 2010, вам нужно развернуть сервер для Lync Server 2013 для постоянного чата. Сервер группового чата и сохраняемый сервер чатов могут сосуществовать, но содержимое (например, комнаты чата и т. д.) не будет использоваться на этих серверах. Чтобы получить доступ к старому содержимому сервера группового чата с сохраняемого сервера чата, необходимо перенести сервер группового чата на сохраняемый сервер чата. Дополнительные сведения о переходе на сохраняемый сервер чатов можно найти в разделе [Миграция с Lync server 2010, группового чата или Office Communications Server 2007 R2 Group Chat на сервер Lync server 2013,](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) групповой чат в документации по миграции.
+Если вы развернули сервер группового чата в устаревшей среде Lync Server 2010, необходимо развернуть сервер сохраняемого чата Lync Server 2013. Сервер группового чата и сервер сохраняемого чата могут сосуществовать, но содержимое (например, комнаты чата и т. д.) не будет использоваться на этих серверах. Чтобы получить доступ к устаревшему серверу группового чата с сервера сохраняемого чата, необходимо перенести сервер группового чата на сервер сохраняемого чата. Дополнительные сведения о переходе на сервер сохраняемого чата приведены в статье [Migration from Lync server 2010, Group Chat или Office Communications Server 2007 R2 Group Chat to Lync server 2013, сервер сохраняемого чата](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) в документации по миграции.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Этап 8: ликвидация старых пулов'
+title: 'Этап 8: списание устаревших пулов'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729079"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Этап 8: ликвидация старых пулов
+# <a name="phase-8-decommission-legacy-pools"></a>Этап 8: списание устаревших пулов
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729079"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-12-08_
+_**Последнее изменение темы:** 2016-12-08_
 
-В следующих разделах приведены рекомендации по обновлению записей DNS, перемещению сервера управления контентом, удалении пулов и отключению серверов и пулов из устаревшего развертывания Lync Server 2010. Не все процедуры, перечисленные в этом разделе, являются обязательными. Ознакомьтесь с документацией и определите, какую процедуру списания использовать.
+В следующих разделах представлены рекомендации по обновлению записей DNS, перемещению сервера управления контентом, развертыванию пулов, отключению и удалению серверов и пулов из устаревшего развертывания Lync Server 2010. Не все процедуры, рассматриваемые в этом разделе, являются обязательными. Ознакомьтесь в документацией и определите, какую из процедур списания следует использовать.
 
-Для полного покрытия удаления серверов и ролей сервера Lync Server 2010 и пошагового руководства по списанию развертывания Lync Server 2010 ознакомьтесь со статьей удаление Microsoft Lync Server 2010 и отключение ролей сервера, которые можно скачать по адресу [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).
+Для полного покрытия удаления серверов и ролей сервера Lync Server 2010 и пошагового руководства по списанию развертывания Lync Server 2010 обратитесь к разделу "удаление Microsoft Lync Server 2010 и удаление ролей сервера", которые можно скачать на сайте [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Сведения о переносе и обновлении приложений для управляемых API Microsoft Unified Communications (УКМА) перед списанием устаревшей среды можно найти в разделе<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Сведения о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA), предшествующих списанию устаревшей среды, приведены в разделе<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -59,19 +59,19 @@ _**Тема последнего изменения:** 2016-12-08_
     [Обновление записей DNS SRV](update-dns-srv-records.md)
 
   - <span></span>  
-    [Перемещение сервера Lync Server 2010 на центральный сервер SMS на Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+    [Перемещение сервера центрального управления Lync Server 2010 на Lync Server 2013](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
   - <span></span>  
     [Перемещение каталогов конференций](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [Удаление связи с сервером архивирования](remove-the-archiving-server-association.md)
+    [Удаление связи сервера архивации](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Удаление связи с сервером мониторинга](remove-the-monitoring-server-association.md)
+    [Удаление сопоставления сервера мониторинга](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [Удаление сервера переднего плана Enterprise Edition или стандартного выпуска Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
     [Удаление экземпляров и баз данных SQL Server на внутреннем сервере](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

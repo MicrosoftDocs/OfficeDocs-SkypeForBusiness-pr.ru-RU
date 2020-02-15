@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Удаление объявления'
+title: 'Lync Server 2013: удаление извещения'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736429"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Чтобы удалить объявление, которое используется для звонков на неназначенные номера, выполните описанные ниже действия.
+Используйте следующую процедуру для удаления оповещения о вызовах на неназначенные номера.
 
 <div>
 
 ## <a name="to-delete-an-announcement"></a>Порядок удаления оповещения
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  Получите список всех оповещений, используемых в организации. Выполните в командной строке следующую команду:
     
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-11-01_
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    Например:
+    Пример:
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +63,7 @@ _**Тема последнего изменения:** 2012-11-01_
     
 
     > [!NOTE]  
-    > Подробнее о дополнительных параметрах можно узнать в <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">статьях Get-ксаннаунцемент</A> и <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-ксаннаунцемент</A>.
+    > Дополнительные сведения о параметрах: <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get – ксаннаунцемент</A> и <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove — ксаннаунцемент</A>.
 
     
     </div>
@@ -75,11 +75,11 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Создание объявления в Lync Server 2013](lync-server-2013-create-an-announcement.md)  
+[Создание извещения в Lync Server 2013](lync-server-2013-create-an-announcement.md)  
 
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
-[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+[Remove — Ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[Get — Ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736379"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Выполните эти действия, чтобы удалить политику конференц-связи на уровне пользователя или сайта.
+Выполните приведенные действия, чтобы удалить политику конференц-связи уровня пользователя или уровня сайта.
 
 <div>
 
 
 > [!NOTE]  
-> Вы не можете удалить глобальную политику конференций.
+> Вы не можете удалить глобальную политику конференц-связи.
 
 
 
@@ -51,15 +51,15 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Удаление политики сайта или конференц-связи пользователей
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Удаление политики конференц-связи для узла или пользователя
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите **Конференц** -связь, а затем — **Политика Конференц**-связи.
+3.  В левой панели навигации щелкните **Конференция**, а затем выберите **Политика конференц-связи**.
 
-4.  В списке политик конференц-связи выберите политику узла или пользователя для удаления и щелкните **Изменить**, затем **Удалить**.
+4.  В списке политик конференций выберите политику сайта или пользователя, которую нужно удалить, нажмите кнопку **изменить**, а затем нажмите кнопку **Удалить**.
 
 </div>
 
@@ -67,7 +67,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик конференц-связи с помощью командлетов Windows PowerShell
 
-Вы можете удалять политики конференций с помощью командной консоли Lync Server Management Shell и командлета **Remove-ксконференЦингполици** . Этот командлет можно выполнить из управляющей оболочки Lync Server 2013 или из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Политики конференц-связи можно удалить с помощью командной консоли Lync Server и командлета **Remove-CsConferencingPolicy** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
@@ -81,9 +81,9 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>Удаление всех политик конференц-связи, примененных к области "на пользователя"
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>Удаление всех политик конференц-связи, применяемых на уровне пользователя
 
-  - Следующая команда удаляет все политики конференций, настроенные в области "на пользователя".
+  - Следующая команда удаляет все политики конференц-связи, настроенные на уровне пользователя:
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -93,13 +93,13 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>Удаление всех политик конференц-связи, разрешающих запись внешними пользователями
 
-  - Следующая команда удаляет все политики конференц-связи, позволяющие внешним пользователям записывать конференцию.
+  - Следующая команда удаляет все политики конференц-связи, разрешающие внешним пользователям записывать конференцию:
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
 </div>
 
-Подробности можно найти в разделе [Remove-ксконференЦингполици](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).
+Дополнительные сведения см. в разделе [Remove – CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).
 
 </div>
 

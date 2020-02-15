@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: основы топологии, которые необходимо знать перед планированием'
+title: Основные сведения о топологии Lync Server 2013, которые необходимо знать перед планированием
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745199"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41745199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-25_
+_**Последнее изменение темы:** 2012-09-25_
 
-Для запуска средства планирования вам не нужно быть экспертом на сервере Lync Server. На самом деле, запускать средство планирования несколько раз, отвечать на вопросы по-другому и сравнивать результаты — это хороший способ изучить Lync Server.
+Для запуска средства планирования не обязательно быть экспертом на Lync Server. На самом деле запустите средство планирования несколько раз, ответьте на вопросы по-разному и сравните выходные данные, чтобы узнать о Lync Server.
 
-Прежде чем узнать о различных компонентах более глубокой глубины, ознакомьтесь со следующими основными аспектами топологий Lync Server 2013.
+Прежде чем приступать к изучению различных компонентов, необходимо ознакомиться со следующими основными аспектами серверных топологий Lync Server 2013.
 
 <div>
 
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-09-25_
 
   - [Роли сервера в Lync Server 2013](lync-server-2013-server-roles.md)
 
-  - [Поддержка высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [Поддержка высокого уровня доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

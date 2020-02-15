@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: разрешение группового приема для пользователей и назначение номера группы'
+title: 'Lync Server 2013: Включение групповой отправки звонков для пользователей и назначение номера группы'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ad9bbc6f5505e5778872a568bdbc80b3f7bf91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c541d5a82becf253ebbbb2bbab6d1c69e9fb7016
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Включение отправки группового звонка для пользователей в Lync Server 2013 и назначение номера группы
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>Включение групповой отправки звонков для пользователей в Lync Server 2013 и назначение номера группы
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729399"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-01-30_
+_**Последнее изменение темы:** 2013-01-30_
 
-После того как вы добавите номера групп для отправки звонков в таблицу "приостановить Звонок", вы назначаете номера групп для пользователей и включаете для них функцию отправки групп. Используйте вспомогательный набор ресурсов для активации дополнительных компонентов (Сефаутил), чтобы назначить групповые номера и включить функцию отправки групповых звонков.
+После добавления номеров групп ответа на звонки в таблицу орбит парковки вызовов необходимо назначить номера групп пользователям и включить для них функцию отправки групп. Используйте дополнительное средство дополнительного набора ресурсов для активации дополнительных компонентов (SEFAUtil), чтобы назначить номера групп и включить отправке звонков групп.
 
 <div>
 
 
 > [!NOTE]  
-> В гибридном развертывании не назначайте группу отправки группового звонка пользователям, которые находятся в сети. Пользователи, которые подключены к сети, не могут принимать участие в расправке групповых звонков. That is, their calls cannot be answered by other users, and they cannot answer calls to other users.
+> В гибридном развертывании не назначайте группу группового ответа на звонки пользователям, размещенным в сети. Пользователи, размещенные в Интернете, не могут участвовать в групповой отправке звонков. Это значит, что их звонки не могут отвечать другим пользователям и они не могут отвечать на звонки другим пользователям.
 
 
 
@@ -51,15 +51,15 @@ _**Тема последнего изменения:** 2013-01-30_
 
 <div>
 
-## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Назначение номера группы и включение отправки группового звонка для пользователя
+## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Назначение номера группы и включение групповой отправки звонков для пользователя
 
-1.  Войдите в систему компьютера, на котором установлено средство SEFAUtil, с правами администратора.
+1.  Войдите на компьютер, на котором установлено средство SEFAUtil с правами администратора.
 
 2.  В командной строке выполните следующую команду:
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    Например, чтобы назначить пользователю групповой номер 199, введите:
+    Например, чтобы назначить пользователю номер группы 199, выполните указанные ниже действия.
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
 
@@ -70,7 +70,7 @@ _**Тема последнего изменения:** 2013-01-30_
 ## <a name="see-also"></a>См. также
 
 
-[Отключение отправки группового вызова для пользователей в Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Отключение групповой отправки вызовов для пользователей в Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

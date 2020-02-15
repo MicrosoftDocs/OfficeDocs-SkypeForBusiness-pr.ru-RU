@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Включение управления допуском звонков'
+title: 'Lync Server 2013: включение контроля допуска звонков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1776cc173d7ddec50aae34e8316844d14f67b009
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3bb2c0360b5348f2556c880cbe7c68d59ba1995
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034019"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-call-admission-control-in-lync-server-2013"></a>Включение управления допуском звонков в Lync Server 2013
+# <a name="enable-call-admission-control-in-lync-server-2013"></a>Включение контроля допуска звонков в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729359"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
 Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).
 
-Дополнительные сведения можно найти в документации по оболочке управления Lync Server для следующих командлетов:
+Для получения дополнительных сведений обратитесь к документации по командной консоли Lync Server для следующих командлетов:
 
-  - [Get-Кснетворкконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
+  - [Get — CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
+  - [Set — CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
+  - [Remove — CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 <div>
 
-## <a name="to-enable-call-admission-control-by-using-management-shell"></a>Включение управления допуском звонков с помощью оболочки управления
+## <a name="to-enable-call-admission-control-by-using-management-shell"></a>Включение службы контроля допуска звонков с помощью командной консоли Lync Server
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:
     
@@ -65,17 +65,17 @@ _**Тема последнего изменения:** 2012-10-19_
 
 <div>
 
-## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>Включение управления допуском звонков с помощью панели управления Lync Server
+## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a>Включение службы контроля допуска звонков с помощью панели управления Lync Server
 
-1.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  В левой области навигации щелкните элемент **Конфигурация сети**.
+2.  В левой панели навигации щелкните **Network Configuration** (Параметры сети).
 
-3.  Нажмите кнопку навигации **Глобальные**.
+3.  Нажмите кнопку навигации **Global** (Глобальные).
 
-4.  Выберите **Глобальные** в списке и затем в меню **Изменить** выберите **Показать сведения**.
+4.  Выберите **Global** (Глобальные) в списке и затем в меню **Edit** (Изменить) выберите **Show Details** (Показать сведения).
 
-5.  На странице **Изменение глобальных параметров** установите флажок **Включить контроль допуска звонков**.
+5.  На странице **Edit Global Settings** (Изменение глобальных параметров) установите флажок **Enable call admission control** (Включить службу контроля допуска звонков).
     
     <div>
     
@@ -86,7 +86,7 @@ _**Тема последнего изменения:** 2012-10-19_
     
     </div>
 
-6.  Нажмите **Исполнить**.
+6.  Щелкните **Commit** (Применить).
 
 </div>
 

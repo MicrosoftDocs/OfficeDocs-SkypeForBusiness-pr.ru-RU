@@ -1,5 +1,5 @@
 ---
-title: 'Этап 7: необходимые действия после миграции'
+title: 'Этап 7: выполнение задач, выполняемых после миграции'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757133"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
+# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: выполнение задач, выполняемых после миграции
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757133"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-В этом разделе описаны задачи, которые необходимо выполнить после перехода на Lync Server 2013.
+В подразделах этого раздела описываются задачи, которые необходимо выполнить после завершения миграции на Lync Server 2013.
 
 <div>
 
@@ -45,23 +45,23 @@ _**Тема последнего изменения:** 2012-10-19_
 
   - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
 
-  - [Перенос номеров доступа](migrate-dial-in-access-numbers.md)
+  - [Перенос номеров доступа для телефонного подключения](migrate-dial-in-access-numbers.md)
 
-  - [Перенос параметров приложения приостановки звонков](migrate-call-park-application-settings.md)
+  - [Миграция параметров приложения парковки вызовов](migrate-call-park-application-settings.md)
 
-  - [Перенос групп ответа](migrate-response-groups.md)
+  - [Миграция групп ответа](migrate-response-groups.md)
 
-  - [Перенос адресной книги](migrate-address-book.md)
+  - [Миграция адресной книги](migrate-address-book.md)
 
-  - [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page.md)
+  - [Настройка страницы присоединения к собранию](configure-the-meeting-join-page.md)
 
-  - [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
+  - [Удаление устаревших серверов архивации и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
+  - [Настройка серверов доверенных приложений](configure-trusted-application-servers.md)
 
   - [Развертывание клиентов Lync Server 2013](deploy-lync-server-2013-clients.md)
 
-  - [Подключение Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
+  - [Подключение устройства для обеспечения связи в филиалах](connect-a-survivable-branch-appliance.md)
 
   - [Настройка мониторинга SCOM](configure-scom-monitoring.md)
 

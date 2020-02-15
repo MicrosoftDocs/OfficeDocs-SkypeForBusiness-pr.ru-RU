@@ -1,5 +1,5 @@
 ---
-title: 'Таблица в Lync Server 2013: IP-адрес'
+title: 'Lync Server 2013: таблица IP-адреса'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6344319fbdf581a5e51a1f61e141833910e9e29f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ipaddress-table-in-lync-server-2013"></a>Таблица IP-адреса в Lync Server 2013
+# <a name="ipaddress-table-in-lync-server-2013"></a>IP-адрес таблицы в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733469"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-17_
+_**Последнее изменение темы:** 2012-10-17_
 
-В таблице IPAddress IP-адреса сопоставляются с уникальными идентификаторами IP-адресов, которые используются в базе данных качества обслуживания. Эта таблица введена в Microsoft Lync Server 2013.
+Таблица IPAddress сопоставляет IP-адреса с уникальными идентификаторами IP-адресов, которые используются в других местах базы данных качества взаимодействия. Эта таблица была введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -49,24 +49,24 @@ _**Тема последнего изменения:** 2012-10-17_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ипаддресскэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный идентификатор указанного IP-адреса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IPAddress</strong></p></td>
-<td><p>varchar(50)</p></td>
-<td><p>Повторя</p></td>
-<td><p>Уникальный IP-адрес (например, 189.168.1.1), сопоставляемый с Ипаддресскэй. Это может быть либо IPv4, либо IPv6-адрес.</p></td>
+<td><p><strong>Адреса</strong></p></td>
+<td><p>varchar (50)</p></td>
+<td><p>Уникальные</p></td>
+<td><p>Уникальный IP-адрес (например, 189.168.1.1), который соответствует идентификатору IPAddressKey. Адрес может быть представлен в формате IPv4 или IPv6.</p></td>
 </tr>
 </tbody>
 </table>

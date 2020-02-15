@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Удаление группы агента'
+title: 'Lync Server 2013: Удаление группы агентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb8ebde61d1ba59952741bffd14e29ae87d482f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c98c5cba4a34f0c241c07ebd817885bb497664f0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736439"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-agent-group-in-lync-server-2013"></a>Удаление группы агента в Lync Server 2013
+# <a name="delete-an-agent-group-in-lync-server-2013"></a>Удаление группы агентов в Lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41736439"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Для удаления группы агента воспользуйтесь одной из описанных ниже процедур.
+Воспользуйтесь одной из описанных ниже процедур, чтобы удалить группу агентов.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-an-agent-group"></a>Удаление группы агента с помощью панели управления Lync Server
+## <a name="to-use-lync-server-control-panel-to-delete-an-agent-group"></a>Удаление группы агентов с помощью панели управления Lync Server
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой области навигации щелкните **Группы ответа**, затем **Группа**.
+3.  В левой панели навигации щелкните элемент **Response Groups** (Группы ответа), а затем **Group** (Группа).
 
-4.  На странице **группы ответа** введите имя или часть имени группы агента, которую вы хотите удалить, в поле поиска.
+4.  На странице  **Response Groups** (Группы ответа) в поле поиска введите полностью или частично имя группы агентов, которую вы хотите удалить.
 
-5.  В списке результатов выберите группу, которую вы хотите удалить, и нажмите кнопку **изменить**, а затем — **Удалить**.
+5.  В списке результатов поиска выберите требуемую группу, нажмите кнопку **Изменить**, а затем щелкните элемент **Удалить**.
 
-6.  Нажмите кнопку **ОК**.
+6.  Click **ОК**.
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-an-agent-group"></a>Использование Windows PowerShell для удаления группы агента
+## <a name="to-use-windows-powershell-to-delete-an-agent-group"></a>Удаление группы агентов с помощью Windows PowerShell
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  В командной строке выполните следующую команду:
     
         Get-CsRgsAgentGroup -Identity <Application Server service> -Name "<name of agent group>" | Remove-CsRgsAgentGroup
     
-    Например:
+    Пример:
     
         Get-CsRgsAgentGroup -Identity service:ApplicationServer:redmond.contoso.com -Name "Human Resources" | Remove-CsRgsAgentGroup
 
@@ -80,11 +80,11 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Создание или изменение группы агента в Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
+[Создание или изменение группы агентов в Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
 
 
-[Remove-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
-[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
+[Remove — CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[Get — CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d16ffd08184a650f993d175239f5aff72b8b3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: accab39d1f1f7cb1855ba651ea217aa3b0a4bd8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762137"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762137"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-25_
+_**Последнее изменение темы:** 2012-05-25_
 
-Каждая запись представляет одну ссылку на расположение в экстренном звонке, например, в вызове E9-1-1.
+Каждая запись представляет одну ссылку на расположение в экстренном звонке, например звонке E9-1-1.
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2012-05-25_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -60,19 +60,19 @@ _**Тема последнего изменения:** 2012-05-25_
 <td><p><strong>сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
-<td><p>Время запроса сеанса. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
+<td><p>Время запроса сеанса. В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом. Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>сессионидсек</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Первичный, внешний</p></td>
+<td><p>Идентификатор для идентификации сеанса. В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом. Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Расположение</strong></p></td>
+<td><p><strong>Location</strong></p></td>
 <td><p>nvarchar (max)</p></td>
 <td></td>
-<td><p>Место вызова экстренной помощи.</p></td>
+<td><p>Расположение экстренного звонка.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730009"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-Чтобы определить политику расположения для подсетей, необходимо выполнить следующие действия в любом порядке:
+Чтобы определить политику местонахождения для подсетей, необходимо выполнить следующие действия в любом порядке:
 
-  - Примените к сетевому сайту политику расположения.
+  - Примените политику местонахождения к сетевому сайту.
 
-  - Добавьте подсети на сайт сети.
+  - Добавьте подсети к сетевому сайту.
 
-Сведения о сетевых сайтах можно найти в разделе [сайты Lync Server для Lync server 2013](lync-server-2013-sites.md).
+Подробнее о сетевых сайтах можно узнать в статье [Lync Server Sites for Lync server 2013](lync-server-2013-sites.md).
 
 <div>
 
 
 > [!NOTE]  
-> Если вы создаете сетевые сайты для другой голосовой функции и хотите настроить E9-1-1 с помощью тех же сайтов, вы можете изменить сайты, которые будут использоваться для E9-1-1.
+> Если вы создаете сетевые сайты для другого компонента голосовой связи и хотите настроить E9-1-1 с использованием тех же сайтов, вы можете изменить сайты, используемые для E9-1-1.
 
 
 
@@ -59,9 +59,9 @@ _**Тема последнего изменения:** 2012-10-03_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Добавление политики расположения на сайт сети в Lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [Добавление политики расположения к сетевому сайту в Lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [Связь подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

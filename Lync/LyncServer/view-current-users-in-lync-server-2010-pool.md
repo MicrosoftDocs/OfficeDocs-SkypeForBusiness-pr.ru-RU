@@ -12,16 +12,16 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41730759"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-26_
+_**Последнее изменение темы:** 2012-09-26_
 
-Прежде чем изучать различные способы перемещения пользователей между пулами, необходимо сначала определить, какие пользователи находятся в устаревшем пуле Lync Server 2010. На изображении ниже в столбце регистратор пула выводятся шесть пользователей, которые настроены для устаревшего пула Lync Server 2010. Это тестовые пользователи, которые мы перейдем к пулу Lync Server 2013.
+Прежде чем приступать к изучению различных способов перемещения пользователей между пулами, сначала необходимо определить, какие пользователи существуют в устаревшем пуле Lync Server 2010. На изображении ниже в столбце пул регистратора указывается шесть пользователей, настроенных для устаревшего пула Lync Server 2010. Это тестовые пользователи, которые мы перейдем в пул Lync Server 2013.
 
 **Просмотр списка пользователей в пуле Lync Server 2010**
 
-1.  Войдите на сервер переднего плана Lync Server 2010 с помощью учетной записи, которая является членом группы Рткуниверсалсерверадминс или участником административной роли Ксадминистратор или Ксусерадминистратор.
+1.  Войдите на сервер переднего плана Lync Server 2010 с помощью учетной записи, которая является членом группы RTCUniversalServerAdmins или членом административной роли CsAdministrator или CsUserAdministrator.
 
 2.  Откройте **Панель управления Lync Server**.
 
-3.  Нажмите **Пользователи**, затем "Поиск" и **Найти**.
+3.  Щелкните **Пользователи**, затем выберите поиск и нажмите кнопку **Найти**.
 
 **Панель управления Lync Server 15**
 

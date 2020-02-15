@@ -12,16 +12,16 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f733397483693ad4c18418f3e82b9f99cfa640f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731569"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731569"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-25_
+_**Последнее изменение темы:** 2012-06-25_
 
-Тбладкукие включает в себя текущие cookie-файлы для синхронизации протокола Lightweight Directory Access.
+tblADCookie содержит текущие файлы cookie синхронизации для протокола LDAP.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,8 +57,8 @@ _**Тема последнего изменения:** 2012-06-25_
 <tbody>
 <tr class="odd">
 <td><p>прингуид</p></td>
-<td><p>GUID, а не NULL</p></td>
-<td><p>Идентификатор GUID участника отслеживаемого домена.</p></td>
+<td><p>GUID, не NULL</p></td>
+<td><p>GUID субъекта для домена, за которым осуществляется мониторинг.</p></td>
 </tr>
 <tr class="even">
 <td><p>приндчост</p></td>
@@ -67,8 +67,8 @@ _**Тема последнего изменения:** 2012-06-25_
 </tr>
 <tr class="odd">
 <td><p>адкконтент</p></td>
-<td><p>изображение (двоичное)</p></td>
-<td><p>Cookie синхронизации Active Directory.</p></td>
+<td><p>image (binary)</p></td>
+<td><p>Файл cookie синхронизации Active Directory.</p></td>
 </tr>
 <tr class="even">
 <td><p>ластупдатед</p></td>
@@ -78,13 +78,13 @@ _**Тема последнего изменения:** 2012-06-25_
 <tr class="odd">
 <td><p>локкедунтил</p></td>
 <td><p>datetime</p></td>
-<td><p>Время, по истечении которого изменения строки будут заблокированы. Это является частью механизма программного обеспечения, который гарантирует, что только одна из служб чата выполняет синхронизацию службы каталогов Active Directory за один раз.</p></td>
+<td><p>время, до которого строка заблокирована для внесения изменений. Это часть механизма программной блокировки, которая обеспечивает одновременное выполнение синхронизации Active Directory только одной службой чата.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -93,7 +93,7 @@ _**Тема последнего изменения:** 2012-06-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбцы (-ы)</th>
+<th>Столбцы</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -104,7 +104,7 @@ _**Тема последнего изменения:** 2012-06-25_
 </tr>
 <tr class="even">
 <td><p>прингуид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Principal. Прингуид.</p></td>
+<td><p>Внешний ключ с поиском в таблице Principal.prinGuid.</p></td>
 </tr>
 </tbody>
 </table>

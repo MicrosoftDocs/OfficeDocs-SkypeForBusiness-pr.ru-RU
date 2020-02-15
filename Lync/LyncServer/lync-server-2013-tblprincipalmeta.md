@@ -12,16 +12,16 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764099"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-ТблпринЦипалмета содержит участников, которые необходимо обновлять из доменных служб Active Directory.
+tblPrincipalMeta содержит субъекты, которые необходимо обновить из доменных служб Active Directory.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,34 +56,34 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ИД субъекта.</p></td>
 </tr>
 <tr class="even">
 <td><p>принаффилиатионсдирти</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если присвоить участникам участники необходимо обновлять.</p></td>
+<td><p>bit, не равно null</p></td>
+<td><p>Значение true, если назначения субъектов требуется обновить.</p></td>
 </tr>
 <tr class="odd">
 <td><p>принаттрибутесдирти</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если атрибуты участника нужно обновить.</p></td>
+<td><p>bit, не равно null</p></td>
+<td><p>Значение true, если атрибуты субъектов требуется обновить.</p></td>
 </tr>
 <tr class="even">
 <td><p>принделетед</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если участник удален.</p></td>
+<td><p>bit, не равно null</p></td>
+<td><p>Значение true, если субъект был удален.</p></td>
 </tr>
 <tr class="odd">
 <td><p>трикаунт</p></td>
-<td><p>целое</p></td>
-<td><p>Количество попыток обновления участника из доменных служб Active Directory, произошедших в данный момент.</p></td>
+<td><p>int</p></td>
+<td><p>Число попыток обновления субъекта из доменных служб Active Directory, предпринятых на данный момент.</p></td>
 </tr>
 <tr class="even">
 <td><p>ласттри</p></td>
 <td><p>datetime</p></td>
-<td><p>Метка времени последней попытки обновить участника. Может иметь значение null, если вы еще не пытались обновить обновление.</p></td>
+<td><p>Метка времени для последней попытки обновления субъекта. Может иметь значение null, если попытки обновления еще не предпринимались.</p></td>
 </tr>
 <tr class="odd">
 <td><p>нексттри</p></td>
@@ -94,7 +94,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -109,12 +109,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
+<td><p>prinID</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>принид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
+<td><p>prinID</p></td>
+<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

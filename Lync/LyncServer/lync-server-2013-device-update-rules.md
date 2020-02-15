@@ -12,16 +12,16 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b52fa2f2aefae05f713972df5c3b15e6db7c0b57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762387"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-Периодически Корпорация Майкрософт выпускает новый набор обновлений встроенного по устройства для Lync Phone Edition. *Правила обновления устройства* связывают обновления встроенного по с аппаратными устройствами (телефоны и другие устройства, на которых работает Lync Phone Edition).
+Корпорация Майкрософт выпускает новый набор обновлений встроенного по устройства для Lync Phone Edition. *Правила обновления устройств* связывают обновления встроенного по с аппаратными устройствами, телефонами и другими устройствами, работающими с Lync Phone Edition.
 
-Чтобы получить последний набор правил обновления устройства, перейдите на страницу справки и поддержки на веб-сайте Майкрософт и выполните поиск по слову "Phone Edition". Загрузите пакет обновления и извлеките файлы в папку на компьютере, куда нужно отправить обновления. После того как файлы будут извлечены, импортируйте правила обновления устройств, найденные в извлеченном файле. CAB-файл (с именем Укупдатес. cab). Затем с помощью панели управления Lync Server или командлетов Windows PowerShell просмотрите эти правила для устройств организации и управляйте ими.
+Чтобы получить последний набор правил обновления устройств, перейдите на страницу справки и поддержки на веб-сайте Майкрософт и выполните поиск по слову "Phone Edition". Скачайте пакет обновления и извлеките файлы в папку на компьютере, где будут отправляться обновления. После извлечения файлов импортируйте правила обновления устройств, обнаруженные в извлеченном файле. CAB-файл (с именем UCUpdates. cab). Затем используйте панель управления Lync Server или командлеты Windows PowerShell, чтобы просматривать эти правила для устройств организации и управлять ими.
 
-В следующих разделах объясняется, как импортировать, просматривать правила обновления устройств и управлять ими.
+В следующих разделах рассказывается, как импортировать, просматривать правила обновления устройств и управлять ими.
 
 <div>
 
@@ -51,13 +51,13 @@ _**Тема последнего изменения:** 2013-02-20_
 
   - [Импорт правил обновления устройств в Lync Server 2013](lync-server-2013-import-device-update-rules.md)
 
-  - [Утверждение правила обновления устройства в Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)
+  - [Утверждение правила обновления устройств в Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)
 
-  - [Удаление правила обновления устройства в Lync Server 2013](lync-server-2013-remove-a-device-update-rule.md)
+  - [Удаление правила обновления устройств в Lync Server 2013](lync-server-2013-remove-a-device-update-rule.md)
 
-  - [Сброс правила обновления устройства в Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md)
+  - [Сброс правила обновления устройств в Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md)
 
-  - [Восстановление правила обновления устройства в Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)
+  - [Восстановление правила обновления устройств в Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)
 
 </div>
 

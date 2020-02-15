@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764145"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-ТблпринЦипалмембердифференце содержит изменения членства в группах (добавленные и удаленные участники), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.
+tblPrincipalMemberDifference содержит изменения членства в группах (добавленные и удаленные элементы), которые еще не были обработаны на последующих этапах синхронизации доменных служб Active Directory.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,24 +57,24 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>прингуид</p></td>
-<td><p>GUID, а не NULL</p></td>
-<td><p>Идентификатор GUID участника измененной группы.</p></td>
+<td><p>GUID, не NULL</p></td>
+<td><p>GUID субъекта для измененной группы.</p></td>
 </tr>
 <tr class="even">
 <td><p>мемберадпас</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Отличительное имя участника.</p></td>
+<td><p>Различающееся имя члена.</p></td>
 </tr>
 <tr class="odd">
 <td><p>мемберремовед</p></td>
-<td><p>bit, NOT NULL</p></td>
-<td><p>Значение false, если элемент был добавлен. Значение true, если элемент удален.</p></td>
+<td><p>bit, не NULL</p></td>
+<td><p>False, если член был добавлен. True, если член был удален.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

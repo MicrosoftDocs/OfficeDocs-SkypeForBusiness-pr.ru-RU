@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: создание DNS-записей для обратных прокси-серверов'
+title: 'Lync Server 2013: создание записей DNS для обратных прокси-серверов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60cd3033ae06f3fd9f0fc4a7a1e881f08f2ee90f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a>Создание DNS-записей для обратных прокси-серверов в Lync Server 2013
+# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a>Создание записей DNS для обратных прокси-серверов в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41726329"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-03-29_
+_**Последнее изменение темы:** 2013-03-29_
 
-Создание внешних DNS-записей, указывающих на открытый внешний интерфейс сервера ISA Server 2006 SP1, сервер или Маршрутизация запросов приложений Forefront Threat Management Gateway 2010, как описано в разделе [Настройка DNS для поддержки EDGE в Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Вам понадобятся записи DNS для полных доменных имен веб-служб для каждого пула, режиссера (или режиссера) и каждого простого URL-адреса.
+Создайте внешние записи A DNS, которые настраивают общедоступный внешний интерфейс для сервера ISA Server 2006 SP1, Forefront Threat Management Gateway 2010 Server или Internet Information Server Маршрутизация запросов, как описано в разделе [Настройка DNS для пограничной поддержки в Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Вам понадобятся записи DNS для полных доменных имен внешних веб-служб для каждого пула, директора (или пула директоров) и каждого простого URL-адреса.
 
-Минимальный набор DNS-записей для разрешения клиента на обратный прокси, должны быть созданы следующие записи:
+Минимальное число DNS-записей для разрешения клиентов на обратном прокси-сервере:
 
-  - Записи узла (A), которые определяют опубликованные внешние веб-службы для режиссеров и пулов директоров (например, **webdirext.contoso.com**).
+  - Записи узла (A), которые определяют опубликованные внешние веб-службы для директоров и пулов директоров (например, **webdirext.contoso.com**).
 
-  - Записи узла (A), которые определяют опубликованные внешние веб-службы для внешних веб-служб, размещенных на любых интерфейсных пулах и ролях сервера Standard Edition (например, **webext.contoso.com**).
+  - Записи узла (A), которые определяют опубликованные внешние веб-службы для внешних веб-служб, размещенных на всех интерфейсных пулах и ролях сервера Standard Edition (например, **webext.contoso.com**).
 
-  - Записи узла (A) для простых URL-адресов (например, **Dialin.contoso.com** и **Meet.contoso.com**).
+  - Записи узлов (A) для простых URL-адресов (например, **dialin.contoso.com** и **meet.contoso.com**)
 
-  - Запись узла (A) для внешней записи Lync Discover, а также предоставляет указатель на автообнаружение для всех веб-приложений, включая Lync Web App, планировщик и мобильность (например, **lyncdiscover.contoso.com**).
+  - Запись узла (A) для внешней записи Lync Discover, а также предоставляет указатель на автообнаружение для всех веб-приложений, включая Lync Web App, планировщик и мобильность (например, **lyncdiscover.contoso.com**)
 
-  - Записи узла (A) для URL-адреса сервера Office Web Apps (например, **officewebapp01.contoso.com**);
+  - Записи узла (A) для URL-адреса сервера Office Web Apps (например, **officewebapp01.contoso.com**)
 
-Подробности можно найти [в разделе Сводка DNS — обратный прокси-сервер в Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).
+Дополнительные сведения [: сводка по DNS — обратный прокси-сервер в Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).
 
 </div>
 

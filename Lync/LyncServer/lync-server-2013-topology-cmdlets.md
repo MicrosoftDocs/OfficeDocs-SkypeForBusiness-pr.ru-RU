@@ -12,20 +12,20 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c584670828524b0d72a03adcbbee7a7bca773b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745109"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-cmdlets-jn-lync-server-2013"></a>Командлеты топологии JN Lync Server 2013
+# <a name="topology-cmdlets-jn-lync-server-2013"></a>Командлеты топологии ЖН Lync Server 2013
 
 </div>
 
@@ -35,74 +35,74 @@ ms.locfileid: "41745109"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Многие командлеты топологии, включенные в Microsoft Lync Server 2013, предназначены для использования с построителем программы установки и топологии. из-за этого есть несколько командлетов топологии, которые администраторы редко вызывают напрямую. Тем не менее, в некоторых случаях необходимо, чтобы администраторы использовали эти командлеты; Например, после создания новых учетных записей Kerberos необходимо запустить командлет [Enable-кстопологи](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) , чтобы изменения вступили в силу. Кроме того, администраторы, как правило, смогут запускать такие командлеты, как [Test-кстопологи](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15)) и [Test-кскомпутер](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15)) , чтобы убедиться, что Lync Server 2013 правильно установлен и работает должным образом.
+Многие командлеты топологии, включенные в Microsoft Lync Server 2013, предназначены для использования с программой установки и построителем топологий; из-за этого существует несколько командлетов топологии, которые администраторы редко вызывают напрямую. Тем не менее, при использовании этих командлетов будут требоваться администраторы; Например, после создания новых учетных записей Kerberos необходимо выполнить командлет [Enable – CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) , чтобы изменения вступили в силу. Кроме того, администраторы, скорее всего, будут запускать командлеты, такие как [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15)) и [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15)) , чтобы убедиться, что Lync Server 2013 правильно установлен и работает должным образом.
 
 <div>
 
 ## <a name="topology-cmdlets"></a>Командлеты топологии
 
-Ниже приведен список командлетов, которые непосредственно управляют топологией Lync Server.
+Ниже приведен список командлетов, которые относятся непосредственно к управлению топологией Lync Server.
 
 **Топология**
 
   - <span></span>  
-    [Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [Get — CsPool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [Get — CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+    [Set — CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+    [Enable — CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+    [Get — CsTopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [Publish-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+    [Publish — CsTopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [Test-Кстопологи](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [Export — CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
   - <span></span>  
-    [Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+    [Import — CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+    [Get — Кссерверверсион](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+    [Disable — CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+    [Enable — CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
 
   - <span></span>  
-    [Get-Кскомпутер](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+    [Get — CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
 
   - <span></span>  
-    [Test-Кскомпутер](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [Get — CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
 
 </div>
 

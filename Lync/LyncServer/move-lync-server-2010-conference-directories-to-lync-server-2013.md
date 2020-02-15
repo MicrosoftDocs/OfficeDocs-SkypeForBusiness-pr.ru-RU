@@ -12,16 +12,16 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9bd597665f389c814fbdc8fe1745587fd3d1b3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766120"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41766120"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-28_
+_**Последнее изменение темы:** 2014-05-28_
 
-Перед списанием пула необходимо выполнить описанные ниже действия для каждой из каталогов конференций в пуле Lync Server 2010.
+Перед списанием пула необходимо выполнить следующую процедуру для каждого каталога конференций в пуле Lync Server 2010.
 
 <div>
 
 ## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>Перемещение каталога конференций на Lync Server 2013
 
-1.  Откройте командную консоль Lync Server Management Shell.
+1.  Откройте командную консоль Lync Server.
 
-2.  Чтобы получить удостоверение каталогов конференции в Организации, выполните следующую команду:
+2.  Чтобы получить удостоверение каталогов конференций в Организации, выполните следующую команду:
     
         Get-CsConferenceDirectory
     
-    Предыдущая команда возвращает все каталоги конференций в Организации. По этой причине вам может потребоваться ограничить результаты для пула. Например, если вы собираетесь списать пул с полным доменным именем (FQDN) pool01.contoso.net, используйте эту команду, чтобы ограничить возвращаемые данные каталогам конференций из этого пула.
+    Предыдущая команда возвращает все каталоги конференций в Организации. Из-за этого может потребоваться ограничить результаты для пула, который будет списан. Например, при списании пула с полным доменным именем (FQDN) pool01.contoso.net используйте следующую команду, чтобы ограничить возвращаемые данные каталогами конференций из этого пула:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    Эта команда возвращает только каталоги конференций, в которых свойство Сервицеид имеет полное доменное имя (FQDN) pool01.contoso.net.
+    Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.
 
-3.  Чтобы переместить каталоги конференций, выполните для каждой из каталогов конференций в пуле следующую команду:
+3.  Чтобы переместить каталоги конференций, выполните следующую команду для каждого каталога конференции в пуле:
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
-    Например, чтобы переместить каталог конференции 3, используйте эту команду, указав в качестве Таржетпул пул Lync Server 2013:
+    Например, чтобы переместить каталог конференции 3, используйте эту команду, указав пул Lync Server 2013 в качестве TargetPool:
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
     
-    Если вы хотите переместить все каталоги конференций в пуле, выполните следующую команду:
+    Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-Ознакомьтесь со статьей "удаление Microsoft Lync Server 2010 и отключение серверных ролей" (которую можно скачать из [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) для получения подробных пошаговых инструкций по списанию пулов Lync 2010.
+Ознакомьтесь с документом "удаление Microsoft Lync Server 2010 и удаление ролей сервера" (которые можно скачать [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)) для получения исчерпывающих пошаговых инструкций по списанию пулов Lync 2010.
 
 При перемещении каталогов конференций может возникнуть следующая ошибка:
 
@@ -76,7 +76,7 @@ _**Тема последнего изменения:** 2014-05-28_
     Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 
     This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 
-Как правило, эта ошибка возникает, когда для выполнения задачи в командной консоли Lync Server Management Shell требуется обновленный набор разрешений Active Directory. Чтобы устранить эту проблему, закройте текущий экземпляр интерпретатора команд, а затем откройте новый экземпляр оболочки и повторно выполните команду, чтобы переместить каталог конференций.
+Эта ошибка обычно возникает, если для выполнения задачи в командной консоли Lync Server требуется обновленный набор разрешений Active Directory. Чтобы устранить эту проблему, закройте текущий экземпляр командной консоли, а затем откройте новый экземпляр командной консоли и повторно выполните команду, чтобы переместить каталог конференции.
 
 </div>
 

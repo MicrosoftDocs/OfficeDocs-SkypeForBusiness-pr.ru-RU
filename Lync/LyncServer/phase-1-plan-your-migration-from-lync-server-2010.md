@@ -1,5 +1,5 @@
 ---
-title: 'Этап 1: планирование перехода с Lync Server 2010'
+title: 'Этап 1: Планирование миграции с Lync Server 2010'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e413bef2271a7b01487536ed44f475eac60dd0c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8fbb2256f008106b868c8d570c9fec3f138e37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743649"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>Этап 1: планирование перехода с Lync Server 2010
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>Этап 1: Планирование миграции с Lync Server 2010
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41743649"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-В этом разделе описаны вопросы, связанные с планированием перехода с Lync Server 2010 на Lync Server 2013.
+В этом разделе рассматриваются вопросы планирования перехода с Lync Server 2010 на Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Перенос пользователей](user-migration.md)
+  - [Миграция пользователей](user-migration.md)
 
-  - [Перенос серверов архивирования и мониторинга](migrating-archiving-and-monitoring-servers.md)
+  - [Перенос серверов архивации и мониторинга](migrating-archiving-and-monitoring-servers.md)
 
-  - [Миграция серверов группового чата](migrating-group-chat-servers.md)
+  - [Перенос серверов группового чата](migrating-group-chat-servers.md)
 
   - [Администрирование серверов после миграции](administering-servers-after-migration.md)
 
   - [Перенос нескольких сайтов и пулов](migrating-multiple-sites-and-pools.md)
 
-  - [Перенос федерации XMPP](migrating-xmpp-federation.md)
+  - [Миграция Федерации XMPP](migrating-xmpp-federation.md)
 
 </div>
 

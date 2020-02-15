@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: изменение магистрали в построителе топологии'
+title: 'Lync Server 2013: изменение магистрали в построителе топологий'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1c603aa24a0d31ea87178f740f824ae77f20f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5b4c69fdf4b7dbad79f4b9c2627e74ea855cd02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Изменение магистрали в построителе топологии в Lync Server 2013
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Изменение магистрали в построителе топологий в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758651"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
-Выполните указанные ниже действия, чтобы изменить дополнительный IP-адрес и отказаться от использования идентификатора межсетевого связи.
+Выполните следующие действия, чтобы изменить альтернативный IP-адрес посредника и альтернативный идентификатор обхода магистрали.
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>Изменение альтернативного IP-адреса носителя для магистрали
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>Изменение альтернативного IP-адреса посредника магистрали
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Запустите командлет Set-Кспстнгатевай и измените поле Алтернатебипассид в командной консоли Lync Server Management Shell.
+2.  Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -53,11 +53,11 @@ _**Тема последнего изменения:** 2012-09-21_
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>Изменение альтернативных Бипассид на магистральной магистрали
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>Изменение альтернативного BypassID посредника магистрали
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Запустите командлет Set-Кспстнгатевай и измените поле Алтернатебипассид в командной консоли Lync Server Management Shell.
+2.  Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: процесс развертывания для организации мобильной работы'
+title: 'Lync Server 2013: процесс развертывания для мобильной работы'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f9f7994981a860aaa02d4674d6a3248c3593d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 337e85520cb2a285f4e4743837aafa4136c89f27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Процесс развертывания для организации мобильной работы в Lync Server 2013
+# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Процесс развертывания для мобильной работы в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762597"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-19_
+_**Последнее изменение темы:** 2013-02-19_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013. It is noted accordingly.
 
-В этом разделе описывается последовательность действий, необходимых для развертывания функции Lync Server 2013 Mobility.
+В этом разделе описывается последовательность действий, необходимых для развертывания функции мобильной работы Lync Server 2013.
 
-### <a name="mobility-deployment-process"></a>Процесс развертывания для мобильных устройств
+### <a name="mobility-deployment-process"></a>Процесс развертывания мобильности
 
 <table>
 <colgroup>
@@ -60,84 +60,84 @@ _**Тема последнего изменения:** 2013-02-19_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Создание записей DNS (Domain Name System)</p></td>
+<td><p>Создание записей службы доменных имен (DNS)</p></td>
 <td><ul>
-<li><p>Создайте внутреннюю запись DNS CNAME или A (Host, если IPv6, AAAA) для разрешения URL-адреса внутренней службы автообнаружения.</p></li>
-<li><p>Создайте внешнюю запись DNS CNAME или (Host, если IPv6, AAAA) для разрешения внешнего URL-адреса службы автообнаружения.</p></li>
+<li><p>Создайте внутреннюю DNS-запись CNAME или A (узел, для IPv6 — AAAA) для разрешения внутреннего URL-адреса службы автообнаружения.</p></li>
+<li><p>Создайте внешнюю DNS-запись CNAME или A (узел, для IPv6 — AAAA) для разрешения внешнего URL-адреса службы автообнаружения.</p></li>
 </ul></td>
 <td><p>Администраторы домена</p>
-<p>днсадминс</p></td>
+<p>DnsAdmins</p></td>
 <td><p><a href="lync-server-2013-creating-dns-records-for-the-autodiscover-service.md">Создание DNS-записей для службы автообнаружения в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Изменение сертификатов</p></td>
-<td><p>Добавьте записи альтернативного имени субъекта в следующие сертификаты для поддержки безопасных подключений для мобильных пользователей:</p>
+<td><p>Добавьте записи альтернативных имен субъектов в следующие сертификаты, чтобы обеспечить поддержку безопасных подключений для мобильных пользователей:</p>
 <ul>
 <li><p>Сертификат директора</p></li>
-<li><p>Сертификат пула на стороне переднего плана</p></li>
-<li><p>Обратный сертификат прокси-сервера</p></li>
+<li><p>Сертификат пула переднего плана</p></li>
+<li><p>Сертификат обратного прокси-сервера</p></li>
 </ul></td>
 <td><p>Локальный администратор</p></td>
-<td><p><a href="lync-server-2013-modifying-certificates-for-mobility.md">Изменение сертификатов для мобильной работы в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-modifying-certificates-for-mobility.md">Изменение сертификатов для мобильных устройств в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Настройка обратного прокси-сервера</p></td>
 <td><ul>
-<li><p>Назначьте сертификаты, обновленные с помощью альтернативных имен субъектов, в прослушиватель SSL (Secure Sockets Layer).</p></li>
-<li><p>Измените параметры правила веб-публикации для внешнего URL-адреса службы автообнаружения.</p></li>
-<li><p>Убедитесь, что для внешнего URL-адреса служб Lync Server 2013 в пуле переднего плана существует правило веб-публикации.</p></li>
+<li><p>Назначьте сертификаты, обновленные с помощью альтернативных имен субъектов, в прослушиватель SSL.</p></li>
+<li><p>Перенастройте правило веб-публикации для внешнего URL-адреса службы автообнаружения.</p></li>
+<li><p>Убедитесь, что для внешнего URL-адреса веб-служб Lync Server 2013 в интерфейсном пуле существует правило веб-публикации.</p></li>
 </ul>
-<p>Или</p>
+<p>или</p>
 <ul>
-<li><p>Если вы решили использовать HTTP для начального запроса автообнаружения и не обновили списки альтернативных имен субъектов в сертификатах, настройте новое правило публикации веб-публикации или перенастройте существующее правило для порта 80 HTTP.</p></li>
+<li><p>Если вы решили использовать HTTP для начального запроса автообнаружения и не обновлять списки альтернативных имен субъектов в сертификатах, настройте новое правило веб-публикации или перенастройте существующее правило публикации для порта 80 HTTP.</p></li>
 </ul></td>
 <td><p>Локальный администратор</p></td>
 <td><p><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Настройка обратного прокси-сервера для мобильной работы в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Проверка развертывания Mobility Service для Lync 2010 Mobile с помощью службы Mobility МККС</p></td>
-<td><p>Запустите <strong>Test-CsMcxP2PIM</strong> , чтобы протестировать отправку мгновенного сообщения от одного пользователя другому.</p>
-<p>Ознакомьтесь с документацией по командлету командной консоли Lync Server для <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> , чтобы просмотреть полный список вариантов.</p></td>
+<td><p>Тестирование развертывания Mobility Service для Lync 2010 Mobile с помощью службы Mobility MCX</p></td>
+<td><p>Запустите <strong>Test-CsMcxP2PIM</strong>, чтобы протестировать отправку мгновенного сообщения от одного пользователя другому.</p>
+<p>В документации по командлету командной консоли Lync Server для <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> представлен полный список вариантов.</p></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания среды для мобильной работы в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания мобильных устройств в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Проверка развертывания Mobility Service для мобильных клиентов Lync 2013 с помощью веб-компонентов УКВА</p></td>
-<td><p>С помощью командлета <strong>Test-ксукваконференце</strong> вы можете протестировать и проверить, что предварительно определенные пользователи теста и пользователи могут использовать Уква для создания Конференции и участия в ней.</p>
-<p>Ознакомьтесь с документацией по командлету командной консоли Lync Server для <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-ксукваконференце</a> , чтобы просмотреть полный список вариантов.</p></td>
+<td><p>Тестирование развертывания мобильности для мобильных клиентов Lync 2013 с помощью веб-компонентов UCWA</p></td>
+<td><p>Используйте командлет <strong>Test-CsUcwaConference</strong> для тестирования и проверки того, что предварительно определенные тестовые пользователи или пользователи могут использовать UCWA для создания и участия в Конференции.</p>
+<p>В документации по командлету командной консоли Lync Server для <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> представлен полный список вариантов.</p></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания среды для мобильной работы в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Проверка развертывания мобильных устройств в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Настройка для использования push-уведомлений</p></td>
 <td><ul>
-<li><p>На серверах пограничного сервера Lync Server 2013 добавьте поставщик услуг размещения Lync Server Online и настройте Федерацию поставщика услуг размещения.</p></li>
-<li><p>На серверах пограничного сервера Lync Server 2010 добавьте поставщик услуг размещения Lync Server Online и настройте Федерацию поставщика услуг размещения.</p></li>
-<li><p>Для пограничного сервера Office Communications Server 2007 R2 добавьте федеративного партнера.</p></li>
-<li><p>Если вы хотите, чтобы в сети Wi-Fi поддерживались извещающие уведомления, настройте исходящие правила брандмауэра для порта TCP 5223.</p></li>
-<li><p>Используйте командлет <strong>Set-кспушнотификатионконфигуратион</strong> , чтобы включить извещающие уведомления в службу push-уведомлений Apple (APNs) и службу push-уведомлений Майкрософт (MPNS). Эта функция отключена по умолчанию.</p></li>
-<li><p>С помощью командлета <strong>Test-ксфедератедпартнер</strong> можно протестировать конфигурацию Федерации и командлет <strong>Test-ксмккспушнотификатион</strong> для проверки извещающих уведомлений.</p>
+<li><p>Для пограничных серверов Lync Server 2013 добавьте поставщик услуг хостинга Lync Server Online и настройте Федерацию поставщика услуг хостинга.</p></li>
+<li><p>Для пограничных серверов Lync Server 2010 добавьте поставщик услуг хостинга Lync Server Online и настройте Федерацию поставщика услуг хостинга.</p></li>
+<li><p>Для пограничных серверов Office Communications Server 2007 R2 добавьте федеративный партнер.</p></li>
+<li><p>Если вы хотите обеспечить поддержку push-уведомлений через сеть Wi-Fi, настройте правило исходящего трафика в брандмауэре для порта TCP 5223.</p></li>
+<li><p>Используйте командлет <strong>Set-CsPushNotificationConfiguration</strong>, чтобы разрешить push-уведомления для Apple Push Notification Service (APNS) и Microsoft Push Notification Service (MPNS). Эта функция отключена по умолчанию.</p></li>
+<li><p>Используйте командлет <strong>Test-CsFederatedPartner</strong> для тестирования конфигурации федерации и командлет <strong>Test-CsMCXPushNotification</strong> для тестирования push-уведомлений.</p>
 <div>
 
 > [!NOTE]  
-> Push-уведомления используются для мобильных клиентов Lync 2010 на устройствах Apple и Windows Phone<BR>Push-уведомление требуется для мобильных клиентов Lync 2013 только на Windows Phone
+> Push-уведомления используются для мобильных клиентов Lync 2010 на устройствах Apple и Windows Phone<BR>Push-уведомления необходимо указывать для мобильных клиентов Lync 2013 только на Windows Phone
 
 
 </div></li>
 </ul></td>
 <td><p>RtcUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Настройка для использования push-уведомлений в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configuring-for-push-notifications.md">Настройка для push-уведомлений в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Настройка политики мобильности</p></td>
-<td><p>Используйте командлет <strong>Set-ксмобилитиполици</strong> , чтобы разрешить или запретить.</p>
+<td><p>Используйте командлет <strong>Set – CsMobilityPolicy</strong> , чтобы разрешить или запретить:</p>
 <ul>
 <li><p>Вызов с рабочего телефона</p></li>
-<li><p>Включение IP-звука и IP-видео</p></li>
-<li><p>Требуется WiFi для IP и/или IP-видео</p></li>
+<li><p>Включение IP-аудио-и видеоролика IP</p></li>
+<li><p>Требовать WiFi для IP аудио и/или IP-видео</p></li>
 </ul></td>
 <td><p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configuring-mobility-policy.md">Настройка политики мобильных устройств в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configuring-mobility-policy.md">Настройка политики мобильности в Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbae93a344909139fba3b40e2864ca3b943e77a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20e2931dc24e96243b2e80eb0abd0cf3b50599ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41757533"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-26_
+_**Последнее изменение темы:** 2012-06-26_
 
-Командлет [Move-кслегациусер](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15)) позволяет перенести учетные записи пользователей из Office Communications Server 2007 или Microsoft lync Server 2010 на Microsoft lync Server 2013. Если вам нужно переместить учетную запись пользователя в обратном направлении (например, с Microsoft Lync Server 2013 на Microsoft Lync Server 2010), используйте командлет [Move-CsUser](https://technet.microsoft.com/en-us/library/Gg398528(v=OCS.15)) .
+Командлет [Move – CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) предоставляет способ перемещения учетных записей пользователей из Office Communications Server 2007 или Microsoft lync Server 2010 в Microsoft lync Server 2013. Если необходимо переместить учетную запись пользователя в обратном направлении (например, из Microsoft Lync Server 2013 в Microsoft Lync Server 2010), используйте командлет [Move-CsUser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) .
 
   - <span></span>  
-    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg398418(v=OCS.15))
+    [Import — CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsLegacyConfiguration](https://technet.microsoft.com/en-us/library/Gg412923(v=OCS.15))
+    [Import — CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Merge-CsLegacyTopology](https://technet.microsoft.com/en-us/library/Gg425870(v=OCS.15))
+    [Merge — CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [Move — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15))
+    [Move — CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
 
 <!-- end list -->
 
-  - [Convert-CsUserData](https://technet.microsoft.com/en-us/library/JJ205337(v=OCS.15))
+  - [Convert — CsUserData](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
 
-  - [Export-CsUserData](https://technet.microsoft.com/en-us/library/JJ204897(v=OCS.15))
+  - [Export — CsUserData](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
 
-  - [Import-CsUserData](https://technet.microsoft.com/en-us/library/JJ205373(v=OCS.15))
+  - [Import — CsUserData](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
 
-  - [Update-CsUserData](https://technet.microsoft.com/en-us/library/JJ205358(v=OCS.15))
+  - [Update — CsUserData](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
 
 <div>
 

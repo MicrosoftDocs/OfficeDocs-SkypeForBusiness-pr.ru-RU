@@ -12,16 +12,16 @@ ms:contentKeyID: 48184668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 624bbfa52c5d4ed963fda895e7af3a544f0f3733
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d55f9e1f9233b838c1fe6ee56c4642edee1cc67e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765740"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765740"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-03-29_
+_**Последнее изменение темы:** 2012-03-29_
 
-В следующих разделах описаны действия, которые необходимо выполнить, чтобы объединить пулы Microsoft Office Communications Server 2007 R2 и Microsoft Lync Server 2013. Сначала используйте мастер слияния построителя топологии для объединения сведений о топологии. Это средство собирает сведения о среде Office Communications Server 2007 R2, в том числе сведения о пограничном сервере, и публикует эти данные в базе данных, предоставленной в Lync Server 2013. После публикации объединенной топологии используется построитель топологии для просмотра информации о топологии Office Communications Server 2007 R2 и сведения о новой версии топологии Lync Server 2013. Наконец, вы можете импортировать политики и параметры конфигурации с помощью командлетов командной консоли Lync Server Management Shell.
+В следующих разделах описаны действия, необходимые для объединения пулов Microsoft Office Communications Server 2007 R2 в пулы Microsoft Lync Server 2013. Сначала вы используете мастер объединения построителя топологий для слияния сведений о топологии. Это средство собирает сведения о среде Office Communications Server 2007 R2, в том числе сведения о пограничных серверах, и публикует эти сведения в базе данных, к которой предоставлен общий доступ с помощью Lync Server 2013. После публикации объединенной топологии построитель топологий используется для просмотра сведений о топологии Office Communications Server 2007 R2 и сведений о новой развернутой топологии Lync Server 2013. Затем с помощью командлетов консоли управления Lync Server вы импортируете политики и параметры конфигурации.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-03-29_
 
   - [Установка пакета обратной совместимости WMI](install-wmi-backward-compatibility-package.md)
 
-  - [Слияние с помощью мастера слияния построителя топологии](merge-using-topology-builder-merge-wizard.md)
+  - [Объединение с помощью мастера объединения в построителе топологий](merge-using-topology-builder-merge-wizard.md)
 
   - [Импорт политик и параметров](import-policies-and-settings.md)
 

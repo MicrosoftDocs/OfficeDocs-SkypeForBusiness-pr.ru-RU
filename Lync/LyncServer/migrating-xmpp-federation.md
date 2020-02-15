@@ -1,5 +1,5 @@
 ---
-title: Перенос федерации XMPP
+title: Миграция Федерации XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b72dabd60ea42a84fcf9b15d1d739bc063ddf1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64a88712d68418b6c4144c67b6583f2451fb7e10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762877"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-xmpp-federation"></a>Перенос федерации XMPP
+# <a name="migrating-xmpp-federation"></a>Миграция Федерации XMPP
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41762877"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Предыдущие версии Lync Server и Office Communications Server предоставили шлюз расширенных сообщений и протоколов доступа (КСМПП), который можно развернуть как отдельную серверную роль, разрешающую Федерацию с помощью КСМППных развертываний. В Lync Server 2013 функциональность КСМПП может быть развернута как функция. Функции КСМПП устанавливаются в виде прокси-сервера КСМПП, который работает на пограничном сервере Lync Server 2013 и шлюз КСМПП, который работает на сервере переднего плана Lync Server 2013.
+Предыдущие версии Lync Server и Office Communications Server предоставили шлюз XMPP (Extensible Messaging and Presence Protocol), который может быть развернут как отдельная роль сервера, чтобы разрешить федерацию с развертываниями XMPP. В Lync Server 2013 функция XMPP может быть развернута в качестве компонента. Функции XMPP установлены в двух частях: в качестве прокси-сервера XMPP, работающего на пограничном сервере Lync Server 2013, и шлюза XMPP, работающего на сервере переднего плана Lync Server 2013.
 
-С точки зрения миграции учетная запись пользователя Lync Server может быть перемещена в пул Lync Server 2013 и продолжать использовать устаревший шлюз КСМПП. Это возможно, только если для федеративного партнера КСМПП не настроена платформа Lync Server 2013.
+С точки зрения миграции учетная запись пользователя Lync Server может быть перемещена в пул Lync Server 2013 и продолжать использовать устаревший шлюз XMPP. Это возможно только в том случае, если федеративный партнер XMPP не настроен в Lync Server 2013.
 
-В сводке, если Lync Server 2010 был развернут с помощью шлюза Office Communications Server 2007 R2 КСМПП Gateway и КСМПП Federation для пользователей Lync Server 2010, чтобы перенести КСМППную Федерацию на Lync Server 2013, выполните указанные ниже действия.
+В целом, если Lync Server 2010 был развернут с шлюзом Office Communications Server 2007 R2 XMPP и для Федерации XMPP включен доступ к старым пользователям Lync Server 2010, для переноса Федерации XMPP в Lync Server 2013:
 
-1.  Развертывание пула Lync Server 2013.
+1.  Разверните пул Lync Server 2013.
 
-2.  Разверните сервер Lync Server 2013 Edge.
+2.  Развертывание пограничного сервера Lync Server 2013.
 
 3.  Перемещение всех пользователей в пул Lync Server 2013
 
-4.  Создавайте политики доступа КСМПП и сертификаты для пограничного сервера.
+4.  Создайте сертификаты и политики доступа XMPP для пограничного сервера.
 
-5.  Включите Федерацию КСМПП в Lync Server 2013. 
+5.  Включите Федерацию XMPP в Lync Server 2013. 
 
-6.  Обновите записи DNS, чтобы они указывали на сервер Lync Server 2013 КСМПП Gateway.
+6.  Обновите записи DNS, чтобы они ссылались на шлюз XMPP Lync Server 2013.
 
 </div>
 

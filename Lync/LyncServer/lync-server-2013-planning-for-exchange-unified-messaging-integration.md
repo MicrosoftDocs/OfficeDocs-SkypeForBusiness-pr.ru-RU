@@ -12,16 +12,16 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9325cdce67113c46ec02879417748a2e3dd0397d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41752259"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-13_
+_**Последнее изменение темы:** 2012-10-13_
 
-Lync Server 2013 поддерживает интеграцию с единой системой обмена сообщениями Exchange (UM) для комбинирования голосовой почты и обмена сообщениями в одной инфраструктуре обмена сообщениями. В Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) и Microsoft Exchange Server 2010 сервер единой системы обмена сообщениями Exchange (UM) — это одна из нескольких ролей Exchange Server, которые можно установить и настроить.
+Lync Server 2013 поддерживает интеграцию с единой системой обмена сообщениями Exchange для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями. В Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) и Microsoft Exchange Server 2010 Единая система обмена сообщениями Exchange является одной из нескольких ролей Exchange Server, которые можно установить и настроить.
 
-В Microsoft Exchange Server 2013 служба единой системы обмена сообщениями работает в качестве службы сервера почтовых ящиков Exchange. Для корпоративных развертываний на Lync Server 2013, единая система обмена сообщениями объединяет голосовую почту и сообщения электронной почты в едином магазине, доступном с телефона (голосовой доступ к Outlook) или на компьютере. Единая система обмена сообщениями и Lync Server 2013 работают вместе для обеспечения ответа на звонки, голосового доступа к Outlook и служб автоматического ассистента для пользователей корпоративной голосовой связи.
+В Microsoft Exchange Server 2013 служба единой системы обмена сообщениями Exchange работает как служба на сервере почтовых ящиков Exchange. Для развертываний Lync Server 2013 Enterprise Voice единая система обмена сообщениями объединяет голосовые сообщения и сообщения электронной почты в единое хранилище, доступное по телефону (голосовой доступ к Outlook) или компьютеру. Единая система обмена сообщениями и Lync Server 2013 работают совместно для обеспечения автоответчика, голосового доступа к Outlook и служб автоматического секретаря для пользователей корпоративной голосовой связи.
 
-Дополнительные сведения об изменениях архитектуры в Microsoft Exchange Server 2013 можно найти в разделе "изменения архитектуры голосовой связи" в документации по Microsoft Exchange Server 2013 [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)по адресу.
+Дополнительные сведения об изменениях архитектуры в Microsoft Exchange Server 2013 приведены в разделе "изменения архитектуры голосовой связи" в документации по Microsoft Exchange Server 2013 по [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)адресу.
 
-Для того чтобы эти функции поддерживались в локальной среде Exchange UM, необходимо выполнить одно из следующих действий:
+Для поддержки этих функций в локальной среде Exchange единой системы обмена сообщениями необходимо выполнить одно из следующих действий:
 
-  - Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) или последний пакет обновления
+  - Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) или последним пакетом обновления
 
   - Microsoft Exchange Server 2010 или последний пакет обновления
 

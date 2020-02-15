@@ -1,5 +1,5 @@
 ---
-title: Проверка того, что все объекты контактов Exchange UM удалены из устаревшего пула
+title: Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>Проверка того, что все объекты контактов Exchange UM удалены из устаревшего пула
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730849"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-26_
+_**Последнее изменение темы:** 2012-09-26_
 
-С помощью средства **оксумутил** или командлета **Get-ксексумконтакт** убедитесь в том, что объекты контактов Exchange UM были удалены из устаревшего пула Office Communications Server 2007 R2. **Оксумутил** находится в следующей папке:
+С помощью средства **OCSUmUtil** или командлета **Get – CsExumContact** убедитесь, что объекты контакта единой системы обмена сообщениями Exchange удалены из пула Office Communications Server 2007 R2 прежних версий. Средство **OCSUmUtil** содержится в следующей папке:
 
-% Программных файлов\\% распространенных\\файлов Lync Server\\2013\\support оксумутил. exe
+% Program Files\\% Common\\files Lync\\Server\\2013 support OcsUMUtil. exe
 
-**Оксумутил** необходимо запускать из учетной записи пользователя:
+Средство **OCSUmUtil** должно быть запущено от имени учетной записи, которая характеризуется следующим:
 
-  - Членство в группе Рткуниверсалсерверадминс и Рткуниверсалусерадминс (которая включает права на чтение параметров единой системы обмена сообщениями Exchange Server)
+  - наличие членства в группах RTCUniversalServerAdmins и RTCUniversalUserAdmins group (что подразумевает права на чтение параметров единой системы обмена сообщениями Exchange);
 
-  - Права домена на создание объектов контакта в указанном контейнере подразделения
+  - доменные права на создание контактных объектов в указанном контейнере подразделения (OU).
 
-Дополнительные сведения об использовании командлета **Get-ксексумконтакт** можно найти в документации [Get-Ксексумконтакт](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) в командной консоли Lync Server Management Shell.
+Дополнительные сведения об использовании командлета **Get – CsExumContact** можно найти в статье [Get – CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) в документации по консоли управления Lync Server.
 
 </div>
 

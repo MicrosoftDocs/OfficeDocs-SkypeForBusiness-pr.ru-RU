@@ -1,5 +1,5 @@
 ---
-title: 'Этап 5: Добавление сервера Lync Server 2013 EDGE на пилотный пул'
+title: 'Этап 5: Добавление пограничного сервера Lync Server 2013 в пилотный пул'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88949c4a2be1779d6be0704bfa90c211640e88be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4822e68ea060056e78f460b77a01e9931d4ee604
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765720"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>Этап 5: Добавление сервера Lync Server 2013 EDGE на пилотный пул
+# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a>Этап 5: Добавление пограничного сервера Lync Server 2013 в пилотный пул
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765720"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-06_
+_**Последнее изменение темы:** 2012-09-06_
 
-В этом разделе объясняется, как добавить пограничный сервер Lync Server 2013 в развертывание пула пилотной программы. В этих разделах приведены рекомендации по настройке и проверке для мастера развертывания нового пула Edge.
+В подразделах этого раздела описывается добавление пограничного сервера Lync Server 2013 в развертывание пула пилотных проектов. В разделы включены рекомендации по конфигурированию и проверке, доступные при использовании мастера развертывания нового пограничного пула.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-09-06_
 
   - [Развертывание пилотного пограничного сервера](deploy-pilot-edge-server.md)
 
-  - [Проверка параметров настройки](verify-configuration-settings.md)
+  - [Проверка параметров конфигурации](verify-configuration-settings.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: список таблиц качества взаимодействия'
+title: 'Lync Server 2013: список таблиц QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b15cab5a39e74cbbc1813fb9d4f5ce56d777408
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765397"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Список таблиц качества взаимодействия в Lync Server 2013
+# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Список таблиц QoE в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41765397"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
 Схема базы данных состоит из следующих таблиц.
 
@@ -49,118 +49,118 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Таблица</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Описание</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Таблица Аппшарингметрикссрешолд в Lync Server 2013</a></p></td>
-<td><p>Хранение оптимальных и приемлемых значений для показателей качества взаимодействия, используемых совместно с приложением.</p></td>
+<td><p>Сохранение оптимальных и приемлемых значений для показателей качества взаимодействия, используемых совместно с общим доступом к приложениям.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-codecdescription-table.md">Таблица Кодекдескриптион в Lync Server 2013</a></p></td>
-<td><p>Сопоставляет уникальные идентификаторы кодека с соответствующими кодеками.</p></td>
+<td><p>Сопоставляет уникальные идентификаторы кодека с соответствующим кодеком.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-ipaddress-table.md">Таблица IP-адреса в Lync Server 2013</a></p></td>
-<td><p>Сопоставляет IP-адреса с уникальными идентификаторами IP-адресов, которые используются в базе данных качества обслуживания.</p></td>
+<td><p><a href="lync-server-2013-ipaddress-table.md">IP-адрес таблицы в Lync Server 2013</a></p></td>
+<td><p>Сопоставляет IP-адреса с уникальными идентификаторами IP-адресов, используемыми в других местах базы данных качества взаимодействия.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Таблица Нетворкконнектиондетаил в Lync Server 2013</a></p></td>
-<td><p>Сопоставляет типы сетевых подключений с идентификаторами сетевых подключений, используемыми в базе данных качества обслуживания.</p></td>
+<td><p>Сопоставляет типы сетевых подключений с идентификаторами сетевых подключений, используемыми в других местах базы данных качества взаимодействия.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Пуржесеттингс Table (QoE) в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о том, что (и когда) устаревшие записи качества обслуживания будут автоматически удалены из базы данных QoE.</p></td>
+<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Таблица Таблица purgesettings (QoE) в Lync Server 2013</a></p></td>
+<td><p>Хранит сведения, указывающие, будут ли (и когда) устаревшие записи качества взаимодействия автоматически удаляться из базы данных QoE.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-traceroute-table.md">Таблица использованием Traceroute в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о маршрутизации для звонков.</p></td>
+<td><p><a href="lync-server-2013-traceroute-table.md">Таблица Трацерауте в Lync Server 2013</a></p></td>
+<td><p>Хранит сведения о маршрутизации для вызовов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Усеражентдеф Table (QoE) в Lync Server 2013</a></p></td>
-<td><p>Сопоставляет идентификаторы агента пользователя с описательными именами агента.</p></td>
+<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Таблица Таблица useragentdef (QoE) в Lync Server 2013</a></p></td>
+<td><p>Привязка идентификаторов агента пользователя к описательным именам агента.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videometricsthreshold-table.md">Таблица Видеометрикссрешолд в Lync Server 2013</a></p></td>
-<td><p>Хранение оптимальных и приемлемых значений для показателей качества взаимодействия, используемых с видеозвонками.</p></td>
+<td><p><a href="lync-server-2013-videometricsthreshold-table.md">Таблица Таблица videometricsthreshold в Lync Server 2013</a></p></td>
+<td><p>Сохранение оптимальных и приемлемых значений для показателей качества взаимодействия, используемых с видеовызовами.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-table.md">Таблица UserAgent в Lync Server 2013</a></p></td>
-<td><p>В сеансах голосовой и видеосвязи для протоколов SIP (UA) User Agent (агент запуска сеанса) хранятся строки и типы UA.</p></td>
+<td><p>Сохраняет строки и типы агентов пользователя для протокола SIP (UA), используемые в сеансах аудио и видео.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-user-table.md">Таблица User в Lync Server 2013</a></p></td>
-<td><p>Хранит URI пользователей, конференций и телефонных номеров, используемых в сеансах голосовой связи и видео.</p></td>
+<td><p><a href="lync-server-2013-user-table.md">Таблица user в Lync Server 2013</a></p></td>
+<td><p>Хранение URI пользователей, конференций и телефонов, используемых в сеансах аудио и видео.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-endpoint-table.md">Таблица Endpoint в Lync Server 2013</a></p></td>
-<td><p>Хранит полные доменные имена конечных точек, участвующих в звуковых и видеосеансах.</p></td>
+<td><p><a href="lync-server-2013-endpoint-table.md">Таблица конечной точки в Lync Server 2013</a></p></td>
+<td><p>Хранит полные доменные имена конечных точек, участвующих в сеансах аудио и видео.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-pool-table.md">Таблица Pool в Lync Server 2013</a></p></td>
-<td><p>Хранит имена пулов, которым принадлежат данные метрик.</p></td>
+<td><p><a href="lync-server-2013-pool-table.md">Таблица pool в Lync Server 2013</a></p></td>
+<td><p>Хранит имена пулов, к которым относятся данные метрики.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-device-table.md">Таблица Device в Lync Server 2013</a></p></td>
-<td><p>Хранит устройства захвата и устройства рендеринга, используемые в голосовых и видеозвонках.</p></td>
+<td><p><a href="lync-server-2013-device-table.md">Таблица Devices в Lync Server 2013</a></p></td>
+<td><p>Сохраняет устройства захвата и устройства отображения, которые используются в аудио-и видеовызовах.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-devicedriver-table.md">Таблица DeviceDriver в Lync Server 2013</a></p></td>
-<td><p>Хранит драйвер устройства захвата и устройство рендеринга, которое используется в голосовых и видеозвонках.</p></td>
+<td><p><a href="lync-server-2013-devicedriver-table.md">Таблица Таблица devicedriver в Lync Server 2013</a></p></td>
+<td><p>Хранит драйвер устройства захвата и устройство отображения, которые используются в аудио-и видеовызовах.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conference-table.md">Таблица Conference в Lync Server 2013</a></p></td>
-<td><p>Хранит коды URI конференций для сценариев конференции или Диалогид для других сценариев.</p></td>
+<td><p><a href="lync-server-2013-conference-table.md">Таблица конференций в Lync Server 2013</a></p></td>
+<td><p>Хранит коды URI конференций для сценариев конференц-связи или DialogID для других сценариев.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-sessioncorrelation-table.md">Таблица SessionCorrelation в Lync Server 2013</a></p></td>
-<td><p>Содержит сведения о корреляции для КОММУТИРУЕМых звонков.</p></td>
+<td><p><a href="lync-server-2013-sessioncorrelation-table.md">Таблица Таблица sessioncorrelation в Lync Server 2013</a></p></td>
+<td><p>Хранит CorrelationID для звонков по PSTN.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-payloaddescription-table.md">Таблица PayloadDescription в Lync Server 2013</a></p></td>
-<td><p>Хранит кодек, используемый в голосовых и видеозвонках.</p></td>
+<td><p><a href="lync-server-2013-payloaddescription-table.md">Таблица Таблица payloaddescription в Lync Server 2013</a></p></td>
+<td><p>Сохраняет кодек, используемый в аудио-и видеовызовах.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-appliedbandwidthsource-table.md">Таблица AppliedBandwidthSource в Lync Server 2013</a></p></td>
-<td><p>Сохранение источника пропускной способности, используемой в голосовых и видеозвонках.</p></td>
+<td><p><a href="lync-server-2013-appliedbandwidthsource-table.md">Таблица Таблица appliedbandwidthsource в Lync Server 2013</a></p></td>
+<td><p>Хранит источник пропускной способности, используемый в аудио-и видеовызовах.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-macaddress-table.md">Таблица MacAddress в Lync Server 2013</a></p></td>
 <td><p>Хранит MAC-адрес конечных точек, участвующих в сеансах аудио и видео.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-dialog-table.md">Таблица Dialog в Lync Server 2013</a></p></td>
-<td><p>Хранит идентификатор диалога для звуковых и видеосеансов.</p></td>
+<td><p><a href="lync-server-2013-dialog-table.md">Таблица диалогов в Lync Server 2013</a></p></td>
+<td><p>Сохраняет идентификатор диалога для сеансов аудио и видео.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-region-table.md">Таблица Region в Lync Server 2013</a></p></td>
-<td><p>Хранит сетевой регион, определенный в параметрах NC.</p></td>
+<td><p>Хранит область сети, определенную в параметре NC.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-usersite-table.md">Таблица UserSite в Lync Server 2013</a></p></td>
-<td><p>Сохранение сетевого сайта, определенного в параметрах NC.</p></td>
+<td><p><a href="lync-server-2013-usersite-table.md">Таблица Таблица usersite в Lync Server 2013</a></p></td>
+<td><p>Сохранение сетевого сайта, определенного в параметре NC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-subnet-table.md">Таблица Subnet в Lync Server 2013</a></p></td>
-<td><p>Хранит подсеть, определенную в параметрах NC.</p></td>
+<td><p>Сохраняет подсеть, определенную в параметре NC.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-monitoredregionlink-table.md">Таблица MonitoredRegionLink в Lync Server 2013</a></p></td>
-<td><p>Хранит ссылку на регион, определенную в параметрах NC.</p></td>
+<td><p><a href="lync-server-2013-monitoredregionlink-table.md">Таблица Таблица monitoredregionlink в Lync Server 2013</a></p></td>
+<td><p>Хранит ссылку региона, определенную в параметре NC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="monitoredusersitelink-table.md">Таблица MonitoredUserSiteLink</a></p></td>
-<td><p>Хранит ссылки на сайты сети, определенные в параметрах NC.</p></td>
+<td><p><a href="monitoredusersitelink-table.md">Таблица Таблица monitoredusersitelink</a></p></td>
+<td><p>Сохраняет сетевые связи сайтов, определенные в параметре NC.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-endpointsubnet-table.md">Таблица EndpointSubnet в Lync Server 2013</a></p></td>
-<td><p>Хранит подсеть конечной точки, участвующей в звуковых и видеосеансах.</p></td>
+<td><p><a href="lync-server-2013-endpointsubnet-table.md">Таблица Таблица endpointsubnet в Lync Server 2013</a></p></td>
+<td><p>Хранит подсеть конечной точки, участвующей в сеансе аудио и видео.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-server-table.md">Таблица Server в Lync Server 2013</a></p></td>
-<td><p>Хранит полное доменное имя или IP-адрес сервера, через который восходит носитель.</p></td>
+<td><p>Хранит полное доменное имя или IP-адрес сервера, через который проходит носитель.</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,46 +176,46 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Таблица</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Описание</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingstream-table.md">Таблица Аппшарингстреам в Lync Server 2013</a></p></td>
-<td><p>Хранение метрик качества для сетевых потоков, используемых для совместного использования приложений. Показатели качества взаимодействия для сетевых потоков, используемых для совместного использования приложений.</p></td>
+<td><p>Сохранение метрик качества взаимодействия для сетевых потоков, используемых для общего доступа к приложениям. Метрики качества взаимодействия для сетевых потоков, используемых для общего доступа к приложениям.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-table.md">Таблица Session в Lync Server 2013</a></p></td>
-<td><p>Хранит общие сведения о звуковых и видеофайлах, а также о звуковых и видеосеансах. Сеанс определяется как звуковое или видеодиалоговое окно SIP между двумя конечными точками.</p></td>
+<td><p><a href="lync-server-2013-session-table.md">Таблица Sessions в Lync Server 2013</a></p></td>
+<td><p>Хранит общие сведения о звуковом или аудио-или видеосеансе. Сеанс определяется как диалоговое окно аудио-или видеоsip между двумя конечными точками.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о каждой строке мультимедиа в сеансе. Линия мультимедиа — это коллекция из одного или нескольких звуковых и видеопотоков. Обычно в одной линии есть два потока: аудио-или видеофайлы.</p></td>
+<td><p>Хранит сведения о каждой строке мультимедиа в сеансе. Линия мультимедиа — это коллекция из одного или нескольких аудио-и видеопотоков. Как правило, одна линия мультимедиа будет иметь два потока: аудио или видео.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-audiostream-table.md">Таблица AudioStream в Lync Server 2013</a></p></td>
-<td><p>Хранит метрики качества звукового файла в линии мультимедиа для каждого звукового потока.</p></td>
+<td><p><a href="lync-server-2013-audiostream-table.md">Таблица Таблица audiostream в Lync Server 2013</a></p></td>
+<td><p>Сохраняет метрики качества звукового сопровождения для каждого звукового потока в линии мультимедиа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audiosignal-table.md">Таблица AudioSignal в Lync Server 2013</a></p></td>
-<td><p>Сохраняет метрики качества звукового файла в линии мультимедиа. Это включает в себя метрики для подавления эха (AEC) и автоматических показателей контроля усиления (АГК).</p></td>
+<td><p><a href="lync-server-2013-audiosignal-table.md">Таблица Таблица audiosignal в Lync Server 2013</a></p></td>
+<td><p>Сохраняет метрики качества звукового устройства в линии мультимедиа. Это включает в себя метрики подавления эха и автоматические контрольные метрики (АУДИОПОТОКУ).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videostream-table.md">Таблица VideoStream в Lync Server 2013</a></p></td>
-<td><p>Хранит метрики качества видео для каждого звукового потока в строке мультимедиа.</p></td>
+<td><p><a href="lync-server-2013-videostream-table.md">Таблица Таблица videostream в Lync Server 2013</a></p></td>
+<td><p>Хранит метрики качества мультимедиа для каждого звукового потока в линии мультимедиа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-audioclientevent-table.md">Таблица AudioClientEvent в Lync Server 2013</a></p></td>
-<td><p>Сохраняет показатели качества звуковых файлов мультимедиа, полученные из клиентского события.</p></td>
+<td><p><a href="lync-server-2013-audioclientevent-table.md">Таблица Таблица audioclientevent в Lync Server 2013</a></p></td>
+<td><p>Хранит метрики качества аудио мультимедиа, собранные из клиентского события.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-videoclientevent-table.md">Таблица VideoClientEvent в Lync Server 2013</a></p></td>
-<td><p>Хранит метрики качества видео, собранные из клиентского события.</p></td>
+<td><p><a href="lync-server-2013-videoclientevent-table.md">Таблица Таблица videoclientevent в Lync Server 2013</a></p></td>
+<td><p>Сохранение метрик качества мультимедиа, собранных из клиентского события.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Таблица Диагностикдата</strong></p></td>
-<td><p>Хранит диагностические данные, предназначенные только для внутреннего использования.</p></td>
+<td><p>Хранение диагностических данных, предназначенных только для внутреннего использования.</p></td>
 </tr>
 </tbody>
 </table>
@@ -231,14 +231,14 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Таблица</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Описание</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Таблица Серверсуммари</strong></p></td>
-<td><p>Хранит сводные данные для серверов, эти данные используются только для отчетов о качестве опыта (QoE).</p></td>
+<td><p>Хранит сводные данные для серверов, эти данные используются только для отчетов о качестве взаимодействия (QoE).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Таблица Усерсуммари</strong></p></td>
@@ -246,7 +246,7 @@ _**Тема последнего изменения:** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><strong>Таблица Каллтипесуммари</strong></p></td>
-<td><p>Хранить сводные данные для типов звонков эти данные используются только для отчетов QoE.</p></td>
+<td><p>Хранение сводных данных для типов вызовов эти данные используются только для отчетов QoE.</p></td>
 </tr>
 </tbody>
 </table>
@@ -262,7 +262,7 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Таблица</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>Описание</strong></th>
 </tr>
 </thead>
@@ -276,11 +276,11 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Интерфейсная таблица</strong></p></td>
+<td><p><strong>FrontEnd Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Таблица задач</strong></p></td>
+<td><p><strong>Task Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
@@ -304,11 +304,11 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Часовых поясов</strong></p></td>
+<td><p><strong>TimeZones</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Таблица Каллсуммари</strong></p></td>
+<td><p><strong>Таблица CallSummary</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
@@ -316,7 +316,7 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Таблица "клиент"</strong></p></td>
+<td><p><strong>Таблица Tenant</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">

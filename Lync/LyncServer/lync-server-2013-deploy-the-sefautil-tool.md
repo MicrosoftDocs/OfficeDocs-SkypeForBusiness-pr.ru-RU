@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание средства Сефаутил'
+title: 'Lync Server 2013: развертывание средства SEFAUtil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ff23a228710ecc934e2984f27c63351ccf6d32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Развертывание средства SEFAUtil в Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729619"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-01-30_
+_**Последнее изменение темы:** 2013-01-30_
 
-Для развертывания и управления получением группового звонка необходимо использовать средство Сефаутил Resource Kit. Это средство входит в состав набора средств для Lync Server 2013 Resource Kit. Прежде чем устанавливать Сефаутил, необходимо иметь доверенный пул приложений в топологии, указать Сефаутил как надежное приложение и включить топологию.
+Для развертывания и управления групповой отправке звонков необходимо использовать средство SEFAUtil Resource Kit. Средство является частью средств набора ресурсов Lync Server 2013. Перед установкой SEFAUtil необходимо включить в топологию доверенный пул приложений, указать SEFAUtil в качестве доверенного приложения и включить топологию.
 
 <div>
 
 
 > [!IMPORTANT]  
-> На всех компьютерах, на которых планируется запускать инструмент SEFAUtil, должен быть установлен Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK.
+> Пакет SDK для Microsoft Unified Communications Managed API (UCMA) 3,0 необходимо установить на любой компьютер, на котором планируется запустить средство SEFAUtil.
 
 
 
 </div>
 
-Вы можете запустить Сефаутил в любом пуле переднего плана в развертывании.
+Вы можете запустить SEFAUtil в любом пуле переднего плана в своем развертывании.
 
 <div>
 
 
 > [!NOTE]  
-> Дополнительные сведения об использовании Сефаутил можно найти в статье блогов TechNet: "как запустить Сефаутил?" по <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>адресу.
+> Дополнительные сведения о запуске SEFAUtil можно найти в статье блог TechNet "как получить SEFAutil?" по <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>адресу.
 
 
 
@@ -65,15 +65,15 @@ _**Тема последнего изменения:** 2013-01-30_
 
 ## <a name="to-deploy-sefautil"></a>Развертывание SEFAUtil
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. При необходимости определите доверенный пул приложений для пула переднего плана, в котором планируется запускать Сефаутил. At the command line, run:
+3.  Средство SEFAUtil можно запускать только на компьютере, входящем в пул доверенных приложений. При необходимости определите доверенный пул приложений для пула переднего плана, где планируется запускать SEFAUtil. В командной строке выполните следующую команду:
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
-4.  Определите инструмент SEFAUtil как доверенное приложение. В командной строке выполните следующую команду:
+4.  Определите средство SEFAUtil в качестве доверенного приложения. В командной строке выполните следующую команду:
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
@@ -86,30 +86,30 @@ _**Тема последнего изменения:** 2013-01-30_
     
     </div>
 
-5.  Включите топологию с внесенными изменениями. В командной строке выполните следующую команду:
+5.  Включите топологию с изменениями. В командной строке выполните следующую команду:
     
         Enable-CsTopology
 
-6.  Установите средства набора ресурсов Lync Server 2013 на сервер переднего плана, который находится в надежном пуле приложений, созданном на этапе 3.
+6.  Установите средства набора ресурсов Lync Server 2013 на сервере переднего плана, который находится в пуле доверенных приложений, созданном на шаге 3.
 
-7.  Проверьте правильность работы инструмента SEFAUtil следующим образом.
+7.  Убедитесь, что средство SEFAUtil работает правильно, как показано ниже.
     
-    1.  Запустите этот инструмент из командной строки Windows с привилегиями администратора, чтобы отобразить параметры переадресации звонков пользователя в текущем развертывании.
+    1.  Запустите средство из командной строки Windows с правами администратора, чтобы отобразить параметры переадресации звонков пользователя в развертывании.
         
         <div>
         
 
         > [!NOTE]  
-        > Это средство находится в \Program Files\Microsoft Lync Server 2013 \ Рескит.
+        > Средство находится на сайте \Program Files\Microsoft Lync Server 2013 \ reskit.
 
         
         </div>
     
-    2.  Отобразите параметры переадресации звонков пользователя. В командной строке выполните следующую команду:
+    2.  Отображение параметров переадресации звонков пользователя. В командной строке выполните следующую команду:
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         
-        На экране появятся параметры переадресации звонков пользователя.
+        Будут отображены параметры переадресации звонков для пользователя.
 
 </div>
 

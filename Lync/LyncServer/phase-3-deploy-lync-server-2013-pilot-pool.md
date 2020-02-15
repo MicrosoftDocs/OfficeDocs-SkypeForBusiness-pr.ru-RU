@@ -1,5 +1,5 @@
 ---
-title: 'Этап 3: развертывание пула Lync Server 2013 Pilot'
+title: 'Этап 3: Развертывание пилотного пула Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c87be6f690c5c31822dd59bea52c9140e43a4926
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Этап 3: развертывание пула Lync Server 2013 Pilot
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Этап 3: Развертывание пилотного пула Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757683"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-В этом разделе описаны действия, которые необходимо выполнить для развертывания пилотного пула Lync Server 2013. Для развертывания Lync Server 2013 необходимо, чтобы определить топологию и компоненты, которые вы хотите развернуть, с помощью построителя топологии, подготовить среду для развертывания компонентов Lync Server 2013 и опубликовать структуру топологии на первом интерфейсе. Сервер, а затем Установка и настройка программного обеспечения Lync Server 2013 для компонентов, которые нужно развернуть. По завершении развертывание проекта Lync Server 2013 для пилотного пула будет сосуществовать с существующим пулом Lync Server 2010.
+В этом разделе описываются действия, необходимые для развертывания пилотного пула Lync Server 2013. Для развертывания Lync Server 2013 необходимо использовать построитель топологий для определения топологии и компонентов, которые необходимо развернуть, подготовки среды к развертыванию компонентов Lync Server 2013, публикации структуры топологии на первом интерфейсном сервере Сервер, а затем установите и настройте программное обеспечение Lync Server 2013 для компонентов развертывания. По завершении развертывания пилотного пула Lync Server 2013 будет сосуществовать в существующем пуле Lync Server 2010.
 
 <div>
 
@@ -47,9 +47,9 @@ _**Тема последнего изменения:** 2012-10-19_
 
   - [Загрузка топологии из существующего развертывания](download-topology-from-existing-deployment.md)
 
-  - [Развертывание пула Lync Server 2013 Pilot](deploy-lync-server-2013-pilot-pool.md)
+  - [Развертывание пилотного пула Lync Server 2013](deploy-lync-server-2013-pilot-pool.md)
 
-  - [Проверка возможности совместного использования пилотного и старого пула](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [Проверка совместного использования пилотного пула с устаревшим пулом](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
   - [Подключение пилотного пула к старым пограничным серверам](connect-pilot-pool-to-legacy-edge-servers.md)
 

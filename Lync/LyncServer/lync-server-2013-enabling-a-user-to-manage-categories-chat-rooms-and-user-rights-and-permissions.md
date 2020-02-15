@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: предоставление возможности пользователю управлять категориями, чатами, а также правами и разрешениями пользователей'
+title: 'Lync Server 2013: предоставление пользователю возможности управлять категориями, комнатами чата и правами и разрешениями пользователей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa2c31a293f13fdca861f4183911272c55a2bad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bfa07380a5c6e73b8112cd0a421ed05c33bc1b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735879"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Предоставление возможности пользователю управлять категориями, чатами, а также правами и разрешениями пользователей в Lync Server 2013
+# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Предоставление пользователю возможности управлять категориями, комнатами чата и правами и разрешениями пользователей в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735879"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Участники роли **ксперсистентчатадминистратор** могут предоставлять права и разрешения для других пользователей и другие пользователи.
+Члены роли **CsPersistentChatAdministrator** (администраторы сохраняемого чата) могут предоставлять права и разрешения руководителю комнаты чата другим пользователям и самим пользователям.
 
-Администратор сохраняемого чата может сделать следующее:
+Администратор сохраняемого чата может выполнить следующие действия:
 
-  - Создание категорий помещений и комнат чата.
+  - создавать категории комнат и комнаты чата;
 
-  - Настройка членства для всех категорий и комнат чата.
+  - задавать членство для всех категорий и комнат чата;
 
-  - Управление всеми параметрами всех категорий и комнат чата.
+  - управлять всеми параметрами для всех категорий и комнат чата;
 
-  - Включение и отключение политики для постоянного сервера чата.
+  - Включение или отключение политики для сервера сохраняемого чата.
 
-  - Настройка и управление параметрами конфигурации для пула сервера сохраняемого чата.
+  - Задавать параметры конфигурации для пула сервера сохраняемого чата и управлять ими.
 
-Подробности можно найти [в разделе Добавление администратора сохраняемого чата в Lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md) в документации по развертыванию.
+Дополнительные сведения приведены в статье [Добавление администратора сохраняемого чата в Lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md) в документации по развертыванию.
 
 </div>
 

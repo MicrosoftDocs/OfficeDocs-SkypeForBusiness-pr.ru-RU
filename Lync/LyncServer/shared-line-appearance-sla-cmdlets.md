@@ -1,5 +1,5 @@
 ---
-title: Командлеты общего вида линии (SLA)
+title: Командлеты общего внешнего вида линий (SLA)
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd799d8f6dc04a060fa658ccca53096b8432e806
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 638fe68c0cd1f1521e689dd0e769f501833c39ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730230"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="shared-line-appearance-sla-cmdlets"></a>Командлеты общего вида линии (SLA)
+# <a name="shared-line-appearance-sla-cmdlets"></a>Командлеты общего внешнего вида линий (SLA)
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41730230"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-04-12_
+_**Последнее изменение темы:** 2016-04-12_
 
-Командлеты, связанные с однострочным видом (SLA), позволяют настроить общий номер телефона с несколькими делегатами, которые могут выбрать эту строку.
+Командлеты, связанные с однострочным видом (SLA), позволяют настроить общий номер телефона с несколькими делегатами, которые могут взять эту строку.
 
 <div>
 
 ## <a name="sla-cmdlets"></a>Командлеты SLA
 
-Используйте следующие командлеты для SLA.
+Используйте следующие командлеты для соглашения об уровне обслуживания.
 
 **Настройка соглашения об уровне обслуживания**
 
   - <span></span>  
-    [Get-Ксслаконфигуратион](https://technet.microsoft.com/en-us/library/Mt703200(v=OCS.15))
+    [Get — CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))
 
   - <span></span>  
-    [Set-Ксслаконфигуратион](https://technet.microsoft.com/en-us/library/Mt703202(v=OCS.15))
+    [Set — CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))
 
   - <span></span>  
-    [Remove-Ксслаконфигуратион](https://technet.microsoft.com/en-us/library/Mt703201(v=OCS.15))
+    [Remove — CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))
 
 **Настройка представителей SLA**
 
   - <span></span>  
-    [Add-Кссладелегатес](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
+    [Add — CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))
 
   - <span></span>  
-    [Remove-Кссладелегатес](https://technet.microsoft.com/en-us/library/Mt703203(v=OCS.15))
+    [Remove — CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))
 
 </div>
 

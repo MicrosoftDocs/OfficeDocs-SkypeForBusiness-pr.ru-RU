@@ -12,16 +12,16 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce71bce6594c0604027df9f055859f023048518
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730909"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41730909"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-16_
+_**Последнее изменение темы:** 2012-10-16_
 
-Перед развертыванием Lync Server 2013 в состоянии сосуществования с помощью Office Communications Server 2007 R2 необходимо убедиться, что службы Office Communications Server 2007 R2 настроены и запущены.
+Перед развертыванием Lync Server 2013 в режиме сосуществования с Office Communications Server 2007 R2 необходимо убедиться, что службы Office Communications Server 2007 R2 настроены и запущены.
 
 **Проверка того, что пул запущен с помощью средства администрирования Office Communications Server 2007 R2**
 
 1.  Откройте средство администрирования Office Communications Server 2007 R2.
 
-2.  Разверните узел **леса** , разверните узел **Стандартные серверы выпуска** или **Пулы предприятий** , а затем разверните имя пула или сервера.
+2.  Разверните узел **Лес**, разверните узел **Серверы Standard Edition** или **Корпоративные пулы**, а затем разверните пул или сервер.
 
-3.  Убедитесь, что службы запущены на сервере Standard Edition или корпоративном пуле.
+3.  Убедитесь, что службы запущены на сервере Standard Edition или в корпоративном пуле.
     
     ![Консоль администрирования Office Communications Server 2007 R2](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Консоль администрирования Office Communications Server 2007 R2")
 
-**Просмотр пользователей, настроенных для Office Communications Server 2007 R2**
+**Обзор пользователей, настроенных для Office Communications Server 2007 R2**
 
 1.  Откройте средство администрирования Office Communications Server 2007 R2.
 
-2.  Разверните узел **леса** , разверните узел **Стандартные серверы выпуска** или **Пулы предприятий** , а затем разверните имя пула или сервера.
+2.  Разверните узел **Лес**, разверните узел **Серверы Standard Edition** или **Корпоративные пулы**, а затем разверните пул или сервер.
 
-3.  Нажмите кнопку **Пользователи**.
+3.  Щелкните **Пользователи**.
 
 4.  Проверьте список пользователей Office Communications Server 2007 R2.
     
     ![Список пользователей в средстве администрирования OCS](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "Список пользователей в средстве администрирования OCS")
 
-**Проверка конфигурации устаревшего КСМПП федеративного партнера**
+**Проверка устаревшей конфигурации федеративного партнера XMPP**
 
-1.  Из устаревшего сервера КСМПП перейдите на вкладку Администрирование\\служб.
+1.  Из устаревшего сервера XMPP перейдите к апплету администрирование\\служб.
 
-2.  Убедитесь, что служба шлюза Office Communications Server КСМПП запущена.
+2.  Убедитесь, что служба шлюза XMPP Office Communications Server запущена.
     
-    ![Служба шлюза Office Communications Server КСМПП](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Служба шлюза Office Communications Server КСМПП")
+    ![Служба шлюза XMPP для Office Communications Server](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Служба шлюза XMPP для Office Communications Server")
 
 </div>
 

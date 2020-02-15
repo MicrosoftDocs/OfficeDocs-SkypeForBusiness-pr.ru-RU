@@ -12,16 +12,16 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a4ca695ca711c66e529a4eccd43b650cffe1442
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758043"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758043"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-09-23_
+_**Последнее изменение темы:** 2013-09-23_
 
-Развертывание компонентов Edge для Microsoft Lync Server 2013 делает возможным для внешних пользователей, которые не вошли в внутреннюю сеть Организации, включая пользователей, прошедших проверку подлинности и анонимные удаленные пользователи, Федеративные партнеры (в том числе партнеры КСМПП). мобильные клиенты и пользователи общедоступных служб обмена мгновенными сообщениями (IM) для общения с другими пользователями в Организации с помощью Lync Server. Процессы развертывания и конфигурации для Lync Server 2013 значительно отличаются от Lync Server 2010. Средства для установки и администрирования в Lync Server 2010 очень одинаковы.
+Развертывание пограничных компонентов для Microsoft Lync Server 2013 позволяет внешним пользователям, не вошедшим в внутреннюю сеть Организации, в том числе прошедшим проверку подлинности и анонимным удаленным пользователям, федеративным партнерам (включая партнеров XMPP), мобильные клиенты и пользователи общедоступных служб обмена мгновенными сообщениями (IM) для общения с другими пользователями в Организации с помощью Lync Server. Процессы развертывания и настройки для Lync Server 2013 значительно отличаются от Lync Server 2010. Средства для установки и администрирования практически не отличаются от установки Lync Server 2010.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Установка и Настройка пограничного сервера Microsoft Lync Server 2013&nbsp;может быть сложной задачей, требующей потенциальной значительной процедуры планирования и координации с внутренними группами, включая (но не ограничиваясь ограничениями) системы безопасности, сети, брандмауэра, системы доменных имен (DNS), подсистему балансировки нагрузки и инфраструктуры открытых ключей (PKI). Прежде чем развертывать компоненты внешнего доступа, настоятельно рекомендуется просмотреть и использовать процесс планирования и документацию, описанные выше. Это поможет вам ограничить количество и частоту нежелательных изменений и проблем, как только вы пройдете в процессе развертывания. Сведения о планировании внешнего доступа пользователей можно найти <A href="lync-server-2013-planning-for-external-user-access.md">в разделе Планирование доступа внешних пользователей в Lync Server 2013</A>.
+> Установка и Настройка пограничного сервера Microsoft Lync Server 2013&nbsp;может быть сложным процессом, который требует потенциального значительного объема планирования и координации с внутренними командами, включая систему безопасности, сети, брандмауэр, службу доменных имен (DNS), подсистему балансировки нагрузки и инфраструктуру открытых ключей (PKI). Прежде чем приступать к развертыванию компонентов внешнего доступа, необходимо ознакомиться с документацией и процедурами планирования и использовать их. Это позволит оптимизировать ограничение числа и частоты нежелательных изменений и проблем при осуществлении процесса развертывания. Сведения о планировании доступа внешних пользователей представлены в статье <A href="lync-server-2013-planning-for-external-user-access.md">Планирование доступа внешних пользователей в Lync Server 2013</A>.
 
 
 
@@ -55,13 +55,13 @@ _**Тема последнего изменения:** 2013-09-23_
 
   - [Контрольный список развертывания для доступа внешних пользователей в Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md)
 
-  - [Системные требования для компонентов доступа внешних пользователей для Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)
+  - [Требования к системе для компонентов доступа внешних пользователей для Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)
 
   - [Подготовка к установке серверов в сети периметра для Lync Server 2013](lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md)
 
-  - [Создание топологии пограничных серверов и директора в Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
+  - [Создание топологии пограничных серверов и директоров в Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Настройка режиссера в Lync Server 2013](lync-server-2013-setting-up-the-director.md) (необязательно)
+  - [Настройка директора в Lync Server 2013](lync-server-2013-setting-up-the-director.md) (необязательно)
 
   - [Настройка пограничных серверов в Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 
@@ -69,11 +69,11 @@ _**Тема последнего изменения:** 2013-09-23_
 
   - [Настройка поддержки доступа внешних пользователей в Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md)
 
-  - [Руководство по подготовке взаимодействия Lync-Skype в Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+  - [Руководство по подготовке для подключения Lync — Skype в Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
-  - [Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
+  - [Настройка Федерации SIP, Федерации XMPP и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
 
-  - [Развертывание поддержки мобильной работы в Lync Server 2013](lync-server-2013-deploying-mobility.md)
+  - [Развертывание мобильной работы в Lync Server 2013](lync-server-2013-deploying-mobility.md)
 
   - [Проверка развертывания пограничного сервера в Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md)
 

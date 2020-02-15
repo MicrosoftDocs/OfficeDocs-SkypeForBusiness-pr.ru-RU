@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддержка прямых SIP-подключений'
+title: Lync Server 2013 Direct SIP Connections support
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-support-in-lync-server-2013"></a>Поддержка прямых SIP-подключений в Lync Server 2013
+# <a name="direct-sip-connections-support-in-lync-server-2013"></a>Поддержка прямых подключений SIP в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762267"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-Lync Server 2013 поддерживает использование прямых подключений SIP для подключения к серверу Lync Server 2013 одним из следующих способов:
+Lync Server 2013 поддерживает использование прямых подключений SIP для подключения Lync Server 2013 к одному из следующих компонентов:
 
   - IP-УАТС;
 
   - шлюз ТСОП.
 
-Серверы-посредники в пуле Lync Server 2013 могут управлять несколькими шлюзами, контроллерами границ сеансов (SBCs), предоставленными поставщиками услуг телефонной связи, или некоторыми сочетаниями. Кроме того, несколько серверов-исправлений в пуле могут взаимодействовать с одним шлюзом.
+Серверы-посредники в пуле Lync Server 2013 могут управлять несколькими шлюзами, пограничными контроллерами сеансов (SBCs), предоставленными поставщиками услуг телефонии, или некоторыми комбинациями. Кроме того, несколько серверов-посредников в пуле могут взаимодействовать с одним шлюзом.
 
-Для поиска квалифицированных шлюзов, протоколов IP-АТС и магистральных каналов SIP вы можете использовать открытую программу взаимодействия Microsoft Unified Communications для инфраструктуры корпоративной телефонии. Дополнительные сведения можно найти на веб-сайте Microsoft Unified Communications Open для программы [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)взаимодействия.
+Вы можете использовать программу Microsoft Unified Communications Open Interoperability для инфраструктуры корпоративной телефонии, чтобы найти нужные шлюзы ТСОП, IP-УАТС и службы SIP-магистралей. Для получения дополнительных сведений посетите веб-сайт с открытым взаимодействием Microsoft [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Unified Communications.
 
-Подробнее о топологии и параметрах развертывания для прямых подключений по протоколу SIP можно найти в документации по планированию: [прямые подключения по протоколу SIP в Lync Server 2013](lync-server-2013-direct-sip-connections.md) .
+Для получения дополнительных сведений о топологии и параметрах развертывания для прямых подключений SIP обратитесь к разделу [Direct SIP Connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) в документации по планированию.
 
 </div>
 

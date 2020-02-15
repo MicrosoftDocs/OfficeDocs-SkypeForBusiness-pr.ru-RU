@@ -12,16 +12,16 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4902f0710752dd38c146b01bddcc44e135735201
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4327e2a72f91e17fd71cd198940ea01d10423b00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765407"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765407"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
 Схема базы данных сохраняемого чата состоит из следующих таблиц.
 
 <div>
 
-## <a name="active-directory-sync"></a>Синхронизация службы каталогов Active Directory
+## <a name="active-directory-sync"></a>Синхронизация Active Directory
 
 
 <table>
@@ -51,38 +51,38 @@ _**Тема последнего изменения:** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladcookie.md">tblADCookie в Lync Server 2013</a></p></td>
-<td><p>В этой папке содержатся файлы cookie для синхронизации протокола Lightweight Directory Access. Каждая строка соответствует домену доменных служб Active Directory, в котором активный сервер чата отслеживает изменения. (В этой таблице представлены только те домены службы каталогов Active Directory, которые относятся к серверу сохраняемого чата.)</p></td>
+<td><p>Содержит текущие файлы cookie синхронизации по протоколу LDAP. Каждая строка соответствует домену доменных служб Active Directory, который активно отслеживает изменения на сервере сохраняемого чата. В этой таблице представлены только те домены Active Directory, которые относятся к серверу сохраняемого чата.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblprincipalmemberdifference.md">tblPrincipalMemberDifference в Lync Server 2013</a></p></td>
-<td><p>Содержит изменения членства в группах (добавленные и удаленные участники), которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory и являются одной из временных таблиц (вместе с таблицей Тбладупдатес), которая используется на первом этапе синхронизации Active Directory.</p>
-<p>Изменения в членстве сохраняются, обрабатываются или отображаются только для групп, указанных в таблице ТблпринЦипал или уже содержащихся в них участников.</p></td>
+<td><p>Содержит изменения членства в группах (добавленные и удаленные элементы), которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory и являются одной из временных таблиц (вместе с таблицей Тбладупдатес), которая используется на первом этапе синхронизации Active Directory.</p>
+<p>Изменения, внесенные в членство, хранятся и обрабатываются только для тех групп, которые перечислены в таблице tblPrincipal или члены которых содержатся в ней.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tbladupdates.md">tblADUpdates в Lync Server 2013</a></p></td>
-<td><p>Содержит изменения, внесенные в доменные службы Active Directory, которые еще не обрабатывались с помощью последующих шагов синхронизации Active Directory, и являются одной из временных таблиц (вместе с таблицей ТблпринЦипалмембердифференце), которая используется на первом этапе службы каталогов Active Directory. Идет.</p>
-<p>Изменения, вносимые в Active Directory, сохраняются, обрабатываются или обе будут только для участников, которые уже указаны в таблице ТблпринЦипал.</p></td>
+<td><p><a href="lync-server-2013-tbladupdates.md">Тбладупдатес в Lync Server 2013</a></p></td>
+<td><p>Содержит изменения доменных служб Active Directory, которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory и являются одной из временных таблиц (вместе с таблицей tblPrincipalMemberDifference), которая используется на первом шаге Active Directory Синхр.</p>
+<p>Изменения в Active Directory сохраняются, обрабатываются или удаляются только для субъектов, которые уже указаны в таблице tblPrincipal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblprincipalmembers.md">tblPrincipalMembers в Lync Server 2013</a></p></td>
-<td><p>Сведения о членстве участников.</p></td>
+<td><p><a href="lync-server-2013-tblprincipalmembers.md">ТблпринЦипалмемберс в Lync Server 2013</a></p></td>
+<td><p>Содержит сведения о членстве субъектов.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblprincipalmeta.md">tblPrincipalMeta в Lync Server 2013</a></p></td>
-<td><p>Содержит участников, которые необходимо обновлять из службы каталогов Active Directory.</p></td>
+<td><p>Содержит субъекты, которые необходимо обновить из Active Directory.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblskippedaffiliations.md">tblSkippedAffiliations в Lync Server 2013</a></p></td>
-<td><p>Содержат назначения, которые не удалось обновить по некоторым причинам, обычно из-за ошибок доступа в службе каталогов Active Directory.</p>
-<p>Эта таблица предназначена исключительно для информационных целей. Его содержимое не используется.</p>
-<p>Участники с назначением, которые не удалось обновить надлежащим образом, хранятся в таблице ТблпринЦипалмета и получают другой шанс на обновление.</p></td>
+<td><p>Содержит назначения, которые не удалось обновить по какой-либо причине, обычно из-за ошибок доступа к Active Directory.</p>
+<p>Эта таблица служит только для информационных целей. Ее содержимое не используется.</p>
+<p>Субъекты, назначения которых не удалось правильно обновить, сохраняются в таблице tblPrincipalMeta и могут быть обновлены еще раз.</p></td>
 </tr>
 </tbody>
 </table>
@@ -92,7 +92,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 <div>
 
-## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Участники, принадлежности, узлы, области и роли
+## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Субъекты, назначения, узлы, области действия и роли
 
 
 <table>
@@ -102,52 +102,52 @@ _**Тема последнего изменения:** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblprincipaltype.md">tblPrincipalType в Lync Server 2013</a></p></td>
-<td><p>Содержит типы принципалов для классификации содержимого в таблице ТблпринЦипал. Эта таблица является статичной. Он настроен во время создания базы данных и не меняется.</p></td>
+<td><p>Содержит типы субъектов для разделения содержимого таблицы tblPrincipal на категории. Эта таблица является статической. Она настраивается при создании базы данных и больше не изменяется.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblprincipal.md">tblPrincipal в Lync Server 2013</a></p></td>
-<td><p>Содержат все участники (пользователи, папки, группы и т. д.). Сервер сохраняемого чата обрабатывает его как плоский разнородный список. Различные столбцы основываются на типе каждого участника.</p>
-<p>Большинство из этих участников кэшируют копии объектов, которые хранятся в Active Directory. Создание кэшированной копии в основной таблице этих объектов Active Directory называется <em>Подготовка</em>.</p>
-<p>Некоторые принципалы создаются более агрессивно, чем другие, а некоторые объекты Active Directory пропускаются полностью.</p></td>
+<td><p>Содержит все субъекты (пользователей, папки, группы и т. д.). Сервер сохраняемого чата обрабатывает его как плоский разнородный список. Каждый столбец соответствует типу субъекта.</p>
+<p>Большая часть этих субъектов является кэшированными копиями объектов, хранящихся в Active Directory. Создание кэшированной копии в основной таблице этих объектов Active Directory обозначается как <em>Подготовка</em>.</p>
+<p>Некоторые субъекты создаются более агрессивно, чем другие, и некоторые объекты Active Directory полностью игнорируются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblprincipalaffiliations.md">tblPrincipalAffiliations в Lync Server 2013</a></p></td>
-<td><p>Содержат основные принадлежности, описывающие участие в группах безопасности Active Directory, контейнерах Active Directory и т. д.</p></td>
+<td><p><a href="lync-server-2013-tblprincipalaffiliations.md">ТблпринЦипалаффилиатионс в Lync Server 2013</a></p></td>
+<td><p>Содержит основные принадлежности, описывающие членство в группах безопасности Active Directory, контейнерах Active Directory и т. д.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblnode.md">tblNode в Lync Server 2013</a></p></td>
-<td><p>Раздел "Категория", управляемый на панели управления Lync Server.</p></td>
+<td><p>Содержит узел категории, управляемый в панели управления Lync Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblroletype.md">tblRoleType в Lync Server 2013</a></p></td>
-<td><p>Содержат типы ролей и связанные с ними наборы разрешений. Эта таблица подстановки является статичной.</p></td>
+<td><p>Содержит типы ролей и связанные с ними наборы разрешений. Эта таблица подстановки является статической.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblscopeprincipal.md">tblScopePrincipal в Lync Server 2013</a></p></td>
-<td><p>Содержат области, назначенные узлам.</p></td>
+<td><p>Содержит области действия, назначенные узлам.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblprincipalrole.md">tblPrincipalRole в Lync Server 2013</a></p></td>
-<td><p>Содержат роли, назначенные узлам.</p></td>
+<td><p>Содержит роли, назначенные узлам.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblsiopwhitelist.md">tblSiopWhiteList в Lync Server 2013</a></p></td>
-<td><p>Содержат зарегистрированные надстройки, которые можно связать с узлами.</p></td>
+<td><p>Содержит зарегистрированные надстройки, которые можно связать с узлами.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute в Lync Server 2013</a></p></td>
-<td><p>Содержат только закодированные &quot;атрибуты&quot; видимости &quot;и&quot; поведения, используемые в таблице тблноде.</p></td>
+<td><p><a href="lync-server-2013-tblenumattribute.md">Тбленуматтрибуте в Lync Server 2013</a></p></td>
+<td><p>Содержит только жестко &quot;запрограммированные атрибуты видимости&quot; и &quot;поведения&quot; , используемые в таблице tblNode.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue в Lync Server 2013</a></p></td>
-<td><p>Содержат значения &quot;атрибутов поведения&quot; "и", которые используются в таблице тблноде.</p></td>
+<td><p>Содержит значения атрибутов режима &quot;&quot; "и" для нежесткого отображения, которые используются в таблице tblNode.</p></td>
 </tr>
 </tbody>
 </table>
@@ -157,7 +157,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 <div>
 
-## <a name="invites-chats-and-other-client-support"></a>Приглашения, разговоры и другие службы поддержки клиентов
+## <a name="invites-chats-and-other-client-support"></a>Приглашения, чаты и другие поддерживаемые клиентом функции
 
 
 <table>
@@ -167,34 +167,34 @@ _**Тема последнего изменения:** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblprincipalinvites.md">tblPrincipalInvites в Lync Server 2013</a></p></td>
-<td><p>Содержат приглашения для всех подготовленных пользователей в системе для всех узлов с включенным параметром "автоматическое приглашение".</p></td>
+<td><p>Содержит приглашения для всех подготовленных пользователей в системе для всех узлов, для которых включено автоматическое приглашение.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblchat.md">tblChat в Lync Server 2013</a></p></td>
-<td><p>Содержат все сообщения чата.</p></td>
+<td><p>Содержит все сообщения чата.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbllastinviteid.md">tblLastInviteId в Lync Server 2013</a></p></td>
-<td><p>Содержащий идентификатор последнего приглашения, который был создан (и использован в таблице ТблпринЦипалинвитес) для каждого пользователя.</p></td>
+<td><p>Содержит последний созданный идентификатор приглашения (используемый в таблице tblPrincipalInvites) для каждого пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tbllastchatid.md">tblLastChatId в Lync Server 2013</a></p></td>
-<td><p>Содержащий последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.</p></td>
+<td><p>Содержит последний созданный идентификатор чата (используемый в таблице tblChat) для каждого пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblpreference.md">tblPreference в Lync Server 2013</a></p></td>
-<td><p>Содержат пользовательские настройки клиента (используется только устаревшими клиентами).</p></td>
+<td><p><a href="lync-server-2013-tblpreference.md">Тблпреференце в Lync Server 2013</a></p></td>
+<td><p>Содержит пользовательские настройки клиента (используется только для устаревших клиентов).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblfiletoken.md">tblFileToken в Lync Server 2013</a></p></td>
-<td><p>Содержат временные маркеры для целей передачи файлов. Каждый раз, когда файл отправляется или загружается, служба сохраняемого чата создает маркер, который используется клиентом для доступа к хранилищу файлов веб-служб.</p></td>
+<td><p><a href="lync-server-2013-tblfiletoken.md">Тблфилетокен в Lync Server 2013</a></p></td>
+<td><p>Содержит временные маркеры для передачи файлов. При каждом перезагрузке или загрузке файла служба сохраняемого чата создает маркер, который клиент использует для доступа к хранилищу файлов веб-служб.</p></td>
 </tr>
 </tbody>
 </table>
@@ -204,7 +204,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 <div>
 
-## <a name="server-support"></a>Поддержка сервера
+## <a name="server-support"></a>Поддержка серверов
 
 
 <table>
@@ -214,30 +214,30 @@ _**Тема последнего изменения:** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblserveridentity.md">tblServerIdentity в Lync Server 2013</a></p></td>
-<td><p>Включает активные серверы в пуле сервера сохраняемого чата.</p></td>
+<td><p>Содержит активные серверы в пуле серверов сохраняемого чата.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tbladminlock.md">tblAdminLock в Lync Server 2013</a></p></td>
-<td><p>Включает блокировку администратора для выполнения некоторых команд администратора. При каждом выпуске блокировки в таблице Тблсистемревисион увеличивается запись о редакции системы.</p></td>
+<td><p>Содержит сведения о блокировке выполнения определенных команд администратором. Значение системного счетчика изменений в таблице tblSystemRevision увеличивается на единицу при каждом снятии блокировки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblsystemrevision.md">tblSystemRevision в Lync Server 2013</a></p></td>
-<td><p>Включает номер редакции (вместе с таблицей Тбладминлокк) для достижения согласованности на нескольких серверах.</p></td>
+<td><p><a href="lync-server-2013-tblsystemrevision.md">Тблсистемревисион в Lync Server 2013</a></p></td>
+<td><p>Содержит номер редакции, используемый для обеспечения  согласованности на нескольких серверах (наряду с таблицей tblAdminLock).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblactivepeers.md">tblActivePeers в Lync Server 2013</a></p></td>
-<td><p>В этом поле содержатся текущие одноранговые соединения между службами сохраняемого чата.</p></td>
+<td><p><a href="lync-server-2013-tblactivepeers.md">Тблактивепирс в Lync Server 2013</a></p></td>
+<td><p>Содержит текущие одноранговые подключения между службами сохраняемого чата.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblconfig.md">tblConfig в Lync Server 2013</a></p></td>
-<td><p>Неподдерживаемая конфигурация сервера сохраняемого чата.</p></td>
+<td><p>Содержит неподдерживаемую конфигурацию сервера сохраняемого чата.</p></td>
 </tr>
 </tbody>
 </table>

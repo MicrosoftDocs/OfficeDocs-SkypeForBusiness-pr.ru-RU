@@ -12,16 +12,16 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631e80d9de61e2304cd8ec65bb144aa3e0e3e7fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725429"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-20_
+_**Последнее изменение темы:** 2012-09-20_
 
-При развертывании как Exchange, так и сервера Lync Server в вашей организации, многие возможности обоих продуктов будут увеличены. В этом разделе содержатся сведения об этих возможностях.
+При развертывании Exchange и Lync Server в Организации многие функции в обоих продуктах расширены. В этом разделе представлено описание этих возможностей.
 
 <div>
 
@@ -47,7 +47,7 @@ _**Тема последнего изменения:** 2012-09-20_
 
   - [Планирование интеграции единой системы обмена сообщениями Exchange в Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [Интеграция с размещенной единой системой обмена сообщениями Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [Интеграция единой системы обмена сообщениями Exchange в среде Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 

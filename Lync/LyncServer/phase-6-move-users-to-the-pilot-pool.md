@@ -12,16 +12,16 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743619"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-16_
+_**Последнее изменение темы:** 2012-10-16_
 
-Вы можете переместить одного пользователя или группы пользователей на новый сервер Lync Server 2013 с помощью следующих двух методов: панель управления Lync Server и консоль управления Lync Server. В этом разделе описаны задачи, которые необходимо выполнить во время пилотного развертывания, а также до перемещения развертывания Lync Server 2013 из пилотного развертывания в развертывание на рабочем уровне.
+Вы можете переместить одного пользователя или группы пользователей в новое развертывание Lync Server 2013 с помощью следующих двух методов: панель управления Lync Server и Командная консоль Lync Server. В подразделах этого раздела описываются задачи, которые необходимо выполнить во время пилотного развертывания, а также перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Проверка выполнения пользовательской репликации](verify-user-replication-has-completed_1.md)
+  - [Проверка того, что репликация пользователя завершена](verify-user-replication-has-completed_1.md)
 
-  - [Перемещение отдельного пользователя в пилотный пул](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Перемещение одного пользователя в пилотный пул](move-a-single-user-to-the-pilot-pool_1.md)
 
   - [Перемещение нескольких пользователей в пилотный пул](move-multiple-users-to-the-pilot-pool_1.md)
 

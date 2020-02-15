@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица UriTypes'
+title: 'Lync Server 2013: таблица таблица uritypes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184553
 ms.date: 06/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f1de8d9ae54a71a04e90a914edbd779aa3e41d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03d4b2af9c0d746c713a2e98019f278ceb3df6e5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744649"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034009"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="uritypes-table-in-lync-server-2013"></a>Таблица UriTypes в Lync Server 2013
+# <a name="uritypes-table-in-lync-server-2013"></a>Таблица Таблица uritypes в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744649"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-06-16_
+_**Последнее изменение темы:** 2015-06-16_
 
-В таблице Уритипес содержатся различные типы URI (универсального идентификатора ресурса), отслеживаемые в Microsoft Lync Server 2013.
+Таблица Таблица uritypes содержит различные типы URI (универсального идентификатора ресурса), отслеживаемые в Microsoft Lync Server 2013.
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2015-06-16_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -60,16 +60,16 @@ _**Тема последнего изменения:** 2015-06-16_
 <td><p><strong>уритипеид</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный идентификатор, присвоенный типу URI.</p></td>
+<td><p>Уникальный идентификатор типа URI.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>уритипе</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Описание различных типов URI. Допустимые значения:</p>
+<td><p>Описания различных типов URI. Допустимые значения:</p>
 <ul>
-<li><p>1 – универсальный код ресурса (URI)</p></li>
-<li><p>0 — URI пользователя</p></li>
+<li><p>1 — URI телефона</p></li>
+<li><p>0 — универсальный код ресурса (URI) пользователя</p></li>
 </ul></td>
 </tr>
 </tbody>

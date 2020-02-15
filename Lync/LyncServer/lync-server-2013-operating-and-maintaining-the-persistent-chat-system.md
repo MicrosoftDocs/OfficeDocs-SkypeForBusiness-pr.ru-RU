@@ -12,16 +12,16 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755823"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-В следующих разделах описано, как настроить компьютер, на котором работает сохраняемый сервер чата, и как управлять работой сервера сохраняемого чата.
+В следующих разделах описано, как обслуживать компьютер, на котором работает сервер сохраняемого чата, и как управлять операциями сервера сохраняемого чата.
 
 <div>
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2012-11-01_
 
   - [Резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям в Lync Server 2013](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
 
-  - [Настройка файла определений XSLT в Lync Server 2013](lync-server-2013-customizing-the-xslt-definition-file.md)
+  - [Настройка файла определения XSLT в Lync Server 2013](lync-server-2013-customizing-the-xslt-definition-file.md)
 
-  - [Замена Ксмладаптер с помощью настроенного адаптера соответствия требованиям сервера для подключения к серверу в Lync Server 2013](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
+  - [Замена Ксмладаптер на настраиваемый адаптер соответствия сервера сохраняемого чата в Lync Server 2013](lync-server-2013-replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter.md)
 
   - [Управление работоспособностью системы в Lync Server 2013](lync-server-2013-managing-system-health.md)
 
-  - [Установка операционных систем и необходимого программного обеспечения на серверы в Lync Server 2013](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+  - [Мониторинг, запуск и остановка служб сохраняемого чата в Lync Server 2013](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
 
   - [Управление высокой доступностью и аварийным восстановлением в Lync Server 2013](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
 

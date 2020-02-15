@@ -12,16 +12,16 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f48f165d9694e35aebb3861d0bce9fddd70be49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45fed4d87adc438ce282c340d329f59036a596f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765467"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-10_
+_**Последнее изменение темы:** 2012-10-10_
 
-Параметры конфигурации для устройств, на которых работает Lync Phone Edition, применяются глобально или вы можете создавать новые наборы параметров, которые применяются к определенному сайту. Коллекции включают безопасность SIP, параметры блокировки устройств и т. д.
+Параметры конфигурации для устройств Lync Phone Edition применяются глобально, или вы можете создать новые коллекции параметров, применяемые к отдельному сайту. Коллекции включают в себя настройки безопасности SIP, параметры блокировки устройств и многое другое.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-10-10_
 
   - [Просмотр сведений о параметрах конфигурации Lync Phone Edition в Lync Server 2013](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [Создание и изменение коллекции параметров конфигурации Lync Phone Edition в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [Создание или изменение коллекции параметров конфигурации Lync Phone Edition в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
   - [Удаление существующей коллекции параметров конфигурации Lync Phone Edition в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 

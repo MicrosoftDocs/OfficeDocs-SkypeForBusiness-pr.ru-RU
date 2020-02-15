@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление сайта или пользовательской политики для доступа внешних пользователей'
+title: 'Lync Server 2013: Удаление политики сайта или пользователя для доступа внешних пользователей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b928fcb1347fdbc89099a5b0dc649deefffa19e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c21b58715814b5bf08023662bff61b004b51896
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742549"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41742549"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Вы можете удалить политику сайта или пользователя, указанную на панели управления Lync Server на странице " **политика внешней доступа** ". При удалении глобальной политики фактически она не удаляется, но только восстанавливает параметры, заданные по умолчанию, которые не включают поддержку каких – либо параметров доступа внешних пользователей. Дополнительные сведения о сбросе глобальной политики можно найти [в разделе Восстановление глобальной политики доступа внешних пользователей в Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
+Вы можете удалить любую политику сайта или пользователя, указанную в панели управления Lync Server на странице " **Политика внешнего доступа** ". При удалении глобальной политики она на самом деле не удаляется, а восстанавливаются параметры по умолчанию, не включающие поддержку доступа внешних пользователей. Дополнительные сведения о сбросе глобальной политики приведены в статье [Reset The Global Policy for External User Access in Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
 
 <div>
 
-## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Удаление политики сайта или пользователя для доступа внешних пользователей
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Удаление политика узла или пользователя для доступа внешних пользователей
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Выберите **внешний доступ пользователей**и нажмите кнопку **Политика внешних доступа**.
+3.  Щелкните **Доступ для внешних пользователей** и выберите **Политика внешнего доступа**.
 
-4.  На вкладке **внешняя политика доступа** выберите сайт или политику пользователей, которые вы хотите удалить, и нажмите кнопку **изменить**, а затем — **Удалить**.
+4.  На вкладке **Политика внешнего доступа** щелкните политику узла или пользователя, которую нужно удалить, нажмите кнопку **Изменить** и затем нажмите **Удалить**.
 
-5.  Когда появится запрос на подтверждение удаления, нажмите кнопку **ОК**.
+5.  При отображении запроса на подтверждение нажмите кнопку **ОК**.
 
 </div>
 
 <div>
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик закрепления с помощью командлетов Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кодов с помощью командлетов Windows PowerShell
 
-Внешние политики доступа можно удалить с помощью Windows PowerShell и командлета Remove-Ксекстерналакцессполици. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Политики внешнего доступа можно удалить с помощью Windows PowerShell и командлета Remove – CsExternalAccessPolicy. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-remove-a-specific-external-access-policy"></a>Удаление особой политики внешнего доступа
+## <a name="to-remove-a-specific-external-access-policy"></a>Удаление определенной политики внешнего доступа
 
-  - Эта команда удаляет политику внешней политики доступа, примененную к сайту Redmond.
+  - Эта команда удаляет политику внешнего доступа для узла Redmond:
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
@@ -73,9 +73,9 @@ _**Тема последнего изменения:** 2013-02-22_
 
 <div>
 
-## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Чтобы удалить все внешние политики доступа, примененные к области "на пользователя"
+## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Удаление всех политик внешнего доступа, примененных к области "на пользователя"
 
-  - Эта команда удаляет все политики внешней доступа, настроенные для области "на пользователя".
+  - Эта команда удаляет все политики внешнего доступа, настроенные на уровне пользователя:
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
@@ -83,15 +83,15 @@ _**Тема последнего изменения:** 2013-02-22_
 
 <div>
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Удаление всех внешних политик доступа, для которых отключен доступ за пределами пользователей
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Удаление всех политик внешнего доступа, для которых отключен доступ извне пользователя
 
-  - Эта команда удаляет все внешние политики доступа, в которых отключен доступ за пределы пользователей.
+  - Эта команда удаляет все политики внешнего доступа, в который доступ внешних пользователей отключен:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксекстерналакцессполици](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Remove – CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Создание политики для размещенной голосовой почты для отдельных пользователей'
+title: 'Lync Server 2013: Создание политики размещенной голосовой почты для отдельных пользователей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 535515fd11c0cb736b5b6fb4b70d041ea3af8a3c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 055d65fe691d99c8b960ebed088ba47cbcb2f988
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a>Создание политики размещенной голосовой почты для каждого пользователя в Lync Server 2013
+# <a name="create-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a>Создание политики размещенной голосовой почты на уровне пользователя в Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41740379"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-24_
+_**Последнее изменение темы:** 2012-09-24_
 
-Политика *для пользователей* может влиять только на отдельных пользователей, группы и объекты контактов. Чтобы развернуть политику для пользователя, необходимо явно назначить ее одному или нескольким пользователям, группам или контактным объектам. Подробности можно найти [в разделе Назначение политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).
+Новая политика *на уровне пользователя* может оказывать влияние только на отдельных пользователей, группы и контактные объекты. Для развертывания политики на уровне пользователя необходимо явно назначить политику отдельным пользователям, группам или контактным объектам. Дополнительные сведения приведены [в статье назначение политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).
 
-Дополнительные сведения о работе с политиками голосовой почты для отдельных пользователей можно найти в документации по оболочки управления Lync Server для следующих командлетов:
+Дополнительные сведения о работе с размещенными политиками голосовой почты для отдельных пользователей представлены в документации по командной консоли Lync Server для следующих командлетов:
 
-  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+  - [New — CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+  - [Set — CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
   - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 <div>
 
-## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a>Создание политики размещенной голосовой почты для пользователя
+## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a>Создание политики маршрутизации размещенной голосовой почты на уровне пользователя
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Запустите командлет New-Кшостедвоицемаилполици, чтобы создать политику. Например, выполните командлет:
+2.  Запустите командлет New-CsHostedVoicemailPolicy для создания политики. Например, выполните следующую команду:
     
         New-CsHostedVoicemailPolicy -Identity ExRedmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for Redmond users." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    В предыдущем примере создается политика размещенной голосовой почты с областью "на пользователя" и устанавливаются следующие параметры:
+    В этом примере создается политика размещенной голосовой почты на уровне пользователя и задаются следующие параметры.
     
-      - **Identity** — уникальный идентификатор для политики, включающий область. Для политики с областью "на пользователя" Этот параметр указывает на простое строковое значение, например Ексредмонд.
+      - **Удостоверение** — задает уникальный идентификатор для политики, охватывающей указанную область. Для политики на уровне пользователя это значение задается в виде простой строки, например ExRedmond.
     
-      - **Destination** указывает полное доменное имя (FQDN) размещенной службы единой системы обмена сообщениями. Этот параметр является необязательным, но при попытке включить пользователя для размещенной голосовой почты и назначенной пользователю политики не может быть задано значение "включить".
+      - **Назначение** — задает полное доменное имя размещенной службы единой системы обмена сообщениями Exchange. Этот параметр является необязательным, но если для политики, назначенной пользователю, этот параметр не задан, и вы пытаетесь активировать размещенную голосовую почту для пользователя, произойдет сбой активации.
     
-      - **Описание** — необязательные описательные сведения о политике.
+      - **Описание** — предоставляет дополнительное описание этой политики.
     
-      - **Организация** : список клиентов Exchange, разделенных запятыми, которые пользователи Lync Server 2013. Каждый клиент должен быть указан в качестве полного доменного имени этого клиента в размещенной службе единой системы обмена сообщениями.
+      - **Организация** — указывает разделенный запятыми список клиентов Exchange, которым пользователи Lync Server 2013 имеют доступ к домашнему серверу. Каждый клиент должен быть указан в виде полного доменного имени клиента в размещенной службе единой системы обмена сообщениями Exchange.
 
 </div>
 
@@ -74,7 +74,7 @@ _**Тема последнего изменения:** 2012-09-24_
 ## <a name="see-also"></a>См. также
 
 
-[Назначение политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
+[Назначение политики размещенной голосовой почты на уровне пользователя в Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
   
 
 </div>

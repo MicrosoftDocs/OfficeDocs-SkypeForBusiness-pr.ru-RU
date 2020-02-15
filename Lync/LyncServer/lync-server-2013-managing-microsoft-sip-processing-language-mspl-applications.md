@@ -1,5 +1,5 @@
 ---
-title: Управление приложениями языка обработки Microsoft SIP (МСПЛ)
+title: Управление приложениями языка обработки Microsoft SIP (MSPL)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0f73933c04b78b9557694fa8b030fbeffe8a2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ae3d8fbe015b260d4867635874d5eea39e7f5ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>Управление приложениями языка обработки Microsoft SIP (МСПЛ) в Lync Server 2013
+# <a name="managing-microsoft-sip-processing-language-mspl-applications-in-lync-server-2013"></a>Управление приложениями языка обработки Microsoft SIP (MSPL) в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765600"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-14_
+_**Последнее изменение темы:** 2012-10-14_
 
-Процедуры, описанные в этом разделе, можно использовать для управления приложениями языка обработки Microsoft SIP (МСПЛ).
+Процедуры, приведенные в этом разделе, можно использовать для управления приложениями MSPL.
 
 <div>
 
@@ -45,9 +45,9 @@ _**Тема последнего изменения:** 2012-10-14_
 
   - [Просмотр серверных приложений Microsoft SIP Processing Language (MSPL) в Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)
 
-  - [Пометка приложения на языке обработки Microsoft SIP (МСПЛ) как критическое или некритическое в Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
+  - [Помечает приложение Microsoft SIP Process Language (MSPL) как критическое или некритическое в Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)
 
-  - [Включение и отключение серверного приложения Microsoft SIP Languageing (МСПЛ) в Lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
+  - [Включение и отключение серверного приложения Microsoft SIP Processing Language (MSPL) в Lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)
 
 </div>
 

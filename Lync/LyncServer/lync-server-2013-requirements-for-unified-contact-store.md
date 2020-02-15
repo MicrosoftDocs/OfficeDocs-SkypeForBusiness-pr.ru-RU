@@ -12,16 +12,16 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eb689d004f11dd5a3613dd44b78975b2826e7976
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41723799"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-В списке ниже приведены требования к внедрению единого магазина контактов в Lync Server 2013:
+В следующем списке описываются требования к внедрению единого хранилища контактов в Lync Server 2013:
 
-  - На вашем компьютере должна быть установлена платформа Microsoft Lync Server 2013 и Exchange 2013.
+  - Необходимо работать под управлением Microsoft Lync Server 2013 и Exchange 2013.
 
-  - Пользователи должны использовать Lync 2013 для начала миграции контактов из Lync Server 2013 в Exchange 2013.
+  - Пользователи должны использовать Lync 2013 для инициирования миграции контактов из Lync Server 2013 в Exchange 2013.
 
-  - Почтовые ящики пользователей должны быть перенесены в Exchange 2013.
+  - Почтовые ящики пользователей необходимо перенести в Exchange 2013.
 
-  - Для Lync Server 2013 и Exchange 2013 необходимо настроить проверку подлинности серверов и серверов.
+  - Проверка подлинности между серверами должна быть настроена между Lync Server 2013 и Exchange 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Подробные сведения о настройке проверки подлинности между Lync Server 2013 и Exchange 2013: <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление приложениями для проверки подлинности серверов (OAuth) и партнерских приложений в Lync server 2013</A> в документации по эксплуатации.
+    > Подробные требования к настройке проверки подлинности между Lync Server 2013 и Exchange 2013 приведены в статье <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление проверкой подлинности между серверами (OAuth) и партнерских приложений в Lync Server 2013</A> в документации по операциям.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Маршрутизация на основе местоположения для конференций'
+title: 'Lync Server 2013: Маршрутизация на основе расположения для конференций'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec3268109b522a96e5593f6e0246ee7b36651c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762167"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Маршрутизация на основе местоположения для конференц-связи в Lync Server 2013
+# <a name="location-based-routing-for-conferencing-in-lync-server-2013"></a>Маршрутизация на основе расположения для конференций в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762167"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-07-31_
+_**Последнее изменение темы:** 2013-07-31_
 
-Маршрутизация на основе местоположения позволяет ограничить маршрутизацию звонков между конечными точками VoIP и КОММУТИРУЕМыми конечными точками, основываясь на местоположении сторон в звонке. Благодаря накопительному обновлению 2 для Lync Server 2013 на собраниях Lync (например, конференц-связи) можно использовать правила маршрутизации на основе местоположения, чтобы предотвратить бесплатный звонок по протоколу PSTN. Приложение отслеживает активную конференцию и применяет ограничения для маршрутизации на основе местоположения на основе местоположения пользователей, участвующих в программе. Приложение для конференц-связи с учетом местоположения дополнительно позволяет принудительно использовать ограничения маршрутизации на основе местоположения для консултативе передач, использующих конечные точки PSTN.
+Маршрутизация на основе расположения позволяет ограничить маршрутизацию вызовов между конечными точками VoIP и PSTN в зависимости от расположения сторон в вызове. С накопительным пакетом обновления 2 (SP2) для Lync Server 2013 правила маршрутизации на основе расположения могут быть применены к собраниям Lync (например, конференциям), чтобы предотвратить обход платных звонков по протоколу PSTN. Приложение отслеживает активную конференцию и применяет ограничения на маршрутизацию на основе расположения в зависимости от расположения участвующих пользователей. Кроме того, приложение для конференц-связи с маршрутизацией на основе расположения дополнительно позволяет применять ограничения маршрутизации на основе расположения для Консультативного передач с использованием конечных точек PSTN.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Обзор маршрутизации на основе местоположения для конференций в Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Обзор маршрутизации на основе расположения для конференций в Lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [Маршрутизация на основе местоположения и передача звонков консултативе в Lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [Маршрутизация на основе расположения и передачи вызовов Консультативного в Lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Требования для маршрутизации на основе местоположения для конференц-связи в Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Требования к маршрутизации на основе расположения для конференц-связи в Lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [Конфигурация маршрутизации на основе расположения для конференций в Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [Настройка маршрутизации на основе расположения для конференц-связи в Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

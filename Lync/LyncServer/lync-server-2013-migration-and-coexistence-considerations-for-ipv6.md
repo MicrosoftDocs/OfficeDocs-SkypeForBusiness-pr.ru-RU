@@ -12,16 +12,16 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5785b270aa3070c2b1592112ab4d5ae582e52bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f4a042089c0961eb8ea8313b78bbfcafa72c999
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41766030"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-14_
+_**Последнее изменение темы:** 2012-06-14_
 
-Протокол IP версии 6 (IPv6) не поддерживается на Lync Server 2010 или Office Communications Server. В целях пилотного развертывания вы можете проверить сосуществование Lync Server 2010 и Lync Server 2013 с двумя стопками. Рекомендуется, чтобы все пулы для данного центрального сайта обновлялись до Lync Server 2013 перед включением IPv6 (сеть с двумя стеками) для всех пулов. Если необходимо настроить пул только для IPv6, то для тестирования в лабораторной среде рекомендуется настроить пул только для IPv6.
+Протокол IP версии 6 (IPv6) не поддерживается на Lync Server 2010 или Office Communications Server. При пилотном развертывании можно тестировать сосуществование с двумя стеками Lync Server 2010 и Lync Server 2013. Перед включением поддержки IPv6 (сеть с двумя стеками) для любого пула рекомендуется обновить все пулы для данного центрального сайта до Lync Server 2013. Если необходимо настроить пул только для IPv6, то для тестирования в лабораторной среде рекомендуется настроить пул только для IPv6.
 
 Во время миграции и сосуществования поддерживаются следующие сценарии.
 
-  - Пулы Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2 в режиме IPv4, а вместе с Lync Server 2013 — в режиме двойной стопки.
+  - Пулы Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2 в режиме IPv4, сосуществующие с Lync Server 2013 в режиме двойного стека.
 
-  - Пул Lync Server 2013 в режиме "только IPv6", если в пуле только IPv6 есть приемник.
+  - Lync Server 2013 pool в режиме только IPv6, если пул, поддерживающий только IPv6, является приемником.
 
 </div>
 
