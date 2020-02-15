@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: установка программного обеспечения'
+title: 'Lync Server 2013: Настройка программного обеспечения'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-setup-for-lync-server-2013"></a>Установка программного обеспечения для Lync Server 2013
+# <a name="software-setup-for-lync-server-2013"></a>Настройка программного обеспечения для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764465"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-В этом разделе описана настройка программного обеспечения, необходимая после настройки оборудования в среде.
+В этом разделе описывается установка программного обеспечения, которая должна выполняться после установки оборудования в рабочей среде.
 
 <div>
 
@@ -47,11 +47,11 @@ _**Тема последнего изменения:** 2012-06-29_
 
   - [Настройка хранилища файлов для Lync Server 2013](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [Заблаговременный запрос сертификатов для Lync Server 2013 (необязательно)](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [Запрос сертификатов в предварительной (необязательный) для Lync Server 2013](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [Настройка IIS для Lync Server 2013](lync-server-2013-configure-iis.md)
+  - [Настройка служб IIS для Lync Server 2013](lync-server-2013-configure-iis.md)
 
-  - [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 
