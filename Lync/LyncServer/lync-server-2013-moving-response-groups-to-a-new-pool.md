@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: перемещение групп ответов в новый пул'
+title: 'Lync Server 2013: перемещение групп ответа в новый пул'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756713"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a><span data-ttu-id="1b0cf-102">Перемещение групп ответа в новый пул в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b0cf-102">Moving response groups to a new pool in Lync Server 2013</span></span>
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a><span data-ttu-id="5df00-102">Перемещение групп ответа в новый пул в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5df00-102">Moving response groups to a new pool in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756713"
 
 <span> </span>
 
-<span data-ttu-id="1b0cf-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1b0cf-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="5df00-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5df00-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1b0cf-104">Lync Server 2013 предлагает новую поддержку командлетов для перемещения групп ответов из одного пула в другой, даже если полное доменное имя (FQDN) отличается.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-104">Lync Server 2013 introduces new cmdlet support for moving response groups from one pool to another pool, even when the fully qualified domain name (FQDN) is different.</span></span>
+<span data-ttu-id="5df00-104">Lync Server 2013 представляет новую поддержку командлетов для перемещения групп ответа из одного пула в другой, даже если полное доменное имя (FQDN) отличается.</span><span class="sxs-lookup"><span data-stu-id="5df00-104">Lync Server 2013 introduces new cmdlet support for moving response groups from one pool to another pool, even when the fully qualified domain name (FQDN) is different.</span></span>
 
-<span data-ttu-id="1b0cf-105">Выполните действия, описанные в приведенной ниже процедуре, для перемещения групп ответов из пула переднего плана в другой пул переднего плана с другим полным доменным именем.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-105">Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.</span></span>
+<span data-ttu-id="5df00-105">Выполните действия, описанные в следующей процедуре, чтобы переместить группы ответа из одного пула переднего плана в другой интерфейсный пул с другим полным доменным именем.</span><span class="sxs-lookup"><span data-stu-id="5df00-105">Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1b0cf-106">В среде сосуществования вы можете перемещать группы ответов только между пулами интерфейсов внешних&nbsp;интерфейсов Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-106">In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.</span></span>
+> <span data-ttu-id="5df00-106">В среде сосуществования можно перемещать группы ответа только между интерфейсными пулами Lync Server&nbsp;2013.</span><span class="sxs-lookup"><span data-stu-id="5df00-106">In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.</span></span>
 
 
 
@@ -53,29 +53,29 @@ ms.locfileid: "41756713"
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a><span data-ttu-id="1b0cf-107">Перемещение групп ответа в пул с другим полным доменным именем</span><span class="sxs-lookup"><span data-stu-id="1b0cf-107">To move response groups to a pool with a different FQDN</span></span>
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a><span data-ttu-id="5df00-107">Перемещение группы ответа в пул с другими полным доменным именем</span><span class="sxs-lookup"><span data-stu-id="5df00-107">To move response groups to a pool with a different FQDN</span></span>
 
-1.  <span data-ttu-id="1b0cf-108">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="5df00-108">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5df00-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="1b0cf-109">Экспортируйте группы ответов в исходном пуле.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-109">Export the response groups in the source pool.</span></span> <span data-ttu-id="1b0cf-110">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-110">At the command line, type:</span></span>
+2.  <span data-ttu-id="5df00-p101">Экспортируйте группу ответа в исходном пуле. В командной строке введите:</span><span class="sxs-lookup"><span data-stu-id="5df00-p101">Export the response groups in the source pool. At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    <span data-ttu-id="1b0cf-111">Например:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-111">For example:</span></span>
+    <span data-ttu-id="5df00-111">Пример:</span><span class="sxs-lookup"><span data-stu-id="5df00-111">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    <span data-ttu-id="1b0cf-112">Чтобы удалить группы ответов из исходного пула во время экспорта, включите параметр – Ремовикспортедконфигуратион.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-112">To remove the response groups from the source pool during the export, include the –RemoveExportedConfiguration parameter.</span></span> <span data-ttu-id="1b0cf-113">Например:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-113">For example:</span></span>
+    <span data-ttu-id="5df00-p102">Чтобы удалить группы ответа из исходного пула во время экспорта, включите в команду параметр –RemoveExportedConfiguration. Пример:</span><span class="sxs-lookup"><span data-stu-id="5df00-p102">To remove the response groups from the source pool during the export, include the –RemoveExportedConfiguration parameter. For example:</span></span>
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  <span data-ttu-id="1b0cf-114">Импортируйте группы ответа в целевой пул и назначьте пул назначения в качестве нового владельца.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-114">Import the response groups to the destination pool and assign the destination pool as the new owner.</span></span> <span data-ttu-id="1b0cf-115">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-115">At the command line, type:</span></span>
+3.  <span data-ttu-id="5df00-p103">Импортируйте группы ответа в конечный пул и назначьте конечный пул новому владельцу. В командной строке введите:</span><span class="sxs-lookup"><span data-stu-id="5df00-p103">Import the response groups to the destination pool and assign the destination pool as the new owner. At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    <span data-ttu-id="1b0cf-116">Если вы также хотите скопировать параметры уровня приложения группы ответа из исходного пула в конечный пул, добавьте параметр – Реплацеексистингргссеттингс.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-116">If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter.</span></span> <span data-ttu-id="1b0cf-117">Для каждого пула можно задать на уровне приложения только один набор параметров.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-117">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="1b0cf-118">При копировании параметров уровня приложения из исходного пула в конечный пул параметры из исходного пула заменяют параметры для целевого пула.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-118">If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool.</span></span> <span data-ttu-id="1b0cf-119">Если вы не копируете параметры уровня приложения из исходного пула, в импортированных группах ответа применяются существующие параметры из целевого пула.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-119">If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.</span></span>
+    <span data-ttu-id="5df00-116">Если вы также хотите скопировать параметры уровня приложения группы ответа из исходного пула в целевой пул, включите параметр – Реплацеексистингргссеттингс.</span><span class="sxs-lookup"><span data-stu-id="5df00-116">If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter.</span></span> <span data-ttu-id="5df00-117">Для каждого пула можно указать только один набор параметров уровня приложения.</span><span class="sxs-lookup"><span data-stu-id="5df00-117">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="5df00-118">Если вы копируете параметры уровня приложения из исходного пула в целевой пул, параметры из исходного пула заменяют параметры целевого пула.</span><span class="sxs-lookup"><span data-stu-id="5df00-118">If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool.</span></span> <span data-ttu-id="5df00-119">Если вы не копируете параметры из исходного пула, к импортируемым группам ответа применяются существующие параметры из целевого пула.</span><span class="sxs-lookup"><span data-stu-id="5df00-119">If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.</span></span>
     
-    <span data-ttu-id="1b0cf-120">Например:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-120">For example:</span></span>
+    <span data-ttu-id="5df00-120">Пример:</span><span class="sxs-lookup"><span data-stu-id="5df00-120">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
@@ -83,42 +83,42 @@ ms.locfileid: "41756713"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="1b0cf-121">Параметры уровня приложения включают стандартную конфигурацию хранения музыки, используемую по умолчанию в качестве звукового файла для хранения музыки, агент рингбакк льготный период и контекстную конфигурацию вызова.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-121">Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="1b0cf-122">Чтобы просмотреть эти параметры конфигурации, запустите командлет <STRONG>Get-ксргсконфигуратион</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="1b0cf-122">To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="1b0cf-123">Подробнее об этом командлете можно узнать в <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">статьях Get-ксргсконфигуратион</A>.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-123">For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.</span></span>
+    > <span data-ttu-id="5df00-121">Параметры уровня приложения включают используемую по умолчанию конфигурацию музыки для хранения музыки, по умолчанию музыкальный файл по умолчанию, период отсрочки агента удерживаемого абонента и конфигурацию контекста вызовов.</span><span class="sxs-lookup"><span data-stu-id="5df00-121">Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="5df00-122">Чтобы просмотреть эти параметры конфигурации, запустите командлет <STRONG>Get – CsRgsConfiguration</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="5df00-122">To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="5df00-123">Подробнее об этом командлете можно узнать в статье <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get – CsRgsConfiguration</A>.</span><span class="sxs-lookup"><span data-stu-id="5df00-123">For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="1b0cf-124">Убедитесь, что импорт прошел успешно, отображая импортированную конфигурацию группы ответа следующим образом.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-124">Verify that the import was successful by displaying the imported response group configuration by doing the following:</span></span>
+4.  <span data-ttu-id="5df00-124">Убедитесь, что импорт выполнен успешно, просмотрев импортированную конфигурацию группы ответа. Для этого выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="5df00-124">Verify that the import was successful by displaying the imported response group configuration by doing the following:</span></span>
     
-      - <span data-ttu-id="1b0cf-125">Убедитесь, что все рабочие процессы импортированы.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-125">Verify that all the workflows were imported.</span></span> <span data-ttu-id="1b0cf-126">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-126">At the command line, type the following:</span></span>
+      - <span data-ttu-id="5df00-p106">Убедитесь, что импортированы все рабочие процессы. В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5df00-p106">Verify that all the workflows were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="1b0cf-127">Убедитесь, что все очереди импортированы.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-127">Verify that all the queues were imported.</span></span> <span data-ttu-id="1b0cf-128">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-128">At the command line, type the following:</span></span>
+      - <span data-ttu-id="5df00-p107">Убедитесь, что импортированы все очереди. В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5df00-p107">Verify that all the queues were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="1b0cf-129">Убедитесь, что все группы агента импортированы.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-129">Verify that all the agent groups were imported.</span></span> <span data-ttu-id="1b0cf-130">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-130">At the command line, type the following:</span></span>
+      - <span data-ttu-id="5df00-p108">Убедитесь, что импортированы все группы агентов. В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5df00-p108">Verify that all the agent groups were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="1b0cf-131">Убедитесь, что все деловые часы были импортированы.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-131">Verify that all the hours of business were imported.</span></span> <span data-ttu-id="1b0cf-132">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-132">At the command line, type the following:</span></span>
+      - <span data-ttu-id="5df00-p109">Убедитесь, что импортированы все часы работы. В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5df00-p109">Verify that all the hours of business were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - <span data-ttu-id="1b0cf-133">Убедитесь, что все наборы праздников импортированы.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-133">Verify that all the holiday sets were imported.</span></span> <span data-ttu-id="1b0cf-134">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-134">At the command line, type the following:</span></span>
+      - <span data-ttu-id="5df00-p110">Убедитесь, что импортированы все наборы выходных. В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5df00-p110">Verify that all the holiday sets were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  <span data-ttu-id="1b0cf-135">Убедитесь, что импорт выполнен успешно, поместив вызов в одну из групп ответа и подтверждаю, что вызов обрабатывается правильно.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-135">Verify that the import was successful by placing a call to one of the response groups and verifying that the call is handled correctly.</span></span>
+5.  <span data-ttu-id="5df00-135">Убедитесь, что импорт выполнен успешно, позвонив в одну из групп ответа и убедившись, что вызов обрабатывается правильно.</span><span class="sxs-lookup"><span data-stu-id="5df00-135">Verify that the import was successful by placing a call to one of the response groups and verifying that the call is handled correctly.</span></span>
 
-6.  <span data-ttu-id="1b0cf-136">Агенты запросов, являющиеся членами формальных групп агента, для входа в группы агента в целевом пуле.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-136">Request agents who are members of formal agent groups to sign in to their agent groups in the destination pool.</span></span>
+6.  <span data-ttu-id="5df00-136">Попросите агентов, которые являются участниками формальных групп агентов, войти в свои группы в конечном пуле.</span><span class="sxs-lookup"><span data-stu-id="5df00-136">Request agents who are members of formal agent groups to sign in to their agent groups in the destination pool.</span></span>
 
-7.  <span data-ttu-id="1b0cf-137">Если вы ранее не удалили группы ответов из исходного пула, удалите группы ответов из исходного пула.</span><span class="sxs-lookup"><span data-stu-id="1b0cf-137">If you did not previously remove response groups from the source pool, remove the response groups from the source pool.</span></span> <span data-ttu-id="1b0cf-138">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-138">At the command line, type:</span></span>
+7.  <span data-ttu-id="5df00-p111">Если группы ответа не удалялись из исходного пула в ходе процедуры, удалите их из него. В командной строке введите:</span><span class="sxs-lookup"><span data-stu-id="5df00-p111">If you did not previously remove response groups from the source pool, remove the response groups from the source pool. At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     
-    <span data-ttu-id="1b0cf-139">Например:</span><span class="sxs-lookup"><span data-stu-id="1b0cf-139">For example:</span></span>
+    <span data-ttu-id="5df00-139">Пример:</span><span class="sxs-lookup"><span data-stu-id="5df00-139">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -RemoveExportedConfiguration -FileName "C:\TempRGsConfiguration.zip"
 

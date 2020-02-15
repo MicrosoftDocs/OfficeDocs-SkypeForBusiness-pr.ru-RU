@@ -12,20 +12,20 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b59622306fbde12eb570b72c95b37cec7885c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a><span data-ttu-id="ce004-102">Настройка компьютера Lync Server 2013 для участия в обнаружении System Center</span><span class="sxs-lookup"><span data-stu-id="ce004-102">Configuring the Lync Server 2013 computer to participate in System Center discovery</span></span>
+# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a><span data-ttu-id="101fe-102">Настройка компьютера Lync Server 2013 для участия в обнаружении System Center</span><span class="sxs-lookup"><span data-stu-id="101fe-102">Configuring the Lync Server 2013 computer to participate in System Center discovery</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734679"
 
 <span> </span>
 
-<span data-ttu-id="ce004-103">_**Тема последнего изменения:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="ce004-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="101fe-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="101fe-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="ce004-104">Чтобы убедиться в том, что новый агент сервера Lync участвует в процессе обнаружения для System Center Operations Manager, необходимо выполнить описанные ниже действия для каждого компьютера, на котором установлена консоль System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="ce004-104">To make sure that your new Lync Server agent participates in discovery process for System Center Operations Manager, you must complete the following procedure on each computer where the System Center Operations Manager console has been installed:</span></span>
+<span data-ttu-id="101fe-104">Чтобы убедиться, что новый агент Lync Server участвует в процессе обнаружения для System Center Operations Manager, необходимо выполнить следующую процедуру на каждом компьютере, на котором установлена консоль System Center Operations Manager:</span><span class="sxs-lookup"><span data-stu-id="101fe-104">To make sure that your new Lync Server agent participates in discovery process for System Center Operations Manager, you must complete the following procedure on each computer where the System Center Operations Manager console has been installed:</span></span>
 
-1.  <span data-ttu-id="ce004-105">На вкладке **Администрирование** выберите пункт **управляемая агентом**.</span><span class="sxs-lookup"><span data-stu-id="ce004-105">On the **Administration** tab, click **Agent Managed**.</span></span>
+1.  <span data-ttu-id="101fe-105">На вкладке **Администрирование** щелкните элемент **Управляемый агентом**.</span><span class="sxs-lookup"><span data-stu-id="101fe-105">On the **Administration** tab, click **Agent Managed**.</span></span>
 
-2.  <span data-ttu-id="ce004-106">Right-click the name of the computer, and then click **Properties**.</span><span class="sxs-lookup"><span data-stu-id="ce004-106">Right-click the name of the computer, and then click **Properties**.</span></span> <span data-ttu-id="ce004-107">В диалоговом окне **Свойства** на вкладке **Безопасность** выберите **Разрешить этому агенту выступать в качестве прокси-сервера и найдите управляемые объекты на других компьютерах**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ce004-107">In the **Properties** dialog box, on the **Security** tab, select **Allow this agent to act as a proxy and discover managed objects on other computers**, and then click **OK**.</span></span>
+2.  <span data-ttu-id="101fe-p101">Щелкните правой кнопкой мыши имя компьютера и выберите пункт **Свойства**. В диалоговом окне **Свойства** на вкладке **Безопасность** выберите **Разрешить агенту работать как прокси и обнаруживать управляемые объекты на других компьютерах**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="101fe-p101">Right-click the name of the computer, and then click **Properties**. In the **Properties** dialog box, on the **Security** tab, select **Allow this agent to act as a proxy and discover managed objects on other computers**, and then click **OK**.</span></span>
 
-<span data-ttu-id="ce004-108">После завершения действия 2 перезапустите службу агента работоспособности.</span><span class="sxs-lookup"><span data-stu-id="ce004-108">After completing step 2, reboot the Health Agent service.</span></span> <span data-ttu-id="ce004-109">(При перезагрузке служба будет "принудительно" обнаружение нового компьютера.</span><span class="sxs-lookup"><span data-stu-id="ce004-109">(Rebooting the service will “force” discovery of the new machine.</span></span> <span data-ttu-id="ce004-110">Если вы не перезапускает службу, она может занять до 4 часов, прежде чем новый компьютер будет обнаружен с помощью System Center Operations Manager.).</span><span class="sxs-lookup"><span data-stu-id="ce004-110">If you do not reboot the service, it could take as long as 4 hours before the new machine is discovered by System Center Operations Manager.).</span></span> <span data-ttu-id="ce004-111">После перезагрузки службы убедитесь в том, что в журнале событий Operations Manager на этом компьютере не записываются события ошибок.</span><span class="sxs-lookup"><span data-stu-id="ce004-111">After the service has rebooted, verify that no error events are being recorded in the Operations Manager event log on that computer.</span></span>
+<span data-ttu-id="101fe-p102">После выполнения действия 2 перезапустите службу агента работоспособности. (При перезапуске службы будет автоматически выполнено обнаружение нового компьютера. Если не перезапустить службу, обнаружение нового компьютера агентом System Center Operations Manager может занять до 4 часов.) После перезапуска службы проверьте журнал событий Operations Manager и убедитесь, что в нем не были записаны ошибки для данного компьютера.</span><span class="sxs-lookup"><span data-stu-id="101fe-p102">After completing step 2, reboot the Health Agent service. (Rebooting the service will “force” discovery of the new machine. If you do not reboot the service, it could take as long as 4 hours before the new machine is discovered by System Center Operations Manager.). After the service has rebooted, verify that no error events are being recorded in the Operations Manager event log on that computer.</span></span>
 
 </div>
 
