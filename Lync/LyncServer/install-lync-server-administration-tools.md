@@ -12,16 +12,16 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 614bce64839283fd953b926e0dbab2eed3638c5f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c12cf90e076ba66f997353dd058b0c3df8f57bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734169"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734169"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-В этой статье описано, как установить средства администрирования, которые необходимо использовать для развертывания Lync Server 2013 и управления ими. Вы также можете установить средства администрирования на другие компьютеры, например специальные консоли администрирования.
+В этом разделе описывается установка средств администрирования, необходимых для развертывания и управления Lync Server 2013. Установить средства администрирования можно также на других компьютерах, например выделенных консолях администрирования.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-10-02_
 
 1.  На сервере переднего плана Lync Server 2013 запустите программу установки Lync Server 2013.
 
-2.  На странице мастера развертывания Lync Server 2013 выберите **установить средства администрирования**
+2.  На странице мастера развертывания Lync Server 2013 выберите пункт **Установка средств администрирования**
     
     ![Мастер развертывания Lync Server 2013, страница приветствия](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Мастер развертывания Lync Server 2013, страница приветствия")
 
@@ -56,7 +56,7 @@ _**Тема последнего изменения:** 2012-10-02_
 ## <a name="see-also"></a>См. также
 
 
-[Средства администрирования Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  
+[Lync Server 2013 административные средства](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>

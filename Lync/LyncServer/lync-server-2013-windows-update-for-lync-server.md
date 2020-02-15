@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Центр обновления Windows для Lync Server'
+title: 'Lync Server 2013: обновление Windows для Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57949b051468241e18d8a121e9d79bc1fdb378f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e70ac17e27508a7922d8353e6142b3b5f05b34e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a>Центр обновления Windows для Lync Server 2013
+# <a name="windows-update-for-lync-server-2013"></a>Обновление Windows для Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41727399"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-12-05_
+_**Последнее изменение темы:** 2013-12-05_
 
-Часто проверяйте и применяйте обновления и обновления для системы безопасности с помощью служб центра обновления Windows. Это поможет избежать уязвимостей в других компонентах системы, которые могут повлечь злоумышленники получить доступ к серверам, на которых работает Microsoft Lync Server 2013 с правами администратора, и тем самым ослабить сервер Lync Server 2013.
+Часто проверяйте и примените обновления и обновления для системы безопасности с помощью служб центра обновления Windows. Это помогает предотвратить возникновение уязвимостей в других компонентах системы, которые могут привести к тому, что злоумышленники смогут получить доступ к серверам, на которых работает Microsoft Lync Server 2013 с правами администратора, и таким образом ослабить Lync Server 2013.
 
-Обновления для Microsoft SQL Server 2008 Express (64-bit Edition) выполняются на каждом сервере Lync Server 2013 Standard Edition (для серверной базы данных) и на всех остальных ролях сервера Lync Server 2013 (для локального хранилища конфигураций), если только вы не обновили базы данных в SQL Server 2008 R2 Express. Эти базы данных следует рассматривать как часть повседневного обслуживания обновления системы безопасности, так же как SQL Server в серверной базе данных пула переднего плана, базы данных мониторинга и базы данных архивации.
+Обновления для Microsoft SQL Server 2008 Express (64-разрядный выпуск) выполняются на каждом сервере Lync Server 2013 Standard Edition (для внутренней базы данных) и всех остальных ролей сервера Lync Server 2013 Server (для локального хранилища конфигурации), если вы не обновили эти базы данных в SQL Server 2008 R2 Express. Эти базы данных следует рассматривать как часть повседневного обслуживания обновления системы безопасности, как в случае использования SQL Server в серверной базе данных интерфейсного пула, базы данных мониторинга и базы данных архивации.
 
 <div>
 
-## <a name="best-practice"></a>Практические рекомендации
+## <a name="best-practice"></a>Рекомендация
 
-  - Сохранить текущую версию с помощью центра обновления Windows.
+  - Сохранение текущих обновлений Windows.
 
 </div>
 

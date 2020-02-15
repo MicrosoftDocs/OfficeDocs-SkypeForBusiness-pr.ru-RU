@@ -12,16 +12,16 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 495b556254ab42270aa031861aea0c4390f17602
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763903"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763903"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-15_
+_**Последнее изменение темы:** 2012-10-15_
 
-Для настройки можно предоставить разрешения на доступ к универсальной группе Рткуниверсалсерверадминс для определенного подразделения Active Directory (OU), включив в него членов группы Рткуниверсалсерверадминс для установки Lync Server 2013 в указанном домене. При предоставлении разрешений на доступ к подразделению предоставляются следующие разрешения:
+Для программы установки можно предоставить разрешения универсальной группе RTCUniversalServerAdmins для определенного подразделения Active Directory (OU), разрешив членам группы RTCUniversalServerAdmins в этом подразделении установить Lync Server 2013 в указанном домене. При этом выдаются следующие разрешения:
 
-  - Читаются
+  - Чтение
 
-  - Пишу
+  - Запись
 
   - реадспн
 
   - вритеспн
 
-Для администрирования вы можете добавить разрешения для указанных подразделений, чтобы участники универсальных групп RTC, созданные с помощью подготовки леса, могли получать доступ к подразделениям без необходимости входить в группу администраторов домена. Разрешения, добавленные в указанный ОРГАНИЗАЦИОНный элемент, совпадают с разрешениями, которые командлет **Enable-ксаддомаин** добавляет к контейнерам OU Computers и Users.
+Для администрирования можно добавить разрешения в указанные подразделения, чтобы члены универсальных групп RTC, созданных в ходе подготовки леса, могли получить доступ к подразделениям, не являясь членами группы администраторов домена. Разрешения, добавляемые к указанному подразделению — это те же разрешения, которые командлет **Enable-CsAdDomain** добавляет для компьютеров и контейнеров пользователей подразделения.
 
 <div>
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-10-15_
 
   - [Предоставление разрешений на установку в Lync Server 2013](lync-server-2013-granting-setup-permissions.md)
 
-  - [Предоставление разрешений организационного подразделения в Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
+  - [Предоставление разрешений организационных подразделений в Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
 
 </div>
 

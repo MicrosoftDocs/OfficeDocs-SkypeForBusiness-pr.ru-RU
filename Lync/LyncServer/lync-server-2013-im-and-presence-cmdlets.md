@@ -12,16 +12,16 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d96b8971bb25898e9e8b02403b0f8cd5447681c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7886300b49cfea014b04cca01c859852dcd74d9c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,126 +35,126 @@ ms.locfileid: "41764039"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-26_
+_**Последнее изменение темы:** 2012-06-26_
 
-Мгновенные сообщения и командлеты присутствия позволяют управлять этими клиентскими возможностями с помощью Windows PowerShell. Вы можете задать политики присутствия, применимые к пользователям в глобальной области, в пределах сайта или для каждого пользователя. Вы также можете настроить различные функции конфиденциальности и обмена мгновенными сообщениями.
+Командлеты обмена мгновенными сообщениями и сведения о присутствии позволяют управлять этими клиентскими функциями с помощью Windows PowerShell. Можно устанавливать политики присутствия, которые применяются к пользователям на глобальном уровне, на уровне сайта или на уровне пользователя. Можно также настраивать разные компоненты конфиденциальности и обмена мгновенными сообщениями.
 
 <div>
 
-## <a name="im-and-presence-cmdlets"></a>Командлеты для обмена мгновенными сообщениями и присутствия
+## <a name="im-and-presence-cmdlets"></a>Командлеты обмена мгновенными сообщениями и присутствия
 
-Настройка обмена мгновенными сообщениями и сведениями о присутствии с помощью следующих командлетов:
-
-  - <span></span>  
-    [Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398463(v=OCS.15))
+Для настройки обмена мгновенными сообщениями и присутствия используются следующие командлеты.
 
   - <span></span>  
-    [Grant-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg398571(v=OCS.15))
+    [Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))
 
   - <span></span>  
-    [New-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg412747(v=OCS.15))
+    [Granting — CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg399070(v=OCS.15))
+    [New — CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPresencePolicy](https://technet.microsoft.com/en-us/library/Gg425782(v=OCS.15))
+    [Remove — CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204705(v=OCS.15))
+  - [Get — CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))
 
-  - [New-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204895(v=OCS.15))
+  - [New — CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))
 
-  - [Remove-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ205036(v=OCS.15))
+  - [Remove — CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))
 
-  - [Set-CsPresenceProvider](https://technet.microsoft.com/en-us/library/JJ204833(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg413002(v=OCS.15))
-
-  - <span></span>  
-    [New-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398807(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg425821(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/Gg398484(v=OCS.15))
+  - [Set — CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Get — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))
+
+  - <span></span>  
+    [New — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))
+
+  - <span></span>  
+    [Remove — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Ксусерсервицесконфигуратион](https://technet.microsoft.com/en-us/library/Gg398133(v=OCS.15))
-
-  - <span></span>  
-    [New-CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg412926(v=OCS.15))
-
-  - <span></span>  
-    [Remove-Ксусерсервицесконфигуратион](https://technet.microsoft.com/en-us/library/Gg398722(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUserServicesConfiguration](https://technet.microsoft.com/en-us/library/Gg398340(v=OCS.15))
+    [Set — Ксусерсервер](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398527(v=OCS.15))
+    [Get — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))
 
   - <span></span>  
-    [New-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425897(v=OCS.15))
+    [New — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg413064(v=OCS.15))
+    [Remove — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))
 
   - <span></span>  
-    [Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg425736(v=OCS.15))
+    [Set — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398980(v=OCS.15))
+    [Get — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))
 
   - <span></span>  
-    [New-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398244(v=OCS.15))
+    [New — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg398171(v=OCS.15))
+    [Remove — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))
 
   - <span></span>  
-    [Set-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/Gg412960(v=OCS.15))
+    [Set — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupExpansion](https://technet.microsoft.com/en-us/library/Gg399009(v=OCS.15))
+    [Get — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398980(v=OCS.15))
+
+  - <span></span>  
+    [New — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398244(v=OCS.15))
+
+  - <span></span>  
+    [Remove — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398171(v=OCS.15))
+
+  - <span></span>  
+    [Set — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg412960(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsGroupIM](https://technet.microsoft.com/en-us/library/Gg398273(v=OCS.15))
+    [Test-Ксграупекспансион](https://technet.microsoft.com/library/Gg399009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsIM](https://technet.microsoft.com/en-us/library/Gg425802(v=OCS.15))
+    [Test-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsP2PAV](https://technet.microsoft.com/en-us/library/Gg412821(v=OCS.15))
+    [Test-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-Кспресенце](https://technet.microsoft.com/en-us/library/Gg398148(v=OCS.15))
+    [Test-CsP2PAV](https://technet.microsoft.com/library/Gg412821(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Test-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))
 
 </div>
 
@@ -163,7 +163,7 @@ _**Тема последнего изменения:** 2012-06-26_
 ## <a name="see-also"></a>См. также
 
 
-[Командлеты управления клиентом в Lync Server 2013](lync-server-2013-client-management-cmdlets.md)  
+[Командлеты управления клиентами в Lync Server 2013](lync-server-2013-client-management-cmdlets.md)  
 
 
 [Блог Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  

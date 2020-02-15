@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: резервное копирование архивных и контрольных баз данных'
+title: 'Lync Server 2013: резервное копирование баз данных архивации и мониторинга'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4092ddc3c86496053cc0ebbb367188490096de4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 955609f4d012489ba70dbb81f21a38e8261ef7f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740169"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a>Архивирование и мониторинг баз данных в Lync Server 2013
+# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a>Резервное копирование баз данных архивации и мониторинга в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740169"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-17_
+_**Последнее изменение темы:** 2013-02-17_
 
-Если вы развернули архивацию или наблюдение, необходимо выполнить резервное копирование этих баз данных в соответствии с политикой архивации SQL Server в своей организации.
+Если вы развернули архивирование или мониторинг, необходимо выполнить резервное копирование этих баз данных в соответствии с политикой резервного копирования SQL Server вашей организации.
 
 <div>
 
 
 > [!NOTE]  
-> Параметры архивации и мониторинга записываются при создании резервной копии хранилища центрального управления. Подробности можно найти <A href="lync-server-2013-backing-up-core-data-and-settings.md">в разделе Резервное копирование основных данных и параметров в Lync Server 2013</A>.
+> Резервные копии и мониторинг копируются при резервном копировании центрального хранилища управления. Дополнительные сведения см <A href="lync-server-2013-backing-up-core-data-and-settings.md">в статье резервное копирование основных данных и параметров в Lync Server 2013</A>.
 
 
 
 </div>
 
-Для архивации и мониторинга вы можете использовать средство SQL Server, например SQL Server Management Studio, для выполнения ручного резервного копирования, а также использовать средства управления SQL Server для планирования регулярных и автоматических резервных копий.
+Для архивации и мониторинга можно использовать средство SQL Server, например SQL Server Management Studio, для выполнения ручного резервного копирования, или можно использовать средства управления SQL Server для планирования регулярных и автоматических резервных копий.
 
 </div>
 

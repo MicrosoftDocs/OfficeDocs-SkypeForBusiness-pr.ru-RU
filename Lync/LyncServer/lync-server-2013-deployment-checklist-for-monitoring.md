@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание контрольного списка для мониторинга'
+title: 'Lync Server 2013: контрольный список развертывания для мониторинга'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26fd0c34d51445902e7f00439dd210ddfd64f392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762717"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Развертывание контрольного списка для мониторинга в Lync Server 2013
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Контрольный список развертывания для мониторинга в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762717"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-05_
+_**Последнее изменение темы:** 2012-09-05_
 
-Несмотря на то, что мониторинг уже установлен и активирован на каждом сервере переднего плана, вы по-прежнему можете выполнить несколько действий, которые необходимо предпринять, прежде чем вы сможете собирать данные мониторинга для Microsoft Lync Server 2013. Эти действия приведены в следующем контрольном списке.
+Хотя мониторинг уже установлен и активирован на каждом сервере переднего плана, существует несколько действий, которые необходимо предпринять, прежде чем вы сможете собрать данные мониторинга для Microsoft Lync Server 2013. Эти действия приведены в следующем контрольном списке.
 
 
 <table>
@@ -62,17 +62,17 @@ _**Тема последнего изменения:** 2012-09-05_
 <p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</a> в руководстве по поддержке</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Создание подходящей внутренней топологии для поддержки мониторинга</strong></p></td>
-<td><p>Используйте построитель топологии Lync Server 2013 для добавления в топологию баз данных мониторинга и публикации обновленной топологии.</p></td>
+<td><p><strong>Создание приемлемой внутренней топологии для поддержки мониторинга</strong></p></td>
+<td><p>Используйте построитель топологий Lync Server 2013 для добавления в топологию баз данных мониторинга и публикации обновленной топологии.</p></td>
 <td><p>Чтобы определить топологию, пользователь, который является членом локальной группы пользователей.</p>
 <p>Чтобы опубликовать топологию, пользователь, который является членом группы администраторов домена и группы RTCUniversalServerAdmins.</p></td>
 <td><p><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Связывание хранилища мониторинга с пулом переднего плана в Lync Server 2013</a> в руководстве по развертыванию</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Включение подходящих параметров мониторинга</strong></p></td>
-<td><p>Включите мониторинг для записи сведений о вызовах (CDR) и/или качества (QoE) в глобальной и (или) масштабах сайта.</p></td>
+<td><p>Включите мониторинг регистрации вызовов (CDR) и качества связи (QoE) на глобальном уровне и уровне сайта.</p></td>
 <td><p>Пользователь, который является членом группы RTCUniversalServerAdmins или которому была назначена роль RBAC, предоставляющая доступ к командлетам CsCdrConfiguration и CsQoEConfiguration.</p></td>
-<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка записи сведений о звонке и параметров качества обслуживания в Lync Server 2013</a> в руководстве по эксплуатации</p></td>
+<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка записи сведений о вызовах и параметров качества взаимодействия в Lync Server 2013</a> в руководстве по эксплуатации</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d589fbc6b7d31b38bc788ba9851edf4386294ea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0181c2e4362685f8840af66d6a885c3e02611a85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747459"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-14_
+_**Последнее изменение темы:** 2012-05-14_
 
-Организации часто заблокировали доменные службы Active Directory, чтобы снизить риски безопасности. Однако заблокированная среда Active Directory может ограничивать разрешения, необходимые для Lync Server 2013. Правильная подготовка заблокированной среды Active Directory для Lync Server 2013 включает некоторые дополнительные аспекты и инструкции.
+Организации часто блокируют доменные службы Active Directory, чтобы снизить риски безопасности. Однако заблокированная среда Active Directory может ограничить разрешения, необходимые для Lync Server 2013. Правильная подготовка заблокированной среды Active Directory для Lync Server 2013 включает некоторые дополнительные соображения и действия.
 
-Два распространенных способа ограничения разрешений в заблокированной среде Active Directory описаны ниже.
+Обычно разрешения в заблокированной среде Active Directory ограничиваются двумя способами.
 
-  - Элементы управления доступом пользователей, прошедшие проверку подлинности, удаляются из контейнеров.
+  - Элементы управления доступом (ACE) прошедшего проверку пользователя удаляются из контейнеров.
 
-  - Наследование разрешений отключено для контейнеров пользователей, контактов, InetOrgPerson или объектов компьютера.
+  - Наследование разрешений отключается для контейнеров объектов User, Contact, InetOrgPerson или Computer.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Удаление разрешений пользователей, прошедших проверку подлинности в Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)
+  - [Разрешения для пользователей, прошедших проверку подлинности, удалены в Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
-  - [Заблокировано наследование разрешений для компьютеров, пользователей и контейнеров inetOrgPerson в Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+  - [Наследование разрешений отключено на компьютерах, пользователях и контейнерах InetOrgPerson в Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
 
 </div>
 

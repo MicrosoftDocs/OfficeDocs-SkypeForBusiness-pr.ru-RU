@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: правила для версий клиента'
+title: 'Lync Server 2013: правила версий клиентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 181451e5ee4ecba114361aab5408d329f1a2a7d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-version-rules-in-lync-server-2013"></a>Правила клиентской версии в Lync Server 2013
+# <a name="client-version-rules-in-lync-server-2013"></a>Правила версий клиентов в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756473"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-12-11_
+_**Последнее изменение темы:** 2012-12-11_
 
-Политика клиентской версии состоит из набора правил политики клиентской версии. Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий. С помощью описанных ниже процедур вы можете настроить правила политики версии клиента для Lync Server 2013.
+Политика версий клиентов состоит из набора правил политики версий клиентов. Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий. Используйте следующие процедуры для настройки правил политики версий клиентов для Lync Server 2013
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр правил политики версии клиента в Lync Server 2013](lync-server-2013-view-client-version-policy-rules.md)
+  - [Просмотр правил политики версий клиентов в Lync Server 2013](lync-server-2013-view-client-version-policy-rules.md)
 
-  - [Создание или изменение правила политики для новой версии клиента в Lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
+  - [Создание или изменение нового правила политики версий клиентов в Lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
 
-  - [Удаление существующего правила политики для версии клиента в Lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
+  - [Удаление существующего правила политики версий клиентов в Lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр сведений о связи с сетевым регионом'
+title: 'Lync Server 2013: Просмотр сведений о связи между областями сети'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 935d1a98bd4f446ec8861ae8382eb724611a945f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7046f4f405bc3ece0170c4d598369828b47aa910
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757283"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Просмотр сведений о связи по сетевому региону в Lync Server 2013
+# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Просмотр сведений о связи между областями сети в Lync Server 2013
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41757283"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Вы можете просматривать ссылки между двумя сетевыми областями в рамках управления допуском звонков (CAC). Регионы в сети связаны по ГЛОБАЛЬным сетевым подключениям. Вы можете просмотреть существующую ссылку между двумя областями сети с помощью панели управления Lync Server. Дополнительные сведения о создании и изменении ссылки на сетевой регион можно найти [в разделе Настройка ссылок на сетевые регионы в Lync Server 2013](lync-server-2013-configuring-network-region-links.md).
+Вы можете просмотреть каналы между двумя областями сети как часть контроля допуска звонков (CAC). Регионы в сети связываются с помощью физического подключения глобальной сети. Вы можете использовать панель управления Lync Server для просмотра существующей связи между двумя областями сети. Дополнительные сведения о создании или изменении связи между областями сети содержатся [в разделе Настройка связей между областями сети в Lync Server 2013](lync-server-2013-configuring-network-region-links.md).
 
 <div>
 
-## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Просмотр ссылки на сетевой регион на панели управления Lync Server
+## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Просмотр связи между областями сети в панели управления Lync Server
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **Настройка сети** , а затем щелкните **ссылку Region (регион**).
+3.  В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Связь между областями**.
 
-4.  На странице " **ссылка на регион** " щелкните ссылку "регион", которую вы хотите просмотреть.
+4.  На странице **Канал области** щелкните канал области, который нужно просмотреть.
     
     <div>
     
 
     > [!NOTE]  
-    > Вы можете просматривать сведения только о одной ссылке на регион за один раз.
+    > За один раз вы можете просмотреть сведения только об одном канале области.
 
     
     </div>
 
-5.  В меню **Правка** выберите пункт **Показать подробности**.
+5.  В меню **Правка** щелкните пункт **Показать подробности**.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о связи по сетевому региону с помощью командлетов Windows PowerShell
+## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о связи между областями сети с помощью командлетов Windows PowerShell
 
-Вы можете просматривать ссылки на сетевую область с помощью Windows PowerShell и командлета **Get-кснетворкрегионлинк** . Этот командлет можно выполнить из управляющей оболочки Lync Server 2013 или из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Вы можете просматривать связи между областями сети с помощью Windows PowerShell и командлета **Get – кснетворкрегионлинк** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-view-network-region-link-information"></a>Просмотр сведений о связи по сетевому региону
+## <a name="to-view-network-region-link-information"></a>Просмотр сведений о канале области сети
 
-  - Чтобы просмотреть сведения о ссылках на сетевой регион, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.
+  - Чтобы просмотреть сведения о всех ссылках на область сети, введите следующую команду в командной консоли Lync Server и нажмите клавишу ВВОД:
     
         Get-CsNetworkRegionLink
     
@@ -88,7 +88,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Подробности можно найти в [статьях Get-кснетворкрегионлинк](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Дополнительные сведения см. в разделе [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
 
 </div>
 
@@ -97,7 +97,7 @@ _**Тема последнего изменения:** 2013-02-23_
 ## <a name="see-also"></a>См. также
 
 
-[Настройка связей сайтов сети в Lync Server 2013](lync-server-2013-configuring-network-site-links.md)  
+[Настройка связей между сетевыми сайтами в Lync Server 2013](lync-server-2013-configuring-network-site-links.md)  
   
 
 </div>

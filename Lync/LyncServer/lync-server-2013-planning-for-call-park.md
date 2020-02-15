@@ -12,16 +12,16 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41754389"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-07_
+_**Последнее изменение темы:** 2012-09-07_
 
-Приложение на приостановке звонков в Lync Server делает возможным, что пользователи корпоративной голосовой связи могут поставить звонок на удержание и затем извлечь его с любого телефона. Пользователь, который заприпаркован звонок, может либо набрать номер орбиты, предоставленный приостановкой звонка, чтобы получить припаркованный звонок, либо воспользоваться внешним механизмом, таким как обмен мгновенными сообщениями или системам разбиения по страницам, чтобы попросить другого человека получить звонок. Этот раздел содержит сведения о планировании, относящиеся к приостановке звонков.
+Приложение парковки вызовов Lync Server позволяет пользователям корпоративной голосовой связи помещать вызов на удержание, а затем извлекать его позже с любого телефона. Пользователь, запарковавший вызов, может либо набрать номер орбиты, предоставленный приложением "Парковка вызовов", чтобы извлечь запаркованный вызов, или воспользоваться внешним механизмом, таким как обмен мгновенными сообщениями или система оповещения, чтобы попросить извлечь вызов кого-нибудь еще. В этом разделе содержатся сведения о планировании, относящиеся к приостановке вызовов.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Общие сведения о приостановке звонков в Lync Server 2013](lync-server-2013-overview-of-call-park.md)
+  - [Обзор парковки вызовов в Lync Server 2013](lync-server-2013-overview-of-call-park.md)
 
-  - [Компоненты, используемые парковкой вызовов в Lync Server 2013](lync-server-2013-components-used-by-call-park.md)
+  - [Компоненты, используемые при парковки вызовов в Lync Server 2013](lync-server-2013-components-used-by-call-park.md)
 
-  - [Технические требования к парковке вызовов в Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)
+  - [Технические требования для парковки вызовов в Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)
 
   - [Клиенты, поддерживаемые для парковки вызовов в Lync Server 2013](lync-server-2013-clients-supported-for-call-park.md)
 
   - [Планирование емкости для парковки вызовов в Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [Процесс развертывания для парковки звонков в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Процесс развертывания для парковки вызовов в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

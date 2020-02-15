@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование емкости для группы ответа'
+title: 'Lync Server 2013: планирование мощности для группы ответа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-29_
+_**Последнее изменение темы:** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
-В приведенной ниже таблице описана пользовательская модель группы ответа, которую можно использовать в качестве основы для планирования производственных мощностей.
+В следующей таблице описывается пользовательская модель группы ответа, которую можно использовать в качестве основы для требований по планированию мощности.
 
 <div>
 
@@ -71,16 +71,16 @@ _**Тема последнего изменения:** 2012-10-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Показатель</th>
-<th>Пул корпоративных выпусков (с 8 серверами переднего плана)</th>
+<th>Метр</th>
+<th>Для пула корпоративных выпусков (с 8 серверами переднего плана)</th>
 <th>Для каждого сервера Standard Edition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Входящих звонков в секунду</p></td>
-<td><p>шестнадцат</p></td>
-<td><p>2</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>Число звонков, одновременно подключенных к интерактивному автоответчику или находящихся на удержании</p></td>
@@ -90,12 +90,12 @@ _**Тема последнего изменения:** 2012-10-29_
 <tr class="odd">
 <td><p>Число одновременных анонимных сеансов (без учета сеансов обмена мгновенными сообщениями)</p></td>
 <td><p>224</p></td>
-<td><p>Плот</p></td>
+<td><p>8</p></td>
 </tr>
 <tr class="even">
 <td><p>Число одновременных анонимных сеансов (с учетом сеансов обмена мгновенными сообщениями)</p></td>
 <td><p>64</p></td>
-<td><p>No8</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Число активных агентов (официальные и неофициальные)</p></td>

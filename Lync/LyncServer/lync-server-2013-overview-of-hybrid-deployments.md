@@ -12,16 +12,16 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e7acc66fa3393785497160cd327b1918c27d85b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c87e727db8538f92d77d3c125e21c96053317ae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755543"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-05-25_
+_**Последнее изменение темы:** 2016-05-25_
 
-Гибридное развертывание Lync Server — это развертывание, при котором пользователи домена (например, contoso.com) разделятся между локальным сервером Lync Server и Microsoft Lync Online. Некоторые пользователи домена размещены на локальном сервере Lync, а некоторые пользователи находятся в Skype для бизнеса Online.
+Гибридное развертывание Lync Server — это развертывание, при котором пользователи домена, например contoso.com, разбиваются между локальным сервером Lync Server и Microsoft Lync Online. Некоторые пользователи домена размещены на локальном сервере Lync, а некоторые пользователи размещены в Skype для бизнеса Online.
 
-Вы можете настроить локальное развертывание Lync для гибридной работы в Skype для бизнеса Online и использовать синхронизацию Active Directory, чтобы синхронизировать локальные и сетевые пользователи. Вы также можете настроить Гибридные развертывания для интеграции с локальным Exchange и SharePoint либо с приложениями Microsoft Office 365, в том числе Exchange Online и SharePoint Online.
+Вы можете настроить локальное развертывание Lync для гибридной среды со Skype для бизнеса Online и использовать синхронизацию Active Directory для синхронизации локальных и подключенных пользователей. Вы также можете настроить Гибридные развертывания для интеграции с локальным Exchange и SharePoint, а также с приложениями Microsoft Office 365, в том числе Exchange Online и SharePoint Online.
 
-В этом разделе рассказывается, как развертывать приложения, необходимые для гибридного развертывания Lync Server, а затем настраивать развертывание для управления пользователями между приложением Lync Server в локальной среде и Skype для бизнеса Online.
+В этом разделе рассказывается, как развернуть приложения, необходимые для гибридного развертывания Lync Server, а затем настроить развертывание для управления пользователями между локальной системой Lync Server и Skype для бизнеса Online.
 
-Сведения о настройке локального развертывания Lync Server для гибридной работы в Skype для бизнеса Online можно найти в следующих статьях:
+Сведения о настройке локального развертывания Lync Server для гибридной среды со Skype для бизнеса Online представлены в следующих разделах:
 
   - [Планирование гибридных развертываний Lync Server 2013](lync-server-2013-planning-for-hybrid-deployments.md)
 
-  - [Настройка гибридных развертываний для Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
+  - [Настройка гибридных развертываний Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
 
 Дополнительные сведения о Skype для бизнеса Online можно найти в [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).
 

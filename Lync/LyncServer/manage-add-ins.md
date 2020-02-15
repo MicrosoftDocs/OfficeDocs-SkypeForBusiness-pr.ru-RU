@@ -12,16 +12,16 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757183"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Создание новой надстройки для сервера для создания постоянного чата
+Создание новой надстройки сервера сохраняемого чата
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 ## <a name="create-get-set-or-remove-an-add-in"></a>Создание, получение, установка и удаление надстройки
 
-Создание новой надстройки
+Создание надстройки
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> Строка &lt;&gt; персистентчатпулфкдн является обязательной только в том случае, если существует несколько пулов серверов сохраняемого чата.
+> Строка &lt;&gt; PersistentChatPoolFqdn является обязательной только при наличии более одного пула серверов сохраняемого чата.
 
 
 
@@ -67,7 +67,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-Настройка надстройки
+Установка надстройки
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

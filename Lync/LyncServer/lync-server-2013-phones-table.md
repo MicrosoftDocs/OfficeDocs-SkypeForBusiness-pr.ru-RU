@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Phones'
+title: 'Lync Server 2013: таблица phones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Таблица Phones в Lync Server 2013
+# <a name="phones-table-in-lync-server-2013"></a>Таблица phones в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755189"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-20_
+_**Последнее изменение темы:** 2012-08-20_
 
-Таблица phones является вспомогательной таблицей. Каждая запись в таблице хранит информацию об одном номере телефона, который участвует в звонках по протоколу VoIP с записями в базе данных.
+Таблица phones это вспомогательная таблица. Каждая запись в таблице содержит сведения об одном номере телефона, участвующем в вызовах VoIP с записями в базе данных.
 
 
 <table>
@@ -51,14 +51,14 @@ _**Тема последнего изменения:** 2012-08-20_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>фонеид</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этот телефон.</p></td>
 </tr>
@@ -70,9 +70,9 @@ _**Тема последнего изменения:** 2012-08-20_
 </tr>
 <tr class="odd">
 <td><p><strong>некступдатетс</strong></p></td>
-<td><p>Датой</p></td>
+<td><p>dateTime</p></td>
 <td></td>
-<td><p>Метка времени (только для внутреннего использования).</p>
+<td><p>Отметка времени (только для внутреннего использования).</p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>

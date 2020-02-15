@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты для веб-конференций'
+title: 'Lync Server 2013: командлеты веб-конференций'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64957b303c723bb4548ac37b1aa25b2fee2a593e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41300769bf7256b3da44ac2fafd4e2448cdcf55f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-cmdlets-in-lync-server-2013"></a>Командлеты для веб-конференций в Lync Server 2013
+# <a name="web-conferencing-cmdlets-in-lync-server-2013"></a>Командлеты веб-конференций в Lync Server 2013
 
 </div>
 
@@ -35,108 +35,108 @@ ms.locfileid: "41758531"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-07-29_
+_**Последнее изменение темы:** 2013-07-29_
 
-Конференции и собрания по сети — это важные элементы в Microsoft Lync Server 2013. Командлеты КсконференЦингконфигуратион и КсконференЦингполици являются основными инструментами администрирования для управления конференциями с помощью Windows PowerShell.
+Конференц-связь и собрания по сети являются важными элементами в Microsoft Lync Server 2013. Командлеты CsConferencingConfiguration и CsConferencingPolicy являются основными средствами администрирования для управления конференциями с помощью Windows PowerShell.
 
 <div>
 
-## <a name="web-conferencing-cmdlets"></a>Командлеты для веб-конференций
+## <a name="web-conferencing-cmdlets"></a>Web Conferencing Cmdlets
 
-Командлеты [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg425949(v=OCS.15)) и [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg398300(v=OCS.15)) предоставляют дополнительные возможности настройки и управления Lync Server 2013.
+Командлеты [New – CsClientPolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15)) и [Set – CsClientPolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15)) предоставляют дополнительные возможности для настройки Lync Server 2013 и управления им.
 
 **Веб-конференции**
 
   - <span></span>  
-    [Get-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg425714(v=OCS.15))
+    [Get — CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398243(v=OCS.15))
+    [Remove — CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferenceDisclaimer](https://technet.microsoft.com/en-us/library/Gg398776(v=OCS.15))
+    [Set — CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Set — Ксконференцесервер](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398965(v=OCS.15))
+    [Get — CsConferencingConfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))
 
   - <span></span>  
-    [New-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412967(v=OCS.15))
+    [New — CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412767(v=OCS.15))
+    [Remove — CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412969(v=OCS.15))
+    [Set — CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398293(v=OCS.15))
+    [Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425937(v=OCS.15))
+    [Granting — CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))
 
   - <span></span>  
-    [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg413019(v=OCS.15))
+    [New — CsConferencingPolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg398728(v=OCS.15))
+    [Remove — CsConferencingPolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/Gg425788(v=OCS.15))
+    [Set — CsConferencingPolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg425875(v=OCS.15))
+    [Get — CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))
 
   - <span></span>  
-    [New-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15))
+    [New — CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15))
+    [Remove — CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398648(v=OCS.15))
+    [Set — CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))
 
 <!-- end list -->
 
-  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
+  - [Disable — CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))
 
-  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205062(v=OCS.15))
+  - [Enable — CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))
 
-  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ205277(v=OCS.15))
+  - [Get — CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))
 
-  - [Move-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204889(v=OCS.15))
+  - [Move — CsMeetingRoom](https://technet.microsoft.com/library/JJ204889(v=OCS.15))
 
-  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204831(v=OCS.15))
+  - [Set — CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsASConference](https://technet.microsoft.com/en-us/library/JJ205227(v=OCS.15))
+    [Test-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))
 
   - <span></span>  
-    [Test-CsAVConference](https://technet.microsoft.com/en-us/library/Gg412749(v=OCS.15))
+    [Test-Ксавконференце](https://technet.microsoft.com/library/Gg412749(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDataConference](https://technet.microsoft.com/en-us/library/JJ205219(v=OCS.15))
+    [Test-CsDataConference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+    [Test-Ксвебапп](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+    [Test-Ксвебаппанонимаус](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWebScheduler](https://technet.microsoft.com/en-us/library/JJ204829(v=OCS.15))
+    [Test-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))
 
 </div>
 

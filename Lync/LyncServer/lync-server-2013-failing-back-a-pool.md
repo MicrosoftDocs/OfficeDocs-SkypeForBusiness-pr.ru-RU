@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отработка отказа для пула'
+title: 'Lync Server 2013: отработка отказа пула'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5929ed5fc3d29c0a42c223403a78f83154c5bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-a-pool-in-lync-server-2013"></a>Отработка отказа для пула в Lync Server 2013
+# <a name="failing-back-a-pool-in-lync-server-2013"></a>Отработка отказа пула в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756183"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-После того как пул, в котором произошел сбой, перейдет в оперативный режим (то есть Pool1 в этом примере), выполните указанные ниже действия, чтобы восстановить состояние развертывания для обычного рабочего состояния.
+После возврата пула, в котором возникла аварийная ситуация, в режим работы (в данном примере это Pool1) выполните следующие действия для восстановления обычного рабочего состояния развертывания.
 
-Обратите внимание, что процесс восстановления после сбоя занимает несколько минут.Следует исходить из длительности 60 минут для пула, в котором работает 20 000 пользователей.
+Обратите внимание, что процедура отработки отказа занимает несколько минут. В качестве справки: отработка отказа для пула в 20000 пользователей занимает до 60 минут.
 
-1.  Не изменяйте пользователей, которые изначально были размещены в Pool1, и произошел сбой при переходе на Pool2, введя следующий командлет:
+1.  Восстановите размещение пользователей, которые изначально размещались в пуле Pool1 и были переключены на пул Pool2; для этого введите следующий командлет:
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-Никаких других действий не требуется. Если вы отошел сбой на центральном сервере управления, вы можете оставить его в Pool2.
+Другие действия не требуются. Если вы отработка отказа на центральном сервере управления, вы можете оставить ее в Pool2.
 
 </div>
 

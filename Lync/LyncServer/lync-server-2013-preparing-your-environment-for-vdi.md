@@ -12,20 +12,20 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57a3fb2563e287f24d49c23a468b4a44528707b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d1da845950ddd70502a1e59db980c423aedba7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747279"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>Подготовка среды Lync Server 2013 к VDI
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>Подготовка среды Lync Server 2013 для VDI
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747279"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Для подготовки среды для плагина Lync VDI администратор должен выполнить указанные ниже действия.
+Чтобы подготовить среду для подключаемого модуля Lync VDI, администратор должен выполнить указанные ниже действия.
 
-1.  В Lync Server 2013 убедитесь, что для Енаблемедиаредиректион установлено значение TRUE для всех пользователей VDI. Подробные сведения можно найти в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлету [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
+1.  В Lync Server 2013 убедитесь, что для EnableMediaRedirection задано значение TRUE для всех пользователей VDI. Дополнительные сведения можно найти в разделах справки для командлета [New – CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлета [Set – CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
 
 2.  На компьютере центра обработки данных установите клиент Lync 2013 на всех виртуальных машинах.
 
-3.  Установите плагин Lync VDI на локальных компьютерах.
+3.  На локальных компьютерах установите подключаемый модуль VDI для Lync.
 
 </div>
 

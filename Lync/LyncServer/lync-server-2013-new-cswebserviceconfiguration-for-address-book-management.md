@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: New-Ксвебсервицеконфигуратион для управления адресными книгами'
+title: 'Lync Server 2013: New – CsWebServiceConfiguration для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434c9a7c4ded9516cd930bbaa9bba72873b15a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccc4eafd9fd7db6173b14c17b44218c122ad01b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New-Ксвебсервицеконфигуратион для управления адресными книгами в Lync Server 2013
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New – CsWebServiceConfiguration для управления адресной книгой в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738779"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет New-Ксвебсервицеконфигуратион локально: Рткуниверсалсерверадминс. Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:
+По умолчанию право на локальный запуск командлета New-CsWebServiceConfiguration имеют члены группы RTCUniversalServerAdmins. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Windows PowerShell следующую команду.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsWebServiceConfiguration"}
 
-Командлет New-Ксвебсервицеконфигуратион определяет новую конфигурацию веб-служб в Организации. Область конфигурации веб-служб может находиться только на уровне сайта или службы. Создать новую конфигурацию веб-служб на глобальном уровне нельзя. В адресную книгу, в частности, интересует атрибут Енаблеграупексансион. Если установлено значение true, веб-службы могут отвечать на запросы на развертывание групп.
+Командлет New-CsWebServiceConfiguration задает новую конфигурацию для веб-служб в организации. Конфигурация веб-служб может задаваться только на уровне сайта или на уровне служб. Этот командлет не может создавать новую конфигурацию веб-служб на глобальном уровне. В частности, особый интерес для адресной книги представляет атрибут EnableGroupExansion. Если он имеет значение True, то веб-служба может отвечать на запросы для расширения группы.
 
 Например:
 
@@ -52,7 +52,7 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[New-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  
+[New — CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  
   
 
 </div>

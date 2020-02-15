@@ -12,16 +12,16 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3d6ee36e77a36e614019f4c29b563a4e7b25469
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,32 +35,32 @@ ms.locfileid: "41757263"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Сетевые сайты — это офисы или места, настроенные в каждом регионе управления допуском звонков (CAC) или Улучшенное развертывание 9-1-1. Вы можете просматривать сведения о сетевом сайте либо на панели управления Lync Server 2013, либо в командной консоли Lync Server Management Shell. Дополнительные сведения о создании и изменении сайтов сети можно найти [в разделе Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
+Сетевые узлы — это офисы или места, настроенные в каждой области развертывания контроля допуска звонков (CAC) или Enhanced 9-1-1. Сведения о сетевом сайте можно просматривать либо в панели управления Lync Server 2013, либо в командной консоли Lync Server. Дополнительные сведения о создании или изменении сетевых сайтов можно найти [в статье Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
 
 <div>
 
-## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>Просмотр сведений о сетевом сайте на панели управления Lync Server
+## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>Просмотр сведений о сетевом сайте в панели управления Lync Server
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.
+3.  На левой панели навигации щелкните **Конфигурация сети** и выберите **Сайт**.
 
-4.  На странице **сайта** выберите сайт, который вы хотите просмотреть.
+4.  На странице **Сайт** выберите сайт, который хотите просмотреть.
     
     <div>
     
 
     > [!NOTE]  
-    > Вы можете просматривать сведения только для одного сайта одновременно.
+    > Допускается одновременный просмотр данных только для одного сайта.
 
     
     </div>
 
-5.  В меню **Правка** щелкните **Подробнее**.
+5.  В меню **Правка** щелкните **Показать подробности**.
 
 </div>
 
@@ -68,17 +68,17 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о сетевом сайте с помощью командлетов Windows PowerShell
 
-Вы можете просматривать сведения о сетевом сайте с помощью Windows PowerShell и командлета Get-Кснетворксите. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Сведения о сетевом сайте можно просмотреть с помощью Windows PowerShell и командлета Get-CsNetworkSite. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
 ## <a name="to-view-network-site-information"></a>Просмотр сведений о сетевом сайте
 
-  - Чтобы просмотреть сведения о всех сетевых сайтах, введите в командной консоли Lync Server указанную ниже команду и нажмите клавишу ВВОД.
+  - Чтобы просмотреть сведения обо всех сетевых сайтах, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД:
     
         Get-CsNetworkSite
     
-    Команда возвращает примерно следующую информацию:
+    Это приведет к возврату приблизительно такой информации:
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -90,7 +90,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-кснетворксите](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
+Дополнительные сведения см. в разделе справки для командлета [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).
 
 </div>
 
@@ -99,7 +99,7 @@ _**Тема последнего изменения:** 2013-02-23_
 ## <a name="see-also"></a>См. также
 
 
-[Создание и изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)  
+[Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)  
 [Удаление существующего сетевого сайта в Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
   
 

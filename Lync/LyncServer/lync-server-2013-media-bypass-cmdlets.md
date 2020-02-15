@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты обхода мультимедиа'
+title: 'Lync Server 2013: командлеты обхода сервера мультимедиа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Командлеты для обхода мультимедиа в Lync Server 2013
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Командлеты обхода сервера мультимедиа в Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41761965"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-03-21_
+_**Последнее изменение темы:** 2012-03-21_
 
-Обойтись обозначает удаление сервера обновлений из пути к носителю, если это возможно, для звонков, сигнализация которых проходит на сервер обновлений.
+Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник.
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a>Командлеты для обхода мультимедиа
+## <a name="media-bypass-cmdlets"></a>Командлеты обхода сервера-посредника
 
-Используйте следующие командлеты для настройки обхода мультимедиа.
+Используйте следующие командлеты для настройки обхода сервера-посредника.
 
 **Обход сервера-посредника**
 
   - <span></span>  
-    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [New — Кснетворкмедиабипассконфигуратион](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Кснетворкконфигуратион](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Remove — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Set-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Set — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 
@@ -68,7 +68,7 @@ _**Тема последнего изменения:** 2012-03-21_
 ## <a name="see-also"></a>См. также
 
 
-[Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Планирование обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
 [Блог Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 

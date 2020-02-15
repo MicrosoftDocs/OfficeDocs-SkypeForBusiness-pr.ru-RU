@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: список таблиц соблюдения требований для сервера сохраняемого чата'
+title: 'Lync Server 2013: список таблиц соответствия сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c4f6e9622e839e2f1fd719b8e2d7ba95286247e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fab78f554c94e11c808eeb28929d6b4511c3a695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Список таблиц соблюдения требований для сервера сохраняемого чата в Lync Server 2013
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Список таблиц соответствия сервера сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765417"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Схема базы данных соответствия требованиям к сохраненным Чатам состоит из следующих таблиц.
+Схема базы данных соответствия сохраняемого чата состоит из следующих таблиц.
 
 <div>
 
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>Список таблиц соответствия требованиям сервера для работы с постоянной версией чата
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>Список таблиц соблюдения требований для сервера сохраняемого чата
 
 
 <table>
@@ -51,28 +51,28 @@ _**Тема последнего изменения:** 2012-10-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData в Lync Server 2013</a></p></td>
-<td><p>Содержит события соответствия требованиям, которые еще не были обработаны настроенным адаптером.</p>
-<p>В этой таблице содержатся сохраняемые события, связанные с чат, такие как сообщения чата и загружаемые файлы. (События участников отслеживаются таблицей ТблкомплианцепартиЦипант.)</p>
-<p>(Серверы, обработавшие события в этой таблице, перечислены в таблице Тблкомплианцефанаут).</p></td>
+<td><p>Содержит события соответствия, которые еще не были обработаны настроенным адаптером.</p>
+<p>В этой таблице содержатся события, связанные с сохраняемым разговором, такие как сообщения чата и загрузка файлов. (События, связанные с участниками, отслеживаются в таблице tblComplianceParticipant.)</p>
+<p>(Серверы, которые обработали события, содержащиеся в этой таблице, приводятся в таблице tblComplianceFanout.)</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout в Lync Server 2013</a></p></td>
-<td><p>Содержат серверы, которые обрабатывали событие соответствия требованиям. Эта таблица тесно связана с таблицей Тблкомплианцедата.</p></td>
+<td><p>Содержит серверы, обработавшие события соответствия. Эта таблица тесно связана с таблицей tblComplianceData.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant в Lync Server 2013</a></p></td>
-<td><p>Включает в себя текущих участников для каждой службы чата и для каждого сервера. Она поддерживается на основе событий присоединения и частей соответствия, полученных от службы сохраняемого чата.</p></td>
+<td><p><a href="lync-server-2013-tblcomplianceparticipant.md">ТблкомплианцепартиЦипант в Lync Server 2013</a></p></td>
+<td><p>Содержит сведения о текущих участниках по службам чата и серверам. Он поддерживается на основе событий присоединения и соответствия частей, полученных от службы сохраняемого чата.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState в Lync Server 2013</a></p></td>
-<td><p>Сведения о состоянии соответствия требованиям всего пула.</p></td>
+<td><p><a href="lync-server-2013-tblcompliancestate.md">Тблкомплианцестате в Lync Server 2013</a></p></td>
+<td><p>Содержит сведения о состоянии соответствия во всем пуле.</p></td>
 </tr>
 </tbody>
 </table>

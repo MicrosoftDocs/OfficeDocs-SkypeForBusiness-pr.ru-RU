@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: заполнение базы данных местоположений'
+title: 'Lync Server 2013: заполнение базы данных расположений'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747649"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Заполнение базы данных местоположений в Lync Server 2013
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Заполнение базы данных расположений в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41747649"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-17_
+_**Последнее изменение темы:** 2012-09-17_
 
 Чтобы автоматически определять расположение клиентов в сети, сначала требуется заполнить базу данных местоположений в *карте географических соответствий*, которая сопоставляет элементы сети с городскими адресами (например, улицей). Для определения карты географических соответствий вы можете использовать подсети, точки беспроводного доступа, коммутаторы и порты.
 
@@ -58,55 +58,55 @@ _**Тема последнего изменения:** 2012-09-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>Точка беспроводного доступа</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;&gt;,... по направлению</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Subnet</strong></p></td>
-<td><p>&lt;&gt;Подсеть&lt;,&gt;Описание&lt;,&gt;расположение&lt;,&gt;CompanyName&lt;,&gt;хаусенумбер&lt;,&gt;хаусенумберсуффикс&lt;, преднаправленный&gt;,...</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p><strong>Подсеть</strong></p></td>
+<td><p>&lt;&gt;Подсеть&lt;,&gt;Описание&lt;,&gt;расположение&lt;,&gt;название&lt;Организации&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс, преднаправленный&gt;,...</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Порт</strong></p></td>
-<td><p>&lt;Чассисид&gt;,&lt;портидсубтипе&gt;,&lt;Портид&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,...</p>
+<td><p><strong>Port</strong></p></td>
+<td><p>&lt;Чассисид&gt;,&lt;портидсубтипе&gt;,&lt;Портид&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,...</p>
 <p>... &lt;Преднаправленный&gt;,&lt;стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, город&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Коммутатор</strong></p></td>
-<td><p>&lt;Чассисид&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p><strong>Переключатель</strong></p></td>
+<td><p>&lt;Чассисид&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Если вы не заполняете базу данных расположений, и для параметра **Требуется местоположение** в политике местоположений задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
+Если вы не заполняете базу данных расположений, и для параметра **Location Required** (Требуется расположение) в политике расположения задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
 
-Сведения о том, как заполнять базу данных расположения, можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
+Для получения дополнительных сведений о заполнении базы данных расположений обратитесь к документации по консоли управления Lync Server для следующих командлетов:
 
-  - **Get-CsLisSubnet**
+  - **Get — Кслиссубнет**
 
-  - **Set-CsLisSubnet**
+  - **Set — Кслиссубнет**
 
-  - Remove-CsLisSubnet
+  - Remove — Кслиссубнет
 
-  - **Get-Кслисвирелессакцесспоинт**
+  - **Get — Кслисвирелессакцесспоинт**
 
-  - **Set-CsLisWirelessAccessPoint**
+  - **Set — Кслисвирелессакцесспоинт**
 
-  - **Remove-CsLisWirelessAccessPoint**
+  - **Remove — Кслисвирелессакцесспоинт**
 
-  - **Get-CsLisSwitch**
+  - **Get — Кслиссвитч**
 
-  - **Set-CsLisSwitch**
+  - **Set — Кслиссвитч**
 
-  - **Remove-CsLisSwitch**
+  - **Remove — Кслиссвитч**
 
-  - **Get-CsLisPort**
+  - **Get — Кслиспорт**
 
-  - **Set-Кслиспорт**
+  - **Set — Кслиспорт**
 
-  - **Remove-CsLisPort**
+  - **Remove — Кслиспорт**
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: процесс развертывания для парковки звонков'
+title: 'Lync Server 2013: процесс развертывания для парковки вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a00c354aa29a3c9a431b18a686105ab16d94c54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e896aa89fe6fadecab3d17689d92671ffe6966
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Процесс развертывания для парковки звонков в Lync Server 2013
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Процесс развертывания для парковки вызовов в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762647"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-25_
+_**Последнее изменение темы:** 2013-02-25_
 
-В этом разделе приводятся общие сведения о том, как развернуть приложение для парковки звонков. Перед настройкой приостановки звонка необходимо развернуть Enterprise Edition или Standard Edition с корпоративной голосовой связью. Компоненты, необходимые для парковки звонков, устанавливаются и включаются при развертывании корпоративной голосовой связи.
+В этом разделе представлен обзор действий, необходимых для развертывания приложения парковки вызовов. Перед настройкой парковки вызовов необходимо развернуть Enterprise Edition или Standard Edition с корпоративной голосовой связью. Компоненты, необходимые для парковки вызовов, устанавливаются и включаются при развертывании корпоративной голосовой связи.
 
 ### <a name="call-park-deployment-process"></a>Процесс развертывания парковки вызовов
 
@@ -59,7 +59,7 @@ _**Тема последнего изменения:** 2013-02-25_
 <tbody>
 <tr class="odd">
 <td><p>Настройка диапазонов орбит парковки вызовов в таблице орбит</p></td>
-<td><p>С помощью панели управления Lync Server или командлета <strong>New-кскаллпаркорбит</strong> создайте диапазоны на орбите в таблице с приостановкой на орбиту и свяжите их со службой приложения, на которой размещается приложение для приостановки звонков.</p>
+<td><p>С помощью панели управления Lync Server или командлета <strong>New – CSCallParkOrbit</strong> создайте Диапазоны орбит в таблице орбит парковки вызовов и свяжите их со службой приложения, в которой размещается приложение парковки вызовов.</p>
 <div>
 
 > [!NOTE]  
@@ -71,21 +71,21 @@ _**Тема последнего изменения:** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Создание или изменение диапазона орбиты на расстоянии вверх на сервере Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Настройка параметров парковки вызовов</p></td>
-<td><p>Используйте командлет <strong>Set-кскпсконфигуратион</strong> , чтобы настроить параметры парковки звонков. Рекомендуется настроить параметр <strong>онтимеаутури</strong> для настройки резервного назначения для использования по истечении времени ожидания звонка. Вы также можете настроить следующие параметры:</p>
+<td><p>Используйте командлет <strong>Set – CsCpsConfiguration</strong> для настройки параметров парковки вызовов. Рекомендуется настроить параметр <strong>OnTimeoutURI</strong> для настройки резервного назначения для использования при истечении времени ожидания приостановленного вызова. Кроме того, можно настроить следующие параметры:</p>
 <ul>
-<li><p><strong>EnableMusicOnHold</strong> для включения и выключения музыки при удержании вызова (необязательный параметр).</p></li>
-<li><p><strong>MaxCallPickupAttempts</strong> для определения количества ответных звонков для припаркованных вызовов в адрес отвечающего телефона перед переадресацией звонка на резервный URI (необязательный параметр).</p></li>
-<li><p><strong>CallPickupTimeoutThreshold</strong> для определения времени между парковкой вызова и вызовом телефонного номера, по которому на вызов был получен ответ (необязательный параметр).</p></li>
+<li><p><strong>EnableMusicOnHold</strong> для включения и выключения музыки при удержании вызова (необязательный параметр);</p></li>
+<li><p><strong>MaxCallPickupAttempts</strong> для определения количества ответных звонков припаркованным вызовом в адрес отвечающего телефона до переадресации звонка на резервный URI (необязательный параметр);</p></li>
+<li><p><strong>CallPickupTimeoutThreshold</strong> для определения времени между парковкой вызова и вызовом телефонного номера, по которому на вызов был получен ответ (необязательный параметр);</p></li>
 </ul></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-park-settings.md">Настройка параметров парковки звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-park-settings.md">Настройка параметров парковки вызовов в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Можно настроить музыку при удержании (необязательно)</p></td>
@@ -94,15 +94,15 @@ _**Тема последнего изменения:** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">Настройка музыкального сопровождения для приема звонков на удержании в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-customize-call-park-music-on-hold.md">Настройка музыки парковки вызовов на удержании в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Настройка политики голосовой связи для поддержки приостановки звонков для пользователей</p></td>
-<td><p>С помощью панели управления Lync Server или командлета <strong>Set-ксвоицеполици</strong> с параметром <strong>енаблекаллпарк</strong> , чтобы включить приостановку звонков для пользователей в политике голосовой связи.</p>
+<td><p>Настройка политики голосовой связи для включения парковки вызовов для пользователей</p></td>
+<td><p>Используйте панель управления Lync Server или командлет <strong>Set – CSVoicePolicy</strong> с параметром <strong>enablecallpark задано</strong> , чтобы включить приостановку вызовов для пользователей в политике голосовой связи.</p>
 <div>
 
 > [!NOTE]  
-> По умолчанию приостановление звонков для всех пользователей отключено.
+> По умолчанию парковки вызовов отключен для всех пользователей.
 
 
 </div>
@@ -117,7 +117,7 @@ _**Тема последнего изменения:** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-enable-call-park-for-users.md">Включение приостановки звонков для пользователей в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-call-park-for-users.md">Включение парковки вызовов для пользователей в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Проверка правил нормализации для парковки вызовов</p></td>
@@ -126,13 +126,13 @@ _**Тема последнего изменения:** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Проверка правил нормализации для парковки звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-verify-normalization-rules-for-call-park.md">Проверка правил нормализации для парковки вызовов в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Проверка развертывания для остановки звонка</p></td>
-<td><p>Проверьте парковку и извлечение вызовов, чтобы убедиться в том, что конфигурация работает корректно.</p></td>
+<td><p>Проверка развертывания парковки вызовов</p></td>
+<td><p>Проверка парковки и получение вызовов убедитесь, что конфигурация работает должным образом.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">Необязательно Проверка развертывания парковки звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-call-park-deployment.md">Необязательно Проверка развертывания парковки вызовов в Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

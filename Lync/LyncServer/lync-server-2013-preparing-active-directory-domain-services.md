@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: подготовка доменных служб Active Directory'
+title: 'Lync Server 2013: Подготовка доменных служб Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da033b8b7589b5257a73d77f3cd618236a2e4747
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8ba47445194f4b7d4c02966404c03ee981e1c76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724989"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724989"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Перед развертыванием и эксплуатацией Lync Server 2013 необходимо подготовить доменные службы Active Directory, расширив схему, а затем создав и настроив объекты. Расширения схемы добавляют классы и атрибуты Active Directory, необходимые для Lync Server.
+Перед развертыванием и эксплуатацией Lync Server 2013 необходимо подготовить доменные службы Active Directory, расширив схему, а затем создав и настроив объекты. Расширения схемы добавляют классы и атрибуты Active Directory, необходимые серверу Lync Server.
 
-В этом разделе описывается подготовка доменных служб Active Directory для развертывания Lync Server и назначение разрешений на настройку и разрешения организационных подразделений (OU). Дополнительные сведения об изменениях схемы, необходимых для Lync Server, можно найти в разделе [расширения схемы Active Directory, классы и атрибуты, используемые в Lync server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).
+В подразделах этого раздела описывается подготовка AD DS для развертывания Lync Server и назначение разрешений на установку и подразделение. Сведения об изменениях схемы, необходимых для Lync Server, приведены в статье [расширения схемы Active Directory, классы и атрибуты, используемые в Lync server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).
 
 <div>
 

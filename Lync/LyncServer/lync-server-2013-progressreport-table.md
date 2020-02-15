@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица ProgressReport'
+title: 'Lync Server 2013: таблица таблица progressreport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e1cb7c8e764097af96981220ee74d481b379341
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1aae907981e04d8966bb7eac4229232056d1004e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724819"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Таблица ProgressReport в Lync Server 2013
+# <a name="progressreport-table-in-lync-server-2013"></a>Таблица Таблица progressreport в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724819"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Отчеты о состоянии основываются на данных, отправленных клиентом в базу данных после завершения вызова или сеанса. Отчеты о ходе выполнения будут записываться только для звонков и сеансов, которые определяет Lync Server 2013, может быть полезен в целях диагностики.
+Отчеты о ходе выполнения строятся на основе данных, отправляемых клиентом в базу данных после завершения вызова или сеанса. Отчеты о ходе выполнения записываются только для тех звонков и сеансов, которые Lync Server 2013 определяет как полезные для диагностических целей.
 
-Поля Еррортиме, Ерроррепортсек и Прогрессрепортсек не обязательно ссылаются на ошибки, а также на сообщения, указывающие на состояние вызовов или сообщений.
+Поля ErrorTime, ErrorReportSeq и ProgressReportSeq могут относиться не к ошибкам, а к сообщениям, указывающим состояние вызовов или сообщений.
 
 
 <table>
@@ -53,74 +53,74 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>еррортиме</strong></p></td>
+<td><p><strong>Поля errortime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
-<td><p>Дата и время отчета об ошибках хода выполнения, который включает этот отчет о ходе выполнения. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-errorreport-table.md">таблицей ерроррепорт в Lync Server 2013</a> .</p></td>
+<td><p>Дата и время отчета об ошибках хода выполнения, который содержит этот отчет о ходе выполнения. Дополнительные сведения см. <a href="lync-server-2013-errorreport-table.md">в таблице errorreport в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>еррорид</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер, используемый в сочетании с Еррортиме, Прогрессрепортсек для уникальной идентификации отчета о ходе выполнения. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-errorreport-table.md">таблицей ерроррепорт в Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Основной, Внешний</p></td>
+<td><p>Идентификатор, используемый вместе с ErrorTime и ProgressReportSeq для однозначного определения отчета о ходе выполнения. Дополнительные сведения см. <a href="lync-server-2013-errorreport-table.md">в таблице errorreport в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ерроррепортсек</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер, идентифицирующий отчет об ошибке. Ерроррепорсек используется в сочетании с Еррортиме для уникальной идентификации отчета об ошибке. Дополнительные сведения приведены <a href="lync-server-2013-errorreport-table.md">в таблице ерроррепорт в Lync Server 2013</a></p>
+<td><p><strong>ErrorReportSeq</strong></p></td>
+<td><p>int</p></td>
+<td><p>Первичный, внешний</p></td>
+<td><p>Идентификатор отчета об ошибках. ErrorReporSeq используется вместе с ErrorTime для однозначного определения отчета об ошибках. Дополнительные сведения см. <a href="lync-server-2013-errorreport-table.md">в таблице errorreport в Lync Server 2013</a></p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>прогрессрепортсек</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации отчета о ходе выполнения. Используется совместно с Еррортиме и Ерроррепортсек для уникальной идентификации отчета о ходе выполнения.</p></td>
+<td><p>Идентификатор отчета о ходе выполнения. Используется вместе с ErrorTime и ErrorReportSeq для однозначного определения отчета о ходе выполнения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>мсдиагид</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Идентификатор диагностики отчета о ходе выполнения.</p>
+<td><p>Диагностический идентификатор отчета о ходе выполнения.</p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Источника</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Сервер, отправивший отчет об ошибке (при отправке отчета из серверного компонента). Более подробную информацию вы видите <a href="lync-server-2013-servers-table.md">в таблице Servers (серверы) в Lync Server 2013</a> . Это поле было введено в Microsoft Lync Server 2013.</p></td>
+<td><p><strong>SourceId</strong></p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Сервер, который отправил отчет об ошибках (если отчет был отправлен из серверного компонента). Дополнительные сведения см. <a href="lync-server-2013-servers-table.md">в таблице Servers в Lync Server 2013</a> . Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Процесс Lync Server, к которому относится отчет. Для получения дополнительных сведений ознакомьтесь с таблицей Application.</p></td>
+<td><p>Процесс Lync Server, к которому относится отчет. Дополнительные сведения см. в таблице приложений.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Подробности</strong></p></td>
+<td><p><strong>Detail</strong></p></td>
 <td><p>изображение</p></td>
 <td></td>
-<td><p>Сведения о отчете о состоянии, сохраняемые в двоичном формате для экономии места. Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:</p>
-<p>Cast (CAST (данные в формате varbinary (max)) AS varchar (max))</p></td>
+<td><p>Сведения о выполнении сохраняются в двоичном формате для экономии места. Эти данные можно преобразовать в текстовый формат с помощью следующего синтаксиса:</p>
+<p>cast(cast(Detail as varbinary(max)) as varchar(max))</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>телеметрид</strong></p></td>
 <td><p>Идентификатора</p></td>
 <td></td>
-<td><p>Уникальный идентификатор, который соответствует сведениям о времени соединения для различных компонентов, участвующих в Конференции.</p>
+<td><p>Уникальный идентификатор, который сопоставляет сведения о времени присоединения для разных компонентов, вовлеченных в конференцию.</p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>сессионсетуптиме</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Время (в миллисекундах), в течение которого конкретный компонент присоединяется к Конференции.</p>
+<td><p>Время (в миллисекундах) для присоединения к конференции конкретного компонента.</p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>

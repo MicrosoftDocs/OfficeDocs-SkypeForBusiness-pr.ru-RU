@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование архивации'
+title: 'Lync Server 2013: Планирование архивации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1bd882fa889589a260e2327ff27fb80fe30937c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755139"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755139"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-К корпорациям и другим организациям применяется все больше отраслевых и государственных нормативов, требующих сохранения определенного типа коммуникаций. Если в вашей организации есть такие требования, вы можете использовать архивацию в Lync Server 2013 для архивации обмена мгновенными сообщениями и конференц-связи (собраний), отправленных с помощью Lync Server, чтобы обеспечить поддержку некоторых требований к соответствию требованиям.
+К корпорациям и другим организациям применяется все больше отраслевых и государственных нормативов, требующих сохранения определенного типа коммуникаций. Если в организации имеются такие требования, вы можете использовать архивацию в Lync Server 2013 для архивации обмена мгновенными сообщениями и обмена мгновенными сообщениями, отправляемых с помощью Lync Server, чтобы обеспечить поддержку некоторых требований соответствия требованиям.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-09-28_
 
   - [Обзор архивации в Lync Server 2013](lync-server-2013-overview-of-archiving.md)
 
-  - [Как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md)
+  - [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md)
 
   - [Определение требований к архивации в Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md)
 

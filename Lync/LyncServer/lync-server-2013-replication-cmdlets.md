@@ -12,16 +12,16 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25a9de5a754545aa49c4a7d9dda6b8378f448eab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,52 +35,52 @@ ms.locfileid: "41724239"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-09_
+_**Последнее изменение темы:** 2012-10-09_
 
-Командлеты репликации предоставляют способ наблюдения и управления репликацией Lync Server. Вы можете использовать эти командлеты для настройки параметров репликации; для наблюдения за ходом выполнения репликации; и для принудительной ручной репликации на сервере.
+Командлеты репликации предоставляют способ для мониторинга и управления репликацией Lync Server. Вы можете использовать их для настройки параметров репликации, для отслеживания хода ее выполнения, а также для того, чтобы вручную принудительно выполнить репликацию на сервер.
 
 <div>
 
 ## <a name="replication-cmdlets"></a>Командлеты репликации
 
-Ниже приведен список командлетов, которые непосредственно связаны с управлением репликацией.
+Ниже приведен список командлетов, которые относятся непосредственно к репликации:
 
-**Повторен**
+**Репликация**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [Debug — Ксинтерпулрепликатион](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke — CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Ксманажементсторерепликатионстатус](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get — CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-Ксреплика](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable — CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [New — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Remove — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Set — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
 </div>
 

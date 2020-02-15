@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: возврат сведений о конфигурации пограничного сервера/V'
+title: 'Lync Server 2013: возврат сведений о конфигурации пограничного сервера аудио-и видеоданных'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea7d7ed1ef74c092dac60ecfb2f009219564455
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d301febef9454a6f43362c245324b019aa60ea1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733079"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Возврат сведений о конфигурации пограничного сервера в Lync Server 2013
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>Возврат сведений о конфигурации пограничного сервера аудио-и видеоданных в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733079"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Служба "A/V Edge" обеспечивает способ предоставления внутренних пользователей (пользователей, вошедших в вашу организационную сеть) для совместного использования звуковых и видеофайлов с внешними пользователями (пользователям, которые не вошли в свою организационную сеть). Служба EDGE (A/V) главным образом управляется с помощью параметров конфигурации краев/V, параметров, которые можно настроить в области сайта или в области службы (то есть можно настроить для отдельного пограничного сервера A/V).
+Пограничная служба аудио- и видеоконференций предоставляет способ для внутренних пользователей (пользователей, выполнивших вход в сеть организации) использовать звук и видео совместно с внешними пользователями (пользователями, не выполнившими вход в сеть организации). Пограничная служба аудио- и видеоконференций в основном управляется посредством использования параметров конфигурации пограничной аудио- и видеосвязи, настройка которой может быть выполнена на уровне сайта или службы (т. е. может быть настроена для дополнительного пограничного сервера аудио- и видеоданных).
 
-Чтобы получить сведения о параметрах конфигурации краев, используемых в вашей организации, необходимо использовать Windows PowerShell и командлет Get-Ксаведжеконфигуратион. Дополнительные сведения можно найти в разделе справки по командлету [Get-ксаведжеконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
+Чтобы получить сведения о параметрах конфигурации пограничного сервера аудио-и видеосвязи, используемых в Организации, необходимо использовать Windows PowerShell и командлет Get-CsAVEdgeConfiguration. Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Get – CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
 
-Данные, возвращаемые командлетом Get-Ксаведжеконфигуратион, будут выглядеть примерно так:
+Сведения, возвращаемые командлетом Get-CsAVEdgeConfiguration, выглядят следующим образом.
 
     Identity              : Global
     MaxTokenLifetime      : 08:00:00
@@ -50,9 +50,9 @@ _**Тема последнего изменения:** 2012-11-01_
 
 <div>
 
-## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>Получение сведений о всех параметрах конфигурации Edge
+## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>Возврат сведений о всех параметрах конфигурации пограничного сервера аудио-и видеоданных
 
-  - Следующая команда возвращает сведения обо всех параметрах, которые используются в вашей организации в качестве параметров конфигурации Edge для/V.
+  - Следующая команда возвращает сведения о всех параметрах конфигурации пограничной службы обработки аудио- и видеоданных, используемых в организации.
     
         Get-CsAVEdgeConfiguration
 
@@ -60,9 +60,9 @@ _**Тема последнего изменения:** 2012-11-01_
 
 <div>
 
-## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>Возврат сведений о параметрах конфигурации сайта в качестве границы области
+## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>Возврат сведений о параметрах конфигурации пограничного сервера аудио-и видеоданных на уровне сайта
 
-  - Чтобы получить сведения о конкретной коллекции параметров конфигурации краев/V, укажите удостоверение этой коллекции при запуске командлета Get-Ксаведжеконфигуратион. Например, эта команда возвращает сведения только о параметрах, примененных к сайту Redmond.
+  - Чтобы получить сведения об определенном наборе параметров конфигурации для пограничной службы обработки аудио- и видеоданных, укажите идентификатор этого набора при выполнении командлета Get-CsAVEdgeConfiguration. Например, следующая команда возвращает сведения только о тех параметрах, которые применяются к сайту Redmond.
     
         Get-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -70,9 +70,9 @@ _**Тема последнего изменения:** 2012-11-01_
 
 <div>
 
-## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>Возврат сведений о параметрах конфигурации краев, заданных в пределах службы
+## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>Возврат сведений о параметрах конфигурации пограничного сервера аудио-и видеоданных на уровне службы
 
-  - Эта команда возвращает данные только для параметров, примененных к конкретному пограничному серверу/V.
+  - Эта команда возвращает сведения только о тех параметрах, которые применяются к определенному пограничному серверу аудио- и видеоданных.
     
         Get-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
@@ -83,11 +83,11 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Создание и изменение коллекции параметров конфигурации пограничного сервера в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
-[Удаление существующей коллекции параметров конфигурации пограничного сервера в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+[Создание или изменение коллекции параметров конфигурации пограничного сервера аудио-и видеоданных в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+[Удаление существующей коллекции параметров конфигурации пограничного сервера аудио-и видеоданных в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
-[Пограничные серверы для аудио-и видеоустройств (A/V) в Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[Пограничные серверы аудио/видео (A/V) в Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
   
 
 </div>

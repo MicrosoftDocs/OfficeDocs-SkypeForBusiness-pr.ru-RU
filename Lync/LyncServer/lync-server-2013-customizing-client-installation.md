@@ -12,16 +12,16 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9491e48d107d01f86d18e8154331ef3ae7e478
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8302ca11a39dd823a5167924628a090c2de4632
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728729"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41728729"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-Администраторы предприятий могут настроить установку Office 2013 на базе установщика Windows (MSI-файла) с помощью описанных в этом разделе способов. Так как ни один из средств не предоставляет никаких вариантов настройки, скорее всего, вы будете использовать сочетание этих методов в развертывании Lync 2013. Как минимум, вы можете использовать инструменты, описанные в следующих разделах:
+Корпоративные администраторы могут настраивать установку Office 2013 на основе установщика Windows (MSI) с помощью методов, описанных в этом разделе. Так как ни одно средство не предоставляет все параметры настройки, скорее всего, вы будете использовать сочетание этих методов в развертывании Lync 2013. По меньшей мере, при развертывании могут пригодиться средства, перечисленные в следующих разделах.
 
-  - [С помощью средства развертывания Office (OCT) в Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) вы можете настроить параметры и функции настройки для Lync и других программ Office.
+  - [С помощью центра развертывания Office (OCT) в Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) вы можете настроить параметры установки и функции для Lync и других программ Office.
 
-  - [С помощью файла config. XML для выполнения задач установки в Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) можно указать путь к точке сетевой установки и выполнить автоматическую установку.
+  - [Использование файла config. XML для выполнения задач установки в Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) для указания пути к точке сетевой установки и выполнения автоматической установки.
 
-  - [Использование параметров командной строки программы установки в Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) для указания файла config. XML для использования во время установки.
+  - [Использование параметров командной строки программы установки в Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) для указания файла config. XML, который будет использоваться во время установки.
 
-  - [Настройка политик начальной настройки клиента в Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) с помощью оснастки MMC "Редактор объектов групповой политики".
+  - [Настройка политик начальной загрузки клиентов в Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) с помощью оснастки MMC "Редактор объектов групповой политики".
 
-Скорее всего, будут другие параметры, которые нужно будет настроить при развертывании пакета продуктов Office. В этом разделе представлены общие сведения о средствах настройки и обсуждаются вопросы, связанные с Lync. Здесь предоставляются ссылки на подробную справку Office по каждому средству.
+Скорее всего, будут другие параметры, которые нужно будет настроить при развертывании пакета продуктов Office. В этом разделе дан обзор средств настройки с обсуждением аспектов, которые следует учитывать при развертывании Lync. Здесь предоставляются ссылки на подробную справку Office по каждому средству.
 
 </div>
 

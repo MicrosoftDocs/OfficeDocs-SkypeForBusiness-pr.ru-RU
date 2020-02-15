@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление архивированием'
+title: 'Lync Server 2013: Управление архивацией'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738869"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738869"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-10_
+_**Последнее изменение темы:** 2012-10-10_
 
-При развертывании архивации для организации вы указываете начальную конфигурацию во время развертывания. Тем не менее иногда требуется изменить способ реализации поддержки архивации для повседневного управления или для соблюдения новых требований в Организации. Например, может потребоваться настройка поддержки архивации по-разному для определенного сайта, пула или пользователей в Организации. Для пользователей, размещенных на Lync Server 2013, необходимо создать и настроить политики архивации и конфигурации. Если вы используете Microsoft Exchange Integration, необходимо также настроить параметры Exchange 2013. В этом разделе приведены сведения и процедуры, которые позволят вам вносить изменения в развертывание архивирования.
+При развертывании архивации для организации указывается исходная конфигурация во время развертывания. Однако могут быть ситуации, в которых потребуется изменить реализацию поддержки архивации для ежедневного управления или для удовлетворения новых требований организации. Например, может потребоваться по-другому настроить поддержку архивации для определенного сайта, пула или пользователей в организации. Для пользователей, размещенных на Lync Server 2013, это необходимо для создания и настройки политик и конфигураций архивации. Если вы используете интеграцию с Microsoft Exchange, также необходимо настроить параметры Exchange 2013. В этом разделе предоставляются сведения и процедуры, позволяющие изменять развертывание архивации.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md)
+  - [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Управление архивированием внутренней и внешней связи в Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
   - [Управление параметрами конфигурации архивации в Lync Server 2013 для Организации, сайтов и пулов](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 

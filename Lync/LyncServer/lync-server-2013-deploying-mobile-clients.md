@@ -12,16 +12,16 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,20 +35,20 @@ ms.locfileid: "41757633"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-19_
+_**Последнее изменение темы:** 2013-02-19_
 
-Приложения Lync 2013 для мобильных клиентов обеспечивают обмен мгновенными сообщениями, расширенные возможности присутствия и телефонию для пользователей в вашей организации, которые подключаются с смартфона или телефона, на котором работает профессиональный выпуск Windows Mobile. Вы можете подать пользователям возможность установить Lync 2013, направив их на рынок приложений на мобильном телефоне.
+Приложения Lync 2013 для мобильных клиентов предоставляют обмен мгновенными сообщениями, расширенные сведения о присутствии и телефонию для пользователей в вашей организации, которые подключаются с смартфона или телефона, на котором работает профессиональный выпуск Windows Mobile. Вы можете поручить пользователям устанавливать Lync 2013, направляя их на рынок приложений для мобильного телефона.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 также поддерживает Lync 2010 для мобильных клиентов. Подробные сведения можно найти в следующих статьях в библиотеке TechNet Server 2010: 
+> Lync Server 2013 также поддерживает Lync 2010 для мобильных клиентов. Дополнительные сведения можно найти в следующих статьях в библиотеке TechNet для Lync Server 2010: 
 > <UL>
 > <LI>
 > <P>"Планирование для мобильных клиентов" в <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
 > <LI>
-> <P>"Развертывание мобильных клиентов" на <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</P></LI></UL>
+> <P>"Развертывание мобильных клиентов" на <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>сайте.</P></LI></UL>
 
 
 

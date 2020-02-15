@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица UserSite'
+title: 'Lync Server 2013: таблица таблица usersite'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744269"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="usersite-table-in-lync-server-2013"></a>Таблица UserSite в Lync Server 2013
+# <a name="usersite-table-in-lync-server-2013"></a>Таблица Таблица usersite в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744269"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-09_
+_**Последнее изменение темы:** 2010-11-09_
 
-Таблица Усерсите является вспомогательной таблицей. Каждая запись соответствует одному сайту пользователя, определенному в параметрах конфигурации сети.
+Таблица Таблица usersite является вспомогательной таблицей. Каждая запись представляет один сайт пользователя, определенный в параметрах конфигурации сети.
 
 
 <table>
@@ -49,30 +49,30 @@ _**Тема последнего изменения:** 2010-11-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>усерситекэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий сайт пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>усерситенаме</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Повторя</p></td>
+<td><p>Уникальные</p></td>
 <td><p>Имя сайта пользователя.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>регионкэй</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Ссылка на из <a href="lync-server-2013-region-table.md">таблицы Region в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Ссылка из <a href="lync-server-2013-region-table.md">таблицы Region в Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

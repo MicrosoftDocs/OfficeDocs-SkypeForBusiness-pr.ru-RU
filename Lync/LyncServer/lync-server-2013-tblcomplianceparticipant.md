@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblComplianceParticipant'
+title: 'Lync Server 2013: ТблкомплианцепартиЦипант'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4d5a0024c273dbef8fee16f1fb4b3372692ab4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731559"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>tblComplianceParticipant в Lync Server 2013
+# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>ТблкомплианцепартиЦипант в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731559"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-ТблкомплианцепартиЦипант включает текущих участников на канал и на сервер.
+Таблица ComplianceParticipant содержит текущих участников по каналам или по серверам.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,45 +57,45 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>чаннелури</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
-<td><p>Универсальный код ресурса (URI) канала.</p></td>
+<td><p>nvarchar (255), not null</p></td>
+<td><p>Универсальный код ресурса (URI) для канала.</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатора пользователя</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника (соответствующий таблице ТблпринЦипал. Принид).</p></td>
+<td><p>userId</p></td>
+<td><p>int, not null</p></td>
+<td><p>Идентификатор участника (в соответствии с таблицей tblPrincipal.prinID).</p></td>
 </tr>
 <tr class="odd">
 <td><p>жоинедат</p></td>
-<td><p>bigint, NOT NULL</p></td>
-<td><p>Метка времени присоединения к событию.</p></td>
+<td><p>bigint, not null</p></td>
+<td><p>Метка времени события присоединения.</p></td>
 </tr>
 <tr class="even">
 <td><p>партедат</p></td>
-<td><p>bigint</p></td>
-<td><p>NULL, если участник все еще присоединен. Метка времени события выхода канала, если значение не равно null.</p>
-<p>Эти записи в конечном итоге удаляются, когда все переводчики обрабатывают событие.</p></td>
+<td><p>типу</p></td>
+<td><p>Null, если участник еще присоединен.Если не null, то метка времени события выхода из канала.</p>
+<p>Эти записи в конечном итоге удаляются, когда все переводчики обработают событие.</p></td>
 </tr>
 <tr class="odd">
-<td><p>усерури</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
+<td><p>userUri</p></td>
+<td><p>nvarchar(255), not null</p></td>
 <td><p>URI пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p>серверид</p></td>
-<td><p>целое</p></td>
-<td><p>Идентификация сервера (как в таблице Тблсерверидентити. Серверид).</p></td>
+<td><p>serverID</p></td>
+<td><p>int</p></td>
+<td><p>Удостоверение сервера (в соответствии с таблицей tblServerIdentity.serverID).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Идентификатор</p></td>
-<td><p>bigint</p></td>
-<td><p>Сеанс сервера. Это случайное число, которое генерируется каждый раз, когда запускается служба чата. Она используется для различения сеансов в целях идентификации потерянных участников.</p></td>
+<td><p>sessionId</p></td>
+<td><p>типу</p></td>
+<td><p>Сеанс сервера. Это произвольный номер, который создается каждый раз при запуске службы чата. Он используется, чтобы различать сеансы в целях идентификации потерянных участников.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

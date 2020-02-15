@@ -12,16 +12,16 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eaab70f2f6d651d6446aaa4a569277494b7a9ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e978e28ea2c9d64a842c40237f1e5943c30d0a41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738747"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,51 +35,51 @@ ms.locfileid: "41738747"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-20_
+_**Последнее изменение темы:** 2014-05-20_
 
-Общие конфигурации пограничного сервера следует проверять на основе данных в базе данных управления конфигурацией, чтобы гарантировать, что все изменения будут документированы в соответствии с определенными процедурами управления изменениями.
+Общие конфигурации пограничных серверов следует проверить на соответствие данным в базе данных управления конфигурацией, чтобы обеспечить документирование всех изменений в соответствии с определенными процедурами управления изменениями.
 
-Дополнительные проверки могут включать в себя те, которые описаны в следующих разделах:
+Дополнительные проверки могут включать в себя те, что описаны в следующих разделах:
 
 <div>
 
-## <a name="verify-the-allow-and-block-lists"></a>Проверка списка разрешенных и заблокированных списков
+## <a name="verify-the-allow-and-block-lists"></a>Проверка списков разрешенных и заблокированных списков
 
-Убедитесь, что указанные пространства имен по-прежнему являются допустимыми списками URI SIP "Allow" и "Block" для федеративных доменов.
+Проверьте списки URI SIP "Allow" и "Block" для федеративных доменов, чтобы определить, являются ли указанные пространства имен действительными.
 
-Вы можете использовать Windows PowerShell для просмотра списка разрешенных и заблокированных списков. Чтобы просмотреть домены в списке разрешенные домены, выполните следующую команду Windows PowerShell:
+Вы можете использовать Windows PowerShell для просмотра разрешенных и заблокированных списков. Чтобы просмотреть домены в списке разрешенных доменов, выполните следующую команду Windows PowerShell:
 
 `Get-CsAllowedDomain`
 
-Эта команда возвращает сведения о доменах в списке разрешенные домены, как показано ниже.
+Эта команда возвращает сведения, аналогичные приведенным ниже, для доменов в списке разрешенных доменов:
 
 Identity: contoso.com
 
-Domain (домен): contoso.com
+Домен: contoso.com
 
-Проксифкдн:
+ProxyFqdn
 
-Примечания
+Комментарий
 
 Маркформониторинг: false
 
-Примечания
+Комментарий
 
-Чтобы просмотреть домены в списке блокируемых доменов, используйте следующую команду:
+Чтобы просмотреть домены в списке блокируемых доменов, выполните следующую команду:
 
 `Get-CsBlockedDomain`
 
-В свою очередь, вы получите такие сведения, как, например, для всех блокируемых доменов.
+В свою очередь вы получите такие сведения, как, например, для каждого заблокированного домена:
 
 Identity: tailspintoys.com
 
-Domain (домен): tailspintoys.com
+Домен: tailspintoys.com
 
-Кроме того, Windows PowerShell позволяет убедиться, что вы можете подключиться к доменам в списке разрешенные домены. Например, эта команда проверяет соединение между пограничным сервером (Таржетфкдн) и федеративным доменом contoso.com:
+Кроме того, Windows PowerShell позволяет убедиться, что вы можете подключиться к доменам в списке разрешенных доменов. Например, эта команда проверяет подключение между пограничным сервером (TargetFqdn) и contoso.com федеративного домена:
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-Эта команда проверяет подключение между пограничным сервером и всеми доменами, которые находятся в списке разрешенных доменов:
+Эта команда проверяет подключение между пограничным сервером и всеми доменами, найденными в списке разрешенных доменов:
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
@@ -89,9 +89,9 @@ Domain (домен): tailspintoys.com
 
 ## <a name="verify-multiple-edge-servers-are-identical"></a>Проверка того, что несколько пограничных серверов идентичны
 
-Если в массиве с балансировкой нагрузки развернут несколько пограничных серверов, мы рекомендуем проверить, настроены ли все пограничные серверы в массиве одинаковым образом.
+Если в массиве с балансировкой нагрузки развернуты несколько пограничных серверов, рекомендуется проверить, что все пограничные серверы в массиве настроены одинаковым образом.
 
-Параметры для пограничных серверов можно просмотреть в области сведений в расширении Lync Server 2013 для оснастки управления компьютером.
+Параметры для пограничных серверов можно просмотреть в области сведений расширения Lync Server 2013 для оснастки "Управление компьютером".
 
 </div>
 
@@ -100,8 +100,8 @@ Domain (домен): tailspintoys.com
 ## <a name="see-also"></a>См. также
 
 
-[Get-Ксалловеддомаин](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
-[Get-CsBlockedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[Get — CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[Get — CsBlockedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
 [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
   
 

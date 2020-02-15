@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка абонентских групп'
+title: 'Lync Server 2013: Настройка абонентских планов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b49bc53a02f9b3a5beb4458dcebaa9aa6398823a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcd19d3f0ae11b38afd6d95fc443683963185075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758133"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a>Настройка абонентских групп в Lync Server 2013
+# <a name="configuring-dial-plans-in-lync-server-2013"></a>Настройка абонентских планов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758133"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Телефонная группа Lync Server 2013 — это именованный набор правил нормализации, который преобразует номера телефонов для именованного расположения, отдельного пользователя или объекта Contact для целей авторизации и маршрутизации звонков.
+Абонентская группа Lync Server 2013 — это именованный набор правил нормализации, которые преобразуют номера телефонов для именованного расположения, отдельного пользователя или контактного объекта для маршрутизации звонков и маршрутизации вызовов.
 
 <div>
 
 
 > [!NOTE]  
-> Дополнительные сведения можно найти <A href="lync-server-2013-dial-plans-and-normalization-rules.md">в разделе планы набора номера и правила нормализации в Lync Server 2013</A> в документации по планированию.
+> Дополнительные сведения: <A href="lync-server-2013-dial-plans-and-normalization-rules.md">абонентские группы и правила нормализации в Lync Server 2013</A> в документации по планированию.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Требования к конференц-связи Lync Server 2013 A/V
+title: Требования к конференц-связи по аудио-и видеоконференциям Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c9d9c272a0646395a907976056e460cf8fd84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05424f079d729ad7f6e8b995ee64dfcde8d73d70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730491"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="av-conferencing-requirements-in-lync-server-2013"></a>Требования к Конференции в Lync Server 2013 и т. д.
+# <a name="av-conferencing-requirements-in-lync-server-2013"></a>Требования к аудио-и видеоконференциям в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730491"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-30_
+_**Последнее изменение темы:** 2012-09-30_
 
-Требования к инфраструктуре Lync Server 2013 для конференц-связи такие же, как и для развертывания Lync Server 2013. Подробности можно найти в разделе [Определение требований инфраструктуры для Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) в документации по планированию.
+Требования к инфраструктуре Lync Server 2013 для конференц-связи одинаковы для развертывания Lync Server 2013. Дополнительные сведения приведены в статье [Определение требований к инфраструктуре для Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) в документации по планированию.
 
-Важно, чтобы для обработки мультимедийного трафика, созданного с помощью конференций, имелась требуемая пропускная способность мультимедиа. Дополнительные сведения, которые можно использовать для вычисления необходимой пропускной способности, читайте [в разделе Требования к пропускной способности сети для мультимедийного трафика в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md). Подробнее о том, как ограничить пропускную способность, можно найти [в разделе Создание и изменение профилей политики пропускной способности в Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md). Сведения о требованиях к инфраструктуре описаны в разделе [требования к сетевой инфраструктуре для Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).
+Важно иметь достаточную пропускную способность для обработки медиатрафика, создаваемого конференц-связью. Дополнительные сведения, которые можно использовать для вычисления необходимой пропускной способности, приведены [в статье требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md). Подробнее об ограничении пропускной способности можно узнать [в статье Создание или изменение профилей политики пропускной способности в Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md). Сведения о требованиях к инфраструктуре приведены в статье [требования к инфраструктуре сети для Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).
 
-Для использования функций конференции Lync Server 2013 требует, чтобы были открыты определенные порты. Сведения о требованиях к портам приведены [в разделе порты и протоколы внутренних серверов в Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md). Подробнее о настройке портов можно узнать [в разделе Настройка диапазонов портов в Lync Server 2013 для конференций, приложений и серверов-исправлений](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).
+Чтобы использовать функции конференц-связи, Lync Server 2013 требует, чтобы были открыты определенные порты. Сведения о требованиях к портам приведены [в статье порты и протоколы для внутренних серверов в Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md). Подробнее о настройке портов можно узнать [в статье Настройка диапазонов портов в Lync Server 2013 для серверов конференц-связи, приложений и серверов-посредников](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Общие сведения о конференц-связи в Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)  
-[Контрольный список развертывания для конференций/V в Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)  
+[Обзор аудио-и видеоконференций в Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)  
+[Контрольный список развертывания для аудио-и видеоконференций в Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)  
   
 
 </div>

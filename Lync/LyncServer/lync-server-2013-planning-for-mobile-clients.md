@@ -12,20 +12,20 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99a2ab731efb872ceba608de2017aecb0574ec5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-mobile-clients-in-lync-server-2013"></a>Планирование мобильных клиентов в Lync Server 2013
+# <a name="planning-for-mobile-clients-in-lync-server-2013"></a>Планирование для мобильных клиентов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41725387"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-04-02_
+_**Последнее изменение темы:** 2013-04-02_
 
-Мобильные клиенты Lync 2013 обеспечивают расширенные возможности присутствия, обмена мгновенными сообщениями, собрания Lync, голосовые и видеозвонки через Интернет или сотовое соединение. Для матрицы со списком функций и возможностей мобильных клиентов, а также их сравнения с клиентским компьютером ознакомьтесь с [таблицей сравнения мобильных клиентов для Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
+Lync 2013 Mobile Clients обеспечивают расширенные возможности присутствия, обмена мгновенными сообщениями, собрания Lync, а также голосовых и видеовызовов через Интернет или мобильное подключение. Матрица, в которой перечисляются функции и возможности мобильных клиентов и сравниваются с клиентами для настольных ПК, приведено в [таблице сравнения мобильных клиентов для Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 также поддерживает мобильные клиенты Lync 2010. Дополнительные сведения можно найти в разделе "планирование для мобильных клиентов" в библиотеке TechNet Server 2010 для Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
+> Lync Server 2013 также поддерживает мобильные клиенты Lync 2010. Для получения дополнительных сведений обратитесь к разделу "планирование для мобильных клиентов" в библиотеке TechNet для Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>Server 2010 по адресу.
 
 
 
@@ -53,13 +53,13 @@ _**Тема последнего изменения:** 2013-04-02_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Таблицы сравнения мобильных клиентов в Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
+  - [Таблицы сравнения мобильных клиентов для Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
-  - [Требования к Lync для Windows Phone в Lync Server 2013](lync-server-2013-lync-for-windows-phone-requirements.md)
+  - [Требования Lync для Windows Phone в Lync Server 2013](lync-server-2013-lync-for-windows-phone-requirements.md)
 
   - [Требования Lync для iPhone и iPad в Lync Server 2013](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
 
-  - [Требования к Lync для Android в Lync Server 2013](lync-server-2013-lync-for-android-requirements.md)
+  - [Требования Lync для Android в Lync Server 2013](lync-server-2013-lync-for-android-requirements.md)
 
   - [Процесс развертывания мобильных клиентов в Lync Server 2013](lync-server-2013-mobile-client-deployment-process.md)
 

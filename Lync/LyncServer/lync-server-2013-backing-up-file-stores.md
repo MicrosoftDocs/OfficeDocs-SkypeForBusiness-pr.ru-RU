@@ -12,16 +12,16 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741039"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-17_
+_**Последнее изменение темы:** 2013-02-17_
 
-Резервное копирование хранилищ файлов Lync Server включает в себя все файлы и папки, используемые в компонентах Lync Server.
+При резервном копировании хранилищ файлов Lync Server включаются все файлы и папки, используемые компонентами Lync Server.
 
 <div>
 
-## <a name="to-back-up-file-stores"></a>Создание резервной копии хранилищ файлов
+## <a name="to-back-up-file-stores"></a>Резервное копирование хранилищ файлов
 
-1.  Чтобы найти определенные расположения хранилищ файлов на сервере Lync, откройте "Построитель топологии" и просмотрите раздел " **хранилища файлов** ".
+1.  Чтобы найти конкретные расположения хранилищ файлов Lync Server, откройте построитель топологий и просмотрите узел **хранилища файлов** .
 
-2.  Используйте средство Robocopy или другую программу управления файловой системой, чтобы скопировать каждое хранилище файлов в\\$Backup хранилище файлов.
+2.  С помощью средства Robocopy или другого средства управления файловой системой скопируйте каждое хранилище файлов в $Backup\\хранилище файлов.
 
 </div>
 

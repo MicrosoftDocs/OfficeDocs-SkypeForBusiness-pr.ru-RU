@@ -12,20 +12,20 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a>Manage categories
+# <a name="manage-categories"></a>Управление категориями
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757173"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Создание новой категории сервера для сохраняемого чата
+Создание новой категории сервера сохраняемого чата
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
@@ -45,22 +45,22 @@ _**Тема последнего изменения:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> Персистентчатпулфкдн необходим только в том случае, если существует несколько пулов серверов сохраняемого чата.
+> PersistentChatPoolFqdn требуется только при наличии более одного пула серверов сохраняемого чата.
 
 
 
 </div>
 
-Чтобы внести изменения в существующую категорию сервера сохраняемого чата
+Внесение изменений в существующую категорию сервера сохраняемого чата
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: Алловедмемберс, Дениедмемберс и Creators могут быть установлены одновременно. Создатели должны быть подмножеством Алловедмемберс за вычетом Дениедмемберс. Вы также можете задать свойства категории одновременно с членами и авторами.
+Windows PowerShell: AllowedMembers, DeniedMembers и Creators могут быть заданы одновременно. Объект Creators должен представлять собой подмножество AllowedMembers за вычетом DeniedMembers. Одновременно с членами и создателями Вы также можете задать свойства категории.
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a>Создание, получение, задание и удаление категории
+## <a name="create-get-set-or-remove-a-category"></a>Создание, получение установка или удаление категории
 
 Создание новой категории
 
@@ -74,7 +74,7 @@ Windows PowerShell: Алловедмемберс, Дениедмемберс и 
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-Настройка категории
+Установка категории
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 

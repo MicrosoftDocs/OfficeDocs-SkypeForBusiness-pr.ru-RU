@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Пометка приложения на языке обработки Microsoft SIP (МСПЛ) как критическое или некритическое'
+title: 'Lync Server 2013: помечает приложение Microsoft SIP Processing Language (MSPL) как критическое или некритическое'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d8b0858145930e0a2144ade55934b39394dcaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a50dea89feb7e72c5076e58a38136d24b1b34499
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Пометка приложения на языке обработки Microsoft SIP (МСПЛ) как критическое или некритическое в Lync Server 2013
+# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Помечает приложение Microsoft SIP Process Language (MSPL) как критическое или некритическое в Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41757953"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Серверные приложения Microsoft SIP Language (МСПЛ) — это приложения только сценария, использующие язык сценариев МСПЛ вместо Microsoft Lync 2010 API. Некоторые серверные приложения МСПЛ задаются как критические. Если сценарий является критическим, во время запуска системы необходимо запустить сценарий, чтобы Lync Server 2013 начал работу. Если при запуске Lync Server происходит сбой сценария, сервер не завершает работу, но перестает передавать трафик сценариям и записывает ошибки в журнал событий.
+Серверные приложения Microsoft SIP Processing Language (MSPL) — это приложения, предназначенные только для скриптов, использующие язык сценариев MSPL, а не API Microsoft Lync 2010. Некоторые серверные приложения MSPL указаны как критичные. Если скрипт является критически важным, он должен начаться во время запуска системы для запуска Lync Server 2013. Если произошел сбой сценария во время работы Lync Server, сервер не завершает работу, но перестает передавать трафик скрипту и записывает ошибки в журнал событий.
 
-С помощью панели управления Lync Server можно помечать серверные приложения на языке обработки Microsoft SIP (МСПЛ) как критические или не помечать их.
+С помощью панели управления Lync Server вы можете пометить серверные приложения Microsoft SIP Processing Language (MSPL) как критические или снять их пометки.
 
-Этот параметр поддерживают не все сценарии. Например, сценарий Дефаултраутинг помечается как критический, и этот параметр невозможно изменить для Дефаултраутинг.
+Данную возможность поддерживают не все сценарии. Например, сценарий DefaultRouting помечен как критичный, и изменить этот параметр для сценария DefaultRouting нельзя.
 
 <div>
 
-## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>Пометка или снятие пометки приложения сервера МСПЛ как критического
+## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>Пометка серверного приложения MSPL как критичного и отмена пометки
 
-1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **топология** и щелкните **серверное приложение**.
+3.  В левой панели навигации щелкните **Topology** (Топология) и затем щелкните **Server Application** (Серверное приложение).
 
-4.  На странице **серверное приложение** щелкните заголовок столбца, чтобы отсортировать приложения, если необходимо, а затем выберите серверное приложение, которое вы хотите изменить.
+4.  На странице **Server Application** (Серверное приложение) щелкните заголовок столбца, чтобы отсортировать приложения при необходимости, и затем выберите серверное приложение, которое нужно изменить.
 
-5.  Нажмите кнопку **действие**.
+5.  Щелкните элемент **Action** (Действие).
 
-6.  Выберите команду **помечать как критические** или **снимите флажок как критический** (то есть, если сценарий поддерживает этот параметр).
+6.  Щелкните элемент **Mark as critical** (Пометить как критичный) или **Unselect as critical** (Отменить пометку) (если сценарий поддерживает эту возможность).
 
 </div>
 
@@ -66,7 +66,7 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Включение и отключение серверного приложения Microsoft SIP Languageing (МСПЛ) в Lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+[Включение и отключение серверного приложения Microsoft SIP Processing Language (MSPL) в Lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
 
 
 [Просмотр серверных приложений Microsoft SIP Processing Language (MSPL) в Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: представление Мкус'
+title: 'Lync Server 2013: представление MCUs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765680"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mcus-view-in-lync-server-2013"></a>Мкус представления в Lync Server 2013
+# <a name="mcus-view-in-lync-server-2013"></a>Представление MCUs в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765680"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-В представлении Мкус хранятся сведения о Мкус, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении Mcus хранятся сведения о блоках MCU, которые участвовали в сеансах конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -50,24 +50,24 @@ _**Тема последнего изменения:** 2012-10-01_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>мкуид</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Уникальный номер, показывающий MCU.</p></td>
+<td><p>int</p></td>
+<td><p>Уникальный номер, идентифицирующий MCU.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>мкуури</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Универсальный код ресурса (URI) для MCU.</p></td>
+<td><p>URI блока MCU.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>мкууритипе</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Тип URI MCU. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Тип URI блока MCU. Дополнительные сведения см. <a href="lync-server-2013-uritypes-table.md">в таблице таблица uritypes в Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

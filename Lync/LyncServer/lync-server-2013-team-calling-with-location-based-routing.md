@@ -1,5 +1,5 @@
 ---
-title: Групповые звонки Lync Server 2013 с маршрутизацией на основе расположения
+title: Lync Server 2013 командный звонок с маршрутизацией на основе расположения
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5dcf8e73c9f800076c848e9a95cd2a234db893b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c44334e9c0901f5d05b4eae37311f6512cc27a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731129"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a>Групповые звонки с маршрутизацией на основе расположения в Lync Server 2013
+# <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a>Вызов групп с маршрутизацией на основе расположения в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731129"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-08-11_
+_**Последнее изменение темы:** 2014-08-11_
 
-Lync Server 2013 поддерживает вызов групп с маршрутизацией на основе местоположения.
+Lync Server 2013 поддерживает групповой вызов с маршрутизацией на основе расположения.
 
 </div>
 

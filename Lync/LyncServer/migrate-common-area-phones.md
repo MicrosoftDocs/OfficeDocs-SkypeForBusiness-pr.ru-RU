@@ -12,16 +12,16 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cba32f8aa95b870190280aebd94d51bdbeec0f2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7abaa29d2383f80a6f822eaa5d524197996500b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762957"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047827"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762957"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-Обычные телефоны — это IP-телефоны, которые чаще всего находятся в общей рабочей области или в общей области, например в зале ожидания, кухни или фабрики. Для обеспечения функций UC для Lync Server не нужно подключаться к компьютеру с помощью обычных телефонов. После миграции развертывания Lync Server 2010 на Lync Server 2013 необходимо также перенести объекты контактов, связанные с устаревшим стандартным телефоном. С помощью командной консоли Lync Server вы сначала получите все объекты контактов, связанные с Lync Server 2010 Common Area Phone, а затем переместите эти объекты в пул Lync Server 2013.
+Телефоны общего пользования — это IP-телефоны, находящиеся обычно в общих рабочих помещениях или местах общего пользования, таких как вестибюли, кухни или заводские цеха. Для предоставления функций UC для Lync Server не требуется подключение к компьютеру телефонов. После переноса развертывания Lync Server 2010 на Lync Server 2013 необходимо также перенести объекты Contact, связанные с устаревшим стандартным телефоном. С помощью командной консоли Lync Server вы сначала получите все объекты Contacts, связанные с телефонами Lync Server 2010 с общими областями, а затем переместите эти объекты в пул Lync Server 2013.
 
 **Миграция телефонов общего пользования**
 
@@ -47,11 +47,11 @@ _**Тема последнего изменения:** 2012-09-29_
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  Чтобы убедиться в том, что все объекты контакта были перемещены в пул Lync Server 2013, в командной консоли Lync Server Management Shell введите следующую команду:
+3.  Чтобы убедиться, что все объекты Contact были перемещены в пул Lync Server 2013, в командной консоли Lync Server введите следующую команду:
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     
-    Убедитесь, что все объекты контакта теперь связаны с пулом Lync Server 2013.
+    Убедитесь, что все объекты Contact теперь связаны с пулом Lync Server 2013.
 
 </div>
 

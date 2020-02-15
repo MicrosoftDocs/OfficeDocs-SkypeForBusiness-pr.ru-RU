@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление подсетей сети'
+title: 'Lync Server 2013: удаление сетевых подсетей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c87ca1cfd91344d8f8cbb0b320c70def47bf5ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a1a50930ccf5e834a51041a01b9860dbb8bf6f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-network-subnets-in-lync-server-2013"></a>Удаление подсетей сети в Lync Server 2013
+# <a name="deleting-network-subnets-in-lync-server-2013"></a>Удаление сетевых подсетей в Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740969"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Для удаления подсети вы можете использовать описанную ниже процедуру. С помощью панели управления Lync Server вы можете создавать, изменять и удалять сетевые подсети. Сведения о создании и изменении подсетей сети можно найти [в разделе Создание или изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
+Для удаления подсети можно использовать следующую процедуру. С помощью панели управления Lync Server можно создавать, изменять и удалять подсеть. Дополнительные сведения о создании или изменении подсетей сети приведены [в статье Создание или изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
 
-В большинстве развертываний Microsoft Lync Server 2013 там, где реализовано управление допуском звонков (CAC), обычно это большое количество подсетей. По этой причине лучше всего настроить подсети из командной консоли Lync Server Management Shell. Из него вы можете вызвать **New-кснетворксубнет** в сочетании с командлетом Windows PowerShell **Import-CSV**. Используя эти командлеты вместе, вы можете прочитать параметры подсети из CSV-файла и одновременно создать несколько подсетей. Примеры создания подсетей из CSV-файла можно найти в разделе [New-кснетворксубнет](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+В большинстве развертываний Microsoft Lync Server 2013, где реализован контроль допуска звонков (CAC), как правило, существует большое количество подсетей. Поэтому часто лучше настроить подсети из командной консоли Lync Server. Отсюда вы можете вызвать командлет **New-CsNetworkSubnet** в сочетании с командлетом Windows PowerShell **Import-CSV**. Используя эти командлеты, вы можете считывать параметры подсетей из файла данных с разделителями-запятыми  (CSV) и одновременно создавать несколько сетей. Примеры создания подсетей из CSV-файла см. в разделе [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
 <div>
 
-## <a name="to-delete-a-network-subnet"></a>Удаление сетевой подсети
+## <a name="to-delete-a-network-subnet"></a>Удаление подсети
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **Настройка сети** , а затем — **подсеть**.
+3.  В левой панели навигации щелкните элемент **Конфигурация сети** и выберите элемент **Подсеть**.
 
-4.  На странице **Subnet (подсеть** ) выберите подсеть, которую вы хотите удалить.
+4.  На странице **подсетей** щелкните подсеть, которую следует удалить.
     
     <div>
     
 
     > [!NOTE]  
-    > Вы можете удалить более одной подсети за один раз. Для этого нажмите клавишу CTRL и выберите несколько подсетей, удерживая нажатой клавишу CTRL. Кроме того, чтобы выбрать все подсети, в меню <STRONG>Правка</STRONG> выберите команду <STRONG>выделить все</STRONG> .
+    > Можно одновременно удалять несколько подсетей. Для этого нажмите клавишу CTRL и выберите несколько подсетей, удерживая клавишу CTRL нажатой. Можно также выбрать все подсети, нажав пункт <STRONG>Выбрать все</STRONG> в меню <STRONG>Правка</STRONG>.
 
     
     </div>
@@ -73,7 +73,7 @@ _**Тема последнего изменения:** 2013-02-21_
 ## <a name="see-also"></a>См. также
 
 
-[Создание и изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  
+[Создание или изменение сетевых подсетей в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  
   
 
 </div>

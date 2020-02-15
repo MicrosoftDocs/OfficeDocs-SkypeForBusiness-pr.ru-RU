@@ -12,16 +12,16 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764987"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764987"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-08_
+_**Последнее изменение темы:** 2012-09-08_
 
-Режиссер может быть развернут либо в одной конфигурации режиссера, либо в качестве пула режиссеров. В этом разделе описаны топология и конфигурация двух топологий пулов и каталогов. Если вы планируете развернуть один режиссер, ознакомьтесь с разделом " [единый режиссер" в Lync Server 2013](lync-server-2013-single-director.md) для планирования этой топологии.
+Директор может быть развернут в одной конфигурации или в виде пула директоров. В этом разделе описывается топология и конфигурация двух топологий с пулом директоров. При планировании развертывания одного директора ознакомьтесь с разделом [единый директор в Lync Server 2013](lync-server-2013-single-director.md) для планирования этой топологии.
 
 <div>
 

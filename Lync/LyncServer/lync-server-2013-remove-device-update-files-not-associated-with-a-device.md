@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление файлов обновлений устройств, не связанных с устройством'
+title: 'Lync Server 2013: удаление файлов обновления устройств, не связанных с устройством'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724249"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Удаление файлов обновления устройства, не связанных с устройством в Lync Server 2013
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Удаление файлов обновления устройств, не связанных с устройством, в Lync Server 2013
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41724249"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-Каждый раз, когда новые обновления устройства загружаются в систему, создается соответствующее правило обновления устройства. По умолчанию новые правила обновления устройства назначаются в состояние ожидания. Это означает, что правила можно загрузить и установить на тестовые устройства, но не на производственные устройства, что позволит вам тестировать обновления перед их предоставлением пользователям. На основании тестов вы принимаете и разворачиваете или отклоняете и удаляете обновление. Когда вы отклоняете обновление, обновление устройства не связано с его правилом обновления устройства.
+При каждом поступлении новых обновлений устройства в систему создается соответствующее правило обновления устройства. По умолчанию эти новые правила обновления устройств назначены состоянию ожидания. Это означает, что правила можно загружать и устанавливать на тестовые устройства, но не на рабочих устройствах, что позволяет протестировать обновления, прежде чем сделать их доступными для пользователей. На основе тестов вы принимаете и развертываете или отклоняете и удаляете обновление. Когда вы отклоняете обновление, обновление устройства не связано с правилом обновления устройства.
 
 <div>
 
 
-Файлы обновления устройства, которые больше не связаны с устройством, можно удалить с помощью Windows PowerShell и командлета **clear-ксдевицеупдатефиле** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+Файлы обновления устройств, которые больше не связаны с устройством, можно удалить с помощью Windows PowerShell и командлета **clear – ксдевицеупдатефиле** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
+> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.
 
 
 
@@ -57,13 +57,13 @@ _**Тема последнего изменения:** 2013-02-20_
 <div>
 
 
-  - Например, следующая команда удаляет все правила обновления устройства на веб-сервере atl-cs-001.litwareinc.com, которые больше не связаны с устройством.
+  - Например, следующая команда удаляет все правила обновления устройств на веб-сервере atl-cs-001.litwareinc.com, которые больше не связаны с устройством:
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [clear-ксдевицеупдатефиле](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
+Дополнительные сведения см. в разделе справки для командлета [clear – ксдевицеупдатефиле](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) .
 
 </div>
 

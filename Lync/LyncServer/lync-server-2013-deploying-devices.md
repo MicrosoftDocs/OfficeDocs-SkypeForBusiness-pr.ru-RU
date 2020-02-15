@@ -12,16 +12,16 @@ ms:contentKeyID: 48183889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc72daeeac3f4bd15c47eb3b9bfa27e4e1c7362
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5400a65f1003012499fd3cf4afae8f75b8b38b86
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729429"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-09-10_
+_**Последнее изменение темы:** 2013-09-10_
 
-Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные возможности телефонии, встроенную безопасность, управляемость и многое другое. Lync Phone Edition работает аналогично с Lync Server 2013, как это происходит в Lync Server 2010. Подробнее о том, как развертывать устройства, можно найти в разделе [развертывание Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet Server 2010.
+Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое. Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010. Более подробную информацию о развертывании устройств можно узнать в статье [deploy Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet для lync Server 2010.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Планирование устройств](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[Поддержка программного обеспечения клиента и устройства и инфраструктуры](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[Планирование для устройств](http://go.microsoft.com/fwlink/p/?linkid=285881)  
+[Поддержка программного обеспечения и инфраструктуры клиентов и устройств](http://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

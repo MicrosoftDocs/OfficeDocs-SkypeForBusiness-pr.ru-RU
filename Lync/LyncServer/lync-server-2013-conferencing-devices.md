@@ -12,16 +12,16 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6af847b13a073a8135cf9c54ea0f503c6e1af71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741539"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-02-05_
+_**Последнее изменение темы:** 2014-02-05_
 
-Устройства конференц-связи, посвященные функциям Lync Phone Edition в Конференц-зал, позволяя людям в комнате слышать и, в зависимости от устройства, видеть людей из других расположений.
+Устройства конференц-связи обеспечивают функции Lync Phone Edition в конференц-залах, позволяя людям в комнате слышать и, в зависимости от устройства, просматривать людей в других расположениях.
 
-В этом разделе приведены сведения о том, как настроить устройства для конференц-связи и управлять ими.
+Используйте подразделы этого раздела, чтобы узнать, как настраивать устройства конференц-связи и управлять ими.
 
 <div>
 
 
 > [!NOTE]  
-> Дополнительные сведения об устройствах, поддерживаемых в Lync Server 2013, можно найти на веб-страницах <A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">телефоны и устройства, которые можно использовать для Microsoft Lync</A>.
+> Дополнительные сведения о устройствах конференц-связи, которые поддерживаются в Lync Server 2013, можно найти на веб-страницах <A href="http://technet.microsoft.com/lync/gg278164.aspx">телефонов и устройствах, соответствующих Microsoft Lync</A>.
 
 
 
@@ -55,13 +55,13 @@ _**Тема последнего изменения:** 2014-02-05_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр сведений об устройствах конференции в Lync Server 2013](lync-server-2013-view-conferencing-device-information.md)
+  - [Просмотр сведений о устройствах конференц-связи в Lync Server 2013](lync-server-2013-view-conferencing-device-information.md)
 
   - [Создание или изменение объекта контакта устройства конференц-связи в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
-  - [Включение и отключение устройства конференц-связи в Lync Server 2013](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+  - [Включение или отключение устройства конференц-связи в Lync Server 2013](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [Перемещение устройства конференц-связи в новый пул регистраторов в Lync Server 2013](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [Перемещение устройства конференц-связи в новый пул регистратора в Lync Server 2013](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 
@@ -74,4 +74,3 @@ _**Тема последнего изменения:** 2014-02-05_
 </div>
 
 </div>
-

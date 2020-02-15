@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление пользовательского текста в мгновенные сообщения'
+title: 'Lync Server 2013: Добавление пользовательского текста в мгновенные сообщения'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b54b4724568a4f57bebc7ef6162a553cfdd9a091
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0681df9803615fee04c20e52258120bd6616e57d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738159"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41738159"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-Добавляйте заявление об отказе или предупреждение в начало каждой из мгновенных сообщений Lync 2013, используя командлеты командной консоли **New-CSClientPolicy** или **Set-CSClientPolicy** Lync Server с параметром "с предупреждением".
+Добавьте заявление об отказе или предупреждение в начало каждой беседы Lync 2013 для обмена мгновенными сообщениями с помощью командлетов командной консоли **New-CSClientPolicy** или **Set-CSClientPolicy** Lync Server с параметром Warning.
 
-В приведенном ниже примере в верхней части окна беседы добавляется напоминание о безопасности при запуске новой ТЕКСТовой беседы.
+В приведенном ниже примере показано, как добавить напоминание о безопасности в верхней части окна беседы при начале новой беседы с IM:
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-С помощью **Grant-CSClientPolicy** можно назначить пользователям новую политику. Подробные сведения можно найти в разделе **New-CSClientPolicy** и **Grant-CSClientPolicy** в документации по среде управления Lync Server.
+Назначьте эту политику пользователям с помощью **Grant – CSClientPolicy** . Дополнительные сведения см. в статье **New/CSClientPolicy** и **Grant – CSClientPolicy** в документации по консоли управления Lync Server.
 
 </div>
 

@@ -14,51 +14,51 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Руководство по использованию средства планирования Skype для бизнеса Server 2015.
-ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 8eec7865b74640cf6dfe4f5a5122f4c7091cc5ae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816308"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050101"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Средство планирования Skype для бизнеса Server 2015
  
 Руководство по использованию средства планирования Skype для бизнеса Server 2015.
   
-Средство планирования для Skype для бизнеса Server 2015 — это мастер, на основе которого будет заинтересовать вопросы, касающиеся топологии, которую вы разрабатываете в Skype для бизнеса Server 2015. В средстве планирования используются предоставленные сведения, которые связаны с предпочтительными методиками проектирования и мощности топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Средство планирования можно загрузить с помощью [средства планирования Skype для бизнеса Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725).
+Средство планирования Skype для бизнеса Server 2015 — это средство, которое управляется мастером, которое запрашивает вопросы о создаваемой вами топологии Skype для бизнеса Server 2015. В средстве планирования используются предоставленные сведения, которые связаны с рекомендуемыми рекомендациями по проектированию и емкости топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Средство планирования можно скачать с помощью [средства планирования Skype для бизнеса Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725).
   
-В конечном итоге, цель средства планирования — упростить разработку полной топологии 2015 в Skype для бизнеса Server. Это средство также предоставляет контекстные ссылки на документацию по планированию и развертыванию внутри средства, при условии, что для подключения к веб-сайту Майкрософт доступно подключение к Интернету.
+В конечном итоге, цель средства планирования заключается в том, чтобы упростить разработку полной топологии Skype для бизнеса Server 2015. Средство также предоставляет контекстные ссылки на документацию по планированию и развертыванию в средстве, при условии, что подключение к Интернету доступно для подключения к веб-сайту Майкрософт.
   
-После настройки топологии с помощью TCP/IP-адресов инфраструктуры и полных доменных имен (FQDN) средство планирования предоставляет доступ к сериям отчетов, которые охватывают имена DNS, правила брандмауэра, сертификаты и многое другое. 
+После настройки топологии с использованием TCP/IP-адресов и полных доменных имен в инфраструктуре средство планирования предоставляет доступ к ряду отчетов, которые охватывают имена DNS, правила брандмауэра, сертификаты и многое другое. 
   
-Использование этого инструмента — первый этап планирования реализации. На следующем этапе вы можете ввести сведения о сайте в [калькуляторе для Skype для бизнеса server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), настроить его по мере необходимости, а затем с помощью средства для моделирования и проверки правильности реализации в [Skype для бизнеса Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) .
+Использование этого средства является первым шагом при планировании реализации. Следующий шаг заключается в вводе сведений о сайте в [Калькулятор емкости Skype для бизнеса server 2015](https://www.microsoft.com/download/details.aspx?id=51196), при необходимости используя [средство нагрузочного тестирования и производительности Skype для бизнеса Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) для моделирования и проверки реализации.
   
 Средство планирования также предоставляет возможность экспорта данных в двух форматах:
   
-- Microsoft Excel (таблица .xml)
+- Microsoft Excel (электронная таблица XML)
     
-- Microsoft Visio
+- Microsoft Visio (. vdx)
     
-В следующих разделах описаны и подробные сведения о средстве планирования.
+В следующих разделах описываются и подробно рассматриваются средства планирования.
   
 ## <a name="in-this-section"></a>В этом разделе
 
-- [Install the Planning Tool in Skype for Business Server 2015](install.md)
+- [Установка средства планирования в Skype для бизнеса Server 2015](install.md)
     
-- [Optional Software](install.md#Optional_Software)
+- [Дополнительное программное обеспечение](install.md#Optional_Software)
     
-- [Navigate the Planning Tool in Skype for Business Server 2015](navigate.md)
+- [Навигация в средстве планирования в Skype для бизнеса Server 2015](navigate.md)
     
-- [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
+- [Создание первоначальной структуры топологии для Skype для бизнеса Server 2015](create-the-initial-design.md)
     
-- [Edit the topology in Skype for Business Server 2015](edit-the-topology.md)
+- [Изменение топологии в Skype для бизнеса Server 2015](edit-the-topology.md)
     
-- [Edit the network configuration diagram](edit-the-topology.md#Edit_Network_diagram)
+- [Изменение схемы конфигурации сети](edit-the-topology.md#Edit_Network_diagram)
     
-- [Review the Administrator Reports in Skype for Business Server 2015](review-the-administrator-reports.md)
+- [Просмотр отчетов администратора в Skype для бизнеса Server 2015](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>См. также
 
 [Установка Skype для бизнеса Server 2015](../../deploy/install/install.md)
   
-[Планирование обмена мгновенными сообщениями и оповещения о присутствии в Skype для бизнеса Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)
+[Планирование обмена мгновенными сообщениями и сведений о присутствии в Skype для бизнеса Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)

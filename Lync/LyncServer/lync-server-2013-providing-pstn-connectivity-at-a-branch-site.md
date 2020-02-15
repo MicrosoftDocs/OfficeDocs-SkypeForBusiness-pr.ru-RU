@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: обеспечение подключения ТСОП в сайте филиала'
+title: 'Lync Server 2013: обеспечение подключения PSTN на сайте филиала'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9fe25fc10da3ffc27b882b7d41aac0ad97677f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Обеспечение подключения ТСОП в сайте филиала в Lync Server 2013
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Обеспечение подключения PSTN на сайте филиала в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724779"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-05_
+_**Последнее изменение темы:** 2012-10-05_
 
-Рекомендуем использовать средство Microsoft Lync Server 2013, планирование для добавления сайтов филиалов в топологию и настройки вашей голосовой инфраструктуры на сайтах филиалов.
+Мы рекомендуем использовать средство планирования Microsoft Lync Server 2013, средство планирования для добавления сайтов филиалов в топологию и настройки инфраструктуры голосовой связи на сайтах филиалов.
 
-Если вы не используете средство планирования, выполните действия, описанные в разделах в этом разделе, чтобы добавить сайты филиалов, а затем — для настройки своей инфраструктуры, определив шлюз IP/коммутируемой телефонной сети (PSTN) и/или настроив магистраль SIP (с обобщениям и без него). Подключение к сайту филиала может быть еще одним вариантом.
+Если вы не используете средство планирования, используйте процедуры, описанные в подразделах этого раздела, для добавления сайтов филиалов, а затем для настройки инфраструктуры голосовой связи путем определения шлюза IP/общедоступной телефонной сети (PSTN) и/или путем настройки магистральной линии SIP (с обходом сервера-посредника или без него). Кроме того, можно добавить в сайт филиала УАТС.
 
 <div>
 
 
 > [!NOTE]  
-> Если вы хотите обеспечить устойчивость сайтов филиалов, необходимо развернуть работающее устройство филиала, временный сервер филиалов или стандартный сервер Standard Edition на сайте филиала. Дополнительные сведения можно найти в разделе Развертывание работающего <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">устройства филиалов или сервера с помощью Lync server 2013</A> или <A href="lync-server-2013-deploying-lync-server.md">развертывание Lync Server 2013</A>(в зависимости от того, что нужно) в документации по развертыванию.
+> Если требуется обеспечить устойчивость сайта филиала, необходимо развернуть устройство для обеспечения связи в филиалах, сервер для обеспечения связи в филиалах или сервер Standard Edition на сайте филиала. Дополнительные сведения: <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync server 2013</A> или <A href="lync-server-2013-deploying-lync-server.md">развертывание Lync Server 2013</A>(при необходимости) в документации по развертыванию.
 
 
 
@@ -57,11 +57,11 @@ _**Тема последнего изменения:** 2012-10-05_
 
   - [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Определение шлюза ТСОП для сайта филиала в Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
+  - [Определение шлюза PSTN для сайта филиала в Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Настройка магистрали с обходом сервера мультимедиа в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Настройка магистрали без обхода мультимедиа в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Настройка магистрали без обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 
@@ -70,8 +70,8 @@ _**Тема последнего изменения:** 2012-10-05_
 ## <a name="see-also"></a>См. также
 
 
-[Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
-[Планирование подключений PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+[Планирование обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Планирование подключения по протоколу PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 
 </div>

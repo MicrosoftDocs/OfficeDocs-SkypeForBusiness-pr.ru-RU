@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица MediaList'
+title: 'Lync Server 2013: таблица таблица medialist'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762997"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="medialist-table-in-lync-server-2013"></a>Таблица MediaList в Lync Server 2013
+# <a name="medialist-table-in-lync-server-2013"></a>Таблица Таблица medialist в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762997"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-07-12_
+_**Последнее изменение темы:** 2016-07-12_
 
-Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
+Таблица MediaList — это статическая таблица, в которой хранится список различных типов мультимедиа.
 
 
 <table>
@@ -51,37 +51,37 @@ _**Тема последнего изменения:** 2016-07-12_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MediaId</strong></p></td>
+<td><p><strong>медиаид</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>Значения: 1–7</p></td>
+<td><p>Значения: 1-7</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Media</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Носитель</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Статическое сопоставление значений MediaID и Media</p>
+<td><p>Статическое сопоставление значений Медиаид и мультимедиа:</p>
 <ul>
-<li><p>1 – ОБМЕН МГНОВЕННЫМИ СООБЩЕНИЯМИ</p></li>
-<li><p>2 — передача файла</p></li>
-<li><p>3 — удаленный помощник</p></li>
-<li><p>4 — совместный доступ к приложению</p></li>
-<li><p>5 – звук</p></li>
-<li><p>6 – видео</p></li>
-<li><p>7 — приглашение из приложения</p></li>
+<li><p>1 — ОБМЕН МГНОВЕННЫМИ СООБЩЕНИЯМИ</p></li>
+<li><p>2 — передача файла</p></li>
+<li><p>3 — удаленный помощник</p></li>
+<li><p>4 — совместный доступ к приложению</p></li>
+<li><p>5 — звук</p></li>
+<li><p>6 — видео</p></li>
+<li><p>7 — приглашение из приложения</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-Если вам нужно определить тип модальности для значений в LcsCDR.SessionDetailsView.MediaTypes, используйте следующий фрагмент кода Join: 
+Если вы пытаетесь определить тип модальности для значений в LcsCDR. SessionDetailsView. MediaTypes, необходимо использовать следующий фрагмент соединения:
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

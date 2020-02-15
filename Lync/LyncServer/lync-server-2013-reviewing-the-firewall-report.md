@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка отчета брандмауэра'
+title: 'Lync Server 2013: Просмотр отчета о брандмауэре'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765087"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765087"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Lync Server 2013 имеет потенциально сложный набор правил брандмауэра. Средство планирования сокращает сложность, создавая отчет, который подробно определяет все требования брандмауэра, основываясь на входных критериях конструктора. The IT firewall administrator will be able to use this report to configure and define the necessary rules.
+Lync Server 2013 имеет потенциально сложный набор правил брандмауэра. Средство планирования сокращает эту сложность, создавая отчет, который определяет сведения обо всех требованиях брандмауэра, исходя из критериев ввода в конструкторе. Администратор брандмауэра ИТ сможет использовать этот отчет для настройки и определения необходимых правил.
 
-При управлении брандмауэром этот отчет следует тщательно анализировать на предмет конфликтов с имеющимися правилами брандмауэра и нарушений имеющихся политик или процедур.
+С точки зрения управления брандмауэром необходимо тщательно проанализировать отчет, чтобы убедиться в отсутствии конфликтов с выходом из правил брандмауэра, а также в отсутствии политик или процедур, которые могут быть нарушены.
 
-![Отчет по брандмауэрам для администратора](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет по брандмауэрам для администратора")
+![Отчет администратора брандмауэра](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет администратора брандмауэра")
 
 <div>
 

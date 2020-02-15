@@ -12,16 +12,16 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5b99d5d2f1800a4d7d16b1d3fdf4d0aab213fd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755683"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-11_
+_**Последнее изменение темы:** 2012-09-11_
 
 После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают должным образом. Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:
 
-**Пользователи**
+**пользователи**;
 
-  - Пользователь, который размещен на Lync Server 2013
+  - Пользователь, размещенный в Lync Server 2013
 
   - Внешний пользователь, использующий телефонную сеть общего пользования (ТСОП)
 
   - Агент, размещенный на Lync Server 2013
 
-**Сценарии**
+**Scenarios**
 
   - Пользователь Lync Server 2013 вызывает группу ответа.
 

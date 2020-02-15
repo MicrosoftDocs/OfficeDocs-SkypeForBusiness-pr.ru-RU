@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проектирование топологии с помощью средства планирования'
+title: 'Lync Server 2013: Разработка топологии с помощью средства планирования'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590bfae33e12cca2e2305eab9d842f0e2f105838
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762507"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051523"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Проектирование топологии для Lync Server 2013 с помощью средства планирования
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Разработка топологии для Lync Server 2013 с помощью средства планирования
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762507"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-03-04_
+_**Последнее изменение темы:** 2013-03-04_
 
-Приложение Microsoft Lync Server 2013, планирование — это мастер, на основе которого будет заинтересовать вопросы о топологии Lync Server 2013, которые вы разрабатываете. В средстве планирования используются предоставленные сведения, которые связаны с предпочтительными методиками проектирования и мощности топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Вы можете скачать средство планирования из центра загрузки Майкрософт ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)).
+Microsoft Lync Server 2013, средство планирования — это средство, которое управляется мастером, которое запрашивает вопросы о разрабатываемой топологии Lync Server 2013. В средстве планирования используются предоставленные сведения, которые связаны с рекомендуемыми рекомендациями по проектированию и емкости топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Средство планирования можно скачать в центре загрузки Майкрософт ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)).
 
-В конечном итоге, цель средства планирования — облегчить создание полной топологии Lync Server 2013. Это средство также предоставляет контекстные ссылки на внутреннюю документацию по планированию и развертыванию при условии, что доступно подключение к сети Интернет для доступа на веб-сайт TechNet корпорации Microsoft.
+В конечном итоге, цель средства планирования заключается в том, чтобы упростить разработку полной топологии Lync Server 2013. Средство также предоставляет контекстные ссылки на документацию по планированию и развертыванию в средстве, при условии, что подключение к Интернету доступно для подключения к веб-сайту Microsoft TechNet.
 
-После настройки топологии с помощью TCP/IP-адресов инфраструктуры и полных доменных имен (FQDN) средство планирования предоставляет доступ к сериям отчетов, которые охватывают имена DNS, правила брандмауэра, сертификаты и многое другое.
+После настройки топологии с использованием TCP/IP-адресов и полных доменных имен в инфраструктуре средство планирования предоставляет доступ к ряду отчетов, которые охватывают имена DNS, правила брандмауэра, сертификаты и многое другое.
 
 Средство планирования также предоставляет возможность экспорта данных в двух форматах:
 
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2013-03-04_
 
   - Microsoft Visio
 
-В следующих разделах описаны и подробные сведения о средстве планирования.
+В следующих разделах описываются и подробно рассматриваются средства планирования.
 
 <div>
 
@@ -59,9 +59,9 @@ _**Тема последнего изменения:** 2013-03-04_
 
   - [Установка дополнительного программного обеспечения в Lync Server 2013](lync-server-2013-installing-optional-software.md)
 
-  - [Навигация в инструменте "планирование" в Lync Server 2013](lync-server-2013-navigating-the-planning-tool.md)
+  - [Навигация в средстве планирования в Lync Server 2013](lync-server-2013-navigating-the-planning-tool.md)
 
-  - [Создание начальной структуры топологии для Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)
+  - [Создание первоначальной структуры топологии для Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)
 
   - [Просмотр отчетов администратора в Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)
 
@@ -73,7 +73,7 @@ _**Тема последнего изменения:** 2013-03-04_
 
 
 [Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
-[Планирование для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
+[Планирование для серверов переднего плана, обмена мгновенными сообщениями и сведений о присутствии в Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Командлеты для Lync Server 2013: телефоны и устройства'
+title: 'Lync Server 2013: командлеты для телефонов и устройств'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5e698c23c87f679302c6612bec138bcbae39f71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21939a4d03e04441c25aab2209cb27f6b8895e64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755199"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,124 +35,124 @@ ms.locfileid: "41755199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-28_
+_**Последнее изменение темы:** 2012-06-28_
 
-Microsoft Lync Server 2013 предоставляет множество командлетов, позволяющих управлять телефонными и другими устройствами. Сюда входят телефоны для передачи голоса по протоколу IP (VoIP). обычные телефоны (например, Телефон в здании, кафетериа или другое общедоступное место); и даже аналоговые телефоны, телефоны, на которых не может работать Lync Phone Edition.
+Microsoft Lync Server 2013 предоставляет ряд командлетов, позволяющих управлять телефонами и другими аппаратными устройствами. Сюда входят телефоны передачи голоса по протоколу IP (VoIP). Телефон общего пользования (например, Телефон в здании, cafeteriaе или другом общедоступном месте); и даже аналоговые телефоны, телефоны, которые не могут работать с Lync Phone Edition.
 
 <div>
 
-## <a name="phones-and-devices-cmdlets"></a>Командлеты для телефонов и устройств
+## <a name="phones-and-devices-cmdlets"></a>Командлеты телефонов и устройств
 
-Командлеты **ксдевицеупдате** используются для управления веб-службой обновления устройства, компонентом Lync Server, который позволяет администраторам распространять обновления микропрограмм на телефоны и другие устройства с Lync Phone Edition.
-
-  - <span></span>  
-    [Get-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg398748(v=OCS.15))
+Командлеты **CsDeviceUpdate** используются для управления веб-службой обновления устройств, компонентом Lync Server, который позволяет администраторам распространять обновления микропрограммного обеспечения на телефоны и другие устройства, на которых работает Lync Phone Edition.
 
   - <span></span>  
-    [Move-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg398816(v=OCS.15))
+    [Get — CsAnalogDevice](https://technet.microsoft.com/library/Gg398748(v=OCS.15))
 
   - <span></span>  
-    [New-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg412937(v=OCS.15))
+    [Move — CsAnalogDevice](https://technet.microsoft.com/library/Gg398816(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAnalogDevice](rehttps://technet.microsoft.com/en-us/library/Gg398816(v=OCS.15))
+    [New — CsAnalogDevice](https://technet.microsoft.com/library/Gg412937(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnalogDevice](https://technet.microsoft.com/en-us/library/Gg412843(v=OCS.15))
+    [Remove — CsAnalogDevice](rehttps://technet.microsoft.com/library/Gg398816(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsAnalogDevice](https://technet.microsoft.com/library/Gg412843(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg412934(v=OCS.15))
+    [Get — CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412934(v=OCS.15))
 
   - <span></span>  
-    [Move-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg412837(v=OCS.15))
+    [Move — CsCommonAreaPhone](https://technet.microsoft.com/library/Gg412837(v=OCS.15))
 
   - <span></span>  
-    [New-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg398430(v=OCS.15))
+    [New — CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398430(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCommonAreaPhone](rehttps://technet.microsoft.com/en-us/library/Gg412837(v=OCS.15))
+    [Remove — CsCommonAreaPhone](rehttps://technet.microsoft.com/library/Gg412837(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCommonAreaPhone](https://technet.microsoft.com/en-us/library/Gg398579(v=OCS.15))
+    [Set — CsCommonAreaPhone](https://technet.microsoft.com/library/Gg398579(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Ксукфонеконфигуратион](https://technet.microsoft.com/en-us/library/Gg398070(v=OCS.15))
+    [Get — CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398070(v=OCS.15))
 
   - <span></span>  
-    [New-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398445(v=OCS.15))
+    [New — CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15))
+    [Remove — CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg413042(v=OCS.15))
+    [Set — CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg413042(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsDeviceUpdate](https://technet.microsoft.com/en-us/library/Gg398861(v=OCS.15))
+    [Import — CsDeviceUpdate](https://technet.microsoft.com/library/Gg398861(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg399030(v=OCS.15))
+    [Get — CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg399030(v=OCS.15))
 
   - <span></span>  
-    [New-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg425761(v=OCS.15))
+    [New — CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15))
 
   - <span></span>  
-    [Remove-Ксдевицеупдатеконфигуратион](https://technet.microsoft.com/en-us/library/Gg425933(v=OCS.15))
+    [Remove — CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425933(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDeviceUpdateConfiguration](https://technet.microsoft.com/en-us/library/Gg398320(v=OCS.15))
+    [Set — CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Clear-CsDeviceUpdateFile](https://technet.microsoft.com/en-us/library/Gg425835(v=OCS.15))
+    [Clear — Ксдевицеупдатефиле](https://technet.microsoft.com/library/Gg425835(v=OCS.15))
 
   - <span></span>  
-    [Clear-CsDeviceUpdateLog](https://technet.microsoft.com/en-us/library/Gg412738(v=OCS.15))
+    [Clear — Ксдевицеупдателог](https://technet.microsoft.com/library/Gg412738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Approve-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398949(v=OCS.15))
+    [Утвердить — CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398949(v=OCS.15))
 
   - <span></span>  
-    [Get-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398215(v=OCS.15))
+    [Get — CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398215(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg425930(v=OCS.15))
+    [Remove — CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg425930(v=OCS.15))
 
   - <span></span>  
-    [Reset-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398181(v=OCS.15))
+    [Reset — CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398181(v=OCS.15))
 
   - <span></span>  
-    [Restore-CsDeviceUpdateRule](https://technet.microsoft.com/en-us/library/Gg398305(v=OCS.15))
+    [Restore — CsDeviceUpdateRule](https://technet.microsoft.com/library/Gg398305(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPhoneBootstrap](https://technet.microsoft.com/en-us/library/Gg412852(v=OCS.15))
+    [Test-Ксфонебутстрап](https://technet.microsoft.com/library/Gg412852(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg398304(v=OCS.15))
+    [Get — CsTestDevice](https://technet.microsoft.com/library/Gg398304(v=OCS.15))
 
   - <span></span>  
-    [New-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg425899(v=OCS.15))
+    [New — CsTestDevice](https://technet.microsoft.com/library/Gg425899(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTestDevice](https://technet.microsoft.com/en-us/library/Gg398790(v=OCS.15))
+    [Remove — CsTestDevice](https://technet.microsoft.com/library/Gg398790(v=OCS.15))
 
   - <span></span>  
-    [Set-Кстестдевице](https://technet.microsoft.com/en-us/library/Gg398156(v=OCS.15))
+    [Set — CsTestDevice](https://technet.microsoft.com/library/Gg398156(v=OCS.15))
 
 </div>
 

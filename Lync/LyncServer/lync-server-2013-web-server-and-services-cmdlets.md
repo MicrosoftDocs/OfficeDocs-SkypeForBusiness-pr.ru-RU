@@ -12,16 +12,16 @@ ms:contentKeyID: 48183326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd517f46d6d1793ad1f947f56b1d7e423bfb269
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f65acbee339a868f7656b853a9bc611f567c381
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,101 +35,101 @@ ms.locfileid: "41758509"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-18_
+_**Последнее изменение темы:** 2013-02-18_
 
-Многие компоненты Microsoft Lync Server 2013 — это веб-компоненты, которые используются для выполнения своих задач, а также веб-службами. С помощью командлетов веб-сервера и веб-служб можно настраивать параметры веб-сервера и управлять простыми URL-адресами. Простые URL-адреса упрощают присоединение к собраниям и конференциям и упрощение входа пользователей на панель управления Lync Server 2013.
+Многие компоненты Microsoft Lync Server 2013 основаны на Интернете: эти компоненты используют веб-службы или веб-страницы для выполнения своих задач. Командлеты веб-сервера и веб-служб позволяют выполнять такие действия, как Настройка параметров веб-сервера и управление простыми URL-адресами. Простые URL-адреса упрощают для пользователей присоединение к собраниям и конференциям, а также упрощают для администраторов вход в панель управления Lync Server 2013.
 
 <div>
 
 ## <a name="web-server-and-web-services-cmdlets"></a>Командлеты веб-сервера и веб-служб
 
-Ниже приведен список командлетов, которые непосредственно относятся к управлению веб-серверами и веб-службам.
+Ниже приведен список командлетов, которые относятся непосредственно к управлению веб-серверами и веб-службами.
 
 **Веб-серверы и службы**
 
   - <span></span>  
-    [New-CsSimpleUrl](https://technet.microsoft.com/en-us/library/Gg398180(v=OCS.15))
+    [New — Кссимплеурл](https://technet.microsoft.com/library/Gg398180(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398392(v=OCS.15))
+    [Get — CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))
 
   - <span></span>  
-    [New-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg425813(v=OCS.15))
+    [New — CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398515(v=OCS.15))
+    [Remove — CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg412991(v=OCS.15))
+    [Set — CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSimpleUrlEntry](https://technet.microsoft.com/en-us/library/Gg425902(v=OCS.15))
+    [New — CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebOrigin](https://technet.microsoft.com/en-us/library/JJ950236(v=OCS.15))
+    [New — Ксвеборигин](https://technet.microsoft.com/library/JJ950236(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsWebServer](https://technet.microsoft.com/en-us/library/Gg398759(v=OCS.15))
+    [Set — Ксвебсервер](https://technet.microsoft.com/library/Gg398759(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg425751(v=OCS.15))
+    [Get — CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))
 
   - <span></span>  
-    [New-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398440(v=OCS.15))
+    [New — CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398266(v=OCS.15))
+    [Remove — CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))
 
   - <span></span>  
-    [Set-Ксвебсервицеконфигуратион](https://technet.microsoft.com/en-us/library/Gg398396(v=OCS.15))
+    [Set — CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebTrustedCACertificate](https://technet.microsoft.com/en-us/library/Gg412746(v=OCS.15))
+    [New — Ксвебтрустедкацертификате](https://technet.microsoft.com/library/Gg412746(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsKerberosAccount](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [New — CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get — CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [New — CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Remove — CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Set — CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Set — Кскерберосаккаунтпассворд](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+  - [Test-Ксвебапп](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
-  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+  - [Test-Ксвебаппанонимаус](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Сводка по порту — расширяемая Федерация протоколов обмена сообщениями и присутствия (КСМПП)
+title: Сводка по портам — Федерация Extensible Messaging and Presence Protocol (XMPP)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a18129fce98b3bb9bc613f4fc752daadfb6c5ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24bbe3d8e38c5226efa81a55f072f8216791b6a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по порту — расширяемая Федерация протоколов обмена сообщениями и присутствия (КСМПП) в Lync Server 2013
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по портам — Федерация протокола XMPP (Extensible Messaging and Presence Protocol) в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747619"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-20_
+_**Последнее изменение темы:** 2012-10-20_
 
-Порты и протоколы, определенные для прокси-сервера расширяемых сообщений и протоколов КСМПП, развернутых на пограничном сервере, разрешают обмен данными между сервером пограничного сервера КСМПП и допускает передачу данных с пограничного сервера в КСМПП Федеративный партнер. Правило также определяется во внутреннем брандмауэре, доступном на сервере переднего плана или на пограничном пуле, к внешнему и внешнему интерфейсу.
+Порты и протоколы, определенные для прокси-сервера Extensible Messaging and Presence Protocol (XMPP), развернутого на пограничном сервере, разрешают обмен данными между федеративным партнером XMPP на пограничный сервер, а также обеспечивает обмен данными между пограничным сервером и XMPP Федеративный партнер. Кроме того, правило определяется на внутреннем брандмауэре от сервера переднего плана или интерфейсного пула до пограничного сервера или пограничного пула.
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Сводка брандмауэра по протоколу расширенного обмена сообщениями и присутствия
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Сводка по брандмауэру для протокола XMPP
 
 
 <table>
@@ -61,22 +61,22 @@ _**Тема последнего изменения:** 2012-10-20_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>КСМПП/TCP/5269</p></td>
-<td><p>Любой</p></td>
-<td><p>IP-адрес интерфейса службы Edge Access</p></td>
-<td><p>Стандартный коммуникационный порт "сервер-сервер" для КСМПП. Разрешает связь с прокси-сервером пограничного сервера КСМПП от федеративных КСМПП партнеров</p></td>
+<td><p>XMPP/TCP/5269</p></td>
+<td><p>Любые</p></td>
+<td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
+<td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает связь с прокси-сервером пограничного сервера XMPP от федеративных партнеров XMPP</p></td>
 </tr>
 <tr class="even">
-<td><p>КСМПП/TCP/5269</p></td>
-<td><p>IP-адрес интерфейса службы Edge Access</p></td>
-<td><p>Любой</p></td>
-<td><p>Стандартный коммуникационный порт "сервер-сервер" для КСМПП. Разрешает взаимодействие с КСМПП прокси-сервером для федеративных КСМПП партнеров</p></td>
+<td><p>XMPP/TCP/5269</p></td>
+<td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
+<td><p>Любые</p></td>
+<td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает обмен данными от прокси-сервера пограничного сервера XMPP к федеративным партнерам XMPP</p></td>
 </tr>
 <tr class="odd">
-<td><p>КСМПП/MTLS/23456</p></td>
-<td><p>Любой</p></td>
+<td><p>XMPP/MTLS/23456</p></td>
+<td><p>Любые</p></td>
 <td><p>IP-адрес внутреннего интерфейса пограничного сервера</p></td>
-<td><p>Внутренний КСМПП трафик из шлюза КСМПП на сервере переднего плана или в пуле переднего плана на пограничный сервер</p></td>
+<td><p>Внутренний трафик XMPP от шлюза XMPP на сервере переднего плана или интерфейсном пуле к пограничным серверам</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,10 +89,10 @@ _**Тема последнего изменения:** 2012-10-20_
 ## <a name="see-also"></a>См. также
 
 
-[Пример конфигурации XMPP в Lync Server 2013 — федерация XMPP с Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[Пример конфигурации XMPP в Lync Server 2013 – XMPP Федерация с Google говорите](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[Управление федеративными XMPP-партнерами в Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Управление федеративными партнерами XMPP в Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>

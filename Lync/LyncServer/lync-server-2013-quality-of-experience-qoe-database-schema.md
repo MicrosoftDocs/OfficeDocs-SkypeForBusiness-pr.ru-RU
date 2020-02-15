@@ -12,16 +12,16 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cdff416379d26391ca817f242104a433612a011
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ba219bcf473287879f8c198938506749262b726
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746979"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
 В этом документе документируется схема базы данных качества взаимодействия (QoE) в программном обеспечении Microsoft Lync Server 2010 Communications.
 
@@ -43,13 +43,13 @@ _**Тема последнего изменения:** 2012-10-03_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Список таблиц качества взаимодействия в Lync Server 2013](lync-server-2013-list-of-qoe-tables.md)
+  - [Список таблиц QoE в Lync Server 2013](lync-server-2013-list-of-qoe-tables.md)
 
-  - [Данные таблицы качества взаимодействия в Lync Server 2013](lync-server-2013-qoe-table-details.md)
+  - [Сведения о таблице QoE в Lync Server 2013](lync-server-2013-qoe-table-details.md)
 
-  - [QoE просмотра данных в Lync Server 2013](lync-server-2013-qoe-view-details.md)
+  - [QoE View Details in Lync Server 2013](lync-server-2013-qoe-view-details.md)
 
-  - [Образцы запросов к базе данных качества взаимодействия в Lync Server 2013](lync-server-2013-sample-qoe-database-queries.md)
+  - [Примеры запросов к базам данных QoE в Lync Server 2013](lync-server-2013-sample-qoe-database-queries.md)
 
 </div>
 

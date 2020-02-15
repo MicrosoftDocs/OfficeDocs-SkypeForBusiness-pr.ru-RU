@@ -12,16 +12,16 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739769"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-17_
+_**Последнее изменение темы:** 2012-09-17_
 
-В этом разделе объясняется, как пулы интерфейсов верхнего уровня для обеспечения высокой доступности и аварийного восстановления доступны в Lync Server 2013.
+В подразделах этого раздела объясняются интерфейсные пулы возможностей обеспечения высокого уровня доступности и аварийного восстановления в Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Планирование сопоставления для пула переднего плана в Lync Server 2013](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [Планирование связывания пула переднего плана в Lync Server 2013](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [Взаимодействие с пользователем во время сбоя пула в Lync Server 2013](lync-server-2013-user-experience-during-pool-failure.md)
+  - [Взаимодействие с пользователем при отказе пула в Lync Server 2013](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [Высокий уровень доступности серверной части в Lync Server 2013](lync-server-2013-back-end-server-high-availability.md)
+  - [Высокая доступность внутреннего сервера в Lync Server 2013](lync-server-2013-back-end-server-high-availability.md)
 
-  - [Общий доступ к файлам в Lync Server 2013 с высокой доступностью](lync-server-2013-file-sharing-high-availability.md)
+  - [Высокая доступность общего доступа к файлам в Lync Server 2013](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

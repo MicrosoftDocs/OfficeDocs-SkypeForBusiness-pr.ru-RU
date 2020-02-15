@@ -12,16 +12,16 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d327da37188625fd44e01dc6146c5d6341f60fbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e10f172ec6b1d96a94d74a7654ceb908687ad264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766010"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766010"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Процедуры, описанные в этом разделе, можно использовать для изменения свойств учетной записи отдельных пользователей.
+Процедуры, описанные в этом разделе, можно использовать для изменения свойств учетных записей отдельных пользователей.
 
 <div>
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-11-01_
 
 
 [Учетные записи пользователей, включенные для Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Назначение политик для пользователей в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
+[Назначение политик для отдельных пользователей в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

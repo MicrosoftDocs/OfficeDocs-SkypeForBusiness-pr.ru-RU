@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (необязательно) определение группы ответа в рабочее время'
+title: 'Lync Server 2013: определение рабочих часов для группы ответа (необязательно)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 62fe312c08c639293dbd35623d10b58f3e51fe14
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755773"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Необязательно Определение группы ответа в рабочее время в Lync Server 2013
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Необязательно Определение рабочих часов для группы ответа в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755773"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
 <div>
 
@@ -47,7 +47,7 @@ _**Тема последнего изменения:** 2012-11-01_
 
 
 > [!TIP]  
-> При создании или изменении рабочего процесса можно задать настраиваемое расписание, которое будет применяться только к этому рабочему процессу. Дополнительные сведения можно найти в разделе <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Создание или изменение рабочего процесса группы слежения в Lync server 2013</A> или <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Создание или изменение интерактивного рабочего процесса в Lync Server 2013</A>.
+> При создании или изменении рабочего процесса можно указать настраиваемое расписание, которое применяется только к этому рабочему процессу. Дополнительные сведения см. <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">в статье Создание или изменение рабочего процесса сервисной группы в Lync server 2013</A> или <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Создание или изменение интерактивного рабочего процесса в Lync Server 2013</A>.
 
 
 
@@ -77,9 +77,9 @@ _**Тема последнего изменения:** 2012-11-01_
 
 ## <a name="to-create-a-predefined-business-hours-collection"></a>Создание предварительно определенной коллекции рабочих часов
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  Для каждого уникального определяемого диапазона рабочих часов выполните команду:
     
@@ -105,12 +105,12 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Создание или изменение рабочего процесса группы слежения в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[Создание или изменение рабочего процесса сервисной группы в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Создание или изменение интерактивного рабочего процесса в Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+[New — CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[New — CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 
 </div>

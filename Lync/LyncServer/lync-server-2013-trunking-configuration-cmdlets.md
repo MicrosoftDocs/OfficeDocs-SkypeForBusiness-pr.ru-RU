@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты конфигурации с магистральной настройкой'
+title: 'Lync Server 2013: командлеты конфигурации магистрали'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b3bb328b3567cb9a8826412838d7aad0ada386
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34a885d465fec2825c222d578490c4a74e0117de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Командлеты конфигурации для магистрали в Lync Server 2013
+# <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Командлеты настройки магистрали в Lync Server 2013
 
 </div>
 
@@ -35,69 +35,69 @@ ms.locfileid: "41744979"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-08_
+_**Последнее изменение темы:** 2012-10-08_
 
-Командлеты магистральной конфигурации используются для задания параметров однорангового узла, например шлюза коммутируемой телефонной сети (PSTN), IP-адреса общедоступной ветви (УАТС) или контроллера границ сеанса (SBC) в поставщике услуг. Эти параметры управляют, например, тем, включен ли обход мультимедиа в этой магистрали, отправляются пакеты RTCP в определенных условиях и следует ли использовать шифрование SRTP.
+С помощью командлетов конфигурации распределения каналов определяются параметры для объекта кэширующего узла распределения каналов, такого как шлюз телефонной сети общего пользования (ТСОП), УАТС или УАТС на базе протокола IP или пограничный контроллер сеансов у поставщика услуг. Эти параметры определяют, включен ли обход сервера-посредника для этой магистрали, налагаются ли на отправку пакетов протокола RTCP определенные условия и необходимо ли требовать шифрование протокола SRTP.
 
 <div>
 
-## <a name="trunking-configuration-cmdlets"></a>Командлеты конфигурации для магистрали
+## <a name="trunking-configuration-cmdlets"></a>Командлеты конфигурации распределения каналов
 
-Используйте следующие командлеты для настройки магистрали.
+Для конфигурации распределения каналов используйте следующие командлеты.
 
-**Настройка магистрали**
+**Конфигурация распределения каналов**
 
-  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/en-us/library/JJ204741(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204962(v=OCS.15))
-
-  - [New-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205097(v=OCS.15))
-
-  - [Remove-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204836(v=OCS.15))
-
-  - [Set-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205400(v=OCS.15))
+  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
 
 <!-- end list -->
 
-  - <span></span>  
-    [Get-Ксаутбаундтранслатионруле](https://technet.microsoft.com/en-us/library/Gg398104(v=OCS.15))
+  - [Get — CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
 
-  - <span></span>  
-    [New-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg412803(v=OCS.15))
+  - [New — CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
 
-  - <span></span>  
-    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398556(v=OCS.15))
+  - [Remove — CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
 
-  - <span></span>  
-    [Set-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg413073(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsTrunk](https://technet.microsoft.com/en-us/library/JJ205244(v=OCS.15))
+  - [Set — CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398224(v=OCS.15))
+    [Get — CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg413021(v=OCS.15))
+    [New — CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))
+    [Remove — CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398238(v=OCS.15))
+    [Set — CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
 
-  - <span></span>  
-    [Test-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398137(v=OCS.15))
+<!-- end list -->
+
+  - [Get — CsTrunk](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [Get — CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
+
+  - <span></span>  
+    [New — CsTrunkConfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
+
+  - <span></span>  
+    [Remove — CsTrunkConfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [New — Ксвоицережекс](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 

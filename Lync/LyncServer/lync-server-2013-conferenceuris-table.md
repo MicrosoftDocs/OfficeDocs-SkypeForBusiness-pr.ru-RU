@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица ConferenceUris'
+title: 'Lync Server 2013: таблица таблица conferenceuris'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 143e2b44c5b5ddd9cbf630ac17267e0747029aed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferenceuris-table-in-lync-server-2013"></a>Таблица ConferenceUris в Lync Server 2013
+# <a name="conferenceuris-table-in-lync-server-2013"></a>Таблица Таблица conferenceuris в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741579"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-25_
+_**Последнее изменение темы:** 2012-05-25_
 
-Таблица Конференеурис является вспомогательной таблицей, в которой хранится список различных URI конференций, участвующих в сеансах конференц-связи, записанных в базу данных. Каждая запись в таблице представляет один URI конференции.
+ConfereneUris — это вспомогательная таблица, в которой хранится список различных URI конференций, используемых в сеансах конференций, записанных в базе данных. Каждая запись в таблице представляет один URI конференции.
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2012-05-25_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -60,31 +60,31 @@ _**Тема последнего изменения:** 2012-05-25_
 <td><p><strong>некступдатетс</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Primary</p></td>
-<td><p>Метка времени, используемая в качестве внутренней.</p></td>
+<td><p>Метка времени; для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>конференцеуриид</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этот URI конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUri</strong></p></td>
+<td><p><strong>конференцеури</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td></td>
-<td><p>Универсальный код ресурса (URI) Конференции.</p></td>
+<td><p>URI конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Счет</strong></p></td>
-<td><p>целое</p></td>
+<td><p><strong>Контрольная сумма</strong></p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Контрольная сумма для Конференцеури. Используется для увеличения скорости поиска в базе данных.</p></td>
+<td><p>Контрольная сумма ConferenceUri. Используется для повышения скорости поиска в базе данных.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>уритипеид</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Тип URI, например conf: чат для Конференции с помощью мгновенных сообщений или conf: аудио-видео для голосовой и видеоконференции. Более подробную информацию вы увидите в <a href="lync-server-2013-uritypes-table.md">таблице уритипес в таблице Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Тип URI, например conf:chat для конференции обмена мгновенными сообщениями или conf:audio-video для аудио- и видеоконференции. Для получения дополнительных сведений ознакомьтесь со статьей <a href="lync-server-2013-uritypes-table.md">таблица таблица uritypes в таблице Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

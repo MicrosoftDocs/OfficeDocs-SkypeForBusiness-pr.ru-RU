@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования служб IIS'
+title: 'Lync Server 2013: требования к службам IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a086713c4c4c1ea5752c7e1b46ce46e48a0ea42
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040948"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Требования служб IIS в Lync Server 2013
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Требования к службам IIS в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725809"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-19_
+_**Последнее изменение темы:** 2012-06-19_
 
-Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS). В этой статье описаны особые возможности IIS, необходимые для поддержки сервера Lync Server. В подразделах этого раздела описаны требования конкретных компонентов IIS.
+Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS). В этом разделе описываются конкретные компоненты IIS, необходимые для поддержки Lync Server. В подразделах данного раздела рассматриваются требования отдельных компонентов к службам IIS.
 
-Если роль веб-сервера (IIS) включена в Windows Server 2008, по умолчанию устанавливаются различные службы ролей. В приведенной ниже таблице описаны дополнительные службы ролей, которые необходимо установить, если в Windows Server 2008 включена роль веб-сервера (IIS).
+Когда на Windows Server 2008 включена роль «Веб-сервер (IIS)», по умолчанию устанавливаются различные службы роли. В следующей таблице описываются дополнительные службы роли, которые следует установить при включении роли «Веб-сервер (IIS)» в Windows Server 2008.
 
 
 <table>
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-06-19_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Служба ролей</th>
+<th>Служба роли</th>
 <th>Функция</th>
 </tr>
 </thead>
@@ -76,11 +76,11 @@ _**Тема последнего изменения:** 2012-06-19_
 </tr>
 <tr class="even">
 <td><p>Работоспособность и диагностика</p></td>
-<td><p>Средства ведения журналов</p></td>
+<td><p>Средства ведения журнала</p></td>
 </tr>
 <tr class="odd">
-<td><p>Работоспособность и диагностика</p></td>
-<td><p>Трассировка</p></td>
+<td><p>Проверка работоспособности и диагностика</p></td>
+<td><p>Образца</p></td>
 </tr>
 <tr class="even">
 <td><p>Безопасность</p></td>
@@ -92,7 +92,7 @@ _**Тема последнего изменения:** 2012-06-19_
 </tr>
 <tr class="even">
 <td><p>Средства управления</p></td>
-<td><p>Сценарии и средства управления для служб IIS</p></td>
+<td><p>Сценарии и средства управления IIS</p></td>
 </tr>
 <tr class="odd">
 <td><p>Средства управления</p></td>
@@ -107,12 +107,12 @@ _**Тема последнего изменения:** 2012-06-19_
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="разрешения" alt="security" />Примечание о безопасности:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="защиты" alt="security" />Примечание о безопасности:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Если вы используете сервер IIS 7,0 в операционной системе Windows Server 2008, Настройка сервера Lync Server отключает проверку подлинности в режиме ядра в службах IIS.</td>
+<td>Если вы используете IIS 7,0 в операционной системе Windows Server 2008, программа установки Lync Server отключает проверку подлинности в режиме ядра в службах IIS.</td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ _**Тема последнего изменения:** 2012-06-19_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Требования IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

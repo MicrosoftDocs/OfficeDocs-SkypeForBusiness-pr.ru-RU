@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: интеграция с размещенной единой системой обмена сообщениями Exchange'
+title: 'Lync Server 2013: интеграция единой системы обмена сообщениями Exchange Hosted'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fff608d74da3851f810b971f922bafd2e4c1f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 358bdeb20629bcaf69536cb6ac90d8a2d7255485
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Интеграция с размещенной единой системой обмена сообщениями Exchange в Lync Server 2013
+# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Интеграция единой системы обмена сообщениями Exchange в среде Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-20_
+_**Последнее изменение темы:** 2012-09-20_
 
-Помимо поддержки предыдущих выпусков Lync Server 2013 для интеграции с *локальными* развертываниями единой системы обмена сообщениями Exchange (UM), Lync Server 2013 обеспечивает поддержку интеграции с *размещенной* UM-средой Exchange. Размещенная UM-служба Exchange позволяет Lync Server 2013 предоставлять пользователям голосовую почту, если вы переносите их на размещенный поставщик услуг Exchange, например Microsoft Exchange Online.
+Помимо поддержки предыдущих выпусков Lync Server 2013 для интеграции с *локальными* развертываниями единой системы обмена сообщениями Exchange, Lync Server 2013 предоставляет поддержку интеграции с *размещенной* единой системой обмена сообщениями Exchange. Размещенная единая система обмена сообщениями Exchange позволяет Lync Server 2013 предоставлять пользователям голосовые сообщения, если вы переносите их на размещенный поставщик услуг Exchange, такой как Microsoft Exchange Online.
 
-Lync Server 2013 Enterprise Voice использует инфраструктуру UM Exchange для обеспечения ответа на звонки, уведомления о звонках, доступа к голосовой почте (в том числе голосовой почты) и служб автоматического ассистента. Подробные сведения можно найти в разделе [функции интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md).
+Lync Server 2013 Enterprise Voice использует инфраструктуру единой системы обмена сообщениями Exchange для предоставления автоответчика, уведомления о вызовах, голосового доступа (в том числе голосовой почты) и служб автосекретаря. Дополнительные сведения: [функции интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Архитектура и маршрутизация для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-um-architecture-and-routing.md)
+  - [Архитектура и маршрутизация размещенной единой системы обмена сообщениями Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-um-architecture-and-routing.md)
 
   - [Политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md)
 
-  - [Управление пользователями размещенной системы Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md)
+  - [Управление пользователями размещенного сервера Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md)
 
-  - [Управление объектом Contact в размещенной системе Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md)
+  - [Управление объектом контакта размещенного сервера Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md)
 
   - [Процесс развертывания для интеграции размещенной единой системы обмена сообщениями Exchange с Lync Server 2013](lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3b8d474ff451a488124ebfbae0ff0872a6cca1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2497fb60c4eeb0ef9bba499bd131ef6bba10f3ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730559"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41730559"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Если вы попытаетесь запустить мастер слияния построителя топологии без установки пакета обратной совместимости WMI, появится следующее сообщение об ошибке:
+Если попытаться запустить мастер объединения построителя топологий без установки пакета обратной совместимости WMI, появится следующая ошибка.
 
 ![Сообщение об ошибке WMI](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Сообщение об ошибке WMI")
 
-При попытке выполнить командлет **Merge-кслегацитопологи** без установки пакета обратной совместимости WMI появляется следующее сообщение об ошибке:
+Если попытаться запустить командлет **Merge-CsLegacytopology** без установки пакета обратной совместимости WMI, появится следующая ошибка.
 
-![Ошибка поставщика Windows PowerShell WMI](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Ошибка поставщика Windows PowerShell WMI")
+![Ошибка поставщика WMI Windows PowerShell](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Ошибка поставщика WMI Windows PowerShell")
 
-Установка пакета обратной совместимости WMI
+Чтобы установить пакет обратной совместимости WMI, выполните следующие действия.
 
-1.  С установочного \\носителя перейдите к разделу\\Настройка\\\\оксвмибк AMD64. Установщика.
+1.  \\На установочном носителе перейдите в раздел Setup\\оксвмибк\\Setup\\. MSI.
 
-2.  Установите ОКСВМИБК. Установщика.
+2.  Установите OCSWMIBC.MSI.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > ОКСВМИБК. msi должен быть установлен на компьютере, на котором запущен мастер объединения Topology Builder. Тем не менее, мы рекомендуем установить ОКСВМИБК. msi на всех серверах переднего плана в вашей топологии.
+    > Пакет OCSWMIBC.msi должен быть установлен на компьютере, где выполняется мастер объединения построителя топологий. Однако рекомендуется устанавливать OCSWMIBC.msi на всех интерфейсных серверах в используемой топологии.
 
     
     </div>
@@ -64,7 +64,7 @@ _**Тема последнего изменения:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > ОКСВМИБК. msi можно установить на любом компьютере домена, на котором установлены основные компоненты Lync Server 2013 и консоль управления Lync Server 2013, и у него есть доступ к топологии Office Communications Server 2007 R2 (поставщик WMI для домена Active Directory) Службы (AD DS) и SQL Server).
+    > ОКСВМИБК. msi можно установить на любой компьютер в домене, на котором установлены основные компоненты Lync Server 2013 и Командная консоль Lync Server 2013, и получить доступ к топологии Office Communications Server 2007 R2 (поставщик WMI для домена Active Directory) Services (AD DS) и SQL Server).
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: новые функции'
+title: Lync Server 2013 новые функции
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbcb6a3945fbe367f9f4ef706287399631c95c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-features-in-lync-server-2013"></a>Новые серверные функции в Lync Server 2013
+# <a name="new-features-in-lync-server-2013"></a>Новые функции в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41743239"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-04_
+_**Последнее изменение темы:** 2012-10-04_
 
-Lync Server 2013 предлагает множество новых функций, а также существенные улучшения в существующих функциях. В этом разделе приводятся общие сведения о новых возможностях и улучшениях.
+Lync Server 2013 содержит множество новых функций, а также существенные расширения существующих функций. В данном разделе приводится общий обзор этих новых возможностей и улучшений.
 
-Обсуждения новых функций в Lync Server 2013 группируются по темам, описанным в этом разделе.
+Обсуждения новых функций в Lync Server 2013 сгруппированы в подразделах этого раздела.
 
 <div>
 
@@ -49,29 +49,29 @@ Lync Server 2013 предлагает множество новых функци
 
   - [Изменения топологии в Lync Server 2013](lync-server-2013-topology-changes.md)
 
-  - [Новые возможности высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
+  - [Новые функции аварийного восстановления и обеспечения высокой доступности в Lync Server 2013](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
 
   - [Новые функции виртуализации в Lync Server 2013](lync-server-2013-new-virtualization-features.md)
 
-  - [Новые функции обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
+  - [Новые функции обмена мгновенными сообщениями и присутствия в Lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
 
   - [Новые возможности конференц-связи в Lync Server 2013](lync-server-2013-new-conferencing-features.md)
 
   - [Новые функции для доступа внешних пользователей в Lync Server 2013](lync-server-2013-new-features-for-external-user-access.md)
 
-  - [Новые возможности корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
+  - [Новые функции корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
 
-  - [Новые возможности мониторинга в Lync Server 2013](lync-server-2013-new-monitoring-features.md)
+  - [Новые функции мониторинга в Lync Server 2013](lync-server-2013-new-monitoring-features.md)
 
   - [Новые функции архивации в Lync Server 2013](lync-server-2013-new-archiving-features.md)
 
-  - [Новые возможности интеграции с Exchange Server в Lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
+  - [Новые функции интеграции с Exchange Server в Lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
 
   - [Новые функции сервера сохраняемого чата в Lync Server 2013](lync-server-2013-new-persistent-chat-server-features.md)
 
-  - [Новые возможности IPv6 в Lync Server 2013](lync-server-2013-new-ipv6-features.md)
+  - [Новые функции IPv6 в Lync Server 2013](lync-server-2013-new-ipv6-features.md)
 
-  - [Новое единое хранилище контактов в Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
+  - [Новая функция единого хранилища контактов в Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
 
   - [Новые функции видео в Lync Server 2013](lync-server-2013-new-video-features.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: параметры конфигурации собрания'
+title: 'Lync Server 2013: параметры конфигурации собраний'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41766060"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-В Lync Server 2013 политика конференц-связи определяет параметры планирования пользователей и участия в собрании, а также настройки присоединения к собраниям, которые находятся на странице конфигурации собрания, определяют указанные ниже возможности.
+В Lync Server 2013 политика конференц-связи определяет возможности планирования пользователей и участия, а параметры присоединения к собранию, расположенные на странице Конфигурация собрания, определяют следующие параметры:
 
-  - может ли пользователь, выполняющий вызов из ТСОП, переходить в зал;
+  - попадают ли пользователи, подключающиеся из ТСОП, в зал ожидания;
 
-  - кто может быть докладчиком;
+  - кто может провести презентацию;
 
   - назначается ли тип конференции по умолчанию;
 
   - допускаются ли анонимные (непроверенные) пользователи по умолчанию.
 
-В этой статье описано, как настроить параметры присоединения к собранию.
+В подразделах этого раздела описывается настройка параметров присоединения к собранию.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр параметров конфигурации собрания в Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
+  - [Просмотр параметров конфигурации собраний в Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [Создание и изменение коллекции параметров конфигурации собраний в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [Создание или изменение коллекции параметров конфигурации собраний в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [Удаление существующей коллекции параметров конфигурации собрания в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [Удаление существующей коллекции параметров конфигурации собраний в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

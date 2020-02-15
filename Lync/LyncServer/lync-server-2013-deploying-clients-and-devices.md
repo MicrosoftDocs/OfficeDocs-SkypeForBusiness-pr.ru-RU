@@ -12,16 +12,16 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729449"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729449"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-04-03_
+_**Последнее изменение темы:** 2015-04-03_
 
-В этом разделе описаны процедуры для развертывания клиентов и устройств Lync Server 2013.
+В этом разделе описаны процедуры развертывания клиентов и устройств Lync Server 2013.
 
 <div>
 
@@ -45,9 +45,9 @@ _**Тема последнего изменения:** 2015-04-03_
 
   - [Развертывание клиентов Lync в Lync Server 2013](lync-server-2013-deploying-lync-clients.md)
 
-  - [Настройка взаимодействия с клиентом в Skype для бизнеса](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Настройка взаимодействия с клиентом с помощью Skype для бизнеса](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [Развертывание подключаемого модуля VDI Lync в Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+  - [Развертывание подключаемого модуля VDI для Lync в Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
   - [Развертывание Lync Web App в Lync Server 2013](lync-server-2013-deploying-lync-web-app.md)
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2015-04-03_
 
   - [Развертывание мобильных клиентов в Lync Server 2013](lync-server-2013-deploying-mobile-clients.md)
 
-  - [Развертывание приложения Lync из Магазина Windows в Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)
+  - [Развертывание приложения Lync Windows для магазина в Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)
 
  </div>
 

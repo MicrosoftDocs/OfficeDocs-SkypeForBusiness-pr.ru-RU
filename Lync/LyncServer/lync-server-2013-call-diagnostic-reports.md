@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отчеты о диагностике звонков'
+title: 'Lync Server 2013: диагностические отчеты о вызовах'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41100a6cc41c38b3d32870d530f99d8c919a2e83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cd121aa0f93a6fca92293d926c89bf1527931cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Диагностические отчеты о звонках в Lync Server 2013
+# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Диагностические отчеты по вызовам в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41743099"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-21_
+_**Последнее изменение темы:** 2012-10-21_
 
 Диагностические отчеты по вызовам предоставляют сводные сведения и диагностические данные для неудачных одноранговых сеансов связи и сеансов конференц-связи.
 
@@ -43,19 +43,19 @@ _**Тема последнего изменения:** 2012-10-21_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Сводный отчет о вызовах в Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   — Общая сводка сбоев одноранговых сеансов и сеансов конференций. Одноранговые сеансы – это сеансы, в которых только два участника. Сеансы конференц-связи включают не менее трех участников.
+  - [Сводный отчет по диагностике звонков в Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   содержит общие сведения о неудачных одноранговых сеансах и сеансах конференц-связи. Одноранговые сеансы — это сеансы, в которых только два участника. Сеансы конференц-связи включают не менее трех участников.
 
-  - [Диагностический отчет о действиях одноранговой сети в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   обеспечивает общее представление сбоев одноранговых сеансов. В одноранговых сеансах имеется только два участника.
+  - [Диагностический отчет по одноранговым действиям в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   предоставляет общий вид тенденций неудачных одноранговых сеансов. В одноранговых сеансах имеется только два участника.
 
-  - [Отчет о диагностике конференций в Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   предоставляет общее представление о неудачных сеансах и представлениях тенденций для всех модальных конференций. Сеансы конференц-связи включают не менее трех участников.
+  - [Диагностический отчет по конференциям в Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   предоставляет общее представление о неудачных сеансах и представлениях тенденций для каждой модальной Конференции. Сеансы конференц-связи включают не менее трех участников.
 
-  - [Отчет об ошибках Top в Lync Server 2013](lync-server-2013-top-failures-report.md)   предоставляет список наиболее часто используемых сбоев и тенденций их тенденции с течением времени.
+  - [Отчет о самых частых сбоях в Lync Server 2013](lync-server-2013-top-failures-report.md)   предоставляет список наиболее частых сбоев и тенденций их тенденции с течением времени.
 
-  - [Отчет о распределении отказов в Lync Server 2013](lync-server-2013-failure-distribution-report.md)   обеспечивает анализ неудачных сеансов.
+  - [Отчет о распределении сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md)   предоставляет анализ неудачных сеансов.
 
-  - [Отчет о списке отказов в Lync Server 2013](lync-server-2013-failure-list-report.md)   предоставляет подробные сведения об отдельных участниках, вовлеченных в неудачную конференцию.
+  - [Отчет по списку отказов в Lync Server 2013](lync-server-2013-failure-list-report.md)   предоставляет подробные сведения об отдельных участниках, участвующих в неудачной конференции.
 
-  - [Диагностический отчет в Lync Server 2013](lync-server-2013-diagnostic-report.md)   содержит сведения о диагностике и устранении неполадок (в том числе коды ответов SIP и диагностические заголовки и идентификаторы) для сеансов с ошибками.
+  - [Диагностический отчет в Lync Server 2013](lync-server-2013-diagnostic-report.md)   содержит диагностические сведения и сведения об устранении неполадок (в том числе коды ответа SIP и диагностические заголовки и идентификаторы) для сеансов со сбоями.
 
 </div>
 

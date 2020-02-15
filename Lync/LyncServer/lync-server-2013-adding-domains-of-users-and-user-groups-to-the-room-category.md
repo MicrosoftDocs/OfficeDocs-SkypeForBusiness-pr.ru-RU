@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление доменов пользователей и групп пользователей в категорию чата'
+title: 'Lync Server 2013: Добавление доменов пользователей и групп пользователей в категорию комнаты'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9fbbc7ad4fd5279cea1116607193817078a04e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 505702a656fd838fa9ba23b65487ff57963abb30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738149"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>Добавление доменов пользователей и групп пользователей в категорию чата в Lync Server 2013
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>Добавление доменов пользователей и групп пользователей в категорию комнаты в Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738149"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-02-07_
+_**Последнее изменение темы:** 2014-02-07_
 
-Чтобы добавить в комнату чата более крупные группы пользователей, ознакомьтесь с разделами [Настройка категорий в Lync Server 2013](lync-server-2013-configure-categories.md) и [Управление категориями](manage-categories.md) в документации по развертыванию. Например, эта команда добавляет всех пользователей из подразделения Норсамерикаусерс в Active Directory в комнату чата Норсамерика.
+Чтобы добавить крупные группы пользователей в комнату чата, ознакомьтесь со статьей [Настройка категорий в Lync Server 2013](lync-server-2013-configure-categories.md) и [Управление категориями](manage-categories.md) в документации по развертыванию. Например, эта команда добавляет всех пользователей из подразделения Норсамерикаусерс в Active Directory в комнату чата NorthAmerica:
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-Она добавляет всех пользователей из группы рассылки "Finance" в ту же комнату чата.
+Эта команда добавляет всех участников из группы рассылки Finance в ту же комнату чата:
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 

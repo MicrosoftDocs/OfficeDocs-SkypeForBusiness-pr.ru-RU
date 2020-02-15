@@ -12,16 +12,16 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ed85bb49ed48c247c67392d2cf44bd9a9029bf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28eef2990d9f8a43dc594302e6c4d1678f7c3d17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762567"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41762567"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-22_
+_**Последнее изменение темы:** 2012-09-22_
 
-Действия по развертыванию и настройке, которые необходимо выполнить, зависят от функции голосовой связи или функциональных возможностей, которые вы добавляете в среду Lync Server 2013.
+Действия по развертыванию и настройке, которые необходимо выполнить, зависят от функции корпоративной голосовой связи или функциональных возможностей, добавляемых в среду Lync Server 2013.
 
 <div>
 
 ## <a name="feature-deployment-overviews"></a>Обзоры развертывания компонентов
 
-Общие сведения о развертывании сети PSTN можно найти в следующих статьях:
+Обзор развертывания подключения ТСОП см. в следующих разделах:
 
-  - [Контрольный список развертывания для каналов SIP для Lync Server 2013](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [Контрольный список развертывания магистрали SIP для Lync Server 2013](lync-server-2013-sip-trunk-deployment-checklist.md)
 
-  - [Варианты развертывания прямого SIP-подключения в Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
+  - [Параметры прямого развертывания SIP в Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [Планирование маршрутизации исходящей голосовой почты в Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
+  - [Планирование маршрутизации исходящих голосовых вызовов в Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
 
-Общие сведения о развертывании единой системы обмена сообщениями Exchange (UM) можно найти в следующих статьях:
+Общие сведения о развертывании единой системы обмена сообщениями Exchange (UM) приведены в следующих статьях:
 
   - [Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
-Общие сведения о развертывании средств управления допуском звонков можно найти в следующих статьях:
+Обзор развертывания контроля допуска звонков см. в следующем разделе:
 
   - [Контрольный список развертывания для контроля допуска звонков в Lync Server 2013](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
-Обзор процесса развертывания экстренных служб можно найти в следующих статьях:
+Обзор развертывания экстренных служб см. в следующих разделах:
 
   - [Определение требований для экстренных вызовов в Lync Server 2013](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [Выбор поставщика услуг E9-1-1 для Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [Контрольный список развертывания для E9-1-1 в Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Контрольный список развертывания для E9 – 1 – 1 в Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-Общие сведения о развертывании частных телефонных линий можно найти в разделе "личные телефонные линии в смешанных развертываниях" [планирования для частных телефонных линий с помощью Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).
+Общие сведения о развертывании частных телефонных линий можно найти в разделе "частные телефонные линии в смешанных развертываниях" [планирования для частных телефонных линий с помощью Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).
 
-Общие сведения о развертывании возможностей обработки звонков (стоянка звонков, приложения для объявлений и группы ответа) можно найти в следующих статьях:
+Обзор развертывания функций обработки звонков (парковка вызова, приложение "Оповещение" и группы ответа) см. в следующем разделе:
 
-  - [Процесс развертывания для парковки звонков в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Процесс развертывания для парковки вызовов в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [Процесс развертывания приложения для объявлений в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Процесс развертывания приложения "объявление" в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

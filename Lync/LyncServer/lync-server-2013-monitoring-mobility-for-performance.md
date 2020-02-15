@@ -12,20 +12,20 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131a6a4dd6fffb3081ff2b1dee58318afd525eaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Мониторинг мобильных устройств для повышения производительности в Lync Server 2013
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Наблюдение за производительностью мобильных устройств в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756823"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-14_
+_**Последнее изменение темы:** 2013-02-14_
 
-Служба мобильной связи Lync Server (МККС) и веб-интерфейс единой системы обмена сообщениями (УКВА) увеличивают нагрузку на сервер переднего плана и пулы интерфейсов. Мобильные устройства, поддерживающие подключение к серверу даже в том случае, если мобильное приложение свернуто, например устройства Android и Nokia, работающие под управлением Lync 2010 Mobile, а также устройства Android и Apple, работающие под управлением Lync 2013 для мобильных устройств, выпускают больше нагрузки, чем устройства, которые прерывать соединение с сервером, когда мобильное приложение свернуто. As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.
+Служба Mobility Server Mobility Service (MCX) и веб-API объединенных коммуникаций (UCWA) увеличивают нагрузку на серверы переднего плана и пулы переднего плана. Мобильные устройства, которые поддерживают подключение к серверу, даже если мобильное приложение свернуто, например устройства Android и Nokia, работающие под управлением Lync 2010 Mobile, а также устройства с Android и Apple, работающие под управлением Lync 2013 Mobile, накладывают большую нагрузку, чем устройства, которые разрыв подключения к серверу, когда мобильное приложение свернуто. По мере роста использования мобильных устройств необходимо следить за производительностью мобильных устройств, чтобы определить, когда нужно увеличить емкость.
 
 Некоторые ограничения, влияющие на производительность мобильности:
 
@@ -49,15 +49,15 @@ _**Тема последнего изменения:** 2013-02-14_
 
   - длина очереди IIS.
 
-Другие ограничения на серверах, которые могут повлиять на производительность мобильных устройств, задаются максимум двенадцать одновременных входов, проверок подлинности, продления сеансов и прекращений. В большинстве развертываний эти максимальные значения не нуждаются в изменении.
+Другие ограничения на серверах, которые могут повлиять на производительность мобильных устройств, могут быть не более двенадцати, чем двенадцать одновременных входов, проверки подлинности, продления сеанса и завершения. В большинстве развертываний эти максимальные значения не нуждаются в изменении.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Наблюдение за пределами объема памяти сервера в Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+  - [Мониторинг пределов объема памяти сервера в Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [Наблюдение за работой службы Mobility Service и использованием УКВА в Lync Server 2013](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [Мониторинг службы Mobility Service и использования UCWA в Lync Server 2013](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
   - [Настройка службы Mobility Service для высокой производительности в Lync Server 2013](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762467"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-10_
+_**Последнее изменение темы:** 2012-09-10_
 
-Вам необходимо определить и понять требования инфраструктуры к развертыванию, чтобы вы могли планировать, как эти требования необходимо выполнить перед развертыванием сервера Lync Server.
+Необходимо определить и понять требования к инфраструктуре для развертывания, поэтому вы можете спланировать выполнение этих требований перед развертыванием Lync Server.
 
 <div>
 
@@ -47,9 +47,9 @@ _**Тема последнего изменения:** 2012-09-10_
 
   - [Требования к инфраструктуре Active Directory для Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [Требования инфраструктуры сертификатов для Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [Требования к инфраструктуре сертификатов для Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [Требования служб IIS в Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [Требования к службам IIS в Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

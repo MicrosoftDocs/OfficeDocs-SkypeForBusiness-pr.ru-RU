@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка парковки вызовов'
+title: 'Lync Server 2013: Настройка парковки вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2932053e8224b751c124c80152c097d9da82e517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41758347"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-30_
+_**Последнее изменение темы:** 2012-10-30_
 
-Метод парковки позволяет корпоративному голосовому пользователю перевести звонок на удержание с одного телефона и затем получить его позже, набрав внутренний номер (например, *орбита на обороте*) с любого телефона.
+Парковки вызовов позволяет пользователю корпоративной голосовой связи выполнять вызов на удержании с одного телефона и затем извлекать вызов позже, набираемый внутренний номер (как *орбиту*парковки вызовов) с любого телефона.
 
-Компоненты, используемые при использовании функции парковки, автоматически устанавливаются и включаются на сервере переднего плана или стандартном сервере Standard Edition при развертывании корпоративной голосовой связи. Однако вы должны настроить приостановку звонков, прежде чем она будет доступна для пользователей.
+Компоненты, используемые для парковки вызовов, автоматически устанавливаются и включаются на сервере переднего плана или сервере Standard Edition при развертывании корпоративной голосовой связи. Тем не менее, необходимо настроить парковки вызовов, прежде чем он будет доступен пользователям.
 
-В этом разделе рассказывается, как настроить приостановку звонка.
+В этом разделе описывается настройка парковки вызовов.
 
 <div>
 
@@ -49,19 +49,19 @@ _**Тема последнего изменения:** 2012-10-30_
 
   - [Необходимые условия и права пользователя для настройки парковки вызовов в Lync Server 2013](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
 
-  - [Процесс развертывания для парковки звонков в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Процесс развертывания для парковки вызовов в Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
   - [Настройка таблицы орбит парковки вызовов в Lync Server 2013](lync-server-2013-configure-the-call-park-orbit-table.md)
 
-  - [Настройка параметров парковки звонков в Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
+  - [Настройка параметров парковки вызовов в Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
 
-  - [Настройка музыкального сопровождения для приема звонков на удержании в Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [Настройка музыки парковки вызовов на удержании в Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [Включение приостановки звонков для пользователей в Lync Server 2013](lync-server-2013-enable-call-park-for-users.md)
+  - [Включение парковки вызовов для пользователей в Lync Server 2013](lync-server-2013-enable-call-park-for-users.md)
 
-  - [Проверка правил нормализации для парковки звонков в Lync Server 2013](lync-server-2013-verify-normalization-rules-for-call-park.md)
+  - [Проверка правил нормализации для парковки вызовов в Lync Server 2013](lync-server-2013-verify-normalization-rules-for-call-park.md)
 
-  - [Необязательно Проверка развертывания парковки звонков в Lync Server 2013](lync-server-2013-optional-verify-call-park-deployment.md)
+  - [Необязательно Проверка развертывания парковки вызовов в Lync Server 2013](lync-server-2013-optional-verify-call-park-deployment.md)
 
 </div>
 

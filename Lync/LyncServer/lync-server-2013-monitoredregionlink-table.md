@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица MonitoredRegionLink'
+title: 'Lync Server 2013: таблица таблица monitoredregionlink'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5608aa36a76fe59743ed8bb24e88514822a893e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 521996e17c3827b0d2c7e7796a8e95b73f805a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766000"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoredregionlink-table-in-lync-server-2013"></a>Таблица MonitoredRegionLink в Lync Server 2013
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a>Таблица Таблица monitoredregionlink в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766000"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Таблица Мониторедрегионлинк является вспомогательной таблицей. Каждая запись представляет одну связь между двумя странами и областями.
+Таблица MonitoredRegionLink является вспомогательной. Каждая запись представляет одно соединение между странами/регионами.
 
 
 <table>
@@ -49,24 +49,24 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Region1Key</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>Ссылка на который указан в <a href="lync-server-2013-region-table.md">таблице Region в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Основной, Внешний</p></td>
+<td><p>Ссылка из <a href="lync-server-2013-region-table.md">таблицы Region в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Region2Key</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>Ссылка на который указан в <a href="lync-server-2013-region-table.md">таблице Region в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Основной, Внешний</p></td>
+<td><p>Ссылка из <a href="lync-server-2013-region-table.md">таблицы Region в Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd85ae37b317368a1d79ed46fd3752b6a475bd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca71086b888a522869e2b273299a73df5e9cc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765870"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Нетворкконфигуратионсеттингс представления в Lync Server 2013
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a>Представление Нетворкконфигуратионсеттингс в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765870"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-В представлении Нетворкконфигуратионсеттингс хранятся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении NetworkConfigurationSettings содержатся сведения о конфигурации сети. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -50,13 +50,13 @@ _**Тема последнего изменения:** 2012-10-03_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>субнетип</p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>IP-адрес подсети (поддерживаются только адреса IPv4).</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ _**Тема последнего изменения:** 2012-10-03_
 <tr class="odd">
 <td><p>регионнаме</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Название страны или региона пользователя.</p></td>
+<td><p>Имя страны/региона пользователя.</p></td>
 </tr>
 </tbody>
 </table>

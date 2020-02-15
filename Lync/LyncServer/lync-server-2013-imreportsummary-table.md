@@ -12,16 +12,16 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 287fc0ceff26a5940d717b4efa1ef2c525acb0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763823"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-20_
+_**Последнее изменение темы:** 2012-08-20_
 
-Имрепортсуммаритабле предоставляет общий отчет о сеансах обмена мгновенными сообщениями, которые хранятся в Организации. Эта таблица введена в Microsoft Lync Server 2013.
+В таблице IMReportSummaryTable приводится общий отчет о сеансах обмена мгновенными сообщениями, которые проводятся в организации. Эта таблица была введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2012-08-20_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -63,34 +63,34 @@ _**Тема последнего изменения:** 2012-08-20_
 <td><p>Дата и время начала сеанса обмена мгновенными сообщениями.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>тимепериод</strong></p></td>
+<td><p><strong>Время</strong></p></td>
 <td><p>char (1)</p></td>
 <td><p>Primary</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>пулфкдн</strong></p></td>
+<td><p><strong>PoolFQDN</strong></p></td>
 <td><p>nvarchar (257)</p></td>
 <td><p>Primary</p></td>
-<td><p>Полное доменное имя пула, на котором размещается сеанс.</p></td>
+<td><p>Полное доменное имя пула, в котором размещается сеанс.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>аустипе</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Приоритет звонка (например, срочной или несрочный). Сведения о приоритетах хранятся в <a href="lync-server-2013-callpriorities-table.md">таблице каллприоритиес в Lync Server 2013</a>.</p></td>
+<td><p>Приоритет звонка (например, срочный или несрочный). Сведения о приоритетах хранятся в <a href="lync-server-2013-callpriorities-table.md">таблице таблица callpriorities в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>сессионкаунт</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>типу</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>мсгкаунт</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>типу</p></td>
 <td></td>
-<td><p>Общее количество мгновенных сообщений, пересылаемых во время сеанса.</p></td>
+<td><p>Общее число мгновенных сообщений, отправленных в рамках сеанса.</p></td>
 </tr>
 </tbody>
 </table>

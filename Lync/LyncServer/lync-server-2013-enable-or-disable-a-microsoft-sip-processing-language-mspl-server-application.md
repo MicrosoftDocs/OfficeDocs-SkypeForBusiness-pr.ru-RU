@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Включение и отключение серверного приложения на языке обработки Microsoft SIP (МСПЛ)'
+title: 'Lync Server 2013: Включение или отключение серверного приложения Microsoft SIP Processing Language (MSPL)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12fb1160742898b65b14ea17bc10a9c6ed56c780
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e8aac965a375520ac46534846a65b67e6d9f92c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Включение и отключение серверного приложения Microsoft SIP Languageing (МСПЛ) в Lync Server 2013
+# <a name="enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application-in-lync-server-2013"></a>Включение и отключение серверного приложения Microsoft SIP Processing Language (MSPL) в Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41736209"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
-С помощью панели управления Lync Server можно включать и отключать серверные приложения Microsoft SIP Language (МСПЛ), которые выполняются в среде Lync Server 2013. Эти приложения предназначены только для приложений, использующих язык сценариев вместо API Microsoft Lync 2013 Preview.
+С помощью панели управления Lync Server можно включать и отключать серверные приложения Microsoft SIP Processing Language (MSPL), выполняемые в среде Lync Server 2013. Эти приложения представляют собой приложения на основе сценариев, которые вместо Microsoft Lync 2013 Preview API используют язык сценариев.
 
-Не все сценарии можно включать и отключать. Например, сценарий Дефаултраутинг включается, и этот параметр невозможно изменить для Дефаултраутинг.
+Не все сценарии могут быть включены или отключены. Например, сценарий DefaultRouting включен и это значение нельзя изменить.
 
 <div>
 
-## <a name="to-enable-or-disable-an-mspl-server-application"></a>Включение и отключение серверного приложения МСПЛ
+## <a name="to-enable-or-disable-an-mspl-server-application"></a>Включение или отключение серверного приложения MSPL
 
-1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **топология** и щелкните **серверное приложение**.
+3.  В левой панели навигации щелкните **Topology** (Топология) и затем щелкните **Server Application** (Серверное приложение).
 
-4.  На странице **серверное приложение** щелкните заголовок столбца, чтобы отсортировать приложения, если необходимо, а затем выберите серверное приложение, которое вы хотите изменить.
+4.  На странице **Server Application** (Серверное приложение) щелкните заголовок столбца, чтобы отсортировать приложения при необходимости, и затем выберите серверное приложение, которое нужно изменить.
 
-5.  Нажмите кнопку **действие**.
+5.  Щелкните меню **Action** (Действие).
 
-6.  Нажмите кнопку **включить приложение** или **отключить приложение** (то есть, если сценарий поддерживает этот параметр).
+6.  Щелкните **Enable application** (Включить приложение) или **Disable application** (Отключить приложение) (если сценарий поддерживает этот параметр).
 
 </div>
 
@@ -64,7 +64,7 @@ _**Тема последнего изменения:** 2012-09-21_
 ## <a name="see-also"></a>См. также
 
 
-[Пометка приложения на языке обработки Microsoft SIP (МСПЛ) как критическое или некритическое в Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[Помечает приложение Microsoft SIP Process Language (MSPL) как критическое или некритическое в Lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
 
 
 [Просмотр серверных приложений Microsoft SIP Processing Language (MSPL) в Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  

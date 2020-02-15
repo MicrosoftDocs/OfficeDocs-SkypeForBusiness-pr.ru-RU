@@ -12,16 +12,16 @@ ms:contentKeyID: 49733551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc796ec5489cce79b091a92144816266d1cb6ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7972b522b2dd0108bc2b053de806228ffdcf4b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41725409"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-07-05_
+_**Последнее изменение темы:** 2013-07-05_
 
-Этот раздел содержит разделы, посвященные планированию простого управления развертыванием Lync Server 2013.
+В этом разделе содержатся разделы, посвященные планированию простого управления развертыванием Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Планирование контроля доступа на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)
+  - [Планирование управления доступом на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)
 
   - [Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты адресной книги сервера'
+title: 'Lync Server 2013: Командлеты сервера адресной книги'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5117b7a17d607ec995df371fd0cd80fd7c05aeab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1782dbc22b94ed492878c545df70fa1bdaaeeeb3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41737999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-26_
+_**Последнее изменение темы:** 2012-06-26_
 
-Серверы адресной книги являются посредниками между доменными службами Active Directory и Microsoft Lync Server 2013. Сервер адресной книги обеспечивает синхронизацию сведений о пользователях, хранящихся в Lync Server 2013, с информацией о пользователе, хранящейся в службе каталогов Active Directory. Это можно сделать, периодически синхронизируя файлы адресной книги с данными, хранящимися в базе данных пользователей. В свою очередь, Lync Server включает несколько командлетов для управления серверами адресной книги.
+Серверы адресной книги являются посредниками между доменными службами Active Directory и Microsoft Lync Server 2013. Сервер адресной книги обеспечивает синхронизацию сведений о пользователях, хранящихся в Lync Server 2013, с информацией о пользователях, хранящейся в Active Directory. Для этого файлы адресной книги периодически синхронизируются с данными, хранящимися в пользовательской базе данных. В свою очередь, Lync Server включает ряд командлетов для управления серверами адресной книги.
 
 <div>
 
-## <a name="address-book-server-cmdlets"></a>Командлеты сервера адресной книги
+## <a name="address-book-server-cmdlets"></a>Address Book Server Cmdlets
 
-Вы не можете настроить параметры сервера адресной книги на панели управления Lync Server. Windows PowerShell — это основной инструмент для управления этими параметрами. Ниже приведен список командлетов, непосредственно связанных с администрированием сервера адресной книги.
+Параметры сервера адресной книги невозможно настроить в панели управления Lync Server. Windows PowerShell — это основное средство для управления этими параметрами. Ниже приведен список командлетов, которые непосредственно связаны с управлением серверами адресной книги.
 
-**адресной книги**
-
-  - <span></span>  
-    [Get-Ксаддрессбукконфигуратион](https://technet.microsoft.com/en-us/library/Gg398132(v=OCS.15))
+**Сервер адресной книги**
 
   - <span></span>  
-    [New-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398395(v=OCS.15))
+    [Get — CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))
+    [New — CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg412784(v=OCS.15))
+    [Remove — CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsAddressBook](https://technet.microsoft.com/en-us/library/Gg398194(v=OCS.15))
+    [Update — CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-CsAddressBookReplication](https://technet.microsoft.com/en-us/library/JJ205232(v=OCS.15))
+    [Debug — CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-Ксаддрессбуксервице](https://technet.microsoft.com/en-us/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/en-us/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 

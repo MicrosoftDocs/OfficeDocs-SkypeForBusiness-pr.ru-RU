@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Маршруты сетевого региона'
+title: 'Lync Server 2013: Маршруты областей сети'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83db08d7e0630a74ae5c4366afb3b18ed9d7e567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765900"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049111"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-region-routes-in-lync-server-2013"></a>Маршруты к сетевым регионам в Lync Server 2013
+# <a name="network-region-routes-in-lync-server-2013"></a>Маршруты областей сети в Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41765900"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-*Маршрут к сетевому региону* определяет маршрут между парой областей сети. Для каждой пары областей сети в развертывании средства управления допуском звонков требуется маршрут к сетевому региону. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону. В этом разделе описаны процедуры для просмотра, создания, изменения и удаления маршрутов сетевого региона.
+*Маршрут между областями сети* определяет путь между парой сетевых областей. Для каждой пары сетевых областей в развертывании контроля допуска звонков необходим маршрут между областями сети. Благодаря этому каждая область сети в рамках развертывания может получить доступ к каждой другой области. В этом разделе описаны процедуры для просмотра, создания, изменения и удаления маршрутов между областями сети.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Создание и изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [Создание или изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [Просмотр сведений о маршруте в сетевом регионе в Lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
+  - [Просмотр сведений о маршруте области сети в Lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [Удаление существующих маршрутов сетевого региона в Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [Удаление существующих маршрутов областей сети в Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a>Справка
+## <a name="reference"></a>Справочные материалы
 
-[Развертывание улучшенных функций голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

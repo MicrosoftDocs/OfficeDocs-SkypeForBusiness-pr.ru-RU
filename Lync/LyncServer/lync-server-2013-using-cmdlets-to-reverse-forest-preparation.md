@@ -12,20 +12,20 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b893eb79cb19856572e90bd449b315f0ade803c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Использование командлетов для отмены подготовки леса в Lync Server 2013
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Использование командлетов для отмены подготовки леса для Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744189"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-06-19_
+_**Последнее изменение темы:** 2013-06-19_
 
-Используйте командлет **Disable-ксадфорест** для реверсирования этапа подготовки леса.
+Используйте командлет **Disable-CsAdForest**, чтобы отменить этап подготовки леса.
 
 <div>
 
 
 > [!WARNING]  
-> Если запустить командлет <STRONG>Disable-ксадфорест</STRONG> в среде, где также уже развернута Предыдущая версия Lync Server, будут также удалены глобальные параметры для предыдущей версии.
+> При запуске командлета <STRONG>Disable – CsAdForest</STRONG> в среде, где также развернута Предыдущая версия Lync Server, также будут удалены глобальные параметры для предыдущей версии.
 
 
 
@@ -51,23 +51,23 @@ _**Тема последнего изменения:** 2013-06-19_
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>Использование командлетов для обратной подготовки леса
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>Использование командлетов для отмены подготовки леса
 
-1.  Войдите в систему на компьютере, который входит в состав домена, в качестве члена группы администраторов домена в корневом домене леса.
+1.  Выполните вход в систему компьютера, который подключен к домену в качестве члена группы администраторов домена в корневом домене леса.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Выполните следующую команду:
+3.  Выполняем
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
-    Например:
+    Пример:
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    Параметр Force указывает, требуется ли принудительное выполнение задачи. Если этот параметр не указан, команда не будет выполняться, если даже один домен в лесу все еще подготовлен для Lync Server 2013. Если указан параметр Force, действие будет продолжено независимо от состояния других доменов в лесу.
+    Параметр Force определяет, следует ли инициировать принудительное выполнение задачи. Если этот параметр отсутствует, команда не будет выполняться, если даже один домен в лесу все еще подготовлен для Lync Server 2013. Если параметр Force указан, выполнение действия продолжается независимо от состояния других доменов в лесу.
     
-    Если параметр Граупдомаин не указан, значение по умолчанию — локальный домен.
+    Если параметр GroupDomain не указан, значением по умолчанию является локальный домен.
 
 </div>
 
@@ -76,7 +76,7 @@ _**Тема последнего изменения:** 2013-06-19_
 ## <a name="see-also"></a>См. также
 
 
-[Проведение подготовки леса для Lync Server 2013](lync-server-2013-running-forest-preparation.md)  
+[Выполнение подготовки леса для Lync Server 2013](lync-server-2013-running-forest-preparation.md)  
 
 
 [Подготовка леса для Lync Server 2013](lync-server-2013-preparing-the-forest.md)  

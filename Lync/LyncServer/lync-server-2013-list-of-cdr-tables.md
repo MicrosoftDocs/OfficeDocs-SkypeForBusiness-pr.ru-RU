@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: список таблиц регистрации звонков'
+title: 'Lync Server 2013: список таблиц CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0c620eaf6b54a89604071a18f445d20816178bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6f7f6fed1fad8cf706b86ef0cb141ab04fb39382
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765437"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Список таблиц регистрации звонков в Lync Server 2013
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Список таблиц CDR в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765437"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-Схема базы данных для записи сведений о звонке (CDR) состоит из следующих таблиц.
+Схема базы данных регистрации вызовов (call detail recording — CDR) состоит из следующих таблиц.
 
 <div>
 
@@ -51,38 +51,38 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-callpriorities-table.md">Таблица SessionCorrelation в Lync Server 2013</a></p></td>
-<td><p>Хранит список возможных приоритетов звонков, например, экстренных, срочных, обычных, несрочных и т. д.</p></td>
+<td><p><a href="lync-server-2013-callpriorities-table.md">Таблица Таблица callpriorities в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка возможных приоритетов вызовов (включая аварийные, срочные, обычные, несрочные и т. д.).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">Таблица Конференцежоинтимесрешолдс в Lync Server 2013</a></p></td>
-<td><p>Хранит границы классификации, используемые в сводном отчете "время присоединения к Конференции".</p></td>
+<td><p><a href="lync-server-2013-conferencejointimethresholds-table.md">Таблица Таблица conferencejointimethresholds в Lync Server 2013</a></p></td>
+<td><p>Сохранение границ классификации, используемых в отчете со сводными данными по времени подсоединения к конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-deregistertype-table.md">Таблица DeRegisterType в Lync Server 2013</a></p></td>
-<td><p>Хранит список возможных причин, по которым пользователь может отменить регистрацию, например &quot;инициирование клиента&quot; &quot;, истек срок регистрации&quot; &quot;, сбой клиента&quot; и многое другое.</p></td>
+<td><p><a href="lync-server-2013-deregistertype-table.md">Таблица Таблица deregistertype в Lync Server 2013</a></p></td>
+<td><p>Хранит список возможных причин отмены регистрации пользователей, таких как &quot;инициирование клиента,&quot; &quot;срок действия регистрации,&quot; &quot;сбой клиента&quot; и многое другое.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-medialist-table.md">Таблица MediaList в Lync Server 2013</a></p></td>
-<td><p>Хранит список типов мультимедиа, которые могут создавать записи в базе данных (например, мгновенные сообщения, звук, видео и передачу файлов).</p></td>
+<td><p><a href="lync-server-2013-medialist-table.md">Таблица Таблица medialist в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка типов мультимедиа, которые могут создавать записи в базе данных (например, чат, аудио, видео и передача файлов).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table.md">Таблица Пуржесеттингс в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о том, будут ли (и когда) устаревшие записи о вызовах автоматически удалены из базы данных CDR.</p></td>
+<td><p><a href="lync-server-2013-purgesettings-table.md">Таблица Таблица purgesettings в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации, определяющей, следует ли (и когда) автоматически удалять устаревшие записи о вызовах из базы данных CDR.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-roles-table.md">Таблица Roles в Lync Server 2013</a></p></td>
-<td><p>Хранит список возможных ролей конференции (например, участника и выступающего).</p></td>
+<td><p>Сохранение списка возможных ролей участников конференции (например, участник и докладчик).</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-sipresponsemetadata-table.md">Таблица Сипреспонсеметадата в Lync Server 2013</a></p></td>
-<td><p>Содержит список кодов ответов SIP и классификацию и определение каждого из этих кодов.</p></td>
+<td><p>Сохранение списка кодов ответов SIP, классификации и определения каждого из этих кодов.</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,82 +102,82 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-clientversions-table.md">Таблица ClientVersions в Lync Server 2013</a></p></td>
-<td><p>Хранит клиентов (тип клиента и номер версии) каждого клиента, участвующего в вызове, с данными, захваченными в этой базе данных.</p></td>
+<td><p><a href="lync-server-2013-clientversions-table.md">Таблица Таблица clientversions в Lync Server 2013</a></p></td>
+<td><p>Сохранение клиентов (включая тип клиента и номер версии) каждого клиента, участвующего в вызове, с указанием информации, собранной в этой базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferenceuris-table.md">Таблица ConferenceUris в Lync Server 2013</a></p></td>
-<td><p>Хранит список Конференцеурис, используемых в звонках, связанных с Конференцией.</p></td>
+<td><p><a href="lync-server-2013-conferenceuris-table.md">Таблица Таблица conferenceuris в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка кодов URI конференций, которые используются в вызовах, связанных с конференцией.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-contenttypes-table.md">Таблица ContentTypes в Lync Server 2013</a></p></td>
-<td><p>Хранит список типов контента SIP, которые используются в одноранговых звонках и конференц-связи.</p></td>
+<td><p>Сохранение списка типов содержимого SIP (Session Initiation Protocol), которые используются и в одноранговых вызовах, и в конференц-вызовах.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devices-table.md">Таблица Devices в Lync Server 2013</a></p></td>
-<td><p>Хранит список устройств, в том числе изготовителя, аппаратную версию и MAC-адрес.</p></td>
+<td><p>Сохранение списка устройств, включая производителя, версию оборудования и MAC-адрес.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о коде диалогового окна для каждого сеанса в базе данных.</p></td>
+<td><p><a href="lync-server-2013-dialogs-table.md">Таблица диалогов в Lync Server 2013</a></p></td>
+<td><p>Сохранение идентификаторов диалогов для каждого сеанса в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-edgeservers-table.md">Таблица EdgeServers в Lync Server 2013</a></p></td>
-<td><p>Хранит список пограничных серверов, которые используются при внешних звонках.</p></td>
+<td><p><a href="lync-server-2013-edgeservers-table.md">Таблица Таблица edgeservers в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка пограничных серверов, которые используются для внешних вызовов.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-gateways-table.md">Таблица Gateways в Lync Server 2013</a></p></td>
-<td><p>Хранит список шлюзов, используемых для звонков по протоколу голосовой связи через Интернет (VoIP).</p></td>
+<td><p>Сохранение списка шлюзов, которые используются для вызовов по протоколу VoIP.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-hardwareversions-table.md">Таблица HardwareVersions в Lync Server 2013</a></p></td>
-<td><p>Хранит список аппаратных версий устройств (стационарных телефонов).</p></td>
+<td><p><a href="lync-server-2013-hardwareversions-table.md">Таблица Таблица hardwareversions в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка аппаратных версий устройств (стационарный телефон).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-manufacturers-table.md">Таблица Manufacturers в Lync Server 2013</a></p></td>
-<td><p>Хранит список изготовителей устройств (стационарный телефон).</p></td>
+<td><p><a href="lync-server-2013-manufacturers-table.md">Таблица производителей в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка производителей устройств (стационарный телефон).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcus-table.md">Таблица Mcus в Lync Server 2013</a></p></td>
-<td><p>В этой папке хранятся сведения о различных серверах конференций/V и их URI.</p></td>
+<td><p><a href="lync-server-2013-mcus-table.md">Таблица MCUs в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о различных серверах конференц-связи (аудио-видео) и их кодов URI.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-mediationservers-table.md">Таблица MediationServers в Lync Server 2013</a></p></td>
-<td><p>Хранит список серверов-посредников, используемых для звонков по протоколу VoIP.</p></td>
+<td><p><a href="lync-server-2013-mediationservers-table.md">Таблица Таблица mediationservers в Lync Server 2013</a></p></td>
+<td><p>Сохранение списка серверов-посредников, используемых для выполнения вызовов по протоколу VoIP.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-phones-table.md">Таблица Phones в Lync Server 2013</a></p></td>
-<td><p>Хранит все телефонные номера, используемые для звонков по протоколу VoIP, которые были заархивированы или в которых были записаны сведения о звонках.</p></td>
+<td><p><a href="lync-server-2013-phones-table.md">Таблица phones в Lync Server 2013</a></p></td>
+<td><p>Сохранение всех номеров телефона, использованных для выполнения вызовов по протоколу VoIP, которые были архивированы или сведения о которых были зарегистрированы.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-pools-table.md">Таблица Pools в Lync Server 2013</a></p></td>
-<td><p>Хранит имена групп, в которых регистрируются МГНОВЕНные сообщения.</p></td>
+<td><p>Сохранение имен пула, в котором записываются мгновенные сообщения.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-servers-table.md">Таблица Servers в Lync Server 2013</a></p></td>
-<td><p>Хранит имена серверов, участвующих в звонках.</p></td>
+<td><p>Сохранение имен серверов, участвующих в вызовах.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tenants-table.md">Таблица Tenants в Lync Server 2013</a></p></td>
-<td><p>Хранит клиентов, которые поддерживаются текущим развертыванием. Некоторые клиентские сборки для корпоративных пользователей, федеративного пользователя, общего пользователя подключения к обмену мгновенными сообщениями и анонимные пользователи.</p></td>
+<td><p><a href="lync-server-2013-tenants-table.md">Таблица клиентов в Lync Server 2013</a></p></td>
+<td><p>Сохранение клиентов, поддерживаемых текущим развертыванием. Существует ряд встроенных клиентов для корпоративных пользователей, федеративных пользователей, пользователей с подключением к общедоступным системам обмена мгновенными сообщениями и анонимных пользователей.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-useragentdef-table.md">Таблица Усеражентдеф в Lync Server 2013</a></p></td>
-<td><p>Сопоставляет идентификаторы агента пользователя с описательными именами агента.</p></td>
+<td><p><a href="lync-server-2013-useragentdef-table.md">Таблица Таблица useragentdef в Lync Server 2013</a></p></td>
+<td><p>Привязка идентификаторов агента пользователя к описательным именам агента.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-users-table.md">Таблица Users в Lync Server 2013</a></p></td>
-<td><p>Хранит идентификаторы URI пользователей, которые участвовали в сеансах, записанных или архивированных в этой базе данных.</p></td>
+<td><p>Сохранение кодов URI пользователей, которые участвовали в сеансах, зарегистрированных или заархивированных в этой базе данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-userstatistics-table.md">Таблица Усерстатистикс в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения об использовании системы конкретным пользователем.</p></td>
+<td><p>Сохранение сведений об использовании системы отдельным пользователем.</p></td>
 </tr>
 </tbody>
 </table>
@@ -187,7 +187,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
 <div>
 
-## <a name="tables-specific-to-conference-cdr-records"></a>Таблицы, связанные с записями CDR конференций
+## <a name="tables-specific-to-conference-cdr-records"></a>Записи, относящиеся к конкретным записям CDR конференции
 
 
 <table>
@@ -197,26 +197,26 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferences-table.md">Таблица Conferences в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения обо всех конференциях, которые были архивированы, а также о том, какие данные были записаны, включая Конференцеури, время начала и окончания.</p></td>
+<td><p><a href="lync-server-2013-conferences-table.md">Таблица конференций в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации обо всех конференциях, которые были заархивированы или сведения о которых были зарегистрированы, включая URI конференции, время начала и окончания.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencesessiondetails-table.md">Таблица ConferenceSessionDetails в Lync Server 2013</a></p></td>
-<td><p>В этой папке хранятся сведения о каждом сеансе конференции на базе SIP, в том числе время начала и окончания, идентификатор пользователя, код ответа и идентификатор диагностики для каждого сеанса.</p></td>
+<td><p><a href="lync-server-2013-conferencesessiondetails-table.md">Таблица Таблица conferencesessiondetails в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о каждом сеансе конференц-связи на основе SIP, включая время начала и окончания, идентификатор пользователя, код ответа и идентификатор диагностики для каждого сеанса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-focusjoinsandleaves-table.md">Таблица FocusJoinsAndLeaves в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о присоединениях и листьях конференций, в том числе о роли пользователей и клиентской версии.</p></td>
+<td><p><a href="lync-server-2013-focusjoinsandleaves-table.md">Таблица Таблица focusjoinsandleaves в Lync Server 2013</a></p></td>
+<td><p>Сохранение сведений о присоединениях к конференциям и отключениям от них, включая роли пользователей и версии клиентов.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcujoinsandleaves-table.md">Таблица McuJoinsAndLeaves в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о серверах конференций (A/V), вовлеченных в конференцию, а также присоединения и выхода пользователей.</p></td>
+<td><p><a href="lync-server-2013-mcujoinsandleaves-table.md">Таблица Таблица mcujoinsandleaves в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о серверах конференц-связи (аудио-видео), задействованных в конференции, и сведений о времени подключения и отключения пользователей.</p></td>
 </tr>
 </tbody>
 </table>
@@ -226,7 +226,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
 <div>
 
-## <a name="tables-for-messages-in-im-conferences"></a>Таблицы для сообщений в конференциях по обмену мгновенными сообщениями
+## <a name="tables-for-messages-in-im-conferences"></a>Таблицы для сообщений в чат-конференциях
 
 
 <table>
@@ -236,18 +236,18 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferencemessagecount-table.md">Таблица ConferenceMessageCount в Lync Server 2013</a></p></td>
-<td><p>Для каждой конференции с мгновенными сообщениями хранится количество сообщений, отправленных каждым пользователем.</p></td>
+<td><p><a href="lync-server-2013-conferencemessagecount-table.md">Таблица Таблица conferencemessagecount в Lync Server 2013</a></p></td>
+<td><p>Сохранение количества сообщений, которые были отправлены каждым пользователем, для каждой чат-конференции.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-imreportsummary-table.md">Таблица Имрепортсуммари в Lync Server 2013</a></p></td>
-<td><p>Общие сведения о сеансах обмена мгновенными сообщениями, проводимых в Организации.</p></td>
+<td><p>Предоставление общего отчета по сеансам обмена мгновенными сообщениями, которые проводятся в организации.</p></td>
 </tr>
 </tbody>
 </table>
@@ -267,22 +267,22 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-sessiondetails-table.md">Таблица SessionDetails в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения обо всех одноранговых сеансах, в том числе время начала и окончания, идентификатор пользователя, код ответа и количество сообщений для каждого пользователя.</p></td>
+<td><p>Сохранение информацию о каждом одноранговом сеансе, включая время начала и окончания, идентификатор пользователя, код ответа и количество сообщений каждого пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-filetransfers-table.md">Таблица FileTransfers в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о сеансах передачи файлов, включая имя файла и результат (разрешено, отклонено или отменено).</p></td>
+<td><p><a href="lync-server-2013-filetransfers-table.md">Таблица Таблица filetransfers в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о сеансах передачи файлов, включая имя файла и результат (принято, отклонено или отменено).</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-media-table.md">Таблица Media в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о различных типах носителей, участвующих в одноранговых сеансах.</p></td>
+<td><p><a href="lync-server-2013-media-table.md">Таблица мультимедиа в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о различных типах носителей, используемых в ходе одноранговых сеансов.</p></td>
 </tr>
 </tbody>
 </table>
@@ -292,7 +292,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
 <div>
 
-## <a name="table-for-voip-call-details"></a>Таблица сведений о звонке VoIP
+## <a name="table-for-voip-call-details"></a>Таблица для сведений о вызовах VoIP
 
 
 <table>
@@ -302,18 +302,18 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-voipdetails-table.md">Таблица VoipDetails в Lync Server 2013</a></p></td>
-<td><p>Для каждого из двух сторон VoIP/КТСОП звоните сведения о звонке, например номер телефона телефона VoIP, используемый шлюз, и какая сторона отключилась. Ссылка на <a href="lync-server-2013-sessiondetails-table.md">таблицу сессиондетаилс в Lync Server 2013</a> для значений "начало/окончание" и "код ответа" для вызова.</p>
+<td><p><a href="lync-server-2013-voipdetails-table.md">Таблица Таблица voipdetails в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о вызове, включая идентификатор телефона VoIP, используемый шлюз и сторону, прервавшую вызов, для каждого двустороннего вызова VoIP/ТСОП. Ссылка на <a href="lync-server-2013-sessiondetails-table.md">таблицу SessionDetails в Lync Server 2013</a> для времени начала и окончания вызова и кода ответа.</p>
 <div>
 
 > [!NOTE]  
-> Если один из участников звонка является пользователем VoIP или на него вовлечен сервер-посредник, в этой таблице будет создана запись. Сведения о вызовах VoIP и VoIP, не посвященных коммутируемой телефонной сети общего пользования (PSTN), записываются в <A href="lync-server-2013-sessiondetails-table.md">таблицу сессиондетаилс в Lync Server 2013</A>.
+> Если один участник вызова является пользователем VoIP или при выполнении вызова задействован сервер-посредник, в этой таблице создается соответствующая запись. Сведения о вызовах VoIP/VoIP, не связанных с телефонной телефонной сетью общего пользования (PSTN), записываются в <A href="lync-server-2013-sessiondetails-table.md">таблицу SessionDetails в Lync Server 2013</A>.
 
 
 </div></td>
@@ -326,7 +326,7 @@ _**Тема последнего изменения:** 2012-10-18_
 
 <div>
 
-## <a name="table-for-e9-1-1-call-auditing"></a>Таблица для аудита звонков E9-1-1
+## <a name="table-for-e9-1-1-call-auditing"></a>Таблица для аудита вызовов E9-1-1
 
 
 <table>
@@ -336,18 +336,18 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Таблица Locations в Lync Server 2013</a></p></td>
-<td><p>Для каждого вызова экстренной помощи, например улучшенного звонка в 9-1-1 (E9-1-1), можно хранить сведения о его местонахождении. Ссылка на <a href="lync-server-2013-sessiondetails-table.md">таблицу сессиондетаилс в Lync Server 2013</a> для значений "начало/окончание" и "код ответа" для вызова.</p>
+<td><p>Сохранение информации о каждом экстренном вызове, например вызове Enhanced 9-1-1 (E9-1-1). Ссылка на <a href="lync-server-2013-sessiondetails-table.md">таблицу SessionDetails в Lync Server 2013</a> для времени начала и окончания вызова и кода ответа.</p>
 <div>
 
 > [!NOTE]  
-> Эта таблица включает большой двоичный объект Location для вызова E9-1-1. Ссылка на таблицу Сессиондетаилс для получения более подробной информации о звонке.
+> В этой таблице содержится только большой двоичный объект местоположения для вызова E9-1-1. Ссылается на таблицу SessionDetails, в которой указываются другие подробные сведения о вызове.
 
 
 </div></td>
@@ -370,46 +370,46 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-application-table.md">Таблица Application в Lync Server 2013</a></p></td>
-<td><p>В этой папке хранятся сведения о различных процессах в Lync Server 2013, которые используются в маршруте и соединениях.</p></td>
+<td><p>Хранит сведения о различных процессах в Lync Server 2013, участвующих в маршрутизации и подключениях.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-calltype-table.md">Таблица CallType в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о типах звонка, например "звук", "мгновенные сообщения", "звук и видео" и "общий доступ к приложениям".</p></td>
+<td><p>Сохранение информации о типах вызовов, например «аудио», «чат», «аудио и видео» и «общий доступ к приложениям».</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-errorcategory-table.md">Таблица Ерроркатегори в Lync Server 2013</a></p></td>
-<td><p>Хранит понятное имя для каждого диагностического классификация Microsoft Lync Server 2013.</p></td>
+<td><p><a href="lync-server-2013-errorcategory-table.md">Таблица ErrorCategory в Lync Server 2013</a></p></td>
+<td><p>Хранит понятное имя каждого диагностической классификации Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-errordef-table.md">Таблица ErrorDef в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о типах ошибок и их определениях.</p></td>
+<td><p><a href="lync-server-2013-errordef-table.md">Таблица Таблица errordef в Lync Server 2013</a></p></td>
+<td><p>Сохранение информации о типах ошибок и их определениях.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-errorreport-table.md">Таблица ErrorReport в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о возникших ошибках.</p></td>
+<td><p>Сохранение информации о возникших ошибках.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-progressreport-table.md">Таблица ProgressReport в Lync Server 2013</a></p></td>
-<td><p>Хранит сведения о ходе выполнения различных шагов, участвующих в процессах Lync Server 2013.</p></td>
+<td><p><a href="lync-server-2013-progressreport-table.md">Таблица Таблица progressreport в Lync Server 2013</a></p></td>
+<td><p>Хранит сведения о ходе выполнения различных действий, связанных с процессами Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Таблицы, приведенные в следующем списке, используются для внутренних целей на сервере Lync Server. Эти сведения не описаны в настоящем документе.
+Таблицы, приведенные в следующем списке, используются внутренними средствами Lync Server. Сведения о них не приведены в данном документе.
 
 </div>
 
 <div>
 
-## <a name="tables-for-internal-use-by-lync-server"></a>Таблицы для внутреннего использования в Lync Server
+## <a name="tables-for-internal-use-by-lync-server"></a>Таблицы для внутреннего использования сервером Lync Server
 
 
 <table>
@@ -419,7 +419,7 @@ _**Тема последнего изменения:** 2012-10-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Таблица</th>
+<th>Table</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -437,11 +437,11 @@ _**Тема последнего изменения:** 2012-10-18_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Интерфейсная таблица</strong></p></td>
+<td><p><strong>FrontEnd Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Таблица Мсмкпроцессинг</strong></p></td>
+<td><p><strong>MSMQProcessing Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
@@ -449,19 +449,19 @@ _**Тема последнего изменения:** 2012-10-18_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Таблица "синдикации"</strong></p></td>
+<td><p><strong>Syndicators Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Таблица Синдикаторстенантмап</strong></p></td>
+<td><p><strong>SyndicatorsTenantMap Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Таблица задач</strong></p></td>
+<td><p><strong>Task Table</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserStatistics</strong></p></td>
+<td><p><strong>усерстатистикс</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
@@ -481,7 +481,7 @@ _**Тема последнего изменения:** 2012-10-18_
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Часовых поясов</strong></p></td>
+<td><p><strong>TimeZones</strong></p></td>
 <td><p>Только для внутреннего использования.</p></td>
 </tr>
 <tr class="even">

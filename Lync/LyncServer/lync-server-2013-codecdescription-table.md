@@ -12,16 +12,16 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a407d8eeb1ad9e318ff2f960f8cb7d62b1e3a9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4be7b878d3d9b6457fbda7a081db9b6b6cb80314
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757123"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757123"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-17_
+_**Последнее изменение темы:** 2012-10-17_
 
-В таблице Кодекдескриптион уникальные идентификаторы кодека сопоставляются с соответствующими кодеками. Кодеки используются для кодирования цифровых сигналов для передачи и трансляции, а затем для расшифровки этих сигналов для воспроизведения. Эта таблица введена в Microsoft Lync Server 2013
+В таблице CodecDescription сопоставляются уникальные идентификаторы кодеков с соответствующими кодеками. Кодеки используются для кодирования цифровых сигналов для передачи и трансляции, а затем расшифровки этих сигналов для воспроизведения. Эта таблица была введена в Microsoft Lync Server 2013
 
 
 <table>
@@ -49,10 +49,10 @@ _**Тема последнего изменения:** 2012-10-17_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -60,13 +60,13 @@ _**Тема последнего изменения:** 2012-10-17_
 <td><p><strong>кодекдескриптионкэй</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный идентификатор, присвоенный кодеку.</p></td>
+<td><p>Уникальный идентификатор, назначенный кодеку.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CodecDescription</strong></p></td>
+<td><p><strong>кодекдескриптион</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Повторя</p></td>
-<td><p>Уникальное описание кодека, соответствующего Кодекдескриптионкэй.</p></td>
+<td><p>Уникальные</p></td>
+<td><p>Уникальное описание кодека, соответствующего CodecDescriptionKey.</p></td>
 </tr>
 </tbody>
 </table>

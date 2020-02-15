@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование сервера сохраняемого чата'
+title: 'Lync Server 2013: планирование для сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363008c910c53f5b1b951bf57ba8663b4d4d970d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cf28684443b93dbd6d3d1d769ca545177f6cfa0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41750509"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-11_
+_**Последнее изменение темы:** 2012-10-11_
 
-Вы можете использовать сервер Lync Server 2013, сохраняемый чат, чтобы позволить нескольким пользователям принимать участие в беседах, в которых они разносится и обращаются к содержимому определенных тем, в том числе к тексту, ссылкам и файлам. Хотя пользователи в течение сеанса могут взаимодействовать в режиме реального времени, контент каждого сеанса сохраняется и остается доступным после окончания сеанса.
+Вы можете использовать Lync Server 2013, сервер сохраняемого чата, чтобы разрешить нескольким пользователям принимать участие в беседах, в которых они разноски и получать доступ к содержимому определенных разделов, в том числе текста, ссылок и файлов. Хотя пользователи в течение сеанса могут взаимодействовать в режиме реального времени, контент каждого сеанса является постоянным, и доступен после окончания сеанса.
 
-В этом разделе описаны вопросы планирования в среде Lync Server 2013, а также о том, как определять требования, идентифицировать компоненты и поддерживаемые топологии и рекомендации по развертыванию.
+В этом разделе описываются вопросы планирования развертывания сервера сохраняемого чата в Lync Server 2013, в том числе определение требований, определение компонентов и поддерживаемых топологий, а также рекомендации по развертыванию.
 
 <div>
 
@@ -47,13 +47,13 @@ _**Тема последнего изменения:** 2012-10-11_
 
   - [Обзор сервера сохраняемого чата в Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)
 
-  - [Как работает сервер сохраняемого чата в Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Принцип работы сервера сохраняемого чата в Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [Определение требований организации для сервера сохраняемого чата в Lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
+  - [Определение требований Организации для сервера сохраняемого чата в Lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)
 
-  - [Компоненты и топологии для постоянного сервера чата в Lync Server 2013](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
+  - [Компоненты и топологии для сервера сохраняемого чата в Lync Server 2013](lync-server-2013-components-and-topologies-for-persistent-chat-server.md)
 
-  - [Технические требования для постоянного сервера чата в Lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
+  - [Технические требования для сервера сохраняемого чата в Lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
 
   - [Настройка систем и инфраструктуры для сервера сохраняемого чата в Lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
 

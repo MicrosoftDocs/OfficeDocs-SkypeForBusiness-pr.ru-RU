@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743199"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Таблица Каллтипе — это статическая таблица, в которой хранится список возможных типов звонков.
+Таблица CallType — это статическая таблица, в которой хранится список допустимых типов звонков.
 
 
 <table>
@@ -51,14 +51,14 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>каллтипеид</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td></td>
 </tr>
@@ -68,12 +68,12 @@ _**Тема последнего изменения:** 2012-09-28_
 <td></td>
 <td><p>Допустимые значения:</p>
 <ul>
-<li><p>0 — неизвестно</p></li>
-<li><p>1 – Обмен мгновенными сообщениями</p></li>
-<li><p>2 – общий доступ к приложениям</p></li>
-<li><p>3--звуковое сопровождение</p></li>
-<li><p>4 – звук и видео</p></li>
-<li><p>5 – Передача файлов</p></li>
+<li><p>0 — неизвестный</p></li>
+<li><p>1 — обмен мгновенными сообщениями</p></li>
+<li><p>2 — общий доступ к приложениям</p></li>
+<li><p>3 — аудио</p></li>
+<li><p>4 — аудио и видео</p></li>
+<li><p>5 — передача файла</p></li>
 </ul></td>
 </tr>
 </tbody>

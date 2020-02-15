@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка конференц-связи с телефонным подключением (необязательно)'
+title: 'Lync Server 2013: Проверка конференц-связи с телефонным подключением (необязательно)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1b5f078ccd5e95df708012b7be1527736133392
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 133d0bccb919e537998878306b3bbf85d77bd0cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>Проверка конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>Необязательно Проверка конференц-связи с телефонным подключением в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755703"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2011-01-21_
+_**Последнее изменение темы:** 2011-01-21_
 
 Чтобы убедиться, что веб-страница «Параметры конференц-связи с телефонным подключением» и номера доступа к телефонному подключению работают правильно, выполните следующее:
 
@@ -43,15 +43,15 @@ _**Тема последнего изменения:** 2011-01-21_
 
   - Протестируйте правильность работы номеров доступа для определенного пула, запустив описанный ниже сценарий. Этот сценарий имитирует звонки на номера доступа. Для его использования вам требуется SIP-адрес и учетные данные одного клиента объединенных коммуникаций, размещенного в этом заданном пуле.
 
-Этот шаг является необязательным.
+Этот этап не является обязательным.
 
 <div>
 
 ## <a name="to-test-access-numbers-for-a-specific-pool"></a>Тестирование номеров доступа для определенного пула
 
-1.  Войдите в систему под учетной записью члена группы Рткуниверсалсерверадминс или члена роли **CS-серверадминистратор** или **ксадминистратор** .
+1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли **Cs-ServerAdministrator** или **CsAdministrator**.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  Выполните следующую команду в командной строке:
     
@@ -60,7 +60,7 @@ _**Тема последнего изменения:** 2011-01-21_
            Password:   ********
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
-    Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. Флаг -Verbose позволяет получить более подробные сведения о количестве найденных номеров доступа и их описание.
+    Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. Флаг –Verbose позволяет получить более подробные сведения о количестве найденных номеров доступа и их описание.
 
 </div>
 

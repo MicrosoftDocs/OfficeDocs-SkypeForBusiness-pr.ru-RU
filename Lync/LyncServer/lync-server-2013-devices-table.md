@@ -12,16 +12,16 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381b03fc5680276a64fc327f423f74c6773c2ed3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c6e1fb5afda3a657bbeff864f5bba06349f4fb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762357"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-25_
+_**Последнее изменение темы:** 2012-05-25_
 
-Таблица "устройства" является вспомогательной таблицей. Каждая запись хранит информацию об одном устройстве (стационарном телефоне).
+Таблица устройств является вспомогательной. В каждой записи хранится информация об одном устройстве (стационарный телефон).
 
 
 <table>
@@ -51,32 +51,32 @@ _**Тема последнего изменения:** 2012-05-25_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Устройства</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, идентифицирующий эту аппаратную версию.</p></td>
+<td><p>Уникальный номер, идентифицирующий версию оборудования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ManufacturerId</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Производитель этого устройства. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-manufacturers-table.md">таблицей изготовителей в Lync Server 2013</a> .</p></td>
+<td><p><strong>мануфактурерид</strong></p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Производитель этого устройства. Для получения дополнительных сведений ознакомьтесь со статьей <a href="lync-server-2013-manufacturers-table.md">Таблица производители в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>хардвареверсионид</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Аппаратная версия этого устройства. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-hardwareversions-table.md">таблицей хардвареверсионс в Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Версия оборудования этого устройства. Дополнительные сведения см. <a href="lync-server-2013-hardwareversions-table.md">в таблице таблица hardwareversions в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>
-<td><p>bigint</p></td>
+<td><p>типу</p></td>
 <td></td>
 <td><p>MAC-адрес</p></td>
 </tr>

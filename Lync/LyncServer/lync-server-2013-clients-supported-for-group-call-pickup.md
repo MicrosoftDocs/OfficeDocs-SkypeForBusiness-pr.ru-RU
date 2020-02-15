@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: клиенты, поддерживаемые для отправки групповых звонков'
+title: 'Lync Server 2013: клиенты, поддерживаемые для ответа на звонки групп'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756453"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Клиенты, поддерживаемые для отправки группового звонка в Lync Server 2013
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Клиенты, поддерживаемые при отправке звонков по группам в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756453"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-12_
+_**Последнее изменение темы:** 2013-02-12_
 
-Вы можете использовать любой из указанных ниже клиентов для ответа на звонки участникам группового приема звонков.
+Можно использовать любой из следующих клиентов, чтобы отвечать на звонки участников ответа на групповые звонки.
 
   - Lync 2013
 
@@ -49,23 +49,23 @@ _**Тема последнего изменения:** 2013-02-12_
 
 
 > [!NOTE]  
-> Пользователи могут использовать любой из этих клиентов для ответа на звонки участникам для отправки группового звонка, но пользователи должны быть размещены в пуле Lync Server 2013 с накопительными обновлениями для Lync Server 2013: Февраль 2013.
+> Пользователи могут использовать любой из этих клиентов, чтобы отвечать на звонки участников ответа на групповые звонки, но пользователи должны быть размещены в пуле Lync Server 2013 с накопительными пакетами обновления для Lync Server 2013: Февраль 2013.
 
 
 
 </div>
 
-В накопительных обновлениях для Lync Server 2013: Февраль 2013, следующие клиенты и устройства не поддерживаются для выгрузки звонков в групповую раскладку абонентов:
+В накопительных пакетах обновления для Lync Server 2013: Февраль 2013, следующие клиенты и устройства не поддерживаются для комплектации звонков для участников группового ответа на звонки:
 
   - Lync Mobile
 
-  - Приложения Lync для Windows 8 и Windows RT
+  - Приложение Lync для Windows 8 и Windows RT
 
   - Lync для iPad
 
   - Аналоговые телефоны
 
-  - Телефоны с номерами телефонной сети общего пользования (ТСОП).
+  - Телефоны с номерами телефонной сети общего пользования (PSTN)
 
 </div>
 

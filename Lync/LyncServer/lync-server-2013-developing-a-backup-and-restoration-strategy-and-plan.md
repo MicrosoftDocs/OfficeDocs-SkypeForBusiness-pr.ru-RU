@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Разработка стратегии резервного копирования и восстановления и плана'
+title: 'Lync Server 2013: Разработка стратегии резервного копирования и восстановления и планирование'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f4809b6a86312fc9dcc9527375db85dbcbb043
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3c95873ad8b4e0852a4b5ae03f5857ba8e83fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762447"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762447"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-17_
+_**Последнее изменение темы:** 2013-02-17_
 
-Эффективность резервного копирования и восстановления сервера Lync Server зависит от стратегии и резервного копирования и плана восстановления. Вы должны создать стратегию резервного копирования и восстановления сервера Lync, который подходит для общей стратегии Организации, и подробный, краткий план резервного копирования данных и параметров, а также в случае сбоя план восстановления служб.
+Эффективность резервного копирования и восстановления Lync Server зависит от стратегии и стратегии резервного копирования и восстановления. Необходимо создать стратегию резервного копирования и восстановления сервера Lync Server, который соответствует общей стратегии Организации, и всесторонний, краткий план для резервного копирования данных и параметров, а в случае сбоя план восстановления службы.
 
-Для наиболее надежной аварийной ситуации, которая появилась в Lync Server 2013, используйте топологию аварийного восстановления с сопряженными пулами. Дополнительные сведения можно найти [в разделе Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Для наиболее надежного аварийного восстановления интерфейсного пула используйте топологию аварийного восстановления с связанным пулом, появившуюся в Lync Server 2013. Дополнительные сведения приведены в статье [Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Установка стратегии резервного копирования и восстановления для Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
+  - [Создание стратегии резервного копирования и восстановления для Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
 
-  - [Установка плана резервного копирования и восстановления для Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
+  - [Создание плана резервного копирования и восстановления для Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md)
 
   - [Настройка расположения резервной копии для Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md)
 

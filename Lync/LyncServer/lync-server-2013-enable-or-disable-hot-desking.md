@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Включение и отключение поддержки горячей замены'
+title: 'Lync Server 2013: Включение или отключение функции горячей замены'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c56d7ae13be9afa3af7e4732242a86f4be4c458
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 42da4f35c78e182ac988b1185bf797e3cb88ddd5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050061"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Включение и отключение функции поддержки горячей замены в Lync Server 2013
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Включение и отключение функции "горячая" в Lync Server 2013
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41736039"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-Вы можете настроить стандартные телефоны как *стационарные телефоны*. С помощью стационарных телефонов пользователи могут входить в свою учетную запись пользователя и после входа в нее использовать возможности сервера Lync и собственные параметры профиля пользователя. Управление горячим подключением осуществляется с помощью политик клиента: чтобы включить или отключить функцию горячей замены, необходимо изменить политики клиента, используемые вашими стандартными телефонами. Подробные сведения о том, как определить политики конференц-связи, назначенные на обычные телефоны, можно найти [в статьях Просмотр сведений о телефонах в Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
+Вы можете настроить телефонные телефоны в качестве *телефонов для стационарных устройств*. С помощью стационарных телефонов пользователи могут входить в систему с помощью собственной учетной записи пользователя, а после входа в систему использовать функции Lync Server и собственные параметры профилей пользователей. Управление возможностью горячей замены осуществляется с помощью политик клиентов: чтобы включить или отключить функцию "горячего", необходимо изменить политики клиентов, используемые телефонными телефонами. Сведения о том, как определить политики конференц-связи, назначенные телефонным телефонам, можно узнать [в статье Просмотр сведений о телефонах общей области в Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Вы можете использовать параметр Енаблехотдескинг командлета **New-CSClientPolicy** или командлет **Set-CSClientPolicy** , чтобы включить или отключить функцию горячей замены на телефоне, как описано ниже. Выполните эти командлеты либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
-
-<div>
-
+Используйте параметр Енаблехотдескинг командлета **New – CSClientPolicy** или командлета **Set – CSClientPolicy** , чтобы включить или отключить функцию горячей замены на телефоне, как показано ниже. Выполните эти командлеты в командной консоли Lync Server 2013 или в удаленном сеансе Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="enabling-hot-desking"></a>Включение поддержки горячей замены
 
-  - Чтобы включить функцию горячего подключения для обычного телефонного телефона, необходимо изменить политику клиента, назначенную этому телефону (или набору телефонов).
+<div>
+
+## <a name="enabling-hot-desking"></a>Включение функции Hot Desk
+
+  - Чтобы включить поддержку горячей замены для телефонного телефона общего пользования, необходимо изменить клиентскую политику, назначенную этому телефону (или набору телефонов).
     
-    После того как вы определили политику, которую необходимо изменить, далее следует использовать командлет **Set-CsClientPolicy** , чтобы установить для параметра Енаблехотдескинг значение true. Например:
+    После определения политики, которую необходимо изменить, следующим шагом является использование командлета **Set-CsClientPolicy** для установки параметра Енаблехотдескинг в значение true. Пример:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - Кроме того, вы можете использовать командлет **New-CsClientPolicy** для создания новой политики клиента, обеспечивающей поддержку горячего рабочего стола. Например:
+  - Кроме того, вы можете использовать командлет **New – CsClientPolicy** для создания новой клиентской политики, обеспечивающей горячую службу. Пример:
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
@@ -64,7 +64,7 @@ _**Тема последнего изменения:** 2013-02-20_
 
 
 > [!IMPORTANT]  
-> После того как эта политика создана, вы должны назначить ее соответствующим телефонам. Подробности можно найти <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">в разделе назначение политик в Lync Server 2013 на общем телефоне с областями</A>.
+> После создания этой политики ее необходимо назначить соответствующим телефонам общего пользования. Сведения о том, <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">как назначить политики в Lync Server 2013, можно найти на общем телефоне</A>.
 
 
 
@@ -72,15 +72,15 @@ _**Тема последнего изменения:** 2013-02-20_
 
 <div>
 
-## <a name="disabling-hot-desking"></a>Отключение поддержки горячей замены
+## <a name="disabling-hot-desking"></a>Отключение функции горячей замены
 
-  - Чтобы отключить функцию горячего подключения для обычного телефонного телефона, сбросьте параметр Енаблехотдескинг командлета **Set-CsClientPolicy** в значение по умолчанию, равное false. Например:
+  - Чтобы отключить функцию горячей замены для телефонного телефона общего пользования, сбросьте параметр Енаблехотдескинг командлета **Set – CsClientPolicy** в значение по умолчанию, равное false. Пример:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
 </div>
 
-Подробные сведения можно найти в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлету [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
+Дополнительные сведения можно найти в разделах справки для командлета [New – CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлета [Set – CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
 
 </div>
 

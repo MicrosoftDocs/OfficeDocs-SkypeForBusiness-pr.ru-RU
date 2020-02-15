@@ -12,16 +12,16 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740749"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-08_
+_**Последнее изменение темы:** 2012-10-08_
 
-Чтобы эффективно спланировать управление допуском звонков (CAC), необходимо принять во все указанные ниже действия.
+Для эффективного планирования контроля допуска звонков необходимо учитывать следующие аспекты:
 
-  - Необходимые условия для развертывания CAC.
+  - необходимые компоненты для развертывания контроля допуска звонков (CAC);
 
-  - Информация, необходимая для решений CAC и конфигурации, которые необходимо выполнить перед развертыванием.
+  - сведения, необходимые для развертывания CAC, и конфигурационные решения, которые необходимо принять, до развертывания.
 
 <div>
 
-## <a name="deployment-prerequisites-for-call-admission-control"></a>Предварительные требования к развертыванию для управления допуском звонков
+## <a name="deployment-prerequisites-for-call-admission-control"></a>Необходимые компоненты для развертывания контроля допуска звонков
 
-Прежде чем развертывать управление допуском звонков, необходимо предварительно развернуть внутренние серверы Lync Server 2013, в том числе либо интерфейсный пул, либо сервер Standard Edition.
+Перед развертыванием контроля допуска звонков необходимо предварительно развернуть внутренние серверы Lync Server 2013, в том числе интерфейсный пул или сервер Standard Edition.
 
 </div>
 
 <div>
 
-## <a name="information-requirements-for-call-admission-control"></a>Требования к сведениям для управления допуском звонков
+## <a name="information-requirements-for-call-admission-control"></a>Информационные требования для контроля допуска звонков
 
-В таблице ниже приведены сведения, необходимые для развертывания управления допуском звонков.
+В следующей таблице представлена сводная информация о развертывании CAC.
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a>Требования к сведениям для развертывания управления допуском звонков
+### <a name="information-requirements-for-call-admission-control-deployment"></a>Информационные требования для развертывания контроля допуска звонков
 
 <table>
 <colgroup>
@@ -68,7 +68,7 @@ _**Тема последнего изменения:** 2012-10-08_
 <thead>
 <tr class="header">
 <th>Информация</th>
-<th>Сводка данных, необходимых</th>
+<th>Сводка по необходимым сведениям</th>
 <th>Документация</th>
 </tr>
 </thead>
@@ -77,30 +77,30 @@ _**Тема последнего изменения:** 2012-10-08_
 <td><p>Возможности Lync Server, необходимые для Организации</p></td>
 <td><ul>
 <li><p>Возможности, которые должны поддерживаться вашей организацией</p></li>
-<li><p>Возможности, которые должны быть включены для отдельных пользователей</p></li>
+<li><p>Возможности, которые должны быть доступны отдельным пользователям</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Определение своих требований для контроля допуска звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Определение требований для контроля допуска звонков в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Топологии и компоненты, которые нужно развернуть</p></td>
+<td><p>Топологии и компоненты для развертывания</p></td>
 <td><ul>
-<li><p>Компоненты, связанные с CAC, автоматически устанавливаются в составе Lync Server 2013</p></li>
+<li><p>Компоненты, связанные с CAC, устанавливаются автоматически в составе Lync Server 2013</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Определение своих требований для контроля допуска звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Определение требований для контроля допуска звонков в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Требования к системе</p></td>
 <td><ul>
 <li><p>Требования к оборудованию</p></li>
 <li><p>Требования к программному обеспечению</p></li>
-<li><p>Требования к выровнению</p></li>
+<li><p>Требования к выровненному размещению</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-determining-your-system-requirements.md">Определение требований к системе для Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Требования к инфраструктуре</p></td>
 <td><ul>
-<li><p>Для CAC не требуются особые требования к инфраструктуре</p></li>
+<li><p>Для CAC не применяются особые требования к инфраструктуре</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Требования к инфраструктуре для контроля допуска звонков в Lync Server 2013</a></p></td>
 </tr>
@@ -108,7 +108,7 @@ _**Тема последнего изменения:** 2012-10-08_
 <td><p>Требования к сетевому интерфейсу</p></td>
 <td><ul>
 <li><p>Сведения о внутреннем и внешнем интерфейсе</p></li>
-<li><p>Сведения о маршрутизации (в том числе сведения в блоге <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>на странице Microsoft Lync Server Teams в канале ответа клиента)</p></li>
+<li><p>Сведения о маршрутизации (в том числе сведения о блоге <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>, на который входит канал ответа группы Microsoft Lync Server).</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">Развертывание доступа внешних пользователей в Lync Server 2013</a></p></td>
 </tr>
@@ -119,18 +119,18 @@ _**Тема последнего изменения:** 2012-10-08_
 <li><p>Рабочая группа или домен</p></li>
 <li><p>Безопасность</p></li>
 <li><p>Мониторинг и аудит</p></li>
-<li><p>Рекомендации по оборудованию</p></li>
+<li><p>Вопросы, связанные с оборудованием</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Рекомендации по контролю допуска звонков в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Процесс развертывания</p></td>
 <td><ul>
-<li><p>Предварительные требования</p></li>
-<li><p>Требования к информации</p></li>
+<li><p>Необходимые компоненты</p></li>
+<li><p>Информационные требования</p></li>
 <li><p>Процесс и процедуры</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-configure-call-admission-control.md">Настройка управления допуском звонков в Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-admission-control.md">Настройка контроля допуска звонков в Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

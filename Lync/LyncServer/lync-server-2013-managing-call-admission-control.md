@@ -12,16 +12,16 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738819"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41738819"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы. Чтобы управлять различными функциями CAC в среде Lync Server 2013, выполните указанные ниже действия.
+Контроль допуска звонков на основе доступной пропускной способности сети определяет, следует ли разрешать создание сеансов связи в режиме реального времени, таких как голосовые или видеовызовы. Используйте следующие процедуры для управления различными функциями CAC в среде Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Включение управления допуском звонков в Lync Server 2013](lync-server-2013-enabling-call-admission-control.md)
+  - [Включение контроля допуска звонков в Lync Server 2013](lync-server-2013-enabling-call-admission-control.md)
 
   - [Управление профилями политики пропускной способности сети в Lync Server 2013](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
   - [Регионы сети в Lync Server 2013](lync-server-2013-network-regions.md)
 
-  - [Маршруты к сетевым регионам в Lync Server 2013](lync-server-2013-network-region-routes.md)
+  - [Маршруты областей сети в Lync Server 2013](lync-server-2013-network-region-routes.md)
 
-  - [Управление допуском звонков для сайтов в Lync Server 2013](lync-server-2013-call-admission-control-for-sites.md)
+  - [Контроль допуска звонков для сайтов в Lync Server 2013](lync-server-2013-call-admission-control-for-sites.md)
 
-  - [Включение и отключение пропуска мультимедиа в Lync Server 2013](lync-server-2013-enabling-and-disabling-media-bypass.md)
+  - [Включение и отключение обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
-  - [Связь между сетевыми областями в Lync Server 2013](lync-server-2013-linking-network-regions.md)
+  - [Связывание областей сети в Lync Server 2013](lync-server-2013-linking-network-regions.md)
 
   - [Управление сетевыми подсетями в Lync Server 2013](lync-server-2013-managing-network-subnets.md)
 
@@ -66,7 +66,7 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Общие сведения об управлении допуском звонков в Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
+[Обзор контроля допуска звонков в Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  
   
 
 </div>

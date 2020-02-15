@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731529"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731529"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-25_
+_**Последнее изменение темы:** 2012-06-25_
 
-ТблпринЦипалинвитес включает приглашения для всех подготовленных пользователей для всех узлов с автоматическим приглашением.
+tblPrincipalInvites содержит приглашения для всех подготовленных пользователей для всех узлов с включенным автоматическим приглашением.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,30 +56,30 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, не равно null</p></td>
+<td><p>Код участника</p></td>
 </tr>
 <tr class="even">
 <td><p>инвид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Уникальный последовательный номер (для идентификатора участника), сформированный из таблицы Тблластинвитеид.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Уникальный порядковый номер (на код участника), созданный для таблицы tblLastInviteId.</p></td>
 </tr>
 <tr class="odd">
-<td><p>нодеид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор узла (только для комнаты чата).</p></td>
+<td><p>nodeID</p></td>
+<td><p>int, не null</p></td>
+<td><p>Код узла (только комната чата).</p></td>
 </tr>
 <tr class="even">
 <td><p>креатедон</p></td>
-<td><p>DateTime, NOT NULL</p></td>
+<td><p>datetime, не null</p></td>
 <td><p>Время создания.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -94,16 +94,16 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Принид, Нодеид&gt;</p></td>
+<td><p>&lt;prinID, nodeID&gt;</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>принид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
+<td><p>prinID</p></td>
+<td><p>Внешний ключ с подстановкой в таблице tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
-<td><p>нодеид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</p></td>
+<td><p>nodeID</p></td>
+<td><p>Внешний ключ с подстановкой в таблице tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

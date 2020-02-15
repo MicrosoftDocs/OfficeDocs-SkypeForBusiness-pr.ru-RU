@@ -12,16 +12,16 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 196911f4fdcb7f2713ed25cca114ff9954b0c6e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c535dc860c5d1a8725d27217e8269c3d6c4902d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764215"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблкомплианцефанаут включает все серверы, которые обрабатывали событие соответствия требованиям.
+tblComplianceFanout содержит все серверы, обработавшие событие соответствия.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>фанаутевентид</p></td>
-<td><p>целое</p></td>
-<td><p>Код события.</p></td>
+<td><p>int</p></td>
+<td><p>Идентификатор события.</p></td>
 </tr>
 <tr class="even">
 <td><p>фанаутсерверид</p></td>
-<td><p>целое</p></td>
-<td><p>Идентификация сервера (соответствующая таблице Тблсерверидентити. Серверид).</p></td>
+<td><p>int</p></td>
+<td><p>Идентификатор сервера (в соответствии с таблицей tblServerIdentity.serverID).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>фанаутевентид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблкомплианцедата. Кмплевентид.</p></td>
+<td><p>Внешний ключ с поиском в таблице tblComplianceData.cmplEventID.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования к системе для клиента'
+title: 'Lync Server 2013: требования к клиентской системе'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183900
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac52ae9856d49047040bb839ad650cbe591ec95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0415f2d7380b86facb727541e73ad57d5b5d2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-system-requirements-for-lync-server-2013"></a>Требования к системе для клиента Lync Server 2013
+# <a name="client-system-requirements-for-lync-server-2013"></a>Требования к клиентской системе для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742839"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-06_
+_**Последнее изменение темы:** 2012-11-06_
 
-В этом разделе описаны требования к оборудованию и программному обеспечению для клиентов Lync 2013.
+В этом разделе описываются требования к оборудованию и программному обеспечению для клиентов Lync 2013.
 
 <div>
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2012-11-06_
 
   - [Поддержка оборудования клиента Lync в Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Требования к видео в Lync для Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)
+  - [Требования к видео для клиента Lync для Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)
 
-  - [Поддержка программного обеспечения клиента Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+  - [Поддержка клиентского программного обеспечения Lync в Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  - [Платформы, поддерживаемые Lync Web App для Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)
+  - [Платформы, поддерживаемые в Lync Web App для Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)
 
-  - [Требования к приложению Lync из Магазина Windows для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)
+  - [Требования к приложению для Магазина Windows Lync для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)
 
 </div>
 

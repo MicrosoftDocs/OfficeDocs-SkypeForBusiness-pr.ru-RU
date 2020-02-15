@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: руководство по эксплуатации'
+title: 'Lync Server 2013: руководство по работе'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d797f638121f09eacc9b1472feed0a0b84e2a74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Operations Guide for Lync Server 2013
+# <a name="operations-guide-for-lync-server-2013"></a>Руководство по работе для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755793"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-08-18_
+_**Последнее изменение темы:** 2014-08-18_
 
-В этом документе описаны рабочие процессы, задачи и инструменты, необходимые для поддержки программной среды Microsoft Lync Server 2013. В этой статье объясняется, как управлять Lync Server 2013 в соответствии с моделью Microsoft Operations Framework (MOF), и это поможет вам спроектировать эффективную среду управления, которая включает в себя расписания, процессы и процедуры для поддержки Эффективная рабочая среда.
+В этом документе описываются рабочие процессы, задачи и инструменты, необходимые для обслуживания программной среды Microsoft Lync Server 2013 Communications. В этой статье объясняется, как управлять Lync Server 2013 в соответствии с моделью Microsoft Operations Framework (MOF), и он поможет вам спроектировать эффективную среду управления, которая включает в себя планирование, процессы и процедуры для поддержки Эффективная рабочая среда.
 
 <div>
 
@@ -57,13 +57,13 @@ _**Тема последнего изменения:** 2014-08-18_
 
   - [Контрольные списки операций для Lync Server 2013](lync-server-2013-operations-checklists.md)
 
-  - [Мониторинг сервера Lync Server 2013 с помощью System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+  - [Мониторинг Lync Server 2013 с помощью System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
   - [Операционные зависимости в Lync Server 2013](lync-server-2013-operational-dependencies.md)
 
-  - [Устранение неполадок и индикаторов работоспособности ключа в Lync Server 2013](lync-server-2013-troubleshooting-and-key-health-indicators.md)
+  - [Устранение неполадок и ключевые индикаторы работоспособности в Lync Server 2013](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-Предполагается, что развертывание Microsoft Lync Server 2013 завершено. Если это не так, ознакомьтесь с разделом Планирование и развертывание для Microsoft Lync Server 2013, прежде чем продолжить.
+Предполагается, что развертывание Microsoft Lync Server 2013 завершено. Если это не так, ознакомьтесь с разделом "планирование и развертывание" для Microsoft Lync Server 2013, прежде чем продолжить.
 
 </div>
 
@@ -75,7 +75,7 @@ _**Тема последнего изменения:** 2014-08-18_
 [Начало работы с Lync Server 2013](lync-server-2013-getting-started.md)  
 [Планирование для Lync Server 2013](lync-server-2013-planning.md)  
 [Развертывание Lync Server 2013](lync-server-2013-deployment.md)  
-[командная консоль Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

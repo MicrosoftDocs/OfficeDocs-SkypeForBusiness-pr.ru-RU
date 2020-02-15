@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка качества обслуживания голоса для Lync Phone Edition'
+title: 'Lync Server 2013: Настройка качества голосовой связи службы для Lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d2b669592d2fa50d3b47fcc45722234fe76963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 104e74c903b673c4aa3593b8b50868306912a9a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733889"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>Настройка качества обслуживания голоса для Lync Phone Edition в Lync Server 2013
+# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>Настройка качества обслуживания голосовой связи для Lync Phone Edition в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733889"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-Вы можете настроить требования к качеству обслуживания голоса для устройств Lync Phone Edition в пуле, установив уровень качества обслуживания для IP-телефонов, которые подключаются к Lync Server 2013.
+Требования к качеству обслуживания голосовой связи для устройств Lync Phone Edition в пуле можно настроить, задав уровень качества обслуживания для IP-телефонов, которые подключаются к Lync Server 2013.
 
 <div>
 
-## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>Настройка качества обслуживания голоса для Lync Phone Edition
+## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>Настройка качества обслуживания голосовой связи для Lync Phone Edition
 
-1.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  На панели навигации слева выберите пункт **Клиенты**, а затем — **Конфигурация устройства**.
+2.  В левой панели навигации щелкните элемент **Clients** (Клиенты), а затем **Device Configuration** (Конфигурация устройства).
 
-3.  На странице **Конфигурация устройства** в списке конфигураций устройств дважды щелкните конфигурацию, для которой вы хотите изменить параметры качества обслуживания.
+3.  В списке конфигураций на странице **Device Configuration** (Конфигурация устройства) дважды щелкните конфигурацию, для которой хотите изменить параметры качества обслуживания.
 
-4.  В диалоговом окне **изменение конфигурации устройства**в разделе **качество голоса**выберите уровень качества обслуживания. Уровень по умолчанию — **40**.
+4.  Укажите уровень качества обслуживания в области **Voice quality of service** (Качество обслуживания голосовой связи) окна **Edit Device Configuration** (Изменение конфигурации устройства). По умолчанию используется значение **40**.
 
 </div>
 

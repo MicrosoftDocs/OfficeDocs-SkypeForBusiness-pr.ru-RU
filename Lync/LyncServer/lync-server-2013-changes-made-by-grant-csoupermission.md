@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: изменения, внесенные пользователем Grant-Ксаупермиссион'
+title: 'Lync Server 2013: изменения, внесенные с помощью Grant — CsOUPermission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9056753e57f57b131a05d13eb2862611ba34f966
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfad0cf4b8b863cd19d4d4113241477de1a50aaf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729939"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Изменения, внесенные функцией Grant-Ксаупермиссион в Lync Server 2013
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Изменения, внесенные с помощью Grant – CsOUPermission в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729939"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Чтобы делегировать администрирование Lync Server 2013, вы можете добавить разрешения для указанных организационных подразделений, чтобы участники универсальных групп RTC, созданные с помощью подготовки леса, могли получать доступ к подразделениям без участия в группе Администраторы домена.
+Чтобы делегировать администрирование Lync Server 2013, можно добавить разрешения для указанных подразделений, чтобы участники универсальных групп RTC, созданные при подготовке леса, могли получать доступ к подразделениям, не открывая группу "Администраторы домена".
 
-Командлет **Grant-ксаупермиссион** предоставляет разрешения на доступ к объектам в указанном подразделении, как указано в приведенных ниже таблицах.
+Командлет **Grant-CsOuPermission** предоставляет разрешения объектам в указанном подразделении, как указано в следующих таблицах.
 
 <div>
 
-## <a name="granting-permission-for-user-objects"></a>Предоставление разрешений для объектов пользователей
+## <a name="granting-permission-for-user-objects"></a>Предоставление разрешений для объектов-пользователей
 
-Когда вы запускаете командлет **Grant-ксаупермиссион** для объектов пользователей в подразделении, группам предоставляются разрешения, как показано в приведенной ниже таблице.
+При запуске командлета **Grant-CsOuPermission** для объектов-пользователей в подразделении группам предоставляются разрешения, как показано в следующей таблице.
 
-### <a name="permissions-granted-for-user-objects"></a>Разрешения, предоставленные для объектов пользователя
+### <a name="permissions-granted-for-user-objects"></a>Разрешения, предоставленные объектам-пользователям
 
 <table>
 <colgroup>
@@ -57,8 +57,8 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Сгруппирован</th>
-<th>PermissionSet</th>
+<th>Group</th>
+<th>Разрешение</th>
 <th>Применимо к</th>
 </tr>
 </thead>
@@ -66,40 +66,40 @@ _**Тема последнего изменения:** 2012-06-20_
 <tr class="odd">
 <td><p>ртчсуниверсалсервицес</p></td>
 <td><p>Репликация изменений каталога</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалсерверреадонлиграуп</p></td>
+<td><p>RTCUniversalServerReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="odd">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
-<td><p>Прочитать Рткусерсеарчпропертисет</p>
-<p>Прочитать Рткусерпровисионингпропертисет</p>
-<p>Прочитать Рткпропертисет</p>
-<p>Чтение общедоступной информации</p>
-<p>Чтение общих данных</p>
-<p>Чтение ограничений для учетных записей пользователей</p></td>
-<td><p>Дочерние объекты пользователей</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
+<td><p>Чтение RTCUserSearchPropertySet</p>
+<p>Чтение RTCUserProvisioningPropertySet</p>
+<p>Чтение RTCPropertySet</p>
+<p>Чтение Public-Information</p>
+<p>Чтение General-Information</p>
+<p>Чтение User-Account-Restrictions</p></td>
+<td><p>К дочерним объектам-пользователям</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Напишите Рткусерсеарчпропертисет</p>
-<p>Напишите Мсексчуквоицемаилсеттингс</p>
-<p>Напишите Рткусерпровисионингпропертисет</p>
-<p>Напишите Рткпропертисет</p>
-<p>Напишите proxyAddresses</p></td>
-<td><p>Дочерние объекты пользователей</p></td>
+<td><p>Запись RTCUserSearchPropertySet</p>
+<p>Запись msExchUCVoiceMailSettings</p>
+<p>Запись RTCUserProvisioningPropertySet</p>
+<p>Запись RTCPropertySet</p>
+<p>Запись proxyAddresses</p></td>
+<td><p>К дочерним объектам-пользователям</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,11 +109,11 @@ _**Тема последнего изменения:** 2012-06-20_
 
 <div>
 
-## <a name="granting-permission-for-computer-objects"></a>Предоставление разрешений на доступ к объектам компьютера
+## <a name="granting-permission-for-computer-objects"></a>Предоставление разрешений для объектов-компьютеров
 
-Когда вы запускаете командлет **Grant-ксаупермиссион** для объектов компьютеров в подразделении, группам предоставляются разрешения, как показано в приведенной ниже таблице.
+При запуске командлета **Grant-CsOuPermission** для объектов-компьютеров в подразделении группам предоставляются разрешения, как показано в следующей таблице.
 
-### <a name="permissions-granted-for-computer-objects"></a>Разрешения, предоставленные для объектов компьютера
+### <a name="permissions-granted-for-computer-objects"></a>Разрешения, предоставленные объектам-компьютерам
 
 <table>
 <colgroup>
@@ -123,8 +123,8 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Сгруппирован</th>
-<th>PermissionSet</th>
+<th>Group</th>
+<th>Разрешение</th>
 <th>Применимо к</th>
 </tr>
 </thead>
@@ -132,33 +132,33 @@ _**Тема последнего изменения:** 2012-06-20_
 <tr class="odd">
 <td><p>ртчсуниверсалсервицес</p></td>
 <td><p>Репликация изменений каталога</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалсерверреадонлиграуп</p></td>
+<td><p>RTCUniversalServerReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="odd">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
-<td><p>Чтение общедоступной информации</p>
-<p>Проверка на прочтении DNS-Host-Name</p></td>
-<td><p>Дочерние объекты компьютера</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
+<td><p>Чтение Public-Information</p>
+<p>Чтение Validated-DNS-Host-Name</p></td>
+<td><p>К дочерним объектам-компьютерам</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Чтение общедоступной информации</p>
-<p>Проверка на прочтении DNS-Host-Name</p></td>
-<td><p>Дочерние объекты компьютера</p></td>
+<td><p>Чтение Public-Information</p>
+<p>Чтение Validated-DNS-Host-Name</p></td>
+<td><p>К дочерним объектам-компьютерам</p></td>
 </tr>
 </tbody>
 </table>
@@ -168,11 +168,11 @@ _**Тема последнего изменения:** 2012-06-20_
 
 <div>
 
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Предоставление разрешений на доступ к объектам контакта или Аппконтакт
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Предоставление разрешений для контактных объектов  или объектов AppContact
 
-При запуске командлета **Grant-ксаупермиссион** для объектов контакта или объектов аппконтакт в подразделении группам предоставляются разрешения, описанные в приведенной ниже таблице.
+При запуске командлета **Grant-CsOuPermission** для контактных объектов и объектов AppContact в подразделении группам предоставляются разрешения, как показано в следующей таблице.
 
-### <a name="permissions-granted-for-contact-or-appcontact-objects"></a>Разрешения, предоставленные для контактных и Аппконтактных объектов
+### <a name="permissions-granted-for-contact-or-appcontact-objects"></a>Разрешения, предоставленные контактным объектам и объектам AppContact
 
 <table>
 <colgroup>
@@ -182,8 +182,8 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Сгруппирован</th>
-<th>PermissionSet</th>
+<th>Group</th>
+<th>Разрешение</th>
 <th>Применимо к</th>
 </tr>
 </thead>
@@ -191,45 +191,45 @@ _**Тема последнего изменения:** 2012-06-20_
 <tr class="odd">
 <td><p>ртчсуниверсалсервицес</p></td>
 <td><p>Репликация изменений каталога</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалсерверреадонлиграуп</p></td>
+<td><p>RTCUniversalServerReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="odd">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
-<td><p>Прочитать Рткусерсеарчпропертисет</p>
-<p>Прочитать Рткусерпровисионингпропертисет</p>
-<p>Прочитать Рткпропертисет</p>
-<p>Чтение общедоступной информации</p>
-<p>Чтение общих данных</p>
-<p>Чтение персональных данных</p>
-<p>Чтение ограничений для учетных записей пользователей</p></td>
-<td><p>Дочерние объекты контактов</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
+<td><p>Чтение RTCUserSearchPropertySet</p>
+<p>Чтение RTCUserProvisioningPropertySet</p>
+<p>Чтение RTCPropertySet</p>
+<p>Чтение Public-Information</p>
+<p>Чтение General-Information</p>
+<p>Чтение Personal-Information</p>
+<p>Чтение User-Account-Restrictions</p></td>
+<td><p>К дочерним контактным объектам</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Напишите Рткусерсеарчпропертисет</p>
-<p>Напишите Осерипфоне</p>
-<p>Запись отображаемого текста</p>
-<p>Описание записи</p>
-<p>Напишите telephoneNumber</p>
-<p>Напишите Мсексчуквоицемаилсеттингс</p>
-<p>Напишите Рткусерпровисионингпропертисет</p>
-<p>Напишите Рткпропертисет</p>
-<p>Напишите proxyAddresses</p></td>
-<td><p>Дочерние объекты контактов</p></td>
+<td><p>Запись RTCUserSearchPropertySet</p>
+<p>Запись otherIpPhone</p>
+<p>Запись displayName</p>
+<p>Запись description</p>
+<p>Запись telephoneNumber</p>
+<p>Запись msExchUCVoiceMailSettings</p>
+<p>Запись RTCUserProvisioningPropertySet</p>
+<p>Запись RTCPropertySet</p>
+<p>Запись proxyAddresses</p></td>
+<td><p>К дочерним контактным объектам</p></td>
 </tr>
 </tbody>
 </table>
@@ -239,11 +239,11 @@ _**Тема последнего изменения:** 2012-06-20_
 
 <div>
 
-## <a name="granting-permission-for-device-objects"></a>Предоставление разрешения на доступ к объектам устройства
+## <a name="granting-permission-for-device-objects"></a>Предоставление разрешений для объектов-устройств
 
-Когда вы запускаете командлет **Grant-ксаупермиссион** для объектов устройств в подразделении, группам предоставляются разрешения, как показано в приведенной ниже таблице.
+При запуске командлета **Grant-CsOuPermission** для объектов-устройств в подразделении группам предоставляются разрешения, как показано в следующей таблице.
 
-### <a name="permissions-granted-for-device-objects"></a>Разрешения, предоставленные для объектов устройства
+### <a name="permissions-granted-for-device-objects"></a>Разрешения, предоставленные объектам-устройствам
 
 <table>
 <colgroup>
@@ -253,8 +253,8 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Сгруппирован</th>
-<th>PermissionSet</th>
+<th>Group</th>
+<th>Разрешение</th>
 <th>Применимо к</th>
 </tr>
 </thead>
@@ -262,59 +262,59 @@ _**Тема последнего изменения:** 2012-06-20_
 <tr class="odd">
 <td><p>ртчсуниверсалсервицес</p></td>
 <td><p>Репликация изменений каталога</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалсерверреадонлиграуп</p></td>
+<td><p>RTCUniversalServerReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="odd">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
-<td><p>Прочитать Рткусерсеарчпропертисет</p>
-<p>Прочитать Рткусерпровисионингпропертисет</p>
-<p>Прочитать Рткпропертисет</p>
-<p>Чтение общедоступной информации</p>
-<p>Чтение персональных данных</p>
-<p>Чтение общих данных</p>
-<p>Чтение ограничений для учетных записей пользователей</p></td>
-<td><p>Дочерние объекты контактов</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
+<td><p>Чтение RTCUserSearchPropertySet</p>
+<p>Чтение RTCUserProvisioningPropertySet</p>
+<p>Чтение RTCPropertySet</p>
+<p>Чтение Public-Information</p>
+<p>Чтение Personal-Information</p>
+<p>Чтение General-Information</p>
+<p>Чтение User-Account-Restrictions</p></td>
+<td><p>К дочерним контактным объектам</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Создание дочернего элемента</p>
-<p>Удалить дочерний элемент</p>
-<p>Удалить дерево</p></td>
-<td><p>Службу</p></td>
+<td><p>Создание дочернего объекта</p>
+<p>Удаление дочернего объекта</p>
+<p>Удаление дерева</p></td>
+<td><p>Контакт</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Запись отображаемого текста</p>
-<p>Описание записи</p>
-<p>Напишите telephoneNumber</p></td>
-<td><p>Дочерние объекты пользователей</p></td>
+<td><p>Запись displayName</p>
+<p>Запись description</p>
+<p>Запись telephoneNumber</p></td>
+<td><p>К дочерним объектам-пользователям</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Напишите Рткусерсеарчпропертисет</p>
-<p>Напишите Осерипфоне</p>
-<p>Запись отображаемого текста</p>
-<p>Описание записи</p>
-<p>Напишите telephoneNumber</p>
-<p>Напишите Мсексчуквоицемаилсеттингс</p>
-<p>Напишите Рткусерпровисионингпропертисет</p>
-<p>Напишите Рткпропертисет</p>
-<p>Напишите proxyAddresses</p></td>
-<td><p>Дочерние объекты контактов</p></td>
+<td><p>Запись RTCUserSearchPropertySet</p>
+<p>Запись otherIpPhone</p>
+<p>Запись displayName</p>
+<p>Запись description</p>
+<p>Запись telephoneNumber</p>
+<p>Запись msExchUCVoiceMailSettings</p>
+<p>Запись RTCUserProvisioningPropertySet</p>
+<p>Запись RTCPropertySet</p>
+<p>Запись proxyAddresses</p></td>
+<td><p>К дочерним контактным объектам</p></td>
 </tr>
 </tbody>
 </table>
@@ -324,11 +324,11 @@ _**Тема последнего изменения:** 2012-06-20_
 
 <div>
 
-## <a name="granting-permission-for-inetorgperson-objects"></a>Предоставление разрешения для объектов InetOrgPerson
+## <a name="granting-permission-for-inetorgperson-objects"></a>Предоставление разрешений для объектов inetOrgPerson
 
-При запуске командлета **Grant-ксаупермиссион** для объектов inetOrgPerson в подразделении группам предоставляются разрешения, описанные в приведенной ниже таблице.
+При запуске командлета **Grant-CsOuPermission** для объектов inetOrgPerson в подразделении группам предоставляются разрешения, как показано в следующей таблице.
 
-### <a name="permissions-granted-for-inetorgperson-objects"></a>Разрешения, предоставленные для объектов InetOrgPerson
+### <a name="permissions-granted-for-inetorgperson-objects"></a>Разрешения, предоставленные объектам inetOrgPerson
 
 <table>
 <colgroup>
@@ -338,8 +338,8 @@ _**Тема последнего изменения:** 2012-06-20_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Сгруппирован</th>
-<th>PermissionSet</th>
+<th>Group</th>
+<th>Разрешение</th>
 <th>Применимо к</th>
 </tr>
 </thead>
@@ -347,40 +347,40 @@ _**Тема последнего изменения:** 2012-06-20_
 <tr class="odd">
 <td><p>ртчсуниверсалсервицес</p></td>
 <td><p>Репликация изменений каталога</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалсерверреадонлиграуп</p></td>
+<td><p>RTCUniversalServerReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="odd">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
 <td><p>Содержимое списка</p>
 <p>Чтение всех свойств</p>
 <p>Разрешения на чтение</p></td>
-<td><p>Только этот объект</p></td>
+<td><p>Только к этому объекту</p></td>
 </tr>
 <tr class="even">
-<td><p>рткуниверсалусерреадонлиграуп</p></td>
-<td><p>Прочитать Рткусерсеарчпропертисет</p>
-<p>Прочитать Рткусерпровисионингпропертисет</p>
-<p>Прочитать Рткпропертисет</p>
-<p>Чтение персональных данных</p>
-<p>Чтение общедоступной информации</p>
-<p>Чтение общих данных</p>
-<p>Чтение ограничений для учетных записей пользователей</p></td>
-<td><p>Дочерние объекты inetOrgPerson</p></td>
+<td><p>RTCUniversalUserReadOnlyGroup</p></td>
+<td><p>Чтение RTCUserSearchPropertySet</p>
+<p>Чтение RTCUserProvisioningPropertySet</p>
+<p>Чтение RTCPropertySet</p>
+<p>Чтение Personal-Information</p>
+<p>Чтение Public-Information</p>
+<p>Чтение General-Information</p>
+<p>Чтение User-Account-Restrictions</p></td>
+<td><p>К дочерним объектам inetOrgPerson</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Напишите Рткусерсеарчпропертисет</p>
-<p>Напишите Рткусерпровисионингпропертисет</p>
-<p>Напишите Рткпропертисет</p>
-<p>Напишите proxyAddresses</p></td>
-<td><p>Дочерние объекты inetOrgPerson</p></td>
+<td><p>Запись RTCUserSearchPropertySet</p>
+<p>Запись RTCUserProvisioningPropertySet</p>
+<p>Запись RTCPropertySet</p>
+<p>Запись proxyAddresses</p></td>
+<td><p>К дочерним объектам inetOrgPerson</p></td>
 </tr>
 </tbody>
 </table>

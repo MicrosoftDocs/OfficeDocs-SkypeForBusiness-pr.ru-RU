@@ -12,16 +12,16 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c836c579571645a7717ee54b697081104f90986d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3742b747a9dee55d02cbc261cbcbebce1f3c2591
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740959"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-26_
+_**Последнее изменение темы:** 2012-09-26_
 
-Если вы развернули или запланируете развертывание сервера Microsoft Exchange Server в Организации, вы можете использовать возможности единой системы обмена сообщениями Exchange для предоставления голосовой почты корпоративным голосовым пользователям.
+Если вы развернули или запланируете развертывание Microsoft Exchange Server в Организации, вы можете использовать функции единой системы обмена сообщениями Exchange для предоставления голосовой почты пользователям корпоративной голосовой связи.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-09-26_
 
   - [Настройка единой системы обмена сообщениями на сервере Microsoft Exchange Server для работы с Lync Server 2013](lync-server-2013-configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server.md)
 
-  - [Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на Microsoft Exchange Server](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
+  - [Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на сервере Microsoft Exchange](lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md)
 
 </div>
 

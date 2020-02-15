@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица FocusJoinsAndLeaves'
+title: 'Lync Server 2013: таблица таблица focusjoinsandleaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 385279d422827b689561902becbd512f4e9261ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Таблица FocusJoinsAndLeaves в Lync Server 2013
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Таблица Таблица focusjoinsandleaves в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765267"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-В каждой записи в этой таблице содержатся сведения о CDR для одного пользователя и о том, что нужно оставлять на одной конференции. Каждая конференция представлена в этой таблице одной записью каждый раз, когда пользователь присоединяется к Конференции и оставляет ее.
+Каждая запись в этой таблице содержит сведения о CDR для одного пользователя и оставляют информацию для одной конференции. Каждая конференция представлена в этой таблице по одной записи на каждый раз, когда пользователь присоединяется к Конференции и покидает ее.
 
 
 <table>
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
@@ -60,67 +60,67 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p><strong>сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
-<td><p>Время экземпляра Конференции. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации экземпляра Конференции. Дополнительные сведения приведены <a href="lync-server-2013-conferences-table.md">в таблице конференции для Lync Server 2013</a> .</p></td>
+<td><p>Время экземпляра конференции. Используется совместно с <strong>сессионидсек</strong> для уникальной идентификации экземпляра Конференции. Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>сессионидсек</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации экземпляра Конференции. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации экземпляра Конференции. Дополнительные сведения приведены <a href="lync-server-2013-conferences-table.md">в таблице конференции для Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Основной, Внешний</p></td>
+<td><p>Идентификатор для определения экземпляра конференции. Используется совместно с <strong>сессионидтиме</strong> для уникальной идентификации экземпляра Конференции. Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>диалогсессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
-<td><p>Время запроса сеанса. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
+<td><p>Время запроса сеанса. В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом. Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>диалогсессионидсек</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Основной, внешний</p></td>
-<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
+<td><p>int</p></td>
+<td><p>Первичный, внешний</p></td>
+<td><p>Идентификатор для идентификации сеанса. В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом. Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Идентификатора пользователя</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Уникальный номер, идентифицирующий этого пользователя, на который ссылается <a href="lync-server-2013-users-table.md">Таблица "Пользователи" в Lync Server 2013</a>.</p></td>
+<td><p><strong>UserId</strong></p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Уникальный номер, идентифицирующий этого пользователя, на который ссылается <a href="lync-server-2013-users-table.md">таблица Users в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>фокусусеринстанце</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
-<td><p>Если пользователь входит в систему на нескольких компьютерах или устройствах одновременно, <strong>усеринстанце</strong> используется для уникальной идентификации комбинации пользователей и устройств.</p></td>
+<td><p>Если пользователь вошел в систему на нескольких компьютерах или устройствах одновременно, <strong>усеринстанце</strong> используется для уникальной идентификации комбинации "пользователь-устройство".</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>исусеринтернал</strong></p></td>
-<td><p>бит</p></td>
+<td><p>Битовая</p></td>
 <td><p> </p></td>
-<td><p>Вне зависимости от того, вошел ли пользователь из внутреннего или нет.</p></td>
+<td><p>Указывает, вошел ли пользователь из внутренней сети или нет.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserRole</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Роль этого пользователя на Конференции, например докладчика или участника.</p></td>
+<td><p>Роль этого пользователя в конференции, например докладчик или участник.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>усержоинтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Время присоединения пользователя к Конференции.</p></td>
+<td><p>Время, когда этот пользователь присоединяется к Конференции.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>усерлеаветиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Время, когда пользователь покидает Конференцию.</p></td>
+<td><p>Время, когда этот пользователь покидает Конференцию.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>клиентверид</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Версия клиентского программного обеспечения пользователя, на которую ссылается <a href="lync-server-2013-clientversions-table.md">Таблица клиентверсионс в Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Версия клиентского программного обеспечения пользователя, на которую ссылается <a href="lync-server-2013-clientversions-table.md">таблица таблица clientversions в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>усерендпоинтид</strong></p></td>

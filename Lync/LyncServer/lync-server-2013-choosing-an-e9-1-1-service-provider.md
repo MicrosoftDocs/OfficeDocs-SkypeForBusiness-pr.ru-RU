@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: выбор поставщика услуг E9-1-1'
+title: 'Lync Server 2013: выбор поставщика услуг E9 – 1 – 1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f10ba311ce5d626348e4b1837f73768cc2c4ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 68087115e303cbe964c0b3f8ae52318074ce4382
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729879"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a>Выбор поставщика услуг E9-1-1 для Lync Server 2013
+# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a>Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729879"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-06_
+_**Последнее изменение темы:** 2012-06-06_
 
-Поставщик услуг E9-1-1 отправляет экстренные вызовы, исходящие из Lync Server, в правильную точку ответа на общедоступную безопасность (ПСАП) на основе сведений о расположении, содержащихся в звонке.
+Поставщик услуг E9-1-1 отправляет экстренные вызовы, исходящие из Lync Server, в правильную общедоступную точку безопасности ответа (PSAP) на основе сведений о расположении, содержащихся в вызове.
 
-Для поддержки E9-1-1 в рамках развертывания Lync Server вы должны получить службу маршрутизации E9-1-1 из программы Lync Open, которая является поставщиком услуг, предоставленными E9 1 – 1. Выберите поставщика услуг, который наилучшим образом соответствует требованиям вашей организации.
+Чтобы обеспечить поддержку E9 – 1 – 1 в развертывании Lync Server, необходимо получить службу маршрутизации E9 – 1 – 1 из поставщика услуг Lync Open — 1 – 1. Выберите поставщика, наиболее точно отвечающего требованиям вашей организации.
 
 </div>
 

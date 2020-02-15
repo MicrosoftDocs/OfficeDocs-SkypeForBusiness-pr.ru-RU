@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Включение и отключение отправки группового звонка для пользователей'
+title: 'Lync Server 2013: Включение и отключение отправки групп для пользователей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Включение и отключение отправки группового звонка для пользователей в Lync Server 2013
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>Включение или отключение групповой отправки звонков для пользователей в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736030"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Когда в таблицу "приостановить Звонок" добавляется диапазон выбора группового звонка, вы можете включить и отключить раскладки группового звонка для пользователя при необходимости. В этом разделе объясняется, как использовать средство Сефаутил Resource Kit для включения и отключения отправки групповых звонков пользователям.
+Когда в таблицу орбит парковки вызовов добавляется диапазон группового ответа на звонки, при необходимости вы можете включить или отключить функцию ответа на вызов групп для пользователя. В этом разделе описывается, как использовать средство SEFAUtil Resource Kit для включения и отключения групповой отправки вызовов для пользователей.
 
 <div>
 
 
 > [!NOTE]  
-> Параметр Сефаутил,/енаблеграуппиккуп включает функцию отправки группового звонка и назначает номер группы.
+> Параметр SEFAUtil,/енаблеграуппиккуп, разрешает отправке звонков групп и назначает номер группы.
 
 
 
@@ -53,9 +53,9 @@ _**Тема последнего изменения:** 2013-02-22_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Включение отправки группового звонка для пользователей в Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [Включение групповой отправки звонков для пользователей в Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [Отключение отправки группового вызова для пользователей в Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [Отключение групповой отправки вызовов для пользователей в Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: конфигурация IIS'
+title: 'Lync Server 2013: Конфигурация IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb8fe023d872ff19e29beb329488304048895b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41729329"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-02-17_
+_**Последнее изменение темы:** 2014-02-17_
 
-Для успешного выполнения этой процедуры необходимо войти на сервер с минимальным уровнем прав локального администратора и пользователя домена.
+Для успешного выполнения этой процедуры вам необходимо выполнить вход на сервер как минимум с учетной записью локального администратора и пользователя домена.
 
-Перед настройкой и установкой сервера переднего плана для Lync Server 2013, Standard Edition или первого сервера переднего плана в пуле вы устанавливаете и настраиваете роль сервера и веб-службы для служб IIS.
+Перед настройкой и установкой сервера переднего плана для Lync Server 2013, Standard Edition или первого сервера переднего плана в пуле устанавливается и настраивается роль сервера и веб-службы для служб IIS.
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> Если в вашей организации требуется найти IIS и все веб-службы на диске, отличном от системного, вы можете изменить путь к папке установки для файлов Lync Server 2013 в диалоговом окне настройки при первоначальной установке Lync Server 2013 Средства администрирования. Перед установкой IIS необходимо установить средства администрирования. Если вы установили файлы установки по этому пути, включая Окскоре. msi, остальные файлы Lync Server 2013 будут развернуты и на этом диске. Дтаилс можно найти в разделе <A href="lync-server-2013-install-lync-server-administrative-tools.md">Установка средств администрирования Lync Server 2013</A>. Сведения о том, как переместить ИНЕТПУБ, развернутый диспетчером Windows Server Manager при установке IIS <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>, можно найти в разделе.
+> Если в Организации требуется, чтобы службы IIS и все веб-службы настроились на диске, отличном от системного диска, можно изменить путь к папке установки для файлов Lync Server 2013 в диалоговом окне программы установки при первоначальной установке Lync Server 2013 Средства администрирования. Средства администрирования устанавливаются перед установкой служб IIS. Если вы устанавливаете файлы установки по этому пути, включая OCSCore. msi, остальные файлы Lync Server 2013 будут развернуты на этом диске. Сведения о дтаилс можно найти в <A href="lync-server-2013-install-lync-server-administrative-tools.md">статье Установка средств администрирования Lync Server 2013</A>. Сведения о том, как переместить INETPUB, развернутый диспетчером Windows Server при установке IIS, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>можно узнать в разделе.
 
 
 
 </div>
 
-В приведенной ниже таблице указаны необходимые службы ролей IIS 7,5.
+В следующей таблице перечислены требуемые службы роли IIS 7.5.
 
 ### <a name="iis-75-role-services"></a>Службы ролей IIS 7,5
 
@@ -62,27 +62,27 @@ _**Тема последнего изменения:** 2014-02-17_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Заголовок роли</th>
-<th>Служба ролей</th>
+<th>Название роли</th>
+<th>Служба роли</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Стандартные компоненты HTTP установлены</p></td>
+<td><p>Общие установленные функции HTTP</p></td>
 <td><p>Статическое содержимое</p></td>
 </tr>
 <tr class="even">
-<td><p>Стандартные компоненты HTTP установлены</p></td>
+<td><p>Общие установленные функции HTTP</p></td>
 <td><p>Документ по умолчанию</p></td>
 </tr>
 <tr class="odd">
-<td><p>Стандартные компоненты HTTP установлены</p></td>
+<td><p>Общие установленные функции HTTP</p></td>
 <td><p>Ошибки HTTP</p></td>
 </tr>
 <tr class="even">
 <td><p>Разработка приложений</p></td>
 <td><p>ASP.NET</p>
-<p>Для Windows Server 2012 также требуется ASP. NET 4.5</p></td>
+<p>Для Windows Server 2012 также требуется ASP. NET 4.5.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Разработка приложений</p></td>
@@ -90,27 +90,27 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>Разработка приложений</p></td>
-<td><p>Расширения ISAPI (Internet Server API)</p></td>
+<td><p>Расширения Internet Server API (ISAPI)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Разработка приложений</p></td>
 <td><p>Фильтры ISAPI</p></td>
 </tr>
 <tr class="even">
-<td><p>Исправность и диагностика</p></td>
+<td><p>Работоспособность и диагностика</p></td>
 <td><p>Ведение журнала HTTP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Исправность и диагностика</p></td>
-<td><p>Средства ведения журнала</p></td>
+<td><p>Работоспособность и диагностика</p></td>
+<td><p>Средства ведения журналов</p></td>
 </tr>
 <tr class="even">
-<td><p>Исправность и диагностика</p></td>
-<td><p>Трассировка</p></td>
+<td><p>Работоспособность и диагностика</p></td>
+<td><p>Образца</p></td>
 </tr>
 <tr class="odd">
 <td><p>Безопасность</p></td>
-<td><p>Анонимная проверка подлинности (установлен и включен по умолчанию)</p></td>
+<td><p>Анонимная проверка подлинности (установлена и включена по умолчанию)</p></td>
 </tr>
 <tr class="even">
 <td><p>Безопасность</p></td>
@@ -118,7 +118,7 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>Безопасность</p></td>
-<td><p>Проверка подлинности сопоставления сертификатов клиентов</p></td>
+<td><p>Проверка подлинности с сопоставлением сертификатов клиентов</p></td>
 </tr>
 <tr class="even">
 <td><p>Безопасность</p></td>
@@ -141,7 +141,7 @@ _**Тема последнего изменения:** 2014-02-17_
 </table>
 
 
-В операционной системе Windows Server 2008 R2 с пакетом обновления 1 (SP1) можно использовать Windows PowerShell 2,0. Сначала нужно импортировать модуль ServerManager, а затем установить роль сервера IIS 7,5 и службы ролей.
+В операционной системе Windows Server 2008 R2 с пакетом обновления 1 (SP1) для Windows Server R2 можно использовать Windows PowerShell 2,0. Сначала нужно импортировать модуль ServerManager, а затем установить роль и службы роли IIS 7.5.
 
    ```PowerShell
     Import-Module ServerManager
@@ -155,19 +155,19 @@ _**Тема последнего изменения:** 2014-02-17_
 
 
 > [!NOTE]  
-> Анонимная проверка подлинности устанавливается по умолчанию с ролью сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки IIS. Дополнительные сведения можно найти в <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>разделе "включить анонимную проверку подлинности (IIS 7)".
+> Анонимная проверка подлинности устанавливается по умолчанию при установке роли сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки служб IIS. Дополнительные сведения см. в <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>разделе "Включение анонимной проверки подлинности (IIS 7)".
 
 
 
 </div>
 
-В таблице ниже указаны обязательные службы ролей IIS 8,0 и IIS 8,5 для Windows Server 2012 и Windows Server 2012 R2.
+В следующей таблице указаны обязательные службы ролей IIS 8,0 и IIS 8,5 для Windows Server 2012 и Windows Server 2012 R2.
 
 <div class=" ">
 
 
 > [!NOTE]  
-> Для Windows Server 2012 и Windows Server 2012 R2 командлет Add-WindowsFeature был заменен командлетом Install-WindowsFeature. Подробности можно найти в разделе <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</A>.
+> Для Windows Server 2012 и Windows Server 2012 R2 командлет Add $ WindowsFeature заменен командлетом Install/WindowsFeature. Дополнительные сведения см. в разделе <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install $ WindowsFeature</A>.
 
 
 
@@ -182,8 +182,8 @@ _**Тема последнего изменения:** 2014-02-17_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Заголовок роли</th>
-<th>Служба ролей</th>
+<th>Название роли</th>
+<th>Служба роли</th>
 </tr>
 </thead>
 <tbody>
@@ -197,11 +197,11 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>Основные возможности HTTP</p></td>
-<td><p>Просмотр каталога</p></td>
+<td><p>Просмотр каталогов</p></td>
 </tr>
 <tr class="even">
 <td><p>Основные возможности HTTP</p></td>
-<td><p>Ошибки HTTP</p></td>
+<td><p>ошибки HTTP;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Основные возможности HTTP</p></td>
@@ -217,15 +217,15 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>Работоспособность и диагностика</p></td>
-<td><p>Средства ведения журналов</p></td>
+<td><p>Средства ведения журнала</p></td>
 </tr>
 <tr class="odd">
-<td><p>Работоспособность и диагностика</p></td>
+<td><p>Проверка работоспособности и диагностика</p></td>
 <td><p>Монитор запросов</p></td>
 </tr>
 <tr class="even">
-<td><p>Работоспособность и диагностика</p></td>
-<td><p>Трассировка</p></td>
+<td><p>Проверка работоспособности и диагностика</p></td>
+<td><p>Образца</p></td>
 </tr>
 <tr class="odd">
 <td><p>Безопасность</p></td>
@@ -237,7 +237,7 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>Безопасность</p></td>
-<td><p>Проверка подлинности с сопоставлением сертификатов клиентов</p></td>
+<td><p>проверка подлинности с сопоставлением сертификата клиента.</p></td>
 </tr>
 <tr class="even">
 <td><p>Безопасность</p></td>
@@ -269,7 +269,7 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>Разработка приложений</p></td>
-<td><p>Включения на стороне сервера</p></td>
+<td><p>Компоненты на стороне сервера</p></td>
 </tr>
 <tr class="even">
 <td><p>Средства управления</p></td>
@@ -284,23 +284,23 @@ _**Тема последнего изменения:** 2014-02-17_
 <td><p>Сценарии и средства управления для служб IIS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возможности .NET 3,5 Framework</p></td>
+<td><p>Функции .NET 3,5 Framework</p></td>
 <td><p>.NET 3,5 Framework</p></td>
 </tr>
 <tr class="even">
-<td><p>Возможности .NET 4,5 Framework</p></td>
+<td><p>Функции .NET 4,5 Framework</p></td>
 <td><p>.NET Framework 4,5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возможности .NET 4,5 Framework</p></td>
+<td><p>Функции .NET 4,5 Framework</p></td>
 <td><p>ASP.Net 4,5</p></td>
 </tr>
 <tr class="even">
-<td><p>Возможности .NET 4,5 Framework</p></td>
-<td><p>Активация HTTP</p></td>
+<td><p>Функции .NET 4,5 Framework</p></td>
+<td><p>Активация по протоколу HTTP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возможности .NET 4,5 Framework</p></td>
+<td><p>Функции .NET 4,5 Framework</p></td>
 <td><p>Общий доступ к портам TCP</p></td>
 </tr>
 <tr class="even">
@@ -321,15 +321,15 @@ _**Тема последнего изменения:** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>Пользовательские интерфейсы и инфраструктура</p></td>
-<td><p>Работа с рабочим столом</p></td>
+<td><p>Возможности рабочего стола</p></td>
 </tr>
 <tr class="odd">
 <td><p>Пользовательские интерфейсы и инфраструктура</p></td>
 <td><p>Графическая консоль сервера</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Identity Foundation 3.5</p></td>
-<td><p>Windows Identity Foundation 3.5</p></td>
+<td><p>Windows Identity Foundation 3,5</p></td>
+<td><p>Windows Identity Foundation 3,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>Служба активации процессов Windows</p></td>
@@ -357,7 +357,7 @@ _**Тема последнего изменения:** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Новая возможность в Windows Server 2012 — это параметр – source, который определяет, где можно найти исходный носитель Windows Server 2012. Этот носитель можно задать в качестве DVD-дисковода (например, Д:\саурцес\сксс) или сетевого общего доступа, в который были скопированы файлы мультимедиа (например, \\fileserver\windows2012\sources\Sxs).
+> Новый элемент с Windows Server 2012 — это параметр – source, определяющий, где можно найти исходный носитель Windows Server 2012. Носитель можно определить как DVD-дисковод (например, Д:\саурцес\сксс) или в сетевую папку, в которую были скопированы файлы мультимедиа (например, \\fileserver\windows2012\sources\Sxs).
 
 
 
@@ -368,7 +368,7 @@ _**Тема последнего изменения:** 2014-02-17_
 ## <a name="see-also"></a>См. также
 
 
-[Требования IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
+[Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  
   
 
 </div>

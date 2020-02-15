@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка параметров конференц-связи с телефонным подключением (необязательно)'
+title: 'Lync Server 2013: Проверка параметров конференц-связи с телефонным подключением (необязательно)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd283e8d7b86fbadfb2c23b0e8cbe2dc22b66cce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ec4e4852594e7e4748213de994b6b4f471d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755713"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Необязательно Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755713"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-02_
+_**Последнее изменение темы:** 2010-11-02_
 
-Чтобы завершить проверку конфигурации конференц-связи с телефонным подключением, выполните поиск абонентских групп с регионом, для которого не задан ни один номер доступа, а также номеров доступа, для которых не задан ни один регион конференц-связи с телефонным подключением. Этот шаг является необязательным.
+Чтобы завершить проверку конфигурации конференц-связи с телефонным подключением, выполните поиск абонентских групп с регионом, для которого не задан ни один номер доступа, а также номеров доступа, для которых не задан ни один регион конференц-связи с телефонным подключением. Это шаг является необязательным.
 
 <div>
 
-## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Чтобы найти абонентские группы с областью конференц-связи с телефонным подключением, которая не используется номером доступа
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Поиск абонентских групп с регионом конференц-связи с телефонным подключением, для которого не задан ни один номер доступа
 
-1.  Войдите в систему под учетной записью члена группы Рткуниверсалсерверадминс или члена роли **CS-серверадминистратор** или **ксадминистратор** .
+1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или участник роли **Cs-ServerAdministrator** или **CsAdministrator**.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Выполните следующую команду в командной строке:
+3.  Выполните в командной строке следующую команду:
     
         Get-CsDialinConferencingAccessNumber -EmptyRegion
     
@@ -57,13 +57,13 @@ _**Тема последнего изменения:** 2010-11-02_
 
 <div>
 
-## <a name="to-find-access-numbers-without-assigned-regions"></a>Поиск номеров доступа без назначенных регионов
+## <a name="to-find-access-numbers-without-assigned-regions"></a>Поиск номеров доступа, которые не связаны ни с одним регионом
 
-1.  Войдите в систему под учетной записью члена группы Рткуниверсалсерверадминс или члена роли **CS-серверадминистратор** или **ксадминистратор** .
+1.  Выполните вход на компьютер с учетной записью члена группы RTCUniversalServerAdmins или члена роли **Cs-ServerAdministrator** или **CsAdministrator**.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Выполните следующую команду в командной строке:
+3.  Выполните следующий командлет:
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     

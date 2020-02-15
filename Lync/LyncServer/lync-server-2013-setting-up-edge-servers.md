@@ -12,16 +12,16 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764625"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-08_
+_**Последнее изменение темы:** 2012-09-08_
 
-Основные задачи, необходимые для настройки пограничных серверов, одинаковы для установки одного пограничного сервера или пула пограничного сервера с балансировкой нагрузки, за исключением того, что для пула подсистем балансировки нагрузки оборудования требуется развертывание подсистемы балансировки нагрузки и дополнительные шаги для репликация настраивается на нескольких серверах пограничного сервера.
+Для настройки пограничных серверов необходимо выполнить те же первостепенные задачи, что и для установки одного пограничного сервера или пула пограничных серверов с балансировкой нагрузки, за исключением того, что для пула пограничных серверов с аппаратной балансировкой нагрузки требуется развертывание балансировщиков нагрузки и дополнительные действия по репликации настройки на несколько пограничных серверов.
 
 <div>
 
@@ -47,11 +47,11 @@ _**Тема последнего изменения:** 2012-09-08_
 
   - [Установка необходимого программного обеспечения на пограничных серверах для Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [Экспорт топологии Lync Server 2013 и ее копирование на внешние носители для установки в пограничной топологии](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [Экспорт топологии Lync Server 2013 и ее копирование на внешние носители для установки пограничной системы](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
   - [Установка пограничных серверов для Lync Server 2013](lync-server-2013-install-edge-servers.md)
 
-  - [Настройка сертификатов пограничного сервера для Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
+  - [Настройка пограничных сертификатов для Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
 
   - [Запуск пограничных серверов в Lync Server 2013](lync-server-2013-start-edge-servers.md)
 
