@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035241"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -60,6 +60,10 @@ ms.locfileid: "41834959"
 #### <a name="notifications-and-feeds"></a>Уведомления и каналы
 
 Здесь можно настроить, отображаются ли рекомендуемые веб-каналы в веб-канале активности пользователей в Teams. Дополнительные сведения о веб-канале активности см. в разделе [Знакомство с веб-каналом активности в Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
+
+#### <a name="tagging"></a>Добавление тегов
+
+Теги позволяют пользователям взаимодействовать с определенными людьми в команде. Теги можно добавлять для одного или нескольких участников команды. После добавления тега его сможет использовать любой участник команды в @упоминаниях в записи канала, чтобы общаться только с пользователями, которым назначен этот тег. С помощью этих параметров можно управлять разрешениями на добавление тегов и использованием тегов в организации. Дополнительные сведения см. в статье [Управление тегами в Teams](manage-tags.md).
 
 #### <a name="email-integration"></a>Интеграция электронной почты
 
@@ -109,7 +113,7 @@ Microsoft Teams позволяет организациям назначать 
 
 #### <a name="app-preferences"></a>Настройки приложений
 
-Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/ru-RU/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
+Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
 
 
 #### <a name="network-planner"></a>Планировщик сети
@@ -121,7 +125,7 @@ Microsoft Teams позволяет организациям назначать 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 
-Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Дополнительные сведения
 

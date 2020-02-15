@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030773"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Создание первых команд в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837719"
 | Реализация Microsoft Teams | Общий <br/> Сведения о распознавании и внедрении <br/> Бизнес-задействование <br/> Программа, предпринимаемая раньше <br/> Отзывы и аналитики <br/> Безопасность и соответствие требованиям <br/> Стратегия и планирование <br/> Исправность и инциденты служб <br/> Обучение <br/> Ватеркулер чата |
 | Командная лидерами | Общий <br/> Рекомендации, обучение и инструкции <br/> Лидераный угол <br/> Отзывы и поддержка <br/> Интересы программы <br/> Социальная Ступица |
 
-В Microsoft Teams [Коллекция вкладок](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) предоставляет доступ ко всем приложениям Office 365 и сторонним разработчикам, которые были включены администратором. Чтобы получить наибольшее значение из вашего продукта, мы предлагаем закрепить ключевые ресурсы в качестве вкладок в каждом из соответствующих каналов. Ниже приведен пример.
+В Microsoft Teams [Коллекция вкладок](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) предоставляет доступ ко всем приложениям Office 365 и сторонним разработчикам, которые были включены администратором. Чтобы получить наибольшее значение из вашего продукта, мы предлагаем закрепить ключевые ресурсы в качестве вкладок в каждом из соответствующих каналов. Ниже приведен пример.
 
 ![Снимок экрана, на котором показаны вкладки по умолчанию и пользовательские](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "41837719"
 | Бизнес-задействование | Вики — руководство по задействованию<br/>Форма: запрос на консультации для Teams<br/>Список — запросы на задействование |
 |Ранние последователи | Сообщество "закрепленная обратная связь" <br/> OneNote для часто задаваемых вопросов и распространенных тем |
 | Отзывы и отчеты | Отчет об использовании закрепления Office 365 (только для администраторов Office 365) |
-| Безопасность и соответствие требованиям | Портал Microsoft Trust <br/> [Документация по безопасности и соответствию требованиям](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> ["Roadmap" (Дорожная карта)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Безопасность и соответствие требованиям | Портал Microsoft Trust <br/> [Документация по безопасности и соответствию требованиям](https://docs.microsoft.com/office365/securitycompliance/index)<br/> ["Roadmap" (Дорожная карта)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Стратегия и планирование | Приложение PowerPoint для совместной работы в Северной звезде <br/> План проекта по внедрению службы |
 | Обучение | Настраиваемый портал обучения <br/> [Обучение работе с Teams Online](https://aka.ms/TeamsTraining) |
 | **Командная лидерами**|  |

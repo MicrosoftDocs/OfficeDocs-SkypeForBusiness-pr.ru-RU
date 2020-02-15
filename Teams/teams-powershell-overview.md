@@ -15,12 +15,12 @@ f1.keywords:
 description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035361"
 ---
 # <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
 
@@ -30,7 +30,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 Элементы управления PowerShell для управления группами находятся в двух разных модулях PowerShell. 
 - [Модуль Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : модуль команд PowerShell Teams включает все командлеты, необходимые для создания групп и управления ими.  
-- [Модуль PowerShell для Skype для бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366): модуль PowerShell для Skype для бизнеса, содержащий командлеты для управления политиками, конфигурациями и другими средствами Teams. 
+- [Модуль PowerShell для Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366): модуль PowerShell для Skype для бизнеса, содержащий командлеты для управления политиками, конфигурациями и другими средствами Teams. 
 
 В справочной документации по элементам управления PowerShell содержится информация о том, на каком модуле находится командлет, который вы собираетесь изучить. (В конечном итоге эти два модуля будут объединены.)
 
@@ -79,7 +79,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 ## <a name="managing-policies-via-powershell"></a>Управление политиками через PowerShell
 
-Командлеты для управления политиками находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Командлеты для управления политиками находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366).
 
 > [!NOTE]
 > После подключения к Skype для бизнеса Online командлеты будут доступны в сеансе PowerShell. Дополнительные сведения можно найти в разделе [Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -111,7 +111,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 ## <a name="managing-configurations-via-powershell"></a>Управление конфигурациями с помощью PowerShell
 
-Командлеты для управления конфигурацией находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Командлеты для управления конфигурацией находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Конфигурации — это сегменты параметров, которые поддерживаются в службе, которая не может быть указана на уровне пользователя. Параметры всегда применяются во всей Организации. Ваша Глобальная конфигурация является единственной действующей конфигурацией в вашей организации. Каждый тип конфигурации поставляется с двумя основными командлетами:
 

@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU и некоммерческие организации
+title: Государственные, образовательные и некоммерческие организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и функциях надстроек для GOV, EDU и некоммерческих планов. '
-ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826687"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029390"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU и некоммерческие организации
+# <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 
 Большинство функций Teams доступно для организаций, исученных правительством США, а так и для образования. Дополнительные сведения приведены в таблице ниже.
 
@@ -36,4 +36,4 @@ ms.locfileid: "41826687"
 |Телефонная система Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
 |План звонков Office 365  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
    
-См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+См. запись блога [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers (Расширенные возможности Office 365 теперь доступны пользователям Government Community Cloud в США)](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Настройка и использование средства аналитики звонков для выявления и устранения проблем с качеством звонков в Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029410"
 ---
 # <a name="set-up-call-analytics"></a>Настройка аналитики звонков
 
@@ -74,7 +74,7 @@ ms.locfileid: "41838059"
  ### <a name="set-up-permissions-by-assigning-admin-roles"></a>Настройка разрешений с помощью назначения ролей администратора
 <a name="BKMK_SetUpTier"> </a>
 
-Сведения о назначении административных ролей в Azure Active Directory можно найти в статье [Просмотр и назначение ролей в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+Сведения о назначении административных ролей в Azure Active Directory можно найти в статье [Просмотр и назначение ролей в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Добавление файлов в формате TSV или CSV для добавления сведений о сборке, сайте и клиенте
 <a name="BKMK_UploadFiles"> </a>

@@ -16,12 +16,12 @@ f1.keywords:
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825607"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030723"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
@@ -112,7 +112,7 @@ Microsoft Stream доступен как часть подходящих под�
 
 Чтобы найти регион, в котором хранятся данные из Microsoft Stream, в Microsoft Stream нажмите кнопку " **ОК".** в правом верхнем углу нажмите кнопку о программе **Microsoft Stream**и выберите **данные хранятся в**.  Чтобы узнать больше о регионах, в которых Microsoft Stream хранит данные, ознакомьтесь со статьей " [вопросы и ответы о Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)".
 
-Дополнительные сведения о том, где хранятся данные в Office 365, можно узнать в разделе [где находятся ваши данные?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+Дополнительные сведения о том, где хранятся данные в Office 365, можно узнать в разделе [где находятся ваши данные?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Включение и отключение транскрипции записи
 

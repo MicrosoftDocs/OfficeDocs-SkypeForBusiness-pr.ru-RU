@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Узнайте о лицензиях на надстройки, о возможностях, которые потребуются вместе с каждой лицензией, о том, как их приобрести для вашего продукта и как использовать существующую несущую. Вы можете получить сведения о ценах и планах для Office 365, кредитов связи и планов звонков.
-ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826637"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029380"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "41826637"
 |**Аудиоконференция** <br/> |Иногда сотрудникам вашей организации потребуется использовать телефон для звонков на собрание Teams, а не с компьютера. Воспользуйтесь функцией голосовой конференции в этой ситуации.  <br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Если вы ищете, каковы затраты на ИТ-Конференц-связь, ознакомьтесь с разделами [цены для голосовой](https://products.office.com/microsoft-teams/online-meeting-solutions)связи.  <br/> |
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Телефонная система** <br/> |УАТС  это телефонная система вашей организации. Телефонная система в Office 365 — это размещенная телефонная служба. С ней вы можете реализовать традиционные и расширенные функции УАТС без приобретения сложного дорогостоящего оборудования. [Ниже приведены сведения о том, что можно сделать с помощью телефонной системы в Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Если вы ищете, сколько ИТ стоимость, ознакомьтесь со сведениями в разделе [Телефонная система](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
-|**Планы звонков** <br/> |Звонки другим пользователям Teams будут свободны, но если вы хотите, чтобы ваши пользователи могли звонить на любые телефонные номера за пределами вашей организации, получите [план звонков](../calling-plans-for-office-365.md). У Office 365 существуют тарифные планы для местных либо тарифные планы для местных и международных звонков.  <br/> Если вы ищете, сколько ИТ стоимость, ознакомьтесь с раздел [цены на план звонков](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
+|**Планы звонков** <br/> |Звонки другим пользователям Teams будут свободны, но если вы хотите, чтобы ваши пользователи могли звонить на любые телефонные номера за пределами вашей организации, получите [план звонков](../calling-plans-for-office-365.md). У Office 365 существуют тарифные планы для местных либо тарифные планы для местных и международных звонков.  <br/> Если вы ищете, сколько ИТ стоимость, ознакомьтесь с раздел [цены на план звонков](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Комнаты Microsoft Teams** <br/> |Это не надстройка, но функция, с помощью которой можно обмениваться видео, аудио-и видеоматериалами в конференц-залах. Просмотр [комнат Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 [] Хотите узнать больше о параметрах надстроек? [Обратитесь в службу поддержки продуктов для бизнеса — справку для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -84,7 +84,7 @@ ms.locfileid: "41826637"
 ## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>Как использовать существующие планы звонков в Teams?
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 Если используются автономные средства связи через ТСОП для гибридных пользователей, необходимо назначить лицензию  *только*  лицензию **телефонной системы**. Назначать план звонков **НЕ НУЖНО**.
 
@@ -102,5 +102,5 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
     
 - [Пополнение средств и управление кредитами на связь](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

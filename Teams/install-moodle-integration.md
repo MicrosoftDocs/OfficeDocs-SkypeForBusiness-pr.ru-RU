@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045131"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Интеграция Moodle с Microsoft Teams 
 
@@ -173,7 +173,7 @@ ms.locfileid: "41836619"
 
 Теперь, когда у вас есть бот, развернутый в Azure и настроенный для общения с сервером Moodle, можно развернуть приложение Microsoft Teams. Для этого загрузите файл манифеста, скачанный со страницы параметров команды подключаемого модуля Office 365 Moodle на предыдущем шаге.
 
-Перед установкой приложения вам нужно убедиться, что включены внешние приложения и загрузка неопубликованных приложений. Для этого можно выполнить [следующие действия](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings). Убедившись, что внешние приложения включены, можно выполнить указанные ниже действия, чтобы развернуть приложение.
+Перед установкой приложения вам нужно убедиться, что включены внешние приложения и загрузка неопубликованных приложений. Для этого можно выполнить [следующие действия](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Убедившись, что внешние приложения включены, можно выполнить указанные ниже действия, чтобы развернуть приложение.
 
 1. Откройте Microsoft Teams.
 2. Щелкните значок **магазина** в левом нижнем углу панели навигации.

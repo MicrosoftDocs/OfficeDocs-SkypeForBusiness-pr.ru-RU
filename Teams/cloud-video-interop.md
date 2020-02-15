@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046502"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Взаимодействие Microsoft Teams с облачными видеослужбами
 
@@ -83,7 +83,7 @@ ms.locfileid: "41825067"
 
 ### <a name="provision"></a>Обеспечения  
 
-На этапе подготовки вы будете назначать лицензии соответствующим пользователям в соответствии с руководством по конфигурации партнера. Кроме того, для предоставления партнеру доступа к среде Teams вам потребуется пройти процесс согласия с помощью Azure. Дополнительные сведения о процедуре разрешения Azure можно найти здесь:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+На этапе подготовки вы будете назначать лицензии соответствующим пользователям в соответствии с руководством по конфигурации партнера. Кроме того, для предоставления партнеру доступа к среде Teams вам потребуется пройти процесс согласия с помощью Azure. Дополнительные сведения о процедуре разрешения Azure можно найти здесь:https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>Задание
 

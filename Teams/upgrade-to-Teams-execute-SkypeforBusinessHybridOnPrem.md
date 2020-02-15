@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836241"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045031"
 ---
 ![Обновление схемы поездки, акцент на развертывании и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
@@ -49,7 +49,7 @@ ms.locfileid: "41836241"
 
 Ключевым условием для обновления локальных пользователей до Teams является настройка гибридного подключения для локального развертывания Skype для бизнеса Server. 
 
-Начните с создания [плана гибридного подключения](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и следуйте задачам, описанным в разделе [Настройка гибридного подключения](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Начните с создания [плана гибридного подключения](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) и следуйте задачам, описанным в разделе [Настройка гибридного подключения](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Шаг 2: Настройка режима переходного сосуществования (необязательно)

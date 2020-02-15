@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: В этом документе описывается поведение чата, маршрутизация звонков и сведения о присутствии между пользователями Teams и Skype для бизнеса, в зависимости от назначенных режимов Теамсупграде, как в клиенте, так и в Федеративной. Она включает оптимизацию маршрутизации, поведение присутствия, а также изменение режима Теамсупграде по умолчанию со *старых* на *острова* и незапланированное удаление *устаревших*.
-ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824937"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050121"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 
@@ -215,6 +215,6 @@ ms.locfileid: "41824937"
 В частности, если получатель, у которого ранее существовала постоянная цепочка взаимодействия между собой, был обновлен до Teams, этот поток больше не будет показывать точное присутствие и больше не будет поддерживать маршрутизацию. Начните новый поток.
 
 ## <a name="related-links"></a>Дополнительные ссылки
-[Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Видео: Управление сосуществованием и взаимодействием между SfB и Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

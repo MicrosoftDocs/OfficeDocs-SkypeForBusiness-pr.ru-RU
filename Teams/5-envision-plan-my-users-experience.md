@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021600"
 ---
 # <a name="plan-my-users-experience"></a>Планирование работы пользователей
 
@@ -108,7 +108,7 @@ Microsoft Teams можно использовать для собраний ил
 Выбрав устройства, включите их в пилотный план тестирования для окончательной проверки. Во время пилотного проекта используйте опросы, чтобы собрать отзывы и убедиться в оптимальности своей стратегии по устройствам.
 
 > [!NOTE]
-> При этом рекомендуется использовать звуковые устройства, сертифицированные по программе Skype для бизнеса. Чтобы найти устройства, сертифицированные в этой программе, ознакомьтесь с разделом [устройства Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) , [аудио-и видеоустройства](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+> При этом рекомендуется использовать звуковые устройства, сертифицированные по программе Skype для бизнеса. Чтобы найти устройства, сертифицированные в этой программе, ознакомьтесь с разделом [устройства Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) , [аудио-и видеоустройства](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
 
 
 

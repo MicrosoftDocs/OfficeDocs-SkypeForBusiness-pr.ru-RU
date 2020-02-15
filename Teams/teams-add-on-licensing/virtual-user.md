@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о бесплатных лицензиях на виртуальные пользователи.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826517"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029360"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Телефонная система – лицензия виртуальных пользователей 
 
@@ -67,7 +67,7 @@ ms.locfileid: "41826517"
 Если вы решили переключить лицензию на свою учетную запись с помощью лицензии на телефонную систему в телефонную систему, выполните указанные ниже действия. 
 
 1. Получение новой телефонной системы – лицензия виртуальных пользователей. 
-2. Чтобы [переместить пользователей в другую подписку](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription), следуйте инструкциям, приведенным в центре администрирования Microsoft 365. 
+2. Чтобы [переместить пользователей в другую подписку](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription), следуйте инструкциям, приведенным в центре администрирования Microsoft 365. 
 
 > [!WARNING]
 > Всегда удаляйте полную лицензию на телефонную систему и назначьте лицензию виртуальных пользователей в одном мероприятии лицензии. Если удалить старую лицензию, сохранить изменения учетной записи, добавить новую лицензию, а затем снова сохранить параметры учетной записи, учетная запись ресурса может не работать должным образом. В этом случае мы рекомендуем создать новую учетную запись ресурса для лицензии на телефонную систему, а также удалить поврежденную учетную запись ресурса. 

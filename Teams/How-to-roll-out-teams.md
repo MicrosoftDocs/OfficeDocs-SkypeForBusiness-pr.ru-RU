@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40bf05951551bfa6d67d0b71fe2d35d19025b253
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 32c1ea2ceb816d54c08cbe22e8dabf1b8eb24f6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837299"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045441"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Как выполнить развертывание Microsoft Teams
 
@@ -54,9 +54,9 @@ ms.locfileid: "41837299"
 
 |  |Профиль вашей организации|Рекомендации  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|В настоящее время я использую Skype для бизнеса Online, и все готово к переходу на Teams. |Перейдите в раздел [Переход на Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|В настоящий момент моя организация использует Skype для бизнеса Server, и я хочу выполнить развертывание Teams. |Для полномасштабного развертывания Teams необходимо настроить гибридное соединение между вашей локальной средой и Microsoft 365. Начните со знакомства со статьей [Планирование гибридного соединения Skype для бизнеса Server и Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Вам также следует изучить [Переход на Teams](upgrade-start-here.md).    |
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|У меня нет Skype для бизнеса Server, но я использую локального решение PSTN. Я хочу выполнить развертывание Teams, но хочу сохранить мое локальное решение PSTN. |Выполните развертывание Teams согласно [рекомендуемому пути](#recommended-path-to-teams) выше.<br><br>Затем ознакомьтесь со статьей [Планирование прямой маршрутизация](direct-routing-plan.md), чтобы получить представление об использовании прямой маршрутизации телефонной системы для подключения локального решение PSTN к Teams.|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|В настоящее время я использую Skype для бизнеса Online, и все готово к переходу на Teams. |Перейдите в раздел [Переход на Teams](upgrade-start-here.md).        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|В настоящий момент моя организация использует Skype для бизнеса Server, и я хочу выполнить развертывание Teams. |Для полномасштабного развертывания Teams необходимо настроить гибридное соединение между вашей локальной средой и Microsoft 365. Начните со знакомства со статьей [Планирование гибридного соединения Skype для бизнеса Server и Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Вам также следует изучить [Переход на Teams](upgrade-start-here.md).    |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|У меня нет Skype для бизнеса Server, но я использую локального решение PSTN. Я хочу выполнить развертывание Teams, но хочу сохранить мое локальное решение PSTN. |Выполните развертывание Teams согласно [рекомендуемому пути](#recommended-path-to-teams) выше.<br><br>Затем ознакомьтесь со статьей [Планирование прямой маршрутизация](direct-routing-plan.md), чтобы получить представление об использовании прямой маршрутизации телефонной системы для подключения локального решение PSTN к Teams.|
 |
 
 
