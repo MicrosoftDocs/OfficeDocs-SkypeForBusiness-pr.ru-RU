@@ -12,20 +12,20 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69a00a0f1777c48ba09798de9323e30dd8959b8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="409b1-102">Просмотр и работа с отчетами, созданными анализатором соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="409b1-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="353f5-102">Просмотр и работа с отчетами, созданными анализатором соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="353f5-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757353"
 
 <span> </span>
 
-<span data-ttu-id="409b1-103">_**Тема последнего изменения:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="409b1-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="353f5-103">_**Последнее изменение темы:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="353f5-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="409b1-104">При использовании анализатора соответствия рекомендациям для проверки среды анализатор соответствия рекомендациям создает отчеты, которые определяют проблемы и другие сведения о развертывании.</span><span class="sxs-lookup"><span data-stu-id="409b1-104">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment.</span></span> <span data-ttu-id="409b1-105">Вы можете использовать анализатор соответствия рекомендациям для просмотра отчетов, содержащих результаты проверки, и понимания проблем, обнаруженных в отчетах.</span><span class="sxs-lookup"><span data-stu-id="409b1-105">You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
+<span data-ttu-id="353f5-p101">При использовании анализатора соответствия рекомендациям для сканирования среды это средство создает отчеты, в которых указаны проблемы, связанные с развертыванием, и прочая соответствующая информация. Можно использовать анализатор соответствия рекомендациям для просмотра отчетов, которые содержат результаты сканирования, и рассмотреть вопросы, приведенные в отчетах.</span><span class="sxs-lookup"><span data-stu-id="353f5-p101">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment. You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="409b1-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="409b1-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="353f5-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="353f5-106">In This Section</span></span>
 
-  - [<span data-ttu-id="409b1-107">Просмотр отчетов в анализаторе соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="409b1-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+  - [<span data-ttu-id="353f5-107">Просмотр отчетов анализатора соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="353f5-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="409b1-108">Общие сведения об отчетах, созданных анализатором соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="409b1-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="353f5-108">Общие сведения об отчетах, созданных анализатором соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="353f5-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
 
 </div>
 

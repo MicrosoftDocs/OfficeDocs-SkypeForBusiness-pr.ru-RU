@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757693"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="b4ff5-102">Этап 2: подготовка к миграции</span><span class="sxs-lookup"><span data-stu-id="b4ff5-102">Phase 2: Prepare for migration</span></span>
+# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="d6fe3-102">Этап 2: подготовка к миграции</span><span class="sxs-lookup"><span data-stu-id="d6fe3-102">Phase 2: Prepare for migration</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757693"
 
 <span> </span>
 
-<span data-ttu-id="b4ff5-103">_**Тема последнего изменения:** 2012-08-24_</span><span class="sxs-lookup"><span data-stu-id="b4ff5-103">_**Topic Last Modified:** 2012-08-24_</span></span>
+<span data-ttu-id="d6fe3-103">_**Последнее изменение темы:** 2012-08-24_</span><span class="sxs-lookup"><span data-stu-id="d6fe3-103">_**Topic Last Modified:** 2012-08-24_</span></span>
 
-<span data-ttu-id="b4ff5-104">Прежде чем приступить к переходу на Lync Server 2013 из Office Communications Server 2007 R2, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="b4ff5-104">Before you begin to migrate to Lync Server 2013 from Office Communications Server 2007 R2, follow the steps described in this section.</span></span>
+<span data-ttu-id="d6fe3-104">Прежде чем приступить к переходу на Lync Server 2013 из Office Communications Server 2007 R2, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="d6fe3-104">Before you begin to migrate to Lync Server 2013 from Office Communications Server 2007 R2, follow the steps described in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b4ff5-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="b4ff5-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d6fe3-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="d6fe3-105">In This Section</span></span>
 
-  - [<span data-ttu-id="b4ff5-106">Установка обновлений Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="b4ff5-106">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
+  - [<span data-ttu-id="d6fe3-106">Применение обновлений Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="d6fe3-106">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
 
-  - [<span data-ttu-id="b4ff5-107">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="b4ff5-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [<span data-ttu-id="d6fe3-107">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="d6fe3-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment_1.md)
 
-  - [<span data-ttu-id="b4ff5-108">Выполнение анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="b4ff5-108">Run Best Practices Analyzer</span></span>](run-best-practices-analyzer_1.md)
+  - [<span data-ttu-id="d6fe3-108">Запуск анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="d6fe3-108">Run Best Practices Analyzer</span></span>](run-best-practices-analyzer_1.md)
 
-  - [<span data-ttu-id="b4ff5-109">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="b4ff5-109">Back up systems and data</span></span>](back-up-systems-and-data_1.md)
+  - [<span data-ttu-id="d6fe3-109">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="d6fe3-109">Back up systems and data</span></span>](back-up-systems-and-data_1.md)
 
-  - [<span data-ttu-id="b4ff5-110">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="b4ff5-110">Configure clients for migration</span></span>](configure-clients-for-migration_1.md)
+  - [<span data-ttu-id="d6fe3-110">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="d6fe3-110">Configure clients for migration</span></span>](configure-clients-for-migration_1.md)
 
-  - [<span data-ttu-id="b4ff5-111">Проверка среды Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="b4ff5-111">Verify Office Communications Server 2007 R2 environment</span></span>](verify-office-communications-server-2007-r2-environment.md)
+  - [<span data-ttu-id="d6fe3-111">Проверка среды Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="d6fe3-111">Verify Office Communications Server 2007 R2 environment</span></span>](verify-office-communications-server-2007-r2-environment.md)
 
 </div>
 

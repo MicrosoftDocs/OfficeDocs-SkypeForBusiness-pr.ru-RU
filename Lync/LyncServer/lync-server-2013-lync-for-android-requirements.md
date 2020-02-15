@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования к Lync для Android'
+title: 'Lync Server 2013: требования Lync для Android'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c584a20df5dc2516115b4b137c0543576d5fa4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89439f46c98fd1f00d7cb95eb4a910b26971be0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765497"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a><span data-ttu-id="a4119-102">Требования к Lync для Android в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4119-102">Lync for Android requirements in Lync Server 2013</span></span>
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a><span data-ttu-id="1d58a-102">Требования Lync для Android в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1d58a-102">Lync for Android requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41765497"
 
 <span> </span>
 
-<span data-ttu-id="a4119-103">_**Тема последнего изменения:** 2014-04-24_</span><span class="sxs-lookup"><span data-stu-id="a4119-103">_**Topic Last Modified:** 2014-04-24_</span></span>
+<span data-ttu-id="1d58a-103">_**Последнее изменение темы:** 2014-04-24_</span><span class="sxs-lookup"><span data-stu-id="1d58a-103">_**Topic Last Modified:** 2014-04-24_</span></span>
 
-<span data-ttu-id="a4119-104">Microsoft Lync 2013 Microsoft Lync 2013 для Android обеспечивает обмен мгновенными сообщениями, расширенные возможности присутствия и присоединение к собранию Lync для пользователей в вашей организации, которые подключаются с устройства Android.</span><span class="sxs-lookup"><span data-stu-id="a4119-104">Microsoft Lync 2013 Microsoft Lync 2013 for Android provides instant messaging (IM), enhanced presence, and Lync meeting join capabilities for users in your organization who are connecting from an Android device.</span></span> <span data-ttu-id="a4119-105">В этой статье описаны вопросы, касающиеся Lync 2013 для Android, в том числе необходимые требования, технические требования и необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="a4119-105">This topic describes considerations for Lync 2013 for Android, including prerequisites, technical requirements, and required components.</span></span>
+<span data-ttu-id="1d58a-104">Microsoft Lync 2013 Microsoft Lync 2013 для Android предоставляет возможности обмена мгновенными сообщениями, расширенное присутствие и возможности присоединения к собранию Lync для пользователей в вашей организации, подключающихся с устройства с Android.</span><span class="sxs-lookup"><span data-stu-id="1d58a-104">Microsoft Lync 2013 Microsoft Lync 2013 for Android provides instant messaging (IM), enhanced presence, and Lync meeting join capabilities for users in your organization who are connecting from an Android device.</span></span> <span data-ttu-id="1d58a-105">В этом разделе описываются вопросы, касающиеся Lync 2013 для Android, в том числе предварительные требования, технические требования и необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="1d58a-105">This topic describes considerations for Lync 2013 for Android, including prerequisites, technical requirements, and required components.</span></span>
 
 <div>
 
-## <a name="lync-for-android-prerequisite"></a><span data-ttu-id="a4119-106">Предварительные требования Lync для Android</span><span class="sxs-lookup"><span data-stu-id="a4119-106">Lync for Android Prerequisite</span></span>
+## <a name="lync-for-android-prerequisite"></a><span data-ttu-id="1d58a-106">Lync для предварительных требований для Android</span><span class="sxs-lookup"><span data-stu-id="1d58a-106">Lync for Android Prerequisite</span></span>
 
-<span data-ttu-id="a4119-107">Для поддержки Lync 2013 для Android устройство Android должно удовлетворять следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="a4119-107">To support Lync 2013 for Android, the Android device must meet the following requirements:</span></span>
+<span data-ttu-id="1d58a-107">Для поддержки Lync 2013 для Android устройство Android должно удовлетворять следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="1d58a-107">To support Lync 2013 for Android, the Android device must meet the following requirements:</span></span>
 
-  - <span data-ttu-id="a4119-108">На устройстве с Android должно быть запущено приложение Android 4,0 или более поздней операционной системы, в том числе на планшетах, кроме тех, для которых используется микросхема Tegra2.</span><span class="sxs-lookup"><span data-stu-id="a4119-108">The Android device must be running Android 4.0 or a later phone- or tablet-oriented operating system, including tablets, except those with the Tegra2 chip.</span></span>
+  - <span data-ttu-id="1d58a-108">Устройство с Android должно работать под управлением Android 4,0 или более поздней телефонной или планшетной операционной системы, в том числе планшетов, за исключением тех, которые имеют микросхемы Tegra2.</span><span class="sxs-lookup"><span data-stu-id="1d58a-108">The Android device must be running Android 4.0 or a later phone- or tablet-oriented operating system, including tablets, except those with the Tegra2 chip.</span></span>
 
-  - <span data-ttu-id="a4119-109">На устройстве должно быть установлен Двухъядерный процессор с тактовой частотой 1,2 ГГц или выше.</span><span class="sxs-lookup"><span data-stu-id="a4119-109">The device must have a 1.2 GHz dual core or higher CPU.</span></span>
+  - <span data-ttu-id="1d58a-109">На устройстве должно быть Двухъядерный или более мощный процессор с тактовой частотой 1,2 ГГц.</span><span class="sxs-lookup"><span data-stu-id="1d58a-109">The device must have a 1.2 GHz dual core or higher CPU.</span></span>
 
-  - <span data-ttu-id="a4119-110">Разрешение камеры устройства (переднего или заднего) должно быть VGA или выше.</span><span class="sxs-lookup"><span data-stu-id="a4119-110">The device camera (front/rear) resolution should be VGA or higher.</span></span>
+  - <span data-ttu-id="1d58a-110">Разрешение камеры устройства (передняя/задняя) должна быть VGA или выше.</span><span class="sxs-lookup"><span data-stu-id="1d58a-110">The device camera (front/rear) resolution should be VGA or higher.</span></span>
 
-  - <span data-ttu-id="a4119-111">Другие требования к оборудованию должны быть выровнены по документу с определением совместимости с Android 4,0.</span><span class="sxs-lookup"><span data-stu-id="a4119-111">Other hardware requirements should be aligned with Android 4.0 Compatibility Definition Document.</span></span>
+  - <span data-ttu-id="1d58a-111">Другие требования к оборудованию должны быть выровнены с помощью документа с определением совместимости для Android 4,0.</span><span class="sxs-lookup"><span data-stu-id="1d58a-111">Other hardware requirements should be aligned with Android 4.0 Compatibility Definition Document.</span></span>
 
 </div>
 
 <div>
 
-## <a name="other-technical-considerations"></a><span data-ttu-id="a4119-112">Другие технические вопросы</span><span class="sxs-lookup"><span data-stu-id="a4119-112">Other Technical Considerations</span></span>
+## <a name="other-technical-considerations"></a><span data-ttu-id="1d58a-112">Другие технические вопросы</span><span class="sxs-lookup"><span data-stu-id="1d58a-112">Other Technical Considerations</span></span>
 
-<span data-ttu-id="a4119-113">На платформе устройства с Android приложение Lync может работать в фоновом режиме.</span><span class="sxs-lookup"><span data-stu-id="a4119-113">On the Android device platform, the Lync application can run in the background.</span></span> <span data-ttu-id="a4119-114">Таким образом, в отличие от других платформ мобильных устройств, Push-уведомления не требуются для устройств с Android.</span><span class="sxs-lookup"><span data-stu-id="a4119-114">Therefore, unlike other mobile device platforms, push notifications are not required for Android devices.</span></span> <span data-ttu-id="a4119-115">Единственный способ выйти из приложения Lync на устройстве Android — явно выйти из Lync.</span><span class="sxs-lookup"><span data-stu-id="a4119-115">The only way to exit the Lync application on an Android device is to explicitly sign out of Lync.</span></span> <span data-ttu-id="a4119-116">Эта версия приложения Lync не поддерживается на устройствах с наборами микросхем Tegra 2.</span><span class="sxs-lookup"><span data-stu-id="a4119-116">This version of the Lync application is not supported on devices with Tegra 2 chipsets.</span></span>
+<span data-ttu-id="1d58a-113">На платформе устройства с Android приложение Lync может работать в фоновом режиме.</span><span class="sxs-lookup"><span data-stu-id="1d58a-113">On the Android device platform, the Lync application can run in the background.</span></span> <span data-ttu-id="1d58a-114">Таким образом, в отличие от других платформ мобильных устройств, Push-уведомления не требуются для устройств с Android.</span><span class="sxs-lookup"><span data-stu-id="1d58a-114">Therefore, unlike other mobile device platforms, push notifications are not required for Android devices.</span></span> <span data-ttu-id="1d58a-115">Единственный способ выйти из приложения Lync на устройстве с Android заключается в явном выходе из Lync.</span><span class="sxs-lookup"><span data-stu-id="1d58a-115">The only way to exit the Lync application on an Android device is to explicitly sign out of Lync.</span></span> <span data-ttu-id="1d58a-116">Эта версия приложения Lync не поддерживается на устройствах с наборами микросхем Тегра 2.</span><span class="sxs-lookup"><span data-stu-id="1d58a-116">This version of the Lync application is not supported on devices with Tegra 2 chipsets.</span></span>
 
 </div>
 

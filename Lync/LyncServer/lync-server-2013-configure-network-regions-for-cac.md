@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка регионов сети для CAC'
+title: 'Lync Server 2013: Настройка областей сети для контроля допуска звонков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d80a5ec8d02376ae084f1973f47690259cac364d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: acafaca86af1943d2614349ff42f04fa87faddaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758377"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a><span data-ttu-id="867c8-102">Настройка регионов сети для CAC в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="867c8-102">Configure network regions for CAC in Lync Server 2013</span></span>
+# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a><span data-ttu-id="c833c-102">Настройка сетевых регионов для CAC в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c833c-102">Configure network regions for CAC in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41758377"
 
 <span> </span>
 
-<span data-ttu-id="867c8-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="867c8-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="c833c-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="c833c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="867c8-104">Если вы уже создали регионы сети для E9-1 или мультимедиа, вы можете изменить существующие сетевые регионы, добавив параметры, специфические для управления допуском звонков (CAC), с помощью командлета <STRONG>Set-кснетворкрегион</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="867c8-104">If you have already created network regions for E9-1-1 or media bypass, you can modify the existing network regions by adding settings specific to call admission control (CAC) by using the <STRONG>Set-CsNetworkRegion</STRONG> cmdlet.</span></span> <span data-ttu-id="867c8-105">Пример, посвященный изменению сетевого региона, можно найти <A href="lync-server-2013-create-or-modify-a-network-region.md">в разделе Создание или изменение сетевого региона в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="867c8-105">For an example of how to modify a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="c833c-104">Если области сети для E9-1-1 или обхода сервера-посредника уже созданы, измените эти существующие области, добавив параметры, относящиеся к контролю допуска звонков, с помощью командлета <STRONG>Set-CsNetworkRegion</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="c833c-104">If you have already created network regions for E9-1-1 or media bypass, you can modify the existing network regions by adding settings specific to call admission control (CAC) by using the <STRONG>Set-CsNetworkRegion</STRONG> cmdlet.</span></span> <span data-ttu-id="c833c-105">Пример, посвященный изменению области сети, представлен <A href="lync-server-2013-create-or-modify-a-network-region.md">в статье Создание или изменение области сети в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="c833c-105">For an example of how to modify a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="867c8-106">*Регионы сетей* — это сетевые разветвители и одинарные кости, которые используются при настройке CAC, E9-1-1 и мультимедийного обхода.</span><span class="sxs-lookup"><span data-stu-id="867c8-106">*Network regions* are the network hubs or backbones that are used in configuring CAC, E9-1-1, and media bypass.</span></span> <span data-ttu-id="867c8-107">Используйте описанную ниже процедуру для создания областей сети, которые выравниваются по сетевым областям в примере использования CAC в топологии сети.</span><span class="sxs-lookup"><span data-stu-id="867c8-107">Use the following procedure to create network regions that align to network regions in the example network topology for CAC.</span></span> <span data-ttu-id="867c8-108">Пример топологии сети вы можете найти в статье [пример. сбор требований для управления допуском звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="867c8-108">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="c833c-106">*Области сети* — это сетевые концентраторы или магистрали, используемые в конфигурациях контроля допуска звонков, E9-1-1 и обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="c833c-106">*Network regions* are the network hubs or backbones that are used in configuring CAC, E9-1-1, and media bypass.</span></span> <span data-ttu-id="c833c-107">Используйте следующие процедуры для создания областей сети, которые совмещаются с областями сети в примере топологии сети для контроля допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="c833c-107">Use the following procedure to create network regions that align to network regions in the example network topology for CAC.</span></span> <span data-ttu-id="c833c-108">Пример сетевой топологии представлен в статье [Пример: сбор требований для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="c833c-108">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="867c8-109">Пример топологии сети для CAC состоит из трех регионов: Северная Америка, EMEA и APAC.</span><span class="sxs-lookup"><span data-stu-id="867c8-109">The example network topology for CAC has three regions: North America, EMEA, and APAC.</span></span> <span data-ttu-id="867c8-110">Каждый регион имеет указанный центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="867c8-110">Each region has a specified central site.</span></span> <span data-ttu-id="867c8-111">Для региона Северной Америки указанный центральный сайт называется Чикаго.</span><span class="sxs-lookup"><span data-stu-id="867c8-111">For the North America region, the designated central site is named CHICAGO.</span></span> <span data-ttu-id="867c8-112">Ниже приведен пример использования командлета **New-кснетворкрегион** для создания области для Северной Америки.</span><span class="sxs-lookup"><span data-stu-id="867c8-112">The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.</span></span>
+<span data-ttu-id="c833c-109">В этом примере топологии сети для контроля допуска звонков имеется три области: North America (Северная Америка), EMEA (Европа, Ближний Восток и Африка) и APAC (азиатско-тихоокеанский регион).</span><span class="sxs-lookup"><span data-stu-id="c833c-109">The example network topology for CAC has three regions: North America, EMEA, and APAC.</span></span> <span data-ttu-id="c833c-110">Каждая область имеет свой центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="c833c-110">Each region has a specified central site.</span></span> <span data-ttu-id="c833c-111">Для области Северной Америки (NorthAmerica) назначенный центральный сайт называется CHICAGO.</span><span class="sxs-lookup"><span data-stu-id="c833c-111">For the North America region, the designated central site is named CHICAGO.</span></span> <span data-ttu-id="c833c-112">В следующей процедуре показано, как можно создать область NorthAmerica с помощью командлета **New-CsNetworkRegion**.</span><span class="sxs-lookup"><span data-stu-id="c833c-112">The following procedure shows an example of how you can use the **New-CsNetworkRegion** cmdlet to create the North America region.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="867c8-113">В описанной ниже процедуре для создания сетевого региона используется Командная консоль Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="867c8-113">In the following procedure, Lync Server Management Shell is used to create a network region.</span></span> <span data-ttu-id="867c8-114">Дополнительные сведения об использовании панели управления Lync Server для создания сетевого региона можно найти <A href="lync-server-2013-create-or-modify-a-network-region.md">в разделе Создание или изменение сетевого региона в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="867c8-114">For details about using Lync Server Control Panel to create a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="c833c-113">В следующей процедуре для создания области сети используется Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c833c-113">In the following procedure, Lync Server Management Shell is used to create a network region.</span></span> <span data-ttu-id="c833c-114">Дополнительные сведения о создании области сети с помощью панели управления Lync Server можно найти <A href="lync-server-2013-create-or-modify-a-network-region.md">в статье Создание или изменение области сети в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="c833c-114">For details about using Lync Server Control Panel to create a network region, see <A href="lync-server-2013-create-or-modify-a-network-region.md">Create or modify a network region in Lync Server 2013</A>.</span></span>
 
 
 
@@ -63,15 +63,15 @@ ms.locfileid: "41758377"
 
 <div>
 
-## <a name="to-create-a-network-region-for-call-admission-control"></a><span data-ttu-id="867c8-115">Создание сетевого региона для управления допуском звонков</span><span class="sxs-lookup"><span data-stu-id="867c8-115">To create a network region for call admission control</span></span>
+## <a name="to-create-a-network-region-for-call-admission-control"></a><span data-ttu-id="c833c-115">Создание области сети для контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="c833c-115">To create a network region for call admission control</span></span>
 
-1.  <span data-ttu-id="867c8-116">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="867c8-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="c833c-116">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="c833c-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="867c8-117">Для каждого региона, который необходимо создать, выполните командлет **New-кснетворкрегион** .</span><span class="sxs-lookup"><span data-stu-id="867c8-117">For each region that you need to create, run the **New-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="867c8-118">Например, чтобы создать регион для Северной Америки, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="867c8-118">For example, to create the North America region, run:</span></span>
+2.  <span data-ttu-id="c833c-117">Выполните командлет **New-CsNetworkRegion** для каждой области, которую требуется создать.</span><span class="sxs-lookup"><span data-stu-id="c833c-117">For each region that you need to create, run the **New-CsNetworkRegion** cmdlet.</span></span> <span data-ttu-id="c833c-118">Например, чтобы создать область NorthAmerica, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="c833c-118">For example, to create the North America region, run:</span></span>
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  <span data-ttu-id="867c8-119">Повторите шаг 2, чтобы создать сетевые регионы, EMEA и APAC.</span><span class="sxs-lookup"><span data-stu-id="867c8-119">Repeat step 2 to create the network regions, EMEA and APAC.</span></span>
+3.  <span data-ttu-id="c833c-119">Повторите действие 2 для создания областей сети EMEA и APAC.</span><span class="sxs-lookup"><span data-stu-id="c833c-119">Repeat step 2 to create the network regions, EMEA and APAC.</span></span>
 
 </div>
 

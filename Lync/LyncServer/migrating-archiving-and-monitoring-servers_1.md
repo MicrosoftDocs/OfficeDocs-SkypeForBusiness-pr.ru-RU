@@ -1,5 +1,5 @@
 ---
-title: Перенос серверов архивирования и мониторинга
+title: Перенос серверов архивации и мониторинга
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 100ec85b345a744232e9bfab37a2ee11c7f84430
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036117"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="5426b-102">Перенос серверов архивирования и мониторинга</span><span class="sxs-lookup"><span data-stu-id="5426b-102">Migrating Archiving and Monitoring servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="735af-102">Перенос серверов архивации и мониторинга</span><span class="sxs-lookup"><span data-stu-id="735af-102">Migrating Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743779"
 
 <span> </span>
 
-<span data-ttu-id="5426b-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5426b-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="735af-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="735af-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="5426b-104">Если вы развернули сервер архивации и сервер мониторинга в Office Communications Server 2007 R2, вы можете развернуть эти серверы в среде Lync Server 2013 после миграции пулов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="5426b-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="5426b-105">Тем не менее, если функции архивации и мониторинга важны для вашей организации, необходимо добавить архивацию и мониторинг в пилотный пул перед переходом, чтобы обеспечить доступность функций в процессе миграции.</span><span class="sxs-lookup"><span data-stu-id="5426b-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+<span data-ttu-id="735af-104">Если вы развернули сервер архивации и сервер мониторинга в Office Communications Server 2007 R2, вы можете развернуть эти серверы в среде Lync Server 2013 после миграции пулов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="735af-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="735af-105">Но если функции архивации и мониторинга важны для вашей организации, следует добавить архивацию и мониторинг в пилотный пул перед миграцией, чтобы эти функции были доступны во время переноса.</span><span class="sxs-lookup"><span data-stu-id="735af-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
 
-<span data-ttu-id="5426b-106">Если вы хотите выполнять архивацию и мониторинг на этапе миграции и сосуществования, учитывайте указанные ниже моменты.</span><span class="sxs-lookup"><span data-stu-id="5426b-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
+<span data-ttu-id="735af-106">Если функции архивации и мониторинга должны быть доступны во время миграции и на этапе сосуществования, помните о следующем.</span><span class="sxs-lookup"><span data-stu-id="735af-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
 
-  - <span data-ttu-id="5426b-107">Архивирование данных и данных мониторинга не переносятся в развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5426b-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="5426b-108">Данные, которые вы заархивированы перед списанием устаревшей среды, будут журналом активности Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="5426b-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
+  - <span data-ttu-id="735af-107">Архивирование данных и данных мониторинга не переносятся в развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735af-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="735af-108">Данные, которые вы создаете перед списанием устаревшей среды, будут храниться в истории активности Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="735af-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
 
-  - <span data-ttu-id="5426b-109">Версия архивации сервера и сервера мониторинга Office Communications Server 2007 R2 может быть связана только с внешним интерфейсом пула Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="5426b-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="5426b-110">В Lync Server 2013 возможности архивации и мониторинга больше не являются серверными ролями, но службы, интегрированные в пул переднего плана Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5426b-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+  - <span data-ttu-id="735af-109">Версия сервера архивирования и сервера мониторинга Office Communications Server 2007 R2 может быть связана только с интерфейсным пулом Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="735af-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="735af-110">В Lync Server 2013 Архивация и мониторинг больше не являются ролями серверов, но службы, интегрированные в интерфейсный пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735af-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
 
-  - <span data-ttu-id="5426b-111">В течение времени существования устаревших развертываний и сред Lync Server 2013 версия Office Communications Server 2007 R2 сервера архивации и мониторинг сервера собирают данные для пользователей, размещенных на пулах Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="5426b-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="5426b-112">Версия Lync Server 2013 для архивации сервера и сервера мониторинга собирают данные для пользователей, которые хранятся в пулах Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5426b-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
+  - <span data-ttu-id="735af-111">Во время совместного использования устаревших развертываний и развертываний Lync Server 2013 в Office Communications Server 2007 R2 сервер архивации и сервер мониторинга собирает данные для пользователей, размещенных в пулах Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="735af-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="735af-112">Lync Server 2013 версии сервера архивации и сервера мониторинга собирают данные для пользователей, размещенных в пулах Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735af-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5426b-113">На этапе миграции при использовании устаревшего пограничного сервера с новым пулом Lync Server 2013 Pilot версия сервера архивации Office Communications Server 2007 R2 продолжает собирать данные для пользователей, размещенных на сервере Office Communications Server 2007 Пулы R2 и Lync Server 2013 версия сервера архивации собирает данные для пользователей, которые хранятся в пулах Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5426b-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
+    > <span data-ttu-id="735af-113">На этапе миграции, когда вы по-прежнему используете старый пограничный сервер с новым пилотным пулом Lync Server 2013, версия сервера архивации Office Communications Server 2007 R2 продолжает собирать данные для пользователей, размещенных на сервере Office Communications Server 2007 Пулы R2 и Lync Server 2013 версии сервера архивации собирает данные для пользователей, размещенных в пулах Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735af-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="5426b-114">Если вы используете стороннее решение для архивации и мониторинга в сочетании с сервером архивирования и мониторинга, обратитесь к своему поставщику о том, когда и как следует интегрировать сторонние решения с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5426b-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
+  - <span data-ttu-id="735af-114">Если вы используете решение для архивации и мониторинга стороннего производителя вместе с сервером архивации и сервером мониторинга, обратитесь к поставщику за сведениями о том, когда и как следует интегрировать стороннее решение с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="735af-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
 </div>
 

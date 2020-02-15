@@ -12,20 +12,20 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="d22be-102">Настройка сведений о сайте для E9-1-1 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d22be-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="51186-102">Настройка сведений о сайте для E9-1-1 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51186-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730009"
 
 <span> </span>
 
-<span data-ttu-id="d22be-103">_**Тема последнего изменения:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d22be-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="51186-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="51186-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="d22be-104">Чтобы определить политику расположения для подсетей, необходимо выполнить следующие действия в любом порядке:</span><span class="sxs-lookup"><span data-stu-id="d22be-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
+<span data-ttu-id="51186-104">Чтобы определить политику местонахождения для подсетей, необходимо выполнить следующие действия в любом порядке:</span><span class="sxs-lookup"><span data-stu-id="51186-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
 
-  - <span data-ttu-id="d22be-105">Примените к сетевому сайту политику расположения.</span><span class="sxs-lookup"><span data-stu-id="d22be-105">Apply a location policy to the network site.</span></span>
+  - <span data-ttu-id="51186-105">Примените политику местонахождения к сетевому сайту.</span><span class="sxs-lookup"><span data-stu-id="51186-105">Apply a location policy to the network site.</span></span>
 
-  - <span data-ttu-id="d22be-106">Добавьте подсети на сайт сети.</span><span class="sxs-lookup"><span data-stu-id="d22be-106">Add the subnets to the network site.</span></span>
+  - <span data-ttu-id="51186-106">Добавьте подсети к сетевому сайту.</span><span class="sxs-lookup"><span data-stu-id="51186-106">Add the subnets to the network site.</span></span>
 
-<span data-ttu-id="d22be-107">Сведения о сетевых сайтах можно найти в разделе [сайты Lync Server для Lync server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="d22be-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
+<span data-ttu-id="51186-107">Подробнее о сетевых сайтах можно узнать в статье [Lync Server Sites for Lync server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="51186-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d22be-108">Если вы создаете сетевые сайты для другой голосовой функции и хотите настроить E9-1-1 с помощью тех же сайтов, вы можете изменить сайты, которые будут использоваться для E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="d22be-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
+> <span data-ttu-id="51186-108">Если вы создаете сетевые сайты для другого компонента голосовой связи и хотите настроить E9-1-1 с использованием тех же сайтов, вы можете изменить сайты, используемые для E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="51186-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
 
 
 
@@ -57,11 +57,11 @@ ms.locfileid: "41730009"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d22be-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="d22be-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="51186-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="51186-109">In This Section</span></span>
 
-  - [<span data-ttu-id="d22be-110">Добавление политики расположения на сайт сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d22be-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [<span data-ttu-id="51186-110">Добавление политики расположения к сетевому сайту в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51186-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [<span data-ttu-id="d22be-111">Связь подсети с сетевым сайтом в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d22be-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="51186-111">Связывание подсети с сетевым сайтом в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51186-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

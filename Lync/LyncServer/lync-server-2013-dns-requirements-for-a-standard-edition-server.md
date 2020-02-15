@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Требования DNS для сервера Standard Edition'
+title: 'Lync Server 2013: требования к DNS для сервера Standard Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe05133865c0aecdb522e203c1ec2d39ff7b824d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-a-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="7dfac-102">Требования DNS для сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfac-102">DNS requirements for a Standard Edition server in Lync Server 2013</span></span>
+# <a name="dns-requirements-for-a-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="10f74-102">Требования DNS для сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10f74-102">DNS requirements for a Standard Edition server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739179"
 
 <span> </span>
 
-<span data-ttu-id="7dfac-103">_**Тема последнего изменения:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="7dfac-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="10f74-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="10f74-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="7dfac-104">В этом разделе описаны записи DNS, необходимые для развертывания стандартных серверов выпуска.</span><span class="sxs-lookup"><span data-stu-id="7dfac-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
+<span data-ttu-id="10f74-104">В данном разделе описываются записи службы доменных имен (DNS), необходимые для развертывания серверов Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="10f74-104">This section describes the Domain Name System (DNS) records that are required for deployment of Standard Edition servers.</span></span>
 
 <div>
 
-## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="7dfac-105">Записи DNS для серверов Standard Edition</span><span class="sxs-lookup"><span data-stu-id="7dfac-105">DNS Records for Standard Edition Servers</span></span>
+## <a name="dns-records-for-standard-edition-servers"></a><span data-ttu-id="10f74-105">DNS-записи для серверов Standard Edition</span><span class="sxs-lookup"><span data-stu-id="10f74-105">DNS Records for Standard Edition Servers</span></span>
 
-<span data-ttu-id="7dfac-106">В приведенной ниже таблице указаны требования к DNS для развертывания сервера Lync Server 2013 Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7dfac-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
+<span data-ttu-id="10f74-106">В следующей таблице указаны требования к DNS для развертывания сервера Lync Server 2013 Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="10f74-106">The following table specifies DNS requirements for Lync Server 2013 Standard Edition server deployment.</span></span>
 
 
 <table>
@@ -53,26 +53,26 @@ ms.locfileid: "41739179"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7dfac-107">Сценарий развертывания</span><span class="sxs-lookup"><span data-stu-id="7dfac-107">Deployment scenario</span></span></th>
-<th><span data-ttu-id="7dfac-108">Требование DNS</span><span class="sxs-lookup"><span data-stu-id="7dfac-108">DNS requirement</span></span></th>
+<th><span data-ttu-id="10f74-107">Сценарий развертывания</span><span class="sxs-lookup"><span data-stu-id="10f74-107">Deployment scenario</span></span></th>
+<th><span data-ttu-id="10f74-108">Требование к DNS</span><span class="sxs-lookup"><span data-stu-id="10f74-108">DNS requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7dfac-109">Standard Edition</span><span class="sxs-lookup"><span data-stu-id="7dfac-109">Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="7dfac-110">Внутренняя запись A, разрешающая полное доменное имя сервера в IP-адрес.</span><span class="sxs-lookup"><span data-stu-id="7dfac-110">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
+<td><p><span data-ttu-id="10f74-109">Сервер Standard Edition</span><span class="sxs-lookup"><span data-stu-id="10f74-109">Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="10f74-110">Внутренняя запись A, которая разрешает полное доменное имя сервера в его IP-адрес.</span><span class="sxs-lookup"><span data-stu-id="10f74-110">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7dfac-111">Автоматический вход в учетную запись клиента</span><span class="sxs-lookup"><span data-stu-id="7dfac-111">Automatic client sign-in</span></span></p></td>
-<td><p><span data-ttu-id="7dfac-112">Для каждого поддерживаемого домена SIP — запись SRV для _sipinternaltls. _tcp. &lt;домен&gt; , поступающий на порт 5061 и соответствующий доменному имени сервера Standard Edition, который проверяет подлинность и перенаправляет запросы клиентов на вход.</span><span class="sxs-lookup"><span data-stu-id="7dfac-112">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="7dfac-113">Дополнительные сведения: <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">требования к DNS для автоматического входа на клиент в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="7dfac-113">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="10f74-111">Автоматический вход клиентов</span><span class="sxs-lookup"><span data-stu-id="10f74-111">Automatic client sign-in</span></span></p></td>
+<td><p><span data-ttu-id="10f74-112">Для каждого поддерживаемого домена SIP запись SRV для _sipinternaltls. _tcp. &lt;домен&gt; через порт 5061, который соответствует полному доменному имени сервера Standard Edition, который выполняет проверку подлинности и перенаправляет запросы клиентов на вход.</span><span class="sxs-lookup"><span data-stu-id="10f74-112">For each supported SIP domain, an SRV record for _sipinternaltls._tcp.&lt;domain&gt; over port 5061 that maps to the FQDN of the Standard Edition server that authenticates and redirects client requests for sign-in.</span></span> <span data-ttu-id="10f74-113">Дополнительные сведения см. <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">в статье требования к DNS для автоматического входа клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="10f74-113">For details, see <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS requirements for automatic client sign-in in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7dfac-114">Обнаружение веб-служб с помощью обновлений на устройствах с единым коммуникационным подключением (UC)</span><span class="sxs-lookup"><span data-stu-id="7dfac-114">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
-<td><p><span data-ttu-id="7dfac-115">Внутренняя запись с именем укупдатес-R2. &lt;Домен&gt; SIP, который РАЗрешается в IP-адрес сервера Standard Edition, на котором размещена служба обновления устройств хостинга.</span><span class="sxs-lookup"><span data-stu-id="7dfac-115">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="7dfac-116">В ситуации, когда устройство для установления связи включено, но пользователь не вошел в систему, запись A позволяет устройству найти веб-службу обновления устройства, на которой размещен сервер, и получить обновления.</span><span class="sxs-lookup"><span data-stu-id="7dfac-116">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="7dfac-117">В противном случае устройство получает сведения о сервере посредством автоматической подготовки при первом входе пользователя.</span><span class="sxs-lookup"><span data-stu-id="7dfac-117">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span> <span data-ttu-id="7dfac-118">Подробные сведения об этом можно найти <a href="lync-server-2013-device-update-web-service.md">в разделе веб-служба обновления устройств в Lync Server 2013</a> в документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="7dfac-118">For details, see <a href="lync-server-2013-device-update-web-service.md">Device Update Web service in Lync Server 2013</a> in the Operations documentation.</span></span></p></td>
+<td><p><span data-ttu-id="10f74-114">Обнаружение веб-службы обновления устройств устройствами объединенных коммуникаций</span><span class="sxs-lookup"><span data-stu-id="10f74-114">Device Update Web service discovery by unified communications (UC) devices</span></span></p></td>
+<td><p><span data-ttu-id="10f74-115">Внутренняя запись A с именем ucupdates – R2. &lt;Домен&gt; SIP, который разрешается в IP-адрес сервера Standard Edition, на котором размещается веб-служба обновления устройств.</span><span class="sxs-lookup"><span data-stu-id="10f74-115">An internal A record with the name ucupdates-r2.&lt;SIP domain&gt; that resolves to the IP address of the Standard Edition server hosting Device Update Web service.</span></span> <span data-ttu-id="10f74-116">В ситуации, когда устройство объединенных коммуникаций включено, но пользователь еще никогда не выполнял вход на него, запись A позволяет устройству обнаруживать сервер с веб-службой обновления устройств и получать обновления.</span><span class="sxs-lookup"><span data-stu-id="10f74-116">In the situation where a UC device is turned on, but a user has never logged into the device, the A record allows the device to discover the server hosting Device Update Web service and obtain updates.</span></span> <span data-ttu-id="10f74-117">В противном случае устройство получает сведения о сервере посредством автоматической подготовки при первом входе пользователя.</span><span class="sxs-lookup"><span data-stu-id="10f74-117">Otherwise, devices obtain the server information though in-band provisioning the first time a user logs in.</span></span> <span data-ttu-id="10f74-118">Сведения о <a href="lync-server-2013-device-update-web-service.md">веб-службе обновления устройств в Lync Server 2013</a> можно найти в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="10f74-118">For details, see <a href="lync-server-2013-device-update-web-service.md">Device Update Web service in Lync Server 2013</a> in the Operations documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7dfac-119">Обратный прокси-сервер, поддерживающий трафик HTTP</span><span class="sxs-lookup"><span data-stu-id="7dfac-119">A reverse proxy to support HTTP traffic</span></span></p></td>
-<td><p><span data-ttu-id="7dfac-120">Внешняя запись A, разрешающая полное доменное имя внешней веб-фермы на внешний IP-адрес обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="7dfac-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="7dfac-121">Клиенты и устройства UC используют эту запись для подключения к обратному прокси-серверу.</span><span class="sxs-lookup"><span data-stu-id="7dfac-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="7dfac-122">Подробности можно найти в разделе <a href="lync-server-2013-determine-dns-requirements.md">Определение требований DNS для Lync Server 2013</a> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="7dfac-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="10f74-119">Обратный прокси-сервер для поддержки трафика HTTP</span><span class="sxs-lookup"><span data-stu-id="10f74-119">A reverse proxy to support HTTP traffic</span></span></p></td>
+<td><p><span data-ttu-id="10f74-120">Внешняя запись A, которая разрешает полное доменное имя внешней веб-фермы во внешний IP-адрес обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="10f74-120">An external A record that resolves the external web farm FQDN to the external IP address of the reverse proxy.</span></span> <span data-ttu-id="10f74-121">Клиенты и устройства объединенных коммуникаций используют эту запись для подключения к обратному прокси-серверу.</span><span class="sxs-lookup"><span data-stu-id="10f74-121">Clients and UC devices use this record to connect to the reverse proxy.</span></span> <span data-ttu-id="10f74-122">Дополнительные сведения: <a href="lync-server-2013-determine-dns-requirements.md">Определение требований к DNS для Lync Server 2013</a> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="10f74-122">For details, see <a href="lync-server-2013-determine-dns-requirements.md">Determine DNS requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -82,14 +82,14 @@ ms.locfileid: "41739179"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7dfac-123">См. также</span><span class="sxs-lookup"><span data-stu-id="7dfac-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10f74-123">См. также</span><span class="sxs-lookup"><span data-stu-id="10f74-123">See Also</span></span>
 
 
-[<span data-ttu-id="7dfac-124">Требования DNS для автоматического входа клиента в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfac-124">DNS requirements for automatic client sign-in in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)  
-[<span data-ttu-id="7dfac-125">Определение требований DNS для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfac-125">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
+[<span data-ttu-id="10f74-124">Требования DNS для автоматического входа клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10f74-124">DNS requirements for automatic client sign-in in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)  
+[<span data-ttu-id="10f74-125">Определение требований к DNS для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10f74-125">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
 
 
-[<span data-ttu-id="7dfac-126">Веб-служба обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfac-126">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)  
+[<span data-ttu-id="10f74-126">Веб-служба обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10f74-126">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)  
   
 
 </div>

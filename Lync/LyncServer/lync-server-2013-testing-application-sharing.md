@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: тестирование общего доступ к приложениям'
+title: 'Lync Server 2013: тестирование общего доступа к приложениям'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab428e5bbfb5ffc58fa7b1d092cd7fc04b117226
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2797a116bddb73543a27553faa55650b9ad16e8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-application-sharing-in-lync-server-2013"></a><span data-ttu-id="02d91-102">Тестирование общего обмена приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02d91-102">Testing application sharing in Lync Server 2013</span></span>
+# <a name="testing-application-sharing-in-lync-server-2013"></a><span data-ttu-id="44fe8-102">Тестирование общего доступа к приложениям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44fe8-102">Testing application sharing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745859"
 
 <span> </span>
 
-<span data-ttu-id="02d91-103">_**Тема последнего изменения:** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="02d91-103">_**Topic Last Modified:** 2014-11-01_</span></span>
+<span data-ttu-id="44fe8-103">_**Последнее изменение темы:** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="44fe8-103">_**Topic Last Modified:** 2014-11-01_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745859"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="02d91-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="02d91-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="02d91-105">Ежедневно</span><span class="sxs-lookup"><span data-stu-id="02d91-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="44fe8-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="44fe8-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="44fe8-105">Daily (Ежедневный)</span><span class="sxs-lookup"><span data-stu-id="44fe8-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="02d91-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="02d91-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="02d91-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="02d91-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="44fe8-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="44fe8-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="44fe8-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="44fe8-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="02d91-108">Требуемые разрешения</span><span class="sxs-lookup"><span data-stu-id="02d91-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="02d91-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</span><span class="sxs-lookup"><span data-stu-id="02d91-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="02d91-110">При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксасконференце.</span><span class="sxs-lookup"><span data-stu-id="02d91-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsASConference cmdlet.</span></span> <span data-ttu-id="02d91-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</span><span class="sxs-lookup"><span data-stu-id="02d91-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="44fe8-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="44fe8-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="44fe8-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="44fe8-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="44fe8-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsASConference.</span><span class="sxs-lookup"><span data-stu-id="44fe8-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsASConference cmdlet.</span></span> <span data-ttu-id="44fe8-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="44fe8-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsASConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,27 +64,27 @@ ms.locfileid: "41745859"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="02d91-112">Описание</span><span class="sxs-lookup"><span data-stu-id="02d91-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="44fe8-112">Описание</span><span class="sxs-lookup"><span data-stu-id="44fe8-112">Description</span></span>
 
-<span data-ttu-id="02d91-113">Командлет **Test-ксасконференце** удостоверяется в том, что пользователь может принимать участие в собрании по сети, включающего общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="02d91-113">The **Test-CsASConference** cmdlet verifies that a pair of test users can participate in an online conference that includes application sharing.</span></span> <span data-ttu-id="02d91-114">Для этого командлет регистрирует двух пользователей с помощью Lync Server 2013, а затем использует одну из учетных записей пользователей для создания новой конференции, которая включает общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="02d91-114">To do this, the cmdlet registers the two users with Lync Server 2013, and then it uses one of the user accounts to create a new conference that includes applications sharing.</span></span> <span data-ttu-id="02d91-115">Затем командлет проверяет, что второй пользователь может присоединиться к этой Конференции.</span><span class="sxs-lookup"><span data-stu-id="02d91-115">The cmdlet then verifies that the second user is able to join that conference.</span></span>
+<span data-ttu-id="44fe8-113">Командлет **Test-CsASConference** проверяет, может ли пользователь, который является членом тестовой конференции, участвовать в интерактивной конференции, включающей общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="44fe8-113">The **Test-CsASConference** cmdlet verifies that a pair of test users can participate in an online conference that includes application sharing.</span></span> <span data-ttu-id="44fe8-114">Для этого командлет регистрирует двух пользователей с помощью Lync Server 2013, а затем использует одну из учетных записей пользователей для создания новой конференции, включающей общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="44fe8-114">To do this, the cmdlet registers the two users with Lync Server 2013, and then it uses one of the user accounts to create a new conference that includes applications sharing.</span></span> <span data-ttu-id="44fe8-115">Затем командлет проверяет, может ли второй пользователь присоединиться к конференции.</span><span class="sxs-lookup"><span data-stu-id="44fe8-115">The cmdlet then verifies that the second user is able to join that conference.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="02d91-116">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="02d91-116">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="44fe8-116">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="44fe8-116">Running the test</span></span>
 
-<span data-ttu-id="02d91-117">Команда, показанная в примере 1, подтверждает, что Конференция для совместного использования приложений может быть проведена в пуле atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="02d91-117">The command shown in Example 1 verifies that an Application Sharing conference can be conducted on the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="02d91-118">В этой команде предполагается, что вы настроили пару тестовых пользователей для указанного пула.</span><span class="sxs-lookup"><span data-stu-id="02d91-118">This command assumes that you have configured a pair of test users for the specified pool.</span></span> <span data-ttu-id="02d91-119">Если таких тестовых пользователей не существует, команда завершится сбоем.</span><span class="sxs-lookup"><span data-stu-id="02d91-119">If no such test users exist, the command will fail.</span></span>
+<span data-ttu-id="44fe8-p103">Команда, показанная в примере 1, проверяет, может ли конференция с общим доступом к приложениям проводиться в пуле atl-cs-001.litwareinc.com. Перед выполнением команды необходимо предварительно настроить пару тестовых пользователей для указанного пула. Если эти тестовые пользователи не существуют, команда завершится сбоем.</span><span class="sxs-lookup"><span data-stu-id="44fe8-p103">The command shown in Example 1 verifies that an Application Sharing conference can be conducted on the pool atl-cs-001.litwareinc.com. This command assumes that you have configured a pair of test users for the specified pool. If no such test users exist, the command will fail.</span></span>
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="02d91-120">В примере 2 проверяются возможности службы запуска присоединения присоединиться к Конференции для совместного использования приложений в пуле atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="02d91-120">Example 2 tests the ability of the Join Launcher service to participate in an Application Sharing conference on the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="02d91-121">Обратите внимание, что эта команда проверяет только саму службу. для выполнения команды не требуются мобильные устройства.</span><span class="sxs-lookup"><span data-stu-id="02d91-121">Note that this command tests only the service itself; you do not need any mobile devices in order to run the command.</span></span>
+<span data-ttu-id="44fe8-p104">В примере 2 проверяется, может ли компонент обеспечения процесса присоединения подключиться к конференции с общим доступом к приложениям в пуле atl-cs-001.litwareinc.com. Обратите внимание на то, что эта команда проверяет только сам компонент. Для ее выполнения мобильные устройства не требуются.</span><span class="sxs-lookup"><span data-stu-id="44fe8-p104">Example 2 tests the ability of the Join Launcher service to participate in an Application Sharing conference on the pool atl-cs-001.litwareinc.com. Note that this command tests only the service itself; you do not need any mobile devices in order to run the command.</span></span>
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-<span data-ttu-id="02d91-122">Команды, показанные в примере 2, проверяют возможности пары пользователей (плана litwareinc\\почтового и плана litwareinc\\кенмер) для входа на сервер Lync Server 2013 и проведения конференции для совместного использования приложений.</span><span class="sxs-lookup"><span data-stu-id="02d91-122">The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then conduct an Application Sharing conference.</span></span> <span data-ttu-id="02d91-123">Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский.</span><span class="sxs-lookup"><span data-stu-id="02d91-123">To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object containing the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="02d91-124">(Так как имя для входа,\\плана litwareinc почтового, включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский.) Полученный объект учетных данных затем сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="02d91-124">(Because the logon name, litwareinc\\pilar, has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.</span></span> <span data-ttu-id="02d91-125">Вторая команда — это то же самое, что возвращает объект учетной записи Кен мер.</span><span class="sxs-lookup"><span data-stu-id="02d91-125">The second command does the same thing, this time returning a credential object for the Ken Myer account.</span></span>
+<span data-ttu-id="44fe8-122">Команды, показанные в примере 2, проверяют возможность использования пользователями (litwareinc\\Pilar и litwareinc\\kenmyer) для входа в Lync Server 2013, а затем выполняют Конференц-связь с приложением.</span><span class="sxs-lookup"><span data-stu-id="44fe8-122">The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then conduct an Application Sharing conference.</span></span> <span data-ttu-id="44fe8-123">Для этого первая команда в примере использует командлет Get – Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman.</span><span class="sxs-lookup"><span data-stu-id="44fe8-123">To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object containing the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="44fe8-124">(Так как имя для входа,\\litwareinc Pilar, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Pilar Ackerman.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="44fe8-124">(Because the logon name, litwareinc\\pilar, has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.</span></span> <span data-ttu-id="44fe8-125">Вторая команда производит аналогичную операцию, возвращая объект учетных данных для учетной записи Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="44fe8-125">The second command does the same thing, this time returning a credential object for the Ken Myer account.</span></span>
 
-<span data-ttu-id="02d91-126">Если у вас есть объекты учетных данных в руки, третья команда определяет, могут ли эти пользователи войти в Lync Server 2013 и провести Конференц-связь приложения.</span><span class="sxs-lookup"><span data-stu-id="02d91-126">With the credential objects in hand, the third command determines whether or not these two users can log on to Lync Server 2013 and conduct an Application Sharing conference.</span></span> <span data-ttu-id="02d91-127">Для выполнения этой задачи вызывается командлет **Test-ксасконференце** , а также следующие параметры: таржетфкдн (полное доменное имя пула регистраторов). Сендерсипаддресс (адрес SIP для первого тестового пользователя); Сендеркредентиал (объект Windows PowerShell с учетными данными для этого пользователя); Рецеиверсипаддресс (SIP-адрес для другого тестового пользователя); и Рецеиверкредентиал (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).</span><span class="sxs-lookup"><span data-stu-id="02d91-127">To carry out this task, the **Test-CsASConference** cmdlet is called, along with the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object containing the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object containing the credentials for the other test user).</span></span>
+<span data-ttu-id="44fe8-126">Если у вас есть объекты учетных данных в наличии, третья команда определяет, могут ли эти два пользователя войти в Lync Server 2013 и провести конференц-совместный доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="44fe8-126">With the credential objects in hand, the third command determines whether or not these two users can log on to Lync Server 2013 and conduct an Application Sharing conference.</span></span> <span data-ttu-id="44fe8-127">Для выполнения этой задачи вызывается командлет **Test-CsASConference** , а также следующие параметры: TargetFqdn (полное доменное имя пула регистратора); SenderSipAddress (SIP-адрес для первого тестового пользователя); SenderCredential (объект Windows PowerShell, содержащий учетные данные для этого пользователя); ReceiverSipAddress (SIP-адрес для другого тестового пользователя); и ReceiverCredential (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).</span><span class="sxs-lookup"><span data-stu-id="44fe8-127">To carry out this task, the **Test-CsASConference** cmdlet is called, along with the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object containing the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object containing the credentials for the other test user).</span></span>
 
     $cred1 = Get-Credential "litwareinc\pilar" 
     $cred2 = Get-Credential "litwareinc\kenmyer" 
@@ -94,71 +94,71 @@ ms.locfileid: "41745859"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="02d91-128">Определение успеха или сбоя</span><span class="sxs-lookup"><span data-stu-id="02d91-128">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="44fe8-128">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="44fe8-128">Determining success or failure</span></span>
 
-<span data-ttu-id="02d91-129">Если вы правильно настроили общий доступ к приложениям, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**</span><span class="sxs-lookup"><span data-stu-id="02d91-129">If application sharing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="44fe8-129">Если общий доступ к приложениям настроен правильно, вы получите выходные данные, аналогичные приведенным ниже, и свойство Result помечено как **успешное:**</span><span class="sxs-lookup"><span data-stu-id="44fe8-129">If application sharing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="02d91-130">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="02d91-130">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="44fe8-130">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="44fe8-130">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="02d91-131">Результат: успех</span><span class="sxs-lookup"><span data-stu-id="02d91-131">Result : Success</span></span>
+<span data-ttu-id="44fe8-131">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="44fe8-131">Result : Success</span></span>
 
-<span data-ttu-id="02d91-132">Задержка: 00:00:01</span><span class="sxs-lookup"><span data-stu-id="02d91-132">Latency : 00:00:01</span></span>
+<span data-ttu-id="44fe8-132">Задержка: 00:00:01</span><span class="sxs-lookup"><span data-stu-id="44fe8-132">Latency : 00:00:01</span></span>
 
-<span data-ttu-id="02d91-133">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="02d91-133">Error Message :</span></span>
+<span data-ttu-id="44fe8-133">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="44fe8-133">Error Message :</span></span>
 
-<span data-ttu-id="02d91-134">Диагностик</span><span class="sxs-lookup"><span data-stu-id="02d91-134">Diagnosis :</span></span>
+<span data-ttu-id="44fe8-134">Диагност</span><span class="sxs-lookup"><span data-stu-id="44fe8-134">Diagnosis :</span></span>
 
-<span data-ttu-id="02d91-135">Если указанные пользователи не могут предоставлять общий доступ к приложениям, результат будет отображаться как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.</span><span class="sxs-lookup"><span data-stu-id="02d91-135">If the specified users can't share applications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="44fe8-135">Если указанные пользователи не могут совместно использовать приложения, результат будет отображаться как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз:</span><span class="sxs-lookup"><span data-stu-id="44fe8-135">If the specified users can't share applications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="02d91-136">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="02d91-136">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="44fe8-136">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="44fe8-136">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="02d91-137">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="02d91-137">Result : Failure</span></span>
+<span data-ttu-id="44fe8-137">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="44fe8-137">Result : Failure</span></span>
 
-<span data-ttu-id="02d91-138">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="02d91-138">Latency : 00:00:00</span></span>
+<span data-ttu-id="44fe8-138">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="44fe8-138">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="02d91-139">Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="02d91-139">Error Message : 10060, A connection attempt failed because the connected party</span></span>
+<span data-ttu-id="44fe8-139">Сообщение об ошибке: 10060, попытка подключения не удалась, так как подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="44fe8-139">Error Message : 10060, A connection attempt failed because the connected party</span></span>
 
-<span data-ttu-id="02d91-140">не отвечает на запросы в течение определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="02d91-140">did not properly respond after a period of time, or</span></span>
+<span data-ttu-id="44fe8-140">не ответил должным образом по истечении определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="44fe8-140">did not properly respond after a period of time, or</span></span>
 
-<span data-ttu-id="02d91-141">не удалось установить соединение, так как подключенный узел имеет</span><span class="sxs-lookup"><span data-stu-id="02d91-141">established connection failed because connected host has</span></span>
+<span data-ttu-id="44fe8-141">не удалось установить подключение, так как у подключенного узла есть</span><span class="sxs-lookup"><span data-stu-id="44fe8-141">established connection failed because connected host has</span></span>
 
-<span data-ttu-id="02d91-142">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="02d91-142">failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="44fe8-142">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="44fe8-142">failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="02d91-143">Внутреннее исключение: сбой при попытке подключения из-за того, что</span><span class="sxs-lookup"><span data-stu-id="02d91-143">Inner Exception:A connection attempt failed because the</span></span>
+<span data-ttu-id="44fe8-143">Внутреннее исключение: сбой попытки подключения, так как</span><span class="sxs-lookup"><span data-stu-id="44fe8-143">Inner Exception:A connection attempt failed because the</span></span>
 
-<span data-ttu-id="02d91-144">связь с абонентом завершилась неправильно после определенного периода</span><span class="sxs-lookup"><span data-stu-id="02d91-144">connected party did not properly respond after a period of</span></span>
+<span data-ttu-id="44fe8-144">подключенная сторона не ответила должным образом после периода</span><span class="sxs-lookup"><span data-stu-id="44fe8-144">connected party did not properly respond after a period of</span></span>
 
-<span data-ttu-id="02d91-145">время или соединение не удалось установить, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="02d91-145">time, or established connection failed because connected host</span></span>
+<span data-ttu-id="44fe8-145">время или установленное подключение не выполнено, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="44fe8-145">time, or established connection failed because connected host</span></span>
 
-<span data-ttu-id="02d91-146">не удалось ответить 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="02d91-146">has failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="44fe8-146">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="44fe8-146">has failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="02d91-147">Диагностик</span><span class="sxs-lookup"><span data-stu-id="02d91-147">Diagnosis :</span></span>
+<span data-ttu-id="44fe8-147">Диагност</span><span class="sxs-lookup"><span data-stu-id="44fe8-147">Diagnosis :</span></span>
 
-<span data-ttu-id="02d91-148">Например, в предыдущем выводе есть Примечание "подключенная сторона не ответила должным образом", которая обычно указывает на проблему с пограничным сервером.</span><span class="sxs-lookup"><span data-stu-id="02d91-148">For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="02d91-149">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="02d91-149">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="02d91-150">Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксасконференце** :</span><span class="sxs-lookup"><span data-stu-id="02d91-150">Here are some common reasons why **Test-CsASConference** might fail:</span></span>
-
-  - <span data-ttu-id="02d91-151">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="02d91-151">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="02d91-152">Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем.</span><span class="sxs-lookup"><span data-stu-id="02d91-152">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="02d91-153">Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.</span><span class="sxs-lookup"><span data-stu-id="02d91-153">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
-
-  - <span data-ttu-id="02d91-154">Эта команда завершится сбоем, если пользователям теста была назначена политика конференц-связи, не позволяющая использовать общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="02d91-154">This command will fail if the test users were assigned a conferencing policy that prevents them from using application sharing.</span></span>
-
-  - <span data-ttu-id="02d91-155">Эта команда завершается сбоем, если граничный сервер неправильно настроен или еще не развернут.</span><span class="sxs-lookup"><span data-stu-id="02d91-155">This command will fail if the Edge Server is misconfigured or not yet deployed.</span></span>
+<span data-ttu-id="44fe8-148">Например, в примере выше приведена заметка "подключенная сторона не ответила", которая обычно указывает на проблему с пограничным сервером.</span><span class="sxs-lookup"><span data-stu-id="44fe8-148">For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="02d91-156">См. также</span><span class="sxs-lookup"><span data-stu-id="02d91-156">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="44fe8-149">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="44fe8-149">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="44fe8-150">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsASConference** :</span><span class="sxs-lookup"><span data-stu-id="44fe8-150">Here are some common reasons why **Test-CsASConference** might fail:</span></span>
+
+  - <span data-ttu-id="44fe8-151">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="44fe8-151">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="44fe8-152">Если используется, необязательные параметры должны быть настроены правильно или тест завершится с ошибками.</span><span class="sxs-lookup"><span data-stu-id="44fe8-152">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="44fe8-153">Выполните команду без необязательных параметров и проверьте, успешно ли это сделано.</span><span class="sxs-lookup"><span data-stu-id="44fe8-153">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+  - <span data-ttu-id="44fe8-154">Эта команда завершится с ошибками, если тестовым пользователям была назначена политика конференц-связи, которая не позволяет использовать общий доступ к приложениям.</span><span class="sxs-lookup"><span data-stu-id="44fe8-154">This command will fail if the test users were assigned a conferencing policy that prevents them from using application sharing.</span></span>
+
+  - <span data-ttu-id="44fe8-155">Эта команда завершится с ошибками, если пограничный сервер неправильно настроен или еще не развернут.</span><span class="sxs-lookup"><span data-stu-id="44fe8-155">This command will fail if the Edge Server is misconfigured or not yet deployed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="44fe8-156">См. также</span><span class="sxs-lookup"><span data-stu-id="44fe8-156">See Also</span></span>
 
 
-[<span data-ttu-id="02d91-157">Get-CsConferencingPolicy</span><span class="sxs-lookup"><span data-stu-id="02d91-157">Get-CsConferencingPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)  
-[<span data-ttu-id="02d91-158">Test-CsDataConference</span><span class="sxs-lookup"><span data-stu-id="02d91-158">Test-CsDataConference</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+[<span data-ttu-id="44fe8-157">Get-CsConferencingPolicy</span><span class="sxs-lookup"><span data-stu-id="44fe8-157">Get-CsConferencingPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)  
+[<span data-ttu-id="44fe8-158">Test-CsDataConference</span><span class="sxs-lookup"><span data-stu-id="44fe8-158">Test-CsDataConference</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
   
 
 </div>

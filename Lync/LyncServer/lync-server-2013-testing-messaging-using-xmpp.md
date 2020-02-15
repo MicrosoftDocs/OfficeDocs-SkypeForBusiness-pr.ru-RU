@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: тестирование сообщений с помощью КСМПП'
+title: 'Lync Server 2013: тестирование системы обмена сообщениями с помощью XMPP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5a1840e344ee19114cca424822fa1df14028495
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94841a3ec17878258b26fd945aa60123ac76a9c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745649"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a><span data-ttu-id="5b490-102">Тестирование сообщений с помощью КСМПП в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b490-102">Testing messaging using XMPP in Lync Server 2013</span></span>
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a><span data-ttu-id="169d9-102">Тестирование системы обмена сообщениями с помощью XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="169d9-102">Testing messaging using XMPP in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745649"
 
 <span> </span>
 
-<span data-ttu-id="5b490-103">_**Тема последнего изменения:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="5b490-103">_**Topic Last Modified:** 2014-11-03_</span></span>
+<span data-ttu-id="169d9-103">_**Последнее изменение темы:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="169d9-103">_**Topic Last Modified:** 2014-11-03_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745649"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5b490-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="5b490-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="5b490-105">Ежедневно</span><span class="sxs-lookup"><span data-stu-id="5b490-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="169d9-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="169d9-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="169d9-105">Daily (Ежедневный)</span><span class="sxs-lookup"><span data-stu-id="169d9-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5b490-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="5b490-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="5b490-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5b490-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="169d9-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="169d9-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="169d9-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="169d9-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5b490-108">Требуемые разрешения</span><span class="sxs-lookup"><span data-stu-id="5b490-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="5b490-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</span><span class="sxs-lookup"><span data-stu-id="5b490-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="5b490-110">При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксксмппим</strong> .</span><span class="sxs-lookup"><span data-stu-id="5b490-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsXmppIM</strong> cmdlet.</span></span> <span data-ttu-id="5b490-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5b490-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="169d9-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="169d9-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="169d9-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="169d9-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="169d9-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-CsXmppIM</strong> .</span><span class="sxs-lookup"><span data-stu-id="169d9-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsXmppIM</strong> cmdlet.</span></span> <span data-ttu-id="169d9-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="169d9-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsXmppIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,25 +64,25 @@ ms.locfileid: "41745649"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="5b490-112">Описание</span><span class="sxs-lookup"><span data-stu-id="5b490-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="169d9-112">Описание</span><span class="sxs-lookup"><span data-stu-id="169d9-112">Description</span></span>
 
-<span data-ttu-id="5b490-113">Расширенный протокол обмена сообщениями (КСМПП) является стандартным протоколом связи (на основе XML), который используется для отправки сообщений через Интернет.</span><span class="sxs-lookup"><span data-stu-id="5b490-113">The Extensible Messaging and Presence Protocol (XMPP) is a standard communications protocol (based on XML) used for sending messages across the Internet.</span></span> <span data-ttu-id="5b490-114">КСМПП первоначально назывался Жаббер и поддерживается несколькими приложениями для обмена сообщениями в Интернете и общения, например с помощью Google чата и Facebook.</span><span class="sxs-lookup"><span data-stu-id="5b490-114">XMPP was originally named Jabber, and is supported by several Internet messaging and communication applications, such as Google Talk and Facebook Chat.</span></span> <span data-ttu-id="5b490-115">Командлет **Test-ксксмппим** подтверждает, что пользователь может обмениваться мгновенными сообщениями с пользователем в сети КСМПП.</span><span class="sxs-lookup"><span data-stu-id="5b490-115">The **Test-CsXmppIM** cmdlet verifies that a user can exchange instant messages with a user on an XMPP network.</span></span> <span data-ttu-id="5b490-116">Обратите внимание, что для успешного завершения этого теста необходимо иметь действительный SIP-адрес для пользователя КСМПП, и этот адрес SIP должен находиться в сети, которая была настроена как разрешенная КСМПП партнер.</span><span class="sxs-lookup"><span data-stu-id="5b490-116">Note that, for this test to succeed, you must have a valid SIP address for the XMPP user, and that SIP address must be on a network that was configured as an allowed XMPP partner.</span></span>
+<span data-ttu-id="169d9-113">XMPP — это протокол стандартных коммуникаций (основанный на XML), который используется для отправки сообщений в Интернете.</span><span class="sxs-lookup"><span data-stu-id="169d9-113">The Extensible Messaging and Presence Protocol (XMPP) is a standard communications protocol (based on XML) used for sending messages across the Internet.</span></span> <span data-ttu-id="169d9-114">XMPP изначально назывался Jabber и поддерживается несколькими приложениями для обмена сообщениями и обмена сообщениями в Интернете, такими как Google Chat и Facebook Chat.</span><span class="sxs-lookup"><span data-stu-id="169d9-114">XMPP was originally named Jabber, and is supported by several Internet messaging and communication applications, such as Google Talk and Facebook Chat.</span></span> <span data-ttu-id="169d9-115">Командлет **Test-CsXmppIM** проверяет, может ли пользователь обмениваться мгновенными сообщениями с пользователем в сети XMPP.</span><span class="sxs-lookup"><span data-stu-id="169d9-115">The **Test-CsXmppIM** cmdlet verifies that a user can exchange instant messages with a user on an XMPP network.</span></span> <span data-ttu-id="169d9-116">Обратите внимание, что для успешного выполнения этой проверки необходимо иметь действительный SIP-адрес для пользователя XMPP, и этот SIP-адрес должен находиться в сети, настроенной в качестве разрешенного XMPP партнера.</span><span class="sxs-lookup"><span data-stu-id="169d9-116">Note that, for this test to succeed, you must have a valid SIP address for the XMPP user, and that SIP address must be on a network that was configured as an allowed XMPP partner.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="5b490-117">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="5b490-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="169d9-117">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="169d9-117">Running the test</span></span>
 
-<span data-ttu-id="5b490-118">В следующем примере проверяются возможности обмена мгновенными сообщениями КСМПП для atl-cs-001.litwareinc.com пула.</span><span class="sxs-lookup"><span data-stu-id="5b490-118">The following example verifies the XMPP instant messaging capabilities for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="5b490-119">Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="5b490-119">This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="5b490-120">Если это так, команда определит, может ли первый тестовый пользователь отправить мгновенное сообщение КСМПП пользователю с адресом SIP adelaney@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="5b490-120">If they have, then the command will determine whether the first test user can send an XMPP instant message to a user who has the SIP address adelaney@contoso.com.</span></span>
+<span data-ttu-id="169d9-118">В следующем примере проверяется возможность обмена мгновенными сообщениями XMPP для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="169d9-118">The following example verifies the XMPP instant messaging capabilities for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="169d9-119">Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="169d9-119">This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="169d9-120">В этом случае команда определит, может ли первый тестовый пользователь отправить мгновенное сообщение XMPP пользователю с адресом SIP adelaney@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="169d9-120">If they have, then the command will determine whether the first test user can send an XMPP instant message to a user who has the SIP address adelaney@contoso.com.</span></span>
 
-<span data-ttu-id="5b490-121">Если тестовые пользователи не заданы, команда завершится сбоем, так как не будет определять, какой пользователь должен войти в систему.</span><span class="sxs-lookup"><span data-stu-id="5b490-121">If test users are not defined, then the command will fail because it won't know which user to log on as.</span></span> <span data-ttu-id="5b490-122">Если вы не определили тестовых пользователей для пула, необходимо включить параметр Усерсипаддресс и учетные данные пользователя, который должна использовать команда при попытке входа в систему.</span><span class="sxs-lookup"><span data-stu-id="5b490-122">If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user who the command should use when trying to log on.</span></span>
+<span data-ttu-id="169d9-121">Если тестовые пользователи не определены, команда завершится с ошибками, так как не будет определять, какой пользователь должен войти в систему.</span><span class="sxs-lookup"><span data-stu-id="169d9-121">If test users are not defined, then the command will fail because it won't know which user to log on as.</span></span> <span data-ttu-id="169d9-122">Если тестовые пользователи не определены для пула, необходимо включить параметр UserSipAddress и учетные данные пользователя, который должна использовать команда при попытке входа в систему.</span><span class="sxs-lookup"><span data-stu-id="169d9-122">If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user who the command should use when trying to log on.</span></span>
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-<span data-ttu-id="5b490-123">Команды, показанные в следующем примере, проверяют возможность определенного пользователя (плана litwareinc\\почтового) войти в систему для отправки КСМПП мгновенного сообщения пользователю adelaney@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="5b490-123">The commands shown in the next example test the ability of a specific user (litwareinc\\pilar) to log on to send an XMPP instant message to the user adelaney@contoso.com.</span></span> <span data-ttu-id="5b490-124">Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский.</span><span class="sxs-lookup"><span data-stu-id="5b490-124">To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="5b490-125">(Поскольку имя для входа в\\плана litwareinc почтового было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский). Полученный объект учетных данных затем сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="5b490-125">(Because the logon name litwareinc\\pilar was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.</span></span>
+<span data-ttu-id="169d9-123">Команды, показанные в следующем примере, проверяют способность конкретного пользователя (litwareinc\\Pilar) войти в систему для отправки XMPP мгновенного сообщения пользователю adelaney@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="169d9-123">The commands shown in the next example test the ability of a specific user (litwareinc\\pilar) to log on to send an XMPP instant message to the user adelaney@contoso.com.</span></span> <span data-ttu-id="169d9-124">Для этого первая команда в примере использует командлет Get – Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman.</span><span class="sxs-lookup"><span data-stu-id="169d9-124">To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="169d9-125">(Так как имя для входа\\litwareinc Pilar было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо только ввести пароль для учетной записи Pilar Ackerman). Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="169d9-125">(Because the logon name litwareinc\\pilar was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.</span></span>
 
-<span data-ttu-id="5b490-126">Вторая команда проверяет, может ли пользователь войти в atl-cs-001.litwareinc.com пула и отправить мгновенное сообщение КСМПП.</span><span class="sxs-lookup"><span data-stu-id="5b490-126">The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and send the XMPP instant message.</span></span> <span data-ttu-id="5b490-127">Для выполнения этой задачи вызывается командлет **Test-ксксмппим** , вместе с четырьмя параметрами: таржетфкдн (полное доменное имя пула регистраторов). Получатель (адрес SIP пользователя, которому адресовано сообщение); Усеркредентиал (объект Windows PowerShell, который включает в себя учетные данные пользователя для почтового Вронский); и Усерсипаддресс (SIP-адрес, соответствующий предоставленным учетным данным пользователя).</span><span class="sxs-lookup"><span data-stu-id="5b490-127">To run this task, the **Test-CsXmppIm** cmdlet is called, together with four parameters: TargetFqdn (the FQDN of the Registrar pool); Receiver (the SIP address of the user the message is being addressed to); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).</span></span>
+<span data-ttu-id="169d9-126">Вторая команда проверяет, может ли этот пользователь войти в пул atl-cs-001.litwareinc.com и отправить мгновенное сообщение XMPP.</span><span class="sxs-lookup"><span data-stu-id="169d9-126">The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and send the XMPP instant message.</span></span> <span data-ttu-id="169d9-127">Для запуска этой задачи вызывается командлет **Test-CsXmppIm** , а также четыре параметра: TargetFqdn (полное доменное имя пула регистратора). Получатель (SIP-адрес пользователя, которому адресовано сообщение); UserCredential (объект Windows PowerShell, содержащий учетные данные пользователя Pilar Ackerman); и UserSipAddress (SIP-адрес, соответствующий предоставленным учетным данным пользователя).</span><span class="sxs-lookup"><span data-stu-id="169d9-127">To run this task, the **Test-CsXmppIm** cmdlet is called, together with four parameters: TargetFqdn (the FQDN of the Registrar pool); Receiver (the SIP address of the user the message is being addressed to); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -92,78 +92,78 @@ ms.locfileid: "41745649"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="5b490-128">Определение успеха или сбоя</span><span class="sxs-lookup"><span data-stu-id="5b490-128">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="169d9-128">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="169d9-128">Determining success or failure</span></span>
 
-<span data-ttu-id="5b490-129">Если КСМПП обмен мгновенными сообщениями правильно настроен, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**</span><span class="sxs-lookup"><span data-stu-id="5b490-129">If XMPP instant messaging is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="169d9-129">Если вы правильно настроили обмен мгновенными сообщениями XMPP, вы получите выходные данные, аналогичные приведенным ниже, со свойством Result, помеченным как **успешно.**</span><span class="sxs-lookup"><span data-stu-id="169d9-129">If XMPP instant messaging is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="5b490-130">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="5b490-130">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="169d9-130">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="169d9-130">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="5b490-131">Результат: успех</span><span class="sxs-lookup"><span data-stu-id="5b490-131">Result : Success</span></span>
+<span data-ttu-id="169d9-131">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="169d9-131">Result : Success</span></span>
 
-<span data-ttu-id="5b490-132">Задержка: 00:00:02.5361946</span><span class="sxs-lookup"><span data-stu-id="5b490-132">Latency : 00:00:02.5361946</span></span>
+<span data-ttu-id="169d9-132">Задержка: 00:00:02.5361946</span><span class="sxs-lookup"><span data-stu-id="169d9-132">Latency : 00:00:02.5361946</span></span>
 
-<span data-ttu-id="5b490-133">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="5b490-133">Error Message :</span></span>
+<span data-ttu-id="169d9-133">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="169d9-133">Error Message :</span></span>
 
-<span data-ttu-id="5b490-134">Диагностик</span><span class="sxs-lookup"><span data-stu-id="5b490-134">Diagnosis :</span></span>
+<span data-ttu-id="169d9-134">Диагност</span><span class="sxs-lookup"><span data-stu-id="169d9-134">Diagnosis :</span></span>
 
-<span data-ttu-id="5b490-135">Если указанные пользователи не могут использовать КСМПП обмен мгновенными сообщениями, результат будет показан как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз.</span><span class="sxs-lookup"><span data-stu-id="5b490-135">If the specified users can't use XMPP instant messaging, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="169d9-135">Если указанные пользователи не могут использовать XMPP обмен мгновенными сообщениями, результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз:</span><span class="sxs-lookup"><span data-stu-id="169d9-135">If the specified users can't use XMPP instant messaging, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="5b490-136">Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени</span><span class="sxs-lookup"><span data-stu-id="5b490-136">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
+<span data-ttu-id="169d9-136">Предупреждение: не удалось считать номер порта регистратора для данного полного имени</span><span class="sxs-lookup"><span data-stu-id="169d9-136">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
 
-<span data-ttu-id="5b490-137">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="5b490-137">domain name (FQDN).</span></span> <span data-ttu-id="5b490-138">С помощью номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5b490-138">Using default Registrar port number.</span></span> <span data-ttu-id="5b490-139">Ошибка</span><span class="sxs-lookup"><span data-stu-id="5b490-139">Exception:</span></span>
+<span data-ttu-id="169d9-137">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="169d9-137">domain name (FQDN).</span></span> <span data-ttu-id="169d9-138">Использование номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="169d9-138">Using default Registrar port number.</span></span> <span data-ttu-id="169d9-139">Возникновения</span><span class="sxs-lookup"><span data-stu-id="169d9-139">Exception:</span></span>
 
-<span data-ttu-id="5b490-140">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="5b490-140">System.InvalidOperationException: No matching cluster found in topology.</span></span>
+<span data-ttu-id="169d9-140">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="169d9-140">System.InvalidOperationException: No matching cluster found in topology.</span></span>
 
-<span data-ttu-id="5b490-141">скорость</span><span class="sxs-lookup"><span data-stu-id="5b490-141">at</span></span>
+<span data-ttu-id="169d9-141">в</span><span class="sxs-lookup"><span data-stu-id="169d9-141">at</span></span>
 
-<span data-ttu-id="5b490-142">Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="5b490-142">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
+<span data-ttu-id="169d9-142">Microsoft. RTC. Management. SyntheticTransactions. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="169d9-142">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
 
-<span data-ttu-id="5b490-143">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="5b490-143">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
+<span data-ttu-id="169d9-143">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="169d9-143">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
 
-<span data-ttu-id="5b490-144">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="5b490-144">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="169d9-144">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="169d9-144">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="5b490-145">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="5b490-145">Result : Failure</span></span>
+<span data-ttu-id="169d9-145">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="169d9-145">Result : Failure</span></span>
 
-<span data-ttu-id="5b490-146">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="5b490-146">Latency : 00:00:00</span></span>
+<span data-ttu-id="169d9-146">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="169d9-146">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="5b490-147">Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="5b490-147">Error Message : 10060, A connection attempt failed because the connected party</span></span>
+<span data-ttu-id="169d9-147">Сообщение об ошибке: 10060, попытка подключения не удалась, так как подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="169d9-147">Error Message : 10060, A connection attempt failed because the connected party</span></span>
 
-<span data-ttu-id="5b490-148">не отвечает на запросы в течение определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="5b490-148">did not properly respond after a period of time, or</span></span>
+<span data-ttu-id="169d9-148">не ответил должным образом по истечении определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="169d9-148">did not properly respond after a period of time, or</span></span>
 
-<span data-ttu-id="5b490-149">не удалось установить соединение, так как подключенный узел имеет</span><span class="sxs-lookup"><span data-stu-id="5b490-149">established connection failed because connected host has</span></span>
+<span data-ttu-id="169d9-149">не удалось установить подключение, так как у подключенного узла есть</span><span class="sxs-lookup"><span data-stu-id="169d9-149">established connection failed because connected host has</span></span>
 
-<span data-ttu-id="5b490-150">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="5b490-150">failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="169d9-150">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="169d9-150">failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="5b490-151">Внутреннее исключение: сбой при попытке подключения из-за того, что</span><span class="sxs-lookup"><span data-stu-id="5b490-151">Inner Exception:A connection attempt failed because the</span></span>
+<span data-ttu-id="169d9-151">Внутреннее исключение: сбой попытки подключения, так как</span><span class="sxs-lookup"><span data-stu-id="169d9-151">Inner Exception:A connection attempt failed because the</span></span>
 
-<span data-ttu-id="5b490-152">связь с абонентом завершилась неправильно после определенного периода</span><span class="sxs-lookup"><span data-stu-id="5b490-152">connected party did not properly respond after a period of</span></span>
+<span data-ttu-id="169d9-152">подключенная сторона не ответила должным образом после периода</span><span class="sxs-lookup"><span data-stu-id="169d9-152">connected party did not properly respond after a period of</span></span>
 
-<span data-ttu-id="5b490-153">время или соединение не удалось установить, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="5b490-153">time, or established connection failed because connected host</span></span>
+<span data-ttu-id="169d9-153">время или установленное подключение не выполнено, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="169d9-153">time, or established connection failed because connected host</span></span>
 
-<span data-ttu-id="5b490-154">не удалось ответить 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="5b490-154">has failed to respond 10.188.116.96:5061</span></span>
+<span data-ttu-id="169d9-154">не удалось ответить на 10.188.116.96:5061</span><span class="sxs-lookup"><span data-stu-id="169d9-154">has failed to respond 10.188.116.96:5061</span></span>
 
-<span data-ttu-id="5b490-155">Диагностик</span><span class="sxs-lookup"><span data-stu-id="5b490-155">Diagnosis :</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="5b490-156">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="5b490-156">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="5b490-157">Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксксмппим** :</span><span class="sxs-lookup"><span data-stu-id="5b490-157">Here are some common reasons why **Test-CsXmppIM** might fail:</span></span>
-
-  - <span data-ttu-id="5b490-158">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="5b490-158">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="5b490-159">Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем.</span><span class="sxs-lookup"><span data-stu-id="5b490-159">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="5b490-160">Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.</span><span class="sxs-lookup"><span data-stu-id="5b490-160">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
-
-  - <span data-ttu-id="5b490-161">Эта команда завершится сбоем, если конфигурация шлюза КСМПП неправильно настроена или еще не развернута.</span><span class="sxs-lookup"><span data-stu-id="5b490-161">This command will fail if XMPP gateway configuration is misconfigured or not yet deployed.</span></span>
+<span data-ttu-id="169d9-155">Диагност</span><span class="sxs-lookup"><span data-stu-id="169d9-155">Diagnosis :</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5b490-162">См. также</span><span class="sxs-lookup"><span data-stu-id="5b490-162">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="169d9-156">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="169d9-156">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="169d9-157">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsXmppIM** :</span><span class="sxs-lookup"><span data-stu-id="169d9-157">Here are some common reasons why **Test-CsXmppIM** might fail:</span></span>
+
+  - <span data-ttu-id="169d9-158">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="169d9-158">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="169d9-159">Если используется, необязательные параметры должны быть настроены правильно или тест завершится с ошибками.</span><span class="sxs-lookup"><span data-stu-id="169d9-159">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="169d9-160">Выполните команду без необязательных параметров и проверьте, успешно ли это сделано.</span><span class="sxs-lookup"><span data-stu-id="169d9-160">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+  - <span data-ttu-id="169d9-161">Эта команда завершится с ошибками, если конфигурация шлюза XMPP неправильно настроена или еще не развернута.</span><span class="sxs-lookup"><span data-stu-id="169d9-161">This command will fail if XMPP gateway configuration is misconfigured or not yet deployed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="169d9-162">См. также</span><span class="sxs-lookup"><span data-stu-id="169d9-162">See Also</span></span>
 
 
-[<span data-ttu-id="5b490-163">Set-CsXmppGatewayConfiguration</span><span class="sxs-lookup"><span data-stu-id="5b490-163">Set-CsXmppGatewayConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
+[<span data-ttu-id="169d9-163">Set — Ксксмппгатевайконфигуратион</span><span class="sxs-lookup"><span data-stu-id="169d9-163">Set-CsXmppGatewayConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
   
 
 </div>

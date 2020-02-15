@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblActivePeers'
+title: 'Lync Server 2013: Тблактивепирс'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29d7c5c806e7540cc742781ce364748c47c10b39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebde759bceaf682384284cffb6a2ec710050126c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="1d3ba-102">tblActivePeers в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1d3ba-102">tblActivePeers in Lync Server 2013</span></span>
+# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="a8f25-102">Тблактивепирс в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8f25-102">tblActivePeers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764245"
 
 <span> </span>
 
-<span data-ttu-id="1d3ba-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="1d3ba-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="a8f25-103">_**Последнее изменение темы:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="a8f25-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="1d3ba-104">Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
+<span data-ttu-id="a8f25-104">Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.</span><span class="sxs-lookup"><span data-stu-id="a8f25-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="1d3ba-105">Столбцов</span><span class="sxs-lookup"><span data-stu-id="1d3ba-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="a8f25-105">Columns</span><span class="sxs-lookup"><span data-stu-id="a8f25-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,27 +49,27 @@ ms.locfileid: "41764245"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1d3ba-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="1d3ba-106">Column</span></span></th>
-<th><span data-ttu-id="1d3ba-107">Тип</span><span class="sxs-lookup"><span data-stu-id="1d3ba-107">Type</span></span></th>
-<th><span data-ttu-id="1d3ba-108">Описание</span><span class="sxs-lookup"><span data-stu-id="1d3ba-108">Description</span></span></th>
+<th><span data-ttu-id="a8f25-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="a8f25-106">Column</span></span></th>
+<th><span data-ttu-id="a8f25-107">Тип</span><span class="sxs-lookup"><span data-stu-id="a8f25-107">Type</span></span></th>
+<th><span data-ttu-id="a8f25-108">Описание</span><span class="sxs-lookup"><span data-stu-id="a8f25-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1d3ba-109">аплсерверид</span><span class="sxs-lookup"><span data-stu-id="1d3ba-109">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-110">int, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="1d3ba-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-111">Идентификатор сервера, на котором размещена запись.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-111">ID of the server that posted the entry.</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-109">аплсерверид</span><span class="sxs-lookup"><span data-stu-id="a8f25-109">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-110">int, not null</span><span class="sxs-lookup"><span data-stu-id="a8f25-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-111">ИД сервера, добавившего запись.</span><span class="sxs-lookup"><span data-stu-id="a8f25-111">ID of the server that posted the entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1d3ba-112">аплпирид</span><span class="sxs-lookup"><span data-stu-id="1d3ba-112">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-113">int, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="1d3ba-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-114">Идентификатор однорангового узла, к которому подключен сервер публикации.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-114">ID of the peer that the posting server is connected to.</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-112">аплпирид</span><span class="sxs-lookup"><span data-stu-id="a8f25-112">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-113">int, not null</span><span class="sxs-lookup"><span data-stu-id="a8f25-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-114">ИД узла, к которому подключен сервер, добавивший запись.</span><span class="sxs-lookup"><span data-stu-id="a8f25-114">ID of the peer that the posting server is connected to.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="1d3ba-115">Параметры</span><span class="sxs-lookup"><span data-stu-id="1d3ba-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="a8f25-115">Keys</span><span class="sxs-lookup"><span data-stu-id="a8f25-115">Keys</span></span>
 
 <table>
 <colgroup>
@@ -78,22 +78,22 @@ ms.locfileid: "41764245"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1d3ba-116">Столбец</span><span class="sxs-lookup"><span data-stu-id="1d3ba-116">Column</span></span></th>
-<th><span data-ttu-id="1d3ba-117">Описание</span><span class="sxs-lookup"><span data-stu-id="1d3ba-117">Description</span></span></th>
+<th><span data-ttu-id="a8f25-116">Столбец</span><span class="sxs-lookup"><span data-stu-id="a8f25-116">Column</span></span></th>
+<th><span data-ttu-id="a8f25-117">Описание</span><span class="sxs-lookup"><span data-stu-id="a8f25-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1d3ba-118">&lt;Аплсерверид, Аплпирид&gt;</span><span class="sxs-lookup"><span data-stu-id="1d3ba-118">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-119">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-118">&lt;Аплсерверид, Аплпирид&gt;</span><span class="sxs-lookup"><span data-stu-id="a8f25-118">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-119">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="a8f25-119">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1d3ba-120">аплсерверид</span><span class="sxs-lookup"><span data-stu-id="1d3ba-120">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-121">Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-121">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-120">аплсерверид</span><span class="sxs-lookup"><span data-stu-id="a8f25-120">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-121">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="a8f25-121">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1d3ba-122">аплпирид</span><span class="sxs-lookup"><span data-stu-id="1d3ba-122">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="1d3ba-123">Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.</span><span class="sxs-lookup"><span data-stu-id="1d3ba-123">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-122">аплпирид</span><span class="sxs-lookup"><span data-stu-id="a8f25-122">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="a8f25-123">Внешний ключ с поиском в таблице tblServerIdentity.serverID.</span><span class="sxs-lookup"><span data-stu-id="a8f25-123">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

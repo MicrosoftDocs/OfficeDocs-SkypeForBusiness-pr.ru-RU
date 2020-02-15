@@ -12,20 +12,20 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73806f481cfe7c44a5eb9507d043565765a08f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d23b501738010a8e5e5ed1c5c2e9a8608b0709e4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a><span data-ttu-id="28889-102">Подключение Survivable Branch Appliance к пулу переднего плана Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28889-102">Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool</span></span>
+# <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a><span data-ttu-id="436c0-102">Подключение Survivable Branch Appliance к пулу переднего плана Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="436c0-102">Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740579"
 
 <span> </span>
 
-<span data-ttu-id="28889-103">_**Тема последнего изменения:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="28889-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="436c0-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="436c0-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="28889-104">Каждое работающее устройство филиала (СБА) связано с пулом переднего плана, который выступает в качестве регистратора резервных копий для СБА.</span><span class="sxs-lookup"><span data-stu-id="28889-104">Every Survivable Branch Appliance (SBA) is associated with a Front End pool, which serves as a backup Registrar for the SBA.</span></span> <span data-ttu-id="28889-105">Когда пул переднего плана обновляется до Lync Server 2013, СБА должен быть связан с пулом переднего плана, пока пул переднего плана будет обновлен.</span><span class="sxs-lookup"><span data-stu-id="28889-105">When the Front End pool is upgraded to Lync Server 2013, the SBA must be disassociated from the Front End pool while the Front End pool is upgraded.</span></span> <span data-ttu-id="28889-106">После обновления пула переднего плана СБА можно связать с пулом переднего плана.</span><span class="sxs-lookup"><span data-stu-id="28889-106">After the Front End pool is upgraded, the SBA can be reassociated with the Front End pool.</span></span> <span data-ttu-id="28889-107">Это связано с тем, что удаление СБА из топологии в построителе топологии и повторное добавление СБА для Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="28889-107">This involves deleting the SBA from the topology in Topology Builder and then adding the SBA, again, to Topology Builder.</span></span> <span data-ttu-id="28889-108">Пользователи, размещенные на СБА, должны быть перемещены в другой пул переднего плана, прежде чем удалять СБА из топологии.</span><span class="sxs-lookup"><span data-stu-id="28889-108">Users homed on the SBA must be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="28889-109">После того как СБА снова добавится в топологию, эти пользователи могут быть возвращены в СБА.</span><span class="sxs-lookup"><span data-stu-id="28889-109">After the SBA is added back to the topology, those users can be moved back to the SBA.</span></span>
+<span data-ttu-id="436c0-104">Каждое устройство для обеспечения связи в филиалах (SBA) связано с пулом переднего плана, который выступает в качестве регистратора резервных копий для SBA.</span><span class="sxs-lookup"><span data-stu-id="436c0-104">Every Survivable Branch Appliance (SBA) is associated with a Front End pool, which serves as a backup Registrar for the SBA.</span></span> <span data-ttu-id="436c0-105">После обновления пула переднего плана до Lync Server 2013 SBA должен быть связан с интерфейсным пулом во время обновления пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="436c0-105">When the Front End pool is upgraded to Lync Server 2013, the SBA must be disassociated from the Front End pool while the Front End pool is upgraded.</span></span> <span data-ttu-id="436c0-106">После обновления пула переднего плана SBA может быть связан с пулом переднего плана.</span><span class="sxs-lookup"><span data-stu-id="436c0-106">After the Front End pool is upgraded, the SBA can be reassociated with the Front End pool.</span></span> <span data-ttu-id="436c0-107">Сюда входит удаление устройства обеспечения связи в филиалах из топологии в построителе топологий и повторное добавление этого устройства в построителе.</span><span class="sxs-lookup"><span data-stu-id="436c0-107">This involves deleting the SBA from the topology in Topology Builder and then adding the SBA, again, to Topology Builder.</span></span> <span data-ttu-id="436c0-108">Пользователи, размещенные в SBA, должны быть перемещены в другой интерфейсный пул перед удалением SBA из топологии.</span><span class="sxs-lookup"><span data-stu-id="436c0-108">Users homed on the SBA must be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="436c0-109">После повторного добавления устройства в топологию можно переместить этих пользователей обратно на данное устройство обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="436c0-109">After the SBA is added back to the topology, those users can be moved back to the SBA.</span></span>
 
-<span data-ttu-id="28889-110">Эти действия описаны ниже.</span><span class="sxs-lookup"><span data-stu-id="28889-110">These steps are summarized below:</span></span>
+<span data-ttu-id="436c0-110">Эти действия приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="436c0-110">These steps are summarized below:</span></span>
 
-1.  <span data-ttu-id="28889-111">Перемещение пользователей филиалов, размещенных на СБА, в другой пул переднего плана.</span><span class="sxs-lookup"><span data-stu-id="28889-111">Move branch users homed on SBA to another Front End pool.</span></span>
+1.  <span data-ttu-id="436c0-111">Перемещение пользователей филиалов, размещенных в SBA, в другой интерфейсный пул.</span><span class="sxs-lookup"><span data-stu-id="436c0-111">Move branch users homed on SBA to another Front End pool.</span></span>
 
-2.  <span data-ttu-id="28889-112">Удалите СБА из топологии, чтобы разорвать существующий пул переднего плана в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="28889-112">Remove SBA from your topology to disassociate the existing Front End pool as the backup Registrar.</span></span>
+2.  <span data-ttu-id="436c0-112">Удалите SBA из топологии, чтобы разорвать существующий интерфейсный пул в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="436c0-112">Remove SBA from your topology to disassociate the existing Front End pool as the backup Registrar.</span></span>
 
-3.  <span data-ttu-id="28889-113">Обновите пул переднего плана до Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28889-113">Upgrade Front End pool to Microsoft Lync Server 2013.</span></span>
+3.  <span data-ttu-id="436c0-113">Обновите интерфейсный пул до Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="436c0-113">Upgrade Front End pool to Microsoft Lync Server 2013.</span></span>
 
-4.  <span data-ttu-id="28889-114">Добавьте СБА обратно в топологию.</span><span class="sxs-lookup"><span data-stu-id="28889-114">Add SBA back into your topology.</span></span>
+4.  <span data-ttu-id="436c0-114">Добавьте устройство обеспечения связи в филиалах обратно в топологию.</span><span class="sxs-lookup"><span data-stu-id="436c0-114">Add SBA back into your topology.</span></span>
 
-5.  <span data-ttu-id="28889-115">Свяжите новый пул переднего плана с СБА в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="28889-115">Associate the new Front End pool to the SBA as a backup Registrar.</span></span>
+5.  <span data-ttu-id="436c0-115">Свяжите новый интерфейсный пул с SBA в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="436c0-115">Associate the new Front End pool to the SBA as a backup Registrar.</span></span>
 
-6.  <span data-ttu-id="28889-116">Переместить пользователей филиалов обратно в СБА.</span><span class="sxs-lookup"><span data-stu-id="28889-116">Move branch users back to the SBA.</span></span>
+6.  <span data-ttu-id="436c0-116">Переместите пользователей филиала обратно на устройство.</span><span class="sxs-lookup"><span data-stu-id="436c0-116">Move branch users back to the SBA.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="28889-117">Содержание</span><span class="sxs-lookup"><span data-stu-id="28889-117">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="436c0-117">Содержание</span><span class="sxs-lookup"><span data-stu-id="436c0-117">In This Section</span></span>
 
-  - [<span data-ttu-id="28889-118">Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28889-118">Add Lync Server 2013 Survivable Branch Appliance branch site to your topology</span></span>](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
+  - [<span data-ttu-id="436c0-118">Добавление сайта филиала Lync Server 2013 для обеспечения связи в филиалах к топологии</span><span class="sxs-lookup"><span data-stu-id="436c0-118">Add Lync Server 2013 Survivable Branch Appliance branch site to your topology</span></span>](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
 
-  - [<span data-ttu-id="28889-119">Добавление сайта филиала Lync Server 2010 Survivable Branch Appliance в топологию</span><span class="sxs-lookup"><span data-stu-id="28889-119">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
+  - [<span data-ttu-id="436c0-119">Добавление сайта филиала Lync Server 2010 для обеспечения связи в филиалах к топологии</span><span class="sxs-lookup"><span data-stu-id="436c0-119">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
 
 </div>
 

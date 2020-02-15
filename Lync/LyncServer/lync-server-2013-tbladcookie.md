@@ -12,20 +12,20 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f733397483693ad4c18418f3e82b9f99cfa640f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731569"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="f5cf1-102">tblADCookie в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5cf1-102">tblADCookie in Lync Server 2013</span></span>
+# <a name="tbladcookie-in-lync-server-2013"></a><span data-ttu-id="f81ff-102">tblADCookie в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f81ff-102">tblADCookie in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731569"
 
 <span> </span>
 
-<span data-ttu-id="f5cf1-103">_**Тема последнего изменения:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="f5cf1-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="f81ff-103">_**Последнее изменение темы:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="f81ff-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="f5cf1-104">Тбладкукие включает в себя текущие cookie-файлы для синхронизации протокола Lightweight Directory Access.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
+<span data-ttu-id="f81ff-104">tblADCookie содержит текущие файлы cookie синхронизации для протокола LDAP.</span><span class="sxs-lookup"><span data-stu-id="f81ff-104">tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="f5cf1-105">Столбцов</span><span class="sxs-lookup"><span data-stu-id="f5cf1-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="f81ff-105">Columns</span><span class="sxs-lookup"><span data-stu-id="f81ff-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,42 +49,42 @@ ms.locfileid: "41731569"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5cf1-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="f5cf1-106">Column</span></span></th>
-<th><span data-ttu-id="f5cf1-107">Тип</span><span class="sxs-lookup"><span data-stu-id="f5cf1-107">Type</span></span></th>
-<th><span data-ttu-id="f5cf1-108">Описание</span><span class="sxs-lookup"><span data-stu-id="f5cf1-108">Description</span></span></th>
+<th><span data-ttu-id="f81ff-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="f81ff-106">Column</span></span></th>
+<th><span data-ttu-id="f81ff-107">Тип</span><span class="sxs-lookup"><span data-stu-id="f81ff-107">Type</span></span></th>
+<th><span data-ttu-id="f81ff-108">Описание</span><span class="sxs-lookup"><span data-stu-id="f81ff-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5cf1-109">прингуид</span><span class="sxs-lookup"><span data-stu-id="f5cf1-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-110">GUID, а не NULL</span><span class="sxs-lookup"><span data-stu-id="f5cf1-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-111">Идентификатор GUID участника отслеживаемого домена.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-111">Principal GUID of the domain being monitored.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-109">прингуид</span><span class="sxs-lookup"><span data-stu-id="f81ff-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-110">GUID, не NULL</span><span class="sxs-lookup"><span data-stu-id="f81ff-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-111">GUID субъекта для домена, за которым осуществляется мониторинг.</span><span class="sxs-lookup"><span data-stu-id="f81ff-111">Principal GUID of the domain being monitored.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5cf1-112">приндчост</span><span class="sxs-lookup"><span data-stu-id="f5cf1-112">prinDCHost</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="f5cf1-113">nvarchar (255)</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-114">Полное доменное имя (FQDN) текущего контроллера домена, используемого для синхронизации доменных служб Active Directory. Имеет информационное значение.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-112">приндчост</span><span class="sxs-lookup"><span data-stu-id="f81ff-112">prinDCHost</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-113">nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="f81ff-113">nvarchar (255)</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-114">Полное доменное имя (FQDN) текущего контроллера домена, используемого для синхронизации доменных служб Active Directory. Имеет информационное значение.</span><span class="sxs-lookup"><span data-stu-id="f81ff-114">Fully qualified domain name (FQDN) of the current domain controller used for Active Directory Domain Services Sync. Has informational value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f5cf1-115">адкконтент</span><span class="sxs-lookup"><span data-stu-id="f5cf1-115">adcContent</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-116">изображение (двоичное)</span><span class="sxs-lookup"><span data-stu-id="f5cf1-116">image (binary)</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-117">Cookie синхронизации Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-117">Active Directory Sync cookie.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-115">адкконтент</span><span class="sxs-lookup"><span data-stu-id="f81ff-115">adcContent</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-116">image (binary)</span><span class="sxs-lookup"><span data-stu-id="f81ff-116">image (binary)</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-117">Файл cookie синхронизации Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f81ff-117">Active Directory Sync cookie.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5cf1-118">ластупдатед</span><span class="sxs-lookup"><span data-stu-id="f5cf1-118">lastUpdated</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-119">datetime</span><span class="sxs-lookup"><span data-stu-id="f5cf1-119">datetime</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-120">Метка времени со временем обновления строки.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-120">Time stamp with the row update time.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-118">ластупдатед</span><span class="sxs-lookup"><span data-stu-id="f81ff-118">lastUpdated</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-119">datetime</span><span class="sxs-lookup"><span data-stu-id="f81ff-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-120">Метка времени со временем обновления строки.</span><span class="sxs-lookup"><span data-stu-id="f81ff-120">Time stamp with the row update time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f5cf1-121">локкедунтил</span><span class="sxs-lookup"><span data-stu-id="f5cf1-121">lockedUntil</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-122">datetime</span><span class="sxs-lookup"><span data-stu-id="f5cf1-122">datetime</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-123">Время, по истечении которого изменения строки будут заблокированы.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-123">Time until the row is locked for changes.</span></span> <span data-ttu-id="f5cf1-124">Это является частью механизма программного обеспечения, который гарантирует, что только одна из служб чата выполняет синхронизацию службы каталогов Active Directory за один раз.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-124">This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-121">локкедунтил</span><span class="sxs-lookup"><span data-stu-id="f81ff-121">lockedUntil</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-122">datetime</span><span class="sxs-lookup"><span data-stu-id="f81ff-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-p101">время, до которого строка заблокирована для внесения изменений. Это часть механизма программной блокировки, которая обеспечивает одновременное выполнение синхронизации Active Directory только одной службой чата.</span><span class="sxs-lookup"><span data-stu-id="f81ff-p101">Time until the row is locked for changes. This is part of a software interlock mechanism that ensures that only one of the chat services does the Active Directory Sync at a time.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="f5cf1-125">Параметры</span><span class="sxs-lookup"><span data-stu-id="f5cf1-125">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="f81ff-125">Keys</span><span class="sxs-lookup"><span data-stu-id="f81ff-125">Keys</span></span>
 
 <table>
 <colgroup>
@@ -93,18 +93,18 @@ ms.locfileid: "41731569"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5cf1-126">Столбцы (-ы)</span><span class="sxs-lookup"><span data-stu-id="f5cf1-126">Column(s)</span></span></th>
-<th><span data-ttu-id="f5cf1-127">Описание</span><span class="sxs-lookup"><span data-stu-id="f5cf1-127">Description</span></span></th>
+<th><span data-ttu-id="f81ff-126">Столбцы</span><span class="sxs-lookup"><span data-stu-id="f81ff-126">Column(s)</span></span></th>
+<th><span data-ttu-id="f81ff-127">Описание</span><span class="sxs-lookup"><span data-stu-id="f81ff-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5cf1-128">прингуид</span><span class="sxs-lookup"><span data-stu-id="f5cf1-128">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-129">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-129">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-128">прингуид</span><span class="sxs-lookup"><span data-stu-id="f81ff-128">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-129">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="f81ff-129">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5cf1-130">прингуид</span><span class="sxs-lookup"><span data-stu-id="f5cf1-130">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="f5cf1-131">Внешний ключ с подстановкой в таблице Principal. Прингуид.</span><span class="sxs-lookup"><span data-stu-id="f5cf1-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-130">прингуид</span><span class="sxs-lookup"><span data-stu-id="f81ff-130">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="f81ff-131">Внешний ключ с поиском в таблице Principal.prinGuid.</span><span class="sxs-lookup"><span data-stu-id="f81ff-131">Foreign key with lookup in Principal.prinGuid table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

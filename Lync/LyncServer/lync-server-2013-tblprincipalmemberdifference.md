@@ -12,20 +12,20 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="aea57-102">tblPrincipalMemberDifference в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aea57-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a><span data-ttu-id="2fd5d-102">tblPrincipalMemberDifference в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fd5d-102">tblPrincipalMemberDifference in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764145"
 
 <span> </span>
 
-<span data-ttu-id="aea57-103">_**Тема последнего изменения:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="aea57-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="2fd5d-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2fd5d-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="aea57-104">ТблпринЦипалмембердифференце содержит изменения членства в группах (добавленные и удаленные участники), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="aea57-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
+<span data-ttu-id="2fd5d-104">tblPrincipalMemberDifference содержит изменения членства в группах (добавленные и удаленные элементы), которые еще не были обработаны на последующих этапах синхронизации доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="2fd5d-104">tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="aea57-105">Столбцов</span><span class="sxs-lookup"><span data-stu-id="aea57-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="2fd5d-105">Columns</span><span class="sxs-lookup"><span data-stu-id="2fd5d-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ ms.locfileid: "41764145"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aea57-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="aea57-106">Column</span></span></th>
-<th><span data-ttu-id="aea57-107">Тип</span><span class="sxs-lookup"><span data-stu-id="aea57-107">Type</span></span></th>
-<th><span data-ttu-id="aea57-108">Описание</span><span class="sxs-lookup"><span data-stu-id="aea57-108">Description</span></span></th>
+<th><span data-ttu-id="2fd5d-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="2fd5d-106">Column</span></span></th>
+<th><span data-ttu-id="2fd5d-107">Тип</span><span class="sxs-lookup"><span data-stu-id="2fd5d-107">Type</span></span></th>
+<th><span data-ttu-id="2fd5d-108">Описание</span><span class="sxs-lookup"><span data-stu-id="2fd5d-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aea57-109">прингуид</span><span class="sxs-lookup"><span data-stu-id="aea57-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="aea57-110">GUID, а не NULL</span><span class="sxs-lookup"><span data-stu-id="aea57-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="aea57-111">Идентификатор GUID участника измененной группы.</span><span class="sxs-lookup"><span data-stu-id="aea57-111">Principal GUID of the group that changed.</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-109">прингуид</span><span class="sxs-lookup"><span data-stu-id="2fd5d-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-110">GUID, не NULL</span><span class="sxs-lookup"><span data-stu-id="2fd5d-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-111">GUID субъекта для измененной группы.</span><span class="sxs-lookup"><span data-stu-id="2fd5d-111">Principal GUID of the group that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aea57-112">мемберадпас</span><span class="sxs-lookup"><span data-stu-id="aea57-112">memberADPath</span></span></p></td>
-<td><p><span data-ttu-id="aea57-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="aea57-113">nvarchar (256)</span></span></p></td>
-<td><p><span data-ttu-id="aea57-114">Отличительное имя участника.</span><span class="sxs-lookup"><span data-stu-id="aea57-114">Distinguished name of the member.</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-112">мемберадпас</span><span class="sxs-lookup"><span data-stu-id="2fd5d-112">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2fd5d-113">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-114">Различающееся имя члена.</span><span class="sxs-lookup"><span data-stu-id="2fd5d-114">Distinguished name of the member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aea57-115">мемберремовед</span><span class="sxs-lookup"><span data-stu-id="aea57-115">memberRemoved</span></span></p></td>
-<td><p><span data-ttu-id="aea57-116">bit, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="aea57-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="aea57-117">Значение false, если элемент был добавлен.</span><span class="sxs-lookup"><span data-stu-id="aea57-117">False if the member was added.</span></span> <span data-ttu-id="aea57-118">Значение true, если элемент удален.</span><span class="sxs-lookup"><span data-stu-id="aea57-118">True if the member was removed.</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-115">мемберремовед</span><span class="sxs-lookup"><span data-stu-id="2fd5d-115">memberRemoved</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-116">bit, не NULL</span><span class="sxs-lookup"><span data-stu-id="2fd5d-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-p101">False, если член был добавлен. True, если член был удален.</span><span class="sxs-lookup"><span data-stu-id="2fd5d-p101">False if the member was added. True if the member was removed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="aea57-119">Ключ</span><span class="sxs-lookup"><span data-stu-id="aea57-119">Key</span></span>
+### <a name="key"></a><span data-ttu-id="2fd5d-119">Key</span><span class="sxs-lookup"><span data-stu-id="2fd5d-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +83,14 @@ ms.locfileid: "41764145"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aea57-120">Столбец</span><span class="sxs-lookup"><span data-stu-id="aea57-120">Column</span></span></th>
-<th><span data-ttu-id="aea57-121">Описание</span><span class="sxs-lookup"><span data-stu-id="aea57-121">Description</span></span></th>
+<th><span data-ttu-id="2fd5d-120">Столбец</span><span class="sxs-lookup"><span data-stu-id="2fd5d-120">Column</span></span></th>
+<th><span data-ttu-id="2fd5d-121">Описание</span><span class="sxs-lookup"><span data-stu-id="2fd5d-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aea57-122">&lt;Прингуид, Мемберадпас&gt;</span><span class="sxs-lookup"><span data-stu-id="aea57-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
-<td><p><span data-ttu-id="aea57-123">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="aea57-123">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-122">&lt;Прингуид, Мемберадпас&gt;</span><span class="sxs-lookup"><span data-stu-id="2fd5d-122">&lt;prinGuid, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="2fd5d-123">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="2fd5d-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование высокой доступности и аварийного восстановления'
+title: 'Lync Server 2013: Планирование высокой доступности и аварийного восстановления'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="193e9-102">Планирование высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-102">Planning for high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="c2261-102">Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-102">Planning for high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41752189"
 
 <span> </span>
 
-<span data-ttu-id="193e9-103">_**Тема последнего изменения:** 2013-10-31_</span><span class="sxs-lookup"><span data-stu-id="193e9-103">_**Topic Last Modified:** 2013-10-31_</span></span>
+<span data-ttu-id="c2261-103">_**Последнее изменение темы:** 2013-10-31_</span><span class="sxs-lookup"><span data-stu-id="c2261-103">_**Topic Last Modified:** 2013-10-31_</span></span>
 
-<span data-ttu-id="193e9-104">Как и в Lync Server 2010, основная схема высокой доступности для большинства ролей сервера в Lync Server 2013 базируется на избыточности сервера посредством группировки.</span><span class="sxs-lookup"><span data-stu-id="193e9-104">As in Lync Server 2010, the main high availability scheme for most server roles in Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="193e9-105">При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.</span><span class="sxs-lookup"><span data-stu-id="193e9-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="193e9-106">Это касается серверов переднего плана, пограничных серверов, серверов-посредников и Директоров.</span><span class="sxs-lookup"><span data-stu-id="193e9-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
+<span data-ttu-id="c2261-104">Как и в Lync Server 2010, основная схема высокой доступности для большинства ролей серверов в Lync Server 2013 основана на избыточности сервера посредством пула.</span><span class="sxs-lookup"><span data-stu-id="c2261-104">As in Lync Server 2010, the main high availability scheme for most server roles in Lync Server 2013 is based on server redundancy via pooling.</span></span> <span data-ttu-id="c2261-105">При сбое сервера с определенными ролями остальные серверы в пуле с такими же ролями берут на себя нагрузку этого сервера.</span><span class="sxs-lookup"><span data-stu-id="c2261-105">If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.</span></span> <span data-ttu-id="c2261-106">Это касается серверов переднего плана, пограничных серверов, серверов-посредников и Директоров.</span><span class="sxs-lookup"><span data-stu-id="c2261-106">This applies to Front End Servers, Edge Servers, Mediation Servers, and Directors.</span></span>
 
-<span data-ttu-id="193e9-107">Lync Server 2013 добавляет новые показатели аварийного восстановления для пулов переднего плана с помощью географических дисперсемент серверов в двух центрах обработки данных для предоставления услуг по продолжению всего пула или сайта.</span><span class="sxs-lookup"><span data-stu-id="193e9-107">Lync Server 2013 adds new disaster recovery measures for Front End pools by introducing geographical dispersement of your servers into two data centers to provide continuation of service should one entire pool or site go down.</span></span>
+<span data-ttu-id="c2261-107">Lync Server 2013 добавляет новые меры аварийного восстановления для пулов переднего плана с помощью географических распределения серверов в двух центрах обработки данных, чтобы обеспечить продолжение обслуживания всего одного пула или сайта.</span><span class="sxs-lookup"><span data-stu-id="c2261-107">Lync Server 2013 adds new disaster recovery measures for Front End pools by introducing geographical dispersement of your servers into two data centers to provide continuation of service should one entire pool or site go down.</span></span>
 
-<span data-ttu-id="193e9-108">Lync Server 2013 также повышает уровень высокой доступности сервера благодаря поддержке синхронного зеркального отображения SQL для серверных баз данных.</span><span class="sxs-lookup"><span data-stu-id="193e9-108">Lync Server 2013 also enhances Back End Server high availability, by supporting synchronous SQL mirroring for your Back End databases.</span></span>
+<span data-ttu-id="c2261-108">Lync Server 2013 также повышает высокую доступность внутреннего сервера за счет поддержки синхронного зеркального отображения SQL для серверных баз данных.</span><span class="sxs-lookup"><span data-stu-id="c2261-108">Lync Server 2013 also enhances Back End Server high availability, by supporting synchronous SQL mirroring for your Back End databases.</span></span>
 
-<span data-ttu-id="193e9-109">В этом разделе объясняются основные возможности высокой доступности и аварийного восстановления, а также описаны действия, которые можно выполнить для обеспечения высокой доступности и аварийного восстановления для других ролей сервера.</span><span class="sxs-lookup"><span data-stu-id="193e9-109">This section explains these major high availability and disaster recovery features, and also covers what steps you can take for high availability and disaster recovery for your other server roles as well.</span></span>
+<span data-ttu-id="c2261-109">В этом разделе объясняются основные функции обеспечения высокого уровня доступности и аварийного восстановления, а также описываются действия, которые можно выполнить для обеспечения высокой доступности и аварийного восстановления для других ролей сервера.</span><span class="sxs-lookup"><span data-stu-id="c2261-109">This section explains these major high availability and disaster recovery features, and also covers what steps you can take for high availability and disaster recovery for your other server roles as well.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="193e9-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="193e9-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c2261-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="c2261-110">In This Section</span></span>
 
-  - [<span data-ttu-id="193e9-111">Аварийное восстановление пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-111">Front End pool disaster recovery in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [<span data-ttu-id="c2261-111">Аварийное восстановление пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-111">Front End pool disaster recovery in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-disaster-recovery.md)
 
-  - [<span data-ttu-id="193e9-112">Аварийное восстановление пограничного сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-112">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)
+  - [<span data-ttu-id="c2261-112">Аварийное восстановление пограничного сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-112">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)
 
-  - [<span data-ttu-id="193e9-113">Планирование устойчивости корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-113">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
+  - [<span data-ttu-id="c2261-113">Планирование устойчивости корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-113">Planning for Enterprise Voice resiliency in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
-  - [<span data-ttu-id="193e9-114">Функции управления вызовами для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-114">Call management features for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-call-management-features-for-disaster-recovery.md)
+  - [<span data-ttu-id="c2261-114">Функции управления вызовами для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-114">Call management features for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [<span data-ttu-id="193e9-115">Настройка сервера сохраняемого чата для обеспечения высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="193e9-115">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="c2261-115">Настройка сервера сохраняемого чата для обеспечения высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2261-115">Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="193e9-116">Устойчивость главного сайта Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="193e9-116">Lync Server 2010 metropolitan site resiliency</span></span>](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [<span data-ttu-id="c2261-116">Устойчивость сайта Lync Server 2010 для городового сайта</span><span class="sxs-lookup"><span data-stu-id="c2261-116">Lync Server 2010 metropolitan site resiliency</span></span>](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 

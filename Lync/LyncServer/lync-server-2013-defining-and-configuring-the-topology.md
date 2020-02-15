@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: определение и настройка топологии'
+title: 'Lync Server 2013: определение и Настройка топологии'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8430ec5cc8b362aa78f97afc24ab0e588c7bc650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c4f4f5ef6dfe595c87745571d061d104916067c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-and-configuring-the-topology-in-lync-server-2013"></a><span data-ttu-id="e36c0-102">Определение и настройка топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-102">Defining and configuring the topology in Lync Server 2013</span></span>
+# <a name="defining-and-configuring-the-topology-in-lync-server-2013"></a><span data-ttu-id="99cd6-102">Определение и Настройка топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-102">Defining and configuring the topology in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41728379"
 
 <span> </span>
 
-<span data-ttu-id="e36c0-103">_**Тема последнего изменения:** 2012-09-14_</span><span class="sxs-lookup"><span data-stu-id="e36c0-103">_**Topic Last Modified:** 2012-09-14_</span></span>
+<span data-ttu-id="99cd6-103">_**Последнее изменение темы:** 2012-09-14_</span><span class="sxs-lookup"><span data-stu-id="99cd6-103">_**Topic Last Modified:** 2012-09-14_</span></span>
 
-<span data-ttu-id="e36c0-104">Вы определяете топологию и настраиваете ее с помощью построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="e36c0-104">You define and configure your topology by using Topology Builder.</span></span> <span data-ttu-id="e36c0-105">Для Topology Builder не требуется входить в локальную группу администраторов или привилегированную группу домена (например, Администраторы домена).</span><span class="sxs-lookup"><span data-stu-id="e36c0-105">Topology Builder does not require you to be a member of the local Administrators group or a privileged domain group (such as Domain Admins).</span></span> <span data-ttu-id="e36c0-106">Вы можете определить свою топологию как обычный пользователь.</span><span class="sxs-lookup"><span data-stu-id="e36c0-106">You can define your topology as a standard user.</span></span> <span data-ttu-id="e36c0-107">Когда вы запускаете построитель топологии при первом использовании и последующих сеансах редактирования, вам будет предложено указать расположение, в которое построитель топологии должен загрузить текущий документ конфигурации.</span><span class="sxs-lookup"><span data-stu-id="e36c0-107">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="e36c0-108">Доступны следующие варианты:</span><span class="sxs-lookup"><span data-stu-id="e36c0-108">The choices are the following:</span></span>
+<span data-ttu-id="99cd6-104">Вы определяете и настраиваете топологию с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="99cd6-104">You define and configure your topology by using Topology Builder.</span></span> <span data-ttu-id="99cd6-105">В построителе топологий не требуется входить в группу "Локальные администраторы" или "Привилегированный домен" (например, "Администраторы домена").</span><span class="sxs-lookup"><span data-stu-id="99cd6-105">Topology Builder does not require you to be a member of the local Administrators group or a privileged domain group (such as Domain Admins).</span></span> <span data-ttu-id="99cd6-106">Топологию может задавать стандартный пользователь.</span><span class="sxs-lookup"><span data-stu-id="99cd6-106">You can define your topology as a standard user.</span></span> <span data-ttu-id="99cd6-107">При запуске построителя топологий при первом использовании и в последующих сеансах редактирования, отображается запрос на ввод расположения, из которого построитель топологий должен загрузить текущий документ конфигурации.</span><span class="sxs-lookup"><span data-stu-id="99cd6-107">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="99cd6-108">Могут быть следующие варианты:</span><span class="sxs-lookup"><span data-stu-id="99cd6-108">The choices are the following:</span></span>
 
-  - <span data-ttu-id="e36c0-109">загрузка топологии из существующего развертывания;</span><span class="sxs-lookup"><span data-stu-id="e36c0-109">Download topology from existing deployment</span></span>
+  - <span data-ttu-id="99cd6-109">загрузка топологии из существующего развертывания;</span><span class="sxs-lookup"><span data-stu-id="99cd6-109">Download topology from existing deployment</span></span>
 
-  - <span data-ttu-id="e36c0-110">Открытие топологии из локального файла</span><span class="sxs-lookup"><span data-stu-id="e36c0-110">Open topology from a local file</span></span>
+  - <span data-ttu-id="99cd6-110">открытие топологии из локального файла;</span><span class="sxs-lookup"><span data-stu-id="99cd6-110">Open topology from a local file</span></span>
 
-  - <span data-ttu-id="e36c0-111">Новая топология</span><span class="sxs-lookup"><span data-stu-id="e36c0-111">New topology</span></span>
+  - <span data-ttu-id="99cd6-111">новая топология.</span><span class="sxs-lookup"><span data-stu-id="99cd6-111">New topology</span></span>
 
-<span data-ttu-id="e36c0-112">Если вы уже определили топологию и установили хранилище Центрального управления, необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="e36c0-112">If you have already defined a topology and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="e36c0-113">Построитель топологии будет считывать базу данных и получать текущее определение.</span><span class="sxs-lookup"><span data-stu-id="e36c0-113">Topology Builder will read the database and retrieve the current definition.</span></span> <span data-ttu-id="e36c0-114">Если у вас есть хранилище Центрального управления, всегда выбирайте этот параметр.</span><span class="sxs-lookup"><span data-stu-id="e36c0-114">If you have an existing Central Management store, you should always choose this option.</span></span>
+<span data-ttu-id="99cd6-112">Если вы уже определили топологию и установили центральное хранилище управления, необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="99cd6-112">If you have already defined a topology and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="99cd6-113">Построитель топологии прочитает базу данных и извлечет текущее определение.</span><span class="sxs-lookup"><span data-stu-id="99cd6-113">Topology Builder will read the database and retrieve the current definition.</span></span> <span data-ttu-id="99cd6-114">При наличии существующего центрального хранилища управления всегда следует выбирать этот параметр.</span><span class="sxs-lookup"><span data-stu-id="99cd6-114">If you have an existing Central Management store, you should always choose this option.</span></span>
 
-<span data-ttu-id="e36c0-115">Если вы не установили центральное хранилище для управления и хотите изменить ранее сохраненную конфигурацию, необходимо открыть топологию из локального файла.</span><span class="sxs-lookup"><span data-stu-id="e36c0-115">If you have not established a Central Management store and want to edit a previously saved configuration, you should choose to open the topology from a local file.</span></span> <span data-ttu-id="e36c0-116">Откроется файл конфигурации, сохраненный в предыдущем сеансе.</span><span class="sxs-lookup"><span data-stu-id="e36c0-116">The file that you will open would be the configuration file that was saved in a previous session.</span></span> <span data-ttu-id="e36c0-117">Вы можете использовать этот параметр, чтобы изменить ранее сохраненную топологию.</span><span class="sxs-lookup"><span data-stu-id="e36c0-117">You can use this option to edit the previously saved topology.</span></span>
+<span data-ttu-id="99cd6-115">Если вы не настроили центральное хранилище управления и хотите изменить ранее сохраненную конфигурацию, необходимо выбрать вариант Открыть топологию из локального файла.</span><span class="sxs-lookup"><span data-stu-id="99cd6-115">If you have not established a Central Management store and want to edit a previously saved configuration, you should choose to open the topology from a local file.</span></span> <span data-ttu-id="99cd6-116">Открываться будет файл конфигурации, сохраненный в предыдущем сеансе.</span><span class="sxs-lookup"><span data-stu-id="99cd6-116">The file that you will open would be the configuration file that was saved in a previous session.</span></span> <span data-ttu-id="99cd6-117">Этот вариант можно использовать для изменения ранее сохраненной топологии.</span><span class="sxs-lookup"><span data-stu-id="99cd6-117">You can use this option to edit the previously saved topology.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="e36c0-118">Если у вас уже есть опубликованная топология, не загружайте локальный файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="e36c0-118">If you already have a published topology, you should not load a local configuration file.</span></span> <span data-ttu-id="e36c0-119">Необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="e36c0-119">You should choose to download the topology from an existing deployment.</span></span>
+> <span data-ttu-id="99cd6-p104">Если имеется уже опубликованная топология, то не следует загружать локальный файл конфигурации. Необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="99cd6-p104">If you already have a published topology, you should not load a local configuration file. You should choose to download the topology from an existing deployment.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="e36c0-120">Выберите, чтобы создать новую топологию, если вы хотите создать новую конфигурацию построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="e36c0-120">Choose to create a new topology, if you want to create a new Topology Builder configuration.</span></span> <span data-ttu-id="e36c0-121">Ранее сохраненный макет не перезаписывается, пока вы не решите сохранить его в том же файле, который вы создали в более раннем сеансе конструирования.</span><span class="sxs-lookup"><span data-stu-id="e36c0-121">A previously saved design is not overwritten unless you choose to save it as the same file that you created in an earlier design session.</span></span>
+<span data-ttu-id="99cd6-120">Выберите, чтобы создать новую топологию, если вы хотите создать новую конфигурацию построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="99cd6-120">Choose to create a new topology, if you want to create a new Topology Builder configuration.</span></span> <span data-ttu-id="99cd6-121">Ранее сохраненная конструкция не переопределяется, пока не будет указано сохранить новую топологию в файл, созданный в предыдущем сеансе разработки.</span><span class="sxs-lookup"><span data-stu-id="99cd6-121">A previously saved design is not overwritten unless you choose to save it as the same file that you created in an earlier design session.</span></span>
 
-<span data-ttu-id="e36c0-122">В каждом из этих параметров вам будет предложено указать расположение для хранения файла конфигурации построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="e36c0-122">In each of these options, you will be prompted for a location to store the Topology Builder configuration file.</span></span> <span data-ttu-id="e36c0-123">Для файла может быть задано локальное расположение, общее расположение в установленном файловом ресурсе или съемном носителе.</span><span class="sxs-lookup"><span data-stu-id="e36c0-123">The location for the file could be a local location, a shared location on an established file share, or removable media.</span></span>
+<span data-ttu-id="99cd6-122">В каждом из этих параметров будет предложено указать расположение для хранения файла конфигурации построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="99cd6-122">In each of these options, you will be prompted for a location to store the Topology Builder configuration file.</span></span> <span data-ttu-id="99cd6-123">Это может быть локальное расположение, общедоступное расположение в установленной общей папке или съемный носитель.</span><span class="sxs-lookup"><span data-stu-id="99cd6-123">The location for the file could be a local location, a shared location on an established file share, or removable media.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e36c0-124">Содержание</span><span class="sxs-lookup"><span data-stu-id="e36c0-124">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="99cd6-124">Содержание</span><span class="sxs-lookup"><span data-stu-id="99cd6-124">In This Section</span></span>
 
-  - [<span data-ttu-id="e36c0-125">Определение и настройка топологии в средстве построения топологии для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-125">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
+  - [<span data-ttu-id="99cd6-125">Определение и Настройка топологии в построителе топологий для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-125">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
 
-  - [<span data-ttu-id="e36c0-126">Определение и настройка пула переднего плана или сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-126">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)
+  - [<span data-ttu-id="99cd6-126">Определение и Настройка пула переднего плана или сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-126">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)
 
-  - [<span data-ttu-id="e36c0-127">Развертывание сопоставленных пулов переднего плана для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-127">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-deploying-paired-front-end-pools-for-disaster-recovery.md)
+  - [<span data-ttu-id="99cd6-127">Развертывание подключенных пулов переднего плана для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-127">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>](lync-server-2013-deploying-paired-front-end-pools-for-disaster-recovery.md)
 
-  - [<span data-ttu-id="e36c0-128">Развертывание зеркального отображения SQL Server для обеспечения высокой доступности внутреннего сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-128">Deploying SQL mirroring for Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)
+  - [<span data-ttu-id="99cd6-128">Развертывание зеркального отображения SQL для обеспечения высокой доступности внутреннего сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-128">Deploying SQL mirroring for Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)
 
-  - [<span data-ttu-id="e36c0-129">Изменить или настроить простые URL-адреса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-129">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [<span data-ttu-id="99cd6-129">Изменение или Настройка простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-129">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
 
-  - [<span data-ttu-id="e36c0-130">Выбор центрального сервера управления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e36c0-130">Select the Central Management Server in Lync Server 2013</span></span>](lync-server-2013-select-the-central-management-server.md)
+  - [<span data-ttu-id="99cd6-130">Выбор центрального сервера управления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99cd6-130">Select the Central Management Server in Lync Server 2013</span></span>](lync-server-2013-select-the-central-management-server.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Этап 1: планирование перехода с Office Communications Server 2007 R2'
+title: 'Этап 1: Планирование миграции с Office Communications Server 2007 R2'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 593dfc97f73398dee5f627da1f534d324242845b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58853e62b7958d564f01b4616d5439d18217b07f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757723"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="20700-102">Этап 1: планирование перехода с Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="20700-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
+# <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a><span data-ttu-id="e8d42-102">Этап 1: Планирование миграции с Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e8d42-102">Phase 1: Plan your migration from Office Communications Server 2007 R2</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757723"
 
 <span> </span>
 
-<span data-ttu-id="20700-103">_**Тема последнего изменения:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="20700-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="e8d42-103">_**Последнее изменение темы:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="e8d42-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="20700-104">В этом разделе описаны вопросы, связанные с планированием перехода с Office Communications Server 2007 R2 на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="20700-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
+<span data-ttu-id="e8d42-104">В этом разделе рассматриваются вопросы планирования перехода с Office Communications Server 2007 R2 на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e8d42-104">This section covers planning topics for migrating from Office Communications Server 2007 R2 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="20700-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="20700-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e8d42-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="e8d42-105">In This Section</span></span>
 
-  - [<span data-ttu-id="20700-106">Перенос пользователей</span><span class="sxs-lookup"><span data-stu-id="20700-106">User migration</span></span>](user-migration_1.md)
+  - [<span data-ttu-id="e8d42-106">Миграция пользователей</span><span class="sxs-lookup"><span data-stu-id="e8d42-106">User migration</span></span>](user-migration_1.md)
 
-  - [<span data-ttu-id="20700-107">Перенос серверов архивирования и мониторинга</span><span class="sxs-lookup"><span data-stu-id="20700-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
+  - [<span data-ttu-id="e8d42-107">Перенос серверов архивации и мониторинга</span><span class="sxs-lookup"><span data-stu-id="e8d42-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [<span data-ttu-id="20700-108">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="20700-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
+  - [<span data-ttu-id="e8d42-108">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="e8d42-108">Administering servers after migration</span></span>](administering-servers-after-migration_1.md)
 
-  - [<span data-ttu-id="20700-109">Перенос нескольких сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="20700-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
+  - [<span data-ttu-id="e8d42-109">Перенос нескольких сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="e8d42-109">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools_1.md)
 
-  - [<span data-ttu-id="20700-110">Перенос федерации XMPP</span><span class="sxs-lookup"><span data-stu-id="20700-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
+  - [<span data-ttu-id="e8d42-110">Миграция Федерации XMPP</span><span class="sxs-lookup"><span data-stu-id="e8d42-110">Migrating XMPP federation</span></span>](migrating-xmpp-federation_1.md)
 
 </div>
 

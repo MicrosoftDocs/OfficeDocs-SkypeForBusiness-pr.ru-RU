@@ -1,5 +1,5 @@
 ---
-title: Проверка того, что все объекты контактов Exchange UM удалены из устаревшего пула
+title: Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="7ab78-102">Проверка того, что все объекты контактов Exchange UM удалены из устаревшего пула</span><span class="sxs-lookup"><span data-stu-id="7ab78-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="3b163-102">Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула</span><span class="sxs-lookup"><span data-stu-id="3b163-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730849"
 
 <span> </span>
 
-<span data-ttu-id="7ab78-103">_**Тема последнего изменения:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="7ab78-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="3b163-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="3b163-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="7ab78-104">С помощью средства **оксумутил** или командлета **Get-ксексумконтакт** убедитесь в том, что объекты контактов Exchange UM были удалены из устаревшего пула Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="7ab78-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="7ab78-105">**Оксумутил** находится в следующей папке:</span><span class="sxs-lookup"><span data-stu-id="7ab78-105">**OCSUmUtil** is located in the following folder:</span></span>
+<span data-ttu-id="3b163-104">С помощью средства **OCSUmUtil** или командлета **Get – CsExumContact** убедитесь, что объекты контакта единой системы обмена сообщениями Exchange удалены из пула Office Communications Server 2007 R2 прежних версий.</span><span class="sxs-lookup"><span data-stu-id="3b163-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="3b163-105">Средство **OCSUmUtil** содержится в следующей папке:</span><span class="sxs-lookup"><span data-stu-id="3b163-105">**OCSUmUtil** is located in the following folder:</span></span>
 
-<span data-ttu-id="7ab78-106">% Программных файлов\\% распространенных\\файлов Lync Server\\2013\\support оксумутил. exe</span><span class="sxs-lookup"><span data-stu-id="7ab78-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
+<span data-ttu-id="3b163-106">% Program Files\\% Common\\files Lync\\Server\\2013 support OcsUMUtil. exe</span><span class="sxs-lookup"><span data-stu-id="3b163-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
 
-<span data-ttu-id="7ab78-107">**Оксумутил** необходимо запускать из учетной записи пользователя:</span><span class="sxs-lookup"><span data-stu-id="7ab78-107">**OCSUmUtil** must be run from a user account that has:</span></span>
+<span data-ttu-id="3b163-107">Средство **OCSUmUtil** должно быть запущено от имени учетной записи, которая характеризуется следующим:</span><span class="sxs-lookup"><span data-stu-id="3b163-107">**OCSUmUtil** must be run from a user account that has:</span></span>
 
-  - <span data-ttu-id="7ab78-108">Членство в группе Рткуниверсалсерверадминс и Рткуниверсалусерадминс (которая включает права на чтение параметров единой системы обмена сообщениями Exchange Server)</span><span class="sxs-lookup"><span data-stu-id="7ab78-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
+  - <span data-ttu-id="3b163-108">наличие членства в группах RTCUniversalServerAdmins и RTCUniversalUserAdmins group (что подразумевает права на чтение параметров единой системы обмена сообщениями Exchange);</span><span class="sxs-lookup"><span data-stu-id="3b163-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
 
-  - <span data-ttu-id="7ab78-109">Права домена на создание объектов контакта в указанном контейнере подразделения</span><span class="sxs-lookup"><span data-stu-id="7ab78-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
+  - <span data-ttu-id="3b163-109">доменные права на создание контактных объектов в указанном контейнере подразделения (OU).</span><span class="sxs-lookup"><span data-stu-id="3b163-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
 
-<span data-ttu-id="7ab78-110">Дополнительные сведения об использовании командлета **Get-ксексумконтакт** можно найти в документации [Get-Ксексумконтакт](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) в командной консоли Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="7ab78-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="3b163-110">Дополнительные сведения об использовании командлета **Get – CsExumContact** можно найти в статье [Get – CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) в документации по консоли управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3b163-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

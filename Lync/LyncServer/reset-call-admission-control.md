@@ -12,20 +12,20 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6956b1a871a4a0a5c7e758d2890a58989f5ac8a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c51eed6e5164316c2785ff5d560291afe58015c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a><span data-ttu-id="4e9f9-102">Сброс контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="4e9f9-102">Reset call admission control</span></span>
+# <a name="reset-call-admission-control"></a><span data-ttu-id="fbedf-102">Сброс контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="fbedf-102">Reset call admission control</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41726999"
 
 <span> </span>
 
-<span data-ttu-id="4e9f9-103">_**Тема последнего изменения:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="4e9f9-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="fbedf-103">_**Последнее изменение темы:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="fbedf-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="4e9f9-104">Если в пуле внешних интерфейсов Lync Server 2010 (CAC) размещен элемент управления допускной передачей, необходимо переместить сервер CAC на пул Lync Server 2013, прежде чем можно будет удалить пул внешних интерфейсов Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="4e9f9-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
+<span data-ttu-id="fbedf-104">Если в пуле переднего плана Lync Server 2010 размещается контроль допуска звонков (CAC), необходимо переместить размещение CAC в пул Lync Server 2013, прежде чем можно будет удалить интерфейсный пул Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="fbedf-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
 
 <div>
 
-## <a name="to-reset-cac"></a><span data-ttu-id="4e9f9-105">Чтобы сбросить параметры CAC</span><span class="sxs-lookup"><span data-stu-id="4e9f9-105">To reset CAC</span></span>
+## <a name="to-reset-cac"></a><span data-ttu-id="fbedf-105">Чтобы сбросить контроль допуска звонков</span><span class="sxs-lookup"><span data-stu-id="fbedf-105">To reset CAC</span></span>
 
-1.  <span data-ttu-id="4e9f9-106">Открытие построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="4e9f9-106">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="fbedf-106">Откройте построитель топологий.</span><span class="sxs-lookup"><span data-stu-id="fbedf-106">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="4e9f9-107">Щелкните правой кнопкой мыши узел сайта и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="4e9f9-107">Right-click the site node, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="fbedf-107">Щелкните правой кнопкой мыши узел сайта, затем выберите **Изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="fbedf-107">Right-click the site node, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="4e9f9-108">Убедитесь, что в разделе **параметр управления**допуском звонков установлен флажок **включить управление допуском звонков** .</span><span class="sxs-lookup"><span data-stu-id="4e9f9-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
+3.  <span data-ttu-id="fbedf-108">Убедитесь, что в разделе **Параметры контроля допуска звонков** выбран параметр **Включить контроль допуска звонков**.</span><span class="sxs-lookup"><span data-stu-id="fbedf-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
 
-4.  <span data-ttu-id="4e9f9-109">В разделе **пул переднего плана, чтобы запустить управление допуском звонков (CAC)**, выберите пул Lync Server 2013, который будет размещаться в CAC, и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="4e9f9-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
+4.  <span data-ttu-id="fbedf-109">В разделе **пул переднего плана для запуска контроля допуска звонков (CAC)** выберите пул Lync Server 2013, который будет обслуживать CAC, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="fbedf-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="4e9f9-110">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="4e9f9-110">Publish the topology.</span></span>
+5.  <span data-ttu-id="fbedf-110">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="fbedf-110">Publish the topology.</span></span>
 
 </div>
 
