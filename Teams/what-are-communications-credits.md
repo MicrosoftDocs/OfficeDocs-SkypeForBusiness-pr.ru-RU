@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852126"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051573"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
@@ -52,7 +52,7 @@ ms.locfileid: "41852126"
   
 ## <a name="what-are-the-communications-credits-rates"></a>Тарифы по кредитам на связь
 
-Если вы не знаете, каковы затраты на звонки на планы звонков, ознакомьтесь с [тарифами на тарифы](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) в планах (прокрутите страницу вниз до раздела "тарифы для тех, кому вы хотите позвонить").
+Если вы не знаете, каковы затраты на звонки на планы звонков, ознакомьтесь с [тарифами на тарифы](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) в планах (прокрутите страницу вниз до раздела "тарифы для тех, кому вы хотите позвонить").
   
 ## <a name="what-is-it"></a>Что это?
 

@@ -1,5 +1,5 @@
 ---
-title: Разрешение пользователям связываться с внешними пользователями Skype для бизнеса
+title: Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -28,14 +28,14 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Узнайте, как настроить Skype для бизнеса, чтобы пользователи могли общаться с пользователями в другой организации, или разрешать им доступ к внешним контактам. '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010942"
 ---
-# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешение пользователям связываться с внешними пользователями Skype для бизнеса
+# <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
 
 > [!NOTE]
 > Федерация Skype для бизнеса недоступна для Office 365, предоставляемых 21Vianet и организациями Office 365 для Германии. 
@@ -51,7 +51,7 @@ ms.locfileid: "41692944"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Включение деловых связей между пользователями
 <a name="bk_preview"> </a>
 
-Для этого вы должны иметь [разрешения администратора](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в Office 365 в обеих организациях.
+Для этого вы должны иметь [разрешения администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в Office 365 в обеих организациях.
 
 ![Значок с логотипом](../images/teams-logo-30x30.png) Microsoft Teams **, в котором используется центр администрирования Teams**
   
@@ -112,9 +112,9 @@ ms.locfileid: "41692944"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Советы по настройке связи с федеративными организациями
 <a name="bk_preview"> </a>
 
-- Чтобы настроить федерацию между Skype для бизнеса 2015 и Skype для бизнеса Online, ознакомьтесь с этой статьей: [Настройка Федерации в Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Чтобы настроить федерацию между Skype для бизнеса 2015 и Skype для бизнеса Online, ознакомьтесь с этой статьей: [Настройка Федерации в Skype для бизнеса Online](https://technet.microsoft.com/library/jj205126.aspx).
     
-- Чтобы настроить федерацию между Lync и Skype для бизнеса Online, ознакомьтесь с этой статьей: [Настройка поддержки федерации для клиента Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Чтобы настроить федерацию между Lync и Skype для бизнеса Online, ознакомьтесь с этой статьей: [Настройка поддержки федерации для клиента Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
     
 - Если два пользователя Skype для бизнеса в Office 365 взаимодействуют друг с другом в разных доменах, они могут использовать только функции Skype для бизнеса (например, видеобеседы или совместный доступ к рабочему столу), которые включены в обеих организациях.
     

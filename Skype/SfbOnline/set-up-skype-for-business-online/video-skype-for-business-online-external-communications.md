@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Сведения о настройке внешней связи в Skype для бизнеса Online для пользователей, которые могут общаться с внешними контактами Skype. '
-ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706284"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010742"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
@@ -38,7 +38,7 @@ ms.locfileid: "41706284"
 ***
   
 ## <a name="related-topics"></a>См. также
-[Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (пошаговое руководство)
+[Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (пошаговое руководство)
 
 [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
 

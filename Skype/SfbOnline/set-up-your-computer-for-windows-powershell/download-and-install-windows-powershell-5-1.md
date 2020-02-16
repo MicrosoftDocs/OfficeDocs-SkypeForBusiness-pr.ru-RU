@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачайте, установите и используйте Windows PowerShell 5.1, чтобы создать удаленный сеанс PowerShell, соединяющийся с приложением Skype для бизнеса Online.
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831159"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029100"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5.1
 
@@ -49,7 +49,7 @@ ms.locfileid: "41831159"
     4.0
     </pre>
 
-    Если возвращается номер версии 5.1, значит вы используете Windows PowerShell 5.1. В противном случае вам необходимо установить Windows PowerShell 5.1. Для этого можно скачать платформу Windows Management Framework 5.1, в состав которой входит среда Windows PowerShell 5.1, из [Центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+    Если возвращается номер версии 5.1, значит вы используете Windows PowerShell 5.1. В противном случае вам необходимо установить Windows PowerShell 5.1. Для этого можно скачать платформу Windows Management Framework 5.1, в состав которой входит среда Windows PowerShell 5.1, из [Центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=54616).
   
 Если вы убедились, что у вас установлена версия Windows PowerShell 5.1, необходимо проверить, настроена ли версия PowerShell для работы с удаленно исполняемыми сценариями. Для этого запустите приложение PowerShell от имени администратора. В ОС Windows 7, Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 выполните следующие действия:
   

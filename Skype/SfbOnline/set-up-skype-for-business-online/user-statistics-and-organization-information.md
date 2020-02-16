@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 'Узнайте, какая статистика предлагается по пользователям Skype для бизнеса: например, вы можете выяснить число пользователей, которым доступны конференции, Skype для бизнеса или Office 365.'
-ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f4d98b8c8a57551dc71d1b38436c204aff67ec27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010752"
 ---
 # <a name="user-statistics-and-organization-information"></a>Статистика пользователей и сведения об организации
 
@@ -41,7 +41,7 @@ ms.locfileid: "41769532"
 |Пользователи Skype для бизнеса Online  <br/> |Как открыть или заблокировать пользователям приложение Skype для бизнеса: [Назначение лицензий пользователям в Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Удаление лицензий пользователей в Office 365 для бизнеса](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Полный список указаний на случай, когда пользователь покидает вашу организацию, см. в разделе [Удаление бывшего сотрудника из среды Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
 |Пользователи, которым доступны аудиоконференции  <br/> |Чтобы включить пользователей для голосовой конференции, ознакомьтесь с [разрешениями в Office 365 с помощью видеоконференции "попробовать или приобрести](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)".  <br/> |
 |Пользователи в облаке  <br/> |Число пользователей Skype для бизнеса Online с учетными записями Office 365.  <br/> Добавление пользователей в подписку Office 365 (то есть, создание для них учетных записей Office 365): [Добавление пользователей в Office 365 по одному или массово — справка для администраторов](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Пользователи с синхронизацией и размещением в сети  <br/> |Число "гибридных" пользователей, которые созданы в локальном развертывании Skype для бизнеса Server, но синхронизированы с Office 365.  <br/> Для настройки гибридного подключения Skype для бизнеса см. статью [Развертывание гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
+|Пользователи с синхронизацией и размещением в сети  <br/> |Число "гибридных" пользователей, которые созданы в локальном развертывании Skype для бизнеса Server, но синхронизированы с Office 365.  <br/> Для настройки гибридного подключения Skype для бизнеса см. статью [Развертывание гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > Если в списке отображаются недоступные элементы, значит, нет сведений для отображения или возникли ошибки. 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: В этой статье объясняется, как настроить и устранить неполадки, связанные с делегированием Skype для бизнеса Online. В этой статье приводятся инструкции по настройке, рекомендации и инструкции по устранению неполадок.
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706484"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010802"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Настройка делегирования в Skype для бизнеса Online и устранение неполадок
 
@@ -140,7 +140,7 @@ ms.locfileid: "41706484"
   
 - Создание группы безопасности и Добавление разрешений на делегирование для этой группы безопасности не поддерживается.
     
-- MAPI недоступен. [В клиенте Skype для бизнеса 2016 появляется сообщение об ошибке "MAPI недоступен"](https://support.microsoft.com/en-us/help/3147130).
+- MAPI недоступен. [В клиенте Skype для бизнеса 2016 появляется сообщение об ошибке "MAPI недоступен"](https://support.microsoft.com/help/3147130).
     
 - Почтовый ящик Exchange Online недоступен в клиенте Skype для бизнеса. В этом случае выполните [проверку подключения Outlook](https://testconnectivity.microsoft.com/) , чтобы убедиться, что она пройдет.
     

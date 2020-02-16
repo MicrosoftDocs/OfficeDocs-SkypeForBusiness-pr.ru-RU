@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. в локальном развертывании Skype для бизнеса Server, для которого включена гибридная среда, можно перемещать пользователей между локальной средой и облаком (в Microsoft Teams или Skype для бизнеса Online)..
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726769"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008611"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Перемещение пользователей между локальной и облачной средами
 
@@ -34,7 +34,7 @@ ms.locfileid: "41726769"
 
 *Пользователи Teams имеют домашнюю страницу Skype для бизнеса, независимо от того, используют ли они Skype для бизнеса или нет.* Если у вас есть локальные пользователи Skype для бизнеса, которые также используют Teams (параллельно), эти пользователи размещены локально. Пользователи Teams, работающие в локальной среде Skype для бизнеса, не могут взаимодействовать с пользователями Skype для бизнеса из своих клиентов Teams и не могут взаимодействовать от Teams с пользователями в федеративной организации. Такие функции доступны только после того, как пользователь перемещается из Skype для бизнеса локально в Интернет. При перемещении пользователя в сетевой режим вы можете разрешить использовать Skype для бизнеса Online (и, при необходимости, Teams) или перевести их в режим Teams Only. Если в вашей организации уже используется Teams, настоятельно рекомендуем перевести пользователей в режим "Только Teams", который обеспечит маршрутизацию всех входящих чатов и звонков в клиент Teams. Более подробную информацию можно узнать в статье поддержка совместной работы [в Microsoft Teams со Skype для бизнеса](/microsoftteams/coexistence-chat-calls-presence) и [миграцией и совместимостью для организаций, использующих Teams вместе со Skype для бизнеса](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Необходимые условия для перемещения пользователя в облако (только в режиме Skype для бизнеса или только в Teams):
 
@@ -100,4 +100,4 @@ ms.locfileid: "41726769"
 
 [Планирование прямой маршрутизации](/microsoftteams/direct-routing-plan)
 
-[Move — CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move — CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

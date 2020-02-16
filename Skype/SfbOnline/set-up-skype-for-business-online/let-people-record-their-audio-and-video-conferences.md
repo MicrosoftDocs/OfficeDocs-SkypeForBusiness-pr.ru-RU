@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'Включение и отключение записи звука и видео, а также сведения о том, что не включено в записную видеоконференции. '
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010822"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
@@ -45,7 +45,7 @@ ms.locfileid: "41769612"
 |:-----|:-----|
 |Аудио и видео в формате HD  <br/> Презентации PowerPoint и доски  <br/> Рабочие столы и сеансы программы  <br/> |Общие страницы OneNote  <br/> Примечания PowerPoint  <br/> Общие файлы (вложения)  <br/> |
    
-Дополнительные сведения можно найти в разделе [Сохранение и публикация](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) в [диспетчере записи](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)Lync. 
+Дополнительные сведения можно найти в разделе [Сохранение и публикация](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) в [диспетчере записи](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)Lync. 
   
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

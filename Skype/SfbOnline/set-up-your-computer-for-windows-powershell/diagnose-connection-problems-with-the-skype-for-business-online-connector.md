@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 873139f279114910bb802bc023ade35c0f84f7d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706274"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010692"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -69,7 +69,7 @@ ms.locfileid: "41706274"
   
   - **Ошибка**: *Import-Module: версия загруженной оболочки PowerShell — "2,0". Модуль\\a: файлы\\программы общие файлы\\для Microsoft Lync Server 2013\\modules\\\\линконлинеконнектор линконлинеконнектор. PSD1 "требуется минимальная версия PowerShell" 3,0 "для выполнения. Убедитесь в том, что у вас установлена оболочка PowerShell, и повторите попытку.*
 
-- **Разрешение**: единственный способ устранить эту проблему — установить Windows PowerShell 3,0, которая доступна в центре загрузки Майкрософт по адресу [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+- **Разрешение**: единственный способ устранить эту проблему — установить Windows PowerShell 3,0, которая доступна в центре загрузки Майкрософт по адресу [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595).
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Не удалось подключиться к серверу Live ID
 <a name="BKMKFailedConnect"> </a>
@@ -98,7 +98,7 @@ ms.locfileid: "41706274"
 
 - **Ошибка**: *Get-Ксвебтиккет: не удается загрузить модуль Live ID. Убедитесь, что у вас установлена правильная версия помощника по входу Live ID.*
 
-- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>

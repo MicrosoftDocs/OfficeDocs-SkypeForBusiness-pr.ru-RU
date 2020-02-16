@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 5e35925b77ebc4d68f293568fe758b934c4a33e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e86ec24e47bf6e8ea8d3e6b4ea66ab9da89457fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692694"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010632"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -77,7 +77,7 @@ ms.locfileid: "41692694"
   
   - **Ошибка**: *Import-Module: версия загруженной оболочки PowerShell — "2,0". Модуль\\a: файлы\\программы общие файлы\\для Microsoft Lync Server 2013\\modules\\\\линконлинеконнектор линконлинеконнектор. PSD1 "требуется минимальная версия PowerShell" 3,0 "для выполнения. Убедитесь в том, что у вас установлена оболочка PowerShell, и повторите попытку.*
 
-- **Разрешение**: единственный способ устранить эту проблему — установить Windows PowerShell 3,0, которая доступна в центре загрузки Майкрософт по адресу [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+- **Разрешение**: единственный способ устранить эту проблему — установить Windows PowerShell 3,0, которая доступна в центре загрузки Майкрософт по адресу [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595).
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Сбой современной проверки подлинности при отключенной базовой проверке подлинности WinRM
 <a name="BKMKWinRMBasicAuth"> </a>
@@ -113,7 +113,7 @@ ms.locfileid: "41692694"
 
 - **Ошибка**: *Get-Ксвебтиккет: не удается загрузить модуль Live ID. Убедитесь, что у вас установлена правильная версия помощника по входу Live ID.*
 
-- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>

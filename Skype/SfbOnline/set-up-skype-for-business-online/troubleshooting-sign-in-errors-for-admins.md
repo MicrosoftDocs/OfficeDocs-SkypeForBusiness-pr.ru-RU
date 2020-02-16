@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692774"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010762"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -195,7 +195,7 @@ ms.locfileid: "41692774"
 
 1. Установите значение **TRUE** для атрибута **msRTCSIP-UserEnabled** на компьютерах всех пользователей, у которых возникла проблема.
 
-2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](https://technet.microsoft.com/ru-RU/library/hh967642.aspx).
+2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
 
 Устранение проблем со входом в Skype для бизнеса Online следует начать с исключения наиболее распространенных причин. Затем при необходимости можно выполнить определенные действия в зависимости от типа ошибки. Если пользователю по-прежнему не удается выполнить вход, соберите дополнительные сведения и обратитесь за помощью.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Использование руководства по устранению неполадок службы технической поддержки корпорации Майкрософт

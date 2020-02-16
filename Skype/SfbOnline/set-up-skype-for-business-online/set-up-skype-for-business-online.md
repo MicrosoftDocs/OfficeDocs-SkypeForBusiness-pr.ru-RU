@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Узнайте, как настроить домен, пользователей, обмен мгновенными сообщениями и сетевой статус вашей организации, чтобы установить Skype для бизнеса. Кроме того, вы можете узнать о настройке аудиоконференций, телефонной системы, планов звонков и трансляции собраний Skype. '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769602"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010792"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "41769602"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. План для Skype для бизнеса
 
-Если у вас есть **[Office 365 бизнес премиум](https://products.office.com/en-us/business/office-365-business-premium)** или **Office 365 бизнес базовый**, вы можете использовать Skype для бизнеса для звонков онлайн другим пользователям в вашей организации, которым предоставлен доступ к вашей подписке. Например, если ваша компания насчитывает 10 человек, вы можете [начать использовать Skype для бизнеса для обмена мгновенными сообщениями и проведения онлайн-собраний](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd), а также [собраний в Skype для бизнеса](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), выполнив действия 2-6, описанные ниже. Кроме того, вы можете [настроить собрание Skype для бизнеса в Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA), чтобы проводить онлайн-собрания.
+Если у вас есть **[Office 365 бизнес премиум](https://products.office.com/business/office-365-business-premium)** или **Office 365 бизнес базовый**, вы можете использовать Skype для бизнеса для звонков онлайн другим пользователям в вашей организации, которым предоставлен доступ к вашей подписке. Например, если ваша компания насчитывает 10 человек, вы можете [начать использовать Skype для бизнеса для обмена мгновенными сообщениями и проведения онлайн-собраний](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd), а также [собраний в Skype для бизнеса](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), выполнив действия 2-6, описанные ниже. Кроме того, вы можете [настроить собрание Skype для бизнеса в Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA), чтобы проводить онлайн-собрания.
 
 Если вы хотите совершать и принимать **звонки** от пользователей, *не являющихся сотрудниками* вашей компании, с помощью Skype для бизнеса:
 

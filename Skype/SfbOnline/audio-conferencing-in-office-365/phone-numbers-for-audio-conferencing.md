@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Узнайте, какие страны и регионы имеют телефонные номера для конференц-связи и как они автоматически назначаются.
-ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986514"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Номера телефонов для аудиоконференций в приложении Skype для бизнеса Online
 
@@ -41,7 +41,7 @@ When you are setting up **Audio Conferencing** for Skype for Business, dial-in p
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Зона покрытия и тарифы аудиоконференций
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Телефонные номера для подключения в приглашении на собрание
 
@@ -89,4 +89,4 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
    
 ## <a name="related-topics"></a>См. также
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

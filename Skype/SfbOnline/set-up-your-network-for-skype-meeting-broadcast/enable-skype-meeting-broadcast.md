@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010612"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -86,7 +86,7 @@ ms.locfileid: "41692634"
     > [!TIP]
     > После внесения изменений может вступить в силу на портале трансляции собраний Skype в течение часа. 
   
-10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями вашего бизнеса. Чтобы начать работу, наведите их на то, [что такое трансляция собрания Skype?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. Теперь ваши пользователи могут проводить широковещательные собрания с другими пользователями вашего бизнеса. Чтобы начать работу, наведите их на то, [что такое трансляция собрания Skype?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>Настройка сети для трансляции собраний с внешними участниками
 

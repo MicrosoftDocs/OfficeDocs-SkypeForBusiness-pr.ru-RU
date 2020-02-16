@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Служба миграции собраний (MMS) — это служба, которая запускается в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS предназначен для предотвращения необходимости запуска средства миграции собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680356"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010982"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Использование службы миграции собраний (MMS)
 
@@ -47,7 +47,7 @@ ms.locfileid: "41680356"
 - Почтовый ящик пользователя размещен в локальной среде Exchange.
 - Пользователь переносится из облака в локальную версию Skype для бизнеса Server.
 
-В этих случаях конечные пользователи могут использовать [средство миграции собраний](https://www.microsoft.com/en-us/download/details.aspx?id=51659) для миграции собственных собраний.
+В этих случаях конечные пользователи могут использовать [средство миграции собраний](https://www.microsoft.com/download/details.aspx?id=51659) для миграции собственных собраний.
 
 ## <a name="how-mms-works"></a>Как работает MMS
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>См. также
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Перемещение пользователей между локальной средой и облаком](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

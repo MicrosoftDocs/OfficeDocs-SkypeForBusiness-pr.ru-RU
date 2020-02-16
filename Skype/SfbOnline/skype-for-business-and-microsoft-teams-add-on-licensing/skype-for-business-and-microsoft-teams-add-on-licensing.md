@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706084"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010572"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Лицензирование надстройки Skype для бизнеса
 
@@ -44,11 +44,11 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 Для более подробной информации о стоимости, перейдите в раздел [Просмотр цен и приобретение лицензий на надстройки](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) или выберите одно из следующих:
 
-- [Тарифы на аудиоконференции](https://products.office.com/en-us/skype-for-business/audio-conferencing)
+- [Тарифы на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing)
 
-- [Тарифы для телефонной системы](https://products.office.com/en-us/skype-for-business/phone-system)
+- [Тарифы для телефонной системы](https://products.office.com/skype-for-business/phone-system)
 
-- [Цены на Тарифные планы](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [Цены на Тарифные планы](https://products.office.com/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Какие функции можно приобрести в рамках лицензий на надстройки?
 
@@ -57,10 +57,10 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 |||
 |:-----|:-----|
 |**Функция** <br/> |**Описание** <br/> |
-|**Аудиоконференция** <br/> |Иногда пользователи в вашей организации должны использовать телефон для звонка на собрание Skype для бизнеса, а не с компьютера. Воспользуйтесь функцией голосовой конференции в этой ситуации.<br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Аудиоконференций](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Аудиоконференция** <br/> |Иногда пользователи в вашей организации должны использовать телефон для звонка на собрание Skype для бизнеса, а не с компьютера. Воспользуйтесь функцией голосовой конференции в этой ситуации.<br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
-|**Телефонная система** <br/> |УАТС – это телефонная система в компании. Телефонная система в Office 365 — это размещенная телефонная служба. Она предоставляет традиционные и инновационные возможности УАТС, но без сложного и дорогостоящего оборудования. [Ниже приведены сведения о том, что можно сделать с помощью телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).<br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Планы звонков** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Тарифных планов](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
+|**Телефонная система** <br/> |УАТС – это телефонная система в компании. Телефонная система в Office 365 — это размещенная телефонная служба. Она предоставляет традиционные и инновационные возможности УАТС, но без сложного и дорогостоящего оборудования. [Ниже приведены сведения о том, что можно сделать с помощью телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).<br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Планы звонков** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Тарифных планов](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Комнаты Microsoft Teams** <br/> |Это не надстройка, но функция, с помощью которой можно обмениваться видео, аудио-и видеоматериалами в конференц-залах. Просмотр [комнат Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).<br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -91,11 +91,11 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>Как использовать существующего оператора связи с Skype для бизнеса?
 <a name="bkmk_existing"></a>
 
-Чтобы использовать существующий план звонков, приобретите надстройку **телефонной системы** и используйте ее с бесплатным компонентом **[Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+Чтобы использовать существующий план звонков, приобретите надстройку **телефонной системы** и используйте ее с бесплатным компонентом **[Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 
 Если используются автономные средства связи через ТСОП для гибридных пользователей, необходимо назначить лицензию  *только*  лицензию **телефонной системы**. Назначать план звонков **НЕ НУЖНО**.
 
-Подробную документацию по планированию развертывания, включая телефонную систему с использованием локальной сети PSTN, можно найти [в разделе Планирование телефонной системы в Office 365 (облачная УАТС)](https://technet.microsoft.com/en-us/library/mt612869.aspx).
+Подробную документацию по планированию развертывания, включая телефонную систему с использованием локальной сети PSTN, можно найти [в разделе Планирование телефонной системы в Office 365 (облачная УАТС)](https://technet.microsoft.com/library/mt612869.aspx).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
     
 - [Пополнение средств и управление кредитами на связь](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- [Настройка облачного соединителя](https://technet.microsoft.com/en-us/library/mt605228.aspx) и [скачивание облачного соединителя](https://aka.ms/CloudConnectorInstaller)
+- [Настройка облачного соединителя](https://technet.microsoft.com/library/mt605228.aspx) и [скачивание облачного соединителя](https://aka.ms/CloudConnectorInstaller)
