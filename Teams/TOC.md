@@ -41,6 +41,7 @@
 ## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
+## [Управление тегами в Teams](manage-tags.md)
 ## [Просмотр аналитики командной и межкомандной работы в Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
@@ -95,6 +96,7 @@
 ### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
+### [Назначение политик пользователям](assign-policies.md)
 ### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 ### [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
@@ -636,7 +638,6 @@
 ## [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
 ## Политики хранения в Teams
 ### [Обзор](retention-policies.md)
-### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
 ### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
 ## [Расположение данных в Teams](location-of-data-in-teams.md)
 ## [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
