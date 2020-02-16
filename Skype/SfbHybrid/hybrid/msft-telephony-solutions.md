@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Описание решений Microsoft для телефонии.
-ms.openlocfilehash: 350f7ed0ba2606e34af711bbdd3189c7a0bd1a02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048630"
 ---
 # <a name="microsoft-telephony-solutions"></a>Решения Microsoft для телефонии
 
@@ -46,13 +46,13 @@ ms.locfileid: "41765247"
 
 Телефонная система работает с клиентами Teams или Skype для бизнеса Online и сертифицированными устройствами. Телефонная система позволяет заменить существующую систему УАТС набором функций, напрямую поставляемых из Office 365 и тесно интегрированных в облачную среду работы компании. Чтобы подключить телефонную систему к телефонной сети общего пользования (PSTN), вы можете выбрать план звонков корпорации Майкрософт или собственный оператор телефонной связи.
 
-Для получения дополнительных сведений обратитесь к разделу [Телефонная система в Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365).
+Для получения дополнительных сведений обратитесь к разделу [Телефонная система в Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Корпоративная голосовая связь (Skype для бизнеса Server)
 
 Корпоративная голосовая связь — это технология Майкрософт, обеспечивающая возможность управления звонками и УАТС в локальной среде Skype для бизнеса Server. Этот параметр может быть подключен только к телефонной сети общего пользования с использованием собственной телефонной линии. 
 
-Для получения дополнительных сведений ознакомьтесь со статьей [планирование корпоративной голосовой связи в Skype для бизнеса Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+Для получения дополнительных сведений ознакомьтесь со статьей [планирование корпоративной голосовой связи в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>Подключение к параметрам телефонной сети общего пользования (PSTN)
 
@@ -65,7 +65,7 @@ ms.locfileid: "41765247"
 
 Этот параметр подключает телефонную систему Microsoft Office 365 к телефонной сети общего пользования (PSTN), чтобы обеспечить поддержку вызовов стационарные и мобильных телефонов во всем мире. С планом звонков Корпорация Майкрософт является вашим оператором PSTN.
 
-Дополнительные сведения см. в статье [планы звонков для Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365).
+Дополнительные сведения см. в статье [планы звонков для Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>Подключение собственных телефонных услуг телефонной связи (Office 365 и Skype для бизнеса локально)
 
@@ -126,7 +126,7 @@ ms.locfileid: "41765247"
 | Требуется контракт со сторонним оператором      | Нет   |
 | Требуется развертывание и обслуживание Skype для бизнеса Server или Cloud Connector Edition | Нет |
 
-\*Для получения дополнительных сведений о странах, где доступен план звонков, ознакомьтесь со статьей [доступность страны и региона для аудио-и видеоконференций и планов звонков](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\*Для получения дополнительных сведений о странах, где доступен план звонков, ознакомьтесь со статьей [доступность страны и региона для аудио-и видеоконференций и планов звонков](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Если вы ответите Да на следующие вопросы, то это верное решение:
@@ -137,7 +137,7 @@ ms.locfileid: "41765247"
 - Вы не хотите управлять пограничными контроллерами сеансов самостоятельно.
 - В Teams и/или Skype для бизнеса Online доступны все функции, необходимые для Организации.
 
-Для получения дополнительных сведений посмотрите, [что такое телефонная система в office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) и [планы звонков для Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365).
+Для получения дополнительных сведений посмотрите, [что такое телефонная система в office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) и [планы звонков для Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>Телефонная система с собственным перевозчиком через прямую маршрутизацию
 
@@ -168,7 +168,7 @@ ms.locfileid: "41765247"
 - Вам необходимо взаимодействовать с УАТС и/или оборудованием сторонних компаний, такими как пейджеры, аналоговые устройства
 - Teams обладает всеми функциями, которые необходимы в Организации.
 
-Чтобы получить дополнительные сведения, посмотрите, [что такое телефонная система в Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365) и [Планируйте прямую маршрутизацию](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan).
+Чтобы получить дополнительные сведения, посмотрите, [что такое телефонная система в Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) и [Планируйте прямую маршрутизацию](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Телефонная система с собственным перевозчиком с помощью Skype для бизнеса Server или Cloud Connector Edition
@@ -198,7 +198,7 @@ ms.locfileid: "41765247"
 - План звонков по PSTN недоступен в вашем регионе.
 - Необходимо сохранить текущую несущую держателей.
 
-Для получения дополнительных сведений посмотрите, [что такое телефонная система в Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype для бизнеса Server 2019](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-server-2019)и [планирование Skype для бизнеса Cloud Connector Edition](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+Для получения дополнительных сведений посмотрите, [что такое телефонная система в Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype для бизнеса Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)и [планирование Skype для бизнеса Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Рекомендация: при изменении бизнес-условий, например, больше не нужно сохранять ваш перевозчик для PSTN--рассмотрите возможность перехода в Microsoft Teams с помощью вариантов 1 или 2:
 - Минимизация затрат на обслуживание
@@ -223,7 +223,7 @@ ms.locfileid: "41765247"
 | Требуется контракт со сторонним оператором      | Да   |
 | Требуется развертывание и обслуживание Skype для бизнеса Server | Да |
 
-Для получения дополнительных сведений ознакомьтесь со статьей [планирование корпоративной голосовой связи в Skype для бизнеса Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+Для получения дополнительных сведений ознакомьтесь со статьей [планирование корпоративной голосовой связи в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 
 Рекомендация: при изменении бизнес-условий, например, больше не нужно сохранять ваш перевозчик для PSTN--рассмотрите возможность перехода в Microsoft Teams с помощью вариантов 1 или 2:
 - Минимизация затрат на обслуживание

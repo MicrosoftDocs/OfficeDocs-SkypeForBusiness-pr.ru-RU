@@ -15,12 +15,12 @@ f1.keywords:
 description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035361"
+ms.locfileid: "42052526"
 ---
 # <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
 
@@ -79,7 +79,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 ## <a name="managing-policies-via-powershell"></a>Управление политиками через PowerShell
 
-Командлеты для управления политиками находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366).
+Используйте командлеты из [модуля командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366) , чтобы управлять политиками для отдельных пользователей.
 
 > [!NOTE]
 > После подключения к Skype для бизнеса Online командлеты будут доступны в сеансе PowerShell. Дополнительные сведения можно найти в разделе [Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 

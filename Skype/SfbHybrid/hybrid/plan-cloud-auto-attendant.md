@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037821"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -98,7 +98,7 @@ ms.locfileid: "41724229"
 Если у вас есть сплошная структура, соответствующая вашим потребностям, и сценарий, который эффективно проводит клиентов, перейдите к разделу [Настройка учетных записей ресурсов](configure-onprem-ra.md).
 
 > [!CAUTION]
-> Как упоминалось в [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), не рекомендуются перемещения автосекретарей единой системы обмена сообщениями Exchange, созданных на сервере 2015, на серверы, на которых работает сервер 2019. В течение этого времени необходимо хранить их в пуле Skype для бизнеса Server 2015, работающем в режиме сосуществования.
+> Как упоминалось в [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), не рекомендуются перемещения автосекретарей единой системы обмена сообщениями Exchange, созданных на сервере 2015, на серверы, на которых работает сервер 2019. В течение этого времени необходимо хранить их в пуле Skype для бизнеса Server 2015, работающем в режиме сосуществования.
 
 ## <a name="see-also"></a>См. также
 

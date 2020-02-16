@@ -21,16 +21,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этом приложении содержатся подробные инструкции по обновлению AAD Connect для включения нескольких лесов в состав облачной консолидации для Teams и Skype для бизнеса.
-ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696064"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049101"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Обновление AAD Connect для включения нескольких лесов
 
-Azure AD Connect поддерживает [синхронизацию из нескольких лесов](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies). Однако он поддерживает только один экземпляр Azure AD Connect Sync to AAD. Таким образом, если служба Azure AD уже установлена в одном лесу, существующий экземпляр AAD Connect необходимо обновить для синхронизации с дополнительным лесом.
+Azure AD Connect поддерживает [синхронизацию из нескольких лесов](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies). Однако он поддерживает только один экземпляр Azure AD Connect Sync to AAD. Таким образом, если служба Azure AD уже установлена в одном лесу, существующий экземпляр AAD Connect необходимо обновить для синхронизации с дополнительным лесом.
 
  - Если все удостоверения представлены только один раз в обоих лесах (то есть контакты с включенной поддержкой почты не были настроены), можно просто повторно запустить мастер подключения AAD, выбрать пункт "Настройка параметров синхронизации", а затем на странице **подключить каталоги** введите имя дополнительного леса и учетных записей.<br><br>
  ![Страница подключения каталогов](../media/cloud-consolidation-connect-your-directories.png)
