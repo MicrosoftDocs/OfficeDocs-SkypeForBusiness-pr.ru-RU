@@ -25,7 +25,7 @@ ms.locfileid: "42042106"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="1bc54-102">Таблица ErrorCategory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bc54-102">ErrorCategory table in Lync Server 2013</span></span>
+# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="91028-102">Таблица ErrorCategory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91028-102">ErrorCategory table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42042106"
 
 <span> </span>
 
-<span data-ttu-id="1bc54-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="1bc54-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="91028-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="91028-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="1bc54-104">Таблица ErrorCategory содержит понятное имя каждого диагностической классификации Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1bc54-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="1bc54-105">По умолчанию Lync Server 2013 использует следующие классификации:</span><span class="sxs-lookup"><span data-stu-id="1bc54-105">By default, Lync Server 2013 uses the following classifications:</span></span>
+<span data-ttu-id="91028-104">Таблица ErrorCategory содержит понятное имя каждого диагностической классификации Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91028-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="91028-105">По умолчанию Lync Server 2013 использует следующие классификации:</span><span class="sxs-lookup"><span data-stu-id="91028-105">By default, Lync Server 2013 uses the following classifications:</span></span>
 
-  - <span data-ttu-id="1bc54-106">0 — успешно</span><span class="sxs-lookup"><span data-stu-id="1bc54-106">0 -- Success</span></span>
+  - <span data-ttu-id="91028-106">0 — успешно</span><span class="sxs-lookup"><span data-stu-id="91028-106">0 -- Success</span></span>
 
-  - <span data-ttu-id="1bc54-107">1 — ожидаемый сбой</span><span class="sxs-lookup"><span data-stu-id="1bc54-107">1 -- Expected failure</span></span>
+  - <span data-ttu-id="91028-107">1 — ожидаемый сбой</span><span class="sxs-lookup"><span data-stu-id="91028-107">1 -- Expected failure</span></span>
 
-  - <span data-ttu-id="1bc54-108">2 — неожиданный сбой</span><span class="sxs-lookup"><span data-stu-id="1bc54-108">2 – Unexpected failure</span></span>
+  - <span data-ttu-id="91028-108">2 — неожиданный сбой</span><span class="sxs-lookup"><span data-stu-id="91028-108">2 – Unexpected failure</span></span>
 
-<span data-ttu-id="1bc54-109">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1bc54-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="91028-109">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="91028-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -57,28 +57,28 @@ ms.locfileid: "42042106"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1bc54-110">Столбец</span><span class="sxs-lookup"><span data-stu-id="1bc54-110">Column</span></span></th>
-<th><span data-ttu-id="1bc54-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="1bc54-111">Data Type</span></span></th>
-<th><span data-ttu-id="1bc54-112">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="1bc54-112">Key/Index</span></span></th>
-<th><span data-ttu-id="1bc54-113">Сведения</span><span class="sxs-lookup"><span data-stu-id="1bc54-113">Details</span></span></th>
+<th><span data-ttu-id="91028-110">Столбец</span><span class="sxs-lookup"><span data-stu-id="91028-110">Column</span></span></th>
+<th><span data-ttu-id="91028-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="91028-111">Data Type</span></span></th>
+<th><span data-ttu-id="91028-112">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="91028-112">Key/Index</span></span></th>
+<th><span data-ttu-id="91028-113">Сведения</span><span class="sxs-lookup"><span data-stu-id="91028-113">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1bc54-114"><strong>CategoryId</strong></span><span class="sxs-lookup"><span data-stu-id="1bc54-114"><strong>CategoryId</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bc54-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="1bc54-115">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="1bc54-116">Primary</span><span class="sxs-lookup"><span data-stu-id="1bc54-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="1bc54-117">Уникальный идентификатор для классификации.</span><span class="sxs-lookup"><span data-stu-id="1bc54-117">Unique identifier for the classification.</span></span></p></td>
+<td><p><span data-ttu-id="91028-114"><strong>CategoryId</strong></span><span class="sxs-lookup"><span data-stu-id="91028-114"><strong>CategoryId</strong></span></span></p></td>
+<td><p><span data-ttu-id="91028-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="91028-115">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="91028-116">Primary</span><span class="sxs-lookup"><span data-stu-id="91028-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="91028-117">Уникальный идентификатор для классификации.</span><span class="sxs-lookup"><span data-stu-id="91028-117">Unique identifier for the classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1bc54-118"><strong>Название</strong></span><span class="sxs-lookup"><span data-stu-id="1bc54-118"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bc54-119">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1bc54-119">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="91028-118"><strong>Имя</strong></span><span class="sxs-lookup"><span data-stu-id="91028-118"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="91028-119">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="91028-119">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1bc54-p102">Значение и понятное имя, назначенные классификации. Допускаются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="1bc54-p102">Value and friendly name assigned to the classification. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="91028-p102">Значение и понятное имя, назначенные классификации. Допускаются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="91028-p102">Value and friendly name assigned to the classification. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1bc54-122">0 — успешно</span><span class="sxs-lookup"><span data-stu-id="1bc54-122">0 -- Success</span></span></p></li>
-<li><p><span data-ttu-id="1bc54-123">1 — ожидаемый сбой</span><span class="sxs-lookup"><span data-stu-id="1bc54-123">1 -- Expected failure</span></span></p></li>
-<li><p><span data-ttu-id="1bc54-124">2 — неожиданный сбой</span><span class="sxs-lookup"><span data-stu-id="1bc54-124">2 – Unexpected failure</span></span></p></li>
+<li><p><span data-ttu-id="91028-122">0 — успешно</span><span class="sxs-lookup"><span data-stu-id="91028-122">0 -- Success</span></span></p></li>
+<li><p><span data-ttu-id="91028-123">1 — ожидаемый сбой</span><span class="sxs-lookup"><span data-stu-id="91028-123">1 -- Expected failure</span></span></p></li>
+<li><p><span data-ttu-id="91028-124">2 — неожиданный сбой</span><span class="sxs-lookup"><span data-stu-id="91028-124">2 – Unexpected failure</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

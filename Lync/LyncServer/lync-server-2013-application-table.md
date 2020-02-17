@@ -25,7 +25,7 @@ ms.locfileid: "42037269"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="7b6f5-102">Таблица Application в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b6f5-102">Application table in Lync Server 2013</span></span>
+# <a name="application-table-in-lync-server-2013"></a><span data-ttu-id="0bf13-102">Таблица Application в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0bf13-102">Application table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42037269"
 
 <span> </span>
 
-<span data-ttu-id="7b6f5-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="7b6f5-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="0bf13-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0bf13-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="7b6f5-104">В этой таблице хранятся сведения о различных процессах в Lync Server 2013, участвующих в маршрутизации и подключениях.</span><span class="sxs-lookup"><span data-stu-id="7b6f5-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
+<span data-ttu-id="0bf13-104">В этой таблице хранятся сведения о различных процессах в Lync Server 2013, участвующих в маршрутизации и подключениях.</span><span class="sxs-lookup"><span data-stu-id="0bf13-104">This table stores information about the various processes within Lync Server 2013 involved in routing and connections.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42037269"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7b6f5-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="7b6f5-105">Column</span></span></th>
-<th><span data-ttu-id="7b6f5-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="7b6f5-106">Data Type</span></span></th>
-<th><span data-ttu-id="7b6f5-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="7b6f5-107">Key/Index</span></span></th>
-<th><span data-ttu-id="7b6f5-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="7b6f5-108">Details</span></span></th>
+<th><span data-ttu-id="0bf13-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="0bf13-105">Column</span></span></th>
+<th><span data-ttu-id="0bf13-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="0bf13-106">Data Type</span></span></th>
+<th><span data-ttu-id="0bf13-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="0bf13-107">Key/Index</span></span></th>
+<th><span data-ttu-id="0bf13-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="0bf13-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7b6f5-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="7b6f5-109"><strong>ApplicationId</strong></span></span></p></td>
-<td><p><span data-ttu-id="7b6f5-110">int</span><span class="sxs-lookup"><span data-stu-id="7b6f5-110">int</span></span></p></td>
-<td><p><span data-ttu-id="7b6f5-111">Primary</span><span class="sxs-lookup"><span data-stu-id="7b6f5-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="7b6f5-112">Уникальный номер, идентифицирующий это приложение.</span><span class="sxs-lookup"><span data-stu-id="7b6f5-112">Unique number identifying this application.</span></span></p></td>
+<td><p><span data-ttu-id="0bf13-109"><strong>ApplicationId</strong></span><span class="sxs-lookup"><span data-stu-id="0bf13-109"><strong>ApplicationId</strong></span></span></p></td>
+<td><p><span data-ttu-id="0bf13-110">int</span><span class="sxs-lookup"><span data-stu-id="0bf13-110">int</span></span></p></td>
+<td><p><span data-ttu-id="0bf13-111">Primary</span><span class="sxs-lookup"><span data-stu-id="0bf13-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="0bf13-112">Уникальный номер, идентифицирующий это приложение.</span><span class="sxs-lookup"><span data-stu-id="0bf13-112">Unique number identifying this application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7b6f5-113"><strong>Название</strong></span><span class="sxs-lookup"><span data-stu-id="7b6f5-113"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="7b6f5-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="7b6f5-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0bf13-113"><strong>Имя</strong></span><span class="sxs-lookup"><span data-stu-id="0bf13-113"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="0bf13-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0bf13-114">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="7b6f5-115">Имя компонента сервера.</span><span class="sxs-lookup"><span data-stu-id="7b6f5-115">Name of the server component.</span></span></p></td>
+<td><p><span data-ttu-id="0bf13-115">Имя компонента сервера.</span><span class="sxs-lookup"><span data-stu-id="0bf13-115">Name of the server component.</span></span></p></td>
 </tr>
 </tbody>
 </table>
