@@ -53,7 +53,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 <div>
 
-## <a name="reference"></a>Справочные материалы
+## <a name="reference"></a>Справка
 
 [Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
