@@ -128,7 +128,7 @@ w32tm /resync
     
     1.  Откройте консоль управления Lync Server.
     
-    2.  Выполните следующую команду:
+    2.  Выполните следующую команду.
         ```powershell
         Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
         ```
