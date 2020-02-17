@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089732"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -50,7 +50,10 @@ ms.locfileid: "41838039"
 4. Разверните **подписку на надстройку** , а затем щелкните, чтобы приобрести план звонков. Выберите план **внутренних звонков** или **внутренний и Международный план звонков**.
 
 > [!NOTE]
-> Вам не нужна лицензия на телефонную систему. Она включена в лицензию Телефона общего пользования.
+> Если вы используете прямую маршрутизацию Microsoft Phone System, вам не нужна лицензия на план звонков.
+
+> [!NOTE]
+> Вам не нужно добавлять лицензию на телефонную систему. Она включена в лицензию Телефона общего пользования.
 
 Дополнительные сведения о лицензиях можно найти [в разделе Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -89,6 +92,9 @@ ms.locfileid: "41838039"
 6. Назначение лицензий пользователю. На этой же странице щелкните мышью и разверните **Лицензии продуктов**. Включите общий телефонный номер и выберите **план внутренних звонков** либо **внутренний и Международный план звонков**. 
 
     ![Снимок экрана, на котором показано назначение лицензий](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Если вы используете прямую маршрутизацию Microsoft Phone System, вам не нужно назначать лицензию на план звонков.
 
 Дополнительные сведения можно найти в разделе [Добавление пользователя](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 
