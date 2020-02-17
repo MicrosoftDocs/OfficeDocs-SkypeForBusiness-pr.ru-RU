@@ -107,7 +107,7 @@ _**Последнее изменение темы:** 2012-10-29_
     
     Если не указать параметр LDF, значение по умолчанию — это путь установки Lync Server 2013, который считывается из реестра.
     
-    Пример:
+    Например:
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 

@@ -133,7 +133,7 @@ _**Последнее изменение темы:** 2013-02-18_
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
-        Пример:
+        Например:
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     

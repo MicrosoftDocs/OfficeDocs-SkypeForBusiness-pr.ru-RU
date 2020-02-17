@@ -53,7 +53,7 @@ _**Последнее изменение темы:** 2013-02-19_
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn <PrimaryServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    Пример:
+    Например:
     
         Uninstall -CsMirrorDatabase -DatabaseType User -SqlServerFqdn server4.contoso.com -SqlInstanceName archinst -verbose
     

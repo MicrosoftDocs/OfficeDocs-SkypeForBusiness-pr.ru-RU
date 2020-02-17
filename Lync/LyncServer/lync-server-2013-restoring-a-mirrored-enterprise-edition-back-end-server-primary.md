@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2013-02-17_
     
         Invoke-CsDataBaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <Configured Database Type> -NewPrincipal Mirror -Force -Verbose
     
-    Пример:
+    Например:
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
@@ -89,7 +89,7 @@ _**Последнее изменение темы:** 2013-02-17_
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn <MirrorServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    Пример:
+    Например:
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn DB2.contoso.com -SqlInstanceName rtc -verbose
     

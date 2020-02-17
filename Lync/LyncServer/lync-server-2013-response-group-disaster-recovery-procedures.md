@@ -51,7 +51,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    Пример:
+    Например:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
@@ -78,7 +78,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Пример:
+        Например:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
@@ -86,7 +86,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Пример:
+        Например:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -94,7 +94,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Пример:
+        Например:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -102,7 +102,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Пример:
+        Например:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -110,7 +110,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Пример:
+        Например:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -150,7 +150,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    Пример:
+    Например:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
@@ -167,7 +167,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    Пример:
+    Например:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
@@ -186,7 +186,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Пример:
+        Например:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
@@ -194,7 +194,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Пример:
+        Например:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -202,7 +202,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        Пример:
+        Например:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -210,7 +210,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Пример:
+        Например:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -218,7 +218,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Пример:
+        Например:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 

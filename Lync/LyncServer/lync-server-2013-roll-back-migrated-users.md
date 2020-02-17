@@ -91,7 +91,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    Пример:
+    Например:
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +110,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Пример:
+    Например:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +143,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Пример:
+    Например:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
