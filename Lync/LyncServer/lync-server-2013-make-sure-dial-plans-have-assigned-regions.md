@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2010-11-02_
     
         Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
     
-    Пример:
+    Например:
     
         Get-CsDialPlan
     

@@ -349,7 +349,7 @@ _**Последнее изменение темы:** 2013-09-11_
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    Пример:
+    Например:
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     

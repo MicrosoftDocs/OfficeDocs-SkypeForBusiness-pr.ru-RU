@@ -101,7 +101,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    Пример:
+    Например:
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     

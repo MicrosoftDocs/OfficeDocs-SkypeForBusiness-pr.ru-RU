@@ -63,7 +63,7 @@ _**Последнее изменение темы:** 2012-10-07_
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        Пример:
+        Например:
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     

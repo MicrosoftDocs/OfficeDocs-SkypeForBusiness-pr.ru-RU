@@ -47,7 +47,7 @@ _**Последнее изменение темы:** 2012-11-12_
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Настройка Lync Server 2013 в качестве партнерского приложения для Exchange 2013
 
-Самый простой способ настроить Lync Server 2013 в качестве партнерского приложения с Exchange 2013 — запустить сценарий сценарий configure-enterprisepartnerapplication. ps1, сценарий Windows PowerShell, поставляемый с Exchange 2013. Для запуска этого сценария необходимо указать URL-адрес документа метаданных проверки подлинности Lync Server; как правило, это полное доменное имя пула Lync Server 2013, за которым следует суффикс/Metadata/JSON/1. Пример:
+Самый простой способ настроить Lync Server 2013 в качестве партнерского приложения с Exchange 2013 — запустить сценарий сценарий configure-enterprisepartnerapplication. ps1, сценарий Windows PowerShell, поставляемый с Exchange 2013. Для запуска этого сценария необходимо указать URL-адрес документа метаданных проверки подлинности Lync Server; как правило, это полное доменное имя пула Lync Server 2013, за которым следует суффикс/Metadata/JSON/1. Например:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
@@ -67,11 +67,11 @@ _**Последнее изменение темы:** 2012-11-12_
 
 ## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Настройка Exchange 2013 в качестве партнерского приложения для Lync Server 2013
 
-После настройки Lync Server 2013 в качестве партнерского приложения для Exchange 2013 необходимо настроить Exchange в качестве партнерского приложения для Lync Server. Это можно сделать с помощью командной консоли Lync Server и указав документ метаданных проверки подлинности для Exchange. как правило, это универсальный код ресурса (URI) службы автообнаружения Exchange, за которым следует суффикс/Metadata/JSON/1. Пример:
+После настройки Lync Server 2013 в качестве партнерского приложения для Exchange 2013 необходимо настроить Exchange в качестве партнерского приложения для Lync Server. Это можно сделать с помощью командной консоли Lync Server и указав документ метаданных проверки подлинности для Exchange. как правило, это универсальный код ресурса (URI) службы автообнаружения Exchange, за которым следует суффикс/Metadata/JSON/1. Например:
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) . В дополнение к указанию URI метаданных необходимо также установить полное значение уровня доверия для приложения; Это позволит Exchange предоставлять как самого себя, так и любого уполномоченного пользователя в сфере. Пример:
+В Lync Server партнерские приложения настраиваются с помощью командлета [New-CsPartnerApplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) . В дополнение к указанию URI метаданных необходимо также установить полное значение уровня доверия для приложения; Это позволит Exchange предоставлять как самого себя, так и любого уполномоченного пользователя в сфере. Например:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

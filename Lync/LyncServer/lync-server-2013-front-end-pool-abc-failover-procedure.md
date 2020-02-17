@@ -158,7 +158,7 @@ _**Последнее изменение темы:** 2014-05-22_
         
             Xcopy <Source> <Destination: Pool C CPS File Store Path>
         
-        Пример:
+        Например:
         
             Xcopy "Source Path" "<Pool C File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"
     

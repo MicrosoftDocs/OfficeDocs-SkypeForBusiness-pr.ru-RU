@@ -89,7 +89,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="to-enable-the-purging-of-all-archiving-data"></a>Включение очистки всех данных архивации
 
-  - Чтобы включить очистку всех данных архивации, установите для свойства **EnablePurging** значение True ($True). Пример:
+  - Чтобы включить очистку всех данных архивации, установите для свойства **EnablePurging** значение True ($True). Например:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
@@ -101,7 +101,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>Включение очистки только экспортированных данных архивации
 
-  - Чтобы ограничить удаление записями, экспортированными в файл данных (с помощью командлета [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) ), необходимо также задать для свойства Пуржеекспортедарчивесонли значение True ($true). Пример:
+  - Чтобы ограничить удаление записями, экспортированными в файл данных (с помощью командлета [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) ), необходимо также задать для свойства Пуржеекспортедарчивесонли значение True ($true). Например:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     

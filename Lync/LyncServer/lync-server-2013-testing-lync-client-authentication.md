@@ -122,7 +122,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Если включен параметр Verbose, командлет Test-CsClientAuth возвращает пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Пример:
+Если включен параметр Verbose, командлет Test-CsClientAuth возвращает пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например:
 
 Попытка скачать сертификат CS для пользователя: kenmyer@litwareinc.com конечная точка: Степид
 

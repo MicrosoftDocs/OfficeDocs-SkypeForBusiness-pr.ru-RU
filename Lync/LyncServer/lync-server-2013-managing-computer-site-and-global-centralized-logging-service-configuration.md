@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2014-02-04_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
-Пример:
+Например:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 

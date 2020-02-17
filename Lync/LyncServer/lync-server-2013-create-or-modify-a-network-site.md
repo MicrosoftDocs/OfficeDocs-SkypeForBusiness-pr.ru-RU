@@ -80,7 +80,7 @@ _**Последнее изменение темы:** 2013-02-24_
     
         New-CsNetworkSite -NetworkSiteID <string>
     
-    Пример:
+    Например:
     
         New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
     

@@ -90,7 +90,7 @@ _**Последнее изменение темы:** 2014-02-05_
     
         New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
     
-    Пример:
+    Например:
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     

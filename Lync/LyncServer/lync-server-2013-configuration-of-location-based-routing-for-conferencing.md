@@ -65,7 +65,7 @@ Get – CsServerApplication — Identity Service: регистратор:\<по�
 
 New — CsServerApplication — Identity Service: регистратор:\<полное доменное имя\>пула \</Лбраутинг приоритет\> приложения с поддержкой $true критически важный $true – URIhttp://www.microsoft.com/LCS/LBRouting
 
-Пример:
+Например:
 
 New-CsServerApplication-Identity Service:регистрар:LS2013CU2LBRPool. contoso. com/Лбраутинг-Priority 3-enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
 

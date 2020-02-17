@@ -135,12 +135,12 @@ Lync Server требует стандартизованные телефонны
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>-11:00</p></td>
+<td><p>11 </p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>

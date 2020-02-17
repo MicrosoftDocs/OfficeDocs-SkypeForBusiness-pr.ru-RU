@@ -183,7 +183,7 @@ Lync Server 2013 поддерживает размещение внешних и
 </tr>
 <tr class="odd">
 <td><p>4 </p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>3 (по 1 на виртуальный IP-адрес) + 12</p></td>
 </tr>
 <tr class="even">

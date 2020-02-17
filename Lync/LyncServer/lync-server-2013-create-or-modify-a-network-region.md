@@ -75,7 +75,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Пример:
+    Например:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     

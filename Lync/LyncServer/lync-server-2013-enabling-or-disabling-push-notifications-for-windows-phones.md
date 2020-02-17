@@ -85,7 +85,7 @@ Push-уведомления в форме эмблем, значков или о
 
 ## <a name="to-enable-push-notifications-for-windows-phone"></a>Включение push-уведомлений для Windows Phone
 
-  - Чтобы включить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение true ($True). Пример:
+  - Чтобы включить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение true ($True). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $True
 
@@ -95,7 +95,7 @@ Push-уведомления в форме эмблем, значков или о
 
 ## <a name="to-disable-push-notifications-for-windows-phone"></a>Отключение push-уведомлений для Windows Phone
 
-  - Чтобы отключить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение false ($False). Пример:
+  - Чтобы отключить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение false ($False). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 

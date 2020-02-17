@@ -148,7 +148,7 @@ _**Последнее изменение темы:** 2013-02-23_
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    Пример:
+    Например:
     
         "All agents are currently busy. Please call back later."
     
@@ -174,7 +174,7 @@ _**Последнее изменение темы:** 2013-02-23_
     
     </div>
     
-    Пример:
+    Например:
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
@@ -182,7 +182,7 @@ _**Последнее изменение темы:** 2013-02-23_
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
-    Пример:
+    Например:
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
     

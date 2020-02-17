@@ -59,7 +59,7 @@ _**Последнее изменение темы:** 2012-01-16_
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
-        Пример:
+        Например:
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     

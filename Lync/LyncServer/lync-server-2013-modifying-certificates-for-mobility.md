@@ -69,7 +69,7 @@ _**Последнее изменение темы:** 2014-06-20_
     
     **Важно!**
     
-    Если для каждого использования назначается отдельный сертификат (поэтому значение отпечатка, указанное выше для каждого сертификата), крайне важно, чтобы **не** выполнять командлет **Set-CsCertificate** с несколькими типами, как в приведенном выше примере. В данном случае отдельно запустите командлет **Set-CsCertificate** для каждого использования. Пример:
+    Если для каждого использования назначается отдельный сертификат (поэтому значение отпечатка, указанное выше для каждого сертификата), крайне важно, чтобы **не** выполнять командлет **Set-CsCertificate** с несколькими типами, как в приведенном выше примере. В данном случае отдельно запустите командлет **Set-CsCertificate** для каждого использования. Например:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -107,7 +107,7 @@ _**Последнее изменение темы:** 2014-06-20_
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        Если у вас много доменов SIP, вы не можете использовать новый параметр Аллсипдомаин. Вместо этого необходимо использовать параметр DomainName. При использовании параметра имя_домена необходимо определить полное доменное имя для записей lyncdiscoverinternal и lyncdiscover. Пример:
+        Если у вас много доменов SIP, вы не можете использовать новый параметр Аллсипдомаин. Вместо этого необходимо использовать параметр DomainName. При использовании параметра имя_домена необходимо определить полное доменное имя для записей lyncdiscoverinternal и lyncdiscover. Например:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -123,7 +123,7 @@ _**Последнее изменение темы:** 2014-06-20_
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        Если у вас много доменов SIP, вы не можете использовать новый параметр Аллсипдомаин. Вместо этого необходимо использовать параметр DomainName. При использовании параметра имя_домена необходимо использовать соответствующий префикс для полного доменного имени домена SIP. Пример:
+        Если у вас много доменов SIP, вы не можете использовать новый параметр Аллсипдомаин. Вместо этого необходимо использовать параметр DomainName. При использовании параметра имя_домена необходимо использовать соответствующий префикс для полного доменного имени домена SIP. Например:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
