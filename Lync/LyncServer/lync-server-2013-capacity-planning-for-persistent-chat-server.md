@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036509"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Планирование емкости для сервера сохраняемого чата в Lync Server 2013
 
@@ -41,7 +41,7 @@ _**Последнее изменение темы:** 2012-10-05_
 
 Планирование мощности является важной частью подготовки к развертыванию сервера сохраняемого чата. В этом разделе представлены сведения о поддерживаемых топологий сервера сохраняемого чата и таблицах планирования емкости, которые можно использовать для определения наилучшей конфигурации развертывания. Здесь также описывается, как лучше управлять развертываниями сервера сохраняемого чата, требующими большей емкости в пиковое время.
 
-Чтобы скачать сервер сохраняемого чата, обратитесь к разделу "сервер сохраняемого чата Microsoft [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)Lync Server 13" по адресу.
+Чтобы скачать сервер сохраняемого чата, обратитесь к разделу "сервер сохраняемого чата Microsoft [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Lync Server 13" по адресу.
 
 Сведения об установке сервера сохраняемого чата приведены в статье Установка сервера сохраняемого [чата в Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) и [Настройка сервера сохраняемого чата в Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) в документации по развертыванию.
 
@@ -212,21 +212,21 @@ _**Последнее изменение темы:** 2012-10-05_
 <td><p>Открытых комнат (без явного членства)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Закрытых комнат (обычных комнат с явным членством)</p></td>
 <td><p>31 040</p></td>
 <td><p>1,035</p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 <td><p>32 080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Комнат-аудиторий (дополнительный вход для выступающих)</p></td>
 <td><p>нуль</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ _**Последнее изменение темы:** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>Групп пользователей в каждом списке членов комнаты чата для закрытых комнат</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>4</p></td>
+<td><p>17:00</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ _**Последнее изменение темы:** 2012-10-05_
 <tr class="odd">
 <td><p>Норма чата на пользователя в день</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 <td><p>0,1</p></td>
 <td><p>двадцать</p></td>
 </tr>
@@ -559,7 +559,7 @@ _**Последнее изменение темы:** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>Количество экземпляров службы сервера сохраняемого чата</p></td>
-<td><p>4 </p></td>
+<td><p>SP4</p></td>
 </tr>
 <tr class="odd">
 <td><p>Размер малых комнат чата</p></td>
@@ -595,15 +595,15 @@ _**Последнее изменение темы:** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p>Количество малых комнат чата на пользователя</p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 </tr>
 <tr class="even">
 <td><p>Количество средних комнат чата на пользователя</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>Количество больших комнат чата на пользователя</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>Количество подключенных комнат на пользователя</p></td>

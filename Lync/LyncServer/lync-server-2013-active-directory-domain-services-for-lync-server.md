@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008581"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Доменные службы Active Directory для Lync Server 2013
 
@@ -71,7 +71,7 @@ Lync Server 2013 использует доменные службы Active Direc
 
 
 > [!NOTE]  
-> Рекомендуется развертывать глобальные параметры в контейнере конфигурации, а не в контейнере System. Это не повышает безопасность, но может привести к улучшениям масштабируемости некоторых топологий доменных служб Active Directory. Если вы выполняете миграцию с Microsoft Office Communications Server 2007 и использовали системный контейнер, но планируете использовать контейнер конфигурации, необходимо переместить параметры из контейнера System перед выполнением любых подготовительных действий по обновлению. Чтобы перенести параметры контейнера системы в контейнер конфигурации, ознакомьтесь со статьей средство миграции глобальных параметров Office Communications Server 2007 <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>на сайте.
+> Рекомендуется развертывать глобальные параметры в контейнере конфигурации, а не в контейнере System. Это не повышает безопасность, но может привести к улучшениям масштабируемости некоторых топологий доменных служб Active Directory. Если вы выполняете миграцию с Microsoft Office Communications Server 2007 и использовали системный контейнер, но планируете использовать контейнер конфигурации, необходимо переместить параметры из контейнера System перед выполнением любых подготовительных действий по обновлению. Чтобы перенести параметры контейнера системы в контейнер конфигурации, ознакомьтесь со статьей средство миграции глобальных параметров Office Communications Server 2007 <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>на сайте.
 
 
 
@@ -219,7 +219,7 @@ Lync Server 2013 использует доменные службы Active Direc
 </table>
 
 
-Для поддержки доверенных серверов предыдущих выпусков необходимо запустить анализатор соответствия рекомендациям. Подробные сведения о запуске анализатора соответствия рекомендациям приведены [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)в разделе.
+Для поддержки доверенных серверов предыдущих выпусков необходимо запустить анализатор соответствия рекомендациям. Подробные сведения о запуске анализатора соответствия рекомендациям приведены [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)в разделе.
 
 </div>
 

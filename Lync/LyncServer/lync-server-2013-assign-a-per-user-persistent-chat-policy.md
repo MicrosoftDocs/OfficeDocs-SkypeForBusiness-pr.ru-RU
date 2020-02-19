@@ -12,12 +12,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f14018e9e489dbb6ca4db5a4d6138eb330faf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030132"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134415"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Назначение политики сохраняемого чата на уровне пользователя в Lync Server 2013
 
@@ -86,7 +86,7 @@ ms.locfileid: "42030132"
 
 ## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики сохраняемого чата на уровне пользователя с помощью командлетов Windows PowerShell
 
-Вы также можете назначить политики сохраняемого чата для отдельных пользователей с помощью командлета **Grant – CsPersistentChatPolicy** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы также можете назначить политики сохраняемого чата для отдельных пользователей с помощью командлета **Grant – CsPersistentChatPolicy** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>Назначение политики сохраняемого чата для отдельных пользователей одному пользователю
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ee280cabe9df1ad720f1007f1dc787db9f32aab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043851"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Поддержка программного обеспечения и инфраструктуры для клиентов и устройств в Lync Server 2013
 
@@ -59,9 +59,9 @@ _**Последнее изменение темы:** 2014-08-27_
 > Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010. Подробные сведения о поддержке программного обеспечения для устройств представлены в следующих разделах библиотеки TechNet Server 2010 TechNet: 
 > <UL>
 > <LI>
-> <P>Обязательные компоненты Lync Server 2010 для устройств на сайте<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Обязательные компоненты Lync Server 2010 для устройств на сайте<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Поддержка системы устройств и инфраструктуры в<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Поддержка системы устройств и инфраструктуры в<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

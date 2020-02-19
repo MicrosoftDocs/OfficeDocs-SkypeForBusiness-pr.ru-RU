@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030142"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134425"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Назначение индивидуальной политики мобильности в Lync Server 2013
 
@@ -86,7 +86,7 @@ ms.locfileid: "42030142"
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики мобильности на уровне пользователя с помощью командлетов Windows PowerShell
 
-Вы можете назначать политики мобильности на уровне пользователей с помощью Windows PowerShell и командлета **Grant – CsMobilityPolicy** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы можете назначать политики мобильности на уровне пользователей с помощью Windows PowerShell и командлета **Grant – CsMobilityPolicy** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>Назначение индивидуальной политики мобильности отдельному пользователю
 

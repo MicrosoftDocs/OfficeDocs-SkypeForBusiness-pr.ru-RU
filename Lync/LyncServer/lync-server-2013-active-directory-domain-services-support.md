@@ -12,18 +12,18 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b200fb122f436e7afa5587e56a9e62edd0d3fa5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008561"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Поддержка доменных служб Active Directory в Lync Server 2013
 
@@ -103,7 +103,7 @@ Lync Server 2013 поддерживает развертывания домен�
 
 ## <a name="domain-names"></a>Имена доменов
 
-Lync Server не поддерживает домены с одной меткой. Например, лес с корневым доменом **contoso.local** будет поддерживаться, а с корневым доменом **local** — нет. Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем, сопоставленными с [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)одной меткой" по адресу ".
+Lync Server не поддерживает домены с одной меткой. Например, лес с корневым доменом **contoso.local** будет поддерживаться, а с корневым доменом **local** — нет. Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем, сопоставленными с [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)одной меткой" по адресу ".
 
 <div>
 

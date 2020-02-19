@@ -12,12 +12,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3668e21836fd3ecee0740493c8b9bd631227583a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77b84c4550d44a09e786d09d093e64cbc1901d91
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029270"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134465"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Назначение политики версий клиентов на уровне пользователей в Lync Server 2013
 
@@ -92,7 +92,7 @@ ms.locfileid: "42029270"
 
 ## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики версий клиентов на уровне пользователей с помощью командлетов Windows PowerShell
 
-Индивидуальную политику версий клиента можно назначить с помощью командлета Grant-CsClientVersionPolicy. Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Индивидуальную политику версий клиента можно назначить с помощью командлета Grant-CsClientVersionPolicy. Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>Назначение индивидуальной политики версий клиента одному пользователю
 

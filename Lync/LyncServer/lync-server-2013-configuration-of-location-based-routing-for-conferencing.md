@@ -12,18 +12,18 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 237799a84d0230bf55737779921dd66b23c27130
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040788"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Настройка маршрутизации на основе расположения для конференц-связи в Lync Server 2013
 
@@ -63,11 +63,11 @@ Get – CsServerApplication — Identity Service: регистратор:\<по�
 
 После того как вы найдете правильное значение приоритета для приложения для конференц-связи с маршрутизацией на основе расположения, введите следующий командлет для каждого интерфейсного пула или сервера Standard Edition, для которых пользователи жилых подключений включены для маршрутизации на основе расположения:
 
-New — CsServerApplication — Identity Service: регистратор:\<полное доменное имя\>пула \</Лбраутинг приоритет\> приложения с поддержкой $true критически важный $true – URIhttp://www.microsoft.com/LCS/LBRouting
+New — CsServerApplication — Identity Service: регистратор:\<полное доменное имя\>пула \</Лбраутинг приоритет\> приложения с поддержкой $true критически важный $true – URIhttps://www.microsoft.com/LCS/LBRouting
 
 Например:
 
-New-CsServerApplication-Identity Service:регистрар:LS2013CU2LBRPool. contoso. com/Лбраутинг-Priority 3-enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service:регистрар:LS2013CU2LBRPool. contoso. com/Лбраутинг-Priority 3-enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
 
 После использования этого командлета перезапустите все серверы переднего плана в пуле или серверы Standard Edition, на которых включено приложение для конференц-связи с маршрутизацией на основе расположения.
 
