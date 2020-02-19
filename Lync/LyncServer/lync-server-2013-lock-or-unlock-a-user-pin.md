@@ -12,18 +12,18 @@ ms:contentKeyID: 49733618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f8f75f42dd7265e9aea22fa1dc03afd2f2c684a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c61892a19fde4f9584d39557eac2f3ae46c51092
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033368"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lock-or-unlock-a-user-pin-in-lync-server-2013"></a>Блокировка и разблокировка ПИН-кода пользователя в Lync Server 2013
 
@@ -125,7 +125,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Блокировка и разблокировка ПИН-кодов пользователей с помощью командлетов Windows PowerShell
 
-Вы можете заблокировать и разблокировать ПИН-коды пользователей с помощью Windows PowerShell, а также командлетов Lock-CsClientPin и Unlock-CsClientPin. Эти командлеты можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы можете заблокировать и разблокировать ПИН-коды пользователей с помощью Windows PowerShell, а также командлетов Lock-CsClientPin и Unlock-CsClientPin. Эти командлеты можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 

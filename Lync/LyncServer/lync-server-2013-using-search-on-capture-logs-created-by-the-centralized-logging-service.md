@@ -12,18 +12,18 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9571f2efe08eb13091c3d3660e7760a8e805c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63ca895f455d8da3f6e8edd2e80aacc8a082d147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007558"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Использование поиска для журналов захвата, созданных службой централизованного ведения журналов в Lync Server 2013
 
@@ -55,7 +55,7 @@ CLSAgent на каждом отдельном компьютере создае�
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Пример:
+Например:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -80,7 +80,7 @@ CLSAgent на каждом отдельном компьютере создае�
     
     </div>
     
-    Пример:
+    Например:
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -94,7 +94,7 @@ CLSAgent на каждом отдельном компьютере создае�
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
-    Пример:
+    Например:
     
         Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -104,13 +104,13 @@ CLSAgent на каждом отдельном компьютере создае�
 
 3.  Чтобы выполнить поиск по всему пулу, а не по одному компьютеру, измените параметр –Computers на –Pools, удалите имя компьютера и замените его на имя пула или пулов в кавычках с разделением запятыми.
     
-    Пример:
+    Например:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
 4.  При использовании команд поиска пулы могут представлять собой любой пул в развертывании, например интерфейсные пулы, пограничные пулы, пулы серверов сохраняемого чата или другие, которые определены как пул в развертывании.
     
-    Пример:
+    Например:
     
         Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -139,7 +139,7 @@ CLSAgent на каждом отдельном компьютере создае�
 
 3.  Для получения журналов за период, начиная с 11:00 20.11.12, необходимо задать параметр –StartTime. Для интервала времени по умолчанию установлено значение 30 минут, если не определен параметр –EndTime. В результате поиск возвращает журналы с определенного компьютера или пула за период с 11:00 до 11:30.
     
-    Пример:
+    Например:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e53116879e194bca7d0ea4066bc5f10de38f7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2865d1a4169491751643e7b16601a5ed3efcded
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029450"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Топологии и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведений о присутствии в Lync Server 2013
 
@@ -91,28 +91,28 @@ _**Последнее изменение темы:** 2014-10-24_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>2</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>3 </p></td>
+<td><p>SP4</p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>4 </p></td>
+<td><p>17:00</p></td>
+<td><p>SP4</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5 </p></td>
+<td><p>17:00</p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -127,11 +127,11 @@ _**Последнее изменение темы:** 2014-10-24_
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>-11:00</p></td>
+<td><p>11 </p></td>
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>10 </p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ _**Последнее изменение темы:** 2014-10-24_
 
 
 > [!NOTE]  
-> Так как Lync Server использует основную базу данных SQL в качестве следящего сервера, то при завершении работы базы данных-источника и перепереходе на зеркальную копию и завершении работы достаточного количества серверов переднего плана, чтобы они не выполнялись в соответствии с предыдущей таблицей, весь пул перейдет. Дополнительные сведения можно найти в разделе <A href="http://go.microsoft.com/fwlink/?linkid=393672">следящий сервер зеркального отображения баз данных</A>.
+> Так как Lync Server использует основную базу данных SQL в качестве следящего сервера, то при завершении работы базы данных-источника и перепереходе на зеркальную копию и завершении работы достаточного количества серверов переднего плана, чтобы они не выполнялись в соответствии с предыдущей таблицей, весь пул перейдет. Дополнительные сведения можно найти в разделе <A href="https://go.microsoft.com/fwlink/?linkid=393672">следящий сервер зеркального отображения баз данных</A>.
 
 
 
@@ -172,8 +172,8 @@ _**Последнее изменение темы:** 2014-10-24_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>2</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>

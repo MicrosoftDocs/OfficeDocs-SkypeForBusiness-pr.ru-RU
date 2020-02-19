@@ -12,18 +12,18 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 099ca6da5a23c8c2bf936c7067cfc40cf323ebfb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036709"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-connections-support-in-lync-server-2013"></a>Поддержка прямых подключений SIP в Lync Server 2013
 
@@ -45,7 +45,7 @@ Lync Server 2013 поддерживает использование прямы�
 
 Серверы-посредники в пуле Lync Server 2013 могут управлять несколькими шлюзами, пограничными контроллерами сеансов (SBCs), предоставленными поставщиками услуг телефонии, или некоторыми комбинациями. Кроме того, несколько серверов-посредников в пуле могут взаимодействовать с одним шлюзом.
 
-Вы можете использовать программу Microsoft Unified Communications Open Interoperability для инфраструктуры корпоративной телефонии, чтобы найти нужные шлюзы ТСОП, IP-УАТС и службы SIP-магистралей. Для получения дополнительных сведений посетите веб-сайт с открытым взаимодействием Microsoft [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Unified Communications.
+Вы можете использовать программу Microsoft Unified Communications Open Interoperability для инфраструктуры корпоративной телефонии, чтобы найти нужные шлюзы ТСОП, IP-УАТС и службы SIP-магистралей. Для получения дополнительных сведений посетите веб-сайт с открытым взаимодействием Microsoft [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)Unified Communications.
 
 Для получения дополнительных сведений о топологии и параметрах развертывания для прямых подключений SIP обратитесь к разделу [Direct SIP Connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md) в документации по планированию.
 

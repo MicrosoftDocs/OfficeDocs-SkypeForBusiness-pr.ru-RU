@@ -12,18 +12,18 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2885b3610c1edce441c6abbd93a2515fa6cb904
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3e665e0031596bc2db2273882aef379a96f2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028670"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Настройка сертификатов на сервере, на котором работает единая система обмена сообщениями Microsoft Exchange Server
 
@@ -130,7 +130,7 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Настройка Exchange Server 2013 UM с Lync Server
 
-1.  Дополнительные сведения: "Интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server" в документации по [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)Exchange Server по адресу.
+1.  Дополнительные сведения: "Интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server" в документации по [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)Exchange Server по адресу.
 
 </div>
 
@@ -177,13 +177,13 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Создание сертификата на сервере Exchange Server 2010
 
-1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
+1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
 
 2.  Чтобы создать сертификат, обратитесь к следующим разделам:
     
-    1.  "Создать новый сертификат Exchange" по адресу[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Создать новый сертификат Exchange" по адресу[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Импорт сертификата Exchange" по адресу[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Импорт сертификата Exchange" по адресу[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +236,9 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Назначение сертификата на сервере Exchange Server 2010
 
-1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
+1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
 
-2.  Процедура назначения сертификата приведена в [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)разделе "назначение служб сертификату".
+2.  Процедура назначения сертификата приведена в [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)разделе "назначение служб сертификату".
 
 </div>
 

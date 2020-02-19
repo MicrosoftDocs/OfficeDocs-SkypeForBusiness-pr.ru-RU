@@ -12,18 +12,18 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cdb34ef5e000456f787c2a62bc61a4667a1459e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006235"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="emergency-procedures-in-lync-server-2013"></a>Экстренные процедуры в Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006235"
 
 _**Последнее изменение темы:** 2014-08-18_
 
-Экстренные процедуры — это процедуры по запросу, которые выходят за рамки стандартных процедур, описанных выше, и которые должны обрабатываться функцией управления изменениями (обратитесь к [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) для получения описания функции "изменение управления"). Эти процедуры обычно связаны с одним из следующих способов:
+Экстренные процедуры — это процедуры по запросу, которые выходят за рамки стандартных процедур, описанных выше, и которые должны обрабатываться функцией управления изменениями (обратитесь к [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) для получения описания функции "изменение управления"). Эти процедуры обычно связаны с одним из следующих способов:
 
   - Внедрение изменений в ходе устранения неполадок — устранение обнаруженной системной проблемы.
 
@@ -52,7 +52,7 @@ _**Последнее изменение темы:** 2014-08-18_
 ## <a name="see-also"></a>См. также
 
 
-[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

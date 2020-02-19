@@ -12,18 +12,18 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29e65fc660285501cf8d2326505ad46ea227e123
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f23e1ca036690f7f48071c46db6769b75424fe1e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006245"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>Изменение схемы конфигурации сети в Lync Server 2013
 
@@ -51,7 +51,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 3.  Продолжайте изменять IP-адреса и полные доменные имена, предоставляя виртуальные IP-адреса для аппаратных подсистем балансировки нагрузки или записи сервера для балансировки нагрузки службы доменных имен (DNS) для серверов в пулах.
 
-Полезная функция средства планирования состоит в том, что она может потребовать последовательного назначения диапазона IP-адресов и имен узлов серверов, а не требуя, чтобы дизайнер мог редактировать каждый отдельный сервер в пуле. Пример:
+Полезная функция средства планирования состоит в том, что она может потребовать последовательного назначения диапазона IP-адресов и имен узлов серверов, а не требуя, чтобы дизайнер мог редактировать каждый отдельный сервер в пуле. Например:
 
 1.  Дважды щелкните Пулы серверов переднего плана. Когда откроется диалоговое окно, выберите **использовать IP-адреса и полное доменное имя в качестве начальных точек для всех эквивалентных серверов в этом кластере?**.
 

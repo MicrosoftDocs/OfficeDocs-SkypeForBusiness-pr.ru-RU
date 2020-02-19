@@ -12,18 +12,18 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c31d39ae7537fc53fc4e72c8b1c57863b2ba189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041118"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-lync-server-2013-environments"></a>Рекомендации по работе с средами Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2014-08-04_
 
 К текущим операциям системы следует применять следующие общие принципы:
 
-  - **Общие сведения и использование MOF**   MOF — это набор рекомендаций, принципов и моделей, которые предоставляют организациям технические рекомендации по управлению ИТ-ресурсами, например, ежедневных операций Lync Server 2013. Следующие рекомендации по MOF могут помочь в достижении критической надежности, доступности, поддержки и управляемости продуктов корпорации Майкрософт для производственной системы. Дополнительные сведения см. в [статье Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Общие сведения и использование MOF**   MOF — это набор рекомендаций, принципов и моделей, которые предоставляют организациям технические рекомендации по управлению ИТ-ресурсами, например, ежедневных операций Lync Server 2013. Следующие рекомендации по MOF могут помочь в достижении критической надежности, доступности, поддержки и управляемости продуктов корпорации Майкрософт для производственной системы. Дополнительные сведения см. в [статье Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939).
 
   - **Ознакомьтесь с рекомендациями по Lync Server 2013**   мы рекомендуем реализовать практические и проверенные процедуры для управления Lync Server 2013. Использование проверенных, проверенных и документированных методов управления операциями может оказаться более эффективным, чем разработка собственных методов.
 
@@ -104,7 +104,7 @@ _**Последнее изменение темы:** 2014-08-04_
 ## <a name="see-also"></a>См. также
 
 
-[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f55ec3444348b2717721dcad890a4712cd8b9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038231"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Рекомендации по развертыванию сервера-посредника в Lync Server 2013
 
@@ -73,7 +73,7 @@ _**Последнее изменение темы:** 2012-10-12_
 
 
 > [!NOTE]  
-> Обход сервера-посредника не будет взаимодействовать с каждым шлюзом ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала ряд шлюзов ТСОП и SBC с сертифицированными партнерами и выполнила некоторые тесты с IP-УАТС компании Cisco. Обход сервера-посредника поддерживается только для продуктов и версий, перечисленных в общедоступной программе для взаимодействия с <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>единой системой обмена сообщениями — Lync Server по адресу.
+> Обход сервера-посредника не будет взаимодействовать с каждым шлюзом ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала ряд шлюзов ТСОП и SBC с сертифицированными партнерами и выполнила некоторые тесты с IP-УАТС компании Cisco. Обход сервера-посредника поддерживается только для продуктов и версий, перечисленных в общедоступной программе для взаимодействия с <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>единой системой обмена сообщениями — Lync Server по адресу.
 
 
 
@@ -89,7 +89,7 @@ _**Последнее изменение темы:** 2012-10-12_
 
 
 > [!NOTE]  
-> Чтобы улучшить производительность автономного сервера-посредника, следует включить масштабирование на принимающей стороне (RSS) в сетевых адаптерах на этих серверах. RSS позволяет обрабатывать входящие пакеты параллельно несколькими процессорами на сервере. Дополнительные сведения см. в <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>разделе "улучшение масштабирования на стороне Windows Server". Сведения о включении RSS см. в документации вашего сетевого адаптера.
+> Чтобы улучшить производительность автономного сервера-посредника, следует включить масштабирование на принимающей стороне (RSS) в сетевых адаптерах на этих серверах. RSS позволяет обрабатывать входящие пакеты параллельно несколькими процессорами на сервере. Дополнительные сведения см. в <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>разделе "улучшение масштабирования на стороне Windows Server". Сведения о включении RSS см. в документации вашего сетевого адаптера.
 
 
 

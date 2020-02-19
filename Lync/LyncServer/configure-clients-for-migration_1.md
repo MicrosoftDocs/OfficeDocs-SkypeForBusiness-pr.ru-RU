@@ -13,18 +13,18 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 542ee4d581d4df26a528a14fda5de792c2a2ad09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41999194"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>Настройка клиентов для миграции
 
@@ -48,13 +48,13 @@ _**Последнее изменение темы:** 2013-11-21_
     
       - [Применение обновлений Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Описание накопительного пакета обновления для Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Описание накопительного пакета обновления для Communicator 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [Получение обновлений программного обеспечения для устройств](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [Получение обновлений программного обеспечения для устройств](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиентов, чтобы разрешить вход только клиентам Office Communications Server 2007 R2 с последними установленными обновлениями.
 
-3.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиентов для блокирования входа клиентов Lync Server 2013. Выполните действия, описанные в статье **Настройка фильтрации версий клиентов** , [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) чтобы добавить фильтры версий, перечисленные в следующей таблице. Для каждого фильтра версии назначьте действие **блокировать**.
+3.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиентов для блокирования входа клиентов Lync Server 2013. Выполните действия, описанные в статье **Настройка фильтрации версий клиентов** , [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) чтобы добавить фильтры версий, перечисленные в следующей таблице. Для каждого фильтра версии назначьте действие **блокировать**.
     
     
     <table>

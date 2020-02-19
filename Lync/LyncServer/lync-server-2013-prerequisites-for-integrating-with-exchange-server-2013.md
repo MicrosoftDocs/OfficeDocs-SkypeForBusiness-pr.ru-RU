@@ -12,18 +12,18 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92f88d35e573f0914698db28ddcf1fa54967f97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 686d7d5d65af28127ad95b2911962d707887029a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049861"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Необходимые условия для интеграции Microsoft Lync Server 2013 и Microsoft Exchange Server 2013
 
@@ -37,9 +37,9 @@ ms.locfileid: "42049861"
 
 _**Последнее изменение темы:** 2014-04-22_
 
-Перед интеграцией Microsoft Lync Server 2013 и Microsoft Exchange Server 2013 необходимо убедиться, что все необходимые действия выполнены. Как вы можете ожидать, интеграция не может быть выполнена, пока не будут полностью установлены и запущены Exchange 2013 и Lync Server 2013. Более подробную информацию об установке Exchange можно найти в документации по планированию и [http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)развертыванию Exchange 2013 на сайте. Подробные сведения об установке Lync Server 2013 можно найти в документации по планированию и [http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)развертыванию.
+Перед интеграцией Microsoft Lync Server 2013 и Microsoft Exchange Server 2013 необходимо убедиться, что все необходимые действия выполнены. Как вы можете ожидать, интеграция не может быть выполнена, пока не будут полностью установлены и запущены Exchange 2013 и Lync Server 2013. Более подробную информацию об установке Exchange можно найти в документации по планированию и [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)развертыванию Exchange 2013 на сайте. Подробные сведения об установке Lync Server 2013 можно найти в документации по планированию и [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)развертыванию.
 
-После установки и запуска серверов необходимо назначить сертификаты проверки подлинности "сервер – сервер" для Lync Server 2013 и Exchange 2013. Эти сертификаты позволяют Lync Server и Exchange обмениваться информацией и общаться друг с другом. При установке Exchange 2013 создается самозаверяющий сертификат с именем сертификата проверки подлинности Microsoft Exchange Server. Этот сертификат, который можно найти в хранилище сертификатов локального компьютера, должен использоваться для межсерверной проверки подлинности на сервере Exchange 2013. Подробные сведения о назначении сертификатов в Exchange 2013 приведены в [http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)разделе "Настройка почтового ящика и клиентского доступа".
+После установки и запуска серверов необходимо назначить сертификаты проверки подлинности "сервер – сервер" для Lync Server 2013 и Exchange 2013. Эти сертификаты позволяют Lync Server и Exchange обмениваться информацией и общаться друг с другом. При установке Exchange 2013 создается самозаверяющий сертификат с именем сертификата проверки подлинности Microsoft Exchange Server. Этот сертификат, который можно найти в хранилище сертификатов локального компьютера, должен использоваться для межсерверной проверки подлинности на сервере Exchange 2013. Подробные сведения о назначении сертификатов в Exchange 2013 приведены в [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)разделе "Настройка почтового ящика и клиентского доступа".
 
 Для Lync Server 2013 вы можете использовать существующий сертификат Lync Server в качестве сертификата проверки подлинности "сервер – сервер"; Например, сертификат по умолчанию также можно использовать в качестве сертификата OAuthTokenIssuer. Lync Server 2013 позволяет использовать любой сертификат веб-сервера в качестве сертификата для проверки подлинности "сервер-сервер" при условии, что:
 
@@ -73,7 +73,7 @@ URI автообнаружения можно назначить с помощь
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-Подробные сведения о службе автообнаружения содержатся в [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)разделе "Общие сведения о службе автообнаружения".
+Подробные сведения о службе автообнаружения содержатся в [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)разделе "Общие сведения о службе автообнаружения".
 
 После настройки службы автообнаружения необходимо изменить параметры конфигурации OAuth для Lync Server; Это гарантирует, что Lync Server будет знать, где найти службу автообнаружения. Чтобы изменить параметры конфигурации OAuth в Lync Server 2013, выполните следующую команду в командной консоли Lync Server. При выполнении этой команды необходимо указать универсальный код ресурса (URI) для службы автообнаружения, запущенной на сервере Exchange Server, и использовать функцию **автообнаружения. svc** для указания расположения службы вместо **автообнаружения. XML** (указывает на XML-файл, используемый службой):
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 033f3a12ccbe0817f586aa7eb868679fa44541fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046112"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="understanding-autodiscover-in-lync-server-2013"></a>Общие сведения о службе автообнаружения в Lync Server 2013
 
@@ -59,7 +59,7 @@ _**Последнее изменение темы:** 2013-06-03_
 
 
 > [!NOTE]  
-> Веб-служба автообнаружения Lync определена в разделе <STRONG>протоколы Microsoft Office</STRONG> в разделе <STRONG>Open спецификации</STRONG> библиотеки <STRONG>Microsoft Developer Network</STRONG> (MSDN). Подробные сведения см. в документе с полным описанием "протокол веб-службы автообнаружения Lync" по <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>адресу:. Подробные сведения о проверке подлинности можно найти в <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>разделе "протокол веб-службы OC Authentication".
+> Веб-служба автообнаружения Lync определена в разделе <STRONG>протоколы Microsoft Office</STRONG> в разделе <STRONG>Open спецификации</STRONG> библиотеки <STRONG>Microsoft Developer Network</STRONG> (MSDN). Подробные сведения см. в документе с полным описанием "протокол веб-службы автообнаружения Lync" по <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>адресу:. Подробные сведения о проверке подлинности можно найти в <A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>разделе "протокол веб-службы OC Authentication".
 
 
 

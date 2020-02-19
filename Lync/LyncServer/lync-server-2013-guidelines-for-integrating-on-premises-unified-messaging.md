@@ -12,18 +12,18 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1be763250edf7222b900aef88665b3e360e8125c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e8e4e325ba766967292c24f2a3b62ec233a73ec5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006225"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013
 
@@ -115,13 +115,13 @@ _**Последнее изменение темы:** 2012-09-25_
 
 В примере 2 при обычных условиях работы серверов единой системы обмена сообщениями Exchange 1 и 2 включены в центре обработки данных в Таквила, серверы единой системы обмена сообщениями Exchange 3 и 4 включены в центре обработки данных Дублина. Все четыре сервера включены в абонентскую группу SIP URI Таквила. Но серверы 3 и 4 отключены. В случае сбоя единой системы обмена сообщениями Exchange в Таквила, например, серверы единой системы обмена сообщениями Exchange 1 и 2 должны быть отключены, а серверы единой системы обмена сообщениями Exchange 4 и 3 должны быть включены, чтобы трафик единой системы обмена сообщениями Exchange из Таквила направлялся на серверы в Дублине.
 
-Сведения о том, как включить или отключить единую систему обмена сообщениями в Exchange 2013, можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)разделе "интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server".
+Сведения о том, как включить или отключить единую систему обмена сообщениями в Exchange 2013, можно найти в [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)разделе "интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server".
 
 Сведения о том, как включить или отключить единую систему обмена сообщениями в Microsoft Exchange Server 2010, можно найти в следующих статьях:
 
-  - "Включить единую систему обмена сообщениями в [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010" по адресу.
+  - "Включить единую систему обмена сообщениями в [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010" по адресу.
 
-  - "Отключить единую систему обмена сообщениями в [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010" по адресу.
+  - "Отключить единую систему обмена сообщениями в [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010" по адресу.
 
 </div>
 

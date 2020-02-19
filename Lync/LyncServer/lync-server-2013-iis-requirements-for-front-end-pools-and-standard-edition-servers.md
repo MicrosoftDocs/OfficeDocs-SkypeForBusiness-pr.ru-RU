@@ -12,18 +12,18 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8efd91c3222e5918640c4a8b078d9fdd5ebcdaae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037871"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013
 
@@ -70,7 +70,7 @@ Lync Server требует установки следующих модулей 
 
 
 > [!IMPORTANT]
-> Если в Организации требуется, чтобы службы IIS и все веб-службы настроились на диске, отличном от системного диска, можно изменить путь к расположению установки для файлов Lync Server в диалоговом окне программы установки. Если вы устанавливаете файлы установки по указанному пути, включая OCSCore. msi, остальные файлы Lync Server будут развернуты на этом диске. Сведения о том, как переместить INETPUB, развернутый диспетчером Windows Server при установке IIS, <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>можно узнать в разделе.
+> Если в Организации требуется, чтобы службы IIS и все веб-службы настроились на диске, отличном от системного диска, можно изменить путь к расположению установки для файлов Lync Server в диалоговом окне программы установки. Если вы устанавливаете файлы установки по указанному пути, включая OCSCore. msi, остальные файлы Lync Server будут развернуты на этом диске. Сведения о том, как переместить INETPUB, развернутый диспетчером Windows Server при установке IIS, <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>можно узнать в разделе.
 
 
   - Статическое содержимое

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2ad6cf0792898994ba2b31f94cccf878337d1d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1b6bc4e491741540b702e55a3def9b55fec51117
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036981"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-devices-in-lync-server-2013"></a>Планирование устройств в Lync Server 2013
 
@@ -37,15 +37,15 @@ ms.locfileid: "42036981"
 
 _**Последнее изменение темы:** 2013-02-28_
 
-Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое. Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010. Сведения о планировании устройств приведены в статье [планирование устройств](http://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet для Lync Server 2010.
+Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое. Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010. Сведения о планировании устройств приведены в статье [планирование устройств](https://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet для Lync Server 2010.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Развертывание устройств](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[Поддержка программного обеспечения и инфраструктуры клиентов и устройств](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[Развертывание устройств](https://go.microsoft.com/fwlink/p/?linkid=285881)  
+[Поддержка программного обеспечения и инфраструктуры клиентов и устройств](https://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7070dbf25357d886b2e82e4da0140a724cbec853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030182"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Платформы, поддерживаемые в Lync Web App для Lync Server 2013
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2017-02-07_
 
 
 > [!NOTE]  
-> Подключаемый модуль необходим для определенных функций Lync Web App, включая компьютерную голосовую связь, видео, общий доступ и просмотр текущего общего доступа к экрану. Вы можете установить подключаемый модуль общего доступа при присоединении к собранию или при инициации одной из этих функций. 1 <BR>
+> Подключаемый модуль необходим для определенных функций Lync Web App, включая компьютерную голосовую связь, видео, общий доступ и просмотр текущего общего доступа к экрану. Вы можете установить подключаемый модуль общего доступа при присоединении к собранию или при инициации одной из этих функций. 1,1<BR>
 
 
 

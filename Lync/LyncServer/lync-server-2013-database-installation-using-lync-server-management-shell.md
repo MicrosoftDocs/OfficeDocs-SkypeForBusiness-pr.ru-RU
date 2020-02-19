@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044141"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Установка базы данных с помощью командной консоли Lync Server в Lync Server 2013
 
@@ -77,7 +77,7 @@ _**Последнее изменение темы:** 2016-06-16_
 
 1.  Войдите на любой компьютер, используя учетные данные администратора для создания баз данных на сервере SQL Server. Дополнительные сведения см [в разделе разрешения на развертывание для SQL Server в Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Откройте консоль управления Lync Server 2013. Если вы не настроили политику выполнения для Windows PowerShell, необходимо настроить политику, чтобы разрешить выполнение сценариев Windows PowerShell. Дополнительные сведения см. в [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)разделе "Проверка политики выполнения".
+2.  Откройте консоль управления Lync Server 2013. Если вы не настроили политику выполнения для Windows PowerShell, необходимо настроить политику, чтобы разрешить выполнение сценариев Windows PowerShell. Дополнительные сведения см. в [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)разделе "Проверка политики выполнения".
 
 3.  Используйте командлет **Install – CsDatabase** для установки центрального хранилища управления.
     

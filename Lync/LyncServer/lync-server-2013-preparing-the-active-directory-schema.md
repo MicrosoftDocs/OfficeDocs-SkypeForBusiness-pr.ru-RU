@@ -12,18 +12,18 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d92527ce109e68c932a9875020aab647bb6a723b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050501"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Подготовка схемы Active Directory в Lync Server 2013
 
@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2012-08-27_
 
 
 > [!NOTE]  
-> Если вам нужно добавить поддержку Microsoft® Office Communicator Mobile 2007 R2 для Java и Microsoft® Office Communicator Mobile для Nokia 1,0 для мобильных клиентов в развертывание Lync Server 2013, необходимо подготовить схему Active Directory для Microsoft Office. Communications Server 2007 R2 во время установки Lync Server 2013. Необходимое программное обеспечение и документация см <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>.
+> Если вам нужно добавить поддержку Microsoft® Office Communicator Mobile 2007 R2 для Java и Microsoft® Office Communicator Mobile для Nokia 1,0 для мобильных клиентов в развертывание Lync Server 2013, необходимо подготовить схему Active Directory для Microsoft Office. Communications Server 2007 R2 во время установки Lync Server 2013. Необходимое программное обеспечение и документация см <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>.
 
 
 
@@ -69,7 +69,7 @@ _**Последнее изменение темы:** 2012-08-27_
 
 Редактор ADSI устанавливается по умолчанию при установке роли AD DS, чтобы сделать сервер контроллером домена. Для Windows Server 2008 и Windows Server 2008 R2 в состав средств удаленного администрирования сервера (RSAT. msc) включено средство редактирования ADSI (adsiedit. msc). Можно также установить RSAT на рядовые серверы или автономные серверы. Пакет RSAT копируется на эти серверы по умолчанию при установке Windows, но их установка по умолчанию не выполняется. Можно установить отдельные средства с помощью диспетчера серверов. Редактор ADSI входит в **средства администрирования ролей**, **средства доменных служб Active Directory** и **средства контроллера домена Active Directory**.
 
-При использовании Windows Server 2003 редактор ADSI входит в состав средств поддержки. Средства поддержки доступны на компакт-диске Windows Server 2003 в папке " \\средства\\поддержки", или их можно загрузить с помощью средства поддержки Windows Server 2003 с пакетом обновления 2 32-разрядные [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)версии. Инструкции по установке средств поддержки с компакт-диска продукта доступны в разделе "Установка средств поддержки Windows" [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771). Регистрация Adsiedit.dll выполняется автоматически при установке средств поддержки. Однако, если вы скопировали файлы на компьютер, необходимо выполнить команду **regsvr32** для регистрации файла adsiedit.dll, прежде чем вы сможете запустить это средство.
+При использовании Windows Server 2003 редактор ADSI входит в состав средств поддержки. Средства поддержки доступны на компакт-диске Windows Server 2003 в папке " \\средства\\поддержки", или их можно загрузить с помощью средства поддержки Windows Server 2003 с пакетом обновления 2 32-разрядные [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)версии. Инструкции по установке средств поддержки с компакт-диска продукта доступны в разделе "Установка средств поддержки Windows" [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771). Регистрация Adsiedit.dll выполняется автоматически при установке средств поддержки. Однако, если вы скопировали файлы на компьютер, необходимо выполнить команду **regsvr32** для регистрации файла adsiedit.dll, прежде чем вы сможете запустить это средство.
 
 </div>
 

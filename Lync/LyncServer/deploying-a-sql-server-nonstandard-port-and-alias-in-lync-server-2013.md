@@ -12,18 +12,18 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef6082c4d2df6936557cf6f6c82a1d495888f55
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1134422c8c55a60858a9fd8c28be2e6ff159d48
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006425"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Развертывание нестандартного порта и псевдонима SQL Server в Lync Server 2013
 
@@ -77,7 +77,7 @@ Lync Server 2013 Topology Builder поддерживает использова�
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>Подтверждение применения последних обновлений для Lync Server 2013
 
-Важно поддерживать Lync Server 2013 в актуальном состоянии. Чтобы проверить наличие последних обновлений и сведения о том, как их применять, ознакомьтесь с [Разобновлением для Lync Server 2013](http://support.microsoft.com/kb/2809243).
+Важно поддерживать Lync Server 2013 в актуальном состоянии. Чтобы проверить наличие последних обновлений и сведения о том, как их применять, ознакомьтесь с [Разобновлением для Lync Server 2013](https://support.microsoft.com/kb/2809243).
 
 </div>
 

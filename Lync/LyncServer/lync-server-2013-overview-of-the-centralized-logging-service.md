@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049711"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Обзор централизованной службы ведения журналов в Lync Server 2013
 
@@ -61,7 +61,7 @@ ClsAgent поддерживает файл индекса всех файлов 
 
 </div>
 
-Результирующие файлы журналов можно считывать и анализировать с помощью различных средств, в том числе с помощью **Snooper.exe** и других средств, способных считывать текстовые файлы, таких как **Notepad.exe**. Snooper. exe является частью средств отладки Lync Server 2013 и доступна для скачивания в Интернете [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257).
+Результирующие файлы журналов можно считывать и анализировать с помощью различных средств, в том числе с помощью **Snooper.exe** и других средств, способных считывать текстовые файлы, таких как **Notepad.exe**. Snooper. exe является частью средств отладки Lync Server 2013 и доступна для скачивания в Интернете [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257).
 
 Как и в OCSLogger, централизованная служба ведения журналов имеет несколько компонентов для трассировки и предоставляет параметры для выбора флагов, таких\_как TF Component\_и TF DIAG. Служба централизованного ведения журналов также сохраняет параметры уровня ведения журнала OCSLogger.
 
