@@ -12,20 +12,20 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 535574a47a9ea77b5db20e45dcdcbb62fab2e4b9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 46fe499cdf622315ae0d0d789f0a3ed4283d78c1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048132"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="54322-102">Настройка статического маршрута для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54322-102">Configure a static route for remote call control in Lync Server 2013</span></span>
+# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="14561-102">Настройка статического маршрута для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14561-102">Configure a static route for remote call control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42048132"
 
 <span> </span>
 
-<span data-ttu-id="54322-103">_**Последнее изменение темы:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="54322-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="14561-103">_**Последнее изменение темы:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="14561-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="54322-104">Для удаленного управления вызовами необходимо, чтобы каждый пул Lync Server был настроен с использованием пути из этого пула к шлюзу SIP/CSTA, который подключается к УАТС.</span><span class="sxs-lookup"><span data-stu-id="54322-104">Remote call control requires that every Lync Server pool is configured with a path from that pool to the SIP/CSTA gateway that connects to the private branch exchange (PBX).</span></span> <span data-ttu-id="54322-105">Этот путь требует, чтобы каждому пулу был назначен один статический маршрут на каждый шлюз, на который пул будет передавать сообщения управления вызовами SIP, связанные с вызовами в УАТС.</span><span class="sxs-lookup"><span data-stu-id="54322-105">This path requires that each pool has one static route for each gateway to which the pool will proxy SIP call control messages associated with calls to the PBX.</span></span> <span data-ttu-id="54322-106">Если настроить глобальный статический маршрут для удаленного управления вызовами, каждый пул, для которого не задан статический маршрут на уровне пула, будет использовать этот глобальный маршрут.</span><span class="sxs-lookup"><span data-stu-id="54322-106">If you configure a global static route for remote call control, each pool that is not configured with a static route at the pool level will use the global static route.</span></span>
+<span data-ttu-id="14561-104">Для удаленного управления вызовами необходимо, чтобы каждый пул Lync Server был настроен с использованием пути из этого пула к шлюзу SIP/CSTA, который подключается к УАТС.</span><span class="sxs-lookup"><span data-stu-id="14561-104">Remote call control requires that every Lync Server pool is configured with a path from that pool to the SIP/CSTA gateway that connects to the private branch exchange (PBX).</span></span> <span data-ttu-id="14561-105">Этот путь требует, чтобы каждому пулу был назначен один статический маршрут на каждый шлюз, на который пул будет передавать сообщения управления вызовами SIP, связанные с вызовами в УАТС.</span><span class="sxs-lookup"><span data-stu-id="14561-105">This path requires that each pool has one static route for each gateway to which the pool will proxy SIP call control messages associated with calls to the PBX.</span></span> <span data-ttu-id="14561-106">Если настроить глобальный статический маршрут для удаленного управления вызовами, каждый пул, для которого не задан статический маршрут на уровне пула, будет использовать этот глобальный маршрут.</span><span class="sxs-lookup"><span data-stu-id="14561-106">If you configure a global static route for remote call control, each pool that is not configured with a static route at the pool level will use the global static route.</span></span>
 
 <div>
 
-## <a name="to-configure-a-static-route-for-remote-call-control"></a><span data-ttu-id="54322-107">Настройка статического маршрута для удаленного управления вызовами</span><span class="sxs-lookup"><span data-stu-id="54322-107">To configure a static route for remote call control</span></span>
+## <a name="to-configure-a-static-route-for-remote-call-control"></a><span data-ttu-id="14561-107">Настройка статического маршрута для удаленного управления вызовами</span><span class="sxs-lookup"><span data-stu-id="14561-107">To configure a static route for remote call control</span></span>
 
-1.  <span data-ttu-id="54322-108">Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или роли управления доступом на основе ролей (RBAC), которой назначен командлет **New-CsStaticRoute** .</span><span class="sxs-lookup"><span data-stu-id="54322-108">Log on to a computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsStaticRoute** cmdlet.</span></span>
+1.  <span data-ttu-id="14561-108">Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или роли управления доступом на основе ролей (RBAC), которой назначен командлет **New-CsStaticRoute** .</span><span class="sxs-lookup"><span data-stu-id="14561-108">Log on to a computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsStaticRoute** cmdlet.</span></span>
 
-2.  <span data-ttu-id="54322-109">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="54322-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="14561-109">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="14561-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="54322-110">Чтобы настроить статический маршрут и поместить его в переменную $TLSRoute или $TCPRoute, выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="54322-110">To create a static route and put it in the variable $TLSRoute or $TCPRoute, do one of the following:</span></span>
+3.  <span data-ttu-id="14561-110">Чтобы настроить статический маршрут и поместить его в переменную $TLSRoute или $TCPRoute, выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="14561-110">To create a static route and put it in the variable $TLSRoute or $TCPRoute, do one of the following:</span></span>
     
     <div class="">
     
 
     > [!TIP]  
-    > <span data-ttu-id="54322-p102">Для сопоставления дочерних доменов домена можно указать подстановочное значение параметра MatchUri. Например, <STRONG>\*.contoso.net</STRONG>. Это значение соответствует любому домену, который заканчивается суффиксом <STRONG>contoso.net</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="54322-p102">To match child domains of a domain, you can specify a wildcard value in the MatchUri parameter. For example, <STRONG>\*.contoso.net</STRONG>. That value matches any domain that ends with the suffix <STRONG>contoso.net</STRONG>.</span></span>
+    > <span data-ttu-id="14561-p102">Для сопоставления дочерних доменов домена можно указать подстановочное значение параметра MatchUri. Например, <STRONG>\*.contoso.net</STRONG>. Это значение соответствует любому домену, который заканчивается суффиксом <STRONG>contoso.net</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="14561-p102">To match child domains of a domain, you can specify a wildcard value in the MatchUri parameter. For example, <STRONG>\*.contoso.net</STRONG>. That value matches any domain that ends with the suffix <STRONG>contoso.net</STRONG>.</span></span>
 
     
     </div>
     
-      - <span data-ttu-id="54322-114">Для подключения по протоколу TLS введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="54322-114">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="14561-114">Для подключения по протоколу TLS введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="14561-114">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
         
         ```powershell
         $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
         ```
-        <span data-ttu-id="54322-115">Пример:</span><span class="sxs-lookup"><span data-stu-id="54322-115">For example:</span></span>
+        <span data-ttu-id="14561-115">Пример:</span><span class="sxs-lookup"><span data-stu-id="14561-115">For example:</span></span>
         ```powershell
         $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
         ```
-        <span data-ttu-id="54322-116">Если для Уседефаултцертификате задано значение false, необходимо указать параметры TLSCertIssuer и TLSCertSerialNumber.</span><span class="sxs-lookup"><span data-stu-id="54322-116">If UseDefaultCertificate is set to False, you must specify TLSCertIssuer and TLSCertSerialNumber parameters.</span></span> <span data-ttu-id="54322-117">Эти параметры указывают имя центра сертификации (ЦС), который выдал сертификат, используемый в статическом маршруте, и серийный номер этого сертификата TLS соответственно.</span><span class="sxs-lookup"><span data-stu-id="54322-117">These parameters indicate the name of the certification authority (CA) that issued the certificate used in the static route, and the serial number of that TLS certificate, respectively.</span></span> <span data-ttu-id="54322-118">Для получения дополнительных сведений об этих параметрах ознакомьтесь со статьей Справка по консоли управления Lync Server, введя следующую команду в командной строке:</span><span class="sxs-lookup"><span data-stu-id="54322-118">For details about these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
+        <span data-ttu-id="14561-116">Если для Уседефаултцертификате задано значение false, необходимо указать параметры TLSCertIssuer и TLSCertSerialNumber.</span><span class="sxs-lookup"><span data-stu-id="14561-116">If UseDefaultCertificate is set to False, you must specify TLSCertIssuer and TLSCertSerialNumber parameters.</span></span> <span data-ttu-id="14561-117">Эти параметры указывают имя центра сертификации (ЦС), который выдал сертификат, используемый в статическом маршруте, и серийный номер этого сертификата TLS соответственно.</span><span class="sxs-lookup"><span data-stu-id="14561-117">These parameters indicate the name of the certification authority (CA) that issued the certificate used in the static route, and the serial number of that TLS certificate, respectively.</span></span> <span data-ttu-id="14561-118">Для получения дополнительных сведений об этих параметрах ознакомьтесь со статьей Справка по консоли управления Lync Server, введя следующую команду в командной строке:</span><span class="sxs-lookup"><span data-stu-id="14561-118">For details about these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
         ```powershell
         Get-Help New-CsStaticRoute -Full
         ```
-      - <span data-ttu-id="54322-119">Для подключения по протоколу TCP введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="54322-119">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="14561-119">Для подключения по протоколу TCP введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="14561-119">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
         
         <div class="">
         
 
         > [!NOTE]  
-        > <span data-ttu-id="54322-120">Если указывается полное доменное имя, сначала необходимо настроить запись DNS.</span><span class="sxs-lookup"><span data-stu-id="54322-120">If you specify a fully qualified domain name (FQDN), you must configure a Domain Name System (DNS) A record first.</span></span>
+        > <span data-ttu-id="14561-120">Если указывается полное доменное имя, сначала необходимо настроить запись DNS.</span><span class="sxs-lookup"><span data-stu-id="14561-120">If you specify a fully qualified domain name (FQDN), you must configure a Domain Name System (DNS) A record first.</span></span>
 
         
         </div>
@@ -85,23 +85,23 @@ ms.locfileid: "42048132"
         ```powershell
         $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         ```
-        <span data-ttu-id="54322-121">Например:</span><span class="sxs-lookup"><span data-stu-id="54322-121">For example:</span></span>
+        <span data-ttu-id="14561-121">Например:</span><span class="sxs-lookup"><span data-stu-id="14561-121">For example:</span></span>
         ```powershell
         $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
         ```
-        <span data-ttu-id="54322-122">Ниже приведены значения по умолчанию для необязательных параметров статических маршрутов.</span><span class="sxs-lookup"><span data-stu-id="54322-122">The following are default values for optional parameters for static routes:</span></span>
+        <span data-ttu-id="14561-122">Ниже приведены значения по умолчанию для необязательных параметров статических маршрутов.</span><span class="sxs-lookup"><span data-stu-id="14561-122">The following are default values for optional parameters for static routes:</span></span>
         
-          - <span data-ttu-id="54322-123">Enabled = True</span><span class="sxs-lookup"><span data-stu-id="54322-123">Enabled = True</span></span>
+          - <span data-ttu-id="14561-123">Enabled = True</span><span class="sxs-lookup"><span data-stu-id="14561-123">Enabled = True</span></span>
         
-          - <span data-ttu-id="54322-124">MatchOnlyPhoneUri = False</span><span class="sxs-lookup"><span data-stu-id="54322-124">MatchOnlyPhoneUri = False</span></span>
+          - <span data-ttu-id="14561-124">MatchOnlyPhoneUri = False</span><span class="sxs-lookup"><span data-stu-id="14561-124">MatchOnlyPhoneUri = False</span></span>
         
-          - <span data-ttu-id="54322-125">ReplaceHostInRequestUri = False</span><span class="sxs-lookup"><span data-stu-id="54322-125">ReplaceHostInRequestUri = False</span></span>
+          - <span data-ttu-id="14561-125">ReplaceHostInRequestUri = False</span><span class="sxs-lookup"><span data-stu-id="14561-125">ReplaceHostInRequestUri = False</span></span>
         
-        <span data-ttu-id="54322-126">Настоятельно рекомендуем не изменять эти значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="54322-126">We strongly recommend that you do not change these default values.</span></span> <span data-ttu-id="54322-127">Тем не менее, если необходимо изменить любой из этих параметров, ознакомьтесь со статьей Справка по консоли управления Lync Server, введя следующую команду в командной строке:</span><span class="sxs-lookup"><span data-stu-id="54322-127">However, if you must change any of these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
+        <span data-ttu-id="14561-126">Настоятельно рекомендуем не изменять эти значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="14561-126">We strongly recommend that you do not change these default values.</span></span> <span data-ttu-id="14561-127">Тем не менее, если необходимо изменить любой из этих параметров, ознакомьтесь со статьей Справка по консоли управления Lync Server, введя следующую команду в командной строке:</span><span class="sxs-lookup"><span data-stu-id="14561-127">However, if you must change any of these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
         ```powershell
         Get-Help New-CsStaticRoute -Full
         ```
-4.  <span data-ttu-id="54322-128">Чтобы сохранить только что созданный статический маршрут в центральном хранилище управления, выполните одно из следующих действий (при необходимости).</span><span class="sxs-lookup"><span data-stu-id="54322-128">To persist a newly created static route in the Central Management store, run one of the following, as appropriate:</span></span>
+4.  <span data-ttu-id="14561-128">Чтобы сохранить только что созданный статический маршрут в центральном хранилище управления, выполните одно из следующих действий (при необходимости).</span><span class="sxs-lookup"><span data-stu-id="14561-128">To persist a newly created static route in the Central Management store, run one of the following, as appropriate:</span></span>
     
        ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
@@ -115,11 +115,11 @@ ms.locfileid: "42048132"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="54322-129">См. также</span><span class="sxs-lookup"><span data-stu-id="54322-129">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="14561-129">См. также</span><span class="sxs-lookup"><span data-stu-id="14561-129">See Also</span></span>
 
 
-[<span data-ttu-id="54322-130">Настройка записи доверенного приложения для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54322-130">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
-[<span data-ttu-id="54322-131">Определение IP-адреса шлюза SIP/CSTA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54322-131">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[<span data-ttu-id="14561-130">Настройка записи доверенного приложения для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14561-130">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="14561-131">Определение IP-адреса шлюза SIP/CSTA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14561-131">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>

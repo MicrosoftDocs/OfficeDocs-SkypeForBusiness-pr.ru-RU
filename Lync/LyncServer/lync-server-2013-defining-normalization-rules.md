@@ -12,20 +12,20 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99a09f5075ffe8ff267f31333d3dba0f4fffbc41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e19edb375235d64587c60b2abf388835ffc468e7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036398"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="0eeb6-102">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0eeb6-102">Defining normalization rules in Lync Server 2013</span></span>
+# <a name="defining-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="81bc2-102">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81bc2-102">Defining normalization rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42036398"
 
 <span> </span>
 
-<span data-ttu-id="0eeb6-103">_**Последнее изменение темы:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="0eeb6-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="81bc2-103">_**Последнее изменение темы:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="81bc2-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="0eeb6-104">В правилах нормализации Lync Server 2013 для преобразования набранных номеров в формат E. 164 используются регулярные выражения .NET Framework; другими словами, правила нормализации получают телефонный номер, набранный пользователем, и преобразовывают его в формат, используемый внешним приложением Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0eeb6-104">Lync Server 2013 normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format; in other words, normalization rules take the phone number dialed by a user and convert that number to the format used internally by Lync Server.</span></span> <span data-ttu-id="0eeb6-105">Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.</span><span class="sxs-lookup"><span data-stu-id="0eeb6-105">Each dial plan must be assigned one or more normalization rules.</span></span>
+<span data-ttu-id="81bc2-104">В правилах нормализации Lync Server 2013 для преобразования набранных номеров в формат E. 164 используются регулярные выражения .NET Framework; другими словами, правила нормализации получают телефонный номер, набранный пользователем, и преобразовывают его в формат, используемый внешним приложением Lync Server.</span><span class="sxs-lookup"><span data-stu-id="81bc2-104">Lync Server 2013 normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format; in other words, normalization rules take the phone number dialed by a user and convert that number to the format used internally by Lync Server.</span></span> <span data-ttu-id="81bc2-105">Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.</span><span class="sxs-lookup"><span data-stu-id="81bc2-105">Each dial plan must be assigned one or more normalization rules.</span></span>
 
-<span data-ttu-id="0eeb6-106">Подробные сведения о правилах нормализации приведены [в статье Планирование и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) .</span><span class="sxs-lookup"><span data-stu-id="0eeb6-106">For details about normalization rules, see [Dial plans and normalization rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in the Planning documentation.</span></span>
+<span data-ttu-id="81bc2-106">Подробные сведения о правилах нормализации приведены [в статье Планирование и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) .</span><span class="sxs-lookup"><span data-stu-id="81bc2-106">For details about normalization rules, see [Dial plans and normalization rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="0eeb6-107">Сведения о том, как писать регулярные выражения, можно найти в [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)разделе "регулярные выражения .NET Framework".</span><span class="sxs-lookup"><span data-stu-id="0eeb6-107">For details about how to write regular expressions, see ".NET Framework Regular Expressions" at [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927).</span></span>
+<span data-ttu-id="81bc2-107">Сведения о том, как писать регулярные выражения, можно найти в [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)разделе "регулярные выражения .NET Framework".</span><span class="sxs-lookup"><span data-stu-id="81bc2-107">For details about how to write regular expressions, see ".NET Framework Regular Expressions" at [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927).</span></span>
 
-<span data-ttu-id="0eeb6-108">Для задания или изменения регулярных выражений можно использовать следующие способы.</span><span class="sxs-lookup"><span data-stu-id="0eeb6-108">You can use either of the following methods to define or edit a normalization rule:</span></span>
+<span data-ttu-id="81bc2-108">Для задания или изменения регулярных выражений можно использовать следующие способы.</span><span class="sxs-lookup"><span data-stu-id="81bc2-108">You can use either of the following methods to define or edit a normalization rule:</span></span>
 
-  - <span data-ttu-id="0eeb6-109">Используйте средство **создания правил нормализации** , чтобы указать значения для начальных цифр, длину, цифр для удаления и цифр для добавления, а затем позвольте панели управления Lync Server создать соответствующий шаблон и правило преобразования.</span><span class="sxs-lookup"><span data-stu-id="0eeb6-109">Use the **Build a Normalization Rule** tool to specify values for the starting digits, length, digits to remove and digits to add, and then let Lync Server Control Panel generate the corresponding matching pattern and translation rule for you.</span></span>
+  - <span data-ttu-id="81bc2-109">Используйте средство **создания правил нормализации** , чтобы указать значения для начальных цифр, длину, цифр для удаления и цифр для добавления, а затем позвольте панели управления Lync Server создать соответствующий шаблон и правило преобразования.</span><span class="sxs-lookup"><span data-stu-id="81bc2-109">Use the **Build a Normalization Rule** tool to specify values for the starting digits, length, digits to remove and digits to add, and then let Lync Server Control Panel generate the corresponding matching pattern and translation rule for you.</span></span>
 
-  - <span data-ttu-id="0eeb6-110">Запишите регулярные выражения вручную, чтобы определить шаблон сопоставления и правило преобразования.</span><span class="sxs-lookup"><span data-stu-id="0eeb6-110">Write regular expressions manually to define the matching pattern and translation rule.</span></span>
+  - <span data-ttu-id="81bc2-110">Запишите регулярные выражения вручную, чтобы определить шаблон сопоставления и правило преобразования.</span><span class="sxs-lookup"><span data-stu-id="81bc2-110">Write regular expressions manually to define the matching pattern and translation rule.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0eeb6-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="0eeb6-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="81bc2-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="81bc2-111">In This Section</span></span>
 
-  - [<span data-ttu-id="0eeb6-112">Создание или изменение правила нормализации с помощью построения правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0eeb6-112">Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)
+  - [<span data-ttu-id="81bc2-112">Создание или изменение правила нормализации с помощью построения правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81bc2-112">Create or modify a normalization rule by using Build a Normalization Rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)
 
-  - [<span data-ttu-id="0eeb6-113">Создание или изменение правила нормализации вручную в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0eeb6-113">Create or modify a normalization rule manually in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)
+  - [<span data-ttu-id="81bc2-113">Создание или изменение правила нормализации вручную в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81bc2-113">Create or modify a normalization rule manually in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0eeb6-114">См. также</span><span class="sxs-lookup"><span data-stu-id="0eeb6-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="81bc2-114">См. также</span><span class="sxs-lookup"><span data-stu-id="81bc2-114">See Also</span></span>
 
 
-[<span data-ttu-id="0eeb6-115">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0eeb6-115">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
-[<span data-ttu-id="0eeb6-116">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0eeb6-116">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
+[<span data-ttu-id="81bc2-115">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81bc2-115">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="81bc2-116">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81bc2-116">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)  
   
 
 </div>

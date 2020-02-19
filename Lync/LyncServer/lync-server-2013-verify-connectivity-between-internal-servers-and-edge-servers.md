@@ -12,20 +12,20 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf2a8c64e549a90661d10614254c5937ebde603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8165781f9604b84f5b846ebda8679f9110262b88
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007358"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a><span data-ttu-id="f7d6c-102">Проверка подключения между внутренними и пограничными серверами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7d6c-102">Verify connectivity between internal servers and Edge Servers in Lync Server 2013</span></span>
+# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a><span data-ttu-id="8b2ae-102">Проверка подключения между внутренними и пограничными серверами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b2ae-102">Verify connectivity between internal servers and Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42007358"
 
 <span> </span>
 
-<span data-ttu-id="f7d6c-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="f7d6c-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="8b2ae-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="8b2ae-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="f7d6c-104">В Lync Server 2013 был доступен отдельный мастер проверки для проверки связи между пограничными серверами и внутренними серверами.</span><span class="sxs-lookup"><span data-stu-id="f7d6c-104">In Lync Server 2013, a separate validation wizard was available to help validate connectivity between Edge Servers and internal servers.</span></span> <span data-ttu-id="f7d6c-105">При установке пограничных серверов в Lync Server 2013 проверка подключения выполняется автоматически.</span><span class="sxs-lookup"><span data-stu-id="f7d6c-105">In Lync Server 2013 validation of connectivity is done automatically when you install your Edge Servers.</span></span>
+<span data-ttu-id="8b2ae-104">В Lync Server 2013 был доступен отдельный мастер проверки для проверки связи между пограничными серверами и внутренними серверами.</span><span class="sxs-lookup"><span data-stu-id="8b2ae-104">In Lync Server 2013, a separate validation wizard was available to help validate connectivity between Edge Servers and internal servers.</span></span> <span data-ttu-id="8b2ae-105">При установке пограничных серверов в Lync Server 2013 проверка подключения выполняется автоматически.</span><span class="sxs-lookup"><span data-stu-id="8b2ae-105">In Lync Server 2013 validation of connectivity is done automatically when you install your Edge Servers.</span></span>
 
-<span data-ttu-id="f7d6c-106">Вы можете проверить репликацию сведений о конфигурации на пограничный сервер, выполнив командлет Windows PowerShell **Get-CsManagementStoreReplicationStatus** на внутреннем компьютере, на котором расположено центральное хранилище управления (или на любом присоединенном к домену компьютере, на котором установлен основной компонент Lync Server 2013 (OcsCore. msi).</span><span class="sxs-lookup"><span data-stu-id="f7d6c-106">You can validate the replication of configuration information to the edge by running the Windows PowerShell **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located (or any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span> <span data-ttu-id="f7d6c-107">В начальных результатах для репликации может быть указано состояние "False" вместо "True".</span><span class="sxs-lookup"><span data-stu-id="f7d6c-107">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="f7d6c-108">В этом случае выполните командлет **Invoke-CsManagementStoreReplication** и дождитесь завершения репликации перед повторным выполнением **Get-CsManagementStoreReplicationStatus**.</span><span class="sxs-lookup"><span data-stu-id="f7d6c-108">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
+<span data-ttu-id="8b2ae-106">Вы можете проверить репликацию сведений о конфигурации на пограничный сервер, выполнив командлет Windows PowerShell **Get-CsManagementStoreReplicationStatus** на внутреннем компьютере, на котором расположено центральное хранилище управления (или на любом присоединенном к домену компьютере, на котором установлен основной компонент Lync Server 2013 (OcsCore. msi).</span><span class="sxs-lookup"><span data-stu-id="8b2ae-106">You can validate the replication of configuration information to the edge by running the Windows PowerShell **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located (or any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span> <span data-ttu-id="8b2ae-107">В начальных результатах для репликации может быть указано состояние "False" вместо "True".</span><span class="sxs-lookup"><span data-stu-id="8b2ae-107">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="8b2ae-108">В этом случае выполните командлет **Invoke-CsManagementStoreReplication** и дождитесь завершения репликации перед повторным выполнением **Get-CsManagementStoreReplicationStatus**.</span><span class="sxs-lookup"><span data-stu-id="8b2ae-108">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
 
-<span data-ttu-id="f7d6c-109">Можно проверить подключение внешних пользователей отдельно, в том числе с помощью анализатора удаленных подключений Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="f7d6c-109">You can verify external user connectivity separately, including using the Office Communications Server Remote Connectivity Analyzer to verify remote user connectivity.</span></span> <span data-ttu-id="f7d6c-110">Дополнительные сведения см. [в статье Проверка подключения для внешних пользователей в Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).</span><span class="sxs-lookup"><span data-stu-id="f7d6c-110">For details, see [Verify connectivity for external users in Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).</span></span>
+<span data-ttu-id="8b2ae-109">Можно проверить подключение внешних пользователей отдельно, в том числе с помощью анализатора удаленных подключений Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="8b2ae-109">You can verify external user connectivity separately, including using the Office Communications Server Remote Connectivity Analyzer to verify remote user connectivity.</span></span> <span data-ttu-id="8b2ae-110">Дополнительные сведения см. [в статье Проверка подключения для внешних пользователей в Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).</span><span class="sxs-lookup"><span data-stu-id="8b2ae-110">For details, see [Verify connectivity for external users in Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).</span></span>
 
 </div>
 

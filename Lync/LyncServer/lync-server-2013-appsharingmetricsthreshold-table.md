@@ -12,20 +12,20 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89260bb2e854087ec1167ff0fd8039c58ac99300
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 35af8eebec97f6237f19aee2551aff51ad0ca390
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029320"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="6a7fc-102">Таблица Аппшарингметрикссрешолд в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a7fc-102">AppSharingMetricsThreshold table in Lync Server 2013</span></span>
+# <a name="appsharingmetricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="7ebd9-102">Таблица Аппшарингметрикссрешолд в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ebd9-102">AppSharingMetricsThreshold table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42029320"
 
 <span> </span>
 
-<span data-ttu-id="6a7fc-103">_**Последнее изменение темы:** 2015-12-08_</span><span class="sxs-lookup"><span data-stu-id="6a7fc-103">_**Topic Last Modified:** 2015-12-08_</span></span>
+<span data-ttu-id="7ebd9-103">_**Последнее изменение темы:** 2015-12-08_</span><span class="sxs-lookup"><span data-stu-id="7ebd9-103">_**Topic Last Modified:** 2015-12-08_</span></span>
 
-<span data-ttu-id="6a7fc-p101">Таблица AppSharingMetricsThreshold содержит оптимальные и допустимые значения показателей качества взаимодействия, применяемые для совместного использования приложений. Эти пороговые значения используются для определения того, следует ли классифицировать совместное использование приложений как плохое.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p101">The AppSharingMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with application sharing. These thresholds are used to determine if the application sharing experience should be classified as poor.</span></span>
+<span data-ttu-id="7ebd9-p101">Таблица AppSharingMetricsThreshold содержит оптимальные и допустимые значения показателей качества взаимодействия, применяемые для совместного использования приложений. Эти пороговые значения используются для определения того, следует ли классифицировать совместное использование приложений как плохое.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p101">The AppSharingMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with application sharing. These thresholds are used to determine if the application sharing experience should be classified as poor.</span></span>
 
-<span data-ttu-id="6a7fc-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="7ebd9-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,108 +51,108 @@ ms.locfileid: "42029320"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6a7fc-107"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="6a7fc-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="6a7fc-109"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="6a7fc-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="7ebd9-107"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="7ebd9-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="7ebd9-109"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="7ebd9-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-111"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-111"><strong>CallType</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-112">int</span><span class="sxs-lookup"><span data-stu-id="6a7fc-112">int</span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-113">Primary</span><span class="sxs-lookup"><span data-stu-id="6a7fc-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-114">Тип размещенного вызова.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-114">Type of call that was placed.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-111"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-111"><strong>CallType</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-112">int</span><span class="sxs-lookup"><span data-stu-id="7ebd9-112">int</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-113">Primary</span><span class="sxs-lookup"><span data-stu-id="7ebd9-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-114">Тип размещенного вызова.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-114">Type of call that was placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-115"><strong>апплиедбандвидслимитоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-115"><strong>AppliedBandwidthLimitOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-116">int</span><span class="sxs-lookup"><span data-stu-id="6a7fc-116">int</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-115"><strong>апплиедбандвидслимитоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-115"><strong>AppliedBandwidthLimitOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-116">int</span><span class="sxs-lookup"><span data-stu-id="7ebd9-116">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p102">Оптимальное ограничение полосы пропускания для совместного использования приложений. Значение по умолчанию — 1000000.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p102">Optimal bandwidth limitation for application sharing. The default value is 1000000.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p102">Оптимальное ограничение полосы пропускания для совместного использования приложений. Значение по умолчанию — 1000000.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p102">Optimal bandwidth limitation for application sharing. The default value is 1000000.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-119"><strong>апплиедбандвидслимитакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-119"><strong>AppliedBandwidthLimitAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-120">int</span><span class="sxs-lookup"><span data-stu-id="6a7fc-120">int</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-119"><strong>апплиедбандвидслимитакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-119"><strong>AppliedBandwidthLimitAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-120">int</span><span class="sxs-lookup"><span data-stu-id="7ebd9-120">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p103">Допустимое ограничение полосы пропускания для совместного использования приложений. Значение по умолчанию — 500000.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p103">Acceptable bandwidth limitation for application sharing. The default value is 500000.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p103">Допустимое ограничение полосы пропускания для совместного использования приложений. Значение по умолчанию — 500000.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p103">Acceptable bandwidth limitation for application sharing. The default value is 500000.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-123"><strong>споиледтилеперценттоталоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-123"><strong>SpoiledTilePercentTotalOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-124">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="6a7fc-124">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-123"><strong>споиледтилеперценттоталоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-123"><strong>SpoiledTilePercentTotalOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-124">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="7ebd9-124">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p104">Оптимальное процентное отношение для "испорченных" элементов при классификации качества совместного использования приложений. Это значение равно проценту контента от инициатора совместного доступа, который не достигнул зрителя. Контент может быть отклонен (или испорчен), когда инициатор совместного доступа отклоняет элементы от графического источника или ASMCU отклоняет элементы от инициатора совместного доступа. Значение по умолчанию — 14%.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p104">Optimal percentage rate for “spoiled” tiles for classifying an Application Sharing quality. This value is the percentage of the content from the sharer that did not reach the viewer. Content may be discarded (or spoiled) when the sharer discards tiles from the graphics source or the ASMCU tiles discards tiles from Sharer respectively. The default value is 11 percent.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p104">Оптимальное процентное отношение для "испорченных" элементов при классификации качества совместного использования приложений. Это значение равно проценту контента от инициатора совместного доступа, который не достигнул зрителя. Контент может быть отклонен (или испорчен), когда инициатор совместного доступа отклоняет элементы от графического источника или ASMCU отклоняет элементы от инициатора совместного доступа. Значение по умолчанию — 14%.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p104">Optimal percentage rate for “spoiled” tiles for classifying an Application Sharing quality. This value is the percentage of the content from the sharer that did not reach the viewer. Content may be discarded (or spoiled) when the sharer discards tiles from the graphics source or the ASMCU tiles discards tiles from Sharer respectively. The default value is 11 percent.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-129"><strong>споиледтилеперценттоталакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-129"><strong>SpoiledTilePercentTotalAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-130">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="6a7fc-130">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-129"><strong>споиледтилеперценттоталакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-129"><strong>SpoiledTilePercentTotalAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-130">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="7ebd9-130">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p105">Допустимое процентное отношение для "испорченных" элементов при классификации качества совместного использования приложений. Это значение равно проценту контента от инициатора совместного доступа, который не достигнул зрителя. Контент может быть отклонен (или испорчен), когда инициатор совместного доступа отклоняет элементы от графического источника или ASMCU отклоняет элементы от инициатора совместного доступа. Значение по умолчанию — 36%.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p105">cceptable percentage rate for “spoiled” tiles for classifying an Application Sharing quality. This value is the percentage of the content from the sharer that did not reach the viewer. Content may be discarded (or spoiled) when the sharer discards tiles from the graphics source or the ASMCU tiles discards tiles from Sharer respectively. The default value is 36 percent.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p105">Допустимое процентное отношение для "испорченных" элементов при классификации качества совместного использования приложений. Это значение равно проценту контента от инициатора совместного доступа, который не достигнул зрителя. Контент может быть отклонен (или испорчен), когда инициатор совместного доступа отклоняет элементы от графического источника или ASMCU отклоняет элементы от инициатора совместного доступа. Значение по умолчанию — 36%.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p105">cceptable percentage rate for “spoiled” tiles for classifying an Application Sharing quality. This value is the percentage of the content from the sharer that did not reach the viewer. Content may be discarded (or spoiled) when the sharer discards tiles from the graphics source or the ASMCU tiles discards tiles from Sharer respectively. The default value is 36 percent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-135"><strong>життеринтерарривалоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-135"><strong>JitterInterArrivalOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-136">int</span><span class="sxs-lookup"><span data-stu-id="6a7fc-136">int</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-135"><strong>життеринтерарривалоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-135"><strong>JitterInterArrivalOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-136">int</span><span class="sxs-lookup"><span data-stu-id="7ebd9-136">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-137">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-137">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-137">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-137">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-138"><strong>життеринтерарривалакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-138"><strong>JitterInterArrivalAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-139">int</span><span class="sxs-lookup"><span data-stu-id="6a7fc-139">int</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-138"><strong>життеринтерарривалакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-138"><strong>JitterInterArrivalAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-139">int</span><span class="sxs-lookup"><span data-stu-id="7ebd9-139">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-140">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-140">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-140">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-140">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-141"><strong>релативеоневайбурстденситйоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-141"><strong>RelativeOneWayBurstDensityOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-142">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-142">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-141"><strong>релативеоневайбурстденситйоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-141"><strong>RelativeOneWayBurstDensityOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-142">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-142">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-143">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-143">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-143">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-143">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-144"><strong>релативеоневайбурстденситякцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-144"><strong>RelativeOneWayBurstDensityAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-145">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-145">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-144"><strong>релативеоневайбурстденситякцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-144"><strong>RelativeOneWayBurstDensityAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-145">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-145">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-146">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-146">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-146">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-146">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-147"><strong>рдптилепроцессинглатенцибурстденситйоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-147"><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-148">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-148">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-147"><strong>рдптилепроцессинглатенцибурстденситйоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-147"><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-148">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-148">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-149">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-149">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-149">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-149">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-150"><strong>рдптилепроцессинглатенцибурстденситякцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-150"><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-151">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-151">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-150"><strong>рдптилепроцессинглатенцибурстденситякцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-150"><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-151">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-151">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-152">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-152">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-152">Этот столбец не используется в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-152">This column is not used in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-153"><strong>релативеоневайаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-153"><strong>RelativeOneWayAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-154">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-154">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-153"><strong>релативеоневайаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-153"><strong>RelativeOneWayAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-154">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-154">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p106">Оптимальное значение относительной односторонней задержки между двумя конечными точками, участвующими в сеансе совместного использования приложений. Это мера односкачковой задержки. Значение по умолчанию составляет 1 секунду.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p106">Optimal value for the relative one-way delay between the two media endpoints involved in the application sharing. This is a single-hop latency measure. The default value is 1.0 seconds.</span></span></p>
-<p><span data-ttu-id="6a7fc-158">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-158">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p106">Оптимальное значение относительной односторонней задержки между двумя конечными точками, участвующими в сеансе совместного использования приложений. Это мера односкачковой задержки. Значение по умолчанию составляет 1 секунду.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p106">Optimal value for the relative one-way delay between the two media endpoints involved in the application sharing. This is a single-hop latency measure. The default value is 1.0 seconds.</span></span></p>
+<p><span data-ttu-id="7ebd9-158">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-158">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-159"><strong>релативеоневайаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-159"><strong>RelativeOneWayAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-160">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-160">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-159"><strong>релативеоневайаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-159"><strong>RelativeOneWayAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-160">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-160">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-p107">Оптимальное значение относительной односторонней задержки между двумя конечными точками, участвующими в сеансе совместного использования приложений. Это мера односкачковой задержки. Значение по умолчанию составляет 1,75 секунды.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p107">Optimal value for the relative one-way delay between the two media endpoints involved in the application sharing. This is a single-hop latency measure. The default value is 1.75 seconds.</span></span></p>
-<p><span data-ttu-id="6a7fc-164">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-164">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-p107">Оптимальное значение относительной односторонней задержки между двумя конечными точками, участвующими в сеансе совместного использования приложений. Это мера односкачковой задержки. Значение по умолчанию составляет 1,75 секунды.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p107">Optimal value for the relative one-way delay between the two media endpoints involved in the application sharing. This is a single-hop latency measure. The default value is 1.75 seconds.</span></span></p>
+<p><span data-ttu-id="7ebd9-164">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-164">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a7fc-165"><strong>рдптилепроцессинглатенциаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-165"><strong>RDPTileProcessingLatencyAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-166">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-166">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-165"><strong>рдптилепроцессинглатенциаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-165"><strong>RDPTileProcessingLatencyAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-166">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-166">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-167">Оптимальное значение задержки обработки элементов RDP на сервере конференц-связи общего доступа к приложениям во время сеанса просмотра.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-167">Optimal value of the average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="6a7fc-168">Задержка — это разница во времени между моментом кодирования начального кадра на сервере (совместное использование или MCU в зависимости от сценария) и тем же начальным кадром, который декодируется в средстве просмотра.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-168">Latency is the time difference between when the Start Frame is encoded on the server (sharer or MCU depending on the scenario) and the same Start Frame is decoded on the viewer.</span></span></p>
-<p><span data-ttu-id="6a7fc-p109">Высокое среднее значение отражает более длительную задержку в процессе просмотра. Для перегруженного сервера конференц-связи могут наблюдаться более высокие средние значения задержки. Значение по умолчанию равно 200 мс.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p109">A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays. The default value is 200ms.</span></span></p>
-<p><span data-ttu-id="6a7fc-172">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-172">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-167">Оптимальное значение задержки обработки элементов RDP на сервере конференц-связи общего доступа к приложениям во время сеанса просмотра.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-167">Optimal value of the average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="7ebd9-168">Задержка — это разница во времени между моментом кодирования начального кадра на сервере (совместное использование или MCU в зависимости от сценария) и тем же начальным кадром, который декодируется в средстве просмотра.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-168">Latency is the time difference between when the Start Frame is encoded on the server (sharer or MCU depending on the scenario) and the same Start Frame is decoded on the viewer.</span></span></p>
+<p><span data-ttu-id="7ebd9-p109">Высокое среднее значение отражает более длительную задержку в процессе просмотра. Для перегруженного сервера конференц-связи могут наблюдаться более высокие средние значения задержки. Значение по умолчанию равно 200 мс.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p109">A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays. The default value is 200ms.</span></span></p>
+<p><span data-ttu-id="7ebd9-172">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-172">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a7fc-173"><strong>рдптилепроцессинглатенциаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="6a7fc-173"><strong>RDPTileProcessingLatencyAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="6a7fc-174">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="6a7fc-174">float</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-173"><strong>рдптилепроцессинглатенциаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="7ebd9-173"><strong>RDPTileProcessingLatencyAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-174">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="7ebd9-174">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6a7fc-175">Допустимое значение задержки обработки элементов RDP на сервере конференц-связи общего доступа к приложениям во время сеанса просмотра.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-175">Acceptable value of the average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="6a7fc-176">Задержка — это разница во времени между моментом кодирования начального кадра на сервере (совместное использование или MCU в зависимости от сценария) и тем же начальным кадром, который декодируется в средстве просмотра.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-176">Latency is the time difference between when the Start Frame is encoded on the server (sharer or MCU depending on the scenario) and the same Start Frame is decoded on the viewer.</span></span></p>
-<p><span data-ttu-id="6a7fc-p111">Высокое среднее значение отражает более длительную задержку в процессе просмотра. Для перегруженного сервера конференц-связи могут наблюдаться более высокие средние значения задержки. Значение по умолчанию равно 200 мс.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-p111">A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays. The default value is 200ms.</span></span></p>
-<p><span data-ttu-id="6a7fc-180">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a7fc-180">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="7ebd9-175">Допустимое значение задержки обработки элементов RDP на сервере конференц-связи общего доступа к приложениям во время сеанса просмотра.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-175">Acceptable value of the average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session.</span></span> <span data-ttu-id="7ebd9-176">Задержка — это разница во времени между моментом кодирования начального кадра на сервере (совместное использование или MCU в зависимости от сценария) и тем же начальным кадром, который декодируется в средстве просмотра.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-176">Latency is the time difference between when the Start Frame is encoded on the server (sharer or MCU depending on the scenario) and the same Start Frame is decoded on the viewer.</span></span></p>
+<p><span data-ttu-id="7ebd9-p111">Высокое среднее значение отражает более длительную задержку в процессе просмотра. Для перегруженного сервера конференц-связи могут наблюдаться более высокие средние значения задержки. Значение по умолчанию равно 200 мс.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-p111">A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays. The default value is 200ms.</span></span></p>
+<p><span data-ttu-id="7ebd9-180">Столбец был введен в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7ebd9-180">The column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

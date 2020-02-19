@@ -12,20 +12,20 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c0700606966713d9828f538d37600a718dcd43
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: abcb7b911d4f7cd21fd9fbb3ac232048db8691ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038731"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42131322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a><span data-ttu-id="2077b-102">Импорт правил обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2077b-102">Import Device Update rules in Lync Server 2013</span></span>
+# <a name="import-device-update-rules-in-lync-server-2013"></a><span data-ttu-id="53194-102">Импорт правил обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53194-102">Import Device Update rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42038731"
 
 <span> </span>
 
-<span data-ttu-id="2077b-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2077b-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="53194-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="53194-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="2077b-104">Правила обновления устройств можно импортировать только с помощью Windows PowerShell и командлета **Import – CsDeviceUpdate** .</span><span class="sxs-lookup"><span data-stu-id="2077b-104">Device update rules can be imported only by using Windows PowerShell and the **Import-CsDeviceUpdate** cmdlet.</span></span> <span data-ttu-id="2077b-105">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2077b-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="53194-104">Правила обновления устройств можно импортировать только с помощью Windows PowerShell и командлета **Import – CsDeviceUpdate** .</span><span class="sxs-lookup"><span data-stu-id="53194-104">Device update rules can be imported only by using Windows PowerShell and the **Import-CsDeviceUpdate** cmdlet.</span></span> <span data-ttu-id="53194-105">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="53194-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2077b-106">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="2077b-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="53194-106">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="53194-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -54,9 +54,9 @@ ms.locfileid: "42038731"
 
 <div>
 
-## <a name="to-import-device-update-rules-to-a-single-web-server"></a><span data-ttu-id="2077b-107">Импорт правил обновления устройств на один веб-сервер</span><span class="sxs-lookup"><span data-stu-id="2077b-107">To import device update rules to a single web server</span></span>
+## <a name="to-import-device-update-rules-to-a-single-web-server"></a><span data-ttu-id="53194-107">Импорт правил обновления устройств на один веб-сервер</span><span class="sxs-lookup"><span data-stu-id="53194-107">To import device update rules to a single web server</span></span>
 
-  - <span data-ttu-id="2077b-108">Следующая команда импортирует правила обновления устройств на веб-сервер atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="2077b-108">The following command imports device update rules to the Web server atl-cs-001.litwareinc.com:</span></span>
+  - <span data-ttu-id="53194-108">Следующая команда импортирует правила обновления устройств на веб-сервер atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="53194-108">The following command imports device update rules to the Web server atl-cs-001.litwareinc.com:</span></span>
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
@@ -64,25 +64,25 @@ ms.locfileid: "42038731"
 
 <div>
 
-## <a name="to-import-device-update-rules-to-all-your-web-servers"></a><span data-ttu-id="2077b-109">Импорт правил обновления устройств на все веб-серверы</span><span class="sxs-lookup"><span data-stu-id="2077b-109">To import device update rules to all your web servers</span></span>
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a><span data-ttu-id="53194-109">Импорт правил обновления устройств на все веб-серверы</span><span class="sxs-lookup"><span data-stu-id="53194-109">To import device update rules to all your web servers</span></span>
 
-  - <span data-ttu-id="2077b-110">В этом примере правила обновления устройств импортируются на все веб-серверы, развернутые в Организации.</span><span class="sxs-lookup"><span data-stu-id="2077b-110">In this example, device update rules are imported to all the Web servers deployed in your organization.</span></span> <span data-ttu-id="2077b-111">Чтобы эта команда работала, ATL-FS-001.litwareinc.com \\ \\\\обновления папок должны быть общими и доступными для всех веб-серверов.</span><span class="sxs-lookup"><span data-stu-id="2077b-111">For this command to work, the folder \\\\atl-fs-001.litwareinc.com\\Updates must be shared and available to all the Web servers.</span></span>
+  - <span data-ttu-id="53194-110">В этом примере правила обновления устройств импортируются на все веб-серверы, развернутые в Организации.</span><span class="sxs-lookup"><span data-stu-id="53194-110">In this example, device update rules are imported to all the Web servers deployed in your organization.</span></span> <span data-ttu-id="53194-111">Чтобы эта команда работала, ATL-FS-001.litwareinc.com \\ \\\\обновления папок должны быть общими и доступными для всех веб-серверов.</span><span class="sxs-lookup"><span data-stu-id="53194-111">For this command to work, the folder \\\\atl-fs-001.litwareinc.com\\Updates must be shared and available to all the Web servers.</span></span>
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-<span data-ttu-id="2077b-112">Дополнительные сведения см. в разделе справки для командлета [Import – CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) .</span><span class="sxs-lookup"><span data-stu-id="2077b-112">For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.</span></span>
+<span data-ttu-id="53194-112">Дополнительные сведения см. в разделе справки для командлета [Import – CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) .</span><span class="sxs-lookup"><span data-stu-id="53194-112">For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2077b-113">См. также</span><span class="sxs-lookup"><span data-stu-id="2077b-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53194-113">См. также</span><span class="sxs-lookup"><span data-stu-id="53194-113">See Also</span></span>
 
 
-[<span data-ttu-id="2077b-114">Просмотр сведений о правилах обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2077b-114">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)  
-[<span data-ttu-id="2077b-115">Утверждение правила обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2077b-115">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)  
+[<span data-ttu-id="53194-114">Просмотр сведений о правилах обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53194-114">View information about Device Update rules in Lync Server 2013</span></span>](lync-server-2013-view-information-about-device-update-rules.md)  
+[<span data-ttu-id="53194-115">Утверждение правила обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53194-115">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c99945626105282324202d1fd754cd5d966bc81
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5566f5e38608d2802c8ad699e3599f70c87be4e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035101"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a><span data-ttu-id="97cce-102">Отчет по инвентаризации IP-телефонов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="97cce-102">IP Phone Inventory Report in Lync Server 2013</span></span>
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a><span data-ttu-id="7ef73-102">Отчет по инвентаризации IP-телефонов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ef73-102">IP Phone Inventory Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42035101"
 
 <span> </span>
 
-<span data-ttu-id="97cce-103">_**Последнее изменение темы:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="97cce-103">_**Topic Last Modified:** 2012-11-12_</span></span>
+<span data-ttu-id="7ef73-103">_**Последнее изменение темы:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="7ef73-103">_**Topic Last Modified:** 2012-11-12_</span></span>
 
-<span data-ttu-id="97cce-p101">Отчет по IP-телефонам предоставляет сведения о IP-телефонах, используемых в организации. В отчете по IP-телефонам содержится список IP-телефонов, которые использовались в течение периода, заданного при создании отчета. С помощью этого отчета администраторы могут получить сведения об устаревших телефонах, которые требуется заменить, а также сведения о редко используемых дорогостоящих телефонах. Эти данные могут использоваться при планировании покупки новых телефонов или перераспределении имеющихся телефонов. (Например, пользователь, который редко использует дорогостоящий телефон, может поменяться телефоном с пользователем, который использует телефон чаще.)</span><span class="sxs-lookup"><span data-stu-id="97cce-p101">The IP Phone Inventory Report reports information about the IP phones currently in use in your organization. The IP Inventory Report provides a detailed list of the IP phones that were actually used during the specified reporting period. Among other things, this report lets administrators know if there are any old, outdated phones still in use that should be replaced; it can also alert administrators to the fact that there are expensive phones in the organization that are rarely being used. That type of information can be invaluable when it comes time to purchase new phones or to redistribute existing phones. (For example, a user who rarely uses his or her expensive phone might be asked to swap phones with a user who uses his or her phone much more frequently.)</span></span>
+<span data-ttu-id="7ef73-p101">Отчет по IP-телефонам предоставляет сведения о IP-телефонах, используемых в организации. В отчете по IP-телефонам содержится список IP-телефонов, которые использовались в течение периода, заданного при создании отчета. С помощью этого отчета администраторы могут получить сведения об устаревших телефонах, которые требуется заменить, а также сведения о редко используемых дорогостоящих телефонах. Эти данные могут использоваться при планировании покупки новых телефонов или перераспределении имеющихся телефонов. (Например, пользователь, который редко использует дорогостоящий телефон, может поменяться телефоном с пользователем, который использует телефон чаще.)</span><span class="sxs-lookup"><span data-stu-id="7ef73-p101">The IP Phone Inventory Report reports information about the IP phones currently in use in your organization. The IP Inventory Report provides a detailed list of the IP phones that were actually used during the specified reporting period. Among other things, this report lets administrators know if there are any old, outdated phones still in use that should be replaced; it can also alert administrators to the fact that there are expensive phones in the organization that are rarely being used. That type of information can be invaluable when it comes time to purchase new phones or to redistribute existing phones. (For example, a user who rarely uses his or her expensive phone might be asked to swap phones with a user who uses his or her phone much more frequently.)</span></span>
 
-<span data-ttu-id="97cce-109">Следует отметить, что этот отчет имеет некоторые ограничения для случая использования данных отчета в реальном складском учете.</span><span class="sxs-lookup"><span data-stu-id="97cce-109">It should be noted that this report does have a few limitations when it comes to being used as a true inventory report.</span></span> <span data-ttu-id="97cce-110">Для одного из них в отчете IP-телефон просто выводятся все телефоны, которые входили на сервер Lync Server в течение указанного периода времени, отсортированные по времени последнего входа в систему.</span><span class="sxs-lookup"><span data-stu-id="97cce-110">For one thing, the IP Phone Report simply lists all the phones that logged on to Lync Server during the specified time period, sorted by their last logon time.</span></span> <span data-ttu-id="97cce-111">Если телефон не выполнял вход в течение указанного периода времени, он будет отсутствовать в этом отчете.</span><span class="sxs-lookup"><span data-stu-id="97cce-111">If a phone did not log on during the specified time period then it will not be listed in the inventory report.</span></span> <span data-ttu-id="97cce-112">Это относится также к телефонам, которые выполнили вход до начального периода создания отчета и остаются в системе в течение указанного периода времени.</span><span class="sxs-lookup"><span data-stu-id="97cce-112">That includes phones that logged on before the time period started and were still logged on during the specified time interval.</span></span> <span data-ttu-id="97cce-113">Например, вы хотите найти все телефоны на июль 2012 г.</span><span class="sxs-lookup"><span data-stu-id="97cce-113">For example, suppose you wanted to look at all the phone inventory for July, 2012.</span></span> <span data-ttu-id="97cce-114">Предположим, что несколько телефонов, вошедших в Lync Server, 30 июня 2012 и вошли в систему с 1 по 1 июля.</span><span class="sxs-lookup"><span data-stu-id="97cce-114">Suppose, as well, that several phones logged on to Lync Server on June 30, 2012 and were still logged on as of July 1st.</span></span> <span data-ttu-id="97cce-115">Эти телефоны не будут добавлены в отчет за 1 июля 2012 г.</span><span class="sxs-lookup"><span data-stu-id="97cce-115">Those phones will not show up on the inventory report for July 1st.</span></span>
+<span data-ttu-id="7ef73-109">Следует отметить, что этот отчет имеет некоторые ограничения для случая использования данных отчета в реальном складском учете.</span><span class="sxs-lookup"><span data-stu-id="7ef73-109">It should be noted that this report does have a few limitations when it comes to being used as a true inventory report.</span></span> <span data-ttu-id="7ef73-110">Для одного из них в отчете IP-телефон просто выводятся все телефоны, которые входили на сервер Lync Server в течение указанного периода времени, отсортированные по времени последнего входа в систему.</span><span class="sxs-lookup"><span data-stu-id="7ef73-110">For one thing, the IP Phone Report simply lists all the phones that logged on to Lync Server during the specified time period, sorted by their last logon time.</span></span> <span data-ttu-id="7ef73-111">Если телефон не выполнял вход в течение указанного периода времени, он будет отсутствовать в этом отчете.</span><span class="sxs-lookup"><span data-stu-id="7ef73-111">If a phone did not log on during the specified time period then it will not be listed in the inventory report.</span></span> <span data-ttu-id="7ef73-112">Это относится также к телефонам, которые выполнили вход до начального периода создания отчета и остаются в системе в течение указанного периода времени.</span><span class="sxs-lookup"><span data-stu-id="7ef73-112">That includes phones that logged on before the time period started and were still logged on during the specified time interval.</span></span> <span data-ttu-id="7ef73-113">Например, вы хотите найти все телефоны на июль 2012 г.</span><span class="sxs-lookup"><span data-stu-id="7ef73-113">For example, suppose you wanted to look at all the phone inventory for July, 2012.</span></span> <span data-ttu-id="7ef73-114">Предположим, что несколько телефонов, вошедших в Lync Server, 30 июня 2012 и вошли в систему с 1 по 1 июля.</span><span class="sxs-lookup"><span data-stu-id="7ef73-114">Suppose, as well, that several phones logged on to Lync Server on June 30, 2012 and were still logged on as of July 1st.</span></span> <span data-ttu-id="7ef73-115">Эти телефоны не будут добавлены в отчет за 1 июля 2012 г.</span><span class="sxs-lookup"><span data-stu-id="7ef73-115">Those phones will not show up on the inventory report for July 1st.</span></span>
 
-<span data-ttu-id="97cce-p103">Кроме того, отчет может содержать телефоны, которые уже не используются в организации. Например, несколько телефонов Fabrikam выполнили вход в систему 1 июля 2012 г., а 5 дней спустя организация заменила все телефоны Fabrikam новой моделью Contoso. Телефоны Fabrikam будут отображаться в отчете, поскольку они выполнили вход в систему в течение июля.</span><span class="sxs-lookup"><span data-stu-id="97cce-p103">It's also important to note that the inventory report could include phones that your organization no longer uses. For example, suppose a number of Fabrikam phones logged on to the system on July 1, 2012; 5 days later your organization got rid of all those Fabrikam phones and replaced them with a newer Contoso model. The Fabrikam phones will still appear on the "inventory" report simply because they logged on to the system during the month of July.</span></span>
+<span data-ttu-id="7ef73-p103">Кроме того, отчет может содержать телефоны, которые уже не используются в организации. Например, несколько телефонов Fabrikam выполнили вход в систему 1 июля 2012 г., а 5 дней спустя организация заменила все телефоны Fabrikam новой моделью Contoso. Телефоны Fabrikam будут отображаться в отчете, поскольку они выполнили вход в систему в течение июля.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p103">It's also important to note that the inventory report could include phones that your organization no longer uses. For example, suppose a number of Fabrikam phones logged on to the system on July 1, 2012; 5 days later your organization got rid of all those Fabrikam phones and replaced them with a newer Contoso model. The Fabrikam phones will still appear on the "inventory" report simply because they logged on to the system during the month of July.</span></span>
 
-<span data-ttu-id="97cce-p104">Кроме того, в отчете отсутствуют сведения о количестве разных моделей телефонов. Например, в организации установлено 105 телефонов модели Polycom CX600. В отчете вместо общего количества телефонов этой модели вы увидите 105 отдельных записей для телефонов Polycom Cx600. Чтобы узнать количество телефонов модели Polycom Cx600, потребуется посчитать количество строк вручную.</span><span class="sxs-lookup"><span data-stu-id="97cce-p104">In addition, the IP Phone Inventory Report does not report summary totals for the different types of phones. For example, suppose you have 105 Polycom CX600 phones. The report will not tell you that you have 105 of these phones; instead, you will simply see 105 separate entries for the Polycom Cx600. The only way to know that there are 105 entries for the Polycom Cx600 would be to count each of those entries manually.</span></span>
+<span data-ttu-id="7ef73-p104">Кроме того, в отчете отсутствуют сведения о количестве разных моделей телефонов. Например, в организации установлено 105 телефонов модели Polycom CX600. В отчете вместо общего количества телефонов этой модели вы увидите 105 отдельных записей для телефонов Polycom Cx600. Чтобы узнать количество телефонов модели Polycom Cx600, потребуется посчитать количество строк вручную.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p104">In addition, the IP Phone Inventory Report does not report summary totals for the different types of phones. For example, suppose you have 105 Polycom CX600 phones. The report will not tell you that you have 105 of these phones; instead, you will simply see 105 separate entries for the Polycom Cx600. The only way to know that there are 105 entries for the Polycom Cx600 would be to count each of those entries manually.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="97cce-123">В качестве альтернативного варианта можно экспортировать данные в Microsoft Excel или Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="97cce-123">Or, export the data and use Microsoft Excel or Windows PowerShell to do that counting for you.</span></span>
+> <span data-ttu-id="7ef73-123">В качестве альтернативного варианта можно экспортировать данные в Microsoft Excel или Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7ef73-123">Or, export the data and use Microsoft Excel or Windows PowerShell to do that counting for you.</span></span>
 
 
 
@@ -57,22 +57,22 @@ ms.locfileid: "42035101"
 
 <div>
 
-## <a name="accessing-the-ip-phone-inventory-report"></a><span data-ttu-id="97cce-124">Доступ к отчету по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="97cce-124">Accessing the IP Phone Inventory Report</span></span>
+## <a name="accessing-the-ip-phone-inventory-report"></a><span data-ttu-id="7ef73-124">Доступ к отчету по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="7ef73-124">Accessing the IP Phone Inventory Report</span></span>
 
-<span data-ttu-id="97cce-p105">Для доступа к отчету по IP-телефонам используется домашняя страница Monitoring Reports (Отчеты мониторинга). При выборе показателя User URI (URI пользователя) откроется отчет User Activity Report (Действия пользователя). При выборе показателя Last activity (Последнее действие) для одноранговых звонков откроется отчет Peer-to-Peer Session Detail Report (Сведения об одноранговом сеансе). При выборе того же показателя для конференции откроется отчет Conference Detail Report (Сведения о конференции).</span><span class="sxs-lookup"><span data-stu-id="97cce-p105">The IP Phone Inventory Report is accessed from the Monitoring Reports home page. If you click the User URI metric you can access the User Activity Report for that user. Clicking the Last activity metric for a peer-to-peer call will take you to the Peer-to-Peer Session Detail Report; clicking that same metric for a conference will take you to the Conference Detail Report.</span></span>
+<span data-ttu-id="7ef73-p105">Для доступа к отчету по IP-телефонам используется домашняя страница Monitoring Reports (Отчеты мониторинга). При выборе показателя User URI (URI пользователя) откроется отчет User Activity Report (Действия пользователя). При выборе показателя Last activity (Последнее действие) для одноранговых звонков откроется отчет Peer-to-Peer Session Detail Report (Сведения об одноранговом сеансе). При выборе того же показателя для конференции откроется отчет Conference Detail Report (Сведения о конференции).</span><span class="sxs-lookup"><span data-stu-id="7ef73-p105">The IP Phone Inventory Report is accessed from the Monitoring Reports home page. If you click the User URI metric you can access the User Activity Report for that user. Clicking the Last activity metric for a peer-to-peer call will take you to the Peer-to-Peer Session Detail Report; clicking that same metric for a conference will take you to the Conference Detail Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a><span data-ttu-id="97cce-128">Рекомендации по использованию отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="97cce-128">Making the Best Use of the IP Phone Inventory Report</span></span>
+## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a><span data-ttu-id="7ef73-128">Рекомендации по использованию отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="7ef73-128">Making the Best Use of the IP Phone Inventory Report</span></span>
 
-<span data-ttu-id="97cce-129">Если вы заинтересованы в сведениях об использовании только для одного определенного типа телефона (например, "как часто пользователи используют Polycom CX600 телефона?"), вы можете получить эти сведения непосредственно из отчета по IP-телефонам, выполнив фильтрацию по данному конкретному типу телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-129">If you're only interested in usage information for one particular kind of phone (for example, "How often are users using a Polycom CX600 phone?") you can get that information directly from the IP Phone Inventory Report by filtering for that particular kind of phone.</span></span> <span data-ttu-id="97cce-130">Тем не менее, если вы хотите получить сводную информацию для всех телефонов (количество людей, использующих Polycom CX600, сколько используется LG-Nortel IP8540 и т. д.), то вам потребуется экспортировать данные и использовать другое приложение (например, Windows PowerShell) для этого типа отчетов.</span><span class="sxs-lookup"><span data-stu-id="97cce-130">However, if you want summary information for all your phones (how many people are using a Polycom CX600, how many are using an LG-Nortel IP8540, etc.) then you will need to export the data and use another application (such as Windows PowerShell) to do that type of analysis.</span></span> <span data-ttu-id="97cce-131">Например, предположим, что данные экспортируются в файл значений с разделителями-запятыми\\(\\C\_:\_Data\_IP Phone Inventory Report. csv).</span><span class="sxs-lookup"><span data-stu-id="97cce-131">For example, suppose you export the data to a comma-separated values file (C:\\Data\\IP\_Phone\_Inventory\_Report.csv).</span></span> <span data-ttu-id="97cce-132">В этом случае вы можете использовать эти две команды для предоставления сводных данных для всех телефонов:</span><span class="sxs-lookup"><span data-stu-id="97cce-132">In that case, you could use these two commands to provide summary data for all your phones:</span></span>
+<span data-ttu-id="7ef73-129">Если вы заинтересованы в сведениях об использовании только для одного определенного типа телефона (например, "как часто пользователи используют Polycom CX600 телефона?"), вы можете получить эти сведения непосредственно из отчета по IP-телефонам, выполнив фильтрацию по данному конкретному типу телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-129">If you're only interested in usage information for one particular kind of phone (for example, "How often are users using a Polycom CX600 phone?") you can get that information directly from the IP Phone Inventory Report by filtering for that particular kind of phone.</span></span> <span data-ttu-id="7ef73-130">Тем не менее, если вы хотите получить сводную информацию для всех телефонов (количество людей, использующих Polycom CX600, сколько используется LG-Nortel IP8540 и т. д.), то вам потребуется экспортировать данные и использовать другое приложение (например, Windows PowerShell) для этого типа отчетов.</span><span class="sxs-lookup"><span data-stu-id="7ef73-130">However, if you want summary information for all your phones (how many people are using a Polycom CX600, how many are using an LG-Nortel IP8540, etc.) then you will need to export the data and use another application (such as Windows PowerShell) to do that type of analysis.</span></span> <span data-ttu-id="7ef73-131">Например, предположим, что данные экспортируются в файл значений с разделителями-запятыми\\(\\C\_:\_Data\_IP Phone Inventory Report. csv).</span><span class="sxs-lookup"><span data-stu-id="7ef73-131">For example, suppose you export the data to a comma-separated values file (C:\\Data\\IP\_Phone\_Inventory\_Report.csv).</span></span> <span data-ttu-id="7ef73-132">В этом случае вы можете использовать эти две команды для предоставления сводных данных для всех телефонов:</span><span class="sxs-lookup"><span data-stu-id="7ef73-132">In that case, you could use these two commands to provide summary data for all your phones:</span></span>
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 
-<span data-ttu-id="97cce-133">Команды возвращают данные, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="97cce-133">That will return data similar to this:</span></span>
+<span data-ttu-id="7ef73-133">Команды возвращают данные, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="7ef73-133">That will return data similar to this:</span></span>
 
     Count    Name
     -----    ----
@@ -88,12 +88,12 @@ ms.locfileid: "42035101"
         9    POLYCOM, CX500
         7    Aastra, 6721ip
 
-<span data-ttu-id="97cce-134">Следующие команды возвращают сведения о телефонах, которые выполнили вход в систему, но никогда не использовались для звонков (на это указывает отсутствие значения показателя Last activity (Последнее действие)):</span><span class="sxs-lookup"><span data-stu-id="97cce-134">Similarly, these two commands tell you which phones logged on to the system but were never actually used to make a call (the value of the Last activity metric is blank, indicating that there hasn't been any last activity):</span></span>
+<span data-ttu-id="7ef73-134">Следующие команды возвращают сведения о телефонах, которые выполнили вход в систему, но никогда не использовались для звонков (на это указывает отсутствие значения показателя Last activity (Последнее действие)):</span><span class="sxs-lookup"><span data-stu-id="7ef73-134">Similarly, these two commands tell you which phones logged on to the system but were never actually used to make a call (the value of the Last activity metric is blank, indicating that there hasn't been any last activity):</span></span>
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones | Where-Object {$_."Last activity" -eq ""}
 
-<span data-ttu-id="97cce-135">Команды возвращают данные, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="97cce-135">That returns data similar to this for each phone that has not been used:</span></span>
+<span data-ttu-id="7ef73-135">Команды возвращают данные, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="7ef73-135">That returns data similar to this for each phone that has not been used:</span></span>
 
     Manufacturer     : POLYCOM
     Hardware version : CX600
@@ -104,19 +104,19 @@ ms.locfileid: "42035101"
     Last logoff time : 8/30/2010 5:59:07 PM
     Last activity    :
 
-<span data-ttu-id="97cce-136">Другой интересный способ использования отчета по IP-телефонам: если у IP-телефона есть MAC-адрес, то для получения сведений о пользователе, который использовал этот телефон последним, введите требуемый MAC-адрес в соответствующее поле.</span><span class="sxs-lookup"><span data-stu-id="97cce-136">Another interesting way to use the IP Phone Inventory Report is this: if you have the MAC address of an IP Phone you can find out the user who last used that phone simply by entering that address in the MAC address text box.</span></span> <span data-ttu-id="97cce-137">Отчет по IP-телефонам вернет SIP-адрес последнего пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="97cce-137">The IP Phone Inventory report will then report back (among other things) the SIP address of the user who last logged on with that phone.</span></span> <span data-ttu-id="97cce-138">В качестве альтернативного варианта для поиска всех телефонов, используемых этим пользователем, введите SIP-адрес пользователя (в поле User URI (URI пользователя)).</span><span class="sxs-lookup"><span data-stu-id="97cce-138">Alternatively, you can enter a user SIP address (in the User URI prefix box) to find out all the phones that have been used by that user.</span></span>
+<span data-ttu-id="7ef73-136">Другой интересный способ использования отчета по IP-телефонам: если у IP-телефона есть MAC-адрес, то для получения сведений о пользователе, который использовал этот телефон последним, введите требуемый MAC-адрес в соответствующее поле.</span><span class="sxs-lookup"><span data-stu-id="7ef73-136">Another interesting way to use the IP Phone Inventory Report is this: if you have the MAC address of an IP Phone you can find out the user who last used that phone simply by entering that address in the MAC address text box.</span></span> <span data-ttu-id="7ef73-137">Отчет по IP-телефонам вернет SIP-адрес последнего пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="7ef73-137">The IP Phone Inventory report will then report back (among other things) the SIP address of the user who last logged on with that phone.</span></span> <span data-ttu-id="7ef73-138">В качестве альтернативного варианта для поиска всех телефонов, используемых этим пользователем, введите SIP-адрес пользователя (в поле User URI (URI пользователя)).</span><span class="sxs-lookup"><span data-stu-id="7ef73-138">Alternatively, you can enter a user SIP address (in the User URI prefix box) to find out all the phones that have been used by that user.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="97cce-139">Фильтры</span><span class="sxs-lookup"><span data-stu-id="97cce-139">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="7ef73-139">Фильтры</span><span class="sxs-lookup"><span data-stu-id="7ef73-139">Filters</span></span>
 
-<span data-ttu-id="97cce-p108">Фильтры позволяют получить более детализированный набор данных или изменить способ просмотра возвращаемых данных. Например, с помощью отчета по IP-телефонам можно получить сведения о телефонах определенного производителя или телефонах конкретной модели. Кроме того, вы можете задать параметры группировки данных. В этом случае регистрации группируются по часам, дням, неделям или месяцам.</span><span class="sxs-lookup"><span data-stu-id="97cce-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the IP Phone Inventory enables you to view only the phones manufactured by a specific company, or even a specific version of those phones. You can also choose how data should be grouped. In this case, registrations are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="7ef73-p108">Фильтры позволяют получить более детализированный набор данных или изменить способ просмотра возвращаемых данных. Например, с помощью отчета по IP-телефонам можно получить сведения о телефонах определенного производителя или телефонах конкретной модели. Кроме того, вы можете задать параметры группировки данных. В этом случае регистрации группируются по часам, дням, неделям или месяцам.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the IP Phone Inventory enables you to view only the phones manufactured by a specific company, or even a specific version of those phones. You can also choose how data should be grouped. In this case, registrations are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="97cce-144">В следующей таблице перечислены фильтры, доступные в отчете по IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="97cce-144">The following table lists the filters that you can use with the IP Phone Inventory Report.</span></span>
+<span data-ttu-id="7ef73-144">В следующей таблице перечислены фильтры, доступные в отчете по IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="7ef73-144">The following table lists the filters that you can use with the IP Phone Inventory Report.</span></span>
 
-### <a name="ip-phone-inventory-report-filters"></a><span data-ttu-id="97cce-145">Фильтры отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="97cce-145">IP Phone Inventory Report Filters</span></span>
+### <a name="ip-phone-inventory-report-filters"></a><span data-ttu-id="7ef73-145">Фильтры отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="7ef73-145">IP Phone Inventory Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -125,73 +125,73 @@ ms.locfileid: "42035101"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="97cce-146">Имя</span><span class="sxs-lookup"><span data-stu-id="97cce-146">Name</span></span></th>
-<th><span data-ttu-id="97cce-147">Описание</span><span class="sxs-lookup"><span data-stu-id="97cce-147">Description</span></span></th>
+<th><span data-ttu-id="7ef73-146">Имя</span><span class="sxs-lookup"><span data-stu-id="7ef73-146">Name</span></span></th>
+<th><span data-ttu-id="7ef73-147">Описание</span><span class="sxs-lookup"><span data-stu-id="7ef73-147">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-148"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="97cce-148"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-p109">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="97cce-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="97cce-151">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="97cce-151">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="97cce-p110">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="97cce-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="97cce-154">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="97cce-154">7/7/2012</span></span></p>
-<p><span data-ttu-id="97cce-155">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="97cce-155">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="97cce-156">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="97cce-156">7/3/2012</span></span></p>
-<p><span data-ttu-id="97cce-157">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="97cce-157">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-148"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="7ef73-148"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p109">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="7ef73-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="7ef73-151">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7ef73-151">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7ef73-p110">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="7ef73-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7ef73-154">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7ef73-154">7/7/2012</span></span></p>
+<p><span data-ttu-id="7ef73-155">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="7ef73-155">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7ef73-156">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7ef73-156">7/3/2012</span></span></p>
+<p><span data-ttu-id="7ef73-157">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="7ef73-157">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-158"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="97cce-158"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-p111">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="97cce-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="97cce-161">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="97cce-161">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="97cce-p112">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="97cce-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="97cce-164">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="97cce-164">7/7/2012</span></span></p>
-<p><span data-ttu-id="97cce-165">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="97cce-165">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="97cce-166">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="97cce-166">7/3/2012</span></span></p>
-<p><span data-ttu-id="97cce-167">Первым днем недели считается воскресенье, а последним — суббота.</span><span class="sxs-lookup"><span data-stu-id="97cce-167">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-158"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="7ef73-158"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p111">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="7ef73-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="7ef73-161">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="7ef73-161">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="7ef73-p112">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="7ef73-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="7ef73-164">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7ef73-164">7/7/2012</span></span></p>
+<p><span data-ttu-id="7ef73-165">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="7ef73-165">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="7ef73-166">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7ef73-166">7/3/2012</span></span></p>
+<p><span data-ttu-id="7ef73-167">Первым днем недели считается воскресенье, а последним — суббота.</span><span class="sxs-lookup"><span data-stu-id="7ef73-167">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-168"><strong>Вычислитель</strong></span><span class="sxs-lookup"><span data-stu-id="97cce-168"><strong>Manufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-p113">Название компании, создавшей IP-телефон. Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="97cce-p113">Name of the company that manufactured the IP phone. The values for this filter are automatically populated for you based on the IP phones that are currently in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-168"><strong>Вычислитель</strong></span><span class="sxs-lookup"><span data-stu-id="7ef73-168"><strong>Manufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p113">Название компании, создавшей IP-телефон. Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p113">Name of the company that manufactured the IP phone. The values for this filter are automatically populated for you based on the IP phones that are currently in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-171"><strong>Hardware version</strong> (Версия оборудования)</span><span class="sxs-lookup"><span data-stu-id="97cce-171"><strong>Hardware version</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-172">Номер версии IP-телефона; используя производители и фильтры аппаратных версий, вы можете уникальным образом идентифицировать конкретный тип телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-172">Version number of the IP phone; by using the Manufacturer and the Hardware version filters you can uniquely identity a particular type of phone.</span></span> <span data-ttu-id="97cce-173">Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="97cce-173">The values for this filter are automatically populated for you based on the IP phones that are currently in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-171"><strong>Hardware version</strong> (Версия оборудования)</span><span class="sxs-lookup"><span data-stu-id="7ef73-171"><strong>Hardware version</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-172">Номер версии IP-телефона; используя производители и фильтры аппаратных версий, вы можете уникальным образом идентифицировать конкретный тип телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-172">Version number of the IP phone; by using the Manufacturer and the Hardware version filters you can uniquely identity a particular type of phone.</span></span> <span data-ttu-id="7ef73-173">Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="7ef73-173">The values for this filter are automatically populated for you based on the IP phones that are currently in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-174"><strong>User agent</strong> (Агент пользователя)</span><span class="sxs-lookup"><span data-stu-id="97cce-174"><strong>User agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-p115">Идентификатор программного обеспечения, используемого IP-телефоном. Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="97cce-p115">Identifier for the software used by the IP phone. The values for this filter are automatically populated for you based on the IP phones currently in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-174"><strong>User agent</strong> (Агент пользователя)</span><span class="sxs-lookup"><span data-stu-id="7ef73-174"><strong>User agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p115">Идентификатор программного обеспечения, используемого IP-телефоном. Значения для данного фильтра заполняются автоматически на основе данных об IP-телефонах, хранящихся в базе данных.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p115">Identifier for the software used by the IP phone. The values for this filter are automatically populated for you based on the IP phones currently in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-177"><strong>MAC address</strong> (MAC-адрес)</span><span class="sxs-lookup"><span data-stu-id="97cce-177"><strong>MAC address</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-p116">Уникальный идентификатор сетевого интерфейса IP-телефона. Обычно MAC-адрес задается производителем и не поддерживает изменение.</span><span class="sxs-lookup"><span data-stu-id="97cce-p116">Unique identifier for the network interface on the IP phone. The Media Access Control (MAC) address is typically assigned at the time the phone is manufactured and is hard-wired into the device hardware.</span></span></p>
-<p><span data-ttu-id="97cce-p117">Чтобы найти записи, относящиеся к определенному MAC-адресу, введите требуемый MAC-адрес. Пример:</span><span class="sxs-lookup"><span data-stu-id="97cce-p117">To search for records pertaining to a specific MAC address simply enter that address. For example:</span></span></p>
-<p><span data-ttu-id="97cce-182">00 – 8 – 5D – 16-16-48</span><span class="sxs-lookup"><span data-stu-id="97cce-182">00-08-5D-16-16-48</span></span></p>
-<p><span data-ttu-id="97cce-p118">Требуется вводить полные адреса. При вводе части адреса (например, 00-08-5D) данные не будут возвращены.</span><span class="sxs-lookup"><span data-stu-id="97cce-p118">You must enter the complete address. A partial address (for example 00-08-5D) does not return any data.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-177"><strong>MAC address</strong> (MAC-адрес)</span><span class="sxs-lookup"><span data-stu-id="7ef73-177"><strong>MAC address</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p116">Уникальный идентификатор сетевого интерфейса IP-телефона. Обычно MAC-адрес задается производителем и не поддерживает изменение.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p116">Unique identifier for the network interface on the IP phone. The Media Access Control (MAC) address is typically assigned at the time the phone is manufactured and is hard-wired into the device hardware.</span></span></p>
+<p><span data-ttu-id="7ef73-p117">Чтобы найти записи, относящиеся к определенному MAC-адресу, введите требуемый MAC-адрес. Пример:</span><span class="sxs-lookup"><span data-stu-id="7ef73-p117">To search for records pertaining to a specific MAC address simply enter that address. For example:</span></span></p>
+<p><span data-ttu-id="7ef73-182">00 – 8 – 5D – 16-16-48</span><span class="sxs-lookup"><span data-stu-id="7ef73-182">00-08-5D-16-16-48</span></span></p>
+<p><span data-ttu-id="7ef73-p118">Требуется вводить полные адреса. При вводе части адреса (например, 00-08-5D) данные не будут возвращены.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p118">You must enter the complete address. A partial address (for example 00-08-5D) does not return any data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-185"><strong>Last activity before days</strong> (Последние действия за период)</span><span class="sxs-lookup"><span data-stu-id="97cce-185"><strong>Last activity before days</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-186">Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="97cce-186">Select one of the following values:</span></span></p>
+<td><p><span data-ttu-id="7ef73-185"><strong>Last activity before days</strong> (Последние действия за период)</span><span class="sxs-lookup"><span data-stu-id="7ef73-185"><strong>Last activity before days</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-186">Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="7ef73-186">Select one of the following values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="97cce-187">Ко</span><span class="sxs-lookup"><span data-stu-id="97cce-187">[All]</span></span></p></li>
-<li><p><span data-ttu-id="97cce-188">10 </span><span class="sxs-lookup"><span data-stu-id="97cce-188">10</span></span></p></li>
-<li><p><span data-ttu-id="97cce-189">двадцать</span><span class="sxs-lookup"><span data-stu-id="97cce-189">20</span></span></p></li>
-<li><p><span data-ttu-id="97cce-190">более</span><span class="sxs-lookup"><span data-stu-id="97cce-190">30</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-187">Ко</span><span class="sxs-lookup"><span data-stu-id="7ef73-187">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-188">10 </span><span class="sxs-lookup"><span data-stu-id="7ef73-188">10</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-189">двадцать</span><span class="sxs-lookup"><span data-stu-id="7ef73-189">20</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-190">более</span><span class="sxs-lookup"><span data-stu-id="7ef73-190">30</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-191"><strong>Last logoff time before days</strong> (Последние выходы за период)</span><span class="sxs-lookup"><span data-stu-id="97cce-191"><strong>Last logoff time before days</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-192">Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="97cce-192">Select one of the following values:</span></span></p>
+<td><p><span data-ttu-id="7ef73-191"><strong>Last logoff time before days</strong> (Последние выходы за период)</span><span class="sxs-lookup"><span data-stu-id="7ef73-191"><strong>Last logoff time before days</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-192">Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="7ef73-192">Select one of the following values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="97cce-193">Ко</span><span class="sxs-lookup"><span data-stu-id="97cce-193">[All]</span></span></p></li>
-<li><p><span data-ttu-id="97cce-194">10 </span><span class="sxs-lookup"><span data-stu-id="97cce-194">10</span></span></p></li>
-<li><p><span data-ttu-id="97cce-195">двадцать</span><span class="sxs-lookup"><span data-stu-id="97cce-195">20</span></span></p></li>
-<li><p><span data-ttu-id="97cce-196">более</span><span class="sxs-lookup"><span data-stu-id="97cce-196">30</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-193">Ко</span><span class="sxs-lookup"><span data-stu-id="7ef73-193">[All]</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-194">10 </span><span class="sxs-lookup"><span data-stu-id="7ef73-194">10</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-195">двадцать</span><span class="sxs-lookup"><span data-stu-id="7ef73-195">20</span></span></p></li>
+<li><p><span data-ttu-id="7ef73-196">более</span><span class="sxs-lookup"><span data-stu-id="7ef73-196">30</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-197"><strong>User URI prefix</strong> (Префикс URI пользователя)</span><span class="sxs-lookup"><span data-stu-id="97cce-197"><strong>User URI prefix</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-198">SIP-адрес пользователя, который использует IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="97cce-198">SIP address of the user who used the IP phone.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-197"><strong>User URI prefix</strong> (Префикс URI пользователя)</span><span class="sxs-lookup"><span data-stu-id="7ef73-197"><strong>User URI prefix</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-198">SIP-адрес пользователя, который использует IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="7ef73-198">SIP address of the user who used the IP phone.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -201,11 +201,11 @@ ms.locfileid: "42035101"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="97cce-199">Метрик</span><span class="sxs-lookup"><span data-stu-id="97cce-199">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="7ef73-199">Метрик</span><span class="sxs-lookup"><span data-stu-id="7ef73-199">Metrics</span></span>
 
-<span data-ttu-id="97cce-200">В следующей таблице перечислены сведения, доступные в отчете по IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="97cce-200">The following table lists the information provided in the IP Phone Inventory Report.</span></span>
+<span data-ttu-id="7ef73-200">В следующей таблице перечислены сведения, доступные в отчете по IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="7ef73-200">The following table lists the information provided in the IP Phone Inventory Report.</span></span>
 
-### <a name="ip-phone-inventory-report-metrics"></a><span data-ttu-id="97cce-201">Показатели отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="97cce-201">IP Phone Inventory Report Metrics</span></span>
+### <a name="ip-phone-inventory-report-metrics"></a><span data-ttu-id="7ef73-201">Показатели отчета по IP-телефонам</span><span class="sxs-lookup"><span data-stu-id="7ef73-201">IP Phone Inventory Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -215,51 +215,51 @@ ms.locfileid: "42035101"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="97cce-202">Имя</span><span class="sxs-lookup"><span data-stu-id="97cce-202">Name</span></span></th>
-<th><span data-ttu-id="97cce-203">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="97cce-203">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="97cce-204">Описание</span><span class="sxs-lookup"><span data-stu-id="97cce-204">Description</span></span></th>
+<th><span data-ttu-id="7ef73-202">Имя</span><span class="sxs-lookup"><span data-stu-id="7ef73-202">Name</span></span></th>
+<th><span data-ttu-id="7ef73-203">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="7ef73-203">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="7ef73-204">Описание</span><span class="sxs-lookup"><span data-stu-id="7ef73-204">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-205"><strong>Вычислитель</strong></span><span class="sxs-lookup"><span data-stu-id="97cce-205"><strong>Manufacturer</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-206">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-207">Название компании, создавшей IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="97cce-207">Name of the company that manufactured the IP phone.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-205"><strong>Вычислитель</strong></span><span class="sxs-lookup"><span data-stu-id="7ef73-205"><strong>Manufacturer</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-206">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-207">Название компании, создавшей IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="7ef73-207">Name of the company that manufactured the IP phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-208"><strong>Hardware version</strong> (Версия оборудования)</span><span class="sxs-lookup"><span data-stu-id="97cce-208"><strong>Hardware version</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-209">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-209">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-210">Номер версии IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-210">Version number of the IP phone.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-208"><strong>Hardware version</strong> (Версия оборудования)</span><span class="sxs-lookup"><span data-stu-id="7ef73-208"><strong>Hardware version</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-209">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-210">Номер версии IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-210">Version number of the IP phone.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-211"><strong>MAC address</strong> (MAC-адрес)</span><span class="sxs-lookup"><span data-stu-id="97cce-211"><strong>MAC address</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-212">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-p119">Уникальный идентификатор сетевого интерфейса IP-телефона. Обычно MAC-адрес задается производителем и не поддерживает изменение.</span><span class="sxs-lookup"><span data-stu-id="97cce-p119">Unique identifier for the network interface on the IP phone. The MAC address is typically assigned at the time the phone is manufactured and is hard-wired into the device hardware.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-211"><strong>MAC address</strong> (MAC-адрес)</span><span class="sxs-lookup"><span data-stu-id="7ef73-211"><strong>MAC address</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-212">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-p119">Уникальный идентификатор сетевого интерфейса IP-телефона. Обычно MAC-адрес задается производителем и не поддерживает изменение.</span><span class="sxs-lookup"><span data-stu-id="7ef73-p119">Unique identifier for the network interface on the IP phone. The MAC address is typically assigned at the time the phone is manufactured and is hard-wired into the device hardware.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-215"><strong>User URI</strong> (URI пользователя)</span><span class="sxs-lookup"><span data-stu-id="97cce-215"><strong>User URI</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-216">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-216">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-217">SIP-адрес пользователя, который использует IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="97cce-217">SIP address of the user who used the IP phone.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-215"><strong>User URI</strong> (URI пользователя)</span><span class="sxs-lookup"><span data-stu-id="7ef73-215"><strong>User URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-216">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-216">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-217">SIP-адрес пользователя, который использует IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="7ef73-217">SIP address of the user who used the IP phone.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-218"><strong>User agent</strong> (Агент пользователя)</span><span class="sxs-lookup"><span data-stu-id="97cce-218"><strong>User agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-219">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-219">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-220">Идентификатор программного обеспечения, используемого IP-телефоном.</span><span class="sxs-lookup"><span data-stu-id="97cce-220">Identifier for the software used by the IP phone.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-218"><strong>User agent</strong> (Агент пользователя)</span><span class="sxs-lookup"><span data-stu-id="7ef73-218"><strong>User agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-219">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-219">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-220">Идентификатор программного обеспечения, используемого IP-телефоном.</span><span class="sxs-lookup"><span data-stu-id="7ef73-220">Identifier for the software used by the IP phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-221"><strong>Last logon time</strong> (Время последнего входа)</span><span class="sxs-lookup"><span data-stu-id="97cce-221"><strong>Last logon time</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-222">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-222">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-223">Дата и время последнего входа в Lync Server с помощью IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-223">Date and time that the IP phone last logged on to Lync Server.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-221"><strong>Last logon time</strong> (Время последнего входа)</span><span class="sxs-lookup"><span data-stu-id="7ef73-221"><strong>Last logon time</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-222">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-222">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-223">Дата и время последнего входа в Lync Server с помощью IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-223">Date and time that the IP phone last logged on to Lync Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cce-224"><strong>Last logoff time</strong> (Время последнего выхода)</span><span class="sxs-lookup"><span data-stu-id="97cce-224"><strong>Last logoff time</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-225">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-225">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-226">Дата и время последнего выхода из Lync Server для IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-226">Date and time that the IP phone last logged off from Lync Server.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-224"><strong>Last logoff time</strong> (Время последнего выхода)</span><span class="sxs-lookup"><span data-stu-id="7ef73-224"><strong>Last logoff time</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-225">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-225">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-226">Дата и время последнего выхода из Lync Server для IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-226">Date and time that the IP phone last logged off from Lync Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cce-227"><strong>Last activity</strong> (Последние действия)</span><span class="sxs-lookup"><span data-stu-id="97cce-227"><strong>Last activity</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cce-228">Да</span><span class="sxs-lookup"><span data-stu-id="97cce-228">Yes</span></span></p></td>
-<td><p><span data-ttu-id="97cce-229">Дата и время последнего использования IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="97cce-229">Date and time that the IP phone was last used.</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-227"><strong>Last activity</strong> (Последние действия)</span><span class="sxs-lookup"><span data-stu-id="7ef73-227"><strong>Last activity</strong></span></span></p></td>
+<td><p><span data-ttu-id="7ef73-228">Да</span><span class="sxs-lookup"><span data-stu-id="7ef73-228">Yes</span></span></p></td>
+<td><p><span data-ttu-id="7ef73-229">Дата и время последнего использования IP-телефона.</span><span class="sxs-lookup"><span data-stu-id="7ef73-229">Date and time that the IP phone was last used.</span></span></p></td>
 </tr>
 </tbody>
 </table>

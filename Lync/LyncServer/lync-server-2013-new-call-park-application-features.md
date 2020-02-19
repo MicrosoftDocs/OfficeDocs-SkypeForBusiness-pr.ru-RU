@@ -12,20 +12,20 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55b1c93831638f72f3763e4b7c2e12bde0b87ef3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049991"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42127132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="a800b-102">Новые функции приложения парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a800b-102">New Call Park application features in Lync Server 2013</span></span>
+# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="6e0cf-102">Новые функции приложения парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e0cf-102">New Call Park application features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "42049991"
 
 <span> </span>
 
-<span data-ttu-id="a800b-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="a800b-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="6e0cf-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="6e0cf-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="a800b-104">Приложение парковки вызовов позволяет пользователям корпоративной голосовой связи помещать вызовы на удержание, а затем извлекать их позже с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="a800b-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="a800b-105">Пользователь, использующий звонок, может либо набрать номер орбиты, предоставленный службой парковки вызовов, чтобы получить припаркованный звонок, либо использовать внешний механизм, например обмен мгновенными сообщениями или систему разбиения по страницам, чтобы попросить кого-либо получить вызов.</span><span class="sxs-lookup"><span data-stu-id="a800b-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
+<span data-ttu-id="6e0cf-104">Приложение парковки вызовов позволяет пользователям корпоративной голосовой связи помещать вызовы на удержание, а затем извлекать их позже с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="6e0cf-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="6e0cf-105">Пользователь, использующий звонок, может либо набрать номер орбиты, предоставленный службой парковки вызовов, чтобы получить припаркованный звонок, либо использовать внешний механизм, например обмен мгновенными сообщениями или систему разбиения по страницам, чтобы попросить кого-либо получить вызов.</span><span class="sxs-lookup"><span data-stu-id="6e0cf-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
 
-<span data-ttu-id="a800b-106">Lync Server 2013 предоставляет новые механизмы аварийного восстановления в виде процессов отработки отказа и восстановления размещения.</span><span class="sxs-lookup"><span data-stu-id="a800b-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="a800b-107">Эти процессы отработки отказа и восстановления размещения поддерживают восстановление функций парковки вызовов, позволяя пользователям, размещенным в основном пуле, использовать приложение парковки резервного пула, когда происходит сбой в основном пуле.</span><span class="sxs-lookup"><span data-stu-id="a800b-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="a800b-108">Поддержка аварийного восстановления приложения парковки вызовов включена как часть конфигурации и развертывания связанных пулов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="a800b-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
+<span data-ttu-id="6e0cf-106">Lync Server 2013 предоставляет новые механизмы аварийного восстановления в виде процессов отработки отказа и восстановления размещения.</span><span class="sxs-lookup"><span data-stu-id="6e0cf-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="6e0cf-107">Эти процессы отработки отказа и восстановления размещения поддерживают восстановление функций парковки вызовов, позволяя пользователям, размещенным в основном пуле, использовать приложение парковки резервного пула, когда происходит сбой в основном пуле.</span><span class="sxs-lookup"><span data-stu-id="6e0cf-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="6e0cf-108">Поддержка аварийного восстановления приложения парковки вызовов включена как часть конфигурации и развертывания связанных пулов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="6e0cf-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a800b-109">См. также</span><span class="sxs-lookup"><span data-stu-id="a800b-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e0cf-109">См. также</span><span class="sxs-lookup"><span data-stu-id="6e0cf-109">See Also</span></span>
 
 
-[<span data-ttu-id="a800b-110">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a800b-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
+[<span data-ttu-id="6e0cf-110">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e0cf-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
   
 
 </div>
