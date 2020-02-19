@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c7b8606089cab35be870f90ee301db052e99c611
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42015362"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="8bc3a-102">Обновление или обновление внутреннего сервера или сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8bc3a-102">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a><span data-ttu-id="427c9-102">Обновление или обновление внутреннего сервера или сервера Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="427c9-102">Upgrade or update a Back End Server or Standard Edition server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "42015362"
 
 <span> </span>
 
-<span data-ttu-id="8bc3a-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8bc3a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="427c9-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="427c9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="8bc3a-104">В этом разделе объясняется, как установить обновление на фоновом сервере Enterprise Edition или сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-104">This topic explains how to install an update on an Enterprise Edition Back End Server or a Standard Edition server.</span></span>
+<span data-ttu-id="427c9-104">В этом разделе объясняется, как установить обновление на фоновом сервере Enterprise Edition или сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="427c9-104">This topic explains how to install an update on an Enterprise Edition Back End Server or a Standard Edition server.</span></span>
 
-<span data-ttu-id="8bc3a-p101">Если во время обновления внутренний сервер отключается хотя бы на 30 минут, пользователи могут перейти в режим устойчивости. После завершения обновления и подключения внутреннего сервера к серверам переднего плана в пуле пользователи снова получают полный набор функциональных возможностей. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-p101">If a Back End Server is down for at least 30 minutes while you are upgrading it, users may then go into resiliency mode. When the upgrade is finished and the Back End Servers has again connected with the Front End Servers in the pool, users are returned to full functionality. If the upgrade takes less than 30 minutes, users will not be affected.</span></span>
+<span data-ttu-id="427c9-p101">Если во время обновления внутренний сервер отключается хотя бы на 30 минут, пользователи могут перейти в режим устойчивости. После завершения обновления и подключения внутреннего сервера к серверам переднего плана в пуле пользователи снова получают полный набор функциональных возможностей. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.</span><span class="sxs-lookup"><span data-stu-id="427c9-p101">If a Back End Server is down for at least 30 minutes while you are upgrading it, users may then go into resiliency mode. When the upgrade is finished and the Back End Servers has again connected with the Front End Servers in the pool, users are returned to full functionality. If the upgrade takes less than 30 minutes, users will not be affected.</span></span>
 
 <div>
 
-## <a name="to-update-a-back-end-server-or-standard-edition-server"></a><span data-ttu-id="8bc3a-108">Обновление внутреннего сервера или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="8bc3a-108">To update a back end server or Standard Edition server</span></span>
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a><span data-ttu-id="427c9-108">Обновление внутреннего сервера или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="427c9-108">To update a back end server or Standard Edition server</span></span>
 
-1.  <span data-ttu-id="8bc3a-109">Выполните вход на обновляемый сервер в качестве члена роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-109">Log on to the server you are upgrading as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="427c9-109">Выполните вход на обновляемый сервер в качестве члена роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="427c9-109">Log on to the server you are upgrading as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="8bc3a-110">Загрузите обновление и извлеките его на локальный жесткий диск.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-110">Download the update and extract it to the local hard disk.</span></span>
+2.  <span data-ttu-id="427c9-110">Загрузите обновление и извлеките его на локальный жесткий диск.</span><span class="sxs-lookup"><span data-stu-id="427c9-110">Download the update and extract it to the local hard disk.</span></span>
 
-3.  <span data-ttu-id="8bc3a-111">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+3.  <span data-ttu-id="427c9-111">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="427c9-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  <span data-ttu-id="8bc3a-p102">Остановите службы Lync Server. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-p102">Stop Lync Server services. At the command line, type:</span></span>
+4.  <span data-ttu-id="427c9-p102">Остановите службы Lync Server. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-p102">Stop Lync Server services. At the command line, type:</span></span>
     
         Stop-CsWindowsService
 
-5.  <span data-ttu-id="8bc3a-p103">Остановите службу Интернета. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-p103">Stop the World Wide Web service. At the command line, type:</span></span>
+5.  <span data-ttu-id="427c9-p103">Остановите службу Интернета. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-p103">Stop the World Wide Web service. At the command line, type:</span></span>
     
         net stop w3svc
 
-6.  <span data-ttu-id="8bc3a-116">Закройте все окна командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-116">Close all Lync Server Management Shell windows.</span></span>
+6.  <span data-ttu-id="427c9-116">Закройте все окна командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="427c9-116">Close all Lync Server Management Shell windows.</span></span>
 
-7.  <span data-ttu-id="8bc3a-117">Установите обновление.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-117">Install the update.</span></span>
+7.  <span data-ttu-id="427c9-117">Установите обновление.</span><span class="sxs-lookup"><span data-stu-id="427c9-117">Install the update.</span></span>
 
-8.  <span data-ttu-id="8bc3a-118">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8bc3a-118">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+8.  <span data-ttu-id="427c9-118">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="427c9-118">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-9.  <span data-ttu-id="8bc3a-p104">Снова остановите службы Lync Server, чтобы получить сборки –d из глобального кэша сборок. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-p104">Stop Lync Server services again to catch Global Assembly Cache (GAC) –d assemblies. At the command line, type:</span></span>
+9.  <span data-ttu-id="427c9-p104">Снова остановите службы Lync Server, чтобы получить сборки –d из глобального кэша сборок. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-p104">Stop Lync Server services again to catch Global Assembly Cache (GAC) –d assemblies. At the command line, type:</span></span>
     
         Stop-CsWindowsService
 
-10. <span data-ttu-id="8bc3a-p105">Перезапустите службу Интернета. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-p105">Restart the World Wide Web service. At the command line, type:</span></span>
+10. <span data-ttu-id="427c9-p105">Перезапустите службу Интернета. В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-p105">Restart the World Wide Web service. At the command line, type:</span></span>
     
         net start w3svc
 
-11. <span data-ttu-id="8bc3a-123">Примените изменения, внесенные программой LyncServerUpdateInstaller.exe в базы данных SQL Server, выполнив одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-123">Apply the changes made by LyncServerUpdateInstaller.exe to the SQL Server databases by doing one of the following:</span></span>
+11. <span data-ttu-id="427c9-123">Примените изменения, внесенные программой LyncServerUpdateInstaller.exe в базы данных SQL Server, выполнив одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="427c9-123">Apply the changes made by LyncServerUpdateInstaller.exe to the SQL Server databases by doing one of the following:</span></span>
     
-      - <span data-ttu-id="8bc3a-124">Если это внутренний сервер выпуска Enterprise Edition, а на этом сервере нет размещенных баз данных, таких как архивация и отслеживание баз данных, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-124">If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:</span></span>
+      - <span data-ttu-id="427c9-124">Если это внутренний сервер выпуска Enterprise Edition, а на этом сервере нет размещенных баз данных, таких как архивация и отслеживание баз данных, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-124">If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:</span></span>
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - <span data-ttu-id="8bc3a-125">Если это внутренний сервер выпуска Enterprise Edition и на этом сервере размещены размещенные базы данных, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-125">If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:</span></span>
+      - <span data-ttu-id="427c9-125">Если это внутренний сервер выпуска Enterprise Edition и на этом сервере размещены размещенные базы данных, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-125">If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:</span></span>
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - <span data-ttu-id="8bc3a-126">Если это сервер Standard Edition, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8bc3a-126">If this is an Standard Edition server, type the following at a command line:</span></span>
+      - <span data-ttu-id="427c9-126">Если это сервер Standard Edition, введите в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="427c9-126">If this is an Standard Edition server, type the following at a command line:</span></span>
         
             Install-CsDatabase -Update -LocalDatabases
 

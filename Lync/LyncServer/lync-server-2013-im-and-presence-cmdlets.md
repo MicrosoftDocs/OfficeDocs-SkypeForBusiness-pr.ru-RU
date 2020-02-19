@@ -12,20 +12,20 @@ ms:contentKeyID: 48184589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7886300b49cfea014b04cca01c859852dcd74d9c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1cdb8e7e9f0301219968a8eab35d23d550a8a17
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038791"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a><span data-ttu-id="a2614-102">Командлеты для обмена мгновенными сообщениями и присутствия в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2614-102">IM and presence cmdlets in Lync Server 2013</span></span>
+# <a name="im-and-presence-cmdlets-in-lync-server-2013"></a><span data-ttu-id="aed0c-102">Командлеты для обмена мгновенными сообщениями и присутствия в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aed0c-102">IM and presence cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,138 +35,138 @@ ms.locfileid: "42038791"
 
 <span> </span>
 
-<span data-ttu-id="a2614-103">_**Последнее изменение темы:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="a2614-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="aed0c-103">_**Последнее изменение темы:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="aed0c-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="a2614-104">Командлеты обмена мгновенными сообщениями и сведения о присутствии позволяют управлять этими клиентскими функциями с помощью Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a2614-104">Instant Messaging (IM) and presence cmdlets allow you to manage those client features through Windows PowerShell.</span></span> <span data-ttu-id="a2614-105">Можно устанавливать политики присутствия, которые применяются к пользователям на глобальном уровне, на уровне сайта или на уровне пользователя.</span><span class="sxs-lookup"><span data-stu-id="a2614-105">You can set presence policies that apply to users at the global, site, or per-user scope.</span></span> <span data-ttu-id="a2614-106">Можно также настраивать разные компоненты конфиденциальности и обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="a2614-106">You can also configure various privacy and IM features.</span></span>
+<span data-ttu-id="aed0c-104">Командлеты обмена мгновенными сообщениями и сведения о присутствии позволяют управлять этими клиентскими функциями с помощью Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="aed0c-104">Instant Messaging (IM) and presence cmdlets allow you to manage those client features through Windows PowerShell.</span></span> <span data-ttu-id="aed0c-105">Можно устанавливать политики присутствия, которые применяются к пользователям на глобальном уровне, на уровне сайта или на уровне пользователя.</span><span class="sxs-lookup"><span data-stu-id="aed0c-105">You can set presence policies that apply to users at the global, site, or per-user scope.</span></span> <span data-ttu-id="aed0c-106">Можно также настраивать разные компоненты конфиденциальности и обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="aed0c-106">You can also configure various privacy and IM features.</span></span>
 
 <div>
 
-## <a name="im-and-presence-cmdlets"></a><span data-ttu-id="a2614-107">Командлеты обмена мгновенными сообщениями и присутствия</span><span class="sxs-lookup"><span data-stu-id="a2614-107">IM and Presence Cmdlets</span></span>
+## <a name="im-and-presence-cmdlets"></a><span data-ttu-id="aed0c-107">Командлеты обмена мгновенными сообщениями и присутствия</span><span class="sxs-lookup"><span data-stu-id="aed0c-107">IM and Presence Cmdlets</span></span>
 
-<span data-ttu-id="a2614-108">Для настройки обмена мгновенными сообщениями и присутствия используются следующие командлеты.</span><span class="sxs-lookup"><span data-stu-id="a2614-108">The configure IM and presence, use the following cmdlets:</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-109">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-109">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span></span>
+<span data-ttu-id="aed0c-108">Для настройки обмена мгновенными сообщениями и присутствия используются следующие командлеты.</span><span class="sxs-lookup"><span data-stu-id="aed0c-108">The configure IM and presence, use the following cmdlets:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-110">[Granting — CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-110">[Grant-CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-109">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-109">[Get-CsPresencePolicy](https://technet.microsoft.com/library/Gg398463(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-111">[New — CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-111">[New-CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-110">[Granting — CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-110">[Grant-CsPresencePolicy](https://technet.microsoft.com/library/Gg398571(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-112">[Remove — CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-112">[Remove-CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-111">[New — CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-111">[New-CsPresencePolicy](https://technet.microsoft.com/library/Gg412747(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-113">[Set — CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-113">[Set-CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-112">[Remove — CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-112">[Remove-CsPresencePolicy](https://technet.microsoft.com/library/Gg399070(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-113">[Set — CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-113">[Set-CsPresencePolicy](https://technet.microsoft.com/library/Gg425782(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a2614-114">[Get — CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-114">[Get-CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))</span></span>
+  - <span data-ttu-id="aed0c-114">[Get — CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-114">[Get-CsPresenceProvider](https://technet.microsoft.com/library/JJ204705(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="a2614-115">[New — CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-115">[New-CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))</span></span>
+  - <span data-ttu-id="aed0c-115">[New — CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-115">[New-CsPresenceProvider](https://technet.microsoft.com/library/JJ204895(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="a2614-116">[Remove — CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-116">[Remove-CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))</span></span>
+  - <span data-ttu-id="aed0c-116">[Remove — CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-116">[Remove-CsPresenceProvider](https://technet.microsoft.com/library/JJ205036(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="a2614-117">[Set — CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-117">[Set-CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))</span></span>
-
-<!-- end list -->
-
-  - <span></span>  
-    <span data-ttu-id="a2614-118">[Get — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-118">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-119">[New — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-119">[New-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-120">[Remove — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-120">[Remove-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-121">[Set — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-121">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span></span>
+  - <span data-ttu-id="aed0c-117">[Set — CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-117">[Set-CsPresenceProvider](https://technet.microsoft.com/library/JJ204833(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-122">[Set — Ксусерсервер](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-122">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-118">[Get — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-118">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg413002(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-119">[New — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-119">[New-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398807(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-120">[Remove — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-120">[Remove-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg425821(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-121">[Set — CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-121">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/Gg398484(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-123">[Get — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-123">[Get-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-124">[New — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-124">[New-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-125">[Remove — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-125">[Remove-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="a2614-126">[Set — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-126">[Set-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-122">[Set — Ксусерсервер](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-122">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-127">[Get — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-127">[Get-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-123">[Get — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-123">[Get-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398133(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-128">[New — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-128">[New-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-124">[New — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-124">[New-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg412926(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-129">[Remove — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-129">[Remove-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-125">[Remove — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-125">[Remove-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398722(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-130">[Set — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-130">[Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-126">[Set — CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-126">[Set-CsUserServicesConfiguration](https://technet.microsoft.com/library/Gg398340(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-131">[Get — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-127">[Get — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-127">[Get-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg398527(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-132">[New — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398244(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-132">[New-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398244(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-128">[New — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-128">[New-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425897(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-133">[Remove — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398171(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-133">[Remove-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398171(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-129">[Remove — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-129">[Remove-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg413064(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a2614-134">[Set — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg412960(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-134">[Set-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg412960(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-130">[Set — CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-130">[Set-CsFileTransferFilterConfiguration](https://technet.microsoft.com/library/Gg425736(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-135">[Test-Ксграупекспансион](https://technet.microsoft.com/library/Gg399009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-135">[Test-CsGroupExpansion](https://technet.microsoft.com/library/Gg399009(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-131">[Get — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-131">[Get-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398980(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-132">[New — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398244(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-132">[New-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398244(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-133">[Remove — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg398171(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-133">[Remove-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg398171(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-134">[Set — Ксимфилтерконфигуратион](https://technet.microsoft.com/library/Gg412960(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-134">[Set-CsImFilterConfiguration](https://technet.microsoft.com/library/Gg412960(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-136">[Test-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-136">[Test-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-135">[Test-Ксграупекспансион](https://technet.microsoft.com/library/Gg399009(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-135">[Test-CsGroupExpansion](https://technet.microsoft.com/library/Gg399009(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-137">[Test-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-137">[Test-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-136">[Test-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-136">[Test-CsGroupIM](https://technet.microsoft.com/library/Gg398273(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-138">[Test-CsP2PAV](https://technet.microsoft.com/library/Gg412821(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-138">[Test-CsP2PAV](https://technet.microsoft.com/library/Gg412821(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-137">[Test-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-137">[Test-CsIM](https://technet.microsoft.com/library/Gg425802(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a2614-139">[Test-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a2614-139">[Test-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))</span></span>
+    <span data-ttu-id="aed0c-138">[Test-CsP2PAV](https://technet.microsoft.com/library/Gg412821(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-138">[Test-CsP2PAV](https://technet.microsoft.com/library/Gg412821(v=OCS.15))</span></span>
+
+<!-- end list -->
+
+  - <span></span>  
+    <span data-ttu-id="aed0c-139">[Test-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aed0c-139">[Test-CsPresence](https://technet.microsoft.com/library/Gg398148(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a2614-140">См. также</span><span class="sxs-lookup"><span data-stu-id="a2614-140">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aed0c-140">См. также</span><span class="sxs-lookup"><span data-stu-id="aed0c-140">See Also</span></span>
 
 
-[<span data-ttu-id="a2614-141">Командлеты управления клиентами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2614-141">Client management cmdlets in Lync Server 2013</span></span>](lync-server-2013-client-management-cmdlets.md)  
+[<span data-ttu-id="aed0c-141">Командлеты управления клиентами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aed0c-141">Client management cmdlets in Lync Server 2013</span></span>](lync-server-2013-client-management-cmdlets.md)  
 
 
-[<span data-ttu-id="a2614-142">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="a2614-142">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="aed0c-142">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="aed0c-142">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

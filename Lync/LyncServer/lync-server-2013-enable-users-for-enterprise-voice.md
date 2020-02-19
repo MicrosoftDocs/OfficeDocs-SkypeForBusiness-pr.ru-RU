@@ -12,20 +12,20 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c48f701f9396c43337e2723f0dc83a8eda8d96ee
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31b9cffef7dbb9338c1019b965fb398a0f72ed34
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046692"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="37e4d-102">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37e4d-102">Enable users for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="0fe30-102">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0fe30-102">Enable users for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "42046692"
 
 <span> </span>
 
-<span data-ttu-id="37e4d-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="37e4d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="0fe30-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0fe30-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="37e4d-104">После установки файлов для одного или нескольких серверов-посредников Настройте маршрутизацию исходящих вызовов и при необходимости разверните одну или несколько расширенных функций корпоративной голосовой связи, чтобы разрешить пользователю совершать звонки с помощью корпоративной голосовой связи, можно использовать следующие процедуры:</span><span class="sxs-lookup"><span data-stu-id="37e4d-104">After you install files for one or more Mediation Servers, configure outbound call routing, and optionally deploy one or more advanced Enterprise Voice features, you can use the following procedures to enable a user to make calls by using Enterprise Voice:</span></span>
+<span data-ttu-id="0fe30-104">После установки файлов для одного или нескольких серверов-посредников Настройте маршрутизацию исходящих вызовов и при необходимости разверните одну или несколько расширенных функций корпоративной голосовой связи, чтобы разрешить пользователю совершать звонки с помощью корпоративной голосовой связи, можно использовать следующие процедуры:</span><span class="sxs-lookup"><span data-stu-id="0fe30-104">After you install files for one or more Mediation Servers, configure outbound call routing, and optionally deploy one or more advanced Enterprise Voice features, you can use the following procedures to enable a user to make calls by using Enterprise Voice:</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="37e4d-105">Из следующих процедур можно выполнить только первый из них с помощью панели управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="37e4d-105">Of the following procedures, only the first can be performed by using Lync Server Control Panel.</span></span> <span data-ttu-id="37e4d-106">В остальных процедурах можно использовать только командную консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="37e4d-106">For the remaining procedures, you can use only Lync Server Management Shell.</span></span>
+> <span data-ttu-id="0fe30-105">Из следующих процедур можно выполнить только первый из них с помощью панели управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fe30-105">Of the following procedures, only the first can be performed by using Lync Server Control Panel.</span></span> <span data-ttu-id="0fe30-106">В остальных процедурах можно использовать только командную консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fe30-106">For the remaining procedures, you can use only Lync Server Management Shell.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="37e4d-107">Включение учетной записи пользователя для корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="37e4d-107">Enable the user account for Enterprise Voice.</span></span>
+  - <span data-ttu-id="0fe30-107">Включение учетной записи пользователя для корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="0fe30-107">Enable the user account for Enterprise Voice.</span></span>
 
-  - <span data-ttu-id="37e4d-108">(Необязательно) Назначьте учетной записи пользователя определенную политику голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="37e4d-108">(Optional) Assign the user account a user-specific voice policy.</span></span>
+  - <span data-ttu-id="0fe30-108">(Необязательно) Назначьте учетной записи пользователя определенную политику голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="0fe30-108">(Optional) Assign the user account a user-specific voice policy.</span></span>
 
-  - <span data-ttu-id="37e4d-109">(Необязательно) Назначьте учетной записи пользователя определенную абонентскую группу.</span><span class="sxs-lookup"><span data-stu-id="37e4d-109">(Optional) Assign the user account a user-specific dial plan.</span></span>
+  - <span data-ttu-id="0fe30-109">(Необязательно) Назначьте учетной записи пользователя определенную абонентскую группу.</span><span class="sxs-lookup"><span data-stu-id="0fe30-109">(Optional) Assign the user account a user-specific dial plan.</span></span>
 
 <div>
 
-## <a name="to-enable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="37e4d-110">Включение учетной записи пользователя для корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="37e4d-110">To enable a user account for Enterprise Voice</span></span>
+## <a name="to-enable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="0fe30-110">Включение учетной записи пользователя для корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="0fe30-110">To enable a user account for Enterprise Voice</span></span>
 
-1.  <span data-ttu-id="37e4d-111">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="37e4d-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fe30-111">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="0fe30-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="37e4d-112">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="37e4d-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="37e4d-113">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="37e4d-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0fe30-112">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fe30-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0fe30-113">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0fe30-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="37e4d-114">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-114">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="0fe30-114">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-114">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="37e4d-115">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (диспетчера учетных записей безопасности), SIP-адрес или линейный универсальный код ресурса (URI) учетной записи пользователя, которой требуется разрешить корпоративную голосовую связи, а затем нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-115">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
+4.  <span data-ttu-id="0fe30-115">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (диспетчера учетных записей безопасности), SIP-адрес или линейный универсальный код ресурса (URI) учетной записи пользователя, которой требуется разрешить корпоративную голосовую связи, а затем нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-115">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="37e4d-116">В таблице щелкните учетную запись пользователя, для которой необходимо включить поддержку корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="37e4d-116">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
+5.  <span data-ttu-id="0fe30-116">В таблице щелкните учетную запись пользователя, для которой необходимо включить поддержку корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="0fe30-116">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
 
-6.  <span data-ttu-id="37e4d-117">В меню **Правка** выберите команду **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-117">On the **Edit** menu, click **Show details**.</span></span>
+6.  <span data-ttu-id="0fe30-117">В меню **Правка** выберите команду **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-117">On the **Edit** menu, click **Show details**.</span></span>
 
-7.  <span data-ttu-id="37e4d-118">На странице **Изменение пользователя Lync Server** в разделе **Телефония** щелкните **Корпоративная голосовая связь**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-118">On the **Edit Lync Server User** page, under **Telephony**, click **Enterprise Voice**.</span></span>
+7.  <span data-ttu-id="0fe30-118">На странице **Изменение пользователя Lync Server** в разделе **Телефония** щелкните **Корпоративная голосовая связь**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-118">On the **Edit Lync Server User** page, under **Telephony**, click **Enterprise Voice**.</span></span>
 
-8.  <span data-ttu-id="37e4d-119">Щелкните **Строковый URI** и введите уникальный нормализованный номер телефона (например, tel:+14255550200).</span><span class="sxs-lookup"><span data-stu-id="37e4d-119">Click **Line URI**, and then type a unique, normalized phone number (for example, tel:+14255550200).</span></span>
+8.  <span data-ttu-id="0fe30-119">Щелкните **Строковый URI** и введите уникальный нормализованный номер телефона (например, tel:+14255550200).</span><span class="sxs-lookup"><span data-stu-id="0fe30-119">Click **Line URI**, and then type a unique, normalized phone number (for example, tel:+14255550200).</span></span>
 
-9.  <span data-ttu-id="37e4d-120">Щелкните **Зафиксировать**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-120">Click **Commit**.</span></span>
+9.  <span data-ttu-id="0fe30-120">Щелкните **Зафиксировать**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-120">Click **Commit**.</span></span>
 
-<span data-ttu-id="37e4d-121">Чтобы завершить включение пользователя для корпоративной голосовой связи, убедитесь, что пользователю назначена политика голосовой связи и абонентская группы, будь это глобальная (назначенная по умолчанию) или пользовательская.</span><span class="sxs-lookup"><span data-stu-id="37e4d-121">To finish enabling a user for Enterprise Voice, be sure that the user is assigned a voice policy and a dial plan, whether global (assigned by default) or user-specific.</span></span>
+<span data-ttu-id="0fe30-121">Чтобы завершить включение пользователя для корпоративной голосовой связи, убедитесь, что пользователю назначена политика голосовой связи и абонентская группы, будь это глобальная (назначенная по умолчанию) или пользовательская.</span><span class="sxs-lookup"><span data-stu-id="0fe30-121">To finish enabling a user for Enterprise Voice, be sure that the user is assigned a voice policy and a dial plan, whether global (assigned by default) or user-specific.</span></span>
 
-<span data-ttu-id="37e4d-122">По умолчанию всем пользователям назначается глобальная голосовая политика и абонентская группа.</span><span class="sxs-lookup"><span data-stu-id="37e4d-122">By default, all users are assigned a global voice policy and dial plan.</span></span> <span data-ttu-id="37e4d-123">Если голосовая политика или абонентская группа существуют на уровне сайта для того сайта, на котором размещена учетная запись пользователя, эта политика будет автоматически применена к пользователю.</span><span class="sxs-lookup"><span data-stu-id="37e4d-123">If a voice policy or dial plan exists at the site level for the site on which the user account is homed, those site policies will automatically apply to the user.</span></span> <span data-ttu-id="37e4d-124">Чтобы применить голосовую политику или абонентскую группу на уровне пользователя к определенному пользователю, необходимо выполнить командлеты **Grant-CsVoicePolicy** и **Grant-CsDialPlan**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-124">To apply a per-user voice policy or dial plan to a user, you must run the **Grant-CsVoicePolicy** and **Grant-CsDialPlan** cmdlets.</span></span> <span data-ttu-id="37e4d-125">Дополнительные сведения см. в документации по [командной консоли Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="37e4d-125">For details, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
+<span data-ttu-id="0fe30-122">По умолчанию всем пользователям назначается глобальная голосовая политика и абонентская группа.</span><span class="sxs-lookup"><span data-stu-id="0fe30-122">By default, all users are assigned a global voice policy and dial plan.</span></span> <span data-ttu-id="0fe30-123">Если голосовая политика или абонентская группа существуют на уровне сайта для того сайта, на котором размещена учетная запись пользователя, эта политика будет автоматически применена к пользователю.</span><span class="sxs-lookup"><span data-stu-id="0fe30-123">If a voice policy or dial plan exists at the site level for the site on which the user account is homed, those site policies will automatically apply to the user.</span></span> <span data-ttu-id="0fe30-124">Чтобы применить голосовую политику или абонентскую группу на уровне пользователя к определенному пользователю, необходимо выполнить командлеты **Grant-CsVoicePolicy** и **Grant-CsDialPlan**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-124">To apply a per-user voice policy or dial plan to a user, you must run the **Grant-CsVoicePolicy** and **Grant-CsDialPlan** cmdlets.</span></span> <span data-ttu-id="0fe30-125">Дополнительные сведения см. в документации по [командной консоли Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="0fe30-125">For details, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="voice-policy-assignment"></a><span data-ttu-id="37e4d-126">Назначение политики голосовой связи</span><span class="sxs-lookup"><span data-stu-id="37e4d-126">Voice Policy Assignment</span></span>
+## <a name="voice-policy-assignment"></a><span data-ttu-id="0fe30-126">Назначение политики голосовой связи</span><span class="sxs-lookup"><span data-stu-id="0fe30-126">Voice Policy Assignment</span></span>
 
-<span data-ttu-id="37e4d-127">Глобальные и на уровне сайта политики голосовой связи автоматически назначаются всем учетным записям пользователей, для которых включена поддержка корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="37e4d-127">Global and site-level voice policies are automatically assigned to all user accounts that are enabled for Enterprise Voice.</span></span> <span data-ttu-id="37e4d-128">Вы также можете создать политики, которые применяются к определенным пользователям или группам.</span><span class="sxs-lookup"><span data-stu-id="37e4d-128">You can also create voice policies that apply to specific users or groups.</span></span> <span data-ttu-id="37e4d-129">Их необходимо назначить явно.</span><span class="sxs-lookup"><span data-stu-id="37e4d-129">These per-user policies must be explicitly assigned to the users or groups.</span></span> <span data-ttu-id="37e4d-130">Если вы хотите использовать глобальную политику голосовой связи для всех пользователей с включенной поддержкой корпоративной голосовой связи, вы можете пропустить этот раздел и перейти к разделу назначение абонентской группы позже в этой статье.</span><span class="sxs-lookup"><span data-stu-id="37e4d-130">If you want to use the global or site voice policy for all users who are enabled for Enterprise Voice, you can skip this section and continue to Dial Plan Assignment section later in this topic.</span></span>
+<span data-ttu-id="0fe30-127">Глобальные и на уровне сайта политики голосовой связи автоматически назначаются всем учетным записям пользователей, для которых включена поддержка корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="0fe30-127">Global and site-level voice policies are automatically assigned to all user accounts that are enabled for Enterprise Voice.</span></span> <span data-ttu-id="0fe30-128">Вы также можете создать политики, которые применяются к определенным пользователям или группам.</span><span class="sxs-lookup"><span data-stu-id="0fe30-128">You can also create voice policies that apply to specific users or groups.</span></span> <span data-ttu-id="0fe30-129">Их необходимо назначить явно.</span><span class="sxs-lookup"><span data-stu-id="0fe30-129">These per-user policies must be explicitly assigned to the users or groups.</span></span> <span data-ttu-id="0fe30-130">Если вы хотите использовать глобальную политику голосовой связи для всех пользователей с включенной поддержкой корпоративной голосовой связи, вы можете пропустить этот раздел и перейти к разделу назначение абонентской группы позже в этой статье.</span><span class="sxs-lookup"><span data-stu-id="0fe30-130">If you want to use the global or site voice policy for all users who are enabled for Enterprise Voice, you can skip this section and continue to Dial Plan Assignment section later in this topic.</span></span>
 
 <div>
 
-## <a name="to-assign-a-user-specific-voice-policy"></a><span data-ttu-id="37e4d-131">Назначение политики голосовой связи для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="37e4d-131">To assign a user-specific voice policy</span></span>
+## <a name="to-assign-a-user-specific-voice-policy"></a><span data-ttu-id="0fe30-131">Назначение политики голосовой связи для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="0fe30-131">To assign a user-specific voice policy</span></span>
 
-1.  <span data-ttu-id="37e4d-132">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="37e4d-132">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fe30-132">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="0fe30-132">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="37e4d-133">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-133">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="0fe30-133">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-133">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="37e4d-134">Чтобы назначить существующую политику голосовой связи пользователю, выполните следующую команду в окне командной строки:</span><span class="sxs-lookup"><span data-stu-id="37e4d-134">To assign an existing user voice policy to a user, run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="0fe30-134">Чтобы назначить существующую политику голосовой связи пользователю, выполните следующую команду в окне командной строки:</span><span class="sxs-lookup"><span data-stu-id="0fe30-134">To assign an existing user voice policy to a user, run the following at the command prompt:</span></span>
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    <span data-ttu-id="37e4d-135">Например:</span><span class="sxs-lookup"><span data-stu-id="37e4d-135">For example:</span></span>
+    <span data-ttu-id="0fe30-135">Например:</span><span class="sxs-lookup"><span data-stu-id="0fe30-135">For example:</span></span>
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     
-    <span data-ttu-id="37e4d-136">В этом примере пользователю с отображаемым именем Bob Kelly назначается политика голосовой связи с именем **VoicePolicyJapan**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-136">In this example, the user with the display name Bob Kelly is assigned the voice policy with the name **VoicePolicyJapan**.</span></span>
+    <span data-ttu-id="0fe30-136">В этом примере пользователю с отображаемым именем Bob Kelly назначается политика голосовой связи с именем **VoicePolicyJapan**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-136">In this example, the user with the display name Bob Kelly is assigned the voice policy with the name **VoicePolicyJapan**.</span></span>
 
-<span data-ttu-id="37e4d-137">Дополнительные сведения о назначении политики голосовой связи для конкретных пользователей или о запуске командлета **Grant – CsVoicePolicy** можно найти в документации по [среде управления Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="37e4d-137">For details about assigning a user-specific voice policy or about running the **Grant-CsVoicePolicy** cmdlet, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
+<span data-ttu-id="0fe30-137">Дополнительные сведения о назначении политики голосовой связи для конкретных пользователей или о запуске командлета **Grant – CsVoicePolicy** можно найти в документации по [среде управления Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="0fe30-137">For details about assigning a user-specific voice policy or about running the **Grant-CsVoicePolicy** cmdlet, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
 
 </div>
 
@@ -117,29 +117,29 @@ ms.locfileid: "42046692"
 
 <div>
 
-## <a name="dial-plan-assignment"></a><span data-ttu-id="37e4d-138">Назначение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="37e4d-138">Dial Plan Assignment</span></span>
+## <a name="dial-plan-assignment"></a><span data-ttu-id="0fe30-138">Назначение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="0fe30-138">Dial Plan Assignment</span></span>
 
-<span data-ttu-id="37e4d-139">Чтобы выполнить настройку учетной записи пользователя как для пользователей корпоративной голосовой связи, так и для пользователей конференц-связи с телефонным подключением, этот пользователь должен быть назначен соответствующей абонентской группе.</span><span class="sxs-lookup"><span data-stu-id="37e4d-139">To complete user account configuration for either users of Enterprise Voice or users of dial-in conferencing, the user must be assigned a dial plan.</span></span> <span data-ttu-id="37e4d-140">Учетные записи пользователей будут автоматически применять глобальную абонентскую группу или, если такая имеется, абонентскую группу на уровне сайта, если вы явно не назначите абонентскую группу для каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="37e4d-140">User accounts will automatically use the global dial plan or, if one exists, the site-level dial plan, when you do not explicitly assign an existing per-user dial plan.</span></span> <span data-ttu-id="37e4d-141">Если вы хотите использовать глобальную или глобальную абонентскую схему для всех пользователей с включенной поддержкой корпоративной голосовой связи, вы можете пропустить этот раздел.</span><span class="sxs-lookup"><span data-stu-id="37e4d-141">If you want to use the global or site dial plan for all users who are enabled for Enterprise Voice, you can skip this section.</span></span>
+<span data-ttu-id="0fe30-139">Чтобы выполнить настройку учетной записи пользователя как для пользователей корпоративной голосовой связи, так и для пользователей конференц-связи с телефонным подключением, этот пользователь должен быть назначен соответствующей абонентской группе.</span><span class="sxs-lookup"><span data-stu-id="0fe30-139">To complete user account configuration for either users of Enterprise Voice or users of dial-in conferencing, the user must be assigned a dial plan.</span></span> <span data-ttu-id="0fe30-140">Учетные записи пользователей будут автоматически применять глобальную абонентскую группу или, если такая имеется, абонентскую группу на уровне сайта, если вы явно не назначите абонентскую группу для каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="0fe30-140">User accounts will automatically use the global dial plan or, if one exists, the site-level dial plan, when you do not explicitly assign an existing per-user dial plan.</span></span> <span data-ttu-id="0fe30-141">Если вы хотите использовать глобальную или глобальную абонентскую схему для всех пользователей с включенной поддержкой корпоративной голосовой связи, вы можете пропустить этот раздел.</span><span class="sxs-lookup"><span data-stu-id="0fe30-141">If you want to use the global or site dial plan for all users who are enabled for Enterprise Voice, you can skip this section.</span></span>
 
 <div>
 
-## <a name="to-assign-a-dial-plan"></a><span data-ttu-id="37e4d-142">Назначение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="37e4d-142">To assign a dial plan</span></span>
+## <a name="to-assign-a-dial-plan"></a><span data-ttu-id="0fe30-142">Назначение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="0fe30-142">To assign a dial plan</span></span>
 
-1.  <span data-ttu-id="37e4d-143">Из учетной записи пользователя, назначенной роли  CsUserAdministrator или CsAdministrator, выполните вход на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="37e4d-143">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fe30-143">Из учетной записи пользователя, назначенной роли  CsUserAdministrator или CsAdministrator, выполните вход на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="0fe30-143">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="37e4d-144">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-144">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="0fe30-144">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-144">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="37e4d-145">Чтобы назначить абонентскую группу для отдельных пользователей, выполните следующую команду в окне командной строки:</span><span class="sxs-lookup"><span data-stu-id="37e4d-145">To assign a user-specific dial plan, run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="0fe30-145">Чтобы назначить абонентскую группу для отдельных пользователей, выполните следующую команду в окне командной строки:</span><span class="sxs-lookup"><span data-stu-id="0fe30-145">To assign a user-specific dial plan, run the following at the command prompt:</span></span>
     
         Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
     
-    <span data-ttu-id="37e4d-146">Пример:</span><span class="sxs-lookup"><span data-stu-id="37e4d-146">For example:</span></span>
+    <span data-ttu-id="0fe30-146">Пример:</span><span class="sxs-lookup"><span data-stu-id="0fe30-146">For example:</span></span>
     
         Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
     
-    <span data-ttu-id="37e4d-147">В этом примере пользователю с отображаемым именем Bob Kelly назначается абонентская абонентская схема с именем **voicepolicyjapan**.</span><span class="sxs-lookup"><span data-stu-id="37e4d-147">In this example, the user with the display name Bob Kelly is assigned the user dial plan with the name **DialPlanJapan**.</span></span>
+    <span data-ttu-id="0fe30-147">В этом примере пользователю с отображаемым именем Bob Kelly назначается абонентская абонентская схема с именем **voicepolicyjapan**.</span><span class="sxs-lookup"><span data-stu-id="0fe30-147">In this example, the user with the display name Bob Kelly is assigned the user dial plan with the name **DialPlanJapan**.</span></span>
 
-<span data-ttu-id="37e4d-148">Для получения дополнительных сведений о назначении абонентской группы или о запуске командлета **Grant – CsDialPlan** , ознакомьтесь с документацией по [среде управления Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="37e4d-148">For details about assigning a user dial plan or about running the **Grant-CsDialPlan** cmdlet, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
+<span data-ttu-id="0fe30-148">Для получения дополнительных сведений о назначении абонентской группы или о запуске командлета **Grant – CsDialPlan** , ознакомьтесь с документацией по [среде управления Lync Server 2013](lync-server-2013-lync-server-management-shell.md) .</span><span class="sxs-lookup"><span data-stu-id="0fe30-148">For details about assigning a user dial plan or about running the **Grant-CsDialPlan** cmdlet, see the [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) documentation.</span></span>
 
 </div>
 
@@ -147,10 +147,10 @@ ms.locfileid: "42046692"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="37e4d-149">См. также</span><span class="sxs-lookup"><span data-stu-id="37e4d-149">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fe30-149">См. также</span><span class="sxs-lookup"><span data-stu-id="0fe30-149">See Also</span></span>
 
 
-[<span data-ttu-id="37e4d-150">Отключение пользователя для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37e4d-150">Disable a user for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
+[<span data-ttu-id="0fe30-150">Отключение пользователя для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0fe30-150">Disable a user for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
   
 
 </div>

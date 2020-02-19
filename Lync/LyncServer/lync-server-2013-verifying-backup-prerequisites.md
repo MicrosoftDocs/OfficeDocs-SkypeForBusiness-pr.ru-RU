@@ -12,20 +12,20 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bbf798b46745bf0469e49c6384fd0544cd72c1c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45c41e00a9565f63651a0afdc7da08091de75e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007308"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a><span data-ttu-id="93baa-102">Проверка необходимых компонентов для резервного копирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93baa-102">Verifying backup prerequisites in Lync Server 2013</span></span>
+# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a><span data-ttu-id="f0776-102">Проверка необходимых компонентов для резервного копирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0776-102">Verifying backup prerequisites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42007308"
 
 <span> </span>
 
-<span data-ttu-id="93baa-103">_**Последнее изменение темы:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="93baa-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="f0776-103">_**Последнее изменение темы:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="f0776-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="93baa-104">Прежде чем приступить к резервному копированию Lync Server, убедитесь, что подготовлены следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="93baa-104">Before you begin backing up Lync Server, verify that you are prepared with the following:</span></span>
+<span data-ttu-id="f0776-104">Прежде чем приступить к резервному копированию Lync Server, убедитесь, что подготовлены следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="f0776-104">Before you begin backing up Lync Server, verify that you are prepared with the following:</span></span>
 
-  - <span data-ttu-id="93baa-105">Средства резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="93baa-105">Backup tools.</span></span> <span data-ttu-id="93baa-106">Дополнительные сведения приведены [в статье требования к резервному копированию и восстановлению в Lync Server 2013: Tools и Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="93baa-106">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+  - <span data-ttu-id="f0776-105">Средства резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="f0776-105">Backup tools.</span></span> <span data-ttu-id="f0776-106">Дополнительные сведения приведены [в статье требования к резервному копированию и восстановлению в Lync Server 2013: Tools и Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="f0776-106">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
 
-  - <span data-ttu-id="93baa-107">Правах.</span><span class="sxs-lookup"><span data-stu-id="93baa-107">Permissions.</span></span> <span data-ttu-id="93baa-108">Дополнительные сведения приведены [в статье требования к резервному копированию и восстановлению в Lync Server 2013: Tools и Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="93baa-108">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+  - <span data-ttu-id="f0776-107">Правах.</span><span class="sxs-lookup"><span data-stu-id="f0776-107">Permissions.</span></span> <span data-ttu-id="f0776-108">Дополнительные сведения приведены [в статье требования к резервному копированию и восстановлению в Lync Server 2013: Tools и Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="f0776-108">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
 
-  - <span data-ttu-id="93baa-109">Расположение для хранения резервных копий.</span><span class="sxs-lookup"><span data-stu-id="93baa-109">Location for storing backups.</span></span> <span data-ttu-id="93baa-110">Дополнительные сведения см. [в статье Настройка расположения резервной копии для Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="93baa-110">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
+  - <span data-ttu-id="f0776-109">Расположение для хранения резервных копий.</span><span class="sxs-lookup"><span data-stu-id="f0776-109">Location for storing backups.</span></span> <span data-ttu-id="f0776-110">Дополнительные сведения см. [в статье Настройка расположения резервной копии для Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="f0776-110">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
 
-  - <span data-ttu-id="93baa-111">Носители для резервных копий.</span><span class="sxs-lookup"><span data-stu-id="93baa-111">Media for the backups.</span></span> <span data-ttu-id="93baa-112">Дополнительные сведения см. [в статье Настройка расположения резервной копии для Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="93baa-112">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
+  - <span data-ttu-id="f0776-111">Носители для резервных копий.</span><span class="sxs-lookup"><span data-stu-id="f0776-111">Media for the backups.</span></span> <span data-ttu-id="f0776-112">Дополнительные сведения см. [в статье Настройка расположения резервной копии для Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="f0776-112">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
 
 </div>
 

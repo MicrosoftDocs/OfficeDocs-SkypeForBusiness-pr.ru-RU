@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9f6d2b30654272baf0ce8db712461acb3e4f13a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045771"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="4d110-102">QoE View Details in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d110-102">QoE view details in Lync Server 2013</span></span>
+# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="6b858-102">QoE View Details in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b858-102">QoE view details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42045771"
 
 <span> </span>
 
-<span data-ttu-id="4d110-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="4d110-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="6b858-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="6b858-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="4d110-104">Представления охватывают наиболее распространенные сценарии возврата данных из базы данных SQL QoE.</span><span class="sxs-lookup"><span data-stu-id="4d110-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="4d110-105">Рекомендуется использовать представления для создания настраиваемых отчетов вместо прямого доступа к таблицам базы данных; Это связано с тем, что представления более вероятнее всего поддерживают обратную совместимость с будущими выпусками.</span><span class="sxs-lookup"><span data-stu-id="4d110-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
+<span data-ttu-id="6b858-104">Представления охватывают наиболее распространенные сценарии возврата данных из базы данных SQL QoE.</span><span class="sxs-lookup"><span data-stu-id="6b858-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="6b858-105">Рекомендуется использовать представления для создания настраиваемых отчетов вместо прямого доступа к таблицам базы данных; Это связано с тем, что представления более вероятнее всего поддерживают обратную совместимость с будущими выпусками.</span><span class="sxs-lookup"><span data-stu-id="6b858-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
 
 
 <table>
@@ -47,34 +47,34 @@ ms.locfileid: "42045771"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4d110-106">Имя представления</span><span class="sxs-lookup"><span data-stu-id="4d110-106">View Name</span></span></th>
-<th><span data-ttu-id="4d110-107">Описание</span><span class="sxs-lookup"><span data-stu-id="4d110-107">Description</span></span></th>
+<th><span data-ttu-id="6b858-106">Имя представления</span><span class="sxs-lookup"><span data-stu-id="6b858-106">View Name</span></span></th>
+<th><span data-ttu-id="6b858-107">Описание</span><span class="sxs-lookup"><span data-stu-id="6b858-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4d110-108"><a href="lync-server-2013-audiostreamdetail-view.md">Представление Аудиостреамдетаил в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-109">Хранение информации о каждом аудиопотоке в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4d110-109">Stores information about each audio stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-108"><a href="lync-server-2013-audiostreamdetail-view.md">Представление Аудиостреамдетаил в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-109">Хранение информации о каждом аудиопотоке в базе данных.</span><span class="sxs-lookup"><span data-stu-id="6b858-109">Stores information about each audio stream in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d110-110"><a href="lync-server-2013-medialine-view.md">Представление MediaLine в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-111">Хранит сведения о каждой строке носителя в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4d110-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="4d110-112">Один звуковой сеанс обычно содержит одну линию звукового носителя.</span><span class="sxs-lookup"><span data-stu-id="4d110-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="4d110-113">Один сеанс аудио-и видеоданных (A/V) обычно содержит одну линию аудио-и видеоконференций; Однако в этом сеансе могут содержаться две видеолинии, если используется устройство конференц-связи или если используется представление галереи.</span><span class="sxs-lookup"><span data-stu-id="4d110-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-110"><a href="lync-server-2013-medialine-view.md">Представление MediaLine в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-111">Хранит сведения о каждой строке носителя в базе данных.</span><span class="sxs-lookup"><span data-stu-id="6b858-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="6b858-112">Один звуковой сеанс обычно содержит одну линию звукового носителя.</span><span class="sxs-lookup"><span data-stu-id="6b858-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="6b858-113">Один сеанс аудио-и видеоданных (A/V) обычно содержит одну линию аудио-и видеоконференций; Однако в этом сеансе могут содержаться две видеолинии, если используется устройство конференц-связи или если используется представление галереи.</span><span class="sxs-lookup"><span data-stu-id="6b858-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d110-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Представление Нетворкконфигуратионсеттингс в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-115">Хранит сведения о конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="4d110-115">Stores information about the network configuration.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Представление Нетворкконфигуратионсеттингс в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-115">Хранит сведения о конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="6b858-115">Stores information about the network configuration.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d110-116"><a href="lync-server-2013-session-view.md">Представление сеанса в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-117">Хранит информацию о сеансах с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4d110-117">Stores information about sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-116"><a href="lync-server-2013-session-view.md">Представление сеанса в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-117">Хранит информацию о сеансах с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="6b858-117">Stores information about sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d110-118"><a href="lync-server-2013-useragent-view.md">Представление UserAgent в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-119">Хранит информацию об агентах пользователя, участвовавших в сеансах с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4d110-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-118"><a href="lync-server-2013-useragent-view.md">Представление UserAgent в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-119">Хранит информацию об агентах пользователя, участвовавших в сеансах с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="6b858-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d110-120"><a href="lync-server-2013-videostreamdetail-view.md">Представление Видеостреамдетаил в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="4d110-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="4d110-121">Хранит информацию о каждом видеопотоке в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4d110-121">Stores information about each video stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="6b858-120"><a href="lync-server-2013-videostreamdetail-view.md">Представление Видеостреамдетаил в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="6b858-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="6b858-121">Хранит информацию о каждом видеопотоке в базе данных.</span><span class="sxs-lookup"><span data-stu-id="6b858-121">Stores information about each video stream in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>

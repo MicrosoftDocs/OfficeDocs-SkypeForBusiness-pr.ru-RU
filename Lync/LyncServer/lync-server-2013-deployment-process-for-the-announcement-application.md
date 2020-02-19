@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6282c77a93097ad09aae91dcaf493cf8b7de6f3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042256"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="1607d-102">Процесс развертывания приложения "объявление" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1607d-102">Deployment process for the Announcement application in Lync Server 2013</span></span>
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="e6dde-102">Процесс развертывания приложения "объявление" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6dde-102">Deployment process for the Announcement application in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42042256"
 
 <span> </span>
 
-<span data-ttu-id="1607d-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="1607d-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="e6dde-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="e6dde-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="1607d-104">В этом разделе представлен обзор действий, необходимых при развертывании приложения извещения.</span><span class="sxs-lookup"><span data-stu-id="1607d-104">This section provides an overview of the steps involved in deploying the Announcement application.</span></span> <span data-ttu-id="1607d-105">Перед настройкой объявлений необходимо развернуть корпоративную голосовую связь.</span><span class="sxs-lookup"><span data-stu-id="1607d-105">You must deploy Enterprise Voice before you configure announcements.</span></span> <span data-ttu-id="1607d-106">Компоненты, необходимые для приложения извещения, устанавливаются и включаются при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1607d-106">The components required by the Announcement application are installed and enabled when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="e6dde-104">В этом разделе представлен обзор действий, необходимых при развертывании приложения извещения.</span><span class="sxs-lookup"><span data-stu-id="e6dde-104">This section provides an overview of the steps involved in deploying the Announcement application.</span></span> <span data-ttu-id="e6dde-105">Перед настройкой объявлений необходимо развернуть корпоративную голосовую связь.</span><span class="sxs-lookup"><span data-stu-id="e6dde-105">You must deploy Enterprise Voice before you configure announcements.</span></span> <span data-ttu-id="e6dde-106">Компоненты, необходимые для приложения извещения, устанавливаются и включаются при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="e6dde-106">The components required by the Announcement application are installed and enabled when you deploy Enterprise Voice.</span></span>
 
-### <a name="announcement-deployment-process"></a><span data-ttu-id="1607d-107">Процесс развертывания объявлений</span><span class="sxs-lookup"><span data-stu-id="1607d-107">Announcement Deployment Process</span></span>
+### <a name="announcement-deployment-process"></a><span data-ttu-id="e6dde-107">Процесс развертывания объявлений</span><span class="sxs-lookup"><span data-stu-id="e6dde-107">Announcement Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -50,32 +50,32 @@ ms.locfileid: "42042256"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1607d-108">Этап</span><span class="sxs-lookup"><span data-stu-id="1607d-108">Phase</span></span></th>
-<th><span data-ttu-id="1607d-109">Шаги</span><span class="sxs-lookup"><span data-stu-id="1607d-109">Steps</span></span></th>
-<th><span data-ttu-id="1607d-110">Роли</span><span class="sxs-lookup"><span data-stu-id="1607d-110">Roles</span></span></th>
-<th><span data-ttu-id="1607d-111">Документация по развертыванию</span><span class="sxs-lookup"><span data-stu-id="1607d-111">Deployment documentation</span></span></th>
+<th><span data-ttu-id="e6dde-108">Этап</span><span class="sxs-lookup"><span data-stu-id="e6dde-108">Phase</span></span></th>
+<th><span data-ttu-id="e6dde-109">Шаги</span><span class="sxs-lookup"><span data-stu-id="e6dde-109">Steps</span></span></th>
+<th><span data-ttu-id="e6dde-110">Роли</span><span class="sxs-lookup"><span data-stu-id="e6dde-110">Roles</span></span></th>
+<th><span data-ttu-id="e6dde-111">Документация по развертыванию</span><span class="sxs-lookup"><span data-stu-id="e6dde-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1607d-112">Настройка параметров объявлений</span><span class="sxs-lookup"><span data-stu-id="1607d-112">Configure Announcement settings</span></span></p></td>
+<td><p><span data-ttu-id="e6dde-112">Настройка параметров объявлений</span><span class="sxs-lookup"><span data-stu-id="e6dde-112">Configure Announcement settings</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="1607d-113">Создайте объявление, записав и отправив звуковые файлы или воспользовавшись преобразованием текста в речь.</span><span class="sxs-lookup"><span data-stu-id="1607d-113">Create the announcement by recording and uploading audio files or by using text-to-speech (TTS).</span></span></p></li>
-<li><p><span data-ttu-id="1607d-114">Настройте диапазоны неназначенных номеров в таблице неназначенных номеров и свяжите их с соответствующим объявлением.</span><span class="sxs-lookup"><span data-stu-id="1607d-114">Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement.</span></span></p></li>
+<li><p><span data-ttu-id="e6dde-113">Создайте объявление, записав и отправив звуковые файлы или воспользовавшись преобразованием текста в речь.</span><span class="sxs-lookup"><span data-stu-id="e6dde-113">Create the announcement by recording and uploading audio files or by using text-to-speech (TTS).</span></span></p></li>
+<li><p><span data-ttu-id="e6dde-114">Настройте диапазоны неназначенных номеров в таблице неназначенных номеров и свяжите их с соответствующим объявлением.</span><span class="sxs-lookup"><span data-stu-id="e6dde-114">Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="1607d-115">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="1607d-115">RTCUniversalServerAdmins</span></span></p>
-<p><span data-ttu-id="1607d-116">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="1607d-116">CsVoiceAdministrator</span></span></p>
-<p><span data-ttu-id="1607d-117">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="1607d-117">CsServerAdministrator</span></span></p>
-<p><span data-ttu-id="1607d-118">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="1607d-118">CsAdministrator</span></span></p>
-<p><span data-ttu-id="1607d-119">CsViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="1607d-119">CsViewOnlyAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="1607d-120"><a href="lync-server-2013-create-an-announcement.md">Создание извещения в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1607d-120"><a href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</a></span></span></p>
-<p><span data-ttu-id="1607d-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Настройка таблицы неназначенных номеров в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1607d-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configure the unassigned number table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="e6dde-115">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="e6dde-115">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="e6dde-116">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="e6dde-116">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="e6dde-117">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="e6dde-117">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="e6dde-118">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="e6dde-118">CsAdministrator</span></span></p>
+<p><span data-ttu-id="e6dde-119">CsViewOnlyAdministrator</span><span class="sxs-lookup"><span data-stu-id="e6dde-119">CsViewOnlyAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="e6dde-120"><a href="lync-server-2013-create-an-announcement.md">Создание извещения в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e6dde-120"><a href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="e6dde-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Настройка таблицы неназначенных номеров в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e6dde-121"><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configure the unassigned number table in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1607d-122">Проверка развертывания объявления</span><span class="sxs-lookup"><span data-stu-id="1607d-122">Verify your Announcement deployment</span></span></p></td>
-<td><p><span data-ttu-id="1607d-123">Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.</span><span class="sxs-lookup"><span data-stu-id="1607d-123">Test by listening to announcements to verify that your configuration works as expected.</span></span></p></td>
+<td><p><span data-ttu-id="e6dde-122">Проверка развертывания объявления</span><span class="sxs-lookup"><span data-stu-id="e6dde-122">Verify your Announcement deployment</span></span></p></td>
+<td><p><span data-ttu-id="e6dde-123">Выполните тестовое прослушивание объявлений, чтобы убедиться в их правильной работе.</span><span class="sxs-lookup"><span data-stu-id="e6dde-123">Test by listening to announcements to verify that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><span data-ttu-id="1607d-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">Необязательно Проверка развертывания объявлений в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1607d-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">(Optional) Verify Announcement deployment in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="e6dde-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">Необязательно Проверка развертывания объявлений в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e6dde-124"><a href="lync-server-2013-optional-verify-announcement-deployment.md">(Optional) Verify Announcement deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

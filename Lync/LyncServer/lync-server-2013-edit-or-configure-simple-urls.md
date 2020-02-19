@@ -12,20 +12,20 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0c36c632e2a2ee33568bd44dd57ec7fc7451343
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1618ca331b66612051b2a824aa5ebd2adfac043a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034029"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a><span data-ttu-id="6a37a-102">Изменение или Настройка простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a37a-102">Edit or configure simple URLs in Lync Server 2013</span></span>
+# <a name="edit-or-configure-simple-urls-in-lync-server-2013"></a><span data-ttu-id="4e817-102">Изменение или Настройка простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e817-102">Edit or configure simple URLs in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "42034029"
 
 <span> </span>
 
-<span data-ttu-id="6a37a-103">_**Последнее изменение темы:** 2014-02-04_</span><span class="sxs-lookup"><span data-stu-id="6a37a-103">_**Topic Last Modified:** 2014-02-04_</span></span>
+<span data-ttu-id="4e817-103">_**Последнее изменение темы:** 2014-02-04_</span><span class="sxs-lookup"><span data-stu-id="4e817-103">_**Topic Last Modified:** 2014-02-04_</span></span>
 
-<span data-ttu-id="6a37a-p101">Для этой процедуры не требуется членство в локальной группе администраторов или группе привилегированного домена. Вы должны войти на компьютер в качестве обычного пользователя.</span><span class="sxs-lookup"><span data-stu-id="6a37a-p101">This procedure does not require membership in a local administrator or privileged domain group. You should log on to a computer as a standard user.</span></span>
+<span data-ttu-id="4e817-p101">Для этой процедуры не требуется членство в локальной группе администраторов или группе привилегированного домена. Вы должны войти на компьютер в качестве обычного пользователя.</span><span class="sxs-lookup"><span data-stu-id="4e817-p101">This procedure does not require membership in a local administrator or privileged domain group. You should log on to a computer as a standard user.</span></span>
 
-<span data-ttu-id="6a37a-106">Lync Server 2013 использует простые URL-адреса для направления внутренних и внешних вызовов служб на сервере переднего плана или в директоре, если она была развернута.</span><span class="sxs-lookup"><span data-stu-id="6a37a-106">Lync Server 2013 uses simple URLs to direct internal and external calls to services on the Front End Server or on the Director, if one has been deployed.</span></span> <span data-ttu-id="6a37a-107">Более подробную информацию об простых URL-адресах можно узнать [в статье Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="6a37a-107">For more information about simple URLs, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) in the Planning documentation.</span></span> <span data-ttu-id="6a37a-108">Можно выбрать формат для простых URL-адресов из нескольких вариантов.</span><span class="sxs-lookup"><span data-stu-id="6a37a-108">You can select the format for your simple URLs from several options.</span></span> <span data-ttu-id="6a37a-109">Подробнее об этих параметрах можно узнать в статье [требования к DNS для простых URL-адресов в Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="6a37a-109">For details about these options, see [DNS requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) in the Planning documentation.</span></span>
+<span data-ttu-id="4e817-106">Lync Server 2013 использует простые URL-адреса для направления внутренних и внешних вызовов служб на сервере переднего плана или в директоре, если она была развернута.</span><span class="sxs-lookup"><span data-stu-id="4e817-106">Lync Server 2013 uses simple URLs to direct internal and external calls to services on the Front End Server or on the Director, if one has been deployed.</span></span> <span data-ttu-id="4e817-107">Более подробную информацию об простых URL-адресах можно узнать [в статье Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="4e817-107">For more information about simple URLs, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md) in the Planning documentation.</span></span> <span data-ttu-id="4e817-108">Можно выбрать формат для простых URL-адресов из нескольких вариантов.</span><span class="sxs-lookup"><span data-stu-id="4e817-108">You can select the format for your simple URLs from several options.</span></span> <span data-ttu-id="4e817-109">Подробнее об этих параметрах можно узнать в статье [требования к DNS для простых URL-адресов в Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="4e817-109">For details about these options, see [DNS requirements for simple URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="6a37a-110">По умолчанию простые URL-адреса будут настроены в форме (например, простой URL-адрес для телефонного подключения) https://dialin.\<SIP : domain\></span><span class="sxs-lookup"><span data-stu-id="6a37a-110">By default, simple URLs will be configured in the form of (for example, the dial-in simple URL): https://dialin.\<SIP Domain\></span></span>
+<span data-ttu-id="4e817-110">По умолчанию простые URL-адреса будут настроены в форме (например, простой URL-адрес для телефонного подключения) https://dialin.\<SIP : domain\></span><span class="sxs-lookup"><span data-stu-id="4e817-110">By default, simple URLs will be configured in the form of (for example, the dial-in simple URL): https://dialin.\<SIP Domain\></span></span>
 
 <div>
 
-## <a name="to-configure-simple-urls"></a><span data-ttu-id="6a37a-111">Настройка простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="6a37a-111">To configure simple URLs</span></span>
+## <a name="to-configure-simple-urls"></a><span data-ttu-id="4e817-111">Настройка простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="4e817-111">To configure simple URLs</span></span>
 
-1.  <span data-ttu-id="6a37a-112">В построителе топологий щелкните узел **Lync Server** правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="6a37a-112">In Topology Builder, right-click the **Lync Server** node, and then click **Edit Properties**.</span></span>
+1.  <span data-ttu-id="4e817-112">В построителе топологий щелкните узел **Lync Server** правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="4e817-112">In Topology Builder, right-click the **Lync Server** node, and then click **Edit Properties**.</span></span>
 
-2.  <span data-ttu-id="6a37a-113">В области **простые URL-адреса** выберите **URL-адреса для доступа к телефонной линии:** (с телефонным подключением) или **URL-адреса собраний:** (соответствие), а затем щелкните **изменить URL-адрес**.</span><span class="sxs-lookup"><span data-stu-id="6a37a-113">In the **Simple URLs** pane, select either **Phone access URLs:** (Dial-in) or **Meeting URLs:** (Meet) to edit, and then click **Edit URL**.</span></span>
+2.  <span data-ttu-id="4e817-113">В области **простые URL-адреса** выберите **URL-адреса для доступа к телефонной линии:** (с телефонным подключением) или **URL-адреса собраний:** (соответствие), а затем щелкните **изменить URL-адрес**.</span><span class="sxs-lookup"><span data-stu-id="4e817-113">In the **Simple URLs** pane, select either **Phone access URLs:** (Dial-in) or **Meeting URLs:** (Meet) to edit, and then click **Edit URL**.</span></span>
 
-3.  <span data-ttu-id="6a37a-114">Задайте для URL-адреса требуемое значение и нажмите кнопку **ОК**, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="6a37a-114">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span> <span data-ttu-id="6a37a-115">В приведенном здесь примере изменился URL-адрес для телефонного подключения на https://pool01.contoso.net/dialin.</span><span class="sxs-lookup"><span data-stu-id="6a37a-115">The example shown here has modified the Dial-in URL to https://pool01.contoso.net/dialin.</span></span>
+3.  <span data-ttu-id="4e817-114">Задайте для URL-адреса требуемое значение и нажмите кнопку **ОК**, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="4e817-114">Update the URL to the value you want, and then click **OK** to save the edited URL.</span></span> <span data-ttu-id="4e817-115">В приведенном здесь примере изменился URL-адрес для телефонного подключения на https://pool01.contoso.net/dialin.</span><span class="sxs-lookup"><span data-stu-id="4e817-115">The example shown here has modified the Dial-in URL to https://pool01.contoso.net/dialin.</span></span>
 
-4.  <span data-ttu-id="6a37a-116">При необходимости тем же способом измените URL-адрес Meet.</span><span class="sxs-lookup"><span data-stu-id="6a37a-116">Edit the Meet URL by using the same steps, if necessary.</span></span>
+4.  <span data-ttu-id="4e817-116">При необходимости тем же способом измените URL-адрес Meet.</span><span class="sxs-lookup"><span data-stu-id="4e817-116">Edit the Meet URL by using the same steps, if necessary.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-define-the-optional-admin-simple-url"></a><span data-ttu-id="6a37a-117">Определение дополнительного URL-адреса Admin</span><span class="sxs-lookup"><span data-stu-id="6a37a-117">To define the optional Admin simple URL</span></span>
+## <a name="to-define-the-optional-admin-simple-url"></a><span data-ttu-id="4e817-117">Определение дополнительного URL-адреса Admin</span><span class="sxs-lookup"><span data-stu-id="4e817-117">To define the optional Admin simple URL</span></span>
 
-1.  <span data-ttu-id="6a37a-118">В построителе топологий щелкните узел **Lync Server** правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="6a37a-118">In Topology Builder, right-click the **Lync Server** node, and then click **Edit Properties**.</span></span>
+1.  <span data-ttu-id="4e817-118">В построителе топологий щелкните узел **Lync Server** правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="4e817-118">In Topology Builder, right-click the **Lync Server** node, and then click **Edit Properties**.</span></span>
 
-2.  <span data-ttu-id="6a37a-119">В поле **URL-адрес административного доступа** введите простой URL-адрес, который требуется использовать для административного доступа к панели управления Lync Server 2013, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6a37a-119">In the **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.</span></span>
+2.  <span data-ttu-id="4e817-119">В поле **URL-адрес административного доступа** введите простой URL-адрес, который требуется использовать для административного доступа к панели управления Lync Server 2013, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="4e817-119">In the **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="6a37a-120">Рекомендуется использовать самый простой URL-адрес для административного доступа.</span><span class="sxs-lookup"><span data-stu-id="6a37a-120">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="6a37a-121">Самый простой вариант — <STRONG> https://admin.</STRONG> &lt;Domain&gt;(домен).</span><span class="sxs-lookup"><span data-stu-id="6a37a-121">The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.</span></span>
+    > <span data-ttu-id="4e817-120">Рекомендуется использовать самый простой URL-адрес для административного доступа.</span><span class="sxs-lookup"><span data-stu-id="4e817-120">We recommend using the simplest possible URL for the Admin URL.</span></span> <span data-ttu-id="4e817-121">Самый простой вариант — <STRONG> https://admin.</STRONG> &lt;Domain&gt;(домен).</span><span class="sxs-lookup"><span data-stu-id="4e817-121">The simplest option is <STRONG>https://admin.</STRONG>&lt;domain&gt;.</span></span>
 
     
     </div>
@@ -78,7 +78,7 @@ ms.locfileid: "42034029"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="6a37a-122">Если простые URL-адреса меняются после развертывания, то необходимо подумать о том, какие изменения простых URL-адресов повлияют на записи DNS и сертификаты.</span><span class="sxs-lookup"><span data-stu-id="6a37a-122">If you change a simple URL after initial deployment, you must be aware of what changes impact your Domain Name System (DNS) records and certificates for simple URLs.</span></span> <span data-ttu-id="6a37a-123">Если изменение касается базового простого URL-адреса, то придется также изменить записи DNS и сертификаты.</span><span class="sxs-lookup"><span data-stu-id="6a37a-123">If the change impacts the base of a simple URL, then you must change the DNS records and certificates as well.</span></span> <span data-ttu-id="6a37a-124">Например, изменение с https://lync.contoso.com/Meet для https://meet.contoso.com изменения базового URL-адреса с Lync.contoso.com на Meet.contoso.com, поэтому необходимо изменить записи DNS и сертификаты, чтобы они ссылались на Meet.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="6a37a-124">For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com.</span></span> <span data-ttu-id="6a37a-125">Если вы изменили простой URL- https://lync.contoso.com/Meet адрес https://lync.contoso.com/Meetingsс на, то базовый URL-адрес Lync.contoso.com остается прежним, поэтому не требуются изменения DNS или сертификата.</span><span class="sxs-lookup"><span data-stu-id="6a37a-125">If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed.</span></span> <span data-ttu-id="6a37a-126">Однако при изменении простого URL-адреса необходимо выполнить командлет <STRONG>Enable-CsComputer</STRONG> на каждом директоре и сервере переднего плана, чтобы зарегистрировать изменение.</span><span class="sxs-lookup"><span data-stu-id="6a37a-126">Whenever you change a simple URL name, however, you must run the <STRONG>Enable-CsComputer</STRONG> cmdlet on each Director and Front End Server to register the change.</span></span>
+    > <span data-ttu-id="4e817-122">Если простые URL-адреса меняются после развертывания, то необходимо подумать о том, какие изменения простых URL-адресов повлияют на записи DNS и сертификаты.</span><span class="sxs-lookup"><span data-stu-id="4e817-122">If you change a simple URL after initial deployment, you must be aware of what changes impact your Domain Name System (DNS) records and certificates for simple URLs.</span></span> <span data-ttu-id="4e817-123">Если изменение касается базового простого URL-адреса, то придется также изменить записи DNS и сертификаты.</span><span class="sxs-lookup"><span data-stu-id="4e817-123">If the change impacts the base of a simple URL, then you must change the DNS records and certificates as well.</span></span> <span data-ttu-id="4e817-124">Например, изменение с https://lync.contoso.com/Meet для https://meet.contoso.com изменения базового URL-адреса с Lync.contoso.com на Meet.contoso.com, поэтому необходимо изменить записи DNS и сертификаты, чтобы они ссылались на Meet.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="4e817-124">For example, changing from https://lync.contoso.com/Meet to https://meet.contoso.com changes the base URL from lync.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com.</span></span> <span data-ttu-id="4e817-125">Если вы изменили простой URL- https://lync.contoso.com/Meet адрес https://lync.contoso.com/Meetingsс на, то базовый URL-адрес Lync.contoso.com остается прежним, поэтому не требуются изменения DNS или сертификата.</span><span class="sxs-lookup"><span data-stu-id="4e817-125">If you changed the simple URL from https://lync.contoso.com/Meet to https://lync.contoso.com/Meetings, the base URL of lync.contoso.com stays the same, so no DNS or certificate changes are needed.</span></span> <span data-ttu-id="4e817-126">Однако при изменении простого URL-адреса необходимо выполнить командлет <STRONG>Enable-CsComputer</STRONG> на каждом директоре и сервере переднего плана, чтобы зарегистрировать изменение.</span><span class="sxs-lookup"><span data-stu-id="4e817-126">Whenever you change a simple URL name, however, you must run the <STRONG>Enable-CsComputer</STRONG> cmdlet on each Director and Front End Server to register the change.</span></span>
 
     
     </div>
@@ -87,10 +87,10 @@ ms.locfileid: "42034029"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6a37a-127">См. также</span><span class="sxs-lookup"><span data-stu-id="6a37a-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e817-127">См. также</span><span class="sxs-lookup"><span data-stu-id="4e817-127">See Also</span></span>
 
 
-[<span data-ttu-id="6a37a-128">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a37a-128">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
+[<span data-ttu-id="4e817-128">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e817-128">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

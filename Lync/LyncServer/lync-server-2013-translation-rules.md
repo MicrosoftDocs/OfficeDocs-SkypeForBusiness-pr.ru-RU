@@ -12,20 +12,20 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16623d863e9ca4a252ad7249ba1933cfa6934b08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 088657d530224288a9ffabbfa1644d0fea6796e7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036469"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="translation-rules-in-lync-server-2013"></a><span data-ttu-id="10966-102">Правила преобразования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10966-102">Translation rules in Lync Server 2013</span></span>
+# <a name="translation-rules-in-lync-server-2013"></a><span data-ttu-id="ed207-102">Правила преобразования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ed207-102">Translation rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42036469"
 
 <span> </span>
 
-<span data-ttu-id="10966-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="10966-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="ed207-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="ed207-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="10966-104">Lync Server 2013 Enterprise Voice требует, чтобы все строки набора номера были нормализованы до формата E. 164 для выполнения обратного просмотра номера (RNL).</span><span class="sxs-lookup"><span data-stu-id="10966-104">Lync Server 2013 Enterprise Voice requires that all dial strings be normalized to E.164 format for the purpose of performing reverse number lookup (RNL).</span></span> <span data-ttu-id="10966-105">В Microsoft Lync Server 2010 правила преобразования поддерживаются только для вызываемых номеров.</span><span class="sxs-lookup"><span data-stu-id="10966-105">In Microsoft Lync Server 2010, translation rules are supported only for called numbers.</span></span> <span data-ttu-id="10966-106">В Microsoft Lync Server 2013 правила преобразования также поддерживаются для номеров звонков.</span><span class="sxs-lookup"><span data-stu-id="10966-106">New in Microsoft Lync Server 2013, translation rules are also supported for calling numbers.</span></span> <span data-ttu-id="10966-107">*Магистральный узел* (т.е. соответствующий шлюз, УАТС или канал SIP) может требовать, чтобы номера были в формате местного набора.</span><span class="sxs-lookup"><span data-stu-id="10966-107">The *trunk peer* (that is, the associated gateway, private branch exchange (PBX), or SIP trunk) may require that numbers be in a local dialing format.</span></span> <span data-ttu-id="10966-108">Чтобы преобразовать номера из формата E.164 в формат местного набора, можно определить правила преобразования для работы с URI запроса перед его направлением в магистральный узел.</span><span class="sxs-lookup"><span data-stu-id="10966-108">To translate numbers from E.164 format to a local dialing format, you can define one or more translation rules to manipulate the request URI before you route it to the trunk peer.</span></span> <span data-ttu-id="10966-109">Например, можно написать правило преобразования, чтобы заменить +44 в начале строки набора на 0144.</span><span class="sxs-lookup"><span data-stu-id="10966-109">For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
+<span data-ttu-id="ed207-104">Lync Server 2013 Enterprise Voice требует, чтобы все строки набора номера были нормализованы до формата E. 164 для выполнения обратного просмотра номера (RNL).</span><span class="sxs-lookup"><span data-stu-id="ed207-104">Lync Server 2013 Enterprise Voice requires that all dial strings be normalized to E.164 format for the purpose of performing reverse number lookup (RNL).</span></span> <span data-ttu-id="ed207-105">В Microsoft Lync Server 2010 правила преобразования поддерживаются только для вызываемых номеров.</span><span class="sxs-lookup"><span data-stu-id="ed207-105">In Microsoft Lync Server 2010, translation rules are supported only for called numbers.</span></span> <span data-ttu-id="ed207-106">В Microsoft Lync Server 2013 правила преобразования также поддерживаются для номеров звонков.</span><span class="sxs-lookup"><span data-stu-id="ed207-106">New in Microsoft Lync Server 2013, translation rules are also supported for calling numbers.</span></span> <span data-ttu-id="ed207-107">*Магистральный узел* (т.е. соответствующий шлюз, УАТС или канал SIP) может требовать, чтобы номера были в формате местного набора.</span><span class="sxs-lookup"><span data-stu-id="ed207-107">The *trunk peer* (that is, the associated gateway, private branch exchange (PBX), or SIP trunk) may require that numbers be in a local dialing format.</span></span> <span data-ttu-id="ed207-108">Чтобы преобразовать номера из формата E.164 в формат местного набора, можно определить правила преобразования для работы с URI запроса перед его направлением в магистральный узел.</span><span class="sxs-lookup"><span data-stu-id="ed207-108">To translate numbers from E.164 format to a local dialing format, you can define one or more translation rules to manipulate the request URI before you route it to the trunk peer.</span></span> <span data-ttu-id="ed207-109">Например, можно написать правило преобразования, чтобы заменить +44 в начале строки набора на 0144.</span><span class="sxs-lookup"><span data-stu-id="ed207-109">For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
 
-<span data-ttu-id="10966-110">Выполняя преобразование исходящего маршрута на сервере, можно уменьшить требования к конфигурации в каждом отдельном магистральном узле для трансляции телефонных номеров в формат местного набора.</span><span class="sxs-lookup"><span data-stu-id="10966-110">By performing outbound route translation on the server, you can reduce the configuration requirements on each individual trunk peer in order to translate phone numbers into a local dialing format.</span></span> <span data-ttu-id="10966-111">При планировании того, какие шлюзы и сколько шлюзов необходимо связать с конкретным кластерным сервером-посредником, может быть удобно группировать магистральные одноранговые узлы с одинаковыми локальными требованиями набора номера.</span><span class="sxs-lookup"><span data-stu-id="10966-111">When you plan which gateways, and how many gateways, to associate with a specific Mediation Server cluster, it may be useful to group trunk peers with similar local dialing requirements.</span></span> <span data-ttu-id="10966-112">Это позволяет уменьшить необходимое количество правил преобразования и сэкономить время, затрачиваемое на их создание.</span><span class="sxs-lookup"><span data-stu-id="10966-112">This can reduce the number of required translation rules and the time it takes to write them.</span></span>
+<span data-ttu-id="ed207-110">Выполняя преобразование исходящего маршрута на сервере, можно уменьшить требования к конфигурации в каждом отдельном магистральном узле для трансляции телефонных номеров в формат местного набора.</span><span class="sxs-lookup"><span data-stu-id="ed207-110">By performing outbound route translation on the server, you can reduce the configuration requirements on each individual trunk peer in order to translate phone numbers into a local dialing format.</span></span> <span data-ttu-id="ed207-111">При планировании того, какие шлюзы и сколько шлюзов необходимо связать с конкретным кластерным сервером-посредником, может быть удобно группировать магистральные одноранговые узлы с одинаковыми локальными требованиями набора номера.</span><span class="sxs-lookup"><span data-stu-id="ed207-111">When you plan which gateways, and how many gateways, to associate with a specific Mediation Server cluster, it may be useful to group trunk peers with similar local dialing requirements.</span></span> <span data-ttu-id="ed207-112">Это позволяет уменьшить необходимое количество правил преобразования и сэкономить время, затрачиваемое на их создание.</span><span class="sxs-lookup"><span data-stu-id="ed207-112">This can reduce the number of required translation rules and the time it takes to write them.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="10966-113">Связывание одного или нескольких правил преобразования с конфигурацией магистрали корпоративной голосовой связи следует использовать в качестве альтернативы настройке правил преобразования на одноранговом одноранговом узле.</span><span class="sxs-lookup"><span data-stu-id="10966-113">Associating one or more translation rules with an Enterprise Voice trunk configuration should be used as an alternative to configuring translation rules on the trunk peer.</span></span> <span data-ttu-id="10966-114">Не связывайте правила преобразования с конфигурацией магистрали корпоративной голосовой связи, если вы настроили правила преобразования на одноранговом одноранговом узле, так как эти два правила могут конфликтовать.</span><span class="sxs-lookup"><span data-stu-id="10966-114">Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer, because the two rules might conflict.</span></span>
+> <span data-ttu-id="ed207-113">Связывание одного или нескольких правил преобразования с конфигурацией магистрали корпоративной голосовой связи следует использовать в качестве альтернативы настройке правил преобразования на одноранговом одноранговом узле.</span><span class="sxs-lookup"><span data-stu-id="ed207-113">Associating one or more translation rules with an Enterprise Voice trunk configuration should be used as an alternative to configuring translation rules on the trunk peer.</span></span> <span data-ttu-id="ed207-114">Не связывайте правила преобразования с конфигурацией магистрали корпоративной голосовой связи, если вы настроили правила преобразования на одноранговом одноранговом узле, так как эти два правила могут конфликтовать.</span><span class="sxs-lookup"><span data-stu-id="ed207-114">Do not associate translation rules with an Enterprise Voice trunk configuration if you have configured translation rules on the trunk peer, because the two rules might conflict.</span></span>
 
 
 
@@ -53,11 +53,11 @@ ms.locfileid: "42036469"
 
 <div>
 
-## <a name="example-translation-rules"></a><span data-ttu-id="10966-115">Примеры правил преобразования</span><span class="sxs-lookup"><span data-stu-id="10966-115">Example Translation Rules</span></span>
+## <a name="example-translation-rules"></a><span data-ttu-id="ed207-115">Примеры правил преобразования</span><span class="sxs-lookup"><span data-stu-id="ed207-115">Example Translation Rules</span></span>
 
-<span data-ttu-id="10966-116">Следующие примеры правил преобразования показывают, как можно разрабатывать правила на сервере для преобразования номеров из формата E.164 в местный формат для магистрального узла.</span><span class="sxs-lookup"><span data-stu-id="10966-116">The following examples of translation rules show how you can develop rules on the server to translate numbers from E.164 format to a local format for the trunk peer.</span></span>
+<span data-ttu-id="ed207-116">Следующие примеры правил преобразования показывают, как можно разрабатывать правила на сервере для преобразования номеров из формата E.164 в местный формат для магистрального узла.</span><span class="sxs-lookup"><span data-stu-id="ed207-116">The following examples of translation rules show how you can develop rules on the server to translate numbers from E.164 format to a local format for the trunk peer.</span></span>
 
-<span data-ttu-id="10966-117">Для получения дополнительных сведений о том, как реализовать правила преобразования, ознакомьтесь со статьей [Определение правил преобразования в Lync Server 2013](lync-server-2013-defining-translation-rules.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="10966-117">For details about how to implement translation rules, see [Defining translation rules in Lync Server 2013](lync-server-2013-defining-translation-rules.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="ed207-117">Для получения дополнительных сведений о том, как реализовать правила преобразования, ознакомьтесь со статьей [Определение правил преобразования в Lync Server 2013](lync-server-2013-defining-translation-rules.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="ed207-117">For details about how to implement translation rules, see [Defining translation rules in Lync Server 2013](lync-server-2013-defining-translation-rules.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -73,38 +73,38 @@ ms.locfileid: "42036469"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="10966-118">Описание</span><span class="sxs-lookup"><span data-stu-id="10966-118">Description</span></span></th>
-<th><span data-ttu-id="10966-119">Цифры в начале</span><span class="sxs-lookup"><span data-stu-id="10966-119">Starting Digits</span></span></th>
-<th><span data-ttu-id="10966-120">Длина</span><span class="sxs-lookup"><span data-stu-id="10966-120">Length</span></span></th>
-<th><span data-ttu-id="10966-121">Цифры для удаления</span><span class="sxs-lookup"><span data-stu-id="10966-121">Digits to Remove</span></span></th>
-<th><span data-ttu-id="10966-122">Цифры для добавления</span><span class="sxs-lookup"><span data-stu-id="10966-122">Digits to Add</span></span></th>
-<th><span data-ttu-id="10966-123">Шаблон соответствия</span><span class="sxs-lookup"><span data-stu-id="10966-123">Matching Pattern</span></span></th>
-<th><span data-ttu-id="10966-124">Translation</span><span class="sxs-lookup"><span data-stu-id="10966-124">Translation</span></span></th>
-<th><span data-ttu-id="10966-125">Пример</span><span class="sxs-lookup"><span data-stu-id="10966-125">Example</span></span></th>
+<th><span data-ttu-id="ed207-118">Описание</span><span class="sxs-lookup"><span data-stu-id="ed207-118">Description</span></span></th>
+<th><span data-ttu-id="ed207-119">Цифры в начале</span><span class="sxs-lookup"><span data-stu-id="ed207-119">Starting Digits</span></span></th>
+<th><span data-ttu-id="ed207-120">Длина</span><span class="sxs-lookup"><span data-stu-id="ed207-120">Length</span></span></th>
+<th><span data-ttu-id="ed207-121">Цифры для удаления</span><span class="sxs-lookup"><span data-stu-id="ed207-121">Digits to Remove</span></span></th>
+<th><span data-ttu-id="ed207-122">Цифры для добавления</span><span class="sxs-lookup"><span data-stu-id="ed207-122">Digits to Add</span></span></th>
+<th><span data-ttu-id="ed207-123">Шаблон соответствия</span><span class="sxs-lookup"><span data-stu-id="ed207-123">Matching Pattern</span></span></th>
+<th><span data-ttu-id="ed207-124">Translation</span><span class="sxs-lookup"><span data-stu-id="ed207-124">Translation</span></span></th>
+<th><span data-ttu-id="ed207-125">Пример</span><span class="sxs-lookup"><span data-stu-id="ed207-125">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="10966-126">Обычный междугородний звонок в США.</span><span class="sxs-lookup"><span data-stu-id="10966-126">Conventional long-distance dialing in U.S.</span></span></p>
-<p><span data-ttu-id="10966-127">(убирается ‘+’)</span><span class="sxs-lookup"><span data-stu-id="10966-127">(strip out the ‘+’)</span></span></p></td>
-<td><p><span data-ttu-id="10966-128">+ 1</span><span class="sxs-lookup"><span data-stu-id="10966-128">+1</span></span></p></td>
-<td><p><span data-ttu-id="10966-129">Точно 12</span><span class="sxs-lookup"><span data-stu-id="10966-129">Exactly 12</span></span></p></td>
-<td><p><span data-ttu-id="10966-130">1 </span><span class="sxs-lookup"><span data-stu-id="10966-130">1</span></span></p></td>
-<td><p><span data-ttu-id="10966-131">нуль</span><span class="sxs-lookup"><span data-stu-id="10966-131">0</span></span></p></td>
-<td><p><span data-ttu-id="10966-132">^\+(1 \ d{10}) $</span><span class="sxs-lookup"><span data-stu-id="10966-132">^\+(1\d{10})$</span></span></p></td>
-<td><p><span data-ttu-id="10966-133">$1</span><span class="sxs-lookup"><span data-stu-id="10966-133">$1</span></span></p></td>
-<td><p><span data-ttu-id="10966-134">+14255551010 становится 14255551010</span><span class="sxs-lookup"><span data-stu-id="10966-134">+14255551010 becomes 14255551010</span></span></p></td>
+<td><p><span data-ttu-id="ed207-126">Обычный междугородний звонок в США.</span><span class="sxs-lookup"><span data-stu-id="ed207-126">Conventional long-distance dialing in U.S.</span></span></p>
+<p><span data-ttu-id="ed207-127">(убирается ‘+’)</span><span class="sxs-lookup"><span data-stu-id="ed207-127">(strip out the ‘+’)</span></span></p></td>
+<td><p><span data-ttu-id="ed207-128">+ 1</span><span class="sxs-lookup"><span data-stu-id="ed207-128">+1</span></span></p></td>
+<td><p><span data-ttu-id="ed207-129">Точно 12</span><span class="sxs-lookup"><span data-stu-id="ed207-129">Exactly 12</span></span></p></td>
+<td><p><span data-ttu-id="ed207-130">1,1</span><span class="sxs-lookup"><span data-stu-id="ed207-130">1</span></span></p></td>
+<td><p><span data-ttu-id="ed207-131">нуль</span><span class="sxs-lookup"><span data-stu-id="ed207-131">0</span></span></p></td>
+<td><p><span data-ttu-id="ed207-132">^\+(1 \ d{10}) $</span><span class="sxs-lookup"><span data-stu-id="ed207-132">^\+(1\d{10})$</span></span></p></td>
+<td><p><span data-ttu-id="ed207-133">$1</span><span class="sxs-lookup"><span data-stu-id="ed207-133">$1</span></span></p></td>
+<td><p><span data-ttu-id="ed207-134">+14255551010 становится 14255551010</span><span class="sxs-lookup"><span data-stu-id="ed207-134">+14255551010 becomes 14255551010</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="10966-135">Международный звонок из США</span><span class="sxs-lookup"><span data-stu-id="10966-135">U.S. international long-distance dialing</span></span></p>
-<p><span data-ttu-id="10966-136">(убирается ‘+’ и добавляются цифры 011)</span><span class="sxs-lookup"><span data-stu-id="10966-136">(strip out ‘+’ and add 011)</span></span></p></td>
+<td><p><span data-ttu-id="ed207-135">Международный звонок из США</span><span class="sxs-lookup"><span data-stu-id="ed207-135">U.S. international long-distance dialing</span></span></p>
+<p><span data-ttu-id="ed207-136">(убирается ‘+’ и добавляются цифры 011)</span><span class="sxs-lookup"><span data-stu-id="ed207-136">(strip out ‘+’ and add 011)</span></span></p></td>
 <td><p>+</p></td>
-<td><p><span data-ttu-id="10966-137">Не менее 11</span><span class="sxs-lookup"><span data-stu-id="10966-137">At least 11</span></span></p></td>
-<td><p><span data-ttu-id="10966-138">1 </span><span class="sxs-lookup"><span data-stu-id="10966-138">1</span></span></p></td>
-<td><p><span data-ttu-id="10966-139">011</span><span class="sxs-lookup"><span data-stu-id="10966-139">011</span></span></p></td>
-<td><p><span data-ttu-id="10966-140">^\+(\d{9}\d +) $</span><span class="sxs-lookup"><span data-stu-id="10966-140">^\+(\d{9}\d+)$</span></span></p></td>
-<td><p><span data-ttu-id="10966-141">011 $1</span><span class="sxs-lookup"><span data-stu-id="10966-141">011$1</span></span></p></td>
-<td><p><span data-ttu-id="10966-142">+441235551010 становится 011441235551010</span><span class="sxs-lookup"><span data-stu-id="10966-142">+441235551010 becomes 011441235551010</span></span></p></td>
+<td><p><span data-ttu-id="ed207-137">Не менее 11</span><span class="sxs-lookup"><span data-stu-id="ed207-137">At least 11</span></span></p></td>
+<td><p><span data-ttu-id="ed207-138">1,1</span><span class="sxs-lookup"><span data-stu-id="ed207-138">1</span></span></p></td>
+<td><p><span data-ttu-id="ed207-139">011</span><span class="sxs-lookup"><span data-stu-id="ed207-139">011</span></span></p></td>
+<td><p><span data-ttu-id="ed207-140">^\+(\d{9}\d +) $</span><span class="sxs-lookup"><span data-stu-id="ed207-140">^\+(\d{9}\d+)$</span></span></p></td>
+<td><p><span data-ttu-id="ed207-141">011 $1</span><span class="sxs-lookup"><span data-stu-id="ed207-141">011$1</span></span></p></td>
+<td><p><span data-ttu-id="ed207-142">+441235551010 становится 011441235551010</span><span class="sxs-lookup"><span data-stu-id="ed207-142">+441235551010 becomes 011441235551010</span></span></p></td>
 </tr>
 </tbody>
 </table>
