@@ -12,20 +12,20 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccafd4302897a8768164f9f085f382e2ad806c2d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 13204945482c130c65aea7725db5e06a1eb5a3da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030523"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="17615-102">Настройка связей между областями сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17615-102">Configuring network region links in Lync Server 2013</span></span>
+# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="b1347-102">Настройка связей между областями сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b1347-102">Configuring network region links in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "42030523"
 
 <span> </span>
 
-<span data-ttu-id="17615-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="17615-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b1347-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b1347-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="17615-104">Вы можете настроить канал между двумя областями сети как часть контроля допуска звонков (CAC).</span><span class="sxs-lookup"><span data-stu-id="17615-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="17615-105">Регионы в сети связываются с помощью физического подключения глобальной сети.</span><span class="sxs-lookup"><span data-stu-id="17615-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="17615-106">С помощью панели управления Lync Server вы можете определить ссылку между двумя областями сети и установить ограничения пропускной способности для звуковых и видеоподключений между этими областями.</span><span class="sxs-lookup"><span data-stu-id="17615-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="17615-107">Дополнительные сведения об удалении существующей связи между областями сети содержатся [в статье Удаление связей между областями сети в Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span><span class="sxs-lookup"><span data-stu-id="17615-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
+<span data-ttu-id="b1347-104">Вы можете настроить канал между двумя областями сети как часть контроля допуска звонков (CAC).</span><span class="sxs-lookup"><span data-stu-id="b1347-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="b1347-105">Регионы в сети связываются с помощью физического подключения глобальной сети.</span><span class="sxs-lookup"><span data-stu-id="b1347-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="b1347-106">С помощью панели управления Lync Server вы можете определить ссылку между двумя областями сети и установить ограничения пропускной способности для звуковых и видеоподключений между этими областями.</span><span class="sxs-lookup"><span data-stu-id="b1347-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="b1347-107">Дополнительные сведения об удалении существующей связи между областями сети содержатся [в статье Удаление связей между областями сети в Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span><span class="sxs-lookup"><span data-stu-id="b1347-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a><span data-ttu-id="17615-108">Создание связи сетевой области</span><span class="sxs-lookup"><span data-stu-id="17615-108">To create a network region link</span></span>
+## <a name="to-create-a-network-region-link"></a><span data-ttu-id="b1347-108">Создание связи сетевой области</span><span class="sxs-lookup"><span data-stu-id="b1347-108">To create a network region link</span></span>
 
-1.  <span data-ttu-id="17615-109">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="17615-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="b1347-109">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="b1347-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="17615-110">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="17615-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="17615-111">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="17615-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b1347-110">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b1347-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b1347-111">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b1347-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="17615-112">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Связь между областями**.</span><span class="sxs-lookup"><span data-stu-id="17615-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+3.  <span data-ttu-id="b1347-112">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Связь между областями**.</span><span class="sxs-lookup"><span data-stu-id="b1347-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
 
-4.  <span data-ttu-id="17615-113">На странице **Связь между областями** нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="17615-113">On the **Region Link** page, click **New**.</span></span>
+4.  <span data-ttu-id="b1347-113">На странице **Связь между областями** нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="b1347-113">On the **Region Link** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="17615-114">В окне **Создание связи между областями** введите значение в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="17615-114">In **New Region Link**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="b1347-114">В окне **Создание связи между областями** введите значение в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="b1347-114">In **New Region Link**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="17615-115">Это значение должно быть уникальным в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="17615-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="b1347-115">Это значение должно быть уникальным в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b1347-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="17615-116">В раскрывающемся списке \*\* \#область сети 1\*\* выберите одну из двух областей, которые необходимо связать.</span><span class="sxs-lookup"><span data-stu-id="17615-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
+6.  <span data-ttu-id="b1347-116">В раскрывающемся списке \*\* \#область сети 1\*\* выберите одну из двух областей, которые необходимо связать.</span><span class="sxs-lookup"><span data-stu-id="b1347-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
 
-7.  <span data-ttu-id="17615-117">В раскрывающемся списке \*\* \#область сети 2\*\* выберите другой регион, который необходимо связать.</span><span class="sxs-lookup"><span data-stu-id="17615-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="17615-118">Этот регион должен отличаться от региона, выбранного для области \#сети 1.</span><span class="sxs-lookup"><span data-stu-id="17615-118">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="b1347-117">В раскрывающемся списке \*\* \#область сети 2\*\* выберите другой регион, который необходимо связать.</span><span class="sxs-lookup"><span data-stu-id="b1347-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="b1347-118">Этот регион должен отличаться от региона, выбранного для области \#сети 1.</span><span class="sxs-lookup"><span data-stu-id="b1347-118">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="17615-119">(Необязательно) Если нужно наложить ограничения полосы пропускания на аудио- или видеовызовы между этими областями, выберите профиль политики в раскрывающемся списке **Политика полосы пропускания**.</span><span class="sxs-lookup"><span data-stu-id="17615-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
+8.  <span data-ttu-id="b1347-119">(Необязательно) Если нужно наложить ограничения полосы пропускания на аудио- или видеовызовы между этими областями, выберите профиль политики в раскрывающемся списке **Политика полосы пропускания**.</span><span class="sxs-lookup"><span data-stu-id="b1347-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
 
-9.  <span data-ttu-id="17615-120">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="17615-120">Click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="17615-121">Изменение связи сетевой области</span><span class="sxs-lookup"><span data-stu-id="17615-121">To modify a network region link</span></span>
-
-1.  <span data-ttu-id="17615-122">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="17615-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="17615-123">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="17615-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="17615-124">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="17615-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
-
-3.  <span data-ttu-id="17615-125">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Связь между областями**.</span><span class="sxs-lookup"><span data-stu-id="17615-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
-
-4.  <span data-ttu-id="17615-126">На странице **Связь между областями** щелкните связь, которую нужно изменить.</span><span class="sxs-lookup"><span data-stu-id="17615-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
-
-5.  <span data-ttu-id="17615-127">В меню **Правка** выберите команду **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="17615-127">On the **Edit** menu, click **Show details**.</span></span>
-
-6.  <span data-ttu-id="17615-128">В окне **Изменение связи между областями** вы можете изменить связанные области или профиль политики пропускной способности для этой связи.</span><span class="sxs-lookup"><span data-stu-id="17615-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
-
-7.  <span data-ttu-id="17615-129">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="17615-129">Click **Commit**.</span></span>
+9.  <span data-ttu-id="b1347-120">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="b1347-120">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="17615-130">См. также</span><span class="sxs-lookup"><span data-stu-id="17615-130">See Also</span></span>
+## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="b1347-121">Изменение связи сетевой области</span><span class="sxs-lookup"><span data-stu-id="b1347-121">To modify a network region link</span></span>
+
+1.  <span data-ttu-id="b1347-122">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="b1347-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="b1347-123">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b1347-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b1347-124">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b1347-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="b1347-125">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Связь между областями**.</span><span class="sxs-lookup"><span data-stu-id="b1347-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+
+4.  <span data-ttu-id="b1347-126">На странице **Связь между областями** щелкните связь, которую нужно изменить.</span><span class="sxs-lookup"><span data-stu-id="b1347-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
+
+5.  <span data-ttu-id="b1347-127">В меню **Правка** выберите команду **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="b1347-127">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="b1347-128">В окне **Изменение связи между областями** вы можете изменить связанные области или профиль политики пропускной способности для этой связи.</span><span class="sxs-lookup"><span data-stu-id="b1347-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
+
+7.  <span data-ttu-id="b1347-129">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="b1347-129">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b1347-130">См. также</span><span class="sxs-lookup"><span data-stu-id="b1347-130">See Also</span></span>
 
 
-[<span data-ttu-id="17615-131">Удаление связей между областями сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17615-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
+[<span data-ttu-id="b1347-131">Удаление связей между областями сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b1347-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
 
 
-[<span data-ttu-id="17615-132">New — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="17615-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[<span data-ttu-id="17615-133">Set — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="17615-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
-[<span data-ttu-id="17615-134">Remove — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="17615-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
-[<span data-ttu-id="17615-135">Get — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="17615-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[<span data-ttu-id="b1347-132">New — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="b1347-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[<span data-ttu-id="b1347-133">Set — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="b1347-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[<span data-ttu-id="b1347-134">Remove — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="b1347-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[<span data-ttu-id="b1347-135">Get — Кснетворкрегионлинк</span><span class="sxs-lookup"><span data-stu-id="b1347-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>
