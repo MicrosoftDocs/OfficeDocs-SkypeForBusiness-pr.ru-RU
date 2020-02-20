@@ -12,20 +12,20 @@ ms:contentKeyID: 48184652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c32fea58eafc8728144885826c822c7485441a7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 452028e9fb67443d92e244d2d23c65f4efa9e308
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037001"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a><span data-ttu-id="0837a-102">Применение политики сохраняемого чата к пользователю или группе пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0837a-102">Apply a Persistent Chat policy to a user or user group in Lync Server 2013</span></span>
+# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a><span data-ttu-id="f39bf-102">Применение политики сохраняемого чата к пользователю или группе пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f39bf-102">Apply a Persistent Chat policy to a user or user group in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "42037001"
 
 <span> </span>
 
-<span data-ttu-id="0837a-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="0837a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f39bf-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f39bf-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="0837a-104">Если для пользователя включена поддержка Lync Server 2013, вы можете применить соответствующие политики к определенным пользователям, чтобы включить или отключить их для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="0837a-104">If a user has been enabled for Lync Server 2013, you can apply appropriate policies to specific users to enable or disable them for Persistent Chat Server.</span></span>
+<span data-ttu-id="f39bf-104">Если для пользователя включена поддержка Lync Server 2013, вы можете применить соответствующие политики к определенным пользователям, чтобы включить или отключить их для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="f39bf-104">If a user has been enabled for Lync Server 2013, you can apply appropriate policies to specific users to enable or disable them for Persistent Chat Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0837a-105">Чтобы настроить и использовать сервер сохраняемого чата, сначала необходимо использовать построитель топологий, чтобы добавить в топологию поддержку сервера сохраняемого чата, а затем опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="0837a-105">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="0837a-106">Дополнительные сведения см. в статье <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Добавление сервера сохраняемого чата в развертывание в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0837a-106">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="0837a-107">Чтобы настроить параметры конфигурации сервера сохраняемого чата, ознакомьтесь со статьей <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Настройка параметров сервера сохраняемого чата на глобальном уровне или для пула сервера сохраняемого чата в Lync server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0837a-107">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="f39bf-105">Чтобы настроить и использовать сервер сохраняемого чата, сначала необходимо использовать построитель топологий, чтобы добавить в топологию поддержку сервера сохраняемого чата, а затем опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="f39bf-105">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="f39bf-106">Дополнительные сведения см. в статье <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Добавление сервера сохраняемого чата в развертывание в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="f39bf-106">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="f39bf-107">Чтобы настроить параметры конфигурации сервера сохраняемого чата, ознакомьтесь со статьей <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Настройка параметров сервера сохраняемого чата на глобальном уровне или для пула сервера сохраняемого чата в Lync server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="f39bf-107">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="0837a-108">Используйте процедуру, описанную в этом разделе, для применения ранее созданной политики пользователя сохраняемого чата к одной или нескольким учетным записям пользователей или группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="0837a-108">Use the procedure in this topic to apply a previously created Persistent Chat user policy to one or more user accounts or user groups.</span></span>
+<span data-ttu-id="f39bf-108">Используйте процедуру, описанную в этом разделе, для применения ранее созданной политики пользователя сохраняемого чата к одной или нескольким учетным записям пользователей или группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="f39bf-108">Use the procedure in this topic to apply a previously created Persistent Chat user policy to one or more user accounts or user groups.</span></span>
 
 <div>
 
-## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a><span data-ttu-id="0837a-109">Применение политики пользователя сохраняемого чата к учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="0837a-109">To apply a Persistent Chat user policy to a user account</span></span>
+## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a><span data-ttu-id="f39bf-109">Применение политики пользователя сохраняемого чата к учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="f39bf-109">To apply a Persistent Chat user policy to a user account</span></span>
 
-1.  <span data-ttu-id="0837a-110">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsPersistentChatAdministrator, CsAdministrator или CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="0837a-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="f39bf-110">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsPersistentChatAdministrator, CsAdministrator или CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="f39bf-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0837a-111">В меню **Пуск** выберите Панель управления Lync Server или откройте окно браузера и введите URL-адрес администрирования.</span><span class="sxs-lookup"><span data-stu-id="0837a-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="0837a-112">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0837a-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="f39bf-111">В меню **Пуск** выберите Панель управления Lync Server или откройте окно браузера и введите URL-адрес администрирования.</span><span class="sxs-lookup"><span data-stu-id="f39bf-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="f39bf-112">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f39bf-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="0837a-113">В левой панели навигации щелкните **Пользователи**, а затем выполните поиск учетной записи пользователя, которую требуется настроить.</span><span class="sxs-lookup"><span data-stu-id="0837a-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+3.  <span data-ttu-id="f39bf-113">В левой панели навигации щелкните **Пользователи**, а затем выполните поиск учетной записи пользователя, которую требуется настроить.</span><span class="sxs-lookup"><span data-stu-id="f39bf-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
 
-4.  <span data-ttu-id="0837a-114">В таблице со списком результатов поиска щелкните учетную запись пользователя, нажмите кнопку **Изменить**, а затем щелкните **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="0837a-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="f39bf-114">В таблице со списком результатов поиска щелкните учетную запись пользователя, нажмите кнопку **Изменить**, а затем щелкните **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="f39bf-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="0837a-115">В разделе **изменение пользователя Lync Server** в разделе **Политика сохраняемого чата**выберите политику пользователя сохраняемого чата, которую нужно применить.</span><span class="sxs-lookup"><span data-stu-id="0837a-115">In **Edit Lync Server User** under **Persistent Chat policy**, select the Persistent Chat user policy that you want to apply.</span></span>
+5.  <span data-ttu-id="f39bf-115">В разделе **изменение пользователя Lync Server** в разделе **Политика сохраняемого чата**выберите политику пользователя сохраняемого чата, которую нужно применить.</span><span class="sxs-lookup"><span data-stu-id="f39bf-115">In **Edit Lync Server User** under **Persistent Chat policy**, select the Persistent Chat user policy that you want to apply.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="0837a-116">Параметры <STRONG> &lt;автоматического&gt; </STRONG> применения применяют действующую политику по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0837a-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default effective policy.</span></span> <span data-ttu-id="0837a-117">Данный параметр автоматически применяется сервером.</span><span class="sxs-lookup"><span data-stu-id="0837a-117">These settings are applied automatically by the server.</span></span>
+    > <span data-ttu-id="f39bf-116">Параметры <STRONG> &lt;автоматического&gt; </STRONG> применения применяют действующую политику по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="f39bf-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default effective policy.</span></span> <span data-ttu-id="f39bf-117">Данный параметр автоматически применяется сервером.</span><span class="sxs-lookup"><span data-stu-id="f39bf-117">These settings are applied automatically by the server.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="0837a-118">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0837a-118">Click **Commit**.</span></span>
+6.  <span data-ttu-id="f39bf-118">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="f39bf-118">Click **Commit**.</span></span>
 
 </div>
 

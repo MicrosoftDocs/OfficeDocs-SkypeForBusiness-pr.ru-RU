@@ -12,20 +12,20 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a0d2e5cf6eaa6ed594e7f5fbbc5b1e6a4c9103a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 586f0e699d0cb0cea09b423f25beffd3efe5afdf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036609"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="7dfec-102">Отключение пользователя для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfec-102">Disable a user for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="b4091-102">Отключение пользователя для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4091-102">Disable a user for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "42036609"
 
 <span> </span>
 
-<span data-ttu-id="7dfec-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7dfec-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="b4091-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b4091-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="7dfec-104">Используйте следующую процедуру, чтобы отключить корпоративную голосовую связь для учетной записи пользователя, для которой включена Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7dfec-104">Use the following procedure to disable Enterprise Voice for a user account that is enabled for Lync Server 2013.</span></span>
+<span data-ttu-id="b4091-104">Используйте следующую процедуру, чтобы отключить корпоративную голосовую связь для учетной записи пользователя, для которой включена Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b4091-104">Use the following procedure to disable Enterprise Voice for a user account that is enabled for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="to-disable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="7dfec-105">Отключение учетной записи пользователя для корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="7dfec-105">To disable a user account for Enterprise Voice</span></span>
+## <a name="to-disable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="b4091-105">Отключение учетной записи пользователя для корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="b4091-105">To disable a user account for Enterprise Voice</span></span>
 
-1.  <span data-ttu-id="7dfec-106">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="7dfec-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="b4091-106">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b4091-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="7dfec-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7dfec-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7dfec-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="7dfec-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="b4091-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b4091-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b4091-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b4091-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="7dfec-109">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="7dfec-109">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="b4091-109">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="b4091-109">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="7dfec-110">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (диспетчера учетных записей безопасности), SIP-адрес или линейный универсальный код ресурса (URI) учетной записи пользователя, которой требуется разрешить корпоративную голосовую связи, а затем нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="7dfec-110">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
+4.  <span data-ttu-id="b4091-110">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (диспетчера учетных записей безопасности), SIP-адрес или линейный универсальный код ресурса (URI) учетной записи пользователя, которой требуется разрешить корпоративную голосовую связи, а затем нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="b4091-110">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="7dfec-111">В таблице щелкните учетную запись пользователя, для которой необходимо включить поддержку корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="7dfec-111">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
+5.  <span data-ttu-id="b4091-111">В таблице щелкните учетную запись пользователя, для которой необходимо включить поддержку корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="b4091-111">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
 
-6.  <span data-ttu-id="7dfec-112">В меню **Изменить** щелкните **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="7dfec-112">On the **Edit** menu, click **Show details**.</span></span>
+6.  <span data-ttu-id="b4091-112">В меню **Изменить** щелкните **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="b4091-112">On the **Edit** menu, click **Show details**.</span></span>
 
-7.  <span data-ttu-id="7dfec-113">На странице **Изменение пользователя Lync Server** в разделе **Телефония** щелкните любой параметр, кроме **Корпоративная голосовая связь**.</span><span class="sxs-lookup"><span data-stu-id="7dfec-113">On the **Edit Lync Server User** page, under **Telephony**, click any option except **Enterprise Voice**.</span></span>
+7.  <span data-ttu-id="b4091-113">На странице **Изменение пользователя Lync Server** в разделе **Телефония** щелкните любой параметр, кроме **Корпоративная голосовая связь**.</span><span class="sxs-lookup"><span data-stu-id="b4091-113">On the **Edit Lync Server User** page, under **Telephony**, click any option except **Enterprise Voice**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7dfec-114">Чтобы запретить пользователю совершать аудио-и видеовызовы с помощью Lync, в разделе <STRONG>телефония</STRONG>нажмите кнопку <STRONG>аудио/видео отключена</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7dfec-114">To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.</span></span>
+    > <span data-ttu-id="b4091-114">Чтобы запретить пользователю совершать аудио-и видеовызовы с помощью Lync, в разделе <STRONG>телефония</STRONG>нажмите кнопку <STRONG>аудио/видео отключена</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b4091-114">To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="7dfec-115">Щелкните **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="7dfec-115">Click **Commit**.</span></span>
+8.  <span data-ttu-id="b4091-115">Щелкните **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="b4091-115">Click **Commit**.</span></span>
 
-<span data-ttu-id="7dfec-116">Теперь пользователь не может использовать функцию корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="7dfec-116">The user is now unable to use the Enterprise Voice feature.</span></span>
+<span data-ttu-id="b4091-116">Теперь пользователь не может использовать функцию корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="b4091-116">The user is now unable to use the Enterprise Voice feature.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7dfec-117">См. также</span><span class="sxs-lookup"><span data-stu-id="7dfec-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b4091-117">См. также</span><span class="sxs-lookup"><span data-stu-id="b4091-117">See Also</span></span>
 
 
-[<span data-ttu-id="7dfec-118">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfec-118">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[<span data-ttu-id="b4091-118">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4091-118">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
-[<span data-ttu-id="7dfec-119">Управление корпоративной голосовой связью для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7dfec-119">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)  
-[<span data-ttu-id="7dfec-120">Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="7dfec-120">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
+[<span data-ttu-id="b4091-119">Управление корпоративной голосовой связью для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4091-119">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)  
+[<span data-ttu-id="b4091-120">Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="b4091-120">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

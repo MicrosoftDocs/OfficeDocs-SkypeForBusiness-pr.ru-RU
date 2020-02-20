@@ -12,20 +12,20 @@ ms:contentKeyID: 48184812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53c68b2ad88140aadd7e30beb46bb357c83b93c0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1b0c34172ffaaecb2d5b4e927c277882cc047882
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029000"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="application-endpoints-cmdlets-in-lync-server-2013"></a><span data-ttu-id="f1f62-102">Командлеты конечных точек приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1f62-102">Application endpoints cmdlets in Lync Server 2013</span></span>
+# <a name="application-endpoints-cmdlets-in-lync-server-2013"></a><span data-ttu-id="8cecb-102">Командлеты конечных точек приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cecb-102">Application endpoints cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42029000"
 
 <span> </span>
 
-<span data-ttu-id="f1f62-103">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="f1f62-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="8cecb-103">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="8cecb-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="f1f62-104">Конечные точки приложений — это объекты контактов в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f1f62-104">Application endpoints are contact objects within Active Directory Domain Services.</span></span> <span data-ttu-id="f1f62-105">С помощью командлетов в командной консоли Lync Server вы можете управлять этими контактами для Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f1f62-105">You can use cmdlets from within the Lync Server Management Shell to manage these contacts for Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="8cecb-104">Конечные точки приложений — это объекты контактов в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="8cecb-104">Application endpoints are contact objects within Active Directory Domain Services.</span></span> <span data-ttu-id="8cecb-105">С помощью командлетов в командной консоли Lync Server вы можете управлять этими контактами для Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8cecb-105">You can use cmdlets from within the Lync Server Management Shell to manage these contacts for Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="application-endpoints-cmdlets"></a><span data-ttu-id="f1f62-106">Командлеты для конечных точек приложений</span><span class="sxs-lookup"><span data-stu-id="f1f62-106">Application Endpoints Cmdlets</span></span>
+## <a name="application-endpoints-cmdlets"></a><span data-ttu-id="8cecb-106">Командлеты для конечных точек приложений</span><span class="sxs-lookup"><span data-stu-id="8cecb-106">Application Endpoints Cmdlets</span></span>
 
-<span data-ttu-id="f1f62-107">Используйте следующие командлеты для управления конечными точками приложений.</span><span class="sxs-lookup"><span data-stu-id="f1f62-107">Use the following cmdlets to manage application endpoints.</span></span>
+<span data-ttu-id="8cecb-107">Используйте следующие командлеты для управления конечными точками приложений.</span><span class="sxs-lookup"><span data-stu-id="8cecb-107">Use the following cmdlets to manage application endpoints.</span></span>
 
-<span data-ttu-id="f1f62-108">**Конечные точки приложений**</span><span class="sxs-lookup"><span data-stu-id="f1f62-108">**Application Endpoints**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="f1f62-109">[Get — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f1f62-109">[Get-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))</span></span>
+<span data-ttu-id="8cecb-108">**Конечные точки приложений**</span><span class="sxs-lookup"><span data-stu-id="8cecb-108">**Application Endpoints**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="f1f62-110">[Move — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="f1f62-110">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span></span>
+    <span data-ttu-id="8cecb-109">[Get — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8cecb-109">[Get-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="8cecb-110">[Move — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="8cecb-110">[Move-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1f62-111">См. также</span><span class="sxs-lookup"><span data-stu-id="f1f62-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8cecb-111">См. также</span><span class="sxs-lookup"><span data-stu-id="8cecb-111">See Also</span></span>
 
 
-[<span data-ttu-id="f1f62-112">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="f1f62-112">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="8cecb-112">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="8cecb-112">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
