@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044051"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Вопросы и ответы: подготовка Lync Server 2013 для подключения к Skype
 
@@ -138,7 +138,7 @@ _**Последнее изменение темы:** 2019-03-22_
 
 **В. как добавить контакт Windows Live Messenger с ИДЕНТИФИКАТОРом, который содержит домен, отличный от того, что поддерживается Windows Live?**
 
-**A:** Если вы добавляете пользователя Windows Live Messenger с учетной записью или идентификатором в домене, отличном от Windows Live, введите адрес в следующем формате \<: имя\>пользователя\<(доменное имя\>) @msn. com \<, где\> доменное имя — это доменное имя в адресе электронной почты пользователя. Например, если вы хотите добавить ted@contoso.com, используйте следующий формат: ", contoso. com) @msn. com. Список доменов, администрируемых службой Windows Live, приведен в разделе Поддерживаемые домены в разделе "известные проблемы, возникающие при работе с общедоступной службой обмена мгновенными сообщениями после установки пакета обновления 1 http://support.microsoft.com/?kbid=897567(SP1) для Live Communications Server с пакетом обновления 1 (SP1).
+**A:** Если вы добавляете пользователя Windows Live Messenger с учетной записью или идентификатором в домене, отличном от Windows Live, введите адрес в следующем формате \<: имя\>пользователя\<(доменное имя\>) @msn. com \<, где\> доменное имя — это доменное имя в адресе электронной почты пользователя. Например, если вы хотите добавить ted@contoso.com, используйте следующий формат: ", contoso. com) @msn. com. Список доменов, администрируемых службой Windows Live, приведен в разделе Поддерживаемые домены в разделе "известные проблемы, возникающие при работе с общедоступной службой обмена мгновенными сообщениями после установки пакета обновления 1 https://support.microsoft.com/?kbid=897567(SP1) для Live Communications Server с пакетом обновления 1 (SP1).
 
 **Вопрос: сколько времени занимает процесс подготовки?**
 

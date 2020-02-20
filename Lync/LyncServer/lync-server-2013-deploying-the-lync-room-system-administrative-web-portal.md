@@ -12,18 +12,18 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b0c352e9e890611d95a7d562a88ae8f6cebc7243
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043371"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Развертывание веб-портала администрирования системы комнат Lync в Lync Server 2013
 
@@ -47,7 +47,7 @@ _**Последнее изменение темы:** 2015-05-04_
 
 
 > [!IMPORTANT]  
-> При установке веб-портала администрирования LRS в развертывании Microsoft Lync Server 2013 следует использовать <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">веб-портал администрирования системы комнат Microsoft Lync для Lync Server 2013</A>.<BR>Для Skype для бизнеса Server 2015 доступна новая версия веб-портала администрирования LRS, но не следует устанавливать эту версию, если вы не развернули Skype для бизнеса Server 2015. Скачайте <A href="http://go.microsoft.com/fwlink/?linkid=544807">веб-портал администрирования системы комнат Microsoft Lync для Skype для бизнеса Server 2015</A>.
+> При установке веб-портала администрирования LRS в развертывании Microsoft Lync Server 2013 следует использовать <A href="https://go.microsoft.com/fwlink/p/?linkid=544806">веб-портал администрирования системы комнат Microsoft Lync для Lync Server 2013</A>.<BR>Для Skype для бизнеса Server 2015 доступна новая версия веб-портала администрирования LRS, но не следует устанавливать эту версию, если вы не развернули Skype для бизнеса Server 2015. Скачайте <A href="https://go.microsoft.com/fwlink/?linkid=544807">веб-портал администрирования системы комнат Microsoft Lync для Skype для бизнеса Server 2015</A>.
 
 
 

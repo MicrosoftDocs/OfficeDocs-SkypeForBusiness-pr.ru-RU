@@ -12,18 +12,18 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98702f392020586b546d2db89fe6355923b47f67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c77d9c220502abbd4275af337142927786be9be3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042971"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Удаление объекта контактного телефона общего пользования в Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2013-02-20_
 
 Возможно, вы захотите удалить объект Contact, связанный с телефоном на общем участке. Например, если удалить телефон из неактивного сотрудника, нет необходимости иметь объект Contact, связанный с этим телефоном. Командлет **Remove – CsCommonAreaPhone** позволяет удалять общие учетные записи телефонной сети. При выполнении этого командлета в списке общедоступных телефонов, возвращенных командлетом **Get-CsCommonAreaPhone**, удаляется телефон. Кроме того, объект Contact, связанный с этим телефоном, удаляется из доменных служб Active Directory.
 
-Используйте **Remove – CsCommonAreaPhone** , чтобы удалить один общий телефон или все общие телефоны, имеющие общий элемент, такие как отображаемое имя или код страны и города. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Используйте **Remove – CsCommonAreaPhone** , чтобы удалить один общий телефон или все общие телефоны, имеющие общий элемент, такие как отображаемое имя или код страны и города. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cbb859a3cd9f49791eb7b959a59c00c38db6336
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 25535ee2a2b6a1dfc0cc88202b84fb7e083428c1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41995974"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Настройка единой системы обмена сообщениями на сервере Microsoft Exchange Server для работы с Lync Server 2013
 
@@ -82,7 +82,7 @@ _**Последнее изменение темы:** 2012-10-11_
 
 Прежде чем приступать к работе, в документации в этом разделе предполагается, что вы развернули следующие роли Exchange 2013: клиентский доступ и почтовый ящик. В Microsoft Exchange Server 2013 служба единой системы обмена сообщениями Exchange работает как служба на этих серверах.
 
-Подробнее о развертывании Exchange 2013 можно узнать в библиотеке Exchange 2013 TechNet по адресу[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+Подробнее о развертывании Exchange 2013 можно узнать в библиотеке Exchange 2013 TechNet по адресу[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 Также обратите внимание на следующее.
 
