@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Правила нормализации Skype для бизнеса Server используют регулярные выражения .NET Framework для преобразования набранных телефонных номеров в формат E. 164; другими словами, правила нормализации получают телефонный номер, набранный пользователем, и преобразовывают его в формат, используемый в Skype для бизнеса Server. Каждой абонентской группе должно быть назначено одно или несколько правил нормализации.
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028850"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151219"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Определение правил нормализации в Skype для бизнеса Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "42028850"
 
 Подробные сведения о правилах нормализации приведены в статье [абонентские группы и правила нормализации](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-Сведения о написании регулярных выражений можно найти в статье [регулярные выражения .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
+Сведения о написании регулярных выражений можно найти в статье [регулярные выражения .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Для задания или изменения регулярных выражений можно использовать следующие способы.
 - С [помощью средства " **Построение правила нормализации** "](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) укажите значения для начальных цифр, длины, цифр для удаления и цифр для добавления, а затем позвольте панели управления Skype для бизнеса Server создать соответствующий шаблон и правило преобразования.

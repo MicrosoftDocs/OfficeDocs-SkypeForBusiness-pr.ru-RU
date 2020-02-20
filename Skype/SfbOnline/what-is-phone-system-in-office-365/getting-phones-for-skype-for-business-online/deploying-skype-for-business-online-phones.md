@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для телефонов Skype для бизнеса Online
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784756"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113152"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -208,7 +208,7 @@ BToE  это механизм для партнеров по программ�
   
 2. Скачайте и установите последнюю версию программного обеспечения по btoe на веб-сайте изготовителя из указанных ниже ссылок. Для более удобного взаимодействия с пользователем вы можете распространять и устанавливать программное обеспечение по btoe с помощью решения для распространения администратором, такого как Microsoft Endpoint Configuration Manager. Справку по настройке Configuration Manager можно найти [в разделе пакеты и программы в Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
-   - [Сайт для скачивания ПО BToE для Polycom:](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Сайт для скачивания ПО BToE для Polycom:](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Скачать ПО BToE для Yealink](http://www.yealink.com/products_list_10.html)
     

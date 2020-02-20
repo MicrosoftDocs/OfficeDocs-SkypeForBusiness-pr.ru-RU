@@ -1,7 +1,7 @@
 ---
 title: Интерфейс DSTU2 пациентов для приложений и ехр интеграции
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Интеграция приложений Microsoft Teams пациентов ехр
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827807"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153821"
 ---
 # <a name="dstu2-interface-specification"></a>Характеристики интерфейса DSTU2
 
@@ -54,7 +54,7 @@ ms.locfileid: "41827807"
    1. Режиме
    2. Действует
    3. Ресурс: тип
-   4. Безопасность: [расширение URI OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Безопасность: [расширение URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. Фхирверсион (для нашего кода требуется, чтобы узнать, в какую версию следует поворачивать, так как мы поддерживаем несколько версий.)
 
 Дополнительные [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) сведения об этом множестве полей приведены в разделе.
@@ -82,7 +82,7 @@ ms.locfileid: "41827807"
     Ответ: {"resourceType": "Patient", "идентификатор": "<пациент-ID>";.
       .
       .
-      "имя": [{"use": "официальный", "префикс": ["MR"], "Family": ["Хугх"] "," ". [" Чау "]}]," идентификатор ": [{" использование ":" официальный "," тип ": {" программирование ": [{" System ":"http://hl7.org/fhir/v2/0203";" код ":" MR "}]};" значение ":" м ";" Карепровидер ": [{" Display ":" Джейн Петров "}],} 1234567 1957-06-05
+      "имя": [{"use": "официальный", "префикс": ["MR"], "Family": ["Хугх"] "," ". [" Чау "]}]," идентификатор ": [{" использование ":" официальный "," тип ": {" программирование ": [{" System ":"https://hl7.org/fhir/v2/0203";" код ":" MR "}]};" значение ":" м ";" Карепровидер ": [{" Display ":" Джейн Петров "}],} 1234567 1957-06-05
 
 * * *
 

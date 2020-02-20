@@ -1,8 +1,8 @@
 ---
 title: Настройка тестовых пользователей и параметров узла-наблюдателя
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Сводка. Настройка тестовых учетных записей пользователей и параметров узла-наблюдателя для искусственных транзакций Skype для бизнеса Server.
-ms.openlocfilehash: f13680d16a248be339ee7cd4a085d7d0894146dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bfbad6fbeb68100adaaee781c135531d226f43bb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033678"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150500"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей и параметров узла-наблюдателя
  
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 Для искусственной транзакции обмена мгновенными сообщениями по протоколу XMPP необходимо настроить функцию XMPP с одним или несколькими федеративными доменами.
   
-Чтобы включить искусственную транзакцию XMPP, необходимо указать параметр Ксмпптестрецеивермаиладдресс с учетной записью пользователя в поднаправляемом домене XMPP. Пример:
+Чтобы включить искусственную транзакцию XMPP, необходимо указать параметр Ксмпптестрецеивермаиладдресс с учетной записью пользователя в поднаправляемом домене XMPP. Например:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

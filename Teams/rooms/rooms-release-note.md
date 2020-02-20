@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825807"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155091"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -248,7 +248,7 @@ Introduced in this update:
 
 Представлено в этом обновлении:
 
-- Поддержка Polycomного устройства для подкрепления [серии MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Поддержка Polycomного устройства для подкрепления [серии MSR](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Поддержка по [Logitech Брио](https://www.logitech.com/product/brio)
 - В этой статье описан способ устранения проблемы, при которой экраны (консольные и передние места) не могут перейти в режим сна при отсутствии активности в комнате
 
@@ -258,7 +258,7 @@ Introduced in this update:
 
 - Работает на планшете Surface Pro (2017) 
 - Поддержка обновления для Windows 10 корпоративный составителя (английский язык, сборка 1703)
-- Поддержка оборудования Dock [КРЕСТРОН SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Поддержка оборудования Dock [КРЕСТРОН SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Поддержка ПВТ для элементов управления средой (Крестрон)
 
 64-разрядная версия Windows 10 корпоративный годовщина (версия для английского языка (версии 1607) больше не поддерживается в помещениях Microsoft Teams Release 3.0.12.0 (обновление 3).

@@ -1,7 +1,7 @@
 ---
 title: 'Приложение пациентов для администраторов Teams '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Приложение пациентов для администраторов Teams
-ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827674"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153791"
 ---
 # <a name="patients-app-overview"></a>Обзор приложения для пациентов
 
@@ -68,6 +68,6 @@ ms.locfileid: "41827674"
 
 Да, есть. Каждое действие в пользовательском интерфейсе, выполненное пользователем Microsoft Teams в приложении пациентов, подлежит аудиту и доступно в центре безопасности и соответствия требованиям. Сведения в этой статье описаны [ниже](patients-audit.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Интеграция электронных историй болезни в Microsoft Teams](patients-app.md)

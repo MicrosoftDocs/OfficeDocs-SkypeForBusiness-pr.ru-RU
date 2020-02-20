@@ -1,7 +1,7 @@
 ---
 title: Интерфейс STU3 пациентов для приложений и ехр интеграции
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Интеграция приложений Microsoft Teams пациентов ехр
-ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827637"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147702"
 ---
 # <a name="stu3-interface-specification"></a>Характеристики интерфейса STU3
 
@@ -52,7 +52,7 @@ ms.locfileid: "41827637"
    1. Режиме
    2. Действует
    3. Ресурс: тип
-   4. Безопасность: [расширение URI OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Безопасность: [расширение URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. Фхирверсион (для нашего кода требуется, чтобы узнать, в какую версию следует поворачивать.)
 
 Дополнительные [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) сведения об этом множестве полей приведены в разделе.
@@ -96,18 +96,18 @@ ms.locfileid: "41827637"
 
     Запрос: POST <фхир-Server>/патиент/_search запроса: с указанным = Рус&Family = Black
     
-    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "META": {"Ластупдатед": "2019-01-14T23:44:45.052 + 00:00", "тип": ",", "всего", "ссылка": [{"отношение": "Self", "URL": <фхир-Server>/патиент/_search "}]," запись ". [{" Фуллурл ": <фхир-Server>/патиент/<пациент-ID>", "ресурс": {"resourceType": "Patient", "ИД": "<пациент-ID>", "META": {«versionId»: «1», «Ластупдатед»: «2017-10-18T18:32:37.000 + 00:00»}, «текст»: «создано», «div»: «<div>символ        <p>Рус Черное</p>символ      </div>"}," идентификатор ": [{" использование ":" обычное "," тип ": {" код ": [{" System ":http://hl7.org/fhir/v2/0203" "," Code ":" MR "," Display ":" номер медицинские записи "," усерселектед ": false}];" текст ":", "," "система":http://hospital.smarthealthit.org",", ",", ",", ",", "-", "," ","-",", ",": ["Рус", "C". 1234567
+    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "META": {"Ластупдатед": "2019-01-14T23:44:45.052 + 00:00", "тип": ",", "всего", "ссылка": [{"отношение": "Self", "URL": <фхир-Server>/патиент/_search "}]," запись ". [{" Фуллурл ": <фхир-Server>/патиент/<пациент-ID>", "ресурс": {"resourceType": "Patient", "ИД": "<пациент-ID>", "META": {«versionId»: «1», «Ластупдатед»: «2017-10-18T18:32:37.000 + 00:00»}, «текст»: «создано», «div»: «<div>символ        <p>Рус Черное</p>символ      </div>"}," идентификатор ": [{" использование ":" обычное "," тип ": {" код ": [{" System ":https://hl7.org/fhir/v2/0203" "," Code ":" MR "," Display ":" номер медицинские записи "," усерселектед ": false}];" текст ":", "," "система":http://hospital.smarthealthit.org",", ",", ",", ",", "-", "," ","-",", ",": ["Рус", "C". 1234567
     ]}], "телекоммуникационной": [{"система": "Телефон", "значение": "800-599-2739", "использовать": "Главная"}, "использовать": ",", 800-808-7785 ",", ",", ",", ",", ",", ",", ",", ",". женщина "," ДеньРождения ":" 1951-08-23 "," адрес ": [{" использование ":" Главная "," строка ": [" 26-Южный Рдапт 22 "]," город ":" Сапулпа "" состояние ":" ОК "," postalCode ":" 74066 "," страна ":" USA "}]}," Поиск ": {" Мода ":" Match "}}]}
 
 * * *
 
     Запрос: получение <фхир-Server>/патиент/<пациент-ID>
     
-    Response: {"resourceType": "пациент"; "идентификатор": <"Patient-ID>", "идентификатор": [{"использование": "обычно", "тип": {"программирование": [{"System": "http://hl7.org/fhir/v2/0203", "код": "MR",}], "текст": "номер медицинские записи"}, "имя": [{"использование": "официальный", "семья": "Адамова извлекла", "заданный": ["Дэниел", "X." 1234567 ]}], "пола": "папа", "ДеньРождения": "1925-12-23";}
+    Response: {"resourceType": "пациент"; "идентификатор": <"Patient-ID>", "идентификатор": [{"использование": "обычно", "тип": {"программирование": [{"System": "https://hl7.org/fhir/v2/0203", "код": "MR",}], "текст": "номер медицинские записи"}, "имя": [{"использование": "официальный", "семья": "Адамова извлекла", "заданный": ["Дэниел", "X." 1234567 ]}], "пола": "папа", "ДеньРождения": "1925-12-23";}
 
 * * *
 
-Дополнительные [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) сведения об этом множестве полей приведены в разделе.
+Дополнительные [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) сведения об этом множестве полей приведены в разделе.
 
 ## <a name="observation"></a>Наблюдение
 
@@ -134,7 +134,7 @@ ms.locfileid: "41827637"
 
     Запрос: GET <фхир-Server>/Обсерватион? пациент =<пациент-ID>&Категория = важнейшие знаки
     
-    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "тип": "тип поиска", "Итого": 20, "запись": [{"ресурс": {"ResourceType": "значение", "идентификатор": "<ресурсов-идентификаторы>"; "Категория": [{"System": ""http://hl7.org/fhir/observation-category, "" код ": {" программирование ": [{" System ":" "http://loinc.org;" код ":" 8867-4 "," Display ":" еффективедатетиме "}]}," "...": "2009-04-08T00 heart_rate: 00:00-06:00"; "валуекуантити": {"значение": 72,0, "Unit": "{ритм} минуту"; "System": "http://unitsofmeasure.org",}}}.
+    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "тип": "тип поиска", "Итого": 20, "запись": [{"ресурс": {"ResourceType": "значение", "идентификатор": "<ресурсов-идентификаторы>"; "Категория": [{"System": ""https://hl7.org/fhir/observation-category, "" код ": {" программирование ": [{" System ":" "http://loinc.org;" код ":" 8867-4 "," Display ":" еффективедатетиме "}]}," "...": "2009-04-08T00 heart_rate: 00:00-06:00"; "валуекуантити": {"значение": 72,0, "Unit": "{ритм} минуту"; "System": "http://unitsofmeasure.org",}}}.
         .
         .
       ] }
@@ -171,11 +171,11 @@ ms.locfileid: "41827637"
       ] }
 
 * * *
-Дополнительные [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) сведения об этом множестве полей приведены в разделе.
+Дополнительные [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) сведения об этом множестве полей приведены в разделе.
 
 ## <a name="encounter"></a>Происходит
 
-Это минимальные обязательные поля, которые являются подмножеством подмножества [основного профиля](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) , которое должно иметь "поля".
+Это минимальные обязательные поля, которые являются подмножеством подмножества [основного профиля](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) , которое должно иметь "поля".
 
 1. Состояни
 2. Введите [0]. Кодирование [0]. Показан
@@ -193,7 +193,7 @@ ms.locfileid: "41827637"
 
 Цель — получить Последнее известное расположение пациента. Каждый из этих обнаружений ссылается на ресурс расположения. Ссылка также должна включать поле отображения местоположения.
 
-Дополнительные [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) сведения об этом множестве полей приведены в разделе.
+Дополнительные [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) сведения об этом множестве полей приведены в разделе.
 
 ## <a name="allergyintolerance"></a>аллергинтолеранце
 
@@ -225,7 +225,7 @@ ms.locfileid: "41827637"
 
 * * *
 
-Дополнительные [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) сведения об этом множестве полей приведены в разделе.
+Дополнительные [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) сведения об этом множестве полей приведены в разделе.
 
 ## <a name="medication-request"></a>Запрос лечения
 
@@ -262,4 +262,4 @@ ms.locfileid: "41827637"
 
 1. Пациент = \<patient ID>
 
-Дополнительные [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) сведения об этом множестве полей приведены в разделе.
+Дополнительные [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) сведения об этом множестве полей приведены в разделе.

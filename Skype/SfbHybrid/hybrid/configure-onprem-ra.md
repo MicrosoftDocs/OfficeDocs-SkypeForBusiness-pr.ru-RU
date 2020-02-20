@@ -1,7 +1,7 @@
 ---
 title: Настройка учетной записи ресурса в Skype для бизнеса Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726779"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113262"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -28,7 +28,7 @@ ms.locfileid: "41726779"
 
 Если вы используете существующий автосекретарь единой системы обмена сообщениями Exchange и система очередей звонков, перед переключением на Exchange Server 2019 или Exchange Online необходимо вручную записать сведения, как описано ниже, а затем внедрить совершенно новую систему с помощью центра администрирования Teams .
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Если для автосекретаря телефонной системы или очереди вызовов потребуется номер службы, в следующей последовательности могут выполняться различные зависимости:
 
@@ -113,7 +113,7 @@ ms.locfileid: "41726779"
 7. Создание автосекретаря телефонной системы или очереди звонков. Выберите один из указанных ниже вариантов.
 
    - [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Создание очереди облачных звонков](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Создание облачной очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. Свяжите учетную запись ресурса с автосекретарем телефонной системы или выбранной ранее службой "очередь звонков".
 
@@ -145,7 +145,7 @@ ms.locfileid: "41726779"
 
 3. Создание автосекретаря телефонной системы или очереди звонков. Выберите один из указанных ниже вариантов.
    - [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Создание очереди облачных звонков](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Создание облачной очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Свяжите учетную запись ресурса и автосекретарь телефонной системы или выбранную ранее очередь звонков.
 
 Пример реализации для малого бизнеса в [малом бизнесе — Настройка автосекретаря](/microsoftteams/tutorial-org-aa) и [примера для малого бизнеса Настройка очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
@@ -193,7 +193,7 @@ ms.locfileid: "41726779"
 
 ## <a name="see-also"></a>См. также
 
-[Создание очереди облачных звонков](/MicrosoftTeams/create-a-phone-system-call-queue)
+[Создание облачной очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue)
 
 [Что такое автосекретаря для облака?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 

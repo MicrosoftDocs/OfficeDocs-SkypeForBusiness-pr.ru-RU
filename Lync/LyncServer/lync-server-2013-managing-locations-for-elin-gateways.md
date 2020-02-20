@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043091"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Управление расположениями для шлюзов ELIN в Lync Server 2013
 
@@ -103,17 +103,17 @@ _**Последнее изменение темы:** 2012-10-02_
 <tbody>
 <tr class="odd">
 <td><p>Первый этаж</p></td>
-<td><p>1 </p></td>
+<td><p>1,1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>Второй этаж</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>Третий этаж</p></td>
-<td><p>3 </p></td>
+<td><p>4</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ _**Последнее изменение темы:** 2012-10-02_
   - **Используется ли сторонняя база данных, которая уже содержит сопоставление местоположений?**  
     С помощью параметра службы дополнительных сведений о расположении Lync Server для подключения к сторонней базе данных можно группировать и управлять ими с помощью автономной платформы. Преимущество этого подхода заключается в том, что дополнительно к связыванию местоположений с идентификаторами сети можно связать местоположения с пользователями. Это означает, что служба сведений о местоположении может вернуть несколько адресов, исходящих из дополнительной службы сведений о расположении, в клиент Lync Server. Пользователь затем может выбрать наиболее подходящее местоположение.
     
-    Для интеграции со службой сведений о местонахождении третья база данных должна соответствовать схеме запроса и ответа расположения Lync Server. Дополнительные сведения см <http://go.microsoft.com/fwlink/p/?linkid=213819>. Дополнительные сведения о развертывании дополнительной службы сведений о расположении можно узнать [в статье Настройка дополнительной службы сведений о местоположении в Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) в документации по развертыванию.
+    Для интеграции со службой сведений о местонахождении третья база данных должна соответствовать схеме запроса и ответа расположения Lync Server. Дополнительные сведения см <https://go.microsoft.com/fwlink/p/?linkid=213819>. Дополнительные сведения о развертывании дополнительной службы сведений о расположении можно узнать [в статье Настройка дополнительной службы сведений о местоположении в Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) в документации по развертыванию.
 
 Сведения о заполнении базы данных местоположений приведены в статье [Настройка базы данных местоположений в Lync Server 2013](lync-server-2013-configure-the-location-database.md) в документации по развертыванию.
 

@@ -1,7 +1,7 @@
 ---
 title: Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
-ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: efa3b8d046a9f095b6b165de134763b263b68156
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827737"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153801"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
 
@@ -62,7 +62,7 @@ ms.locfileid: "41827737"
 
   *Пример использования:* София Краусе — реадмиттинг пациента высокого риска, Жакоб рос. Мануела Карстенс, врача, — основной объект для этого пациента.  София отправляет сообщение в Мануела с помощью уведомления о приоритете, которое запрашивает немедленное получение помощи в рассмотрении Жакоб.  Телефон Мануела получает сообщение, но Мануела не выделили вибрации и не отвечает. Команды повторно уведомляют Мануела и продолжат повторно уведомлять, пока она не прочитает сообщение. Если включены уведомления о прочтении, София может помнить о том, что сообщение было прочитано с помощью Мануела, даже перед тем, как Мануела решает ответить.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление политиками обмена сообщениями в Teams](../../messaging-policies-in-teams.md)
 - [Начало работы с Teams для организаций в сфере здравоохранения](teams-in-hc.md)
