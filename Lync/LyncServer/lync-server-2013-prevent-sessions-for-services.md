@@ -12,20 +12,20 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155e9cab3eb21416230253926f77eb70ea4d5494
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b2328e7651c7841cd200bb8e3b78448dfc75e98
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049671"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services-in-lync-server-2013"></a><span data-ttu-id="97205-102">Предотвращение сеансов для служб в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="97205-102">Prevent sessions for services in Lync Server 2013</span></span>
+# <a name="prevent-sessions-for-services-in-lync-server-2013"></a><span data-ttu-id="09d15-102">Предотвращение сеансов для служб в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09d15-102">Prevent sessions for services in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "42049671"
 
 <span> </span>
 
-<span data-ttu-id="97205-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="97205-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="09d15-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="09d15-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="97205-104">Вы можете использовать панель управления Lync Server, чтобы запретить новые сеансы для всех служб Lync Server 2013, работающих на определенном компьютере, или запретить новые сеансы для конкретной службы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="97205-104">You can use Lync Server Control Panel to prevent new sessions for all the Lync Server 2013 services running on a specific computer or to prevent new sessions for a specific Lync Server 2013 service.</span></span>
+<span data-ttu-id="09d15-104">Вы можете использовать панель управления Lync Server, чтобы запретить новые сеансы для всех служб Lync Server 2013, работающих на определенном компьютере, или запретить новые сеансы для конкретной службы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="09d15-104">You can use Lync Server Control Panel to prevent new sessions for all the Lync Server 2013 services running on a specific computer or to prevent new sessions for a specific Lync Server 2013 service.</span></span>
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a><span data-ttu-id="97205-105">Запрет новых сеансов для всех служб Lync Server на компьютере</span><span class="sxs-lookup"><span data-stu-id="97205-105">To prevent new sessions for all Lync Server services on a computer</span></span>
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a><span data-ttu-id="09d15-105">Запрет новых сеансов для всех служб Lync Server на компьютере</span><span class="sxs-lookup"><span data-stu-id="09d15-105">To prevent new sessions for all Lync Server services on a computer</span></span>
 
-1.  <span data-ttu-id="97205-106">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="97205-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="09d15-106">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="09d15-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="97205-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="97205-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="97205-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="97205-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="09d15-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="09d15-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09d15-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="09d15-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="97205-109">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="97205-109">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="09d15-109">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="09d15-109">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="97205-110">На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.</span><span class="sxs-lookup"><span data-stu-id="97205-110">On the **Status** page, sort or search through the list as needed to find the computer that is running the services for which you want to prevent new sessions, and then click it.</span></span>
+4.  <span data-ttu-id="09d15-110">На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.</span><span class="sxs-lookup"><span data-stu-id="09d15-110">On the **Status** page, sort or search through the list as needed to find the computer that is running the services for which you want to prevent new sessions, and then click it.</span></span>
 
-5.  <span data-ttu-id="97205-111">Щелкните элемент **Action** (Действие).</span><span class="sxs-lookup"><span data-stu-id="97205-111">Click **Action**.</span></span>
+5.  <span data-ttu-id="09d15-111">Щелкните элемент **Action** (Действие).</span><span class="sxs-lookup"><span data-stu-id="09d15-111">Click **Action**.</span></span>
 
-6.  <span data-ttu-id="97205-112">Щелкните **Запретить новые сеансы для всех служб**.</span><span class="sxs-lookup"><span data-stu-id="97205-112">Click **Prevent new sessions for all services**.</span></span>
+6.  <span data-ttu-id="09d15-112">Щелкните **Запретить новые сеансы для всех служб**.</span><span class="sxs-lookup"><span data-stu-id="09d15-112">Click **Prevent new sessions for all services**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-a-specific-service"></a><span data-ttu-id="97205-113">Запрет новых сеансов для определенной службы</span><span class="sxs-lookup"><span data-stu-id="97205-113">To prevent new sessions for a specific service</span></span>
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a><span data-ttu-id="09d15-113">Запрет новых сеансов для определенной службы</span><span class="sxs-lookup"><span data-stu-id="09d15-113">To prevent new sessions for a specific service</span></span>
 
-1.  <span data-ttu-id="97205-114">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="97205-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="09d15-114">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="09d15-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="97205-115">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="97205-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="97205-116">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="97205-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="09d15-115">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="09d15-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09d15-116">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="09d15-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="97205-117">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="97205-117">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="09d15-117">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="09d15-117">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="97205-118">На странице **Status** (Состояние) отсортируйте список или выполните по нему поиск, чтобы найти компьютер с требуемыми службами, а затем щелкните его.</span><span class="sxs-lookup"><span data-stu-id="97205-118">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
+4.  <span data-ttu-id="09d15-118">На странице **Status** (Состояние) отсортируйте список или выполните по нему поиск, чтобы найти компьютер с требуемыми службами, а затем щелкните его.</span><span class="sxs-lookup"><span data-stu-id="09d15-118">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
 
-5.  <span data-ttu-id="97205-119">Нажмите кнопку **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="97205-119">Click **Properties**.</span></span>
+5.  <span data-ttu-id="09d15-119">Нажмите кнопку **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="09d15-119">Click **Properties**.</span></span>
 
-6.  <span data-ttu-id="97205-120">Отсортируйте список служб, если это необходимо, и щелкните службу, для которой вы хотите запретить новые сеансы.</span><span class="sxs-lookup"><span data-stu-id="97205-120">Sort the list of services, if necessary, and click the service for which you want to prevent new sessions.</span></span>
+6.  <span data-ttu-id="09d15-120">Отсортируйте список служб, если это необходимо, и щелкните службу, для которой вы хотите запретить новые сеансы.</span><span class="sxs-lookup"><span data-stu-id="09d15-120">Sort the list of services, if necessary, and click the service for which you want to prevent new sessions.</span></span>
 
-7.  <span data-ttu-id="97205-121">Щелкните **Действие**.</span><span class="sxs-lookup"><span data-stu-id="97205-121">Click **Action**.</span></span>
+7.  <span data-ttu-id="09d15-121">Щелкните **Действие**.</span><span class="sxs-lookup"><span data-stu-id="09d15-121">Click **Action**.</span></span>
 
-8.  <span data-ttu-id="97205-122">Щелкните **Запретить новые сеансы для службы**.</span><span class="sxs-lookup"><span data-stu-id="97205-122">Click **Prevent new sessions for service**.</span></span>
+8.  <span data-ttu-id="09d15-122">Щелкните **Запретить новые сеансы для службы**.</span><span class="sxs-lookup"><span data-stu-id="09d15-122">Click **Prevent new sessions for service**.</span></span>
 
-9.  <span data-ttu-id="97205-123">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="97205-123">Click **Close**.</span></span>
+9.  <span data-ttu-id="09d15-123">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="09d15-123">Click **Close**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="97205-124">См. также</span><span class="sxs-lookup"><span data-stu-id="97205-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09d15-124">См. также</span><span class="sxs-lookup"><span data-stu-id="09d15-124">See Also</span></span>
 
 
-[<span data-ttu-id="97205-125">Управление топологией Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="97205-125">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+[<span data-ttu-id="09d15-125">Управление топологией Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09d15-125">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c0957d66d9b877a67819b8fd8d46d4e614cdad
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 72d059cc32015409377ab0b12bbe8c3ebc7da7d3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034059"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="1c8cd-102">Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c8cd-102">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="9104b-102">Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9104b-102">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42034059"
 
 <span> </span>
 
-<span data-ttu-id="1c8cd-103">_**Последнее изменение темы:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="1c8cd-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="9104b-103">_**Последнее изменение темы:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="9104b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="1c8cd-104">Требования к портам брандмауэра для пула директоров состоят из портов, которые используются для установления связи с директором от внутреннего интерфейса пограничного сервера или внутреннего интерфейса обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-104">Firewall port requirements for a Director pool consist of the ports that are used to establish communication with the Director from the internal interface of the Edge Server or internal-facing interface of the reverse proxy.</span></span> <span data-ttu-id="1c8cd-105">По умолчанию Microsoft Lync Server 2013 ожидает, что порты HTTP/TCP 8080 и HTTPS/TCP 4443 открываются из обратного прокси-сервера в директоре, а также интерфейсный пул и сервер переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="1c8cd-106">Кроме того, должен быть обмен данными по протоколу SIP от внутреннего интерфейса пограничного сервера к директоре и к интерфейсному пулу и серверу переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="1c8cd-107">Протокол SIP использует SIP/MTLS/TCP 5061 с пограничного сервера в интерфейсный пул и сервер переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="1c8cd-108">Необходимо также создать правило, разрешающее передачу данных по протоколу SIP/MTLS/TCP 5061 из директора, интерфейсного пула и сервера переднего плана в внутренний интерфейс пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+<span data-ttu-id="9104b-104">Требования к портам брандмауэра для пула директоров состоят из портов, которые используются для установления связи с директором от внутреннего интерфейса пограничного сервера или внутреннего интерфейса обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="9104b-104">Firewall port requirements for a Director pool consist of the ports that are used to establish communication with the Director from the internal interface of the Edge Server or internal-facing interface of the reverse proxy.</span></span> <span data-ttu-id="9104b-105">По умолчанию Microsoft Lync Server 2013 ожидает, что порты HTTP/TCP 8080 и HTTPS/TCP 4443 открываются из обратного прокси-сервера в директоре, а также интерфейсный пул и сервер переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="9104b-106">Кроме того, должен быть обмен данными по протоколу SIP от внутреннего интерфейса пограничного сервера к директоре и к интерфейсному пулу и серверу переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="9104b-107">Протокол SIP использует SIP/MTLS/TCP 5061 с пограничного сервера в интерфейсный пул и сервер переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="9104b-108">Необходимо также создать правило, разрешающее передачу данных по протоколу SIP/MTLS/TCP 5061 из директора, интерфейсного пула и сервера переднего плана в внутренний интерфейс пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="9104b-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
 
-### <a name="director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="1c8cd-109">Порты и протоколы Директора для определений брандмауэра</span><span class="sxs-lookup"><span data-stu-id="1c8cd-109">Director Ports and Protocols for Firewall Definitions</span></span>
+### <a name="director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="9104b-109">Порты и протоколы Директора для определений брандмауэра</span><span class="sxs-lookup"><span data-stu-id="9104b-109">Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -50,66 +50,66 @@ ms.locfileid: "42034059"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1c8cd-110">Роль/протокол/TCP или UDP/порт</span><span class="sxs-lookup"><span data-stu-id="1c8cd-110">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="1c8cd-111">Исходный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="1c8cd-111">Source IP address</span></span></th>
-<th><span data-ttu-id="1c8cd-112">Конечный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="1c8cd-112">Destination IP address</span></span></th>
-<th><span data-ttu-id="1c8cd-113">Notes</span><span class="sxs-lookup"><span data-stu-id="1c8cd-113">Notes</span></span></th>
+<th><span data-ttu-id="9104b-110">Роль/протокол/TCP или UDP/порт</span><span class="sxs-lookup"><span data-stu-id="9104b-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="9104b-111">Исходный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="9104b-111">Source IP address</span></span></th>
+<th><span data-ttu-id="9104b-112">Конечный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="9104b-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="9104b-113">Notes</span><span class="sxs-lookup"><span data-stu-id="9104b-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1c8cd-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="1c8cd-114">HTTP/TCP 8080</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-115">Внутренний интерфейс обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="1c8cd-115">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-116">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="1c8cd-116">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-117">По умолчанию полученная внешняя сторона обратного прокси-сервера передается на директор HLB VIP и серверы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
+<td><p><span data-ttu-id="9104b-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="9104b-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="9104b-115">Внутренний интерфейс обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="9104b-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="9104b-116">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="9104b-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="9104b-117">По умолчанию полученная внешняя сторона обратного прокси-сервера передается на директор HLB VIP и серверы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c8cd-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="1c8cd-118">HTTPS/TCP 4443</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-119">Внутренний интерфейс обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="1c8cd-119">Reverse proxy internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-120">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="1c8cd-120">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-121">По умолчанию полученная внешняя сторона обратного прокси-сервера передается на директор HLB VIP и серверы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
+<td><p><span data-ttu-id="9104b-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="9104b-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="9104b-119">Внутренний интерфейс обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="9104b-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="9104b-120">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="9104b-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="9104b-121">По умолчанию полученная внешняя сторона обратного прокси-сервера передается на директор HLB VIP и серверы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Servers web services</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c8cd-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="1c8cd-122">HTTPS/TCP 444</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-123">Режиссер</span><span class="sxs-lookup"><span data-stu-id="1c8cd-123">Director</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-124">Сервер переднего плана или интерфейсный пул</span><span class="sxs-lookup"><span data-stu-id="1c8cd-124">Front End Server or Front End pool</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-125">Межсерверное взаимодействие между директором HLB VIP и серверами переднего плана</span><span class="sxs-lookup"><span data-stu-id="1c8cd-125">Inter-server communication between the Director HLB VIP and the Front End Servers</span></span></p></td>
+<td><p><span data-ttu-id="9104b-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="9104b-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="9104b-123">Режиссер</span><span class="sxs-lookup"><span data-stu-id="9104b-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="9104b-124">Сервер переднего плана или интерфейсный пул</span><span class="sxs-lookup"><span data-stu-id="9104b-124">Front End Server or Front End pool</span></span></p></td>
+<td><p><span data-ttu-id="9104b-125">Межсерверное взаимодействие между директором HLB VIP и серверами переднего плана</span><span class="sxs-lookup"><span data-stu-id="9104b-125">Inter-server communication between the Director HLB VIP and the Front End Servers</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c8cd-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="1c8cd-126">HTTP/TCP 80</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-127">Внутренние клиенты</span><span class="sxs-lookup"><span data-stu-id="1c8cd-127">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-128">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="1c8cd-128">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-129">Директор предоставляет веб-службы внутренним и внешним клиентам.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="9104b-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="9104b-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="9104b-127">Внутренние клиенты</span><span class="sxs-lookup"><span data-stu-id="9104b-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="9104b-128">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="9104b-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="9104b-129">Директор предоставляет веб-службы внутренним и внешним клиентам.</span><span class="sxs-lookup"><span data-stu-id="9104b-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c8cd-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="1c8cd-130">HTTPS/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-131">Внутренние клиенты</span><span class="sxs-lookup"><span data-stu-id="1c8cd-131">Internal Clients</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-132">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="1c8cd-132">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-133">Директор предоставляет веб-службы внутренним и внешним клиентам.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
+<td><p><span data-ttu-id="9104b-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="9104b-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="9104b-131">Внутренние клиенты</span><span class="sxs-lookup"><span data-stu-id="9104b-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="9104b-132">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="9104b-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="9104b-133">Директор предоставляет веб-службы внутренним и внешним клиентам.</span><span class="sxs-lookup"><span data-stu-id="9104b-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c8cd-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="1c8cd-134">SIP/MTLS/TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-135">Внутренний интерфейс пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="1c8cd-135">Edge Server internal interface</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-136">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="1c8cd-136">Director Hardware Load Balancer VIP</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-137">Обмен данными SIP от пограничного сервера к директоре и серверам переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1c8cd-137">SIP communication from the Edge Server to the Director, and Front End Servers.</span></span></p></td>
+<td><p><span data-ttu-id="9104b-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="9104b-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="9104b-135">Внутренний интерфейс пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="9104b-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="9104b-136">Виртуальный IP-адрес подсистемы балансировки нагрузки для директоров</span><span class="sxs-lookup"><span data-stu-id="9104b-136">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="9104b-137">Обмен данными SIP от пограничного сервера к директоре и серверам переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9104b-137">SIP communication from the Edge Server to the Director, and Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c8cd-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="1c8cd-138">MTLS/TCP/50001</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-139">Любые</span><span class="sxs-lookup"><span data-stu-id="1c8cd-139">Any</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-140">Режиссер</span><span class="sxs-lookup"><span data-stu-id="1c8cd-140">Director</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-141">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="1c8cd-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="9104b-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="9104b-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="9104b-139">Любые</span><span class="sxs-lookup"><span data-stu-id="9104b-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="9104b-140">Режиссер</span><span class="sxs-lookup"><span data-stu-id="9104b-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="9104b-141">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="9104b-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1c8cd-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="1c8cd-142">MTLS/TCP/50002</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-143">Любые</span><span class="sxs-lookup"><span data-stu-id="1c8cd-143">Any</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-144">Режиссер</span><span class="sxs-lookup"><span data-stu-id="1c8cd-144">Director</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-145">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="1c8cd-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="9104b-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="9104b-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="9104b-143">Любые</span><span class="sxs-lookup"><span data-stu-id="9104b-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="9104b-144">Режиссер</span><span class="sxs-lookup"><span data-stu-id="9104b-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="9104b-145">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="9104b-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1c8cd-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="1c8cd-146">MTLS/TCP/50003</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-147">Любые</span><span class="sxs-lookup"><span data-stu-id="1c8cd-147">Any</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-148">Режиссер</span><span class="sxs-lookup"><span data-stu-id="1c8cd-148">Director</span></span></p></td>
-<td><p><span data-ttu-id="1c8cd-149">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="1c8cd-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
+<td><p><span data-ttu-id="9104b-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="9104b-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="9104b-147">Любые</span><span class="sxs-lookup"><span data-stu-id="9104b-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="9104b-148">Режиссер</span><span class="sxs-lookup"><span data-stu-id="9104b-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="9104b-149">Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</span><span class="sxs-lookup"><span data-stu-id="9104b-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>

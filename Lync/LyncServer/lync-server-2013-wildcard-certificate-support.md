@@ -12,20 +12,20 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18b1313432cac09f03cd414b90d9a068f271edef
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9d48ba92ffd18e385be95d6218357303a67f892c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041208"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="5bf44-102">Поддержка сертификатов с подстановочными знаками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-102">Wildcard certificate support in Lync Server 2013</span></span>
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a><span data-ttu-id="ad76f-102">Поддержка сертификатов с подстановочными знаками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-102">Wildcard certificate support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,77 +35,77 @@ ms.locfileid: "42041208"
 
 <span> </span>
 
-<span data-ttu-id="5bf44-103">_**Последнее изменение темы:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="5bf44-103">_**Topic Last Modified:** 2013-03-21_</span></span>
+<span data-ttu-id="ad76f-103">_**Последнее изменение темы:** 2013-03-21_</span><span class="sxs-lookup"><span data-stu-id="ad76f-103">_**Topic Last Modified:** 2013-03-21_</span></span>
 
-<span data-ttu-id="5bf44-104">Lync Server 2013 использует сертификаты для обеспечения шифрования связи и проверки подлинности сервера удостоверений.</span><span class="sxs-lookup"><span data-stu-id="5bf44-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="5bf44-105">В некоторых ситуациях, таких как веб-публикация через обратный прокси-сервер, строгое соответствие записи альтернативного имени субъекта с полным доменным именем сервера, представляющего службу, не требуется.</span><span class="sxs-lookup"><span data-stu-id="5bf44-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="5bf44-106">В этом случае вы можете использовать сертификаты с записями альтернативного имени субъекта с подстановочными знаками (более известные как «групповые сертификаты»), чтобы сократить стоимость сертификата, запрашиваемого из общего центра сертификации и снизить сложность процесса планирования для сертификатов.</span><span class="sxs-lookup"><span data-stu-id="5bf44-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
+<span data-ttu-id="ad76f-104">Lync Server 2013 использует сертификаты для обеспечения шифрования связи и проверки подлинности сервера удостоверений.</span><span class="sxs-lookup"><span data-stu-id="ad76f-104">Lync Server 2013 uses certificates to provide communications encryption and server identity authentication.</span></span> <span data-ttu-id="ad76f-105">В некоторых ситуациях, таких как веб-публикация через обратный прокси-сервер, строгое соответствие записи альтернативного имени субъекта с полным доменным именем сервера, представляющего службу, не требуется.</span><span class="sxs-lookup"><span data-stu-id="ad76f-105">In some cases, such as web publishing through the reverse proxy, strong subject alternative name (SAN) entry matching to the fully qualified domain name (FQDN) of the server presenting the service is not required.</span></span> <span data-ttu-id="ad76f-106">В этом случае вы можете использовать сертификаты с записями альтернативного имени субъекта с подстановочными знаками (более известные как «групповые сертификаты»), чтобы сократить стоимость сертификата, запрашиваемого из общего центра сертификации и снизить сложность процесса планирования для сертификатов.</span><span class="sxs-lookup"><span data-stu-id="ad76f-106">In these cases, you can use certificates with wildcard SAN entries (commonly known as “wildcard certificates”) to reduce the cost of a certificate requested from a public certification authority and to reduce the complexity of the planning process for certificates.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="5bf44-107">Чтобы сохранить функциональные возможности устройств объединенных коммуникаций (например, стационарного телефона), вам следует тщательно протестировать развернутый сертификат и убедиться, что после применения группового сертификата все устройства работаю правильно.</span><span class="sxs-lookup"><span data-stu-id="5bf44-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
+> <span data-ttu-id="ad76f-107">Чтобы сохранить функциональные возможности устройств объединенных коммуникаций (например, стационарного телефона), вам следует тщательно протестировать развернутый сертификат и убедиться, что после применения группового сертификата все устройства работаю правильно.</span><span class="sxs-lookup"><span data-stu-id="ad76f-107">To retain the functionality of unified communications (UC) devices (for example, desk phones), you should test the deployed certificate carefully to ensure that devices function properly after you implement a wildcard certificate.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5bf44-p102">Ни для одной из ролей нет поддержки записи с подстановочными знаками в качестве имени субъекта (которое также называется общим именем). При использовании записей с подстановочными знаками в альтернативном имени субъекта поддерживаются следующие роли сервера:</span><span class="sxs-lookup"><span data-stu-id="5bf44-p102">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role. The following server roles are supported when using wildcard entries in the SAN:</span></span>
+<span data-ttu-id="ad76f-p102">Ни для одной из ролей нет поддержки записи с подстановочными знаками в качестве имени субъекта (которое также называется общим именем). При использовании записей с подстановочными знаками в альтернативном имени субъекта поддерживаются следующие роли сервера:</span><span class="sxs-lookup"><span data-stu-id="ad76f-p102">There is no support for a wildcard entry as the subject name (also referred to as the common name or CN) for any role. The following server roles are supported when using wildcard entries in the SAN:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-110">**Обратный прокси-сервер.**    Для сертификата публикации простого URL-адреса (сопоставления и дозвона) поддерживается запись с подстановочными знаками сети.</span><span class="sxs-lookup"><span data-stu-id="5bf44-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
+    <span data-ttu-id="ad76f-110">**Обратный прокси-сервер.**    Для сертификата публикации простого URL-адреса (сопоставления и дозвона) поддерживается запись с подстановочными знаками сети.</span><span class="sxs-lookup"><span data-stu-id="ad76f-110">**Reverse proxy.**   Wildcard SAN entry is supported for Simple URL (meet and dialin) publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-111">**Обратный прокси-сервер.**    Запись с подстановочными знаками в сети хранения данных поддерживается для записей San для LyncDiscover в сертификате публикации.</span><span class="sxs-lookup"><span data-stu-id="5bf44-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
+    <span data-ttu-id="ad76f-111">**Обратный прокси-сервер.**    Запись с подстановочными знаками в сети хранения данных поддерживается для записей San для LyncDiscover в сертификате публикации.</span><span class="sxs-lookup"><span data-stu-id="ad76f-111">**Reverse proxy.**   Wildcard SAN entry is supported for the SAN entries for LyncDiscover on the publishing certificate.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-112">**Директор.**    Запись с подстановочными знаками поддерживается для простых URL-адресов (для входящих и исходящих звонков) и для записей сети SAN для LyncDiscover и LyncDiscoverInternal в веб-компонентах Director.</span><span class="sxs-lookup"><span data-stu-id="5bf44-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
+    <span data-ttu-id="ad76f-112">**Директор.**    Запись с подстановочными знаками поддерживается для простых URL-адресов (для входящих и исходящих звонков) и для записей сети SAN для LyncDiscover и LyncDiscoverInternal в веб-компонентах Director.</span><span class="sxs-lookup"><span data-stu-id="ad76f-112">**Director.**   Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Director web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-113">**Сервер переднего плана (Standard Edition) и пул переднего плана (корпоративный выпуск).**</span><span class="sxs-lookup"><span data-stu-id="5bf44-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="5bf44-114">Подстановочные знаки в сети хранения данных поддерживаются для простых URL-адресов (для входящих и исходящих звонков) и для записей сети SAN для LyncDiscover и LyncDiscoverInternal в интерфейсных веб-компонентах.</span><span class="sxs-lookup"><span data-stu-id="5bf44-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
+    <span data-ttu-id="ad76f-113">**Сервер переднего плана (Standard Edition) и пул переднего плана (корпоративный выпуск).**</span><span class="sxs-lookup"><span data-stu-id="ad76f-113">**Front End Server (Standard Edition) and Front End pool (Enterprise Edition).**</span></span> <span data-ttu-id="ad76f-114">Подстановочные знаки в сети хранения данных поддерживаются для простых URL-адресов (для входящих и исходящих звонков) и для записей сети SAN для LyncDiscover и LyncDiscoverInternal в интерфейсных веб-компонентах.</span><span class="sxs-lookup"><span data-stu-id="ad76f-114">Wildcard SAN entry is supported for Simple URLs (meet and dialin) and for SAN entries for LyncDiscover and LyncDiscoverInternal in Front End web components.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-115">**Единая система обмена сообщениями Exchange.**    Сервер не использует записи San при развертывании в качестве изолированного сервера.</span><span class="sxs-lookup"><span data-stu-id="5bf44-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
+    <span data-ttu-id="ad76f-115">**Единая система обмена сообщениями Exchange.**    Сервер не использует записи San при развертывании в качестве изолированного сервера.</span><span class="sxs-lookup"><span data-stu-id="ad76f-115">**Exchange Unified Messaging (UM).**   The server does not use SAN entries when deployed as a stand-alone server.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-116">**Сервер клиентского доступа Microsoft Exchange Server.**    Записи с подстановочными знаками в San поддерживаются для внутренних и внешних клиентов.</span><span class="sxs-lookup"><span data-stu-id="5bf44-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
+    <span data-ttu-id="ad76f-116">**Сервер клиентского доступа Microsoft Exchange Server.**    Записи с подстановочными знаками в San поддерживаются для внутренних и внешних клиентов.</span><span class="sxs-lookup"><span data-stu-id="ad76f-116">**Microsoft Exchange Server Client Access server.**   Wildcard entries in the SAN are supported for internal and external clients.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5bf44-117">**Единая система обмена сообщениями Exchange и сервер клиентского доступа Microsoft Exchange Server на одном и том же сервере.**    Поддерживаются подстановочные записи в сети хранения данных.</span><span class="sxs-lookup"><span data-stu-id="5bf44-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
+    <span data-ttu-id="ad76f-117">**Единая система обмена сообщениями Exchange и сервер клиентского доступа Microsoft Exchange Server на одном и том же сервере.**    Поддерживаются подстановочные записи в сети хранения данных.</span><span class="sxs-lookup"><span data-stu-id="ad76f-117">**Exchange Unified Messaging (UM) and Microsoft Exchange Server Client Access server on same server.**   Wildcard SAN entries are supported.</span></span>
 
-<span data-ttu-id="5bf44-118">Роли сервера, которые не рассматриваются в данном разделе:</span><span class="sxs-lookup"><span data-stu-id="5bf44-118">Server roles that are not addressed in this topic:</span></span>
+<span data-ttu-id="ad76f-118">Роли сервера, которые не рассматриваются в данном разделе:</span><span class="sxs-lookup"><span data-stu-id="ad76f-118">Server roles that are not addressed in this topic:</span></span>
 
-  - <span data-ttu-id="5bf44-119">Внутренние роли сервера (в том числе сервер-посредник, сервер архивации и мониторинга, устройство для обеспечения связи в филиалах, а также сервер для обеспечения связи в филиалах)</span><span class="sxs-lookup"><span data-stu-id="5bf44-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
+  - <span data-ttu-id="ad76f-119">Внутренние роли сервера (в том числе сервер-посредник, сервер архивации и мониторинга, устройство для обеспечения связи в филиалах, а также сервер для обеспечения связи в филиалах)</span><span class="sxs-lookup"><span data-stu-id="ad76f-119">Internal server roles (including, but not limited to the Mediation Server, Archiving and Monitoring Server, Survivable Branch Appliance, or Survivable Branch Server)</span></span>
 
-  - <span data-ttu-id="5bf44-120">Интерфейсы внешних пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="5bf44-120">External Edge Server interfaces</span></span>
+  - <span data-ttu-id="ad76f-120">Интерфейсы внешних пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="ad76f-120">External Edge Server interfaces</span></span>
 
-  - <span data-ttu-id="5bf44-121">Внутренний пограничный сервер</span><span class="sxs-lookup"><span data-stu-id="5bf44-121">Internal Edge Server</span></span>
+  - <span data-ttu-id="ad76f-121">Внутренний пограничный сервер</span><span class="sxs-lookup"><span data-stu-id="ad76f-121">Internal Edge Server</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="5bf44-122">Для внутреннего интерфейса пограничного сервера для сети хранения данных можно назначить подстановочный знак, который поддерживается.</span><span class="sxs-lookup"><span data-stu-id="5bf44-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="5bf44-123">Сеть хранения данных на внутреннем пограничном сервере не запрашивается, а для записи с подстановочными знаками в сети хранения данных используется ограниченное значение.</span><span class="sxs-lookup"><span data-stu-id="5bf44-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
+    > <span data-ttu-id="ad76f-122">Для внутреннего интерфейса пограничного сервера для сети хранения данных можно назначить подстановочный знак, который поддерживается.</span><span class="sxs-lookup"><span data-stu-id="ad76f-122">For the internal Edge Server interface, a wildcard entry can be assigned to the SAN, and is supported.</span></span> <span data-ttu-id="ad76f-123">Сеть хранения данных на внутреннем пограничном сервере не запрашивается, а для записи с подстановочными знаками в сети хранения данных используется ограниченное значение.</span><span class="sxs-lookup"><span data-stu-id="ad76f-123">The SAN on the internal Edge Server is not queried, and a wildcard SAN entry is of limited value.</span></span>
 
     
     </div>
 
-<span data-ttu-id="5bf44-124">Дополнительные сведения о конфигурациях сертификатов, включая использование подстановочных знаков в сертификатах, см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="5bf44-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
+<span data-ttu-id="ad76f-124">Дополнительные сведения о конфигурациях сертификатов, включая использование подстановочных знаков в сертификатах, см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="ad76f-124">For details about certificate configurations, including the use of wildcards in certificates, see the following topics:</span></span>
 
-  - [<span data-ttu-id="5bf44-125">Требования к сертификатам для внутренних серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [<span data-ttu-id="ad76f-125">Требования к сертификатам для внутренних серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-125">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [<span data-ttu-id="5bf44-126">Требования к сертификатам для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [<span data-ttu-id="ad76f-126">Требования к сертификатам для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-126">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [<span data-ttu-id="5bf44-127">Сводка по сертификатам: Балансировка нагрузки на DNS и HLB в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [<span data-ttu-id="ad76f-127">Сводка по сертификатам: Балансировка нагрузки на DNS и HLB в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-127">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [<span data-ttu-id="5bf44-128">Сводка по сертификатам — единственный директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
+  - [<span data-ttu-id="ad76f-128">Сводка по сертификатам — единственный директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-128">Certificate summary - Single Director in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-director.md)
 
-  - [<span data-ttu-id="5bf44-129">Сводка по сертификатам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="ad76f-129">Сводка по сертификатам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-129">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="5bf44-130">Сводка по сертификатам — обратный прокси-сервер в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
+  - [<span data-ttu-id="ad76f-130">Сводка по сертификатам — обратный прокси-сервер в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-130">Certificate summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-reverse-proxy.md)
 
-  - [<span data-ttu-id="5bf44-131">Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bf44-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="ad76f-131">Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad76f-131">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-<span data-ttu-id="5bf44-132">Для получения дополнительных сведений о настройке сертификатов для Exchange, в том числе об использовании подстановочных знаков, обратитесь к документации по продукту Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="5bf44-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
+<span data-ttu-id="ad76f-132">Для получения дополнительных сведений о настройке сертификатов для Exchange, в том числе об использовании подстановочных знаков, обратитесь к документации по продукту Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ad76f-132">For details about configuring certificates for Exchange, including the use of wildcards, see the Exchange 2013 product documentation.</span></span>
 
 </div>
 

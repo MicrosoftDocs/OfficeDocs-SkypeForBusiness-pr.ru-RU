@@ -12,20 +12,20 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5b4c69fdf4b7dbad79f4b9c2627e74ea855cd02
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82664129cf7eae8b0155fc07b921896203376d4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035925"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="84c0e-102">Изменение магистрали в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="84c0e-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="d0227-102">Изменение магистрали в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0227-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42035925"
 
 <span> </span>
 
-<span data-ttu-id="84c0e-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="84c0e-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="d0227-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d0227-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="84c0e-104">Выполните следующие действия, чтобы изменить альтернативный IP-адрес посредника и альтернативный идентификатор обхода магистрали.</span><span class="sxs-lookup"><span data-stu-id="84c0e-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
+<span data-ttu-id="d0227-104">Выполните следующие действия, чтобы изменить альтернативный IP-адрес посредника и альтернативный идентификатор обхода магистрали.</span><span class="sxs-lookup"><span data-stu-id="d0227-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="84c0e-105">Изменение альтернативного IP-адреса посредника магистрали</span><span class="sxs-lookup"><span data-stu-id="84c0e-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="d0227-105">Изменение альтернативного IP-адреса посредника магистрали</span><span class="sxs-lookup"><span data-stu-id="d0227-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
 
-1.  <span data-ttu-id="84c0e-106">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="84c0e-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d0227-106">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d0227-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="84c0e-107">Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="84c0e-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="d0227-107">Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d0227-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -53,11 +53,11 @@ ms.locfileid: "42035925"
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="84c0e-108">Изменение альтернативного BypassID посредника магистрали</span><span class="sxs-lookup"><span data-stu-id="84c0e-108">To Modify the Alternate BypassID of a Trunk</span></span>
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="d0227-108">Изменение альтернативного BypassID посредника магистрали</span><span class="sxs-lookup"><span data-stu-id="d0227-108">To Modify the Alternate BypassID of a Trunk</span></span>
 
-1.  <span data-ttu-id="84c0e-109">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="84c0e-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="d0227-109">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d0227-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="84c0e-110">Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="84c0e-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="d0227-110">Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d0227-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

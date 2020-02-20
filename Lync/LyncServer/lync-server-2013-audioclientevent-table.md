@@ -12,20 +12,20 @@ ms:contentKeyID: 48185967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53f43bdae2fd134e851c93be958aa671657489e1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0f0d37de40340a66e6d87365ce40924f6c6d98f0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044601"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audioclientevent-table-in-lync-server-2013"></a><span data-ttu-id="b7f48-102">Таблица Таблица audioclientevent в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7f48-102">AudioClientEvent table in Lync Server 2013</span></span>
+# <a name="audioclientevent-table-in-lync-server-2013"></a><span data-ttu-id="328aa-102">Таблица Таблица audioclientevent в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="328aa-102">AudioClientEvent table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42044601"
 
 <span> </span>
 
-<span data-ttu-id="b7f48-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="b7f48-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="328aa-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="328aa-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="b7f48-104">Каждая запись содержит клиентское событие для одной конечной точки в голосовой вызове.</span><span class="sxs-lookup"><span data-stu-id="b7f48-104">Each record contains a client event for one endpoint in an audio call.</span></span> <span data-ttu-id="b7f48-105">Как правило, один вызов состоит из двух записей, один для вызывающего абонента и один для вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="b7f48-105">Usually, one call has two records, one for caller and one for callee.</span></span>
+<span data-ttu-id="328aa-104">Каждая запись содержит клиентское событие для одной конечной точки в голосовой вызове.</span><span class="sxs-lookup"><span data-stu-id="328aa-104">Each record contains a client event for one endpoint in an audio call.</span></span> <span data-ttu-id="328aa-105">Как правило, один вызов состоит из двух записей, один для вызывающего абонента и один для вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="328aa-105">Usually, one call has two records, one for caller and one for callee.</span></span>
 
 
 <table>
@@ -49,150 +49,150 @@ ms.locfileid: "42044601"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b7f48-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="b7f48-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="b7f48-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="b7f48-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="328aa-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="328aa-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="328aa-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="328aa-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-110"><strong>конференцедатетиме</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-110"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-111">datetime</span><span class="sxs-lookup"><span data-stu-id="b7f48-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-112">Primary</span><span class="sxs-lookup"><span data-stu-id="b7f48-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-113">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b7f48-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-110"><strong>конференцедатетиме</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-110"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-111">datetime</span><span class="sxs-lookup"><span data-stu-id="328aa-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="328aa-112">Primary</span><span class="sxs-lookup"><span data-stu-id="328aa-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="328aa-113">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="328aa-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-114"><strong>сессионсек</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-115">int</span><span class="sxs-lookup"><span data-stu-id="b7f48-115">int</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-116">Primary</span><span class="sxs-lookup"><span data-stu-id="b7f48-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-117">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b7f48-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-114"><strong>сессионсек</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-115">int</span><span class="sxs-lookup"><span data-stu-id="328aa-115">int</span></span></p></td>
+<td><p><span data-ttu-id="328aa-116">Primary</span><span class="sxs-lookup"><span data-stu-id="328aa-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="328aa-117">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="328aa-117">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-118"><strong>медиалинелабел</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-118"><strong>MediaLineLabel</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-119">tinyint</span><span class="sxs-lookup"><span data-stu-id="b7f48-119">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-120">Primary</span><span class="sxs-lookup"><span data-stu-id="b7f48-120">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-121">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b7f48-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-118"><strong>медиалинелабел</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-118"><strong>MediaLineLabel</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-119">tinyint</span><span class="sxs-lookup"><span data-stu-id="328aa-119">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="328aa-120">Primary</span><span class="sxs-lookup"><span data-stu-id="328aa-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="328aa-121">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="328aa-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-122"><strong>фромкаллер</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-122"><strong>FromCaller</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-123">Битовая</span><span class="sxs-lookup"><span data-stu-id="b7f48-123">bit</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-124">Primary</span><span class="sxs-lookup"><span data-stu-id="b7f48-124">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b7f48-125">0: данные вызываемого абонента</span><span class="sxs-lookup"><span data-stu-id="b7f48-125">0: Callee’s data</span></span></p>
-<p><span data-ttu-id="b7f48-126">1: данные вызывающего абонента</span><span class="sxs-lookup"><span data-stu-id="b7f48-126">1: Caller’s data</span></span></p></td>
+<td><p><span data-ttu-id="328aa-122"><strong>фромкаллер</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-122"><strong>FromCaller</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-123">Битовая</span><span class="sxs-lookup"><span data-stu-id="328aa-123">bit</span></span></p></td>
+<td><p><span data-ttu-id="328aa-124">Primary</span><span class="sxs-lookup"><span data-stu-id="328aa-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="328aa-125">0: данные вызываемого абонента</span><span class="sxs-lookup"><span data-stu-id="328aa-125">0: Callee’s data</span></span></p>
+<p><span data-ttu-id="328aa-126">1: данные вызывающего абонента</span><span class="sxs-lookup"><span data-stu-id="328aa-126">1: Caller’s data</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-127"><strong>нетворксендкуалитевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-127"><strong>NetworkSendQualityEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-128">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-128">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-127"><strong>нетворксендкуалитевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-127"><strong>NetworkSendQualityEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-128">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-128">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-129">Процентное отношение сеанса событие Нетворксендкуалити было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-129">Percentage of session the NetworkSendQuality event was fired for ‘Bad’ state.</span></span></p>
-<p><span data-ttu-id="b7f48-130">Качество сети в терминах нарушения или потери пакетов серьезно и влияет на качество отправляемого звука.</span><span class="sxs-lookup"><span data-stu-id="b7f48-130">Network quality in terms of jitter or packet loss is severe and impacting the quality of audio being sent.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-129">Процентное отношение сеанса событие Нетворксендкуалити было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-129">Percentage of session the NetworkSendQuality event was fired for ‘Bad’ state.</span></span></p>
+<p><span data-ttu-id="328aa-130">Качество сети в терминах нарушения или потери пакетов серьезно и влияет на качество отправляемого звука.</span><span class="sxs-lookup"><span data-stu-id="328aa-130">Network quality in terms of jitter or packet loss is severe and impacting the quality of audio being sent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-131"><strong>нетворкрецеивекуалитевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-131"><strong>NetworkReceiveQualityEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-132">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-132">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-131"><strong>нетворкрецеивекуалитевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-131"><strong>NetworkReceiveQualityEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-132">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-132">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-133">Процентное отношение сеанса событие Рецеивесендкуалити было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-133">Percentage of session the ReceiveSendQuality event was fired for ‘Bad’ state.</span></span></p>
-<p><span data-ttu-id="b7f48-134">Качество сети в терминах нарушения или потери пакетов серьезно и влияет на качество получаемого звука.</span><span class="sxs-lookup"><span data-stu-id="b7f48-134">Network quality in terms of jitter or packet loss is severe and impacting the quality of audio being received.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-133">Процентное отношение сеанса событие Рецеивесендкуалити было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-133">Percentage of session the ReceiveSendQuality event was fired for ‘Bad’ state.</span></span></p>
+<p><span data-ttu-id="328aa-134">Качество сети в терминах нарушения или потери пакетов серьезно и влияет на качество получаемого звука.</span><span class="sxs-lookup"><span data-stu-id="328aa-134">Network quality in terms of jitter or packet loss is severe and impacting the quality of audio being received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-135"><strong>нетворкделайевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-135"><strong>NetworkDelayEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-136">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-136">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-135"><strong>нетворкделайевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-135"><strong>NetworkDelayEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-136">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-136">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-137">Процентное соотношение между сеансами событие Delay было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-137">Percentage of session the Delay event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-138">Задержка в сети серьезна и повлияет на работу, предотвращая интерактивную связь</span><span class="sxs-lookup"><span data-stu-id="b7f48-138">Network latency is severe and impacting the experience by preventing interactive communication</span></span></p></td>
+<td><p><span data-ttu-id="328aa-137">Процентное соотношение между сеансами событие Delay было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-137">Percentage of session the Delay event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-138">Задержка в сети серьезна и повлияет на работу, предотвращая интерактивную связь</span><span class="sxs-lookup"><span data-stu-id="328aa-138">Network latency is severe and impacting the experience by preventing interactive communication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-139"><strong>нетворкбандвидсловевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-139"><strong>NetworkBandwidthLowEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-140">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-140">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-139"><strong>нетворкбандвидсловевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-139"><strong>NetworkBandwidthLowEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-140">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-140">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-141">Процентное отношение сеанса событие Ловбандвидс было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-141">Percentage of session the LowBandwidth event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-142">Доступная полоса пропускания недостаточна для приемлемого голосового интерфейса.</span><span class="sxs-lookup"><span data-stu-id="b7f48-142">The available bandwidth is insufficient for an acceptable voice experience.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-141">Процентное отношение сеанса событие Ловбандвидс было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-141">Percentage of session the LowBandwidth event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-142">Доступная полоса пропускания недостаточна для приемлемого голосового интерфейса.</span><span class="sxs-lookup"><span data-stu-id="328aa-142">The available bandwidth is insufficient for an acceptable voice experience.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-143"><strong>кпуинсуффиЦиентевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-143"><strong>CPUInsufficientEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-144">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-144">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-143"><strong>кпуинсуффиЦиентевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-143"><strong>CPUInsufficientEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-144">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-144">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-145">Процентное соотношение от сеанса, которое было вызвано недостаточным событием ЦП для состояния "Bad".</span><span class="sxs-lookup"><span data-stu-id="b7f48-145">Percentage of session the insufficient CPU event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-146">Недостаточно циклов ЦП для обработки с текущими модальности и используемыми приложениями.</span><span class="sxs-lookup"><span data-stu-id="b7f48-146">There are insufficient CPU cycles for processing with the current modalities and applications in use.</span></span> <span data-ttu-id="b7f48-147">Это приводит к искажениям звукового канала.</span><span class="sxs-lookup"><span data-stu-id="b7f48-147">This causes distortions with the audio channel.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-145">Процентное соотношение от сеанса, которое было вызвано недостаточным событием ЦП для состояния "Bad".</span><span class="sxs-lookup"><span data-stu-id="328aa-145">Percentage of session the insufficient CPU event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-146">Недостаточно циклов ЦП для обработки с текущими модальности и используемыми приложениями.</span><span class="sxs-lookup"><span data-stu-id="328aa-146">There are insufficient CPU cycles for processing with the current modalities and applications in use.</span></span> <span data-ttu-id="328aa-147">Это приводит к искажениям звукового канала.</span><span class="sxs-lookup"><span data-stu-id="328aa-147">This causes distortions with the audio channel.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-148"><strong>девицехалфдуплексаецевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-148"><strong>DeviceHalfDuplexAECEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-149">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-149">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-148"><strong>девицехалфдуплексаецевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-148"><strong>DeviceHalfDuplexAECEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-149">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-149">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-150">Процентное отношение сеанса событие Девицехалфдуплексаек было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-150">Percentage of session the DeviceHalfDuplexAEC event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-151">Чтобы предотвратить эхо, в системе введена половина дуплекса.</span><span class="sxs-lookup"><span data-stu-id="b7f48-151">In order to prevent echo, the system has enter half duplex.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-150">Процентное отношение сеанса событие Девицехалфдуплексаек было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-150">Percentage of session the DeviceHalfDuplexAEC event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-151">Чтобы предотвратить эхо, в системе введена половина дуплекса.</span><span class="sxs-lookup"><span data-stu-id="328aa-151">In order to prevent echo, the system has enter half duplex.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-152"><strong>девицерендернотфунктионинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-152"><strong>DeviceRenderNotFunctioningEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-153">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-153">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-152"><strong>девицерендернотфунктионинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-152"><strong>DeviceRenderNotFunctioningEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-153">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-153">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-154">Процентное отношение сеанса событие Девицерендернотфунктионинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-154">Percentage of session the DeviceRenderNotFunctioning event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-155">Устройство обработки, используемое в данный момент для сеанса, работает неправильно.</span><span class="sxs-lookup"><span data-stu-id="b7f48-155">The render device currently being used for the session is not functioning correctly.</span></span> <span data-ttu-id="b7f48-156">Это может привести к необратимым проблемам с аудио.</span><span class="sxs-lookup"><span data-stu-id="b7f48-156">This can cause one-way audio issues.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-154">Процентное отношение сеанса событие Девицерендернотфунктионинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-154">Percentage of session the DeviceRenderNotFunctioning event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-155">Устройство обработки, используемое в данный момент для сеанса, работает неправильно.</span><span class="sxs-lookup"><span data-stu-id="328aa-155">The render device currently being used for the session is not functioning correctly.</span></span> <span data-ttu-id="328aa-156">Это может привести к необратимым проблемам с аудио.</span><span class="sxs-lookup"><span data-stu-id="328aa-156">This can cause one-way audio issues.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-157"><strong>девицекаптуренотфунктионинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-157"><strong>DeviceCaptureNotFunctioningEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-158">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-158">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-157"><strong>девицекаптуренотфунктионинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-157"><strong>DeviceCaptureNotFunctioningEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-158">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-158">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-159">Процентное отношение сеанса событие Девицекаптуренотфунктионинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-159">Percentage of session the DeviceCaptureNotFunctioning event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-160">Устройство записи, используемое в данный момент для сеанса, работает неправильно.</span><span class="sxs-lookup"><span data-stu-id="b7f48-160">The capture device currently being used for the session is not functioning correctly.</span></span> <span data-ttu-id="b7f48-161">Это может привести к необратимым проблемам с аудио.</span><span class="sxs-lookup"><span data-stu-id="b7f48-161">This can cause one-way audio issues.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-159">Процентное отношение сеанса событие Девицекаптуренотфунктионинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-159">Percentage of session the DeviceCaptureNotFunctioning event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-160">Устройство записи, используемое в данный момент для сеанса, работает неправильно.</span><span class="sxs-lookup"><span data-stu-id="328aa-160">The capture device currently being used for the session is not functioning correctly.</span></span> <span data-ttu-id="328aa-161">Это может привести к необратимым проблемам с аудио.</span><span class="sxs-lookup"><span data-stu-id="328aa-161">This can cause one-way audio issues.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-162"><strong>девицеглитчесевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-162"><strong>DeviceGlitchesEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-163">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-163">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-162"><strong>девицеглитчесевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-162"><strong>DeviceGlitchesEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-163">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-163">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-164">Процентное отношение сеанса событие Девицеглитчес было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-164">Percentage of session the DeviceGlitches event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-165">При отображении звука возникают серьезные проблемы, приводящие к искажениям.</span><span class="sxs-lookup"><span data-stu-id="b7f48-165">There are severe glitches in the rendering of audio which is causing distortions.</span></span> <span data-ttu-id="b7f48-166">Эти проблемы могут быть вызваны проблемами с драйверами, отложенными вызовами процедур (DPC) и высокой загрузкой ЦП.</span><span class="sxs-lookup"><span data-stu-id="b7f48-166">These glitches can be caused by driver issues, deferred procedure calls (DPC) storm (drivers), and high CPU usage.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-164">Процентное отношение сеанса событие Девицеглитчес было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-164">Percentage of session the DeviceGlitches event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-165">При отображении звука возникают серьезные проблемы, приводящие к искажениям.</span><span class="sxs-lookup"><span data-stu-id="328aa-165">There are severe glitches in the rendering of audio which is causing distortions.</span></span> <span data-ttu-id="328aa-166">Эти проблемы могут быть вызваны проблемами с драйверами, отложенными вызовами процедур (DPC) и высокой загрузкой ЦП.</span><span class="sxs-lookup"><span data-stu-id="328aa-166">These glitches can be caused by driver issues, deferred procedure calls (DPC) storm (drivers), and high CPU usage.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-167"><strong>девицеловснревентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-167"><strong>DeviceLowSNREventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-168">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-168">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-167"><strong>девицеловснревентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-167"><strong>DeviceLowSNREventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-168">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-168">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-169">Процентное отношение сеанса событие Девицеловснр было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-169">Percentage of session the DeviceLowSNR event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-170">Качество захвата очень низкое, либо очень шумный, либо пользователь работает слишком далеко от микрофона.</span><span class="sxs-lookup"><span data-stu-id="b7f48-170">The capture quality is very poor, either very noisy or user is talking too far away from the microphone.</span></span> <span data-ttu-id="b7f48-171">Это приведет к искажениям.</span><span class="sxs-lookup"><span data-stu-id="b7f48-171">This will cause distortions.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-169">Процентное отношение сеанса событие Девицеловснр было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-169">Percentage of session the DeviceLowSNR event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-170">Качество захвата очень низкое, либо очень шумный, либо пользователь работает слишком далеко от микрофона.</span><span class="sxs-lookup"><span data-stu-id="328aa-170">The capture quality is very poor, either very noisy or user is talking too far away from the microphone.</span></span> <span data-ttu-id="328aa-171">Это приведет к искажениям.</span><span class="sxs-lookup"><span data-stu-id="328aa-171">This will cause distortions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-172"><strong>девицеловспичлевелевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-172"><strong>DeviceLowSpeechLevelEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-173">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-173">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-172"><strong>девицеловспичлевелевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-172"><strong>DeviceLowSpeechLevelEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-173">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-173">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-174">Процентное отношение сеанса событие Девицеловспичлевел было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-174">Percentage of session the DeviceLowSpeechLevel event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-175">Слишком маленький уровень речи пользователя, система не может увеличить его.</span><span class="sxs-lookup"><span data-stu-id="b7f48-175">User‘s speech level is too low and the system cannot increase it any further.</span></span> <span data-ttu-id="b7f48-176">Это может привести к искажениям или восприятию одностороннего звука.</span><span class="sxs-lookup"><span data-stu-id="b7f48-176">This can either cause distortions or perceived as one-way audio.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-174">Процентное отношение сеанса событие Девицеловспичлевел было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-174">Percentage of session the DeviceLowSpeechLevel event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-175">Слишком маленький уровень речи пользователя, система не может увеличить его.</span><span class="sxs-lookup"><span data-stu-id="328aa-175">User‘s speech level is too low and the system cannot increase it any further.</span></span> <span data-ttu-id="328aa-176">Это может привести к искажениям или восприятию одностороннего звука.</span><span class="sxs-lookup"><span data-stu-id="328aa-176">This can either cause distortions or perceived as one-way audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-177"><strong>девицеклиппинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-177"><strong>DeviceClippingEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-178">Десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-178">Decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-177"><strong>девицеклиппинжевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-177"><strong>DeviceClippingEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-178">Десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-178">Decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-179">Процентное отношение сеанса событие Девицеклиппинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-179">Percentage of session the DeviceClipping event was fired for ‘Bad’ state.</span></span></p>
-<p><span data-ttu-id="b7f48-180">При использовании Ближнего голосовых видеороликов Микрофоны прослушивают искажения из-за обрезки.</span><span class="sxs-lookup"><span data-stu-id="b7f48-180">When near-end speech clips the microphone, far-end hears distortion due to clipping.</span></span> <span data-ttu-id="b7f48-181">Важно избегать использования Ближнего отсечения от микрофона.</span><span class="sxs-lookup"><span data-stu-id="b7f48-181">It is important to avoid near-end microphone clipping.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-179">Процентное отношение сеанса событие Девицеклиппинг было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-179">Percentage of session the DeviceClipping event was fired for ‘Bad’ state.</span></span></p>
+<p><span data-ttu-id="328aa-180">При использовании Ближнего голосовых видеороликов Микрофоны прослушивают искажения из-за обрезки.</span><span class="sxs-lookup"><span data-stu-id="328aa-180">When near-end speech clips the microphone, far-end hears distortion due to clipping.</span></span> <span data-ttu-id="328aa-181">Важно избегать использования Ближнего отсечения от микрофона.</span><span class="sxs-lookup"><span data-stu-id="328aa-181">It is important to avoid near-end microphone clipping.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-182"><strong>девицеечоевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-182"><strong>DeviceEchoEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-183">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-183">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-182"><strong>девицеечоевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-182"><strong>DeviceEchoEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-183">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-183">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-184">Процентное отношение сеанса событие возникновения события deviceechoevent было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-184">Percentage of session the DeviceEchoEvent event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-185">Устройство или программа установки вызывает эхо за пределами возможности системы для компенсации.</span><span class="sxs-lookup"><span data-stu-id="b7f48-185">Device or setup is causing echo beyond the ability of the system to compensate.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-184">Процентное отношение сеанса событие возникновения события deviceechoevent было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-184">Percentage of session the DeviceEchoEvent event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-185">Устройство или программа установки вызывает эхо за пределами возможности системы для компенсации.</span><span class="sxs-lookup"><span data-stu-id="328aa-185">Device or setup is causing echo beyond the ability of the system to compensate.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-186"><strong>девиценеарендтоечоратиоевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-186"><strong>DeviceNearEndToEchoRatioEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-187">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-187">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-186"><strong>девиценеарендтоечоратиоевентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-186"><strong>DeviceNearEndToEchoRatioEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-187">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-187">decimal(5,2)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-188">Процентное отношение сеанса событие Девиценеарендтоечоратио было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-188">Percentage of session the DeviceNearEndToEchoRatio event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-189">Голосовая речь пользователя слишком мала по сравнению с записанным эхо-значением, которое влияет на взаимодействие с пользователями, так как оно позволяет ограничить способ прерывания пользователя.</span><span class="sxs-lookup"><span data-stu-id="b7f48-189">The user’s speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it is to interrupt a user.</span></span> <span data-ttu-id="b7f48-190">Уменьшите громкость динамика, наведите микрофон ближе к рассказано.</span><span class="sxs-lookup"><span data-stu-id="b7f48-190">Reduce speaker volume, move the microphone closer to the talker.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-188">Процентное отношение сеанса событие Девиценеарендтоечоратио было вызвано для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-188">Percentage of session the DeviceNearEndToEchoRatio event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-189">Голосовая речь пользователя слишком мала по сравнению с записанным эхо-значением, которое влияет на взаимодействие с пользователями, так как оно позволяет ограничить способ прерывания пользователя.</span><span class="sxs-lookup"><span data-stu-id="328aa-189">The user’s speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it is to interrupt a user.</span></span> <span data-ttu-id="328aa-190">Уменьшите громкость динамика, наведите микрофон ближе к рассказано.</span><span class="sxs-lookup"><span data-stu-id="328aa-190">Reduce speaker volume, move the microphone closer to the talker.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-191"><strong>девицемултиплиндпоинтсевенткаунт</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-191"><strong>DeviceMultipleEndpointsEventCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-192">int</span><span class="sxs-lookup"><span data-stu-id="b7f48-192">int</span></span></p></td>
+<td><p><span data-ttu-id="328aa-191"><strong>девицемултиплиндпоинтсевенткаунт</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-191"><strong>DeviceMultipleEndpointsEventCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-192">int</span><span class="sxs-lookup"><span data-stu-id="328aa-192">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="b7f48-193">Количество раз, когда сеанс был вызван событием Девицемултиплиндпоинтс для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-193">Number of times during session the DeviceMultipleEndpoints event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-194">Обнаружено несколько конечных точек звука в одном сеансе, и система компенсируется с помощью уменьшения объема отображения.</span><span class="sxs-lookup"><span data-stu-id="b7f48-194">Multiple audio endpoints in the same session detected and the system has compensated by reducing render volume.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-193">Количество раз, когда сеанс был вызван событием Девицемултиплиндпоинтс для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-193">Number of times during session the DeviceMultipleEndpoints event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-194">Обнаружено несколько конечных точек звука в одном сеансе, и система компенсируется с помощью уменьшения объема отображения.</span><span class="sxs-lookup"><span data-stu-id="328aa-194">Multiple audio endpoints in the same session detected and the system has compensated by reducing render volume.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-195"><strong>девицеховлинжевенткаунт</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-195"><strong>DeviceHowlingEventCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-196">int</span><span class="sxs-lookup"><span data-stu-id="b7f48-196">int</span></span></p></td>
+<td><p><span data-ttu-id="328aa-195"><strong>девицеховлинжевенткаунт</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-195"><strong>DeviceHowlingEventCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-196">int</span><span class="sxs-lookup"><span data-stu-id="328aa-196">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="b7f48-197">Количество раз, когда сеанс был вызван событием Девицеховлинжевент для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-197">Number of times during session the DeviceHowlingEvent event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="b7f48-198">Обнаружен цикл обратной связи со звуком (с указанием нескольких конечных точек для общего доступа к файлам).</span><span class="sxs-lookup"><span data-stu-id="b7f48-198">Audio feedback loop detected (caused by multiple endpoints sharing audio path).</span></span></p></td>
+<td><p><span data-ttu-id="328aa-197">Количество раз, когда сеанс был вызван событием Девицеховлинжевент для состояния "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-197">Number of times during session the DeviceHowlingEvent event was fired for ‘Bad’ state.</span></span> <span data-ttu-id="328aa-198">Обнаружен цикл обратной связи со звуком (с указанием нескольких конечных точек для общего доступа к файлам).</span><span class="sxs-lookup"><span data-stu-id="328aa-198">Audio feedback loop detected (caused by multiple endpoints sharing audio path).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b7f48-199"><strong>девицерендерзероволумивентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-199"><strong>DeviceRenderZeroVolumeEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-200">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-200">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-199"><strong>девицерендерзероволумивентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-199"><strong>DeviceRenderZeroVolumeEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-200">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-200">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="b7f48-201">Процент сеанса, в котором было вызвано событие Девицерендерзероволуме, в состоянии "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-201">Percentage of session the DeviceRenderZeroVolume event was fired for being in the “Bad’ state.</span></span> <span data-ttu-id="b7f48-202">Для устройства отрисовки задано нулевое значение громкости.</span><span class="sxs-lookup"><span data-stu-id="b7f48-202">The render device was set to zero volume.</span></span></p>
-<p><span data-ttu-id="b7f48-203">Этот столбец появился в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7f48-203">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-201">Процент сеанса, в котором было вызвано событие Девицерендерзероволуме, в состоянии "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-201">Percentage of session the DeviceRenderZeroVolume event was fired for being in the “Bad’ state.</span></span> <span data-ttu-id="328aa-202">Для устройства отрисовки задано нулевое значение громкости.</span><span class="sxs-lookup"><span data-stu-id="328aa-202">The render device was set to zero volume.</span></span></p>
+<p><span data-ttu-id="328aa-203">Этот столбец появился в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="328aa-203">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b7f48-204"><strong>девицерендермутивентратио</strong></span><span class="sxs-lookup"><span data-stu-id="b7f48-204"><strong>DeviceRenderMuteEventRatio</strong></span></span></p></td>
-<td><p><span data-ttu-id="b7f48-205">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="b7f48-205">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="328aa-204"><strong>девицерендермутивентратио</strong></span><span class="sxs-lookup"><span data-stu-id="328aa-204"><strong>DeviceRenderMuteEventRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="328aa-205">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="328aa-205">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="b7f48-206">Процент сеанса, в котором было вызвано событие Девицерендермуте, в состоянии "плохое".</span><span class="sxs-lookup"><span data-stu-id="b7f48-206">Percentage of session the DeviceRenderMute event was fired for being in the “Bad’ state.</span></span> <span data-ttu-id="b7f48-207">Устройство отображения отключено.</span><span class="sxs-lookup"><span data-stu-id="b7f48-207">The render device was muted.</span></span></p>
-<p><span data-ttu-id="b7f48-208">Этот столбец появился в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b7f48-208">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="328aa-206">Процент сеанса, в котором было вызвано событие Девицерендермуте, в состоянии "плохое".</span><span class="sxs-lookup"><span data-stu-id="328aa-206">Percentage of session the DeviceRenderMute event was fired for being in the “Bad’ state.</span></span> <span data-ttu-id="328aa-207">Устройство отображения отключено.</span><span class="sxs-lookup"><span data-stu-id="328aa-207">The render device was muted.</span></span></p>
+<p><span data-ttu-id="328aa-208">Этот столбец появился в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="328aa-208">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

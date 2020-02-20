@@ -12,20 +12,20 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b1377eabd4ffc199fe7a9014d28f153aba10afa4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048092"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a><span data-ttu-id="f65a9-102">Мониторинг файлов журнала трассировки запросов IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f65a9-102">Monitoring IIS request tracing log files in Lync Server 2013</span></span>
+# <a name="monitoring-iis-request-tracing-log-files-in-lync-server-2013"></a><span data-ttu-id="7eba2-102">Мониторинг файлов журнала трассировки запросов IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7eba2-102">Monitoring IIS request tracing log files in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42048092"
 
 <span> </span>
 
-<span data-ttu-id="f65a9-103">_**Последнее изменение темы:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="f65a9-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="7eba2-103">_**Последнее изменение темы:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="7eba2-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
-<span data-ttu-id="f65a9-104">При включении трассировки запросов служб IIS для службы Mobility Service (MCX) Lync Server создаваемые файлы журналов могут потреблять до трех гигабайт дискового пространства в день.</span><span class="sxs-lookup"><span data-stu-id="f65a9-104">When you enable Internet Information Services (IIS) request tracing for the Lync Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="f65a9-105">Ведение журнала трассировки служб IIS включено по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="f65a9-105">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="f65a9-106">Необходимо отслеживать серверы переднего плана, чтобы убедиться в отсутствии места на диске.</span><span class="sxs-lookup"><span data-stu-id="f65a9-106">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span>
+<span data-ttu-id="7eba2-104">При включении трассировки запросов служб IIS для службы Mobility Service (MCX) Lync Server создаваемые файлы журналов могут потреблять до трех гигабайт дискового пространства в день.</span><span class="sxs-lookup"><span data-stu-id="7eba2-104">When you enable Internet Information Services (IIS) request tracing for the Lync Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="7eba2-105">Ведение журнала трассировки служб IIS включено по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7eba2-105">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="7eba2-106">Необходимо отслеживать серверы переднего плана, чтобы убедиться в отсутствии места на диске.</span><span class="sxs-lookup"><span data-stu-id="7eba2-106">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span>
 
-<span data-ttu-id="f65a9-107">По умолчанию службы IIS хранят файлы журналов в папке журнала%\\systemdrive\\%\\Inetpub.</span><span class="sxs-lookup"><span data-stu-id="f65a9-107">By default, IIS stores the log files at %SystemDrive%\\inetpub\\logs\\LogFiles.</span></span>
+<span data-ttu-id="7eba2-107">По умолчанию службы IIS хранят файлы журналов в папке журнала%\\systemdrive\\%\\Inetpub.</span><span class="sxs-lookup"><span data-stu-id="7eba2-107">By default, IIS stores the log files at %SystemDrive%\\inetpub\\logs\\LogFiles.</span></span>
 
-<span data-ttu-id="f65a9-108">Чтобы отключить трассировку запросов служб IIS для всего сервера, выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="f65a9-108">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
+<span data-ttu-id="7eba2-108">Чтобы отключить трассировку запросов служб IIS для всего сервера, выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7eba2-108">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
 
     %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 
-<span data-ttu-id="f65a9-109">Подробные сведения о команде **хттплоггинг** приведены в разделе [http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927).</span><span class="sxs-lookup"><span data-stu-id="f65a9-109">For details about the **httpLogging** command, see [http://go.microsoft.com/fwlink/p/?linkId=234927](http://go.microsoft.com/fwlink/p/?linkid=234927).</span></span>
+<span data-ttu-id="7eba2-109">Подробные сведения о команде **хттплоггинг** приведены в разделе [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927).</span><span class="sxs-lookup"><span data-stu-id="7eba2-109">For details about the **httpLogging** command, see [https://go.microsoft.com/fwlink/p/?linkId=234927](https://go.microsoft.com/fwlink/p/?linkid=234927).</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b012b1bbab693e9a95a64d1fb3150723523cb53d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034229"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="56f5c-102">Настройка маршрута отработки отказа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56f5c-102">Configuring a failover route in Lync Server 2013</span></span>
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a><span data-ttu-id="d3184-102">Настройка маршрута отработки отказа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d3184-102">Configuring a failover route in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42034229"
 
 <span> </span>
 
-<span data-ttu-id="56f5c-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="56f5c-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="d3184-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d3184-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="56f5c-p101">В следующем примере показано, как администратор может определить маршрут отработки отказа на тот случай, если шлюз Dallas-GW1 отключается для проведения технического обслуживания или недоступен по иным причинам. В таблице ниже показаны изменения, которые нужно внести в конфигурацию.</span><span class="sxs-lookup"><span data-stu-id="56f5c-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
+<span data-ttu-id="d3184-p101">В следующем примере показано, как администратор может определить маршрут отработки отказа на тот случай, если шлюз Dallas-GW1 отключается для проведения технического обслуживания или недоступен по иным причинам. В таблице ниже показаны изменения, которые нужно внести в конфигурацию.</span><span class="sxs-lookup"><span data-stu-id="d3184-p101">The following example shows how an administrator can define a failover route for use if the Dallas-GW1 is down for maintenance or is otherwise unavailable. The following tables illustrate the required configuration change.</span></span>
 
-### <a name="table-1-user-policy"></a><span data-ttu-id="56f5c-p102">Таблица 1. Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="56f5c-p102">Table 1. User Policy</span></span>
+### <a name="table-1-user-policy"></a><span data-ttu-id="d3184-p102">Таблица 1. Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="d3184-p102">Table 1. User Policy</span></span>
 
 <table>
 <colgroup>
@@ -48,30 +48,30 @@ ms.locfileid: "42034229"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="56f5c-108">Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="56f5c-108">User policy</span></span></th>
-<th><span data-ttu-id="56f5c-109">Использование телефонов</span><span class="sxs-lookup"><span data-stu-id="56f5c-109">Phone usage</span></span></th>
+<th><span data-ttu-id="d3184-108">Политика пользователя</span><span class="sxs-lookup"><span data-stu-id="d3184-108">User policy</span></span></th>
+<th><span data-ttu-id="d3184-109">Использование телефонов</span><span class="sxs-lookup"><span data-stu-id="d3184-109">Phone usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="56f5c-110">Политика звонков по умолчанию</span><span class="sxs-lookup"><span data-stu-id="56f5c-110">Default Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-111">Local</span><span class="sxs-lookup"><span data-stu-id="56f5c-111">Local</span></span></p>
-<p><span data-ttu-id="56f5c-112">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="56f5c-112">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="d3184-110">Политика звонков по умолчанию</span><span class="sxs-lookup"><span data-stu-id="d3184-110">Default Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="d3184-111">Local</span><span class="sxs-lookup"><span data-stu-id="d3184-111">Local</span></span></p>
+<p><span data-ttu-id="d3184-112">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="d3184-112">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="56f5c-113">Локальная политика в Редмонде</span><span class="sxs-lookup"><span data-stu-id="56f5c-113">Redmond Local Policy</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-114">редмондлокал</span><span class="sxs-lookup"><span data-stu-id="56f5c-114">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="d3184-113">Локальная политика в Редмонде</span><span class="sxs-lookup"><span data-stu-id="d3184-113">Redmond Local Policy</span></span></p></td>
+<td><p><span data-ttu-id="d3184-114">редмондлокал</span><span class="sxs-lookup"><span data-stu-id="d3184-114">RedmondLocal</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="56f5c-115">Политика звонков в Далласе</span><span class="sxs-lookup"><span data-stu-id="56f5c-115">Dallas Calling Policy</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-116">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="56f5c-116">DallasUsers</span></span></p>
-<p><span data-ttu-id="56f5c-117">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="56f5c-117">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="d3184-115">Политика звонков в Далласе</span><span class="sxs-lookup"><span data-stu-id="d3184-115">Dallas Calling Policy</span></span></p></td>
+<td><p><span data-ttu-id="d3184-116">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="d3184-116">DallasUsers</span></span></p>
+<p><span data-ttu-id="d3184-117">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="d3184-117">GlobalPSTNHopoff</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-2-routes"></a><span data-ttu-id="56f5c-p103">Таблица 2. Маршруты</span><span class="sxs-lookup"><span data-stu-id="56f5c-p103">Table 2. Routes</span></span>
+### <a name="table-2-routes"></a><span data-ttu-id="d3184-p103">Таблица 2. Маршруты</span><span class="sxs-lookup"><span data-stu-id="d3184-p103">Table 2. Routes</span></span>
 
 <table>
 <colgroup>
@@ -83,54 +83,54 @@ ms.locfileid: "42034229"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="56f5c-120">Название маршрута</span><span class="sxs-lookup"><span data-stu-id="56f5c-120">Route name</span></span></th>
-<th><span data-ttu-id="56f5c-121">Шаблон номера</span><span class="sxs-lookup"><span data-stu-id="56f5c-121">Number pattern</span></span></th>
-<th><span data-ttu-id="56f5c-122">Использование телефонов</span><span class="sxs-lookup"><span data-stu-id="56f5c-122">Phone usage</span></span></th>
-<th><span data-ttu-id="56f5c-123">Магистрали</span><span class="sxs-lookup"><span data-stu-id="56f5c-123">Trunk</span></span></th>
-<th><span data-ttu-id="56f5c-124">Шлюз</span><span class="sxs-lookup"><span data-stu-id="56f5c-124">Gateway</span></span></th>
+<th><span data-ttu-id="d3184-120">Название маршрута</span><span class="sxs-lookup"><span data-stu-id="d3184-120">Route name</span></span></th>
+<th><span data-ttu-id="d3184-121">Шаблон номера</span><span class="sxs-lookup"><span data-stu-id="d3184-121">Number pattern</span></span></th>
+<th><span data-ttu-id="d3184-122">Использование телефонов</span><span class="sxs-lookup"><span data-stu-id="d3184-122">Phone usage</span></span></th>
+<th><span data-ttu-id="d3184-123">Магистрали</span><span class="sxs-lookup"><span data-stu-id="d3184-123">Trunk</span></span></th>
+<th><span data-ttu-id="d3184-124">Шлюз</span><span class="sxs-lookup"><span data-stu-id="d3184-124">Gateway</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="56f5c-125">Локальный маршрут в Редмонде</span><span class="sxs-lookup"><span data-stu-id="56f5c-125">Redmond Local Route</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-126">^\+1 (425 | 206 | 253) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="56f5c-126">^\+1(425|206|253)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-127">Local</span><span class="sxs-lookup"><span data-stu-id="56f5c-127">Local</span></span></p>
-<p><span data-ttu-id="56f5c-128">редмондлокал</span><span class="sxs-lookup"><span data-stu-id="56f5c-128">RedmondLocal</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-129">Trunk1</span><span class="sxs-lookup"><span data-stu-id="56f5c-129">Trunk1</span></span></p>
-<p><span data-ttu-id="56f5c-130">Trunk2</span><span class="sxs-lookup"><span data-stu-id="56f5c-130">Trunk2</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-131">Red — GW1</span><span class="sxs-lookup"><span data-stu-id="56f5c-131">Red-GW1</span></span></p>
-<p><span data-ttu-id="56f5c-132">Red — GW2</span><span class="sxs-lookup"><span data-stu-id="56f5c-132">Red-GW2</span></span></p></td>
+<td><p><span data-ttu-id="d3184-125">Локальный маршрут в Редмонде</span><span class="sxs-lookup"><span data-stu-id="d3184-125">Redmond Local Route</span></span></p></td>
+<td><p><span data-ttu-id="d3184-126">^\+1 (425 | 206 | 253) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="d3184-126">^\+1(425|206|253)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="d3184-127">Local</span><span class="sxs-lookup"><span data-stu-id="d3184-127">Local</span></span></p>
+<p><span data-ttu-id="d3184-128">редмондлокал</span><span class="sxs-lookup"><span data-stu-id="d3184-128">RedmondLocal</span></span></p></td>
+<td><p><span data-ttu-id="d3184-129">Trunk1</span><span class="sxs-lookup"><span data-stu-id="d3184-129">Trunk1</span></span></p>
+<p><span data-ttu-id="d3184-130">Trunk2</span><span class="sxs-lookup"><span data-stu-id="d3184-130">Trunk2</span></span></p></td>
+<td><p><span data-ttu-id="d3184-131">Red — GW1</span><span class="sxs-lookup"><span data-stu-id="d3184-131">Red-GW1</span></span></p>
+<p><span data-ttu-id="d3184-132">Red — GW2</span><span class="sxs-lookup"><span data-stu-id="d3184-132">Red-GW2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="56f5c-133">Локальный маршрут в Далласе</span><span class="sxs-lookup"><span data-stu-id="56f5c-133">Dallas Local Route</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-134">^\+1 (972 | 214 | 469) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="56f5c-134">^\+1(972|214|469)(\d{7})$</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-135">Local</span><span class="sxs-lookup"><span data-stu-id="56f5c-135">Local</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-136">Trunk3</span><span class="sxs-lookup"><span data-stu-id="56f5c-136">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-137">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="56f5c-137">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="d3184-133">Локальный маршрут в Далласе</span><span class="sxs-lookup"><span data-stu-id="d3184-133">Dallas Local Route</span></span></p></td>
+<td><p><span data-ttu-id="d3184-134">^\+1 (972 | 214 | 469) (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="d3184-134">^\+1(972|214|469)(\d{7})$</span></span></p></td>
+<td><p><span data-ttu-id="d3184-135">Local</span><span class="sxs-lookup"><span data-stu-id="d3184-135">Local</span></span></p></td>
+<td><p><span data-ttu-id="d3184-136">Trunk3</span><span class="sxs-lookup"><span data-stu-id="d3184-136">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="d3184-137">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="d3184-137">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="56f5c-138">Универсальный маршрут</span><span class="sxs-lookup"><span data-stu-id="56f5c-138">Universal Route</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-139">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="56f5c-139">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-140">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="56f5c-140">GlobalPSTNHopoff</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-141">Trunk1</span><span class="sxs-lookup"><span data-stu-id="56f5c-141">Trunk1</span></span></p>
-<p><span data-ttu-id="56f5c-142">Trunk2</span><span class="sxs-lookup"><span data-stu-id="56f5c-142">Trunk2</span></span></p>
-<p><span data-ttu-id="56f5c-143">Trunk3</span><span class="sxs-lookup"><span data-stu-id="56f5c-143">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-144">Red — GW1</span><span class="sxs-lookup"><span data-stu-id="56f5c-144">Red-GW1</span></span></p>
-<p><span data-ttu-id="56f5c-145">Red — GW2</span><span class="sxs-lookup"><span data-stu-id="56f5c-145">Red-GW2</span></span></p>
-<p><span data-ttu-id="56f5c-146">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="56f5c-146">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="d3184-138">Универсальный маршрут</span><span class="sxs-lookup"><span data-stu-id="d3184-138">Universal Route</span></span></p></td>
+<td><p><span data-ttu-id="d3184-139">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="d3184-139">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="d3184-140">GlobalPSTNHopoff</span><span class="sxs-lookup"><span data-stu-id="d3184-140">GlobalPSTNHopoff</span></span></p></td>
+<td><p><span data-ttu-id="d3184-141">Trunk1</span><span class="sxs-lookup"><span data-stu-id="d3184-141">Trunk1</span></span></p>
+<p><span data-ttu-id="d3184-142">Trunk2</span><span class="sxs-lookup"><span data-stu-id="d3184-142">Trunk2</span></span></p>
+<p><span data-ttu-id="d3184-143">Trunk3</span><span class="sxs-lookup"><span data-stu-id="d3184-143">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="d3184-144">Red — GW1</span><span class="sxs-lookup"><span data-stu-id="d3184-144">Red-GW1</span></span></p>
+<p><span data-ttu-id="d3184-145">Red — GW2</span><span class="sxs-lookup"><span data-stu-id="d3184-145">Red-GW2</span></span></p>
+<p><span data-ttu-id="d3184-146">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="d3184-146">Dallas-GW1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="56f5c-147">Маршрут для пользователей в Далласе</span><span class="sxs-lookup"><span data-stu-id="56f5c-147">Dallas Users Route</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-148">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="56f5c-148">^\+?(\d\*)$</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-149">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="56f5c-149">DallasUsers</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-150">Trunk3</span><span class="sxs-lookup"><span data-stu-id="56f5c-150">Trunk3</span></span></p></td>
-<td><p><span data-ttu-id="56f5c-151">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="56f5c-151">Dallas-GW1</span></span></p></td>
+<td><p><span data-ttu-id="d3184-147">Маршрут для пользователей в Далласе</span><span class="sxs-lookup"><span data-stu-id="d3184-147">Dallas Users Route</span></span></p></td>
+<td><p><span data-ttu-id="d3184-148">^\+? (\d \*) $</span><span class="sxs-lookup"><span data-stu-id="d3184-148">^\+?(\d\*)$</span></span></p></td>
+<td><p><span data-ttu-id="d3184-149">DallasUsers</span><span class="sxs-lookup"><span data-stu-id="d3184-149">DallasUsers</span></span></p></td>
+<td><p><span data-ttu-id="d3184-150">Trunk3</span><span class="sxs-lookup"><span data-stu-id="d3184-150">Trunk3</span></span></p></td>
+<td><p><span data-ttu-id="d3184-151">Dallas — GW1</span><span class="sxs-lookup"><span data-stu-id="d3184-151">Dallas-GW1</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="56f5c-p104">В таблице 1 использование телефона GlobalPSTNHopoff добавлено после использования телефона DallasUsers в политике звонков в Далласе. Это позволяет использовать для звонков, к которым применяется политика звонков в Далласе, маршруты, настроенные для использования телефонов GlobalPSTNHopoff, если маршрут, заданный для использования телефонов DallasUsers, недоступен.</span><span class="sxs-lookup"><span data-stu-id="56f5c-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
+<span data-ttu-id="d3184-p104">В таблице 1 использование телефона GlobalPSTNHopoff добавлено после использования телефона DallasUsers в политике звонков в Далласе. Это позволяет использовать для звонков, к которым применяется политика звонков в Далласе, маршруты, настроенные для использования телефонов GlobalPSTNHopoff, если маршрут, заданный для использования телефонов DallasUsers, недоступен.</span><span class="sxs-lookup"><span data-stu-id="d3184-p104">In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.</span></span>
 
 </div>
 

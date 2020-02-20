@@ -12,20 +12,20 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50db03b8c6d428322129f1a46a0ffe50b19ed25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ec4384457ae0121893f0413d674368877e5396f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008721"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-an-announcement-in-lync-server-2013"></a><span data-ttu-id="36f3a-102">Создание извещения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3a-102">Create an announcement in Lync Server 2013</span></span>
+# <a name="create-an-announcement-in-lync-server-2013"></a><span data-ttu-id="0f869-102">Создание извещения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f869-102">Create an announcement in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "42008721"
 
 <span> </span>
 
-<span data-ttu-id="36f3a-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="36f3a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="0f869-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0f869-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="36f3a-104">Чтобы создать новое оповещение, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="36f3a-104">To create a new announcement, you need to perform the following steps:</span></span>
+<span data-ttu-id="0f869-104">Чтобы создать новое оповещение, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0f869-104">To create a new announcement, you need to perform the following steps:</span></span>
 
-1.  <span data-ttu-id="36f3a-105">Если планируется использовать звуковое приглашение, запишите звуковой файл с помощью любого приложения для звукозаписи.</span><span class="sxs-lookup"><span data-stu-id="36f3a-105">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
+1.  <span data-ttu-id="0f869-105">Если планируется использовать звуковое приглашение, запишите звуковой файл с помощью любого приложения для звукозаписи.</span><span class="sxs-lookup"><span data-stu-id="0f869-105">For audio prompts, record the audio file by using your favorite audio recording application.</span></span>
 
-2.  <span data-ttu-id="36f3a-106">Чтобы импортировать содержимое звукового файла в хранилище файлов, выполните командлет **Import-CsAnnouncementFile**.</span><span class="sxs-lookup"><span data-stu-id="36f3a-106">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
+2.  <span data-ttu-id="0f869-106">Чтобы импортировать содержимое звукового файла в хранилище файлов, выполните командлет **Import-CsAnnouncementFile**.</span><span class="sxs-lookup"><span data-stu-id="0f869-106">For audio prompts, run the **Import-CsAnnouncementFile** cmdlet to import the contents of the audio file to File Store.</span></span>
 
-3.  <span data-ttu-id="36f3a-107">Чтобы создать оповещение и присвоить ему имя, выполните командлет **New-CsAnnouncement**.</span><span class="sxs-lookup"><span data-stu-id="36f3a-107">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="36f3a-108">С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.</span><span class="sxs-lookup"><span data-stu-id="36f3a-108">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
+3.  <span data-ttu-id="0f869-107">Чтобы создать оповещение и присвоить ему имя, выполните командлет **New-CsAnnouncement**.</span><span class="sxs-lookup"><span data-stu-id="0f869-107">Run the **New-CsAnnouncement** cmdlet to create and name the announcement.</span></span> <span data-ttu-id="0f869-108">С его помощью можно создавать оповещения со звуковыми приглашениями, текстовыми приглашениями, преобразованными в речь, а также оповещения без приглашений.</span><span class="sxs-lookup"><span data-stu-id="0f869-108">Perform this step to create announcements with an audio prompt, a text-to-speech (TTS) prompt, or no prompt.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="36f3a-109">Вы можете создать оповещение без приглашения, например, если требуется переводить звонки в определенное назначение без воспроизведения сообщения.</span><span class="sxs-lookup"><span data-stu-id="36f3a-109">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
+    > <span data-ttu-id="0f869-109">Вы можете создать оповещение без приглашения, например, если требуется переводить звонки в определенное назначение без воспроизведения сообщения.</span><span class="sxs-lookup"><span data-stu-id="0f869-109">You might want to create an announcement with no prompt (for example, if you want to transfer calls to a specific destination without playing a message).</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="36f3a-110">Назначьте новое оповещение диапазону номеров в таблице неназначенных номеров.</span><span class="sxs-lookup"><span data-stu-id="36f3a-110">Assign the new announcement to a number range in the unassigned number table.</span></span>
+4.  <span data-ttu-id="0f869-110">Назначьте новое оповещение диапазону номеров в таблице неназначенных номеров.</span><span class="sxs-lookup"><span data-stu-id="0f869-110">Assign the new announcement to a number range in the unassigned number table.</span></span>
 
-<span data-ttu-id="36f3a-111">В этом разделе описывается импорт и создание оповещений.</span><span class="sxs-lookup"><span data-stu-id="36f3a-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="36f3a-112">Подробнее о назначении объявлений в таблице неназначенных номеров можно узнать в статье [Настройка таблицы неназначенных номеров в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).</span><span class="sxs-lookup"><span data-stu-id="36f3a-112">For details about assigning announcements in the unassigned number table, see [Configure the unassigned number table in Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).</span></span>
+<span data-ttu-id="0f869-111">В этом разделе описывается импорт и создание оповещений.</span><span class="sxs-lookup"><span data-stu-id="0f869-111">This topic describes how to import and create announcements.</span></span> <span data-ttu-id="0f869-112">Подробнее о назначении объявлений в таблице неназначенных номеров можно узнать в статье [Настройка таблицы неназначенных номеров в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).</span><span class="sxs-lookup"><span data-stu-id="0f869-112">For details about assigning announcements in the unassigned number table, see [Configure the unassigned number table in Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-new-announcement"></a><span data-ttu-id="36f3a-113">Создание нового оповещения</span><span class="sxs-lookup"><span data-stu-id="36f3a-113">To create a new announcement</span></span>
+## <a name="to-create-a-new-announcement"></a><span data-ttu-id="0f869-113">Создание нового оповещения</span><span class="sxs-lookup"><span data-stu-id="0f869-113">To create a new announcement</span></span>
 
-1.  <span data-ttu-id="36f3a-114">Если планируется использовать звуковые приглашения, создайте звуковой файл.</span><span class="sxs-lookup"><span data-stu-id="36f3a-114">For audio prompts, create the audio file.</span></span>
+1.  <span data-ttu-id="0f869-114">Если планируется использовать звуковые приглашения, создайте звуковой файл.</span><span class="sxs-lookup"><span data-stu-id="0f869-114">For audio prompts, create the audio file.</span></span>
 
-2.  <span data-ttu-id="36f3a-115">Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="36f3a-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+2.  <span data-ttu-id="0f869-115">Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="0f869-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-3.  <span data-ttu-id="36f3a-116">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="36f3a-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+3.  <span data-ttu-id="0f869-116">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="0f869-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-4.  <span data-ttu-id="36f3a-117">Для звуковых приглашений выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="36f3a-117">For audio prompts, run:</span></span>
+4.  <span data-ttu-id="0f869-117">Для звуковых приглашений выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0f869-117">For audio prompts, run:</span></span>
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  <span data-ttu-id="36f3a-118">Выполняем</span><span class="sxs-lookup"><span data-stu-id="36f3a-118">Run:</span></span>
+5.  <span data-ttu-id="0f869-118">Выполняем</span><span class="sxs-lookup"><span data-stu-id="0f869-118">Run:</span></span>
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
-    <span data-ttu-id="36f3a-p103">Для перевода звонков на голосовую почту введите SIP-адрес в формате sip:имя_пользователя@имя_домена;opaque=app:voicemail (пример: sip:bob@contoso.com;opaque=app:voicemail). Для перевода звонков на номер телефона введите SIP-адрес в формате sip:номер@имя_домена;user=phone (пример: sip:+ 14255550121@contoso.com;user=phone).</span><span class="sxs-lookup"><span data-stu-id="36f3a-p103">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail). For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
+    <span data-ttu-id="0f869-p103">Для перевода звонков на голосовую почту введите SIP-адрес в формате sip:имя_пользователя@имя_домена;opaque=app:voicemail (пример: sip:bob@contoso.com;opaque=app:voicemail). Для перевода звонков на номер телефона введите SIP-адрес в формате sip:номер@имя_домена;user=phone (пример: sip:+ 14255550121@contoso.com;user=phone).</span><span class="sxs-lookup"><span data-stu-id="0f869-p103">For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail). For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).</span></span>
     
-    <span data-ttu-id="36f3a-121">Например, чтобы указать звуковое приглашение, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="36f3a-121">For example, to specify an audio prompt:</span></span>
+    <span data-ttu-id="0f869-121">Например, чтобы указать звуковое приглашение, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0f869-121">For example, to specify an audio prompt:</span></span>
     
         $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
         Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
     
-    <span data-ttu-id="36f3a-122">Например, чтобы указать текстовое приглашение, преобразованное в речь, введите:</span><span class="sxs-lookup"><span data-stu-id="36f3a-122">For example, to specify a TTS prompt:</span></span>
+    <span data-ttu-id="0f869-122">Например, чтобы указать текстовое приглашение, преобразованное в речь, введите:</span><span class="sxs-lookup"><span data-stu-id="0f869-122">For example, to specify a TTS prompt:</span></span>
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    <span data-ttu-id="36f3a-123">Для получения дополнительных сведений об этих командлетах и просмотра списка языковых кодов, используемых в параметре **тексттоспичпромпт** , ознакомьтесь со статьей [New – ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).</span><span class="sxs-lookup"><span data-stu-id="36f3a-123">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).</span></span>
+    <span data-ttu-id="0f869-123">Для получения дополнительных сведений об этих командлетах и просмотра списка языковых кодов, используемых в параметре **тексттоспичпромпт** , ознакомьтесь со статьей [New – ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).</span><span class="sxs-lookup"><span data-stu-id="0f869-123">For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="36f3a-124">См. также</span><span class="sxs-lookup"><span data-stu-id="36f3a-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0f869-124">См. также</span><span class="sxs-lookup"><span data-stu-id="0f869-124">See Also</span></span>
 
 
-[<span data-ttu-id="36f3a-125">Import — CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="36f3a-125">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
-[<span data-ttu-id="36f3a-126">New — Ксаннаунцемент</span><span class="sxs-lookup"><span data-stu-id="36f3a-126">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
-[<span data-ttu-id="36f3a-127">Настройка таблицы неназначенных номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3a-127">Configure the unassigned number table in Lync Server 2013</span></span>](lync-server-2013-configure-the-unassigned-number-table.md)  
+[<span data-ttu-id="0f869-125">Import — CsAnnouncementFile</span><span class="sxs-lookup"><span data-stu-id="0f869-125">Import-CsAnnouncementFile</span></span>](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
+[<span data-ttu-id="0f869-126">New — Ксаннаунцемент</span><span class="sxs-lookup"><span data-stu-id="0f869-126">New-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[<span data-ttu-id="0f869-127">Настройка таблицы неназначенных номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f869-127">Configure the unassigned number table in Lync Server 2013</span></span>](lync-server-2013-configure-the-unassigned-number-table.md)  
   
 
 </div>

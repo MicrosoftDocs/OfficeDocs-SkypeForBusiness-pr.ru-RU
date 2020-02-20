@@ -12,20 +12,20 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82c1ad2072f5f8611660efc44a502249f26d21b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029720"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a><span data-ttu-id="e4553-102">Настройка служб федерации Active Directory (AD FS 2,0) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e4553-102">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a><span data-ttu-id="7fe8d-102">Настройка служб федерации Active Directory (AD FS 2,0) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fe8d-102">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42029720"
 
 <span> </span>
 
-<span data-ttu-id="e4553-103">_**Последнее изменение темы:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="e4553-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="7fe8d-103">_**Последнее изменение темы:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="7fe8d-103">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="e4553-104">В следующем разделе описано, как настроить службы федерации Active Directory (AD FS 2,0) для поддержки многофакторной проверки подлинности.</span><span class="sxs-lookup"><span data-stu-id="e4553-104">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="e4553-105">Сведения о том, как установить AD FS 2,0, можно найти в статье AD FS 2,0 пошаговые инструкции и руководства по [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).</span><span class="sxs-lookup"><span data-stu-id="e4553-105">For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).</span></span>
+<span data-ttu-id="7fe8d-104">В следующем разделе описано, как настроить службы федерации Active Directory (AD FS 2,0) для поддержки многофакторной проверки подлинности.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-104">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="7fe8d-105">Сведения о том, как установить AD FS 2,0, можно найти в статье AD FS 2,0 пошаговые инструкции и руководства по [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).</span><span class="sxs-lookup"><span data-stu-id="7fe8d-105">For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).</span></span>
 
 <div class="">
 
 
 > [!NOTE]  
-> <span data-ttu-id="e4553-106">При установке служб федерации Active Directory 2,0 не используйте Диспетчер Windows Server для добавления роли служб федерации Active Directory.</span><span class="sxs-lookup"><span data-stu-id="e4553-106">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="e4553-107">Вместо этого скачайте и установите пакет RTW 2,0 служб федерации Active Directory на сайте <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span><span class="sxs-lookup"><span data-stu-id="e4553-107">Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span></span>
+> <span data-ttu-id="7fe8d-106">При установке служб федерации Active Directory 2,0 не используйте Диспетчер Windows Server для добавления роли служб федерации Active Directory.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-106">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="7fe8d-107">Вместо этого скачайте и установите пакет RTW 2,0 служб федерации Active Directory на сайте <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-107">Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span></span>
 
 
 
@@ -52,27 +52,27 @@ ms.locfileid: "42029720"
 <div>
 
 
-<span data-ttu-id="e4553-108">**Настройка AD FS для двухфакторной проверки подлинности**</span><span class="sxs-lookup"><span data-stu-id="e4553-108">**To configure AD FS for two-factor Authentication**</span></span>
+<span data-ttu-id="7fe8d-108">**Настройка AD FS для двухфакторной проверки подлинности**</span><span class="sxs-lookup"><span data-stu-id="7fe8d-108">**To configure AD FS for two-factor Authentication**</span></span>
 
-1.  <span data-ttu-id="e4553-109">Выполните вход на компьютер с AD FS 2,0 с помощью учетной записи администратора домена.</span><span class="sxs-lookup"><span data-stu-id="e4553-109">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+1.  <span data-ttu-id="7fe8d-109">Выполните вход на компьютер с AD FS 2,0 с помощью учетной записи администратора домена.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-109">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
 
-2.  <span data-ttu-id="e4553-110">Запуск Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e4553-110">Start Windows PowerShell.</span></span>
+2.  <span data-ttu-id="7fe8d-110">Запуск Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-110">Start Windows PowerShell.</span></span>
 
-3.  <span data-ttu-id="e4553-111">В командной строке Windows PowerShell выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="e4553-111">From the Windows PowerShell command-line, run the following command:</span></span>
+3.  <span data-ttu-id="7fe8d-111">В командной строке Windows PowerShell выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7fe8d-111">From the Windows PowerShell command-line, run the following command:</span></span>
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  <span data-ttu-id="e4553-112">Установите связь с каждым сервером Lync Server 2013 с накопительными пакетами обновления для Lync Server 2013: Июль 2013 директор, корпоративный пул и сервер Standard Edition, для которых будет включена пассивная проверка подлинности, выполнив следующую команду, заменив имя сервера, относящееся к конкретному развертыванию:</span><span class="sxs-lookup"><span data-stu-id="e4553-112">Establish a partnership with each Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
+4.  <span data-ttu-id="7fe8d-112">Установите связь с каждым сервером Lync Server 2013 с накопительными пакетами обновления для Lync Server 2013: Июль 2013 директор, корпоративный пул и сервер Standard Edition, для которых будет включена пассивная проверка подлинности, выполнив следующую команду, заменив имя сервера, относящееся к конкретному развертыванию:</span><span class="sxs-lookup"><span data-stu-id="7fe8d-112">Establish a partnership with each Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
-5.  <span data-ttu-id="e4553-113">В меню Администрирование откройте консоль управления AD FS 2,0.</span><span class="sxs-lookup"><span data-stu-id="e4553-113">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
+5.  <span data-ttu-id="7fe8d-113">В меню Администрирование откройте консоль управления AD FS 2,0.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-113">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
 
-6.  <span data-ttu-id="e4553-114">Разверните узел **отношения** \> доверия отношения **доверия с проверяющей стороной**.</span><span class="sxs-lookup"><span data-stu-id="e4553-114">Expand **Trust Relationships** \> **Relying Party Trusts**.</span></span>
+6.  <span data-ttu-id="7fe8d-114">Разверните узел **отношения** \> доверия отношения **доверия с проверяющей стороной**.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-114">Expand **Trust Relationships** \> **Relying Party Trusts**.</span></span>
 
-7.  <span data-ttu-id="e4553-115">Убедитесь, что для Lync Server 2013 с накопительными пакетами обновления для Lync Server 2013 создано новое отношение доверия: Июль 2013 Корпоративный пул или сервер Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="e4553-115">Verify that a new trust has been created for your Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Enterprise Pool or Standard Edition server.</span></span>
+7.  <span data-ttu-id="7fe8d-115">Убедитесь, что для Lync Server 2013 с накопительными пакетами обновления для Lync Server 2013 создано новое отношение доверия: Июль 2013 Корпоративный пул или сервер Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-115">Verify that a new trust has been created for your Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Enterprise Pool or Standard Edition server.</span></span>
 
-8.  <span data-ttu-id="e4553-116">Создайте и назначьте правило авторизации выдачи для отношения доверия с проверяющей стороной с помощью Windows PowerShell, выполнив следующие команды:</span><span class="sxs-lookup"><span data-stu-id="e4553-116">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+8.  <span data-ttu-id="7fe8d-116">Создайте и назначьте правило авторизации выдачи для отношения доверия с проверяющей стороной с помощью Windows PowerShell, выполнив следующие команды:</span><span class="sxs-lookup"><span data-stu-id="7fe8d-116">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
        ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -83,7 +83,7 @@ ms.locfileid: "42029720"
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
-9.  <span data-ttu-id="e4553-117">Создайте и назначьте правило преобразования выдачи для отношения доверия с проверяющей стороной с помощью Windows PowerShell, выполнив следующие команды:</span><span class="sxs-lookup"><span data-stu-id="e4553-117">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+9.  <span data-ttu-id="7fe8d-117">Создайте и назначьте правило преобразования выдачи для отношения доверия с проверяющей стороной с помощью Windows PowerShell, выполнив следующие команды:</span><span class="sxs-lookup"><span data-stu-id="7fe8d-117">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
        ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -93,11 +93,11 @@ ms.locfileid: "42029720"
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. <span data-ttu-id="e4553-118">В консоли управления AD FS 2,0 щелкните правой кнопкой мыши отношение доверия с проверяющей стороной и выберите команду **изменить правила утверждений**.</span><span class="sxs-lookup"><span data-stu-id="e4553-118">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
+10. <span data-ttu-id="7fe8d-118">В консоли управления AD FS 2,0 щелкните правой кнопкой мыши отношение доверия с проверяющей стороной и выберите команду **изменить правила утверждений**.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-118">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
 
-11. <span data-ttu-id="e4553-119">Выберите вкладку **правила авторизации выдачи** и убедитесь, что новое правило авторизации было успешно создано.</span><span class="sxs-lookup"><span data-stu-id="e4553-119">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
+11. <span data-ttu-id="7fe8d-119">Выберите вкладку **правила авторизации выдачи** и убедитесь, что новое правило авторизации было успешно создано.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-119">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
 
-12. <span data-ttu-id="e4553-120">Перейдите на вкладку **правила преобразования выдачи** и убедитесь, что новое правило преобразования успешно создано.</span><span class="sxs-lookup"><span data-stu-id="e4553-120">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
+12. <span data-ttu-id="7fe8d-120">Перейдите на вкладку **правила преобразования выдачи** и убедитесь, что новое правило преобразования успешно создано.</span><span class="sxs-lookup"><span data-stu-id="7fe8d-120">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
 
 </div>
 

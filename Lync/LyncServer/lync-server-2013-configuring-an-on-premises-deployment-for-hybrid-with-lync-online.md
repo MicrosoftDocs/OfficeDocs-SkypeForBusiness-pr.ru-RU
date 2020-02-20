@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0176e28f9fa09b5582c91d266fda93e6e7bb36be
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029700"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a><span data-ttu-id="6ab67-102">Настройка локального развертывания для гибридной среды с Lync Online</span><span class="sxs-lookup"><span data-stu-id="6ab67-102">Configuring an on-premises deployment for hybrid with Lync Online</span></span>
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a><span data-ttu-id="12b8b-102">Настройка локального развертывания для гибридной среды с Lync Online</span><span class="sxs-lookup"><span data-stu-id="12b8b-102">Configuring an on-premises deployment for hybrid with Lync Online</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42029700"
 
 <span> </span>
 
-<span data-ttu-id="6ab67-103">_**Последнее изменение темы:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="6ab67-103">_**Topic Last Modified:** 2014-05-28_</span></span>
+<span data-ttu-id="12b8b-103">_**Последнее изменение темы:** 2014-05-28_</span><span class="sxs-lookup"><span data-stu-id="12b8b-103">_**Topic Last Modified:** 2014-05-28_</span></span>
 
-<span data-ttu-id="6ab67-104">Гибридное развертывание — это развертывание, в котором некоторые пользователи размещены в локальной среде, а некоторые — в сети, но все пользователи используют один домен, например user@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="6ab67-104">A hybrid deployment is a deployment in which some users are homed on-premises and some users are homed online, but all users share the same domain, such as user@contoso.com.</span></span> <span data-ttu-id="6ab67-105">В этом разделе дается руководство по развертыванию приложений, которые требуются для гибридного развертывания, а затем описывается настройка развертывания, необходимая для его включения.</span><span class="sxs-lookup"><span data-stu-id="6ab67-105">This section guides you through deploying the applications required for a hybrid deployment, and then configuring your deployment to enable it.</span></span>
+<span data-ttu-id="12b8b-104">Гибридное развертывание — это развертывание, в котором некоторые пользователи размещены в локальной среде, а некоторые — в сети, но все пользователи используют один домен, например user@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="12b8b-104">A hybrid deployment is a deployment in which some users are homed on-premises and some users are homed online, but all users share the same domain, such as user@contoso.com.</span></span> <span data-ttu-id="12b8b-105">В этом разделе дается руководство по развертыванию приложений, которые требуются для гибридного развертывания, а затем описывается настройка развертывания, необходимая для его включения.</span><span class="sxs-lookup"><span data-stu-id="12b8b-105">This section guides you through deploying the applications required for a hybrid deployment, and then configuring your deployment to enable it.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6ab67-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="6ab67-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="12b8b-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="12b8b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="6ab67-107">Обзор гибридной среды Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ab67-107">Overview of the Lync Server 2013 hybrid environment</span></span>](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
+  - [<span data-ttu-id="12b8b-107">Обзор гибридной среды Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12b8b-107">Overview of the Lync Server 2013 hybrid environment</span></span>](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
-  - [<span data-ttu-id="6ab67-108">Действия по подготовке и развертыванию гибридной среды Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ab67-108">Steps to prepare and deploy Lync Server 2013 hybrid environment</span></span>](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
+  - [<span data-ttu-id="12b8b-108">Действия по подготовке и развертыванию гибридной среды Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12b8b-108">Steps to prepare and deploy Lync Server 2013 hybrid environment</span></span>](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 
-  - [<span data-ttu-id="6ab67-109">Настройка Федерации Lync Server 2013 с помощью Lync Online</span><span class="sxs-lookup"><span data-stu-id="6ab67-109">Configure federation of Lync Server 2013 with Lync Online</span></span>](lync-server-2013-configure-federation-with-lync-online.md)
+  - [<span data-ttu-id="12b8b-109">Настройка Федерации Lync Server 2013 с помощью Lync Online</span><span class="sxs-lookup"><span data-stu-id="12b8b-109">Configure federation of Lync Server 2013 with Lync Online</span></span>](lync-server-2013-configure-federation-with-lync-online.md)
 
-  - [<span data-ttu-id="6ab67-110">Настройка Федерации для поставщика голосовой конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ab67-110">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
+  - [<span data-ttu-id="12b8b-110">Настройка Федерации для поставщика голосовой конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12b8b-110">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
 
-  - [<span data-ttu-id="6ab67-111">Перемещение пользователей в Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ab67-111">Move users to Lync Online in Lync Server 2013</span></span>](lync-server-2013-move-users-to-lync-online.md)
+  - [<span data-ttu-id="12b8b-111">Перемещение пользователей в Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12b8b-111">Move users to Lync Online in Lync Server 2013</span></span>](lync-server-2013-move-users-to-lync-online.md)
 
-  - [<span data-ttu-id="6ab67-112">Администрирование пользователей в гибридном развертывании Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ab67-112">Administering users in a hybrid Lync Server 2013 deployment</span></span>](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
+  - [<span data-ttu-id="12b8b-112">Администрирование пользователей в гибридном развертывании Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12b8b-112">Administering users in a hybrid Lync Server 2013 deployment</span></span>](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
 
 </div>
 

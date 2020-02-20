@@ -12,20 +12,20 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae305052523c05bacb294928c1f81afd4e51931
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1ad9ae15dddfbc4a01e93a4f690183a0d2dec3fb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41995544"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="aa64c-102">Создание или изменение правила трансляции вручную в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="eed4f-102">Создание или изменение правила трансляции вручную в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41995544"
 
 <span> </span>
 
-<span data-ttu-id="aa64c-103">_**Последнее изменение темы:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="aa64c-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+<span data-ttu-id="eed4f-103">_**Последнее изменение темы:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="eed4f-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-<span data-ttu-id="aa64c-104">Если требуется задать правило преобразования путем создания регулярного выражения для шаблона соответствия и правила преобразования, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="aa64c-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="aa64c-105">Кроме того, можно ввести набор значений в инструменте **Создание правила преобразования** и включить панель управления Lync Server для создания соответствующего шаблона и правила преобразования.</span><span class="sxs-lookup"><span data-stu-id="aa64c-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="aa64c-106">Дополнительные сведения см. в статье [Создание или изменение правила преобразования с помощью средства создания правил преобразования в Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span><span class="sxs-lookup"><span data-stu-id="aa64c-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
+<span data-ttu-id="eed4f-104">Если требуется задать правило преобразования путем создания регулярного выражения для шаблона соответствия и правила преобразования, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="eed4f-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="eed4f-105">Кроме того, можно ввести набор значений в инструменте **Создание правила преобразования** и включить панель управления Lync Server для создания соответствующего шаблона и правила преобразования.</span><span class="sxs-lookup"><span data-stu-id="eed4f-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="eed4f-106">Дополнительные сведения см. в статье [Создание или изменение правила преобразования с помощью средства создания правил преобразования в Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span><span class="sxs-lookup"><span data-stu-id="eed4f-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
 
 <div>
 
-## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="aa64c-107">Определение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="aa64c-107">To define a translation rule manually</span></span>
+## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="eed4f-107">Определение правила преобразования вручную</span><span class="sxs-lookup"><span data-stu-id="eed4f-107">To define a translation rule manually</span></span>
 
-1.  <span data-ttu-id="aa64c-108">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="aa64c-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="aa64c-109">Дополнительные сведения см [в разделе Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="aa64c-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="eed4f-108">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="eed4f-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="eed4f-109">Дополнительные сведения см [в разделе Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="eed4f-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="aa64c-110">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="aa64c-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="aa64c-111">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="aa64c-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="eed4f-110">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="eed4f-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="eed4f-111">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="eed4f-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="aa64c-112">Чтобы приступить к определению правила преобразования, выполните действия, описанные в статье [Настройка магистрали с обходом сервера, в Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) до этапа 10 или [Настройка магистрали без обхода сервера в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) с шага 9.</span><span class="sxs-lookup"><span data-stu-id="aa64c-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
+3.  <span data-ttu-id="eed4f-112">Чтобы приступить к определению правила преобразования, выполните действия, описанные в статье [Настройка магистрали с обходом сервера, в Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) до этапа 10 или [Настройка магистрали без обхода сервера в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) с шага 9.</span><span class="sxs-lookup"><span data-stu-id="eed4f-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
 
-4.  <span data-ttu-id="aa64c-113">В поле **Имя** на странице **Создание правила преобразования** или  **Изменение правила преобразования** введите имя, описывающее шаблон номера для преобразования.</span><span class="sxs-lookup"><span data-stu-id="aa64c-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
+4.  <span data-ttu-id="eed4f-113">В поле **Имя** на странице **Создание правила преобразования** или  **Изменение правила преобразования** введите имя, описывающее шаблон номера для преобразования.</span><span class="sxs-lookup"><span data-stu-id="eed4f-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
 
-5.  <span data-ttu-id="aa64c-114">В поле **Описание** введите описание этого правила преобразования, например **Международный звонок из США** (необязательно).</span><span class="sxs-lookup"><span data-stu-id="aa64c-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
+5.  <span data-ttu-id="eed4f-114">В поле **Описание** введите описание этого правила преобразования, например **Международный звонок из США** (необязательно).</span><span class="sxs-lookup"><span data-stu-id="eed4f-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
 
-6.  <span data-ttu-id="aa64c-115">Внизу раздела **Построение правила преобразования** нажмите кнопку **Правка**.</span><span class="sxs-lookup"><span data-stu-id="aa64c-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
+6.  <span data-ttu-id="eed4f-115">Внизу раздела **Построение правила преобразования** нажмите кнопку **Правка**.</span><span class="sxs-lookup"><span data-stu-id="eed4f-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
 
-7.  <span data-ttu-id="aa64c-116">В диалоговом окне **Ввод регулярных выражений** введите следующее.</span><span class="sxs-lookup"><span data-stu-id="aa64c-116">Enter the following in **Type a Regular Expression**:</span></span>
+7.  <span data-ttu-id="eed4f-116">В диалоговом окне **Ввод регулярных выражений** введите следующее.</span><span class="sxs-lookup"><span data-stu-id="eed4f-116">Enter the following in **Type a Regular Expression**:</span></span>
     
-      - <span data-ttu-id="aa64c-117">В поле **Сопоставить этот шаблон** укажите шаблон, который будет использоваться для сопоставления номеров для преобразования.</span><span class="sxs-lookup"><span data-stu-id="aa64c-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
+      - <span data-ttu-id="eed4f-117">В поле **Сопоставить этот шаблон** укажите шаблон, который будет использоваться для сопоставления номеров для преобразования.</span><span class="sxs-lookup"><span data-stu-id="eed4f-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
     
-      - <span data-ttu-id="aa64c-118">В поле **Правило преобразования** укажите шаблон для формата преобразованных номеров.</span><span class="sxs-lookup"><span data-stu-id="aa64c-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
+      - <span data-ttu-id="eed4f-118">В поле **Правило преобразования** укажите шаблон для формата преобразованных номеров.</span><span class="sxs-lookup"><span data-stu-id="eed4f-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
     
-    <span data-ttu-id="aa64c-119">Например, если ввести \*\* ^ \\+ (\\{9}\\d d +) $\*\* в поле **сопоставить этот шаблон** и **011 $1** в **правиле преобразования**, то правило будет переводиться + 441235551010 на 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="aa64c-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
+    <span data-ttu-id="eed4f-119">Например, если ввести \*\* ^ \\+ (\\{9}\\d d +) $\*\* в поле **сопоставить этот шаблон** и **011 $1** в **правиле преобразования**, то правило будет переводиться + 441235551010 на 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="eed4f-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
 
-8.  <span data-ttu-id="aa64c-120">Чтобы сохранить правило преобразования, нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="aa64c-120">Click **OK** to save the translation rule.</span></span>
+8.  <span data-ttu-id="eed4f-120">Чтобы сохранить правило преобразования, нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="eed4f-120">Click **OK** to save the translation rule.</span></span>
 
-9.  <span data-ttu-id="aa64c-121">Чтобы сохранить конфигурацию магистрали, нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="aa64c-121">Click **OK** to save the trunk configuration.</span></span>
+9.  <span data-ttu-id="eed4f-121">Чтобы сохранить конфигурацию магистрали, нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="eed4f-121">Click **OK** to save the trunk configuration.</span></span>
 
-10. <span data-ttu-id="aa64c-122">На странице **Trunk Configuration** (Конфигурация магистрали) щелкните **Commit** (Сохранить) и затем щелкните **Commit all** (Сохранить все).</span><span class="sxs-lookup"><span data-stu-id="aa64c-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
+10. <span data-ttu-id="eed4f-122">На странице **Trunk Configuration** (Конфигурация магистрали) щелкните **Commit** (Сохранить) и затем щелкните **Commit all** (Сохранить все).</span><span class="sxs-lookup"><span data-stu-id="eed4f-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="aa64c-123">Всякий раз при создании или изменении правила преобразования необходимо выполнять команду <STRONG>Commit all</STRONG> (Сохранить все), чтобы опубликовать изменение конфигурации.</span><span class="sxs-lookup"><span data-stu-id="aa64c-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="aa64c-124">Дополнительные сведения см в статье <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</A> в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="aa64c-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="eed4f-123">Всякий раз при создании или изменении правила преобразования необходимо выполнять команду <STRONG>Commit all</STRONG> (Сохранить все), чтобы опубликовать изменение конфигурации.</span><span class="sxs-lookup"><span data-stu-id="eed4f-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="eed4f-124">Дополнительные сведения см в статье <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</A> в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="eed4f-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -82,16 +82,16 @@ ms.locfileid: "41995544"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="aa64c-125">См. также</span><span class="sxs-lookup"><span data-stu-id="aa64c-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eed4f-125">См. также</span><span class="sxs-lookup"><span data-stu-id="eed4f-125">See Also</span></span>
 
 
-[<span data-ttu-id="aa64c-126">Создание или изменение правила преобразования с помощью средства "Построение правила преобразования" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
-[<span data-ttu-id="aa64c-127">Настройка магистрали с обходом сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[<span data-ttu-id="aa64c-128">Настройка магистрали без обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
-[<span data-ttu-id="aa64c-129">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="eed4f-126">Создание или изменение правила преобразования с помощью средства "Построение правила преобразования" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
+[<span data-ttu-id="eed4f-127">Настройка магистрали с обходом сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="eed4f-128">Настройка магистрали без обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="eed4f-129">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[<span data-ttu-id="aa64c-130">Глобальные параметры обхода мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa64c-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="eed4f-130">Глобальные параметры обхода мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eed4f-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>
