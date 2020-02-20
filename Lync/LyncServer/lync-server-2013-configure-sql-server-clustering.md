@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035201"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Настройка кластеризации SQL Server для Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2014-01-10_
 
 Microsoft Lync Server 2013 поддерживает кластеризацию для SQL Server 2012 и SQL Server 2008 R2. Сведения о [поддержке программного обеспечения баз данных в Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Перед установкой и развертыванием сервера переднего плана Enterprise Edition и внутренней базы данных необходимо установить и настроить кластер SQL Server. Рекомендации и инструкции по настройке отказоустойчивой кластеризации в SQL Server 2012 приведены в разделе <http://technet.microsoft.com/library/hh231721.aspx>. Сведения об отказоустойчивой кластеризации в SQL Server 2008 <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>см.
+Перед установкой и развертыванием сервера переднего плана Enterprise Edition и внутренней базы данных необходимо установить и настроить кластер SQL Server. Рекомендации и инструкции по настройке отказоустойчивой кластеризации в SQL Server 2012 приведены в разделе <https://technet.microsoft.com/library/hh231721.aspx>. Сведения об отказоустойчивой кластеризации в SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>см.
 
 При установке SQL Server необходимо установить SQL Server Management Studio, чтобы управлять расположением баз данных и файлов журналов. SQL Server Management Studio устанавливается в качестве необязательного компонента при установке SQL Server.
 

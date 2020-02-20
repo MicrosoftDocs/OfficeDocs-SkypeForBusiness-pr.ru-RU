@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006997"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Ключевые индикаторы работоспособности в Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006997"
 
 _**Последнее изменение темы:** 2014-02-10_
 
-Эта статья является вспомогательной для [ключевых индикаторов работоспособности: фундамента для ведения работоспособного афиши Lync Servers](http://go.microsoft.com/fwlink/?linkid=391838) , которую можно загрузить из центра загрузки.
+Эта статья является вспомогательной для [ключевых индикаторов работоспособности: фундамента для ведения работоспособного афиши Lync Servers](https://go.microsoft.com/fwlink/?linkid=391838) , которую можно загрузить из центра загрузки.
 
 ![Плакат, описывающий устранение неполадок с помощью данных KHI](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Плакат, описывающий устранение неполадок с помощью данных KHI")
 
@@ -75,7 +75,7 @@ _**Последнее изменение темы:** 2014-02-10_
 
 Соберите счетчики производительности KHI и заполните электронную таблицу KHI, сопровождающую электронное руководство по работе с сетью, чтобы создать систему показателей, которая поможет вам определить работоспособность развертывания Lync на сервере. После заполнения он поможет восстановить среду и предоставит дополнительные сведения другим заинтересованным сторонам. Оцените Кхис на месячном уровне и внедрите их в действующие рабочие процессы развертывания.
 
-Скачайте электронное [руководство по сетевым подключениям Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677) , чтобы просмотреть полный список кхис и получить связанные электронные таблицы.
+Скачайте электронное [руководство по сетевым подключениям Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677) , чтобы просмотреть полный список кхис и получить связанные электронные таблицы.
 
 </div>
 
@@ -333,9 +333,9 @@ LySS = служба хранилища Lync
 ## <a name="see-also"></a>См. также
 
 
-[Руководство по сетевым подключениям Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Основные индикаторы работоспособности: основа для обслуживания работоспособных серверов Lync](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Методология качества вызовов Lync](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Руководство по сетевым подключениям Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Основные индикаторы работоспособности: основа для обслуживания работоспособных серверов Lync](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Методология качества вызовов Lync](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

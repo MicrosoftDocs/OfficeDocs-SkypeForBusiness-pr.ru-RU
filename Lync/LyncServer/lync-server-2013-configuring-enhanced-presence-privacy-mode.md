@@ -12,18 +12,18 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91326778777e6ddd1db2f8938cfb78e96ed8c7f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042991"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Настройка режима конфиденциальности расширенных сведений о присутствии в Lync Server 2013
 
@@ -64,7 +64,7 @@ _**Последнее изменение темы:** 2014-12-08_
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Эта команда включает режим конфиденциальности для всех параметров конфигурации конфиденциальности, которые в текущий момент используются в организации. Дополнительные сведения о том, как конфигурации политики режима конфиденциальности для расширенного присутствия в Lync Server управляют присутствием контакта для клиента Lync 2013, в статье базы знаний Майкрософт, которая [Включение режима конфиденциальности Lync Server позволяет обновить состояние присутствия некоторых контактов Lync до "недоступно"](http://support.microsoft.com/kb/3020057).
+    Эта команда включает режим конфиденциальности для всех параметров конфигурации конфиденциальности, которые в текущий момент используются в организации. Дополнительные сведения о том, как конфигурации политики режима конфиденциальности для расширенного присутствия в Lync Server управляют присутствием контакта для клиента Lync 2013, в статье базы знаний Майкрософт, которая [Включение режима конфиденциальности Lync Server позволяет обновить состояние присутствия некоторых контактов Lync до "недоступно"](https://support.microsoft.com/kb/3020057).
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02c13f2b1fa312394edfaba01ecd05179f86a0c9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030593"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>Настройка представления галереи в Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2012-10-30_
 
 В Lync Server 2013 вы настраиваете Просмотр коллекции видео-конференций в политике конференц-связи. Представление галереи включено по умолчанию. Если вы хотите запретить представление галереи или разрешить его только для некоторых пользователей, вам необходимо отключить этот компонент в политике конференц-связи.
 
-Если видео участника конференции недоступно, можно улучшить работу с представлением коллекции пользователей при развертывании фотографий высокого разрешения, новой функции в Lync Server 2013. Фотографии с высоким разрешением предоставляют альтернативу уменьшению фотографий контактных лиц с ограниченным разрешением, хранящимся в доменных службах Active Directory. Фотографии высокого разрешения хранятся в почтовом ящике Exchange 2013 пользователя и, следовательно, требуют интеграции Lync Server 2013 с Exchange 2013. Дополнительные сведения можно найти в статье, посвященной сведениям о сайте [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)NextHop, "интеграция Exchange 2013 и Lync Server 2013".
+Если видео участника конференции недоступно, можно улучшить работу с представлением коллекции пользователей при развертывании фотографий высокого разрешения, новой функции в Lync Server 2013. Фотографии с высоким разрешением предоставляют альтернативу уменьшению фотографий контактных лиц с ограниченным разрешением, хранящимся в доменных службах Active Directory. Фотографии высокого разрешения хранятся в почтовом ящике Exchange 2013 пользователя и, следовательно, требуют интеграции Lync Server 2013 с Exchange 2013. Дополнительные сведения можно найти в статье, посвященной сведениям о сайте [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)NextHop, "интеграция Exchange 2013 и Lync Server 2013".
 
 <div>
 

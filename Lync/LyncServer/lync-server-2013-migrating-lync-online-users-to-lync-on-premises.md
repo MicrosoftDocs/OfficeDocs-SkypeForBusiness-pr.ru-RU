@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033338"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Миграция пользователей Lync Online в локальную среду Lync в Lync Server 2013
 
@@ -53,9 +53,9 @@ _**Последнее изменение темы:** 2015-11-13_
 
 1.  Сначала убедитесь, что ваша организация настроена для гибридной среды.
     
-      - Установите средство синхронизации Azure Active Directory. Дополнительные сведения см. в статье <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
+      - Установите средство синхронизации Azure Active Directory. Дополнительные сведения см. в статье <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Чтобы разрешить пользователям использовать единый вход для Lync Online, установите службы <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>федерации Active Directory.
+      - Чтобы разрешить пользователям использовать единый вход для Lync Online, установите службы <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>федерации Active Directory.
     
       - В локальном развертывании в командной консоли Lync Server введите следующие командлеты, чтобы создать поставщика услуг хостинга для Lync Online:
         
@@ -173,7 +173,7 @@ _**Последнее изменение темы:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Максимальный размер файлов журналов транзакций для базы данных rtcxds по умолчанию равен 16 ГБ. Это может быть недостаточно, если вы перемещаете большое число пользователей одновременно, особенно если зеркальное отображение включено. Чтобы обойти эту проблему, вы можете увеличить размер файла или регулярно создавать резервные копии файлов журналов. Для получения дополнительных сведений см <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
+    > Максимальный размер файлов журналов транзакций для базы данных rtcxds по умолчанию равен 16 ГБ. Это может быть недостаточно, если вы перемещаете большое число пользователей одновременно, особенно если зеркальное отображение включено. Чтобы обойти эту проблему, вы можете увеличить размер файла или регулярно создавать резервные копии файлов журналов. Для получения дополнительных сведений см <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>.
 
     
     </div>

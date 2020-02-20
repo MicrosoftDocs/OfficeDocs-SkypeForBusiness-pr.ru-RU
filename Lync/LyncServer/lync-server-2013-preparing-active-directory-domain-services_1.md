@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042961"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Подготовка доменных служб Active Directory в Lync Server 2013
 
@@ -78,7 +78,7 @@ _**Последнее изменение темы:** 2014-02-19_
     
 
     > [!NOTE]  
-    > Для Windows Server 2012 и Windows Server 2012 R2 вы устанавливаете и активизируете .NET Framework 4,5 с помощью диспетчера серверов. Подробнее: "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>. Для Windows Server&nbsp;2008&nbsp;R2 Скачайте и установите <A href="http://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> на веб-сайте Майкрософт.
+    > Для Windows Server 2012 и Windows Server 2012 R2 вы устанавливаете и активизируете .NET Framework 4,5 с помощью диспетчера серверов. Подробнее: "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>. Для Windows Server&nbsp;2008&nbsp;R2 Скачайте и установите <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> на веб-сайте Майкрософт.
 
     
     </div>
@@ -271,7 +271,7 @@ _**Последнее изменение темы:** 2014-02-19_
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Подробнее об использовании ldifde можно узнать в статье базы знаний Майкрософт 237677 "использование средства LDIFDE для импорта и экспорта объектов каталога в Active Directory" по адресу [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204).
+Подробнее об использовании ldifde можно узнать в статье базы знаний Майкрософт 237677 "использование средства LDIFDE для импорта и экспорта объектов каталога в Active Directory" по адресу [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204).
 
 </div>
 

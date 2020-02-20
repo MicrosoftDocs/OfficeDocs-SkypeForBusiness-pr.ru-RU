@@ -12,18 +12,18 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b70b6d6475c7b8ee4f5588ffe4975648588cae5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050411"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2014-03-14_
 
 Программное обеспечение Microsoft Lync Server 2013 Communications предоставляет решения для обмена мгновенными сообщениями, сведения о присутствии, конференц-связи и телефонии, которые могут поддерживать требования к совместной работе на уровне предприятия.
 
-Хотите скачать копию документации по Lync Server 2013? Файл COMPILED Help **LyncServer2013\_ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу. [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)
+Хотите скачать копию документации по Lync Server 2013? Файл COMPILED Help **LyncServer2013\_ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу. [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)
 
 В приведенных ниже таблицах перечислены разделы в библиотеке документации по Lync Server 2013.
 

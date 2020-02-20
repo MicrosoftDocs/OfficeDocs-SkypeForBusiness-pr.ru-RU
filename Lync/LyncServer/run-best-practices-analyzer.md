@@ -12,18 +12,18 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83b91cfaf77d2e4112b917438d84260ed5b21553
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a8aad7a429a57d6aaea7d285da0e3e87c23e8c6e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035705"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="run-best-practices-analyzer"></a>Запуск анализатора соответствия рекомендациям
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2012-03-21_
 
 Анализатор соответствия рекомендациям Lync Server 2010 собирает сведения о конфигурации из развертывания Lync Server 2010 и определяет, настроена ли конфигурация в соответствии с рекомендациями Майкрософт. Средство можно установить на клиентский компьютер, на котором работает Microsoft .NET Framework 3,5 с пакетом обновления 1 (SP1), или непосредственно на сервере, на котором работает Lync Server 2010. Рекомендуется установить и запускать это средство на клиентском компьютере. Средства администрирования Lync Server 2010 также должны быть установлены локально на клиентском компьютере, чтобы анализатор соответствия рекомендациям мог собирать полный набор данных.
 
-Вы можете скачать анализатор соответствия рекомендациям Lync Server 2010 из центра загрузки Майкрософт по адресу <http://go.microsoft.com/fwlink/p/?linkid=246173> .
+Вы можете скачать анализатор соответствия рекомендациям Lync Server 2010 из центра загрузки Майкрософт по адресу <https://go.microsoft.com/fwlink/p/?linkid=246173> .
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da6e0eb7c4377941992dfba9dd11312a12ee29a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041218"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="weekly-tasks-in-lync-server-2013"></a>Еженедельные задачи в Lync Server 2013
 
@@ -81,7 +81,7 @@ _**Последнее изменение темы:** 2015-08-17_
 
 ## <a name="check-iis-logs-and-performance"></a>Проверка журналов и производительности IIS
 
-Еженедельный обзор журналов и производительности служб IIS. Дополнительные сведения о мониторинге журналов и производительности IIS можно найти в статье [описание ведения журнала событий служб IIS для Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=36077). Проверка должна включать следующее:
+Еженедельный обзор журналов и производительности служб IIS. Дополнительные сведения о мониторинге журналов и производительности IIS можно найти в статье [описание ведения журнала событий служб IIS для Windows Server 2003](https://go.microsoft.com/fwlink/?linkid=36077). Проверка должна включать следующее:
 
   - Счетчики кэша веб-службы для мониторинга кэша службы WWW.
 
@@ -258,7 +258,7 @@ _**Последнее изменение темы:** 2015-08-17_
 
   - Фильтрация по области сети
 
-Документация для этого средства доступна в [документации по средствам набора ресурсов Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=623245).
+Документация для этого средства доступна в [документации по средствам набора ресурсов Lync Server 2013](https://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029620"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-web-app-in-lync-server-2013"></a>Развертывание Lync Web App в Lync Server 2013
 
@@ -78,9 +78,9 @@ Lync Server 2013 версии Lync Web App поддерживает многоф
 
 **Настройка многофакторной проверки подлинности**
 
-1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения см. в руководстве по развертыванию служб федерации Active Directory 2,0 в<http://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения см. в руководстве по развертыванию служб федерации Active Directory 2,0 в<https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
+2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
 
 3.  В интерфейсе командной строки Windows PowerShell выполните следующую команду:
     ```powershell
@@ -113,7 +113,7 @@ Lync Server 2013 версии Lync Web App поддерживает многоф
 
 Функция BranchCache в Windows 7 и Windows Server 2008 R2 может повлиять на веб-компоненты Lync Web App. Чтобы предотвратить возникновение проблем для пользователей Lync Web App, убедитесь, что служба BranchCache отключена.
 
-Дополнительные сведения об отключении BranchCache содержатся в руководстве по развертыванию BranchCache, доступном в формате Word в центре загрузки Майкрософт по [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) адресу и в формате HTML в технической библиотеке Windows Server 2008 R2 [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)по адресу.
+Дополнительные сведения об отключении BranchCache содержатся в руководстве по развертыванию BranchCache, доступном в формате Word в центре загрузки Майкрософт по [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) адресу и в формате HTML в технической библиотеке Windows Server 2008 R2 [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)по адресу.
 
 </div>
 

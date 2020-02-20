@@ -12,18 +12,18 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c70002eb7be67c221997465b6cdd5d252df284db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036689"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Планирование гибридных развертываний Lync Server 2013
 
@@ -55,9 +55,9 @@ _**Последнее изменение темы:** 2016-05-25_
 
   - Для поддержки единого входа в Office 365, чтобы пользователи могли использовать одни и те же учетные данные для входа в Office в локальной среде, вы можете использовать функции синхронизации паролей Azure Active Directory (AAD) Connect. Вы также можете использовать службы федерации Active Directory (AD FS) для единого входа в Office 365.
     
-    Дополнительные сведения см. в статье [Интеграция локальных удостоверений с Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+    Дополнительные сведения см. в статье [Интеграция локальных удостоверений с Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
-  - Единое решение синхронизации каталогов для синхронизации локальных и сетевых объектов Active Directory. Дополнительные сведения о синхронизации службы каталогов содержатся в разделе [средства интеграции каталогов](http://go.microsoft.com/fwlink/p/?linkid=530320).
+  - Единое решение синхронизации каталогов для синхронизации локальных и сетевых объектов Active Directory. Дополнительные сведения о синхронизации службы каталогов содержатся в разделе [средства интеграции каталогов](https://go.microsoft.com/fwlink/p/?linkid=530320).
 
 </div>
 
@@ -85,7 +85,7 @@ _**Последнее изменение темы:** 2016-05-25_
 
 Подробные сведения о поддержке клиентов можно найти в следующих разделах:
 
-  - [Клиенты для Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Клиенты для Lync Online](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Таблицы сравнения клиентов для Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -145,9 +145,9 @@ _**Последнее изменение темы:** 2016-05-25_
 
 </div>
 
-Дополнительные сведения о поддерживаемых топологиях приведены в статье [Поддерживаемые топологии в Lync server 2013 и в](lync-server-2013-supported-topologies.md) [эталонных топологиях Lync Server 2013 для корпоративных гибридных развертываний](http://go.microsoft.com/fwlink/p/?linkid=398709).
+Дополнительные сведения о поддерживаемых топологиях приведены в статье [Поддерживаемые топологии в Lync server 2013 и в](lync-server-2013-supported-topologies.md) [эталонных топологиях Lync Server 2013 для корпоративных гибридных развертываний](https://go.microsoft.com/fwlink/p/?linkid=398709).
 
-Сведения об устранении неполадок гибридных развертываний и подключении PowerShell к Lync Online можно найти в [Lync Online: Lync PowerShell и гибридное устранение неполадок](http://go.microsoft.com/fwlink/p/?linkid=306718).
+Сведения об устранении неполадок гибридных развертываний и подключении PowerShell к Lync Online можно найти в [Lync Online: Lync PowerShell и гибридное устранение неполадок](https://go.microsoft.com/fwlink/p/?linkid=306718).
 
 </div>
 
@@ -216,7 +216,7 @@ _**Последнее изменение темы:** 2016-05-25_
 
 В зависимости от расположения центра обработки данных Microsoft Online Services необходимо также настроить сетевые брандмауэры для приема подключений на основе доменных имен с подстановочными знаками (например, весь трафик от \*. Outlook.com). Если брандмауэры организации не поддерживают конфигурации с подстановочными именами, необходимо вручную определить диапазоны IP-адресов, которые необходимо разрешить, и указанные порты.
 
-Обратитесь к разделу Справка [Office 365 URL-адреса и диапазоны IP-адресов](http://go.microsoft.com/fwlink/p/?linkid=252942).
+Обратитесь к разделу Справка [Office 365 URL-адреса и диапазоны IP-адресов](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
 </div>
 
@@ -246,7 +246,7 @@ _**Последнее изменение темы:** 2016-05-25_
 <td><p>Открытый для входящего трафика</p>
 <ul>
 <li><p>Службы федерации Active Directory (роли серверов федерации)</p>
-<p>Более подробную информацию можно узнать в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Общие сведения о службах РОЛЕЙ AD FS</a>.</p></li>
+<p>Более подробную информацию можно узнать в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=281899">Общие сведения о службах РОЛЕЙ AD FS</a>.</p></li>
 <li><p>Службы федерации Active Directory (роли прокси-серверов)</p></li>
 <li><p>Портал Microsoft Online Services</p></li>
 <li><p>Портал моей организации</p></li>
@@ -323,7 +323,7 @@ _**Последнее изменение темы:** 2016-05-25_
 
   - **Клиент Lync некоторые**     пользователи могут требовать новую версию клиента при перемещении в Lync Online. Для Office Communications Server 2007 R2 пользователи должны быть перемещены в пул Lync Server 2013 до миграции в Lync Online.
     
-    Дополнительные сведения о поддержке клиентов можно найти в статье [клиенты для Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) и [Поддерживаемые клиенты Lync и конфигурации сетевых портов](http://go.microsoft.com/fwlink/p/?linkid=281901).
+    Дополнительные сведения о поддержке клиентов можно найти в статье [клиенты для Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) и [Поддерживаемые клиенты Lync и конфигурации сетевых портов](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
   - **Локальные политики и локальная конфигурация (не пользователь)**   в сети и локальных политиках требуют отдельной конфигурации. Задание глобальных политик невозможно.
 

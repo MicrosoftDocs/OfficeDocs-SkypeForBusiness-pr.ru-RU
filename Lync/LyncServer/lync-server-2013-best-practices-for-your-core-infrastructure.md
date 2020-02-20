@@ -12,18 +12,18 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 876a4de1357786e2d5089fdc632002107a6c7cc2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029210"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Рекомендации по основной инфраструктуре в Lync Server 2013
 
@@ -41,7 +41,7 @@ _**Последнее изменение темы:** 2014-01-27_
 
 Чтобы защитить серверы в развертывании Lync Server 2013 от случайных или пурпосефулных причин, которые могут привести к простоям, примите следующие меры предосторожности:
 
-  - Обновляйте свои серверы с помощью обновлений для системы безопасности. Подписка на службу уведомлений безопасности Майкрософт помогает убедиться в том, что вы получаете мгновенное уведомление о выпусках бюллетеней по безопасности для любого продукта Майкрософт. Чтобы подписаться, перейдите на веб-сайт уведомлений о [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)технической безопасности Майкрософт по адресу.
+  - Обновляйте свои серверы с помощью обновлений для системы безопасности. Подписка на службу уведомлений безопасности Майкрософт помогает убедиться в том, что вы получаете мгновенное уведомление о выпусках бюллетеней по безопасности для любого продукта Майкрософт. Чтобы подписаться, перейдите на веб-сайт уведомлений о [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)технической безопасности Майкрософт по адресу.
 
   - Убедитесь, что права доступа настроены правильно.
 

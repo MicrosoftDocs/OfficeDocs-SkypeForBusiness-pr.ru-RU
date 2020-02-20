@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032495"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Создание или редактирование конфигурации XMPP-партнеров в Lync Server 2013
 
@@ -75,7 +75,7 @@ Microsoft Lync Server 2013 интегрирует в пограничный се
     
     Более подробные сведения о требованиях XMPP см. в XSF-документе XEP-0178. Дополнительные сведения см. в статье о лучших методиках использования SASL EXTERNAL с сертификатами согласно XEP-0178. <http://xmpp.org/extensions/xep-0178.html>
     
-    Ознакомьтесь с документом IETF "расширенный обмен сообщениями и протоколами присутствия (XMPP): ядро", раздел 5,0 <http://tools.ietf.org/html/rfc6120>, согласование STARTTLS.
+    Ознакомьтесь с документом IETF "расширенный обмен сообщениями и протоколами присутствия (XMPP): ядро", раздел 5,0 <https://tools.ietf.org/html/rfc6120>, согласование STARTTLS.
     
       - **Согласование TLS**. Задает правила согласования TLS. Служба XMPP может требовать TLS, может установить необязательность TLS, а также вы можете задать, что TLS не поддерживается. При выборе значения "Необязательно" решение об обязательности согласования будет принимать служба XMPP. Чтобы просмотреть все возможные параметры и сведения о согласовании SASL, TLS и обратный вызов, включая недействительные и известные ошибки, — см. [Параметры согласования для федеративных партнеров XMPP в Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         

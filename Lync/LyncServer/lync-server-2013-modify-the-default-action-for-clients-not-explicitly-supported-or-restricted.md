@@ -12,18 +12,18 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63ff08d05c9c8c18b7f81f22b04e2168a14f1a8c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b33cdb0b2055c76d5a3fbfa1db893a1267318e8a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050691"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Изменение действия по умолчанию для клиентов, которые явно не поддерживаются или не ограничены в Lync Server 2013
 
@@ -79,7 +79,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Изменение действия по умолчанию с помощью командлетов Windows PowerShell
 
-Действие по умолчанию, выполняемое при попытке пользователя выполнить вход с использованием клиентов, которые не поддерживаются явно или запрещено политикой версий клиентов, может управляться с помощью интерфейса командной строки Windows PowerShell и командлета **Set – CsClientVersionPolicy** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Действие по умолчанию, выполняемое при попытке пользователя выполнить вход с использованием клиентов, которые не поддерживаются явно или запрещено политикой версий клиентов, может управляться с помощью интерфейса командной строки Windows PowerShell и командлета **Set – CsClientVersionPolicy** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 

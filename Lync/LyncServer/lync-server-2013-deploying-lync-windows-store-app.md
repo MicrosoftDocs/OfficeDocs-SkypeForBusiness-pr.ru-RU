@@ -12,18 +12,18 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2abe30cd464b223523df9d5fa878607404f7a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d27f7a2402fabbc28080ca5efc2532497c93c653
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050671"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Развертывание приложения Lync Windows для магазина в Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050671"
 
 _**Последнее изменение темы:** 2013-12-03_
 
-Прежде чем сделать приложение Lync Windows Store доступным для пользователей, убедитесь, что развертывание соответствует [требованиям к приложению для Магазина Windows Lync для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Для получения дополнительных сведений о настройке Lync Server 2013 для поддержки приложения Lync Windows для магазина ознакомьтесь со статьей блогов "Автообнаружение Lync Server" и "Lync Windows Store [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)" по адресу. После правильной настройки серверной среды можно направить пользователей на загрузку приложения Lync из Магазина Windows, выполнив поиск по словам "Lync".
+Прежде чем сделать приложение Lync Windows Store доступным для пользователей, убедитесь, что развертывание соответствует [требованиям к приложению для Магазина Windows Lync для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Для получения дополнительных сведений о настройке Lync Server 2013 для поддержки приложения Lync Windows для магазина ознакомьтесь со статьей блогов "Автообнаружение Lync Server" и "Lync Windows Store [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)" по адресу. После правильной настройки серверной среды можно направить пользователей на загрузку приложения Lync из Магазина Windows, выполнив поиск по словам "Lync".
 
 <div>
 
@@ -66,9 +66,9 @@ _**Последнее изменение темы:** 2013-12-03_
 
 **Настройка многофакторной проверки подлинности**
 
-1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения можно найти в руководстве по развертыванию служб федерации Active Directory <http://go.microsoft.com/fwlink/p/?linkid=267511>2,0 по адресу.
+1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения можно найти в руководстве по развертыванию служб федерации Active Directory <https://go.microsoft.com/fwlink/p/?linkid=267511>2,0 по адресу.
 
-2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
+2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
 
 3.  В интерфейсе командной строки Windows PowerShell выполните следующую команду:
     ```powershell
@@ -128,7 +128,7 @@ w32tm /resync
     
     1.  Откройте консоль управления Lync Server.
     
-    2.  Выполните следующую команду.
+    2.  Выполните следующую команду:
         ```powershell
         Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
         ```

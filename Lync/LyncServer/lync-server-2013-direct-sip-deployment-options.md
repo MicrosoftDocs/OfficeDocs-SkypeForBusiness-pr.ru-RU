@@ -12,18 +12,18 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03d3d51c8323ab448951255ac9f7cf8d284896ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036629"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Параметры прямого развертывания SIP в Lync Server 2013
 
@@ -71,7 +71,7 @@ _**Последнее изменение темы:** 2012-09-21_
 
 
 > [!NOTE]  
-> Если вы подключаете развертывание Lync Server к сертифицированному прямому партнеру по протоколу SIP, шлюз для телефонной сети общего пользования (PSTN) между сервером-посредником и УАТС не требуется. Список сертифицированных прямых партнеров SIP представлен на веб-сайте с открытым набором программ взаимодействия с <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>Microsoft Unified Communications.
+> Если вы подключаете развертывание Lync Server к сертифицированному прямому партнеру по протоколу SIP, шлюз для телефонной сети общего пользования (PSTN) между сервером-посредником и УАТС не требуется. Список сертифицированных прямых партнеров SIP представлен на веб-сайте с открытым набором программ взаимодействия с <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>Microsoft Unified Communications.
 
 
 

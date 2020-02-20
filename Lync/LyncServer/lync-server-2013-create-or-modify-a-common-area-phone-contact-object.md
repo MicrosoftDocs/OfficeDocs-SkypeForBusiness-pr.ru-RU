@@ -12,18 +12,18 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 418001642f387caf67277f408d4eb19109c98936
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 699fd4413e071a9377369a383c9fd379a3451c6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035417"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>Создание или изменение объекта контактного телефона общего пользования в Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2013-02-20_
 
 Чтобы создать объекты контактов доменных служб Active Directory для всех телефонов общедоступных телефонов, используйте командлет **New – CsCommonAreaPhone** . Этот командлет может создавать новые объекты контактов для использования с телефонными телефонами, а также связывать существующие объекты контактов с новым общим телефоном. Чтобы изменить свойства контактных объектов, связанных с телефонами на общих участках, используйте командлет **Set – CsCommonAreaPhone** . Необязательные параметры для **Set-CsCommonAreaPhone** позволяют изменять такие элементы, как отображаемое имя контакта Active Directory или универсальный код ресурса (URI), связанный с телефоном, а также включать и отключать учетную запись для использования с сервером Lync Server. Подробные сведения обо всех доступных изменениях можно найти в разделе Parameters (параметры [) на странице Set — CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone). Дополнительные сведения о параметрах **New – CsCommonAreaPhone** можно найти в статье [New — CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).
 
-Эти два командлета можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Эти два командлета можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
@@ -56,7 +56,7 @@ _**Последнее изменение темы:** 2013-02-20_
     
       - **OU**: различающееся имя контейнера Active Directory, в котором будет создан объект Contact.
     
-    Мы также рекомендуем указать отображаемое имя доменных служб Active Directory. В противном случае для указания удостоверения телефона необходимо использовать GUID. Пример:
+    Мы также рекомендуем указать отображаемое имя доменных служб Active Directory. В противном случае для указания удостоверения телефона необходимо использовать GUID. Например:
     
         New-CsCommonAreaPhone -LineUri "tel:+12065551219" -RegistrarPool "atl-cs-001.litwareinc.com" -OU "OU=Phones,dc=litwareinc,dc=com" -DisplayName "Lobby"
 

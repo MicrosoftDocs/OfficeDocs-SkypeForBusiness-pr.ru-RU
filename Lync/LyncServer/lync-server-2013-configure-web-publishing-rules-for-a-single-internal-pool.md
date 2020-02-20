@@ -12,18 +12,18 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d87e0096ee71fb08da396188d419e918f66e125
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e5961eedbaad72fddac42d6c2f8d54af97cfffa2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048062"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-web-publishing-rules-for-a-single-internal-pool-in-lync-server-2013"></a>Настройка правил веб-публикации для отдельного внутреннего пула в Lync Server 2013
 
@@ -135,7 +135,7 @@ Microsoft Forefront Threat Management Gateway 2010 и Internet Information Serve
     
 
     > [!NOTE]  
-    > Дополнительная справка, снимки экрана и рекомендации по развертыванию и настройке службы IIS ARR можно найти в статье NextHop <A href="http://go.microsoft.com/fwlink/?linkid=293391">с использованием IIS arr в качестве обратного прокси-сервера для Lync Server 2013</A>.
+    > Дополнительная справка, снимки экрана и рекомендации по развертыванию и настройке службы IIS ARR можно найти в статье NextHop <A href="https://go.microsoft.com/fwlink/?linkid=293391">с использованием IIS arr в качестве обратного прокси-сервера для Lync Server 2013</A>.
 
     
     </div>

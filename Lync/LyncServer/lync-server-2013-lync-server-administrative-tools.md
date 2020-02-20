@@ -12,18 +12,18 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 85ba9b1d9848fa51d798dd93b9cbc53daf69a6b7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030242"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 административные средства
 
@@ -113,7 +113,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 ## <a name="logging-tool"></a>Средство ведения журнала
 
-Средство ведения журнала Lync Server упрощает устранение неполадок за счет захвата ведения журнала и трассировки данных продукта во время работы продукта. Это средство можно использовать для запуска сеансов отладки на любой роли сервера Lync Server. Для получения дополнительных сведений о средстве ведения журнала обратитесь к документации по средству ведения журнала Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)в библиотеке TechNet по адресу.
+Средство ведения журнала Lync Server упрощает устранение неполадок за счет захвата ведения журнала и трассировки данных продукта во время работы продукта. Это средство можно использовать для запуска сеансов отладки на любой роли сервера Lync Server. Для получения дополнительных сведений о средстве ведения журнала обратитесь к документации по средству ведения журнала Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)в библиотеке TechNet по адресу.
 
 <div>
 

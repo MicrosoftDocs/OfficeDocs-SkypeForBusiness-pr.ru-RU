@@ -12,18 +12,18 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88343e0e430f28e7661c18072bad799c46d84f3f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2959cb53cd044a9a33d945f070fb1d2fdb55d821
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037639"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="mobility-cmdlets-in-lync-server-2013"></a>Командлеты мобильной связи в Lync Server 2013
 
@@ -123,7 +123,7 @@ _**Последнее изменение темы:** 2012-06-20_
 ## <a name="see-also"></a>См. также
 
 
-[Блог Lync Server PowerShell](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Блог Lync Server PowerShell](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
