@@ -12,20 +12,20 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d454f04d521324f51712a632a339617b259cde5e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ca31eb200cdc9241d109767e73ee521f1393d0a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41987144"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="3f4c5-102">Примеры запросов к базам данных QoE в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f4c5-102">Sample QoE database queries in Lync Server 2013</span></span>
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a><span data-ttu-id="acc22-102">Примеры запросов к базам данных QoE в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acc22-102">Sample QoE database queries in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41987144"
 
 <span> </span>
 
-<span data-ttu-id="3f4c5-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="3f4c5-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="acc22-103">_**Последнее изменение темы:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="acc22-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="3f4c5-104">В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).</span><span class="sxs-lookup"><span data-stu-id="3f4c5-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
+<span data-ttu-id="acc22-104">В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).</span><span class="sxs-lookup"><span data-stu-id="acc22-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span>
 
-<span data-ttu-id="3f4c5-105">Используйте следующий пример, чтобы получить значение дрожания и среднюю потерю пакетов для всех аудиопотоков.</span><span class="sxs-lookup"><span data-stu-id="3f4c5-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="acc22-105">Используйте следующий пример, чтобы получить значение дрожания и среднюю потерю пакетов для всех аудиопотоков.</span><span class="sxs-lookup"><span data-stu-id="acc22-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
 
     select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 
-<span data-ttu-id="3f4c5-106">Используйте следующий пример, чтобы определить общее количество конференций, использовавших консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="3f4c5-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="acc22-106">Используйте следующий пример, чтобы определить общее количество конференций, использовавших консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="acc22-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
 
     select avg(ConversationalMOS)
     from SessionView s
@@ -54,7 +54,7 @@ ms.locfileid: "41987144"
        and s.CallerUserAgentType = 4 -- Lync
        and s.CalleeUserAgentType = 4 -- Lync
 
-<span data-ttu-id="3f4c5-107">Используйте следующий пример, чтобы получить ConversstionalMOS, SendingMOS и ListendingMOS для устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="3f4c5-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="acc22-107">Используйте следующий пример, чтобы получить ConversstionalMOS, SendingMOS и ListendingMOS для устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="acc22-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
 
     select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
     from

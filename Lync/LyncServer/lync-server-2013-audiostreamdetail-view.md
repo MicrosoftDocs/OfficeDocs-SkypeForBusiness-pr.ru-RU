@@ -12,20 +12,20 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11279857e7bf217d311f4f2eb0a54a5d5f628084
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b69cdbbe7a4635e60e5912e6f41d2f089612b30a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044571"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a><span data-ttu-id="2299a-102">Представление Аудиостреамдетаил в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2299a-102">AudioStreamDetail view in Lync Server 2013</span></span>
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a><span data-ttu-id="d7498-102">Представление Аудиостреамдетаил в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7498-102">AudioStreamDetail view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42044571"
 
 <span> </span>
 
-<span data-ttu-id="2299a-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="2299a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="d7498-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="d7498-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="2299a-104">В представлении AudioStreamDetail хранятся сведения о всех аудиопотоках в базе данных.</span><span class="sxs-lookup"><span data-stu-id="2299a-104">The AudioStreamDetail View stores information about each audio stream in the database.</span></span> <span data-ttu-id="2299a-105">Это представление было представлено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2299a-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="d7498-104">В представлении AudioStreamDetail хранятся сведения о всех аудиопотоках в базе данных.</span><span class="sxs-lookup"><span data-stu-id="d7498-104">The AudioStreamDetail View stores information about each audio stream in the database.</span></span> <span data-ttu-id="d7498-105">Это представление было представлено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d7498-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,677 +48,677 @@ ms.locfileid: "42044571"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2299a-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="2299a-106">Column</span></span></th>
-<th><span data-ttu-id="2299a-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="2299a-107">Data Type</span></span></th>
-<th><span data-ttu-id="2299a-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="2299a-108">Details</span></span></th>
+<th><span data-ttu-id="d7498-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="d7498-106">Column</span></span></th>
+<th><span data-ttu-id="d7498-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d7498-107">Data Type</span></span></th>
+<th><span data-ttu-id="d7498-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="d7498-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-109">сессионтиме</span><span class="sxs-lookup"><span data-stu-id="2299a-109">SessionTime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-110">datetime</span><span class="sxs-lookup"><span data-stu-id="2299a-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-111">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2299a-111">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-109">сессионтиме</span><span class="sxs-lookup"><span data-stu-id="d7498-109">SessionTime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-110">datetime</span><span class="sxs-lookup"><span data-stu-id="d7498-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-111">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="d7498-111">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-112">сессионсек</span><span class="sxs-lookup"><span data-stu-id="2299a-112">SessionSeq</span></span></p></td>
-<td><p><span data-ttu-id="2299a-113">int</span><span class="sxs-lookup"><span data-stu-id="2299a-113">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-114">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2299a-114">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-112">сессионсек</span><span class="sxs-lookup"><span data-stu-id="d7498-112">SessionSeq</span></span></p></td>
+<td><p><span data-ttu-id="d7498-113">int</span><span class="sxs-lookup"><span data-stu-id="d7498-113">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-114">Ссылка из <a href="lync-server-2013-medialine-table.md">таблицы MediaLine в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="d7498-114">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-115">стреамид</span><span class="sxs-lookup"><span data-stu-id="2299a-115">StreamId</span></span></p></td>
-<td><p><span data-ttu-id="2299a-116">int</span><span class="sxs-lookup"><span data-stu-id="2299a-116">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-117">Уникальный идентификатор в линии мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="2299a-117">Unique ID within a media line.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-115">стреамид</span><span class="sxs-lookup"><span data-stu-id="d7498-115">StreamId</span></span></p></td>
+<td><p><span data-ttu-id="d7498-116">int</span><span class="sxs-lookup"><span data-stu-id="d7498-116">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-117">Уникальный идентификатор в линии мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="d7498-117">Unique ID within a media line.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-118">StartTime</span><span class="sxs-lookup"><span data-stu-id="2299a-118">StartTime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-119">datetime</span><span class="sxs-lookup"><span data-stu-id="2299a-119">datetime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-120">Время начала сеанса.</span><span class="sxs-lookup"><span data-stu-id="2299a-120">Start time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-118">StartTime</span><span class="sxs-lookup"><span data-stu-id="d7498-118">StartTime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-119">datetime</span><span class="sxs-lookup"><span data-stu-id="d7498-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-120">Время начала сеанса.</span><span class="sxs-lookup"><span data-stu-id="d7498-120">Start time of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-121">EndTime</span><span class="sxs-lookup"><span data-stu-id="2299a-121">EndTime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-122">datetime</span><span class="sxs-lookup"><span data-stu-id="2299a-122">datetime</span></span></p></td>
-<td><p><span data-ttu-id="2299a-123">Время окончания сеанса.</span><span class="sxs-lookup"><span data-stu-id="2299a-123">End time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-121">EndTime</span><span class="sxs-lookup"><span data-stu-id="d7498-121">EndTime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-122">datetime</span><span class="sxs-lookup"><span data-stu-id="d7498-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d7498-123">Время окончания сеанса.</span><span class="sxs-lookup"><span data-stu-id="d7498-123">End time of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-124">диалогкатегори</span><span class="sxs-lookup"><span data-stu-id="2299a-124">DialogCategory</span></span></p></td>
-<td><p><span data-ttu-id="2299a-125">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-125">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-126">Категория диалоговых окон: 0 — сервер Lync Server — это ветвь сервера-посредника; 1 — это сервер-посредник для шлюза PSTN.</span><span class="sxs-lookup"><span data-stu-id="2299a-126">Dialog category: 0 is the Lync Server to Mediation Server leg; 1 is the Mediation Server to PSTN gateway leg.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-124">диалогкатегори</span><span class="sxs-lookup"><span data-stu-id="d7498-124">DialogCategory</span></span></p></td>
+<td><p><span data-ttu-id="d7498-125">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-125">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-126">Категория диалоговых окон: 0 — сервер Lync Server — это ветвь сервера-посредника; 1 — это сервер-посредник для шлюза PSTN.</span><span class="sxs-lookup"><span data-stu-id="d7498-126">Dialog category: 0 is the Lync Server to Mediation Server leg; 1 is the Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-127">медиатионсервербипассфлаг</span><span class="sxs-lookup"><span data-stu-id="2299a-127">MediationServerBypassFlag</span></span></p></td>
-<td><p><span data-ttu-id="2299a-128">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-128">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-129">Флаг, указывающий, выполнял ли вызов обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="2299a-129">Flag indicating if the call was bypassed or not.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-127">медиатионсервербипассфлаг</span><span class="sxs-lookup"><span data-stu-id="d7498-127">MediationServerBypassFlag</span></span></p></td>
+<td><p><span data-ttu-id="d7498-128">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-128">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-129">Флаг, указывающий, выполнял ли вызов обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="d7498-129">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-130">медиабипассварнингфлаг</span><span class="sxs-lookup"><span data-stu-id="2299a-130">MediaBypassWarningFlag</span></span></p></td>
-<td><p><span data-ttu-id="2299a-131">int</span><span class="sxs-lookup"><span data-stu-id="2299a-131">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p102">Если это поле присутствует, оно указывает, почему вызов не выполнял обход сервера-посредника, даже если идентификаторы обхода соответствовали. Задается только одно значение:</span><span class="sxs-lookup"><span data-stu-id="2299a-p102">If present, indicates why a call was not bypassed even if the bypass IDs matched. Only one value is defined:</span></span></p>
-<p><span data-ttu-id="2299a-134">0x0001 — неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="2299a-134">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-130">медиабипассварнингфлаг</span><span class="sxs-lookup"><span data-stu-id="d7498-130">MediaBypassWarningFlag</span></span></p></td>
+<td><p><span data-ttu-id="d7498-131">int</span><span class="sxs-lookup"><span data-stu-id="d7498-131">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p102">Если это поле присутствует, оно указывает, почему вызов не выполнял обход сервера-посредника, даже если идентификаторы обхода соответствовали. Задается только одно значение:</span><span class="sxs-lookup"><span data-stu-id="d7498-p102">If present, indicates why a call was not bypassed even if the bypass IDs matched. Only one value is defined:</span></span></p>
+<p><span data-ttu-id="d7498-134">0x0001 — неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="d7498-134">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-135">каллприорити</span><span class="sxs-lookup"><span data-stu-id="2299a-135">CallPriority</span></span></p></td>
-<td><p><span data-ttu-id="2299a-136">int</span><span class="sxs-lookup"><span data-stu-id="2299a-136">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-137">Приоритет вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-137">Priority of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-135">каллприорити</span><span class="sxs-lookup"><span data-stu-id="d7498-135">CallPriority</span></span></p></td>
+<td><p><span data-ttu-id="d7498-136">int</span><span class="sxs-lookup"><span data-stu-id="d7498-136">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-137">Приоритет вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-137">Priority of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-138">каллерпул</span><span class="sxs-lookup"><span data-stu-id="2299a-138">CallerPool</span></span></p></td>
-<td><p><span data-ttu-id="2299a-139">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-139">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-140">Полное доменное имя пула вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-140">Caller pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-138">каллерпул</span><span class="sxs-lookup"><span data-stu-id="d7498-138">CallerPool</span></span></p></td>
+<td><p><span data-ttu-id="d7498-139">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-139">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-140">Полное доменное имя пула вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-140">Caller pool FQDN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-141">каллипул</span><span class="sxs-lookup"><span data-stu-id="2299a-141">CalleePool</span></span></p></td>
-<td><p><span data-ttu-id="2299a-142">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-142">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-143">Полное доменное имя пула вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-143">Callee pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-141">каллипул</span><span class="sxs-lookup"><span data-stu-id="d7498-141">CalleePool</span></span></p></td>
+<td><p><span data-ttu-id="d7498-142">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-142">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-143">Полное доменное имя пула вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-143">Callee pool FQDN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-144">Вызывающая сторона</span><span class="sxs-lookup"><span data-stu-id="2299a-144">Caller</span></span></p></td>
-<td><p><span data-ttu-id="2299a-145">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="2299a-145">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-146">URI вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-146">Caller’s URI.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-144">Вызывающая сторона</span><span class="sxs-lookup"><span data-stu-id="d7498-144">Caller</span></span></p></td>
+<td><p><span data-ttu-id="d7498-145">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d7498-145">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-146">URI вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-146">Caller’s URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-147">Вызываемого абонента</span><span class="sxs-lookup"><span data-stu-id="2299a-147">Callee</span></span></p></td>
-<td><p><span data-ttu-id="2299a-148">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="2299a-148">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-149">URI вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-149">Callee’s URI.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-147">Вызываемого абонента</span><span class="sxs-lookup"><span data-stu-id="d7498-147">Callee</span></span></p></td>
+<td><p><span data-ttu-id="d7498-148">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="d7498-148">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-149">URI вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-149">Callee’s URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-150">каллерусеражент</span><span class="sxs-lookup"><span data-stu-id="2299a-150">CallerUserAgent</span></span></p></td>
-<td><p><span data-ttu-id="2299a-151">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-151">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-152">Строка агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-152">Caller’s user agent string.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-150">каллерусеражент</span><span class="sxs-lookup"><span data-stu-id="d7498-150">CallerUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="d7498-151">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-151">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-152">Строка агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-152">Caller’s user agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-153">каллерусераженттипе</span><span class="sxs-lookup"><span data-stu-id="2299a-153">CallerUserAgentType</span></span></p></td>
-<td><p><span data-ttu-id="2299a-154">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-154">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-155">Тип агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-155">Type of the caller’s user agent.</span></span> <span data-ttu-id="2299a-156">Дополнительные сведения см. <a href="lync-server-2013-useragent-table.md">в таблице UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-156">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-153">каллерусераженттипе</span><span class="sxs-lookup"><span data-stu-id="d7498-153">CallerUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="d7498-154">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-154">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-155">Тип агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-155">Type of the caller’s user agent.</span></span> <span data-ttu-id="d7498-156">Дополнительные сведения см. <a href="lync-server-2013-useragent-table.md">в таблице UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-156">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-157">каллерусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="2299a-157">CallerUserAgentCategory</span></span></p></td>
-<td><p><span data-ttu-id="2299a-158">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="2299a-158">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-159">Категория агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-159">Category of the caller’s user agent.</span></span> <span data-ttu-id="2299a-160">Для получения подробных сведений ознакомьтесь со статьей <a href="lync-server-2013-useragentdef-table-qoe.md">таблица таблица useragentdef (QoE) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-160">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-157">каллерусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="d7498-157">CallerUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="d7498-158">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="d7498-158">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-159">Категория агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-159">Category of the caller’s user agent.</span></span> <span data-ttu-id="d7498-160">Для получения подробных сведений ознакомьтесь со статьей <a href="lync-server-2013-useragentdef-table-qoe.md">таблица таблица useragentdef (QoE) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-160">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-161">каллиусеражент</span><span class="sxs-lookup"><span data-stu-id="2299a-161">CalleeUserAgent</span></span></p></td>
-<td><p><span data-ttu-id="2299a-162">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-162">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-163">Строка агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-163">Callee’s user agent string.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-161">каллиусеражент</span><span class="sxs-lookup"><span data-stu-id="d7498-161">CalleeUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="d7498-162">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-162">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-163">Строка агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-163">Callee’s user agent string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-164">каллиусераженттипе</span><span class="sxs-lookup"><span data-stu-id="2299a-164">CalleeUserAgentType</span></span></p></td>
-<td><p><span data-ttu-id="2299a-165">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-165">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-166">Тип агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-166">Type of callee’s user agent.</span></span> <span data-ttu-id="2299a-167">Сведения о том, как просмотреть <a href="lync-server-2013-useragent-table.md">таблицу UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-167">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-164">каллиусераженттипе</span><span class="sxs-lookup"><span data-stu-id="d7498-164">CalleeUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="d7498-165">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-165">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-166">Тип агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-166">Type of callee’s user agent.</span></span> <span data-ttu-id="d7498-167">Сведения о том, как просмотреть <a href="lync-server-2013-useragent-table.md">таблицу UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-167">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-168">каллиусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="2299a-168">CalleeUserAgentCategory</span></span></p></td>
-<td><p><span data-ttu-id="2299a-169">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="2299a-169">nvarchar(64)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-170">Категория агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-170">Category of callee’s user agent.</span></span> <span data-ttu-id="2299a-171">Для получения дополнительных сведений смотрите <a href="lync-server-2013-useragentdef-table-qoe.md">таблицу таблица useragentdef (QoE) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-171">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-168">каллиусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="d7498-168">CalleeUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="d7498-169">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="d7498-169">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-170">Категория агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-170">Category of callee’s user agent.</span></span> <span data-ttu-id="d7498-171">Для получения дополнительных сведений смотрите <a href="lync-server-2013-useragentdef-table-qoe.md">таблицу таблица useragentdef (QoE) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-171">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-172">каллерендпоинт</span><span class="sxs-lookup"><span data-stu-id="2299a-172">CallerEndpoint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-173">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-173">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-174">Имя конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-174">Caller’s endpoint name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-172">каллерендпоинт</span><span class="sxs-lookup"><span data-stu-id="d7498-172">CallerEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-173">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-173">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-174">Имя конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-174">Caller’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-175">каллиендпоинт</span><span class="sxs-lookup"><span data-stu-id="2299a-175">CalleeEndpoint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-176">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-176">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-177">Имя конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-177">Callee’s endpoint name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-175">каллиендпоинт</span><span class="sxs-lookup"><span data-stu-id="d7498-175">CalleeEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-176">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-176">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-177">Имя конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-177">Callee’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-178">каллерос</span><span class="sxs-lookup"><span data-stu-id="2299a-178">CallerOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-179">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-179">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-180">Операционная система конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-180">Operating system (OS) of the caller’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-178">каллерос</span><span class="sxs-lookup"><span data-stu-id="d7498-178">CallerOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-179">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-179">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-180">Операционная система конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-180">Operating system (OS) of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-181">каллиос</span><span class="sxs-lookup"><span data-stu-id="2299a-181">CalleeOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-182">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-182">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-183">Операционная система конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-183">Operating system (OS) of the callee’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-181">каллиос</span><span class="sxs-lookup"><span data-stu-id="d7498-181">CalleeOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-182">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-182">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-183">Операционная система конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-183">Operating system (OS) of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-184">каллеркпунаме</span><span class="sxs-lookup"><span data-stu-id="2299a-184">CallerCPUName</span></span></p></td>
-<td><p><span data-ttu-id="2299a-185">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-185">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-186">Название ЦП конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-186">CPU name of the caller’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-184">каллеркпунаме</span><span class="sxs-lookup"><span data-stu-id="d7498-184">CallerCPUName</span></span></p></td>
+<td><p><span data-ttu-id="d7498-185">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-185">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-186">Название ЦП конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-186">CPU name of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-187">калликпунаме</span><span class="sxs-lookup"><span data-stu-id="2299a-187">CalleeCPUName</span></span></p></td>
-<td><p><span data-ttu-id="2299a-188">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-188">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-189">Название ЦП конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-189">CPU name of the callee’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-187">калликпунаме</span><span class="sxs-lookup"><span data-stu-id="d7498-187">CalleeCPUName</span></span></p></td>
+<td><p><span data-ttu-id="d7498-188">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-188">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-189">Название ЦП конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-189">CPU name of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-190">каллеркпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="2299a-190">CallerCPUNumberOfCores</span></span></p></td>
-<td><p><span data-ttu-id="2299a-191">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-191">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-192">Число ядер ЦП на конечной точке вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-192">Number of CPU cores in the caller’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-190">каллеркпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="d7498-190">CallerCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="d7498-191">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-191">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-192">Число ядер ЦП на конечной точке вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-192">Number of CPU cores in the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-193">калликпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="2299a-193">CalleeCPUNumberOfCores</span></span></p></td>
-<td><p><span data-ttu-id="2299a-194">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-194">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-195">Число ядер ЦП на конечной точке вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-195">Number of CPU cores in the callee’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-193">калликпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="d7498-193">CalleeCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="d7498-194">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-194">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-195">Число ядер ЦП на конечной точке вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-195">Number of CPU cores in the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-196">каллеркпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="2299a-196">CallerCPUProcessorSpeed</span></span></p></td>
-<td><p><span data-ttu-id="2299a-197">int</span><span class="sxs-lookup"><span data-stu-id="2299a-197">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-198">Скорость ЦП конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-198">CPU processor speed of the caller’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-196">каллеркпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="d7498-196">CallerCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d7498-197">int</span><span class="sxs-lookup"><span data-stu-id="d7498-197">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-198">Скорость ЦП конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-198">CPU processor speed of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-199">калликпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="2299a-199">CalleeCPUProcessorSpeed</span></span></p></td>
-<td><p><span data-ttu-id="2299a-200">int</span><span class="sxs-lookup"><span data-stu-id="2299a-200">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-201">Скорость ЦП конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-201">CPU processor speed of the callee’s endpoint.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-199">калликпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="d7498-199">CalleeCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d7498-200">int</span><span class="sxs-lookup"><span data-stu-id="d7498-200">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-201">Скорость ЦП конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-201">CPU processor speed of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-202">каллервиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="2299a-202">CallerVirtualizationFlag</span></span></p></td>
-<td><p><span data-ttu-id="2299a-203">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-203">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-204">Указывает, работает ли система вызывающего абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="2299a-204">Indicates whether the caller’s system is running in a virtualized environment.</span></span> <span data-ttu-id="2299a-205">Более подробную информацию можно узнать <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-205">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-202">каллервиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="d7498-202">CallerVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="d7498-203">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-203">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-204">Указывает, работает ли система вызывающего абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="d7498-204">Indicates whether the caller’s system is running in a virtualized environment.</span></span> <span data-ttu-id="d7498-205">Более подробную информацию можно узнать <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-205">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-206">калливиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="2299a-206">CalleeVirtualizationFlag</span></span></p></td>
-<td><p><span data-ttu-id="2299a-207">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-207">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-208">Указывает, работает ли система вызываемого абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="2299a-208">Indicates whether the callee’s system is running in a virtualized environment.</span></span> <span data-ttu-id="2299a-209">Более подробную информацию можно узнать <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-209">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-206">калливиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="d7498-206">CalleeVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="d7498-207">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-207">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-208">Указывает, работает ли система вызываемого абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="d7498-208">Indicates whether the callee’s system is running in a virtualized environment.</span></span> <span data-ttu-id="d7498-209">Более подробную информацию можно узнать <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-209">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-210">коррелатионкэй</span><span class="sxs-lookup"><span data-stu-id="2299a-210">CorrelationKey</span></span></p></td>
+<td><p><span data-ttu-id="d7498-210">коррелатионкэй</span><span class="sxs-lookup"><span data-stu-id="d7498-210">CorrelationKey</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="2299a-211">Ключ корреляции.</span><span class="sxs-lookup"><span data-stu-id="2299a-211">Correlation key.</span></span> <span data-ttu-id="2299a-212">Ссылка из <a href="lync-server-2013-sessioncorrelation-table.md">таблицы таблица sessioncorrelation в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2299a-212">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-211">Ключ корреляции.</span><span class="sxs-lookup"><span data-stu-id="d7498-211">Correlation key.</span></span> <span data-ttu-id="d7498-212">Ссылка из <a href="lync-server-2013-sessioncorrelation-table.md">таблицы таблица sessioncorrelation в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="d7498-212">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-213">коннективитице</span><span class="sxs-lookup"><span data-stu-id="2299a-213">ConnectivityIce</span></span></p></td>
-<td><p><span data-ttu-id="2299a-214">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-214">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-215">Сведения о канале передачи медиаданных, например прямой или ретранслируемый.</span><span class="sxs-lookup"><span data-stu-id="2299a-215">Information about the media path, such as direct or relayed.</span></span> <span data-ttu-id="2299a-216">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-216">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-213">коннективитице</span><span class="sxs-lookup"><span data-stu-id="d7498-213">ConnectivityIce</span></span></p></td>
+<td><p><span data-ttu-id="d7498-214">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-214">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-215">Сведения о канале передачи медиаданных, например прямой или ретранслируемый.</span><span class="sxs-lookup"><span data-stu-id="d7498-215">Information about the media path, such as direct or relayed.</span></span> <span data-ttu-id="d7498-216">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-216">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-217">каллерицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="2299a-217">CallerIceWarningFlags</span></span></p></td>
-<td><p><span data-ttu-id="2299a-218">int</span><span class="sxs-lookup"><span data-stu-id="2299a-218">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p111">Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="2299a-p111">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-217">каллерицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="d7498-217">CallerIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="d7498-218">int</span><span class="sxs-lookup"><span data-stu-id="d7498-218">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p111">Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="d7498-p111">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-221">каллиицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="2299a-221">CalleeIceWarningFlags</span></span></p></td>
-<td><p><span data-ttu-id="2299a-222">int</span><span class="sxs-lookup"><span data-stu-id="2299a-222">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p112">Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="2299a-p112">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-221">каллиицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="d7498-221">CalleeIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="d7498-222">int</span><span class="sxs-lookup"><span data-stu-id="d7498-222">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p112">Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="d7498-p112">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-225">Transport</span><span class="sxs-lookup"><span data-stu-id="2299a-225">Transport</span></span></p></td>
-<td><p><span data-ttu-id="2299a-226">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-226">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-227">Тип транспорта: 0 — UDP, 1 — TCP.</span><span class="sxs-lookup"><span data-stu-id="2299a-227">Transport type: 0 is UDP, 1 is TCP.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-225">Transport</span><span class="sxs-lookup"><span data-stu-id="d7498-225">Transport</span></span></p></td>
+<td><p><span data-ttu-id="d7498-226">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-226">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-227">Тип транспорта: 0 — UDP, 1 — TCP.</span><span class="sxs-lookup"><span data-stu-id="d7498-227">Transport type: 0 is UDP, 1 is TCP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-228">каллерипаддр</span><span class="sxs-lookup"><span data-stu-id="2299a-228">CallerIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="2299a-229">var (50)</span><span class="sxs-lookup"><span data-stu-id="2299a-229">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-230">IP-адрес вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-230">IP address of the caller.</span></span> <span data-ttu-id="2299a-231">Адрес может быть представлен в формате IPv4 или IPv6.</span><span class="sxs-lookup"><span data-stu-id="2299a-231">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-228">каллерипаддр</span><span class="sxs-lookup"><span data-stu-id="d7498-228">CallerIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d7498-229">var (50)</span><span class="sxs-lookup"><span data-stu-id="d7498-229">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-230">IP-адрес вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-230">IP address of the caller.</span></span> <span data-ttu-id="d7498-231">Адрес может быть представлен в формате IPv4 или IPv6.</span><span class="sxs-lookup"><span data-stu-id="d7498-231">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-232">каллерпорт</span><span class="sxs-lookup"><span data-stu-id="2299a-232">CallerPort</span></span></p></td>
-<td><p><span data-ttu-id="2299a-233">int</span><span class="sxs-lookup"><span data-stu-id="2299a-233">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-234">Порт, используемый вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="2299a-234">Port used by the caller.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-232">каллерпорт</span><span class="sxs-lookup"><span data-stu-id="d7498-232">CallerPort</span></span></p></td>
+<td><p><span data-ttu-id="d7498-233">int</span><span class="sxs-lookup"><span data-stu-id="d7498-233">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-234">Порт, используемый вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="d7498-234">Port used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-235">каллеринсиде</span><span class="sxs-lookup"><span data-stu-id="2299a-235">CallerInside</span></span></p></td>
-<td><p><span data-ttu-id="2299a-236">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-236">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-237">Указывает, находится ли вызывающий абонент во внутренней сети: 1 означает, что вызывающий абонент находится внутри корпоративной сети, 0 означает, что вызывающий абонент находится вне сети.</span><span class="sxs-lookup"><span data-stu-id="2299a-237">Indicates whether the caller is inside the interval network: 1 means caller is inside the enterprise network, 0 means the caller is outside the network.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-235">каллеринсиде</span><span class="sxs-lookup"><span data-stu-id="d7498-235">CallerInside</span></span></p></td>
+<td><p><span data-ttu-id="d7498-236">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-236">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-237">Указывает, находится ли вызывающий абонент во внутренней сети: 1 означает, что вызывающий абонент находится внутри корпоративной сети, 0 означает, что вызывающий абонент находится вне сети.</span><span class="sxs-lookup"><span data-stu-id="d7498-237">Indicates whether the caller is inside the interval network: 1 means caller is inside the enterprise network, 0 means the caller is outside the network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-238">каллиипаддр</span><span class="sxs-lookup"><span data-stu-id="2299a-238">CalleeIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="2299a-239">var (50)</span><span class="sxs-lookup"><span data-stu-id="2299a-239">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-240">IP-адрес вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-240">IP address of the callee.</span></span> <span data-ttu-id="2299a-241">Это может быть IPv4-адрес или IPv6-адрес.</span><span class="sxs-lookup"><span data-stu-id="2299a-241">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-238">каллиипаддр</span><span class="sxs-lookup"><span data-stu-id="d7498-238">CalleeIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d7498-239">var (50)</span><span class="sxs-lookup"><span data-stu-id="d7498-239">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-240">IP-адрес вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-240">IP address of the callee.</span></span> <span data-ttu-id="d7498-241">Это может быть IPv4-адрес или IPv6-адрес.</span><span class="sxs-lookup"><span data-stu-id="d7498-241">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-242">каллипорт</span><span class="sxs-lookup"><span data-stu-id="2299a-242">CalleePort</span></span></p></td>
-<td><p><span data-ttu-id="2299a-243">int</span><span class="sxs-lookup"><span data-stu-id="2299a-243">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-244">Порт, используемый вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="2299a-244">Port used by the callee.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-242">каллипорт</span><span class="sxs-lookup"><span data-stu-id="d7498-242">CalleePort</span></span></p></td>
+<td><p><span data-ttu-id="d7498-243">int</span><span class="sxs-lookup"><span data-stu-id="d7498-243">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-244">Порт, используемый вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="d7498-244">Port used by the callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-245">каллиинсиде</span><span class="sxs-lookup"><span data-stu-id="2299a-245">CalleeInside</span></span></p></td>
-<td><p><span data-ttu-id="2299a-246">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-246">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-247">Указывает, находится ли вызываемый абонент во внутренней сети: 1 означает, что вызываемый абонент находится внутри корпоративной сети, 0 означает, что вызываемый абонент находится вне сети.</span><span class="sxs-lookup"><span data-stu-id="2299a-247">Indicates whether the callee is inside the interval network: 1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-245">каллиинсиде</span><span class="sxs-lookup"><span data-stu-id="d7498-245">CalleeInside</span></span></p></td>
+<td><p><span data-ttu-id="d7498-246">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-246">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-247">Указывает, находится ли вызываемый абонент во внутренней сети: 1 означает, что вызываемый абонент находится внутри корпоративной сети, 0 означает, что вызываемый абонент находится вне сети.</span><span class="sxs-lookup"><span data-stu-id="d7498-247">Indicates whether the callee is inside the interval network: 1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-248">каллерусерсите</span><span class="sxs-lookup"><span data-stu-id="2299a-248">CallerUserSite</span></span></p></td>
-<td><p><span data-ttu-id="2299a-249">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-249">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-250">Имя сайта вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-250">Name of the caller’s site.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-248">каллерусерсите</span><span class="sxs-lookup"><span data-stu-id="d7498-248">CallerUserSite</span></span></p></td>
+<td><p><span data-ttu-id="d7498-249">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-249">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-250">Имя сайта вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-250">Name of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-251">каллеррегион</span><span class="sxs-lookup"><span data-stu-id="2299a-251">CallerRegion</span></span></p></td>
-<td><p><span data-ttu-id="2299a-252">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-252">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-253">Название страны или региона, где находится сайт вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-253">Name of the country/region of the caller’s site.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-251">каллеррегион</span><span class="sxs-lookup"><span data-stu-id="d7498-251">CallerRegion</span></span></p></td>
+<td><p><span data-ttu-id="d7498-252">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-252">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-253">Название страны или региона, где находится сайт вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-253">Name of the country/region of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-254">каллиусерсите</span><span class="sxs-lookup"><span data-stu-id="2299a-254">CalleeUserSite</span></span></p></td>
-<td><p><span data-ttu-id="2299a-255">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-255">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-256">Имя сайта вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-256">Name of the callee’s site.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-254">каллиусерсите</span><span class="sxs-lookup"><span data-stu-id="d7498-254">CalleeUserSite</span></span></p></td>
+<td><p><span data-ttu-id="d7498-255">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-255">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-256">Имя сайта вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-256">Name of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-257">каллирегион</span><span class="sxs-lookup"><span data-stu-id="2299a-257">CalleeRegion</span></span></p></td>
-<td><p><span data-ttu-id="2299a-258">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="2299a-258">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-259">Название страны или региона, где находится сайт вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-259">Name of the country/region of the callee’s site.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-257">каллирегион</span><span class="sxs-lookup"><span data-stu-id="d7498-257">CalleeRegion</span></span></p></td>
+<td><p><span data-ttu-id="d7498-258">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="d7498-258">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-259">Название страны или региона, где находится сайт вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-259">Name of the country/region of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-260">каллеррелайипаддр</span><span class="sxs-lookup"><span data-stu-id="2299a-260">CallerRelayIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="2299a-261">var (50)</span><span class="sxs-lookup"><span data-stu-id="2299a-261">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-262">IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="2299a-262">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="2299a-263">Дополнительные сведения см. <a href="lync-server-2013-ipaddress-table.md">в таблице IPAddress в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-263">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-260">каллеррелайипаддр</span><span class="sxs-lookup"><span data-stu-id="d7498-260">CallerRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d7498-261">var (50)</span><span class="sxs-lookup"><span data-stu-id="d7498-261">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-262">IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="d7498-262">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="d7498-263">Дополнительные сведения см. <a href="lync-server-2013-ipaddress-table.md">в таблице IPAddress в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-263">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-264">каллеррелайпорт</span><span class="sxs-lookup"><span data-stu-id="2299a-264">CallerRelayPort</span></span></p></td>
-<td><p><span data-ttu-id="2299a-265">int</span><span class="sxs-lookup"><span data-stu-id="2299a-265">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-266">Порт, используемый вызывающим абонентом в пограничной службе обработки аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="2299a-266">Port used on the A/V Edge service used by the caller.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-264">каллеррелайпорт</span><span class="sxs-lookup"><span data-stu-id="d7498-264">CallerRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="d7498-265">int</span><span class="sxs-lookup"><span data-stu-id="d7498-265">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-266">Порт, используемый вызывающим абонентом в пограничной службе обработки аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="d7498-266">Port used on the A/V Edge service used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-267">каллирелайипаддр</span><span class="sxs-lookup"><span data-stu-id="2299a-267">CalleeRelayIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="2299a-268">var (50)</span><span class="sxs-lookup"><span data-stu-id="2299a-268">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-269">IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="2299a-269">IP Address key of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="2299a-270">Дополнительные сведения см. <a href="lync-server-2013-ipaddress-table.md">в таблице IPAddress в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-270">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-267">каллирелайипаддр</span><span class="sxs-lookup"><span data-stu-id="d7498-267">CalleeRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="d7498-268">var (50)</span><span class="sxs-lookup"><span data-stu-id="d7498-268">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-269">IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="d7498-269">IP Address key of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="d7498-270">Дополнительные сведения см. <a href="lync-server-2013-ipaddress-table.md">в таблице IPAddress в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-270">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-271">каллирелайпорт</span><span class="sxs-lookup"><span data-stu-id="2299a-271">CalleeRelayPort</span></span></p></td>
-<td><p><span data-ttu-id="2299a-272">int</span><span class="sxs-lookup"><span data-stu-id="2299a-272">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-273">Порт, используемый вызываемым абонентом в пограничной службе обработки аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="2299a-273">Port used on the A/V Edge service used by the callee.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-271">каллирелайпорт</span><span class="sxs-lookup"><span data-stu-id="d7498-271">CalleeRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="d7498-272">int</span><span class="sxs-lookup"><span data-stu-id="d7498-272">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-273">Порт, используемый вызываемым абонентом в пограничной службе обработки аудио- и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="d7498-273">Port used on the A/V Edge service used by the callee.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-274">каллеркаптуредев</span><span class="sxs-lookup"><span data-stu-id="2299a-274">CallerCaptureDev</span></span></p></td>
-<td><p><span data-ttu-id="2299a-275">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-275">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-276">Имя устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-276">Caller’s capture device name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-274">каллеркаптуредев</span><span class="sxs-lookup"><span data-stu-id="d7498-274">CallerCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="d7498-275">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-275">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-276">Имя устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-276">Caller’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-277">каллеррендердев</span><span class="sxs-lookup"><span data-stu-id="2299a-277">CallerRenderDev</span></span></p></td>
-<td><p><span data-ttu-id="2299a-278">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-278">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-279">Имя устройства обработки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-279">Caller’s render device name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-277">каллеррендердев</span><span class="sxs-lookup"><span data-stu-id="d7498-277">CallerRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="d7498-278">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-278">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-279">Имя устройства обработки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-279">Caller’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-280">каллеркаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="2299a-280">CallerCaptureDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="2299a-281">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-281">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-282">Имя драйвера для устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-282">Caller’s capture device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-280">каллеркаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="d7498-280">CallerCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d7498-281">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-281">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-282">Имя драйвера для устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-282">Caller’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-283">каллеррендердривер</span><span class="sxs-lookup"><span data-stu-id="2299a-283">CallerRenderDriver</span></span></p></td>
-<td><p><span data-ttu-id="2299a-284">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-284">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-285">Имя драйвера для устройства обработки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-285">Caller’s render device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-283">каллеррендердривер</span><span class="sxs-lookup"><span data-stu-id="d7498-283">CallerRenderDriver</span></span></p></td>
+<td><p><span data-ttu-id="d7498-284">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-284">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-285">Имя драйвера для устройства обработки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-285">Caller’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-286">калликаптуредев</span><span class="sxs-lookup"><span data-stu-id="2299a-286">CalleeCaptureDev</span></span></p></td>
-<td><p><span data-ttu-id="2299a-287">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-287">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-288">Имя устройства захвата вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-288">Callee’s capture device name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-286">калликаптуредев</span><span class="sxs-lookup"><span data-stu-id="d7498-286">CalleeCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="d7498-287">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-287">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-288">Имя устройства захвата вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-288">Callee’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-289">каллирендердев</span><span class="sxs-lookup"><span data-stu-id="2299a-289">CalleeRenderDev</span></span></p></td>
-<td><p><span data-ttu-id="2299a-290">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-290">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-291">Имя устройства обработки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-291">Callee’s render device name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-289">каллирендердев</span><span class="sxs-lookup"><span data-stu-id="d7498-289">CalleeRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="d7498-290">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-290">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-291">Имя устройства обработки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-291">Callee’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-292">калликаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="2299a-292">CalleeCaptureDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="2299a-293">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-293">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-294">Имя драйвера для устройства захвата вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-294">Callee’s capture device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-292">калликаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="d7498-292">CalleeCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d7498-293">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-293">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-294">Имя драйвера для устройства захвата вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-294">Callee’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-295">каллирендердевдривер</span><span class="sxs-lookup"><span data-stu-id="2299a-295">CalleeRenderDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="2299a-296">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="2299a-296">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-297">Имя драйвера для устройства обработки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-297">Callee’s render device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-295">каллирендердевдривер</span><span class="sxs-lookup"><span data-stu-id="d7498-295">CalleeRenderDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="d7498-296">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d7498-296">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-297">Имя драйвера для устройства обработки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-297">Callee’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-298">каллернетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="2299a-298">CallerNetworkConnectionType</span></span></p></td>
-<td><p><span data-ttu-id="2299a-299">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-299">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-300">Тип подключения к сети вызывающего абонента: 0 — проводной, 1 — беспроводной.</span><span class="sxs-lookup"><span data-stu-id="2299a-300">Caller’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-298">каллернетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="d7498-298">CallerNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="d7498-299">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-299">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-300">Тип подключения к сети вызывающего абонента: 0 — проводной, 1 — беспроводной.</span><span class="sxs-lookup"><span data-stu-id="d7498-300">Caller’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-301">каллервпн</span><span class="sxs-lookup"><span data-stu-id="2299a-301">CallerVPN</span></span></p></td>
-<td><p><span data-ttu-id="2299a-302">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-302">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-303">Указывает, подключен ли вызывающий абонент через виртуальную частную сеть: 1 — да, 0 — нет.</span><span class="sxs-lookup"><span data-stu-id="2299a-303">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-301">каллервпн</span><span class="sxs-lookup"><span data-stu-id="d7498-301">CallerVPN</span></span></p></td>
+<td><p><span data-ttu-id="d7498-302">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-302">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-303">Указывает, подключен ли вызывающий абонент через виртуальную частную сеть: 1 — да, 0 — нет.</span><span class="sxs-lookup"><span data-stu-id="d7498-303">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-304">каллерлинкспид</span><span class="sxs-lookup"><span data-stu-id="2299a-304">CallerLinkSpeed</span></span></p></td>
-<td><p><span data-ttu-id="2299a-305">десятичное число (18, 0)</span><span class="sxs-lookup"><span data-stu-id="2299a-305">decimal(18,0)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-306">Скорость сетевого соединения в бит/с для конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-306">Network link speed for the caller's endpoint in bps.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-304">каллерлинкспид</span><span class="sxs-lookup"><span data-stu-id="d7498-304">CallerLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d7498-305">десятичное число (18, 0)</span><span class="sxs-lookup"><span data-stu-id="d7498-305">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-306">Скорость сетевого соединения в бит/с для конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-306">Network link speed for the caller's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-307">каллинетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="2299a-307">CalleeNetworkConnectionType</span></span></p></td>
-<td><p><span data-ttu-id="2299a-308">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-308">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-309">Тип подключения к сети вызываемого абонента: 0 — проводной, 1 — беспроводной.</span><span class="sxs-lookup"><span data-stu-id="2299a-309">Callee’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-307">каллинетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="d7498-307">CalleeNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="d7498-308">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-308">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-309">Тип подключения к сети вызываемого абонента: 0 — проводной, 1 — беспроводной.</span><span class="sxs-lookup"><span data-stu-id="d7498-309">Callee’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-310">калливпн</span><span class="sxs-lookup"><span data-stu-id="2299a-310">CalleeVPN</span></span></p></td>
-<td><p><span data-ttu-id="2299a-311">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-311">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-312">Указывает, подключен ли вызываемый абонент через виртуальную частную сеть: 1 — да, 0 — нет.</span><span class="sxs-lookup"><span data-stu-id="2299a-312">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-310">калливпн</span><span class="sxs-lookup"><span data-stu-id="d7498-310">CalleeVPN</span></span></p></td>
+<td><p><span data-ttu-id="d7498-311">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-311">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-312">Указывает, подключен ли вызываемый абонент через виртуальную частную сеть: 1 — да, 0 — нет.</span><span class="sxs-lookup"><span data-stu-id="d7498-312">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-313">каллилинкспид</span><span class="sxs-lookup"><span data-stu-id="2299a-313">CalleeLinkSpeed</span></span></p></td>
-<td><p><span data-ttu-id="2299a-314">десятичное число (18, 0)</span><span class="sxs-lookup"><span data-stu-id="2299a-314">decimal(18,0)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-315">Скорость сетевого соединения в бит/с для конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-315">Network link speed for the callee's endpoint in bps.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-313">каллилинкспид</span><span class="sxs-lookup"><span data-stu-id="d7498-313">CalleeLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="d7498-314">десятичное число (18, 0)</span><span class="sxs-lookup"><span data-stu-id="d7498-314">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-315">Скорость сетевого соединения в бит/с для конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-315">Network link speed for the callee's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-316">конверсатионалмос</span><span class="sxs-lookup"><span data-stu-id="2299a-316">ConversationalMOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-317">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-317">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-318">Узкополосный MOS аудиосеансов (на основе обоих аудиопотоков).</span><span class="sxs-lookup"><span data-stu-id="2299a-318">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
+<td><p><span data-ttu-id="d7498-316">конверсатионалмос</span><span class="sxs-lookup"><span data-stu-id="d7498-316">ConversationalMOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-317">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-317">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-318">Узкополосный MOS аудиосеансов (на основе обоих аудиопотоков).</span><span class="sxs-lookup"><span data-stu-id="d7498-318">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-319">апплиедбандвидслимит</span><span class="sxs-lookup"><span data-stu-id="2299a-319">AppliedBandwidthLimit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-320">int</span><span class="sxs-lookup"><span data-stu-id="2299a-320">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p117">Фактическая пропускная способность, доступная указанному потоку с учетом заданных параметров политики (TURN, API, SDP, сервер политики и т. д.). Это значение не следует путать с эффективной пропускной способностью, так как эффективная пропускная способность может оказаться ниже на основе оценки полосы пропускания. Это, по сути, максимальная пропускная способность отправляемого потока с учетом ограничений, наложенных оценкой полосы пропускания.</span><span class="sxs-lookup"><span data-stu-id="2299a-p117">Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-319">апплиедбандвидслимит</span><span class="sxs-lookup"><span data-stu-id="d7498-319">AppliedBandwidthLimit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-320">int</span><span class="sxs-lookup"><span data-stu-id="d7498-320">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p117">Фактическая пропускная способность, доступная указанному потоку с учетом заданных параметров политики (TURN, API, SDP, сервер политики и т. д.). Это значение не следует путать с эффективной пропускной способностью, так как эффективная пропускная способность может оказаться ниже на основе оценки полосы пропускания. Это, по сути, максимальная пропускная способность отправляемого потока с учетом ограничений, наложенных оценкой полосы пропускания.</span><span class="sxs-lookup"><span data-stu-id="d7498-p117">Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-324">життеринтерарривал</span><span class="sxs-lookup"><span data-stu-id="2299a-324">JitterInterArrival</span></span></p></td>
-<td><p><span data-ttu-id="2299a-325">int</span><span class="sxs-lookup"><span data-stu-id="2299a-325">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-326">Средний уровень дрожания в сети на основе статистики протокола RTCP.</span><span class="sxs-lookup"><span data-stu-id="2299a-326">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-324">життеринтерарривал</span><span class="sxs-lookup"><span data-stu-id="d7498-324">JitterInterArrival</span></span></p></td>
+<td><p><span data-ttu-id="d7498-325">int</span><span class="sxs-lookup"><span data-stu-id="d7498-325">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-326">Средний уровень дрожания в сети на основе статистики протокола RTCP.</span><span class="sxs-lookup"><span data-stu-id="d7498-326">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-327">життеринтерарривалмакс</span><span class="sxs-lookup"><span data-stu-id="2299a-327">JitterInterArrivalMax</span></span></p></td>
-<td><p><span data-ttu-id="2299a-328">int</span><span class="sxs-lookup"><span data-stu-id="2299a-328">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-329">Максимальный уровень дрожания в сети в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-329">Maximum network jitter during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-327">життеринтерарривалмакс</span><span class="sxs-lookup"><span data-stu-id="d7498-327">JitterInterArrivalMax</span></span></p></td>
+<td><p><span data-ttu-id="d7498-328">int</span><span class="sxs-lookup"><span data-stu-id="d7498-328">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-329">Максимальный уровень дрожания в сети в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-329">Maximum network jitter during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-330">паккетлоссрате</span><span class="sxs-lookup"><span data-stu-id="2299a-330">PacketLossRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-331">десятичное число (5, 4)</span><span class="sxs-lookup"><span data-stu-id="2299a-331">decimal(5,4)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-332">Средний коэффициент потерь пакетов в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-332">Average packet loss rate during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-330">паккетлоссрате</span><span class="sxs-lookup"><span data-stu-id="d7498-330">PacketLossRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-331">десятичное число (5, 4)</span><span class="sxs-lookup"><span data-stu-id="d7498-331">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-332">Средний коэффициент потерь пакетов в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-332">Average packet loss rate during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-333">паккетлоссратемакс</span><span class="sxs-lookup"><span data-stu-id="2299a-333">PacketLossRateMax</span></span></p></td>
-<td><p><span data-ttu-id="2299a-334">десятичное число (5, 4)</span><span class="sxs-lookup"><span data-stu-id="2299a-334">decimal(5,4)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-335">Максимальная потеря пакетов, наблюдавшаяся в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-335">Maximum packet loss observed during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-333">паккетлоссратемакс</span><span class="sxs-lookup"><span data-stu-id="d7498-333">PacketLossRateMax</span></span></p></td>
+<td><p><span data-ttu-id="d7498-334">десятичное число (5, 4)</span><span class="sxs-lookup"><span data-stu-id="d7498-334">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-335">Максимальная потеря пакетов, наблюдавшаяся в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-335">Maximum packet loss observed during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-336">бурстденсити</span><span class="sxs-lookup"><span data-stu-id="2299a-336">BurstDensity</span></span></p></td>
-<td><p><span data-ttu-id="2299a-337">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="2299a-337">decimal(9,4)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-338">Средняя плотность потерь пакетов во время пиков потерь в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-338">Average density of packet loss during bursts of losses during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-336">бурстденсити</span><span class="sxs-lookup"><span data-stu-id="d7498-336">BurstDensity</span></span></p></td>
+<td><p><span data-ttu-id="d7498-337">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="d7498-337">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-338">Средняя плотность потерь пакетов во время пиков потерь в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-338">Average density of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-339">бурстдуратион</span><span class="sxs-lookup"><span data-stu-id="2299a-339">BurstDuration</span></span></p></td>
-<td><p><span data-ttu-id="2299a-340">int</span><span class="sxs-lookup"><span data-stu-id="2299a-340">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-341">Средняя продолжительность потерь пакетов во время пиков потерь в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-341">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-339">бурстдуратион</span><span class="sxs-lookup"><span data-stu-id="d7498-339">BurstDuration</span></span></p></td>
+<td><p><span data-ttu-id="d7498-340">int</span><span class="sxs-lookup"><span data-stu-id="d7498-340">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-341">Средняя продолжительность потерь пакетов во время пиков потерь в течение вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-341">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-342">бурстгапденсити</span><span class="sxs-lookup"><span data-stu-id="2299a-342">BurstGapDensity</span></span></p></td>
-<td><p><span data-ttu-id="2299a-343">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="2299a-343">decimal(9,4)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-344">Средняя плотность потерь пакетов в промежутках между пиками потерь.</span><span class="sxs-lookup"><span data-stu-id="2299a-344">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-342">бурстгапденсити</span><span class="sxs-lookup"><span data-stu-id="d7498-342">BurstGapDensity</span></span></p></td>
+<td><p><span data-ttu-id="d7498-343">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="d7498-343">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-344">Средняя плотность потерь пакетов в промежутках между пиками потерь.</span><span class="sxs-lookup"><span data-stu-id="d7498-344">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-345">бурстгапдуратион</span><span class="sxs-lookup"><span data-stu-id="2299a-345">BurstGapDuration</span></span></p></td>
-<td><p><span data-ttu-id="2299a-346">int</span><span class="sxs-lookup"><span data-stu-id="2299a-346">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-347">Средняя продолжительность промежутков между пиками потерь пакетов.</span><span class="sxs-lookup"><span data-stu-id="2299a-347">Average duration of gaps between bursts of packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-345">бурстгапдуратион</span><span class="sxs-lookup"><span data-stu-id="d7498-345">BurstGapDuration</span></span></p></td>
+<td><p><span data-ttu-id="d7498-346">int</span><span class="sxs-lookup"><span data-stu-id="d7498-346">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-347">Средняя продолжительность промежутков между пиками потерь пакетов.</span><span class="sxs-lookup"><span data-stu-id="d7498-347">Average duration of gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-348">паккетутилизатион</span><span class="sxs-lookup"><span data-stu-id="2299a-348">PacketUtilization</span></span></p></td>
-<td><p><span data-ttu-id="2299a-349">int</span><span class="sxs-lookup"><span data-stu-id="2299a-349">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-350">Количество пакетов для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="2299a-350">Packet count for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-348">паккетутилизатион</span><span class="sxs-lookup"><span data-stu-id="d7498-348">PacketUtilization</span></span></p></td>
+<td><p><span data-ttu-id="d7498-349">int</span><span class="sxs-lookup"><span data-stu-id="d7498-349">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-350">Количество пакетов для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="d7498-350">Packet count for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-351">Самый полоса пропускания</span><span class="sxs-lookup"><span data-stu-id="2299a-351">BandwidthEst</span></span></p></td>
-<td><p><span data-ttu-id="2299a-352">int</span><span class="sxs-lookup"><span data-stu-id="2299a-352">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-353">Оценка пропускной способности для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="2299a-353">Bandwidth estimates for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-351">Самый полоса пропускания</span><span class="sxs-lookup"><span data-stu-id="d7498-351">BandwidthEst</span></span></p></td>
+<td><p><span data-ttu-id="d7498-352">int</span><span class="sxs-lookup"><span data-stu-id="d7498-352">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-353">Оценка пропускной способности для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="d7498-353">Bandwidth estimates for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-354">деградатионавг</span><span class="sxs-lookup"><span data-stu-id="2299a-354">DegradationAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-355">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-355">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p118">Снижение экспертной оценки качества (MOS) в сети для всего звонка в диапазоне от 0,0 до 5,0. Эта метрика показывает величину уменьшения MOS в сети, обусловленную дрожанием и потерей пакетов. Для приемлемого качества это значение должно быть меньше, чем 0,5.</span><span class="sxs-lookup"><span data-stu-id="2299a-p118">Network MOS Degradation for the whole call. Range is 0.0 to 5.0. This metric shows the amount the Network MOS was reduced because of jitter and packet loss. For acceptable quality it should less than 0.5.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-354">деградатионавг</span><span class="sxs-lookup"><span data-stu-id="d7498-354">DegradationAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-355">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-355">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p118">Снижение экспертной оценки качества (MOS) в сети для всего звонка в диапазоне от 0,0 до 5,0. Эта метрика показывает величину уменьшения MOS в сети, обусловленную дрожанием и потерей пакетов. Для приемлемого качества это значение должно быть меньше, чем 0,5.</span><span class="sxs-lookup"><span data-stu-id="d7498-p118">Network MOS Degradation for the whole call. Range is 0.0 to 5.0. This metric shows the amount the Network MOS was reduced because of jitter and packet loss. For acceptable quality it should less than 0.5.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-360">деградатионмакс</span><span class="sxs-lookup"><span data-stu-id="2299a-360">DegradationMax</span></span></p></td>
-<td><p><span data-ttu-id="2299a-361">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-361">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-362">Максимальное снижение экспертной оценки качества (MOS) в сети во время звонка.</span><span class="sxs-lookup"><span data-stu-id="2299a-362">Maximum Network MOS degradation during the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-360">деградатионмакс</span><span class="sxs-lookup"><span data-stu-id="d7498-360">DegradationMax</span></span></p></td>
+<td><p><span data-ttu-id="d7498-361">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-361">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-362">Максимальное снижение экспертной оценки качества (MOS) в сети во время звонка.</span><span class="sxs-lookup"><span data-stu-id="d7498-362">Maximum Network MOS degradation during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-363">деградатионжиттеравг</span><span class="sxs-lookup"><span data-stu-id="2299a-363">DegradationJitterAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-364">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-364">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-365">Снижение экспертной оценки качества (MOS) в сети, вызванное дрожанием.</span><span class="sxs-lookup"><span data-stu-id="2299a-365">Network MOS degradation caused by jitter.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-363">деградатионжиттеравг</span><span class="sxs-lookup"><span data-stu-id="d7498-363">DegradationJitterAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-364">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-364">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-365">Снижение экспертной оценки качества (MOS) в сети, вызванное дрожанием.</span><span class="sxs-lookup"><span data-stu-id="d7498-365">Network MOS degradation caused by jitter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-366">деградатионпаккетлоссавг</span><span class="sxs-lookup"><span data-stu-id="2299a-366">DegradationPacketLossAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-367">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-367">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-368">Снижение экспертной оценки качества (MOS) в сети, вызванное потерей пакетов.</span><span class="sxs-lookup"><span data-stu-id="2299a-368">Network MOS degradation caused by packet loss.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-366">деградатионпаккетлоссавг</span><span class="sxs-lookup"><span data-stu-id="d7498-366">DegradationPacketLossAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-367">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-367">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-368">Снижение экспертной оценки качества (MOS) в сети, вызванное потерей пакетов.</span><span class="sxs-lookup"><span data-stu-id="d7498-368">Network MOS degradation caused by packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-369">Таблица payloaddescription</span><span class="sxs-lookup"><span data-stu-id="2299a-369">PayloadDescription</span></span></p></td>
-<td><p><span data-ttu-id="2299a-370">int</span><span class="sxs-lookup"><span data-stu-id="2299a-370">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-371">Аудиокодек, используемый для вызова, на который ссылается <a href="lync-server-2013-payloaddescription-table.md">таблица таблица payloaddescription в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2299a-371">The audio codec used for the call, referenced from the <a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-369">Таблица payloaddescription</span><span class="sxs-lookup"><span data-stu-id="d7498-369">PayloadDescription</span></span></p></td>
+<td><p><span data-ttu-id="d7498-370">int</span><span class="sxs-lookup"><span data-stu-id="d7498-370">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-371">Аудиокодек, используемый для вызова, на который ссылается <a href="lync-server-2013-payloaddescription-table.md">таблица таблица payloaddescription в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="d7498-371">The audio codec used for the call, referenced from the <a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-372">аудиосамплерате</span><span class="sxs-lookup"><span data-stu-id="2299a-372">AudioSampleRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-373">int</span><span class="sxs-lookup"><span data-stu-id="2299a-373">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-374">Частота выборки для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="2299a-374">Sampling rate for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-372">аудиосамплерате</span><span class="sxs-lookup"><span data-stu-id="d7498-372">AudioSampleRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-373">int</span><span class="sxs-lookup"><span data-stu-id="d7498-373">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-374">Частота выборки для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="d7498-374">Sampling rate for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-375">каллерсендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-375">CallerSendSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-376">int</span><span class="sxs-lookup"><span data-stu-id="2299a-376">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p119">Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p119">Post-Analog Gain Control audio signal level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-375">каллерсендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-375">CallerSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-376">int</span><span class="sxs-lookup"><span data-stu-id="d7498-376">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p119">Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p119">Post-Analog Gain Control audio signal level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-381">каллерреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-381">CallerRecvSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-382">int</span><span class="sxs-lookup"><span data-stu-id="2299a-382">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p120">Уровень звукового сигнала для аудиопотока, принятого вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p120">Audio signal level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-381">каллерреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-381">CallerRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-382">int</span><span class="sxs-lookup"><span data-stu-id="d7498-382">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p120">Уровень звукового сигнала для аудиопотока, принятого вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p120">Audio signal level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-387">каллерсендноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-387">CallerSendNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-388">int</span><span class="sxs-lookup"><span data-stu-id="2299a-388">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p121">Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p121">Post-Analog Gain Control audio noise level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-387">каллерсендноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-387">CallerSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-388">int</span><span class="sxs-lookup"><span data-stu-id="d7498-388">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p121">Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p121">Post-Analog Gain Control audio noise level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-393">каллерреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-393">CallerRecvNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-394">int</span><span class="sxs-lookup"><span data-stu-id="2299a-394">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p122">Послеаналоговая регулировка уровня акустического шума для аудиопотока, полученного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p122">Post-Analog Gain Control audio noise level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-393">каллерреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-393">CallerRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-394">int</span><span class="sxs-lookup"><span data-stu-id="d7498-394">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p122">Послеаналоговая регулировка уровня акустического шума для аудиопотока, полученного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p122">Post-Analog Gain Control audio noise level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-399">каллеречоретурн</span><span class="sxs-lookup"><span data-stu-id="2299a-399">CallerEchoReturn</span></span></p></td>
-<td><p><span data-ttu-id="2299a-400">int</span><span class="sxs-lookup"><span data-stu-id="2299a-400">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p123">Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызывающего абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p123">Echo Return Loss Enhancement for the caller. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-399">каллеречоретурн</span><span class="sxs-lookup"><span data-stu-id="d7498-399">CallerEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="d7498-400">int</span><span class="sxs-lookup"><span data-stu-id="d7498-400">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p123">Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызывающего абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p123">Echo Return Loss Enhancement for the caller. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-405">каллерспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="2299a-405">CallerSpeakerGlitchRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-406">int</span><span class="sxs-lookup"><span data-stu-id="2299a-406">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p124">Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p124">Average glitches per five minutes for the caller’s loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-405">каллерспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="d7498-405">CallerSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-406">int</span><span class="sxs-lookup"><span data-stu-id="d7498-406">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p124">Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p124">Average glitches per five minutes for the caller’s loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-410">каллермикглитчрате</span><span class="sxs-lookup"><span data-stu-id="2299a-410">CallerMicGlitchRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-411">int</span><span class="sxs-lookup"><span data-stu-id="2299a-411">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p125">Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p125">Average glitches per five minutes for the caller’s microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-410">каллермикглитчрате</span><span class="sxs-lookup"><span data-stu-id="d7498-410">CallerMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-411">int</span><span class="sxs-lookup"><span data-stu-id="d7498-411">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p125">Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p125">Average glitches per five minutes for the caller’s microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-415">каллертиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="2299a-415">CallerTimestampDriftRateMic</span></span></p></td>
-<td><p><span data-ttu-id="2299a-416">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-416">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-417">Скорость рассинхронизации часов микрофона вызывающего абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="2299a-417">Caller’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-415">каллертиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="d7498-415">CallerTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="d7498-416">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-416">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-417">Скорость рассинхронизации часов микрофона вызывающего абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="d7498-417">Caller’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-418">каллертиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="2299a-418">CallerTimestampDriftRateSpk</span></span></p></td>
-<td><p><span data-ttu-id="2299a-419">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-419">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-420">Скорость рассинхронизации часов динамика вызывающего абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="2299a-420">Caller’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-418">каллертиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="d7498-418">CallerTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="d7498-419">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-419">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-420">Скорость рассинхронизации часов динамика вызывающего абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="d7498-420">Caller’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-421">каллертиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="2299a-421">CallerTimestampErrorMicMs</span></span></p></td>
-<td><p><span data-ttu-id="2299a-422">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-422">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-423">Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-423">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-421">каллертиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="d7498-421">CallerTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="d7498-422">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-422">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-423">Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-423">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-424">каллертиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="2299a-424">CallerTimestampErrorSpkMs</span></span></p></td>
-<td><p><span data-ttu-id="2299a-425">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-425">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-426">Средняя ошибка метки времени для потока воспроизведения динамиком вызывающего абонента, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-426">Average of the caller’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-424">каллертиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="d7498-424">CallerTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="d7498-425">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-425">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-426">Средняя ошибка метки времени для потока воспроизведения динамиком вызывающего абонента, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-426">Average of the caller’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-427">каллервсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="2299a-427">CallerVsEntryCauses</span></span></p></td>
-<td><p><span data-ttu-id="2299a-428">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-428">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-429">Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания.</span><span class="sxs-lookup"><span data-stu-id="2299a-429">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="2299a-430">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-430">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-427">каллервсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="d7498-427">CallerVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="d7498-428">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-428">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-429">Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания.</span><span class="sxs-lookup"><span data-stu-id="d7498-429">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="d7498-430">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-430">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-431">каллеречоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="2299a-431">CallerEchoEventCauses</span></span></p></td>
-<td><p><span data-ttu-id="2299a-432">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-432">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-433">Причины события эхосигнала для вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-433">Causes of an echo event for the caller.</span></span> <span data-ttu-id="2299a-434">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-434">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-431">каллеречоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="d7498-431">CallerEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="d7498-432">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-432">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-433">Причины события эхосигнала для вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-433">Causes of an echo event for the caller.</span></span> <span data-ttu-id="d7498-434">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-434">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-435">каллеречоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="2299a-435">CallerEchoPercentMicIn</span></span></p></td>
-<td><p><span data-ttu-id="2299a-436">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-436">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p128">Процент времени, когда в потоке захвата микрофоном вызывающего абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="2299a-p128">Percentage of time when echo is detected in the caller’s microphone capture stream. If headset is used, the value should be low.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-435">каллеречоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="d7498-435">CallerEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="d7498-436">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-436">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p128">Процент времени, когда в потоке захвата микрофоном вызывающего абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="d7498-p128">Percentage of time when echo is detected in the caller’s microphone capture stream. If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-439">каллеречоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="2299a-439">CallerEchoPercentSend</span></span></p></td>
-<td><p><span data-ttu-id="2299a-440">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-440">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p129">Процент времени, когда в потоке, отправленном вызывающим абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</span><span class="sxs-lookup"><span data-stu-id="2299a-p129">Percentage of time when echo is detected in the caller’s sent stream. High echo percentage in send streams an indication of echo leak.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-439">каллеречоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="d7498-439">CallerEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="d7498-440">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-440">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p129">Процент времени, когда в потоке, отправленном вызывающим абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</span><span class="sxs-lookup"><span data-stu-id="d7498-p129">Percentage of time when echo is detected in the caller’s sent stream. High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-443">каллеррксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-443">CallerRxAGCSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-444">int</span><span class="sxs-lookup"><span data-stu-id="2299a-444">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p130">Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</span><span class="sxs-lookup"><span data-stu-id="2299a-p130">Received signal level on the Mediation Server from the Gateway for the caller’s audio; this applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be -30 to -18 dBoV.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-443">каллеррксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-443">CallerRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-444">int</span><span class="sxs-lookup"><span data-stu-id="d7498-444">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p130">Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</span><span class="sxs-lookup"><span data-stu-id="d7498-p130">Received signal level on the Mediation Server from the Gateway for the caller’s audio; this applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be -30 to -18 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-448">каллеррксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-448">CallerRxAGCNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-449">int</span><span class="sxs-lookup"><span data-stu-id="2299a-449">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p131">Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</span><span class="sxs-lookup"><span data-stu-id="2299a-p131">Received signal level on the Mediation Server from the Gateway for the caller’s audio. This applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-448">каллеррксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-448">CallerRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-449">int</span><span class="sxs-lookup"><span data-stu-id="d7498-449">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p131">Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</span><span class="sxs-lookup"><span data-stu-id="d7498-p131">Received signal level on the Mediation Server from the Gateway for the caller’s audio. This applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-454">каллеррксагкгаин</span><span class="sxs-lookup"><span data-stu-id="2299a-454">CallerRxAGCGain</span></span></p></td>
-<td><p><span data-ttu-id="2299a-455">int</span><span class="sxs-lookup"><span data-stu-id="2299a-455">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-456">Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-456">Automatic gain control (AGC) on the Mediation Server side applied to the caller’s audio.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-454">каллеррксагкгаин</span><span class="sxs-lookup"><span data-stu-id="d7498-454">CallerRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="d7498-455">int</span><span class="sxs-lookup"><span data-stu-id="d7498-455">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-456">Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-456">Automatic gain control (AGC) on the Mediation Server side applied to the caller’s audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-457">каллеринитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="2299a-457">CallerInitialSignalLevelRMS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-458">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="2299a-458">float</span></span></p></td>
-<td><p><span data-ttu-id="2299a-459">Среднеквадратическое отклонение входящего сигнала вызывающего абонента до 30 первых секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-459">Root mean square (RMS) of the incoming signal to the caller for up to the first 30 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-457">каллеринитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="d7498-457">CallerInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-458">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="d7498-458">float</span></span></p></td>
+<td><p><span data-ttu-id="d7498-459">Среднеквадратическое отклонение входящего сигнала вызывающего абонента до 30 первых секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-459">Root mean square (RMS) of the incoming signal to the caller for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-460">каллисендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-460">CalleeSendSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-461">int</span><span class="sxs-lookup"><span data-stu-id="2299a-461">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p132">Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p132">Represents the Post-Analog Gain Control audio signal level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-460">каллисендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-460">CalleeSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-461">int</span><span class="sxs-lookup"><span data-stu-id="d7498-461">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p132">Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p132">Represents the Post-Analog Gain Control audio signal level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-466">каллиреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-466">CalleeRecvSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-467">int</span><span class="sxs-lookup"><span data-stu-id="2299a-467">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p133">Уровень звукового сигнала для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p133">Audio signal level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-466">каллиреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-466">CalleeRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-467">int</span><span class="sxs-lookup"><span data-stu-id="d7498-467">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p133">Уровень звукового сигнала для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p133">Audio signal level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-472">каллисендноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-472">CalleeSendNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-473">int</span><span class="sxs-lookup"><span data-stu-id="2299a-473">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p134">Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p134">Post-Analog Gain Control audio noise level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-472">каллисендноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-472">CalleeSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-473">int</span><span class="sxs-lookup"><span data-stu-id="d7498-473">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p134">Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p134">Post-Analog Gain Control audio noise level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-478">каллиреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-478">CalleeRecvNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-479">int</span><span class="sxs-lookup"><span data-stu-id="2299a-479">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p135">Послеаналоговая регулировка уровня акустического шума для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p135">Post-Analog Gain Control audio noise level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-478">каллиреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-478">CalleeRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-479">int</span><span class="sxs-lookup"><span data-stu-id="d7498-479">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p135">Послеаналоговая регулировка уровня акустического шума для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p135">Post-Analog Gain Control audio noise level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-484">каллиечоретурн</span><span class="sxs-lookup"><span data-stu-id="2299a-484">CalleeEchoReturn</span></span></p></td>
-<td><p><span data-ttu-id="2299a-485">int</span><span class="sxs-lookup"><span data-stu-id="2299a-485">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p136">Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызываемого абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p136">Echo Return Loss Enhancement for the callee. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-484">каллиечоретурн</span><span class="sxs-lookup"><span data-stu-id="d7498-484">CalleeEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="d7498-485">int</span><span class="sxs-lookup"><span data-stu-id="d7498-485">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p136">Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызываемого абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p136">Echo Return Loss Enhancement for the callee. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-490">каллиспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="2299a-490">CalleeSpeakerGlitchRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-491">int</span><span class="sxs-lookup"><span data-stu-id="2299a-491">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p137">Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p137">Average glitches per five minutes for the callee’s loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-490">каллиспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="d7498-490">CalleeSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-491">int</span><span class="sxs-lookup"><span data-stu-id="d7498-491">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p137">Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p137">Average glitches per five minutes for the callee’s loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-495">каллимикглитчрате</span><span class="sxs-lookup"><span data-stu-id="2299a-495">CalleeMicGlitchRate</span></span></p></td>
-<td><p><span data-ttu-id="2299a-496">int</span><span class="sxs-lookup"><span data-stu-id="2299a-496">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p138">Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="2299a-p138">Average glitches per five minutes for the callee’s microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-495">каллимикглитчрате</span><span class="sxs-lookup"><span data-stu-id="d7498-495">CalleeMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="d7498-496">int</span><span class="sxs-lookup"><span data-stu-id="d7498-496">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p138">Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="d7498-p138">Average glitches per five minutes for the callee’s microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-500">каллитиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="2299a-500">CalleeTimestampDriftRateMic</span></span></p></td>
-<td><p><span data-ttu-id="2299a-501">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-501">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-502">Скорость рассинхронизации часов микрофона вызываемого абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="2299a-502">Callee’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-500">каллитиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="d7498-500">CalleeTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="d7498-501">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-501">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-502">Скорость рассинхронизации часов микрофона вызываемого абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="d7498-502">Callee’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-503">каллитиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="2299a-503">CalleeTimestampDriftRateSpk</span></span></p></td>
-<td><p><span data-ttu-id="2299a-504">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-504">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-505">Скорость рассинхронизации часов динамика вызываемого абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="2299a-505">Callee’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-503">каллитиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="d7498-503">CalleeTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="d7498-504">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-504">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-505">Скорость рассинхронизации часов динамика вызываемого абонента относительно часов процессора.</span><span class="sxs-lookup"><span data-stu-id="d7498-505">Callee’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-506">каллитиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="2299a-506">CalleeTimestampErrorMicMs</span></span></p></td>
-<td><p><span data-ttu-id="2299a-507">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-507">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-508">Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-508">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-506">каллитиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="d7498-506">CalleeTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="d7498-507">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-507">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-508">Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-508">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-509">каллитиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="2299a-509">CalleeTimestampErrorSpkMs</span></span></p></td>
-<td><p><span data-ttu-id="2299a-510">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-510">decimal(9,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-511">Средняя ошибка метки времени для потока воспроизведения динамиком вызываемого абонента, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-511">Average of the callee’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-509">каллитиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="d7498-509">CalleeTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="d7498-510">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-510">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-511">Средняя ошибка метки времени для потока воспроизведения динамиком вызываемого абонента, в миллисекундах, в последние 20 секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-511">Average of the callee’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-512">калливсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="2299a-512">CalleeVsEntryCauses</span></span></p></td>
-<td><p><span data-ttu-id="2299a-513">smallint</span><span class="sxs-lookup"><span data-stu-id="2299a-513">smallint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-514">Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания.</span><span class="sxs-lookup"><span data-stu-id="2299a-514">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="2299a-515">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-515">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-512">калливсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="d7498-512">CalleeVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="d7498-513">smallint</span><span class="sxs-lookup"><span data-stu-id="d7498-513">smallint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-514">Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания.</span><span class="sxs-lookup"><span data-stu-id="d7498-514">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="d7498-515">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-515">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-516">каллиечоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="2299a-516">CalleeEchoEventCauses</span></span></p></td>
-<td><p><span data-ttu-id="2299a-517">tinyint</span><span class="sxs-lookup"><span data-stu-id="2299a-517">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="2299a-518">Причины события эхосигнала для вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-518">Causes of an echo event for the callee.</span></span> <span data-ttu-id="2299a-519">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="2299a-519">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-516">каллиечоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="d7498-516">CalleeEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="d7498-517">tinyint</span><span class="sxs-lookup"><span data-stu-id="d7498-517">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="d7498-518">Причины события эхосигнала для вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-518">Causes of an echo event for the callee.</span></span> <span data-ttu-id="d7498-519">Дополнительные сведения см. <a href="lync-server-2013-medialine-table.md">в таблице MediaLine в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="d7498-519">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-520">каллиечоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="2299a-520">CalleeEchoPercentMicIn</span></span></p></td>
-<td><p><span data-ttu-id="2299a-521">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-521">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p141">Процент времени, когда в потоке захвата микрофоном вызываемого абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="2299a-p141">Percentage of time when echo is detected in the callee’s microphone capture stream. If headset is used, the value should be low.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-520">каллиечоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="d7498-520">CalleeEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="d7498-521">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-521">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p141">Процент времени, когда в потоке захвата микрофоном вызываемого абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="d7498-p141">Percentage of time when echo is detected in the callee’s microphone capture stream. If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-524">каллиечоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="2299a-524">CalleeEchoPercentSend</span></span></p></td>
-<td><p><span data-ttu-id="2299a-525">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-525">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p142">Процент времени, когда в потоке, отправленном вызываемым абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</span><span class="sxs-lookup"><span data-stu-id="2299a-p142">Percentage of time when echo is detected in the callee’s sent stream. High echo percentage in send streams an indication of echo leak.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-524">каллиечоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="d7498-524">CalleeEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="d7498-525">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-525">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p142">Процент времени, когда в потоке, отправленном вызываемым абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</span><span class="sxs-lookup"><span data-stu-id="d7498-p142">Percentage of time when echo is detected in the callee’s sent stream. High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-528">каллирксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="2299a-528">CalleeRxAGCSignalLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-529">int</span><span class="sxs-lookup"><span data-stu-id="2299a-529">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p143">Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</span><span class="sxs-lookup"><span data-stu-id="2299a-p143">Received signal level on the Mediation Server from the Gateway for the callee’s audio; this applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be [-30 to -18] dBoV.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-528">каллирксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="d7498-528">CalleeRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-529">int</span><span class="sxs-lookup"><span data-stu-id="d7498-529">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p143">Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</span><span class="sxs-lookup"><span data-stu-id="d7498-p143">Received signal level on the Mediation Server from the Gateway for the callee’s audio; this applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be [-30 to -18] dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-533">каллирксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="2299a-533">CalleeRxAGCNoiseLevel</span></span></p></td>
-<td><p><span data-ttu-id="2299a-534">int</span><span class="sxs-lookup"><span data-stu-id="2299a-534">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p144">Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</span><span class="sxs-lookup"><span data-stu-id="2299a-p144">Received signal level on the Mediation Server from the Gateway for the callee’s audio. This applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-533">каллирксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="d7498-533">CalleeRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="d7498-534">int</span><span class="sxs-lookup"><span data-stu-id="d7498-534">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p144">Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</span><span class="sxs-lookup"><span data-stu-id="d7498-p144">Received signal level on the Mediation Server from the Gateway for the callee’s audio. This applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-539">каллирксагкгаин</span><span class="sxs-lookup"><span data-stu-id="2299a-539">CalleeRxAGCGain</span></span></p></td>
-<td><p><span data-ttu-id="2299a-540">int</span><span class="sxs-lookup"><span data-stu-id="2299a-540">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-541">Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="2299a-541">Automatic gain control (AGC) on the Mediation Server side applied to the callee’s audio.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-539">каллирксагкгаин</span><span class="sxs-lookup"><span data-stu-id="d7498-539">CalleeRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="d7498-540">int</span><span class="sxs-lookup"><span data-stu-id="d7498-540">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-541">Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="d7498-541">Automatic gain control (AGC) on the Mediation Server side applied to the callee’s audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-542">каллиинитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="2299a-542">CalleeInitialSignalLevelRMS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-543">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="2299a-543">float</span></span></p></td>
-<td><p><span data-ttu-id="2299a-544">Среднеквадратическое отклонение входящего сигнала вызываемого абонента до 30 первых секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-544">Root mean square (RMS) of the incoming signal to the callee for up to the first 30 seconds of the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-542">каллиинитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="d7498-542">CalleeInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-543">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="d7498-543">float</span></span></p></td>
+<td><p><span data-ttu-id="d7498-544">Среднеквадратическое отклонение входящего сигнала вызываемого абонента до 30 первых секунд вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-544">Root mean square (RMS) of the incoming signal to the callee for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-545">RatioConcealedSamplesAvg</span><span class="sxs-lookup"><span data-stu-id="2299a-545">RatioConcealedSamplesAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-546">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-546">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-547">Среднее отношение числа скрытых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="2299a-547">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-545">RatioConcealedSamplesAvg</span><span class="sxs-lookup"><span data-stu-id="d7498-545">RatioConcealedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-546">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-546">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-547">Среднее отношение числа скрытых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="d7498-547">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-548">ратиостретчедсамплесавг</span><span class="sxs-lookup"><span data-stu-id="2299a-548">RatioStretchedSamplesAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-549">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-549">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-550">Среднее отношение числа растянутых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="2299a-550">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-548">ратиостретчедсамплесавг</span><span class="sxs-lookup"><span data-stu-id="d7498-548">RatioStretchedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-549">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-549">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-550">Среднее отношение числа растянутых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="d7498-550">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-551">ратиокомпресседсамплесавг</span><span class="sxs-lookup"><span data-stu-id="2299a-551">RatioCompressedSamplesAvg</span></span></p></td>
-<td><p><span data-ttu-id="2299a-552">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-552">decimal(5,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-553">Среднее отношение числа сжатых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="2299a-553">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-551">ратиокомпресседсамплесавг</span><span class="sxs-lookup"><span data-stu-id="d7498-551">RatioCompressedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="d7498-552">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-552">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-553">Среднее отношение числа сжатых образцов, созданных функцией восстановления звука, к обычным образцам.</span><span class="sxs-lookup"><span data-stu-id="d7498-553">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-554">Обработки</span><span class="sxs-lookup"><span data-stu-id="2299a-554">RoundTrip</span></span></p></td>
-<td><p><span data-ttu-id="2299a-555">int</span><span class="sxs-lookup"><span data-stu-id="2299a-555">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-556">Время приема-передачи на основе статистики RTCP.</span><span class="sxs-lookup"><span data-stu-id="2299a-556">Round trip time from RTCP statistics.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-554">Обработки</span><span class="sxs-lookup"><span data-stu-id="d7498-554">RoundTrip</span></span></p></td>
+<td><p><span data-ttu-id="d7498-555">int</span><span class="sxs-lookup"><span data-stu-id="d7498-555">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-556">Время приема-передачи на основе статистики RTCP.</span><span class="sxs-lookup"><span data-stu-id="d7498-556">Round trip time from RTCP statistics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-557">раундтрипмакс</span><span class="sxs-lookup"><span data-stu-id="2299a-557">RoundTripMax</span></span></p></td>
-<td><p><span data-ttu-id="2299a-558">int</span><span class="sxs-lookup"><span data-stu-id="2299a-558">int</span></span></p></td>
-<td><p><span data-ttu-id="2299a-559">Максимальное время приема-передачи для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="2299a-559">Maximum round trip time for the audio stream.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-557">раундтрипмакс</span><span class="sxs-lookup"><span data-stu-id="d7498-557">RoundTripMax</span></span></p></td>
+<td><p><span data-ttu-id="d7498-558">int</span><span class="sxs-lookup"><span data-stu-id="d7498-558">int</span></span></p></td>
+<td><p><span data-ttu-id="d7498-559">Максимальное время приема-передачи для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="d7498-559">Maximum round trip time for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-560">овераллавгнетворкмос</span><span class="sxs-lookup"><span data-stu-id="2299a-560">OverallAvgNetworkMOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-561">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-561">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-p145">Средняя экспертная оценка качества (MOS) в широкополосной сети для вызова. Значение этого показателя зависит от потерь пакетов, дрожания и используемого кодека. Диапазон — от 1,0 до 5,0.</span><span class="sxs-lookup"><span data-stu-id="2299a-p145">Average wideband Network MOS for the call. This metric depends on the packet loss, jitter, and codec used. Range is 1.0 to 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-560">овераллавгнетворкмос</span><span class="sxs-lookup"><span data-stu-id="d7498-560">OverallAvgNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-561">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-561">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-p145">Средняя экспертная оценка качества (MOS) в широкополосной сети для вызова. Значение этого показателя зависит от потерь пакетов, дрожания и используемого кодека. Диапазон — от 1,0 до 5,0.</span><span class="sxs-lookup"><span data-stu-id="d7498-p145">Average wideband Network MOS for the call. This metric depends on the packet loss, jitter, and codec used. Range is 1.0 to 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-565">овераллминнетворкмос</span><span class="sxs-lookup"><span data-stu-id="2299a-565">OverallMinNetworkMOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-566">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-566">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-567">Минимальная экспертная оценка качества (MOS) в широкополосной сети для вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-567">Minimum wideband Network MOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-565">овераллминнетворкмос</span><span class="sxs-lookup"><span data-stu-id="d7498-565">OverallMinNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-566">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-566">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-567">Минимальная экспертная оценка качества (MOS) в широкополосной сети для вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-567">Minimum wideband Network MOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-568">Значение sendlistenmos</span><span class="sxs-lookup"><span data-stu-id="2299a-568">SendListenMOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-569">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-569">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-570">Средняя прогнозируемая экспертная оценка качества (MOS) при широкополосном прослушивании для отправленного аудиосигнала, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="2299a-570">Average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-568">Значение sendlistenmos</span><span class="sxs-lookup"><span data-stu-id="d7498-568">SendListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-569">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-569">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-570">Средняя прогнозируемая экспертная оценка качества (MOS) при широкополосном прослушивании для отправленного аудиосигнала, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="d7498-570">Average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-571">сендлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="2299a-571">SendListenMOSMin</span></span></p></td>
-<td><p><span data-ttu-id="2299a-572">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-572">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-573">Минимальное значение SendListenMOS для вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-573">Minimum SendListenMOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-571">сендлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="d7498-571">SendListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="d7498-572">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-572">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-573">Минимальное значение SendListenMOS для вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-573">Minimum SendListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-574">Значение recvlistenmos</span><span class="sxs-lookup"><span data-stu-id="2299a-574">RecvListenMOS</span></span></p></td>
-<td><p><span data-ttu-id="2299a-575">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-575">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-576">Средняя прогнозируемая экспертная оценка качества (MOS) для аудиосигнала, полученного из сети, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="2299a-576">Average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-574">Значение recvlistenmos</span><span class="sxs-lookup"><span data-stu-id="d7498-574">RecvListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="d7498-575">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-575">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-576">Средняя прогнозируемая экспертная оценка качества (MOS) для аудиосигнала, полученного из сети, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="d7498-576">Average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-577">реквлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="2299a-577">RecvListenMOSMin</span></span></p></td>
-<td><p><span data-ttu-id="2299a-578">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="2299a-578">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="2299a-579">Минимальное значение RecvListenMOS для вызова.</span><span class="sxs-lookup"><span data-stu-id="2299a-579">Minimum RecvListenMOS for the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-577">реквлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="d7498-577">RecvListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="d7498-578">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="d7498-578">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="d7498-579">Минимальное значение RecvListenMOS для вызова.</span><span class="sxs-lookup"><span data-stu-id="d7498-579">Minimum RecvListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2299a-580">аудиофекусед</span><span class="sxs-lookup"><span data-stu-id="2299a-580">AudioFECUsed</span></span></p></td>
-<td><p><span data-ttu-id="2299a-581">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-581">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-582">Указывает, применялась ли для этого вызова прямая коррекция аудиосигнала.</span><span class="sxs-lookup"><span data-stu-id="2299a-582">Indicates whether audio FEC was used for the call.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-580">аудиофекусед</span><span class="sxs-lookup"><span data-stu-id="d7498-580">AudioFECUsed</span></span></p></td>
+<td><p><span data-ttu-id="d7498-581">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-581">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-582">Указывает, применялась ли для этого вызова прямая коррекция аудиосигнала.</span><span class="sxs-lookup"><span data-stu-id="d7498-582">Indicates whether audio FEC was used for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2299a-583">сендерискаллерпаи</span><span class="sxs-lookup"><span data-stu-id="2299a-583">SenderIsCallerPAI</span></span></p></td>
-<td><p><span data-ttu-id="2299a-584">Битовая</span><span class="sxs-lookup"><span data-stu-id="2299a-584">bit</span></span></p></td>
-<td><p><span data-ttu-id="2299a-585">Указывает направление передачи данных P-Asserted-Identity: 1 указывает направление потока от вызывающего абонента к вызываемому; 0 указывает направление потока от вызываемого абонента к вызывающему.</span><span class="sxs-lookup"><span data-stu-id="2299a-585">Indicates direction of the p-asserted identify information; 1 means the stream direction is from the caller to the callee; 0 means the stream direction is from the callee to the caller.</span></span></p></td>
+<td><p><span data-ttu-id="d7498-583">сендерискаллерпаи</span><span class="sxs-lookup"><span data-stu-id="d7498-583">SenderIsCallerPAI</span></span></p></td>
+<td><p><span data-ttu-id="d7498-584">Битовая</span><span class="sxs-lookup"><span data-stu-id="d7498-584">bit</span></span></p></td>
+<td><p><span data-ttu-id="d7498-585">Указывает направление передачи данных P-Asserted-Identity: 1 указывает направление потока от вызывающего абонента к вызываемому; 0 указывает направление потока от вызываемого абонента к вызывающему.</span><span class="sxs-lookup"><span data-stu-id="d7498-585">Indicates direction of the p-asserted identify information; 1 means the stream direction is from the caller to the callee; 0 means the stream direction is from the callee to the caller.</span></span></p></td>
 </tr>
 </tbody>
 </table>

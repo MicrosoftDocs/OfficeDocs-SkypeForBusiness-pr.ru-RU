@@ -12,20 +12,20 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ca2070032e355714faa25a3b1e6f8babe21de7f1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038191"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a><span data-ttu-id="b42c1-102">Сценарии для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-102">Scenarios for the Director in Lync Server 2013</span></span>
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a><span data-ttu-id="7d4b8-102">Сценарии для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-102">Scenarios for the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42038191"
 
 <span> </span>
 
-<span data-ttu-id="b42c1-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="b42c1-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="7d4b8-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="7d4b8-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="b42c1-104">Директор — это сервер, на котором работает программа связи Microsoft Lync Server 2013, который может выполнять проверку подлинности запросов пользователей, но не может работать с другими учетными записями пользователей.</span><span class="sxs-lookup"><span data-stu-id="b42c1-104">A Director is a server running Microsoft Lync Server 2013 communications software that can authenticate user requests, but does not home any user accounts.</span></span> <span data-ttu-id="b42c1-105">В директоре также размещаются веб-службы, похожие на сервер переднего плана и подлинность запросов веб-билетов, а также другие службы.</span><span class="sxs-lookup"><span data-stu-id="b42c1-105">The Director also hosts web services similar to the Front End Server and will authenticate web ticket requests and provide other services.</span></span>
+<span data-ttu-id="7d4b8-104">Директор — это сервер, на котором работает программа связи Microsoft Lync Server 2013, который может выполнять проверку подлинности запросов пользователей, но не может работать с другими учетными записями пользователей.</span><span class="sxs-lookup"><span data-stu-id="7d4b8-104">A Director is a server running Microsoft Lync Server 2013 communications software that can authenticate user requests, but does not home any user accounts.</span></span> <span data-ttu-id="7d4b8-105">В директоре также размещаются веб-службы, похожие на сервер переднего плана и подлинность запросов веб-билетов, а также другие службы.</span><span class="sxs-lookup"><span data-stu-id="7d4b8-105">The Director also hosts web services similar to the Front End Server and will authenticate web ticket requests and provide other services.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b42c1-106">При развертывании режиссеров необходимо опубликовать веб-службы Director извне через обратный прокси-сервер, а также веб-службы сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="b42c1-106">If you deploy Directors, you must publish the Director web services externally through the reverse proxy as well as the web services of the Front End Server.</span></span> <span data-ttu-id="b42c1-107">В следующих разделах описывается процесс планирования для возможных топологий директоров.</span><span class="sxs-lookup"><span data-stu-id="b42c1-107">The topics following describe the planning process for the possible Director topologies.</span></span>
+> <span data-ttu-id="7d4b8-106">При развертывании режиссеров необходимо опубликовать веб-службы Director извне через обратный прокси-сервер, а также веб-службы сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="7d4b8-106">If you deploy Directors, you must publish the Director web services externally through the reverse proxy as well as the web services of the Front End Server.</span></span> <span data-ttu-id="7d4b8-107">В следующих разделах описывается процесс планирования для возможных топологий директоров.</span><span class="sxs-lookup"><span data-stu-id="7d4b8-107">The topics following describe the planning process for the possible Director topologies.</span></span>
 
 
 
@@ -51,27 +51,27 @@ ms.locfileid: "42038191"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b42c1-108">Содержание</span><span class="sxs-lookup"><span data-stu-id="b42c1-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7d4b8-108">Содержание</span><span class="sxs-lookup"><span data-stu-id="7d4b8-108">In This Section</span></span>
 
-  - [<span data-ttu-id="b42c1-109">Обзор директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-109">Overview of the Director in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-director.md)
+  - [<span data-ttu-id="7d4b8-109">Обзор директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-109">Overview of the Director in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-director.md)
 
-  - [<span data-ttu-id="b42c1-110">Компоненты, необходимые для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-110">Components required for the Director in Lync Server 2013</span></span>](lync-server-2013-components-required-for-the-director.md)
+  - [<span data-ttu-id="7d4b8-110">Компоненты, необходимые для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-110">Components required for the Director in Lync Server 2013</span></span>](lync-server-2013-components-required-for-the-director.md)
 
-  - [<span data-ttu-id="b42c1-111">Требования к оборудованию и программному обеспечению для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-111">Hardware and software requirements for the Director in Lync Server 2013</span></span>](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [<span data-ttu-id="7d4b8-111">Требования к оборудованию и программному обеспечению для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-111">Hardware and software requirements for the Director in Lync Server 2013</span></span>](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
-  - [<span data-ttu-id="b42c1-112">Один директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-112">Single Director in Lync Server 2013</span></span>](lync-server-2013-single-director.md)
+  - [<span data-ttu-id="7d4b8-112">Один директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-112">Single Director in Lync Server 2013</span></span>](lync-server-2013-single-director.md)
 
-  - [<span data-ttu-id="b42c1-113">Масштабируемый пул директоров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-113">Scaled Director pool in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool.md)
+  - [<span data-ttu-id="7d4b8-113">Масштабируемый пул директоров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-113">Scaled Director pool in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b42c1-114">См. также</span><span class="sxs-lookup"><span data-stu-id="b42c1-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d4b8-114">См. также</span><span class="sxs-lookup"><span data-stu-id="7d4b8-114">See Also</span></span>
 
 
-[<span data-ttu-id="b42c1-115">Поддерживаемые топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-115">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)  
-[<span data-ttu-id="b42c1-116">Аппаратные серверные платформы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b42c1-116">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)  
+[<span data-ttu-id="7d4b8-115">Поддерживаемые топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-115">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)  
+[<span data-ttu-id="7d4b8-116">Аппаратные серверные платформы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d4b8-116">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

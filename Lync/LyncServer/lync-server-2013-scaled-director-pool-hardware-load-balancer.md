@@ -12,20 +12,20 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63d690c224556953086128b8d7fc52f2d72f6b06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cb7c456eeb51f581dda8ac08ea836472e3708dd5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049661"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="28a6b-102">Масштабируемый пул директоров — аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a6b-102">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>
+# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a><span data-ttu-id="65d17-102">Масштабируемый пул директоров — аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65d17-102">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42049661"
 
 <span> </span>
 
-<span data-ttu-id="28a6b-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="28a6b-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="65d17-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="65d17-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="28a6b-104">Масштабируемый пул директоров, где развернуто несколько директоров для обработки дополнительной емкости и обеспечения высокой доступности, требует балансировки нагрузки для распространения связи клиента и сервера со всеми участниками пула.</span><span class="sxs-lookup"><span data-stu-id="28a6b-104">A scaled Director pool, where there are more than one Director is deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="28a6b-105">В директоре размещены веб-службы, как и пул переднего плана.</span><span class="sxs-lookup"><span data-stu-id="28a6b-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="28a6b-106">Для веб-служб требуется аппаратная балансировка нагрузки.</span><span class="sxs-lookup"><span data-stu-id="28a6b-106">Hardware load balancing is required for the web services.</span></span>
+<span data-ttu-id="65d17-104">Масштабируемый пул директоров, где развернуто несколько директоров для обработки дополнительной емкости и обеспечения высокой доступности, требует балансировки нагрузки для распространения связи клиента и сервера со всеми участниками пула.</span><span class="sxs-lookup"><span data-stu-id="65d17-104">A scaled Director pool, where there are more than one Director is deployed to handle additional capacity and to provide high availability, requires load balancing to distribute client and server communication to all members of the pool.</span></span> <span data-ttu-id="65d17-105">В директоре размещены веб-службы, как и пул переднего плана.</span><span class="sxs-lookup"><span data-stu-id="65d17-105">A Director hosts web services much like a Front End pool.</span></span> <span data-ttu-id="65d17-106">Для веб-служб требуется аппаратная балансировка нагрузки.</span><span class="sxs-lookup"><span data-stu-id="65d17-106">Hardware load balancing is required for the web services.</span></span>
 
-<span data-ttu-id="28a6b-107">В следующих разделах описываются рекомендации по планированию развертывания пула директоров с помощью аппаратной балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="28a6b-107">The following topics describe the planning considerations for deploying a Director pool using hardware load balancing.</span></span> <span data-ttu-id="28a6b-108">Если вы планируете использовать аппаратную балансировку нагрузки и балансировку нагрузки на DNS для пула директоров, ознакомьтесь с разделом [масштабируемый пул директоров — балансировка нагрузки на DNS и аппаратный балансировщик нагрузки в Lync Server 2013, в](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) котором описываются требования к планированию для этой топологии.</span><span class="sxs-lookup"><span data-stu-id="28a6b-108">If you intend to use hardware load balancing and DNS load balancing for the Director pool, see the topic [Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
+<span data-ttu-id="65d17-107">В следующих разделах описываются рекомендации по планированию развертывания пула директоров с помощью аппаратной балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="65d17-107">The following topics describe the planning considerations for deploying a Director pool using hardware load balancing.</span></span> <span data-ttu-id="65d17-108">Если вы планируете использовать аппаратную балансировку нагрузки и балансировку нагрузки на DNS для пула директоров, ознакомьтесь с разделом [масштабируемый пул директоров — балансировка нагрузки на DNS и аппаратный балансировщик нагрузки в Lync Server 2013, в](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) котором описываются требования к планированию для этой топологии.</span><span class="sxs-lookup"><span data-stu-id="65d17-108">If you intend to use hardware load balancing and DNS load balancing for the Director pool, see the topic [Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) that describes the planning requirements for that topology.</span></span>
 
-<span data-ttu-id="28a6b-109">![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")</span><span class="sxs-lookup"><span data-stu-id="28a6b-109">![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")</span></span>
+<span data-ttu-id="65d17-109">![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")</span><span class="sxs-lookup"><span data-stu-id="65d17-109">![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="28a6b-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="28a6b-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="65d17-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="65d17-110">In This Section</span></span>
 
-  - [<span data-ttu-id="28a6b-111">Сводка по сертификатам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a6b-111">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="65d17-111">Сводка по сертификатам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65d17-111">Certificate summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="28a6b-112">Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a6b-112">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="65d17-112">Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65d17-112">Port summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="28a6b-113">Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28a6b-113">DNS summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="65d17-113">Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65d17-113">DNS summary - Scaled Director pool, hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

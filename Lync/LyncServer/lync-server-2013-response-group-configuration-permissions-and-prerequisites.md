@@ -12,20 +12,20 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051825"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a><span data-ttu-id="1d390-102">Разрешения и необходимые условия для настройки группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1d390-102">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a><span data-ttu-id="75f7b-102">Разрешения и необходимые условия для настройки группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75f7b-102">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42051825"
 
 <span> </span>
 
-<span data-ttu-id="1d390-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="1d390-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="75f7b-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="75f7b-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="1d390-104">Группа ответа это функция управления голосовым вызовом корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1d390-104">Response Group is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="1d390-105">В этом разделе описываются действия, которые необходимо выполнить, прежде чем можно будет настроить группу ответа и административные учетные данные и разрешения, необходимые для выполнения задач по настройке.</span><span class="sxs-lookup"><span data-stu-id="1d390-105">This topic describes what you need to have in place before you can configure Response Group and the administrative credentials and permissions you need to perform configuration tasks.</span></span>
+<span data-ttu-id="75f7b-104">Группа ответа это функция управления голосовым вызовом корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="75f7b-104">Response Group is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="75f7b-105">В этом разделе описываются действия, которые необходимо выполнить, прежде чем можно будет настроить группу ответа и административные учетные данные и разрешения, необходимые для выполнения задач по настройке.</span><span class="sxs-lookup"><span data-stu-id="75f7b-105">This topic describes what you need to have in place before you can configure Response Group and the administrative credentials and permissions you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="1d390-106">В этом разделе предполагается, что вы прочитали документацию по планированию, относящуюся к группе ответа.</span><span class="sxs-lookup"><span data-stu-id="1d390-106">This section assumes that you have read the planning documentation related to Response Group.</span></span> <span data-ttu-id="1d390-107">Дополнительные сведения приведены в статье [Планирование функций управления звонками в Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="1d390-107">For details, see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) in the Planning documentation.</span></span>
+<span data-ttu-id="75f7b-106">В этом разделе предполагается, что вы прочитали документацию по планированию, относящуюся к группе ответа.</span><span class="sxs-lookup"><span data-stu-id="75f7b-106">This section assumes that you have read the planning documentation related to Response Group.</span></span> <span data-ttu-id="75f7b-107">Дополнительные сведения приведены в статье [Планирование функций управления звонками в Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="75f7b-107">For details, see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="configuration-tools-and-administrative-roles"></a><span data-ttu-id="1d390-108">Инструменты настройки и административные роли</span><span class="sxs-lookup"><span data-stu-id="1d390-108">Configuration Tools and Administrative Roles</span></span>
+## <a name="configuration-tools-and-administrative-roles"></a><span data-ttu-id="75f7b-108">Инструменты настройки и административные роли</span><span class="sxs-lookup"><span data-stu-id="75f7b-108">Configuration Tools and Administrative Roles</span></span>
 
-<span data-ttu-id="1d390-109">Для настройки группы ответа можно использовать следующие средства администрирования:</span><span class="sxs-lookup"><span data-stu-id="1d390-109">You can use the following administrative tools to configure Response Group:</span></span>
+<span data-ttu-id="75f7b-109">Для настройки группы ответа можно использовать следующие средства администрирования:</span><span class="sxs-lookup"><span data-stu-id="75f7b-109">You can use the following administrative tools to configure Response Group:</span></span>
 
-  - <span data-ttu-id="1d390-110">Панель управления сервера Lync</span><span class="sxs-lookup"><span data-stu-id="1d390-110">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="75f7b-110">Панель управления сервера Lync</span><span class="sxs-lookup"><span data-stu-id="75f7b-110">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="1d390-111">Средство настройки группы ответа</span><span class="sxs-lookup"><span data-stu-id="1d390-111">Response Group Configuration Tool</span></span>
+  - <span data-ttu-id="75f7b-111">Средство настройки группы ответа</span><span class="sxs-lookup"><span data-stu-id="75f7b-111">Response Group Configuration Tool</span></span>
 
-  - <span data-ttu-id="1d390-112">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="1d390-112">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="75f7b-112">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="75f7b-112">Lync Server Management Shell</span></span>
 
-<span data-ttu-id="1d390-113">Для того чтобы настроить группы ответа, необходимо быть членом по крайней мере одной из следующих административных ролей:</span><span class="sxs-lookup"><span data-stu-id="1d390-113">To configure response groups, you must be a member of at least one of the following administrative roles:</span></span>
+<span data-ttu-id="75f7b-113">Для того чтобы настроить группы ответа, необходимо быть членом по крайней мере одной из следующих административных ролей:</span><span class="sxs-lookup"><span data-stu-id="75f7b-113">To configure response groups, you must be a member of at least one of the following administrative roles:</span></span>
 
 
 <table style="width:100%;">
@@ -68,67 +68,67 @@ ms.locfileid: "42051825"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1d390-114"><strong>Группа безопасности Active Directory (1)</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-114"><strong>Active Directory Security Group (1)</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-115">Создайте рабочий процесс</span><span class="sxs-lookup"><span data-stu-id="1d390-115">Create Workflow</span></span></p></td>
-<td><p><span data-ttu-id="1d390-116">Назначьте менеджера</span><span class="sxs-lookup"><span data-stu-id="1d390-116">Assign Manager</span></span></p></td>
-<td><p><span data-ttu-id="1d390-117">Создайте, назначьте агентов, очереди</span><span class="sxs-lookup"><span data-stu-id="1d390-117">Create /assign agents, queues</span></span></p></td>
-<td><p><span data-ttu-id="1d390-118">Создайте дни праздников и рабочие часы</span><span class="sxs-lookup"><span data-stu-id="1d390-118">Create / manage holiday and business hours</span></span></p></td>
-<td><p><span data-ttu-id="1d390-119">Активируйте или деактивируйте рабочий процесс</span><span class="sxs-lookup"><span data-stu-id="1d390-119">Activate / deactivate workflow</span></span></p></td>
-<td><p><span data-ttu-id="1d390-120">Настройте рабочий процесс (Интерактивное речевое взаимодействие (IVR) или сервисную группу)</span><span class="sxs-lookup"><span data-stu-id="1d390-120">Configure workflow (IVR or Hunt Group)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-114"><strong>Группа безопасности Active Directory (1)</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-114"><strong>Active Directory Security Group (1)</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-115">Создайте рабочий процесс</span><span class="sxs-lookup"><span data-stu-id="75f7b-115">Create Workflow</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-116">Назначьте менеджера</span><span class="sxs-lookup"><span data-stu-id="75f7b-116">Assign Manager</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-117">Создайте, назначьте агентов, очереди</span><span class="sxs-lookup"><span data-stu-id="75f7b-117">Create /assign agents, queues</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-118">Создайте дни праздников и рабочие часы</span><span class="sxs-lookup"><span data-stu-id="75f7b-118">Create / manage holiday and business hours</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-119">Активируйте или деактивируйте рабочий процесс</span><span class="sxs-lookup"><span data-stu-id="75f7b-119">Activate / deactivate workflow</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-120">Настройте рабочий процесс (Интерактивное речевое взаимодействие (IVR) или сервисную группу)</span><span class="sxs-lookup"><span data-stu-id="75f7b-120">Configure workflow (IVR or Hunt Group)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1d390-121"><strong>ксреспонсеграупадминистратор</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-121"><strong>CsResponseGroupAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-122">√</span><span class="sxs-lookup"><span data-stu-id="1d390-122">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-123">√</span><span class="sxs-lookup"><span data-stu-id="1d390-123">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-124">√</span><span class="sxs-lookup"><span data-stu-id="1d390-124">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-125">√</span><span class="sxs-lookup"><span data-stu-id="1d390-125">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-126">√</span><span class="sxs-lookup"><span data-stu-id="1d390-126">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-127">√</span><span class="sxs-lookup"><span data-stu-id="1d390-127">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-121"><strong>ксреспонсеграупадминистратор</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-121"><strong>CsResponseGroupAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-122">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-122">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-123">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-123">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-124">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-124">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-125">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-125">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-126">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-126">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-127">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-127">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1d390-128"><strong>CsResponseGroupManager</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-128"><strong>CsResponseGroupManager</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-128"><strong>CsResponseGroupManager</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-128"><strong>CsResponseGroupManager</strong></span></span></p></td>
 <td> </td>
-<td><p><span data-ttu-id="1d390-129">√ (2)</span><span class="sxs-lookup"><span data-stu-id="1d390-129">√(2)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-130">√ (3)</span><span class="sxs-lookup"><span data-stu-id="1d390-130">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-131">√ (3)</span><span class="sxs-lookup"><span data-stu-id="1d390-131">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-132">√ (3)</span><span class="sxs-lookup"><span data-stu-id="1d390-132">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-133">√ (3)</span><span class="sxs-lookup"><span data-stu-id="1d390-133">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-129">√ (2)</span><span class="sxs-lookup"><span data-stu-id="75f7b-129">√(2)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-130">√ (3)</span><span class="sxs-lookup"><span data-stu-id="75f7b-130">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-131">√ (3)</span><span class="sxs-lookup"><span data-stu-id="75f7b-131">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-132">√ (3)</span><span class="sxs-lookup"><span data-stu-id="75f7b-132">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-133">√ (3)</span><span class="sxs-lookup"><span data-stu-id="75f7b-133">√(3)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1d390-134"><strong>CsVoiceAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-134"><strong>CsVoiceAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-135">√</span><span class="sxs-lookup"><span data-stu-id="1d390-135">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-136">√</span><span class="sxs-lookup"><span data-stu-id="1d390-136">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-137">√</span><span class="sxs-lookup"><span data-stu-id="1d390-137">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-138">√</span><span class="sxs-lookup"><span data-stu-id="1d390-138">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-139">√</span><span class="sxs-lookup"><span data-stu-id="1d390-139">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-140">√</span><span class="sxs-lookup"><span data-stu-id="1d390-140">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-134"><strong>CsVoiceAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-134"><strong>CsVoiceAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-135">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-135">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-136">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-136">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-137">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-137">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-138">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-138">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-139">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-139">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-140">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-140">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1d390-141"><strong>CsServerAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-141"><strong>CsServerAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-142">√</span><span class="sxs-lookup"><span data-stu-id="1d390-142">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-143">√</span><span class="sxs-lookup"><span data-stu-id="1d390-143">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-144">√</span><span class="sxs-lookup"><span data-stu-id="1d390-144">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-145">√</span><span class="sxs-lookup"><span data-stu-id="1d390-145">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-146">√</span><span class="sxs-lookup"><span data-stu-id="1d390-146">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-147">√</span><span class="sxs-lookup"><span data-stu-id="1d390-147">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-141"><strong>CsServerAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-141"><strong>CsServerAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-142">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-142">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-143">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-143">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-144">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-144">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-145">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-145">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-146">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-146">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-147">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-147">√</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1d390-148"><strong>CsAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-148"><strong>CsAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-149">√</span><span class="sxs-lookup"><span data-stu-id="1d390-149">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-150">√</span><span class="sxs-lookup"><span data-stu-id="1d390-150">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-151">√</span><span class="sxs-lookup"><span data-stu-id="1d390-151">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-152">√</span><span class="sxs-lookup"><span data-stu-id="1d390-152">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-153">√</span><span class="sxs-lookup"><span data-stu-id="1d390-153">√</span></span></p></td>
-<td><p><span data-ttu-id="1d390-154">√</span><span class="sxs-lookup"><span data-stu-id="1d390-154">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-148"><strong>CsAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-148"><strong>CsAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-149">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-149">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-150">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-150">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-151">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-151">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-152">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-152">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-153">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-153">√</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-154">√</span><span class="sxs-lookup"><span data-stu-id="75f7b-154">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1d390-155"><strong>CsViewOnlyAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="1d390-155"><strong>CsViewOnlyAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="1d390-156">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-156">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-157">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-157">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-158">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-158">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-159">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-159">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-160">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-160">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="1d390-161">√ (4)</span><span class="sxs-lookup"><span data-stu-id="1d390-161">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-155"><strong>CsViewOnlyAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="75f7b-155"><strong>CsViewOnlyAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="75f7b-156">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-156">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-157">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-157">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-158">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-158">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-159">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-159">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-160">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-160">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="75f7b-161">√ (4)</span><span class="sxs-lookup"><span data-stu-id="75f7b-161">√(4)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,7 +138,7 @@ ms.locfileid: "42051825"
 
 
 > [!NOTE]  
-> <span data-ttu-id="1d390-162"><STRONG>(1)</STRONG> объект пользователя доменных служб Active Directory должен быть членом указанной группы безопасности Active Directory в списке.</span><span class="sxs-lookup"><span data-stu-id="1d390-162"><STRONG>(1)</STRONG> An Active Directory Domain Services user object must be a member of the specified Active Directory security group listed.</span></span> <span data-ttu-id="1d390-163">Администратор или другой делегированный участник группы Active Directory с соответствующими разрешениями для добавления пользователей в группу безопасности (например, администратору, операторам учетных записей) должен добавить объект пользователя в указанную группу или группу безопасности, чтобы пользователь мог выполните указанные функции.</span><span class="sxs-lookup"><span data-stu-id="1d390-163">An administrator or other delegated Active Directory group member with appropriate permissions to add users to a security group (For example, Administrator, Account Operators) must add a user object to the listed security group or group for the user to be able to perform the functions listed.</span></span> <span data-ttu-id="1d390-164"><STRONG>(2)</STRONG> только для рабочих процессов, назначенных Ксреспонсеграупадминистратор для CsResponseGroupManager.</span><span class="sxs-lookup"><span data-stu-id="1d390-164"><STRONG>(2)</STRONG> Only for workflows that the CsResponseGroupAdministrator has assigned to the CsResponseGroupManager.</span></span> <span data-ttu-id="1d390-165"><STRONG>(3)</STRONG> диспетчер группы ответа может назначить другой участник CsResponseGroupManager рабочему процессу, который уже управляется текущим руководителем.</span><span class="sxs-lookup"><span data-stu-id="1d390-165"><STRONG>(3)</STRONG> A Response Group Manager can assign another member of CsResponseGroupManager to a workflow that the current manager already manages.</span></span> <span data-ttu-id="1d390-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator могут выполнять только командлеты "Get" Командная консоль управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1d390-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator can only run verb "Get" Lync Server Management Shell cmdlets.</span></span>
+> <span data-ttu-id="75f7b-162"><STRONG>(1)</STRONG> объект пользователя доменных служб Active Directory должен быть членом указанной группы безопасности Active Directory в списке.</span><span class="sxs-lookup"><span data-stu-id="75f7b-162"><STRONG>(1)</STRONG> An Active Directory Domain Services user object must be a member of the specified Active Directory security group listed.</span></span> <span data-ttu-id="75f7b-163">Администратор или другой делегированный участник группы Active Directory с соответствующими разрешениями для добавления пользователей в группу безопасности (например, администратору, операторам учетных записей) должен добавить объект пользователя в указанную группу или группу безопасности, чтобы пользователь мог выполните указанные функции.</span><span class="sxs-lookup"><span data-stu-id="75f7b-163">An administrator or other delegated Active Directory group member with appropriate permissions to add users to a security group (For example, Administrator, Account Operators) must add a user object to the listed security group or group for the user to be able to perform the functions listed.</span></span> <span data-ttu-id="75f7b-164"><STRONG>(2)</STRONG> только для рабочих процессов, назначенных Ксреспонсеграупадминистратор для CsResponseGroupManager.</span><span class="sxs-lookup"><span data-stu-id="75f7b-164"><STRONG>(2)</STRONG> Only for workflows that the CsResponseGroupAdministrator has assigned to the CsResponseGroupManager.</span></span> <span data-ttu-id="75f7b-165"><STRONG>(3)</STRONG> диспетчер группы ответа может назначить другой участник CsResponseGroupManager рабочему процессу, который уже управляется текущим руководителем.</span><span class="sxs-lookup"><span data-stu-id="75f7b-165"><STRONG>(3)</STRONG> A Response Group Manager can assign another member of CsResponseGroupManager to a workflow that the current manager already manages.</span></span> <span data-ttu-id="75f7b-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator могут выполнять только командлеты "Get" Командная консоль управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="75f7b-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator can only run verb "Get" Lync Server Management Shell cmdlets.</span></span>
 
 
 
@@ -148,59 +148,59 @@ ms.locfileid: "42051825"
 
 <div>
 
-## <a name="response-group-configuration-prerequisites"></a><span data-ttu-id="1d390-167">Необходимые условия для настройки группы ответа</span><span class="sxs-lookup"><span data-stu-id="1d390-167">Response Group Configuration Prerequisites</span></span>
+## <a name="response-group-configuration-prerequisites"></a><span data-ttu-id="75f7b-167">Необходимые условия для настройки группы ответа</span><span class="sxs-lookup"><span data-stu-id="75f7b-167">Response Group Configuration Prerequisites</span></span>
 
-<span data-ttu-id="1d390-168">Для группы ответа требуются следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="1d390-168">Response Group requires the following components:</span></span>
+<span data-ttu-id="75f7b-168">Для группы ответа требуются следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="75f7b-168">Response Group requires the following components:</span></span>
 
-  - <span data-ttu-id="1d390-169">служба приложения;</span><span class="sxs-lookup"><span data-stu-id="1d390-169">Application service</span></span>
+  - <span data-ttu-id="75f7b-169">служба приложения;</span><span class="sxs-lookup"><span data-stu-id="75f7b-169">Application service</span></span>
 
-  - <span data-ttu-id="1d390-170">приложение группы ответа;</span><span class="sxs-lookup"><span data-stu-id="1d390-170">Response Group application</span></span>
+  - <span data-ttu-id="75f7b-170">приложение группы ответа;</span><span class="sxs-lookup"><span data-stu-id="75f7b-170">Response Group application</span></span>
 
-  - <span data-ttu-id="1d390-171">Языковые пакеты</span><span class="sxs-lookup"><span data-stu-id="1d390-171">Language packs</span></span>
+  - <span data-ttu-id="75f7b-171">Языковые пакеты</span><span class="sxs-lookup"><span data-stu-id="75f7b-171">Language packs</span></span>
 
-  - <span data-ttu-id="1d390-172">Хранилище файлов (для хранения аудиофайлов)</span><span class="sxs-lookup"><span data-stu-id="1d390-172">File store (to hold audio files)</span></span>
+  - <span data-ttu-id="75f7b-172">Хранилище файлов (для хранения аудиофайлов)</span><span class="sxs-lookup"><span data-stu-id="75f7b-172">File store (to hold audio files)</span></span>
 
-  - <span data-ttu-id="1d390-173">Веб-службы (включает средство настройки группы ответа и консоль "вход и выход" агентов).</span><span class="sxs-lookup"><span data-stu-id="1d390-173">Web Services (includes the Response Group Configuration Tool and the agents' sign-in and sign-out console)</span></span>
+  - <span data-ttu-id="75f7b-173">Веб-службы (включает средство настройки группы ответа и консоль "вход и выход" агентов).</span><span class="sxs-lookup"><span data-stu-id="75f7b-173">Web Services (includes the Response Group Configuration Tool and the agents' sign-in and sign-out console)</span></span>
 
-<span data-ttu-id="1d390-174">Все эти компоненты устанавливаются по умолчанию при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1d390-174">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="75f7b-174">Все эти компоненты устанавливаются по умолчанию при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="75f7b-174">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
 
-<span data-ttu-id="1d390-175">Перед настройкой группы ответа может потребоваться выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="1d390-175">You might need to perform the following tasks before configuring Response Group:</span></span>
+<span data-ttu-id="75f7b-175">Перед настройкой группы ответа может потребоваться выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="75f7b-175">You might need to perform the following tasks before configuring Response Group:</span></span>
 
-  - <span data-ttu-id="1d390-176">Включение пользователей для Lync Server 2013 и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1d390-176">Enable users for Lync Server 2013 and Enterprise Voice.</span></span>
+  - <span data-ttu-id="75f7b-176">Включение пользователей для Lync Server 2013 и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="75f7b-176">Enable users for Lync Server 2013 and Enterprise Voice.</span></span>
 
-  - <span data-ttu-id="1d390-177">Изменить файл конфигурации для соответствия стандартам Federal Information Processing (FIPS).</span><span class="sxs-lookup"><span data-stu-id="1d390-177">Modify a configuration file to be compliant with Federal Information Processing Standards (FIPS).</span></span>
+  - <span data-ttu-id="75f7b-177">Изменить файл конфигурации для соответствия стандартам Federal Information Processing (FIPS).</span><span class="sxs-lookup"><span data-stu-id="75f7b-177">Modify a configuration file to be compliant with Federal Information Processing Standards (FIPS).</span></span>
 
-  - <span data-ttu-id="1d390-178">Изменить параметры сортировки базы данных для поддержки символов транскрипций ий, мэн, цзан для названий очередей и групп агентов.</span><span class="sxs-lookup"><span data-stu-id="1d390-178">Modify the database collation to support Yi, Meng, and Zang characters for queue names and agent group names.</span></span>
+  - <span data-ttu-id="75f7b-178">Изменить параметры сортировки базы данных для поддержки символов транскрипций ий, мэн, цзан для названий очередей и групп агентов.</span><span class="sxs-lookup"><span data-stu-id="75f7b-178">Modify the database collation to support Yi, Meng, and Zang characters for queue names and agent group names.</span></span>
 
 <div>
 
-## <a name="enabling-users"></a><span data-ttu-id="1d390-179">Включение пользователей</span><span class="sxs-lookup"><span data-stu-id="1d390-179">Enabling Users</span></span>
+## <a name="enabling-users"></a><span data-ttu-id="75f7b-179">Включение пользователей</span><span class="sxs-lookup"><span data-stu-id="75f7b-179">Enabling Users</span></span>
 
-<span data-ttu-id="1d390-180">Первым этапом настройки группы ответа является создание групп агентов.</span><span class="sxs-lookup"><span data-stu-id="1d390-180">The first step in configuring Response Group is to create agent groups.</span></span> <span data-ttu-id="1d390-181">Прежде чем можно будет создать группу агентов, необходимо включить пользователей, которые будут агентами для группы ответа для Lync Server 2013 и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1d390-181">Before you can create an agent group, you must enable the users who will be agents for Response Group for Lync Server 2013 and Enterprise Voice.</span></span> <span data-ttu-id="1d390-182">Включение пользователей для Lync Server 2013 обычно является шагом в развертывании сервера Enterprise Edition или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="1d390-182">Enabling users for Lync Server 2013 is typically a step in the Enterprise Edition server or Standard Edition server deployment.</span></span> <span data-ttu-id="1d390-183">Дополнительные сведения о включении пользователей для Lync Server 2013 приведены в статье [Отключение или повторное включение учетной записи пользователя для Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="1d390-183">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="1d390-184">Включение пользователей для корпоративной голосовой связи обычно является шагом в развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1d390-184">Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment.</span></span> <span data-ttu-id="1d390-185">Дополнительную информацию можно узнать [в статье Включение поддержки корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="1d390-185">For details, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
+<span data-ttu-id="75f7b-180">Первым этапом настройки группы ответа является создание групп агентов.</span><span class="sxs-lookup"><span data-stu-id="75f7b-180">The first step in configuring Response Group is to create agent groups.</span></span> <span data-ttu-id="75f7b-181">Прежде чем можно будет создать группу агентов, необходимо включить пользователей, которые будут агентами для группы ответа для Lync Server 2013 и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="75f7b-181">Before you can create an agent group, you must enable the users who will be agents for Response Group for Lync Server 2013 and Enterprise Voice.</span></span> <span data-ttu-id="75f7b-182">Включение пользователей для Lync Server 2013 обычно является шагом в развертывании сервера Enterprise Edition или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="75f7b-182">Enabling users for Lync Server 2013 is typically a step in the Enterprise Edition server or Standard Edition server deployment.</span></span> <span data-ttu-id="75f7b-183">Дополнительные сведения о включении пользователей для Lync Server 2013 приведены в статье [Отключение или повторное включение учетной записи пользователя для Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="75f7b-183">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="75f7b-184">Включение пользователей для корпоративной голосовой связи обычно является шагом в развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="75f7b-184">Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment.</span></span> <span data-ttu-id="75f7b-185">Дополнительную информацию можно узнать [в статье Включение поддержки корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="75f7b-185">For details, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="complying-with-fips-requirements"></a><span data-ttu-id="1d390-186">Соответствие требованиям стандарта FIPS</span><span class="sxs-lookup"><span data-stu-id="1d390-186">Complying with FIPS requirements</span></span>
+## <a name="complying-with-fips-requirements"></a><span data-ttu-id="75f7b-186">Соответствие требованиям стандарта FIPS</span><span class="sxs-lookup"><span data-stu-id="75f7b-186">Complying with FIPS requirements</span></span>
 
-<span data-ttu-id="1d390-187">Данный подраздел касается вас, только если вашей организации необходимо соответствовать федеральному стандарту по (FIPS, США).</span><span class="sxs-lookup"><span data-stu-id="1d390-187">This section applies to you only if your organization needs to comply with Federal Information Processing Standards (FIPS).</span></span>
+<span data-ttu-id="75f7b-187">Данный подраздел касается вас, только если вашей организации необходимо соответствовать федеральному стандарту по (FIPS, США).</span><span class="sxs-lookup"><span data-stu-id="75f7b-187">This section applies to you only if your organization needs to comply with Federal Information Processing Standards (FIPS).</span></span>
 
-<span data-ttu-id="1d390-188">Чтобы соответствовать стандарту, после установки Web Services необходимо изменить файл Web.config уровня приложения на использование другого криптографического алгоритма.</span><span class="sxs-lookup"><span data-stu-id="1d390-188">To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services.</span></span> <span data-ttu-id="1d390-189">Нужно указать, чтобы ASP.NET использовал алгоритм Triple Data Encryption Standard (3DES) для обработки данных о состоянии просмотра.</span><span class="sxs-lookup"><span data-stu-id="1d390-189">You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data.</span></span> <span data-ttu-id="1d390-190">Для приложения группы ответа это требование применяется к средству настройки группы ответа, а также к консоли входа и выхода агента.</span><span class="sxs-lookup"><span data-stu-id="1d390-190">For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console.</span></span> <span data-ttu-id="1d390-191">Сведения об этих требованиях можно найти в статье 911722 базы знаний Майкрософт "сообщение об ошибке при доступе к веб-страницам ASP.NET с включенным состоянием отображения после обновления ASP.NET 1,1 до ASP.NET 2,0" по адресу [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)".</span><span class="sxs-lookup"><span data-stu-id="1d390-191">For details about this requirement, see Microsoft Knowledge Base article 911722, "You may receive an error message when you access ASP.NET webpages that have ViewState enabled after you upgrade from ASP.NET 1.1 to ASP.NET 2.0," at [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183).</span></span>
+<span data-ttu-id="75f7b-188">Чтобы соответствовать стандарту, после установки Web Services необходимо изменить файл Web.config уровня приложения на использование другого криптографического алгоритма.</span><span class="sxs-lookup"><span data-stu-id="75f7b-188">To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services.</span></span> <span data-ttu-id="75f7b-189">Нужно указать, чтобы ASP.NET использовал алгоритм Triple Data Encryption Standard (3DES) для обработки данных о состоянии просмотра.</span><span class="sxs-lookup"><span data-stu-id="75f7b-189">You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data.</span></span> <span data-ttu-id="75f7b-190">Для приложения группы ответа это требование применяется к средству настройки группы ответа, а также к консоли входа и выхода агента.</span><span class="sxs-lookup"><span data-stu-id="75f7b-190">For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console.</span></span> <span data-ttu-id="75f7b-191">Сведения об этих требованиях можно найти в статье 911722 базы знаний Майкрософт "сообщение об ошибке при доступе к веб-страницам ASP.NET с включенным состоянием отображения после обновления ASP.NET 1,1 до ASP.NET 2,0" по адресу [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)".</span><span class="sxs-lookup"><span data-stu-id="75f7b-191">For details about this requirement, see Microsoft Knowledge Base article 911722, "You may receive an error message when you access ASP.NET webpages that have ViewState enabled after you upgrade from ASP.NET 1.1 to ASP.NET 2.0," at [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183).</span></span>
 
-<span data-ttu-id="1d390-192">Чтобы изменить файл Web.config, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="1d390-192">To modify the Web.config file, do the following:</span></span>
+<span data-ttu-id="75f7b-192">Чтобы изменить файл Web.config, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="75f7b-192">To modify the Web.config file, do the following:</span></span>
 
-1.  <span data-ttu-id="1d390-193">В текстовом редакторе, например в Блокноте, файл Web.config уровня приложения.</span><span class="sxs-lookup"><span data-stu-id="1d390-193">In a text editor such as Notepad, open the application-level Web.config file.</span></span>
+1.  <span data-ttu-id="75f7b-193">В текстовом редакторе, например в Блокноте, файл Web.config уровня приложения.</span><span class="sxs-lookup"><span data-stu-id="75f7b-193">In a text editor such as Notepad, open the application-level Web.config file.</span></span>
 
-2.  <span data-ttu-id="1d390-194">В файле Web. config выберите `<system.web>` раздел.</span><span class="sxs-lookup"><span data-stu-id="1d390-194">In the Web.config file, locate the `<system.web>` section.</span></span>
+2.  <span data-ttu-id="75f7b-194">В файле Web. config выберите `<system.web>` раздел.</span><span class="sxs-lookup"><span data-stu-id="75f7b-194">In the Web.config file, locate the `<system.web>` section.</span></span>
 
-3.  <span data-ttu-id="1d390-195">Добавьте в `<system.web>` раздел `<machineKey>` следующий раздел:</span><span class="sxs-lookup"><span data-stu-id="1d390-195">Add the following `<machineKey>` section to in the `<system.web>` section:</span></span>
+3.  <span data-ttu-id="75f7b-195">Добавьте в `<system.web>` раздел `<machineKey>` следующий раздел:</span><span class="sxs-lookup"><span data-stu-id="75f7b-195">Add the following `<machineKey>` section to in the `<system.web>` section:</span></span>
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
-4.  <span data-ttu-id="1d390-196">Сохраните файл Web.config.</span><span class="sxs-lookup"><span data-stu-id="1d390-196">Save the Web.config file.</span></span>
+4.  <span data-ttu-id="75f7b-196">Сохраните файл Web.config.</span><span class="sxs-lookup"><span data-stu-id="75f7b-196">Save the Web.config file.</span></span>
 
-5.  <span data-ttu-id="1d390-197">Перезапустите службу служб IIS, выполнив следующую команду в командной строки:</span><span class="sxs-lookup"><span data-stu-id="1d390-197">Restart the Internet Information Services (IIS) service by running the following command at a command prompt:</span></span>
+5.  <span data-ttu-id="75f7b-197">Перезапустите службу служб IIS, выполнив следующую команду в командной строки:</span><span class="sxs-lookup"><span data-stu-id="75f7b-197">Restart the Internet Information Services (IIS) service by running the following command at a command prompt:</span></span>
     
         iisreset
 
@@ -208,43 +208,43 @@ ms.locfileid: "42051825"
 
 <div>
 
-## <a name="supporting-yi-meng-and-zang-characters"></a><span data-ttu-id="1d390-198">Поддержка символов транскрипций ий, мэн и цзан</span><span class="sxs-lookup"><span data-stu-id="1d390-198">Supporting Yi, Meng, and Zang Characters</span></span>
+## <a name="supporting-yi-meng-and-zang-characters"></a><span data-ttu-id="75f7b-198">Поддержка символов транскрипций ий, мэн и цзан</span><span class="sxs-lookup"><span data-stu-id="75f7b-198">Supporting Yi, Meng, and Zang Characters</span></span>
 
-<span data-ttu-id="1d390-199">Данный раздел относится к вам, только если вашей организации нужна поддержка подобных символов</span><span class="sxs-lookup"><span data-stu-id="1d390-199">This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.</span></span>
+<span data-ttu-id="75f7b-199">Данный раздел относится к вам, только если вашей организации нужна поддержка подобных символов</span><span class="sxs-lookup"><span data-stu-id="75f7b-199">This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1d390-200">Сведения о том, что представляют собой символы Yi, Мэн и подобных, а также причины, по которым они могут быть важны для развертывания, можно узнать в статье <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>кодировки GB18030.</span><span class="sxs-lookup"><span data-stu-id="1d390-200">For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>.</span></span>
+> <span data-ttu-id="75f7b-200">Сведения о том, что представляют собой символы Yi, Мэн и подобных, а также причины, по которым они могут быть важны для развертывания, можно узнать в статье <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>кодировки GB18030.</span><span class="sxs-lookup"><span data-stu-id="75f7b-200">For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1d390-p106">Для поддержки данных символов необходимо изменить параметры сортировки базы данных Rgsconfig. Измените параметры сортировки столбца **Название** в следующих таблицах каждой базы данных Rgsconfig:</span><span class="sxs-lookup"><span data-stu-id="1d390-p106">To support Yi, Meng, or Zang characters, you need to modify the collation for the Rgsconfig database. Change the collation of the **Name** column in the following tables in each Rgsconfig database:</span></span>
+<span data-ttu-id="75f7b-p106">Для поддержки данных символов необходимо изменить параметры сортировки базы данных Rgsconfig. Измените параметры сортировки столбца **Название** в следующих таблицах каждой базы данных Rgsconfig:</span><span class="sxs-lookup"><span data-stu-id="75f7b-p106">To support Yi, Meng, or Zang characters, you need to modify the collation for the Rgsconfig database. Change the collation of the **Name** column in the following tables in each Rgsconfig database:</span></span>
 
-  - <span data-ttu-id="1d390-203">dbo. ажентграупс</span><span class="sxs-lookup"><span data-stu-id="1d390-203">dbo.AgentGroups</span></span>
+  - <span data-ttu-id="75f7b-203">dbo. ажентграупс</span><span class="sxs-lookup"><span data-stu-id="75f7b-203">dbo.AgentGroups</span></span>
 
-  - <span data-ttu-id="1d390-204">dbo. BusinessHours</span><span class="sxs-lookup"><span data-stu-id="1d390-204">dbo.BusinessHours</span></span>
+  - <span data-ttu-id="75f7b-204">dbo. BusinessHours</span><span class="sxs-lookup"><span data-stu-id="75f7b-204">dbo.BusinessHours</span></span>
 
-  - <span data-ttu-id="1d390-205">dbo. холидайсетс</span><span class="sxs-lookup"><span data-stu-id="1d390-205">dbo.HolidaySets</span></span>
+  - <span data-ttu-id="75f7b-205">dbo. холидайсетс</span><span class="sxs-lookup"><span data-stu-id="75f7b-205">dbo.HolidaySets</span></span>
 
-  - <span data-ttu-id="1d390-206">dbo. Очереди</span><span class="sxs-lookup"><span data-stu-id="1d390-206">dbo.Queues</span></span>
+  - <span data-ttu-id="75f7b-206">dbo. Очереди</span><span class="sxs-lookup"><span data-stu-id="75f7b-206">dbo.Queues</span></span>
 
-  - <span data-ttu-id="1d390-207">dbo. Выгружен</span><span class="sxs-lookup"><span data-stu-id="1d390-207">dbo.Workflows</span></span>
+  - <span data-ttu-id="75f7b-207">dbo. Выгружен</span><span class="sxs-lookup"><span data-stu-id="75f7b-207">dbo.Workflows</span></span>
 
-<span data-ttu-id="1d390-208">Для SQL Server 2008 R2 и SQL Server 2012 используйте параметры сортировки латиницы\_General\_100 (с учетом диакритических знаков).</span><span class="sxs-lookup"><span data-stu-id="1d390-208">For SQL Server 2008 R2 and SQL Server 2012, use the Latin\_General\_100 (Accent Sensitive) collation.</span></span> <span data-ttu-id="1d390-209">При использовании этих параметров сортировки все имена объектов не учитывают регистр.</span><span class="sxs-lookup"><span data-stu-id="1d390-209">If you use this collation, all object names are not case-sensitive.</span></span>
+<span data-ttu-id="75f7b-208">Для SQL Server 2008 R2 и SQL Server 2012 используйте параметры сортировки латиницы\_General\_100 (с учетом диакритических знаков).</span><span class="sxs-lookup"><span data-stu-id="75f7b-208">For SQL Server 2008 R2 and SQL Server 2012, use the Latin\_General\_100 (Accent Sensitive) collation.</span></span> <span data-ttu-id="75f7b-209">При использовании этих параметров сортировки все имена объектов не учитывают регистр.</span><span class="sxs-lookup"><span data-stu-id="75f7b-209">If you use this collation, all object names are not case-sensitive.</span></span>
 
-<span data-ttu-id="1d390-210">Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="1d390-210">You can change the collation by using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="1d390-211">Дополнительные сведения об использовании этого средства приведены в [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)разделе "использование SQL Server Management Studio".</span><span class="sxs-lookup"><span data-stu-id="1d390-211">For details about using this tool, see "Using SQL Server Management Studio" at [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184).</span></span> <span data-ttu-id="1d390-212">Чтобы изменить параметры сортировки, выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="1d390-212">Follow these steps to change the collation:</span></span>
+<span data-ttu-id="75f7b-210">Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="75f7b-210">You can change the collation by using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="75f7b-211">Дополнительные сведения об использовании этого средства приведены в [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)разделе "использование SQL Server Management Studio".</span><span class="sxs-lookup"><span data-stu-id="75f7b-211">For details about using this tool, see "Using SQL Server Management Studio" at [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184).</span></span> <span data-ttu-id="75f7b-212">Чтобы изменить параметры сортировки, выполните следующее:</span><span class="sxs-lookup"><span data-stu-id="75f7b-212">Follow these steps to change the collation:</span></span>
 
-1.  <span data-ttu-id="1d390-213">Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц.</span><span class="sxs-lookup"><span data-stu-id="1d390-213">Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated.</span></span> <span data-ttu-id="1d390-214">Дополнительные сведения см. в разделе "сохранение (не разрешено)" [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)в диалоговом окне "сохранение (запрещен)".</span><span class="sxs-lookup"><span data-stu-id="1d390-214">For details, see "Save (Not Permitted) Dialog Box" at [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186).</span></span> <span data-ttu-id="1d390-215">Дополнительные сведения о настройке параметров сортировки столбцов приведены в разделе "инструкции: Set collation Columns (визуальные инструменты для баз данных) [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)" в.</span><span class="sxs-lookup"><span data-stu-id="1d390-215">For details about setting a column collation, see "How to: Set Column Collation (Visual Database Tools)" at [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185).</span></span>
+1.  <span data-ttu-id="75f7b-213">Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц.</span><span class="sxs-lookup"><span data-stu-id="75f7b-213">Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated.</span></span> <span data-ttu-id="75f7b-214">Дополнительные сведения см. в разделе "сохранение (не разрешено)" [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)в диалоговом окне "сохранение (запрещен)".</span><span class="sxs-lookup"><span data-stu-id="75f7b-214">For details, see "Save (Not Permitted) Dialog Box" at [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186).</span></span> <span data-ttu-id="75f7b-215">Дополнительные сведения о настройке параметров сортировки столбцов приведены в разделе "инструкции: Set collation Columns (визуальные инструменты для баз данных) [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)" в.</span><span class="sxs-lookup"><span data-stu-id="75f7b-215">For details about setting a column collation, see "How to: Set Column Collation (Visual Database Tools)" at [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185).</span></span>
 
-2.  <span data-ttu-id="1d390-216">Используя Microsoft SQL Server Management Studio подключитесь к базе данных Rgsconfig.</span><span class="sxs-lookup"><span data-stu-id="1d390-216">Using Microsoft SQL Server Management Studio, connect to the Rgsconfig database.</span></span>
+2.  <span data-ttu-id="75f7b-216">Используя Microsoft SQL Server Management Studio подключитесь к базе данных Rgsconfig.</span><span class="sxs-lookup"><span data-stu-id="75f7b-216">Using Microsoft SQL Server Management Studio, connect to the Rgsconfig database.</span></span>
 
-3.  <span data-ttu-id="1d390-217">Найдите нужную таблицу в базе данных Rgsconfig, щелкните ее правой кнопкой мыши и выберите **Конструктор**.</span><span class="sxs-lookup"><span data-stu-id="1d390-217">Find the table you want to change in the Rgsconfig database, right-click the table, and click **Design**.</span></span>
+3.  <span data-ttu-id="75f7b-217">Найдите нужную таблицу в базе данных Rgsconfig, щелкните ее правой кнопкой мыши и выберите **Конструктор**.</span><span class="sxs-lookup"><span data-stu-id="75f7b-217">Find the table you want to change in the Rgsconfig database, right-click the table, and click **Design**.</span></span>
 
-4.  <span data-ttu-id="1d390-218">Измените параметры сортировки столбца **Название** и сохраните таблицу.</span><span class="sxs-lookup"><span data-stu-id="1d390-218">Change the collation of the **Name** column and save the table.</span></span>
+4.  <span data-ttu-id="75f7b-218">Измените параметры сортировки столбца **Название** и сохраните таблицу.</span><span class="sxs-lookup"><span data-stu-id="75f7b-218">Change the collation of the **Name** column and save the table.</span></span>
 
 </div>
 

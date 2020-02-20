@@ -12,20 +12,20 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff03309ab4c71f2dfda9aac96223cde2cd6e000a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9cdf1ded3a63d790db78476b91a458d07921200a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038681"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a><span data-ttu-id="cc89e-102">Таблица Subnet в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc89e-102">Subnet table in Lync Server 2013</span></span>
+# <a name="subnet-table-in-lync-server-2013"></a><span data-ttu-id="f5469-102">Таблица Subnet в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5469-102">Subnet table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42038681"
 
 <span> </span>
 
-<span data-ttu-id="cc89e-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="cc89e-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="f5469-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="f5469-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="cc89e-p101">Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="cc89e-p101">The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.</span></span>
+<span data-ttu-id="f5469-p101">Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="f5469-p101">The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "42038681"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cc89e-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="cc89e-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="cc89e-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="cc89e-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="f5469-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="f5469-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="f5469-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="f5469-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cc89e-110"><strong>субнетип</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-110"><strong>SubnetIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc89e-111">int</span><span class="sxs-lookup"><span data-stu-id="cc89e-111">int</span></span></p></td>
-<td><p><span data-ttu-id="cc89e-112">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="cc89e-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="cc89e-113">Целочисленное представление IP-адреса подсети.</span><span class="sxs-lookup"><span data-stu-id="cc89e-113">Integer representation for the subnet IP.</span></span></p></td>
+<td><p><span data-ttu-id="f5469-110"><strong>субнетип</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-110"><strong>SubnetIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5469-111">int</span><span class="sxs-lookup"><span data-stu-id="f5469-111">int</span></span></p></td>
+<td><p><span data-ttu-id="f5469-112">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="f5469-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="f5469-113">Целочисленное представление IP-адреса подсети.</span><span class="sxs-lookup"><span data-stu-id="f5469-113">Integer representation for the subnet IP.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc89e-114"><strong>Сети</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-114"><strong>SubnetMask</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc89e-115">int</span><span class="sxs-lookup"><span data-stu-id="cc89e-115">int</span></span></p></td>
+<td><p><span data-ttu-id="f5469-114"><strong>Сети</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-114"><strong>SubnetMask</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5469-115">int</span><span class="sxs-lookup"><span data-stu-id="f5469-115">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="cc89e-116">Маска подсети.</span><span class="sxs-lookup"><span data-stu-id="cc89e-116">Subnet mask.</span></span></p></td>
+<td><p><span data-ttu-id="f5469-116">Маска подсети.</span><span class="sxs-lookup"><span data-stu-id="f5469-116">Subnet mask.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cc89e-117"><strong>усерситекэй</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-117"><strong>UserSiteKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc89e-118">int</span><span class="sxs-lookup"><span data-stu-id="cc89e-118">int</span></span></p></td>
-<td><p><span data-ttu-id="cc89e-119">Правительства</span><span class="sxs-lookup"><span data-stu-id="cc89e-119">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="cc89e-120">Ссылка из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="cc89e-120">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="f5469-117"><strong>усерситекэй</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-117"><strong>UserSiteKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5469-118">int</span><span class="sxs-lookup"><span data-stu-id="f5469-118">int</span></span></p></td>
+<td><p><span data-ttu-id="f5469-119">Правительства</span><span class="sxs-lookup"><span data-stu-id="f5469-119">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="f5469-120">Ссылка из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="f5469-120">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc89e-121"><strong>субнетдескриптион</strong></span><span class="sxs-lookup"><span data-stu-id="cc89e-121"><strong>SubnetDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc89e-122">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="cc89e-122">nvarchar(512)</span></span></p></td>
+<td><p><span data-ttu-id="f5469-121"><strong>субнетдескриптион</strong></span><span class="sxs-lookup"><span data-stu-id="f5469-121"><strong>SubnetDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5469-122">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="f5469-122">nvarchar(512)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="cc89e-123">Описание подсети.</span><span class="sxs-lookup"><span data-stu-id="cc89e-123">The description for the subnet.</span></span></p></td>
+<td><p><span data-ttu-id="f5469-123">Описание подсети.</span><span class="sxs-lookup"><span data-stu-id="f5469-123">The description for the subnet.</span></span></p></td>
 </tr>
 </tbody>
 </table>
