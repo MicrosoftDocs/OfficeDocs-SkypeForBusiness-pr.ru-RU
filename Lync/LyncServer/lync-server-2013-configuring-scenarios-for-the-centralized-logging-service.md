@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041028"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Настройка сценариев для централизованной службы ведения журналов в Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041028"
 
 _**Последнее изменение темы:** 2014-02-05_
 
-В сценариях определяется область (Глобальная, на уровне сайта, в пуле или на компьютере) и какие поставщики используются в централизованной службе ведения журналов. С помощью сценариев вы включаете и отключаете трассировку поставщиков (например, S4, SIPStack, мгновенных сообщений и сведений о присутствии). Настроив сценарий вы можете сгруппировать все поставщики заданной логической коллекции, которые решают определенную проблему. Если вы обнаружите, что сценарий необходимо изменить в соответствии с требованиями к устранению неполадок и ведению журналов, средства отладки Lync Server 2013 предоставляют модуль Windows PowerShell с именем *ClsController. PSM1* , который содержит функцию с именем *Edit — CsClsScenario*. Предназначение этого модуля — изменение свойств именованного сценария. Примеры работы этого модуля представлены в этом разделе. Средства отладки Lync Server 2013 загружаются по следующей ссылке:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+В сценариях определяется область (Глобальная, на уровне сайта, в пуле или на компьютере) и какие поставщики используются в централизованной службе ведения журналов. С помощью сценариев вы включаете и отключаете трассировку поставщиков (например, S4, SIPStack, мгновенных сообщений и сведений о присутствии). Настроив сценарий вы можете сгруппировать все поставщики заданной логической коллекции, которые решают определенную проблему. Если вы обнаружите, что сценарий необходимо изменить в соответствии с требованиями к устранению неполадок и ведению журналов, средства отладки Lync Server 2013 предоставляют модуль Windows PowerShell с именем *ClsController. PSM1* , который содержит функцию с именем *Edit — CsClsScenario*. Предназначение этого модуля — изменение свойств именованного сценария. Примеры работы этого модуля представлены в этом разделе. Средства отладки Lync Server 2013 загружаются по следующей ссылке:[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -114,7 +114,7 @@ _**Последнее изменение темы:** 2014-02-05_
     
 
     > [!NOTE]  
-    > Так как она известна в Windows PowerShell, соглашение о создании хэш-таблицы значений с помощью <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> называется <EM>сплаттингом</EM>. Подробнее о сплаттингом в Windows PowerShell можно узнать <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>в статье.
+    > Так как она известна в Windows PowerShell, соглашение о создании хэш-таблицы значений с помощью <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> называется <EM>сплаттингом</EM>. Подробнее о сплаттингом в Windows PowerShell можно узнать <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>в статье.
 
     
     </div>

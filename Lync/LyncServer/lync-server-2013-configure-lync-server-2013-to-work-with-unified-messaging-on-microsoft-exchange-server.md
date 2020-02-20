@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031003"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на сервере Microsoft Exchange
 
@@ -57,8 +57,8 @@ _**Последнее изменение темы:** 2013-04-03_
 > Перед запуском средства интеграции Exchange UM убедитесь, что выполнены следующие действия:
 > <ul>
 > <li><p>Создайте одну или несколько абонентских групп единой системы обмена сообщениями Exchange, как описано в документации по продукту Exchange.</p>
-> <p>&quot; В <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>разделе &quot;Создание абонентской группы единой системы обмена сообщениями для Microsoft Exchange Server 2010.</p>
-> <p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) &quot;вы можете ознакомиться со статьей Создание абонентской группы&quot; URI <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>SIP единой системы обмена сообщениями по адресу.</p></li>
+> <p>&quot; В <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>разделе &quot;Создание абонентской группы единой системы обмена сообщениями для Microsoft Exchange Server 2010.</p>
+> <p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) &quot;вы можете ознакомиться со статьей Создание абонентской группы&quot; URI <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>SIP единой системы обмена сообщениями по адресу.</p></li>
 > <li><p>Создайте одну или несколько соответствующих абонентских группы Lync Server, как описано в разделе <a href="lync-server-2013-create-a-dial-plan.md">Create a Dialing Plan in Lync server 2013</a>.</p></li>
 > <ul><li>Если вы используете более раннюю версию Exchange, чем Microsoft Exchange Server 2010 с пакетом обновления 1 (SP1), необходимо ввести полное доменное имя соответствующей абонентской группы SIP единой системы обмена сообщениями Exchange в поле <STRONG>простого имени</STRONG> абонентской группы Lync Server 2013. Если вы используете Microsoft Exchange Server 2010 с пакетом обновления 1 (SP1) или более поздней версии, это имя не требуется.</li></ul>
 > <li>Создайте автосекретаря и убедитесь, что номер абонентского доступа и номера автосекретаря указаны в формате E.164.</li></ul>

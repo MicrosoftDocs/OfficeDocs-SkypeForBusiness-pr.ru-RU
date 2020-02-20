@@ -12,18 +12,18 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 50bd8d3fb538a7450d2129691ec523dbcb6dd208
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006205"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146792"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Усиление защиты и защита серверов и приложений для Lync Server 2013
 
@@ -61,7 +61,7 @@ _**Последнее изменение темы:** 2013-12-05_
 
 ## <a name="securing-virtual-servers"></a>Защита виртуальных серверов
 
-Моментальные снимки виртуального сервера содержат копии дисков данных сервера и также содержат дампы данных в памяти, которые могут содержать конфиденциальные криптографические данные, которые могут привести к атакам. Для рабочих серверов, реализованных с помощью виртуализации, необходимо отключить все моментальные снимки сервера или управлять ими очень контролируемым образом. Подробнее об обеспечении безопасности виртуальных серверов Hyper # V вы найдете в руководстве по безопасности Hyper # V [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)по адресу:.
+Моментальные снимки виртуального сервера содержат копии дисков данных сервера и также содержат дампы данных в памяти, которые могут содержать конфиденциальные криптографические данные, которые могут привести к атакам. Для рабочих серверов, реализованных с помощью виртуализации, необходимо отключить все моментальные снимки сервера или управлять ими очень контролируемым образом. Подробнее об обеспечении безопасности виртуальных серверов Hyper # V вы найдете в руководстве по безопасности Hyper # V [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)по адресу:.
 
 </div>
 
@@ -95,7 +95,7 @@ _**Последнее изменение темы:** 2013-12-05_
 
 ## <a name="group-policy-security-settings"></a>Параметры безопасности групповой политики
 
-Групповая политика содержит параметры безопасности для объекта групповой политики в разделе Конфигурация компьютера/параметры Windows/параметры безопасности при доступе из GPedit. dll. Шаблоны безопасности можно импортировать для настройки параметров безопасности для объекта групповой политики. Руководство по безопасности Windows Server 2008 [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) и набор средств управления соответствием требованиям безопасности для windows Server 2008 [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) R2 содержат несколько примеров шаблонов, которые можно изменить в соответствии с вашими потребностями.
+Групповая политика содержит параметры безопасности для объекта групповой политики в разделе Конфигурация компьютера/параметры Windows/параметры безопасности при доступе из GPedit. dll. Шаблоны безопасности можно импортировать для настройки параметров безопасности для объекта групповой политики. Руководство по безопасности Windows Server 2008 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) и набор средств управления соответствием требованиям безопасности для windows Server 2008 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) R2 содержат несколько примеров шаблонов, которые можно изменить в соответствии с вашими потребностями.
 
 </div>
 
