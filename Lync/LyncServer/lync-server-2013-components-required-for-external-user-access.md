@@ -12,18 +12,18 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31381edc58240d990096b47498b5c98845af5b2d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007959"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Компоненты, необходимые для доступа внешних пользователей в Lync Server 2013
 
@@ -114,7 +114,7 @@ _**Последнее изменение темы:** 2014-05-29_
 
 
 > [!NOTE]  
-> Внешним пользователям не требуется подключение к Организации виртуальной частной сети (VPN) для участия в связи с использованием Lync Server 2013. Если в организации реализована технология VPN, а пользователи используют VPN-подключение для Lync, трафик мультимедиа (например, видеоконференций) может быть неблагоприятно затронуты. Вам рекомендуется предоставить средства, с помощью которых трафик мультимедиа может взаимодействовать непосредственно с пограничной службой обработки аудио- и видеоданных в обход VPN. Дополнительные сведения можно найти в статье по веб-журналу NextHop: "Включение поддержки VPN-туннеля в Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>Media" по адресу.
+> Внешним пользователям не требуется подключение к Организации виртуальной частной сети (VPN) для участия в связи с использованием Lync Server 2013. Если в организации реализована технология VPN, а пользователи используют VPN-подключение для Lync, трафик мультимедиа (например, видеоконференций) может быть неблагоприятно затронуты. Вам рекомендуется предоставить средства, с помощью которых трафик мультимедиа может взаимодействовать непосредственно с пограничной службой обработки аудио- и видеоданных в обход VPN. Дополнительные сведения можно найти в статье по веб-журналу NextHop: "Включение поддержки VPN-туннеля в Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>Media" по адресу.
 
 
 
