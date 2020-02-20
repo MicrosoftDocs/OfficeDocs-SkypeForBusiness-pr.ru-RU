@@ -12,20 +12,20 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 080f27b1e01f86d23fd5fd7bf6fdb9e9a05c0742
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a5eaee8ba62984ad37dc49df2ce609018dd17b79
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045271"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a><span data-ttu-id="2e11c-102">Установка дополнительного программного обеспечения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e11c-102">Installing optional software in Lync Server 2013</span></span>
+# <a name="installing-optional-software-in-lync-server-2013"></a><span data-ttu-id="09e82-102">Установка дополнительного программного обеспечения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09e82-102">Installing optional software in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "42045271"
 
 <span> </span>
 
-<span data-ttu-id="2e11c-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="2e11c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="09e82-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="09e82-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="2e11c-104">Microsoft Lync Server 2013, средство планирования предназначено для экспорта в Microsoft Excel и Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="2e11c-104">The Microsoft Lync Server 2013, Planning Tool is designed to export to Microsoft Excel and Microsoft Visio.</span></span> <span data-ttu-id="2e11c-105">Несмотря на то, что эти приложения не требуются для работы средства планирования, они имеют существенные значения для развертывания и документирования проекта.</span><span class="sxs-lookup"><span data-stu-id="2e11c-105">While these applications are not required for the operation of the Planning Tool, they do add significant value to the deployment and documentation of your design.</span></span>
-
-<div>
-
-## <a name="optional-software"></a><span data-ttu-id="2e11c-106">Дополнительное программное обеспечение</span><span class="sxs-lookup"><span data-stu-id="2e11c-106">Optional Software</span></span>
+<span data-ttu-id="09e82-104">Microsoft Lync Server 2013, средство планирования предназначено для экспорта в Microsoft Excel и Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="09e82-104">The Microsoft Lync Server 2013, Planning Tool is designed to export to Microsoft Excel and Microsoft Visio.</span></span> <span data-ttu-id="09e82-105">Несмотря на то, что эти приложения не требуются для работы средства планирования, они имеют существенные значения для развертывания и документирования проекта.</span><span class="sxs-lookup"><span data-stu-id="09e82-105">While these applications are not required for the operation of the Planning Tool, they do add significant value to the deployment and documentation of your design.</span></span>
 
 <div>
 
-## <a name="microsoft-excel"></a><span data-ttu-id="2e11c-107">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="2e11c-107">Microsoft Excel</span></span>
+## <a name="optional-software"></a><span data-ttu-id="09e82-106">Дополнительное программное обеспечение</span><span class="sxs-lookup"><span data-stu-id="09e82-106">Optional Software</span></span>
 
-<span data-ttu-id="2e11c-108">При экспорте проекта в Microsoft Excel создается отчет, отображающий семь вкладок в электронной таблице:</span><span class="sxs-lookup"><span data-stu-id="2e11c-108">Exporting your design to Microsoft Excel creates a report that displays seven tabs in the spreadsheet:</span></span>
+<div>
 
-  - <span data-ttu-id="2e11c-109">Сводка — отображает сведения о конфигурации сайта, включая количество пользователей, параметры емкости и сведения о профиле сервера.</span><span class="sxs-lookup"><span data-stu-id="2e11c-109">Summary – Displays information on site configuration, including user count, capacity settings, and server profile information.</span></span>
+## <a name="microsoft-excel"></a><span data-ttu-id="09e82-107">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="09e82-107">Microsoft Excel</span></span>
 
-  - <span data-ttu-id="2e11c-110">Profile (профиль оборудования) — отображает отчет о рекомендуемых конфигурациях оборудования для серверов, указанных в топологии, в том числе ЦП, памяти, диска и сетевого интерфейса.</span><span class="sxs-lookup"><span data-stu-id="2e11c-110">Hardware Profile – Displays a report on the recommended hardware configurations for servers that are specified in the topology, including CPU, memory, disk, and network interface.</span></span> <span data-ttu-id="2e11c-111">Также включается количество и Рекомендуемые характеристики серверных компонентов.</span><span class="sxs-lookup"><span data-stu-id="2e11c-111">The quantity and recommended specifications for the server components are also included.</span></span> <span data-ttu-id="2e11c-112">Кроме того, каждый сервер определяется сайтом для предоставления полного представления серверных требований по сайту.</span><span class="sxs-lookup"><span data-stu-id="2e11c-112">In addition, each server is defined by site to provide a complete representation of server requirements by site.</span></span>
+<span data-ttu-id="09e82-108">При экспорте проекта в Microsoft Excel создается отчет, отображающий семь вкладок в электронной таблице:</span><span class="sxs-lookup"><span data-stu-id="09e82-108">Exporting your design to Microsoft Excel creates a report that displays seven tabs in the spreadsheet:</span></span>
 
-  - <span data-ttu-id="2e11c-113">Требования к портам — отображает отчет обо всех включенных портах и о сопоставлении с балансировкой нагрузки системы доменных имен (DNS) и аппаратной балансировкой нагрузки (HLB).</span><span class="sxs-lookup"><span data-stu-id="2e11c-113">Ports Requirements – Displays a report of all ports that are enabled, and the association to Domain Name System load balancing (DNS LB) and hardware load balancers (HLB).</span></span> <span data-ttu-id="2e11c-114">Этот отчет следует использовать для планирования конфигурации брандмауэра и балансировки нагрузки DNS и HLB.</span><span class="sxs-lookup"><span data-stu-id="2e11c-114">You should use this report to plan your firewall and DNS LB and HLB configurations.</span></span>
+  - <span data-ttu-id="09e82-109">Сводка — отображает сведения о конфигурации сайта, включая количество пользователей, параметры емкости и сведения о профиле сервера.</span><span class="sxs-lookup"><span data-stu-id="09e82-109">Summary – Displays information on site configuration, including user count, capacity settings, and server profile information.</span></span>
 
-  - <span data-ttu-id="2e11c-115">Сводный отчет — отображает общую сводку по параметрам, необходимым для настройки сети пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="2e11c-115">Summary Report – Displays the general summary of the settings that are required to set up your Edge Server network.</span></span>
+  - <span data-ttu-id="09e82-110">Profile (профиль оборудования) — отображает отчет о рекомендуемых конфигурациях оборудования для серверов, указанных в топологии, в том числе ЦП, памяти, диска и сетевого интерфейса.</span><span class="sxs-lookup"><span data-stu-id="09e82-110">Hardware Profile – Displays a report on the recommended hardware configurations for servers that are specified in the topology, including CPU, memory, disk, and network interface.</span></span> <span data-ttu-id="09e82-111">Также включается количество и Рекомендуемые характеристики серверных компонентов.</span><span class="sxs-lookup"><span data-stu-id="09e82-111">The quantity and recommended specifications for the server components are also included.</span></span> <span data-ttu-id="09e82-112">Кроме того, каждый сервер определяется сайтом для предоставления полного представления серверных требований по сайту.</span><span class="sxs-lookup"><span data-stu-id="09e82-112">In addition, each server is defined by site to provide a complete representation of server requirements by site.</span></span>
 
-  - <span data-ttu-id="2e11c-116">Отчет о сертификатах — отображает имя субъекта и альтернативные имена субъекта, необходимые для сертификатов, необходимых для получения запущенных пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="2e11c-116">Certificates Report – Displays the subject name and subject alternate names that are required for the certificates needed to get the Edge Servers running.</span></span>
+  - <span data-ttu-id="09e82-113">Требования к портам — отображает отчет обо всех включенных портах и о сопоставлении с балансировкой нагрузки системы доменных имен (DNS) и аппаратной балансировкой нагрузки (HLB).</span><span class="sxs-lookup"><span data-stu-id="09e82-113">Ports Requirements – Displays a report of all ports that are enabled, and the association to Domain Name System load balancing (DNS LB) and hardware load balancers (HLB).</span></span> <span data-ttu-id="09e82-114">Этот отчет следует использовать для планирования конфигурации брандмауэра и балансировки нагрузки DNS и HLB.</span><span class="sxs-lookup"><span data-stu-id="09e82-114">You should use this report to plan your firewall and DNS LB and HLB configurations.</span></span>
 
-  - <span data-ttu-id="2e11c-117">Отчет о брандмауэре — отображает исходные и конечные порты и IP-адреса для внешних и внутренних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="2e11c-117">Firewall Report – Displays the source and destination ports and IP addresses for both External and Internal interfaces.</span></span>
+  - <span data-ttu-id="09e82-115">Сводный отчет — отображает общую сводку по параметрам, необходимым для настройки сети пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="09e82-115">Summary Report – Displays the general summary of the settings that are required to set up your Edge Server network.</span></span>
 
-  - <span data-ttu-id="2e11c-118">DNS Report — отображает полное доменное имя (FQDN) и IP/IP-адрес, необходимые для каждой создаваемой записи DNS.</span><span class="sxs-lookup"><span data-stu-id="2e11c-118">DNS Report – Displays the fully qualified domain name (FQDN) and IP/VIP addresses required for each DNS entry that you create.</span></span>
+  - <span data-ttu-id="09e82-116">Отчет о сертификатах — отображает имя субъекта и альтернативные имена субъекта, необходимые для сертификатов, необходимых для получения запущенных пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="09e82-116">Certificates Report – Displays the subject name and subject alternate names that are required for the certificates needed to get the Edge Servers running.</span></span>
+
+  - <span data-ttu-id="09e82-117">Отчет о брандмауэре — отображает исходные и конечные порты и IP-адреса для внешних и внутренних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="09e82-117">Firewall Report – Displays the source and destination ports and IP addresses for both External and Internal interfaces.</span></span>
+
+  - <span data-ttu-id="09e82-118">DNS Report — отображает полное доменное имя (FQDN) и IP/IP-адрес, необходимые для каждой создаваемой записи DNS.</span><span class="sxs-lookup"><span data-stu-id="09e82-118">DNS Report – Displays the fully qualified domain name (FQDN) and IP/VIP addresses required for each DNS entry that you create.</span></span>
 
 </div>
 
 <div>
 
-## <a name="microsoft-visio"></a><span data-ttu-id="2e11c-119">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="2e11c-119">Microsoft Visio</span></span>
+## <a name="microsoft-visio"></a><span data-ttu-id="09e82-119">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="09e82-119">Microsoft Visio</span></span>
 
-<span data-ttu-id="2e11c-120">При экспорте проекта в Microsoft Visio создается схема, используемая в целях вашей документации в настроенной топологии и инфраструктуре.</span><span class="sxs-lookup"><span data-stu-id="2e11c-120">Exporting your design to Microsoft Visio creates a diagram for use in your documentation purposes of your configured topology and infrastructure.</span></span> <span data-ttu-id="2e11c-121">Импортированная схема может быть изменена и упорядочена в соответствии с потребностями в документации.</span><span class="sxs-lookup"><span data-stu-id="2e11c-121">The imported diagram can be edited and rearranged to meet your documentation needs.</span></span> <span data-ttu-id="2e11c-122">Типичная схема Visio будет включать:</span><span class="sxs-lookup"><span data-stu-id="2e11c-122">The typical Visio diagram will include:</span></span>
+<span data-ttu-id="09e82-120">При экспорте проекта в Microsoft Visio создается схема, используемая в целях вашей документации в настроенной топологии и инфраструктуре.</span><span class="sxs-lookup"><span data-stu-id="09e82-120">Exporting your design to Microsoft Visio creates a diagram for use in your documentation purposes of your configured topology and infrastructure.</span></span> <span data-ttu-id="09e82-121">Импортированная схема может быть изменена и упорядочена в соответствии с потребностями в документации.</span><span class="sxs-lookup"><span data-stu-id="09e82-121">The imported diagram can be edited and rearranged to meet your documentation needs.</span></span> <span data-ttu-id="09e82-122">Типичная схема Visio будет включать:</span><span class="sxs-lookup"><span data-stu-id="09e82-122">The typical Visio diagram will include:</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2e11c-123">Если ваша структура достаточно велика, чтобы потребовать более трех серверов переднего плана, будет создана дополнительная страница для пула переднего плана, серверов переднего плана, компьютера с SQL Server, IP-адресов и полных доменных имен.</span><span class="sxs-lookup"><span data-stu-id="2e11c-123">If your design is large enough to require more than three Front End Servers, an additional page will be created for the Front End pool, Front End Servers, the computer running SQL Server, IP addresses, and FQDNs.</span></span>
+> <span data-ttu-id="09e82-123">Если ваша структура достаточно велика, чтобы потребовать более трех серверов переднего плана, будет создана дополнительная страница для пула переднего плана, серверов переднего плана, компьютера с SQL Server, IP-адресов и полных доменных имен.</span><span class="sxs-lookup"><span data-stu-id="09e82-123">If your design is large enough to require more than three Front End Servers, an additional page will be created for the Front End pool, Front End Servers, the computer running SQL Server, IP addresses, and FQDNs.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="2e11c-124">Глобальная топология — схема настроенных сайтов Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e11c-124">Global Topology – Diagram of configured Lync Server 2013 sites.</span></span>
+  - <span data-ttu-id="09e82-124">Глобальная топология — схема настроенных сайтов Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="09e82-124">Global Topology – Diagram of configured Lync Server 2013 sites.</span></span>
 
-  - <span data-ttu-id="2e11c-125">Вкладка "имя сайта" — отображает топологию конфигурации сайта с пограничным сервером, брандмауэром, телефонной сетью общего пользования (PSTN) с шлюзами и внутренним развертыванием сервера.</span><span class="sxs-lookup"><span data-stu-id="2e11c-125">Site Name tab – Displays the site configuration topology with Edge Server, firewall, public switched telephone network (PSTN) with gateways, and the internal server deployment.</span></span> <span data-ttu-id="2e11c-126">Внутреннее развертывание состоит из настроенных серверов и пулов, в том числе интерфейсных пулов, серверов SQL Server, доменных служб Active Directory, директоров, серверов единой системы обмена сообщениями Exchange, серверов почтовых ящиков Exchange, серверов почтовых ящиков Exchange, серверов Office Web Apps Серверы-посредники и серверы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="2e11c-126">Internal deployment consists of configured servers and pools, including the Front End pools, SQL Server-based servers, Active Directory Domain Services, Directors, Exchange Unified Messaging (UM) servers, Exchange Mailbox Servers, Office Web Apps Servers, Mediation Servers, and Persistent Chat Servers.</span></span>
+  - <span data-ttu-id="09e82-125">Вкладка "имя сайта" — отображает топологию конфигурации сайта с пограничным сервером, брандмауэром, телефонной сетью общего пользования (PSTN) с шлюзами и внутренним развертыванием сервера.</span><span class="sxs-lookup"><span data-stu-id="09e82-125">Site Name tab – Displays the site configuration topology with Edge Server, firewall, public switched telephone network (PSTN) with gateways, and the internal server deployment.</span></span> <span data-ttu-id="09e82-126">Внутреннее развертывание состоит из настроенных серверов и пулов, в том числе интерфейсных пулов, серверов SQL Server, доменных служб Active Directory, директоров, серверов единой системы обмена сообщениями Exchange, серверов почтовых ящиков Exchange, серверов почтовых ящиков Exchange, серверов Office Web Apps Серверы-посредники и серверы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="09e82-126">Internal deployment consists of configured servers and pools, including the Front End pools, SQL Server-based servers, Active Directory Domain Services, Directors, Exchange Unified Messaging (UM) servers, Exchange Mailbox Servers, Office Web Apps Servers, Mediation Servers, and Persistent Chat Servers.</span></span>
 
-  - <span data-ttu-id="2e11c-127">Схема пограничной сети — схема детализации конфигурации пограничного сервера со связанными IP-адресами и полными доменными именами.</span><span class="sxs-lookup"><span data-stu-id="2e11c-127">Edge Network Diagram – Diagram detailing the Edge Server configuration with associated IP addresses and FQDNs.</span></span> <span data-ttu-id="2e11c-128">Также включается балансировка нагрузки на DNS и аппаратные подсистемы балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="2e11c-128">DNS load balancing and hardware load balancers are also included.</span></span> <span data-ttu-id="2e11c-129">Кроме того, отображаются режиссеры и сервер переднего плана или интерфейсный пул с соответствующей службой DNS фунтов или HLB и назначенным IP-адресом (средство планирования поддерживает как IPv4-, так и IPv6-адреса) и полное доменное имя.</span><span class="sxs-lookup"><span data-stu-id="2e11c-129">Additionally, Directors and the Front End Server or Front End pool are displayed, with associated DNS LB or HLB and the assigned IP address (the Planning Tool supports both IPv4 and IPv6 addresses) and FQDN.</span></span>
+  - <span data-ttu-id="09e82-127">Схема пограничной сети — схема детализации конфигурации пограничного сервера со связанными IP-адресами и полными доменными именами.</span><span class="sxs-lookup"><span data-stu-id="09e82-127">Edge Network Diagram – Diagram detailing the Edge Server configuration with associated IP addresses and FQDNs.</span></span> <span data-ttu-id="09e82-128">Также включается балансировка нагрузки на DNS и аппаратные подсистемы балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="09e82-128">DNS load balancing and hardware load balancers are also included.</span></span> <span data-ttu-id="09e82-129">Кроме того, отображаются режиссеры и сервер переднего плана или интерфейсный пул с соответствующей службой DNS фунтов или HLB и назначенным IP-адресом (средство планирования поддерживает как IPv4-, так и IPv6-адреса) и полное доменное имя.</span><span class="sxs-lookup"><span data-stu-id="09e82-129">Additionally, Directors and the Front End Server or Front End pool are displayed, with associated DNS LB or HLB and the assigned IP address (the Planning Tool supports both IPv4 and IPv6 addresses) and FQDN.</span></span>
 
 </div>
 
@@ -93,10 +93,10 @@ ms.locfileid: "42045271"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2e11c-130">См. также</span><span class="sxs-lookup"><span data-stu-id="2e11c-130">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09e82-130">См. также</span><span class="sxs-lookup"><span data-stu-id="09e82-130">See Also</span></span>
 
 
-[<span data-ttu-id="2e11c-131">Установка средства планирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e11c-131">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)  
+[<span data-ttu-id="09e82-131">Установка средства планирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09e82-131">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)  
   
 
 </div>

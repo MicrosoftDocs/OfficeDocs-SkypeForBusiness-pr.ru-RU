@@ -12,20 +12,20 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91326023357df0903ab506217c6abb53babcdf66
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 70f2dac3aeceb2c8f6c2cbfe2d0967ac9997cd6f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036127"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="fb595-102">Удаление рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb595-102">Delete a workflow in Lync Server 2013</span></span>
+# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="c40fe-102">Удаление рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c40fe-102">Delete a workflow in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "42036127"
 
 <span> </span>
 
-<span data-ttu-id="fb595-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fb595-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="c40fe-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c40fe-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="fb595-104">Для удаления рабочего процесса воспользуйтесь одной из следующих процедур.</span><span class="sxs-lookup"><span data-stu-id="fb595-104">Use one of the following procedures to delete a workflow.</span></span>
+<span data-ttu-id="c40fe-104">Для удаления рабочего процесса воспользуйтесь одной из следующих процедур.</span><span class="sxs-lookup"><span data-stu-id="c40fe-104">Use one of the following procedures to delete a workflow.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="fb595-105">Удаление рабочего процесса с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="fb595-105">To use Lync Server Control Panel delete a workflow</span></span>
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="c40fe-105">Удаление рабочего процесса с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="c40fe-105">To use Lync Server Control Panel delete a workflow</span></span>
 
-1.  <span data-ttu-id="fb595-106">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="fb595-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="c40fe-106">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="c40fe-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="fb595-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fb595-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="fb595-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="fb595-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="c40fe-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c40fe-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c40fe-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="c40fe-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="fb595-109">В левой панели навигации щелкните **Response Groups** (Группы ответа), а затем **Workflow** (Рабочий процесс).</span><span class="sxs-lookup"><span data-stu-id="fb595-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
+3.  <span data-ttu-id="c40fe-109">В левой панели навигации щелкните **Response Groups** (Группы ответа), а затем **Workflow** (Рабочий процесс).</span><span class="sxs-lookup"><span data-stu-id="c40fe-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
 
-4.  <span data-ttu-id="fb595-110">На странице **Workflow** (Рабочий процесс) щелкните **Create or edit a workflow** (Создание или изменение рабочего процесса).</span><span class="sxs-lookup"><span data-stu-id="fb595-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
+4.  <span data-ttu-id="c40fe-110">На странице **Workflow** (Рабочий процесс) щелкните **Create or edit a workflow** (Создание или изменение рабочего процесса).</span><span class="sxs-lookup"><span data-stu-id="c40fe-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
 
-5.  <span data-ttu-id="fb595-111">В поле поиска **Выбрать услугу** введите часть имени или полное имя службы **ApplicationServer**, где размещается рабочий процесс, который нужно удалить.</span><span class="sxs-lookup"><span data-stu-id="fb595-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
+5.  <span data-ttu-id="c40fe-111">В поле поиска **Выбрать услугу** введите часть имени или полное имя службы **ApplicationServer**, где размещается рабочий процесс, который нужно удалить.</span><span class="sxs-lookup"><span data-stu-id="c40fe-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
 
-6.  <span data-ttu-id="fb595-112">В списке найденных служб выберите нужную и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="fb595-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
+6.  <span data-ttu-id="c40fe-112">В списке найденных служб выберите нужную и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c40fe-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="fb595-113">Откроется веб-страница средства настройки группы ответа.</span><span class="sxs-lookup"><span data-stu-id="fb595-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="fb595-114">Вы также можете открыть веб-страницу средства настройки группы ответа непосредственно из веб-браузера, подключившись к <STRONG>https://&lt;вебпулфкдн&gt;/ргсконфиг</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="fb595-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
+    > <span data-ttu-id="c40fe-113">Откроется веб-страница средства настройки группы ответа.</span><span class="sxs-lookup"><span data-stu-id="c40fe-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="c40fe-114">Вы также можете открыть веб-страницу средства настройки группы ответа непосредственно из веб-браузера, подключившись к <STRONG>https://&lt;вебпулфкдн&gt;/ргсконфиг</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="c40fe-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="fb595-115">В окне **Управление существующим рабочим процессом** найдите рабочий процесс, который нужно удалить, а затем в разделе **Действие** нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="fb595-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
+7.  <span data-ttu-id="c40fe-115">В окне **Управление существующим рабочим процессом** найдите рабочий процесс, который нужно удалить, а затем в разделе **Действие** нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="c40fe-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
 
-8.  <span data-ttu-id="fb595-116">Нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="fb595-116">Click **Yes**.</span></span>
+8.  <span data-ttu-id="c40fe-116">Нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="c40fe-116">Click **Yes**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="fb595-117">Использование Windows PowerShell для удаления рабочего процесса</span><span class="sxs-lookup"><span data-stu-id="fb595-117">To use Windows PowerShell to delete a workflow</span></span>
+## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="c40fe-117">Использование Windows PowerShell для удаления рабочего процесса</span><span class="sxs-lookup"><span data-stu-id="c40fe-117">To use Windows PowerShell to delete a workflow</span></span>
 
-1.  <span data-ttu-id="fb595-118">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="fb595-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="c40fe-118">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="c40fe-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="fb595-119">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="fb595-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="c40fe-119">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="c40fe-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="fb595-120">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="fb595-120">At the command line, run:</span></span>
+3.  <span data-ttu-id="c40fe-120">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="c40fe-120">At the command line, run:</span></span>
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     
-    <span data-ttu-id="fb595-121">Пример:</span><span class="sxs-lookup"><span data-stu-id="fb595-121">For example:</span></span>
+    <span data-ttu-id="c40fe-121">Пример:</span><span class="sxs-lookup"><span data-stu-id="c40fe-121">For example:</span></span>
     
         Get-CsRgsWorkflow -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsWorkflow
 

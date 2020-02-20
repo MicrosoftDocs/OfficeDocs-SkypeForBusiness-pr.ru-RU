@@ -12,20 +12,20 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c4e241c7fd991fc217aaf2e1f2bd0ee9e37aab
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6ff5e28b21e06cc438c7eb092515443579f5c004
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030332"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="21275-102">Требования к оборудованию и программному обеспечению для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21275-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="cb821-102">Требования к оборудованию и программному обеспечению для директора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cb821-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42030332"
 
 <span> </span>
 
-<span data-ttu-id="21275-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="21275-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="cb821-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="cb821-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="21275-104">В этом разделе описываются требования к оборудованию и программному обеспечению для директора и поддерживаемые сценарии совместного использования для директора.</span><span class="sxs-lookup"><span data-stu-id="21275-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
+<span data-ttu-id="cb821-104">В этом разделе описываются требования к оборудованию и программному обеспечению для директора и поддерживаемые сценарии совместного использования для директора.</span><span class="sxs-lookup"><span data-stu-id="cb821-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
 
 <div>
 
-## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="21275-105">Требования к оборудованию для Директора</span><span class="sxs-lookup"><span data-stu-id="21275-105">Hardware Requirements for the Director</span></span>
+## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="cb821-105">Требования к оборудованию для Директора</span><span class="sxs-lookup"><span data-stu-id="cb821-105">Hardware Requirements for the Director</span></span>
 
-<span data-ttu-id="21275-106">В следующей таблице перечислены требования к оборудованию для директора:</span><span class="sxs-lookup"><span data-stu-id="21275-106">The following table lists the hardware requirements for the Director:</span></span>
+<span data-ttu-id="cb821-106">В следующей таблице перечислены требования к оборудованию для директора:</span><span class="sxs-lookup"><span data-stu-id="cb821-106">The following table lists the hardware requirements for the Director:</span></span>
 
-### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="21275-107">Требования к оборудованию для Директора</span><span class="sxs-lookup"><span data-stu-id="21275-107">Hardware Requirements for the Director</span></span>
+### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="cb821-107">Требования к оборудованию для Директора</span><span class="sxs-lookup"><span data-stu-id="cb821-107">Hardware Requirements for the Director</span></span>
 
 <table>
 <colgroup>
@@ -54,35 +54,35 @@ ms.locfileid: "42030332"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="21275-108">Компонент оборудования</span><span class="sxs-lookup"><span data-stu-id="21275-108">Hardware component</span></span></th>
-<th><span data-ttu-id="21275-109">Минимальное требование</span><span class="sxs-lookup"><span data-stu-id="21275-109">Minimum requirement</span></span></th>
+<th><span data-ttu-id="cb821-108">Компонент оборудования</span><span class="sxs-lookup"><span data-stu-id="cb821-108">Hardware component</span></span></th>
+<th><span data-ttu-id="cb821-109">Минимальное требование</span><span class="sxs-lookup"><span data-stu-id="cb821-109">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="21275-110">ЦП</span><span class="sxs-lookup"><span data-stu-id="21275-110">CPU</span></span></p></td>
+<td><p><span data-ttu-id="cb821-110">ЦП</span><span class="sxs-lookup"><span data-stu-id="cb821-110">CPU</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="21275-111">Четырехъядерный 64-разрядный процессор с частотой 2,0 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="21275-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
-<li><p><span data-ttu-id="21275-112">Двухъядерный 64-разрядный процессор с частотой 2,0 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="21275-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="cb821-111">Четырехъядерный 64-разрядный процессор с частотой 2,0 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="cb821-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="cb821-112">Двухъядерный 64-разрядный процессор с частотой 2,0 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="cb821-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21275-113">Память</span><span class="sxs-lookup"><span data-stu-id="21275-113">Memory</span></span></p></td>
-<td><p><span data-ttu-id="21275-114">4 гигабайта (ГБ)</span><span class="sxs-lookup"><span data-stu-id="21275-114">4 gigabytes (GB)</span></span></p></td>
+<td><p><span data-ttu-id="cb821-113">Память</span><span class="sxs-lookup"><span data-stu-id="cb821-113">Memory</span></span></p></td>
+<td><p><span data-ttu-id="cb821-114">4 гигабайта (ГБ)</span><span class="sxs-lookup"><span data-stu-id="cb821-114">4 gigabytes (GB)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="21275-115">Диск</span><span class="sxs-lookup"><span data-stu-id="21275-115">Disk</span></span></p></td>
+<td><p><span data-ttu-id="cb821-115">Диск</span><span class="sxs-lookup"><span data-stu-id="cb821-115">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="21275-116">Жесткий диск со скоростью вращения 10000 об/мин</span><span class="sxs-lookup"><span data-stu-id="21275-116">10K RPM hard disk drive (HDD)</span></span></p></li>
-<li><p><span data-ttu-id="21275-117">Высокопроизводительный твердотельный накопитель (SSD) со скоростью, равной или превышающей жесткий диск со скоростью вращения 10000 об/мин</span><span class="sxs-lookup"><span data-stu-id="21275-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
-<li><p><span data-ttu-id="21275-118">2 диска RAID 10 (чередующихся и зеркальных) со скоростью вращения для файлов базы данных</span><span class="sxs-lookup"><span data-stu-id="21275-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
+<li><p><span data-ttu-id="cb821-116">Жесткий диск со скоростью вращения 10000 об/мин</span><span class="sxs-lookup"><span data-stu-id="cb821-116">10K RPM hard disk drive (HDD)</span></span></p></li>
+<li><p><span data-ttu-id="cb821-117">Высокопроизводительный твердотельный накопитель (SSD) со скоростью, равной или превышающей жесткий диск со скоростью вращения 10000 об/мин</span><span class="sxs-lookup"><span data-stu-id="cb821-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
+<li><p><span data-ttu-id="cb821-118">2 диска RAID 10 (чередующихся и зеркальных) со скоростью вращения для файлов базы данных</span><span class="sxs-lookup"><span data-stu-id="cb821-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="21275-119">Сеть</span><span class="sxs-lookup"><span data-stu-id="21275-119">Network</span></span></p></td>
+<td><p><span data-ttu-id="cb821-119">Сеть</span><span class="sxs-lookup"><span data-stu-id="cb821-119">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="21275-120">Двойные сетевые адаптеры со скоростью 1 гигабит в секунду (Гбит/с) (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="21275-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
-<li><p><span data-ttu-id="21275-121">Один сетевой адаптер 1 Гбит/с (поддерживается)</span><span class="sxs-lookup"><span data-stu-id="21275-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
+<li><p><span data-ttu-id="cb821-120">Двойные сетевые адаптеры со скоростью 1 гигабит в секунду (Гбит/с) (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="cb821-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
+<li><p><span data-ttu-id="cb821-121">Один сетевой адаптер 1 Гбит/с (поддерживается)</span><span class="sxs-lookup"><span data-stu-id="cb821-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -93,31 +93,31 @@ ms.locfileid: "42030332"
 
 <div>
 
-## <a name="software-requirements-for-the-director"></a><span data-ttu-id="21275-122">Требования к программному обеспечению для директора</span><span class="sxs-lookup"><span data-stu-id="21275-122">Software Requirements for the Director</span></span>
+## <a name="software-requirements-for-the-director"></a><span data-ttu-id="cb821-122">Требования к программному обеспечению для директора</span><span class="sxs-lookup"><span data-stu-id="cb821-122">Software Requirements for the Director</span></span>
 
-<span data-ttu-id="21275-123">Роль Director можно развернуть только на серверах, на которых работает Lync Server 2013 Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="21275-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
+<span data-ttu-id="cb821-123">Роль Director можно развернуть только на серверах, на которых работает Lync Server 2013 Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="cb821-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
 
-<span data-ttu-id="21275-124">Для директоров необходима одна из следующих операционных систем 64-bit:</span><span class="sxs-lookup"><span data-stu-id="21275-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
+<span data-ttu-id="cb821-124">Для директоров необходима одна из следующих операционных систем 64-bit:</span><span class="sxs-lookup"><span data-stu-id="cb821-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
 
-  - <span data-ttu-id="21275-125">Стандартная операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="21275-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="cb821-125">Стандартная операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="cb821-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="21275-126">Операционная система Windows Server 2008 R2 Enterprise с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="21275-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="cb821-126">Операционная система Windows Server 2008 R2 Enterprise с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="cb821-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="21275-127">Операционная система Windows Server 2008 R2 Datacenter с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="21275-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="cb821-127">Операционная система Windows Server 2008 R2 Datacenter с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="cb821-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="21275-128">Операционная система Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="21275-128">The Windows Server 2012 Standard operating system</span></span>
+  - <span data-ttu-id="cb821-128">Операционная система Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="cb821-128">The Windows Server 2012 Standard operating system</span></span>
 
-  - <span data-ttu-id="21275-129">Операционная система Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="21275-129">The Windows Server 2012 Datacenter operating system</span></span>
+  - <span data-ttu-id="cb821-129">Операционная система Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="cb821-129">The Windows Server 2012 Datacenter operating system</span></span>
 
-<span data-ttu-id="21275-130">Для Lync Server 2013 также необходимо установить следующие программы и обновления, подробно описанные в разделе [Дополнительная поддержка серверов и требования в Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="21275-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
+<span data-ttu-id="cb821-130">Для Lync Server 2013 также необходимо установить следующие программы и обновления, подробно описанные в разделе [Дополнительная поддержка серверов и требования в Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="cb821-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a><span data-ttu-id="21275-131">Поддерживаемые режимы совместного размещения</span><span class="sxs-lookup"><span data-stu-id="21275-131">Supported Collocation</span></span>
+## <a name="supported-collocation"></a><span data-ttu-id="cb821-131">Поддерживаемые режимы совместного размещения</span><span class="sxs-lookup"><span data-stu-id="cb821-131">Supported Collocation</span></span>
 
-<span data-ttu-id="21275-132">Роль Director Server не может быть размещена с любой другой ролью сервера в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21275-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="21275-133">Однако если вы не развертываете директор, сервер переднего плана будет предполагать, что роль.</span><span class="sxs-lookup"><span data-stu-id="21275-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
+<span data-ttu-id="cb821-132">Роль Director Server не может быть размещена с любой другой ролью сервера в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cb821-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="cb821-133">Однако если вы не развертываете директор, сервер переднего плана будет предполагать, что роль.</span><span class="sxs-lookup"><span data-stu-id="cb821-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b4245c710502dd2b175be3cb07c79b6a983e311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028440"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="e1120-102">Управление федеративными доменами SIP для Организации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-102">Manage SIP federated domains for your organization in Lync Server 2013</span></span>
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="61342-102">Управление федеративными доменами SIP для Организации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-102">Manage SIP federated domains for your organization in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42028440"
 
 <span> </span>
 
-<span data-ttu-id="e1120-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="e1120-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="61342-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="61342-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="e1120-104">Это Предварительная документация, которая может быть изменена.</span><span class="sxs-lookup"><span data-stu-id="e1120-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="e1120-105">Пустые разделы включены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="e1120-105">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="61342-104">Это Предварительная документация, которая может быть изменена.</span><span class="sxs-lookup"><span data-stu-id="61342-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="61342-105">Пустые разделы включены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="61342-105">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="e1120-106">Вы можете выполнять следующие действия по управлению доменами SIP, с которыми возможна федерация, и их настройке:</span><span class="sxs-lookup"><span data-stu-id="e1120-106">To manage and configure SIP domains that you can federate with, you can do the following:</span></span>
+<span data-ttu-id="61342-106">Вы можете выполнять следующие действия по управлению доменами SIP, с которыми возможна федерация, и их настройке:</span><span class="sxs-lookup"><span data-stu-id="61342-106">To manage and configure SIP domains that you can federate with, you can do the following:</span></span>
 
-  - <span data-ttu-id="e1120-107">создавать или изменять список разрешенных федеративных доменов SIP партнеров;</span><span class="sxs-lookup"><span data-stu-id="e1120-107">Create or edit an allowed domain list of SIP federated partner domains.</span></span>
+  - <span data-ttu-id="61342-107">создавать или изменять список разрешенных федеративных доменов SIP партнеров;</span><span class="sxs-lookup"><span data-stu-id="61342-107">Create or edit an allowed domain list of SIP federated partner domains.</span></span>
 
-  - <span data-ttu-id="e1120-108">создавать или изменять список заблокированных федеративных доменов SIP.</span><span class="sxs-lookup"><span data-stu-id="e1120-108">Create or edit a blocked domain list of SIP federated domains.</span></span>
+  - <span data-ttu-id="61342-108">создавать или изменять список заблокированных федеративных доменов SIP.</span><span class="sxs-lookup"><span data-stu-id="61342-108">Create or edit a blocked domain list of SIP federated domains.</span></span>
 
-<span data-ttu-id="e1120-109">Для выполнения этих задач используйте процедуры из данного раздела.</span><span class="sxs-lookup"><span data-stu-id="e1120-109">To perform these tasks, use the procedures in this section.</span></span>
+<span data-ttu-id="61342-109">Для выполнения этих задач используйте процедуры из данного раздела.</span><span class="sxs-lookup"><span data-stu-id="61342-109">To perform these tasks, use the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e1120-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="e1120-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="61342-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="61342-110">In This Section</span></span>
 
-  - [<span data-ttu-id="e1120-111">Настройка поддержки для разрешенных внешних доменов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-111">Configure support for allowed external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-allowed-external-domains.md)
+  - [<span data-ttu-id="61342-111">Настройка поддержки для разрешенных внешних доменов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-111">Configure support for allowed external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
-  - [<span data-ttu-id="e1120-112">Настройка поддержки заблокированных внешних доменов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-112">Configure support for blocked external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - [<span data-ttu-id="61342-112">Настройка поддержки заблокированных внешних доменов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-112">Configure support for blocked external domains in Lync Server 2013</span></span>](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e1120-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e1120-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="61342-113">См. также</span><span class="sxs-lookup"><span data-stu-id="61342-113">See Also</span></span>
 
 
-[<span data-ttu-id="e1120-114">Настройка политик для управления доступом федеративных пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-114">Configure policies to control federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[<span data-ttu-id="e1120-115">Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-115">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[<span data-ttu-id="e1120-116">Включение и отключение обнаружения партнеров Федерации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1120-116">Enable or disable discovery of federation partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[<span data-ttu-id="61342-114">Настройка политик для управления доступом федеративных пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-114">Configure policies to control federated user access in Lync Server 2013</span></span>](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[<span data-ttu-id="61342-115">Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-115">Enable or disable federation and public IM connectivity in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[<span data-ttu-id="61342-116">Включение и отключение обнаружения партнеров Федерации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61342-116">Enable or disable discovery of federation partners in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>

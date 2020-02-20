@@ -12,20 +12,20 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e9ca9fa29d2646a38a9cbf94d79ba9766b21d62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a5611e8137aba2f465c6488201ba1b2936dd76
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050651"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a><span data-ttu-id="7b177-102">Развертывание серверов-посредников и определение одноранговых узлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-102">Deploying Mediation Servers and defining peers in Lync Server 2013</span></span>
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a><span data-ttu-id="515b0-102">Развертывание серверов-посредников и определение одноранговых узлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-102">Deploying Mediation Servers and defining peers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42050651"
 
 <span> </span>
 
-<span data-ttu-id="7b177-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7b177-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="515b0-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="515b0-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="7b177-104">Рабочая нагрузка корпоративной голосовой связи, Конференц-связь с телефонным подключением и расширенные приложения для корпоративной голосовой связи (приложение группы ответа, приложение парковки вызовов, контроль допуска звонков и т. д.) доступны в интерфейсных пулах.</span><span class="sxs-lookup"><span data-stu-id="7b177-104">The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools.</span></span> <span data-ttu-id="7b177-105">В Lync Server 2013 функциональные возможности сервера-посредника встроены в интерфейсный сервер.</span><span class="sxs-lookup"><span data-stu-id="7b177-105">With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server.</span></span> <span data-ttu-id="7b177-106">Отдельный изолированный сервер-посредник больше не нужен.</span><span class="sxs-lookup"><span data-stu-id="7b177-106">A separate stand-alone Mediation Server is no longer necessary.</span></span> <span data-ttu-id="7b177-107">Интерфейсные пулы могут напрямую связываться с поддерживаемыми шлюзами (шлюзом телефонной сети общего пользования (PSTN) или IP-УАТС), что отменяет потребность сервера-посредника в качестве посредника.</span><span class="sxs-lookup"><span data-stu-id="7b177-107">Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary.</span></span>
+<span data-ttu-id="515b0-104">Рабочая нагрузка корпоративной голосовой связи, Конференц-связь с телефонным подключением и расширенные приложения для корпоративной голосовой связи (приложение группы ответа, приложение парковки вызовов, контроль допуска звонков и т. д.) доступны в интерфейсных пулах.</span><span class="sxs-lookup"><span data-stu-id="515b0-104">The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools.</span></span> <span data-ttu-id="515b0-105">В Lync Server 2013 функциональные возможности сервера-посредника встроены в интерфейсный сервер.</span><span class="sxs-lookup"><span data-stu-id="515b0-105">With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server.</span></span> <span data-ttu-id="515b0-106">Отдельный изолированный сервер-посредник больше не нужен.</span><span class="sxs-lookup"><span data-stu-id="515b0-106">A separate stand-alone Mediation Server is no longer necessary.</span></span> <span data-ttu-id="515b0-107">Интерфейсные пулы могут напрямую связываться с поддерживаемыми шлюзами (шлюзом телефонной сети общего пользования (PSTN) или IP-УАТС), что отменяет потребность сервера-посредника в качестве посредника.</span><span class="sxs-lookup"><span data-stu-id="515b0-107">Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary.</span></span>
 
-<span data-ttu-id="7b177-108">Единственное исключение из данного правила — настройка магистрали SIP для подключения к пограничному контроллеру сеансов для поставщика услуг интернет-телефонии.</span><span class="sxs-lookup"><span data-stu-id="7b177-108">The only exception is if you configure a SIP trunk to connect to a Session Border Controller for an Internet Telephony Service Provider.</span></span> <span data-ttu-id="7b177-109">Чтобы подключить инфраструктуру корпоративной голосовой связи к поставщику магистрали SIP, необходимо развернуть отдельный сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="7b177-109">To connect your Enterprise Voice infrastructure to your SIP trunk provider, a separate Mediation Server must be deployed.</span></span>
+<span data-ttu-id="515b0-108">Единственное исключение из данного правила — настройка магистрали SIP для подключения к пограничному контроллеру сеансов для поставщика услуг интернет-телефонии.</span><span class="sxs-lookup"><span data-stu-id="515b0-108">The only exception is if you configure a SIP trunk to connect to a Session Border Controller for an Internet Telephony Service Provider.</span></span> <span data-ttu-id="515b0-109">Чтобы подключить инфраструктуру корпоративной голосовой связи к поставщику магистрали SIP, необходимо развернуть отдельный сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="515b0-109">To connect your Enterprise Voice infrastructure to your SIP trunk provider, a separate Mediation Server must be deployed.</span></span>
 
-<span data-ttu-id="7b177-110">Подключение между Lync Server (компонент сервера-посредника в интерфейсном пуле или на изолированном сервере-посреднике) и шлюз определяется как логическая связь, называемая *магистральной*линией.</span><span class="sxs-lookup"><span data-stu-id="7b177-110">The connection between Lync Server (the Mediation Server component on a Front End pool or stand-alone Mediation Server) and a gateway is defined as a logical association called a *trunk*.</span></span> <span data-ttu-id="7b177-111">В этом разделе даны инструкции по определению магистрали и развертыванию отдельного сервера-посредника при подключении к магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="7b177-111">The topics in this section describe how to define a trunk and how to deploy a stand-alone Mediation Server, if you connect to a SIP trunk.</span></span>
+<span data-ttu-id="515b0-110">Подключение между Lync Server (компонент сервера-посредника в интерфейсном пуле или на изолированном сервере-посреднике) и шлюз определяется как логическая связь, называемая *магистральной*линией.</span><span class="sxs-lookup"><span data-stu-id="515b0-110">The connection between Lync Server (the Mediation Server component on a Front End pool or stand-alone Mediation Server) and a gateway is defined as a logical association called a *trunk*.</span></span> <span data-ttu-id="515b0-111">В этом разделе даны инструкции по определению магистрали и развертыванию отдельного сервера-посредника при подключении к магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="515b0-111">The topics in this section describe how to define a trunk and how to deploy a stand-alone Mediation Server, if you connect to a SIP trunk.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7b177-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="7b177-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="515b0-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="515b0-112">In This Section</span></span>
 
-  - [<span data-ttu-id="7b177-113">Определение сервера-посредника в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-113">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
+  - [<span data-ttu-id="515b0-113">Определение сервера-посредника в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-113">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
 
-  - [<span data-ttu-id="7b177-114">Определение шлюза в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-114">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)
+  - [<span data-ttu-id="515b0-114">Определение шлюза в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-114">Define a gateway in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-a-gateway-in-topology-builder.md)
 
-  - [<span data-ttu-id="7b177-115">Установка файлов для сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-115">Install the files for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-install-the-files-for-mediation-server.md)
+  - [<span data-ttu-id="515b0-115">Установка файлов для сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-115">Install the files for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-install-the-files-for-mediation-server.md)
 
-  - [<span data-ttu-id="7b177-116">Определение дополнительных магистральных линий в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-116">Define additional trunks in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-additional-trunks-in-topology-builder.md)
+  - [<span data-ttu-id="515b0-116">Определение дополнительных магистральных линий в построителе топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-116">Define additional trunks in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-define-additional-trunks-in-topology-builder.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="7b177-117">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="7b177-117">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="515b0-117">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="515b0-117">Related Sections</span></span>
 
-[<span data-ttu-id="7b177-118">Настройка конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b177-118">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+[<span data-ttu-id="515b0-118">Настройка конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515b0-118">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
 </div>
 

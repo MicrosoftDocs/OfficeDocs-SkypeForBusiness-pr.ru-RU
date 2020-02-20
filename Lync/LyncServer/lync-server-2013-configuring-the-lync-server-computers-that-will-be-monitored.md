@@ -12,20 +12,20 @@ ms:contentKeyID: 48184927
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0568f13cb977fad78e8d0e704c158039165ea78a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71188be470d6f2d561a068840c3cfee9e3e5ad9d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040918"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-lync-server-computers-that-will-be-monitored-in-lync-server-2013"></a><span data-ttu-id="dff4f-102">Настройка компьютеров Lync Server, которые будут отслеживаться в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dff4f-102">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>
+# <a name="configuring-the-lync-server-computers-that-will-be-monitored-in-lync-server-2013"></a><span data-ttu-id="a85ae-102">Настройка компьютеров Lync Server, которые будут отслеживаться в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a85ae-102">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42040918"
 
 <span> </span>
 
-<span data-ttu-id="dff4f-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="dff4f-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="a85ae-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="a85ae-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="dff4f-104">Поскольку Lync Server 2013 не использует процесс центрального обнаружения, используемый в Microsoft Lync Server 2010, каждый компьютер Lync Server 2013, который необходимо отслеживать, должен иметь возможность самостоятельного отчета о существовании сервера управления.</span><span class="sxs-lookup"><span data-stu-id="dff4f-104">Because Lync Server 2013 does not use the central discovery process used in Microsoft Lync Server 2010, each Lync Server 2013 computer that you want to monitor must be able to self-report its existence to the management server.</span></span> <span data-ttu-id="dff4f-105">Для этого необходимо установить файлы агента Operations Manager на каждый отслеживаемый компьютер.</span><span class="sxs-lookup"><span data-stu-id="dff4f-105">To make this possible, you must install the Operations Manager agent files on each of the computers to be monitored.</span></span> <span data-ttu-id="dff4f-106">После установки файлов агента необходимо настроить компьютер для работы в качестве прокси-сервера System Center.</span><span class="sxs-lookup"><span data-stu-id="dff4f-106">After the agent files have been installed, you must configure the computer to act as a System Center proxy.</span></span> <span data-ttu-id="dff4f-107">Обратите внимание, что эти процедуры следует выполнять после установки и настройки сервера Lync Server на этих компьютерах.</span><span class="sxs-lookup"><span data-stu-id="dff4f-107">Note that these procedures should be carried out after you have installed and configured Lync Server on these computers.</span></span>
+<span data-ttu-id="a85ae-104">Поскольку Lync Server 2013 не использует процесс центрального обнаружения, используемый в Microsoft Lync Server 2010, каждый компьютер Lync Server 2013, который необходимо отслеживать, должен иметь возможность самостоятельного отчета о существовании сервера управления.</span><span class="sxs-lookup"><span data-stu-id="a85ae-104">Because Lync Server 2013 does not use the central discovery process used in Microsoft Lync Server 2010, each Lync Server 2013 computer that you want to monitor must be able to self-report its existence to the management server.</span></span> <span data-ttu-id="a85ae-105">Для этого необходимо установить файлы агента Operations Manager на каждый отслеживаемый компьютер.</span><span class="sxs-lookup"><span data-stu-id="a85ae-105">To make this possible, you must install the Operations Manager agent files on each of the computers to be monitored.</span></span> <span data-ttu-id="a85ae-106">После установки файлов агента необходимо настроить компьютер для работы в качестве прокси-сервера System Center.</span><span class="sxs-lookup"><span data-stu-id="a85ae-106">After the agent files have been installed, you must configure the computer to act as a System Center proxy.</span></span> <span data-ttu-id="a85ae-107">Обратите внимание, что эти процедуры следует выполнять после установки и настройки сервера Lync Server на этих компьютерах.</span><span class="sxs-lookup"><span data-stu-id="a85ae-107">Note that these procedures should be carried out after you have installed and configured Lync Server on these computers.</span></span>
 
 </div>
 
