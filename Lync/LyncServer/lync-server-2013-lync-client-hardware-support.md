@@ -12,18 +12,18 @@ ms:contentKeyID: 49733734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c51adcb773769abc4dfc553d8dc5dd72a0df152
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6804f4b1cd9075982474c7b515c38af7ce8af01
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030933"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-hardware-support-in-lync-server-2013"></a>Поддержка оборудования клиента Lync в Lync Server 2013
 
@@ -87,7 +87,7 @@ _**Последнее изменение темы:** 2012-12-14_
 <td><p>Телефонии</p></td>
 <td><p>Микрофон и динамики, гарнитура или аналогичные устройства. Рекомендуемые устройства:</p>
 <ul>
-<li><p>Телефоны с логотипом "оптимизировано для Microsoft Lync" (Дополнительные сведения см. на странице <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> телефоны и устройства, указанные для Microsoft Lync)</p></li>
+<li><p>Телефоны с логотипом "оптимизировано для Microsoft Lync" (Дополнительные сведения см. на странице <a href="https://go.microsoft.com/fwlink/p/?linkid=208938">https://go.microsoft.com/fwlink/p/?LinkID=208938</a> телефоны и устройства, указанные для Microsoft Lync)</p></li>
 <li><p>Телефоны, на которых работает Lync Phone Edition</p></li>
 </ul></td>
 </tr>

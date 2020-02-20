@@ -12,18 +12,18 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9f69d243079d0a2b2a6a9fc4a233e3c9854de158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043021"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Настройка единой системы обмена сообщениями в Microsoft Exchange для Lync Server 2013
 
@@ -70,11 +70,11 @@ _**Последнее изменение темы:** 2013-02-24_
     ```
     Дополнительные сведения см. в следующих статьях:
     
-      - Для Office Communications Server 2007 в [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)разделе "как создать абонентскую систему URI SIP единой системы обмена сообщениями" at и "New – UMDialPlan: Exchange 2007 Help".
+      - Для Office Communications Server 2007 в [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)разделе "как создать абонентскую систему URI SIP единой системы обмена сообщениями" at и "New – UMDialPlan: Exchange 2007 Help".
     
-      - Для Exchange 2010 в разделе "Создание абонентской группы единой системы обмена [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) сообщениями" и "New – UMDialPlan: Exchange 2010 [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)Help".
+      - Для Exchange 2010 в разделе "Создание абонентской группы единой системы обмена [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) сообщениями" и "New – UMDialPlan: Exchange 2010 [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)Help".
     
-      - Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
+      - Для Exchange 2013 в [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
     
     <div>
     
@@ -93,11 +93,11 @@ _**Последнее изменение темы:** 2013-02-24_
     
     Дополнительные сведения см. в следующих статьях:
     
-      - Для Exchange 2007 в разделе "Get – UMDialplan: Exchange 2007 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678).
+      - Для Exchange 2007 в разделе "Get – UMDialplan: Exchange 2007 Help" в [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678).
     
-      - Для Exchange 2010 в разделе "Get – UMDialplan: Exchange 2010 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679).
+      - Для Exchange 2010 в разделе "Get – UMDialplan: Exchange 2010 Help" в [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679).
     
-      - Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
+      - Для Exchange 2013 в [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
 
 3.  Запишите имя абонентской группы каждой абонентской группы единой системы обмена сообщениями. В зависимости от используемой версии Exchange Server может потребоваться использовать полное доменное имя каждого имени абонентской группы в соответствии с именем каждой соответствующей абонентской группы Lync Server, чтобы имена абонентских групп соотнесены.
     
@@ -114,11 +114,11 @@ _**Последнее изменение темы:** 2013-02-24_
     
       - Если вы решили использовать консоль управления Exchange, вы можете добавить абонентскую схему из страницы свойств для сервера. Конкретные инструкции можно найти в документации по продукту Exchange Server.
         
-        В разделе "как добавить сервер единой системы обмена сообщениями в абонентскую абонентию для Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)2007".
+        В разделе "как добавить сервер единой системы обмена сообщениями в абонентскую абонентию для Exchange [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)2007".
         
-        Для Exchange 2010 можно ознакомиться в статье "Просмотр или Настройка свойств сервера единой системы обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).
+        Для Exchange 2010 можно ознакомиться в статье "Просмотр или Настройка свойств сервера единой системы обмена сообщениями" по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682).
         
-        Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
+        Для Exchange 2013 в [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
     
       - Если вы используете командную консоль Exchange, выполните указанные ниже действия для каждого сервера единой системы обмена сообщениями Exchange.
         ```powershell
@@ -131,7 +131,7 @@ _**Последнее изменение темы:** 2013-02-24_
     
 
     > [!NOTE]  
-    > Перед выполнением следующего действия Убедитесь, что все пользователи корпоративной голосовой связи настроены с помощью почтового ящика Exchange Server.<BR>Для Exchange 2007 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007 по адресу.<BR>Для Exchange 2010 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010 по адресу.<BR>При указании политики почтовых ящиков для каждой абонентской группы, созданной на шаге 1, выберите либо политику по умолчанию, либо одну из созданных.
+    > Перед выполнением следующего действия Убедитесь, что все пользователи корпоративной голосовой связи настроены с помощью почтового ящика Exchange Server.<BR>Для Exchange 2007 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007 по адресу.<BR>Для Exchange 2010 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010 по адресу.<BR>При указании политики почтовых ящиков для каждой абонентской группы, созданной на шаге 1, выберите либо политику по умолчанию, либо одну из созданных.
 
     
     </div>
@@ -181,9 +181,9 @@ _**Последнее изменение темы:** 2013-02-24_
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Для Exchange 2007, в разделе "Set – UMIPGateway: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)в.
+        Для Exchange 2007, в разделе "Set – UMIPGateway: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)в.
         
-        Для Exchange 2010, в разделе "Set – UMIPGateway: Exchange 2010 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)в.
+        Для Exchange 2010, в разделе "Set – UMIPGateway: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)в.
     
       - Если вы используете консоль управления Exchange, снимите флажок **Разрешить исходящие вызовы через этот шлюз IP** .
     
@@ -212,9 +212,9 @@ _**Последнее изменение темы:** 2013-02-24_
     ```
     Дополнительные сведения см. в следующих статьях:
     
-      - В разделе "New – UMAutoAttendant используется: Exchange 2007 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)Exchange 2007.
+      - В разделе "New – UMAutoAttendant используется: Exchange 2007 Help" в [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)Exchange 2007.
     
-      - В разделе "New – UMAutoAttendant используется: Exchange 2010 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)Exchange 2010.
+      - В разделе "New – UMAutoAttendant используется: Exchange 2010 Help" в [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)Exchange 2010.
     
     Следующий шаг необходимо выполнить для каждого пользователя после включения пользователей Lync Server для корпоративной голосовой связи и получения сведений об URI SIP.
 
@@ -234,9 +234,9 @@ _**Последнее изменение темы:** 2013-02-24_
     ```
     Дополнительные сведения см. в следующих статьях:
     
-      - Для Exchange 2007 см. в [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)разделе "Enable – UMMailbox: Exchange 2007 Help".
+      - Для Exchange 2007 см. в [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)разделе "Enable – UMMailbox: Exchange 2007 Help".
     
-      - Для Exchange 2010 см. в [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)разделе "Enable – UMMailbox: Exchange 2010 Help".
+      - Для Exchange 2010 см. в [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)разделе "Enable – UMMailbox: Exchange 2010 Help".
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44de5139d3ad8f38c5177a18260045fda7abdeea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aa52a844a0ed1bff9ca2c9d2f7e5fc70a6a2e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035311"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>Интеграция Microsoft Lync Server 2013 и Microsoft Outlook Web App 2013
 
@@ -41,11 +41,11 @@ _**Последнее изменение темы:** 2013-02-03_
 
 \_Локальная\_\\\\система\\CurrentControlSet\\службы MSExchange OWA\\инстантмессагинг имплементатиондллпас\\
 
-Имплементатиондллпас должен указать расположение папки для файла Microsoft. RTC. internal. UCWEB. dll. Если это не так или если значение реестра не существует, то необходимо скачать и установить программу установки среды выполнения UCMA из центра загрузки Майкрософт по адресу <http://www.microsoft.com/download/details.aspx?id=34992>. Сведения о том, как установить среду выполнения UCMA, можно найти на той же веб-странице.
+Имплементатиондллпас должен указать расположение папки для файла Microsoft. RTC. internal. UCWEB. dll. Если это не так или если значение реестра не существует, то необходимо скачать и установить программу установки среды выполнения UCMA из центра загрузки Майкрософт по адресу <https://www.microsoft.com/download/details.aspx?id=34992>. Сведения о том, как установить среду выполнения UCMA, можно найти на той же веб-странице.
 
 **Обратная совместимость**
 
-Lync Server 2013 можно интегрировать с Microsoft Exchange Server 2010 версии единой системы обмена сообщениями и Outlook Web App. Для получения дополнительных сведений ознакомьтесь со статьей развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync [http://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)Server 2010 по адресу. Если вы интегрируетесь с Exchange 2010, у вас не будет специальных функций Lync Server, таких как единое хранилище контактов и архивация по Lync в Exchange.
+Lync Server 2013 можно интегрировать с Microsoft Exchange Server 2010 версии единой системы обмена сообщениями и Outlook Web App. Для получения дополнительных сведений ознакомьтесь со статьей развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync [https://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)Server 2010 по адресу. Если вы интегрируетесь с Exchange 2010, у вас не будет специальных функций Lync Server, таких как единое хранилище контактов и архивация по Lync в Exchange.
 
 Microsoft Lync 2013 также можно использовать вместе с Exchange 2010 и Outlook 2010. Однако в этом случае новые функции, такие как единое хранилище контактов и фотографии с высоким разрешением, не будут доступны пользователям Lync 2013. Для этих новых возможностей требуется как Lync Server 2013, так и Exchange 2013.
 

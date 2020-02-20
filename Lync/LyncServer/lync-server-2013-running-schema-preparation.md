@@ -12,18 +12,18 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c58f50cb5c4668525450c4aa95b4a00513d5fc17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b8336bdb881570c40900600c1eda3c3c17ffb614
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050971"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Выполнение подготовки схемы Active Directory в Lync Server 2013
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2012-10-29_
 
 
 > [!NOTE]  
-> Командлет подготовки схемы (<STRONG>Install-CsAdServerSchema</STRONG>) должен получить доступ к хозяину схемы, для которого необходимо, чтобы служба удаленного реестра была запущена, а ключ удаленного реестра был включен. Если служба удаленного реестра не может быть включена на хозяине схемы, можно выполнить командлет локально на хозяине схемы. Сведения об удаленном доступе к реестру содержатся в статье базы знаний Майкрософт 314837, "как управлять удаленным доступом к реестру <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>" в.
+> Командлет подготовки схемы (<STRONG>Install-CsAdServerSchema</STRONG>) должен получить доступ к хозяину схемы, для которого необходимо, чтобы служба удаленного реестра была запущена, а ключ удаленного реестра был включен. Если служба удаленного реестра не может быть включена на хозяине схемы, можно выполнить командлет локально на хозяине схемы. Сведения об удаленном доступе к реестру содержатся в статье базы знаний Майкрософт 314837, "как управлять удаленным доступом к реестру <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>" в.
 
 
 

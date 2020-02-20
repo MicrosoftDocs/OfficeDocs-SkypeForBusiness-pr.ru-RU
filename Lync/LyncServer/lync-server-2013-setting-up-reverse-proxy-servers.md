@@ -12,18 +12,18 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd5b57c29a622b7c0f051b00bb0ef30e265743e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0d00b30100b9203c82df0a2fc8ed8c4c593dfb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040838"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Настройка обратных прокси-серверов для Lync Server 2013
 
@@ -65,7 +65,7 @@ _**Последнее изменение темы:** 2014-05-08_
 
 
 > [!IMPORTANT]  
-> Маршрутизация запросов приложений сервера IIS (IIS ARR) это полностью протестированный и поддерживаемый вариант для реализации обратного прокси-сервера для Lync Server 2010 и Lync Server 2013. В ноябре 2012 Корпорация Майкрософт перестала работать с лицензиями ForeFront Threat Management Gateway 2010 или TMG. TMG по-прежнему является полностью поддерживаемым продуктом и по-прежнему доступен для продажи на устройствах, продаваемых третьими сторонами. Кроме того, многие сторонние системы балансировки нагрузки и брандмауэры обеспечивают поддержку обратного прокси-сервера. Для аппаратных подсистем балансировки нагрузки и брандмауэров, обеспечивающих функции обратного прокси-сервера, обратитесь к поставщику за инструкциями по настройке продукта для обеспечения поддержки обратного прокси-сервера для Lync Server. Вы также можете просмотреть третьи лица, которые отправили документацию на продукт корпорации Майкрософт. Поддержка обеспечивается третьей стороной для своего решения. Для просмотра третьих сторон, активных для предоставления решений, ознакомьтесь со статьей <A href="http://go.microsoft.com/fwlink/?linkid=268730">инфраструктура, квалифицированная для Microsoft Lync</A>.
+> Маршрутизация запросов приложений сервера IIS (IIS ARR) это полностью протестированный и поддерживаемый вариант для реализации обратного прокси-сервера для Lync Server 2010 и Lync Server 2013. В ноябре 2012 Корпорация Майкрософт перестала работать с лицензиями ForeFront Threat Management Gateway 2010 или TMG. TMG по-прежнему является полностью поддерживаемым продуктом и по-прежнему доступен для продажи на устройствах, продаваемых третьими сторонами. Кроме того, многие сторонние системы балансировки нагрузки и брандмауэры обеспечивают поддержку обратного прокси-сервера. Для аппаратных подсистем балансировки нагрузки и брандмауэров, обеспечивающих функции обратного прокси-сервера, обратитесь к поставщику за инструкциями по настройке продукта для обеспечения поддержки обратного прокси-сервера для Lync Server. Вы также можете просмотреть третьи лица, которые отправили документацию на продукт корпорации Майкрософт. Поддержка обеспечивается третьей стороной для своего решения. Для просмотра третьих сторон, активных для предоставления решений, ознакомьтесь со статьей <A href="https://go.microsoft.com/fwlink/?linkid=268730">инфраструктура, квалифицированная для Microsoft Lync</A>.
 
 
 
@@ -94,27 +94,27 @@ _**Последнее изменение темы:** 2014-05-08_
 Для успешного развертывания Forefront Threat Management Gateway 2010 в качестве обратного прокси-сервера вам необходимо установить и настроить сервер, используя необходимые условия и требования к оборудованию, определенные в документации по Forefront Threat Management Gateway 2010. В следующих разделах описано, как правильно настроить оборудование и установить Forefront Threat Management Gateway 2010 на сервере перед продолжением.
 
   - <span></span>  
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront Threat Management Gateway (TMG) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Рекомендации по оборудованию Forefront TMG 2010](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Рекомендации по оборудованию Forefront TMG 2010](https://go.microsoft.com/fwlink/?linkid=291293)
 
 Чтобы успешно развернуть IIS ARR в качестве обратного прокси-сервера, ознакомьтесь со следующими статьями, чтобы настроить оборудование и необходимое программное обеспечение.
 
   - <span></span>  
-    Установка служб IIS в Windows Server 2008 или Windows Server 2008 R2 приведена в статье [Установка служб IIS 7 в Windows server 2008 или Windows server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+    Установка служб IIS в Windows Server 2008 или Windows Server 2008 R2 приведена в статье [Установка служб IIS 7 в Windows server 2008 или Windows server 2008 R2](https://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
-    Установка служб IIS в Windows Server 2012 приведена в статье [Установка служб IIS 8 в Windows server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+    Установка служб IIS в Windows Server 2012 приведена в статье [Установка служб IIS 8 в Windows server 2012](https://go.microsoft.com/fwlink/?linkid=291297)
 
   - <span></span>  
-    Установка служб IIS в Windows Server 2012 R2 приведена в статье [Установка служб iis 8,5 на Windows server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+    Установка служб IIS в Windows Server 2012 R2 приведена в статье [Установка служб iis 8,5 на Windows server 2012 R2](https://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
-    Чтобы скачать расширение маршрутизации запросов приложений для IIS, следуйте инструкциям в статье [Загрузка маршрута запроса приложения версии 2.5](http://go.microsoft.com/fwlink/?linkid=291298)
+    Чтобы скачать расширение маршрутизации запросов приложений для IIS, следуйте инструкциям в статье [Загрузка маршрута запроса приложения версии 2.5](https://go.microsoft.com/fwlink/?linkid=291298)
 
   - <span></span>  
-    Чтобы установить ARR, для получения инструкций по [установке маршрутизации запросов приложения версии 2](http://go.microsoft.com/fwlink/?linkid=291299)
+    Чтобы установить ARR, для получения инструкций по [установке маршрутизации запросов приложения версии 2](https://go.microsoft.com/fwlink/?linkid=291299)
     
     <div>
     

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051825"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Разрешения и необходимые условия для настройки группы ответа в Lync Server 2013
 
@@ -186,7 +186,7 @@ _**Последнее изменение темы:** 2012-10-05_
 
 Данный подраздел касается вас, только если вашей организации необходимо соответствовать федеральному стандарту по (FIPS, США).
 
-Чтобы соответствовать стандарту, после установки Web Services необходимо изменить файл Web.config уровня приложения на использование другого криптографического алгоритма. Нужно указать, чтобы ASP.NET использовал алгоритм Triple Data Encryption Standard (3DES) для обработки данных о состоянии просмотра. Для приложения группы ответа это требование применяется к средству настройки группы ответа, а также к консоли входа и выхода агента. Сведения об этих требованиях можно найти в статье 911722 базы знаний Майкрософт "сообщение об ошибке при доступе к веб-страницам ASP.NET с включенным состоянием отображения после обновления ASP.NET 1,1 до ASP.NET 2,0" по адресу [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)".
+Чтобы соответствовать стандарту, после установки Web Services необходимо изменить файл Web.config уровня приложения на использование другого криптографического алгоритма. Нужно указать, чтобы ASP.NET использовал алгоритм Triple Data Encryption Standard (3DES) для обработки данных о состоянии просмотра. Для приложения группы ответа это требование применяется к средству настройки группы ответа, а также к консоли входа и выхода агента. Сведения об этих требованиях можно найти в статье 911722 базы знаний Майкрософт "сообщение об ошибке при доступе к веб-страницам ASP.NET с включенным состоянием отображения после обновления ASP.NET 1,1 до ASP.NET 2,0" по адресу [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)".
 
 Чтобы изменить файл Web.config, сделайте следующее:
 
@@ -216,7 +216,7 @@ _**Последнее изменение темы:** 2012-10-05_
 
 
 > [!NOTE]  
-> Сведения о том, что представляют собой символы Yi, Мэн и подобных, а также причины, по которым они могут быть важны для развертывания, можно узнать в статье <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>кодировки GB18030.
+> Сведения о том, что представляют собой символы Yi, Мэн и подобных, а также причины, по которым они могут быть важны для развертывания, можно узнать в статье <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>кодировки GB18030.
 
 
 
@@ -236,9 +236,9 @@ _**Последнее изменение темы:** 2012-10-05_
 
 Для SQL Server 2008 R2 и SQL Server 2012 используйте параметры сортировки латиницы\_General\_100 (с учетом диакритических знаков). При использовании этих параметров сортировки все имена объектов не учитывают регистр.
 
-Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio. Дополнительные сведения об использовании этого средства приведены в [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)разделе "использование SQL Server Management Studio". Чтобы изменить параметры сортировки, выполните следующее:
+Изменить параметры сортировки можно с помощью Microsoft SQL Server Management Studio. Дополнительные сведения об использовании этого средства приведены в [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)разделе "использование SQL Server Management Studio". Чтобы изменить параметры сортировки, выполните следующее:
 
-1.  Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц. Дополнительные сведения см. в разделе "сохранение (не разрешено)" [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)в диалоговом окне "сохранение (запрещен)". Дополнительные сведения о настройке параметров сортировки столбцов приведены в разделе "инструкции: Set collation Columns (визуальные инструменты для баз данных) [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)" в.
+1.  Убедитесь в том, что SQL Server Management Studio настроен так, что можно было бы вносить изменения, требующие пересоздания таблиц. Дополнительные сведения см. в разделе "сохранение (не разрешено)" [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)в диалоговом окне "сохранение (запрещен)". Дополнительные сведения о настройке параметров сортировки столбцов приведены в разделе "инструкции: Set collation Columns (визуальные инструменты для баз данных) [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)" в.
 
 2.  Используя Microsoft SQL Server Management Studio подключитесь к базе данных Rgsconfig.
 

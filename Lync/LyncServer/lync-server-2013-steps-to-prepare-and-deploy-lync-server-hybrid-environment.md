@@ -12,18 +12,18 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3326db7ce62279c4295bc13ec262a5a553ca5e62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24a6d816f2f50c36694317f442cc79d06f077ef0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038701"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Действия по подготовке и развертыванию гибридной среды Lync Server 2013
 
@@ -59,7 +59,7 @@ _**Последнее изменение темы:** 2016-12-08_
 <td><p>Создание учетной записи клиента для Office 365 и включение Lync Online</p></td>
 <td><p>Узнайте о Office 365 и Lync Online в <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>.</p>
 <p>Чтобы убедиться, что ваша среда готова к работе с Office 365, ознакомьтесь с <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">требованиями к системе</a>.</p>
-<p>Подробнее о настройке Office 365 вы найдете в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Начало работы с office 365</a> и <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Настройка Office 365</a>.</p></td>
+<p>Подробнее о настройке Office 365 вы найдете в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Начало работы с office 365</a> и <a href="https://go.microsoft.com/fwlink/p/?linkid=254979">Настройка Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044541"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143409"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Настройка сертификатов для внешнего пограничного интерфейса для Lync Server 2013
 
@@ -51,7 +51,7 @@ _**Последнее изменение темы:** 2012-09-08_
 
 Сведения о данном и других требованиях к сертификатам приведены [в статье требования к сертификатам для доступа внешних пользователей в Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Список общедоступных центров сертификации (ЦС), предоставляющих сертификаты, которые соответствуют определенным требованиям для Объединенных сертификатов и партнерской корпорации Майкрософт, чтобы убедиться, что они работают с мастером сертификатов Lync Server 2013, можно узнать в статье базы знаний Майкрософт 929395, "Объединенные партнеры сертификатов для Exchange Server и Communications Server" в [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+Список общедоступных центров сертификации (ЦС), предоставляющих сертификаты, которые соответствуют определенным требованиям для Объединенных сертификатов и партнерской корпорации Майкрософт, чтобы убедиться, что они работают с мастером сертификатов Lync Server 2013, можно узнать в статье базы знаний Майкрософт 929395, "Объединенные партнеры сертификатов для Exchange Server и Communications Server" в [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
 
 <div>
 

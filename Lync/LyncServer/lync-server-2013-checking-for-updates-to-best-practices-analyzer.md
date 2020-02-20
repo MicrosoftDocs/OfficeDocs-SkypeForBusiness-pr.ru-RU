@@ -12,18 +12,18 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046032"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Проверка наличия обновлений анализатора соответствия рекомендациям в Lync Server 2013
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2012-10-02_
 
 
 > [!NOTE]  
-> Если для доступа к Интернету требуется проверка подлинности прокси-сервера, анализатор соответствия рекомендациям не может получить доступ к новым обновлениям, которые можно скачать. Тем не менее последнюю версию Рткбпа. msi можно скачать вручную в центре загрузки Майкрософт по адресу <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>. После загрузки файла его можно скопировать на компьютер, на котором необходимо обновить анализатор соответствия рекомендациям, и использовать MSI файл для установки новой версии средства на этом компьютере.
+> Если для доступа к Интернету требуется проверка подлинности прокси-сервера, анализатор соответствия рекомендациям не может получить доступ к новым обновлениям, которые можно скачать. Тем не менее последнюю версию Рткбпа. msi можно скачать вручную в центре загрузки Майкрософт по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>. После загрузки файла его можно скопировать на компьютер, на котором необходимо обновить анализатор соответствия рекомендациям, и использовать MSI файл для установки новой версии средства на этом компьютере.
 
 
 

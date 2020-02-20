@@ -12,18 +12,18 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b4769e068ff079a8a5ad55177870ac9fe8e932c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7073ad8b4268aa76a409cd7e52f35402cca932c7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029830"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-devices-in-lync-server-2013"></a>Поддерживаемые устройства в Lync Server 2013
 
@@ -49,7 +49,7 @@ Lync Server поддерживает все телефоны, перечисле
 
 </div>
 
-Подробные таблицы сравнения всех устройств, оптимизированных для работы с Lync, представлены в <http://go.microsoft.com/fwlink/p/?linkid=208938>разделе "телефоны и устройства, которые предоставляются для Microsoft Lync". В таблицах сравнения на этом сайте также представлены сведения о ценах и технические характеристики устройств.
+Подробные таблицы сравнения всех устройств, оптимизированных для работы с Lync, представлены в <https://go.microsoft.com/fwlink/p/?linkid=208938>разделе "телефоны и устройства, которые предоставляются для Microsoft Lync". В таблицах сравнения на этом сайте также представлены сведения о ценах и технические характеристики устройств.
 
 
 <table>
@@ -89,32 +89,32 @@ Lync Server поддерживает все телефоны, перечисле
 <tr class="odd">
 <td><p>Стационарный телефон Polycom CX300</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx300.html">CX300</a> на веб-сайте Polycom</p></td>
 </tr>
 <tr class="even">
 <td><p>IP-телефон общего доступа Polycom CX500</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx500.html">CX500</a> на веб-сайте Polycom</p></td>
 </tr>
 <tr class="odd">
 <td><p>Настольный IP-телефон Polycom CX600</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx600.html">CX600</a> на веб-сайте Polycom</p></td>
 </tr>
 <tr class="even">
 <td><p>Настольный IP-телефон Polycom CX700</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/communicator_cx700.html">CX700</a> на веб-сайте Polycom</p></td>
 </tr>
 <tr class="odd">
 <td><p>IP-телефон для конференций Polycom CX3000</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx3000.html">CX3000</a> на веб-сайте Polycom</p></td>
 </tr>
 <tr class="even">
 <td><p>USB-устройство для конференций Polycom CX5000</p></td>
 <td></td>
-<td><p><a href="http://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> на веб-сайте Polycom</p></td>
+<td><p><a href="https://support.polycom.com/polycomservice/support/us/support/voice/cx/cx5000.html">CX5000</a> на веб-сайте Polycom</p></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ Lync Server поддерживает все телефоны, перечисле
 
 
 > [!NOTE]  
-> Кроме того, обеспечивается поддержка аналоговых устройств. Подробные сведения см. в статье <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Планирование развертывания аналоговых устройств</A> в библиотеке TechNet для Lync Server 2010. (Lync Phone Edition работает так же, как в Lync Server 2013 и Lync Server 2010).
+> Кроме того, обеспечивается поддержка аналоговых устройств. Подробные сведения см. в статье <A href="https://go.microsoft.com/fwlink/p/?linkid=257502">Планирование развертывания аналоговых устройств</A> в библиотеке TechNet для Lync Server 2010. (Lync Phone Edition работает так же, как в Lync Server 2013 и Lync Server 2010).
 
 
 

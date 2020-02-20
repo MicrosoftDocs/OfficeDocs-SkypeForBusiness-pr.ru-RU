@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006735"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Технические требования для конференц-связи в Lync Server 2013
 
@@ -194,9 +194,9 @@ _**Последнее изменение темы:** 2014-06-25_
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Требования звуковым файлам для конференц-связи с телефонным подключением
 
-Lync Server 2013 не поддерживает настройку голосовых приглашений и музыки для конференц-связи с телефонным подключением. Тем не менее, если требуется изменить аудиофайлы по умолчанию, ознакомьтесь со статьей базы знаний Майкрософт 961177, [как настроить голосовые запросы и музыкальные файлы для конференц-связи с телефонным подключением в Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+Lync Server 2013 не поддерживает настройку голосовых приглашений и музыки для конференц-связи с телефонным подключением. Тем не менее, если требуется изменить аудиофайлы по умолчанию, ознакомьтесь со статьей базы знаний Майкрософт 961177, [как настроить голосовые запросы и музыкальные файлы для конференц-связи с телефонным подключением в Microsoft Office Communications Server 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Вы также можете использовать программу управления [помощником по конференц-связи Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , которая позволяет администраторам заменять голосовые сообщения по умолчанию, используемые при подключении абонента к собранию Lync с настраиваемыми приглашениями, для предоставления другим пользователям возможности ввода собраний. Настраиваемые голосовые приглашения можно установить на сервере, на котором работает Lync Server 2010 или Lync Server 2013, либо Enterprise, либо Standard Edition.
+Вы также можете использовать программу управления [помощником по конференц-связи Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkid=396880) , которая позволяет администраторам заменять голосовые сообщения по умолчанию, используемые при подключении абонента к собранию Lync с настраиваемыми приглашениями, для предоставления другим пользователям возможности ввода собраний. Настраиваемые голосовые приглашения можно установить на сервере, на котором работает Lync Server 2010 или Lync Server 2013, либо Enterprise, либо Standard Edition.
 
 Приложение для конференц-связи "помощник по конференциям и конференц-связь" имеет следующие требования к музыке при удержании, записанных именах и файлах звуковых приглашений:
 

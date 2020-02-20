@@ -12,18 +12,18 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: befa9ad077780eb57d4690790673fc0a5452af60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 93e2e3bf94175f2f0ec3f4f7528cc969fe19529c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037319"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Маршрутизация вызовов E9 – 1 – 1 с помощью шлюза ELIN в Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42037319"
 
 _**Последнее изменение темы:** 2013-02-05_
 
-Некоторые партнеры по программе открытого взаимодействия для объединенных коммуникаций Майкрософт предоставляют шлюзы, поддерживающие номера ELIN, которые могут служить альтернативой магистральной линии SIP до поставщика услуг E9-1-1. Шлюзы ELIN поддерживают подключения ISDN и CAMA к службам E9-1-1 в ТСОП. Сведения о партнерах, предоставляющих шлюзы ELIN и ссылки на документацию, [http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)можно узнать в статье.
+Некоторые партнеры по программе открытого взаимодействия для объединенных коммуникаций Майкрософт предоставляют шлюзы, поддерживающие номера ELIN, которые могут служить альтернативой магистральной линии SIP до поставщика услуг E9-1-1. Шлюзы ELIN поддерживают подключения ISDN и CAMA к службам E9-1-1 в ТСОП. Сведения о партнерах, предоставляющих шлюзы ELIN и ссылки на документацию, [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)можно узнать в статье.
 
 Подобно магистральным подключениям SIP к поставщикам услуг E9-1-1, шлюзы ELIN также предоставляют средства для маршрутизации экстренных вызовов в наиболее подходящий общедоступную точку безопасности ответа вызывающего абонента (PSAP), но эти шлюзы используют ELIN в качестве идентификатора расположения. Вы определяете Elin для каждого местоположения аварийного реагирования (пэр) в Организации (Дополнительные сведения см. [в статье Управление расположениями для ШЛЮЗОВ Elin в Lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)).
 

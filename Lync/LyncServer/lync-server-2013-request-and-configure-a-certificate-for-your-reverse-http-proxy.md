@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047284"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Запрос и Настройка сертификата для обратного HTTP-прокси-сервера в Lync Server 2013
 
@@ -156,7 +156,7 @@ _**Последнее изменение темы:** 2014-02-14_
 
 **Создание запроса подписи сертификата**
 
-1.  Откройте консоль управления (MMC) и добавьте оснастку "сертификаты" и выберите **Компьютеры**, а затем — **Личные**. Сведения о том, как создать консоль сертификатов в консоли управления (MMC), можно найти [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)в статье.
+1.  Откройте консоль управления (MMC) и добавьте оснастку "сертификаты" и выберите **Компьютеры**, а затем — **Личные**. Сведения о том, как создать консоль сертификатов в консоли управления (MMC), можно найти [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)в статье.
 
 2.  Щелкните правой кнопкой мыши пункт **Сертификаты**, выберите **все задачи**, а затем **Дополнительные операции**, щелкните **создать настраиваемый запрос**.
 
@@ -217,7 +217,7 @@ _**Последнее изменение темы:** 2014-02-14_
     
 
     > [!IMPORTANT]
-    > Корпорация Майкрософт выявила общедоступные ЦС, соответствующие требованиям для объединенных коммуникаций. Список хранится в следующей статье базы знаний. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Корпорация Майкрософт выявила общедоступные ЦС, соответствующие требованиям для объединенных коммуникаций. Список хранится в следующей статье базы знаний. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

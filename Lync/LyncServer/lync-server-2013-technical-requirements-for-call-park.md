@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006781"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Технические требования для парковки вызовов в Lync Server 2013
 
@@ -89,7 +89,7 @@ _**Последнее изменение темы:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>Требования к аудиофайлам
 
-Приложение парковки вызовов поддерживает только файлы Windows Media Audio (WMA) для музыки при удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для музыкальных файлов на удержании. Чтобы скачать Expression Encoder 4, обратитесь к разделу "Expression Encoder [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)4" на странице. Используйте средство, чтобы преобразовать файл в формат WMA. Рекомендуемый формат для файлов музыки для парковки на удержание вызовов — Media Audio 9, 44 кГц, 16 бит, моно, CBR, 32 кбит/с.
+Приложение парковки вызовов поддерживает только файлы Windows Media Audio (WMA) для музыки при удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для музыкальных файлов на удержании. Чтобы скачать Expression Encoder 4, обратитесь к разделу "Expression Encoder [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)4" на странице. Используйте средство, чтобы преобразовать файл в формат WMA. Рекомендуемый формат для файлов музыки для парковки на удержание вызовов — Media Audio 9, 44 кГц, 16 бит, моно, CBR, 32 кбит/с.
 
 <div>
 

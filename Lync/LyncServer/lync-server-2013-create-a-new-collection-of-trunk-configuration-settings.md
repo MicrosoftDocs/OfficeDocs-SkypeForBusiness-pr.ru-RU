@@ -12,18 +12,18 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04392b4157f0c1a12b0bcfa9e7125183a76864cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f07e5dc814887a7304a48602e04f48a00137bf8f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034911"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Создание новой коллекции параметров конфигурации магистрали в Lync Server 2013
 
@@ -135,7 +135,7 @@ _**Последнее изменение темы:** 2012-11-01_
 </tr>
 <tr class="odd">
 <td><p>Преобразованный номер для проверки</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
 <td><p>Телефонный номер, который может использоваться для выполнения специального теста настроек конфигурации магистрали.</p></td>
 </tr>
 <tr class="even">
@@ -150,17 +150,17 @@ _**Последнее изменение темы:** 2012-11-01_
 </tr>
 <tr class="even">
 <td><p>Проверяемый номер телефона</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
 <td><p>Номер телефона, который может использоваться для выполнения специального теста правил преобразования.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Номер вызывающего абонента</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
 <td><p>Показывает, что проверяемый номер телефона является номером телефона вызывающего абонента.</p></td>
 </tr>
 <tr class="even">
 <td><p>Вызываемый номер</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
 <td><p>Показывает, что проверяемый номер телефона является номером телефона вызываемого абонента.</p></td>
 </tr>
 </tbody>

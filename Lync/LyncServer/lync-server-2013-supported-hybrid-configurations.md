@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029810"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>Поддерживаемые гибридные конфигурации Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029810"
 
 _**Последнее изменение темы:** 2016-05-10_
 
-Вы можете настроить развертывание Lync Server 2013 для интеграции с Microsoft Exchange Server 2010 и Microsoft Exchange Server 2013 и SharePoint Server, как в локальной среде, так и в сети. Функции, перечисленные в следующей таблице, поддерживаются для всех клиентов, если не указано иное. Дополнительные сведения о поддержке клиентов приведены в [таблицах сравнения клиентов для таблиц сравнения клиентов Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) и Skype для бизнеса Online на клиентах [Skype для бизнеса Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+Вы можете настроить развертывание Lync Server 2013 для интеграции с Microsoft Exchange Server 2010 и Microsoft Exchange Server 2013 и SharePoint Server, как в локальной среде, так и в сети. Функции, перечисленные в следующей таблице, поддерживаются для всех клиентов, если не указано иное. Дополнительные сведения о поддержке клиентов приведены в [таблицах сравнения клиентов для таблиц сравнения клиентов Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) и Skype для бизнеса Online на клиентах [Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?linkid=281902).
 
 <div>
 
@@ -141,7 +141,7 @@ _**Последнее изменение темы:** 2016-05-10_
 <li><p>Журнал бесед и журналы звонков записываются в почтовый ящик Exchange пользователя</p></li>
 <li><p>Архивация содержимого (мгновенных сообщений и собраний) в Exchange.</p>
 <p>Дополнительные сведения см. <a href="lync-server-2013-deployment-checklist-for-archiving.md">в разделе Контрольный список развертывания для архивации в Lync Server 2013</a></p></li>
-<li><p>Поиск архивированного контента. Дополнительные сведения см в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Настройка Exchange для обнаружения электронных данных SharePoint</a></p></li>
+<li><p>Поиск архивированного контента. Дополнительные сведения см в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Настройка Exchange для обнаружения электронных данных SharePoint</a></p></li>
 <li><p>Голосовая почта. Дополнительные сведения приведены в статье <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">предоставление пользователям Lync Server 2013 голосовой почты в размещенной единой системе обмена сообщениями Exchange</a></p></li>
 </ul></td>
 </tr>
@@ -187,7 +187,7 @@ _**Последнее изменение темы:** 2016-05-10_
 <p>Поддерживается только в том случае, если оба пользователя размещены в сети в одном лесу или оба размещены в локальной среде.</p></li>
 <li><p>Архивация содержимого (мгновенных сообщений и собраний) в Exchange</p></li>
 <li><p>Поиск в архивном контенте</p></li>
-<li><p>Voicemail</p></li>
+<li><p>Голосовая почта</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -213,7 +213,7 @@ _**Последнее изменение темы:** 2016-05-10_
 <tr class="header">
 <th></th>
 <th>Локальное развертывание SharePoint</th>
-<th>SharePoint Online;</th>
+<th>SharePoint Online</th>
 </tr>
 </thead>
 <tbody>
