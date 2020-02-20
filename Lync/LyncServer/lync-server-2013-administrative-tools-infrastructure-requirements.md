@@ -12,20 +12,20 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 829a8c09a9dfd4362b2da3cd9807b912c988f9db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998684"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="af5ef-102">Требования к инфраструктуре средств администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="0a620-102">Требования к инфраструктуре средств администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41998684"
 
 <span> </span>
 
-<span data-ttu-id="af5ef-103">_**Последнее изменение темы:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="af5ef-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="0a620-103">_**Последнее изменение темы:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="0a620-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="af5ef-104">Не существует дополнительных требований к инфраструктуре для установки средств администрирования Microsoft Lync Server 2013 или выполнения большинства задач управления с помощью этих средств.</span><span class="sxs-lookup"><span data-stu-id="af5ef-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="af5ef-105">Требования к инфраструктуре для определенных сценариев см. в подразделах настоящего раздела.</span><span class="sxs-lookup"><span data-stu-id="af5ef-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
+<span data-ttu-id="0a620-104">Не существует дополнительных требований к инфраструктуре для установки средств администрирования Microsoft Lync Server 2013 или выполнения большинства задач управления с помощью этих средств.</span><span class="sxs-lookup"><span data-stu-id="0a620-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="0a620-105">Требования к инфраструктуре для определенных сценариев см. в подразделах настоящего раздела.</span><span class="sxs-lookup"><span data-stu-id="0a620-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="af5ef-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="af5ef-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0a620-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="0a620-106">In This Section</span></span>
 
-  - [<span data-ttu-id="af5ef-107">Требования к публикации топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [<span data-ttu-id="0a620-107">Требования к публикации топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [<span data-ttu-id="af5ef-108">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
+  - [<span data-ttu-id="0a620-108">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
 
-  - [<span data-ttu-id="af5ef-109">Требования DNS для простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [<span data-ttu-id="0a620-109">Требования DNS для простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [<span data-ttu-id="af5ef-110">Изменение или Настройка простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [<span data-ttu-id="0a620-110">Изменение или Настройка простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="af5ef-111">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="af5ef-111">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="0a620-111">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="0a620-111">Related Sections</span></span>
 
-  - [<span data-ttu-id="af5ef-112">Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="af5ef-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
+  - [<span data-ttu-id="0a620-112">Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="0a620-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="af5ef-113">См. также</span><span class="sxs-lookup"><span data-stu-id="af5ef-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a620-113">См. также</span><span class="sxs-lookup"><span data-stu-id="0a620-113">See Also</span></span>
 
 
-[<span data-ttu-id="af5ef-114">Установка средств администрирования Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
+[<span data-ttu-id="0a620-114">Установка средств администрирования Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="af5ef-115">Требования к программному обеспечению для средств администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
+[<span data-ttu-id="0a620-115">Требования к программному обеспечению для средств администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[<span data-ttu-id="af5ef-116">Права и разрешения администратора, необходимые для установки и администрирования Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af5ef-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[<span data-ttu-id="0a620-116">Права и разрешения администратора, необходимые для установки и администрирования Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a620-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

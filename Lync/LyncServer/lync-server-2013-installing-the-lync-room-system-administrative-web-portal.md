@@ -12,20 +12,20 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24757a87279f64dd903ed4fdfb26169b606f899c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045241"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a><span data-ttu-id="7211c-102">Установка веб-портала администрирования системы комнат Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7211c-102">Installing the Lync Room System Administrative Web Portal in Lync Server 2013</span></span>
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a><span data-ttu-id="ee211-102">Установка веб-портала администрирования системы комнат Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ee211-102">Installing the Lync Room System Administrative Web Portal in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "42045241"
 
 <span> </span>
 
-<span data-ttu-id="7211c-103">_**Последнее изменение темы:** 2015-04-09_</span><span class="sxs-lookup"><span data-stu-id="7211c-103">_**Topic Last Modified:** 2015-04-09_</span></span>
+<span data-ttu-id="ee211-103">_**Последнее изменение темы:** 2015-04-09_</span><span class="sxs-lookup"><span data-stu-id="ee211-103">_**Topic Last Modified:** 2015-04-09_</span></span>
 
-<span data-ttu-id="7211c-104">Вы можете скачать веб-портал администрирования системы комнат Microsoft Lync из центра загрузки Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044).</span><span class="sxs-lookup"><span data-stu-id="7211c-104">You can download the Microsoft Lync Room System Administrative Web Portal from the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044).</span></span>
+<span data-ttu-id="ee211-104">Вы можете скачать веб-портал администрирования системы комнат Microsoft Lync из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044).</span><span class="sxs-lookup"><span data-stu-id="ee211-104">You can download the Microsoft Lync Room System Administrative Web Portal from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044).</span></span>
 
-<span data-ttu-id="7211c-105">Чтобы установить веб-портал администрирования системы комнат Lync, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="7211c-105">To install the Lync Room System Administrative Web Portal, use the following steps.</span></span>
+<span data-ttu-id="ee211-105">Чтобы установить веб-портал администрирования системы комнат Lync, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="ee211-105">To install the Lync Room System Administrative Web Portal, use the following steps.</span></span>
 
-1.  <span data-ttu-id="7211c-106">Настройте порт доверенного приложения, выполнив следующий командлет в командной консоли Lync Server:</span><span class="sxs-lookup"><span data-stu-id="7211c-106">Configure the Trusted Application Port by running the following cmdlet in Lync Server Management Shell:</span></span>
+1.  <span data-ttu-id="ee211-106">Настройте порт доверенного приложения, выполнив следующий командлет в командной консоли Lync Server:</span><span class="sxs-lookup"><span data-stu-id="ee211-106">Configure the Trusted Application Port by running the following cmdlet in Lync Server Management Shell:</span></span>
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  <span data-ttu-id="7211c-107">Чтобы установить портал "комната для собраний", скачайте **линкрумадминпортал. exe** , а затем запустите его от имени администратора.</span><span class="sxs-lookup"><span data-stu-id="7211c-107">To install the Meeting Room Portal, download **LyncRoomAdminPortal.exe** and then run it as an administrator.</span></span>
+2.  <span data-ttu-id="ee211-107">Чтобы установить портал "комната для собраний", скачайте **линкрумадминпортал. exe** , а затем запустите его от имени администратора.</span><span class="sxs-lookup"><span data-stu-id="ee211-107">To install the Meeting Room Portal, download **LyncRoomAdminPortal.exe** and then run it as an administrator.</span></span>
 
-3.  <span data-ttu-id="7211c-108">Откройте файл Web. config в следующем расположении:</span><span class="sxs-lookup"><span data-stu-id="7211c-108">Open the Web.config file from the following location:</span></span>
+3.  <span data-ttu-id="ee211-108">Откройте файл Web. config в следующем расположении:</span><span class="sxs-lookup"><span data-stu-id="ee211-108">Open the Web.config file from the following location:</span></span>
     
-    <span data-ttu-id="7211c-109">% Program Files\\% Microsoft Lync Server\\2013 веб\\-компонентов для\\Конференц\\-зала портал</span><span class="sxs-lookup"><span data-stu-id="7211c-109">%Program Files%\\Microsoft Lync Server 2013\\Web Components\\Meeting Room Portal\\Int\\Handler</span></span>\\
+    <span data-ttu-id="ee211-109">% Program Files\\% Microsoft Lync Server\\2013 веб\\-компонентов для\\Конференц\\-зала портал</span><span class="sxs-lookup"><span data-stu-id="ee211-109">%Program Files%\\Microsoft Lync Server 2013\\Web Components\\Meeting Room Portal\\Int\\Handler</span></span>\\
 
-4.  <span data-ttu-id="7211c-110">В файле Web. config замените Порталусернаме на имя пользователя, созданное на шаге 2 в разделе "Настройка предварительных требований для портала администрирования системы комнат Lync" (рекомендуемое имя в шаге — Lrsapp включена поддержка):</span><span class="sxs-lookup"><span data-stu-id="7211c-110">In the Web.Config file, change the PortalUserName to the username created in Step 2 under the section “Configuring Prerequisites for Lync Room System Admin Portal” (the recommended name in the step is LRSApp):</span></span>
+4.  <span data-ttu-id="ee211-110">В файле Web. config замените Порталусернаме на имя пользователя, созданное на шаге 2 в разделе "Настройка предварительных требований для портала администрирования системы комнат Lync" (рекомендуемое имя в шаге — Lrsapp включена поддержка):</span><span class="sxs-lookup"><span data-stu-id="ee211-110">In the Web.Config file, change the PortalUserName to the username created in Step 2 under the section “Configuring Prerequisites for Lync Room System Admin Portal” (the recommended name in the step is LRSApp):</span></span>
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  <span data-ttu-id="7211c-111">Так как портал администрирования LRS является доверенным приложением, вам не нужно указывать пароль в конфигурации портала.</span><span class="sxs-lookup"><span data-stu-id="7211c-111">Because the LRS Admin Portal is a trusted application, you do not need to provide the password in the portal configuration.</span></span> <span data-ttu-id="7211c-112">Если для этого пользователя используется другой регистратор, отличный от регистратора локального регистратора, необходимо указать для него регистратор, добавив следующую строку в файл Web. config:</span><span class="sxs-lookup"><span data-stu-id="7211c-112">If this user is using a different registrar than local registrar, you need to specify the registrar for it by adding the following line in the Web.Config file:</span></span>
+5.  <span data-ttu-id="ee211-111">Так как портал администрирования LRS является доверенным приложением, вам не нужно указывать пароль в конфигурации портала.</span><span class="sxs-lookup"><span data-stu-id="ee211-111">Because the LRS Admin Portal is a trusted application, you do not need to provide the password in the portal configuration.</span></span> <span data-ttu-id="ee211-112">Если для этого пользователя используется другой регистратор, отличный от регистратора локального регистратора, необходимо указать для него регистратор, добавив следующую строку в файл Web. config:</span><span class="sxs-lookup"><span data-stu-id="ee211-112">If this user is using a different registrar than local registrar, you need to specify the registrar for it by adding the following line in the Web.Config file:</span></span>
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  <span data-ttu-id="7211c-113">Если используется порт, отличный от 5061, добавьте в файл Web. config следующую строку:</span><span class="sxs-lookup"><span data-stu-id="7211c-113">If the port used is other than 5061, add the following line in the Web.Config file:</span></span>
+6.  <span data-ttu-id="ee211-113">Если используется порт, отличный от 5061, добавьте в файл Web. config следующую строку:</span><span class="sxs-lookup"><span data-stu-id="ee211-113">If the port used is other than 5061, add the following line in the Web.Config file:</span></span>
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
 <div>
 
-## <a name="verifying-installation-of-the-lync-room-system-administrative-web-portal"></a><span data-ttu-id="7211c-114">Проверка установки веб-портала администрирования системы комнат Lync</span><span class="sxs-lookup"><span data-stu-id="7211c-114">Verifying Installation of the Lync Room System Administrative Web Portal</span></span>
+## <a name="verifying-installation-of-the-lync-room-system-administrative-web-portal"></a><span data-ttu-id="ee211-114">Проверка установки веб-портала администрирования системы комнат Lync</span><span class="sxs-lookup"><span data-stu-id="ee211-114">Verifying Installation of the Lync Room System Administrative Web Portal</span></span>
 
-<span data-ttu-id="7211c-115">Чтобы проверить установку веб-портала администрирования системы комнат Lync, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="7211c-115">To verify installation of the Lync Room System Administrative Web Portal, do the following:</span></span>
+<span data-ttu-id="ee211-115">Чтобы проверить установку веб-портала администрирования системы комнат Lync, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="ee211-115">To verify installation of the Lync Room System Administrative Web Portal, do the following:</span></span>
 
 
-1.  <span data-ttu-id="7211c-116">На сервере переднего плана перейдите по следующему URL-адресу:</span><span class="sxs-lookup"><span data-stu-id="7211c-116">On a Front End server, browse to the following URL:</span></span>
+1.  <span data-ttu-id="ee211-116">На сервере переднего плана перейдите по следующему URL-адресу:</span><span class="sxs-lookup"><span data-stu-id="ee211-116">On a Front End server, browse to the following URL:</span></span>
     
-    <span data-ttu-id="7211c-117">https://\<Fe Server\>/ЛРС</span><span class="sxs-lookup"><span data-stu-id="7211c-117">https://\<fe-server\>/lrs</span></span>
+    <span data-ttu-id="ee211-117">https://\<Fe Server\>/ЛРС</span><span class="sxs-lookup"><span data-stu-id="ee211-117">https://\<fe-server\>/lrs</span></span>
     
-    <span data-ttu-id="7211c-118">Не отображаются никакие ошибки, как показано на следующем рисунке:</span><span class="sxs-lookup"><span data-stu-id="7211c-118">You should not see any errors, as shown in the following image:</span></span>
+    <span data-ttu-id="ee211-118">Не отображаются никакие ошибки, как показано на следующем рисунке:</span><span class="sxs-lookup"><span data-stu-id="ee211-118">You should not see any errors, as shown in the following image:</span></span>
     
-    <span data-ttu-id="7211c-119">![Экран входа на портал администрирования системы комнат Lync](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Экран входа на портал администрирования системы комнат Lync")</span><span class="sxs-lookup"><span data-stu-id="7211c-119">![Lync Room System Admin Portal Sign In screen](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync Room System Admin Portal Sign In screen")</span></span>
+    <span data-ttu-id="ee211-119">![Экран входа на портал администрирования системы комнат Lync](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Экран входа на портал администрирования системы комнат Lync")</span><span class="sxs-lookup"><span data-stu-id="ee211-119">![Lync Room System Admin Portal Sign In screen](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Lync Room System Admin Portal Sign In screen")</span></span>
 
-2.  <span data-ttu-id="7211c-120">Если ошибки не отображаются, попробуйте получить доступ к следующему URL-адресу с любого другого компьютера в топологии:</span><span class="sxs-lookup"><span data-stu-id="7211c-120">If you do not see any errors, try accessing the following URL from any other computer in the topology:</span></span>
+2.  <span data-ttu-id="ee211-120">Если ошибки не отображаются, попробуйте получить доступ к следующему URL-адресу с любого другого компьютера в топологии:</span><span class="sxs-lookup"><span data-stu-id="ee211-120">If you do not see any errors, try accessing the following URL from any other computer in the topology:</span></span>
     
-    <span data-ttu-id="7211c-121">https://\<Fe Server\>/ЛРС</span><span class="sxs-lookup"><span data-stu-id="7211c-121">https://\<fe-server\>/lrs</span></span>
+    <span data-ttu-id="ee211-121">https://\<Fe Server\>/ЛРС</span><span class="sxs-lookup"><span data-stu-id="ee211-121">https://\<fe-server\>/lrs</span></span>
     
-    <span data-ttu-id="7211c-122">Чтобы получить доступ к странице, необходимо добавить записи DNS, как описано в разделе "необходимые записи DNS для автоматического входа клиентов" [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056).</span><span class="sxs-lookup"><span data-stu-id="7211c-122">To access the page, you will need to add the DNS records as described in “Required DNS Records for Automatic Client Sign-In” at [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056).</span></span>
+    <span data-ttu-id="ee211-122">Чтобы получить доступ к странице, необходимо добавить записи DNS, как описано в разделе "необходимые записи DNS для автоматического входа клиентов" [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056).</span><span class="sxs-lookup"><span data-stu-id="ee211-122">To access the page, you will need to add the DNS records as described in “Required DNS Records for Automatic Client Sign-In” at [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056).</span></span>
 
 </div>
 

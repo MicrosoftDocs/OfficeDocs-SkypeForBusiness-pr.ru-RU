@@ -12,20 +12,20 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf5f651e93097537659d6df0ea7bb4fa469fabcd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e243631783948f7a591f05e47780526fa4507564
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029030"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="dd31c-102">Приложения: устройства и серверы для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd31c-102">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
+# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="cbbc5-102">Приложения: устройства и серверы для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc5-102">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42029030"
 
 <span> </span>
 
-<span data-ttu-id="dd31c-103">_**Последнее изменение темы:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="dd31c-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="cbbc5-103">_**Последнее изменение темы:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="cbbc5-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="dd31c-104">В этом разделе приведены дополнительные сведения об устройствах для обеспечения связи в филиалах и серверах для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="dd31c-104">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
+<span data-ttu-id="cbbc5-104">В этом разделе приведены дополнительные сведения об устройствах для обеспечения связи в филиалах и серверах для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="cbbc5-104">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dd31c-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="dd31c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cbbc5-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="cbbc5-105">In This Section</span></span>
 
-  - [<span data-ttu-id="dd31c-106">Приложение а: использование командлетов для развертывания устройства для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd31c-106">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="cbbc5-106">Приложение а: использование командлетов для развертывания устройства для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc5-106">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
 
-  - [<span data-ttu-id="dd31c-107">Приложение б. Управление устройством для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd31c-107">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="cbbc5-107">Приложение б. Управление устройством для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbbc5-107">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
 
 </div>
 
