@@ -12,20 +12,20 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce694fe34451d6465f1fff31119ecf40c13e82d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: a799ba54fe7677ed2ccfa8051f295b2b775cdc0e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42118632"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187582"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-windows-powershell-30-for-lync-server-2013"></a><span data-ttu-id="1632f-102">Установка Windows PowerShell 3,0 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1632f-102">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>
+# <a name="installing-windows-powershell-30-for-lync-server-2013"></a><span data-ttu-id="d7f9c-102">Установка Windows PowerShell 3,0 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7f9c-102">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42118632"
 
 <span> </span>
 
-<span data-ttu-id="1632f-103">_**Последнее изменение темы:** 2014-06-27_</span><span class="sxs-lookup"><span data-stu-id="1632f-103">_**Topic Last Modified:** 2014-06-27_</span></span>
+<span data-ttu-id="d7f9c-103">_**Последнее изменение темы:** 2014-06-27_</span><span class="sxs-lookup"><span data-stu-id="d7f9c-103">_**Topic Last Modified:** 2014-06-27_</span></span>
 
-<span data-ttu-id="1632f-104">Для успешного развертывания Lync Server 2013 вам потребуется Windows PowerShell 3,0 на каждом компьютере, входящем в вашу топологию Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1632f-104">To deploy Lync Server 2013 successfully, you’ll need Windows PowerShell 3.0 on each computer that’s part of your Lync Server topology.</span></span>
+<span data-ttu-id="d7f9c-104">Для успешного развертывания Lync Server 2013 вам потребуется Windows PowerShell 3,0 на каждом компьютере, входящем в вашу топологию Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-104">To deploy Lync Server 2013 successfully, you’ll need Windows PowerShell 3.0 on each computer that’s part of your Lync Server topology.</span></span>
 
-<span data-ttu-id="1632f-105">Теперь для систем под управлением Windows Server 2012 или Windows Server 2012 R2 вам не нужно ничего делать и перейти к следующему этапу развертывания, так как PowerShell 3,0 включен в эти операционные системы.</span><span class="sxs-lookup"><span data-stu-id="1632f-105">Now, for systems running Windows Server 2012 or Windows Server 2012 R2, you don’t need to do anything here, and can go ahead to the next stage of deployment, because PowerShell 3.0 is included with those operating systems.</span></span>
+<span data-ttu-id="d7f9c-105">Теперь для систем под управлением Windows Server 2012 или Windows Server 2012 R2 вам не нужно ничего делать и перейти к следующему этапу развертывания, так как PowerShell 3,0 включен в эти операционные системы.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-105">Now, for systems running Windows Server 2012 or Windows Server 2012 R2, you don’t need to do anything here, and can go ahead to the next stage of deployment, because PowerShell 3.0 is included with those operating systems.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1632f-106">Но для систем под управлением Windows Server 2008 R2 с пакетом обновления 1 (SP1) перед установкой Lync Server 2013 вам потребуется установить оболочку PowerShell 3,0.</span><span class="sxs-lookup"><span data-stu-id="1632f-106">But for systems running Windows Server 2008 R2 SP1, you’ll need to install PowerShell 3.0 as a prerequisite before you install Lync Server 2013, or things won’t work.</span></span> <span data-ttu-id="1632f-107">Чтобы установить PowerShell 3,0, обратитесь к разделу <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>.</span><span class="sxs-lookup"><span data-stu-id="1632f-107">To install PowerShell 3.0, see <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>.</span></span> <span data-ttu-id="1632f-108">Это прямая ссылка на страницу загрузки PowerShell 3,0, а также сведения об их успешном установке.</span><span class="sxs-lookup"><span data-stu-id="1632f-108">This is a direct link to the PowerShell 3.0 download page, along with information relating to installing it successfully.</span></span>
+> <span data-ttu-id="d7f9c-106">Но для систем под управлением Windows Server 2008 R2 с пакетом обновления 1 (SP1) перед установкой Lync Server 2013 вам потребуется установить оболочку PowerShell 3,0.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-106">But for systems running Windows Server 2008 R2 SP1, you’ll need to install PowerShell 3.0 as a prerequisite before you install Lync Server 2013, or things won’t work.</span></span> <span data-ttu-id="d7f9c-107">Чтобы установить PowerShell 3,0, обратитесь к разделу <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-107">To install PowerShell 3.0, see <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>.</span></span> <span data-ttu-id="d7f9c-108">Это прямая ссылка на страницу загрузки PowerShell 3,0, а также сведения об их успешном установке.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-108">This is a direct link to the PowerShell 3.0 download page, along with information relating to installing it successfully.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1632f-109">После завершения установки или необходимо убедиться, что перед продолжением развертывания Lync Server необходимо убедиться, что PowerShell 3,0 находится на сервере, что происходит очень просто.</span><span class="sxs-lookup"><span data-stu-id="1632f-109">Once you’ve done the install, or if you just want to check and be sure before continuing with the Lync Server deployment, confirming that PowerShell 3.0 is on a server is pretty straightforward if you do this:</span></span>
+<span data-ttu-id="d7f9c-109">После завершения установки или необходимо убедиться, что перед продолжением развертывания Lync Server необходимо убедиться, что PowerShell 3,0 находится на сервере, что происходит очень просто.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-109">Once you’ve done the install, or if you just want to check and be sure before continuing with the Lync Server deployment, confirming that PowerShell 3.0 is on a server is pretty straightforward if you do this:</span></span>
 
-1.  <span data-ttu-id="1632f-110">На сервере, который нужно проверить, нажмите кнопку **Пуск**, выберите **все программы**, **стандартные**, щелкните **Windows PowerShell**и выберите **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="1632f-110">On the server you want to check, choose **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, and then click **Windows PowerShell**.</span></span>
+1.  <span data-ttu-id="d7f9c-110">На сервере, который нужно проверить, нажмите кнопку **Пуск**, выберите **все программы**, **стандартные**, щелкните **Windows PowerShell**и выберите **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="d7f9c-110">On the server you want to check, choose **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, and then click **Windows PowerShell**.</span></span>
 
-2.  <span data-ttu-id="1632f-111">В консоли Windows PowerShell введите в командной строки следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="1632f-111">In the Windows PowerShell console, type the following command at the command prompt, and then press ENTER:</span></span>
+2.  <span data-ttu-id="d7f9c-111">В консоли Windows PowerShell введите в командной строки следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="d7f9c-111">In the Windows PowerShell console, type the following command at the command prompt, and then press ENTER:</span></span>
     
         Get-Host | Select-Object Version
 
-3.  <span data-ttu-id="1632f-112">Если вы установили Windows PowerShell 3,0, вы увидите следующий результат:</span><span class="sxs-lookup"><span data-stu-id="1632f-112">If Windows PowerShell 3.0 is installed you’ll see output that looks like this:</span></span>
+3.  <span data-ttu-id="d7f9c-112">Если вы установили Windows PowerShell 3,0, вы увидите следующий результат:</span><span class="sxs-lookup"><span data-stu-id="d7f9c-112">If Windows PowerShell 3.0 is installed you’ll see output that looks like this:</span></span>
     
         Version
         -------

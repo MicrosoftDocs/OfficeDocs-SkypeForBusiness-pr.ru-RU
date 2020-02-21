@@ -12,20 +12,20 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f45029b4818a555dd21f7bf5afef70cdca5b50e2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f95f08997a9a65bdbb6c21a8850ee059b0dc64c6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147892"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="f8c6e-102">Проверка Федерации и удаленного доступа для внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="f8c6e-102">Verify federation and remote access for external users</span></span>
+# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="60ea2-102">Проверка Федерации и удаленного доступа для внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="60ea2-102">Verify federation and remote access for external users</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42147892"
 
 <span> </span>
 
-<span data-ttu-id="f8c6e-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="f8c6e-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="60ea2-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="60ea2-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="f8c6e-104">После переноса маршрута Федерации на пограничный сервер Lync Server 2013 необходимо выполнить некоторые функциональные тесты, чтобы убедиться, что Федерация работает должным образом.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-104">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="f8c6e-105">В тесты для внешних пользователей должны включаться все типы пользователей, поддерживаемые в организации, включая любой из типов (или все типы) из указанных ниже.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-105">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
+<span data-ttu-id="60ea2-104">После переноса маршрута Федерации на пограничный сервер Lync Server 2013 необходимо выполнить некоторые функциональные тесты, чтобы убедиться, что Федерация работает должным образом.</span><span class="sxs-lookup"><span data-stu-id="60ea2-104">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="60ea2-105">В тесты для внешних пользователей должны включаться все типы пользователей, поддерживаемые в организации, включая любой из типов (или все типы) из указанных ниже.</span><span class="sxs-lookup"><span data-stu-id="60ea2-105">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="f8c6e-106">Тест подключения внешних пользователей и внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="f8c6e-106">Test Connectivity of External Users and External access</span></span>
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="60ea2-106">Тест подключения внешних пользователей и внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="60ea2-106">Test Connectivity of External Users and External access</span></span>
 
-  - <span data-ttu-id="f8c6e-107">Пользователи, по крайней мере, один федеративный домен, внутренний пользователь Lync Server 2013 и пользователь в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-107">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="f8c6e-108">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-108">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
+  - <span data-ttu-id="60ea2-107">Пользователи, по крайней мере, один федеративный домен, внутренний пользователь Lync Server 2013 и пользователь в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="60ea2-107">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="60ea2-108">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="60ea2-108">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
 
-  - <span data-ttu-id="f8c6e-109">Пользователи каждого общедоступного поставщика услуг обмена мгновенными сообщениями, поддерживаемого организацией (и для которого была выполнена подготовка), взаимодействуют с пользователем в Lync Server 2013 и пользователем в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-109">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
+  - <span data-ttu-id="60ea2-109">Пользователи каждого общедоступного поставщика услуг обмена мгновенными сообщениями, поддерживаемого организацией (и для которого была выполнена подготовка), взаимодействуют с пользователем в Lync Server 2013 и пользователем в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="60ea2-109">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
 
-  - <span data-ttu-id="f8c6e-110">Проверьте, что анонимные пользователи могут присоединиться к конференциям.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-110">Verify that anonymous users are able to join conferences.</span></span>
+  - <span data-ttu-id="60ea2-110">Проверьте, что анонимные пользователи могут присоединиться к конференциям.</span><span class="sxs-lookup"><span data-stu-id="60ea2-110">Verify that anonymous users are able to join conferences.</span></span>
 
-  - <span data-ttu-id="f8c6e-111">Пользователь, размещенный на Lync Server 2010, использующий удаленный доступ пользователей (вход в Lync Server 2010 извне интрасети, но без VPN) с пользователем в Lync Server 2013 и пользователем Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-111">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="f8c6e-112">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-112">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="60ea2-111">Пользователь, размещенный на Lync Server 2010, использующий удаленный доступ пользователей (вход в Lync Server 2010 извне интрасети, но без VPN) с пользователем в Lync Server 2013 и пользователем Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="60ea2-111">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="60ea2-112">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="60ea2-112">Test IM, presence, A/V, and desktop sharing.</span></span>
 
-  - <span data-ttu-id="f8c6e-113">Пользователь, размещенный на Lync Server 2013, использующий удаленный доступ пользователей (вход в Lync Server 2013 извне интрасети, но без VPN) с пользователем в Lync Server 2013 и пользователем Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-113">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="f8c6e-114">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="f8c6e-114">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="60ea2-113">Пользователь, размещенный на Lync Server 2013, использующий удаленный доступ пользователей (вход в Lync Server 2013 извне интрасети, но без VPN) с пользователем в Lync Server 2013 и пользователем Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="60ea2-113">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="60ea2-114">Проверьте мгновенные сообщения, сведения о присутствии, аудио-видео и совместное использование рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="60ea2-114">Test IM, presence, A/V, and desktop sharing.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3263619179f35fe4f1057c0872d8c208ea431e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9e02b85d274b59ff870ef06574b2d61bab7a3d3d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147942"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="7d334-102">Миграция пользователей</span><span class="sxs-lookup"><span data-stu-id="7d334-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="713f0-102">Миграция пользователей</span><span class="sxs-lookup"><span data-stu-id="713f0-102">User migration</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42147942"
 
 <span> </span>
 
-<span data-ttu-id="7d334-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7d334-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="713f0-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="713f0-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="7d334-p101">Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.</span><span class="sxs-lookup"><span data-stu-id="7d334-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="713f0-p101">Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.</span><span class="sxs-lookup"><span data-stu-id="713f0-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
 </div>
 

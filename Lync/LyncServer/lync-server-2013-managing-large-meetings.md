@@ -12,20 +12,20 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf57a6938099cd51aa7317dbd6d8c834b6ade19f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 463eb523c903710de06b2a8f310dd9447aa4aee1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150340"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="662c3-102">Управление большим объемом собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-102">Managing large meetings in Lync Server 2013</span></span>
+# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="82276-102">Управление большим объемом собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-102">Managing large meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42150340"
 
 <span> </span>
 
-<span data-ttu-id="662c3-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="662c3-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="82276-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="82276-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="662c3-p101">После настройки выделенного пула для конференций с большим числом участников вы можете проверить, обеспечивают ли собрания с большим числом участников, размещенные в пуле, наилучшее взаимодействие с пользователями. В подразделах этого раздела описывается, как организовывать собрания с большим числом участников и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="662c3-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
+<span data-ttu-id="82276-p101">После настройки выделенного пула для конференций с большим числом участников вы можете проверить, обеспечивают ли собрания с большим числом участников, размещенные в пуле, наилучшее взаимодействие с пользователями. В подразделах этого раздела описывается, как организовывать собрания с большим числом участников и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="82276-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="662c3-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="662c3-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="82276-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="82276-106">In This Section</span></span>
 
-  - [<span data-ttu-id="662c3-107">Выделенные организаторов собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
+  - [<span data-ttu-id="82276-107">Выделенные организаторов собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [<span data-ttu-id="662c3-108">Отдельный календарь больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
+  - [<span data-ttu-id="82276-108">Отдельный календарь больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
 
-  - [<span data-ttu-id="662c3-109">Процесс планирования больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
+  - [<span data-ttu-id="82276-109">Процесс планирования больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
 
-  - [<span data-ttu-id="662c3-110">Сведения о планировании собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
+  - [<span data-ttu-id="82276-110">Сведения о планировании собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
 
-  - [<span data-ttu-id="662c3-111">Выполнение больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662c3-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
+  - [<span data-ttu-id="82276-111">Выполнение больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82276-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
 
 </div>
 

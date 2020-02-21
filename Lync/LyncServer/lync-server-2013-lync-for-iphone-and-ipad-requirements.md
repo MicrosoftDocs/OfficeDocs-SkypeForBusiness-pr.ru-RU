@@ -12,20 +12,20 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da246d51622da741372c63bca5a48497426e31d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bc713d996fecb5d185796ad5345a176725eee698
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146732"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="d0816-102">Требования Lync для iPhone и iPad в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0816-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a><span data-ttu-id="f565d-102">Требования Lync для iPhone и iPad в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f565d-102">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42146732"
 
 <span> </span>
 
-<span data-ttu-id="d0816-103">_**Последнее изменение темы:** 2015-06-01_</span><span class="sxs-lookup"><span data-stu-id="d0816-103">_**Topic Last Modified:** 2015-06-01_</span></span>
+<span data-ttu-id="f565d-103">_**Последнее изменение темы:** 2015-06-01_</span><span class="sxs-lookup"><span data-stu-id="f565d-103">_**Topic Last Modified:** 2015-06-01_</span></span>
 
-<span data-ttu-id="d0816-104">Для поддержки Microsoft Lync 2013 для iPhone или Microsoft Lync 2013 для iPad устройство должно удовлетворять следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="d0816-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
+<span data-ttu-id="f565d-104">Для поддержки Microsoft Lync 2013 для iPhone или Microsoft Lync 2013 для iPad устройство должно удовлетворять следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="f565d-104">To support Microsoft Lync 2013 for iPhone or Microsoft Lync 2013 for iPad, the device must meet the following requirements:</span></span>
 
-  - <span data-ttu-id="d0816-105">Мобильное цифровое устройство iPhone 6 с Apple iOS 8 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="d0816-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
+  - <span data-ttu-id="f565d-105">Мобильное цифровое устройство iPhone 6 с Apple iOS 8 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="f565d-105">iPhone 6 mobile digital device with Apple iOS 8 or the latest version.</span></span>
 
-  - <span data-ttu-id="d0816-106">Мобильное цифровое устройство iPhone 5 с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="d0816-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="f565d-106">Мобильное цифровое устройство iPhone 5 с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="f565d-106">iPhone 5 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="d0816-107">Мобильное цифровое устройство iPhone 4 с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="d0816-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="f565d-107">Мобильное цифровое устройство iPhone 4 с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="f565d-107">iPhone 4 mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="d0816-108">iPad 2 или более поздней версии мобильное устройство с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="d0816-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="f565d-108">iPad 2 или более поздней версии мобильное устройство с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="f565d-108">iPad 2 or a later version mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
-  - <span data-ttu-id="d0816-109">цифровое устройство iPad Mini Mobile с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="d0816-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
+  - <span data-ttu-id="f565d-109">цифровое устройство iPad Mini Mobile с Apple iOS 7 или последней версией.</span><span class="sxs-lookup"><span data-stu-id="f565d-109">iPad mini mobile digital device with Apple iOS 7 or the latest version.</span></span>
 
 </div>
 
