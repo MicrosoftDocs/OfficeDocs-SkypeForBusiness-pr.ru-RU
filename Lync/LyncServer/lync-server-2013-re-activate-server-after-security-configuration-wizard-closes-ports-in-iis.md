@@ -12,20 +12,20 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 064a21e5ec5a324dedae29aab2fb83d16c49b258
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152233"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a><span data-ttu-id="dc9f7-102">Повторная активация сервера после закрытия портов в IIS мастером настройки безопасности</span><span class="sxs-lookup"><span data-stu-id="dc9f7-102">Re-activate server after Security Configuration Wizard closes ports in IIS</span></span>
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a><span data-ttu-id="d0e42-102">Повторная активация сервера после закрытия портов в IIS мастером настройки безопасности</span><span class="sxs-lookup"><span data-stu-id="d0e42-102">Re-activate server after Security Configuration Wizard closes ports in IIS</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42152233"
 
 <span> </span>
 
-<span data-ttu-id="dc9f7-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="dc9f7-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="d0e42-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="d0e42-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="dc9f7-104">Некоторые роли Lync Server 2013 выполняют веб-службы на порте служб IIS 4443.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-104">Some Lync Server 2013 roles run Web Services on Internet Information Services (IIS) port 4443.</span></span> <span data-ttu-id="dc9f7-105">При запуске мастера развертывания Lync Server, загрузчика. exe или с помощью командлета **Enable – CsComputer** создается исключение в брандмауэре и открывается порт.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-105">Running the Lync Server Deployment Wizard, Bootstrapper.exe, or using the **Enable-CsComputer** cmdlet creates an exception in the firewall and opens the port.</span></span> <span data-ttu-id="dc9f7-106">Если затем запустить мастер настройки безопасности Windows Server 2008 R2 (или другие сценарии усиления защиты), порт 4443 будет заблокирован, а внешние клиенты не смогут обращаться к веб-службам.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-106">If you then run the Windows Server 2008 R2 Security Configuration Wizard (or other hardening scripts), port 4443 will be blocked, and external clients will not be able to contact Web Services.</span></span> <span data-ttu-id="dc9f7-107">Чтобы повторно открыть порт, можно напрямую изменить исключение брандмауэра или повторно активировать сервер.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-107">To reopen the port you can either modify the firewall exception directly or re-activate the server.</span></span>
+<span data-ttu-id="d0e42-104">Некоторые роли Lync Server 2013 выполняют веб-службы на порте служб IIS 4443.</span><span class="sxs-lookup"><span data-stu-id="d0e42-104">Some Lync Server 2013 roles run Web Services on Internet Information Services (IIS) port 4443.</span></span> <span data-ttu-id="d0e42-105">При запуске мастера развертывания Lync Server, загрузчика. exe или с помощью командлета **Enable – CsComputer** создается исключение в брандмауэре и открывается порт.</span><span class="sxs-lookup"><span data-stu-id="d0e42-105">Running the Lync Server Deployment Wizard, Bootstrapper.exe, or using the **Enable-CsComputer** cmdlet creates an exception in the firewall and opens the port.</span></span> <span data-ttu-id="d0e42-106">Если затем запустить мастер настройки безопасности Windows Server 2008 R2 (или другие сценарии усиления защиты), порт 4443 будет заблокирован, а внешние клиенты не смогут обращаться к веб-службам.</span><span class="sxs-lookup"><span data-stu-id="d0e42-106">If you then run the Windows Server 2008 R2 Security Configuration Wizard (or other hardening scripts), port 4443 will be blocked, and external clients will not be able to contact Web Services.</span></span> <span data-ttu-id="d0e42-107">Чтобы повторно открыть порт, можно напрямую изменить исключение брандмауэра или повторно активировать сервер.</span><span class="sxs-lookup"><span data-stu-id="d0e42-107">To reopen the port you can either modify the firewall exception directly or re-activate the server.</span></span>
 
 <div>
 
-## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a><span data-ttu-id="dc9f7-108">Повторная активация сервера с помощью мастера развертывания</span><span class="sxs-lookup"><span data-stu-id="dc9f7-108">To re-activate the server by using the Deployment Wizard</span></span>
+## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a><span data-ttu-id="d0e42-108">Повторная активация сервера с помощью мастера развертывания</span><span class="sxs-lookup"><span data-stu-id="d0e42-108">To re-activate the server by using the Deployment Wizard</span></span>
 
-1.  <span data-ttu-id="dc9f7-109">На странице мастера развертывания Lync Server нажмите **выполнить** рядом с **шагом 2: Установка или удаление компонентов Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-109">On the Lync Server Deployment Wizard page, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
+1.  <span data-ttu-id="d0e42-109">На странице мастера развертывания Lync Server нажмите **выполнить** рядом с **шагом 2: Установка или удаление компонентов Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d0e42-109">On the Lync Server Deployment Wizard page, click **Run** next to **Step 2: Setup or Remove Lync Server Components**.</span></span>
 
-2.  <span data-ttu-id="dc9f7-110">На странице **Установка компонентов Lync Server** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-110">On **Setup Lync Server components** page, click **Next**.</span></span>
+2.  <span data-ttu-id="d0e42-110">На странице **Установка компонентов Lync Server** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="d0e42-110">On **Setup Lync Server components** page, click **Next**.</span></span>
 
-3.  <span data-ttu-id="dc9f7-111">На странице **Выполнение команд**, когда состояние задачи отображается как "Завершено", нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-111">On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.</span></span>
+3.  <span data-ttu-id="d0e42-111">На странице **Выполнение команд**, когда состояние задачи отображается как "Завершено", нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="d0e42-111">On the **Executing Commands** page, when the task status is shown as completed, click **Finish**.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="dc9f7-112">Вы также можете использовать bootstrapper.exe или <STRONG>Enable-CsComputer</STRONG> для повторной активации сервера.</span><span class="sxs-lookup"><span data-stu-id="dc9f7-112">You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.</span></span>
+    > <span data-ttu-id="d0e42-112">Вы также можете использовать bootstrapper.exe или <STRONG>Enable-CsComputer</STRONG> для повторной активации сервера.</span><span class="sxs-lookup"><span data-stu-id="d0e42-112">You can also use bootstrapper.exe or <STRONG>Enable-CsComputer</STRONG> to re-activate the server.</span></span>
 
     
     </div>

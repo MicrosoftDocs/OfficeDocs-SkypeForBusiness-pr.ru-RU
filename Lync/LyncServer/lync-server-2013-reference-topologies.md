@@ -12,20 +12,20 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 975964fa51711e633dbd191f7a9f3388ee29d0c7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 13481f67433f4633357f9a44bc1d30f5195fa5f9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152211"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183182"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topologies-in-lync-server-2013"></a><span data-ttu-id="95926-102">Эталонные топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95926-102">Reference topologies in Lync Server 2013</span></span>
+# <a name="reference-topologies-in-lync-server-2013"></a><span data-ttu-id="f46c8-102">Эталонные топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46c8-102">Reference topologies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42152211"
 
 <span> </span>
 
-<span data-ttu-id="95926-103">_**Последнее изменение темы:** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="95926-103">_**Topic Last Modified:** 2012-05-21_</span></span>
+<span data-ttu-id="f46c8-103">_**Последнее изменение темы:** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="f46c8-103">_**Topic Last Modified:** 2012-05-21_</span></span>
 
-<span data-ttu-id="95926-104">Идеальная топология Lync Server зависит от размера вашей организации, нагрузки, которую вы хотите развернуть, а также от предпочтений для обеспечения высокой доступности и стоимости инвестиций.</span><span class="sxs-lookup"><span data-stu-id="95926-104">The ideal Lync Server topology depends on your organization’s size, the workloads you want to deploy, and your preferences for high availability versus cost of investment.</span></span>
+<span data-ttu-id="f46c8-104">Идеальная топология Lync Server зависит от размера вашей организации, нагрузки, которую вы хотите развернуть, а также от предпочтений для обеспечения высокой доступности и стоимости инвестиций.</span><span class="sxs-lookup"><span data-stu-id="f46c8-104">The ideal Lync Server topology depends on your organization’s size, the workloads you want to deploy, and your preferences for high availability versus cost of investment.</span></span>
 
-<span data-ttu-id="95926-105">В следующем подразделе рассматриваются три эталонные топологии, а также приводится обоснование многих решений, на которых основаны требования для каждой из них.</span><span class="sxs-lookup"><span data-stu-id="95926-105">The following topics outline three reference topologies, including the reasoning behind many of the decisions that drive the requirements for each topology.</span></span>
+<span data-ttu-id="f46c8-105">В следующем подразделе рассматриваются три эталонные топологии, а также приводится обоснование многих решений, на которых основаны требования для каждой из них.</span><span class="sxs-lookup"><span data-stu-id="f46c8-105">The following topics outline three reference topologies, including the reasoning behind many of the decisions that drive the requirements for each topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="95926-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="95926-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f46c8-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="f46c8-106">In This Section</span></span>
 
-  - [<span data-ttu-id="95926-107">Эталонная топология для Lync Server 2013 в небольших организациях</span><span class="sxs-lookup"><span data-stu-id="95926-107">Reference topology for Lync Server 2013 in small organizations</span></span>](lync-server-2013-reference-topology-for-small-organizations.md)
+  - [<span data-ttu-id="f46c8-107">Эталонная топология для Lync Server 2013 в небольших организациях</span><span class="sxs-lookup"><span data-stu-id="f46c8-107">Reference topology for Lync Server 2013 in small organizations</span></span>](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [<span data-ttu-id="95926-108">Эталонная топология для Lync Server 2013 в организациях среднего размера</span><span class="sxs-lookup"><span data-stu-id="95926-108">Reference topology for Lync Server 2013 in medium-size organizations</span></span>](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [<span data-ttu-id="f46c8-108">Эталонная топология для Lync Server 2013 в организациях среднего размера</span><span class="sxs-lookup"><span data-stu-id="f46c8-108">Reference topology for Lync Server 2013 in medium-size organizations</span></span>](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [<span data-ttu-id="95926-109">Эталонная топология для Lync Server 2013 в крупных организациях с несколькими центрами обработки данных</span><span class="sxs-lookup"><span data-stu-id="95926-109">Reference topology for Lync Server 2013 in large organizations with multiple data centers</span></span>](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [<span data-ttu-id="f46c8-109">Эталонная топология для Lync Server 2013 в крупных организациях с несколькими центрами обработки данных</span><span class="sxs-lookup"><span data-stu-id="f46c8-109">Reference topology for Lync Server 2013 in large organizations with multiple data centers</span></span>](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 

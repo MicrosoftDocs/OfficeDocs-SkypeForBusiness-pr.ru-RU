@@ -12,20 +12,20 @@ ms:contentKeyID: 49733856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 250edc56367b0ecb44548c50048acb199f060577
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 69a44b34a0d3c5cae48ddaafc4b1efa416137107
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144465"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-lync-server-2013-on-virtual-servers"></a><span data-ttu-id="d8e4e-102">Запуск Lync Server 2013 на виртуальных серверах</span><span class="sxs-lookup"><span data-stu-id="d8e4e-102">Running Lync Server 2013 on virtual servers</span></span>
+# <a name="running-lync-server-2013-on-virtual-servers"></a><span data-ttu-id="5c792-102">Запуск Lync Server 2013 на виртуальных серверах</span><span class="sxs-lookup"><span data-stu-id="5c792-102">Running Lync Server 2013 on virtual servers</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42144465"
 
 <span> </span>
 
-<span data-ttu-id="d8e4e-103">_**Последнее изменение темы:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="d8e4e-103">_**Topic Last Modified:** 2014-03-13_</span></span>
+<span data-ttu-id="5c792-103">_**Последнее изменение темы:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="5c792-103">_**Topic Last Modified:** 2014-03-13_</span></span>
 
-<span data-ttu-id="d8e4e-104">Lync Server 2013 поддерживает топологии виртуализации, поддерживающие все рабочие нагрузки Lync Server, включая обмен мгновенными сообщениями и присутствие, Конференц-связь, корпоративную голосовую связь, мониторинг, архивацию и сохраняемый чат.</span><span class="sxs-lookup"><span data-stu-id="d8e4e-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="d8e4e-105">Обратите внимание, что производительность Lync Server на виртуальных топологиях может сильно различаться в зависимости от используемых рабочих нагрузок, количества пользователей и аппаратного оборудования.</span><span class="sxs-lookup"><span data-stu-id="d8e4e-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="d8e4e-106">Подробное руководство по запуску Lync Server 2013 на виртуальных серверах представлено в техническом документе, в котором [планируется развертывание Lync server 2013 на виртуальных серверах](https://www.microsoft.com/download/details.aspx?id=41936).</span><span class="sxs-lookup"><span data-stu-id="d8e4e-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
+<span data-ttu-id="5c792-104">Lync Server 2013 поддерживает топологии виртуализации, поддерживающие все рабочие нагрузки Lync Server, включая обмен мгновенными сообщениями и присутствие, Конференц-связь, корпоративную голосовую связь, мониторинг, архивацию и сохраняемый чат.</span><span class="sxs-lookup"><span data-stu-id="5c792-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="5c792-105">Обратите внимание, что производительность Lync Server на виртуальных топологиях может сильно различаться в зависимости от используемых рабочих нагрузок, количества пользователей и аппаратного оборудования.</span><span class="sxs-lookup"><span data-stu-id="5c792-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="5c792-106">Подробное руководство по запуску Lync Server 2013 на виртуальных серверах представлено в техническом документе, в котором [планируется развертывание Lync server 2013 на виртуальных серверах](https://www.microsoft.com/download/details.aspx?id=41936).</span><span class="sxs-lookup"><span data-stu-id="5c792-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
 
-<span data-ttu-id="d8e4e-107">Lync Server 2013 поддерживается на платформе Hyper-V и на любых платформах виртуализации, которые поддерживаются в программе проверки виртуализации Windows Server.</span><span class="sxs-lookup"><span data-stu-id="d8e4e-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="d8e4e-108">Сведения об этой программе приведены в разделе <http://www.windowsservercatalog.com/svvp.aspx>.</span><span class="sxs-lookup"><span data-stu-id="d8e4e-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
+<span data-ttu-id="5c792-107">Lync Server 2013 поддерживается на платформе Hyper-V и на любых платформах виртуализации, которые поддерживаются в программе проверки виртуализации Windows Server.</span><span class="sxs-lookup"><span data-stu-id="5c792-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="5c792-108">Сведения об этой программе приведены в разделе <http://www.windowsservercatalog.com/svvp.aspx>.</span><span class="sxs-lookup"><span data-stu-id="5c792-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
 
 <div id="sectionSection0" class="section">
 
