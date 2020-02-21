@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136997"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ _**Последнее изменение темы:** 2019-03-22_
 
 2.  Подождите, пока не появится подтверждение того, что ваш домен был подготовлен корпорацией Майкрософт.
 
-3.  После просмотра подтверждения используйте центр администрирования Lync, чтобы включить "внешние коммуникации". Дополнительные сведения см.[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  После просмотра подтверждения используйте центр администрирования Lync, чтобы включить "внешние коммуникации". Дополнительные сведения см.[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Этот порядок важен.Перед включением связи в Lync Online необходимо настроить локальное подключение. Если порядок обратной, сведения, введенные для локального размещения, не <https://pic.lync.com> будут проходить через. Если вы уже настроили Lync Online для внешних коммуникаций с этим доменом, необходимо отключить его, подождать 24 часа и затем снова начать работу <https://pic.lync.com> , а затем включить внешние коммуникации для Lync Online.
 

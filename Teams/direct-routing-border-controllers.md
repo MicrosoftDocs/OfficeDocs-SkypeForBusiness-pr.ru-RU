@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837589"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214415"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -53,21 +53,27 @@ ms.locfileid: "41837589"
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 а. 250  |    |    |    
 |                                                                                                                     | Одномедианый SBC 9000  |     &#10004;     |   &#10004;     |  7.20 а. 250   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 а. 250 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  | Нет   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Интрадо ЕРС <br>Интрадо ЕГВ    |Нет|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  |  Нет  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (сборка 537)     |  Интрадо ЕРС <br>Интрадо ЕГВ   |  Pending  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (сборка 537)     |  Интрадо ЕРС <br>Интрадо ЕГВ  |  Pending  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (сборка 216)    |  Интрадо ЕРС <br>Интрадо ЕГВ   |  Pending  |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   Интрадо ЕРС <br>Интрадо ЕГВ  |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   Интрадо ЕРС <br>Интрадо ЕГВ  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   Интрадо ЕРС <br>Интрадо ЕГВ |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  Интрадо ЕРС <br>Интрадо ЕГВ  |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   Интрадо ЕРС <br>Интрадо ЕГВ |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   Интрадо ЕРС <br>Интрадо ЕГВ  |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul> |   Нет |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul> | Нет   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul>  |Нет|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul> |  Нет  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul> |   Нет |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (сборка 537)     |  <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (сборка 537)     |  <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (сборка 216)    |  <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>    |           |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> </ul>   |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |     |    |    
+
+В таблице ниже перечислены устройства, которые проверяются на совместимость между прямыми маршрутизацией и аналоговыми устройствами.
+
+|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Явил
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 
 Чтобы придать нам отзыв о работе с продуктами, например идеи для новых функций, ознакомьтесь с разметкой [UserVoice](https://microsoftteams.uservoice.com) о сертификации, предоставленной основной версией. Это означает, что поддерживается микропрограмма с любым числом в микропрограмме SBC, следующей за основной версией.
