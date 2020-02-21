@@ -12,20 +12,20 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 987205c8b392a43b138b8783e0bde5ee330fc49b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 565ae8f69c43c15e25acd707806931afb7c2419e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148478"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="4e79c-102">Этап 5: Настройка пилотного пула</span><span class="sxs-lookup"><span data-stu-id="4e79c-102">Phase 5: Configure the pilot pool</span></span>
+# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="a5231-102">Этап 5: Настройка пилотного пула</span><span class="sxs-lookup"><span data-stu-id="a5231-102">Phase 5: Configure the pilot pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42148478"
 
 <span> </span>
 
-<span data-ttu-id="4e79c-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="4e79c-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="a5231-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a5231-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="4e79c-104">Теперь, когда пилотный пул создан и сведения о развертывании прежних версий объединены с Lync Server 2013, в этом разделе указывается несколько конфигураций, которые необходимо выполнить в пилотном пуле.</span><span class="sxs-lookup"><span data-stu-id="4e79c-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
+<span data-ttu-id="a5231-104">Теперь, когда пилотный пул создан и сведения о развертывании прежних версий объединены с Lync Server 2013, в этом разделе указывается несколько конфигураций, которые необходимо выполнить в пилотном пуле.</span><span class="sxs-lookup"><span data-stu-id="a5231-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4e79c-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="4e79c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a5231-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="a5231-105">In This Section</span></span>
 
-  - [<span data-ttu-id="4e79c-106">Подключение пилотного пула к старым пограничным серверам</span><span class="sxs-lookup"><span data-stu-id="4e79c-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [<span data-ttu-id="a5231-106">Подключение пилотного пула к старым пограничным серверам</span><span class="sxs-lookup"><span data-stu-id="a5231-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [<span data-ttu-id="4e79c-107">Авторизация подключения к пограничному серверу Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="4e79c-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [<span data-ttu-id="a5231-107">Авторизация подключения к пограничному серверу Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a5231-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [<span data-ttu-id="4e79c-108">Проверка параметров конфигурации</span><span class="sxs-lookup"><span data-stu-id="4e79c-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
+  - [<span data-ttu-id="a5231-108">Проверка параметров конфигурации</span><span class="sxs-lookup"><span data-stu-id="a5231-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
 
-  - [<span data-ttu-id="4e79c-109">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="4e79c-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [<span data-ttu-id="a5231-109">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="a5231-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d55d43b211f3a45e2fd89ea147432bdc48c9067
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7bcbea0dd4cd9bce2c394e02bca70080ab7e2133
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135776"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="f9c1c-102">Резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9c1c-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="36cba-102">Резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36cba-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42135776"
 
 <span> </span>
 
-<span data-ttu-id="f9c1c-103">_**Последнее изменение темы:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="f9c1c-103">_**Topic Last Modified:** 2012-08-01_</span></span>
+<span data-ttu-id="36cba-103">_**Последнее изменение темы:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="36cba-103">_**Topic Last Modified:** 2012-08-01_</span></span>
 
-<span data-ttu-id="f9c1c-104">Необходимо регулярно выполнять резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="f9c1c-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="f9c1c-105">Обратитесь к администратору баз данных, чтобы определить наилучший способ выполнения в используемой среде.</span><span class="sxs-lookup"><span data-stu-id="f9c1c-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
+<span data-ttu-id="36cba-104">Необходимо регулярно выполнять резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="36cba-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="36cba-105">Обратитесь к администратору баз данных, чтобы определить наилучший способ выполнения в используемой среде.</span><span class="sxs-lookup"><span data-stu-id="36cba-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26bfdebb055325ad7e248638a897bf334035d702
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e5eeb25121ce5bfcd1d60680bf8f45fe446b2481
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149098"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42210969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-devices-in-lync-server-2013"></a><span data-ttu-id="caccb-102">Новые возможности для устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caccb-102">What's new for devices in Lync Server 2013</span></span>
+# <a name="whats-new-for-devices-in-lync-server-2013"></a><span data-ttu-id="32db8-102">Новые возможности для устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32db8-102">What's new for devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42149098"
 
 <span> </span>
 
-<span data-ttu-id="caccb-103">_**Последнее изменение темы:** 2012-06-22_</span><span class="sxs-lookup"><span data-stu-id="caccb-103">_**Topic Last Modified:** 2012-06-22_</span></span>
+<span data-ttu-id="32db8-103">_**Последнее изменение темы:** 2012-06-22_</span><span class="sxs-lookup"><span data-stu-id="32db8-103">_**Topic Last Modified:** 2012-06-22_</span></span>
 
-<span data-ttu-id="caccb-104">Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое.</span><span class="sxs-lookup"><span data-stu-id="caccb-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="caccb-105">Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="caccb-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="caccb-106">Дополнительные сведения о новейших возможностях, связанных с устройствами, можно найти в статье [новые возможности для устройств](https://go.microsoft.com/fwlink/p/?linkid=256490) в библиотеке TechNet для Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="caccb-106">For details about the newest features related to devices, see [What’s New for Devices](https://go.microsoft.com/fwlink/p/?linkid=256490) in the Lync Server 2010 TechNet Library.</span></span>
+<span data-ttu-id="32db8-104">Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое.</span><span class="sxs-lookup"><span data-stu-id="32db8-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="32db8-105">Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="32db8-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="32db8-106">Дополнительные сведения о новейших возможностях, связанных с устройствами, можно найти в статье [новые возможности для устройств](https://go.microsoft.com/fwlink/p/?linkid=256490) в библиотеке TechNet для Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="32db8-106">For details about the newest features related to devices, see [What’s New for Devices](https://go.microsoft.com/fwlink/p/?linkid=256490) in the Lync Server 2010 TechNet Library.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="caccb-107">См. также</span><span class="sxs-lookup"><span data-stu-id="caccb-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32db8-107">См. также</span><span class="sxs-lookup"><span data-stu-id="32db8-107">See Also</span></span>
 
 
-[<span data-ttu-id="caccb-108">Планирование для устройств</span><span class="sxs-lookup"><span data-stu-id="caccb-108">Planning for Devices</span></span>](https://go.microsoft.com/fwlink/p/?linkid=256483)  
-[<span data-ttu-id="caccb-109">Развертывание устройств</span><span class="sxs-lookup"><span data-stu-id="caccb-109">Deploying Devices</span></span>](https://go.microsoft.com/fwlink/p/?linkid=256484)  
+[<span data-ttu-id="32db8-108">Планирование для устройств</span><span class="sxs-lookup"><span data-stu-id="32db8-108">Planning for Devices</span></span>](https://go.microsoft.com/fwlink/p/?linkid=256483)  
+[<span data-ttu-id="32db8-109">Развертывание устройств</span><span class="sxs-lookup"><span data-stu-id="32db8-109">Deploying Devices</span></span>](https://go.microsoft.com/fwlink/p/?linkid=256484)  
   
 
 </div>

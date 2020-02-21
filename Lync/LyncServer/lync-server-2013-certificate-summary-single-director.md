@@ -12,20 +12,20 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 677f9cf6e7cc9d260846598023435f33d2ebd2fc
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 05342de92d3de7446feb42040a233a57b9a4f5a2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151109"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-director-in-lync-server-2013"></a><span data-ttu-id="b4932-102">Сводка по сертификатам — единственный директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4932-102">Certificate summary - Single Director in Lync Server 2013</span></span>
+# <a name="certificate-summary---single-director-in-lync-server-2013"></a><span data-ttu-id="1310e-102">Сводка по сертификатам — единственный директор в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1310e-102">Certificate summary - Single Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42151109"
 
 <span> </span>
 
-<span data-ttu-id="b4932-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="b4932-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="1310e-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="1310e-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="b4932-104">Требования к сертификатам для одного директора состоят из сертификата по умолчанию, который содержит имя субъекта и альтернативные имена субъекта для служб, которые может получить руководитель.</span><span class="sxs-lookup"><span data-stu-id="b4932-104">Certificate requirements for a single Director consist of a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="b4932-105">Кроме того, существует сертификат маркера OAuth для проверки подлинности «сервер-сервер».</span><span class="sxs-lookup"><span data-stu-id="b4932-105">Additionally, there is an OAuth Token certificate for server to server authentication purposes.</span></span>
+<span data-ttu-id="1310e-104">Требования к сертификатам для одного директора состоят из сертификата по умолчанию, который содержит имя субъекта и альтернативные имена субъекта для служб, которые может получить руководитель.</span><span class="sxs-lookup"><span data-stu-id="1310e-104">Certificate requirements for a single Director consist of a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="1310e-105">Кроме того, существует сертификат маркера OAuth для проверки подлинности «сервер-сервер».</span><span class="sxs-lookup"><span data-stu-id="1310e-105">Additionally, there is an OAuth Token certificate for server to server authentication purposes.</span></span>
 
-### <a name="certificates-for-director"></a><span data-ttu-id="b4932-106">Сертификаты для Директора</span><span class="sxs-lookup"><span data-stu-id="b4932-106">Certificates for Director</span></span>
+### <a name="certificates-for-director"></a><span data-ttu-id="1310e-106">Сертификаты для Директора</span><span class="sxs-lookup"><span data-stu-id="1310e-106">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -50,38 +50,38 @@ ms.locfileid: "42151109"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b4932-107">Компонент</span><span class="sxs-lookup"><span data-stu-id="b4932-107">Component</span></span></th>
-<th><span data-ttu-id="b4932-108">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="b4932-108">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="b4932-109">Альтернативные имена субъектов</span><span class="sxs-lookup"><span data-stu-id="b4932-109">Subject alternative names (SAN)</span></span></th>
-<th><span data-ttu-id="b4932-110">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4932-110">Comments</span></span></th>
+<th><span data-ttu-id="1310e-107">Компонент</span><span class="sxs-lookup"><span data-stu-id="1310e-107">Component</span></span></th>
+<th><span data-ttu-id="1310e-108">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="1310e-108">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="1310e-109">Альтернативные имена субъектов</span><span class="sxs-lookup"><span data-stu-id="1310e-109">Subject alternative names (SAN)</span></span></th>
+<th><span data-ttu-id="1310e-110">Комментарии</span><span class="sxs-lookup"><span data-stu-id="1310e-110">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b4932-111">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="b4932-111">Default</span></span></p></td>
-<td><p><span data-ttu-id="b4932-112">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b4932-112">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="b4932-113">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b4932-113">dir01.contoso.net</span></span></p>
-<p><span data-ttu-id="b4932-114">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b4932-114">dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="b4932-115">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b4932-115">meet.contoso.com</span></span></p>
-<p><span data-ttu-id="b4932-116">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b4932-116">lyncdiscoverinternal.contoso.com</span></span></p>
-<p><span data-ttu-id="b4932-117">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b4932-117">lyncdiscover.contoso.com</span></span></p>
-<p><span data-ttu-id="b4932-118">(Дополнительно) \*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b4932-118">(Optionally) \*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="b4932-119">Сертификаты директора могут запрашиваться как из внутреннего управляемого центра сертификации, так и из общедоступного центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="b4932-119">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
-<p><span data-ttu-id="b4932-120">Режиссер отвечает на запросы от обратного прокси-сервера в сети периметра или от пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="b4932-120">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="b4932-121">Внутренние клиенты не будут использовать директор.</span><span class="sxs-lookup"><span data-stu-id="b4932-121">Internal clients will not use the Director.</span></span></p>
-<p><span data-ttu-id="b4932-122">Или запись с подстановочными знаками для простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="b4932-122">Or, a wildcard entry for the simple URLs</span></span></p></td>
+<td><p><span data-ttu-id="1310e-111">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="1310e-111">Default</span></span></p></td>
+<td><p><span data-ttu-id="1310e-112">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="1310e-112">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="1310e-113">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="1310e-113">dir01.contoso.net</span></span></p>
+<p><span data-ttu-id="1310e-114">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1310e-114">dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="1310e-115">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1310e-115">meet.contoso.com</span></span></p>
+<p><span data-ttu-id="1310e-116">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1310e-116">lyncdiscoverinternal.contoso.com</span></span></p>
+<p><span data-ttu-id="1310e-117">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1310e-117">lyncdiscover.contoso.com</span></span></p>
+<p><span data-ttu-id="1310e-118">(Дополнительно) \*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="1310e-118">(Optionally) \*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="1310e-119">Сертификаты директора могут запрашиваться как из внутреннего управляемого центра сертификации, так и из общедоступного центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="1310e-119">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
+<p><span data-ttu-id="1310e-120">Режиссер отвечает на запросы от обратного прокси-сервера в сети периметра или от пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1310e-120">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="1310e-121">Внутренние клиенты не будут использовать директор.</span><span class="sxs-lookup"><span data-stu-id="1310e-121">Internal clients will not use the Director.</span></span></p>
+<p><span data-ttu-id="1310e-122">Или запись с подстановочными знаками для простых URL-адресов</span><span class="sxs-lookup"><span data-stu-id="1310e-122">Or, a wildcard entry for the simple URLs</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4932-123">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="b4932-123">OAuthTokenIssuer</span></span></p></td>
-<td><p><span data-ttu-id="b4932-124">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b4932-124">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="b4932-125">Без записи</span><span class="sxs-lookup"><span data-stu-id="b4932-125">No Entry</span></span></p></td>
+<td><p><span data-ttu-id="1310e-123">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="1310e-123">OAuthTokenIssuer</span></span></p></td>
+<td><p><span data-ttu-id="1310e-124">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="1310e-124">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="1310e-125">Без записи</span><span class="sxs-lookup"><span data-stu-id="1310e-125">No Entry</span></span></p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="b4932-126">Обратите внимание, что минимальная длина ключа равна 1024, однако может возникнуть предупреждение, что рекомендуемая минимальная длина равна 2048 битам.</span><span class="sxs-lookup"><span data-stu-id="b4932-126">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
+> <span data-ttu-id="1310e-126">Обратите внимание, что минимальная длина ключа равна 1024, однако может возникнуть предупреждение, что рекомендуемая минимальная длина равна 2048 битам.</span><span class="sxs-lookup"><span data-stu-id="1310e-126">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
 
 
 </div>
-<p><span data-ttu-id="b4932-p103">Сертификат OAuthTokenIssuer — это специализированный сертификат для проверки подлинности серверов в крупномасштабной среде, который можно запросить из внутреннего или из общего центра сертификации. Этот сертификат является обязательным.</span><span class="sxs-lookup"><span data-stu-id="b4932-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
+<p><span data-ttu-id="1310e-p103">Сертификат OAuthTokenIssuer — это специализированный сертификат для проверки подлинности серверов в крупномасштабной среде, который можно запросить из внутреннего или из общего центра сертификации. Этот сертификат является обязательным.</span><span class="sxs-lookup"><span data-stu-id="1310e-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
 </tr>
 </tbody>
 </table>

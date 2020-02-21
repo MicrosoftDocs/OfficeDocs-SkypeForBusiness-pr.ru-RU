@@ -12,20 +12,20 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc2858ede3d1d3ccd1cc9af44c564fcac3424f35
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f159a71469335cfb2af1401e8693802b3c8d1870
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142165"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancedata-in-lync-server-2013"></a><span data-ttu-id="bf7d0-102">tblComplianceData в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf7d0-102">tblComplianceData in Lync Server 2013</span></span>
+# <a name="tblcompliancedata-in-lync-server-2013"></a><span data-ttu-id="36133-102">tblComplianceData в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36133-102">tblComplianceData in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42142165"
 
 <span> </span>
 
-<span data-ttu-id="bf7d0-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="bf7d0-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="36133-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="36133-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="bf7d0-104">tblComplianceData содержит события соответствия нормативным требованиям, которые еще не были обработаны адаптером соответствия.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-104">tblComplianceData contains the compliance events that have not been processed by the compliance adapter yet.</span></span>
+<span data-ttu-id="36133-104">tblComplianceData содержит события соответствия нормативным требованиям, которые еще не были обработаны адаптером соответствия.</span><span class="sxs-lookup"><span data-stu-id="36133-104">tblComplianceData contains the compliance events that have not been processed by the compliance adapter yet.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="bf7d0-105">Columns</span><span class="sxs-lookup"><span data-stu-id="bf7d0-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="36133-105">Columns</span><span class="sxs-lookup"><span data-stu-id="36133-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,71 +49,71 @@ ms.locfileid: "42142165"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bf7d0-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="bf7d0-106">Column</span></span></th>
-<th><span data-ttu-id="bf7d0-107">Тип</span><span class="sxs-lookup"><span data-stu-id="bf7d0-107">Type</span></span></th>
-<th><span data-ttu-id="bf7d0-108">Описание</span><span class="sxs-lookup"><span data-stu-id="bf7d0-108">Description</span></span></th>
+<th><span data-ttu-id="36133-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="36133-106">Column</span></span></th>
+<th><span data-ttu-id="36133-107">Тип</span><span class="sxs-lookup"><span data-stu-id="36133-107">Type</span></span></th>
+<th><span data-ttu-id="36133-108">Описание</span><span class="sxs-lookup"><span data-stu-id="36133-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-109">кмплевентид</span><span class="sxs-lookup"><span data-stu-id="bf7d0-109">cmplEventID</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-110">bigint, not null</span><span class="sxs-lookup"><span data-stu-id="bf7d0-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-111">Идентификатор события.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-111">Event ID.</span></span></p></td>
+<td><p><span data-ttu-id="36133-109">кмплевентид</span><span class="sxs-lookup"><span data-stu-id="36133-109">cmplEventID</span></span></p></td>
+<td><p><span data-ttu-id="36133-110">bigint, not null</span><span class="sxs-lookup"><span data-stu-id="36133-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-111">Идентификатор события.</span><span class="sxs-lookup"><span data-stu-id="36133-111">Event ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf7d0-112">ентридате</span><span class="sxs-lookup"><span data-stu-id="bf7d0-112">entryDate</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-113">smalldatetime, не NULL</span><span class="sxs-lookup"><span data-stu-id="bf7d0-113">smalldatetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-114">Время вставки (может относиться к далекому будущему для  cmplType=9, так как в этом случае запись является всего лишь заполнителем).</span><span class="sxs-lookup"><span data-stu-id="bf7d0-114">Time of insertion (may be far in the future for cmplType=9 because the entry is just a placeholder in that case).</span></span></p></td>
+<td><p><span data-ttu-id="36133-112">ентридате</span><span class="sxs-lookup"><span data-stu-id="36133-112">entryDate</span></span></p></td>
+<td><p><span data-ttu-id="36133-113">smalldatetime, не NULL</span><span class="sxs-lookup"><span data-stu-id="36133-113">smalldatetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-114">Время вставки (может относиться к далекому будущему для  cmplType=9, так как в этом случае запись является всего лишь заполнителем).</span><span class="sxs-lookup"><span data-stu-id="36133-114">Time of insertion (may be far in the future for cmplType=9 because the entry is just a placeholder in that case).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-115">cmplType</span><span class="sxs-lookup"><span data-stu-id="bf7d0-115">cmplType</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-116">int, not null</span><span class="sxs-lookup"><span data-stu-id="bf7d0-116">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-117">Типа события соответствия нормативным требованиям:</span><span class="sxs-lookup"><span data-stu-id="bf7d0-117">Type of compliance event:</span></span></p>
+<td><p><span data-ttu-id="36133-115">cmplType</span><span class="sxs-lookup"><span data-stu-id="36133-115">cmplType</span></span></p></td>
+<td><p><span data-ttu-id="36133-116">int, not null</span><span class="sxs-lookup"><span data-stu-id="36133-116">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-117">Типа события соответствия нормативным требованиям:</span><span class="sxs-lookup"><span data-stu-id="36133-117">Type of compliance event:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bf7d0-118">1: Чат</span><span class="sxs-lookup"><span data-stu-id="bf7d0-118">1: Chat</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-119">2: Ответ на чат</span><span class="sxs-lookup"><span data-stu-id="bf7d0-119">2: Backchat</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-120">3: Загрузка файла</span><span class="sxs-lookup"><span data-stu-id="bf7d0-120">3: File download</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-121">4: Отправка файла</span><span class="sxs-lookup"><span data-stu-id="bf7d0-121">4: File upload</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-122">9: Промежуточная передача файла</span><span class="sxs-lookup"><span data-stu-id="bf7d0-122">9: Provisional file transfer</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-123">10: Удаление чата (с заменой)</span><span class="sxs-lookup"><span data-stu-id="bf7d0-123">10: Chat deletion (with replace)</span></span></p></li>
-<li><p><span data-ttu-id="bf7d0-124">11: Очистка чата</span><span class="sxs-lookup"><span data-stu-id="bf7d0-124">11: Chat purging</span></span></p></li>
+<li><p><span data-ttu-id="36133-118">1: Чат</span><span class="sxs-lookup"><span data-stu-id="36133-118">1: Chat</span></span></p></li>
+<li><p><span data-ttu-id="36133-119">2: Ответ на чат</span><span class="sxs-lookup"><span data-stu-id="36133-119">2: Backchat</span></span></p></li>
+<li><p><span data-ttu-id="36133-120">3: Загрузка файла</span><span class="sxs-lookup"><span data-stu-id="36133-120">3: File download</span></span></p></li>
+<li><p><span data-ttu-id="36133-121">4: Отправка файла</span><span class="sxs-lookup"><span data-stu-id="36133-121">4: File upload</span></span></p></li>
+<li><p><span data-ttu-id="36133-122">9: Промежуточная передача файла</span><span class="sxs-lookup"><span data-stu-id="36133-122">9: Provisional file transfer</span></span></p></li>
+<li><p><span data-ttu-id="36133-123">10: Удаление чата (с заменой)</span><span class="sxs-lookup"><span data-stu-id="36133-123">10: Chat deletion (with replace)</span></span></p></li>
+<li><p><span data-ttu-id="36133-124">11: Очистка чата</span><span class="sxs-lookup"><span data-stu-id="36133-124">11: Chat purging</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf7d0-125">кмплтиме</span><span class="sxs-lookup"><span data-stu-id="bf7d0-125">cmplTime</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-126">bigint, не NULL</span><span class="sxs-lookup"><span data-stu-id="bf7d0-126">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-127">Метка времени для события.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-127">Time stamp for the event.</span></span></p></td>
+<td><p><span data-ttu-id="36133-125">кмплтиме</span><span class="sxs-lookup"><span data-stu-id="36133-125">cmplTime</span></span></p></td>
+<td><p><span data-ttu-id="36133-126">bigint, не NULL</span><span class="sxs-lookup"><span data-stu-id="36133-126">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-127">Метка времени для события.</span><span class="sxs-lookup"><span data-stu-id="36133-127">Time stamp for the event.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-128">кмплчаннелури</span><span class="sxs-lookup"><span data-stu-id="bf7d0-128">cmplChannelUri</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-129">nvarchar (255), not null</span><span class="sxs-lookup"><span data-stu-id="bf7d0-129">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-130">Универсальный код ресурса (URI) для канала.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-130">Channel Uniform Resource Identifier (URI).</span></span></p></td>
+<td><p><span data-ttu-id="36133-128">кмплчаннелури</span><span class="sxs-lookup"><span data-stu-id="36133-128">cmplChannelUri</span></span></p></td>
+<td><p><span data-ttu-id="36133-129">nvarchar (255), not null</span><span class="sxs-lookup"><span data-stu-id="36133-129">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-130">Универсальный код ресурса (URI) для канала.</span><span class="sxs-lookup"><span data-stu-id="36133-130">Channel Uniform Resource Identifier (URI).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf7d0-131">кмплчатид</span><span class="sxs-lookup"><span data-stu-id="bf7d0-131">cmplChatID</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-132">типу</span><span class="sxs-lookup"><span data-stu-id="bf7d0-132">bigint</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-133">Идентификатор чата (в соответствии с таблицей tblChat.chatId).</span><span class="sxs-lookup"><span data-stu-id="bf7d0-133">Chat ID (corresponding to tblChat.chatId table).</span></span></p></td>
+<td><p><span data-ttu-id="36133-131">кмплчатид</span><span class="sxs-lookup"><span data-stu-id="36133-131">cmplChatID</span></span></p></td>
+<td><p><span data-ttu-id="36133-132">типу</span><span class="sxs-lookup"><span data-stu-id="36133-132">bigint</span></span></p></td>
+<td><p><span data-ttu-id="36133-133">Идентификатор чата (в соответствии с таблицей tblChat.chatId).</span><span class="sxs-lookup"><span data-stu-id="36133-133">Chat ID (corresponding to tblChat.chatId table).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-134">кмплусерид</span><span class="sxs-lookup"><span data-stu-id="bf7d0-134">cmplUserID</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-135">int, не NULL</span><span class="sxs-lookup"><span data-stu-id="bf7d0-135">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-136">Идентификатор субъекта для отправителя (в соответствии с таблицей tblPrincipal.prinID).</span><span class="sxs-lookup"><span data-stu-id="bf7d0-136">Principal ID of the poster (corresponding to tblPrincipal.prinID table).</span></span></p></td>
+<td><p><span data-ttu-id="36133-134">кмплусерид</span><span class="sxs-lookup"><span data-stu-id="36133-134">cmplUserID</span></span></p></td>
+<td><p><span data-ttu-id="36133-135">int, не NULL</span><span class="sxs-lookup"><span data-stu-id="36133-135">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-136">Идентификатор субъекта для отправителя (в соответствии с таблицей tblPrincipal.prinID).</span><span class="sxs-lookup"><span data-stu-id="36133-136">Principal ID of the poster (corresponding to tblPrincipal.prinID table).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bf7d0-137">кмплусерури</span><span class="sxs-lookup"><span data-stu-id="bf7d0-137">cmplUserUri</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-138">nvarchar (255), не NULL</span><span class="sxs-lookup"><span data-stu-id="bf7d0-138">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-139">Универсальный код ресурса (URI) для пользователя.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-139">User URI.</span></span></p></td>
+<td><p><span data-ttu-id="36133-137">кмплусерури</span><span class="sxs-lookup"><span data-stu-id="36133-137">cmplUserUri</span></span></p></td>
+<td><p><span data-ttu-id="36133-138">nvarchar (255), не NULL</span><span class="sxs-lookup"><span data-stu-id="36133-138">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="36133-139">Универсальный код ресурса (URI) для пользователя.</span><span class="sxs-lookup"><span data-stu-id="36133-139">User URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-140">кмплмессаже</span><span class="sxs-lookup"><span data-stu-id="bf7d0-140">cmplMessage</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-141">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="bf7d0-141">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-142">Сообщение (кодировка зависит от cmplType).</span><span class="sxs-lookup"><span data-stu-id="bf7d0-142">Message (encoding depends on cmplType).</span></span></p></td>
+<td><p><span data-ttu-id="36133-140">кмплмессаже</span><span class="sxs-lookup"><span data-stu-id="36133-140">cmplMessage</span></span></p></td>
+<td><p><span data-ttu-id="36133-141">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="36133-141">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="36133-142">Сообщение (кодировка зависит от cmplType).</span><span class="sxs-lookup"><span data-stu-id="36133-142">Message (encoding depends on cmplType).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="bf7d0-143">Key</span><span class="sxs-lookup"><span data-stu-id="bf7d0-143">Key</span></span>
+### <a name="key"></a><span data-ttu-id="36133-143">Key</span><span class="sxs-lookup"><span data-stu-id="36133-143">Key</span></span>
 
 <table>
 <colgroup>
@@ -122,14 +122,14 @@ ms.locfileid: "42142165"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bf7d0-144">Столбец</span><span class="sxs-lookup"><span data-stu-id="bf7d0-144">Column</span></span></th>
-<th><span data-ttu-id="bf7d0-145">Описание</span><span class="sxs-lookup"><span data-stu-id="bf7d0-145">Description</span></span></th>
+<th><span data-ttu-id="36133-144">Столбец</span><span class="sxs-lookup"><span data-stu-id="36133-144">Column</span></span></th>
+<th><span data-ttu-id="36133-145">Описание</span><span class="sxs-lookup"><span data-stu-id="36133-145">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf7d0-146">кмплевентид</span><span class="sxs-lookup"><span data-stu-id="bf7d0-146">cmplEventID</span></span></p></td>
-<td><p><span data-ttu-id="bf7d0-147">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="bf7d0-147">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="36133-146">кмплевентид</span><span class="sxs-lookup"><span data-stu-id="36133-146">cmplEventID</span></span></p></td>
+<td><p><span data-ttu-id="36133-147">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="36133-147">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
