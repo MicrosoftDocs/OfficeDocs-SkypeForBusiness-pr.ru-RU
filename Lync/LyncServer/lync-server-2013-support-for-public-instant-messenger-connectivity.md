@@ -12,16 +12,16 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142465"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2013-10-07_
 
 В этой статье представлены сведения о поддержке общедоступной службы обмена мгновенными сообщениями (PIC). PIC — это функция Microsoft Lync, позволяющая пользователям Lync подключаться к пользователям из определенных общедоступных служб обмена мгновенными сообщениями (IM) с помощью клиентов и удостоверений Lync.
 
-Конечные пользователи смогут подключаться к их условиям клиентов, партнеров и поставщиков. ИТ выгодно поддерживать единый клиент связи в режиме реального времени, сохраняя функции управления, обеспечения соответствия требованиям и архивации в Lync. Lync — подключение к Skype, [общедоступное в 2013 мая](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), основано на устаревшем сервере Lync/Office Communications Server (OCS)/Ливе Communications Server (LCS), который впервые установлен с PIC при подключении к MSN/Windows Live, AOL и Yahoo.Для получения дополнительных сведений о подключении Lync — Skype обратитесь к разделу [Подключение Lync — Skype](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Федерация с Windows Live, AOL и Yahoo — это по пути к концу жизни.На этой странице документируется состояние каждой службы.
+Конечные пользователи смогут подключаться к их условиям клиентов, партнеров и поставщиков. ИТ выгодно поддерживать единый клиент связи в режиме реального времени, сохраняя функции управления, обеспечения соответствия требованиям и архивации в Lync. Lync — подключение к Skype, [общедоступное в 2013 мая](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), основано на устаревшем сервере Lync/Office Communications Server (OCS)/Ливе Communications Server (LCS), который впервые установлен с PIC при подключении к MSN/Windows Live, AOL и Yahoo.Для получения дополнительных сведений о подключении Lync — Skype обратитесь к разделу [Подключение Lync — Skype](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Федерация с Windows Live, AOL и Yahoo — это по пути к концу жизни.На этой странице документируется состояние каждой службы.
 
 Чтобы использовать PIC, пользователям необходимо активировать службу для каждого поставщика общедоступных служб обмена мгновенными сообщениями. Требования и сведения о том, как это сделать, зависят от поставщика услуг обмена мгновенными сообщениями и основной программы лицензирования клиента.
 
