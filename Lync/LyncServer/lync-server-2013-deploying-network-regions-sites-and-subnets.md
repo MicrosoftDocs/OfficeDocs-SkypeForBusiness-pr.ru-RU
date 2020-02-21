@@ -12,20 +12,20 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb1409213e2ba40936743e604af79d1fe564530c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 188b2a85e8961a0460bee819e3281d33a6069ddd
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154771"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="30c38-102">Развертывание областей сети, сайтов и подсетей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30c38-102">Deploying network regions, sites, and subnets in Lync Server 2013</span></span>
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="bef5b-102">Развертывание областей сети, сайтов и подсетей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef5b-102">Deploying network regions, sites, and subnets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42154771"
 
 <span> </span>
 
-<span data-ttu-id="30c38-103">_**Последнее изменение темы:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="30c38-103">_**Topic Last Modified:** 2013-03-12_</span></span>
+<span data-ttu-id="bef5b-103">_**Последнее изменение темы:** 2013-03-12_</span><span class="sxs-lookup"><span data-stu-id="bef5b-103">_**Topic Last Modified:** 2013-03-12_</span></span>
 
-<span data-ttu-id="30c38-104">После развертывания корпоративной голосовой связи необходимо настроить следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="30c38-104">Once Enterprise Voice is deployed, you need to configure:</span></span>
+<span data-ttu-id="bef5b-104">После развертывания корпоративной голосовой связи необходимо настроить следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="bef5b-104">Once Enterprise Voice is deployed, you need to configure:</span></span>
 
-  - <span data-ttu-id="30c38-105">Регионы сети</span><span class="sxs-lookup"><span data-stu-id="30c38-105">Network regions</span></span>
+  - <span data-ttu-id="bef5b-105">Регионы сети</span><span class="sxs-lookup"><span data-stu-id="bef5b-105">Network regions</span></span>
 
-  - <span data-ttu-id="30c38-106">Сетевые сайты</span><span class="sxs-lookup"><span data-stu-id="30c38-106">Network sites</span></span>
+  - <span data-ttu-id="bef5b-106">Сетевые сайты</span><span class="sxs-lookup"><span data-stu-id="bef5b-106">Network sites</span></span>
 
-  - <span data-ttu-id="30c38-107">Подсети сети</span><span class="sxs-lookup"><span data-stu-id="30c38-107">Network subnets</span></span>
+  - <span data-ttu-id="bef5b-107">Подсети сети</span><span class="sxs-lookup"><span data-stu-id="bef5b-107">Network subnets</span></span>
 
 <div>
 
-## <a name="define-network-regions"></a><span data-ttu-id="30c38-108">Определение областей сети</span><span class="sxs-lookup"><span data-stu-id="30c38-108">Define Network Regions</span></span>
+## <a name="define-network-regions"></a><span data-ttu-id="bef5b-108">Определение областей сети</span><span class="sxs-lookup"><span data-stu-id="bef5b-108">Define Network Regions</span></span>
 
-<span data-ttu-id="30c38-109">Определение областей сети с помощью команды Lync Server Windows PowerShell, панели управления New — CsNetworkRegion или Lync Server.</span><span class="sxs-lookup"><span data-stu-id="30c38-109">Use the Lync Server Windows PowerShell command, New-CsNetworkRegion, or Lync Server Control Panel to define network regions.</span></span>
+<span data-ttu-id="bef5b-109">Определение областей сети с помощью команды Lync Server Windows PowerShell, панели управления New — CsNetworkRegion или Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bef5b-109">Use the Lync Server Windows PowerShell command, New-CsNetworkRegion, or Lync Server Control Panel to define network regions.</span></span>
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-<span data-ttu-id="30c38-110">Дополнительные сведения см. в статье [New – CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).</span><span class="sxs-lookup"><span data-stu-id="30c38-110">For more information, see [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).</span></span>
+<span data-ttu-id="bef5b-110">Дополнительные сведения см. в статье [New – CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).</span><span class="sxs-lookup"><span data-stu-id="bef5b-110">For more information, see [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).</span></span>
 
-<span data-ttu-id="30c38-111">В этом примере приведенная ниже команда Windows PowerShell иллюстрирует регион сети, регион 1 (Индия), определенный в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="30c38-111">For this example, the following Windows PowerShell command illustrates the network region, region 1 (India), defined in this scenario.</span></span>
+<span data-ttu-id="bef5b-111">В этом примере приведенная ниже команда Windows PowerShell иллюстрирует регион сети, регион 1 (Индия), определенный в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="bef5b-111">For this example, the following Windows PowerShell command illustrates the network region, region 1 (India), defined in this scenario.</span></span>
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -68,15 +68,15 @@ ms.locfileid: "42154771"
 
 <div>
 
-## <a name="define-network-sites"></a><span data-ttu-id="30c38-112">Определение сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="30c38-112">Define Network Sites</span></span>
+## <a name="define-network-sites"></a><span data-ttu-id="bef5b-112">Определение сетевых сайтов</span><span class="sxs-lookup"><span data-stu-id="bef5b-112">Define Network Sites</span></span>
 
-<span data-ttu-id="30c38-113">Используйте командную консоль Lync Server Windows PowerShell, New-CsNetworkSite или панель управления Lync Server для определения сетевых сайтов.</span><span class="sxs-lookup"><span data-stu-id="30c38-113">Use the Lync Server Windows PowerShell command, New-CsNetworkSite, or the Lync Server Control Panel to define network sites.</span></span>
+<span data-ttu-id="bef5b-113">Используйте командную консоль Lync Server Windows PowerShell, New-CsNetworkSite или панель управления Lync Server для определения сетевых сайтов.</span><span class="sxs-lookup"><span data-stu-id="bef5b-113">Use the Lync Server Windows PowerShell command, New-CsNetworkSite, or the Lync Server Control Panel to define network sites.</span></span>
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-<span data-ttu-id="30c38-114">Дополнительные сведения см. в статье [New – CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).</span><span class="sxs-lookup"><span data-stu-id="30c38-114">For more information, see [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).</span></span>
+<span data-ttu-id="bef5b-114">Дополнительные сведения см. в статье [New – CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).</span><span class="sxs-lookup"><span data-stu-id="bef5b-114">For more information, see [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).</span></span>
 
-<span data-ttu-id="30c38-115">В этом примере приведенная ниже таблица и команда Windows PowerShell для Lync Server иллюстрируют сетевые сайты, определенные в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="30c38-115">For this example, the following table and Lync Server Windows PowerShell command illustrate the network sites defined in this scenario.</span></span> <span data-ttu-id="30c38-116">Только те параметры, которые относятся к маршрутизации на основе расположения, включены в таблицу для целей иллюстрации.</span><span class="sxs-lookup"><span data-stu-id="30c38-116">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
+<span data-ttu-id="bef5b-115">В этом примере приведенная ниже таблица и команда Windows PowerShell для Lync Server иллюстрируют сетевые сайты, определенные в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="bef5b-115">For this example, the following table and Lync Server Windows PowerShell command illustrate the network sites defined in this scenario.</span></span> <span data-ttu-id="bef5b-116">Только те параметры, которые относятся к маршрутизации на основе расположения, включены в таблицу для целей иллюстрации.</span><span class="sxs-lookup"><span data-stu-id="bef5b-116">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -91,20 +91,20 @@ ms.locfileid: "42154771"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="30c38-117">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="30c38-117">Site 1 (Delhi)</span></span></th>
-<th><span data-ttu-id="30c38-118">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="30c38-118">Site 2 (Hyderabad)</span></span></th>
+<th><span data-ttu-id="bef5b-117">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="bef5b-117">Site 1 (Delhi)</span></span></th>
+<th><span data-ttu-id="bef5b-118">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="bef5b-118">Site 2 (Hyderabad)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="30c38-119">Идентификатор сайта</span><span class="sxs-lookup"><span data-stu-id="30c38-119">Site ID</span></span></p></td>
-<td><p><span data-ttu-id="30c38-120">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="30c38-120">Site 1 (Delhi)</span></span></p></td>
-<td><p><span data-ttu-id="30c38-121">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="30c38-121">Site 2 (Hyderabad)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-119">Идентификатор сайта</span><span class="sxs-lookup"><span data-stu-id="bef5b-119">Site ID</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-120">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="bef5b-120">Site 1 (Delhi)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-121">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="bef5b-121">Site 2 (Hyderabad)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="30c38-122">КОД региона</span><span class="sxs-lookup"><span data-stu-id="30c38-122">Region ID</span></span></p></td>
-<td><p><span data-ttu-id="30c38-123">Регион 1 (Индия)</span><span class="sxs-lookup"><span data-stu-id="30c38-123">Region 1 (India)</span></span></p></td>
-<td><p><span data-ttu-id="30c38-124">Регион 1 (Индия)</span><span class="sxs-lookup"><span data-stu-id="30c38-124">Region 1 (India)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-122">КОД региона</span><span class="sxs-lookup"><span data-stu-id="bef5b-122">Region ID</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-123">Регион 1 (Индия)</span><span class="sxs-lookup"><span data-stu-id="bef5b-123">Region 1 (India)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-124">Регион 1 (Индия)</span><span class="sxs-lookup"><span data-stu-id="bef5b-124">Region 1 (India)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -119,15 +119,15 @@ ms.locfileid: "42154771"
 
 <div>
 
-## <a name="define-network-subnets"></a><span data-ttu-id="30c38-125">Определение сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="30c38-125">Define Network Subnets</span></span>
+## <a name="define-network-subnets"></a><span data-ttu-id="bef5b-125">Определение сетевых подсетей</span><span class="sxs-lookup"><span data-stu-id="bef5b-125">Define Network Subnets</span></span>
 
-<span data-ttu-id="30c38-126">Используйте командную консоль Lync Server Windows PowerShell New-CsNetworkSubnet или панель управления Lync Server, чтобы определить сетевые подсети и назначить их сетевым сайтам.</span><span class="sxs-lookup"><span data-stu-id="30c38-126">Use the Lync Server Windows PowerShell command, New-CsNetworkSubnet, or the Lync Server Control Panel to define network subnets and assign them to network sites.</span></span>
+<span data-ttu-id="bef5b-126">Используйте командную консоль Lync Server Windows PowerShell New-CsNetworkSubnet или панель управления Lync Server, чтобы определить сетевые подсети и назначить их сетевым сайтам.</span><span class="sxs-lookup"><span data-stu-id="bef5b-126">Use the Lync Server Windows PowerShell command, New-CsNetworkSubnet, or the Lync Server Control Panel to define network subnets and assign them to network sites.</span></span>
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-<span data-ttu-id="30c38-127">Дополнительные сведения см. в статье [New – CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span><span class="sxs-lookup"><span data-stu-id="30c38-127">For more information, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
+<span data-ttu-id="bef5b-127">Дополнительные сведения см. в статье [New – CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span><span class="sxs-lookup"><span data-stu-id="bef5b-127">For more information, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
 
-<span data-ttu-id="30c38-128">В этом примере приведенная ниже таблица и команды Windows PowerShell иллюстрируют Назначение сетевых подсетей сетевым сайтам, Нью Дели и Хидерабад, определенным в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="30c38-128">For this example, the following table and Windows PowerShell commands illustrate the assignment of network subnets to the network sites, Delhi and Hyderabad, defined in this scenario.</span></span> <span data-ttu-id="30c38-129">Только те параметры, которые относятся к маршрутизации на основе расположения, включены в таблицу для целей иллюстрации.</span><span class="sxs-lookup"><span data-stu-id="30c38-129">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
+<span data-ttu-id="bef5b-128">В этом примере приведенная ниже таблица и команды Windows PowerShell иллюстрируют Назначение сетевых подсетей сетевым сайтам, Нью Дели и Хидерабад, определенным в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="bef5b-128">For this example, the following table and Windows PowerShell commands illustrate the assignment of network subnets to the network sites, Delhi and Hyderabad, defined in this scenario.</span></span> <span data-ttu-id="bef5b-129">Только те параметры, которые относятся к маршрутизации на основе расположения, включены в таблицу для целей иллюстрации.</span><span class="sxs-lookup"><span data-stu-id="bef5b-129">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -142,25 +142,25 @@ ms.locfileid: "42154771"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="30c38-130">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="30c38-130">Site 1 (Delhi)</span></span></th>
-<th><span data-ttu-id="30c38-131">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="30c38-131">Site 2 (Hyderabad)</span></span></th>
+<th><span data-ttu-id="bef5b-130">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="bef5b-130">Site 1 (Delhi)</span></span></th>
+<th><span data-ttu-id="bef5b-131">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="bef5b-131">Site 2 (Hyderabad)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="30c38-132">Идентификатор подсети</span><span class="sxs-lookup"><span data-stu-id="30c38-132">Subnet ID</span></span></p></td>
-<td><p><span data-ttu-id="30c38-133">192.168.0.0</span><span class="sxs-lookup"><span data-stu-id="30c38-133">192.168.0.0</span></span></p></td>
-<td><p><span data-ttu-id="30c38-134">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="30c38-134">192.168.1.0</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-132">Идентификатор подсети</span><span class="sxs-lookup"><span data-stu-id="bef5b-132">Subnet ID</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-133">192.168.0.0</span><span class="sxs-lookup"><span data-stu-id="bef5b-133">192.168.0.0</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-134">192.168.1.0</span><span class="sxs-lookup"><span data-stu-id="bef5b-134">192.168.1.0</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="30c38-135">Маска</span><span class="sxs-lookup"><span data-stu-id="30c38-135">Mask</span></span></p></td>
-<td><p><span data-ttu-id="30c38-136">открыт</span><span class="sxs-lookup"><span data-stu-id="30c38-136">24</span></span></p></td>
-<td><p><span data-ttu-id="30c38-137">открыт</span><span class="sxs-lookup"><span data-stu-id="30c38-137">24</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-135">Маска</span><span class="sxs-lookup"><span data-stu-id="bef5b-135">Mask</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-136">открыт</span><span class="sxs-lookup"><span data-stu-id="bef5b-136">24</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-137">открыт</span><span class="sxs-lookup"><span data-stu-id="bef5b-137">24</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="30c38-138">Идентификатор сайта</span><span class="sxs-lookup"><span data-stu-id="30c38-138">Site ID</span></span></p></td>
-<td><p><span data-ttu-id="30c38-139">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="30c38-139">Site 1 (Delhi)</span></span></p></td>
-<td><p><span data-ttu-id="30c38-140">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="30c38-140">Site 2 (Hyderabad)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-138">Идентификатор сайта</span><span class="sxs-lookup"><span data-stu-id="bef5b-138">Site ID</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-139">Сайт 1 (Нью Дели)</span><span class="sxs-lookup"><span data-stu-id="bef5b-139">Site 1 (Delhi)</span></span></p></td>
+<td><p><span data-ttu-id="bef5b-140">Сайт 2 (Хидерабад)</span><span class="sxs-lookup"><span data-stu-id="bef5b-140">Site 2 (Hyderabad)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -175,10 +175,10 @@ ms.locfileid: "42154771"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="30c38-141">См. также</span><span class="sxs-lookup"><span data-stu-id="30c38-141">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bef5b-141">См. также</span><span class="sxs-lookup"><span data-stu-id="bef5b-141">See Also</span></span>
 
 
-[<span data-ttu-id="30c38-142">Настройка маршрутизации на основе расположения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30c38-142">Configuring Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-configuring-location-based-routing.md)  
+[<span data-ttu-id="bef5b-142">Настройка маршрутизации на основе расположения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bef5b-142">Configuring Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

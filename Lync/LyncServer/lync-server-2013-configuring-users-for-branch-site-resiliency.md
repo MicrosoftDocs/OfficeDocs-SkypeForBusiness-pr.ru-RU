@@ -12,20 +12,20 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f62bedc76c98742c5e2e3fc8b4feb8c309da50f2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 36ddc8629d1d3ed303e45f6fe864e9d54b323674
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154161"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195672"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a><span data-ttu-id="68b49-102">Настройка пользователей для обеспечения устойчивости сайта филиала в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b49-102">Configuring users for branch site resiliency in Lync Server 2013</span></span>
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a><span data-ttu-id="0619b-102">Настройка пользователей для обеспечения устойчивости сайта филиала в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0619b-102">Configuring users for branch site resiliency in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42154161"
 
 <span> </span>
 
-<span data-ttu-id="68b49-103">_**Последнее изменение темы:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="68b49-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="0619b-103">_**Последнее изменение темы:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="0619b-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="68b49-104">После успешного выполнения задач по [развертыванию устройства или сервера для обеспечения связи в филиалах с помощью задачи Lync Server 2013-Branch site](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)выполните следующие действия, чтобы разрешить пользователям использовать корпоративную голосовую связь, назначьте им политику голосовой почты и параметры голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="68b49-104">After successfully completing the tasks in [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md), perform the following procedures to enable users for Enterprise Voice, assign them a voice policy and voice mail settings.</span></span> <span data-ttu-id="68b49-105">Затем в [домашней системе для устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)вы будете домашние пользователи на устройстве для обеспечения связи в филиалах или на сервере.</span><span class="sxs-lookup"><span data-stu-id="68b49-105">Then in [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md), you will home these users on the Survivable Branch Appliance or Server.</span></span>
+<span data-ttu-id="0619b-104">После успешного выполнения задач по [развертыванию устройства или сервера для обеспечения связи в филиалах с помощью задачи Lync Server 2013-Branch site](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)выполните следующие действия, чтобы разрешить пользователям использовать корпоративную голосовую связь, назначьте им политику голосовой почты и параметры голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="0619b-104">After successfully completing the tasks in [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md), perform the following procedures to enable users for Enterprise Voice, assign them a voice policy and voice mail settings.</span></span> <span data-ttu-id="0619b-105">Затем в [домашней системе для устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)вы будете домашние пользователи на устройстве для обеспечения связи в филиалах или на сервере.</span><span class="sxs-lookup"><span data-stu-id="0619b-105">Then in [Home users on a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md), you will home these users on the Survivable Branch Appliance or Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="68b49-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="68b49-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0619b-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="0619b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="68b49-107">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b49-107">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [<span data-ttu-id="0619b-107">Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0619b-107">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="68b49-108">Создание политики маршрутизации VoIP для пользователей филиалов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b49-108">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
+  - [<span data-ttu-id="0619b-108">Создание политики маршрутизации VoIP для пользователей филиалов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0619b-108">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 
-  - [<span data-ttu-id="68b49-109">Настройка параметров перенаправления голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b49-109">Configure voice mail rerouting settings in Lync Server 2013</span></span>](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+  - [<span data-ttu-id="0619b-109">Настройка параметров перенаправления голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0619b-109">Configure voice mail rerouting settings in Lync Server 2013</span></span>](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 

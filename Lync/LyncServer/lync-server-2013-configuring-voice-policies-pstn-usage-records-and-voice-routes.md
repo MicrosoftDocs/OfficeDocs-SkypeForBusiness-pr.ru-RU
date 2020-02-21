@@ -12,20 +12,20 @@ ms:contentKeyID: 48183573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8fbaa4d6c5855ec1c94e4eeca0b2cb5acaaa914
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fd34109b08a9436d4e2ab1fc7664d843fe9f6df5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154111"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a><span data-ttu-id="66181-102">Настройка политик голосовой связи, записей использования PSTN и маршрутов голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-102">Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-pstn-usage-records-and-voice-routes-in-lync-server-2013"></a><span data-ttu-id="40158-102">Настройка политик голосовой связи, записей использования PSTN и маршрутов голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-102">Configuring voice policies, PSTN usage records, and voice routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42154111"
 
 <span> </span>
 
-<span data-ttu-id="66181-103">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="66181-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="40158-103">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="40158-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="66181-p101">Политики голосовой связи, записи использования ТСОП и маршруты голосовых вызовов тесно связаны. Вы настраиваете политики голосовой связи, выбирая набор возможностей звонков и назначая политике набор записей использования ТСОП, указывающих, какие права разрешены для пользователей или групп, которым назначена политика голосовой связи. Маршрутам голосовых вызовов также назначаются записи использования ТСОП, служащие для сопоставления маршрутов с пользователями, которым разрешено эти маршруты использовать. Таким образом, пользователи могут выполнять только звонки, использующие маршруты, для которых имеется соответствующая запись использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="66181-p101">Voice policies, PSTN usage records, and voice routes are integrally related. You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy. Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them. That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
+<span data-ttu-id="40158-p101">Политики голосовой связи, записи использования ТСОП и маршруты голосовых вызовов тесно связаны. Вы настраиваете политики голосовой связи, выбирая набор возможностей звонков и назначая политике набор записей использования ТСОП, указывающих, какие права разрешены для пользователей или групп, которым назначена политика голосовой связи. Маршрутам голосовых вызовов также назначаются записи использования ТСОП, служащие для сопоставления маршрутов с пользователями, которым разрешено эти маршруты использовать. Таким образом, пользователи могут выполнять только звонки, использующие маршруты, для которых имеется соответствующая запись использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="40158-p101">Voice policies, PSTN usage records, and voice routes are integrally related. You configure voice policies by selecting a set of calling features and then assigning the policy a set of PSTN usage records, which specify what rights are authorized for the users or groups who are assigned the voice policy. Voice routes are also assigned PSTN usage records, which serve to match routes with the users who are authorized to use them. That is, users can only place calls that use the routes for which they have a matching PSTN usage record.</span></span>
 
-<span data-ttu-id="66181-108">Рекомендуемый рабочий процесс для нового развертывания корпоративной голосовой связи заключается в том, чтобы начать с настройки политики голосовой связи, включающей в себя подходящие записи использования ТСОП, а затем сопоставить соответствующие маршруты с каждой из записей использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="66181-108">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span>
+<span data-ttu-id="40158-108">Рекомендуемый рабочий процесс для нового развертывания корпоративной голосовой связи заключается в том, чтобы начать с настройки политики голосовой связи, включающей в себя подходящие записи использования ТСОП, а затем сопоставить соответствующие маршруты с каждой из записей использования ТСОП.</span><span class="sxs-lookup"><span data-stu-id="40158-108">The recommended workflow for a new Enterprise Voice deployment is to start by configuring a voice policy that includes the appropriate PSTN usage records, and then associate the appropriate routes to each PSTN usage record.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="66181-109">Вы также можете создать политики голосовой связи с использованием области <EM>пользователей</EM> и назначить их отдельным пользователям или группам.</span><span class="sxs-lookup"><span data-stu-id="66181-109">You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.</span></span>
+> <span data-ttu-id="40158-109">Вы также можете создать политики голосовой связи с использованием области <EM>пользователей</EM> и назначить их отдельным пользователям или группам.</span><span class="sxs-lookup"><span data-stu-id="40158-109">You can also create voice policies with <EM>user</EM> scope and assign them to individual users or groups.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="66181-110">Подробные сведения о выполнении каждой из этих задач см. процедуры, приведенные в данном разделе.</span><span class="sxs-lookup"><span data-stu-id="66181-110">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
+<span data-ttu-id="40158-110">Подробные сведения о выполнении каждой из этих задач см. процедуры, приведенные в данном разделе.</span><span class="sxs-lookup"><span data-stu-id="40158-110">For the detailed steps to perform each of these tasks, see the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="66181-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="66181-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="40158-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="40158-111">In This Section</span></span>
 
-  - [<span data-ttu-id="66181-112">Настройка политики голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-112">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
+  - [<span data-ttu-id="40158-112">Настройка политики голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-112">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)
 
-  - [<span data-ttu-id="66181-113">Просмотр записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-113">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)
+  - [<span data-ttu-id="40158-113">Просмотр записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-113">View PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-view-pstn-usage-records.md)
 
-  - [<span data-ttu-id="66181-114">Настройка маршрутов голосовой связи для исходящих вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-114">Configuring voice routes for outbound calls in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)
+  - [<span data-ttu-id="40158-114">Настройка маршрутов голосовой связи для исходящих вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-114">Configuring voice routes for outbound calls in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)
 
-  - [<span data-ttu-id="66181-115">Экспорт и импорт конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-115">Exporting and importing voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+  - [<span data-ttu-id="40158-115">Экспорт и импорт конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-115">Exporting and importing voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  - [<span data-ttu-id="66181-116">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-116">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+  - [<span data-ttu-id="40158-116">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-116">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  - [<span data-ttu-id="66181-117">Проверка маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66181-117">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)
+  - [<span data-ttu-id="40158-117">Проверка маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40158-117">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)
 
 </div>
 

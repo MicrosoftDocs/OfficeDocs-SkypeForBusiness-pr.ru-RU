@@ -12,20 +12,20 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c5976a2062969e7914c9b934cdb1d8150ed17a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d704fef4347526a7a49de6c1c13ed7eb27feed74
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134825"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a><span data-ttu-id="ffab8-102">Настройка диапазонов номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ffab8-102">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>
+# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a><span data-ttu-id="e58a8-102">Настройка диапазонов номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e58a8-102">Configure Group Call Pickup number ranges in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42134825"
 
 <span> </span>
 
-<span data-ttu-id="ffab8-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="ffab8-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="e58a8-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="e58a8-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="ffab8-104">Группа ответа на звонки основана на приложении парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="ffab8-104">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="ffab8-105">При развертывании группового ответа на звонки вы настраиваете таблицу орбит парковки вызовов с помощью диапазонов номеров телефонов, которые определены как номера групп ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="ffab8-105">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="ffab8-106">Эти номера групп — это номера, которые пользователи настроили для получения вызовов, которые вызывают звонок другому пользователю.</span><span class="sxs-lookup"><span data-stu-id="ffab8-106">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
+<span data-ttu-id="e58a8-104">Группа ответа на звонки основана на приложении парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="e58a8-104">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="e58a8-105">При развертывании группового ответа на звонки вы настраиваете таблицу орбит парковки вызовов с помощью диапазонов номеров телефонов, которые определены как номера групп ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="e58a8-105">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="e58a8-106">Эти номера групп — это номера, которые пользователи настроили для получения вызовов, которые вызывают звонок другому пользователю.</span><span class="sxs-lookup"><span data-stu-id="e58a8-106">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
 
-<span data-ttu-id="ffab8-107">Как и номера орбит для парковки вызовов, Номера групп для ответа на звонки должны быть виртуальными расширениями, которым не назначены пользователи или телефоны.</span><span class="sxs-lookup"><span data-stu-id="ffab8-107">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="ffab8-108">Каждый пул переднего плана, в котором развернута Групповая отправка звонков, может иметь один или несколько диапазонов номеров групп ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="ffab8-108">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="ffab8-109">Диапазоны номеров групп должны быть глобально уникальными в рамках развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ffab8-109">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="e58a8-107">Как и номера орбит для парковки вызовов, Номера групп для ответа на звонки должны быть виртуальными расширениями, которым не назначены пользователи или телефоны.</span><span class="sxs-lookup"><span data-stu-id="e58a8-107">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="e58a8-108">Каждый пул переднего плана, в котором развернута Групповая отправка звонков, может иметь один или несколько диапазонов номеров групп ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="e58a8-108">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="e58a8-109">Диапазоны номеров групп должны быть глобально уникальными в рамках развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e58a8-109">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ffab8-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="ffab8-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e58a8-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="e58a8-110">In This Section</span></span>
 
-  - [<span data-ttu-id="ffab8-111">Создание или изменение диапазона номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ffab8-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+  - [<span data-ttu-id="e58a8-111">Создание или изменение диапазона номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e58a8-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
-  - [<span data-ttu-id="ffab8-112">Удаление диапазона номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ffab8-112">Delete a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-delete-a-group-call-pickup-number-range.md)
+  - [<span data-ttu-id="e58a8-112">Удаление диапазона номеров для группового ответа на звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e58a8-112">Delete a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-delete-a-group-call-pickup-number-range.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6417bb647faec4a493c124e776d519e136b0f77
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8ce04b0922e0ff2510afeefe75ecb1ce71164d02
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147562"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013"></a><span data-ttu-id="2c220-102">Развертывание Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-102">Deploying Lync Server 2013</span></span>
+# <a name="deploying-lync-server-2013"></a><span data-ttu-id="114b8-102">Развертывание Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-102">Deploying Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42147562"
 
 <span> </span>
 
-<span data-ttu-id="2c220-103">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="2c220-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="114b8-103">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="114b8-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="2c220-104">Процесс развертывания Lync Server 2013 определяется топологией Lync Server и устанавливаемыми компонентами, включая сведения о том, требуется ли развернуть пул переднего плана или сервер Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="2c220-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="2c220-105">Подразделы этого раздела помогут вам определить необходимые компоненты и выполнить процедуру развертывания.</span><span class="sxs-lookup"><span data-stu-id="2c220-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
+<span data-ttu-id="114b8-104">Процесс развертывания Lync Server 2013 определяется топологией Lync Server и устанавливаемыми компонентами, включая сведения о том, требуется ли развернуть пул переднего плана или сервер Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="114b8-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="114b8-105">Подразделы этого раздела помогут вам определить необходимые компоненты и выполнить процедуру развертывания.</span><span class="sxs-lookup"><span data-stu-id="114b8-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2c220-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="2c220-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="114b8-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="114b8-106">In This Section</span></span>
 
-  - [<span data-ttu-id="2c220-107">Обзор развертывания для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
+  - [<span data-ttu-id="114b8-107">Обзор развертывания для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
 
-  - [<span data-ttu-id="2c220-108">Требования к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
+  - [<span data-ttu-id="114b8-108">Требования к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
 
-  - [<span data-ttu-id="2c220-109">Подготовка инфраструктуры и систем для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+  - [<span data-ttu-id="114b8-109">Подготовка инфраструктуры и систем для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
 
-  - [<span data-ttu-id="2c220-110">Определение и Настройка топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
+  - [<span data-ttu-id="114b8-110">Определение и Настройка топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [<span data-ttu-id="2c220-111">Завершение и реализация топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [<span data-ttu-id="114b8-111">Завершение и реализация топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [<span data-ttu-id="2c220-112">Настройка серверов переднего плана и интерфейсных пулов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [<span data-ttu-id="114b8-112">Настройка серверов переднего плана и интерфейсных пулов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
-  - [<span data-ttu-id="2c220-113">Развертывание Lync Server 2013 Standard Edition в существующем сервере Lync Server 2013 Enterprise</span><span class="sxs-lookup"><span data-stu-id="2c220-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="114b8-113">Развертывание Lync Server 2013 Standard Edition в существующем сервере Lync Server 2013 Enterprise</span><span class="sxs-lookup"><span data-stu-id="114b8-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [<span data-ttu-id="2c220-114">Добавление ролей сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
+  - [<span data-ttu-id="114b8-114">Добавление ролей сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
 
-  - [<span data-ttu-id="2c220-115">Настройка проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c220-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [<span data-ttu-id="114b8-115">Настройка проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="114b8-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
 
 </div>
 

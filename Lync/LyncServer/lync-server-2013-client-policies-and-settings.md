@@ -12,20 +12,20 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a053f35eb1e183eca5f055439ae9cd1c74f848c8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 82ce84f2b3f5f27e25aceccbf7452f7707b8eb52
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134055"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="7088c-102">Политики и параметры клиента в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7088c-102">Client policies and settings in Lync Server 2013</span></span>
+# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="e2d14-102">Политики и параметры клиента в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2d14-102">Client policies and settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42134055"
 
 <span> </span>
 
-<span data-ttu-id="7088c-103">_**Последнее изменение темы:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="7088c-103">_**Topic Last Modified:** 2012-06-18_</span></span>
+<span data-ttu-id="e2d14-103">_**Последнее изменение темы:** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="e2d14-103">_**Topic Last Modified:** 2012-06-18_</span></span>
 
-<span data-ttu-id="7088c-104">В этом разделе представлен обзор параметров и политик, связанных с клиентами, которые можно настроить в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7088c-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="7088c-105">Lync Server 2013 содержит следующие инструменты для управления и настройки клиентов:</span><span class="sxs-lookup"><span data-stu-id="7088c-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
+<span data-ttu-id="e2d14-104">В этом разделе представлен обзор параметров и политик, связанных с клиентами, которые можно настроить в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2d14-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="e2d14-105">Lync Server 2013 содержит следующие инструменты для управления и настройки клиентов:</span><span class="sxs-lookup"><span data-stu-id="e2d14-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
 
-  - <span data-ttu-id="7088c-106">**Lync Server 2013 панель**   управления — графический пользовательский интерфейс на основе веб-интерфейса для управления и настройки серверов, пользователей, клиентов и устройств.</span><span class="sxs-lookup"><span data-stu-id="7088c-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
+  - <span data-ttu-id="e2d14-106">**Lync Server 2013 панель**   управления — графический пользовательский интерфейс на основе веб-интерфейса для управления и настройки серверов, пользователей, клиентов и устройств.</span><span class="sxs-lookup"><span data-stu-id="e2d14-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
 
-  - <span data-ttu-id="7088c-107">**Командная консоль**   Lync Server — интерфейс управления с широким набором командлетов интерфейса командной строки Windows PowerShell и несколькими предварительно определенными скриптами.</span><span class="sxs-lookup"><span data-stu-id="7088c-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
+  - <span data-ttu-id="e2d14-107">**Командная консоль**   Lync Server — интерфейс управления с широким набором командлетов интерфейса командной строки Windows PowerShell и несколькими предварительно определенными скриптами.</span><span class="sxs-lookup"><span data-stu-id="e2d14-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
 
-  - <span data-ttu-id="7088c-108">**Lync 2013 Group Policy**     набор политик, которые можно настроить для клиентов с помощью административного шаблона групповой политики Office.</span><span class="sxs-lookup"><span data-stu-id="7088c-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="7088c-109">Прежде чем развертывать клиенты Lync 2013, необходимо настроить некоторые политики начальной загрузки клиента.</span><span class="sxs-lookup"><span data-stu-id="7088c-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="7088c-110">Другие необязательные параметры из Lync 2010 продолжают учитываться в Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="7088c-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
+  - <span data-ttu-id="e2d14-108">**Lync 2013 Group Policy**     набор политик, которые можно настроить для клиентов с помощью административного шаблона групповой политики Office.</span><span class="sxs-lookup"><span data-stu-id="e2d14-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="e2d14-109">Прежде чем развертывать клиенты Lync 2013, необходимо настроить некоторые политики начальной загрузки клиента.</span><span class="sxs-lookup"><span data-stu-id="e2d14-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="e2d14-110">Другие необязательные параметры из Lync 2010 продолжают учитываться в Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e2d14-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
 
-<span data-ttu-id="7088c-111">В этом разделе описываются изменения параметров, связанных с клиентами, в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7088c-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
+<span data-ttu-id="e2d14-111">В этом разделе описываются изменения параметров, связанных с клиентами, в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2d14-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7088c-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="7088c-112">In this Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e2d14-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="e2d14-112">In this Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="7088c-113">Новые и измененные параметры для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7088c-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+    [<span data-ttu-id="e2d14-113">Новые и измененные параметры для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2d14-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="7088c-114">Параметры групповой политики для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7088c-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
+    [<span data-ttu-id="e2d14-114">Параметры групповой политики для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2d14-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
 
 </div>
 
