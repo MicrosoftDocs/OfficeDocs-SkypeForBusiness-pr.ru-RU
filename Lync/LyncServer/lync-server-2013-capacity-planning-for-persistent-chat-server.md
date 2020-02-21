@@ -12,20 +12,20 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135566"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="1938c-102">Планирование емкости для сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1938c-102">Capacity planning for Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="c7be0-102">Планирование емкости для сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7be0-102">Capacity planning for Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "42135566"
 
 <span> </span>
 
-<span data-ttu-id="1938c-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="1938c-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="c7be0-103">_**Последнее изменение темы:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="c7be0-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="1938c-104">Сервер сохраняемого чата может выполнять многопользовательский чат в режиме реального времени, который может оставаться недоступным для последующего извлечения и поиска.</span><span class="sxs-lookup"><span data-stu-id="1938c-104">Persistent Chat Server can perform multi-user real-time chat that can persist for future retrieval and search.</span></span> <span data-ttu-id="1938c-105">В отличие от службы обмена мгновенными сообщениями, сохраненных в почтовом ящике пользователя при настройке журнала бесед, сеанс сервера сохраняемого чата остается открытым дольше, а его содержимое сохраняется на сервере, а также сообщения, файлы, URL-адреса и другие данные, входящие в состав Текущая беседа.</span><span class="sxs-lookup"><span data-stu-id="1938c-105">Unlike group instant messaging (IM) that is saved in a user’s mailbox if conversation history is configured, a Persistent Chat Server session stays open longer, and the content is saved on a server, along with the messages, files, URLs, and other data that are part of an ongoing conversation.</span></span>
+<span data-ttu-id="c7be0-104">Сервер сохраняемого чата может выполнять многопользовательский чат в режиме реального времени, который может оставаться недоступным для последующего извлечения и поиска.</span><span class="sxs-lookup"><span data-stu-id="c7be0-104">Persistent Chat Server can perform multi-user real-time chat that can persist for future retrieval and search.</span></span> <span data-ttu-id="c7be0-105">В отличие от службы обмена мгновенными сообщениями, сохраненных в почтовом ящике пользователя при настройке журнала бесед, сеанс сервера сохраняемого чата остается открытым дольше, а его содержимое сохраняется на сервере, а также сообщения, файлы, URL-адреса и другие данные, входящие в состав Текущая беседа.</span><span class="sxs-lookup"><span data-stu-id="c7be0-105">Unlike group instant messaging (IM) that is saved in a user’s mailbox if conversation history is configured, a Persistent Chat Server session stays open longer, and the content is saved on a server, along with the messages, files, URLs, and other data that are part of an ongoing conversation.</span></span>
 
-<span data-ttu-id="1938c-106">Планирование мощности является важной частью подготовки к развертыванию сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-106">Capacity planning is an important part of preparing to deploy Persistent Chat Server.</span></span> <span data-ttu-id="1938c-107">В этом разделе представлены сведения о поддерживаемых топологий сервера сохраняемого чата и таблицах планирования емкости, которые можно использовать для определения наилучшей конфигурации развертывания.</span><span class="sxs-lookup"><span data-stu-id="1938c-107">This topic provides details about supported Persistent Chat Server topologies and capacity planning tables that you can use to determine the best configuration for your deployment.</span></span> <span data-ttu-id="1938c-108">Здесь также описывается, как лучше управлять развертываниями сервера сохраняемого чата, требующими большей емкости в пиковое время.</span><span class="sxs-lookup"><span data-stu-id="1938c-108">It also describes how to best manage Persistent Chat Server deployments that require greater capacity at peak times.</span></span>
+<span data-ttu-id="c7be0-106">Планирование мощности является важной частью подготовки к развертыванию сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-106">Capacity planning is an important part of preparing to deploy Persistent Chat Server.</span></span> <span data-ttu-id="c7be0-107">В этом разделе представлены сведения о поддерживаемых топологий сервера сохраняемого чата и таблицах планирования емкости, которые можно использовать для определения наилучшей конфигурации развертывания.</span><span class="sxs-lookup"><span data-stu-id="c7be0-107">This topic provides details about supported Persistent Chat Server topologies and capacity planning tables that you can use to determine the best configuration for your deployment.</span></span> <span data-ttu-id="c7be0-108">Здесь также описывается, как лучше управлять развертываниями сервера сохраняемого чата, требующими большей емкости в пиковое время.</span><span class="sxs-lookup"><span data-stu-id="c7be0-108">It also describes how to best manage Persistent Chat Server deployments that require greater capacity at peak times.</span></span>
 
-<span data-ttu-id="1938c-109">Чтобы скачать сервер сохраняемого чата, обратитесь к разделу "сервер сохраняемого чата Microsoft [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Lync Server 13" по адресу.</span><span class="sxs-lookup"><span data-stu-id="1938c-109">To download Persistent Chat Server, see "Microsoft Lync Server 13 Persistent Chat Server" at [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539).</span></span>
+<span data-ttu-id="c7be0-109">Чтобы скачать сервер сохраняемого чата, обратитесь к разделу "сервер сохраняемого чата Microsoft [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)Lync Server 13" по адресу.</span><span class="sxs-lookup"><span data-stu-id="c7be0-109">To download Persistent Chat Server, see "Microsoft Lync Server 13 Persistent Chat Server" at [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539).</span></span>
 
-<span data-ttu-id="1938c-110">Сведения об установке сервера сохраняемого чата приведены в статье Установка сервера сохраняемого [чата в Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) и [Настройка сервера сохраняемого чата в Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="1938c-110">For details about installing Persistent Chat Server, see [Installing Persistent Chat Server in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) and [Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="c7be0-110">Сведения об установке сервера сохраняемого чата приведены в статье Установка сервера сохраняемого [чата в Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) и [Настройка сервера сохраняемого чата в Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="c7be0-110">For details about installing Persistent Chat Server, see [Installing Persistent Chat Server in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) and [Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="1938c-111">Средства поддержки, такие как средство планирования Lync Server, предоставят дополнительную помощь в планировании мощности.</span><span class="sxs-lookup"><span data-stu-id="1938c-111">Support tools, such as Lync Server Planning Tool, can further assist you with capacity planning.</span></span> <span data-ttu-id="1938c-112">Подробнее о средстве планирования можно узнать в статье [Начало процесса планирования для Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="1938c-112">For details about the Planning Tool, see [Beginning the planning process for Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in the Planning documentation.</span></span>
+<span data-ttu-id="c7be0-111">Средства поддержки, такие как средство планирования Lync Server, предоставят дополнительную помощь в планировании мощности.</span><span class="sxs-lookup"><span data-stu-id="c7be0-111">Support tools, such as Lync Server Planning Tool, can further assist you with capacity planning.</span></span> <span data-ttu-id="c7be0-112">Подробнее о средстве планирования можно узнать в статье [Начало процесса планирования для Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="c7be0-112">For details about the Planning Tool, see [Beginning the planning process for Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="persistent-chat-server-supported-topologies"></a><span data-ttu-id="1938c-113">Поддерживаемые топологии сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-113">Persistent Chat Server Supported Topologies</span></span>
+## <a name="persistent-chat-server-supported-topologies"></a><span data-ttu-id="c7be0-113">Поддерживаемые топологии сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-113">Persistent Chat Server Supported Topologies</span></span>
 
-<span data-ttu-id="1938c-114">Сервер сохраняемого чата можно развернуть в пулах с одним или несколькими серверами, а также с топологией с одним или несколькими пулами.</span><span class="sxs-lookup"><span data-stu-id="1938c-114">You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology.</span></span>
+<span data-ttu-id="c7be0-114">Сервер сохраняемого чата можно развернуть в пулах с одним или несколькими серверами, а также с топологией с одним или несколькими пулами.</span><span class="sxs-lookup"><span data-stu-id="c7be0-114">You can deploy Persistent Chat Server in single-server or multiple-server pools, and with single-pool or multiple-pool topology.</span></span>
 
-<span data-ttu-id="1938c-115">Теперь мы также поддерживаем сервер сохраняемого чата на сервере Standard Edition для новых развертываний Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1938c-115">We now also support Persistent Chat Server on Standard Edition server for new Lync Server 2013 deployments.</span></span> <span data-ttu-id="1938c-116">Однако будут затронуты производительность и масштаб, и поскольку для этого нового развертывания отсутствует вариант высокого уровня доступности, мы предполагаем, что вы будете использовать это в целях эксперимента или оценки.</span><span class="sxs-lookup"><span data-stu-id="1938c-116">However, performance and scale will be affected, and because there is no high availability option for this new deployment, we expect you to use this primarily for the purposes of proof of concept, evaluation, and so on.</span></span>
+<span data-ttu-id="c7be0-115">Теперь мы также поддерживаем сервер сохраняемого чата на сервере Standard Edition для новых развертываний Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c7be0-115">We now also support Persistent Chat Server on Standard Edition server for new Lync Server 2013 deployments.</span></span> <span data-ttu-id="c7be0-116">Однако будут затронуты производительность и масштаб, и поскольку для этого нового развертывания отсутствует вариант высокого уровня доступности, мы предполагаем, что вы будете использовать это в целях эксперимента или оценки.</span><span class="sxs-lookup"><span data-stu-id="c7be0-116">However, performance and scale will be affected, and because there is no high availability option for this new deployment, we expect you to use this primarily for the purposes of proof of concept, evaluation, and so on.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1938c-117">Для получения дополнительных сведений о обеих топологиях ознакомьтесь с разделом <A href="lync-server-2013-planning-for-persistent-chat-server.md">Планирование сервера сохраняемого чата в Lync server 2013</A> в этом наборе документации и <A href="lync-server-2013-deploying-persistent-chat-server.md">развертывании сервера сохраняемого чата в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="1938c-117">For additional details about both topologies, see <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</A> in this documentation set and <A href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="c7be0-117">Для получения дополнительных сведений о обеих топологиях ознакомьтесь с разделом <A href="lync-server-2013-planning-for-persistent-chat-server.md">Планирование сервера сохраняемого чата в Lync server 2013</A> в этом наборе документации и <A href="lync-server-2013-deploying-persistent-chat-server.md">развертывании сервера сохраняемого чата в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="c7be0-117">For additional details about both topologies, see <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</A> in this documentation set and <A href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -67,58 +67,58 @@ ms.locfileid: "42135566"
 
 <div>
 
-## <a name="single-server-topology"></a><span data-ttu-id="1938c-118">Топология с одним сервером</span><span class="sxs-lookup"><span data-stu-id="1938c-118">Single-Server Topology</span></span>
+## <a name="single-server-topology"></a><span data-ttu-id="c7be0-118">Топология с одним сервером</span><span class="sxs-lookup"><span data-stu-id="c7be0-118">Single-Server Topology</span></span>
 
-<span data-ttu-id="1938c-119">Минимальной конфигурацией и простейшим развертыванием для сервера сохраняемого чата является единая топология сервера сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-119">The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology.</span></span> <span data-ttu-id="1938c-120">Для этого развертывания требуется один сервер, на котором выполняется сервер сохраняемого чата (при необходимости выполняется служба соответствия, если включено соответствие), сервер, на котором размещается база данных SQL Server, и если требуется соответствие требованиям, база данных SQL Server для хранения данные о соответствии требованиям.</span><span class="sxs-lookup"><span data-stu-id="1938c-120">This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.</span></span>
+<span data-ttu-id="c7be0-119">Минимальной конфигурацией и простейшим развертыванием для сервера сохраняемого чата является единая топология сервера сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-119">The minimum configuration and simplest deployment for Persistent Chat Server is a single Persistent Chat Server Front End Server topology.</span></span> <span data-ttu-id="c7be0-120">Для этого развертывания требуется один сервер, на котором выполняется сервер сохраняемого чата (при необходимости выполняется служба соответствия, если включено соответствие), сервер, на котором размещается база данных SQL Server, и если требуется соответствие требованиям, база данных SQL Server для хранения данные о соответствии требованиям.</span><span class="sxs-lookup"><span data-stu-id="c7be0-120">This deployment requires a single server that runs Persistent Chat Server (which optionally runs the Compliance service, if compliance is enabled), a server that hosts both the SQL Server database, and if compliance is required, the SQL Server database to store the compliance data.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1938c-121">Невозможно добавить дополнительные серверы в пул серверов сохраняемого чата, который запускается в построителе топологий как развертывание с одним сервером.</span><span class="sxs-lookup"><span data-stu-id="1938c-121">You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder.</span></span> <span data-ttu-id="1938c-122">Рекомендуется использовать топологию пула с несколькими серверами, даже если вы используете один сервер.</span><span class="sxs-lookup"><span data-stu-id="1938c-122">We recommend using the multiple-server pool topology, even if you’re using a single server.</span></span> <span data-ttu-id="1938c-123">Это значит, что при необходимости вы сможете добавить дополнительные серверы позже.</span><span class="sxs-lookup"><span data-stu-id="1938c-123">This is so that you’ll be able to add more servers later, if it's necessary.</span></span> 
+> <span data-ttu-id="c7be0-121">Невозможно добавить дополнительные серверы в пул серверов сохраняемого чата, который запускается в построителе топологий как развертывание с одним сервером.</span><span class="sxs-lookup"><span data-stu-id="c7be0-121">You cannot add additional servers to a Persistent Chat Server pool that is started as a single-server deployment in Topology Builder.</span></span> <span data-ttu-id="c7be0-122">Рекомендуется использовать топологию пула с несколькими серверами, даже если вы используете один сервер.</span><span class="sxs-lookup"><span data-stu-id="c7be0-122">We recommend using the multiple-server pool topology, even if you’re using a single server.</span></span> <span data-ttu-id="c7be0-123">Это значит, что при необходимости вы сможете добавить дополнительные серверы позже.</span><span class="sxs-lookup"><span data-stu-id="c7be0-123">This is so that you’ll be able to add more servers later, if it's necessary.</span></span> 
 
 
 </div>
 
-<span data-ttu-id="1938c-124">На следующем рисунке показаны все обязательные и необязательные компоненты топологии для одного сервера переднего плана сервера сохраняемого чата с соблюдением соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="1938c-124">The following figure shows all required and optional components of a topology for a single Persistent Chat Server Front End Server with compliance.</span></span>
+<span data-ttu-id="c7be0-124">На следующем рисунке показаны все обязательные и необязательные компоненты топологии для одного сервера переднего плана сервера сохраняемого чата с соблюдением соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c7be0-124">The following figure shows all required and optional components of a topology for a single Persistent Chat Server Front End Server with compliance.</span></span>
 
-<span data-ttu-id="1938c-125">**Единственный сервер сохраняемого чата**</span><span class="sxs-lookup"><span data-stu-id="1938c-125">**Single Persistent Chat Server**</span></span>
+<span data-ttu-id="c7be0-125">**Единственный сервер сохраняемого чата**</span><span class="sxs-lookup"><span data-stu-id="c7be0-125">**Single Persistent Chat Server**</span></span>
 
-<span data-ttu-id="1938c-126">![Топология с одним сервером со службой соответствия требованиям](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Топология с одним сервером со службой соответствия требованиям")</span><span class="sxs-lookup"><span data-stu-id="1938c-126">![Single server topology with Compliance service](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Single server topology with Compliance service")</span></span>
-
-</div>
-
-<div>
-
-## <a name="multiple-server-topology"></a><span data-ttu-id="1938c-127">Топология с несколькими серверами</span><span class="sxs-lookup"><span data-stu-id="1938c-127">Multiple-Server Topology</span></span>
-
-<span data-ttu-id="1938c-128">Чтобы повысить производительность и надежность, можно развернуть топологию с несколькими серверами, как описано в статье [Планирование сервера сохраняемого чата в Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="1938c-128">To provide greater capacity and reliability, you can deploy a multiple-server topology, as described in [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span></span> <span data-ttu-id="1938c-129">Многосерверная топология может включать до четырех активных компьютеров, на которых работает сервер сохраняемого чата (для конфигураций с высокой доступностью и аварийным восстановлением можно указать до восьми, но только четыре из них могут быть активными и оставшиеся четыре в ждущем режиме).</span><span class="sxs-lookup"><span data-stu-id="1938c-129">The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby).</span></span> <span data-ttu-id="1938c-130">Каждый сервер может поддерживать до 20 000 одновременно работающих пользователей, общее 80 000 количество одновременных пользователей, подключенных к пулу серверов сохраняемого чата с 4 серверами.</span><span class="sxs-lookup"><span data-stu-id="1938c-130">Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers.</span></span> <span data-ttu-id="1938c-131">Многосерверная топология такая же, как топология с одним сервером, за исключением того, что несколько серверов размещаются в сервере сохраняемого чата и могут масштабироваться на более высоком уровне.</span><span class="sxs-lookup"><span data-stu-id="1938c-131">A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher.</span></span> <span data-ttu-id="1938c-132">Несколько компьютеров, на которых работает сервер сохраняемого чата, должны находиться в том же домене доменных служб Active Directory, что и Lync Server и служба соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="1938c-132">Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Lync Server and the Compliance service.</span></span>
-
-<span data-ttu-id="1938c-133">На следующем рисунке показаны все компоненты топологии с несколькими серверами с несколькими компьютерами, на которых работает сервер сохраняемого чата, дополнительная служба соответствия требованиям и отдельная база данных соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="1938c-133">The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.</span></span>
-
-<span data-ttu-id="1938c-134">**Несколько серверов сохраняемого чата**</span><span class="sxs-lookup"><span data-stu-id="1938c-134">**Multiple Persistent Chat Servers**</span></span>
-
-<span data-ttu-id="1938c-135">![Топология с несколькими серверами](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Топология с несколькими серверами")</span><span class="sxs-lookup"><span data-stu-id="1938c-135">![Multiple server topology](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Multiple server topology")</span></span>
-
-<span data-ttu-id="1938c-136">В развертывании сервера сохраняемого чата с четырьмя серверами, где 80 000 пользователи могут одновременно войти в сохраняемый чат и использовать сохраняемый чат, нагрузка распределяется равномерно по 20 000 пользователей на сервер.</span><span class="sxs-lookup"><span data-stu-id="1938c-136">In a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to and using Persistent Chat, the load is distributed evenly at 20,000 users per server.</span></span> <span data-ttu-id="1938c-137">Если один сервер становится недоступен, то пользователи, подключенные к этому серверу, будут потеряют доступ к серверу сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-137">If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server.</span></span> <span data-ttu-id="1938c-138">Эти отключенные пользователи будут автоматически перемещены на оставшиеся серверы на время восстановления недоступного сервера.</span><span class="sxs-lookup"><span data-stu-id="1938c-138">The disconnected users will be automatically transferred to the remaining servers until the unavailable server is restored.</span></span> <span data-ttu-id="1938c-139">В зависимости от объема трафика сохраняемого чата в сети эта передача может занять несколько минут или более.</span><span class="sxs-lookup"><span data-stu-id="1938c-139">Depending on the amount of Persistent Chat traffic on the network, this transfer can take a few minutes or longer.</span></span> <span data-ttu-id="1938c-140">Поскольку на каждом из оставшихся серверов может оказаться до 30 000 пользователей, рекомендуется восстановить недоступный сервер как можно быстрее, чтобы избежать проблем с производительностью.</span><span class="sxs-lookup"><span data-stu-id="1938c-140">Because each of the remaining servers might be hosting as many as 30,000 users, we recommend that you restore the unavailable server as quickly as possible to avoid performance issues.</span></span> <span data-ttu-id="1938c-141">В противном случае можно сделать еще один сервер сохраняемого чата с помощью построителя топологий или командлета Windows PowerShell **Set – CsPersistentChatActiveServer**.</span><span class="sxs-lookup"><span data-stu-id="1938c-141">Otherwise, you can make another Persistent Chat Server available by using the Topology Builder or the Windows PowerShell cmdlet, **set-CsPersistentChatActiveServer**.</span></span>
-
-</div>
+<span data-ttu-id="c7be0-126">![Топология с одним сервером со службой соответствия требованиям](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Топология с одним сервером со службой соответствия требованиям")</span><span class="sxs-lookup"><span data-stu-id="c7be0-126">![Single server topology with Compliance service](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Single server topology with Compliance service")</span></span>
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-server-capacity-planning"></a><span data-ttu-id="1938c-142">Планирование емкости сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-142">Persistent Chat Server Capacity Planning</span></span>
+## <a name="multiple-server-topology"></a><span data-ttu-id="c7be0-127">Топология с несколькими серверами</span><span class="sxs-lookup"><span data-stu-id="c7be0-127">Multiple-Server Topology</span></span>
 
-<span data-ttu-id="1938c-143">Приведенные ниже таблицы помогут при планировании емкости для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-143">The following tables can help you with capacity planning for Persistent Chat Server.</span></span> <span data-ttu-id="1938c-144">Они моделируют влияние изменения различных параметров сервера сохраняемого чата на возможности мощности.</span><span class="sxs-lookup"><span data-stu-id="1938c-144">They model how changing various Persistent Chat Server settings affect capacity capabilities.</span></span>
+<span data-ttu-id="c7be0-128">Чтобы повысить производительность и надежность, можно развернуть топологию с несколькими серверами, как описано в статье [Планирование сервера сохраняемого чата в Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="c7be0-128">To provide greater capacity and reliability, you can deploy a multiple-server topology, as described in [Planning for Persistent Chat Server in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).</span></span> <span data-ttu-id="c7be0-129">Многосерверная топология может включать до четырех активных компьютеров, на которых работает сервер сохраняемого чата (для конфигураций с высокой доступностью и аварийным восстановлением можно указать до восьми, но только четыре из них могут быть активными и оставшиеся четыре в ждущем режиме).</span><span class="sxs-lookup"><span data-stu-id="c7be0-129">The multiple-server topology can include as many as four active computers running Persistent Chat Server (high availability and disaster recovery configurations will allow up to eight, but only four can be active and the remaining four on standby).</span></span> <span data-ttu-id="c7be0-130">Каждый сервер может поддерживать до 20 000 одновременно работающих пользователей, общее 80 000 количество одновременных пользователей, подключенных к пулу серверов сохраняемого чата с 4 серверами.</span><span class="sxs-lookup"><span data-stu-id="c7be0-130">Each server can support as many as 20,000 concurrent users, for a total of 80,000 concurrent users connected to a Persistent Chat Server pool with 4 servers.</span></span> <span data-ttu-id="c7be0-131">Многосерверная топология такая же, как топология с одним сервером, за исключением того, что несколько серверов размещаются в сервере сохраняемого чата и могут масштабироваться на более высоком уровне.</span><span class="sxs-lookup"><span data-stu-id="c7be0-131">A multiple-server topology is the same as the single-server topology except that multiple servers host Persistent Chat Server, and can scale higher.</span></span> <span data-ttu-id="c7be0-132">Несколько компьютеров, на которых работает сервер сохраняемого чата, должны находиться в том же домене доменных служб Active Directory, что и Lync Server и служба соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c7be0-132">Multiple computers running Persistent Chat Server should reside in the same Active Directory Domain Services domain as Lync Server and the Compliance service.</span></span>
+
+<span data-ttu-id="c7be0-133">На следующем рисунке показаны все компоненты топологии с несколькими серверами с несколькими компьютерами, на которых работает сервер сохраняемого чата, дополнительная служба соответствия требованиям и отдельная база данных соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c7be0-133">The following figure shows all the components of a multiple-server topology with multiple computers running Persistent Chat Server, the optional Compliance service, and a separate compliance database.</span></span>
+
+<span data-ttu-id="c7be0-134">**Несколько серверов сохраняемого чата**</span><span class="sxs-lookup"><span data-stu-id="c7be0-134">**Multiple Persistent Chat Servers**</span></span>
+
+<span data-ttu-id="c7be0-135">![Топология с несколькими серверами](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Топология с несколькими серверами")</span><span class="sxs-lookup"><span data-stu-id="c7be0-135">![Multiple server topology](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Multiple server topology")</span></span>
+
+<span data-ttu-id="c7be0-136">В развертывании сервера сохраняемого чата с четырьмя серверами, где 80 000 пользователи могут одновременно войти в сохраняемый чат и использовать сохраняемый чат, нагрузка распределяется равномерно по 20 000 пользователей на сервер.</span><span class="sxs-lookup"><span data-stu-id="c7be0-136">In a four-server Persistent Chat Server deployment, where 80,000 users can be simultaneously signed in to and using Persistent Chat, the load is distributed evenly at 20,000 users per server.</span></span> <span data-ttu-id="c7be0-137">Если один сервер становится недоступен, то пользователи, подключенные к этому серверу, будут потеряют доступ к серверу сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-137">If one server becomes unavailable, the users who are connected to that server will lose their access to Persistent Chat Server.</span></span> <span data-ttu-id="c7be0-138">Эти отключенные пользователи будут автоматически перемещены на оставшиеся серверы на время восстановления недоступного сервера.</span><span class="sxs-lookup"><span data-stu-id="c7be0-138">The disconnected users will be automatically transferred to the remaining servers until the unavailable server is restored.</span></span> <span data-ttu-id="c7be0-139">В зависимости от объема трафика сохраняемого чата в сети эта передача может занять несколько минут или более.</span><span class="sxs-lookup"><span data-stu-id="c7be0-139">Depending on the amount of Persistent Chat traffic on the network, this transfer can take a few minutes or longer.</span></span> <span data-ttu-id="c7be0-140">Поскольку на каждом из оставшихся серверов может оказаться до 30 000 пользователей, рекомендуется восстановить недоступный сервер как можно быстрее, чтобы избежать проблем с производительностью.</span><span class="sxs-lookup"><span data-stu-id="c7be0-140">Because each of the remaining servers might be hosting as many as 30,000 users, we recommend that you restore the unavailable server as quickly as possible to avoid performance issues.</span></span> <span data-ttu-id="c7be0-141">В противном случае можно сделать еще один сервер сохраняемого чата с помощью построителя топологий или командлета Windows PowerShell **Set – CsPersistentChatActiveServer**.</span><span class="sxs-lookup"><span data-stu-id="c7be0-141">Otherwise, you can make another Persistent Chat Server available by using the Topology Builder or the Windows PowerShell cmdlet, **set-CsPersistentChatActiveServer**.</span></span>
+
+</div>
+
+</div>
 
 <div>
 
-## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a><span data-ttu-id="1938c-145">Планирование максимальной емкости для сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-145">Planning Your Maximum Capacity for Persistent Chat Server</span></span>
+## <a name="persistent-chat-server-capacity-planning"></a><span data-ttu-id="c7be0-142">Планирование емкости сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-142">Persistent Chat Server Capacity Planning</span></span>
 
-<span data-ttu-id="1938c-146">Используйте следующую таблицу для определения, какое количество пользователей вы сможете поддерживать.</span><span class="sxs-lookup"><span data-stu-id="1938c-146">Use the following sample table to determine the number of users you will be able to support.</span></span>
+<span data-ttu-id="c7be0-143">Приведенные ниже таблицы помогут при планировании емкости для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-143">The following tables can help you with capacity planning for Persistent Chat Server.</span></span> <span data-ttu-id="c7be0-144">Они моделируют влияние изменения различных параметров сервера сохраняемого чата на возможности мощности.</span><span class="sxs-lookup"><span data-stu-id="c7be0-144">They model how changing various Persistent Chat Server settings affect capacity capabilities.</span></span>
 
-### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a><span data-ttu-id="1938c-147">Пример максимальной емкости пула серверов сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-147">Persistent Chat Server pool Maximum Capacity Sample</span></span>
+<div>
+
+## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a><span data-ttu-id="c7be0-145">Планирование максимальной емкости для сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-145">Planning Your Maximum Capacity for Persistent Chat Server</span></span>
+
+<span data-ttu-id="c7be0-146">Используйте следующую таблицу для определения, какое количество пользователей вы сможете поддерживать.</span><span class="sxs-lookup"><span data-stu-id="c7be0-146">Use the following sample table to determine the number of users you will be able to support.</span></span>
+
+### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a><span data-ttu-id="c7be0-147">Пример максимальной емкости пула серверов сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-147">Persistent Chat Server pool Maximum Capacity Sample</span></span>
 
 <table>
 <colgroup>
@@ -127,40 +127,40 @@ ms.locfileid: "42135566"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-148">Активные экземпляры службы сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-148">Active Persistent Chat service instances</span></span></p></td>
-<td><p><span data-ttu-id="1938c-149"><em>SP4</em></span><span class="sxs-lookup"><span data-stu-id="1938c-149"><em>4</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-148">Активные экземпляры службы сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-148">Active Persistent Chat service instances</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-149"><em>SP4</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-149"><em>4</em></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-150">Экземпляры службы сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-150">Persistent Chat service instances</span></span></p></td>
-<td><p><span data-ttu-id="1938c-151"><em>8 (4 должны быть неактивными; активным может быть не более 4)</em></span><span class="sxs-lookup"><span data-stu-id="1938c-151"><em>8 (4 must be inactive; only a maximum of 4 can be active)</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-150">Экземпляры службы сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-150">Persistent Chat service instances</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-151"><em>8 (4 должны быть неактивными; активным может быть не более 4)</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-151"><em>8 (4 must be inactive; only a maximum of 4 can be active)</em></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-152">Активных подключенных пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-152">Active users connected</span></span></p></td>
-<td><p><span data-ttu-id="1938c-153"><em>80 000</em></span><span class="sxs-lookup"><span data-stu-id="1938c-153"><em>80,000</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-152">Активных подключенных пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-152">Active users connected</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-153"><em>80 000</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-153"><em>80,000</em></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-154">Всего подготовленных пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-154">Total provisioned users</span></span></p></td>
-<td><p><span data-ttu-id="1938c-155">150 000</span><span class="sxs-lookup"><span data-stu-id="1938c-155">150,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-154">Всего подготовленных пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-154">Total provisioned users</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-155">150 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-155">150,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-156">Количество конечных точек</span><span class="sxs-lookup"><span data-stu-id="1938c-156">Number of endpoints</span></span></p></td>
-<td><p><span data-ttu-id="1938c-157">120 000</span><span class="sxs-lookup"><span data-stu-id="1938c-157">120,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-156">Количество конечных точек</span><span class="sxs-lookup"><span data-stu-id="c7be0-156">Number of endpoints</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-157">120 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-157">120,000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1938c-158">В предыдущем примере планируется поддержка максимального числа пользователей, которые поддерживаются сервером сохраняемого чата: четыре сервера/экземпляры службы сохраняемого чата (может иметь до четырех пассивных серверов, на которых работает сервер сохраняемого чата, для обеспечения высокой доступности и аварийного восстановления) и 20 000 пользователей на сервер, общее количество активных пользователей 80 000.</span><span class="sxs-lookup"><span data-stu-id="1938c-158">In the preceding sample, the plan is to support the maximum number of users that Persistent Chat Server allows: four servers/instances of the Persistent Chat service (can have four more passive servers running Persistent Chat Server for high availability and disaster recovery) and 20,000 users per server, for a total of 80,000 active users.</span></span>
+<span data-ttu-id="c7be0-158">В предыдущем примере планируется поддержка максимального числа пользователей, которые поддерживаются сервером сохраняемого чата: четыре сервера/экземпляры службы сохраняемого чата (может иметь до четырех пассивных серверов, на которых работает сервер сохраняемого чата, для обеспечения высокой доступности и аварийного восстановления) и 20 000 пользователей на сервер, общее количество активных пользователей 80 000.</span><span class="sxs-lookup"><span data-stu-id="c7be0-158">In the preceding sample, the plan is to support the maximum number of users that Persistent Chat Server allows: four servers/instances of the Persistent Chat service (can have four more passive servers running Persistent Chat Server for high availability and disaster recovery) and 20,000 users per server, for a total of 80,000 active users.</span></span>
 
 </div>
 
 <div>
 
-## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a><span data-ttu-id="1938c-159">Планирование мощности для управления доступом к комнатам сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-159">Capacity Planning for Managing Persistent Chat Room Access</span></span>
+## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a><span data-ttu-id="c7be0-159">Планирование мощности для управления доступом к комнатам сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-159">Capacity Planning for Managing Persistent Chat Room Access</span></span>
 
-<span data-ttu-id="1938c-160">Приведенный ниже образец таблицы поможет спланировать управление доступом к комнатам сохраняемого чата в пуле серверов сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-160">The following sample table can help you plan for managing Persistent Chat room access in a Persistent Chat Server pool.</span></span>
+<span data-ttu-id="c7be0-160">Приведенный ниже образец таблицы поможет спланировать управление доступом к комнатам сохраняемого чата в пуле серверов сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-160">The following sample table can help you plan for managing Persistent Chat room access in a Persistent Chat Server pool.</span></span>
 
-### <a name="managing-chat-room-access-sample"></a><span data-ttu-id="1938c-161">Пример управления доступом к комнатам чата</span><span class="sxs-lookup"><span data-stu-id="1938c-161">Managing Chat Room Access Sample</span></span>
+### <a name="managing-chat-room-access-sample"></a><span data-ttu-id="c7be0-161">Пример управления доступом к комнатам чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-161">Managing Chat Room Access Sample</span></span>
 
 <table>
 <colgroup>
@@ -173,256 +173,256 @@ ms.locfileid: "42135566"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="1938c-162">Малые комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-162">Small Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-163">Средние комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-163">Medium Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-164">Большие комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-164">Large Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-165">Всего</span><span class="sxs-lookup"><span data-stu-id="1938c-165">Total</span></span></th>
+<th><span data-ttu-id="c7be0-162">Малые комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-162">Small Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-163">Средние комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-163">Medium Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-164">Большие комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-164">Large Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-165">Всего</span><span class="sxs-lookup"><span data-stu-id="c7be0-165">Total</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-166">Размер комнат чата (количество подключенных пользователей)</span><span class="sxs-lookup"><span data-stu-id="1938c-166">Size of chat rooms (number of users connected)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-167">30 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-167">30 per room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-168">150 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-168">150 per room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-169">16 000 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-169">16,000 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-166">Размер комнат чата (количество подключенных пользователей)</span><span class="sxs-lookup"><span data-stu-id="c7be0-166">Size of chat rooms (number of users connected)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-167">30 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-167">30 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-168">150 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-168">150 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-169">16 000 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-169">16,000 per room</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-170">Комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-170">Chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-171">32 000</span><span class="sxs-lookup"><span data-stu-id="1938c-171">32,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-172">1 067</span><span class="sxs-lookup"><span data-stu-id="1938c-172">1,067</span></span></p></td>
-<td><p><span data-ttu-id="1938c-173">10 </span><span class="sxs-lookup"><span data-stu-id="1938c-173">10</span></span></p></td>
-<td><p><span data-ttu-id="1938c-174">33 077</span><span class="sxs-lookup"><span data-stu-id="1938c-174">33,077</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-170">Комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-170">Chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-171">32 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-171">32,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-172">1 067</span><span class="sxs-lookup"><span data-stu-id="c7be0-172">1,067</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-173">10 </span><span class="sxs-lookup"><span data-stu-id="c7be0-173">10</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-174">33 077</span><span class="sxs-lookup"><span data-stu-id="c7be0-174">33,077</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-175">% комнат, которые являются аудиториями</span><span class="sxs-lookup"><span data-stu-id="1938c-175">% of rooms that are auditorium</span></span></p></td>
-<td><p><span data-ttu-id="1938c-176">1 %</span><span class="sxs-lookup"><span data-stu-id="1938c-176">1%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-177">1 %</span><span class="sxs-lookup"><span data-stu-id="1938c-177">1%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-178">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-178">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-175">% комнат, которые являются аудиториями</span><span class="sxs-lookup"><span data-stu-id="c7be0-175">% of rooms that are auditorium</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-176">1 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-176">1%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-177">1 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-177">1%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-178">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-178">50%</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-179">% открытых комнат</span><span class="sxs-lookup"><span data-stu-id="1938c-179">% of rooms that are open</span></span></p></td>
-<td><p><span data-ttu-id="1938c-180">3 %</span><span class="sxs-lookup"><span data-stu-id="1938c-180">3%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-181">3 %</span><span class="sxs-lookup"><span data-stu-id="1938c-181">3%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-182">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-182">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-179">% открытых комнат</span><span class="sxs-lookup"><span data-stu-id="c7be0-179">% of rooms that are open</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-180">3 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-180">3%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-181">3 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-181">3%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-182">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-182">50%</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-183">Открытых комнат (без явного членства)</span><span class="sxs-lookup"><span data-stu-id="1938c-183">Open rooms (no explicit membership)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-184">960</span><span class="sxs-lookup"><span data-stu-id="1938c-184">960</span></span></p></td>
-<td><p><span data-ttu-id="1938c-185">32</span><span class="sxs-lookup"><span data-stu-id="1938c-185">32</span></span></p></td>
-<td><p><span data-ttu-id="1938c-186">17:00</span><span class="sxs-lookup"><span data-stu-id="1938c-186">5</span></span></p></td>
-<td><p><span data-ttu-id="1938c-187">997</span><span class="sxs-lookup"><span data-stu-id="1938c-187">997</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-183">Открытых комнат (без явного членства)</span><span class="sxs-lookup"><span data-stu-id="c7be0-183">Open rooms (no explicit membership)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-184">960</span><span class="sxs-lookup"><span data-stu-id="c7be0-184">960</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-185">32</span><span class="sxs-lookup"><span data-stu-id="c7be0-185">32</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-186">17:00</span><span class="sxs-lookup"><span data-stu-id="c7be0-186">5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-187">997</span><span class="sxs-lookup"><span data-stu-id="c7be0-187">997</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-188">Закрытых комнат (обычных комнат с явным членством)</span><span class="sxs-lookup"><span data-stu-id="1938c-188">Non-open rooms (regular rooms with explicit membership)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-189">31 040</span><span class="sxs-lookup"><span data-stu-id="1938c-189">31,040</span></span></p></td>
-<td><p><span data-ttu-id="1938c-190">1,035</span><span class="sxs-lookup"><span data-stu-id="1938c-190">1.035</span></span></p></td>
-<td><p><span data-ttu-id="1938c-191">17:00</span><span class="sxs-lookup"><span data-stu-id="1938c-191">5</span></span></p></td>
-<td><p><span data-ttu-id="1938c-192">32 080</span><span class="sxs-lookup"><span data-stu-id="1938c-192">32,080</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-188">Закрытых комнат (обычных комнат с явным членством)</span><span class="sxs-lookup"><span data-stu-id="c7be0-188">Non-open rooms (regular rooms with explicit membership)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-189">31 040</span><span class="sxs-lookup"><span data-stu-id="c7be0-189">31,040</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-190">1,035</span><span class="sxs-lookup"><span data-stu-id="c7be0-190">1.035</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-191">17:00</span><span class="sxs-lookup"><span data-stu-id="c7be0-191">5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-192">32 080</span><span class="sxs-lookup"><span data-stu-id="c7be0-192">32,080</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-193">Комнат-аудиторий (дополнительный вход для выступающих)</span><span class="sxs-lookup"><span data-stu-id="1938c-193">Auditorium rooms (additional presenters entry)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-194">нуль</span><span class="sxs-lookup"><span data-stu-id="1938c-194">0</span></span></p></td>
-<td><p><span data-ttu-id="1938c-195">32</span><span class="sxs-lookup"><span data-stu-id="1938c-195">32</span></span></p></td>
-<td><p><span data-ttu-id="1938c-196">17:00</span><span class="sxs-lookup"><span data-stu-id="1938c-196">5</span></span></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="1938c-197">Комнат, управляемых с помощью прямого членства</span><span class="sxs-lookup"><span data-stu-id="1938c-197">Rooms managed by direct membership</span></span></p></td>
-<td><p><span data-ttu-id="1938c-198">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-198">50%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-199">10 %</span><span class="sxs-lookup"><span data-stu-id="1938c-199">10%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-200">0 %</span><span class="sxs-lookup"><span data-stu-id="1938c-200">0%</span></span></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="1938c-201">Комнат, управляемых с помощью групп пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-201">Rooms managed by user groups</span></span></p></td>
-<td><p><span data-ttu-id="1938c-202">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-202">50%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-203">90%</span><span class="sxs-lookup"><span data-stu-id="1938c-203">90%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-204">100 %</span><span class="sxs-lookup"><span data-stu-id="1938c-204">100%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-193">Комнат-аудиторий (дополнительный вход для выступающих)</span><span class="sxs-lookup"><span data-stu-id="c7be0-193">Auditorium rooms (additional presenters entry)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-194">нуль</span><span class="sxs-lookup"><span data-stu-id="c7be0-194">0</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-195">32</span><span class="sxs-lookup"><span data-stu-id="c7be0-195">32</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-196">17:00</span><span class="sxs-lookup"><span data-stu-id="c7be0-196">5</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-205">Групп пользователей в каждом списке членов комнаты чата для открытых комнат (без явного указания)</span><span class="sxs-lookup"><span data-stu-id="1938c-205">User groups in each chat room's membership list for open rooms (not specified explicitly)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-206">нуль</span><span class="sxs-lookup"><span data-stu-id="1938c-206">0</span></span></p></td>
-<td><p><span data-ttu-id="1938c-207">нуль</span><span class="sxs-lookup"><span data-stu-id="1938c-207">0</span></span></p></td>
-<td><p><span data-ttu-id="1938c-208">нуль</span><span class="sxs-lookup"><span data-stu-id="1938c-208">0</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-197">Комнат, управляемых с помощью прямого членства</span><span class="sxs-lookup"><span data-stu-id="c7be0-197">Rooms managed by direct membership</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-198">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-198">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-199">10 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-199">10%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-200">0 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-200">0%</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-209">Пользователей в каждом списке членов комнаты чата для закрытых комнат</span><span class="sxs-lookup"><span data-stu-id="1938c-209">Users in each chat room's membership list for non-open rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-210">более</span><span class="sxs-lookup"><span data-stu-id="1938c-210">30</span></span></p></td>
-<td><p><span data-ttu-id="1938c-211">150</span><span class="sxs-lookup"><span data-stu-id="1938c-211">150</span></span></p></td>
-<td><p><span data-ttu-id="1938c-212">16 000</span><span class="sxs-lookup"><span data-stu-id="1938c-212">16,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-201">Комнат, управляемых с помощью групп пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-201">Rooms managed by user groups</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-202">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-202">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-203">90%</span><span class="sxs-lookup"><span data-stu-id="c7be0-203">90%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-204">100 %</span><span class="sxs-lookup"><span data-stu-id="c7be0-204">100%</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-213">Групп пользователей в каждом списке членов комнаты чата для закрытых комнат</span><span class="sxs-lookup"><span data-stu-id="1938c-213">User groups in each chat room's membership list for non-open rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-214">4</span><span class="sxs-lookup"><span data-stu-id="1938c-214">3</span></span></p></td>
-<td><p><span data-ttu-id="1938c-215">17:00</span><span class="sxs-lookup"><span data-stu-id="1938c-215">5</span></span></p></td>
-<td><p><span data-ttu-id="1938c-216">10 </span><span class="sxs-lookup"><span data-stu-id="1938c-216">10</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-205">Групп пользователей в каждом списке членов комнаты чата для открытых комнат (без явного указания)</span><span class="sxs-lookup"><span data-stu-id="c7be0-205">User groups in each chat room's membership list for open rooms (not specified explicitly)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-206">нуль</span><span class="sxs-lookup"><span data-stu-id="c7be0-206">0</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-207">нуль</span><span class="sxs-lookup"><span data-stu-id="c7be0-207">0</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-208">нуль</span><span class="sxs-lookup"><span data-stu-id="c7be0-208">0</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-217">Пользователей и групп пользователей в каждом списке управляющих комнаты чата (для открытых и закрытых комнат)</span><span class="sxs-lookup"><span data-stu-id="1938c-217">Users and user groups in each chat room's manager list (for open and non-open rooms)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-218">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-218">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-219">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-219">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-220">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-220">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-209">Пользователей в каждом списке членов комнаты чата для закрытых комнат</span><span class="sxs-lookup"><span data-stu-id="c7be0-209">Users in each chat room's membership list for non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-210">более</span><span class="sxs-lookup"><span data-stu-id="c7be0-210">30</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-211">150</span><span class="sxs-lookup"><span data-stu-id="c7be0-211">150</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-212">16 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-212">16,000</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-221">Пользователей и групп пользователей в каждом списке выступающих комнаты-аудитории чата (для открытых и закрытых комнат)</span><span class="sxs-lookup"><span data-stu-id="1938c-221">Users and user groups in each auditorium chat room's presenters list (for open and non-open rooms)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-222">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-222">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-223">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-223">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-224">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-224">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-213">Групп пользователей в каждом списке членов комнаты чата для закрытых комнат</span><span class="sxs-lookup"><span data-stu-id="c7be0-213">User groups in each chat room's membership list for non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-214">4</span><span class="sxs-lookup"><span data-stu-id="c7be0-214">3</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-215">17:00</span><span class="sxs-lookup"><span data-stu-id="c7be0-215">5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-216">10 </span><span class="sxs-lookup"><span data-stu-id="c7be0-216">10</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-225">Субъектов членства на основе пользователей во всех закрытых комнатах</span><span class="sxs-lookup"><span data-stu-id="1938c-225">User-based membership entities across all non-open rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-226">465 600</span><span class="sxs-lookup"><span data-stu-id="1938c-226">465,600</span></span></p></td>
-<td><p><span data-ttu-id="1938c-227">15 520</span><span class="sxs-lookup"><span data-stu-id="1938c-227">15,520</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-217">Пользователей и групп пользователей в каждом списке управляющих комнаты чата (для открытых и закрытых комнат)</span><span class="sxs-lookup"><span data-stu-id="c7be0-217">Users and user groups in each chat room's manager list (for open and non-open rooms)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-218">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-218">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-219">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-219">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-220">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-220">6</span></span></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c7be0-221">Пользователей и групп пользователей в каждом списке выступающих комнаты-аудитории чата (для открытых и закрытых комнат)</span><span class="sxs-lookup"><span data-stu-id="c7be0-221">Users and user groups in each auditorium chat room's presenters list (for open and non-open rooms)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-222">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-222">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-223">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-223">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-224">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-224">6</span></span></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c7be0-225">Субъектов членства на основе пользователей во всех закрытых комнатах</span><span class="sxs-lookup"><span data-stu-id="c7be0-225">User-based membership entities across all non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-226">465 600</span><span class="sxs-lookup"><span data-stu-id="c7be0-226">465,600</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-227">15 520</span><span class="sxs-lookup"><span data-stu-id="c7be0-227">15,520</span></span></p></td>
 <td><p>-</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-228">Субъектов членства на основе групп пользователей во всех закрытых комнатах</span><span class="sxs-lookup"><span data-stu-id="1938c-228">User-group-based membership entities across all non-open rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-229">46 560</span><span class="sxs-lookup"><span data-stu-id="1938c-229">46,560</span></span></p></td>
-<td><p><span data-ttu-id="1938c-230">4656</span><span class="sxs-lookup"><span data-stu-id="1938c-230">4656</span></span></p></td>
-<td><p><span data-ttu-id="1938c-231">50</span><span class="sxs-lookup"><span data-stu-id="1938c-231">50</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-228">Субъектов членства на основе групп пользователей во всех закрытых комнатах</span><span class="sxs-lookup"><span data-stu-id="c7be0-228">User-group-based membership entities across all non-open rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-229">46 560</span><span class="sxs-lookup"><span data-stu-id="c7be0-229">46,560</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-230">4656</span><span class="sxs-lookup"><span data-stu-id="c7be0-230">4656</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-231">50</span><span class="sxs-lookup"><span data-stu-id="c7be0-231">50</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-232">Субъектов на основе пользователей и групп пользователей во всех комнатах-аудиториях чата</span><span class="sxs-lookup"><span data-stu-id="1938c-232">Users and user groups based entities across all auditorium chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-233">нуль</span><span class="sxs-lookup"><span data-stu-id="1938c-233">0</span></span></p></td>
-<td><p><span data-ttu-id="1938c-234">192</span><span class="sxs-lookup"><span data-stu-id="1938c-234">192</span></span></p></td>
-<td><p><span data-ttu-id="1938c-235">50</span><span class="sxs-lookup"><span data-stu-id="1938c-235">50</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-232">Субъектов на основе пользователей и групп пользователей во всех комнатах-аудиториях чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-232">Users and user groups based entities across all auditorium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-233">нуль</span><span class="sxs-lookup"><span data-stu-id="c7be0-233">0</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-234">192</span><span class="sxs-lookup"><span data-stu-id="c7be0-234">192</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-235">50</span><span class="sxs-lookup"><span data-stu-id="c7be0-235">50</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-236">Субъектов управления на основе пользователей и групп пользователей во всех списках управляющих комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-236">Users and user groups based manager entities across all chat rooms manager lists</span></span></p></td>
-<td><p><span data-ttu-id="1938c-237">192 000</span><span class="sxs-lookup"><span data-stu-id="1938c-237">192,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-238">6 400</span><span class="sxs-lookup"><span data-stu-id="1938c-238">6,400</span></span></p></td>
-<td><p><span data-ttu-id="1938c-239">60</span><span class="sxs-lookup"><span data-stu-id="1938c-239">60</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-236">Субъектов управления на основе пользователей и групп пользователей во всех списках управляющих комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-236">Users and user groups based manager entities across all chat rooms manager lists</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-237">192 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-237">192,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-238">6 400</span><span class="sxs-lookup"><span data-stu-id="c7be0-238">6,400</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-239">60</span><span class="sxs-lookup"><span data-stu-id="c7be0-239">60</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-240">Активных пользователей на комнату чата</span><span class="sxs-lookup"><span data-stu-id="1938c-240">Active users per chat room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-241"><em>более</em></span><span class="sxs-lookup"><span data-stu-id="1938c-241"><em>30</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-242"><em>150</em></span><span class="sxs-lookup"><span data-stu-id="1938c-242"><em>150</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-243"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="1938c-243"><em>16,000</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-240">Активных пользователей на комнату чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-240">Active users per chat room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-241"><em>более</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-241"><em>30</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-242"><em>150</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-242"><em>150</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-243"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-243"><em>16,000</em></span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-244">Комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-244">Chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-245"><em>12</em></span><span class="sxs-lookup"><span data-stu-id="1938c-245"><em>12</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-246"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="1938c-246"><em>2</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-247"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="1938c-247"><em>2</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-248"><em>столбцов</em></span><span class="sxs-lookup"><span data-stu-id="1938c-248"><em>16</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-244">Комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-244">Chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-245"><em>12</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-245"><em>12</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-246"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-246"><em>2</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-247"><em>2</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-247"><em>2</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-248"><em>столбцов</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-248"><em>16</em></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-249">Групп пользователей в каждом списке членов комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-249">User groups in each chat room’s membership list</span></span></p></td>
-<td><p><span data-ttu-id="1938c-250"><em>десяти</em></span><span class="sxs-lookup"><span data-stu-id="1938c-250"><em>10</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-251"><em>десяти</em></span><span class="sxs-lookup"><span data-stu-id="1938c-251"><em>10</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-252"><em>означает</em></span><span class="sxs-lookup"><span data-stu-id="1938c-252"><em>15</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-249">Групп пользователей в каждом списке членов комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-249">User groups in each chat room’s membership list</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-250"><em>десяти</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-250"><em>10</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-251"><em>десяти</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-251"><em>10</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-252"><em>означает</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-252"><em>15</em></span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-253">Комнат, управляемых с помощью групп пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-253">Rooms managed by user groups</span></span></p></td>
-<td><p><span data-ttu-id="1938c-254"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="1938c-254"><em>50%</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-255"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="1938c-255"><em>50%</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-256"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="1938c-256"><em>50%</em></span></span></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="1938c-257">Субъектов членства на основе групп пользователей во всех комнатах чата</span><span class="sxs-lookup"><span data-stu-id="1938c-257">User-group-based membership entities across all chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-258">155 200</span><span class="sxs-lookup"><span data-stu-id="1938c-258">155,200</span></span></p></td>
-<td><p><span data-ttu-id="1938c-259">5173</span><span class="sxs-lookup"><span data-stu-id="1938c-259">5173</span></span></p></td>
-<td><p><span data-ttu-id="1938c-260">68</span><span class="sxs-lookup"><span data-stu-id="1938c-260">68</span></span></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="1938c-261">Субъектов членства на основе пользователей во всех комнатах чата</span><span class="sxs-lookup"><span data-stu-id="1938c-261">User-based membership entities across all chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-262">465 600</span><span class="sxs-lookup"><span data-stu-id="1938c-262">465,600</span></span></p></td>
-<td><p><span data-ttu-id="1938c-263">77 600</span><span class="sxs-lookup"><span data-stu-id="1938c-263">77,600</span></span></p></td>
-<td><p><span data-ttu-id="1938c-264">72 000</span><span class="sxs-lookup"><span data-stu-id="1938c-264">72,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-253">Комнат, управляемых с помощью групп пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-253">Rooms managed by user groups</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-254"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-254"><em>50%</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-255"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-255"><em>50%</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-256"><em>50%</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-256"><em>50%</em></span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-265">Пользователей и групп пользователей в каждом списке управляющих, выступающих и областей комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-265">Users and user groups in each chat room's manager, presenter, and scope lists</span></span></p></td>
-<td><p><span data-ttu-id="1938c-266">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-266">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-267">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-267">6</span></span></p></td>
-<td><p><span data-ttu-id="1938c-268">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-268">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-257">Субъектов членства на основе групп пользователей во всех комнатах чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-257">User-group-based membership entities across all chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-258">155 200</span><span class="sxs-lookup"><span data-stu-id="c7be0-258">155,200</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-259">5173</span><span class="sxs-lookup"><span data-stu-id="c7be0-259">5173</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-260">68</span><span class="sxs-lookup"><span data-stu-id="c7be0-260">68</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-269">Пользователей и групп пользователей во всех списках управляющих, выступающих и областей комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-269">Users and user groups across all chat rooms' manager, presenter, and scope lists</span></span></p></td>
-<td><p><span data-ttu-id="1938c-270">192 000</span><span class="sxs-lookup"><span data-stu-id="1938c-270">192,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-271">6400</span><span class="sxs-lookup"><span data-stu-id="1938c-271">6400</span></span></p></td>
-<td><p><span data-ttu-id="1938c-272">60</span><span class="sxs-lookup"><span data-stu-id="1938c-272">60</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-261">Субъектов членства на основе пользователей во всех комнатах чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-261">User-based membership entities across all chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-262">465 600</span><span class="sxs-lookup"><span data-stu-id="c7be0-262">465,600</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-263">77 600</span><span class="sxs-lookup"><span data-stu-id="c7be0-263">77,600</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-264">72 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-264">72,000</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-273">Элементов управления доступом</span><span class="sxs-lookup"><span data-stu-id="1938c-273">Access control entries</span></span></p></td>
-<td><p><span data-ttu-id="1938c-274">704 160</span><span class="sxs-lookup"><span data-stu-id="1938c-274">704,160</span></span></p></td>
-<td><p><span data-ttu-id="1938c-275">26 768</span><span class="sxs-lookup"><span data-stu-id="1938c-275">26,768</span></span></p></td>
-<td><p><span data-ttu-id="1938c-276">160</span><span class="sxs-lookup"><span data-stu-id="1938c-276">160</span></span></p></td>
-<td><p><span data-ttu-id="1938c-277">731 088</span><span class="sxs-lookup"><span data-stu-id="1938c-277">731,088</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-265">Пользователей и групп пользователей в каждом списке управляющих, выступающих и областей комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-265">Users and user groups in each chat room's manager, presenter, and scope lists</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-266">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-266">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-267">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-267">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-268">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-268">6</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-278">Максимальное количество элементов управления доступом</span><span class="sxs-lookup"><span data-stu-id="1938c-278">Maximum access control entries</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-269">Пользователей и групп пользователей во всех списках управляющих, выступающих и областей комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-269">Users and user groups across all chat rooms' manager, presenter, and scope lists</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-270">192 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-270">192,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-271">6400</span><span class="sxs-lookup"><span data-stu-id="c7be0-271">6400</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-272">60</span><span class="sxs-lookup"><span data-stu-id="c7be0-272">60</span></span></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c7be0-273">Элементов управления доступом</span><span class="sxs-lookup"><span data-stu-id="c7be0-273">Access control entries</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-274">704 160</span><span class="sxs-lookup"><span data-stu-id="c7be0-274">704,160</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-275">26 768</span><span class="sxs-lookup"><span data-stu-id="c7be0-275">26,768</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-276">160</span><span class="sxs-lookup"><span data-stu-id="c7be0-276">160</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-277">731 088</span><span class="sxs-lookup"><span data-stu-id="c7be0-277">731,088</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c7be0-278">Максимальное количество элементов управления доступом</span><span class="sxs-lookup"><span data-stu-id="c7be0-278">Maximum access control entries</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><span data-ttu-id="1938c-279">2 000 000</span><span class="sxs-lookup"><span data-stu-id="1938c-279">2,000,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-279">2 000 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-279">2,000,000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1938c-280">В предыдущем примере, при развертывании серверов сохраняемого чата в соответствии с рекомендациями, они могут обрабатывать до 80 000 активных пользователей в пуле из четырех серверов с включенной поддержкой соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="1938c-280">In the preceding sample, when you deploy the Persistent Chat Servers according to the recommended guidelines, they can handle up to 80,000 active users across a four-server pool with compliance enabled.</span></span>
+<span data-ttu-id="c7be0-280">В предыдущем примере, при развертывании серверов сохраняемого чата в соответствии с рекомендациями, они могут обрабатывать до 80 000 активных пользователей в пуле из четырех серверов с включенной поддержкой соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c7be0-280">In the preceding sample, when you deploy the Persistent Chat Servers according to the recommended guidelines, they can handle up to 80,000 active users across a four-server pool with compliance enabled.</span></span>
 
-<span data-ttu-id="1938c-p110">В данном примере приведены комнаты чата, классифицируемые как малые (30 активных пользователей в любое время), средние (150 активных пользователей) и большие (16 000 активных пользователей). Количество комнат чата разного размера зависит от общего числа:</span><span class="sxs-lookup"><span data-stu-id="1938c-p110">This sample shows chat rooms categorized as small (30 active users at any given time), medium (150 active users), and large (16,000 active users). The number of chat rooms of a certain size is computed based on the total number of:</span></span>
+<span data-ttu-id="c7be0-p110">В данном примере приведены комнаты чата, классифицируемые как малые (30 активных пользователей в любое время), средние (150 активных пользователей) и большие (16 000 активных пользователей). Количество комнат чата разного размера зависит от общего числа:</span><span class="sxs-lookup"><span data-stu-id="c7be0-p110">This sample shows chat rooms categorized as small (30 active users at any given time), medium (150 active users), and large (16,000 active users). The number of chat rooms of a certain size is computed based on the total number of:</span></span>
 
-  - <span data-ttu-id="1938c-283">активных пользователей в системе;</span><span class="sxs-lookup"><span data-stu-id="1938c-283">Active users in the system</span></span>
+  - <span data-ttu-id="c7be0-283">активных пользователей в системе;</span><span class="sxs-lookup"><span data-stu-id="c7be0-283">Active users in the system</span></span>
 
-  - <span data-ttu-id="1938c-284">активных пользователей в комнатах чата определенного размера;</span><span class="sxs-lookup"><span data-stu-id="1938c-284">Active users in chat rooms of the given size</span></span>
+  - <span data-ttu-id="c7be0-284">активных пользователей в комнатах чата определенного размера;</span><span class="sxs-lookup"><span data-stu-id="c7be0-284">Active users in chat rooms of the given size</span></span>
 
-  - <span data-ttu-id="1938c-285">комнат чата определенного размера, к которым присоединяется один пользователь.</span><span class="sxs-lookup"><span data-stu-id="1938c-285">Chat rooms of the given size that a single user joins</span></span>
+  - <span data-ttu-id="c7be0-285">комнат чата определенного размера, к которым присоединяется один пользователь.</span><span class="sxs-lookup"><span data-stu-id="c7be0-285">Chat rooms of the given size that a single user joins</span></span>
 
-<span data-ttu-id="1938c-p111">В предыдущей таблице планирования мощности для каждой комнаты чата указывается число элементов управления доступом, связанных с этой комнатой чата, включая элементы, назначенные непосредственно этой комнате чата. Управлять доступом к отдельным комнатам чата можно с помощью списков управления доступом (ACL). Кроме того, можно управлять доступом на уровне категорий. В ACL отдельный элемент управления доступом может быть либо группой пользователей (такой как группа безопасности или список рассылки), либо одним пользователем. Можно определять элементы управления доступом для управляющих, выступающих и членов комнаты чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-p111">For each chat room, the preceding capacity planning table specifies the number of access control entries that are associated with the chat room, including entries that are assigned directly to the chat room. You can control access to individual chat rooms by using access control lists (ACLs). You can also control access at the category level. In an ACL, an individual access control entry can be either a user group—for example, a security group, a distribution list, or a single user. You can define access control entries for chat room managers, presenters, and members.</span></span>
-
-<div>
-
-
-> [!IMPORTANT]  
-> <span data-ttu-id="1938c-p112">При планировании стратегии управления комнатами чата следует иметь в виду, что разрешено 2 миллиона элементов управления доступом. Если вычисленное количество элементов управления доступом превышает 2 миллиона, это может значительно ухудшить серверную производительность. Чтобы такая проблема не возникала, везде, где это возможно, старайтесь использовать в элементах управления доступом группы пользователей, а не отдельных пользователей.</span><span class="sxs-lookup"><span data-stu-id="1938c-p112">In planning your strategy for managing chat rooms, keep in mind that the total number of allowed access control entries is 2 million. If the calculated access control entries exceed 2 million, server performance could degrade significantly. To avoid this issue, whenever possible, be sure that your access control entries are user groups instead of individual users.</span></span>
-
-
-
-</div>
-
-</div>
-
-<div>
-
-## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a><span data-ttu-id="1938c-294">Планирование мощности для управления доступом к комнатам чата по приглашению</span><span class="sxs-lookup"><span data-stu-id="1938c-294">Capacity Planning for Managing Chat Room Access by Invitation</span></span>
-
-<span data-ttu-id="1938c-295">Можно использовать следующую таблицу планирования мощности, чтобы определить количество приглашений, которые сервер сохраняемого чата создает и сохраняет в базе данных сохраняемого чата, когда она настроена на отправку приглашений.</span><span class="sxs-lookup"><span data-stu-id="1938c-295">You can use the following capacity planning table to understand the number of invitations that Persistent Chat Server creates and stores in the Persistent Chat database when it is configured to send invitations.</span></span> <span data-ttu-id="1938c-296">Управление приглашениями для категории осуществляется с помощью страницы **Параметры категории комнаты чата** в панели управления Lync Server или с помощью командлета Windows PowerShell **Set-csPersistentChatCategory**.</span><span class="sxs-lookup"><span data-stu-id="1938c-296">You manage invitations on the Category by using the **Chat Room Category settings** page in the Lync Server Control Panel, or by using the Windows PowerShell cmdlet, **set-csPersistentChatCategory**.</span></span> <span data-ttu-id="1938c-297">Вы можете управлять приглашениями в комнате чата (в разделе с возможностью категорий) с помощью страницы **управления комнатами** , запущенной из клиента Lync, или с помощью командлета Windows PowerShell **Set-csPersistentChatRoom**.</span><span class="sxs-lookup"><span data-stu-id="1938c-297">You can manage invitations on a chat room (in line with what the category allows) by using the **Room Management** page launched from the Lync client, or by using a Windows PowerShell cmdlet, **set-csPersistentChatRoom**.</span></span>
-
-<span data-ttu-id="1938c-298">В демонстрационных данных следующей таблицы предполагается, что на странице **Chat room settings (Параметры комнаты чата)** для 50% всех комнат чата параметр **Invitations (Приглашения)** установлен в значение **Yes (Да)**.</span><span class="sxs-lookup"><span data-stu-id="1938c-298">The sample data in the following table assumes that, on the **Chat room settings** page for 50 percent of all chat rooms, the **Invitations** option is set to **Yes**.</span></span>
+<span data-ttu-id="c7be0-p111">В предыдущей таблице планирования мощности для каждой комнаты чата указывается число элементов управления доступом, связанных с этой комнатой чата, включая элементы, назначенные непосредственно этой комнате чата. Управлять доступом к отдельным комнатам чата можно с помощью списков управления доступом (ACL). Кроме того, можно управлять доступом на уровне категорий. В ACL отдельный элемент управления доступом может быть либо группой пользователей (такой как группа безопасности или список рассылки), либо одним пользователем. Можно определять элементы управления доступом для управляющих, выступающих и членов комнаты чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-p111">For each chat room, the preceding capacity planning table specifies the number of access control entries that are associated with the chat room, including entries that are assigned directly to the chat room. You can control access to individual chat rooms by using access control lists (ACLs). You can also control access at the category level. In an ACL, an individual access control entry can be either a user group—for example, a security group, a distribution list, or a single user. You can define access control entries for chat room managers, presenters, and members.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1938c-299">Если рассчитанное количество приглашений, создаваемых сервером, превышает 1 миллион, то производительность сервера может значительно снизиться.</span><span class="sxs-lookup"><span data-stu-id="1938c-299">If the calculated value for the number of invitations that is generated by the server exceeds 1 million, server performance could degrade significantly.</span></span> <span data-ttu-id="1938c-300">Чтобы избежать этой ситуации, не забудьте минимизировать количество комнат чата, настроенных для отправки приглашений, или ограничить количество пользователей, которые могут присоединиться к комнатам чата, настроенным для отправки приглашений.</span><span class="sxs-lookup"><span data-stu-id="1938c-300">To avoid this issue, be sure that you minimize the number of chat rooms that are configured to send invitations or restrict the number of users who can join chat rooms that have been configured to send invitations.</span></span>
+> <span data-ttu-id="c7be0-p112">При планировании стратегии управления комнатами чата следует иметь в виду, что разрешено 2 миллиона элементов управления доступом. Если вычисленное количество элементов управления доступом превышает 2 миллиона, это может значительно ухудшить серверную производительность. Чтобы такая проблема не возникала, везде, где это возможно, старайтесь использовать в элементах управления доступом группы пользователей, а не отдельных пользователей.</span><span class="sxs-lookup"><span data-stu-id="c7be0-p112">In planning your strategy for managing chat rooms, keep in mind that the total number of allowed access control entries is 2 million. If the calculated access control entries exceed 2 million, server performance could degrade significantly. To avoid this issue, whenever possible, be sure that your access control entries are user groups instead of individual users.</span></span>
 
 
 
 </div>
 
-### <a name="chat-room-access-by-invitation-sample"></a><span data-ttu-id="1938c-301">Пример доступа к комнате чата по приглашению</span><span class="sxs-lookup"><span data-stu-id="1938c-301">Chat Room Access by Invitation Sample</span></span>
+</div>
+
+<div>
+
+## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a><span data-ttu-id="c7be0-294">Планирование мощности для управления доступом к комнатам чата по приглашению</span><span class="sxs-lookup"><span data-stu-id="c7be0-294">Capacity Planning for Managing Chat Room Access by Invitation</span></span>
+
+<span data-ttu-id="c7be0-295">Можно использовать следующую таблицу планирования мощности, чтобы определить количество приглашений, которые сервер сохраняемого чата создает и сохраняет в базе данных сохраняемого чата, когда она настроена на отправку приглашений.</span><span class="sxs-lookup"><span data-stu-id="c7be0-295">You can use the following capacity planning table to understand the number of invitations that Persistent Chat Server creates and stores in the Persistent Chat database when it is configured to send invitations.</span></span> <span data-ttu-id="c7be0-296">Управление приглашениями для категории осуществляется с помощью страницы **Параметры категории комнаты чата** в панели управления Lync Server или с помощью командлета Windows PowerShell **Set-csPersistentChatCategory**.</span><span class="sxs-lookup"><span data-stu-id="c7be0-296">You manage invitations on the Category by using the **Chat Room Category settings** page in the Lync Server Control Panel, or by using the Windows PowerShell cmdlet, **set-csPersistentChatCategory**.</span></span> <span data-ttu-id="c7be0-297">Вы можете управлять приглашениями в комнате чата (в разделе с возможностью категорий) с помощью страницы **управления комнатами** , запущенной из клиента Lync, или с помощью командлета Windows PowerShell **Set-csPersistentChatRoom**.</span><span class="sxs-lookup"><span data-stu-id="c7be0-297">You can manage invitations on a chat room (in line with what the category allows) by using the **Room Management** page launched from the Lync client, or by using a Windows PowerShell cmdlet, **set-csPersistentChatRoom**.</span></span>
+
+<span data-ttu-id="c7be0-298">В демонстрационных данных следующей таблицы предполагается, что на странице **Chat room settings (Параметры комнаты чата)** для 50% всех комнат чата параметр **Invitations (Приглашения)** установлен в значение **Yes (Да)**.</span><span class="sxs-lookup"><span data-stu-id="c7be0-298">The sample data in the following table assumes that, on the **Chat room settings** page for 50 percent of all chat rooms, the **Invitations** option is set to **Yes**.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="c7be0-299">Если рассчитанное количество приглашений, создаваемых сервером, превышает 1 миллион, то производительность сервера может значительно снизиться.</span><span class="sxs-lookup"><span data-stu-id="c7be0-299">If the calculated value for the number of invitations that is generated by the server exceeds 1 million, server performance could degrade significantly.</span></span> <span data-ttu-id="c7be0-300">Чтобы избежать этой ситуации, не забудьте минимизировать количество комнат чата, настроенных для отправки приглашений, или ограничить количество пользователей, которые могут присоединиться к комнатам чата, настроенным для отправки приглашений.</span><span class="sxs-lookup"><span data-stu-id="c7be0-300">To avoid this issue, be sure that you minimize the number of chat rooms that are configured to send invitations or restrict the number of users who can join chat rooms that have been configured to send invitations.</span></span>
+
+
+
+</div>
+
+### <a name="chat-room-access-by-invitation-sample"></a><span data-ttu-id="c7be0-301">Пример доступа к комнате чата по приглашению</span><span class="sxs-lookup"><span data-stu-id="c7be0-301">Chat Room Access by Invitation Sample</span></span>
 
 <table>
 <colgroup>
@@ -435,103 +435,103 @@ ms.locfileid: "42135566"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="1938c-302">Малые комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-302">Small Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-303">Средние комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-303">Medium Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-304">Большие комнаты чата</span><span class="sxs-lookup"><span data-stu-id="1938c-304">Large Chat Rooms</span></span></th>
-<th><span data-ttu-id="1938c-305">Всего</span><span class="sxs-lookup"><span data-stu-id="1938c-305">Total</span></span></th>
+<th><span data-ttu-id="c7be0-302">Малые комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-302">Small Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-303">Средние комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-303">Medium Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-304">Большие комнаты чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-304">Large Chat Rooms</span></span></th>
+<th><span data-ttu-id="c7be0-305">Всего</span><span class="sxs-lookup"><span data-stu-id="c7be0-305">Total</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-306">Пользователей, имеющих доступ к комнате чата</span><span class="sxs-lookup"><span data-stu-id="1938c-306">Users who can access chat room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-307">30 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-307">30 per room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-308">150 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-308">150 per room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-309">16 000 на комнату</span><span class="sxs-lookup"><span data-stu-id="1938c-309">16,000 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-306">Пользователей, имеющих доступ к комнате чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-306">Users who can access chat room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-307">30 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-307">30 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-308">150 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-308">150 per room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-309">16 000 на комнату</span><span class="sxs-lookup"><span data-stu-id="c7be0-309">16,000 per room</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-310">Процент комнат, имеющих приглашения</span><span class="sxs-lookup"><span data-stu-id="1938c-310">Percentage of rooms that have invitations</span></span></p></td>
-<td><p><span data-ttu-id="1938c-311">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-311">50%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-312">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-312">50%</span></span></p></td>
-<td><p><span data-ttu-id="1938c-313">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-313">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-310">Процент комнат, имеющих приглашения</span><span class="sxs-lookup"><span data-stu-id="c7be0-310">Percentage of rooms that have invitations</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-311">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-311">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-312">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-312">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-313">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-313">50%</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-314">Комнат чата, настроенных для отправки приглашений</span><span class="sxs-lookup"><span data-stu-id="1938c-314">Chat rooms configured to send invitations</span></span></p></td>
-<td><p><span data-ttu-id="1938c-315"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="1938c-315"><em>16,000</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-316"><em>533</em></span><span class="sxs-lookup"><span data-stu-id="1938c-316"><em>533</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-317"><em>17:00</em></span><span class="sxs-lookup"><span data-stu-id="1938c-317"><em>5</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-314">Комнат чата, настроенных для отправки приглашений</span><span class="sxs-lookup"><span data-stu-id="c7be0-314">Chat rooms configured to send invitations</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-315"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-315"><em>16,000</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-316"><em>533</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-316"><em>533</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-317"><em>17:00</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-317"><em>5</em></span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-318">Пользователей, имеющих доступ к этой комнате чата</span><span class="sxs-lookup"><span data-stu-id="1938c-318">Users who can access the chat room</span></span></p></td>
-<td><p><span data-ttu-id="1938c-319"><em>60</em></span><span class="sxs-lookup"><span data-stu-id="1938c-319"><em>60</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-320"><em>225</em></span><span class="sxs-lookup"><span data-stu-id="1938c-320"><em>225</em></span></span></p></td>
-<td><p><span data-ttu-id="1938c-321"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="1938c-321"><em>16,000</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-318">Пользователей, имеющих доступ к этой комнате чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-318">Users who can access the chat room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-319"><em>60</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-319"><em>60</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-320"><em>225</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-320"><em>225</em></span></span></p></td>
+<td><p><span data-ttu-id="c7be0-321"><em>16 000</em></span><span class="sxs-lookup"><span data-stu-id="c7be0-321"><em>16,000</em></span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-322">Приглашения, созданные сервером сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-322">Invitations generated by Persistent Chat Server</span></span></p></td>
-<td><p><span data-ttu-id="1938c-323">960 000</span><span class="sxs-lookup"><span data-stu-id="1938c-323">960,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-324">120 000</span><span class="sxs-lookup"><span data-stu-id="1938c-324">120,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-325">80 000</span><span class="sxs-lookup"><span data-stu-id="1938c-325">80,000</span></span></p></td>
-<td><p><span data-ttu-id="1938c-326">1 160 000</span><span class="sxs-lookup"><span data-stu-id="1938c-326">1,160,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-322">Приглашения, созданные сервером сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-322">Invitations generated by Persistent Chat Server</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-323">960 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-323">960,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-324">120 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-324">120,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-325">80 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-325">80,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-326">1 160 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-326">1,160,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-327">Максимально допустимое количество приглашений</span><span class="sxs-lookup"><span data-stu-id="1938c-327">Maximum allowable number of invitations</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-327">Максимально допустимое количество приглашений</span><span class="sxs-lookup"><span data-stu-id="c7be0-327">Maximum allowable number of invitations</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><span data-ttu-id="1938c-328">2 000 000</span><span class="sxs-lookup"><span data-stu-id="1938c-328">2,000,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-328">2 000 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-328">2,000,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-329">Модель 1. Начать с ожидаемого количества приглашений на комнату в день</span><span class="sxs-lookup"><span data-stu-id="1938c-329">Model 1 - Start with expected number of messages per room per day</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-329">Модель 1. Начать с ожидаемого количества приглашений на комнату в день</span><span class="sxs-lookup"><span data-stu-id="c7be0-329">Model 1 - Start with expected number of messages per room per day</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-330">Норма чата на комнату (в день)</span><span class="sxs-lookup"><span data-stu-id="1938c-330">Chat Rate Per Room (per day)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-331">50</span><span class="sxs-lookup"><span data-stu-id="1938c-331">50</span></span></p></td>
-<td><p><span data-ttu-id="1938c-332">500</span><span class="sxs-lookup"><span data-stu-id="1938c-332">500</span></span></p></td>
-<td><p><span data-ttu-id="1938c-333">100</span><span class="sxs-lookup"><span data-stu-id="1938c-333">100</span></span></p></td>
-<td><p><span data-ttu-id="1938c-334">650</span><span class="sxs-lookup"><span data-stu-id="1938c-334">650</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-330">Норма чата на комнату (в день)</span><span class="sxs-lookup"><span data-stu-id="c7be0-330">Chat Rate Per Room (per day)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-331">50</span><span class="sxs-lookup"><span data-stu-id="c7be0-331">50</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-332">500</span><span class="sxs-lookup"><span data-stu-id="c7be0-332">500</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-333">100</span><span class="sxs-lookup"><span data-stu-id="c7be0-333">100</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-334">650</span><span class="sxs-lookup"><span data-stu-id="c7be0-334">650</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-335">Норма чата (в секунду) во всех комнатах</span><span class="sxs-lookup"><span data-stu-id="1938c-335">Chat rate (per second) across all rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-336">55,56</span><span class="sxs-lookup"><span data-stu-id="1938c-336">55.56</span></span></p></td>
-<td><p><span data-ttu-id="1938c-337">18,52</span><span class="sxs-lookup"><span data-stu-id="1938c-337">18.52</span></span></p></td>
-<td><p><span data-ttu-id="1938c-338">0,03</span><span class="sxs-lookup"><span data-stu-id="1938c-338">0.03</span></span></p></td>
-<td><p><span data-ttu-id="1938c-339">74</span><span class="sxs-lookup"><span data-stu-id="1938c-339">74</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-335">Норма чата (в секунду) во всех комнатах</span><span class="sxs-lookup"><span data-stu-id="c7be0-335">Chat rate (per second) across all rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-336">55,56</span><span class="sxs-lookup"><span data-stu-id="c7be0-336">55.56</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-337">18,52</span><span class="sxs-lookup"><span data-stu-id="c7be0-337">18.52</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-338">0,03</span><span class="sxs-lookup"><span data-stu-id="c7be0-338">0.03</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-339">74</span><span class="sxs-lookup"><span data-stu-id="c7be0-339">74</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-340">Модель 2. Начать с количества отправляемых сообщений на пользователя в день</span><span class="sxs-lookup"><span data-stu-id="1938c-340">Model 2 - Start with number of messages posted per user per day</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-340">Модель 2. Начать с количества отправляемых сообщений на пользователя в день</span><span class="sxs-lookup"><span data-stu-id="c7be0-340">Model 2 - Start with number of messages posted per user per day</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-341">Норма чата на пользователя в день</span><span class="sxs-lookup"><span data-stu-id="1938c-341">Chat rate per user per day</span></span></p></td>
-<td><p><span data-ttu-id="1938c-342">15 </span><span class="sxs-lookup"><span data-stu-id="1938c-342">15</span></span></p></td>
-<td><p><span data-ttu-id="1938c-343">17:00</span><span class="sxs-lookup"><span data-stu-id="1938c-343">5</span></span></p></td>
-<td><p><span data-ttu-id="1938c-344">0,1</span><span class="sxs-lookup"><span data-stu-id="1938c-344">0.1</span></span></p></td>
-<td><p><span data-ttu-id="1938c-345">двадцать</span><span class="sxs-lookup"><span data-stu-id="1938c-345">20</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-341">Норма чата на пользователя в день</span><span class="sxs-lookup"><span data-stu-id="c7be0-341">Chat rate per user per day</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-342">15 </span><span class="sxs-lookup"><span data-stu-id="c7be0-342">15</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-343">17:00</span><span class="sxs-lookup"><span data-stu-id="c7be0-343">5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-344">0,1</span><span class="sxs-lookup"><span data-stu-id="c7be0-344">0.1</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-345">двадцать</span><span class="sxs-lookup"><span data-stu-id="c7be0-345">20</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-346">Норма чата на комнату (в день)</span><span class="sxs-lookup"><span data-stu-id="1938c-346">Chat rate per room (per day)</span></span></p></td>
-<td><p><span data-ttu-id="1938c-347">38</span><span class="sxs-lookup"><span data-stu-id="1938c-347">38</span></span></p></td>
-<td><p><span data-ttu-id="1938c-348">375</span><span class="sxs-lookup"><span data-stu-id="1938c-348">375</span></span></p></td>
-<td><p><span data-ttu-id="1938c-349">800</span><span class="sxs-lookup"><span data-stu-id="1938c-349">800</span></span></p></td>
-<td><p><span data-ttu-id="1938c-350">1 213</span><span class="sxs-lookup"><span data-stu-id="1938c-350">1,213</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-346">Норма чата на комнату (в день)</span><span class="sxs-lookup"><span data-stu-id="c7be0-346">Chat rate per room (per day)</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-347">38</span><span class="sxs-lookup"><span data-stu-id="c7be0-347">38</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-348">375</span><span class="sxs-lookup"><span data-stu-id="c7be0-348">375</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-349">800</span><span class="sxs-lookup"><span data-stu-id="c7be0-349">800</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-350">1 213</span><span class="sxs-lookup"><span data-stu-id="c7be0-350">1,213</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-351">Норма чата (в секунду) во всех комнатах</span><span class="sxs-lookup"><span data-stu-id="1938c-351">Chat rate (per second) across all rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-352">41,67</span><span class="sxs-lookup"><span data-stu-id="1938c-352">41.67</span></span></p></td>
-<td><p><span data-ttu-id="1938c-353">13,89</span><span class="sxs-lookup"><span data-stu-id="1938c-353">13.89</span></span></p></td>
-<td><p><span data-ttu-id="1938c-354">0,28</span><span class="sxs-lookup"><span data-stu-id="1938c-354">0.28</span></span></p></td>
-<td><p><span data-ttu-id="1938c-355">56</span><span class="sxs-lookup"><span data-stu-id="1938c-355">56</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-351">Норма чата (в секунду) во всех комнатах</span><span class="sxs-lookup"><span data-stu-id="c7be0-351">Chat rate (per second) across all rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-352">41,67</span><span class="sxs-lookup"><span data-stu-id="c7be0-352">41.67</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-353">13,89</span><span class="sxs-lookup"><span data-stu-id="c7be0-353">13.89</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-354">0,28</span><span class="sxs-lookup"><span data-stu-id="c7be0-354">0.28</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-355">56</span><span class="sxs-lookup"><span data-stu-id="c7be0-355">56</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -541,11 +541,11 @@ ms.locfileid: "42135566"
 
 <div>
 
-## <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="1938c-356">Пользовательская модель производительности сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-356">Persistent Chat Server Performance User Model</span></span>
+## <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="c7be0-356">Пользовательская модель производительности сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-356">Persistent Chat Server Performance User Model</span></span>
 
-<span data-ttu-id="1938c-357">В следующей таблице описывается пользовательская модель для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="1938c-357">The following table describes the user model for Persistent Chat Server.</span></span> <span data-ttu-id="1938c-358">Эта модель обеспечивает основу для требований планирования мощности и представляет типичную организацию с 80 000 одновременных пользователей на четырех серверах.</span><span class="sxs-lookup"><span data-stu-id="1938c-358">It provides the basis for the capacity planning requirements and represents a typical organization with 80,000 concurrent users on four servers.</span></span>
+<span data-ttu-id="c7be0-357">В следующей таблице описывается пользовательская модель для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c7be0-357">The following table describes the user model for Persistent Chat Server.</span></span> <span data-ttu-id="c7be0-358">Эта модель обеспечивает основу для требований планирования мощности и представляет типичную организацию с 80 000 одновременных пользователей на четырех серверах.</span><span class="sxs-lookup"><span data-stu-id="c7be0-358">It provides the basis for the capacity planning requirements and represents a typical organization with 80,000 concurrent users on four servers.</span></span>
 
-### <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="1938c-359">Пользовательская модель производительности сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-359">Persistent Chat Server Performance User Model</span></span>
+### <a name="persistent-chat-server-performance-user-model"></a><span data-ttu-id="c7be0-359">Пользовательская модель производительности сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-359">Persistent Chat Server Performance User Model</span></span>
 
 <table>
 <colgroup>
@@ -554,132 +554,132 @@ ms.locfileid: "42135566"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-360">Количество подключенных активных пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-360">Number of active users connected</span></span></p></td>
-<td><p><span data-ttu-id="1938c-361">80 000</span><span class="sxs-lookup"><span data-stu-id="1938c-361">80,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-360">Количество подключенных активных пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-360">Number of active users connected</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-361">80 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-361">80,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-362">Количество экземпляров службы сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="1938c-362">Number of Persistent Chat Server service instances</span></span></p></td>
-<td><p><span data-ttu-id="1938c-363">SP4</span><span class="sxs-lookup"><span data-stu-id="1938c-363">4</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-362">Количество экземпляров службы сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-362">Number of Persistent Chat Server service instances</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-363">SP4</span><span class="sxs-lookup"><span data-stu-id="c7be0-363">4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-364">Размер малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-364">Size of small chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-365">30 пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-365">30 users</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-364">Размер малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-364">Size of small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-365">30 пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-365">30 users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-366">Размер средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-366">Size of medium chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-367">150 пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-367">150 users</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-366">Размер средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-366">Size of medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-367">150 пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-367">150 users</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-368">Размер больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-368">Size of large chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-369">16 000 пользователей</span><span class="sxs-lookup"><span data-stu-id="1938c-369">16,000 users</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-368">Размер больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-368">Size of large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-369">16 000 пользователей</span><span class="sxs-lookup"><span data-stu-id="c7be0-369">16,000 users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-370">Общее количество комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-370">Total number of chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-371">33 077</span><span class="sxs-lookup"><span data-stu-id="1938c-371">33,077</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-370">Общее количество комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-370">Total number of chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-371">33 077</span><span class="sxs-lookup"><span data-stu-id="c7be0-371">33,077</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-372">Количество малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-372">Number of small chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-373">32 000</span><span class="sxs-lookup"><span data-stu-id="1938c-373">32,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-372">Количество малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-372">Number of small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-373">32 000</span><span class="sxs-lookup"><span data-stu-id="c7be0-373">32,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-374">Количество средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-374">Number of medium chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-375">1 067</span><span class="sxs-lookup"><span data-stu-id="1938c-375">1,067</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-374">Количество средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-374">Number of medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-375">1 067</span><span class="sxs-lookup"><span data-stu-id="c7be0-375">1,067</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-376">Количество больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-376">Number of large chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-377">10 </span><span class="sxs-lookup"><span data-stu-id="1938c-377">10</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-376">Количество больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-376">Number of large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-377">10 </span><span class="sxs-lookup"><span data-stu-id="c7be0-377">10</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-378">Общее количество комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-378">Total number of chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-379">16 </span><span class="sxs-lookup"><span data-stu-id="1938c-379">16</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-378">Общее количество комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-378">Total number of chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-379">16 </span><span class="sxs-lookup"><span data-stu-id="c7be0-379">16</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-380">Количество малых комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-380">Number of small chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-381">12</span><span class="sxs-lookup"><span data-stu-id="1938c-381">12</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-380">Количество малых комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-380">Number of small chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-381">12</span><span class="sxs-lookup"><span data-stu-id="c7be0-381">12</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-382">Количество средних комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-382">Number of medium chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-383">2</span><span class="sxs-lookup"><span data-stu-id="1938c-383">2</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-382">Количество средних комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-382">Number of medium chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-383">2</span><span class="sxs-lookup"><span data-stu-id="c7be0-383">2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-384">Количество больших комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-384">Number of large chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-385">2</span><span class="sxs-lookup"><span data-stu-id="1938c-385">2</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-384">Количество больших комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-384">Number of large chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-385">2</span><span class="sxs-lookup"><span data-stu-id="c7be0-385">2</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-386">Количество подключенных комнат на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-386">Number of rooms joined per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-387">открыт</span><span class="sxs-lookup"><span data-stu-id="1938c-387">24</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-386">Количество подключенных комнат на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-386">Number of rooms joined per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-387">открыт</span><span class="sxs-lookup"><span data-stu-id="c7be0-387">24</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-388">Максимальная норма подключения</span><span class="sxs-lookup"><span data-stu-id="1938c-388">Peak join rate</span></span></p></td>
-<td><p><span data-ttu-id="1938c-389">10/сек</span><span class="sxs-lookup"><span data-stu-id="1938c-389">10/second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-388">Максимальная норма подключения</span><span class="sxs-lookup"><span data-stu-id="c7be0-388">Peak join rate</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-389">10/сек</span><span class="sxs-lookup"><span data-stu-id="c7be0-389">10/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-390">Общая норма чата</span><span class="sxs-lookup"><span data-stu-id="1938c-390">Total chat rate</span></span></p></td>
-<td><p><span data-ttu-id="1938c-391">24 в секунду</span><span class="sxs-lookup"><span data-stu-id="1938c-391">24/second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-390">Общая норма чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-390">Total chat rate</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-391">24 в секунду</span><span class="sxs-lookup"><span data-stu-id="c7be0-391">24/second</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-392">Норма чата для малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-392">Chat rate for small chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-393">22.22/сек</span><span class="sxs-lookup"><span data-stu-id="1938c-393">22.22/second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-392">Норма чата для малых комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-392">Chat rate for small chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-393">22.22/сек</span><span class="sxs-lookup"><span data-stu-id="c7be0-393">22.22/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-394">Норма чата для средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-394">Chat rate for medium chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-395">1.67/сек</span><span class="sxs-lookup"><span data-stu-id="1938c-395">1.67/second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-394">Норма чата для средних комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-394">Chat rate for medium chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-395">1.67/сек</span><span class="sxs-lookup"><span data-stu-id="c7be0-395">1.67/second</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-396">Норма чата для больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="1938c-396">Chat rate for large chat rooms</span></span></p></td>
-<td><p><span data-ttu-id="1938c-397">~ 0,15/сек</span><span class="sxs-lookup"><span data-stu-id="1938c-397">~0.15/second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-396">Норма чата для больших комнат чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-396">Chat rate for large chat rooms</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-397">~ 0,15/сек</span><span class="sxs-lookup"><span data-stu-id="c7be0-397">~0.15/second</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-398">Процент комнат чата, настроенных для отправки приглашений</span><span class="sxs-lookup"><span data-stu-id="1938c-398">Percentage of chat rooms configured for invitations</span></span></p></td>
-<td><p><span data-ttu-id="1938c-399">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-399">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-398">Процент комнат чата, настроенных для отправки приглашений</span><span class="sxs-lookup"><span data-stu-id="c7be0-398">Percentage of chat rooms configured for invitations</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-399">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-399">50%</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-400">Процент комнат с прямым членством</span><span class="sxs-lookup"><span data-stu-id="1938c-400">Percentage of direct memberships</span></span></p></td>
-<td><p><span data-ttu-id="1938c-401">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-401">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-400">Процент комнат с прямым членством</span><span class="sxs-lookup"><span data-stu-id="c7be0-400">Percentage of direct memberships</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-401">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-401">50%</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-402">Процент комнат с групповым членством</span><span class="sxs-lookup"><span data-stu-id="1938c-402">Percentage of group memberships</span></span></p></td>
-<td><p><span data-ttu-id="1938c-403">50%</span><span class="sxs-lookup"><span data-stu-id="1938c-403">50%</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-402">Процент комнат с групповым членством</span><span class="sxs-lookup"><span data-stu-id="c7be0-402">Percentage of group memberships</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-403">50%</span><span class="sxs-lookup"><span data-stu-id="c7be0-403">50%</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-404">Среднее количество принадлежностей предков в доменных службах Active Directory</span><span class="sxs-lookup"><span data-stu-id="1938c-404">Average number of ancestor affiliations in Active Directory Domain Services</span></span></p></td>
-<td><p><span data-ttu-id="1938c-405">100 - 200</span><span class="sxs-lookup"><span data-stu-id="1938c-405">100 - 200</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-404">Среднее количество принадлежностей предков в доменных службах Active Directory</span><span class="sxs-lookup"><span data-stu-id="c7be0-404">Average number of ancestor affiliations in Active Directory Domain Services</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-405">100 - 200</span><span class="sxs-lookup"><span data-stu-id="c7be0-405">100 - 200</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-406">Количество подписанных контактов на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-406">Number of subscribed contacts per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-407">80</span><span class="sxs-lookup"><span data-stu-id="1938c-407">80</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-406">Количество подписанных контактов на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-406">Number of subscribed contacts per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-407">80</span><span class="sxs-lookup"><span data-stu-id="c7be0-407">80</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-408">Среднее количество конечных точек на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-408">Average number of endpoints per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-409">1.5</span><span class="sxs-lookup"><span data-stu-id="1938c-409">1.5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-408">Среднее количество конечных точек на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-408">Average number of endpoints per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-409">1.5</span><span class="sxs-lookup"><span data-stu-id="c7be0-409">1.5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-410">Среднее количество видимых комнат чата на конечную точку</span><span class="sxs-lookup"><span data-stu-id="1938c-410">Average number of visible chat rooms per endpoint</span></span></p></td>
-<td><p><span data-ttu-id="1938c-411">1.5</span><span class="sxs-lookup"><span data-stu-id="1938c-411">1.5</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-410">Среднее количество видимых комнат чата на конечную точку</span><span class="sxs-lookup"><span data-stu-id="c7be0-410">Average number of visible chat rooms per endpoint</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-411">1.5</span><span class="sxs-lookup"><span data-stu-id="c7be0-411">1.5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-412">Среднее количество видимых комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-412">Average number of visible chat rooms per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-413">2,25 (50% для 1 комнаты и 50% для 2 комнат); до 6 открытых комнат, по одной на монитор</span><span class="sxs-lookup"><span data-stu-id="1938c-413">2.25 (50% for 1 room and 50% for 2 rooms); Up to 6 rooms open, one per monitor</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-412">Среднее количество видимых комнат чата на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-412">Average number of visible chat rooms per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-413">2,25 (50% для 1 комнаты и 50% для 2 комнат); до 6 открытых комнат, по одной на монитор</span><span class="sxs-lookup"><span data-stu-id="c7be0-413">2.25 (50% for 1 room and 50% for 2 rooms); Up to 6 rooms open, one per monitor</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-414">Количество участников, опрашиваемых за определенный интервал опроса</span><span class="sxs-lookup"><span data-stu-id="1938c-414">Number of participants polled per interval</span></span></p></td>
-<td><p><span data-ttu-id="1938c-415">25 на видимую комнату чата</span><span class="sxs-lookup"><span data-stu-id="1938c-415">25 per visible chat room</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-414">Количество участников, опрашиваемых за определенный интервал опроса</span><span class="sxs-lookup"><span data-stu-id="c7be0-414">Number of participants polled per interval</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-415">25 на видимую комнату чата</span><span class="sxs-lookup"><span data-stu-id="c7be0-415">25 per visible chat room</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-416">Продолжительность интервала опроса</span><span class="sxs-lookup"><span data-stu-id="1938c-416">Length of polling interval</span></span></p></td>
-<td><p><span data-ttu-id="1938c-417">5 минут</span><span class="sxs-lookup"><span data-stu-id="1938c-417">5 minutes</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-416">Продолжительность интервала опроса</span><span class="sxs-lookup"><span data-stu-id="c7be0-416">Length of polling interval</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-417">5 минут</span><span class="sxs-lookup"><span data-stu-id="c7be0-417">5 minutes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-418">Количество участников, опрашиваемых в секунду</span><span class="sxs-lookup"><span data-stu-id="1938c-418">Number of participants polled per second</span></span></p></td>
-<td><p><span data-ttu-id="1938c-419">15,000</span><span class="sxs-lookup"><span data-stu-id="1938c-419">15,000</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-418">Количество участников, опрашиваемых в секунду</span><span class="sxs-lookup"><span data-stu-id="c7be0-418">Number of participants polled per second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-419">15,000</span><span class="sxs-lookup"><span data-stu-id="c7be0-419">15,000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1938c-420">Количество изменений состояния присутствия в час на пользователя</span><span class="sxs-lookup"><span data-stu-id="1938c-420">Number of presence changes per hour per user</span></span></p></td>
-<td><p><span data-ttu-id="1938c-421">6 </span><span class="sxs-lookup"><span data-stu-id="1938c-421">6</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-420">Количество изменений состояния присутствия в час на пользователя</span><span class="sxs-lookup"><span data-stu-id="c7be0-420">Number of presence changes per hour per user</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-421">6 </span><span class="sxs-lookup"><span data-stu-id="c7be0-421">6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1938c-422">Количество изменений состояния присутствия в секунду</span><span class="sxs-lookup"><span data-stu-id="1938c-422">Number of presence changes per second</span></span></p></td>
-<td><p><span data-ttu-id="1938c-423">133,33</span><span class="sxs-lookup"><span data-stu-id="1938c-423">133.33</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-422">Количество изменений состояния присутствия в секунду</span><span class="sxs-lookup"><span data-stu-id="c7be0-422">Number of presence changes per second</span></span></p></td>
+<td><p><span data-ttu-id="c7be0-423">133,33</span><span class="sxs-lookup"><span data-stu-id="c7be0-423">133.33</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e035c360d339b48157969c75a1702beff03da634
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154231"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a><span data-ttu-id="1c8bc-102">Настройка хранилища личных контактов на клиентских компьютерах для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c8bc-102">Configuring the personal contacts store on client computers for Lync Server 2013</span></span>
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a><span data-ttu-id="e294d-102">Настройка хранилища личных контактов на клиентских компьютерах для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e294d-102">Configuring the personal contacts store on client computers for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42154231"
 
 <span> </span>
 
-<span data-ttu-id="1c8bc-103">_**Последнее изменение темы:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="1c8bc-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="e294d-103">_**Последнее изменение темы:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="e294d-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="1c8bc-104">При интеграции Microsoft Lync Server 2013 и Microsoft Exchange Server 2013 рекомендуется настроить хранилище личных контактов на всех клиентских компьютерах, работающих под управлением Microsoft Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-104">If you are integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013 then it is recommended that you configure the personal contact store on any client computers running Microsoft Lync 2010.</span></span> <span data-ttu-id="1c8bc-105">В частности, необходимо настроить Lync для использования Exchange в качестве личного хранилища контактов и, в то же время, убедиться, что пользователи не могут переопределить это решение.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-105">In particular, you should configure Lync to use Exchange as the personal contact store, and, at the same time, ensure that users are not able to override that decision.</span></span> <span data-ttu-id="1c8bc-106">Это можно сделать, создав и настроив значение реестра на каждом клиентском компьютере.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-106">This can be done by creating and configuring a Registry value on each client computer.</span></span>
+<span data-ttu-id="e294d-104">При интеграции Microsoft Lync Server 2013 и Microsoft Exchange Server 2013 рекомендуется настроить хранилище личных контактов на всех клиентских компьютерах, работающих под управлением Microsoft Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="e294d-104">If you are integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013 then it is recommended that you configure the personal contact store on any client computers running Microsoft Lync 2010.</span></span> <span data-ttu-id="e294d-105">В частности, необходимо настроить Lync для использования Exchange в качестве личного хранилища контактов и, в то же время, убедиться, что пользователи не могут переопределить это решение.</span><span class="sxs-lookup"><span data-stu-id="e294d-105">In particular, you should configure Lync to use Exchange as the personal contact store, and, at the same time, ensure that users are not able to override that decision.</span></span> <span data-ttu-id="e294d-106">Это можно сделать, создав и настроив значение реестра на каждом клиентском компьютере.</span><span class="sxs-lookup"><span data-stu-id="e294d-106">This can be done by creating and configuring a Registry value on each client computer.</span></span>
 
-<span data-ttu-id="1c8bc-107">Обратите внимание, что это не обязательно на компьютерах с Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-107">Note that this is not required on computers running Lync 2013.</span></span>
+<span data-ttu-id="e294d-107">Обратите внимание, что это не обязательно на компьютерах с Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e294d-107">Note that this is not required on computers running Lync 2013.</span></span>
 
-<span data-ttu-id="1c8bc-108">Чтобы настроить данное значение на одном компьютере, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="1c8bc-108">To configure this value on a single computer, complete the following procedure:</span></span>
+<span data-ttu-id="e294d-108">Чтобы настроить данное значение на одном компьютере, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e294d-108">To configure this value on a single computer, complete the following procedure:</span></span>
 
-1.  <span data-ttu-id="1c8bc-109">На клиентском компьютере нажмите кнопку **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-109">On the client computer, click **Start** and then click **Run**.</span></span>
+1.  <span data-ttu-id="e294d-109">На клиентском компьютере нажмите кнопку **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="e294d-109">On the client computer, click **Start** and then click **Run**.</span></span>
 
-2.  <span data-ttu-id="1c8bc-110">В диалоговом окне **Выполнить** введите regedit, затем нажмите ВВОД.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-110">In the **Run** dialog box, type regedit and then press ENTER.</span></span>
+2.  <span data-ttu-id="e294d-110">В диалоговом окне **Выполнить** введите regedit, затем нажмите ВВОД.</span><span class="sxs-lookup"><span data-stu-id="e294d-110">In the **Run** dialog box, type regedit and then press ENTER.</span></span>
 
-3.  <span data-ttu-id="1c8bc-111">В редакторе реестра разверните узел **"\_локальный\_компьютер**", разверните узел **программное обеспечение**, **политики**, разверните узел **Microsoft**, а затем — **Communicator**.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-111">In Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **Software**, expand **Policies**, expand **Microsoft**, and then expand **Communicator**.</span></span>
+3.  <span data-ttu-id="e294d-111">В редакторе реестра разверните узел **"\_локальный\_компьютер**", разверните узел **программное обеспечение**, **политики**, разверните узел **Microsoft**, а затем — **Communicator**.</span><span class="sxs-lookup"><span data-stu-id="e294d-111">In Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **Software**, expand **Policies**, expand **Microsoft**, and then expand **Communicator**.</span></span>
 
-4.  <span data-ttu-id="1c8bc-112">Щелкните правой кнопкой мыши **Communicator**, наведите указатель мыши на **создать**и выберите **значение DWORD (32-бит)**.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-112">Right-click **Communicator**, point to **New**, and then click **DWORD (32-bit) Value**.</span></span>
+4.  <span data-ttu-id="e294d-112">Щелкните правой кнопкой мыши **Communicator**, наведите указатель мыши на **создать**и выберите **значение DWORD (32-бит)**.</span><span class="sxs-lookup"><span data-stu-id="e294d-112">Right-click **Communicator**, point to **New**, and then click **DWORD (32-bit) Value**.</span></span>
 
-5.  <span data-ttu-id="1c8bc-113">После создания нового значения введите **PersonalContactStoreOverride** и нажмите КЛАВИШу ввод, чтобы переименовать значение.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-113">After the new value is created, type **PersonalContactStoreOverride** and then press ENTER to rename the value.</span></span>
+5.  <span data-ttu-id="e294d-113">После создания нового значения введите **PersonalContactStoreOverride** и нажмите КЛАВИШу ввод, чтобы переименовать значение.</span><span class="sxs-lookup"><span data-stu-id="e294d-113">After the new value is created, type **PersonalContactStoreOverride** and then press ENTER to rename the value.</span></span>
 
-6.  <span data-ttu-id="1c8bc-114">Убедитесь, что значение PersonalContactStoreOverride равно 0, а затем закройте редактор реестра.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-114">Verify that the value of PersonalContactStoreOverride is set to 0 and then close Registry Editor.</span></span>
+6.  <span data-ttu-id="e294d-114">Убедитесь, что значение PersonalContactStoreOverride равно 0, а затем закройте редактор реестра.</span><span class="sxs-lookup"><span data-stu-id="e294d-114">Verify that the value of PersonalContactStoreOverride is set to 0 and then close Registry Editor.</span></span>
 
-<span data-ttu-id="1c8bc-115">Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-115">If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object.</span></span> <span data-ttu-id="1c8bc-116">Дополнительные сведения см [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543). в документации по групповой политике.</span><span class="sxs-lookup"><span data-stu-id="1c8bc-116">For details, see the Group Policy documentation at [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543).</span></span>
+<span data-ttu-id="e294d-115">Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики.</span><span class="sxs-lookup"><span data-stu-id="e294d-115">If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object.</span></span> <span data-ttu-id="e294d-116">Дополнительные сведения см [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543). в документации по групповой политике.</span><span class="sxs-lookup"><span data-stu-id="e294d-116">For details, see the Group Policy documentation at [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543).</span></span>
 
 </div>
 
