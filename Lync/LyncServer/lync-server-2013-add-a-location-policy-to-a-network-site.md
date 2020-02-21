@@ -12,20 +12,20 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a817a1a94b6e02167d488212dd532537cec0146
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: de9592b631562752fd2759d54b623d2ec3177d25
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145037"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="9c195-102">Добавление политики расположения к сетевому сайту в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c195-102">Add a location policy to a network site in Lync Server 2013</span></span>
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="6ce1d-102">Добавление политики расположения к сетевому сайту в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ce1d-102">Add a location policy to a network site in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42145037"
 
 <span> </span>
 
-<span data-ttu-id="9c195-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="9c195-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="6ce1d-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="6ce1d-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="9c195-104">В следующих примерах показано, как добавить политику расположения **Redmond** , определенную в разделе [Создание политик расположения в Lync Server 2013](lync-server-2013-create-location-policies.md) на существующий сетевой сайт, и как создать новый сетевой сайт, использующий политику расположения **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="9c195-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="6ce1d-104">В следующих примерах показано, как добавить политику расположения **Redmond** , определенную в разделе [Создание политик расположения в Lync Server 2013](lync-server-2013-create-location-policies.md) на существующий сетевой сайт, и как создать новый сетевой сайт, использующий политику расположения **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="6ce1d-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
 
-<span data-ttu-id="9c195-105">Для получения подробных сведений о работе с сетевыми сайтами обратитесь к документации по командной консоли Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="9c195-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="6ce1d-105">Для получения подробных сведений о работе с сетевыми сайтами обратитесь к документации по командной консоли Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="6ce1d-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="9c195-106">**New — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="9c195-106">**New-CsNetworkSite**</span></span>
+  - <span data-ttu-id="6ce1d-106">**New — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="6ce1d-106">**New-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="9c195-107">**Get — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="9c195-107">**Get-CsNetworkSite**</span></span>
+  - <span data-ttu-id="6ce1d-107">**Get — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="6ce1d-107">**Get-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="9c195-108">**Set — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="9c195-108">**Set-CsNetworkSite**</span></span>
+  - <span data-ttu-id="6ce1d-108">**Set — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="6ce1d-108">**Set-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="9c195-109">**Remove — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="9c195-109">**Remove-CsNetworkSite**</span></span>
+  - <span data-ttu-id="6ce1d-109">**Remove — CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="6ce1d-109">**Remove-CsNetworkSite**</span></span>
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="9c195-110">Назначение политики местоположения существующему сетевому узлу</span><span class="sxs-lookup"><span data-stu-id="9c195-110">To assign a location policy to an existing network site</span></span>
+## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="6ce1d-110">Назначение политики местоположения существующему сетевому узлу</span><span class="sxs-lookup"><span data-stu-id="6ce1d-110">To assign a location policy to an existing network site</span></span>
 
-1.  <span data-ttu-id="9c195-111">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9c195-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="6ce1d-111">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="9c195-112">Выполните следующие командлеты для изменения существующего сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="9c195-112">Run the following cmdlets to modify an existing network site.</span></span>
+2.  <span data-ttu-id="6ce1d-112">Выполните следующие командлеты для изменения существующего сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-112">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="9c195-113">Назначьте политику расположения с меткой **Redmond** существующему сетевому сайту с именем **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="9c195-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="6ce1d-113">Назначьте политику расположения с меткой **Redmond** существующему сетевому сайту с именем **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -65,13 +65,13 @@ ms.locfileid: "42145037"
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="9c195-114">Назначение политики местоположения новому сетевому узлу</span><span class="sxs-lookup"><span data-stu-id="9c195-114">To assign a location policy to a new network site</span></span>
+## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="6ce1d-114">Назначение политики местоположения новому сетевому узлу</span><span class="sxs-lookup"><span data-stu-id="6ce1d-114">To assign a location policy to a new network site</span></span>
 
-1.  <span data-ttu-id="9c195-115">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9c195-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="6ce1d-115">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="9c195-116">Выполните следующий командлет для создания нового сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="9c195-116">Run the following cmdlet to create a new network site.</span></span>
+2.  <span data-ttu-id="6ce1d-116">Выполните следующий командлет для создания нового сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-116">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="9c195-117">Создайте новый сетевой узел в области сети и назначьте ему политику местоположения с меткой **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="9c195-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="6ce1d-117">Создайте новый сетевой узел в области сети и назначьте ему политику местоположения с меткой **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="6ce1d-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ccea8c55de472930f74960736669f26f4ac78a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 58990adbd0b5240a5054a9d88ec34e3614831bf5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135506"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="dd474-102">Настройка абонентских планов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd474-102">Configuring dial plans in Lync Server 2013</span></span>
+# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="81e5c-102">Настройка абонентских планов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81e5c-102">Configuring dial plans in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42135506"
 
 <span> </span>
 
-<span data-ttu-id="dd474-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="dd474-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="81e5c-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="81e5c-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="dd474-104">Абонентская группа Lync Server 2013 — это именованный набор правил нормализации, которые преобразуют номера телефонов для именованного расположения, отдельного пользователя или контактного объекта для маршрутизации звонков и маршрутизации вызовов.</span><span class="sxs-lookup"><span data-stu-id="dd474-104">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
+<span data-ttu-id="81e5c-104">Абонентская группа Lync Server 2013 — это именованный набор правил нормализации, которые преобразуют номера телефонов для именованного расположения, отдельного пользователя или контактного объекта для маршрутизации звонков и маршрутизации вызовов.</span><span class="sxs-lookup"><span data-stu-id="81e5c-104">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dd474-105">Дополнительные сведения: <A href="lync-server-2013-dial-plans-and-normalization-rules.md">абонентские группы и правила нормализации в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="dd474-105">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="81e5c-105">Дополнительные сведения: <A href="lync-server-2013-dial-plans-and-normalization-rules.md">абонентские группы и правила нормализации в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="81e5c-105">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -51,22 +51,22 @@ ms.locfileid: "42135506"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dd474-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="dd474-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="81e5c-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="81e5c-106">In This Section</span></span>
 
-  - [<span data-ttu-id="dd474-107">Просмотр сведений о абонентской схеме в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd474-107">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
+  - [<span data-ttu-id="81e5c-107">Просмотр сведений о абонентской схеме в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81e5c-107">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
 
-  - [<span data-ttu-id="dd474-108">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd474-108">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
+  - [<span data-ttu-id="81e5c-108">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81e5c-108">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
 
-  - [<span data-ttu-id="dd474-109">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd474-109">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
+  - [<span data-ttu-id="81e5c-109">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81e5c-109">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="dd474-110">См. также</span><span class="sxs-lookup"><span data-stu-id="dd474-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="81e5c-110">См. также</span><span class="sxs-lookup"><span data-stu-id="81e5c-110">See Also</span></span>
 
 
-[<span data-ttu-id="dd474-111">Абонентские группы и правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd474-111">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
+[<span data-ttu-id="81e5c-111">Абонентские группы и правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81e5c-111">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
   
 
 </div>

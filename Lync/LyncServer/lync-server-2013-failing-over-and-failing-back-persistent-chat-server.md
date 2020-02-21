@@ -12,20 +12,20 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc7be543891f203b23da6724f46ce557dd1014a7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e2975c16c68118241608e6985ba426a6d40d3ee9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145858"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="c8ab4-102">Отработка отказа и отработка отказа сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8ab4-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="5ca48-102">Отработка отказа и отработка отказа сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ca48-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42145858"
 
 <span> </span>
 
-<span data-ttu-id="c8ab4-103">_**Последнее изменение темы:** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="c8ab4-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+<span data-ttu-id="5ca48-103">_**Последнее изменение темы:** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="5ca48-103">_**Topic Last Modified:** 2012-08-03_</span></span>
 
-<span data-ttu-id="c8ab4-104">Для отработки отказа и сбоя обратного сервера Lync Server 2013, сервера сохраняемого чата необходимо ознакомиться с процессами репликации и отработки отказа для Microsoft SQL Server 2008 R2 и более поздних версий.</span><span class="sxs-lookup"><span data-stu-id="c8ab4-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="c8ab4-105">Кроме того, следует ознакомиться со службами сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="c8ab4-105">You should also be familiar with the Persistent Chat Server services.</span></span>
+<span data-ttu-id="5ca48-104">Для отработки отказа и сбоя обратного сервера Lync Server 2013, сервера сохраняемого чата необходимо ознакомиться с процессами репликации и отработки отказа для Microsoft SQL Server 2008 R2 и более поздних версий.</span><span class="sxs-lookup"><span data-stu-id="5ca48-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="5ca48-105">Кроме того, следует ознакомиться со службами сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="5ca48-105">You should also be familiar with the Persistent Chat Server services.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c8ab4-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="c8ab4-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5ca48-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="5ca48-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c8ab4-107">Отработка отказа сервером сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8ab4-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
+  - [<span data-ttu-id="5ca48-107">Отработка отказа сервером сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ca48-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
 
-  - [<span data-ttu-id="c8ab4-108">Восстановление сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8ab4-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
+  - [<span data-ttu-id="5ca48-108">Восстановление сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ca48-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
 
 </div>
 

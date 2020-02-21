@@ -12,20 +12,20 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1709d783bf47537cec25f06232d5782975444f6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 37a513a4c603a062b7aa2a596921e76f9f96cce1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134685"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="faf96-102">Удаление существующей коллекции параметров конфигурации версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faf96-102">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="6a700-102">Удаление существующей коллекции параметров конфигурации версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a700-102">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "42134685"
 
 <span> </span>
 
-<span data-ttu-id="faf96-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="faf96-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="6a700-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="6a700-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="faf96-104">Если вы хотите удалить параметры конфигурации клиента, ранее настроенные для сайта, можно удалить параметры из панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="faf96-104">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="6a700-104">Если вы хотите удалить параметры конфигурации клиента, ранее настроенные для сайта, можно удалить параметры из панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a700-104">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="faf96-105">Удаление параметров конфигурации клиента с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="faf96-105">To remove client configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="6a700-105">Удаление параметров конфигурации клиента с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="6a700-105">To remove client configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="faf96-106">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="faf96-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="6a700-106">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="6a700-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="faf96-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="faf96-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="faf96-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="faf96-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="6a700-107">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6a700-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6a700-108">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6a700-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="faf96-109">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации **Конфигурация версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="faf96-109">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="6a700-109">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации **Конфигурация версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="6a700-109">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="faf96-110">Выберите сайт, нажмите кнопку **изменить**, выберите команду **Удалить**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="faf96-110">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
+4.  <span data-ttu-id="6a700-110">Выберите сайт, нажмите кнопку **изменить**, выберите команду **Удалить**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6a700-110">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="faf96-111">Удаление параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="faf96-111">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="6a700-111">Удаление параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="6a700-111">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="faf96-112">Вы можете удалить параметры конфигурации версий клиентов с помощью командлета **Remove – CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="faf96-112">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="faf96-113">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="faf96-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="faf96-114">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="faf96-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="6a700-112">Вы можете удалить параметры конфигурации версий клиентов с помощью командлета **Remove – CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="6a700-112">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="6a700-113">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="6a700-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="6a700-114">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="6a700-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="faf96-115">Удаление указанной коллекции параметров конфигурации версии клиента</span><span class="sxs-lookup"><span data-stu-id="faf96-115">To remove a specified collection of client version configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="6a700-115">Удаление указанной коллекции параметров конфигурации версии клиента</span><span class="sxs-lookup"><span data-stu-id="6a700-115">To remove a specified collection of client version configuration settings</span></span>
 
-  - <span data-ttu-id="faf96-116">Следующая команда удаляет параметры конфигурации версии клиента, применяемые к сайту Redmond:</span><span class="sxs-lookup"><span data-stu-id="faf96-116">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="6a700-116">Следующая команда удаляет параметры конфигурации версии клиента, применяемые к сайту Redmond:</span><span class="sxs-lookup"><span data-stu-id="6a700-116">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -71,9 +71,9 @@ ms.locfileid: "42134685"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="faf96-117">Удаление всех параметров конфигурации версий клиентов, примененных к области сайта</span><span class="sxs-lookup"><span data-stu-id="faf96-117">To remove all the client version configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="6a700-117">Удаление всех параметров конфигурации версий клиентов, примененных к области сайта</span><span class="sxs-lookup"><span data-stu-id="6a700-117">To remove all the client version configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="faf96-118">Эта команда удаляет все параметры конфигурации версий клиентов, настроенные на уровне сайта:</span><span class="sxs-lookup"><span data-stu-id="faf96-118">This command removes all the client version configuration settings configured at the site scope:</span></span>
+  - <span data-ttu-id="6a700-118">Эта команда удаляет все параметры конфигурации версий клиентов, настроенные на уровне сайта:</span><span class="sxs-lookup"><span data-stu-id="6a700-118">This command removes all the client version configuration settings configured at the site scope:</span></span>
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -81,15 +81,15 @@ ms.locfileid: "42134685"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="faf96-119">Удаление всех параметров конфигурации версии клиента на основе значения свойства DefaultAction</span><span class="sxs-lookup"><span data-stu-id="faf96-119">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="6a700-119">Удаление всех параметров конфигурации версии клиента на основе значения свойства DefaultAction</span><span class="sxs-lookup"><span data-stu-id="6a700-119">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
 
-  - <span data-ttu-id="faf96-120">Эта команда удаляет все параметры конфигурации версий клиентов, для которых в качестве действия по умолчанию задано значение "Block":</span><span class="sxs-lookup"><span data-stu-id="faf96-120">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
+  - <span data-ttu-id="6a700-120">Эта команда удаляет все параметры конфигурации версий клиентов, для которых в качестве действия по умолчанию задано значение "Block":</span><span class="sxs-lookup"><span data-stu-id="6a700-120">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-<span data-ttu-id="faf96-121">Дополнительные сведения см. в разделе справки для командлета [Remove – CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="faf96-121">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="6a700-121">Дополнительные сведения см. в разделе справки для командлета [Remove – CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="6a700-121">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 

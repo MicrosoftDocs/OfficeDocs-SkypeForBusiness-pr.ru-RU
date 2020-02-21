@@ -12,20 +12,20 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 080ae19b29f298689c52b5facae3b227687bae74
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fa5a74fd8fd15231246d6b37705c4c0303383cc6
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134115"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="9d534-102">Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d534-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
+# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="1dc1d-102">Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1dc1d-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42134115"
 
 <span> </span>
 
-<span data-ttu-id="9d534-103">_**Последнее изменение темы:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="9d534-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="1dc1d-103">_**Последнее изменение темы:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="1dc1d-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="9d534-104">Поставщик услуг E9-1-1 отправляет экстренные вызовы, исходящие из Lync Server, в правильную общедоступную точку безопасности ответа (PSAP) на основе сведений о расположении, содержащихся в вызове.</span><span class="sxs-lookup"><span data-stu-id="9d534-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
+<span data-ttu-id="1dc1d-104">Поставщик услуг E9-1-1 отправляет экстренные вызовы, исходящие из Lync Server, в правильную общедоступную точку безопасности ответа (PSAP) на основе сведений о расположении, содержащихся в вызове.</span><span class="sxs-lookup"><span data-stu-id="1dc1d-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
 
-<span data-ttu-id="9d534-105">Чтобы обеспечить поддержку E9 – 1 – 1 в развертывании Lync Server, необходимо получить службу маршрутизации E9 – 1 – 1 из поставщика услуг Lync Open — 1 – 1.</span><span class="sxs-lookup"><span data-stu-id="9d534-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="9d534-106">Выберите поставщика, наиболее точно отвечающего требованиям вашей организации.</span><span class="sxs-lookup"><span data-stu-id="9d534-106">Choose the provider that best fits your organizational requirements.</span></span>
+<span data-ttu-id="1dc1d-105">Чтобы обеспечить поддержку E9 – 1 – 1 в развертывании Lync Server, необходимо получить службу маршрутизации E9 – 1 – 1 из поставщика услуг Lync Open — 1 – 1.</span><span class="sxs-lookup"><span data-stu-id="1dc1d-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="1dc1d-106">Выберите поставщика, наиболее точно отвечающего требованиям вашей организации.</span><span class="sxs-lookup"><span data-stu-id="1dc1d-106">Choose the provider that best fits your organizational requirements.</span></span>
 
 </div>
 

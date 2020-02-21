@@ -12,20 +12,20 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 193ebaedd11c239ba380937da3051ec8336578a3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8a7da4487c376ceea4c5c3e41e20a55874b27f06
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145047"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a><span data-ttu-id="938cf-102">Поддержка Active Directory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="938cf-102">Active Directory support in Lync Server 2013</span></span>
+# <a name="active-directory-support-in-lync-server-2013"></a><span data-ttu-id="af96f-102">Поддержка Active Directory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af96f-102">Active Directory support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42145047"
 
 <span> </span>
 
-<span data-ttu-id="938cf-103">_**Последнее изменение темы:** 2012-12-04_</span><span class="sxs-lookup"><span data-stu-id="938cf-103">_**Topic Last Modified:** 2012-12-04_</span></span>
+<span data-ttu-id="af96f-103">_**Последнее изменение темы:** 2012-12-04_</span><span class="sxs-lookup"><span data-stu-id="af96f-103">_**Topic Last Modified:** 2012-12-04_</span></span>
 
-<span data-ttu-id="938cf-104">Локальные топологии доменных служб Active Directory, поддерживаемые в Lync Server 2013, приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="938cf-104">The Active Directory Domain Services on-premises topologies that are supported by Lync Server 2013 are as follows:</span></span>
+<span data-ttu-id="af96f-104">Локальные топологии доменных служб Active Directory, поддерживаемые в Lync Server 2013, приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="af96f-104">The Active Directory Domain Services on-premises topologies that are supported by Lync Server 2013 are as follows:</span></span>
 
-  - <span data-ttu-id="938cf-105">один лес с одним доменом;</span><span class="sxs-lookup"><span data-stu-id="938cf-105">Single forest with single domain</span></span>
+  - <span data-ttu-id="af96f-105">один лес с одним доменом;</span><span class="sxs-lookup"><span data-stu-id="af96f-105">Single forest with single domain</span></span>
 
-  - <span data-ttu-id="938cf-106">один лес с одним деревом и несколькими доменами;</span><span class="sxs-lookup"><span data-stu-id="938cf-106">Single forest with a single tree and multiple domains</span></span>
+  - <span data-ttu-id="af96f-106">один лес с одним деревом и несколькими доменами;</span><span class="sxs-lookup"><span data-stu-id="af96f-106">Single forest with a single tree and multiple domains</span></span>
 
-  - <span data-ttu-id="938cf-107">один лес с несколькими деревьями и несвязанными пространствами имен;</span><span class="sxs-lookup"><span data-stu-id="938cf-107">Single forest with multiple trees and disjoint namespaces</span></span>
+  - <span data-ttu-id="af96f-107">один лес с несколькими деревьями и несвязанными пространствами имен;</span><span class="sxs-lookup"><span data-stu-id="af96f-107">Single forest with multiple trees and disjoint namespaces</span></span>
 
-  - <span data-ttu-id="938cf-108">несколько лесов в топологии с центральным лесом;</span><span class="sxs-lookup"><span data-stu-id="938cf-108">Multiple forests in a central forest topology</span></span>
+  - <span data-ttu-id="af96f-108">несколько лесов в топологии с центральным лесом;</span><span class="sxs-lookup"><span data-stu-id="af96f-108">Multiple forests in a central forest topology</span></span>
 
-  - <span data-ttu-id="938cf-109">несколько лесов в топологии с лесом ресурсов.</span><span class="sxs-lookup"><span data-stu-id="938cf-109">Multiple forests in a resource forest topology</span></span>
+  - <span data-ttu-id="af96f-109">несколько лесов в топологии с лесом ресурсов.</span><span class="sxs-lookup"><span data-stu-id="af96f-109">Multiple forests in a resource forest topology</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="938cf-110">Lync Server 2013 не поддерживает однокомпонентные домены.</span><span class="sxs-lookup"><span data-stu-id="938cf-110">Lync Server 2013 does not support single-label domains.</span></span> <span data-ttu-id="938cf-111">Например, лес с корневым доменом <STRONG>contoso.local</STRONG> поддерживается, а с однокомпонентным корневым доменом <STRONG>local</STRONG> — нет.</span><span class="sxs-lookup"><span data-stu-id="938cf-111">For example, a forest with a root domain named <STRONG>contoso.local</STRONG> is supported, but a single-label root domain named <STRONG>local</STRONG> is not supported.</span></span> <span data-ttu-id="938cf-112">Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем, сопоставленными с <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>одной меткой" по адресу ".</span><span class="sxs-lookup"><span data-stu-id="938cf-112">For details, see Microsoft Knowledge Base article 300684, "Information about configuring Windows for domains with single-label DNS names," at <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>.</span></span>
+> <span data-ttu-id="af96f-110">Lync Server 2013 не поддерживает однокомпонентные домены.</span><span class="sxs-lookup"><span data-stu-id="af96f-110">Lync Server 2013 does not support single-label domains.</span></span> <span data-ttu-id="af96f-111">Например, лес с корневым доменом <STRONG>contoso.local</STRONG> поддерживается, а с однокомпонентным корневым доменом <STRONG>local</STRONG> — нет.</span><span class="sxs-lookup"><span data-stu-id="af96f-111">For example, a forest with a root domain named <STRONG>contoso.local</STRONG> is supported, but a single-label root domain named <STRONG>local</STRONG> is not supported.</span></span> <span data-ttu-id="af96f-112">Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем, сопоставленными с <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>одной меткой" по адресу ".</span><span class="sxs-lookup"><span data-stu-id="af96f-112">For details, see Microsoft Knowledge Base article 300684, "Information about configuring Windows for domains with single-label DNS names," at <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>.</span></span>
 
 
 
@@ -63,13 +63,13 @@ ms.locfileid: "42145047"
 
 
 > [!NOTE]  
-> <span data-ttu-id="938cf-113">Lync Server 2013 не поддерживает переименование доменов.</span><span class="sxs-lookup"><span data-stu-id="938cf-113">Lync Server 2013 does not support renaming domains.</span></span> <span data-ttu-id="938cf-114">Если требуется переименовать домен, на котором развернут Lync Server, сначала необходимо удалить Lync Server, затем переименовать домен, а затем переустановить Lync Server.</span><span class="sxs-lookup"><span data-stu-id="938cf-114">If you need to rename a domain where Lync Server is deployed, you need to first uninstall Lync Server, then rename the domain, and then reinstall Lync Server.</span></span>
+> <span data-ttu-id="af96f-113">Lync Server 2013 не поддерживает переименование доменов.</span><span class="sxs-lookup"><span data-stu-id="af96f-113">Lync Server 2013 does not support renaming domains.</span></span> <span data-ttu-id="af96f-114">Если требуется переименовать домен, на котором развернут Lync Server, сначала необходимо удалить Lync Server, затем переименовать домен, а затем переустановить Lync Server.</span><span class="sxs-lookup"><span data-stu-id="af96f-114">If you need to rename a domain where Lync Server is deployed, you need to first uninstall Lync Server, then rename the domain, and then reinstall Lync Server.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="938cf-115">Подробные сведения о поддерживаемых топологиях и требованиях для локальных развертываний приведены в разделе [требования к доменным службам Active Directory, поддержке и топологий в Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="938cf-115">For details about supported topologies and requirements for on-premises deployments, see [Active Directory Domain Services requirements, support, and topologies in Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) in the Planning documentation.</span></span>
+<span data-ttu-id="af96f-115">Подробные сведения о поддерживаемых топологиях и требованиях для локальных развертываний приведены в разделе [требования к доменным службам Active Directory, поддержке и топологий в Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="af96f-115">For details about supported topologies and requirements for on-premises deployments, see [Active Directory Domain Services requirements, support, and topologies in Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) in the Planning documentation.</span></span>
 
 </div>
 
