@@ -198,7 +198,6 @@
 ### [Телефоны, поддерживаемые в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Развертывание телефонов для приложения Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Настройка телефонов общего пользования](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
-### [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Возможности телефонной системы](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### Облачная голосовая почта
 #### [Изменение языка по умолчанию для приветствий в голосовой почте и электронных писем в организации](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

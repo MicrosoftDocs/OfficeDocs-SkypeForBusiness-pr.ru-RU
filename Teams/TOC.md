@@ -54,6 +54,7 @@
 
 ### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
 ### [Разрешения и рекомендации для приложений](app-permissions.md)
+### [Управление приложениями для Teams](manage-apps.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [Обзор](direct-routing-landing-page.md)
 ### [Планирование прямой маршрутизации](direct-routing-plan.md)
-### [Настройка прямой маршрутизации](direct-routing-configure.md)
+### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
+
+### Настройка прямой маршрутизации
+#### [Обзор](direct-routing-configure.md)
+#### [Подключение SBC для прямой маршрутизации](direct-routing-connect-the-sbc.md)
+#### [Разрешение для пользователей прямой маршрутизации, голосовых вызовов и голосовой почты](direct-routing-enable-users.md)
+#### [Настройка маршрутизации голосовых вызовов](direct-routing-voice-routing.md)
+#### [Перевод телефонных номеров](direct-routing-translate-numbers.md)
+#### [Настройка SBC для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
+#### [Использование аналоговых устройств при прямой маршрутизации](direct-routing-analog-devices.md)
+
+
 ### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
 
 ### Отслеживание и устранение неполадок прямой маршрутизации
 #### [Обзор](direct-routing-monitor-and-troubleshoot.md)
 #### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
-### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
+
+
 ### Маршрутизация на основе расположения
 #### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# Гибридное подключение 
+# Гибридное подключение
 
 ## [Планирование гибридного подключения](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [Перемещение пользователей из локальной среды в Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Перемещение пользователей из облака в локальную среду](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Управление миграцией собраний](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Управление миграцией собраний](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [Отключение гибридного развертывания для завершения миграции в облако](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # Руководство для отраслей и государственных организаций
-## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # Безопасность и соответствие требованиям
-## [Обзор](security-compliance-overview.md)
-## [Информационные барьеры в Teams](information-barriers-in-teams.md)
-## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
-## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
-## [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
-## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
-## [Поиск событий Teams в журнале аудита](audit-log-events.md)
-## [Поиск контента в Teams](content-search.md)
-## [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
-## Политики хранения в Teams
-### [Обзор](retention-policies.md)
-### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
-## [Расположение данных в Teams](location-of-data-in-teams.md)
-## [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Рекомендации по сбору данных](data-collection-practices.md)
-## [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
-
+## Безопасность
+### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
+### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
+## Соответствие требованиям
+### [Обзор](security-compliance-overview.md)
+### [Информационные барьеры](information-barriers-in-teams.md)
+### [Политики хранения](retention-policies.md)
+### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Обнаружение электронных данных
+#### [Обнаружение электронных данных](ediscovery-investigation.md)
+#### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
+### Поиск контента
+#### [Использование поиска контента](content-search.md)
+#### [Поиск событий в журнале аудита](audit-log-events.md)
+### [Политики управления приложениями AppLocker](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
@@ -670,7 +677,11 @@
 <!-- ============================================================ -->
 #       
 #    
-# Справка
+# Ссылки
+
+## [Ограничения и спецификации для Teams](limits-specifications-teams.md)
+## [Расположение данных в Teams](location-of-data-in-teams.md)
+## [Рекомендации по сбору данных](data-collection-practices.md)
 
 ## Подготовка к развертыванию Teams
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
@@ -678,7 +689,6 @@
 ### [Использование планировщика сети для Teams](network-planner.md)
 ### [Пошаговое руководство по работе с планировщиком сети](tutorial-network-planner-example.yml)
 ### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
-### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 ### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ### [Планирование управления в Teams](plan-teams-governance.md)
@@ -854,3 +864,10 @@
 ### [Уругвай](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Венесуэла](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Вьетнам](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## Специальные возможности и соответствие требованиям
+### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
+### [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
