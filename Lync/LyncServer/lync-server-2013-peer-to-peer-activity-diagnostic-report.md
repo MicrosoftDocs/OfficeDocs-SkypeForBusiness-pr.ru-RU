@@ -12,20 +12,20 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b72e9caec70a31280001875063cd6b7d233c500
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140032"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="0d0dd-102">Диагностический отчет об одноранговых действиях в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d0dd-102">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="24100-102">Диагностический отчет об одноранговых действиях в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24100-102">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42140032"
 
 <span> </span>
 
-<span data-ttu-id="0d0dd-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="0d0dd-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="24100-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="24100-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="0d0dd-104">Диагностический отчет об одноранговом обмене данными предоставляет сведения об успешных и неудавшихся сеансах однорангового обмена данными.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-104">The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="0d0dd-105">Обратите внимание, что Microsoft Lync Server 2013 различает различные типы сбоев:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-105">Note that Microsoft Lync Server 2013 distinguishes between different kinds of failure:</span></span>
+<span data-ttu-id="24100-104">Диагностический отчет об одноранговом обмене данными предоставляет сведения об успешных и неудавшихся сеансах однорангового обмена данными.</span><span class="sxs-lookup"><span data-stu-id="24100-104">The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="24100-105">Обратите внимание, что Microsoft Lync Server 2013 различает различные типы сбоев:</span><span class="sxs-lookup"><span data-stu-id="24100-105">Note that Microsoft Lync Server 2013 distinguishes between different kinds of failure:</span></span>
 
-  - <span data-ttu-id="0d0dd-106">**Ожидаемый отказ**.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-106">**Expected failure**.</span></span> <span data-ttu-id="0d0dd-107">Под ожидаемым отказом обычно понимается отказ в сугубо техническом смысле.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="0d0dd-108">Например, предположим, что вы звоните кому-то, но этого человека нет на месте, и он не может ответить на звонок.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-108">For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone.</span></span> <span data-ttu-id="0d0dd-109">Поскольку на звонок не был получен ответ, такая ситуация технически считается отказом.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-109">Because the call was not answered, the call is technically considered a failure.</span></span> <span data-ttu-id="0d0dd-110">С другой стороны, ожидаемый сбой: Microsoft Lync Server 2013 не ожидает ответа на телефон, если вы не можете ответить на телефон.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-110">On the other hand, this was an expected failure: Microsoft Lync Server 2013 does not expect you to answer the phone if you're not available to answer the phone.</span></span> <span data-ttu-id="0d0dd-111">Аналогичным образом, ожидаемый отказ произойдет в том случае, если вы попытаетесь отправить мгновенное сообщение пользователю, которого нет в сети или который работает с телефона, не поддерживающего обмен мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-111">Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.</span></span>
+  - <span data-ttu-id="24100-106">**Ожидаемый отказ**.</span><span class="sxs-lookup"><span data-stu-id="24100-106">**Expected failure**.</span></span> <span data-ttu-id="24100-107">Под ожидаемым отказом обычно понимается отказ в сугубо техническом смысле.</span><span class="sxs-lookup"><span data-stu-id="24100-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="24100-108">Например, предположим, что вы звоните кому-то, но этого человека нет на месте, и он не может ответить на звонок.</span><span class="sxs-lookup"><span data-stu-id="24100-108">For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone.</span></span> <span data-ttu-id="24100-109">Поскольку на звонок не был получен ответ, такая ситуация технически считается отказом.</span><span class="sxs-lookup"><span data-stu-id="24100-109">Because the call was not answered, the call is technically considered a failure.</span></span> <span data-ttu-id="24100-110">С другой стороны, ожидаемый сбой: Microsoft Lync Server 2013 не ожидает ответа на телефон, если вы не можете ответить на телефон.</span><span class="sxs-lookup"><span data-stu-id="24100-110">On the other hand, this was an expected failure: Microsoft Lync Server 2013 does not expect you to answer the phone if you're not available to answer the phone.</span></span> <span data-ttu-id="24100-111">Аналогичным образом, ожидаемый отказ произойдет в том случае, если вы попытаетесь отправить мгновенное сообщение пользователю, которого нет в сети или который работает с телефона, не поддерживающего обмен мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="24100-111">Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.</span></span>
 
-  - <span data-ttu-id="0d0dd-112">**Неожиданный сбой**.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-112">**Unexpected failure**.</span></span> <span data-ttu-id="0d0dd-113">Непредвиденная ошибка — это именно то, что подразумевается: ошибка, которая в зависимости от обстоятельств не ожидается.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-113">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="0d0dd-114">Например, вы звоните кому-то, и кто-то может ответить на звонок; Однако когда Lync Server 2013 пытается направить вызов в голосовую почту, происходит сбой вызова из-за потери подключения к единой системе обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-114">For example, suppose you call someone and that person is available to answer the call; however, when Lync Server 2013 tries to route your call to voicemail the call fails because connectivity to Exchange Unified Messaging has been lost.</span></span> <span data-ttu-id="0d0dd-115">Это непредвиденная ошибка: вы ожидаете, что звонки всегда будут маршрутизироваться в голосовую почту.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-115">That's an unexpected error: you would expect that calls could always be routed to voicemail.</span></span> <span data-ttu-id="0d0dd-116">Как правило, неожиданные сбои — это проблемы, которые, вероятно, не могут быть ремедиеды с помощью обучения пользователей или аналогичных мер.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-116">As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.</span></span>
+  - <span data-ttu-id="24100-112">**Неожиданный сбой**.</span><span class="sxs-lookup"><span data-stu-id="24100-112">**Unexpected failure**.</span></span> <span data-ttu-id="24100-113">Непредвиденная ошибка — это именно то, что подразумевается: ошибка, которая в зависимости от обстоятельств не ожидается.</span><span class="sxs-lookup"><span data-stu-id="24100-113">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="24100-114">Например, вы звоните кому-то, и кто-то может ответить на звонок; Однако когда Lync Server 2013 пытается направить вызов в голосовую почту, происходит сбой вызова из-за потери подключения к единой системе обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="24100-114">For example, suppose you call someone and that person is available to answer the call; however, when Lync Server 2013 tries to route your call to voicemail the call fails because connectivity to Exchange Unified Messaging has been lost.</span></span> <span data-ttu-id="24100-115">Это непредвиденная ошибка: вы ожидаете, что звонки всегда будут маршрутизироваться в голосовую почту.</span><span class="sxs-lookup"><span data-stu-id="24100-115">That's an unexpected error: you would expect that calls could always be routed to voicemail.</span></span> <span data-ttu-id="24100-116">Как правило, неожиданные сбои — это проблемы, которые, вероятно, не могут быть ремедиеды с помощью обучения пользователей или аналогичных мер.</span><span class="sxs-lookup"><span data-stu-id="24100-116">As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.</span></span>
 
-<span data-ttu-id="0d0dd-p104">Обратите внимание на то, что число успешных сеансов, ожидаемых отказов и непредвиденных отказов может быть не равно в сумме общему числу сеансов. Например, имеются следующие значения.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, in the preceding illustration, we have the following values:</span></span>
+<span data-ttu-id="24100-p104">Обратите внимание на то, что число успешных сеансов, ожидаемых отказов и непредвиденных отказов может быть не равно в сумме общему числу сеансов. Например, имеются следующие значения.</span><span class="sxs-lookup"><span data-stu-id="24100-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, in the preceding illustration, we have the following values:</span></span>
 
 
 <table>
@@ -55,54 +55,54 @@ ms.locfileid: "42140032"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0d0dd-119">Успешные операции</span><span class="sxs-lookup"><span data-stu-id="0d0dd-119">Successes</span></span></th>
-<th><span data-ttu-id="0d0dd-120">Число ожидаемых сбоев</span><span class="sxs-lookup"><span data-stu-id="0d0dd-120">Expected failures</span></span></th>
-<th><span data-ttu-id="0d0dd-121">Число неожиданных сбоев</span><span class="sxs-lookup"><span data-stu-id="0d0dd-121">Unexpected failures</span></span></th>
-<th><span data-ttu-id="0d0dd-122">Всего сеансов</span><span class="sxs-lookup"><span data-stu-id="0d0dd-122">Total sessions</span></span></th>
+<th><span data-ttu-id="24100-119">Успешные операции</span><span class="sxs-lookup"><span data-stu-id="24100-119">Successes</span></span></th>
+<th><span data-ttu-id="24100-120">Число ожидаемых сбоев</span><span class="sxs-lookup"><span data-stu-id="24100-120">Expected failures</span></span></th>
+<th><span data-ttu-id="24100-121">Число неожиданных сбоев</span><span class="sxs-lookup"><span data-stu-id="24100-121">Unexpected failures</span></span></th>
+<th><span data-ttu-id="24100-122">Всего сеансов</span><span class="sxs-lookup"><span data-stu-id="24100-122">Total sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-123">2024</span><span class="sxs-lookup"><span data-stu-id="0d0dd-123">2024</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-124">469</span><span class="sxs-lookup"><span data-stu-id="0d0dd-124">469</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-125">16 </span><span class="sxs-lookup"><span data-stu-id="0d0dd-125">16</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-126">2521</span><span class="sxs-lookup"><span data-stu-id="0d0dd-126">2521</span></span></p></td>
+<td><p><span data-ttu-id="24100-123">2024</span><span class="sxs-lookup"><span data-stu-id="24100-123">2024</span></span></p></td>
+<td><p><span data-ttu-id="24100-124">469</span><span class="sxs-lookup"><span data-stu-id="24100-124">469</span></span></p></td>
+<td><p><span data-ttu-id="24100-125">16 </span><span class="sxs-lookup"><span data-stu-id="24100-125">16</span></span></p></td>
+<td><p><span data-ttu-id="24100-126">2521</span><span class="sxs-lookup"><span data-stu-id="24100-126">2521</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="0d0dd-127">Если сложить 2024 + 469 + 16, то получится 2509 сеансов, но в столбце "Всего сеансов" показано 2521 сеансов.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-127">If you add 2024 + 469 + 16 you get a total of 2,509 sessions, yet the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="0d0dd-128">"Недостающие" 12 сеансов — это сеансы, которые система не смогла определить как успешные или неудавшиеся.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-128">The "missing" 12 sessions are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="0d0dd-129">Это иногда происходит, когда сторонний продукт представляет новый диагностический код, незнакомый с Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-129">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Lync Server.</span></span> <span data-ttu-id="0d0dd-130">В этом случае звонки, совершенные с помощью этого продукта и зарегистрированные с помощью его кода диагностики, не всегда могут быть отнесены к успешным, ожидаемым отказам или непредвиденным отказам.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-130">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
+<span data-ttu-id="24100-127">Если сложить 2024 + 469 + 16, то получится 2509 сеансов, но в столбце "Всего сеансов" показано 2521 сеансов.</span><span class="sxs-lookup"><span data-stu-id="24100-127">If you add 2024 + 469 + 16 you get a total of 2,509 sessions, yet the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="24100-128">"Недостающие" 12 сеансов — это сеансы, которые система не смогла определить как успешные или неудавшиеся.</span><span class="sxs-lookup"><span data-stu-id="24100-128">The "missing" 12 sessions are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="24100-129">Это иногда происходит, когда сторонний продукт представляет новый диагностический код, незнакомый с Lync Server.</span><span class="sxs-lookup"><span data-stu-id="24100-129">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Lync Server.</span></span> <span data-ttu-id="24100-130">В этом случае звонки, совершенные с помощью этого продукта и зарегистрированные с помощью его кода диагностики, не всегда могут быть отнесены к успешным, ожидаемым отказам или непредвиденным отказам.</span><span class="sxs-lookup"><span data-stu-id="24100-130">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="0d0dd-131">Доступ к диагностическому отчету об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="0d0dd-131">Accessing the Peer-to-Peer Activity Diagnostic Report</span></span>
+## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="24100-131">Доступ к диагностическому отчету об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="24100-131">Accessing the Peer-to-Peer Activity Diagnostic Report</span></span>
 
-<span data-ttu-id="0d0dd-132">Доступ к диагностическому отчету об одноранговом обмене данными можно получить с домашней страницы "Отчеты наблюдения".</span><span class="sxs-lookup"><span data-stu-id="0d0dd-132">The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="0d0dd-133">Вы можете получить доступ к [отчету распределения сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md) , щелкнув один из следующих показателей:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-133">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="24100-132">Доступ к диагностическому отчету об одноранговом обмене данными можно получить с домашней страницы "Отчеты наблюдения".</span><span class="sxs-lookup"><span data-stu-id="24100-132">The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="24100-133">Вы можете получить доступ к [отчету распределения сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md) , щелкнув один из следующих показателей:</span><span class="sxs-lookup"><span data-stu-id="24100-133">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="0d0dd-134">Unexpected failure volume (Неожиданный сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-134">Unexpected failure volume</span></span>
+  - <span data-ttu-id="24100-134">Unexpected failure volume (Неожиданный сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="24100-134">Unexpected failure volume</span></span>
 
-  - <span data-ttu-id="0d0dd-135">Expected failure volume (Ожидаемый сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-135">Expected failure volume</span></span>
+  - <span data-ttu-id="24100-135">Expected failure volume (Ожидаемый сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="24100-135">Expected failure volume</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="0d0dd-136">Рекомендации по использованию диагностического отчета об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="0d0dd-136">Making the Best Use of the Peer-to-Peer Activity Diagnostic Report</span></span>
+## <a name="making-the-best-use-of-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="24100-136">Рекомендации по использованию диагностического отчета об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="24100-136">Making the Best Use of the Peer-to-Peer Activity Diagnostic Report</span></span>
 
-<span data-ttu-id="0d0dd-p107">Имеется ряд способов фильтрации диагностического отчета об одноранговом обмене данными, но по умолчанию соответствующие параметры скрыты. Чтобы просмотреть доступные параметры фильтрации, нажмите кнопку "Показать или скрыть параметры" в правом верхнем углу окна отчета. Параметры фильтрации станут доступны для использования.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p107">There are a number of ways you can filter the Peer-to-Peer Activity Diagnostic Report but, by default, those filtering options are hidden from view. To view the filtering options available to you, click the Show/Hide Parameters button in the upper right-hand corner of the report window. Once you do that the filtering options will be available for use.</span></span>
+<span data-ttu-id="24100-p107">Имеется ряд способов фильтрации диагностического отчета об одноранговом обмене данными, но по умолчанию соответствующие параметры скрыты. Чтобы просмотреть доступные параметры фильтрации, нажмите кнопку "Показать или скрыть параметры" в правом верхнем углу окна отчета. Параметры фильтрации станут доступны для использования.</span><span class="sxs-lookup"><span data-stu-id="24100-p107">There are a number of ways you can filter the Peer-to-Peer Activity Diagnostic Report but, by default, those filtering options are hidden from view. To view the filtering options available to you, click the Show/Hide Parameters button in the upper right-hand corner of the report window. Once you do that the filtering options will be available for use.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="0d0dd-140">Фильтры</span><span class="sxs-lookup"><span data-stu-id="0d0dd-140">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="24100-140">Фильтры</span><span class="sxs-lookup"><span data-stu-id="24100-140">Filters</span></span>
 
-<span data-ttu-id="0d0dd-p108">Фильтры позволяют получить более конкретные наборы возвращаемых данных. Например, диагностический отчет об одноранговом обмене данными позволяет фильтровать данные по таким признакам, как модальность сеанса (например, обмен мгновенными сообщениями, передача файлов или общий доступ к приложениям). Вы также можете выбрать тип группировки данных. В этом случае звонки группируются по часам, дням или неделям.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Peer-to-Peer Activity Diagnostic Report enables you to filter on such things as the session modality (for example, instant messaging, file transfer, or application sharing). You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="24100-p108">Фильтры позволяют получить более конкретные наборы возвращаемых данных. Например, диагностический отчет об одноранговом обмене данными позволяет фильтровать данные по таким признакам, как модальность сеанса (например, обмен мгновенными сообщениями, передача файлов или общий доступ к приложениям). Вы также можете выбрать тип группировки данных. В этом случае звонки группируются по часам, дням или неделям.</span><span class="sxs-lookup"><span data-stu-id="24100-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Peer-to-Peer Activity Diagnostic Report enables you to filter on such things as the session modality (for example, instant messaging, file transfer, or application sharing). You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="0d0dd-145">В следующем списке перечислены фильтры, которые можно использовать с диагностическим отчетом об одноранговом обмене данными.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-145">The following table lists the filters that you can use with the Peer-to-Peer Activity Diagnostic Report.</span></span>
+<span data-ttu-id="24100-145">В следующем списке перечислены фильтры, которые можно использовать с диагностическим отчетом об одноранговом обмене данными.</span><span class="sxs-lookup"><span data-stu-id="24100-145">The following table lists the filters that you can use with the Peer-to-Peer Activity Diagnostic Report.</span></span>
 
-### <a name="peer-to-peer-activity-diagnostic-report-filters"></a><span data-ttu-id="0d0dd-146">Фильтры диагностического отчета об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="0d0dd-146">Peer-to-Peer Activity Diagnostic Report Filters</span></span>
+### <a name="peer-to-peer-activity-diagnostic-report-filters"></a><span data-ttu-id="24100-146">Фильтры диагностического отчета об одноранговом обмене данными</span><span class="sxs-lookup"><span data-stu-id="24100-146">Peer-to-Peer Activity Diagnostic Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -111,56 +111,56 @@ ms.locfileid: "42140032"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0d0dd-147">Имя</span><span class="sxs-lookup"><span data-stu-id="0d0dd-147">Name</span></span></th>
-<th><span data-ttu-id="0d0dd-148">Описание</span><span class="sxs-lookup"><span data-stu-id="0d0dd-148">Description</span></span></th>
+<th><span data-ttu-id="24100-147">Имя</span><span class="sxs-lookup"><span data-stu-id="24100-147">Name</span></span></th>
+<th><span data-ttu-id="24100-148">Описание</span><span class="sxs-lookup"><span data-stu-id="24100-148">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-149"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-149"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p109">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="0d0dd-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0d0dd-152">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="0d0dd-p110">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="0d0dd-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0d0dd-155">7/7/2012</span></span></p>
-<p><span data-ttu-id="0d0dd-156">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="0d0dd-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="0d0dd-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0d0dd-157">7/3/2012</span></span></p>
-<p><span data-ttu-id="0d0dd-158">Недели всегда начинаются с Воскресенья и заканчиваются в Субботу.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="24100-149"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="24100-149"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-p109">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="24100-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="24100-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="24100-152">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="24100-p110">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="24100-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="24100-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="24100-155">7/7/2012</span></span></p>
+<p><span data-ttu-id="24100-156">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="24100-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="24100-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="24100-157">7/3/2012</span></span></p>
+<p><span data-ttu-id="24100-158">Недели всегда начинаются с Воскресенья и заканчиваются в Субботу.</span><span class="sxs-lookup"><span data-stu-id="24100-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d0dd-159"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-159"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p111">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="0d0dd-162">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-162">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="0d0dd-p112">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="0d0dd-165">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0d0dd-165">7/7/2012</span></span></p>
-<p><span data-ttu-id="0d0dd-166">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="0d0dd-166">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="0d0dd-167">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0d0dd-167">7/3/2012</span></span></p>
-<p><span data-ttu-id="0d0dd-168">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-168">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="24100-159"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="24100-159"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-p111">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="24100-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="24100-162">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="24100-162">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="24100-p112">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="24100-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="24100-165">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="24100-165">7/7/2012</span></span></p>
+<p><span data-ttu-id="24100-166">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="24100-166">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="24100-167">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="24100-167">7/3/2012</span></span></p>
+<p><span data-ttu-id="24100-168">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="24100-168">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-169"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-169"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p113">Временной интервал. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p113">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="24100-169"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="24100-169"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-p113">Временной интервал. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="24100-p113">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="0d0dd-172">Ежечасно (может отображаться до 25 часов)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-172">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-173">Ежедневно (может отображаться до 31 дня)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-173">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-174">Еженедельно (может отображаться до 12 недель)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-174">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-175">Ежемесячно (может отображаться до 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-175">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="24100-172">Ежечасно (может отображаться до 25 часов)</span><span class="sxs-lookup"><span data-stu-id="24100-172">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="24100-173">Ежедневно (может отображаться до 31 дня)</span><span class="sxs-lookup"><span data-stu-id="24100-173">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="24100-174">Еженедельно (может отображаться до 12 недель)</span><span class="sxs-lookup"><span data-stu-id="24100-174">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="24100-175">Ежемесячно (может отображаться до 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="24100-175">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="0d0dd-p114">Если начальная и конечная даты превышают максимально допустимое количество значений для выбранного интервала, отображается только максимальное число значений (с отсчетом от начальной даты). Например, если вы выбрали интервал «Daily» с начальной датой 7/7/2012 и конечной датой 2/28/2012, отображаются данные по дням с 00:00 часов 8/7/2012  по 00:00 часов 9/7/2012 (то есть всего за 31 день).</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="24100-p114">Если начальная и конечная даты превышают максимально допустимое количество значений для выбранного интервала, отображается только максимальное число значений (с отсчетом от начальной даты). Например, если вы выбрали интервал «Daily» с начальной датой 7/7/2012 и конечной датой 2/28/2012, отображаются данные по дням с 00:00 часов 8/7/2012  по 00:00 часов 9/7/2012 (то есть всего за 31 день).</span><span class="sxs-lookup"><span data-stu-id="24100-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d0dd-178"><strong>Ресурсов</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-178"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p115">Полное доменное имя пула регистратора или пограничного сервера. Вы можете выбрать отдельный пул или щелкнуть <strong>[Все]</strong>, чтобы просмотреть данные по всем пулам. Этот раскрывающийся список заполняется автоматически в соответствии с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="24100-178"><strong>Ресурсов</strong></span><span class="sxs-lookup"><span data-stu-id="24100-178"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-p115">Полное доменное имя пула регистратора или пограничного сервера. Вы можете выбрать отдельный пул или щелкнуть <strong>[Все]</strong>, чтобы просмотреть данные по всем пулам. Этот раскрывающийся список заполняется автоматически в соответствии с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="24100-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-182"><strong>Модальности</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-182"><strong>Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p116">Указывает на тип взаимодействия. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p116">Indicates the type of communication activity that took place. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="24100-182"><strong>Модальности</strong></span><span class="sxs-lookup"><span data-stu-id="24100-182"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-p116">Указывает на тип взаимодействия. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="24100-p116">Indicates the type of communication activity that took place. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="0d0dd-185">Ко</span><span class="sxs-lookup"><span data-stu-id="0d0dd-185">[All]</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-186">Обмен мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="0d0dd-186">Instant messaging</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-187">Передача файлов</span><span class="sxs-lookup"><span data-stu-id="0d0dd-187">File transfer</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-188">Совместное использование приложений</span><span class="sxs-lookup"><span data-stu-id="0d0dd-188">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-189">"Audio" (Аудио);</span><span class="sxs-lookup"><span data-stu-id="0d0dd-189">Audio</span></span></p></li>
-<li><p><span data-ttu-id="0d0dd-190">"Video" (Видео);</span><span class="sxs-lookup"><span data-stu-id="0d0dd-190">Video</span></span></p></li>
+<li><p><span data-ttu-id="24100-185">Ко</span><span class="sxs-lookup"><span data-stu-id="24100-185">[All]</span></span></p></li>
+<li><p><span data-ttu-id="24100-186">Обмен мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="24100-186">Instant messaging</span></span></p></li>
+<li><p><span data-ttu-id="24100-187">Передача файлов</span><span class="sxs-lookup"><span data-stu-id="24100-187">File transfer</span></span></p></li>
+<li><p><span data-ttu-id="24100-188">Совместное использование приложений</span><span class="sxs-lookup"><span data-stu-id="24100-188">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="24100-189">"Audio" (Аудио);</span><span class="sxs-lookup"><span data-stu-id="24100-189">Audio</span></span></p></li>
+<li><p><span data-ttu-id="24100-190">"Video" (Видео);</span><span class="sxs-lookup"><span data-stu-id="24100-190">Video</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -171,11 +171,11 @@ ms.locfileid: "42140032"
 
 <div>
 
-## <a name="metrics-per-modality"></a><span data-ttu-id="0d0dd-191">Показатели (для каждой модальности)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-191">Metrics (per modality)</span></span>
+## <a name="metrics-per-modality"></a><span data-ttu-id="24100-191">Показатели (для каждой модальности)</span><span class="sxs-lookup"><span data-stu-id="24100-191">Metrics (per modality)</span></span>
 
-<span data-ttu-id="0d0dd-192">В следующей таблице показаны сведения, содержащиеся в диагностическом отчете об одноранговом обмене данными для каждой модальности.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-192">The following table lists the information provided in the Peer-to-Peer Activity Diagnostic Report for each modality.</span></span>
+<span data-ttu-id="24100-192">В следующей таблице показаны сведения, содержащиеся в диагностическом отчете об одноранговом обмене данными для каждой модальности.</span><span class="sxs-lookup"><span data-stu-id="24100-192">The following table lists the information provided in the Peer-to-Peer Activity Diagnostic Report for each modality.</span></span>
 
-### <a name="metrics-per-modality"></a><span data-ttu-id="0d0dd-193">Показатели (для каждой модальности)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-193">Metrics (per modality)</span></span>
+### <a name="metrics-per-modality"></a><span data-ttu-id="24100-193">Показатели (для каждой модальности)</span><span class="sxs-lookup"><span data-stu-id="24100-193">Metrics (per modality)</span></span>
 
 <table>
 <colgroup>
@@ -185,48 +185,48 @@ ms.locfileid: "42140032"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0d0dd-194">Имя</span><span class="sxs-lookup"><span data-stu-id="0d0dd-194">Name</span></span></th>
-<th><span data-ttu-id="0d0dd-195">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="0d0dd-195">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="0d0dd-196">Описание</span><span class="sxs-lookup"><span data-stu-id="0d0dd-196">Description</span></span></th>
+<th><span data-ttu-id="24100-194">Имя</span><span class="sxs-lookup"><span data-stu-id="24100-194">Name</span></span></th>
+<th><span data-ttu-id="24100-195">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="24100-195">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="24100-196">Описание</span><span class="sxs-lookup"><span data-stu-id="24100-196">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-197"><strong>Success volume</strong> (Успех, объем)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-197"><strong>Success volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-198">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-198">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-199">Общее количество успешных одноранговых сеансов.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-199">Total number of successful peer-to-peer sessions.</span></span></p></td>
+<td><p><span data-ttu-id="24100-197"><strong>Success volume</strong> (Успех, объем)</span><span class="sxs-lookup"><span data-stu-id="24100-197"><strong>Success volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-198">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-198">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-199">Общее количество успешных одноранговых сеансов.</span><span class="sxs-lookup"><span data-stu-id="24100-199">Total number of successful peer-to-peer sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d0dd-200"><strong>Процент успешных сеансов</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-200"><strong>Success percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-201">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-201">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p117">Процент одноранговых сеансов, которые завершились без серьезных проблем. Вычисляется путем деления количества успешных сеансов на общее их количество.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p117">Percentage of peer-to-peer sessions that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="24100-200"><strong>Процент успешных сеансов</strong></span><span class="sxs-lookup"><span data-stu-id="24100-200"><strong>Success percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-201">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-201">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-p117">Процент одноранговых сеансов, которые завершились без серьезных проблем. Вычисляется путем деления количества успешных сеансов на общее их количество.</span><span class="sxs-lookup"><span data-stu-id="24100-p117">Percentage of peer-to-peer sessions that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-204"><strong>Количество ожидаемых отказов</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-204"><strong>Expected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-205">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-205">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-206">Общее количество сеансов, в &quot;которых возник ожидаемый сбой.&quot;</span><span class="sxs-lookup"><span data-stu-id="0d0dd-206">Total number of sessions where an &quot;expected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="0d0dd-p118">Ожидаемый сбой ? это сбой, возникновение которого ожидаемо. Например, если пользователь задал для себя состояние «Не беспокоить», можно ожидать, что любой звонок этому пользователю будет неудачным.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
+<td><p><span data-ttu-id="24100-204"><strong>Количество ожидаемых отказов</strong></span><span class="sxs-lookup"><span data-stu-id="24100-204"><strong>Expected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-205">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-205">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-206">Общее количество сеансов, в &quot;которых возник ожидаемый сбой.&quot;</span><span class="sxs-lookup"><span data-stu-id="24100-206">Total number of sessions where an &quot;expected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="24100-p118">Ожидаемый сбой ? это сбой, возникновение которого ожидаемо. Например, если пользователь задал для себя состояние «Не беспокоить», можно ожидать, что любой звонок этому пользователю будет неудачным.</span><span class="sxs-lookup"><span data-stu-id="24100-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d0dd-209"><strong>Expected failure percentage</strong> (Ожидаемый сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-209"><strong>Expected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-210">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-210">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p119">Процент одноранговых сеансов, в рамках которых произошли ожидаемые отказы. Вычисляется путем деления количества ожидаемых отказов на общее количество сеансов.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p119">Percentage of peer-to-peer sessions that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="24100-209"><strong>Expected failure percentage</strong> (Ожидаемый сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="24100-209"><strong>Expected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-210">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-210">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-p119">Процент одноранговых сеансов, в рамках которых произошли ожидаемые отказы. Вычисляется путем деления количества ожидаемых отказов на общее количество сеансов.</span><span class="sxs-lookup"><span data-stu-id="24100-p119">Percentage of peer-to-peer sessions that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-213"><strong>Количество непредвиденных отказов</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-213"><strong>Unexpected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-214">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-214">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-215">Общее количество сеансов, в &quot;которых произошла&quot; непредвиденная ошибка.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-215">Total number of sessions where an &quot;unexpected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="0d0dd-p120">Неожиданный сбой ? это событие, которое в других условиях считалось бы нормальной работой системы. Например, звонок не следует завершать, если звонящий переведен в режим удержания. Если такое произошло, данное событие будет обозначено как неожиданный сбой.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<td><p><span data-ttu-id="24100-213"><strong>Количество непредвиденных отказов</strong></span><span class="sxs-lookup"><span data-stu-id="24100-213"><strong>Unexpected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-214">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-214">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-215">Общее количество сеансов, в &quot;которых произошла&quot; непредвиденная ошибка.</span><span class="sxs-lookup"><span data-stu-id="24100-215">Total number of sessions where an &quot;unexpected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="24100-p120">Неожиданный сбой ? это событие, которое в других условиях считалось бы нормальной работой системы. Например, звонок не следует завершать, если звонящий переведен в режим удержания. Если такое произошло, данное событие будет обозначено как неожиданный сбой.</span><span class="sxs-lookup"><span data-stu-id="24100-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d0dd-219"><strong>Unexpected failure percentage</strong> (Неожиданный сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="0d0dd-219"><strong>Unexpected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-220">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-220">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-p121">Процент одноранговых сеансов, в рамках которых произошли непредвиденные отказы. Вычисляется путем деления количества непредвиденных отказов на общее количество сеансов.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-p121">Percentage of peer-to-peer sessions that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="24100-219"><strong>Unexpected failure percentage</strong> (Неожиданный сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="24100-219"><strong>Unexpected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-220">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-220">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-p121">Процент одноранговых сеансов, в рамках которых произошли непредвиденные отказы. Вычисляется путем деления количества непредвиденных отказов на общее количество сеансов.</span><span class="sxs-lookup"><span data-stu-id="24100-p121">Percentage of peer-to-peer sessions that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d0dd-223"><strong>Всего сеансов</strong></span><span class="sxs-lookup"><span data-stu-id="0d0dd-223"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-224">Нет</span><span class="sxs-lookup"><span data-stu-id="0d0dd-224">No</span></span></p></td>
-<td><p><span data-ttu-id="0d0dd-225">Общее число сеансов, включая успешные сеансы, неудавшиеся сеансы (вследствие как ожидаемых, так и непредвиденных отказов) и сеансы, не отнесенные к определенной категории.</span><span class="sxs-lookup"><span data-stu-id="0d0dd-225">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
+<td><p><span data-ttu-id="24100-223"><strong>Всего сеансов</strong></span><span class="sxs-lookup"><span data-stu-id="24100-223"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="24100-224">Нет</span><span class="sxs-lookup"><span data-stu-id="24100-224">No</span></span></p></td>
+<td><p><span data-ttu-id="24100-225">Общее число сеансов, включая успешные сеансы, неудавшиеся сеансы (вследствие как ожидаемых, так и непредвиденных отказов) и сеансы, не отнесенные к определенной категории.</span><span class="sxs-lookup"><span data-stu-id="24100-225">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>
