@@ -7,88 +7,86 @@ ms.reviewer: mikedav, jastark, oscarr, makolomi
 ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: a8cd5582cdcbddff1a6c6375230864e569111a0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Узнайте о том, как получать новые, переносить и передавать существующие номера телефонов для таких служб, как голосовые конференции (для мостов конференций), автосекретарей и очередей звонков (также называемых номерами служб) для Teams.
+ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031053"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170725"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+Кроме того, чтобы получать [телефонные номера для пользователей](/microsoftteams/getting-phone-numbers-for-your-users), вы можете получать номера бесплатных и платных телефонных номеров для таких служб, как голосовые конференции (для мостов конференций), автосекретарей и очередей звонков (также называемых номерами служб). Номера телефонов служб позволяют обслуживать большее число одновременных звонков по сравнению с абонентскими номерами. Например, номер службы может обрабатывать сотни вызовов одновременно, в то время как телефонный номер пользователя может обрабатывать только несколько звонков одновременно.
   
 > [!NOTE]
-> Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
+> Прежде чем можно будет получить бесплатные номера, вы должны сначала настроить кредиты на связь. Дополнительные сведения можно найти в разделе [Настройка кредитов связи для вашей организации](/microsoftteams/set-up-communications-credits-for-your-organization).
   
-У вас есть два способа получить служебные номера, чтобы использовать их в Skype для бизнеса и Microsoft teams:
+Существует три способа получения номеров служб.
   
-- Получайте новые номера из Office 365.
-    
-- Перенос существующих номеров из вашего поставщика услуг или телефонного оператора в Office 365.
-    
-    > [!NOTE]
-    > При переносе служебных номеров настоятельно рекомендуется обратиться в [службу поддержки Майкрософт](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , чтобы убедиться в том, что более высокая емкость параллельных звонков считается и правильно настроена.
+- **Используйте центр администрирования Microsoft Teams.** В некоторых странах и регионах номера служб можно получить с помощью центра администрирования Microsoft Teams. Ознакомьтесь со [статьей получение новых номеров служб](#get-new-service-numbers).
+
+- **Портируйте номера, которые у вас уже есть.** Вы можете перенести или переместить существующие номера с вашего текущего поставщика услуг или оператора телефонной связи. Дополнительные сведения о том, как это сделать, можно найти в разделе [Перенос номеров телефонов для групп](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) или [Управление телефонными номерами в Организации](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+  
+- **Используйте форму запроса для новых номеров.** Иногда (в зависимости от страны или региона) вы не сможете получить новые телефонные номера с помощью центра администрирования Microsoft Teams, или вам понадобятся конкретные номера телефонов или коды города. Если да, вам нужно будет загрузить форму и отправить ее нам. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization).
+  
+> [!NOTE]
+> Номера служб необходимы для того, чтобы можно было получить более высокий уровень параллельных звонков для определенного числа. Когда вы переносите номер в США, вы можете [обратиться в службу поддержки PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) , чтобы убедиться в том, что номер Услуги, который вы передаете, имеет высокую емкость параллельных звонков.
   
 ## <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
-    
-2. Перейдите в раздел " >  **центр администрирования"****и** > **старый администратор**Skype.
-    
-3. **На левой** > панели навигации выберите**номера** > телефонов,**Введите новый номер**, а затем нажмите кнопку **новые номера служб**.
-    
-    > [!IMPORTANT] 
-    > Для просмотра параметров **голоса** на левой панели навигации в центре администрирования Skype для бизнеса вы должны сначала приобрести хотя бы одну **лицензию на корпоративную** **, одну лицензию** на надстройку или лицензию для **голосовой конференции** .
-    
-4. На странице **Добавление новых номеров служб** выберите один из указанных ниже вариантов.
-    
-   - **Страна или регион**
-    
-   - **Область или регион**
-    
-   - **Город**
-    
-5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of phone numbers.
-    
-    > [!NOTE]
-    > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total Service numbers your can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
-  
-6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
-    
-7. Выберите номера телефонов и нажмите **Получить номера**.
-    
-### <a name="assign-service-numbers"></a>Назначение номеров служб
+1. На панели навигации слева **перейдите к** > **номерам абонентов**и нажмите кнопку **Добавить**.
+2. Введите имя заказа и, если хотите, добавьте описание.
+3. На странице Расположение и количество выполните указанные ниже действия.
+    1. В разделе **страна или регион**выберите страну или регион.
+    1. В разделе **тип номера**выберите нужный тип номера услуги.
+    1. В разделе **Расположение**выберите расположение. Если вам нужно создать новое расположение, щелкните **Добавить расположение**.
+    1. В разделе **код города**выберите код города. 
+    2. В разделе **количество**введите количество номеров, которое вы хотите использовать для Организации, и нажмите кнопку **Далее** , чтобы выбрать номера.
+4. Выберите нужные номера. Для выбора номеров телефонов и размещения заказа вы можете использовать 10 минут. Если вы занимаете более 10 минут, Номера телефонов будут возвращены в пул номеров.
+5. Когда вы будете готовы к заказу, нажмите кнопку **поместить заказ**.
 
-Once you have your service numbers, they can then be assigned to an audio conferencing bridge. To do this, see [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
-  
-### <a name="port-or-transfer-existing-service-numbers"></a>Перенос существующих номеров служб
+## <a name="port-or-transfer-existing-service-numbers"></a>Перенос существующих номеров служб
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
+Чтобы перенести ваши номера телефонов из текущего поставщика услуг или оператора в Teams, можно использовать мастер переноса в центре администрирования Microsoft Teams. Выполните действия, описанные в статье [передача телефонных номеров в Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+
+Если ваша страна или регион отсутствует в мастере переноса, вы можете [вручную отправить заказ на перенос](phone-number-calling-plans/manually-submit-port-order.md) или перейти к [управлению номерами телефонов для Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), выбрать свою страну или регион, а затем скачать письмо об авторизации (LOA). Вы должны будете отправлять отдельные заказы на переносы для каждого типа служебного номера (например, платный и платный), который вы будете передавать с помощью LOA. В LOA необходимо выбрать правильный тип номера услуги. Убедитесь, что вы указали, что вы переносите номер службы (а не номер пользователя или абонента), или емкость параллельных звонков может быть недостаточной для обработки объемов звонков.  
 
 > [!NOTE]
-> Если необходимо больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
-  
-## <a name="related-topics"></a>См. также
-[Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+> Если вам нужно получить больше телефонных номеров, [обратитесь в службу поддержки КТСОП](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+
+## <a name="view-the-phone-numbers-for-your-organization"></a>Просмотр номеров телефонов для Организации
+
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams** 
+
+На панели навигации слева перейдите к > **номерам абонентов** **, чтобы просмотреть**номера для вашей организации, в том числе сведения о местоположении, тип номера и информацию о состоянии.
+
+## <a name="assign-service-phone-numbers"></a>Назначение номеров телефонов служб
+
+После того как вы получите номера служб, назначьте каждый номер своему мосту для голосовой связи. Посмотрите [, как изменить платные или бесплатные номера телефонов для конференц-связи с телефонным сопровождением](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+
+## <a name="related-topics"></a>Статьи по теме
+
+[Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+
+[Общие вопросы по передаче номеров телефонов](/microsoftteams/transferring-phone-numbers-common-questions)
+
+[Типы номеров телефонов, используемые в планах звонков](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+
+[Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-  
- 

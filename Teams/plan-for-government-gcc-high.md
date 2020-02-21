@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837459"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161594"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>План для государственных организаций Microsoft 365 (с высоким развертыванием) GCC
 
@@ -79,6 +79,7 @@ Microsoft 365 государственных учреждений – GCC High �
 | Основании | Вход | Доступно |
 | | Присутствие | Доступно |
 | | Единая система присутствия (Skype для бизнеса и Teams) | Доступно |
+| | Клиент Linux | В списке невыполненной работы правительственных учреждений |
 | Ленты | Веб-канала | Доступно |
 |  | Мои действия | Доступно |
 | Chat | Диалога | Доступно |

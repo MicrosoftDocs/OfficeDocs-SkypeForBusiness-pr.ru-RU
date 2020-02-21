@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852106"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157897"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Переход с Skype для бизнеса на Teams &mdash; для ИТ-администраторов
 
@@ -423,7 +423,7 @@ Notes
 
 1. Убедитесь, что ваш контроллер границ вашего сеанса (SBC) поддерживается прямой маршрутизацией, просмотрев [этот список](direct-routing-border-controllers.md). Кроме того, необходимо убедиться, что у вас установлена правильная версия встроенного по.  
 
-2. Свяжите локальный одноранговый SBC с помощью службы прямой маршрутизации Teams. Подробности можно найти [в разделе Связывание SBC с прямой маршрутизацией в телефонной системе](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+2. Свяжите локальный одноранговый SBC с помощью службы прямой маршрутизации Teams. Подробности можно найти [в разделе Связывание SBC с прямой маршрутизацией в телефонной системе](direct-routing-configure.md). 
 
 3. Эта конфигурация по сути является зеркалом локальной конфигурации. Сетевая конфигурация состоит из следующих элементов: 
    - Онлиневоицераутингполици (в зависимости от локального Воицераутингполици, если вы переносите пользователей из Skype для бизнеса Online, и в зависимости от того, Воицеполици ли вы миграция пользователей из локальной сети в корпоративную голосовую почту).

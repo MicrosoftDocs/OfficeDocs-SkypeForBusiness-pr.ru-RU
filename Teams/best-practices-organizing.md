@@ -16,18 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4661239db682f1cbdc174460db803a01b553d292
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 41f586a9561a55a759768d719d751c98d2c6a975
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826177"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160376"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 ======================================================
-
-> [!TIP]
-> У вас есть собственные рекомендации или советы по работе с Teams? Поделитесь ими с нами в разделе **Комментарии** в конце статьи.
 
 Teams — это совокупность пользователей, которые собирают воедино общую цель. Эта группа людей может находиться внутри отдела или в рамках Организации. Что приносит друг друга — результат, на который они работают. Участники команды могут по-разному работать на разных темпах или создавать ресурсы, но в нашей работе они часто работают совместно друг с другом, процесс, который мы вызываем "высокоскоростной сотрудничество".  
 

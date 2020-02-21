@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953780"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160713"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -311,7 +311,7 @@ SBC делает запрос DNS для разрешения sip.pstnhub.micros
 Интерфейс Direct Routing для маршрутизации между контроллером границ сеанса и процессором облачного мультимедиа (без обобщения), а также между клиентом Teams и SBC (если функция пропуска мультимедиа включена) может использовать следующие кодеки:
 
 - Обойтись без мультимедиа (SBC в обработчик облачных медиа-файлов): SILK, G. 711, G. 722, G. 729
-- Обход мультимедиа (SBC с клиентом Teams): SILK, G. 711, G. 722, G. 729, опус
+- Обход мультимедиа (SBC с клиентом Teams): SILK, G. 711, G. 722, G. 729
 
 Вы можете принудительно использовать конкретный кодек на контроллере границ сеанса, исключив нежелательные кодеки из предложения.
 

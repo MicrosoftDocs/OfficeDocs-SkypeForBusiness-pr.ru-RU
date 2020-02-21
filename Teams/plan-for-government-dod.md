@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5031c804242f2927a5fe9f2521682d736d034a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038121"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161740"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Планирование развертывания Microsoft 365 для государственных организаций (DoD)
 
@@ -79,6 +79,7 @@ ms.locfileid: "42038121"
 | Основании | Вход | Доступно |
 | | Присутствие | Доступно |
 | | Единая система присутствия (Skype для бизнеса и Teams) | В списке невыполненной работы правительственных учреждений |
+| | Клиент Linux | В списке невыполненной работы правительственных учреждений |
 | Ленты | Веб-канала | Доступно |
 |  | Мои действия | Доступно |
 | Chat | Диалога | Доступно |

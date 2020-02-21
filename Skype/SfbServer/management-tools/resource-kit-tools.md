@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: В этом разделе описываются средства в наборе ресурсов Skype для бизнеса Server 2015, в том числе назначение каждого средства, а также приводятся примеры их использования. Пакет ресурсов Skype для бизнеса Server 2015 позволяет упростить выполнение повседневных задач для ИТ-администраторов, которые развертывают Skype для бизнеса Server 2015 и управляют им. Например, с помощью средства Web CONF Data можно легко управлять данными, отправляемыми пользователями во время собрания по сети. Средство SEFAUtil можно использовать для настройки переадресации вызовов делегатов и ответа для пользователей. Мы рекомендуем ИТ-администраторам использовать эти средства для более эффективного управления Skype для бизнеса Server 2015.
-ms.openlocfilehash: ab43d8e951308fab5a4aefc25d9dad2804ea5d0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42005994"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160773"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Документация по средствам набора ресурсов Skype для бизнеса Server 2015
 
@@ -1113,7 +1113,7 @@ Call Forward No Answer to: voicemail
 В этом примере задается назначение ответа "перенаправление вызова", "нет ответа" и "Задержка звонка". В этом случае параметр/Server не предоставляется; SEFAUtil пытается выполнить автообнаружение Skype для бизнеса Server 2015.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Вывести**
@@ -1150,7 +1150,7 @@ Forward immediate to: sip:anders@contoso.com
 В этом примере немедленно отключается переадресация вызовов.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Вывести**
@@ -1381,7 +1381,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### <a name="disable-group-call-pickup"></a>Отключение отправки группового звонка
