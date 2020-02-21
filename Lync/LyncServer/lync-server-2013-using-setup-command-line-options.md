@@ -12,20 +12,20 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db24139be4c80b66cc03ff20d2155a00681111dc
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138660"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42212705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a><span data-ttu-id="18ffd-102">Использование параметров командной строки программы установки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="18ffd-102">Using Setup command-line options in Lync Server 2013</span></span>
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a><span data-ttu-id="e1e22-102">Использование параметров командной строки программы установки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1e22-102">Using Setup command-line options in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42138660"
 
 <span> </span>
 
-<span data-ttu-id="18ffd-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="18ffd-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="e1e22-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e1e22-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="18ffd-p101">Командная строка программы установки используется для выполнения достаточно редких операций в процессе установки Office. Вместо использования параметров командной строки программы установки для установки продукта и настройки компонентов обычно используется центр развертывания Office и файл Config.xml.</span><span class="sxs-lookup"><span data-stu-id="18ffd-p101">The Setup.exe command line is used for very few operations in Office setup. Instead of using the Setup command-line options, you’ll typically use the Office Customization Tool and the Config.xml file for product setup and feature customization.</span></span>
+<span data-ttu-id="e1e22-p101">Командная строка программы установки используется для выполнения достаточно редких операций в процессе установки Office. Вместо использования параметров командной строки программы установки для установки продукта и настройки компонентов обычно используется центр развертывания Office и файл Config.xml.</span><span class="sxs-lookup"><span data-stu-id="e1e22-p101">The Setup.exe command line is used for very few operations in Office setup. Instead of using the Setup command-line options, you’ll typically use the Office Customization Tool and the Config.xml file for product setup and feature customization.</span></span>
 
-<span data-ttu-id="18ffd-106">Командная строка программы установки Office распознает параметры командной строки, описанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="18ffd-106">The Office Setup.exe command line recognizes the command-line options described in the following table.</span></span>
+<span data-ttu-id="e1e22-106">Командная строка программы установки Office распознает параметры командной строки, описанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="e1e22-106">The Office Setup.exe command line recognizes the command-line options described in the following table.</span></span>
 
-### <a name="office-setup-command-line-options"></a><span data-ttu-id="18ffd-107">Параметры командной строки программы установки Office</span><span class="sxs-lookup"><span data-stu-id="18ffd-107">Office Setup Command-Line Options</span></span>
+### <a name="office-setup-command-line-options"></a><span data-ttu-id="e1e22-107">Параметры командной строки программы установки Office</span><span class="sxs-lookup"><span data-stu-id="e1e22-107">Office Setup Command-Line Options</span></span>
 
 <table>
 <colgroup>
@@ -50,40 +50,40 @@ ms.locfileid: "42138660"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="18ffd-108">Параметр командной строки программы установки</span><span class="sxs-lookup"><span data-stu-id="18ffd-108">Setup Command-Line Option</span></span></th>
-<th><span data-ttu-id="18ffd-109">Описание</span><span class="sxs-lookup"><span data-stu-id="18ffd-109">Description</span></span></th>
+<th><span data-ttu-id="e1e22-108">Параметр командной строки программы установки</span><span class="sxs-lookup"><span data-stu-id="e1e22-108">Setup Command-Line Option</span></span></th>
+<th><span data-ttu-id="e1e22-109">Описание</span><span class="sxs-lookup"><span data-stu-id="e1e22-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="18ffd-110">/Admin</span><span class="sxs-lookup"><span data-stu-id="18ffd-110">/admin</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-111">Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).</span><span class="sxs-lookup"><span data-stu-id="18ffd-111">Runs the Office Customization Tool to create a Setup customization file (.msp file).</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-110">/Admin</span><span class="sxs-lookup"><span data-stu-id="e1e22-110">/admin</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-111">Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).</span><span class="sxs-lookup"><span data-stu-id="e1e22-111">Runs the Office Customization Tool to create a Setup customization file (.msp file).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18ffd-112">/adminfile [путь]</span><span class="sxs-lookup"><span data-stu-id="18ffd-112">/adminfile [path]</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-p102">Применяет к установке указанный файл настройки программы установки. Можно указать путь к конкретному MSP-файлу настройки или к папке файлов настройки.</span><span class="sxs-lookup"><span data-stu-id="18ffd-p102">Applies the specified Setup customization file to the installation. You can specify a path of a specific customization file (.msp file) or to the folder where you store customization files.</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-112">/adminfile [путь]</span><span class="sxs-lookup"><span data-stu-id="e1e22-112">/adminfile [path]</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-p102">Применяет к установке указанный файл настройки программы установки. Можно указать путь к конкретному MSP-файлу настройки или к папке файлов настройки.</span><span class="sxs-lookup"><span data-stu-id="e1e22-p102">Applies the specified Setup customization file to the installation. You can specify a path of a specific customization file (.msp file) or to the folder where you store customization files.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18ffd-115">/config [путь]</span><span class="sxs-lookup"><span data-stu-id="18ffd-115">/config [path]</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-116">Задает файл Config.xml, который программа установки использует во время установки.</span><span class="sxs-lookup"><span data-stu-id="18ffd-116">Specifies the Config.xml file that Setup uses during the installation.</span></span> <span data-ttu-id="18ffd-117">Используйте параметр/config, чтобы указать файл config. XML, который вы настроили для установок Lync 2013, например:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span><span class="sxs-lookup"><span data-stu-id="18ffd-117">Use the /config option to specify the Config.xml file you customized for Lync 2013 installations, for example: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span></span></p></td>
+<td><p><span data-ttu-id="e1e22-115">/config [путь]</span><span class="sxs-lookup"><span data-stu-id="e1e22-115">/config [path]</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-116">Задает файл Config.xml, который программа установки использует во время установки.</span><span class="sxs-lookup"><span data-stu-id="e1e22-116">Specifies the Config.xml file that Setup uses during the installation.</span></span> <span data-ttu-id="e1e22-117">Используйте параметр/config, чтобы указать файл config. XML, который вы настроили для установок Lync 2013, например:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span><span class="sxs-lookup"><span data-stu-id="e1e22-117">Use the /config option to specify the Config.xml file you customized for Lync 2013 installations, for example: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18ffd-118">/modify Lync</span><span class="sxs-lookup"><span data-stu-id="18ffd-118">/modify Lync</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-p104">Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр /modify для добавления или удаления компонентов Lync.</span><span class="sxs-lookup"><span data-stu-id="18ffd-p104">Used with a modified Config.xml file to run Setup in maintenance mode and make changes to an existing Office installation. For example, you can use the /modify option to add or remove Lync features.</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-118">/modify Lync</span><span class="sxs-lookup"><span data-stu-id="e1e22-118">/modify Lync</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-p104">Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр /modify для добавления или удаления компонентов Lync.</span><span class="sxs-lookup"><span data-stu-id="e1e22-p104">Used with a modified Config.xml file to run Setup in maintenance mode and make changes to an existing Office installation. For example, you can use the /modify option to add or remove Lync features.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18ffd-121">/repair Lync</span><span class="sxs-lookup"><span data-stu-id="18ffd-121">/repair Lync</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-122">Запускает программу установки на компьютере пользователя для восстановления Lync.</span><span class="sxs-lookup"><span data-stu-id="18ffd-122">Runs Setup from the user’s computer to repair Lync.</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-121">/repair Lync</span><span class="sxs-lookup"><span data-stu-id="e1e22-121">/repair Lync</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-122">Запускает программу установки на компьютере пользователя для восстановления Lync.</span><span class="sxs-lookup"><span data-stu-id="e1e22-122">Runs Setup from the user’s computer to repair Lync.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18ffd-123">/uninstall Lync</span><span class="sxs-lookup"><span data-stu-id="18ffd-123">/uninstall Lync</span></span></p></td>
-<td><p><span data-ttu-id="18ffd-124">Запускает программу установки для удаления Lync с компьютера пользователя.</span><span class="sxs-lookup"><span data-stu-id="18ffd-124">Runs Setup to remove Lync from the user’s computer.</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-123">/uninstall Lync</span><span class="sxs-lookup"><span data-stu-id="e1e22-123">/uninstall Lync</span></span></p></td>
+<td><p><span data-ttu-id="e1e22-124">Запускает программу установки для удаления Lync с компьютера пользователя.</span><span class="sxs-lookup"><span data-stu-id="e1e22-124">Runs Setup to remove Lync from the user’s computer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="18ffd-125">Сведения об использовании параметров командной строки программы установки приведены в разделе <https://go.microsoft.com/fwlink/p/?linkid=267515>.</span><span class="sxs-lookup"><span data-stu-id="18ffd-125">For details about using the setup command-line options, see <https://go.microsoft.com/fwlink/p/?linkid=267515>.</span></span>
+<span data-ttu-id="e1e22-125">Сведения об использовании параметров командной строки программы установки приведены в разделе <https://go.microsoft.com/fwlink/p/?linkid=267515>.</span><span class="sxs-lookup"><span data-stu-id="e1e22-125">For details about using the setup command-line options, see <https://go.microsoft.com/fwlink/p/?linkid=267515>.</span></span>
 
 </div>
 

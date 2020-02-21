@@ -12,20 +12,20 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 075d7acecdff50c7cec7e14f6c645ba43484828e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b33c79b7105ef1e8df3cc0802ae68b7b30eaeb2c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138810"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="20fdf-102">Удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="20fdf-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="4c44a-102">Удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="4c44a-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "42138810"
 
 <span> </span>
 
-<span data-ttu-id="20fdf-103">_**Последнее изменение темы:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="20fdf-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="4c44a-103">_**Последнее изменение темы:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="4c44a-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="20fdf-104">При переносе удаленного управления звонками в развертывание Lync Server необходимо удалить устаревшие авторизованные записи узла (называемые *записями доверенных приложений* в Lync Server) для всех шлюзов SIP/CSTA в устаревшем развертывании.</span><span class="sxs-lookup"><span data-stu-id="20fdf-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="20fdf-105">Для удаления записей авторизованных узлов из этих развертываний необходимо использовать соответствующие средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="20fdf-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
+<span data-ttu-id="4c44a-104">При переносе удаленного управления звонками в развертывание Lync Server необходимо удалить устаревшие авторизованные записи узла (называемые *записями доверенных приложений* в Lync Server) для всех шлюзов SIP/CSTA в устаревшем развертывании.</span><span class="sxs-lookup"><span data-stu-id="4c44a-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="4c44a-105">Для удаления записей авторизованных узлов из этих развертываний необходимо использовать соответствующие средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="4c44a-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="20fdf-106">См. также</span><span class="sxs-lookup"><span data-stu-id="20fdf-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c44a-106">См. также</span><span class="sxs-lookup"><span data-stu-id="4c44a-106">See Also</span></span>
 
 
-[<span data-ttu-id="20fdf-107">Настройка записи доверенного приложения для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20fdf-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="4c44a-107">Настройка записи доверенного приложения для удаленного управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c44a-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

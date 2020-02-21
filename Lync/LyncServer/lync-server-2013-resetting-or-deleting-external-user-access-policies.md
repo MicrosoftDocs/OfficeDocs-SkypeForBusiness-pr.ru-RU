@@ -12,20 +12,20 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec1c6daba9d7d8c4d38b6c567c051a3d1f1ee69
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1de7dc52331a384131d6d88185c2e7619d924a25
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144846"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="68f9f-102">Сброс или удаление политик доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68f9f-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
+# <a name="resetting-or-deleting-external-user-access-policies-in-lync-server-2013"></a><span data-ttu-id="18ad5-102">Сброс или удаление политик доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="18ad5-102">Resetting or deleting external user access policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42144846"
 
 <span> </span>
 
-<span data-ttu-id="68f9f-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="68f9f-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="18ad5-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="18ad5-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="68f9f-104">Если были созданы или настроены политики внешнего доступа пользователей, которые больше не нужно использовать, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="68f9f-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
+<span data-ttu-id="18ad5-104">Если были созданы или настроены политики внешнего доступа пользователей, которые больше не нужно использовать, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="18ad5-104">If you have created or configured external user access policies that you no longer want to use, you can do the following:</span></span>
 
-  - <span data-ttu-id="68f9f-105">Удалите любую созданную политику сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="68f9f-105">Delete any site or user policy that you created.</span></span>
+  - <span data-ttu-id="18ad5-105">Удалите любую созданную политику сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="18ad5-105">Delete any site or user policy that you created.</span></span>
 
-  - <span data-ttu-id="68f9f-p101">Сбросьте глобальную политику до значений по умолчанию. Параметры глобальной политики по умолчанию запрещают любой внешний доступ пользователей. Саму глобальную политику удалить невозможно.</span><span class="sxs-lookup"><span data-stu-id="68f9f-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
+  - <span data-ttu-id="18ad5-p101">Сбросьте глобальную политику до значений по умолчанию. Параметры глобальной политики по умолчанию запрещают любой внешний доступ пользователей. Саму глобальную политику удалить невозможно.</span><span class="sxs-lookup"><span data-stu-id="18ad5-p101">Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="68f9f-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="68f9f-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="18ad5-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="18ad5-109">In This Section</span></span>
 
-  - [<span data-ttu-id="68f9f-110">Удаление сайта или пользовательской политики для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68f9f-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [<span data-ttu-id="18ad5-110">Удаление сайта или пользовательской политики для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="18ad5-110">Delete a site or user policy for external user access in Lync Server 2013</span></span>](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
-  - [<span data-ttu-id="68f9f-111">Сброс глобальной политики для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68f9f-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
+  - [<span data-ttu-id="18ad5-111">Сброс глобальной политики для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="18ad5-111">Reset the global policy for external user access in Lync Server 2013</span></span>](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5574ecbbd6671f6effbc9be56a5e973c6f0080a5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f63846183479c8b81091f5d0bc81a68874d8201f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42120232"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-policy-cmdlets-in-lync-server-2013"></a><span data-ttu-id="df514-102">Командлеты политики голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df514-102">Voice policy cmdlets in Lync Server 2013</span></span>
+# <a name="voice-policy-cmdlets-in-lync-server-2013"></a><span data-ttu-id="d7e6c-102">Командлеты политики голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e6c-102">Voice policy cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "42120232"
 
 <span> </span>
 
-<span data-ttu-id="df514-103">_**Последнее изменение темы:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="df514-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="d7e6c-103">_**Последнее изменение темы:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="d7e6c-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="df514-p101">Управление корпоративной голосовой связью включает конфигурирование таких компонентов, как политики голосовой связи и абонентские группы, а также связь голосовых политик с маршрутами голосовых вызовов. Командлеты, связанные с управлением политиками голосовой связи, можно использовать для настройки таких функций, как одновременные звонки (что позволяет получать звонок на второй телефон каждый раз, когда кто-нибудь звонит на рабочий телефон), переадресация звонков и требования по набору номера.</span><span class="sxs-lookup"><span data-stu-id="df514-p101">Managing Enterprise Voice includes configuring such things as voice policies and dial plans, and associating voice policies with voice routes. Cmdlets related to managing voice policies can be used to set features such as simultaneous ringing (the ability to have a second phone ring each time someone calls your office phone), call forwarding, and dialing requirement.</span></span>
+<span data-ttu-id="d7e6c-p101">Управление корпоративной голосовой связью включает конфигурирование таких компонентов, как политики голосовой связи и абонентские группы, а также связь голосовых политик с маршрутами голосовых вызовов. Командлеты, связанные с управлением политиками голосовой связи, можно использовать для настройки таких функций, как одновременные звонки (что позволяет получать звонок на второй телефон каждый раз, когда кто-нибудь звонит на рабочий телефон), переадресация звонков и требования по набору номера.</span><span class="sxs-lookup"><span data-stu-id="d7e6c-p101">Managing Enterprise Voice includes configuring such things as voice policies and dial plans, and associating voice policies with voice routes. Cmdlets related to managing voice policies can be used to set features such as simultaneous ringing (the ability to have a second phone ring each time someone calls your office phone), call forwarding, and dialing requirement.</span></span>
 
 <div>
 
-## <a name="voice-policy-cmdlets"></a><span data-ttu-id="df514-106">Командлеты политик голосовой связи</span><span class="sxs-lookup"><span data-stu-id="df514-106">Voice Policy Cmdlets</span></span>
+## <a name="voice-policy-cmdlets"></a><span data-ttu-id="d7e6c-106">Командлеты политик голосовой связи</span><span class="sxs-lookup"><span data-stu-id="d7e6c-106">Voice Policy Cmdlets</span></span>
 
-<span data-ttu-id="df514-107">Для управления политиками голосовой связи и абонентскими группами для функции корпоративной голосовой связи можно использовать следующие командлеты.</span><span class="sxs-lookup"><span data-stu-id="df514-107">The following cmdlets can be used to manage voice policies and dial plans for Enterprise Voice.</span></span>
+<span data-ttu-id="d7e6c-107">Для управления политиками голосовой связи и абонентскими группами для функции корпоративной голосовой связи можно использовать следующие командлеты.</span><span class="sxs-lookup"><span data-stu-id="d7e6c-107">The following cmdlets can be used to manage voice policies and dial plans for Enterprise Voice.</span></span>
 
-<span data-ttu-id="df514-108">**Политика голосовой связи**</span><span class="sxs-lookup"><span data-stu-id="df514-108">**Voice Policy**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="df514-109">[Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-109">[Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span></span>
+<span data-ttu-id="d7e6c-108">**Политика голосовой связи**</span><span class="sxs-lookup"><span data-stu-id="d7e6c-108">**Voice Policy**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-110">[Granting — CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-110">[Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-109">[Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-109">[Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-111">[New — CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-111">[New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-110">[Granting — CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-110">[Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-112">[Remove — CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-112">[Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-111">[New — CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-111">[New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-113">[Set — CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-113">[Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-112">[Remove — CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-112">[Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-114">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-114">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-113">[Set — CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-113">[Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="d7e6c-114">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-114">[Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="df514-115">[Get — Кспстнусаже](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-115">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-115">[Get — Кспстнусаже](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-115">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-116">[Set — Кспстнусаже](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-116">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-116">[Set — Кспстнусаже](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-116">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="df514-117">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-117">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-117">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-117">[Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-118">[Granting — CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-118">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-118">[Granting — CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-118">[Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-119">[New — CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-119">[New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-119">[New — CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-119">[New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-120">[Remove — CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-120">[Remove — CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-121">[Set — CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-121">[Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-121">[Set — CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-121">[Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="df514-122">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="df514-122">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span></span>
+    <span data-ttu-id="d7e6c-122">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d7e6c-122">[Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="df514-123">См. также</span><span class="sxs-lookup"><span data-stu-id="df514-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7e6c-123">См. также</span><span class="sxs-lookup"><span data-stu-id="d7e6c-123">See Also</span></span>
 
 
-[<span data-ttu-id="df514-124">Командлеты корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df514-124">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="d7e6c-124">Командлеты корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7e6c-124">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="df514-125">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="df514-125">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="d7e6c-125">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="d7e6c-125">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91599149640a21c25cfccc229e7758ac644becc3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fcd8b7e4c3efa24c4279c6d5d2b7420b5ac2f6af
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147082"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="8a5cd-102">Номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a5cd-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a><span data-ttu-id="422fe-102">Номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="422fe-102">Dial-in conferencing access numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42147082"
 
 <span> </span>
 
-<span data-ttu-id="8a5cd-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="8a5cd-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="422fe-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="422fe-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="8a5cd-p101">Чтобы разрешить пользователям присоединяться к локальной конференции посредством аудиосвязи через телефонную сеть общего пользования (ТСОП), необходимо настроить номера доступа к конференции с телефонным подключением. Это номера, по которым можно позвонить, чтобы присоединиться к конференции.</span><span class="sxs-lookup"><span data-stu-id="8a5cd-p101">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers. Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
+<span data-ttu-id="422fe-p101">Чтобы разрешить пользователям присоединяться к локальной конференции посредством аудиосвязи через телефонную сеть общего пользования (ТСОП), необходимо настроить номера доступа к конференции с телефонным подключением. Это номера, по которым можно позвонить, чтобы присоединиться к конференции.</span><span class="sxs-lookup"><span data-stu-id="422fe-p101">To enable users to join the audio portion of on-premises conferences by dialing in from the public switched telephone network (PSTN), you must configure dial-in conferencing access numbers. Dial-in conferencing access numbers are the numbers that users call to join a conference.</span></span>
 
-<span data-ttu-id="8a5cd-106">Номера доступа с телефонным подключением отображаются в приглашениях на собрания и на веб-странице "Параметры конференц-связи с телефонным подключением".</span><span class="sxs-lookup"><span data-stu-id="8a5cd-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+<span data-ttu-id="422fe-106">Номера доступа с телефонным подключением отображаются в приглашениях на собрания и на веб-странице "Параметры конференц-связи с телефонным подключением".</span><span class="sxs-lookup"><span data-stu-id="422fe-106">Dial-in access numbers are displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="8a5cd-p102">Добавить новый номер доступа с телефонным подключением можно только после завершения репликации Active Directory для этого номера доступа. Репликация может занять несколько часов.</span><span class="sxs-lookup"><span data-stu-id="8a5cd-p102">You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.</span></span>
+> <span data-ttu-id="422fe-p102">Добавить новый номер доступа с телефонным подключением можно только после завершения репликации Active Directory для этого номера доступа. Репликация может занять несколько часов.</span><span class="sxs-lookup"><span data-stu-id="422fe-p102">You cannot use a new dial-in access number until Active Directory replication of that access number is complete. Replication can take several hours.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42147082"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8a5cd-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="8a5cd-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="422fe-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="422fe-109">In This Section</span></span>
 
-  - [<span data-ttu-id="8a5cd-110">Просмотр номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a5cd-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="422fe-110">Просмотр номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="422fe-110">View dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="8a5cd-111">Создание или изменение номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a5cd-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="422fe-111">Создание или изменение номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="422fe-111">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [<span data-ttu-id="8a5cd-112">Удаление номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a5cd-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [<span data-ttu-id="422fe-112">Удаление номера доступа к конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="422fe-112">Delete a dial-in conferencing access number in Lync Server 2013</span></span>](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

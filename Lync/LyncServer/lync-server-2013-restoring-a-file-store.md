@@ -12,20 +12,20 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 409d22b6a0c2d762e39603a1c8eda5ce11cb5433
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b73ba97ccadcc5cb34a5dbc3963d80620da8e516
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144766"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-file-store-in-lync-server-2013"></a><span data-ttu-id="12517-102">Восстановление хранилища файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12517-102">Restoring a file store in Lync Server 2013</span></span>
+# <a name="restoring-a-file-store-in-lync-server-2013"></a><span data-ttu-id="2fab5-102">Восстановление хранилища файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fab5-102">Restoring a file store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42144766"
 
 <span> </span>
 
-<span data-ttu-id="12517-103">_**Последнее изменение темы:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="12517-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="2fab5-103">_**Последнее изменение темы:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="2fab5-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="12517-104">Хранилища файлов для выпуска Standard Edition обычно размещаются на сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="12517-104">File Stores for Standard Edition are typically located on the Standard Edition server.</span></span> <span data-ttu-id="12517-105">Хранилища файлов для Enterprise Edition обычно располагаются на файловом сервере или кластере.</span><span class="sxs-lookup"><span data-stu-id="12517-105">File Stores for Enterprise Edition are typically located on a file server or cluster.</span></span> <span data-ttu-id="12517-106">В следующей процедуре описывается, как восстановить хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="12517-106">The following procedure describes how to restore a File Store.</span></span>
+<span data-ttu-id="2fab5-104">Хранилища файлов для выпуска Standard Edition обычно размещаются на сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="2fab5-104">File Stores for Standard Edition are typically located on the Standard Edition server.</span></span> <span data-ttu-id="2fab5-105">Хранилища файлов для Enterprise Edition обычно располагаются на файловом сервере или кластере.</span><span class="sxs-lookup"><span data-stu-id="2fab5-105">File Stores for Enterprise Edition are typically located on a file server or cluster.</span></span> <span data-ttu-id="2fab5-106">В следующей процедуре описывается, как восстановить хранилище файлов.</span><span class="sxs-lookup"><span data-stu-id="2fab5-106">The following procedure describes how to restore a File Store.</span></span>
 
 <div>
 
-## <a name="to-restore-a-file-store"></a><span data-ttu-id="12517-107">Восстановление хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="12517-107">To restore a File Store</span></span>
+## <a name="to-restore-a-file-store"></a><span data-ttu-id="2fab5-107">Восстановление хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="2fab5-107">To restore a File Store</span></span>
 
-1.  <span data-ttu-id="12517-108">В случае сбоя хранилища файлов скопируйте соответствующее хранилище файлов из $Backup\\ в расположение хранилища файлов на сервере или сервере Standard Edition, а затем предоставьте к ней общий доступ.</span><span class="sxs-lookup"><span data-stu-id="12517-108">If a File Store fails, copy the appropriate File Store from $Backup\\ to the File Store location on the file server or Standard Edition server, and then share the folder.</span></span>
+1.  <span data-ttu-id="2fab5-108">В случае сбоя хранилища файлов скопируйте соответствующее хранилище файлов из $Backup\\ в расположение хранилища файлов на сервере или сервере Standard Edition, а затем предоставьте к ней общий доступ.</span><span class="sxs-lookup"><span data-stu-id="2fab5-108">If a File Store fails, copy the appropriate File Store from $Backup\\ to the File Store location on the file server or Standard Edition server, and then share the folder.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="12517-109">Путь и имя файла для восстановленного хранилища файлов должны совпадать с хранилищем файлов в резервной копии, чтобы компоненты, использующие эти файлы, могли получать к ним доступ.</span><span class="sxs-lookup"><span data-stu-id="12517-109">The path and file name for the restored File Store should be exactly the same as the backed up File Store, so that components that use the files can access them.</span></span>
+    > <span data-ttu-id="2fab5-109">Путь и имя файла для восстановленного хранилища файлов должны совпадать с хранилищем файлов в резервной копии, чтобы компоненты, использующие эти файлы, могли получать к ним доступ.</span><span class="sxs-lookup"><span data-stu-id="2fab5-109">The path and file name for the restored File Store should be exactly the same as the backed up File Store, so that components that use the files can access them.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="12517-110">При необходимости задайте списки управления доступом (ACL) для хранилища файлов.</span><span class="sxs-lookup"><span data-stu-id="12517-110">If necessary, set the access control lists (ACLs) for the File Store.</span></span> <span data-ttu-id="12517-111">В командной строке введите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="12517-111">At the command line, type:</span></span>
+2.  <span data-ttu-id="2fab5-110">При необходимости задайте списки управления доступом (ACL) для хранилища файлов.</span><span class="sxs-lookup"><span data-stu-id="2fab5-110">If necessary, set the access control lists (ACLs) for the File Store.</span></span> <span data-ttu-id="2fab5-111">В командной строке введите следующую команду.</span><span class="sxs-lookup"><span data-stu-id="2fab5-111">At the command line, type:</span></span>
     
         Enable-CsTopology
     
@@ -62,7 +62,7 @@ ms.locfileid: "42144766"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="12517-112">Этот шаг необходимо выполнить только в том случае, если вы не используете построитель топологий в процессе восстановления.</span><span class="sxs-lookup"><span data-stu-id="12517-112">You need to perform this step only if you have not otherwise run Topology Builder during your restoration process.</span></span>
+    > <span data-ttu-id="2fab5-112">Этот шаг необходимо выполнить только в том случае, если вы не используете построитель топологий в процессе восстановления.</span><span class="sxs-lookup"><span data-stu-id="2fab5-112">You need to perform this step only if you have not otherwise run Topology Builder during your restoration process.</span></span>
 
     
     </div>
