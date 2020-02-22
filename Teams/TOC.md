@@ -59,7 +59,6 @@
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ### [Управление бизнес-приложениями](manage-your-lob-apps.md)
-### [Публикация в каталог приложений клиента Teams](tenant-apps-catalog-teams.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
