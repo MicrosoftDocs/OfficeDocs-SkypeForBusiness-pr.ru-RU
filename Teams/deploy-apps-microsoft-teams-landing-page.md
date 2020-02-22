@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826957"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229904"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Приложения, боты и соединители в Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "41826957"
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|<br>Каким приложениям я хочу предоставить доступ? Каким приложениями я не хочу предоставлять доступ?  | <ul><li>В статье [Разрешения и рекомендации для приложений Microsoft Teams](app-permissions.md) см. список того, что следует учитывать при предоставлении доступа к приложению, боту, вкладке или соединителю.</li><li>Сведения о том, как сделать приложение доступным для пользователей в вашей организации см. в статье [Публикация приложений в каталоге приложений клиента Teams](tenant-apps-catalog-teams.md).</li></ul>|
+|<br>Каким приложениям я хочу предоставить доступ? Каким приложениями я не хочу предоставлять доступ?  | <ul><li>В статье [Разрешения и рекомендации для приложений Microsoft Teams](app-permissions.md) см. список того, что следует учитывать при предоставлении доступа к приложению, боту, вкладке или соединителю.</li><li>Информацию о том, как сделать приложение доступным для пользователей в вашей организации, см. В разделе [Управление приложениями](manage-apps.md) в центре администрирования Microsoft Teams.</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>Боты для приватных чатов и каналов
