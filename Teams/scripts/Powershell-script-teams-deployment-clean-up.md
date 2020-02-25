@@ -15,20 +15,19 @@ description: Вы можете использовать этот сценари�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 64dbe1f49ada03d800fd73ba0da8d39e4f5cad30
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888258"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236739"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="367ba-103">Пример сценария PowerShell — очистка развертывания Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="367ba-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a><span data-ttu-id="1760c-103">Пример сценария PowerShell — очистка развертывания Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1760c-103">PowerShell Script Sample - Microsoft Teams deployment clean up</span></span>
 
-<span data-ttu-id="367ba-104">Этот сценарий PowerShell можно использовать для очистки Microsoft Teams на целевых компьютерах или для конкретных пользователей.</span><span class="sxs-lookup"><span data-stu-id="367ba-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="367ba-105">Его следует запустить для каждого пользователя на целевом компьютере.</span><span class="sxs-lookup"><span data-stu-id="367ba-105">It should be executed for every user on a targeted machine.</span></span> 
+<span data-ttu-id="1760c-104">Этот сценарий PowerShell можно использовать для очистки Microsoft Teams на целевых компьютерах или для конкретных пользователей.</span><span class="sxs-lookup"><span data-stu-id="1760c-104">This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users.</span></span> <span data-ttu-id="1760c-105">Его следует запустить для каждого пользователя на целевом компьютере.</span><span class="sxs-lookup"><span data-stu-id="1760c-105">It should be executed for every user on a targeted machine.</span></span> 
 
 
-## <a name="sample-script"></a><span data-ttu-id="367ba-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="367ba-106">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="1760c-106">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="1760c-106">Sample script</span></span>
 
 ```powershell
 <#
