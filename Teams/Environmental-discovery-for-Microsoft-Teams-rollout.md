@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834529"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236679"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды для выпуска Microsoft Teams
 ===================================================
@@ -31,8 +31,7 @@ ms.locfileid: "41834529"
 
 Вы выполняете подробное обнаружение среды, чтобы лучше понять ее текущее состояние и выявить все проблемы или (даже еще дальше), которые могут быть заблокированы для выполнения выпуска Teams.
 
-<a name="discovery-questionnaire"></a>Вопросник для анализа
-=======================
+## <a name="discovery-questionnaire"></a>Вопросник для анализа
 
 В приведенном ниже примере анкеты вы можете узнать, как убедиться, что ваша организация готова к успешному развертыванию голосовой конференции и телефонной системы с возможностями планов звонков в Teams.
 

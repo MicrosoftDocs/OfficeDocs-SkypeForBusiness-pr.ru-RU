@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как приобрести план Office 365 Enterprise (без голосовой конференции). '
-ms.openlocfilehash: e8d9c0bce382194318ae9e9330e55900c931026e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5f309cff63fb0e055d07329e276050cf5f1db4c0
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155071"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236799"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 корпоративный E5 (без аудиоконференции)
 
@@ -32,6 +32,6 @@ ms.locfileid: "42155071"
 
 |Добавляемая функция|Вот что вам нужно сделать |
 |:------------------|:--------------------------|
-|Аудиоконференции <br/> | Для получения этой надстройки выполните следующие действия: <ol><li>Если вы уже приобрели план "3", но в вашей стране или регионе функция голосовой связи недоступна, вам потребуется воспользоваться сторонним поставщиком услуг голосовой связи. Найдите стороннего поставщика видеоконференций в [Microsoft Pinpoint](https://go.microsoft.com/fwlink/?LinkId=797530).<br/>В этой статье рассказывается, как можно узнать, есть ли в вашей стране или регионе звуковая конференция: [страна и регион для голосовой конференции и планов звонков](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) </li><li/>Если это возможно, используйте [кнопку Переключить планы](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) , чтобы перейти к плану Office 365 корпоративный +, в котором есть голосовые конференции. Вы получите больше возможностей!</li></ol> |
+|Аудиоконференции <br/> | Чтобы получить эту надстройку, нажмите [кнопку "переключить планы"](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a), если она доступна, чтобы перейти к плану Office 365 корпоративный +, включающий голосовую конференцию. Кроме того, вы получите множество других полезных функций. </li></ol> |
 |Функция телефонной системы входит в состав пакета. <br/> | Приобретите [план звонков](../calling-plans-for-office-365.md) для Office 365. <br/>  Или воспользуйтесь [телефонной службой вашего поставщика](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Голосовая почта в облаке включена! <br/> |Вам не нужно предпринимать никаких других действий.  <br/> |

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826297"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236819"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Аудиоконференции в Office 365
 Голосовые конференции в Office 365 дают пользователям возможность звонить на собрания с телефонов. Голосовые конференции допускают до 250 мобильных участников.
@@ -47,7 +47,7 @@ ms.locfileid: "41826297"
 После того как участники будут присоединены к собранию, они также смогут звонить и приглашать других абонентов на собрание Skype для бизнеса или Microsoft Teams. Ознакомьтесь с [разбираемым звонком из собрания Teams, чтобы другие люди могли присоединиться](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) к [собранию и звонить из собрания Skype для бизнеса, чтобы другие люди могли присоединиться к ней](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Каковы затраты на это?
-Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## <a name="where-is-it-available"></a>Где она доступна?
 С помощью голосовой конференции пользователи могут использовать платные и бесплатные телефонные номера для подключения к собраниям. Номера платных платных услуг автоматически назначаются в качестве номеров общих звуковых конференций для организаций, когда они включены для голосовой конференции. Выделенные платные и бесплатные номера можно назначить вашей организации из других городов.
