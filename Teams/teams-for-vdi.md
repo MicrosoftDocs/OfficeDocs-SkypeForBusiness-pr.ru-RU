@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888648"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42278012"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -161,7 +161,7 @@ Office 365 профессиональный плюс не поддерживае
 
     Удалить Teams можно двумя способами:  
   
-    - Сценарий PowerShell (рекомендуется): вы можете использовать этот [сценарий PowerShell](scripts/powershell-script-teams-deployment-clean-up.md) для очистки команд от целевых компьютеров или пользователей. Оно должно выполняться для каждого пользователя на целевом компьютере. 
+    - Сценарий PowerShell (рекомендуется)
     
     - Командная строка: этот подход удаляет группы, но предотвращает повторную установку Teams. Выполните следующую команду.
   
@@ -362,7 +362,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 
 Сведения о том, как устранять неполадки вда и кВА, можно найти на [веб-сайте Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Установка Microsoft Teams с помощью MSI](msi-deployment.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

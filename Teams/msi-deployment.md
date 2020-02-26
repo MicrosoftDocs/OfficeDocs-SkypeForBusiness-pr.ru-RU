@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888368"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277982"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установка Microsoft Teams с помощью диспетчера конфигураций конечных точек Майкрософт
 
@@ -80,9 +80,6 @@ MSI Teams помещает установщик в папку Program Files. К�
 1. Удалите установленное приложение Teams для каждого профиля пользователя.
 2. После удаления рекурсивно удалите каталог, вложенный в %localappdata%\Microsoft\Teams\.
 3. Повторно разверните пакет MSI на этом конкретном компьютере.
-
-> [!TIP]
-> Вы можете использовать сценарий [очистки для развертывания Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) , чтобы выполнить шаги 1 и 2 с помощью Configuration Manager.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Запрещение автоматического запуска групп после установки
 
