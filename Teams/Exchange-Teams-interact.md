@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834509"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285751"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -88,7 +88,7 @@ Microsoft Teams работает с несколькими службами Offi
 
 - Функции обеспечения безопасности и соответствия в Microsoft Teams, такие как обнаружение электронных данных, поиск контента, архивация и удержание по юридическим причинам, лучше всего работают в средах Exchange Online и SharePoint Online. Во время бесед в каналах сообщения передаются в почтовый ящик группы Exchange Online, где они доступны для обнаружения электронных данных. Если пользователи организации имеют доступ к SharePoint Online и OneDrive для бизнеса (с помощью учебной или рабочей учетной записи), эти функции по обеспечению соответствия также доступны для всех файлах в Teams.
 
-- Управление и защита конфигурации политик соответствия в Teams и Exchange с помощью условного доступа. Дополнительные сведения [о том, как работают политики условного доступа для Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- Управление и защита конфигурации политик соответствия в Teams и Exchange с помощью условного доступа. Дополнительные сведения [о том, как работают политики условного доступа для Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
 - Если в вашей организации есть требования соответствия требованиям, чтобы убедиться в том, что все обсуждения собраний являются обнаруживаемыми, вы должны отключить закрытые собрания, если у организатора есть локальный почтовый ящик Exchange.
 

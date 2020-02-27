@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
-ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041248"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288717"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 Чтобы изменить глобальную политику, выполните следующую команду в командной консоли Skype для бизнеса Server после обновления вашей организации и TenantID:
 
 ```PowerShell
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
 - **Destination** указывает полное доменное имя (FQDN) размещенной облачной службы голосовой почты. Это значение должно быть равно **exap.UM.Outlook.com**.
@@ -85,8 +85,6 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 - **Organization** — это домен по умолчанию, назначенный вашему клиенту. Вы можете получить эту информацию, дополнив вход администратора клиента в office.com, выберите приложение центра администрирования, перейдите к разделу **Настройка** слева и нажмите кнопку **домены**. Пример: mytenant.onmicrosoft.com.
 
     Имя организации также является именем домена по умолчанию в Office 365.
-
-- **Клиент** используется для идентификации клиента в Office 365. Для получения дополнительных сведений обратитесь [к разделу Find Your ID клиента Office 365](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Чтобы убедиться, что политика размещенной голосовой почты успешно создана, выполните следующую команду:
 

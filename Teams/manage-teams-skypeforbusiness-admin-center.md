@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833129"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288637"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 ======================================================
@@ -104,12 +104,12 @@ ms.locfileid: "41833129"
 |Параметры внешнего доступа     |    X    |      |       |
 |Управление пользователями    |         |         |    X     |    
 |Аудиоконференции     |    X     |    X     |         |
-|Планы звонков     |         |    X     |         |
-|Телефонная система    |         |     X    |         |
-|Управление телефонными номерами     |         |   X      |         |
+|Планы звонков     |    X    |    X     |         |
+|Телефонная система    |    X    |     X    |         |
+|Управление телефонными номерами     |    X    |   X      |         |
 |Лицензирование функций голосовой связи в облаке     |         |         |    X     |
-|Автосекретари     |         |    X     |         |
-|Очередь звонков     |         |    X     |         |
+|Автосекретари     |    X    |          |         |
+|Очередь звонков     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Управление параметрами после миграции
 

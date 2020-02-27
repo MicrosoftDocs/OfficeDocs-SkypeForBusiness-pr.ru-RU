@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160703"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285831"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -226,7 +226,7 @@ Teams в значительной степени зависит от Exchange On
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|<br>Мне необходимо настраивать условный доступ для Teams?|<ul><li>Чтобы понять, как работают политики доступа, см. статью [Как работают политики условного доступа в Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)</li><li>Информацию о настройке многофакторной проверки подлинности для Teams см.:<ul><li>[Краткое руководство: Необходимость многофакторной проверки подлинности для конкретных приложений с помощью условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Настройки условного доступа с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Мне необходимо настраивать условный доступ для Teams?|<ul><li>Чтобы понять, как работают политики доступа, см. статью [Как работают политики условного доступа в Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Информацию о настройке многофакторной проверки подлинности для Teams см.:<ul><li>[Краткое руководство: Необходимость многофакторной проверки подлинности для конкретных приложений с помощью условного доступа Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Настройки условного доступа с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
