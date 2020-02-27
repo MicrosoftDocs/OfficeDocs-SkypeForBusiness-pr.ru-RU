@@ -263,10 +263,10 @@
 
 ### Настройка прямой маршрутизации
 #### [Обзор](direct-routing-configure.md)
-#### [Подключение SBC для прямой маршрутизации](direct-routing-connect-the-sbc.md)
-#### [Разрешение для пользователей прямой маршрутизации, голосовых вызовов и голосовой почты](direct-routing-enable-users.md)
-#### [Настройка маршрутизации голосовых вызовов](direct-routing-voice-routing.md)
-#### [Перевод телефонных номеров](direct-routing-translate-numbers.md)
+#### [Шаг 1. Подключение SBC](direct-routing-connect-the-sbc.md)
+#### [Шаг 2. Включение пользователей](direct-routing-enable-users.md)
+#### [Шаг 3. Настройка маршрутизации голосовых вызовов](direct-routing-voice-routing.md)
+#### [Шаг 4. Перевод телефонных номеров](direct-routing-translate-numbers.md)
 #### [Настройка SBC для нескольких клиентов](direct-routing-sbc-multiple-tenants.md)
 #### [Использование аналоговых устройств при прямой маршрутизации](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # Безопасность и соответствие требованиям
+## [Обзор](security-compliance-overview.md)
 ## Безопасность
 ### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ## Соответствие требованиям
-### [Обзор](security-compliance-overview.md)
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)
 ### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
