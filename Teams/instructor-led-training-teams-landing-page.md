@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836609"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288727"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ ms.locfileid: "41836609"
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ ms.locfileid: "41836609"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams для сотрудников без компьютеров</h3>
-                        <p>Сведения о возможностях в Teams для сотрудников без компьютеров.</p>
-                        <p><i>Аудитория: конечные пользователи</i></p>
+                        <h3>Новые возможности с Teams для сотрудников без компьютеров</h3>
+                        <p>Узнайте о цифровом преобразовании с помощью Teams, которое обеспечивает неограниченный потенциал для всех сотрудников.</p>
+                        <p><i>Аудитория: лица, принимающие бизнес-решения, лица, принимающие решения в сфере ИТ</i></p>
                     </div>
                 </div>
             </div>
