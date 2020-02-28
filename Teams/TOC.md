@@ -695,6 +695,7 @@
 
 ## Установка Teams
 ### [Работа с клиентами для Teams](get-clients.md)
+### [Получение Microsoft Teams для Android в Китае](get-teams-android-in-china.md)
 ### [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)
 ### [Рекомендации по драйверам аппаратного декодера и кодировщика](hardware-decoders-and-encoders.md)
 ### [Установка Teams с помощью MSI](msi-deployment.md)
