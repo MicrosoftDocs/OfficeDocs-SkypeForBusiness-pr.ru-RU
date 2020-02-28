@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834669"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327851"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -39,7 +39,6 @@ ms.locfileid: "41834669"
 > [!NOTE]
 > - Для выполнения программы regsvr32. exe на компьютере должны быть установлены разрешения пользователей на выполнение файла, предназначенного для проведения собраний Teams.
 > - Если надстройка "Собрание Teams" не отображается, попросите пользователей закрыть Outlook и Microsoft Teams, затем перезапустить клиент Microsoft Teams, войти в него и перезапустить клиент Outlook (именно в таком порядке).
-> - Пользователи Windows 7 должны установить [Обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) в Windows для надстройки "собрание Teams" для работы.
 > - Если вы используете установку Office Outlook из Microsoft Store, надстройка для собраний Teams не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в разделе " [Office для Windows 10" в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Надстройка для собраний Teams в Outlook для Mac

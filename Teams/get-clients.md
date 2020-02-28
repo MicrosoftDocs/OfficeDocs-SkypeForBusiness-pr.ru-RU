@@ -3,7 +3,6 @@ title: Работа с клиентами для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833769"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327841"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -41,7 +40,7 @@ ms.locfileid: "41833769"
 > [!TIP]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
-Классический клиент Microsoft Teams представляет собой автономное приложение, а также [входит в состав Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается для Windows (7 +), Windows Server (2012 R2 +), 32-bit и 64-bit Versions, macOS (10.10 +) и Linux (in `.deb` и `.rpm` formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux диспетчеры пакетов, такие как Апт и Юм, будут пытаться установить любые требования. Однако в противном случае вам потребуется установить любые требования, предъявляемые перед установкой Teams в Linux.
+Классический клиент Microsoft Teams представляет собой автономное приложение, а также [входит в состав Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается в 32-и 64-разрядных версиях Windows (8,1 или более поздних версий) и Windows Server (2012 R2 или более поздней версии), а также для macOS (10,10 или более новой `.deb` ) `.rpm` и Linux (in и formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux диспетчеры пакетов, например `apt` , `yum` и попытаются установить любые требования. Однако в противном случае вам потребуется установить любые требования, предъявляемые перед установкой Teams в Linux.
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
@@ -181,6 +180,8 @@ sudo zypper install teams
 ## <a name="mobile-clients"></a>Мобильные клиенты
 
 Мобильные приложения Microsoft Teams доступны для Android и iOS и предназначены для пользователей, участвующих в беседах на основе чата и выполняющих одноранговые звонки во время поездок. Для мобильных приложений следует использовать соответствующий магазин: Google Play и Apple App Store. Приложение Windows Phone перестало поддерживаться 20 июля 2018 г. и может перестать работать. 
+
+В Китае вы можете получить доступ к [Teams для Android](get-teams-android-in-china.md). 
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 
