@@ -23,27 +23,36 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Когда вы получаете номера телефонов или переносите (переносите) номера для своей организации, вам может потребоваться получить помощь и поддержку на рабочем столе PSTN.
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825717"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341781"
 ---
-# <a name="pstn-service-desk-help"></a><span data-ttu-id="1b2bd-103">Справка службы поддержки PSTN</span><span class="sxs-lookup"><span data-stu-id="1b2bd-103">PSTN service desk help</span></span>
+# <a name="pstn-service-desk-contact"></a><span data-ttu-id="81a83-103">Контакт в службе поддержки PSTN</span><span class="sxs-lookup"><span data-stu-id="81a83-103">PSTN Service Desk Contact</span></span>
 
-<span data-ttu-id="1b2bd-104">Если вам нужна помощь по получению или передаче номеров, но вам нужна помощь, сообщите нам, как мы сможем помочь вам в письме и отправить его нам.</span><span class="sxs-lookup"><span data-stu-id="1b2bd-104">If you need help with getting or transferring numbers to us but need help please let us know how we can help you in an email and send it to us.</span></span> <span data-ttu-id="1b2bd-105">В справочной системе по электронной почте добавьте как можно больше сведений, например идентификатор организации, домены, типы номеров, с которыми вы хотели бы помочь, сколько номеров вам нужно, а также в том числе и другие важные сведения о вашей неполадке.</span><span class="sxs-lookup"><span data-stu-id="1b2bd-105">In your email Help request, include as many details as you can and include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.</span></span>
+<span data-ttu-id="81a83-104">Если вам нужна помощь с получением номеров телефонов от корпорации Майкрософт или перенос существующих номеров телефонов в корпорацию Майкрософт, отправьте запрос по электронной почте со следующими данными:</span><span class="sxs-lookup"><span data-stu-id="81a83-104">If you need help with acquiring phone numbers from Microsoft or with porting existing phone numbers to Microsoft, send an email request with the following information:</span></span>
 
-<span data-ttu-id="1b2bd-106">Затем отправьте запрос на один из указанных ниже адресов электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1b2bd-106">Then send your request to one of the following email addresses:</span></span>
+  - <span data-ttu-id="81a83-105">ИДЕНТИФИКАТОР организации (ИД клиента) или активные домены.</span><span class="sxs-lookup"><span data-stu-id="81a83-105">Your Organization ID (Tenant ID) or active domains.</span></span>
+  - <span data-ttu-id="81a83-106">Какие типы номеров вам понадобятся (для пользователей, подписчиков, служб, платных и бесплатных).</span><span class="sxs-lookup"><span data-stu-id="81a83-106">What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).</span></span>
+  - <span data-ttu-id="81a83-107">Сколько номеров вам нужно (если это для получения номера).</span><span class="sxs-lookup"><span data-stu-id="81a83-107">How many numbers you require (if this is for number acquisition).</span></span>
+  - <span data-ttu-id="81a83-108">Авторизация пользователя в учетной записи и другие важные сведения в соответствии с вашим запросом.</span><span class="sxs-lookup"><span data-stu-id="81a83-108">Authorizing person on the account and other important details based on your request.</span></span>
 
-- <span data-ttu-id="1b2bd-107">Для получения справки о телефонных номерах в США, [отправьте запрос](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="1b2bd-107">For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).</span></span>
-- <span data-ttu-id="1b2bd-108">Для получения справки о телефонных номерах за пределами США, [отправьте запрос](mailto:ptneu@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="1b2bd-108">For help with phone numbers outside the U.S., [send your request](mailto:ptneu@microsoft.com).</span></span>
+<span data-ttu-id="81a83-109">После того как вы попросите всех данных, отправьте нам свой запрос на следующие адреса электронной почты, применимые для вашего запроса:</span><span class="sxs-lookup"><span data-stu-id="81a83-109">Once you have all the information, send us your request to one the following email addresses that is applicable to your request:</span></span>
+- <span data-ttu-id="81a83-110">**Перенос номеров**</span><span class="sxs-lookup"><span data-stu-id="81a83-110">**Number Porting**</span></span>
+    - <span data-ttu-id="81a83-111">Перенос телефонных номеров в **США и Канаде** [отправьте нам сообщение по адресу PTN@microsoft.com](mailto:ptn@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="81a83-111">Porting telephone numbers **inside the United States or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).</span></span>
+    - <span data-ttu-id="81a83-112">Перенос телефонных номеров **за пределами США и Канады** [отправьте нам сообщение по адресу ptneu@microsoft.com](mailto:ptneu@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="81a83-112">Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).</span></span>
+    
+- <span data-ttu-id="81a83-113">**Получение номера**</span><span class="sxs-lookup"><span data-stu-id="81a83-113">**Number Acquisition**</span></span>
+    - <span data-ttu-id="81a83-114">Получение новых номеров телефонов для любой из следующих стран: **Бельгия, Франция, Германия, Великобритания, Ирландия, Нидерланды, Испания, Швеция, нидерландский, Швейцария**, с [почтовыми сообщениями по адресу ptneu@microsoft.com](mailto:ptneu@microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="81a83-114">Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)</span></span>
+    - <span data-ttu-id="81a83-115">Чтобы получить новые телефонные номера для **оставшейся части мира** , [отправьте нам сообщение по адресу gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="81a83-115">Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="1b2bd-109">См. также:</span><span class="sxs-lookup"><span data-stu-id="1b2bd-109">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="81a83-116">См. также:</span><span class="sxs-lookup"><span data-stu-id="81a83-116">Related topics</span></span>
 
-[<span data-ttu-id="1b2bd-110">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="1b2bd-110">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="81a83-117">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="81a83-117">Different kinds of phone numbers used for Calling Plans</span></span>](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="1b2bd-111">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="1b2bd-111">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="81a83-118">Управление номерами телефонов организации</span><span class="sxs-lookup"><span data-stu-id="81a83-118">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization.md)
 
-[<span data-ttu-id="1b2bd-112">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="1b2bd-112">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="81a83-119">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="81a83-119">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
   
