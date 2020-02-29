@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Прочтите эту статью, чтобы научиться использовать аналоговые устройства с прямой маршрутизацией Microsoft Phone System.
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192172"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341790"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Как использовать аналоговые устройства с прямой маршрутизацией телефонной системы
 
@@ -45,7 +45,7 @@ ms.locfileid: "42192172"
 4. Назначение голосового маршрута для использования PSTN
 5. Включение пользователя Online
 6. Назначение пользователю политики голосовых маршрутов
-7. Назначение политики голосовых маршрутов для аналогового устройства
+7. Создание голосового маршрута для аналогового устройства
 
 Сведения о том, как подключить ATA к SBC и настроить SBC, можно найти в руководстве по настройке производителей SBC.
 - [Документация по конфигурации AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>Шаг 7: назначение голосового маршрута для аналогового устройства
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Шаг 7: Создание голосового маршрута для аналогового устройства
 
 Эта команда создает онлайновый маршрут с удостоверением "аналогово-Interop" для диапазона номеров + 1425 4XX XX XX, применимый к списку интернет-шлюзов sbc.contoso.com и связывающий его с помощью сети Интернет-ресурсов PSTN.  Эту команду следует запускать для каждого аналогового устройства с соответствующим шаблоном номера телефона. Кроме того, можно использовать правильный шаблон номера для аналоговых устройств при настройке голосового голосовой связи в течение одного из предыдущих шагов.
 

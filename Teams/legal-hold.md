@@ -15,12 +15,12 @@ f1.keywords:
 description: Сведения о помещении пользователя или команды Microsoft Teams на удержание по юридическим причинам с помощью Центра безопасности и соответствия требованиям, а также о том, что именно требуется удерживать в зависимости от требований к данным.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863030"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341637"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам
 ==================================================
@@ -59,7 +59,7 @@ ms.locfileid: "41863030"
 |Сценарий  |Что помещается на удержание  |
 |---------|---------|
 |**Приложение Microsoft Teams Chat (в 1:1 чатов, 1: множество чатов, беседы в частном канале и т. д.)**     |Почтовый ящик пользователя         |
-|**Беседы по каналам Microsoft Teams (за исключением частных каналов**    |Используемый командой почтовый ящик группы         |
+|**Беседы по каналам Microsoft Teams (за исключением частных каналов)**    |Используемый командой почтовый ящик группы         |
 |**Содержимое Microsoft Teams (например, вики, файлы)**     |Используемый командой сайт SharePoint         |
 |**Файлы личных каналов Microsoft Teams**     |Выделенный узел SharePoint для личного канала     |
 |**Личное содержимое пользователя**     |Сайт пользователя в OneDrive для бизнеса         |

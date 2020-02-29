@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: Сводка. сведения о том, что следует учитывать при планировании панели мониторинга качества звонков.
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029420"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339444"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Планирование панели мониторинга качества звонков для Skype для бизнеса Server 
  
@@ -195,9 +195,9 @@ CQD использует Microsoft SQL Server, службы аналитики M
 
 |**Компьютер**|**Ядра ЦП**|**ОЗУ**|**Архив и куб QoE на том же диске**|**QoE Архив и базу данных SQL Temp на одном диске**|
 |:-----|:-----|:-----|:-----|:-----|
-|Виртуальная машина  <br/> |4   <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
-|4 ядра  <br/> |4   <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
-|8 ядер  <br/> |8   <br/> |32 ГБ  <br/> |Да  <br/> |Нет  <br/> |
+|Виртуальная машина  <br/> |SP4  <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
+|4 ядра  <br/> |SP4  <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
+|8 ядер  <br/> |8,5  <br/> |32 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |16 основных компонентов  <br/> |16   <br/> |128 ГБ  <br/> |Нет  <br/> |Нет  <br/> |
    
 **Результаты производительности**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Поддерживаются следующие версии SQL Server:
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (только Skype для бизнеса Server 2019 CQD)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 Для повышения производительности рекомендуется использовать бизнес-аналитику или выпуск Enterprise Edition. Эти выпуски позволяют использовать несколько файлов разделов, которые могут обрабатываться параллельно, что полезно для обработки данных, охватывающих несколько месяцев или более длинные. 
   

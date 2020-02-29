@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278012"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339464"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -351,7 +351,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
     - Общий доступ к приложениям.
 - Предоставление управления и управление:  
     - Не поддерживается во время демонстрации экрана или сеанса совместного использования приложений.
-    - Поддерживается в сеансе совместного использования PowerPoint.  
+    - Поддерживается в сеансе совместного использования PowerPoint.
+- Если в настройке с несколькими мониторами вы предоставляете общий доступ к экрану, для него предоставляется доступ только к главному монитору.
 - Масштабирование с высоким разрешением в кВА не поддерживается.
 
 Известные проблемы, которые не относятся к VDI, приведены в разделе [Известные проблемы группы](Known-issues.md).
