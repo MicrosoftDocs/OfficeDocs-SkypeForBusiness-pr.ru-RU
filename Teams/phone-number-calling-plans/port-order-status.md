@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827957"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370408"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Каково состояние ваших заказов на перенос номеров?
 
@@ -36,15 +36,15 @@ ms.locfileid: "41827957"
 |**Обращение к перевозчику** <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |Заказ был получен и утвержден корпорацией Майкрософт, и мы работаем с потерей перевозчика, чтобы получить его одобрение.  <br/> |
 |**Передача утверждена** <br/> |Да  <br/> |Обязательства по утверждению о заказе (ФОК)  <br/> |Да  <br/> |Нет  <br/> |Заказ был принят проигрышем перевозчика, а Дата ФОК была установлена.  <br/> |
 |**Ожидание переноса** <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |Передача данных занимает менее 24 часов, поэтому заказ больше не редактируется и не отменяется.  <br/> |
-|**Ошибка** <br/> |Нет  <br/> |Да  <br/> |Да   <br/> |Да (в настоящее время вы не можете удалить порядок портов, если возникла ошибка. Номер порта должен быть создан заново или необходимо обратиться в [справку службы поддержки КТСОП](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |Этот заказ отвергнут перевозчиком.  <br/> |
+|**Ошибка** <br/> |Нет  <br/> |Да  <br/> |Да   <br/> |Да (в настоящее время вы не можете удалить порядок портов, если возникла ошибка. Необходимо повторно создать заказ на перенос, или вы должны обратиться в [службу поддержки КТСОП](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |Этот заказ отвергнут перевозчиком.  <br/> |
 |**Completed** <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |Номера успешно переданы.  <br/> |
 |**Отменен** <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |Нет  <br/> |Администратор отменил заказ.  <br/> |
 
 Полные пошаговые инструкции можно найти [в разделе Перенос номеров телефонов в Teams](transfer-phone-numbers-to-teams.md).
 
-Если вам нужна помощь или вам нужно получить дополнительные номера телефонов, обратитесь к [справочной службе сети PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Если вам нужна помощь или вам нужно получить дополнительные номера телефонов, обратитесь в [службу поддержки КТСОП](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
