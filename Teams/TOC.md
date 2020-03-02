@@ -4,6 +4,8 @@
 
 # [Плакаты архитектуры и решений для телефонии](teams-architecture-solutions-posters.md)  
 
+# [Поддержка удаленных работников (WFH)](support-remote-work-with-teams.md)
+
 # Обучение 
 ## [Обзор](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [Изменение настроек для моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Просмотр списка номеров для аудиоконференций](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Установка языков автосекретаря для аудиоконференций](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [Настройка подтверждения присоединения к собранию исходящим звонком для пользователей](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
