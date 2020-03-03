@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342906"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374316"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "42342906"
 
 1.  Убедитесь, что приложение [Teams включено для всех пользователей](assign-teams-licenses.md).
     
-      - Ознакомьтесь с [Teams Exploratory](teams-exploratory.md) и [бесплатной версией Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), чтобы предоставить приложение Teams всем сотрудникам организации.
+      - Ознакомьтесь с [пробной версией Teams E1](e1-trial-license.md), [Teams Exploratory](teams-exploratory.md) или [бесплатной версией Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), чтобы предоставить приложение Teams всем сотрудникам организации.
 
       - Удаленные сотрудники часто используют собрания и аудиоконференции. Если вы еще не развернули эти рабочие нагрузки, ознакомьтесь со статьей [Собрания и конференции в Teams](deploy-meetings-microsoft-teams-landing-page.md).
 
