@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837449"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374326"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных организаций (Microsoft 365) — развертывание GCC
 
@@ -128,7 +128,7 @@ Microsoft 365 государственных учреждений – GCC обе
 | | Потребитель Skype-техническая поддержка по звонку в Teams | Доступно |
 | Файлы | Последние | Доступно |
 | | Microsoft Teams | Доступно |
-| Хранени | App Store | В списке невыполненной работы правительственных учреждений |
+| Хранени | App Store | Доступно |
 | Поиск | Ошибка | Доступно |
 | | Люди | Доступно |
 | | Файлы | Доступно |
@@ -140,7 +140,6 @@ Microsoft 365 государственных учреждений – GCC обе
 | | Обнаружение электронных данных | Доступно |
 
 > [!Note]
-
 > После того как другие рабочие нагрузки будут полностью доступны в облаке GCC, они станут доступны в Teams, когда завершится вся дополнительная интеграция.
 
 
