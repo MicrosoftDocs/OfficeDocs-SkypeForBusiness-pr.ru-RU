@@ -621,8 +621,10 @@
 ##### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [Подключение приложения для пациентов к Azure API для FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [Журналы аудита приложения для пациентов](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
+### [Начало работы с удаленным обучением](remote-learning-edu.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
