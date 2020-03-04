@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837329"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403748"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>Использование PowerShell
 
 1. Установите [консоль управления SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) и подключитесь к ней с помощью учетной записи администратора.
-2. Запустите следующую команду, где &lt;Group_id&gt; — идентификатор группы. (Идентификатор группы можно легко найти в ссылке на команду.)
+2. Запустите следующую команду, где &lt;group_id&gt; — идентификатор группы. (Идентификатор группы можно легко найти в ссылке на команду.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -116,7 +116,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Эти команды можно выполнить с помощью [проводника диаграмм](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Воспользуйтесь приведенными ниже сведениями, чтобы получить список идентификаторов частных каналов для конкретной команды, где <group_id> является идентификатором группы для группы. Это потребуется при последующих звонках. (Идентификатор группы можно легко найти в ссылке на команду).
+1. Воспользуйтесь приведенными ниже сведениями, чтобы получить список идентификаторов частных каналов для конкретной команды, где <group_id> является ИДЕНТИФИКАТОРом группы для группы. Это потребуется при последующих звонках. (Идентификатор группы можно легко найти в ссылке на команду).
 
     **Запрос**
 
@@ -184,46 +184,23 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-1. Установите и подключитесь к [модулю Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) с учетной записью администратора.
-2. Запустите следующую команду, где &lt;group_id&gt; — это идентификатор группы, а &lt;channel_id&gt; — идентификатор канала.
-
-    **Запрос**
+1. Запустите следующую команду, где &lt;group_id&gt; — идентификатор группы, а &lt;channel_name&gt; — имя канала.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **Response (Ответ)**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
-3. Повышение роли участника до владельца.
+2. Повышение роли участника до владельца.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>Использование Graph API
 
 Эти команды можно выполнить с помощью [проводника диаграмм](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Используйте следующую команду, где &lt;Group_id&gt; — идентификатор группы, а &lt;channel_id&gt; — идентификатор канала.
+1. Используйте следующую команду, где &lt;group_id&gt; — идентификатор группы, а &lt;channel_id&gt; — идентификатор канала.
 
     **Запрос**
 
@@ -344,7 +321,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
 - [Использование API Microsoft Graph для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
