@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374353"
+ms.locfileid: "42398167"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -27,6 +27,8 @@ ms.locfileid: "42374353"
 С марта 2020 г. доступна 6-месячная бесплатная пробная версия Office 365 E1, включающая Microsoft Teams. Корпорация Майкрософт предоставляет эту специальную лицензию на пробную версию E1 в ответ на возросшие потребности в работе сотрудников из дома в связи со вспышкой эпидемии COVID-19 (коронавируса). 
 
 Сведения о доступных компонентах в лицензии E1 см. на странице [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+Не пропустите наши рекомендации по [поддержке удаленной работы в Teams](support-remote-work-with-teams.md).
 
 ## <a name="how-to-get-an-e1-trial-license"></a>Способ получения лицензии на пробную версию E1
 
