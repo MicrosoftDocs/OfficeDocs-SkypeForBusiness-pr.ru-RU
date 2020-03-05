@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837369"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417874"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837369"
                     <div class="cardText">
                         <h3>Начало работы с Teams через 30</h3>
                         <P>Начните работу с группами в 30м пути в правом нижнем колонтитуле. Общие сведения о программе, в которой следует принимать участие, а также о том, какие ресурсы вы можете использовать для обеспечения успеха.</P>
-                        <p>Аудитория: "спонсоры", "ИТ-администраторы", "внедрение" и "изменение владельцев"</p>
+                        <p>*Аудитория: "спонсоры", "ИТ-администраторы", "внедрение" и "изменение владельцев"*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Готовность конечных пользователей</h3>
+                    <p>Выявление стратегий и ресурсов для подготовки пользователей, создания зависимости от лидерами и гарантии принятия пользователей в качестве основного компонента выпусков Teams.</p><p>*Аудитория: принятие и изменение владельцев*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837369"
                     </div>
                     <div class="cardText">
                     <h3>Подготовка среды (часть I)</h3>
-                    <p>Установите основу для выпуска Teams. Определите требования для Teams, советы по сети и безопасность, рекомендации, политики сосуществования, анализ и отчеты и рекомендации по распространению клиентов.</p><p>Аудитория: ИТ-администраторы</p>
+                    <p>Установите основу для выпуска Teams. Определите требования для Teams, советы по сети и безопасность, рекомендации, политики сосуществования, анализ и отчеты и рекомендации по распространению клиентов.</p><p>*Аудитория: ИТ-администраторы*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837369"
                     </div>
                     <div class="cardText">
                         <h3>Подготовка среды, часть II</h3>
-                    <p>Теперь, когда вы создали основу, ознакомьтесь с рекомендациями по внедрению соответствия требованиям, хранению, управлению и голосовой конференции в Teams.</p><p>Аудитория: ИТ-администраторы</p>
+                    <p>Теперь, когда вы создали основу, ознакомьтесь с рекомендациями по внедрению соответствия требованиям, хранению, управлению и голосовой конференции в Teams.</p><p>*Аудитория: ИТ-администраторы*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Готовность конечных пользователей</h3>
-                    <p>Выявление стратегий и ресурсов для подготовки пользователей, создания зависимости от лидерами и гарантии принятия пользователей в качестве основного компонента выпусков Teams.</p><p>Аудитория: принятие и изменение владельцев</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837369"
                     <div class="cardText">
                     <h3>Оптимизация и развертывание</h3>
                     <p>Разработайте план, включающий оптимизацию производительности служб, расширение возможностей групп и добавление новых пользователей.</p>
-                    <p>Аудитория: "спонсоры", "ИТ-администраторы", "внедрение" и "изменение владельцев"</p>
+                    <p>*Аудитория: "спонсоры", "ИТ-администраторы", "внедрение" и "изменение владельцев"*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Коллективные Чалкные общения</h3>
+                    <p>В этих онлайновых семинарах, облегчающих обучение экспертам, можно найти рекомендации и практические рекомендации по некоторым наиболее популярным и притягательным сценариям в Teams.</p><p>*Аудитория: ИТ-администраторы*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     
