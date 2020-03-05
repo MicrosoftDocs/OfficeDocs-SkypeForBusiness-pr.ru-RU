@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в США (и Пуэрто-Рико) для Microsoft Teams.
-ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: В этой таблице содержатся сведения о том, как получить и управлять телефонными номерами в Соединенных Штатах Америки (в том числе Пуэрто-Рико) для Microsoft Teams.
+ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706934"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417634"
 ---
 # <a name="phone-number-management-for-the-us"></a>Управление номерами телефонов в США
 
-В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в США (и Пуэрто-Рико) для Microsoft Teams.
+В этой таблице содержатся сведения о том, как получить и управлять телефонными номерами в Соединенных Штатах Америки (в том числе Пуэрто-Рико) для Microsoft Teams.
 
 Дополнительные сведения см. в статье [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization.md).
   

@@ -16,12 +16,12 @@ f1.keywords:
 description: Настройка динамических экстренных вызовов
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825517"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417594"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -70,10 +70,10 @@ ms.locfileid: "41825517"
 
 В настоящее время поддерживаются следующие клиенты.  Регулярно проверяйте, есть ли в этом списке обновленные сведения.
 
-- Настольный клиент Teams для Windows
-- Настольный клиент Teams для Mac
-- Клиент Teams Mobile для клиента IOS версии 1.0.92.2019121004 и App Store версии 1.0.92 и выше
-- Клиент Teams Mobile для Android и магазин версий 1416/1.0.0.2019121201 и выше
+- Настольный клиент Teams для Microsoft Windows
+- Настольный клиент Teams для Apple macOS
+- Клиент Teams Mobile для клиента Apple iOS версии 1.0.92.2019121004 и App Store версии 1.0.92 и выше
+- Клиент Teams Mobile для Android Client и Google Play Store версии 1416/1.0.0.2019121201 и выше
 - Teams Phone 1449/1.0.94.2019110802 и более поздних версий
 
 ## <a name="assign-emergency-addresses"></a>Назначение адресов для экстренного реагирования
@@ -202,7 +202,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ерсп для тестовых служб.
 
- ## <a name="related-topics"></a>См. также
+ ## <a name="related-topics"></a>Статьи по теме
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)
