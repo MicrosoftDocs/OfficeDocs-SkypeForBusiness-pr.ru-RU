@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030773"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551036"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Создание первых команд в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "42030773"
 |----------------- | ---------- |
 | **Развертывание Microsoft Teams** ||
 | Общий | Вкладка "веб": [Документация по Teams](https://aka.ms/SuccessWithTeams) |
-| Сведения о распознавании и внедрении | [Центр внедрения команд](https://aka.ms/DriveTeamsAdoption)<br/>[Комплект для успешной работы клиентов Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| Сведения о распознавании и внедрении | [Центр внедрения команд](https://aka.ms/DriveTeamsAdoption)<br/>[Комплект для успешной работы клиентов Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Бизнес-задействование | Вики — руководство по задействованию<br/>Форма: запрос на консультации для Teams<br/>Список — запросы на задействование |
 |Ранние последователи | Сообщество "закрепленная обратная связь" <br/> OneNote для часто задаваемых вопросов и распространенных тем |
 | Отзывы и отчеты | Отчет об использовании закрепления Office 365 (только для администраторов Office 365) |

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825307"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550916"
 ---
 ![Обновление схемы поездки с акцентом на этапе непрерывности работы](media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности работы")
 
@@ -47,7 +47,7 @@ ms.locfileid: "41825307"
 
 - Прикрепление одноранговых лидерами для еванжелизе и поддержки пользователей.
 - В [руководстве по внедрению Office 365 вы найдете](https://go.microsoft.com/fwlink/?linkid=859045) советы по повышению задействования и его внедрению.
-- Использование [комплекта успешных клиентов Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) для улучшения качества и предоставления лучших рекомендаций.
+- Использование [комплекта успешных клиентов Teams](https://aka.ms/TeamsCustomerSuccess) для улучшения качества и предоставления лучших рекомендаций.
 - Реализация формальной [стратегии внедрения и управления изменениями](http://www.successwithteams.com/) , которая помогает поддерживать рост внедрения.
 
 ## <a name="prepare-for-new-functionality"></a>Подготовка к новым функциям
