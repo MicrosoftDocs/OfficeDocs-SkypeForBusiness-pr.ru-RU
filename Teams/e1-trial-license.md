@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398167"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507957"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -47,7 +47,9 @@ ms.locfileid: "42398167"
 
 ## <a name="who-isnt-eligible"></a>Кто не имеет права на использование?
 
-- Это предложение недоступно клиентам GCC, GCC High, DoD и образовательных организаций. Мы работаем над пробной версией E1 для GCC. Она станет доступна в ближайшее время. 
+- Это предложение недоступно клиентам GCC, GCC High, DoD и образовательных организаций. 
+
+- Для использования GCC см.статью [Пробная версия Office 365 G1](g1-trial-license.md). 
 
 - Клиентам из образовательных организаций следует использовать бесплатную лицензию Office 365 A1.
 
