@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033026"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551007"
 ---
 # <a name="tools-for-driving-adoption"></a>Инструменты для принятия решения 
 
@@ -155,4 +155,4 @@ ms.locfileid: "42033026"
 Ознакомьтесь с [флипбуками по внедрению команд](https://aka.ms/teamstoolkit), которые помогут вам развлекать команды в своей компании. Она содержит множество загружаемых инструментов, шаблонов и других ресурсов, которые помогут вам в пути внедрения команды.
 
 ### <a name="teams-customer-success-kit"></a>Комплект успешных клиентов Teams
-[Комплект поставки клиентов Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) предоставляет средства, помогающие в развертывании групп в Организации. Она включает шаблоны электронной почты для объявлений, листовок плакатов, отсчета и советов & приемы. Кроме того, он содержит руководства по началу работы для руководителей групп и ИТ – администраторов.
+[Комплект поставки клиентов Teams](https://aka.ms/TeamsCustomerSuccess) предоставляет средства, помогающие в развертывании групп в Организации. Она включает шаблоны электронной почты для объявлений, листовок плакатов, отсчета и советов & приемы. Кроме того, он содержит руководства по началу работы для руководителей групп и ИТ – администраторов.
