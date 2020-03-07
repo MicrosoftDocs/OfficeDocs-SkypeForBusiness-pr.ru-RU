@@ -71,6 +71,7 @@
 ### Внешний доступ (федерация)
 #### [Управление внешним доступом](manage-external-access.md)
 #### [Встроенный чат Teams для внешних пользователей](native-chat-for-external-users.md)
+#### [Взаимодействие Teams и Skype](teams-skype-interop.md)
 
 
 ### Гостевой доступ
@@ -625,6 +626,7 @@
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Начало работы с удаленным обучением](remote-learning-edu.md)
+### [Лицензирование Teams для образовательных учреждений](teams-edu-licensing.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Teams для государственных организаций](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
@@ -674,6 +677,7 @@
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
+## [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Известные проблемы для Microsoft Teams](Known-issues.md)
 ## [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +730,7 @@
 ##### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Управление предложением пробной версии Office 365 E1](e1-trial-license.md)
+### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Управление предложением Teams Exploratory](teams-exploratory.md)
 ### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
