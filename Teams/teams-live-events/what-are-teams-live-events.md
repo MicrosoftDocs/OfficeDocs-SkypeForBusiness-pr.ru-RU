@@ -1,7 +1,7 @@
 ---
 title: Что такое трансляции Microsoft Teams?
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008091"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558529"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -89,7 +89,7 @@ Teams предоставляет возможность организаторо
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [планирование событий Teams в реальном времени](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 - [События Live для Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Начало работы с событиями Microsoft Teams Live](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [События Live в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

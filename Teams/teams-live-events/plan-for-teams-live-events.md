@@ -1,7 +1,7 @@
 ---
 title: Планирование трансляций в Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Узнайте о факторах, которые необходимо учитывать перед настройкой событий Live Events в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827127"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558569"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
@@ -125,7 +125,7 @@ ms.locfileid: "41827127"
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [Настройка для событий Teams Live](set-up-for-teams-live-events.md).
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Настройка параметров Live Events в Teams](configure-teams-live-events.md)

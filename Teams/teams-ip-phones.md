@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: a02082719e509ed38646915a8ce5388837ceca26
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: bca9cc1180febf4d3d218548f83705879bb852ec
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327971"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558559"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -52,12 +52,18 @@ ms.locfileid: "42327971"
 |Поли CCX400 | 1.0.0.0200 | 2020 января|
 |Поли CCX600 | 5.9.12.1111| 2020 января|
 |Поли CCX500 | 5.9.12.1111| Декабрь 2019 г.|
-|Yealink VC210| 118.15.0.14|Февраль 2020 г.|
 |Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|
 |Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|
 |Yealink T58 & T56 |58.15.0.20|Декабрь 2018 г.|
 
+## <a name="certified-collaboration-bars"></a>Сертифицированные панели совместной работы
+
+Следующие панели совместной работы сертифицированы для Microsoft teams:
+
+|Модель панели совместной работы|Версия встроенного по|Дата выпуска |
+|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|Февраль 2020 г.|
 
 Сведения о функциях, поддерживаемых данными устройствами, можно найти в разделе [Microsoft Teams phones Set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) .
 

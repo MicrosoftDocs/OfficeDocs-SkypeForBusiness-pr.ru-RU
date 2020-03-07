@@ -1,7 +1,7 @@
 ---
 title: Настройка политик трансляции Microsoft Teams с помощью PowerShell
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 description: Примеры использования PowerShell для задания политик в Teams, чтобы управлять тем, кто может хранить события в сети в вашей организации, и функциональные возможности, доступные в создаваемых ими событиях.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46c3522cc428ec04d830d8bdb02bad56f5dfd437
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827117"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558619"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
@@ -140,7 +140,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Прочтите эту статью, чтобы научиться использовать аналоговые устройства с прямой маршрутизацией Microsoft Phone System.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341790"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558519"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Как использовать аналоговые устройства с прямой маршрутизацией телефонной системы
 
@@ -39,16 +39,17 @@ ms.locfileid: "42341790"
 
 В этом примере вы просматриваете следующие шаги:
 
-1. Соединение SBC для прямой маршрутизации
-2. Создание использования PSTN
-3. Создание голосового маршрута и связывание его с использованием PSTN
-4. Назначение голосового маршрута для использования PSTN
-5. Включение пользователя Online
-6. Назначение пользователю политики голосовых маршрутов
-7. Создание голосового маршрута для аналогового устройства
+1. Соединение SBC для прямой маршрутизации.
+2. Создание использования КТСОП.
+3. Создайте голосовой маршрут и свяжите его с использованием КТСОП.
+4. Назначайте голосовой маршрут для использования PSTN.
+5. Включите пользователя Online.
+6. Назначение пользователю политики голосовых маршрутов.
+7. Создайте голосовой маршрут для аналогового устройства.
 
 Сведения о том, как подключить ATA к SBC и настроить SBC, можно найти в руководстве по настройке производителей SBC.
 - [Документация по конфигурации AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Документация по настройке ленты](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Шаг 1.  Соединение SBC для прямой маршрутизации
 
