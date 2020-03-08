@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551056"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558639"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -93,7 +93,9 @@ ms.locfileid: "42551056"
 
       - [Совместная работа с Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [9 советов по удаленному работе](https://www.microsoft.com/tips/home/working-remotely)
+      - [Удаленная работа с Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+
+      - [9 советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
 
 
 3.  Предложите всем [установить](get-clients.md#mobile-clients) и использовать мобильное приложение для [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) или [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).

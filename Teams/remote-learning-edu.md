@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551016"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559354"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -31,6 +31,8 @@ ms.locfileid: "42551016"
 > - Сборник статей, написанных для учителей, включая практические рекомендации для наиболее важных [**первых шагов в обучении в командах**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - В часовом онлайн-курсе в центре Майкрософт для преподавателей демонстрируется, как педагоги используют Teams в своей профессиональной деятельности. [**Преобразование обучения с помощью Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Часовой онлайн-курс в центре Майкрософт для преподавателей содержит пошаговое объяснение порядка работы с Class Teams. [**Создание среды для совместной работы с помощью классических групп**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - Если вы учитель, ученик, родитель или опекун, получите дополнительные инструкции по [**преподаванию и удаленному обучению с помощью Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Родители и опекуны также могут перейти на нашу [страницу поддержки родителей](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) для помощи в дистанционном обучении.
 
 Не пропустите блог от 4 марта 2020 года, [Как школы могут быстро наращивать программы дистанционного обучения с помощью Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -153,7 +155,11 @@ Microsoft Teams для Education предлагает [конкретные ти
 Дополнительные ресурсы поддержки включают в себя:
 
 - [Устранение неполадок при установке и обновлении Microsoft Teams](troubleshoot-installation.md)
+- [Подать заявку в службу поддержки (может использоваться преподавателями и персоналом)](https://aka.ms/edusupport)
+- [Центр справки и поддержки для преподавателей, использующих Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Центр справки для учащихся](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams для инфраструктуры виртуальных рабочих столов](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Быстрая оптимизация трафика Office 365 для удаленных сотрудников](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
 - [Проверка работоспособности службы для Teams](service-health.md)
 - [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
