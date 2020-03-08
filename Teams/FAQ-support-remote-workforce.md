@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42548020"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559334"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -91,6 +91,14 @@ ms.locfileid: "42548020"
 
 См. статью [Поддержка удаленных работников с помощью Teams](support-remote-work-with-teams.md). В ней рассматриваются основные задачи и вопросы, связанные с началом работы с Teams для удаленных сотрудников.
 
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Я только что начал работу с Microsoft 365, поэтому могу использовать Teams для поддержки своих удаленных сотрудников или учащихся. Я зарегистрировался в службе, но когда пользователь пытается использовать Teams, появляется ошибка "Вы много теряете! Попросите администратора активировать Microsoft Teams". Что делать?
+
+После активации одного из бесплатных предложений Teams вам потребуется включить его для своих пользователей. См. статьи [Управление доступом пользователей к Teams](user-access.md) и [Добавление пользователей по одному или массово в Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+
+Если вы впервые назначаете лицензию или активируете пользователя, но уже используете Microsoft 365 в течение некоторого времени, вам может потребоваться [включить Teams](Office-365-set-up.md) в организации. Ознакомьтесь с разделом [Я уже использую Microsoft 365, но не использую Teams. Предоставляются ли лицензии на пробные версии?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) в этой статье.
+
+
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Можно ли использовать планы звонков с пробной версией Office 365 E1, предлагаемой корпорацией Майкрософт? Можно ли назначать своим пользователям номера телефонов? Сколько мне придется заплатить?
 
 Пользователи могут выполнять голосовые и видеозвонки между приложениями в любой версии Teams. Чтобы назначить номер сотруднику, потребуется [телефонная система Office 365](what-is-phone-system-in-office-365.md). Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя. Дополнительные сведения см. в статье [Голосовые и видеозвонки с помощью Teams](https://products.office.com/microsoft-teams/voice-calling).
@@ -106,9 +114,8 @@ ms.locfileid: "42548020"
 ИТ-администраторы и ИТ-специалисты: [Поддержка удаленных работников с помощью Teams](support-remote-work-with-teams.md).
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>Какие меры предпринимает корпорация Майкрософт в поддержку своих сотрудников в условиях вспышки эпидемии COVID-19?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Ознакомьтесь с записью президента корпорации Майкрософт Брэда Смита в нашем блоге от 5 марта 2020 г. [В стремлении защитить здоровье населения мы не должны забывать о защите доходов нашего обслуживающего персонала с почасовой оплатой труда](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
