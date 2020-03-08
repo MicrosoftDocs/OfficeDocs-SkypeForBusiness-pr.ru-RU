@@ -672,6 +672,11 @@
 ### [Настройка аналитики звонков](set-up-call-analytics.md)
 ### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
+### Использование Power BI для анализа данных ПМКЗ
+#### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
+#### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
+#### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
+#### [Использование отчета ПМКЗ по ТСОП](CQD-PSTN-report.md)
 ### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
