@@ -16,20 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cc8b5d681fe6dbb85be77063b5974417bbf19ff
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417534"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551016"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
 > [!NOTE]
 > Эта статья — полезный ресурс по организации дистанционного обучения в вашем учебном заведении. Если вы преподаватель или руководитель учебного заведения, то вам могут быть полезны следующие ресурсы:
-> - Набор статей, написанных для преподавателей, в том числе практическое руководство по самой важной теме [Начало преподавания в Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - В часовом онлайн-курсе в центре Майкрософт для преподавателей демонстрируется, как педагоги используют Teams в своей профессиональной деятельности. [Преобразуем обучение с помощью Microsoft Teams](https://education.microsoft.com/course/9c9f5c11/overview).
-> - Часовой онлайн-курс в центре Майкрософт для преподавателей содержит пошаговое объяснение порядка работы с Class Teams. [Создание среды для совместного обучения с помощью Class Teams](https://education.microsoft.com/course/b1e15cfc/overview).
+>
+> - Сборник статей, написанных для учителей, включая практические рекомендации для наиболее важных [**первых шагов в обучении в командах**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+> - В часовом онлайн-курсе в центре Майкрософт для преподавателей демонстрируется, как педагоги используют Teams в своей профессиональной деятельности. [**Преобразование обучения с помощью Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - Часовой онлайн-курс в центре Майкрософт для преподавателей содержит пошаговое объяснение порядка работы с Class Teams. [**Создание среды для совместной работы с помощью классических групп**](https://education.microsoft.com/course/b1e15cfc/overview).
+
+Не пропустите блог от 4 марта 2020 года, [Как школы могут быстро наращивать программы дистанционного обучения с помощью Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
 Онлайн-обучение может быть в той же мере индивидуальным, увлекательным и опирающимся на человеческое общение, что и обучение в классе. С помощью бесед учащиеся и преподаватели могут оставаться на связи и помогать друг другу и при этом чувствовать себя точно так же, как если бы они встречались лично. Преподаватели могут в рамках повседневной работы отслеживать прогресс учащихся с помощью инструмента "Задания". Никто не должен чувствовать, что остался без внимания. По словам многих учащихся, проходящих онлайн-обучение, они чувствуют, что им уделяется больше внимания и что у них налажен более непосредственный контакт с преподавателями и одноклассниками по сравнению с традиционным обучением в классе. Кроме того, преподаватели могут точно так же, как и в классе, использовать приложения и функции Teams для оптимизации своей работы.
 
@@ -47,7 +50,7 @@ Microsoft Teams — это цифровой центр, в котором бес
 
 Для проверки подлинности пользователей и предоставления обслуживания в Teams используются возможности Microsoft 365. Персонал, преподаватели и студенты должны иметь удостоверения личности, установленные для облегчения сотрудничества. Если идентификаторы еще не существуют, выполните этот процесс для их установления.
 
-[Чтобы пользователи могли приступить к работе с командами, их необходимо включить пользователям,](user-access.md). В командах используются дополнительные возможности Microsoft 365, такие как [групп Office 365](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint и OneDrive](SharePoint-OneDrive-interact.md) для совместной работы. Пользователи получают лучший опыт Команды, если все эти услуги также включены. [Microsoft Teams поддерживаются для пользователей, чья электронная почта размещена в Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Лицензии групп должны быть включены для пользователей](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams), а затем [лицензии должны быть назначены пользователям](teams-edu-licensing.md), прежде чем они смогут использовать возможности команд. В командах используются дополнительные возможности Microsoft 365, такие как [групп Office 365](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint и OneDrive](SharePoint-OneDrive-interact.md) для совместной работы. Пользователи получают лучший опыт Команды, если все эти услуги также включены. [Microsoft Teams поддерживаются для пользователей, чья электронная почта размещена в Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams входит в состав Office 365 A1, который для образовательных учреждений предоставляется бесплатно. Рекомендации по вопросам ИТ, развертыванию Office 365 и запуску Teams во всем вашем учебном заведении вы найдете на [этой странице](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Если вам нужна помощь, задайте вопрос [здесь](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1), а по вопросам обучения работе с Teams обратитесь к специалисту в своем магазине Microsoft Store.
 
@@ -135,7 +138,7 @@ Microsoft Teams для Education предлагает [конкретные ти
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
-Корпорация Майкрософт разработала [материалы по внедрению](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) и рекомендации по стратегии развертывания Teams. В [руководстве по внедрению Teams](https://teamworktools.azurewebsites.net/tft/index.html) представлен исчерпывающий обзор имеющихся материалов, а в [Комплекте рекомендаций по успешной работе с Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)содержится множество шаблонов, которые можно использовать для повышения информированности о Teams. Учебный центр Microsoft предоставляет учебные курсы по использованию [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) и [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) в классе.
+Корпорация Майкрософт разработала [материалы по внедрению](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) и рекомендации по стратегии развертывания Teams. В [руководстве по внедрению Teams](https://teamworktools.azurewebsites.net/tft/index.html) представлен исчерпывающий обзор имеющихся материалов, а в [Комплекте рекомендаций по успешной работе с Teams](https://aka.ms/TeamsCustomerSuccess)содержится множество шаблонов, которые можно использовать для повышения информированности о Teams. Учебный центр Microsoft предоставляет учебные курсы по использованию [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) и [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) в классе.
 
 Дополнительные ресурсы по усыновлению включают в себя:
 

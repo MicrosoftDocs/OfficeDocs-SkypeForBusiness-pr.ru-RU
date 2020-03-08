@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b61052a7468e9fcc13f8c3812e1ec5c2aa21fb7a
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417614"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551056"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -27,14 +27,10 @@ ms.locfileid: "42417614"
 
 ## <a name="it-admin-guidance"></a>Инструкции для ИТ-администраторов
 
--  Убедитесь, что приложение **[Teams включено для всех пользователей](assign-teams-licenses.md)**
+- Убедитесь, что у всех есть доступ к командам, используя бесплатное 6-месячное **[предложение Office 365 E1](e1-trial-license.md)** или **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Обратитесь к вашей учетной записи команды Microsoft или партнера, если вам нужна помощь.
+
+-  Если у вас уже есть подписка, включающая Teams, **[включите ее для всех](assign-teams-licenses.md)**.
     
-- Если у вас нет лицензий Teams для всех пользователей, воспользуйтесь одним из следующих предложений, чтобы Teams могли пользоваться все:
-
-   - Ознакомьтесь с **[бесплатной версией Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** и **[пробной версией Teams E1](e1-trial-license.md)**. Пробная версия Teams E1 позволяет администраторам развернуть Teams: для получения более подробной информации свяжитесь со своей командой или партнером по работе с клиентами корпорации Майкрософт.
-
-   - Кроме того, возможным вариантом может быть [Teams Exploratory](teams-exploratory.md). 
-
 - Узнайте, как приступить к работе с **[собраниями в Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** в вашей организации. 
 
 Дополнительные сведения см. в статье [Дополнительные ресурсы для поддержки удаленных сотрудников](#additional-resources-for-supporting-remote-workers), приведенной ниже.
@@ -42,40 +38,48 @@ ms.locfileid: "42417614"
 
 ## <a name="end-user-communications"></a>Связь с пользователями
 
-Вы готовы к развертыванию Teams для своих пользователей? Получите **[Комплект клиента](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, содержащий перечисленные ниже практичные шаблоны сообщений электронной почты.
+Вы готовы к развертыванию Teams для своих пользователей? Получите **[Комплект клиента](https://aka.ms/TeamsCustomerSuccess)**, содержащий перечисленные ниже практичные шаблоны сообщений электронной почты.
 
-- С помощью шаблона **Объявление** сообщите пользователям о том, что у них есть доступ к Teams
+- Используйте **объявление по электронной почте**, чтобы сообщить пользователям, что команды доступны для них.
 
-- Разошлите сообщение по шаблону **Ваш первый день работы с электронной почтой Teams**, чтобы помочь пользователям быстро освоиться
+- Отправьте **Ваш первый день в электронной почте Teams**, чтобы помочь пользователям быстро почувствовать продуктивность.
 
-- Через несколько дней разошлите сообщение по шаблону **Советы и рекомендации**, чтобы помочь пользователям максимально эффективно использовать Teams
+- Несколько дней спустя отправьте электронное письмо с **советами и рекомендациями**, чтобы помочь пользователям получить максимальную отдачу от команд.
 
 ## <a name="end-user-guidance"></a>Руководство для пользователя
 
 Поделитесь этими ресурсами и видео со своими пользователями, чтобы помочь им быстро приступить к работе.
 
-- Просмотрите **[Вводное видео](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** для получения общего представления о Teams
+- Посмотрите **[приветственное видео](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)**, чтобы получить обзор Teams.
 
-- Скачайте **[Краткое руководство ](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)**, чтобы усвоить основы работы с Teams
+- Загрузите **[краткое руководство](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)**, чтобы изучить основы Teams.
 
-- Просмотрите серию коротких **[видео к Краткому руководству](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)**, где пошагово объясняется порядок работы с Teams
+- Посмотрите серию коротких видеороликов **[Quick Start для ознакомления](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** с Teams.
 
-- Просмотрите **[видео о собраниях](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**, чтобы ознакомиться с использованием функции собраний в Teams
+- Посмотрите **[видео о собраниях](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**, чтобы узнать, как использовать встречи в Teams.
 
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>Дополнительные ресурсы для поддержки удаленно работающих сотрудников
 
+1. Прочитайте наш [FAQ: Поддержите свою удаленную рабочую силу](FAQ-support-remote-workforce.md), которую мы регулярно обновляем.
+
+2. В дополнение к [пробной версии Office 365 E1](e1-trial-license.md) и [бесплатному Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) также может быть вариантом, если вам нужны бесплатные лицензии Команды.
+
 1. Убедитесь, что у сотрудников есть соответствующий доступ к Интернету и пропускная способность для Teams. Чтобы узнать, как это сделать, используйте инструкции из статьи [Подготовка сети организации к использованию Teams](prepare-network.md).
+
    - Ограниченная пропускная способность может влиять на качество звука в собраниях Teams. Чтобы обеспечить оптимальную работу собраний в условиях низкой пропускной способности, рекомендуйте пользователям ограничить видео и использовать ТСОП для звонков и звука собрания. 
+
+   - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Если вам нужна помощь в устранении неполадок или проблем с качеством звонков или собраний, следуйте инструкциям в разделе [Известная проблема (Китай): звонки в Skype для бизнеса или Teams по идентификаторам конференций](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) в нижней части этой статьи.
 
 2.  [Разошлите ссылки на учебные курсы](enduser-training.md), чтобы сотрудники воспользовались всеми преимуществами Teams.
 
 3. Узнайте больше о развертывании Teams.
+
    - Для организации среднего размера (500–5000 пользователей) рекомендуется начать работу с Teams с [интерактивных семинаров](teams-in-30-workshops.md) в режиме реального времени.
 
-   - Присоединяйтесь к одному из наших [онлайн-занятий](instructor-led-training-teams-landing-page.md), чтобы увидеть Teams в действии и получить ответы на свои вопросы.  
+   - Присоединяйтесь к одному из наших [онлайн-занятий](instructor-led-training-teams-landing-page.md), чтобы увидеть Teams в действии и получить ответы на свои вопросы.
 
    - Поделитесь [подробными видеоинструкциями](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) с заинтересованными пользователями
 
@@ -89,6 +93,8 @@ ms.locfileid: "42417614"
 
       - [Совместная работа с Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
+      - [9 советов по удаленному работе](https://www.microsoft.com/tips/home/working-remotely)
+
 
 3.  Предложите всем [установить](get-clients.md#mobile-clients) и использовать мобильное приложение для [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) или [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
 
@@ -96,6 +102,7 @@ ms.locfileid: "42417614"
     > Если вы находитесь в Китае, пройдите по ссылке [Получение Teams для Android в Китае](get-teams-android-in-china.md).
 
 8. Пользуйтесь Teams, чтобы быть на связи со своими сотрудниками:
+
    - шаблон приложения [Команды для всей организации](create-an-org-wide-team.md) и [Корпоративный Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator).
     
    - Рассылайте сведения о политиках организации для работы из дома, а также по безопасности и охране труда.
@@ -107,6 +114,7 @@ ms.locfileid: "42417614"
 7. Если вы впервые действуете в роли администратора группы, ознакомьтесь со статьей [Учебный курс для администраторов групп](itadmin-readiness.md).
 
 
+1. Убедитесь, что ваши пользователи имеют устройства, которые они должны видеть и слышать. Проверьте [сертифицированные Teams устройства](https://aka.ms/TeamsDevices) для личного и общего пространства.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>Известная проблема (Китай): звонки в Skype для бизнеса и Teams по идентификаторам конференций
