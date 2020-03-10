@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558609"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574432"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558609"
                     </div>
                     <div class="cardText">
                     <h3>Коллективные Чалкные общения</h3>
-                    <p>В этих онлайновых семинарах, облегчающих обучение экспертам, можно найти рекомендации и практические рекомендации по некоторым наиболее популярным и притягательным сценариям в Teams.</p>
-                    <p><strong>Необходимые условия</strong>: teams в 30 семинарах. Чалк рассказывает о том, что вы узнаете в семинарах, которые вы нашли на этой странице.</p>
+                    <p>В этих онлайновых семинарах, облегчающих обучение экспертам, можно найти рекомендации и практические рекомендации по некоторым наиболее популярным и притягательным сценариям в Teams. Чалк рассказывает о том, что ты завершил простые команды выпуска.</p>
+                    <p><strong>Необходимые условия</strong>: teams в рамках 30 семинаров или уже включенных для Teams в Организации.</p>
                     <p><i>Аудитория: ИТ-администраторы</i></p>
                     </div>
                 </div>
