@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online, читайте в этой статье.
-ms.openlocfilehash: 9368a21d581b87bc71606ba4c7ccb035c3254cde
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827877"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572887"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -47,10 +47,10 @@ ms.locfileid: "41827877"
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
-    $org='contoso.microsoft.com'
-    $cred=Get-Credential $admin@$org
-    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
+    $org = 'contoso.microsoft.com'
+    $cred = Get-Credential $admin@$org
+    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
+    Import-PSSession $sess -DisableNameChecking
     ```
 
 2. После установления сеанса вы сможете создать новый почтовый ящик и включить его в качестве Руммаилбоксаккаунт или изменить параметры существующего почтового ящика помещения. Это позволит вашей учетной записи проходить проверку подлинности в комнатах Microsoft Teams.
@@ -120,8 +120,9 @@ ms.locfileid: "41827877"
 1. Создайте удаленный сеанс Windows PowerShell на компьютере, выполнив указанные ниже действия.
 
     ``` Powershell
-    Import-Module SkypeOnlineConnector  
-    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-Module SkypeOnlineConnector
+    $cred = Get-Credential
+    $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
     ```
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834889"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574026"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -73,7 +73,7 @@ ms.locfileid: "41834889"
 
 Уделите три минуты, чтобы просмотреть это видео с инструкциями для владельцев группы:
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 Администраторы Microsoft Teams в Office 365 имеют доступ к глобальным параметрам системы в Центре администрирования Microsoft Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
 
