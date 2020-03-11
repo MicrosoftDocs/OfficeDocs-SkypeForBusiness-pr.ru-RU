@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161635"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601426"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
 > [!NOTE]
 > Для использования App Studio ознакомьтесь [со статьей начало работы на платформе Microsoft Teams с C#/.нет и App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) Последнее действие пока недоступно, поэтому вам потребуется скачать его и установить старый способ [отправки пакета приложения в Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  После изменения политики настраиваемых приложений для вступления изменений в силу может потребоваться до 24 часов.
+Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  После изменения политики настраиваемых приложений для вступления изменений в силу может потребоваться до 24 часов. Для управления этими политиками вы должны быть администратором глобального администратора или службы Teams.
 
 ## <a name="overview-of-custom-apps"></a>Общие сведения о настраиваемых приложениях
 
