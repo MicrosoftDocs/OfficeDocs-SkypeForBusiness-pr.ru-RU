@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Узнайте, как установить и настроить параметры занятости в Skype для бизнеса Server.
-ms.openlocfilehash: 5078041401c710a249470ed6d3871f38a98a7420
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bdc713c50fa63ac208c7476916110c14fca8f387
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113122"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604216"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и Настройка параметров занятости в Skype для бизнеса Server
 
@@ -79,7 +79,7 @@ ms.locfileid: "42113122"
 3. Затем выполните командлет [New – CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) , чтобы добавить параметры занятости в список серверных приложений, как показано в следующем примере:
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]

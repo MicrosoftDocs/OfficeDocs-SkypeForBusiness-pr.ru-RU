@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: В этом разделе рассказывается, как развернуть общий внешний вид линии (SLA) в Skype для бизнеса Server 2015 с накопительным пакетом обновления за Ноябрь 2015 г. SLA — это функция для обработки нескольких звонков по определенному номеру, который называется общим номером.
-ms.openlocfilehash: 2009b313b343d9746f3eeff5f53fec4899c2f9a3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6ad7d6fca40975990fdd6f6ed01bbb89c185e9e7
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129312"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604226"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание общего внешнего вида линии в Skype для бизнеса Server 2015
 
@@ -41,7 +41,7 @@ ms.locfileid: "42129312"
     а. Зарегистрируйте SLA как серверное приложение, выполнив следующую команду для каждого пула:
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled                $true -Priority (Get-CsServerApplication -Identity              'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri   http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled $true -Priority (Get-CsServerApplication -Identity  'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
    где% FQDN% — полное доменное имя пула.
@@ -132,7 +132,7 @@ ms.locfileid: "42129312"
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Например:
+    Пример.
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
