@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: В этой статье рассказывается о том, как использовать назначение пакетной политики для крупных наборов пользователей в обучающем учреждении для удаленной школы (теле-учебного заведения).
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583357"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604306"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Назначение политик большим наборам пользователей в учебном заведении
 
@@ -42,14 +42,14 @@ ms.locfileid: "42583357"
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Соединение с модулем Azure AD PowerShell для Graph и модулем Teams PowerShell
 
-Перед выполнением действий, описанных в этой статье, необходимо установить и подключить модуль Azure AD PowerShell для Graph (для идентификации пользователей по назначенным им лицензиям) и предварительную версию модуля Microsoft Teams PowerShell (для назначения политик Эти пользователи).
+Перед выполнением действий, описанных в этой статье, необходимо установить и подключить модуль Azure AD PowerShell для Graph (для идентификации пользователей по назначенным им лицензиям) и модуль Microsoft Teams PowerShell (для назначения политик этим пользователям).
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Установка и подключение к модулю Azure AD PowerShell для Graph
 
 Откройте командную команду Windows PowerShell с повышенными привилегиями (запустите Windows PowerShell от имени администратора), а затем выполните указанные ниже действия, чтобы установить модуль Azure Active Directory PowerShell для Graph.
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Выполните указанные ниже действия, чтобы подключиться к Azure AD.
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 Когда вам будет предложено, войдите в систему с помощью учетных данных администратора.
 
-Дополнительные сведения можно найти в разделе [подключение с помощью модуля Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Дополнительные сведения можно найти в разделе [подключение с помощью модуля Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>Установка и подключение к предварительной версии модуля PowerShell Teams
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к модулю Microsoft Teams PowerShell
 
-Необходимые командлеты находятся в предварительной версии модуля PowerShell Teams. Выполните действия, описанные в статье [Установка и подключитесь к модулю Microsoft Teams PowerShell](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) , чтобы сначала удалить стандартную доступную версию модуля PowerShell Teams (если он установлен), а затем установить последнюю версию модуля из коллекции тестов PowerShell.
+Выполните указанные ниже действия, чтобы установить [модуль PowerShell Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams). Убедитесь, что вы установили версию 1.0.5 или более поздней версии.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 Выполните указанные ниже действия, чтобы подключиться к Teams и начать сеанс.
 
@@ -102,7 +106,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 Затем выполните указанные ниже действия, чтобы идентифицировать пользователей, у которых есть лицензия, и собирать их вместе.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>Массовое назначение политики
