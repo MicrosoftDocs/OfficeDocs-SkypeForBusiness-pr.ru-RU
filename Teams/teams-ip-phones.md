@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: bca9cc1180febf4d3d218548f83705879bb852ec
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
+ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558559"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42728948"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -52,6 +52,7 @@ ms.locfileid: "42558559"
 |Поли CCX400 | 1.0.0.0200 | 2020 января|
 |Поли CCX600 | 5.9.12.1111| 2020 января|
 |Поли CCX500 | 5.9.12.1111| Декабрь 2019 г.|
+|Yealink MP56| 122.15.0.6| Март 2020|
 |Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|
 |Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|

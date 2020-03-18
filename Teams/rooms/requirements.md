@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 4fcdaa8441bab7a3a49fbd764c6734d0e58800fb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
+ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155101"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42728938"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -89,7 +89,7 @@ ms.locfileid: "42155101"
 
 |Периферийные устройства комнат Microsoft Teams|Сертифицированная версия встроенного по | Камера поддерживает использование содержимого камерой|
 |:--- |:--- | :--- |
-|[Крестрон Худдли IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Крестрон Худдли IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
 |[Logitech Брио](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930E](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech вечеринку](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
