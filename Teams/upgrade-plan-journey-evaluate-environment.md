@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863490"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706929"
 ---
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Оценка среды перед обновлением в Teams
+
 ![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "41863490"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Оценка среды перед обновлением в Teams
 
 В этой статье приводятся общие сведения о требованиях для правильной оценки текущей среды для операционных групп. Оценивая вашу среду, вы определяете риски и требования, которые повлияют на общее развертывание. Определив эти элементы заранее, вы можете настроить планирование на успех.
 

@@ -50,6 +50,36 @@
 | 3/6/2020 | [Включение и использование панели мониторинга качества звонков](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
 
 
+## <a name="week-of-march-09-2020"></a>Неделя, из которой 09 марта 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 3/10/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 3/10/2020 | [Рекомендации по сбору данных](/MicrosoftTeams/data-collection-practices) | Изменено |
+| 3/10/2020 | [Измерения и измерения, доступные в панели мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 3/10/2020 | [Обращение в службу поддержки PSTN](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | Изменено |
+| 3/10/2020 | [Каково состояние ваших заказов на перенос номеров?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | Изменено |
+| 3/10/2020 | [Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | изменено |
+| 3/10/2020 | [Учебные курсы с инструктором и видео для пользователей Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 3/10/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 3/10/2020 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
+| 3/11/2020 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
+| 3/11/2020 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
+| 3/11/2020 | [Управление пользовательскими политиками и параметрами приложений в Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | Изменено |
+| 3/11/2020 | [Назначение политик пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
+| 3/11/2020 | [Назначение политик большим наборам пользователей в учебном заведении](/MicrosoftTeams/batch-policy-assignment-edu) | Изменено |
+| 3/12/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 3/12/2020 | [Вопросы и ответы — поддержка удаленных сотрудников](/MicrosoftTeams/faq-support-remote-workforce) | Изменено |
+| 3/13/2020 | [Доступность в Индии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | Изменено |
+| 3/13/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 3/13/2020 | [Управление жизненным циклом частных каналов в Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | Изменено |
+| 3/13/2020 | [Отчет об использовании Microsoft Teams PSTN](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Изменено |
+| 3/13/2020 | [Учебные курсы с инструктором и видео для пользователей Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 3/13/2020 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 3/13/2020 | [Поддержка удаленных работников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
+
+
 ## <a name="week-of-february-17-2020"></a>Неделя 17 февраля 2020 г.
 
 

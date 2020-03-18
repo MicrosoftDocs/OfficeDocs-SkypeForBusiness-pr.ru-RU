@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9cedd0a169fc43e81dfdc131f98b0a90d9cd9e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836231"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706629"
 ---
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
+
 ![Обновление схемы поездки, акцент на развертывании и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
 Эта статья является частью стадии развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
@@ -36,8 +38,6 @@ ms.locfileid: "41836231"
 - [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
 Следуйте указаниям, приведенным в этой статье, если вы полностью развернули Skype для бизнеса Online и хотите обновить пользователей в Skype для бизнеса в Teams. Вы можете обновить пользователей выборочно или полностью в зависимости от пути обновления, который выбрала ваша организация, путем назначения соответствующего режима сосуществования и обновления для пользователей.
 

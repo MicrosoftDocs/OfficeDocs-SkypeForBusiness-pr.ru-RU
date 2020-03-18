@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836221"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706649"
 ---
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Переход с локального развертывания Skype для бизнеса на Teams
+
 ![Этапы поездки на обновление, акцент на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
 Эта статья входит в стадию развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
@@ -36,8 +38,6 @@ ms.locfileid: "41836221"
 - [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Переход с локального развертывания Skype для бизнеса на Teams
 
 Следуйте указаниям, приведенным в этой статье, если вы разработали Skype для бизнеса или Microsoft Lync в локальной среде, и ваша организация хочет выполнить обновление до Microsoft Teams с использованием нескольких режимов сосуществования или все. 
 

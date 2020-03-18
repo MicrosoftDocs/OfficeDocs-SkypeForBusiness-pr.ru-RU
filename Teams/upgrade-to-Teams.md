@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c1a7602139eda3eba3f1d2919312055773110fc6
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836301"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706879"
 ---
+# <a name="overview"></a>Обзор
+
 ![Этапы поездки на обновление, акцент на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
 Эта статья входит в стадию развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
@@ -35,11 +37,6 @@ ms.locfileid: "41836301"
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
-
-
-
-
-# <a name="overview"></a>Обзор
 
 Действия, которые необходимо выполнить для перехода на Teams, зависят от текущего развертывания Skype для бизнеса.
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863440"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706799"
 ---
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Подготовка среды для перехода на Teams
+
 ![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "41863440"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Подготовка среды для перехода на Teams
 
 Чтобы сделать успешно обновленную версию Teams в вашей организации, важно проверить текущую среду Skype для бизнеса и готовность сети. Подготовка текущей среды поможет вам повысить качество взаимодействия с пользователем, а также улучшить качество взаимодействия с пользователем в Teams. Создание времени для планирования отдельных шагов поможет ускорить развертывание и убедиться, что вы не пропустили важные элементы действий.
 

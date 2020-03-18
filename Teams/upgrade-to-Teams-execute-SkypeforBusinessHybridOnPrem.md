@@ -19,13 +19,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045031"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706679"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Переход с Skype для бизнеса локально на Teams
+
 ![Обновление схемы поездки, акцент на развертывании и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
 Эта статья является частью стадии развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
@@ -37,8 +39,6 @@ ms.locfileid: "42045031"
 -   [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Переход с Skype для бизнеса локально на Teams
 
 Если вы развернули Skype для бизнеса Server или Microsoft Lync в локальной среде, а ваша организация хочет перейти на Teams, следуйте указаниям в этой статье. Вам нужно настроить гибридную связь с вашим клиентом Office 365 и определить требования к сосуществованию, если вы перемещаете пользователей в Teams (этапы). 
 

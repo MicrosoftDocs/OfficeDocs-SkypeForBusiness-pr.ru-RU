@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837209"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707009"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Эффективное начало работы с Teams после обновления
+
 ![Обновление схемы поездки с акцентом на этапе непрерывности работы](media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности работы")
 
 Эта статья относится к этапу непрерывной работы по обновлению, который начинается сразу же после того, как вы закончите переход с Skype для бизнеса на Teams.
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Эффективное начало работы с Teams после обновления
 
 В этой статье приводятся общие сведения о требованиях к использованию операционной группы после обновления. Постоянно отслеживая возможности службы Teams, вы можете убедиться, что вы предоставляете наибольшее значение для своей организации.
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863450"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706889"
 ---
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к обновлению до Teams
+
 ![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "41863450"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к обновлению до Teams
 
 В этой статье приводятся общие сведения о требованиях для подготовки Организации к совместной работе и службам голосовой связи с помощью Teams. После правильной подготовки вы можете убедиться, что вы готовы предоставить эти возможности вашей организации.
 

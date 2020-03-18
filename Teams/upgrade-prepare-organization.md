@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836251"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706789"
 ---
+# <a name="prepare-your-organization"></a>Подготовка Организации
+
 ![Этапы путешествия по обновлению с акцентом на этапе готовности пользователей](media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
 Эта статья входит в стадию готовности пользователя к обновлению, действия, завершенные параллельно с этапом технического подготовки. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "41836251"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>Подготовка Организации
 
 Для реализации максимального значения в Teams, пользователи должны действительно использовать его, но пользователи не смогут легко изменить способ их работы. Получение времени для понимания пользователей и проектирование подходящего плана готовности поможет вам облегчить изменение и ускорить внедрение групп. Эти действия должны выполняться параллельно с помощью подготовки к технической подготовке:
 

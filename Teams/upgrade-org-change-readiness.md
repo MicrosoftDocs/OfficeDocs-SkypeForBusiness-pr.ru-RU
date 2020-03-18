@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048600"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706939"
 ---
+# <a name="assess-organizational-change-readiness"></a>Оценка готовности организации к изменению
+
 ![Обновление схемы поездки с акцентом на этапе готовности пользователя](media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
 Эта статья входит в стадию готовности пользователя к обновлению, действия, завершенные параллельно с этапом технического подготовки. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "42048600"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>Оценка готовности организации к изменению
 
 После того как вы загрузили свою группу проекта и определили ее концепцию, область и цели, следующий шаг к обновлению — это обеспечение готовности Организации и пользователей для Teams — действия, которые вы выполнили параллельно, обеспечивая техническую готовность. Чтобы реализовать значение из Teams, пользователи должны действительно ее использовать. Простое включение команды не гарантирует, что вы получите цель. У пользователей есть различные варианты использования и различные стили обучения, и они адаптируются к новым технологиям на разных скоростях. Хорошая новость заключается в том, что Управление изменениями — это не все, что сложно, но для этого требуется сфокусированные усилия. Описанные ниже обсуждения предназначены для того, чтобы помочь вам понять свою основу пользователя, чтобы вы могли подготовиться к тому же уровню образования для упрощения и ускорения внедрения пользователей. Существует два способа просмотра базы пользователей.
 
@@ -62,7 +62,7 @@ ms.locfileid: "42048600"
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ ms.locfileid: "42048600"
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | Самомотивация | Игроки группы | Ручные поиски |

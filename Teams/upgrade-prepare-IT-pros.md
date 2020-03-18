@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836129"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706899"
 ---
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ – IT для Microsoft Teams
+
 ![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
@@ -33,8 +35,6 @@ ms.locfileid: "41836129"
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ – IT для Microsoft Teams
 
 Ваши Администраторы клиентов Office 365, технические интересы и служба поддержки являются учетными записями для обеспечения высокого качества взаимодействия с пользователем. Сюда входит проверка готовности сети к поддержке Teams, Настройка групп для пользователей и возможность эффективного устранения проблем и устранение неполадок, которые могут возникнуть.
 
