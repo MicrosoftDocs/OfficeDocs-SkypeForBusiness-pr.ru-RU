@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507957"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795962"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -41,7 +41,7 @@ ms.locfileid: "42507957"
 
 ## <a name="whos-eligible"></a>Кто имеет право на использование?
 
-Это предложение предназначено для клиентов, управляемых представителями Майкрософт по учетным записям. Оно предназначено для организаций, которые не активировали другие пробные версии Office 365 E1 в прошлом. 
+Это предложение предназначено для клиентов, управляемых представителями Майкрософт по работе с клиентами. Оно предназначено для организаций, включая некоммерческие организации, которые ранее не активировали другие пробные версии Office 365 E1. 
 
 После применения промокода пробной версии E1 вы не сможете использовать его повторно, а также не сможете активировать другой код пробной версии E1. В этих случаях ваши пользователи могут активировать [лицензию Teams Exploratory](teams-exploratory.md).
 
@@ -92,3 +92,4 @@ ms.locfileid: "42507957"
 
 [Управление предложением Teams Exploratory](teams-exploratory.md)
 
+[Office 365 для некоммерческих организаций](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
