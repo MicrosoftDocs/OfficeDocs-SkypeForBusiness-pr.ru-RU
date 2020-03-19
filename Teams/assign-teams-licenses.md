@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Сведения о назначении лицензий для таких функций, как голосовая конференция, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236839"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858563"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Назначение лицензий Microsoft Teams
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | Наименование товара | Наименование товарной единицы |
 |--------------|---------------|
 | Голосовая конференция (подписка) | MCOMEETADV | 
-| Оплата для голосовой конференции за минуту (оплата за один звонок)</br>*Примечание. требует настройки и включения кредитов на связь*. | мкомитакпеа |
+| Оплата для голосовой конференции за минуту (оплата за один звонок)</br>*Примечание. требует настройки и включения кредитов на связь*. |    мкомитакпеа |
 | Корпоративный E1 | STANDARDPACK | 
 | Корпоративный E3 | ENTERPRISEPACK |
-| Корпоративный E5 (без аудиоконференции) |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| Корпоративный E5 (без аудиоконференции) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Корпоративный E5 (с аудиоконференцией) | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>Кредиты на связь

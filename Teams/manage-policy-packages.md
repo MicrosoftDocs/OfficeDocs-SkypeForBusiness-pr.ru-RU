@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams.
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772751"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857994"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Управление пакетами политик в Microsoft Teams
 
 Пакет политики в Microsoft Teams — это набор предопределенных политик и параметров политики, которые можно назначить пользователям, имеющим аналогичные роли в Организации. Мы создали пакеты политик для упрощения, упрощения и обеспечения согласованности при управлении политиками для групп пользователей в Организации.  
 
 Когда вы назначаете пакету политики пользователям, будут созданы политики в пакете, и вы можете настроить параметры политик в пакете в соответствии с потребностями Организации.
+
+Пакеты политик недоступны для организаций-сообществ США (GCC).
 
 ## <a name="what-is-a-policy-package"></a>Что такое пакет политики?
 
@@ -107,6 +111,6 @@ ms.locfileid: "41772751"
 
 Это может произойти, если одна или несколько политик в пакете не были успешно созданы или применены. Переназначение пакета политики пользователям. Повторное выполнение операции обычно решает эту проблему.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
