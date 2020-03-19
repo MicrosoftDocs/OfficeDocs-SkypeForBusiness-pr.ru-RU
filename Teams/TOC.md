@@ -37,6 +37,7 @@
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
+## [Создание групп руководителей](create-manager-directs-teams.md)
 ## [Управление командами и политиками каналов](teams-policies.md)
 ## [Метки конфиденциальности для Teams](sensitivity-labels.md)
 ## [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)

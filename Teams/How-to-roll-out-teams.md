@@ -13,18 +13,19 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32c1ea2ceb816d54c08cbe22e8dabf1b8eb24f6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bd2610b5c536c1e00ae127f83a3e03942f2b6c03
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045441"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858544"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Как выполнить развертывание Microsoft Teams
 
@@ -34,7 +35,7 @@ ms.locfileid: "42045441"
 ## <a name="recommended-path-to-teams"></a>Рекомендуемый способ развертывания Teams
 
 
-Мы рекомендуем выполнять развертывание Teams поэтапно, от рабочей нагрузки к рабочей нагрузке, по мере готовности вашей организации. **Вам не придется ждать, пока вы выполните один этап, чтобы перейти к следующему.** Некоторым организациям может потребоваться развертывание всех функций Teams одновременно, тогда как другие предпочитают поэтапный подход. Ниже приведены рабочие нагрузки Teams в порядке, в котором мы рекомендуем выполнять их развертывание.
+Мы рекомендуем выполнять развертывание Teams поэтапно, от рабочей нагрузки к рабочей нагрузке, по мере готовности вашей организации. **Вам не придется ждать, завершение одного этапа для перехода к следующему.** Некоторым организациям может потребоваться развертывание всех функций Teams одновременно, тогда как другие предпочитают поэтапный подход. Ниже приведены рабочие нагрузки Teams в порядке, в котором мы рекомендуем выполнять их развертывание.
 
 - [Начало работы](get-started-with-teams-quick-start.md)
 - [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
