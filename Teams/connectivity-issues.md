@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825357"
@@ -26,7 +26,7 @@ ms.locfileid: "41825357"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Устранение проблем связи с клиентом Microsoft Teams
 ==============================================================
 
-Большинство проблем с клиентом Microsoft Teams вызваны подключением к брандмауэру или прокси-серверу. Проверив, открыты ли нужные порты, URL- и IP-адреса брандмауэра или прокси-севера, вы минимизируете вероятность неполадок. Для получения подробных сведений о URL-адресах и адресах, необходимых для Microsoft Teams, ознакомьтесь со статьей [Office 365 URL-адреса и IP Address](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) (поддержка). В описанных ниже сценариях требуется открыть определенные URL-адреса и порты в брандмауэре.
+Большинство проблем с клиентом Microsoft Teams вызваны подключением к брандмауэру или прокси-серверу. Проверив, открыты ли нужные порты, URL- и IP-адреса брандмауэра или прокси-севера, вы минимизируете вероятность неполадок. Конкретную информацию об URL-адресах и IP-адресах, необходимых для Microsoft Teams, см. в статье о поддержке [URL-адресов и IP-адресов Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). В описанных ниже сценариях требуется открыть определенные URL-адреса и порты в брандмауэре.
 
 -   Проверка подлинности
 

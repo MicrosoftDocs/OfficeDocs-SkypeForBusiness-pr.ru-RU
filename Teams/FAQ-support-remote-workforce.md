@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: bedd9e0022dc82520d7c23e8f8f7b61a5fd78e89
+ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858744"
+ms.locfileid: "42866574"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -35,7 +35,7 @@ ms.locfileid: "42858744"
 > [!NOTE]
 > Если вы уже настроили Microsoft 365 и хотите узнать больше о мерах, принимаемых корпорацией Майкрософт, перейдите в Центр сообщений и ознакомьтесь с записью Центра сообщений **MC205458**.
 
-Ознакомьтесь с записью блога от 5 марта 2020 г. от Джареда Спатаро, корпоративного вице-президента по Microsoft 365: [Наши обязательства перед клиентами во время эпидемии COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+Ознакомьтесь с записью блога от 5 марта 2020 г. от Джареда Спатаро, корпоративного вице-президента по Microsoft 365: [Наши обязательства перед клиентами во время эпидемии COVID-19](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Учитывая все меры, принимаемые Майкрософт, следует ли нам ожидать проблем?
 
