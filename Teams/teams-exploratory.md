@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f44555f520e3789df4927e34e6579b834f75c39
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858624"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892319"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 =======================================================
@@ -156,7 +156,7 @@ ms.locfileid: "42858624"
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Каков срок действия предложения Teams Exploratory?
 
-Предложение Microsoft Teams Exploratory действует без дополнительной платы до истечения очередного года со дня заключения вашего корпоративного соглашения или до его продления в январе 2021 г. или позже. В это время пользователям, имеющим лицензию на Microsoft Exploratory, нужно будет перейти на платную лицензию, включающую Teams. Все лицензии Microsoft Exploratory, оформленные после этого, будут действовать без дополнительной платы до истечения очередного года со дня заключения вашего соглашения или до его продления. 
+Предложение Microsoft Teams Exploratory действует без дополнительной платы до истечения очередного года со дня заключения вашего корпоративного соглашения или до его продления в январе 2021 г. или позже. В это время пользователям, имеющим лицензию на Microsoft Exploratory, нужно будет перейти на платную лицензию, включающую Teams. Все лицензии Microsoft Exploratory, оформленные после этого, будут оставаться доступными без дополнительных затрат до следующей годовщины заключения соглашения или цикла продления. 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>Что произойдет, если пользователь оформит лицензию Microsoft Teams Exploratory непосредственно перед истечением очередного года со дня заключения моего соглашения или перед его продлением?
 

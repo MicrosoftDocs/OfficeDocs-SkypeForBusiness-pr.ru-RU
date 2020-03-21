@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: 0447bf7aa8d935b214dc9db7c9a730d27fbb0b23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc958aa1713a7cda12a054b3a029bfc1786b0955
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824796"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42897254"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -184,7 +184,7 @@ ms.locfileid: "41824796"
 - Локальные пользователи Skype для бизнеса Server
 
   > [!NOTE]
-  > Это также применимо, если вы хотите перенаправить звонки на пользователей в вашей организации, которые находятся в сети. Эти люди должны иметь лицензию на **телефонную систему** , а также включить поддержку голосовой связи в рамках Skype **или** получить план звонков. Дополнительные сведения можно найти в статье [Назначение лицензий Skype для бизнеса](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Назначение лицензий на Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses), а также [для каких абонентов](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > Это также применимо, если вы хотите перенаправить звонки на пользователей в вашей организации, которые находятся в сети. Эти люди должны иметь лицензию на **телефонную систему** , а также включить поддержку голосовой связи в рамках Skype *или* получить план звонков. Дополнительные сведения можно найти в статье [Назначение лицензий Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Назначение лицензий на Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses), а также [для каких абонентов](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
  Для включения агента для корпоративного голосовой связи можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -199,7 +199,7 @@ ms.locfileid: "41824796"
 - Входящие звонки по **последовательному маршруту** звоните всем агентам по одному, от начала списка агента звонков. Агенты нельзя заказать в списке агента звонков. Если агент закрывает или не берет на себя звонок, Звонок будет поступать на следующий агент и будет пытаться выполнить все агенты до тех пор, пока не будет выбрано или истечет время ожидания.
   > [!NOTE]
   > При использовании последовательной маршрутизации для агентов, которые находятся в **автономном режиме** или для них установлено состояние " **не беспокоить**", этот звонок будет перенаправлен этим пользователям и не сможет подключить недоступный пользователь, маршрутизацию к следующему агенту в списке агента. Это не относится к ситуации, когда агент **выдает из очереди звонков из приема** звонков. Чтобы уменьшить интервал времени, в течение которого перенаправляются маршруты к следующему агенту в строке, может быть снижено время оповещения агента.
-- **** Подставляются маршруты для входящих звонков, так что каждый агент вызывает одинаковое количество звонков из очереди. Это может быть предпочтительнее в входящей среде продаж для обеспечения возможной возможности между всеми агентами звонков.
+- **Round robin** Подставляются маршруты для входящих звонков, так что каждый агент вызывает одинаковое количество звонков из очереди. Это может быть предпочтительнее в входящей среде продаж для обеспечения возможной возможности между всеми агентами звонков.
 
 ### <a name="select-an-agent-opt-out-option"></a>Выбор варианта отказа от агента
 
@@ -315,7 +315,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
