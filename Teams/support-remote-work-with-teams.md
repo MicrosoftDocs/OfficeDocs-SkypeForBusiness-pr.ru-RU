@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7476328c6f0acfcaf812e2f4f75bc9c59f51b21
-ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
+ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42866584"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892339"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -62,7 +62,9 @@ ms.locfileid: "42866584"
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>Дополнительные ресурсы для поддержки удаленно работающих сотрудников
 
-1. Прочитайте наш [FAQ: Поддержите свою удаленную рабочую силу](FAQ-support-remote-workforce.md), которую мы регулярно обновляем.
+1. Ознакомьтесь со статьей [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md), которую мы регулярно обновляем.
+
+1. Ознакомьтесь с нашей записью блога от 6 марта 2020 г. [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
 
 1. Teams для образовательных учреждений
    - Если вы работаете в сфере образования и хотите настроить Teams для преподавателей, учащихся и администраторов, используйте Office 365 A1. Эта бесплатная версия Office 365 доступна для всех образовательных учреждений. Зарегистрируйтесь на странице [Office 365 бесплатно для всего учебного заведения](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
@@ -108,6 +110,8 @@ ms.locfileid: "42866584"
       - [9 советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
 
       - [Основные советы по повышению безопасности работы из дома](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+      - Видео Сатьи Наделлы и руководителя по маркетингу продуктов Teams Айи Танге об [использовании Teams для удаленной работы](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (20 марта 2020 г.)
 
 
 3.  Предложите всем [установить](get-clients.md#mobile-clients) и использовать мобильное приложение для [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) или [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
