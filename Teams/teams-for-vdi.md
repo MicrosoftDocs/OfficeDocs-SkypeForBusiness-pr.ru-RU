@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615371"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892299"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -142,28 +142,31 @@ Office 365 профессиональный плюс не поддерживае
     - Установка на уровне пользователей (по умолчанию)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         Это установка по умолчанию, при которой команды устанавливаются в папку пользователя% AppData%. На этом этапе завершается установка "золотого образа". Teams не будет работать правильно с установкой отдельных пользователей на непостоянную настройку.
-    
+
     - Установка на компьютере
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         При этом команды устанавливаются в папку Program Files (x86) в 64-разрядной операционной системе и в папку Program Files в 32-разрядной операционной системе. На этом этапе завершается установка "золотого образа". Установка групп на компьютере необходима для неустойчивой настройки.
- 
+
         Следующий интерактивный сеанс входа запускает Teams и запрашивает учетные данные.
 
-3. Удалите MSI из виртуальной машины VDI. 
+    > [!NOTE]
+    > В этих примерах также используется параметр **ALLUSERS = 1** . Если вы задаете этот параметр, программа установки на уровне компьютера будет отображаться в окне "программы и компоненты" на панели управления, а также в приложениях & функциях в параметрах Windows для всех пользователей компьютера. Все пользователи могут удалять команды, если у них есть учетные данные администратора. Важно понимать разницу между **ALLUSERS = 1** и **аллусер = 1**. Параметр **ALLUSERS = 1** можно использовать в средах без VDI и VDI, а параметр **аллусер = 1** используется только в средах VDI для задания установки на компьютере.
+
+3. Удалите MSI из виртуальной машины VDI.
 
     Удалить Teams можно двумя способами:  
   
     - Сценарий PowerShell (рекомендуется)
-    
-    - Командная строка: этот подход удаляет группы, но предотвращает повторную установку Teams. Выполните следующую команду.
+
+    - Командная строка:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -357,7 +360,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 Известные проблемы, которые не относятся к VDI, приведены в разделе [Известные проблемы группы](Known-issues.md).
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 #### <a name="troubleshoot-citrix-components"></a>Устранение неполадок в компонентах Citrix
 
