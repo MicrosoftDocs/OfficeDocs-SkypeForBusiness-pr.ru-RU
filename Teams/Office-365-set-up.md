@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Сведения о том, как включить Microsoft Teams для организации Office 365.
+description: Сведения о том, как включить Microsoft Teams для организации, в которой используется Office 365
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41833349"
@@ -34,7 +34,7 @@ ms.locfileid: "41833349"
 По умолчанию продукт Microsoft Teams включен для всех организаций. Если вы использовали Microsoft Teams в предварительной версии, параметр останется таким же, какой был указан в предварительной версии Microsoft Teams. 
 
 
-Будучи администратором в своей организации, вы можете назначать лицензии пользователей для индивидуального управления доступом к Microsoft Teams, а также разрешать или блокировать использование отдельных источников данных в Microsoft Teams. Дополнительные сведения в разделе [Управление параметрами Microsoft Teams в Организации](enable-features-office-365.md) или [в параметрах администратора для приложений в Microsoft Teams](admin-settings.md) . 
+Будучи администратором в своей организации, вы можете назначать лицензии пользователей для индивидуального управления доступом к Microsoft Teams, а также разрешать или блокировать использование отдельных источников данных в Microsoft Teams. Дополнительные сведения см. в статьях [Управление параметрами Microsoft Teams в организации](enable-features-office-365.md) или [Параметры администрирования для приложений в Microsoft Teams](admin-settings.md). 
 
 
  
