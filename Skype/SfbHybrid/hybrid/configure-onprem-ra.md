@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113262"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892309"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -32,7 +32,7 @@ ms.locfileid: "42113262"
 
 Если для автосекретаря телефонной системы или очереди вызовов потребуется номер службы, в следующей последовательности могут выполняться различные зависимости:
 
-1. Получение номера службы
+1. Получение номера службы.
 2. Получение бесплатной телефонной [системы или лицензии](/MicrosoftTeams/teams-add-on-licensing/virtual-user) на платную телефонную систему для использования с учетной записью ресурса.
 3. Создайте учетную запись ресурса. Для автосекретаря или очереди вызовов требуется соответствующая учетная запись ресурса.
 4. Дождитесь синхронизации Active Directory между Интернетом и локальным.
@@ -71,7 +71,7 @@ ms.locfileid: "42113262"
 3. Создайте локальную учетную запись ресурса, выполнив `New-CsHybridApplicationEndpoint` командлет для каждого автосекретаря телефонной системы или очереди звонков и присвойте каждому из них имя, SIP адрес и т. д.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     Для получения дополнительных сведений о данной команде, ознакомьтесь со статьей [New – кшибридаппликатионендпоинт](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
@@ -103,12 +103,12 @@ ms.locfileid: "42113262"
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-Учетной записи ресурса потребуется назначенный телефонный номер, если он будет назначен автосекретарею верхнего уровня или очереди звонков. Номера телефонов пользователей (абонентов) нельзя назначить учетной записи ресурса, можно использовать только сервисный платный или бесплатный номер телефона.
+   Учетной записи ресурса потребуется назначенный телефонный номер, если он будет назначен автосекретарею верхнего уровня или очереди звонков. Номера телефонов пользователей (абонентов) нельзя назначить учетной записи ресурса, можно использовать только сервисный платный или бесплатный номер телефона.
 
-  Для учетной записи ресурса можно назначить гибридный номер прямой маршрутизации.  Для получения подробных сведений ознакомьтесь со статьей [планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) .
+     Для учетной записи ресурса можно назначить гибридный номер прямой маршрутизации. Дополнительные сведения см в статье [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Номера служб прямой маршрутизации, назначенные учетным записям ресурсов для автосекретаря и очередей звонков, поддерживаются только для пользователей и агентов Microsoft Teams.
+     > [!NOTE]
+     > Номера служб прямой маршрутизации, назначенные учетным записям ресурсов для автосекретаря и очередей звонков, поддерживаются только для пользователей и агентов Microsoft Teams.
 
 7. Создание автосекретаря телефонной системы или очереди звонков. Выберите один из указанных ниже вариантов.
 
@@ -195,7 +195,7 @@ ms.locfileid: "42113262"
 
 [Создание облачной очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[Что такое автосекретаря для облака?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[Что представляют собой облачные автосекретари?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
