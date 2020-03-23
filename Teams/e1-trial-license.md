@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Если у вас нет приложения Microsoft Teams и оно срочно вам требуется, разверните пробную версию Office 365 E1 для своих пользователей, которым нужно работать удаленно или из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795962"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858774"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -33,6 +34,9 @@ ms.locfileid: "42795962"
 ## <a name="how-to-get-an-e1-trial-license"></a>Способ получения лицензии на пробную версию E1
 
 Свяжитесь с представителем Майкрософт по учетным записям. Он предоставит вам промокод, с помощью которого можно зарегистрироваться для получения пробной версии E1. 
+
+Организации, обслуживаемые партнером Майкрософт, могут получить у него бесплатную пробную версию Teams на 6 месяцев. Если у вас еще нет партнера Майкрософт и вы хотите сотрудничать с ним, перейдите в раздел [Поставщики решений Майкрософт](https://www.microsoft.com/solution-providers/home) и выполните поиск партнеров, специализирующихся на Teams.
+
 
 ## <a name="how-to-sign-up-for-e1"></a>Регистрация для получения версии E1
 
