@@ -12,84 +12,88 @@ localization_priority: Priority
 description: Если у вас нет приложения Microsoft Teams и оно срочно вам требуется, разверните пробную версию Office 365 E1 для своих пользователей, которым нужно работать удаленно или из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795962"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858774"
 ---
-<a name="manage-the-office-365-e1-trial"></a><span data-ttu-id="8870a-103">Управление пробной версией Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="8870a-103">Manage the Office 365 E1 Trial</span></span>
+<a name="manage-the-office-365-e1-trial"></a><span data-ttu-id="ef261-103">Управление пробной версией Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="ef261-103">Manage the Office 365 E1 Trial</span></span>
 ==============================
 
-<span data-ttu-id="8870a-104">С марта 2020 г. доступна 6-месячная бесплатная пробная версия Office 365 E1, включающая Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8870a-104">New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available.</span></span> <span data-ttu-id="8870a-105">Корпорация Майкрософт предоставляет эту специальную лицензию на пробную версию E1 в ответ на возросшие потребности в работе сотрудников из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).</span><span class="sxs-lookup"><span data-stu-id="8870a-105">Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak.</span></span> 
+<span data-ttu-id="ef261-104">С марта 2020 г. доступна 6-месячная бесплатная пробная версия Office 365 E1, включающая Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="ef261-104">New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available.</span></span> <span data-ttu-id="ef261-105">Корпорация Майкрософт предоставляет эту специальную лицензию на пробную версию E1 в ответ на возросшие потребности в работе сотрудников из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).</span><span class="sxs-lookup"><span data-stu-id="ef261-105">Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak.</span></span> 
 
-<span data-ttu-id="8870a-106">Сведения о доступных компонентах в лицензии E1 см. на странице [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span><span class="sxs-lookup"><span data-stu-id="8870a-106">To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span></span>
+<span data-ttu-id="ef261-106">Сведения о доступных компонентах в лицензии E1 см. на странице [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span><span class="sxs-lookup"><span data-stu-id="ef261-106">To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span></span>
 
-<span data-ttu-id="8870a-107">Не пропустите наши рекомендации по [поддержке удаленной работы в Teams](support-remote-work-with-teams.md).</span><span class="sxs-lookup"><span data-stu-id="8870a-107">Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).</span></span>
+<span data-ttu-id="ef261-107">Не пропустите наши рекомендации по [поддержке удаленной работы в Teams](support-remote-work-with-teams.md).</span><span class="sxs-lookup"><span data-stu-id="ef261-107">Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).</span></span>
 
-## <a name="how-to-get-an-e1-trial-license"></a><span data-ttu-id="8870a-108">Способ получения лицензии на пробную версию E1</span><span class="sxs-lookup"><span data-stu-id="8870a-108">How to get an E1 Trial license</span></span>
+## <a name="how-to-get-an-e1-trial-license"></a><span data-ttu-id="ef261-108">Способ получения лицензии на пробную версию E1</span><span class="sxs-lookup"><span data-stu-id="ef261-108">How to get an E1 Trial license</span></span>
 
-<span data-ttu-id="8870a-109">Свяжитесь с представителем Майкрософт по учетным записям.</span><span class="sxs-lookup"><span data-stu-id="8870a-109">Contact your Microsoft account representative.</span></span> <span data-ttu-id="8870a-110">Он предоставит вам промокод, с помощью которого можно зарегистрироваться для получения пробной версии E1.</span><span class="sxs-lookup"><span data-stu-id="8870a-110">They'll get you a promo code that you can use to sign up for the E1 Trial.</span></span> 
+<span data-ttu-id="ef261-109">Свяжитесь с представителем Майкрософт по учетным записям.</span><span class="sxs-lookup"><span data-stu-id="ef261-109">Contact your Microsoft account representative.</span></span> <span data-ttu-id="ef261-110">Он предоставит вам промокод, с помощью которого можно зарегистрироваться для получения пробной версии E1.</span><span class="sxs-lookup"><span data-stu-id="ef261-110">They'll get you a promo code that you can use to sign up for the E1 Trial.</span></span> 
 
-## <a name="how-to-sign-up-for-e1"></a><span data-ttu-id="8870a-111">Регистрация для получения версии E1</span><span class="sxs-lookup"><span data-stu-id="8870a-111">How to sign up for E1</span></span>
-
-<span data-ttu-id="8870a-112">Щелкните код промокод в сообщении электронной почты, отправленном вам представителем по учетным записям.</span><span class="sxs-lookup"><span data-stu-id="8870a-112">Click the promo code in the email your account rep will send you.</span></span> 
+<span data-ttu-id="ef261-111">Организации, обслуживаемые партнером Майкрософт, могут получить у него бесплатную пробную версию Teams на 6 месяцев.</span><span class="sxs-lookup"><span data-stu-id="ef261-111">For organizations served by a Microsoft partner, work with your partner to get a free 6-month Teams trial.</span></span> <span data-ttu-id="ef261-112">Если у вас еще нет партнера Майкрософт и вы хотите сотрудничать с ним, перейдите в раздел [Поставщики решений Майкрософт](https://www.microsoft.com/solution-providers/home) и выполните поиск партнеров, специализирующихся на Teams.</span><span class="sxs-lookup"><span data-stu-id="ef261-112">If you don't have a Microsoft partner yet and would like to work with one, go to [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) and search for partners with expertise in Teams.</span></span>
 
 
-## <a name="whos-eligible"></a><span data-ttu-id="8870a-113">Кто имеет право на использование?</span><span class="sxs-lookup"><span data-stu-id="8870a-113">Who's eligible?</span></span>
+## <a name="how-to-sign-up-for-e1"></a><span data-ttu-id="ef261-113">Регистрация для получения версии E1</span><span class="sxs-lookup"><span data-stu-id="ef261-113">How to sign up for E1</span></span>
 
-<span data-ttu-id="8870a-114">Это предложение предназначено для клиентов, управляемых представителями Майкрософт по работе с клиентами. Оно предназначено для организаций, включая некоммерческие организации, которые ранее не активировали другие пробные версии Office 365 E1.</span><span class="sxs-lookup"><span data-stu-id="8870a-114">This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past.</span></span> 
-
-<span data-ttu-id="8870a-115">После применения промокода пробной версии E1 вы не сможете использовать его повторно, а также не сможете активировать другой код пробной версии E1.</span><span class="sxs-lookup"><span data-stu-id="8870a-115">After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code.</span></span> <span data-ttu-id="8870a-116">В этих случаях ваши пользователи могут активировать [лицензию Teams Exploratory](teams-exploratory.md).</span><span class="sxs-lookup"><span data-stu-id="8870a-116">In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).</span></span>
-
-## <a name="who-isnt-eligible"></a><span data-ttu-id="8870a-117">Кто не имеет права на использование?</span><span class="sxs-lookup"><span data-stu-id="8870a-117">Who isn't eligible</span></span>
-
-- <span data-ttu-id="8870a-118">Это предложение недоступно клиентам GCC, GCC High, DoD и образовательных организаций.</span><span class="sxs-lookup"><span data-stu-id="8870a-118">This offer isn't available for GCC, GCC High, DoD, or EDU customers.</span></span> 
-
-- <span data-ttu-id="8870a-119">Для использования GCC см.статью [Пробная версия Office 365 G1](g1-trial-license.md).</span><span class="sxs-lookup"><span data-stu-id="8870a-119">For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md).</span></span> 
-
-- <span data-ttu-id="8870a-120">Клиентам из образовательных организаций следует использовать бесплатную лицензию Office 365 A1.</span><span class="sxs-lookup"><span data-stu-id="8870a-120">EDU customers should use the free Office 365 A1 license.</span></span>
-
-## <a name="manage-the-e1-trial"></a><span data-ttu-id="8870a-121">Управление пробной версией E1</span><span class="sxs-lookup"><span data-stu-id="8870a-121">Manage the E1 Trial</span></span>
-
-<span data-ttu-id="8870a-122">После активации пробной версии Office 365 E1 включите лицензию для всех пользователей, которым она требуется.</span><span class="sxs-lookup"><span data-stu-id="8870a-122">Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it.</span></span> <span data-ttu-id="8870a-123">Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span><span class="sxs-lookup"><span data-stu-id="8870a-123">To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span></span>
+<span data-ttu-id="ef261-114">Щелкните код промокод в сообщении электронной почты, отправленном вам представителем по учетным записям.</span><span class="sxs-lookup"><span data-stu-id="ef261-114">Click the promo code in the email your account rep will send you.</span></span> 
 
 
-<span data-ttu-id="8870a-124">После включения пробной версии E1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией.</span><span class="sxs-lookup"><span data-stu-id="8870a-124">Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license.</span></span> <span data-ttu-id="8870a-125">Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).</span><span class="sxs-lookup"><span data-stu-id="8870a-125">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
+## <a name="whos-eligible"></a><span data-ttu-id="ef261-115">Кто имеет право на использование?</span><span class="sxs-lookup"><span data-stu-id="ef261-115">Who's eligible?</span></span>
+
+<span data-ttu-id="ef261-116">Это предложение предназначено для клиентов, управляемых представителями Майкрософт по работе с клиентами. Оно предназначено для организаций, включая некоммерческие организации, которые ранее не активировали другие пробные версии Office 365 E1.</span><span class="sxs-lookup"><span data-stu-id="ef261-116">This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past.</span></span> 
+
+<span data-ttu-id="ef261-117">После применения промокода пробной версии E1 вы не сможете использовать его повторно, а также не сможете активировать другой код пробной версии E1.</span><span class="sxs-lookup"><span data-stu-id="ef261-117">After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code.</span></span> <span data-ttu-id="ef261-118">В этих случаях ваши пользователи могут активировать [лицензию Teams Exploratory](teams-exploratory.md).</span><span class="sxs-lookup"><span data-stu-id="ef261-118">In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).</span></span>
+
+## <a name="who-isnt-eligible"></a><span data-ttu-id="ef261-119">Кто не имеет права на использование?</span><span class="sxs-lookup"><span data-stu-id="ef261-119">Who isn't eligible</span></span>
+
+- <span data-ttu-id="ef261-120">Это предложение недоступно клиентам GCC, GCC High, DoD и образовательных организаций.</span><span class="sxs-lookup"><span data-stu-id="ef261-120">This offer isn't available for GCC, GCC High, DoD, or EDU customers.</span></span> 
+
+- <span data-ttu-id="ef261-121">Для использования GCC см.статью [Пробная версия Office 365 G1](g1-trial-license.md).</span><span class="sxs-lookup"><span data-stu-id="ef261-121">For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md).</span></span> 
+
+- <span data-ttu-id="ef261-122">Клиентам из образовательных организаций следует использовать бесплатную лицензию Office 365 A1.</span><span class="sxs-lookup"><span data-stu-id="ef261-122">EDU customers should use the free Office 365 A1 license.</span></span>
+
+## <a name="manage-the-e1-trial"></a><span data-ttu-id="ef261-123">Управление пробной версией E1</span><span class="sxs-lookup"><span data-stu-id="ef261-123">Manage the E1 Trial</span></span>
+
+<span data-ttu-id="ef261-124">После активации пробной версии Office 365 E1 включите лицензию для всех пользователей, которым она требуется.</span><span class="sxs-lookup"><span data-stu-id="ef261-124">Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it.</span></span> <span data-ttu-id="ef261-125">Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span><span class="sxs-lookup"><span data-stu-id="ef261-125">To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span></span>
+
+
+<span data-ttu-id="ef261-126">После включения пробной версии E1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией.</span><span class="sxs-lookup"><span data-stu-id="ef261-126">Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license.</span></span> <span data-ttu-id="ef261-127">Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).</span><span class="sxs-lookup"><span data-stu-id="ef261-127">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
 
 
 
-### <a name="upgrade-users-from-the-office-365-e1-trial-license"></a><span data-ttu-id="8870a-126">Переход пользователей с пробной лицензии Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="8870a-126">Upgrade users from the Office 365 E1 Trial license</span></span>
+### <a name="upgrade-users-from-the-office-365-e1-trial-license"></a><span data-ttu-id="ef261-128">Переход пользователей с пробной лицензии Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="ef261-128">Upgrade users from the Office 365 E1 Trial license</span></span>
 
-<span data-ttu-id="8870a-127">Чтобы перевести пользователей пробной версии E1 на платную подписку:</span><span class="sxs-lookup"><span data-stu-id="8870a-127">To upgrade E1 Trial users to a paid subscription:</span></span>
+<span data-ttu-id="ef261-129">Чтобы перевести пользователей пробной версии E1 на платную подписку:</span><span class="sxs-lookup"><span data-stu-id="ef261-129">To upgrade E1 Trial users to a paid subscription:</span></span>
 
-1. <span data-ttu-id="8870a-128">Приобретите подписку, в которую входит Teams.</span><span class="sxs-lookup"><span data-stu-id="8870a-128">Purchase a subscription that includes Teams.</span></span>
+1. <span data-ttu-id="ef261-130">Приобретите подписку, в которую входит Teams.</span><span class="sxs-lookup"><span data-stu-id="ef261-130">Purchase a subscription that includes Teams.</span></span>
 
-2. <span data-ttu-id="8870a-129">Удалите пробную подписку пользователя на Office 365 E1.</span><span class="sxs-lookup"><span data-stu-id="8870a-129">Remove the Office 365 E1 Trial subscription from the user.</span></span>
+2. <span data-ttu-id="ef261-131">Удалите пробную подписку пользователя на Office 365 E1.</span><span class="sxs-lookup"><span data-stu-id="ef261-131">Remove the Office 365 E1 Trial subscription from the user.</span></span>
 
-3. <span data-ttu-id="8870a-130">Назначьте приобретенную лицензию.</span><span class="sxs-lookup"><span data-stu-id="8870a-130">Assign the newly purchased license.</span></span>
+3. <span data-ttu-id="ef261-132">Назначьте приобретенную лицензию.</span><span class="sxs-lookup"><span data-stu-id="ef261-132">Assign the newly purchased license.</span></span>
 
-<span data-ttu-id="8870a-131">Дополнительные сведения см. в статье [Лицензирование Office 365 для Microsoft Teams](Office-365-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="8870a-131">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
+<span data-ttu-id="ef261-133">Дополнительные сведения см. в статье [Лицензирование Office 365 для Microsoft Teams](Office-365-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="ef261-133">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8870a-132">Если срок лицензии на пробную версию E1 закончился, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляется.</span><span class="sxs-lookup"><span data-stu-id="8870a-132">If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="8870a-133">Пользователь по-прежнему существует в Azure Active Directory, и все данные в Teams сохраняются.</span><span class="sxs-lookup"><span data-stu-id="8870a-133">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="8870a-134">После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать.</span><span class="sxs-lookup"><span data-stu-id="8870a-134">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
+> <span data-ttu-id="ef261-134">Если срок лицензии на пробную версию E1 закончился, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляется.</span><span class="sxs-lookup"><span data-stu-id="ef261-134">If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="ef261-135">Пользователь по-прежнему существует в Azure Active Directory, и все данные в Teams сохраняются.</span><span class="sxs-lookup"><span data-stu-id="ef261-135">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="ef261-136">После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать.</span><span class="sxs-lookup"><span data-stu-id="ef261-136">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
 
-### <a name="remove-an-office-365-e1-trial-license"></a><span data-ttu-id="8870a-135">Удаление лицензии на пробную версию Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="8870a-135">Remove an Office 365 E1 Trial license</span></span>
+### <a name="remove-an-office-365-e1-trial-license"></a><span data-ttu-id="ef261-137">Удаление лицензии на пробную версию Office 365 E1</span><span class="sxs-lookup"><span data-stu-id="ef261-137">Remove an Office 365 E1 Trial license</span></span>
 
-- <span data-ttu-id="8870a-136">Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span><span class="sxs-lookup"><span data-stu-id="8870a-136">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
+- <span data-ttu-id="ef261-138">Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span><span class="sxs-lookup"><span data-stu-id="ef261-138">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
 
-- <span data-ttu-id="8870a-137">Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="8870a-137">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
+- <span data-ttu-id="ef261-139">Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="ef261-139">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="8870a-138">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="8870a-138">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ef261-140">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="ef261-140">Related topics</span></span>
 
-[<span data-ttu-id="8870a-139">Управление доступом пользователей к Teams</span><span class="sxs-lookup"><span data-stu-id="8870a-139">Manage user access to Teams</span></span>](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[<span data-ttu-id="ef261-141">Управление доступом пользователей к Teams</span><span class="sxs-lookup"><span data-stu-id="ef261-141">Manage user access to Teams</span></span>](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
 
-[<span data-ttu-id="8870a-140">Управление параметрами Teams в организации</span><span class="sxs-lookup"><span data-stu-id="8870a-140">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
+[<span data-ttu-id="ef261-142">Управление параметрами Teams в организации</span><span class="sxs-lookup"><span data-stu-id="ef261-142">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
 
-[<span data-ttu-id="8870a-141">Управление предложением Teams Exploratory</span><span class="sxs-lookup"><span data-stu-id="8870a-141">Manage the Teams Exploratory experience</span></span>](teams-exploratory.md)
+[<span data-ttu-id="ef261-143">Управление предложением Teams Exploratory</span><span class="sxs-lookup"><span data-stu-id="ef261-143">Manage the Teams Exploratory experience</span></span>](teams-exploratory.md)
 
-[<span data-ttu-id="8870a-142">Office 365 для некоммерческих организаций</span><span class="sxs-lookup"><span data-stu-id="8870a-142">Office 365 Nonprofit</span></span>](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[<span data-ttu-id="ef261-144">Office 365 для некоммерческих организаций</span><span class="sxs-lookup"><span data-stu-id="ef261-144">Office 365 Nonprofit</span></span>](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
