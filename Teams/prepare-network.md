@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639466"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935249"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
 ## <a name="network-requirements"></a>Требования к сети
 
-Если вы уже [Оптимизируйте сеть для Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), возможно, вы готовы к работе в Microsoft Teams. Прежде чем приступить к развертыванию групп, перед выпуском группы убедитесь в следующем:
+Если вы уже [Оптимизируйте сеть для Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), возможно, вы готовы к работе в Microsoft Teams. В любом случае, и особенно если вы разрабатываете группы быстро, так как ваша первая рабочая нагрузка Office 365 должна поддерживать **удаленных сотрудников** , перед развертыванием групп выведите следующие сведения:
 
 1.  Есть ли у всех ваших местоположений доступ к Интернету (так что они могут подключаться к Office 365)? Как минимум, в дополнение к обычному веб-трафику, убедитесь, что вы открыли для всех расположений, указанных ниже, в разделе "мультимедиа" в teams:
 
@@ -75,7 +75,7 @@ ms.locfileid: "42639466"
 <thead>
 <tr class="header">
 <th><strong>Задача оптимизации сети</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
