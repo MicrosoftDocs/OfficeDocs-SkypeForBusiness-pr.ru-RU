@@ -16,34 +16,37 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892209"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937603"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Просмотрите следующее видео, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
+> Просмотрите следующий сеанс, чтобы узнать о преимуществах настольного клиента Windows, о том, как спланировать его и как развернуть. [клиент Teams для настольных систем Windows](https://aka.ms/teams-clients).
 
 Чтобы использовать Microsoft Endpoint Configuration Manager, или групповую политику, или любые сторонние механизмы распространения для широкого развертывания, Microsoft предоставила файлы MSI (как 32-разрядные, так и 64-разрядные), которые администраторы могут использовать для массового развертывания команд для выбора пользователей или компьютеры. Администраторы могут использовать эти файлы для удаленного развертывания Teams, чтобы пользователям не нужно было вручную скачивать приложение Teams. После развертывания Teams автоматически запускается для всех пользователей, выполнивших вход на этом компьютере. (Вы можете отключить автоматический запуск после установки приложения. [См. ниже](#disable-auto-launch-for-the-msi-installer).) Мы рекомендуем развертывать пакет на компьютере, чтобы все новые пользователи этого компьютера также могли воспользоваться преимуществами данного развертывания.
 
 Это ссылки на файлы MSI:
 
 
-|Объект  |32-разрядная      |64-разрядная      |
+|Объект  |32-разрядная версия      |64-разрядная версия      |
 |---------|---------|---------|
-|Коммерческий сектор     | [32 разрядная](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 разрядная](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Федеральное правительство - GCC     | [32 разрядная](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 разрядная](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Федеральное правительство - GCC High    | [32 разрядная](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 разрядная](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Федеральное правительство - DoD     | [32 разрядная](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 разрядная](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
+|Федеральное правительство - GCC     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
+|Федеральное правительство - GCC High    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Федеральное правительство - DoD     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+
+> [!NOTE]
+> Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
 
 Приложение Teams также может быть включено в развертывание Office 365 профессиональный плюс. Дополнительные сведения см. в статье [Развертывание Microsoft Teams с Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Чтобы узнать больше о Microsoft Endpoint Configuration Manager, см. Раздел [Что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+> Дополнительные сведения о диспетчере настройки конечных точек Microsoft см [. в разделе что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Процедура развертывания (рекомендуется)
 
@@ -100,13 +103,13 @@ MSI Teams помещает установщик в папку Program Files. В�
 
 Вы можете отключить автоматический запуск установщика MSI, используя параметр **OPTIONS="noAutoStart=true"**, как показано ниже.  
 
-Для 32-разрядной версии
+Для 32-разрядной версии:
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Для 64-разрядной версии
+Для 64-разрядной версии:
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1

@@ -19,12 +19,12 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 217f099fb773d3f8468e214c2e1e9ef33990d816
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858344"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937613"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -91,7 +91,7 @@ ms.locfileid: "42858344"
 
 <h2>Техническое обучение</h2>
 
-| Модуль | Видеосвязь | Набор слайдов PowerPoint  |
+| Модуль | Видео | Набор слайдов PowerPoint  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов](https://aka.ms/MicrosoftTeamsforIT) | [Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)<br>[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)<br>[Видео: элементы управления группами для обеспечения безопасности и соответствия требованиям](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 мин)||
 | Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
@@ -105,7 +105,7 @@ ms.locfileid: "42858344"
 | Динамическая экстренная вызов | [Видео](https://aka.ms/teams-dec) |  [Крытий](https://aka.ms/teams-dec-deck) |
 | События в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Крытий](https://aka.ms/teams-live-events-deck) |
 | Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
-| Прямая маршрутизация | [Видео](https://aka.ms/teams-direct-routing) | [Крытий](https://aka.ms/teams-direct-routing-deck) |
+| Прямая маршрутизация | [Видеоролик 1: планирование прямой маршрутизации в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2: Настройка и управление прямой маршрутизацией в Teams](https://aka.ms/teams-dr-config)<br>Видеоролик 3: переход на прямую маршрутизацию в Teams <strong> <font color="#4B53BC">Coming soon!</font> : скоро.</strong>  | [Крытий](https://aka.ms/teams-direct-routing-deck) |
 | Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
