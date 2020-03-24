@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892339"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928412"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -77,6 +77,8 @@ ms.locfileid: "42892339"
 
    - Ограниченная пропускная способность может влиять на качество звука в собраниях Teams. Чтобы обеспечить оптимальную работу собраний в условиях низкой пропускной способности, рекомендуйте пользователям ограничить видео и использовать ТСОП для звонков и звука собрания. 
 
+   - Прочтите этот блог (6 марта 2020), [, как быстро оптимизировать трафик Office 365 для удаленных сотрудников & снизить нагрузку на](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)инфраструктуры.
+   
    - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Если вам нужна помощь в устранении неполадок или проблем с качеством звонков или собраний, следуйте инструкциям в разделе [Известная проблема (Китай): звонки в Skype для бизнеса или Teams по идентификаторам конференций](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) в нижней части этой статьи.
