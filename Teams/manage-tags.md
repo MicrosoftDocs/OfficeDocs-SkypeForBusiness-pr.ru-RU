@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Научитесь управлять использованием тегов в Организации в Microsoft Teams.
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551046"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928452"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Управление тегами в Microsoft Teams
-
-> [!NOTE]
-> Вы еще не видите эту функцию в центре администрирования Microsoft Teams? Ее развертывание идет постепенно, и в вашей организации она, возможно, пока недоступна. Чтобы всегда оставаться на связи с возможностями предстоящих групп, ознакомьтесь с [планом Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 Теги в Microsoft Teams позволяют пользователям общаться с подмножеством пользователей в команде. Теги можно добавлять в один или несколько участников группы для быстрого соединения с подмножеством пользователей. Владельцы и участники групп (если эта функция включена) может добавить к человеку одного или нескольких тегов. Затем Теги можно использовать в @mentions для всех участников группы в канале POST или для начала беседы только с теми людьми, которым назначен этот тег.
 

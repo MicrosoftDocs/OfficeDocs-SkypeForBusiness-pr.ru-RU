@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858584"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928442"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -257,7 +257,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 
 |**Дорож**|**От**|**До**|**Исходный порт**|**Конечный порт**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Прокси-сервер SIP|БАЙТОВ|1024 – 65535|Определено на SBC (для Office 365 GCC High/DoD используются только порты 5061 и 5062)|
+|SIP/TLS|Прокси-сервер SIP|БАЙТОВ|1024 – 65535|Определено на SBC (для пакета Office 365 GCC High/DoD только порт 5061)|
 SIP/TLS|БАЙТОВ|Прокси-сервер SIP|Определено для SBC|5061|
 ||||||
 
