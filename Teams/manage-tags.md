@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Научитесь управлять использованием тегов в Организации в Microsoft Teams.
-ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928452"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951554"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Управление тегами в Microsoft Teams
 
 Теги в Microsoft Teams позволяют пользователям общаться с подмножеством пользователей в команде. Теги можно добавлять в один или несколько участников группы для быстрого соединения с подмножеством пользователей. Владельцы и участники групп (если эта функция включена) может добавить к человеку одного или нескольких тегов. Затем Теги можно использовать в @mentions для всех участников группы в канале POST или для начала беседы только с теми людьми, которым назначен этот тег.
 
 > [!NOTE]
-> В закрытых каналах Теги пока не поддерживаются.
+> В закрытых каналах Теги пока не поддерживаются. Теги пока не доступны в облаке (GCC), высоком или подразделении для защиты от США. 
 
 ## <a name="how-tags-work"></a>Принцип работы тегов
 
