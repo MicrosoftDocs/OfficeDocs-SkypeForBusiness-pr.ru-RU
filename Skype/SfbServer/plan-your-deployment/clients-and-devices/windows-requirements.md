@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Сводка: при планировании Skype для бизнеса Server ознакомьтесь с требованиями поддержки клиентов Windows.'
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027960"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928242"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Требования к клиентам Windows и поддержка программного обеспечения
  
@@ -37,7 +37,7 @@ ms.locfileid: "42027960"
 
 |**Системный компонент**|**Поддерживаемые версии**|
 |:-----|:-----|
-|Операционная система Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Операционная система Windows 7  <br/> Windows Server 2008 R2 или более поздняя версия с последним пакетом обновления  <br/> **Примечание:** Skype для бизнеса и надстройка "собрание по сети" для Skype для бизнеса не поддерживаются в Windows Vista или Windows XP (любая версия). <br/> |
+|Операционная система Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 или более поздняя версия с последним пакетом обновления  <br/> **Примечание:** Skype для бизнеса и надстройка "собрание по сети" для Skype для бизнеса не поддерживаются в Windows Vista или Windows XP (любая версия). <br/> |
 |Установка и обновление  <br/> |Права и разрешения администратора  <br/> |
 |Браузер  <br/> |Microsoft Edge  <br/> Браузер Internet Explorer 11  <br/>  Браузер Internet Explorer 10 <br/> Браузер Internet Explorer 9  <br/> Браузер Internet Explorer 8  <br/> Браузер Internet Explorer 7  <br/> Веб-браузер Mozilla Firefox  <br/>  Веб-браузер Google Chrome  <br/>**Примечание:** Если вы используете Skype для бизнеса с Microsoft Exchange Online, а ваша организация развернула прокси-сервер HTTP, прошедший проверку подлинности, требуется Internet Explorer 8 или более поздней версии.           |
 |Интеграция с Microsoft Office  <br/> | Outlook 2010 или более поздней версии; |
