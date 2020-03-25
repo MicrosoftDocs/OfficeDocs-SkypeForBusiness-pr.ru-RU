@@ -1,7 +1,7 @@
 ---
 title: Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 ms.author: crowe
-ms.reviewer: NMuravlyannikov
+ms.reviewer: FilippSe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: c956fad4e18e4bfb2e97ccbc04ed776a967affc7
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
+ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928422"
+ms.locfileid: "42939623"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -62,15 +62,15 @@ ms.locfileid: "42928422"
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (сборка 537)     |  <ul> <li>[Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul>   |     &#10004;     |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (сборка 216)    |  <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Интрадо ЕРС </li> <li>Интрадо ЕГВ </li> <li> Красный Небесный высокогоризонтный мобильный </li> </ul>    |     &#10004;     |   
 | | Серия Еджемарк |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1,4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>   |  &#10004;  |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>  |  &#10004;  |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Интрадо ЕРС </li> <li>Интрадо ЕГВ</li> <li> Красный Небесный высокогоризонтный мобильный </li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |     |    |    
-
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [метасвитч](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Перимета SBC        |     &#10004;   |  |      4,7      |     |    |    
 
 В таблице ниже перечислены устройства, которые проверяются на совместимость между прямыми маршрутизацией и аналоговыми устройствами.
 
