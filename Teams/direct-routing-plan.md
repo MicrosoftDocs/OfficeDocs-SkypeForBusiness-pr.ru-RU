@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928442"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955728"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -175,7 +175,8 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - Go Daddy
 - Геодоверие
 - VeriSign, Inc. 
-- старфиелд 
+- SSL.com
+- старфиелд
 - Корпоративный корневой каталог Symantec для Microsoft 
 - свисссигн
 - Thawte пометки времени ЦС

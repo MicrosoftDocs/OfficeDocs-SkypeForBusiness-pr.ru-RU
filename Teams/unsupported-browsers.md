@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения о том, как команды поддерживают звук и видео в неподдерживаемых браузерах.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837259"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955718"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Собрания Microsoft Teams для неподдерживаемых браузеров
 
@@ -43,7 +43,8 @@ ms.locfileid: "41837259"
 - Если Звонок прерван, собрание не будет восстановлено автоматически.
 - Пользователи не могут начать собрание.
 
-## <a name="related-topics"></a>См. также
+Дополнительные сведения о поддержке браузеров в Teams можно найти в разделе [ограничения и спецификации для Teams](/microsoftteams/limits-specifications-teams#browsers).
+
+## <a name="related-topics"></a>Статьи по теме
 
 - [Присоединение к собранию Teams в неподдерживаемом браузере](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Ограничения и спецификации для Teams](/microsoftteams/limits-specifications-teams#browsers)
