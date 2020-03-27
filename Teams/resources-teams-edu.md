@@ -1,5 +1,5 @@
 ---
-title: Ресурсы Microsoft Teams для образовательных учреждений (администраторы)
+title: Ресурсы Microsoft Teams для администраторов учебных заведений
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285851"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983823"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для образовательных учреждений (администраторы)
+<a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для администраторов учебных заведений
 ==============================================
 
-## <a name="adoption-content"></a>Контент для внедрения
+## <a name="adoption-content"></a>Материалы по внедрению
 
 Вы можете быстро приступить к работе над Microsoft Teams с помощью электронных писем, плакатов, раздаточных материалов и других ресурсов, которые можно использовать сейчас. Вы также можете связаться с студентами через Интернет и с помощью нового цифрового комплекта, созданного с помощью плакатов, GIF-и видеороликов. Начните прямо сейчас!
 
@@ -36,6 +36,7 @@ ms.locfileid: "42285851"
 
 | |  |
 |---------|---------|
+|[Буклет с советами и рекомендациями](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Экрана](media/edu-adoption-get-started.png)    |
 |Возможность [настройки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) и [подготовки печатных](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true) плакатов<br>![Снимок экрана: плакат](media/edu-adoption-posters.png)     |[Раздаточных материалов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Снимок экрана: раздаточные материалы](media/edu-adoption-handouts.png)|
 |[Листовки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Снимок экрана: объявление](media/edu-adoption-flyers.png)   |[Уведомлений о бюллетенях](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Снимок экрана: журнал уведомлений](media/edu-adoption-book-adverts.png)         |
 
