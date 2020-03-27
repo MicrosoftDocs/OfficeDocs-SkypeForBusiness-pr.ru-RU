@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Здесь вы узнаете, как назначить, изменить или удалить номер рабочего телефона для пользователей Teams, чтобы внешние компании и клиенты могли звонить через Skype.
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826997"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982112"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
@@ -50,7 +50,7 @@ ms.locfileid: "41826997"
 4. Чтобы назначить или изменить расположение для экстренного реагирования, в разделе **расположение для экстренного**реагирования найдите и выберите расположение.
 6. Нажмите кнопку **Сохранить**.
     > [!NOTE]
-    > Из-за задержки между Office 365 и рабочими группами может потребоваться до 24 часов для включения пользователей. Если по истечении 24 часа номер телефона не указан должным образом, [обратитесь в службу поддержки КТСОП](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Мы с радостью ответим на ваши вопросы.
+    > Из-за задержки между Office 365 и рабочими группами может потребоваться до 24 часов для включения пользователей. Если по истечении 24 часа номер телефона не указан должным образом, [обратитесь в службу поддержки для бизнес-продуктов — Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Мы с радостью ответим на ваши вопросы.
   
 ## <a name="change-a-phone-number-for-a-user"></a>Изменение номера телефона пользователя
  
@@ -76,7 +76,7 @@ ms.locfileid: "41826997"
 4. В области " **Правка** " в разделе " **Кому назначено**" щелкните значок " **X** ", чтобы удалить пользователя.
 5. Нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Что такое проверка адреса?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

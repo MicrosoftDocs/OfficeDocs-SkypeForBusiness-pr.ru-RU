@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728938"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982122"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "42728938"
 
 Все текущие устройства и наборы комнат Microsoft Teams доступны в [демонстрации продуктов для системы помещений](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
-  |консоль;|Воздуш|ДОСТУПНОЙ|Диск|
+  |консоль;|Процессор|ДОСТУПНОЙ|Диск|
   |:-----|:-----|:-----|:-----|
   |[Крестрон Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Основные i5|8 ГБ |128 ГБ |
   |[Крестрон Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Основные i5|8 ГБ |128 ГБ |
@@ -63,6 +63,7 @@ ms.locfileid: "42728938"
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 ГБ|128 ГБ|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Основные i5|8 ГБ |128 ГБ |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Основные i5|8 ГБ |128 ГБ |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Основные i5|8 ГБ|128 ГБ|
   ||||||
 
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.locfileid: "42728938"
 
 **Поддерживаемые планшеты Surface Pro для системы закрепляемого типа**
 
-  |Планшете|Воздуш|ДОСТУПНОЙ|Диск|
+  |Планшете|Процессор|ДОСТУПНОЙ|Диск|
   |:-----|:-----|:-----|:-----|
   |Surface Pro 6| Основные i5 |16 ГБ или 8 ГБ |128 ГБ или больше |
   |Surface Pro </br>(пятое Gen) |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
