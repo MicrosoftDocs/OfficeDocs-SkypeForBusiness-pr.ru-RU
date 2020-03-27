@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 7edbce168ec3357dbc432f3cb0da30c6310ea9cc
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928412"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982102"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
 
@@ -64,7 +64,13 @@ ms.locfileid: "42928412"
 
 1. Ознакомьтесь со статьей [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md), которую мы регулярно обновляем.
 
-1. Ознакомьтесь с нашей записью блога от 6 марта 2020 г. [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/).
+1. Ознакомьтесь с нашими последними записями блога:
+   
+   - [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [Помощь малым и средним предприятиями с удаленной работой в Teams](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [9 основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивает удаленную работу для своих сотрудников](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
 
 1. Teams для образовательных учреждений
    - Если вы работаете в сфере образования и хотите настроить Teams для преподавателей, учащихся и администраторов, используйте Office 365 A1. Эта бесплатная версия Office 365 доступна для всех образовательных учреждений. Зарегистрируйтесь на странице [Office 365 бесплатно для всего учебного заведения](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
@@ -78,6 +84,8 @@ ms.locfileid: "42928412"
    - Ограниченная пропускная способность может влиять на качество звука в собраниях Teams. Чтобы обеспечить оптимальную работу собраний в условиях низкой пропускной способности, рекомендуйте пользователям ограничить видео и использовать ТСОП для звонков и звука собрания. 
 
    - Прочтите этот блог (6 марта 2020), [, как быстро оптимизировать трафик Office 365 для удаленных сотрудников & снизить нагрузку на](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)инфраструктуры.
+
+   - Запись блога от 26 марта 2020 г.: [Работа с VPN: как корпорация Майкрософт обеспечивает связь с удаленными сотрудниками](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
@@ -95,6 +103,13 @@ ms.locfileid: "42928412"
 
    - Прочтите статью [о развертывании Teams](How-to-roll-out-teams.md), чтобы узнать, как приступить к работе с Teams и управлять приложением.
 
+1. Безопасность при работе из дома
+
+   - [Основные советы по повышению безопасности работы из дома](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Блог Microsoft Security (26 марта 2020 г.): [Альтернативные способы для специалистов по безопасности и ИТ-сотрудников по реализации современных элементов управления безопасностью в сегодняшних уникальных сценариях удаленной работы](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [Работайте удаленно, оставайтесь в безопасности — инструкции для руководителей информационной безопасности](https://www.microsoft.com/security/blog/?p=90736)
 
     
 3. Прочтите наши новые ресурсы об удаленной работе и поделитесь ими с пользователями:
@@ -110,8 +125,6 @@ ms.locfileid: "42928412"
       - [Удаленная работа с Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [9 советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [Основные советы по повышению безопасности работы из дома](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Видео Сатьи Наделлы и руководителя по маркетингу продуктов Teams Айи Танге об [использовании Teams для удаленной работы](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (20 марта 2020 г.)
 
