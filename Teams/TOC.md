@@ -640,6 +640,7 @@
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Teams для государственных организаций](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Поддержка удаленных сотрудников (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
