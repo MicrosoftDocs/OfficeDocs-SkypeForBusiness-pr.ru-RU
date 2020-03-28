@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- remotework
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: В этой статье рассказывается о том, как использовать назначение пакетной политики для крупных наборов пользователей в обучающем учреждении для удаленной школы (теле-учебного заведения).
 f1keywords: ''
-ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978521"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033363"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Назначение политик большим наборам пользователей в учебном заведении
 
@@ -34,7 +35,7 @@ ms.locfileid: "42978521"
 
 Имейте в виду, что глобальная политика будет применяться ко всем пользователям в вашем учебном заведении, пока не будет создана пользовательская политика, и вы сможете назначить ее вашим сотрудникам и преподавателям.
 
-В этом учебнике учащиеся получат глобальную политику собраний, и мы используем PowerShell для назначения настраиваемой политики собраний с именем Едукатормитингполици для сотрудников и преподавателей в массовом режиме. Предполагается, что вы изменили глобальную политику для настройки параметров собрания для учащихся и создали специальную политику, которая определяет процесс собрания для персонала и преподавателей.
+В этом учебнике учащиеся получат глобальную политику собраний, и мы используем PowerShell для назначения настраиваемой политики собраний с именем EducatorMeetingPolicy для сотрудников и преподавателей в массовом режиме. Предполагается, что вы изменили глобальную политику для настройки параметров собрания для учащихся и создали специальную политику, которая определяет процесс собрания для персонала и преподавателей.
 
 ![Снимок экрана: страница "политики собрания" в центре администрирования Teams](media/edu-batch-policy-assignment.png)
 
@@ -94,7 +95,7 @@ M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
 M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
-В этом примере вывод показывает, что лицензия факультета Скуид — "e97c048c-37a4-45fb-AB50-922fbf07a370".
+В этом примере вывод показывает, что лицензия факультета SkuId — "e97c048c-37a4-45fb-AB50-922fbf07a370".
 
 > [!NOTE]
 > Список материалов для образования и номер SKU можно найти в [справочнике по образованию SKU](sku-reference-edu.md).
@@ -112,14 +113,14 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 > [!IMPORTANT]
 > В настоящее время мы рекомендуем назначать политики в пакетах пользователей 5 000 за один раз. В это время вы можете столкнуться с задержкой во время обработки. Чтобы свести к минимуму влияние этих увеличенных времен обработки, мы рекомендуем вам отправлять меньшие размеры пакета до 5 000 пользователей и отправлять каждый пакет только после того, как вы закончите предыдущий. Вы также можете отправлять пакеты за пределы обычных рабочих часов.
 
-Выполните указанные ниже действия, чтобы назначить политику собраний с именем Едукатормитингполици вашим сотрудникам и преподавателям.
+Выполните указанные ниже действия, чтобы назначить политику собраний с именем EducatorMeetingPolicy вашим сотрудникам и преподавателям.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
 ```
 
 > [!NOTE]
-> Чтобы назначить другой тип политики в массовом режиме, например Теамсмессагингполици, необходимо изменить ```PolicyType``` политику, которую вы назначаете, и ```PolicyName``` присвоить ей имя политики.
+> Чтобы назначить другой тип политики в массовом режиме, например TeamsMessagingPolicy, необходимо изменить ```PolicyType``` политику, которую вы назначаете, и ```PolicyName``` присвоить ей имя политики.
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>Получение состояния массового назначения
 
@@ -172,6 +173,6 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Назначение политик пользователям](assign-policies.md)
-- [New-Ксбатчполициассигнментоператион](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-- [Get-Ксбатчполициассигнментоператион](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
-- [Get-Ксусерполициассигнмент](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
+- [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
+- [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
