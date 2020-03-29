@@ -629,6 +629,7 @@
 ### [Начало работы с удаленным обучением](remote-learning-edu.md)
 ### [Назначение политик для крупных наборов пользователей](batch-policy-assignment-edu.md)
 ### [Лицензирование Teams для образовательных учреждений](teams-edu-licensing.md)
+### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
@@ -652,6 +653,7 @@
 # Безопасность и соответствие требованиям
 ## [Обзор](security-compliance-overview.md)
 ## Безопасность
+### [Руководство по безопасности](teams-security-guide.md)
 ### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ## Соответствие требованиям
