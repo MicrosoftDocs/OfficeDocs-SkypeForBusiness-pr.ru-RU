@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935249"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060361"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -34,7 +34,7 @@ ms.locfileid: "42935249"
     |  |  |
     |---------|---------|
     |Порты     |UDP-порты <strong>3478</strong> – <strong>3481</strong>        |
-    |[IP-адреса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong> и <strong>52.112.0.0/14</strong>        |
+    |[IP-адреса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>и <strong>52.120.0.0/14</strong>         |
     
 2.  У вас есть проверенный домен для Office 365 (например, contoso.com)?
     
@@ -67,7 +67,7 @@ ms.locfileid: "42935249"
 
   - Команды работают медленно (возможно, у вас недостаточно пропускной способности)
   - Звонки не удаляются (возможно, из-за того, что брандмауэр или заблокирован прокси-сервер)
-  - Звонки статичны-y и обрезаны, или голосовые сигналы — это роботы, которые могут быть нарушением или потерями пакетов.
+  - У звонков есть статичные и обрезанные звуковые сигналы, например роботы, которые могут быть ненарушением или потерями пакетов.
 
 Подробное обсуждение оптимизации сети, в том числе руководство по определению и устранению нарушения сети, читайте в статье [принципы сетевого подключения к Office 365](https://aka.ms/pnc).
 
