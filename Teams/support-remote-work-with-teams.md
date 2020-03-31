@@ -1,5 +1,5 @@
 ---
-title: Поддержка удаленных работников с помощью Microsoft Teams
+title: Поддержка удаленных сотрудников с помощью Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053602"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062676"
 ---
-# <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных работников с помощью Microsoft Teams
+# <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
 Ваша организация хочет начать работу с Microsoft Teams, чтобы поддержать пользователей, работающих дистанционно или дома? Следуйте инструкциям, приведенным в этой статье, чтобы скорее приступить к работе.
 
@@ -111,6 +111,13 @@ ms.locfileid: "43053602"
    - Блог Microsoft Security (26 марта 2020 г.): [Альтернативные способы для специалистов по безопасности и ИТ-сотрудников по реализации современных элементов управления безопасностью в сегодняшних уникальных сценариях удаленной работы](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Работайте удаленно, оставайтесь в безопасности — инструкции для руководителей информационной безопасности](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [Основные 12 задач для отделов обеспечения безопасности при поддержке работы из дома](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](https://docs.microsoft.com/ru-RU/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - Раздел [Безопасность и Teams](teams-security-guide.md) посвящен всем техническим деталям безопасности Teams в рамках рекомендаций и процедур безопасности корпоративного уровня Microsoft 365.
+
 
     
 3. Прочтите наши новые ресурсы об удаленной работе и поделитесь ими с пользователями:

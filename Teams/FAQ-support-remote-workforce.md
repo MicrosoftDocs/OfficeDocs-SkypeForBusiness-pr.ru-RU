@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053552"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059403"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -37,6 +37,7 @@ ms.locfileid: "43053552"
 > Если вы уже настроили Microsoft 365 и хотите узнать больше о мерах, принимаемых корпорацией Майкрософт, перейдите в Центр сообщений и ознакомьтесь с записью Центра сообщений **MC205458**.
 
 Ознакомьтесь с записью блога от 5 марта 2020 г. от Джареда Спатаро, корпоративного вице-президента по Microsoft 365: [Наши обязательства перед клиентами во время эпидемии COVID-19](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Учитывая все меры, принимаемые Майкрософт, следует ли нам ожидать проблем?
 
