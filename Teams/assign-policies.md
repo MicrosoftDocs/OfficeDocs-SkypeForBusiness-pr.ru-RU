@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о различных способах назначения политик пользователям в Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978531"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068501"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Назначение политик пользователям в Microsoft Teams
 
 > [!NOTE]
-> **Одна из функций Microsoft Teams, описанных в этой статье, [Назначение политики для групп](#assign-a-policy-to-a-group)в настоящее время доступна только в ограниченном предварительном просмотре. Командлеты PowerShell для этой функции находятся в предварительной версии модуля PowerShell для Teams.**
+> **Одна из функций Microsoft Teams, описанных в этой статье, [Назначение политики для групп](#assign-a-policy-to-a-group), в настоящее время доступна только в частном предварительной версии. Командлеты PowerShell для этой функции находятся в предварительной версии модуля PowerShell для Teams.** Чтобы не отвлекаться от состояния выпусков этой функции, ознакомьтесь с [планом Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
 Администраторы используют политики для управления возможностями Teams, доступными для пользователей в вашей организации. Например, вы можете присвоить имя только некоторые политики, политики собраний и политики обмена сообщениями.
 
@@ -40,7 +40,7 @@ ms.locfileid: "42978531"
 
 У пользователя есть одна действующая политика для каждого типа политики. Возможно или даже, что пользователю явно назначена политика, и он также является членом одной или нескольких групп, которым назначена политика того же типа. В сценариях такого типа приоритет имеет политика.  Действующая политика пользователя определяется в соответствии с правилами приоритета, как описано ниже.
 
-Если пользователю назначена политика (отдельно или по назначению), она имеет приоритет. В приведенном ниже примере действующая политика пользователя — это Линколн квадратная политика для собраний, которая непосредственно назначается пользователю.
+Если пользователю назначена политика (отдельно или по назначению), она имеет приоритет. В приведенном ниже примере действующая политика пользователя — это Lincoln квадратная политика для собраний, которая непосредственно назначается пользователю.
 
 ![Схема, показывающая, как имеет приоритет более прямую назначенную политику](media/assign-policies-example-directly-assigned.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "42978531"
 |Рекомендации  |Если...  | Использование...
 |---------|---------|----|
 |[Назначение политики отдельным пользователям](#assign-a-policy-to-individual-users)    | Вы не знакомы с Teams и просто приступите к работе или вам нужно назначить одну или несколько политик небольшим числам пользователей. |Центр администрирования Microsoft Teams или командлеты PowerShell в модуле PowerShell Skype для бизнеса Online
-| [Назначение пакета политики](#assign-a-policy-package)   | Необходимо назначить несколько политик определенным наборам пользователей организации, которые имеют одинаковые или аналогичные роли. Например, вы можете назначить пакету политики образования для преподавателей в учебном заведении, чтобы предоставить им полный доступ к беседам, звонку, собраниям и пакету политики образования (дополнительный учебный учащийся) для дополнительных студентов, которые ограничивают некоторые возможности, такие как частный звонок.  |Центр администрирования Microsoft Teams или командлеты PowerShell из модуля Teams PowerShell|
+| [Назначение пакета политики](#assign-a-policy-package)   | Необходимо назначить несколько политик определенным наборам пользователей организации, которые имеют одинаковые или аналогичные роли. Например, назначьте в учебном заведении пакет политики образования для преподавателей, чтобы предоставить им полный доступ к беседам, звонку, собраниям и пакету политики образования (дополнительный учебный учащийся), чтобы ограничить некоторые возможности, такие как частный звонок.  |Центр администрирования Microsoft Teams или командлеты PowerShell из модуля Teams PowerShell|
 |[Назначение политики пакету пользователей](#assign-a-policy-to-a-batch-of-users)   | Вы должны назначать политики большим наборам пользователей. Например, вы хотите назначить политику для сотен или тысяч пользователей в Организации одновременно.  |Командлеты PowerShell в модуле PowerShell Teams|
 |[Назначение политики группе](#assign-a-policy-to-a-group) (в предварительной версии)   |Необходимо назначить политики, основанные на членстве в группе пользователя. Например, вы хотите назначить политику для всех пользователей в группе безопасности или подразделении.| Командлеты PowerShell в модуле PowerShell Teams|
 | Назначение пакета политики пакету пользователей (ожидается в ближайшее время) |||
@@ -104,7 +104,7 @@ $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession
 ```
 
-В этом примере мы назначаем политику собраний Teams, которая называется политикой собраний учащихся, пользователю с именем Реда.
+В этом примере мы назначаем политику собраний Teams, которая называется политикой собраний учащихся, пользователю с именем Reda.
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
@@ -114,7 +114,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ## <a name="assign-a-policy-package"></a>Назначение пакета политики
 
-Пакет политики в Teams — это набор предопределенных политик и параметров политики, которые можно назначить пользователям, имеющим такие же или аналогичные роли в Организации. Каждый пакет политики разработан вокруг роли пользователя и включает стандартные политики и параметры политики, которые поддерживают действия, характерные для этой роли. Некоторые примеры пакетов политики — это пакет для образования (преподаватель) и Здравоохранение (Клиникал Worker).
+Пакет политики в Teams — это набор предопределенных политик и параметров политики, которые можно назначить пользователям, имеющим такие же или аналогичные роли в Организации. Каждый пакет политики разработан вокруг роли пользователя и включает стандартные политики и параметры политики, которые поддерживают действия, характерные для этой роли. Некоторые примеры пакетов политики — это пакет для образования (преподаватель) и Здравоохранение (Clinical Worker).
 
 Когда вы назначаете пакету политики пользователям, будут созданы политики в пакете, и вы сможете настраивать параметры каждой из них в пакете в соответствии с потребностями пользователей.
 
@@ -130,7 +130,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 > В настоящее время мы рекомендуем назначать политики в пакетах пользователей 5 000 за один раз. В это время вы можете столкнуться с задержкой во время обработки. Чтобы свести к минимуму влияние этих увеличенных времен обработки, мы рекомендуем вам отправлять меньшие размеры пакета до 5 000 пользователей и отправлять каждый пакет только после того, как вы закончите предыдущий. Вы также можете отправлять пакеты за пределы обычных рабочих часов.
 
 > [!NOTE]
-> В настоящее время назначение пакетной политики недоступно для всех типов политики Teams. Ознакомьтесь со списком " [New-ксбатчполициассигнментоператион](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) " для списка поддерживаемых типов политики.
+> В настоящее время назначение пакетной политики недоступно для всех типов политики Teams. Ознакомьтесь со списком " [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) " для списка поддерживаемых типов политики.
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к модулю Microsoft Teams PowerShell
 
@@ -177,7 +177,7 @@ $users = Get-AzureADUser
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.UserPrincipalName -OperationName "Example 2 batch"
 ```
 
-Дополнительные сведения можно найти в статье [Создание и ксбатчполициассигнментоператион](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
+Дополнительные сведения можно найти в статье [Создание и CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>Получение статуса задания пакетной обработки
 
@@ -193,11 +193,11 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-Дополнительные сведения можно найти в [статьях Get-ксбатчполициассигнментоператион](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+Дополнительные сведения можно найти в [статьях Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
 ## <a name="assign-a-policy-to-a-group"></a>Назначение политики группе
 
-**Назначение политики для групп в настоящее время доступно только в ограниченном предварительном просмотре. Командлеты для этой функции находятся в предварительной версии модуля PowerShell для Teams.**
+**Назначение политики для групп в настоящее время доступно только в частном предварительной версии. Командлеты для этой функции находятся в предварительной версии модуля PowerShell для Teams.**
 
 Назначение политики для групп позволяет назначить политику группе пользователей, например группе безопасности или подразделению. Назначение политики распространяется на пользователей группы в соответствии с правилами приоритета. Когда участники добавляются в группу или удаляются из нее, их унаследованные назначения политик обновляются соответствующим образом.
 
@@ -206,7 +206,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 После назначения политики она немедленно назначается группе. Однако обратите внимание, что распространение назначения политики для участников группы выполняется в фоновом режиме и может занять некоторое время, в зависимости от размера группы. Это справедливо, если политика не назначена группе, а также при добавлении пользователей в группу или удалении ее из нее.
 
 > [!NOTE]
-> В настоящее время назначение политики для групп недоступно для всех типов политики Teams. Ознакомьтесь со списком " [New-ксграупполициассигнмент](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) " для списка поддерживаемых типов политики.
+> В настоящее время назначение политики для групп недоступно для всех типов политики Teams. Ознакомьтесь со списком " [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) " для списка поддерживаемых типов политики.
 
 ### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>Что необходимо знать о назначении политики группам
 
@@ -276,7 +276,7 @@ Connect-MicrosoftTeams
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
 ```
 
-Дополнительные сведения можно найти в статье [Создание и ксграупполициассигнмент](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
+Дополнительные сведения можно найти в статье [Создание и CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
 
 ### <a name="get-policy-assignments-for-a-group"></a>Получение назначений политики для группы
 
@@ -294,7 +294,7 @@ Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 ```
 
-Дополнительные сведения можно найти в [статьях Get-ксграупполициассигнмент](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment).
+Дополнительные сведения можно найти в [статьях Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment).
 
 ### <a name="remove-a-policy-from-a-group"></a>Удаление политики из группы
 
@@ -323,7 +323,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-0826-40bb-8c94-e5f367076044
 ```
 
-Дополнительные сведения можно найти в разделе [Remove-ксграупполициассигнмент](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment).
+Дополнительные сведения можно найти в разделе [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment).
 
 ### <a name="change-a-policy-assignment-for-a-group"></a>Изменение назначения политики для группы
 
@@ -333,19 +333,19 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 - Изменение политики для определенного типа политики
 - Изменение политики для определенного типа политики и ранжирования
 
-В этом примере мы изменим политику приостановки вызовов групп для группы на политику с именем Суппорткаллпарк и рейтинг назначения 3.
+В этом примере мы изменим политику приостановки вызовов групп для группы на политику с именем SupportCallPark и рейтинг назначения 3.
 
 ```powershell
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
 ```
 
-Дополнительные сведения можно найти в статье [Set-ксграупполициассигнмент](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
+Дополнительные сведения можно найти в статье [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
 
 ### <a name="change-the-effective-policy-for-a-user"></a>Изменение действующей политики для пользователя
 
 Ниже приведен пример изменения действующей политики для пользователя, которому непосредственно назначена политика.
 
-Сначала мы используем ```Get-CsUserPolicyAssignment``` командлет вместе с ```PolicySource``` параметром, чтобы получить подробные сведения о политиках широковещательного показа собраний Teams, связанных с пользователем. Дополнительные сведения можно найти в [статьях Get-ксусерполициассигнмент](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment).
+Сначала мы используем ```Get-CsUserPolicyAssignment``` командлет вместе с ```PolicySource``` параметром, чтобы получить подробные сведения о политиках широковещательного показа собраний Teams, связанных с пользователем. Дополнительные сведения можно найти в [статьях Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment).
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -374,6 +374,6 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
