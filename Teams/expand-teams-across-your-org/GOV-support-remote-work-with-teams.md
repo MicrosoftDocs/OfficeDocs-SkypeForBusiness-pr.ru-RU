@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Воспользуйтесь этим руководством, чтобы помочь удаленным сотрудникам государственной организации эффективно трудиться с помощью Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba76e667b7dc5aeb3ae83b2d2a19d5e4da5d653
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983852"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079391"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Поддержка удаленных государственных служащих с помощью Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "42983852"
 
 Поделитесь этими ресурсами и видео со своими пользователями, чтобы помочь им быстро приступить к работе.
 
-  - Чтобы освоить основы работы с Teams, скачайте **[краткое руководство для правительственных организаций](https:aka.ms/quickstartgov)**.
+  - Чтобы освоить основы работы с Teams, скачайте **[краткое руководство для правительственных организаций](https://aka.ms/quickstartgov)**.
 
   - Чтобы узнать, как работать с собраниями в Teams, просмотрите **[короткие видео по быстрому запуску](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** с руководством по Teams и **[видео собраний](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**.
 
