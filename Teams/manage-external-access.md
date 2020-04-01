@@ -19,17 +19,17 @@ description: Ваши Teams или ИТ-администратор могут н
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 61ce8219125f6dad47ef516aa9f849acb09ec3dd
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
-ms.translationtype: HT
+ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544995"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096864"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Управление внешним доступом в Microsoft Teams
 ======================================================
 
-Внешний доступ - это способ для внешних пользователей Teams со всего домена находить, звонить, общаться и назначать встречи с вами в Teams. Вы также можете использовать внешний доступ для связи с внешними пользователями, которые все еще используют Skype для бизнеса (онлайн и локально) и Skype (в режиме предварительного просмотра).
+Внешний доступ — это способ поиска, звонка, общения и настройки собраний в Teams с помощью группового доступа для пользователей Teams во всем внешнем домене. Вы также можете использовать внешний доступ для общения с внешними пользователями Skype для бизнеса (в Интернете и локально) и через Skype (в предварительной версии).
 
 Если вы хотите, чтобы внешние пользователи имели доступ к командам и каналам, лучше воспользоваться гостевым доступом. Дополнительные сведения о различиях между внешним доступом и гостевым доступом см. В разделе [Сравнение внешнего и гостевого доступа](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
