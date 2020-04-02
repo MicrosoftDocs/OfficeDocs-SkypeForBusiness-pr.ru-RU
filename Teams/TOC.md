@@ -567,8 +567,10 @@
 
 # Корпоративная голосовая связь Microsoft 365
 ## [Что такое корпоративная голосовая связь Microsoft 365?](business-voice/whats-business-voice.md)
+## [Доступность в странах и регионах](business-voice/country-region-availability.md)
 ## Что нужно знать перед приобретением
 ### [Что нужно приобрести, чтобы получить корпоративную голосовую связь](business-voice/what-to-buy.md)
+### [Обратитесь за помощью к торговому посреднику или партнеру](business-voice/reseller-partner-support.md)
 ### [Проверка подключения к Интернету](business-voice/get-ready-internet.md)
 ### [Подготовка пользователей](business-voice/prepare-users.md)
 ## [Запуск мастера начальной настройки](business-voice/use-getting-started-wizard.md)
@@ -603,6 +605,7 @@
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
+## [RealWear для Microsoft Teams](flw-realwear.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
