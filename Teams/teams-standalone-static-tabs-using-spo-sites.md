@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Вы можете использовать существующий сайт или страницу SharePoint Online и создать отдельную статическую вкладку, которая может использоваться в качестве портала интрасети для вашей организации.
 localization_priority: Normal
-ms.openlocfilehash: 772063a7444e9c31d2740ac48635dc0f2e367435
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100367"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106636"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения "портал интрасети" для Рабочей группы на сайте SharePoint Online или на странице
 
@@ -31,8 +31,7 @@ ms.locfileid: "43100367"
 > Убедитесь в том, что для вашего клиента включена параллельная загрузка приложений Teams. В зависимости от того, где находится миграция на портале администрирования Teams, вам может потребоваться включить ее в разделе администратор Teams > или в разделе Параметры администрирования > > службы и надстройки > Microsoft Teams > приложения > внешние приложения в предыдущей версии портала. 
 
 ## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>Создание автономного приложения SharePoint Online с помощью App Studio
-
-Прежде чем начать, выполните указанные ниже действия.
+' ' ' ' Перед тем как приступить к работе:
 1. Вам необходимо знать URL-адрес SharePoint Online с современной связью или сайт группы или страницу.
     - Эти сайты всегда будут содержать */Teams/* или */Sites/* в пути.
 
@@ -66,19 +65,12 @@ ms.locfileid: "43100367"
 10. Заполните **URL-адрес contentURL и веб-сайта**. 
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx? SPFX = true&dest = {{sitePath}}  
-- **websiteUrl**: {{siteUrl}} 
+- **web'iteUrl**: {{siteUrl}} ' ' пример **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
-    Пример **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+11. Перейдите в раздел **домены и Permissi'ns**. Убедитесь, что в разделе Допустимые домены указаны доменные имена SharePoint Online.
+"Пример: contoso.sharepoint.com
 
-11. Перейдите в раздел **домены и разрешения**. Убедитесь, что в разделе Допустимые домены указаны доменные имена SharePoint Online.
-
-    Пример: contoso.sharepoint.com
-
-12. Добавьте следующие свойства **единого входа для** веб-приложения: 
-     
-     Пример: **ИД приложения AAD**: 00000003-0000-0Ff1-ce00-000000000000 **Resource URL**: {{поддомен}}. SharePoint. com
-
-    ![Единый вход в веб-приложение с ИДЕНТИФИКАТОРом и URL-адресом.](media/personal-app.png)
+12. Добавьте следующие свойства **единого входа для** веб-приложения: "пример: ' '" **идентификатор приложения AAD**: 00000003-0000-0ff1-ce00-000000000000 **Resource URL**: {{поддомен}}. SharePoint. com "" " ![веб-приложение единого входа, с идентификатором и URL-адресом.](media/personal-app.png)
 
 13. **Сохраните** эти свойства, а затем перейдите к разделу **Проверка и распространение**. 
 
@@ -96,15 +88,15 @@ ms.locfileid: "43100367"
 Если вы хотите сделать новое приложение доступным в меню слева в более высоком положении, необходимо использовать параметр политики приложения для этого. Этот параметр можно найти в разделе администратор группы > политики приложений > добавить закрепленное приложение. После назначения пользователю политики для тестирования это изменение будет отображаться на 24 часа позже. В этом случае необходимо решить, где должно отображаться приложение, чтобы избежать задержек.
 
 Чтобы просмотреть и протестировать новое приложение на мобильном устройстве, откройте денежный ящик приложения, нажав значок шеврона**^**() над панелью вкладок в нижней части экрана. Найдите свое приложение и перейдите на него на мобильном устройстве.
-
+        
 > [!CAUTION]
 > Поддержка мобильных устройств в настоящее время входит в предварительную версию для разработчиков. Чтобы включить предварительный просмотр для разработчика, перейдите к параметрам > о том, а затем включите режим предварительного просмотра разработчика.
 
 ## <a name="a-sample-manifestjson-file"></a>Пример файла manifest. JSON
 
-Созданный вами JSON-файл будет выглядеть примерно так, как показано на рисунке ниже.
+Созданный вами файл JSO будет выглядеть примерно так, как показано на рисунке ниже.
 
-```JSON
+```JSON'
 { 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
@@ -119,7 +111,7 @@ ms.locfileid: "43100367"
 
     "developer": { 
 
-        "name": "Contoso", 
+        "name": "Contoso", ''
 
         "websiteUrl": "https://www.contoso.com", 
 
@@ -139,13 +131,13 @@ ms.locfileid: "43100367"
 
     "name": { 
 
-        "short": "Contoso Intranet", 
+        "short": "Contoso Intranet", '
 
         "full": "Intranet Portal for Contoso" 
 
-    }, 
-
-    "description": { 
+    },                     
+                        
+    "des    ription": {                 
 
         "short": "Intranet portal for Contoso", 
 
@@ -154,13 +146,13 @@ ms.locfileid: "43100367"
     }, 
 
     "accentColor": "#FFFFFF", 
-
+''
     "staticTabs": [ 
 
         { 
-
-            "entityId": "communicationSiteTab", 
-
+                                       
+                     "       nti        Id":       "com    unicat    onSi    eTab", 
+                                       
             "name": "Contoso Net", 
 
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 

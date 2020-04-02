@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка соединителя Power BI для использования шаблонов запросов CQD
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102350"
+ms.locfileid: "43106696"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка соединителя Power BI для использования шаблонов запросов CQD
 
@@ -121,7 +121,7 @@ ms.locfileid: "43102350"
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Я пытаюсь использовать столбец "Дата" в качестве среза даты. После преобразования типа данных для этого столбца на дату появляется следующее сообщение об ошибке:
 
-  **Не удалось загрузить данные для этого визуального**элемента: OLE DB или ODBC Error: [expression. Error] нам не удалось сложить это выражение с источником данных. Пожалуйста, попробуйте более простое выражение. 
+> **Не удалось загрузить данные для этого визуального**элемента: OLE DB или ODBC Error: [expression. Error] нам не удалось сложить это выражение с источником данных. Пожалуйста, попробуйте более простое выражение. 
 
 Срезы дат не поддерживаются с помощью соединителя Power BI. Чтобы задать диапазон дат, примените к отчету два фильтра, указав значение меньше или больше даты.
 
