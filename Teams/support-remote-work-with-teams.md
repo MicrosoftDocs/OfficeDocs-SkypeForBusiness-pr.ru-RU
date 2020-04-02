@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 89a30efe150aa6dcbe8db61f222f67e371512176
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062676"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096816"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "43062676"
 
 - Используйте **объявление по электронной почте**, чтобы сообщить пользователям, что команды доступны для них.
 
-- Отправьте **Ваш первый день в электронной почте Teams**, чтобы помочь пользователям быстро почувствовать продуктивность.
+- Отправить **Обратный отсчет - ваш первый день в Teams по электронной почте**, чтобы помочь пользователям быстро почувствовать продуктивность.
 
 - Несколько дней спустя отправьте электронное письмо с **советами и рекомендациями**, чтобы помочь пользователям получить максимальную отдачу от команд.
 
@@ -68,9 +68,9 @@ ms.locfileid: "43062676"
 1. Ознакомьтесь с нашими последними записями блога:
    
    - [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
-   - [Помощь малым и средним предприятиями с удаленной работой в Teams](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+   - [Помощь малым и средним предприятиями с удаленной работой в Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [9 основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивает удаленную работу для своих сотрудников](https://www.microsoft.com/ru-RU/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [9 основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивает удаленную работу для своих сотрудников](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams для образовательных учреждений
@@ -114,7 +114,7 @@ ms.locfileid: "43062676"
 
    - [Основные 12 задач для отделов обеспечения безопасности при поддержке работы из дома](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Оптимизация подключения Office 365 для удаленных пользователей с помощью раздельного VPN-туннелирования](https://docs.microsoft.com/ru-RU/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Оптимизация подключения Office 365 для удаленных пользователей с использованием VPN-туннелирования](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - Раздел [Безопасность и Teams](teams-security-guide.md) посвящен всем техническим деталям безопасности Teams в рамках рекомендаций и процедур безопасности корпоративного уровня Microsoft 365.
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Обзор корпоративной голосовой связи Microsoft 365 и способ повышения эффективности общения в малых и средних организациях с ее помощью.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9093fe2fd7050e582132c79a932b4b6fd4925d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824567"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096874"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
@@ -42,8 +42,9 @@ ms.locfileid: "41824567"
 * Microsoft 365 E3
 * Microsoft 365 бизнес
 
+Business Voice доступен в более чем 70 странах и регионах. Возможность самостоятельной настройки Business Voice, передачи телефонных номеров в Microsoft 365 и управления своими телефонными номерами в Microsoft 365 зависит от страны или региона, в котором находится ваш клиент Microsoft 365. Для получения дополнительной информации проверьте [доступность страны и региона для Business Voice](country-region-availability.md).
+
 > [!IMPORTANT]
-> В настоящее время корпоративная голосовая связь доступна в Канаде и Соединенном Королевстве. Другие страны и регионы станут доступны в 2020 г.
 >
 > Microsoft Teams и корпоративная голосовая связь работает, только если почтовые ящики пользователей находятся в Microsoft 365.  Почтовые ящики, размещенные на локальном сервере Exchange Server, не поддерживаются.
 

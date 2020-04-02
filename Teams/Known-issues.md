@@ -17,12 +17,12 @@ f1.keywords:
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951514"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096624"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -275,7 +275,7 @@ ms.locfileid: "42951514"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|У учетной записи ресурса неправильно настроен параметр Department <br/> | В локальных учетных записях ресурсов, связанных с автосекретарем или очередью вызовов, созданных до января 2019 г., может быть неправильно задан параметр Department, что создает вероятность сбоя при присвоении номера телефона. Выполняется исправление для решения этой проблемы. <br/><br/> В учетных записях ресурсов, настроенных с использованием параметра New-CsHybridApplicationEndpoint в Skype для бизнеса Server, может быть неправильно задан параметр Department, что приводит к сбою при создании учетной записи ресурса в Центре администрирования Teams. В этом случае требуется настроить название отдела в локальной версии Active Directory перед синхронизацией с онлайн-службой.|Для устранения этой проблемы вы можете запустить следующий командлет, чтобы настроить параметр department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> Также см. [Обновление автосекретаря и очередей звонков](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |08.05.19 <br/> |
+|Ресурс аккаунта неверно настроен отделом <br/> | В учетных записях локальных ресурсов, связанных с автосекретарем или очередью вызовов, созданной до января 2019 года, может быть неправильно задан параметр Department, что может привести к сбою назначения телефонного номера. Выполняется исправление для решения этой проблемы. <br/><br/> Учетные записи ресурсов, настроенные с помощью New-CsHybridApplicationEndpoint с Skype для бизнеса Server, могут не иметь правильно установленного параметра Department, что приведет к сбою создания учетной записи ресурса в центре администрирования команд. В этом случае вам нужно настроить имя отдела в Active Directory локально перед синхронизацией с онлайн.|Чтобы устранить эту проблему, вы можете запустить следующий командлет для установки параметра Department: Set-AdUser -Identity <objectId> -Department «Экземпляр приложения Microsoft Communication» <br/> Также см. [Обновление автосекретаря и очередей звонков](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |08.05.19 <br/> |
 
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
