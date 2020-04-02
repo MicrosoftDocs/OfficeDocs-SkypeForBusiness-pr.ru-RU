@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d897fe85bbc1dc2a77759b126bce5436cc617c04
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068511"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096964"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -45,7 +45,7 @@ ms.locfileid: "43068511"
 
 ### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>Что могут сделать администраторы, если у участников возникают проблемы с присоединением к собраниям посредством набора номера, например, если звонки не проходят?
 
-Во время вспышки COVID-19 мы рекомендуем пользователям присоединяться к собраниям, нажимая кнопку **Присоединиться к собранию Teams**, а не звонить по телефонным номерам PSTN или по телефону **Позвоните мне в**. Это помогает обеспечить качественный звук во время, когда высокая громкость собрания вызывает перегрузку в сети ТСОП.
+Во время вспышки COVID-19 мы рекомендуем пользователям присоединяться к собраниям, нажимая кнопку **Присоединиться к собранию Teams**, а не звонить по номеру конференции ТСОП и не использовать функцию **Позвонить мне на номер**</strong>. В основном это связано с нагрузкой на телефонную инфраструктуру в странах, пострадавших от эпидемии COVID-19. Избегая звонков по ТСОП, вы повысите качество звука. 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Каковы общие рекомендации Майкрософт по оптимизации сети для Microsoft 365? Некоторые мои пользователи в Китае столкнулись с проблемами в работе. Что мне нужно сделать для оптимизации нашей сети?
 
