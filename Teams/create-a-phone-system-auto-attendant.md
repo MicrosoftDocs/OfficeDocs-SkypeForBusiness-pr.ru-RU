@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824816"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102081"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -220,10 +220,15 @@ ms.locfileid: "41824816"
 
 > [!IMPORTANT]
 > Обратите внимание на следующее:
->- Пользователи, которым вы хотите предоставить разрешение на звонок с помощью расширения, должны иметь расширение, заданное как часть номера телефона или мобильного телефона, назначенного в [центре администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  Для ввода расширения в поле "телефонный номер пользователя" требуется формат либо `+<phonenumber>;ext=<extension>` или. `x<extension>`
+>- Пользователи, которым вы хотите предоставить разрешение на звонок, должны иметь расширение, указанное в одном из указанных ниже атрибутов, определенных в службе каталогов Active Directory или Azure Active Directory в [центре администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).
+>    - HomePhone
+>    - Мобильный или MobilePhone
+>    - TelephoneNumber/заданный
+>    - OtherTelephone
+>- Для ввода расширения в поле "телефонный номер пользователя" требуется формат либо `+<phonenumber>;ext=<extension>` или. `x<extension>`
 >- Назначение расширения в центре администрирования Teams в настоящее время не поддерживается. Необходимо либо использовать команду PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) , либо центр администрирования Microsoft 365.
->- Изменение атрибутов AAD заданный и Мобилефоне может занять до 12 часов.
->- Не следует определять расширение для Линеури пользователя. В настоящее время эта функция не поддерживается.
+>- Изменение атрибутов AAD заданный и MobilePhone может занять до 12 часов.
+>- Не следует определять расширение для LineUri пользователя. В настоящее время эта функция не поддерживается.
 >- Автосекретарь можно настроить как для набора номера, так и для набора с помощью расширения, но не для обоих абонентов.
 
 > [!NOTE]
@@ -269,11 +274,11 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![Значок с номером 3, выноска на предыдущем снимке экрана](media/teamscallout3.png) . для полного очистки расписания Выбери команду **Очистить все часы** . Выбор этого параметра и выход из него не рекомендуются, поэтому используйте этот параметр только в том случае, если вы хотите полностью восстановить рабочее время.
 
-![Значок с номером 4, выноска на предыдущем значке снимка](media/teamscallout4.png)![экрана с цифрой 5, выноской на предыдущем снимке экрана](media/teamscallout5.png) , чтобы настроить время **начала или окончания** для дня недели, а затем выбрать новое время **** в появившемся списке.   Этот список позволяет выбрать рабочие часы в 15 минутных интервалах, а также указать часы, которые вы выбираете, зависят от часового пояса, заданного на странице **Общие сведения** .
+![Значок с номером 4, выноска на предыдущем значке снимка](media/teamscallout4.png)![экрана с цифрой 5, выноской на предыдущем снимке экрана](media/teamscallout5.png) , чтобы настроить время **начала или окончания** для дня недели, а затем выбрать новое время **End at** в появившемся списке.   Этот список позволяет выбрать рабочие часы в 15 минутных интервалах, а также указать часы, которые вы выбираете, зависят от часового пояса, заданного на странице **Общие сведения** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Значок числа 6, выноска на предыдущем снимке экрана](media/teamscallout6.png) для настройки перерыва (например, перерыва на обед), выберите команду **Добавить новое время** для этого дня недели, чтобы создать строку таблицы заново, и выберите новое время начала и окончания. Вы можете настроить несколько перерывов в рабочих часах.
+![Значок числа 6, выноска на предыдущем снимке экрана](media/teamscallout6.png) , чтобы настроить перерыв (например, перерыв на обед), выберите команду **Добавить новое время** для этого дня недели, чтобы создать новую строку таблицы, а затем — новое время начала и окончания. Вы можете настроить несколько перерывов в рабочих часах.
 
 Параметры [потока звонков](#call-flow) , доступные после часов, совпадают с параметрами, доступными в часах в рабочее время. Прокрутите страницу "информационное поле", чтобы настроить параметры потока звонка после часов.
 
@@ -334,7 +339,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 На этой странице вы можете указать, какие пользователи в вашей организации будут перечислены в каталоге, и вы сможете звонить по имени, когда человек, который будет звонить в вашу организацию.
 
-![Значок цифры 2, выноска на предыдущем снимке экрана](media/teamscallout2.png) : параметры, описанные в этом разделе, позволяют исключить определенных пользователей или группы пользователей из каталога организации. ****
+![Значок цифры 2, выноска на предыдущем снимке экрана](media/teamscallout2.png) : параметры, описанные в этом разделе, позволяют исключить определенных пользователей или группы пользователей из каталога организации. **Exclude**
 
 Если выбрать вариант **нет**, в поиск в каталоге будут включены все подходящие пользователи.
 
@@ -386,23 +391,23 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 Вы также можете использовать PowerShell для создания и настройки автоматических ассистентов. Ниже приведены командлеты, необходимые для управления автосекретарем.
 
-- [New-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
-- [Get-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [Remove-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [New-Ксаутоаттендантмену](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [New-Ксонлинеаудиофиле](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [New-Ксаутоаттенданткаллфлов](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
+- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-Ксаутоаттендантсуппортедтимезоне](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-КсаутоаттенданткаллхандлингассоЦиатион](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-Ксаутоаттендантсуппортедлангуаже](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [New-Ксаутоаттенданткаллаблинтити](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
+- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
@@ -418,7 +423,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
