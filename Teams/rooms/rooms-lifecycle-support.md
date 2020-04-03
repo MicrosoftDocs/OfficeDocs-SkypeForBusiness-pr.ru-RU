@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В этой статье рассказывается о поддержке жизненного цикла для комнат Microsoft Teams.
-ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102330"
+ms.locfileid: "43117527"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Поддержка версии приложения в комнатах Microsoft Teams
  
@@ -58,10 +58,8 @@ ms.locfileid: "43102330"
 | 1803 |2018-07-10 |Поддерживается                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |Не поддерживается                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Не поддерживается                         |&#x2014; |&#x2014; |
-||||||
 
- 
-&#x2780; Windows 10 не рекомендуется использовать версию 1809 из-за проблем с совместимостью, обнаруженных в приложении Microsoft Teams комнаты. Эта проблема приводит к тому, что приложение Microsoft Teams комнаты не запускается после ночного перезагрузки. Эта проблема была решена в Windows 10 версии 1903.  
+&#x2781; не рекомендуется использовать версию Windows 10 1809 из-за проблем с совместимостью, обнаруженных в приложении Microsoft Teams комнаты. Эта проблема приводит к тому, что приложение Microsoft Teams комнаты не запускается после ночного перезагрузки. Эта проблема была решена в версии 10 1903 для Windows.  
 
 Если вы используете поддерживаемую версию Windows 10, вы всегда будете получать последние обновления приложений для приложения Microsoft Teams комнаты.  
 

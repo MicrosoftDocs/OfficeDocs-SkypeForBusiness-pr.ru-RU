@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eca4b7c7c4708509eb33bc14e4514dc3f858980
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 344bf59d401e43c40c6f643b334c2f34311d6cbe
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837959"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116695"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации
 
@@ -31,8 +31,13 @@ ms.locfileid: "41837959"
 - Входящие и исходящие звонки
 - Одновременный звонок
 - Эскалация мультимедиа
-- Передача консултативе
+- Передача consultative
 
 ## <a name="download-the-script-and-documentation"></a>Скачайте сценарий и документацию
 
 Скачайте [клиентский сценарий тестеров SIP и документацию](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
+
+  > [!NOTE]
+  > Клиентский сценарий тестера SIP поддерживает только adal.ps версии 3.19.8.1. Если используется более поздняя версия adal.ps, будет возвращена ошибка.
+  
+  
