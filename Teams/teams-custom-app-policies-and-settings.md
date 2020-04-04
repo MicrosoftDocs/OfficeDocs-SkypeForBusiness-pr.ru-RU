@@ -1,5 +1,5 @@
 ---
-title: Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
+title: Управление политиками и параметрами настраиваемых приложений
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -22,19 +22,20 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+- seo-marvel-mar2020
+ms.openlocfilehash: 7c3c7958994c50e1ae0e90ed13437601dabc0688
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601426"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140660"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
 > [!NOTE]
-> Для использования App Studio ознакомьтесь [со статьей начало работы на платформе Microsoft Teams с C#/.нет и App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) Последнее действие пока недоступно, поэтому вам потребуется скачать его и установить старый способ [отправки пакета приложения в Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
+> Для использования App Studio ознакомьтесь [со статьей начало работы на платформе Microsoft Teams с C#/.NET и App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) Последнее действие пока недоступно, поэтому вам потребуется скачать его и установить старый способ [отправки пакета приложения в Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  После изменения политики настраиваемых приложений для вступления изменений в силу может потребоваться до 24 часов. Для управления этими политиками вы должны быть администратором глобального администратора или службы Teams.
+Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  После изменения политики настраиваемых приложений для вступления изменений в силу может потребоваться до 24 часов. Вы должны быть глобальным администратором или администратором службы Teams, чтобы управлять этими политиками.
 
 ## <a name="overview-of-custom-apps"></a>Общие сведения о настраиваемых приложениях
 

@@ -1,5 +1,5 @@
 ---
-title: Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
+title: Попробуйте или купите голосовые конференции в Office 365 для Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837619"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139698"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
@@ -35,7 +36,7 @@ ms.locfileid: "41837619"
 
 Для тех, кто планирует проводить планирование или интересны собрания, достаточно настроить голосовую конференцию. Участникам, которые подключаются к собранию, не нужны ни специально назначенные им лицензии, ни другие настройки.
 
-Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Информация о ценах приведена в разделе [Цены на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Шаг 1: приобретение и назначение лицензий на голосовую конференцию
 
@@ -95,10 +96,10 @@ ms.locfileid: "41837619"
 > [!NOTE]
 > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Включение команд в Организации](office-365-set-up.md)
 
-[Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
+[Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing-in-teams.md)
 
 [Установка параметров для онлайн-собраний и конференций](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

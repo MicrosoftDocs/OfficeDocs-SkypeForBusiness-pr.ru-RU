@@ -1,5 +1,5 @@
 ---
-title: Подготовка к обновлению Skype для бизнеса на Microsoft Teams | Планирование внедрения пользователей
+title: Подготовка к обновлению Skype для бизнеса в Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Оценка готовности Организации к принятию изменений и подготовка плана для подготовки пользователей к переходу с Skype для бизнеса на Microsoft Teams
+description: Оцените готовность Организации к принятию изменений и подготовьте план подготовки пользователей к переходу с Skype для бизнеса на Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706789"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136969"
 ---
 # <a name="prepare-your-organization"></a>Подготовка Организации
 

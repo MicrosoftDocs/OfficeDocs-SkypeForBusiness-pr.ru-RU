@@ -22,19 +22,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: f044d9eb386f5ed08b13ad5ae068ecd5a3a02176
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Сведения о наборе бесплатных номеров в Австралии, включая доступность, пропускную или стационарную и мобильную сеть, а также ограничения.
+ms.openlocfilehash: eaa63722c8a853087aad77adb3ad9acf77f2e5be
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708165"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140538"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Бесплатный набор ограничений на звонки в Австралии
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> |0800 XXX XXXX  <br/> |
@@ -45,7 +46,7 @@ ms.locfileid: "41708165"
 |Доступность мобильных сетей  <br/> |Да  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ: Повременная оплата.  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

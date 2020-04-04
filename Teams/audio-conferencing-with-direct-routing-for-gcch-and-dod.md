@@ -1,5 +1,5 @@
 ---
-title: Голосовые конференции с прямой маршрутизацией для ГКЧ и DoD
+title: Голосовые конференции с прямой маршрутизацией, GCCH и DoD
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -18,13 +18,14 @@ appliesto:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В этой статье рассказывается о том, как использовать голосовую конференцию с прямой маршрутизацией в ГКЧ и по требованию.
-ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: В этой статье рассказывается о том, как использовать голосовую конференцию с прямой маршрутизацией в GCCH и по требованию.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047190"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141172"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Аудиоконференции с прямой маршрутизацией для GCC High и DoD
 
@@ -64,7 +65,7 @@ ms.locfileid: "42047190"
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>Определение номеров телефонов служб в клиенте
 
-С помощью командлета PowerShell New-Кшибридтелефоненумбер можно определять номера служебных служб в клиенте, которые можно использовать для маршрутизации звонков к службе голосовой связи через прямую маршрутизацию. 
+С помощью командлета PowerShell New-csHybridTelephoneNumber можно определять номера служебных служб в клиенте, которые можно использовать для маршрутизации звонков к службе голосовой связи через прямую маршрутизацию. 
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
@@ -72,7 +73,7 @@ ms.locfileid: "42047190"
 
 Например:
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
+  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
 #### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>Назначение телефонных номеров служб для моста голосовой конференции в Организации
@@ -83,7 +84,7 @@ ms.locfileid: "42047190"
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
-Вы можете просмотреть идентификатор своего моста звуковых конференций с помощью Get-КсонлинедиалинконференЦингбридже. Например:
+Вы можете просмотреть идентификатор своего моста звуковых конференций с помощью Get-CsOnlineDialInConferencingBridge. Например:
 
   ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge

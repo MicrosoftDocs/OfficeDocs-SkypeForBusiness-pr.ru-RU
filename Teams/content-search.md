@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Узнайте о поиске контента в Microsoft Teams, а также о том, как выполнять поиск по каналам связи в Exchange, отправлять файлы и изменения из SharePoint и вносить изменения в OneNote.
+ms.custom: seo-marvel-mar2020
+description: Сведения об использовании поиска контента в Microsoft Teams для запроса данных Microsoft Teams из Exchange, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825347"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137749"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -42,7 +43,7 @@ ms.locfileid: "41825347"
 
 ## <a name="content-search-of-private-channels"></a>Поиск контента в частных каналах
 
-Записи для сообщений, отправленных в частном канале, доставляются в почтовый ящик всех участников личного канала, а не в почтовом ящике группы. Заголовки записей форматируются для обозначения закрытого канала, с которого они были отправлены.
+Записи для сообщений, отправленных по частному каналу, доставляются в почтовый ящик всех участников частного канала, а не в групповой почтовый ящик. Названия записей форматируются, чтобы указать, с какого частного канала они были отправлены.
 
 Поскольку каждый частный канал имеет собственную коллекцию сайтов SharePoint, отделенную от родительского сайта группы, файлы в частном канале управляются независимо от родительской команды.
 
@@ -69,7 +70,7 @@ ms.locfileid: "41825347"
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
@@ -89,6 +90,6 @@ ms.locfileid: "41825347"
     ```
 3. Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [варианты обнаружения электронных данных в центре безопасности & Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

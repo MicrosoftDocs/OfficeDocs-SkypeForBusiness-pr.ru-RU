@@ -1,5 +1,5 @@
 ---
-title: Телефонные номера для аудиоконференций в Microsoft Teams
+title: Номера телефонов для аудиоконференции
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- seo-marvel-mar2020
 description: Сведения о том, какие страны и регионы имеют номера конференц-связи с телефонным подключением и как они назначаются автоматически.
-ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836879"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137859"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Телефонные номера для аудиоконференций в Microsoft Teams
 
@@ -60,7 +61,7 @@ ms.locfileid: "41836879"
 Список этих стран или регионов, имеющих номера телефонов, автоматически назначаемых для организаций, приведен в разделе [Страны и регионы, для которых доступны аудиоконференции и тарифные планы](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Страну или регион Организации можно найти, войдя в **центр администрирования Microsoft 365** и просматривая в разделе " **профиль организации**". 
+> Страна или регион, в котором находится ваша организация, можно найти, войдя в **центр администрирования Microsoft 365** и просмотрев раздел **Профиль организации**. 
   
 > [!CAUTION]
 > В связи с ограниченной емкостью пула платных номеров телефонов в Венесуэле, Индонезии и ОАЭ организации из этих стран/регионов не получают платный номер аудиоконференций автоматически. Бесплатные номера доступны для этих стран в зависимости от доступных возможностей. 

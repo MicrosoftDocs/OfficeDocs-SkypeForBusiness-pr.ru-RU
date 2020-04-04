@@ -1,5 +1,5 @@
 ---
-title: Обновление локальной версии Skype для бизнеса на Microsoft Teams | Развертывание | Lync
+title: Переход с локальной среды Skype для бизнеса на Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Рекомендации по обновлению до Teams в локальной среде Skype для бизнеса.
+description: Рекомендации по обновлению до Teams в среде Skype для бизнеса или Microsoft Lync Online.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 8f4e5dc3d7ed2aa215997f6f83e09fa71b3ff6df
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706649"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139618"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Переход с локального развертывания Skype для бизнеса на Teams
 
@@ -56,7 +58,7 @@ ms.locfileid: "42706649"
 
 Дополнительные сведения можно найти в следующих случаях:
 
-- [Теамсупградеполици: управление миграцией и сосуществованием](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+- [TeamsUpgradePolicy: управление миграцией и сосуществованием](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 - [Переместить пользователей из локальной сети в Skype для бизнеса Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 

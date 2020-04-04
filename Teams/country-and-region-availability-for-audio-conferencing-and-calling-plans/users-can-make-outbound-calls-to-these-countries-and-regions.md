@@ -1,5 +1,5 @@
 ---
-title: Пользователи могут совершать исходящие звонки в эти страны и регионы
+title: Исходящие звонки в эти страны/регионы
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- seo-marvel-mar2020
 description: В этом разделе содержатся все страны / регионы, в которые пользователи могут осуществлять исходящие звонки, если у них есть План звонков.
-ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982132"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141052"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Пользователи могут совершать исходящие звонки в эти страны и регионы
 

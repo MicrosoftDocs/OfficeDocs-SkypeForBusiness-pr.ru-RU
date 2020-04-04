@@ -1,5 +1,5 @@
 ---
-title: Задание телефонных номеров, включаемых в приглашения, в Microsoft Teams
+title: Указание номеров телефонов, которые можно включать в приглашения
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Пошаговые инструкции по созданию номера телефона по умолчанию для вызывающих абонентов для присоединения к собранию Microsoft Teams. '
-ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583116"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140902"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -50,7 +51,7 @@ ms.locfileid: "42583116"
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Установка или изменение номера телефона для конференц-связи по умолчанию для организатора собрания или пользователя
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели навигации слева выберите пункт **Пользователи**.
 

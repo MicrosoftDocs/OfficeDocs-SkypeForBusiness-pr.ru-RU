@@ -22,17 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: 'Получите инструкции по изменению параметров для моста конференц-связи, который используется для запроса вызывающих абонентов и сбора имен и контактов для собраний организаторов, если они не пользуются приложениями Skype для бизнеса или Microsoft Teams. '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Измените параметры моста голосовой связи, в том числе уведомления о входе и выходе, названия и номера телефонов, звуки и вызывающие подсказки для записи имени.
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825117"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139088"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
 
-При настройке голосовой конференции в Office 365 вы будете получать номера телефонов пользователей, которые называются мостом для голосовой связи. Мост конференц-связи может содержать один или несколько номеров телефонов. Эти номера телефонов используются для звонков на собрание. Номер телефона будет находиться в нижней части приглашения на собрание Skype для бизнеса или Microsoft Teams.
+При настройке голосовой конференции в Office 365 вы будете получать номера телефонов пользователей, которые называются мостом для голосовой связи. Мост конференц-связи может содержать один или несколько телефонных номеров. Эти номера телефонов используются для звонков на собрание. Номер телефона будет находиться в нижней части приглашения на собрание Skype для бизнеса или Microsoft Teams.
   
 Мост конференц-связи отвечает на вызов и предлагает вызывающему абоненту голосовые запросы с помощью автосекретаря на собрание, а затем, в зависимости от ваших параметров, могут воспроизводить уведомления, запрашивать их имя и управлять параметрами контактов. В организаторов собраний задаются контакты, позволяющие им начинать собрание, когда они не используют приложение Skype для бизнеса или Microsoft Teams.
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825117"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Значок, показывающий логотип Microsoft Teams](media/teams-logo-30x30.png) Использование центра администрирования Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок, показывающий логотип Microsoft Teams](media/teams-logo-30x30.png) Использование центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите к**мостам конференций**для **собраний** > . 
 
@@ -67,7 +68,7 @@ ms.locfileid: "41825117"
 6. Нажмите кнопку **Сохранить**. 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Значок, показывающий логотип Skype для бизнеса](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Значок, показывающий логотип Skype для бизнеса](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
 
  **Настройка процесса собрания, когда абоненты присоединяются к собранию**
     
@@ -114,7 +115,7 @@ ms.locfileid: "41825117"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-ксдиалинконференЦингбридже](https://go.microsoft.com/fwlink/?LinkId=617686) .
+- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
     
 - Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
@@ -133,7 +134,7 @@ ms.locfileid: "41825117"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

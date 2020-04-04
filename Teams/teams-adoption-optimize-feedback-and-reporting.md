@@ -1,5 +1,5 @@
 ---
-title: Оптимизация отзывов и отчетности по внедрению Microsoft Teams
+title: Оптимизация отзывов и отчетов для внедрения Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Сведения о получении отзывов пользователей и об использовании отчетов о работоспособности служб в ходе принятия команд.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046042"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140700"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Оптимизация отзывов и отчетности по внедрению Microsoft Teams
 
@@ -42,7 +44,7 @@ ms.locfileid: "42046042"
 
 ## <a name="invest-in-your-champions"></a>Вкладывать в лидерами
 
-По мере подготовки к масштабированию использования Microsoft Teams вы можете наполнить дополнительные лидерами в каждом подразделении или группе, в которую вы разворачиваетесь. Зарегистрируйте этих пользователей енсусиастик в обучающей программе обслуживания и выполняйте стандартизацию того, как и когда они встречаются.
+По мере подготовки к масштабированию использования Microsoft Teams вы можете наполнить дополнительные лидерами в каждом подразделении или группе, в которую вы разворачиваетесь. Зарегистрируйте этих пользователей enthusiastic в обучающей программе обслуживания и выполняйте стандартизацию того, как и когда они встречаются.
  
 Убедитесь в том, что в вашей программе лидерами вы будете получать сведения о ваших сотрудниках и о том, что они должны стать лидерами. Общие требования к программам — это запланированные часы, участие в ежемесячных звонках и участие в внутренних Интернет-сообществах для поддержки перехода на эти новые возможности.  
 

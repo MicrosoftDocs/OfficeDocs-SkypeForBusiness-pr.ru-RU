@@ -1,5 +1,5 @@
 ---
-title: Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
+title: Ограничения исходящих звонков – голосовые конференции & PSTN-звонки
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Администраторы могут определять доступные пользователям типы аудиоконференций и вызовов конечных пользователей по ТСОП.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836889"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137909"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
@@ -46,7 +47,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Ограничение исходящих вызовов аудиоконференций 
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 
@@ -60,11 +61,11 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1.  В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел**Пользователи** **голосовой конференции** > и выберите пользователя из списка доступных пользователей.
+1.    В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел**Пользователи** **голосовой конференции** > и выберите пользователя из списка доступных пользователей.
 
-2.  In the Action pane, click **Edit**.
+2.    In the Action pane, click **Edit**.
 
-3.  В разделе **Ограничение телефонных вызовов во время собраний с этим пользователем** выберите нужный параметр ограничения телефонных вызовов.
+3.    В разделе **Ограничение телефонных вызовов во время собраний с этим пользователем** выберите нужный параметр ограничения телефонных вызовов.
 
     ![Параметры ограничения исходящих вызовов](media/restrictions-to-dial-outs.png)
 
@@ -77,7 +78,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
+Вы можете использовать командлет Get-CSOnlineDialOutPolicy, чтобы просмотреть политики исходящих вызовов и назначить их пользователям с помощью командлета Grant-CSDialOutPolicy. (Обратите внимание, что командлет Grant не содержит слово Online в качестве командлета Get.) 
 
 В следующей таблице представлена общая информация о каждой политике.
 

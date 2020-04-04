@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Узнайте, как использовать центр администрирования Microsoft Teams, чтобы просмотреть список всех телефонных номеров в вашей организации, а также все номера, назначенные пользователям или не назначенные.
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+- seo-marvel-mar2020
+description: Научитесь использовать центр администрирования Microsoft Teams для просмотра списка всех номеров телефонов в вашей организации, а также всех номеров, назначенных пользователям или отмененных.
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236859"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140962"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 
@@ -115,6 +116,6 @@ ms.locfileid: "42236859"
 
 [Метка отказа в звонке в экстренном случае](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Get-Ксонлинетелефоненумбер](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  

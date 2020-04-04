@@ -1,5 +1,5 @@
 ---
-title: Просмотр, изменение и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
+title: Просмотр, изменение и сброс идентификатора конференции пользователя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и какими должны быть его параметры. '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и указать параметры идентификаторов конференц-связи.
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838139"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140942"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
 
@@ -42,7 +43,7 @@ ms.locfileid: "41838139"
 
 ### <a name="to-view-the-conference-id"></a>Просмотр идентификатора конференции
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 
@@ -62,7 +63,7 @@ ms.locfileid: "41838139"
 
 вы можете сбросить идентификатор конференции для пользователя, например, если он забыл его.
   
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 
@@ -98,5 +99,5 @@ Windows PowerShell дает возможность управлять польз
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

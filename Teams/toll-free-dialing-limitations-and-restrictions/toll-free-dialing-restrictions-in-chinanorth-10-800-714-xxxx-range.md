@@ -1,5 +1,5 @@
 ---
-title: Ограничения набора бесплатных номеров на севере Китая (диапазон 10 800 714 XXXX)
+title: Бесплатные ограничения на звонки в Китае – Север
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: a4a3c5638665f41b91fba46501077c4e9dc44fdf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Сведения о наборе бесплатных номеров в Китае, включая доступность, пропускную и стационарную и мобильную сеть, а также ограничения.
+ms.openlocfilehash: fd535751d235914b7f33e5e22afb726f5bfbdcec
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707955"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140468"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Ограничения набора бесплатных номеров на севере Китая (диапазон 10 800 714 XXXX)
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> |10 800 714 XXXX  <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41707955"
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Недоступно для звонков с таксофона.  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

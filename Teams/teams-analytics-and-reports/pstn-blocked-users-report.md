@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Узнайте о том, как использовать отчет о заблокированных пользователях PSTN в центре администрирования Microsoft Teams, чтобы получить обзор пользователей Teams в вашей организации, которым запрещено совершать звонки PSTN.
+description: С помощью отчета "Заблокированные пользователи PSTN" в центре администрирования Microsoft Teams вы можете получить обзор пользователей вашей организации, которым запрещено проводить PSTN-звонки.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ef4dfbab2b32b088c8e2f8b38b55c15a66eb32
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827347"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140690"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Отчет о заблокированных пользователях в Microsoft Teams КТСОП
 

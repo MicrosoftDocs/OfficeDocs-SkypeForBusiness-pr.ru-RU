@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 492d484074687c1aff3cb59716091a4502cbba6a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Сведения о наборе бесплатных номеров в Индии, включая доступность, пропускную или стационарную и мобильную сеть, а также ограничения.
+ms.openlocfilehash: e95d00a0bc601780eca63369e0af76d6a4786016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693594"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140388"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Ограничения набора бесплатных номеров в Индии
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> |000 800 XXX XXXX  <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41693594"
 |Доступность мобильных сетей  <br/> |Часть. Просмотр примечаний.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.  <br/> Недоступно для абонентов следующих сетей: TTSL (предоплата), Etisalat DB Telecom и Jio.  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

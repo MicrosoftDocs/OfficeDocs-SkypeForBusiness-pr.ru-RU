@@ -1,5 +1,5 @@
 ---
-title: Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
+title: Добавление, изменение и удаление мест для точек экстренного реагирования
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Сведения о том, как добавлять, изменять и удалять место для экстренных случаев для Организации в центре администрирования Microsoft Teams. '
-ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Сведения о том, как добавлять, изменять и удалять место для экстренных случаев для Организации в центре администрирования Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695843"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141142"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
@@ -50,7 +51,7 @@ ms.locfileid: "41695843"
 2. В списке щелкните имя расположения, для которого нужно удалить место.
 3. На вкладке **места** выберите место, которое вы хотите удалить, и нажмите кнопку **Удалить**.
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)

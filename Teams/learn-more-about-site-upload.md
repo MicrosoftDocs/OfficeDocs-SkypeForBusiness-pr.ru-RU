@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Сведения о том, как отправить текстовый файл, содержащий список физических расположений и связанных с ними подсетей, которые можно использовать в качестве меток отчетности для аналитики звонков и отчетов панели мониторинга качества звонков.
+description: Сведения о том, как добавлять и обновлять метки отчетов путем отправки текстового файла, содержащего список физических местоположений и связанных с ними подсетей.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836579"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137119"
 ---
 <a name="add-and-update-reporting-labels"></a>Добавление и обновление наклеек для отчетов
 ============================
@@ -51,13 +52,13 @@ ms.locfileid: "41836579"
 
 |Сеть|Сетевое имя|Диапазон сети|Название здания|Тип собственности|Тип здания|Создание типа Office|City|Почтовый индекс|Страну|State|Region|В корпоративной сети|Экспресс – маршрут|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Аренда аренды Contoso&F|Office|RE&F|Представление "горные"|94043|Американские|CA|Американские|1|1|
 
 Дополнительные сведения о форматировании файла данных можно найти в разделе [Формат файла данных клиента и структура файла данных для построения](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка аналитики звонков](set-up-call-analytics.md)

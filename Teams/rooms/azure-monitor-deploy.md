@@ -1,6 +1,5 @@
 ---
 title: Развертывание управления комнатами Microsoft Teams с помощью монитора Azure
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассказывается, как развернуть управление устройствами в Microsoft Teams с помощью монитора Azure.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417544"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137649"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Управление :::no-loc text="Microsoft Teams Rooms"::: развертыванием с помощью:::no-loc text="Azure Monitor":::
 
@@ -121,7 +120,7 @@ ms.locfileid: "42417544"
    2.  Образец запроса:`Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Выберите одну из записей, нажмите кнопку слева и запустите Мастер извлечения полей.
-4. Выделим данные, которые вы хотите извлечь из Рендереддескриптион, и укажите название поля. Имена полей, которые следует использовать, приведены в таблице 1.
+4. Выделим данные, которые вы хотите извлечь из RenderedDescription, и укажите название поля. Имена полей, которые следует использовать, приведены в таблице 1.
 
    ![Определение настраиваемого поля](../media/Deploy-Azure-Monitor-4.png "Определение настраиваемого поля")
 
@@ -138,24 +137,24 @@ ms.locfileid: "42417544"
 
 | **Поле JSON**                   | **:::no-loc text="Log Analytics":::настраиваемое поле** | **Идентификатор события** | **Запрос, используемый для извлечения**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| Описание                      | срсевентдескриптион         | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| ResourceState                    | срсресаурцестате            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| OperationName                    | срсоператионнаме            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| OperationResult                  | срсоператионресулт          | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| OS                               | срсосверсион                | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| Версия ОС                        | срсослонгверсион            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| Alias                            | срсалиас                    | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| DisplayName                      | срсдисплайнаме              | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| AppVersion                       | срсаппверсион               | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| Описание                      | SRSEventDescription         | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| ResourceState                    | SRSResourceState            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| OperationName                    | SRSOperationName            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| OperationResult                  | SRSOperationResult          | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| OS                               | SRSOSVersion                | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| Версия ОС                        | SRSOSLongVersion            | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| Alias                            | SRSAlias                    | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| DisplayName                      | SRSDisplayName              | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
+| AppVersion                       | SRSAppVersion               | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
 | IPv4Address                      | SRSIPv4Address              | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
 | IPv6Address                      | SRSIPv6Address              | **2000**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 2000 |
-| Состояние микрофона конференции     | срсконфмикрофонестатус     | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние динамика Конференции        | срсконфспеакерстатус        | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние динамика по умолчанию           | срсдефаултспеакерстатус     | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние камеры                    | срскамерастатус             | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние отображения на передней стороне комнаты     | срсфордстатус               | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние датчика движения             | срсмотионсенсорстатус       | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
-| Состояние приема HDMI               | сршдмиинжестстатус         | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние микрофона конференции     | SRSConfMicrophoneStatus     | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние динамика Конференции        | SRSConfSpeakerStatus        | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние динамика по умолчанию           | SRSDefaultSpeakerStatus     | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние камеры                    | SRSCameraStatus             | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние отображения на передней стороне комнаты     | SRSFORDStatus               | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние датчика движения             | SRSMotionSensorStatus       | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
+| Состояние приема HDMI               | SRSHDMIIngestStatus         | **3001**     | Событие \| , в котором Source = = "SRS-App" и EventID = = 3001 |
 
 
 ## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>Определение :::no-loc text="Microsoft Teams Rooms"::: представлений в:::no-loc text="Log Analytics":::
@@ -170,10 +169,10 @@ ms.locfileid: "42417544"
 
 Вы можете импортировать :::no-loc text="Microsoft Teams Rooms"::: панель мониторинга и быстро начать наблюдение за устройствами. Чтобы импортировать панель мониторинга, выполните указанные ниже действия.
 
-1.  Скачайте файл панели мониторинга [SkypeRoomSystems_v2. омсвиев](https://go.microsoft.com/fwlink/?linkid=835675) .
+1.  Скачайте файл панели мониторинга [SkypeRoomSystems_v2. omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Войдите на [ :::no-loc text="Microsoft Azure"::: портал](https://portal.azure.com) и перейдите в :::no-loc text="Log Analytics"::: рабочую область и выберите ее.
 3.  Откройте **Конструктор представлений**.
-4.  Нажмите кнопку **Импорт**, а затем выберите файл **SkypeRoomSystems_v2. омсвиев** .
+4.  Нажмите кнопку **Импорт**, а затем выберите файл **SkypeRoomSystems_v2. omsview** .
 5.  Нажмите кнопку **сохранить**.
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Создание панели мониторинга Microsoft Teams в помещениях вручную
@@ -416,7 +415,7 @@ ms.locfileid: "42417544"
 ! [Образец :::no-loc text="Azure Monitor"::: оповещения по электронной почте] (.. /media/Deploy-Azure-Monitor-6.png "образец :::no-loc text="Azure Monitor"::: оповещения по электронной почте")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Настройка всех устройств для:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> После настройки панелей мониторинга и оповещений вы можете настроить и настроить :::no-loc text="Microsoft Monitoring"::: агент на всех :::no-loc text="Microsoft Teams Rooms"::: устройствах, чтобы завершить развертывание мониторинга.
+<a name="configure_all_devices"> </a> После настройки панелей мониторинга и оповещений вы можете настроить и настроить :::no-loc text="Microsoft Monitoring"::: агент на всех :::no-loc text="Microsoft Teams Rooms"::: устройствах, чтобы завершить развертывание мониторинга.
 
 Несмотря на то, что вы можете :::no-loc text="Microsoft Monitoring"::: установить и настроить агент вручную на каждом устройстве, мы настоятельно рекомендуем использовать существующие инструменты и методы развертывания программного обеспечения.
 
@@ -441,11 +440,11 @@ ms.locfileid: "42417544"
     2.  Включите **выполнение сценария включения** и настройте **политику выполнения** , чтобы **Разрешить локальные сценарии**.
 
 6.  Настройте сценарий запуска.
-    1.  Скопируйте приведенный ниже сценарий и сохраните его как Инсталл-ммажент. ps1.
-    2.  Измените параметры Воркспацеид, Воркспацекэй и Сетуппас, чтобы они соответствовали вашей конфигурации.
+    1.  Скопируйте приведенный ниже сценарий и сохраните его как Install-MMAgent. ps1.
+    2.  Измените параметры WorkspaceId, WorkspaceKey и SetupPath, чтобы они соответствовали вашей конфигурации.
     3.  Изменение одного и того же объекта групповой политики и переход к \\ \\ :::no-loc text="Windows"::: параметрам \\ политик конфигурации компьютера (запуск и завершение)
     4.  Дважды щелкните, чтобы выбрать **Запуск**, и выберите пункт **сценарии PowerShell**.
-    5.  Выберите пункт **Показать файлы**, а затем скопируйте файл **Инсталл-ммажент. ps1** в эту папку.
+    5.  Выберите пункт **Показать файлы**, а затем скопируйте файл **Install-MMAgent. ps1** в эту папку.
     6.  Нажмите кнопку **Добавить**, а затем — **Обзор**.
     7.  Выберите только что скопированный сценарий PS1.
 

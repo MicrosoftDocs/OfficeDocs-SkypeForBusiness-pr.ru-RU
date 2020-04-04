@@ -1,5 +1,5 @@
 ---
-title: Контрольный список по освоению для настройки прямой маршрутизации в Microsoft Teams
+title: Контрольный список для настольных систем — Настройка прямой маршрутизации — Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6179eec9d6f08bb40b5bae493cb49f59f8eddd6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 176075b9ea5570b7049ae1647dc63cfebfa84194
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837429"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139940"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Настройка прямой маршрутизации в Microsoft Teams
 
@@ -43,10 +44,10 @@ ms.locfileid: "41837429"
 |рис|Установка Microsoft Teams в качестве предпочтительного абонентского клиента для пользователей|Прежде чем пользователь сможет увидеть вкладку " **звонки** " в Microsoft Teams, необходимо включить **частный вызов** для клиента в Microsoft Teams, а клиент Teams должен быть настроен в качестве **предпочтительного телефонного клиента** для пользователей.||[Включить звонок для Microsoft Teams](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)<br><br>[Установка Microsoft Teams в качестве предпочтительного абонентского клиента для пользователей](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)|
 |14|Разрешить пользователям прямую маршрутизацию|Назначьте политики маршрутизации голосовой связи для пользователей, которые будут звонить и получать вызовы PSTN, используя прямую маршрутизацию через сконфигурированный SBC.||[Включение поддержки прямой маршрутизации для пользователей](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
 |10-15|Подготовка и выполнение приемочного тестирования пользователя|Подготовьте и выполните приемочные тесты пользователей, в том числе сценарии коммутируемого доступа и исходящего вызова.||[Проверка рабочих нагрузок в облаке в Teams](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service#test-cloud-voice-workloads-in-teams)|
-|шестнадцат|Отчет об использовании, работоспособности, индикаторах успеха (КСИС) и качестве его качества|Составление отчета об использовании, работоспособности, КСИС и качестве их качества на этапе предвидения.||[Руководство по работе](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
+|шестнадцат|Отчет об использовании, работоспособности, индикаторах успеха (KSIs) и качестве его качества|Составление отчета об использовании, работоспособности, KSIs и качестве их качества на этапе предвидения.||[Руководство по работе](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)|
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 После того как вы закончите этот контрольный список, вы успешно настроили прямую маршрутизацию с развертыванием Teams.
 
-На следующем этапе следует использовать [Плайбук включения для голоса (плайбук)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) , чтобы помочь пользователям на каждом сайте, а также убедиться, что вы планируете и выполняете важные действия, связанные с конкретными сайтами.
+На следующем этапе следует использовать [PlayBook включения для голоса (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) , чтобы помочь пользователям на каждом сайте, а также убедиться, что вы планируете и выполняете важные действия, связанные с конкретными сайтами.

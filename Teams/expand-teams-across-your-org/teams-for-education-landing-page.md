@@ -1,6 +1,6 @@
 ---
 title: Teams для образовательных учреждений
-description: Используйте эти ресурсы, чтобы максимально эффективно использовать группы в разных организациях.
+description: Использование Teams для образования для создания аудиторов для совместной работы, общения с профессиональными учебными заведениями, а так же общаться с студентами и преподавателями.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,12 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100096"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136859"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 

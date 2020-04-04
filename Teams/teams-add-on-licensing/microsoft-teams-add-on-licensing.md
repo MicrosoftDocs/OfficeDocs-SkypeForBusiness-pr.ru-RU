@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Узнайте о дополнительных лицензиях, какие функции вы получите с каждой лицензией, как купить их для своего продукта и как использовать с ними свой существующий носитель. Вы можете получить информацию о ценах и планах для Office 365, Кредиты на связь и Планы вызовов.
-ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: Узнайте о дополнительных лицензиях, какие функции вы получите с каждой лицензией, как купить их для своего продукта и как использовать с ними свой существующий носитель.
+ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029380"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140822"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 

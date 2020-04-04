@@ -1,5 +1,5 @@
 ---
-title: Качество обслуживания в клиентах Microsoft Teams
+title: Реализация качества обслуживания в клиентах Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863160"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139608"
 ---
 # <a name="set-qos-on-windows-clients"></a>Настройка качества обслуживания в клиентах Windows
 
@@ -30,11 +31,11 @@ ms.locfileid: "41863160"
 
 *Таблица 1. Рекомендуемые начальные диапазоны портов*
 
-|Тип трафика мультимедиа| Диапазон портов источника клиента |Протокол|DSCP Value|Класс DSCP|
+|Тип медиатрафика| Диапазон портов источника клиента  |Протокол|Значение DSCP|Класс DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Голосовая связь| 50000 — 50019|TCP/UDP|46|Беспрепятственная переадресация (EF)|
-|Видеосвязь| 50020 – 50039|TCP/UDP|34|Гарантированная переадресация (AF41)|
-|Демонстрация приложений и экрана| 50040 – 50059|TCP/UDP|18|Гарантированная переадресация (AF21)|
+|Звук| 50,000–50,019|TCP/UDP|46|Беспрепятственная переадресация (EF)|
+|Видео| 50,020–50,039|TCP/UDP|34|Гарантированная переадресация (AF41)|
+|Приложение / Разделение экрана| 50,040–50,059|TCP/UDP|18|Гарантированная пересылка (AF21)|
 | | | | | |
 
 Везде, где это возможно, настройте параметры качества обслуживания, основанные на политике, в объекте групповой политики. Описанные ниже действия очень похожи на [настройку диапазонов портов и политики качества обслуживания для клиентов в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), у которых есть некоторые дополнительные сведения, которые могут быть необязательными.

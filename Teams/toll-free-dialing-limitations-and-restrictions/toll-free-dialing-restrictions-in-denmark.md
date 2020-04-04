@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 7e0ff3df5e4268ac0f0d069075214a066371836e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Узнайте о том, как звонить на междугородную и бесплатные номера в Южной заводах, включая доступность, пропускную или стационарную и мобильную сеть, а также ограничения.
+ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707981"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140448"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Ограничения набора бесплатных номеров в Дании
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41707981"
 |Доступность мобильных сетей  <br/> | Да. Доступно по премиальному тарифу. <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

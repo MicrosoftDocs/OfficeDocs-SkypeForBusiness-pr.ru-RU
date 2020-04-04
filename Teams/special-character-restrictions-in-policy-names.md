@@ -1,5 +1,5 @@
 ---
-title: Каковы ограничения для специальных знаков в политиках Teams?
+title: Ограничения для специальных знаков в политиках Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
+- seo-marvel-mar2020
 description: Посмотрите, какие проблемы имеют специальные символы в именах политик и что можно сделать для их исправления.
-ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c6e41e19467f01252049c7fdc54745bcee3109d9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837929"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140842"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
@@ -64,7 +65,7 @@ ms.locfileid: "41837929"
 
 Вы можете создать новую политику с тем же параметром, используя центр администрирования Microsoft Teams или PowerShell.
 
-При выполнении этой команды будет создана новая политика, но вам потребуется добавить правильные параметры, просмотрев параметр [Set-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , а затем запустить его:
+При выполнении этой команды будет создана новая политика, но вам потребуется добавить правильные параметры, просмотрев параметр [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , а затем запустить его:
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -73,7 +74,7 @@ ms.locfileid: "41837929"
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Дополнительные сведения об этом командлете: [Grant-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
+Дополнительные сведения об этом командлете: [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
 
 **Шаг 5 — Удаление старой политики.**
 
@@ -81,7 +82,7 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Для получения дополнительных сведений о данном командлете, щелкните ссылку [Remove-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
+Для получения дополнительных сведений о данном командлете, щелкните ссылку [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
 Если эта команда выполнена успешно, все готово. Если команда выше возвращает сообщение об ошибке, это связано с тем, что старая политика назначается пользователям, поэтому для удаления всех назначенных пользователей из политики необходимо выполнить указанные ниже действия.
 

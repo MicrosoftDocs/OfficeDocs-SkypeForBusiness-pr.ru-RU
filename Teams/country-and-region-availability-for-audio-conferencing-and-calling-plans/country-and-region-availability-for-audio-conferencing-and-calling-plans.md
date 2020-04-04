@@ -1,5 +1,5 @@
 ---
-title: Доступность аудиоконференций и планов звонков в различных странах и регионах
+title: Сведения о доступности страны/региона – голосовые конференции, планы звонков
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: В этой статье рассказывается, как использовать голосовую конференцию, телефонную систему, тарифные планы, кредиты на связь и бесплатные телефонные номера в стране или регионе.
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682526"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141062"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Доступность аудиоконференций и планов звонков в различных странах и регионах
 

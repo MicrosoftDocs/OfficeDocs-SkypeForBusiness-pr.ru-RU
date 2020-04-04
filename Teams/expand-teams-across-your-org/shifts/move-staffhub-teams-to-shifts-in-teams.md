@@ -1,5 +1,5 @@
 ---
-title: Перемещение групп StaffHub в приложение "Смены" в Microsoft Teams
+title: Перемещение StaffHubных групп в смену
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887878"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139598"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -78,7 +79,7 @@ ms.locfileid: "41887878"
 - Вход пользователя в систему является глобальным администратором.
 - Teams включена для всех пользователей в клиенте.
 - Создание групп Office 365 включена в клиенте.
-- StaffHub Теамид является допустимым.
+- StaffHub teamId является допустимым.
 - У группы StaffHub есть по крайней мере один владелец группы.
 - Группа StaffHub включает в себя участников.
 - Все участники группы StaffHub связаны с учетной записью Azure AD.
@@ -108,7 +109,7 @@ ms.locfileid: "41887878"
 - Владелец команды добавил пользователя, у которого нет учетной записи Azure AD.
 - Владелец команды пригласил пользователя в группу StaffHub, и этот пользователь не пригласится на приглашение.
 
-Эти пользователи имеют неактивные учетные записи и показывают состояние пользователя "неизвестно", "приглашены" или "Инвитережектед". Вы можете связать учетную запись Azure AD для этих пользователей.  Ниже описано, как это сделать.
+Эти пользователи имеют неактивные учетные записи и показывают состояние пользователя "неизвестно", "приглашены" или "InviteRejected". Вы можете связать учетную запись Azure AD для этих пользователей.  Ниже описано, как это сделать.
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>Получение списка всех неактивных учетных записей в StaffHub Teams
 
@@ -146,16 +147,16 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
   StaffHub владельцы и руководители групп могут преобразовать неактивную учетную запись и связать ее с учетной записью Azure AD в StaffHub, изменив адрес электронной почты пользователя на действительный UPN на странице StaffHub параметры группы.
 
 - Удалите несвязанную учетную запись, а затем снова добавьте ее с помощью UPN.
-    1. Запустите командлет [Remove-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) , чтобы удалить неподготовленную учетную запись из группы StaffHub.
-    2. Запустите командлет [Add-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) , чтобы добавить учетную запись обратно в группу StaffHub с помощью UPN.
+    1. Запустите командлет [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) , чтобы удалить неподготовленную учетную запись из группы StaffHub.
+    2. Запустите командлет [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) , чтобы добавить учетную запись обратно в группу StaffHub с помощью UPN.
 
 - Удалите неактивную учетную запись. Используйте этот параметр, если учетная запись пользователя больше не нужна.
 
-### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Назначение пользователям политики настройки приложения Фирстлиневоркер
+### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Назначение пользователям политики настройки приложения FirstlineWorker
 
-Teams включает встроенную политику настройки приложений Фирстлиневоркер, которую можно использовать для настройки групп, чтобы выделиться наиболее важными приложениями для Firstline сотрудников вашей организации. Когда вы назначаете эту политику пользователям, приложения в этой политике будут закреплены на панели приложения в Teams для быстрого и удобного доступа. Другие приложения, добавленные в Teams, можно найти на панели приложения, нажав **... Другие приложения** в классической и веб-клиентах Teams и прокрутка вверх в клиенте Teams Mobile. По умолчанию политика настройки приложения Фирстлиневоркер включает в себя действия, смены, чат и звонки приложений.
+Teams включает встроенную политику настройки приложений FirstlineWorker, которую можно использовать для настройки групп, чтобы выделиться наиболее важными приложениями для Firstline сотрудников вашей организации. Когда вы назначаете эту политику пользователям, приложения в этой политике будут закреплены на панели приложения в Teams для быстрого и удобного доступа. Другие приложения, добавленные в Teams, можно найти на панели приложения, нажав **... Другие приложения** в классической и веб-клиентах Teams и прокрутка вверх в клиенте Teams Mobile. По умолчанию политика настройки приложения FirstlineWorker включает в себя действия, смены, чат и звонки приложений.
 
-Инструкции по назначению пользователям политики настройки приложения Фирстлиневоркер приведены в статье [Использование политики настройки приложения фирстлиневоркер для закрепления смен в Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). После назначения политики для вступления в силу может потребоваться до 24 часов.
+Инструкции по назначению пользователям политики настройки приложения FirstlineWorker приведены в статье [Использование политики настройки приложения FirstlineWorker для закрепления смен в Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). После назначения политики для вступления в силу может потребоваться до 24 часов.
 
 Мы рекомендуем выполнить этот шаг не менее чем за неделю, прежде чем вы сможете переместить StaffHub Teams и пользователей в Teams. Когда пользователи находятся в Teams, убедитесь, что они могут просматривать и получать доступ к приложению смены.
 
@@ -182,7 +183,7 @@ Teams включает встроенную политику настройки 
 
 ### <a name="identify-team-champions"></a>Определение группы лидерами
 
-Определите лидерами между пилотными группами и закрепите их, чтобы упростить еванжелизе смены. Лидерами Teams – это то, что они делают, и делитесь своими опытом для предоставления поддержки и руководств для участников группы. Командные лидерами могут быть владельцами группы или руководителями.
+Определите лидерами между пилотными группами и закрепите их, чтобы упростить evangelize смены. Лидерами Teams – это то, что они делают, и делитесь своими опытом для предоставления поддержки и руководств для участников группы. Командные лидерами могут быть владельцами группы или руководителями.
 
 Команда лидерами должна обеспечивать настройку для участников группы, выделять время для [получения клиентов](../../get-clients.md)Teams, входить в Teams и проверять расписания в сменах и начинать общение друг с другом. Пользователи, уже знакомые с StaffHub, будут быстро выполняться в сменах. Вы также можете навести на них указатель мыши [, чтобы получить дополнительную помощь.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
@@ -240,13 +241,13 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a
 
 Скачайте и установите [командную консоль SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588), если вы еще этого не сделали. Она включает командлеты, необходимые для перемещения файлов.  
 
-С помощью командлета [Connect-пнпонлине](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) подключитесь к сайту группы SharePoint Online.
+С помощью командлета [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) подключитесь к сайту группы SharePoint Online.
 
 ```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
-Для каждого файла, который вы хотите переместить из StaffHub в Teams, используйте командлет [Move-пнпфиле](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) , чтобы переместить файл.
+Для каждого файла, который вы хотите переместить из StaffHub в Teams, используйте командлет [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) , чтобы переместить файл.
 
 ```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
@@ -271,7 +272,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 Затем выполните указанные ниже действия, чтобы переместить все команды.
@@ -331,7 +332,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 С помощью отчетов об использовании вы сможете лучше разобраться в использовании шаблонов использования и получить информацию о том, где следует определять приоритетные обучающие и коммуникационные возможности в Организации. Вы можете запускать отчеты, которые показывают общее использование Teams, типы действий, выполняемых пользователями в Teams, способы подключения пользователей к Teams и многое другое. Дополнительные сведения можно найти в разделе Отчеты [Teams в центре администрирования Microsoft Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) и в [отчетах об активности в Teams в центре администрирования Microsoft 365](../../teams-activity-reports.md).
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 **Получение дополнительных сведений об ошибках сбоя**
 
@@ -363,7 +364,7 @@ $res.Result.Error.Innererror
 
 **При попытке переместить файлы из StaffHub в Teams появляется сообщение об ошибке "отказано в доступе".**
 
-Это может происходить, если вы пытаетесь переместить файлы в закрытой группе Office 365, которую вы не являетесь участником. Если это так, добавьте себя в группу StaffHub с помощью командлета [аддстаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) , а затем переместите файлы. После перемещения файлов используйте командлет [Remove-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) , чтобы удалить себя из команды. 
+Это может происходить, если вы пытаетесь переместить файлы в закрытой группе Office 365, которую вы не являетесь участником. Если это так, добавьте себя в группу StaffHub с помощью командлета [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) , а затем переместите файлы. После перемещения файлов используйте командлет [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) , чтобы удалить себя из команды. 
 
 **При попытке переместить файлы из StaffHub в Teams появляется сообщение об ошибке, в котором говорится, что общая папка не существует.**
 
@@ -373,7 +374,7 @@ $res.Result.Error.Innererror
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 - [Как выполнить развертывание Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Управление приложением "Смены" для вашей организации в Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)

@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: ИТ-администраторы могут добавлять гостей на уровне клиента, задавать политики и разрешения для гостевых пользователей и управлять ими, определять, какие пользователи могут приглашать гостей, а также составлять отчеты о деятельности гостевых пользователей.
+description: Узнайте, как создавать свои первые команды и каналы, встроенные в них ранние переходы, отслеживать использование и отзывы и получать ресурсы для планирования выработок в масштабах всей Организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834779"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139248"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Управление гостевым доступом в Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Чтобы изменения вступили в силу, возможно, потребуется подождать до 24 часов. 
+> Чтобы изменения вступили в силу, может потребоваться до 24 часов. 
 
 **Гость** — это тип пользователя в Microsoft Teams, который входит в состав подписки на Office 365 Business Premium, Office 365 корпоративный, Office 365 Business и 365 Office 365 для образования. Дополнительная лицензия Office 365 не требуется. Ознакомьтесь с дополнительными сведениями о [лицензировании гостевой доступа](#guest-access-licensing-limits) ниже.
 

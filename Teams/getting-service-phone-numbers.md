@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Узнайте о том, как получать новые, переносить и передавать существующие номера телефонов для таких служб, как голосовые конференции (для мостов конференций), автосекретарей и очередей звонков (также называемых номерами служб) для Teams.
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: Узнайте, как получать новые номера телефонов и пакеты, а также переносить существующие номера для голосовой конференции, автосекретарей и очередей звонков (номера услуг) для групп.
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170725"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136719"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
@@ -38,7 +39,7 @@ ms.locfileid: "42170725"
   
 - **Используйте центр администрирования Microsoft Teams.** В некоторых странах и регионах номера служб можно получить с помощью центра администрирования Microsoft Teams. Ознакомьтесь со [статьей получение новых номеров служб](#get-new-service-numbers).
 
-- **Портируйте номера, которые у вас уже есть.** Вы можете перенести или переместить существующие номера с вашего текущего поставщика услуг или оператора телефонной связи. Дополнительные сведения о том, как это сделать, можно найти в разделе [Перенос номеров телефонов для групп](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) или [Управление телефонными номерами в Организации](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+- **Портируйте номера, которые у вас уже есть.** Вы можете перенести или переместить существующие номера с вашего текущего поставщика услуг или оператора телефонной связи. См. [Перевод телефонных номеров в Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) или [Управление телефонными номерами вашей организации](/microsoftteams/manage-phone-numbers-for-your-organization) для получения дополнительной информации, чтобы помочь вам сделать это.  
   
 - **Используйте форму запроса для новых номеров.** Иногда (в зависимости от страны или региона) вы не сможете получить новые телефонные номера с помощью центра администрирования Microsoft Teams, или вам понадобятся конкретные номера телефонов или коды города. Если да, вам нужно будет загрузить форму и отправить ее нам. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization).
   
@@ -47,7 +48,7 @@ ms.locfileid: "42170725"
   
 ## <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели навигации слева **перейдите к** > **номерам абонентов**и нажмите кнопку **Добавить**.
 2. Введите имя заказа и, если хотите, добавьте описание.
@@ -71,7 +72,7 @@ ms.locfileid: "42170725"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Просмотр номеров телефонов для Организации
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams** 
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams** 
 
 На панели навигации слева перейдите к > **номерам абонентов** **, чтобы просмотреть**номера для вашей организации, в том числе сведения о местоположении, тип номера и информацию о состоянии.
 
@@ -89,4 +90,4 @@ ms.locfileid: "42170725"
 
 [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Доступность аудиоконференций и планов звонков в различных странах и регионах](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

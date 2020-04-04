@@ -1,5 +1,5 @@
 ---
-title: Расширение существующих групп Office 365 с помощью Microsoft Teams
+title: Расширение существующих групп Office 365
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832919"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136869"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Расширение существующих групп Office 365 с помощью Microsoft Teams
 =======================================================
@@ -44,7 +45,7 @@ ms.locfileid: "41832919"
 
 Для групп Office 365 имеется два вида параметров конфиденциальности — **общедоступные и частные**. В то время как оба типа групп могут быть включены для Teams, существует небольшая разница в том, что они поступают на самообслуживание.
 
--   Пользователи могут искать общедоступные группы и самостоятельно присоединяться к ним без утверждения владельца команды.
+-   Пользователи могут выполнять поиск общедоступных групп и могут присоединиться к ней, не требуя утверждения владельца группы.
 
 -   Закрытые группы недоступны для поиска, и пользователи не могут присоединиться к ним, пока владелец команды не добавит их в качестве участника.
 

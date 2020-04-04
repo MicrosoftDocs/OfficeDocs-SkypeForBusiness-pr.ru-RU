@@ -1,5 +1,5 @@
 ---
-title: Планирование перемещения StaffHub Teams на смену в Microsoft Teams
+title: Планирование перемещения StaffHubных групп в смену
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008151"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139588"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Планирование перемещения StaffHub Teams на смену в Microsoft Teams
 
@@ -47,8 +48,8 @@ ms.locfileid: "42008151"
 |No8     |Определите пользователей StaffHub, у которых нет учетной записи Azure AD (она отображается в StaffHub) и свяжите ее с учетной записью.     |[Связывание учетной записи Azure AD с участниками группы StaffHub, у которых нет одной](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |@    |Создание обучающего содержимого для пользователей, адаптированных для Организации         |[Подготовка плана готовности пользователя для Teams](../../upgrade-user-readiness.md)     |
 |5-10    |Взаимодействие с пользователями StaffHub о переходе на смену в Teams         |[Пример взаимодействия пользователей с электронной почтой в StaffHub в Teams](staffhub-to-teams-email-template.md)         |
-|11     |Установка клиентов Teams         |[Работа с клиентами для Teams](../../get-clients.md) |
-|12    |Назначение пользователям политики настройки приложения Фирстлиневоркер (или создание и назначение настраиваемой политики настройки приложения) для закрепления приложения "Смена" для клиентов Teams  |[Назначение пользователям политики настройки приложения Фирстлиневоркер](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
+|11     |Установка клиентов Teams         |[Получите клиенты для Teams](../../get-clients.md) |
+|12    |Назначение пользователям политики настройки приложения FirstLineWorker (или создание и назначение настраиваемой политики настройки приложения) для закрепления приложения "Смена" для клиентов Teams  |[Назначение пользователям политики настройки приложения FirstlineWorker](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |рис     |Обучение пользователей по использованию смен и команд         |[Встроенные пользователи в Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Справочная документация по сменам](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Справочная документация для Teams](https://support.office.com/teams)<br><br>[Обучающие видео для Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |Ознакомьтесь со списком StaffHub Teams, чтобы убедиться в том, что все пользователи в этих группах должны переноситься в Teams. Удаление пользователей, которые не должны быть в расписании. |         |
 

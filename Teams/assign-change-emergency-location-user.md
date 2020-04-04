@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Сведения о назначении и изменении расположения для экстренного реагирования для пользователей в Организации.
-ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695714"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137109"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Назначение или изменение расположения для экстренного реагирования для пользователя
 
@@ -41,7 +42,7 @@ ms.locfileid: "41695714"
 
 4. Нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое расположения для экстренного реагирования, места для них и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)

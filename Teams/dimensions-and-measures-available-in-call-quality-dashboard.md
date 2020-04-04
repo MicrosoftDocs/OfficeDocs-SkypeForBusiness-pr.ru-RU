@@ -1,5 +1,5 @@
 ---
-title: Измерения и измерения, доступные в панели мониторинга качества звонков
+title: Измерения и измерения — панель мониторинга качества звонков
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom:
+- Reporting
+- seo-marvel-mar2020
 description: Получение подробных сведений об измерениях и измерениях, используемых на панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online.
-ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059433"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137339"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Измерения и измерения, доступные в панели мониторинга качества звонков
 
@@ -691,7 +693,7 @@ ms.locfileid: "43059433"
 
 Многие значения измерения и измерения также можно использовать в качестве фильтров. Вы можете использовать фильтры в запросе для удаления данных так же, как и при выборе измерения или измерения для добавления или включения данных в запрос.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
 

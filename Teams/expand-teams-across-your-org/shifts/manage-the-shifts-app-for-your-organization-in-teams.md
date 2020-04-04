@@ -1,5 +1,5 @@
 ---
-title: Управление приложением "Смены" для вашей организации в Microsoft Teams
+title: Управление приложением смен для Организации
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161862"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141192"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -62,32 +63,32 @@ ms.locfileid: "42161862"
 
 Чтобы разрешить или заблокировать использование смен определенными пользователями в Организации, убедитесь, что на странице [Управление приложениями](../../manage-apps.md) включены сменные элементы для вашей организации, а затем создайте собственную политику разрешений приложений и назначьте ее этим пользователям. Дополнительные сведения можно найти [в разделе Управление политиками разрешений приложений в Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Закрепление смен в Teams с помощью политики настройки приложения Фирстлиневоркер
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Закрепление смен в Teams с помощью политики настройки приложения FirstlineWorker
 
 Политики настройки приложений позволяют настроить команды для выбора наиболее важных для пользователей в организации приложений. Приложения, заданные в политике, закреплены на панели&mdash;приложения, на которой расположена панель на боковой стороне настольного клиента Teams и в нижней части&mdash;мобильных клиентов Teams, где пользователи могут быстро и легко получать к ним доступ. 
  
-Команды включают встроенную политику настройки приложения Фирстлиневоркер, которую можно назначить Firstline сотрудникам Организации. По умолчанию политика включает в себя действия, смену, чат и звонки приложений. 
+Команды включают встроенную политику настройки приложения FirstlineWorker, которую можно назначить Firstline сотрудникам Организации. По умолчанию политика включает в себя действия, смену, чат и звонки приложений. 
 
-Для просмотра политики фирстлиневоркер на левой панели навигации центра администрирования Microsoft Teams перейдите в раздел**политики настройки приложения** **Teams** > .
+Для просмотра политики FirstlineWorker на левой панели навигации центра администрирования Microsoft Teams перейдите в раздел**политики настройки приложения** **Teams** > .
 
-![Снимок экрана: Политика настройки приложения Фирстлиневоркер](../../media/firstline-worker-app-setup-policy.png "Снимок экрана: Политика настройки приложения Фирстлиневоркер в центре администрирования Microsoft Teams")
+![Снимок экрана: Политика настройки приложения FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Снимок экрана: Политика настройки приложения FirstlineWorker в центре администрирования Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Назначение политики Фирстлиневоркер отдельным пользователям
+#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Назначение политики FirstlineWorker отдельным пользователям
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**и выберите пользователя.
+1. В Центре администрирования Microsoft Teams в области навигации слева перейдите в раздел **Пользователи**, затем щелкните пользователя.
 2. Рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
-3. В разделе **Политика настройки приложения Teams**выберите **фирстлиневоркер**и нажмите кнопку **сохранить**.
+3. В разделе **Политика настройки приложения Teams**выберите **FirstlineWorker**и нажмите кнопку **сохранить**.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Назначение политики настройки приложения Фирстлиневоркер пользователям группы
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Назначение политики настройки приложения FirstlineWorker пользователям группы
 
-Вы можете назначить политику настройки приложения Фирстлиневоркер пользователям группы, например группе безопасности, подключився к модулю Azure Active Directory PowerShell для Graph и в модуль Skype для бизнеса PowerShell. Дополнительные сведения об использовании PowerShell для управления группами можно найти в разделе [Общие сведения о Teams PowerShell](../../teams-powershell-overview.md).
+Вы можете назначить политику настройки приложения FirstlineWorker пользователям группы, например группе безопасности, подключився к модулю Azure Active Directory PowerShell для Graph и в модуль Skype для бизнеса PowerShell. Дополнительные сведения об использовании PowerShell для управления группами можно найти в разделе [Общие сведения о Teams PowerShell](../../teams-powershell-overview.md).
 
-В этом примере мы назначаем политику настройки приложения Фирстлиневоркер всем пользователям группы группы Contoso FIRSTLINE.
+В этом примере мы назначаем политику настройки приложения FirstlineWorker всем пользователям группы группы Contoso FIRSTLINE.
 
 > [!NOTE]
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
-Получить Граупобжектид определенной группы.
+Получить GroupObjectId определенной группы.
 ```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
@@ -95,7 +96,7 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Назначьте политику настройки приложения Фирстлиневоркер всем пользователям группы.
+Назначьте политику настройки приложения FirstlineWorker всем пользователям группы.
 ```PowerShell
 $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 

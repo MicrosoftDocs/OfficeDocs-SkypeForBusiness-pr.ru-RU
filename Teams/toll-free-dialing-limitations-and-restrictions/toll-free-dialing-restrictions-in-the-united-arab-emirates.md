@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 4d8d138a1b7d8ab89bdae366e610b3b623bd9ab1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Узнайте о том, как звонить бесплатно в Объединенные Арабские телефоны, в том числе доступность, проводные, стационарные и мобильные сети, а также ограничения.
+ms.openlocfilehash: 7da543192b6e0fd0e3e4b710fd31ced50695813e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680746"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139748"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Ограничения набора бесплатных номеров в ОАЭ
 
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 X XXXX XXXX <br/> |
@@ -46,7 +47,7 @@ ms.locfileid: "41680746"
 |Доступность мобильных сетей  <br/> |Да  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
