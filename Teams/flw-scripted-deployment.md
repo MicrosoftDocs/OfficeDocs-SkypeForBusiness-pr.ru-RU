@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Руководство по использованию сценариев для развертывания или предоставления Microsoft Teams для работников Firstline.
+description: Руководство по использованию сценариев для развертывания или предоставления Microsoft Teams для Сотрудников без компьютеров.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bb1250fd3cc02599fafa37ab6ac694403e33df9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
+ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106894"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43122923"
 ---
-# <a name="how-to-provisions-teams-at-scale-for-firstline-workers"></a>Как обеспечить Teams в масштабе для работников Firstline
+# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Как обеспечить Teams в масштабе для Сотрудников без компьютеров
 
 Нужно ли вам быстро подключить большое количество пользователей к Microsoft Teams и настроить для них оптимизированный интерфейс? Вы можете быстро предоставить удостоверения, подготовить группы и назначить все соответствующие политики для управления взаимодействием с конечным пользователем, выполнив следующие инструкции.
 
