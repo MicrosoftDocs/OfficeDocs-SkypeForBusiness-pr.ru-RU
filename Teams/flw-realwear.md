@@ -1,5 +1,5 @@
 ---
-title: Информация ITAdmin для клиента Microsoft Teams RealWear (предварительная версия)
+title: Информация ИТ-администратора для клиента Microsoft Teams RealWear (предварительная версия)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: A, ITAdmin - прохождение клиента RealWear для Microsoft Teams.
+description: Инструкции ИТ-администратора клиента Microsoft Teams для RealWear.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,17 +18,17 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95d3ead9c85fc58fdc55cd321e55b0ff9ca76853
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: ee23b25f377770457c597e09d2e570a23e7e90da
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102397"
+ms.locfileid: "43113202"
 ---
-# <a name="realwear-for-microsoft-teams"></a>RealWear для Microsoft Teams
+# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams для RealWear
 
 > [!NOTE]
-> Это функция предварительной версии или предыдущего выпуска.
+> Это функция для предварительного или раннего доступа.
 
 В этой статье рассказывается о клиенте Microsoft Teams для носимых головных устройств RealWear. Работники FirstLine, использующие RealWear HMT-1 и HMT-1Z1, теперь могут сотрудничать с удаленным экспертом, используя видеосвязь в Teams. С помощью голосового интерфейса пользователя Teams для RealWear позволяют работникам на местах оставаться на 100% свободными от рук, сохраняя ситуационную осведомленность в шумной и опасной обстановке. Показывая то, что они видят в режиме реального времени, полевые работники могут ускорить решение проблем и снизить риск дорогостоящих простоев.
 
@@ -55,4 +55,8 @@ ms.locfileid: "43102397"
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Сторонние менеджеры по корпоративной мобильности (EMM)
 
-Руководство по сторонним EMM см. В разделе [Поддерживаемые поставщики управления мобильностью предприятия](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+Руководство по сторонним EMM см. в статье [Поддерживаемые поставщики корпоративных служб управления мобильностью](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## <a name="end-user-content"></a>Содержимое для пользователей
+
+Дополнительные сведения для конечных пользователей см. в статье [Использование Microsoft Teams для RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
