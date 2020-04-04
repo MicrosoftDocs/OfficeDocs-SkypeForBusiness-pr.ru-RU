@@ -604,8 +604,6 @@
 # Руководство для отраслей и государственных организаций
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
-## [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
-## [RealWear для Microsoft Teams](flw-realwear.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -639,6 +637,12 @@
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 ### [Установка интеграции Moodle](install-moodle-integration.md)
 ### [Справочник по SKU для образовательных учреждений](sku-reference-edu.md)
+
+## Teams для сотрудников без компьютеров
+### [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
+### [Развертывание с помощью скрипта для сотрудников без компьютеров](flw-scripted-deployment.md)
+### [RealWear для Microsoft Teams](flw-realwear.md)
+### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
