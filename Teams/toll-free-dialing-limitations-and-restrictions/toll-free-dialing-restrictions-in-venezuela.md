@@ -22,35 +22,36 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: b6356771fd6b4ad2b9f2094e472f658af10c67d3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Сведения о наборе бесплатных номеров в Венесуэла, включая доступность, пропускную или стационарную и мобильную сеть, а также ограничения.
+ms.openlocfilehash: 69e56259faf5fce75d5b7e25b98d912d8e5b585f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693664"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139718"
 ---
-# <a name="toll-free-dialing-restrictions-in-venezuela"></a><span data-ttu-id="b6624-105">Ограничения набора бесплатных номеров в Венесуэле</span><span class="sxs-lookup"><span data-stu-id="b6624-105">Toll-free dialing restrictions in Venezuela</span></span>
+# <a name="toll-free-dialing-restrictions-in-venezuela"></a><span data-ttu-id="d682c-103">Ограничения набора бесплатных номеров в Венесуэле</span><span class="sxs-lookup"><span data-stu-id="d682c-103">Toll-free dialing restrictions in Venezuela</span></span>
 
-<span data-ttu-id="b6624-106">[Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.</span><span class="sxs-lookup"><span data-stu-id="b6624-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="d682c-104">[Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.</span><span class="sxs-lookup"><span data-stu-id="d682c-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="b6624-107">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b6624-107">**Details**</span></span>|<span data-ttu-id="b6624-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b6624-108">**Description**</span></span>|
+|<span data-ttu-id="d682c-105">**Details**</span><span class="sxs-lookup"><span data-stu-id="d682c-105">**Details**</span></span>|<span data-ttu-id="d682c-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d682c-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b6624-109">Доступен ли бесплатный звонок?</span><span class="sxs-lookup"><span data-stu-id="b6624-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="b6624-110">Да</span><span class="sxs-lookup"><span data-stu-id="b6624-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b6624-111">Формат набора</span><span class="sxs-lookup"><span data-stu-id="b6624-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="b6624-112">0 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="b6624-112">0 800 XXX XXXX</span></span> <br/> |
-|<span data-ttu-id="b6624-113">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="b6624-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="b6624-114">VE</span><span class="sxs-lookup"><span data-stu-id="b6624-114">VE</span></span>  <br/> |
-|<span data-ttu-id="b6624-115">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="b6624-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="b6624-116">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="b6624-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b6624-117">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="b6624-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="b6624-118">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="b6624-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b6624-119">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="b6624-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="b6624-120">Да</span><span class="sxs-lookup"><span data-stu-id="b6624-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="b6624-121">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="b6624-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="b6624-122">Да</span><span class="sxs-lookup"><span data-stu-id="b6624-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="b6624-123">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="b6624-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="b6624-124">Нет</span><span class="sxs-lookup"><span data-stu-id="b6624-124">None</span></span>  <br/> |
+|<span data-ttu-id="d682c-107">Доступен ли бесплатный звонок?</span><span class="sxs-lookup"><span data-stu-id="d682c-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d682c-108">Да</span><span class="sxs-lookup"><span data-stu-id="d682c-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="d682c-109">Формат набора</span><span class="sxs-lookup"><span data-stu-id="d682c-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="d682c-110">0 800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="d682c-110">0 800 XXX XXXX</span></span> <br/> |
+|<span data-ttu-id="d682c-111">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="d682c-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d682c-112">VE</span><span class="sxs-lookup"><span data-stu-id="d682c-112">VE</span></span>  <br/> |
+|<span data-ttu-id="d682c-113">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="d682c-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d682c-114">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="d682c-114">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d682c-115">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="d682c-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d682c-116">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="d682c-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d682c-117">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="d682c-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d682c-118">Да</span><span class="sxs-lookup"><span data-stu-id="d682c-118">Yes</span></span>  <br/> |
+|<span data-ttu-id="d682c-119">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="d682c-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d682c-120">Да</span><span class="sxs-lookup"><span data-stu-id="d682c-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="d682c-121">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="d682c-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d682c-122">Нет</span><span class="sxs-lookup"><span data-stu-id="d682c-122">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="b6624-125">См. также</span><span class="sxs-lookup"><span data-stu-id="b6624-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d682c-123">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="d682c-123">Related topics</span></span>
 
-[<span data-ttu-id="b6624-126">Ограничения и запреты для бесплатных номеров</span><span class="sxs-lookup"><span data-stu-id="b6624-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="d682c-124">Ограничения и запреты для бесплатных номеров</span><span class="sxs-lookup"><span data-stu-id="d682c-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="b6624-127">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b6624-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="d682c-125">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d682c-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

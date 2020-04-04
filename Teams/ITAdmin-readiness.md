@@ -1,5 +1,5 @@
 ---
-title: Обучение ИТ-администратора для работы с Microsoft Teams
+title: 'Учебные ресурсы для администраторов: Microsoft Teams'
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937613"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136529"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
 
 Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое. 
@@ -105,7 +106,7 @@ ms.locfileid: "42937613"
 | Динамическая экстренная вызов | [Видео](https://aka.ms/teams-dec) |  [Крытий](https://aka.ms/teams-dec-deck) |
 | События в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Крытий](https://aka.ms/teams-live-events-deck) |
 | Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
-| Прямая маршрутизация | [Видеоролик 1: планирование прямой маршрутизации в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2: Настройка и управление прямой маршрутизацией в Teams](https://aka.ms/teams-dr-config)<br>Видеоролик 3: переход на прямую маршрутизацию в Teams <strong> <font color="#4B53BC">Coming soon!</font> : скоро.</strong>  | [Крытий](https://aka.ms/teams-direct-routing-deck) |
+| Прямая маршрутизация | [Видеоролик 1: планирование прямой маршрутизации в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2: Настройка и управление прямой маршрутизацией в Teams](https://aka.ms/teams-dr-config)<br>[Видеоролик 3: переход на прямую маршрутизацию в Teams](https://aka.ms/teams-dr-migrate)  | [Крытий](https://aka.ms/teams-direct-routing-deck) |
 | Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
