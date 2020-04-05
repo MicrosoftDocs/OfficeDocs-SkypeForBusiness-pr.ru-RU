@@ -12,8 +12,6 @@
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [Способ развертывания Teams](How-to-roll-out-teams.md)
 
@@ -475,9 +473,8 @@
 ### [Оптимизация отзывов и отчетности](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Информированность и внедрение обучения](teams-adoption-drive-awareness.md)
 ### [Планирование проверок работоспособности служб](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Переход на Teams
 
@@ -560,9 +557,6 @@
 
 ## [Интеграция с Exchange и SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Корпоративная голосовая связь Microsoft 365
@@ -595,11 +589,7 @@
 
 ## [Ресурсы для партнеров](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # Руководство для отраслей и государственных организаций
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
@@ -669,6 +659,7 @@
 ### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Обнаружение электронных данных
 #### [Обнаружение электронных данных](ediscovery-investigation.md)
+#### [Расположение данных в Teams](location-of-data-in-teams.md)
 #### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ### Поиск контента
 #### [Использование поиска контента](content-search.md)
@@ -701,8 +692,7 @@
 ## [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # Ссылки
 
 ## [Ограничения и спецификации для Teams](limits-specifications-teams.md)
