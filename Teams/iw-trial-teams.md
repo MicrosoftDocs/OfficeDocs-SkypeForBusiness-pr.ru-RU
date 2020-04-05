@@ -1,5 +1,5 @@
 ---
-title: Пробное предложение Microsoft Teams Commercial Cloud Trial
+title: Пробное предложение Commercial Cloud
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836599"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137159"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -70,7 +71,7 @@ ms.locfileid: "41836599"
 
 Все пробные периоды в организации имеют одинаковую дату начала и окончания, соответствующие дате регистрации первого пользователя в пробном предложении. Например, если пробный период для пользователя А начинается 25 января 2019 г., а для пользователя Б — 3 июня 2019 г., пробные периоды обоих пользователей истекают 25 января 2020 г.
 
-## <a name="manage-the-trial"></a>Управление пробной версией
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>Управление пробной версией
 
 Пробная версия Teams предназначена для активации отдельными пользователями, и вы не можете активировать пробное предложение Teams от имени сотрудников, являющихся конечными пользователями.
 
