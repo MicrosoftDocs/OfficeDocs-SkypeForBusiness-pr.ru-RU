@@ -1,5 +1,5 @@
 ---
-title: Управление параметрами Microsoft Teams в организации
+title: Управление параметрами для организации
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,21 +10,23 @@ ms.reviewer: ritikag
 search.appverid: MET150
 description: Узнайте, как включить или отключить параметры Microsoft Teams для всей организации, включая приложения, внешний доступ, гостевой доступ, параметры Teams и настройки обновления Teams.
 localization_priority: Priority
-ms.custom:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
+- NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035241"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141232"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 

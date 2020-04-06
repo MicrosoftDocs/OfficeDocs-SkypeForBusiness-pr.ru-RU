@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c272ce29a73b66af2eee03a04469a90b1e34bf64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205415"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141042"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Семинары по планированию перехода на Teams</h1>
            <p>Мы ценим вас как клиента Skype для бизнеса и хотим убедиться, что вам доступны все средства для перехода на Teams.  Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса <strong>Планирование перехода</strong> ниже.
+           <p>Чтобы просмотреть эти семинары в удобное для себя время, посетите <a href="https://aka.ms/UpgradeOnDemand"target="_blank">канал планирования перехода на Teams</a> на сайте YouTube.
             <p>Используете Teams впервые? Дополнительные сведения см. <a href="https://docs.microsoft.com/microsoftteams/teams-overview">здесь</a>.
         <ul class="pivots">
             <li>
