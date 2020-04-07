@@ -18,18 +18,17 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c272ce29a73b66af2eee03a04469a90b1e34bf64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 38960039c34c8fae0838b07ebea5b9581b63c297
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141042"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153299"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Семинары по планированию перехода на Teams</h1>
-           <p>Мы ценим вас как клиента Skype для бизнеса и хотим убедиться, что вам доступны все средства для перехода на Teams.  Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса <strong>Планирование перехода</strong> ниже.
-           <p>Чтобы просмотреть эти семинары в удобное для себя время, посетите <a href="https://aka.ms/UpgradeOnDemand"target="_blank">канал планирования перехода на Teams</a> на сайте YouTube.
+           <p>Мы ценим вас как клиента Skype для бизнеса и хотим убедиться, что вам доступны все средства для перехода на Teams.  Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса <strong>Планирование перехода</strong> ниже. Чтобы просмотреть эти семинары в свое время, посетите страницу <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Обновление до Microsoft Teams</a> на YouTube.
             <p>Используете Teams впервые? Дополнительные сведения см. <a href="https://docs.microsoft.com/microsoftteams/teams-overview">здесь</a>.
         <ul class="pivots">
             <li>
