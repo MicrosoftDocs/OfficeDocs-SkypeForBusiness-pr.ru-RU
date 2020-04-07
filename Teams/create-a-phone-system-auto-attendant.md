@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43102081"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43159269"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -393,7 +393,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 - [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
 - [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
 - [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
 - [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)

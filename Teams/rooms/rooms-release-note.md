@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096994"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157773"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -71,6 +71,7 @@ ms.locfileid: "43096994"
 - Экран-заставка приложения
 - Параметр автоматического ответа для повышения эффективности присоединения к собранию на основе близости 
 - Уведомления об использовании программного обеспечения Open Source (OSS) в параметрах устройства
+- Устранение проблем с подключением PSOM, если протоколы TLS 1,0 и TLS 1,1 отключены в Skype для бизнеса Server 2015/2019.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
