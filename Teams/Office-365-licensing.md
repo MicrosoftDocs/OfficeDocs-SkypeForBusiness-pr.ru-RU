@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 012a45c679faef7e547b5017590c7b81c577dde5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834329"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170367"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -44,13 +44,13 @@ ms.locfileid: "41834329"
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 
 > [!NOTE]
-> Продукт Microsoft Teams также доступен для некоммерческих организаций. Группа разработчиков Skype для США (GCC) будет готова к развертыванию 17 июля, и они будут доступны всем подходящим клиентам до конца 2018 августа. Мы работаем над тем, чтобы вы могли перевести Microsoft Teams в другие государственные облака США (GCC High и DoD) в ближайшее время. Ознакомьтесь с дополнительными сведениями в [блоге Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)Teams.
+> Продукт Microsoft Teams также доступен для некоммерческих организаций.
 
 > [!NOTE]
 > Начиная с 2019 августа, все новые клиенты Office 365 будут подключены к Teams и не смогут получить доступ к Skype для бизнеса Online. Клиенты, которые уже используют Skype для бизнеса Online, смогут продолжать это (в том числе подготовка новых пользователей) до тех пор, пока они не переходят в Teams. Дополнительные сведения можно найти в [статье Microsoft Teams, которая теперь является основным клиентом для собраний и звонков в Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 > [!NOTE]
-> Если Skype для бизнеса Online указан в разделе приложения для выбранной лицензии, не удаляйте его. Если он указан и удаляется, Настройка пользователя Teams не будет выполнена успешно. 
+> Если Skype для бизнеса Online указан в разделе приложения для выбранной лицензии, не удаляйте его. Если он указан и удаляется, Настройка пользователя Teams не будет выполнена успешно.
         
 В терминах основных функциональных возможностей Teams не существует различий между подпиской на Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписке, можно найти в [описании службы платформы Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
