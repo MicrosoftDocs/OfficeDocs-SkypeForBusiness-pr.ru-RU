@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117517"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157783"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "43117517"
 
 -  Если у вас уже есть подписка, включающая Teams, **[включите ее для всех](assign-teams-licenses.md)**.
     
-- Узнайте, как приступить к работе с **[собраниями в Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** в вашей организации. 
+- Узнайте, как приступить к работе с **[собраниями и трансляциями в Teams](quick-start-meetings-live-events.md)** в вашей организации. 
 
 Дополнительные сведения см. в статье [Дополнительные ресурсы для поддержки удаленных сотрудников](#additional-resources-for-supporting-remote-workers), приведенной ниже.
 
