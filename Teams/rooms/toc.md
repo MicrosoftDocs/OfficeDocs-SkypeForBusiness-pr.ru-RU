@@ -16,6 +16,7 @@
 ### [В Exchange Online (гибридная среда)](with-exchange-online.md)
 ### [В локальном приложении Exchange (гибридная среда)](with-exchange-on-premises.md)
 ### [Настройка консоли](console.md)
+### [Настройка проверки подлинности](rooms-authentication.md)
 ### [С помощью диспетчера конфигураций конечных точек Майкрософт](rooms-scale.md)
 ### [Управление с помощью Azure Monitor](azure-monitor-deploy.md)
 ### [Перенос SRS версии 1 или LRS](lrs-migration.md)
