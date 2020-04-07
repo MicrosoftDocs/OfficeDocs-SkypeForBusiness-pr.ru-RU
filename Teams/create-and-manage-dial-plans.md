@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Сведения о том, как создавать абонентские группы и управлять ими (абонентские группы для звонков по коммутируемой телефонной связи) и как управлять ими.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826927"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160083"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
@@ -61,11 +61,11 @@ ms.locfileid: "41826927"
 
 ### <a name="add-users-to-a-dial-plan"></a>Добавление пользователей в абонентскую группу
 
-1. В левой области навигации центра администрирования Microsoft Teams выберите > **абонентская** **абонентская**группа.
-2. Выберите абонентскую группу, щелкнув слева от нее в качестве имени абонентского плана.
-3. Выберите **Управление пользователями**.
-4. В области **Управление пользователями** найдите пользователя по отображаемому имени или по имени пользователя, выберите имя и нажмите кнопку **Добавить**. Повторите этот шаг для каждого пользователя, которого вы хотите добавить.
-5. Завершив добавление пользователей, нажмите кнопку **Применить**.
+1. В левой области навигации центра администрирования Microsoft Teams перейдите к разделу **Пользователи**.
+2. Выберите пользователя, щелкнув отображаемое имя.
+3. Перейдите на вкладку **политики** .
+4. Нажмите кнопку **изменить** справа от назначенных политик.
+5. В раскрывающемся меню **абонентская группа** выберите абонентскую группу, которую вы хотите назначить пользователю, и нажмите кнопку **Применить**.
 
 ## <a name="using-powershell"></a>Использование PowerShell
   
@@ -210,7 +210,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Запустите этот элемент, чтобы удалить все назначенные Тенантдиалплан от всех пользователей, у которых есть Хостингпровидер из sipfed.online.lync.com.
+Запустите этот элемент, чтобы удалить все назначенные TenantDialPlan от всех пользователей, у которых есть HostingProvider из sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -240,7 +240,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое абонентские группы?](what-are-dial-plans.md)
 - [Общие вопросы по передаче номеров телефонов](transferring-phone-numbers-common-questions.md)

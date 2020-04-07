@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Удаленное управление параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы и созданием файла основных параметров.
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140992"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160073"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации
 
@@ -44,6 +44,7 @@ ms.locfileid: "43140992"
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,6 +92,7 @@ ms.locfileid: "43140992"
 | \<ConfigureDomain\>  |Строковое &#x2778;  ||Можно указать список доменов, разделенных запятыми. |
 |\<TeamsMeetingsEnabled\> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. <br/> <br/> XML-файл считается неправильно сформированным, если \<оба\> SkypeMeetingsEnabled\<и\> TeamsMeetingsEnabled отключены, но вы можете одновременно включить оба параметра. |
 |\<IsTeamsDefaultClient> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. |
+|\<ModernAuthEnabled> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. <br/> <br/>Если установлено значение true, приложение Microsoft Teams в комнатах использует только современная проверка подлинности для подключения к ресурсам и не будет возвращаться к обычной проверке подлинности.|
 |\<BluetoothAdvertisementEnabled> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность включена. |
 |\<DualScreenMode\>  |Логическое &#x2777;  |Первый &#x2776;  |Если установлено значение true, включен режим двойного экрана. В противном случае устройство использует один режим экрана. |
 | \<DuplicateIngestDefault\> |Логическое &#x2777;  |Первый &#x2776; |Если значение равно true, содержимое отображается на обоих экранах в двух режимах экрана, когда вы выходите из собрания. | 

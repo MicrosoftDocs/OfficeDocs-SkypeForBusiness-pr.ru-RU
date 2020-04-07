@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как включить прямую маршрутизацию для пользователей Microsoft Phone System.
-ms.openlocfilehash: e9120dcbcd4b1a82eb864f545efdbadc42481794
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42158010"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160063"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Предоставление пользователям прямой маршрутизации, голоса и голосовой почты
 
@@ -55,7 +55,7 @@ ms.locfileid: "42158010"
 
 ## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Убедитесь в том, что пользователь размещен в Skype для бизнеса Online 
 
-Для прямой маршрутизации требуется, чтобы пользователь был подключен в Skype для бизнеса Online. Вы можете проверить, просматривая параметр Регистрарпул, который должен иметь значение в домене infra.lync.com.
+Для прямой маршрутизации требуется, чтобы пользователь был подключен в Skype для бизнеса Online. Вы можете проверить, просматривая параметр RegistrarPool, который должен иметь значение в домене infra.lync.com.
 
 1. Подключитесь к удаленной оболочке PowerShell.
 2. Выдайте команду: 
@@ -77,10 +77,10 @@ ms.locfileid: "42158010"
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-    Например, чтобы добавить номер телефона пользователя "Спенцер Low", введите следующее: 
+    Например, чтобы добавить номер телефона пользователя "Spencer Low", введите следующее: 
 
     ```PowerShell
-    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     Номер телефона должен быть настроен как полный E. 164 номер телефона с кодом страны. 
@@ -95,7 +95,7 @@ ms.locfileid: "42158010"
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Назначение режима "только для Teams" для пользователей, которые должны обеспечивать звонки в Microsoft Teams
 
-Для прямой маршрутизации необходимо, чтобы пользователи были в режиме "только Teams", чтобы обеспечить поступление входящих звонков в клиенте Teams. Чтобы перевести пользователей в режиме "только Teams", назначьте им экземпляр "Упградетотеамс" для Теамсупградеполици. Дополнительные сведения можно найти в [статье Руководство по обновлению для ИТ – администраторов](upgrade-to-teams-on-prem-overview.md). Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, ознакомьтесь со статьей сведения о взаимодействии между Skype и Teams, а также о том, как [Переход и взаимодействие осуществляется в Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md).
+Для прямой маршрутизации необходимо, чтобы пользователи были в режиме "только Teams", чтобы обеспечить поступление входящих звонков в клиенте Teams. Чтобы перевести пользователей в режиме "только Teams", назначьте им экземпляр "UpgradeToTeams" для TeamsUpgradePolicy. Дополнительные сведения можно найти в [статье Руководство по обновлению для ИТ – администраторов](upgrade-to-teams-on-prem-overview.md). Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, ознакомьтесь со статьей сведения о взаимодействии между Skype и Teams, а также о том, как [Переход и взаимодействие осуществляется в Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md).
 
 ## <a name="see-also"></a>См. также
 
