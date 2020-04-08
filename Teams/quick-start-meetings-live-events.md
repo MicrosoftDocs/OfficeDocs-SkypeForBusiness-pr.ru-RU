@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158043"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170490"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -55,6 +55,8 @@ ms.locfileid: "43158043"
 
 - В качестве администратора вы настроите [параметры собраний](meeting-settings-in-teams.md) для всех пользователей. Затем вы примените [политики собраний](meeting-policies-in-teams.md) для выбора функций, доступных (и недоступных) пользователям. 
 
+- Дополнительные сведения об управлении записью собраний приведены в статье [Запись облачного собрания в Teams](cloud-recording.md).
+
 - Если ваши пользователи впервые применяют собрание Teams, поделитесь с ними учебным курсом [Управление собраниями](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4). Ознакомьтесь с нашим онлайн-занятием под руководством инструктора [Проведение эффективных собраний в Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
 
 - Сведения об управлении параметрами собраний см. в статье [Изменение параметров участников для собраний Teams](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
@@ -78,3 +80,5 @@ ms.locfileid: "43158043"
 [Трансляции в Teams](teams-live-events/what-are-teams-live-events.md)
 
 [Ограничения и спецификации для Teams](limits-specifications-teams.md)
+
+[Техническое сообщество Майкрософт: трансляции в Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)
