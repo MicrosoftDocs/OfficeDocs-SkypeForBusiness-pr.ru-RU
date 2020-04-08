@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: 6666482c45cb8d97567ffb9a5c8b8a3f3bcc5636
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836281"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190879"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -159,9 +159,9 @@ ms.locfileid: "41836281"
 
 В зависимости от того, где находится ваша учетная запись в сети или в Skype для бизнеса Server 2019, вам потребуется подключиться к соответствующему приглашению PowerShell с правами администратора.
 
-- Ниже приведены примеры командлетов PowerShell, демонстрирующие создание учетной записи ресурсов, размещенной в Интернете с помощью [New-ксонлинеаппликатионинстанце](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
+- Ниже приведены примеры командлетов PowerShell, демонстрирующие создание учетной записи ресурсов, размещенной в Интернете с помощью [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
-- Для учетных записей ресурсов, размещенных в Skype для бизнеса Server 2019, которые можно использовать с очередями облачных вызовов и облачными автосекретарями, ознакомьтесь с раздел [Настройка очередей](/skypeforbusiness/hybrid/configure-call-queue.md) облачных вызовов или [Настройка автосекретарей в облаке](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Гибридные реализации (номера, расположенные в прямом маршруте) настраиваются с помощью командлета [New-кшибридаппликатионендпоинт](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) на локальном сервере 2019 в Skype для бизнеса Server.
+- Для учетных записей ресурсов, размещенных в Skype для бизнеса Server 2019, которые можно использовать с очередями облачных вызовов и облачными автосекретарями, ознакомьтесь со статьей [планирование очередей облачных вызовов](/SkypeforBusiness/hybrid/plan-call-queue) и [планирование автосекретарей облака](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Гибридные реализации (номера, расположенные в прямом маршруте) настраиваются с помощью командлета [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) на локальном сервере 2019 в Skype для бизнеса Server.
 
 При создании экземпляров приложения необходимо использовать идентификатор приложения:
 
@@ -169,7 +169,7 @@ ms.locfileid: "41836281"
 - **Очередь звонков:** 11cd3e2e-FCCB-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Если вы хотите, чтобы очередь звонков или автосекретарь были доступны для поиска пользователям Skype для бизнеса Server 2019, необходимо создать учетные записи ресурсов в Skype для Business Server 2019, так как учетные записи Интернет-ресурсов не синхронизируются с Active Directory. Когда DNS SRV-записи для сипфедератионтлс разрешаются в Skype для бизнеса Server 2019, учетные записи ресурсов **должны** быть созданы в Skype для бизнеса Server 2019 с помощью оболочки управления SfB и синхронизированы с веб-службой Azure AD.
+> Если вы хотите, чтобы очередь звонков или автосекретарь были доступны для поиска пользователям Skype для бизнеса Server 2019, необходимо создать учетные записи ресурсов в Skype для Business Server 2019, так как учетные записи Интернет-ресурсов не синхронизируются с Active Directory. Когда DNS SRV-записи для sipfederationtls разрешаются в Skype для бизнеса Server 2019, учетные записи ресурсов **должны** быть созданы в Skype для бизнеса Server 2019 с помощью оболочки управления SfB и синхронизированы с веб-службой Azure AD.
 
  
 
@@ -188,7 +188,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
    Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
    ```
 
-   Для получения дополнительных сведений об этой команде ознакомьтесь с командой [Set-ксонлиневоицеаппликатионинстанце](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
+   Для получения дополнительных сведений об этой команде ознакомьтесь с командой [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
 
    > [!NOTE]
    > С помощью центра администрирования Microsoft Teams проще всего настроить номер телефона в Интернете, как описано выше.
@@ -225,7 +225,7 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 На случай, если вы не видите номер телефона, назначенный учетной записи ресурса в центре администрирования Teams, и вы не можете назначить этот номер, пожалуйста, проверьте следующее:
 
@@ -240,7 +240,7 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 ```
 
 > [!NOTE]
-> После запуска кмлдет обновите веб-страницу центра администрирования Teams, и вы сможете правильно назначить номер.
+> После запуска cmldet обновите веб-страницу центра администрирования Teams, и вы сможете правильно назначить номер.
 
 ## <a name="related-information"></a>Дополнительные сведения
 
@@ -263,8 +263,8 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
    [Создание облачной очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
-[New-Кшибридаппликатионендпоинт](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+[New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-[New-Ксонлинеаппликатионинстанце](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
 [Телефонная система — лицензия виртуальных пользователей](teams-add-on-licensing/virtual-user.md)
