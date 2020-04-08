@@ -95,7 +95,6 @@
 ### [Управление параметрами Teams в организации](enable-features-office-365.md)
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
-### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
 ### [Назначение политик пользователям](assign-policies.md)
@@ -753,6 +752,7 @@
 ### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Управление предложением Teams Exploratory](teams-exploratory.md)
+### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 ### [Лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
