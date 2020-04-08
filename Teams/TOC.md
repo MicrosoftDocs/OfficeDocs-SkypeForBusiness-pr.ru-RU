@@ -123,6 +123,7 @@
 <!-- ============================================================ -->
 
 # Собрания и конференции
+## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
@@ -291,6 +292,16 @@
 #### [Планирование обхода сервера-посредника с прямой маршрутизацией](direct-routing-plan-media-bypass.md)
 #### [Настройка обхода сервера-посредника с прямой маршрутизацией](direct-routing-configure-media-bypass.md)
 
+### Оптимизация локальных файлов мультимедиа для прямой маршрутизации
+#### [Планирование оптимизации локальных файлов мультимедиа](direct-routing-media-optimization.md)
+#### [Настройка оптимизации локальных файлов мультимедиа](direct-routing-media-optimization-configure.md)
+
+### Отслеживание и устранение неполадок прямой маршрутизации
+#### [Обзор](direct-routing-monitor-and-troubleshoot.md)
+#### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
+### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
 
 ### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
@@ -649,17 +660,18 @@
 
 # Безопасность и соответствие требованиям
 ## [Обзор](security-compliance-overview.md)
+## [Расположение данных в Teams](location-of-data-in-teams.md)
 ## Безопасность
 ### [Руководство по безопасности](teams-security-guide.md)
 ### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
+### [Безопасные ссылки в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Соответствие требованиям
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)
 ### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Обнаружение электронных данных
 #### [Обнаружение электронных данных](ediscovery-investigation.md)
-#### [Расположение данных в Teams](location-of-data-in-teams.md)
 #### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
 ### Поиск контента
 #### [Использование поиска контента](content-search.md)
