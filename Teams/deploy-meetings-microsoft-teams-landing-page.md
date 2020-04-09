@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c3844540288bc94da445e4f13ed90b9a524f46
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053652"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190853"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -31,8 +31,12 @@ ms.locfileid: "43053652"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams с собраниями и конференциями. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть собрания и конференции в Teams.
+Чтобы узнать больше об опыте встреч для ваших пользователей, см. [Встречи и звонки](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
+
+*Новое в апреле 2020 года*. Организаторы собрания могут завершить собрание для всех участников собрания в Teams, щелкнув **Завершить собрание** в элементах управления собрания.  
+
+*Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams с собраниями и конференциями. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть собрания и конференции в Teams.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
 

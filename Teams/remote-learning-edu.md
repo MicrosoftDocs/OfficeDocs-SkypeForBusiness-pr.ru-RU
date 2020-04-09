@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: d38c57bd240360ff1f46b57d70dfab2358817a4d
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174961"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190850"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -136,6 +136,8 @@ Microsoft Teams для Education предлагает [конкретные ти
 ### <a name="collaborative-meetings-for-virtual-classes"></a>Совместные встречи для виртуальных классов
 
 [Совещания Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) поддерживают до 250 одновременных участников, включая возможность иметь аудио, видео, [обмен контентом](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), доски и общие заметки. Собрания можно запланировать в клиенте Teams, чтобы [провести собрание в закрытой аудитории или в канале команды](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) с уведомлением всех ее членов. Встречи могут быть записаны и сохранены для участников, чтобы рассмотреть позже. Эти записи также могут быть [расшифрованы, чтобы легко найти содержание](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308), которое обсуждалось. Для проведения встреч можно использовать веб-камеру ноутбука, мобильного телефона, микрофон и динамик, а также оптимизировать качество звука / видео с [оптимизированных устройств Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
+
+В Teams организаторы собраний могут завершить собрание для всех участников. С помощью этой возможности преподаватели могут гарантировать, что студенты не останутся на встрече без присмотра после окончания урока.
 
 ### <a name="districtuniversity-events-or-updates"></a>Район / университет события или обновления
 
