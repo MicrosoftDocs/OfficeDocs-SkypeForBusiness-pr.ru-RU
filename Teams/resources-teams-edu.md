@@ -16,15 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983823"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194849"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для администраторов учебных заведений
 ==============================================
+
+## <a name="resources-for-remote-learning"></a>Ресурсы по удаленному обучению
+
+Требуется ли вашему учебному заведению (или университету) включить Microsoft Teams для удаленного обучения? Вы можете быстро приступить к работе с одним и тем же пунктом " [Приступая](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) к переходу" и любому из указанных ниже материалов для внедрения.
 
 ## <a name="adoption-content"></a>Материалы по внедрению
 
@@ -36,9 +40,9 @@ ms.locfileid: "42983823"
 
 | |  |
 |---------|---------|
-|[Буклет с советами и рекомендациями](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Экрана](media/edu-adoption-get-started.png)    |
 |Возможность [настройки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) и [подготовки печатных](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true) плакатов<br>![Снимок экрана: плакат](media/edu-adoption-posters.png)     |[Раздаточных материалов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Снимок экрана: раздаточные материалы](media/edu-adoption-handouts.png)|
 |[Листовки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Снимок экрана: объявление](media/edu-adoption-flyers.png)   |[Уведомлений о бюллетенях](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Снимок экрана: журнал уведомлений](media/edu-adoption-book-adverts.png)         |
+|[Буклет с советами и рекомендациями](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Экрана](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Цифровые активы
 
@@ -52,7 +56,7 @@ ms.locfileid: "42983823"
 
 ## <a name="call-to-action"></a>Призыв к действию
 
-- Посетите [страницу Teams для образовательных учреждений](https://www.microsoft.com/en-us/education/products/teams/default.aspx) для траинингс, видео и интерактивных демонстраций
+- Посетите [страницу Teams для образовательных учреждений](https://www.microsoft.com/en-us/education/products/teams/default.aspx) для trainings, видео и интерактивных демонстраций
 - Включение Teams в [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (вход в качестве администратора Office 365)
 - Скачайте клиенты Teams: [Microsoft Teams работает на всех ваших устройствах](https://teams.microsoft.com/downloads).
 - Получите дополнительные сведения об Office 365 для образования в [Центре справки "Образование"](https://support.office.com/education).
