@@ -1,5 +1,5 @@
 ---
-title: Создание приложения "портал интрасети" для Рабочей группы на сайте SharePoint Online или на странице
+title: Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
 author: LanaChin
 ms.author: heidip
 manager: serdars
@@ -8,206 +8,217 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Вы можете использовать существующий сайт или страницу SharePoint Online и создать отдельную статическую вкладку, которая может использоваться в качестве портала интрасети для вашей организации.
-localization_priority: Normal
-ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
-ms.translationtype: MT
+description: Вы можете использовать существующий сайт или страницу SharePoint Online, а также создать отдельную статическую вкладку, которую можно использовать в вашей организации в качестве портала интрасети.
+localization_priority: Priority
+ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106636"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207078"
 ---
-# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения "портал интрасети" для Рабочей группы на сайте SharePoint Online или на странице
+# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
 
-Выполните действия, описанные в этой статье, чтобы создать автономное и статическое приложение в Teams, которое ссылается на сайт интрасети для вашей организации.
+Выполните действия, описанные в этой статье, чтобы создать отдельное статическое приложение в рамках Teams для связи с сайтом интрасети в вашей организации.
 
-Будет создано *личное приложение Teams* вашего сайта SharePoint, и оно появится как вкладка в Teams. На этой вкладке могут содержаться сведения, важные для всех пользователей Teams. Это быстрый и удобный способ получить доступ к обновлениям только нажатием клавиши TAB для пользователей Teams.
+*Персональное приложение Teams* вашего сайта интрасети SharePoint создано и будет отображаться в виде вкладки в Teams. На этой вкладке могут содержаться сведения, важные для всех ваших пользователей Teams. Это легкий и удобный способ доступа пользователей Teams к обновлениям всего одним щелчком мыши по вкладке.
 
-Имейте в виду, что процесс, показанный для работы, **должен использовать** *современный* сайт или страницу SharePoint. Этот процесс недоступен для *классических* сайтов и страниц.
+Обратите внимание на то, что в продемонстрированном процессе для работы **необходимо использовать** *современный* сайт или страницу SharePoint. Этот процесс недоступен для *классических* сайтов или страниц.
 
 > [!IMPORTANT]
-> Убедитесь в том, что для вашего клиента включена параллельная загрузка приложений Teams. В зависимости от того, где находится миграция на портале администрирования Teams, вам может потребоваться включить ее в разделе администратор Teams > или в разделе Параметры администрирования > > службы и надстройки > Microsoft Teams > приложения > внешние приложения в предыдущей версии портала. 
+> Убедитесь в том, что для вашего клиента включена загрузка приложений Teams. В зависимости от того, в каком месте в процессе переноса портала администрирования Teams вы находитесь, может потребоваться включить его в разделе Teams > Администрирование, либо (в предыдущей версии портала) в разделе Администрирование > Службы и надстройки > Microsoft Teams > Приложения > Внешние приложения предыдущей версии портала.
 
-## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>Создание автономного приложения SharePoint Online с помощью App Studio
-' ' ' ' Перед тем как приступить к работе:
-1. Вам необходимо знать URL-адрес SharePoint Online с современной связью или сайт группы или страницу.
-    - Эти сайты всегда будут содержать */Teams/* или */Sites/* в пути.
+## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>Создание отдельного приложения SharePoint Online с помощью App Studio
 
-2. Вам необходимо знать поддомен клиента, который будет использоваться в заполнителе **{{поддомен}}**.
+Подготовка.
 
-3. В этой статье будет использоваться заполнитель **{{siteUrl}}** — *URL-адрес* сайта или страницы, которую вы выбрали.
-    - Примеры *URL-адресов*: https://contoso.sharepoint.com/teams/Contoso *или*   https://contoso.sharepoint.com/sites/Contoso 
-4. Кроме того, **{{sitePath}}** будет использоваться для заметок URL *path* -адреса (например:/teams/Contoso).
-    - Примеры *путей*:/teams/Contoso *или* /Sites/contoso 
+1. Необходимо знать URL-адрес сайта или страницы современного обмена данными SharePoint Online или Team.
+    - В путях к этим сайтам всегда будет присутствовать элемент */teams/* или */sites/*.
 
-Для начала выполните указанные ниже действия.
+2. Необходимо знать поддомен клиента, который будет использоваться в заполнителе **{{поддомен}}**.
+
+3. В этой статье заполнитель **{{siteUrl}}** будет использоваться для *URL-адреса* выбранного вами сайта или страницы.
+    - Например, *URL-адреса*:   https://contoso.sharepoint.com/teams/Contoso   *или* https://contoso.sharepoint.com/sites/Contoso
+4. Кроме того, заполнитель **{{sitePath}}** будет использоваться для обозначения *пути* URL-адреса (например, /teams/Contoso).
+    - Примеры *путей*:   /teams/Contoso   *или* /sites/Contoso
+
+Чтобы начать, выполните указанные ниже действия.
 
 1. Перейдите в магазин Teams.
 
-2. Установите или откройте приложение App Studio.
+2. Установите или откройте App Studio.
 
-3. Нажмите кнопку **Открыть**рядом с параметром приложение.
+3. Нажмите кнопку **Открыть**, расположенную рядом с пунктом "Приложение".
 
-4. В открытом приложении App Studio щелкните **редактор манифестов**.
+4. В приложении App Studio выберите **Редактор манифестов**.
 
-5. **Создайте новое приложение**.
+5. **Создать новое приложение**.
 
-6. Заполните все **сведения о приложении**.
+6. Заполните все **Сведения о приложении**.
 
-7. Щелкните **вкладки** в разделе "возможности".
+7. Выберите пункт **Вкладки** в разделе "Возможности".
 
-8. Нажмите кнопку **Добавить** на вкладке Личные.
+8. Нажмите кнопку **Добавить** вкладки "Личные данные".
 
-9. Введите **имя** и выберите **новый уникальный идентификатор сущности**.
+9. Заполните поле **Имя** и выберите **новый уникальный идентификатор**.
 
-10. Заполните **URL-адрес contentURL и веб-сайта**. 
+10. Заполните поле **URL-адрес контента и URL-адрес веб-сайта**.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx? SPFX = true&dest = {{sitePath}}  
-- **web'iteUrl**: {{siteUrl}} ' ' пример **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+- **URL-адрес контента**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+- **URL-адрес веб-сайта**: {{siteUrl}}
 
-11. Перейдите в раздел **домены и Permissi'ns**. Убедитесь, что в разделе Допустимые домены указаны доменные имена SharePoint Online.
-"Пример: contoso.sharepoint.com
+    Например, **URL-адрес контента**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
 
-12. Добавьте следующие свойства **единого входа для** веб-приложения: "пример: ' '" **идентификатор приложения AAD**: 00000003-0000-0ff1-ce00-000000000000 **Resource URL**: {{поддомен}}. SharePoint. com "" " ![веб-приложение единого входа, с идентификатором и URL-адресом.](media/personal-app.png)
+11. Перейдите в раздел **Домены и разрешения**. Убедитесь в том, что в разделе "Допустимые домены" указано ваше доменное имя SharePoint Online.
 
-13. **Сохраните** эти свойства, а затем перейдите к разделу **Проверка и распространение**. 
+    Например, contoso.sharepoint.com
 
-14. Установите приложение, чтобы протестировать приложение лично.
+12. Добавьте указанные ниже свойства **единого входа** веб-приложения.
+
+     Например,  **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000  **Resource Url**: {{subdomain}}.sharepoint.com
+
+    ![Единый вход в веб-приложение, с идентификатором и URL-адресом.](media/personal-app.png)
+
+13. Выберите **Сохранить** эти свойства, а затем перейдите в раздел **Тестирование и распространение**.
+
+14. Установите приложение, чтобы лично протестировать его.
 
 > [!IMPORTANT]
-> Если вы не используете приложение Teams Studio, вам потребуется. zip манифест. JSON-файл, который вы только что создали, перейдите в магазин приложений в Teams и щелкните ссылку **Отправить настраиваемое приложение** (в правом нижнем углу магазина приложений). Это сделает приложение доступным для вас.
+> Если вы не используете приложение App Studio Teams, вам будет необходимо заархивировать в формате zip-созданный вами файл manifest.JSON, перейти в магазин приложений в Teams и нажать  **Отправка пользовательского приложения** по ссылке (в правом нижнем углу магазина приложений). После этого приложение станет доступным для вас.
 
-15. Теперь приложение доступно в виде статической вкладки для загрузки и просмотра в Teams.
+15. Теперь приложение доступно в виде статической вкладки, которую можно загружать и просматривать в Teams.
 
 ## <a name="test-and-view-your-new-static-tab"></a>Проверка и просмотр новой статической вкладки
 
-Чтобы открыть вкладку Создание на рабочем столе Teams, в левой части панели приложения перейдите на многоточие (**...**). Найдите новое приложение, загрузите его и протестируйте автономное приложение в Teams.
+Чтобы открыть вкладку на рабочем столе Teams, нажмите на многоточие (**...**) в левой части панели приложения. Найдите новое приложение, загрузите его и протестируйте ваше отдельное приложение в Teams.
 
-Если вы хотите сделать новое приложение доступным в меню слева в более высоком положении, необходимо использовать параметр политики приложения для этого. Этот параметр можно найти в разделе администратор группы > политики приложений > добавить закрепленное приложение. После назначения пользователю политики для тестирования это изменение будет отображаться на 24 часа позже. В этом случае необходимо решить, где должно отображаться приложение, чтобы избежать задержек.
+Если вы хотите, чтобы новое приложение было доступно в расположенном слева меню, то вам нужно воспользоваться параметром политики приложений. Этот параметр можно найти в разделе Администрирование Teams > Политики приложений > Добавление закрепленного приложения. Когда вы назначаете пользователю политику для тестирования, это изменение отобразится через 24 часа. С учетом этого определите, в каком месте удобнее всего показывать приложение, чтобы избежать задержек.
 
-Чтобы просмотреть и протестировать новое приложение на мобильном устройстве, откройте денежный ящик приложения, нажав значок шеврона**^**() над панелью вкладок в нижней части экрана. Найдите свое приложение и перейдите на него на мобильном устройстве.
-        
+Чтобы просмотреть и протестировать новое приложение на мобильном устройстве, откройте ящик приложений, нажав значок в виде шеврона (**^**) над панелью вкладок в нижней части экрана. Найдите приложение и откройте его на своем мобильном устройстве.
+
 > [!CAUTION]
-> Поддержка мобильных устройств в настоящее время входит в предварительную версию для разработчиков. Чтобы включить предварительный просмотр для разработчика, перейдите к параметрам > о том, а затем включите режим предварительного просмотра разработчика.
+> Поддержка мобильных приложений в настоящее время доступна в виде предварительного просмотра для разработчиков. Чтобы включить предварительный просмотр для разработчиков, перейдите к разделу Параметры > О программе и включите режим "Предварительный просмотр для разработчиков".
 
-## <a name="a-sample-manifestjson-file"></a>Пример файла manifest. JSON
+## <a name="a-sample-manifestjson-file"></a>Пример файла manifest.JSON.
 
-Созданный вами файл JSO будет выглядеть примерно так, как показано на рисунке ниже.
+Созданный вами файл JSO        будет выглядеть примерно так, как показано ниже.
 
 ```JSON'
-{ 
+{
 
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
 
-    "manifestVersion": "1.5", 
+    "manifestVersion": "1.5",
 
-    "version": "1.0.0", 
+    "version": "1.0.0",
 
-    "id": "33ebded3-931c-4333-b0c5-b51dd8738873", 
+    "id": "33ebded3-931c-4333-b0c5-b51dd8738873",
 
-    "packageName": "com.contoso.teams.devapp", 
+    "packageName": "com.contoso.teams.devapp",
 
-    "developer": { 
+    "developer": {
 
         "name": "Contoso", ''
 
-        "websiteUrl": "https://www.contoso.com", 
+        "websiteUrl": "https://www.contoso.com",
 
-        "privacyUrl": "https://www.contoso.com/privacy", 
+        "privacyUrl": "https://www.contoso.com/privacy",
 
-        "termsOfUseUrl": "https://www.contoso.com/terms" 
+        "termsOfUseUrl": "https://www.contoso.com/terms"
 
-    }, 
+    },
 
-    "icons": { 
+    "icons": {
 
-        "color": "color.png", 
+        "color": "color.png",
 
-        "outline": "outline.png" 
+        "outline": "outline.png"
 
-    }, 
+    },
 
-    "name": { 
+    "name": {
 
         "short": "Contoso Intranet", '
 
-        "full": "Intranet Portal for Contoso" 
+        "full": "Intranet Portal for Contoso"
 
-    },                     
-                        
-    "des    ription": {                 
+    },
 
-        "short": "Intranet portal for Contoso", 
+    "des    ription": {
 
-        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams" 
+        "short": "Intranet portal for Contoso",
 
-    }, 
+        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams"
 
-    "accentColor": "#FFFFFF", 
-''
-    "staticTabs": [ 
+    },
 
-        { 
-                                       
-                     "       nti        Id":       "com    unicat    onSi    eTab", 
-                                       
-            "name": "Contoso Net", 
+    "accentColor": "#FFFFFF",
 
-            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
+    "staticTabs": [
 
-            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet", 
+        {
 
-            "scopes": [ 
+                     "       nti        Id":       "com    unicat    onSi    eTab",
 
-                "personal" 
+            "name": "Contoso Net",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/",
 
-        }, 
+            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet",
 
-        { 
+            "scopes": [
 
-            "entityId": "teamSiteTab", 
+                "personal"
 
-            "name": "Team Contoso", 
+            ]
 
-            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/", 
+        },
 
-            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso", 
+        {
 
-            "scopes": [ 
+            "entityId": "teamSiteTab",
 
-                "personal" 
+            "name": "Team Contoso",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/",
 
-        } 
+            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso",
 
-    ], 
+            "scopes": [
 
-    "permissions": [ 
+                "personal"
 
-        "identity", 
+            ]
 
-        "messageTeamMembers" 
+        }
 
-    ], 
+    ],
 
-    "validDomains": [ 
+    "permissions": [
 
-        "contoso.sharepoint.com" 
+        "identity",
 
-    ], 
+        "messageTeamMembers"
 
-    "webApplicationInfo": { 
+    ],
 
-        "id": "00000003-0000-0ff1-ce00-000000000000", 
+    "validDomains": [
 
-        "resource": "https://contoso.sharepoint.com" 
+        "contoso.sharepoint.com"
 
-    } 
+    ],
+
+    "webApplicationInfo": {
+
+        "id": "00000003-0000-0ff1-ce00-000000000000",
+
+        "resource": "https://contoso.sharepoint.com"
+
+    }
 
 }
 ```

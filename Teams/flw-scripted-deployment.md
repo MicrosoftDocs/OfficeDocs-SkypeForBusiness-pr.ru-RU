@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122923"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207068"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Как обеспечить Teams в масштабе для Сотрудников без компьютеров
 
@@ -37,6 +37,9 @@ ms.locfileid: "43122923"
 - Создайте соответствующие политики обмена сообщениями Teams, политики установки приложений и политики разрешений приложений.
 - Применяйте эти политики к пользователям в масштабе.
 - Назначьте большое количество пользователей в назначенную команду.
+
+> [!NOTE]
+> Если вы ознакомились с этой информацией и хотите обратиться за помощью или у вас возникли вопросы, [**нажмите здесь**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u), чтобы связаться со службой поддержки White Glove.
 
 ## <a name="prerequisites"></a>Необходимые компоненты
 
