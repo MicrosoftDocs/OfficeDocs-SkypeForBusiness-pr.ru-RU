@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184237"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213648"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -204,7 +204,7 @@ ms.locfileid: "43184237"
 
 Если агент выводит из приема звонков, они не включаются в список маршрутизации звонков независимо от того, какое состояние доступности установлено.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Агенты, которые используют клиента Skype для бизнеса, не включаются в список маршрутизации звонков, когда включена маршрутизация на основе присутствия, независимо от состояния доступности. Агенты, которые не входят в список маршрутизации звонков, не будут получать звонки. Если у вас есть агенты, использующие Skype для бизнеса, не включайте маршрутизацию звонков на основе присутствия.
 
 ### <a name="select-an-agent-opt-out-option"></a>Выбор варианта отказа от агента
