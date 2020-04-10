@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38c57bd240360ff1f46b57d70dfab2358817a4d
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190850"
+ms.locfileid: "43194859"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
 > [!NOTE]
 > Эта статья — полезный ресурс по организации дистанционного обучения в вашем учебном заведении. Если вы преподаватель, руководитель учебного заведения или ИТ-специалист, вам могут быть полезны следующие ресурсы:
 >
+> - Быстро начните работу в Teams в своем учебном заведении с помощью [**одностраничного документа по началу работу**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Скачайте документ [**Как начать работу с Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) — руководство для ИТ-специалистов с полезными рекомендациями по безопасности и управлению изменениями.
 > - Сборник статей, написанных для преподавателей, включая практические рекомендации для наиболее важных [**первых шагов в обучении в Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - 1-часовой онлайн-курс в Центре преподавателей Microsoft показывает, как преподаватели используют команды в своей профессиональной жизни. [**Преобразование обучения с помощью Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).

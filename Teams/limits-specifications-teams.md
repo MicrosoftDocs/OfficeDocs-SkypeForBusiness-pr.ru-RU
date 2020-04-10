@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962088"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209451"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -121,8 +121,6 @@ ms.locfileid: "41962088"
 |Повторяющееся без времени окончания     |Время начала + 60 дней         |60 дней         |
 |Повторяющееся со временем окончания     |Время окончания последнего повторения + 60 дней         |60 дней         |
 
-
-
 ## <a name="teams-live-events"></a>Трансляции Teams
 
 |Функция     | Максимальный предел |
@@ -156,6 +154,15 @@ ms.locfileid: "41962088"
 Каналы создаются с помощью папок в семействе веб-сайтов SharePoint Online, созданном для команды, поэтому для вкладок файлов в каналах используются ограничения хранилища команды, к которой они относятся.
 
 Дополнительные сведения см. в статье [Ограничения SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="tags"></a>Теги
+
+|Компонент  |Максимальный предел  |
+|---------|---------|
+|Количество тегов на команду    | 100        |
+|Количество предлагаемых тегов по умолчанию на команду    | 25        |
+|Количество членов команды, назначенных тегу    |100         |
+|Количество тегов, назначенных пользователю    |25         |
 
 ## <a name="contacts"></a>Контакты
 
