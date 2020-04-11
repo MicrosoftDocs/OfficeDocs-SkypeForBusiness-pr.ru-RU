@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: В этой статье рассказывается о том, как с помощью мастера переноса перенести номер телефона, предоставленный текущим поставщиком услуг, в Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137869"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227533"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Передача телефонных номеров в Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "43137869"
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Создание заказа на перенос и перенос телефонных номеров в Teams
 
 > [!NOTE]
-> **В настоящее время вы можете использовать этот мастер для получения телефонных номеров для Великобритании и Канады**. Чтобы получить телефонные номера для других стран и регионов, вы можете [Отправить заказ на перенос вручную](manually-submit-port-order.md). Чтобы получить форму, которую нужно отправить вручную, выберите свою страну или регион в раскрывающемся списке в разделе [Управление телефонными номерами в Организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> **В настоящее время вы можете использовать этот мастер для получения номеров телефонов для Великобритании, США и Канады**. Чтобы получить телефонные номера для других стран и регионов, вы можете [Отправить заказ на перенос вручную](manually-submit-port-order.md). Чтобы получить форму, которую нужно отправить вручную, выберите свою страну или регион в раскрывающемся списке в разделе [Управление телефонными номерами в Организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 1. В левой области навигации центра администрирования Microsoft Teams перейдите на вкладку номера **голосовых** > **телефонов**. Нажмите кнопку **числа**и выберите пункт **порт** , чтобы запустить мастер переноса.
 2. Просмотрите сведения на странице " **Начало работы** ", а затем, когда все будет готово, нажмите кнопку **Далее**.

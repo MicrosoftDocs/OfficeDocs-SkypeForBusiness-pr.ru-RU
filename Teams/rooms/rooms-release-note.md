@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157773"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227523"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -69,7 +69,6 @@ ms.locfileid: "43157773"
 - Поддержка динамического вызова экстренной помощи в Teams (компоненты служб, необходимые и выпущенные с помощью клиента Teams)
 - Возможность отключения дублирования контента из собраний для двойного отображения комнат с помощью XML
 - Экран-заставка приложения
-- Параметр автоматического ответа для повышения эффективности присоединения к собранию на основе близости 
 - Уведомления об использовании программного обеспечения Open Source (OSS) в параметрах устройства
 - Устранение проблем с подключением PSOM, если протоколы TLS 1,0 и TLS 1,1 отключены в Skype для бизнеса Server 2015/2019.
 
