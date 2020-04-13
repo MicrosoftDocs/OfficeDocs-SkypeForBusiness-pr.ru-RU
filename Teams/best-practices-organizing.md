@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174921"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237942"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Рекомендации по работе с командами в Microsoft Teams
 ======================================================
@@ -31,7 +31,10 @@ Teams - это группы людей, которые собираются вм
 
 Прежде чем создавать команду, подумайте о цели, проекте или рабочих элементах, а также о том, кто в вашей организации может помочь в ее совместной работе. Как только вы их определили, добавьте этих людей или группы в команду, чтобы начать сотрудничество. Поскольку членство со временем может измениться, рекомендуется назначить нескольких владельцев для каждой команды. Для получения дополнительной информации см. [Управление командами](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-В списке [воспроизведения видео](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) Microsoft Teams содержатся дополнительные сведения о создании групп и управлении ими.
+
+Взгляните на это короткое видео, чтобы увидеть примеры того, как структурировать межорганизационные или специализированные группы:
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>Постепенное добавление групп
 
