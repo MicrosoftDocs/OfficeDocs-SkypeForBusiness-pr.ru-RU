@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637206"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240639"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
@@ -57,9 +57,9 @@ PATCH /teams/<team_id>
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-С помощью **кстеамсчаннелсполици** можно указать, какие пользователи в вашей организации могут создавать закрытые каналы. Установите для параметра **алловприватечаннелкреатион** значение **true** , чтобы пользователи, которым назначена политика, могли создавать закрытые каналы. Если задать для параметра **значение false** , возможность создания частных каналов для пользователей, которым назначена политика, будет отключена.
+С помощью **CsTeamsChannelsPolicy** можно указать, какие пользователи в вашей организации могут создавать закрытые каналы. Установите для параметра **AllowPrivateChannelCreation** значение **true** , чтобы пользователи, которым назначена политика, могли создавать закрытые каналы. Если задать для параметра **значение false** , возможность создания частных каналов для пользователей, которым назначена политика, будет отключена.
 
-Дополнительные сведения можно найти в статье [Создание и кстеамсчаннелсполици](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
+Дополнительные сведения можно найти в статье [Создание и CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Создание закрытого канала от имени владельца команды
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>Поиск URL-адресов SharePoint для всех частных каналов в команде
 
-Если вы собираетесь проводить обнаружение электронных данных или судебных удержаний по файлам в частном канале или собираетесь создавать бизнес-приложение, которое поместит файлы в определенные закрытые каналы, вам будет нужен способ запроса уникальных семейств веб-сайтов SharePoint, созданных для Каждый частный канал.
+Если вы собираетесь проводить обнаружение электронных данных или судебных удержаний по файлам в частном канале или собираетесь создавать бизнес-приложение, которое поместит файлы в определенные закрытые каналы, вам будет нужен запрос уникальных семейств сайтов SharePoint, создаваемых для каждого частного канала.
 
 Администратор может использовать команды PowerShell или Graph API для запроса этих URL-адресов.
 
@@ -271,7 +271,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Установка новейшего модуля PowerShell для Teams из коллекции тестов PowerShell
 
-Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) не поддерживает управление личными каналами. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell Teams с поддержкой частных каналов (в настоящее время 1.0.18) из коллекции тестов PowerShell.
+Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) не поддерживает управление личными каналами. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell Teams с поддержкой частных каналов (в настоящее время 1.0.21) из коллекции тестов PowerShell.
 
 > [!NOTE]
 > Не устанавливайте модуль PowerShell Teams из коллекции тестов PowerShell рядом с версией модуля из общедоступной галереи PowerShell. Выполните эти действия, чтобы сначала удалить модуль Teams PowerShell из общедоступной коллекции PowerShell, а затем установить последнюю версию модуля из коллекции тестов PowerShell.
@@ -324,7 +324,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
-- [Использование API Microsoft Graph для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Использование Microsoft Graph API для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [Каналы списка](https://docs.microsoft.com/graph/api/channel-list)
     - [Создать канал](https://docs.microsoft.com/graph/api/channel-post)
     - [Добавить участника в канал](https://docs.microsoft.com/graph/api/conversationmember-add)
