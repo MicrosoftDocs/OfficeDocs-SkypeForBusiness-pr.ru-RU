@@ -10,7 +10,7 @@
 ## [Обзор](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
-## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
+## [Обучение конечных пользователей для работы с Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Способ развертывания Teams](How-to-roll-out-teams.md)
