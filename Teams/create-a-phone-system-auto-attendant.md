@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159269"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508621"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -225,7 +225,7 @@ ms.locfileid: "43159269"
 >    - Мобильный или MobilePhone
 >    - TelephoneNumber/заданный
 >    - OtherTelephone
->- Для ввода расширения в поле "телефонный номер пользователя" требуется формат либо `+<phonenumber>;ext=<extension>` или. `x<extension>`
+>- Формат, необходимый для ввода расширения в поле "телефонный номер пользователя",: `+<phonenumber>;ext=<extension>` или `x<extension>`.
 >- Назначение расширения в центре администрирования Teams в настоящее время не поддерживается. Необходимо либо использовать команду PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) , либо центр администрирования Microsoft 365.
 >- Изменение атрибутов AAD заданный и MobilePhone может занять до 12 часов.
 >- Не следует определять расширение для LineUri пользователя. В настоящее время эта функция не поддерживается.

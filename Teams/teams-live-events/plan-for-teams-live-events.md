@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Узнайте о факторах, которые следует учитывать, прежде чем настраивать прямые трансляции в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102370"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505626"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование живых событий в Microsoft Teams
 
@@ -55,6 +55,7 @@ ms.locfileid: "43102370"
 - Совместное использование экрана включено в собраниях Teams (*параметр TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
 - Оперативное планирование событий в Teams включено (*параметр TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = True*).
 - Разрешения на создание живых событий в Stream (для внешнего приложения или устройства производства).
+- Режим сосуществования, настроенный для планирования собраний Teams (-*ва, Meeting First или только для Teams*).
 
 > [!IMPORTANT]
 > Анонимные пользователи, не прошедшие проверку подлинности, не могут быть приглашены в качестве продюсеров или докладчиков на живых мероприятиях Команд. 
@@ -70,8 +71,6 @@ ms.locfileid: "43102370"
 |Конкретные группы / люди      |  Да            |  Да                 |
 
 <sup>1</sup> Федеративные участники могут быть приглашены только в & группе "люди" <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Прямые трансляции Teams и Skype Meeting Broadcast
 
@@ -90,8 +89,8 @@ ms.locfileid: "43102370"
 |Клиент продюсер на Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams через Stream Embed) |
 |Количество посетителей в интерфейсе Producer |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams через Stream Embed) |
 |Позволяет нескольких докладчиков |&#x2714;(Skype для бизнеса) |&#x2714; (Teams) |Недоступно  |
-|Пригласите докладчика во время встречи |&#x2714;(Skype для бизнеса) |&#x274C; |Н/Д |
-|Присоединение докладчика в Интернете и на мобильных устройствах |&#x2714;(Skype для бизнеса)  |&#x274C; |Н/Д |
+|Пригласите докладчика во время встречи |&#x2714;(Skype для бизнеса) |&#x274C; |Недоступно |
+|Присоединение докладчика в Интернете и на мобильных устройствах |&#x2714;(Skype для бизнеса)  |&#x274C; |Недоступно |
 |Федеральные и гостевые докладчики / участники |&#x2714;(Skype для бизнеса)  |  &#x2714; (Teams) |Недоступно |
 |Докладчик — доступ к ТСОП |&#x274C; |&#x2714; (Teams) |Недоступно |
 |Показ экрана |&#x274C; |&#x2714; (Teams) |Недоступно |
@@ -132,4 +131,3 @@ ms.locfileid: "43102370"
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Настройка параметров живых событий в Teams](configure-teams-live-events.md)
-
