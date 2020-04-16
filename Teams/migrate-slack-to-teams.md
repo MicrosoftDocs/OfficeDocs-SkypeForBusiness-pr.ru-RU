@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Полное руководство по переносу данных из Slack в Microsoft Teams.
-ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845219"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506880"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Перенос данных из Slack в Microsoft Teams
 
@@ -353,7 +353,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 Например, в обоих продуктах имеются каналы, но используются они по-разному. Например, в Slack канал часто играет роль чата в Teams для кратковременных деловых сообщений. Другие существенные различия лежат в области бесед с ветками и без веток сообщений и точной настройки уведомлений.
 
-Приглашаем ознакомиться с нашей богатой библиотекой [подготовки конечных пользователей Teams](enduser-training.md). 
+Приглашаем ознакомиться с нашей богатой библиотекой [учебных видеокурсов для конечных пользователей Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). 
 
 ## <a name="move-to-teams"></a>Переход на Teams 
 Теперь, когда план перехода готов, можно приступать к созданию групп и каналов в Teams. 
