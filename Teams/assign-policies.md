@@ -1,5 +1,5 @@
 ---
-title: Назначение политик пользователям в Microsoft Teams
+title: Назначение политик вашим пользователям в Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о различных способах назначения политик пользователям в Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068501"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521625"
 ---
-# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Назначение политик пользователям в Microsoft Teams
+# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Назначение политик вашим пользователям в Microsoft Teams
 
 > [!NOTE]
 > **Одна из функций Microsoft Teams, описанных в этой статье, [Назначение политики для групп](#assign-a-policy-to-a-group), в настоящее время доступна только в частном предварительной версии. Командлеты PowerShell для этой функции находятся в предварительной версии модуля PowerShell для Teams.** Чтобы не отвлекаться от состояния выпусков этой функции, ознакомьтесь с [планом Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
@@ -66,7 +66,7 @@ ms.locfileid: "43068501"
 | [Назначение пакета политики](#assign-a-policy-package)   | Необходимо назначить несколько политик определенным наборам пользователей организации, которые имеют одинаковые или аналогичные роли. Например, назначьте в учебном заведении пакет политики образования для преподавателей, чтобы предоставить им полный доступ к беседам, звонку, собраниям и пакету политики образования (дополнительный учебный учащийся), чтобы ограничить некоторые возможности, такие как частный звонок.  |Центр администрирования Microsoft Teams или командлеты PowerShell из модуля Teams PowerShell|
 |[Назначение политики пакету пользователей](#assign-a-policy-to-a-batch-of-users)   | Вы должны назначать политики большим наборам пользователей. Например, вы хотите назначить политику для сотен или тысяч пользователей в Организации одновременно.  |Командлеты PowerShell в модуле PowerShell Teams|
 |[Назначение политики группе](#assign-a-policy-to-a-group) (в предварительной версии)   |Необходимо назначить политики, основанные на членстве в группе пользователя. Например, вы хотите назначить политику для всех пользователей в группе безопасности или подразделении.| Командлеты PowerShell в модуле PowerShell Teams|
-| Назначение пакета политики пакету пользователей (ожидается в ближайшее время) |||
+| [Назначение пакета политики пакету пользователей](#assign-a-policy-package-to-a-batch-of-users)|Необходимо назначить несколько политик для пакета пользователей в Организации с одинаковыми или аналогичными ролями. Например, вы можете назначить пакету политики образования для всех преподавателей в учебном заведении с помощью пакетного задания, чтобы предоставить им полный доступ к разговорам, звонкам и собраниям, а также назначить пакету политики образования (дополнительный учебный учащийся) пакету вспомогательных учащихся, чтобы ограничить некоторые возможности, такие как частный звонок.|Командлеты PowerShell в модуле PowerShell Teams|
 | Назначение пакета политики группе (ожидается в ближайшее время)   | ||
 
 ## <a name="assign-a-policy-to-individual-users"></a>Назначение политики отдельным пользователям
@@ -374,6 +374,57 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="assign-a-policy-package-to-a-batch-of-users"></a>Назначение пакета политики пакету пользователей
+
+С помощью задания пакетной политики можно назначить пакету политики большим наборам пользователей за один раз без использования сценария. С помощью ```New-CsBatchPolicyPackageAssignmentOperation``` командлета вы можете отправить пакет пользователей и пакет политики, который вы хотите назначить. Назначения обрабатываются как фоновая операция, и для каждого пакета создается идентификатор операции. Затем вы можете использовать этот ```Get-CsBatchPolicyAssignmentOperation``` командлет для отслеживания хода выполнения и состояния заданий в пакете.
+
+Пакет может содержать до 20 000 пользователей. Вы можете указать пользователей, указав их идентификатор (UPN), адрес SIP или адрес электронной почты.
+
+> [!IMPORTANT]
+> В настоящее время мы рекомендуем назначать пакеты политик в пакетах пользователей 5 000 за один раз. В это время вы можете столкнуться с задержкой во время обработки. Чтобы свести к минимуму влияние этих увеличенных времен обработки, мы рекомендуем вам отправлять меньшие размеры пакета до 5 000 пользователей и отправлять каждый пакет только после того, как вы закончите предыдущий. Вы также можете отправлять пакеты за пределы обычных рабочих часов.
+
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Установка и подключение к модулю Microsoft Teams PowerShell
+
+Выполните указанные ниже действия, чтобы установить [модуль Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (если вы еще этого не сделали). Убедитесь, что вы установили версию 1.0.5 или более поздней версии.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+Выполните указанные ниже действия, чтобы подключиться к Teams и начать сеанс.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+Когда вам будет предложено, войдите в систему с помощью учетных данных администратора.
+
+### <a name="assign-a-policy-package-to-a-batch-of-users"></a>Назначение пакета политики пакету пользователей
+
+В этом примере мы используем ```New-CsBatchPolicyPackageAssignmentOperation``` командлет для назначения пакета политики Education_PrimaryStudent пакету пользователей.
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+Дополнительные сведения можно найти в статье [Создание и CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation).
+
+### <a name="get-the-status-of-a-batch-assignment"></a>Получение статуса задания пакетной обработки
+
+Выполните указанные ниже действия, чтобы получить сведения о состоянии задания пакета, где идентификатор операции — это значение, возвращаемое ```New-CsBatchPolicyAssignmentOperation``` командлетом для данного пакета.
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+Если в выходных данных показано, что произошла ошибка, выполните указанные ниже действия, чтобы получить дополнительные сведения об ошибках ```UserState``` , которые находятся в свойстве.
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+Дополнительные сведения можно найти в [статьях Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation). 
+
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106686"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521605"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -78,7 +78,7 @@ ms.locfileid: "43106686"
   |Surface Pro </br>(пятое Gen) |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
   |Surface Pro 4 |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
 
-- Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний.
+- Устройства Surface Pro должны использовать одну из следующих опций стыковочного узла для защиты планшета с таблицей комнаты для собраний.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Набор исправлений Crestron](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
