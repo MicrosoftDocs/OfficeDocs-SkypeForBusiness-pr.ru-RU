@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170517"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506850"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -67,6 +67,8 @@ ms.locfileid: "43170517"
 
 1. Ознакомьтесь со статьей [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md), которую мы регулярно обновляем.
 
+2. [Использование помощника для Teams для развертывания Teams](use-advisor-teams-roll-out.md) Помощник для Teams (в Центре администрирования Teams) содержит пошаговые инструкции по развертыванию Teams.
+
 1. Ознакомьтесь с нашими последними записями блога:
    
    - [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -109,7 +111,7 @@ ms.locfileid: "43170517"
    - Раздел [Безопасность и Teams](teams-security-guide.md) посвящен всем техническим деталям безопасности Teams в рамках рекомендаций и процедур безопасности корпоративного уровня Microsoft 365.
 
 
-2.  [Разошлите ссылки на учебные курсы](enduser-training.md), чтобы сотрудники воспользовались всеми преимуществами Teams.
+2.  Разошлите ссылку на [учебные видеокурсы по Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7), чтобы сотрудники воспользовались всеми преимуществами Teams.
 
 3. Узнайте больше о развертывании Teams.
 
