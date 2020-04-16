@@ -1,7 +1,7 @@
 ---
 title: Планирование очереди облачных звонков
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735229"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510798"
 ---
 # <a name="plan-cloud-call-queues"></a>Планирование очередей облачных вызовов
 
@@ -31,7 +31,7 @@ ms.locfileid: "41735229"
 Каждой очереди звонков назначается **учетная запись ресурса** (см. [Настройка учетных записей ресурсов](configure-onprem-ra.md)) в системе Skype для бизнеса Server 2019, которая будет связана непосредственно с очередью звонков в центре администрирования Microsoft Teams. Дополнительные сведения о том, что представляют собой очереди вызовов и какие параметры и функции существуют для очередей вызовов, можно найти в разделе [Create a Cloud Queue Queue](/MicrosoftTeams/create-a-phone-system-call-queue) .
 
 > [!NOTE]
-> Очереди звонков можно назначить несколько телефонных номеров, но они должны быть номерами службы Майкрософт или гибридными номерами.
+> Очереди звонков можно назначить несколько телефонных номеров, но они должны быть номерами службы Майкрософт, прямыми номерами маршрутизации или гибридными номерами.
 
 ## <a name="requirements"></a>Requirements
 
@@ -61,7 +61,7 @@ ms.locfileid: "41735229"
 
 [Включение записи настраиваемых приглашений с помощью телефонного интерфейса пользователя](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Что такое автосекретаря для облака?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Что представляют собой облачные автосекретари?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 

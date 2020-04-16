@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150480"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510808"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -25,10 +25,10 @@ ms.locfileid: "42150480"
 
 Это означает, что у вас будет гибридная реализация Skype для бизнеса Server 2019, если вы хотите использовать функции единой системы обмена сообщениями, такие как автосекретарей. Для получения дополнительных сведений см. [Настройка гибридного подключения между Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md) .
 
-Автосекретарь — это облачная служба, принимающая звонки пользователей и воспроизводимые приветствием, предоставляющие им варианты меню и взаимодействующие с абонентами, используя голосовые функции или диалпад, для направления вызовов в нужное место. Каждому автосекретарьу назначена **учетная запись ресурса** (см.[Настройка учетных записей ресурсов](configure-onprem-ra.md)) в системе Skype для бизнеса Server 2019, которая будет связана непосредственно с автосекретарем в центре администрирования Microsoft Teams. Узнайте [, что такое автосекретарей для облачных приложений?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) дополнительные сведения о том, какие автосекретаря и какие функции доступны для автосекретарей.
+Автосекретарь — это облачная служба, которая принимает звонки клиентов и воспроизводит приветствия, предоставляет им варианты меню и взаимодействует с абонентами, используя голосовые функции или панель набора номера, для направления вызовов в нужное место. Каждому автосекретарьу назначена *учетная запись ресурса* (см. [Настройка учетных записей ресурсов](configure-onprem-ra.md)) в системе Skype для бизнеса Server 2019, которая будет связана непосредственно с автосекретарем в центре администрирования Microsoft Teams. Узнайте [, что такое автосекретарей для облачных приложений?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) дополнительные сведения о том, какие автосекретаря и какие функции доступны для автосекретарей.
 
 > [!NOTE]
-> Автосекретарь может назначать несколько номеров служб Майкрософт или гибридных номеров.
+> Для автосекретаря можно назначить несколько номеров служб Майкрософт, прямых номеров маршрутизации или гибридных номеров.
 
 Входящий вызов облачного автосекретаря может принимать один из нескольких путей, как показано ниже:
 
@@ -38,7 +38,7 @@ ms.locfileid: "42150480"
 2. Через [пограничный контроллер сеансов](/MicrosoftTeams/direct-routing-border-controllers.md) и [прямую маршрутизацию](/MicrosoftTeams/direct-routing-plan.md)
 3. Через номер, размещенный в Интернете в Office 365.
 
-См. также:
+Ниже перечислены другие материалы по теме.
 
 - [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Автоматический ответ и маршрутизация для входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
@@ -58,7 +58,7 @@ ms.locfileid: "42150480"
    Для получения дополнительных сведений ознакомьтесь со статьей [планирование гибридного подключения между Skype для бизнеса Server и office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Office 365](configure-hybrid-connectivity.md).
 
 - Если вы назначаете номер телефона автосекретаря, вам потребуется лицензия на [Office 365 Корпоративная](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
-- Создайте [учетную запись](/MicrosoftTeams/manage-resource-accounts.md) Интернет-ресурса или локальную [учетную запись](configure-onprem-ra.md)для каждого автосекретаря, а также назначьте номера телефонов и лицензии. 
+- Создайте [учетную запись](/MicrosoftTeams/manage-resource-accounts.md) Интернет-ресурса или локальную [учетную запись](configure-onprem-ra.md) для каждого автосекретаря, а также назначьте номера телефонов и лицензии. 
 
 ## <a name="migration-and-interoperability"></a>Миграция и взаимодействие
 
@@ -108,7 +108,7 @@ ms.locfileid: "42150480"
 
 [Включение записи настраиваемых приглашений с помощью телефонного интерфейса пользователя](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Что такое автосекретаря для облака?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Что представляют собой облачные автосекретари?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 
