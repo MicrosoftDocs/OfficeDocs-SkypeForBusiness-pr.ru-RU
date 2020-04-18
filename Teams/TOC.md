@@ -657,14 +657,15 @@
 
 <!-- ============================================================ -->
 
-# Безопасность и соответствие требованиям
+# Безопасность, конфиденциальность и соответствие требованиям
 ## [Обзор](security-compliance-overview.md)
-## [Расположение данных в Teams](location-of-data-in-teams.md)
-## Безопасность
+## Безопасность и конфиденциальность
 ### [Руководство по безопасности](teams-security-guide.md)
 ### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ### [Безопасные ссылки в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Конфиденциальность и Microsoft Teams](teams-privacy.md)
+### [Расположение данных в Teams](location-of-data-in-teams.md)
 ## Соответствие требованиям
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)
