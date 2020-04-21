@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191246"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580677"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191246"
 
 Для полноценной работы с Teams каждому сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Office 365.
 
-Почтовые ящики пользователей Exchange могут размещаться как в сети, так и локально. Тем не менее, для некоторых функций требуется гибридное развертывание в клиенте Office 365.
+Почтовые ящики пользователей Exchange могут размещаться как в сети, так и локально. Для интеграции с локальным сервером Exchange требуется гибридное развертывание Exchange. Дополнительные сведения о настройке гибридного развертывания можно найти в разделе [Гибридные развертывания Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Пользователям, размещенным в Exchange Online или Exchange Dedicated vNext, доступны все функции Teams. Они могут создавать и присоединяться к группам и каналам, создавать и просматривать собрания, звонки и чат, изменять аватары, а также добавлять и настраивать соединители, вкладки и ботов.
 
 Пользователи, размещенные на Exchange Online Dedicated (Legacy), должны быть синхронизированы с Azure Active Directory в Office 365. Они могут создавать и присоединяться к группам и каналам, добавлять и настраивать вкладки и ботов, а также использовать функции чата и звонков. Однако они не могут изменять изображения профиля, управлять собраниями, получать доступ к контактам Outlook и управлять соединителями.
 
-Пользователи с локальными почтовыми ящиками должны синхронизироваться с Azure Active Directory. Они могут использовать все функции, описанные выше, но Кроме того, они могут изменить аватар (если приложение Outlook в политике веб-почтового ящика допускает это), а также управлять собраниями, предоставляя Exchange Server 2016 (Накопительное обновление 3) или более поздней версии, на локальном компьютере, на котором настроена служба OAuth (предпочтительно с помощью мастера гибридной конфигурации).
+Пользователи с локальными почтовыми ящиками должны синхронизироваться с Azure Active Directory. Они могут использовать все функции описанных выше сценариев. Кроме того, они также могут изменить аватар профиля пользователя (если приложение Outlook в политике веб-почтового ящика допускает это) и управлять собраниями, предоставляя Exchange Server 2016 (Накопительное обновление 3) или более поздней версии, в локальной среде с помощью OAuth (предпочтительно с помощью мастера гибридной конфигурации Exchange), как описано в разделе [Настройка проверки подлинности OAuth между Exchange и Exchange](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) Чтобы включить делегирование календаря для этих пользователей, необходимо также выполнить шаги 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); Эти действия приводят к приложению планирования рабочих групп необходимые разрешения для подтверждения прав представителя.   
 
 В таблице ниже приведены краткие ссылки на доступность функций на основе среды Exchange.
 
+> [!NOTE]
+> Для интеграции функций между локальным Exchange и Teams требуется гибридное развертывание Exchange. Это требование в дополнение к требованиям, предъявляемым к конкретной версии, в некоторых функциях, перечисленных в приведенной ниже таблице.
 
 **Поддерживаемые действия:**
 
@@ -76,7 +78,7 @@ Microsoft Teams работает с несколькими службами Offi
 
 - Чтобы создавать команды в Microsoft Teams, пользователи должны быть в состоянии создавать группы Office 365.
 
-- Чтобы Microsoft Teams работала в локальной среде Exchange, необходимо настроить новый протокол проверки подлинности OAuth Exchange, как описано в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- Чтобы приложение Microsoft Teams работало в локальной среде Exchange, необходимо настроить новый протокол проверки подлинности OAuth Exchange (предпочтительно, запустив мастер гибридного сервера Exchange, как описано в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)). Чтобы разрешить пользователям с помощью локального почтового ящика Exchange Планирование собраний в Teams от имени другого пользователя, необходимо также выполнить действия 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 > [!NOTE]
 >Для интеграции с локальным сервером Exchange и интеграцией Teams необходимо назначить требуемую лицензию для пользователя, который синхронизирует синхронизация с AAD.
