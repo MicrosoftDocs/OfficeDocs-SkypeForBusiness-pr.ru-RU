@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f10aedf2a183e7ad965ba36ea0610fc02b93dfce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185152"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780748"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -143,13 +143,13 @@ _**Последнее изменение темы:** 2015-11-13_
     
     Формат URL-адреса, указанный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, где запущена служба переноса, в следующем формате: *https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     
-    Вы можете определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для своей учетной записи клиента Office 365.
+    Можно определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для учетной записи организации Office 365.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a>Определение размещенного URL-адреса службы миграции для клиента Office 365
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>Определение URL-адреса размещенной службы миграции для организации Office 365
     
-    1.  Войдите в свой клиент Office 365 от имени администратора.
+    1.  Войдите в организацию Office 365 от имени администратора.
     
     2.  Откройте **центр администрирования Lync**.
     
@@ -215,7 +215,7 @@ _**Последнее изменение темы:** 2015-11-13_
     </tr>
     <tr class="odd">
     <td><p>msRTCSIP — UserEnabled</p></td>
-    <td><p>Включен</p></td>
+    <td><p>Включено</p></td>
     <td><p>Да</p></td>
     <td><p>Да</p></td>
     </tr>

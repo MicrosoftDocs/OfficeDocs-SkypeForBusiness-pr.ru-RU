@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139318"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778745"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды для выпуска Microsoft Teams
 ===================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43139318"
 
 В приведенном ниже примере анкеты вы можете узнать, как убедиться, что ваша организация готова к успешному развертыванию голосовой конференции и телефонной системы с возможностями планов звонков в Teams.
 
-Все, что связано с существующей инфраструктурой совместной работы и клиентами Office 365, сетевыми, конечными точками, операциями, а также внедрением и готовностьм, входят в состав анкеты для обнаружения окружающей среды.
+Все, что связано с существующей инфраструктурой совместной работы и организациями Office 365, сетью, конечными точками, операциями, а также внедрение и готовность, входят в состав анкеты по обнаружению окружающей среды.
 
 Анкета делится на несколько разделов, чтобы подтвердить готовность Организации к развертыванию Teams в нескольких основных областях. Вы можете работать с вашей командой проекта, чтобы предоставить запрашиваемые сведения как можно более детально, чтобы упростить планирование.
 
@@ -67,16 +67,16 @@ ms.locfileid: "43139318"
 > | Руководитель команды по работе с видео | | | |
 > | Руководители филиалов | | | |
 
-<a name="office-365-tenant-details"></a>Сведения о клиенте Office 365
+<a name="office-365-organization-details"></a>Сведения об Организации в Office 365
 ---
 
-Мы настоятельно рекомендуем, чтобы у вас был активный клиент Office 365 при работе с этой анкетой. Если вы еще не активировали клиент Office 365 и не настроили его, ознакомьтесь [с Разпланированием настройки Office 365 для бизнеса](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Мы настоятельно рекомендуем использовать активную организацию Office 365 при работе с этой анкетой. Если вы еще не активировали и не настроили организацию Office 365, ознакомьтесь [с Разпланированием настройки office 365 для бизнеса](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-В следующей таблице собраны сведения о клиенте Office 365.
+В следующей таблице собраны сведения о организации Office 365.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Примечание к рабочему клиенту Office 365 <br>имя и идентификатор в столбце Answer (ответ) <br/>Если у вас больше одного клиента <br>связанных с вашей организацией, <br>Запишите все идентификаторы. | Имя клиента: <br/>Идентификатор клиента:| |
+> | Обратите внимание на производственную организацию Office 365 <br>имя и идентификатор в столбце Answer (ответ) <br/>Если у вас больше одного клиента <br>связанных с вашей организацией, <br>Запишите все идентификаторы. | Имя клиента: <br/>Идентификатор клиента:| |
 > | В каких регионах развернутые клиенты?| | |
 > | Клиенты Office 365, многоклиентские или <br>Балансировщика? | <input type="checkbox">Многоклиентский<br/> <input type="checkbox">Балансировщика | |
 > | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на количество пользователей, включенных для каждого из них. <br>"служба" в столбце "Примечания". | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype для бизнеса <br>&nbsp; &nbsp; &nbsp;В Интернете <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Другие| |
@@ -115,7 +115,7 @@ ms.locfileid: "43139318"
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
 > | Каким группам пользователей доступна система Teams? | <input type="checkbox">Все пользователи в Организации <br/> <input type="checkbox">Конкретные пользователи и группы пользователей <br>&nbsp;&nbsp; (Укажите в столбце "Примечания &nbsp;") ||
-> | Какие функции Teams и модальностей используются? | <input type="checkbox">Беседы на основе канала <br/> <input type="checkbox">Закрытый чат <br/> <input type="checkbox">Гостевой доступ <br/> <input type="checkbox">Собрания канала <br/> <input type="checkbox">Личные собрания <br/> <input type="checkbox">Частный Звонок <br/> <input type="checkbox">Рекламный канал обсудим <br/> <input type="checkbox">Видео о собраниях <br/> <input type="checkbox">Демонстрация экрана в собраниях <br/> <input type="checkbox">Голосовые конференции <br/><input type="checkbox">Приложения (приложения)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Ботов &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Интеграция настраиваемого облачного хранилища <br>&nbsp;&nbsp; (Box, Dropbox, ShareFile, Google &nbsp; диск) <br/> <input type="checkbox">Интеграция с электронной почтой канала <br/> <input type="checkbox">Другие (укажите в столбце Примечания). | |
+> | Какие функции Teams и модальностей используются? | <input type="checkbox">Беседы на основе канала <br/> <input type="checkbox">Закрытый чат <br/> <input type="checkbox">Гостевой доступ <br/> <input type="checkbox">Собрания канала <br/> <input type="checkbox">Личные собрания <br/> <input type="checkbox">Частный Звонок <br/> <input type="checkbox">Рекламный канал обсудим <br/> <input type="checkbox">Видео о собраниях <br/> <input type="checkbox">Демонстрация экрана в собраниях <br/> <input type="checkbox">Голосовые конференции <br/><input type="checkbox">Приложения (приложения)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Ботов &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Интеграция настраиваемого облачного хранилища <br>&nbsp;&nbsp; (Dropbox, Box, ShareFile, Google диск, &nbsp; Egnyte) <br/> <input type="checkbox">Интеграция с электронной почтой канала <br/> <input type="checkbox">Другие (укажите в столбце Примечания). | |
 > | Какие приложения вы развернули в Teams? | | |
 > | Блокировали ли вы какие-то конкретные возможности Teams? <br/>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет ||
 > | Какие используются клиенты Teams? | <input type="checkbox">Сайта <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Макинтоша <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Windows Mobile | |

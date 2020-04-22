@@ -1,5 +1,5 @@
 ---
-title: Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
+title: Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365 для Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010962"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776774"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365 для Skype для бизнеса Online
 
 > [!Note]
 > Сведения об аудиоконференции в Microsoft Teams содержатся в разделе [Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
@@ -38,7 +38,7 @@ Sometimes people in your organization will need to use a phone to call in to a m
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
-Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Информация о ценах приведена в разделе [Цены на аудиоконференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Шаг 1: приобретение и назначение лицензий на голосовую конференцию
 

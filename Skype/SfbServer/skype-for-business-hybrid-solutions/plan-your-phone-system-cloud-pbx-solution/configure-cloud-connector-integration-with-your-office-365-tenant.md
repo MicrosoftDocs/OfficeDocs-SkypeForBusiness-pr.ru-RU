@@ -1,5 +1,5 @@
 ---
-title: Настройка интеграции Cloud Connector с клиентом Office 365
+title: Настройка интеграции Cloud Connector с вашей организацией Microsoft 365 или Office 365
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Узнайте, как настроить интеграцию Cloud Connector с клиентом Office 365.
-ms.openlocfilehash: cf683743064ec377c827fe0c52a59e464f65ae19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Узнайте, как настроить интеграцию Cloud Connector с вашей организацией Office 365.
+ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050211"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780648"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Настройка интеграции Cloud Connector с клиентом Office 365
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Настройка интеграции Cloud Connector с вашей организацией Microsoft 365 или Office 365
  
-Узнайте, как настроить интеграцию Cloud Connector с клиентом Office 365.
+Узнайте, как настроить интеграцию Cloud Connector с вашей организацией Office 365.
   
-После завершения установки Skype для бизнеса Cloud Connector Edition выполните действия, описанные в этом разделе, чтобы настроить развертывание и подключить его к клиенту Office 365.
+После завершения установки Skype для бизнеса Cloud Connector Edition выполните действия, описанные в этом разделе, чтобы настроить развертывание и подключить его к организации Office 365.
   
 ## <a name="configure-firewall-settings"></a>Настройка параметров брандмауэра
 
@@ -57,7 +57,7 @@ ms.locfileid: "42050211"
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Добавление записей DNS в Office 365 для пограничного сервера
 
-Добавьте следующие записи DNS в клиент Office 365. Сведения о том, как добавлять записи DNS в клиент Office 365, можно узнать [в статье Добавление и Редактирование настраиваемых записей DNS в office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Добавьте следующие записи DNS в организацию Office 365. Сведения о том, как добавлять записи DNS в организацию Office 365, можно узнать [в статье Добавление и Редактирование настраиваемых записей DNS в office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Добавьте запись A DNS для пограничного доступа.
     
@@ -67,7 +67,7 @@ ms.locfileid: "42050211"
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Настройка гибридного подключения между Cloud Connector Edition и Office 365
 
-Чтобы настроить гибридное подключение между развертыванием Skype для бизнеса Cloud Connector Edition и клиентом Office 365, выполните следующий командлет в удаленном сеансе PowerShell. Чтобы узнать, как установить удаленный сеанс PowerShell, ознакомьтесь со статьей: [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+Чтобы настроить гибридное подключение между развертыванием Skype для бизнеса Cloud Connector Edition и вашей организацией Office 365, выполните следующий командлет в удаленном сеансе PowerShell. Чтобы узнать, как установить удаленный сеанс PowerShell, ознакомьтесь со статьей: [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
 Командлет задает внешнее полное доменное имя пограничного сервера доступа. В первой команде для роли пограничного сервера \<доступа SIP должно быть\> указано полное доменное имя внешнего доступа. По умолчанию это должно быть имя\<\>AP. domain.
   
@@ -101,11 +101,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users-in-office-365"></a>Настройка пользователей в Office 365
 
-Войдите на портал администрирования Office 365, добавьте пользователей, которые будут включены для служб голосовой связи, и назначьте лицензию или телефонную систему в Office 365 в надстройку E3 для этих пользователей. Сведения о добавлении пользователей приведены в статье [Добавление пользователей в Office 365 для бизнеса](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Войдите в центр администрирования Microsoft 365, добавьте пользователей, которые будут включены для служб голосовой связи, и назначьте лицензию или телефонную систему в Office 365 в надстройку E3 для этих пользователей. Сведения о добавлении пользователей приведены в статье [Добавление пользователей в Office 365 для бизнеса](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Включение пользователей для телефонной системы в службе голосовой связи и голосовой почты Office 365
 
-После добавления пользователей в Office 365 включите их учетные записи для телефонной системы в службе голосовой связи Office 365, включая голосовую почту. Чтобы включить эти возможности, необходимо войти в клиент Office 365 с помощью учетной записи, которая является ролью глобального администратора Office 365, и запустить удаленную оболочку PowerShell. Чтобы узнать, как установить удаленный сеанс PowerShell, ознакомьтесь со статьей: [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+После добавления пользователей в Office 365 включите их учетные записи для телефонной системы в службе голосовой связи Office 365, включая голосовую почту. Чтобы включить эти возможности, необходимо войти в организацию Office 365 с помощью учетной записи, которая является ролью глобального администратора, и запустить удаленную оболочку PowerShell. Чтобы узнать, как установить удаленный сеанс PowerShell, ознакомьтесь со статьей: [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
   
 - Назначьте политику для пользователя и настройте номер рабочего телефона, указанный в параметре **Identity** :
     
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> Если пользователю не назначено ни одного сайта PSTN, гибридное подключение между развертыванием Skype для бизнеса Cloud Connector Edition и вашим клиентом Office 365 будет использоваться по умолчанию на уровне клиента (узел назначения), чтобы можно было выполнить вызовы. 
+> Если пользователю не назначено ни одного сайта PSTN, гибридное подключение между развертыванием Skype для бизнеса Cloud Connector Edition и вашей организацией Office 365 будет использоваться по умолчанию на уровне клиента (узел назначения), чтобы можно было выполнить вызовы. 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>Настройка параметров сервера гибридного гибридного сервера-посредника
 <a name="BKMK_ConfigureMediationServer"> </a>
 
 Когда звонок P2P эскалируется на конференцию PSTN, сервер конференций Skype для бизнеса Online отправляет приглашение на сервер-посредник Cloud Connector. Чтобы обеспечить успешное перенаправление этого приглашения в Office 365, необходимо настроить параметр в сетевом клиенте для каждого сервера-посредника Cloud Connector следующим образом: 
   
-1. Создайте пользователя на портале администрирования Office 365. Используйте любое нужное имя пользователя, например "MediationServer1".
+1. Создайте пользователя в центре администрирования Microsoft 365. Используйте любое нужное имя пользователя, например "MediationServer1".
     
     Использование домена SIP по умолчанию для Cloud Connector (первый домен SIP в ini-файле) в качестве домена пользователя.
     
-    Обратите внимание, что назначение лицензии необходимо только для распространения пользователей в каталоге Skype для бизнеса Online. Назначьте созданной учетной записи лицензии на Office 365 (например, "сообщение об ошибках"), а затем убедитесь, что учетные записи пользователей правильно настроены в каталоге Skype для бизнеса Online, выполнив следующий командлет, а затем удалите Лицензия с этой учетной записи.
+    Обратите внимание, что назначение лицензии необходимо только для распространения пользователей в каталоге Skype для бизнеса Online. Назначьте созданной учетной записи лицензии на Office 365 (например, "а"), а затем убедитесь, что учетные записи пользователей правильно подготовлены к каталогу Skype для бизнеса Online, выполнив следующий командлет, а затем удалите лицензию из этой учетной записи.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -186,7 +186,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
-    Для параметра Identity укажите отображаемое имя учетной записи пользователя Office 365, созданной для этого сервера-посредника.
+    В качестве параметра Identity укажите отображаемое имя учетной записи пользователя, созданной для этого сервера-посредника.
     
     Для *медиатионсерверфкдн* используйте внутреннее полное доменное имя, определенное для сервера-посредника.
     

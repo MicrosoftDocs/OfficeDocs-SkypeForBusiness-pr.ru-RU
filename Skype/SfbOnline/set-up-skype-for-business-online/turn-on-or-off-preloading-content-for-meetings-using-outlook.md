@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 66373c3609584efb34d54ef4ad9331af608b5a81
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bbcb4451db2203fbd4209ecc206904b12d7097ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706304"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777134"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Включение и выключение разрешения предварительной загрузки содержимого для собраний с помощью Outlook
 
 Пользователи могут предварительно загрузить содержимое, файлы или вложения, вложенные в приглашение на собрание, в собрание Skype для бизнеса Online, но вы можете включать и отключать их. Она включена по умолчанию для всех организаций, использующих Skype для бизнеса Online. Узнайте, как [предварительно загрузить вложения для собрания Skype для бизнеса](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> В настоящее время командлеты в Skype для бизнеса Online недоступны для настройки и просмотра значений Online для _максконтентсторажемб_ и _максуплоадфилемб_. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет отправлено на собрание, если его содержимое превышает _максуплоадфилесиземб_ или если достигнуто ограничение _максконтентсторажемб_ .
+> В настоящее время командлеты в Skype для бизнеса Online недоступны для настройки и просмотра значений Online для _MaxContentStorageMB_ и _MaxUploadFileMB_. Они доступны только для локальных развертываний. Важно знать, что содержимое не будет отправлено на собрание, если его содержимое превышает _MaxUploadFileSizeMB_ или если достигнуто ограничение _MaxContentStorageMB_ .
   
 ## <a name="to-get-you-started"></a>Чтобы начать работу, можно сделать следующее
 
@@ -55,7 +55,7 @@ ms.locfileid: "41706304"
   
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.

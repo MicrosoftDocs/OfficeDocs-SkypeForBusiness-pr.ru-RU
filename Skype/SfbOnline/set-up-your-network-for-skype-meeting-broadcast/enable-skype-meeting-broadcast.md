@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010612"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778124"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -35,7 +35,7 @@ ms.locfileid: "42010612"
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в систему с помощью учетной записи глобального администратора Office 365 или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
+1. Войдите в систему с помощью учетной записи глобального администратора или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
     
 2. В центре администрирования перейдите в раздел **центры** > администрирования**Teams**.
     
@@ -55,7 +55,7 @@ ms.locfileid: "42010612"
     
 6. В **меню Пуск**выберите пункт **Windows PowerShell**.
     
-7. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+7. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
    ```PowerShell
    $Credential = get-credential
@@ -69,7 +69,7 @@ ms.locfileid: "42010612"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    Убедитесь, что для __ `False`параметра енаблеброадкастмитинг задано значение.
+    Убедитесь, что для _EnableBroadcastMeeting_ `False`параметра EnableBroadcastMeeting задано значение.
     
      ![Трансляция собраний Skype с помощью командлета Organization.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
@@ -96,7 +96,7 @@ ms.locfileid: "42010612"
   
 Чтобы пропустить этот шаг и добавить еще один бизнес в Федерацию, ознакомьтесь с разделом [Разрешить пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

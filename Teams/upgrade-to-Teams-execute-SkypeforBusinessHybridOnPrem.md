@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139628"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780158"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Переход с Skype для бизнеса локально на Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "43139628"
 -   [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
 
-Если вы развернули Skype для бизнеса Server или Microsoft Lync в локальной среде, а ваша организация хочет перейти на Teams, следуйте указаниям в этой статье. Вам нужно настроить гибридную связь с вашим клиентом Office 365 и определить требования к сосуществованию, если вы перемещаете пользователей в Teams (этапы). 
+Если вы развернули Skype для бизнеса Server или Microsoft Lync в локальной среде, а ваша организация хочет перейти на Teams, следуйте указаниям в этой статье. Вам нужно настроить гибридное подключение к вашей организации Office 365 и определить требования к сосуществованию, если вы перемещаете пользователей в Teams (этапы). 
 
 > [!IMPORTANT]
 > Поддержка Skype для бизнеса Online будет прекращена 31 июля 2021 г., после чего эта служба больше не будет доступна. Чтобы повысить эффективность реализации льготы и убедиться в том, что в вашей организации установлено правильное время для внедрения вашего обновления, мы рекомендуем начать путешествие в Microsoft Teams уже сегодня. Помните о том, что успешное обновление ориентировано на техническую и пользовательскую готовность, поэтому не забудьте использовать руководство для навигации в Microsoft Teams.

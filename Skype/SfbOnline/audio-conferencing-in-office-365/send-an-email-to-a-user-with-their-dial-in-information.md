@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Отправляйте своим пользователям сообщения электронной почты с информацией для участия в аудиоконференциях в Skype для бизнеса Online.
-ms.openlocfilehash: 78ce937bd9aa3bcdab8c860ce261c419af7cc768
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b499bfb4734d46a671ff4c236b354630f7e0a284
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680406"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776814"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка электронного письма пользователю со сведениями о голосовой конференции в Skype для бизнеса Online
 
@@ -55,7 +55,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 
 3. В разделе **Аудиоконференции** щелкните **Отправить информацию для конференций в электронном письме**.
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. Перейдите в центр администрирования > **Skype для бизнеса**, а затем на панели навигации слева выберите пункт **звуковые конференции**.
     
@@ -84,11 +84,11 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
 - By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet. To make changes to the email address that is sending the email to users, you must:
     
-  - Введите адрес электронной почты в параметре Сендемаилфромаддресс.
+  - Введите адрес электронной почты в параметре SendEmailFromAddress.
     
   - Присвойте параметру SendEmailOverride значение True.
     
-  - Введите отображаемое имя электронной почты в параметре Сендемаилфромдисплайнаме.
+  - Введите отображаемое имя электронной почты в параметре SendEmailFromDisplayName.
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -122,6 +122,6 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций Skype для бизнеса Online, такие как поставщик, номера платной или бесплатной линии по умолчанию, идентификатор конференции или PIN-код. '
-ms.openlocfilehash: c9a5f90d0c7577571188764393ecc667a243cd56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707184"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777994"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Управлять пользовательскими параметрами аудиоконференций Skype для бизнеса Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "41707184"
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. Выберите **Центры администрирования** > **Skype для бизнеса**.
     
@@ -46,7 +46,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 5. В левой панели навигации выберите **Аудиоконференция** , затем на странице пользователя — « **Свойства** », и внесите изменения в любые из следующих параметров:
     
-|**Параметрами**|**Описание**|
+|**Параметр**|**Описание**|
 |:-----|:-----|
 |**Имя поставщика** <br/> |Выберите поставщика из списка.  <br/><br/> **Примечание:** остальные параметры в этой таблице применяются только в том случае, если выбрать Microsoft в качестве поставщика аудиоконференций.           |
 |**Бесплатный номер по умолчанию** (обязательно) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
@@ -63,7 +63,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление настройками аудиоконференции для организации](manage-the-audio-conferencing-settings-for-my-organization.md)
 

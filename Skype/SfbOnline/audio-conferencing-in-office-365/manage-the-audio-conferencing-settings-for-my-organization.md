@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'В статье Skype для бизнеса Online вы можете назначать лицензии для конференц-связи с телефонным подключением и ИДЕНТИФИКАТОРом конференции для пользователя и многих других параметров конференц-связи с телефонным подключением. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986524"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777984"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Управление параметрами аудиоконференций организации в Skype для бизнеса Online
 
@@ -43,7 +43,7 @@ ms.locfileid: "41986524"
 
  **Назначение лицензии для пользователя**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. На панели навигации в центре администрирования перейдите в раздел**Активные пользователи** **пользователей** > и выберите пользователя или пользователей из списка доступных пользователей.
 
@@ -61,7 +61,7 @@ ms.locfileid: "41986524"
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
@@ -90,7 +90,7 @@ ms.locfileid: "41986524"
 
 You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet. To make changes to the email address that is sending the email to the users, you must:
 
-- Введите адрес электронной почты в параметре _сендемаилфромаддресс_ .
+- Введите адрес электронной почты в параметре _SendEmailFromAddress_ .
 
 - Введите отображаемое имя в параметр  _SendEmailFromDisplayName_.
 
@@ -110,7 +110,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-the-meeting-conference-id"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -128,7 +128,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
@@ -142,7 +142,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Отправка пользователю сообщения электронной почты с данными голосовой конференции
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
@@ -157,7 +157,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Настройка номеров телефонов, включенных в приглашения
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -175,7 +175,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 **Настройка процесса собрания, когда абоненты присоединяются к собранию**
 
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -195,7 +195,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
   
  **Установка длины ПИН-кода для собраний**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -209,7 +209,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
   
  **Включение и отключение отправки электронной почты пользователям с аудио**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
@@ -226,7 +226,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Просмотр и установка основных (по умолчанию) и дополнительных (альтернативных) языков для моста голосовой конференц-связи
 
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -240,7 +240,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Просмотр номеров для телефонной конференции
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -258,7 +258,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -331,7 +331,7 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
     Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление настройками аудиоконференции для пользователя](manage-the-audio-conferencing-settings-for-a-user.md)
 

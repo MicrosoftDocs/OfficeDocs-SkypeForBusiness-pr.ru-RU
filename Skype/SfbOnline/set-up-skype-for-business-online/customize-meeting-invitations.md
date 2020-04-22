@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Настройка приглашений на собрания Skype с помощью графических логотипов, справки и юридических URL-адресов и текста нижнего колонтитула. '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769642"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776234"
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
 
 Администраторы могут убедиться, что все приглашения на собрания Skype для бизнеса содержат полезные сведения, которые могут потребоваться пользователям, например ссылки на веб-сайт службы поддержки и юридическое заявление, логотип вашей компании и другой текст, который вы хотите включить. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Советы по созданию логотипа для приглашений на собрания
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Советы по созданию логотипа для приглашения на встречу
 <a name="__top"> </a>
 
 1. Создание изображения, которое имеет размер не более 188 пикселей в ширину и на 30 пикселей в высоту (он очень мелкий).
@@ -41,14 +41,14 @@ ms.locfileid: "41769642"
     
 3. Храните изображение в централизованном расположении, доступном для всех пользователей организации, например в сетевой папке, общей папке OneDrive для бизнеса, Dropbox и т. д.
     
-    Теперь вы можете добавить его в приглашения на собрание. Ознакомьтесь со статьей ниже.
+    Теперь вы можете добавить его в свои приглашения на встречу. Смотрите следующие шаги.
     
-## <a name="customize-your-meeting-invitations"></a>Настройка приглашений на собрания
+## <a name="customize-your-meeting-invitations"></a>Настройте приглашения на встречи
 <a name="__top"> </a>
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. В центре администрирования выберите пункт **центры** > администрирования**Skype для бизнеса**.
     
@@ -76,7 +76,7 @@ ms.locfileid: "41769642"
 ## <a name="related-topics"></a>См. также
 <a name="__top"> </a>
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

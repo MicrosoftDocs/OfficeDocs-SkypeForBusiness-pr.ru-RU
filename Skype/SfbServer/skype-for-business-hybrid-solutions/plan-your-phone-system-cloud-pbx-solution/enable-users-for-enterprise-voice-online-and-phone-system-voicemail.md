@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить телефонную систему в службы голосовой связи Office 365 для пользователей Skype для бизнеса.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050201"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780728"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Включение поддержки корпоративной голосовой связи и телефонной системы в Office 365 Голосовая почта для пользователей
  
 Узнайте, как включить телефонную систему в службы голосовой связи Office 365 для пользователей Skype для бизнеса.
   
-Последним шагом в развертывании телефонной системы в Office 365 с локальной сетью PSTN является предоставление пользователям доступа к телефонной системе в Office 365 и голосовой почте. Чтобы включить эти возможности, необходимо быть пользователем с ролью глобального администратора Office 365 и иметь возможность запускать удаленную оболочку PowerShell. Необходимо выполнить действия, описанные в этом разделе, для всех учетных записей пользователей, для которых еще не включена поддержка корпоративной голосовой связи в Skype для бизнеса Online.
+Последним шагом в развертывании телефонной системы в Office 365 с локальной сетью PSTN является предоставление пользователям доступа к телефонной системе в Office 365 и голосовой почте. Чтобы включить эти возможности, необходимо быть пользователем с ролью глобального администратора и иметь возможность запускать удаленную оболочку PowerShell. Необходимо выполнить действия, описанные в этом разделе, для всех учетных записей пользователей, для которых еще не включена поддержка корпоративной голосовой связи в Skype для бизнеса Online.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Включение телефонной системы в службе голосовой связи Office 365
 
@@ -78,7 +78,7 @@ ms.locfileid: "42050201"
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Пример:
+    Например,
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

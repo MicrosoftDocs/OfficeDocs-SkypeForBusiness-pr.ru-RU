@@ -1,5 +1,5 @@
 ---
-title: Попробуйте или купите голосовые конференции в Office 365 для Teams
+title: Попробуйте или купите голосовую конференцию в Microsoft 365 для Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139698"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780168"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 для Microsoft Teams
 
 В некоторых случаях пользователям в организации требуется телефон, чтобы присоединиться к собранию. В этой ситуации Microsoft Teams включает функцию голосовой конференции. Пользователи могут звонить на собрания Microsoft Teams с помощью телефона, вместо того чтобы использовать приложение Microsoft Teams на мобильном устройстве или компьютере.
 

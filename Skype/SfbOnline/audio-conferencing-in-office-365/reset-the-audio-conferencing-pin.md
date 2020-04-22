@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте о том, что нужно знать о контактах и о том, как сбросить их в Skype для бизнеса Online. '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680566"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777704"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
 
@@ -39,7 +39,7 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## <a name="reset-a-users-pin"></a>Сброс ПИН-кода пользователя
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. Перейдите в центр администрирования > **Skype для бизнеса**, а затем на панели навигации слева выберите пункт **звуковые конференции**.
     
@@ -103,6 +103,6 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user.md)

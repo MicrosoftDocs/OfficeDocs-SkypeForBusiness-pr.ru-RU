@@ -1,5 +1,5 @@
 ---
-title: Кодекс обучения для Великобритании -Планы звонков по Office 365
+title: Кодекс обучения для Великобритании -Планы звонков по Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: В этой статье рассказывается о том, как использовать планы звонков по КОММУТИРУЕМой телефонной связи для Skype для бизнеса в Великобритании, в том числе о том, где можно получить помощь и как отправлять жалобы и разрешать спор
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139048"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779635"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Планы звонков в Office 365 — нормы и правила для Соединенного Королевства
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Планы звонков в Microsoft 365 — код практического занятия для Великобритании (Великобритания)
 
 Этот код относится к клиентам малых предприятий (организациям с 10 и более сотрудниками) в Великобритании (Великобритания) в соответствии с правилами связи по работе с Office 365 (услуга), согласно требованиям к соединению Великобритании. Использование других служб Skype для бизнеса регламентируется вашим соглашением на обслуживание корпорацией Майкрософт, а также другими условиями, применимыми к конкретной службе.
 

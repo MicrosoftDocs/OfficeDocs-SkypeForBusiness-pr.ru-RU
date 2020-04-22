@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137139"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779625"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Интеграция Moodle с Microsoft Teams 
 
@@ -73,7 +73,7 @@ ms.locfileid: "43137139"
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-Затем требуется зарегистрировать Moodle в качестве приложения в Azure Active Directory. Мы предоставили скрипт PowerShell для выполнения этого процесса. Скрипт PowerShell подготавливает новое приложение Azure AD для клиента Office 365, которое будет использоваться подключаемым модулем Office 365 Moodle. Скрипт подготавливает приложение для клиента Office 365, настраивая все обязательные URL-адреса ответов и разрешения для подготовленного приложения, а также возвращает AppID и ключ. Вы можете использовать созданный AppID и ключ на странице настройки подключаемого модуля Office 365 Moodle, чтобы настроить сервер Moodle в Azure AD. Подробные сведения о действиях, автоматизируемых скриптом PowerShell, см. в полной [документации для подключаемого модуля](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application).
+Затем требуется зарегистрировать Moodle в качестве приложения в Azure Active Directory. Мы предоставили скрипт PowerShell для выполнения этого процесса. Сценарий PowerShell подготавливает новое приложение Azure AD для вашей организации Office 365, которое будет использоваться подключаемым модулем Office 365 Moodle. Скрипт подготавливает приложение для клиента Office 365, настраивая все обязательные URL-адреса ответов и разрешения для подготовленного приложения, а также возвращает AppID и ключ. Вы можете использовать созданный AppID и ключ на странице настройки подключаемого модуля Office 365 Moodle, чтобы настроить сервер Moodle в Azure AD. Подробные сведения о действиях, автоматизируемых скриптом PowerShell, см. в полной [документации для подключаемого модуля](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application).
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>Поток данных вкладки Moodle для Microsoft Teams
 

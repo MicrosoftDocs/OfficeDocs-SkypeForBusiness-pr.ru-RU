@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Пользователи Skype для бизнеса могут использовать встроенное средство обратной связи в Skype для бизнеса, чтобы пользователи могли сообщать о проблемах и получать отзывы прямо в Microsoft о своих впечатлениях.
-ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b696b74d642770c29106706e49e4a8946f4932a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706294"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777044"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
@@ -61,7 +61,7 @@ ms.locfileid: "41706294"
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.

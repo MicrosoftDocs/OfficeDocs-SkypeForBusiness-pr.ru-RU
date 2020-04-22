@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Содержит ссылки на последние сведения об обновлениях для бессрочных версий клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013 для ИТ-специалистов
-ms.openlocfilehash: 4ad81a06fd6360ecc62fdddeb694a1abad07eec3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009592"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779705"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления для версий Skype для бизнеса, использующих установщик Windows (MSI)
 
@@ -25,7 +25,7 @@ ms.locfileid: "42009592"
 
 > [!NOTE]
 > - Сведения, приведенные в этой статье, относятся только к бессрочным версиям Skype для бизнеса, использующим технологию установки установщика Windows (MSI). Например, если вы установили Skype для бизнеса с корпоративной лицензией, например Skype для бизнеса, входящий в состав Office профессиональный плюс 2016.
-> - Сведения, приведенные в этой статье, не применимы к Office 365 версии Skype для бизнеса, например Skype для бизнеса, входящий в состав Office 365 профессиональный плюс.
+> - Сведения, приведенные в этой статье, не относятся к Office 365 версии Skype для бизнеса, например Skype для бизнеса, входящий в состав приложений Microsoft 365 для предприятий.
 > - Для получения последних обновлений мобильных клиентов перейдите в магазин приложений для мобильного клиента (iTunes, Google Воспр или Microsoft Store) для просмотра сведений и установки обновлений.
 > - Чтобы узнать, какую версию Skype для бизнеса вы используете, посмотрите, [какая у меня версия Skype для бизнеса?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Дополнительные сведения об установке обновлений Office см. в статье [Установка обновлений Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).

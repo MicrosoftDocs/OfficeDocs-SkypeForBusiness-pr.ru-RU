@@ -18,17 +18,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd34bf368667fcfa5776de40cad0d1444440805a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137259"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778565"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 
 > [!Tip]
-> В следующем сеансе показано, как взаимодействие Teams с Azure Active Directory (AAD), группами Office 365, Exchange, SharePoint и OneDrive для бизнеса: [основы Microsoft Teams](https://aka.ms/teams-foundations)
+> В следующем сеансе показано, как взаимодействие Teams с Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint и OneDrive для бизнеса: [основы Microsoft Teams](https://aka.ms/teams-foundations)
 
 Каждая группа в Microsoft Teams имеет сайт группы в SharePoint Online и каждый стандартный канал в группе получает папку в библиотеке документов сайта группы по умолчанию. Файлы, совместно используемые во время беседы, автоматически добавляются в библиотеку документов, а заданные в SharePoint разрешения и параметры безопасности файлов автоматически переносятся в Teams. Чтобы увидеть влияние изменения адреса сайта в SharePoint, прочитайте ссылку [изменение адреса сайта](https://docs.microsoft.com/sharepoint/change-site-address).
 

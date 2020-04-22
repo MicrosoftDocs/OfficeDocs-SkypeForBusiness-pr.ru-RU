@@ -1,5 +1,5 @@
 ---
-title: Включение Teams в организации Office 365
+title: Включение команд в Microsoft 365 или Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Сведения о том, как включить Microsoft Teams для организации, в которой используется Office 365
+description: Сведения о том, как включить Microsoft Teams для Microsoft 365 или Office 365.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3f4225eceea027a87843f5c92047ce98187ce9e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d10e93c1ae5f01a2417502f99ee18ab4d12d7b9d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136479"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778545"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Включение Teams в организации
 

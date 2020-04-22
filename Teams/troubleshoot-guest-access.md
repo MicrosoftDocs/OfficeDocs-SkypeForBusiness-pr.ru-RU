@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b8ef4fb03de0172403556334e43359402ccce113
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 52d3922bc68e942ad1cd58e40861fa8820ee6614
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157742"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778405"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Устранение неполадок с гостевым доступом в Microsoft Teams
 ======================================================
@@ -39,7 +39,7 @@ ms.locfileid: "43157742"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Если у гостей возникают ошибки лицензирования
 
-Гостевой доступ в Teams использует взаимодействие "бизнес-бизнес" (B2B) Azure Active Directory (Azure AD) и соответствующую модель лицензирования. Функция гостевого доступа включена во все подписки Office 365 бизнес премиум, Office 365 корпоративный и Office 365 для образования. Дополнительная лицензия Office 365 не требуется.
+Гостевой доступ в Teams использует взаимодействие "бизнес-бизнес" (B2B) Azure Active Directory (Azure AD) и соответствующую модель лицензирования. Гостевой доступ входит в состав всех Microsoft 365 Business Standard, Office 365 корпоративный и Office 365 для образования. Дополнительная лицензия Office 365 не требуется.
 
 > [!NOTE]
 > Для использования гостевых групп в качестве гостя на другом клиенте (ресурсе) Teams необходимо включить в домашнюю страницу гостя.
@@ -48,7 +48,7 @@ ms.locfileid: "43157742"
 
 
 - Гостевые лицензии учитываются в приглашающей организации. Это следует иметь в виду при подсчете количества необходимых лицензий.
-- Лицензии учитываются в вашей организации, если приглашенные гости относятся к другому клиенту Office 365 или используют свои личные адреса электронной почты.
+- Лицензии будут учитываться для вашей организации, независимо от того, приходят ли приглашенные гости из другой организации Office 365 или используют их личные адреса электронной почты.
 
 ## <a name="support-for-b2b-user-types"></a>Поддержка типов пользователей B2B
 В настоящее время Teams поддерживает гостевых пользователей только с состояниями 1 и 2 [согласно определению Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).

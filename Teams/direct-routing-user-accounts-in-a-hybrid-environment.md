@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте о различных сочетаниях для создания пользователей, а также о том, какие комбинации поддерживаются или не поддерживаются.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141082"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779998"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде со связью с ТСОП
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141082"
 Эта статья относится к средам, в которых есть все указанные ниже возможности. 
  
 - Skype для бизнеса Server или Lync Server 2013 
-- Клиент Office 365 
+- Организация Office 365 
 - Настройка гибридной связи между Skype для бизнеса Server и Skype для бизнеса Online или Microsoft Teams 
 - Пользователи, которым разрешено совершать и принимать звонки по коммутируемой телефонной сети (PSTN) на клиент и из него;
 

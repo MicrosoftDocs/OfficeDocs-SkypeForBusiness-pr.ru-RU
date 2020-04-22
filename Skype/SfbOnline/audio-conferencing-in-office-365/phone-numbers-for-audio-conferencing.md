@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Узнайте, какие страны и регионы имеют телефонные номера для конференц-связи и как они автоматически назначаются.
-ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986514"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777444"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Номера телефонов для аудиоконференций в приложении Skype для бизнеса Online
 
@@ -49,22 +49,22 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Чтобы просмотреть другие номера для подключения, перейдите по ссылке **Найти местный номер** в приглашении на собрание.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Телефонные номера для телефонного подключения, заданные в Мосте голосовой конференц-связи
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Телефонные номера для входящих звонков, установленные на мосту аудиоконференцсвязи
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
  **Выделенные телефонные номера**  это номера, доступные только для пользователей внутри организации. Вы можете изменить языки, которые используются при звонках на эти номера.
   
- **Общедоступные телефонные номера**  это номера, доступ к которым можно предоставлять другим организациям Office 365. Изменить языки, которые используются при звонках на эти номера, нельзя.
+ **Общие номера** телефонов — это номера телефонов, которые можно предоставлять другим пользователям Microsoft 365 или Office 365s. Вы не можете изменить языки, которые используются при звонках на один из этих номеров.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Автоматически назначаемые номера телефонов для голосовой конференции
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Автоматически назначаемые номера телефонов аудиоконференций
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> Страну или регион Организации можно найти, войдя в центр администрирования Microsoft 365 и просматривая в разделе " **профиль организации**". 
+> Страна или регион, в котором находится ваша организация, можно найти, войдя в центр администрирования Microsoft 365 и просмотрев раздел **Профиль организации**. 
   
 > [!CAUTION]
 > Из-за ограниченной доступности платных телефонных номеров в Венесуэла, Индонезия, Вьетнаме и Объединенных Арабских ОАЭ (ОАЭ) в организации из этих стран или регионов не будет автоматически назначен номер для голосовой конференции. Бесплатные номера из этих местоположений доступны в зависимости от имеющихся запасов. 
@@ -87,6 +87,6 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

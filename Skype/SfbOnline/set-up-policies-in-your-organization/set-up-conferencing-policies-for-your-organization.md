@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d7bbcca81888487d54fa1a08eaf09b5462dc391f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887898"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776244"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -59,7 +59,7 @@ ms.locfileid: "41887898"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+    2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
         
         > [!NOTE]
         > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
@@ -80,14 +80,14 @@ ms.locfileid: "41887898"
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
+   Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
   Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx), чтобы применить настройки к пользователям.
   
@@ -98,16 +98,16 @@ ms.locfileid: "41887898"
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
+   Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
-Если вы уже создали политику, вы можете использовать командлет [Set-ксконференЦингполици](https://technet.microsoft.com/library/mt779157.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) , чтобы применить параметры к вашим пользователям.
+Если вы уже создали политику, вы можете использовать командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 
@@ -116,7 +116,7 @@ ms.locfileid: "41887898"
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   Дополнительные сведения о командлете [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
@@ -125,7 +125,7 @@ ms.locfileid: "41887898"
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
+Дополнительные сведения о командлете [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
 Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx), чтобы применить настройки к пользователям.
   
@@ -145,7 +145,7 @@ ms.locfileid: "41887898"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Блокировка передачи файлов между точками](block-point-to-point-file-transfers.md)

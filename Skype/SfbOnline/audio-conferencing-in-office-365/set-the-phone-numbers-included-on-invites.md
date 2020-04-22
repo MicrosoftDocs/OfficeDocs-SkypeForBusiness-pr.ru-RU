@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: c6a8c9c3b3d21a64ad54d84ed8bfab22044f9cf5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680376"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776784"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Настройка номеров телефонов, включенных в приглашения в Skype для бизнеса Online
 
@@ -48,7 +48,7 @@ ms.locfileid: "41680376"
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Установка номера телефона для подключения по умолчанию для организатора собрания
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. Выберите **Центры администрирования** > **Skype для бизнеса**.
     
@@ -108,7 +108,7 @@ ms.locfileid: "41680376"
 - Используйте командлет **Set-CsOnlineDialInConferencingUserDefaultNumber** для изменения платного или бесплатного номера по умолчанию для пользователей на основе исходного номера по умолчанию, свойственного для местоположения этих пользователей.
     
     > [!NOTE]
-    > Чтобы найти Бриджеид, используйте командлет **Get-ксонлинедиалинконференЦингбридже** .
+    > Чтобы найти BridgeID, используйте командлет **Get-CsOnlineDialInConferencingBridge** .
   
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
@@ -146,6 +146,6 @@ ms.locfileid: "41680376"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Политики клиента помогают определить функции Skype для бизнеса online, доступные пользователям. Например, вы можете предоставить одним пользователям право передавать файлы и запретить это другим пользователям.
-ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 43b51b800b3107410c64bd2605b5a6a7622fe65a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887908"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776294"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Настройка политик клиента в организации
 
@@ -55,7 +55,7 @@ ms.locfileid: "41887908"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+    2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
         > [!NOTE]
         > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
@@ -148,7 +148,7 @@ ms.locfileid: "41887908"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Блокировка передачи файлов между точками](block-point-to-point-file-transfers.md)

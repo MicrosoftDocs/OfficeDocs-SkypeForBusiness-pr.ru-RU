@@ -15,12 +15,12 @@ f1.keywords:
 description: Узнайте о барьерах информации и о том, как они влияют на Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a666d89e78a9234144eb09173b713d1186410206
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8cdb736db3234d0c7e24729a7d8e2b06c2d068d0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157822"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780818"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Информационные барьеры в Microsoft Teams
 
@@ -60,14 +60,14 @@ ms.locfileid: "43157822"
 
 ## <a name="managing-information-barrier-policies"></a>Управление политиками барьера данных
 
-Политики управления информационными барьерами управляются в центре безопасности & Office 365 (SCC) с помощью командлетов PowerShell. Дополнительные сведения можно найти в разделе [Определение политик для барьеров информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+Политики управления информационными барьерами управляются в центре соответствия требованиям Microsoft 365 (SCC) с помощью командлетов PowerShell. Дополнительные сведения можно найти в разделе [Определение политик для барьеров информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
 > Перед настройкой или определением политик **необходимо включить поиск по каталогу в Microsoft Teams**. Подождите не менее 24 часов после включения поиска в каталог с областью действия, прежде чем настраивать или определять политики для барьеров информации. Дополнительные сведения [о предварительных требованиях для информационных барьеров](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Роль администратора "препятствия данных"
 
-Роль управления соответствием требованиям несет ответственность за управление политиками барьера информации. Дополнительные сведения об этой роли можно найти [в разделе разрешения в центре безопасности & Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Роль управления соответствием требованиям несет ответственность за управление политиками барьера информации. Дополнительные сведения об этой роли можно найти [в разделе разрешения в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="information-barrier-triggers"></a>Триггеры информационного барьера
 
@@ -93,7 +93,7 @@ ms.locfileid: "43157822"
 
 - **Экран, совместно используемый несколькими пользователями** (каждый раз, когда на экране размещается несколько пользователей), необходимо оценивать экран, чтобы убедиться в том, что они не нарушают политики барьера информационных ресурсов других пользователей. Если нарушена политика информационных барьеров, демонстрация экрана не разрешается.
 - **Пользователь помещает телефонный звонок (VoIP) в Teams** – любое время, когда пользователь может инициировать голосовой звонок другому пользователю или группе пользователей, этот вызов оценивается, чтобы убедиться, что он не нарушает политики барьера информации других участников группы. Если возникнут нарушения, голосовой звонок блокируется.
-- **Гостевые пользователи в Teams** – политики барьера данных также применяются к гостевой машине в Teams. Если гостевые пользователи должны быть обнаружены в глобальном списке адресов своей организации, ознакомьтесь со статьей [Управление гостевым доступом в группах Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). После того как гостевые пользователи будут обнаруживаемыми, вы можете [определить политики барьера информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Гостевые пользователи в Teams** – политики барьера данных также применяются к гостевой машине в Teams. Если гостевые пользователи должны быть обнаружены в глобальном списке адресов своей организации, ознакомьтесь со статьей [Управление гостевым доступом в группах Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). После того как гостевые пользователи будут обнаруживаемыми, вы можете [определить политики барьера информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Влияние изменений политики на существующие разговоры
 

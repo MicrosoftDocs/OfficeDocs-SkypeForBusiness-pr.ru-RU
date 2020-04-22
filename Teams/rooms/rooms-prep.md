@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: В этой статье объясняется подготовка инфраструктуры к развертыванию комнат Microsoft Teams.
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825875"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779776"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -76,16 +76,16 @@ ms.locfileid: "41825875"
 Комнаты Microsoft Teams разработаны для наследования параметров прокси из операционной системы Windows. Для доступа к параметрам ОС Windows выполните следующие действия.
   
 1. В пользовательском интерфейсе комнаты Microsoft Teams щелкните значок шестеренки "Параметры", в котором вам будет предложено ввести пароль локального администратора на устройстве (пароль по умолчанию — **SFB**).
-2. Коснитесь значка " **Параметры** ", а затем коснитесь кнопки " **Перейти** к", а затем коснитесь кнопки " **Перейти к** администратору", а затем нажмите кнопку " **Администратор** " (если компьютер подключен к домену выберите **другого пользователя,** а затем используйте .\админ в качестве имени пользователя).
+2. Коснитесь значка " **Параметры** ", а затем коснитесь кнопки " **Перейти** к", а затем коснитесь кнопки " **Перейти к** администратору", а затем нажмите кнопку " **Администратор** " (если компьютер подключен к домену выберите **другого пользователя,** а затем используйте .\Admin в качестве имени пользователя).
 3. В левом нижнем углу окна Поиск в поле **поиска** введите в Regedit (длинные нажмите экран или щелкните правой кнопкой мыши и выберите команду **Запуск от имени администратора**).
 4. Щелкните папку HKEY_USERS (вы увидите список идентификаторов SID пользователей компьютера) и убедитесь в том, что выбрана корневая папка HKEY_USERS.
        
 5. Щелкните файл и выберите **Загрузить куст.**
-6. Перейдите в папку **к:\усерс\скипе** и введите в поле имя файла NTuser. dat и нажмите кнопку Открыть.
+6. Перейдите в папку **C:\Users\Skype** и введите в поле имя файла NTuser. dat и нажмите кнопку Открыть.
 
 7. Вам будет предложено ввести имя для нового куста. Введите Skype (теперь вы должны увидеть параметры реестра для пользователя Skype).
  
-8. Откройте клавишу Skype и перейдите к HKEY_USERS параметры \Скипе\софтваре\микрософт\виндовс\куррентверсион\интернет и убедитесь, что эти параметры введены. 
+8. Откройте клавишу Skype и перейдите к HKEY_USERS параметры \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet и убедитесь, что эти параметры введены. 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -110,7 +110,7 @@ ms.locfileid: "41825875"
 |Назначение|Источник учетных данных|Исходный порт|Конечный порт|Сеть доставки содержимого|ExpressRoute для Office 365|Конечный IP-адрес|Конечный порт|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Проверка подлинности и удостоверение в  <br/> |Сведения о [проверке подлинности и удостоверении Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Портал и общие службы  <br/> |Просмотр [портала Office 365 и общего доступа](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Портал и общие службы  <br/> |Ознакомьтесь [с центром администрирования Microsoft 365 и общим доступом](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
 |Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Скачанные по протоколу HTTPS данные  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -166,8 +166,8 @@ ms.locfileid: "41825875"
   
 [Развертывание комнат Microsoft Teams](rooms-deploy.md)
   
-[Настройка консоли Microsoft Teams](console.md)
+[Настройка консоли комнат Microsoft Teams](console.md)
   
-[Управление приложением "Комнаты Microsoft Teams"](rooms-manage.md)
+[Управление комнатами Microsoft Teams](rooms-manage.md)
 
 [Необходимые условия для бизнеса и образовательных учреждений в Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

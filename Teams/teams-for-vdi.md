@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521615"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779988"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -90,7 +90,7 @@ Teams в виртуализованной среде поддерживает н
 |Параметр  |Операционная система рабочей станции  |Система операционной системы сервера  |
 |---------|---------|---------|
 |vCPU   |    2 ядра     |  4, 6 или 8<br>Важно понимать основную конфигурацию неоднородного доступа к памяти (NUMA) и настраивать виртуальные компьютеры соответствующим образом.     |
-|ДОСТУПНОЙ     |   4 ГБ      | 512 – 1024 МБ на одного пользователя        |
+|ОЗУ     |   4 ГБ      | 512 – 1024 МБ на одного пользователя        |
 |Хранилище    | 8 ГБ        | 40 – 60 ГБ        |
 
 #### <a name="non-persistent-setup"></a>Настройка не постоянной
@@ -106,27 +106,27 @@ Teams в виртуализованной среде поддерживает н
 - файлы. txt
 - Папка "мультимедиа-стопка"
 
-### <a name="office-365-proplus-considerations"></a>Рекомендации по Office 365 профессиональный плюс
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>Общие сведения о приложениях Microsoft 365 для предприятий
 
-При развертывании Teams с помощью Office 365 профессиональный плюс в VDI следует принимать во что описанные ниже действия.
+При развертывании Teams с помощью приложений Microsoft 365 для предприятий в VDI следует иметь в виду следующее.
 
-#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Новые развертывания Teams с помощью Office 365 ProPlus
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>Новые развертывания Teams с помощью приложений Microsoft 365 для предприятий
 
-Прежде чем развертывать команды с помощью Office 365 ProPlus, необходимо сначала удалить все уже существующие приложения Teams, если они были развернуты с помощью установки на компьютере.
+Прежде чем развертывать команды с помощью приложений Microsoft 365 для предприятий, необходимо сначала удалить все уже существующие приложения Teams, если они были развернуты с помощью установки на компьютере.
 
-Группы с Office 365 профессиональный плюс устанавливаются для каждого пользователя. Дополнительные сведения можно найти в статье [Установка и обновление классического приложения Teams в VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
+Teams через приложения Microsoft 365 для предприятий устанавливаются для каждого пользователя. Дополнительные сведения можно найти в статье [Установка и обновление классического приложения Teams в VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
-#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Развертывание Teams с помощью обновлений Office 365 ProPlus
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Развертывание Teams в приложениях Microsoft 365 для корпоративных обновлений
 
-Кроме того, Teams также добавляется к существующим установкам Office 365 профессиональный плюс. Поскольку Office 365 ProPlus устанавливает команды только для пользователей, ознакомьтесь с разделом [Установка или обновление в классическом приложении Teams в VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
+Кроме того, Teams также добавляется к существующим установкам приложений Microsoft 365 для предприятий. Так как приложения Microsoft 365 для предприятий устанавливают команды только для пользователей, ознакомьтесь с разделом [Установка или обновление в классическом приложении Teams в VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
-#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Использование Teams с установкой на компьютере и Office 365 ProPlus
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>Использование Teams с установкой на компьютере и приложениями Microsoft 365 для предприятий
 
-Office 365 профессиональный плюс не поддерживает установку на уровне компьютера для Teams. Для использования установки на компьютере необходимо исключить команды из Office 365 ProPlus. Ознакомьтесь с разделом [Развертывание рабочих групп на виртуальной машине](#deploy-the-teams-desktop-app-to-the-vm) и [Узнайте, как исключить развертывание групп с помощью разделов Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) .
+Приложения Microsoft 365 для предприятий не поддерживают установку на уровне компьютера для Teams. Для использования установки на компьютере необходимо исключить команды из приложений Microsoft 365 для предприятий. Ознакомьтесь с разделом [развертывание приложений Teams на виртуальной машине](#deploy-the-teams-desktop-app-to-the-vm) и [как исключить развертывание групп с помощью приложений Microsoft 365 для корпоративных](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) разделов.
 
-#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Как исключить развертывание команд с помощью Office 365 ProPlus
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Как исключить развертывание команд с помощью приложений Microsoft 365 для предприятий
 
-Дополнительные сведения о Teams и Office 365 ProPlus можно найти [в статье как исключить команды из новых установок Office 365 профессиональный плюс](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) и [использовать групповую политику для управления установкой Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Дополнительные сведения о Teams и приложениях Microsoft 365 для предприятий можно найти [в статье как исключить группы из новых установок приложений microsoft 365 для предприятий](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) и [использовать групповую политику для управления установкой Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Развертывание классического приложения Teams на виртуальной машине
 

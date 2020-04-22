@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5ed8bb8ec32277e0bebca43338ae233aa6d38f6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010992"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776844"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -50,7 +50,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 Вы можете посмотреть их идентификатор конференции и отправить его пользователям.
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
@@ -78,11 +78,11 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
-3. В> **** центре >  **администрирования Skype для бизнеса**, в разделе " **идентификатор конференции****", в**области "действия" нажмите кнопку **Сброс**.
+3. В> **Audio conferencing**центре >  **администрирования Skype для бизнеса**, в разделе " **идентификатор конференции****", в**области "действия" нажмите кнопку **Сброс**.
 
 4. В окне **Сброс ИД конференции?** нажмите кнопку **Да**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -122,7 +122,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

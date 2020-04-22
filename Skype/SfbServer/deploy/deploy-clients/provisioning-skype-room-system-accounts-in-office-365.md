@@ -1,5 +1,5 @@
 ---
-title: Подготовка учетных записей системы комнат Skype в Office 365
+title: Подготовка учетных записей системы комнат Skype в Microsoft 365 и Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Office 365.
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Microsoft 365 или Office 365.
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037729"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779715"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Подготовка учетных записей системы комнат Skype в Office 365
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Подготовка учетных записей системы комнат Skype в Microsoft 365 и Office 365
  
 В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Office 365.
   
-В следующем разделе описывается подготовка учетной записи системы комнат Skype для клиента Office 365.
+В следующем разделе рассматривается подготовка учетной записи системы комнат Skype для организации Office 365.
   
-## <a name="office-365-prerequisites"></a>Предварительные требования для Office 365
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Предварительные требования для Microsoft 365 и Office 365
 
 Ваш клиент сети должен отвечать следующим требованиям:
   
-- План Office 365 должен включать Skype для бизнеса Online (план 2) или Office 365 E1, E3 или в. <br/>Подробнее о планах Skype для бизнеса Online можно узнать в статье [Описание службы Skype для бизнеса Online](https://technet.microsoft.com/library/jj822172.aspx).
+- План Microsoft 365 или Office 365 должен включать Skype для бизнеса Online (план 2) или Office 365 E1, E3 или в. <br/>Подробнее о планах Skype для бизнеса Online можно узнать в статье [Описание службы Skype для бизнеса Online](https://technet.microsoft.com/library/jj822172.aspx).
     
 - У вашего клиента должна быть возможность конференц-связи с включенной поддержкой Skype для бизнеса.
     
@@ -99,7 +99,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="skype-for-business-online-provisioning"></a>Подготовка к работе в Skype для бизнеса Online
 
-После создания и включения учетной записи почтового ящика для помещения в ресурс, как показано выше, и лицензирования учетной записи для Skype для бизнеса Online учетная запись будет синхронизироваться с лесом Exchange Online в лесу Skype для бизнеса Online с помощью Лес Windows Azure Active Directory. Для подготовки учетной записи системы комнат Skype в пуле Skype для бизнеса Online необходимо выполнить следующие действия. Эти действия одинаковы для существующей учетной записи почтового ящика ресурса или только что созданной учетной записи (confrm1 или confrm2), так как после включения в Exchange Online обе эти учетные записи будут синхронизированы с Skype для бизнеса Online аналогичным образом:
+После создания и включения учетной записи почтового ящика для помещения в ресурс, как показано выше, и лицензирования учетной записи для Skype для бизнеса Online учетная запись будет синхронизироваться с лесом Exchange Online в лесу Skype для бизнеса Online с помощью леса Windows Azure Active Directory. Для подготовки учетной записи системы комнат Skype в пуле Skype для бизнеса Online необходимо выполнить следующие действия. Эти действия одинаковы для существующей учетной записи почтового ящика ресурса или только что созданной учетной записи (confrm1 или confrm2), так как после включения в Exchange Online обе эти учетные записи будут синхронизированы с Skype для бизнеса Online аналогичным образом:
   
 1. Создайте удаленный сеанс PowerShell. Обратите внимание, что вам потребуется скачать модуль соединителя Skype для бизнеса Online и помощник по входу в Microsoft Online Services и проверить, настроен ли компьютер. Для получения дополнительных сведений ознакомьтесь со статьей [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

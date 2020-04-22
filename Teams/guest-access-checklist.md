@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951504"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776954"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Контрольный список гостевого доступа Microsoft Teams
 =========================================
@@ -49,7 +49,7 @@ ms.locfileid: "42951504"
 4. Щелкните **Сохранить**.
 
 > [!TIP]
-> Если вы используете настройки по умолчанию в Azure Active Directory, SharePoint Online и группах Office 365, возможно, вам нужно настроить гостевой доступ. В этом случае вы можете пропустить остальные шаги. Если вы не уверены или используете пользовательские настройки для групп AAD, SharePoint Online или групп Office 365, перейдите к остальным шагам этого контрольного списка.
+> Если вы используете параметры по умолчанию в Azure Active Directory, SharePoint Online и Microsoft 365 Groups, возможно, вы захотите настроить гостевой доступ. В этом случае вы можете пропустить остальные шаги. Если вы не уверены в том, что вы используете пользовательские параметры для AAD, SharePoint Online или Microsoft 365, следуйте дальнейшим указаниям в этом контрольном списке.
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>Шаг 2. Настройка бизнес-параметров Azure AD
 
@@ -75,17 +75,17 @@ ms.locfileid: "42951504"
       
     Дополнительные сведения об управлении возможностью приглашения гостей см. в статье [Делегирование приглашений для службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
-## <a name="step-3-configure-office-365-groups"></a>Шаг 3. Настройка групп Office 365
+## <a name="step-3-configure-microsoft-365-groups"></a>Шаг 3: Настройка групп Microsoft 365
 
-1. В центре администрирования Microsoft 365 выберите **параметры** > **параметры**, щелкните **службы**и выберите **группы Office 365**.
+1. В центре **Settings** > администрирования Microsoft 365 выберите**Параметры**, а затем — **службы**, а затем — **группы Microsoft 365**.
 
-     ![Снимок экрана показывает настройки групп Office 365](media/guest-access-checklist-services-settings.png)
+     ![Снимок экрана: параметры групп Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Убедитесь, что установлен флажок **Разрешить членам группы за пределами организации доступ к содержимому группы**. Если этот параметр не выбран, гости не смогут получить доступ к содержимому группы.
 
-    ![Снимок экрана показывает настройки групп Office 365](media/guest-access-checklist-office365.png)
+    ![Снимок экрана: параметры групп Microsoft 365](media/guest-access-checklist-office365.png)
 3. Убедитесь, что установлен флажок **Позвольте владельцам групп добавлять людей вне организации в группы**. Если этот параметр не выбран, владельцы команд не смогут добавлять новых гостей. Как минимум, этот параметр должен быть включен для поддержки гостевого доступа.
 
-Подробные инструкции по настройке этих параметров см. в статье [Управление гостевым доступом в группах Office 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) и [Контроль над гостевым доступом в группах Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+Подробные инструкции по настройке этих параметров можно найти в разделе [Управление гостевым доступом в группах microsoft 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) и [Управление гостевым доступом в группах Microsoft 365](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>Шаг 4. Настройка общего доступа в Office 365 
 

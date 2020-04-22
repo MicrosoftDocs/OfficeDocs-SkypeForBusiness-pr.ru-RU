@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Сводка. Администраторы Skype для бизнеса Server 2019 или Skype для бизнеса Online могут использовать эти таблицы, чтобы узнать, какие функции поддерживаются в клиентах.
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129492"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779435"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Сравнение функций клиента для настольных ПК в Skype для бизнеса Server 2019
 
@@ -72,7 +72,7 @@ ms.locfileid: "42129492"
 | Поиск в корпоративной адресной книге                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Поиск контактов Microsoft Outlook                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Управление группами контактов                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Развертывание групп рассылки и групп Office 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| Развертывание групп рассылки и групп Microsoft 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Поиск групп ответа  <br/> (недоступно в Skype для бизнеса Online)                | &#x2714;                                      |                           | &#x2714;         |
 | Отображение последних групп контактов                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Отображение текущей группы сообщений                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |

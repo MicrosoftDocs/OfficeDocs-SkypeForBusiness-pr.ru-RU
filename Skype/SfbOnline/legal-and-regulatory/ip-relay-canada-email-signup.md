@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Инструкции по облегчением для учетной записи IP-ретрансляции для Канады.
-ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693114"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778755"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP-ретрансляция в Канаде — регистрация
 
@@ -33,8 +33,8 @@ ms.locfileid: "41693114"
 |||
 |:-----|:-----|
 |Имя & фамилия:||
-|Доменное имя клиента Office 365: <br/>(Пример: Contoso.com)||
-|Номер телефона пользователя Office 365: <br/>Пример: + 1 XXX XXX XXXX ||
+|Доменное имя организации Microsoft 365 или Office 365: <br/>(Пример: Contoso.com)||
+|Номер телефона пользователя Microsoft 365 или Office 365: <br/>Пример: + 1 XXX XXX XXXX ||
 |Пароль (от 8 до 16 символов): ||
 |Наиболее вероятной физический адрес <br/>на момент экстренного реагирования:||
 |Номер дома & названия:||
@@ -43,7 +43,7 @@ ms.locfileid: "41693114"
 |Область или край:||
 |Почтовый индекс:||
 |Номер телефона:||
-|Адрес электронной почты Office 365:||
+|Адрес электронной почты Microsoft 365 или Office 365:||
 |||
 
 > [!NOTE]

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: В этой статье описывается список телефонов, сертифицированных для Microsoft Teams, и функции, поддерживаемые на телефонах, сертифицированных для Microsoft Teams.
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836869"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780228"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
@@ -29,13 +29,13 @@ Microsoft Teams поддерживает портфель стационарны
 
 ## <a name="teams-certified-ip-phones"></a>Сертифицированные IP-телефоны для Teams
 
-Для обеспечения высококачественной и надежной работы Microsoft Teams на телефонах мы работаем и активно работаете с Yealink, Крестрон, Polycom и AudioCodes, чтобы разработать и сертифицировать широкий ассортимент стационарных телефонов и звуковых устройств конференц-зала. [В настоящее время вы видите IP-телефоны, сертифицированные](teams-ip-phones.md#currently-certified-ip-phones) для текущих поддерживаемых устройств.
+Для обеспечения высококачественной и надежной работы Microsoft Teams на телефонах мы работаем и активно работаете с Yealink, Crestron, Polycom и AudioCodes, чтобы разработать и сертифицировать широкий ассортимент стационарных телефонов и звуковых устройств конференц-зала. [В настоящее время вы видите IP-телефоны, сертифицированные](teams-ip-phones.md#currently-certified-ip-phones) для текущих поддерживаемых устройств.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Настройка компонента Microsoft Teams phones
 
 В таблице ниже приведены сведения о наборе функций высокого уровня, которые поддерживаются IP-телефонами с сертифицированными группами.
 
-|Возможности |Стационарный телефон (персональный режим) |Телефон конференц-зала (общий режим)|
+|Функции |Стационарный телефон (персональный режим) |Телефон конференц-зала (общий режим)|
 |---------|---------|---------|
 |**Проверка подлинности** | |  |
 |Вход с помощью учетных данных пользователя |  Да  | Да|
@@ -141,7 +141,7 @@ Microsoft Teams поддерживает портфель стационарны
 
 ## <a name="required-licenses"></a>Требуемые лицензии
 
-Лицензии Microsoft Teams можно приобрести в составе [подписок на Office 365](Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
+Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 и Office 365](Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
 
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 

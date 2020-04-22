@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего развертывания Skype для бизнеса Cloud Connector Edition 1.4.1 или более поздней версии.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018010"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779385"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -109,7 +109,7 @@ ms.locfileid: "42018010"
 
 Чтобы изменить конфигурацию нескольких сайтов в развертывании, выполните действия для отдельного сайта, обновив по одному сайту за раз.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Изменение конфигурации клиента Office 365 для включения автоматических обновлений
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Изменение конфигурации организации Office 365 для включения автоматических обновлений
 <a name="BKMK_MultipleSites"> </a>
 
 Чтобы включить автоматическое обновление операционной системы и автоматическое обновление службы BITS, необходимо использовать учетную запись администратора клиента Skype для бизнеса для управления через Интернет и использовать удаленную оболочку PowerShell для клиента, как показано ниже.
@@ -161,7 +161,7 @@ ms.locfileid: "42018010"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Обновление выделенных учетных данных администратора клиента
 <a name="BKMK_MultipleSites"> </a>
 
-Административные изменения в клиенте Office 365 для Cloud Connector выполняются из учетной записи с необходимыми разрешениями. В версиях Cloud Connector до 2,0 эта учетная запись является выделенной учетной записью глобального администратора клиента. В Cloud Connector версии 2,0 и более поздней эта учетная запись может быть учетной записью Office 365 с правами администратора Skype для бизнеса.
+Административные изменения в организации Office 365 для Cloud Connector выполняются из учетной записи с необходимыми разрешениями. В версиях Cloud Connector до 2,0 эта учетная запись является выделенной учетной записью глобального администратора клиента. В Cloud Connector версии 2,0 и более поздней эта учетная запись может быть учетной записью Office 365 с правами администратора Skype для бизнеса.
   
 Если учетные данные учетной записи администратора изменяются в Office 365, также необходимо обновить локально кэшированные учетные данные в Cloud Connector, выполнив следующую команду администратора PowerShell на каждом развертываемом устройстве Cloud Connector:
   

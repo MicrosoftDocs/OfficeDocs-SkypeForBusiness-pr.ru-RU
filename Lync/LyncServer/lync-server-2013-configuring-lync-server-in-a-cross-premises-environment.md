@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188401"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ _**Последнее изменение темы:** 2017-02-21_
 
     Connect-MsolService
 
-После нажатия клавиши ВВОД отображается диалоговое окно. Введите в нем имя пользователя и пароль Office 365, а затем нажмите кнопку "ОК".
+После нажатия клавиши ВВОД отображается диалоговое окно. Введите в диалоговом окне имя пользователя и пароль Microsoft 365 или Office 365, а затем нажмите кнопку ОК.
 
 После подключения к Office 365 вы можете запустить следующую команду для получения информации о субъектах-службах:
 

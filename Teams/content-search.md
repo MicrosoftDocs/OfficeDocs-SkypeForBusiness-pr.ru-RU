@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Сведения об использовании поиска контента в Microsoft Teams для запроса данных Microsoft Teams из Exchange, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137749"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776454"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -92,4 +92,4 @@ ms.locfileid: "43137749"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [варианты обнаружения электронных данных в центре безопасности & Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [варианты обнаружения электронных данных в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

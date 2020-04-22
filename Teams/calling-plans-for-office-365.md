@@ -1,5 +1,5 @@
 ---
-title: Планы звонков для Office 365
+title: Планы звонков для Microsoft 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825257"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779948"
 ---
-# <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
+# <a name="calling-plans-for-microsoft-365"></a>Планы звонков для Microsoft 365
 
 Звонки другим пользователям Skype для бизнеса и Microsoft Teams будут свободны, но если вы хотите, чтобы ваши пользователи могли звонить на обычные телефоны, но у вас еще нет поставщика услуг для совершения голосовых звонков, вам нужно купить план звонков. Дополнительные сведения можно найти в разделе [планы телефонной системы и звонков](calling-plan-landing-page.md).
   

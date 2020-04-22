@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889418"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779746"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -56,7 +56,7 @@ ms.locfileid: "41889418"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Шаг 2. Настройка кредитов на связь для организации
 
-1. Войдите на новый портал Office 365 с помощью своей рабочей или учебной учетной записи.
+1. Войдите в новый центр администрирования Microsoft 365 с помощью своей рабочей или учебной учетной записи.
     
 2. В левой области навигации центра администрирования Microsoft 365 перейдите в раздел**услуги**по **выставлению счетов** > . Прокрутите список вниз и выберите **надстройки**.
 
@@ -89,7 +89,7 @@ ms.locfileid: "41889418"
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Шаг 3. Назначение лицензии на кредиты на связь пользователям
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
     
 2. В левой области навигации центра администрирования Microsoft 365 перейдите в раздел**Активные пользователи** **пользователей** > , а затем выберите пользователя или пользователей из списка.
     
@@ -110,7 +110,7 @@ ms.locfileid: "41889418"
     
 - [Планы телефонной системы](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **** > **подписку** > на план**подписки.**
+Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **Billing** > **подписку** > на план**подписки.**
   
 Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

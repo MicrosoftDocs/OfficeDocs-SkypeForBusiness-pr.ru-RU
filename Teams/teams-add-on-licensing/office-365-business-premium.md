@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 бизнес премиум '
+title: 'Microsoft 365 Business Стандартный '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как приобрести планы Office 365 Business Premium. '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как покупать планы Microsoft 365 Business Standard. '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826567"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780508"
 ---
-# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Стандартный
 
-Если у вас есть [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Microsoft Teams, чтобы звонить другим людям из вашей компании, которые входят в вашу подписку. Например, если у вашей организации есть 10 человек, вы можете использовать Teams для звонков и обмена мгновенными сообщениями.
+Если у вас есть [microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Microsoft Teams, чтобы звонить другим людям из вашей компании, которые входят в вашу подписку. Например, если у вашей организации есть 10 человек, вы можете использовать Teams для звонков и обмена мгновенными сообщениями.
 
 
 **Чтобы совершать и принимать звонки от пользователей, которые являются внешними для вашего бизнеса, вы можете использовать следующие параметры**:
@@ -54,7 +54,7 @@ ms.locfileid: "41826567"
 
  **Чтобы получить голосовую конференцию, выполните указанные ниже действия.**
 
-1. Войдите в центр администрирования Microsoft 365.
+1. Войдите в Центр администрирования Microsoft 365.
 
 2. Перейдите к**подписке на дополнительные**услуги > для **выставления счетов** > по**заказам**.
 
@@ -62,7 +62,7 @@ ms.locfileid: "41826567"
 
 **Получение кредитов на связь**
 
-1. Войдите в центр администрирования Microsoft 365.
+1. Войдите в Центр администрирования Microsoft 365.
 
 2. Перейдите к**подписке на дополнительные**услуги > для **выставления счетов** > по**заказам**.
 

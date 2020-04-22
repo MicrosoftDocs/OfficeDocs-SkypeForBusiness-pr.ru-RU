@@ -1,5 +1,5 @@
 ---
-title: Мастер гибридной работы вход в Office 365
+title: Мастер гибридной конфигурации вход в Microsoft 365 или Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: С помощью мастера гибридного управления в Skype для бизнеса Server вы можете настроить среду для гибридной работы в Skype для бизнеса Online.
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Используйте мастер управления гибридной средой Skype для бизнеса Server, чтобы настроить среду для гибридной среды со Skype для бизнеса Online.
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822722"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780438"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>Мастер гибридной среды: вход в Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Мастер гибридной конфигурации: Войдите в Microsoft 365 или Office 365
 
-С помощью мастера гибридного управления в Skype для бизнеса Server вы можете настроить среду для гибридной работы в Skype для бизнеса Online.
+Используйте мастер управления гибридной средой Skype для бизнеса Server, чтобы настроить среду для гибридной среды со Skype для бизнеса Online.
 
-## <a name="sign-in-to-office-365"></a>Вход в Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Вход в Microsoft 365 или Office 365
 
-Введите имя пользователя и пароль в клиенте Office 365 для входа и подключения локального развертывания с помощью клиента Office 365. Вам потребуется использовать учетную запись администратора для создания домена onmicrosoft при входе в систему Office 365, например admin@contoso.onmicrosoft.com.
+Введите имя пользователя и пароль для своей организации Microsoft 365 или Office 365, чтобы войти в систему и подключить его к локальному развертыванию с вашей организацией Microsoft 365 или Office 365. Вам потребуется использовать учетную запись администратора, созданную для домена onmicrosoft, когда вы зарегистрировались в Microsoft 365 или Office 365, например admin@contoso.onmicrosoft.com.
 
-Дополнительные сведения о способе настройки среды для гибридного образа использования см. в разделе [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Дополнительные сведения о настройке среды для гибридной среды приведены в разделе [Обзор гибридных развертываний](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

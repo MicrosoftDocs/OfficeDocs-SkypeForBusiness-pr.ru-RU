@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Узнайте, как установить языки автоматического секретаря аудиоконференции для номера аудиоконференции в Skype для бизнеса Online.
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680386"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776804"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Установка языков автоматического секретаря аудиоконференции в Skype для бизнеса Online
 
@@ -45,7 +45,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Установка языков автоматического секретаря конференции
 
-Для выполнения этого действия вы должны войти в систему с правами [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [администратора Skype для бизнеса](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Это действие могут выполнять только администраторы [глобального администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [Skype для бизнеса](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
     
 1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к **устаревшему порталу**. На портале Legacy выберите пункт **Голосовая конференция**и выберите **Microsoft Bridge**.
     
@@ -72,6 +72,6 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 Дополнительные сведения можно найти в статье [Использование Windows PowerShell для выполнения стандартных задач управления в Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

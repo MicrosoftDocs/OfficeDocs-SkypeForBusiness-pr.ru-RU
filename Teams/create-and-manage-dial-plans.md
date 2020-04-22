@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Сведения о том, как создавать абонентские группы и управлять ими (абонентские группы для звонков по коммутируемой телефонной связи) и как управлять ими.
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160083"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778265"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
 После того как вы запланируете абонентские группы для Организации и выйдете все правила нормализации, которые необходимо создать для маршрутизации звонков, вы можете создать абонентские группы. Вы можете использовать центр администрирования Microsoft Teams или Windows PowerShell для создания абонентских групп и управления ими.  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Создание абонентской группы
 
@@ -87,7 +87,7 @@ ms.locfileid: "43160083"
   
 1. Нажмите кнопку **запустить** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.

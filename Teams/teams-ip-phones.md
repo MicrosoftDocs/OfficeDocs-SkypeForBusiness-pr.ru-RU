@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728948"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779978"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -46,12 +46,12 @@ ms.locfileid: "42728948"
 |:---|:---|:---|
 |AudioCodes C450HD | C450HD_TEAMS_0.225 | Март 2019 г.|
 |AudioCodes C448HD (только режим CAP) | C450HD_TEAMS_0.225 | Март 2019 г.|
-|Крестрон M100|2.3875.00068|Декабрь 2018 г.|
-|Крестрон Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
-|Поли тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
-|Поли CCX400 | 1.0.0.0200 | 2020 января|
-|Поли CCX600 | 5.9.12.1111| 2020 января|
-|Поли CCX500 | 5.9.12.1111| Декабрь 2019 г.|
+|Crestron M100|2.3875.00068|Декабрь 2018 г.|
+|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
+|Poly тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
+|Poly CCX400 | 1.0.0.0200 | 2020 января|
+|Poly CCX600 | 5.9.12.1111| 2020 января|
+|Poly CCX500 | 5.9.12.1111| Декабрь 2019 г.|
 |Yealink MP56| 122.15.0.6| Март 2020|
 |Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|
@@ -70,7 +70,7 @@ ms.locfileid: "42728948"
 
 Чтобы определить версию встроенного по устройства на мобильном устройстве, ознакомьтесь со сведениями [о том, как найти версию микропрограммы на мобильном](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) устройстве.
 
-Лицензии Microsoft Teams можно приобрести в составе [подписок на Office 365](/MicrosoftTeams/Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
+Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 или Office 365](/MicrosoftTeams/Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
 
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139588"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780618"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Планирование перемещения StaffHub Teams на смену в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "43139588"
 |---------|---------|---------|
 |1    |Подготовка и определение заинтересованных лиц         |         |
 |2     |Ознакомьтесь с документацией по переходу с StaffHub на команды Teams и Teams         |[StaffHub на пенсию](microsoft-staffhub-to-be-retired.md)<br><br>[Перемещение StaffHubных групп в смену в Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Начало работы с Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |Включение групп Office 365 для Организации        |[Группы и команды Office 365](../../Office-365-groups.md)      |
+|3    |Включение групп Microsoft 365 для Организации        |[Группы и команды Microsoft 365](../../Office-365-groups.md)      |
 |4    |Убедитесь в том, что необходимые условия выполнены         |[Проверка соответствия требованиям](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Назначение лицензий Teams StaffHub пользователям в Организации|[Назначение лицензий Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Управление доступом пользователей к Teams](../../user-access.md)      |
 |6    |Установка модуля StaffHub PowerShell        |[Установка модуля StaffHub PowerShell](install-the-staffhub-powershell-module.md)        |

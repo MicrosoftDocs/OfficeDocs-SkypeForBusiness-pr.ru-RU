@@ -1,5 +1,5 @@
 ---
-title: Лицензирование Office 365 для Microsoft Teams
+title: Microsoft 365 и лицензирование Office 365 для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170367"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778575"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Microsoft 365 и лицензирование Office 365 для Microsoft Teams
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Следующие подписки на Office 365 включают пользователей для Teams.
+Следующие подписки Microsoft 365 и Office 365 включают пользователей для Teams.
 
 |Планы для малого бизнеса  |Корпоративные планы  |Планы для образования  |Планы для разработчиков |
 |---------|---------|---------|---------|
-|Office 365 бизнес базовый     |Office 365 корпоративный E1  |Office 365 для образования |Разработчик Office 365     |
-|Office 365 бизнес премиум     |Office 365 корпоративный E3         |Office 365 для образования плюс         |      |
+|Microsoft 365 Business Basic     |Office 365 корпоративный E1  |Office 365 для образования |Разработчик Office 365     |
+|Microsoft 365 Business Стандартный     |Office 365 корпоративный E3         |Office 365 для образования плюс         |      |
 |Microsoft 365 для бизнеса     |Office 365 корпоративный E4 (устарел)         |Office 365 для образования E3 (устарел)         |  |
 |     |Office 365 корпоративный E5         |Office 365 для образования E5  | 
 |     |Office 365 корпоративный F1 |    |     | 
@@ -52,7 +52,7 @@ ms.locfileid: "43170367"
 > [!NOTE]
 > Если Skype для бизнеса Online указан в разделе приложения для выбранной лицензии, не удаляйте его. Если он указан и удаляется, Настройка пользователя Teams не будет выполнена успешно.
         
-В терминах основных функциональных возможностей Teams не существует различий между подпиской на Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписке, можно найти в [описании службы платформы Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+В терминах основных функциональных возможностей Teams нет различий между подпиской. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписке, можно найти в [описании службы платформы Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
 **Облачные функции голосовой связи**: для видеоконференций Организация обязана покупать и назначать лицензии на голосовую конференцию каждому пользователю, который будет настраивать собрания с телефонным подключением. Для планов звонков каждому пользователю потребуется телефонная система, а также план внутренних и международных звонков. Дополнительные сведения можно найти в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

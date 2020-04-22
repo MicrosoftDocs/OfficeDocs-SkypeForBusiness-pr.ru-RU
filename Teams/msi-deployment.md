@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b29e850193e50049986f37c0cb19bbfb96a6c13
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9e27199d953eb04c20a10765020b179ff303c5e8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138369"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777834"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ ms.locfileid: "43138369"
 > [!NOTE]
 > Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
 
-Приложение Teams также может быть включено в развертывание Office 365 профессиональный плюс. Дополнительные сведения см. в статье [Развертывание Microsoft Teams с Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/teams-install).
+Кроме того, Teams можно включить в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с помощью приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
 > Дополнительные сведения о диспетчере настройки конечных точек Microsoft см [. в разделе что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)

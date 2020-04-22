@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 бизнес премиум '
+title: 'Microsoft 365 Business Стандартный '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как купить планы Office 365 Business Premium. '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как приобрести их для Microsoft 365 Business Standard. '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706114"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777414"
 ---
-# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Стандартный
 
-Если вы подписаны на [Office 365 бизнес премиум](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим пользователям в вашей организации, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
+Если у вас есть [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим людям в вашей организации, которые используют вашу подписку. Например, если в вашей компании 10 человек, вы можете позвонить и обмениваться мгновенными сообщениями через Skype для бизнеса.
 
  **Существует два способа совершать и принимать звонки от людей за пределами вашей организации**.
 

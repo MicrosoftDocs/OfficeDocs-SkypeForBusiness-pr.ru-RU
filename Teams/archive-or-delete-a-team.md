@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826407"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780718"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 ===========================================
@@ -98,7 +98,7 @@ ms.locfileid: "41826407"
     Connect-AzureAD
     ```
     При появлении запроса войдите в систему, используя свою учетную запись администратора и пароль.  
-2. Выполните следующую команду, чтобы отобразить список всех программно удаленных групп Office 365, срок действия которых еще не истек 30 дней. Используйте параметр -**-All $True**, если у вас много групп.
+2. Чтобы отобразить список всех программных групп Microsoft 365, которые по-прежнему находятся в течение 30 дней, выполните указанные ниже действия. Используйте параметр -**-All $True**, если у вас много групп.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

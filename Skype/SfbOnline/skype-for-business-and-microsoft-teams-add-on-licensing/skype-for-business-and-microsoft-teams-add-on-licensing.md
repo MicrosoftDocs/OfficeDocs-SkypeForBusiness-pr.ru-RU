@@ -23,22 +23,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3488ec2239ba99b2bfe6efa97ed162804f4aa1e6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010572"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777554"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Лицензирование надстройки Skype для бизнеса
 
-## <a name="what-are-add-on-licenses"></a>Что представляют собой лицензии на надстройки?
+## <a name="what-are-add-on-licenses"></a>Что такое лицензии на надстройки?
 
 Лицензии на надстройки — это лицензии на конкретные функции Skype для бизнеса. Некоторые компании хотят гибко приобрести только определенные функции по выгодным тарифам. Чтобы добавить компонент, закажите одну лицензию для каждого пользователя, который будет ее использовать.
 
 Лицензирование Skype для бизнеса обеспечивает максимальную гибкость. Например, после использования основных функций Skype для бизнеса вы можете приобрести лицензии на надстройки, когда вы будете готовы использовать дополнительные функции, такие как голосовые конференции или телефонная система в Office 365.
 
-## <a name="how-does-add-on-licensing-affect-cost"></a>Как дополнительные лицензии влияют на общую стоимость решения?
+## <a name="how-does-add-on-licensing-affect-cost"></a>Как дополнительное лицензирование влияет на стоимость?
 
 For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
@@ -50,14 +50,14 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 - [Цены на Тарифные планы](https://products.office.com/skype-for-business/calling-plans)
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>Какие функции можно приобрести в рамках лицензий на надстройки?
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>Для каких возможностей доступны лицензии?
 
 В зависимости от того, какой план уже есть, вы можете приобрести лицензии на надстройки для следующих функций Skype для бизнеса:
 
 |||
 |:-----|:-----|
 |**Функция** <br/> |**Описание** <br/> |
-|**Аудиоконференция** <br/> |Иногда пользователи в вашей организации должны использовать телефон для звонка на собрание Skype для бизнеса, а не с компьютера. Воспользуйтесь функцией голосовой конференции в этой ситуации.<br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Аудиоконференции** <br/> |Иногда пользователи в вашей организации должны использовать телефон для звонка на собрание Skype для бизнеса, а не с компьютера. Воспользуйтесь функцией голосовой конференции в этой ситуации.<br/> Чтобы узнать, доступна ли функция Аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для Аудиоконференций и Тарифные планы](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Аудиоконференций](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Бесплатные номера доступа к конференц-связи с телефонным подключением и возможность совершать исходящие звонки, позволяющие добавить к конференции с телефонным подключением других пользователей из любой точки мира** <br/> |При добавлении Аудиоконференций, мы рекомендуем вам [Настроить Кредиты на связь](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Телефонная система** <br/> |УАТС – это телефонная система в компании. Телефонная система в Office 365 — это размещенная телефонная служба. Она предоставляет традиционные и инновационные возможности УАТС, но без сложного и дорогостоящего оборудования. [Ниже приведены сведения о том, что можно сделать с помощью телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).<br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Телефонной системы](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Планы звонков** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> Для получения сведений о стоимости, перейдите в раздел [Требования для Тарифных планов](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
@@ -69,8 +69,8 @@ Need to talk to someone about all the add-on options? [Contact support for busin
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 бизнес премиум](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 бизнес премиум, Office 365 профессиональный плюс или Skype для бизнеса Online (план 2)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Microsoft 365 Business Стандартный](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [Office 365 Premium, Microsoft 365 для предприятий или Skype для бизнеса Online (план 2)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 - [Office 365 корпоративный (E1, E3 и E4)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 корпоративный E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 корпоративный E5 (без аудиоконференции)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -79,7 +79,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 
 Подробный список функций и сравнений для каждого плана Skype для бизнеса можно найти в [описании службы Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=730729).
 
-## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Просмотр цен и приобретение лицензий на надстройки
+## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Как узнать цены и приобрести лицензии на надстройки
 <a name="bkmk_how"> </a>
 
  **После покупки плана Office 365 можно просматривать цены и покупать надстройки в центре администрирования Microsoft 365**.

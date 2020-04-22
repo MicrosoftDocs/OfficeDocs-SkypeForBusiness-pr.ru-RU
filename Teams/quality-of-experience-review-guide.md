@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749866"
+ms.locfileid: "43780588"
 ---
 # <a name="quality-of-experience-review-guide"></a>Руководство по анализу качества взаимодействия 
 
@@ -70,16 +70,16 @@ _На рисунке 1 описываются основные рабочие о
 
 |  |Просмотр отчетов  |Просмотр полей EUII  |Создание отчетов  |Отправка данных о сборке  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Глобальный администратор Office 365     |Да          |Да          |Да          |Да          |
+|Глобальный администратор     |Да          |Да          |Да          |Да          |
 |Администратор служб Teams     |Да          |Да          |Да          |Да          |
 |Администратор коммуникаций Teams     |Да          |Да          |Да          |Да          |
 |Инженер поддержки по коммуникациям Teams     |Да          |Да          |Да         |Нет         |
 |Специалист по поддержке взаимодействия в Teams     |Да         |Нет         |Да         |Нет         |
 |Администратор Skype для бизнеса     |Да          |Да          |Да          |Да          |
 |Глобальный читатель Azure AD |Да          |Да          |Да         |Нет         |
-|Office 365 сообщает читателям<sup>1</sup>     |Да         |Нет         |Да         |Нет         |
+|Microsoft 365 сообщает читателям<sup>1</sup>     |Да         |Нет         |Да         |Нет         |
 
-<sup>1</sup> в дополнение к ЧТЕНию CQDных отчетов Office 365 может просматривать все [отчеты об активности](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) в центре администрирования и любые отчеты из пакета содержимого для оценки [внедрения Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> в дополнение к ЧТЕНию CQDных отчетов Microsoft 365 может просматривать все [отчеты об активности](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) в центре администрирования и любые отчеты из пакета содержимого для оценки [внедрения Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > Если вы не видите EUII (сведения для конечных пользователей) и у вас есть одна из ролей, которые могут просматривать эти данные, имейте в виду, что CQD только в течение 30 дней. Все, более 30 дней, удаляются.
@@ -598,7 +598,7 @@ _Таблица 4 — фильтры отчета_
 2. Проверка подлинности с помощью учетных данных администратора Office 365.
 
    > [!NOTE]
-   > Для доступа к CQD у вас должен быть глобальный администратор Office 365, администратор Skype для бизнеса или роль читателей отчетов. 
+   > Для доступа к CQD у вас должен быть глобальный администратор, администратор Skype для бизнеса или роль читателей отчетов. 
 
 3. В верхней части страницы выберите меню « **Сводные отчеты** », а затем выберите пункт **подробные отчеты**.
 
@@ -1189,7 +1189,7 @@ _Рис. 30 — отчет о версии клиента_
 Номера версий для Skype для бизнеса можно найти по следующим ссылкам:
 
 -   [Сведения об обновлениях Office профессиональный плюс](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Журнал обновлений для Office 365 профессиональный плюс](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Журнал обновлений приложений Microsoft 365 для предприятий](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Загрузки и обновления Skype для бизнеса](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Устройства

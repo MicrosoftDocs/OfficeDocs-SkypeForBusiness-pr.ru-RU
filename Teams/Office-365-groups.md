@@ -1,5 +1,5 @@
 ---
-title: Группы Office 365 и Microsoft Teams
+title: Группы Microsoft 365 и Microsoft Teams
 ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: Сведения о том, как Группы Office 365 и членство в них используются в Microsoft Teams.
+description: Узнайте о том, как в Microsoft Teams можно работать с группами и участием групп Microsoft 365.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,32 +18,32 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a0daed292ccccb85c5231242161c75e8cb60949c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1a922853bebef0286d03d65e1b714c35b9be48d5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136499"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778585"
 ---
-<a name="office-365-groups-and-microsoft-teams"></a>Группы Office 365 и Microsoft Teams
+<a name="microsoft-365-groups-and-microsoft-teams"></a>Группы Microsoft 365 и Microsoft Teams
 =====================================
 
 > [!Tip]
-> В следующем сеансе показано, как взаимодействие Teams с Azure Active Directory (Azure AD), группами Office 365, Exchange, SharePoint и OneDrive для бизнеса: [основы Microsoft Teams](https://aka.ms/teams-foundations)
+> В следующем сеансе показано, как взаимодействуют Teams с Azure Active Directory (Azure AD), группами Microsoft 365, Exchange, SharePoint и OneDrive для бизнеса: [основы Microsoft Teams](https://aka.ms/teams-foundations)
 
-Группы Office 365 — это служба членства в Office 365. На базовом уровне группа Office 365 — это объект в Azure Active Directory со списком пользователей и слабой присоединением к связанным рабочим нагрузкам, включая сайт группы SharePoint, группу Yammer, общие ресурсы почтового ящика Exchange, планировщик, Power BI и OneNote. Вы можете добавлять и удалять пользователей в группе так же, как и любые другие объекты безопасности на основе группы в Active Directory.
+Microsoft 365 Groups — это служба членства в разных приложениях в Office 365. На базовом уровне группа Office 365 — это объект в Azure Active Directory со списком пользователей и слабой присоединением к связанным рабочим нагрузкам, включая сайт группы SharePoint, группу Yammer, общие ресурсы почтового ящика Exchange, планировщик, Power BI и OneNote. Вы можете добавлять и удалять пользователей в группе так же, как и любые другие объекты безопасности на основе группы в Active Directory.
 
-Администратор Office 365 может определять группу Office 365, добавлять участников и использовать преимущества таких функций, как общий почтовый ящик Exchange, библиотеку документов SharePoint, группу Yammer и т. д. Дополнительные сведения о группах Office 365 можно найти в [статье сведения о группах office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Администратор Office 365 может определять группу Office 365, добавлять участников и использовать преимущества таких функций, как общий почтовый ящик Exchange, библиотеку документов SharePoint, группу Yammer и т. д. Дополнительные сведения о группах Microsoft 365 можно найти в [статье сведения о группах microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 Не пропустите группы плакатов [в Microsoft 365 для ИТ архитекторов](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
-<a name="how-office-365-groups-work"></a>Принципы работы групп Office 365
+<a name="how-microsoft-365-groups-work"></a>Принципы работы групп Microsoft 365
 --------------------------
 
 Когда вы создаете команду на сервере, вы создаете группу Office 365 и связанную библиотеку документов SharePoint и записную книжку OneNote вместе с связями с другими облачными приложениями Office 365. Если пользователь, создавший группу, является владельцем существующей или общедоступной группы Office 365, они могут добавлять в нее возможности Teams, если у нее менее 5000 человек и они еще не были добавлены в Teams. При этом создается **Общий** канал по умолчанию, в котором хранятся сообщения чата, документы, OneNote и другие объекты. При просмотре библиотеки документов для канала откроется **Общая** папка, представляющая канал в команде. Что особенно важно, когда вы создаете собственную структуру папок в библиотеке документов, **она не распространяется** в Teams в виде канала. Сейчас она просто передается из Teams в SharePoint.
 
 > [!NOTE]
-> На основе отзывов пользователей новые группы Office 365, созданные в результате создания группы в Microsoft Teams, больше не будут отображаться в Outlook по умолчанию. Для пользователей, которые хотят продолжить работу с отображением этих групп в Outlook, будет предоставлен командлет PowerShell Exchange Online, который может включить группу для работы в Outlook. Группы, созданные в Outlook, а затем включенные для Teams, будут по прежнему отображаться в Outlook и в Teams. Это обновление постепенно выйдет через Outlook и Teams в течение ближайших месяцев.
+> На основе отзывов пользователей новые группы Microsoft 365, созданные в результате создания команды в Microsoft Teams, больше не будут отображаться в Outlook по умолчанию. Для пользователей, которые хотят продолжить работу с отображением этих групп в Outlook, будет предоставлен командлет PowerShell Exchange Online, который может включить группу для работы в Outlook. Группы, созданные в Outlook, а затем включенные для Teams, будут по прежнему отображаться в Outlook и в Teams. Это обновление постепенно выйдет через Outlook и Teams в течение ближайших месяцев.
 
 > [!NOTE]
 > Удаление группы Office 365 приведет к удалению псевдонима почтового ящика для сохраняемых бесед Outlook/OWA и приглашений на собрание Teams, а также пометит сайт SharePoint для удаления. Удаление команды и ее воздействия на Outlook занимает около 20 минут. Удаление команды из клиента Teams немедленно удалит ее из представления всем пользователям, которые являются участниками команды. Если вы удаляете пользователей группы Office 365, на которых включены функции Teams, может потребоваться около двух часов перед тем, как команда будет удалена из представления в клиенте Teams для уязвимых пользователей, которые были удалены.

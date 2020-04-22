@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: Сводка. ИТ-специалисты должны ознакомиться с требованиями к поддержке приложения Skype для бизнеса Web App и собрания Skype при планировании Skype для бизнеса Server. Эта статья не предназначена для пользователей этих приложений.
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157642"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777794"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собраний (приложение для веб-приложений и собраний)
  
@@ -70,7 +70,7 @@ ms.locfileid: "43157642"
 &#x2778; доступ к веб-приложению из Chrome в Windows запустится небольшая программа, которая загружает веб-приложение во встроенном фрейме Internet Explorer. Для правильной загрузки этой программы требуется установить одну из поддерживаемых версий Internet Explorer.
   
 > [!NOTE]
-> Пользователи Office 365 могут использовать Internet Explorer 10 или более поздней версии с Skype для бизнеса. 
+> Пользователи Microsoft 365 и Office 365 могут использовать Internet Explorer 10 или более поздней версии с Skype для бизнеса. 
   
 ### <a name="skype-meetings-app"></a>Приложение "Собрания Skype"
 
