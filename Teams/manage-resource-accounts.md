@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190879"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43750006"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -82,7 +82,7 @@ ms.locfileid: "43190879"
 2. Получите лицензию виртуальных пользователей для телефонной системы или обычную лицензию на телефонную систему.
 
    Чтобы получить лицензию на виртуальную пользователей, начиная с центра администрирования Microsoft 365, перейдите в раздел**подписки на надстройки** **служб** >  **выставления счетов** > и прокрутите список до конца, вы увидите лицензию "телефонная система — виртуальный пользователь". Нажмите кнопку **Купить сейчас**. У тебя нулевая стоимость, но для получения лицензии вам по-прежнему нужно выполнить следующие действия.
-3. Создайте новую учетную запись ресурса. Дополнительные сведения о создании учетной [записи ресурса в центре администрирования Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) или [создании учетной записи ресурса в PowerShell](#create-a-resource-account-in-powershell)
+3. Создайте новую учетную запись ресурса. Ознакомьтесь [со сведениями создание учетной записи ресурса в центре администрирования Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) или [Создание учетной записи ресурса в PowerShell](#create-a-resource-account-in-powershell).
 4. Назначьте для учетной записи ресурсов телефонную [лицензию на виртуальную систему пользователя](teams-add-on-licensing/virtual-user.md) или лицензию на телефонную систему. В разделе [Назначение лицензий Microsoft Teams](assign-teams-licenses.md) и [Назначение лицензий одному пользователю](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 5. Назначьте номер Услуги учетной записи ресурса. Ознакомьтесь [с Разназначением и отменой назначения номеров телефонов и служб](#assignunassign-phone-numbers-and-services).
 6. Настройте один из указанных ниже вариантов.
@@ -96,11 +96,11 @@ ms.locfileid: "43190879"
 
 Для вложенного автосекретаря или очереди звонков потребуется учетная запись ресурса, но во многих случаях для соответствующей учетной записи ресурса номер телефона не требуется, а лицензирование требуется для поддержки телефонного номера. Для создания учетной записи ресурса, не требующей номера телефона, необходимо выполнить следующие действия в указанном ниже порядке.
 
-1. Создайте новую учетную запись ресурса. Дополнительные сведения о создании учетной [записи ресурса в центре администрирования Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) или [создании учетной записи ресурса в PowerShell](#create-a-resource-account-in-powershell)
+1. Создайте новую учетную запись ресурса. Ознакомьтесь [со сведениями создание учетной записи ресурса в центре администрирования Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) или [Создание учетной записи ресурса в PowerShell](#create-a-resource-account-in-powershell).
 2. Настройте один из указанных ниже вариантов.
    - [Автоматический секретарь облачной функции](create-a-phone-system-auto-attendant.md)
    - [Очередь облачных звонков](create-a-phone-system-call-queue.md)
-3. Назначение учетной записи ресурса очереди звонков или автосекретаря. Просмотр [назначения и отмены назначения номеров телефонов и служб](#assignunassign-phone-numbers-and-services)
+3. Назначение учетной записи ресурса очереди звонков или автосекретаря. Ознакомьтесь [с Разназначением и отменой назначения номеров телефонов и служб](#assignunassign-phone-numbers-and-services).
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Создание учетной записи ресурса в центре администрирования Microsoft Teams
@@ -115,7 +115,7 @@ ms.locfileid: "43190879"
 
 ![Снимок экрана: параметры новой учетной записи ресурса](media/res-acct.png)
 
-Затем примените лицензию к учетной записи ресурса в центре администрирования Office 365, как описано в разделе [Назначение лицензий пользователям в microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
+Затем примените лицензию к учетной записи ресурса в центре администрирования Office 365, как описано в разделе [Назначение лицензий пользователям в microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
 
 ### <a name="edit-resource-account"></a>Изменение учетной записи ресурса 
 
@@ -175,9 +175,9 @@ ms.locfileid: "43190879"
 
 1. Чтобы создать учетную запись ресурса Online для использования с автосекретарем, выполните следующую команду:
 
-``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-```
+    ``` Powershell
+    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+    ```
 
 2. Вы не сможете использовать учетную запись ресурса, пока вы не примените к ней лицензию. Инструкции по применению лицензии к учетной записи в центре администрирования Office 365 можно найти [в разделе Назначение лицензий пользователям в microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) , а также [Назначение лицензий Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
@@ -214,7 +214,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
 Убедитесь, что у вас есть связь с номером телефона для учетной записи ресурса перед ее удалением, чтобы не зависнуть номер службы в режиме ожидания. Это можно сделать, используя следующие unifiedgroup:
 
 ``` Powershell
-Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
 После этого вы можете удалить учетную запись ресурса на портале администрирования Office 365 на вкладке Пользователи.

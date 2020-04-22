@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: В этой статье объясняется, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты, используемого по умолчанию в вашей организации.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139138"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752346"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -49,9 +49,9 @@ ms.locfileid: "43139138"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
-1. Войдите в систему с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) по адресу[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Войдите в систему с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. В центре администрирования Microsoft 365 выберите " **Параметры** > **профиля организации**". 
+2. В центре администрирования Microsoft 365 выберите**профиль организации**"**Параметры** >  **параметров** > ". 
     
      ![Снимок экрана, на котором показано, как выбрать параметры, а затем — профиль организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

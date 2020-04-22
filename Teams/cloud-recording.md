@@ -7,26 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Практические рекомендации по развертыванию функций облачного голоса в Microsoft Teams.
+description: Включение и управление записью собраний в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
-ms.translationtype: HT
+ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583006"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43751856"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
-
-> [!IMPORTANT]
-> **В будущем мы изменим настройку**, в которой функция записи собраний Teams будет включена для клиентов, данные групп которых хранятся в стране, даже если Microsoft Stream недоступен в регионе размещению Data. Когда это изменение вступит в силу, записи собраний будут сохранены по умолчанию в ближайшем регионе Microsoft Stream. Если данные ваших Teams хранятся внутри страны, и вы предпочитаете хранить записи собраний внутри страны, мы рекомендуем отключить записи собраний, а затем включить их после развертывания Microsoft Stream в вашем регионе страны. Чтобы узнать больше, посмотрите, [где хранятся записи вашей встречи](#where-your-meeting-recordings-are-stored).
 
 В Microsoft Teams пользователи могут записывать свои собрания Teams и групповые звонки. Можно записывать звук, видео и действия демонстрации экрана. Существует возможность записи с автоматической расшифровкой аудиозаписей, чтобы пользователи могли воспроизводить записи собрания с субтитрами и искать важные элементы обсуждения в расшифровке. Запись происходит в облаке и сохраняется в [Microsoft Stream](https://docs.microsoft.com/stream/), поэтому пользователи могут безопасно делиться ею со своей организацией.
 
@@ -53,13 +49,13 @@ ms.locfileid: "42583006"
 
 В этом разделе объясняется, как вы можете настроить и запланировать запись собраний Teams.
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Включить Microsoft Stream для пользователей в организации
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Включение Microsoft Stream для пользователей в Организации
 
 Microsoft Stream доступен как часть соответствующих подписок на Office 365 или как отдельная служба.  См. [Обзор лицензирования Stream](https://docs.microsoft.com/stream/license-overview) для более подробной информации.  Microsoft Stream теперь включен в Microsoft 365 Business, Office 365 Business Premium и Office 365 Business Essentials.
 
 Узнайте больше о том, как можно [назначать лицензии пользователям в Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC), чтобы пользователи могли получать доступ к Microsoft Stream. Убедитесь, что Microsoft Stream не заблокирован для пользователей, как определено в [этой статье](https://docs.microsoft.com/stream/disable-user-organization).
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>Убедитесь, что пользователи имеют разрешения на загрузку видео в Microsoft Stream
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Убедитесь, что у пользователей есть разрешения на передачу видео в Microsoft Stream
 
 По умолчанию все в компании могут создавать контент в Stream, если Stream активирован и лицензия назначена пользователю. Администратор Microsoft Stream может [ограничить сотрудников для создания контента](https://docs.microsoft.com/stream/restrict-uploaders) в Stream. Пользователи, которые находятся в этом ограниченном списке, не смогут записывать встречи.
 
@@ -93,22 +89,11 @@ Microsoft Stream доступен как часть соответствующи
 |                                    Я хочу, чтобы все пользователи в моей компании могли записывать свои встречи                                    |                                                                     <ol><li>Подтвердите, что глобальный CsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>У всех пользователей есть глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True </ol>                                                                     |
 | Я хочу, чтобы большинство моих пользователей могли записывать свои собрания, но выборочно отключать определенных пользователей, которым не разрешено записывать |        <ol><li>Подтвердите, что GlobalCsTeamsMeetingPolicy имеет AllowCloudRecording = True<li>У большинства пользователей есть глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True<li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False</ol>         |
 |                                                   Я хочу, чтобы запись была отключена на 100%                                                   |                                                                <ol><li>Подтвердите, что глобальные CsTeamsMeetingPolicy имеют AllowCloudRecording = False<li>Всем пользователям была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False                                                                 |
-|      Я хочу, чтобы запись была отключена для большинства пользователей, но выборочно включить определенных пользователей, которым разрешено записывать       | <ol><li>Подтвердите, что глобальные CsTeamsMeetingPolicy имеют AllowCloudRecording = False<li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False<li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True <ol> |
+|      Я хочу отключить запись для большинства пользователей, но выборочно включить определенных пользователей, которым разрешено записывать       | <ol><li>Подтвердите, что глобальные CsTeamsMeetingPolicy имеют AllowCloudRecording = False<li>Большинству пользователей была предоставлена глобальная политика CsTeamsMeetingPolicy ИЛИ одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = False<li>Всем другим пользователям была предоставлена одна из политик CsTeamsMeetingPolicy с AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>Где хранятся записи вашей встречи
 
-Записи собраний хранятся в облачном хранилище Microsoft Stream. В настоящее время функция записи собрания отключена для клиентов, чьи данные Teams хранятся в стране, если Microsoft Stream недоступен в регионе расположения данных в стране, где хранятся данные. В будущем функция записи собрания будет включена для клиентов, чьи данные хранятся внутри страны, даже если Microsoft Stream недоступен в регионе расположения данных внутри страны.
-
-Когда это изменение вступит в силу, записи собраний будут по умолчанию сохранены в ближайшем географическом регионе для Microsoft Stream. Если данные ваших Teams хранятся внутри страны, и вы предпочитаете хранить записи собраний внутри страны, мы рекомендуем отключить эту функцию, а затем включить ее после развертывания Microsoft Stream в вашем регионе проживания данных в стране. Чтобы отключить эту функцию для всех пользователей в вашей организации, в центре администрирования Microsoft Teams отключите параметр **Разрешить запись в облаке** в политике собраний глобальных команд.
-
-Вот краткое описание того, что происходит, когда вы включаете запись собрания, когда это изменение вступает в силу:
-
-|Если вы включите запись собрания... |Записи собраний хранятся...  |
-|---------|---------|
-|до того, как Microsoft Stream станет доступен в вашей стране в регионе расположения данных    |в ближайшем регионе Microsoft Stream         |
-|после того, как Microsoft Stream станет доступен в вашей стране в регионе расположения данных    | в вашем регионе расположения данных страны        |
-
-Для новых и существующих арендаторов, которые еще не включили запись собрания, новые записи сохраняются в стране после того, как Microsoft Stream станет доступным в регионе расположения данных в стране. Однако любой арендатор, который разрешает запись собрания до того, как Microsoft Stream станет доступным в регионе расположения данных в стране, продолжит использовать хранилище Microsoft Stream для существующих и новых записей даже после того, как Microsoft Stream будет доступен в регионе расположения данных в стране.
+Записи собраний хранятся в облачном хранилище Microsoft Stream. После записи собрания Microsoft Stream сохраняет его постоянно (или до тех пор, пока владелец записи не удалит ее). Если запись не загружается в поток, она хранится в облачном хранилище Teams, где оно доступно для загрузки в течение 20 дней. В настоящее время функция записи собрания отключена для клиентов, чьи данные Teams хранятся в стране, если Microsoft Stream недоступен в регионе расположения данных в стране, где хранятся данные.
 
 Чтобы найти регион, в котором хранятся ваши данные Microsoft Stream, в Microsoft Stream нажмите **?** в правом верхнем углу нажмите **О Microsoft Stream**, а затем нажмите **Ваши данные хранятся в**.  Чтобы узнать больше о регионах, где Microsoft Stream хранит данные, см. [Вопросы-Ответы по Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 

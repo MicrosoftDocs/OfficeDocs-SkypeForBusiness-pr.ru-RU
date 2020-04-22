@@ -18,33 +18,35 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Узнайте, как настроить взаимодействие между локальным развертыванием и Skype для бизнеса Online.
-ms.openlocfilehash: 1b36a25674c3d6690b7490d0cd0793f05131cc12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd8b3ee3e70cb3662a4eae68fdb5ae6149b55a84
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726789"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43750036"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка гибридной среды Skype для бизнеса
 
 Чтобы настроить гибридную среду Skype для бизнеса, необходимо выполнить следующие действия.
 
-- [Настройте службу локальной среды для Федерации с Office 365](#configure-your-on-premises-edge-service-to-federate-with-office-365).
+- [Настройте локальную пограничной службу для Федерации с Office 365 или другой организацией](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
 - [Настройте локальную среду для доверия к office 365 и включите общее адресное пространство SIP с помощью Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
 - [Включите общее адресное пространство SIP в клиенте Office 365](#enable-shared-sip-address-space-in-your-office-365-tenant).
 
 Обратите внимание на то, что если у вас есть локальная служба Exchange, может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения можно найти [в статье Управление проверкой подлинности между серверами в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Skype для бизнеса и Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
-## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Настройка локальной службы пограничной службы для Федерации с Office 365
+## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization"></a>Настройка локальной службы пограничной службы для Федерации с Office 365 или другой организацией
 
 Федерация позволяет пользователям в локальном развертывании взаимодействовать с пользователями Office 365 в вашей организации. Чтобы настроить федерацию, выполните следующий командлет в командной консоли Skype для бизнеса Server:
   
 ```PowerShell
-Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
+Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
 ```
 
-Если для параметра "-EnablePartnerDiscovery" задано значение 1, Skype для бизнеса Server будет использовать записи DNS для попытки обнаружения доменных доменов, не указанных в списке Алловеддомаинс. Если значение равно 0, Skype для бизнеса Server будет использовать только Федерацию с доменами, обнаруженными в списке Алловеддомаинс. Этот параметр необходим, если используется маршрутизация службы DNS.
+Если параметру "-EnablePartnerDiscovery" присвоено значение $True, Skype для бизнеса Server будет использовать DNS-записи для попытки обнаружения доменных доменов, не указанных в списке Алловеддомаинс. Если параметру присвоено значение $False, Skype для бизнеса Server будет использовать только Федерацию с доменами, обнаруженными в списке Алловеддомаинс. Этот параметр необходим, если используется маршрутизация службы DNS.
 
+> [!NOTE]
+> Дополнительные сведения о включении Федерации между пользователями локального развертывания Skype для бизнеса и пользователей в Организации Skype для бизнеса Online приведены [в статье Настройка поддержки федерации для клиента Skype для бизнеса Online в Skype для бизнеса Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a>Настройка локальной среды для включения общего адресного пространства SIP с Office 365
@@ -92,4 +94,3 @@ Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ## <a name="see-also"></a>См. также
 
 [New — CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-
