@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327841"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749497"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -45,6 +45,9 @@ ms.locfileid: "42327841"
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
 При наличии подходящих локальных разрешений (для установки клиента Teams на Mac требуются права администратора, а на ПК — нет) пользователи могут скачать и установить классические клиенты прямо со страницы [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754).
+
+> [!NOTE]
+> Дополнительные сведения об установке Teams в Chromebook можно найти в разделе [Установка и запуск Microsoft Office на Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 ИТ-администраторы могут выбрать предпочтительный способ распространения установочных файлов на компьютеры в своей организации. Некоторые примеры включают Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS). Сведения о получении MSI-пакета для распространения в Windows см. в статье [Установка Microsoft Teams с помощью MSI](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ ms.locfileid: "42327841"
 > [!NOTE]
 > Конфигурация брандмауэра Windows будет изменена, даже если закрыть запрос, нажав кнопку "Отмена". Создаются два правила входящего трафика для teams.exe с действием блокировки для протоколов TCP и UDP.
 
+Если вы хотите запретить группам создавать правила брандмауэра, когда пользователи выполняют первый вызов из Teams, используйте [образец правила брандмауэра для входящего трафика PowerShell](#sample-powershell-script---inbound-firewall-rule) . 
+
 ### <a name="mac"></a>Mac
 
 Пользователи Mac могут установить Teams с помощью файла установки PKG для компьютеров macOS. Для установки клиента Mac требуется административный доступ. Клиент macOS устанавливается в папку /Applications.
@@ -103,7 +108,7 @@ ms.locfileid: "42327841"
 ### <a name="linux"></a>Linux
 
 Пользователи смогут установить собственные пакеты Linux в форматах `.deb` и `.rpm`.
-Установка пакета DEB или RPM автоматически установит репозиторий пакетов
+При установке пакета DEB или RPM будет автоматически установлена база данных пакетов.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ sudo zypper install teams
 
 ![Снимок экрана с параметрами уведомлений.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>Пример скрипта PowerShell
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Образец сценария PowerShell — правило для входящего брандмауэра
 
 Этот пример скрипта, который нужно запускать на клиентских компьютерах в контексте учетной записи администратора с повышенными правами, создает правило входящих подключений брандмауэра для каждой папки пользователя, находящейся в c:\users. Если Teams обнаруживает это правило, блокируется запрос для пользователей на создание правил брандмауэра, когда пользователи выполняют первый звонок из Teams. 
 

@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Узнайте о возможностях взаимодействия между пользователями Teams в Организации и пользователями Skype (потребителем).
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545032"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749556"
 ---
 # <a name="teams-and-skype-interoperability"></a>Взаимодействие Teams и Skype
 
@@ -72,13 +72,13 @@ ms.locfileid: "42545032"
 
 Если вы перешли с Skype для бизнеса на Teams, в Teams будут перенесены параметры внешней связи, настроенные в центре администрирования Skype для бизнеса.
 
-### <a name="in-the-microsoft-teams-admin-center"></a>В центре администрирования Microsoft Teams
+### <a name="in-the-microsoft-teams-admin-center"></a>В центре администрирования Microsoft Teams 
 
 В центре администрирования Microsoft Teams перейдите к >  **параметрам уровня Организации****внешний доступ**, а затем включите пользователей для **общения с пользователями Skype**. Пошаговое руководство по настройке этого и других параметров внешнего доступа можно найти [в разделе Управление внешним доступом в Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Используйте командлет [Set-ксекстерналакцессполици](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` разрешить пользователям команды общаться с пользователями Skype.
+Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` разрешить пользователям команды общаться с пользователями Skype. Обратите внимание ```EnablePublicCloudAudioVideoAccess``` , что этот параметр можно использовать для включения и отключения голосовых и видеозвонков.
 
 ## <a name="related-topics"></a>Статьи по теме
 
