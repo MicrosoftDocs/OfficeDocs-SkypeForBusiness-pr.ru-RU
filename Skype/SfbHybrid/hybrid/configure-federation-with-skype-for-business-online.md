@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Узнайте, как настроить взаимодействие между локальным развертыванием и Skype для бизнеса Online.
-ms.openlocfilehash: bd8b3ee3e70cb3662a4eae68fdb5ae6149b55a84
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: ccf140b62cdbad11605c99fe1cb0cc66aa1ee4dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750036"
+ms.locfileid: "43780108"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Настройка гибридной среды Skype для бизнеса
 
@@ -31,13 +31,13 @@ ms.locfileid: "43750036"
 
 - [Настройте локальную пограничной службу для Федерации с Office 365 или другой организацией](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
 - [Настройте локальную среду для доверия к office 365 и включите общее адресное пространство SIP с помощью Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
-- [Включите общее адресное пространство SIP в клиенте Office 365](#enable-shared-sip-address-space-in-your-office-365-tenant).
+- [Включите общее адресное пространство SIP в организации Office 365](#enable-shared-sip-address-space-in-your-office-365-organization).
 
 Обратите внимание на то, что если у вас есть локальная служба Exchange, может потребоваться настроить OAuth между локальной средой Exchange и средой Skype для бизнеса Online. Дополнительные сведения можно найти [в статье Управление проверкой подлинности между серверами в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) и [Планирование интеграции Skype для бизнеса и Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization"></a>Настройка локальной службы пограничной службы для Федерации с Office 365 или другой организацией
 
-Федерация позволяет пользователям в локальном развертывании взаимодействовать с пользователями Office 365 в вашей организации. Чтобы настроить федерацию, выполните следующий командлет в командной консоли Skype для бизнеса Server:
+Федерация позволяет пользователям в локальном развертывании общаться с Microsoft 365 или Office 365 для пользователей в вашей организации. Чтобы настроить федерацию, выполните следующий командлет в командной консоли Skype для бизнеса Server:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -65,11 +65,11 @@ Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## <a name="enable-shared-sip-address-space-in-your-office-365-tenant"></a>Включение общего адресного пространства SIP в клиенте Office 365
+ ## <a name="enable-shared-sip-address-space-in-your-office-365-organization"></a>Включение общего адресного пространства SIP в организации Office 365
   
-В дополнение к изменениям, внесенным в локальном развертывании, необходимо внести соответствующие изменения в клиенте Office 365, чтобы включить общее адресное пространство SIP с локальным развертыванием.  
+В дополнение к изменениям, внесенным в локальном развертывании, необходимо внести соответствующие изменения в организации Office 365, чтобы она включала общее адресное пространство SIP с локальным развертыванием.  
 
-Чтобы включить общее адресное пространство SIP в клиенте Office 365, установите удаленный сеанс PowerShell с помощью Skype для бизнеса Online, а затем выполните следующий командлет:
+Чтобы включить общее адресное пространство SIP в организации Office 365, установите удаленный сеанс PowerShell с помощью Skype для бизнеса Online, а затем выполните следующий командлет:
   
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true

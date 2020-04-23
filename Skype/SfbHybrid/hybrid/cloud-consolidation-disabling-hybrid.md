@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этом приложении содержатся подробные инструкции по отключению гибридной среды в составе облачной консолидации для Teams и Skype для бизнеса.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726979"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780148"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Отключение гибридной среды для завершения миграции в облако
 
@@ -34,7 +34,7 @@ ms.locfileid: "41726979"
 
 1. Изменение DNS-записей, чтобы они указывали на Office 365.
 
-2. Отключение разделенного домена в клиенте Office 365.
+2. Отключите разделенный домен в организации Office 365.
 
 3. Отключение возможности локального подключения к Office 365.
 
@@ -56,7 +56,7 @@ ms.locfileid: "41726979"
     |CNAME| Согласно|   3600|   webdir. Online. Lync. <span>com-|
     |CNAME| Dialin  |3600|  webdir. Online. Lync. <span>com-|
 
-2.  *Отключите общее адресное пространство SIP в клиенте Office 365.*
+2.  *Отключить общее адресное пространство SIP в организации Office 365.*
 Приведенная ниже команда должна быть выполнена в окне PowerShell Skype для бизнеса Online.
 
     ```PowerShell
