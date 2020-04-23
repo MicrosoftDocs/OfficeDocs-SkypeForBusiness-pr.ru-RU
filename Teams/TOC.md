@@ -58,7 +58,7 @@
 ### [Управление приложениями для Teams](manage-apps.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
-### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
+### [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ### [Управление бизнес-приложениями](manage-your-lob-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## Аудиоконференции
 ### [Планирование развертывания](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Аудиоконференции в Office 365](audio-conferencing-in-office-365.md)
+### [Аудиоконференции в Microsoft 365](audio-conferencing-in-office-365.md)
 ### [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)
 ### [Руководство. Аудиоконференции в Teams](Tutorial-Audio-Conferencing.yml)
-### [Платная или пробная версия аудиоконференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Платная или пробная версия аудиоконференций в Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Льготный период обратных звонков для аудиоконференций](complimentary-dial-out-period.md)
 ### [Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [Использование планировщика сети для Teams](network-planner.md)
 ### [Пошаговое руководство по работе с планировщиком сети](tutorial-network-planner-example.yml)
 ### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
-### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
+### [Планирование использования групп Microsoft 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ### [Планирование управления в Teams](plan-teams-governance.md)
 ### [Использование помощника по тестированию сети](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [Установка Teams с помощью MSI](msi-deployment.md)
 ### [Включение Teams в организации](Office-365-set-up.md)
 ### [Использование памяти в Microsoft Teams](teams-memory-usage-perf.md)
-### [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
+### [URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office 365](office-365-urls-ip-address-ranges.md).
 ### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 ### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
 ### [Обновления клиента Teams](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## Лицензирование
 ### [Управление доступом пользователей к Teams](user-access.md)
-### [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md)
+### [Лицензирование Microsoft 365 и Office 365 для Microsoft Teams](office-365-licensing.md)
 ### [Назначение лицензий Teams](assign-teams-licenses.md)
 ### [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### Параметры лицензии с учетом плана
-##### [Office 365 бизнес премиум](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 профессиональный плюс](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 бизнес стандарт](teams-add-on-licensing/office-365-business-premium.md)
+##### [Приложения Microsoft 365 для предприятий](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Управление предложением Teams Exploratory](teams-exploratory.md)
 ### [Управление бесплатной версией Teams](manage-freemium.md)
-### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
+### [Перевод бесплатной версии Teams на версию по подписке](upgrade-freemium.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 ### [Лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
 
 
-## Взаимодействие с Office 365
+## Взаимодействие с Microsoft 365 и Office 365
 
-### [Группы Office 365 и Microsoft Teams](office-365-groups.md)
-### [Улучшение имеющихся групп Office 365 с помощью Teams](enhance-office-365-groups.md)
+### [Группы Microsoft 365 и Teams](office-365-groups.md)
+### [Улучшение существующих групп Microsoft 365 с помощью Teams](enhance-office-365-groups.md)
 ### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
 #### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
 #### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
 ### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
-### [Взаимодействие с Teams в клиенте Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
+### [Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## Поддерживаемые устройства
@@ -899,6 +899,6 @@
 ## Специальные возможности и соответствие требованиям
 ### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
-### [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Планы звонков в Microsoft 365 — нормы и правила для Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Планы звонков в Microsoft 365 — процедура подачи претензий для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
