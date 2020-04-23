@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837819"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780488"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Краткое руководство по управлению Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837819"
 
 Чтобы узнать больше, читайте [план для управления в Teams](plan-teams-governance.md) и [Планируйте управление жизненным циклом в Teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Значок, представляющий точку принятия решения](media/teams-adoption-decision-icon.png)Приняв
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Значок, представляющий точку принятия решения](media/teams-adoption-decision-icon.png)Приняв
 
 Сделайте следующее решение (в этом случае эти решения относятся только к этапу 2).
 
@@ -62,7 +62,7 @@ ms.locfileid: "41837819"
 
 ### <a name="decision-6--data-security"></a>Решение 6: безопасность данных
 
-В процессе подготовки к широкому развертыванию вы можете использовать метки безопасности для классификации типов групп в среде. В целях этого эксперимента мы рекомендуем вам обратиться в раздел [планирование для управления в Teams](plan-teams-governance.md) и убедиться в том, что для данных Teams в организации Office 365 определена базовая политика хранения. Возможно, вам потребуется координировать эту работу с помощью технической группы, так как для выполнения этой работы требуются права администратора Office 365.
+В процессе подготовки к широкому развертыванию вы можете использовать метки безопасности для классификации типов групп в среде. В целях этого эксперимента мы рекомендуем вам обратиться в раздел [планирование для управления в Teams](plan-teams-governance.md) и убедиться в том, что для данных Teams в Microsoft 365 или Office 365 установлен базовый параметр политики хранения. Возможно, вам потребуется координировать эту работу с помощью технической группы, так как для выполнения этой работы требуются права администратора Office 365.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Решение 7: продолжительность эксперимента
 

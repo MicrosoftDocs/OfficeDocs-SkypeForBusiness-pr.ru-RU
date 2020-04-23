@@ -173,7 +173,7 @@
 | 4/3/2020 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
 | 4/3/2020 | [URL-адреса и диапазоны IP-адресов Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Изменено |
 | 4/3/2020 | [Использование Office 365 и настраиваемых соединителей](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
-| 4/3/2020 | [Группы Office 365 и Microsoft Teams](/MicrosoftTeams/office-365-groups) | Изменено |
+| 4/3/2020 | [Microsoft 365 Groups и Microsoft 365 или Office 365softTeams/Office-365 — группы) | Изменено |
 | 4/3/2020 | [Включение Teams в организации Office 365](/MicrosoftTeams/office-365-set-up) | Изменено |
 | 4/3/2020 | [Реализация качества обслуживания в клиентах Teams](/MicrosoftTeams/qos-in-teams-clients) | Изменено |
 | 4/3/2020 | [Качество обслуживания в Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Изменено |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [Управление параметрами для организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
 | 4/3/2020 | [Параметры электронной почты при изменении параметров голосовой конференции](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | Изменено |
 | 4/3/2020 | [Предоставление пользователям возможности записать свое имя для собрания](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | Изменено |
-| 4/3/2020 | [Расширение существующих групп Office 365](/MicrosoftTeams/enhance-office-365-groups) | Изменено |
+| 4/3/2020 | [Расширение существующих групп Microsoft 365](/MicrosoftTeams/enhance-office-365-groups) | Изменено |
 | 4/3/2020 | [Комитет Комиссии по развертыванию облачного голоса](/MicrosoftTeams/envision-steering-committee-complete-guide) | Изменено |
 | 4/3/2020 | [Использование Microsoft Teams во всей организации](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | Изменено |
 | 4/3/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [Ограничения исходящих звонков – голосовые конференции & PSTN-звонки](/MicrosoftTeams/outbound-calling-restriction-policies) | Изменено |
 | 4/3/2020 | [Передача телефонных номеров в Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | Изменено |
 | 4/3/2020 | [Номера телефонов для аудиоконференции](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | Изменено |
-| 4/3/2020 | [Планирование использования групп Office 365 при создании команд](/MicrosoftTeams/plan-office-365-groups) | Изменено |
+| 4/3/2020 | [Планирование групп Microsoft 365 при создании групп](/MicrosoftTeams/plan-office-365-groups) | Изменено |
 | 4/3/2020 | [Развертывание Microsoft 365 для государственных организаций (DoD)](/MicrosoftTeams/plan-for-government-dod) | Изменено |
 | 4/3/2020 | [Microsoft 365 правительственные учреждения — развертывание в высоком развернутом GCC](/MicrosoftTeams/plan-for-government-gcc-high) | Изменено |
 | 4/3/2020 | [Microsoft 365 правительственные учреждения — развертывание GCC](/MicrosoftTeams/plan-for-government-gcc) | Изменено |

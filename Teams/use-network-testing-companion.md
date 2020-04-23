@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836759"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780028"
 ---
 <a name="use-the-network-testing-companion"></a>Использование помощника по тестированию сети
 =================================
@@ -34,7 +34,7 @@ ms.locfileid: "41836759"
 Это средство можно использовать на этапе планирования развертывания Skype для бизнеса или Microsoft Teams. Если вы используете Teams или Skype для бизнеса Online, вы можете использовать это средство для устранения проблем с качеством голосовой связи или просто проверить сетевое подключение перед совершением звонка или после некачественной работы.
 
 > [!NOTE]
-> Для загрузки и установки помощника по тестированию сети не требуется подписка на Office 365.
+> Для загрузки и установки помощника по тестированию сети не требуется подписка на Microsoft 365 или Office 365.
 
 ## <a name="download-the-tool-and-documentation"></a>Загрузка средства и документации
 

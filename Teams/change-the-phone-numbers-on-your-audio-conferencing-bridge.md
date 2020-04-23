@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: В этой статье описаны действия, которые необходимо выполнить, чтобы назначить для моста конференц-связи новый служебный номер, чтобы расширить покрытие для пользователей.
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139078"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780358"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для моста аудиоконференций
 
@@ -69,7 +69,7 @@ ms.locfileid: "43139078"
 
 Номера телефонов по умолчанию для пользователей — это те, которые включаются в приглашения на собрания при планировании собрания. Дополнительные сведения, в том числе назначение номера телефона defaul для новых пользователей, приведены в разделе [Настройка номеров телефонов, включенных в приглашения в Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) , или [Установка номеров телефонов для приглашений в Skype для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите**в центр администрирования** > **Users****Legacy portal** >  **центра** > администрирования Microsoft 365**Teams &** >  > и**выберите пользователей в**списке.
 
@@ -133,7 +133,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Шаг 3. Отмена назначения старого номера телефона мосту аудиоконференции
 
-1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
+1. Войдите в свою рабочую или учебную учетную запись.
 
 2. Перейдите в**центр администрирования** > **Voice** > центра >  **администрирования Microsoft 365****группы &** > **номера телефонов**Skype**Legacy Portal** > .
 
@@ -169,7 +169,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
 
 >
   ```PowerShell

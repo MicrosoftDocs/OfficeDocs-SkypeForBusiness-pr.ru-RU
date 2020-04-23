@@ -10,18 +10,19 @@ audience: admin
 description: Улучшите производительность Teams за счет исключения некоторых файлов и папок из обычной проверки антивирусной программы.
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: a1e890509428b3bfba19f6bfb01916e8ea837147
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265624"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579595"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Файлы и папки Teams, которые должны быть исключены из проверки на вирусы
 =================================
@@ -39,15 +40,7 @@ ms.locfileid: "42265624"
 
 Добавьте следующие программы Teams в список надежных для антивирусных программ.
 
-**%локалаппдата%\микрософт\теамс\куррент\теамс.ексе**
+**%localappdata%\Microsoft\Teams\current\Teams.exe**
 
-**%локалаппдата%\микрософт\теамс\упдате.ексе**
+**%localappdata%\Microsoft\Teams\Update.exe**
 
-### <a name="folders"></a>Папки
-
-Добавьте следующие папки Teams в список надежных для антивирусных программ.
-
-|Категория  |Местоположение  |
-|---------|---------|
-|Файлы программы  |%локалаппдата%\микрософт\теамс|
-|Файлы данных     |%аппдата%\микрософт\теамс\ |

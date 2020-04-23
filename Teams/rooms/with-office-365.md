@@ -1,5 +1,5 @@
 ---
-title: Развертывание комнаты Microsoft Teams с Office 365
+title: Развертывание комнат Microsoft Teams с помощью Microsoft 365 или Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Office 365, читайте в этой статье.
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams с помощью Microsoft 365 или Office 365.
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888758"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780548"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Развертывание комнаты Microsoft Teams с Office 365
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Развертывание комнат Microsoft Teams с помощью Microsoft 365 или Office 365
 
 В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в Office 365, где Microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
 
-Самый простой способ настроить учетные записи пользователей — настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [скиперумпровисионингскрипт. ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или проверить имеющиеся учетные записи ресурсов, чтобы их можно было превратить в совместимые учетные записи Microsoft Teams. Если вы предпочитаете, выполните указанные ниже действия, чтобы настроить учетные записи, которые будут использоваться на устройстве комнат Microsoft Teams.
+Самый простой способ настроить учетные записи пользователей — настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или проверить имеющиеся учетные записи ресурсов, чтобы их можно было превратить в совместимые учетные записи Microsoft Teams. Если вы предпочитаете, выполните указанные ниже действия, чтобы настроить учетные записи, которые будут использоваться на устройстве комнат Microsoft Teams.
 
 ## <a name="requirements"></a>Требования
 
@@ -58,7 +58,7 @@ ms.locfileid: "41888758"
 
      В этом примере создается новый почтовый ящик комнаты со следующими параметрами:
 
-     - Имя: Project-Рижел-01
+     - Имя: Project-Rigel-01
 
      - Alias (псевдоним): ProjectRigel01
 
@@ -87,27 +87,27 @@ ms.locfileid: "41888758"
 
 3. В Exchange Online PowerShell настройте следующие параметры в почтовом ящике комнаты, чтобы улучшить процесс собрания:
 
-   - Аутоматепроцессинг: с помощью автопринятия (организаторов собраний) получайте решение о резервировании комнаты непосредственно без вмешательства человека: бесплатное = принять; занято = отклонить.)
+   - AutomateProcessing: с помощью автопринятия (организаторов собраний) получайте решение о резервировании комнаты непосредственно без вмешательства человека: бесплатное = принять; занято = отклонить.)
 
-   - Аддорганизертосубжект: $false (Организатор собрания не добавляется в тему приглашения на собрание.)
+   - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему приглашения на собрание.)
 
-   - Делетекомментс: $false (Храните текст в тексте сообщения для входящих приглашений на собрания.)
+   - DeleteComments: $false (Храните текст в тексте сообщения для входящих приглашений на собрания.)
 
-   - Делетесубжект: $false (сохранить тему приглашений на входящие собрания).
+   - DeleteSubject: $false (сохранить тему приглашений на входящие собрания).
 
-   - Ремовеприватепроперти: $false (гарантируется, что частный флаг, отправленный организатором собрания в исходном приглашении на собрание, будет установлен.)
+   - RemovePrivateProperty: $false (гарантируется, что частный флаг, отправленный организатором собрания в исходном приглашении на собрание, будет установлен.)
 
-   - Аддаддитионалреспонсе: $true (текст, указанный в параметре Аддитионалреспонсе, добавляется в приглашения на собрание.)
+   - AddAdditionalResponse: $true (текст, указанный в параметре AdditionalResponse, добавляется в приглашения на собрание.)
 
-   - Аддитионалреспонсе: "это комната для собраний Skype!" (Дополнительный текст, добавляемый в приглашение на собрание.)
+   - AdditionalResponse: "это комната для собраний Skype!" (Дополнительный текст, добавляемый в приглашение на собрание.)
 
-   Этот пример настраивает эти параметры в почтовом ящике комнаты с именем Project-Рижел-01.
+   Этот пример настраивает эти параметры в почтовом ящике комнаты с именем Project-Rigel-01.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Подробные сведения о синтаксисе и параметрах можно найти в разделе [Set-календарпроцессинг](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Подробные сведения о синтаксисе и параметрах можно найти в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 4. Подключитесь к MS Online PowerShell, чтобы настроить параметры Active Directory, `Connect-MsolService -Credential $cred` запустив командлет PowerShell.   Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
@@ -144,7 +144,7 @@ ms.locfileid: "41888758"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. Учетная запись устройства должна иметь действительную лицензию на Office 365, либо Exchange и Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных SKU для клиента Office 365, выполните указанные ниже действия.
+6. Учетная запись устройства должна иметь действительную лицензию на Office 365, либо Exchange и Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных SKU для вашей организации Office 365, выполните указанные ниже действия.
 
   ``` Powershell
   Get-MsolAccountSku
@@ -186,7 +186,7 @@ ms.locfileid: "41888758"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   Получите сведения о Регистрарпул из новой учетной записи пользователя, как показано в следующем примере:
+   Получите сведения о RegistrarPool из новой учетной записи пользователя, как показано в следующем примере:
 
     ``` Powershell
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
@@ -261,8 +261,8 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Развертывание комнат Microsoft Teams](rooms-deploy.md)
 
-[Настройка консоли Microsoft Teams](console.md)
+[Настройка консоли комнат Microsoft Teams](console.md)
 
-[Управление приложением "Комнаты Microsoft Teams"](rooms-manage.md)
+[Управление комнатами Microsoft Teams](rooms-manage.md)
 
 [Лицензирование комнат Microsoft Teams](rooms-licensing.md)

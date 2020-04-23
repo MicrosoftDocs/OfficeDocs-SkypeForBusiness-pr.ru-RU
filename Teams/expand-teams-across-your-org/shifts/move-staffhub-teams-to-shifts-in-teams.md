@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139598"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780628"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -78,7 +78,7 @@ ms.locfileid: "43139598"
 
 - Вход пользователя в систему является глобальным администратором.
 - Teams включена для всех пользователей в клиенте.
-- Создание групп Office 365 включена в клиенте.
+- Поддержка создания групп Microsoft 365 в клиенте включена.
 - StaffHub teamId является допустимым.
 - У группы StaffHub есть по крайней мере один владелец группы.
 - Группа StaffHub включает в себя участников.
@@ -140,7 +140,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 #### <a name="link-the-account"></a>Связывание учетной записи
 
-Выполните одно из следующих действий:
+Выполните одно из следующих действий.
 
 - Преобразуйте учетную запись и свяжите ее с ней.
 

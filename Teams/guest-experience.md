@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776934"
+ms.locfileid: "43785872"
 ---
 <a name="what-the-guest-experience-is-like"></a>Взаимодействие с гостями
 =================================
@@ -34,6 +34,11 @@ ms.locfileid: "43776934"
 Все участники команды видят в беседе канала сообщение о том, что владелец добавил гостя с определенным именем. Любой участник команды может легко определить, кто именно является гостем. Как показано на приведенном ниже снимке примера команды, баннер указывает на то, что в этой группе есть гости, и на ней рядом с именем каждого гостя появляется метка **(гость)** .
     
 ![Снимок экрана: гостевые пользователи с уведомлением о рекламе](media/guest-experience-image2.png "Снимок экрана: фрагмент маркетингового канала для базы данных "Борей" с уведомлением в верхнем заголовке, в котором говорится о том, что у группы есть гости и пользователи, являющиеся гостями, обозначены ссылкой на "гость", рядом с именем пользователя.")
+
+Ознакомьтесь с этими видеороликами о работе гостей в teams:
+- [Присоединение к группе в качестве гостя](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Присоединение к собранию Teams с гостями](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Сравнение возможностей участников группы и гостей
 

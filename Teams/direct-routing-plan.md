@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780698"
+ms.locfileid: "43785942"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -299,8 +299,8 @@ SBC делает запрос DNS для разрешения sip.pstnhub.micros
 
 |**Дорож**|**От**|**До**|**Исходный порт**|**Конечный порт**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Процессор мультимедиа|БАЙТОВ|49152 – 53247|Определено для SBC|
-|UDP/SRTP|БАЙТОВ|Процессор мультимедиа|Определено для SBC|49152 – 53247|
+|UDP/SRTP|Процессор мультимедиа|БАЙТОВ|3478-3481 и 49152 – 53247|Определено для SBC|
+|UDP/SRTP|БАЙТОВ|Процессор мультимедиа|Определено для SBC|3478-3481 и 49152 – 53247|
 
   > [!NOTE]
   > Корпорация Майкрософт рекомендует по крайней мере два порта для одновременных звонков на SBC.

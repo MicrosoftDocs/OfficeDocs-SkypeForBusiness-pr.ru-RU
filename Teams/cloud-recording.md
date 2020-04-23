@@ -15,12 +15,12 @@ f1.keywords:
 description: Включение и управление записью собраний в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751856"
+ms.locfileid: "43780338"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "43751856"
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Включение Microsoft Stream для пользователей в Организации
 
-Microsoft Stream доступен как часть соответствующих подписок на Office 365 или как отдельная служба.  См. [Обзор лицензирования Stream](https://docs.microsoft.com/stream/license-overview) для более подробной информации.  Microsoft Stream теперь включен в Microsoft 365 Business, Office 365 Business Premium и Office 365 Business Essentials.
+Microsoft Stream доступен как часть подходящих подписок Microsoft 365 и Office 365 либо как самостоятельная служба.  См. [Обзор лицензирования Stream](https://docs.microsoft.com/stream/license-overview) для более подробной информации.  Microsoft Stream теперь включен в Microsoft 365 Business, Microsoft 365 для бизнеса Standard и Microsoft 365 Business Basic.
 
 Узнайте больше о том, как можно [назначать лицензии пользователям в Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC), чтобы пользователи могли получать доступ к Microsoft Stream. Убедитесь, что Microsoft Stream не заблокирован для пользователей, как определено в [этой статье](https://docs.microsoft.com/stream/disable-user-organization).
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках.
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887858"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776264"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Настройка политик мобильных устройств в организации
 
@@ -55,7 +55,7 @@ ms.locfileid: "41887858"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+    2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
         
         > [!NOTE]
         > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
@@ -76,14 +76,14 @@ ms.locfileid: "41887858"
    ```powershell
    New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
    ```
-   Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
+   Дополнительные сведения о командлете [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
    
    ```powershell
    Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
    ```
-   Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
+   Дополнительные сведения о командлете [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
   Если политика уже создана, используйте командлет [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx), чтобы применить настройки к пользователям.
   
@@ -93,16 +93,16 @@ ms.locfileid: "41887858"
   ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
+  Дополнительные сведения о командлете [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:  
    
    ```powershell
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
    ```
-   Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
+   Дополнительные сведения о командлете [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-  Если вы уже создали политику, вы можете использовать командлет [Set-ксмобилитиполици](https://technet.microsoft.com/library/mt779147.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) , чтобы применить этот параметр к вашим пользователям.
+  Если вы уже создали политику, вы можете использовать командлет [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) , чтобы применить этот параметр к вашим пользователям.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Запрет звонков по VoIP на мобильных устройствах
 
@@ -111,7 +111,7 @@ ms.locfileid: "41887858"
    ```powershell
    New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
    ```
-   Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
+   Дополнительные сведения о командлете [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
    
@@ -119,7 +119,7 @@ ms.locfileid: "41887858"
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
    ```
 
-  Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
+  Дополнительные сведения о командлете [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
 Если политика уже создана, используйте командлет [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx), чтобы применить настройки к пользователям.
   
@@ -139,7 +139,7 @@ ms.locfileid: "41887858"
     
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Создание настраиваемых политик внешнего доступа](create-custom-external-access-policies.md)
 
 [Блокировка передачи файлов между точками](block-point-to-point-file-transfers.md)

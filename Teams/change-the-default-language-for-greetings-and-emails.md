@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: В этой статье объясняется, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты, используемого по умолчанию в вашей организации.
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752346"
+ms.locfileid: "43780368"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
-При наличии прав [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) вы можете настроить в Skype для бизнеса приветствие голосовой почты по умолчанию на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. Запишите сообщение после сигнала. По окончании записи повесьте трубку или нажмите решетку для выбора других функций". 
+Если вы являетесь [глобальным администратором](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), вы можете настроить Skype для бизнеса для воспроизведения приветствия голосовой почты, используемого по умолчанию, на другом языке. По умолчанию в системе задано примерно следующее приветствие: "Оставьте сообщение для Александра Петрова. Запишите сообщение после сигнала. По окончании записи повесьте трубку или нажмите решетку для выбора других функций". 
   
  **Сначала ознакомьтесь со следующей важной информацией:**
   
@@ -49,7 +49,7 @@ ms.locfileid: "43752346"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
-1. Войдите в систему с помощью учетной записи [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Войдите в систему с помощью учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [глобального администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) . 
     
 2. В центре администрирования Microsoft 365 выберите**профиль организации**"**Параметры** >  **параметров** > ". 
     

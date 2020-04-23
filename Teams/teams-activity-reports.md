@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbfd37754ed5ab1347fb198936c1df3f43b356c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9f3f35318c2ccfdf791becba0ae67208484c883c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835479"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779055"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов об активности в Microsoft Teams 
 ========================================
@@ -31,7 +31,7 @@ ms.locfileid: "41835479"
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Просмотр отчетов о командах на панели мониторинга "отчеты"
 
-1. В [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home)выберите пункт Использование **отчетов** > ****.
+1. В [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home)выберите пункт Использование **отчетов** > **Usage**.
  
 2. На странице **Использование** нажмите **кнопку Выбрать отчет**, а затем в разделе **Microsoft Teams** (список отчетов) выберите отчет, который вы хотите просмотреть.
 
@@ -94,7 +94,7 @@ ms.locfileid: "41835479"
 
 Доступ к отчетам об активности может получать пользователи, которым назначены:
 
-- Роль глобального администратора Office 365
+- Роль глобального администратора
 - Роль администратора для определенного продукта (Exchange, Skype для бизнеса или SharePoint)
 - Роль читателя отчетов
 

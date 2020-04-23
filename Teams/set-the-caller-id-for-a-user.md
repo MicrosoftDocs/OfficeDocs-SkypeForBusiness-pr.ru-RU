@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о ИДЕНТИФИКАТОРе вызывающего абонента Office 365 по умолчанию (назначенный пользователю номер телефона), также называемом ИДЕНТИФИКАТОРом телефонной линии. Вы можете изменить или заблокировать идентификатор звонящего пользователя.
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140912"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780528"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 Телефонная система в Office 365 предоставляет стандартный идентификатор абонента. Он же является номером телефона, назначенным пользователю. Можно изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в своей организации можно получить, перейдя к статье [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).
@@ -79,7 +79,7 @@ ms.locfileid: "43140912"
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
     
    > [!NOTE]
    > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
