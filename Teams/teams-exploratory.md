@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: 'Пользователи Office 365, не имеющие лицензии на Microsoft Teams, могут воспользоваться лицензией на Teams Exploratory. '
+description: Пользователи Microsoft 365 или Office 365 без лицензии на Microsoft Teams могут воспользоваться лицензией на Exploratory Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749796"
+ms.locfileid: "43780388"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 =======================================================
@@ -54,7 +54,7 @@ ms.locfileid: "43749796"
 
 ## <a name="whos-eligible"></a>Кто имеет право на использование?
 
-Пока пользователь имеет адрес электронной почты управляемого домена AAD и в настоящее время не имеет / не получил лицензию Команд, он имеет право на такой опыт. Например, если у пользователя есть версия Office 365 бизнес (не включающая Teams), он имеет право на использование Teams Exploratory.
+Пока пользователь имеет адрес электронной почты управляемого домена AAD и в настоящее время не имеет / не получил лицензию Команд, он имеет право на такой опыт. Например, если у пользователя есть версия Microsoft 365 для бизнеса (не включающая Teams), он имеет право на использование Teams Exploratory.
 
 У пользователей есть возможность зарегистрироваться для получения приложений и пробных версий (в Центре администрирования Microsoft 365). Дополнительные сведения см. в разделе [Управление предложением Teams Exploratory](#manage-the-teams-exploratory-experience) далее в этой статье. 
 
