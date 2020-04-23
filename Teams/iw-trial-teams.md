@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Пользователи Office 365 без лицензии на Microsoft Teams могут воспользоваться пробной версией Teams на 1 год.
+description: Пользователи Microsoft 365 или Office 365 без лицензии на Microsoft Teams могут воспользоваться пробной версией Teams на 1 год.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137159"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778355"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
 
-Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации.
+Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Microsoft 365 или Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации.
 
 > [!IMPORTANT]
 > Пробное предложение Microsoft Teams Commercial Cloud Trial будет заменено на Microsoft Teams Exploratory с января 2020 г. Дополнительные сведения об этом новом предложении см. в статье [Управление лицензией Teams Exploratory](teams-exploratory.md).
@@ -55,7 +55,7 @@ ms.locfileid: "43137159"
 
 Пользователям должно быть разрешено регистрироваться для получения приложений и пробных версий (в Центре администрирования Microsoft 365). Дополнительные сведения см. в разделе [Управление пробной версией](#manage-the-trial) этой статьи. 
 
-Пользователи, не имеющие лицензии на Office 365 с Teams, могут воспользоваться пробным предложением Microsoft Teams Commercial Cloud Trial. Например, если у пользователя есть версия Office 365 бизнес (не включающая Teams), они могут воспользоваться пробной версией.
+Пользователи, не имеющие лицензии на Office 365 с Teams, могут воспользоваться пробным предложением Microsoft Teams Commercial Cloud Trial. Например, если у пользователя есть приложения Microsoft 365 для бизнеса (без Teams), то можно воспользоваться пробной версией.
 
 ## <a name="who-is-not-eligible"></a>Кто не имеет права на использование
 

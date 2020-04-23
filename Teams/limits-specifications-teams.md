@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209451"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749596"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -110,6 +110,7 @@ ms.locfileid: "43209451"
 |------------|---------------|
 |Количество пользователей в собрании  | 250    |
 |Максимальный размер файла PowerPoint | 2 ГБ|
+|Teams хранит [записи собраний](cloud-recording.md), которые не отправляются в Microsoft Stream и доступны для скачивания | 20 дней |
 
 ### <a name="meeting-expiration"></a>Окончание срока действия собрания
 

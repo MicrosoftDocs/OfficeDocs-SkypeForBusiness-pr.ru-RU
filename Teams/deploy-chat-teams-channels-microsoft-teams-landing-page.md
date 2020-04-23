@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170597"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776574"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "43170597"
 
 |Задайте себе вопрос|Действие |
 |------------|-------|
-|Готова ли моя организация к развертыванию Teams?|Чтобы получить ответ на этот вопрос, см.: <ul><li>[Подготовка сети организации к использованию Teams](prepare-network.md)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Планирование использования групп Office 365 при создании команд](plan-office-365-groups.md)</li></ul>|
+|Готова ли моя организация к развертыванию Teams?|Чтобы получить ответ на этот вопрос, см.: <ul><li>[Подготовка сети организации к использованию Teams](prepare-network.md)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Планирование использования групп Microsoft 365 при создании команд](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Основные решения по развертыванию
@@ -193,7 +193,7 @@ Teams предоставляется как часть лицензий Office 3
 | Задайте себе вопрос | Действие |
 |--------------|--------|
 |Мне необходимо будет реализовать элементы управления, чтобы определять, кто может создавать команды?| Ознакомьтесь со статьей [Планирование управления в SharePoint](plan-teams-governance.md).|
-|Мне необходимо будет реализовать элементы управления, чтобы определять, как будут присваиваться имена для команд?|Ознакомьтесь со статьей [Использование политики именования для групп Office 365 в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Мне необходимо будет реализовать элементы управления, чтобы определять, как будут присваиваться имена для команд?|Ознакомьтесь со статьей [Использование политики именования для групп Microsoft 365 в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Политика приложений Teams (стороннее управление)

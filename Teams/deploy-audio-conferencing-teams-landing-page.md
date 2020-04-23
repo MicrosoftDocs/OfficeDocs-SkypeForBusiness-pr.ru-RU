@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137329"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776584"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Узнайте, как развернуть аудиоконференции в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "43137329"
 |Задайте себе вопрос|Действие |
 |------------|-------|
 |Доступна ли функция аудиоконференции для моей страны или региона?|Чтобы узнать, доступна ли функция аудиоконцеренции в вашей стране или регионе, перейдите в раздел [Страны и регионы, доступные для аудиоконференций, и тарифные планы](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Мои пользователи имеют все необходимые лицензии для использования аудиоконференций в Teams?|Лицензии для аудиоконференции доступны в составе подписки Office 365 E5, а также в виде службы надстройки для подписок Office 365 бизнес премиум E1 или E3. <ul><li>Получение и назначение лицензий см. в статье [Использование пробной версии или приобретение аудиоконференций в Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) и [Назначение и отмена лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Дополнительные сведения см. в статье [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Информацию о том, какие облачные функции включены в различные планы подписки Office 365, см. в статье [Параметры лицензии в зависимости от плана](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|Мои пользователи имеют все необходимые лицензии для использования аудиоконференций в Teams?|Лицензии для аудиоконференций доступны в составе подписки Office 365 E5, а также в виде службы надстройки для подписок Microsoft 365 бизнес стандарт, E1 или E3. <ul><li>Получение и назначение лицензий см. в статье [Использование пробной версии или приобретение аудиоконференций в Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) и [Назначение и отмена лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Дополнительные сведения см. в статье [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Информацию о том, какие облачные функции включены в различные планы подписки Office 365, см. в статье [Параметры лицензии в зависимости от плана](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |Нужно ли приобретать кредиты на связь для пользователей, которым назначаются лицензии для аудиоконференции?|Чтобы узнать больше, см. статью [Что такое кредиты на связь](what-are-communications-credits.md), а затем ознакомьтесь с разделом [Кредиты на связь](#communications-credits) ниже.|
 |||
 

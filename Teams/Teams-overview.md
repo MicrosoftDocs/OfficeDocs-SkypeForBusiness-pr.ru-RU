@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928262"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778475"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -38,7 +38,7 @@ ms.locfileid: "42928262"
 
 ## <a name="teams-architecture"></a>Архитектура Teams
 
-В основе Teams лежат группы Office 365 и Microsoft Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). Работа в Teams продолжается, даже если вы не подключены к сети или в условиях нестабильной работы сети.
+В основе Teams лежат группы Microsoft 365 и Microsoft Graph. Teams обеспечивает такой же высокий корпоративный уровень безопасности, соответствия требованиям и управляемости, что и остальные средства Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). Работа в Teams продолжается, даже если вы не подключены к сети или в условиях нестабильной работы сети.
 
 Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -68,7 +68,7 @@ ms.locfileid: "42928262"
 - [Управление Teams с ролями администратора](using-admin-roles.md)
 - [Управление Teams в Центре администрирования Teams](manage-teams-skypeforbusiness-admin-center.md).
 - [Управление Teams при переходе на новую версию Центра администрирования Teams](manage-teams-in-modern-portal.md)
-- [Управление функциями Teams в организации Office 365](enable-features-office-365.md)
+- [Управление функциями Teams в Microsoft 365 или Office 365](enable-features-office-365.md)
 
 Узнать о новых возможностях Teams, а также других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и из [стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
 

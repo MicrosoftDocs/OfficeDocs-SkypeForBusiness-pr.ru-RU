@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096964"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780318"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -90,7 +90,7 @@ ms.locfileid: "43096964"
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Как получить помощь по началу работы с Teams и убедиться, что развертывание прошло успешно?
 
-Корпорация Майкрософт предлагает [Преимущество FastTrack Center для Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), помогающее с планированием, развертыванием, использованием и внедрением рекомендаций. Эта услуга предлагается бесплатно при наличии не менее 150 пользователей. Дополнительные сведения см. в статье [Запросить помощь FastTrack для Microsoft 365 стало проще](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). Руководство по настройке FastTrack для Microsoft 365 доступно всем администраторам клиентов Office 365. Чтобы получить доступ к этому руководству, войдите на сайте [https://aka.ms/setupguidance](https://aka.ms/setupguidance) с учетными данными администратора.
+Корпорация Майкрософт предлагает [Преимущество FastTrack Center для Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), помогающее с планированием, развертыванием, использованием и внедрением рекомендаций. Эта услуга предлагается бесплатно при наличии не менее 150 пользователей. Дополнительные сведения см. в статье [Запросить помощь FastTrack для Microsoft 365 стало проще](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). Руководство по настройке FastTrack для Microsoft 365 доступно всем администраторам организаций Office 365. Чтобы получить доступ к этому руководству, войдите на сайте [https://aka.ms/setupguidance](https://aka.ms/setupguidance) с учетными данными администратора.
 
 Если вы хотите приступить к работе самостоятельно, ознакомьтесь со статьей [Как выполнить развертывание Teams](How-to-roll-out-teams.md) и серией вебинаров [Teams за 30](https://aka.ms/Teamsin30), предназначенной для начала работы с Teams всего за 30 дней.
 
