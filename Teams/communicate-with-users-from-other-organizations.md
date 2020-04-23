@@ -17,12 +17,12 @@ description: Узнайте, как общаться с пользователя
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824927"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785932"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Общение с пользователями из других организаций в Microsoft Teams
 ======================================================
@@ -73,6 +73,7 @@ ms.locfileid: "41824927"
 | Можно заблокировать отдельных пользователей | Нет | Да |
 | Поддерживаются @упоминания | Да<sup>4</sup> | Да |
 | Совершение приватных звонков | Да | Да |
+| Просмотр номеров телефонов участников собрания с телефонным подключением | Нет | Да |
 | Разрешить видео по IP | Да | Да |
 | Режим демонстрации экрана | Да<sup>4</sup> | Да |
 | Разрешить функцию "Начать собрание" | Нет | Да |

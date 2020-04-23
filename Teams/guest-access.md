@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8a27d5085130810a56ff5592d61df03f08b8980
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7151c7a84ec6273e14f41330eb4fd2afcd8d989
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013012"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776944"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -46,11 +46,11 @@ ms.locfileid: "42013012"
 
 ## <a name="licensing-for-guest-access"></a>Лицензии для гостевого доступа
 
-Функция гостевого доступа включена во все подписки Office 365 бизнес премиум, Office 365 корпоративный и Office 365 для образования. Дополнительная лицензия Office 365 не требуется. В Teams не ограничивается число гостей, которых можно добавить. Однако общее число гостей, которых можно добавить в клиент, зависит от разрешений лицензии Azure AD — обычно 5 гостей на пользователя с лицензией. Дополнительные сведения см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Функция гостевого доступа включена во все подписки Microsoft 365 бизнес стандарт, Office 365 корпоративный и Office 365 для образования. Дополнительная лицензия Office 365 не требуется. В Teams не ограничивается число гостей, которых можно добавить. Однако общее число гостей, которых можно добавить в клиент, зависит от разрешений лицензии Azure AD — обычно 5 гостей на пользователя с лицензией. Дополнительные сведения см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
-> Пользователей из вашей организации, у которых есть только отдельные планы подписки на Office 365, например на Exchange Online (план 2), нельзя пригласить в качестве гостей в организацию, так как Teams считает, что они относятся к одной организации. Чтобы использовать Teams для этих пользователей, им должна быть назначена подписка на Office 365 бизнес премиум, Office 365 корпоративный или Office 365 для образования. 
+> Пользователей из вашей организации, у которых есть только отдельные планы подписки на Office 365, например на Exchange Online (план 2), нельзя пригласить в качестве гостей в организацию, так как Teams считает, что они относятся к одной организации. Чтобы использовать Teams для этих пользователей, им должна быть назначена подписка на Microsoft 365 бизнес стандарт, Office 365 корпоративный или Office 365 для образования. 
 
 ## <a name="who-is-a-guest"></a>Кто такой гость?
 
@@ -78,11 +78,11 @@ ms.locfileid: "42013012"
 - Отправка файлов в приватный чат
 - В настоящее время Teams поддерживает гостевых пользователей только с состояниями 1 и 2 [согласно определению Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
-Полный список возможностей, доступных и недоступных для гостей в Teams, см. в таблице [сравнения возможностей участников команд и гостей](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Дополнительные сведения о гостевом доступе на уровне Office 365 см. в статье [Добавление гостей в группы Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Полный список возможностей, доступных и недоступных для гостей в Teams, см. в таблице [сравнения возможностей участников команд и гостей](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Дополнительные сведения о гостевом доступе на уровне Office 365 см. в статье [Добавление гостей в группы Microsoft 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 
 ## <a name="more-information"></a>Дополнительные сведения
 
 [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-[Гостевой доступ в группах Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Гостевой доступ в группах Microsoft 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
