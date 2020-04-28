@@ -4,7 +4,7 @@ ms.topic: hub-page
 title: Учебные курсы под руководством инструктора и видео для пользователей
 ms.reviewer: dearbeen
 manager: serdars
-description: Оформите регистрацию на занятия под руководством инструктора, чтобы узнать все подробности работы с Microsoft Teams.
+description: Узнайте, как зарегистрироваться в бесплатных интерактивных учебных курсах под руководством инструктора, чтобы изучить все возможности Microsoft Teams.
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -14,21 +14,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4808fecfa53a4d1e825d2b2f04d7d6b7b53d3866
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137129"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905791"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Тренинг под руководством инструктора по Microsoft Teams</h1>
+        <h1>Учебные курсы под руководством инструктора для Microsoft Teams</h1>
 Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия предназначены для подготовки к работе с Teams.Если вы являетесь лицом, принимающим решения в бизнесе, администратором, ИТ-специалистом или конечным пользователем, вы найдете занятия, которые вам подойдут. Не знаете, с чего начать? Пройдите нашу <a href="https://aka.ms/TeamsKnowledgeCheck">проверку знаний по Teams</a>. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. Чтобы просматривать наши учебные занятия в своем ритме, ознакомьтесь с <a href="https://aka.ms/TeamsOnDemand">обучением конечных пользователей по запросу</a>.<br><br>Выберите учебное занятие, чтобы зарегистрироваться.
         <ul class="pivots">
             <li>
