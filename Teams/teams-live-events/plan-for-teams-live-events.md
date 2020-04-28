@@ -1,5 +1,5 @@
 ---
-title: Планирование живых событий в Microsoft Teams
+title: Планирование трансляций в Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,17 +14,18 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Узнайте о факторах, которые следует учитывать, прежде чем настраивать прямые трансляции в Microsoft Teams.
+description: В этой статье вы ознакомитесь с факторами, которые следует учитывать перед настройкой трансляций в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779968"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903084"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование живых событий в Microsoft Teams
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
 Когда вы планируете живые мероприятия команд для проведения больших собраний в вашей организации, вам нужно учесть несколько факторов, прежде чем начинать все это настраивать.
 
@@ -98,7 +99,8 @@ ms.locfileid: "43779968"
 |Присоединение докладчика в Интернете и на мобильных устройствах |&#x2714;(Skype для бизнеса)  |&#x274C; |Н/Д |
 |Докладчики и участники с внешним доступом (федерацией) и гостевым доступом |&#x2714;(Skype для бизнеса)  |  &#x2714; (Teams) |Н/Д |
 |Докладчик — доступ к ТСОП |&#x274C; |&#x2714; (Teams) |Недоступно |
-|Показ экрана |&#x274C; |&#x2714; (Teams) |Недоступно |
+|Показ экрана |&#x274C; |&#x2714; (Teams) |Н/Д |
+|Доступ к системным звукам в Windows (доступно только при демонстрации экрана)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Презентация PowerPoint (общий доступ к PPT) |&#x2714; |&#x274C; (вместо этого можно использовать демонстрацию экрана) |Н/Д |
 |Запись собраний на основе облачных технологий |&#x2714; |&#x2714; |&#x2714; |
 |Автоматическая публикация записи в поток |&#x274C; |&#x274C; |&#x2714; |

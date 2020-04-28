@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Найдите подходящий способ развертывания Microsoft Teams в вашей организации.
+description: Независимо от того, выполняете ли вы комплексное или поэтапное развертывание, определите курс для успешного внедрения Microsoft Teams в организации.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb11c6a7386abb9a83e178692a84cef1dfe8bd05
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7cb1178771ad0616a28fcc9e8a22c08b2851c4cf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053562"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904881"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Как выполнить развертывание Microsoft Teams
 
