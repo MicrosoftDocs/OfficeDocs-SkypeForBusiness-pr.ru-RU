@@ -10,19 +10,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: В этой статье рассказывается, как выбрать режим сосуществования и настроить другие параметры сосуществования.
+description: Узнайте, как настроить параметры совместного существования и обновления для всех пользователей в Организации одновременно или для одного или для всех пользователей в Организации.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579615"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905561"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка сосуществования и обновления
 

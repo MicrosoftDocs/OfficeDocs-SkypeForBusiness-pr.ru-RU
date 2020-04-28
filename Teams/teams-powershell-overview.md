@@ -1,5 +1,5 @@
 ---
-title: Обзор PowerShell в Teams
+title: Общие сведения о Teams PowerShell
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -12,17 +12,18 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
+description: Научитесь использовать элементы управления PowerShell для управления Microsoft Teams, в том числе для структурирования командлетов PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052526"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903044"
 ---
-# <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
+# <a name="teams-powershell-overview"></a>Общие сведения о Teams PowerShell
 
 Microsoft Teams имеет широкий набор инструментов для ИТ-администраторов, которые могут управлять продуктом с помощью центра администрирования Microsoft Teams, элементов управления PowerShell и API Graph. В этом руководстве объясняется, как мы разработали командлеты PowerShell для ИТ – администраторов и приводятся ссылки на дополнительные документы. Обратите внимание, что для разных ролей администраторов групп есть доступ к разным командлетам. Дополнительные сведения [можно найти в разделе Использование ролей администратора Microsoft Teams для управления группами](using-admin-roles.md).
 
@@ -52,29 +53,29 @@ Microsoft Teams имеет широкий набор инструментов д
 
 | Командлет | Доступно в предварительной версии | Доступно в 1,0 |
 |------- | -------------------- | ------------------------------ |
-| Add-Теамусер | Да | Да |
+| Add-TeamUser | Да | Да |
 | Connect-MicrosoftTeams | Да | Да |
 | Разъединить — MicrosoftTeams | Да | Да |
 | Получение и команда | Да | Да |
-| Get-Теамчаннел | Да | Да |
-| Get-Теамфунсеттингс | Только до выпусков 1,0 | Нет |
-| Get-Теамгуестсеттингс | Только до выпусков 1,0 | Нет |
-| Get-Теамхелп | Да | Да |
-| Get-Теаммемберсеттингс | Только до выпусков 1,0 | Нет |
-| Get-Теаммессагингсеттингс | Только до выпусков 1,0 | Нет |
-| Get-Теамусер | Да | Да |
+| Get-TeamChannel | Да | Да |
+| Get-TeamFunSettings | Только до выпусков 1,0 | Нет |
+| Get-TeamGuestSettings | Только до выпусков 1,0 | Нет |
+| Get-TeamHelp | Да | Да |
+| Get-TeamMemberSettings | Только до выпусков 1,0 | Нет |
+| Get-TeamMessagingSettings | Только до выпусков 1,0 | Нет |
+| Get-TeamUser | Да | Да |
 | Новая группа | Да | Да |
-| New-Теамчаннел | Да | Да |
+| New-TeamChannel | Да | Да |
 | Удаление группы | Да | Да |
-| Remove-Теамчаннел | Да | Да |
-| Remove-Теамусер | Да | Да |
+| Remove-TeamChannel | Да | Да |
+| Remove-TeamUser | Да | Да |
 | Set-Team | Да | Да |
-| Set-Теамчаннел | Да | Да |
-| Set-Теамфунсеттингс | Только до выпусков 1,0 | Нет |
-| Set-Теамгуестсеттингс | Только до выпусков 1,0 | Нет |
-| Set-Теаммемберсеттингс | Только до выпусков 1,0 | Нет |
-| Set-Теаммессагингсеттингс | Только до выпусков 1,0 | Нет |
-| Set-Теампиктуре | Да | Нет, запланировано |
+| Set-TeamChannel | Да | Да |
+| Set-TeamFunSettings | Только до выпусков 1,0 | Нет |
+| Set-TeamGuestSettings | Только до выпусков 1,0 | Нет |
+| Set-TeamMemberSettings | Только до выпусков 1,0 | Нет |
+| Set-TeamMessagingSettings | Только до выпусков 1,0 | Нет |
+| Set-TeamPicture | Да | Нет, запланировано |
 
 
 ## <a name="managing-policies-via-powershell"></a>Управление политиками через PowerShell
@@ -124,7 +125,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 Подробная информация о том, как использовать все элементы управления PowerShell для управления Microsoft Teams и Skype для бизнеса, включая детальные описания параметров в каждой политике, приведены в справочнике по командлетам [Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) и [ссылке на командлеты Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 - [Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Справочник по командлетам Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

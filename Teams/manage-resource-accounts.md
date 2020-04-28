@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: В этой статье вы узнаете, как создавать, изменять учетные записи ресурсов и управлять ими в Microsoft Teams.
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750006"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905011"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -37,7 +38,7 @@ ms.locfileid: "43750006"
 > [!NOTE]
 > Эта статья относится как в Microsoft Teams, так и в Skype для бизнеса Online. Учетные записи ресурсов, размещенные в Skype для бизнеса Server 2019, приведены в разделе [Настройка учетных записей ресурсов](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## <a name="overview"></a>Обзор
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>Назначение номера телефона в очередь звонков телефонной системы
 
 Если в вашей организации уже используется по крайней мере одна лицензия на телефонную систему, вы можете назначить номер телефона в очередь звонков телефонной системы. процесс:
 

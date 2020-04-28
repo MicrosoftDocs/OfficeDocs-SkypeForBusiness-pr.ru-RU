@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: В этой статье рассказывается, как настроить обход мультимедиа с прямой маршрутизацией телефонной системы.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: В этой статье объясняется, как настроить обход мультимедиа с прямой маршрутизацией на телефонную систему путем переключения всех пользователей за один раз или реализации поэтапного подхода (рекомендуется).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837609"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904841"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Настройка обхода сервера-посредника с прямой маршрутизацией
 
@@ -29,11 +30,11 @@ ms.locfileid: "41837609"
 
 Чтобы включить обход мультимедиа, должны быть выполнены следующие условия:
 
-1.  Убедитесь в том, что вендором, используемым для выбора вашего сеанса связи (SBC), поддерживается обход мультимедиа, и инструкции по настройке параметров "пропустить" для SBC. Ознакомьтесь со статьей "сертификация", чтобы узнать о том, какие из них поддерживают обход мультимедиа, а также о каких-либо инструкциях.
+1.    Убедитесь в том, что вендором, используемым для выбора вашего сеанса связи (SBC), поддерживается обход мультимедиа, и инструкции по настройке параметров "пропустить" для SBC. Ознакомьтесь со статьей "сертификация", чтобы узнать о том, какие из них поддерживают обход мультимедиа, а также о каких-либо инструкциях.
 
-2.  Необходимо включить обход мультимедиа на магистральной сети с помощью следующей команды: **Set-ксонлинепстнгатевай-Identity <sbc_FQDN>-медиабипасс $true**.
+2.    Необходимо включить обход мультимедиа на магистральной сети с помощью следующей команды: **Set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Убедитесь в том, что нужные порты открыты. 
+3.    Убедитесь в том, что нужные порты открыты. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Переход с необходных каналов на магистральные и недоступные для обхода
@@ -53,13 +54,13 @@ ms.locfileid: "41837609"
 - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Документация по развертыванию связи с лентой](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [Документация по развертыванию системы TE (аниноде)](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Документация по развертыванию системы TE (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Список контроллеров границ сеансов (SBCs), сертифицированных для прямой маршрутизации, можно найти в разделе [список контроллеров границами сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md).
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Планирование обхода мультимедиа с помощью прямой маршрутизации](direct-routing-plan-media-bypass.md)
 

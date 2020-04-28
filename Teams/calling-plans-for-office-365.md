@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779948"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905021"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Планы звонков для Microsoft 365
 
@@ -42,7 +43,7 @@ ms.locfileid: "43779948"
     
 - **План внутренних и международных звонков**: лицензированные пользователи могут звонить на номера, находящиеся в стране или регионе, в которых пользователю назначена лицензия на Office 365 на основе местоположения пользователя, а также на международные номера в [196 странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Ежемесячные минуты, доступные для каждой организации и каждой страны/региона, находятся [здесь](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Ознакомьтесь со сведениями о [доступности страны и региона](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , чтобы узнать о ежемесячных минутах, доступных для каждой организации в каждой стране/регионе.
   
 > [!IMPORTANT]
 > Страна или регион зависят от того, где находится > лицензия пользователя в **центре администрирования Microsoft 365**, а **не** на адрес выставления**счета, указанный** в разделе **профиль организации** в **центре администрирования Microsoft 365**.   

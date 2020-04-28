@@ -16,18 +16,19 @@ ms.collection:
 description: Узнайте, как использовать отчет об активности пользователей Teams в центре администрирования Microsoft Teams, чтобы увидеть, как пользователи в организации используют команды.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528434"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903874"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Отчет о действиях пользователей Microsoft Teams
 
 С помощью отчета о действиях пользователей в Teams вы сможете узнать, какие типы действий пользователи в вашей организации выполняют в Teams. Например, вы можете узнать, сколько пользователей обмениваются сообщениями с помощью вызовов 1:1, сколько пользователей обменивается данными по каналам, и сколько пользователей применяют личные сообщения в чате.
 
-## <a name="view-the-report"></a>Просмотр отчета
+## <a name="view-the-user-activity-report"></a>Просмотр отчета о действиях пользователей
 
 1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **активность пользователей Teams**.
 2. Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.

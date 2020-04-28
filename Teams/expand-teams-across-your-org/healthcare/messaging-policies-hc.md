@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
+description: Узнайте, как настроить политику безопасной почты, которая может включать уведомления о прочтении и уведомлении о приоритетах.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136989"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905531"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
 

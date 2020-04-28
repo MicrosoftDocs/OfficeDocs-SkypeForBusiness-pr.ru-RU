@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+description: В этой статье объясняется, как настроить прямую маршрутизацию Microsoft Phone System для подключения локальной инфраструктуры телефонной связи с Microsoft Teams.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170587"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904831"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -54,7 +55,7 @@ ms.locfileid: "43170587"
 Если вы настраиваете SBC для нескольких клиентов, вы также захотите прочитать [настройку SBC для нескольких клиентов](direct-routing-sbc-multiple-tenants.md).
 
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 

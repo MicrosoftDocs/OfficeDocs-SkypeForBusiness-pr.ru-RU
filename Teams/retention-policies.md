@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: Сведения о политиках хранения, способах их создания и управления ими в Teams.
+description: В этой статье вы узнаете о политиках хранения, а также о том, как создавать их в Microsoft Teams и управлять ими.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779786"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905471"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Политики хранения в Microsoft Teams
 

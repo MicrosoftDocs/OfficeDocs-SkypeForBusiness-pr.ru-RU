@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В этой статье рассказывается о поддержке жизненного цикла для комнат Microsoft Teams.
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: Узнайте о поддержке жизненного цикла в комнатах Microsoft Teams, включая структуру динамической поддержки и ее этапы.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190823"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905381"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Поддержка версии приложения в комнатах Microsoft Teams
  
@@ -63,7 +64,7 @@ ms.locfileid: "43190823"
 
 Если вы используете поддерживаемую версию Windows 10, вы всегда будете получать последние обновления приложений для приложения Microsoft Teams комнаты.  
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

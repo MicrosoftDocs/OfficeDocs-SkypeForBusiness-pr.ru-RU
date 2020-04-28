@@ -16,18 +16,19 @@ ms.collection:
 description: Узнайте, как с помощью отчета об использовании устройств Teams в центре администрирования Microsoft Teams просмотреть, как пользователи в вашей организации подключаются к Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16abf763579a542583f3aafa30252c1423759641
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827357"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904921"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Отчет об использовании устройств с Microsoft Teams
 
 Отчет об использовании устройств Teams в центре администрирования Microsoft Teams содержит сведения о том, как пользователи подключаются к Teams. Вы можете использовать отчет для просмотра устройств, которые используются в вашей организации, в том числе для работы с группами на мобильных устройствах, где бы вы ни находились.  
 
-## <a name="view-the-report"></a>Просмотр отчета
+## <a name="view-the-device-usage-report"></a>Просмотр отчета об использовании устройства
 
 1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Использование устройства группы**.
 2. Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.

@@ -18,13 +18,14 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
+ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779978"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903114"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 

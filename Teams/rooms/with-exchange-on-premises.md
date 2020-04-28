@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в гибридной среде с локальным сервером Exchange.
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141012"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905301"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -175,7 +175,7 @@ Skype для бизнеса Online PowerShell используется для у
 
 Для проверки подлинности вы можете использовать любой клиент для входа в эту учетную запись.
   
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка учетных записей для комнат Microsoft Teams](rooms-configure-accounts.md)
 
@@ -183,6 +183,6 @@ Skype для бизнеса Online PowerShell используется для у
   
 [Развертывание комнат Microsoft Teams](rooms-deploy.md)
   
-[Настройка консоли Microsoft Teams](console.md)
+[Настройка консоли комнат Microsoft Teams](console.md)
   
-[Управление приложением "Комнаты Microsoft Teams"](rooms-manage.md)
+[Управление комнатами Microsoft Teams](rooms-manage.md)

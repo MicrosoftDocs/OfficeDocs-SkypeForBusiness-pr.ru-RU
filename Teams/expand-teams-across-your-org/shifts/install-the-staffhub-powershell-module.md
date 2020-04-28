@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Сведения о том, как установить и подключить модуль Microsoft StaffHub PowerShell.
+description: Сведения о том, как установить и подключить модуль Microsoft StaffHub PowerShell, а также переносить команды StaffHub в Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75ed6840b409f391b87759e2004c0f1ea475ce69
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52b4e0c41520468bc1e05734644d1beb05fed5be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827567"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905731"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
@@ -73,7 +74,7 @@ ms.locfileid: "41827567"
 
 2. После появления соответствующего запроса войдите в систему как глобальный администратор.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Справочник по Microsoft StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
 - [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](move-staffhub-teams-to-shifts-in-teams.md)

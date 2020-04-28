@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Общие сведения об управлении комнатами Microsoft Teams.
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Узнайте о том, как разрабатывать и выполнять текущее обслуживание и операции для обеспечения доступности систем для комнат Microsoft Teams для пользователей.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825887"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905371"
 ---
 # <a name="management-overview"></a>Обзор управления
 
@@ -38,9 +39,9 @@ ms.locfileid: "41825887"
 
 Сведения о состоянии приложения Microsoft Teams комнаты, а также подключенных периферийных устройств записываются в журнал событий Windows с помощью приложения комнаты Microsoft Teams и задокументированы в разделе [Знакомство с записями в журнале](azure-monitor-manage.md#understand-the-log-entries). 
 
-|**Параметрами**|**Можете**|
+|**Параметр**|**Можете**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows Нт\куррентверсион\винлогон Аутоадминлогон = (DWORD) 1  <br/> |Включает комнаты Microsoft Teams для загрузки  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Включает комнаты Microsoft Teams для загрузки  <br/> |
 |Управление питанием\> в сети переменного тока, отключение экрана через 10 минут  <br/> Управление питанием\> — вкл., не переводит систему в спящий режим  <br/> |Позволяет комнатам Microsoft Teams отключить подключенные дисплеи и автоматически выключаться из спящего режима  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Или аналогичный способ отключения срока действия пароля в локальной учетной записи. Невыполнение этого действия приводит к тому, что учетной записи Skype не удается войти в систему с нарушением пароля. Обратите внимание, что это влияет на все локальные учетные записи на компьютере, поэтому при установке этого флажка также может возникнуть срок действия административной учетной записи в поле.  <br/> |Позволяет учетной записи Skype всегда выполнять вход.  <br/> |
 
@@ -75,7 +76,7 @@ ms.locfileid: "41825887"
 Комнаты Microsoft Teams работают в Windows 10 Корпоративная IoT или Windows 10 Enterprise (Корпоративная лицензия) и получают одинаковые обновления Windows и операционные системы для обычных рабочих столов. Дополнительные сведения в разделе [Управление обновлениями Windows](updates.md) .
 
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 Рекомендуется настроить оповещение Operations Management Suite в соответствии с приведенным выше разделом, чтобы Группа операций и служба поддержки могли получать уведомления о проблемах в Microsoft Teams. Параметры удаленного управления PowerShell описаны в разделе [Удаленное управление с помощью PowerShell](rooms-operations.md#remote-management-using-powershell). При отключении периферийного устройства может потребоваться полагаться на локальную "интеллектуальную руки" или на службу поддержки, чтобы исследовать и повторно подключать устройства. 
 
@@ -90,6 +91,6 @@ ms.locfileid: "41825887"
 
 [Развертывание комнат Microsoft Teams](rooms-deploy.md)
 
-[Настройка консоли Microsoft Teams](console.md)
+[Настройка консоли комнат Microsoft Teams](console.md)
 
 [Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации](xml-config-file.md)

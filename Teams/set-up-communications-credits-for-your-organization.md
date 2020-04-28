@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779746"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905591"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -37,7 +38,7 @@ ms.locfileid: "43779746"
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Шаг 1: Назначение лицензий на голосовую конференцию или план звонков для пользователей
 
-При регистрации вы получите определенное количество минут в зависимости от страны или региона. Вы можете просмотреть количество минут, в которых вы сможете найти страну [или регион.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) После того как вы пользуетесь этими минутами, звонки будут разорваны. Чтобы не допустить этого, вам нужно настроить кредиты на связь.
+При регистрации вы получите определенное количество минут в зависимости от страны или региона. Вы можете найти страну или регион в [списке доступность страны или региона для голосовой конференции и планов звонков](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) , чтобы узнать количество минут, которые вы будете получать. После того как вы пользуетесь этими минутами, звонки будут разорваны. Чтобы не допустить этого, вам нужно настроить кредиты на связь.
   
 Для этого **нужно назначить лицензию на аудиоконференции или телефонную систему** своим пользователям.
   

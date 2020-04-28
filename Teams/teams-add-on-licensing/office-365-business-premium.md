@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 Business Стандартный '
+title: 'Microsoft 365 бизнес стандарт '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как покупать планы Microsoft 365 Business Standard. '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Узнайте о лицензиях на надстройки, их функциональных возможностях и о том, как приобрести эти лицензии для планов Microsoft 365 Business Standard.
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780508"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904614"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Стандартный
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 бизнес стандарт
 
 Если у вас есть [microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Microsoft Teams, чтобы звонить другим людям из вашей компании, которые входят в вашу подписку. Например, если у вашей организации есть 10 человек, вы можете использовать Teams для звонков и обмена мгновенными сообщениями.
 

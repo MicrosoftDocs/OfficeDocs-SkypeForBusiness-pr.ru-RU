@@ -7,7 +7,9 @@ ms.date: 10/30/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -16,15 +18,15 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Сведения о том, как обучать группу лидерами, чтобы повысить уровень принятия команд.
+description: В этой статье рассказывается о том, как обучать группе лидерами, чтобы повысить уровень принятия команд, выполнив в организации сведения о состоянии, внедрении и образовании.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 208156a272b8ef023b769b1443c7607b07cc44d5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837869"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904761"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Программа лидеров по внедрению Microsoft Teams
 
@@ -38,7 +40,7 @@ ms.locfileid: "41837869"
 
 - Будьте формально обучены для улучшения глубины и широты знаний.
 - Повысьте эффективность работы и проучите их участникам
-- Имеют одинаковые и положительные реинфорцемент, которые подтверждают влияние своих усилий
+- Имеют одинаковые и положительные Reinforcement, которые подтверждают влияние своих усилий
 - У вас есть четкий план для выполнения
 
 Для создания программы в Организации используйте [Руководство программы лидерами](https://go.microsoft.com/fwlink/?linkid=854665) . Рекомендации для этого сообщества описаны ниже.

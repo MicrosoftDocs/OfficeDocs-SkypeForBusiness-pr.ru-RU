@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Используйте этот контрольный список, чтобы помочь настроить гостевой доступ в Microsoft Teams.
+description: Узнайте о том, как включить и настроить гостевой доступ в Microsoft Teams в качестве администратора глобальной или Teaming.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776954"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902584"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Контрольный список гостевого доступа Microsoft Teams
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776954"
 Используйте этот контрольный список, чтобы помочь вам включить и настроить гостевой доступ в Microsoft Teams. Для внесения этих изменений вам необходимо быть глобальным администратором или администратором команд.
 
 > [!IMPORTANT]
-> Возможно, вам придется подождать до 24 часов, чтобы изменения вступили в силу. 
+> Чтобы изменения вступили в силу, может потребоваться подождать несколько часов. 
 
 Посмотрите это короткое видео (5:31 минут), чтобы узнать, как включить гостевой доступ в Microsoft 365, включая Команды.
 

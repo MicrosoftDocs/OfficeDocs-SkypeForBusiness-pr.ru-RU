@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения об этапе запуска для принятия команд в Teams.
+description: В этой статье вы узнаете о действиях, выполняемых на этапе запуска приложения Microsoft Teams для внедрения.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837779"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905671"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Внедрение Microsoft Teams. Этап 1 — запуск
 
@@ -51,7 +53,7 @@ ms.locfileid: "41837779"
 | Руководящий спонсор<sup>1</sup> | Общайтесь с высокоуровневой концепцией. Присоединение реализации Teams к основным задачам Миссии и приоритетам компании. | Руководящий лидер |
 | Владелец за успехом<sup>1</sup> | Убедитесь в том, что бизнес-цели реализованы из выпуска групп. | Любой отдел |
 | Руководитель программы<sup>1</sup> | Следить за исполнением и развертыванием всей команды. | ВЫПОЛНЯЕТСЯ |
-| Лидерами<sup>1</sup> | Помощь еванжелизе Teams, создание навыков и предоставление аналитических сведений об использовании. | Несколько отделов |
+| Лидерами<sup>1</sup> | Помощь evangelize Teams, создание навыков и предоставление аналитических сведений об использовании. | Несколько отделов |
 | Обучающий руководитель | Управление учебными материалами о командах и ее передача. | ЭТО или другое |
 | Интересы отдела (заинтересованные лица)<sup>2</sup> | Определите, как конкретные отделы будут использовать группы и поощряющие обязательства. | Любые отделы (управление) |
 | ИТ – специалист<sup>1</sup> | Следить за всеми техническими аспектами реализации, в том числе интеграциям. | ВЫПОЛНЯЕТСЯ |

@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Сведения о том, как настроить телефонную систему (облачную УАТС) для своей организации. '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Пошаговое руководство, в котором описывается настройка телефонной системы (облачная УАТС) для Организации в Office 365.
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779816"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905571"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Настройка телефонной системы в Организации
 
@@ -33,9 +34,9 @@ ms.locfileid: "43779816"
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Действие 1: Убедитесь в том, что телефонная система доступна в вашей стране или регионе.
 
-1.  Сначала перейдите в раздел " [страна и регион" для голосовой конференции и планов звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)и выберите свою страну или регион в списке в верхней части страницы. 
-2.  В разделе **Телефонная система**ознакомьтесь со списком функций и подробными сведениями. 
-3.  Если телефонная система доступна, перейдите к действию 2. 
+1.    Сначала перейдите в раздел " [страна и регион" для голосовой конференции и планов звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)и выберите свою страну или регион в списке в верхней части страницы. 
+2.    В разделе **Телефонная система**ознакомьтесь со списком функций и подробными сведениями. 
+3.    Если телефонная система доступна, перейдите к действию 2. 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Шаг 2: приобретение и назначение лицензий на телефонную систему и план звонков
 

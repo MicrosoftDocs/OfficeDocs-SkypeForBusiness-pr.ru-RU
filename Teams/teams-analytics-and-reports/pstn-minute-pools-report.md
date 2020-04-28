@@ -16,19 +16,19 @@ MS.collection:
 description: Использование отчета пула групп по протоколу PSTN в центре администрирования Microsoft Teams для просмотра минут, потребляемых в вашей организации в течение текущего месяца.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140670"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904901"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Отчет о пулах минут Microsoft Teams КТСОП
 
 В центре администрирования Microsoft Teams можно просмотреть отчет о пулах, показывающие, что в течение текущего месяца вы получаете общее представление о голосовой конференции и активности звонков в вашей организации. Вы можете просматривать сведения о действиях, включая лицензию, используемую для звонков, общее количество доступных минут, использованных минут и использование лицензий по местоположению.
 
-## <a name="view-the-report"></a>Просмотр отчета
+## <a name="view-the-pstn-minute-pools-report"></a>Просмотр отчета по пулам PSTN – Minute
 
 В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Пулы PSTN минут**и нажмите кнопку **выполнить отчет**.
 

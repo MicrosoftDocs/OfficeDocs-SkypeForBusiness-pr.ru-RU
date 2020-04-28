@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в Skype для бизнеса Server.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f1f0788e9c2342f2bac8484ceb1cc83bf30fd8d3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141002"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905271"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Развертывание комнат Microsoft Teams с помощью Skype для бизнеса Server
   
@@ -117,7 +117,7 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка учетных записей для комнат Microsoft Teams](rooms-configure-accounts.md)
 
@@ -125,6 +125,6 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
   
 [Развертывание комнат Microsoft Teams](rooms-deploy.md)
   
-[Настройка консоли Microsoft Teams](console.md)
+[Настройка консоли комнат Microsoft Teams](console.md)
   
-[Управление приложением "Комнаты Microsoft Teams"](rooms-manage.md)
+[Управление комнатами Microsoft Teams](rooms-manage.md)

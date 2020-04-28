@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: Администратор может прочитать заметки о выпуске для комнат Microsoft Teams, в которых перечислены накопительные улучшения в комнатах Microsoft Teams.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227523"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905341"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -70,7 +71,6 @@ ms.locfileid: "43227523"
 - Возможность отключения дублирования контента из собраний для двойного отображения комнат с помощью XML
 - Экран-заставка приложения
 - Уведомления об использовании программного обеспечения Open Source (OSS) в параметрах устройства
-- Устранение проблем с подключением PSOM, если протоколы TLS 1,0 и TLS 1,1 отключены в Skype для бизнеса Server 2015/2019.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 

@@ -16,18 +16,19 @@ ms.collection:
 description: Узнайте, как использовать отчет об использовании событий Teams Live в центре администрирования Microsoft Teams, чтобы получить общие сведения о мероприятиях Teams Live в Организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827247"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904294"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Отчет об использовании событий в Microsoft Teams Live
 
 В отчете об использовании событий Teams в центре администрирования Microsoft Teams отображаются сведения о действиях для событий в реальном времени, хранящихся в вашей организации. Вы можете просматривать сведения об использовании, включая состояние события, время начала, представления и тип производства для каждого события. Вы можете получить представление о тенденциях использования и узнать, кто из ваших расписаний Организации, представляет и создает мероприятия в реальном времени.
 
-## <a name="view-the-report"></a>Просмотр отчета
+## <a name="view-the-live-event-usage-report"></a>Просмотр отчета об использовании событий в реальном времени
 
 1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Использование событий Teams в режиме реального времени**.
 2. В разделе **диапазон дат**выберите предварительно определенный диапазон или задайте настраиваемый диапазон. Вы можете установить диапазон для отображения данных до и после текущей даты, за шесть месяцев.
@@ -52,7 +53,7 @@ ms.locfileid: "41827247"
 
 ![Снимок экрана: сведения о событии в реальном времени](../media/teams-live-event-usage-report-event-detail.png)
 
-Если в вашей организации разрешены [куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/) Екдн или [коллективе](https://kollective.com) екдн, вы можете получить дополнительные сведения об аналитических участниках, щелкнув ссылку "партнер".
+Если в вашей организации разрешены [куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ECDN или [Kollective](https://kollective.com) eCDN, вы можете получить дополнительные сведения об аналитических участниках, щелкнув ссылку "партнер".
 
 ## <a name="related-topics"></a>Статьи по теме
 

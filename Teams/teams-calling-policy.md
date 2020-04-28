@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Сведения о вызове параметров политики в Microsoft Teams.
+description: Сведения о том, как создавать, изменять и добавлять пользователей в пользовательские политики звонков в Microsoft Teams, а также различные параметры политики вызова.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972450"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914076"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Политики звонков в Microsoft Teams
 ===================================
@@ -106,6 +107,10 @@ ms.locfileid: "37972450"
 
 Busy on (параметры занятости)) — это новый параметр в политиках вызова Teams, который позволяет настроить способ обработки входящих звонков, когда пользователь уже находится на звонке или конференции или покинул Звонок на удержание. Новые или входящие звонки могут быть отвергнуты с помощью сигнала "занято". Вы можете включить параметры доступности на уровне клиента или на уровне пользователя. Независимо от того, как настроены параметры доступности, пользователи во время звонка или конференции или на удержании с помощью звонка не могут инициировать новые звонки и конференции. Этот параметр отключен по умолчанию.
 
+### <a name="allow-music-on-hold"></a>Разрешить музыку на удержании
+
+Этот параметр позволяет включить или выключить удержание музыки при помещении абонента PSTN на удержание. По умолчанию она включена. Этот параметр не применяется к функциям присоединения к приостановке и делегированию для начальника, и только в PowerShell. 
+
 ## <a name="see-also"></a>См. также
 
-[Set-Кстеамскаллингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

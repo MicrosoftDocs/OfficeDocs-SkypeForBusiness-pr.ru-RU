@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Сведения о бесплатных лицензиях на виртуальные пользователи.
-ms.openlocfilehash: f2ecaddc6fd1dcc4bbb179fde3f495a0eea29353
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: Узнайте о том, как назначить для учетных записей ресурсов в Организации бесплатную телефонную лицензию для виртуальной или платной телефонной системы пользователей.
+ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190816"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904791"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Телефонная система Microsoft 365 – лицензия виртуальных пользователей 
 

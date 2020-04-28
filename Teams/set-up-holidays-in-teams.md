@@ -16,14 +16,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
-description: Сведения о том, как настроить праздники в Microsoft Teams и присоединиться к своему автосекретарь.
-ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
+- seo-marvel-apr2020
+description: Сведения о том, как настроить праздники в Microsoft Teams и соединить их с автосекретарем с помощью функции праздников.
+ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838019"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905581"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Настройка выходных в Microsoft Teams
 
@@ -86,6 +88,6 @@ ms.locfileid: "41838019"
     Чтобы перенаправить звонок, выберите команду **перенаправить звонок**, а затем в раскрывающемся списке выберите пользователя, который получит перенаправленный звонок, или найдите его по отображаемому имени.
 8. Нажмите кнопку **сохранить**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Что такое](what-are-phone-system-auto-attendants.md)автосекретарь облака?

@@ -16,19 +16,19 @@ MS.collection:
 description: С помощью отчета "Заблокированные пользователи PSTN" в центре администрирования Microsoft Teams вы можете получить обзор пользователей вашей организации, которым запрещено проводить PSTN-звонки.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140690"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904911"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Отчет о заблокированных пользователях в Microsoft Teams КТСОП
 
 Отчет о заблокированных пользователях PSTN в центре администрирования Microsoft Teams показывает пользователей в вашей организации, которым запрещено совершать звонки по сети PSTN в Teams. Вы можете просмотреть дополнительные сведения о каждом заблокированном пользователе, в том числе назначенный им номер телефона и причину, по которой они были заблокированы для совершения звонков.
 
-## <a name="view-the-report"></a>Просмотр отчета
+## <a name="view-the-pstn-blocked-users-report"></a>Просмотр отчета о заблокированных пользователях PSTN
 
 В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите пункт **Заблокированные пользователи PSTN**и нажмите кнопку **выполнить отчет**.
 

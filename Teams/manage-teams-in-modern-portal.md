@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Сведения о том, как просматривать и обновлять команды в центре администрирования Microsoft Teams.
+description: Сведения о том, как просматривать или обновлять команды, настроенные для совместной работы в центре администрирования Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836271"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905001"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования Microsoft Teams
 ==========================================
@@ -54,7 +55,7 @@ ms.locfileid: "41836271"
 - **Участники групп** — общее количество пользователей, включая владельцев, гостей и участников из вашего клиента.
 - **Owners (владельцы** ) — Количество владельцев группы.
 - **Гости** — количество гостевых пользователей Azure Active Directory B2B, которые являются участниками этой команды.
-- **Privacy (конфиденциальность** ) — это акцесстипе и т. д. в резервной группе Office 365.
+- **Privacy (конфиденциальность** ) — это AccessType и т. д. в резервной группе Office 365.
 - **Status (состояние** ) — архивированный или активный статус этой команды. Узнайте больше о том, как архивировать команды в [архивации или восстановлении команды](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Описание** — описание резервной группы Office 365.
 - **Классификация** — классификация (если она используется в вашей организации), назначенная резервной группе Office 365. Узнайте больше о классификациях на странице [Создание классификаций для групп Office в Организации](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
@@ -108,7 +109,7 @@ ms.locfileid: "41836271"
 
 Изменения, внесенные в команду, регистрируются в журнале. Если вы изменяете параметры группы (изменяя имя, описание, фотографию, конфиденциальность, классификацию или участников группы), эти изменения подаются с помощью конвейера аудита. Если вы выполняете действия с параметрами, специфическими для Teams, ваши изменения отслеживаются и наносятся на вас в общем канале команды.
 
-## <a name="troubleshooting"></a>Поиск и устранение неполадок
+## <a name="troubleshooting"></a>Устранение неполадок
 
 **Вопрос: в сетке обзора команды отсутствует Teams**
 
@@ -126,13 +127,13 @@ ms.locfileid: "41836271"
 
 3. Измените строку запроса на: PATCH > v 1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}.
 
-4. Добавьте в текст запроса следующее значение: {"Ресаурцепровисионингоптионс": ["Team"]}.
+4. Добавьте в текст запроса следующее значение: {"resourceProvisioningOptions": ["Team"]}.
 
 5. Запустите запрос в правом верхнем углу.
 
 6. Убедитесь в том, что команда правильно отображается в центре администрирования Microsoft Teams — Обзор групп.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 - [Справочник по командлетам Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [Использование ролей администратора Teams для управления группами](using-admin-roles.md)

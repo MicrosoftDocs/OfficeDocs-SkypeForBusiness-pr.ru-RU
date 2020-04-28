@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Сведения о том, что может делать система с телефонной системой.
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: В этой статье вы узнаете о технологии телефонной системы в Microsoft Office 365.
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836659"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905131"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -68,7 +69,7 @@ ms.locfileid: "41836659"
 
 Дополнительные сведения о функциях можно найти [в статье что вы получаете с помощью телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md). Если вы готовы приступить к работе, ознакомьтесь со статьей [Настройка телефонной системы в своей организации](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
 - [Облачная голосовая связь в Microsoft Teams](cloud-voice-landing-page.md)

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: В этой статье объясняется, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты, используемого по умолчанию в вашей организации.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780368"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904334"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -38,14 +38,14 @@ ms.locfileid: "43780368"
   
 - **Доступные языки определяются местоположением организации**. Например, если организация находится в США, вы можете задать английский или испанский в качестве языка по умолчанию. Если организация находится в Канаде, вы можете выбрать между английским или французским языком. Список поддерживаемых языков см. в статье [Языки для сообщений и приветствий голосовой почты в Skype для бизнеса](languages-for-voicemail-greetings-and-messages.md).
     
-- **Изменить язык системы только для одного пользователя организации невозможно.** Язык системы изменяется сразу для всех пользователей организации.
+- **Изменение языков для приветствий и голосовых сообщений отдельных пользователей.** Вы можете изменить предпочтительные Lanaguage для пользователей, в результате чего изменится язык приветствий голосовой почты и сообщений голосовой почты, отправленных в почтовый ящик Outlook. Инструкции можно найти в разделе [Настройка языковых и региональных параметров для Office 365] (https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region). 
     
     > [!NOTE]
-    > Пользователи могут изменить для себя язык приветствий в своих параметрах после входа в систему. 
+    > Пользователи могут изменить собственный язык приветствия с помощью параметров после входа, выполнив указанные ниже инструкции для [изменения языка интерфейса и часового пояса в Microsoft 365 для бизнеса](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
 - **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft teams: пользователи могут менять параметры голосовой почты из [параметров настольного клиента Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) .
 
-- **Вы хотите изменить язык приглашения голосовой почты?** Для Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) выберите новый язык в разделе **язык запросов**. Для Microsoft teams: пользователи могут менять параметры голосовой почты из [параметров настольного клиента Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) .
+- **Вы хотите изменить язык приглашения голосовой почты?** Для Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) выберите новый язык в разделе **язык запросов**. В Microsoft Teams-пользователи могут изменить свое приветствие голосовой почты из [параметров настольного клиента Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) .
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: Узнайте, как установить и настроить приложение интеграции Moodle для Microsoft Teams.
+description: Узнайте, как установить и настроить приложение системы управления обучением (LMS) для Microsoft Teams в Moodle Open-Source.
 keywords: Подключаемый модуль интеграции приложения Moodle для Teams
 localization_priority: Normal
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 984aecea4ca0be3e35a4c5eb6d09e6d3b3e49a4b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779625"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904364"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Интеграция Moodle с Microsoft Teams 
 

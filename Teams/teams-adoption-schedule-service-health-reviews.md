@@ -10,21 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения об использовании отчетов о работоспособности служб при внедрении рабочих групп.
+description: В этой статье рассказывается о том, как использовать проверки работоспособности служб в стратегии принятия команд для предоставления подробных сведений об использовании, работоспособности, схемах возможностей/проектов и других обновлениях.
 f1.keywords:
 - CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930bed20da33fa49ae322af69f7756597e11f1fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837739"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905081"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Планирование проверок работоспособности служб при внедрении Microsoft Teams
 

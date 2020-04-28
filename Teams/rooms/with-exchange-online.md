@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online, читайте в этой статье.
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online и Skype для бизнеса Server в локальной среде.
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780558"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905291"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -155,7 +155,7 @@ ms.locfileid: "43780558"
 > [!IMPORTANT]
 > Если вы используете Skype для бизнеса (план 2), вы можете использовать комнаты Microsoft Teams только в режиме Skype для бизнеса, что означает, что все собрания будут собраны в Skype для бизнеса. Чтобы включить конференцию для собраний для собраний Microsoft Teams, мы рекомендуем приобрести лицензию на конференцию для участников.
   
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка учетных записей для комнат Microsoft Teams](rooms-configure-accounts.md)
 

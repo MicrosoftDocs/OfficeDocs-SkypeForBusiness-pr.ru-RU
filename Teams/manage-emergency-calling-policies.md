@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения об использовании политик вызова экстренной помощи и управлении ими в Microsoft Teams.
-ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Сведения о том, как использовать политики вызова экстренной помощи и управлять ими в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в организации осуществляет вызов экстренной помощи.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888698"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905111"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Управление политиками вызова экстренной помощи в Microsoft Teams
 
@@ -35,25 +36,25 @@ ms.locfileid: "41888698"
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>Создание настраиваемой политики вызова экстренной помощи
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В левой области навигации центра администрирования Microsoft Teams выберите**политики** **голосовой связи** > и перейдите на вкладку **политики звонка** .
 2. Нажмите **Добавить**.
-3. Введите имя и описание политики.
+3. Введите имя и описание для политики.
 4. Укажите, как вы хотите уведомлять пользователей в вашей организации, как правило, на рабочем месте, когда производится вызов экстренной помощи. Для этого в разделе **режим уведомлений**выберите один из указанных ниже вариантов.
     - **Только уведомления**: сообщение чата Teams отправляется указанным пользователям и группам.
-    - На **конференции, но отключены**: сообщение чата в Teams отправляется указанным пользователям и группам, и оно может принимать (но не принимать участие) в беседе между вызывающим абонентом и оператором ПСАП.
+    - На **конференции, но отключены**: сообщение чата в Teams отправляется указанным пользователям и группам, и оно может принимать (но не принимать участие) в беседе между вызывающим абонентом и оператором PSAP.
 5.  Если вы выбрали режим уведомлений, **но микрофон** отключен, в поле номер для исходящего **звонка для уведомлений** вы можете ввести телефонный номер КТСОП для пользователя или группы, чтобы позвонить и присоединиться к экстренному звонку. Например, введите номер рабочего центра безопасности Организации, который получит звонок при совершении звонка, и затем сможет прослушать или принять участие в звонке.
 6. Найдите и выберите одного или нескольких пользователей или групп, например, на рабочем столе своей организации, чтобы уведомить о совершении экстренного звонка.  Уведомление можно отправить адресам электронной почты пользователей, группам рассылки и группам безопасности. Максимальное количество пользователей 50, которые могут быть уведомлены.
 7. Нажмите кнопку **Сохранить**.
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Просмотреть раздел [New-кстеамсемерженцикаллингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy).
+Просмотреть раздел [New-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy).
 
 ## <a name="edit-an-emergency-calling-policy"></a>Изменение политики вызова экстренной помощи
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 Вы можете изменить глобальную политику или созданные вами пользовательские политики.
 
@@ -63,13 +64,13 @@ ms.locfileid: "41888698"
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Смотрите раздел [Set-кстеамсемерженцикаллингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy).
+Смотрите раздел [Set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy).
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Назначение настраиваемой политики вызова экстренной помощи пользователям
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**и выберите пользователя.
+1. В Центре администрирования Microsoft Teams в области навигации слева перейдите в раздел **Пользователи**, затем щелкните пользователя.
 2. Нажмите **политики**, а затем рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
 3. В разделе **политика вызова экстренного**реагирования выберите политику, которую вы хотите назначить, и нажмите кнопку **сохранить**.
 
@@ -78,16 +79,16 @@ ms.locfileid: "41888698"
 Кроме того, вы можете сделать следующее:
 
 1. В левой области навигации центра администрирования Microsoft Teams выберите**политики** **голосовой связи** > и перейдите на вкладку **политики звонка** .
-2. Выберите политику, щелкнув слева от имени политики.
+2. Выберите политику, щелкнув слева от ее имени.
 3. Выберите **Управление пользователями**.
-4. В области **Управление пользователями** найдите пользователя по отображаемому имени или по имени пользователя, выберите имя и нажмите кнопку **Добавить**. Повторите этот шаг для каждого пользователя, которого вы хотите добавить.
+4. В области **Управление пользователями** выполните поиск по отображаемому имени или по имени пользователя, выберите имя и нажмите **Добавить**. Повторите это действие для каждого пользователя, которого нужно добавить.
 5. Завершив добавление пользователей, нажмите кнопку **сохранить**.
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-a-user"></a>Назначение пользователю пользовательской политики вызова экстренной помощи
 
-Просмотр [Grant-кстеамсемерженцикаллингполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
+Просмотр [Grant-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy).
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-users-in-a-group"></a>Назначение настраиваемой политики вызова для экстренного реагирования пользователям в группе
 
@@ -98,7 +99,7 @@ ms.locfileid: "41888698"
 > [!NOTE]
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
-Получить Граупобжектид определенной группы.
+Получить GroupObjectId определенной группы.
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
@@ -114,7 +115,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Назначение настраиваемой политики вызова для экстренного реагирования сетевому сайту
 
-Используйте командлет [Set-кстенантнетворксите](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) , чтобы назначить политику вызова экстренной помощи на сайте сети.
+Используйте командлет [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) , чтобы назначить политику вызова экстренной помощи на сайте сети.
 
 В следующем примере показано, как назначить политику, которая называется политикой вызова экстренной помощи Contoso 1, на сайт site1.
 
@@ -122,7 +123,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
     Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
     ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление политиками маршрутизации вызова экстренной помощи в Teams](manage-emergency-call-routing-policies.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

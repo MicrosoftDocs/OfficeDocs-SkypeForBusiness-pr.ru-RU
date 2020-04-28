@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Включение и управление записью собраний в Microsoft Teams.
+description: Практическое руководство по развертыванию функций голосовой связи в облаке в Teams для записи собраний и групповых звонков для сбора звука, видео и операций с демонстрацией экрана.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780338"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905501"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -30,7 +31,7 @@ ms.locfileid: "43780338"
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Предварительные условия для записи облачных собраний Teams
 
-Для записи собраний пользователей Teams должен быть включен Microsoft Stream для арендатора. Кроме того, для организатора собрания и лица, инициирующего запись, необходимы следующие предварительные условия:
+Для заносимых собраний пользователей Teams необходимо включить Microsoft Stream для клиента. Кроме того, для организатора собрания и лица, инициирующего запись, необходимы следующие предварительные условия:
 
 - Пользователь имеет Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium или Business Essentials
 - Пользователь должен быть лицензирован для Microsoft Stream <sup>1</sup> 

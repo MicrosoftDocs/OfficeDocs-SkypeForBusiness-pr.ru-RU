@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о том, как использовать политики маршрутизации вызовов экстренного реагирования и управлять ими в Microsoft Teams.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Сведения о том, как использовать политики маршрутизации вызовов экстренного реагирования в Microsoft Teams, чтобы настроить номера для экстренного реагирования и указать, как будут маршрутизироваться экстренные вызовы.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141122"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905121"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "43141122"
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>Создание настраиваемой политики маршрутизации вызова экстренной помощи
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел политики **голосовой связи** > **Emergency policies**и перейдите на вкладку **политики маршрутизации звонков** .
 2. Нажмите **Добавить**.
@@ -60,7 +60,7 @@ ms.locfileid: "43141122"
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>Изменение политики маршрутизации вызова экстренной помощи
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 Вы можете изменить глобальную политику или созданные вами пользовательские политики.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43141122"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Назначение настраиваемой политики маршрутизации вызова экстренной помощи пользователям
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Использование центра администрирования Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В Центре администрирования Microsoft Teams в области навигации слева перейдите в раздел **Пользователи**, затем щелкните пользователя.
 2. Нажмите **политики**, а затем рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
@@ -87,7 +87,7 @@ ms.locfileid: "43141122"
 1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел политики **голосовой связи** > **Emergency policies**и перейдите на вкладку **политики маршрутизации звонков** .
 2. Выберите политику, щелкнув слева от ее имени.
 3. Выберите **Управление пользователями**.
-4. В области **Управление пользователями** найдите пользователя по отображаемому имени или по имени пользователя, выберите имя и нажмите кнопку **Добавить**. Повторите это действие для каждого пользователя, которого нужно добавить.
+4. В области **Управление пользователями** выполните поиск по отображаемому имени или по имени пользователя, выберите имя и нажмите **Добавить**. Повторите это действие для каждого пользователя, которого нужно добавить.
 5. Завершив добавление пользователей, нажмите кнопку **сохранить**.
 
 ### <a name="using-powershell"></a>Использование PowerShell

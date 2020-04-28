@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Узнайте о том, как интегрировать электронные записи в здравоохранение в Microsoft Teams, используя API FHIR в верхней части системы медицинских данных для подключения к Microsoft Teams.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Узнайте о том, как интегрировать электронные записи в здравоохранение в приложение Microsoft Teams пациентов с помощью API-интерфейсов FHIR.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141212"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905521"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Интеграция электронных историй болезни в Microsoft Teams
 
