@@ -8,21 +8,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Укомплектуйте самыми ранними пользователями первый набор групп и каналов, созданных вами в Microsoft Teams.
+description: Узнайте, как включить пользователей в первый набор групп и каналов, созданных вами в Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fff82f709c215b4a276258a7a57e1790956d0e70
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 75df0cb2212aa4efd826865ce1fe403b6d366342
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888628"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904644"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
 
