@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: В этом разделе описывается присоединение к домену ПК с системой комнат Skype.
-ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Администратор может узнать о том, как присоединиться к компьютеру с устройством для помещения в комнату Skype в домен Active Directory, а также о том, как это сделать.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826087"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905441"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -45,9 +46,9 @@ ms.locfileid: "41826087"
   - Создание еще одной учетной записи пользователя домена на всех компьютерах, присоединенных к домену
   - Принудительное обновление Windows для системы помещения в Skype
     
-- Alternatively, you might decide to leave the appliance PC in the workgroup. Как и в классическом клиенте Microsoft Teams или Skype для бизнеса, необходимо вручную импортировать цепочку корневых сертификатов на устройстве устройства системы комнат Skype. Если развертывание использует общедоступный сертификат (например, Ентруст, VeriSign и т. д.), вам не нужно импортировать корневую цепочку сертификатов. 
+- Alternatively, you might decide to leave the appliance PC in the workgroup. Как и в классическом клиенте Microsoft Teams или Skype для бизнеса, необходимо вручную импортировать цепочку корневых сертификатов на устройстве устройства системы комнат Skype. Если развертывание использует общедоступный сертификат (например, Entrust, VeriSign и т. д.), вам не нужно импортировать корневую цепочку сертификатов. 
     
-Если вы планируете присоединиться к домену с системными машинами Skype, не присоединяясь к системным машинам Skype на непреднамеренном подразделении, не подключаясь к ним, убедитесь, что вы присоединитесь к нужному подразделению. Вы можете использовать следующий командлет с компьютера, на котором есть система для помещения Skype, чтобы присоединиться в подходящую подразделении и не получал ни одной политики, которая может блокировать функцию ЛРС. Contact your system administrator or OEM partner to run these cmdlet:
+Если вы планируете присоединиться к домену с системными машинами Skype, не присоединяясь к системным машинам Skype на непреднамеренном подразделении, не подключаясь к ним, убедитесь, что вы присоединитесь к нужному подразделению. Вы можете использовать следующий командлет с компьютера, на котором есть система для помещения Skype, чтобы присоединиться в подходящую подразделении и не получал ни одной политики, которая может блокировать функцию LRS. Contact your system administrator or OEM partner to run these cmdlet:
   
 ```
 $username = "contso.local\LRS01"
@@ -60,7 +61,7 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
   
 You may have multiple approaches to solving these problems. We advise you to consult with your Active Directory experts to ensure you are provided with an OU that has appropriate GPO settings, or at least an OU in which the previously described policies do not exist. Рекомендуется включить качество обслуживания (QoS) для системных устройств Skype для комнаты.
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
   
 [Конфигурация устройств: создание новой или редактирование существующей](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

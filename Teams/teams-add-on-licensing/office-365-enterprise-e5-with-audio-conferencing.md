@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как купить Office 365 корпоративный + + +. '
-ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: Узнайте о лицензиях на надстройки, их возможностях и о том, как приобрести эти лицензии на Office 365 корпоративный + + +.
+ms.openlocfilehash: 06559857143f04714acd0a39064fc4a9c12c04ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826537"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904711"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 

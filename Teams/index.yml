@@ -4,7 +4,7 @@ summary: Сведения о том, как развертывать коман�
 brand: teams
 metadata:
   title: Документация администратора Microsoft Teams
-  description: Сведения о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
+  description: Сведения о документации администратора Microsoft Teams, в том числе о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117537"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905481"
 highlightedContent:
   items:
   - title: Отклики COVID-19-поддержка для удаленных сотрудников, использующих Teams

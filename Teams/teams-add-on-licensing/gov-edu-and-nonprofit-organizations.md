@@ -18,17 +18,18 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Узнайте о лицензиях и функциях надстроек для GOV, EDU и некоммерческих планов. '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: Узнайте о лицензиях и возможностях, которые доступны для государственных организаций, а также для образования и использования в коммерческих планах.
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795972"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904544"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
 
-Большинство функций Teams доступно для организаций, исученных правительством США, а так и для образования. Дополнительные сведения приведены в таблице ниже.
+Большинство функций Teams доступно для организаций, исученных правительством США, а так и для образования. Подробные сведения приведены в следующей таблице.
 
 |**Компоненты Teams**|**Доступно для GOV (GCC)**|**Доступно для GOV (не GCC)**|**Доступно для образовательных учреждений**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,4 +52,4 @@ ms.locfileid: "42795972"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Office 365 для некоммерческих организаций](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 для некоммерческих организаций](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

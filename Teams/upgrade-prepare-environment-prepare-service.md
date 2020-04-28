@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Используйте это руководство для подготовки клиента к развертыванию Teams и выпуска
+description: Узнайте о требованиях для подготовки Организации к совместной работе и службам голосовой связи с помощью Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706889"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905251"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к обновлению до Teams
 
@@ -56,9 +58,9 @@ ms.locfileid: "42706889"
 
 С помощью приведенных контрольных списков вы можете отслеживать состояние каждого отдельного мероприятия и задачи, а также не пропускать важные этапы. Каждое действие включает подробное описание необходимых действий и ссылки на дополнительные сведения, которые можно использовать для выполнения этого действия.
 
-Несмотря на то, что мы рекомендуем выполнять контрольные списки по порядку, Точная последовательность будет зависеть от области развертывания и конфигурации и сложности вашей среды. Они организованы для поддержки развертывания рабочих групп "гринфиелд" (в том случае, если вы не используете Skype для бизнеса Online) или переход с Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий, и можете пропустить их сейчас.
+Несмотря на то, что мы рекомендуем выполнять контрольные списки по порядку, Точная последовательность будет зависеть от области развертывания и конфигурации и сложности вашей среды. Они организованы для поддержки развертывания рабочих групп "Greenfield" (в том случае, если вы не используете Skype для бизнеса Online) или переход с Skype для бизнеса Online на Teams. Если вы обновляете Skype для бизнеса Online, возможно, вы уже выполнили некоторые из этих действий, и можете пропустить их сейчас.
 
-При планировании пользователей на уровне сайта мы настоятельно рекомендуем использовать [Плайбук включения для голоса (плайбук)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) в качестве дополнительного руководства для этих контрольных списков.
+При планировании пользователей на уровне сайта мы настоятельно рекомендуем использовать [PlayBook включения для голоса (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) в качестве дополнительного руководства для этих контрольных списков.
 
 >[!NOTE]
 >Большая часть параметров конфигурации обычно используется в Teams и Skype для бизнеса Online. Для настройки этих параметров используется центр администрирования Microsoft Teams.

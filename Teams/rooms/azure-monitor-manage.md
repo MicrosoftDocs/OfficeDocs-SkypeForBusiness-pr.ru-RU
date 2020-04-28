@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: В этой статье описано, как управлять устройствами в Microsoft Teams с помощью монитора Azure.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137598"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905461"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Управление устройствами в Microsoft Teams с помощью монитора Azure
 
@@ -44,7 +44,7 @@ ms.locfileid: "43137598"
 | 3001  <br> Событие ошибки  | Событие, свидетельствующее об ошибке оборудования. Приложение Microsoft Teams комнат содержит процесс проверки работоспособности подключенных аппаратных компонентов (передней части комнаты, микрофона, динамика, камеры) каждые 5 минут. Если один или несколько компонентов являются неработоспособными, в журнал событий будет записано событие EventID 3001. Это событие записывается каждые 5 минут, пока не будет исправлена проблема с устройством.   | {"Описание": " **внешнее состояние отображения комнаты:" неработоспособно ".** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Состояние камеры: исправен. "," ResourceState ":" unhealth "," Имя_операции ":" HardwareCheckEngine ";" OperationResult ":" Fail "," OS ":" 10.0.14393.1198 ";" псевдоним ":" псевдоним<span></span>@contoso. com "," AppVersion ":" "," 2.0.58.0 ":" 10.10.10.10 "," Yosemite "," IPv4Address ":" имя для "," ". <br><br>  В параметрах, соответствующих периферийным компонентам оборудования, может отображаться значение "Healthy" (Работоспособно) или "Unhealthy" (Неработоспособно). <br> В этом примере в системе настроены два фронтальных дисплея, ни один из которых на данный момент не доступен. Состояние микрофона конференции является неработоспособным, что может привести к нескольким причинам. Так как не все компоненты прошли проверку, в параметре "ResourceState" (Состояние ресурса) содержится значение "Unhealthy" (Неработоспособно). В этом случае необходимо обратиться к техническому специалисту для дальнейшего анализа причин неполадок. |
 | 4000  <br> Информация  <br> | Событие, свидетельствующее о перезапуске приложения. Записывается в журнал событий Windows при каждом перезапуске приложения.  <br> | {"Описание": "приложение перезапускается", "ResourceState": "Исправен", "Имя_операции": "restarting", "OperationResult": "Pass", "OS": "10.0.14393.693"<span></span>, "имя =", "": ",", ",", "AppVersion": "1.0.38.0" @domain, "IPv4Address": "10.10.10.10", "IPv6Address": «IP V6 Address»} <br><br> Приложение может быть перезапущено по различным причинам. Сравните частоту перезапуска устройств в одном и том же здании и в разных зданиях. Имейте в виду известные проблемы, такие как отклонения и сбои в работе, так как это может указывать на проблемы инфраструктуры.|
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
  
 
 [Планирование управления комнатами в Microsoft Teams с помощью монитора Azure](azure-monitor-plan.md)

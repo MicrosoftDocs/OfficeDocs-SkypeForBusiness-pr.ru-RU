@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 'Узнайте, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков. '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Сведения о том, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков.
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788943"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914044"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -409,11 +410,11 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 Если вы создали отчеты или загрузили файлы данных клиента (сопоставления) в CQD для Skype дляhttps://cqd.lync.com) бизнеса (и хотите перенести их в CQD для Teams)https://cqd.teams.microsoft.com), выполните указанные ниже действия.
 
-1.  Перейдите к [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) нужному наборы отчетов и перейдите к нему. 
-2.  Наведите указатель мыши на отчет и в разделе "..." выберите команду **Экспорт дерева отчета**. Сохраните файл экспорта.
-3.  Перейдите к [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) папке, в которую вы хотите импортировать отчеты, и перейдите к ней.
-4.  На странице слева щелкните **Импорт** и выберите экспортированный файл. 
-5.  После импорта отчетов вы увидите следующее сообщение: "Импорт отчета успешно завершен. Новый отчет был добавлен в конце набора отчетов. " 
+1.    Перейдите к [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) нужному наборы отчетов и перейдите к нему. 
+2.    Наведите указатель мыши на отчет и в разделе "..." выберите команду **Экспорт дерева отчета**. Сохраните файл экспорта.
+3.    Перейдите к [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) папке, в которую вы хотите импортировать отчеты, и перейдите к ней.
+4.    На странице слева щелкните **Импорт** и выберите экспортированный файл. 
+5.    После импорта отчетов вы увидите следующее сообщение: "Импорт отчета успешно завершен. Новый отчет был добавлен в конце набора отчетов. " 
 
 
 ## <a name="create-custom-detailed-reports"></a>Создание настраиваемых подробных отчетов

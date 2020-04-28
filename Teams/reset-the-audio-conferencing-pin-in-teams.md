@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Сведения о ПИН-кодах и их сбросе в Microsoft Teams. '
-ms.openlocfilehash: 92f0fcf0b5a5e8afe0615b54b08f0fa407c4a969
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Узнайте, как сбросить ПИН-код голосовой конференции пользователя в Microsoft Teams и ознакомиться с важными фактами о контактах.
+ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838229"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905491"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Сброс ПИН-кода аудиоконференций в Microsoft Teams
 
@@ -36,7 +37,7 @@ ms.locfileid: "41838229"
 
 ## <a name="reset-a-users-pin"></a>Сброс ПИН-кода пользователя
 
-![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
+![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 

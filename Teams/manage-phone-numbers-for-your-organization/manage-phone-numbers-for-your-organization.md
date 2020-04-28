@@ -24,13 +24,14 @@ ms.custom:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
-description: Узнайте, как получить номера телефонов для Microsoft Teams для Организации и управлять ими.
-ms.openlocfilehash: 39f6b143f65b2e3aee8d9aa78a06ae280cafea8c
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: Узнайте, как получить и управлять номерами пользователей (абонентов) и служб (платные и Бесплатные телефоны) для Microsoft Teams для вашей организации.
+ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191321"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905851"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 
