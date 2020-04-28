@@ -19,23 +19,23 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Вы можете скачать эти наклейки для вызова экстренной помощи, если вы используете планы звонков в Office 365.
-ms.openlocfilehash: 4ce43ce30535f1210643c33d087671afc3413ee2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Вы можете скачать и распечатать эти наклейки для вызова экстренной помощи при использовании планов звонков в Office 365.
+ms.openlocfilehash: d092d94ac6ca2288a2cb6a5a0dac6a8b49fb0967
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141252"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904314"
 ---
-# <a name="emergency-calling-labels"></a><span data-ttu-id="68daa-103">Этикетки для экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="68daa-103">Emergency Calling Labels</span></span>
+# <a name="emergency-calling-labels"></a><span data-ttu-id="7788c-103">Этикетки для экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="7788c-103">Emergency Calling Labels</span></span>
 
-<span data-ttu-id="68daa-104">Это метки отказов на использование средств экстренной помощи (911), которые предназначены для подписок на Avery 5160 (1 "x 2 5/8"), или их размер, если вы хотите использовать другие типы наклеек.</span><span class="sxs-lookup"><span data-stu-id="68daa-104">These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.</span></span>
+<span data-ttu-id="7788c-104">Это метки отказов на использование средств экстренной помощи (911), которые предназначены для подписок на Avery 5160 (1 "x 2 5/8"), или их размер, если вы хотите использовать другие типы наклеек.</span><span class="sxs-lookup"><span data-stu-id="7788c-104">These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.</span></span>
 
-<span data-ttu-id="68daa-105">[Щелкните, чтобы скачать ZIP-файл для подписей на экстренные звонки (EN – US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span><span class="sxs-lookup"><span data-stu-id="68daa-105">[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span></span>
+<span data-ttu-id="7788c-105">[Щелкните, чтобы скачать ZIP-файл для подписей на экстренные звонки (EN – US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span><span class="sxs-lookup"><span data-stu-id="7788c-105">[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="68daa-106">См. также:</span><span class="sxs-lookup"><span data-stu-id="68daa-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7788c-106">См. также:</span><span class="sxs-lookup"><span data-stu-id="7788c-106">Related topics</span></span>
 
-[<span data-ttu-id="68daa-107">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="68daa-107">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="7788c-107">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="7788c-107">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="68daa-108">Условия для экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="68daa-108">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="7788c-108">Условия для экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="7788c-108">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
