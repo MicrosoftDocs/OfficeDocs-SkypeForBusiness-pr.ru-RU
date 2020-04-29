@@ -41,6 +41,6 @@ ms.locfileid: "41826697"
 
     ![Снимок экрана, показывающий, как показать использование активного StaffHub](../../media/staffhub-active-usage-report.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Примеры сообщений электронной почты и опросов, которые можно использовать в конжунЦитон с помощью плана действий с десятью шагами для перехода с Skype для бизнеса на Teams
+description: Примеры сообщений электронной почты и опросов, которые можно использовать в conjunciton с помощью плана действий с десятью шагами для перехода с Skype для бизнеса на Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

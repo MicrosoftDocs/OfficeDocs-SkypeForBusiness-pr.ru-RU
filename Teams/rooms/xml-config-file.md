@@ -158,6 +158,6 @@ ms.locfileid: "43510768"
 
 [Камеры содержимого](content-camera.md)
 
-[Управление приложением "Комнаты Microsoft Teams"](rooms-manage.md)
+[Управление комнатами Microsoft Teams](rooms-manage.md)
 
 [Настройка элемента файла](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

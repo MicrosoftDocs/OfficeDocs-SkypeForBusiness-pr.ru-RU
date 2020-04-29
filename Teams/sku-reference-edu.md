@@ -29,7 +29,7 @@ ms.locfileid: "42583354"
 
 ## <a name="faculty-licenses"></a>Лицензии на факультеты
 
-|Название плана |скупартнумбер   |скуид |
+|Название плана |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |Office 365 для образования E3 для преподавателей     |ENTERPRISEPACK_FACULTY         |e4fa3838-3d01-42df-aa28-5e0a4c68604b         |
 |Office 365 для образования преподавателей       |STANDARDWOFFPACK_FACULTY        |94763226-9b3c-4e75-a931-5c89701abe66         |
@@ -47,7 +47,7 @@ ms.locfileid: "42583354"
 
 ## <a name="student-licenses"></a>Лицензии для учащихся
 
-|Наименование товара |скупартнумбер   |скуид |
+|Наименование товара |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |Office 365 для образования E3 для учащихся       |ENTERPRISEPACK_STUDENT         |8fc2205d-4e51-4401-97f0-5c89ef1aafbb         |
 |Office 365 для образования для учащихся     |STANDARDWOFFPACK_IW_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |

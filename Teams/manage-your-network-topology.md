@@ -84,7 +84,7 @@ ms.locfileid: "41888708"
 
 ### <a name="define-network-regions"></a>Определение регионов сети
 
- Используйте командлет [New-кстенантнетворкрегион](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) , чтобы определить регионы сети. Обратите внимание, что параметр Регионид является логическим именем, которое представляет собой географию области и не имеет зависимостей или ограничений и &lt;не является&gt; обязательным параметром идентификатора сайта централсите.
+ Используйте командлет [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) , чтобы определить регионы сети. Обратите внимание, что параметр RegionID является логическим именем, которое представляет собой географию области и не имеет зависимостей или ограничений и &lt;не является&gt; обязательным параметром идентификатора сайта CentralSite.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -95,17 +95,17 @@ New-CsTenantNetworkRegion -NetworkRegionID <region ID>
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-Дополнительные сведения можно найти в разделе [Set-кстенантнетворкрегион](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion).
+Дополнительные сведения можно найти в разделе [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion).
 
 ### <a name="define-network-sites"></a>Определение сетевых сайтов
 
-С помощью командлета [New-кстенантнетворксите](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) можно определять сетевые сайты. Каждый сетевой сайт должен быть связан с сетевым регионом.
+С помощью командлета [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) можно определять сетевые сайты. Каждый сетевой сайт должен быть связан с сетевым регионом.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-В этом примере мы создаем в регионе Индии две новые сетевые сайты, Делхи и Хидерабад.
+В этом примере мы создаем в регионе Индии две новые сетевые сайты, Delhi и Hyderabad.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -116,20 +116,20 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ||Сайт 1 |Сайт 2 |
 |---------|---------|---------|
-|Идентификатор сайта    |    Сайт 1 (Делхи)     |  Сайт 2 (Хидерабад)       |
+|Идентификатор сайта    |    Сайт 1 (Delhi)     |  Сайт 2 (Hyderabad)       |
 |КОД региона  |     Регион 1 (Индия)    |   Регион 1 (Индия)      |
 
-Дополнительные сведения можно найти в разделе [Set-кстенантнетворкрегион](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite).
+Дополнительные сведения можно найти в разделе [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite).
 
 ### <a name="define-network-subnets"></a>Определение подсетей сети
 
-С помощью командлета [New-кстенантнетворксубнет](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) можно определять сетевые подсети и связывать их с сетевыми сайтами. Каждая сетевая подсеть может быть связана только с одним сайтом.
+С помощью командлета [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) можно определять сетевые подсети и связывать их с сетевыми сайтами. Каждая сетевая подсеть может быть связана только с одним сайтом.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-В этом примере мы создаем связь между подсетью 192.168.0.0 и сетевым сайтом Делхи и между подсетью 2001:4898: E8:25:844E: 926f: 85ad: dd8e и на сайте Хидерабад Network.
+В этом примере мы создаем связь между подсетью 192.168.0.0 и сетевым сайтом Delhi и между подсетью 2001:4898: E8:25:844E: 926f: 85ad: dd8e и на сайте Hyderabad Network.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
@@ -142,7 +142,7 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |---------|---------|---------|
 |КОД подсети   |    172.16.0.0     |  2001:4898: E8:25:844E: 926f: 85ad: dd8e     |
 |Маски  |     24    |   120      |
-|Идентификатор сайта  | Сайт (Делхи) | Сайт 2 (Хидерабад) |
+|Идентификатор сайта  | Сайт (Delhi) | Сайт 2 (Hyderabad) |
 
 Если вы используете несколько подсетей, вы можете импортировать CSV-файл с помощью такого сценария, как описано ниже.
 
@@ -160,11 +160,11 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-Дополнительные сведения можно найти в разделе [Set-кстенантнетворксубнет](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
+Дополнительные сведения можно найти в разделе [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Определение внешних подсетей (внешние доверенные IP-адреса)
 
-С помощью командлета [New-кстенанттрустедипаддресс](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) можно определять внешние подсети и назначать их клиентам. Вы можете определить неограниченное количество внешних подсетей для клиента.
+С помощью командлета [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) можно определять внешние подсети и назначать их клиентам. Вы можете определить неограниченное количество внешних подсетей для клиента.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -176,8 +176,8 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
-Дополнительные сведения можно найти в разделе [Set-кстенанттрустедипаддресс](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
+Дополнительные сведения можно найти в разделе [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

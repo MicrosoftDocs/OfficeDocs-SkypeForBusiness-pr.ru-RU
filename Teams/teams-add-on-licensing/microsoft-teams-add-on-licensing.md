@@ -65,7 +65,7 @@ ms.locfileid: "43780518"
 
 Доступные варианты лицензирования надстроек зависят от плана Office 365. Информацию о функциях и параметрах, которые характерны для вашего плана, ищите в соответствующих разделах.
 
-- [Microsoft 365 Business Стандартный](office-365-business-premium.md)
+- [Microsoft 365 бизнес стандарт](office-365-business-premium.md)
 - [Приложения Microsoft 365 для предприятий](office-365-premium-pro-plus.md)
 - [Office 365 корпоративный E1 или E3](office-365-enterprise-e1-e3.md)
 - [Office 365 корпоративный E5](office-365-enterprise-e5-with-audio-conferencing.md)

@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Проанализируйте данные CQD в Microsoft Teams с помощью Power BI.
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170507"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918678"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Анализ данных CQD в Microsoft Teams с помощью Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "43170507"
 
 Если вы хотите использовать Power BI для запроса и создания отчетов о ваших данных, скачайте CQD шаблоны Power BI для CQD. Когда вы открываете шаблоны в Power BI, вам будет предложено выполнить вход с учетными данными администратора CQD. Вы можете настроить эти шаблоны запросов и распространить их среди всех пользователей в Организации, у которых есть лицензия на Power BI и разрешения администратора CQD.
 
-Прежде чем вы сможете использовать эти PBIX-файлы, необходимо [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , который входит в комплект [загрузки](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Прежде чем вы сможете использовать эти файлы PBIT-, вам потребуется [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 |  |  |
@@ -43,7 +43,7 @@ ms.locfileid: "43170507"
 |CQD отзывов пользователей (Оцените мой звонок). pbit-     | Сведения о звонках, которые можно легко использовать для поддержки звонков в Организации. Перекрестные ссылки с помощью точной рекламы для идентификации возможностей образования для конечных пользователей.        |
 
 > [!TIP]
-> После того как вы настроили отчеты Power BI для CQD данных, добавьте их в канал как вкладку. После выбора **+** канала выберите **Power BI** , а затем найдите нужный отчет. Помните, что эти отчеты могут получать только пользователи с лицензией Power BI и CQD учетными данными администратора.
+> После того как вы настроили отчеты Power BI для CQD данных, добавьте их в канал как вкладку. После выбора **+** канала выберите **Power BI** , а затем найдите нужный отчет. Для получения дополнительных сведений прочитайте [отчет о внедрении с вкладкой Power BI для Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Помните, что эти отчеты могут получать только пользователи с лицензией Power BI и CQD учетными данными администратора.
 
 
 ## <a name="related-topics"></a>Статьи по теме

@@ -110,7 +110,7 @@ ms.locfileid: "41827967"
 
 Видите [состояние заказов на перенос номеров?](port-order-status.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

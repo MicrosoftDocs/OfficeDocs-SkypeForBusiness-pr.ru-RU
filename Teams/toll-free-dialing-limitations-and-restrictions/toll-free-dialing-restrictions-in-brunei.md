@@ -35,7 +35,7 @@ ms.locfileid: "41708095"
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> | 801 4XXX <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "41708095"
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

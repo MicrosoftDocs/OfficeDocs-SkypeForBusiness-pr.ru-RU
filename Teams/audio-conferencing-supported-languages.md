@@ -40,13 +40,13 @@ ms.locfileid: "41826227"
 
 |**Язык**|**Страна или регион**|**Идентификатор языка и региональных параметров**|
 |:-----|:-----|:-----|
-|арабский  <br/> |Saudi Arabia (المملكة العربية السعودية)  <br/> |AR-SA  <br/> |
+|арабский  <br/> |Саудовская Аравия  <br/> |AR-SA  <br/> |
 |болгарский  <br/> |Болгария  <br/> |bg-BG  <br/> |
 |Кантонский диалект  <br/> |Гонконг  <br/> |zh-Гонконге  <br/> |
 |Китайский (упрощенное письмо)  <br/> |Китай  <br/> |zh-CN  <br/> |
 |Китайский (традиционное письмо)  <br/> |Тайвань  <br/> |zh-TW  <br/> |
 |хорватский  <br/> |Хорватия  <br/> |HR-HR  <br/> |
-|чешский  <br/> |Чешская Республика  <br/> |CS-CZ  <br/> |
+|чешский  <br/> |Чехия  <br/> |CS-CZ  <br/> |
 |Датский  <br/> |Дания  <br/> |da-DK  <br/> |
 |Нидерландский  <br/> |Нидерланды  <br/> |nl-NL  <br/> |
 |Английский  <br/> |Австралия  <br/> |en-AU  <br/> |
@@ -110,8 +110,8 @@ ms.locfileid: "41826227"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

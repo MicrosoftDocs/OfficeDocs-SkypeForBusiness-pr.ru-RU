@@ -1,5 +1,5 @@
 ---
-title: Планирование групп Microsoft 365 при создании групп
+title: Планирование использования групп Microsoft 365 при создании команд
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj

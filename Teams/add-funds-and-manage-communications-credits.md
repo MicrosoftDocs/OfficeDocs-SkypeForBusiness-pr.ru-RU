@@ -76,7 +76,7 @@ ms.locfileid: "41827217"
     
 - [Планы телефонной системы](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **** > **подписку** > на план**подписки.**
+Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **Billing** > **подписку** > на план**подписки.**
   
 Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

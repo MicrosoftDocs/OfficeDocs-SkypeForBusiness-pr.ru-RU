@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Сведения о том, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914044"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918843"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -38,6 +38,30 @@ ms.locfileid: "43914044"
 Панель мониторинга качества звонков (CQD) обеспечивает понимание качества звонков, выполненных в Microsoft Teams и службах Skype для бизнеса Online. В этой статье описаны действия, которые необходимо выполнить, чтобы начать сбор данных, которые можно использовать для устранения проблем с качеством связи.
 
 В настоящее время для использования доступны дополнительные CQD и CQD. Дополнительные CQD можно найти по <span>https://cqd.teams.microsoft.com</span>адресу. Новый URL-адрес, но тот же вход с учетными данными администратора.
+
+## <a name="assign-roles-for-accessing-cqd"></a>Назначение ролей для доступа к CQD
+
+Назначение [ролей](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для доступа к CQD людям, которым нужно пользоваться. 
+
+В этой таблице показано, что может делать каждая роль в CQD:
+
+
+|  |Просмотр отчетов  |Просмотр полей EUII  |Создание отчетов  |Отправка данных о сборке  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Глобальный администратор     |Да          |Да          |Да          |Да          |
+|Администратор служб Teams     |Да          |Да          |Да          |Да          |
+|Администратор коммуникаций Teams     |Да          |Да          |Да          |Да          |
+|Инженер поддержки по коммуникациям Teams     |Да          |Да          |Да         |Нет         |
+|Специалист по поддержке взаимодействия в Teams     |Да         |Нет         |Да         |Нет         |
+|Администратор Skype для бизнеса     |Да          |Да          |Да          |Да          |
+|Глобальный читатель Azure AD |Да          |Да          |Да         |Нет         |
+|Microsoft 365 сообщает читателям<sup>1</sup>     |Да         |Нет         |Да         |Нет         |
+
+<sup>1</sup> в дополнение к ЧТЕНию CQDных отчетов Microsoft 365 может просматривать все [отчеты об активности](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) в центре администрирования и любые отчеты из пакета содержимого для оценки [внедрения Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> Если вы не видите EUII (сведения для конечных пользователей) и у вас есть одна из ролей, которые могут просматривать эти данные, имейте в виду, что CQD только в течение 30 дней. Все, более 30 дней, удаляются.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Анализ данных CQD с помощью Power BI
 
@@ -500,7 +524,7 @@ CQD v2 и CQD v3 имеют разные общие показатели, так
 - Средство чтения отчетов Microsoft 365
 - Специалист по поддержке взаимодействия в Teams
 
-Чтобы узнать больше о ролях, которые могут получать доступ к CQD, в том числе EUII-Read [назначение ролей для доступа к CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+Чтобы узнать больше о ролях, которые могут получать доступ к CQD, в том числе EUII-Read [назначение ролей для доступа к CQD](#assign-roles-for-accessing-cqd).
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Почему я вижу сведения о Skype для бизнеса в CQD, когда я отправил только для Teams?
 

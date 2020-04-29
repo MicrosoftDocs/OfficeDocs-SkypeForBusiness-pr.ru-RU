@@ -35,7 +35,7 @@ ms.locfileid: "41708005"
 [Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.
 
 
-|**Сведения**|**Описание**|
+|**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
 |Формат набора  <br/> |00800 XXX XXXX  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "41708005"
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Mobile access from Vivacom &amp; Globul Mobile.  <br/> |
    
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
