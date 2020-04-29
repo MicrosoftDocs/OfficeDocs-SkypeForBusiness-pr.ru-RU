@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: В следующих разделах приведены указания по настройке среды с несколькими лесами в модели леса ресурсов и пользователей для предоставления функциональных возможностей Skype для бизнеса в гибридном сценарии.
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780128"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918688"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Развертывание топологии леса ресурсов
  
@@ -61,11 +61,11 @@ ms.locfileid: "43780128"
 |**Леса пользователя**|**Леса ресурсов**|
 |:-----|:-----|
 |атрибут ссылки на выбранную учетную запись  <br/> |атрибут ссылки на выбранную учетную запись  <br/> |
-|mail  <br/> |mail  <br/> |
+|почта;  <br/> |почта;  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP — Оригинаторсид  <br/> |
    
-[Выбранный атрибут связи с учетной записью](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться в качестве привязки источника. Если вы предпочитаете использовать другой и неизменяемый атрибут, вы можете сделать это. обязательно измените правило утверждений AD FS и выберите атрибут во время настройки подключения AAD.
+[Выбранный атрибут связи с учетной записью](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) будет использоваться в качестве привязки источника. Если вы предпочитаете использовать другой и неизменяемый атрибут, вы можете сделать это. обязательно измените правило утверждений AD FS и выберите атрибут во время настройки подключения AAD.
   
 Не синхронизируйте UPN между лесами. Во время тестирования мы обнаружили, что нам требовалось использовать уникальное имя участника-пользователя для каждого леса пользователя, так как вы не можете использовать одно и то же имя участника-пользователя в нескольких лесах. В результате мы предоставим две возможности для синхронизации имени участника-пользователя или не синхронизации. 
   
@@ -121,14 +121,16 @@ ms.locfileid: "43780128"
     
 3. Идентификация пользователей в локальных каталогах: выберите **удостоверения пользователей существуют в нескольких каталогах**и выберите атрибуты **ObjectSID** и **msexchangemasteraccountsid.** .
     
-4. Идентификация пользователей в Azure AD: источник привязки: выберите атрибут, который вы выбрали после чтения, [выбрав хороший атрибут саурцеанчор](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), имя участника пользователя — **userPrincipalName**.
+4. Идентификация пользователей в Azure AD: источник привязки: выберите атрибут, который вы выбрали после чтения, [выбрав хороший атрибут саурцеанчор](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), имя участника пользователя — **userPrincipalName**.
     
 5.  Необязательные функции: выберите, развернута ли гибридная среда Exchange.
     
     > [!NOTE]
     >  Если у вас только Exchange Online, возможны проблемы с ошибками OAuth во время автообнаружения из-за перенаправления CNAME. Чтобы исправить это, необходимо задать URL-адрес автообнаружения Exchange, выполнив следующий командлет в командной консоли Skype для бизнеса Server:
-  
-    Set – CsOAuthConfiguration — Ексчанжеаутодисковерурл https://<span>Autodiscover-s.Outlook.com/Autodiscover/Autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  Ферма AD FS: выберите **использовать существующую ферму AD FS Windows Server 2012 R2** и введите имя сервера AD FS.
     
@@ -142,4 +144,3 @@ ms.locfileid: "43780128"
 
 При необходимости следуйте рекомендациям по настройке гибридной среды Exchange. Для получения дополнительных сведений обратитесь к разделу [Гибридные развертывания Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
-
