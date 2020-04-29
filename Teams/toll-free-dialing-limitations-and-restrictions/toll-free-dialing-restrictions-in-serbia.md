@@ -30,27 +30,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41693364"
 ---
-# <a name="toll-free-dialing-restrictions-in-serbia"></a><span data-ttu-id="02b4f-105">Ограничения набора бесплатных номеров в Сербии</span><span class="sxs-lookup"><span data-stu-id="02b4f-105">Toll-free dialing restrictions in Serbia</span></span>
+# <a name="toll-free-dialing-restrictions-in-serbia"></a><span data-ttu-id="e42fd-105">Ограничения набора бесплатных номеров в Сербии</span><span class="sxs-lookup"><span data-stu-id="e42fd-105">Toll-free dialing restrictions in Serbia</span></span>
 
-<span data-ttu-id="02b4f-106">[Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.</span><span class="sxs-lookup"><span data-stu-id="02b4f-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="e42fd-106">[Найдите другую страну или регион](../toll-free-dialing-limitations-and-restrictions.md)или ознакомьтесь с дополнительными ограничениями и ограничениями для бесплатных звонков.</span><span class="sxs-lookup"><span data-stu-id="e42fd-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="02b4f-107">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="02b4f-107">**Details**</span></span>|<span data-ttu-id="02b4f-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="02b4f-108">**Description**</span></span>|
+|<span data-ttu-id="e42fd-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="e42fd-107">**Details**</span></span>|<span data-ttu-id="e42fd-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e42fd-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="02b4f-109">Доступен ли бесплатный звонок?</span><span class="sxs-lookup"><span data-stu-id="02b4f-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="02b4f-110">Да</span><span class="sxs-lookup"><span data-stu-id="02b4f-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="02b4f-111">Формат набора</span><span class="sxs-lookup"><span data-stu-id="02b4f-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="02b4f-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="02b4f-112">0800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="02b4f-113">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="02b4f-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="02b4f-114">RS</span><span class="sxs-lookup"><span data-stu-id="02b4f-114">RS</span></span>  <br/> |
-|<span data-ttu-id="02b4f-115">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="02b4f-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="02b4f-116">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="02b4f-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="02b4f-117">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="02b4f-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="02b4f-118">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="02b4f-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="02b4f-119">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="02b4f-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="02b4f-120">Да</span><span class="sxs-lookup"><span data-stu-id="02b4f-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="02b4f-121">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="02b4f-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="02b4f-122">Да</span><span class="sxs-lookup"><span data-stu-id="02b4f-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="02b4f-123">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="02b4f-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="02b4f-124">Нет</span><span class="sxs-lookup"><span data-stu-id="02b4f-124">No</span></span>  <br/> |
+|<span data-ttu-id="e42fd-109">Доступен ли бесплатный звонок?</span><span class="sxs-lookup"><span data-stu-id="e42fd-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="e42fd-110">Да</span><span class="sxs-lookup"><span data-stu-id="e42fd-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="e42fd-111">Формат набора</span><span class="sxs-lookup"><span data-stu-id="e42fd-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="e42fd-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="e42fd-112">0800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="e42fd-113">Код страны или региона по ISO</span><span class="sxs-lookup"><span data-stu-id="e42fd-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="e42fd-114">RS</span><span class="sxs-lookup"><span data-stu-id="e42fd-114">RS</span></span>  <br/> |
+|<span data-ttu-id="e42fd-115">Охватываемая территория</span><span class="sxs-lookup"><span data-stu-id="e42fd-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="e42fd-116">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="e42fd-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e42fd-117">Неохватываемая территория</span><span class="sxs-lookup"><span data-stu-id="e42fd-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="e42fd-118">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="e42fd-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e42fd-119">Доступность проводных и наземных линий связи</span><span class="sxs-lookup"><span data-stu-id="e42fd-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="e42fd-120">Да</span><span class="sxs-lookup"><span data-stu-id="e42fd-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="e42fd-121">Доступность мобильных сетей</span><span class="sxs-lookup"><span data-stu-id="e42fd-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="e42fd-122">Да</span><span class="sxs-lookup"><span data-stu-id="e42fd-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="e42fd-123">Примечания, ограничения и проблемы с доступом</span><span class="sxs-lookup"><span data-stu-id="e42fd-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="e42fd-124">Нет</span><span class="sxs-lookup"><span data-stu-id="e42fd-124">No</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="02b4f-125">См. также:</span><span class="sxs-lookup"><span data-stu-id="02b4f-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e42fd-125">См. также:</span><span class="sxs-lookup"><span data-stu-id="e42fd-125">Related topics</span></span>
 
-[<span data-ttu-id="02b4f-126">Ограничения и запреты для бесплатных номеров</span><span class="sxs-lookup"><span data-stu-id="02b4f-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="e42fd-126">Ограничения и запреты для бесплатных номеров</span><span class="sxs-lookup"><span data-stu-id="e42fd-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="02b4f-127">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="02b4f-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="e42fd-127">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e42fd-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
