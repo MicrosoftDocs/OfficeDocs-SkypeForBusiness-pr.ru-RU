@@ -43,7 +43,7 @@
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
 ## [Управление тегами в Teams](manage-tags.md)
-## [Просмотр аналитики командной и межкомандной работы в Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Просмотр аналитики в Teams](teams-analytics-and-reports/view-analytics.md)
 ## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 ## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
@@ -62,6 +62,8 @@
 ### [Управление бизнес-приложениями](manage-your-lob-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
+### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Общение с внешними пользователями
