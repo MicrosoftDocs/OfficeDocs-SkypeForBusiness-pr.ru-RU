@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506850"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940716"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -77,7 +77,7 @@ ms.locfileid: "43506850"
    - [9 основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивает удаленную работу для своих сотрудников](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Teams для образовательных учреждений
+1. Teams для образовательных учреждений 
    - Если вы работаете в сфере образования и хотите настроить Teams для преподавателей, учащихся и администраторов, используйте Office 365 A1. Эта бесплатная версия Office 365 доступна для всех образовательных учреждений. Зарегистрируйтесь на странице [Office 365 бесплатно для всего учебного заведения](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
    - Не пропустите статью [Начало работы с Teams для удаленного обучения](remote-learning-edu.md).

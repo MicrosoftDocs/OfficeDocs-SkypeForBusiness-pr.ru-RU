@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903354"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940616"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -53,7 +53,7 @@ ms.locfileid: "43903354"
 ## <a name="manage-via-powershell"></a>Управление через PowerShell
 
 > [!IMPORTANT]
-> New-MsolLicenseOptions включит все службы, которые ранее были отключены, если они не были явно идентифицированы в пользовательском сценарии. Например, если вы хотите покинуть публикацию Exchange & Sway при дополнительном отключении Teams, вам потребуется включить эту функцию в сценарий или оба варианта Exchange & Sway будут включены для указанных вами пользователей. Чтобы использовать графический интерфейс для управления этими функциональными возможностями, ознакомьтесь с дополнительными сведениями [в разделе средства создания отчетов и управления лицензиями Office 365 – Назначение лицензий на удаление для массовой](https://gallery.technet.microsoft.com/Office365-License-cfd9489c) информации.
+> New-MsolLicenseOptions включит все службы, которые ранее были отключены, если они не были явно идентифицированы в пользовательском сценарии. Например, если вы хотите покинуть публикацию Exchange & Sway при дополнительном отключении Teams, вам потребуется включить эту функцию в сценарий или оба варианта Exchange & Sway будут включены для указанных вами пользователей.
 
 Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для GCC не TEAMS_GOV имя плана обслуживания. Для GCC High имя плана обслуживания TEAMS_GCCHIGH. Для вызова по требованию имя плана обслуживания TEAMS_DOD (Дополнительные сведения можно найти в разделе [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 

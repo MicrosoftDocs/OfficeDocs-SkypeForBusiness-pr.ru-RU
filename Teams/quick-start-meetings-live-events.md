@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170490"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940786"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "43170490"
 
 - Если ваши пользователи впервые применяют собрание Teams, поделитесь с ними учебным курсом [Управление собраниями](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4). Ознакомьтесь с нашим онлайн-занятием под руководством инструктора [Проведение эффективных собраний в Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
 
-- Сведения об управлении параметрами собраний см. в статье [Изменение параметров участников для собраний Teams](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+- Сведения об управлении параметрами собраний см. в статье [Изменение параметров участников для собраний Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
 - Не забудьте об [управлении устройствами пользователей](device-management.md) — телефонами, гарнитурами и камерами. Чтобы получить актуальные сведения об устройствах, сертифицированных для Teams, перейдите в раздел [Устройства Teams](https://office.com/teamsdevices).
 

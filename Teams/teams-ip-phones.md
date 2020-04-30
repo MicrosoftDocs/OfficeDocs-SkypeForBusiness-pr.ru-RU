@@ -20,12 +20,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903114"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940656"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -49,10 +49,11 @@ ms.locfileid: "43903114"
 |AudioCodes C448HD (только режим CAP) | C450HD_TEAMS_0.225 | Март 2019 г.|
 |Crestron M100|2.3875.00068|Декабрь 2018 г.|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
-|Poly тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
+|Представление Lenovo ThinkSmart|CD-18781Y. 200410.067|Апрель 2020|
 |Poly CCX400 | 1.0.0.0200 | 2020 января|
 |Poly CCX600 | 5.9.12.1111| 2020 января|
 |Poly CCX500 | 5.9.12.1111| Декабрь 2019 г.|
+|Poly тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
 |Yealink MP56| 122.15.0.6| Март 2020|
 |Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|

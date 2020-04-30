@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778475"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940686"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -70,7 +70,7 @@ ms.locfileid: "43778475"
 - [Управление Teams при переходе на новую версию Центра администрирования Teams](manage-teams-in-modern-portal.md)
 - [Управление функциями Teams в Microsoft 365 или Office 365](enable-features-office-365.md)
 
-Узнать о новых возможностях Teams, а также других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и из [стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
+Узнать о новых возможностях Teams, а также других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и из [стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Переход со Skype для бизнеса на Teams
 Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Для отслеживания новых функций в Teams см. [стратегию развития Microsoft 365](https://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.

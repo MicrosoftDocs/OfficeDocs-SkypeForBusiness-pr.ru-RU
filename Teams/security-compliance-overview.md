@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 77f8172e19ff4ca9e2057da50dee9f42ef443ae2
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901724"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940646"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Безопасность и соответствие требованиям в Microsoft Teams
 
@@ -191,9 +191,9 @@ Microsoft Teams поддерживается отдельно как облач�
 
 ## <a name="compliance-standards"></a>Стандарты соответствия требованиям
 
-Teams — это уровень D-совместимый. Сюда относятся следующие стандарты: [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SoC 1 и SoC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)и [предложения моделей ЕС (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). В структуре соответствия Майкрософт приложения и службы Office 365 делятся на четыре категории. В каждой из них подразумеваются определенные обязательства по обеспечению соответствию для службы Office 365 или другой службы Майкрософт, входящей в такую категорию.
+Teams использует следующие стандарты: [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SoC 1 и SoC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc), [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)и [предложения моделей ЕС (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). В структуре соответствия Майкрософт приложения и службы Office 365 делятся на четыре категории. В каждой из них подразумеваются определенные обязательства по обеспечению соответствию для службы Office 365 или другой службы Майкрософт, входящей в такую категорию.
 
-Службы в категориях соответствия C и D, обладающие ведущим в отрасли уровнем соответствия, включены по умолчанию. Службы в категориях A и B снабжаются средствами управления, позволяющими включать или отключать их для всей организации. Подробные сведения можно найти в [стандартах соответствия требованиям](security-compliance-overview.md#compliance-standards). Teams также обеспечивает соответствие нормам Cloud Security Alliance.
+Подробные сведения можно найти в [ресурсах по защите данных](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams также обеспечивает соответствие нормам Cloud Security Alliance.
 
 ## <a name="related-topics"></a>Статьи по теме
 

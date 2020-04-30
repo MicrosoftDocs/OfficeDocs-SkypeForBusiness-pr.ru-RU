@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903124"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940676"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -345,6 +345,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - Разрешение входящего и исходящего видеопотока ограничено разрешением 720p. Это WebRTC ограничение.
 - Поддерживается только один видеопоток из входящей камеры или потока общего доступа к экрану. Если на экране есть демонстрация экранной почты, она отображается вместо видео главного динамика.
 - Исходящее демонстрация экрана:
+    - Демонстрация экрана из чата не поддерживается.
     - Общий доступ к приложениям.
 - Предоставление управления и управление:  
     - Не поддерживается во время демонстрации экрана или сеанса совместного использования приложений.
