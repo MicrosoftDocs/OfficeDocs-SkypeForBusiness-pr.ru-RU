@@ -276,14 +276,6 @@
 #### [Использование аналоговых устройств при прямой маршрутизации](direct-routing-analog-devices.md)
 
 
-### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
-
-### Отслеживание и устранение неполадок прямой маршрутизации
-#### [Обзор](direct-routing-monitor-and-troubleshoot.md)
-#### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
-### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Маршрутизация на основе расположения
 #### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
@@ -297,12 +289,14 @@
 #### [Планирование оптимизации локальных файлов мультимедиа](direct-routing-media-optimization.md)
 #### [Настройка оптимизации локальных файлов мультимедиа](direct-routing-media-optimization-configure.md)
 
-### Отслеживание и устранение неполадок прямой маршрутизации
-#### [Обзор](direct-routing-monitor-and-troubleshoot.md)
-#### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
+
+### Отслеживание и устранение неполадок прямой маршрутизации
+#### [Обзор](direct-routing-monitor-and-troubleshoot.md)
+#### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
+
 
 ### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
