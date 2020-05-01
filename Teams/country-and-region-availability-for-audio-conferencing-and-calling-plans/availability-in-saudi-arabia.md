@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
-ms.openlocfilehash: e5fc2b21e25bd1a69a73b3319065ad2de5030af1
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
+ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852516"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43958464"
 ---
 # <a name="availability-in-saudi-arabia"></a>Доступность в Саудовской Аравии
 
@@ -69,8 +69,8 @@ ms.locfileid: "41852516"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Riyadh  <br/> |
-|Доступны ли платные номера?  <br/> |Да  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Неприменимо  <br/> |
+|Доступны ли платные номера?  <br/> |Нет  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

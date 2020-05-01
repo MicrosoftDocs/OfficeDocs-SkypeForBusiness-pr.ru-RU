@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+search.appverid: MET150
 localization_priority: Normal
 description: В этой статье описывается список телефонов, сертифицированных для Microsoft Teams, и функции, поддерживаемые на телефонах, сертифицированных для Microsoft Teams.
-ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780228"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951284"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 

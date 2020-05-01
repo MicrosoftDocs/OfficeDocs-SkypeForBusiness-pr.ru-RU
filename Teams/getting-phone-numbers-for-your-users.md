@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как получить новые, перенести и переносить существующие номера в Teams, а также как показать изменения пользователей. '
-ms.openlocfilehash: d2ac4a0a5e487b99cf8dbc303b85e6f4e3446ec8
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170755"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951014"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -47,7 +47,7 @@ ms.locfileid: "42170755"
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
     
 1. На панели навигации слева **перейдите к** > **номерам абонентов**и нажмите кнопку **Добавить**.
-2. Введите имя заказа и, если хотите, добавьте описание.
+2. Введите имя заказа и добавьте описание.
 3. На странице Расположение и количество выполните указанные ниже действия.
     1. В разделе **страна или регион**выберите страну или регион.
     2. В разделе **тип номера**выберите пункт **пользователь (подписчик)**.

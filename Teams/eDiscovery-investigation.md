@@ -17,12 +17,12 @@ description: Узнайте, что делать, если вам нужно и�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918587"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950894"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 
@@ -38,9 +38,9 @@ ms.locfileid: "43918587"
 
 | Тип содержимого | eDiscoverable | Notes |
 |:--- | --- |:--- |
-| Сообщения в чате Teams | Да | Сообщения в чате из чатов, в которых гостевые пользователи являются единственными участниками в 1:1 или 1: N, не eDiscoverable. |
+| Сообщения в чате Teams | Да |  |
 | Звуковые записи | Нет | |
-| Сообщения в частных каналах | Нет | |
+| Сообщения в частных каналах | Да | |
 | Эмодзи, GIF, наклейки | Да | |
 | Фрагменты кода | Нет | |
 | Ссылки чата | Да | |

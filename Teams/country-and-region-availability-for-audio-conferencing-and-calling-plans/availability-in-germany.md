@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Германии.
-ms.openlocfilehash: fedbd51600ae2d21d2221446eeeb6267b2406676
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683912"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951204"
 ---
 # <a name="availability-in-germany"></a>Доступность в Германии
 
@@ -43,7 +43,7 @@ ms.locfileid: "41683912"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Франкфурт</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Munich</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |В сети  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -68,7 +68,7 @@ ms.locfileid: "41683912"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Франкфурт  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul> <li>Франкфурт  <li> Munich </ul> <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    

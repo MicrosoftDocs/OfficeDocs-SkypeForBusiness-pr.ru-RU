@@ -11,17 +11,18 @@ description: Используйте этот сценарий PowerShell для 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ffd564d421c07503fe5e19ace8f24a0379418b74
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140982"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951064"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
@@ -29,13 +30,14 @@ ms.locfileid: "43140982"
 
 Дополнительные сведения об использовании этого сценария PowerShell можно найти в [кратком разделе Начало — группы для образовательных учреждений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
 
-Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+Этот сценарий использует командлет [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) , который входит в модуль PowerShell Skype для бизнеса Online. Дополнительные сведения об управлении группами с помощью PowerShell см. в разделе [Общие сведения о Teams PowerShell](../teams-powershell-overview.md) .
 
 
 ## <a name="before-you-start"></a>Перед началом работы
-Скачайте и установите [модуль соединителя Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер при появлении соответствующего запроса.
 
-Посмотрите [, как управлять Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) .
+Скачайте и установите [модуль PowerShell Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер при появлении соответствующего запроса.
+
+Для более рациональной работы ознакомьтесь [со списком Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 
 ## <a name="sample-script"></a>Пример сценария
@@ -59,4 +61,5 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
  }
 ```
 
-
+> [!NOTE]
+> Вы также можете использовать назначение пакетной политики для назначения политики обмена сообщениям большим наборам пользователей. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).
