@@ -1,5 +1,5 @@
 ---
-title: Известные проблемы Microsoft Teams
+title: Поддержка Microsoft Teams в вашей организации
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Используйте этот список известных проблем, связанных с клиентским приложением Microsoft Teams и интерфейсом администратора, чтобы устранять неполадки в организации.
+description: Используйте эти ресурсы для поддержки Microsoft Teams в вашей организации, независимо от того, являетесь ли вы администратором Teams или инженером службы поддержки.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902304"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997010"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Известные проблемы Microsoft Teams
+# <a name="support-microsoft-teams-in-your-organization"></a>Поддержка Microsoft Teams в вашей организации
 
-В этой статье приведены известные проблемы в Microsoft Teams, упорядоченные по функциональным областям.
+Если вы ищете Известные проблемы Teams, вы находитесь в правильном месте. Используйте ресурсы этой статьи, чтобы помочь вам поддержать Teams в вашей организации. 
+
+Начните с просмотра списка [наиболее распространенных проблем и решений](#common-issues-and-resolutions), приведенного ниже в этой статье.
+
+Затем, если вы не можете найти то, что вам нужно, перейдите к разделу [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) и найдите свою проблему в оглавлении или в поле **Фильтровать по заголовку**. 
+:::image type="content" source="media/known-issues1.png" alt-text="Снимок экрана с оглавлением и фильтром на странице устранения неполадок Teams":::
+
+Если вы все еще застряли, обратитесь в [службу поддержки Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+
 
 ## <a name="common-issues-and-resolutions"></a>Общие проблемы и решения
 
@@ -55,4 +63,9 @@ ms.locfileid: "43902304"
 |---------|---------|
 |Ваши пользователи видят "Вы пропускаете!" Сообщение.   |Необходимо [включить Microsoft Teams для вашего учебного заведения](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). В арендаторах EDU Команды не включены по умолчанию; Вы должны будете включить это сначала. <br><br>После этого прочтите статью [Удаленное преподавание и обучение в Office 365 для образовательных учреждений](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4). В этой статье вы найдете актуальные рекомендации по настройке школы, планированию уроков, проведению виртуальных собраний и предоставлению учащимся доступа к содержимому.<br><br>Наконец, обязательно ознакомьтесь с обучающими видео для администраторов Microsoft Teams, колодами и многим другим на [обучении администраторов для Teams](itadmin-readiness.md).        |
 
-Дополнительные сведения об устранении проблем с Microsoft Teams см. в статье [Устранение неполадок в Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams).
+
+## <a name="related-topics"></a>Статьи по теме
+
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
