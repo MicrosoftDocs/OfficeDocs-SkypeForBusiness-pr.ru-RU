@@ -7,6 +7,7 @@
 ### [Требования](requirements.md)
 ### [Интернет-лицензирование](rooms-licensing.md)
 ### [Планирование управления с помощью Azure Monitor](azure-monitor-plan.md)
+### [Управление планированием с помощью управляемых комнат для собраний](managed-meeting-rooms.md)
 
 ## Развертывание
 ### [Обзор развертывания](rooms-deploy.md)
