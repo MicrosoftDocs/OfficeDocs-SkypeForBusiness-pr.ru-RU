@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Администратор может прочитать заметки о выпуске для комнат Microsoft Teams, в которых перечислены накопительные улучшения в комнатах Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905341"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997220"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -346,7 +346,7 @@ Introduced in this update:
 
 [Поддержка в помещениях Microsoft Teams для версий текущей ветви](rooms-lifecycle-support.md)
 
-[Известные проблемы в комнатах Microsoft Teams](known-issues.md)
+[Поддержка Teams в Организации](known-issues.md)
 
 [Планирование комнат Microsoft Teams](rooms-plan.md)
 

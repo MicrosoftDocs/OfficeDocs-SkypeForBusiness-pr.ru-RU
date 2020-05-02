@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940676"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997170"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -353,7 +353,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - Если в настройке с несколькими мониторами вы предоставляете общий доступ к экрану, для него предоставляется доступ только к главному монитору.
 - Масштабирование с высоким разрешением в CWA не поддерживается.
 
-Известные проблемы, которые не относятся к VDI, приведены в разделе [Известные проблемы группы](Known-issues.md).
+Известные проблемы, которые не относятся к VDI, можно найти [в разделе Поддержка Teams в Организации](Known-issues.md).
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 

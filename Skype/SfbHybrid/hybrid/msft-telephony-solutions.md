@@ -1,5 +1,5 @@
 ---
-title: Решения Microsoft для телефонии
+title: Решения Майкрософт для телефонии
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42048630"
 ---
-# <a name="microsoft-telephony-solutions"></a>Решения Microsoft для телефонии
+# <a name="microsoft-telephony-solutions"></a>Решения Майкрософт для телефонии
 
 Корпорация Майкрософт поддерживает несколько вариантов, когда вы начинаете путешествие к Teams в Microsoft Cloud. Эта статья поможет вам решить, какое решение Microsoft Phone (телефонная система в облаке или корпоративной голосовой связи) подходит для пользователей в Организации, и как Организация может подключаться к телефонной сети общего пользования (PSTN). 
 

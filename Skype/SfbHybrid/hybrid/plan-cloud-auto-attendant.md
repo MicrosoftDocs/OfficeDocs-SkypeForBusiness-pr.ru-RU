@@ -38,12 +38,12 @@ ms.locfileid: "43510808"
 2. Через [пограничный контроллер сеансов](/MicrosoftTeams/direct-routing-border-controllers.md) и [прямую маршрутизацию](/MicrosoftTeams/direct-routing-plan.md)
 3. Через номер, размещенный в Интернете в Office 365.
 
-Ниже перечислены другие материалы по теме.
+См. также:
 
 - [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Автоматический ответ и маршрутизация для входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 В приведенных ниже требованиях предполагается, что у вас уже развернут Skype для бизнеса Server 2019 в поддерживаемой топологии.  Требования зависят от вашего сценария:
 

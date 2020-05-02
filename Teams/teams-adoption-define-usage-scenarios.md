@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905871"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997270"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Определение сценариев использования Microsoft Teams
 
@@ -70,6 +70,6 @@ ms.locfileid: "43905871"
 ![Иллюстрация влияния и сложности сценария](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Мы всегда рады узнать, как наши клиенты пользуются группами в новых инновационных целях. Поделитесь своими #TeamsStoriesми с нами [форум обсуждений о внедрении внедрения]. Включите в публикацию хэш- **#TeamsStories** . Мы всегда заинтересованы в том, как пользоваться группами в Организации.
+> Мы всегда рады узнать, как наши клиенты пользуются группами в новых инновационных целях. Поделитесь с нами своими #TeamsStoriesами на [форуме обсуждения по внедрению](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Включите в публикацию хэш- **#TeamsStories** . Мы всегда заинтересованы в том, как пользоваться группами в Организации.
 
 ![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [встроенные в начало и сбор отзывов](teams-adoption-onboard-early-adopters.md).

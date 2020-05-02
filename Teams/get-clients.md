@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778305"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997020"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -115,7 +115,7 @@ ms.locfileid: "43778305"
 Ключ подписи для автоматического обновления с помощью системного менеджера пакетов устанавливается автоматически. Однако его также можно найти по адресу: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams поставляется ежемесячно, и если репозиторий был установлен правильно, ваш системный менеджер пакетов должен обрабатывать автоматическое обновление так же, как и другие пакеты в системе.
 
 > [!NOTE] 
-> Если вы нашли ошибку, отправьте ее, используя `Report a Problem` из клиента. Для известных проблем см. [Известные проблемы](Known-issues.md).
+> Если вы нашли ошибку, отправьте ее, используя `Report a Problem` из клиента. Известные проблемы можно найти [в разделе Поддержка Teams в Организации](Known-issues.md).
 > В Teams для Linux можно использовать канал поддержки форума [Linux в Microsoft Вопросы и ответы](https://docs.microsoft.com/answers/topics/teams.html). При размещении вопросов используйте тег `teams-linux`. 
 
 #### <a name="install-teams-using-deb-package"></a>Установить команды, используя пакет DEB
