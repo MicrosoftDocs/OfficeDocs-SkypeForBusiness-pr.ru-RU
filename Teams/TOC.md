@@ -59,7 +59,7 @@
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
-### [Управление бизнес-приложениями](manage-your-lob-apps.md)
+### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
+## [Поддержка Teams в организации](Known-issues.md)
 ## [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
 ### [Руководство по анализу качества взаимодействия](quality-of-experience-review-guide.md)
 ### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 ## [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
-## [Известные проблемы для Microsoft Teams](Known-issues.md)
 ## [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
