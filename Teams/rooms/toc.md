@@ -26,7 +26,7 @@
 ## Управление
 ### [Обзор управления](rooms-manage.md)
 ### [Обслуживание и эксплуатация](rooms-operations.md)
-### [Известные проблемы](known-issues.md)
+### [Поддержка Teams в организации](known-issues.md)
 ### [Устройства с Azure Monitor](azure-monitor-manage.md)
 ### [Управление настройками с помощью XML-файла](xml-config-file.md)
 ### [Использование средства восстановления](recovery-tool.md)
