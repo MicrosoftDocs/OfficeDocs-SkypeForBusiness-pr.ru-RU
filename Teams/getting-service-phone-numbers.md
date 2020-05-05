@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Узнайте, как получать новые номера телефонов и пакеты, а также переносить существующие номера для голосовой конференции, автосекретарей и очередей звонков (номера услуг) для групп.
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136719"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021991"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
@@ -51,7 +51,7 @@ ms.locfileid: "43136719"
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели навигации слева **перейдите к** > **номерам абонентов**и нажмите кнопку **Добавить**.
-2. Введите имя заказа и, если хотите, добавьте описание.
+2. Введите имя заказа и добавьте описание.
 3. На странице Расположение и количество выполните указанные ниже действия.
     1. В разделе **страна или регион**выберите страну или регион.
     1. В разделе **тип номера**выберите нужный тип номера услуги.
@@ -80,7 +80,7 @@ ms.locfileid: "43136719"
 
 После того как вы получите номера служб, назначьте каждый номер своему мосту для голосовой связи. Посмотрите [, как изменить платные или бесплатные номера телефонов для конференц-связи с телефонным сопровождением](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

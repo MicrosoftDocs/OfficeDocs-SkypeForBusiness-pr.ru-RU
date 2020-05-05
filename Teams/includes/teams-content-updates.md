@@ -8,46 +8,6 @@
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 3/24/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 3/24/2020 | [Установите Microsoft Teams с помощью MSI через Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Изменено |
-| 3/24/2020 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
-| 3/24/2020 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 3/24/2020 | [Создание пользователей Microsoft 365, добавление лицензий на корпоративную голосовую связь и назначение номеров телефонов](/MicrosoftTeams/business-voice/create-users) | Изменено |
-| 3/25/2020 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 3/25/2020 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 3/25/2020 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
-| 3/25/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 3/25/2020 | [Собрания Microsoft Teams для неподдерживаемых браузеров](/MicrosoftTeams/unsupported-browsers) | Изменено |
-| 3/26/2020 | [Планирование развертываний Microsoft 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
-| 3/26/2020 | [Назначение владельцев и участников команд в Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | Изменено |
-| 3/26/2020 | [Назначение политик большим наборам пользователей в учебном заведении](/MicrosoftTeams/batch-policy-assignment-edu) | Изменено |
-| 3/26/2020 | [Управление бесплатной пробной версией Office 365 E1](/MicrosoftTeams/e1-trial-license) | Изменено |
-| 3/26/2020 | [Руководство по анализу процедуры обеспечения качества для Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Изменено |
-| 3/26/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
-| 3/26/2020 | [Включение и использование панели мониторинга качества звонков](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
-| 3/26/2020 | [Просмотр использования Microsoft Teams в Power BI с использованием данных CQD](/MicrosoftTeams/cqd-teams-utilization-report) | Изменено |
-| 3/26/2020 | [Назначение политик вашим пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
-| 3/26/2020 | [Вход в Microsoft Teams с современной проверкой подлинности](/MicrosoftTeams/sign-in-teams) | Изменено |
-| 3/26/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 3/26/2020 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
-| 3/26/2020 | [Страны и регионы, в которые пользователи могут совершать исходящие звонки](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | Изменено |
-| 3/26/2020 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 3/26/2020 | [Поддержка удаленных сотрудников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
-| 3/26/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/resources-teams-edu) | Изменено |
-| 3/27/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/resources-teams-edu) | Изменено |
-| 3/27/2020 | Видеоролики: Аудиоконференции в Microsoft Teams | Удалено |
-| 3/27/2020 | [Обнаружение электронных данных в Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | Изменено |
-| 3/27/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 3/27/2020 | [Назначение политик большим наборам пользователей в учебном заведении](/MicrosoftTeams/batch-policy-assignment-edu) | Изменено |
-| 3/27/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
-| 3/27/2020 | [Использование памяти в Microsoft Teams](/MicrosoftTeams/teams-memory-usage-perf) | Изменено |
-
-
-## <a name="week-of-march-30-2020"></a>Неделя месяца 30 марта 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
 | 3/31/2020 | [Вопросы и ответы — поддержка удаленных сотрудников](/MicrosoftTeams/faq-support-remote-workforce) | Изменено |
 | 3/31/2020 | [Собрания в Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Изменено |
 | 3/31/2020 | [Назначение политик вашим пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
@@ -77,7 +37,7 @@
 | 4/1/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
 | 4/1/2020 | [Пример сценария PowerShell — создание и назначение политики обмена сообщениями](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | Изменено |
 | 4/1/2020 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Изменено |
-| 4/1/2020 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
+| 4/1/2020 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | изменено |
 | 4/1/2020 | [Teams для сферы образования](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Изменено |
 | 4/1/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
 | 4/1/2020 | [Установка соединителя Power BI для использования шаблонов запросов CQD](/MicrosoftTeams/cqd-power-bi-connector) | Изменено |
@@ -101,7 +61,7 @@
 | 4/2/2020 | [Поддержка удаленных сотрудников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
 | 4/2/2020 | [Предоставление Microsoft Teams в масштабе для работников Firstline](/MicrosoftTeams/flw-scripted-deployment) | Изменено |
 | 4/2/2020 | Техническая документация по Microsoft Teams | Удалено |
-| 4/3/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 4/3/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | изменено |
 | 4/3/2020 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
 | 4/3/2020 | [Информация ИТ-администратора для клиента Microsoft Teams RealWear (предварительная версия)](/MicrosoftTeams/flw-realwear) | Изменено |
 | 4/3/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
@@ -143,7 +103,7 @@
 | 4/3/2020 | [Создание стратегии управления изменениями](/MicrosoftTeams/change-management-strategy) | Изменено |
 | 4/3/2020 | [Изменение языка по умолчанию для приветствий и электронных писем](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | Изменено |
 | 4/3/2020 | [Изменение номеров телефонов для моста аудио-конференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
-| 4/3/2020 | [Изменение настроек для моста аудиоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | изменено |
+| 4/3/2020 | [Изменение настроек для моста аудиоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | Изменено |
 | 4/3/2020 | [Параметры сети для функций голосовой связи в облаке](/MicrosoftTeams/cloud-voice-network-settings) | Изменено |
 | 4/3/2020 | [Кодекс обучения для Великобритании — планы звонков по Office 365](/MicrosoftTeams/code-of-practice-for-the-united-kingdom-u-k) | Изменено |
 | 4/3/2020 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
@@ -161,7 +121,7 @@
 | 4/3/2020 | [Типы номеров телефонов, используемых для планов звонков](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | Изменено |
 | 4/3/2020 | [Измерения и измерения — панель мониторинга качества звонков](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
 | 4/3/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 4/3/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 4/3/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | изменено |
 | 4/3/2020 | [Настройка контроллера границ сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
 | 4/3/2020 | [Учетные записи пользователей в гибридной среде с КТСОП](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | Изменено |
 | 4/3/2020 | [Проведение исследований обнаружения электронных данных](/MicrosoftTeams/ediscovery-investigation) | Изменено |
@@ -199,7 +159,7 @@
 | 4/3/2020 | [Настройка и управление управлением каналами](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
 | 4/3/2020 | [Управление политиками маршрутизации экстренных вызовов](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
 | 4/3/2020 | [Управление внешним доступом (Федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
-| 4/3/2020 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | изменено |
+| 4/3/2020 | [Управление гостевым доступом в Microsoft Teams](/MicrosoftTeams/manage-guests) | Изменено |
 | 4/3/2020 | [Управление переходом команд в новой версии центра администрирования Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Изменено |
 | 4/3/2020 | [Управление параметрами голосовой конференции для пользователей](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | Изменено |
 | 4/3/2020 | [Управление параметрами голосовой конференции](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | Изменено |
@@ -339,7 +299,7 @@
 | 4/7/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
 | 4/7/2020 | [Рекомендации по упорядочению команд](/MicrosoftTeams/best-practices-organizing) | Изменено |
 | 4/7/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 4/8/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | изменено |
+| 4/8/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
 | 4/8/2020 | [Учебник: голосовой Конференц-связь с Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | Изменено |
 | 4/8/2020 | [Собрания в Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Изменено |
 | 4/8/2020 | [Ответ на автосекретарь и вызов очереди звонков](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | Изменено |
@@ -376,7 +336,7 @@
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
 | 4/14/2020 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-| 4/14/2020 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | Изменено |
+| 4/14/2020 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | изменено |
 | 4/14/2020 | [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
 | 4/14/2020 | [Настройка и управление управлением каналами](/MicrosoftTeams/manage-channel-moderation-in-teams) | Изменено |
 | 4/14/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
@@ -426,7 +386,7 @@
 | 4/21/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
 | 4/21/2020 | [Руководство по безопасности для Microsoft Teams](/MicrosoftTeams/teams-security-guide) | Изменено |
 | 4/21/2020 | [Взаимодействие Teams и Skype](/MicrosoftTeams/teams-skype-interop) | Изменено |
-| 4/21/2020 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | Изменено |
+| 4/21/2020 | [Использование аналитики звонков для устранения проблем с качеством звонка](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | изменено |
 | 4/21/2020 | [Обзор системы безопасности и соответствия требованиям](/MicrosoftTeams/security-compliance-overview) | Изменено |
 | 4/21/2020 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
 | 4/21/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
@@ -475,7 +435,7 @@
 | 4/22/2020 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | Изменено |
 | 4/22/2020 | [Приложения, боты и соединители в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
 | 4/22/2020 | [Настройка параметров аудиоконференций — Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | Изменено |
-| 4/22/2020 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | изменено |
+| 4/22/2020 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
 | 4/22/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
 | 4/22/2020 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
 | 4/22/2020 | [Настройка контроллера границ сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
@@ -489,7 +449,7 @@
 | 4/22/2020 | [Планирование перемещения StaffHubных групп в смену](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | Изменено |
 | 4/22/2020 | [Информация ИТ-администратора для клиента Microsoft Teams RealWear (предварительная версия)](/MicrosoftTeams/flw-realwear) | Изменено |
 | 4/22/2020 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 4/22/2020 | [Мониторинг использования и отзывов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | Изменено |
+| 4/22/2020 | [Мониторинг использования и отзывов в Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | изменено |
 | 4/22/2020 | [Использование PowerShell для управления гостевым доступом в команде](/MicrosoftTeams/guest-access-powershell) | Изменено |
 | 4/22/2020 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
 | 4/22/2020 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
@@ -563,7 +523,7 @@
 | 4/22/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | Изменено |
 | 4/22/2020 | [Использование помощника для Teams (общедоступная предварительная версия) для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
 | 4/22/2020 | [Использование помощника по тестированию сети](/MicrosoftTeams/use-network-testing-companion) | Изменено |
-| 4/22/2020 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | изменено |
+| 4/22/2020 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
 | 4/22/2020 | [Управление группами с помощью ролей администратора Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Изменено |
 | 4/22/2020 | [Общение с пользователями из других организаций в Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Изменено |
 | 4/23/2020 | [Изменение номеров телефонов для моста аудио-конференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Изменено |
@@ -575,3 +535,66 @@
 | 4/23/2020 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
 | 4/23/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
 | 4/23/2020 | [Руководство по безопасности для Microsoft Teams](/MicrosoftTeams/teams-security-guide) | Изменено |
+
+
+## <a name="week-of-april-27-2020"></a>Неделя от 27 апреля 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 4/28/2020 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | изменено |
+| 4/28/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 4/28/2020 | [Обзор системы безопасности и соответствия требованиям](/MicrosoftTeams/security-compliance-overview) | Изменено |
+| 4/28/2020 | [Поддержка удаленных сотрудников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
+| 4/28/2020 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
+| 4/28/2020 | [Панель мониторинга работоспособности для прямой маршрутизации](/MicrosoftTeams/direct-routing-health-dashboard) | Изменено |
+| 4/28/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 4/28/2020 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 4/28/2020 | Просмотр аналитики командной и межкомандной работы в Teams | Удалено |
+| 4/28/2020 | [Телефоны и устройства для групп](/MicrosoftTeams/teams-ip-phones) | Изменено |
+| 4/29/2020 | [Группы Microsoft 365 и Microsoft Teams](/MicrosoftTeams/office-365-groups) | Изменено |
+| 4/29/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 4/29/2020 | [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
+| 4/29/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
+| 4/29/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 4/29/2020 | [Microsoft Teams Chalk рассказывает о них](/MicrosoftTeams/chalk-talks-landing-page) | Изменено |
+| 4/29/2020 | [Доступность в Германии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | Изменено |
+| 4/29/2020 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
+| 4/29/2020 | [Настройка Ringback Bot для прямой маршрутизации](/MicrosoftTeams/direct-routing-ringback-bot) | Изменено |
+| 4/29/2020 | [Проведение исследований обнаружения электронных данных](/MicrosoftTeams/ediscovery-investigation) | Изменено |
+| 4/29/2020 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
+| 4/29/2020 | [Учебные курсы под руководством инструктора и видео для пользователей](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
+| 4/29/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 4/29/2020 | [Телефоны для Microsoft Teams](/MicrosoftTeams/phones-for-teams) | Изменено |
+| 4/29/2020 | [Планирование управления жизненным циклом](/MicrosoftTeams/plan-teams-lifecycle) | Изменено |
+| 4/29/2020 | [Образец сценария PowerShell — руководители экспорта и их прямые](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | Изменено |
+| 4/29/2020 | [Пример сценария PowerShell: создание групп руководителей пользователей](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | Изменено |
+| 4/29/2020 | [Пример сценария PowerShell — создание политики обмена сообщениями & назначение](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | Изменено |
+| 4/29/2020 | [Пример сценария PowerShell: Сброс параметров автозапуска в Teams](/MicrosoftTeams/scripts/powershell-script-teams-reset-autostart) | Изменено |
+| 4/29/2020 | [Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации](/MicrosoftTeams/sip-tester-powershell-script) | Изменено |
+| 4/29/2020 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | Изменено |
+| 4/29/2020 | [Телефоны и устройства для групп](/MicrosoftTeams/teams-ip-phones) | Изменено |
+| 4/29/2020 | [Обзор PowerShell в Teams](/MicrosoftTeams/teams-powershell-overview) | Изменено |
+| 4/29/2020 | [Управление группами с помощью ролей администратора Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Изменено |
+| 4/29/2020 | [Что такое телефонная система в Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
+| 4/30/2020 | [Установка соединителя Power BI для использования шаблонов запросов CQD](/MicrosoftTeams/cqd-power-bi-connector) | Изменено |
+| 4/30/2020 | [Управление политиками вызова экстренной помощи в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
+| 4/30/2020 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 4/30/2020 | [Доступность в Саудовской Аравии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | Изменено |
+| 4/30/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 5/1/2020 | [Руководство по работе с Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | Изменено |
+| 5/1/2020 | [Поддержка Microsoft Teams в вашей организации](/MicrosoftTeams/known-issues) | Изменено |
+| 5/1/2020 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
+| 5/1/2020 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
+| 5/1/2020 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
+| 5/1/2020 | [Управление приложениями в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
+| 5/1/2020 | [Управление пользовательскими приложениями в Microsoft Teams](/MicrosoftTeams/manage-your-lob-apps) | Изменено |
+| 5/1/2020 | [Управление жизненным циклом частных каналов в Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | Изменено |
+| 5/1/2020 | [Планирование комнат Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | Изменено |
+| 5/1/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 5/1/2020 | [Определение сценариев использования Microsoft Teams](/MicrosoftTeams/teams-adoption-define-usage-scenarios) | Изменено |
+| 5/1/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 5/1/2020 | [Устранять проблемы с гостевым доступом в Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Изменено |
+| 5/1/2020 | [Операции для Microsoft Teams \| Управление службами \| Качество](/MicrosoftTeams/upgrade-operate-my-service) | Изменено |
+| 5/1/2020 | [Назначение, изменение и удаление номера телефона пользователя](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Изменено |
+| 5/1/2020 | [Обращение в службу поддержки PSTN](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | Изменено |

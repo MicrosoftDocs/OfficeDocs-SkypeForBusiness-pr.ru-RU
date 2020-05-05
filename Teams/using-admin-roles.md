@@ -75,7 +75,7 @@ ms.locfileid: "43951074"
    в. С помощью **Get-Module** можно указать имя импортированного сеанса (оно будет сгенерировано случайным образом).<br>
 3. Для идентификации всех доступных командлетов используйте **команду Get-Command-** <*Name, расположенную выше*>
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 
 - [Общие сведения о Microsoft Teams PowerShell](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

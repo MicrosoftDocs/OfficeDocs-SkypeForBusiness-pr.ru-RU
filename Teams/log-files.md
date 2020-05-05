@@ -88,11 +88,11 @@ ms.locfileid: "41833379"
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%Аппдата%\микрософт\теамс\медиа-стакк\\*. blog         |
-|            |%Аппдата%\микрософт\теамс\скилиб\\*. blog
-|            |%Аппдата%\микрософт\теамс\медиа-стакк\\*. ETL         |
-|Mac OSX     |~/Library/Application Support support/Microsoft/Teams/медиа-стакк/*. blog         |
-|            |~/Library/Application Support support/Microsoft/Teams/скилиб/*. blog         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. blog         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. blog
+|            |%appdata%\Microsoft\Teams\media-stack\\*. ETL         |
+|Mac OSX     |~/Library/Application Support support/Microsoft/Teams/Media-Stack/*. blog         |
+|            |~/Library/Application Support support/Microsoft/Teams/skylib/*. blog         |
 
 
 
@@ -111,5 +111,5 @@ Mac OsX:
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%аппдата%\микрософт\теамс\логс.ткст         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

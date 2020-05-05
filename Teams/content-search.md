@@ -90,6 +90,6 @@ ms.locfileid: "43776454"
     ```
 3. Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [варианты обнаружения электронных данных в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

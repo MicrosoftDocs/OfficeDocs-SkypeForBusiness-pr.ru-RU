@@ -46,7 +46,7 @@ ms.locfileid: "43904584"
 -  [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Чтобы узнать больше о прямом маршруте, просмотрите следующий сеанс: [Прямая маршрутизация в Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Решения по развертыванию основных функций
+## <a name="core-deployment-decisions"></a>Основные решения по развертыванию
 
 Это основные решения, которые необходимо предусмотреть для прямой маршрутизации. 
 

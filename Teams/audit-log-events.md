@@ -147,6 +147,6 @@ ms.locfileid: "43958414"
 
 Вы можете использовать API-интерфейс действия по управлению Office 365 для получения сведений о событиях Teams. Дополнительные сведения о схеме API действий управления для Teams можно найти в статье [схема Teams](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Поиск в журнале аудита в центре соответствия требованиям Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)

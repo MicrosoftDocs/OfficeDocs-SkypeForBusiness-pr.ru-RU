@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и/или КОММУТИРУЕМых операторов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918718"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022001"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -253,7 +253,7 @@ ms.locfileid: "43918718"
 - Для каждого клиента добавьте полные доменные имена для двух разных SBCs.  Например:
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - В политиках маршрутизации голосовой связи в сети для пользователей укажите оба типа SBCs.  Если один SBC не удается, политика маршрутизации перенаправит вызовы на второй SBC.
 
