@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208325"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ _**Последнее изменение темы:** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>Добавление домена и проверка прав на владение доменом</p></td>
-<td><p>Домен иногда также называется <em>доменом запоминающийся</em>. Вам необходимо добавить домен в клиент Office 365 и затем проверить домен в Office 365. Эти действия предназначены для проверки прав владения доменом.</p>
-<p>Чтобы добавить свой домен в клиент Office 365, выполните действия, описанные в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Добавление домена в office 365</a>.</p>
+<td><p>Домен иногда также называется <em>доменом запоминающийся</em>. Необходимо добавить домен в организацию Office 365, а затем выполнить действия по проверке домена с помощью Office 365. Эти действия предназначены для проверки прав владения доменом.</p>
+<p>Чтобы добавить свой домен в организацию Office 365, выполните действия, описанные в статье <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Добавление домена в office 365</a>.</p>
 <p>Выполните все действия, описанные в разделах этой статьи, в том &quot;числе изменение записей DNS для служб Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например, с помощью отчета пулы заряда минут в Skype для бизнеса можно узнать количество минут, потраченных в течение текущего месяца Организации.
-ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692434"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776254"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о пулах минут, затраченных по ТСОП
 
@@ -47,7 +47,7 @@ ms.locfileid: "41692434"
 - Перейдите в центр **администрирования >** > **центр** > администрирования Skype для бизнеса —**отчеты** > по**пулам PSTN-минут**.
     
 > [!NOTE]
-> В зависимости от того, какая у вас подписка на Office 365, вы можете увидеть все указанные здесь данные. 
+> В зависимости от имеющейся подписки на Microsoft 365 или Office 365 могут отображаться не все данные, показанные здесь. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Интерпретация отчета о пулах в Skype для бизнеса PSTN-минут
 
@@ -93,7 +93,7 @@ ms.locfileid: "41692434"
 
 - [Отчет о сеансах Skype для бизнеса](session-details-report.md) Вы можете просматривать сведения о звонках отдельных пользователей.
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 [Отчеты об активности в центре администрирования](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
