@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905591"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042946"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -42,11 +42,11 @@ ms.locfileid: "43905591"
   
 Для этого **нужно назначить лицензию на аудиоконференции или телефонную систему** своим пользователям.
   
-- Назначение лицензии на **голосовую конференцию** для пользователей. Ознакомьтесь с разделами [Назначение лицензий Microsoft Teams](assign-teams-licenses.md).
+- Назначение лицензии на **голосовую конференцию** для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     После назначения этой лицензии вам потребуется настроить голосовую конференцию. Пошаговые инструкции вы можете найти в статье Использование [и приобретение звуковых конференций в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Назначение лицензии на **телефонную систему** и **внутренний или внутренний и Международный** план звонков для пользователей. Ознакомьтесь с разделами [Назначение лицензий Microsoft Teams](assign-teams-licenses.md).
+- Назначение лицензии на **телефонную систему** и **внутренний или внутренний и Международный** план звонков для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     > [!NOTE]
     > Несмотря на то что это не требуется для кредитов на связь, вам также необходимо назначить лицензию на **внутренние звонки** или **план внутренних и международных звонков** .

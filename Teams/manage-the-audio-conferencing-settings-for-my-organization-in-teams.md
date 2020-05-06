@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141162"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042486"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "43141162"
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии для аудиоконференций
 
 > [!NOTE]
-> Вы не можете назначать лицензии с помощью Teams. Необходимо использовать центр администрирования Microsoft 365. См. статью [Назначение лицензий Skype для бизнеса и Microsoft Teams](assign-teams-licenses.md). 
+> Вы не можете назначать лицензии с помощью Teams. Необходимо использовать центр администрирования Microsoft 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
   
  **Назначение лицензии для пользователя**
   

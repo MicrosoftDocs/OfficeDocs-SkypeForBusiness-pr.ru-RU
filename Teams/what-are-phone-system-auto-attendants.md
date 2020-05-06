@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте о возможностях облачных автосекретарей и о том, как использовать их для перемещения между абонентами в системе меню, чтобы находить и размещать или передавать звонки пользователям или подразделениям.
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905141"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042606"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Что представляют собой облачные автосекретари?
 
@@ -64,7 +64,7 @@ ms.locfileid: "43905141"
 > Номера служб прямой маршрутизации для автосекретаря и очередей звонков поддерживаются только для пользователей Microsoft Teams и для агентов звонков.
 
    > [!TIP]
-   > Чтобы перенаправить вызов оператору или меню, которое является сетевым пользователем с лицензией на **телефонную систему** , вам потребуется включить ее учетную запись для корпоративного голосовой связи или назначить для них планы звонков. Ознакомьтесь с разделами [Назначение лицензий Microsoft Teams](assign-teams-licenses.md). Вы также можете использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Чтобы перенаправить вызов оператору или меню, которое является сетевым пользователем с лицензией на **телефонную систему** , вам потребуется включить ее учетную запись для корпоративного голосовой связи или назначить для них планы звонков. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Вы также можете использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Для получения и использования бесплатных номеров служб для автосекретарей необходимо настроить кредиты на связь. Чтобы сделать это, посмотрите, [что такое](what-are-communications-credits.md) баллы для обмена информацией и хотите [настроить кредиты на связь в Организации](set-up-communications-credits-for-your-organization.md).
 
@@ -239,7 +239,7 @@ ms.locfileid: "43905141"
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как это сделать, перейдите в раздел [Управление номерами телефонов для Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 

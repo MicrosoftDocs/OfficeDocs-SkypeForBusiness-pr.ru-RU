@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Узнайте, как настроить планы звонков, в том числе планы просмотра, доступные в вашем регионе, Купить & Назначение лицензий, получение телефонных номеров и добавление адресов для экстренного реагирования & местоположений.
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140882"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042406"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -45,7 +45,7 @@ ms.locfileid: "43140882"
     > [!TIP]
     > Лицензии на **телефонную систему** и планы звонков в Office 365 отключаются друг от друга, поэтому вы должны иметь лицензии на **телефонную систему** , чтобы получить доступ к планам звонков.
   
-2. Сначала назначьте лицензии, а затем назначьте план звонков людям из вашей организации. Ознакомьтесь с разделами [Назначение лицензий Microsoft Teams](assign-teams-licenses.md).
+2. Сначала назначьте лицензии, а затем назначьте план звонков людям из вашей организации. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Шаг 3: получение телефонных номеров
 Есть три способа получить новые номера пользователей:

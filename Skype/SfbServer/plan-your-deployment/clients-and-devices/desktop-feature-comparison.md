@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Сводка. Администраторы Skype для бизнеса Server 2015 или Skype для бизнеса Online могут использовать эти таблицы, чтобы узнать, какие функции поддерживаются в клиентах.
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777804"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041956"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Сравнение функций клиента для настольных ПК в Skype для бизнеса Server 2015
 
@@ -188,7 +188,7 @@ ms.locfileid: "43777804"
 |Ответ на вызов в группе  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Маршрутизация на основе местоположения  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Управление группой ответа/группой звонков группы |&#x2714;||&#x2714;|||||||
-
+|Автоматический звонок на автосекретарь |&#x2714;||&#x2714;|||||||
  &#x2776; эта функция недоступна в Skype для бизнеса Online.
   
 ## <a name="external-users-support"></a>Поддержка внешних пользователей

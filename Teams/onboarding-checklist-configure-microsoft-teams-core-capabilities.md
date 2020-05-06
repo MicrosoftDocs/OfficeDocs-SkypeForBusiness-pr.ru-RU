@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e7d167b8e1e868f550067b08f2f7dbfb22cb0a41
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903904"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042106"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Настройка основных возможностей Microsoft Teams
 
@@ -35,5 +35,5 @@ ms.locfileid: "43903904"
 | 6  | Необязательно: Настройка политики именования групп | Teams использует политики именования для групп Microsoft 365, когда пользователи создают и редактируют имена групп. <br/><br/>По умолчанию при создании команды пользователем не применяются ограничения на именование. <br/><br/>Если необходимо принудительно задать правила для названий групп, настройте политики именования Microsoft 365, применяемые к вашей организации. Вы можете задать обязательные префиксы и суффиксы и указать блокируемые слова. | | [Планирование групп Microsoft 365 при создании групп в Microsoft Teams](plan-office-365-groups.md) <br/><br/>[Политика именования групп Microsoft 365](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | Настройка Exchange для домена SMTP Teams | Teams использует Exchange Online для отправки уведомлений участникам команды с помощью домена SMTP — email.teams.microsoft.com — после того, как они были добавлены или удалены. <br/><br/>Не забудьте добавить этот домен SMTP в список приемлемых доменов в инфраструктуре Exchange. | | [Добавление домена SMTP Microsoft Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md) |
 | No8  | Настройка доступа пользователей к Teams и управление им | Несмотря на то что мы настоятельно рекомендуем включить всех пользователей для Teams, вы можете разрешить или запретить доступ к командам для каждого пользователя, назначая или удаляя лицензию на продукт Teams. | | [Управление доступом пользователей к Microsoft Teams](user-access.md) |
-| @  | Назначение лицензий пользователям | Назначение лицензий пользователям таких функций, как голосовая конференция, телефонная система и планы звонков | | [Назначение лицензий Skype для бизнеса и Microsoft Teams](assign-teams-licenses.md)|
+| @  | Назначение лицензий пользователям | Назначение лицензий пользователям таких функций, как голосовая конференция, телефонная система и планы звонков | | [Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 5-10 | Необязательно: использование PowerShell для управления группами | Вы можете использовать командлеты PowerShell, а не центр администрирования Microsoft 365 для управления параметрами групп. | | [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

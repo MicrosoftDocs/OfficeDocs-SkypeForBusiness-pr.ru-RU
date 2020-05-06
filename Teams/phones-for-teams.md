@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: В этой статье описывается список телефонов, сертифицированных для Microsoft Teams, и функции, поддерживаемые на телефонах, сертифицированных для Microsoft Teams.
-ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 5f8eaa1e4acd9563f31ed39e365c7699dbbaec04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951284"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042926"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
@@ -142,7 +142,7 @@ Microsoft Teams поддерживает портфель стационарны
 
 ## <a name="required-licenses"></a>Требуемые лицензии
 
-Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 и Office 365](Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
+Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 и Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
 
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 

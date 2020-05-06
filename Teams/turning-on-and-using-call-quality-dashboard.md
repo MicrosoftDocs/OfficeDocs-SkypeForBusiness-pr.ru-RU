@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Сведения о том, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков.
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918843"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047370"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -482,6 +482,8 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
  
 Эта возможность не вызывает проблем, но может помочь вам лучше понять, как искать и проинформировать ваши решения. Обновляются ли в сети, устройства, драйверы или микропрограммы, использование или пользователь?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Почему я вижу 0,2% разницы в звонках и значения количества пользователей в мерах и как получить самые точные тома? 
+Чтобы вычислить количество вызовов и меры числа пользователей, можно выполнить различные действия с использованием функции СЧЁТЕСЛИ для вызова или идентификаторов пользователей в наборе данных. В больших наборах данных обнаружена ошибка 0,2% inherient с opeartionом СЧЁТЕСЛИ. Для наиболее точной громкости следует полагаться на меры количества потоков, так как они не полагаются на эту операцию СЧЁТЕСЛИ. Фильтрация для уменьшения объема данных может привести к снижению ее размера, но может не elimnate этот источник ошибки в индивидуальных звонках и счетчиках пользователей. В этой статье описаны [измерения и измерения, доступные в панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md) , для которых влияют меры.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Почему данные отчета CQD v2 выглядят иначе, чем данные отчета CQD v3? 
 
@@ -530,7 +532,7 @@ CQD v2 и CQD v3 имеют разные общие показатели, так
 
 При фильтрации для Teams только в CQD отчетах ("a-Teams = 1), вы можете фильтровать все звонки, в которых *Первая конечная точка* — Teams. Если *Вторая конечная точка* — Skype для бизнеса, эта информация будет отображаться в отчете CQD.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

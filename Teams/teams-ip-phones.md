@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951214"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041837"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -73,7 +73,7 @@ ms.locfileid: "43951214"
 
 Чтобы определить версию встроенного по устройства на мобильном устройстве, ознакомьтесь со сведениями [о том, как найти версию микропрограммы на мобильном](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) устройстве.
 
-Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 или Office 365](/MicrosoftTeams/Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
+Лицензии Microsoft Teams можно приобрести в составе [подписок microsoft 365 или Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
 
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 

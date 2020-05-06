@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902434"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041866"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Включение Teams в организации
 
@@ -39,7 +39,7 @@ ms.locfileid: "43902434"
 
 
  
-Дополнительные сведения об управлении отдельными лицензиями см. в разделе [Лицензирование Office 365 для Microsoft Teams](Office-365-licensing.md). 
+Дополнительные сведения об управлении отдельными лицензиями читайте в [описании службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Включение или отключение Microsoft Teams для всей организации 

@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510788"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042846"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510788"
 
 Если автосекретарь или очередь вызовов вложены в автосекретарь верхнего уровня, соответствующей учетной записи ресурса необходим только номер телефона, если требуется несколько точек входа в структуру автосекретарей и очередей звонков.
 
-Для перенаправления вызовов пользователям в вашей организации, размещенной в сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков по Office 365. В разделе [Назначение лицензий Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Чтобы включить их для корпоративной голосовой связи, вы можете использовать Windows PowerShell. Например, выполните следующие действия:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Для перенаправления вызовов пользователям в вашей организации, размещенной в сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков по Office 365. [В разделе Назначение лицензий на надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Чтобы включить их для корпоративной голосовой связи, вы можете использовать Windows PowerShell. Например, выполните следующие действия:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Если автосекретарь телефонной системы или очередь звонков, которые вы создаете, будут вложены и не требуют номера телефона, процесс будет следующим:
 
@@ -84,7 +84,7 @@ ms.locfileid: "43510788"
 
     Для получения дополнительных сведений о данной команде, ознакомьтесь со статьей [Start – адсинксинкцикле](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
-5. Назначьте для учетной записи ресурса лицензию на виртуальную машину или телефонную систему пользователя. В разделе [Назначение лицензий Microsoft Teams](/MicrosoftTeams/assign-teams-licenses) и [Назначение лицензий одному пользователю](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Назначьте для учетной записи ресурса лицензию на виртуальную машину или телефонную систему пользователя. В разделе Назначение лицензий на [надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) и [Назначение лицензий одному пользователю](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
    Если вы назначаете номер телефона учетной записи ресурса, вы можете использовать лицензию на виртуальную систему пользователей без учета затрат. Это обеспечивает возможности телефонной системы для телефонных номеров на уровне Организации, а также позволяет создавать автосекретарь и возможности очереди звонков.
 

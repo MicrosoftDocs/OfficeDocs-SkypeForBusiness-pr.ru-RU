@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Воспользуйтесь этим руководством, чтобы помочь удаленным сотрудникам государственной организации эффективно трудиться с помощью Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079391"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042386"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Поддержка удаленных государственных служащих с помощью Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "43079391"
 
   - Убедитесь, что у всех есть доступ к Teams, используя бесплатное 6-месячное **[предложение Office 365 G1](../g1-trial-license.md)**. Если требуется помощь, обратитесь в службу поддержки учетных записей Майкрософт или к партнеру по учетным записям Майкрософт.
 
-  - Если у вас уже есть подписка, убедитесь, что **[приложение Teams включено](../assign-teams-licenses.md)** для всех пользователей.
+  - Если у вас уже есть подписка, убедитесь, что **[приложение Teams включено](../user-access.md)** для всех пользователей.
 
   - Для быстрого развертывания Teams в вашей организации посетите [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath).
 

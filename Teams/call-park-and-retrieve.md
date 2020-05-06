@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Узнайте о том, как использовать функцию парковки и извлечь, чтобы позвонить на удержание в службе Teams в облаке.
-ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905041"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042966"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "43905041"
 
 ## <a name="license-required"></a>Требуется лицензия
 
-Чтобы приостановить и получить звонки, пользователь должен быть вашим корпоративным голосом, а администратор должен предоставить пользователю политику парковки для приема звонков. Дополнительные сведения о модели лицензирования можно найти в разделе [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md).
+Чтобы приостановить и получить звонки, пользователь должен быть вашим корпоративным голосом, а администратор должен предоставить пользователю политику парковки для приема звонков. Дополнительные сведения о модели лицензирования можно найти в [описании службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>Приостановка звонков и получение сведений о доступности компонентов
 
