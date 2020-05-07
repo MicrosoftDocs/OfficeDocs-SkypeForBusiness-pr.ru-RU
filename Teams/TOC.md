@@ -624,14 +624,14 @@
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Начало работы с удаленным обучением](remote-learning-edu.md)
+### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
 ### [Назначение политик для крупных наборов пользователей](batch-policy-assignment-edu.md)
-### [Лицензирование Teams для образовательных учреждений](teams-edu-licensing.md)
 ### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
-### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 ### [Установка интеграции Moodle](install-moodle-integration.md)
+### [Лицензирование Teams для образовательных учреждений](teams-edu-licensing.md)
 ### [Справочник по SKU для образовательных учреждений](sku-reference-edu.md)
 
 ## Teams для сотрудников без компьютеров
@@ -734,16 +734,8 @@
 
 ## Лицензирование
 ### [Управление доступом пользователей к Teams](user-access.md)
-### [Лицензирование Microsoft 365 и Office 365 для Microsoft Teams](office-365-licensing.md)
-### [Назначение лицензий Teams](assign-teams-licenses.md)
-### [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### Параметры лицензии с учетом плана
-##### [Microsoft 365 бизнес стандарт](teams-add-on-licensing/office-365-business-premium.md)
-##### [Приложения Microsoft 365 для предприятий](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 корпоративный E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Варианты лицензий для дополнительных Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [Назначать дополнительные лицензии для Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Управление предложением пробной версии Office 365 E1](e1-trial-license.md)
 ### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
@@ -751,7 +743,7 @@
 ### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Перевод бесплатной версии Teams на версию по подписке](upgrade-freemium.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
-### [Лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 Phone System - лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
 
 
 ## Взаимодействие с Microsoft 365 и Office 365
