@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047768"
+ms.locfileid: "44064424"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -131,7 +131,9 @@ ms.locfileid: "44047768"
 |------------|---------------|
 |Размер аудитории | 10 000 участников |
 |Длительность мероприятия | 4 часа |
-|Параллельные трансляции в организации, использующей Office 365 | 15 |
+|Проведение параллельных трансляций в организации, использующей Office 365 <sup>1</sup> | 15 |
+
+<sup>1</sup> Вы можете запланировать любое количество трансляций, но одновременно проводить можно только 15 трансляций. Сразу после присоединения организатора к трансляции она считается запущенной. Организатор, пытающийся присоединить шестнадцатую трансляцию, получит сообщение об ошибке.
 
 Дополнительные сведения о трансляциях и сравнении трансляций Teams с трансляциями собраний Skype см. в разделе [Трансляции Teams и трансляции собраний Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
