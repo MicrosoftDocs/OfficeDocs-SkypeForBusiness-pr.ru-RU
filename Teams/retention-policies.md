@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940776"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042446"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Политики хранения в Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "43940776"
 
 Если данные регулируются политикой хранения, пользователи могут продолжать работать с ними, так как данные хранятся в исходном расположении. Если пользователь редактирует или удаляет данные, регулируемые политикой хранения, копия сохраняется в безопасном расположении до момента окончания действия политики сохранения.
 
-Минимальным требованием к лицензии для политик хранения является Office 365 E3. Дополнительные сведения о лицензировании см. в статье [Лицензирование Office 365 для Teams](Office-365-licensing.md).
+Минимальным требованием к лицензии для политик хранения является Office 365 E3. Дополнительные сведения о лицензировании можно найти в [описании службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-work"></a>Как работают политики хранения Teams
 

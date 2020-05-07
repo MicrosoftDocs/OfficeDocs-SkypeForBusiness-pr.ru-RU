@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f8735cc328f06fd612fb86e292bc4291b99e21f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904534"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042796"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -139,7 +139,7 @@ ms.locfileid: "43904534"
 
 3. Назначьте приобретенную лицензию.
 
-Дополнительные сведения см. в статье [Лицензирование Office 365 для Microsoft Teams](Office-365-licensing.md).
+Для получения дополнительной информации см. [Описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Если срок пробного предложения закончился, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляется. Пользователь по-прежнему существует в Azure Active Directory, и все данные в Teams сохраняются. После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать. 

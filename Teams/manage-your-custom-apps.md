@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: В этой статье рассказывается о том, как создавать приложения, созданные в приложении Teams, в среде развертывания.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006062"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064534"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Управление пользовательскими приложениями в Microsoft Teams
 
@@ -132,14 +132,18 @@ ms.locfileid: "44006062"
 В большинстве случаев после завершения обновления для конечных пользователей будет автоматически отображаться новая версия приложения. Тем не менее, в <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Манифест Microsoft Teams</a> , для которого требуется принять пользователя, существуют некоторые обновления.
 
 * Добавление или удаление Bot
-* изменилось свойство "botId" существующей ленты.
-* изменилось свойство "isNotificationOnly" существующей ленты.
-* изменилось свойство "supportsFiles" на Bot
+* Изменилось свойство "botId" существующей ленты.
+* Изменилось свойство "isNotificationOnly" существующей ленты.
+* Изменилось свойство "supportsFiles" на Bot
 * Добавлено или удалено расширение сообщения
 * Добавлена Новая соединительная линия
 * Добавлена новая статическая вкладка
 * Добавлена новая настраиваемая вкладка
-* изменились свойства в "webApplicationInfo"
+* Изменились свойства в "webApplicationInfo"
+
+![Снимок экрана: список приложений, в котором показаны приложения, для которых доступна новая версия](media/manage-your-custom-apps-update1.png)
+
+![Снимок экрана: параметр обновления для приложения](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>Связанные приложения
 

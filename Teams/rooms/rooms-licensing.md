@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Сведения о доступных лицензиях для разных типов функций для звонков и собраний в комнатах Microsoft Teams.
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905391"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064494"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения для лицензирования для общих Коммуникационнох устройств
 
-Корпорация Майкрософт выделила SKU для собраний и звонков на отдельных устройствах для устройств с комнатой (например, комнат Microsoft Teams, Microsoft Surface HUB и collaboartionных панелей для Microsoft Teams).
+Корпорация Майкрософт выделила SKU для собраний и звонков по каждому устройству для устройств с Конференц-зал (например, комнат Microsoft Teams, Microsoft Surface HUB и панели совместной работы для Microsoft Teams).
 
 ||SKU комнаты для собраний |  
 |:--- |:---: |

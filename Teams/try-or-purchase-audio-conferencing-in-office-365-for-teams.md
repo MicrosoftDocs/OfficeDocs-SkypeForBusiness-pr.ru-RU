@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780168"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041776"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 для Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "43780168"
 
 3. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) , которые вы приобрели для пользователей в вашей организации, которые планируется планировать или руководить собраниями.
 
-4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Инструкции можно найти в разделе [Назначение лицензий Microsoft Teams](assign-teams-licenses.md).
+4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Инструкции можно найти [в разделе Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Для приобретения и назначения лицензий на аудиоконференции с поминутной оплатой:
 
@@ -96,7 +96,7 @@ ms.locfileid: "43780168"
 > [!NOTE]
 > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Включение команд в Организации](office-365-set-up.md)
 

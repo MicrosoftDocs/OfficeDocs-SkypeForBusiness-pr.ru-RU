@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978491"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042396"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -59,7 +59,7 @@ ms.locfileid: "42978491"
 
 ## <a name="manage-the-e1-trial"></a>Управление пробной версией E1
 
-После активации пробной версии Office 365 E1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+После активации пробной версии Office 365 E1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье [Управление доступом пользователей к Teams](user-access.md).
 
 
 После включения пробной версии E1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье [Управление параметрами Teams в организации](enable-features-office-365.md).
@@ -76,7 +76,7 @@ ms.locfileid: "42978491"
 
 3. Назначьте приобретенную лицензию.
 
-Дополнительные сведения см. в статье [Лицензирование Office 365 для Microsoft Teams](Office-365-licensing.md).
+Для получения дополнительной информации см. [Описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Если срок лицензии на пробную версию E1 закончился, а пользователь сразу не обновился до подписки, включающей Teams, пользовательские данные не удаляется. Пользователь по-прежнему существует в Azure Active Directory, и все данные в Teams сохраняются. После назначения новой лицензии пользователю, чтобы повторно включить функции Teams, содержимое продолжит существовать. 
@@ -90,7 +90,7 @@ ms.locfileid: "42978491"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Управление доступом пользователей к Teams](user-access.md)
 
 [Управление параметрами Teams в организации](enable-features-office-365.md)
 

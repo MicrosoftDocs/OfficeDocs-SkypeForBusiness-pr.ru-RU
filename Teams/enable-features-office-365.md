@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: d39ec3f7bb6a5454c25acf859e335993ed275a71
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898104"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042506"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -75,7 +75,7 @@ ms.locfileid: "43898104"
 
 Здесь вы можете включать и отключать параметры обмена файлами и облачного файлового хранилища.
 
-Пользователи могут загружать и отправлять друг другу файлы из облачных служб хранения в каналах и чатах Teams. В качестве облачного хранилища Teams сейчас поддерживает Dropbox, Box, ShareFile, Google Диск и [Egnyte](https://www.egnyte.com). Установите переключатель напротив поставщиков услуг облачного хранения, которые нужно использовать в вашей организации.
+Пользователи могут загружать и обмениваться файлами из облачных сервисов хранения в каналах и чатах команд. Варианты облачного хранения в командах в настоящее время включают Dropbox, Box, ShareFile, Google Drive и Egnyte (скоро). Включите коммутатор для поставщиков облачных хранилищ, которые ваша организация хочет использовать.
 
 #### <a name="organization"></a>Организация
 

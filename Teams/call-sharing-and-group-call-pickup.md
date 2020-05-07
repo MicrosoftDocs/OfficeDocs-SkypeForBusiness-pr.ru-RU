@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Предоставление общего доступа к собранию и групповая связь позволяет пользователям предоставлять общий доступ к входящим звонкам с коллегами, чтобы можно было получать вызовы, когда пользователь недоступен.
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780788"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042956"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Общие звонки и ответ на групповые звонки в Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "43780788"
 
 ## <a name="license-required"></a>Требуется лицензия
 
-Для настройки и использования функции совместного использования звонков и группового звонка пользователи должны быть включены в корпоративную голосовую почту. Дополнительные сведения о модели лицензирования можно найти в разделе [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md).
+Для настройки и использования функции совместного использования звонков и группового звонка пользователи должны быть включены в корпоративную голосовую почту. Дополнительные сведения о модели лицензирования можно найти в [описании службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configure-group-call-pickup"></a>Настройка отправки группового звонка
 

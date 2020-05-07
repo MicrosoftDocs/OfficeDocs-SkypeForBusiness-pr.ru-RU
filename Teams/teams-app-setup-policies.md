@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749826"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064484"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -183,6 +183,10 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Могут ли пользователи изменять порядок приложений, закрепленных с помощью политики?
 
 Пользователи могут изменить порядок закрепленных приложений на настольных компьютерах Teams и мобильных клиентах, если включен параметр **Разрешить закрепление пользователей** . Пользователи не могут изменять порядок закрепленных приложений на веб-клиентах Teams.
+
+#### <a name="does-user-pinning-take-precedence"></a>Имеет ли приоритет закрепление пользователей?
+
+Если политика настройки приложения, назначенная пользователю, изменена на блокировать закрепление пользовательских приложений, Teams удаляет все приложения, закрепленные на панели приложения. Если после этого после изменения политики Разрешить закрепление приложения пользователя, пользователи должны повторно закрепить свои ранее закрепленные приложения.
 
 ### <a name="custom-teams-apps"></a>Приложения для настраиваемой группы
 

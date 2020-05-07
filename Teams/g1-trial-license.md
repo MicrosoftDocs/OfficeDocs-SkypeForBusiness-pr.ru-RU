@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858724"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042816"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Управление пробной версией Office 365 G1 для государственных учреждений США 
 ==============================
@@ -55,7 +55,7 @@ ms.locfileid: "42858724"
 
 ## <a name="manage-the-g1-trial"></a>Управление пробной версией G1
 
-После активации пробной версии Office 365 G1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье  [Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+После активации пробной версии Office 365 G1 включите лицензию для всех пользователей, которым она требуется. Сведения о том, как это сделать, см. в статье  [Управление доступом пользователей к Teams](user-access.md).
 
 После включения пробной версии G1 для пользователей, которым она требуется, вы сможете управлять ими так же, как управляете пользователями с платной лицензией. Дополнительные сведения см. в статье  [Управление параметрами Teams в организации](enable-features-office-365.md).
 
@@ -82,7 +82,6 @@ ms.locfileid: "42858724"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Управление доступом пользователей к Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Управление доступом пользователей к Teams](user-access.md)
 
 [Управление параметрами Teams в организации](enable-features-office-365.md)
-

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749576"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042216"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -124,12 +124,12 @@ ms.locfileid: "43749576"
 
 Если вам не удается установить надстройку "Собрание Teams" для Outlook, воспользуйтесь следующими инструкциями по устранению неполадок.
 
+- Пользователи Windows 7 должны установить [Обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) для надстройки "собрание Teams" для работы.
 - Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения [можно найти в разделе Переход с Skype для бизнеса в Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Убедитесь в том, что у пользователя есть политика для собрания Teams, разрешающая надстройку Outlook. Дополнительные сведения см. [в разделе Управление политиками собраний в Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Убедитесь, что на компьютере пользователя установлен классическое приложение Teams. Надстройка для собраний не будет установлена при использовании веб-клиента Teams.
-- Убедитесь, что у пользователя есть разрешение на выполнение regsvr32. exe.
+- Убедитесь, что у пользователя есть разрешение на выполнение regsvr32. exe.  Дополнительные сведенияhttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Убедитесь, что все доступные обновления для настольного клиента Outlook были применены.
-- Убедитесь, что имя учетной записи вошедшего пользователя не содержит пробелы. (Это известная проблема, которая будет устранена в одном из следующих обновлений.)
 - Выполните следующие действия.
   - Перезапустите классический клиент Teams.
   - Выйдите и повторно войдите в классический клиент Teams.

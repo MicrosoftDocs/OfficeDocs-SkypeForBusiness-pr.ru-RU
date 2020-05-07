@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Сведения о том, как отправлять пользователям сообщения электронной почты с помощью голосовой конференции в Microsoft Teams.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905551"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042586"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Функция Shared Line Appearance в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905551"
 
 Пользователь должен иметь телефонную систему с подключением КТСОП (либо лицензией на план звонков, либо прямую маршрутизацию OnlineVoiceRoutingPolicy), чтобы стать представителем или настроить делегирование и предоставить другим пользователям возможность совершать и принимать звонки от их имени.
 
-Оба руководителя и представителей должны иметь телефонную систему с подключением КТСОП (лицензия на план звонков или прямая маршрутизация OnlineVoiceRoutingPolicy). Совместная работа с другими линиями является частью делегирования и включена в телефонную систему. Дополнительные сведения о модели лицензирования можно найти в разделе [Лицензирование Office 365 для Microsoft Teams](office-365-licensing.md).
+Оба руководителя и представителей должны иметь телефонную систему с подключением КТСОП (лицензия на план звонков или прямая маршрутизация OnlineVoiceRoutingPolicy). Совместная работа с другими линиями является частью делегирования и включена в телефонную систему. Дополнительные сведения о модели лицензирования можно найти в [описании службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Настройка внешнего вида делегирования и общей линии
 

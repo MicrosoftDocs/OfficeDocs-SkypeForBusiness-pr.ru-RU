@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905861"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041876"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Начало работы с внедрением Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "43905861"
 
 Прежде чем приступить к работе, убедитесь в том, что:
 
-- [Установка Teams](get-clients.md) и [Назначение лицензий](office-365-licensing.md) для вашей среды. По крайней мере, лицензии должны быть назначены основной команде и более ранним пользователям, которые будут участвовать на начальном этапе проекта.
+- [Установка Teams](get-clients.md) и [Назначение лицензий](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) для вашей среды. По крайней мере, лицензии должны быть назначены основной команде и более ранним пользователям, которые будут участвовать на начальном этапе проекта.
 
 - Вы загрузили настольные и мобильные приложения. 
 

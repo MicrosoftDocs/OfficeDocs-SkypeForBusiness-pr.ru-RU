@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Египета.
-ms.openlocfilehash: c86167e8afb3e89c17e1b73e69c2cdf9dcf80462
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: d591e217320e7c83af7b196cf7a74126a027cbb8
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853544"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047832"
 ---
 # <a name="availability-in-egypt"></a>Доступность в Египте
 
@@ -70,7 +70,7 @@ ms.locfileid: "41853544"
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
 |Доступны ли платные номера?  <br/> |Нет  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Доступны ли бесплатные номера?  <br/> |Нет <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

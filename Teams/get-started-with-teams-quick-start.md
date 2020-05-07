@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136779"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042806"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Начало работы с Microsoft Teams
 
@@ -55,7 +55,7 @@ Teams позволяет быстро создавать команды с лю�
 - [Подготовка сети организации к использованию Teams](prepare-network.md)
     - Это включает в себя настройку домена Office 365, SharePoint Online, Exchange Online и OneDrive для бизнеса.
 
-- Получите лицензии Teams для всех. Ознакомьтесь с [планами Teams](https://products.office.com/microsoft-teams/free) и [лицензированием Office 365 для Teams](office-365-licensing.md). 
+- Получите лицензии Teams для всех. Ознакомьтесь с [планами Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) и [описанием услуг Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 - [Знакомство с преимуществами установки классических, веб- и мобильных клиентов](get-clients.md)
 
@@ -65,7 +65,7 @@ Teams позволяет быстро создавать команды с лю�
    - [Планирование гибридного подключения между приложением Skype для бизнеса Server и Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> Если в вашей организации используется локальный Skype для бизнеса Server (или Lync Server), необходимо [настроить Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) для синхронизации локального каталога с Office 365. 
+   > Если в вашей организации используется локальный Skype для бизнеса Server (или Lync Server), необходимо [настроить Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) для синхронизации локального каталога с Office 365. 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия
