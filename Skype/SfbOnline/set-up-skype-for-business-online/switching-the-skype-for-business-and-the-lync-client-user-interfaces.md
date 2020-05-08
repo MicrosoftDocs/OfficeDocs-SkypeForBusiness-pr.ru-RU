@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Сведения о том, как переключаться между пользовательским интерфейсом Skype для бизнеса и клиентом Lync с помощью PowerShell в Microsoft 365 или Office 365 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706454"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164308"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
-Для организаций, использующих Skype для бизнеса Online, вы можете использовать удаленную оболочку PowerShell в Office 365, чтобы пользователи Skype для бизнеса могли использовать клиент Skype для бизнеса или пользовательский интерфейс клиента Skype для бизнеса (Lync). Параметр по умолчанию предназначен для пользователей, которые используют пользовательский интерфейс клиента Skype для бизнеса. Если вы предпочитаете использовать клиент Lync, вы можете управлять поведением первого запуска клиента, чтобы отобразить пользовательский интерфейс Lync, выполнив действия, описанные ниже в этой статье.
+Для организаций, использующих Skype для бизнеса Online, вы можете использовать удаленную оболочку PowerShell в Microsoft 365 или Office 365, чтобы пользователи Skype для бизнеса могли использовать клиент Skype для бизнеса или пользовательский интерфейс клиента Skype для бизнеса (Lync). Параметр по умолчанию предназначен для пользователей, которые используют пользовательский интерфейс клиента Skype для бизнеса. Если вы предпочитаете использовать клиент Lync, вы можете управлять поведением первого запуска клиента, чтобы отобразить пользовательский интерфейс Lync, выполнив действия, описанные ниже в этой статье.
   
 > [!NOTE]
 > Интерфейс клиента Lync 2013 недоступен для версий Skype для бизнеса 2016. Перед настройкой клиентской среды на использование клиента Lync 2013 убедитесь, что версия клиента не начинается с цифр "16" (например: 16.x.x.x). 
@@ -59,7 +59,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Если политика настроена правильно, появится следующая запись:
   
-![PowerShell: Скипеуиенаблед](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 Чтобы включить клиент Skype для бизнеса (Lync) для всех пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду: 
   
@@ -69,7 +69,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Если политика настроена правильно, появится следующая запись:
   
-![PowerShell: Скипеуидисаблед](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 Чтобы включить клиент Skype для бизнеса для одного пользователя в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
   
-- [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Зачем использовать Microsoft 365 или Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
@@ -189,13 +189,13 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     [\\HKEY_CURRENT_USERное\\программное обеспечение Microsoft\\Office\\Lync]
     
-    "Каншарепптинколлаб" = DWORD: 00000001
+    "CanSharePptInCollab" = DWORD: 00000001
     
-    "Каншареоненотеинколлаб" = DWORD: 00000001
+    "CanShareOneNoteInCollab" = DWORD: 00000001
     
-    "Канаппшареинколлаб" = DWORD: 00000001
+    "CanAppShareInCollab" = DWORD: 00000001
     
-    "Енаблескипеуи" = Hex: 00, 00, 00, 00
+    "EnableSkypeUI" = Hex: 00, 00, 00, 00
     
 Теперь интерфейс Lync будет отображаться при первом запуске клиента Skype для бизнеса пользователями.
   

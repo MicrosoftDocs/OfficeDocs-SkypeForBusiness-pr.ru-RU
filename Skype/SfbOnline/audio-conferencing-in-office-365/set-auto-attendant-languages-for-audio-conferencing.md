@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Узнайте, как установить языки автоматического секретаря аудиоконференции для номера аудиоконференции в Skype для бизнеса Online.
-ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776804"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163910"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Установка языков автоматического секретаря аудиоконференции в Skype для бизнеса Online
 
@@ -64,7 +64,7 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 - Языки можно задать для персональных телефонных номеров, телефонных номеров совместного пользования.
     
-- Список стран и регионов, в которых доступна аудиоконференция в Office 365 с помощью Microsoft в качестве поставщика, см. в статье [Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing.md).
+- Чтобы просмотреть список стран и регионов, в которых в качестве поставщика услуг голосовой связи в Microsoft 365 или Office 365 используется Microsoft, ознакомьтесь с [номерами телефонов для проведения голосовой](phone-numbers-for-audio-conferencing.md)связи.
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
@@ -72,6 +72,6 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 Дополнительные сведения можно найти в статье [Использование Windows PowerShell для выполнения стандартных задач управления в Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

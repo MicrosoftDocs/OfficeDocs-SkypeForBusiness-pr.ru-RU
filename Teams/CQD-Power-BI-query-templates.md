@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Проанализируйте данные CQD в Microsoft Teams с помощью Power BI.
-ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918678"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158966"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Анализ данных CQD в Microsoft Teams с помощью Power BI
 
@@ -31,6 +31,7 @@ ms.locfileid: "43918678"
 
 Прежде чем вы сможете использовать эти файлы PBIT-, вам потребуется [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
+Убедитесь в том, что у вас есть права [доступа CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) для доступа к отчетам Power BI. 
 
 |  |  |
 |---------|---------|
@@ -46,7 +47,7 @@ ms.locfileid: "43918678"
 > После того как вы настроили отчеты Power BI для CQD данных, добавьте их в канал как вкладку. После выбора **+** канала выберите **Power BI** , а затем найдите нужный отчет. Для получения дополнительных сведений прочитайте [отчет о внедрении с вкладкой Power BI для Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Помните, что эти отчеты могут получать только пользователи с лицензией Power BI и CQD учетными данными администратора.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905781"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158996"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -38,7 +38,45 @@ ms.locfileid: "43905781"
 - Конфигурации шлюзов
 - Политики звонков
 
-## <a name="enable-location-based-routing-for-users"></a>Включение маршрутизации на основе местоположения для пользователей
+Вы можете использовать [центр администрирования Microsoft Teams](#using-the-microsoft-teams-admin-center) или [PowerShel](#using-powershell)l для включения маршрутизации на основе местоположения.
+
+## <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
+
+### <a name="enable-location-based-routing-for-users"></a>Включение маршрутизации на основе местоположения для пользователей
+
+1. Создайте политику маршрутизации голосовой связи и назначьте ей использование PSTN. После назначения политике использования PSTN убедитесь в том, что вы выполняете одно из указанных ниже действий.
+
+    - Использование PSTN, связанных с голосовыми маршрутами, которые используют локальный шлюз PSTN для сайта.
+    - Используйте PSTN, связанные с голосовыми маршрутами, которые используют шлюз PSTN, находящийся в регионе, где не требуются ограничения на маршрутизацию на основе местоположения.
+2. Назначьте политику маршрутизации голосовых сообщений пользователям, которым требуется применить ограничения маршрутизации.
+
+Чтобы узнать больше о том, как создавать политики голосовой маршрутизации и назначать их пользователям, ознакомьтесь со статьей [Управление политиками голосовой маршрутизации в Microsoft Teams](manage-voice-routing-policies.md).
+
+### <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе местоположения для сетевых сайтов
+
+Включите маршрутизацию на основе местоположения для сайтов, для которых необходимо применить ограничения маршрутизации. Для этого на левой панели навигации в центре администрирования Microsoft Teams перейдите в раздел **Расположение** > **топологии сети**, выберите сайт сети, нажмите кнопку **изменить**, а затем включите **маршрутизацию на основе расположения**.  
+
+Дополнительные сведения можно найти в разделе [Управление топологией сети](manage-your-network-topology.md).
+
+### <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе местоположения для шлюзов
+
+Включите возможность маршрутизации на основе местоположения для шлюзов, которые направляют звонки на шлюзы PSTN, которые направляют звонки в КТСОП и связывают сетевой сайт, на котором расположен шлюз. 
+
+1. На панели навигации слева перейдите к**перенаправлению** **голосовой почты** > , а затем откройте вкладку **SBCs** .
+2. Выделите SBC и нажмите кнопку **изменить**. 
+3. В разделе **Оптимизация маршрутизации и мультимедиа с учетом расположения**включите **параметр включить маршрутизацию на основе местоположения**.
+4. Укажите идентификатор сайта шлюза, а затем настройте режим пропуска.
+5. Нажмите кнопку **Сохранить**.
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>Включение маршрутизации на основе местоположения для политик звонков
+
+Чтобы обеспечить возможность маршрутизации на основе местоположения для конкретных пользователей, настройте политику звонков пользователя, чтобы отключить платный звонок. Для этого включите параметр **запретить платный звонок** в политике звонков.
+
+Дополнительные сведения можно найти [в разделе политики вызова в Teams](teams-calling-policy.md).
+
+## <a name="using-powershell"></a>Использование PowerShell
+
+### <a name="enable-location-based-routing-for-users"></a>Включение маршрутизации на основе местоположения для пользователей
 
 1. Используйте командлет [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) , чтобы настроить использование КТСОП. Для нескольких использований Разделяйте каждое использование запятыми.
 
@@ -76,7 +114,8 @@ ms.locfileid: "43905781"
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе местоположения для сетевых сайтов
+### <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе местоположения для сетевых сайтов
+
 1.  Используйте командлет [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) , чтобы включить маршрутизацию на основе местоположения и связать политики голосовой маршрутизации с сетевыми сайтами, которые должны применять ограничения маршрутизации.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ ms.locfileid: "43905781"
     |EnableLocationBasedRouting    |Верно    |Верно    |
     |Подсети     |Подсеть 1 (Delhi)     |Подсеть 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе местоположения для шлюзов
+### <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе местоположения для шлюзов
+
 1. Используйте командлет [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) для создания конфигурации шлюза для каждого шлюза или сайта сети. 
 
     ```PowerShell
@@ -148,7 +188,7 @@ ms.locfileid: "43905781"
     |PstnGateway: Gateway 3 Delete-УАТС    |    False     |     Сайт 1 (Delhi)    |
     |PstnGateway: шлюз 4 HYD-УАТС    |    False     |    Сайт 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>Включение маршрутизации на основе местоположения для политик звонков
+### <a name="enable-location-based-routing-for-calling-policies"></a>Включение маршрутизации на основе местоположения для политик звонков
 
 Чтобы обеспечить возможность маршрутизации на основе местоположения для конкретных пользователей, настройте политику голосовой связи пользователей, чтобы предотвратить ОКТС платный звонок. 
 
@@ -163,6 +203,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

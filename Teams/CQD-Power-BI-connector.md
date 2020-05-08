@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка соединителя Power BI для использования шаблонов запросов CQD
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042596"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158986"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка соединителя Power BI для использования шаблонов запросов CQD
 
@@ -28,6 +28,7 @@ ms.locfileid: "44042596"
 
 Читайте в статье [Power BI, чтобы проанализировать CQD данные для Teams](CQD-Power-BI-query-templates.md) , чтобы узнать об этих шаблонах.
 
+Убедитесь в том, что у вас есть права [доступа CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) для доступа к отчетам Power BI. 
 
 ## <a name="installation"></a>Установка
 

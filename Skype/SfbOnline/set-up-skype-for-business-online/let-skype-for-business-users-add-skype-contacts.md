@@ -20,22 +20,22 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как разрешить людям, которые пользуются Skype для бизнеса, общаться с пользователями Skype для бизнеса за пределами Организации и добавлять их в список контактов. '
-ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010812"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164478"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Разрешение на добавление контактов Skype пользователям Skype для бизнеса
 
 С помощью Skype для бизнеса ваши пользователи могут выполнять поиск и обмен мгновенными сообщениями со всеми пользователями Skype — бесплатным приложением! В этой статье объясняется, что нужно сделать, чтобы они могли добавить контакты Skype. 
   
-Для этого необходимы [разрешения администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) в Office 365.
+Для этого необходимы [разрешения администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) в Microsoft 365 или Office 365.
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
   
-1. Войдите в систему с помощью учетной записи администратора [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)Office 365 по адресу.
+1. Войдите в систему с помощью учетной записи администратора Microsoft 365 или [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)Office 365 по адресу.
     
 2. В центре администрирования перейдите в раздел >  **"центры администрирования"****Skype для бизнеса**. 
     

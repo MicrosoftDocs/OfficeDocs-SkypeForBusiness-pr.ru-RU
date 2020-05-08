@@ -20,19 +20,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Этот краткий обзор Организации и параметров пользователя в Skype для бизнеса поможет вам узнать больше об общедоступной службе обмена мгновенными сообщениями, приглашениях на собрания, записи звонков и собраниях и многое другое.  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706464"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164128"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
 **Центр администрирования Skype для бизнеса** включает параметры для всей Организации и для отдельных пользователей. 
   
 > [!NOTE]
->  В зависимости от вашего местоположения вы можете не получить доступ ко всем функциям Skype для бизнеса Online. Дополнительные сведения можно найти в разделе [ограничения лицензии для Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  В зависимости от вашего местоположения вы можете не получить доступ ко всем функциям Skype для бизнеса Online. Дополнительные сведения можно найти в разделе [ограничения лицензии для Microsoft 365 и Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Параметры организации Skype для бизнеса online
 <a name="__top"> </a>

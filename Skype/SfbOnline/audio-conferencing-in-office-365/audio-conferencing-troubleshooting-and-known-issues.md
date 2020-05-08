@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Список известных проблем, возникающих при использовании Microsoft в качестве поставщика конференц-связи с телефонным подключением, состоянием и некоторыми обходными решениями. '
-ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fba5bfff687121c7b1b64c0e51233ccb576497e2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695774"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164528"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Известные проблемы аудиоконференций и устранение неполадок
 
@@ -34,7 +34,7 @@ ms.locfileid: "41695774"
   
 ## <a name="troubleshooting-and-known-issues"></a>Известные проблемы и устранение неполадок
 
-Аудиоконференция с использованием Майкрософт как поставщика услуг аудиоконференций имеет ряд текущих проблем, которые отслеживаются, исследуются и будут устранены при обновлении этой функции в будущих сборках Office 365.
+Для голосовой конференции, использующей Microsoft в качестве поставщика видеоконференций, есть проблемы, которые отслеживаются и активно изучены и могут быть устранены при обновлении компонента в будущих выпусках Microsoft 365.
   
 В настоящее время эта функция используется в качестве справочных данных при устранении потенциальных проблем, связанных с настройкой и обработкой голосовой связи для людей, использующих Skype для бизнеса в Организации.
 
@@ -48,4 +48,4 @@ ms.locfileid: "41695774"
    
 ## <a name="related-topics"></a>См. также
 
-[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

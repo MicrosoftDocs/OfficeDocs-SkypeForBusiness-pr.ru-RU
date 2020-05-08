@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982824"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164288"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Исходящие звонки из собрания Skype для бизнеса, чтобы другие люди могли присоединиться к ней
 
@@ -39,7 +39,7 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
     
 - Для организатора собрания включена возможность голосовой конференции.
 
-Чтобы добавить других участников к собраниям вашей организации, по крайней мере один пользователь, прошедший проверку подлинности из той же организации, что и организатор (ваша организация), должен быть указан в собрании, чтобы разрешить добавление других участников. с помощью удаленного доступа. 
+Чтобы добавить других участников к собраниям своей организации, по крайней мере один пользователь, прошедший проверку подлинности из той же организации, что и организатор (ваша организация), должен быть указан в собрании, чтобы разрешить добавление других участников с помощью удаленного доступа. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ Dial-out is only available to some countries/regions. Полный список 
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о голосовой конференции?
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Лицензирование надстройки Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

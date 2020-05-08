@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Сведения о том, как устранять проблемы, связанные с администраторами и пользователями Skype для бизнеса в Microsoft 365 и Office 365.
+ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777164"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164318"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Устранение проблем со Skype для бизнеса Online
 
@@ -75,9 +75,9 @@ ms.locfileid: "43777164"
 ## <a name="still-need-help-contact-support"></a>Есть дополнительные вопросы? Обратитесь за поддержкой.
 <a name="BK_SupportBridge_1"> </a>
 
-В качестве администратора Office 365 для бизнеса вы получаете бесплатный доступ к нашим специалистам по поддержке для получения информации о продажах, учетных записях и выставлении счетов, а также о том, как решить технические проблемы. Вы также можете [обратиться в службу поддержки](https://go.microsoft.com/fwlink/p/?LinkID=518322) от имени Microsoft 365 и Office 365 для пользователей вашей организации.
+Как администратор приложений Microsoft 365 для бизнеса, вы получаете бесплатный доступ к нашим специалистам по поддержке для получения информации о продажах, учетных записях и выставлении счетов, а также о том, как решить технические проблемы. Вы также можете [обратиться в службу поддержки](https://go.microsoft.com/fwlink/p/?LinkID=518322) от имени Microsoft 365 и Office 365 для пользователей вашей организации.
 
-- [Получите справку на форумах сообщества Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Получение справки с форумов сообщества Microsoft 365 и Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Администраторы: поддержка по телефону](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
@@ -88,5 +88,3 @@ ms.locfileid: "43777164"
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
-
-

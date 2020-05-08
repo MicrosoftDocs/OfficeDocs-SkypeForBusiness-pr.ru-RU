@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: Сводка. Администраторы Skype для бизнеса Server 2015 или Skype для бизнеса Online могут использовать эти таблицы, чтобы узнать, какие функции поддерживаются в клиентах.
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041956"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158926"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Сравнение функций клиента для настольных ПК в Skype для бизнеса Server 2015
 
@@ -165,7 +165,7 @@ ms.locfileid: "44041956"
 В этой таблице описываются функции, связанные с поддержкой служб голосовой связи.
   
 > [!NOTE]
-> Функции голосовой связи в Skype для бизнеса ограничены определенными планами подписки на Skype для бизнеса Online. > дополнительные сведения см. в [описании службы Skype для бизнеса Online](https://technet.microsoft.com/library/jj822172.aspx).
+> Функции голосовой связи в Skype для бизнеса ограничены определенными планами подписки на Skype для бизнеса Online. Дополнительные сведения см. в [описании службы Skype для бизнеса Online](https://technet.microsoft.com/library/jj822172.aspx).
   
 | Функция или возможность | Клиент Skype для бизнеса 2015 или 2016 | Skype для бизнеса на Mac | Клиент Lync 2013 | Приложение Lync для Магазина Windows | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator для Mac 2011 | Lync для Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ ms.locfileid: "44041956"
 |Маршрутизация на основе местоположения  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Управление группой ответа/группой звонков группы |&#x2714;||&#x2714;|||||||
 |Автоматический звонок на автосекретарь |&#x2714;||&#x2714;|||||||
- &#x2776; эта функция недоступна в Skype для бизнеса Online.
+
+&#x2776; эта функция недоступна в Skype для бизнеса Online.
   
 ## <a name="external-users-support"></a>Поддержка внешних пользователей
 
