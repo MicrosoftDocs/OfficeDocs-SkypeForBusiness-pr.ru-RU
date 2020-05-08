@@ -433,6 +433,7 @@
 #### [Пополнение средств и управление кредитами на связь](add-funds-and-manage-communications-credits.md)
 
 ### [Потоки звонков Microsoft Teams](microsoft-teams-online-call-flows.md)
+### [Управление политиками голосовой маршрутизации](manage-voice-routing-policies.md)
 
 ## Практические рекомендации для крупных организаций
 ### [Руководство. Звонки в Teams](Tutorial-calling-in-teams.yml)

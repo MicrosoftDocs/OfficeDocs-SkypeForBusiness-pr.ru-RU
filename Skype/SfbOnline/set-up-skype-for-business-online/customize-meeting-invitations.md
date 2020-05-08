@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Настройка приглашений на собрания Skype с помощью графических логотипов, справки и юридических URL-адресов и текста нижнего колонтитула. '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776234"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164338"
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
 
@@ -69,14 +69,14 @@ ms.locfileid: "43776234"
    
 5. Нажмите кнопку **Сохранить**.
     
-6. Дождитесь появления изменений во всех службах Office 365, а затем заполните их в течение часа. Затем откройте Outlook и запланируйте собрание Skype, чтобы увидеть, как будут выглядеть ваши изменения. 
+6. Дождитесь появления изменений во всех службах Microsoft 365 или Office 365, чтобы они были заполнены в течение часа. Затем откройте Outlook и запланируйте собрание Skype, чтобы увидеть, как будут выглядеть ваши изменения. 
     
     ![Вот как выглядит настраиваемое приглашение, без рисунка](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>См. также
 <a name="__top"> </a>
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

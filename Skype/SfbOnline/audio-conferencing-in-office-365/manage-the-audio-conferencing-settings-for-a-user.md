@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций Skype для бизнеса Online, такие как поставщик, номера платной или бесплатной линии по умолчанию, идентификатор конференции или PIN-код. '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'В качестве администратора Microsoft 365 или Office 365 вы можете изменить параметры конференц-связи в Skype для бизнеса Online (например, поставщик, номер по умолчанию или бесплатный, идентификатор конференции или PIN) для отдельного пользователя в Организации. '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777994"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164138"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Управлять пользовательскими параметрами аудиоконференций Skype для бизнеса Online
 
 > [!Note]
 > Для сведений по управлению пользовательскими параметрами в Microsoft Teams см. [Управлять пользовательскими параметрами аудиоконференций в Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+Как администратор Microsoft 365 или Office 365 вы можете изменять настройки голосовой связи, такие как поставщик, номер по умолчанию, платный или бесплатный, идентификатор конференции или ПИН-код для отдельного пользователя в Организации. Если вы хотите изменить параметры своей организации, ознакомьтесь со сведениями о том, как [управлять параметрами голосовой конференции для Организации](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Войдите в свою рабочую или учебную учетную запись.
@@ -63,7 +63,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Управление настройками аудиоконференции для организации](manage-the-audio-conferencing-settings-for-my-organization.md)
 

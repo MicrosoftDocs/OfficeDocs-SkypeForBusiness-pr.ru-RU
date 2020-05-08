@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692824"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164298"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Тестирование установки Skype для бизнеса Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "41692824"
 
 Вам потребуются:
 
-- как минимум три учетные записи Office 365 (ваша и хотя бы еще две);
+- По крайней мере три учетные записи Microsoft 365 или Office 365 (вы и не менее двух других).
 
 - компьютер для каждой тестовой учетной записи. Настройте компьютеры типичным для организации способом.
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692824"
 ## <a name="set-up-test-accounts"></a>Настройка тестовых учетных записей
 <a name="__toc328126910"> </a>
 
-1. Перейдите в раздел **Администрирование** > **пользователей и групп****Office 365** > , а затем нажмите кнопку](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) добавить![и введите необходимые сведения.
+1. Перейдите в раздел **Администратор** > **Microsoft 365** или **Office 365** > **Пользователи и группы**, а затем нажмите![кнопку](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) добавить и введите необходимые сведения.
 
 2. На шаге 4 (электронная почта) укажите собственный адрес электронной почты. Таким образом, у вас будет запись, состоящая из нового имени пользователя и пароля.
 
@@ -62,7 +62,7 @@ ms.locfileid: "41692824"
 
 На каждом тестовом компьютере выполните указанные ниже действия.
 
-1. Перейдите на домашнюю страницу Office 365 и выполните вход с учетными данными одной из тестовых учетных записей.
+1. Перейдите на домашнюю страницу Microsoft 365 или Office 365 и выполните вход с учетными данными одной из тестовых учетных записей.
 
 2. Откройте меню **Параметры**![Параметры: обновить профиль, установить программное обеспечение и подключить его к облаку](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) и щелкните **Установка программного обеспечения и его подключение к облаку**.
 
@@ -114,7 +114,7 @@ ms.locfileid: "41692824"
 |[Отправка мгновенного сообщения в Skype для бизнеса](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |В появившемся окне беседы Skype для бизнеса можно ввести сообщение и получить ответ от другого участника беседы.  <br/> |
 |[Отправка мгновенного сообщения в Skype для бизнеса](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Отображается окно беседы Skype для бизнеса, вы вводите сообщение и получаете ответ от других участников беседы.  <br/> |
 |[Поиск контакта по имени или фамилии](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |По мере ввода запроса отображаются результаты поиска.  <br/> |
-|[Часто задаваемые вопросы о Lync для Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Добавленный контакт появляется в выбранной группе контактов.  <br/> |
+|[Вопросы и ответы о Lync для Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Добавленный контакт появляется в выбранной группе контактов.  <br/> |
 |[Изменение состояния присутствия в Lync](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Ваше новое состояние присутствия отображается в списках контактов других пользователей.  <br/> |
 |[Использование карточки контакта](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |Возле имени контакта появится его карточка.  <br/> |
 

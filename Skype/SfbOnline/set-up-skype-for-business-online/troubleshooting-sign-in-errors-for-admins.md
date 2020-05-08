@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777154"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164328"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -128,7 +128,7 @@ ms.locfileid: "43777154"
 
   - **Значение/назначение**: sipdir.online.lync.com
 
-Дополнительные сведения см. в статье 2566790 базы знаний Майкрософт [Устранение проблем с настройкой DNS Skype для бизнеса Online в Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
+Дополнительные сведения см. В статье 2566790 базы знаний Майкрософт [Устранение неполадок, связанных с настройкой DNS Skype для бизнеса Online, в Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Установка SSL-сертификата от независимого поставщика на сервер ADFS
 <a name="verify-upn-and"> </a>

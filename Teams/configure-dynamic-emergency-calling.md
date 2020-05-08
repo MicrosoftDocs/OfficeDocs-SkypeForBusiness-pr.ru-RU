@@ -17,12 +17,12 @@ description: Сведения о том, как настроить планы з
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905891"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164558"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -135,7 +135,7 @@ ms.locfileid: "43905891"
 
 ## <a name="configure-location-information-service"></a>Настройка службы сведений о расположении
 
-Клиент Teams получает адреса для экстренного реагирования из местоположений, связанных с разными сетевыми идентификаторами. Поддерживаются как подсети, так и точки доступа к беспроводной сети (WAPs). (Ожидается поддержка коммутатора или порта Ethernet.)
+Клиент Teams получает адреса для экстренного реагирования из местоположений, связанных с разными сетевыми идентификаторами. Поддерживаются как подсети, так и точки доступа к беспроводной сети (WAPs). Если найдено несколько местоположений, WAP имеет приоритет перед подсетью. (Ожидается поддержка коммутатора или порта Ethernet.)
 
 Чтобы клиент получил расположение, необходимо заполнить службу сведений о расположении (LIS) с сетевыми идентификаторами и адресами экстренной помощи, используя следующие командлеты:  
 
@@ -203,7 +203,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ERSP для тестовых служб.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)
