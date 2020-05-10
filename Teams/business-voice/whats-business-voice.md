@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Обзор корпоративной голосовой связи Microsoft 365 и способ повышения эффективности общения в малых и средних организациях с ее помощью.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780798"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170680"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
@@ -32,15 +32,19 @@ ms.locfileid: "43780798"
 
 Корпоративная голосовая связь подходит вашей организации, если в ней работает не более 300 человек при наличии одной из следующих подписок на Microsoft 365:
 
-* Microsoft 365 бизнес базовый
-* Microsoft 365 бизнес стандарт
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 бизнес
+- Microsoft 365 бизнес базовый
+- Microsoft 365 бизнес стандарт
+- Microsoft 365 бизнес премиум
+- Приложения Майкрософт для бизнеса 
+- Приложения Майкрософт для предприятий
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft и Office 365 корпоративный E1, E3 или E5
+- Microsoft 365 и Office 365 для образования A1, A3 или A5
+- Microsoft 365 и Office 365 для государственных организаций G1, G3 или G5 (только GCC)
+- Microsoft 365 бизнес базовый для некоммерческих организаций
+- Microsoft 365 бизнес стандарт для некоммерческих организаций
+- Microsoft 365 и Office 365 для некоммерческих организаций E1, E3 или E5
 
 Business Voice доступен в более чем 70 странах и регионах. Возможность самостоятельной настройки Business Voice, передачи телефонных номеров в Microsoft 365 и управления своими телефонными номерами в Microsoft 365 зависит от страны или региона, в котором находится ваш клиент Microsoft 365. Для получения дополнительной информации проверьте [доступность страны и региона для Business Voice](country-region-availability.md).
 
