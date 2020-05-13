@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194982"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194982"
 
 _**Последнее изменение темы:** 2014-03-14_
 
-**Сводка:** в этих схемах представлены визуальные представления рекомендуемых решений для Lync 2013.
+**Сводка:**   Эти схемы предоставляют визуальные представления рекомендуемых решений для Lync 2013.
 
 Эти ресурсы доступны в формате Visio (. VSD) (Visio 2010 или Visio 2013) и формате PDF. Сведения о том, как печатать документы, можно найти в статье Советы по печати плакатов.
 
@@ -87,7 +87,7 @@ _**Последнее изменение темы:** 2014-03-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Должность</th>
+<th>Title</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -136,7 +136,7 @@ _**Последнее изменение темы:** 2014-03-14_
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Подробное увеличение афиши с помощью Zoom.it от Майкрософт</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF-версия</a> (оптимально для мобильных устройств и планшетных ПК)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Версия Visio</a> (для пользователей с Visio)</p></td>
-<td><p>На этом плакате описаны доступные варианты платформы для Lync 2013 для вариантах развертывания и архитекторов, которые могут выбрать из Lync Online с Office 365, гибридный Lync, Lync Server локальный и размещенный Lync. Плакат содержит подробные сведения о каждом варианте архитектуры, включая наиболее подходящие сценарии для каждого из них, требования к лицензированию и описание обязанностей ИТ-специалистов.</p>
+<td><p>На этом плакате описаны доступные варианты платформы для Lync 2013 для вариантах развертывания и архитекторов, которые могут выбрать из Lync Online с помощью Microsoft 365, гибридной среды Lync, Lync Server локального и размещенного Lync. Плакат содержит подробные сведения о каждом варианте архитектуры, включая наиболее подходящие сценарии для каждого из них, требования к лицензированию и описание обязанностей ИТ-специалистов.</p>
 <p>Размер: 34 х – 44 дюйма</p>
 <p>Этот плакат был создан с помощью Visio 2013. Для конкретной среды не требуется никаких изменений.</p></td>
 </tr>

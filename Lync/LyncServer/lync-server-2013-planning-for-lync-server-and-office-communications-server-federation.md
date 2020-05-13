@@ -12,12 +12,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7ce430ccc808d98d38e718e0628bb62f3b5aa08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dad03a196b6909d2657b7dbc8463653bb004a310
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184242"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,19 +83,19 @@ Microsoft Lync Server 2010 предоставила более узкое опр
         
 
         > [!NOTE]
-        > Для <STRONG>новых федеративных доменов SIP</STRONG>необходимо указать <STRONG>доменное имя (или полное доменное имя)</STRONG> для Microsoft Lync Online, Microsoft Office 365. Для Microsoft Lync Server 2013, Lync Server 2010 и Office Communications Server также необходимо предоставить <STRONG>службу пограничного доступа (полное доменное имя)</STRONG> .
+        > Для <STRONG>новых федеративных доменов SIP</STRONG>необходимо указать <STRONG>доменное имя (или полное доменное имя)</STRONG> для Microsoft Lync Online и microsoft 365 или Office 365. Для Microsoft Lync Server 2013, Lync Server 2010 и Office Communications Server также необходимо предоставить <STRONG>службу пограничного доступа (полное доменное имя)</STRONG> .
 
         
         </div>
     
       - <span></span>  
-        Для обнаруженной Федерации Федерации, где партнеры могут обнаруживать пограничный сервер, вы создаете запись SRV во внешней службе DNS \_-сипфедератионтлс. \_TCP.contoso.com —, который указывает на порт 5061 и запись узла (A) пограничного сервера
+        Для обнаруженной Федерации Федерации, где партнеры могут обнаруживать пограничный сервер, вы создаете запись SRV во внешней службе DNS- \_ сипфедератионтлс. \_ tcp.contoso.com —, который указывает на порт 5061 и запись узла (A) пограничного сервера
         
         <div>
         
 
         > [!IMPORTANT]
-        > Если вы поддерживаете клиентов Microsoft Lync Mobile на Windows Phone или Apple iPhone, iPad или других устройствах Apple, и используете службу push-уведомлений или службу push-уведомлений, необходимо запланировать _sipfederationtls. _tcp. &lt;Записи SRV&gt; для доменов SIP для каждого домена SIP, в котором у вас есть клиенты Lync Mobile. Android и Nokia Symbian Lync Mobile не используют push-уведомления и не подчиняются этим требованиям.
+        > Если вы поддерживаете клиентов Microsoft Lync Mobile на Windows Phone или Apple iPhone, iPad или других устройствах Apple, и используете службу push-уведомлений или службу push-уведомлений, необходимо запланировать _sipfederationtls. _tcp. &lt;&gt;Записи SRV для доменов SIP для каждого домена SIP, в котором у вас есть клиенты Lync Mobile. Android и Nokia Symbian Lync Mobile не используют push-уведомления и не подчиняются этим требованиям.
 
         
         </div>

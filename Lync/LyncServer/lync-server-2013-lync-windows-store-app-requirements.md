@@ -12,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06d32aa0cf2248c80b8f98d80e8c796818b89a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186022"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2013-12-03_
 
 
 > [!NOTE]  
-> Для Lync Server 2010 запустите накопительный пакет обновления для Lync Server 2010: Февраль 2012 (доступен по адресу <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2670352</A>) или более поздней версии на всех серверах. Чтобы разрешить пользователям присоединяться к собраниям, запустите накопительное обновление для Lync Server 2010: Октябрь 2012 (доступно по адресу <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2737915</A>) на серверах.
+> Для Lync Server 2010 запустите накопительный пакет обновления для Lync Server 2010: Февраль 2012 (доступен по адресу <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2670352</A>) или более поздней версии на всех серверах. Чтобы разрешить пользователям присоединяться к собраниям, запустите накопительное обновление для Lync Server 2010: Октябрь 2012 (доступно по адресу <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2737915</A>) на серверах.
 
 
 
@@ -61,7 +61,7 @@ _**Последнее изменение темы:** 2013-12-03_
 
   - На клиентских компьютерах установите Windows 8,1 и последнюю версию Lync Windows App Store, чтобы устранить проблему при входе, которая обычно возникает при использовании нескольких доменов (например, когда URI SIP является **userA@domainZ.com** , а пограничный сервер — **SIP.domainX.com**).
 
-Если ваша организация подписывается на Lync Online или Office 365 и вы используете свое собственное доменное имя, необходимо выполнить некоторые дополнительные действия по настройке сети для автоматического обнаружения серверов Lync. Требования к конфигурации сети одинаковы для приложений Lync Windows и Lync на мобильных устройствах. Следуйте инструкциям "Настройка сети" в вики-статье Office 365 "Настройка мобильных устройств Lync" [https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822).
+Если ваша организация подписывается на Lync Online или Microsoft 365 и вы используете собственное доменное имя, необходимо выполнить дополнительные действия по настройке сети для автоматического обнаружения серверов Lync. Требования к конфигурации сети одинаковы для приложений Lync Windows и Lync на мобильных устройствах.
 
 <div>
 
@@ -82,4 +82,3 @@ _**Последнее изменение темы:** 2013-12-03_
 </div>
 
 </div>
-

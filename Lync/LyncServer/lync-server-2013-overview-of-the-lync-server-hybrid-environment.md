@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780758"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ _**Последнее изменение темы:** 2014-05-28_
 
   - [Установка Windows PowerShell для единого входа с помощью AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Помощник по входу в Microsoft Online Services (мсоидкли-7.0. msi) включен в настройку рабочего стола для Office 365, которую можно получить на странице Загружаемые файлы, связанную с центром администрирования Microsoft 365.
+  - Помощник по входу в Microsoft Online Services (мсоидкли-7.0. msi) включен в настройку рабочего стола для Microsoft 365, которую можно получить на странице Загружаемые файлы, связанную с центром администрирования Microsoft 365.
 
 </div>
 
@@ -67,7 +67,7 @@ _**Последнее изменение темы:** 2014-05-28_
 
 ## <a name="administrator-credentials"></a>Учетные данные администратора
 
-Когда вам будет предложено ввести учетные данные администратора, укажите имя пользователя и пароль учетной записи администратора в организации Office 365. Эти учетные данные также будут использоваться при настройке служб федерации Active Directory (AD FS) 2,0, синхронизации каталогов, единого входа, Федерации и перемещения пользователей в Lync Online.
+Когда вам будет предложено ввести учетные данные администратора, укажите имя пользователя и пароль для учетной записи администратора вашей организации Microsoft 365 или Office 365. Эти учетные данные также будут использоваться при настройке служб федерации Active Directory (AD FS) 2,0, синхронизации каталогов, единого входа, Федерации и перемещения пользователей в Lync Online.
 
 </div>
 
@@ -75,7 +75,7 @@ _**Последнее изменение темы:** 2014-05-28_
 
 ## <a name="connecting-to-lync-online-powershell"></a>Подключение к Lync Online PowerShell
 
-Теперь администраторы могут использовать Windows PowerShell для управления Lync Online и учетными записями пользователей Lync Online. Для этого необходимо сначала скачать и установить модуль соединителя Lync Online в центре загрузки Майкрософт (https://go.microsoft.com/fwlink/?LinkId=294688). Дополнительные сведения о загрузке, установке и использовании модуля соединителя Lync Online и подробные сведения об использовании Windows PowerShell для управления Lync Online приведены в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Теперь администраторы могут использовать Windows PowerShell для управления Lync Online и учетными записями пользователей Lync Online. Для этого необходимо сначала скачать и установить модуль соединителя Lync Online в центре загрузки Майкрософт ( https://go.microsoft.com/fwlink/?LinkId=294688) . Дополнительные сведения о загрузке, установке и использовании модуля соединителя Lync Online и подробные сведения об использовании Windows PowerShell для управления Lync Online приведены в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

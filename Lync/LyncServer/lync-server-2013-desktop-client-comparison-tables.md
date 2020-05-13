@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780008"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**Последнее изменение темы:** 2018-01-23_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Подробнее о планах подписки Skype для бизнеса Online можно узнать в статье Описание службы Skype для бизнеса Online <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>по адресу.</P>
+> <P>Подробнее о планах подписки Skype для бизнеса Online можно узнать в статье Описание службы Skype для бизнеса Online по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A> .</P>
 > <LI>
-> <P>Lync Server 2013 поддерживает следующие выпущенные ранее клиенты: Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Сведения об этих клиентах приведены в статье Lync 2010 Version Tables сравнения Clients по <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>адресу.</P>
+> <P>Lync Server 2013 поддерживает следующие выпущенные ранее клиенты: Lync 2010, Lync 2010 Mobile, Lync Phone Edition и Lync 2010 Attendant. Сведения об этих клиентах приведены в статье Lync 2010 Version Tables сравнения Clients по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> .</P>
 > <LI>
 > <P>Клиент Lync 2013 поддерживает аудио и видео в среде инфраструктуры виртуальных рабочих столов (VDI). Подробные сведения о возможностях Lync 2013 в среде VDI приведены <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">в статье Поддерживаемые технологии виртуализации и известные ограничения в Lync Server 2013</A>.</P></LI></UL>
 
@@ -451,10 +451,9 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
-2 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция недоступна.
-
+2 для пользователей Skype для бизнеса Online, Microsoft 365 или Office 365 эта функция недоступна.
 </div>
 
 <span id="IMSupport"></span>
@@ -668,11 +667,11 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
 2 локальная среда Lync Server 2013 и локальная среда SharePoint 2013 необходима для поиска по навыкам.
 
-3 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи не могут использовать сохраняемый чат.
+3 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи не могут использовать сохраняемый чат.
 
 </div>
 
@@ -692,7 +691,7 @@ _**Последнее изменение темы:** 2018-01-23_
 > <LI>
 > <P>В сеансах Lync-to-Lync пользователь Skype для бизнеса Online (план 1) может участвовать в совместном доступе к рабочему столу и общем доступе к приложениям, если они приглашены пользователями, имеющими доступ к функциям общего доступа.</P>
 > <LI>
-> <P>Дополнительные сведения см. в описании службы Skype для бизнеса Online <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>по адресу.</P></LI></UL>
+> <P>Дополнительные сведения см. в описании службы Skype для бизнеса Online по адресу <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .</P></LI></UL>
 
 
 
@@ -988,7 +987,7 @@ _**Последнее изменение темы:** 2018-01-23_
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;руководитель</p></td>
+<td><p>Q &amp; руководитель</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1117,11 +1116,11 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
 2 участники не могут управлять рабочими столами, совместно используемыми в Skype для бизнеса на Mac, Lync для Mac 2011 или Communicator для Mac 2011. Пользователи Mac могут управлять рабочими столами, совместно используемыми пользователями Windows.
 
-3 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция требует наличия у поставщика аудио-конференций.
+3 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи для этой функции требуется поставщик видеоконференций.
 
 4. клиент Lync для Mac 2011 не может просматривать презентации Microsoft Office 2013 PowerPoint, когда они совместно используются в конференции с помощью клиента Lync Web App 2013.
 
@@ -1137,7 +1136,7 @@ _**Последнее изменение темы:** 2018-01-23_
 
 
 > [!NOTE]  
-> Функции голосовой связи Lync ограничены определенными планами подписки на Skype для бизнеса Online. Для получения дополнительных сведений обратитесь к разделу "функции голосовой связи Lync" в описании службы Skype для <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>бизнеса Online по адресу.
+> Функции голосовой связи Lync ограничены определенными планами подписки на Skype для бизнеса Online. Для получения дополнительных сведений обратитесь к разделу "функции голосовой связи Lync" в описании службы Skype для бизнеса Online по адресу <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .
 
 
 
@@ -1419,11 +1418,11 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
-2 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция доступна только для звонков на компьютер.
+2 для пользователей Skype для бизнеса Online, Microsoft 365 или Office 365 эта функция доступна только для звонков на компьютер.
 
-3 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция недоступна.
+3 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи эта функция недоступна.
 
 </div>
 
@@ -1507,9 +1506,9 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
-2 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция недоступна.
+2 для пользователей Skype для бизнеса Online, Microsoft 365 или Office 365 эта функция недоступна.
 
 </div>
 
@@ -1596,9 +1595,9 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online, а также для пользователей Microsoft 365 или Office 365 запись недоступна в некоторых автономных планах Skype для бизнеса Online. Для записи требуются полные права клиента Lync 2013. Дополнительные сведения см. в описании службы Skype для бизнеса Online [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)по адресу.
+1 для Skype для бизнеса Online, Microsoft 365 или пользователей Office 365 запись недоступна в некоторых автономных планах Skype для бизнеса Online. Для записи требуются полные права клиента Lync 2013. Дополнительные сведения см. в описании службы Skype для бизнеса Online по адресу [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430) .
 
-2 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи, запись передач файлов, общих страниц OneNote и примечаний PowerPoint недоступна.
+2 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи, запись передач файлов, общих страниц OneNote и примечаний PowerPoint недоступна.
 
 </div>
 
@@ -1701,11 +1700,11 @@ _**Последнее изменение темы:** 2018-01-23_
 </table>
 
 
-1 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
+1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
-2 для пользователей Skype для бизнеса Online и/или Microsoft 365 или Office 365 эта функция требует Exchange Online и управляется атрибутом хранения на месте почтового ящика Exchange пользователя.
+2 для пользователей Skype для бизнеса Online, Microsoft 365 или Office 365 эта функция требует Exchange Online и управляется атрибутом хранения на месте почтового ящика Exchange пользователя.
 
-3 для Skype для бизнеса Online и/или Microsoft 365 или Office 365 пользователи, архивация передачи файлов, общих страниц OneNote и заметок PowerPoint недоступна.
+3 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи, архивация переносов файлов, общих страниц OneNote и примечаний PowerPoint недоступна.
 
 </div>
 
@@ -1772,4 +1771,3 @@ _**Последнее изменение темы:** 2018-01-23_
 </div>
 
 </div>
-

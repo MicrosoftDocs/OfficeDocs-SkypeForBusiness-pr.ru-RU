@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193182"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +85,7 @@ _**Последнее изменение темы:** 2013-02-21_
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Определенные поисковые запросы для этой конфигурации. Office 365, а не локальные развертывания.</p></td>
+    <td><p>Определенные поисковые запросы для этой конфигурации. Office 365 или Microsoft 365, а не локальные развертывания.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>Групп безопасности</strong></p></td>
@@ -137,7 +137,7 @@ _**Последнее изменение темы:** 2013-02-21_
     </tr>
     <tr class="even">
     <td><p><strong>минимумклсажентсервицеверсион</strong></p></td>
-    <td><p>Минимальная версия CLSAgent, допустимая для запуска. Этот элемент предназначен для Office 365.</p></td>
+    <td><p>Минимальная версия CLSAgent, допустимая для запуска. Этот элемент предназначен для Office 365 или Microsoft 365.</p></td>
     </tr>
     </tbody>
     </table>

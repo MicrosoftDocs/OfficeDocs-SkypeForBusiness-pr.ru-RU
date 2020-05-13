@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182050"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +78,7 @@ _**Последнее изменение темы:** 2014-03-27_
 
 ## <a name="configuring-federation-with-partners"></a>Настройка федерации с партнерами
 
-1.  Чтобы настроить успешную Федерацию с другим сервером Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 или Office Communicator 2007, выберите тип Федерации из следующей таблицы и определите записи DNS SRV, DNS-узел (A или AAAA для IPv6) и настройте политики, которые относятся к типу Федерации:
+1.  Чтобы настроить успешную Федерацию с другим сервером Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 или Office Communicator 2007, выберите тип Федерации из следующей таблицы и определите записи DNS SRV, DNS-узел (A или AAAA для IPv6) и настройте политики, применяемые к типу Федерации:
     
     
     <table>
@@ -99,7 +99,7 @@ _**Последнее изменение темы:** 2014-03-27_
     <tbody>
     <tr class="odd">
     <td><p>Обнаруженный домен партнера</p></td>
-    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. &lt;имя&gt;внешнего домена, где значение порта для записи SRV равно TCP 5061, а узел, на котором размещается <strong>Эта служба</strong> , определен как SIP. &lt;имя внешнего домена&gt; — полное доменное имя службы пограничного доступа. Сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки пограничного сервера в Lync Server 2013</a> .</p></td>
+    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. &lt; имя внешнего домена, &gt; где значение порта для записи SRV равно TCP 5061, а узел, на котором размещается <strong>Эта служба</strong> , определен как SIP. &lt;имя внешнего домена &gt; — полное доменное имя службы пограничного доступа. Сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки пограничного сервера в Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Включение и отключение обнаружения партнеров Федерации в Lync Server 2013</a></p></li>
@@ -108,7 +108,7 @@ _**Последнее изменение темы:** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>Разрешенный домен партнера</p></td>
-    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. &lt;имя&gt;внешнего домена, где значение порта для записи SRV равно TCP 5061, а узел, на котором размещается <strong>Эта служба</strong> , определен как SIP. &lt;имя внешнего домена&gt; — полное доменное имя службы пограничного доступа. Сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки пограничного сервера в Lync Server 2013</a> .</p></td>
+    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. &lt; имя внешнего домена, &gt; где значение порта для записи SRV равно TCP 5061, а узел, на котором размещается <strong>Эта служба</strong> , определен как SIP. &lt;имя внешнего домена &gt; — полное доменное имя службы пограничного доступа. Сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки пограничного сервера в Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ _**Последнее изменение темы:** 2014-03-27_
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Создание или изменение размещенных федеративных поставщиков SIP Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Этот тип федерации определяет службы и поставщиков услуг размещения, которые следует настроить для своих пользователей. Типичное использование заключается в настройке поставщиков систем обмена мгновенными сообщениями, таких как Windows Live Messenger, Yahoo! и AOL, а также поставщики услуг хостинга, такие как Lync Online и Office 365</p>
+    <td><p>Этот тип федерации определяет службы и поставщиков услуг размещения, которые следует настроить для своих пользователей. Типичное использование заключается в настройке поставщиков систем обмена мгновенными сообщениями, таких как Windows Live Messenger, Yahoo! и AOL, а также поставщики услуг хостинга, такие как Lync Online и Microsoft 365</p>
     <div>
 
     > [!IMPORTANT]  

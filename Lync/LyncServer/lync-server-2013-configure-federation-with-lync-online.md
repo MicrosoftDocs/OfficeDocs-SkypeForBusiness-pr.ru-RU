@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779565"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**Последнее изменение темы:** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Настройка клиента Skype для бизнеса Online для общего адресного пространства SIP
 
-SIP-адрес это уникальный идентификатор каждого пользователя в сети, аналогичный номеру телефона или адресу электронной почты. Прежде чем попытаться переместить пользователей Lync из локальной среды в Skype для бизнеса Online, необходимо настроить организацию Office 365 для совместного использования пространства адресов SIP с локальным развертыванием. Если этот параметр не настроен, может появиться следующее сообщение об ошибке:
+SIP-адрес это уникальный идентификатор каждого пользователя в сети, аналогичный номеру телефона или адресу электронной почты. Прежде чем попытаться переместить пользователей Lync из локальной среды в Skype для бизнеса Online, необходимо настроить организацию Microsoft 365 или Office 365 для совместного использования пространства адресов SIP с локальным развертыванием. Если этот параметр не настроен, может появиться следующее сообщение об ошибке:
 
 Move-CsUser: Хостедмигратион Fault: ошибка = (510), Description = (клиент этого пользователя не включен для общего адресного пространства SIP.)
 
@@ -71,7 +71,7 @@ Move-CsUser: Хостедмигратион Fault: ошибка = (510), Descrip
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Чтобы установить удаленный сеанс PowerShell с Skype для бизнеса Online, сначала необходимо установить модуль Skype для бизнеса Online для Windows PowerShell, который вы можете скачать здесь: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911).
+Чтобы установить удаленный сеанс PowerShell с Skype для бизнеса Online, сначала необходимо установить модуль Skype для бизнеса Online для Windows PowerShell, который вы можете скачать здесь: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) .
 
 После установки модуля можно установить удаленный сеанс со следующими командлетами:
 
@@ -116,4 +116,3 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 </div>
 
 </div>
-

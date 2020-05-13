@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184012"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**Последнее изменение темы:** 2013-10-28_
 
   - Аудиоконференции и/или видеоконференции
 
-В некоторых случаях обмен данными, например обмен мгновенными сообщениями и сведения о присутствии между Microsoft Lync Server 2013 и контактом XMPP (Extensible Messaging and Presence Protocol), является одноранговой только для вас и контакта в Федерации. партнерство. В других случаях, таких как Lync Server, Lync Server 2010 to Lync Server 2013 Федерация, можно пригласить нескольких участников в беседу.
+В некоторых случаях обмен данными, например обмен мгновенными сообщениями и сведения о присутствии между сервером Microsoft Lync Server 2013 и контактом XMPP (Extensible Messaging and Presence Protocol), является одноранговой только для вас и контакта на федеративных партнерах. В других случаях, таких как Lync Server, Lync Server 2010 to Lync Server 2013 Федерация, можно пригласить нескольких участников в беседу.
 
 <div>
 
@@ -97,19 +97,19 @@ Microsoft Lync Server 2010 предоставила более узкое опр
         
 
         > [!NOTE]
-        > Для <STRONG>новых федеративных доменов SIP</STRONG>необходимо указать <STRONG>доменное имя (или полное доменное имя)</STRONG> для Microsoft Lync Online, Microsoft Office 365. Для Microsoft Lync Server 2013, Lync Server 2010 и Office Communications Server также необходимо предоставить <STRONG>службу пограничного доступа (полное доменное имя)</STRONG> .
+        > Для <STRONG>новых федеративных доменов SIP</STRONG>необходимо указать <STRONG>доменное имя (или полное доменное имя)</STRONG> для Microsoft Lync Online и microsoft 365 или Office 365. Для Microsoft Lync Server 2013, Lync Server 2010 и Office Communications Server также необходимо предоставить <STRONG>службу пограничного доступа (полное доменное имя)</STRONG> .
 
         
         </div>
     
       - <span></span>  
-        Для обнаруженной Федерации Федерации, где партнеры могут обнаруживать пограничный сервер, вы создаете запись SRV во внешней службе DNS \_-сипфедератионтлс. \_TCP.contoso.com —, который указывает на порт 5061 и запись узла (A) пограничного сервера
+        Для обнаруженной Федерации Федерации, где партнеры могут обнаруживать пограничный сервер, вы создаете запись SRV во внешней службе DNS- \_ сипфедератионтлс. \_ tcp.contoso.com —, который указывает на порт 5061 и запись узла (A) пограничного сервера
         
         <div>
         
 
         > [!IMPORTANT]
-        > Если вы поддерживаете клиентов Microsoft Lync Mobile на Windows Phone или Apple iPhone, iPad или других устройствах Apple, и используете службу push-уведомлений или службу push-уведомлений, необходимо запланировать _sipfederationtls. _tcp. &lt;Записи SRV&gt; для доменов SIP для каждого домена SIP, в котором у вас есть клиенты Lync Mobile. Android и Nokia Symbian Lync Mobile не используют push-уведомления и не подчиняются этим требованиям.
+        > Если вы поддерживаете клиентов Microsoft Lync Mobile на Windows Phone или Apple iPhone, iPad или других устройствах Apple, и используете службу push-уведомлений или службу push-уведомлений, необходимо запланировать _sipfederationtls. _tcp. &lt;&gt;Записи SRV для доменов SIP для каждого домена SIP, в котором у вас есть клиенты Lync Mobile. Android и Nokia Symbian Lync Mobile не используют push-уведомления и не подчиняются этим требованиям.
 
         
         </div>

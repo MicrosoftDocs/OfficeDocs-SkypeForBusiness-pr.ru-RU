@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206375"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**Последнее изменение темы:** 2016-05-26_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - Если у вас есть локальное развертывание Lync и вы хотите переместить некоторых пользователей в облако для использования Lync Online в Office 365, ознакомьтесь со статьей [Настройка локального развертывания для гибридной среды с Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
+  - Если у вас есть локальное развертывание Lync и вы хотите переместить некоторых пользователей в облако для использования Lync Online в Microsoft 365 или Office 365, ознакомьтесь со статьей [Настройка локального развертывания для гибридной среды с Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
 
   - Если у вас есть пользователи Lync Online, но не включенные в локальном развертывании, ознакомьтесь с [разрядом перемещение пользователей из Lync Online в локальную среду Lync в Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
 

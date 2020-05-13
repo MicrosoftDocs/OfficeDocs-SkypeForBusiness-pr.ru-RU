@@ -12,12 +12,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae6aec94b75bdb559dace5fe110c1b07442f6171
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216275"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221543"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2016-05-25_
 
 Гибридное развертывание Lync Server — это развертывание, при котором пользователи домена, например contoso.com, разбиваются между локальным сервером Lync Server и Microsoft Lync Online. Некоторые пользователи домена размещены на локальном сервере Lync, а некоторые пользователи размещены в Skype для бизнеса Online.
 
-Вы можете настроить локальное развертывание Lync для гибридной среды со Skype для бизнеса Online и использовать синхронизацию Active Directory для синхронизации локальных и подключенных пользователей. Вы также можете настроить Гибридные развертывания для интеграции с локальным Exchange и SharePoint, а также с приложениями Microsoft Office 365, в том числе Exchange Online и SharePoint Online.
+Вы можете настроить локальное развертывание Lync для гибридной среды со Skype для бизнеса Online и использовать синхронизацию Active Directory для синхронизации локальных и подключенных пользователей. Вы также можете настроить Гибридные развертывания для интеграции с локальным Exchange и SharePoint, а также с приложениями Microsoft 365 и Office 365, включая Exchange Online и SharePoint Online.
 
 В этом разделе рассказывается, как развернуть приложения, необходимые для гибридного развертывания Lync Server, а затем настроить развертывание для управления пользователями между локальной системой Lync Server и Skype для бизнеса Online.
 
@@ -60,4 +60,3 @@ _**Последнее изменение темы:** 2016-05-25_
 </div>
 
 </div>
-
