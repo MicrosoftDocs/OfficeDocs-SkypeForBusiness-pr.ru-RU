@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 906018941b00d8ef2cbb5e37aef8d1245ad93f00
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779605"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "43779605"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a><span data-ttu-id="02113-102">Администрирование пользователей в гибридном развертывании Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02113-102">Administering users in a hybrid Lync Server 2013 deployment</span></span>
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a><span data-ttu-id="a9414-102">Администрирование пользователей в гибридном развертывании Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9414-102">Administering users in a hybrid Lync Server 2013 deployment</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "43779605"
 
 <span> </span>
 
-<span data-ttu-id="02113-103">_**Последнее изменение темы:** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="02113-103">_**Topic Last Modified:** 2014-05-29_</span></span>
+<span data-ttu-id="a9414-103">_**Последнее изменение темы:** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="a9414-103">_**Topic Last Modified:** 2014-05-29_</span></span>
 
-<span data-ttu-id="02113-104">Вы можете управлять параметрами пользователей и политиками для пользователей, перенесенных в Lync Online, используя функции управления пользователями, доступные на портале Microsoft Office 365 Online.</span><span class="sxs-lookup"><span data-stu-id="02113-104">You can manage user settings and policies for users migrated to Lync Online by using the User Management features available in the Microsoft Office 365 online portal.</span></span> <span data-ttu-id="02113-105">Для выполнения задач администрирования необходимо войти в систему с помощью учетной записи администратора клиента.</span><span class="sxs-lookup"><span data-stu-id="02113-105">You must sign in by using your tenant administrator account to perform administration tasks.</span></span>
+<span data-ttu-id="a9414-104">Вы можете управлять параметрами пользователей и политиками для пользователей, перенесенных в Lync Online, используя функции управления пользователями, доступные в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="a9414-104">You can manage user settings and policies for users migrated to Lync Online by using the User Management features available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="a9414-105">Для выполнения задач администрирования необходимо войти в систему с помощью учетной записи администратора клиента.</span><span class="sxs-lookup"><span data-stu-id="a9414-105">You must sign in by using your tenant administrator account to perform administration tasks.</span></span>
 
 <div>
 
-## <a name="moving-users-back-to-on-premises"></a><span data-ttu-id="02113-106">Возврат пользователей в локальную среду</span><span class="sxs-lookup"><span data-stu-id="02113-106">Moving Users Back to On-premises</span></span>
+## <a name="moving-users-back-to-on-premises"></a><span data-ttu-id="a9414-106">Возврат пользователей в локальную среду</span><span class="sxs-lookup"><span data-stu-id="a9414-106">Moving Users Back to On-premises</span></span>
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="02113-107">Этот раздел относится только к пользователям, созданным и включенным в локальной среде Lync, а затем перемещению из локального развертывания в Lync Online.</span><span class="sxs-lookup"><span data-stu-id="02113-107">This section applies only to users that were created and enabled for Lync on-premises and then moved from an on-premises deployment to Lync Online.</span></span> <span data-ttu-id="02113-108">Если вы хотите переместить пользователей, созданных в Lync Online (и не включенных для Lync в локальном развертывании), ознакомьтесь со статьей <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальную среду Lync в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="02113-108">If you want to move users that were created in Lync Online (and not ever enabled for Lync in an on-premises deployment) see, <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="a9414-107">Этот раздел относится только к пользователям, созданным и включенным в локальной среде Lync, а затем перемещению из локального развертывания в Lync Online.</span><span class="sxs-lookup"><span data-stu-id="a9414-107">This section applies only to users that were created and enabled for Lync on-premises and then moved from an on-premises deployment to Lync Online.</span></span> <span data-ttu-id="a9414-108">Если вы хотите переместить пользователей, созданных в Lync Online (и не включенных для Lync в локальном развертывании), ознакомьтесь со статьей <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальную среду Lync в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a9414-108">If you want to move users that were created in Lync Online (and not ever enabled for Lync in an on-premises deployment) see, <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="02113-109">Выполните следующие командлеты, чтобы переместить пользователя из Lync Online обратно в локальную среду Lync:</span><span class="sxs-lookup"><span data-stu-id="02113-109">Run the following cmdlets to move a user from Lync Online back to Lync on-premises:</span></span>
+  - <span data-ttu-id="a9414-109">Выполните следующие командлеты, чтобы переместить пользователя из Lync Online обратно в локальную среду Lync:</span><span class="sxs-lookup"><span data-stu-id="a9414-109">Run the following cmdlets to move a user from Lync Online back to Lync on-premises:</span></span>
     
        ```PowerShell
         $cred=Get-Credential
@@ -63,27 +63,27 @@ ms.locfileid: "43779605"
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-<span data-ttu-id="02113-110">Формат URL-адреса, указанный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, в котором запущена служба переноса, в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="02113-110">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format:</span></span>
+<span data-ttu-id="a9414-110">Формат URL-адреса, указанный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, в котором запущена служба переноса, в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="a9414-110">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format:</span></span>
 
-<span data-ttu-id="02113-111">Полное\<доменное\>имя пула HTTPS:///HostedMigration/hostedmigrationService.svc.</span><span class="sxs-lookup"><span data-stu-id="02113-111">Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span> <span data-ttu-id="02113-112">Можно определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для учетной записи организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="02113-112">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 organization account.</span></span>
+<span data-ttu-id="a9414-111">\<Полное доменное имя пула HTTPS:// \> /HostedMigration/hostedmigrationService.svc.</span><span class="sxs-lookup"><span data-stu-id="a9414-111">Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span> <span data-ttu-id="a9414-112">Можно определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для учетной записи организации Microsoft 365 или Office 365.</span><span class="sxs-lookup"><span data-stu-id="a9414-112">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.</span></span>
 
-<span data-ttu-id="02113-113">**Определение URL-адреса размещенной службы миграции для организации Office 365**</span><span class="sxs-lookup"><span data-stu-id="02113-113">**To determine the Hosted Migration Service URL for your Office 365 organization**</span></span>
+<span data-ttu-id="a9414-113">**Определение URL-адреса размещенной службы миграции для организации Microsoft 365 или Office 365**</span><span class="sxs-lookup"><span data-stu-id="a9414-113">**To determine the Hosted Migration Service URL for your Microsoft 365 or Office 365 organization**</span></span>
 
-1.  <span data-ttu-id="02113-114">Войдите в организацию Office 365 от имени администратора.</span><span class="sxs-lookup"><span data-stu-id="02113-114">Login to your Office 365 organization as an administrator.</span></span>
+1.  <span data-ttu-id="a9414-114">Войдите в свою организацию с учетной записью администратора.</span><span class="sxs-lookup"><span data-stu-id="a9414-114">Log in to your organization as an administrator.</span></span>
 
-2.  <span data-ttu-id="02113-115">Откройте **центр администрирования Lync**.</span><span class="sxs-lookup"><span data-stu-id="02113-115">Open the **Lync admin center**.</span></span>
+2.  <span data-ttu-id="a9414-115">Откройте **центр администрирования Lync**.</span><span class="sxs-lookup"><span data-stu-id="a9414-115">Open the **Lync admin center**.</span></span>
 
-3.  <span data-ttu-id="02113-116">При отображении **центра администрирования Lync** выберите и скопируйте URL-адрес в адресную строку вплоть до **Lync.com**.</span><span class="sxs-lookup"><span data-stu-id="02113-116">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="02113-117">Пример URL-адреса выглядит примерно следующим образом:</span><span class="sxs-lookup"><span data-stu-id="02113-117">An example URL looks similar to the following:</span></span>
+3.  <span data-ttu-id="a9414-116">При отображении **центра администрирования Lync** выберите и скопируйте URL-адрес в адресную строку вплоть до **Lync.com**.</span><span class="sxs-lookup"><span data-stu-id="a9414-116">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="a9414-117">Пример URL-адреса выглядит примерно следующим образом:</span><span class="sxs-lookup"><span data-stu-id="a9414-117">An example URL looks similar to the following:</span></span>
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  <span data-ttu-id="02113-118">Замените **webdir** в URL-адресе на **"Администратор"**, что приводит к следующим действиям:</span><span class="sxs-lookup"><span data-stu-id="02113-118">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
+4.  <span data-ttu-id="a9414-118">Замените **webdir** в URL-адресе на **"Администратор"**, что приводит к следующим действиям:</span><span class="sxs-lookup"><span data-stu-id="a9414-118">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
     
     `https://admin0a.online.lync.com`
 
-5.  <span data-ttu-id="02113-119">Добавьте указанную ниже строку в URL-адрес: **/HostedMigration/hostedmigrationservice.svc**.</span><span class="sxs-lookup"><span data-stu-id="02113-119">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
+5.  <span data-ttu-id="a9414-119">Добавьте указанную ниже строку в URL-адрес: **/HostedMigration/hostedmigrationservice.svc**.</span><span class="sxs-lookup"><span data-stu-id="a9414-119">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
     
-    <span data-ttu-id="02113-120">Итоговый URL-адрес, который является значением **хостедмигратионоверридеурл**, должен выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="02113-120">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
+    <span data-ttu-id="a9414-120">Итоговый URL-адрес, который является значением **хостедмигратионоверридеурл**, должен выглядеть следующим образом:</span><span class="sxs-lookup"><span data-stu-id="a9414-120">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
