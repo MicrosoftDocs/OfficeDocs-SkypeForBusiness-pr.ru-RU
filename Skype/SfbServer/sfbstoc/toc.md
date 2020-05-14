@@ -11,13 +11,13 @@
 
 ## [Решения Майкрософт для телефонии](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [Планирование телефонной системы с локальной связью через ТСОП](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [Планирование телефонной системы с соединением на локальной ТСОП в Skype для бизнеса Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [Активация пользователей телефонной системы с возможностью подключения к локальной ТСОП в Skype для бизнеса Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [Включение локальной корпоративной голосовой связи для пользователей](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [Назначение политики маршрутизации голосовой связи](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [Предоставление пользователям доступа к корпоративной голосовой связи через сеть и телефонной системе в голосовой почте Office 365](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [Предоставление пользователям доступа к корпоративной голосовой связи через сеть и к голосовой почте по телефонной линии](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [Планирование Skype для бизнеса Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
