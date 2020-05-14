@@ -34,6 +34,7 @@
 ## [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
+## [Управление большими командами](best-practices-large-groups.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Создание групп руководителей](create-manager-directs-teams.md)
 ## [Управление командами и политиками каналов](teams-policies.md)
@@ -690,7 +691,7 @@
 #### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
 #### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
 #### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
-#### [Использование отчета ПМКЗ по ТСОП](CQD-PSTN-report.md)
+#### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
 ### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [Получение справки в Teams](get-help-in-microsoft-teams.md)
 ## [Обновления контента Teams](teams-updates.md)
 
+## [Как найти ПИН-код поддержки](support-pin.md)
 
 ## Доступность аудиоконференций и планов звонков в различных странах и регионах
 ### [Обзор](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
