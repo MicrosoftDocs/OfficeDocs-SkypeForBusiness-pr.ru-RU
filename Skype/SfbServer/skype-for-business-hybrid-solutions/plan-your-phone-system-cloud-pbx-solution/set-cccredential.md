@@ -1,5 +1,5 @@
 ---
-title: Set — CcCredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780678"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221573"
 ---
-# <a name="set-cccredential"></a>Set — CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. 
   
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Подробное описание
 <a name="DetailedDescription"> </a>
 
-Командлет Set – CcCredential задает имя и пароль учетной записи для администратора клиента. Для выпусков до 2,0 этот администратор должен быть глобальным администратором. Cloud Connector использует эту учетную запись для получения сведений о конфигурации, установки параметров конфигурации и обновления состояния устройства до конфигурации организации Office 365. С выпуском 2,0 и более поздних версий можно также использовать этот командлет, чтобы обновить пароли для учетных записей VmAdmin и DomainAdmin.
+Командлет Set – CcCredential задает имя и пароль учетной записи для администратора клиента. Для выпусков до 2,0 этот администратор должен быть глобальным администратором. Cloud Connector использует эту учетную запись для получения сведений о конфигурации, установки параметров конфигурации и обновления состояния устройства до конфигурации Microsoft 365 или Office 365 для организаций. С выпуском 2,0 и более поздних версий можно также использовать этот командлет, чтобы обновить пароли для учетных записей VmAdmin и DomainAdmin.
   
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
@@ -56,7 +56,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="input-types"></a>Типы входных данных
 <a name="InputTypes"> </a>
 
-Нет. Командлет Set – CcCredential не принимает входные данные по конвейеру.
+Отсутствуют. Командлет Set – CcCredential не принимает входные данные по конвейеру.
   
 ## <a name="return-types"></a>Типы возвращаемых данных
 <a name="ReturnTypes"> </a>
@@ -66,6 +66,6 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="see-also"></a>См. также
 <a name="ReturnTypes"> </a>
 
-[Get — CcCredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

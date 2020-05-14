@@ -1,5 +1,5 @@
 ---
-title: Развертывание одного сайта в Cloud Connector
+title: Развертывание отдельного сайта в Cloud Connector
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Сведения о развертывании одного сайта PSTN в Cloud Connector Edition.
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779355"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220539"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Развертывание одного сайта в Cloud Connector
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Развертывание отдельного сайта в Cloud Connector
  
 Сведения о развертывании одного сайта PSTN в Cloud Connector Edition.
   
@@ -55,7 +55,7 @@ Install-CcAppliance
   
 1. Выполните действия, необходимые для подготовки устройства Cloud Connector, как описано в статье [Подготовка устройства Cloud Connector](prepare-your-cloud-connector-appliance.md). Обратите внимание, что некоторые действия необходимы только для первого устройства в развертывании. Убедитесь, что каталог сайтов существует и правильно настроен для поддержки высокой доступности.
     
-2. Выполните следующий командлет только на вновь добавленном сервере узла, чтобы обновить сведения о топологии в конфигурации организации Office 365. Если вы хотите добавить несколько устройств одновременно, выполните командлет на каждом добавленном сервере узла один за одним:
+2. Выполните следующий командлет только на вновь добавленном сервере узла, чтобы обновить сведения о топологии в конфигурации организации Microsoft 365 или Office 365. Если вы хотите добавить несколько устройств одновременно, выполните командлет на каждом добавленном сервере узла один за одним:
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Install-CcAppliance
 
 Если вы хотите удалить устройство из существующего сайта:
   
-1. Выполните следующий командлет только на тех серверах узлов, которые необходимо удалить с сайта, чтобы обновить сведения о топологии в конфигурации организации Office 365.
+1. Выполните следующий командлет только на тех серверах узлов, которые необходимо удалить с сайта, чтобы обновить сведения о топологии в конфигурации Microsoft 365 или Office 365 Организации.
     
    ```powershell
    Unregister-CcAppliance

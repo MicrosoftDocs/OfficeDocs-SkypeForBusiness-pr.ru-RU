@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784766"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220439"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
 [] Skype для бизнеса Online квалифицирует и поддерживает стационарные телефоны для пользователей, которым требуется привычный способ телефонной связи через приложение Skype для бизнеса. В этом разделе описываются версии телефонов и встроенного ПО, которые поддерживаются приложением Skype для бизнеса Online, а также приводятся другие рекомендации по настройке телефонов в вашей организации.
 
 > [!NOTE]
-> Skype для бизнеса медленно заменяется Microsoft Teams в качестве основного способа связи в Office 365.  Ознакомьтесь [с новой концепцией интеллектуального взаимодействия в Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) для получения дополнительных сведений.
+> Skype для бизнеса очень медленно заменяется Microsoft Teams в качестве основного способа связи в Microsoft 365 и Office 365.  Ознакомьтесь [с новой концепцией интеллектуального взаимодействия в Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) для получения дополнительных сведений.
 >
 >Чтобы получить последние обновления и наиболее актуальные сведения о поддерживаемых устройствах, ознакомьтесь со статьей [интеллектуальная связь на устройствах Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Поддерживаемые телефоны
   
-Майкрософт является партнером и тесно сотрудничает с компаниями Polycom, Yealink и AudioCodes по вопросам разработки и сертификации широкого спектра устройств в рамках партнерской программы IP-телефонии (PIP) для телефонных систем в Office 365 и Skype для бизнеса Server.
+Корпорация Майкрософт сотрудничает и работает в тесном сотрудничестве с Polycom, Yealink и AudioCodes для разработки и сертификации разнообразных устройств с помощью программы для IP-телефона партнера (PIP) для телефонной системы.
   
 При заказе новых телефонов в Skype для бизнеса важно приобрести телефоны с *правильным кодом продукта*. Выбирая телефоны с нужным кодом, вы получаете устройства с заранее установленной соответствующей версией Skype для бизнеса Online.
   
@@ -51,7 +51,7 @@ ms.locfileid: "41784766"
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-Дополнительные сведения о Polycom phones можно найти в разделе [Библиотека документации поли](https://documents.polycom.com/category/voice).
+Дополнительные сведения о Polycom phones можно найти в разделе [Библиотека документации Poly](https://documents.polycom.com/category/voice).
   
 Дополнительные сведения о Yealink phones можно найти в разделе [IP-телефоны Skype для бизнеса](http://www.yealink.com/products_list_10.html#filter2).
   
@@ -64,7 +64,7 @@ ms.locfileid: "41784766"
   
 ## <a name="supported-firmware"></a>Поддерживаемые микропрограммы
 
-Это минимальная версия программного обеспечения, необходимая поддерживаемым телефонам для работы с телефонной системой в Office 365:
+Это минимальный выпуск программного обеспечения, необходимый для работы с телефонной системой с помощью поддерживаемых телефонов:
   
 ||||
 |:-----|:-----|:-----|
@@ -120,12 +120,12 @@ Skype для бизнеса Online не требует наличия допол
 ## <a name="what-else-should-you-know"></a>Дополнительные сведения
 Пошаговые инструкции см. в разделе [Развертывание телефонов для приложения Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Возможности телефонной системы в Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Возможности телефонной системы](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Страны и регионы, для которых доступны аудиоконференции и планы звонков](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Доступность аудиоконференций и планов звонков в различных странах и регионах](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

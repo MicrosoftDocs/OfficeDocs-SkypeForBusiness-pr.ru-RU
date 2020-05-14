@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: В этом разделе обсуждаются вопросы планирования использования Skype для бизнеса при подключении к удаленному виртуальному рабочему столу.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028000"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219529"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Планирование Skype для бизнеса в средах VDI
  
@@ -43,7 +43,7 @@ ms.locfileid: "42028000"
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Пакет оптимизации в режиме реального времени Citrix HDX
 <a name="Citrix_RT"> </a>
 
-Подключаемый модуль среды VDI Citrix (компонент XenApp и XenDesktop) совместим с Lync 2013 и Skype для бизнеса 2015 и 2016 (полные клиенты, использующие любой щелчок для запуска установщика или установщики MSI, выпущенные после 2017 ОБЩЕДОСТУПНОЕ обновление за) клиенты, установленные на виртуальной системной. Его общая работа основана на подключаемом модуле Microsoft Lync VDI, но работает в широком спектре клиентских операционных систем, в том числе Windows 10, Macintosh и Linux.
+Подключаемый модуль среды VDI Citrix (компонент XenApp и XenDesktop) совместим с Lync 2013 и Skype для бизнеса 2015 и 2016 (полные клиенты, использующие любой щелчок для запуска установщика или установщики MSI, выпущенные после 2017 ОБЩЕДОСТУПНОЕ обновление за) клиенты, установленные на виртуальном рабочем столе. Его общая работа основана на подключаемом модуле Microsoft Lync VDI, но работает в широком спектре клиентских операционных систем, в том числе Windows 10, Macintosh и Linux.
   
 Полный список компонентов и поддерживаемых технологий можно найти на веб-сайте Citrix при [доставке Microsoft Skype для бизнеса пользователям XenApp и XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
@@ -62,7 +62,7 @@ ms.locfileid: "42028000"
   
 Полное описание компонентов и поддерживаемых технологий можно найти на веб-сайте VMWare по следующим ссылкам:
   
-- [Новые возможности клиента горизонта VMware горизонта 7,4, &amp; , 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [Новые возможности клиента горизонта VMware горизонта 7,4,, &amp; 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Пакет виртуализации горизонта для Skype для бизнеса](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ ms.locfileid: "42028000"
     
 - Пользовательские мелодии звонка и функции хранения музыки.
     
-Подключаемый модуль VDI для Lync не поддерживается в среде Office 365.
+Подключаемый модуль VDI для Lync не поддерживается в средах Microsoft 365 или Office 365.
   
 > [!NOTE]
-> Пакет оптимизации в режиме реального времени поддерживает Office 365. В случае виртуальных сред на основе Citrix ознакомьтесь с документацией по [техническим обзорам](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Citrix, чтобы получить список поддерживаемых функций и версий.
+> Пакет оптимизации в режиме реального времени поддерживает Microsoft 365 и Office 365. В случае виртуальных сред на основе Citrix ознакомьтесь с документацией по [техническим обзорам](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Citrix, чтобы получить список поддерживаемых функций и версий.
   
 ## <a name="see-also"></a>См. также
 <a name="Citrix_RT"> </a>

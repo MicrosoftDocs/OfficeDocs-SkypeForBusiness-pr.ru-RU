@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Microsoft 365 или Office 365.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779715"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221853"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Подготовка учетных записей системы комнат Skype в Microsoft 365 и Office 365
  
-В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Office 365.
+В этом разделе рассказывается о подготовке учетных записей системы комнат Skype в Microsoft 365 или Office 365.
   
-В следующем разделе рассматривается подготовка учетной записи системы комнат Skype для организации Office 365.
+В следующем разделе рассматривается подготовка учетных записей системы комнат Skype.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Предварительные требования для Microsoft 365 и Office 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779715"
     
   - Доступ к удаленной оболочке PowerShell в Skype для бизнеса Online
     
-  - Модуль Windows Azure Active Directory для Windows PowerShell для доступа к каталогу Office 365
+  - Модуль Windows Azure Active Directory для Windows PowerShell для доступа к Microsoft 365 или Office 365 доступ к каталогу
     
 Для учетной записи комнаты Skype необходимо следующее лицензирование:
   
@@ -55,9 +55,9 @@ ms.locfileid: "43779715"
     
 ## <a name="provisioning-overview"></a>Общие сведения о подготовке
 
-На следующей схеме представлен обзор процесса подготовки учетной записи системы комнат Skype в Office 365.
+На следующей схеме представлен обзор процесса подготовки учетной записи системы комнат Skype.
   
-![Действия по подготовке системы комнат Skype для Office 365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Этапы подготовки системы комнат Skype](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Определение новой конференц-зала
 
@@ -93,7 +93,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Назначение лицензии Skype для бизнеса Online
 
-Теперь вы можете назначить лицензию Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3) с помощью административного портала Office 365, как описано в статье [назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [лицензии на надстройку Skype для бизнеса](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Теперь вы можете назначить лицензию Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3) с помощью административного портала Microsoft 365, как описано в [статье назначение и удаление лицензий для microsoft 365 для бизнеса](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [лицензии на надстройку Skype для бизнеса](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 После назначения лицензии для Skype для бизнеса Online вы сможете войти в систему и проверить, активна ли эта учетная запись с помощью любого клиента Skype для бизнеса.
   
@@ -126,7 +126,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="password-expiration"></a>Срок действия пароля
 
-В Office 365 политика истечения срока действия паролей по умолчанию для всех учетных записей пользователей составляет 90 дней, если не настроена другая политика истечения срока действия пароля. Для учетных записей системы комнат Skype можно выбрать параметр срок действия пароля не ограничен, выполнив указанные ниже действия.
+В Microsoft 365 или Office 365 политика истечения срока действия паролей по умолчанию для всех учетных записей пользователей составляет 90 дней, если не настроена другая политика истечения срока действия пароля. Для учетных записей системы комнат Skype можно выбрать параметр срок действия пароля не ограничен, выполнив указанные ниже действия.
   
 1. Создайте сеанс Windows Azure Active Directory с помощью учетных данных глобального администратора клиента.
     

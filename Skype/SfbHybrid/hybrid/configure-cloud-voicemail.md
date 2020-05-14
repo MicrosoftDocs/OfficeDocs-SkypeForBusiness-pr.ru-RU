@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288717"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221463"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organization** — это домен по умолчанию, назначенный вашему клиенту. Вы можете получить эту информацию, дополнив вход администратора клиента в office.com, выберите приложение центра администрирования, перейдите к разделу **Настройка** слева и нажмите кнопку **домены**. Пример: mytenant.onmicrosoft.com.
 
-    Имя организации также является именем домена по умолчанию в Office 365.
+    Имя организации также является именем домена по умолчанию в Microsoft 365 или Office 365.
 
 Чтобы убедиться, что политика размещенной голосовой почты успешно создана, выполните следующую команду:
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Включение поддержки облачной голосовой почты для пользователя

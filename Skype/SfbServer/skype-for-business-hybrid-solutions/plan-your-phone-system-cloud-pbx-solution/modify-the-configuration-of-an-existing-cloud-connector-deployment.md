@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего развертывания Skype для бизнеса Cloud Connector Edition 1.4.1 или более поздней версии.
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779385"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220299"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -109,7 +109,7 @@ ms.locfileid: "43779385"
 
 Чтобы изменить конфигурацию нескольких сайтов в развертывании, выполните действия для отдельного сайта, обновив по одному сайту за раз.
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Изменение конфигурации организации Office 365 для включения автоматических обновлений
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>Изменение конфигурации организации Microsoft 365 или Office 365 для включения автоматических обновлений
 <a name="BKMK_MultipleSites"> </a>
 
 Чтобы включить автоматическое обновление операционной системы и автоматическое обновление службы BITS, необходимо использовать учетную запись администратора клиента Skype для бизнеса для управления через Интернет и использовать удаленную оболочку PowerShell для клиента, как показано ниже.
@@ -161,9 +161,9 @@ ms.locfileid: "43779385"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Обновление выделенных учетных данных администратора клиента
 <a name="BKMK_MultipleSites"> </a>
 
-Административные изменения в организации Office 365 для Cloud Connector выполняются из учетной записи с необходимыми разрешениями. В версиях Cloud Connector до 2,0 эта учетная запись является выделенной учетной записью глобального администратора клиента. В Cloud Connector версии 2,0 и более поздней эта учетная запись может быть учетной записью Office 365 с правами администратора Skype для бизнеса.
+Административные изменения в организации Microsoft 365 или Office 365 для Cloud Connector выполняются из учетной записи с необходимыми разрешениями. В версиях Cloud Connector до 2,0 эта учетная запись является выделенной учетной записью глобального администратора клиента. В Cloud Connector версии 2,0 и более поздней эта учетная запись может быть учетной записью Microsoft 365 или Office 365 с правами администратора Skype для бизнеса.
   
-Если учетные данные учетной записи администратора изменяются в Office 365, также необходимо обновить локально кэшированные учетные данные в Cloud Connector, выполнив следующую команду администратора PowerShell на каждом развертываемом устройстве Cloud Connector:
+Если учетные данные учетной записи администратора меняются в Microsoft 365 или Office 365, также необходимо обновить локально кэшированные учетные данные в Cloud Connector, выполнив следующую команду администратора PowerShell на каждом развертываемом устройстве Cloud Connector:
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Этот раздел относится к Cloud Connector версии 2,0 и более поздних версий. 
   
-Все учетные данные Cloud Connector хранятся в следующем файле: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. XML ". При изменении пароля на сервере узла необходимо обновить локально хранимые учетные данные.
+Все учетные данные Cloud Connector хранятся в следующем файле: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML ". При изменении пароля на сервере узла необходимо обновить локально хранимые учетные данные.
   
 Чтобы обновить локально хранимые учетные данные на устройстве Cloud Connector, используйте командлеты [Get – CcCredential](get-cccredential.md) и [Set – CcCredential](set-cccredential.md) , а затем выполните указанные ниже действия.
   
@@ -191,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. Перезапустите сервер узла.
     
-4. Удалите следующий файл: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. XML ".
+4. Удалите следующий файл: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML ".
     
 5. Запустите консоль PowerShell от имени администратора, а затем выполните команду "Register – CcAppliance — Local", чтобы повторно ввести пароли, указанные в описании. Убедитесь, что вы ввели тот же пароль, который вы ввели перед развертыванием Cloud Connector.
     
@@ -215,7 +215,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Этот раздел относится к Cloud Connector версии 2.0.1 и более поздних версий. 
   
-Служба Cloud Connector выполняет службу управления Cloud Connector. Учетная запись CceService создается во время развертывания Cloud Connector Edition и хранится в следующих файлах: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. XML "и"%системдриве%\програмдата\клаудконнектор\кредентиалс.. CceService. XML ".
+Служба Cloud Connector выполняет службу управления Cloud Connector. Учетная запись CceService создается во время развертывания Cloud Connector Edition и хранится в следующих файлах: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML "и"%системдриве%\програмдата\клаудконнектор\кредентиалс.. CceService. XML ".
   
 Чтобы все устройства могли получать доступ к общему ресурсу каталога сайтов, пароль для учетной записи CceService должен быть одинаковым на всех устройствах, развернутых на сайте. Учитывайте следующее:
   
@@ -271,18 +271,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - кклоккфиле
     
-    - Полное\<доменное имя внешнего Sip пула Site_ пограничного сервера\>
+    - \<Полное доменное имя внешнего SIP пула Site_ пограничного сервера\>
     
-    - Полное\<доменное имя внешнего Sip пула Tenant_ пограничного сервера\>
+    - \<Полное доменное имя внешнего SIP пула Tenant_ пограничного сервера\>
     
-    - Полное\<доменное имя внешнего Sip пула TenantConfigLock_ пограничного сервера\>
+    - \<Полное доменное имя внешнего SIP пула TenantConfigLock_ пограничного сервера\>
     
 ## <a name="add-a-new-sip-domain"></a>Добавление нового домена SIP
 <a name="BKMK_UpdatePassword"> </a>
 
 Чтобы добавить новый домен SIP (или несколько доменов SIP) к существующему развертыванию Cloud Connector, выполните следующие действия:
   
-1. Убедитесь, что вы выполнили действия по обновлению домена в Office 365 и можете добавлять записи DNS. Дополнительные сведения о настройке домена в Office 365 приведены в статье [Добавление домена в office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Убедитесь, что вы выполнили действия по обновлению домена в Microsoft 365 или Office 365, а также можете добавлять записи DNS. Для получения дополнительных сведений о настройке домена в Microsoft 365 или Office 365, ознакомьтесь со статьей [Добавление домена в microsoft 365 или office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Обновите файл конфигурации Cloud Connector с помощью нового домена SIP или доменов.
     
@@ -303,7 +303,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 Если необходимо изменить основной домен SIP в развертывании Cloud Connector, выполните следующие действия:
   
-1. Убедитесь, что вы выполнили действия по обновлению домена в Office 365 и можете добавлять записи DNS. Дополнительные сведения о настройке домена в Office 365 приведены в статье [Добавление домена в office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Убедитесь, что вы выполнили действия по обновлению домена в Microsoft 365 или Office 365, а также можете добавлять записи DNS. Для получения дополнительных сведений о настройке домена в Microsoft 365 или Office 365, ознакомьтесь со статьей [Добавление домена в microsoft 365 или office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Обновите файл конфигурации Cloud Connector с помощью нового домена SIP.
     
@@ -362,7 +362,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. Перевести устройство в режим обслуживания с помощью командлета Enter – CcUpdate.
     
-2. Выполните следующую команду: 
+2. Выполните следующую команду. 
     
    ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import

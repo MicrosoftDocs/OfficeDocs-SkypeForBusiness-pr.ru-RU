@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Сводка: Настройка проверки подлинности "сервер-сервер" для гибридной среды Skype для бизнеса Server.'
-ms.openlocfilehash: 191d5d2f391df73401ff27e8c71a60624e74296c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6cc408677af4629d36b577da4ae38cd420195483
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780738"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221683"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности "сервер-сервер" для гибридной среды Skype для бизнеса Server.
 
 **Сводка:** Настройка проверки подлинности "сервер-сервер" для гибридной среды Skype для бизнеса Server.
 
-В гибридной конфигурации некоторые пользователи размещаются в локальной установке Skype для бизнеса Server, в то время как другие пользователи размещены в версии Office 365 Skype для бизнеса Server. Чтобы настроить межсерверную проверку подлинности в гибридной среде, необходимо сначала настроить локальную установку Skype для бизнеса Server, чтобы доверять серверу авторизации Office 365. Чтобы выполнить этот процесс, выполните следующий сценарий консоли управления Skype для бизнеса Server:
+В гибридной конфигурации некоторые пользователи размещаются в локальной установке Skype для бизнеса Server, в то время как другие пользователи размещены в Microsoft 365 или Office 365 Skype для бизнеса Server. Чтобы настроить межсерверную проверку подлинности в гибридной среде, необходимо сначала настроить локальную установку Skype для бизнеса Server, чтобы доверять серверу авторизации. Чтобы выполнить этот процесс, выполните следующий сценарий консоли управления Skype для бизнеса Server:
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -75,11 +75,11 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 Для выполнения этого сценария необходимо установить модуль PowerShell Skype для бизнеса Online и подключиться к клиенту с помощью этого модуля. Если вы не установили эти командлеты, сценарий завершится с ошибками, так как командлет Get-CsTenant будет недоступен. После выполнения сценария необходимо настроить отношение доверия между Skype для бизнеса Server и сервером авторизации, а также второе отношение доверия между Exchange 2013/2016 и сервером авторизации. Это можно выполнить только с помощью командлетов Microsoft Online Services.
 
 > [!NOTE]
-> Если командлеты Microsoft Online Services не установлены, их необходимо будет установить из репозитория PowerShell с помощью командлета `install-module MSOnline`. Подробные сведения об установке и использовании модуля Microsoft Online Services см. на веб-сайте, посвященном Office 365. Данные инструкции также помогут вам настроить единый вход, федерацию и синхронизацию между Office 365 и Active Directory. 
+> Если командлеты Microsoft Online Services не установлены, их необходимо будет установить из репозитория PowerShell с помощью командлета `install-module MSOnline` . Подробные сведения об установке и использовании модуля Microsoft Online Services можно найти на веб-сайте Microsoft 365. В этих инструкциях также рассказывается, как настроить единый вход, Федерацию и синхронизацию между Microsoft 365 или Office 365 и Active Directory. 
 
 
 
-После настройки Office 365 и создания субъектов-служб Office 365 для Skype для бизнеса Server и Exchange 2013 вам потребуется зарегистрировать учетные данные этих субъектов-служб. Для этого сначала необходимо получить сертификат X. 509 Base64, сохраненный в формате. CER-файл. После этого данный сертификат применяется к субъектам-службам Office 365.
+После того как вы настроили Microsoft 365 или Office 365, а после создания Microsoft 365 или Office 365 субъектов-служб для Skype для бизнеса Server и 2013 Exchange Server, вам потребуется зарегистрировать учетные данные этих субъектов-служб. Для этого сначала необходимо получить сертификат X. 509 Base64, сохраненный в формате. CER-файл. Затем этот сертификат будет применяться к субъектам служб Microsoft 365 или Office 365.
 
 После получения сертификата X. 509 откройте консоль PowerShell и импортируйте модуль Microsoft Online Windows PowerShell, содержащий командлеты, которые можно использовать для управления субъектами-службами:
 
@@ -87,7 +87,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 Import-Module MSOnline
 ```
 
-После завершения импорта модуля введите следующую команду и нажмите клавишу ВВОД для подключения к Office 365:
+После импорта модуля введите следующую команду и нажмите клавишу ВВОД:
 
 ```PowerShell
 Connect-MsolService
@@ -95,7 +95,7 @@ Connect-MsolService
 
 После нажатия клавиши ВВОД отображается диалоговое окно. Введите в диалоговом окне имя пользователя и пароль Microsoft 365 или Office 365, а затем нажмите кнопку ОК.
 
-После подключения к Office 365 можно выполнить следующую команду, чтобы получить сведения о субъектах службы:
+После подключения к Microsoft 365 или Office 365 можно выполнить следующую команду, чтобы получить сведения о субъектах службы:
 
 ```PowerShell
 Get-MsolServicePrincipal
@@ -120,10 +120,10 @@ TrustedForDelegation : True
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
 $certificate.Import("C:\Certificates\Office365.cer")
 $binaryValue = $certificate.GetRawCertData()
-$credentialsValue = [System.Convert]::ToBase64String($binaryValue)
+$credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-После завершения импорта и кодирования сертификата вы можете назначить его своим субъектам-службам Office 365. Для этого сначала используйте Get-MsolServicePrincipal, чтобы получить значение свойства AppPrincipalId как для Skype для бизнеса Server, так и для субъектов-служб Microsoft Exchange. значение свойства AppPrincipalId будет использоваться для идентификации участника службы, которому назначается сертификат. С помощью значения свойства AppPrincipalId для Skype для бизнеса Server в наличии выполните следующую команду, чтобы назначить сертификат для версии Skype для бизнеса Online:
+После импорта и кодирования сертификата вы можете назначить сертификат для участников службы Microsoft 365 или Office 365. Для этого сначала используйте Get-MsolServicePrincipal, чтобы получить значение свойства AppPrincipalId как для Skype для бизнеса Server, так и для субъектов-служб Microsoft Exchange. значение свойства AppPrincipalId будет использоваться для идентификации участника службы, которому назначается сертификат. С помощью значения свойства AppPrincipalId для Skype для бизнеса Server в наличии выполните следующую команду, чтобы назначить сертификат для версии Skype для бизнеса Online:
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -154,7 +154,7 @@ Usage     : Verify
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-В дополнение к назначению сертификата необходимо также настроить субъект-службу Exchange Online и настроить локальную версию URL-адресов внешних веб-служб Skype для бизнеса Server в качестве субъекта-службы Office 365. Для этого можно выполнить следующие две команды. 
+В дополнение к назначению сертификата необходимо также настроить субъект-службу Exchange Online и настроить локальную версию внешних URL-адресов Skype для бизнеса Server как в качестве субъекта-службы Microsoft 365 или Office 365. Для этого можно выполнить следующие две команды. 
 
 В следующем примере Pool1ExternalWebFQDN.contoso.com — это URL-адрес внешней веб-службы для пула Skype для бизнеса Server. Необходимо повторить эти действия, чтобы добавить все URL-адреса внешних веб-служб в развертывании.
 

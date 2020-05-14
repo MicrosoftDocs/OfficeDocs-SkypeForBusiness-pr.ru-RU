@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157765"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580707"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -31,10 +31,10 @@ ms.locfileid: "43157765"
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Сбор журналов в комнатах Microsoft Teams
 <a name="Logs"> </a>
 
-Для сбора журналов необходимо вызвать сценарий сбора журналов, который поставляется с приложением Microsoft Teams комнаты. В режиме администратора запустите запрос PowerShell с повышенными привилегиями и выполните следующую команду:
+Для сбора журналов необходимо вызвать сценарий сбора журналов, который поставляется с приложением Microsoft Teams комнаты. В режиме администрирования запустите командную строку с повышенными привилегиями и выполните следующую команду.
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 Журналы будут записываться в ZIP-файле в каталоге c:\rigel.
@@ -78,7 +78,7 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 |Параметр|Можете|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Включает комнаты Microsoft Teams для загрузки  <br/> |
-|Управление питанием\> в сети переменного тока, отключение экрана через 10 минут  <br/> Управление питанием\> — вкл., не переводит систему в спящий режим  <br/> |Позволяет комнатам Microsoft Teams отключить подключенные дисплеи и автоматически выключаться из спящего режима  <br/> |
+|Управление питанием \> в сети переменного тока, отключение экрана через 10 минут  <br/> Управление питанием — \> вкл., не переводит систему в спящий режим  <br/> |Позволяет комнатам Microsoft Teams отключить подключенные дисплеи и автоматически выключаться из спящего режима  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Или аналогичный способ отключения срока действия пароля в локальной учетной записи. Невыполнение этого действия приводит к тому, что учетной записи Skype не удается войти в систему с нарушением пароля. Обратите внимание, что это влияет на все локальные учетные записи на компьютере, поэтому при установке этого флажка также может возникнуть срок действия административной учетной записи в поле.  <br/> |Позволяет учетной записи Skype всегда выполнять вход.  <br/> |
    
 Передача файлов с помощью групповых политик рассматривается в разделе [Настройка элемента файла](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -113,7 +113,7 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 2. Откройте на компьютере стандартную командную кнопку PowerShell.
 3. Скопируйте текст команды из приведенной ниже таблицы и вставьте ее в строке запроса.
 4. Замените `<Device fqdn>` поля значениями полного доменного имени, соответствующими вашей среде.
-5. Замените * \<путь\> * именем файла и локальным путем к главному файлу конфигурации SkypeSettings. XML (или рисунку темы).
+5. Замените * \< путь \> * именем файла и локальным путем к главному файлу конфигурации SkypeSettings. XML (или рисунку темы).
     
 Получение подключенных устройств
   
@@ -173,11 +173,11 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>Обновление с помощью PowerShell
 
 1. Извлеките пакет из [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -файла установки в папку, к которой можно получить доступ на устройстве.
-2. Запустите следующий сценарий, нацеленный на устройства Microsoft Teams комнаты, \<и\> измените его на общий доступ к устройствам.
+2. Запустите следующий сценарий, нацеленный на устройства Microsoft Teams комнаты, и измените \< \> его на общий доступ к устройствам.
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>Режим администрирования и управление устройствами
 <a name="AdminMode"> </a>

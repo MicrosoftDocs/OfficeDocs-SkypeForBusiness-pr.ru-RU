@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании средств телеметрии Skype для бизнеса Online для мониторинга локальной реализации в гибридном сценарии.
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779665"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221319"
 ---
 # <a name="plan-call-data-connector"></a>Планирование соединителя данных вызовов
 
@@ -54,18 +54,18 @@ ms.locfileid: "43779665"
 
 ![Облачная Голосовая почта SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 В следующих требованиях предполагается, что у вас уже развернут Skype для бизнеса Server в поддерживаемой топологии.  Более подробную информацию о развертывании Skype для бизнеса Server и поддерживаемых топологий можно узнать в статье [основы топологии](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Чтобы настроить соединитель данных вызовов, необходимо выполнить следующие действия:
 
 - Включение гибридного подключения. Если вы уже развернули Skype для бизнеса Server и хотите включить соединитель данных вызовов, необходимо убедиться в том, что гибридное подключение настроено между локальной средой и интернет-средой. Иногда это называется разделенной конфигурацией домена.
 
-   Для получения дополнительных сведений ознакомьтесь со статьей [планирование гибридного подключения между Skype для бизнеса Server и office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Office 365](configure-hybrid-connectivity.md).
+   Для получения дополнительных сведений ознакомьтесь [со статьей Планирование гибридного подключения между Skype для бизнеса Server и microsoft 365 или Office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Microsoft 365 или Office 365](configure-hybrid-connectivity.md).
 
-- Выполните проверку подлинности в организации Office 365 и убедитесь, что включены следующие роли:
+- Выполните проверку подлинности в вашей организации Microsoft 365 или Office 365 и убедитесь, что включены следующие роли:
 
   - Администратор Skype для бизнеса Server
-  - Глобальный администратор
+  - Microsoft 365 или глобальный администратор Office 365
 
 - Если вы еще не сделали это, включите панель мониторинга качества звонков, как описано в разделе [Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510808"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221299"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
 Автосекретарь, используемый с единой системой обмена сообщениями Exchange (Exchange Server 2013 или Exchange Server 2016), больше недоступен в Exchange Server 2019 или Exchange Online. Если ваша реализация Skype для бизнеса Server 2019 интегрируется с любой из этих версий Exchange, вам потребуется использовать функции голосовой связи в Интернете, связанные с телефонной системой. Сведения о перемещении служб единой системы обмена сообщениями Exchange, размещенных на сервере Exchange Server 2013 и 2016, приведены в статье [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md) .
 
-Это означает, что у вас будет гибридная реализация Skype для бизнеса Server 2019, если вы хотите использовать функции единой системы обмена сообщениями, такие как автосекретарей. Для получения дополнительных сведений см. [Настройка гибридного подключения между Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md) .
+Это означает, что у вас будет гибридная реализация Skype для бизнеса Server 2019, если вы хотите использовать функции единой системы обмена сообщениями, такие как автосекретарей. Для получения дополнительных сведений см. [Настройка гибридного подключения между Skype для бизнеса Server и microsoft 365 или Office 365](configure-hybrid-connectivity.md) .
 
 Автосекретарь — это облачная служба, которая принимает звонки клиентов и воспроизводит приветствия, предоставляет им варианты меню и взаимодействует с абонентами, используя голосовые функции или панель набора номера, для направления вызовов в нужное место. Каждому автосекретарьу назначена *учетная запись ресурса* (см. [Настройка учетных записей ресурсов](configure-onprem-ra.md)) в системе Skype для бизнеса Server 2019, которая будет связана непосредственно с автосекретарем в центре администрирования Microsoft Teams. Узнайте [, что такое автосекретарей для облачных приложений?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) дополнительные сведения о том, какие автосекретаря и какие функции доступны для автосекретарей.
 
@@ -36,14 +36,14 @@ ms.locfileid: "43510808"
 
 1. С помощью Skype для бизнеса Server 2019
 2. Через [пограничный контроллер сеансов](/MicrosoftTeams/direct-routing-border-controllers.md) и [прямую маршрутизацию](/MicrosoftTeams/direct-routing-plan.md)
-3. Через номер, размещенный в Интернете в Office 365.
+3. Через номер, размещенный в Интернете в Microsoft 365 или Office 365.
 
 См. также:
 
 - [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Автоматический ответ и маршрутизация для входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 В приведенных ниже требованиях предполагается, что у вас уже развернут Skype для бизнеса Server 2019 в поддерживаемой топологии.  Требования зависят от вашего сценария:
 
@@ -55,7 +55,7 @@ ms.locfileid: "43510808"
 
 - Гибридное подключение. Если вы уже развернули Skype для бизнеса Server и хотите включить облачный автосекретарь для локальных пользователей, необходимо убедиться в том, что гибридное подключение настроено между локальной средой и интернет-средой. Иногда это называется разделенной конфигурацией домена.
 
-   Для получения дополнительных сведений ознакомьтесь со статьей [планирование гибридного подключения между Skype для бизнеса Server и office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Office 365](configure-hybrid-connectivity.md).
+   Для получения дополнительных сведений ознакомьтесь [со статьей Планирование гибридного подключения между Skype для бизнеса Server и microsoft 365 или Office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Microsoft 365 или Office 365](configure-hybrid-connectivity.md).
 
 - Если вы назначаете номер телефона автосекретаря, вам потребуется лицензия на [Office 365 Корпоративная](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
 - Создайте [учетную запись](/MicrosoftTeams/manage-resource-accounts.md) Интернет-ресурса или локальную [учетную запись](configure-onprem-ra.md) для каждого автосекретаря, а также назначьте номера телефонов и лицензии. 
@@ -114,8 +114,8 @@ ms.locfileid: "43510808"
 
 Единая система обмена сообщениями Exchange: [Автоматический ответ и Маршрутизация входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Планирование гибридного подключения между приложением Skype для бизнеса Server и Office 365](plan-hybrid-connectivity.md)
+[Планирование гибридного подключения между Skype для бизнеса Server и Microsoft 365 или Office 365](plan-hybrid-connectivity.md)
 
-[Настройка гибридного подключения между приложением Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md)
+[Настройка гибридного подключения между Skype для бизнеса Server и Microsoft 365 или Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: сбой вызовов абонентского доступа или автосекретаря с быстрым занятием и сообщение об ошибке "внутренний сервер 500" после перемещения объектов контакта в Skype для бизнеса Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

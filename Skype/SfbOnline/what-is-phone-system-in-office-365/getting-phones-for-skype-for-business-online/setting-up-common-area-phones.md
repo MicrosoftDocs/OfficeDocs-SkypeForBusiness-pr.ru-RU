@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для стационарных телефонов с областями.
-ms.openlocfilehash: bfba106c262fb558a468f8cad26b3555b81b125e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 02cab34b4a1f220e8f28ceeee794470191582704
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220409"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -37,10 +37,10 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - Приобрести лицензию на телефон общего пользования и тарифный план.
 - Найти и приобрести одобренные телефоны (вы можете просмотреть их список[здесь](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Polycom VVX phones**: перейдите в раздел **Параметры** > **** > **** > **приложения** > Platform**Main**.
+  - **Polycom VVX phones**: перейдите в раздел **Параметры**  >  **Status**  >  **Platform**  >  **приложения**Platform  >  **Main**.
   - **Yealinkные телефоны**: переход к **состоянию** на главном экране телефона.
-  - **AudioCodes телефоны**: переход в **меню** > "**состояние** > устройства **" на** начальном экране.
-  - **Lync Phone Edition (LPE)**: выберите **пункт** > "**сведения о системе** " на начальном экране.
+  - **AudioCodes телефоны**: переход в **меню**"  >  **состояние устройства**" на  >  **Firmware version** начальном экране.
+  - **Lync Phone Edition (LPE)**: выберите пункт " **Menu**  >  **сведения о системе** " на начальном экране.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -50,7 +50,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 Вам потребуется выполнить следующие шаги:
 
 ### <a name="step-1---buy-the-licenses"></a>Шаг 1. Приобретение лицензий
-1. В центре администрирования перейдите в раздел**услуги**по **выставлению счетов** > и добавьте **другие планы**.
+1. В центре администрирования перейдите в раздел Услуги по **выставлению счетов**  >  **Purchase services**и добавьте **другие планы**.
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Нажмите на **Телефон общего пользования** > **Купить**, на странице **Оформление заказа** нажмите кнопку **Купить**.
@@ -62,7 +62,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 Дополнительные сведения о лицензиях можно найти в [статье Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Шаг 2. Создание новой учетной записи пользователя для телефона и назначение лицензии
-1. В центре администрирования перейдите в раздел **Пользователи** > , которые являются**активными** > , чтобы**Добавить пользователя**.
+1. В центре администрирования перейдите в раздел **Пользователи**, которые являются активными, чтобы  >  **Active Users**  >  **Добавить пользователя**.
 2. В поле **Имя пользователя** укажите, например, "Основная", а в графе для фамилии — "Приемная".
 3. В поле **Отображаемое имя**, если оно не заполнилось автоматически, укажите, например, "Главная Приемная".
 4. В поле**Имя пользователя** укажите, например, "MainReception" или "Mainlobby".
@@ -82,9 +82,9 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Шаг 3 - Назначьте номер телефона учетной записи пользователя телефона общего пользования
 
-![Значок, показывающий логотип](../../images/sfb-logo-30x30.png) Skype для бизнеса, назначает пользователю телефонный номер с помощью **центра администрирования Skype для бизнеса** .
+![Значок, показывающий логотип Skype для бизнеса, ](../../images/sfb-logo-30x30.png) назначает пользователю телефонный номер с помощью **центра администрирования Skype для бизнеса** .
 
-1. В центре администрирования > >  **"центр администрирования"** в**Skype для бизнеса**.
+1. В центре администрирования > **"центр администрирования"** в  >  **Skype для бизнеса**.
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.
 3. Выберите номер телефона из списка и нажмите **Назначить**.
 4. На странице **Назначить** в поле **Пользователь голосовой связи** введите имя пользователя телефона, а затем выберите пользователя в выпадающем списке **Выбор пользователя голосовой связи**.
@@ -98,7 +98,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
 
-При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Посмотрите, [перенесите номера телефонов в Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Если вы заинтересовались, вы также можете использовать свой номер телефона, который вы используете для связи с другой несущей и "*порт*", или передать их в Microsoft 365 или Office 365. Посмотрите, [перенесите номера телефонов в Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Шаг 4. Настройка телефона
 
@@ -138,10 +138,10 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 
 > [!NOTE]
-> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизируете локальную службу Active Directory с AAD и используете сторонние IDP или ADFS, инициализация закрепления завершается сбоем. В этом случае необходимо использовать учетную запись Office 365 или Azure Active Directory только (например, учетную запись с доменом **onmicrosoft.com** ), чтобы подготовиться к работе.
+> Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизируете локальную службу Active Directory с AAD и используете сторонние IDP или ADFS, инициализация закрепления завершается сбоем. В этом случае необходимо использовать учетную запись Microsoft 365 или Office 365 или Azure Active Directory только (например, учетную запись с доменом **onmicrosoft.com** ), чтобы подготовиться к работе.
 
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 
 - Узнайте больше о доступных телефонах в статье [Развертывание телефонов Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)

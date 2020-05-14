@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019.
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510798"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221309"
 ---
 # <a name="plan-cloud-call-queues"></a>Планирование очередей облачных вызовов
 
@@ -33,7 +33,7 @@ ms.locfileid: "43510798"
 > [!NOTE]
 > Очереди звонков можно назначить несколько телефонных номеров, но они должны быть номерами службы Майкрософт, прямыми номерами маршрутизации или гибридными номерами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 В приведенных ниже требованиях предполагается, что у вас уже развернут Skype для бизнеса Server 2019 в поддерживаемой топологии.  Требования зависят от вашего сценария:
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510798"
 
 - Гибридное подключение. Если вы уже развернули Skype для бизнеса Server и хотите включить очереди облачных вызовов для локальных пользователей, необходимо убедиться в том, что гибридное подключение настроено между локальной средой и интернет-средой. Иногда это называется разделенной конфигурацией домена.
 
-   Для получения дополнительных сведений ознакомьтесь со статьей [планирование гибридного подключения между Skype для бизнеса Server и office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Office 365](configure-hybrid-connectivity.md).
+   Для получения дополнительных сведений ознакомьтесь [со статьей Планирование гибридного подключения между Skype для бизнеса Server и microsoft 365 или Office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Microsoft 365 или Office 365](configure-hybrid-connectivity.md).
 
 - Если вы назначаете номер телефона для учетной записи ресурса, вы можете использовать лицензию на виртуальную машину с свободной стоимостью для телефонной системы. Это обеспечивает возможности телефонной системы для телефонных номеров на уровне Организации, а также позволяет создавать автосекретарь и возможности очереди звонков.
 
@@ -65,8 +65,8 @@ ms.locfileid: "43510798"
 
 [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Планирование гибридного подключения между приложением Skype для бизнеса Server и Office 365](plan-hybrid-connectivity.md)
+[Планирование гибридного подключения между Skype для бизнеса Server и Microsoft 365 или Office 365](plan-hybrid-connectivity.md)
 
-[Настройка гибридного подключения между приложением Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md)
+[Настройка гибридного подключения между Skype для бизнеса Server и Microsoft 365 или Office 365](configure-hybrid-connectivity.md)
 
 [Управление учетными записями ресурсов в Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)
