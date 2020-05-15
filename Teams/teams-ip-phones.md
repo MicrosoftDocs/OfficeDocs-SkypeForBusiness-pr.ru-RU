@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 517cea81f2cbe47f43fe38b2761b774f49c425c4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041837"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230657"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -48,8 +48,8 @@ ms.locfileid: "44041837"
 |:---|:---|:---|
 |AudioCodes C450HD | C450HD_TEAMS_0.225 | Март 2019 г.|
 |AudioCodes C448HD (только режим CAP) | C450HD_TEAMS_0.225 | Март 2019 г.|
-|Crestron M100|2.3875.00068|Декабрь 2018 г.|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
+|Crestron M100| Этот продукт был прекращен. Чтобы получить дополнительные сведения, посетите веб-сайт [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) на сайте Crestron. | Прекращено на 5/11/2020|
+|Crestron Flex UC-P100-T & UC-P110-T  | Этот продукт был прекращен. Дополнительные сведения можно найти на веб-сайте Crestron на устройстве [UC]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) . |Прекращено на 5/11/2020|
 |Представление Lenovo ThinkSmart|CD-18781Y. 200410.067|Апрель 2020|
 |Poly CCX400 | 1.0.0.0200 | 2020 января|
 |Poly CCX600 | 5.9.12.1111| 2020 января|
@@ -86,3 +86,5 @@ ms.locfileid: "44041837"
 Узнайте больше о [программах для сертификации Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
 [Ознакомьтесь с телефонами Microsoft Teams и сертифицированными устройствами.](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[Взаимодействие Teams и Skype](teams-skype-interop.md)

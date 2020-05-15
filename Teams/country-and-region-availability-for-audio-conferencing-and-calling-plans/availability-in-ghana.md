@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гана.
-ms.openlocfilehash: 0b19a4ee15a0816678cef73b34fe27a63604c4fc
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Гана.
+ms.openlocfilehash: 51ebdf05fae96426fbcd4d81c00e521206e100e2
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853455"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231158"
 ---
 # <a name="availability-in-ghana"></a>Доступность в Гана
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гана.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Гана.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

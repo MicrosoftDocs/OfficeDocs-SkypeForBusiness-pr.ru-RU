@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Латвии.
-ms.openlocfilehash: 96acb1df92b9c79244da2903393c0e8462a08c5b
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Латвии.
+ms.openlocfilehash: 9df5e45a6265c16a92b323adb6959082e212311e
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853048"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231018"
 ---
 # <a name="availability-in-latvia"></a>Доступность в Латвии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Латвии.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Латвии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

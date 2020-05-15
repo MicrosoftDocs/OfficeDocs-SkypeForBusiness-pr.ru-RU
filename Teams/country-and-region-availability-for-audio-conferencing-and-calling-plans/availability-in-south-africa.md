@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Южной Африки.
-ms.openlocfilehash: 55783d94ced555f519d19dbc7085e936a652b3f2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Южно-Африканского Республика.
+ms.openlocfilehash: dfa8c494b6c1d0205c41a82950f0d1c9603ec451
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852406"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231038"
 ---
 # <a name="availability-in-south-africa"></a>Доступность в ЮАР
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Южной Африки.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Южно-Африканского Республика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

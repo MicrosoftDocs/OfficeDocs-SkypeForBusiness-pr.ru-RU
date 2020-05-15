@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Нидерландов.
-ms.openlocfilehash: 81e2d10bb9f01bbb1d3ac5f9eb0534a785f4cfc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Нидерландов.
+ms.openlocfilehash: dc8250fd0f40b91489ccf05ce7dc70d8a57af0d8
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683462"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230667"
 ---
 # <a name="availability-in-the-netherlands"></a>Доступность в Нидерландах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Нидерландов.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Нидерландов.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

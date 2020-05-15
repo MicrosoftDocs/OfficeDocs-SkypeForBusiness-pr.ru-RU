@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Финляндии.
-ms.openlocfilehash: e4330aa30b6c3c36419c1d760556f6e9654f5e3e
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Финляндии.
+ms.openlocfilehash: 0668bb9868415395ff4234916c3061e229ae807e
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853554"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230928"
 ---
 # <a name="availability-in-finland"></a>Доступность в Финляндии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Финляндии.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Финляндии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Беларуси.
-ms.openlocfilehash: f9793bb875258d3dbf150fa197540dfc112cd272
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Беларусь.
+ms.openlocfilehash: dfb7e593c42523231701930bbcdfe79a3acba8c1
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853884"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230467"
 ---
 # <a name="availability-in-belarus"></a>Доступность в Беларуси
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Беларуси.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Беларусь.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

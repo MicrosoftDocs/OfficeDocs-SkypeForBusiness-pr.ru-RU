@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Македония.
-ms.openlocfilehash: b19b786986b041e0d7bd3a74e5f92a1d20500539
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно найти в Македония.
+ms.openlocfilehash: 24336b66855d99721e17d9ec8c805798c328881c
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853018"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230437"
 ---
 # <a name="availability-in-macedonia"></a>Доступность в Македонии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Македония.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно найти в Македония.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

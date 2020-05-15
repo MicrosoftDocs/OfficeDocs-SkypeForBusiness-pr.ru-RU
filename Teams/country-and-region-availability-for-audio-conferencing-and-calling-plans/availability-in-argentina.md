@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Аргентина.
-ms.openlocfilehash: 0c92eddc078138dc8faaee7297bd80f17e6a7330
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Аргентина.
+ms.openlocfilehash: 96956aefc5e26e90372c5cf7751e45c865876c7f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853934"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230477"
 ---
 # <a name="availability-in-argentina"></a>Доступность в Аргентине
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Аргентина.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Аргентина.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

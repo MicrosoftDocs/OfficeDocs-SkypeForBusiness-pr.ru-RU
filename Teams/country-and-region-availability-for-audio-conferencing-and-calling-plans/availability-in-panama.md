@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Панама.
-ms.openlocfilehash: c4ef573d8e1f91c0fd0ced5567eac926c445820c
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Панама.
+ms.openlocfilehash: 380c41fc93b5eaee38648318a0efbbb6225b9770
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852895"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230878"
 ---
 # <a name="availability-in-panama"></a>Доступность в Панаме
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Панама.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Панама.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

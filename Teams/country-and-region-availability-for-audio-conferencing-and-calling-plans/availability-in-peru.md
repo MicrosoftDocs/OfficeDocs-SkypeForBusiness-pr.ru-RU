@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Перу.
-ms.openlocfilehash: 00bc382da30ab7aeedb9f0a275d81e621e9a567f
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Перу.
+ms.openlocfilehash: 19ef892fd3b4ba8499d08f8df034882e76285586
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852726"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230988"
 ---
 # <a name="availability-in-peru"></a>Доступность в Перу
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Перу.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Перу.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

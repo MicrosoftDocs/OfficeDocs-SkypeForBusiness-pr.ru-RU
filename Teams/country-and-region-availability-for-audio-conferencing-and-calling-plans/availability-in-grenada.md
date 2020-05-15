@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гренада.
-ms.openlocfilehash: a828293e7a469a6cecc56847499881486f50a8cb
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гренада.
+ms.openlocfilehash: 50e5814eb22e365a9de4523ac733ec5b80b8827d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853444"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230797"
 ---
 # <a name="availability-in-grenada"></a>Доступность в Гренада
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гренада.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гренада.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

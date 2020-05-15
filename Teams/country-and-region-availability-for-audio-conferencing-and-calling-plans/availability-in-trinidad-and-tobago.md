@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Тринидад и Тобаго.
-ms.openlocfilehash: 1828add9420ba55c789e058b0f0c6e16350cb63b
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Тринидад и Тобаго.
+ms.openlocfilehash: 2df4d322c4d1a19d852be7f334cf53969b4f81a0
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852175"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230517"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Доступность в Тринидаде и Тобаго
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Тринидад и Тобаго.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Тринидад и Тобаго.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

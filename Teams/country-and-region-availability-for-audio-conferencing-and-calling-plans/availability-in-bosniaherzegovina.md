@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Босния и Герцеговина.
-ms.openlocfilehash: 05191bd639a84915a82a6636dc2dc97ebf7033bb
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Босния и Герцеговина.
+ms.openlocfilehash: 064d7e2ecf02d7ed47bb029bce3b11fdde811089
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853844"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230457"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Доступность в Боснии и Герцеговине
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Босния и Герцеговина.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Босния и Герцеговина.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

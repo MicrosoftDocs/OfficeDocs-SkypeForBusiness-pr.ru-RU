@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Люксембург.
-ms.openlocfilehash: 90909e28d228dd8ec931f91a6a25fb6fd7f74cbb
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы для Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Люксембург.
+ms.openlocfilehash: 018aab1e9ef0322a75b2d7ea24c96ec27ef9c4c6
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853028"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230948"
 ---
 # <a name="availability-in-luxembourg"></a>Доступность в Люксембурге
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Люксембург.
+Ниже указаны службы для Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Люксембург.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

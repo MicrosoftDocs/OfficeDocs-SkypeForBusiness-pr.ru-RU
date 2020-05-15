@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Люсия.
-ms.openlocfilehash: 5bb88e39294d2ad8260d1ba71452c5a2cea6edb5
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Сент-Люсия.
+ms.openlocfilehash: 46a1e39a36435f8ef129b7a9e59fd569544d7df1
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852636"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231068"
 ---
 # <a name="availability-in-saint-lucia"></a>Доступность в Сент-Люсия
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Люсия.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для Сент-Люсия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

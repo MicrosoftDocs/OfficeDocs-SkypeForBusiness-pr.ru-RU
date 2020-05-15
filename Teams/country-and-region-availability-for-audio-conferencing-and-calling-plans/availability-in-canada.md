@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Здесь представлены доступные в Канаде службы Office 365 для Microsoft Teams и Skype для бизнеса.
-ms.openlocfilehash: fbf1f2aafdaf2a05d303548e45f56ab519af9493
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Канады.
+ms.openlocfilehash: b2ee63ca498e810d7eebdb80ab6252ce97864401
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695264"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230968"
 ---
 # <a name="availability-in-canada"></a>Доступность в Канаде
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Здесь представлены доступные в Канаде службы Office 365 для Microsoft  Teams и Skype для бизнеса.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Канады.
 
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

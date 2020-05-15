@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
-ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
-ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Индии.
+ms.openlocfilehash: 7ec292a4d30db652df19a8e31c26d2bf5542a750
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632764"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231148"
 ---
 # <a name="availability-in-india"></a>Доступность в Индии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Индии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

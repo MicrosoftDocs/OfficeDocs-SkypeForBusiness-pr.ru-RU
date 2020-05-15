@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминиканская Республика.
-ms.openlocfilehash: 8a74c555bf95bea0729b02319d52fc3329448bcd
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминиканская Республика.
+ms.openlocfilehash: e9fe7aae6454ea7355c3cce80e396d6d11dd900b
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852276"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230557"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Доступность в Доминиканской Республике
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминиканская Республика.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминиканская Республика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

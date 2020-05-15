@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для России.
-ms.openlocfilehash: d1565332abc89883718be98b01f521bfced97377
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для России.
+ms.openlocfilehash: e511aa0acd94efe2a865fc156e081b03eaf2e236
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852566"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231088"
 ---
 # <a name="availability-in-russia"></a>Наличие в России
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для России.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для России.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

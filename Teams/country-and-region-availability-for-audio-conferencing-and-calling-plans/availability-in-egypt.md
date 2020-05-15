@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Египета.
-ms.openlocfilehash: d591e217320e7c83af7b196cf7a74126a027cbb8
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Египетами.
+ms.openlocfilehash: 7a7ecae60201ac6081566d231ff47e2cf11f775a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047832"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230257"
 ---
 # <a name="availability-in-egypt"></a>Доступность в Египте
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Египета.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Египетами.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Багамы.
-ms.openlocfilehash: e29521e5af41fae97570f4f66baf134952a5ce49
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Багамы.
+ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852332"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230757"
 ---
 # <a name="availability-in-the-bahamas"></a>Доступность в Багамы
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Багамы.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Багамы.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

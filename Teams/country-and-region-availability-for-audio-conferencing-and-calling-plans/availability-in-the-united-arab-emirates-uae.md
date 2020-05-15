@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Объединенных Арабских ОАЭ.
-ms.openlocfilehash: 5b414f65a03ff2f37d3cac3988213e355e5c8895
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Объединенных Арабских ОАЭ.
+ms.openlocfilehash: 09e2fc5402966157cd1f3fc4acc1030abd5a82b4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852173"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230537"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Доступность в Объединенных Арабских Эмиратах (ОАЭ)
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Объединенных Арабских ОАЭ.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Объединенных Арабских ОАЭ.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

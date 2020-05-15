@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 'Здесь представлены доступные в Колумбии службы Office 365 для Microsoft Teams и Skype для бизнеса '
-ms.openlocfilehash: 57d93d1e4fd447f21a0e395d6a7ef0880bc31d86
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для компании Колумбия.
+ms.openlocfilehash: cff465acc697803ab94cd9fb8da867c1f490651e
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853684"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231198"
 ---
 # <a name="availability-in-colombia"></a>Доступность в Колумбии
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Здесь представлены доступные в Колумбии службы Office 365 для Microsoft  Teams и Skype для бизнеса 
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для компании Колумбия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

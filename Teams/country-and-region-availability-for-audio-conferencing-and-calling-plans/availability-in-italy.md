@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Италии.
-ms.openlocfilehash: 982dac5989c66f743df1c0e1dca41e2c34ae4d7e
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Италии.
+ms.openlocfilehash: b768830a77a14538a33e58a8cfbe9a99bfed52f2
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853294"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229197"
 ---
 # <a name="availability-in-italy"></a>Доступность в Италии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Италии.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Италии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

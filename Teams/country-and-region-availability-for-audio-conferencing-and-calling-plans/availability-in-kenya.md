@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
-ms.openlocfilehash: 20a71aad93f88d8eb0204e290f7c74f52a29ba43
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
+ms.openlocfilehash: 87d93c2de04730289272b99f34fa68c1cf7dbb14
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853194"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231118"
 ---
 # <a name="availability-in-kenya"></a>Доступность в Кении
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

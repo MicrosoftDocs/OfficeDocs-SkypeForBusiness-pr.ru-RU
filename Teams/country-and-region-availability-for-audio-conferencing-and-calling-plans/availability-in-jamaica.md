@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Ямайка.
-ms.openlocfilehash: 1c433f78fdc0b3558cd8f3922b5876b280bfd216
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Ямайка.
+ms.openlocfilehash: a2282aad83c7e07411010416b4a40b8dd280542c
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853254"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229236"
 ---
 # <a name="availability-in-jamaica"></a>Доступность в Ямайка
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Ямайка.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Ямайка.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

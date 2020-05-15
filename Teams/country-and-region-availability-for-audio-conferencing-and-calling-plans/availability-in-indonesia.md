@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индонезия.
-ms.openlocfilehash: 3c17f597343ba2f23ecd5070059852c4d477b6f0
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Индонезия.
+ms.openlocfilehash: 632c39d739deed7d4745485b7d005e0c5b564140
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853304"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231138"
 ---
 # <a name="availability-in-indonesia"></a>Доступность в Индонезии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индонезия.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Индонезия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

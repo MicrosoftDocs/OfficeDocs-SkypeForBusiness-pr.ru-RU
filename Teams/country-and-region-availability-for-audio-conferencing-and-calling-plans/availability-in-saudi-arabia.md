@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
-ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
+ms.openlocfilehash: 01232ae21c0a5a6a442380ebbfb0c587f1b45093
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047838"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231058"
 ---
 # <a name="availability-in-saudi-arabia"></a>Доступность в Саудовской Аравии
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

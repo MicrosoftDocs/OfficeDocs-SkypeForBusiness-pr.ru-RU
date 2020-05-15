@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
-ms.openlocfilehash: b7921c81c736c286cbb6ade0494835b0cab97951
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
+ms.openlocfilehash: 8dbca02d417844d1f8ba87fffefbe5fa938db78b
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852556"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231078"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Китс и Невис
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

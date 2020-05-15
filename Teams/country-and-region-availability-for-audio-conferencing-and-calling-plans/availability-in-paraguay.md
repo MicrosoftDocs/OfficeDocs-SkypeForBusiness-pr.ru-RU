@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Парагвайов.
-ms.openlocfilehash: 94a423f80f9cac9c615810221ae9c53e4371ac32
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Парагвайов.
+ms.openlocfilehash: 608b1f9afbb191d8b78d42c886a6459c32aaaa9a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852736"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230347"
 ---
 # <a name="availability-in-paraguay"></a>Доступность в Парагвае
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Парагвайов.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Парагвайов.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

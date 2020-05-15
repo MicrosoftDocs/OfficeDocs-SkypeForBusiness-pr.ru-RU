@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях для поддержки комнат Microsoft Teams, в том числе выбора соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 098b5e9fd46c52957eecf288962b3f4e212c5b83
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905401"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230827"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -79,7 +79,7 @@ ms.locfileid: "43905401"
   |Surface Pro </br>(fifth Gen) |Core i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
   |Surface Pro 4 |Core i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
 
-- Устройства Surface Pro требуют наличие одной из следующих док-станций для установки планшета в конференц-зале.
+- Устройства Surface Pro должны иметь одну из указанных ниже опций стыковочного узла:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -92,6 +92,8 @@ ms.locfileid: "43905401"
 |Периферийные устройства комнат Microsoft Teams|Сертифицированная версия встроенного ПО | Камера поддерживающая использование содержимого|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Камера Jabra Panacast](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -144,7 +146,7 @@ ms.locfileid: "43905401"
 |:-----|:-----|:-----|:-----|:-----|
 |**Фокус** <br/> 10' x 9'   |2–4  |1.5 м  |Logitech Connect  |Устройство Logitech Connect оснащено камерой, поэтому его следует размещать в стороне от стола, за которым проходит собрание, а не в его центре. |
 |**Маленькое** <br/> 16' x 16'  |4–6  |2.0 м  |Jabra 510 <br/> Sennheiser SP20  |Для комнат большего размера громкости воспроизведения может быть недостаточно.  |
-|**Среднее** <br/> 18' x 20'  |6–12  |2.4 м  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Устройство Logitech MeetUp оснащено камерой, поэтому его следует размещать в стороне от стола, за которым проходит собрание, а не в его центре. <br/> В помещениях с длинным прямоугольным столом или столом в форме буквы "U" лучше использовать спутниковые микрофоны. <br/> В конфигурации последовательной цепочки необходимо использовать пакет SP 220 MS.  |
+|**Среднее** <br/> 18' x 20'  |6–12  |2.4 м  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Устройство Logitech MeetUp оснащено камерой, поэтому его следует размещать в стороне от стола, за которым проходит собрание, а не в его центре. <br/> В помещениях с длинным прямоугольным столом или столом в форме буквы "U" лучше использовать спутниковые микрофоны. <br/> В конфигурации последовательной цепочки необходимо использовать пакет SP 220 MS.  |
 |**Большое** <br/> 15' x 32'  |12–16  |3 м <br/> Это расстояние также распространяется на область, охватываемую каждым подключенным микрофоном.  |Logitech Group + спутниковые микрофоны <br/> Polycom Trio+ спутниковые микрофоны <br/> Polycom CX5100 + спутниковые микрофоны <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + спутниковые микрофоны  |Все перечисленные звуковые устройства поддерживают дополнительные параметры спутникового микрофона. <br/> Устройство CX5100 оснащено встроенной камерой с круговым обзором, что позволяет размещать его в центре стола. <br/> В конфигурации последовательной цепочки необходимо использовать пакет SP 220 MS.  |
 
 **Сертифицированные периферийные видео-устройства комнат Microsoft Teams**

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
-ms.openlocfilehash: 66704409757c1edb5f18d19ee490a16af3a6a838
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
+ms.openlocfilehash: 6bf47cc134dd5b1b532933b7c1ee3d6bc173543c
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853664"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231188"
 ---
 # <a name="availability-in-costa-rica"></a>Доступность в Коста-Рике
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или Узнайте больше о доступности страны и региона для голосовой конференции и планов звонков.
 
-Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Марокко.
-ms.openlocfilehash: 86fde9784d8182e091931e59a5bb89d3a1ccf2f9
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве "Марокко".
+ms.openlocfilehash: af7c23039571f072b9c5a030d02eabe76c990f02
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852968"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230377"
 ---
 # <a name="availability-in-morocco"></a>Доступность в Марокко
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Марокко.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве "Марокко".
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

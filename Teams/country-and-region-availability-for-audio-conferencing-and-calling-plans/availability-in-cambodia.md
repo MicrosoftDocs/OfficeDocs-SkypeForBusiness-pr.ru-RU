@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Камбоджа.
-ms.openlocfilehash: 441d3fe9973b6c16bd5fddadd2509659c6629b1a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Камбоджа.
+ms.openlocfilehash: 38a74815bdcca2fd8d26b51abcbd156baee3d9e0
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853744"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230597"
 ---
 # <a name="availability-in-cambodia"></a>Доступность в Камбоджа
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Камбоджа.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Камбоджа.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

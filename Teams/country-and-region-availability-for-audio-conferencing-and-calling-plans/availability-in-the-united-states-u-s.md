@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Соединенных Штатах.
-ms.openlocfilehash: 859f517bf37b47bfaee5676ff4e7045bf61a9c87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США.
+ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694484"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230337"
 ---
 # <a name="availability-in-the-united-states-us"></a>Доступность в США
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Соединенных Штатах.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в США. Узнайте, [как приобрести план звонков](../calling-plans-for-office-365.md) для получения дополнительной информации.
 
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

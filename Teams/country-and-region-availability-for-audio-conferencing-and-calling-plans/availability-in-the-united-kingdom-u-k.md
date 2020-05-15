@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Великобритании.
-ms.openlocfilehash: 49b803b6aeece527657e4446a1123d452dcc681f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Великобритании.
+ms.openlocfilehash: de944b87eca2a68865261c96839863d4d6714963
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683412"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230527"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Доступность в Соединенном Королевстве
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Великобритании.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Великобритании.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

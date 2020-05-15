@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Украины.
-ms.openlocfilehash: d03e3d221764f333b7411bfcca8c74d8413fd645
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Украина.
+ms.openlocfilehash: a0575df0cc3d53b0c62470ccaa87666fb8c9e7e7
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852206"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230547"
 ---
 # <a name="availability-in-the-ukraine"></a>Доступность на Украине
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Вот службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Украины.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Украина.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
