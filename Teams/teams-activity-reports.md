@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902354"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256394"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов об активности в Microsoft Teams 
 ========================================
@@ -32,7 +32,7 @@ ms.locfileid: "43902354"
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Просмотр отчетов о командах на панели мониторинга "отчеты"
 
-1. В [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home)выберите пункт Использование **отчетов** > **Usage**.
+1. В [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home)выберите пункт Использование **отчетов**  >  **Usage**.
  
 2. На странице **Использование** нажмите **кнопку Выбрать отчет**, а затем в разделе **Microsoft Teams** (список отчетов) выберите отчет, который вы хотите просмотреть.
 
@@ -101,7 +101,7 @@ ms.locfileid: "43902354"
 
 ### <a name="reports-reader-role"></a>Роль читателя отчетов
 
-Вы можете назначить роль *читателя отчетов* неит-специалистам, которым вы хотите получить доступ к этим отчетам. Назначая эту роль руководителям по обучению или заинтересованным лицам для бизнеса, вы можете убедиться, что у них есть доступ к аналитическим аналитикам, которые полезны для отслеживания принятия групп.
+Вы можете назначить роль *читателя отчетов* неит-специалистам, которым вы хотите получить доступ к этим отчетам. Назначая эту роль руководителям по обучению или заинтересованным лицам для бизнеса, вы можете убедиться, что у них есть доступ к аналитическим аналитикам, которые полезны для отслеживания принятия групп. Чтобы научиться назначать роли, прочтите [роль назначение администраторам и администраторам для пользователей с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Другие сведения на панели мониторинга "отчеты"
 
