@@ -60,6 +60,7 @@
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
+### [Согласие для определенных ресурсов](resource-specific-consent.md)
 ### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -138,6 +139,7 @@
 ## [Запись собрания Teams в облаке](cloud-recording.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
+## [Получение отчета о присутствии на собрании](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Комнаты Microsoft Teams](rooms/index.md)
 ## [Управление Доской в Teams](manage-whiteboard.md)
@@ -244,7 +246,7 @@
 #### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
 #### [Пример для малого бизнеса: настройка автосекретаря](tutorial-org-aa.yml)
 #### [Пример для малого бизнеса: настройка очереди вызовов](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
+#### [Управление учетными записями ресурсов Teams](manage-resource-accounts.md)
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -751,6 +753,7 @@
 ## Взаимодействие с Microsoft 365 и Office 365
 
 ### [Группы Microsoft 365 и Teams](office-365-groups.md)
+### [Создание учетной записи ресурса Microsoft 365 с помощью Центра администрирования Microsoft 365](devices/resource-account-ui.md)
 ### [Улучшение существующих групп Microsoft 365 с помощью Teams](enhance-office-365-groups.md)
 ### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
 #### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
@@ -762,6 +765,7 @@
 ## Поддерживаемые устройства
 ### [Управление устройствами в Teams](device-management.md)
 ### [Телефоны для Teams](phones-for-teams.md)
+### [Развертывание панелей совместной работы в Microsoft Teams](devices/collab-bar-deploy.md)
 ### [USB-устройства для аудио и видео](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Комнатные устройства и решения для проведения собраний](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)
