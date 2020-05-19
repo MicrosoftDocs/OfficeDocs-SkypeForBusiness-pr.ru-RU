@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836549"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280278"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Планирование маршрутизации на основе расположения для прямой маршрутизации
 
@@ -249,6 +249,10 @@ ms.locfileid: "41836549"
 ### <a name="location-based-routing-for-conferencing"></a>Маршрутизация на основе местоположения для конференций
 
 Пользователь с поддержкой маршрутизации на основе местоположения, входящий в КОММУТИРУЕМый звонок, не может начать конференцию с другим пользователем или PSTN-телефоном. Подключение к автосекретарям и очередям звонков разрешено. Если у пользователя есть лицензия на Конференц-связь, пользователь должен начать конференцию с соответствующими пользователями и позвонить через мост конференции, чтобы начать конференцию.  
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Требование обхода мультимедиа для маршрутизации на основе местоположения
+
+При развертывании маршрутизации на основе местоположения в Индии необходимо также настроить обход мультимедиа. Дополнительные сведения можно найти в статье [Планирование обхода мультимедиа с помощью прямой маршрутизации](direct-routing-plan-media-bypass.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
