@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Узнайте больше о функциях голосовой связи в облаке и Узнайте о необходимых решениях для развертывания.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905911"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281674"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
@@ -151,7 +151,7 @@ ms.locfileid: "43905911"
 
 Дополнительные сведения о поддерживаемых устройствах можно найти в следующих статьях:
 
-- [Управление устройствами в Microsoft Teams](device-management.md)
+- [Управление устройствами в Microsoft Teams](devices/device-management.md)
 - [IP-телефоны](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB-устройства для аудио и видео](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Интеллектуальная связь для устройств](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
