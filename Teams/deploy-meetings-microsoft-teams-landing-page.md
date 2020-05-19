@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901904"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281684"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -111,7 +111,7 @@ Teams предоставляет набор настраиваемых роле�
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|Надо ли мне покупать персональные устройства для моих пользователей? |Ознакомьтесь со статьей [Управление устройствами в Teams](device-management.md). |
+|Надо ли мне покупать персональные устройства для моих пользователей? |Ознакомьтесь со статьей [Управление устройствами в Teams](devices/device-management.md). |
 |Надо ли мне покупать и развёртывать устройства комнатной системы для конференц-зала?|Ознакомьтесь со статьей [Комнатные устройства и решения для проведения собраний](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
