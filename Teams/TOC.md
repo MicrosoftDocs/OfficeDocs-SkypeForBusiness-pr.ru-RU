@@ -64,8 +64,8 @@
 ### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
 ### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
+### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Общение с внешними пользователями
@@ -604,6 +604,7 @@
 # Руководство для отраслей и государственных организаций
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
+## [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,7 +629,7 @@
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Начало работы с удаленным обучением](remote-learning-edu.md)
-### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
+### [Политики и пакеты политик для Teams EDU](policy-packages-edu.md)
 ### [Назначение политик для крупных наборов пользователей](batch-policy-assignment-edu.md)
 ### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
@@ -763,12 +764,12 @@
 
 
 ## Поддерживаемые устройства
-### [Управление устройствами в Teams](device-management.md)
-### [Телефоны для Teams](phones-for-teams.md)
+### [Управление устройствами в Teams](devices/device-management.md)
+### [Телефоны для Teams](devices/phones-for-teams.md)
+### [USB-устройства для аудио и видео](devices/usb-devices.md)
 ### [Развертывание панелей совместной работы в Microsoft Teams](devices/collab-bar-deploy.md)
-### [USB-устройства для аудио и видео](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Комнатные устройства и решения для проведения собраний](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)
+### [IP-телефоны, сертифицированные для Microsoft Teams](devices/teams-ip-phones.md)
 ### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
