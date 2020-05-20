@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997250"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321707"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
 Здесь вы найдете рекомендации, которые необходимо выполнить для управления жизненным циклом [личных каналов](private-channels.md) в Организации.
 
 > [!IMPORTANT]
-> Если вы используете инструкции PowerShell, описанные в этой статье, для управления личными каналами, необходимо установить и использовать последнюю версию модуля Teams PowerShell из коллекции тестов PowerShell. Инструкции, описанные в этой статье, описаны в [статье Установка последней версии модуля PowerShell для Teams из коллекции тестов PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) не поддерживает управление личными каналами.
+> Если вы используете шаги PowerShell, описанные в этой статье, чтобы управлять личными каналами, необходимо установить и использовать самую последнюю версию модуля Teams PowerShell из [коллекции тестов PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Инструкции по установке модуля приведены в [статье Установка предварительной версии модуля PowerShell Teams](install-prerelease-teams-powershell-module.md). Самая свежая доступная версия модуля PowerShell Teams не поддерживает управление личными каналами.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Определение возможности создания личных каналов участниками группы
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>Использование PowerShell
 
 1. Установите [консоль управления SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) и подключитесь к ней с помощью учетной записи администратора.
-2. Запустите следующую команду, где &lt;group_id&gt; — идентификатор группы. (Идентификатор группы можно легко найти в ссылке на команду.)
+2. Запустите следующую команду, где &lt; group_id &gt; — идентификатор группы. (Идентификатор группы можно легко найти в ссылке на команду.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -146,7 +146,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. Для каждого закрытого канала, для которого требуется получить URL-адрес SharePoint, сделайте следующий запрос, &lt;где&gt; channel_id — идентификатор канала.
+2. Для каждого закрытого канала, для которого требуется получить URL-адрес SharePoint, сделайте следующий запрос, где &lt; channel_id &gt; — идентификатор канала.
 
     **Запрос**
 
@@ -184,7 +184,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-1. Запустите следующую команду, где &lt;group_id&gt; — идентификатор группы, а &lt;channel_name&gt; — имя канала.
+1. Запустите следующую команду, где &lt; group_id &gt; — идентификатор группы, а &lt; channel_name &gt; — имя канала.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Эти команды можно выполнить с помощью [проводника диаграмм](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Используйте следующую команду, где &lt;group_id&gt; — идентификатор группы, а &lt;channel_id&gt; — идентификатор канала.
+1. Используйте следующую команду, где &lt; group_id &gt; — идентификатор группы, а &lt; channel_id &gt; — идентификатор канала.
 
     **Запрос**
 
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.     Используйте указанные ниже действия, чтобы повысить роль участника до владельца, &lt;где&gt;в &lt;предыдущем&gt;вызове &lt;возвращаются&gt; group_id, channel_id и идентификатор. Обратите &lt;внимание&gt; , &lt;что&gt; идентификатор и UserID, возвращенные из предыдущего звонка, не являются взаимозаменяемыми. Убедитесь, что вы &lt;используете&gt;ID.
+2. Используйте указанные ниже действия, чтобы повысить роль участника до владельца, где в &lt; &gt; &lt; &gt; &lt; &gt; предыдущем вызове возвращаются group_id, channel_id и идентификатор. Обратите внимание, что &lt; идентификатор &gt; и &lt; UserID, &gt; возвращенные из предыдущего звонка, не являются взаимозаменяемыми. Убедитесь, что вы используете &lt; ID &gt; .
 
     **Запрос**
 
@@ -265,60 +265,6 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
       "userId": "userId-value",
       "email": "email-value"
      }
-    ```
-
-## <a name="teams-powershell-module"></a>Модуль PowerShell Teams
-
-### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Установка новейшего модуля PowerShell для Teams из коллекции тестов PowerShell
-
-Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) не поддерживает управление личными каналами. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell Teams с поддержкой частных каналов (в настоящее время 1.0.21) из коллекции тестов PowerShell.
-
-> [!NOTE]
-> Не устанавливайте модуль PowerShell Teams из коллекции тестов PowerShell рядом с версией модуля из общедоступной галереи PowerShell. Выполните эти действия, чтобы сначала удалить модуль Teams PowerShell из общедоступной коллекции PowerShell, а затем установить последнюю версию модуля из коллекции тестов PowerShell.
-
-1. Закройте все существующие сеансы PowerShell.
-2. Начните новый экземпляр модуля Windows PowerShell.
-3. Выполните указанные ниже действия, чтобы удалить модуль PowerShell Teams из общедоступной галереи PowerShell.
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. Закройте все существующие сеансы PowerShell.
-5. Запустите модуль Windows PowerShell еще раз, а затем выполните указанные ниже действия, чтобы зарегистрировать библиотеку тестов PowerShell в качестве надежного источника.
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell для Teams из коллекции тестов PowerShell.
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. Выполните указанные ниже действия, чтобы убедиться в том, что новейшая версия модуля Teams PowerShell из коллекции тестов PowerShell успешно установлена.
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>Обновите модуль PowerShell до последней версии из коллекции тестовых команд PowerShell.
-
-Если вы уже установили модуль Teams PowerShell из коллекции тестов PowerShell, выполните указанные ниже действия, чтобы обновить его до последней версии.
-
-1. Закройте все существующие сеансы PowerShell.
-2. Начните новый экземпляр модуля Windows PowerShell.
-3. Выполните указанные ниже действия, чтобы обновить текущую установленную версию модуля PowerShell Teams из коллекции тестов PowerShell.
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. Выполните указанные ниже действия, чтобы убедиться в том, что новейшая версия модуля Teams PowerShell из коллекции тестов PowerShell успешно установлена.
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>Статьи по теме
