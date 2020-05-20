@@ -64,8 +64,8 @@
 ### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
+### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Общение с внешними пользователями
@@ -129,6 +129,7 @@
 ## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
+## [Возможности выступающего и участника в собрании Teams](roles-in-meetings.md)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [Собрания Teams в неподдерживаемых браузерах](unsupported-browsers.md)
 ## [Настройка совместного доступа к рабочему столу в Teams](configure-desktop-sharing.md)
 ## [Запись собрания Teams в облаке](cloud-recording.md)
+## [Интеграция центра контактов](teams-contact-center.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
 ## [Получение отчета о присутствии на собрании](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## Прямые трансляции
 ### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Возможности выступающего и участника в трансляции](roles-in-live-events.md)
 ### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## Соответствие требованиям
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)
+### [Запись на основе политики для звонков и собраний](teams-recording-policy.md)
 ### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Обнаружение электронных данных
 #### [Обнаружение электронных данных](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## PowerShell в Teams
 ### [Обзор](teams-powershell-overview.md)
 ### [Справочник по командлетам для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Установка предварительной версии модуля Teams PowerShell](install-prerelease-teams-powershell-module.md)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Получение справки в Teams](get-help-in-microsoft-teams.md)
