@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780628"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326796"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -91,7 +91,7 @@ ms.locfileid: "43780628"
 
 Каждый пользователь должен иметь действующую лицензию Microsoft 365 или Office 365 из [подходящего плана](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) , и ему должна быть назначена лицензия Teams. Назначение лицензии на команды пользователям предоставляет им доступ к Teams.
 
-Вы управляете лицензиями Teams в центре администрирования Microsoft 365. Дополнительные сведения можно найти в разделе [Управление доступом пользователей к Teams](../../user-access.md).
+Вы управляете лицензиями Teams в центре администрирования Microsoft 365. Дополнительные сведения см. в статье [Управление доступом пользователей к Teams](../../user-access.md).
 
 > [!NOTE]
 > Если в вашей организации используется Skype для бизнеса, и вы не готовы переместить всех пользователей в Teams, вы можете включить команды для сотрудников Firstline, которые смогут запускать команды вместе со Skype для бизнеса. В режиме совместного существования под названием *острова*все клиентские приложения работают как отдельные решения. Дополнительные сведения можно найти в статье [понимание групп, а также взаимодействие и совместимость Skype для бизнеса](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -156,7 +156,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 Teams включает встроенную политику настройки приложений FirstlineWorker, которую можно использовать для настройки групп, чтобы выделиться наиболее важными приложениями для Firstline сотрудников вашей организации. Когда вы назначаете эту политику пользователям, приложения в этой политике будут закреплены на панели приложения в Teams для быстрого и удобного доступа. Другие приложения, добавленные в Teams, можно найти на панели приложения, нажав **... Другие приложения** в классической и веб-клиентах Teams и прокрутка вверх в клиенте Teams Mobile. По умолчанию политика настройки приложения FirstlineWorker включает в себя действия, смены, чат и звонки приложений.
 
-Инструкции по назначению пользователям политики настройки приложения FirstlineWorker приведены в статье [Использование политики настройки приложения FirstlineWorker для закрепления смен в Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). После назначения политики для вступления в силу может потребоваться до 24 часов.
+Инструкции по назначению пользователям политики настройки приложения FirstlineWorker приведены в статье [Использование политики настройки приложения FirstlineWorker для закрепления смен в Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). После назначения политики для вступления в силу может потребоваться несколько часов.
 
 Мы рекомендуем выполнить этот шаг не менее чем за неделю, прежде чем вы сможете переместить StaffHub Teams и пользователей в Teams. Когда пользователи находятся в Teams, убедитесь, что они могут просматривать и получать доступ к приложению смены.
 
@@ -374,7 +374,7 @@ $res.Result.Error.Innererror
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Как выполнить развертывание Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Управление приложением "Смены" для вашей организации в Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)

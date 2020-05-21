@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321707"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326696"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
@@ -180,7 +180,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Вам может потребоваться указать владельцев и участников закрытого канала, чтобы решить, нужно ли распространить определенных участников закрытого канала на владельца. Это может быть вызвано тем, что у вас есть владельцы частных каналов, которые оставили организацию и для личного канала требуется помощь администратора для утверждения прав собственности на канал.
 
-Администратор может использовать команды PowerShell или Graph API для запроса этих URL-адресов.
+Администраторы могут выполнять эти действия с помощью центра администрирования Microsoft Teams, PowerShell или Graph API.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
+
+Сведения о том, как управлять участниками команды с помощью центра администрирования Microsoft Teams, можно найти [в разделе Управление группами в центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
 
 ### <a name="using-powershell"></a>Использование PowerShell
 

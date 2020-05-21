@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280278"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326646"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Планирование маршрутизации на основе расположения для прямой маршрутизации
 
@@ -252,13 +252,13 @@ ms.locfileid: "44280278"
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Требование обхода мультимедиа для маршрутизации на основе местоположения
 
-При развертывании маршрутизации на основе местоположения в Индии необходимо также настроить обход мультимедиа. Дополнительные сведения можно найти в статье [Планирование обхода мультимедиа с помощью прямой маршрутизации](direct-routing-plan-media-bypass.md).
+При развертывании маршрутизации на основе местоположения в Индии необходимо также настроить обход мультимедиа. Дополнительные сведения можно найти в статье [Планирование обхода мультимедиа с прямой маршрутизацией](direct-routing-plan-media-bypass.md) и [Локальная Оптимизация файлов мультимедиа для прямой маршрутизации](direct-routing-media-optimization.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Перейдите в раздел [Настройка сетевых параметров для маршрутизации на основе местоположения](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

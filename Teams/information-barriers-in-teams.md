@@ -16,12 +16,12 @@ description: В этой статье объясняется, что такое 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904981"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326746"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Информационные барьеры в Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904981"
 Политики управления информационными барьерами управляются в центре соответствия требованиям Microsoft 365 (SCC) с помощью командлетов PowerShell. Дополнительные сведения можно найти в разделе [Определение политик для барьеров информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Перед настройкой или определением политик **необходимо включить поиск по каталогу в Microsoft Teams**. Подождите не менее 24 часов после включения поиска в каталог с областью действия, прежде чем настраивать или определять политики для барьеров информации. Дополнительные сведения [о предварительных требованиях для информационных барьеров](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Перед настройкой или определением политик **необходимо включить поиск по каталогу в Microsoft Teams**. Подождите не менее нескольких часов после включения поиска в каталог с областью действия, прежде чем настраивать или определять политики для барьеров информации. Дополнительные сведения [о предварительных требованиях для информационных барьеров](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Роль администратора "препятствия данных"
 

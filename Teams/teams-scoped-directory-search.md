@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341770"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326596"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Область поиска в каталоге Microsoft Teams
 
@@ -51,7 +51,7 @@ Microsoft Teams позволяет организациям предоставл
 
 1. Для настройки организации на виртуальные подгруппы используйте политики информационных барьеров. Дополнительные сведения можно найти в разделе [Определение политик барьера информации](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
-2. В центре администрирования Microsoft Teams выберите > **параметры групп** **на уровне Организации**.
+2. В центре администрирования Microsoft Teams выберите параметры **групп на уровне Организации**  >  **Teams settings**.
 
 3. В разделе **Поиск**рядом с **областью поиска в каталоге в Teams с помощью политики адресной книги Exchange (ABP)** включите **переключатель.**
 
@@ -59,4 +59,4 @@ Microsoft Teams позволяет организациям предоставл
 
 
 > [!IMPORTANT]
-> Для репликации этого изменения может потребоваться до 24 часов.
+> Репликация может занять несколько часов.

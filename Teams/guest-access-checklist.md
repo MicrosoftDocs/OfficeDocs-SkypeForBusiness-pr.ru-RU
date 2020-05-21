@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902584"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326606"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Контрольный список гостевого доступа Microsoft Teams
 =========================================
@@ -39,7 +39,7 @@ ms.locfileid: "43902584"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Шаг 1. Включите гостевой доступ на уровне всей команды.
 
-Чтобы включить гостевой доступ, перейдите в **центр администрирования Microsoft Teams**. 
+Чтобы включить гостевой доступ, перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
 
 1. В Центре администрирования команд выберите **Настройки всей организации** > **Гостевой доступ**.
 2. Установите переключатель **Разрешить гостевой доступ в Microsoft Teams** на **Вкл**.
@@ -78,7 +78,7 @@ ms.locfileid: "43902584"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Шаг 3: Настройка групп Microsoft 365
 
-1. В центре **Settings** > администрирования Microsoft 365 выберите**Параметры**, а затем — **службы**, а затем — **группы Microsoft 365**.
+1. В центре администрирования Microsoft 365 выберите **Settings**  >  **Параметры**, а затем — **службы**, а затем — **группы Microsoft 365**.
 
      ![Снимок экрана: параметры групп Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Убедитесь, что установлен флажок **Разрешить членам группы за пределами организации доступ к содержимому группы**. Если этот параметр не выбран, гости не смогут получить доступ к содержимому группы.

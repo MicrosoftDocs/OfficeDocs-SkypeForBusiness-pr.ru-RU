@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: В одном месте вы найдете обновления для Skype для бизнеса Server 2015/2019 и Lync 2013 и управляйте ими. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220549"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326576"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления для Skype для бизнеса Server
 
@@ -54,6 +54,7 @@ ms.locfileid: "44220549"
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительный пакет обновления 11 для Skype для бизнеса Server 2015|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
 |Накопительный пакет обновления 10 (SP1) для Skype для бизнеса Server 2015|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
 |Накопительный пакет обновления 10 для Skype для бизнеса Server 2015 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
 |Накопительный пакет обновления 9 для Skype для бизнеса Server 2015, сервер веб-компонентов|[СТАТЬЯ БАЗЫ ЗНАНИЙ 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
