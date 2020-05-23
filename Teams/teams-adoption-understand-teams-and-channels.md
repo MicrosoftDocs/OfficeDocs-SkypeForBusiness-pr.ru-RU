@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904941"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350303"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Знакомство с командами и каналами в Microsoft Teams
 
 Концепция групп и каналов является основой для эффективной и производительной реализации Microsoft Teams. 
 
-- Группа — это набор людей, контента и инструментов, которые работают вместе для создания бизнес-результата для вашей компании. Команды Teams создаются на основе групп Microsoft 365, и любые изменения участия в группе Office 365 синхронизируются в команде. 
+- Группа — это набор людей, контента и инструментов, которые работают вместе для создания бизнес-результата для вашей компании. Команды Teams создаются на основе групп Microsoft 365, и любые изменения участия в группе Office 365 синхронизируются в команде.
 
 - Каналы — это пространство для совместной работы в команде, в рамках которой выполняются фактические трудозатраты. 
 
@@ -61,4 +61,4 @@ ms.locfileid: "43904941"
   
 Вы узнаете больше о структуре групп на [этапе 2](teams-adoption-phase2-experiment.md) реализации.
 
-![Значок, отображающий следующий шаг](media/teams-adoption-next-icon.png) : [Создание первых групп](teams-adoption-your-first-teams.md)
+![Значок, отображающий следующий шаг ](media/teams-adoption-next-icon.png) : [Создание первых групп](teams-adoption-your-first-teams.md)

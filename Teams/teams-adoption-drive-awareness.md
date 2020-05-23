@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904354"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350133"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Информированность и внедрение обучения по Microsoft Teams
 
-Осведомленность и обучение – сегмент маркетинга и обмена сообщениями для общей стратегии внедрения. Это гарантирует, что ваши сотрудники будут знать о новых возможностях Microsoft Teams и базовых службах и приложениях Office 365.
+Осведомленность и обучение – сегмент маркетинга и обмена сообщениями для общей стратегии внедрения. Это гарантирует, что ваши сотрудники будут знать о новых возможностях Microsoft Teams и базовых службах и приложениях Microsoft 365 или Office 365.
    
 Как при начальных пилотных проектах, так и при развертывании в рамках всей организации следует уделять пристальное внимание внутрикорпоративным коммуникациям, Они должны включать:
 
@@ -49,13 +49,13 @@ ms.locfileid: "43904354"
 
 ## <a name="implement-end-user-training"></a>Реализация обучения для конечных пользователей
 
-Используйте наши ресурсы, чтобы обеспечить обучение пользователей с помощью Microsoft Teams и других служб Office 365. Дополнительные сведения можно найти на странице ресурсов.
+Используйте наши ресурсы, чтобы обеспечить обучение пользователей с помощью Microsoft Teams и других служб Microsoft 365 или Office 365. Дополнительные сведения можно найти на странице ресурсов.
 
 - [Обучение с преподавателем для пользователей в Teams](instructor-led-training-teams-landing-page.md)
 - [Обучение администраторам для Teams](itadmin-readiness.md)
 - [Интерактивное обучение для пользователей и видеороликов](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Интернет-семинар по облачному лидерами &](https://aka.ms/CoffeeintheCloud) 
-- [День в жизненном цикле обучающих Памятка по Office 365](https://aka.ms/O365AdoptionTools)
+- [День в течение срока действия Памятка поных листов Microsoft 365 и Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Оценка успеха и информирование о нем
 
@@ -71,4 +71,4 @@ ms.locfileid: "43904354"
 
 [Дополнительные сведения об использовании Microsoft Teams можно найти в центре администрирования Microsoft 365.](teams-activity-reports.md)
 
-![Значок, отображающий следующие шаги](media/teams-adoption-next-icon.png) : [планирование проверок работоспособности служб](teams-adoption-schedule-service-health-reviews.md)
+![Значок, отображающий следующие шаги ](media/teams-adoption-next-icon.png) : [планирование проверок работоспособности служб](teams-adoption-schedule-service-health-reviews.md)

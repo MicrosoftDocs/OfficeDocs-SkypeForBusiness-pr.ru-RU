@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140700"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349773"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Оптимизация отзывов и отчетности по внедрению Microsoft Teams
 
-Убедитесь в том, что вы получаете сигналы от вашей службы и сотрудников, следуя рекомендациям по отзыву пользователей и составлению отчетов о работоспособности служб.  В некоторых случаях для доступа к определенным отчетам об использовании и работоспособности служб вам могут потребоваться права администратора Office 365. Если вы не являетесь администратором Office 365 для своей организации, для доступа к некоторым из этих данных вы должны предоставить роль читателя отчетов в центре администрирования Microsoft 365. 
+Убедитесь в том, что вы получаете сигналы от вашей службы и сотрудников, следуя рекомендациям по отзыву пользователей и составлению отчетов о работоспособности служб.  В некоторых случаях для доступа к определенным отчетам об использовании и работоспособности служб вам могут потребоваться права администратора. Если вы не являетесь администратором Microsoft 365 или Office 365 для своей организации, работайте с этим человеком, чтобы предоставить роль читателя отчетов в центре администрирования Microsoft 365, чтобы получить доступ к некоторым из этих данных.
 
 ## <a name="incorporating-feedback"></a>Включение обратной связи 
 
@@ -56,8 +56,8 @@ ms.locfileid: "43140700"
 
 Существует три типа отчетов, которые необходимо проанализировать при развертывании и переходе на Microsoft teams:
 
-- [Работоспособность службы](https://status.office365.com/) — как из Office 365, так и из внутреннего отдела ИТ-поддержки.
-- [Действия сервиса](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) — из Office 365 просматривать [отчеты в Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Вы также можете использовать информацию из других систем в Организации.
+- [Работоспособность службы](https://status.office365.com/) — как из Microsoft 365, так и из Office 365 и внутреннего отдела ИТ-поддержки.
+- [Действия сервиса](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) — из Microsoft 365 или Office 365 просмотреть [отчеты в Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Вы также можете использовать информацию из других систем в Организации.
 - Удовлетворенность обслуживания — собираются из внутренних форумов сообщества и опросов о конкретных впечатлениях
 
-![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [распознавание диска и внедрение обучения](teams-adoption-drive-awareness.md)
+![Значок, представляющий следующий шаг ](media/teams-adoption-next-icon.png) : [распознавание диска и внедрение обучения](teams-adoption-drive-awareness.md)

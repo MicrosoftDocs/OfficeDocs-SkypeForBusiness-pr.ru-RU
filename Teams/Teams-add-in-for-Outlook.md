@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321618"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349613"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -44,7 +44,7 @@ ms.locfileid: "44321618"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Надстройка "Собрание Teams" в Outlook для Mac
 
-Кнопка «Совещание команд» в Outlook для Mac появится на ленте Outlook для Mac, если Outlook работает с производственной сборкой 16.24.414.0 и более поздних версий и активируется с помощью клиентской подписки Office 365.
+Кнопка "собрание Teams" в Outlook для Mac появится на ленте Outlook для Mac, если в Outlook используется сборка 16.24.414.0 и более поздняя версия и она активирована с помощью клиентской подписки Microsoft 365 или Office 365.
 
 Координаты собрания (ссылка на присоединение к Teams и номера для телефонного подключения) будут добавлены в приглашение на собрание после нажатия кнопки **Отправить**.  
 

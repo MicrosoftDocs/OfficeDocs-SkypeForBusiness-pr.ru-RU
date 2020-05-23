@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905671"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349713"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Внедрение Microsoft Teams. Этап 1 — запуск
 
@@ -67,10 +67,10 @@ ms.locfileid: "43905671"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-В [техническом сообществе Майкрософт](https://aka.ms/TechCommunity) содержатся сведения о том, как присоединиться к узлу для внедрения и технической поддержки многих продуктов Office 365. Мы предлагаем вам присоединиться к следующим сообществам:
+В [техническом сообществе Майкрософт](https://aka.ms/TechCommunity) представлены сведения о том, как внедрять и технические вопросы для многих продуктов Microsoft 365 и Office 365. Мы предлагаем вам присоединиться к следующим сообществам:
 
 - [Техническое сообщество Microsoft Teams](https://aka.ms/TeamsCommunity) : получение ответов на вопросы о продукте, обучение от других клиентов Teams и использование нашего блога для поддержания актуальности новых функций и вариантов использования для Teams. 
-- [Программа office 365 лидерами](https://aka.ms/O365Champions) и сообщество по внедрению для внедрения — Узнайте, как лучше внедрять диски Office 365, такие как Teams, SharePoint, Yammer и другие продукты. Вы можете открыть для ИТ-специалистов, сотрудников компании, "случайный" разработчик, а также всех, кто заинтересован в внедрении облачных служб.  
+- [Программа лидерами](https://aka.ms/O365Champions) и сообщество по внедрению для внедрения — Узнайте, как лучше внедрять диски в Microsoft 365 или Office 365, такие как Teams, SharePoint, Yammer и другие продукты. Вы можете открыть для ИТ-специалистов, сотрудников компании, "случайный" разработчик, а также всех, кто заинтересован в внедрении облачных служб.  
 
 
-![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)
+![Значок, представляющий следующий шаг ](media/teams-adoption-next-icon.png) : [Общие сведения о командах и каналах](teams-adoption-understand-teams-and-channels.md)

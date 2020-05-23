@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140746"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350243"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Подключение ранних последователей и сбор отзывов по Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "43140746"
 
 ## <a name="gather-feedback"></a>Получение отзыва
 
-Используйте компоненты Office 365 для сбора отзывов о проекте.
+Используйте компоненты Microsoft 365 или Office 365 для сбора отзывов о проекте.
   
 ![Значок, представляющий точку принятия решения](media/teams-adoption-decision-icon.png) Решение: Если в вашей организации уже есть инвестиции в сети Yammer, вы можете использовать ее в качестве форума обратной связи для программы раннего использования. Если это не так, а ваше раннее приложение предоставило менее 5000 пользователей, создайте группу в Teams, чтобы собрать Отзывы и обучение.
   
@@ -49,4 +49,4 @@ ms.locfileid: "43140746"
 > Некоторые организации будут сочетать каналы для обратной связи по переходу на ранних этапах разработки в группу программы лидерами. Это хороший подход, так как многие ранние лидерамии могут стать недоступными в будущем, и оно будет создавать более мощное сообщество. 
 
 
-![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [Встроенная поддержка](teams-adoption-onboard-support.md).
+![Значок, представляющий следующий шаг ](media/teams-adoption-next-icon.png) : [Встроенная поддержка](teams-adoption-onboard-support.md).

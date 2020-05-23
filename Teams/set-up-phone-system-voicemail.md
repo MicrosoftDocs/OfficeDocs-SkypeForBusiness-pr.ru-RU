@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить облачную голосовую почту для пользователей. '
-ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042936"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349723"
 ---
 # <a name="set-up-cloud-voicemail"></a>Настройка облачной голосовой почты
 
@@ -35,7 +35,7 @@ ms.locfileid: "44042936"
 > [!NOTE]
 > Облачная Голосовая почта поддерживает депозит сообщений голосовой почты только в почтовом ящике Exchange и не поддерживает сторонние системы электронной почты. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Облачные среды: Настройка облачной голосовой почты
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Облачные среды: Настройка облачной голосовой почты для пользователей облачной Psystem
 
 Для пользователей Skype для бизнеса Online и планов звонков пользователи, облачная Голосовая почта автоматически настраиваются и подготавливаются для пользователей после назначения им лицензии на **телефонную систему** и номера телефона.
   
@@ -45,21 +45,32 @@ ms.locfileid: "44042936"
     
 3. Транскрибирование голосовой почты поддерживается с марта 2017 г. и включено по умолчанию для всех организаций и пользователей. Отключить транскрибирование для организации можно с помощью Windows PowerShell и приведенных ниже действий.
 
-## <a name="phone-system-with-on-premises-environments"></a>Телефонная система с локальными средами
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Настройка облачной голосовой почты для пользователей почтового ящика Exchange Server
 
-Ниже приведены сведения о настройке облачной голосовой почты для работы в локальных средах планов звонков.
+Ниже приведены сведения о настройке облачной голосовой почты для работы с пользователями, которые подключены к Интернету для телефонной системы, но их почтовый ящик на сервере Exchange Server. 
   
-1. Если функция телефонной системы не включена в ваш план, возможно, потребуется приобрести лицензии на надстройки для **телефонной системы** . Необходимо также приобрести лицензии Exchange Online. Ознакомьтесь [со сведениями о лицензировании надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Если функция телефонной системы не включена в ваш план, возможно, потребуется приобрести лицензии на надстройки для **телефонной системы** . Ознакомьтесь [со сведениями о лицензировании надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)и лицензий Exchange Online для людей из вашей организации.
+2. [Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) участникам вашего бизнеса.
     
-3. Следуйте указаниям, соответствующим локальному решению по КОММУТИРУЕМой телефонной связи, развернутому для пользователей. Для облачного соединителя Edition выполните инструкции в разделе **Включение пользователей для голосовой связи и служб голосовой почты** в [руководстве Настройка Skype для бизнеса Cloud Connector Edition](https://technet.microsoft.com/library/mt605228.aspx). Для звонков по КОММУТИРУЕМой телефонной связи с помощью Skype для бизнеса Server [установите флажок включить локальные пользователи для предприятий](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Для прямой маршрутизации в Teams настройте [прямую маршрутизацию](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail), следуя указаниям **Настройка номера телефона и включения корпоративной голосовой и голосовой почты** .
+3. Транскрибирование голосовой почты поддерживается с марта 2017 г. и включено по умолчанию для всех организаций и пользователей. Отключить транскрибирование для организации можно с помощью Windows PowerShell и приведенных ниже действий.
 
-4. Транскрибирование голосовой почты поддерживается с марта 2017 г. и включено по умолчанию для всех организаций и пользователей. Отключить транскрибирование для организации можно с помощью Windows PowerShell и приведенных ниже действий.
-
-5. Сообщения голосовой почты доставляются в почтовый ящик Exchange пользователя по протоколу SMTP с помощью Exchange Online Protection. Чтобы успешно допустить передачу этих сообщений, убедитесь, что соединители Exchange настроены правильно для серверов Exchange и Exchange Online Protection. [Настройка потока обработки почты с помощью соединителей](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
+4. Сообщения голосовой почты доставляются в почтовый ящик Exchange пользователя по протоколу SMTP с помощью Exchange Online Protection. Чтобы успешно допустить передачу этих сообщений, убедитесь, что соединители Exchange настроены правильно для серверов Exchange и Exchange Online Protection. [Настройка потока обработки почты с помощью соединителей](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
 6. Для включения функций голосовой почты, таких как Настройка приветствий и визуальная голосовая почта в клиентах Skype для бизнеса, требуется подключение с Office 365 к почтовому ящику Exchange Server с помощью веб-служб Exchange. Чтобы включить это подключение, необходимо настроить новый протокол проверки подлинности OAuth Exchange, описанный в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), или запустите мастер гибридного развертывания Exchange из Exchange 2013 CU5 или более поздней версии. Кроме того, необходимо настроить интеграцию и OAuth между Skype для бизнеса Online и Exchange Server, описанными в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Настройка облачной голосовой почты для пользователей Skype для бизнеса Server
+
+Ниже приведены сведения о настройке облачной голосовой почты для работы с пользователями, которые находятся в сети для Exchange и локально для Skype для бизнеса. 
+  
+1. Возможно, потребуется приобрести лицензии на Exchange Online для людей из вашей организации. Ознакомьтесь [со сведениями о лицензировании надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    
+2. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) лицензии на Exchange Online для пользователей в вашей организации.
+    
+3. Транскрибирование голосовой почты поддерживается с марта 2017 г. и включено по умолчанию для всех организаций и пользователей. Отключить транскрибирование для организации можно с помощью Windows PowerShell и приведенных ниже действий.
+
+4. Чтобы настроить пользователей Skype для бизнеса Server для голосовой почты в облаке, пройдите [Планирование службы голосовой почты в облаке для локальных пользователей](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail) .
+
 
 > [!NOTE]
 > Когда представитель отвечает на звонок от имени представителя, уведомления не будут доступны в облачной голосовой почте. Пользователи могут получать уведомления о пропущенных звонках.

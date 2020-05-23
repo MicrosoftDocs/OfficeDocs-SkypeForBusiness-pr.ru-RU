@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256394"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349983"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов об активности в Microsoft Teams 
 ========================================
@@ -107,7 +107,7 @@ ms.locfileid: "44256394"
 
 ### <a name="at-a-glance-activity-widget"></a>Наглядный графический элемент "действия"
 
-Панель мониторинга "отчеты" содержит данные об использовании в мини-приложении "действия", которое позволяет получить представление о том, как пользователи обмениваются информацией и совместно работать с другими различными службами в Office 365.
+Панель мониторинга "отчеты" содержит данные об использовании из Teams в графическом элементе "действия", в котором вы получаете представление о том, как пользователи обмениваются данными и совместно работают с другими различными службами в Microsoft 365 или Office 365.
 
 ![Снимок экрана: мини-приложение "действия" в команде "быстрый просмотр".](media/at-a-glance-activity-widget.png)
 
