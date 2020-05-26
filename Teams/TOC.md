@@ -100,8 +100,8 @@
 ### [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
-### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
 ### [Назначение политик пользователям](assign-policies.md)
+### [Просмотр назначений политик в журнале действий](activity-log.md)
 ### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 ### [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
