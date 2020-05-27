@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833379"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374207"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -88,9 +88,9 @@ ms.locfileid: "41833379"
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. blog         |
-|            |%appdata%\Microsoft\Teams\skylib\\*. blog
-|            |%appdata%\Microsoft\Teams\media-stack\\*. ETL         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *. blog         |
+|            |%appdata%\Microsoft\Teams\skylib \\ *. blog
+|            |%appdata%\Microsoft\Teams\media-stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application Support support/Microsoft/Teams/Media-Stack/*. blog         |
 |            |~/Library/Application Support support/Microsoft/Teams/skylib/*. blog         |
 
@@ -103,7 +103,7 @@ ms.locfileid: "41833379"
 
 Windows:
 
-1.  щелкните правой кнопкой мыши **значок Microsoft Teams в** области приложений и выберите **Получить журналы**
+1.  Щелкните правой кнопкой мыши **значок Microsoft Teams в** области уведомлений и выберите пункт **получить журналы** .
 
 Mac OsX:
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Когда вы получаете номера телефонов или переносите (переносите) номера для своей организации, вам может потребоваться получить помощь и поддержку на рабочем столе PSTN.
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006015"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374277"
 ---
 # <a name="pstn-service-desk-contact"></a>Контакт в службе поддержки PSTN
 
@@ -38,6 +38,7 @@ ms.locfileid: "44006015"
 |:-----:|:------:|
 | [По электронной почте в **США и Канаде**в PTN@microsoft.com!](mailto:ptn@microsoft.com)| [**Бельгия, Франция, Германия, Великобритания, Ирландия, Нидерланды, Испания, Швеция, Швейцария**, Великобритания, почта США по адресу ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**За пределами США и Канады**, напишите нам по адресу ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [В **оставшейся части мира**напишите нам по адресу gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Из-за большого копилки во входящих запросах **Команда переноса по Северной Америке** будет зарегистрирована. Мы работаем над удалением этой невыполненной работы для базиса FIFO (first in, First Out), и в результате **наши ответы на новые запросы будут задержаны.**|
 
 Если вам нужна помощь при **переносе и переносе существующих номеров телефонов в Microsoft Teams**, пожалуйста, включите в него как можно больше подробностей.
   - [Идентификатор организации (ИД клиента) или активные домены Microsoft](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
