@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281790"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407411"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -74,10 +74,16 @@ ms.locfileid: "44281790"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Обновлено 2020 апреля*
+*Обновленная таблица 2020 мая*
 
 | Производитель    | Моделировать                   | Полном  | Сертифицированная программа                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |Микрофон с USB-Jabra Link 370 750|5/21/2020 | Сертифицировано для Microsoft Teams  | 
+|EPOS              | Гарнитура Sennheiser адаптация 660 |5/15/2020 |Сертифицировано для Microsoft Teams  | 
+|EPOS              | Гарнитура Sennheiser адаптация 560|5/15/2020 |Сертифицировано для Microsoft Teams  | 
+|EPOS              | Sennheiser адаптация 460T гарнитура |5/15/2020 |Сертифицировано для Microsoft Teams  | 
+|EPOS              | Гарнитура Sennheiser адаптация 360| 5/15/2020 |Сертифицировано для Microsoft Teams  | 
+|Yealink           |Гарнитура UH36 | 5/13/2020 |Сертифицировано для Microsoft Teams  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
 | Poly            | Savi 8210 UC            | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
 | Poly            | Savi 8220 Office        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |

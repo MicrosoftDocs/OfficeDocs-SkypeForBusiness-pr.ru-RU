@@ -1,6 +1,6 @@
 ---
 title: Требования к оборудованию для Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224122"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385990"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -86,6 +86,7 @@ ms.locfileid: "44224122"
 - iOS: совместимо с iPhone, iPad и iPod touch.
 
   Поддержка ограничена двумя последними основными версиями iOS. Когда выпущена новая основная версия iOS, официально поддерживается новая версия iOS и предыдущая версия.
+  Необязательное **размытие видео в фоновом режиме** для iOS требует операционной системы iOS 12 или более поздней версии и совместимо со следующими устройствами: iPhone 7 или более поздняя версия, iPad 2018 (шестая версия) или более поздней версии, а также iPod Touch 2019 (поколение 7).
 
 Для лучшего взаимодействия с Teams используйте последнюю версию iOS и Android.
 
