@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Узнайте о возможностях взаимодействия между пользователями Teams в Организации и пользователями Skype (потребителем).
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749556"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410434"
 ---
 # <a name="teams-and-skype-interoperability"></a>Взаимодействие Teams и Skype
 
@@ -68,17 +68,17 @@ ms.locfileid: "43749556"
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Укажите, могут ли пользователи Teams общаться с пользователями Skype
 
-Как администратор вы используете центр администрирования Microsoft Teams или PowerShell для настройки параметров внешнего доступа, чтобы управлять тем, могут ли пользователи Teams в Организации общаться с пользователями Skype. По умолчанию эта возможность отключена для новых клиентов.
+Как администратор вы используете центр администрирования Microsoft Teams или PowerShell для настройки параметров внешнего доступа, чтобы управлять тем, могут ли пользователи Teams в Организации общаться с пользователями Skype. По умолчанию эта возможность включена для новых клиентов.
 
 Если вы перешли с Skype для бизнеса на Teams, в Teams будут перенесены параметры внешней связи, настроенные в центре администрирования Skype для бизнеса.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>В центре администрирования Microsoft Teams 
 
-В центре администрирования Microsoft Teams перейдите к >  **параметрам уровня Организации****внешний доступ**, а затем включите пользователей для **общения с пользователями Skype**. Пошаговое руководство по настройке этого и других параметров внешнего доступа можно найти [в разделе Управление внешним доступом в Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+В центре администрирования Microsoft Teams перейдите к **параметрам уровня Организации**  >  **внешний доступ**, а затем включите пользователей для **общения с пользователями Skype**. Пошаговое руководство по настройке этого и других параметров внешнего доступа можно найти [в разделе Управление внешним доступом в Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` разрешить пользователям команды общаться с пользователями Skype. Обратите внимание ```EnablePublicCloudAudioVideoAccess``` , что этот параметр можно использовать для включения и отключения голосовых и видеозвонков.
+Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` Разрешить пользователям команды общаться с пользователями Skype. Обратите внимание, что этот ```EnablePublicCloudAudioVideoAccess``` параметр можно использовать для включения и отключения голосовых и видеозвонков.
 
 ## <a name="related-topics"></a>Статьи по теме
 
