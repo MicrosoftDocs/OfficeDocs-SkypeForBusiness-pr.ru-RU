@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка соединителя Power BI для использования шаблонов запросов CQD
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410474"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416869"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка соединителя Power BI для использования шаблонов запросов CQD
 
@@ -163,6 +163,10 @@ ms.locfileid: "44410474"
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Почему соединительная линия кажется медленнее по сравнению с расширенными CQD в браузере? Что можно сделать, чтобы улучшить производительность?
 
 Производительность запросов для различных шаблонов в действительности одинакова в браузере и в соединительной линии.  Так же, как и любое другое автономное приложение, Power BI добавляет проверку подлинности и время отрисовки к нашему снижению производительности. Кроме того, разница определяется количеством выполняемых параллельных запросов. Поскольку версия CQD в браузере имеет менее качественно разработанные и более сжатые параметры визуализации, большая часть наших отчетов была ограничена загрузкой запросов 2-3 за один раз. С другой стороны, шаблоны соединителей часто отображают 20 + параллельных запросов. Если вы хотите, чтобы вы работали с отчетами, а не более ранними, чем вы использовались, попробуйте создавать отчеты, не превышающие 2-3 запросов на каждую вкладку.
+
+Дополнительные сведения можно найти в следующих статьях: 
+- [Руководство по оптимизации для Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [Руководство по моделям DirectQuery](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Я могу присоединиться к ограничению строки 10 000 при выполнении запросов. Как сделать так, чтобы соединитель возвращал больше 10 000 строк?
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
+ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349603"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44428956"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -234,7 +234,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - 52.127.64.33
 - 52.127.68.34
 
-Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.  Если брандмауэр поддерживает DNS-имена, полное доменное имя sip.pstnhub.dod.teams.microsoft.us разрешается всем этим IP-адресам. 
+Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High (среда)
 
@@ -247,7 +247,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - 52.127.88.59
 - 52.127.92.64
 
-Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.  Если брандмауэр поддерживает DNS-имена, полное доменное имя sip.pstnhub.gov.teams.microsoft.us разрешается всем этим IP-адресам. 
+Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.
 
 ## <a name="sip-signaling-ports"></a>Сигнализация SIP: порты
 

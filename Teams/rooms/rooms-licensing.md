@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Сведения о доступных лицензиях для разных типов функций для звонков и собраний в комнатах Microsoft Teams.
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064494"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416849"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "44064494"
 |Присоединение к запланированному собранию  | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  |
 |Инициация нерегламентированного собрания | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
 |Создание нерегламентированного собрания и выход из собрания на номера телефонов |  SKU комнаты для собраний |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
-|Придайте комнате номер телефона и совершайте или получайте звонки из комнаты либо присоединитесь к звуковой конференции с помощью номера телефона.  | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
+|Придайте комнате номер телефона и совершайте или получайте звонки из комнаты либо присоединитесь к звуковой конференции с помощью номера телефона.  | С прямой маршрутизацией: комната для собраний<br/>Без прямой маршрутизации: план внутренних и международных звонков<br/>Корпоративная голосовая связь Microsoft 365  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
 |Управление устройством с комнатой в Microsoft Intune |SKU комнаты для собраний  |Подписка на Microsoft Intune с локальной учетной данными [MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
