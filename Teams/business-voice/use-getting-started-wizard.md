@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898134"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412626"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Настройка корпоративной голосовой связи с помощью мастера начальной настройки
 
@@ -37,6 +37,8 @@ ms.locfileid: "43898134"
 
 > [!IMPORTANT]
 > Microsoft Teams и корпоративная голосовая связь работает, только если почтовые ящики пользователей находятся в Microsoft 365.  Почтовые ящики, размещенные на локальном сервере Exchange Server, не поддерживаются.
+>
+> Мастер начальной настройки не поддерживает гибридные развертывания Skype для бизнеса. Если вы используете гибридное развертывание Skype для бизнеса и хотите настроить корпоративную голосовую связь, ознакомьтесь со статьей [Настройка телефонной системы в организации](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
