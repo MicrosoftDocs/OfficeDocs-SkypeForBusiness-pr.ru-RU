@@ -15,12 +15,12 @@ description: Используйте это руководство для раз�
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041716"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472350"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Предварительное развертывание Microsoft Teams
 
@@ -142,9 +142,7 @@ VoIP/КТСОП в Teams</td>
 <li><p>поддерживается обнаружение электронных данных и юридическое удержание для соответствия с сообщениями канала</p></li>
 <li><p>Доступны политики защиты от потери данных (DLP)</p></li>
 </ul>
-<p>Полный набор функций, доступных в Exchange Online, в локальной среде Exchange поддерживается большинство этих функций.</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Взаимодействие Exchange и Teams</a></p>
-<p>для полного списка</p></td>
+<p>Полный набор функций, доступных в Exchange Online, Exchange для локальных служб поддерживает большинство этих функций, Узнайте, <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">как Exchange и Teams работают</a> в полном списке.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ VoIP/КТСОП в Teams</td>
     [Получите клиенты для Teams](get-clients.md)
 
 5.   Диск программы внедрения  
-    [Внедрение Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Внедрение Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Краткий контрольный список по внедрению Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
 6.  Начало планирования перемещения других рабочих нагрузок в Office 365
@@ -292,7 +289,7 @@ Microsoft Teams можно использовать для Организаци�
   - [Группы Microsoft 365](office-365-groups.md) используются для создания и управления группами и каналами.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
