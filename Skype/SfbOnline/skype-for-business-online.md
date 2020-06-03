@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: a6a41915188b033a953373e44b9ac7993d3e9586
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010562"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205356"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
 
@@ -193,7 +193,7 @@ ms.locfileid: "42010562"
                 <div class="card">
                     <div class="cardText">
                         <h3>Аудиоконференции</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы об аудиоконференциях</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы об аудиоконференциях</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ ms.locfileid: "42010562"
                 <div class="card">
                     <div class="cardText">
                         <h3>Планы звонков</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Что такое планы звонков в Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Что такое планы звонков?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@ ms.locfileid: "42010562"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Здесь&#39;, что вы получаете в телефонной системе</a></p>
                </div>
                 </div>
             </div>
