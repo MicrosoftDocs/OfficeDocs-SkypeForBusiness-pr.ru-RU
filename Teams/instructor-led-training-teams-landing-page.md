@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: Учебные курсы под руководством инструктора и видео для пользователей
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: Узнайте, как зарегистрироваться в бесплатных интерактивных учебных курсах под руководством инструктора, чтобы изучить все возможности Microsoft Teams.
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951004"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523452"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ ms.locfileid: "43951004"
                         <h3>Teams для образовательных учреждений - Вебинары</h3>
                         <p>Сведения об использовании Teams в высшем образовании.</p>
                         <p><i>Аудитория: преподаватели, учащиеся, исследовательские факультеты, ИТ-специалисты</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Новые возможности с Teams для сотрудников без компьютеров</h3>
-                        <p>Узнайте о цифровом преобразовании с помощью Teams, которое обеспечивает неограниченный потенциал для всех сотрудников.</p>
-                        <p><i>Аудитория: лица, принимающие бизнес-решения, лица, принимающие решения в сфере ИТ</i></p>
                     </div>
                 </div>
             </div>
