@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Руководство по запуску проекта Microsoft Teams для ознакомления со всеми участниками вашей организации, когда вы продолжаете использовать Skype для бизнеса
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706459"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522692"
 ---
 # <a name="conduct-a-user-pilot"></a>Проведение пилотного развертывания для пользователей
 
@@ -85,7 +85,7 @@ ms.locfileid: "42706459"
 Ниже приведены советы по обеспечению успеха пилотной программы.
 
 - Прежде чем приступить к пилотной программе, убедитесь в том, что все пилотные участники включены для соответствующего [режим косуществования].
-- (https://aka.ms/SkypeToTeams-SetCoexistence) нужно проверить.
+- (нужно https://aka.ms/SkypeToTeams-SetCoexistence) проверить.
 - Еженедельно в рамках пилотного проекта вы можете встретиться с заинтересованными лицами, чтобы просмотреть отзывы пользователей, данные об использовании, сетевые данные и билеты службы поддержки, чтобы убедиться, что пилотный проект работает нормально. Внесите необходимые изменения.
 
 ### <a name="suggested-timeline"></a>Предполагаемая временная шкала

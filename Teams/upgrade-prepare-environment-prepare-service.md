@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Узнайте о требованиях для подготовки Организации к совместной работе и службам голосовой связи с помощью Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905251"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523032"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к обновлению до Teams
 

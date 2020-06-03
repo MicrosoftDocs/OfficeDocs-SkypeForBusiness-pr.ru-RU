@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Примеры сообщений электронной почты и опросов, которые можно использовать в conjunciton с помощью плана действий с десятью шагами для перехода с Skype для бизнеса на Teams
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837229"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522492"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Примеры сообщений электронной почты и опросов для обновления основных средств связи
 

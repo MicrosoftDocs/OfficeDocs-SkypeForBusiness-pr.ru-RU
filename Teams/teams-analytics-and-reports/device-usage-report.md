@@ -18,10 +18,10 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43904921"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Отчет об использовании устройств с Microsoft Teams
@@ -30,7 +30,7 @@ ms.locfileid: "43904921"
 
 ## <a name="view-the-device-usage-report"></a>Просмотр отчета об использовании устройства
 
-1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Использование устройства группы**.
+1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты**  >  **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Использование устройства группы**.
 2. Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.
 
     ![Снимок экрана: отчет об использовании устройств Teams в центре администрирования Teams с выносками](../media/teams-reports-device-usage-with-callouts.png "Снимок экрана: отчет об использовании устройств Teams в центре администрирования Teams с выносками")

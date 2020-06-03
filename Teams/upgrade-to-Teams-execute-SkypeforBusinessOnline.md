@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Сведения о том, как обновить организационную структуру до Microsoft Teams с помощью Skype для бизнеса Online deployement.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905361"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523172"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "43905361"
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Шаг 1: уведомление пользователей об изменении (необязательно)
 
-1. В центре администрирования Microsoft Teams выберите > **Обновление Teams**по **всей Организации**.
+1. В центре администрирования Microsoft Teams выберите **Org-wide settings**  >  **Обновление Teams**по всей Организации.
 2. В разделе **режим сосуществования**измените параметр **уведомлять пользователей Skype для бизнеса о доступности обновления для Teams** **.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Шаг 2: Настройка режима сосуществования TeamsOnly для Организации

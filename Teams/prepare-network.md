@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945586"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523309"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -106,7 +106,10 @@ ms.locfileid: "43945586"
 <td>Убедитесь, что все компьютеры, на которых работает клиент Teams, могут разрешать внешние запросы DNS для выяснения служб, предоставленных Office 365, а также о том, что брандмауэр не препятствует доступу. Сведения о настройке портов брандмауэра можно найти в <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">адресах URL Office 365 и диапазонах IP-</a>адресов.</td>
 </tr>
 <tr class="odd">
-<td>Размер пула для проверки подлинности (NAT)</td>
+<td>Поддержание сохранности сеансов</td>
+<td>Убедитесь в том, что ваш брандмауэр не изменяет адреса или порты протокола NAT.</td>
+</tr><tr class="odd">
+<td>Проверка размера пула NAT</td>
 <td>Проверьте размер пула трансляции сетевых адресов (NAT), необходимый для подключения пользователей. Когда несколько пользователей и устройств получают доступ к Office 365 с помощью преобразования <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">сетевых адресов (NAT) или адреса порта (PAT)</a>, необходимо убедиться, что устройства, скрытые за каждым IP-адресом с общедоступным маршрутизацией, не превышают поддерживаемый номер. Убедитесь, что для пулов NAT назначены соответствующие общедоступные IP-адреса, чтобы избежать исчерпания порта. Исчерпание портов может повлиять на внутренних пользователей и устройства, не подключаясь к службе Office 365.</td>
 </tr>
 <tr class="even">

@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Сведения об управлении параметрами политики собраний в Teams и их использовании для управления доступными участникам собрания для собраний, запланированных пользователями.
-ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489151"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523152"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собраний в Teams
 
 ::: zone target="docs"
 Политики собраний используются для управления функциями, которые доступны участникам собрания для собраний, запланированных пользователями в вашей организации. После создания политики и внесения изменений можно назначить пользователей для этой политики. Управление политиками собраний осуществляется в центре администрирования Microsoft Teams или с помощью [PowerShell](teams-powershell-overview.md).
+
+> [!NOTE]
+> Сведения об использовании ролей для управления разрешениями выступающих и участников собраний можно найти [в разделе роли на собрании Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
 Вы можете реализовать политики следующими способами, которые влияют на процесс собрания для пользователей до начала собрания, во время собрания или после собрания.
 
