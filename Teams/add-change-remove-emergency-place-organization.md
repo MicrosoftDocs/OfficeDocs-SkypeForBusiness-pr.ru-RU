@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как добавлять, изменять и удалять место для экстренных случаев для Организации в центре администрирования Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232500"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539436"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
@@ -39,7 +39,7 @@ ms.locfileid: "44232500"
 
 1. В левой области навигации центра администрирования Microsoft Teams **выберите пункты**  >  **адреса для экстренного**реагирования.
 2. В списке щелкните имя расположения, для которого вы хотите добавить место.
-3. На вкладке **места** нажмите кнопку **Добавить место**.
+3. На вкладке **места** нажмите кнопку **Добавить**.
 4. Введите имя места, а затем нажмите кнопку **Применить**.
 
 ### <a name="using-powershell"></a>Использование PowerShell
