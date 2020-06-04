@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489061"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512826"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "44489061"
 
 |Функция  | Максимальный предел  |
 |---------|---------|
-|Количество пользователей в закрытом чате<sup>1</sup>  | 100    |
+|Количество пользователей в закрытом чате<sup>1</sup>  | 250<br><br>**Примечание.** В Teams для государственных организаций (GCC, GCC High, DoD) лимит остается прежним — 100. Эта статья будет обновлена, когда лимит облака для государственных организаций повысится со 100 до 250.    |
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
 |Количество вложенных файлов<sup>2</sup>  |10     |
 |Размер чата | Около 28 КБ на запись<sup>3</sup> |
