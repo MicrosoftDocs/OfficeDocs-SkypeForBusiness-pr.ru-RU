@@ -17,12 +17,12 @@ description: Узнайте, как общаться с пользователя
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539446"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562044"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Общение с пользователями из других организаций в Microsoft Teams
 ======================================================
@@ -89,7 +89,6 @@ ms.locfileid: "44539446"
 <sup>3</sup> Внешний (федеративный) чат — только 1:1.<br>
 <sup>4</sup> Поддерживается для приватных чатов только между пользователями Teams из разных организаций. 
 <sup>5</sup> По умолчанию внешние участники не видят номера телефонов участников с телефонным подключением. Чтобы обеспечить конфиденциальность этих телефонных номеров, выберите **Тональные сигналы** для пункта **Тип оповещения входа/выхода**. Если вы не хотите, чтобы внешние участники видели внешние телефонные номера ТСОП, при включении **оповещений входа и выхода** выберите **Тональные сигналы** в качестве типа извещения. Дополнительные сведения см. в статье [Включение и отключение оповещений о подключении к собраниям и выходе из них в Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
 
 ## <a name="related-topics"></a>Связанные статьи
 
