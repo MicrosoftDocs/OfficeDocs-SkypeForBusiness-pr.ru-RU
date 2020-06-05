@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как определять и использовать метки чувствительности в Microsoft Teams.
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779766"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562074"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Метки чувствительности для Microsoft Teams
 
@@ -109,6 +109,10 @@ $setting["EnableMIPLabels"] = "False"
 **Поддержка меток чувствительности в API Team Graph, командлеты PowerShell и шаблоны**
 
 В настоящее время пользователи не могут применять метки чувствительности к командам, созданным непосредственно с помощью API Graph, командлетов PowerShell и шаблонов.
+
+**Поддержка меток о конфиденциальности в Teams для образовательных учреждений**
+
+Метки чувствительности в настоящее время не поддерживаются для клиентов, использующих группы для образовательных учреждений.
 
 **Изменение меток чувствительности непосредственно в семействе веб-сайтов SharePoint для частных каналов**
 
