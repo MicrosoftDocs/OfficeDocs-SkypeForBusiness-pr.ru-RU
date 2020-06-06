@@ -18,16 +18,19 @@ f1.keywords:
 description: Используйте эти ресурсы для поддержки Microsoft Teams в вашей организации, независимо от того, являетесь ли вы администратором Teams или инженером службы поддержки.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349573"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561984"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>Поддержка Microsoft Teams в вашей организации
 
-Если вы ищете Известные проблемы Teams, вы находитесь в правильном месте. Используйте ресурсы этой статьи, чтобы помочь вам поддержать Teams в вашей организации. 
+> [!NOTE]
+> Эта статья заменяет статью "Известные проблемы Teams". 
+
+Используйте ресурсы этой статьи, чтобы помочь вам поддержать Teams в вашей организации. 
 
 Начните с просмотра списка [наиболее распространенных проблем и решений](#common-issues-and-resolutions), приведенного ниже в этой статье.
 
