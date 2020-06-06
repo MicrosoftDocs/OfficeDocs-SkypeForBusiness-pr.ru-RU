@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407411"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591299"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -76,59 +76,62 @@ ms.locfileid: "44407411"
 
 *Обновленная таблица 2020 мая*
 
-| Производитель    | Моделировать                   | Полном  | Сертифицированная программа                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra             |Микрофон с USB-Jabra Link 370 750|5/21/2020 | Сертифицировано для Microsoft Teams  | 
-|EPOS              | Гарнитура Sennheiser адаптация 660 |5/15/2020 |Сертифицировано для Microsoft Teams  | 
-|EPOS              | Гарнитура Sennheiser адаптация 560|5/15/2020 |Сертифицировано для Microsoft Teams  | 
-|EPOS              | Sennheiser адаптация 460T гарнитура |5/15/2020 |Сертифицировано для Microsoft Teams  | 
-|EPOS              | Гарнитура Sennheiser адаптация 360| 5/15/2020 |Сертифицировано для Microsoft Teams  | 
-|Yealink           |Гарнитура UH36 | 5/13/2020 |Сертифицировано для Microsoft Teams  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Savi 8210 UC            | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Savi 8220 Office        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Savi 8220 UC            | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Savi 8240 Office        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Savi 8240 UC            | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Гарнитура Blackwire 5210  | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Гарнитура Blackwire 5220  | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Гарнитура Blackwire 7225  | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Voyager сосредоточиться на Объединенных        | 4/20/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Yealink         | CP700                   | 4/13/2020  | Сертифицировано для Microsoft Teams                      |
-| Jabra           | Гарнитура Evolve2 65      | 4/13/2020  | Сертифицировано для Microsoft Teams                      |
-| EPOS/Sennheiser | Повлиять на SC 30            | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Повлиять на SC 45            | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Повлиять на SC 60            | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 75 MS         | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 75 MS для Microsoft лицензию     | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 230 USB MS II | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 260 USB MS II | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 630 USB MS    | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 635 USB       | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 660 USB MS    | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 660 ANC USB   | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| EPOS/Sennheiser | Влияние SC 665 USB       | 4/9/2020   | Skype для бизнеса с обновлением до Microsoft Teams |
-| Мышь        | Беспроводная связь с зоной           | 4/8/2020   | Сертифицировано для Microsoft Teams                      |
-| Poly            | Гарнитура Voyager 8200    | 3/26/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Мышь        | Зона с проводами              | 3/26/2020  | Сертифицировано для Microsoft Teams                      |
-| Jabra           | Гарнитура Evolve2 40      | 3/26/2020  | Сертифицировано для Microsoft Teams                      |
-| Poly            | Гарнитура Voyager 6200    | 3/23/2020  | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Voyager 4245 Office     | 3/23/2020  | Сертифицировано для Microsoft Teams                      |
-| Poly            | Гарнитура Blackwire 8225  | 3/23/2020  | Сертифицировано для Microsoft Teams                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Voyager 4210 Office     | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Voyager 4210 UC         | 03/05/2020 | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Voyager 4220 Office     | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Voyager 4220 UC         | 03/05/2020 | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Voyager 5200 Office     | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Voyager 5200 UC         | 03/05/2020 | Skype для бизнеса с обновлением до Microsoft Teams |
-| Poly            | Blackwire 3310-M        | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Blackwire 3315-M        | 03/03/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Blackwire 3320-M        | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| poly            | Blackwire 3325-M        | 03/05/2020 | Сертифицировано для Microsoft Teams                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | Сертифицировано для Microsoft Teams                      |
-| Crestron        | CCS – UCA-MIC             | 12/18/2019 | Сертифицировано для Microsoft Teams                      |
-| Sennheiser      | SP 30T                  | 12/05/2019 | Сертифицировано для Microsoft Teams                      |
-| Polycom         | Elara                   | 11/06/2019 | Сертифицировано для Microsoft Teams                      |
-| Polycom         | Studio Soundbar         | 10/18/2019 | Сертифицировано для Microsoft Teams                      |
-| Yealink         | UVC30                   | 10/18/2019 | Сертифицировано для Microsoft Teams                      |
+| Производитель        | Моделировать                                                     | Полном      | Сертифицированная программа                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| EPOS                | Гарнитура Sennheiser адаптация 660                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
+| EPOS                | Гарнитура Sennheiser адаптация 560                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
+| EPOS                | Sennheiser адаптация 460T гарнитура                             | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
+| EPOS                | Гарнитура Sennheiser адаптация 360                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
+| Yealink             | Гарнитура UH36                                              | 5/13/2020      | Сертифицировано для Microsoft Teams                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Гарнитура Blackwire 5210                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Гарнитура Blackwire 5220                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Гарнитура Blackwire 7225                                    | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Voyager сосредоточиться на Объединенных                                          | 4/20/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Yealink             | CP700                                                     | 4/13/2020      | Сертифицировано для Microsoft Teams                          |
+| Jabra               | Гарнитура Evolve2 65                                        | 4/13/2020      | Сертифицировано для Microsoft Teams                          |
+| EPOS/Sennheiser     | Повлиять на SC 30                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Повлиять на SC 45                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Повлиять на SC 60                                              | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 75 MS                                           | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 75 MS для Microsoft лицензию                                       | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 230 USB MS II                                   | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 260 USB MS II                                   | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 630 USB MS                                      | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 635 USB                                         | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 660 USB MS                                      | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 660 ANC USB                                     | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| EPOS/Sennheiser     | Влияние SC 665 USB                                         | 4/9/2020       | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Мышь            | Беспроводная связь с зоной                                             | 4/8/2020       | Сертифицировано для Microsoft Teams                          |
+| Poly                | Гарнитура Voyager 8200                                      | 3/26/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Мышь            | Зона с проводами                                                | 3/26/2020      | Сертифицировано для Microsoft Teams                          |
+| Jabra               | Гарнитура Evolve2 40                                        | 3/26/2020      | Сертифицировано для Microsoft Teams                          |
+| Poly                | Гарнитура Voyager 6200                                      | 3/23/2020      | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Voyager 4245 Office                                       | 3/23/2020      | Сертифицировано для Microsoft Teams                          |
+| Poly                | Гарнитура Blackwire 8225                                    | 3/23/2020      | Сертифицировано для Microsoft Teams                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Voyager 4210 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Voyager 4210 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Voyager 4220 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Voyager 4220 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Voyager 5200 Office                                       | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Voyager 5200 UC                                           | 03/05/2020     | Skype для бизнеса с обновлением до Microsoft Teams     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| poly                | Blackwire 3325-M                                          | 03/05/2020     | Сертифицировано для Microsoft Teams                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | Сертифицировано для Microsoft Teams                          |
+| Crestron            | CCS – UCA-MIC                                               | 12/18/2019     | Сертифицировано для Microsoft Teams                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | Сертифицировано для Microsoft Teams                          |
+| Polycom             | Elara                                                     | 11/06/2019     | Сертифицировано для Microsoft Teams                          |
+| Polycom             | Studio Soundbar                                           | 10/18/2019     | Сертифицировано для Microsoft Teams                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | Сертифицировано для Microsoft Teams                          |
+| Jabra               | PanaCast                                                  | 08/14/2019     | Сертифицировано для Microsoft                                |
+

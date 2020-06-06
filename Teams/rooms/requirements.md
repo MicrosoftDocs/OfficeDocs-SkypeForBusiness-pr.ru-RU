@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях для поддержки комнат Microsoft Teams, в том числе выбора соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230827"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591309"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -61,6 +61,7 @@ ms.locfileid: "44230827"
   |[HP Elite Slice G2 с готовым аудио для комнат Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 ГБ |128 ГБ |
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 ГБ |128 ГБ |
   |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 ГБ |128 ГБ |
+  |[Технология Logitech TAP и Lenovo Center M920 крошечные](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 ГБ |128 ГБ|
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 ГБ|128 ГБ|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 ГБ |128 ГБ |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 ГБ |128 ГБ |
