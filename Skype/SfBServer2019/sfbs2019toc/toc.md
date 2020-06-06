@@ -2,6 +2,7 @@
 
 ## [Новые возможности](../whats-new.md)
 ## [Устаревшие возможности](../deprecated.md)
+## [Руководство по виртуализации](../virtualization-guidance.md)
 ## [Решения Майкрософт для телефонии](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Загрузки и обновления Skype для бизнеса](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
