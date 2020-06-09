@@ -1,0 +1,44 @@
+---
+title: Интеграция Teams и электронной почты Outlook
+author: LanaChin
+ms.author: v-lanac
+manager: serdars
+audience: Admin
+ms.topic: article
+ms.service: msteams
+ms.reviewer: kblevens
+localization_priority: Normal
+search.appverid: MET150
+description: Узнайте о командах и функциях интеграции электронной почты Outlook, в том числе о функциях, которые позволяют пользователям обмениваться информацией между электронной почтой в Outlook, чатам или каналами связи в Teams.
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 474da725ad88221d131959078a733ed1724ae1be
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611183"
+---
+# <a name="teams-and-outlook-email-integration"></a><span data-ttu-id="a0579-103">Интеграция Teams и электронной почты Outlook</span><span class="sxs-lookup"><span data-stu-id="a0579-103">Teams and Outlook email integration</span></span>
+
+<span data-ttu-id="a0579-104">Microsoft Teams включает в себя возможности, облегчающие пользователям организации обмен данными между электронной почтой в Outlook, чата и маркетинговые беседы в Teams, а также для поддержания пропуска пропущенных разговоров.</span><span class="sxs-lookup"><span data-stu-id="a0579-104">Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat or channel conversations in Teams and to stay on top of missed conversations.</span></span> <span data-ttu-id="a0579-105">В этой статье представлены общие сведения об этих функциях и элементах управления администратора, которые применяются.</span><span class="sxs-lookup"><span data-stu-id="a0579-105">This article gives you an overview of these features and the admin controls that apply.</span></span>
+
+## <a name="share-to-outlook"></a><span data-ttu-id="a0579-106">Предоставление общего доступа к Outlook</span><span class="sxs-lookup"><span data-stu-id="a0579-106">Share to Outlook</span></span>
+
+<span data-ttu-id="a0579-107">**Предоставление общего доступа к Outlook** позволяет пользователям делиться копиями беседы группы с электронной почтой в Outlook, не выходя из группы.</span><span class="sxs-lookup"><span data-stu-id="a0579-107">**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams.</span></span> <span data-ttu-id="a0579-108">Эта функция полезна, если пользователям необходимо предоставить общий доступ к беседам или обновлениям состояния пользователям за пределами ненужной команды или даже вашей организации.</span><span class="sxs-lookup"><span data-stu-id="a0579-108">This feature is handy if users need to share conversations or status updates with users outside their immediate team or even your organization.</span></span> <span data-ttu-id="a0579-109">Перейдите в начало беседы в Teams, выберите **̇ ̇ ̇ Дополнительные параметры**, а затем выберите команду **поделиться в Outlook**.</span><span class="sxs-lookup"><span data-stu-id="a0579-109">Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.</span></span>  <span data-ttu-id="a0579-110">Дополнительные сведения можно найти в статье [предоставление общего доступа к Outlook из Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).</span><span class="sxs-lookup"><span data-stu-id="a0579-110">To learn more, see [Share to Outlook from Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).</span></span>
+
+![Снимок экрана: функция "поделиться с Outlook" в Teams](media/share-to-outlook.png)
+
+<span data-ttu-id="a0579-112">Чтобы использовать эту функцию, Outlook в Интернете должен быть включен для пользователя.</span><span class="sxs-lookup"><span data-stu-id="a0579-112">To use this feature, Outlook on the web must be turned on for the user.</span></span> <span data-ttu-id="a0579-113">Если приложение Outlook в Интернете выключено, параметр " **предоставить общий доступ к Outlook** " не отображается в Teams для пользователя.</span><span class="sxs-lookup"><span data-stu-id="a0579-113">If Outlook on the web is turned off, the **Share to Outlook** option isn't displayed in Teams for the user.</span></span> <span data-ttu-id="a0579-114">Сведения о том, как включить и отключить Outlook в Интернете, можно найти в статье [Включение и отключение Outlook в Интернете для почтового ящика](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span><span class="sxs-lookup"><span data-stu-id="a0579-114">For steps on how to turn on and turn off Outlook on the web, see [Enable or disable Outlook on the web for a mailbox](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>
+
+## <a name="actionable-activity-emails"></a><span data-ttu-id="a0579-115">Сообщения о действиях, которые можно отменять</span><span class="sxs-lookup"><span data-stu-id="a0579-115">Actionable activity emails</span></span>
+
+<span data-ttu-id="a0579-116">Пользователи автоматически получают электронные сообщения о пропущенных действиях, которые помогают им отслеживать пропущенные беседы в Teams.</span><span class="sxs-lookup"><span data-stu-id="a0579-116">Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams.</span></span> <span data-ttu-id="a0579-117">В сообщениях о пропущенных действиях отображаются самые свежие ответы из беседы, в том числе сообщения, отправленные после пропущенного сообщения, и пользователи могут нажать кнопку **ответить** , чтобы ответить на него прямо в Outlook.</span><span class="sxs-lookup"><span data-stu-id="a0579-117">The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can click **Reply** to respond directly from within Outlook.</span></span> <span data-ttu-id="a0579-118">Дополнительные сведения можно найти в статье [ответы на сообщения о пропущенных действиях из Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).</span><span class="sxs-lookup"><span data-stu-id="a0579-118">To learn more, see [Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).</span></span>
+
+![Снимок экрана, на котором показано сообщение о пропущенных действиях](media/missed-activity-email.png)
+
+![Снимок экрана, на котором показано, как ответить на пропущенное сообщение о мероприятии](media/missed-activity-email-reply.png)
+
+<span data-ttu-id="a0579-121">Вы можете использовать командлет [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) вместе с параметром **SmtpActionableMessagesEnabled** , чтобы отключить транзактные сообщения.</span><span class="sxs-lookup"><span data-stu-id="a0579-121">You can use the [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the **SmtpActionableMessagesEnabled** parameter to turn off actionable emails.</span></span> <span data-ttu-id="a0579-122">По умолчанию для параметра **SmtpActionableMessagesEnabled** задано **значение true**.</span><span class="sxs-lookup"><span data-stu-id="a0579-122">By default, the **SmtpActionableMessagesEnabled** parameter is set to **true**.</span></span> <span data-ttu-id="a0579-123">Если задать для параметра **значение false** , транзактные сообщения электронной почты отключаются в Office 365.</span><span class="sxs-lookup"><span data-stu-id="a0579-123">Setting the parameter to **false** turns off actionable email messages across Office 365.</span></span> <span data-ttu-id="a0579-124">Для пользователей Teams это означает, что параметр **ответа** , реагирующий прямо в Outlook, недоступен в сообщениях электронной почты о действиях.</span><span class="sxs-lookup"><span data-stu-id="a0579-124">For Teams users, this means that the **Reply** option to respond directly in Outlook isn't available in missed activity emails.</span></span> <span data-ttu-id="a0579-125">Вместо этого в сообщениях электронной почты о пропущенных действиях **в Teams** можно ответить, чтобы пользователи могли отвечать на них в Teams.</span><span class="sxs-lookup"><span data-stu-id="a0579-125">Instead, the missed activity emails include a **Reply in Teams** option for users to reply in Teams.</span></span>
