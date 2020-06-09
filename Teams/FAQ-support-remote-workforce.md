@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780318"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637908"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -102,21 +102,21 @@ ms.locfileid: "43780318"
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Я только что начал работу с Microsoft 365, поэтому могу использовать Teams для поддержки своих удаленных сотрудников или учащихся. Я зарегистрировался в службе, но когда пользователь пытается использовать Teams, появляется ошибка "Вы много теряете! Попросите администратора активировать Microsoft Teams". Что делать?
 
-После активации одного из бесплатных предложений Teams вам потребуется включить его для своих пользователей. См. статьи [Управление доступом пользователей к Teams](user-access.md) и [Добавление пользователей по одному или массово в Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+После активации одного из бесплатных предложений Teams вам потребуется включить его для своих пользователей. См. статьи [Управление доступом пользователей к Teams](user-access.md) и [Добавление пользователей по одному или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 Если вы впервые назначаете лицензию или активируете пользователя, но уже используете Microsoft 365 в течение некоторого времени, вам может потребоваться [включить Teams](Office-365-set-up.md) в организации. Ознакомьтесь с разделом [Я уже использую Microsoft 365, но не использую Teams. Предоставляются ли лицензии на пробные версии?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) в этой статье.
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Можно ли использовать планы звонков с пробной версией Office 365 E1, предлагаемой корпорацией Майкрософт? Можно ли назначать своим пользователям номера телефонов? Сколько мне придется заплатить?
 
-Пользователи могут выполнять голосовые и видеозвонки между приложениями в любой версии Teams. Чтобы назначить номер сотруднику, потребуется [телефонная система Office 365](what-is-phone-system-in-office-365.md). Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя. Дополнительные сведения см. в статье [Голосовые и видеозвонки с помощью Teams](https://products.office.com/microsoft-teams/voice-calling).
+Пользователи могут выполнять голосовые и видеозвонки между приложениями в любой версии Teams. Чтобы назначить номер сотруднику, потребуется [телефонная система](what-is-phone-system-in-office-365.md). Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя. Дополнительные сведения см. в статье [Голосовые и видеозвонки с помощью Teams](https://products.office.com/microsoft-teams/voice-calling).
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>Можно ли настроить автосекретаря при использовании новой пробной версии Teams E1, чтобы иметь внутреннюю линию экстренной связи в компании в условиях вспышки эпидемии COVID-19 (коронавируса)?
 
-Чтобы настроить [облачного автосекретаря](what-are-phone-system-auto-attendants.md) в Teams, вам потребуется [телефонная система Office 365](what-is-phone-system-in-office-365.md) в дополнение к Teams. Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя.
+Чтобы настроить [облачного автосекретаря](what-are-phone-system-auto-attendants.md) в Teams, вам потребуется [телефонная система](what-is-phone-system-in-office-365.md) в дополнение к Teams. Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя.
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>Где можно найти дополнительные сведения о поддержке удаленных сотрудников?
 
-Конечные пользователи: [Совместная работа с Office 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) — повышение эффективности совместной работы во всех рабочих нагрузках Office 365
+Конечные пользователи: [Совместная работа с Microsoft 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) — повышение эффективности совместной работы во всех рабочих нагрузках Microsoft 365
 
 ИТ-администраторы и ИТ-специалисты: [Поддержка удаленных сотрудников с помощью Teams](support-remote-work-with-teams.md).
 

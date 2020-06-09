@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041846"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637898"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -160,7 +160,7 @@ Teams предоставляется как часть лицензий Office 3
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Взаимодействие между Exchange и SharePoint 
 
-Для полноценной работы с Teams каждому сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Office 365. Следующие статьи содержат информацию, связанную с почтовыми ящиками Exchange, размещенными в различных средах, взаимодействии Exchange и Teams, а также похожие сведения о SharePoint и OneDrive для бизнеса. 
+Для полноценной работы с Teams каждому сотруднику нужно разрешить использовать Exchange Online, SharePoint Online, а также создавать группы Microsoft 365. Следующие статьи содержат информацию, связанную с почтовыми ящиками Exchange, размещенными в различных средах, взаимодействии Exchange и Teams, а также похожие сведения о SharePoint и OneDrive для бизнеса. 
 
 |Задайте себе вопрос|Действие |
 |------------|-------|

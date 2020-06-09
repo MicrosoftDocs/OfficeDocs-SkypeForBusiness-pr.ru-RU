@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997000"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637678"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -43,7 +43,7 @@ ms.locfileid: "43997000"
 Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 При создании команды создаются следующие объекты:
-- Новая группа [Office 365](office-365-groups.md)
+- Новая [группа Microsoft 365](office-365-groups.md)
 - Сайт [SharePoint Online](sharepoint-onedrive-interact.md) и библиотека документации для хранения файлов команды
 - Общий почтовый ящик и календарь [Exchange Online](exchange-teams-interact.md)
 - Записная книжка OneNote

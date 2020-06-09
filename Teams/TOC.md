@@ -41,6 +41,7 @@
 ## [Метки конфиденциальности для Teams](sensitivity-labels.md)
 ## [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
 ## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
+## [Teams и интеграция электронной почты Outlook](teams-outlook-email-integration.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
 ## [Управление тегами в Teams](manage-tags.md)
