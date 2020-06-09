@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349643"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637068"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "44349643"
 
 Пользователи, размещенные на Exchange Online Dedicated (Legacy), должны быть синхронизированы с Azure Active Directory в Microsoft 365 или Office 365. Они могут создавать и присоединяться к группам и каналам, добавлять и настраивать вкладки и ботов, а также использовать функции чата и звонков. Однако они не могут изменять изображения профиля, управлять собраниями, получать доступ к контактам Outlook и управлять соединителями.
 
-Пользователи с локальными почтовыми ящиками должны синхронизироваться с Azure Active Directory. Они могут использовать все функции описанных выше сценариев. Кроме того, они также могут изменить аватар профиля пользователя (если приложение Outlook в политике веб-почтового ящика допускает это) и управлять собраниями, предоставляя Exchange Server 2016 (Накопительное обновление 3) или более поздней версии, в локальной среде с помощью OAuth (предпочтительно с помощью мастера гибридной конфигурации Exchange), как описано в разделе [Настройка проверки подлинности OAuth между Exchange и Exchange](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) Чтобы включить делегирование календаря для этих пользователей, необходимо также выполнить шаги 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); Эти действия приводят к приложению планирования рабочих групп необходимые разрешения для подтверждения прав представителя.   
+Пользователи с локальными почтовыми ящиками должны синхронизироваться с Azure Active Directory. Они могут использовать все функции описанных выше сценариев. Кроме того, они также могут изменить аватар профиля пользователя (если приложение Outlook в политике веб-почтового ящика допускает это) и управлять собраниями, предоставляя Exchange Server 2016 (Накопительное обновление 3) или более поздней версии, в локальной среде с помощью OAuth (предпочтительно с помощью мастера гибридной конфигурации Exchange), как описано в разделе [Настройка проверки подлинности OAuth между Exchange и Exchange](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) Чтобы включить делегирование календаря для этих пользователей, необходимо также выполнить шаги 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); Эти действия приводят к приложению планирования рабочих групп необходимые разрешения для подтверждения прав представителя.
 
 В таблице ниже приведены краткие ссылки на доступность функций на основе среды Exchange.
 
@@ -45,7 +45,7 @@ ms.locfileid: "44349643"
 
 **Поддерживаемые действия:**
 
-| Место для размещения почтового ящика пользователя: | Обнаружение электронных данных| Юридическое &nbsp; Хранение | Документации| Руководства для разработчиков групп и каналов |Создание и Просмотр собраний в Teams| Изменение аватара пользователя | История звонков | Управление контактами | Доступ к контактам Outlook | Голосовая почта |Добавление и настройка соединителей|Добавление и настройка вкладок|Добавление и настройка ботов| 
+| Место для размещения почтового ящика пользователя: | Обнаружение электронных данных| Юридическое &nbsp; Хранение | Документации| Руководства для разработчиков групп и каналов |Создание и Просмотр собраний в Teams| Изменение аватара пользователя | История звонков | Управление контактами | Доступ к контактам Outlook | Голосовая почта |Добавление и настройка соединителей|Добавление и настройка вкладок|Добавление и настройка ботов|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да,<sup>8</sup>|Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да |
 |**Exchange Online Dedicated vNext**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да,<sup>8</sup>|Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да|
@@ -78,7 +78,7 @@ Microsoft Teams работает с несколькими службами Micr
 
 - Для создания групп в Microsoft Teams необходимо включить пользователей для создания групп Microsoft 365.
 
-- Чтобы приложение Microsoft Teams работало в локальной среде Exchange, необходимо настроить новый протокол проверки подлинности OAuth Exchange (предпочтительно, запустив мастер гибридного сервера Exchange, как описано в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)). Чтобы разрешить пользователям с помощью локального почтового ящика Exchange Планирование собраний в Teams от имени другого пользователя, необходимо также выполнить действия 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+- Чтобы приложение Microsoft Teams работало в локальной среде Exchange, необходимо настроить новый протокол проверки подлинности OAuth Exchange (предпочтительно, запустив мастер гибридного сервера Exchange, как описано в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)). Чтобы разрешить пользователям с помощью локального почтового ящика Exchange Планирование собраний в Teams от имени другого пользователя, необходимо также выполнить действия 2-3, как описано в разделе [Настройка интеграции и OAuth для Skype для бизнеса Online и Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
 
 > [!NOTE]
 > С помощью надстройки Outlook Teams можно запланировать собрания Teams для почтовых ящиков, размещенных в локальной среде Exchange. Однако планирование собрания Teams от имени другого пользователя с помощью Exchange в локальной сети требует Exchange 2013 CU9 и выше и нового протокола проверки подлинности OAuth Exchange. Как делегат, так и представитель должны иметь почтовый ящик на локальном сервере Exchange.
@@ -103,3 +103,23 @@ Microsoft Teams работает с несколькими службами Micr
 
 > [!TIP]
 > Сведения о том, как использовать Azure AD Connect для синхронизации с Azure Active Directory, можно найти [в разделе Интеграция локальных удостоверений с Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
+
+## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>Требования для пользователя локального почтового ящика Exchange
+
+Если пользователи хотят запланировать собрание Teams с помощью Exchange, необходимо убедиться в том, что следующее:
+
+- На сервере Exchange Server и представителе должен быть указан почтовый ящик.
+
+- Автоматическое обнаружение (автоматически) v2 требуется для разрешения службе Teams обнаружения почтового ящика пользователя без проверки подлинности. Авто v2 поддерживается в Exchange 2013 CU19 +.
+
+- Сервер Exchange должен быть настроен для проверки подлинности сервера EVOSTS. Это автоматически настраивается как часть мастера гибридного развертывания Exchange (ВВЕДЯ).
+
+    Если вы не хотите запускать ВВЕДЯ, вы можете вручную создать сервер проверки подлинности для EVO STS на сервере Exchange, выполнив указанные ниже инструкции [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Однако мы рекомендуем использовать ВВЕДЯ.
+
+- У сервера Exchange должно быть приложение партнера, настроенное с помощью идентификатора приложения **Skype для бизнеса Online, 00000004-0000-0ff1-ce00-000000000000**. Этот идентификатор используется службой планирования Teams и связанной учетной записью пользователя со следующими свойствами:
+
+  - Скрыто из адресной книги Exchange. Рекомендуется скрыть ее из адресной книги, так как она является отключенной учетной записью пользователя.
+
+  - Назначение роли управления Exchange для **UserApplication**.
+
+Для завершения интеграции выполните действия 1-3 в разделе [Настройка проверки подлинности OAuth между локальными организациями Exchange и Exchange Online.](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) Обратите внимание, что шаг 2 включает назначение ролей для ArchiveApplication, которое не требуется для делегирования, но предназначено для архивации SfB онлайнового чата в почтовый ящик Exchange.

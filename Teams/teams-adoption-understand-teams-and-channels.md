@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 736ed72a4f4aacd41ed2db746976a9ff848aa74e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350303"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638548"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Знакомство с командами и каналами в Microsoft Teams
 
 Концепция групп и каналов является основой для эффективной и производительной реализации Microsoft Teams. 
 
-- Группа — это набор людей, контента и инструментов, которые работают вместе для создания бизнес-результата для вашей компании. Команды Teams создаются на основе групп Microsoft 365, и любые изменения участия в группе Office 365 синхронизируются в команде.
+- Группа — это набор людей, контента и инструментов, которые работают вместе для создания бизнес-результата для вашей компании. Teams строится на группах Microsoft 365 и изменения членства в группах в Microsoft 365, которые будут синхронизироваться с группой.
 
 - Каналы — это пространство для совместной работы в команде, в рамках которой выполняются фактические трудозатраты. 
 

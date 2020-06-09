@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Поиск языка конференц-связи с телефонным подключением для каждой страны или региона и назначенного идентификатора языка и региональных параметров (EN-US, da-DK, de-DE и т. д.)
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826227"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610298"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 
-При настройке и настройке голосовой конференции в Office 365 вы можете выбрать основной и дополнительный (не более 4) языки, которые используются при набираемом звонке на собрание Skype для бизнеса или Microsoft Teams. Ниже приведен список поддерживаемых языков для голосовой конференции. 
+При настройке и настройке голосовой конференции в Microsoft 365 или Office 365 вы можете выбрать основной и дополнительный (не более 4) языки, которые используются при набираемом звонке на собрание Skype для бизнеса или Microsoft Teams. Ниже приведен список поддерживаемых языков для голосовой конференции. 
   
 > [!IMPORTANT]
 > Основной и дополнительный языки можно изменить только в выделенных телефонных номерах для голосовой связи. 
@@ -93,11 +93,11 @@ ms.locfileid: "41826227"
 
 - Для экономии времени или автоматизации процесса можно воспользоваться командлетами [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) или [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) .
     
-- Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Подробнее об этих преимуществах можно узнать в следующих разделах: 
     
@@ -110,8 +110,8 @@ ms.locfileid: "41826227"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

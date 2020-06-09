@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики маршрутизации вызовов экстренного реагирования в Microsoft Teams, чтобы настроить номера для экстренного реагирования и указать, как будут маршрутизироваться экстренные вызовы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b573543483d41219d2795043f47042789bc855ba
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539526"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638698"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams
 
@@ -109,7 +109,7 @@ ms.locfileid: "44539526"
 В этом примере мы назначаем политику, которая называется политикой маршрутизации вызовов экстренной помощи, для всех пользователей в группе Contoso HR.  
 
 > [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Убедитесь в том, что сначала вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить GroupObjectId определенной группы.
 ```PowerShell
@@ -135,7 +135,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Управление политиками вызова экстренной помощи в Teams](manage-emergency-calling-policies.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

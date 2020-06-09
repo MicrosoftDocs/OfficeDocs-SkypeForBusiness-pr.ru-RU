@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: В этой статье вы узнаете, как создавать, изменять учетные записи ресурсов и управлять ими в Microsoft Teams.
-ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565912"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637978"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "44565912"
 
 Если автосекретарь или очередь звонков вложены в автосекретарь верхнего уровня, соответствующая учетная запись ресурса должна иметь только номер телефона, если вы хотите добавить несколько точек ввода в структуру автосекретарей и очередей звонков.
 
-Для переадресации звонков между абонентами в вашей организации, которые подключены к сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков по Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Для переадресации звонков между абонентами в вашей организации, которые подключены к сети, они должны иметь лицензию на **телефонную систему** , а также включить поддержку корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > Чтобы избежать проблем с учетной записью ресурса, выполните указанные ниже действия в указанном порядке.
@@ -118,7 +118,7 @@ ms.locfileid: "44565912"
 
 ![Снимок экрана: параметры новой учетной записи ресурса](media/res-acct.png)
 
-Затем примените лицензию для учетной записи ресурса в центре администрирования Microsoft 365, как описано в разделе [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+Затем примените лицензию к учетной записи ресурса в центре администрирования Microsoft 365, как описано в разделе [Добавление пользователей по отдельности или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 ### <a name="edit-resource-account"></a>Изменение учетной записи ресурса 
 
@@ -182,7 +182,7 @@ ms.locfileid: "44565912"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. Вы не сможете использовать учетную запись ресурса, пока вы не примените к ней лицензию. Инструкции по применению лицензии к учетной записи в центре администрирования Microsoft 365 приведены в разделе [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) и [Назначение лицензий Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Вы не сможете использовать учетную запись ресурса, пока вы не примените к ней лицензию. Сведения о том, как применить лицензию к учетной записи в центре администрирования Microsoft 365, можно найти в статье [Добавление пользователей по отдельности или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) , а также [Назначение лицензий Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 3. Необязательно После того как правильная лицензия будет применена к учетной записи ресурса, вы можете назначить номер телефона для учетной записи ресурса, как показано ниже. Не все учетные записи ресурсов требуют номера телефона. Если вы не выпустили лицензию для учетной записи ресурса, назначение номера телефона завершится сбоем.
 

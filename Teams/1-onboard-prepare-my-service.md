@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Используйте контрольные списки для подготовки Office 365 для Teams и настройки основных возможностей, сети и облачных голосовых нагрузок для Teams.
+description: Используйте контрольные списки для подготовки Microsoft 365 или Office 365 для Teams и настройки основных возможностей, сети и облачных голосовых нагрузок.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137999"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610071"
 ---
 # <a name="prepare-my-service"></a>Подготовка службы
 
@@ -34,7 +34,7 @@ ms.locfileid: "43137999"
 
 Приведенные ниже контрольные списки пошаговые инструкции по применению функций голосовой видеосвязи, телефонной системы с планами звонков (планы звонков) и прямой маршрутизации по телефонной системе ("прямая маршрутизация") в Microsoft Teams.
 
-*  [Подготовка Office 365 для Teams](onboarding-checklist-enable-office-365.md)
+*  [Подготовка Microsoft 365 или Office 365 для Teams](onboarding-checklist-enable-office-365.md)
 
 *  [Настройка основных возможностей Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

@@ -17,12 +17,12 @@ description: Узнайте, как с помощью PowerShell разреши�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902594"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637308"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Использование PowerShell для управления гостевым доступом в команде
 ================================================
@@ -33,7 +33,7 @@ ms.locfileid: "43902594"
 
 - Разрешение на добавление гостей во все группы и Microsoft 365
 
-- Разрешение или блокировка гостевых пользователей из определенной команды или группы Office 365
+- Разрешение и блокирование гостевых пользователей для определенной группы или группы Microsoft 365
 
 Дополнительные сведения можно найти в разделе "Использование PowerShell для управления гостевым доступом" в [группах Microsoft 365 "Гостевой](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)доступ".
 

@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Администратор может узнать о том, как использовать голосовую конференцию с прямой маршрутизацией в GCCH и в среде с использованием по требованию.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ded1e0aba5191449d568109b8f30762fbd5d917
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 17b928dc62cb6e4da0a88fd868ff0e599705d89a
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905051"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610258"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Аудиоконференции с прямой маршрутизацией для GCC High и DoD
 
@@ -93,7 +93,7 @@ ms.locfileid: "43905051"
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Шаг 4: назначение голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии на GCC
 
-Чтобы назначить голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии GCC, ознакомьтесь с [разрешениями Назначение лицензий пользователям в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Чтобы назначить голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии GCC, ознакомьтесь с разделами [Добавление пользователей по отдельности или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Шаг 5: (необязательно) Просмотр списка номеров голосовой конференции в Teams
 

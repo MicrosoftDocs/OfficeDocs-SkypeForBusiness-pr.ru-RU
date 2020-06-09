@@ -20,17 +20,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fabdbde6f8307694457d4861d67c6ed2eb22ac1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 391814e9197ebcf4839adac35dc2a8b96085b545
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905811"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638518"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Включение встроенного перевода сообщений в Microsoft Teams 
 =================================================
 
-Преобразование встроенных сообщений — это новая функция Microsoft Teams, которая позволяет пользователям переводить сообщения Teams на [язык](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) , заданный их личными языковыми параметрами для Office 365.
+Преобразование встроенных сообщений — это новая функция Microsoft Teams, которая позволяет пользователям переводить сообщения групп на [язык](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) , заданный их личными языковыми параметрами.
 
 Встроенный перевод сообщений развертывается для вашей организации по умолчанию. Если вы хотите разрешить пользователям использовать эту функцию в клиенте Teams, необходимо включить этот параметр.
 

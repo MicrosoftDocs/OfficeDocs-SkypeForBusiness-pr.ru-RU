@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики вызова экстренной помощи и управлять ими в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в организации осуществляет вызов экстренной помощи.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 79332a8675273e86476a68f43489c202b03faea9
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539486"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638688"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Управление политиками вызова экстренной помощи в Microsoft Teams
 
@@ -104,7 +104,7 @@ ms.locfileid: "44539486"
 В этом примере мы назначаем политику, которая называется политикой вызова экстренных операций, всем пользователям в группе "операции Contoso".  
 
 > [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Убедитесь в том, что сначала вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить GroupObjectId определенной группы.
 ```powershell
@@ -130,7 +130,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Управление политиками маршрутизации вызова экстренной помощи в Teams](manage-emergency-call-routing-policies.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Сведения о том, какие языки вы можете настроить в Skype для бизнеса для системных сообщений по умолчанию и приветствий голосовой почты.
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904524"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638768"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Языки, используемые для приветствий в голосовой почтые и сообщений
 
@@ -80,7 +80,7 @@ ms.locfileid: "43904524"
 ## <a name="related-topics"></a>См. также:
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
   
   
  

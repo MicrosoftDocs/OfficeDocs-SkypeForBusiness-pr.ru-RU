@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Администратор Office 365 может изменить параметры конференц-связи Teams, в том числе поставщик, номер по умолчанию (бесплатный или бесплатный), идентификатор конференции или ПИН для пользователя.
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Администратор Microsoft 365 или Office 365 может изменять настройки голосовой конференции Teams, в том числе поставщик, номер по умолчанию (бесплатный или бесплатный), идентификатор конференции и ПИН-код для пользователя.
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137149"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638478"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 
-В учетной записи администратора Office 365 можно по отдельному пользователю организации вносить изменения в параметры аудиоконференций, такие как провайдер, номера платной или бесплатной линии по умолчанию, идентификатор конференции или ПИН-код. Если вы хотите изменить параметры организации, ознакомьтесь со сведениями о том, как [управлять параметрами голосовой](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)связи в Организации.
+Как администратор Microsoft 365 или Office 365 вы можете изменять настройки голосовой связи, такие как поставщик, номер по умолчанию, платный или бесплатный, идентификатор конференции или ПИН-код для отдельного пользователя в Организации. Если вы хотите изменить параметры организации, ознакомьтесь со сведениями о том, как [управлять параметрами голосовой](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)связи в Организации.
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "43137149"
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление настройками аудиоконференций для организации](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 

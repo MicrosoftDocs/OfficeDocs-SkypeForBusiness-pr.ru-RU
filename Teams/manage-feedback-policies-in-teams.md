@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как использовать политики обратной связи для управления тем, могут ли пользователи Teams в организации отправлять отзывы о Teams в Майкрософт.
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326686"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637958"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Управление политиками обратной связи в Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "44326686"
 
 **Функция предоставления отзывов**
 
-Пользователи могут отправлять свои комментарии и предложения в Teams **, чтобы получить**  >  **отзыв** в Teams. Данные, отправляемые через **обратную связь** , рассматриваются как "данные поддержки" в соответствии с соглашением Office 365, в том числе данные, которые в противном случае будут считаться "данными клиента" или "личными данными".
+Пользователи могут отправлять свои комментарии и предложения в Teams **, чтобы получить**  >  **отзыв** в Teams. Данные, отправляемые через **обратную связь** , рассматриваются как "данные поддержки" в соответствии с соглашением Microsoft 365 или Office 365, в том числе данные, которые в противном случае будут считаться "данными клиента" или "личными данными".
 
 ![Снимок экрана: команда "Отправить отзыв" в Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 

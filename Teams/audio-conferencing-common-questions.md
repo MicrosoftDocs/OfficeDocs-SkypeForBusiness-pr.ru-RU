@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Ниже перечислены некоторые популярные вопросы, которые мы получаем от наших пользователей, которые хотят использовать голосовую конференцию.
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236849"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611038"
 ---
 # <a name="audio-conferencing-common-questions"></a>Общие вопросы об аудиоконференциях
 
@@ -65,7 +65,7 @@ ms.locfileid: "42236849"
   
 Локальные номера для телефонного подключения, а также в некоторых случаях международные номера для телефонного подключения из страны, где находится ваша организация, будут включены в приглашение на собрание. Если участник собрания использует другой номер, включенный в приглашение, это будет общий номер телефона.
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Сколько международных номеров для телефонного подключения поддерживает звуковые конференции в Office 365
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Сколько международных номеров для телефонного подключения поддерживает звуковые конференции в Microsoft 365 или Office 365?
 
 Чтобы просмотреть список стран и регионов, просмотрите [номера телефонов в Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) и [номера телефонов для голосовой конференции в Skype для бизнеса Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   

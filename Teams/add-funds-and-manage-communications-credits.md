@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Узнайте о том, как платить за звонки в Skype для бизнеса (использование PSTN) и просмотреть планы, чтобы обеспечить пользователям непрерывный доступ к телефонным системам. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827217"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610287"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 
-Кредитные титры — это удобный способ платить за телефонную систему и планы звонков в Office 365. Благодаря кредитовому сообщению вы и ваши пользователи не перехватываюте, и вы не сможете:
+Кредиты на связь – это удобный способ платить за телефонную систему и планы звонков в Microsoft 365 или Office 365. Благодаря кредитовому сообщению вы и ваши пользователи не перехватываюте, и вы не сможете:
   
 - Подключаться к собраниям голосовой связи с помощью бесплатных телефонных номеров.
     
@@ -76,7 +76,7 @@ ms.locfileid: "41827217"
     
 - [Планы телефонной системы](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **Billing** > **подписку** > на план**подписки.**
+Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **Billing**  >  **подписку**на план подписки  >  **Add subscriptions**.
   
 Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -86,7 +86,7 @@ ms.locfileid: "41827217"
     
 - [Настройка облачной голосовой почты — справка для администратора](set-up-phone-system-voicemail.md)
     
-- [Настройка в Тарифных планов](set-up-calling-plans.md) и [Тарифные планы для Office 365](calling-plans-for-office-365.md)
+- [Настройка планов звонков](set-up-calling-plans.md) и [планов звонков для Microsoft 365 или Office 365](calling-plans-for-office-365.md)
         
  
  

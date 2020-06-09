@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224212"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638899"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в организации
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224212"
   
 - Номер телефона, назначенный пользователю, который задан по умолчанию.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- Номер телефона, который классифицируется как *услуга* и *бесплатный* номер в списке номеров телефонов в тарифных планах звонков. Обычно он назначается для автосекретаря организации или звонка в очередь звонков.
     
 - Задан как анонимный.
     

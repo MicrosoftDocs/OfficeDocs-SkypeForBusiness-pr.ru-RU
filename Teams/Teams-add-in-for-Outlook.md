@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583442"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637718"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -65,7 +65,7 @@ ms.locfileid: "44583442"
 
 Координаты собрания (ссылка на присоединение к Teams и номера для телефонного подключения) будут добавлены в приглашение на собрание после нажатия кнопки **Отправить**.  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Надстройка "Собрание Teams" и надстройка "Поиск времени" для Outlook
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Надстройка для собраний Teams и FindTime для Outlook
 
 FindTime — это надстройка для Outlook, которая помогает пользователям достичь согласованности во время собрания между компаниями. После того как участники собрания укажут предпочитаемое время, надстройка "Поиск времени" отправляет приглашение на собрание от имени пользователя. Если в надстройке "Поиск времени" выбран параметр **Собрания по сети**, будет запланировано собрание Skype для бизнеса или Microsoft Teams. (Надстройка "Поиск времени" будет использовать вариант, установленный в вашей организации по умолчанию в качестве канала собрания по сети.)
 

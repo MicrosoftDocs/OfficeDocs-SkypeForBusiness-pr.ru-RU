@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Узнайте о параметрах "Оплата за минуту", чтобы включить возможности голосовой конференции для организаций, использующих корпоративное лицензирование Microsoft.
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041726"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610514"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -56,7 +56,7 @@ ms.locfileid: "44041726"
   
 Оплата через минуту требует, чтобы в вашей организации были включены [кредиты на связь](what-are-communications-credits.md) с лицензией на использование лицензий, назначенных каждому пользователю, чтобы обеспечить возможность голосовой конференции. Дополнительные сведения можно найти в разделе [Настройка кредитов связи для Организации](set-up-communications-credits-for-your-organization.md) и/или [лицензирования надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-Чтобы включить оплату звуковой Конференции за минуту для пользователей в вашей организации, ознакомьтесь с [разрешениями "попробовать или приобрести голосовую конференцию в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)".
+Чтобы включить оплату звуковой Конференции за минуту для пользователей в вашей организации, ознакомьтесь с [разрешениями попробуйте или приобретите голосовую конференцию в Microsoft Office 365 или Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
 ## <a name="why-is-it-best-for-you"></a>Зачем это лучше?
 
@@ -82,7 +82,7 @@ ms.locfileid: "44041726"
     
 - [Цены на Тарифные планы](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные статьи
   
 [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

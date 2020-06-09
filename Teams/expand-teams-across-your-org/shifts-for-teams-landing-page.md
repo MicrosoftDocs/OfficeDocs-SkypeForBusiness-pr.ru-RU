@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079402"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610286"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
 Teams дает сотрудникам Firstline в вашей организации инструменты, необходимые для эффективного общения и совместной работы. Здесь вы найдете руководство для администраторов по настройке и управлению сменами, а также с помощью средства управления планированием в Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Переход от StaffHub к сменам в Teams
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Узнайте о возможностях выбытия и переходе на смену StaffHub в Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Планирование перемещения групп StaffHub в приложение "Смены" в Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Перемещение StaffHubных групп в смену в Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Настройка смен и управление ими в Организации
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ Teams дает сотрудникам Firstline в вашей организац
                     </div>
                     <div class="cardText">
                         <h3>Справка по сменам для Firstline работников</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>Расширения смен
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>API сменной диаграммы</h3>
+                        <p>API-интерфейсы смен предоставляют возможность интеграции смен данных с внешними системами управления трудами, обеспечивая гибкие возможности для создания настраиваемых смен в серверной части, а также для пользователей с богатым и внешним интерфейсом в Teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Интеграция управления ресурсами</h3>
+                        <p>Если вы используете системы управления независимыми производителями, например Kronos и JDA, для планирования, времени и присутствия, вы можете напрямую интегрировать их с помощью перекрывающихся API-интерфейсов и SDK с помощью открытых источников интеграции.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Сменные клавиши Shift + Power Автоматизация</h3>
+                        <p>Смену + Power Автоматизация позволяет вам получать информацию из смен и создавать собственные рабочие процессы с другими приложениями и выполнять операции с масштабом. Автоматизация ключевых процессов с минимальным количеством кода. Триггеры и шаблоны поддерживают разнообразные сценарии, такие как включение автоматических утверждений для запросов на смену, если не требуется утверждение руководителя.</p>
                     </div>
                 </div>
             </div>

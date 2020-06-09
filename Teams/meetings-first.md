@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140298"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637948"
 ---
 # <a name="meetings-first"></a>Вначале собрания
 
@@ -78,9 +78,9 @@ ms.locfileid: "43140298"
 
 Собрания сначала поддерживаются в любой версии Skype для бизнеса Server (и известным для работы с сервером Lync, который больше не поддерживается). Она поддерживается в любом поддерживаемом клиенте Skype для бизнеса, но для более эффективного использования возможностей требуется последний клиент.
 
-После того как эти требования выполнены (и не раньше), пользователи могут быть [лицензированы для Office 365 и Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
+После того как эти требования выполнены (и не раньше), пользователи могут быть [лицензированы для Microsoft 365 или Office 365 и Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
 
-Для наилучшего восприятия вы должны включить пользователей для [Exchange Online](exchange-teams-interact.md), [SharePoint Online и OneDrive для бизнеса](sharepoint-onedrive-interact.md)и создания групп Office 365. Собрания сначала поддерживаются для пользователей, чей почтовый ящик находится на локальном сервере Exchange, или для тех, у кого нет SharePoint Online или OneDrive для бизнеса, а также для создания групп Office 365. Тем не менее, они будут работать с меньшими трудозатратами. В частности, для организаций, использующих локальную версию Exchange Server, может быть (в зависимости от версии Exchange Server) некоторые ограничения для создания и просмотра собраний из клиента Teams, а также в отношении возможностей соответствия требованиям.
+Для наиболее оптимального взаимодействия пользователи должны быть включены для [Exchange Online](exchange-teams-interact.md), [SharePoint Online и OneDrive для бизнеса](sharepoint-onedrive-interact.md), а также для создания групп Microsoft 365. Собрания сначала поддерживаются для пользователей, чей почтовый ящик находится на локальном сервере Exchange, или для тех, у кого нет SharePoint Online или OneDrive для бизнеса или Microsoft 365. Тем не менее, они будут работать с меньшими трудозатратами. В частности, для организаций, использующих локальную версию Exchange Server, может быть (в зависимости от версии Exchange Server) некоторые ограничения для создания и просмотра собраний из клиента Teams, а также в отношении возможностей соответствия требованиям.
 
 Как минимум, пользователи должны быть [лицензированы для Teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Кроме того, при необходимости они могут быть лицензированы для [голосовой конференции](set-up-audio-conferencing-in-teams.md).
 
