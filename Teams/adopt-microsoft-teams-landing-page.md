@@ -21,14 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610249"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665931"
 ---
 # <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
+
+> [!NOTE]
+> Общие сведения о переходе на удаленное обучение и ресурсы, которые помогут вам приступить к работе, можно найти на [**главной странице удаленной обучения**](https://www.microsoft.com/education/remote-learning).
 
 Если вы работаете в малом бизнесе или хотите развертывать группы, начиная с чата, Teams & каналами и собраний, воспользуйтесь нашими [рекомендациями по началу работы](get-started-with-teams-quick-start.md), которые предназначены для быстрого создания и работы. Если вы используете крупную организацию с гибридной или локальной конфигурацией Skype для бизнеса или хотите выгрузить возможности голосовой связи (например, планы Microsoft 365 или Office 365 или телефонная система), вы можете начать с руководства по началу работы, но вам понадобится дополнительное руководство в разделе **рекомендации по более глубокой внедрению**.
 
