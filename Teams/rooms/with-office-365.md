@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams с помощью Microsoft 365 или Office 365, где в сети могут быть установлены команды или Skype для бизнеса и Exchange.
-ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905281"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666141"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Развертывание комнат Microsoft Teams с помощью Microsoft 365 или Office 365
 
-В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в Office 365, где Microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
+В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в Microsoft 365 или Office 365, где Microsoft Teams или Skype для бизнеса и Exchange находятся в сети.
 
 Самый простой способ настроить учетные записи пользователей — настроить их с помощью удаленной оболочки Windows PowerShell. Корпорация Майкрософт предоставляет [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), сценарий, который поможет создать новые учетные записи пользователей, или проверить имеющиеся учетные записи ресурсов, чтобы их можно было превратить в совместимые учетные записи Microsoft Teams. Если вы предпочитаете, выполните указанные ниже действия, чтобы настроить учетные записи, которые будут использоваться на устройстве комнат Microsoft Teams.
 
 ## <a name="requirements"></a>Требования
 
-Перед развертыванием комнат Microsoft Teams с помощью Office 365 убедитесь, что вы удовлетворены требованиями. Дополнительные сведения можно найти в разделе [требования к комнатам Microsoft Teams](requirements.md).
+Перед развертыванием комнат Microsoft Teams с помощью Microsoft 365 или Office 365 убедитесь, что вы удовлетворены требованиями. Дополнительные сведения можно найти в разделе [требования к комнатам Microsoft Teams](requirements.md).
 
 Чтобы включить Skype для бизнеса, необходимо выполнить указанные ниже действия.
 
-- Skype для бизнеса Online (план 2 или план на основе предприятия) или более позднюю версию в плане Office 365. План должен разрешить возможности конференц-связи с телефонным подключением.
+- Skype для бизнеса Online (план 2 или план на основе предприятия) или более позднюю версию в плане Microsoft 365 или Office 365. План должен разрешить возможности конференц-связи с телефонным подключением.
 
 - Если вам понадобятся возможности телефонного подключения к собранию, вам потребуется голосовой Конференц-связь и лицензия на телефонную систему.  Если вам понадобятся возможности удаленного доступа с собрания, вам понадобится лицензия на голосовую конференцию.
 
@@ -58,16 +58,16 @@ ms.locfileid: "43905281"
 
      В этом примере создается новый почтовый ящик комнаты со следующими параметрами:
 
-     - Имя: Project-Rigel-01
+     - Name (имя): Rigel-01
 
-     - Alias (псевдоним): ProjectRigel01
+     - Alias (псевдоним): Rigel1
 
-     - Учетная запись: ProjectRigel01@contoso.onmicrosoft.com
+     - Учетная запись: Rigel1@contoso.onmicrosoft.com
 
      - Пароль учетной записи: P@ $ $W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - Чтобы изменить существующий почтовый ящик помещения, используйте следующий синтаксис:
@@ -76,10 +76,10 @@ ms.locfileid: "43905281"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись для почтового ящика помещения с параметром Alias ProjectRigel02 и устанавливается пароль для 9898P@ $ $W 0rd. Обратите внимание, что учетная запись будет ProjectRigel02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись для почтового ящика помещения с параметром Alias Rigel2 и устанавливается пароль для 9898P@ $ $W 0rd. Обратите внимание, что учетная запись будет Rigel2@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
-     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    Подробные сведения о синтаксисе и параметрах можно найти в разделе [Создание почтового ящика](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) и [Настройка почтового ящика](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
@@ -101,15 +101,15 @@ ms.locfileid: "43905281"
 
    - AdditionalResponse: "это комната для собраний Skype!" (Дополнительный текст, добавляемый в приглашение на собрание.)
 
-   Этот пример настраивает эти параметры в почтовом ящике комнаты с именем Project-Rigel-01.
+   В этом примере эти параметры настраиваются в почтовом ящике комнаты с именем Rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
    Подробные сведения о синтаксисе и параметрах можно найти в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Подключитесь к MS Online PowerShell, чтобы настроить параметры Active Directory, `Connect-MsolService -Credential $cred` запустив командлет PowerShell.   Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Подключитесь к MS Online PowerShell, чтобы настроить параметры Active Directory, запустив `Connect-MsolService -Credential $cred` командлет PowerShell.   Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
@@ -124,14 +124,14 @@ ms.locfileid: "43905281"
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   В этом примере в качестве пароля для учетной записи ProjectRigel01@contoso.onmicrosoft.com никогда не задается срок действия.
+   В этом примере в качестве пароля для учетной записи Rigel1@contoso.onmicrosoft.com никогда не задается срок действия.
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
    ``` PowerShell
-   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    Вы также можете задать номер телефона для учетной записи, выполнив следующую команду:
@@ -144,7 +144,7 @@ ms.locfileid: "43905281"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. Учетная запись устройства должна иметь действительную лицензию на Office 365, либо Exchange и Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных SKU для вашей организации Office 365, выполните указанные ниже действия.
+6. Учетная запись устройства должна иметь действительную лицензию Microsoft 365 или Office 365, либо Exchange и Microsoft Teams или Skype для бизнеса не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> чтобы получить список доступных SKU для вашей организации Microsoft 365 или Office 365, выполните указанные ниже действия.
 
   ``` Powershell
   Get-MsolAccountSku
@@ -195,11 +195,11 @@ ms.locfileid: "43905281"
     > [!NOTE]
     > Новые учетные записи пользователей могут не создаваться в том же пуле регистраторов, что и существующие учетные записи пользователей в клиенте. Приведенная выше команда будет препятствовать ошибкам в настройке учетной записи из-за этой ситуации.
 
-После выполнения описанных выше действий для включения учетной записи Microsoft Teams в Microsoft Teams или Skype для бизнеса Online необходимо назначить лицензию для устройства Microsoft Teams. С помощью административного портала Office 365 Назначьте устройству Skype для бизнеса Online (план 2) или лицензию Skype для бизнеса Online (план 3).
+После выполнения описанных выше действий для включения учетной записи Microsoft Teams в Microsoft Teams или Skype для бизнеса Online необходимо назначить лицензию для устройства Microsoft Teams. С помощью центра администрирования Microsoft 365 Назначьте устройству лицензию Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3).
 
 ### <a name="assign-a-license-to-your-account"></a>Назначение лицензии учетной записи
 
-1. Войдите в систему как администратор клиента, откройте административный портал Office 365 и щелкните Приложение администратор.
+1. Войдите в систему как администратор клиента, откройте центр администрирования Microsoft 365 и щелкните Приложение администратор.
 
 2. Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.
 
@@ -216,27 +216,27 @@ ms.locfileid: "43905281"
 Команды PowerShell для Exchange Online:
 
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
 ```
 
 Команды PowerShell для Azure Active Directory:
 
 ``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```
 
 <!-- 
 ``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
 Команда PowerShell для Skype для бизнеса:

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523202"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666071"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Требования и зависимости окружающей среды для Teams
 
@@ -36,15 +36,15 @@ ms.locfileid: "44523202"
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-В Teams объединены несколько служб Office 365, поэтому они зависят от правильной реализации и функционирования этих служб. Эти службы включают (но не ограничиваются) SharePoint Online, Exchange Online и OneDrive для бизнеса.
+В Teams объединены различные службы Microsoft 365 и Office 365, поэтому они зависят от правильной реализации и функционирования этих служб. Эти службы включают (но не ограничиваются) SharePoint Online, Exchange Online и OneDrive для бизнеса.
 
 Несмотря на то, что требуется не все службы, мы настоятельно рекомендуем вам реализовать все. Если вы решили не применять определенные службы, это повлияет на функциональность, которую Teams может предложить вашей организации. Например, несмотря на то, что вам не нужно реализовывать SharePoint Online, в Teams в SharePoint Online используются определенные функции, такие как общий доступ к файлам во время групповых разговоров, поэтому не реализация этой службы уменьшает функциональность, предоставляемую клиентом.
 
 Ознакомьтесь со следующими статьями о предварительных требованиях и способах взаимодействия групп с другими технологиями.
 
-- Если в вашей организации не развернуто ни одной рабочей нагрузки Office 365, ознакомьтесь [с раздел Начало работы с office 365 для бизнеса](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Если ваша организация не развернула рабочие нагрузки Microsoft 365 или Office 365, ознакомьтесь со [статьей начало работы](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
-- Если ваша организация не добавила или не настроила проверенный домен для Office 365, ознакомьтесь со сведениями о том, как [проверить свой домен office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Если ваша организация не добавила или не настроила проверенный домен для Microsoft 365 или Office 365, ознакомьтесь с разделами [вопросы и ответы о доменах](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
 - Если ваша организация не синхронизирует удостоверения с Azure Active Directory, ознакомьтесь с [моделями удостоверений и проверкой подлинности в Microsoft Teams](identify-models-authentication.md).
 

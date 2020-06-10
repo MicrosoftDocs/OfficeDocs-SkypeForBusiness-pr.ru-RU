@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в гибридной среде с локальным сервером Exchange.
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905301"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666161"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -36,17 +36,17 @@ ms.locfileid: "43905301"
 
 Перед развертыванием комнат Microsoft Teams на локальном сервере Exchange убедитесь, что вы удовлетворены требованиями. Дополнительные сведения можно найти в разделе [требования к комнатам Microsoft Teams](requirements.md).
   
-При развертывании комнат Microsoft Teams на локальном сервере Exchange вы будете использовать средства администрирования Active Directory для добавления адреса электронной почты для локальной учетной записи домена. Эта учетная запись будет синхронизирована с Office 365. Выполните указанные ниже действия.
+При развертывании комнат Microsoft Teams на локальном сервере Exchange вы будете использовать средства администрирования Active Directory для добавления адреса электронной почты для локальной учетной записи домена. Эта учетная запись будет синхронизирована с Microsoft 365 или Office 365. Выполните указанные ниже действия.
   
 - Создайте учетную запись и синхронизируйте ее с Active Directory.
 
 - Включите удаленный почтовый ящик и задайте его свойства.
 
-- Назначение лицензии на Office 365.
+- Назначьте лицензию Microsoft 365 или Office 365.
 
 - Включите учетную запись устройства в Skype для бизнеса Server. Для включения учетной записи устройства в вашей среде должны выполняться указанные ниже предварительные требования.
 
-  - Вам потребуется Skype для бизнеса Online (план 2) или более позднюю версию в плане Office 365. План должен поддерживать функции конференц-связи.
+  - Вам потребуется Skype для бизнеса Online (план 2) или более позднюю версию в плане Microsoft 365 или Office 365. План должен поддерживать функции конференц-связи.
   
   - Если вам нужна Корпоративная голосовая связь (PSTN-телефония) с помощью поставщиков услуг телефонии для комнат Microsoft Teams, которым нужен Skype для бизнеса Online (план 3).
   
@@ -105,14 +105,14 @@ ms.locfileid: "43905301"
 
    Подробные сведения о синтаксисе и параметрах можно найти в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Назначение лицензии Microsoft 365 или Office 365
 
 1. Подключитесь к Azure Active Directory. Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
-2. Учетная запись устройства должна иметь действительную лицензию на Office 365, или Exchange и Microsoft Teams не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Получение списка доступных SKU.
+2. Учетная запись устройства должна иметь действительную лицензию Microsoft 365 или Office 365, либо Exchange и Microsoft Teams не будут работать. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Вы можете использовать`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Получение списка доступных SKU.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Skype для бизнеса Online PowerShell используется для у
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Назначение лицензии для учетной записи комнат Microsoft Teams
 
-1. Войдите в систему как администратор клиента, откройте административный портал Office 365 и щелкните Приложение администратор.
+1. Войдите в систему как администратор клиента, откройте центр администрирования Microsoft 365 и щелкните Приложение администратор.
 2. Выберите **Пользователи и группы**, после чего щелкните **Добавление пользователей, сброс паролей и другие действия**.
 3. Щелкните учетную запись комнаты Microsoft Teams, а затем щелкните значок пера, чтобы изменить данные учетной записи.
 4. Щелкните **Лицензии**.
@@ -175,7 +175,7 @@ Skype для бизнеса Online PowerShell используется для у
 
 Для проверки подлинности вы можете использовать любой клиент для входа в эту учетную запись.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Настройка учетных записей для комнат Microsoft Teams](rooms-configure-accounts.md)
 

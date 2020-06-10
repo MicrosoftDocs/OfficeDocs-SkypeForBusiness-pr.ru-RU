@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591299"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666111"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -78,6 +78,7 @@ ms.locfileid: "44591299"
 
 | Производитель        | Моделировать                                                     | Полном      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra              | Микрофон с USB-Jabra Link 370 750       | 5/21/2020 | Сертифицировано для Microsoft Teams|
 | EPOS                | Гарнитура Sennheiser адаптация 660                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | EPOS                | Гарнитура Sennheiser адаптация 560                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | EPOS                | Sennheiser адаптация 460T гарнитура                             | 5/15/2020      | Сертифицировано для Microsoft Teams                          |

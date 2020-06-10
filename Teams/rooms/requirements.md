@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях для поддержки комнат Microsoft Teams, в том числе выбора соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591309"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666271"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "44591309"
 > [!NOTE]
 > Комнаты Microsoft Teams подключаются к Microsoft Teams, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015 или Skype для бизнеса Online, и присоединяются к собраниям любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживаются в Office 365, предоставляемой 21Vianet, или в среде GCC-High или DoD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживаются в Microsoft 365 или Office 365, предоставляемой 21Vianet, а также в средах с GCC или по требованию.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523162"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666021"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Переход с локального развертывания Skype для бизнеса на Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523162"
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Шаг 2: реализация выбранного пути обновления для Организации
 
-После того как вы закончите развертывание гибридной конфигурации, вы можете запланировать перенос пользователей в Office 365.
+После того как вы закончите развертывание гибридной конфигурации, вы можете запланировать перенос пользователей в Microsoft 365 или Office 365.
 
 Дополнительные сведения можно найти в следующих случаях:
 
@@ -64,8 +64,8 @@ ms.locfileid: "44523162"
 
 ## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и команды
 
-Переход с локальной телефонной системы на Teams позволит вам использовать возможности прямой маршрутизации ("прямая маршрутизация") или планы звонков, предоставленные корпорацией Майкрософт для Office 365.
+Переход с локальной телефонной системы на Teams позволит вам использовать возможности прямой маршрутизации ("прямая маршрутизация") или планы звонков, предоставленные корпорацией Майкрософт, для Microsoft 365 или Office 365.
 
-Если вы не используете тарифные планы в Office 365, вам нужно перевести свое развертывание по своему раскладю на телефонную систему с прямой маршрутизацией в рамках обновления до Teams.
+Если вы не используете планы звонков, вам нужно перенести свое корпоративное развертывание в телефонную систему прямо в рамках обновления до Teams.
 
-Дополнительные сведения можно найти в разделе [Дополнительные рекомендации по прямой маршрутизации телефонной системы](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Если вы планируете использовать планы звонков в Office 365, ознакомьтесь с нашими рекомендациями по [переносу ваших телефонных номеров в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Дополнительные сведения можно найти в разделе [Дополнительные рекомендации по прямой маршрутизации телефонной системы](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). Если вы планируете использовать планы звонков, ознакомьтесь с нашими рекомендациями по [переносу ваших телефонных номеров в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

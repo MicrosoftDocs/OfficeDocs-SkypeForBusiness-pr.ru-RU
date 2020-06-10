@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Узнайте, как с помощью административных ролей назначить администраторов, которым нужны разные уровни доступа для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951074"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665211"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Управление группами с помощью ролей администратора Microsoft Teams
 
@@ -36,6 +36,8 @@ ms.locfileid: "43951074"
 ## <a name="teams-roles-and-capabilities"></a>Роли и возможности Teams
 
 Доступны четыре роли администратора teams: администратор служб Teams, администратор службы поддержки Teams, специалист по поддержке коммуникационной группы и инженер службы поддержки. Ознакомьтесь со следующей таблицей, чтобы понять, какие действия могут выполнять все роли и какие средства Администратор может использовать в центре администрирования Microsoft Teams и PowerShell.
+
+Для этого перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 
 
@@ -51,8 +53,8 @@ ms.locfileid: "43951074"
 <sup>1</sup> [PowerShell — модуль Skype для бизнеса](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell — модуль Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [центр администрирования Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 Дополнительные сведения о средствах администрирования, доступных для управления Microsoft Teams, можно найти в разделе [Управление Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
@@ -73,7 +75,7 @@ ms.locfileid: "43951074"
    а) $session = New-csonlinesession<br>
    б) Импорт-PSSession $session<br>
    в. С помощью **Get-Module** можно указать имя импортированного сеанса (оно будет сгенерировано случайным образом).<br>
-3. Для идентификации всех доступных командлетов используйте **команду Get-Command-** <*Name, расположенную выше*>
+3. Для идентификации всех доступных командлетов используйте **команду Get-Command-**  < *Name, расположенную выше*>
 
 ### <a name="related-topics"></a>См. также
 

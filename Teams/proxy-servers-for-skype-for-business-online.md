@@ -22,12 +22,12 @@ ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: В этой статье приводятся сведения об использовании прокси-сервера в Microsoft Teams или Skype для бизнеса.
-ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 3d8e2e067cce4214f51ee54ec08bafa1f4100770
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905681"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665961"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Прокси-серверы для Teams или Skype для бизнеса Online
 
@@ -56,8 +56,8 @@ ms.locfileid: "43905681"
     
 Чтобы минимизировать возможные проблемы, следуйте этим рекомендациям.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Принципы подключения к сети в Office 365](https://aka.ms/pnc)
+[Принципы сетевого подключения для Microsoft 365 и Office 365](https://aka.ms/pnc)
 
 [Подготовка сети организации к использованию Teams](prepare-network.md)

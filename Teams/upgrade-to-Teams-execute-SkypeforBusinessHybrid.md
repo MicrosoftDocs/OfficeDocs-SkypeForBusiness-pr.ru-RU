@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9cc76313bb65a79241e26ab70a38d8698f27e7c
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2866ae5bdaf38c0269efda13beed98982a057a4d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523442"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666041"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Переход с гибридного развертывания Skype для бизнеса на Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "44523442"
 - [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
 
-Следуйте указаниям, приведенным в этой статье, если вы развернули Skype для бизнеса или Microsoft Lync в локальной среде и настроили ее в гибридном развертывании с вашей организацией Office 365, и ваша организация хочет выборочно обновить ее, используя несколько режимов сосуществования или все. Если вы хотите провести обновление, вам нужно будет переносить пользователей в Skype для бизнеса Online (если они еще не подключены к сети), а затем назначить им подходящий режим сосуществования и обновления.
+Следуйте указаниям, приведенным в этой статье, если вы развернули Skype для бизнеса или Microsoft Lync в локальной среде и настроили ее в гибридном развертывании с помощью Microsoft 365 или Office 365, и ваша организация хочет выборочно перейти на Teams, используя несколько режимов сосуществования или все. Если вы хотите провести обновление, вам нужно будет переносить пользователей в Skype для бизнеса Online (если они еще не подключены к сети), а затем назначить им подходящий режим сосуществования и обновления.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

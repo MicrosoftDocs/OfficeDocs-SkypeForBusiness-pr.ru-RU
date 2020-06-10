@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Сведения о настройке современной проверки подлинности в комнатах Microsoft Teams
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505616"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666261"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Проверка подлинности в комнатах Microsoft Teams
 
 Управление учетными записями в Microsoft Teams комнаты обрабатываются на уровне приложения. Приложение подключается к Microsoft Teams, Skype для бизнеса и Exchange, чтобы получить доступ к ресурсам для учетной записи комнаты, чтобы обеспечить возможность звонков и собраний. Это устройство остается независимым для обеспечения постоянной поддержки, сценариев вызова (для устройств, настроенных с помощью абонентского плана) и настраиваемых механизмов блокировки, реализованных на этих устройствах. Это означает, что проверка подлинности для этих устройств происходит не так, как для конечных пользователей.  
 
-Современная проверка подлинности рекомендуется для всех пользователей, использующих устройства в Microsoft Teams, с Office 365. Если вы используете локальное развертывание Exchange Server или Skype для бизнеса Server, настройте [гибридную современной проверку подлинности](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) с помощью Azure Active Directory (Azure AD), чтобы включить использование современной проверки подлинности.
+Современная проверка подлинности рекомендуется для всех пользователей, использующих устройства с Microsoft Teams, с помощью Microsoft 365 или Office 365. Если вы используете локальное развертывание Exchange Server или Skype для бизнеса Server, настройте [гибридную современной проверку подлинности](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) с помощью Azure Active Directory (Azure AD), чтобы включить использование современной проверки подлинности.
 
 Современная проверка подлинности поддерживается в комнатах Microsoft Teams версии 4.4.25.0 и более поздних.
 
@@ -61,9 +61,9 @@ ms.locfileid: "43505616"
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Подготовка среды для современной проверки подлинности
 
-Прежде чем начать, убедитесь в том, что вы понимаете модели удостоверений, которые нужно использовать с Office 365 и Azure AD. Дополнительные сведения можно найти в [моделях удостоверений Office 365 и Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) , а также в [гибридной идентификации и синхронизации каталогов для Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
+Прежде чем начать, убедитесь в том, что вы понимаете модели удостоверений, которые нужно использовать с Office 365 и Azure AD. Дополнительные сведения можно найти в [моделях удостоверений Office 365 и Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) , а также в [гибридной идентификации и синхронизации каталогов для Microsoft 365 или Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### <a name="enable-modern-authentication-in-office-365"></a>Включение современной проверки подлинности в Office 365
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Включение современной проверки подлинности в Microsoft 365 или Office 365
 
 Чтобы включить современной проверки подлинности в Exchange Online, ознакомьтесь со сведениями [Включение современной проверки подлинности в Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Если вы используете Skype для бизнеса Online, вам также необходимо убедиться, что для Skype для бизнеса Online включена современная проверка подлинности. Дополнительные сведения можно найти в статье [Skype для бизнеса Online: Включите клиент для современной проверки подлинности](https://aka.ms/SkypeModernAuth).
 

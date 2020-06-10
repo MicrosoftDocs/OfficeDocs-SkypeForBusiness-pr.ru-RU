@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522492"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665951"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Примеры сообщений электронной почты и опросов для обновления основных средств связи
 
@@ -135,7 +135,7 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 CALL TO ACTION: If you need assistance getting started in Teams:
 
 - View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
-- Visit the Office 365 Training Center, or simply ask T-Bot.
+- Visit the Microsoft 365 or Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Укажите, как квалифицировано выполнение указанных ниже действий в Teams, и если вы хотите узнать больше о том, какие действия вы хотели бы изучить.
 
-| &nbsp; | Очень квалифицированный | У вас есть опыт | Не квалифицировано | Хотите узнать больше | Н/Д | Не знаете и не знакомы | | | | |
+| &nbsp; | Очень квалифицированный | У вас есть опыт | Не квалифицировано | Хотите узнать больше | Недоступно | Не знаете и не знакомы | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Использование Teams для обмена мгновенными сообщениями и общения с другими пользователями | | | | | | | | | | |
 | Использование Teams для собраний по сети | | | | | | | | | | |

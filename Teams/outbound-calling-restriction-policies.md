@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Администраторы могут определять доступные пользователям типы аудиоконференций и вызовов конечных пользователей по ТСОП.
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278182"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665911"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
@@ -42,7 +42,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 Чтобы узнать, какие страны и регионы рассматриваются в зоне а, ознакомьтесь [со статьей зоны или регионы](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365).
 
    > [!NOTE]
-   > Звонок считается внутренним, если номер набирается в той же стране или регионе, где Office 365 настроен для организатора собрания (в случае голосовой конференции) или конечным пользователем (в случае с ТЕЛЕФОНными звонками для конечных пользователей). 
+   > Звонок считается внутренним, если номер набирается в той же стране, где установлен Microsoft 365 или Office 365 для организатора собрания (в случае голосовой конференции) или конечным пользователем (в случае с ТЕЛЕФОНными звонками для конечных пользователей). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

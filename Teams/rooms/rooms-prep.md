@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру для развертывания комнат Microsoft Teams, чтобы можно было использовать все возможности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905351"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666171"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -55,7 +55,7 @@ ms.locfileid: "43905351"
 - Доступ к экземпляру Active Directory или Azure Active Directory (Azure AD), а также серверам Microsoft Exchange и Skype для бизнеса.
 - Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнаты Microsoft Teams нельзя настроить со статическим IP-адресом.
 - Доступ к HTTP-портам 80 и 443.
-- Порты TCP и UDP, настроенные в соответствии с [требованиями к портам и протоколам для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) в рамках локальных реализаций Skype для бизнеса Server, или URL-адреса [Office 365 и диапазоны IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для реализации Microsoft Teams или Skype для бизнеса Online.
+- Порты TCP и UDP, настроенные в соответствии с [требованиями к портам и протоколам для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) в рамках локальных реализаций сервера Skype для бизнеса, или URL-адреса [Microsoft 365 и Office 365 и диапазоны IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для реализации Microsoft Teams или Skype для бизнеса Online.
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 
@@ -110,7 +110,7 @@ ms.locfileid: "43905351"
 
 |Назначение|Источник учетных данных|Исходный порт|Конечный порт|Сеть доставки содержимого|ExpressRoute для Office 365|Конечный IP-адрес|Конечный порт|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Проверка подлинности и удостоверение в  <br/> |Сведения о [проверке подлинности и удостоверении Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Проверка подлинности и удостоверение в  <br/> |[Проверка подлинности и удостоверения в microsoft 365 и Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Портал и общие службы  <br/> |Ознакомьтесь [с центром администрирования Microsoft 365 и общим доступом](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
 |Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ ms.locfileid: "43905351"
 |Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> Шаблон для contoso.com и broadcast.skype.com представляет собой длинный список узлов, которые используются исключительно для Office 365. 
+> Подстановочный знак для contoso.com и broadcast.skype.com представляет длинный список узлов, которые используются исключительно для Microsoft 365 или Office 365. 
   
 ### <a name="create-provisioning-packages"></a>Создание пакетов подготовки
 
-Вы будете использовать пакеты подготовки для проверки подлинности в Exchange Server или Office 365.
+Вы будете использовать пакеты подготовки для проверки подлинности в Exchange Server, Microsoft 365 или Office 365.
   
 ### <a name="admin-group-management"></a>Управление группой администраторов
 
@@ -155,11 +155,11 @@ ms.locfileid: "43905351"
   
 ### <a name="machine-account"></a>Учетная запись компьютера
 
-Как и на любом устройстве с Windows, имя компьютера можно переименовать, щелкнув правой кнопкой мыши \> в \> разделе Параметры, сведения о переименовании компьютера.
+Как и на любом устройстве с Windows, имя компьютера можно переименовать, щелкнув правой кнопкой мыши в разделе Параметры \> , сведения о \> переименовании компьютера.
   
  Если вы хотите переименовать компьютер после присоединения к домену, используйте команду PowerShell Rename-Computer, а затем новое имя компьютера.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Планирование комнат Microsoft Teams](rooms-plan.md)
 

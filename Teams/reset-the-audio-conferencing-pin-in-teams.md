@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Узнайте, как сбросить ПИН-код голосовой конференции пользователя в Microsoft Teams и ознакомиться с важными фактами о контактах.
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905491"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666191"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Сброс ПИН-кода аудиоконференций в Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "43905491"
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Сброс ПИН-кода пользователем
 
-1. Пользователь должен перейти на [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Пользователь должен перейти на [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
 2. Нажмите кнопку **Сброс ПИН-кода**. 
 
 
@@ -66,21 +66,21 @@ ms.locfileid: "43905491"
     
 - По умолчанию собрание не разрешается запускать с помощью анонимных абонентов.
     
-- При включении пользователя для голосовой конференции по умолчанию отправляются сообщения электронной почты, содержащие сведения о конференциях и ПИН-код. У пользователя должен быть почтовый ящик Office 365, так как при сбросе PIN-кода пользователю по электронной почте будет отправлен новый ПИН-код для основного SMTP-адреса (псевдонима), установленного для пользователя.
+- При включении пользователя для голосовой конференции по умолчанию отправляются сообщения электронной почты, содержащие сведения о конференциях и ПИН-код. У пользователя должен быть почтовый ящик Microsoft 365 или Office 365, так как при сбросе ПИН-кода в сообщении электронной почты будет отправлен новый ПИН-код для основного SMTP-адреса (псевдонима), установленного для пользователя.
     
 - При настройке аудиоконференций вы задаете цифры, которые должны быть включены в ПИН-коды в вашей организации. Контакты могут содержать от 4 до 12 цифр — значение по умолчанию — 5. При изменении длины ПИН-кода новое значение применяется только к новым ПИН-кодам и не применяется к ПИН-кодам для существующих пользователей, которым разрешено участие в аудиоконференциях. См. [Настройка длины PIN-кода для собраний с аудиоконференцией](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- Сообщение электронной почты по умолчанию будет отправлено на основной SMTP-адрес пользователя в Office 365. Вы можете отправить сообщение электронной почты на адрес электронной почты, который не относится к Office 365, например, на портале Hotmail или MSN. Используемый по умолчанию адрес электронной почты можно изменить с помощью Windows PowerShell. Это полезно, если у пользователя нет почтового ящика Exchange в Office 365.
+- Для электронной почты по умолчанию будет установлен основной SMTP-адрес Microsoft 365 или Office 365. Вы можете отправить сообщение электронной почты на адрес, не относящийся к Microsoft 365, или не Office 365 (например, адрес электронной почты Hotmail или MSN). Используемый по умолчанию адрес электронной почты можно изменить с помощью Windows PowerShell. Это полезно, если у пользователей нет почтового ящика Exchange в Microsoft 365 или Office 365.
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
