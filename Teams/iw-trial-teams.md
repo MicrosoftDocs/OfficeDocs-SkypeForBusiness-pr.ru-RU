@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042796"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638778"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -55,7 +55,7 @@ ms.locfileid: "44042796"
 
 Пользователям должно быть разрешено регистрироваться для получения приложений и пробных версий (в Центре администрирования Microsoft 365). Дополнительные сведения см. в разделе [Управление пробной версией](#manage-the-trial) этой статьи. 
 
-Пользователи, не имеющие лицензии на Office 365 с Teams, могут воспользоваться пробным предложением Microsoft Teams Commercial Cloud Trial. Например, если у пользователя есть приложения Microsoft 365 для бизнеса (без Teams), то можно воспользоваться пробной версией.
+Пользователи, не имеющие лицензии на Microsoft 365 или Office 365 с Teams, могут воспользоваться пробным предложением Microsoft Teams Commercial Cloud Trial. Например, если у пользователя есть приложения Microsoft 365 для бизнеса (без Teams), то можно воспользоваться пробной версией.
 
 ## <a name="who-is-not-eligible"></a>Кто не имеет права на использование
 
@@ -148,6 +148,6 @@ ms.locfileid: "44042796"
 
 С 22 апреля 2019 г. пользователи могут обращаться за получением лицензии на последнюю версию пробного предложения Microsoft Teams Commercial Cloud Trial. Если вы хотите перевести пользователей вашей организации с лицензии предыдущей пробной версии на последнюю версию, потребуется сначала удалить лицензию предыдущей пробной версии Microsoft Teams для каждого пользователя. После удаления лицензии предыдущей версии каждый пользователь может обратиться за получением лицензии на обновленную версию Microsoft Teams Commercial Cloud Trial.
 
-- Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Microsoft 365 или Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
