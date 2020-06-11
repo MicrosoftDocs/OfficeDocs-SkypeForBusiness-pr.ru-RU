@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638528"
+ms.locfileid: "44666281"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
+Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [главной странице дистанционного обучения](https://www.microsoft.com/education/remote-learning).
+
+Ресурсы для преподавателей и учащихся по дистанционному обучению доступны в статье [Дистанционное обучение в Office 365 для образования](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+В этой статье описаны фактические действия по подготовке учебного заведения к дистанционному обучению.
+
 > [!NOTE]
-> Эта статья - отличный ресурс для настройки вашего учебного заведения для дистанционного обучения. Если вы педагог, руководитель образования или ИТ-специалист, эти ресурсы могут помочь:
+> Если вы педагог, руководитель образования или ИТ-специалист, эти ресурсы могут помочь:
 >
 > - Быстро начните работу в Teams в своем образовательном заведении с помощью [**одностраничного документа по началу работу**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Скачайте документ [**Как начать работу с Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) — руководство для ИТ-специалистов с полезными рекомендациями по безопасности и управлению изменениями.

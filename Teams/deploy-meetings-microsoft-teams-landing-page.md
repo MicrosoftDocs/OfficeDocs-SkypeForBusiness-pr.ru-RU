@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281684"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665941"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
+
+> [!NOTE]
+> - Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [**главной странице дистанционного обучения**](https://www.microsoft.com/education/remote-learning).
+> - Ресурсы для преподавателей и учащихся по дистанционному обучению доступны в статье [**Дистанционное обучение в Office 365 для образования**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
 
 Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Теперь можно добавить рабочую нагрузку собрания, включая [аудиоконференции](deploy-audio-conferencing-teams-landing-page.md), видео и общий доступ. В этой статье описано, как развернуть собрания и аудиоконференции. Начните с просмотра видео о собраниях, конференциях и устройствах Teams (3:28 мин):
 
