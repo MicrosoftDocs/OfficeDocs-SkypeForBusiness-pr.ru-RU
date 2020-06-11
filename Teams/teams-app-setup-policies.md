@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350063"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691025"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -103,11 +103,11 @@ ms.locfileid: "44350063"
 2. Выберите пользователя, щелкнув слева от его имени, затем нажмите кнопку **Изменить параметры**.
 3. В разделе **Политика настройки приложения**выберите политику настройки приложения, которую вы хотите назначить, и нажмите кнопку **Применить**.
 
-Чтобы назначить политику нескольким пользователям за один раз, сделайте следующее:
+Чтобы назначить политику нескольким пользователям одновременно:
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**, а затем найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
-2. В столбце **&#x2713;** (флажок) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочка) в верхней части таблицы.
-3. Нажмите кнопку **изменить параметры**, внесите необходимые изменения и нажмите кнопку **Применить**.  
+1. В левой области навигации Центра администрирования Microsoft Teams выберите **Пользователи** и найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
+2. В столбце **&#x2713;** (галочка) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочку) в верхней части таблицы.
+3. Щелкните **Изменить настройки**, внесите нужные изменения и нажмите **Применить**.  
 
 Кроме того, вы можете сделать следующее:
 
@@ -124,7 +124,7 @@ ms.locfileid: "44350063"
 В этом примере мы назначаем специальную политику настройки приложения, которая называется политикой настройки приложения HR, для всех пользователей в группе Contoso фабрика HR Project.  
 
 > [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Убедитесь в том, что сначала вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить GroupObjectId определенной группы.
 ```PowerShell
@@ -200,7 +200,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 Перед отправкой приложения убедитесь, что соблюдены правила для логотипов. Дополнительные сведения можно найти в разделе [Контрольный список для отправки на панель мониторинга продавцов](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## <a name="related-topics"></a>Связанные статьи
+ ## <a name="related-topics"></a>Статьи по теме
 
 - [Параметры администратора для приложений в Teams](admin-settings.md)
 - [Назначение политик пользователям в Teams](assign-policies.md)

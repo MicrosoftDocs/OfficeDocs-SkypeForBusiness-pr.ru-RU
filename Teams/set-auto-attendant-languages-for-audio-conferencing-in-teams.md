@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140922"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691135"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "43140922"
     
 - Языки можно задать для персональных телефонных номеров, телефонных номеров совместного пользования.
     
-- Список стран и регионов, в которых доступна аудиоконференция в Office 365 с помощью Microsoft в качестве поставщика, см. в статье [Номера телефонов для аудиоконференции](phone-numbers-for-audio-conferencing-in-teams.md).
+- Чтобы просмотреть список стран и регионов, в которых в качестве поставщика услуг голосовой связи в Microsoft 365 или Office 365 используется Microsoft, ознакомьтесь с [номерами телефонов для проведения голосовой](phone-numbers-for-audio-conferencing-in-teams.md)связи.
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
@@ -71,5 +71,5 @@ ms.locfileid: "43140922"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

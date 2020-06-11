@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041736"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691405"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Планы звонков для Microsoft 365
 
@@ -39,28 +39,28 @@ ms.locfileid: "44041736"
   
 Ниже указаны параметры планов звонков.
   
-- **План внутренних звонков**: лицензированные пользователи могут звонить на номера, находящиеся в стране или регионе, где они назначены в Office 365.
+- **План внутренних звонков**: лицензированные пользователи могут звонить на номера, находящиеся в стране или регионе, где они назначены в Microsoft 365 или Office 365.
     
-- **План внутренних и международных звонков**: лицензированные пользователи могут звонить на номера, находящиеся в стране или регионе, в которых пользователю назначена лицензия на Office 365 на основе местоположения пользователя, а также на международные номера в [196 странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **План внутренних и международных звонков**: лицензированные пользователи могут звонить на номера, находящиеся в стране или регионе, в которых пользователю назначена лицензия Microsoft 365 или Office 365, в зависимости от местонахождения пользователя, а также международные номера в [196 стран и регионов](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Ознакомьтесь со сведениями о [доступности страны и региона](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , чтобы узнать о ежемесячных минутах, доступных для каждой организации в каждой стране/регионе.
   
 > [!IMPORTANT]
-> Страна или регион зависят от того, где находится > лицензия пользователя в **центре администрирования Microsoft 365**, а **не** на адрес выставления**счета, указанный** в разделе **профиль организации** в **центре администрирования Microsoft 365**.   
+> Страна или регион зависят от того, где находится лицензия пользователя в **центре администрирования Microsoft 365**  >  **,** а **не** на адрес выставления счета, указанный в разделе **профиль организации** в **центре администрирования Microsoft 365**.   
 ![Снимок экрана, на котором находится лицензия пользователя](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Более подробную информацию об ограничениях использования и условиях использования можно найти в разделе [звуковая конференция с дополнительным периодом](complimentary-dial-out-period.md)исходящего звонка.
   
 ## <a name="how-to-buy-a-calling-plan"></a>Как купить план звонков
 
-1. Сначала необходимо приобрести лицензию на надстройку " <strong>Телефонная система" * *</strong> <strong>. Для этого [Войдите в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите * * * * выставление счетов</strong> >  >  > **для подписок на надстройки**"**услуги покупок**" в**прямом**виде.
+1. Сначала необходимо приобрести лицензию на надстройку " <strong>Телефонная система" * *</strong> <strong>. Для этого войдите в [центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и выберите * * * * выставление счетов для</strong>  >  **Purchase services**  >  **подписок на надстройку**"Услуги покупок" в  >  **прямом**виде.
     
     ![Снимок экрана: параметр для приобретения плана голосовых вызовов.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > В зависимости от вашего плана вам может потребоваться приобрести дополнительные компоненты, прежде чем можно будет приобрести лицензии на телефонную систему. Дополнительные сведения можно найти в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. После покупки лицензий на телефонную систему вы можете приобрести план звонков, войдя в **центр администрирования Microsoft 365**, выбрав пункт **выставление счетов** > для**надстроек****служб** > и нажав кнопку **купить**. Вы увидите планы звонков в этой области.
+2. После покупки лицензий на телефонную систему вы можете приобрести план звонков, войдя в **центр администрирования Microsoft 365**, выбрав пункт **выставление счетов**для  >  **Purchase services**  >  **надстроек**служб и нажав кнопку **купить**. Вы увидите планы звонков в этой области.
     
     ![Снимок экрана, на котором показаны параметры плана голосовых вызовов.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,7 +88,7 @@ ms.locfileid: "44041736"
     
 - [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Возможности телефонной системы в Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Что можно сделать с помощью телефонной системы в Microsoft 365 или Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## <a name="related-topics"></a>Статьи по теме

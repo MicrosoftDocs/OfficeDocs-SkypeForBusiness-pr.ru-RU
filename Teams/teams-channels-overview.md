@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637508"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690015"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 
@@ -75,7 +75,7 @@ ms.locfileid: "44637508"
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Администраторы Microsoft Teams в Office 365 имеют доступ к глобальным параметрам системы в Центре администрирования Microsoft Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
+Если вы являетесь администратором Microsoft Teams в Microsoft 365 или Office 365, у вас есть доступ к параметрам на уровне системы в центре администрирования Microsoft Teams. Они могут затрагивать настройки и значения по умолчанию, которые владельцы видят у себя в параметрах команды. Например, вы можете включить во всех командах канал по умолчанию "Общий" для объявлений, обсуждений и ресурсов, общих для всей команды.
 
 По умолчанию создать команду в Microsoft Teams разрешено всем пользователям (чтобы изменить эту настройку, см. раздел [Назначение ролей и разрешений в Teams](assign-roles-permissions.md)). Пользователи существующей группы Microsoft 365 также могут улучшить их разрешения с помощью функций Teams.
 

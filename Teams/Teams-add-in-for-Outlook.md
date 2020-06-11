@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637718"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689815"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -139,7 +139,7 @@ FindTime — это надстройка для Outlook, которая помо
 - Убедитесь в том, что у пользователя есть политика для собрания Teams, разрешающая надстройку Outlook. Дополнительные сведения см. [в разделе Управление политиками собраний в Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Убедитесь, что на компьютере пользователя установлен классическое приложение Teams. Надстройка для собраний не будет установлена при использовании веб-клиента Teams.
 - Убедитесь, что у пользователя установлен Outlook 2013 или более поздней версии.
-- Убедитесь, что у пользователя есть разрешение на выполнение regsvr32. exe.
+- Убедитесь, что у пользователя есть разрешение на выполнение regsvr32.exe.
 - Убедитесь, что все доступные обновления для настольного клиента Outlook были применены.
 - Выполните следующие действия.
   - Перезапустите классический клиент Teams.
@@ -161,7 +161,7 @@ FindTime — это надстройка для Outlook, которая помо
 
 > [!NOTE]
 > Неправильное редактирование реестра может серьезно повредить систему. Прежде чем вносить изменения в реестр, необходимо создать резервную копию всех важных данных на компьютере.
-- Запустите программу regedit. exe.
+- Запуск RegEdit.exe
 - Переход на HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
 - Убедитесь, что TeamsAddin. FastConnect существует.
 - В TeamsAddin. FastConnect убедитесь в том, что значение LoadBehavior существует и равно 3.
@@ -169,4 +169,6 @@ FindTime — это надстройка для Outlook, которая помо
 
 ### <a name="delegate-scheduling-does-not-work"></a>Планирование делегирования не работает
 
-Если ваш администратор настроил Microsoft Exchange для [управления доступом к Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представитель не сможет запланировать собрание Teams от имени руководителя. Решение для этой конфигурации находится в процессе разработки и будет выпущено в будущем. 
+Если ваш администратор настроил Microsoft Exchange для [управления доступом к Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представитель не сможет запланировать собрание Teams от имени руководителя. Решение для этой конфигурации находится в процессе разработки и будет выпущено в будущем. В качестве обходного пути администратор может добавить в список разрешений EWS следующую строку: "*SchedulingService*". 
+
+

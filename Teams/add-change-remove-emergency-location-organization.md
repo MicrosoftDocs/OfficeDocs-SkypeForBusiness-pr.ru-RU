@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Сведения о том, как добавить, изменить или удалить расположение для экстренного реагирования для вашей организации в центре администрирования Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610328"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690845"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
@@ -46,6 +46,7 @@ ms.locfileid: "44610328"
 
    > [!NOTE]
    > В Бельгии, Франции, Германии, Ирландии, Нидерланды и Испании важно понимать, что для успешной активации номера телефона в Microsoft 365 или Office 365 адрес, указанный в местоположении для экстренного реагирования, который используется для получения номера, должен совпадать с кодом города номера телефона.
+
 5. Если адрес не найден и вы хотите изменить адрес вручную, включите **параметр изменить адрес вручную**.
 6. Нажмите кнопку **Сохранить**.
 
@@ -80,7 +81,7 @@ ms.locfileid: "44610328"
 
 В разделе [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)

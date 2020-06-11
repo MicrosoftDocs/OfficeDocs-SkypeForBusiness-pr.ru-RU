@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: В этой статье объясняется, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты, используемого по умолчанию в вашей организации.
-ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904334"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691395"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -38,7 +38,7 @@ ms.locfileid: "43904334"
   
 - **Доступные языки определяются местоположением организации**. Например, если организация находится в США, вы можете задать английский или испанский в качестве языка по умолчанию. Если организация находится в Канаде, вы можете выбрать между английским или французским языком. Список поддерживаемых языков см. в статье [Языки для сообщений и приветствий голосовой почты в Skype для бизнеса](languages-for-voicemail-greetings-and-messages.md).
     
-- **Изменение языков для приветствий и голосовых сообщений отдельных пользователей.** Вы можете изменить предпочтительные Lanaguage для пользователей, в результате чего изменится язык приветствий голосовой почты и сообщений голосовой почты, отправленных в почтовый ящик Outlook. Инструкции можно найти в разделе [Настройка языковых и региональных параметров для Office 365] (https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region). 
+- **Изменение языков для приветствий и голосовых сообщений отдельных пользователей.** Вы можете изменить предпочтительные Lanaguage для пользователей, в результате чего изменится язык приветствий голосовой почты и сообщений голосовой почты, отправленных в почтовый ящик Outlook. Инструкции можно найти в разделе [Настройка языковых и региональных параметров для Microsoft 365 или Office 365] ( https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) . 
     
     > [!NOTE]
     > Пользователи могут изменить собственный язык приветствия с помощью параметров после входа, выполнив указанные ниже инструкции для [изменения языка интерфейса и часового пояса в Microsoft 365 для бизнеса](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
@@ -49,9 +49,9 @@ ms.locfileid: "43904334"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
-1. Войдите в систему с помощью учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) [глобального администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) . 
+1. Войдите в систему с помощью учетной записи [глобального администратора](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) . 
     
-2. В центре администрирования Microsoft 365 выберите**профиль организации**"**Параметры** >  **параметров** > ". 
+2. В центре администрирования Microsoft 365 выберите **Settings**  >  **Settings**  >  **профиль организации**"Параметры параметров". 
     
      ![Снимок экрана, на котором показано, как выбрать параметры, а затем — профиль организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -69,11 +69,11 @@ ms.locfileid: "43904334"
     
 - [Настройка планов звонков](set-up-calling-plans.md)
     
-- [Планирование телефонной системы в Office 365 с использованием локальной сети PSTN в Skype для бизнеса Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Планирование телефонной системы в Microsoft 365 или Office 365 с использованием локальной сети PSTN в Skype для бизнеса Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
-- [Изменение языка интерфейса и часового пояса в Office 365 для бизнеса](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Изменение языка интерфейса и часового пояса в Microsoft 365 или Office 365 для бизнеса](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [Выбор дополнительного языка и настройка языковых параметров в Office 2010 и более поздних версиях](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     

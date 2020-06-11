@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349703"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690965"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Управление политиками Teams в Microsoft Teams
 
@@ -73,11 +73,11 @@ ms.locfileid: "44349703"
 2. Нажмите **политики**, а затем рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
 3. В разделе **политики Teams**выберите политику, которую вы хотите назначить, и нажмите кнопку **сохранить**.
 
-Чтобы назначить политику нескольким пользователям за один раз, сделайте следующее:
+Чтобы назначить политику нескольким пользователям одновременно:
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**, а затем найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
-2. В столбце **&#x2713;** (флажок) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочка) в верхней части таблицы.
-3. Нажмите кнопку **изменить параметры**, внесите необходимые изменения и нажмите кнопку **Применить**.  
+1. В левой области навигации Центра администрирования Microsoft Teams выберите **Пользователи** и найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
+2. В столбце **&#x2713;** (галочка) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочку) в верхней части таблицы.
+3. Щелкните **Изменить настройки**, внесите нужные изменения и нажмите **Применить**.  
 
 Кроме того, вы можете сделать следующее:
 
@@ -94,7 +94,7 @@ ms.locfileid: "44349703"
 В этом примере мы назначаем политику Teams, которая называется политикой маркетинговых групп, всем пользователям в маркетинговой группе contoso.  
 
 > [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Убедитесь в том, что сначала вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить GroupObjectId определенной группы.
 ```PowerShell
@@ -110,7 +110,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
 - [Личные каналы в Teams](private-channels.md)

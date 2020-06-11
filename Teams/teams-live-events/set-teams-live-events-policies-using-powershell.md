@@ -18,12 +18,12 @@ description: Примеры использования PowerShell для нас�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140650"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691575"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
@@ -36,7 +36,7 @@ ms.locfileid: "43140650"
 Вот несколько примеров.
 
 > [!NOTE]
-> Перед выполнением этих командлетов необходимо подключиться к Skype для бизнеса Online PowerShell. Дополнительные сведения можно найти [в разделе Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> Перед выполнением этих командлетов необходимо подключиться к Skype для бизнеса Online PowerShell. Дополнительные сведения можно найти [в разделе Управление Skype для бизнеса Online с помощью Microsoft 365 или Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Разрешение пользователям планировать Интерактивные события 
 

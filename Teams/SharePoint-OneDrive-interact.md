@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cdcf054cfcf6b9d4f030ff1cf47bb9959a4cbcf8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778565"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689825"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "43778565"
 
 Закрытые файлы чата хранятся в папке OneDrive для бизнеса отправителя, и разрешения автоматически предоставляются всем участникам как часть процесса общего доступа к файлам.
 
-Если пользователям не назначены активные лицензии SharePoint Online, у них нет хранилища OneDrive для бизнеса в Office 365. Общий доступ к файлам будет продолжать работать в стандартных каналах, но пользователи не смогут предоставлять доступ к файлам в чате, не используя хранилище OneDrive для бизнеса в Office 365.
+Если пользователи не назначены и включены с лицензиями SharePoint Online, они не имеют хранилища OneDrive для бизнеса в Microsoft 365 или Office 365. Общий доступ к файлам продолжит работать в стандартных каналах, но пользователи не смогут предоставлять доступ к файлам в чате, не используя хранилище OneDrive для бизнеса в Microsoft 365 или Office 365.
 
 При сохранении файлов в библиотеке документов SharePoint Online и OneDrive для бизнеса выполняются все требования по обеспечению соответствия, заданные на уровне клиента. 
 

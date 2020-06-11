@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams, которые предоставляют сообщение приветствия, перенаправление музыки, переадресацию звонков и другие функции.
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669416"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697448"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -68,10 +68,10 @@ ms.locfileid: "44669416"
   > [!NOTE]
   > Номера услуг прямой маршрутизации для очередей звонков поддерживаются только для пользователей и агентов Microsoft Teams.
 
-  > [!NOTE]
-  > Для перенаправления вызовов тем сотрудникам организации, которые находятся в сети, им необходимо предоставить лицензию на **телефонную систему** и разрешить доступ к корпоративной голосовой связи, либо предоставить тарифные планы Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> Для переадресации звонков между абонентами в вашей организации, которые находятся в сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Чтобы узнать больше о тарифных планах Office 365, ознакомьтесь со статьями [телефонные системы и](calling-plan-landing-page.md) планы звонков и [планы звонков для Office 365](calling-plans-for-office-365.md).
+- Чтобы узнать больше о тарифных планах, ознакомьтесь со статьей [Телефонная система и планы](calling-plan-landing-page.md) звонков, а также [планы звонков для Microsoft 365 или Office 365](calling-plans-for-office-365.md).
 
 - Вы можете назначить очереди облачных звонков только платными телефонными номерами, которые были получены в **центре администрирования Microsoft Teams** или переданы из другого поставщика услуг. Для платных номеров услуг требуются кредиты на связь.
 
@@ -97,7 +97,7 @@ ms.locfileid: "44669416"
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Этап 2 — получение или передача платных и бесплатных телефонных номеров услуги
 
-Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). После получения платных и бесплатных телефонных номеров в **центре администрирования Microsoft Teams**они будут отображаться в  >  **Voice**  >  **номерах телефонов**. Бесплатные телефонные номера будут перечислены в списке с **типом** **услуги (** бесплатный номер телефона).
+Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). После получения платных и бесплатных телефонных номеров в **центре администрирования Microsoft Teams**они будут отображаться в  >  **Voice**  >  **номерах телефонов**. Бесплатные телефонные номера будут перечислены в списке с **типом** **услуги (** бесплатный номер телефона).
 
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как сделать это из за пределами США, перейдите в раздел [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -163,7 +163,7 @@ ms.locfileid: "44669416"
 
 Вы можете выбрать до 200 агенты звонков, которые относятся к любому из указанных ниже списков рассылки или групп.
 
-- Группа Office 365
+- Группа Microsoft 365
 - Группа безопасности
 - Список рассылки
 
@@ -178,7 +178,7 @@ ms.locfileid: "44669416"
 
    Для включения агента для корпоративного голосовой связи можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Пользователи с лицензией на **телефонную систему** или планом звонков, которые добавляются в группу Office 365; Список рассылки, поддерживающий почту; или группу безопасности. При добавлении агента в список рассылки или группу безопасности в качестве агента очереди звонков для первого звонка может потребоваться до трех часов. Чтобы вновь созданный список распределения или группа безопасности стали доступными для использования с очередями вызовов, может потребоваться до 48 часов. Вновь созданные группы Microsoft 365 доступны практически сразу.
+- Пользователи, у которых есть лицензия на **телефонную систему** или план звонков, добавленные в группу Microsoft 365, список рассылки или группу безопасности с поддержкой электронной почты. При добавлении агента в список рассылки или группу безопасности в качестве агента очереди звонков для первого звонка может потребоваться до трех часов. Чтобы вновь созданный список распределения или группа безопасности стали доступными для использования с очередями вызовов, может потребоваться до 48 часов. Вновь созданные группы Microsoft 365 доступны практически сразу.
 
 - Если агенты используют приложение Microsoft Teams для вызова очереди звонков, они должны находиться в режиме TeamsOnly.
 
@@ -328,7 +328,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Office 365 и Microsoft Teams с помощью одной точки администрирования. Это может упростить повседневную работу, если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365 и Microsoft Teams с одной точкой администрирования. Это может упростить повседневную работу, если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 - Windows PowerShell обладает большим количеством преимуществ в центре администрирования Microsoft Teams, если вы вносите изменения сразу для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
 
-  - [Управление Office 365 с помощью Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Управление Microsoft 365 или Office 365 с помощью Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-[Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
+[Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
 
 [Получение номеров телефонов служб](getting-service-phone-numbers.md)
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) были сертифицированы на прямую маршрутизацию.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35ce7be2c99ad0de9da3d397c8b6aed28a3634bc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666101"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691275"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -81,7 +81,12 @@ ms.locfileid: "44666101"
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [Вариантов](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Вариантов](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Версия программного обеспечения: 8.1.1 (сборка 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   Программное обеспечение AP1100 версии 8.3.0.1.2 |     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP3900 версии 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP4600 версии 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6300 версии 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6350 версии 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение VME версии 8.3.0.1.2 |     &#10004;     |
 
 Чтобы придать отзыв о работе с продуктом, например идеи для новых функций, ознакомьтесь со статьей [UserVoice](https://microsoftteams.uservoice.com).
 Обратите внимание на сертификацию, предоставленную основной версией. Это означает, что поддерживается микропрограмма с любым числом в микропрограмме SBC, следующей за основной версией.

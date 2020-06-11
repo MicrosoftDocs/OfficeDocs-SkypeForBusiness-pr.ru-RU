@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Сведения о том, как использовать центр администрирования Microsoft Teams или Windows PowerShell для создания абонентских групп и управления ими (тарифные абонентские группы для коммутируемого звонка).
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902024"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691345"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
@@ -36,7 +36,7 @@ ms.locfileid: "43902024"
 
 ### <a name="create-a-dial-plan"></a>Создание абонентской группы
 
-1. В левой области навигации центра администрирования Microsoft Teams выберите > **абонентская** **абонентская**группа.
+1. В левой области навигации центра администрирования Microsoft Teams выберите **Voice**  >  **абонентская**абонентская группа.
 2. Нажмите кнопку **Добавить**, а затем введите имя и описание абонентского плана.
     ![Снимок экрана, на котором показана страница "Добавление" для создания абонентской группы](media/create-dial-plan.png)
 3. В разделе **сведения о абонентской схеме**укажите внешний префикс набора номера, если пользователям необходимо набрать одну или несколько начальных цифр (например, 9), чтобы получить внешнюю строку. Для этого выполните следующие действия:
@@ -56,7 +56,7 @@ ms.locfileid: "43902024"
 
 ### <a name="edit-a-dial-plan"></a>Изменение абонентской группы
 
-1. В левой области навигации центра администрирования Microsoft Teams выберите > **абонентская** **абонентская**группа.
+1. В левой области навигации центра администрирования Microsoft Teams выберите **Voice**  >  **абонентская**абонентская группа.
 2. Выберите абонентскую группу, щелкнув слева от имени абонентской группы, а затем нажмите кнопку **изменить**.
 3. Внесите нужные изменения и нажмите кнопку **сохранить**.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43902024"
 
  **Убедитесь в том, что вы используете Windows PowerShell версии 3,0 или более поздней.**
   
-1. Чтобы убедиться в том, что у вас установлена версия 3,0 или выше: **меню** > "Пуск"**Windows PowerShell**.
+1. Чтобы убедиться в том, что у вас установлена версия 3,0 или выше: **меню "Пуск**"  >  **Windows PowerShell**.
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
@@ -82,13 +82,13 @@ ms.locfileid: "43902024"
     
 4. Кроме того, вам потребуется установить модуль Windows PowerShell для Skype для бизнеса Online, который позволяет создавать удаленные сеансы Windows PowerShell, которые подключаются к Skype для бизнеса Online. Вы можете скачать этот модуль, который поддерживается только на компьютерах с 64-разрядными компьютерами и в [модуле Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). Перезагрузите компьютер, если будет предложено.
     
-Дополнительные сведения можно найти в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+Дополнительные сведения можно найти в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Запуск сеанса Windows PowerShell**
   
-1. Нажмите кнопку **запустить** > **Windows PowerShell**.
+1. Нажмите кнопку **запустить**  >  **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
+2. В окне **Windows PowerShell** подключитесь к Microsoft 365 или Office 365, выполнив следующие действия:
     
     > [!NOTE]
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.

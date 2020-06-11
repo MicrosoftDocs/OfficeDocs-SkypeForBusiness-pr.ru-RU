@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Сведения об использовании поиска контента в Microsoft Teams для запроса данных Microsoft Teams из Exchange, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776454"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690445"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776454"
 
 Поиск контента позволяет запрашивать сведения о Microsoft Teams, попадающее в Exchange, SharePoint Online и OneDrive для бизнеса.
 
-Подробнее читайте [в статье Поиск содержимого в Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+Подробнее читайте [в статье Поиск содержимого в Microsoft 365 или Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 Например, с помощью **поиска по содержимому** на веб-сайте SharePoint specs and specs можно выполнять поиск по стандартным каналам связи в Exchange, отправлять файлы и изменения из SharePoint Online и вносить изменения в OneNote.
 
@@ -90,6 +90,6 @@ ms.locfileid: "43776454"
     ```
 3. Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [варианты обнаружения электронных данных в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

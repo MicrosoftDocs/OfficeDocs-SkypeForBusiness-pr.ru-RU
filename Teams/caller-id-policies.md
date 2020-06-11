@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики идентификации вызывающего абонента в Microsoft Teams для изменения или блокировки идентификатора вызывающего абонента для пользователей Teams в Организации.
-ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 67b5abef6cdbdab9a127dd2957c2fdfefbaf2927
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349783"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691425"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Управление политиками идентификации вызывающего абонента в Microsoft Teams
 
@@ -77,11 +77,11 @@ ms.locfileid: "44349783"
 2. Нажмите **политики**, а затем рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
 3. В разделе **Политика идентификации звонящего**выберите политику, которую вы хотите назначить, и нажмите кнопку **сохранить**.
 
-Чтобы назначить политику нескольким пользователям за один раз, сделайте следующее:
+Чтобы назначить политику нескольким пользователям одновременно:
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**, а затем найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
-2. В столбце **&#x2713;** (флажок) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочка) в верхней части таблицы.
-3. Нажмите кнопку **изменить параметры**, внесите необходимые изменения и нажмите кнопку **Применить**.  
+1. В левой области навигации Центра администрирования Microsoft Teams выберите **Пользователи** и найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
+2. В столбце **&#x2713;** (галочка) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочку) в верхней части таблицы.
+3. Щелкните **Изменить настройки**, внесите нужные изменения и нажмите **Применить**.  
 
 Кроме того, вы можете сделать следующее:
 
@@ -98,7 +98,7 @@ ms.locfileid: "44349783"
 В этом примере мы назначаем пользовательскую политику закрытия вызывающего абонента поддержки для всех пользователей в группе поддержки contoso.  
 
 > [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Убедитесь в том, что сначала вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить GroupObjectId определенной группы.
 ```PowerShell
@@ -114,7 +114,7 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
- ## <a name="related-topics"></a>Связанные статьи
+ ## <a name="related-topics"></a>Статьи по теме
 
 - [New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 - [Назначение политик пользователям в Teams](assign-policies.md)

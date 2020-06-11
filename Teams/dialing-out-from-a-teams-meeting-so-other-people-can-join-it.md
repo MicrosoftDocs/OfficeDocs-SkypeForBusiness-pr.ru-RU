@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: В организаторов собраний можно узнать, как звонить с помощью приложения Teams, чтобы позволить другим людям присоединиться к тому же собранию с помощью своих телефонов.
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901964"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691295"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
@@ -45,7 +45,7 @@ ms.locfileid: "43901964"
 
 Вот как можно сделать исходящие звонки.
 
- **Действие 1:** На собрании используйте ![снимок экрана " **Добавить** пользователей" в разделе "добавить](media/add-people-button.png) пользователей", чтобы звонить по номеру телефона.
+ **Действие 1:** На собрании используйте **Add people** ![ снимок экрана "добавить пользователей" в разделе "добавить пользователей", ](media/add-people-button.png) чтобы звонить по номеру телефона.
  **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого-либо или набрать номер** .
   
 ![Снимок экрана: диалоговое окно "пригласить кого-либо или набрать номер"](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ Dial-out is only available to some countries/regions. Полный список 
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Хотите узнать больше о голосовой конференции?
 
-[Пробная и платная аудиоконференции в Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Попробуйте или купите голосовую конференцию](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

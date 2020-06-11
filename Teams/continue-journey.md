@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522812"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689465"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Эффективная работа в Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "44522812"
 Для реализации максимально выгодных и бизнес-результатов с помощью Teams, пользователи должны действительно ее использовать. Тем не менее, первоначальный аспект, как правило, wane, и пользователи смогут легко вернуть старые способы работы. Поощряйте внедрение и обслуживание пользователей в Teams с планом внедрения, который может включать следующие возможности:
 
 - Прикрепление одноранговых лидерами для evangelize и поддержки пользователей.
-- В [руководстве по внедрению Office 365 вы найдете](https://go.microsoft.com/fwlink/?linkid=859045) советы по повышению задействования и его внедрению.
+- В [руководстве по внедрению Microsoft 365 вы найдете](https://go.microsoft.com/fwlink/?linkid=859045) советы по повышению задействования и их внедрении.
 - Использование [комплекта успешных клиентов Teams](https://aka.ms/TeamsCustomerSuccess) для улучшения качества и предоставления лучших рекомендаций.
 - Реализация формальной [стратегии внедрения и управления изменениями](http://www.successwithteams.com/) , которая помогает поддерживать рост внедрения.
 
