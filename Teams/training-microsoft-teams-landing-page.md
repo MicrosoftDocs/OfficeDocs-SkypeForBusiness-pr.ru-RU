@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506830"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691565"
 ---
 # <a name="microsoft-teams-admin-training"></a>Обучение администраторов Microsoft Teams
 
@@ -161,7 +161,7 @@ ms.locfileid: "43506830"
                 <div class="card">
                     <div class="cardText">
                         <h3>Сертификат Microsoft 365: помощник администратора командной работы</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Администраторы командной работы Microsoft 365 настраивают и разворачивают рабочие нагрузки Office 365, например SharePoint (в сетевой, локальной и гибридной среде), OneDrive и Teams, а также управляют ими. </a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Администраторы командной работы Microsoft 365 настраивают и разворачивают рабочие нагрузки Microsoft 365 или Office 365, например SharePoint (в сетевой, локальной и гибридной среде), OneDrive и Teams, а также управляют ими. </a></p>
                     </div>
                 </div>
             </div>

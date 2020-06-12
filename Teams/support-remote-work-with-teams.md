@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042426"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691495"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -88,11 +88,11 @@ ms.locfileid: "44042426"
 
    - Ограниченная пропускная способность может влиять на качество звука в собраниях Teams. Чтобы обеспечить оптимальную работу собраний в условиях низкой пропускной способности, рекомендуйте пользователям ограничить видео и использовать ТСОП для звонков и звука собрания. 
 
-   - Прочтите этот блог (6 марта 2020), [, как быстро оптимизировать трафик Office 365 для удаленных сотрудников & снизить нагрузку на](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)инфраструктуры.
+   - См. этот актуальный блог (6 марта 2020 г.): [Быстрая оптимизация трафика Microsoft 365 или Office 365 для удаленных сотрудников и снижение нагрузки на инфраструктуру](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
 
    - Запись блога от 26 марта 2020 г.: [Работа с VPN: как корпорация Майкрософт обеспечивает связь с удаленными сотрудниками](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
+   - Если вы находитесь в Китае, ознакомьтесь с [глобальной оптимизацией производительности клиентов Microsoft 365 или Office 365 для пользователей из Китая](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Если вам нужна помощь в устранении неполадок или проблем с качеством звонков или собраний, следуйте инструкциям в разделе [Известная проблема (Китай): звонки в Skype для бизнеса или Teams по идентификаторам конференций](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) в нижней части этой статьи.
 
@@ -106,7 +106,7 @@ ms.locfileid: "44042426"
 
    - [Основные 12 задач для отделов обеспечения безопасности при поддержке работы из дома](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Оптимизация подключения Office 365 для удаленных пользователей с использованием VPN-туннелирования](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Оптимизация подключения Microsoft 365 или Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - Раздел [Безопасность и Teams](teams-security-guide.md) посвящен всем техническим деталям безопасности Teams в рамках рекомендаций и процедур безопасности корпоративного уровня Microsoft 365.
 
@@ -132,9 +132,9 @@ ms.locfileid: "44042426"
 
       - Блог Teams (28 февраля 2020 г.): [4 совета по работе из дома с помощью Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
-      - [Совместная работа с Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+      - [Совместная работа с Microsoft 365 или Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [Удаленная работа с Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+      - [Удаленная работа с помощью Microsoft 365 или Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [9 советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
 

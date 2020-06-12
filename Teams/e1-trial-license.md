@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042396"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691355"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Управление пробной версией Office 365 E1
 ==============================
@@ -85,10 +85,10 @@ ms.locfileid: "44042396"
 
 - Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление доступом пользователей к Teams](user-access.md)
 
@@ -96,6 +96,6 @@ ms.locfileid: "44042396"
 
 [Управление предложением Teams Exploratory](teams-exploratory.md)
 
-[Office 365 для некоммерческих организаций](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 или Office 365 для некоммерческих организаций](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Получение помощи с развертыванием Teams](https://go.microsoft.com/fwlink/?linkid=780698)

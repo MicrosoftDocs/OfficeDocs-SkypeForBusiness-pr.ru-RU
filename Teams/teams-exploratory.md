@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489131"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689715"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 =======================================================
@@ -33,18 +33,18 @@ ms.locfileid: "44489131"
 
 Администратору будут представлены следующие планы обслуживания, входящие в предложение Teams Exploratory:
  - Exchange Online (план 1)
- - Flow для Office 365
+ - Flow для Microsoft 365 или Office 365
  - MyAnalytics для анализа данных
  - Microsoft Forms (план E1)
  - Планировщик (Майкрософт)
  - Поиск (Майкрософт)
  - Microsoft StaffHub
- - Microsoft Stream для номера SKU Office 365 E1
+ - Microsoft Stream для SKU Microsoft 365 и Office 365 E1
  - Microsoft Teams
- - Управление мобильными устройствами для Office 365
+ - Управление мобильными устройствами для Microsoft 365 или Office 365
  - Приложения Office Mobile для Office 365 
  - Office Online
- - PowerApps для Office 365
+ - PowerApps для Microsoft 365 или Office 365
  - SharePoint Online (план 1)
  - Sway
  - To-Do (план 1)
@@ -152,7 +152,7 @@ ms.locfileid: "44489131"
 
 - Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей в Office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление пользователя из организации](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Каков срок действия предложения Teams Exploratory?
 

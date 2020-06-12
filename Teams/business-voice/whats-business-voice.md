@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Обзор корпоративной голосовой связи Microsoft 365 и способ повышения эффективности общения в малых и средних организациях с ее помощью.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 2e4798a8e449bf3ee9128938305795f617099af1
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170680"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690825"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
@@ -35,10 +35,9 @@ ms.locfileid: "44170680"
 - Microsoft 365 бизнес базовый
 - Microsoft 365 бизнес стандарт
 - Microsoft 365 бизнес премиум
-- Приложения Майкрософт для бизнеса 
-- Приложения Майкрософт для предприятий
 - Microsoft 365 F1
-- Office 365 F1
+- Microsoft 365 F3
+- Office 365 F3
 - Microsoft и Office 365 корпоративный E1, E3 или E5
 - Microsoft 365 и Office 365 для образования A1, A3 или A5
 - Microsoft 365 и Office 365 для государственных организаций G1, G3 или G5 (только GCC)
