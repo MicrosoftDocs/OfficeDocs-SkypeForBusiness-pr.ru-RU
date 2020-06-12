@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902884"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689655"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43902884"
 > [!NOTE]
 > Мы рекомендуем использовать в этом руководстве по быстрому запуску, что вы прочитали [телефонную систему с тарифными планами](calling-plan-landing-page.md) и [FastTrack](https://aka.ms/cloudvoice) , чтобы спланировать и устранить успешный выпуск.
 
-За счет добавления планов звонков (компонента Office 365 на основе Skype для бизнеса) приложение Teams теперь позволяет делать и принимать звонки на стационарные и мобильные телефоны по телефонной сети общего пользования (ТСОП).
+Добавляя планы звонков — компоненты Microsoft 365 и Office 365 на платформе Skype для бизнеса — теперь вы можете использовать Teams для совершения и приема телефонных звонков на стационарные и мобильные телефоны через коммутируемую телефонную сеть общего пользования (PSTN).
 
 ![Снимок экрана, на котором показана страница "Контакты" в Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Что необходимо для активации вкладки **Звонки** в Teams
