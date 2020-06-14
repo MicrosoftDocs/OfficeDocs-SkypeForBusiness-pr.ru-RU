@@ -905,3 +905,5 @@
 ### [Планы звонков в Microsoft 365 — нормы и правила для Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Планы звонков в Microsoft 365 — процедура подачи претензий для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
+
+## [Заметки о выпуске для функций администрирования Teams](release-notes/release-notes.md)
