@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Документация администратора Microsoft Teams
-summary: Сведения о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
+title: Документы для администраторов Microsoft Teams
+summary: Узнайте, как развернуть приложение Teams и управлять им, а также подготовить пользователей для Teams.
 brand: teams
 metadata:
-  title: Документация администратора Microsoft Teams
-  description: Сведения о документации администратора Microsoft Teams, в том числе о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
+  title: Документы для администраторов Microsoft Teams
+  description: Ознакомьтесь с документацией для администраторов Microsoft Teams, в том числе со способами развертывания приложения Teams и управления им, а также с подготовкой пользователей для Teams.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -15,13 +15,13 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
   ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 04/27/2020
   ms.locfileid: "43905481"
 highlightedContent:
   items:
-  - title: Отклики COVID-19-поддержка для удаленных сотрудников, использующих Teams
+  - title: Меры в условиях COVID-19 — поддержка удаленных сотрудников с помощью Teams
     itemType: overview
     url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Способ развертывания Teams
@@ -30,7 +30,7 @@ highlightedContent:
   - title: Безопасность и соответствие требованиям в Teams
     itemType: overview
     url: /MicrosoftTeams/security-compliance-overview
-  - title: Поиск обучения для вас и ваших пользователей
+  - title: Поиск учебных ресурсов для вас и ваших пользователей
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Переход со Skype для бизнеса на Teams
@@ -42,37 +42,37 @@ highlightedContent:
 additionalContent:
   sections:
   - items:
-    - title: Самые популярные статьи
+    - title: Основные статьи
       links:
-      - text: Подготовка сети для Teams
+      - text: Подготовка сети организации к использованию Microsoft Teams
         url: /MicrosoftTeams/prepare-network
-      - text: Использование помощника для групп в целях развертывания групп
+      - text: Использование помощника для Teams для развертывания Teams
         url: /MicrosoftTeams/use-advisor-teams-roll-out
       - text: Использование памяти в Teams
         url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: Взаимодействие с пользователями из других организаций (гость и внешний доступ)
+      - text: Общение с пользователями из других организаций (гостевой и внешний доступ)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: Плакаты и решения для ИТ – архитектуры
+      - text: Плакаты и решения по ИТ-архитектуре
         url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: Голосовая связь с командами
+    - title: Голосовые звонки с помощью Teams
       links:
       - text: Облачная голосовая связь в Microsoft Teams
         url: /MicrosoftTeams/cloud-voice-landing-page
-      - text: Корпоративная голосовая связь Microsoft 365
+      - text: Голосовая связь Microsoft 365 бизнес
         url: /MicrosoftTeams/business-voice/whats-business-voice
       - text: Прямая маршрутизация телефонной системы
         url: /MicrosoftTeams/direct-routing-landing-page
       - text: Настройка телефонов общего пользования
         url: /MicrosoftTeams/set-up-common-area-phones
-    - title: Дополнительные сведения о Teams
+    - title: Дополнительный контент Teams
       links:
-      - text: Справочные материалы для конечных пользователей
+      - text: Справочные материалы для пользователей
         url: https://support.office.com/Teams
       - text: Сообщество технических специалистов по Teams
         url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: Форум отзывов пользователей Teams
+      - text: Форум пользовательских отзывов о Teams
         url: https://microsoftteams.uservoice.com/
-      - text: Сведения о продуктах для Teams
+      - text: Сведения о продукте Teams
         url: https://products.office.com/microsoft-teams/group-chat-software
       - text: Платформа разработки для Teams
         url: https://docs.microsoft.com/microsoftteams/platform/overview
