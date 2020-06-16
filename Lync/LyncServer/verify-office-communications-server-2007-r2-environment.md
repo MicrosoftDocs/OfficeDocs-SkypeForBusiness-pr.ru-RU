@@ -1,8 +1,8 @@
 ---
 title: Проверка среды Office Communications Server 2007 R2
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 885b1b08ef2d02c6a3cb3a77b83ca832e70281a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188942"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**Последнее изменение темы:** 2012-10-16_
 
 **Проверка устаревшей конфигурации федеративного партнера XMPP**
 
-1.  Из устаревшего сервера XMPP перейдите к апплету администрирование\\служб.
+1.  Из устаревшего сервера XMPP перейдите к \\ апплету администрирование служб.
 
 2.  Убедитесь, что служба шлюза XMPP Office Communications Server запущена.
     

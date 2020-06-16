@@ -1,8 +1,8 @@
 ---
 title: Перевод совмещенного сервера-посредника на автономный сервер-посредник (необязательно)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189162"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ _**Последнее изменение темы:** 2012-10-19_
 
 3.  Щелкните правой кнопкой **Пулы-посредники** и выберите команду **Создать сервер-посредник**.
 
-4.  На странице **Определение нового пула-посредника** введите полное доменное имя нового пула-посредника. Также укажите, будет ли этот пул состоять из одного или нескольких серверов, а затем нажмите кнопку **Далее**.
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  Выберите пул серверов переднего плана следующего прыжка, в который сервер-посредник будут направлять входящие звонки, а затем нажмите **Далее**.
 
 6.  Выберите пограничный пул для использования этим сервером-посредником и нажмите **Далее**.
 
-7.  На странице **Определение шлюзов ТСОП** свяжите предыдущий шлюз ТСОП с сервером-посредником. Выберите шлюз и нажмите кнопку **Добавить**.
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  Нажмите кнопку **Готово**, чтобы закрыть мастер **Определение нового пула-посредника**.
 

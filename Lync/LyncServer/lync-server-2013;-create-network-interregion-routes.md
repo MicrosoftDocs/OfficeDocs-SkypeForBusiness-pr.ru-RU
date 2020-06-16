@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013; Создание маршрутов между межсетевыми областями
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210245"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210245"
 
 _**Последнее изменение темы:** 2012-10-20_
 
-*Маршрут между регионами сети* определяет маршрут между парой регионов сети. Маршрут между регионами сети требуется для каждой пары регионов сети в развертывании службы контроля допуска звонков. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 Связи между регионами накладывают определенные ограничения на пропускную способность, доступную подключениям между регионами; маршруты же определяют путь, который должны пройти подключения от одного региона до другого.
 
@@ -99,9 +99,9 @@ _**Последнее изменение темы:** 2012-10-20_
 
 5.  На странице **Новый маршрут региона** щелкните **Имя**, а затем введите имя для маршрута между регионами сети.
 
-6.  Щелкните **область \#сети 1**, а затем выберите в списке область сети, которую нужно маршрутизировать в область \#сети 2.
+6.  Щелкните **область сети \# 1**, а затем выберите в списке область сети, которую нужно маршрутизировать в область сети \# 2.
 
-7.  Щелкните **область \#сети 2**, а затем выберите в списке область сети, которую нужно перенаправить в область \#сети 1.
+7.  Щелкните **область сети \# 2**, а затем выберите в списке область сети, которую нужно перенаправить в область сети \# 1.
 
 8.  Щелкните **Добавить** рядом с полем **Связи между регионами сети**, а затем добавьте связь с регионом сети, которая будет использоваться в маршруте между регионами сети.
     
@@ -109,7 +109,7 @@ _**Последнее изменение темы:** 2012-10-20_
     
 
     > [!NOTE]  
-    > При создании маршрута между двумя регионами сети, между которыми отсутствует прямая связь, необходимо добавить все необходимые связи для создания полного маршрута. Например, для создания маршрута между регионами сети «Северная Америка» и «APAC» требуются две связи между сетевыми регионами, так как между ними отсутствует прямая связь.
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

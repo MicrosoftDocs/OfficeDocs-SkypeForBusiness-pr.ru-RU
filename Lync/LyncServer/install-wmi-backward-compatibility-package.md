@@ -1,8 +1,8 @@
 ---
 title: Установка пакета обратной совместимости WMI
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install WMI Backward Compatibility package
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c59e3ea03b3b6f4085f8acf461b1da3f32e21fa9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35be17aa08cf26f93a9d4002b23dacdfb35c5143
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199402"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**Последнее изменение темы:** 2012-10-02_
 
 Чтобы установить пакет обратной совместимости WMI, выполните следующие действия.
 
-1.  \\На установочном носителе перейдите в раздел Setup\\оксвмибк\\Setup\\. MSI.
+1.  На установочном носителе перейдите в раздел \\ настройка \\ \\OCSWMIBC.MSI установки amd64 \\ .
 
 2.  Установите OCSWMIBC.MSI.
     
@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Пакет OCSWMIBC.msi должен быть установлен на компьютере, где выполняется мастер объединения построителя топологий. Однако рекомендуется устанавливать OCSWMIBC.msi на всех интерфейсных серверах в используемой топологии.
+    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
 
     
     </div>
@@ -64,7 +64,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > ОКСВМИБК. msi можно установить на любой компьютер в домене, на котором установлены основные компоненты Lync Server 2013 и Командная консоль Lync Server 2013, и получить доступ к топологии Office Communications Server 2007 R2 (поставщик WMI для домена Active Directory) Services (AD DS) и SQL Server).
+    > OCSWMIBC.msi можно установить на любой компьютер домена, на котором установлены основные компоненты Lync Server 2013 и Командная консоль Lync Server 2013, и получить доступ к топологии Office Communications Server 2007 R2 (AD DS to Active Directory Domain Services (AD DS) и SQL Server).
 
     
     </div>

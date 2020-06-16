@@ -1,8 +1,8 @@
 ---
 title: Миграция
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209805"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209805"
 
 _**Последнее изменение темы:** 2012-09-18_
 
-В этом разделе объясняется, как выполнить миграцию с Microsoft Office Communications Server 2007 R2 или Microsoft Lync Server 2010 на Microsoft Lync Server 2013, из Microsoft Lync Server 2010, группового чата в Microsoft Lync Server 2013, сервера сохраняемого чата и из Microsoft Office Communications Server 2007 R2 групповой чат с сервером сохраняемого чата.
+В этом разделе объясняется, как выполнить миграцию с Microsoft Office Communications Server 2007 R2 или Microsoft Lync Server 2010 на Microsoft Lync Server 2013, из Microsoft Lync Server 2010, группового чата в Microsoft Lync Server 2013, сервера сохраняемого чата и из Microsoft Office Communications Server 2007 R2 групповой чат на сервер сохраняемого чата.
 
 <div>
 

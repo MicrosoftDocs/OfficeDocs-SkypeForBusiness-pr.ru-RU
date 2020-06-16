@@ -1,8 +1,8 @@
 ---
-title: Проверка параметров конфигурации
+title: Проверка параметров настройки
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188982"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188982"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a>Проверка параметров конфигурации
+# <a name="verify-configuration-settings"></a>Проверка параметров настройки
 
 </div>
 
@@ -95,7 +95,7 @@ _**Последнее изменение темы:** 2012-09-28_
 
 ## <a name="to-verify-policies-and-settings"></a>Чтобы проверить политики и параметры
 
-1.  В среде Office Communications Server 2007 R2 запишите названия абонентских группы (ранее называемые профилями мест), Номера доступа для телефонного подключения (номера телефонов для доступа к конференциям и регионы), маршруты голосовой связи и политики, перечисленные в разделе Предыдущая таблица, а также URL-адреса, используемые для веб-клиента Communicator.
+1.  В среде Office Communications Server 2007 R2 запишите названия абонентских группы (ранее называемые профилями мест), Номера доступа для телефонного подключения (номера телефонов для доступа к конференциям и регионы), маршруты голосовой связи и политики, перечисленные в предыдущей таблице, в дополнение к URL-адресам, используемым для веб-клиента Communicator.
 
 2.  На сервере переднего плана Lync Server 2013 откройте панель управления Lync Server.
 

@@ -1,8 +1,8 @@
 ---
-title: Проверка Федерации и удаленного доступа для внешних пользователей
+title: Проверка федерации и удаленного доступа для внешних пользователей
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify federation and remote access for external users
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95f08997a9a65bdbb6c21a8850ee059b0dc64c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a36e92849c59760f831cdebaf59906b546b01d7f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188962"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188962"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-federation-and-remote-access-for-external-users"></a>Проверка Федерации и удаленного доступа для внешних пользователей
+# <a name="verify-federation-and-remote-access-for-external-users"></a>Проверка федерации и удаленного доступа для внешних пользователей
 
 </div>
 

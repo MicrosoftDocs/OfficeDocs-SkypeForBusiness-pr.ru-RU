@@ -1,8 +1,8 @@
 ---
-title: Проверка того, что репликация пользователя завершена
+title: Проверка выполнения пользовательской репликации
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96e8df3cb77e6b53596ae17e15fed6b05243a99a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d883b5446c843ac8b79e2b29d15f8a1c99f0089
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188802"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188802"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>Проверка того, что репликация пользователя завершена
+# <a name="verify-user-replication-has-completed"></a>Проверка выполнения пользовательской репликации
 
 </div>
 
@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2012-09-17_
 
 6.  В списке **Источники событий** щелкните пункт **LS User Replicator**.
 
-7.  Во ** \<всех идентификаторах\> событий** введите **30024** , а затем нажмите кнопку **ОК**.
+7.  В **\<All Event IDs\>** поле введите **30024** , а затем нажмите кнопку **ОК**.
 
 8.  В фильтрованном списке событий перейдите на вкладку **Общие** и найдите запись, указывающую, что репликация пользователей успешно завершена.
 

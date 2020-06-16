@@ -1,8 +1,8 @@
 ---
 title: Запуск анализатора соответствия рекомендациям
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fead940eb80ee303955bed8f4dbe501984ebfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a61b99fc5013f65ce70e5d79bee54ccca229725b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189274"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2012-10-11_
 
 Анализатор соответствия рекомендациям для Office Communications Server 2007 R2 собирает сведения о конфигурации из развертывания Office Communications Server 2007 R2 и определяет, настроена ли конфигурация в соответствии с рекомендациями Майкрософт. Средство можно установить на клиентский компьютер, на котором работает Microsoft .NET Framework 2,0, или непосредственно на сервере, на котором работает Office Communications Server 2007 R2. Рекомендуется установить и запускать это средство на клиентском компьютере. Средства администрирования Office Communications Server 2007 R2 также должны быть установлены локально на клиентском компьютере, чтобы анализатор соответствия рекомендациям мог собирать полный набор данных.
 
-Вы можете скачать анализатор соответствия рекомендациям Office Communications Server 2007 R2 из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).
+Вы можете скачать анализатор соответствия рекомендациям Office Communications Server 2007 R2 из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) .
 
 </div>
 

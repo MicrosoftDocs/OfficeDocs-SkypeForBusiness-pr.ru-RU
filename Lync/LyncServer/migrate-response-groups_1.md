@@ -1,8 +1,8 @@
 ---
-title: Миграция групп ответа
+title: Перенос групп ответа
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190152"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190152"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>Миграция групп ответа
+# <a name="migrate-response-groups"></a>Перенос групп ответа
 
 </div>
 
@@ -73,7 +73,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 </div>
 
-После миграции групп ответа необходимо обновить URL-адрес, который используются формальными агентами для входа в группы ответа и выхода из них, а также с помощью командлетов панели управления Lync Server или Командная консоль командной консоли Lync Server для проверки того, что все группы агентов, очереди и рабочие процессы перемещены. удается.
+После миграции групп ответа необходимо обновить URL-адрес, который используются формальными агентами для входа в группы ответа и выхода из них, а также с помощью командлетов панели управления Lync Server или Командная консоль командной консоли Lync Server для проверки успешности перемещения всех групп агентов, очередей и рабочих процессов.
 
 <div>
 
@@ -127,13 +127,13 @@ _**Последнее изменение темы:** 2012-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Если вы развернули вкладку Группа ответа для Microsoft Office Communicator 2007 R2 в среде Office Communications Server 2007 R2, удалите эту вкладку из файла вкладок Office Communicator 2007 R2. XML.
+5.  Если вы развернули вкладку Группа ответа для Microsoft Office Communicator 2007 R2 в среде Office Communications Server 2007 R2, удалите эту вкладку из файла Office Communicator 2007 R2 tabs.xml.
     
     <div>
     
 
     > [!NOTE]  
-    > Формальные агенты использовали вкладку "Группа ответа" для входа в свои группы ответа, чтобы можно было получать вызовы. Если вы развернули вкладку группы ответа, вы выбрали расположение для файла с вкладками Office Communicator 2007 R2 Tab при его развертывании.
+    > Формальные агенты использовали вкладку "Группа ответа" для входа в свои группы ответа, чтобы можно было получать вызовы. Если вы развернули вкладку группы ответа, вы выбрали расположение файла Office Communicator 2007 R2 tabs.xml при его развертывании.
 
     
     </div>
@@ -144,7 +144,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
 
     > [!NOTE]  
-    > Обычно https://webpoolFQDN/RgsClients/Tab.aspxэто URL-адрес, где вебпулфкдн — полное доменное имя веб-пула, связанного с пулом, который вы только что перешли в Lync Server 2013.
+    > Обычно это URL-адрес https://webpoolFQDN/RgsClients/Tab.aspx , где вебпулфкдн — полное доменное имя веб-пула, связанного с пулом, который вы только что перешли в Lync Server 2013.
 
     
     </div>

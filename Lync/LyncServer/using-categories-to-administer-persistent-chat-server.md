@@ -1,8 +1,8 @@
 ---
 title: Использование категорий для администрирования сервера сохраняемого чата
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e02a780772cd0e9592bb078ab526a4085a234bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189012"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**Последнее изменение темы:** 2013-10-01_
 
 </div>
 
-Руководители комнат чата могут изменять все свойства комнат чата, кроме категории комнаты. Им нельзя запретить выполнять следующие действия:
+Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
 
   - отключать комнату чата;
 
@@ -89,7 +89,7 @@ _**Последнее изменение темы:** 2013-10-01_
 
 Создание и управление комнатами сохраняемого чата значительно упрощается благодаря правильному использованию категорий. Администратор сохраняемого чата может определять **AllowedMembers** и **Creators** для каждой категории, а также задавать параметры и поведения комнаты чата по умолчанию, которые будут применяться ко всем комнатам чата, созданным в категории. Администраторам сохраняемого чата создавать категории и управлять ими с помощью панели управления Lync Server или командлетов Windows PowerShell.
 
-Создавать комнаты в категории могут только пользователи, подразделения и группы пользователей, которым назначено свойство Creators в данной категории. После создания категории они могут выбрать пользователей, подразделения или группы пользователей из списка **AllowedMembers** данной категории в качестве руководителей и участников комнат чата.
+Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
 
 На комнаты чата, созданные в категории, распространяются действующие в ней политики и параметры (например, кто может быть участником комнаты, кто может управлять комнатой, разрешена ли отправка файлов, отправляются ли приглашения и т. п.).
 

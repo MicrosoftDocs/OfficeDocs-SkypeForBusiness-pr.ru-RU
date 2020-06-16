@@ -1,8 +1,8 @@
 ---
 title: Таблица Таблица monitoredusersitelink
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: MonitoredUserSiteLink table
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61a221ab87d43af36f03ec966bf094a1e2839bd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b83ebadddea5f510b6eee731240119478bdc9da8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189932"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189932"
 
 _**Последнее изменение темы:** 2012-10-02_
 
-Таблица MonitoredUserSiteLink является таблицей поддержки. Каждая запись представляет одну связь между двумя сайтами пользователей.
+The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.
 
 
 <table>
@@ -52,7 +52,7 @@ _**Последнее изменение темы:** 2012-10-02_
 <th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
 <th><strong>Ключ или индекс</strong></th>
-<th><strong>Details</strong></th>
+<th><strong>Сведения</strong></th>
 </tr>
 </thead>
 <tbody>

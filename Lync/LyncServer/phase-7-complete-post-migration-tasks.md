@@ -1,8 +1,8 @@
 ---
-title: 'Этап 7: выполнение задач, выполняемых после миграции'
+title: 'Этап 7: необходимые действия после миграции'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d42207ecff45a66f2b8fb4d88abb69483504c644
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcf827412104bcfc8b6c3fe2b58378ecab8ad7bf
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209565"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209565"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: выполнение задач, выполняемых после миграции
+# <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
 </div>
 
@@ -45,23 +45,23 @@ _**Последнее изменение темы:** 2012-10-19_
 
   - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
 
-  - [Перенос номеров доступа для телефонного подключения](migrate-dial-in-access-numbers.md)
+  - [Перенос номеров доступа](migrate-dial-in-access-numbers.md)
 
-  - [Миграция параметров приложения парковки вызовов](migrate-call-park-application-settings.md)
+  - [Перенос параметров приложения приостановки звонков](migrate-call-park-application-settings.md)
 
-  - [Миграция групп ответа](migrate-response-groups.md)
+  - [Перенос групп ответа](migrate-response-groups.md)
 
-  - [Миграция адресной книги](migrate-address-book.md)
+  - [Перенос адресной книги](migrate-address-book.md)
 
-  - [Настройка страницы присоединения к собранию](configure-the-meeting-join-page.md)
+  - [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page.md)
 
-  - [Удаление устаревших серверов архивации и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
+  - [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [Настройка серверов доверенных приложений](configure-trusted-application-servers.md)
+  - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
 
   - [Развертывание клиентов Lync Server 2013](deploy-lync-server-2013-clients.md)
 
-  - [Подключение устройства для обеспечения связи в филиалах](connect-a-survivable-branch-appliance.md)
+  - [Подключение Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
 
   - [Настройка мониторинга SCOM](configure-scom-monitoring.md)
 

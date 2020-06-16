@@ -1,8 +1,8 @@
 ---
-title: Перенос номеров доступа для телефонного подключения
+title: Перенос номеров доступа
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate dial-in access numbers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efd83a0d874876bd00d9ebc880a7ae508db8605
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6654c084be4915d48c4148c90b3888295c887f08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209865"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209865"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>Перенос номеров доступа для телефонного подключения
+# <a name="migrate-dial-in-access-numbers"></a>Перенос номеров доступа
 
 </div>
 

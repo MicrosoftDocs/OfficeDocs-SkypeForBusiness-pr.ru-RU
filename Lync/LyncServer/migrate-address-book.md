@@ -1,8 +1,8 @@
 ---
-title: Миграция адресной книги
+title: Перенос адресной книги
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210140"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42210140"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>Миграция адресной книги
+# <a name="migrate-address-book"></a>Перенос адресной книги
 
 </div>
 
@@ -47,7 +47,7 @@ _**Последнее изменение темы:** 2012-10-09_
 
 **Сгруппированные записи адресной книги**
 
-Если вы задали для свойства WMI **PartitionbyOU** значение True, чтобы создать адресные книги для каждого подразделения, вам нужно задать атрибут Active Directory **msRTCSIP-GroupingId** для пользователей и контактов, если вы хотите, чтобы записи адресной книги были по-прежнему сгруппированы. Группировка записей адресной книги может потребоваться для ограничения области поиска в адресной книге. Чтобы использовать атрибут **msRTCSIP-GroupingId**, создайте сценарий для его заполнения и присвойте одинаковое значение всем пользователям, которых необходимо объединить в одну группу. Например, присвойте одинаковое значение всем пользователям определенного подразделения.
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **Правила нормализации адресной книги**
 
@@ -57,7 +57,7 @@ _**Последнее изменение темы:** 2012-10-09_
 
 
 > [!NOTE]  
-> Если в вашей организации используется удаленное управление звонками и вы настроили правила нормализации адресной книги, то прежде чем использовать удаленное управление звонками, вам нужно выполнить инструкции, приведенные в этом разделе. Для их выполнения необходимо быть членом группы RTCUniversalServerAdmins или иметь аналогичные права.
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ _**Последнее изменение темы:** 2012-10-09_
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>Перенос настроенных правил нормализации адресной книги
 
-1.  Найдите файл\_\_Rules\_(\_правила нормализации) телефонных номеров компаний в корне общей папки адресной книги и скопируйте его в корневую папку адресной книги в пилотном пуле Lync Server 2013.
+1.  Найдите \_ \_ \_Rules.txt файл нормализации номера телефона компании \_ в корне общей папки адресной книги и скопируйте его в корневую папку адресной книги в пилотном пуле Lync Server 2013.
     
     <div>
     
 
     > [!NOTE]  
-    > Образцы правил нормализации адресной книги установлены в каталоге, содержащем файлы веб-компонента службы адресной книги. Путь — <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;в корневой каталог общей папки адресной книги. Например, адресная книга предоставляется в <STRONG>$serverX</STRONG>,&nbsp;путь будет выглядеть следующим образом: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
+    > Образцы правил нормализации адресной книги установлены в каталоге, содержащем файлы веб-компонента службы адресной книги. Путь — <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; в корневой каталог общей папки адресной книги. Например, адресная книга предоставляется в <STRONG>$serverX</STRONG>, &nbsp; путь будет выглядеть следующим образом: <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
     
     </div>
 
-2.  Используйте текстовый редактор, например "Блокнот",\_для открытия файла\_\_\_правил нормализации номера телефона компании. txt.
+2.  Используйте текстовый редактор, например "Блокнот", чтобы открыть \_ \_ \_Rules.txt файл нормализации номера телефона компании \_ .
 
 3.  Некоторые типы записей не будут правильно работать в Lync Server 2013. Просмотрите файл, чтобы найти записи такого типа, измените их требуемым образом и сохраните изменения в общей папке адресной книги в пилотном пуле.
     
-    Строки, содержащие обязательный пробел или знак пунктуации, приведут к сбою правила нормализации, поскольку эти символы удаляются из строки при ее вводе в правило. Если у вас есть строки с обязательным пробелом или знаком пунктуации, их нужно изменить. Например, следующая строка приведет к сбою правила нормализации.
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ _**Последнее изменение темы:** 2012-10-09_
 
 3.  Дождитесь, пока репликация центрального хранилища управления не будет выполняться во всех пулах.
 
-4.  Измените файл правил нормализации\_телефона ("\_\_\_правила нормализации телефонных номеров компаний. txt") для развертывания, чтобы очистить содержимое. Файл находится на общем файловом ресурсе каждого пула Lync Server 2013. Если файл отсутствует, создайте пустой файл\_с именем "\_\_\_Rules нормализации номеров компаний". txt.
+4.  Измените файл правил нормализации телефона в разделе " \_ \_ нормализация номера телефона компании \_ \_Rules.txt", чтобы развертывание было ясно на содержимое. Файл находится на общем файловом ресурсе каждого пула Lync Server 2013. Если файл отсутствует, создайте пустой файл с именем " \_ \_ нормализация номера телефона компании \_ \_Rules.txt".
 
 5.  Подождите несколько минут, пока для всех интерфейсных пулов не будут прочитаны новые файлы.
 

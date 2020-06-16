@@ -1,8 +1,8 @@
 ---
-title: 'Этап 8: списание устаревших пулов'
+title: 'Этап 8: ликвидация старых пулов'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 474cc5ee3f508ed5a9069f3e8625bcc6ee451153
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209495"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209495"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>Этап 8: списание устаревших пулов
+# <a name="phase-8-decommission-legacy-pools"></a>Этап 8: ликвидация старых пулов
 
 </div>
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2016-12-08_
 
 В следующих разделах представлены рекомендации по обновлению записей DNS, перемещению сервера управления контентом, развертыванию пулов, отключению и удалению серверов и пулов из устаревшего развертывания Lync Server 2010. Не все процедуры, рассматриваемые в этом разделе, являются обязательными. Ознакомьтесь в документацией и определите, какую из процедур списания следует использовать.
 
-Для полного покрытия удаления серверов и ролей сервера Lync Server 2010 и пошагового руководства по списанию развертывания Lync Server 2010 обратитесь к разделу "удаление Microsoft Lync Server 2010 и удаление ролей сервера", которые можно скачать на сайте [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227).
+Для полного покрытия удаления серверов и ролей сервера Lync Server 2010 и пошагового руководства по списанию развертывания Lync Server 2010 обратитесь к разделу "удаление Microsoft Lync Server 2010 и удаление ролей сервера", которые можно скачать на сайте [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) .
 
 <div>
 
@@ -65,10 +65,10 @@ _**Последнее изменение темы:** 2016-12-08_
     [Перемещение каталогов конференций](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
   - <span></span>  
-    [Удаление связи сервера архивации](remove-the-archiving-server-association.md)
+    [Удаление связи с сервером архивирования](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [Удаление сопоставления сервера мониторинга](remove-the-monitoring-server-association.md)
+    [Удаление связи с сервером мониторинга](remove-the-monitoring-server-association.md)
 
   - <span></span>  
     [Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)

@@ -1,8 +1,8 @@
 ---
 title: Перемещение одного пользователя в пилотный пул
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189898"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189898"
 
 _**Последнее изменение темы:** 2012-09-28_
 
-Вы можете переместить пользователя из пула Office Communications Server 2007 R2 в пилотный пул Lync Server 2013 с помощью панели управления Lync Server 2013 или консоли управления Lync Server 2013. В приведенном ниже примере в столбце пул регистратора ** \<Office Communications Server\> ** является пулом Office Communications Server 2007 R2, а все шесть этих пользователей подключены к этому пулу. Используйте следующие процедуры для перемещения пользователя в пул Lync Server 2013 с помощью панели управления Lync Server 2013 и командной консоли Lync Server.
+Вы можете переместить пользователя из пула Office Communications Server 2007 R2 в пилотный пул Lync Server 2013 с помощью панели управления Lync Server 2013 или консоли управления Lync Server 2013. В приведенном ниже примере в столбце пул регистратора **\<Office Communications Server\>** используется пул Office Communications Server 2007 R2, а все шесть этих пользователей подключены к этому пулу. Используйте следующие процедуры для перемещения пользователя в пул Lync Server 2013 с помощью панели управления Lync Server 2013 и командной консоли Lync Server.
 
 ![Поиск пользователей OCS в панели управления Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Поиск пользователей OCS в панели управления Lync Server")
 

@@ -1,8 +1,8 @@
 ---
 title: Подготовка топологии для запуска загрузки
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Provisioning the Topology to Run Load
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f9cd219e70f1f761ac49932b73ca0d8c618121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196092"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756880"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ _**Последнее изменение темы:** 2013-02-04_
         Powershell.exe -file <path to the file>
     ```
     
-4.  Как правило, после выполнения одного из сценариев в этом пакете результаты трассировки из сценария будут храниться в файле, который был вызван с помощью сценария с именем \<имя_сценария\>$h $ m $ s. txt. Пример: запуск ArchivingPolicy. ps1 в 12:15 P.M. создаст файл журнала, например ArchivingPolicy121500. txt.
+4.  Как правило, после выполнения одного из сценариев в этом пакете результаты трассировки из скрипта будут храниться в файле, который был вызван с помощью сценария с именем \<scriptname\> $h $ m $s.txt. Например, выполнение ArchivingPolicy.ps1 в 12:15 P.M. создаст файл журнала, например ArchivingPolicy121500.txt.
 
 5.  Наконец, обратите внимание, что хотя мы предоставили примеры для настройки сервера, вы несете ответственность за изменение или удаление конфигурации после завершения загрузки.
 

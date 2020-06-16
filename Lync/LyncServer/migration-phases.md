@@ -1,8 +1,8 @@
 ---
 title: Этапы миграции
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189982"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,11 +53,11 @@ _**Последнее изменение темы:** 2012-09-17_
 
 5.  [Этап 5: Добавление пограничного сервера Lync Server 2013 в пилотный пул](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [Этап 6: переход от пилотного развертывания к рабочей среде](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [Этап 6: переход от пилотного развертывания к рабочей версии](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [Этап 7: выполнение задач, выполняемых после миграции](phase-7-complete-post-migration-tasks.md)
+7.  [Этап 7: необходимые действия после миграции](phase-7-complete-post-migration-tasks.md)
 
-8.  [Этап 8: списание устаревших пулов](phase-8-decommission-legacy-pools.md)
+8.  [Этап 8: ликвидация старых пулов](phase-8-decommission-legacy-pools.md)
 
 </div>
 

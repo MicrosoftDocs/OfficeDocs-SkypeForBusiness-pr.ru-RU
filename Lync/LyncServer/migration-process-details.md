@@ -1,8 +1,8 @@
 ---
 title: Процесс миграции — сведения
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189952"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Помните, что эти новые элементы могут конфликтовать со старыми переносимыми элементами. Избегайте конфликтов с именами, в противном случае элементы будут перезаписаны при миграции старых данных.
+    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
 
     
     </div>
@@ -66,7 +66,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 Выполните следующие действия, чтобы должным образом подготовить исходные данные для миграции.
 
-1.  Создайте резервную копию исходных баз данных для Lync Server 2010, группового чата или Office Communications Server 2007 R2 Group Chat. Подробные сведения о резервном копировании SQL Server можно найти в <https://go.microsoft.com/fwlink/p/?linkid=254851>разделе "Обзор резервного копирования (SQL Server)".
+1.  Создайте резервную копию исходных баз данных для Lync Server 2010, группового чата или Office Communications Server 2007 R2 Group Chat. Подробные сведения о резервном копировании SQL Server можно найти в разделе "Обзор резервного копирования (SQL Server)" <https://go.microsoft.com/fwlink/p/?linkid=254851> .
     
     <div>
     
@@ -92,9 +92,9 @@ _**Последнее изменение темы:** 2012-10-19_
     
     1.  Сервер сохраняемого чата поддерживает один уровень категорий в отличие от детального иерархического набора категорий. После миграции к подкатегориям добавляются префиксы с полными именами родительских категорий. Возможно, вы захотите упростить существующую структуру категорий, чтобы полученная структура удовлетворяла вашим требованиям.
     
-    2.  Проверьте **руководителей** в корневой категории.Если на этом уровне есть руководители, после миграции эти пользователи будут добавлены как **Руководители для всех комнат**. Если это не является обязательным для вашей организации, удалите этих руководителей из корневой категории.
+    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
     
-    3.  Проверьте длину имен комнат. Если после миграции из-за упрощенной структуры категорий комнаты включены в дочернюю категорию, к ним добавляется префикс с полными именами родительской категории. Длина имен не может превышать 256 символов, включая имена родительских категорий. Необходимо проверить длину имен комнат и по возможности сократить их, если они слишком длинные.
+    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
     
     4.  В Lync Server 2013, если для параметров **приглашения** категории задано значение true, вы можете выбрать true или false для приглашений на комнаты в этой категории. Однако, если для настроек приглашений категории задано значение «False», приглашения для комнат в этой категории отключены. Перед переносом необходимо сбросить параметры приглашений в устаревшей версии сервера группы Lync Server Group Chat, если вы хотите, чтобы комнаты существовали в определенной категории. В противном случае в ходе миграции Lync Server 2013 отображает предупреждения и задает для комнат значение по умолчанию false.
     
@@ -104,7 +104,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
     7.  Определите комнаты, которые не требуется переносить, и отметьте их как отключенные.
     
-    8.  Определите дату, после которой необходимо перенести содержимое комнаты чата. Например, вы можете не переносить сообщения старше 1 января 2010 г., так как они могут быть неактуальными или устаревшими.
+    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
 
 </div>
 
@@ -141,7 +141,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 8.  Попросите URI сервера Lync Server 2010, группового чата или Office Communications Server 2007 R2 на серверный объект Contact в Lync Server 2013, сохраняемый чат Server. Следующие действия необходимы, если пользователям Lync 2010 Group Chat или Office Communicator 2007 R2 требуется подключиться к последнему Lync 2013, сохраняемый чат (клиент) после миграции без каких-либо изменений конфигурации на стороне клиента:
     
-      - Удалите учетную\<запись\>пользователя сервера поиска OCSChat@ имя_домена. com. Он использовался для ссылки на службу подстановки в Lync Server 2010, Group Chat. Удалить пул и доверенные записи можно позже.
+      - Удалите \<domainName\> учетную запись пользователя сервера поиска OCSChat@. com. Он использовался для ссылки на службу подстановки в Lync Server 2010, Group Chat. Удалить пул и доверенные записи можно позже.
     
       - Создайте конечную точку устаревшего (контактный объект сервера сохраняемого чата), выполнив командлет Windows PowerShell **New-CsPersistentChatEndpoint**с идентичным URI SIP, чтобы устаревший клиент работал эффективно при перезапуске службы.
     
@@ -163,7 +163,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 поддерживает несколько пулов серверов сохраняемого чата. Однако мы поддерживаем перенос группового чата в Lync 2010 или Office Communications Server 2007 R2&nbsp;в один пул серверов lync Server 2013, сохраняемого чата. В развертывание можно добавить новые пулы серверов сохраняемого чата в соответствии с нормативными требованиями (например, хранение данных в определенном географическом регионе).
+    > Lync Server 2013 поддерживает несколько пулов серверов сохраняемого чата. Однако мы поддерживаем перенос группового чата в Lync 2010 или Office Communications Server 2007 R2 &nbsp; в один пул серверов Lync server 2013, сохраняемого чата. В развертывание можно добавить новые пулы серверов сохраняемого чата в соответствии с нормативными требованиями (например, хранение данных в определенном географическом регионе).
 
     
     </div>

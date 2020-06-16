@@ -1,8 +1,8 @@
 ---
 title: Объединение с помощью мастера объединения в построителе топологий
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc25e73e2eb62e8d1b43fee4ce4350d8ae05b354
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4760dcd8810d12b112c3bb042e0f28a039683a08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210175"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +47,13 @@ _**Последнее изменение темы:** 2012-10-02_
     
     ![Мастер создания топологии слиянием, задать страницу настройки пограничного сервера](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Мастер создания топологии слиянием, задать страницу настройки пограничного сервера")  
 
-5.  В диалоговом окне **указания типа пограничного сервера** введите тип конфигурации пограничного сервера и нажмите кнопку **Далее**. В этом примере используется параметр **Single Edge Server** (Один пограничный сервер).
+5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Конфигурация <STRONG>Expanded Edge deployment</STRONG> (Расширенное развертывание пограничного сервера) не поддерживается. <STRONG>Расширенный пограничный сервер</STRONG> необходимо сначала преобразовать в <STRONG>один пограничный сервер</STRONG> или в <STRONG>консолидированный пограничный сервер с балансировкой нагрузки</STRONG>.
+    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Прежде чем нажать кнопку <STRONG>Далее</STRONG>, выполните следующее действие из этой процедуры. Очень важно не пропустить это действие.
+    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
 
     
     </div>

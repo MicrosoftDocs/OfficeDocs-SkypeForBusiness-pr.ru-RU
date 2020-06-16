@@ -1,8 +1,8 @@
 ---
 title: Командлеты Skype для бизнеса Online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189192"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189192"
 
 _**Последнее изменение темы:** 2013-07-05_
 
-При подключении к Skype для бизнеса Online с помощью Windows PowerShell в памяти копируется набор командлетов Skype для бизнеса Online на компьютер. Эти командлеты, а также любые другие командлеты, которые вы уже настроили на локальном компьютере (в том числе основные командлеты, устанавливаемые при установке Windows PowerShell), доступны для управления развертыванием Skype для бизнеса Online и Skype для Учетные записи пользователей в сети предприятия. Командлеты Skype для бизнеса Online представлены в следующих разделах:
+При подключении к Skype для бизнеса Online с помощью Windows PowerShell в памяти копируется набор командлетов Skype для бизнеса Online на компьютер. Эти командлеты помимо других командлетов, которые уже есть на локальном компьютере (в том числе основные командлеты, устанавливаемые при установке Windows PowerShell), доступны для управления развертыванием Skype для бизнеса Online и учетными записями пользователей Skype для бизнеса Online. Командлеты Skype для бизнеса Online представлены в следующих разделах:
 
   - [Управление клиентами Skype для бизнеса Online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

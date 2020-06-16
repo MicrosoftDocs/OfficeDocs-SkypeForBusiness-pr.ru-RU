@@ -1,8 +1,8 @@
 ---
 title: Общие сведения о членстве в сохраняемом чате
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Understanding Persistent Chat membership
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc357eff6cdc68c5285eeb915f5534b6f38b871
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 400866812ab2d5efb12960dc3c2f37c2fcb8eb45
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189152"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,9 +69,9 @@ _**Последнее изменение темы:** 2013-02-22_
 
 Указание параметров **AllowedMembers** и **Creators** для категории имеет следующие преимущества.
 
-  - Все комнаты чата в этой категории будут подчиняться ограничениям, установленным на уровне категории. Это можно использовать для разделения комнат чата на основе бизнес-требований и политик доступа.
+  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
 
-  - Пользователь, входящий в список **создателей** (Creators), может создавать новые комнаты чата в этой категории. Если требуется реализовать систему, в которой создавать комнаты чата может только ограниченное количество сотрудников, то с помощью этого элемента управления можно выполнить данные требования.
+  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
 
 </div>
 
@@ -81,7 +81,7 @@ _**Последнее изменение темы:** 2013-02-22_
 
 В **AllowedMembers** категории должны содержаться все пользователи, которые будут использовать любую комнату сохраняемого чата в этой категории. В зависимости от текущих требований к защите коммерческих данных и для обеспечения правильного уровня доступа может потребоваться задать одну или несколько категорий, чтобы указать, кто может выполнять поиск в комнатах и участвовать в них. Если планируется разрешить создание комнат только определенным пользователям (например, только центральной службе поддержки или только штатным сотрудникам), то для удовлетворения этих требований можно назначить **создателей** категории.
 
-Категории также можно использовать для создания этических границ. Этические границы предотвращают конфликты интересов в организации. Например, администратор может создать в одной категории комнаты чата, предназначенные только для торговцев, а в другой категории — комнаты, которые могут использовать только аналитики.
+Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
 
 <div>
 
