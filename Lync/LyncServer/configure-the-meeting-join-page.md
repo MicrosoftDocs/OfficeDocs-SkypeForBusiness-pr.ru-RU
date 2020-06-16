@@ -1,8 +1,8 @@
 ---
-title: Настройка страницы присоединения к собранию
+title: Конфигурация страницы присоединения к собранию
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 418a4ab1e5f44e6cf57a6124a29470a4f4ab477c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10700dc8a75d5c067870b53c0e0e74b7a469504a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180802"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180802"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>Настройка страницы присоединения к собранию
+# <a name="configure-the-meeting-join-page"></a>Конфигурация страницы присоединения к собранию
 
 </div>
 
@@ -62,7 +62,7 @@ _**Последнее изменение темы:** 2012-12-14_
 </tr>
 <tr class="even">
 <td><p>шовалтернатежоиноптионсекспандед</p></td>
-<td><p>Если параметр имеет значение True, то альтернативные параметры присоединения к конференции по сети (например, Office Communicator 2007 R2) будут отображаться автоматически. Если параметр имеет значение False (значение по умолчанию), эти параметры будут доступны, но пользователям придется самостоятельно открывать список параметров.</p></td>
+<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
 </tr>
 </tbody>
 </table>

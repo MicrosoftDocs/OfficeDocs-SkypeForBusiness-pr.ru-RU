@@ -1,8 +1,8 @@
 ---
-title: Настройка серверов доверенных приложений
+title: Настройка доверенных серверов приложений
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cee36f365eeaf4d95dea824d8f3a3afa2544b1d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eb71833e782378f0d959fcbfcf5647235252e594
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180762"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180762"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-trusted-application-servers"></a>Настройка серверов доверенных приложений
+# <a name="configure-trusted-application-servers"></a>Настройка доверенных серверов приложений
 
 </div>
 

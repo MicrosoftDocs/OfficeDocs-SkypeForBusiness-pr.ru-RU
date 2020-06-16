@@ -1,8 +1,8 @@
 ---
 title: Рекомендации по работе с сервером сохраняемого чата
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server best practices
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b613e3ce5c70b9bad7de2ef821d1e0f41e27b956
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebe9742b76ec6abfd7b7407f38edda937bdf6ecc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189782"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,15 +39,15 @@ _**Последнее изменение темы:** 2012-10-06_
 
 При создании категорий и комнат сохраняемого чата, а также при проектировании областей и членства следующие советы помогут вам в планировании:
 
-  - Если в организации не требуется создавать ограничение в соответствии с корпоративными стандартами, не сужайте область в дереве категорий. Поместите всех пользователей в области в одну категорию и создайте все чаты в этой категории. Затем используйте списки членства для предоставления или ограничения доступа к каждому чату.
+  - If your company does not require an ethical wall, do not narrow the scope in your category tree. Put all your users in the scope of one category, and create all chat rooms in that category. Subsequently, use only membership lists to grant or restrict access to each chat room.
 
-  - В большинстве случаев требуется разрешить пользователям создание новых чатов, чтобы они могли начать обсуждение новых тем в любой момент. Это можно сделать, настроив список **Creators** так, чтобы его содержимое совпадало со списком **AllowedMembers**. Однако, если требуется, чтобы только центральная служба поддержки или назначенные пользователи могли создавать чаты, настройте список **Creators** как соответствующее подмножество.
+  - In most cases, you should enable users to create new chat rooms so that discussions about new topics can be started any time. Do this by making the **Creators** list the same as the **AllowedMembers** list. However, if you want to allow only a central support team or designated users to create rooms, then make the **Creators** list as the appropriate subset.
 
-  - Задайте для каждого чата полное имя и краткое описание, определяющее его назначение в организации. Поскольку пользователи не могут видеть имя категории при использовании чата, имя категории не поможет пользователям определить нужный форум для чата.
+  - Give each chat room a complete name and description summary that describes where it fits in with your organization. Because users cannot see the category name when they use the chat room, you cannot rely on the category name to help users determine the intended discussion forum for the chat room.
 
   - Может потребоваться создать настраиваемый рабочий процесс создания чатов при наличии определенных соглашений о наименовании или других средств контроля доступа или проверок, которые требуется внедрить. Конфигурация сохраняемого чата позволяет настроить **румманажементурл** для размещения на каком-либо узле. Например, если пользователи щелкают элемент **Создание комнаты** в клиенте Lync, они могут быть перенаправлены в ваше пользовательское решение.
 
-  - Создайте различные надстройки, которые помогут улучшить работу с чатами, например, добавляя в них важные бизнес-данные. Администраторы должны зарегистрировать надстройки, которые они хотят разрешить в системе. Руководители и авторы могут выбирать надстройки из представленного списка и связывать их с чатами.
+  - Create a variety of add-ins that help to enhance the experience of chat rooms by bringing in other business data into chat rooms. Administrators must register the add-ins that they want to allow in the system. Chat room managers and creators can choose from the list of allowed add-ins for the ones most relevant to their respective rooms.
 
 <div>
 

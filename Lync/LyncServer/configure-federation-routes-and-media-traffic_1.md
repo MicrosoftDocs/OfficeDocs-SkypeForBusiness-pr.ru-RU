@@ -1,8 +1,8 @@
 ---
-title: Настройка маршрутов Федерации и трафика мультимедиа
+title: Настройка маршрутов федерации и трафика мультимедиа
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,14 +12,14 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136096"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754965"
 ---
-# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов Федерации и трафика мультимедиа
+# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов федерации и трафика мультимедиа
 
  
 
@@ -36,7 +36,7 @@ ms.locfileid: "42136096"
 
 
 > [!IMPORTANT]  
-> Если устаревший пограничный сервер Office Communications Server 2007 R2 настроен на использование того же полного доменного имени для пограничной службы доступа, пограничной службы веб-конференций и пограничной службы аудио-и видеоданных, процедуры, описанные в этом разделе, не поддерживают перенос параметров Федерации на пограничный сервер Lync Server 2013. Если устаревшие пограничные службы настроены на использование одного полного доменного имени, необходимо сначала перенести всех пользователей из Office Communications Server 2007 R2 в Lync Server 2013, а затем списать пограничный сервер Office Communications Server 2007 R2 перед включением Федерации пограничный сервер Lync Server 2013. Дополнительные сведения см. в следующих разделах: 
+> Если устаревший пограничный сервер Office Communications Server 2007 R2 настроен на использование того же полного доменного имени для пограничной службы доступа, пограничной службы веб-конференций и пограничной службы аудио-и видеоданных, процедуры, описанные в этом разделе, не поддерживают перенос параметров Федерации на пограничный сервер Lync Server 2013. Если устаревшие пограничные службы настроены на использование одного полного доменного имени, необходимо сначала перенести всех пользователей из Office Communications Server 2007 R2 в Lync Server 2013, а затем списать пограничный сервер Office Communications Server 2007 R2 перед включением Федерации на пограничном сервере Lync Server 2013. Дополнительные сведения см. в следующих разделах: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Перемещение оставшихся пользователей на Lync Server 2013</A></P>
@@ -47,7 +47,7 @@ ms.locfileid: "42136096"
 
 
 > [!IMPORTANT]  
-> Если Федерация XMPP направляется через пограничный сервер Lync Server 2013, устаревшие пользователи Office Communications Server 2007 R2 не смогут общаться с федеративным партнером XMPP до тех пор, пока все пользователи не будут перемещены в Lync Server 2013, XMPP политики и сертификаты настроены, федеративный партнер XMPP настроен на Lync Server 2013, и последние записи DNS были обновлены.
+> Если Федерация XMPP направляется через пограничный сервер Lync Server 2013, устаревшие пользователи Office Communications Server 2007 R2 не смогут общаться с федеративным партнером XMPP до тех пор, пока все пользователи не будут перемещены в Lync Server 2013, XMPP политики и сертификаты настроены, федеративный партнер XMPP настроен на Lync Server 2013, а последние DNS-записи были обновлены.
 
 
 
@@ -87,11 +87,11 @@ ms.locfileid: "42136096"
     
     ![Построитель топологий Указание внешнего пограничной страницы](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Построитель топологий Указание внешнего пограничной страницы")
 
-5.  В окне **Укажите внешний пограничный сервер** снимите флажок **Этот пограничный пул используется для федерации и подключения к общедоступным службам обмена мгновенными сообщениями**. При этом будет удалена федеративная связь с BackCompatSite.
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > Этот шаг очень важен. Следует снять этот флажок, чтобы удалить старую федеративную связь.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "42136096"
 
 1.  На сервере Office Communications Server 2007 R2 Standard Edition или сервере переднего плана откройте средство администрирования Office Communications Server 2007 R2.
 
-2.  В левой области, разверните верхний узел, а затем правой кнопкой мыши щелкните узел **Лес**. Выберите **Свойства**, а затем щелкните **Глобальные свойства**.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  Перейдите на вкладку ** Федерация**.
 
@@ -217,7 +217,7 @@ ms.locfileid: "42136096"
     
 
     > [!NOTE]  
-    > Если у вас нет аппаратной подсистемы балансировки нагрузки, следует обновить запись DNS A для федерации, чтобы разрешить новый пограничный сервер Lync Server. Для этого с минимальным вмешательством уменьшите значение TTL для внешнего полного доменного имени Lync Server Access Edge, чтобы после обновления DNS для указания на новый сервер Lync Server Access Edge федерация и удаленный доступ были быстро обновлены.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 

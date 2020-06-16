@@ -1,8 +1,8 @@
 ---
-title: Настройка серверов доверенных приложений
+title: Настройка доверенных серверов приложений
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180752"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180752"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-trusted-application-servers"></a>Настройка серверов доверенных приложений
+# <a name="configure-trusted-application-servers"></a>Настройка доверенных серверов приложений
 
 </div>
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180752"
 
 _**Последнее изменение темы:** 2012-10-04_
 
-В смешанной среде при создании нового доверенного сервера приложений после объединения устаревшей топологии Office Communications Server с Lync Server 2013 и определения нового доверенного сервера приложений с помощью построителя топологий необходимо настроить пул следующего прыжка в значение Пул Lync Server 2013. В Объединенной среде в раскрывающемся списке отображаются устаревший пул Office Communications Server и пул Lync Server 2013. Выбор устаревшего пула *не* поддерживается.
+В смешанной среде, если вы создаете новый доверенный сервер приложений после объединения устаревшей топологии Office Communications Server с Lync Server 2013 и определяете новый доверенный сервер приложений с помощью построителя топологий, необходимо задать пул следующего прыжка в качестве пула Lync Server 2013. В Объединенной среде в раскрывающемся списке отображаются устаревший пул Office Communications Server и пул Lync Server 2013. Выбор устаревшего пула *не* поддерживается.
 
 <div>
 

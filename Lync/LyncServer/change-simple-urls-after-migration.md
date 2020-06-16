@@ -1,8 +1,8 @@
 ---
 title: Изменение простых URL-адресов после миграции
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: def26afe2bae21a7a3b6d0ffae4b358c76296e6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181032"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -40,9 +40,9 @@ _**Последнее изменение темы:** 2012-09-22_
 
 Lync Server поддерживает три простых URL-адреса:
 
-  - URL-адрес **собраний** (meet) используется в качестве основного URL-адреса для всех конференций на сайте или в организации. Простой URL-адрес собраний делает ссылки на присоединение к собраниям более понятными и удобными для обмена и распространения.
+  - **Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute.
 
-  - URL-адрес **телефонного подключения** (dialin) обеспечивает доступ к веб-странице "Параметры конференц-связи с телефонным подключением". Простой URL-адрес телефонного подключения включается во все приглашения на собрания. Таким образом пользователи, которые хотят подключиться к собранию с помощью телефона, могут найти в нем необходимый номер телефона и ПИН-код.
+  - **Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information.
 
   - **Администратор** обеспечивает быстрый доступ к панели управления Lync Server. Этот URL-адрес используется внутри организации.
 
@@ -70,7 +70,7 @@ Lync Server поддерживает три простых URL-адреса:
     
 
     > [!TIP]  
-    > Рекомендуется использовать самый простой URL-адрес для административного доступа. Самый простой вариант — <STRONG> https://admin.</STRONG> &lt;Domain&gt;(домен).
+    > Рекомендуется использовать самый простой URL-адрес для административного доступа. Самый простой вариант — <STRONG> https://admin .</STRONG> &lt; Domain (домен) &gt; .
 
     
     </div>

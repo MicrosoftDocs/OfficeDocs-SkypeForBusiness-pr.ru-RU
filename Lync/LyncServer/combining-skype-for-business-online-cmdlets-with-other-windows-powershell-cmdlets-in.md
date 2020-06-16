@@ -1,8 +1,8 @@
 ---
 title: Объединение командлетов Skype для бизнеса Online с другими командлетами Windows PowerShell в
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180992"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755025"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ _**Последнее изменение темы:** 2013-07-05_
 
 Так как дополнительные параметры не включены, все данные, возвращенные командлетом **Out-Printer** , будут распечатаны на принтере по умолчанию.
 
-Аналогично, ни один из командлетов Skype для бизнеса Online не содержит параметр, позволяющий сохранять данные в файл. Но это нормально: Эта команда использует командлет **Out – File** , чтобы сохранить возвращенные данные в текстовом файле C:\\logss\\. txt:
+Аналогично, ни один из командлетов Skype для бизнеса Online не содержит параметр, позволяющий сохранять данные в файл. Но это нормально: Эта команда использует командлет **Out – File** для сохранения возвращенных данных в текстовом файле C: \\ logs \\Tenants.txt:
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 

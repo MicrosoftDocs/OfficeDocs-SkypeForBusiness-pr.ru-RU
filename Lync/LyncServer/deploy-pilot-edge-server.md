@@ -1,8 +1,8 @@
 ---
 title: Развертывание пилотного пограничного сервера
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4d8fbf34e618c5bf41d3b005c70897c5dddb69
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180392"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 В этом разделе описываются параметры конфигурации, которые следует знать перед развертыванием пограничного сервера Lync Server 2013. Процессы развертывания и настройки для Lync Server 2013 очень похожи на Lync Server 2010. В этом разделе рассматриваются только ключевые моменты, которые следует учитывать при развертывании пилотной версии пула. Подробное описание действий приведено в разделе [deploy User Access Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) в документации по развертыванию, в котором описывается процесс развертывания, а также сведения о конфигурации для доступа внешних пользователей.
 
-По мере перехода по страницам мастера **Определение нового пограничного пула** анализируйте основные параметры конфигурации, показанные на следующих шагах. Обратите внимание, что показано лишь несколько страниц мастера **Определение нового пограничного пула**.
+As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
 
 **Определение пограничного пула**
 

@@ -1,8 +1,8 @@
 ---
-title: Перенос серверов архивации и мониторинга
+title: Перенос серверов архивирования и мониторинга
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190102"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190102"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Перенос серверов архивации и мониторинга
+# <a name="migrating-archiving-and-monitoring-servers"></a>Перенос серверов архивирования и мониторинга
 
 </div>
 
@@ -51,7 +51,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!NOTE]  
-    > На этапе миграции, когда вы по-прежнему используете старый пограничный сервер с новым пилотным пулом Lync Server 2013, версия сервера архивации для Lync Server 2010 продолжает собирать данные для пользователей, размещенных в пулах и архивации Lync Server 2010 в Lync Server 2013 собирает данные для пользователей, размещенных в пулах Lync Server 2013.
+    > На этапе миграции, когда вы по-прежнему используете старый пограничный сервер с новым пилотным пулом Lync Server 2013, версия сервера архивации для Lync Server 2010 продолжает собирать данные для пользователей, размещенных на сервере Lync Server 2010 Pools и архивация в Lync Server 2013 собирает данные для пользователей, размещенных в пулах Lync Server 2013.
 
     
     </div>

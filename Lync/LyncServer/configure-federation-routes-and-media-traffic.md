@@ -1,8 +1,8 @@
 ---
-title: Настройка маршрутов Федерации и трафика мультимедиа
+title: Настройка маршрутов федерации и трафика мультимедиа
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180922"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180922"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов Федерации и трафика мультимедиа
+# <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов федерации и трафика мультимедиа
 
 </div>
 
@@ -65,7 +65,7 @@ _**Последнее изменение темы:** 2012-10-15_
 
 
 > [!IMPORTANT]  
-> Если Федерация XMPP направляется через пограничный сервер Lync Server 2013, устаревшие Пользователи Lync Server 2010 не смогут общаться с федеративным партнером XMPP до тех пор, пока все пользователи не будут перемещены в Lync Server 2013, политики и сертификаты XMPP настроено, федеративный партнер XMPP настроен на Lync Server 2013, а последние записи DNS были обновлены.
+> Если Федерация XMPP направляется через пограничный сервер Lync Server 2013, устаревшие Пользователи Lync Server 2010 не смогут общаться с федеративным партнером XMPP до тех пор, пока все пользователи не будут перемещены в Lync Server 2013, XMPP политики и сертификаты настроены, федеративный партнер XMPP настроен на Lync Server 2013, а последние DNS-записи были обновлены.
 
 
 
@@ -269,7 +269,7 @@ _**Последнее изменение темы:** 2012-10-15_
     
 
     > [!NOTE]  
-    > Если у вас нет аппаратной подсистемы балансировки нагрузки, следует обновить запись DNS A для федерации, чтобы разрешить новый пограничный сервер Lync Server. Для этого с минимальным вмешательством уменьшите значение TTL для внешнего полного доменного имени Lync Server Access Edge, чтобы после обновления DNS для указания на новый сервер Lync Server Access Edge федерация и удаленный доступ были быстро обновлены.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

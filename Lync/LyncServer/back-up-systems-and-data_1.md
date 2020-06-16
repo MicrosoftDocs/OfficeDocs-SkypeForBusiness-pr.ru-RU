@@ -1,8 +1,8 @@
 ---
 title: Резервное копирование систем и данных
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5883be7a15e780ea8a804b51e54aa9d43992e775
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9146b854b7710df8342739c250ee75848e9a1d26
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181132"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42181132"
 
 _**Последнее изменение темы:** 2012-10-19_
 
-Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы можно было вернуться к Office Communications. Сервер 2007 R2, если это необходимо. Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем. Сведения и процедуры, приведенные в <https://go.microsoft.com/fwlink/p/?linkid=168162>разделе "Руководство по резервному копированию и восстановлению Office Communications Server 2007 R2".
+Перед началом миграции на Lync Server 2013 настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы при необходимости вернуться на Office Communications Server 2007 R2. Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем. Сведения и процедуры, приведенные в разделе "Руководство по резервному копированию и восстановлению Office Communications Server 2007 R2" <https://go.microsoft.com/fwlink/p/?linkid=168162> .
 
 </div>
 
