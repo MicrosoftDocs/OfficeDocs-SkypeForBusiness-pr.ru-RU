@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру для развертывания комнат Microsoft Teams, чтобы можно было использовать все возможности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666171"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735429"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -53,7 +53,7 @@ ms.locfileid: "44666171"
 Для правильного функционирования устройство в комнатах Microsoft Teams должно иметь доступ к проводной сети, которая отвечает этим требованиям:
   
 - Доступ к экземпляру Active Directory или Azure Active Directory (Azure AD), а также серверам Microsoft Exchange и Skype для бизнеса.
-- Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнаты Microsoft Teams нельзя настроить со статическим IP-адресом.
+- Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнаты Microsoft Teams нельзя настроить с помощью статического IP-адреса при первом запуске устройства.
 - Доступ к HTTP-портам 80 и 443.
 - Порты TCP и UDP, настроенные в соответствии с [требованиями к портам и протоколам для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) в рамках локальных реализаций сервера Skype для бизнеса, или URL-адреса [Microsoft 365 и Office 365 и диапазоны IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для реализации Microsoft Teams или Skype для бизнеса Online.
 
@@ -104,7 +104,7 @@ ms.locfileid: "44666171"
     
 11. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие действия выполнены успешно, устройство Microsoft Teams будет успешно входить в Skype.
     
-Чтобы использовать это приложение, необходимо обеспечить подключение к следующим конечным точкам. Чтобы просмотреть IP-адреса, разверните соответствующий раздел под таблицей с описанием потока трафика.
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Примеры назначения имен хоста и портов для прокси-сервера брандмауэра**
 
@@ -118,9 +118,9 @@ ms.locfileid: "44666171"
 |Звук  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50,000-50019  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
-|Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
-|Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
+|Советы по клиенту Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Подстановочный знак для contoso.com и broadcast.skype.com представляет длинный список узлов, которые используются исключительно для Microsoft 365 или Office 365. 
@@ -144,7 +144,7 @@ ms.locfileid: "44666171"
   
 ### <a name="admin---local-administrator-account"></a>Admin — учетная запись локального администратора
 
-Для пароля Microsoft Teams по умолчанию задано значение "SFB". Пароль можно изменить локально, перейдя в \> раздел Windows или файл Autounattend. XML (с помощью диспетчера системных образов Windows из ADK вы измените XML-файл).
+Для пароля Microsoft Teams по умолчанию задано значение "SFB". Пароль можно изменить на локальном компьютере, перейдя в \> раздел Windows или файл AutoUnattend.xml (воспользуйтесь диспетчером системных образов Windows из ADK, чтобы внести изменения в XML-файл).
   
 > [!CAUTION]
 > Не забудьте изменить пароль в помещениях Microsoft Teams как можно скорее. 
@@ -159,7 +159,7 @@ ms.locfileid: "44666171"
   
  Если вы хотите переименовать компьютер после присоединения к домену, используйте команду PowerShell Rename-Computer, а затем новое имя компьютера.
   
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Планирование комнат Microsoft Teams](rooms-plan.md)
 

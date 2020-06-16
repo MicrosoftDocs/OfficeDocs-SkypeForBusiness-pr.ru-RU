@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) были сертифицированы на прямую маршрутизацию.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710803"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735439"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -72,7 +72,7 @@ ms.locfileid: "44710803"
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживаемые 3,20 (рекомендованные 4,0)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |   |  
 |                                   |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
 |                                   |     Объединенный элемент Border (куб) Cisco для маршрутизатора облачных служб 1000V Series       |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
 |                                 |     Объединенный элемент Border (куб) Cisco для маршрутизаторов служб агрегации данных серии 1000      |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ ms.locfileid: "44710803"
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6300 версии 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение AP6350 версии 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Программное обеспечение VME версии 8.3.0.1.2 |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode с Grandstream GXW42xx (V 1.0.7.10) |     &#10004;     |
 
 Чтобы придать отзыв о работе с продуктом, например идеи для новых функций, ознакомьтесь со статьей [UserVoice](https://microsoftteams.uservoice.com).
 Обратите внимание на сертификацию, предоставленную основной версией. Это означает, что поддерживается микропрограмма с любым числом в микропрограмме SBC, следующей за основной версией.
