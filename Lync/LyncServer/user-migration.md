@@ -1,8 +1,8 @@
 ---
-title: Миграция пользователей
+title: Перенос пользователей
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: User migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c83a45b0090ead83d00a188afd7d8dad8fe5b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d71330ce67715ba9beb22cce25c13faa63ddbbea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189072"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189072"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="65bd6-102">Миграция пользователей</span><span class="sxs-lookup"><span data-stu-id="65bd6-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="7e732-102">Перенос пользователей</span><span class="sxs-lookup"><span data-stu-id="7e732-102">User migration</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42189072"
 
 <span> </span>
 
-<span data-ttu-id="65bd6-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="65bd6-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="7e732-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7e732-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="65bd6-p101">Общепринятым методом миграции является создание нескольких тестовых пользователей и их использование для проведения испытаний систем. После успешного переноса и тестирования этих учетных записей следует выбрать группу пользователей рабочей среды для участия в пилотной программе. Перенесите их учетные записи и проведите для них проверочные тесты. Когда результаты будут удовлетворительными, вы можете перенести остальных пользователей в новую среду.</span><span class="sxs-lookup"><span data-stu-id="65bd6-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="7e732-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="7e732-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="7e732-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="7e732-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="7e732-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="7e732-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
-<span data-ttu-id="65bd6-107">Дополнительные сведения о том, как включить пользователей для Lync Server 2013, можно найти в статье [Отключение или повторное включение учетной записи пользователя для Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) в документации по развертыванию lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="65bd6-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
+<span data-ttu-id="7e732-107">Дополнительные сведения о том, как включить пользователей для Lync Server 2013, можно найти в статье [Отключение или повторное включение учетной записи пользователя для Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) в документации по развертыванию lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7e732-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
 title: загрузка топологии из существующего развертывания;
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Download topology from existing deployment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a8742cf3b9eee5ab8badb18e1f6a6ae80418141
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19cf24e1ef287b50ffece7407913a7d2c45e7062
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180352"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180352"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="39e06-102">загрузка топологии из существующего развертывания;</span><span class="sxs-lookup"><span data-stu-id="39e06-102">Download topology from existing deployment</span></span>
+# <a name="download-topology-from-existing-deployment"></a><span data-ttu-id="71360-102">загрузка топологии из существующего развертывания;</span><span class="sxs-lookup"><span data-stu-id="71360-102">Download topology from existing deployment</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42180352"
 
 <span> </span>
 
-<span data-ttu-id="39e06-103">_**Последнее изменение темы:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="39e06-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="71360-103">_**Последнее изменение темы:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="71360-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="39e06-104">При создании пула Lync Server 2013 вы будете использовать центральное хранилище управления, связанное с Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="39e06-104">When creating a Lync Server 2013 pool, you will use the Central Management Store that is associated with Lync Server 2010.</span></span> <span data-ttu-id="39e06-105">При запуске построителя топологий при первом использовании и в последующих сеансах редактирования, отображается запрос на ввод расположения, из которого построитель топологий должен загрузить текущий документ конфигурации.</span><span class="sxs-lookup"><span data-stu-id="39e06-105">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="39e06-106">Так как вы уже определили топологию Lync Server 2010 и установили центральное хранилище управления, необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="39e06-106">Because you already have a Lync Server 2010 topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="39e06-107">Построитель топологии прочитает базу данных и извлечет текущее определение.</span><span class="sxs-lookup"><span data-stu-id="39e06-107">Topology Builder will read the database and retrieve the current definition.</span></span>
+<span data-ttu-id="71360-104">При создании пула Lync Server 2013 вы будете использовать центральное хранилище управления, связанное с Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="71360-104">When creating a Lync Server 2013 pool, you will use the Central Management Store that is associated with Lync Server 2010.</span></span> <span data-ttu-id="71360-105">При запуске построителя топологий при первом использовании и в последующих сеансах редактирования, отображается запрос на ввод расположения, из которого построитель топологий должен загрузить текущий документ конфигурации.</span><span class="sxs-lookup"><span data-stu-id="71360-105">When you start Topology Builder on first use and subsequent edit sessions, you are prompted for the location where you want Topology Builder to load the current configuration document.</span></span> <span data-ttu-id="71360-106">Так как вы уже определили топологию Lync Server 2010 и установили центральное хранилище управления, необходимо выбрать загрузку топологии из существующего развертывания.</span><span class="sxs-lookup"><span data-stu-id="71360-106">Because you already have a Lync Server 2010 topology defined and have established the Central Management store, you should choose to download a topology from an existing deployment.</span></span> <span data-ttu-id="71360-107">Построитель топологии прочитает базу данных и извлечет текущее определение.</span><span class="sxs-lookup"><span data-stu-id="71360-107">Topology Builder will read the database and retrieve the current definition.</span></span>
 
-<span data-ttu-id="39e06-108">**Загрузка топологии из существующего развертывания**</span><span class="sxs-lookup"><span data-stu-id="39e06-108">**To download a topology from an existing deployment**</span></span>
+<span data-ttu-id="71360-108">**Загрузка топологии из существующего развертывания**</span><span class="sxs-lookup"><span data-stu-id="71360-108">**To download a topology from an existing deployment**</span></span>
 
-1.  <span data-ttu-id="39e06-109">Откройте **мастер развертывания Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="39e06-109">Open the **Lync Server Deployment Wizard**.</span></span>
+1.  <span data-ttu-id="71360-109">Откройте **мастер развертывания Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="71360-109">Open the **Lync Server Deployment Wizard**.</span></span>
 
-2.  <span data-ttu-id="39e06-110">На странице **Lync Server 2013 — мастер развертывания** нажмите кнопку **Установить средства администрирования**.</span><span class="sxs-lookup"><span data-stu-id="39e06-110">From the **Lync Server 2013 – Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
+2.  <span data-ttu-id="71360-110">На странице **Lync Server 2013 — мастер развертывания** нажмите кнопку **Установить средства администрирования**.</span><span class="sxs-lookup"><span data-stu-id="71360-110">From the **Lync Server 2013 – Deployment Wizard** page, click **Install Administrative Tools**.</span></span>
 
-3.  <span data-ttu-id="39e06-111">Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **все программы**, **Microsoft Lync Server 2013** и **Построитель топологий Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="39e06-111">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013** , and then click **Lync Server Topology Builder**.</span></span>
+3.  <span data-ttu-id="71360-111">Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **все программы**, **Microsoft Lync Server 2013** и **Построитель топологий Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="71360-111">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013** , and then click **Lync Server Topology Builder**.</span></span>
 
-4.  <span data-ttu-id="39e06-112">Выберите пункт **Download Topology from existing deployment** (Загрузить топологию из существующего развертывания).</span><span class="sxs-lookup"><span data-stu-id="39e06-112">Select **Download Topology from existing deployment**.</span></span>
+4.  <span data-ttu-id="71360-112">Выберите пункт **Download Topology from existing deployment** (Загрузить топологию из существующего развертывания).</span><span class="sxs-lookup"><span data-stu-id="71360-112">Select **Download Topology from existing deployment**.</span></span>
     
-    <span data-ttu-id="39e06-113">![Параметры построителя топологии мастера развертывания](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Параметры построителя топологии мастера развертывания")</span><span class="sxs-lookup"><span data-stu-id="39e06-113">![Deployment Wizard Topology Builder settings](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Deployment Wizard Topology Builder settings")</span></span>
+    <span data-ttu-id="71360-113">![Параметры построителя топологии мастера развертывания](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Параметры построителя топологии мастера развертывания")</span><span class="sxs-lookup"><span data-stu-id="71360-113">![Deployment Wizard Topology Builder settings](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Deployment Wizard Topology Builder settings")</span></span>
 
-5.  <span data-ttu-id="39e06-114">Выберите имя файла и сохраните топологию с типом файла по умолчанию (TBXML).</span><span class="sxs-lookup"><span data-stu-id="39e06-114">Choose a file name and save the topology with the default .tbxml file type.</span></span>
+5.  <span data-ttu-id="71360-114">Выберите имя файла и сохраните топологию с типом файла по умолчанию (TBXML).</span><span class="sxs-lookup"><span data-stu-id="71360-114">Choose a file name and save the topology with the default .tbxml file type.</span></span>
 
-6.  <span data-ttu-id="39e06-115">Разверните узел Lync Server, как показано, чтобы отобразить различные роли сервера в развертывании.</span><span class="sxs-lookup"><span data-stu-id="39e06-115">Expand the Lync Server node, as shown, to reveal the various server roles in the deployment.</span></span>
+6.  <span data-ttu-id="71360-115">Разверните узел Lync Server, как показано, чтобы отобразить различные роли сервера в развертывании.</span><span class="sxs-lookup"><span data-stu-id="71360-115">Expand the Lync Server node, as shown, to reveal the various server roles in the deployment.</span></span>
     
-    <span data-ttu-id="39e06-116">![Общие свойства роли сервера построителя топологии](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Общие свойства роли сервера построителя топологии")</span><span class="sxs-lookup"><span data-stu-id="39e06-116">![Topology Builder server role general properties](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Topology Builder server role general properties")</span></span>
+    <span data-ttu-id="71360-116">![Общие свойства роли сервера построителя топологии](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Общие свойства роли сервера построителя топологии")</span><span class="sxs-lookup"><span data-stu-id="71360-116">![Topology Builder server role general properties](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Topology Builder server role general properties")</span></span>
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
-title: 'Этап 6: переход от пилотного развертывания к рабочей среде'
+title: 'Этап 6: переход от пилотного развертывания к рабочей версии'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189652"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189652"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="59cfd-102">Этап 6: переход от пилотного развертывания к рабочей среде</span><span class="sxs-lookup"><span data-stu-id="59cfd-102">Phase 6: Move from pilot deployment into production</span></span>
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a><span data-ttu-id="393be-102">Этап 6: переход от пилотного развертывания к рабочей версии</span><span class="sxs-lookup"><span data-stu-id="393be-102">Phase 6: Move from pilot deployment into production</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42189652"
 
 <span> </span>
 
-<span data-ttu-id="59cfd-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="59cfd-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="393be-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="393be-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="59cfd-104">В подразделах этого раздела описываются задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="59cfd-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="393be-104">В подразделах этого раздела описываются задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="393be-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="59cfd-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="59cfd-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="393be-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="393be-105">In This Section</span></span>
 
-  - [<span data-ttu-id="59cfd-106">Настройка маршрутов Федерации и трафика мультимедиа</span><span class="sxs-lookup"><span data-stu-id="59cfd-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
+  - [<span data-ttu-id="393be-106">Настройка маршрутов федерации и трафика мультимедиа</span><span class="sxs-lookup"><span data-stu-id="393be-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
 
-  - [<span data-ttu-id="59cfd-107">Проверка Федерации и удаленного доступа для внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="59cfd-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
+  - [<span data-ttu-id="393be-107">Проверка федерации и удаленного доступа для внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="393be-107">Verify federation and remote access for external users</span></span>](verify-federation-and-remote-access-for-external-users.md)
 
-  - [<span data-ttu-id="59cfd-108">Изменение простых URL-адресов после миграции</span><span class="sxs-lookup"><span data-stu-id="59cfd-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
+  - [<span data-ttu-id="393be-108">Изменение простых URL-адресов после миграции</span><span class="sxs-lookup"><span data-stu-id="393be-108">Change simple URLs after migration</span></span>](change-simple-urls-after-migration.md)
 
-  - [<span data-ttu-id="59cfd-109">Перемещение оставшихся пользователей на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59cfd-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
+  - [<span data-ttu-id="393be-109">Перемещение оставшихся пользователей на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="393be-109">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="59cfd-110">Настройка шлюза XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59cfd-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [<span data-ttu-id="393be-110">Настройка шлюза XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="393be-110">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

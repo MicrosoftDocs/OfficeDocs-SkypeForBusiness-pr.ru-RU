@@ -1,8 +1,8 @@
 ---
-title: Предотвращение сеансов для служб
+title: Запрет сеансов для служб
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prevent sessions for services
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed0ba62a3635d58d685668adc9cf3687609e4f49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189592"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189592"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services"></a><span data-ttu-id="3aa0e-102">Предотвращение сеансов для служб</span><span class="sxs-lookup"><span data-stu-id="3aa0e-102">Prevent sessions for services</span></span>
+# <a name="prevent-sessions-for-services"></a><span data-ttu-id="aa706-102">Запрет сеансов для служб</span><span class="sxs-lookup"><span data-stu-id="aa706-102">Prevent sessions for services</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42189592"
 
 <span> </span>
 
-<span data-ttu-id="3aa0e-103">_**Последнее изменение темы:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="3aa0e-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="aa706-103">_**Последнее изменение темы:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="aa706-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="3aa0e-104">Вы можете использовать панель управления Microsoft Lync Server 2010, чтобы запретить новые сеансы для всех служб Lync Server 2010, работающих на определенном компьютере, или запретить новые сеансы для конкретной службы Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-104">You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service.</span></span>
+<span data-ttu-id="aa706-104">Вы можете использовать панель управления Microsoft Lync Server 2010, чтобы запретить новые сеансы для всех служб Lync Server 2010, работающих на определенном компьютере, или запретить новые сеансы для конкретной службы Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="aa706-104">You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service.</span></span>
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a><span data-ttu-id="3aa0e-105">Запрет новых сеансов для всех служб Lync Server на компьютере</span><span class="sxs-lookup"><span data-stu-id="3aa0e-105">To prevent new sessions for all Lync Server services on a computer</span></span>
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a><span data-ttu-id="aa706-105">Запрет новых сеансов для всех служб Lync Server на компьютере</span><span class="sxs-lookup"><span data-stu-id="aa706-105">To prevent new sessions for all Lync Server services on a computer</span></span>
 
-1.  <span data-ttu-id="3aa0e-106">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="aa706-106">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aa706-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="3aa0e-107">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-107">Open Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="aa706-107">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="aa706-107">Open Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="3aa0e-108">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="3aa0e-108">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="aa706-108">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="aa706-108">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="3aa0e-109">На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-109">On the **Status** page, sort or search through the list as needed to find the computer that is running the services for which you want to prevent new sessions, and then click it.</span></span>
+4.  <span data-ttu-id="aa706-109">На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.</span><span class="sxs-lookup"><span data-stu-id="aa706-109">On the **Status** page, sort or search through the list as needed to find the computer that is running the services for which you want to prevent new sessions, and then click it.</span></span>
 
-5.  <span data-ttu-id="3aa0e-110">Щелкните элемент **Action** (Действие).</span><span class="sxs-lookup"><span data-stu-id="3aa0e-110">Click **Action**.</span></span>
+5.  <span data-ttu-id="aa706-110">Щелкните элемент **Action** (Действие).</span><span class="sxs-lookup"><span data-stu-id="aa706-110">Click **Action**.</span></span>
 
-6.  <span data-ttu-id="3aa0e-111">Щелкните **Запретить новые сеансы для всех служб**.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-111">Click **Prevent new sessions for all services**.</span></span>
+6.  <span data-ttu-id="aa706-111">Щелкните **Запретить новые сеансы для всех служб**.</span><span class="sxs-lookup"><span data-stu-id="aa706-111">Click **Prevent new sessions for all services**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-prevent-new-sessions-for-a-specific-service"></a><span data-ttu-id="3aa0e-112">Запрет новых сеансов для определенной службы</span><span class="sxs-lookup"><span data-stu-id="3aa0e-112">To prevent new sessions for a specific service</span></span>
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a><span data-ttu-id="aa706-112">Запрет новых сеансов для определенной службы</span><span class="sxs-lookup"><span data-stu-id="aa706-112">To prevent new sessions for a specific service</span></span>
 
-1.  <span data-ttu-id="3aa0e-113">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="aa706-113">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aa706-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="3aa0e-114">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-114">Open Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="aa706-114">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="aa706-114">Open Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="3aa0e-115">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="3aa0e-115">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
+3.  <span data-ttu-id="aa706-115">В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).</span><span class="sxs-lookup"><span data-stu-id="aa706-115">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-4.  <span data-ttu-id="3aa0e-116">На странице **Status** (Состояние) отсортируйте список или выполните по нему поиск, чтобы найти компьютер с требуемыми службами, а затем щелкните его.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-116">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
+4.  <span data-ttu-id="aa706-116">На странице **Status** (Состояние) отсортируйте список или выполните по нему поиск, чтобы найти компьютер с требуемыми службами, а затем щелкните его.</span><span class="sxs-lookup"><span data-stu-id="aa706-116">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
 
-5.  <span data-ttu-id="3aa0e-117">Нажмите кнопку **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-117">Click **Properties**.</span></span>
+5.  <span data-ttu-id="aa706-117">Нажмите кнопку **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="aa706-117">Click **Properties**.</span></span>
 
-6.  <span data-ttu-id="3aa0e-118">Отсортируйте список служб, если это необходимо, и щелкните службу, для которой вы хотите запретить новые сеансы.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-118">Sort the list of services, if necessary, and click the service for which you want to prevent new sessions.</span></span>
+6.  <span data-ttu-id="aa706-118">Отсортируйте список служб, если это необходимо, и щелкните службу, для которой вы хотите запретить новые сеансы.</span><span class="sxs-lookup"><span data-stu-id="aa706-118">Sort the list of services, if necessary, and click the service for which you want to prevent new sessions.</span></span>
 
-7.  <span data-ttu-id="3aa0e-119">Щелкните **Действие**.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-119">Click **Action**.</span></span>
+7.  <span data-ttu-id="aa706-119">Щелкните **Действие**.</span><span class="sxs-lookup"><span data-stu-id="aa706-119">Click **Action**.</span></span>
 
-8.  <span data-ttu-id="3aa0e-120">Щелкните **Запретить новые сеансы для службы**.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-120">Click **Prevent new sessions for service**.</span></span>
+8.  <span data-ttu-id="aa706-120">Щелкните **Запретить новые сеансы для службы**.</span><span class="sxs-lookup"><span data-stu-id="aa706-120">Click **Prevent new sessions for service**.</span></span>
 
-9.  <span data-ttu-id="3aa0e-121">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="3aa0e-121">Click **Close**.</span></span>
+9.  <span data-ttu-id="aa706-121">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="aa706-121">Click **Close**.</span></span>
 
 </div>
 
