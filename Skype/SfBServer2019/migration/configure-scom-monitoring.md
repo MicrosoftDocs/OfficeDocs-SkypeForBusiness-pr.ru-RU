@@ -1,8 +1,8 @@
 ---
 title: Настройка мониторинга SCOM
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: После перехода на Microsoft Skype для бизнеса Server 2019 необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
-ms.openlocfilehash: 79398336bf372fd2ca779d2ec2ff58dc5219da61
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: После перехода на Microsoft Skype для бизнеса Server 2019 необходимо выполнить несколько задач по настройке Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
+ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813807"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754049"
 ---
 # <a name="configure-scom-monitoring"></a>Настройка мониторинга SCOM
 
-После перехода на Skype для бизнеса Server 2019 необходимо выполнить несколько задач, чтобы настроить Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
+После перехода на Skype для бизнеса Server 2019 необходимо выполнить несколько задач по настройке Skype для бизнеса Server 2019 для работы с System Center Operations Manager.
   
-- Примените обновления к серверу, выбранному для управления логикой центрального обнаружения.
+- Применение обновлений к серверу, выбранному для управления логикой центрального обнаружения.
     
-- Обновите раздел реестра для основного сервера поиска кандидатов.
+- Обновите раздел реестра потенциального сервера централизованного обнаружения.
     
-- Настройка основного сервера System Center Operations Manager для переопределения узла центра обнаружения кандидатов.
+- Настройте основной сервер управления System Center Operations Manager, чтобы переопределить узел центра обнаружения кандидатов.
     
-Ниже приведены инструкции по переносу каждой из этих задач.
+Инструкции по выполнению каждой задачи приведены ниже.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Примените обновления к серверу, выбранному для управления логикой центрального обнаружения.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Применение обновлений к серверу, выбранному для управления логикой центрального обнаружения.
 
-1. Выровняйте сервер, на котором установлены файлы агента System Center Operations Manager и настроен как узел обнаружения кандидатов. 
+1. Выберите сервер, на котором установлены файлы агента System Center Operations Manager и который настроен как потенциальный узел обнаружения. 
     
-2. Примените обновления к этому серверу. Ознакомьтесь с разделом [применение обновлений](apply-updates.md).
+2. Применение обновлений к этому серверу. Ознакомьтесь с разделом [Apply Updates](apply-updates.md).
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Обновите раздел реестра для основного сервера поиска кандидатов.
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Обновите раздел реестра потенциального сервера централизованного обнаружения.
 
-1. На сервере, выбранном для управления логикой центрального обнаружения, Откройте командное окно Windows PowerShell. 
+1. На сервере, выбранном для управления логикой централизованного обнаружения, Откройте командное окно Windows PowerShell. 
     
 2. В командной строке введите следующую команду:
     
@@ -51,17 +51,17 @@ ms.locfileid: "41813807"
    ```
 
     > [!NOTE]
-    > При внесении изменений в реестр может возникнуть сообщение о том, что команда завершилась сбоем, если раздел реестра уже существует. Если вы столкнетесь с этим, вы можете спокойно проигнорировать ошибку. 
+    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Настройка основного сервера System Center Operations Manager для переопределения узла наблюдения за центральным обнаружением.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Настройка основного сервера управления System Center Operations Manager для переопределения узла-наблюдателя центра обнаружения кандидатов.
 
-1. На компьютере с установленной консолью System Center Operations Manager разверните **объект пакета управления** , а затем выберите пункт **Обнаружение объектов**.
+1. На компьютере с установленной консолью System Center Operations Manager разверните **Объекты пакета управления** и выберите **Обнаружение объектов**.
     
-2. Выберите команду **изменить область**
+2. Щелкните **изменить область**
     
-3. На странице " **объекты пакета управления областью** " выберите **кандидат на обнаружение Ls**.
+3. на странице **Ориентация объектов пакета управления** выберите **LS Discovery Candidate**.
     
-4. Переопределение **действующего значения-кандидата на обнаружение Ls** на имя сервера-кандидата, выбранное в предыдущей процедуре. 
+4. Переопределите **Эффективное значение LS Discovery Candidate**, указав имя сервера, выбранного ранее. 
     
 Чтобы завершить изменения, перезапустите службу работоспособности на корневом сервере управления System Center Operations Manager.
   

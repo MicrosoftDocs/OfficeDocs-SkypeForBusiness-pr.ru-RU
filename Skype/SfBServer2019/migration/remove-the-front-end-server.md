@@ -1,8 +1,8 @@
 ---
-title: Удаление сервера переднего плана Enterprise Edition или стандартного выпуска Standard Edition
+title: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Процедуры, описанные в этом разделе, предназначены для того, чтобы попытаться выполнить удаление пула переднего плана Enterprise Edition или серверного переднего плана стандартного выпуска. После перехода на Skype для бизнеса Server 2019 это один из первых шагов, позволяющих списать старую среду.
-ms.openlocfilehash: 6c402035823a10e2c6e823c7558bd8a57a97b915
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Процедуры, описанные в этом разделе, помогут вам удалить пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition. После перехода на Skype для бизнеса Server 2019 это один из первых этапов ликвидации устаревшей среды.
+ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812927"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752131"
 ---
 # <a name="remove-the-front-end-server"></a>Удаление сервера переднего плана
 
-Процедуры, описанные в этом разделе, предназначены для того, чтобы попытаться выполнить удаление пула переднего плана Enterprise Edition или серверного переднего плана стандартного выпуска. После перехода на Skype для бизнеса Server 2019 это один из первых этапов списания устаревшей среды.
+Процедуры, описанные в этом разделе, помогут вам удалить пул переднего плана Enterprise Edition или сервер переднего плана Standard Edition. После перехода на Skype для бизнеса Server 2019 это один из первых этапов ликвидации устаревшей среды.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Сброс контроля допуска звонков](reset-call-admission-control.md)
     

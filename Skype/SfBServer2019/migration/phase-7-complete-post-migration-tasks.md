@@ -1,8 +1,8 @@
 ---
-title: Этап 7 Завершение задач после миграции
+title: Этап 7 выполнение задач, выполняемых после миграции
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: В этом разделе описаны задачи, которые необходимо выполнить после перехода на Skype для бизнеса Server 2019.
-ms.openlocfilehash: 72b89831f2b3e0811e4dce810ccad9f02e35424f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В подразделах этого раздела описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
+ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813117"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752301"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Этап 7: необходимые действия после миграции
 
-В этом разделе описаны задачи, которые необходимо выполнить после перехода на Skype для бизнеса Server 2019.
+В подразделах этого раздела описываются задачи, которые необходимо выполнить после завершения миграции в Skype для бизнеса Server 2019.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
     
