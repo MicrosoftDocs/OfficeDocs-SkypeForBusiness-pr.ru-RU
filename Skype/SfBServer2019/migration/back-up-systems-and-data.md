@@ -1,8 +1,8 @@
 ---
 title: Резервное копирование систем и данных
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: End User
 ms.topic: quickstart
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
-description: Прежде чем приступить к миграции, выполните полное резервное копирование системы и документирование имеющейся системы, включая учетные записи пользователей, расположенные в каждом пуле, чтобы при необходимости выполнить откат. Для резервного копирования и восстановления данных, параметров и систем доступны различные инструменты и программы.
-ms.openlocfilehash: 4a8e62fe75424f2d8fcb0d0c6af10c54c9339b55
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Прежде чем приступать к миграции, выполните полное резервное копирование системы и задокументируйте существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы можно было выполнить откат в случае необходимости. Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.
+ms.openlocfilehash: 541eb350d8dbf79875e36f468b18ccf8ac49b969
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813937"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752991"
 ---
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="9db67-104">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="9db67-104">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="49234-104">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="49234-104">Back up systems and data</span></span>
 
-<span data-ttu-id="9db67-105">Прежде чем приступить к миграции, выполните полное резервное копирование системы и документирование имеющейся системы, включая учетные записи пользователей, расположенные в каждом пуле, чтобы можно было выполнить откат, если это станет необходимо.</span><span class="sxs-lookup"><span data-stu-id="9db67-105">Before you begin the migration, perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back if it becomes necessary.</span></span> <span data-ttu-id="9db67-106">Для резервного копирования и восстановления данных, параметров и систем доступны различные инструменты и программы.</span><span class="sxs-lookup"><span data-stu-id="9db67-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="49234-105">Прежде чем приступать к миграции, выполните полное резервное копирование системы и документирование существующей системы, в том числе учетных записей пользователей, размещенных в каждом пуле, чтобы можно было выполнить откат в случае необходимости.</span><span class="sxs-lookup"><span data-stu-id="49234-105">Before you begin the migration, perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back if it becomes necessary.</span></span> <span data-ttu-id="49234-106">Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.</span><span class="sxs-lookup"><span data-stu-id="49234-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="9db67-107">Подробности и инструкции можно найти в разделе процедуры резервного копирования и восстановления для вашей версии.</span><span class="sxs-lookup"><span data-stu-id="9db67-107">For details and procedures, see backup and restore procedures for your version.</span></span> 
+<span data-ttu-id="49234-107">Подробные сведения и процедуры приведены в статье процедуры резервного копирования и восстановления для своей версии.</span><span class="sxs-lookup"><span data-stu-id="49234-107">For details and procedures, see backup and restore procedures for your version.</span></span> 
