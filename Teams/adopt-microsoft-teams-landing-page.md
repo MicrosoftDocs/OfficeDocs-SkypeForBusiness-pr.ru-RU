@@ -3,8 +3,8 @@ title: Внедрение Microsoft Teams
 ms.reviewer: karuanag
 description: Узнайте о доступных ресурсах по внедрению, которые помогут вам планировать и развертывать Microsoft Teams в своей организации.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665931"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756518"
 ---
 # <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
 
 > [!NOTE]
-> Общие сведения о переходе на удаленное обучение и ресурсы, которые помогут вам приступить к работе, можно найти на [**главной странице удаленной обучения**](https://www.microsoft.com/education/remote-learning).
+> Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [**главной странице дистанционного обучения**](https://www.microsoft.com/education/remote-learning).
 
 Если вы работаете в малом бизнесе или хотите развертывать группы, начиная с чата, Teams & каналами и собраний, воспользуйтесь нашими [рекомендациями по началу работы](get-started-with-teams-quick-start.md), которые предназначены для быстрого создания и работы. Если вы используете крупную организацию с гибридной или локальной конфигурацией Skype для бизнеса или хотите выгрузить возможности голосовой связи (например, планы Microsoft 365 или Office 365 или телефонная система), вы можете начать с руководства по началу работы, но вам понадобится дополнительное руководство в разделе **рекомендации по более глубокой внедрению**.
 

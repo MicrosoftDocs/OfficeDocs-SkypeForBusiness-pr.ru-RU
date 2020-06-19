@@ -1,7 +1,7 @@
 ---
 title: Сведения о настройке камер содержимого — Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Используйте информационную камеру в комнате Microsoft Teams, которая взаимодействует с программным обеспечением обработки изображений, позволяя выступающим рисовать на аналоговой доске.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157812"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756900"
 ---
 # <a name="content-cameras"></a>Камеры содержимого
 
@@ -87,7 +87,7 @@ ms.locfileid: "43157812"
 
 После того как камера будет установлена в комнате, настройте ее на консоли комнаты Microsoft Teams.
 
-1. Щелкните **значок** ![](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)параметры параметров, войдите в систему как администратор и выберите пункт **Параметры устройства**.
+1. Щелкните **Settings** ![ значок Параметры параметров ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) , войдите в систему как администратор и выберите пункт **Параметры устройства**.
 2. В разделе **Камера по умолчанию** выберите камеру для содержимого и убедитесь, что выбран параметр **Улучшенное содержимое** .
 3. Необязательно Если камера была установлена сверху вниз, так как камера была подключена к потолоку, установите флажок **повернуть содержимое камеры 180 °** .
 4. Нажмите кнопку **сохранить и выйти**.

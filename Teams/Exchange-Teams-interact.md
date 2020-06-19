@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637068"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752981"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "44637068"
 |**Exchange Online**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да,<sup>8</sup>|Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да |
 |**Exchange Online Dedicated vNext**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да,<sup>8</sup>|Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да|
 |**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да, <sup>2</sup>|Да <sup>, 2, 3</sup>|Да, <sup> 4|Да|Нет|Нет|Да|Да|Нет|Да, <sup> 5|Да, <sup> 6|Да |Да |
-|**Локальная служба Exchange** (требуется синхронизация с Azure AD & OAuth config)|Да, <sup>2</sup>| Да, <sup>2</sup> |Да, <sup> 4|Да|Да (Exchange 2016 CU3 +)|Да,<sup>8</sup> (Exchange 2016 CU3 +)|Да |Да|Нет|Да, <sup> 5|Да, <sup> 6|Да |Да |
+|**Локальная служба Exchange** (требуется синхронизация с Azure AD & OAuth config)|Да, <sup>2</sup>| Да, <sup>2</sup> |Да, <sup> 4|Да|Да (Exchange 2016 CU3 +)|Нет|Да|Да|Нет|Да, <sup> 5|Да, <sup> 6|Да |Да |
 
 <sup>1</sup> Exchange 2016 CU3 и выше.  
 

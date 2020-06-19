@@ -1,7 +1,7 @@
 ---
 title: Руководство по безопасности для Microsoft Teams
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689665"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761447"
 ---
 # <a name="security-and-microsoft-teams"></a>Безопасность и Microsoft Teams
 
@@ -61,7 +61,7 @@ Teams уменьшает риски этих атак, запуская защи
 
 ### <a name="eavesdropping"></a>Прослушивание
 
-Прослушивание осуществляется, когда злоумышленнику удается получить доступ к каналам передачи данных в сети с возможностью контролировать и просматривать трафик. Такой тип атаки также называется сканированием или слежением. Если трафик передается в виде обычного текста, злоумышленник может прочитать его, получив доступ к каналу обмена данными. Примером такой атаки является контроль маршрутизатора в составе такого канала.
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
 Teams использует протокол TLS (MTLS) для серверной связи в пределах Microsoft 365 и Office 365, а также использует TLS от клиентов к службе, что делает осуществление этой атаки практически невозможным в период времени, в течение которого данное взаимодействие может быть атаковано. TLS проверяет подлинность всех участников и шифрует весь трафик. Это не защищает от прослушивания, однако злоумышленнику не удастся прочитать передаваемые данные, если только он не взломает систему шифрования.
 

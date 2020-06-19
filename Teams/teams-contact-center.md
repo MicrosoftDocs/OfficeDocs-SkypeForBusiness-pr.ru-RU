@@ -13,12 +13,12 @@ f1.keywords:
 description: Обзор интегрированного центра управления контактами как службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dccf00bc362f2404b882eb02cf7f51b532ec9161
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691475"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756830"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция с центром контактов для Microsoft Teams
 
@@ -51,6 +51,7 @@ Microsoft Teams поддерживает рабочие потоки взаим�
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | ХОРОШИЙ контакт | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 Этот список будет обновляться по мере того, как дополнительные участники будут присоединяться к критерию сертификации и отвечать на них.
 
