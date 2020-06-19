@@ -1,10 +1,10 @@
 ---
 title: Инструменты и скачиваемые материалы по внедрению
 ms.reviewer: karuanag
-description: Используйте эти ресурсы по внедрению, чтобы помочь вам внедрять Microsoft Teams и другие службы Office 365.
+description: Используйте эти ресурсы по внедрению, чтобы упростить внедрение Microsoft Teams и других служб Microsoft 365 или Office 365.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551007"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756508"
 ---
 # <a name="tools-for-driving-adoption"></a>Инструменты для принятия решения 
 
@@ -148,8 +148,8 @@ ms.locfileid: "42551007"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Программа Office 365 лидерами
-Программа Office 365 лидерами — это бесплатная программа, позволяющая людям, которые хотят получить больше возможностей из Microsoft Teams и других служб Office 365. Мы собираю наше интернет-сообщество в [техническом сообществе Майкрософт](https://aka.ms/DriveAdoption) с помощью ежемесячных звонков по сообществам, которые выделяют все компоненты, необходимые для внедрения, и рекомендации по новым функциям. Присоединяйтесь к нашему https://aka.ms/O365Champions сообществу и получайте доступ к раннему выпуску, прослушивать других пользователей и получать знания экспертов Майкрософт.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Программа Microsoft 365 или Office 365 лидерами
+Программа лидерами — это бесплатная программа, позволяющая людям, которые хотят получить больше возможностей из Microsoft Teams и других служб Microsoft 365 или Office 365. Мы собираю наше интернет-сообщество в [техническом сообществе Майкрософт](https://aka.ms/DriveAdoption) с помощью ежемесячных звонков по сообществам, которые выделяют все компоненты, необходимые для внедрения, и рекомендации по новым функциям. Присоединяйтесь к нашему сообществу https://aka.ms/O365Champions и получайте доступ к раннему выпуску, прослушивать других пользователей и получать знания экспертов Майкрософт.  
 
 ### <a name="teams-adoption-guide"></a>Руководство по внедрению команд
 Ознакомьтесь с [flipbookами по внедрению команд](https://aka.ms/teamstoolkit), которые помогут вам развлекать команды в своей компании. Она содержит множество загружаемых инструментов, шаблонов и других ресурсов, которые помогут вам в пути внедрения команды.
