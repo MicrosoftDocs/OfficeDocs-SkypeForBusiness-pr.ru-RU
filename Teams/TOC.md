@@ -354,9 +354,19 @@
 ### [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)
 ### [Управление политиками маршрутизации экстренных вызовов](manage-emergency-call-routing-policies.md)
 
+## Пример перехода на Contoso Voice
+### [Обзор](voice-case-study-overview.md)
+### [План перехода на Teams](voice-case-study-migration-plan.md)
+### [Телефонная система](voice-case-study-phone-system.md)
+### [Маршрутизация с учетом расположения](voice-case-study-location-based-routing.md)
+### [Экстренные вызовы](voice-case-study-emergency-calling.md)
+### [Аудиоконференции](voice-case-study-audio-conferencing.md)
+### [Автосекретари и очереди вызовов](voice-case-study-call-queues.md)
 
 
-## Справка
+
+
+## Справочные материалы
 ### Управление номерами телефонов в различных странах 
 #### [Управление номерами телефонов в Австралии](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [Управление номерами телефонов в Бельгии](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
-## [Поддержка Teams в организации](Known-issues.md)
 ## [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
 ### [Руководство по анализу качества взаимодействия](quality-of-experience-review-guide.md)
 ### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
@@ -703,6 +712,7 @@
 #### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
 ### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
+## [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
 ## [Проблемы с получением сообщений и звонков в устаревших системах](legacy-login-issues.md)
