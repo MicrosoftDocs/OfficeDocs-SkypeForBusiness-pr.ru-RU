@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666121"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816820"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -71,6 +71,39 @@ ms.locfileid: "44666121"
 |Poly Studio X50 | 3.1.1.216109| Июнь 2020|Фокус в комнате (3m x 3m) </br> Маленькая комната для собраний (4,5 м x 4,5 м)|
 |Yealink VC210| 118.15.0.14|Февраль 2020 г.|Фокус в комнате (3m x 3m) </br> Маленькая комната для собраний (4,5 м x 4,5 м)|
 
+### <a name="product-release-information-teams-phones"></a>Сведения о выпуске продукта — телефоны Teams
+Ниже указаны последние версии приложений для IP-телефонной связи и выпущенная версия микропрограммы для Teams
+#### <a name="release-date-may-132020"></a>Дата выпуска: 13 мая 2020 г.
+#### <a name="app-versions"></a>Версии приложения
+|·| Версия|
+|:---|:---|
+|Teams | .040801|
+|Агент администрирования|.210|
+|Корпоративный портал| .4715|
+
+#### <a name="firmware-versions"></a>Версии встроенного по
+|Обновление #3| Встроенное по в производство|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>Сведения о выпуске продукта — панель совместной работы
+Ниже приведены последние версии приложений для панели совместной работы в Teams и выпущенной версии встроенного по
+#### <a name="app-versions"></a>Версии приложения
+|·| Версия|
+|:---|:---|
+|Teams | .040901|
+|Агент администрирования|.210|
+|Корпоративный портал| .4715|
+
+#### <a name="firmware-versions"></a>Версии встроенного по
+|Обновление #3| Встроенное по в производство|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 Сведения о функциях, поддерживаемых данными устройствами, можно найти в разделе [Microsoft Teams phones Set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) .
 

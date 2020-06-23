@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689715"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785305"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Управление лицензией на Microsoft Teams Exploratory
 =======================================================
@@ -147,6 +147,8 @@ ms.locfileid: "44689715"
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Что произойдет с устаревшими лицензиями на Microsoft Teams Commercial Cloud Trial?
 
 С февраля 2020 г. соответствующие критериям пользователи могут начать работу с последней версией Microsoft Teams Exploratory. Все устаревшие лицензии на Teams Commercial Cloud Trial будут автоматически преобразованы в лицензии на новое предложение до истечения срока действия пробной версии.
+
+При первом входе пользователя в Teams Commercial Cloud Trial этому пользователю автоматически присваивается лицензия на Teams Exploratory. Конвертация пользователя не происходит, пока он не войдет в учетную запись.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Удаление лицензии на Teams Exploratory
 

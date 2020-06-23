@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: Skype для бизнеса
+summary: Техническая документация по Skype для бизнеса
+brand: m365
+metadata:
+  title: Skype для бизнеса
+  description: Техническая документация по Skype для бизнеса
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805554"
+additionalContent:
+  sections:
+  - title: Для ИТ-специалистов
+    items:
+    - title: Skype для бизнеса Online
+      summary: Найдите ресурсы для управления Skype для бизнеса Online в вашей среде Office 365.
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: Гибридные решения
+      summary: В этой статье приводятся сведения о планировании гибридного развертывания Skype для бизнеса.
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: Skype для бизнеса Server
+      summary: Развертывание и управление Skype для бизнеса Server для вашей организации.
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: Справка PowerShell для Skype для бизнеса
+      summary: Узнайте о командлетах PowerShell, которые вам нужны для управления Skype для бизнеса и Skype для бизнеса Online.
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: Планирование, инструкции и практические рекомендации для успешного внедрения Microsoft Teams.
+      url: /MicrosoftTeams/
+    - title: Переход со Skype для бизнеса на Microsoft Teams
+      summary: Рекомендации и средства для оптимального перехода на Teams.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Комнаты Microsoft Teams
+      summary: Сведения о планировании и развертывании комнат Microsoft Teams, а также управлении ими.
+      url: /SkypeForBusiness/room-systems/
+    - title: Программа сертификации Skype для бизнеса
+      summary: Узнайте о сертифицированных решениях и устройствах.
+      url: /SkypeForBusiness/certification/overview
+    - title: Устранение неполадок
+      summary: Ресурсы по устранению неполадок и поддержке для ИТ-специалистов и администраторов.
+      url: /office/troubleshoot
+  - title: Другие аудитории
+    items:
+    - title: Разработчики
+      summary: Рекомендации по разработке решений для Skype для бизнеса.
+      url: /skype-sdk/
+    - title: Конечные пользователи
+      summary: Справка, обучение и техническая поддержка для пользователей Skype для бизнеса на сайте support.office.com.
+      url: https://support.office.com/skype-for-business

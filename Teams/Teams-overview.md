@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7220a7776acb796a4ca56ef28541fd821c0c0132
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689775"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773314"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -100,7 +100,7 @@ Teams — основной клиент интеллектуальных ком
 
 ## <a name="teams-known-issues"></a>Известные проблемы Teams
 
-См. статью [Поддержка Teams в организации](Known-issues.md).
+См. [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 ## <a name="teams-client-release-notes"></a>Заметки о выпуске клиента Teams
 

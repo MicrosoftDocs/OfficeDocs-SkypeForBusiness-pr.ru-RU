@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Сведения о том, как получить данные Microsoft Teams из журнала аудита.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665641"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816630"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -187,8 +187,8 @@ ms.locfileid: "44665641"
 
 ## <a name="office-365-management-activity-api"></a>API действий для управления Office 365
 
-Вы можете использовать API-интерфейс действия по управлению Office 365 для получения сведений о событиях Teams. Дополнительные сведения о схеме API действий управления для Teams можно найти в статье [схема Teams](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api).
+Вы можете использовать API-интерфейс действия по управлению Office 365 для получения сведений о событиях Teams. Дополнительные сведения о схеме API действий управления для Teams можно найти в статье [схема Teams](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
-- [Поиск в журнале аудита в центре соответствия требованиям Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [Поиск в журнале аудита в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
