@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Узнайте, как попробовать или приобрести лицензии на Конференц-связь с Microsoft 365 или Office 365, чтобы настроить телефонные конференции, на которые смогут звонить люди. '
-ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691545"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868538"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 для Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "44691545"
 
    - **Купите его**: Ознакомьтесь со сведениями [о лицензировании надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-3. [Добавляйте пользователей по отдельности или в](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) группы, которые вы приобрели для сотрудников вашей организации, которые планируется планировать или проводить собрания.
+3. [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) в вашей организации, которые планируется планировать или приходить на собрания.
 
 4. Дополнительно назначить приобретенные Вами лицензии на надстройку аудиоконференции и кредиты на связь. Инструкции можно найти [в разделе Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -69,7 +69,7 @@ ms.locfileid: "44691545"
     > [!IMPORTANT]
     > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет.
 
-4. [Добавляйте пользователей по отдельности или в](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) группы, которые вы приобрели для сотрудников вашей организации, которые планируется планировать или проводить собрания.
+4. [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) в вашей организации, которые планируется планировать или приходить на собрания.
 
     > [!NOTE]
     > В случае наличия лицензий на аудиоконференции с поминутной оплатой Вам необязательно отдельно для каждого пользователя специально назначать лицензии на кредиты на связь, чтобы использовать функцию аудиоконференций (однако, может потребоваться назначение лицензий на другие сервисы).

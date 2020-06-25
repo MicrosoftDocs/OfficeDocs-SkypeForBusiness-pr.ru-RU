@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666221"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868146"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ – IT для Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "44666221"
 Поделитесь следующими ресурсами с сотрудниками отдела ИТ и убедитесь, что они готовы к поддержке пользователям до начала обновления до Teams.
 
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
-- [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
 - [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 

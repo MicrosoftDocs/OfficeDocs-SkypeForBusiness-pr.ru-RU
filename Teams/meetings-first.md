@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637948"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868476"
 ---
 # <a name="meetings-first"></a>Вначале собрания
 
@@ -82,7 +82,7 @@ ms.locfileid: "44637948"
 
 Для наиболее оптимального взаимодействия пользователи должны быть включены для [Exchange Online](exchange-teams-interact.md), [SharePoint Online и OneDrive для бизнеса](sharepoint-onedrive-interact.md), а также для создания групп Microsoft 365. Собрания сначала поддерживаются для пользователей, чей почтовый ящик находится на локальном сервере Exchange, или для тех, у кого нет SharePoint Online или OneDrive для бизнеса или Microsoft 365. Тем не менее, они будут работать с меньшими трудозатратами. В частности, для организаций, использующих локальную версию Exchange Server, может быть (в зависимости от версии Exchange Server) некоторые ограничения для создания и просмотра собраний из клиента Teams, а также в отношении возможностей соответствия требованиям.
 
-Как минимум, пользователи должны быть [лицензированы для Teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Кроме того, при необходимости они могут быть лицензированы для [голосовой конференции](set-up-audio-conferencing-in-teams.md).
+Как минимум, пользователи должны быть [лицензированы для Teams](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). Кроме того, при необходимости они могут быть лицензированы для [голосовой конференции](set-up-audio-conferencing-in-teams.md).
 
 Мы рекомендуем [предоставить режим **SfBOnly** или **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) по умолчанию для клиента во время лицензирования пользователей. Это гарантирует, что пользователи не смогут самостоятельно запускать команды в режиме " **острова** по умолчанию", прежде чем вы будете готовы приступить к началу собрания.
 

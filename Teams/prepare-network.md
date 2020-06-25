@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669406"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874262"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -51,8 +51,8 @@ ms.locfileid: "44669406"
     
 2.  У вас есть проверенный домен для Microsoft 365 или Office 365 (например, contoso.com)?
     
-      - Если в вашей организации не установлен Microsoft 365 или Office 365, ознакомьтесь со статьей [Начало работы с microsoft 365 или office 365 для бизнеса](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-      - Если ваша организация не добавила или не настроила проверенный домен для Microsoft 365 или Office 365, ознакомьтесь со сведениями о том, как [проверить домен microsoft 365 или office 365](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+      - Если в вашей организации не установлен Microsoft 365 или Office 365, ознакомьтесь со [статьей начало работы](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+      - Если ваша организация не добавила или не настроила проверенный домен для Microsoft 365 или Office 365, ознакомьтесь с разделами [вопросы и ответы о доменах](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Была ли ваша организация развернута Exchange Online и SharePoint Online?
     
@@ -99,7 +99,7 @@ ms.locfileid: "44669406"
 </tr>
 <tr class="even">
 <td>Советник для Teams</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Советник для Teams</a> входит в <a href="https://admin.teams.microsoft.com">центр администрирования Teams</a>. Она оценивает среду Microsoft 365 или Office 365 и определяет наиболее распространенные конфигурации, которые может потребоваться обновить или изменить, прежде чем можно будет успешно выполнить развертывание групп.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Советник для Teams</a> входит в <a href="https://admin.teams.microsoft.com">центр администрирования Teams</a>. Он оценивает вашу среду Microsoft 365 или Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть Teams.</td>
 </tr>
 <tr class="odd">
 <td>Внешнее разрешение имен</td>

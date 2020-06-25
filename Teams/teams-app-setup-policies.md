@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691025"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868574"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -200,7 +200,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 Перед отправкой приложения убедитесь, что соблюдены правила для логотипов. Дополнительные сведения можно найти в разделе [Контрольный список для отправки на панель мониторинга продавцов](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
- ## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Статьи по теме
 
 - [Параметры администратора для приложений в Teams](admin-settings.md)
 - [Назначение политик пользователям в Teams](assign-policies.md)

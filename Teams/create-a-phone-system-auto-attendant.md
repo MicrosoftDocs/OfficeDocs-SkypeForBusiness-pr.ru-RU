@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697431"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874274"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -220,7 +220,7 @@ ms.locfileid: "44697431"
 
 > [!IMPORTANT]
 > Обратите внимание на следующее:
->- Пользователи, которым вы хотите предоставить разрешение на звонок, должны иметь расширение, указанное в одном из указанных ниже атрибутов, определенных в службе каталогов Active Directory или Azure Active Directory в [центре администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).
+>- Для пользователей, которые должны быть доступны для набора номера с помощью расширения, необходимо задать расширение как часть одного из указанных ниже атрибутов, определенных в службе каталогов Active Directory или Azure Active Directory (Дополнительные сведения можно найти в разделе [Добавление пользователей по отдельности или массовое] https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - HomePhone
 >    - Мобильный или MobilePhone
 >    - TelephoneNumber/заданный

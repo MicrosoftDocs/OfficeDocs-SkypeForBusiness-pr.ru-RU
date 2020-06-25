@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691075"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868606"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -97,7 +97,7 @@ ms.locfileid: "44691075"
 > [!NOTE]
 > Если вы используете прямую маршрутизацию Microsoft Phone System, вам не нужно назначать лицензию на план звонков.
 
-Дополнительные сведения можно найти в разделе [Добавление пользователя](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
+Дополнительные сведения можно найти [в разделе Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Шаг 3 - Назначьте номер телефона учетной записи пользователя телефона общего пользования
 

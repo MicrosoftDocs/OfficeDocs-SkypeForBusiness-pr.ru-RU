@@ -20,35 +20,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 381a4475a4e6464586e25e5cc8b6c9b7902acc2f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4a0e8ca9356704d471320e4474f48270375aea2d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523392"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868496"
 ---
 # <a name="overview"></a>Обзор
 
 ![Этапы поездки на обновление, акцент на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
-Эта статья входит в стадию развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
+Эта статья входит в стадию развертывания и внедрения вашего путешествия по обновлению. 
+
+
+
+## <a name="prerequisite-planning-activities"></a>Необходимые действия по планированию
+
+> [!IMPORTANT]
+> Прежде чем приступить к реализации обновления, подтвердите, что вы прочитали содержимое планирования, начиная с [плана обновления](upgrade-plan-journey.md) , чтобы убедиться, что вы выполнили все необходимые требования к планированию activites.
+
 
 - [Вовлеченные заинтересованные лица в проект](upgrade-enlist-stakeholders.md)
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
 - [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Планирование пилотной версии пользователя](pilot-essentials.md)
 - [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
 
+## <a name="choose-your-upgrade-starting-point"></a>Выбор начальной точки обновления
+
 Действия, которые необходимо выполнить для перехода на Teams, зависят от текущего развертывания Skype для бизнеса.
 
-1. Перед началом обновления убедитесь, что вы выполняете [пробную версию пользователя](pilot-essentials.md).
+В соответствии с текущей средой выберите отправную точку.  
 
-2.  На основе текущей среды выберите свою начальную точку:  
+- **Если вы обновляете Skype для бизнеса Online в Teams**, выполните действия, описанные в статье [Переход с Skype для бизнеса Online на Teams](https://aka.ms/SkypeToTeams-UpgradeOnline).
 
-    - **Если вы обновляете Skype для бизнеса Online в Teams**, выполните действия, описанные в статье [Переход с Skype для бизнеса Online на Teams](https://aka.ms/SkypeToTeams-UpgradeOnline).
-
-    -  **Если вы обновляете локальную среду Skype для бизнеса**, вам потребуется выполнить дополнительные действия, чтобы настроить связь между локальными и Интернет-средами перед перемещением пользователей в Teams. Дополнительные сведения можно найти [в разделе Обновление локальной версии Skype для бизнеса для Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+-  **Если вы обновляете локальную среду Skype для бизнеса**, вам потребуется выполнить дополнительные действия, чтобы настроить связь между локальными и Интернет-средами перед перемещением пользователей в Teams. Дополнительные сведения можно найти [в разделе Обновление локальной версии Skype для бизнеса для Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
 
 
 

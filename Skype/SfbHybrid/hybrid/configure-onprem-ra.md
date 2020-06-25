@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221139"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868436"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -84,7 +84,7 @@ ms.locfileid: "44221139"
 
     Для получения дополнительных сведений о данной команде, ознакомьтесь со статьей [Start – адсинксинкцикле](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
-5. Назначьте для учетной записи ресурса лицензию на виртуальную машину или телефонную систему пользователя. В разделе Назначение лицензий на [надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) и [Назначение лицензий одному пользователю](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Назначьте для учетной записи ресурса лицензию на виртуальную машину или телефонную систему пользователя. В разделе Назначение лицензий на [надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) и [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
    Если вы назначаете номер телефона учетной записи ресурса, вы можете использовать лицензию на виртуальную систему пользователей без учета затрат. Это обеспечивает возможности телефонной системы для телефонных номеров на уровне Организации, а также позволяет создавать автосекретарь и возможности очереди звонков.
 
@@ -201,7 +201,7 @@ ms.locfileid: "44221139"
 
 [Планирование автосекретарей в облаке](plan-cloud-auto-attendant.md)
 
-[Планирование очередей облачных вызовов](plan-call-queue.md)
+[Планирование очередей звонков в облаке](plan-call-queue.md)
 
 [Планирование облачной службы голосовой почты для локальных пользователей](plan-cloud-voicemail.md)
 

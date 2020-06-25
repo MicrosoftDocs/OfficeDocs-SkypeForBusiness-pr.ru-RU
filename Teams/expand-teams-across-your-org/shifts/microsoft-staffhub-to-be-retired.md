@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350163"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868666"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Прекращение поддержки Microsoft StaffHub
 
@@ -133,7 +133,7 @@ Teams поддерживает сосуществование с помощью 
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>В StaffHub я могу добавить особый префикс ко всем группам Microsoft 365, созданным группами StaffHub Teams. Можно ли сделать то же самое в Teams?
 
-При переходе с StaffHub на Teams вы не будете иметь такой же возможности. Если необходимо применить согласованность имен ко всем группам Microsoft 365, вы можете использовать [политику именования групп microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+При переходе с StaffHub на Teams вы не будете иметь такой же возможности. Если необходимо применить согласованность имен ко всем группам Microsoft 365, вы можете использовать [политику именования групп](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Будут ли названия групп одинаковыми в Teams?
 

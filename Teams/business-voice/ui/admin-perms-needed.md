@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 7ec22f179ce56c25955db824a0358a5550cdcfbb
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610958"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868446"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Разрешения администратора, необходимые для приобретения Microsoft 365 Business Voice
 
@@ -45,4 +45,4 @@ ms.locfileid: "44610958"
 
 ## <a name="what-if-im-still-having-trouble"></a>Что делать, если у меня остались проблемы?
 
-Если вы проверили все указанные выше причины и не можете внести в него деловые голоса, [обратитесь в службу поддержки](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) за помощью.
+Если вы проверили все указанные выше причины и по-прежнему не можете купить деловую голосовую почту, ознакомьтесь с разделом служба [поддержки для бизнес-продуктов — Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).

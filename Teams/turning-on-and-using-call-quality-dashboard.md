@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Сведения о том, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков.
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697434"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874272"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "44697434"
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Назначение ролей для доступа к CQD
 
-Назначение [ролей](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) для доступа к CQD людям, которым нужно пользоваться. 
+Назначение [ролей](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) для доступа к CQD людям, которым нужно пользоваться.
 
 В этой таблице показано, что может делать каждая роль в CQD:
 

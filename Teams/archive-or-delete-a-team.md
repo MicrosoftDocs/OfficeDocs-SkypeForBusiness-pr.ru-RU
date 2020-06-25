@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611008"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868706"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 ===========================================
@@ -72,7 +72,7 @@ ms.locfileid: "44611008"
 
 Выполните эти действия, чтобы восстановить удаленную команду, восстановив группу Microsoft 365, связанную с группой. Восстановление группы Microsoft 365 для команды восстанавливает содержимое группы, включая вкладки, стандартные каналы и закрытые каналы и связанные с ними семейства веб-сайтов.
 
-По умолчанию удаленная группа Microsoft 365 сохраняется в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные сведения можно найти в статье [Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+По умолчанию удаленная группа Microsoft 365 сохраняется в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные сведения можно найти в статье [Восстановление удаленной группы](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Установите модуль AzureADPreview
 
