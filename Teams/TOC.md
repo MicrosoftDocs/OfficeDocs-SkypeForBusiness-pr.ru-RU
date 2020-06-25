@@ -217,6 +217,7 @@
 ## Прямые трансляции
 ### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Возможности выступающего, организатора и участника в трансляции](roles-in-live-events.md)
 ### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## Планирование процедуры обновления
 
-### [Обзор планирования обновления](upgrade-plan-journey.md)
-### [Составление списка заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
-### [Определение области проекта](upgrade-define-project-scope.md)
-### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Вначале собрания](meetings-first.md)
+### Планирование проекта и требований 
+#### [Обзор](upgrade-plan-journey.md)
+#### [Составление списка заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
+#### [Определение области проекта](upgrade-define-project-scope.md)
+#### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [Планирование пилотного развертывания для пользователей](pilot-essentials.md)
 
-## Подготовка среды для Teams
-### [Обзор технической готовности](upgrade-prepare-environment.md)
-### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
-### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
-### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
-### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
 
-## Подготовка организации к использованию Teams
-### [Обзор готовности организации](upgrade-prepare-organization.md)
-### [Оценка готовности организации к изменению](upgrade-org-change-readiness.md)
-### [Подготовка плана готовности пользователей](upgrade-user-readiness.md)
+### Подготовка среды для Teams
+#### [Обзор технической готовности](upgrade-prepare-environment.md)
+#### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
+#### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
+#### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
+#### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
+
+### Подготовка организации к использованию Teams
+#### [Обзор готовности организации](upgrade-prepare-organization.md)
+#### [Оценка готовности организации к изменению](upgrade-org-change-readiness.md)
+#### [Подготовка плана готовности пользователей](upgrade-user-readiness.md)
 
 
 ## Реализация перехода
 ### [Обзор](upgrade-to-Teams.md)
-### [Проведение пилотного развертывания для пользователей](pilot-essentials.md)
 ### [Переход со Skype для бизнеса Online на Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Переход с локальной среды Skype для бизнеса на Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [Сначала собрания](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,11 +723,11 @@
 ## [Использование файлов журналов для устранения неполадок в Teams](log-files.md)
 ## [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
-## [Ресурсы поддержки для Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
-# Ссылки
+# Справочные материалы
 
 ## [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 ## [Расположение данных в Teams](location-of-data-in-teams.md)
@@ -738,7 +742,6 @@
 ### [Планирование использования групп Microsoft 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ### [Планирование управления в Teams](plan-teams-governance.md)
-### [Использование помощника по тестированию сети](use-network-testing-companion.md)
 
 ## Установка Teams
 ### [Работа с клиентами для Teams](get-clients.md)

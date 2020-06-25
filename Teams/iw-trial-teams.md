@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638778"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868686"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -150,4 +150,4 @@ ms.locfileid: "44638778"
 
 - Если вы хотите удалить эту лицензию с помощью PowerShell, см. статью [Использование PowerShell в Microsoft 365 или Office 365 для удаления лицензий из учетных записей пользователей](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление лицензий пользователей](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Если вы хотите удалить эту лицензию на портале администрирования, см. статью [Удаление пользователя из организации](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)

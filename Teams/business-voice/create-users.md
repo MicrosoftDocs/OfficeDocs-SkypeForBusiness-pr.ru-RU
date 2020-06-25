@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a17077864850ffe06bbb293848868e9147f9f8
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611028"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868636"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Создание пользователей, предоставление им лицензии на корпоративную голосовую связь и назначение им номеров телефонов
 
@@ -30,7 +30,7 @@ ms.locfileid: "44611028"
 
 ## <a name="create-and-license-users"></a>Создание и лицензирование пользователей
 
-Выполните действия, описанные в статье [Добавление пользователей по одному или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+Следуйте инструкциям из статьи [Добавление пользователей по одному или массово](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) и [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > В области **Назначение лицензий на продукты** выберите пункт **:::no-loc text="Microsoft 365 Business Voice":::**.

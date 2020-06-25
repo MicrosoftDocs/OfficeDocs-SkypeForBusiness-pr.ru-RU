@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Используйте помощник для Teams (общедоступная предварительная версия) для планирования и выполнения развертывания Microsoft Teams.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665261"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868156"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника для Teams для развертывания Microsoft Teams
 
@@ -89,7 +89,7 @@ ms.locfileid: "44665261"
 
 |Тест оценки  |Что это означает  |
 |---------|---------|
-|Настройка личного домена     |Настроен ли домен non-@onmicrosoft.com для вашего клиента (например, @contoso.onmicrosoft.com). Конечно, вы можете использовать домен @onmicrosoft.com или настроить личный домен. Выбор за вами. Дополнительные сведения см. в статье [Добавление домена](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Настройка личного домена     |Настроен ли домен non-@onmicrosoft.com для вашего клиента (например, @contoso.onmicrosoft.com). Конечно, вы можете использовать домен @onmicrosoft.com или настроить личный домен. Выбор за вами. Дополнительные сведения см. в статье [Добавление домена в Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
 |Лицензии Teams     |Это предварительное требование. У вас **должны быть** лицензии Teams, чтобы выполнить развертывание Teams. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензии Teams (и хотя бы одна лицензия, доступная для назначения). Для получения дополнительной информации прочтите [описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Лицензии Exchange Online     |Есть ли у вас действующая подписка на доступные лицензии Exchange Online. Хотя для основных функций Teams необязательно использовать Exchange, интеграция с Exchange обеспечивает оптимальную работу в Teams. Опрашивает Microsoft Graph, чтобы проанализировать подписки, связанные с вашим клиентом, и проверить, есть ли у вас подписки с поддерживаемой лицензией Exchange Online (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Взаимодействие Exchange и Teams](exchange-teams-interact.md).    |
 |Лицензии SharePoint Online     |Есть ли у вас действующая подписка на доступные лицензии SharePoint Online. Рекомендуется использовать лицензии SharePoint Online для каждого пользователя, чтобы предоставить OneDrive для бизнеса в качестве хранилища файлов в чатах. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензии SharePoint Online (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
@@ -102,8 +102,8 @@ ms.locfileid: "44665261"
 
 |Тест оценки  |Что это означает  |
 |---------|---------|
-|Настройка политики именования группы Microsoft 365     |Настроены ли стандарты именования для групп Microsoft 365. Политика именования групп Microsoft 365 позволяет организации применять единую стратегию именования для команд, создаваемых пользователями. Она распространяется на другие рабочие нагрузки групп (включая Outlook, SharePoint, Планировщик и Yammer). Этот тест опрашивает Azure AD с помощью Microsoft Graph, чтобы проверить наличие политик именования, применяемых к группам Microsoft 365. Дополнительные сведения см. в статье [Политика именования групп](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Настройка политики срока действия группы Microsoft 365     |Определена ли политика срока действия для групп Microsoft 365. Это позволяет организации автоматически удалять неактивные команды. Она по умолчанию отключена. Этот тест опрашивает Azure AD с помощью Microsoft Graph и сообщает, было ли изменено значение, используемое по умолчанию. Дополнительные сведения см. в статье [Политика срока действия группы](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Настройка политики именования группы Microsoft 365     |Настроены ли стандарты именования для групп Microsoft 365. Политика именования групп Microsoft 365 позволяет организации применять единую стратегию именования для команд, создаваемых пользователями. Она распространяется на другие рабочие нагрузки групп (включая Outlook, SharePoint, Планировщик и Yammer). Этот тест опрашивает Azure AD с помощью Microsoft Graph, чтобы проверить наличие политик именования, применяемых к группам Microsoft 365. Дополнительные сведения см. в статье [Политика именования групп](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Настройка политики срока действия группы Microsoft 365     |Определена ли политика срока действия для групп Microsoft 365. Это позволяет организации автоматически удалять неактивные команды. Она по умолчанию отключена. Этот тест опрашивает Azure AD с помощью Microsoft Graph и сообщает, было ли изменено значение, используемое по умолчанию. Дополнительные сведения см. в статье [Политика срока действия группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Оценки для собраний и конференц-связи
 
