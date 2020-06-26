@@ -1,9 +1,9 @@
 ---
-title: Доступность в Алжир
-author: LanaChin
-ms.author: v-lanac
+title: Доступность в северных Марианские острова
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для северов, на которых выявляют острова.
+ms.openlocfilehash: 0f06d17547b5d4b5367d60dfbcba142730fa8b29
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877900"
+ms.locfileid: "44878025"
 ---
-# <a name="availability-in-algeria"></a>Доступность в Алжир
+# <a name="availability-in-northern-mariana-islands"></a>Доступность в северных Марианские острова
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые доступны для северов, на которых выявляют острова.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту.  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту. <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
@@ -68,9 +68,9 @@ ms.locfileid: "44877900"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не является географическим. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
-|Доступны ли платные номера?  <br/> |Не является географическим ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли бесплатно бесплатные номера?  <br/> |Нет  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо <br/> |
+|Доступны ли платные номера?  <br/> |Нет <br/> |
+|Доступны ли бесплатно бесплатные номера?  <br/> |Да <br/> |
    
  Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

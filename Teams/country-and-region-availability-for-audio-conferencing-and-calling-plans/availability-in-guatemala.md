@@ -1,9 +1,9 @@
 ---
-title: Доступность в Алжир
-author: LanaChin
-ms.author: v-lanac
+title: Доступность в Гватемала
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гватемала.
+ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877900"
+ms.locfileid: "44878033"
 ---
-# <a name="availability-in-algeria"></a>Доступность в Алжир
+# <a name="availability-in-guatemala"></a>Доступность в Гватемала
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гватемала.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -68,8 +68,8 @@ ms.locfileid: "44877900"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Не является географическим. Номера телефонов не связаны с конкретным городом или местоположением. <br/> |
-|Доступны ли платные номера?  <br/> |Не является географическим ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Cuidad де Гватемала<br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатно бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

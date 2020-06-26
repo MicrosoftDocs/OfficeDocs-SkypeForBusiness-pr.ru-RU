@@ -1,9 +1,9 @@
 ---
-title: Доступность в Алжир
-author: LanaChin
-ms.author: v-lanac
+title: Доступность в Камерун
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с помощью Камерун.
+ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877900"
+ms.locfileid: "44878017"
 ---
-# <a name="availability-in-algeria"></a>Доступность в Алжир
+# <a name="availability-in-cameroon"></a>Доступность в Камерун
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
+Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с помощью Камерун.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

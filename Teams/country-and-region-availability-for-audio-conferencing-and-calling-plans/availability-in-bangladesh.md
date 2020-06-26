@@ -1,9 +1,9 @@
 ---
-title: Доступность в Алжир
-author: LanaChin
-ms.author: v-lanac
+title: Доступность в Бангладеш
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
+ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877900"
+ms.locfileid: "44878026"
 ---
-# <a name="availability-in-algeria"></a>Доступность в Алжир
+# <a name="availability-in-bangladesh"></a>Доступность в Бангладеш
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в качестве более Алжир.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Bangladash.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту.  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту. <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
    
