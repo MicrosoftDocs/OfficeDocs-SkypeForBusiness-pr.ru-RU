@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868306"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877820"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================
@@ -66,6 +66,10 @@ ms.locfileid: "44868306"
 1. Если с помощью выбранной учетной записи в настоящее время выполнен вход в других приложениях Office 365 или Microsoft 365, пользователь будет направлен прямо в Teams. Ему не потребуется вводить свои учетные данные.
     
 2. Если пользователь не вошел в свою учетную запись Microsoft 365 в другом месте, ему будет предложено пройти однофакторную или многофакторную проверку подлинности (SFA или MFA), в зависимости от настроек организации для политик входа на мобильных устройствах.
+
+> [!NOTE]
+> Чтобы пользователи могли применить интерфейс входа, описанный в этом разделе, на их устройствах должен быть установлен Teams для iOS версии 2.0.13 (сборка 2020061704) или более поздняя версия либо Teams для Android версии 1416/1.0.0.2020061702 или более поздней.
+
 
 ### <a name="adding-multiple-accounts-to-teams"></a>Добавление нескольких учетных записей в Teams
 
