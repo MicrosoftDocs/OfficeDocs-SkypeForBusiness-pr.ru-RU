@@ -1,0 +1,71 @@
+### YamlMime:Hub
+title: Microsoft Teams Chalk рассказывает о них
+summary: Разработанные для ИТ-специалистов и ответственных за принятие решений, Teams Chalk рассказывает о том, как создавать свои практические рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams. Щелкните заголовок любого из семинаров, который нужно зарегистрировать.
+brand: teams
+metadata:
+  title: Microsoft Teams Chalk рассказывает о них
+  description: Разработанные для ИТ-специалистов и ответственных за принятие решений, Teams Chalk рассказывает о том, как создавать свои практические рекомендации и практические рекомендации по некоторым наиболее популярным и привлекательным сценариям в Teams. Благодаря экспертам в предметной тематике в онлайн-семинарах будут выводится информация о том, как повысить эффективность реализации групп и предоставить вам дополнительное значение для конечных пользователей. Щелкните заголовок любого из семинаров, чтобы просмотреть доступные даты и время, и зарегистрируйтесь прямо сейчас! Щелкните заголовок любого из семинаров, который нужно зарегистрировать.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 06/17/2020
+  ms.reviewer: nsuter
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Normal
+  ROBOTS: NOINDEX, NOFOLLOW
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902387"
+productDirectory:
+  items:
+  - title: Перейти в Teams-нуль в производство
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: Скоро! Начните пользоваться реализацией групп для совместной работы, общения и собраний. Мы будем использовать основные конфигурации, вопросы, рекомендации и ресурсы, чтобы быстро приступить к работе пользователей.
+    url: http://aka.ms/ChalkTalkGTT
+  - title: Так... Вы хотите звонить с помощью Teams?
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: Присоединяйтесь к нам в подробном взгляде на добавление функций КОММУТИРУЕМого звонка в развертывание Teams. Вместе мы рассмотрим терминологию звонков, основные понятия и конфигурации.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+  - title: Сбор данных о качестве звуковых и видеофайлов в Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Хотите обеспечить оптимальное взаимодействие пользователей с собраниями и возможностями голосовой связи? Мы обсудим инструменты, отчеты и рекомендации, которые помогут вам управлять качеством обслуживания — от создания упреждающего стратегии для устранения распространенных проблем.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+  - title: Другие приложения в Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
+    summary: Этот фундаментальный семинар охватывает базовые возможности, в том числе Управление приложениями и безопасность. Сведения о том, как интегрировать рабочие процессы, приложения и службы, которые вы используете каждый день, в едином едином интерфейсе.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+  - title: Автоматизация ИТ-процессов с помощью Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
+    summary: Скоро! Автоматизация ИТ – процессов с помощью приложений, доступных в Teams. Будут рассмотрены распространенные сценарии, такие как служба поддержки и общий доступ к информации, которые помогут команде сэкономить время и сосредоточиться на том, что важно.
+    url: https://aka.ms/ChalkTalkAutoIT
+  - title: Как включить Teams для Firstline рабочего процесса
+    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
+    summary: Готовы приступить к включению цифровых рабочих областей для Firstlineных сотрудников? Вместе мы поговорим о том, как начать пилотный проект, чтобы повысить эффективность общения, сотрудников и рабочих процессов.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+additionalContent:
+  sections:
+  - items:
+    - title: Вы по-прежнему используете Skype для бизнеса?
+      summary: Ознакомьтесь с нашим набором семинаров по обновлению.
+      url: upgrade-workshops-landing-page.yml
+    - title: Подготовка пользователей
+      summary: Обучение пользователей и работа с ними в рамках обучающего отдела групп Live.
+      url: https://aka.ms/TeamsLiveTraining
+    - title: Используете Teams впервые?
+      summary: Узнайте больше о том, как приступить к работе с Teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview

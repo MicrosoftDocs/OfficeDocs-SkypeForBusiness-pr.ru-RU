@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Семинары по планированию перехода на Teams
+summary: Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса Планирование перехода ниже. Щелкните заголовок любого из семинаров, который нужно зарегистрировать.
+brand: teams
+metadata:
+  title: Семинары по планированию перехода на Teams
+  description: Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса Планирование перехода ниже. Щелкните заголовок любого из семинаров, который нужно зарегистрировать.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902394"
+productDirectory:
+  items:
+  - title: Планирование перехода (начните отсюда!)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Узнайте обо всем, что требуется для облегчения успешного перехода на Teams. Аудитория — все (деловые спонсоры, ИТ-администраторы, диспетчер подготовки пользователей, руководитель по проектам)
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: Готовность конечных пользователей
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Разработайте стратегию подготовки пользователей, чтобы вашим сотрудникам понравилась работа в приложении Teams и его внедрение. Аудитория — диспетчер подготовки и изменения пользователей
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: Определение способа перехода
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: Определите наиболее подходящий способ на основе текущего применения Skype для бизнеса и целей перехода. Аудитория — ИТ-администраторы
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: Реализация способа перехода
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: Реализуйте выбранный способ перехода в рамках формального плана обновления. Аудитория — ИТ-администраторы
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: Одновременный просмотр этих семинаров
+      summary: Посетите страницу "обновление до Microsoft Teams для YouTube".
+      url: https://aka.ms/UpgradeOnDemand
+    - title: Развернут сценарии групп?
+      summary: Ознакомьтесь с нашими семинарами по Chalk для ИТ-специалистов.
+      url: https://aka.ms/TeamsChalkTalks
+    - title: Используете Teams впервые?
+      summary: Узнайте больше о том, как приступить к работе с Teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
