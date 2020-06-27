@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
-ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: e271e0328e787326921d0fe931a643c3b5ba924e
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878026"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902234"
 ---
 # <a name="availability-in-bangladesh"></a>Доступность в Бангладеш
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Bangladash.
+Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Бангладеш.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

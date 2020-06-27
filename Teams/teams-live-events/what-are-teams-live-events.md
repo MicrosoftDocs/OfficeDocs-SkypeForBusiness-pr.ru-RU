@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689725"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902294"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -76,7 +76,7 @@ Teams предоставляет возможность организаторо
 Цель eCDN заключается в том, чтобы принимать видео из Интернета и распространять содержимое по всему предприятию, не влияя на производительность сети. Вы можете использовать одного из следующих сертифицированных партнеров eCDN, чтобы оптимизировать работу сети для событий Live, которые хранятся в вашей организации:
 - [Куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [Снижение](http://www.ramp.com)
+- [Снижение](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участником 
 Взаимодействие с участниками — наиболее важный аспект событий Live Events, и важно, чтобы участники могли принимать участие в событии Live без каких-либо проблем. Интерфейс участника использует потоковый проигрыватель (для событий, происходящих в Teams) и проигрыватель Azure Media (для событий, полученных во внешнем приложении или на устройстве), и работает на компьютере, в браузере и на мобильных устройствах (iOS, Android). Microsoft 365 и Office 365 предоставляют Yammer и Teams в качестве двух концентраторов для совместной работы, а взаимодействие с интерактивным участником интегрировано в эти средства для совместной работы. 
@@ -91,7 +91,7 @@ Teams предоставляет возможность организаторо
 
 ### <a name="related-topics"></a>Статьи по теме
 - [События Live для Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Начало работы с событиями Microsoft Teams Live](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Начало работы с трансляциями Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [События Live в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [События в реальном времени в Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
 
