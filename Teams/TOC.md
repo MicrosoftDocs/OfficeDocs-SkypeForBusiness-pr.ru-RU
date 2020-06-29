@@ -117,6 +117,7 @@
 #### [Обзор](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Отчет об использовании Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md)
+#### [Отчет об использовании приложения Teams](teams-analytics-and-reports/app-usage-report.md)
 #### [Отчет об использовании устройств в Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Отчет о заблокированных пользователях ТСОП](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [Отчет о пулах минут, затраченных по ТСОП](teams-analytics-and-reports/pstn-minute-pools-report.md)
