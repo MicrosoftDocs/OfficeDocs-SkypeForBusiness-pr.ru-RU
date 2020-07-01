@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698279"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938458"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
@@ -132,6 +132,8 @@ ms.locfileid: "44698279"
 | Вкл.     | Вкл.     | Выкл.         | Пользователь не может отправить пользовательские приложения.       |
 | Вкл.    | Вкл.        | Вкл.        | Пользователь может отправлять в группу пользовательские приложения независимо от того, является ли пользователь владельцем команды. Пользователь может отправлять пользовательские приложения в личном контексте.       |
 
- ## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Статьи по теме
  
-- [Параметры администратора для приложений в Teams](admin-settings.md)
+[Параметры администратора для приложений в Teams](admin-settings.md)
+
+[Назначение политик пользователям в Teams](assign-policies.md)

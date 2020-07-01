@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как создавать политики голосовой маршрутизации и управлять ими в Microsoft Teams.
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350193"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938135"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Управление политиками голосовой маршрутизации в Microsoft Teams
 
@@ -65,35 +65,16 @@ ms.locfileid: "44350193"
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Назначение настраиваемой политики голосовой маршрутизации пользователям
 
-### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Чтобы назначить политику для одного пользователя, выполните указанные ниже действия.
-
-1. В Центре администрирования Microsoft Teams в области навигации слева перейдите в раздел **Пользователи**, затем щелкните пользователя.
-2. Нажмите **политики**, а затем рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
-3. В разделе **Политика маршрутизации голосовой связи**выберите политику, которую вы хотите назначить, и нажмите кнопку **сохранить**.
-
-Чтобы назначить политику нескольким пользователям за один раз, сделайте следующее:
-
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Пользователи**, а затем найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
-2. В столбце **&#x2713;** (флажок) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочка) в верхней части таблицы.
-3. Нажмите кнопку **изменить параметры**, внесите необходимые изменения и нажмите кнопку **Применить**.  
-
-Кроме того, вы можете сделать следующее:
-
-1. В левой области навигации центра администрирования Microsoft Teams **перейдите на вкладку**  >  **политики маршрутизации голосовой голосовой связи**.
-2. Выберите политику, щелкнув слева от ее имени.
-3. Выберите **Управление пользователями**.
-4. В области **Управление пользователями** выполните поиск по отображаемому имени или по имени пользователя, выберите имя и нажмите **Добавить**. Повторите это действие для каждого пользователя, которого нужно добавить.
-5. Завершив добавление пользователей, нажмите кнопку **сохранить**.
-
-### <a name="using-powershell"></a>Использование PowerShell
-
-Просмотр [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Дополнительные сведения можно найти в разделе [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор PowerShell в Teams](teams-powershell-overview.md)
-- [Настройка маршрутизации голосовой связи для прямой маршрутизации](direct-routing-voice-routing.md)
-- [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
-- [Назначение политик пользователям в Teams](assign-policies.md)
+[Обзор PowerShell в Teams](teams-powershell-overview.md)
+
+[Настройка маршрутизации голосовой связи для прямой маршрутизации](direct-routing-voice-routing.md)
+
+[Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
+
+[Назначение политик пользователям в Teams](assign-policies.md)

@@ -17,12 +17,12 @@ description: Сведения об использовании отчета об 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902363"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938208"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Отчет об использовании приложений Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "44902363"
 
 ## <a name="view-the-app-usage-report"></a>Просмотр отчета об использовании приложения
 
-1.  На панели навигации в центре администрирования <https://teams.admin.microsoft.com> нажмите кнопку **Analytics & отчеты** \> **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **использование приложений**.
+1.  На панели навигации в центре администрирования <https://admin.teams.microsoft.com> нажмите кнопку **Analytics & отчеты** \> **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **использование приложений**.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Снимок экрана: элемент меню "отчеты об использовании"":::
 

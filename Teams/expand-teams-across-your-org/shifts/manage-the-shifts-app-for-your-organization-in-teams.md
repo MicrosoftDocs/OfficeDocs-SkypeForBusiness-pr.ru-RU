@@ -2,7 +2,7 @@
 title: Управление приложением смен для Организации
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416889"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938358"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
 > [!IMPORTANT]
-> Действующий 30 июня 2020 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 30 июня 2020 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> Действующий 30 июня 2020 г. Корпорация Microsoft StaffHub устарела. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестает работать для всех пользователей 30 июня 2020 г. Каждый, кто пытается открыть StaffHub, показывает сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)устарела.  
 
 ## <a name="overview-of-shifts"></a>Обзор смен
 
@@ -65,7 +65,7 @@ ms.locfileid: "44416889"
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Закрепление смен в Teams с помощью политики настройки приложения FirstlineWorker
 
-Политики настройки приложений позволяют настроить команды для выбора наиболее важных для пользователей в организации приложений. Приложения, заданные в политике, закреплены на панели приложения &mdash; , на которой расположена панель на боковой стороне настольного клиента Teams и в нижней части мобильных клиентов Teams, &mdash; где пользователи могут быстро и легко получать к ним доступ. 
+Политики настройки приложений позволяют настроить команды для выбора наиболее важных для пользователей в организации приложений. Приложения, заданные в политике, закреплены на панели приложения &mdash; , на которой расположена панель на боковой стороне настольного клиента Teams и в нижней части мобильных клиентов Teams, &mdash; где пользователи могут быстро и легко получать к ним доступ.
  
 Команды включают встроенную политику настройки приложения FirstlineWorker, которую можно назначить Firstline сотрудникам Организации. По умолчанию политика включает в себя действия, смену, чат и звонки приложений. 
 
@@ -73,50 +73,9 @@ ms.locfileid: "44416889"
 
 ![Снимок экрана: Политика настройки приложения FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Снимок экрана: Политика настройки приложения FirstlineWorker в центре администрирования Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>Назначение пользователям политики FirstlineWorker
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Назначение пользователям политики настройки приложения FirstlineWorker
 
-Чтобы назначить политику настройки приложения FirstlineWorker для одного пользователя, выполните указанные ниже действия.
-
-1. В Центре администрирования Microsoft Teams в области навигации слева перейдите в раздел **Пользователи**, затем щелкните пользователя.
-2. Выберите пользователя, щелкнув слева от его имени, затем нажмите кнопку **Изменить параметры**.
-3. В разделе **Политика настройки приложения**выберите **FirstlineWorker**, а затем нажмите кнопку **Применить**.
-
-Чтобы назначить политику нескольким пользователям одновременно:
-
-1. В левой области навигации Центра администрирования Microsoft Teams выберите **Пользователи** и найдите пользователей или отфильтруйте представление, чтобы отобразить нужных пользователей.
-2. В столбце **&#x2713;** (галочка) выберите пользователей. Чтобы выбрать всех пользователей, щелкните &#x2713; (галочку) в верхней части таблицы.
-3. Нажмите кнопку **изменить параметры**, в разделе **Политика настройки приложения**выберите **FirstlineWorker**, а затем нажмите кнопку **Применить**.  
-
-Кроме того, вы можете сделать следующее:
-
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел политики **настройки приложений Teams**  >  **Setup policies**.
-2. Выберите политику FirstlineWorker, щелкнув слева от имени политики.
-3. Выберите **Управление пользователями**.
-4. В области **Управление пользователями** выполните поиск по отображаемому имени или по имени пользователя, выберите имя и нажмите **Добавить**. Повторите это действие для каждого пользователя, которого нужно добавить.
-5. Завершив добавление пользователей, нажмите кнопку **Применить**.
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Назначение политики настройки приложения FirstlineWorker пользователям группы
-
-Вы можете назначить политику настройки приложения FirstlineWorker пользователям группы, например группе безопасности, подключився к модулю Azure Active Directory PowerShell для Graph и в модуль Skype для бизнеса PowerShell. Дополнительные сведения об использовании PowerShell для управления группами можно найти в разделе [Общие сведения о Teams PowerShell](../../teams-powershell-overview.md).
-
-В этом примере мы назначаем политику настройки приложения FirstlineWorker всем пользователям группы группы Contoso FIRSTLINE.
-
-> [!NOTE]
-> Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Получить GroupObjectId определенной группы.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-Получение участников указанной группы.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Назначьте политику настройки приложения FirstlineWorker всем пользователям группы.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Поиск событий смен в журнале аудита
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951064"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938198"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Вы также можете использовать назначение пакетной политики для назначения политики обмена сообщениям большим наборам пользователей. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).
+> Вы также можете назначить политику обмена сообщениями непосредственно пользователям при масштабировании с помощью назначения пакетной политики или группы, в которую входят пользователи. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).

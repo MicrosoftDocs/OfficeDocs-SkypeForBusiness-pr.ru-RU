@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Узнайте о функциях, которые необходимо учитывать для обеспечения бесперебойной работы, а также в том, чтобы обеспечить согласованность, безопасный обмен сообщениями, EHR интеграция и firstlineную интеграцию рабочих систем.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905741"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938368"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций в сфере здравоохранения
 
@@ -109,10 +109,4 @@ Microsoft Teams позволяет использовать врача, clinicia
 
 ## <a name="firstline-worker-integration"></a>Интеграция Firstline рабочего процесса
 
-Microsoft Teams интегрируется с работником Firstline, который можно использовать для координирования сменных функций персонала и других возможностей.
-
- Ознакомьтесь со следующими статьями.
-
-- [Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Управление приложением "Смены" для вашей организации в Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams интегрируется с работником Firstline, который можно использовать для координирования сменных функций персонала и других возможностей. [В разделе Управление сменой приложения для Организации в Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
