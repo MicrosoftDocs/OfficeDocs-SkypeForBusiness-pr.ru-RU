@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134395"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943932"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Назначение политики голосовой связи на уровне пользователя в Lync Server 2013
 
@@ -40,29 +40,29 @@ ms.locfileid: "42134395"
     
 
     > [!NOTE]  
-    > Параметры <STRONG> &lt;автоматического&gt; </STRONG> применения применяют параметры сервера по умолчанию или глобальные параметры политики.
+    > Параметры <STRONG> &lt; автоматического &gt; </STRONG> применения применяют параметры сервера по умолчанию или глобальные параметры политики.
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики голосовой связи на уровне пользователя с помощью командлетов Windows PowerShell
+## <a name="assign-per-user-voice-policies"></a>Назначение политик голосовых служб на уровне пользователей
 
-Политики голосовой связи на уровне пользователей можно назначить с помощью Windows PowerShell и командлета **Grant – CsVoicePolicy** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Политики голосовой связи на уровне пользователей можно назначить с помощью Windows PowerShell и командлета **Grant – CsVoicePolicy** . Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Чтобы узнать, как использовать удаленную оболочку Windows PowerShell для подключения к Lync Server, прочитайте следующую запись блога Windows PowerShell для Lync Server: [Quick Start: Управление Microsoft Lync server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876).
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>Назначение индивидуальной политики голосовой связи одному пользователю
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>Назначение индивидуальной политики голосовой связи одному пользователю
 
   - Следующая команда назначает политику голосовой связи уровня пользователя с именем RedmondVoicePolicy пользователю Ken Myer.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>Назначение индивидуальной политики голосовой связи нескольким пользователям
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>Назначение политики голосовой связи для отдельных пользователей нескольким пользователям
 
   - Эта команда назначает политику голосовой связи уровня пользователя с именем FinanceVoicePolicy всем пользователям с учетными записями подразделения Finance в Active Directory. Для получения дополнительных сведений о параметре OU, используемом в этой команде, обратитесь к документации по командлету [Get – CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>Отмена назначения политики голосовой связи на уровне пользователя
+## <a name="unassign-a-per-user-voice-policy"></a>Отмена назначения политики голосовой связи на уровне пользователя
 
-  - Следующая команда отменяет политику голосовой связи уровня пользователя, назначенную пользователю Ken Myer. После отмены политики уровня пользователя к пользователю Ken Myer будет автоматически применяться глобальная политика или локальная политика сайта (если она существует). Политика сайта имеет приоритет над глобальной политикой.
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
