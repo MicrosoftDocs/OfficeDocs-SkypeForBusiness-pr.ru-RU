@@ -1,133 +1,69 @@
 ---
-title: Общие сведения о Teams PowerShell
+title: Общие сведения о Microsoft Teams PowerShell
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
-ms.date: 09/06/2018
+author: brandber
+ms.author: brandber
+manager: kojiko
+ms.date: 06/30/2020
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-search.appverid: MET150
-f1.keywords:
-- NOCSH
-description: Научитесь использовать элементы управления PowerShell для управления Microsoft Teams, в том числе для структурирования командлетов PowerShell.
+description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5385430c7db8aab0adf1efbaec546134e9adf388
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690955"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943992"
 ---
-# <a name="teams-powershell-overview"></a>Общие сведения о Teams PowerShell
+# <a name="microsoft-teams-powershell-overview"></a>Общие сведения о Microsoft Teams PowerShell
 
-Microsoft Teams имеет широкий набор инструментов для ИТ-администраторов, которые могут управлять продуктом с помощью центра администрирования Microsoft Teams, элементов управления PowerShell и API Graph. В этом руководстве объясняется, как мы разработали командлеты PowerShell для ИТ – администраторов и приводятся ссылки на дополнительные документы. Обратите внимание, что для разных ролей администраторов групп есть доступ к разным командлетам. Дополнительные сведения [можно найти в разделе Использование ролей администратора Microsoft Teams для управления группами](using-admin-roles.md).
+Microsoft Teams PowerShell — это набор командлетов, предназначенных для управления группами непосредственно из командной строки PowerShell. Написанный в стандарте .NET Teams PowerShell работает на PowerShell 5,1 для Windows, PowerShell 6. x и более новых версий на всех платформах, включая Azure Shell.
 
-## <a name="which-modules-do-you-need-to-use"></a>Какие модули вам нужно использовать?
+Прежде чем приступить к работе с оболочкой PowerShell, необходимо [установить ее](teams-powershell-install.md). 
 
-Элементы управления PowerShell для управления группами находятся в двух разных модулях PowerShell. 
-- [Модуль Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) : модуль команд PowerShell Teams включает все командлеты, необходимые для создания групп и управления ими.  
-- [Модуль PowerShell для Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366): модуль PowerShell для Skype для бизнеса, содержащий командлеты для управления политиками, конфигурациями и другими средствами Teams. 
+> [!WARNING]
+> Обнаружены проблемы с PowerShell 7 и Teams PowerShell. Мы рекомендуем использовать PowerShell 5,1, пока проблемы не будут устранены.
 
-В справочной документации по элементам управления PowerShell содержится информация о том, на каком модуле находится командлет, который вы собираетесь изучить. (В конечном итоге эти два модуля будут объединены.)
-
-## <a name="what-can-each-admin-role-do"></a>Что может делать каждая роль администратора?
-
-Прочитать [Используйте роли администратора Microsoft Teams для управления группами](using-admin-roles.md) , чтобы понять, какие командлеты PowerShell могут использовать другие роли администратора.
-
-## <a name="creating-and-managing-teams-via-powershell"></a>Создание Teams и управление ими через PowerShell
-
-Командлеты для создания и управления группами находятся в [модуле Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
-
-Команды создаются с помощью групп Microsoft 365, поэтому при создании группы вы создадите группу. Существует набор командлетов, предназначенных для работы с основной командой и ее параметрами ( ``new-team`` , ``get-team`` , ``set-team`` ), Управление пользователями группы ( ``add-teamuser`` , ``remove-teamuser`` ), а также командлетами для управления каналами группы ( ``new-teamchannel`` , ``remove-teamchannel`` ). Все эти командлеты можно запускать как конечные пользователи, но они будут работать только в тех группах, которыми вы владеете или являетесь участниками. Если вы являетесь администратором глобального администратора или службы Teams Service, вы сможете работать со всеми группами в Организации.
-
-> Идентификатор **groupId** , используемый в командлетах модуля Microsoft Teams PowerShell, совпадает со свойством **Identity** , возвращенным ``Get-UnifiedGroup`` в модуле Exchange PowerShell.
-
-### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Различия между предварительным просмотром и обычным доступом модуль Microsoft Teams PowerShell
-
-Когда мы выпустили нашу общедоступную версию нашего модуля PowerShell, некоторые командлеты были оставлены в модуле "только для бета-версии", как описано в приведенной ниже таблице.
-
-| Командлет | Доступно в предварительной версии | Доступно в 1,0 |
-|------- | -------------------- | ------------------------------ |
-| Add-TeamUser | Да | Да |
-| Connect-MicrosoftTeams | Да | Да |
-| Разъединить — MicrosoftTeams | Да | Да |
-| Получение и команда | Да | Да |
-| Get-TeamChannel | Да | Да |
-| Get-TeamFunSettings | Только до выпусков 1,0 | Нет |
-| Get-TeamGuestSettings | Только до выпусков 1,0 | Нет |
-| Get-TeamHelp | Да | Да |
-| Get-TeamMemberSettings | Только до выпусков 1,0 | Нет |
-| Get-TeamMessagingSettings | Только до выпусков 1,0 | Нет |
-| Get-TeamUser | Да | Да |
-| Новая группа | Да | Да |
-| New-TeamChannel | Да | Да |
-| Удаление группы | Да | Да |
-| Remove-TeamChannel | Да | Да |
-| Remove-TeamUser | Да | Да |
-| Set-Team | Да | Да |
-| Set-TeamChannel | Да | Да |
-| Set-TeamFunSettings | Только до выпусков 1,0 | Нет |
-| Set-TeamGuestSettings | Только до выпусков 1,0 | Нет |
-| Set-TeamMemberSettings | Только до выпусков 1,0 | Нет |
-| Set-TeamMessagingSettings | Только до выпусков 1,0 | Нет |
-| Set-TeamPicture | Да | Нет, запланировано |
+## <a name="releases"></a>Оболочек
 
 
-## <a name="managing-policies-via-powershell"></a>Управление политиками через PowerShell
+В [коллекции оболочки PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) для Teams PowerShell доступны два типа выпусков.
 
-Используйте командлеты из [модуля командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366) , чтобы управлять политиками для отдельных пользователей.
+- **Общая доступность (GA)**: командлеты для подготовки к производству, обновленные ежемесячно.
+
+- **Общедоступный предварительный просмотр**: ранний доступ к функциям. Может обновляться чаще, чем в GA.
+
+Подробная информация о дополнениях и улучшениях для обоих выпусков, читайте в статье сведения [о выпуске оболочки PowerShell для Teams](teams-powershell-release-notes.md).
+
+
+## <a name="manage-teams-with-powershell"></a>Управление группами с помощью PowerShell
+
+Для полного управления группами вы будете использовать оба этих модуля PowerShell:
+
+- [Модуль Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/): модуль команд PowerShell Teams включает командлеты для управления группами, чат и каналами.
+
+- [Модуль PowerShell для Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366): модуль PowerShell для Skype для бизнеса, содержащий командлеты для управления собраниями, телефонной системой и политиками.
+
+Полный Руководство по управлению группами с использованием этих модулей можно найти в разделе [Управление группами с помощью PowerShell Teams](teams-powershell-managing-teams.md).
 
 > [!NOTE]
-> После подключения к Skype для бизнеса Online командлеты будут доступны в сеансе PowerShell. Дополнительные сведения можно найти в разделе [Управление Skype для бизнеса Online с помощью Microsoft 365 или Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> Новейшая [общедоступная версия оболочки PowerShell для Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) поддерживается с помощью соединителя Skype для бизнеса Online, что обеспечивает единый модуль для управления оболочкой PowerShell.
 
-Политика — это группа параметров, которые могут быть применены к отдельным пользователям. У каждого типа политики есть собственный набор командлетов для создания, просмотра, удаления и обновления политик, а затем назначения этих политик пользователям. Общая структура:
+## <a name="related-topics"></a>Статьи по теме
 
-- ПОЛУЧИТЬ команды (например, ``Get-CsTeamsMeetingPolicy`` ): возврат документов политики, которые будут доступны для назначения в вашей организации, и политики, созданные корпорацией Майкрософт, и созданные вами пользовательские политики.
-   > Если вы хотите найти только те пользовательские политики, которые вы создали в вашей организации, вы можете использовать ``-Filter "tag:*"`` .
+[Установка оболочки PowerShell для Teams](teams-powershell-install.md)
 
-- НОВЫЕ команды (например, ``New-CsTeamsMeetingPolicy`` ): позволяет создавать новые политики для Организации, которые будут доступны для назначения пользователям в Организации. Не все политики поддерживают создание настраиваемых политик. Чаще всего это необходимо для того, чтобы политики, используемые в вашей организации, поддерживали сочетание параметров.
+[Управление группами с помощью PowerShell Teams](teams-powershell-managing-teams.md)
 
-- SET Commands (например, ``Set-CsTeamsMeetingPolicy`` ): позволяет задавать определенные значения для указанной политики. Некоторые политики не имеют доступных команд Set или содержат параметры, которые не могут быть настроены в политике. Каждое описание PowerShell будет вызывать параметры, которые не могут быть настроены. 
-   > Чтобы изменить политику, которая будет использоваться по умолчанию для пользователей в вашей организации, у которых нет назначенной особой политики, запустите ``Set-Cs<PolicyName> -Identity Global`` .
+[Заметки о выпуске оболочки PowerShell для Teams](teams-powershell-release-notes.md)
 
-- Удаление команд (например, ``Remove-CsTeamsMeetingPolicy`` ). Вы можете использовать этот командлет для удаления настраиваемой политики, созданной в клиенте. При удалении настраиваемой политики, назначенной по крайней мере одному пользователю в Организации, этот пользователь будет возвращаться к глобальной политике.
-   > Вы не можете удалить глобальную политику в вашей организации, но если вы хотите сбросить глобальную политику в вашей организации до указанных для Microsoft параметров по умолчанию, вы можете запустить ее ``Remove-Cs<PolicyName> -Identity Global`` .
+[Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-- Команда GRANT (например, ``Grant-CsTeamsMeetingPolicy`` ): позволяет назначить политику для определенного пользователя.
-   > Чтобы удалить настраиваемое назначение политики и вернуть пользователя к политике по умолчанию в вашей организации, выполните ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` .
+[Справочник по командлетам Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 
-> [!TIP]
-> Не все политики допускают создание настраиваемых политик, а некоторые политики имеют параметры, которые нельзя настраивать (поэтому вы можете просматривать параметры, но не может задавать пользовательские значения во время ``set-`` и ``new-`` ). Если вы не можете использовать параметры для пользователей, документация по конкретному командлету выдаст вам вызов.
-
-Общие параметры:
-
-- **Identity**: for ``Get-`` , ``Set-`` , ``New-`` и ``Remove-`` , параметр **Identity** всегда будет ссылаться на определенный экземпляр политики. Для ``Grant`` параметра **Identity** — конкретный объект пользователя, которому применяется политика.
-
-<!--more info here?-->
-
-## <a name="managing-configurations-via-powershell"></a>Управление конфигурациями с помощью PowerShell
-
-Командлеты для управления конфигурацией находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/download/details.aspx?id=39366).
-
-Конфигурации — это сегменты параметров, которые поддерживаются в службе, которая не может быть указана на уровне пользователя. Параметры всегда применяются во всей Организации. Ваша Глобальная конфигурация является единственной действующей конфигурацией в вашей организации. Каждый тип конфигурации поставляется с двумя основными командлетами:
-
-- ``Get-Cs<ConfigurationName>``(например, ``Get-CsTeamsClientConfiguration`` ): 
-
-- SET Commands (например, ``Set-CsTeamsClientConfiguration`` ): Настройка свойств в конфигурации этого типа. Укажите параметры, которые вы хотите изменить.
-   > Вы можете создать ссылку на изменяемую конфигурацию одним из двух способов: указав**глобальный идентификатор**или запустив приложение ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
-
-## <a name="other-powershell-tools"></a>Другие средства PowerShell
-
-Подробная информация о том, как использовать все элементы управления PowerShell для управления Microsoft Teams и Skype для бизнеса, включая детальные описания параметров в каждой политике, приведены в справочнике по командлетам [Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) и [ссылке на командлеты Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
-
-## <a name="learn-more"></a>Подробнее
-
-- [Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Справочник по командлетам Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Управление Microsoft Teams с ролями администратора](using-admin-roles.md)
+[Управление Microsoft Teams с ролями администратора](using-admin-roles.md)

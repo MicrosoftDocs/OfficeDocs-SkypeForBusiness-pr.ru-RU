@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e7a9af9c8e3fa2374234efbb752682d58d1602
-ms.sourcegitcommit: dad97d53f63e5164095b6d6de2d1b0445e2c10db
+ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "44820850"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944012"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -144,8 +144,8 @@ Teams через приложения Microsoft 365 для предприяти�
 1. Скачайте пакет MSI для Teams, соответствующий вашей операционной системе VDI, по одной из следующих ссылок:
 
 
-    - [32-разрядная версия](https://statics.teams.cdn.office.net/production-windows/1.3.00.12058/Teams_windows.msi)
-    - [64-разрядная версия](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.12058/Teams_windows_x64.msi)
+    - [32-разрядная версия](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
+    - [64-разрядная версия](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
 
 
     Минимальной версией классического приложения Teams, которая требуется, является версия 1.3.00.4461. (Удержание PSTN не поддерживается в более ранних версиях).

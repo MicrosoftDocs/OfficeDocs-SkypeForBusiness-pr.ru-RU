@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374207"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012195"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -44,6 +44,7 @@ ms.locfileid: "44374207"
 |Веб-клиент    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,11 +73,17 @@ ms.locfileid: "44374207"
 
       Сочетание клавиш: OPTION+COMMAND+SHIFT+1
 
+-   Linux
+
+      Сочетание клавиш: CTRL+ALT+SHIFT+1
+
 Журналы отладки автоматически скачиваются в указанные ниже папки.
 
 -   Windows: %userprofile%\\Downloads
 
 -   Mac OSX: Downloads
+
+-   Linux: ~/Downloads
 
 -   Браузер: вам будет предложено сохранить журнал отладки в расположении по умолчанию.
 
@@ -93,6 +100,8 @@ ms.locfileid: "44374207"
 |            |%appdata%\Microsoft\Teams\media-stack \\ *. ETL         |
 |Mac OSX     |~/Library/Application Support support/Microsoft/Teams/Media-Stack/*. blog         |
 |            |~/Library/Application Support support/Microsoft/Teams/skylib/*. blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/Media-Stack/*. blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*. blog         |
 
 
 
@@ -103,13 +112,18 @@ ms.locfileid: "44374207"
 
 Windows:
 
-1.  Щелкните правой кнопкой мыши **значок Microsoft Teams в** области уведомлений и выберите пункт **получить журналы** .
+1.  Щелкните правой кнопкой мыши значок **Microsoft Teams** в области уведомлений и выберите пункт **получить журналы** .
 
 Mac OsX:
 
 1.  Выбор пункта **Получить журналы** в раскрывающемся меню **Справка**
 
+Linux
+
+1.  На панели задач нажмите значок **Microsoft Teams** , а затем выберите команду **получить журналы** .
+
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |% AppData% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |

@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326696"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012295"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
 Здесь вы найдете рекомендации, которые необходимо выполнить для управления жизненным циклом [личных каналов](private-channels.md) в Организации.
 
 > [!IMPORTANT]
-> Если вы используете шаги PowerShell, описанные в этой статье, чтобы управлять личными каналами, необходимо установить и использовать самую последнюю версию модуля Teams PowerShell из [коллекции тестов PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Инструкции по установке модуля приведены в [статье Установка предварительной версии модуля PowerShell Teams](install-prerelease-teams-powershell-module.md). Самая свежая доступная версия модуля PowerShell Teams не поддерживает управление личными каналами.
+> Если вы используете инструкции PowerShell, описанные в этой статье, для управления личными каналами, необходимо установить и использовать общедоступный модуль предварительной версии PowerShell для Teams из [коллекции PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Инструкции по установке модуля приведены в [статье Установка Microsoft Teams PowerShell](teams-powershell-install.md). Последний модуль общей доступности Teams PowerShell не поддерживает управление личными каналами.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Определение возможности создания личных каналов участниками группы
 

@@ -1,6 +1,6 @@
 ---
 title: Администратор Skype для бизнеса Online
-ms.reviewer: ''
+ms.reviewer: brandber
 description: Узнайте, как управлять Skype для бизнеса Online в своей организации.
 services: skype-for-business-online-admin
 author: tonysmit
@@ -14,16 +14,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205356"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943942"
 ---
 # <a name="skype-for-business-online-admin"></a>Администратор Skype для бизнеса Online
 
@@ -159,6 +156,7 @@ ms.locfileid: "44205356"
                         <h3>Новые функции</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Планы звонков в Канаде (общедоступная версия)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Планы звонков в Австралии (только предварительная версия)</a></p>
+                        <p><a href="/MicrosoftTeams/teams-powershell-overview.md">Интеграция соединителя Skype для бизнеса Online с Teams PowerShell (только для просмотра)</a></p>
                     </div>
                 </div>
             </div>
@@ -193,7 +191,7 @@ ms.locfileid: "44205356"
                 <div class="card">
                     <div class="cardText">
                         <h3>Аудиоконференции</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы об аудиоконференциях</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы об аудиоконференциях</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -204,7 +202,7 @@ ms.locfileid: "44205356"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Настроить</h3>
+                        <h3>Настройка</h3>
                         <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Настройка Skype для бизнеса Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Разрешение пользователям связываться с внешними пользователями Skype для бизнеса</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</a></p>
                      </div>
                 </div>
@@ -229,7 +227,7 @@ ms.locfileid: "44205356"
                 <div class="card">
                     <div class="cardText">
                         <h3>Планы звонков</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Что такое планы звонков?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Что такое планы звонков в Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Настройка планов звонков</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности планов звонков в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +239,7 @@ ms.locfileid: "44205356"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Здесь&#39;, что вы получаете в телефонной системе</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
                </div>
                 </div>
             </div>
