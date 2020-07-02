@@ -259,6 +259,7 @@
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
 ### [Распределенная линия](shared-line-appearance.md)
+### [Настройка панели набора номера](dial-pad-configuration.md)
 
 
 ## Планы звонков
@@ -780,6 +781,7 @@
 
 ## Поддерживаемые устройства
 ### [Управление устройствами в Teams](devices/device-management.md)
+### [Удаленное обновление устройств](devices/remote-update.md)
 ### [Телефоны для Teams](devices/phones-for-teams.md)
 ### [USB-устройства для аудио и видео](devices/usb-devices.md)
 ### [Развертывание панелей совместной работы в Microsoft Teams](devices/collab-bar-deploy.md)
@@ -790,8 +792,10 @@
 
 ## PowerShell в Teams
 ### [Обзор](teams-powershell-overview.md)
+### [Установка PowerShell в Teams](teams-powershell-install.md)
+### [Управление Teams с помощью PowerShell в Teams](teams-powershell-managing-teams.md)
+### [Заметки о выпуске PowerShell в Teams](teams-powershell-release-notes.md)
 ### [Справочник по командлетам для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Установка предварительной версии модуля Teams PowerShell](install-prerelease-teams-powershell-module.md)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Получение справки в Teams](get-help-in-microsoft-teams.md)
