@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Узнайте о параметрах "Оплата за минуту", чтобы включить возможности голосовой конференции для организаций, использующих корпоративное лицензирование Microsoft.
-ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610514"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021747"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 
@@ -39,7 +39,7 @@ ms.locfileid: "44610514"
 
   
 > [!NOTE]
-> Так как это предложение доступно только для пользователей корпоративного и корпоративных лицензий, для получения лицензий вам потребуется обратиться к представителю вашей учетной записи. 
+> Так как это предложение доступно только для пользователей, использующих корпоративную и лицензированное, для получения этих лицензий вам потребуется обратиться к представителю вашей учетной записи. 
   
 ## <a name="need-some-details"></a>Нужны дополнительные сведения?
 
@@ -54,7 +54,7 @@ ms.locfileid: "44610514"
 > [!NOTE]
 > Вы можете найти тарифы на звонки и телефонные номера, связанные с этими типами звонков, просмотрев в разделе Тарифы на то, **где вы хотите позвонить** в [видеоконференции](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
-Оплата через минуту требует, чтобы в вашей организации были включены [кредиты на связь](what-are-communications-credits.md) с лицензией на использование лицензий, назначенных каждому пользователю, чтобы обеспечить возможность голосовой конференции. Дополнительные сведения можно найти в разделе [Настройка кредитов связи для Организации](set-up-communications-credits-for-your-organization.md) и/или [лицензирования надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Для оплаты за минуту требуется, чтобы в вашей организации были настроены [кредиты на связь](what-are-communications-credits.md) . Кроме того, необходимо назначить лицензию на оплату через минуту, а для всех пользователей, которым нужно присвоить голосовые конференции, должен быть назначена лицензия на подписку на данные. Дополнительные сведения можно найти в разделе [Настройка кредитов связи для Организации](set-up-communications-credits-for-your-organization.md) и/или [лицензирования надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 Чтобы включить оплату звуковой Конференции за минуту для пользователей в вашей организации, ознакомьтесь с [разрешениями попробуйте или приобретите голосовую конференцию в Microsoft Office 365 или Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
@@ -82,7 +82,7 @@ ms.locfileid: "44610514"
     
 - [Цены на Тарифные планы](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
   
 [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

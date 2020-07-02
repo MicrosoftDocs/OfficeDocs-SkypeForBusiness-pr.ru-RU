@@ -131,7 +131,6 @@
 ## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
-## [Возможности выступающего и участника в собрании Teams](roles-in-meetings.md)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Запуск отчета для отображения активного использования StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Планирование перемещения групп StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Пример общения по электронной почте с пользователями](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Поддержка Microsoft StaffHub прекращена](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams для сферы здравоохранения

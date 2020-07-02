@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Выполните указанные ниже действия, чтобы создать телефонный номер по умолчанию для абонентов, которые могут присоединиться к собранию Microsoft Teams.
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691115"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021767"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
 Голосовой Конференц-связь в Microsoft 365 и Office 365 позволяет пользователям в организации создавать собрания Microsoft Teams, а затем разрешать пользователям подключаться к этим собраниям с помощью телефона.
   
-Мост конференц-связи предоставляет вашей организации ряд телефонных номеров для подключения. Все эти номера могут быть использованы для подключения к собраниям, созданным организаторами, однако вы можете выбрать, какие номера будут указаны в приглашениях на собрания.
+A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
   
 > [!NOTE]
 > Организатор собрания может использовать не более одного платного и одного бесплатного телефонного номера в приглашении на собрание, однако также имеется ссылка в нижней части приглашения на собрания, по которой открывается список всех телефонных номеров для подключения к собранию. 
@@ -55,7 +55,7 @@ ms.locfileid: "44691115"
 
 Вы должны быть администратором, чтобы внести эти изменения.
 
-1. Войдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Войдите в центр администрирования Microsoft Teams.
 
 2. На панели навигации слева выберите пункт **Пользователи**.
 

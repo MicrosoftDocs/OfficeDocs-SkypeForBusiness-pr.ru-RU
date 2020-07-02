@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Узнайте, как попробовать или приобрести лицензии на Конференц-связь с Microsoft 365 или Office 365, чтобы настроить телефонные конференции, на которые смогут звонить люди. '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868538"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021867"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 для Microsoft Teams
 
@@ -72,7 +72,7 @@ ms.locfileid: "44868538"
 4. [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) в вашей организации, которые планируется планировать или приходить на собрания.
 
     > [!NOTE]
-    > В случае наличия лицензий на аудиоконференции с поминутной оплатой Вам необязательно отдельно для каждого пользователя специально назначать лицензии на кредиты на связь, чтобы использовать функцию аудиоконференций (однако, может потребоваться назначение лицензий на другие сервисы).
+    > Если у вас есть лицензии "Оплата за минуту", необходимо назначить лицензию на обмен данными по отдельности каждому пользователю.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания
 
