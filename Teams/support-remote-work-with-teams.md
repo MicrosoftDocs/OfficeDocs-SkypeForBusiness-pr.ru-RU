@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691495"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028125"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "44691495"
 
 ## <a name="it-admin-guidance"></a>Инструкции для ИТ-администраторов
 
-- Убедитесь, что у всех есть доступ к командам, используя бесплатное 6-месячное **[предложение Office 365 E1](e1-trial-license.md)** или **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Обратитесь к вашей учетной записи команды Microsoft или партнера, если вам нужна помощь.
+- Убедитесь, что у всех есть доступ к Teams с помощью [платной подписки, включающей Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Кроме того, соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Если у вас уже есть подписка, включающая Teams, **[включите ее для всех](user-access.md)**.
     
@@ -81,8 +81,6 @@ ms.locfileid: "44691495"
    - Если вы работаете в сфере образования и хотите настроить Teams для преподавателей, учащихся и администраторов, используйте Office 365 A1. Эта бесплатная версия Office 365 доступна для всех образовательных учреждений. Зарегистрируйтесь на странице [Office 365 бесплатно для всего учебного заведения](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
    - Не пропустите статью [Начало работы с Teams для удаленного обучения](remote-learning-edu.md).
-
-2. В дополнение к [пробной версии Office 365 E1](e1-trial-license.md) и [бесплатному Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), [Teams Exploratory](teams-exploratory.md) также может быть вариантом, если вам нужны бесплатные лицензии Команды.
 
 1. Убедитесь, что у сотрудников есть соответствующий доступ к Интернету и пропускная способность для Teams. Чтобы узнать, как это сделать, используйте инструкции из статьи [Подготовка сети организации к использованию Teams](prepare-network.md).
 
