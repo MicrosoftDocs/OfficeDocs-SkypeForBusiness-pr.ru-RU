@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637908"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028115"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -77,10 +77,7 @@ ms.locfileid: "44637908"
 
 **ИТ-специалисты**
 
-- Если вы работаете в компании и хотите настроить Teams для сотрудников, вы можете зарегистрироваться для получения шестимесячной [пробной версии Office 365 E1](e1-trial-license.md) у своего партнера Майкрософт или торгового представителя.
-
-> [!NOTE]
-> Такое же бесплатное предложение Teams доступно в [облаке для государственных организаций США](g1-trial-license.md), кроме GCC High и Министерства обороны.
+- Если вы работаете в компании и хотите, чтобы сотрудники использовали Teams, можно зарегистрироваться для работы в [Teams Exploratory](teams-exploratory.md).
 
 - Если вы работаете в сфере образования и хотите настроить Teams для преподавателей, учащихся и администраторов, используйте Office 365 A1, бесплатную версию Office 365 для образовательных учреждений. Зарегистрируйтесь на сайте [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 

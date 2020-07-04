@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638388"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028175"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Как обеспечить Teams в масштабе для Сотрудников без компьютеров
 
@@ -50,7 +50,7 @@ ms.locfileid: "44638388"
 
 ## <a name="technical-requirements"></a>Технические требования
 
-- У вашего арендатора должно быть соответствующее количество доступных лицензий, включая Microsoft Teams. Если у вас еще нет этих лицензий, следуйте приведенным здесь инструкциям, чтобы активировать бесплатную пробную версию [Office 365 E1](e1-trial-license.md).
+- У вашего арендатора должно быть соответствующее количество доступных лицензий, включая Microsoft Teams. Если у вас еще нет этих лицензий, попробуйте воспользоваться бесплатной пробной подпиской на [Teams Exploratory](teams-exploratory.md).
 - Пользователю, выполняющему эти действия, должны быть назначены следующие роли: глобальный администратор, администратор пользователя и администратор службы команд в Azure AD.
 - Пользователь должен иметь права на установку и настройку программного обеспечения на своем локальном компьютере.
 
