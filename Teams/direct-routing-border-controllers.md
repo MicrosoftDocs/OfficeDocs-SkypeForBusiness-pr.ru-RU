@@ -18,12 +18,11 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) были сертифицированы на прямую маршрутизацию.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
-ms.translationtype: MT
+ms.openlocfilehash: b27bcc55ad2039d7e51af835c0b64c514d7dc303
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735439"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042951"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -72,10 +71,10 @@ ms.locfileid: "44735439"
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Поддерживаемые 3,20 (рекомендованные 4,0)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |   |  
-|                                   |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
-|                                   |     Объединенный элемент Border (куб) Cisco для маршрутизатора облачных служб 1000V Series       |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
-|                                 |     Объединенный элемент Border (куб) Cisco для маршрутизаторов служб агрегации данных серии 1000      |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |     |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 1000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |    <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
+|                                   |     Объединенный элемент Border (куб) Cisco для маршрутизаторов интегрированных служб серии 4000        |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |   <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     Объединенный элемент Border (куб) Cisco для маршрутизатора облачных служб 1000V Series       |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |    <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     Объединенный элемент Border (куб) Cisco для маршрутизаторов служб агрегации данных серии 1000      |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |    <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 
 В таблице ниже перечислены устройства, которые проверяются на совместимость между прямыми маршрутизацией и аналоговыми устройствами.
 

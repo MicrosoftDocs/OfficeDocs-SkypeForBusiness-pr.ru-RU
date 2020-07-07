@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689815"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049416"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -133,6 +132,10 @@ FindTime — это надстройка для Outlook, которая помо
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Надстройка для собраний Teams в Outlook для Windows не отображается
 
 Если вам не удается установить надстройку "Собрание Teams" для Outlook, воспользуйтесь следующими инструкциями по устранению неполадок.
+
+[Скачайте](https://aka.ms/SaRA-TeamsAddInScenario) и запустите [Помощник по восстановлению службы поддержки Майкрософт](https://aka.ms/SaRA_Home) , чтобы выполнить автоматические действия по устранению неполадок и устранить проблемы.
+
+Кроме того, выполните указанные ниже действия вручную.
 
 - Пользователи Windows 7 должны установить [Обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) для надстройки "собрание Teams" для работы.
 - Убедитесь в том, что у пользователя есть политика обновления Teams, которая позволяет планировать собрания в Teams. Дополнительные сведения [можно найти в разделе Переход с Skype для бизнеса в Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
