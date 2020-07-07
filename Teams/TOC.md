@@ -658,6 +658,7 @@
 ### [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
 ### [Развертывание с помощью скрипта для сотрудников без компьютеров](flw-scripted-deployment.md)
 ### [RealWear для Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
