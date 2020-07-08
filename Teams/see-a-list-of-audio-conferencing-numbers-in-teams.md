@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Сведения о том, как искать номера конференц-связи с телефонным подключением, которые можно использовать для голосовой конференции в Microsoft Teams.
-ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691185"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077664"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -38,14 +38,11 @@ ms.locfileid: "44691185"
 Если в вашей организации доступен только один телефонный номер, он будет использоваться по умолчанию для всех пользователей. При наличии нескольких телефонных номеров можно выбрать номер по умолчанию для каждого из пользователей. Этот номер по умолчанию будет включен в приглашения на собрание Microsoft Teams.
   
 Чтобы изменить номер телефонного подключения для отдельного пользователя, см. статью [Настройка телефонных номеров, включаемых в приглашения](set-the-phone-numbers-included-on-invites-in-teams.md).
-  
-> [!NOTE]
-> Внутренние входящие номера являются выделенными для вашей организации. В качестве номеров телефона по умолчанию можно установит только их. Однако международные входящие номера могут совместно использоваться несколькими организациями. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр телефонных номеров аудиоконференций
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр номеров телефона для аудиоконференций
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 

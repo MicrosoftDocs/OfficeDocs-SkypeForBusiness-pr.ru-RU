@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cda7c9db774632317cb568a6b448b4fc04b3b5ff
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 5859aeb74e8966138b91d16e206cbd9d00cf0587
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944145"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077684"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,7 +31,8 @@ ms.locfileid: "44944145"
 
 | Дата | Версия | Обновлении |
 |------- | -------------------- | ------------------------------ |
-| Июнь 2020 | [1.1.0 — Предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.0-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация команды Get-Team<li>Повышенная надежность</li> |
+| 2020 июля | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [командлеты назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| Июнь 2020 | [1.1.3 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация команды Get-Team<li>Повышенная надежность</li> |
 | Июнь 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена Предварительная загрузка командлета<li>Оптимизации платформы .NET Framework</li>   |
 | Апрель 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Подписывание Authenticode и сборка<li>Добавлены Get-CsPolicyPackage<li>Добавлены Get-CsUserPolicyPackage<li>Добавлены Get-CsUserPolicyPackageRecommendation<li>Добавлены гранты-CsUserPolicyPackage<li>Добавлены новые-CsBatchPolicyPackageAssignmentOperation<li>Добавленный Set-TeamArchivedState<li>Добавленный Set-TeamPicture<li>Удалено Get-TeamHelp</li>  |
 | Март 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены новые-CsBatchPolicyAssignmentOperation</li> |
@@ -50,7 +51,7 @@ ms.locfileid: "44944145"
 | [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | Да | Да |
 | [Разъединить — MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Да | Да |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Да | Да |
-| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Да | **Нет** |
+| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Да | Да |
 | [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Да | **Нет** |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Да | Да |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Да | Да |
@@ -64,13 +65,13 @@ ms.locfileid: "44944145"
 | [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | Да | Да |
 | [Grant-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | Да | Да |
 | [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Да | Да |
-| [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Да | **Нет** |
+| [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Да | Да |
 | [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Да | **Нет** |
 | [Новая группа](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Да | Да |
 | [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Да | Да |
 | [New-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Да | Да |
-| [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Да | **Нет** |
+| [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [Удаление группы](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Да | Да |
 | [Remove-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | Да | Да |
 | [Remove-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Да | Да |
@@ -78,7 +79,7 @@ ms.locfileid: "44944145"
 | [Remove-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | Да | **Нет** |
 | [Remove-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | Да | **Нет**|
 | [Remove-TeamUser](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | Да | Да |
-| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Да | **Нет** |
+| [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | Да | Да |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | Да | Да |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | Да | Да |
@@ -87,7 +88,7 @@ ms.locfileid: "44944145"
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Да | **Нет** |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Да | **Нет** |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 

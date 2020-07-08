@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить и подключить SBC к прямой маршрутизации телефонной системы.
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691265"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077624"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Подключение контроллера границ сеансов (SBC) к прямой маршрутизации
 
@@ -40,7 +40,7 @@ ms.locfileid: "44691265"
 
 1. На панели навигации слева перейдите к **Voice**  >  **перенаправлению**голосовой почты, а затем откройте вкладку **SBCs** .
 2. Нажмите **Добавить**.
-3. Введите полное доменное имя для SBC. <br><br>Убедитесь, что часть доменного имени FQDN совпадает с именем домена, зарегистрированного в вашем клиенте, и имейте в виду, что имя `*.onmicrosoft.com` домена не поддерживается для доменного имени SBC. Например, если у вас есть два доменных имени `contoso.com` и `contoso.on.microsoft.com` используется в `sbc.contoso.com` качестве имени SBC.
+3. Введите полное доменное имя для SBC. <br><br>Убедитесь, что часть доменного имени FQDN совпадает с именем домена, зарегистрированного в вашем клиенте, и имейте в виду, что имя `*.onmicrosoft.com` домена не поддерживается для доменного имени SBC. Например, если у вас есть два доменных имени `contoso.com` и `contoso.onmicrosoft.com` используется в `sbc.contoso.com` качестве имени SBC.
 4. Настройте для SBC следующие параметры в соответствии с потребностями Организации. Подробнее об этих параметрах можно узнать в разделе [Параметры SBC](#sbc-settings).
 
     ![Снимок экрана: Добавление страницы SBC в центре администрирования Microsoft Teams](media/direct-routing-add-sbc.png)
