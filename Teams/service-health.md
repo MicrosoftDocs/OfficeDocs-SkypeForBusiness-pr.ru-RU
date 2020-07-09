@@ -16,20 +16,25 @@ f1.keywords:
 description: Рекомендуется проверить работоспособность службы Teams, а также других компонентов Microsoft 365 или Office 365 (например, Exchange, SharePoint и OneDrive для бизнеса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690175"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085525"
 ---
-<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="739ea-103">Проверка работоспособности службы для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="739ea-103">Verify service health for Microsoft Teams</span></span>
+<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="6c497-103">Проверка работоспособности службы для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6c497-103">Verify service health for Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="739ea-104">Служба работоспособности служб для Microsoft Teams отображается в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="739ea-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="739ea-105">Ее лучше всего проверить перед устранением неполадок.</span><span class="sxs-lookup"><span data-stu-id="739ea-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span> <span data-ttu-id="739ea-106">Перейдите в консоль <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">работоспособности службы Teams</a> , чтобы проверить работоспособность службы.</span><span class="sxs-lookup"><span data-stu-id="739ea-106">Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.</span></span>
+<span data-ttu-id="6c497-104">Служба работоспособности служб для Microsoft Teams отображается в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="6c497-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="6c497-105">Ее лучше всего проверить перед устранением неполадок.</span><span class="sxs-lookup"><span data-stu-id="6c497-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span> <span data-ttu-id="6c497-106">Перейдите в консоль <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">работоспособности службы Teams</a> , чтобы проверить работоспособность службы.</span><span class="sxs-lookup"><span data-stu-id="6c497-106">Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.</span></span>
 
-<span data-ttu-id="739ea-107">Кроме того, имейте в виду, что Microsoft Teams строится на основе дополнительных служб Microsoft 365 или Office 365, поэтому при просмотре работоспособности служб не забудьте также проверить состояние Exchange, SharePoint и OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="739ea-107">Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="739ea-108">Проблемы с их работоспособностью еще не означают, что затронута служба Microsoft Teams (например, недоступно скачивание адресной книги в Exchange), однако следует проконсультироваться со справочными материалами по этим службам.</span><span class="sxs-lookup"><span data-stu-id="739ea-108">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
+<span data-ttu-id="6c497-107">Кроме того, имейте в виду, что Microsoft Teams строится на основе дополнительных служб Microsoft 365 или Office 365, поэтому при просмотре работоспособности служб не забудьте также проверить состояние Exchange, SharePoint и OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="6c497-107">Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="6c497-108">Проблемы с их работоспособностью еще не означают, что затронута служба Microsoft Teams (например, недоступно скачивание адресной книги в Exchange), однако следует проконсультироваться со справочными материалами по этим службам.</span><span class="sxs-lookup"><span data-stu-id="6c497-108">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
 
 ![Снимок экрана со страницей работоспособности службы.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Снимок экрана со сведениями о том, что служба Microsoft Teams работоспособна.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a><span data-ttu-id="6c497-111">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="6c497-111">Related topics</span></span>
+
+[<span data-ttu-id="6c497-112">Устранение неполадок Teams</span><span class="sxs-lookup"><span data-stu-id="6c497-112">Teams Troubleshooting</span></span>](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
