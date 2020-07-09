@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Использование отчетов Power BI для отслеживания использования Microsoft Teams в Организации.
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: Использование отчетов Power BI для доступа к данным об использовании панели мониторинга качества вызовов Microsoft Teams (CQD) для отслеживания использования Microsoft Teams в Организации.
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978558"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085585"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Просмотр использования Microsoft Teams в Power BI с использованием данных CQD
 
 В 2020 марта мы добавили отчет об использовании Teams в [шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
-Новые отчеты об использовании Teams позволяют узнать, как (и сколько) ваши пользователи работают в Microsoft Teams. Эти отчеты предназначены для централизованного хранения данных и могут быстро переходить от администраторов и руководителей предприятий.
+Эти новые отчеты об использовании Teams позволяют узнать, как (и сколько) ваши пользователи работают с Microsoft Teams, выполнив доступ к данным на панели мониторинга качества вызовов Teams (CQD). Эти отчеты предназначены для централизованного хранения данных и могут быстро переходить от администраторов и руководителей предприятий.
 
 Отчет Power BI для работы с группами состоит из двух основных отчетов: **[Сводка по количеству звонков](#call-count-summary-report)** и **[Сводка по звуковым минутам](#audio-minutes-summary-report)**. [Ежедневное использование](#daily-usage), [сведения о региональных](#regional-audio-details)параметрах, [сведения о конференции](#conference-details) и отчеты о [списках пользователей](#user-list) воспринимаются, когда пользователь использует преимущества подробных отчетов, указанных в описании ниже.
 
@@ -51,7 +51,7 @@ ms.locfileid: "42978558"
   ![Снимок экрана: отчеты об использовании Teams](media/CQD-teams-utilization-report4.png)
 
 В левом нижнем углу страницы находится таблица, предоставляющая общие значения для каждого типа мультимедиа за последний год. 
-    ![Снимок экрана: снимок отчета](media/CQD-teams-utilization-report5.png) ![об использовании teams: отчеты об использовании Teams](media/CQD-teams-utilization-report6.png)   
+    ![Снимок экрана: снимок отчета об использовании Teams ](media/CQD-teams-utilization-report5.png) ![ : отчеты об использовании Teams](media/CQD-teams-utilization-report6.png)   
 
 На линейчатой диаграмме справа от таблицы отображаются клиенты с наибольшей эффективностью использования (вызовы/потоки) за последние 30 дней.
    ![Снимок экрана: отчеты об использовании Teams](media/CQD-teams-utilization-report7.png)
@@ -156,7 +156,7 @@ ms.locfileid: "42978558"
 В нижней таблице приведены подробные сведения о сеансах, в которых участвовали пользователи в течение этого часа. Столбец "тип сбоя" полезен при определении того, что вызвало удаление звонка. Столбцы «захват» и «рендеринг» полезны для определения причины, по которой во время звонка возникло низкое качество.
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
@@ -167,4 +167,6 @@ ms.locfileid: "42978558"
 [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

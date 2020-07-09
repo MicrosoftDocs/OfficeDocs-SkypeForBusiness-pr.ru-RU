@@ -17,12 +17,12 @@ description: Сведения о том, как настроить планы з
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690885"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083159"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -74,6 +74,7 @@ ms.locfileid: "44690885"
 - Клиент Teams Mobile для клиента Apple iOS версии 1.0.92.2019121004 и App Store версии 1.0.92 и выше
 - Клиент Teams Mobile для Android Client и Google Play Store версии 1416/1.0.0.2019121201 и выше
 - Teams Phone 1449/1.0.94.2019110802 и более поздних версий
+- Комнаты Teams версии 4.4.25.0 и выше
 
 ## <a name="assign-emergency-addresses"></a>Назначение адресов для экстренного реагирования
 
@@ -208,7 +209,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ERSP для тестовых служб.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>Связанные статьи
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)

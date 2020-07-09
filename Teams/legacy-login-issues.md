@@ -17,12 +17,12 @@ description: Устранение неполадок, связанных с по
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489168"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085155"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Проблемы с получением сообщений и звонков в устаревших системах
 ==============================================================
@@ -45,3 +45,8 @@ ms.locfileid: "44489168"
 ## <a name="skype-token-revocation"></a>Отзыв маркеров Skype
 
 При изменении или сбросе пароля старые клиенты не смогут получать сообщения и звонки в течение часа. Чтобы устранить эту проблему, перезапустите приложение или перейдите к новым клиентам.
+
+
+## <a name="related-topics"></a>Статьи по теме
+
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

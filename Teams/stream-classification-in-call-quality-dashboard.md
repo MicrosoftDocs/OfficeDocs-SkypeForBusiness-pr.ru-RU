@@ -1,10 +1,10 @@
 ---
-title: Классификация потоков в Панели мониторинга качества звонка
-ms.author: tonysmit
-author: tonysmit
+title: Классификация потоков на панели мониторинга качества звонков (CQD)
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: В этой статье рассказывается о том, как можно классифицировать качество потока на панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online.
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160743"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085895"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Классификация потоков на панели мониторинга качества звонков (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Определения классификатора
 
-Потоки в CQD классифицируются как _качественные_, _плохие_или _Неклассифицированные_ на основе значений доступных метрик качества ключа. В приведенных ниже таблицах показаны показатели и условия, используемые для классификации потока. Для понимания того, какая метрика несет ответственность за _некачественную_ классификацию, можно использовать измерения "плохо в CQD". Дополнительные сведения об этих измерениях можно найти [в разделе измерения и меры, доступные в панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Звуковой классификатор
 
@@ -41,7 +41,7 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 |Показатель|Условие|Пояснение|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Средняя сеть — это снижение очков для потока. Сколько потерь сети и колебаний влияют на качество полученного звука.|
+|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
 |Round Trip|>500|Среднее время распространения сети для кругового приема, вычисленное в миллисекундах. Подробные сведения можно найти в [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
 |Искажение|> 30|Среднее дрожание для потока в миллисекундах.|
@@ -115,10 +115,18 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 > Измерение «Утилизация пакета» и измерение «Среднее использование пакета» могут использоваться для определения активности пакета в потоке.
 
 ## <a name="related-topics"></a>Связанные разделы
+[Улучшение и мониторинг качества связи для Teams](monitor-call-quality-qos.md)
 
-[Включение и использование панели мониторинга качества звонков (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[Что такое CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Настройка панели мониторинга качества звонков (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[Отправка клиента и создание данных](CQD-upload-tenant-building-data.md)
+
+[Данные CQD и отчеты](CQD-data-and-reports.md)
+
+[Использование CQD для управления качеством звонков и собраний](quality-of-experience-review-guide.md)
+
+[Измерения и меры, доступные в CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Анализ данных CQD с помощью Power BI](CQD-Power-BI-query-templates.md)

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Используйте отчет о прямой маршрутизации CQD КТСОП для контроля и устранения неполадок, связанных с использованием PSTN в Microsoft Teams.
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Используйте для мониторинга и устранения неполадок, связанных с телефонным подключением PSTN в Microsoft Teams, использование панели мониторинга качества звонков Microsoft Teams (CQD)).
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221753"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085345"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Использование отчета о прямой маршрутизации CQD PSTN
 
-Новая версия в марте 2020 добавлена в [шаблоны запросов на Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true), CQD КТСОП Direct Routing. 
+Новая версия в марте 2020. Мы добавили в [шаблоны запросов на поддержку Power BI](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)на панели мониторинга качества обзвона Microsoft Teams (CQD) по протоколу PSTN. 
 
 
 Отчет о прямой маршрутизации CQD КТСОП (CQD КТСОП Direct Routing Reporting) поможет вам понять принципы использования и качество обслуживания PSTN. Этот отчет служит для наблюдения за использованием службы, сведениями о контроллере границ сеанса (SBC), службе телефонии, параметрах сети и коэффициентах эффективности сети. Эти сведения помогут вам определить проблемы, в том числе причину прерванных звонков. Например, вы сможете видеть, когда вы снижаете уровень громкости, а также о том, сколько звонков будет затронуто и по какой причине.
@@ -143,6 +143,8 @@ ms.locfileid: "44221753"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Анализ данных CQD в Microsoft Teams с помощью Power BI](CQD-PSTN-report.md)
+
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

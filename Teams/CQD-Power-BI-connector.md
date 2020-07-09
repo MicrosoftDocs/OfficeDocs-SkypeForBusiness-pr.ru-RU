@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Установка соединителя Power BI для использования шаблонов запросов CQD
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Установка соединителя Power BI для использования шаблонов запросов на панели мониторинга качества звонков (CQD)
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690935"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085575"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка соединителя Power BI для использования шаблонов запросов CQD
 
-Перед использованием шаблонов запросов Power BI для CQD (PBIX-файлов) необходимо установить соединитель Power BI для Microsoft CQD с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Прежде чем использовать шаблоны запросов Power BI (PBIX-файлы) для панели мониторинга качества звонков Microsoft Teams (CQD), вам потребуется установить соединитель Power BI для Microsoft CQD с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 Читайте в статье [Power BI, чтобы проанализировать CQD данные для Teams](CQD-Power-BI-query-templates.md) , чтобы узнать об этих шаблонах.
 
@@ -178,6 +178,6 @@ ms.locfileid: "44690935"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Анализ данных CQD для Teams с помощью Power BI](CQD-Power-BI-query-templates.md)

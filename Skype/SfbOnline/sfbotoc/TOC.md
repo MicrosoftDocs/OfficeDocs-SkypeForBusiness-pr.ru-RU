@@ -271,7 +271,7 @@
 ### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 
-## [Аналитика звонков и панель мониторинга качества звонков](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [Аналитика звонков и панель мониторинга качества звонков](/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Измерения и меры на панели мониторинга качества звонков](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Включение и использование панели мониторинга качества звонков](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

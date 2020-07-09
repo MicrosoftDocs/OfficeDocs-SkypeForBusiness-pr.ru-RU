@@ -13,12 +13,12 @@ ms.collection:
 description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944140"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085885"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Установка Microsoft Teams PowerShell
 
@@ -26,7 +26,7 @@ ms.locfileid: "44944140"
 
 ## <a name="requirements"></a>Требования
 
-Оболочки PowerShell для Teams работают с PowerShell 6.2.4 и более поздними версиями на всех платформах. Кроме того, она поддерживается в PowerShell 5,1 для Windows. Установите [последнюю версию PowerShell](/powershell/scripting/install/installing-powershell) , доступную для вашей операционной системы. В среде PowerShell 6.2.4 и более поздних версий отсутствуют дополнительные требования для Teams PowerShell.
+Для команд PowerShell требуется PowerShell 5,1 или более новой платформы на всех платформах. Установите [последнюю версию PowerShell](/powershell/scripting/install/installing-powershell) , доступную для вашей операционной системы.
 
 > [!WARNING]
 > Обнаружены проблемы с PowerShell 7 и Teams PowerShell. Для оптимальной работы мы рекомендуем использовать PowerShell 5,1.
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 По умолчанию коллекция PowerShell (PSGallery) не настроена как доверенный репозиторий для **PowerShellGet**. При первом использовании PSGallery появляется следующее сообщение:
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Ответьте `Yes` на вопрос или `Yes to All` продолжите установку.
+Ответьте **Да** или **Да,** чтобы продолжить установку.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Установка общедоступной предварительной версии PowerShell для Teams
@@ -137,7 +137,7 @@ Uninstall-Module MicrosoftTeams
 
 Теперь вы можете управлять группами с помощью PowerShell Teams. Чтобы приступить к работе, ознакомьтесь со статьей [Управление группами с помощью PowerShell Teams](teams-powershell-managing-teams.md) .
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Управление группами с помощью PowerShell Teams](teams-powershell-managing-teams.md)
 

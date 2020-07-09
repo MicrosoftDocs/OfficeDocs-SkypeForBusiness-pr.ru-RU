@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: С помощью диспетчера конфигураций конечных точек Майкрософт вы можете выполнить массовое развертывание Microsoft Teams для выбора пользователей или компьютеров.
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902814"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088197"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -85,8 +85,8 @@ MSI Teams помещает установщик в папку Program Files. В�
 > Дальнейшие действия содержат сведения о том, как изменить реестр. Убедитесь, что вы заархивированы в реестр перед изменением и знаете, как восстановить реестр в случае возникновения проблемы. Дополнительные сведения о том, как создавать резервные копии, восстанавливать и изменять реестр, можно найти в разделе [сведения о Windows для опытных пользователей](https://support.microsoft.com/help/256986).
 
 1. Удалите приложение Teams, установленное для каждого профиля пользователя. Дополнительные сведения можно найти в разделе [Удаление Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
-2. Рекурсивно удалите каталог `%localappdata%\Microsoft\Teams\`.
-3. Удалите значение `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` реестра.
+2. Рекурсивно удалите каталог `%localappdata%\Microsoft\Teams\` .
+3. Удалите `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` значение реестра.
 4. Повторно разверните пакет MSI на этом конкретном компьютере.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Предотвратить автоматический запуск команд после установки

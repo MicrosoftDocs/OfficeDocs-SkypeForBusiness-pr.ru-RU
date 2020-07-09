@@ -18,11 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049416"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085245"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -175,3 +176,6 @@ FindTime — это надстройка для Outlook, которая помо
 Если ваш администратор настроил Microsoft Exchange для [управления доступом к Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представитель не сможет запланировать собрание Teams от имени руководителя. Решение для этой конфигурации находится в процессе разработки и будет выпущено в будущем. В качестве обходного пути администратор может добавить в список разрешений EWS следующую строку: "*SchedulingService*". 
 
 
+## <a name="related-topics"></a>Статьи по теме
+
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

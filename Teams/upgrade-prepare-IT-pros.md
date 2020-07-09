@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868146"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085905"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Подготовка ИТ – IT для Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "44868146"
 - [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
 - [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 
-[//]: # (Спросить Debbie на scrutinize:)
+
 
 | | |
 |---|---|

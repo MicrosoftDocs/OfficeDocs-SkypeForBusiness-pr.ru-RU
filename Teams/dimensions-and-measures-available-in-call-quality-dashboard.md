@@ -1,10 +1,10 @@
 ---
-title: Измерения и измерения — панель мониторинга качества звонков
+title: Измерения и измерения — панель мониторинга качества звонков (CQD)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: Получение подробных сведений об измерениях и измерениях, используемых на панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online.
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: Получение подробных сведений об измерениях и измерениях, используемых на панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online.
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938518"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085785"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Измерения и измерения, доступные в панели мониторинга качества звонков
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Измерения и измерения, доступные в панели мониторинга качества звонков (CQD)
 
-На панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online вы сможете лучше понять качество звонков, осуществляемых с помощью этих служб. В этой статье приведены подробные сведения об измерениях и измерениях, видимых через CQD. Чтобы узнать больше о CQD, ознакомьтесь со статьей [Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online](turning-on-and-using-call-quality-dashboard.md).
+На панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online вы сможете лучше понять качество звонков, осуществляемых с помощью этих служб. В этой статье приведены подробные сведения об измерениях и измерениях, видимых через CQD. Дополнительные сведения о CQDах можно найти [в статье Использование CQD для управления качеством звонков и собраний в Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## <a name="first-and-second-endpoint-classification"></a>Классификация первых и вторых конечных точек
 
@@ -170,7 +170,7 @@ ms.locfileid: "44938518"
 | First User Agent  | String  | Строка агента пользователя для первой конечной точки. <br/> **Пример значения:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype для бизнеса) | &bull;Для первой конечной точки не указан агент пользователя   |
 | Second User Agent  | String  | Строка агента пользователя для второй конечной точки. <br/> **Пример значения:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype для бизнеса) | &bull;Вторая конечная точка не сообщила ни одного агента пользователя   |
 | Conference Type  | Перечисление <br/>**Возможные значения:** <br/>&bull;conf: ApplicationSharing <br/>&bull;conf: аудио-видео <br/>&bull;conf: фокус | Тип URI конференции.  <br/> **Пример значения:** conf: аудио-видео | &bull;Сценарий, не относящийся к Конференции.   |
-| Идентификатор конференции  | String | Идентификатор конференции (или идентификатор вызова), связанный с потоками. В cqd.teams.microsoft.com все звонки имеют идентификатор звонка, независимо от того, являются ли они звонком для человека (P2P) или конференц-связь. В cqd.lync.com это значение относится только к avialble для конференций Skype для бизнеса.  Это измерение может содержать слишком много строк для использования в качестве измерения в отчете. Вместо этого его можно использовать как фильтр.  <br/> **Пример значения (CQD.Lync.com):** 0001P6GK <br/> **Пример значения (CQD.Teams.Microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| Идентификатор конференции  | String | Идентификатор конференции (или идентификатор вызова), связанный с потоками. В cqd.teams.microsoft.com все звонки имеют идентификатор звонка, независимо от того, являются ли они звонком для человека (P2P) или конференц-связь. В cqd.lync.com это значение доступно только для звонков на Конференц-связь в Skype для бизнеса.  Это измерение может содержать слишком много строк для использования в качестве измерения в отчете. Вместо этого его можно использовать как фильтр.  <br/> **Пример значения (CQD.Lync.com):** 0001P6GK <br/> **Пример значения (CQD.Teams.Microsoft.com):** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Пример значения:** 16.0.7766.2047 | &bull;Не удалось проанализировать строку версии <br/>&bull;Значение не было отправлено.   |
 | Second Client App Version  | Строка  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Пример значения:** 16.0.7766.2047 | &bull;Не удалось проанализировать строку версии <br/>&bull;Значение не было отправлено. |
 |Идентификатор собрания (в cqd.teams.microsoft.com) <br/> Идентификатор конференции (в cqd.lync.com) |String |Идентификатор собрания, созданный при создании собрания. <br/> **Пример значения (Skype для бизнеса):** 0001P6GK  <br/> **Пример значения (Teams):** 19: meeting_MzB... zIw@thread v2| |
@@ -699,11 +699,20 @@ The \<sort order string> is used to control the sort order when presenting the d
 
 Многие значения измерения и измерения также можно использовать в качестве фильтров. Вы можете использовать фильтры в запросе для удаления данных так же, как и при выборе измерения или измерения для добавления или включения данных в запрос.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
-[Настройка средства аналитики звонков в Skype для бизнеса](set-up-call-analytics.md)
+[Улучшение и мониторинг качества связи для Teams](monitor-call-quality-qos.md)
 
-[Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Что такое CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[Настройка панели мониторинга качества звонков (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Отправка клиента и создание данных](CQD-upload-tenant-building-data.md)
+
+[Данные CQD и отчеты](CQD-data-and-reports.md)
+
+[Использование CQD для управления качеством звонков и собраний](quality-of-experience-review-guide.md)
+
+[Классификация потоков в CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Анализ данных CQD с помощью Power BI](CQD-Power-BI-query-templates.md)

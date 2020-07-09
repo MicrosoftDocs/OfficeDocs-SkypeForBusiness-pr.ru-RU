@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665171"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085175"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Включение Microsoft 365 или Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665171"
 | ПРИМЕР 7  | Подтверждение администраторов клиентов | Работайте с группами безопасности, чтобы разработать модель администрирования Microsoft 365 или Office 365. <br/><br/>Обязательно определите всех администраторов клиентов и служб и задокументируйте это. | | [Сведения о ролях администраторов Microsoft 365 и Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 Мбит  | Реализация административных ролей для своего клиента | Убедитесь в том, что модель администрирования отвечает потребностям вашей организации, а также назначьте администраторам Microsoft 365 или Office 365 роли администратора. | | [Назначение ролей администратора в Microsoft 365 или Office 365 для бизнеса](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | Шаг 9  | Вход в панель мониторинга качества звонка (ПМКЗ) для отправки сведений о строении | Каждое развертывание Teams должно использовать ПМКЗ для получения сведений о качестве и надежности всех звонков, использующих Teams. <br><br>Используйте руководство по ПМКЗ, указанное в столбце **Дополнительная информация**, чтобы извлечь из этого средства максимальную пользу. | | [Планирование управления службами и обеспечения их качества](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Руководством по анализу процедуры обеспечения качества](https://aka.ms/qerguide) <br/><br/>[Шаблоны для анализа процедуры обеспечения качества](https://aka.ms/qertemplates) <br/><br/>[Включение и использование панели мониторинга качества звонка в Skype для бизнеса Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Отправка сведений о строении](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | Проверка обработки сведений о строении и работы панели мониторинга качества звонка (ПМКЗ) для клиента | | | [Панель мониторинга качества звонка](https://cqd.lync.com) |
+| 10%  | Проверка обработки сведений о строении и работы панели мониторинга качества звонка (ПМКЗ) для клиента | | | [Панель мониторинга качества звонка](https://cqd.teams.microsoft.com) |

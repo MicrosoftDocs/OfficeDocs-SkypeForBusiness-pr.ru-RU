@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868706"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086195"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "44868706"
 
     ![Скриншот сообщения архива команд](media/teams-archive-message.png)
 
-4. Если вы хотите сделать сайт SharePoint доступным только для чтения, установите флажок.
+4. Чтобы запретить пользователям изменять контент на сайтах SharePoint и вкладках вики, связанных с командой, выберите **сделать сайт SharePoint только для чтения для участников группы**. (Владельцым Teams будут по-прежнему доступны изменения этого содержимого.)
 5. Выберите **Архив**, чтобы архивировать команду. Статус команды изменится на **Архивирован**.
 
 ## <a name="make-an-archived-team-active"></a>Сделайте архивную команду активной

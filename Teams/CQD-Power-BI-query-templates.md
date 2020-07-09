@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Проанализируйте данные CQD в Microsoft Teams с помощью Power BI.
-ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158966"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086185"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Анализ данных CQD в Microsoft Teams с помощью Power BI
 
 Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
 
-Если вы хотите использовать Power BI для запроса и создания отчетов о ваших данных, скачайте CQD шаблоны Power BI для CQD. Когда вы открываете шаблоны в Power BI, вам будет предложено выполнить вход с учетными данными администратора CQD. Вы можете настроить эти шаблоны запросов и распространить их среди всех пользователей в Организации, у которых есть лицензия на Power BI и разрешения администратора CQD.
+Если вы хотите использовать Power BI для запроса и создания отчетов о ваших данных, скачайте шаблоны CQD для CQD Power BI в Teams. Когда вы открываете шаблоны в Power BI, вам будет предложено выполнить вход с учетными данными администратора CQD. Вы можете настроить эти шаблоны запросов и распространить их среди всех пользователей в Организации, у которых есть лицензия на Power BI и разрешения администратора CQD.
 
 Прежде чем вы сможете использовать эти файлы PBIT-, вам потребуется [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
@@ -47,7 +47,7 @@ ms.locfileid: "44158966"
 > После того как вы настроили отчеты Power BI для CQD данных, добавьте их в канал как вкладку. После выбора **+** канала выберите **Power BI** , а затем найдите нужный отчет. Для получения дополнительных сведений прочитайте [отчет о внедрении с вкладкой Power BI для Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Помните, что эти отчеты могут получать только пользователи с лицензией Power BI и CQD учетными данными администратора.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные статьи
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
