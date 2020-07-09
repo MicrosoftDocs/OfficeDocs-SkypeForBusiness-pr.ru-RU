@@ -18,11 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 83872fd1a98bc75a2872651e0ed8085ef815d082
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042801"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085715"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -68,7 +69,7 @@ ms.locfileid: "45042801"
 |Количество вложенных файлов<sup>2</sup>  |10     |
 |Размер чата | Около 28 КБ на запись<sup>3</sup> |
 
-<sup>1</sup>Если в чате участвует больше 20 пользователей, будут отключены следующие функции чата: автоматические ответы Outlook и сообщения о состоянии Teams, индикатор ввода, голосовые и видеозвонки, уведомления о прочтении.
+<sup>1</sup>Если в чате участвует больше 20 пользователей, будут отключены следующие функции чата: автоматические ответы Outlook и сообщения о состоянии Teams, индикатор ввода, голосовые и видеозвонки, уведомления о прочтении. Кнопка "Задать параметры доставки" (!) также удаляется, когда чаты в частной группе содержат более 20 участников.
 
 <sup>2</sup>Если число вложений превышает это ограничение, появится сообщение об ошибке.
 
