@@ -255,6 +255,7 @@
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Блокировка входящих звонков](block-inbound-calls.md)
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
