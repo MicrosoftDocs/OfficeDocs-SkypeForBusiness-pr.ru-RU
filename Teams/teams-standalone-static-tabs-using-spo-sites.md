@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Вы можете использовать существующий сайт или страницу SharePoint Online, а также создать отдельную статическую вкладку, которую можно использовать в вашей организации в качестве портала интрасети.
 localization_priority: Priority
-ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326586"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083169"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
 
@@ -105,7 +105,7 @@ ms.locfileid: "44326586"
 
 ## <a name="a-sample-manifestjson-file"></a>Пример файла manifest.JSON.
 
-Созданный вами файл JSO        будет выглядеть примерно так, как показано ниже.
+Созданный вами файл JSON будет выглядеть примерно так, как показано ниже.
 
 ```JSON'
 {
