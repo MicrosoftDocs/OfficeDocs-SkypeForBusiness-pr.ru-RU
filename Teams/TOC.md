@@ -694,21 +694,29 @@
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
-## [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
-### [Руководство по анализу качества взаимодействия](quality-of-experience-review-guide.md)
-### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
+## Отслеживание качества звонка и управление им
+### [Отслеживание и улучшение качества звонка](monitor-call-quality-qos.md)
+### Панель мониторинга качества звонка (ПМКЗ)
+#### [Что такое ПМКЗ?](CQD-what-is-call-quality-dashboard.md)
+#### [Настройка ПМКЗ](turning-on-and-using-call-quality-dashboard.md)
+#### [Отправка клиента и создание данных](CQD-upload-tenant-building-data.md)
+#### [Данные и отчеты ПМКЗ](CQD-data-and-reports.md)
+#### [Использование ПМКЗ для управления качеством звонков и собраний](quality-of-experience-review-guide.md)
+#### [Вопросы и ответы](CQD-frequently-asked-questions.md)
+#### [Измерения и меры на ПМКЗ](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Классификация потоков в ПМКЗ](stream-classification-in-call-quality-dashboard.md)
+#### [Создание карты здания](CQD-building-mapping.md)
+#### Использование Power BI для анализа данных ПМКЗ
+##### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
+##### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
+##### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
+##### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
+### Аналитика звонков
+#### [Настройка аналитики звонков](set-up-call-analytics.md)
+#### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Качество обслуживания (QoS)
+#### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
 #### [Настройка качества обслуживания в клиентах Windows](QoS-in-Teams-clients.md)
-### [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Настройка аналитики звонков](set-up-call-analytics.md)
-### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
-### Использование Power BI для анализа данных ПМКЗ
-#### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
-#### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
-#### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
-#### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
-### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 ## [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
@@ -717,6 +725,7 @@
 ## [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
