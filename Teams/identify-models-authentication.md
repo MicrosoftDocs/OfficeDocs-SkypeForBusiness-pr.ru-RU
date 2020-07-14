@@ -1,12 +1,12 @@
 ---
 title: Модели удостоверений и проверка подлинности
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ description: Сведения о различных моделях удосто�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 330a197f2e042ee8d87e294f9ff822c6bf6d5ac6
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665681"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121569"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Модели удостоверений и проверка подлинности в Microsoft Teams
 ==========================================

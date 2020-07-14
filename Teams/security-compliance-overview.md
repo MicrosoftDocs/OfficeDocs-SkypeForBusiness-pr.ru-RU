@@ -5,7 +5,7 @@ ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: anwara
 audience: admin
 description: Общие сведения о средствах обеспечения безопасности и соответствия требованиям Microsoft Teams, включая аудит и создание отчетов, поиск по соответствию требованиям, обнаружение электронных данных и многое другое.
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5d4c19de7fdc8bfc4ed0608841613514d09fae27
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868086"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121389"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Безопасность и соответствие требованиям в Microsoft Teams
 
@@ -195,7 +195,7 @@ Teams использует следующие стандарты: [iso 27001](ht
 
 Подробные сведения можно найти в [ресурсах по защите данных](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides). Teams также обеспечивает соответствие нормам Cloud Security Alliance.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Безопасность Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)
 

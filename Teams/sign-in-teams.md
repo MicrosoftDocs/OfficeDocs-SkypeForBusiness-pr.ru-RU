@@ -1,13 +1,13 @@
 ---
 title: Вход в Teams с современной проверкой подлинности
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: MSFTTracyP
+ms.author: tracyp
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ''
+ms.reviewer: anwara
 description: Узнайте, как работает современная проверка подлинности, как переключаться между учетными записями и как устранять неполадки с современной проверкой подлинности. В этой статье содержатся инструкции о том, как настроить в Teams игнорирование автоматического заполнения имени пользователя (UPN) при входе.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb5b21be6b45aab617c0bcb48fbcbb2d404a816
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: b8db647d5021aee124dec794e8711662de9f0a1c
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085445"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121369"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================

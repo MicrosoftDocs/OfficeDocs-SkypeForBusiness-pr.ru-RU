@@ -1,15 +1,15 @@
 ---
 title: Поиск контента в Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Сведения об использовании поиска контента в Microsoft Teams для запроса данных Microsoft Teams из Exchange, SharePoint Online, OneDrive для бизнеса и OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690445"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121529"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -90,6 +90,6 @@ ms.locfileid: "44690445"
     ```
 3. Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [варианты обнаружения электронных данных в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
