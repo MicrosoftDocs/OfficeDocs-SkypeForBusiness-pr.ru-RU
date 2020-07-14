@@ -18,12 +18,12 @@ f1.keywords:
 description: Управление функциями и возможностями гостевого доступа Microsoft Teams ведется с помощью четырех разных уровней авторизации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689805"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098367"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Авторизация гостевого доступа в Microsoft Teams
 ===========================================
@@ -104,7 +104,7 @@ ms.locfileid: "44689805"
 
 Эти параметры применяются на уровне клиента и управляют взаимодействием с гостями в группах Microsoft 365 и Teams.
 
-Дополнительные сведения о гостевом доступе в группах, включая принцип работы гостевого доступа, как управлять гостевым доступом и ответы на часто задаваемые вопросы, см. в статье [Гостевой доступ в группах Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Дополнительные сведения о гостевом доступе в группах, включая принцип работы гостевого доступа, как управлять гостевым доступом и ответы на часто задаваемые вопросы, см. в статьях [Управление гостевым доступом в группах Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#manage-groups-guest-access) и [Гостевой доступ в группах Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Управление гостевым доступом к SharePoint Online и OneDrive для бизнеса
 
