@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: 1b8e1582e1f3eba65802d4b1c181f8e0ba319eb0
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868606"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125992"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -65,7 +65,7 @@ ms.locfileid: "44868606"
 |---------|---------|
 |Skype для бизнеса |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
-|Телефонные системы |    &#x2714; |
+|Телефонная система |    &#x2714; |
 |Аудиоконференция |       &#x2718; &SUP1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
 |Доступность в разных странах мира |    &#x2714; |
