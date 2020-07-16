@@ -117,6 +117,7 @@
 #### [Обзор](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Отчет об использовании Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md)
+#### [Отчет об использовании приложения Teams](teams-analytics-and-reports/app-usage-report.md)
 #### [Отчет об использовании устройств в Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Отчет о заблокированных пользователях ТСОП](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [Отчет о пулах минут, затраченных по ТСОП](teams-analytics-and-reports/pstn-minute-pools-report.md)
@@ -130,7 +131,6 @@
 ## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
-## [Возможности выступающего и участника в собрании Teams](roles-in-meetings.md)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -255,10 +255,12 @@
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Блокировка входящих звонков](block-inbound-calls.md)
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
 ### [Распределенная линия](shared-line-appearance.md)
+### [Настройка панели набора номера](dial-pad-configuration.md)
 
 
 ## Планы звонков
@@ -380,7 +382,6 @@
 #### [Управление номерами телефонов в Нидерландах](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Управление номерами телефонов в Соединенном Королевстве](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Управление номерами телефонов в США](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### Ограничения и запреты для бесплатных номеров
 #### [Обзор](toll-free-dialing-limitations-and-restrictions.md)
@@ -517,7 +518,6 @@
 #### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Планирование пилотного развертывания для пользователей](pilot-essentials.md)
 
-
 ### Подготовка среды для Teams
 #### [Обзор технической готовности](upgrade-prepare-environment.md)
 #### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
@@ -530,12 +530,10 @@
 #### [Оценка готовности организации к изменению](upgrade-org-change-readiness.md)
 #### [Подготовка плана готовности пользователей](upgrade-user-readiness.md)
 
-
 ## Реализация перехода
 ### [Обзор](upgrade-to-Teams.md)
 ### [Переход со Skype для бизнеса Online на Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Переход с локальной среды Skype для бизнеса на Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Использование, внедрение и оптимизация
 ### [Обзор плана работ](continue-journey.md)
@@ -552,7 +550,6 @@
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [Сначала собрания](meetings-first.md)
 
@@ -625,12 +622,7 @@
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Запуск отчета для отображения активного использования StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Планирование перемещения групп StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Пример общения по электронной почте с пользователями](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Поддержка Microsoft StaffHub прекращена](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams для сферы здравоохранения
@@ -662,6 +654,7 @@
 ### [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
 ### [Развертывание с помощью скрипта для сотрудников без компьютеров](flw-scripted-deployment.md)
 ### [RealWear для Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -679,16 +672,17 @@
 
 # Безопасность, конфиденциальность и соответствие требованиям
 ## [Обзор](security-compliance-overview.md)
-## Безопасность и конфиденциальность
+## Безопасность
 ### [Руководство по безопасности](teams-security-guide.md)
+### [Azure Sentinel и Teams](teams-sentinel-guide.md)
 ### [Модели удостоверений и проверка подлинности](identify-models-authentication.md)
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ### [Безопасные ссылки в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Конфиденциальность и Microsoft Teams](teams-privacy.md)
-### [Расположение данных в Teams](location-of-data-in-teams.md)
+### [Политики управления приложениями AppLocker](applocker-in-teams.md)
 ## Соответствие требованиям
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)
+### [Соответствие требованиям к обмену данными](communication-compliance.md)
 ### [Запись на основе политики для звонков и собраний](teams-recording-policy.md)
 ### [Защита от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Обнаружение электронных данных
@@ -697,25 +691,35 @@
 ### Поиск контента
 #### [Использование поиска контента](content-search.md)
 #### [Поиск событий в журнале аудита](audit-log-events.md)
-### [Политики управления приложениями AppLocker](applocker-in-teams.md)
+## Конфиденциальность
+### [Конфиденциальность и Microsoft Teams](teams-privacy.md)
+### [Расположение данных в Teams](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
-## [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
-### [Руководство по анализу качества взаимодействия](quality-of-experience-review-guide.md)
-### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
+## Отслеживание качества звонка и управление им
+### [Отслеживание и улучшение качества звонка](monitor-call-quality-qos.md)
+### Панель мониторинга качества звонка (ПМКЗ)
+#### [Что такое ПМКЗ?](CQD-what-is-call-quality-dashboard.md)
+#### [Настройка ПМКЗ](turning-on-and-using-call-quality-dashboard.md)
+#### [Отправка клиента и создание данных](CQD-upload-tenant-building-data.md)
+#### [Данные и отчеты ПМКЗ](CQD-data-and-reports.md)
+#### [Использование ПМКЗ для управления качеством звонков и собраний](quality-of-experience-review-guide.md)
+#### [Вопросы и ответы](CQD-frequently-asked-questions.md)
+#### [Измерения и меры на ПМКЗ](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Классификация потоков в ПМКЗ](stream-classification-in-call-quality-dashboard.md)
+#### [Создание карты здания](CQD-building-mapping.md)
+#### Использование Power BI для анализа данных ПМКЗ
+##### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
+##### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
+##### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
+##### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
+### Аналитика звонков
+#### [Настройка аналитики звонков](set-up-call-analytics.md)
+#### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Качество обслуживания (QoS)
+#### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
 #### [Настройка качества обслуживания в клиентах Windows](QoS-in-Teams-clients.md)
-### [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Настройка аналитики звонков](set-up-call-analytics.md)
-### [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Включение и использование панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md)
-### Использование Power BI для анализа данных ПМКЗ
-#### [Использование Power BI для анализа данных ПМКЗ](CQD-Power-BI-query-templates.md)
-#### [Установка соединителя Power BI для использования шаблонов запросов ПМКЗ](CQD-Power-BI-connector.md)
-#### [Получение данных ПМКЗ об использовании Teams](CQD-teams-utilization-report.md)
-#### [Использование отчета прямой маршрутизации ПМКЗ по ТСОП](CQD-PSTN-report.md)
-### [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Классификация потоков на панели мониторинга качества звонков](stream-classification-in-call-quality-dashboard.md)
 ## [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
@@ -724,6 +728,7 @@
 ## [Вопросы и ответы: поддержка удаленных сотрудников](FAQ-support-remote-workforce.md)
 ## [Проверка работоспособности службы для Teams](service-health.md)
 ## [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -770,7 +775,6 @@
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System - лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
 
-
 ## Взаимодействие с Microsoft 365 и Office 365
 
 ### [Группы Microsoft 365 и Teams](office-365-groups.md)
@@ -782,9 +786,9 @@
 ### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
 ### [Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Поддерживаемые устройства
 ### [Управление устройствами в Teams](devices/device-management.md)
+### [Удаленное обновление устройств](devices/remote-update.md)
 ### [Телефоны для Teams](devices/phones-for-teams.md)
 ### [USB-устройства для аудио и видео](devices/usb-devices.md)
 ### [Развертывание панелей совместной работы в Microsoft Teams](devices/collab-bar-deploy.md)
@@ -792,11 +796,12 @@
 ### [IP-телефоны, сертифицированные для Microsoft Teams](devices/teams-ip-phones.md)
 ### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## PowerShell в Teams
 ### [Обзор](teams-powershell-overview.md)
+### [Установка PowerShell в Teams](teams-powershell-install.md)
+### [Управление Teams с помощью PowerShell в Teams](teams-powershell-managing-teams.md)
+### [Заметки о выпуске PowerShell в Teams](teams-powershell-release-notes.md)
 ### [Справочник по командлетам для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Установка предварительной версии модуля Teams PowerShell](install-prerelease-teams-powershell-module.md)
 
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Получение справки в Teams](get-help-in-microsoft-teams.md)
