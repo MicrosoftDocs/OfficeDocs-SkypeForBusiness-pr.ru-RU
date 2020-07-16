@@ -1,13 +1,13 @@
 ---
 title: Вход в Teams с современной проверкой подлинности
-author: MSFTTracyP
-ms.author: tracyp
-manager: dansimp
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: anwara
+ms.reviewer: ''
 description: Узнайте, как работает современная проверка подлинности, как переключаться между учетными записями и как устранять неполадки с современной проверкой подлинности. В этой статье содержатся инструкции о том, как настроить в Teams игнорирование автоматического заполнения имени пользователя (UPN) при входе.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8db647d5021aee124dec794e8711662de9f0a1c
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121369"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877820"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================
@@ -128,8 +128,3 @@ Teams для iOS и Android поддерживает добавление нес
 Современная аутентификация доступна для каждой организации, которая использует Teams, поэтому, если пользователи не могут завершить процесс, возможно, что-то не так с вашим доменом или учетной записью Microsoft в вашей организации.
 
 Дополнительные сведения см. в статье [Почему у меня возникают проблемы со входом в Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
-
-
-## <a name="related-topics"></a>Связанные статьи
-
-[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
