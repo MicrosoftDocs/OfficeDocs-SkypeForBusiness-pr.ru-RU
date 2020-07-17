@@ -37,7 +37,7 @@ ms.locfileid: "44757190"
 
 _**Последнее изменение темы:** 2012-10-02_
 
-The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.
+Таблица MonitoredUserSiteLink является таблицей поддержки. Каждая запись представляет одну связь между двумя сайтами пользователей.
 
 
 <table>

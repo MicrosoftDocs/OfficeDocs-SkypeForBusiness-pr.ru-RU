@@ -104,7 +104,7 @@ ms.locfileid: "45125962"
     
 11. Вернувшись на экран входа, выберите пользователя **Skype**. Если все предыдущие действия выполнены успешно, устройство Microsoft Teams будет успешно входить в Skype.
     
-To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
+Чтобы использовать это приложение, необходимо обеспечить подключение к следующим конечным точкам. Чтобы просмотреть IP-адреса, разверните соответствующий раздел под таблицей с описанием потока трафика.
   
 **Примеры назначения имен хоста и портов для прокси-сервера брандмауэра**
 
@@ -118,7 +118,7 @@ To use this application, you must be able to connect to the endpoints described 
 |Звук  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50,000-50019  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
-|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 |Советы по клиенту Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 

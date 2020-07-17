@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
   - их можно повторно упорядочивать внутри региона с помощью командлета Set-CsDialinConferencingAccessNumber с параметром Priority.
 
-You must finish migrating dial-in access numbers that point to a Lync Server 2010 pool before you decommission the Lync Server 2010 pool. If you do not complete dial-in access number migration as described in the following procedure, incoming calls to the access numbers will fail.
+Необходимо завершить миграцию телефонных номеров доступа, указывающих на пул Lync Server 2010 перед ликвидацией пула Lync Server 2010. Если вы не завершили миграцию телефонных номеров доступа, как описано в следующей процедуре, входящие вызовы на эти номера не будут работать.
 
 <div>
 

@@ -72,7 +72,7 @@ _**Последнее изменение темы:** 2012-10-04_
     
 
     > [!NOTE]  
-    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error.
+    > При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать.
 
     
     </div>

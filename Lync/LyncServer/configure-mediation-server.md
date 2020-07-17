@@ -39,7 +39,7 @@ _**Последнее изменение темы:** 2012-09-28_
 
 В этой процедуре описываются действия по настройке пула Lync Server 2013 для использования сервера-посредника Lync Server 2013 вместо устаревшего сервера Office Communications Server 2007 R2.
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+Чтобы успешно опубликовать, включить или отключить топологию при добавлении или удалении роли сервера, необходимо выполнить вход в качестве члена групп RTCUniversalServerAdmins и "Администраторы домена". Кроме того можно делегировать надлежащие права и разрешения администратора для добавления ролей сервера. Дополнительные сведения см. в разделе "Делегирование разрешений на установку" в документации по развертыванию сервера Standard Edition или сервера Enterprise Edition. Для всех остальных изменений конфигурации требуется только членство в группе RTCUniversalServerAdmins.
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  Заполните страницу **Определение нового шлюза IP/ТСОП**, указав приведенные ниже сведения.
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - Введите полное доменное имя или IP-адрес шлюза. Полное доменное имя шлюза необходимо, если шлюз использует протокол TLS.
     
       - Примите значение по умолчанию для параметра **Порт прослушивания для шлюза IP/ТСОП** или введите новый порт прослушивания.
     

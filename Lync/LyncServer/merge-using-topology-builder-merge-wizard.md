@@ -47,13 +47,13 @@ _**Последнее изменение темы:** 2012-10-02_
     
     ![Мастер создания топологии слиянием, задать страницу настройки пограничного сервера](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Мастер создания топологии слиянием, задать страницу настройки пограничного сервера")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  В диалоговом окне **указания типа пограничного сервера** введите тип конфигурации пограничного сервера и нажмите кнопку **Далее**. В этом примере используется параметр **Single Edge Server** (Один пограничный сервер).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > Конфигурация <STRONG>Expanded Edge deployment</STRONG> (Расширенное развертывание пограничного сервера) не поддерживается. <STRONG>Расширенный пограничный сервер</STRONG> необходимо сначала преобразовать в <STRONG>один пограничный сервер</STRONG> или в <STRONG>консолидированный пограничный сервер с балансировкой нагрузки</STRONG>.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > Прежде чем нажать кнопку <STRONG>Далее</STRONG>, выполните следующее действие из этой процедуры. Очень важно не пропустить это действие.
 
     
     </div>

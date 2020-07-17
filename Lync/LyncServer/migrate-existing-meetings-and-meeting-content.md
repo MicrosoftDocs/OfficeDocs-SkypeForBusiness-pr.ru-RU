@@ -39,13 +39,13 @@ _**Последнее изменение темы:** 2013-02-22_
 
 Когда учетная запись пользователя перемещается из Lync Server 2010 на сервер Lync Server 2013, следующая информация перемещается вместе с этой учетной записью пользователя:
 
-  - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
+  - **Собрания, уже запланированные этим пользователем**. В том числе, перемещаются каталоги конференций и данные конференций.
 
-  - **User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.
+  - **Персональный идентификационный номер (ПИН-код) пользователя**. Текущий ПИН-код пользователя будет действовать, пока его срок действия не истечет или пока пользователь не запросит новый ПИН-код.
 
 На новый сервер не перемещаются следующие сведения об учетной записи пользователя.
 
-  - **Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.
+  - **Содержимое собрания**. Для перемещения содержимого, которое совместно использовалось во время собрания, например файлов PowerPoint, доски, сложений или данных опросов, используйте параметр **-MoveConferenceData** в командлете **Move-CsUser**.
 
 </div>
 

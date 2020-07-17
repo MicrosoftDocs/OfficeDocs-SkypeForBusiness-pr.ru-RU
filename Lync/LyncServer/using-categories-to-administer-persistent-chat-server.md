@@ -63,7 +63,7 @@ _**Последнее изменение темы:** 2013-10-01_
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+Руководители комнат чата могут изменять все свойства комнат чата, кроме категории комнаты. Им нельзя запретить выполнять следующие действия:
 
   - отключать комнату чата;
 
@@ -89,7 +89,7 @@ Chat room managers can make changes to all chat room properties, except for chan
 
 Создание и управление комнатами сохраняемого чата значительно упрощается благодаря правильному использованию категорий. Администратор сохраняемого чата может определять **AllowedMembers** и **Creators** для каждой категории, а также задавать параметры и поведения комнаты чата по умолчанию, которые будут применяться ко всем комнатам чата, созданным в категории. Администраторам сохраняемого чата создавать категории и управлять ими с помощью панели управления Lync Server или командлетов Windows PowerShell.
 
-Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
+Создавать комнаты в категории могут только пользователи, подразделения и группы пользователей, которым назначено свойство Creators в данной категории. После создания категории они могут выбрать пользователей, подразделения или группы пользователей из списка **AllowedMembers** данной категории в качестве руководителей и участников комнат чата.
 
 На комнаты чата, созданные в категории, распространяются действующие в ней политики и параметры (например, кто может быть участником комнаты, кто может управлять комнатой, разрешена ли отправка файлов, отправляются ли приглашения и т. п.).
 

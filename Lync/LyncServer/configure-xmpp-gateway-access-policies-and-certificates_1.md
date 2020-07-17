@@ -38,13 +38,13 @@ ms.locfileid: "44754467"
 
 _**Последнее изменение темы:** 2012-10-15_
 
-XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:
+Федерация XMPP определяет внешнее развертывание на основе протокола XMPP. Конфигурация XMPP обеспечивает доступ пользователей Lync к пользователям домена XMPP следующими способами:
 
   - Обмен мгновенными сообщениями и отслеживание присутствия — только личное двустороннее общение
 
   - Создание федеративных контактов XMPP в клиенте Lync
 
-When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates.
+При настройке политик для поддержки федеративных контактов по протоколу XMPP) политики применяются к пользователям федеративных доменов, но не к пользователям поставщиков услуг обмена мгновенными сообщениями по протоколу SIP (например, Windows Live) или федеративных доменов SIP. Вы настраиваете федеративного партнера XMPP для каждого федеративного домена XMPP, для которого необходимо разрешить взаимодействие и добавление контактов пользователями. После задания политик необходимо настроить сертификаты шлюза XMPP.
 
 <div>
 

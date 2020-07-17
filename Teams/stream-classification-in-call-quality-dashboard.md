@@ -29,11 +29,11 @@ ms.locfileid: "45085895"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Классификация потоков на панели мониторинга качества звонков (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+На панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online вы можете получать сведения о качестве звонков в Microsoft Teams и службах Skype для бизнеса. Этот раздел содержит подробные сведения о классификации качества потоков мультимедиа. Дополнительные сведения о CQD и их настройке можно найти в разделе [Настройка панели мониторинга качества звонков](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Определения классификатора
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Потоки в CQD классифицируются как _качественные_, _плохие_или _Неклассифицированные_ на основе значений доступных метрик качества ключа. В приведенных ниже таблицах показаны показатели и условия, используемые для классификации потока. Для понимания того, какая метрика несет ответственность за _некачественную_ классификацию, можно использовать измерения "плохо в CQD". Дополнительные сведения об этих измерениях можно найти [в разделе измерения и меры, доступные в панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Звуковой классификатор
 
@@ -41,7 +41,7 @@ Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the 
 
 |Показатель|Условие|Пояснение|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Audio Degradation Avg|> 1,0|Средняя сеть — это снижение очков для потока. Сколько потерь сети и колебаний влияют на качество полученного звука.|
 |Round Trip|>500|Среднее время распространения сети для кругового приема, вычисленное в миллисекундах. Подробные сведения можно найти в [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
 |Искажение|> 30|Среднее дрожание для потока в миллисекундах.|

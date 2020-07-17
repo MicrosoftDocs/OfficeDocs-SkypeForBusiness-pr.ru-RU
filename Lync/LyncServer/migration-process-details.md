@@ -53,7 +53,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
+    > Помните, что эти новые элементы могут конфликтовать со старыми переносимыми элементами. Избегайте конфликтов с именами, в противном случае элементы будут перезаписаны при миграции старых данных.
 
     
     </div>
@@ -92,9 +92,9 @@ _**Последнее изменение темы:** 2012-10-19_
     
     1.  Сервер сохраняемого чата поддерживает один уровень категорий в отличие от детального иерархического набора категорий. После миграции к подкатегориям добавляются префиксы с полными именами родительских категорий. Возможно, вы захотите упростить существующую структуру категорий, чтобы полученная структура удовлетворяла вашим требованиям.
     
-    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
+    2.  Проверьте **руководителей** в корневой категории.Если на этом уровне есть руководители, после миграции эти пользователи будут добавлены как **Руководители для всех комнат**. Если это не является обязательным для вашей организации, удалите этих руководителей из корневой категории.
     
-    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
+    3.  Проверьте длину имен комнат. Если после миграции из-за упрощенной структуры категорий комнаты включены в дочернюю категорию, к ним добавляется префикс с полными именами родительской категории. Длина имен не может превышать 256 символов, включая имена родительских категорий. Необходимо проверить длину имен комнат и по возможности сократить их, если они слишком длинные.
     
     4.  В Lync Server 2013, если для параметров **приглашения** категории задано значение true, вы можете выбрать true или false для приглашений на комнаты в этой категории. Однако, если для настроек приглашений категории задано значение «False», приглашения для комнат в этой категории отключены. Перед переносом необходимо сбросить параметры приглашений в устаревшей версии сервера группы Lync Server Group Chat, если вы хотите, чтобы комнаты существовали в определенной категории. В противном случае в ходе миграции Lync Server 2013 отображает предупреждения и задает для комнат значение по умолчанию false.
     
@@ -104,7 +104,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
     7.  Определите комнаты, которые не требуется переносить, и отметьте их как отключенные.
     
-    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
+    8.  Определите дату, после которой необходимо перенести содержимое комнаты чата. Например, вы можете не переносить сообщения старше 1 января 2010 г., так как они могут быть неактуальными или устаревшими.
 
 </div>
 

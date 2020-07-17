@@ -62,7 +62,7 @@ ms.locfileid: "44943932"
 
 ## <a name="unassign-a-per-user-voice-policy"></a>Отмена назначения политики голосовой связи на уровне пользователя
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - Следующая команда отменяет политику голосовой связи уровня пользователя, назначенную пользователю Ken Myer. После отмены политики уровня пользователя к пользователю Ken Myer будет автоматически применяться глобальная политика или локальная политика сайта (если она существует). Политика сайта имеет приоритет над глобальной политикой.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

@@ -30,9 +30,9 @@ ms.locfileid: "44841990"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
-Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
+[] С помощью кредитов на связь удобно оплачивать минуты аудиоконференций и плана звонков. При своевременной оплате вашим пользователям всегда будут доступны следующие возможности.
   
-- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
+- Добавление бесплатных номеров для аудиоконференций, автосекретарей и очередей звонков. Бесплатные звонки оплачиваются на поминутной основе и требуют положительного остатка на счете кредитов на связь.
     
 - Исходящие вызовы из аудиоконференции, позволяющие добавить к конференции других пользователей из любой точки мира.
     
@@ -45,10 +45,10 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
 - Исходящие звонки и платить за минуту после того, как вы исчерпали месячный срок выполнения.
     
 > [!NOTE]
-> Outbound calls to some destinations may be included in your Audio Conferencing subscription. Please check your subscription information for details. 
+> Исходящие звонки в некоторые места могут быть включены в подписку на аудиоконференцию. Дополнительные сведения см. в информации о подписке. 
   
 > [!NOTE]
-> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place. 
+> Если регион, в котором находится клиент, не совпадает с адресом выставления счетов, указанным в вашем корпоративном соглашении (EA), возможно, вы не сможете приобрести кредиты на связь. Если вам не удается приобрести кредиты на связь, откройте обращение в службу поддержки на портале. Наши специалисты будут работать с вами, чтобы устранить эту проблему, пока не будет найдено постоянное решение. 
   
 ## <a name="what-are-the-communications-credits-rates"></a>Тарифы по кредитам на связь
 
@@ -56,14 +56,14 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## <a name="what-is-it"></a>Что это?
 
-To use toll-free numbers in Skype for Business, Communications Credits are required as these calls are billed per minute. Also, we recommend that you set up Communications Credits for your Calling Plan and Audio Conferencing users who need the ability to dial out to **any PSTN destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits or assign a license to your users and you run out minutes for your organization (depending on your Calling Plan, Audio Conferencing plan, or your country/region), those users won't be able to make calls or dial out from Online Audio Conferencing meetings.
+Если необходимо использовать в Skype для бизнеса бесплатные номера телефонов, потребуются кредиты на связь, так как эти звонки тарифицируются поминутно. Также рекомендуем настроить кредиты на связь для пользователей планов звонков и аудиоконференций, которым нужна возможность делать звонки на **любые номера ТСОП**. Подписки на планы звонков и аудиоконференции охватывают множество стран и регионов, но некоторые точки могут быть недоступны. Если не настроить кредиты на связь или не назначить своим пользователям лицензию, то, когда у организации закончатся оплаченные минуты (количество которых зависит от плана по звонкам и аудиоконференции в вашей стране или регионе), пользователи не смогут совершать звонки или присоединяться обратным звонком к проводимым в сети аудиоконференциям.
   
 > [!NOTE]
 > Вы должны настроить кредиты на связь, а затем назначить лицензию на обмен информацией для каждого пользователя в **центре администрирования Microsoft 365**, который является  >  **Users**  >  **активными пользователями**. 
   
 Рекомендуется тщательно оценить использование услуг PSTN в Организации, чтобы понять, как лучше настроить кредиты на связь. Дополнительные сведения о службах PSTN можно узнать в статье вопросы и ответы на [телефонные системы, планы звонков](calling-plan-landing-page.md) и [голосовые решения](Audio-Conferencing-common-questions.md).
   
-You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
+В услуге выставления счетов можно задать **Единовременный платеж** для формирования баланса **ИЛИ** включить функцию **Автопополнение** ( **рекомендуется** ), которая будет пополнять баланс на заданную сумму при достижении установленного минимального баланса. Вначале рекомендуется выбрать вариант с автопополнением, который позволит отслеживать фактическое использование и определить подходящие пороги автопополнения, соответствующие вашим потребностям и моделям использования. Следует провести мониторинг использования кредитов на связь за достаточный отрезок времени, а затем скорректировать минимальный баланс и сумму пополнения в соответствии с потребностями организации.
   
 > [!NOTE]
 > Вы можете просмотреть планы и цены, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя **на**  >  **подписку**на план подписки  >  **Add subscriptions**. 
@@ -74,7 +74,7 @@ You can set up consumption billing using a **one-time funding** of the pre-paid 
 
 У каждой организации свой объем планов звонков и тарифы. Эти сведения по использованию можно получить у текущего поставщика услуг. В организациях, использующих Skype для бизнеса в качестве поставщика услуг, вы можете получить данные об использовании в отчетах **центра администрирования Microsoft 365**, а также в  >  **Reports** **центре администрирования Skype для бизнеса**—  >  **Reports**  >  **сведения об использовании PSTN**.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel and create custom reports.
+При настройке кредитов на связь нужно проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения о звонках можно получить в отчете **Сведения об использовании ТСОП**. Записи по звонкам из этого отчета можно экспортировать в Excel для хранения или создания настраиваемых отчетов.
 
 > [!NOTE]
 > Для платных тарифных номеров также используются кредиты на связь. Вызывающий абонент оплачивает расходы.

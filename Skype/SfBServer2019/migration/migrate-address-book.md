@@ -32,7 +32,7 @@ ms.locfileid: "44752841"
 Если вы настроили правила нормализации адресных книг в устаревшей среде, необходимо перенести измененные правила в пилотный пул. Если вы не настраивали правила нормализации адресной книги, то ничего переносить не требуется. Правила нормализации по умолчанию для Skype для бизнеса Server 2019 совпадают с правилами по умолчанию для установки прежних версий. Чтобы перенести настроенные правила нормализации, выполните инструкции, приведенные далее в этом разделе.
 
 > [!NOTE]
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights. 
+> Если в вашей организации используется удаленное управление звонками и вы настроили правила нормализации адресной книги, то прежде чем использовать удаленное управление звонками, вам нужно выполнить инструкции, приведенные в этом разделе. Для их выполнения необходимо быть членом группы RTCUniversalServerAdmins или иметь аналогичные права. 
 
  **Параметр UseNormalizationRules со значением False**
 
@@ -49,7 +49,7 @@ ms.locfileid: "44752841"
 
 3. Некоторые типы записей не будут правильно работать в Skype для бизнеса Server 2019. Просмотрите файл, чтобы найти записи такого типа, измените их требуемым образом и сохраните изменения в общей папке адресной книги в пилотном пуле.
 
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    Строки, содержащие обязательный пробел или знак пунктуации, приведут к сбою правила нормализации, поскольку эти символы удаляются из строки при ее вводе в правило. Если у вас есть строки с обязательным пробелом или знаком пунктуации, их нужно изменить. Например, следующая строка приведет к сбою правила нормализации.
 
    ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d

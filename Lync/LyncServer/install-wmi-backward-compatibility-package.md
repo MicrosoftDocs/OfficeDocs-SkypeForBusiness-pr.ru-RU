@@ -55,7 +55,7 @@ _**Последнее изменение темы:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
+    > Пакет OCSWMIBC.msi должен быть установлен на компьютере, где выполняется мастер объединения построителя топологий. Однако рекомендуется устанавливать OCSWMIBC.msi на всех интерфейсных серверах в используемой топологии.
 
     
     </div>

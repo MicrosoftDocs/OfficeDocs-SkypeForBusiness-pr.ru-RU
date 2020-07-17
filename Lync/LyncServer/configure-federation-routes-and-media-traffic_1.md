@@ -87,11 +87,11 @@ ms.locfileid: "44754965"
     
     ![Построитель топологий Указание внешнего пограничной страницы](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Построитель топологий Указание внешнего пограничной страницы")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  В окне **Укажите внешний пограничный сервер** снимите флажок **Этот пограничный пул используется для федерации и подключения к общедоступным службам обмена мгновенными сообщениями**. При этом будет удалена федеративная связь с BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > Этот шаг очень важен. Следует снять этот флажок, чтобы удалить старую федеративную связь.
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "44754965"
 
 1.  На сервере Office Communications Server 2007 R2 Standard Edition или сервере переднего плана откройте средство администрирования Office Communications Server 2007 R2.
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  В левой области, разверните верхний узел, а затем правой кнопкой мыши щелкните узел **Лес**. Выберите **Свойства**, а затем щелкните **Глобальные свойства**.
 
 3.  Перейдите на вкладку ** Федерация**.
 
@@ -217,7 +217,7 @@ ms.locfileid: "44754965"
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
+    > Если у вас нет аппаратной подсистемы балансировки нагрузки, следует обновить запись DNS A для федерации, чтобы разрешить новый пограничный сервер Lync Server. Для этого с минимальным вмешательством уменьшите значение TTL для внешнего полного доменного имени Lync Server Access Edge, чтобы после обновления DNS для указания на новый сервер Lync Server Access Edge федерация и удаленный доступ были быстро обновлены.
 
 
 

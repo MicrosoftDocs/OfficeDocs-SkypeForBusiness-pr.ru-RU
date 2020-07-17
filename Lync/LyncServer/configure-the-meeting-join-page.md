@@ -62,7 +62,7 @@ _**Последнее изменение темы:** 2012-12-14_
 </tr>
 <tr class="even">
 <td><p>шовалтернатежоиноптионсекспандед</p></td>
-<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
+<td><p>Если параметр имеет значение True, то альтернативные параметры присоединения к конференции по сети (например, Office Communicator 2007 R2) будут отображаться автоматически. Если параметр имеет значение False (значение по умолчанию), эти параметры будут доступны, но пользователям придется самостоятельно открывать список параметров.</p></td>
 </tr>
 </tbody>
 </table>

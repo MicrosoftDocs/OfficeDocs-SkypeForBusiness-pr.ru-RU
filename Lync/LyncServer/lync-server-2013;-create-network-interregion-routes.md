@@ -38,7 +38,7 @@ ms.locfileid: "44757210"
 
 _**Последнее изменение темы:** 2012-10-20_
 
-A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
+*Маршрут между регионами сети* определяет маршрут между парой регионов сети. Маршрут между регионами сети требуется для каждой пары регионов сети в развертывании службы контроля допуска звонков. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
 
 Связи между регионами накладывают определенные ограничения на пропускную способность, доступную подключениям между регионами; маршруты же определяют путь, который должны пройти подключения от одного региона до другого.
 
@@ -109,7 +109,7 @@ A *network interregion route* defines the route between a pair of network region
     
 
     > [!NOTE]  
-    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
+    > При создании маршрута между двумя регионами сети, между которыми отсутствует прямая связь, необходимо добавить все необходимые связи для создания полного маршрута. Например, для создания маршрута между регионами сети «Северная Америка» и «APAC» требуются две связи между сетевыми регионами, так как между ними отсутствует прямая связь.
 
     
     </div>

@@ -22,9 +22,9 @@ ms.locfileid: "44753909"
 
 Skype для бизнеса Server поддерживает три простых URL-адреса:
   
-- **Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute. 
+- URL-адрес **собраний** (meet) используется в качестве основного URL-адреса для всех конференций на сайте или в организации. Простой URL-адрес собраний делает ссылки на присоединение к собраниям более понятными и удобными для обмена и распространения. 
     
-- **Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information. 
+- URL-адрес **телефонного подключения** (dialin) обеспечивает доступ к веб-странице "Параметры конференц-связи с телефонным подключением". Простой URL-адрес телефонного подключения включается во все приглашения на собрания. Таким образом пользователи, которые хотят подключиться к собранию с помощью телефона, могут найти в нем необходимый номер телефона и ПИН-код. 
     
 - **Администратор** обеспечивает быстрый доступ к панели управления Skype для бизнеса Server. Этот URL-адрес используется внутри организации. 
     

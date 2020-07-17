@@ -23,7 +23,7 @@ ms.locfileid: "44752871"
 В этом разделе описываются параметры конфигурации, которые следует знать перед развертыванием пограничного сервера Skype для бизнеса Server 2019. Процессы развертывания и настройки Skype для бизнеса Server 2019 очень похожи на Skype для бизнеса Server 2015. В этом разделе рассматриваются только ключевые моменты, которые следует учитывать при развертывании пилотной версии пула. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+По мере перехода по страницам мастера **Определение нового пограничного пула** анализируйте основные параметры конфигурации, показанные на следующих шагах. Обратите внимание, что показано лишь несколько страниц мастера **Определение нового пограничного пула**. 
   
 ### <a name="to-define-an-edge-pool"></a>Определение пограничного пула
 
