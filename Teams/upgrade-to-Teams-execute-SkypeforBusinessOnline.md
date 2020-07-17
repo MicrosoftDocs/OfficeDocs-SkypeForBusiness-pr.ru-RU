@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523172"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158667"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
@@ -99,8 +99,16 @@ ms.locfileid: "44523172"
 По мере проверки обновления до режима "только для Team" и готовности к развертыванию повторите предыдущие действия, чтобы применить TeamsOnly для других пользователей.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и команды
+## <a name="phone-system-and-pstn-connectivity-options"></a>Параметры телефонной системы и подключения к PSTN
 
-Если в развертывании Skype для бизнеса Online есть телефонная система с тарифными планами, а Microsoft является поставщиком услуг коммутируемой телефонной сети (PSTN), то при обновлении ваших пользователей в Teams будут автоматически переведены входящие звонки через PSTN в Teams.
+Телефонная система с командами поддерживается после того, как пользователь в TeamsOnly режиме. (Если пользователь находится в режиме острова, телефонная система поддерживается только в Skype для бизнеса.)  
 
-Если в развертывании Skype для бизнеса Online есть телефонная система с Cloud Connector Edition, ознакомьтесь с [дополнительными сведениями о прямой маршрутизации для телефонной системы](2-envision-make-my-service-decisions-direct-routing.md).
+### <a name="pstn-connectivity-options"></a>Варианты подключения PSTN
+
+При рассмотрении параметров подключения по коммутируемой телефонной сети (КТСОП) возможны два варианта перехода из Skype для бизнеса Online в режим TeamsOnly:
+
+- Пользователь в Skype для бизнеса Online с планом вызова Microsoft. После обновления у этого пользователя будет по-прежнему содержаться план звонков по Microsoft. Это самый простой сценарий, требующий всего несколько действий. Дополнительные сведения можно найти [в разделе Skype для бизнеса Online с планами вызовов Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+
+- Пользователь в Skype для бизнеса Online с локальной функцией голосовой связи через Skype для бизнеса в локальной или облачной версии. Переход пользователя на Teams необходимо координировать с помощью миграции пользователя в направлении прямой маршрутизации, чтобы убедиться в том, что у пользователя TeamsOnly есть функция КТСОП.  Дополнительные сведения можно найти в разделе [Skype для бизнеса Online с локальной голосовой](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)связью.
+
+

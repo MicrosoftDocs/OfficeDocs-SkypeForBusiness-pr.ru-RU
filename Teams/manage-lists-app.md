@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138403"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158697"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "списки" для Организации в Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "45138403"
 
 - Отслеживайте проблемы и переведите их в замыкание с помощью шаблона отслеживания проблем.
 - Упорядочите все сведения о событии с помощью шаблона маршрутных событий.
-- Используйте шаблон пациентов, чтобы записать требования и статус пациентов, чтобы они могли отслеживать и координировать работу групп в организации здравоохранения.
+- Используйте шаблон пациентов, чтобы записывать требования и статус пациентов, чтобы отслеживать и координировать работу групп в организации здравоохранения.
 - Отслеживайте статус заявлений о ссуде с помощью шаблона ссуд.
 
 ## <a name="example-scenario"></a>Пример сценария

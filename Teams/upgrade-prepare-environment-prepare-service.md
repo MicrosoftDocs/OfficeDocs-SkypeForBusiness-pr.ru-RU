@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666061"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158687"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Подготовка службы к обновлению до Teams
 
@@ -40,9 +40,9 @@ ms.locfileid: "44666061"
 
 В этой статье приводятся общие сведения о требованиях для подготовки Организации к совместной работе и службам голосовой связи с помощью Teams. После правильной подготовки вы можете убедиться, что вы готовы предоставить эти возможности вашей организации.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Контрольные списки для подготовки к использованию для выпуска Microsoft Teams
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Контрольные списки и целевые страницы для выпуска Microsoft Teams
 
-В контрольном списке ниже приведены инструкции по развертыванию Microsoft Teams в Организации.
+Ниже приведены контрольные списки и целевые страницы, необходимые для развертывания Microsoft Teams в Организации.
 
 - [Подготовка Microsoft 365 или Office 365 для Teams](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ ms.locfileid: "44666061"
 
 - [Подготовка сети](prepare-network.md)
 
-- [Настройка рабочих нагрузок облачной голосовой связи в Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Чат, команды, каналы и приложения](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Настройка прямой маршрутизации в Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Собрания и звуковые конференции](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Параметры телефонной системы и подключения к PSTN](cloud-voice-landing-page.md)
+
 
 Задачи и действия в этих контрольных списках — это основные элементы "задача", которые применяются к каждому развертыванию возможностей совместной работы и голосовой связи с помощью Teams. Вы можете настроить контрольные списки, чтобы включить в них мероприятия и задачи, которые относятся к своему своему расприятию в Teams.
 

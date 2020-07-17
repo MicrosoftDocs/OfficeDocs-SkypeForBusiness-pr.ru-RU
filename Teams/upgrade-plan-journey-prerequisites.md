@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666071"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158737"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Требования и зависимости окружающей среды для Teams
 
@@ -48,12 +48,16 @@ ms.locfileid: "44666071"
 
 - Если ваша организация не синхронизирует удостоверения с Azure Active Directory, ознакомьтесь с [моделями удостоверений и проверкой подлинности в Microsoft Teams](identify-models-authentication.md).
 
-- Если у вашей организации нет<sup>1</sup>t в Exchange Online, ознакомьтесь [со сведениями о взаимодействии Exchange и Microsoft Teams](Exchange-Teams-interact.md).
+- Если в вашей организации нет Exchange Online, ознакомьтесь [со сведениями о взаимодействии Exchange и Microsoft Teams](Exchange-Teams-interact.md).
 
 - Если в вашей организации нет SharePoint Online, ознакомьтесь [со сведениями о том, как SharePoint Online и OneDrive для бизнеса могут взаимодействовать с Microsoft Teams](SharePoint-OneDrive-interact.md).
 
 - Сведения о [взаимодействии групп microsoft 365 и Microsoft Teams](Office-365-groups.md).
 
-- Если ваша организация — образовательное учреждение и вы используете информационную систему учащихся, выполните [развертывание School Data Sync](https://docs.microsoft.com/schooldatasync) перед развертыванием Microsoft Teams.
+- Если ваша организация является образовательным учреждением и вы используете информационную систему учащихся, ознакомьтесь со сведениями о [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) перед развертыванием Microsoft Teams.
+
+- Если ваша организация рассматривает параметры звонков по коммутируемой телефонной сети, ознакомьтесь со сведениями о [телефонном звонке и PSTN](cloud-voice-landing-page.md), о том, [какой тарифный план вам подойдет для вас](calling-plan-landing-page.md), и [прямую маршрутизацию на телефонную систему](direct-routing-landing-page.md).
+
+- Чтобы убедиться в том, что все сетевые требования выполнены перед развертыванием групп, ознакомьтесь со статьей [Подготовка сети организации для Microsoft Teams](prepare-network.md).
 
 Убедившись в том, что ваша среда отвечает всем применимым требованиям, [оцените текущую среду для Teams](upgrade-plan-journey-evaluate-environment.md).
