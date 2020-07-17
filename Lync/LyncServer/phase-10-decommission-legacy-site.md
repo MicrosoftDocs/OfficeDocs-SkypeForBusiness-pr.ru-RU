@@ -25,7 +25,7 @@ ms.locfileid: "44751161"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a><span data-ttu-id="41f03-102">Этап 10: списание устаревшего сайта</span><span class="sxs-lookup"><span data-stu-id="41f03-102">Phase 10: Decommission legacy site</span></span>
+# <a name="phase-10-decommission-legacy-site"></a><span data-ttu-id="3ad0c-102">Этап 10: списание устаревшего сайта</span><span class="sxs-lookup"><span data-stu-id="3ad0c-102">Phase 10: Decommission legacy site</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "44751161"
 
 <span> </span>
 
-<span data-ttu-id="41f03-103">_**Последнее изменение темы:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="41f03-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="3ad0c-103">_**Последнее изменение темы:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="3ad0c-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="41f03-104">В следующих разделах представлены рекомендации по списанию пулов, а также отключению и удалению серверов и пулов из устаревшего развертывания Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="41f03-104">The following topics provide guidance in decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Office Communications Server 2007 R2.</span></span> <span data-ttu-id="41f03-105">Не требуется выполнять все процедуры, представленные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="41f03-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="41f03-106">Изучите информацию, представленную в каждом из разделов, чтобы определить, какие процедуры вывода из эксплуатации следует использовать.</span><span class="sxs-lookup"><span data-stu-id="41f03-106">Read the information in each of these topics to determine which decommissioning procedure to use.</span></span>
+<span data-ttu-id="3ad0c-104">В следующих разделах представлены рекомендации по списанию пулов, а также отключению и удалению серверов и пулов из устаревшего развертывания Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-104">The following topics provide guidance in decommissioning pools, and deactivating and removing servers and pools from a legacy deployment of Office Communications Server 2007 R2.</span></span> <span data-ttu-id="3ad0c-105">Не требуется выполнять все процедуры, представленные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-105">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="3ad0c-106">Изучите информацию, представленную в каждом из разделов, чтобы определить, какие процедуры вывода из эксплуатации следует использовать.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-106">Read the information in each of these topics to determine which decommissioning procedure to use.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="41f03-107">Если вы импортировали каталоги конференций для конференц-связи с телефонным подключением в Lync Server 2013, перед началом списания пулов важно перевести его в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41f03-107">If you imported conference directories for dial-in conferencing to Lync Server 2013, it is important to transition conference directory ownership to Lync Server 2013 before you begin to decommission your pools.</span></span> <span data-ttu-id="41f03-108">Если вы выводите пул из эксплуатации без предварительного переноса права владения, функция телефонного подключения для всех перенесенных собраний больше не будет работать.</span><span class="sxs-lookup"><span data-stu-id="41f03-108">If you decommission a pool without first transitioning conference directory ownership, the dial-in feature for all migrated meetings will no longer work.</span></span> <span data-ttu-id="41f03-109">Необходимо выполнять процедуру переноса прав владения однократно для каждого каталога конференц-связи в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="41f03-109">You must perform the step to transition ownership once for each conference directory in your legacy pool.</span></span>
+> <span data-ttu-id="3ad0c-107">Если вы импортировали каталоги конференций для конференц-связи с телефонным подключением в Lync Server 2013, перед началом списания пулов важно перевести его в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-107">If you imported conference directories for dial-in conferencing to Lync Server 2013, it is important to transition conference directory ownership to Lync Server 2013 before you begin to decommission your pools.</span></span> <span data-ttu-id="3ad0c-108">Если вы выводите пул из эксплуатации без предварительного переноса права владения, функция телефонного подключения для всех перенесенных собраний больше не будет работать.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-108">If you decommission a pool without first transitioning conference directory ownership, the dial-in feature for all migrated meetings will no longer work.</span></span> <span data-ttu-id="3ad0c-109">Необходимо выполнять процедуру переноса прав владения однократно для каждого каталога конференц-связи в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="3ad0c-109">You must perform the step to transition ownership once for each conference directory in your legacy pool.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "44751161"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="41f03-110">Сведения о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA), предшествующих списанию устаревшей среды, приведены в разделе<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="41f03-110">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
+> <span data-ttu-id="3ad0c-110">Сведения о переносе и обновлении приложений Microsoft Unified Communications Managed API (UCMA), предшествующих списанию устаревшей среды, приведены в разделе<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span><span class="sxs-lookup"><span data-stu-id="3ad0c-110">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A></span></span>
 
 
 
@@ -61,15 +61,15 @@ ms.locfileid: "44751161"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="41f03-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="41f03-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3ad0c-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="3ad0c-111">In This Section</span></span>
 
-  - [<span data-ttu-id="41f03-112">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="41f03-112">Move conference directories</span></span>](move-conference-directories.md)
+  - [<span data-ttu-id="3ad0c-112">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="3ad0c-112">Move conference directories</span></span>](move-conference-directories.md)
 
-  - [<span data-ttu-id="41f03-113">Обновление записей DNS SRV</span><span class="sxs-lookup"><span data-stu-id="41f03-113">Update DNS SRV records</span></span>](update-dns-srv-records_1.md)
+  - [<span data-ttu-id="3ad0c-113">Обновление записей DNS SRV</span><span class="sxs-lookup"><span data-stu-id="3ad0c-113">Update DNS SRV records</span></span>](update-dns-srv-records_1.md)
 
-  - [<span data-ttu-id="41f03-114">Списание серверов и пулов</span><span class="sxs-lookup"><span data-stu-id="41f03-114">Decommissioning servers and pools</span></span>](decommissioning-servers-and-pools.md)
+  - [<span data-ttu-id="3ad0c-114">Списание серверов и пулов</span><span class="sxs-lookup"><span data-stu-id="3ad0c-114">Decommissioning servers and pools</span></span>](decommissioning-servers-and-pools.md)
 
-  - [<span data-ttu-id="41f03-115">Удаление BackCompatSite</span><span class="sxs-lookup"><span data-stu-id="41f03-115">Remove BackCompatSite</span></span>](remove-backcompatsite.md)
+  - [<span data-ttu-id="3ad0c-115">Удаление BackCompatSite</span><span class="sxs-lookup"><span data-stu-id="3ad0c-115">Remove BackCompatSite</span></span>](remove-backcompatsite.md)
 
 </div>
 

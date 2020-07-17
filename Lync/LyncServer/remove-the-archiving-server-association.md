@@ -25,7 +25,7 @@ ms.locfileid: "44757260"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-archiving-server-association"></a><span data-ttu-id="7e8a8-102">Удаление связи с сервером архивирования</span><span class="sxs-lookup"><span data-stu-id="7e8a8-102">Remove the Archiving server association</span></span>
+# <a name="remove-the-archiving-server-association"></a><span data-ttu-id="2490a-102">Удаление связи с сервером архивирования</span><span class="sxs-lookup"><span data-stu-id="2490a-102">Remove the Archiving server association</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "44757260"
 
 <span> </span>
 
-<span data-ttu-id="7e8a8-103">_**Последнее изменение темы:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="7e8a8-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="2490a-103">_**Последнее изменение темы:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="2490a-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="7e8a8-104">Чтобы удалить сервер архивации, необходимо изменить или снять зависимость от связанного пула переднего плана, сервера переднего плана, устройства для обеспечения связи в филиалах и сервера для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-104">To remove an Archiving Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="7e8a8-105">Вы изменяете свойства пула переднего плана, сервера переднего плана, устройства для обеспечения связи в филиалах и сервера для обеспечения связи в филиалах, чтобы удалить зависимость.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="7e8a8-106">После очистки зависимости и удаления сервера в построителе топологий будет выведено уведомление о том, что связанный объект хранилища базы данных в построителе топологий также будет удален.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-106">After you clear the dependency and you delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
+<span data-ttu-id="2490a-104">Чтобы удалить сервер архивации, необходимо изменить или снять зависимость от связанного пула переднего плана, сервера переднего плана, устройства для обеспечения связи в филиалах и сервера для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="2490a-104">To remove an Archiving Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="2490a-105">Вы изменяете свойства пула переднего плана, сервера переднего плана, устройства для обеспечения связи в филиалах и сервера для обеспечения связи в филиалах, чтобы удалить зависимость.</span><span class="sxs-lookup"><span data-stu-id="2490a-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="2490a-106">После очистки зависимости и удаления сервера в построителе топологий будет выведено уведомление о том, что связанный объект хранилища базы данных в построителе топологий также будет удален.</span><span class="sxs-lookup"><span data-stu-id="2490a-106">After you clear the dependency and you delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
 
 <div>
 
-## <a name="to-remove-the-archiving-server-association"></a><span data-ttu-id="7e8a8-107">Удаление привязки сервера архивации</span><span class="sxs-lookup"><span data-stu-id="7e8a8-107">To remove the Archiving Server association</span></span>
+## <a name="to-remove-the-archiving-server-association"></a><span data-ttu-id="2490a-107">Удаление привязки сервера архивации</span><span class="sxs-lookup"><span data-stu-id="2490a-107">To remove the Archiving Server association</span></span>
 
-1.  <span data-ttu-id="7e8a8-108">Откройте сервер переднего плана Lync Server 2013, откройте построитель топологий.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+1.  <span data-ttu-id="2490a-108">Откройте сервер переднего плана Lync Server 2013, откройте построитель топологий.</span><span class="sxs-lookup"><span data-stu-id="2490a-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="7e8a8-109">Перейдите к узлу Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-109">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="2490a-109">Перейдите к узлу Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="2490a-109">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="7e8a8-110">В построителе топологий разверните **Пулы переднего плана Enterprise Edition**, **серверы переднего плана Standard Edition**или **сайты филиалов**, в зависимости от того, где определен сервер архивации.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Archiving Server is defined.</span></span>
+3.  <span data-ttu-id="2490a-110">В построителе топологий разверните **Пулы переднего плана Enterprise Edition**, **серверы переднего плана Standard Edition**или **сайты филиалов**, в зависимости от того, где определен сервер архивации.</span><span class="sxs-lookup"><span data-stu-id="2490a-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Archiving Server is defined.</span></span>
 
-4.  <span data-ttu-id="7e8a8-111">Если имеется связанный сервер филиалов, разверните **сайты филиалов**, разверните имя сайта филиала, а затем разверните узел устройства для обеспечения связи в **филиалах**.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
+4.  <span data-ttu-id="2490a-111">Если имеется связанный сервер филиалов, разверните **сайты филиалов**, разверните имя сайта филиала, а затем разверните узел устройства для обеспечения связи в **филиалах**.</span><span class="sxs-lookup"><span data-stu-id="2490a-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7e8a8-112">Устройства для обеспечения связи в <STRONG>филиалах</STRONG> в пользовательском интерфейсе применяются как к серверу обеспечения связи в филиалах, так и к устройству для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
+    > <span data-ttu-id="2490a-112">Устройства для обеспечения связи в <STRONG>филиалах</STRONG> в пользовательском интерфейсе применяются как к серверу обеспечения связи в филиалах, так и к устройству для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="2490a-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="7e8a8-113">Щелкните правой кнопкой мыши пул, сервер или устройство, связанное с сервером архивации, а затем выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-113">Right-click the pool, server, or device that is associated with the Archiving Server, and then click **Edit Properties**.</span></span>
+5.  <span data-ttu-id="2490a-113">Щелкните правой кнопкой мыши пул, сервер или устройство, связанное с сервером архивации, а затем выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="2490a-113">Right-click the pool, server, or device that is associated with the Archiving Server, and then click **Edit Properties**.</span></span>
 
-6.  <span data-ttu-id="7e8a8-114">В разделе **Edit Properties** (Изменить свойства) выберите **General** (Общие) и в разделе **Associations** (Привязки) снимите флажок **Associate Archiving Server** (Связанный сервер архивации), а затем щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Archiving Server** check box, and then click **OK**.</span></span>
+6.  <span data-ttu-id="2490a-114">В разделе **Edit Properties** (Изменить свойства) выберите **General** (Общие) и в разделе **Associations** (Привязки) снимите флажок **Associate Archiving Server** (Связанный сервер архивации), а затем щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2490a-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Archiving Server** check box, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="7e8a8-115">Повторите предыдущий шаг для любого другого пула, сервера или устройства, связанного с сервером архивации, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-115">Repeat the previous step for any other pool, server or device associated with the Archiving Server that you want to remove.</span></span>
+7.  <span data-ttu-id="2490a-115">Повторите предыдущий шаг для любого другого пула, сервера или устройства, связанного с сервером архивации, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="2490a-115">Repeat the previous step for any other pool, server or device associated with the Archiving Server that you want to remove.</span></span>
 
-8.  <span data-ttu-id="7e8a8-116">Щелкните сервер архивации правой кнопкой мыши и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-116">Right-click the Archiving Server, and then click **Delete**.</span></span>
+8.  <span data-ttu-id="2490a-116">Щелкните сервер архивации правой кнопкой мыши и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="2490a-116">Right-click the Archiving Server, and then click **Delete**.</span></span>
 
-9.  <span data-ttu-id="7e8a8-117">В окне **удаления зависимых хранилищ** нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-117">On **Delete Dependent Stores**, click **OK**.</span></span>
+9.  <span data-ttu-id="2490a-117">В окне **удаления зависимых хранилищ** нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2490a-117">On **Delete Dependent Stores**, click **OK**.</span></span>
 
-10. <span data-ttu-id="7e8a8-118">Опубликуйте топологию, проверьте состояние репликации, а затем при необходимости запустите мастер развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7e8a8-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+10. <span data-ttu-id="2490a-118">Опубликуйте топологию, проверьте состояние репликации, а затем при необходимости запустите мастер развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2490a-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 

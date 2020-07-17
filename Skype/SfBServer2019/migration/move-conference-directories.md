@@ -18,49 +18,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752501"
 ---
-# <a name="move-conference-directories"></a><span data-ttu-id="2281a-103">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="2281a-103">Move Conference Directories</span></span>
+# <a name="move-conference-directories"></a><span data-ttu-id="9470d-103">Перемещение каталогов конференций</span><span class="sxs-lookup"><span data-stu-id="9470d-103">Move Conference Directories</span></span>
 
-<span data-ttu-id="2281a-104">Перед списанием пула необходимо выполнить следующую процедуру для каждого каталога конференций в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="2281a-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
+<span data-ttu-id="9470d-104">Перед списанием пула необходимо выполнить следующую процедуру для каждого каталога конференций в устаревшем пуле.</span><span class="sxs-lookup"><span data-stu-id="9470d-104">Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.</span></span>
   
-### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="2281a-105">Перемещение каталога конференций в Skype для бизнеса Server 2019</span><span class="sxs-lookup"><span data-stu-id="2281a-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
+### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a><span data-ttu-id="9470d-105">Перемещение каталога конференций в Skype для бизнеса Server 2019</span><span class="sxs-lookup"><span data-stu-id="9470d-105">To Move a Conference Directory to Skype for Business Server 2019</span></span>
 
-1. <span data-ttu-id="2281a-106">Откройте консоль управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="2281a-106">Open the Skype for Business Server Management Shell.</span></span>
+1. <span data-ttu-id="9470d-106">Откройте консоль управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="9470d-106">Open the Skype for Business Server Management Shell.</span></span>
     
-2. <span data-ttu-id="2281a-107">Чтобы получить удостоверение каталогов конференций в Организации, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="2281a-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
+2. <span data-ttu-id="9470d-107">Чтобы получить удостоверение каталогов конференций в Организации, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="9470d-107">To obtain the identity of the conference directories in your organization, run the following command:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory
    ```
 
-    <span data-ttu-id="2281a-108">Предыдущая команда возвращает все каталоги конференций в Организации.</span><span class="sxs-lookup"><span data-stu-id="2281a-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="2281a-109">Из-за этого может потребоваться ограничить результаты для пула, который будет списан.</span><span class="sxs-lookup"><span data-stu-id="2281a-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="2281a-110">Например, при списании пула с полным доменным именем (FQDN) pool01.contoso.net используйте следующую команду, чтобы ограничить возвращаемые данные каталогами конференций из этого пула:</span><span class="sxs-lookup"><span data-stu-id="2281a-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
+    <span data-ttu-id="9470d-108">Предыдущая команда возвращает все каталоги конференций в Организации.</span><span class="sxs-lookup"><span data-stu-id="9470d-108">The preceding command returns all the conference directories in your organization.</span></span> <span data-ttu-id="9470d-109">Из-за этого может потребоваться ограничить результаты для пула, который будет списан.</span><span class="sxs-lookup"><span data-stu-id="9470d-109">Because of that, you might want to limit the results to the pool being decommissioned.</span></span> <span data-ttu-id="9470d-110">Например, при списании пула с полным доменным именем (FQDN) pool01.contoso.net используйте следующую команду, чтобы ограничить возвращаемые данные каталогами конференций из этого пула:</span><span class="sxs-lookup"><span data-stu-id="9470d-110">For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    <span data-ttu-id="2281a-111">Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="2281a-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
+    <span data-ttu-id="9470d-111">Эта команда возвращает только каталоги конференций, в которых свойство ServiceID содержит полное доменное имя pool01.contoso.net.</span><span class="sxs-lookup"><span data-stu-id="9470d-111">That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.</span></span>
     
-3. <span data-ttu-id="2281a-112">Чтобы переместить каталоги конференций, выполните следующую команду для каждого каталога конференции в пуле:</span><span class="sxs-lookup"><span data-stu-id="2281a-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
+3. <span data-ttu-id="9470d-112">Чтобы переместить каталоги конференций, выполните следующую команду для каждого каталога конференции в пуле:</span><span class="sxs-lookup"><span data-stu-id="9470d-112">To move conference directories, run the following command for each conference directory in the pool:</span></span>
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    <span data-ttu-id="2281a-113">Например, чтобы переместить каталог конференций 3, выполните следующую команду, указав пул Skype для бизнеса Server 2019 в качестве TargetPool:</span><span class="sxs-lookup"><span data-stu-id="2281a-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
+    <span data-ttu-id="9470d-113">Например, чтобы переместить каталог конференций 3, выполните следующую команду, указав пул Skype для бизнеса Server 2019 в качестве TargetPool:</span><span class="sxs-lookup"><span data-stu-id="9470d-113">For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:</span></span>
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    <span data-ttu-id="2281a-114">Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="2281a-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
+    <span data-ttu-id="9470d-114">Если вы хотите переместить все каталоги конференций в пуле, используйте команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="9470d-114">If you want to move all the conference directories on a pool, use a command similar to the following:</span></span>
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-<span data-ttu-id="2281a-115">Скачайте пакет удаление [устаревших Microsoft и удалите роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) , чтобы получить исчерпывающие пошаговые инструкции по списанию устаревших пулов.</span><span class="sxs-lookup"><span data-stu-id="2281a-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
+<span data-ttu-id="9470d-115">Скачайте пакет удаление [устаревших Microsoft и удалите роли сервера](https://go.microsoft.com/fwlink/p/?linkId=246227) , чтобы получить исчерпывающие пошаговые инструкции по списанию устаревших пулов.</span><span class="sxs-lookup"><span data-stu-id="9470d-115">Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.</span></span>
   
-<span data-ttu-id="2281a-116">При перемещении каталогов конференций может возникнуть следующая ошибка:</span><span class="sxs-lookup"><span data-stu-id="2281a-116">When moving conference directories, you might encounter the following error:</span></span>
+<span data-ttu-id="9470d-116">При перемещении каталогов конференций может возникнуть следующая ошибка:</span><span class="sxs-lookup"><span data-stu-id="9470d-116">When moving conference directories, you might encounter the following error:</span></span>
   
 ```console
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -69,6 +69,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-<span data-ttu-id="2281a-117">Эта ошибка обычно возникает, если для выполнения задачи в командной консоли Skype для бизнеса Server требуется обновленный набор разрешений Active Directory.</span><span class="sxs-lookup"><span data-stu-id="2281a-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="2281a-118">Чтобы устранить эту проблему, закройте текущий экземпляр командной консоли, а затем откройте новый экземпляр командной консоли и повторно выполните команду, чтобы переместить каталог конференции.</span><span class="sxs-lookup"><span data-stu-id="2281a-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
+<span data-ttu-id="9470d-117">Эта ошибка обычно возникает, если для выполнения задачи в командной консоли Skype для бизнеса Server требуется обновленный набор разрешений Active Directory.</span><span class="sxs-lookup"><span data-stu-id="9470d-117">This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task.</span></span> <span data-ttu-id="9470d-118">Чтобы устранить эту проблему, закройте текущий экземпляр командной консоли, а затем откройте новый экземпляр командной консоли и повторно выполните команду, чтобы переместить каталог конференции.</span><span class="sxs-lookup"><span data-stu-id="9470d-118">To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.</span></span>
   
 

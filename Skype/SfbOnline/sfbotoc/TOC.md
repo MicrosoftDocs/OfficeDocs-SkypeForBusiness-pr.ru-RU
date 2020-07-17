@@ -269,9 +269,9 @@
 ### [ExpressRoute и качество обслуживания в Skype для бизнеса Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Качество медиаданных и производительность сетевого подключения](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
-### [Использование помощника по тестированию сети](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
-## [Аналитика звонков и панель мониторинга качества звонков](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
+## [Аналитика звонков и панель мониторинга качества звонков](/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Измерения и меры на панели мониторинга качества звонков](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Настройка средства аналитики звонков в Skype для бизнеса](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Включение и использование панели мониторинга качества звонков](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

@@ -25,7 +25,7 @@ ms.locfileid: "44757230"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-merge-topologies"></a><span data-ttu-id="d3921-102">Этап 4: объединение топологий</span><span class="sxs-lookup"><span data-stu-id="d3921-102">Phase 4: Merge topologies</span></span>
+# <a name="phase-4-merge-topologies"></a><span data-ttu-id="825ad-102">Этап 4: объединение топологий</span><span class="sxs-lookup"><span data-stu-id="825ad-102">Phase 4: Merge topologies</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "44757230"
 
 <span> </span>
 
-<span data-ttu-id="d3921-103">_**Последнее изменение темы:** 2012-03-29_</span><span class="sxs-lookup"><span data-stu-id="d3921-103">_**Topic Last Modified:** 2012-03-29_</span></span>
+<span data-ttu-id="825ad-103">_**Последнее изменение темы:** 2012-03-29_</span><span class="sxs-lookup"><span data-stu-id="825ad-103">_**Topic Last Modified:** 2012-03-29_</span></span>
 
-<span data-ttu-id="d3921-104">В следующих разделах описаны действия, необходимые для объединения пулов Microsoft Office Communications Server 2007 R2 в пулы Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d3921-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="d3921-105">Сначала вы используете мастер объединения построителя топологий для слияния сведений о топологии.</span><span class="sxs-lookup"><span data-stu-id="d3921-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="d3921-106">Это средство собирает сведения о среде Office Communications Server 2007 R2, в том числе сведения о пограничных серверах, и публикует эти сведения в базе данных, к которой предоставлен общий доступ с помощью Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d3921-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="d3921-107">После публикации объединенной топологии построитель топологий используется для просмотра сведений о топологии Office Communications Server 2007 R2 и сведений о новой развернутой топологии Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d3921-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="d3921-108">Затем с помощью командлетов консоли управления Lync Server вы импортируете политики и параметры конфигурации.</span><span class="sxs-lookup"><span data-stu-id="d3921-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
+<span data-ttu-id="825ad-104">В следующих разделах описаны действия, необходимые для объединения пулов Microsoft Office Communications Server 2007 R2 в пулы Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="825ad-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="825ad-105">Сначала вы используете мастер объединения построителя топологий для слияния сведений о топологии.</span><span class="sxs-lookup"><span data-stu-id="825ad-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="825ad-106">Это средство собирает сведения о среде Office Communications Server 2007 R2, в том числе сведения о пограничных серверах, и публикует эти сведения в базе данных, к которой предоставлен общий доступ с помощью Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="825ad-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="825ad-107">После публикации объединенной топологии построитель топологий используется для просмотра сведений о топологии Office Communications Server 2007 R2 и сведений о новой развернутой топологии Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="825ad-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="825ad-108">Затем с помощью командлетов консоли управления Lync Server вы импортируете политики и параметры конфигурации.</span><span class="sxs-lookup"><span data-stu-id="825ad-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d3921-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="d3921-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="825ad-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="825ad-109">In This Section</span></span>
 
-  - [<span data-ttu-id="d3921-110">Установка пакета обратной совместимости WMI</span><span class="sxs-lookup"><span data-stu-id="d3921-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
+  - [<span data-ttu-id="825ad-110">Установка пакета обратной совместимости WMI</span><span class="sxs-lookup"><span data-stu-id="825ad-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
 
-  - [<span data-ttu-id="d3921-111">Объединение с помощью мастера объединения в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="d3921-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
+  - [<span data-ttu-id="825ad-111">Объединение с помощью мастера объединения в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="825ad-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
 
-  - [<span data-ttu-id="d3921-112">Импорт политик и параметров</span><span class="sxs-lookup"><span data-stu-id="d3921-112">Import policies and settings</span></span>](import-policies-and-settings.md)
+  - [<span data-ttu-id="825ad-112">Импорт политик и параметров</span><span class="sxs-lookup"><span data-stu-id="825ad-112">Import policies and settings</span></span>](import-policies-and-settings.md)
 
-  - [<span data-ttu-id="d3921-113">Проверка сведений о топологии</span><span class="sxs-lookup"><span data-stu-id="d3921-113">Verify topology information</span></span>](verify-topology-information.md)
+  - [<span data-ttu-id="825ad-113">Проверка сведений о топологии</span><span class="sxs-lookup"><span data-stu-id="825ad-113">Verify topology information</span></span>](verify-topology-information.md)
 
 </div>
 

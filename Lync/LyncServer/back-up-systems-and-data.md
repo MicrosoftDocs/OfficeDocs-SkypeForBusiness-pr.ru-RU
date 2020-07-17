@@ -26,7 +26,7 @@ ms.locfileid: "44755371"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="86385-102">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="86385-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="47b36-102">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="47b36-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "44755371"
 
 <span> </span>
 
-<span data-ttu-id="86385-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="86385-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="47b36-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="47b36-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="86385-104">Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться к Lync Server 2010, если это будет необходимо.</span><span class="sxs-lookup"><span data-stu-id="86385-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="86385-105">Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.</span><span class="sxs-lookup"><span data-stu-id="86385-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="47b36-104">Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться к Lync Server 2010, если это будет необходимо.</span><span class="sxs-lookup"><span data-stu-id="47b36-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="47b36-105">Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.</span><span class="sxs-lookup"><span data-stu-id="47b36-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="86385-106">Подробные сведения и процедуры приведены в статье [резервное копирование и восстановление Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="86385-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="47b36-106">Подробные сведения и процедуры приведены в статье [резервное копирование и восстановление Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="47b36-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 

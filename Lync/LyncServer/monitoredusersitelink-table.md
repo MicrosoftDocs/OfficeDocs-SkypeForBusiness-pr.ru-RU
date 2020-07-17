@@ -25,7 +25,7 @@ ms.locfileid: "44757190"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoredusersitelink-table"></a><span data-ttu-id="99d7f-102">Таблица Таблица monitoredusersitelink</span><span class="sxs-lookup"><span data-stu-id="99d7f-102">MonitoredUserSiteLink table</span></span>
+# <a name="monitoredusersitelink-table"></a><span data-ttu-id="76fff-102">Таблица Таблица monitoredusersitelink</span><span class="sxs-lookup"><span data-stu-id="76fff-102">MonitoredUserSiteLink table</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44757190"
 
 <span> </span>
 
-<span data-ttu-id="99d7f-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="99d7f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="76fff-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="76fff-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="99d7f-104">The MonitoredUserSiteLink table is a supporting table.</span><span class="sxs-lookup"><span data-stu-id="99d7f-104">The MonitoredUserSiteLink table is a supporting table.</span></span> <span data-ttu-id="99d7f-105">Each record represents one link between two user sites.</span><span class="sxs-lookup"><span data-stu-id="99d7f-105">Each record represents one link between two user sites.</span></span>
+<span data-ttu-id="76fff-p101">Таблица MonitoredUserSiteLink является таблицей поддержки. Каждая запись представляет одну связь между двумя сайтами пользователей.</span><span class="sxs-lookup"><span data-stu-id="76fff-p101">The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "44757190"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="99d7f-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="99d7f-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="99d7f-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="99d7f-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="76fff-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="76fff-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="76fff-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="76fff-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="99d7f-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-110"><strong>UserSite1Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="99d7f-111">int</span><span class="sxs-lookup"><span data-stu-id="99d7f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="99d7f-112">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="99d7f-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="99d7f-113">Ссылка из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="99d7f-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="76fff-110"><strong>UserSite1Key</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-110"><strong>UserSite1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="76fff-111">int</span><span class="sxs-lookup"><span data-stu-id="76fff-111">int</span></span></p></td>
+<td><p><span data-ttu-id="76fff-112">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="76fff-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="76fff-113">Ссылка из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76fff-113">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="99d7f-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="99d7f-114"><strong>UserSite2Key</strong></span></span></p></td>
-<td><p><span data-ttu-id="99d7f-115">int</span><span class="sxs-lookup"><span data-stu-id="99d7f-115">int</span></span></p></td>
-<td><p><span data-ttu-id="99d7f-116">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="99d7f-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="99d7f-117">Справочные материалы из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="99d7f-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="76fff-114"><strong>UserSite2Key</strong></span><span class="sxs-lookup"><span data-stu-id="76fff-114"><strong>UserSite2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="76fff-115">int</span><span class="sxs-lookup"><span data-stu-id="76fff-115">int</span></span></p></td>
+<td><p><span data-ttu-id="76fff-116">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="76fff-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="76fff-117">Справочные материалы из <a href="lync-server-2013-usersite-table.md">таблицы таблица usersite в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76fff-117">Reference from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -26,7 +26,7 @@ ms.locfileid: "44754985"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a><span data-ttu-id="cabf3-102">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="cabf3-102">Configure DNS records for pilot pool deployment</span></span>
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a><span data-ttu-id="0044c-102">Настройка DNS-записей для развертывания пилотного пула</span><span class="sxs-lookup"><span data-stu-id="0044c-102">Configure DNS records for pilot pool deployment</span></span>
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "44754985"
 
 <span> </span>
 
-<span data-ttu-id="cabf3-103">_**Последнее изменение темы:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="cabf3-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="0044c-103">_**Последнее изменение темы:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="0044c-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="cabf3-104">Перед развертыванием пилотного пула Lync Server 2013 необходимо обновить записи узла DNS для пилотного пула.</span><span class="sxs-lookup"><span data-stu-id="cabf3-104">Prior to deploying the Lync Server 2013 pilot pool, you must update the DNS Host A entries for the pilot pool.</span></span> <span data-ttu-id="cabf3-105">Чтобы успешно выполнить процедуру, необходимо выполнить вход на сервер или в домен по крайней мере с правами члена группы "Администраторы домена" или DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="cabf3-105">To successfully complete this procedure, you should be logged on to the server or domain at minimum as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="0044c-104">Перед развертыванием пилотного пула Lync Server 2013 необходимо обновить записи узла DNS для пилотного пула.</span><span class="sxs-lookup"><span data-stu-id="0044c-104">Prior to deploying the Lync Server 2013 pilot pool, you must update the DNS Host A entries for the pilot pool.</span></span> <span data-ttu-id="0044c-105">Чтобы успешно выполнить процедуру, необходимо выполнить вход на сервер или в домен по крайней мере с правами члена группы "Администраторы домена" или DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="0044c-105">To successfully complete this procedure, you should be logged on to the server or domain at minimum as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="cabf3-106">**Настройка записей A узла DNS**</span><span class="sxs-lookup"><span data-stu-id="cabf3-106">**To configure DNS Host A records**</span></span>
+<span data-ttu-id="0044c-106">**Настройка записей A узла DNS**</span><span class="sxs-lookup"><span data-stu-id="0044c-106">**To configure DNS Host A records**</span></span>
 
-1.  <span data-ttu-id="cabf3-107">На сервере DNS в меню **Пуск** выберите пункт **Администрирование** и щелкните **DNS**.</span><span class="sxs-lookup"><span data-stu-id="cabf3-107">On the Domain Name System (DNS) server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="0044c-107">На сервере DNS в меню **Пуск** выберите пункт **Администрирование** и щелкните **DNS**.</span><span class="sxs-lookup"><span data-stu-id="0044c-107">On the Domain Name System (DNS) server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="cabf3-108">В дереве консоли для своего домена разверните узел **зоны прямого просмотра**и щелкните правой кнопкой мыши домен, в котором будет установлен Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cabf3-108">In the console tree for your domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 will be installed.</span></span>
+2.  <span data-ttu-id="0044c-108">В дереве консоли для своего домена разверните узел **зоны прямого просмотра**и щелкните правой кнопкой мыши домен, в котором будет установлен Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0044c-108">In the console tree for your domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 will be installed.</span></span>
 
-3.  <span data-ttu-id="cabf3-109">Выберите команду **Создать узел (A или AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="cabf3-109">Click **New Host (A or AAAA)**.</span></span>
+3.  <span data-ttu-id="0044c-109">Выберите команду **Создать узел (A или AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="0044c-109">Click **New Host (A or AAAA)**.</span></span>
 
-4.  <span data-ttu-id="cabf3-110">Щелкните поле **Имя** и введите имя узла пула (имя домена принимается соответствующим зоне, в которой определяется запись, и его не нужно вводить как часть записи A).</span><span class="sxs-lookup"><span data-stu-id="cabf3-110">Click **Name**, type the host name for the pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).</span></span>
+4.  <span data-ttu-id="0044c-110">Щелкните поле **Имя** и введите имя узла пула (имя домена принимается соответствующим зоне, в которой определяется запись, и его не нужно вводить как часть записи A).</span><span class="sxs-lookup"><span data-stu-id="0044c-110">Click **Name**, type the host name for the pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).</span></span>
 
-5.  <span data-ttu-id="cabf3-111">Щелкните **IP-адрес**, введите IP-адрес пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="cabf3-111">Click **IP Address**, type the IP address for the Front End pool.</span></span>
+5.  <span data-ttu-id="0044c-111">Щелкните **IP-адрес**, введите IP-адрес пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="0044c-111">Click **IP Address**, type the IP address for the Front End pool.</span></span>
 
-6.  <span data-ttu-id="cabf3-112">Щелкните **Добавить узел**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cabf3-112">Click **Add Host**, and then click **OK**.</span></span>
+6.  <span data-ttu-id="0044c-112">Щелкните **Добавить узел**, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="0044c-112">Click **Add Host**, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="cabf3-113">По завершении нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabf3-113">When you are finished, click **Done**.</span></span>
+7.  <span data-ttu-id="0044c-113">По завершении нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="0044c-113">When you are finished, click **Done**.</span></span>
 
 </div>
 
