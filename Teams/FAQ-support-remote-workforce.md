@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Используйте эти инструкции для поддержки удаленных сотрудников с целью обеспечения их эффективности, если они работают из дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028115"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138009"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Вопросы и ответы: поддержка удаленных сотрудников
 
@@ -103,6 +103,10 @@ ms.locfileid: "45028115"
 
 Если вы впервые назначаете лицензию или активируете пользователя, но уже используете Microsoft 365 в течение некоторого времени, вам может потребоваться [включить Teams](Office-365-set-up.md) в организации. Ознакомьтесь с разделом [Я уже использую Microsoft 365, но не использую Teams. Предоставляются ли лицензии на пробные версии?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) в этой статье.
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>У участников собраний возникают проблемы с присоединением — звонки не проходят.
+
+В периоды высокой загруженности собраний (которая наблюдается в связи со вспышкой COVID-19) мы рекомендуем пользователям присоединяться к собраниям, нажимая кнопку <strong>Присоединиться к собранию Teams</strong>, а не звонить по номеру конференции ТСОП и не использовать функцию <strong>Позвонить мне на номер</strong>. Это помогает обеспечить высокое качество звука, когда высокая громкость собрания вызывает перегрузку в сети ТСОП. 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Можно ли использовать планы звонков с пробной версией Office 365 E1, предлагаемой корпорацией Майкрософт? Можно ли назначать своим пользователям номера телефонов? Сколько мне придется заплатить?
 
 Пользователи могут выполнять голосовые и видеозвонки между приложениями в любой версии Teams. Чтобы назначить номер сотруднику, потребуется [телефонная система](what-is-phone-system-in-office-365.md). Чтобы получить и развернуть ее, рекомендуем использовать партнера Майкрософт или торгового представителя. Дополнительные сведения см. в статье [Голосовые и видеозвонки с помощью Teams](https://products.office.com/microsoft-teams/voice-calling).
@@ -120,3 +124,5 @@ ms.locfileid: "45028115"
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>Какие меры предпринимает корпорация Майкрософт в поддержку своих сотрудников в условиях вспышки эпидемии COVID-19?
 
 Ознакомьтесь с записью президента корпорации Майкрософт Брэда Смита в нашем блоге от 5 марта 2020 г. [В стремлении защитить здоровье населения мы не должны забывать о защите доходов нашего обслуживающего персонала с почасовой оплатой труда](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
+и обязательно посетите страницу [совместного реагирования на COVID-19](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) на сайте Microsoft.com.
