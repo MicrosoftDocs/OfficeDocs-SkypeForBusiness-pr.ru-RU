@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021737"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166757"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -53,8 +53,8 @@ ms.locfileid: "45021737"
 | Представление Lenovo ThinkSmart                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | Апрель 2020                   |
 | Poly тройкой C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | Апрель 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 января                 |
-| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020 января                 |
-| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | Декабрь 2019 г.                |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 января                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Декабрь 2019 г.                |
 | Poly тройкой 8500/8800 (только в режиме общего доступа) | 5.9.0.10869                                                                                                                                                                                                                                | Июнь 2019 г.                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | Март 2020                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | Июнь 2019 г.                    |
@@ -91,6 +91,7 @@ ms.locfileid: "45021737"
 
 | Модель устройства        | Версия встроенного по     | Выпуск включенного продукта |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Обновление #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Обновление #4                |
 | Poly CCX400         | 1.0.1.0054           | Обновление #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | Обновление #3                |

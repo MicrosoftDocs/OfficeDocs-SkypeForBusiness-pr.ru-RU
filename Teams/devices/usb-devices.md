@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666111"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166747"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -74,10 +74,11 @@ ms.locfileid: "44666111"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Обновленная таблица 2020 мая*
+*Таблица обновлена 2020 июля*
 
 | Производитель        | Моделировать                                                     | Полном      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |Гарнитура NC 700                                             |6/8/2020        |Сертифицировано для Microsoft Teams|
 |Jabra              | Микрофон с USB-Jabra Link 370 750       | 5/21/2020 | Сертифицировано для Microsoft Teams|
 | EPOS                | Гарнитура Sennheiser адаптация 660                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | EPOS                | Гарнитура Sennheiser адаптация 560                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
@@ -134,5 +135,5 @@ ms.locfileid: "44666111"
 | Polycom             | Elara                                                     | 11/06/2019     | Сертифицировано для Microsoft Teams                          |
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Сертифицировано для Microsoft Teams                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Сертифицировано для Microsoft Teams                          |
-| Jabra               | PanaCast                                                  | 08/14/2019     | Сертифицировано для Microsoft                                |
+| Jabra               | PanaCast                                                  | 08/14/2019     | Сертифицировано для Microsoft Teams                          |
 
