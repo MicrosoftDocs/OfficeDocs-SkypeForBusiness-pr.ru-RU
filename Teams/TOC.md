@@ -41,6 +41,7 @@
 ## [Метки конфиденциальности для Teams](sensitivity-labels.md)
 ## [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
 ## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
+## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Teams и интеграция электронной почты Outlook](teams-outlook-email-integration.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
 ### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -225,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# Голосовая связь в облаке 
+# Голосовая связь — телефонная система и связь с ТСОП 
 
 ## [Планирование развертывания](cloud-voice-landing-page.md)
 
@@ -515,6 +517,7 @@
 #### [Составление списка заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 #### [Определение области проекта](upgrade-define-project-scope.md)
 #### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Общие сведения о телефонной системе и параметрах связи с ТСОП](cloud-voice-landing-page.md)
 #### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [Планирование пилотного развертывания для пользователей](pilot-essentials.md)
 
@@ -535,11 +538,7 @@
 ### [Переход со Skype для бизнеса Online на Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Переход с локальной среды Skype для бизнеса на Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## Использование, внедрение и оптимизация
-### [Обзор плана работ](continue-journey.md)
-### [Использование службы](upgrade-operate-my-service.md)
-### [Мониторинг качества](upgrade-monitor-quality.md)
-### [Улучшение службы](upgrade-enhance-my-service.md)
+## [Использование, внедрение и оптимизация](continue-journey.md)
 
 ## [Прекращение поддержки Skype для бизнеса Online](skype-for-business-online-retirement.md)
 ## [Вопросы и ответы](FAQ-journey.md)
@@ -643,6 +642,7 @@
 ### [Политики и пакеты политик для Teams EDU](policy-packages-edu.md)
 ### [Назначение политик для крупных наборов пользователей](batch-policy-assignment-edu.md)
 ### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
+### [Class Insights](class-insights.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
@@ -697,6 +697,8 @@
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
+## [Использование службы](upgrade-operate-my-service.md)
+## [Улучшение службы](upgrade-enhance-my-service.md)
 ## Отслеживание качества звонка и управление им
 ### [Отслеживание и улучшение качества звонка](monitor-call-quality-qos.md)
 ### Панель мониторинга качества звонка (ПМКЗ)
@@ -720,6 +722,9 @@
 ### Качество обслуживания (QoS)
 #### [Настройка качества обслуживания в Teams](QoS-in-Teams.md)
 #### [Настройка качества обслуживания в клиентах Windows](QoS-in-Teams-clients.md)
+
+
+
 ## [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 ## [Устранение проблем связи с клиентом Teams](connectivity-issues.md)
@@ -931,5 +936,7 @@
 ### [Планы звонков в Microsoft 365 — нормы и правила для Великобритании](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Планы звонков в Microsoft 365 — процедура подачи претензий для Великобритании](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
+
+## [Обновление анкеты для обнаружения](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Заметки о выпуске для функций администрирования Teams](release-notes/release-notes.md)
