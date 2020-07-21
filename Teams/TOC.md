@@ -219,7 +219,6 @@
 ## Прямые трансляции
 ### [Что такое прямые трансляции Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Планирование прямых трансляций Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Возможности выступающего, организатора и участника в трансляции](roles-in-live-events.md)
 ### [Настройка прямых трансляций Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Настройка политик трансляции Teams с помощью PowerShell](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Настройка параметров прямых трансляций Teams](teams-live-events/configure-teams-live-events.md)

@@ -1,4 +1,4 @@
-# [Skype для бизнеса Server 2019](../skype-for-business-server-2019.md)
+# [Skype для бизнеса Server 2019](../skype-for-business-server-2019.yml)
 
 ## [Новые возможности](../whats-new.md)
 ## [Устаревшие возможности](../deprecated.md)
