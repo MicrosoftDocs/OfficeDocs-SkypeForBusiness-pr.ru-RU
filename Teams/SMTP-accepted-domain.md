@@ -16,12 +16,12 @@ f1.keywords:
 description: В этой статье описано, как добавить домен SMTP Microsoft Teams в качестве домена разрешенных отправителей в Exchange Online для отправки уведомлений участникам группы.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c60620a10bc5bb0cff37547313731ba214944ffc
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689865"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201143"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Добавление SMTP-домена Microsoft Teams в качестве доверенного отправителя в Exchange Online 
 =============================================================================
@@ -30,7 +30,7 @@ ms.locfileid: "44689865"
 
 ![Снимок экрана: заголовок сообщения, показывающий пользователя, добавленного в группу.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-Teams использует Microsoft Exchange Online, а также отправлять уведомления участникам группы о добавлении. Различием является полное доменное имя домена сообщения SMTP — "@email. teams.microsoft.com" для коммерческих и бизнес-клиентов и "@GCC-email.teams.com" для государственных клиентов и может быть перехвачено фильтром нежелательной почты.
+Teams использует Microsoft Exchange Online, а также отправлять уведомления участникам группы о добавлении. Различием является полное доменное имя домена сообщения SMTP — "@email. teams.microsoft.com" для коммерческих и бизнес-клиентов и "@GCC-email.teams.microsoft.com" для государственных клиентов и может быть перехвачено фильтром нежелательной почты.
 
 ![Снимок экрана: заголовок сообщения, показывающий пользователя, добавленного в группу.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Удаленное управление параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы и созданием файла основных параметров.
-ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842020"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201253"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации
 
@@ -49,6 +49,10 @@ ms.locfileid: "44842020"
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -94,6 +98,10 @@ ms.locfileid: "44842020"
 | \<ConfigureDomain\>  |Строковое &#x2778;  ||Можно указать список доменов, разделенных запятыми. |
 |\<TeamsMeetingsEnabled\> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. <br/> <br/> XML-файл считается неправильно сформированным, если \<SkypeMeetingsEnabled\> оба \<TeamsMeetingsEnabled\> параметра отключены, но допустимо одновременное включение обоих параметров. |
 |\<IsTeamsDefaultClient> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. |
+|\<WebExMeetingsEnabled\> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность отключена. <br/> <br/> Если этот режим имеет значение истина, вы включаете прямое присоединение к гостьм для собраний Cisco WebEx.|
+|\<UseCustomInfoForThirdPartyMeetings\> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию отключено и использует сведения об учетной записи комнаты для присоединения к собраниям третьих лиц. <br/> <br/> Если для этого параметра установлено значение true, необходимо указать оба \<CustomDisplayNameForThirdPartyMeetings\> \<CustomDisplayEmailForThirdPartyMeetings\> аргумента.|
+|\<CustomDisplayNameForThirdPartyMeetings\> |Строковое &#x2778;  |Первый &#x2776;  |Укажите имя гостя, используемое для присоединения к собраниям третьих лиц. Сторонние услуги будут показывать эти данные в своем интерфейсе и могут храниться в их службе.|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |Строковое &#x2778;  |Первый &#x2776;  |Укажите почтовый адрес электронной почты, используемый для присоединения к собраниям третьих лиц. Сторонние услуги будут показывать эти данные в своем интерфейсе и могут храниться в их службе.|
 |\<BluetoothAdvertisementEnabled> |Логическое &#x2777;  |Первый &#x2776;  |По умолчанию данная возможность включена. |
 |\<AutoAcceptProximateMeetingInvitations> |Логическое &#x2777;  |Первый &#x2776;  |Если установлено значение true, собрания по близлежащим устройствам принимаются автоматически. По умолчанию данная возможность отключена. |
 |\<DualScreenMode\>  |Логическое &#x2777;  |Первый &#x2776;  |Если установлено значение true, включен режим двойного экрана. В противном случае устройство использует один режим экрана. |

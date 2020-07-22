@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Узнайте о поддержке жизненного цикла в комнатах Microsoft Teams, включая структуру динамической поддержки и ее этапы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691195"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201193"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Поддержка версии приложения в комнатах Microsoft Teams
  
@@ -54,8 +54,8 @@ ms.locfileid: "44691195"
 |Версия  |Дата доступности   |Состояние поддержки комнат Microsoft Teams   |Минимальная версия приложения для комнат Microsoft Teams | Рекомендуемая сборка ОС  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |В разделе Проверка <br/>Не рекомендуется|&#x2014; |19041,264 |
-| 1909 |2019-11-12 |Проверка завершена, <br/>Известных проблем нет.|Ожидается в ближайшее время |18363,418  |
-| 1903 |2019-05-21 |Поддерживаются <br/>Рекомендуется  |4.2.4.0 |18362,356 |
+| 1909 |2019-11-12 |Поддерживаются <br/>Рекомендуется |4.5.33.0 |18363,418  |
+| 1903 |2019-05-21 |Поддерживается  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Пропущена <br/>Не рекомендуется &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Поддерживается                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |Не поддерживается                         |&#x2014; |&#x2014; |
@@ -67,7 +67,7 @@ ms.locfileid: "44691195"
 
 Если вы используете поддерживаемую версию Windows 10, вы всегда будете получать последние обновления приложений для приложения Microsoft Teams комнаты.  
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

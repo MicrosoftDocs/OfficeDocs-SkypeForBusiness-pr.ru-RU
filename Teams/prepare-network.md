@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e2346c8bae770671150edc19416676f38bc1d126
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874262"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202945"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -171,5 +171,6 @@ Teams разработана для предоставления наилучш�
 
 [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
 
-[Как выполнить развертывание Teams](How-to-roll-out-teams.md)
+[Способ развертывания Teams](How-to-roll-out-teams.md)
 
+[Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
