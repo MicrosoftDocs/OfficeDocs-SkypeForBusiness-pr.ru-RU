@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141282"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372064"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Если вы еще не сделали этого, прочтите [маршрут на основе местоположения для прямой маршрутизации](location-based-routing-plan.md) , чтобы просмотреть другие действия, которые необходимо выполнить перед настройкой сетевых параметров для маршрутизации на основе местоположения.
 
@@ -58,6 +56,6 @@ ms.locfileid: "43141282"
 
 Перейдите к разделу [Включение маршрутизации на основе местоположения для прямой маршрутизации](location-based-routing-enable.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

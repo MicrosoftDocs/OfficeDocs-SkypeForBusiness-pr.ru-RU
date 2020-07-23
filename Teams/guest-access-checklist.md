@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201053"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372008"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Контрольный список гостевого доступа Microsoft Teams
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201053"
 Используйте этот контрольный список, чтобы помочь вам включить и настроить гостевой доступ в Microsoft Teams. Для внесения этих изменений вам необходимо быть глобальным администратором или администратором команд.
 
 > [!IMPORTANT]
-> Чтобы изменения вступили в силу, может потребоваться подождать несколько часов. 
+> Чтобы изменения вступили в силу, может потребоваться подождать несколько часов.
 
 Посмотрите это короткое видео (5:31 минут), чтобы узнать, как включить гостевой доступ в Microsoft 365, включая Команды.
 
@@ -39,7 +39,7 @@ ms.locfileid: "45201053"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Шаг 1. Включите гостевой доступ на уровне всей команды.
 
-Чтобы включить гостевой доступ, перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
+Вы должны быть администратором службы Teams, чтобы внести эти изменения. Сведения о том, как получить роли администраторов и разрешения, можно найти [в статье Использование ролей администратора Teams для управления группами](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
 1. В Центре администрирования команд выберите **Настройки всей организации** > **Гостевой доступ**.
 2. Установите переключатель **Разрешить гостевой доступ в Microsoft Teams** на **Вкл**.
@@ -73,7 +73,7 @@ ms.locfileid: "45201053"
      - **Ограничения для совместной работы**. Дополнительные сведения о том, как разрешить или заблокировать приглашения на доступ к определенным доменам, см. в статье [разрешения и блокирование приглашений для пользователей B2B из определенных организаций](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
         > [!NOTE]
         > Ограничения для совместной работы см. в статье [включение внешней совместной работы в B2B и управление пользователями, которые могут приглашать гостей](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-      
+
     Дополнительные сведения об управлении возможностью приглашения гостей см. в статье [Делегирование приглашений для службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Шаг 3: Настройка групп Microsoft 365
@@ -88,18 +88,18 @@ ms.locfileid: "45201053"
 
 Подробные инструкции по настройке этих параметров можно найти в разделе [Управление гостевым доступом в группах microsoft 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) и [Управление гостевым доступом в группах Microsoft 365](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>Шаг 4: Настройка общего доступ в Microsoft 365 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>Шаг 4: Настройка общего доступ в Microsoft 365
 
 Убедитесь, что пользователи могут добавлять гостей. Вот как это сделать:
 
 1. В центре администрирования Microsoft 365 **перейдите в раздел Параметры**  >  **Организации**, выберите раздел **Безопасность & конфиденциальность**и нажмите кнопку **общий доступ**.
 
      ![Снимок экрана показывает пример настройки служб](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. Установите флажок **Разрешить пользователям добавлять новых гостей в эту организацию** и нажмите **Сохранить изменения**.
 
      ![Снимок экрана показывает пример переключения настроек общего доступа](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > Этот параметр эквивалентен параметру **Участники могут пригласить** в **настройках пользователя** > **Внешние пользователи** в Azure AD.  
 

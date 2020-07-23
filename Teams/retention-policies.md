@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202962"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247388"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Политики хранения в Microsoft Teams
 
@@ -154,6 +154,24 @@ ms.locfileid: "45202962"
 1. В левой панели навигации Центра безопасности и соответствия требованиям выберите **Управление информацией** > **Хранение**.
 2. В списке политик хранения установите флажок рядом с политикой хранения, которую нужно удалить.
 3. Выберите **Удалить политику**.
+
+### <a name="end-user-experience"></a>Работа с конечными пользователями
+
+Для частных чатов (чатов в 1:1) или групповых чатов конечные пользователи будут видеть, что все сеансы старше конфигурации политики хранения удаляются и сообщение об ошибке "мы удалили старые сообщения из-за ее политики хранения", выводится в верхней части еще не удаленных сообщений.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Снимок экрана с удержанием чата":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Снимок экрана: удержание группового чата":::
+
+После истечения срока действия сообщений для канала пользователи (участники канала) увидят удаленные сообщения. Если удаленное сообщение было родительским сообщением о цепочке разговоров, а затем — на место родительского сообщения, появится сообщение "это сообщение было удалено из-за политики хранения".
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Снимок экрана канала перед удержанием":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Снимок экрана: канал после удержания":::
+
+> [!NOTE]
+> В настоящее время конечные пользователи не подменяют доступ к учетным данным пользователей и администраторов.
+
 
 ### <a name="using-powershell"></a>Использование PowerShell
 

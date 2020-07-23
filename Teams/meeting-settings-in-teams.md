@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201223"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45371988"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -38,7 +38,9 @@ ms.locfileid: "45201223"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-1. Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+Вы должны быть администратором службы Teams, чтобы внести эти изменения. Сведения о том, как получить роли администраторов и разрешения, можно найти [в статье Использование ролей администратора Teams для управления группами](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+
+1. Перейдите в центр администрирования.
 
 2. В области навигации слева выберите **Собрания** > **Параметры собрания**.
 
@@ -65,7 +67,7 @@ ms.locfileid: "45201223"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a>...
+1. Перейдите в центр администрирования.
 2. В области навигации слева выберите **Собрания** > **Параметры собрания**.
 3. В разделе **приглашение**выполните указанные ниже действия.
 
@@ -89,7 +91,7 @@ ms.locfileid: "45201223"
 > Если вы включите QoS или измените параметры в центре администрирования Microsoft Teams для службы Teams, вам также потребуется [применить соответствующие параметры ко всем пользователям](QoS-in-Teams-clients.md) и внутренним сетевым устройствам для полной реализации изменений в QoS в Teams.
 
  ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
-1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a>.
+1. Перейдите в центр администрирования.
 2. В области навигации слева выберите **Собрания** > **Параметры собрания**.
 3. В разделе **Сеть**выполните указанные ниже действия.
 

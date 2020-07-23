@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Выполните указанные ниже действия, чтобы создать телефонный номер по умолчанию для абонентов, которые могут присоединиться к собранию Microsoft Teams.
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021767"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372188"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "45021767"
 Мост конференц-связи предоставляет вашей организации ряд телефонных номеров для подключения. Все эти номера могут быть использованы для подключения к собраниям, созданным организаторами, однако вы можете выбрать, какие номера будут указаны в приглашениях на собрания.
   
 > [!NOTE]
-> Организатор собрания может использовать не более одного платного и одного бесплатного телефонного номера в приглашении на собрание, однако также имеется ссылка в нижней части приглашения на собрания, по которой открывается список всех телефонных номеров для подключения к собранию. 
+> Организатор собрания может использовать не более одного платного и одного бесплатного телефонного номера в приглашении на собрание, однако также имеется ссылка в нижней части приглашения на собрания, по которой открывается список всех телефонных номеров для подключения к собранию.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "45021767"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-Вы должны быть администратором, чтобы внести эти изменения.
+Вы должны быть администратором службы Teams, чтобы внести эти изменения. Сведения о том, как получить роли администраторов и разрешения, можно найти [в статье Использование ролей администратора Teams для управления группами](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
 
 1. Войдите в центр администрирования Microsoft Teams.
 
@@ -63,27 +63,25 @@ ms.locfileid: "45021767"
 
 3. Щелкните имя пользователя в списке доступных пользователей.
 
-4. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**. 
-    
+4. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**.
+
     ![Нажмите кнопку "Изменить" рядом с кнопкой "звуковые конференции"](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. Чтобы ввести номера для пользователя, используйте поля **платный номер** или бесплатный **номер** .
 
-
 > [!IMPORTANT]
-> Когда вы изменяете настройки голосовой конференции пользователя, повторяющиеся и будущие собрания Microsoft Teams должны быть обновлены и отправлены участникам. 
+> Когда вы изменяете настройки голосовой конференции пользователя, повторяющиеся и будущие собрания Microsoft Teams должны быть обновлены и отправлены участникам.
 
-## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
-    
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps). 
+
+- [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
   
-    
 ## <a name="related-topics"></a>Связанные разделы
 
 [Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

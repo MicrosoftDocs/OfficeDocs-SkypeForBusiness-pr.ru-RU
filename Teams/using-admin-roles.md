@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: Узнайте, как с помощью административных ролей назначить администраторов, которым нужны разные уровни доступа для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665211"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229045"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Управление группами с помощью ролей администратора Microsoft Teams
 
-Используя Azure Active Directory (Azure AD), вы можете назначить администраторов, которым требуются разные уровни доступа для управления Microsoft Teams. Администраторы могут управлять всей рабочей нагрузкой групп, а также могут обладать делегированными разрешениями для устранения проблем с качеством связи или управления потребностями Организации. 
+Используя Azure Active Directory (Azure AD), вы можете назначить администраторов, которым требуются разные уровни доступа для управления Microsoft Teams. Администраторы могут управлять всей рабочей нагрузкой групп, а также могут обладать делегированными разрешениями для устранения проблем с качеством связи или управления потребностями Организации.
 
 ## <a name="teams-roles-and-capabilities"></a>Роли и возможности Teams
 
 Доступны четыре роли администратора teams: администратор служб Teams, администратор службы поддержки Teams, специалист по поддержке коммуникационной группы и инженер службы поддержки. Ознакомьтесь со следующей таблицей, чтобы понять, какие действия могут выполнять все роли и какие средства Администратор может использовать в центре администрирования Microsoft Teams и PowerShell.
 
-Для этого перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
-
-
+Для того чтобы подписаться на него, необходимо иметь права администратора. Инструкции по получению разрешений описаны в этой статье.
 
 <!-- add Global admin role? -->
 
@@ -77,7 +75,7 @@ ms.locfileid: "44665211"
    в. С помощью **Get-Module** можно указать имя импортированного сеанса (оно будет сгенерировано случайным образом).<br>
 3. Для идентификации всех доступных командлетов используйте **команду Get-Command-**  < *Name, расположенную выше*>
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Связанные статьи
 
 - [Общие сведения о Microsoft Teams PowerShell](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

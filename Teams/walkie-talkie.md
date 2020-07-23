@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043018"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229055"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение очень рация в Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Приложение очень рация в Teams предоставляет Мгновенное общение (PTT) для своей группы и вскоре станет доступно в общедоступной предварительной версии на Android. Очень рация позволяет пользователям подключаться к своей команде с помощью тех же самых базовых каналов, в которых они находятся. Только те пользователи, которые подключаются к очень рация в канале, становятся участниками и могут общаться друг с другом с помощью push-уведомлений по одной.
+Приложение очень рация в Teams предоставляет Мгновенное общение (PTT) для группы и доступно в общедоступной предварительной версии на Android. Очень рация позволяет пользователям подключаться к своей команде с помощью тех же самых базовых каналов, в которых они находятся. Только те пользователи, которые подключаются к очень рация в канале, становятся участниками и могут общаться друг с другом с помощью push-уведомлений по одной.
 
 Благодаря очень рация в Teams пользователи могут безопасно общаться с знакомым PTT, не требуя выполнения массовых Радио, и очень рация, где бы вы ни находились в сети WiFi или сотовой связи с Интернетом.
 
@@ -73,9 +73,9 @@ ms.locfileid: "45043018"
 
 FirstLine работники часто должны говорить и получать очень рация звонки, даже когда их телефоны заблокированы. Это возможно благодаря специальным устройствам с выделенной кнопкой PTT.
 
-- Существующие телефоны
-  - Проводная гарнитура ([Klein](https://www.kleinelectronics.com/))
-  - Беспроводные гарнитуры ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Гарнитуры
+  - Проводная гарнитура ([Klein](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Беспроводные гарнитуры ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Микрофонныхные телефоны
   - Samsung Galaxy XCover Pro
     - [Дополнительные сведения](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
