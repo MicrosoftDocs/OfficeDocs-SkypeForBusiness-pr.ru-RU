@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Бахрейн.
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231218"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391627"
 ---
 # <a name="availability-in-bahrain"></a>Доступность в Бахрейне
 
@@ -71,7 +71,7 @@ ms.locfileid: "44231218"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Манама  <br/> |
-|Доступны ли платные номера?  <br/> |Да  <br/> |
+|Доступны ли платные номера?  <br/> |Нет  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
