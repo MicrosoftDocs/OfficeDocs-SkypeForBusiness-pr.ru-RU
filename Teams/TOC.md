@@ -132,6 +132,38 @@
 # Собрания и конференции
 ## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
+## Комнаты Microsoft Teams
+### [Обзор](rooms/index.md)
+### План
+#### [Обзор планирования комнат Microsoft Teams](rooms/rooms-plan.md)
+#### [Поддержка версии](rooms/rooms-lifecycle-support.md)
+#### [Заметки о выпуске](rooms/rooms-release-note.md)
+#### [Подготовка среды](rooms/rooms-prep.md)
+#### [Требования](rooms/requirements.md)
+#### [Интернет-лицензирование](rooms/rooms-licensing.md)
+#### [Планирование управления с помощью Azure Monitor](rooms/azure-monitor-plan.md)
+#### [Управление планами с помощью Microsoft Teams Room Premium](rooms/microsoft-teams-rooms-premium.md)
+### Развертывание
+#### [Обзор развертывания](rooms/rooms-deploy.md)
+#### [Настройка учетных записей](rooms/rooms-configure-accounts.md)
+#### [В Office 365](rooms/with-office-365.md)
+#### [В Skype для бизнеса Server](rooms/with-skype-for-business-server-2015.md)
+#### [В Exchange Online (гибридная среда)](rooms/with-exchange-online.md)
+#### [В локальном приложении Exchange (гибридная среда)](rooms/with-exchange-on-premises.md)
+#### [Настройка консоли](rooms/console.md)
+#### [Настройка проверки подлинности](rooms/rooms-authentication.md)
+#### [С помощью Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
+#### [Управление с помощью Azure Monitor](rooms/azure-monitor-deploy.md)
+#### [Перенос SRS версии 1 или LRS](rooms/lrs-migration.md)
+#### [Камеры содержимого](rooms/content-camera.md)
+### Управление
+#### [Обзор управления](rooms/rooms-manage.md)
+#### [Обслуживание и эксплуатация](rooms/rooms-operations.md)
+#### [Поддержка Teams в организации](rooms/known-issues.md)
+#### [Устройства с Azure Monitor](rooms/azure-monitor-manage.md)
+#### [Управление настройками с помощью XML-файла](rooms/xml-config-file.md)
+#### [Использование средства восстановления](rooms/recovery-tool.md)
+
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
 ## [Управление параметрами собраний](meeting-settings-in-teams.md)
@@ -147,7 +179,6 @@
 ## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
 ## [Получение отчета о присутствии на собрании](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Комнаты Microsoft Teams](rooms/index.md)
 ## [Управление Доской в Teams](manage-whiteboard.md)
 
 
