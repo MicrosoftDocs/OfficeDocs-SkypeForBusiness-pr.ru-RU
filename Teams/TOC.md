@@ -152,6 +152,7 @@
 #### [В локальном приложении Exchange (гибридная среда)](rooms/with-exchange-on-premises.md)
 #### [Настройка консоли](rooms/console.md)
 #### [Настройка проверки подлинности](rooms/rooms-authentication.md)
+#### [Присоединение к сторонним собраниям](rooms/third-party-join.md)
 #### [С помощью Microsoft Endpoint Configuration Manager](rooms/rooms-scale.md)
 #### [Управление с помощью Azure Monitor](rooms/azure-monitor-deploy.md)
 #### [Перенос SRS версии 1 или LRS](rooms/lrs-migration.md)
