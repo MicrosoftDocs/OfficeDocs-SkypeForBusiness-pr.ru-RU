@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256599"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429381"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Согласие на конкретные ресурсы в Microsoft Teams
 
@@ -93,8 +93,9 @@ ms.locfileid: "44256599"
 
 При загрузке настраиваемого приложения (также известной для загрузки неопубликованных приложений), которое использует согласие на ресурс, приложение должно быть получено от клиента, на который оно установлено. Другими словами, регистрация приложения Azure AD должна быть из этого клиента. Глобальные администраторы исключаются из этого ограничения и могут отправлять пользовательские приложения из любого клиента либо непосредственно в группу (в неопубликованных), либо в каталог приложений клиента.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
+- [Доступные разрешения RSC](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Управление приложениями в центре администрирования Microsoft Teams](manage-apps.md)
 - [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
