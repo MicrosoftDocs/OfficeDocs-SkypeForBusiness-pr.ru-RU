@@ -1,5 +1,5 @@
 ---
-title: Шаблоны групп для малых и средних организаций
+title: Шаблоны групп для малых и средних организаций, созданных с помощью Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,16 +15,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Используйте предопределенные шаблоны Microsoft Teams, чтобы быстро и легко создавать группы для малых и средних предприятий.
+description: Используйте встроенные шаблоны Microsoft Teams, созданные в Microsoft Graph, для быстрого и простого создания групп для малых и средних предприятий.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944032"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506152"
 ---
-# <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Начало работы с шаблонами групп для малых и средних организаций
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Шаблоны групп, созданные в Microsoft Graph для малых и средних организаций
 
 Шаблоны Microsoft Teams позволяют быстро и легко создавать группы, предоставляя готовый шаблон параметров, каналов и предустановленных приложений.
 
@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 - [Создание команды](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (в предварительной версии)

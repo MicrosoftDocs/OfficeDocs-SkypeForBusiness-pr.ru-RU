@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Установка соединителя Power BI для использования шаблонов запросов на панели мониторинга качества звонков (CQD)
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138068"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506172"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Установка соединителя Power BI для использования шаблонов запросов CQD
 
@@ -124,7 +124,7 @@ ms.locfileid: "45138068"
 
 6. **Поддержка облачных сообществ для государственных организаций (GCC) –** Для пользователей в среде GCC соединитель Power BI CQD будет работать при использовании Power BI Desktop. Соединитель Power BI CQD в настоящее время не совместим с службой Power BI для пользователей GCC.
 
-Обратите внимание, что несмотря на то, что соединительная линия в предварительной версии, скорее всего, вы не сможете изменить эти ограничения в окончательном выпуске соединителя. Большинство из этих проблем являются ограничениями проектирования соединителей DirectQuery в Power BI или основы для разработки модели данных CQD.
+Большинство из этих проблем являются ограничениями проектирования соединителей DirectQuery в Power BI или основы для разработки модели данных CQD.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
@@ -179,6 +179,6 @@ ms.locfileid: "45138068"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Анализ данных CQD для Teams с помощью Power BI](CQD-Power-BI-query-templates.md)
