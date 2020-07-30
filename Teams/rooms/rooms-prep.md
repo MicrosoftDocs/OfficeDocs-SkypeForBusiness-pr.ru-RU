@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру для развертывания комнат Microsoft Teams, чтобы можно было использовать все возможности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125962"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526705"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -39,7 +39,7 @@ ms.locfileid: "45125962"
      > [!IMPORTANT]
      > Комнаты Microsoft Teams не поддерживают проверку подлинности прокси-сервера, так как это может повлиять на выполнение обычных операций комнаты. Убедитесь, что в помещениях Microsoft Teams исключена проверка подлинности прокси-сервера перед тем, как приступить к работе.
   
-3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить сбор данных в корпорацию Майкрософт, добавление следующие сайты:
+3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить Microsoft собирать данные, список разрешений для следующих сайтов:
 
    - Конечная точка клиента телеметрии:https://vortex.data.microsoft.com/
    - Конечная точка параметров телеметрии:https://settings.data.microsoft.com/
@@ -159,7 +159,7 @@ ms.locfileid: "45125962"
   
  Если вы хотите переименовать компьютер после присоединения к домену, используйте команду PowerShell Rename-Computer, а затем новое имя компьютера.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Планирование комнат Microsoft Teams](rooms-plan.md)
 

@@ -13,26 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Важные вопросы планирования для развертывания комнат Microsoft Teams, а также развертывания и управления системой.
-ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773384"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521994"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 
-Преобразуйте пространство для собраний из малых huddleных областей в крупные, используя богатые возможности совместной работы с группами, которые легко использовать, развертывать и управлять ими.
-
-Начните собрание со временем с помощью одного касания, а затем мгновенно выводите их на экран в комнате и делитесь ими с удаленными участниками.
-
-Выберите нужные периферийные устройства для одного из наших партнеров: Yealink, Logitech, Crestron, Polycom, Lenovo и HP.
-
-:::image type="content" source="../media/srs-room.jpg" alt-text="Таблица конференций с офисными комнатами Microsoft Teams":::
+:::row:::
+    :::column span="2":::
+       Преобразуйте пространство для собраний из малых huddleных областей в крупные, используя богатые возможности совместной работы с группами, которые легко использовать, развертывать и управлять ими. <br> 
+       Начните собрание со временем с помощью одного касания, а затем мгновенно выводите их на экран в комнате и делитесь ими с удаленными участниками.<br> 
+       Выберите нужные периферийные устройства для одного из наших партнеров: Yealink, Logitech, Crestron, Polycom, Lenovo и HP.
+    :::column-end:::
+    :::column:::
+       ![Таблица конференций с офисными комнатами Microsoft Teams](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Символ списка](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Развертывание символа](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Средства и отвертка](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| ![Символ списка](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Развертывание символа](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Средства и отвертка](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: Администратор Skype для бизнеса Online
+summary: Skype для бизнеса Online не удаляется 31 июля 2021, когда доступ к службе завершается. Мы рекомендуем пользователям начать переход на Microsoft Teams, который является основным для работы в Microsoft 365.
+metadata:
+  title: Администратор Skype для бизнеса Online
+  description: Узнайте, как управлять Skype для бизнеса Online в своей организации.
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522971"
+landingContent:
+- title: О Skype для бизнеса Online
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Skype для бизнеса Online, который должен быть снят в 2021
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: Начало работы
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: Мы поможем вам!
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: Помощь по входу в Skype для бизнеса
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: Устранение проблем со Skype для бизнеса Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: Переход со Skype для бизнеса на Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: Новые возможности
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка телефонной системы в организации
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: Сторонняя интеграция с Аудиоконференциями
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: Настройка аудиоконференций
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: Планы звонков в Канаде (общедоступная версия)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: Планы звонков в Австралии (только предварительная версия)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: Аудиоконференция
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие вопросы об аудиоконференциях
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: Проверка доступности аудиоконференции в стране или регионе
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Управление настройками аудиоконференции для организации
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: Сравнение поставщиков аудиоконференций
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: Настройка
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка Skype для бизнеса Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Разрешение на добавление контактов Skype пользователям Skype для бизнеса
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: Лицензирование надстроек
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Лицензирование надстроек Skype для бизнеса и Microsoft Teams
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: Что такое кредиты на связь?
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: Планы звонков
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое планы звонков?
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: Проверка доступности планов звонков в стране или регионе
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка планов звонков
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: Телефонная система
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое телефонная система?
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: Возможности телефонной системы
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: Улучшите качество звонков и видео
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Устранение проблем с соединением в Skype для бизнеса
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: Устранение проблем со звуком и видео в Skype для бизнеса
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: Настройка производительности Skype для бизнеса Online
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802

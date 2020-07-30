@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Дополнительные сведения о Microsoft Teams для помещений Premium.
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201295"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521984"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Комнаты Premium для Microsoft Teams
 
-Microsoft Teams Premium — это облачная служба ИТ-управления и мониторинга, позволяющая хранить устройства в Microsoft Teams, а также следить за тем, чтобы они были заблаговременно обновлены и поддерживали среду, оптимизированную для удобного взаимодействия с пользователем.
+Microsoft Teams Premium включает в себя облачную службу управления ИТ-службами и мониторинга, которая позволяет хранить устройства в Microsoft Teams, а также следить за тем, чтобы они были заблаговременно обновлены и поддерживали среду, оптимизированную для обеспечения удобного взаимодействия с пользователем.
 
 Служба Microsoft Teams Premium предназначена для организаций, которые хотят улучшить работу с Конференцией и быстро масштабировать их занимаемое место, предлагая упреждающее управление устройствами с помощью Microsoft Teams. Служба позволяет организациям экономить время, деньги и квалификацию, которые в противном случае будут потрачены на управление комнатой.  
 
@@ -62,8 +62,6 @@ Microsoft Teams Premium — это облачная служба ИТ-управ
 |**Советы и рекомендации**   |Использование, инциденты, работоспособность и общие отчеты (исторические представления)         |
 
 ## <a name="service-prerequisites"></a>Необходимые условия для служб
-
-Служба Microsoft Teams Premium — это дополнение к лицензии на комнату. Комнатам Microsoft Teams требуется отдельный пользователь или лицензия Microsoft Teams для комнаты.
 
 Для обеспечения качества обслуживания в Microsoft Teams Premium требуется, чтобы в помещениях на обслуживание были зарегистрированы [устройства Microsoft Teams, которые поддерживаются в помещениях](requirements.md#hardware-requirements), и необходимо подготовить среду с использованием всех [необходимых URL-адресов Office 365 и диапазонов IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) , которые полностью разрешены и доступны для устройств с комнатой. Дополнительные сведения можно найти в разделе [Подготовка среды](rooms-prep.md) в документации Microsoft Teams комнаты.
 
@@ -142,6 +140,6 @@ Microsoft Teams Premium доступно в следующих странах и
 
 Собранные данные специфичны для учетной записи комнаты, а не отдельного пользователя. Случайные ссылки на отдельного пользователя могут присутствовать в журнале активности при использовании устройства. Собранные данные обрабатываются корпорацией Майкрософт в соответствии с заявлением [о конфиденциальности корпорации Майкрософт](https://aka.ms/privacy).  
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 - [Комнаты Premium для Microsoft Teams](https://rooms.microsoft.com)
