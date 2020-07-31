@@ -6,7 +6,7 @@
 
 # [Поддержка удаленных работников (WFH)](support-remote-work-with-teams.md)
 
-# Обучение 
+# Обучение
 ## [Обзор](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 ## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
-## [Шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
+## [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # Руководство для отраслей и государственных организаций
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
+## [Начало работы с шаблонами Teams с помощью Microsoft Graph](get-started-with-teams-templates.md)
 ## [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Поддержка Microsoft StaffHub прекращена](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)

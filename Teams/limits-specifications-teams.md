@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146075"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506132"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -108,6 +108,9 @@ ms.locfileid: "45146075"
 Названия каналов также не могут начинаться с символа подчеркивания (_) или точки (.) либо заканчиваться точкой (.).
 
 ## <a name="meetings-and-calls"></a>Собрания и звонки
+
+> [!IMPORTANT]
+> В апреле [мы объявили](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) о том, что для более эффективной поддержки клиентов вплоть до 1 июля будет увеличен лимит по умолчанию для трансляций Microsoft 365. Мы решили пойти на встречу нашим клиентам и продлить временное увеличение лимитов по умолчанию до 1 октября 2020 года. В трансляциях в Teams, Stream и Yammer также временно будет поддерживаться возможность посещения до 20 000 участников, продолжительность до 16 часов и одновременное проведение до 50 мероприятий. Кроме того, клиенты могут вести трансляцию в Stream для 100 000 участников, если такая трансляция была изначально запланирована при помощи [Планировщика трансляций Microsoft](https://resources.techcommunity.microsoft.com/live-events/assistance/).
 
 |Функция     | Максимальный предел |
 |------------|---------------|
