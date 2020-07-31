@@ -1,5 +1,5 @@
 
-# [Администратор Skype для бизнеса Online](../skype-for-business-online.md)
+# [Администратор Skype для бизнеса Online](../skype-for-business-online.yml)
 
 ## [Доступность аудиоконференций и планов звонков в различных странах и регионах](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Аргентина](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
