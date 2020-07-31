@@ -53,7 +53,6 @@
 ## [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
 
 
-
 ## Приложения, боты и соединители
 
 ### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
