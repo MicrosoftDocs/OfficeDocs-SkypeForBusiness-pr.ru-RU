@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522346"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533536"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -114,7 +114,6 @@ ms.locfileid: "46522346"
 
 |Функция     | Максимальный предел |
 |------------|---------------|
-|Количество людей на встрече (могут общаться и звонить)  |300. <br><br>**Примечание.** В Teams для государственных организаций (GCC, GCC High, DoD) лимит остается прежним — 250. Эта статья будет обновлена, когда лимит облака для государственных организаций повысится с 250 до 300 и будет поддерживать переполнение собраний.   |
 |Количество людей на встрече (могут общаться и звонить)  | 300 |
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
 |Максимальный размер файла PowerPoint | 2 ГБ|

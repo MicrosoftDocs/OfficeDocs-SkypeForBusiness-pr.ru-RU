@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: В этом списке указаны планы учебных заведений, а затем номера SKU для учащихся и преподавателей.
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702704"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533896"
 ---
 # <a name="education-sku-reference"></a>Справочник по образовательной конфигурации
 
@@ -71,4 +71,4 @@ ms.locfileid: "44702704"
 
 ## <a name="related-topics"></a>См. также
 
-- [Назначение политик большим наборам пользователей в учебном заведении](batch-policy-assignment-edu.md)
+- [Назначение политик большим наборам пользователей в учебном заведении](batch-group-policy-assignment-edu.md)

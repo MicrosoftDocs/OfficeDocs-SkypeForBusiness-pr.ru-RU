@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Учебные курсы под руководством инструктора для Microsoft Teams
+summary: Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия предназначены для подготовки к работе с Teams. Если вы являетесь лицом, принимающим решения в бизнесе, администратором, ИТ-специалистом или конечным пользователем, вы найдете занятия, которые вам подойдут. Не знаете, с чего начать? Пройдите нашу проверку знаний по Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. Чтобы просматривать наши учебные занятия в своем ритме, ознакомьтесь с обучением конечных пользователей по запросу. Выберите учебное занятие, чтобы зарегистрироваться.
+metadata:
+  title: Учебные курсы под руководством инструктора для Microsoft Teams
+  description: Узнайте, как зарегистрироваться в бесплатных интерактивных учебных курсах под руководством инструктора, чтобы изучить все возможности Microsoft Teams.
+  ms.topic: hub-page
+  author: lolajacobsen
+  ms.author: lolaj
+  ms.date: 06/16/2020
+  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
+  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 07/31/2020
+  ms.locfileid: "46534150"
+highlightedContent:
+  items:
+  - title: Проверка знаний Teams
+    itemType: learn
+    url: https://aka.ms/TeamsKnowledgeCheck
+  - title: Обучение для конечных пользователей по запросу
+    itemType: video
+    url: https://aka.ms/TeamsOnDemand
+productDirectory:
+  items:
+  - title: Добро пожаловать в Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+    summary: 'Что такое Microsoft Teams? Ознакомьтесь с этим 30-минутным обзорным курсом, чтобы открыть для себя приложение Teams и его возможности в действии. (Аудитория: все)'
+    url: https://aka.ms/SayhelloTeams
+  - title: Начало работы с Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 'Начиная с чатов и собраний и заканчивая группами и каналами, в ходе этого учебного занятия пользователи получат основные знания, необходимые для уверенной работы с Teams. (Аудитория: конечные пользователи)'
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: Проведение эффективных собраний в Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+    summary: 'Узнайте, как эффективно использовать Teams до собраний, во время собраний и после собраний. (Аудитория: конечные пользователи)'
+    url: https://aka.ms/RunmeetingsTeams
+  - title: Обзор команд и каналов в Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: 'Узнайте, как упростить совместную работу над проектами и в группах. (Аудитория: конечные пользователи)'
+    url: https://aka.ms/TeamsandchannelsinTeams
+  - title: Узнайте, как использовать приложения в Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: " Узнайте, как улучшить командную работу с приложениями. (Аудитория: конечные пользователи)"
+    url: https://aka.ms/IntegrateappsinTeams
+  - title: Расширенные возможности Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    summary: 'Получите представление о нетривиальных способах оптимизации и организации повседневной работы в Teams. (Аудитория: конечные пользователи)'
+    url: https://aka.ms/GodeeperwithTeams
+  - title: Teams для образовательных учреждений - Вебинары
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 'Сведения об использовании Teams в высшем образовании. (Аудитория: преподаватели, учащиеся, исследовательские факультеты, ИТ-специалисты)'
+    url: https://aka.ms/TeamsEduWebinars
+  - title: Освойте работу с Teams из дома
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: " НОВИНКА! Узнайте о том, как поддерживать связь с командой и сохранять производительность. (Аудитория: для конечных пользователей, руководителей групп и отделов)"
+    url: https://aka.ms/WorkathomewithTeams
+  - title: Семинары по планированию перехода
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 'Планируйте и реализуйте успешное обновление до Teams. (Аудитория: ИТ-специалисты, руководители по внедрению изменений)'
+    url: /MicrosoftTeams/upgrade-workshops-landing-page

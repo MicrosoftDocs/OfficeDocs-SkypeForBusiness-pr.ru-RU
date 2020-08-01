@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Воспользуйтесь этим руководством, чтобы помочь удаленным сотрудникам государственной организации эффективно трудиться с помощью Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028145"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533754"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Поддержка удаленных государственных служащих с помощью Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "45028145"
 
   - Начните свое знакомство с Teams серией сеансов **[интерактивного обучения](https://aka.ms/TeamsLiveTraining)**, предназначенного для того, чтобы ваша организация наладила работу с Teams.
 
-  - Присоединяйтесь к одному из наших **[онлайн-занятий](../instructor-led-training-teams-landing-page.md)**, чтобы увидеть Teams в действии и получить ответы на свои вопросы.
+  - Присоединяйтесь к одному из наших **[онлайн-занятий](../instructor-led-training-teams-landing-page.yml)**, чтобы увидеть Teams в действии и получить ответы на свои вопросы.
 
   - Поделитесь **[подробными видеоинструкциями](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** с заинтересованными пользователями
 

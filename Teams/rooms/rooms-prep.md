@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте, как подготовить инфраструктуру для развертывания комнат Microsoft Teams, чтобы можно было использовать все возможности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526705"
+ms.locfileid: "46529182"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -39,7 +39,7 @@ ms.locfileid: "46526705"
      > [!IMPORTANT]
      > Комнаты Microsoft Teams не поддерживают проверку подлинности прокси-сервера, так как это может повлиять на выполнение обычных операций комнаты. Убедитесь, что в помещениях Microsoft Teams исключена проверка подлинности прокси-сервера перед тем, как приступить к работе.
   
-3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить Microsoft собирать данные, список разрешений для следующих сайтов:
+3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить сбор данных в корпорацию Майкрософт, разрешите следующие сайты:
 
    - Конечная точка клиента телеметрии:https://vortex.data.microsoft.com/
    - Конечная точка параметров телеметрии:https://settings.data.microsoft.com/

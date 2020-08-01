@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938198"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533744"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
@@ -38,7 +38,6 @@ ms.locfileid: "44938198"
 Скачайте и установите [модуль PowerShell Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер при появлении соответствующего запроса.
 
 Для более рациональной работы ознакомьтесь [со списком Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
-
 
 ## <a name="sample-script"></a>Пример сценария
 
@@ -62,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Вы также можете назначить политику обмена сообщениями непосредственно пользователям при масштабировании с помощью назначения пакетной политики или группы, в которую входят пользователи. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).
+> Вы также можете назначить политику обмена сообщениями непосредственно пользователям при масштабировании с помощью назначения пакетной политики или группы, в которую входят пользователи. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-group-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).
