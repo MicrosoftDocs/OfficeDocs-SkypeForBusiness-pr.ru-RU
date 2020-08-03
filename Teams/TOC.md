@@ -8,7 +8,7 @@
 
 # Обучение
 ## [Обзор](training-microsoft-teams-landing-page.md)
-## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
+## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.yml)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Начало работы с удаленным обучением](remote-learning-edu.md)
 ### [Политики и пакеты политик для Teams EDU](policy-packages-edu.md)
-### [Назначение политик для крупных наборов пользователей](batch-policy-assignment-edu.md)
+### [Назначение политик для крупных наборов пользователей](batch-group-policy-assignment-edu.md)
+### [Сценарий PowerShell для создания групп безопасности для преподавателей и учащихся](scripts/powershell-script-security-groups-edu.md)
 ### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
 ### [Class Insights](class-insights.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
