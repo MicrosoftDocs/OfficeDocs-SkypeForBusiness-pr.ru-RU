@@ -62,11 +62,13 @@
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ### [Согласие для определенных ресурсов](resource-specific-consent.md)
-### [Управление пользовательскими приложениями](manage-your-custom-apps.md)
+### [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
+### [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
 ### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
+### [Управление приложением "Благодарность"](manage-praise-app.md)
 ### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -808,6 +810,7 @@
 ### [Управление предложением Teams Exploratory](teams-exploratory.md)
 ### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Перевод бесплатной версии Teams на версию по подписке](upgrade-freemium.md)
+### [Расширенные коммуникации](teams-add-on-licensing/advanced-communications.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 Phone System - лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
 
