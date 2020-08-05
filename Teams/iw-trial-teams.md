@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868686"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552635"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -81,7 +81,7 @@ ms.locfileid: "44868686"
 
 Вы можете запретить пользователям устанавливать пробные версии приложений и служб.
 
-1. В [Центре администрирования Microsoft 365](https://portal.office.com/adminportal/home) выберите **Параметры** > **Параметры**, щелкните **Службы** и нажмите **Приложения и службы, лицензированные для отдельных пользователей**.
+1. В [Центре администрирования Microsoft 365](https://portal.office.com/adminportal/home) выберите **Параметры** > **Параметры организации**, щелкните **Службы** и нажмите **Приложения и службы, лицензированные для отдельных пользователей**.
 
     ![Снимок экрана: страница "Службы" в Центре администрирования](media/iw-trial-services.png)
 
