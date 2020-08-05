@@ -4,8 +4,7 @@ ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -20,107 +19,52 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9d1e201e6b838abcfc582b0a7d4aaef90493ef
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506750"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554619"
 ---
-# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a><span data-ttu-id="f6f60-103">Приступая к работе с обучением для администраторов Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-103">Getting started with admin training for Microsoft Teams</span></span>
 
+<span data-ttu-id="f6f60-104">Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров.</span><span class="sxs-lookup"><span data-stu-id="f6f60-104">Use the training resources to educate yourself about Teams, teach others or run workshops.</span></span> <span data-ttu-id="f6f60-105">Регулярно проверяйте новое содержимое.</span><span class="sxs-lookup"><span data-stu-id="f6f60-105">Check back here often for new content.</span></span> 
 
-Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое. 
+|               |               |               |
+| ------------- | ------------- | ------------- |
+| ![Значок с изображением руки и стрелкой вверх](media/get-started-blue-small.svg)  | [<span data-ttu-id="f6f60-107">Быстро приступите к работе с несколькими группами и каналами</span><span class="sxs-lookup"><span data-stu-id="f6f60-107">Get started fast with a couple of teams and channels</span></span>](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Значок, описывающий галочку](media/success-small.svg)  | [<span data-ttu-id="f6f60-109">Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube</span><span class="sxs-lookup"><span data-stu-id="f6f60-109">View best practice and how-to videos in the Coffee in the Cloud channel on YouTube</span></span>](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Значок, который показывает двух пользователей](media/users-people-small.svg)  | [<span data-ttu-id="f6f60-111">Обучение пользователей</span><span class="sxs-lookup"><span data-stu-id="f6f60-111">Get training for your users</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Быстро приступите к работе с несколькими группами и каналами</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Обучение пользователей</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+<h2><span data-ttu-id="f6f60-112">Техническое обучение</span><span class="sxs-lookup"><span data-stu-id="f6f60-112">Technical training</span></span></h2>
 
-
-<h2>Техническое обучение</h2>
-
-| Модуль | Видео | Набор слайдов PowerPoint  |
+| <span data-ttu-id="f6f60-113">Модуль</span><span class="sxs-lookup"><span data-stu-id="f6f60-113">Module</span></span> | <span data-ttu-id="f6f60-114">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-114">Video</span></span> | <span data-ttu-id="f6f60-115">Набор слайдов PowerPoint</span><span class="sxs-lookup"><span data-stu-id="f6f60-115">PowerPoint deck</span></span>  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов](https://aka.ms/MicrosoftTeamsforIT) | [Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)<br>[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)<br>[Видео: элементы управления группами для обеспечения безопасности и соответствия требованиям](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 мин)||
-| Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
-| Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
-| Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |
-| Соответствие & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Крытий](https://aka.ms/teams-security-compliance-deck) |
-| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Крытий](https://aka.ms/teams-quality-deck) |
-| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Крытий](https://aka.ms/teams-meetings-intro-deck) |
-| Мультимедиа – это простое собрание|[Видео](https://aka.ms/media-in-teams)  | [Крытий](https://aka.ms/media-in-teams-deck)|
-| Мультимедиа — поток мультимедиа | [Видео](https://aka.ms/teams-media-flows) | [Крытий](https://aka.ms/teams-media-flows-deck)  |
-| Динамическая экстренная вызов | [Видео](https://aka.ms/teams-dec) |  [Крытий](https://aka.ms/teams-dec-deck) |
-| События в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Крытий](https://aka.ms/teams-live-events-deck) |
-| Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
-| Прямая маршрутизация | [Видеоролик 1: планирование прямой маршрутизации в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2: Настройка и управление прямой маршрутизацией в Teams](https://aka.ms/teams-dr-config)<br>[Видеоролик 3: переход на прямую маршрутизацию в Teams](https://aka.ms/teams-dr-migrate)  | [Крытий](https://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
+| [<span data-ttu-id="f6f60-116">Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов</span><span class="sxs-lookup"><span data-stu-id="f6f60-116">Microsoft Mechanics - Teams Essentials for IT YouTube channel</span></span>](https://aka.ms/MicrosoftTeamsforIT) | <span data-ttu-id="f6f60-117">[Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)</span><span class="sxs-lookup"><span data-stu-id="f6f60-117">[Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)</span></span><br><span data-ttu-id="f6f60-118">[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)</span><span class="sxs-lookup"><span data-stu-id="f6f60-118">[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)</span></span>  <br><span data-ttu-id="f6f60-119">[Видео: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)</span><span class="sxs-lookup"><span data-stu-id="f6f60-119">[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)</span></span><br><span data-ttu-id="f6f60-120">[Видео: элементы управления группами для обеспечения безопасности и соответствия требованиям](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 мин)</span><span class="sxs-lookup"><span data-stu-id="f6f60-120">[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)</span></span>||
+| <span data-ttu-id="f6f60-121">Базовые компоненты для основ</span><span class="sxs-lookup"><span data-stu-id="f6f60-121">Foundations - Core Components</span></span> | [<span data-ttu-id="f6f60-122">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-122">Video</span></span>](https://aka.ms/teams-foundations) | [<span data-ttu-id="f6f60-123">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-123">Deck</span></span>](https://aka.ms/teams-foundations-deck) |
+| <span data-ttu-id="f6f60-124">Классическое приложение Windows</span><span class="sxs-lookup"><span data-stu-id="f6f60-124">Windows Desktop Client</span></span> | [<span data-ttu-id="f6f60-125">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-125">Video</span></span>](https://aka.ms/teams-clients) | [<span data-ttu-id="f6f60-126">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-126">Deck</span></span>](https://aka.ms/teams-clients-deck) |
+| <span data-ttu-id="f6f60-127">Руководство, управление и жизненный цикл</span><span class="sxs-lookup"><span data-stu-id="f6f60-127">Governance, management and Lifecycle</span></span> | [<span data-ttu-id="f6f60-128">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-128">Video</span></span>](https://aka.ms/teams-governance) | [<span data-ttu-id="f6f60-129">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-129">Deck</span></span>](https://aka.ms/teams-governance-deck) |
+| <span data-ttu-id="f6f60-130">Соответствие & безопасности</span><span class="sxs-lookup"><span data-stu-id="f6f60-130">Security & Compliance</span></span> | [<span data-ttu-id="f6f60-131">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-131">Video</span></span>](https://aka.ms/teams-security-compliance) | [<span data-ttu-id="f6f60-132">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-132">Deck</span></span>](https://aka.ms/teams-security-compliance-deck) |
+| <span data-ttu-id="f6f60-133">Обзор качества звонка</span><span class="sxs-lookup"><span data-stu-id="f6f60-133">Call Quality Overview</span></span> | [<span data-ttu-id="f6f60-134">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-134">Video</span></span>](https://aka.ms/teams-quality) | [<span data-ttu-id="f6f60-135">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-135">Deck</span></span>](https://aka.ms/teams-quality-deck) |
+| <span data-ttu-id="f6f60-136">Общие сведения о собраниях</span><span class="sxs-lookup"><span data-stu-id="f6f60-136">Meetings introduction</span></span> | [<span data-ttu-id="f6f60-137">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-137">Video</span></span>](https://aka.ms/teams-meetings-intro) | [<span data-ttu-id="f6f60-138">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-138">Deck</span></span>](https://aka.ms/teams-meetings-intro-deck) |
+| <span data-ttu-id="f6f60-139">Мультимедиа – это простое собрание</span><span class="sxs-lookup"><span data-stu-id="f6f60-139">Media - Why meetings are simple</span></span>|[<span data-ttu-id="f6f60-140">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-140">Video</span></span>](https://aka.ms/media-in-teams)  | [<span data-ttu-id="f6f60-141">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-141">Deck</span></span>](https://aka.ms/media-in-teams-deck)|
+| <span data-ttu-id="f6f60-142">Мультимедиа — поток мультимедиа</span><span class="sxs-lookup"><span data-stu-id="f6f60-142">Media - Media flow</span></span> | [<span data-ttu-id="f6f60-143">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-143">Video</span></span>](https://aka.ms/teams-media-flows) | [<span data-ttu-id="f6f60-144">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-144">Deck</span></span>](https://aka.ms/teams-media-flows-deck)  |
+| <span data-ttu-id="f6f60-145">Динамическая экстренная вызов</span><span class="sxs-lookup"><span data-stu-id="f6f60-145">Dynamic emergency calling</span></span> | [<span data-ttu-id="f6f60-146">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-146">Video</span></span>](https://aka.ms/teams-dec) |  [<span data-ttu-id="f6f60-147">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-147">Deck</span></span>](https://aka.ms/teams-dec-deck) |
+| <span data-ttu-id="f6f60-148">События в реальном времени</span><span class="sxs-lookup"><span data-stu-id="f6f60-148">Live Events</span></span> | [<span data-ttu-id="f6f60-149">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-149">Video</span></span>](https://aka.ms/teams-live-events-session) | [<span data-ttu-id="f6f60-150">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-150">Deck</span></span>](https://aka.ms/teams-live-events-deck) |
+| <span data-ttu-id="f6f60-151">Введение в телефонную систему</span><span class="sxs-lookup"><span data-stu-id="f6f60-151">Phone System introduction</span></span> | [<span data-ttu-id="f6f60-152">Видео</span><span class="sxs-lookup"><span data-stu-id="f6f60-152">Video</span></span>](https://aka.ms/teams-phone-system) | [<span data-ttu-id="f6f60-153">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-153">Deck</span></span>](https://aka.ms/teams-phone-system-deck) |
+| <span data-ttu-id="f6f60-154">Прямая маршрутизация</span><span class="sxs-lookup"><span data-stu-id="f6f60-154">Direct Routing</span></span> | [<span data-ttu-id="f6f60-155">Видеоролик 1: планирование прямой маршрутизации в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-155">Video 1: Planning for Direct Routing in Teams </span></span>](https://aka.ms/teams-dr-plan)<br>[<span data-ttu-id="f6f60-156">Видео 2: Настройка и управление прямой маршрутизацией в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-156">Video 2: Configuring and Managing Direct Routing in Teams</span></span>](https://aka.ms/teams-dr-config)<br>[<span data-ttu-id="f6f60-157">Видеоролик 3: переход на прямую маршрутизацию в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-157">Video 3: Migrating to Direct Routing in Teams</span></span>](https://aka.ms/teams-dr-migrate)  | [<span data-ttu-id="f6f60-158">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-158">Deck</span></span>](https://aka.ms/teams-direct-routing-deck) |
+| <span data-ttu-id="f6f60-159">Переход со Skype для бизнеса на Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-159">Upgrade from Skype for Business to Teams</span></span> | [<span data-ttu-id="f6f60-160">Видеоролик 1: введение в обновление</span><span class="sxs-lookup"><span data-stu-id="f6f60-160">Video 1: Introduction to Upgrade</span></span>](https://aka.ms/teams-upgrade-intro)</br>[<span data-ttu-id="f6f60-161">Видео 2: планирование обновления</span><span class="sxs-lookup"><span data-stu-id="f6f60-161">Video 2: Plan your upgrade</span></span>](https://aka.ms/teams-upgrade-plan)</br>[<span data-ttu-id="f6f60-162">Видеоролик 3: сосуществование и взаимодействие</span><span class="sxs-lookup"><span data-stu-id="f6f60-162">Video 3: Coexistence and Interoperability</span></span>](https://aka.ms/teams-upgrade-coexistence-interop)</br>[<span data-ttu-id="f6f60-163">Видео 4: взаимодействие с администратором</span><span class="sxs-lookup"><span data-stu-id="f6f60-163">Video 4: Administrator experience</span></span>](https://aka.ms/teams-upgrade-admin) | [<span data-ttu-id="f6f60-164">Крытий</span><span class="sxs-lookup"><span data-stu-id="f6f60-164">Deck</span></span>](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Краткие руководства по началу работы</h2>
+<h2><span data-ttu-id="f6f60-165">Краткие руководства по началу работы</span><span class="sxs-lookup"><span data-stu-id="f6f60-165">Quick start guides</span></span></h2>
 
-- [Краткое руководство: группы для администраторов для образования](teams-quick-start-edu.yml)
-- [Краткое руководство: Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
+- [<span data-ttu-id="f6f60-166">Краткое руководство: группы для администраторов для образования</span><span class="sxs-lookup"><span data-stu-id="f6f60-166">Quick start: Teams for Education admins</span></span>](teams-quick-start-edu.yml)
+- [<span data-ttu-id="f6f60-167">Краткое руководство: Настройка планов звонков в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-167">Quick start: Configuring Calling Plans in Teams</span></span>](configuring-teams-calling-quickstartguide.md)
 
-<h2>Материалов</h2>
+<h2><span data-ttu-id="f6f60-168">Материалов</span><span class="sxs-lookup"><span data-stu-id="f6f60-168">Tutorials</span></span></h2>
 
-- [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
-- [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
-- [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
+- [<span data-ttu-id="f6f60-169">Руководство. Собрания в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-169">Tutorial: Meetings in Teams</span></span>](tutorial-meetings-in-teams.yml)
+- [<span data-ttu-id="f6f60-170">Руководство. Аудиоконференции в Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-170">Tutorial: Audio Conferencing in Teams</span></span>](tutorial-audio-conferencing.yml)
+- [<span data-ttu-id="f6f60-171">Учебное руководство. Общие сведения о звонках в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-171">Tutorial: Understand calling in Teams</span></span>](tutorial-calling-in-teams.yml)
 
-<h2>Курсы</h2>
+<h2><span data-ttu-id="f6f60-172">Курсы</span><span class="sxs-lookup"><span data-stu-id="f6f60-172">Courses</span></span></h2>
 
-- [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
-- [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)
+- [<span data-ttu-id="f6f60-173">Включение функции совместной работы с Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f6f60-173">Enabling Teamwork with Microsoft Teams</span></span>](https://aka.ms/edx-cld267x-about)
+- [<span data-ttu-id="f6f60-174">Специалист по внедрению служб (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="f6f60-174">Microsoft Service Adoption Specialist</span></span>](https://aka.ms/AdoptionCert)
