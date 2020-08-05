@@ -4,8 +4,7 @@ ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -20,75 +19,20 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9d1e201e6b838abcfc582b0a7d4aaef90493ef
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506750"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554619"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
-
 Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое. 
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Быстро приступите к работе с несколькими группами и каналами</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Обучение пользователей</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
+|               |               |               |
+| ------------- | ------------- | ------------- |
+| ![Значок с изображением руки и стрелкой вверх](media/get-started-blue-small.svg)  | [Быстро приступите к работе с несколькими группами и каналами](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Значок, описывающий галочку](media/success-small.svg)  | [Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Значок, который показывает двух пользователей](media/users-people-small.svg)  | [Обучение пользователей](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
 
 <h2>Техническое обучение</h2>
 

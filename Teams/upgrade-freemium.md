@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666011"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552721"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Обновление Microsoft Teams до версии, подписке
-======================================================
 
 Если ваша организация использует бесплатную версию Microsoft Teams, вы можете легко переходить на полную версию, приобретя план подписки Microsoft 365 или Office 365 для пользователей. Полная версия предоставляет дополнительные функциональные возможности, такие как планирование, голосовые конференции, улучшенное администрирование и возможности защиты, не предоставляемые бесплатной версией. Microsoft 365 и Office 365 объединяют привычный набор приложений Microsoft Office для настольных систем с облачными версиями служб связи и совместной работы Microsoft для более новой версии, в том числе Exchange Online, SharePoint Online и Office, с помощью которых пользователи могут работать практически в любой точке мира через Интернет. При обновлении Teams ваши существующие данные Teams не будут потеряны. все ваши группы, каналы, разговоры, файлы и разрешения поставляются вместе с вами. 
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и/или КОММУТИРУЕМых операторов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689745"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552625"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -104,7 +104,7 @@ ms.locfileid: "44689745"
 Чтобы настроить базовые и дочерние домены, выполните действия, описанные ниже. В этом примере мы назначением базового доменного имени (customers.adatum.biz) и поддоменом для одного клиента (sbc1.customers.adatum.biz в клиенте Woodgrove Bank).
 
 > [!NOTE]
-> Используйте sbcX.customers.adatum.biz, чтобы включить голосовую связь в клиенте перевозчика.
+> Используйте sbcX.customers.adatum.biz, чтобы включить голосовую связь в клиенте перевозчика. sbcX может быть любым уникальным и допустимым буквенно-цифровым именем узла.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Регистрация базового доменного имени в клиенте перевозчика
 

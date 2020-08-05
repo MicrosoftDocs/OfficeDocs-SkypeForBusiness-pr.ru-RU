@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928812619ff0f3f5c0194f75bdc93ced2f84c79b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139133"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552347"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -40,7 +40,7 @@ ms.locfileid: "44139133"
 > [!TIP]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
-Классическое приложение Microsoft Teams является автономным и также [доступно в приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается в 32-и 64-разрядных версиях Windows (8,1 или более поздних версий) и Windows Server (2012 R2 или более поздней версии), а также для macOS `.deb` и `.rpm` Linux (in и formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
+Классическое приложение Microsoft Teams является автономным и также [доступно в приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается в 32-и 64-разрядных версиях Windows (8,1 или более поздних версий) и Windows Server (2012 R2 или более поздней версии), а также для macOS и Linux (in `.deb` и `.rpm` formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 
@@ -125,7 +125,7 @@ ms.locfileid: "44139133"
     - Откройте соответствующий инструмент управления пакетами и пройдите процедуру самостоятельной установки приложений Linux.
     - Или, если вы любите Терминал, введите: `sudo apt install **teams download file**`
 
-Вы можете запустить Teams через Действия или через Терминал, набрав `Teams`. 
+Вы можете запустить Teams через Действия или через Терминал, набрав `teams`. 
 
 #### <a name="install-teams-using-rpm-package"></a>Установите Команды, используя пакет RPM
 
@@ -134,12 +134,13 @@ ms.locfileid: "44139133"
     - Откройте соответствующий инструмент управления пакетами и пройдите процедуру самостоятельной установки приложений Linux.
     - Или, если вы любите Терминал, введите: `sudo yum install **teams download file**`
 
-Вы можете запустить Teams через Действия или через Терминал, набрав `Teams`.
+Вы можете запустить Teams через Действия или через Терминал, набрав `teams`.
 
 #### <a name="install-manually-from-the-command-line"></a>Установить вручную из командной строки
 
 Установите вручную в дистрибутивах Debian и Ubuntu:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -149,7 +150,8 @@ sudo apt install teams
 ```
 
 Установите вручную в дистрибутивах на основе RHEL, Fedora и CentOS:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -159,13 +161,15 @@ sudo dnf install teams
 ```
 
 Также можно использовать yum вместо dnf:
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 Установите вручную в дистрибутивах на основе openSUSE:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

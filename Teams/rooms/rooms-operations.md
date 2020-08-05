@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580707"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552297"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -105,7 +105,8 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
   
 1. Войдите в систему как администратор на устройстве с комнатой Microsoft Teams.
 2. Откройте командную в командной строке PowerShell с повышенными привилегиями.
-3. Введите следующую команду: Enable-PSRemoting -force
+3. Введите следующую команду:`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. Открытие локальной политики безопасности и Добавление группы безопасности " *Администраторы* " в **Параметры безопасности**  >  **Local Policies**  >  **Назначение прав пользователя**для  >  **доступа к этому компьютеру из сети**.
 
 Чтобы совершить операцию по управлению, выполните указанные ниже действия.
   
@@ -113,7 +114,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 2. Откройте на компьютере стандартную командную кнопку PowerShell.
 3. Скопируйте текст команды из приведенной ниже таблицы и вставьте ее в строке запроса.
 4. Замените `<Device fqdn>` поля значениями полного доменного имени, соответствующими вашей среде.
-5. Замените * \< путь \> * именем файла и локальным путем к главному файлу конфигурации SkypeSettings. XML (или рисунку темы).
+5. Замените на *\<path\>* имя файла и локальный путь файла конфигурации master SkypeSettings.xml (или изображения темы).
     
 Получение подключенных устройств
   
@@ -173,7 +174,7 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>Обновление с помощью PowerShell
 
 1. Извлеките пакет из [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -файла установки в папку, к которой можно получить доступ на устройстве.
-2. Запустите следующий сценарий, нацеленный на устройства Microsoft Teams комнаты, и измените \< \> его на общий доступ к устройствам.
+2. Запустите следующий сценарий, нацеленный на устройства Microsoft Teams комнаты, и измените его \<share\> на общий доступ к устройствам.
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
