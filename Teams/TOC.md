@@ -68,7 +68,6 @@
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
-### [Управление приложением "Благодарность"](manage-praise-app.md)
 ### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
