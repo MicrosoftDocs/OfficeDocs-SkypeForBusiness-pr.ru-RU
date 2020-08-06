@@ -660,6 +660,7 @@
 ### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Пакеты политик Teams для здравоохранения](policy-packages-healthcare.md)
 ### [Обзор приложения для пациентов](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
