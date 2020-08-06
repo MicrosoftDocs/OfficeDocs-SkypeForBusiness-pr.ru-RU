@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166757"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576921"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -48,6 +48,7 @@ ms.locfileid: "45166757"
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | Март 2019 г.                   |
 | AudioCodes C448HD (только режим CAP)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | Март 2019 г.                   |
+|Crestron UC-2                           |1.0.1.46                                                  | 2020 июля                    |
 | Crestron M100                          | Этот продукт был прекращен. Чтобы получить дополнительные сведения, посетите веб-сайт [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) на сайте Crestron. | Прекращено на 5/11/2020 |
 | Crestron Flex UC-P100-T & UC-P110-T    | Этот продукт был прекращен. Дополнительные сведения можно найти на веб-сайте Crestron на устройстве [UC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) .                  | Прекращено на 5/11/2020 |
 | Представление Lenovo ThinkSmart                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | Апрель 2020                   |

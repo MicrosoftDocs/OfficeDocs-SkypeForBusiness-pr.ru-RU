@@ -17,12 +17,12 @@ description: Сведения о том, как настроить планы з
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083159"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576931"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -75,6 +75,9 @@ ms.locfileid: "45083159"
 - Клиент Teams Mobile для Android Client и Google Play Store версии 1416/1.0.0.2019121201 и выше
 - Teams Phone 1449/1.0.94.2019110802 и более поздних версий
 - Комнаты Teams версии 4.4.25.0 и выше
+
+> [!NOTE]
+> В веб-клиенте Teams не поддерживается динамический вызов экстренной помощи, в том числе уведомление на службу безопасности. Чтобы запретить пользователям использовать веб-клиент Teams для КОММУТИРУЕМых номеров, вы можете настроить политику вызова для групп и отключить параметр **Разрешить звонки через Интернет-КТСОП** . Дополнительные сведения можно найти [в разделе политики вызова в Teams](teams-calling-policy.md) и [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Назначение адресов для экстренного реагирования
 
@@ -209,7 +212,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ERSP для тестовых служб.
 
- ## <a name="related-topics"></a>Связанные статьи
+ ## <a name="related-topics"></a>См. также
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)

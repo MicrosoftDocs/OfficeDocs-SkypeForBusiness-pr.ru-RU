@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166747"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572264"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -78,8 +78,15 @@ ms.locfileid: "45166747"
 
 | Производитель        | Моделировать                                                     | Полном      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |Гарнитура NC 700                                             |6/8/2020        |Сертифицировано для Microsoft Teams|
-|Jabra              | Микрофон с USB-Jabra Link 370 750       | 5/21/2020 | Сертифицировано для Microsoft Teams|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Сертифицировано для Skype для бизнеса                        |
+|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Сертифицировано для Skype для бизнеса                        |
+|Jabra                |Применяйте гарнитуру 75                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Применяйте гарнитуру 65                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Применяйте гарнитуру 50                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Avocor               |WCD-AVW-6555                                              |7/30/2020       |Сертифицировано для Microsoft Teams                           |
+|Jabra                |Гарнитура Evolve2 85                                         |7/17/2020       |Сертифицировано для Microsoft Teams                           |
+|Bose                 |Гарнитура NC 700                                             |6/8/2020        |Сертифицировано для Microsoft Teams                           |
+|Jabra                | Микрофон с USB-Jabra Link 370 750     | 5/21/2020       | Сертифицировано для Microsoft Teams                         |
 | EPOS                | Гарнитура Sennheiser адаптация 660                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | EPOS                | Гарнитура Sennheiser адаптация 560                              | 5/15/2020      | Сертифицировано для Microsoft Teams                          |
 | EPOS                | Sennheiser адаптация 460T гарнитура                             | 5/15/2020      | Сертифицировано для Microsoft Teams                          |

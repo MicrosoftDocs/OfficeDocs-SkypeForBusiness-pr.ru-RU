@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов для партнеров Майкрософт и/или КОММУТИРУЕМых операторов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552625"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572364"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -60,7 +60,7 @@ ms.locfileid: "46552625"
 
 - **AudioCodes:** [заметки о настройке прямого маршрутизатора](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурация сценария размещения SBC, описанного в разделе "подключение AudioCodes SBC к Microsoft Teams, Конфигурация модели хостинга для маршрутизации". 
 - **Oracle:** [заметки о настройке прямого](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)направления, конфигурация сценария размещения SBC описана в разделе "Microsoft". 
-- **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs [для](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing) ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) .
+- **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs [для](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) .
 - **Системы TE (anynode):**  Пожалуйста, зарегистрируйте на [странице сообщества TE](https://community.te-systems.de/) , чтобы получить документацию и примеры того, как настроить SBC anynode для нескольких клиентов.
 - **Metaswitch:**  Пожалуйста, зарегистрируйтесь на [странице сообщества Metaswitch](https://sso.metaswitch.com/UI/Login) , чтобы получить сведения о том, как включить Perimeta SBC для нескольких клиентов.
 
