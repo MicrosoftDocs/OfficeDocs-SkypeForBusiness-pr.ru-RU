@@ -1,7 +1,7 @@
 ---
 title: Образец сценария PowerShell — руководители экспорта и их прямые
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc5e5f435ccb096b3cd552fc8e2e87204a4abc
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951084"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583126"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="68841-103">Образец сценария PowerShell — руководители экспорта и их прямые</span><span class="sxs-lookup"><span data-stu-id="68841-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="687ee-103">Образец сценария PowerShell — руководители экспорта и их прямые</span><span class="sxs-lookup"><span data-stu-id="687ee-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="68841-104">Используйте этот сценарий PowerShell для экспорта списка руководителей и их прямых для вашей организации, в процессе подготовки к созданию группы менеджеров пользователей для каждого руководителя, которому предоставлены прямые участники группы.</span><span class="sxs-lookup"><span data-stu-id="68841-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="687ee-104">Используйте этот сценарий PowerShell для экспорта списка руководителей и их прямых для вашей организации, в процессе подготовки к созданию группы менеджеров пользователей для каждого руководителя, которому предоставлены прямые участники группы.</span><span class="sxs-lookup"><span data-stu-id="687ee-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="68841-105">Чтобы ознакомиться с этим сценарием PowerShell, ознакомьтесь с разделом [Создание групп диспетчера пользователей](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="68841-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="687ee-105">Чтобы ознакомиться с этим сценарием PowerShell, ознакомьтесь с разделом [Создание групп диспетчера пользователей](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="687ee-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="68841-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="68841-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="687ee-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="687ee-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="68841-107">Сценарий экспорта — руководители</span><span class="sxs-lookup"><span data-stu-id="68841-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="687ee-107">Сценарий экспорта — руководители</span><span class="sxs-lookup"><span data-stu-id="687ee-107">Export-Managers script</span></span>
 
 ```powershell
 <# 

@@ -2,11 +2,10 @@
 title: Внедрение Microsoft Teams
 ms.reviewer: karuanag
 description: Узнайте о доступных ресурсах по внедрению, которые помогут вам планировать и развертывать Microsoft Teams в своей организации.
-ms.topic: landing-page
+ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
@@ -21,196 +20,28 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 038721d887eef7eeb0c52cb82508b271e26dbbdc
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756518"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588283"
 ---
-# <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
+# <a name="adopt-microsoft-teams"></a><span data-ttu-id="29a02-103">Внедрение Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="29a02-103">Adopt Microsoft Teams</span></span>
 
 > [!NOTE]
-> Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [**главной странице дистанционного обучения**](https://www.microsoft.com/education/remote-learning).
+> <span data-ttu-id="29a02-104">Общие сведения о переходе на дистанционное обучение и ресурсы для начала работы см. на нашей [**главной странице дистанционного обучения**](https://www.microsoft.com/education/remote-learning).</span><span class="sxs-lookup"><span data-stu-id="29a02-104">For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).</span></span>
 
-Если вы работаете в малом бизнесе или хотите развертывать группы, начиная с чата, Teams & каналами и собраний, воспользуйтесь нашими [рекомендациями по началу работы](get-started-with-teams-quick-start.md), которые предназначены для быстрого создания и работы. Если вы используете крупную организацию с гибридной или локальной конфигурацией Skype для бизнеса или хотите выгрузить возможности голосовой связи (например, планы Microsoft 365 или Office 365 или телефонная система), вы можете начать с руководства по началу работы, но вам понадобится дополнительное руководство в разделе **рекомендации по более глубокой внедрению**.
+<span data-ttu-id="29a02-105">Если вы работаете в малом бизнесе или хотите развертывать группы, начиная с чата, Teams & каналами и собраний, воспользуйтесь нашими [рекомендациями по началу работы](get-started-with-teams-quick-start.md), которые предназначены для быстрого создания и работы.</span><span class="sxs-lookup"><span data-stu-id="29a02-105">If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly.</span></span> <span data-ttu-id="29a02-106">Если вы используете крупную организацию с гибридной или локальной конфигурацией Skype для бизнеса или хотите выгрузить возможности голосовой связи (например, планы Microsoft 365 или Office 365 или телефонная система), вы можете начать с руководства по началу работы, но вам понадобится дополнительное руководство в разделе **рекомендации по более глубокой внедрению**.</span><span class="sxs-lookup"><span data-stu-id="29a02-106">If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.</span></span>
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Краткое руководство по началу работы</h3>
-                        <p>Пошаговое руководство по наиболее распространенным сценариям внедрения</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Общие сведения о командах и каналах</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Планирование первых групп</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Предоставьте лидерами</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Учебный курс & сертификации</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Средства и загружаемые файлы</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-107">Краткое руководство по началу работы</span><span class="sxs-lookup"><span data-stu-id="29a02-107">Quick start</span></span>](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-108">Общие сведения о командах и каналах</span><span class="sxs-lookup"><span data-stu-id="29a02-108">Introduction to teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-109">Планирование первых групп</span><span class="sxs-lookup"><span data-stu-id="29a02-109">Plan your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-110">Предоставьте лидерами</span><span class="sxs-lookup"><span data-stu-id="29a02-110">Empower your champions</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-111">Учебный курс & сертификации</span><span class="sxs-lookup"><span data-stu-id="29a02-111">Training & certification</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [<span data-ttu-id="29a02-112">Средства и загружаемые файлы</span><span class="sxs-lookup"><span data-stu-id="29a02-112">Tools and Downloads</span></span>](/microsoftteams/adopt-tools-and-downloads) |
 
+### <a name="deeper-adoption-guidance"></a><span data-ttu-id="29a02-113">Более глубокая рекомендация по внедрению</span><span class="sxs-lookup"><span data-stu-id="29a02-113">Deeper adoption guidance</span></span>
+<span data-ttu-id="29a02-114">Планы внедрения могут быть простыми и сложными в зависимости от вашей среды.</span><span class="sxs-lookup"><span data-stu-id="29a02-114">Adoption plans can be simple to complex, depending on your environment.</span></span> <span data-ttu-id="29a02-115">Для крупномасштабных развертываний выполните указанные ниже действия, чтобы обеспечить более плавный переход на Teams в Организации.</span><span class="sxs-lookup"><span data-stu-id="29a02-115">For large-scale deployments, step through the guidance below to ensure your organization has a smooth transition to Teams.</span></span>
 
-### <a name="deeper-adoption-guidance"></a>Более глубокая рекомендация по внедрению
-Планы внедрения могут быть простыми и сложными в зависимости от вашей среды. Для крупномасштабных развертываний выполните указанные ниже действия, чтобы обеспечить более плавный переход на Teams в Организации.
-
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Начало</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Начало работы</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Общие сведения о командах и каналах</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Создание первых команд</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Оценка готовности культурной и организационной Организации</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Экспериментирование</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Создание программы лидеров</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Управление быстрым началом работы</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Определение сценариев использования</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Встроенные последователи и сбор отзывов</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Поддержка адаптации</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Масштабирование</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Определение результата и успеха</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Оптимизация отзывов и отчетности</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Информированность и внедрение обучения</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Планирование проверок работоспособности служб</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="29a02-116">**[Начало](/MicrosoftTeams/teams-adoption-phase1)**</span><span class="sxs-lookup"><span data-stu-id="29a02-116">**[Start](/MicrosoftTeams/teams-adoption-phase1)**</span></span> </br> [<span data-ttu-id="29a02-117">Начало работы</span><span class="sxs-lookup"><span data-stu-id="29a02-117">Get started</span></span>](/MicrosoftTeams/teams-adoption-get-started) </br> [<span data-ttu-id="29a02-118">Общие сведения о командах и каналах</span><span class="sxs-lookup"><span data-stu-id="29a02-118">Understand teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) </br> [<span data-ttu-id="29a02-119">Создание первых команд</span><span class="sxs-lookup"><span data-stu-id="29a02-119">Create your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) </br> [<span data-ttu-id="29a02-120">Оценка готовности культурной и организационной Организации</span><span class="sxs-lookup"><span data-stu-id="29a02-120">Assess cultural and organizational readiness</span></span>](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="29a02-121">**[Экспериментирование](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span><span class="sxs-lookup"><span data-stu-id="29a02-121">**[Experiment](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span></span> </br> [<span data-ttu-id="29a02-122">Создание программы лидеров</span><span class="sxs-lookup"><span data-stu-id="29a02-122">Create your champions program</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) </br> [<span data-ttu-id="29a02-123">Управление быстрым началом работы</span><span class="sxs-lookup"><span data-stu-id="29a02-123">Governance quick start</span></span>](/MicrosoftTeams/teams-adoption-governance-quick-start)</br> [<span data-ttu-id="29a02-124">Определение сценариев использования</span><span class="sxs-lookup"><span data-stu-id="29a02-124">Define usage scenarios</span></span>](/MicrosoftTeams/teams-adoption-define-usage-scenarios) </br> [<span data-ttu-id="29a02-125">Подключение ранних последователей и сбор отзывов</span><span class="sxs-lookup"><span data-stu-id="29a02-125">Onboard early adopters and gather feedback</span></span>](/MicrosoftTeams/teams-adoption-onboard-early-adopters) </br> [<span data-ttu-id="29a02-126">Поддержка адаптации</span><span class="sxs-lookup"><span data-stu-id="29a02-126">Onboard support</span></span>](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="29a02-127">**[Масштабирование](/MicrosoftTeams/teams-adoption-phase3-enable)**</span><span class="sxs-lookup"><span data-stu-id="29a02-127">**[Scale](/MicrosoftTeams/teams-adoption-phase3-enable)**</span></span> </br> [<span data-ttu-id="29a02-128">Определение результата и успеха</span><span class="sxs-lookup"><span data-stu-id="29a02-128">Define outcome and success</span></span>](/MicrosoftTeams/teams-adoption-define-outcomes) </br> [<span data-ttu-id="29a02-129">Оптимизация отзывов и отчетности</span><span class="sxs-lookup"><span data-stu-id="29a02-129">Optimize feedback and reporting</span></span>](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) </br> [<span data-ttu-id="29a02-130">Информированность и внедрение обучения</span><span class="sxs-lookup"><span data-stu-id="29a02-130">Drive awareness and implement training</span></span>](/MicrosoftTeams/teams-adoption-drive-awareness) </br> [<span data-ttu-id="29a02-131">Планирование проверок работоспособности служб</span><span class="sxs-lookup"><span data-stu-id="29a02-131">Schedule service health reviews</span></span>](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |
