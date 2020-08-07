@@ -675,7 +675,7 @@
 ### [Назначение политик для крупных наборов пользователей](batch-group-policy-assignment-edu.md)
 ### [Сценарий PowerShell для создания групп безопасности для преподавателей и учащихся](scripts/powershell-script-security-groups-edu.md)
 ### [Инструкции по низкой пропускной способности для администраторов образовательных учреждений](edu-remote-low-bandwidth.md)
-### [Class Insights](class-insights.md)
+### [Начало работы с Аналитикой](class-insights.md)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
