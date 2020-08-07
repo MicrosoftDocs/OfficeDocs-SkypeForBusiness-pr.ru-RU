@@ -1,7 +1,7 @@
 ---
 title: Использование средства аналитики звонков для устранения неудовлетворительного качества связи
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Использование подробных сведений об аналитических звонках с устройствами, сетями и подключением для устранения проблем с пользователями в рамках звонков и собраний Microsoft Teams.
-ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 8bee41e79f2610adcb9a1fed3f895c728526f5ea
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085325"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583628"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Использование средства аналитики звонков для устранения неудовлетворительного качества связи
 
@@ -103,7 +103,7 @@ ms.locfileid: "45085325"
 |Устройство не работает  <br/> |Device  <br/> | Устройство работает неправильно. Нерабочее отношение устройства: <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Настройка аналитического звонка для отдельных пользователей](set-up-call-analytics.md)
 

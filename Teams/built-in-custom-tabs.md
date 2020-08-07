@@ -1,7 +1,7 @@
 ---
 title: Использование встроенных и настраиваемых вкладок в Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824697"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581360"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -41,7 +41,7 @@ ms.locfileid: "41824697"
 
     ![Снимок экрана: вкладки в чате.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Владельцы и участники групп могут добавить дополнительные вкладки в канал или чат, нажав кнопку **Добавить вкладку** ![на снимок экрана с кнопкой "добавить вкладку", в котором отображается знак "+".](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) в верхней части канала или чата.
+- Владельцы и участники групп могут добавить дополнительные вкладки в канал или чат, нажав кнопку **Добавить вкладку** на ![ снимок экрана с кнопкой "добавить вкладку", в котором отображается знак "+".](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) в верхней части канала или чата.
 
 - Excel, PowerPoint, Word и PDF-файлы необходимо загрузить на вкладку " **файлы** ", прежде чем они смогут быть преобразованы в вкладки. Любой существующий загруженный файл можно преобразовать в вкладку одним щелчком мыши, как показано ниже.
 

@@ -1,6 +1,6 @@
 ---
 title: Office 365 для государственных организаций — развертывания по требованию
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e690016f16c261a97594e8b9f44d7937c655c1bb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 04b0833f453ffac96e9fe2c9cef1b0f2a0797ca2
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665881"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581260"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Планирование развертывания Office 365 для государственных организаций (DoD)
 

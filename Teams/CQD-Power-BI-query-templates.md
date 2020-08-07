@@ -1,7 +1,7 @@
 ---
 title: Анализ данных CQD в Microsoft Teams с помощью Power BI
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Проанализируйте данные CQD в Microsoft Teams с помощью Power BI.
-ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 5ce4aa58033555551c2fa75f3c3eb93068c59601
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086185"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584048"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Анализ данных CQD в Microsoft Teams с помощью Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "45086185"
 > После того как вы настроили отчеты Power BI для CQD данных, добавьте их в канал как вкладку. После выбора **+** канала выберите **Power BI** , а затем найдите нужный отчет. Для получения дополнительных сведений прочитайте [отчет о внедрении с вкладкой Power BI для Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Помните, что эти отчеты могут получать только пользователи с лицензией Power BI и CQD учетными данными администратора.
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

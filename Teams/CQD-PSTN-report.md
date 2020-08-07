@@ -1,7 +1,7 @@
 ---
 title: Использование отчета о прямой маршрутизации CQD PSTN
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Используйте для мониторинга и устранения неполадок, связанных с телефонным подключением PSTN в Microsoft Teams, использование панели мониторинга качества звонков Microsoft Teams (CQD)).
-ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085345"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583106"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Использование отчета о прямой маршрутизации CQD PSTN
 
@@ -143,7 +143,7 @@ ms.locfileid: "45085345"
 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Анализ данных CQD в Microsoft Teams с помощью Power BI](CQD-PSTN-report.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Создание схемы здания для панели мониторинга качества звонков (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Сведения о том, как создать стандартную карту, которую можно использовать для отправки клиентов и построения данных на панели мониторинга качества вызова (CQD).
-ms.openlocfilehash: 18e88c2de64d2d63589a3cd2ebddbc9643fe4522
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086098"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584038"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Создание схемы здания для панели мониторинга качества звонков (CQD)
 
@@ -42,6 +42,6 @@ ms.locfileid: "45086098"
 1. Проверка существующего стандартного файла с поиском повторений и перекрытий.
 1. Поиск несопоставленных подсетей в CQD.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Отправка клиента и создание данных в CQD](CQD-upload-tenant-building-data.md)

@@ -1,7 +1,7 @@
 ---
 title: Просмотр использования Microsoft Teams в Power BI с использованием данных CQD
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Использование отчетов Power BI для доступа к данным об использовании панели мониторинга качества вызовов Microsoft Teams (CQD) для отслеживания использования Microsoft Teams в Организации.
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085585"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581550"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Просмотр использования Microsoft Teams в Power BI с использованием данных CQD
 
@@ -156,7 +156,7 @@ ms.locfileid: "45085585"
 В нижней таблице приведены подробные сведения о сеансах, в которых участвовали пользователи в течение этого часа. Столбец "тип сбоя" полезен при определении того, что вызвало удаление звонка. Столбцы «захват» и «рендеринг» полезны для определения причины, по которой во время звонка возникло низкое качество.
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

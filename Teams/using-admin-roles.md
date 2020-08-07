@@ -1,7 +1,7 @@
 ---
 title: Управление группами с помощью ролей администратора Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Узнайте, как с помощью административных ролей назначить администраторов, которым нужны разные уровни доступа для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 4f9059815e61ff0343f909ef76d03abf904c8bd4
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229045"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583538"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Управление группами с помощью ролей администратора Microsoft Teams
 
@@ -75,7 +75,7 @@ ms.locfileid: "45229045"
    в. С помощью **Get-Module** можно указать имя импортированного сеанса (оно будет сгенерировано случайным образом).<br>
 3. Для идентификации всех доступных командлетов используйте **команду Get-Command-**  < *Name, расположенную выше*>
 
-### <a name="related-topics"></a>Связанные статьи
+### <a name="related-topics"></a>См. также
 
 - [Общие сведения о Microsoft Teams PowerShell](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

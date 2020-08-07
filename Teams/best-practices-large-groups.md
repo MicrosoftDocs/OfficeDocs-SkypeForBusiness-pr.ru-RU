@@ -2,7 +2,7 @@
 title: Управление крупными группами в Microsoft Teams – советы и рекомендации
 ms.reviewer: abgupta
 author: lolaj
-ms.author: lolaj
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d939b4be4fcd5f3a1045f2f9adde750197b92f29
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 90345578ceb6bbf8d8752b561511d8df85023bf1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638909"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582666"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Управление крупными группами в Microsoft Teams – советы и рекомендации
 ======================================================
@@ -83,7 +83,7 @@ Microsoft Teams — это эффективная связь между небо
 
 Владельцы команд могут включить модерацию для канала, чтобы контролировать, кто может создавать новые сообщения и отвечать на сообщения в этом канале. Когда вы настраиваете модерацию, вы можете выбрать одного или нескольких членов команды в качестве модераторов. Владельцы групп — модераторы по умолчанию. Дополнительные сведения можно найти в разделе [Настройка и управление управлением каналами](manage-channel-moderation-in-teams.md).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 - [Рекомендации по упорядочению команд](best-practices-organizing.md)
 - [Создание группы на уровне Организации](create-an-org-wide-team.md)

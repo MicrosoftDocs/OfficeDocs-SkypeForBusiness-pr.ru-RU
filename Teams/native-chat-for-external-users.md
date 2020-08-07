@@ -1,7 +1,7 @@
 ---
 title: Встроенные функции чата для внешних (Федеративных) пользователей в Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,12 +14,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Узнайте о том, как работать с другими пользователями в Microsoft Teams с помощью чата, если оба пользователя находятся в режиме обновления TeamsOnly.
-ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842010"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583848"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Встроенные функции чата для внешних (Федеративных) пользователей в Microsoft Teams
 ======================================
@@ -47,6 +47,6 @@ ms.locfileid: "44842010"
 Если в Teams будет найден старый чат с внешним пользователем, он Revive этот чат. В противном случае Teams создает новый текстовый чат.
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Управление внешним доступом в Teams](manage-external-access.md)

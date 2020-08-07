@@ -1,8 +1,8 @@
 ---
 title: Рекомендации по драйверам аппаратного декодера и кодировщика
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/06/2019
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dace536d8d47ecacc15661d159563a916b447113
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a195eddc1b48ab99a995ad4ae6fa19279ff0ecf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836439"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583166"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Рекомендации по драйверам аппаратного декодера и кодировщика
 
@@ -139,6 +139,6 @@ ms.locfileid: "41836439"
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь | [21.19.137.1] |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)

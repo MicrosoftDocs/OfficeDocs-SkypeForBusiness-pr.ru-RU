@@ -1,8 +1,8 @@
 ---
 title: Проверка работоспособности службы для Microsoft Teams
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 description: Рекомендуется проверить работоспособность службы Teams, а также других компонентов Microsoft 365 или Office 365 (например, Exchange, SharePoint и OneDrive для бизнеса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085525"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581840"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Проверка работоспособности службы для Microsoft Teams
 ===========================================
@@ -35,6 +35,6 @@ ms.locfileid: "45085525"
 ![Снимок экрана со сведениями о том, что служба Microsoft Teams работоспособна.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

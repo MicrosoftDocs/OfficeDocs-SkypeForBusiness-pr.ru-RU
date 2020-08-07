@@ -1,7 +1,7 @@
 ---
 title: Отчет о присутствии в собраниях Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Получение отчета о присутствии в соб
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b3c7a5fd0bdee38a40ea2ab78afb8af5fd1c616e
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 7a048b3a334f9a70273c7a1b39f888247dbb9596
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256596"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583788"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Отчет о присутствии в собраниях Microsoft Teams
 

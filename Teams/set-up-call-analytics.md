@@ -1,7 +1,7 @@
 ---
 title: Настройка средства аналитики звонков для Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Настройка средства аналитики звонков для пользователей для выявления и устранения проблем с качеством связи в Microsoft Teams.
-ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085315"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581110"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Настройка средства аналитики звонков для Microsoft Teams
 
@@ -59,7 +59,7 @@ ms.locfileid: "45085315"
   
 Если вы создаете файл в формате TSV или CSV с нуля, ознакомьтесь со статьей [Отправка клиента и создание данных](CQD-upload-tenant-building-data.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Использование аналитики звонков для пользователей для устранения слабого качества связи](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

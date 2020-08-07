@@ -1,8 +1,8 @@
 ---
 title: Настройка приложения "Собрания Skype" для работы с Teams
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825527"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581670"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения "Собрания Skype" для работы с Teams
 ===================================================

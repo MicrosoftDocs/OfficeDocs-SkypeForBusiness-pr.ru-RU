@@ -1,7 +1,7 @@
 ---
 title: Парковка и восстановление звонков в Microsoft Teams
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Узнайте о том, как использовать функцию парковки и извлечь, чтобы позвонить на удержание в службе Teams в облаке.
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938538"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582656"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -52,9 +52,9 @@ ms.locfileid: "44938538"
 
 | Возможность | Классическое приложение Teams | Приложение Teams для Mac | Teams Web App (EDGE) |Приложение Teams Mobile для iOS и Android | IP-телефон для Teams | IP-телефон Skype для бизнеса |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Приостановка звонка | Да  | Да  | Да  | Да  | Да | Нет |
-| Получение приостановленного звонка | Да  | Да  | Да  | Да  | Да | Нет |
-| Неизвлеченный ответный звонок | Да  | Да  | Да  | Да  | Да | Нет |
+| Приостановка звонка | Да | Да | Да | Да | Да | Нет |
+| Получение приостановленного звонка | Да | Да | Да | Да | Да | Нет |
+| Неизвлеченный ответный звонок | Да | Да | Да | Да | Да | Нет |
 
 ## <a name="configure-call-park-and-retrieve"></a>Настройка парковки и извлечение звонков
 
@@ -107,7 +107,7 @@ ms.locfileid: "44938538"
 - Режим острова: метод парковки и извлечение недоступен в режиме островов Teams.
 - Звонок уже получен или прерван.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Приостановка звонка в Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

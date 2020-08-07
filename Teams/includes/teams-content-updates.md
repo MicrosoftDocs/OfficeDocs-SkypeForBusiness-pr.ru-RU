@@ -3,79 +3,6 @@
 
 
 
-## <a name="week-of-june-29-2020"></a>Неделя 29 июня 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 6/23/2020 | [Метки чувствительности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
-| 6/23/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 6/23/2020 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | Изменено |
-| 6/23/2020 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-protocols-sip) | Изменено |
-| 6/23/2020 | [Взаимодействие Teams и Skype](/MicrosoftTeams/teams-skype-interop) | Изменено |
-| 6/24/2020 | [Руководство по работе с Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | Изменено |
-| 6/24/2020 | [Архивация или удаление команды в Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | Изменено |
-| 6/24/2020 | [Голосовые конференции с прямой маршрутизацией, GCCH и DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | Изменено |
-| 6/24/2020 | [Создание пользователей Microsoft 365, добавление лицензий на корпоративную голосовую связь и назначение номеров телефонов](/MicrosoftTeams/business-voice/create-users) | Изменено |
-| 6/24/2020 | [Корпоративная голосовая связь Microsoft 365](/MicrosoftTeams/business-voice/index) | Изменено |
-| 6/24/2020 | [Разрешения администратора, необходимые для приобретения Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | Изменено |
-| 6/24/2020 | [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 6/24/2020 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
-| 6/24/2020 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
-| 6/24/2020 | [Управление бесплатной пробной версией Office 365 E1](/MicrosoftTeams/e1-trial-license) | Изменено |
-| 6/24/2020 | [Прекращение поддержки Microsoft StaffHub](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | Изменено |
-| 6/24/2020 | [Управление бесплатной пробной версией Office 365 G1 для государственных учреждений США](/MicrosoftTeams/g1-trial-license) | Изменено |
-| 6/24/2020 | [Использование PowerShell для управления гостевым доступом в команде](/MicrosoftTeams/guest-access-powershell) | Изменено |
-| 6/24/2020 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 6/24/2020 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 6/24/2020 | [Пробное предложение Commercial Cloud](/MicrosoftTeams/iw-trial-teams) | Изменено |
-| 6/24/2020 | [Управление приложениями в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
-| 6/24/2020 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
-| 6/24/2020 | [Управление пользовательскими приложениями в Microsoft Teams](/MicrosoftTeams/manage-your-custom-apps) | Изменено |
-| 6/24/2020 | [Начало собрания — Microsoft Teams](/MicrosoftTeams/meetings-first) | Изменено |
-| 6/24/2020 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
-| 6/24/2020 | [Обзор системы безопасности и соответствия требованиям](/MicrosoftTeams/security-compliance-overview) | Изменено |
-| 6/24/2020 | [Настройка лицензий на общие устройства с телефонным пространством](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
-| 6/24/2020 | [Вход в Teams с современной проверкой подлинности](/MicrosoftTeams/sign-in-teams) | Изменено |
-| 6/24/2020 | [Срок действия и продление подписки для группы в Microsoft Teams](/MicrosoftTeams/team-expiration-renewal) | Изменено |
-| 6/24/2020 | [Назначение лицензий на надстройки Teams пользователям](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | Изменено |
-| 6/24/2020 | [Телефонная система Microsoft 365 — лицензии виртуальных пользователей](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | Изменено |
-| 6/24/2020 | [Оптимизация отзывов и отчетов для внедрения Microsoft Teams](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) | Изменено |
-| 6/24/2020 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 6/24/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
-| 6/24/2020 | [Попробуйте или купите голосовую конференцию в Microsoft 365 для Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | Изменено |
-| 6/24/2020 | [Включение и использование панели мониторинга качества звонков](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
-| 6/24/2020 | [Операции для Microsoft Teams \| Управление службами \| Качество](/MicrosoftTeams/upgrade-operate-my-service) | Изменено |
-| 6/24/2020 | [Планирование перехода со Skype для бизнеса на Microsoft Teams \| Платформа для обеспечения принятия](/MicrosoftTeams/upgrade-plan-journey) | Изменено |
-| 6/24/2020 | [Обучение работе с Microsoft Teams \|ИТ-поддержка, проблемы администратора](/MicrosoftTeams/upgrade-prepare-it-pros) | Изменено |
-| 6/24/2020 | [Переход на план Microsoft Teams \| Skype для бизнеса Teams](/MicrosoftTeams/upgrade-to-teams) | Изменено |
-| 6/24/2020 | [Использование помощника для Teams (общедоступная предварительная версия) для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
-| 6/24/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 6/24/2020 | [Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
-| 6/24/2020 | [Возможности выступающего и участника в трансляции Teams](/MicrosoftTeams/roles-in-live-events) | Изменено |
-| 6/24/2020 | [Известные проблемы](/MicrosoftTeams/rooms/known-issues) | Изменено |
-| 6/24/2020 | Использование помощника по тестированию сети | Удалено |
-| 6/25/2020 | [Доступность в Алжир](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria) | Изменено |
-| 6/25/2020 | [Сведения о доступности страны/региона – голосовые конференции, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
-| 6/25/2020 | [Телефоны и устройства для групп](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 6/25/2020 | [Управление тегами в Microsoft Teams](/MicrosoftTeams/manage-tags) | Изменено |
-| 6/25/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 6/25/2020 | [Вход в Teams с современной проверкой подлинности](/MicrosoftTeams/sign-in-teams) | Изменено |
-| 6/25/2020 | Обучение ИТ-администратора для работы с Microsoft Teams | Удалено |
-| 6/25/2020 | [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
-| 6/25/2020 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
-| 6/25/2020 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
-| 6/25/2020 | [Управление политиками Teams в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
-| 6/26/2020 | Microsoft Teams Chalk рассказывает о них | Удалено |
-| 6/26/2020 | [Доступность в Бангладеш](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh) | Изменено |
-| 6/26/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 6/26/2020 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | изменено |
-| 6/26/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 6/26/2020 | Семинары по планированию перехода на Teams | Удалено |
-| 6/26/2020 | [Учебные курсы под руководством инструктора и видео для пользователей](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Изменено |
-| 6/26/2020 | [Teams за 30](/MicrosoftTeams/teams-in-30-workshops) | Изменено |
-
-
 ## <a name="week-of-july-06-2020"></a>Неделя 6 июля 2020 г.
 
 
@@ -307,3 +234,40 @@
 | 7/23/2020 | [Доступность в Бахрейне](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | Изменено |
 | 7/24/2020 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
 | 7/24/2020 | [Согласие на конкретные ресурсы в Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | Изменено |
+
+
+## <a name="week-of-july-27-2020"></a>Неделя 27 июля 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 7/28/2020 | [Установка соединителя Power BI для использования шаблонов запросов CQD](/MicrosoftTeams/cqd-power-bi-connector) | Изменено |
+| 7/28/2020 | [Начало работы с шаблонами Teams с помощью Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | Изменено |
+| 7/28/2020 | [Как можно использовать идентификатор звонящего в организации](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | Изменено |
+| 7/28/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 7/28/2020 | [Проверка подлинности в комнатах Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
+| 7/28/2020 | [Шаблоны групп для малых и средних организаций, созданных с помощью Microsoft Graph](/MicrosoftTeams/smb-templates) | Изменено |
+| 7/29/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 7/29/2020 | [Комнаты Microsoft Teams](/MicrosoftTeams/rooms/index) | Изменено |
+| 7/29/2020 | [Комнаты Premium для Microsoft Teams](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | Изменено |
+| 7/29/2020 | [Teams за 30](/MicrosoftTeams/teams-in-30-workshops) | Изменено |
+| 7/29/2020 | [Лицензии на надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
+| 7/30/2020 | [Политики управления AppLocker](/MicrosoftTeams/applocker-in-teams) | Изменено |
+| 7/30/2020 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
+| 7/30/2020 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 7/30/2020 | [Подготовка среды](/MicrosoftTeams/rooms/rooms-prep) | Изменено |
+| 7/31/2020 | [Назначение политик вашим пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
+| 7/31/2020 | Назначение политик большим наборам пользователей в учебном заведении | Удалено |
+| 7/31/2020 | [Поддержка удаленных государственных служащих с помощью Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | Изменено |
+| 7/31/2020 | Учебные курсы под руководством инструктора и видео для пользователей | Удалено |
+| 7/31/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 7/31/2020 | [Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
+| 7/31/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 7/31/2020 | [Пример сценария PowerShell — создание политики обмена сообщениями & назначение](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | Изменено |
+| 7/31/2020 | [Справочник по образовательной конфигурации](/MicrosoftTeams/sku-reference-edu) | Изменено |
+| 7/31/2020 | [Прекращение поддержки Skype для бизнеса Online](/MicrosoftTeams/skype-for-business-online-retirement) | Изменено |
+| 7/31/2020 | [Поддержка удаленных сотрудников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
+| 7/31/2020 | [Информированность и внедрение обучения](/MicrosoftTeams/teams-adoption-drive-awareness) | Изменено |
+| 7/31/2020 | [Отчет об использовании устройств с Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Изменено |
+| 7/31/2020 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Изменено |
+| 7/31/2020 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |

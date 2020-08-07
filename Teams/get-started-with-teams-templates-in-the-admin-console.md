@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506478"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583176"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Начало работы с шаблонами Teams в консоли администрирования Teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**Пользовательские шаблоны пока не поддерживаются для пользователей EDU.**
 
 > [!NOTE]
 > Шаблоны Teams в настоящее время не поддерживают создание частных каналов. Создание закрытого канала не включено в определения шаблонов.
@@ -89,6 +91,6 @@ ms.locfileid: "46506478"
 
 ## <a name="related-topics"></a>См. также
 
-- [Создание шаблона группы](create-a-team-template.md)
-- [Создание команды на основе существующего шаблона группы](modify-existing-team-template.md)
-- [Создание шаблона на основе существующей группы](create-team-from-existing-team.md)
+- [Создание настраиваемого шаблона группы](create-a-team-template.md)
+- [Создание шаблона группы на основе существующего шаблона группы](create-template-from-existing-template.md)
+- [Создание шаблона на основе существующей группы](create-template-from-existing-team.md)

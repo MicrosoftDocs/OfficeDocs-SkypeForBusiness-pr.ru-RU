@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как отправлять пользовательские приложения в магазин приложений организации в центре администрирования Microsoft Teams.
-ms.openlocfilehash: 68d7dbc16ca3aa6258fd5f976688240095226934
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d43b19f4ada3ce6f0424a324cdea6f194575325b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552913"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583648"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Публикация настраиваемого приложения путем отправки пакета приложения
 
@@ -88,6 +88,12 @@ ms.locfileid: "46552913"
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Закрепление и установка приложения для пользователей для выяснения
 
 По умолчанию, чтобы пользователи могли найти приложение, нужно перейти в магазин приложений вашей организации и просмотреть или найти его. Чтобы пользователи могли легко получить доступ к приложению, вы можете закрепить приложение на панели приложения в Teams. Для этого создайте политику настройки приложения и назначьте ее пользователям. Дополнительные сведения можно найти <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">в разделе Управление политиками настройки приложений в Teams</a>.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>Поиск событий приложения Teams в журнале аудита
+
+Вы можете выполнить поиск по журналу аудита, чтобы просмотреть действия приложений Teams в Организации. Чтобы узнать больше о том, как искать в журнале аудита и просматривать список действий в группах, которые регистрируются в журнале аудита, ознакомьтесь со статьей <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">Поиск событий в журнале аудита для групп</a>.
+
+Перед тем как выполнять поиск в журнале аудита, необходимо сначала включить аудит в <a href="https://protection.office.com" target="_blank">центре безопасности & соответствия требованиям</a>. Дополнительные сведения можно найти <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">в разделе Включение и отключение поиска в журнале аудита</a>. Имейте в виду, что данные аудита доступны только из той точки, в которой вы включили аудит.
 
 ## <a name="discover-and-adopt"></a>Обнаружение и принятие
 

@@ -1,7 +1,7 @@
 ---
 title: 'Панель мониторинга качества звонков (CQD): часто задаваемые вопросы (вопросы и ответы)'
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Читайте ответы на часто задаваемые вопросы (FAQ) и ответы о панели мониторинга качества звонков Microsoft Teams (CQD).
-ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372128"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584028"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Панель мониторинга качества звонков (CQD): часто задаваемые вопросы (вопросы и ответы)
 
@@ -104,7 +104,7 @@ CQDv2 и CQDv3 всегда будут иметь разные общие пок
 Чтобы определить, есть ли непредвиденные отличия, необходимо ознакомиться с различными разбивками на общие данные.  Сравнение с намерением.  Создание срезов данных по паре категорий агента пользователя — это один из первых моментов, которые мы рекомендуем использовать.  Для *первого продукта* и *второго продукта* также используются срезы.  
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Улучшение и мониторинг качества связи для Teams](monitor-call-quality-qos.md)
 

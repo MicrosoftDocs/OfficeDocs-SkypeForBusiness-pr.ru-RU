@@ -1,7 +1,7 @@
 ---
 title: Получить Microsoft Teams для Android в Китае
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Получить ссылки для загрузки Microsoft Teams для Android из Китая.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9e9988d581beff8a6d09df13f3cedb1a03fc14
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: e4820b5548ead2d8b271689ca4814b0f7b8ce15d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858754"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583518"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>Получить Microsoft Teams для Android в Китае
 

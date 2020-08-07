@@ -1,7 +1,7 @@
 ---
 title: Отправка клиента и создание данных на панели мониторинга качества вызова (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Сведения о том, как передавать сведения о клиентах и зданиях на панели мониторинга качества вызовов (CQD).
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086087"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584068"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Отправка клиента и создание данных на панели мониторинга качества вызова (CQD)
 
@@ -211,7 +211,7 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, Endpo
 > Не забудьте настроить фильтр отчета "месячный год" на текущий месяц. Выберите **изменить**и настройте фильтр отчета " **месяц года** ", чтобы сохранить новый месяц по умолчанию.
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Создание схемы здания для CQD](CQD-building-mapping.md)
 

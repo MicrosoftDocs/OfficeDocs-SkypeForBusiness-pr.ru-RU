@@ -7,8 +7,8 @@ metadata:
   description: Присоединяйтесь к нашей серии интерактивных семинаров по планированию перехода, где мы делимся рекомендациями, советами и ресурсами, помогающими спланировать и реализовать переход на Teams. Для оптимального взаимодействия начните с сеанса Планирование перехода ниже. Щелкните заголовок любого из семинаров, который нужно зарегистрировать.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
@@ -24,12 +24,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902394"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583286"
 productDirectory:
   items:
   - title: Планирование перехода (начните отсюда!)

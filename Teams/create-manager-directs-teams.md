@@ -1,8 +1,8 @@
 ---
 title: Создание групп руководителей пользователей в Microsoft Teams
 ms.reviewer: pbethi
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6cd6ed74bebd0cbd729b828c152b9f04d1fc1f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796223"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583678"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Создание групп руководителей пользователей в Microsoft Teams
 
@@ -30,9 +30,9 @@ ms.locfileid: "42796223"
 
 ## <a name="how-to-use-the-powershell-script"></a>Использование сценария PowerShell 
 
-Начните с запуска [руководителей экспорта и их прямых сценариев](scripts/powershell-script-create-teams-from-managers-export-managers.md) (предполагается, что вы уже запустили модули PowerShell [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) и [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ). *Менеджеры экспорта и их прямые* сценарии создают файл с разделителями-знаками табуляции (ExportedManagerDirects. txt), который содержит список всех руководителей с подчиненными отчетами. 
+Начните с запуска [руководителей экспорта и их прямых сценариев](scripts/powershell-script-create-teams-from-managers-export-managers.md) (предполагается, что вы уже запустили модули PowerShell [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) и [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ). *Менеджеры экспорта и их прямые* сценарии создают файл с разделителями-знаками табуляции (ExportedManagerDirects.txt), который содержит список всех руководителей с подчиненными отчетами. 
 
-Затем запустите сценарий " [Создание новых пользователей" в диспетчере групп](scripts/powershell-script-create-teams-from-managers-new-teams.md). Этот сценарий считывает данные в файле ExportedManagerDirects. txt и создает группу для каждого руководителя, а прямые отчеты этого руководителя — в качестве участников. Если какой-либо руководитель не включен для Teams, сценарий пропускает их и не создает группу. (Просмотрите отчет, а затем повторно запустите сценарий после включения Teams для тех, кому это нужно. Сценарий не создаст вторую команду для всех руководителей, для которых она уже создана.
+Затем запустите сценарий " [Создание новых пользователей" в диспетчере групп](scripts/powershell-script-create-teams-from-managers-new-teams.md). Этот сценарий считывает данные из файла ExportedManagerDirects.txt и создает группу для каждого руководителя, а прямые отчеты этого руководителя — как участники. Если какой-либо руководитель не включен для Teams, сценарий пропускает их и не создает группу. (Просмотрите отчет, а затем повторно запустите сценарий после включения Teams для тех, кому это нужно. Сценарий не создаст вторую команду для всех руководителей, для которых она уже создана.
 
 Для каждой команды сценарий создает общие и "только для забавного" канала. 
 
@@ -42,7 +42,7 @@ ms.locfileid: "42796223"
 
 - Ознакомьтесь с новым приложением по аварийному взаимодействии, прочитав эту запись в блоге 8 марта 2020: [координирование некритических соединений с помощью Microsoft Teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Рекомендации по упорядочению команд](best-practices-organizing.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Обновления Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: В этой статье вы узнаете о процессе о
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903154"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583276"
 ---
 # <a name="teams-update-process"></a>Процесс обновления Teams
 
@@ -61,4 +61,4 @@ Teams не предоставляет администраторам возмо�
 
 Настольные клиенты Teams в правительственных облаках в настоящее время имеют исключение из данного соглашения на обслуживание, пока не будет установлено дополнительное уведомление
 
-Сведения о новых выпусках версий можно найти в [центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) или перейти в раздел **Справка** > **о новых** возможностях клиента.
+Сведения о новых выпусках версий можно найти в [центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) или перейти в раздел **Справка**  >  **о новых** возможностях клиента.

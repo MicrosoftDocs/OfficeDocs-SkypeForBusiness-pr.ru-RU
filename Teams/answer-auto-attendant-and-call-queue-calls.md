@@ -1,8 +1,8 @@
 ---
 title: Ответ на автосекретарь и вызов очереди звонков
 ms.reviewer: waseemh
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190866"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582826"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
 ===========================================================
@@ -63,9 +63,9 @@ ms.locfileid: "43190866"
 
 Чтобы получать автосекретаря и звонки из очереди звонков в Microsoft Teams, необходимо настроить политику взаимодействия и политику обновления. Пожалуйста, просматривайте [миграцию и взаимодействие для организаций, использующих Teams вместе со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md). Если вы не обладаете автосекретарем и (или) очередью звонков, и это нужно сделать, ознакомьтесь со сведениями о [настройке автоматического ассистента в облаке](create-a-phone-system-auto-attendant.md) и [создании очереди облачных звонков](create-a-phone-system-call-queue.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
--    [Что такое телефонная система в Office 365](what-is-phone-system-in-office-365.md)
+-    [Что такое телефонная система в Microsoft 365 или Office 365](what-is-phone-system-in-office-365.md)
 -    [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 -    [Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
 -    [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)

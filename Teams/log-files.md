@@ -1,8 +1,8 @@
 ---
 title: Использование файлов журналов для устранения неполадок в Microsoft Teams
 ms.reviewer: tejeshs
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085755"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582116"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -129,7 +129,7 @@ Linux
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
