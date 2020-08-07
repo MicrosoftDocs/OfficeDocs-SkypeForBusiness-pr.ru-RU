@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522919"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588293"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Использование NDI в Microsoft Teams
 
@@ -40,7 +40,7 @@ NDI ограничен в локальной сети, и его следует 
 
 NDI требует, чтобы пользователь включил два действия.
 
-1. Администратор клиента должен включить функцию Flag enableStreamingCallsOverNdi.
+1. Администратор клиента должен включить свойство "AllowNDIStreaming" в CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 ![Изображение баннера NDI, которое отображается в собрании Teams.](media/NDI-disclosure.png)
 
-Баннер содержит ссылку на [политику конфиденциальности Майкрософт](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+Баннер содержит ссылку на [политику конфиденциальности Майкрософт](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Поддерживаемые национальные настройки и пользовательские типы
 
 NDI поддерживается всеми языками. В собрании NDI поддерживаются следующие пользователи:
 
-- Полная поддержка в клиенте, доставленная на основе звонков/tenantId/userId (в соответствии с политикой собраний + флагом функции)
+- Полная поддержка в клиенте, Доставка которой осуществляется на основе звонков/tenantId/userId (в соответствии с политикой собраний).
 - Федеративная – нет (даже если у них NDI на)<sup>1</sup>
 - Freemium-No (значение по умолчанию)
 - Анонимный – нет (значение по умолчанию)
