@@ -1,7 +1,7 @@
 ---
 title: Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: 6518762250e2cd6fadc2bc2b6eb284a4af31edc4
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064504"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583498"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
 
