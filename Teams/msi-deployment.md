@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088197"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46606925"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -33,7 +33,6 @@ ms.locfileid: "45088197"
 
 Это ссылки на файлы MSI:
 
-
 |Объект  |32-разрядная версия      |64-разрядная версия      |
 |---------|---------|---------|
 |Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
@@ -41,13 +40,15 @@ ms.locfileid: "45088197"
 |Федеральное правительство - GCC High    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Федеральное правительство - DoD     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
+**Чтобы обеспечить успешное развертывание, имейте в виду следующее:**
 
-Кроме того, Teams можно включить в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с помощью приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install).
+- Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
 
-> [!Note]
-> Дополнительные сведения о диспетчере настройки конечных точек Microsoft см [. в разделе что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- Если клиент клиента находится в облаках GCCH или DoD, пользователь должен настроить начальную конечную точку в реестре, добавив значение **CloudType** в раздел **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** в реестре. Тип **CloudType** — это **DWORD** и значения (0 = неопределено, 1 = коммерческая, 2 = GCC, * = GCCH, 4 = DoD). Установка конечной точки с помощью раздела реестра ограничивает возможности подсоединения Teams к правильной облачной конечной точке для подключения с использованием предварительной учетной записи с помощью Teams.
+
+- Кроме того, Teams можно включить в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с помощью приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install).
+
+- Дополнительные сведения о диспетчере настройки конечных точек Microsoft см [. в разделе что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Процедура развертывания (рекомендуется)
 
