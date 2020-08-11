@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# Чат, команды, каналы и приложения
+# Чат, команды и каналы
 ## [Планирование развертывания](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Развертывание Teams с помощью Помощника по Teams](use-advisor-teams-roll-out.md)
 ## [Обзор команд и каналов](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 ## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
 ## [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
-
-
-## Приложения, боты и соединители
-
-### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
-### [Разрешения и рекомендации для приложений](app-permissions.md)
-### [Управление приложениями для Teams](manage-apps.md)
-### [Параметры администратора для приложений в Teams](admin-settings.md)
-### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
-### [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
-### [Согласие для определенных ресурсов](resource-specific-consent.md)
-### [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
-### [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
-### [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Управление приложением Lists для организации в Teams](manage-lists-app.md)
-### [Управление приложением "Задачи" для организации](manage-tasks-app.md)
-### [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
-### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Общение с внешними пользователями
 ### [Общение с пользователями из других организаций](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# Приложения, боты и соединители
+
+## [Обзор](deploy-apps-microsoft-teams-landing-page.md)
+## [Разрешения и рекомендации для приложений](app-permissions.md)
+## [Управление приложениями для Teams](manage-apps.md)
+## [Параметры администратора для приложений в Teams](admin-settings.md)
+## [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
+## [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
+## [Согласие для определенных ресурсов](resource-specific-consent.md)
+## [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
+## [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
+## [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Управление приложением Lists для организации в Teams](manage-lists-app.md)
+## [Управление приложением "Задачи" для организации](manage-tasks-app.md)
+## [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
+## [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # Собрания и конференции
 ## [Краткое руководство — собрания и трансляции](quick-start-meetings-live-events.md)
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
