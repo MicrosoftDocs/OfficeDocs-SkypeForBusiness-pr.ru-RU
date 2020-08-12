@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606925"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640834"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ ms.locfileid: "46606925"
 
 - Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
 
-- Если клиент клиента находится в облаках GCCH или DoD, пользователь должен настроить начальную конечную точку в реестре, добавив значение **CloudType** в раздел **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** в реестре. Тип **CloudType** — это **DWORD** и значения (0 = неопределено, 1 = коммерческая, 2 = GCC, * = GCCH, 4 = DoD). Установка конечной точки с помощью раздела реестра ограничивает возможности подсоединения Teams к правильной облачной конечной точке для подключения с использованием предварительной учетной записи с помощью Teams.
+- Если клиент клиента находится в облаках GCCH или DoD, пользователь должен настроить начальную конечную точку в реестре, добавив значение **CloudType** в раздел **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** в реестре. Тип **CloudType** — это **DWORD** и значения (0 = неопределено, 1 = коммерческая версия, 2 = GCC, 3 = GCCH, 4 = DoD). Установка конечной точки с помощью раздела реестра ограничивает возможности подсоединения Teams к правильной облачной конечной точке для подключения с использованием предварительной учетной записи с помощью Teams.
 
 - Кроме того, Teams можно включить в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с помощью приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install).
 

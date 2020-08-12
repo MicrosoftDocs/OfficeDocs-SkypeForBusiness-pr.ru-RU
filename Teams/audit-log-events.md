@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Сведения о том, как получить данные Microsoft Teams из журнала аудита.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121379"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634615"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -190,6 +190,11 @@ ms.locfileid: "45121379"
 
 Вы можете использовать API-интерфейс действия по управлению Office 365 для получения сведений о событиях Teams. Дополнительные сведения о схеме API действий управления для Teams можно найти в статье [схема Teams](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-## <a name="related-topics"></a>Связанные статьи
+
+## <a name="attribution-in-teams-audit-logs"></a>Назначение атрибутов в журналах аудита Teams
+
+В настоящее время существует известная неполадка, связанная с назначением в журналах аудита и управления сообщениями в Teams. возможно, у владельца неправильно указана возможность удаления или добавления пользователей. Это происходит, когда изменение происходит за пределами Teams. В таких случаях мы рекомендуем использовать [журналы аудита Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+
+## <a name="related-topics"></a>Статьи по теме
 
 - [Поиск в журнале аудита в центре соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 

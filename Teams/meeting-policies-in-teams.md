@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Сведения об управлении параметрами политики собраний в Teams и их использовании для управления доступными участникам собрания для собраний, запланированных пользователями.
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552615"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640964"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собраний в Teams
 
@@ -443,3 +443,4 @@ Daniela может делать заметки в собраниях Аманд�
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
 - [Назначение политик пользователям в Teams](assign-policies.md)
+- [Удаление политики собраний RestrictedAnonymousAccess Teams для пользователей](meeting-policies-restricted-anonymous-access.md)
