@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163918"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643609"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -82,7 +82,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
-3. В> **Audio conferencing**центре >  **администрирования Skype для бизнеса**, в разделе " **идентификатор конференции****", в**области "действия" нажмите кнопку **Сброс**.
+3. В **центре администрирования Skype для бизнеса** >  **Audio conferencing**  >  , в разделе " **идентификатор конференции****",** в области "действия" нажмите кнопку **Сброс**.
 
 4. В окне **Сброс ИД конференции?** нажмите кнопку **Да**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -103,7 +103,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 - Количество цифр идентификатора конференции должно соответствовать номеру Аудиоконференции. В идентификаторе конференции нельзя использовать буквы или специальные символы; можно использовать только цифры.
 
-- Идентификатор конференции для всех пользователей аудиоконференций состоит из 7 символов по умолчанию, и количество знаков не подлежит изменению.
+- Идентификатор конференции для всех пользователей голосовой конференции по умолчанию будет состоять из 9 цифр, а количество цифр изменить нельзя.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
@@ -122,7 +122,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
