@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158677"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648610"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Переход с Skype для бизнеса локально на Teams
 
@@ -75,7 +75,7 @@ ms.locfileid: "45158677"
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Шаг 4: отключение гибридного развертывания для завершения миграции в облаке
 
-После перемещения всех пользователей из локальной сети в облако вы можете списать локальное развертывание Skype для бизнеса. Дополнительные сведения о том, [как выполнить миграцию в облаке, можно найти в разделе Отключение гибридного](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)развертывания.
+После перемещения всех пользователей из локальной сети в облако вы можете списать локальное развертывание Skype для бизнеса. Дополнительные сведения о том, [как выполнить миграцию в облаке, можно найти в разделе Отключение гибридного](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)развертывания.
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>Параметры телефонной системы и подключения к PSTN
@@ -89,4 +89,3 @@ ms.locfileid: "45158677"
 - Пользователь в локальной среде Skype для бизнеса с корпоративной голосовой связью, который будет переноситься в Интернет и с помощью плана звонков Microsoft. Для миграции этого пользователя в Teams требуется переместить локальную учетную запись пользователя Skype для бизнеса в облако, а также прикрепить ее с помощью A) к номеру телефона этого пользователя в плане Microsoft о звонке или B) назначить новый номер абонента из доступных регионов.  Более подробную информацию можно найти в разделе [с локального сервера Skype для бизнеса с помощью корпоративной голосовой связи с планом звонков по Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
 
 - Пользователь в локальной среде Skype для бизнеса с корпоративной голосовой связью, который будет переходить на Интернет и поддерживать локальную сеть PSTN. Для миграции этого пользователя в Teams требуется переместить локальную учетную запись пользователя Skype для бизнеса в облако, а также перенести его с помощью миграции пользователей на прямую переадресацию. Более подробную информацию можно найти в разделе [с локального сервера Skype для бизнеса с помощью корпоративной голосовой связи для прямой маршрутизации](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
-

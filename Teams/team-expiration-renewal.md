@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868526"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648590"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Срок действия и продление подписки для группы в Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "44868526"
 
 ![Снимок экрана: кнопка "продлите" для возобновления работы группы в параметрах группы](media/team-expiration.png "Снимок экрана: кнопка "продлите" для возобновления работы группы в параметрах группы")
 
-Если владелец команды не продлит команду, она будет переведена в состояние "soft-deleted" (это значит, что она может быть восстановлена в течение следующих 30 дней).
+Если владелец команды не продлит команду и больше не работает в команде до окончания срока действия, она будет переведена в состояние "soft-deleted" (это значит, что она может быть восстановлена в течение следующих 30 дней).
 
 ## <a name="team-auto-renewal"></a>Автоматическое продление группы
 

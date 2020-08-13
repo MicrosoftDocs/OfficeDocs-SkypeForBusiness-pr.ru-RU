@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как включить прямую маршрутизацию для пользователей Microsoft Phone System.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691375"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656150"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Предоставление пользователям прямой маршрутизации, голоса и голосовой почты
 
@@ -53,9 +53,9 @@ ms.locfileid: "44691375"
 
 Сведения о требованиях к лицензиям можно найти в разделе [Лицензирование и другие требования](direct-routing-plan.md#licensing-and-other-requirements) в [прямом маршруте планирование](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Убедитесь в том, что пользователь размещен в Skype для бизнеса Online 
+## <a name="ensure-that-the-user-is-homed-online"></a>Убедитесь в том, что пользователь подключен к сети 
 
-Для прямой маршрутизации требуется, чтобы пользователь был подключен в Skype для бизнеса Online. Вы можете проверить, просматривая параметр RegistrarPool, который должен иметь значение в домене infra.lync.com.
+Для прямой маршрутизации требуется, чтобы пользователь был подключен к сети. Вы можете проверить, просматривая параметр RegistrarPool, который должен иметь значение в домене infra.lync.com.
 
 1. Подключитесь к удаленной оболочке PowerShell.
 2. Выдайте команду: 

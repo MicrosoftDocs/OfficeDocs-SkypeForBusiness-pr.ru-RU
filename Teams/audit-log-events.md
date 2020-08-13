@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Сведения о том, как получить данные Microsoft Teams из журнала аудита.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634615"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648540"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -193,7 +193,7 @@ ms.locfileid: "46634615"
 
 ## <a name="attribution-in-teams-audit-logs"></a>Назначение атрибутов в журналах аудита Teams
 
-В настоящее время существует известная неполадка, связанная с назначением в журналах аудита и управления сообщениями в Teams. возможно, у владельца неправильно указана возможность удаления или добавления пользователей. Это происходит, когда изменение происходит за пределами Teams. В таких случаях мы рекомендуем использовать [журналы аудита Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Изменения в членстве в Teams (например, добавленные или удаленные пользователем), созданные с помощью Azure Active Directory (Azure AD), портал администрирования Microsoft 365 или API Microsoft 365 Groups, будут отображаться в сообщениях аудита Teams и в канале "Общее" с указанием атрибутов для существующего владельца команды, а не от фактического инициатора действия. В этих сценариях просмотрите [журналы аудита групп](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Azure AD или Microsoft 365, чтобы просмотреть соответствующие сведения.
 
 ## <a name="related-topics"></a>Статьи по теме
 
