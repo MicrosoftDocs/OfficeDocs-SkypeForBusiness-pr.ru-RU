@@ -125,6 +125,7 @@
 ## [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ## [Управление приложением "Задачи" для организации](manage-tasks-app.md)
+## [Управление приложением "Благодарность" в Центре администрирования Teams](manage-praise-app.md)
 ## [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
 ## [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -830,6 +831,7 @@
 ## Поддерживаемые устройства
 ### [Управление устройствами в Teams](devices/device-management.md)
 ### [Удаленное обновление устройств](devices/remote-update.md)
+### [Управление тегами устройств Teams](devices/manage-device-tags.md)
 ### [Телефоны для Teams](devices/phones-for-teams.md)
 ### [USB-устройства для аудио и видео](devices/usb-devices.md)
 ### [Развертывание панелей совместной работы в Microsoft Teams](devices/collab-bar-deploy.md)
