@@ -22,44 +22,45 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: В организаторов собраний можно узнать, как звонить с помощью приложения Teams, чтобы позволить другим людям присоединиться к тому же собранию с помощью своих телефонов.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691295"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662109"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="f7bcb-103">Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему</span><span class="sxs-lookup"><span data-stu-id="f7bcb-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="9e0ff-103">Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему</span><span class="sxs-lookup"><span data-stu-id="9e0ff-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
 
-<span data-ttu-id="f7bcb-104">Организатор собрания может звонить с помощью приложения Teams, чтобы позволить другим участникам присоединиться к тому же собранию с помощью своих телефонов.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
+<span data-ttu-id="9e0ff-104">Организатор собрания может звонить с помощью приложения Teams, чтобы позволить другим участникам присоединиться к тому же собранию с помощью своих телефонов.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
 
-<span data-ttu-id="f7bcb-105">Если вы звоните другим пользователям, мы рекомендуем вам использовать их полные номера (в том числе формат кода страны/региона-E. 164).</span><span class="sxs-lookup"><span data-stu-id="f7bcb-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
+<span data-ttu-id="9e0ff-105">Если вы звоните другим пользователям, мы рекомендуем вам использовать их полные номера (в том числе формат кода страны/региона-E. 164).</span><span class="sxs-lookup"><span data-stu-id="9e0ff-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
   
-  <span data-ttu-id="f7bcb-106">Обратите внимание на следующее:</span><span class="sxs-lookup"><span data-stu-id="f7bcb-106">Please note that:</span></span>
+  <span data-ttu-id="9e0ff-106">Обратите внимание на следующее:</span><span class="sxs-lookup"><span data-stu-id="9e0ff-106">Please note that:</span></span>
 
-- <span data-ttu-id="f7bcb-107">Вы можете звонить только в том случае, если вы присоединяетесь к собранию с помощью Teams.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-107">You can dial out only if you join a meeting using Teams.</span></span>
-- <span data-ttu-id="f7bcb-108">Вы, как организатор собрания, включили голосовую конференцию.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-108">You, as the meeting organizer, have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="9e0ff-107">Вы можете звонить только в том случае, если вы присоединяетесь к собранию с помощью Teams.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-107">You can dial out only if you join a meeting using Teams.</span></span>
+- <span data-ttu-id="9e0ff-108">Организатору собрания разрешено проводить голосовую конференцию или, в случае, если лицензия на голосовую связь не назначена, может звонить на телефонную сеть с открытым коммутируемым подключением через Интернет-планы или прямую маршрутизацию.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-108">The meeting organizer, has been enabled for audio conferencing, OR, in the case no audio conferencing license is assigned, is allowed to make calls to the public switched telephone network via online calling plans or direct routing.</span></span>
+- <span data-ttu-id="9e0ff-109">Организатору собрания [выделена сетевая политика доступа, которая позволяет исходящие вызовы из конференции](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="9e0ff-109">The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-<span data-ttu-id="f7bcb-109">Вот как можно сделать исходящие звонки.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-109">Here's how to get dial out to work:</span></span>
+<span data-ttu-id="9e0ff-110">Вот как можно сделать исходящие звонки.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-110">Here's how to get dial out to work:</span></span>
 
- <span data-ttu-id="f7bcb-110">**Действие 1:** На собрании используйте **Add people** ![ снимок экрана "добавить пользователей" в разделе "добавить пользователей", ](media/add-people-button.png) чтобы звонить по номеру телефона.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-110">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
- <span data-ttu-id="f7bcb-111">**Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого-либо или набрать номер** .</span><span class="sxs-lookup"><span data-stu-id="f7bcb-111">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
+ <span data-ttu-id="9e0ff-111">**Действие 1:** На собрании используйте **Add people** ![ снимок экрана "добавить пользователей" в разделе "добавить пользователей", ](media/add-people-button.png) чтобы звонить по номеру телефона.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-111">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
+ <span data-ttu-id="9e0ff-112">**Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого-либо или набрать номер** .</span><span class="sxs-lookup"><span data-stu-id="9e0ff-112">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
   
 ![Снимок экрана: диалоговое окно "пригласить кого-либо или набрать номер"](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="f7bcb-113">Поддерживаемые страны и регионы</span><span class="sxs-lookup"><span data-stu-id="f7bcb-113">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="9e0ff-114">Поддерживаемые страны и регионы</span><span class="sxs-lookup"><span data-stu-id="9e0ff-114">Supported countries and regions</span></span>
 
-<span data-ttu-id="f7bcb-114">Dial-out is only available to some countries/regions.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="f7bcb-115">Полный список можно найти в разделе [доступ к странам и регионам для голосовой конференции и планов звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="f7bcb-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="9e0ff-115">Dial-out is only available to some countries/regions.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-115">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="9e0ff-116">Полный список можно найти в разделе [доступ к странам и регионам для голосовой конференции и планов звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span><span class="sxs-lookup"><span data-stu-id="9e0ff-116">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
 
-## <a name="allow-users-to-dial-in"></a><span data-ttu-id="f7bcb-116">Разрешить пользователям звонить</span><span class="sxs-lookup"><span data-stu-id="f7bcb-116">Allow users to dial in</span></span>
+## <a name="allow-users-to-dial-in"></a><span data-ttu-id="9e0ff-117">Разрешить пользователям звонить</span><span class="sxs-lookup"><span data-stu-id="9e0ff-117">Allow users to dial in</span></span>
 
-<span data-ttu-id="f7bcb-117">Если вы ищете инструкции по подключению пользователей к собранию Teams, просмотрите [номера телефонов в Microsoft Teams для проведения голосовой](phone-numbers-for-audio-conferencing-in-teams.md)связи.</span><span class="sxs-lookup"><span data-stu-id="f7bcb-117">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
+<span data-ttu-id="9e0ff-118">Если вы ищете инструкции по подключению пользователей к собранию Teams, просмотрите [номера телефонов в Microsoft Teams для проведения голосовой](phone-numbers-for-audio-conferencing-in-teams.md)связи.</span><span class="sxs-lookup"><span data-stu-id="9e0ff-118">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
 
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="f7bcb-118">Хотите узнать больше о голосовой конференции?</span><span class="sxs-lookup"><span data-stu-id="f7bcb-118">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="9e0ff-119">Хотите узнать больше о голосовой конференции?</span><span class="sxs-lookup"><span data-stu-id="9e0ff-119">Want to know more about audio conferencing?</span></span>
 
-[<span data-ttu-id="f7bcb-119">Попробуйте или купите голосовую конференцию</span><span class="sxs-lookup"><span data-stu-id="f7bcb-119">Try or purchase Audio Conferencing</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[<span data-ttu-id="9e0ff-120">Попробуйте или купите голосовую конференцию</span><span class="sxs-lookup"><span data-stu-id="9e0ff-120">Try or purchase Audio Conferencing</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[<span data-ttu-id="f7bcb-120">Лицензирование надстроек Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="f7bcb-120">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[<span data-ttu-id="9e0ff-121">Лицензирование надстроек Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9e0ff-121">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
