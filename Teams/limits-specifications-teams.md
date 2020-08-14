@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 794089ed86b51ba15df2bd72a63a4dbe4f892f13
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656070"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672760"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "46656070"
 |Количество каналов на команду    | 200 (включая удаленные каналы)&sup3;         |
 |Количество закрытых каналов на команду    |30|
 |Количество участников в закрытом канале    |250|
-|Максимальное количество участников в группе, которую можно преобразовать в команду    |10 000|
+|Максимальное количество участников в группе Office 365, которую можно преобразовать в команду    |10 000|
 |Размер записи в беседе канала | Около 28 КБ на запись<sup>4</sup> |
 
 <sup>1</sup> Любой объект каталога в Azure Active Directory учитывается в этом ограничении. Глобальные администраторы исключаются из этого ограничения, как и приложения, вызывающие Microsoft Graph с помощью [разрешений для приложений](https://docs.microsoft.com/graph/permissions-reference).
