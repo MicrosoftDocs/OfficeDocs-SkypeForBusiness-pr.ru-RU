@@ -1,7 +1,7 @@
 ---
 title: Управление учетными записями ресурсов в Teams
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: В этой статье вы узнаете, как создавать, изменять учетные записи ресурсов и управлять ими в Microsoft Teams.
-ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 90e8ab26782424c6cc341936f185a253c6d1fbe6
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868616"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672860"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "44868616"
 
 Если автосекретарь или очередь звонков вложены в автосекретарь верхнего уровня, соответствующая учетная запись ресурса должна иметь только номер телефона, если вы хотите добавить несколько точек ввода в структуру автосекретарей и очередей звонков.
 
-Для переадресации звонков между абонентами в вашей организации, которые подключены к сети, они должны иметь лицензию на **телефонную систему** , а также включить поддержку корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Для переадресации звонков между абонентами в вашей организации, которые подключены к сети, они должны иметь лицензию на **телефонную систему** , а также включить поддержку корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Для предоставления сотрудникам доступа к корпоративной голосовой связи, можно использовать Windows PowerShell. Например, выполните указанные ниже действия. `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > Чтобы избежать проблем с учетной записью ресурса, выполните указанные ниже действия в указанном порядке.
@@ -178,7 +178,7 @@ ms.locfileid: "44868616"
 
 1. Чтобы создать учетную запись ресурса Online для использования с автосекретарем, выполните следующую команду:
 
-    ``` Powershell
+    ```powershell
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
@@ -186,7 +186,7 @@ ms.locfileid: "44868616"
 
 3. Необязательно После того как правильная лицензия будет применена к учетной записи ресурса, вы можете назначить номер телефона для учетной записи ресурса, как показано ниже. Не все учетные записи ресурсов требуют номера телефона. Если вы не выпустили лицензию для учетной записи ресурса, назначение номера телефона завершится сбоем.
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
    Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
    ```
@@ -198,7 +198,7 @@ ms.locfileid: "44868616"
 
    Чтобы назначить номер телефона для прямой маршрутизации учетной записи ресурса (в Microsoft Teams или Skype для бизнеса Server 2019), используйте следующий командлет для Skype для бизнеса Online PowerShell:
 
-   ``` Powershell
+   ```powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
@@ -216,7 +216,7 @@ ms.locfileid: "44868616"
 
 Убедитесь, что у вас есть связь с номером телефона для учетной записи ресурса перед ее удалением, чтобы не зависнуть номер службы в режиме ожидания. Это можно сделать с помощью следующего командлета:
 
-``` Powershell
+```powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
@@ -224,7 +224,7 @@ Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -Telephone
 
 Чтобы отключить прямую маршрутизацию на номер телефона от учетной записи ресурса, используйте следующий командлет:
 
-``` Powershell
+```powershell
 Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
 ```
 
@@ -234,13 +234,13 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 Если вы не видите номер телефона, назначенный учетной записи ресурса в центре администрирования Microsoft Teams, и вы не можете назначить номер из него, проверьте следующее:
 
-``` Powershell
+```powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 ```
 
 Если атрибут "Отдел" отображает конечную точку приложения Skype для бизнеса, запустите следующий командлет:
 
-``` Powershell
+```powershell
 Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 

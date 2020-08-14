@@ -16,12 +16,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012285"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662089"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "45012285"
 
 Для заносимых собраний пользователей Teams необходимо включить Microsoft Stream для клиента. Кроме того, для организатора собрания и лица, инициирующего запись, необходимы следующие предварительные условия:
 
-- Пользователь имеет Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium или Business Essentials
+- У пользователя есть Office 365 E1, E3, M365, a1, A3, A5, M365 Business Premium, M365 Business Standard или бизнес Basic.
 - Пользователь должен быть лицензирован для Microsoft Stream <sup>1</sup> 
 - Пользователь имеет права на загрузку видео в Microsoft Stream.
 - Пользователь согласился с правилами компании, если они установлены администратором

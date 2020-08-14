@@ -56,8 +56,8 @@ ms.locfileid: "43903364"
 
 ![Снимок экрана с самообнаружением для собраний в начале собрания](media/meetings-first-no-self-presence-general.png)
  
-**Примечание.**
-<sup>1</sup> в настоящее время поведение SfBwithTeamsCollab и SfBOnly работает одинаково, но для работы с файлами в Teams и в режиме SfBOnly также можно отключить каналы и файлы. В списке временные каналы можно скрыть с помощью политики разрешений приложений.
+**Примечание.** 
+ <sup>1</sup> в настоящее время SfBwithTeamsCollab и SfBOnly ведут себя одинаково, но это значит, что в режиме SfBOnly также можно отключить каналы и файлы в Teams. В списке временные каналы можно скрыть с помощью политики разрешений приложений.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Влияние режима для других параметров политики
@@ -87,7 +87,7 @@ ms.locfileid: "43903364"
 
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

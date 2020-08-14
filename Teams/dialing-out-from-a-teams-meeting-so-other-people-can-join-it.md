@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: В организаторов собраний можно узнать, как звонить с помощью приложения Teams, чтобы позволить другим людям присоединиться к тому же собранию с помощью своих телефонов.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691295"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662109"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
@@ -38,7 +38,8 @@ ms.locfileid: "44691295"
   Обратите внимание на следующее:
 
 - Вы можете звонить только в том случае, если вы присоединяетесь к собранию с помощью Teams.
-- Вы, как организатор собрания, включили голосовую конференцию.
+- Организатору собрания разрешено проводить голосовую конференцию или, в случае, если лицензия на голосовую связь не назначена, может звонить на телефонную сеть с открытым коммутируемым подключением через Интернет-планы или прямую маршрутизацию.
+- Организатору собрания [выделена сетевая политика доступа, которая позволяет исходящие вызовы из конференции](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
