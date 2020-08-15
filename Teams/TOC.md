@@ -63,7 +63,6 @@
 
 ### Гостевой доступ
 #### [О гостевом доступе](guest-access.md)
-#### [Контрольный список гостевого доступа](guest-access-checklist.md)
 #### [Присоединение гостя к команде](guest-joins.md)
 #### [Взаимодействие с гостями](guest-experience.md)
 #### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### Развертывание
 #### [Обзор развертывания](rooms/rooms-deploy.md)
 #### [Настройка учетных записей](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [Настройка координированных собраний](rooms/coordinated-meetings.md)
+##### [Управление параметрами Microsoft Teams](rooms/surface-hub-manage-config.md)
 #### [В Office 365](rooms/with-office-365.md)
 #### [В Skype для бизнеса Server](rooms/with-skype-for-business-server-2015.md)
 #### [В Exchange Online (гибридная среда)](rooms/with-exchange-online.md)
