@@ -17,12 +17,12 @@ description: Узнайте, как общаться с пользователя
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581800"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761385"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Общение с пользователями из других организаций в Microsoft Teams
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "46581800"
 - У гостевых пользователей есть доступ к дополнительным ресурсам Teams, таким как файлы, команды и каналы, по сравнению с пользователями с внешним (федеративным) доступом.
 - Администратор Teams управляет всеми возможностями гостя из Центра администрирования Teams. Дополнительные сведения см. в статье [Управление гостевым доступом](manage-guests.md).
 
-Если вы готовы включить гостевой доступ в организации, начните с [контрольного списка гостевого доступа](guest-access-checklist.md).
+Если вы готовы включить гостевой доступ в организации, начните со статьи [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 
 ## <a name="compare-external-and-guest-access"></a>Сравнение внешнего и гостевого доступа

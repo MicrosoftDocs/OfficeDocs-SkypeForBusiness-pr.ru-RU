@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Используйте помощника для Teams, чтобы спланировать и развернуть Microsoft Teams.
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648600"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761355"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника для Teams для развертывания Microsoft Teams
 
@@ -91,7 +91,7 @@ ms.locfileid: "46648600"
 |Лицензии Teams     |Это предварительное требование. У вас **должны быть** лицензии Teams, чтобы выполнить развертывание Teams. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензии Teams (и хотя бы одна лицензия, доступная для назначения). Для получения дополнительной информации прочтите [описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Лицензии Exchange Online     |Есть ли у вас действующая подписка на доступные лицензии Exchange Online. Хотя для основных функций Teams необязательно использовать Exchange, интеграция с Exchange обеспечивает оптимальную работу в Teams. Опрашивает Microsoft Graph, чтобы проанализировать подписки, связанные с вашим клиентом, и проверить, есть ли у вас подписки с поддерживаемой лицензией Exchange Online (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Взаимодействие Exchange и Teams](exchange-teams-interact.md).    |
 |Лицензии SharePoint Online     |Есть ли у вас действующая подписка на доступные лицензии SharePoint Online. Рекомендуется использовать лицензии SharePoint Online для каждого пользователя, чтобы предоставить OneDrive для бизнеса в качестве хранилища файлов в чатах. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензии SharePoint Online (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
-|Включение гостевого доступа     |Включен ли [гостевой доступ](guest-access.md). Гостевой доступ позволяет приглашать внешних пользователей присоединиться к вашей команде. Используйте [контрольный список гостевого доступа Teams](guest-access-checklist.md), чтобы выполнить включение гостевого доступа в Teams. Контрольный список содержит обязательные настройки Azure AD. |
+|Включение гостевого доступа     |Включен ли [гостевой доступ](guest-access.md). Гостевой доступ позволяет приглашать внешних пользователей присоединиться к вашей команде. См. статью [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team), чтобы включить гостевой доступ в Teams. Контрольный список содержит обязательные настройки Azure AD. |
 |Настройка внешнего доступа     |Включен ли [внешний общий доступ](manage-external-access.md). По умолчанию эта функция включена с использованием открытой федерации. |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>Оценки для чата, команд, каналов и приложений
