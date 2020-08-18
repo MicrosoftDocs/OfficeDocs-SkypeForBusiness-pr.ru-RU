@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Используйте помощника для Teams, чтобы спланировать и развернуть Microsoft Teams.
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761355"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788403"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника для Teams для развертывания Microsoft Teams
 
@@ -109,7 +109,7 @@ ms.locfileid: "46761355"
 
 |Тест оценки  |Что это означает  |
 |---------|---------|
-|Лицензии на услуги аудиоконференций    |Есть ли у вас действующая подписка на лицензии для аудиоконференций. Это предварительное требование, если вы развертываете мосты аудиоконференций. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензия на услуги аудиоконференций (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Лицензирование надстроек Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Лицензии на услуги аудиоконференций    |Есть ли у вас действующая подписка на лицензии для аудиоконференций. Это предварительное требование, если вы развертываете мосты аудиоконференций. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензия на услуги аудиоконференций (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения см. в статье [Лицензирование надстроек Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
 |Лицензии Stream     |Есть ли у вас действующая подписка на лицензии Microsoft Stream. Это предварительное требование, если вы хотите включить запись собраний. Опрашивает Microsoft Graph, чтобы узнать, есть ли у вас лицензии Microsoft Stream (и хотя бы одна лицензия, доступная для назначения). Дополнительные сведения о службе Stream и ее включении см. в статье [Запись собрания Teams в облаке](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Оценки для обновления Skype для бизнеса
