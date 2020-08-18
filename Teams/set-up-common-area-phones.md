@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: 4e9e96c3384fa365004d4b4b5281c10decdc5dd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581100"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788753"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -56,7 +56,7 @@ ms.locfileid: "46581100"
 > [!NOTE]
 > Вам не нужно добавлять лицензию на телефонную систему. Она включена в лицензию Телефона общего пользования.
 
-Дополнительные сведения о лицензиях можно найти [в разделе Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Дополнительные сведения о лицензиях можно найти [в разделе Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 Лицензия на телефон для общего модуля поддерживает следующие возможности: 
 

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: В этой статье рассказывается, как использовать голосовую конференцию, телефонную систему, тарифные планы, кредиты на связь и бесплатные телефонные номера в стране или регионе.
-ms.openlocfilehash: 0e492e538d006e6c18f11ac647dad916b2818d10
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877890"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788533"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Доступность аудиоконференций и планов звонков в различных странах и регионах
 
@@ -161,7 +161,7 @@ ms.locfileid: "44877890"
 
 ***
 
-После изучения доступности служб Skype для бизнеса или Microsoft Teams можно просмотреть статью [Skype for Business and Microsoft Teams add-on licensing (Лицензирование надстроек Skype для бизнеса и Microsoft Teams)](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), в которой содержится полезная информация по приобретению лицензий и их назначению пользователям.
+После изучения доступности служб Skype для бизнеса или Microsoft Teams можно просмотреть статью [Skype for Business and Microsoft Teams add-on licensing (Лицензирование надстроек Skype для бизнеса и Microsoft Teams)](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing), в которой содержится полезная информация по приобретению лицензий и их назначению пользователям.
 
 > [!NOTE]
 >
@@ -209,7 +209,7 @@ ms.locfileid: "44877890"
 
 Наряду с телефонной системой планы звонков позволяют пользователям совершать и принимать телефонные звонки. Сначала необходимо получить номер телефона пользователя (подписчика), но не номер службы, чтобы назначить его пользователю, а затем можно назначить план звонков. Доступны два типа планов звонков: **внутренние звонки** и **внутренние и международные звонки**. См. [Телефонная система и тарифные планы](../calling-plan-landing-page.md) для более подробной информации.
 
-Для получения информации о лицензировании вы также можете просмотреть [Лицензирование телефонных систем и Планов вызовов](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Для получения информации о лицензировании вы также можете просмотреть [Лицензирование телефонных систем и Планов вызовов](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 > [!NOTE]
 > Страна / регион основаны на расположении лицензии пользователя в **Центре администрирования Microsoft 365** > **Активные пользователи**, а **не** на платежном адресе, указанном в разделе **Профиль организации** в **Центре администрирования Microsoft 365**.

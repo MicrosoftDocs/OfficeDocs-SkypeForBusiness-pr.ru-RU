@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: В этой статье вы узнаете о технологии телефонной системы в Microsoft 365 и Office 365.
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666131"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788423"
 ---
 # <a name="what-is-phone-system"></a>Что такое телефонная система?
 
@@ -69,12 +69,12 @@ ms.locfileid: "44666131"
 
 Дополнительные сведения о функциях можно найти [в статье что вы получаете с помощью телефонной системы](here-s-what-you-get-with-phone-system.md). Если вы готовы приступить к работе, ознакомьтесь со статьей [Настройка телефонной системы в своей организации](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
 - [Облачная голосовая связь в Microsoft Teams](cloud-voice-landing-page.md)
 - [Настройка телефонной системы](setting-up-your-phone-system.md)
 - [Какой план звонков подходит для вас?](calling-plan-landing-page.md)
 - [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
-- [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

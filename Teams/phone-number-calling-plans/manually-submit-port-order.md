@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Сведения о том, как вручную отправить запрос на перенос.
-ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: a6eda920def415e61278dc4b3ac20d2f58edbb69
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224222"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788583"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
@@ -52,11 +52,11 @@ ms.locfileid: "44224222"
     1. Введите название (например, запрос к заказу на перенос) и описание запроса, подтвердите номер телефона и адрес электронной почты, а затем выберите предпочтительный метод связи.
     2. В разделе **вложения**нажмите кнопку **Добавить файл**, а затем отправьте завершенный [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     3. Нажмите кнопку **связаться со мной**.
-    
-## <a name="what-else-should-you-know-about-number-porting"></a>Что еще необходимо знать о переносе номеров?
 
-- Чтобы использовать планы звонков, вы должны приобрести и назначить лицензии пользователям. Ознакомьтесь [со сведениями о лицензировании надстроек Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+## <a name="what-else-should-you-know-about-number-porting"></a>Другие сведения о переносе номеров
+
+- Чтобы использовать планы звонков, вы должны приобрести и назначить лицензии пользователям. Ознакомьтесь [со сведениями о лицензировании надстроек Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
 - Вам необходимо назначить новые телефонные номера каждому из пользователей. В разделе [назначение, изменение или удаление номера телефона пользователя](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## <a name="related-topics"></a>Статьи по теме

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 427215df1540c11a58d834c59fce84c2b62f96e2
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691405"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788623"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Планы звонков для Microsoft 365
 
@@ -58,19 +58,19 @@ ms.locfileid: "44691405"
     ![Снимок экрана: параметр для приобретения плана голосовых вызовов.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > В зависимости от вашего плана вам может потребоваться приобрести дополнительные компоненты, прежде чем можно будет приобрести лицензии на телефонную систему. Дополнительные сведения можно найти в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > В зависимости от вашего плана вам может потребоваться приобрести дополнительные компоненты, прежде чем можно будет приобрести лицензии на телефонную систему. Дополнительные сведения можно найти в разделе [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 2. После покупки лицензий на телефонную систему вы можете приобрести план звонков, войдя в **центр администрирования Microsoft 365**, выбрав пункт **выставление счетов**для  >  **Purchase services**  >  **надстроек**служб и нажав кнопку **купить**. Вы увидите планы звонков в этой области.
     
     ![Снимок экрана, на котором показаны параметры плана голосовых вызовов.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-В зависимости от потребностей Организации вы можете приобретать и назначать разные планы звонков разным пользователям. После того как вы выберете нужный тарифный план, пройдете выписку. Каждому пользователю в центре администрирования Microsoft 365 назначается план. Сведения об этом можно найти в разделе [Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+В зависимости от потребностей Организации вы можете приобретать и назначать разные планы звонков разным пользователям. После того как вы выберете нужный тарифный план, пройдете выписку. Каждому пользователю в центре администрирования Microsoft 365 назначается план. Сведения об этом можно найти в разделе [Назначение лицензий на надстройки Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>У вас есть поставщик услуг, который обеспечивает локальную связь по протоколу PSTN для гибридных пользователей?
 
 Если да, вам не нужно покупать план звонков. В Office 365 корпоративный + + входит надстройка **телефонной системы** , поэтому вы можете перейти к извлечению.
   
-Затем назначьте пользователям лицензии на надстройку корпоративный "о себе" и " **Телефонная система** " в центре администрирования Microsoft 365. Сведения об этом можно найти в разделе [Назначение лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Затем назначьте пользователям лицензии на надстройку корпоративный "о себе" и " **Телефонная система** " в центре администрирования Microsoft 365. Сведения об этом можно найти в разделе [Назначение лицензий на надстройки Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="pricing-information"></a>Сведения о ценах
 
@@ -86,7 +86,7 @@ ms.locfileid: "44691405"
   
 - [Настройка планов звонков](set-up-calling-plans.md)
     
-- [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
     
 - [Что можно сделать с помощью телефонной системы в Microsoft 365 или Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     

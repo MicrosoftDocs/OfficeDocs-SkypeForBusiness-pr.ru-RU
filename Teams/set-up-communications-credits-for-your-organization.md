@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691245"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788373"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -42,18 +42,18 @@ ms.locfileid: "44691245"
   
 Для этого **нужно назначить лицензию на аудиоконференции или телефонную систему** своим пользователям.
   
-- Назначение лицензии на **голосовую конференцию** для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Назначение лицензии на **голосовую конференцию** для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     После назначения этой лицензии вам потребуется настроить голосовую конференцию. Пошаговые инструкции можно найти в статье Использование [и приобретение звуковых конференций в Microsoft 365 или Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Назначение лицензии на **телефонную систему** и **внутренний или внутренний и Международный** план звонков для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Назначение лицензии на **телефонную систему** и **внутренний или внутренний и Международный** план звонков для пользователей. Ознакомьтесь [с Разназначением лицензий на надстройки Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
     > [!NOTE]
     > Несмотря на то что это не требуется для кредитов на связь, вам также необходимо назначить лицензию на **внутренние звонки** или **план внутренних и международных звонков** .
   
     После назначения указанных лицензий вам потребуется получить номера телефонов для организации, а затем назначить их сотрудникам. Пошаговые инструкции по настройке см. в статье [Настройка планов звонков](set-up-calling-plans.md).
     
-Дополнительные сведения можно найти [в разделе Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Дополнительные сведения можно найти [в разделе Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Шаг 2. Настройка кредитов на связь для организации
 
@@ -116,7 +116,7 @@ ms.locfileid: "44691245"
     
 Вы также можете просмотреть сведения, [войдя в центр администрирования Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) и перейдя на **Billing**  >  **подписку**на план подписки  >  **Add subscriptions**.
   
-Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Статьи по теме
 

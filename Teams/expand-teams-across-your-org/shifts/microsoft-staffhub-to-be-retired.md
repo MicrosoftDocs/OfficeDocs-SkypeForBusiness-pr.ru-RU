@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938318"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778061"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Приложение Microsoft StaffHub было прекращено
 
@@ -90,6 +90,9 @@ StaffHub перестает работать для всех пользоват�
 #### <a name="what-browsers-does-shifts-work-on"></a>В каких браузерах работают смены?
 
 Смена действует для всех браузеров, которые поддерживаются в Teams, включая последние версии Microsoft EDGE, Internet Explorer, Google Chrome и Mozilla Firefox. Дополнительные сведения можно найти в разделе [получение клиентов для Teams](../../get-clients.md).
+
+> [!Note]
+> Приложения и службы Microsoft 365 не будут поддерживать Internet Explorer 11 начиная с 17 августа 2021 (Microsoft Teams не будет поддерживать Internet Explorer 11 более ранней версии, начиная с 30 ноября 2020). [Подробнее](https://aka.ms/AA97tsw). Обратите внимание, что Internet Explorer 11 останется поддерживаемым браузером. Internet Explorer 11 является компонентом операционной системы Windows и [подчиняется политике жизненного цикла](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) продукта, на котором он установлен. 
 
 #### <a name="what-languages-does-shifts-support"></a>На каких языках поддерживается Смена языков?
 

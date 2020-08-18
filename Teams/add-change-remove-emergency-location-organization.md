@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Сведения о том, как добавить, изменить или удалить расположение для экстренного реагирования для вашей организации в центре администрирования Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690845"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788573"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
@@ -31,7 +31,7 @@ ms.locfileid: "44690845"
 
 Вне зависимости от того, где находится ваша страна или регион, вы можете добавить место или места в место для экстренного реагирования и удалить место для экстренного реагирования. В зависимости от количества физических местоположений в вашей организации вы можете создавать места для зданий, этажей и офисов. Смотрите [Управление вызовом экстренной](what-are-emergency-locations-addresses-and-call-routing.md)помощи.
   
-Сведения о том, как получить план звонков и затраты на него, можно найти [в разделе Лицензирование надстроек для Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Сведения о том, как получить план звонков и затраты на него, можно найти [в разделе Лицензирование надстроек для Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 Вы управляете местоположениями для экстренного реагирования для вашей организации в центре администрирования Microsoft Teams или с помощью PowerShell.
   

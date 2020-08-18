@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Сведения о том, как настроить конференц-связь или аудиоконференцию для тех участников вашего бизнеса, которым нужно присоединиться к конференции, используя телефон. '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691095"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788703"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "44691095"
  
 ## <a name="step-2-get-and-assign-licenses"></a>Шаг 2. Покупка и назначение лицензий
  
-1. Для аудиоконференции требуется лицензия для каждого пользователя, который будет настраивать собрания с телефонным подключением. Узнать, какие лицензии необходимо приобрести для аудиоконференции, и сколько они стоят, можно в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Для аудиоконференции требуется лицензия для каждого пользователя, который будет настраивать собрания с телефонным подключением. Узнать, какие лицензии необходимо приобрести для аудиоконференции, и сколько они стоят, можно в разделе [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
     >[!NOTE] 
     > Аудиоконференция включена в лицензии Office 365 корпоративный E5 и в качестве надстройки.

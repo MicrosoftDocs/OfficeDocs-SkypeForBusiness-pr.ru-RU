@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Здесь вы узнаете, как назначить, изменить или удалить номер рабочего телефона для пользователей Teams, чтобы внешние компании и клиенты могли звонить через Skype.
-ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18c2cd710459e84f8dc7c0e09ed0fe6f8142bf2c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44609964"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788673"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
@@ -35,7 +35,7 @@ ms.locfileid: "44609964"
 
 При настройке пользователей, чтобы они могли совершать и принимать телефонные звонки, необходимо сначала использовать центр администрирования Microsoft Teams и назначить номер телефона. При необходимости вы можете изменить или удалить номер телефона.
   
-Чтобы узнать, как получить планы звонков в Teams и оценить их стоимость, ознакомьтесь [со статьей лицензирование надстроек для Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Чтобы узнать, как получить планы звонков в Teams и оценить их стоимость, ознакомьтесь [со статьей лицензирование надстроек для Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 > [!NOTE]
 > Один из способов узнать, назначено ли пользователю лицензия, — перейти в центр администрирования Microsoft Teams > **пользователей**. Если назначена лицензия, она будет показана на странице.  Вы также можете использовать центр администрирования Microsoft 365.
@@ -78,7 +78,7 @@ ms.locfileid: "44609964"
 4. В области " **Правка** " в разделе " **Кому назначено**" щелкните значок " **X** ", чтобы удалить пользователя.
 5. Нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Что такое проверка адреса?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

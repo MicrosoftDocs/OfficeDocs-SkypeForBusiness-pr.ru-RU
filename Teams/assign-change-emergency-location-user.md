@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: В этой статье рассказывается о том, как назначить или изменить расположение для экстренного реагирования для пользователей в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0f2e927e90a7ac6b79d6eb63c807e063ca7d78c7
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610998"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788663"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Назначение или изменение расположения для экстренного реагирования для пользователя
 
 Когда вы настраиваете планы звонков, вам нужно назначить место для экстренного номера каждому абоненту или пользователю. В европейских странах расположение для экстренного реагирования связано с номером телефона, когда вы получаете его из Microsoft 365 или Office 365 или переносите номер телефона в Microsoft 365 или Office 365. В США расположение для экстренного реагирования связано с номером телефона, когда он назначен пользователю. Адрес для экстренного реагирования можно изменить, если пользователь, которому он назначен, переместится в новое место. Для получения дополнительных сведений об адресах и расположениях для экстренного реагирования ознакомьтесь со статьей [что такое места для экстренных случаев, места и маршрут звонков](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
-Чтобы узнать, как получить тарифные планы и оценить их стоимость, ознакомьтесь со статьей [Лицензирование надстроек для Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Чтобы узнать, как получить тарифные планы и оценить их стоимость, ознакомьтесь со статьей [Лицензирование надстроек для Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 Вы можете назначить или изменить расположение для экстренного реагирования для пользователя в центре администрирования Microsoft Teams или с помощью PowerShell.
 
@@ -54,7 +54,7 @@ ms.locfileid: "44610998"
 Смотрите раздел [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser). 
 
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Узнайте о возможностях, доступности и планировании и настройке телефонной системы Microsoft для бизнеса. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638348"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788433"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Возможности телефонной системы
 
@@ -80,7 +80,7 @@ ms.locfileid: "44638348"
 - Музыка при удержании
 - Обратный Поиск номера в Azure AD
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
 - [Облачная голосовая связь в Microsoft Teams](cloud-voice-landing-page.md)
@@ -88,7 +88,7 @@ ms.locfileid: "44638348"
 - [Какой план звонков подходит для вас?](calling-plan-landing-page.md)
 - [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 - [Отслеживание качества звонка и управление им](monitor-call-quality-qos.md)
-- [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Тарифы для телефонной системы](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams для виртуализованной инфраструктуры настольных систем с звонками и собраниями](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083179"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788713"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -78,7 +78,7 @@ ms.locfileid: "45083179"
 |Полное доменное имя (FQDN) для SBC|Полное доменное имя для SBC, где доменная часть полного доменного имени — это один из зарегистрированных доменов в вашей организации Microsoft 365 или Office 365. Дополнительные сведения можно найти в разделе [доменные имена SBC](#sbc-domain-names).|
 |Общедоступная DNS-запись для SBC |Общедоступная DNS-запись для сопоставления полного доменного имени SBC с общедоступным IP-адресом. |
 |Общедоступный доверенный сертификат для SBC |Сертификат для SBC, который будет использоваться для связи с прямой маршрутизацией. Дополнительные сведения можно найти [в разделе общедоступный доверенный сертификат для SBC](#public-trusted-certificate-for-the-sbc).|
-|Точки соединения для прямой маршрутизации |Для прямой маршрутизации используются следующие три полных доменных имен:<br/><br/>`sip.pstnhub.microsoft.com`— Глобальное полное доменное имя (FQDN). сначала необходимо выполнить попытку.<br/>`sip2.pstnhub.microsoft.com`— Дополнительное полное доменное имя, географически сопоставленное со вторым приоритетом.<br/>`sip3.pstnhub.microsoft.com`— Третичное полное доменное имя, географически сопоставленное с третьим регионом приоритета.<br/><br/>Сведения о требованиях к конфигурации можно найти в разделе [Передача сигналов SIP: полные доменные имена](#sip-signaling-fqdns).|
+|Точки соединения для прямой маршрутизации |Для прямой маршрутизации используются следующие три полных доменных имен:<br/><br/>`sip.pstnhub.microsoft.com` — Глобальное полное доменное имя (FQDN). сначала необходимо выполнить попытку.<br/>`sip2.pstnhub.microsoft.com` — Дополнительное полное доменное имя, географически сопоставленное со вторым приоритетом.<br/>`sip3.pstnhub.microsoft.com` — Третичное полное доменное имя, географически сопоставленное с третьим регионом приоритета.<br/><br/>Сведения о требованиях к конфигурации можно найти в разделе [Передача сигналов SIP: полные доменные имена](#sip-signaling-fqdns).|
 |IP-адреса брандмауэров и порты для прямого маршрутизации файлов |SBC обменивается данными со следующими службами в облаке:<br/><br/>Прокси-сервер SIP, который обрабатывает сигналы<br/>Процессор мультимедиа, который обрабатывает носители (за исключением случаев, когда включен режим пропуска мультимедиа)<br/><br/>У этих двух служб есть отдельные IP-адреса в Microsoft Cloud, которые описаны далее в этом документе.<br/><br/>Дополнительные сведения можно найти в [разделе Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) в [адресах URL и диапазонах IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Профиль транспорта мультимедиа|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 IP-адреса и порты брандмауэра для носителей Microsoft Teams |Дополнительные сведения можно найти в разделе [URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -119,7 +119,7 @@ IP-адреса и порты брандмауэра для носителей M
 
 Дополнительные сведения о лицензировании телефонной системы можно найти в [статьях получение максимально](https://products.office.com/compare-all-microsoft-office-products?tab=2) возможного из Office и [параметров плана](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Дополнительные сведения о лицензировании телефонной системы можно найти [в разделе Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+Дополнительные сведения о лицензировании телефонной системы можно найти [в разделе Лицензирование надстроек Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
 
 ## <a name="supported-end-points"></a>Конечные точки, Поддерживаемые 
 
