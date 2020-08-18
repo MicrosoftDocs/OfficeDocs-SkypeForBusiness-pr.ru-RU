@@ -143,7 +143,9 @@
 #### [Требования](rooms/requirements.md)
 #### [Интернет-лицензирование](rooms/rooms-licensing.md)
 #### [Планирование управления с помощью Azure Monitor](rooms/azure-monitor-plan.md)
-#### [Управление планами с помощью Microsoft Teams Room Premium](rooms/microsoft-teams-rooms-premium.md)
+#### Управляемая служба "Комнаты Microsoft Teams"
+##### [Планирование управления с помощью управляемой службы "Комнаты Microsoft Teams"](rooms/microsoft-teams-rooms-premium.md)
+##### [Управление доступом на основе ролей с помощью управляемой службы "Комнаты Microsoft Teams"](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### Развертывание
 #### [Обзор развертывания](rooms/rooms-deploy.md)
 #### [Настройка учетных записей](rooms/rooms-configure-accounts.md)
