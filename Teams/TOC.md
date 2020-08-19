@@ -707,6 +707,7 @@
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
 ### [Аудиоконференции с прямой маршрутизацией для GCC High и DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [Пакеты политик Teams для государственных организаций](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
