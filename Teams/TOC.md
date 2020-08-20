@@ -112,7 +112,6 @@
 # Приложения, боты и соединители
 
 ## [Обзор](deploy-apps-microsoft-teams-landing-page.md)
-## [Разрешения и рекомендации для приложений](app-permissions.md)
 ## [Управление приложениями для Teams](manage-apps.md)
 ## [Параметры администратора для приложений в Teams](admin-settings.md)
 ## [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
 ## [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
 ## [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Разрешения и рекомендации для приложений](app-permissions.md)
+## [Приобретение услуг для сторонних приложений Teams](purchase-third-party-apps.md)
 ## [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ## [Управление приложением "Задачи" для организации](manage-tasks-app.md)
