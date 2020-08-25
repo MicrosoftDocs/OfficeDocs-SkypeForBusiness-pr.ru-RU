@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868436"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868688"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -43,7 +43,7 @@ ms.locfileid: "44868436"
 
 Если автосекретарь или очередь вызовов вложены в автосекретарь верхнего уровня, соответствующей учетной записи ресурса необходим только номер телефона, если требуется несколько точек входа в структуру автосекретарей и очередей звонков.
 
-Для перенаправления вызовов пользователям в вашей организации, размещенной в сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. В разделе [Назначение лицензий Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Чтобы включить их для корпоративной голосовой связи, вы можете использовать Windows PowerShell. Например, выполните следующие действия:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Для перенаправления вызовов пользователям в вашей организации, размещенной в сети, у них должна быть лицензия на **телефонную систему** и включена поддержка корпоративной голосовой связи или планы звонков Microsoft 365 или Office 365. В разделе [Назначение лицензий Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Чтобы включить их для корпоративной голосовой связи, вы можете использовать Windows PowerShell. Например, выполните следующие действия:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Если автосекретарь телефонной системы или очередь звонков, которые вы создаете, будут вложены и не требуют номера телефона, процесс будет следующим:
 
@@ -83,6 +83,8 @@ ms.locfileid: "44868436"
     ```
 
     Для получения дополнительных сведений о данной команде, ознакомьтесь со статьей [Start – адсинксинкцикле](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
+    
+    Note — на этом шаге учетная запись может быть синхронизирована, но подготовка может быть неполной.  Проверьте выходные данные [Get – ксонлинеаппликатионендпоинт](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Если синхронизированная конечная точка еще не завершила подготовку, она не будет отображаться здесь.  Состояние запросов на подготовку можно проверить на портале M365 в разделе [Team Setup Status (состояние установки](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning)).  Этап подготовки может занимать до 24 часов.
 
 5. Назначьте для учетной записи ресурса лицензию на виртуальную машину или телефонную систему пользователя. В разделе Назначение лицензий на [надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) и [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -117,7 +119,7 @@ ms.locfileid: "44868436"
 
 8. Свяжите учетную запись ресурса с автосекретарем телефонной системы или выбранной ранее службой "очередь звонков".
 
-Пример реализации для малого бизнеса в [малом бизнесе — Настройка автосекретаря](/microsoftteams/tutorial-org-aa) и [примера для малого бизнеса Настройка очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Пример реализации для малого бизнеса в  [малом бизнесе — Настройка автосекретаря](/microsoftteams/tutorial-org-aa) и [примера для малого бизнеса Настройка очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Создание учетной записи ресурса без номера телефона
 
@@ -148,7 +150,7 @@ ms.locfileid: "44868436"
    - [Создание облачной очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Свяжите учетную запись ресурса и автосекретарь телефонной системы или выбранную ранее очередь звонков.
 
-Пример реализации для малого бизнеса в [малом бизнесе — Настройка автосекретаря](/microsoftteams/tutorial-org-aa) и [примера для малого бизнеса Настройка очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Пример реализации для малого бизнеса в  [малом бизнесе — Настройка автосекретаря](/microsoftteams/tutorial-org-aa) и [примера для малого бизнеса Настройка очереди звонков](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Тестирование реализации
 

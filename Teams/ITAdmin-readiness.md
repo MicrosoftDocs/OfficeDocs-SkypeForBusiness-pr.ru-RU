@@ -19,12 +19,12 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 1e083ee323ba3c4e8c61c9520c56b0d6af261fa6
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672750"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845561"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
@@ -52,6 +52,23 @@ ms.locfileid: "46672750"
 | Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
 | Прямая маршрутизация | [Видеоролик 1: планирование прямой маршрутизации в Teams ](https://aka.ms/teams-dr-plan)<br>[Видео 2: Настройка и управление прямой маршрутизацией в Teams](https://aka.ms/teams-dr-config)<br>[Видеоролик 3: переход на прямую маршрутизацию в Teams](https://aka.ms/teams-dr-migrate)  | [Крытий](https://aka.ms/teams-direct-routing-deck) |
 | Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
+
+<h3>Группы комнат для ИТ-специалистов & AV-профессионалы</h3>
+
+<p>В приведенной ниже таблице содержатся ссылки на обучающие видеоматериалы с помощью плиток PowerPoint в комнатах Microsoft Teams.  
+
+| Модуль | Видео | Набор слайдов PowerPoint  |
+| ------------ | -------------------- | -------------------- |
+| Модуль 1: Общие сведения о комнатах Microsoft Teams (18:29 мин) | [Видео](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Модуль 2: сеть Microsoft Teams (34:10 мин) | [Видео](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Модуль 3: выбор правильного устройства для правого модуля (18:45 мин) | [Видео](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Модуль 4: развертывание комнат Microsoft Teams (минимум 56:36) | [Видео](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Модуль 5: Настройка и запуск комнат Microsoft Teams (32:27 мин) | [Видео](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Модуль 6: Управление комнатами Microsoft Teams, часть 1 (18:31 мин) | [Видео](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Модуль 7: Управление комнатами Microsoft Teams, часть 2 (41:06 мин) | [Видео](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Модуль 8: комнаты Microsoft Teams — советы, рекомендации и устранение неполадок (18:14 мин)|[Видео](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Инструкции по соединению с одним касанием |  | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+
 
 <h2>Краткие руководства по началу работы</h2>
 
