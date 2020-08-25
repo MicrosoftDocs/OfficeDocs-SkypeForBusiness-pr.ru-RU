@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572244"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864583"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Планирование маршрутизации на основе расположения для прямой маршрутизации
 
@@ -257,11 +257,15 @@ ms.locfileid: "46572244"
 
 При развертывании маршрутизации на основе местоположения в Индии необходимо также настроить обход мультимедиа. Дополнительные сведения можно найти в статье [Планирование обхода мультимедиа с прямой маршрутизацией](direct-routing-plan-media-bypass.md) и [Локальная Оптимизация файлов мультимедиа для прямой маршрутизации](direct-routing-media-optimization.md).
 
+### <a name="direct-voice-over-ip-voip"></a>Прямая передача голоса по протоколу IP (VoIP)
+
+Прямые передачи голоса по протоколу IP (VoIP) не должны развертываться с оборудованием телефонной связи в Индии.
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Перейдите в раздел [Настройка сетевых параметров для маршрутизации на основе местоположения](location-based-routing-configure-network-settings.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)
