@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860838"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868698"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Безопасное использование Microsoft Teams на общих компьютерах
 
@@ -46,7 +46,7 @@ ms.locfileid: "46860838"
 
 1. Используйте функции безопасности платформы операционной системы.
     1. Настройте операционную систему на установку автоматических обновлений, получаемых от поставщика операционной системы (для систем Майкрософт это можно сделать с помощью [**Центра обновления Windows**](https://support.microsoft.com/help/12373/windows-update-faq)). 
-    2. Включите все функции шифрования устройства, такие как [**BitLocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption), и используйте безопасный ключ для доступа к устройству.
+    2. Включите все функции шифрования устройства, такие как [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview), и используйте безопасный ключ для доступа к устройству.  Обратите внимание, что большинство современных [**устройств с Windows 10 поддерживают BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
     1. Используйте функции антивирусной защиты, например предоставляемые [**Защитником Windows**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10), на своих устройствах.
     1. Настоятельно рекомендуется использовать [отдельные учетные записи пользователей](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account) для каждого пользователя в системе.
     1. *Не* предоставляйте и не используйте права администратора права для неадминистративных функций (например, для просмотра веб-страниц, запуска Teams и т. д.).
@@ -76,6 +76,6 @@ ms.locfileid: "46860838"
 
 [Статья о центре безопасности Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Веб-клиент Teams/веб-приложение Teams](../get-clients.md#web-client)
+[Веб-клиент Teams/веб-приложение Teams](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [Безопасность и Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)

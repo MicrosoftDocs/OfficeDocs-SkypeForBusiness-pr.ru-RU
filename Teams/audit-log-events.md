@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Сведения о том, как получить данные Microsoft Teams из журнала аудита в центре соответствия требованиям Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778011"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897709"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Поиск событий Microsoft Teams в журнале аудита
 
@@ -162,9 +162,9 @@ ms.locfileid: "46778011"
 
 |Понятное имя  |Операция  |Описание  |
 |---------|---------|---------|
-|Добавлена группа планирования      |SchedulingGroupAdded          |Пользователь успешно добавляет новую группу планирования в расписание.          |
-|Группа измененных расписаний     |SchedulingGroupEdited         |Пользователь успешно редактирует группу планирования.          |
-|Группа планирования удалена         |SchedulingGroupDeleted              |Пользователь успешно удаляет группу планирования из расписания.|
+|Добавлена группа планирования |ScheduleGroupAdded          |Пользователь успешно добавляет новую группу планирования в расписание.|
+|Группа измененных расписаний     |ScheduleGroupEdited         |Пользователь успешно редактирует группу планирования.          |
+|Группа планирования удалена         |ScheduleGroupDeleted              |Пользователь успешно удаляет группу планирования из расписания.|
 |Добавлена смена      |ShiftAdded          |Пользователь успешно добавляет смену.           |
 |Измененный сдвиг       |ShiftEdited       |Пользователь успешно редактирует смену.        |
 |Удалена смена          |ShiftDeleted          | Пользователь успешно удаляет смену.               |
