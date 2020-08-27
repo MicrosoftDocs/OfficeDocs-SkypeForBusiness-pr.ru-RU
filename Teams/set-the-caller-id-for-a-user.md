@@ -1,7 +1,7 @@
 ---
 title: Настройка идентификатора абонента для пользователя
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Узнайте о Microsoft 365 и Office 365 ID вызывающего абонента по умолчанию (назначенный пользователю номер телефона), также называемый ИДЕНТИФИКАТОРом телефонной строки. Вы можете изменить или заблокировать идентификатор звонящего пользователя.
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691125"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255432"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 Телефонная система в Microsoft 365 и Office 365 предоставляет идентификатор вызывающего абонента по умолчанию, который является назначенным пользователем номером телефона. Можно изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в своей организации можно получить, перейдя к статье [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).

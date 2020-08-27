@@ -1,7 +1,7 @@
 ---
 title: Настройка выходных в Microsoft Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Сведения о том, как настроить праздники в Microsoft Teams и соединить их с автосекретарем с помощью функции праздников.
-ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905581"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255412"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Настройка выходных в Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "43905581"
 
 ## <a name="create-a-holiday"></a>Создание праздника
 
-1. В центре администрирования Microsoft Teams перейдите в раздел "**праздничные** **Параметры** > " в Организации.
+1. В центре администрирования Microsoft Teams перейдите в раздел "Праздничные параметры" в **Организации**  >  **Holidays**.
 
 2. Выберите **новый праздник**.
 
@@ -59,7 +59,7 @@ ms.locfileid: "43905581"
 
 ## <a name="change-a-holiday"></a>Изменение праздника
 
-1. В центре администрирования Microsoft Teams перейдите в раздел "**праздничные** **Параметры** > " в Организации.
+1. В центре администрирования Microsoft Teams перейдите в раздел "Праздничные параметры" в **Организации**  >  **Holidays**.
 
 2. Выберите праздничный день в списке.
 
@@ -75,7 +75,7 @@ ms.locfileid: "43905581"
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>Подключение праздников к автосекретарям
 
-1. В центре администрирования Microsoft Teams перейдите на вкладку **голосовые** > **автосекретаря**.
+1. В центре администрирования Microsoft Teams перейдите на вкладку **голосовые**  >  **автосекретаря**.
 2. Выберите учетную запись ресурса в списке.
 3. На левой панели выберите пункт **Параметры звонка в праздничные дни**.
 4. Выберите **новый праздник**.

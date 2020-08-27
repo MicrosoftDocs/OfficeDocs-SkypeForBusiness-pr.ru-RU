@@ -1,7 +1,7 @@
 ---
 title: Парковка и восстановление звонков в Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Узнайте о том, как использовать функцию парковки и извлечь, чтобы позвонить на удержание в службе Teams в облаке.
-ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1fddc7acb6d670515fd5903731fab7cacd319f80
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582656"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255542"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -107,7 +107,7 @@ ms.locfileid: "46582656"
 - Режим острова: метод парковки и извлечение недоступен в режиме островов Teams.
 - Звонок уже получен или прерван.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Приостановка звонка в Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
