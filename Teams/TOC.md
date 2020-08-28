@@ -73,7 +73,7 @@
 #### [Изменение сведений о гостевых пользователях](edit-guests-information.md)
 #### [Управление гостевым доступом с помощью PowerShell](guest-access-PowerShell.md)
 #### [Устранение неполадок гостевого доступа](troubleshoot-guest-access.md)
-
+## [Кортана в Teams](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [Пример для малого бизнеса: настройка очереди вызовов](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление учетными записями ресурсов Teams](manage-resource-accounts.md)
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
+#### [Настройка праздников](set-up-holidays-in-teams.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [Блокировка входящих звонков](block-inbound-calls.md)
