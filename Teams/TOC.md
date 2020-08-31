@@ -816,7 +816,6 @@
 ### [Назначать дополнительные лицензии для Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Управление предложением пробной версии Office 365 E1](e1-trial-license.md)
 ### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
-### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Управление предложением Teams Exploratory](teams-exploratory.md)
 ### [Управление бесплатной версией Teams](manage-freemium.md)
 ### [Перевод бесплатной версии Teams на версию по подписке](upgrade-freemium.md)
