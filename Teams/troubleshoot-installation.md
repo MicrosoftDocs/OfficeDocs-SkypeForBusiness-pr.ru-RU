@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как устранять проблемы с установкой и обновлением клиентского приложения Teams для настольных компьютеров в Windows.
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086145"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300283"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение неполадок при установке и обновлении Microsoft Teams в Windows
 
@@ -49,7 +49,7 @@ ms.locfileid: "45086145"
 
 ### <a name="troubleshoot-update-issues"></a>Устранение неполадок при обновлении
 
-Когда Teams успешно установлен, расположение журнала изменяется с %LocalAppData%\SquirrelTemp на %AppData%\Microsoft\Teams. В этом месте есть два файла журнала, представляющих интерес, SquirrelSetup.log и logs.txt.
+После успешной установки Teams расположение журнала переключается с%LocalAppData%\SquirrelTemp на%LocalAppData%\Microsoft\Teams. В этом месте есть два файла журнала, представляющих интерес, SquirrelSetup.log и logs.txt.
 
 - Файл SquirrelSetup.log в этом месте записывается с помощью Update.exe, который является исполняемым файлом, обслуживающим приложение Teams.
 - Файл Logs.txt используется приложением Teams (в частности, Teams.exe) для записи важных событий приложения. Скорее всего, он будет содержать информацию об ошибках.
