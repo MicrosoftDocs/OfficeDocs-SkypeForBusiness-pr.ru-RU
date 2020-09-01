@@ -3,55 +3,6 @@
 
 
 
-## <a name="week-of-july-20-2020"></a>Неделя 20 июля 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7/21/2020 | [Добавление домена SMTP в качестве разрешенного домена отправителя в Exchange Online](/MicrosoftTeams/smtp-accepted-domain) | Изменено |
-| 7/21/2020 | \|Внедрение и определение готовности среды Microsoft Teams \| | Удалено |
-| 7/21/2020 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 7/21/2020 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
-| 7/21/2020 | [Поддержка версий](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
-| 7/21/2020 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
-| 7/21/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 7/21/2020 | [Удаленное управление параметрами устройства в комнатах Microsoft Teams](/MicrosoftTeams/rooms/xml-config-file) | Изменено |
-| 7/21/2020 | [Отчет об использовании Microsoft Teams PSTN](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Изменено |
-| 7/21/2020 | [Использование помощника для Teams (общедоступная предварительная версия) для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
-| 7/21/2020 | [\|Внедрение и определение готовности среды Microsoft Teams \|](/MicrosoftTeams/environment-readiness) | Добавлено |
-| 7/21/2020 | [\|Внедрение и определение готовности среды Microsoft Teams \|](/MicrosoftTeams/environment-readiness) | Изменено |
-| 7/21/2020 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 7/21/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 7/21/2020 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/devices/device-management) | Изменено |
-| 7/21/2020 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
-| 7/22/2020 | [Пополнение средств и управление кредитами на связь](/MicrosoftTeams/add-funds-and-manage-communications-credits) | Изменено |
-| 7/22/2020 | [Параметры администратора для приложений в Microsoft Teams](/MicrosoftTeams/admin-settings) | Изменено |
-| 7/22/2020 | [Архивация или удаление команды в Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | Изменено |
-| 7/22/2020 | [Панель мониторинга работоспособности для прямой маршрутизации](/MicrosoftTeams/direct-routing-health-dashboard) | Изменено |
-| 7/22/2020 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 7/22/2020 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
-| 7/22/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 7/22/2020 | [Управление переходом команд в новой версии центра администрирования Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Изменено |
-| 7/22/2020 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
-| 7/22/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 7/22/2020 | [Указание номеров телефонов, которые можно включать в приглашения](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | Изменено |
-| 7/22/2020 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
-| 7/22/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
-| 7/22/2020 | [Включение и отключение объявлений входа и выхода для собраний в Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | Изменено |
-| 7/22/2020 | [Управление группами с помощью ролей администратора Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Изменено |
-| 7/22/2020 | [Приложение очень рация в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
-| 7/22/2020 | [Данные и отчеты на панели мониторинга качества звонков (CQD)](/MicrosoftTeams/cqd-data-and-reports) | Изменено |
-| 7/22/2020 | [Панель мониторинга качества звонков (CQD): часто задаваемые вопросы (вопросы и ответы)](/MicrosoftTeams/cqd-frequently-asked-questions) | Изменено |
-| 7/22/2020 | [Измерения и измерения — панель мониторинга качества звонков (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
-| 7/22/2020 | [Настройка параметров сети — маршрутизация на основе местоположения](/MicrosoftTeams/location-based-routing-configure-network-settings) | Изменено |
-| 7/22/2020 | [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](/MicrosoftTeams/location-based-routing-enable) | Изменено |
-| 7/22/2020 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | Изменено |
-| 7/23/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 7/23/2020 | [Доступность в Бахрейне](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | Изменено |
-| 7/24/2020 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
-| 7/24/2020 | [Согласие на конкретные ресурсы в Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | Изменено |
-
-
 ## <a name="week-of-july-27-2020"></a>Неделя 27 июля 2020 г.
 
 
@@ -340,3 +291,37 @@
 | 8/21/2020 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
 | 8/21/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
 | 8/21/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+
+
+## <a name="week-of-august-24-2020"></a>Неделя 24 августа 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 8/25/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 8/25/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 8/25/2020 | [Данные и отчеты на панели мониторинга качества звонков (CQD)](/MicrosoftTeams/cqd-data-and-reports) | Изменено |
+| 8/25/2020 | [Отправка клиента и создание данных на панели мониторинга качества вызова (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | Изменено |
+| 8/25/2020 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 8/25/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 8/25/2020 | [Измерения и измерения — панель мониторинга качества звонков (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Изменено |
+| 8/25/2020 | [Управление внешним доступом (Федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
+| 8/25/2020 | [Настройка панели мониторинга качества звонков (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Изменено |
+| 8/25/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 8/25/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
+| 8/26/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 8/26/2020 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
+| 8/26/2020 | [Управление политиками идентификации вызывающего абонента в Microsoft Teams](/MicrosoftTeams/caller-id-policies) | Изменено |
+| 8/26/2020 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
+| 8/26/2020 | [Помощник по голосовым сообщениям кортаны в Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Изменено |
+| 8/26/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 8/26/2020 | [Как можно использовать идентификатор звонящего в организации](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | Изменено |
+| 8/26/2020 | [Управление внешним доступом (Федерация)](/MicrosoftTeams/manage-external-access) | Изменено |
+| 8/26/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 8/26/2020 | [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](/MicrosoftTeams/more-about-calling-line-id-and-calling-party-name) | Изменено |
+| 8/26/2020 | [Настройка идентификатора звонящего для пользователя](/MicrosoftTeams/set-the-caller-id-for-a-user) | Изменено |
+| 8/26/2020 | [Настройка выходных в Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | Изменено |
+| 8/27/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 8/28/2020 | Пробное предложение Commercial Cloud | Удалено |
+| 8/28/2020 | [Управление доступом на основе ролей с помощью службы Microsoft Teams в комнате Premium](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium-rbac) | Изменено |
+| 8/28/2020 | [Устранение неполадок при установке и обновлении Microsoft Teams в Windows](/MicrosoftTeams/troubleshoot-installation) | Изменено |
