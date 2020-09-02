@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams для упрощения, упрощения и обеспечения согласованности при управлении политиками для групп пользователей.
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374367"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327246"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Управление пакетами политик в Microsoft Teams
 
@@ -116,12 +116,20 @@ ms.locfileid: "45374367"
 2. Выберите политику, которую вы хотите изменить. Политики, связанные с пакетом политики, имеют то же имя, что и пакет политики.
 3. Внесите нужные изменения и нажмите кнопку **сохранить**.
 
+## <a name="supported-policy-types"></a>Поддерживаемые типы политик
+
+- Обмен сообщениями
+- Собрания
+- Звонки
+- Настройка приложения
+- Трансляции
+
 ## <a name="troubleshooting"></a>Устранение неполадок
 
 **При назначении пакета политики появляется сообщение об ошибке**
 
 Это может произойти, если одна или несколько политик в пакете не были успешно созданы или применены. Переназначение пакета политики пользователям. Повторное выполнение операции обычно решает эту проблему.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)

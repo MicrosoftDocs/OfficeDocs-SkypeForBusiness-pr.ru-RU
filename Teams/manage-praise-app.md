@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Сведения о параметрах администрирования в приложении благодарность в центре администрирования Microsoft Teams
-ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656310"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324033"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением благодарность в центре администрирования Microsoft Teams
 
@@ -105,7 +105,7 @@ ms.locfileid: "46656310"
 
 ## <a name="badge-set-assets"></a>Настройка значков для ресурсов
 
-Встроенные наборы индикаторов изменить нельзя, поэтому при включенном встроенном наборе все эмблемы в наборе добавляются в приложение благодарность. Если вы хотите добавить определенные эмблемы из встроенного множества и не развлекать другие, воссоздайте эмблемы, которые вы хотите использовать в качестве настраиваемых индикаторов. Вы можете загрузить изображение индикатора и найти текст и цвета фона индикаторов из встроенных наборов в приведенных ниже таблицах.
+Встроенные наборы индикаторов изменить нельзя, поэтому при включенном встроенном наборе все эмблемы в наборе добавляются в приложение благодарность. Если вы хотите добавить определенные эмблемы из встроенного множества и не запустайте другие, воссоздайте эмблемы, которые вы хотите использовать в качестве настраиваемых индикаторов. Вы можете загрузить изображение индикатора и найти текст и цвета фона индикаторов из встроенных наборов в приведенных ниже таблицах.
 
 ### <a name="default-badges-assets"></a>Ресурсы по умолчанию
 
@@ -114,13 +114,13 @@ ms.locfileid: "46656310"
 |Название эмблемы     |Файл изображения  |Цвет текста | Цвет фона |
 |---------------|------------|---------- |--------|
 |Достижение       |[Формат PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|Замечательно        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|Замечательно        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Coach          |[Формат PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Крайне        |[Рекомендуется в формате PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Creative       |[Художественный формат PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |Иерархическ      |[Включительно PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Сердечка     |[Формат сердца в формате PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|Руководства     |[По лидеру в формате PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|Руководства     |[По лидеру в формате PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Optimism       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Проблемы с поиском решения |[Проблема с поиском в формате PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Командный плеер    |[PNG-проигрыватель группы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
