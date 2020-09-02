@@ -195,11 +195,13 @@
 ### [Планирование развертывания](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Аудиоконференции в Microsoft 365](audio-conferencing-in-office-365.md)
+### [Открытая предварительная версия: конференц-связь по сети для аудиоконференций](audio-conferencing-on-network.md)
 ### [Общие вопросы об аудиоконференциях](audio-conferencing-common-questions.md)
 ### [Руководство. Аудиоконференции в Teams](Tutorial-Audio-Conferencing.yml)
 ### [Платная или пробная версия аудиоконференций в Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Льготный период обратных звонков для аудиоконференций](complimentary-dial-out-period.md)
 ### [Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"](audio-conferencing-subscription-dial-out.md)
+
 
 ### [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
