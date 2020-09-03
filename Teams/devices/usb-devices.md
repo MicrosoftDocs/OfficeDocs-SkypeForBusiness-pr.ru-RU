@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Посмотрите, какие периферийные и видеоустройства USB, например гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640914"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331634"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио-и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -74,10 +74,17 @@ ms.locfileid: "46640914"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена 2020 июля*
+*Таблица обновлена 2020 августа*
 
 | Производитель        | Моделировать                                                     | Полном      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Развитие гарнитуры 80                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Развитие гарнитуры 40                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Развитие гарнитуры 30 II                                       |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Развитие 20 гарнитур                                          |8/23/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|EPOS/Sennheiser      |Повлиять на SC 660 с помощью USB-ED CC 01 МС Connecto                |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|EPOS/Sennheiser      |Повлиять на SC 630 с помощью USB-ED CC 01 МС Connecto                |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
+|EPOS/Sennheiser      |Повлиять на SC 260 с помощью USB-ED CC 01 МС Connecto                |8/20/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Сертифицировано для Skype для бизнеса                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Сертифицировано для Skype для бизнеса                        |
 |Jabra                |Развитие гарнитуры 75                                          |7/31/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
