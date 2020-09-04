@@ -1,5 +1,5 @@
 ---
-title: Планирование переноса в Skype для бизнеса Server и Exchange Server
+title: Планирование миграции Skype для бизнеса Server и Exchange Server
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: В этом разделе рассматриваются вопросы, которые необходимо учитывать при переносе существующих развертываний Skype для бизнеса Server или Exchange Server на последнюю версию или в Skype для бизнеса Online или Exchange Online.
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221269"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359045"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Планирование переноса в Skype для бизнеса Server и Exchange Server
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Планирование миграции Skype для бизнеса Server и Exchange Server
 
-В этом разделе рассматриваются вопросы, которые необходимо учитывать при переносе существующих развертываний Skype для бизнеса Server или Exchange Server на последнюю версию или в Skype для бизнеса Online или Exchange Online. То, что можно перенести, а когда, в значительной степени зависит от того, что вы уже настроили в вашей организации.
+В этом разделе рассматриваются вопросы, которые необходимо учитывать при переносе существующих развертываний Skype для бизнеса Server или Exchange Server на Exchange Online. То, что можно перенести, а когда, в значительной степени зависит от того, что вы уже настроили в вашей организации.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Изменения функций в Exchange 2019 и Skype для бизнеса Server 2019
 

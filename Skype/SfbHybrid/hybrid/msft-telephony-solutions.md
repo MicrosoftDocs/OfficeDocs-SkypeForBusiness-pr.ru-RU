@@ -1,5 +1,5 @@
 ---
-title: Решения Microsoft для телефонии
+title: Решения Майкрософт для телефонии
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Описание решений Microsoft для телефонии.
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221329"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359105"
 ---
-# <a name="microsoft-telephony-solutions"></a>Решения Microsoft для телефонии
+# <a name="microsoft-telephony-solutions"></a>Решения Майкрософт для телефонии
 
 Корпорация Майкрософт поддерживает несколько вариантов, когда вы начинаете путешествие к Teams в Microsoft Cloud. Эта статья поможет вам решить, какое решение Microsoft Phone (телефонная система в облаке или корпоративной голосовой связи) подходит для пользователей в Организации, и как Организация может подключаться к телефонной сети общего пользования (PSTN). 
 
@@ -126,7 +126,7 @@ ms.locfileid: "44221329"
 | Требуется контракт со сторонним оператором      | Нет   |
 | Требуется развертывание и обслуживание Skype для бизнеса Server или Cloud Connector Edition | Нет |
 
-\*Для получения дополнительных сведений о странах, где доступен план звонков, ознакомьтесь со статьей [доступность страны и региона для аудио-и видеоконференций и планов звонков](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+\* Для получения дополнительных сведений о странах, где доступен план звонков, ознакомьтесь со статьей [доступность страны и региона для аудио-и видеоконференций и планов звонков](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
 Если вы ответите Да на следующие вопросы, то это верное решение:
@@ -158,7 +158,7 @@ ms.locfileid: "44221329"
 | Требуется контракт со сторонним оператором *      | Да   |
 | Требуется развертывание и обслуживание Skype для бизнеса Server или Cloud Connector Edition | Нет |
 
-\*Если не развертывается как вариант для предоставления подключения к УАТС, аналоговым устройствам или другому телефонному оборудованию для пользователей, находящихся в телефонной системе с планами звонков.
+\* Если не развертывается как вариант для предоставления подключения к УАТС, аналоговым устройствам или другому телефонному оборудованию для пользователей, находящихся в телефонной системе с планами звонков.
 
 Если вы ответите Да на следующие вопросы, то это верное решение:
 
@@ -172,6 +172,9 @@ ms.locfileid: "44221329"
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Телефонная система с собственным перевозчиком с помощью Skype для бизнеса Server или Cloud Connector Edition
+
+> [!Important]
+> Skype для бизнеса Online будет прекращен до 31 июля, 2021 после чего служба станет недоступна.  Кроме того, связь по протоколу PSTN между локальной средой и в Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Этот вариант обеспечивает телефонную систему Microsoft в облаке с подключением к локальной телефонной сети для пользователей Skype для бизнеса Online.
 
