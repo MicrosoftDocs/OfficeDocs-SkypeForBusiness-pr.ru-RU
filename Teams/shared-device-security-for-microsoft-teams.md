@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868698"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359385"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Безопасное использование Microsoft Teams на общих компьютерах
 
@@ -46,18 +46,20 @@ ms.locfileid: "46868698"
 
 1. Используйте функции безопасности платформы операционной системы.
     1. Настройте операционную систему на установку автоматических обновлений, получаемых от поставщика операционной системы (для систем Майкрософт это можно сделать с помощью [**Центра обновления Windows**](https://support.microsoft.com/help/12373/windows-update-faq)). 
-    2. Включите все функции шифрования устройства, такие как [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview), и используйте безопасный ключ для доступа к устройству.  Обратите внимание, что большинство современных [**устройств с Windows 10 поддерживают BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
+    1. Включите все функции шифрования устройства, такие как [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview), и используйте безопасный ключ для доступа к устройству.  Обратите внимание, что большинство современных [**устройств с Windows 10 поддерживают BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10). 
     1. Используйте функции антивирусной защиты, например предоставляемые [**Защитником Windows**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10), на своих устройствах.
     1. Настоятельно рекомендуется использовать [отдельные учетные записи пользователей](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account) для каждого пользователя в системе.
     1. *Не* предоставляйте и не используйте права администратора права для неадминистративных функций (например, для просмотра веб-страниц, запуска Teams и т. д.).
 
-2. Используйте возможности защиты браузера.
+Если невозможно выполнить инструкции, указанные выше, советуем использовать дополнительные рекомендации по защите браузера:
+
+1. Используйте возможности защиты браузера.
     1. Используйте приватные сеансы просмотров, чтобы свести к минимуму данные и журнал, сохраняемые на диске. Например, используйте [просмотр InPrivate в Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [просмотр в режиме инкогнито в Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) или возможности вашего конкретного браузера для просмотра веб-страниц в приватном режиме. 
     1. Рекомендуется изменить поведение системы на включение приватного режима просмотра *по умолчанию*. 
 
-3. Открывайте и используйте [веб-приложение Teams](https://teams.microsoft.com) (иногда называемое *веб-* клиентом), а не скачиваемый клиент Teams.
+2. Открывайте и используйте [веб-приложение Teams](https://teams.microsoft.com) (иногда называемое *веб-* клиентом), а не скачиваемый клиент Teams.
 
-4. После завершения использования общей системы вы должны выполнить следующие действия: 
+3. После завершения использования общей системы вы должны выполнить следующие действия: 
     1. [Выйдите из Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487).
     1. Закройте все вкладки и окна браузера.
     1. Выйдите из устройства.
