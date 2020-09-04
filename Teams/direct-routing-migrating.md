@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Узнайте, что необходимо для перехода на прямую маршрутизацию применительно к Skype для бизнеса Online и настройке Teams.
-ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691365"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359425"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -95,6 +95,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > Если настроена Глобальная CsVoiceRoutingPolicy, рекомендуется удалить все использование PSTN, связанные с этой глобальной политикой. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Переход с телефонной системы Office 365 с возможностью подключения к локальной ТСОП через Cloud Connector Edition 
+
+> [!Important]
+> С помощью Cloud Connector Edition будет прекращено 31 июля 2021 г., а также Skype для бизнеса Online. После того как ваша организация будет обновлена до Teams, прочитайте о том, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](direct-routing-landing-page.md).
 
 Дополнительные сведения о переходе с телефонной системы с возможностью подключения к локальной ТСОП через Cloud Connector см. в следующих статьях:
 

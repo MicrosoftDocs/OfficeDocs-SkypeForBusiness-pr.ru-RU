@@ -19,16 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Чтобы пользователь использовал телефонную систему (облачная УАТС), необходимо сначала включить их для корпоративной голосовой связи и назначить им номер телефона. Это выполняется с помощью локального развертывания, когда пользователь по-прежнему размещается в локальном развертывании.
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221703"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359195"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Разрешить локальным пользователям корпоративную голосовую связь
  
 Чтобы пользователь использовал телефонную систему (облачная УАТС), необходимо сначала включить их для корпоративной голосовой связи и назначить им номер телефона. Это выполняется с помощью локального развертывания, когда пользователь по-прежнему размещается в локальном развертывании.
+
+> [!Important]
+> Skype для бизнеса Online будет прекращен до 31 июля, 2021 после чего служба станет недоступна.  Кроме того, связь по протоколу PSTN между локальной средой и в Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Включение локального пользователя для корпоративной голосовой связи и назначение номера телефона
 

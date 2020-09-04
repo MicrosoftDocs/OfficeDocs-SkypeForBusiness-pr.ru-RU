@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Узнайте, как настроить Skype для бизнеса Cloud Connector Edition, минимальную локальную топологию для интеграции локальной инфраструктуры голосовой связи со службами голосовой связи телефонной системы (облачной УАТС) в Skype для бизнеса Online.
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219519"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358795"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Настройка Skype для бизнеса Cloud Connector Edition и управление им
  
+> [!Important]
+> Cloud Connector Edition выйдет 31 июля 2021 вместе со Skype для бизнеса Online. После обновления вашей организации до Teams Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Узнайте, как настроить Skype для бизнеса Cloud Connector Edition, минимальную локальную топологию для интеграции локальной инфраструктуры голосовой связи со службами голосовой связи телефонной системы (облачной УАТС) в Skype для бизнеса Online. 
   
 Прежде чем начать, ознакомьтесь с предварительными условиями, приведенными в разделе [Plan for Skype для бизнеса Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
@@ -40,7 +43,7 @@ ms.locfileid: "44219519"
 
 В следующей таблице перечислены действия, которые необходимо выполнить для установки и настройки Cloud Connector Edition:
   
-|**Шаг**|**Описание**|
+|**Этап**|**Описание**|
 |:-----|:-----|
 |[Подготовка устройства Cloud Connector](prepare-your-cloud-connector-appliance.md) <br/> |Скачайте файл установки, подготовьте сертификаты, настройте Hyper – V и приготовьте среду к развертыванию Cloud Connector.  <br/> |
 |[Развертывание отдельного сайта в Cloud Connector](deploy-a-single-site-in-cloud-connector.md) <br/> |Создайте сайт в развертывании Cloud Connector.  <br/> |

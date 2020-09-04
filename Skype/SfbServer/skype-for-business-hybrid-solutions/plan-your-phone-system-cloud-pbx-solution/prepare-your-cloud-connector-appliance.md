@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Сведения о подготовке устройства Cloud Connector к развертыванию и использованию с телефонной системой (облачная УАТС).
-ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220069"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358945"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Подготовка устройства Cloud Connector
+
+> [!Important]
+> Cloud Connector Edition выйдет 31 июля 2021 вместе со Skype для бизнеса Online. После обновления вашей организации до Teams Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Сведения о подготовке устройства Cloud Connector к развертыванию и использованию с телефонной системой (облачная УАТС).
 
@@ -150,11 +153,11 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
     Задайте имя коммутатора, который подключает сеть периметра к **коммутатору Интернета SFB CCE Internet**.
 
-## <a name="update-the-cloudconnectorini-configuration-file"></a>Обновление файла конфигурации CloudConnector. ini
+## <a name="update-the-cloudconnectorini-configuration-file"></a>Обновление файла конфигурации CloudConnector.ini
 
-Подготовьте файл CloudConnector. ini, используя сведения, собранные в разделе [Определение параметров развертывания](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) в разделе [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) .
+Подготовьте файл CloudConnector.ini, используя сведения, собранные в разделе [Определение параметров развертывания](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) в разделе [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) .
 
-Чтобы обновить файл, сначала выполните следующий командлет, чтобы получить пример шаблона (CloudConnector. Sample. ini):
+Чтобы обновить файл, сначала выполните следующий командлет, чтобы получить пример шаблона (CloudConnector.Sample.ini):
 
 ```powershell
 Export-CcConfigurationSampleFile
@@ -162,7 +165,7 @@ Export-CcConfigurationSampleFile
 
 Пример шаблона хранится в **каталоге устройств**.
 
-После того как вы обновите их значениями для вашей среды, сохраните файл как CloudConnector. ini в **каталоге устройств**. Командлет **Get – CcApplianceDirectory** можно использовать, чтобы определить путь к **каталогу устройств**.
+После того как вы обновите их значениями для вашей среды, сохраните файл как CloudConnector.ini в **каталоге устройств**. Командлет **Get – CcApplianceDirectory** можно использовать, чтобы определить путь к **каталогу устройств**.
 
 При обновлении ini-файла учитывайте следующие возможности.
 
@@ -243,7 +246,7 @@ Start-CcDownload
 > [!NOTE]
 > Этот шаг необходимо выполнить только для первого устройства. 
 
-Перед выполнением этого действия Убедитесь, что переключатель в корпоративной сети создан. Кроме того, убедитесь, что в файле CloudConnector. ini правильно настроены следующие параметры:
+Перед выполнением этого действия Убедитесь, что переключатель в корпоративной сети создан. Кроме того, убедитесь, что в CloudConnector.ini файле правильно настроены следующие параметры:
 
 - Сетью CorpnetSwitchName
 
@@ -295,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > Эта задача не является обязательной для Cloud Connector Versions 1.4.2 и более поздних версий. 
 
-Учетная запись CceService создается во время развертывания Skype для бизнеса Cloud Connector Edition. Он запускает службу управления Cloud Connector и требует разрешения на удаление cloudconnector. msi. Необходимо изменить параметр групповой политики на компьютере узла Cloud Connector, чтобы указать, что реестр пользователя не должен выгружаться при выходе пользователя из системы. Выполните указанные ниже действия.
+Учетная запись CceService создается во время развертывания Skype для бизнеса Cloud Connector Edition. Он запускает службу управления Cloud Connector и требует разрешения на удаление cloudconnector.msi. Необходимо изменить параметр групповой политики на компьютере узла Cloud Connector, чтобы указать, что реестр пользователя не должен выгружаться при выходе пользователя из системы. Выполните указанные ниже действия.
 
 ### <a name="to-change-the-group-policy-setting"></a>Изменение параметра групповой политики
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597094"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359395"
 ---
 # <a name="skype-for-business-online-retirement"></a>Прекращение поддержки Skype для бизнеса Online
 
@@ -100,6 +100,9 @@ Teams поддерживается многими из наборов Microsoft 
 
 **Как прекращение поддержки Skype для бизнеса Online повлияет на организации с гибридными конфигурациями (Skype для бизнеса Online и Skype для бизнеса Server)?**<br>
 Клиенты с гибридными конфигурациями, включающими локальную и веб-версию, должны будут перевести пользователей со Skype для бизнеса Online на Microsoft Teams до 31 июля 2021 года. Способы обновления гибридных конфигураций, созданных на принципах сосуществования и взаимодействия, не изменятся после прекращения поддержки Skype для бизнеса Online. Дополнительные сведения см. в статьях [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md) и [Общие сведения о сосуществовании и взаимодействии Microsoft Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**Как выбытие Skype для бизнеса Online влияет на использование гибридных конфигураций Skype для бизнеса для локальных подключений по коммутируемой телефонной сети (PSTN) и возможностей телефонной системы в Интернете?**<br>
+В некоторых организациях есть разделение пользователей между локальным подключением для подключений по протоколу PSTN и в Интернете для возможностей телефонной системы. После того как вы закончите доступ к Skype для бизнеса Online, организациям потребуется перевести пользователей из Интернета в Microsoft Teams и подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Клиентам с соответствующими подписками рекомендуется использовать [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) для получения помощи с адаптацией к Teams.
 

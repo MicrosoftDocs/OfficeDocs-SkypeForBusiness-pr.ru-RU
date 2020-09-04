@@ -1,5 +1,5 @@
 ---
-title: Планирование телефонной системы с локальной связью PSTN в Skype для бизнеса Server
+title: Планирование телефонной системы с соединением на локальной ТСОП в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о планировании телефонной системы (облачной УАТС) с подключением локальной сети PSTN.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220240"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358815"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системы с локальной связью PSTN в Skype для бизнеса Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системы с соединением на локальной ТСОП в Skype для бизнеса Server
+
+> [!Important]
+> Skype для бизнеса Online будет прекращен до 31 июля, 2021 после чего служба станет недоступна.  Кроме того, связь по протоколу PSTN между локальной средой и в Skype для бизнеса Server или Cloud Connector Edition и Skype для бизнеса Online больше не будет поддерживаться.  Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Сведения о планировании телефонной системы (облачной УАТС) с подключением локальной сети PSTN.
 
@@ -59,7 +62,7 @@ ms.locfileid: "44220240"
 
 У вас может быть настраиваемая функция или основная надстройка для вашей устаревшей УАТС, например, центр обработки звонков. Если настраиваемый компонент в настоящее время недоступен в телефонной системе, следует оставить пользователей, которым требуется специальная функция, в локальной системе УАТС и просто перенести пользователей, которым не требуется доступ к пользовательскому компоненту, в телефонную систему с локальной сетью PSTN.
 
-Список устаревших УАТС, которые взаимодействуют непосредственно со Skype для бизнеса Server 2015, можно найти в [статье инфраструктура, квалифицированная для Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Если УАТС нет в этом списке, вы можете подключить УАТС к телефонной линии в Skype для бизнеса Online с помощью пограничного контроллера сеансов.
+Список устаревших УАТС, которые взаимодействуют непосредственно со Skype для бизнеса Server 2015, можно найти в  [статье инфраструктура, квалифицированная для Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Если УАТС нет в этом списке, вы можете подключить УАТС к телефонной линии в Skype для бизнеса Online с помощью пограничного контроллера сеансов.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Особенности сети для обеспечения качества и производительности
 

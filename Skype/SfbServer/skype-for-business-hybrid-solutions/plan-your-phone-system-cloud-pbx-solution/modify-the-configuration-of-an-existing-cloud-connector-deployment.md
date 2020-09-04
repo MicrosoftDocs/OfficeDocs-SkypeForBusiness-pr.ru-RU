@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего развертывания Skype для бизнеса Cloud Connector Edition 1.4.1 или более поздней версии.
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220299"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359115"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
- 
+
+> [!Important]
+> Cloud Connector Edition выйдет 31 июля 2021 вместе со Skype для бизнеса Online. После обновления вашей организации до Teams Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Выполните действия, описанные в этом разделе, чтобы изменить конфигурацию существующего развертывания Skype для бизнеса Cloud Connector Edition 1.4.1 или более поздней версии. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Изменение конфигурации отдельного сайта
 <a name="BKMK_SIngleSite"> </a>
 
-Если на сайте имеется только одно устройство, то при необходимости изменить параметры конфигурации после развертывания устройства можно изменить файл CloudConnector. ini и снова запустить развертывание.
+Если на сайте имеется только одно устройство, то при необходимости изменить параметры конфигурации после развертывания устройства можно изменить файл CloudConnector.ini и снова запустить развертывание.
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на сервере узла: 
     
@@ -44,7 +47,7 @@ ms.locfileid: "44220299"
    Unregister-CcAppliance
    ```
 
-3. Обновите файл CloudConnector. ini в каталоге устройств.
+3. Обновите файл CloudConnector.ini в каталоге устройств.
     
 4. Выполните следующий командлет, чтобы обновить конфигурацию: (этот шаг применим только для версии 2; для предыдущих версий перейдите к следующему шагу).
     
@@ -64,7 +67,7 @@ ms.locfileid: "44220299"
    Install-CcAppliance
    ```
 
-Если на сайте несколько устройств, вам потребуется выполнить эти действия, изменить файл CloudConnector. ini и повторно развернуть устройства по одному.
+Если на сайте несколько устройств, необходимо выполнить следующие действия, изменить файл CloudConnector.ini и повторно развернуть устройства по одному.
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на текущем устройстве: 
     
@@ -78,7 +81,7 @@ ms.locfileid: "44220299"
    Unregister-CcAppliance
    ```
 
-3. Обновите файл CloudConnector. ini в каталоге устройств.
+3. Обновите файл CloudConnector.ini в каталоге устройств.
     
 4. Выполните следующий командлет, чтобы обновить конфигурацию: (этот шаг применим только для версии 2; для предыдущих версий перейдите к следующему шагу).
     
@@ -175,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Этот раздел относится к Cloud Connector версии 2,0 и более поздних версий. 
   
-Все учетные данные Cloud Connector хранятся в следующем файле: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML ". При изменении пароля на сервере узла необходимо обновить локально хранимые учетные данные.
+Все учетные данные Cloud Connector хранятся в следующем файле: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ". При изменении пароля на сервере узла необходимо обновить локально хранимые учетные данные.
   
 Чтобы обновить локально хранимые учетные данные на устройстве Cloud Connector, используйте командлеты [Get – CcCredential](get-cccredential.md) и [Set – CcCredential](set-cccredential.md) , а затем выполните указанные ниже действия.
   
@@ -191,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. Перезапустите сервер узла.
     
-4. Удалите следующий файл: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML ".
+4. Удалите следующий файл: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
 5. Запустите консоль PowerShell от имени администратора, а затем выполните команду "Register – CcAppliance — Local", чтобы повторно ввести пароли, указанные в описании. Убедитесь, что вы ввели тот же пароль, который вы ввели перед развертыванием Cloud Connector.
     
@@ -215,7 +218,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Этот раздел относится к Cloud Connector версии 2.0.1 и более поздних версий. 
   
-Служба Cloud Connector выполняет службу управления Cloud Connector. Учетная запись CceService создается во время развертывания Cloud Connector Edition и хранится в следующих файлах: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . XML "и"%системдриве%\програмдата\клаудконнектор\кредентиалс.. CceService. XML ".
+Служба Cloud Connector выполняет службу управления Cloud Connector. Учетная запись CceService создается во время развертывания Cloud Connector Edition и хранится в следующих файлах: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML "и"% SystemDrive% \Programdata\Cloudconnector\credentials..CceService.xml ".
   
 Чтобы все устройства могли получать доступ к общему ресурсу каталога сайтов, пароль для учетной записи CceService должен быть одинаковым на всех устройствах, развернутых на сайте. Учитывайте следующее:
   
@@ -271,11 +274,11 @@ Set-CcCredential -AccountType TenantAdmin
     
     - кклоккфиле
     
-    - \<Полное доменное имя внешнего SIP пула Site_ пограничного сервера\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - \<Полное доменное имя внешнего SIP пула Tenant_ пограничного сервера\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - \<Полное доменное имя внешнего SIP пула TenantConfigLock_ пограничного сервера\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>Добавление нового домена SIP
 <a name="BKMK_UpdatePassword"> </a>
@@ -362,7 +365,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. Перевести устройство в режим обслуживания с помощью командлета Enter – CcUpdate.
     
-2. Выполните следующую команду. 
+2. Выполните следующую команду: 
     
    ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import

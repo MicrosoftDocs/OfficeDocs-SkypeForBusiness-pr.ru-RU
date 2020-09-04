@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Сведения о развертывании одного сайта PSTN в Cloud Connector Edition.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220539"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358935"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Развертывание отдельного сайта в Cloud Connector
  
+> [!Important]
+> Cloud Connector Edition выйдет 31 июля 2021 вместе со Skype для бизнеса Online. После обновления вашей организации до Teams Узнайте, как подключить локальную телефонную сеть к Teams с помощью [прямой маршрутизации](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Сведения о развертывании одного сайта PSTN в Cloud Connector Edition.
   
 Вы можете развернуть Skype для бизнеса Cloud Connector Edition с поддержкой высокого уровня доступности или без нее. Если вы хотите включить HA, вам потребуется развернуть два или больше устройств на сайте. Вы также можете преобразовать существующее устройство для поддержки высокой доступности после развертывания.
