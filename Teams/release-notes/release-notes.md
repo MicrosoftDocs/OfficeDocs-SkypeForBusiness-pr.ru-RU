@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Заметки о выпуске для функций администратора Microsoft Teams.
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797447"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399514"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Заметки о выпуске для функций администратора Microsoft Teams
 
 Эти заметки о выпуске содержат сведения о новых возможностях администратора для Microsoft Teams.
+
+## <a name="september-3-2020"></a>3 сентября 2020 г.
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Настраиваемое хранилище приложений в Microsoft Teams
+
+Теперь вы можете настроить магазин приложений Teams вместе с фирменной символикой, добавив логотип, пользовательские фоновые рисунки и настраиваемые цвета текста, чтобы сделать его более подходящим для конечных пользователей. [Подробнее](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>1 сентября 2020 г.
+
+### <a name="on-demand-translation-in-android"></a>Перевод по запросу на Android
+
+Преобразование встроенных сообщений — это функция Microsoft Teams, которая позволяет пользователям переводить сообщения группы в язык, заданный их личными языковыми параметрами. По умолчанию параметр **перевода включен.** [Подробнее](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
 
 ## <a name="august-17-2020"></a>17 августа 2020 г.
 
@@ -74,6 +86,16 @@ ms.locfileid: "46797447"
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Приобретение служб для сторонних приложений сторонних разработчиков в центре администрирования Microsoft Teams
 
 Приложения Teams могут быть установлены бесплатно, а для некоторых может потребоваться подписка на услуги приобретения, чтобы получить полную функциональность и область охвата приложения. Эти подписки на обслуживание называются предложением программного обеспечения (SaaS), которые доступны для приобретения через AppSource и теперь в центре администрирования Microsoft Teams. [Подробнее](../purchase-third-party-apps.md).
+
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Публикация настраиваемого приложения, отправленного с помощью API отправки приложений Teams
+
+Разработчики могут использовать API-интерфейс отправки приложений Teams, чтобы отправлять пользовательские приложения непосредственно в центр администрирования Microsoft Teams для просмотра и утверждения администраторами. [Подробнее](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## <a name="july-31-2020"></a>31 июля 2020 г.
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Администраторы могут настраивать состояние присутствия на основе смещения (на смене и на смену) для своих сотрудников Firstline
+
+Администраторы могут настроить для своих сотрудников Firstline состояние присутствия на основе сдвигов: при смене, занятии (может быть переключаться при нажатии на клавишу Shift) и в положение Shift.
 
 ## <a name="july-29-2020"></a>29 июля 2020 г.
 
@@ -139,6 +161,10 @@ ms.locfileid: "46797447"
 
 Вы можете выбрать, какие приложения будут установлены по умолчанию для пользователей при запуске Teams. [Подробнее](../teams-app-setup-policies.md).
 
+### <a name="screen-sharing-on-behalf-of-others"></a>Демонстрация экрана от имени других пользователей
+
+Многие администраторы ИТ получили сообщение о том, что при отключении политики AllowPrivateCalling у них не может быть общего экрана для сотрудников. Эта функция связана с возможностью запуска screenshare из чата из AllowPrivateCalling политики, но при отключении политики AllowPrivateCalling пользователи не смогут добавить звук или видео в сеанс screenshare.
+
 ## <a name="june-29-2020"></a>29 июня 2020 г.
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Приложение очень рация в Microsoft Teams
@@ -160,6 +186,12 @@ ms.locfileid: "46797447"
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Ограничения на вход для пользователей Android и iOS
 
 Если пользователь не вошел в свою учетную запись Microsoft 365 в другом месте, ему будет предложено пройти однофакторную или многофакторную проверку подлинности (SFA или MFA), в зависимости от настроек организации для политик входа на мобильных устройствах. [Подробнее](../sign-in-teams.md).
+
+## <a name="june-15-2020"></a>15 июня 2020 г.
+
+### <a name="monitor-shifts-with-audit-logs"></a>Смена мониторов с помощью журналов аудита
+
+Вы можете выполнить поиск в журнале аудита, чтобы просмотреть действия по смене в Организации. [Подробнее](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 июня 2020 г.
 

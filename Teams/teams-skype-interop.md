@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Узнайте о возможностях взаимодействия между пользователями Teams в Организации и пользователями Skype (потребителем).
 localization_priority: Normal
-ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859644"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395368"
 ---
 # <a name="teams-and-skype-interoperability"></a>Взаимодействие Teams и Skype
 
@@ -63,6 +63,10 @@ ms.locfileid: "44859644"
 - Беседы работают только один на один. Групповая беседа не поддерживается.
 - Пользователи Teams и пользователи Skype не могут видеть состояние присутствия друг друга.
 - Поиск пользователей Skype с помощью идентификатора Skype или номера телефона не поддерживается.
+- Пользователи Skype не могут вызвать пользователей Teams, которые настроили переадресацию звонков на другой номер пользователя, номер представителя или номер КОММУТИРУЕМой телефонной сети.  Поддерживается только Голосовая почта.
+- Эскалация взаимодействия, групповые вызовы и собрания не поддерживаются.
+- Возможность представителю вызвать пользователя Skype от имени пользователя Teams не поддерживается.
+- Демонстрация экрана с помощью чата не поддерживается.
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Укажите, могут ли пользователи Teams общаться с пользователями Skype
 
@@ -78,7 +82,7 @@ ms.locfileid: "44859644"
 
 Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` Разрешить пользователям команды общаться с пользователями Skype. Обратите внимание, что этот ```EnablePublicCloudAudioVideoAccess``` параметр можно использовать для включения и отключения голосовых и видеозвонков.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Управление внешним доступом в Teams](manage-external-access.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
