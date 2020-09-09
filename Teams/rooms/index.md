@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Важные вопросы планирования для развертывания комнат Microsoft Teams, а также развертывания и управления системой.
-ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521994"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405806"
 ---
 # <a name="microsoft-teams-rooms"></a>Комнаты Microsoft Teams
 
@@ -33,9 +33,9 @@ ms.locfileid: "46521994"
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Символ списка](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Развертывание символа](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Средства и отвертка](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[Планирование](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[Развертывание](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[Управление](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 

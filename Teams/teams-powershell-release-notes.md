@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170628"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405816"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "45170628"
 
 | Дата | Версия | Обновлении |
 |------- | -------------------- | ------------------------------ |
+| Сентябрь 2020 г. | [1.1.5 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
 | 2020 июля | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [командлеты назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | Июнь 2020 | [1.1.3 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация команды Get-Team<li>Повышенная надежность</li> |
 | Июнь 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена Предварительная загрузка командлета<li>Оптимизации платформы .NET Framework</li>   |
@@ -88,7 +89,7 @@ ms.locfileid: "45170628"
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Да | **Нет** |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Да | **Нет** |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
