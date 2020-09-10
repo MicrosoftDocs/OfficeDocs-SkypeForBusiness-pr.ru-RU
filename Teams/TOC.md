@@ -499,21 +499,8 @@
 
 ### [Потоки звонков Microsoft Teams](microsoft-teams-online-call-flows.md)
 
-## Практические рекомендации для крупных организаций
 ### [Руководство. Звонки в Teams](Tutorial-calling-in-teams.yml)
-### [Голосовые подсказки в облаке](cloud-voice-landing-page.md)
-#### [Определение показателей успеха](1-envision-define-my-success-cloud-voice.md)
-#### [Принятие решений по службе — телефонная система с планами звонков](calling-plan-landing-page.md)
-#### [Принятие решений по службе — прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
-#### [Оценка среды](3-envision-evaluate-my-environment.md)
-#### [Планирование управления службами](4-envision-plan-my-service-management.md)
 #### [Планирование взаимодействия с пользователями](5-envision-plan-my-users-experience.md)
-#### [Документирование плана по достижению успеха](6-envision-document-my-success-plan.md)
-#### [Подготовка службы](1-onboard-prepare-my-service.md)
-#### [Подготовка пользователей](2-onboard-prepare-my-users.md)
-#### [Развертывание службы](3-onboard-deploy-my-service.md)
-#### [Использование службы](1-drive-value-operate-my-service.md)
-#### [Улучшение службы](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
