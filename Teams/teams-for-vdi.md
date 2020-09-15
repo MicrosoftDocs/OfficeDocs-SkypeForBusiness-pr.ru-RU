@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766923"
+ms.locfileid: "47814378"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -38,6 +38,9 @@ Teams в виртуализованной среде поддерживает н
 Использование Teams в виртуализованной среде может немного отличаться от использования команд в невиртуализованной среде. Например, некоторые расширенные функции могут быть недоступны в виртуализованной среде, а разрешение экрана может отличаться.
 
 Для обеспечения оптимального взаимодействия с пользователем следуйте рекомендациям, приведенным в этой статье.
+
+ > [!Note]
+ > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="teams-on-vdi-components"></a>Teams в компонентах VDI
 

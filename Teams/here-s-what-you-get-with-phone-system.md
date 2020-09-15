@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Узнайте о возможностях, доступности и планировании и настройке телефонной системы Microsoft для бизнеса. '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788433"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814889"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Возможности телефонной системы
 
@@ -35,6 +35,8 @@ ms.locfileid: "46788433"
 
 Клиенты доступны для ПК, Mac и мобильных устройств, которые предоставляют возможности на устройствах с планшетов и мобильных телефонов для компьютеров и IP-телефонов для настольных систем. Дополнительные сведения можно найти в разделе [получение клиентов для Microsoft Teams](get-clients.md).
 
+ > [!Note]
+ > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
   
 ## <a name="phone-system-features"></a>Возможности телефонной системы
 
@@ -80,7 +82,7 @@ ms.locfileid: "46788433"
 - Музыка при удержании
 - Обратный Поиск номера в Azure AD
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
 - [Облачная голосовая связь в Microsoft Teams](cloud-voice-landing-page.md)

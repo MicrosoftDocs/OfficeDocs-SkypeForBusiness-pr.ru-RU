@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938358"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814738"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -38,6 +38,9 @@ ms.locfileid: "44938358"
 - Сотрудники просматривают предстоящие смены, могут узнать, кто уже запланирован на этот день, запросить замену или предложить смену, а также запросить время отключения. 
 
 Важно знать, что смена в настоящее время не поддерживает гостевых пользователей. Это означает, что гости в команде нельзя добавить в расписание или использовать в качестве расписания смен, когда гостевой доступ включен в Teams. 
+
+ > [!Note]
+ > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="availability-of-shifts"></a>Доступность смен
 
@@ -85,7 +88,7 @@ ms.locfileid: "44938358"
 
 Перед тем как выполнять поиск в журнале аудита, необходимо сначала включить аудит в [центре безопасности & соответствия требованиям](https://protection.office.com). Дополнительные сведения можно найти [в разделе Включение и отключение поиска в журнале аудита](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Имейте в виду, что данные аудита доступны только из той точки, в которой вы включили аудит.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Справка по сменам для Firstline работников](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Назначение политик пользователям в Teams](../../assign-policies.md)

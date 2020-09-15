@@ -21,18 +21,21 @@ description: Сведения о том, как управлять задани�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326766"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814778"
 ---
 # <a name="assignments-in-teams-for-education"></a>Задания в Teams для образовательных учреждений
 
 Назначения — это задачи или единицы работы, назначенные студенту или участнику команды в классе в рамках изучения. Вы можете создавать задания в рамках класса Teams.
 
 [Дополнительные сведения о назначениях](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+
+ > [!Note]
+ > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Назначения в центре администрирования Microsoft Teams
 

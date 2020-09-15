@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как включить прямую маршрутизацию для пользователей Microsoft Phone System.
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656150"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814548"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Предоставление пользователям прямой маршрутизации, голоса и голосовой почты
 
 В этой статье описано, как разрешить пользователям использовать прямую маршрутизацию телефонной системы.  Это шаг 2 описанных ниже действий для настройки прямой маршрутизации.
 
 - Шаг 1. [Соединение SBC с телефонной системой Microsoft и проверка соединения](direct-routing-connect-the-sbc.md) 
-- **Шаг 2. Предоставление пользователям прямой маршрутизации, голоса и голосовой почты** (в этой статье)
+- **Шаг 2. Предоставление пользователям прямой маршрутизации, голоса и голосовой почты**   (в этой статье)
 - Шаг 3. [Настройка голосовой маршрутизации](direct-routing-voice-routing.md)
 - Шаг 4. [Перевод чисел в альтернативный формат](direct-routing-translate-numbers.md) 
 
@@ -53,16 +53,32 @@ ms.locfileid: "46656150"
 
 Сведения о требованиях к лицензиям можно найти в разделе [Лицензирование и другие требования](direct-routing-plan.md#licensing-and-other-requirements) в [прямом маршруте планирование](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-online"></a>Убедитесь в том, что пользователь подключен к сети 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Убедитесь в том, что пользователь подключен к сети, а номер телефона не синхронизируется локально (применимо для пользователей, поддерживающих голосовую связь в Skype для бизнеса Server), перенесены в Team Direct Routing.
 
-Для прямой маршрутизации требуется, чтобы пользователь был подключен к сети. Вы можете проверить, просматривая параметр RegistrarPool, который должен иметь значение в домене infra.lync.com.
+Для прямой маршрутизации требуется, чтобы пользователь был подключен к сети. Вы можете проверить, просматривая параметр RegistrarPool, который должен иметь значение в домене infra.lync.com. Для параметра OnPremLineUriManuallySet также должно быть задано значение true. Это достигается путем настройки номера телефона и включения корпоративной голосовой и голосовой почты в Skype для бизнеса Online PowerShell.
 
-1. Подключитесь к удаленной оболочке PowerShell.
+1. Подключитесь к сеансу PowerShell Skype для бизнеса Online.
+
 2. Выдайте команду: 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    В случае, если OnPremLineUriManuallySet имеет значение false и LineUri заполняется <E. 164 номера телефона>, очистите параметры с помощью локальной оболочки управления Skype для бизнеса, прежде чем настраивать номер телефона с помощью Skype для бизнеса Online PowerShell. 
+
+1. С помощью командной консоли Skype для бизнеса, выполните команду: 
+
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   После синхронизации изменений в Office 365 ожидаемый результат будет `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` выглядеть следующим образом:
+
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Настройка номера телефона и включение корпоративной голосовой и голосовой почты 
 
@@ -70,13 +86,14 @@ ms.locfileid: "46656150"
 
 Чтобы добавить номер телефона и включить голосовую почту, выполните указанные ниже действия.
  
-1. Подключитесь к удаленному сеансу PowerShell. 
-2. Введите команду: 
+1. Подключитесь к сеансу PowerShell Skype для бизнеса Online. 
+
+2. Выдайте команду: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
+    
     Например, чтобы добавить номер телефона пользователя "Spencer Low", введите следующее: 
 
     ```PowerShell
@@ -85,8 +102,8 @@ ms.locfileid: "46656150"
 
     Номер телефона должен быть настроен как полный E. 164 номер телефона с кодом страны. 
 
-      > [!NOTE]
-      > Если в качестве номера телефона пользователя используется локальный, используйте локальную среду управления и панель управления Skype для бизнеса, чтобы настроить номер телефона пользователя. 
+    > [!NOTE]
+    > Если в качестве номера телефона пользователя используется локальный, используйте локальную среду управления и панель управления Skype для бизнеса, чтобы настроить номер телефона пользователя. 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Настройка отправки звонков непосредственно в голосовую почту

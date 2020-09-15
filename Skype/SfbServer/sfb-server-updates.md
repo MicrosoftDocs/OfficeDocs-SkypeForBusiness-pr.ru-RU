@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: В одном месте вы найдете обновления для Skype для бизнеса Server 2015/2019 и Lync 2013 и управляйте ими. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326576"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814318"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления для Skype для бизнеса Server
 
-В одном месте вы найдете обновления для [Skype для бизнеса server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) и управляйте ими. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
+В одном месте вы найдете обновления для [Skype для бизнеса server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history),  [Lync server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) и управляйте ими. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
 
 Последние обновления для Skype для бизнеса Online и Microsoft 365 можно найти в [статье план microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
@@ -32,6 +32,7 @@ ms.locfileid: "44326576"
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительный пакет обновления 3 (SP1) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 г. |
 |Накопительный пакет обновления 3 для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
 |Накопительный пакет обновления 2 (SP2) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
 |Накопительный пакет обновления 1 (SP1) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
@@ -42,7 +43,7 @@ ms.locfileid: "44326576"
 
 |Имя или ссылка пакета|Дата выпуска|
 |:--- |:--- |
-|[ПАКЕТ SDK ДЛЯ UCMA 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019 г.       |
+|[ПАКЕТ SDK ДЛЯ UCMA 6,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019 г.       |
 |[Среда выполнения единой системы обмена связями Managed API 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Июнь 2018 г.        |
 |[Skype для бизнеса Server 2019, пакет управления](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Июнь 2018 г.        |
 |||
@@ -54,13 +55,14 @@ ms.locfileid: "44326576"
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительный пакет обновления 11 (SP1) для Skype для бизнеса Server 2015 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| 14 июля 2020 г. |
 |Накопительный пакет обновления 11 для Skype для бизнеса Server 2015|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| 13 мая 2020 г. |
 |Накопительный пакет обновления 10 (SP1) для Skype для бизнеса Server 2015|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| Август 2019 г. |
 |Накопительный пакет обновления 10 для Skype для бизнеса Server 2015 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 3061064](https://support.microsoft.com/kb/3061064)| Июль 2019 г. |
 |Накопительный пакет обновления 9 для Skype для бизнеса Server 2015, сервер веб-компонентов|[СТАТЬЯ БАЗЫ ЗНАНИЙ 4487981](https://support.microsoft.com/kb/4487981)| Май 2019 г. |
-|Накопительный пакет обновления 8 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер|[СТАТЬЯ БАЗЫ ЗНАНИЙ 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
+|Накопительный пакет обновления 8 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер|[СТАТЬЯ БАЗЫ ЗНАНИЙ 4464355](https://support.microsoft.com/kb/4464355)|Январь 2019 г.|
 |Накопительный пакет обновления 7 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4340904](https://support.microsoft.com/kb/4340904) |Июль 2018 г. |
-|Накопительный пакет обновления 6 Hotfix 2 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |
+|Накопительный пакет обновления 6 Hotfix 2 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |
 |Накопительный пакет обновления 6 (SP1) для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4074701](https://support.microsoft.com/kb/4074701)|Январь 2018 г. |
 |Накопительный пакет обновления 6 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер|[СТАТЬЯ БАЗЫ ЗНАНИЙ 4036312](https://support.microsoft.com/kb/4036312) |Декабрь 2017 г. |
 |Накопительный пакет обновления 5 для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер  |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4012621](https://support.microsoft.com/kb/4012621) |Май 2017 г. |
@@ -77,7 +79,7 @@ ms.locfileid: "44326576"
 
 |Имя или ссылка пакета|Дата выпуска|
 |:--- |:--- |
-|[ПАКЕТ SDK ДЛЯ UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
+|[ПАКЕТ SDK ДЛЯ UCMA 5,0 ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
 |[Среда выполнения единой системы обмена связями Managed API 5,0](https://www.microsoft.com/download/details.aspx?id=47344)     |   Май 2015 г.      |
 |[Skype для бизнеса Server 2015, пакет управления](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Июнь 2019 г.       |
 |||
@@ -88,9 +90,10 @@ ms.locfileid: "44326576"
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительный пакет обновления 10 для Lync Server 2013, исправление 4 (SP4) |[СТАТЬЯ БАЗЫ ЗНАНИЙ 2809243](https://support.microsoft.com/kb/2809243)|Июнь 2020 г.|
 |Накопительный пакет обновления 10 для Lync Server 2013 (исправление 3) |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4515509](https://support.microsoft.com/kb/4515509)|Сентябрь 2019 г.|
 |Накопительное обновление 10 для Lync Server 2013, исправление 2 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4501392](https://support.microsoft.com/kb/4501392)|Июнь 2019 г.|
-|Накопительный пакет обновления 10 (SP1) для Lync Server 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
+|Накопительный пакет обновления 10 (SP1) для Lync Server 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4458772](https://support.microsoft.com/kb/4458772)|Январь 2019 г.|
 |Накопительный пакет обновления 10 для Lync Server 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4295703](https://support.microsoft.com/kb/4295703)|Июль 2018 г. |
 |Накопительный пакет обновления 9 для Lync Server 2013  |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4019183](https://support.microsoft.com/kb/4019183) |Июль 2017 г. |
 |Накопительный пакет обновления 8 (SP4) для Lync Server 2013 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4014154](https://support.microsoft.com/kb/4014154) |Март 2017 г. |
@@ -174,7 +177,7 @@ ms.locfileid: "44326576"
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительный пакет обновления 18 (SP1) для Lync Server 2010 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 2493736](https://support.microsoft.com/kb/2493736) |Июнь 2019 г.|
-|Накопительный пакет обновления 18 для Lync Server 2010|[СТАТЬЯ БАЗЫ ЗНАНИЙ 2493736](https://support.microsoft.com/kb/2493736) |Январь 2019 г.|
+|Накопительный пакет обновления 18 для Lync Server 2010|[СТАТЬЯ БАЗЫ ЗНАНИЙ 2493736](https://support.microsoft.com/kb/2493736) |Январь 2019 г.|
 |Накопительный пакет обновления 17 для Lync Server 2010|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3148801](https://support.microsoft.com/kb/3148801) |Апрель 2016 г. |
 |Накопительный пакет обновления 16 для Lync Server 2010|[СТАТЬЯ БАЗЫ ЗНАНИЙ 3057803](https://support.microsoft.com/kb/3057803) |Май 2015 г. |
 |Накопительный пакет обновления 15 для Lync Server 2010 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 3030726](https://support.microsoft.com/kb/3030726) |Февраль 2015 г.|

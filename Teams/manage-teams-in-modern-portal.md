@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583156"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814558"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования Microsoft Teams
 ==========================================
@@ -67,6 +67,9 @@ ms.locfileid: "46583156"
 ### <a name="add"></a>Добавлении
 
 Чтобы добавить новую команду, нажмите кнопку **Добавить**. В области **Добавить новую группу** укажите имя и описание группы, укажите, хотите ли вы сделать ее частной или общедоступной, и задайте классификацию.
+
+> [!NOTE]
+> Вы можете управлять только что созданными группами в центре администрирования Teams, в отличие от возможностей других клиентов, например Outlook.
 
 ### <a name="edit"></a>Правка
 
