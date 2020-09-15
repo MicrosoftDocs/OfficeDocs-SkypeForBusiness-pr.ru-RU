@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672880"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766863"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
 ===========================================================
@@ -62,6 +62,11 @@ ms.locfileid: "46672880"
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Настройка поддержки автосекретаря и очереди звонков для Microsoft Teams
 
 Чтобы получать автосекретаря и звонки из очереди звонков в Microsoft Teams, необходимо настроить политику взаимодействия и политику обновления. Пожалуйста, просматривайте [миграцию и взаимодействие для организаций, использующих Teams вместе со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md). Если вы не обладаете автосекретарем и (или) очередью звонков, и это нужно сделать, ознакомьтесь со сведениями о [настройке автоматического ассистента в облаке](create-a-phone-system-auto-attendant.md) и [создании очереди облачных звонков](create-a-phone-system-call-queue.md).
+
+## <a name="known-issues"></a>Известные проблемы
+
+Когда агенты очереди звонков принимают вызов на своем мобильном устройстве, звонки могут идти на удержании, если устройство заблокировано. Пользователь должен сначала разблокировать устройство, а затем ответить на звонок.
+
 
 ## <a name="related-topics"></a>См. также
 
