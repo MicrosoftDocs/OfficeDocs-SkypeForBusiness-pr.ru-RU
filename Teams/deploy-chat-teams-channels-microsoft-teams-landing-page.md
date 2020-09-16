@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814869"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820513"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "47814869"
 > Мы рекомендуем включить избранные приложения, например Планировщик, в начальное развертывание Teams. Добавьте другие [приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md) по мере внедрения Teams.
 
  > [!Note]
- > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+ > Подробные сведения о функциях Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="chat-deployment-prerequisites"></a>Необходимые компоненты для развертывания чата
 

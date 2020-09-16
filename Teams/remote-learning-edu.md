@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814348"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820603"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Начните с Microsoft Teams для дистанционного обучения
 
@@ -33,8 +33,8 @@ ms.locfileid: "47814348"
 
 В этой статье описаны фактические действия по подготовке учебного заведения к дистанционному обучению.
 
- > [!Note]
- > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> [!Note]
+> Подробные сведения о возможностях дистанционного обучения на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > Если вы педагог, руководитель образования или ИТ-специалист, эти ресурсы могут помочь:

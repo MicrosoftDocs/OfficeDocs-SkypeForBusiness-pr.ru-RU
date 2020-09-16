@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814399"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820623"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
 В Microsoft Teams существует 2 способа общения: собрания и трансляции. Воспользуйтесь этой статьей, чтобы быстро развернуть и настроить собрания и трансляции для своей организации. 
+
+> [!Note]
+> Подробные сведения о быстрой настройке собраний и событий Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - **Собрания** в Teams поддерживают передачу звука и видео, а также демонстрацию экрана для 300* пользователей. Это один из основных способов совместной работы в Teams. И вам не нужно быть участником организации (и вам даже не нужна учетная запись Teams!), чтобы присоединиться к собранию Teams. Просто просмотрите в приглашении инструкции о присоединении. 
 
@@ -43,9 +46,6 @@ ms.locfileid: "47814399"
 > <sup>1</sup> У организаторов собраний должна быть [лицензия для надстройки аудиоконференций](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), чтобы отправлять приглашения, содержащие телефонные номера для подключения к конференции.
 >
 > <sup>2</sup> Для подключения к собранию с помощью функции [**Позвонить мне на** номер](set-up-the-call-me-feature-for-your-users.md) требуется, чтобы у организаторов была лицензия E5 или [лицензия для надстройки аудиоконференций](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Также может потребоваться [абонентская группа](what-are-dial-plans.md). 
-
- > [!Note]
- > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Чтобы узнать больше о лицензировании, прочтите [описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

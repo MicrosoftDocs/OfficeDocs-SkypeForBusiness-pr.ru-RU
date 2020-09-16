@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814768"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820453"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "47814768"
 *Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams с собраниями и конференциями. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть собрания и конференции в Teams.
 
  > [!Note]
- > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Подробные сведения о собраниях и конференциях Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
 
