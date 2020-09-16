@@ -63,6 +63,7 @@
 
 ### Гостевой доступ
 #### [О гостевом доступе](guest-access.md)
+#### [Контрольный список гостевого доступа](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [Присоединение гостя к команде](guest-joins.md)
 #### [Взаимодействие с гостями](guest-experience.md)
 #### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 ## [Расположение данных в Teams](location-of-data-in-teams.md)
+## [Рекомендации по сбору данных](data-collection-practices.md)
 
 ## Подготовка к развертыванию Teams
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
