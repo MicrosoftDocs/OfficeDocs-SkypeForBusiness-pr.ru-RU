@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581150"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814399"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -44,6 +44,8 @@ ms.locfileid: "46581150"
 >
 > <sup>2</sup> Для подключения к собранию с помощью функции [**Позвонить мне на** номер](set-up-the-call-me-feature-for-your-users.md) требуется, чтобы у организаторов была лицензия E5 или [лицензия для надстройки аудиоконференций](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Также может потребоваться [абонентская группа](what-are-dial-plans.md). 
 
+ > [!Note]
+ > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 Чтобы узнать больше о лицензировании, прочтите [описание службы Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
