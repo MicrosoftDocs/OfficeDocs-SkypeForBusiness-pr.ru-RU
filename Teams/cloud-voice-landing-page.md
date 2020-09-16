@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Узнайте больше о функциях голосовой связи в облаке и Узнайте о необходимых решениях для развертывания.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814879"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820503"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>Возможности голосовой связи с телефонным подключением и PSTN
 
@@ -38,7 +38,7 @@ ms.locfileid: "47814879"
 Рекомендуется, чтобы все организации работали по основным решениям, а затем, если у вашей организации есть дополнительные требования, ознакомьтесь со следующими материалами.
 
  > [!Note]
- > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> Подробные сведения о возможностях телефонной системы на разных платформах можно найти в разделе [функции групп на платформе](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="learn-more-about-voice"></a>Дополнительные сведения о голосовых сообщениях
 

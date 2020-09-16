@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Узнайте о возможностях, доступности и планировании и настройке телефонной системы Microsoft для бизнеса. '
-ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 32c094860ee5ff102a541062616e038cf2f37be6
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814889"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820573"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Возможности телефонной системы
 
@@ -36,7 +36,7 @@ ms.locfileid: "47814889"
 Клиенты доступны для ПК, Mac и мобильных устройств, которые предоставляют возможности на устройствах с планшетов и мобильных телефонов для компьютеров и IP-телефонов для настольных систем. Дополнительные сведения можно найти в разделе [получение клиентов для Microsoft Teams](get-clients.md).
 
  > [!Note]
- > Дополнительные сведения [можно найти в разделе функции группы по платформам](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) .
+> Подробные сведения о телефонных системах Teams на разных платформах можно найти в разделе [функции групп на платформе](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
   
 ## <a name="phone-system-features"></a>Возможности телефонной системы
 

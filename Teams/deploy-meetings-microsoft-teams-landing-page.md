@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583968"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814768"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
@@ -43,6 +43,9 @@ ms.locfileid: "46583968"
 *Новое в апреле 2020 года*. Организаторы собрания могут завершить собрание для всех участников собрания в Teams, щелкнув **Завершить собрание** в элементах управления собрания.  
 
 *Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams с собраниями и конференциями. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть собрания и конференции в Teams.
+
+ > [!Note]
+ > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
 

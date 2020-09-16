@@ -18,16 +18,19 @@ description: В этой статье вы ознакомитесь с факт�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df05da7313394bdc0856002014df8e8e18385774
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: efde7de344d03ae41ac577f4c44e3b72ee76a9f5
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788343"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814308"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
 Когда вы планируете живые мероприятия команд для проведения больших собраний в вашей организации, вам нужно учесть несколько факторов, прежде чем начинать все это настраивать.
+
+ > [!Note]
+ > Дополнительные сведения см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Кто может посещать, создавать и планировать трансляции
 
