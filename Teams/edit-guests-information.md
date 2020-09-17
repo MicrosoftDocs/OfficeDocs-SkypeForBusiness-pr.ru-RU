@@ -18,16 +18,33 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656080"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950835"
 ---
-<a name="edit-guest-user-information"></a>Изменение сведений о гостевых пользователях
-===========================
+# <a name="edit-guest-user-information"></a>Изменение сведений о гостевых пользователях
 
-Чтобы изменить гостевые учетные записи (например, отображаемое имя или фотографию в профиле), перейдите на портал Azure Active Directory. Дополнительные сведения можно найти в разделе [Общее представление о удостоверениях и Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
+Вы можете изменить гостевые сведения из центра администрирования Microsoft 365 или портала каталогов Azure.
 
-В настоящее время вы не можете изменить гостевые сведения в центре администрирования Microsoft Teams, центре администрирования Microsoft 365 или в центре администрирования Exchange.
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Гостевые пользователи в администраторе Microsoft 365
+
+1. Чтобы изменить данные гостя из центра администрирования Microsoft 365, выберите **Пользователи**с гостевой учетной записью  >  **Guest Users**.
+
+   ![Редактируемые сведения о гостевом пользователе](media/access-guest-user.png)
+
+2. Выберите пользователя с помощью **гостевых пользователей**.
+
+3. В сведениях о гостевом пользователе выберите пункт **Управление контактными данными**.
+
+   ![Управление контактными данными ](media/guest-user-data1.png)
+
+4. Измените любые выбранные поля, кроме **отображаемого имени** в окне **Управление контактными данными**, а затем нажмите кнопку **сохранить изменения**.
+
+   ![Изменение контактных данных пользователя гостя](media/manage-guest-contact.png)
+
+## <a name="guest-users-in-the-azure-active-directory"></a>Гостевые пользователи в Azure Active Directory
+
+Как вариант, вы можете изменить гостевой пользователь на портале Azure Active Directory. Дополнительные сведения можно найти в разделе [Общее представление о удостоверениях и Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).

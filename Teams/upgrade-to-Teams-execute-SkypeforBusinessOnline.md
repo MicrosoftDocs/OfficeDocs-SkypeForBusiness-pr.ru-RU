@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158667"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940509"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "45158667"
 
 Вы можете обновить пользователей до TeamsOnly Mode, назначив экземпляр UpgradeToTeams TeamsUpgradePolicy, который может быть выполнен с помощью центра администрирования Microsoft Teams или удаленного сеанса Windows PowerShell из состава Skype для бизнеса. Это можно сделать отдельно для каждого пользователя или на уровне клиента, если вы хотите обновить весь клиент за один шаг. 
 
-Дополнительные сведения можно найти [в статье Настройка параметров сосуществования и обновления](https://aka.ms/SkypeToTeams-SetCoexistence) и [TeamsUpgradePolicy: управление миграцией и сосуществованием](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Дополнительные сведения можно найти [в статье Настройка параметров сосуществования и обновления](https://aka.ms/SkypeToTeams-SetCoexistence) и [TeamsUpgradePolicy: управление миграцией и сосуществованием](upgrade-to-teams-on-prem-tools.md).
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>Одновременный переход на новую версию всех пользователей в Teams
 
@@ -107,8 +107,8 @@ ms.locfileid: "45158667"
 
 При рассмотрении параметров подключения по коммутируемой телефонной сети (КТСОП) возможны два варианта перехода из Skype для бизнеса Online в режим TeamsOnly:
 
-- Пользователь в Skype для бизнеса Online с планом вызова Microsoft. После обновления у этого пользователя будет по-прежнему содержаться план звонков по Microsoft. Это самый простой сценарий, требующий всего несколько действий. Дополнительные сведения можно найти [в разделе Skype для бизнеса Online с планами вызовов Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- Пользователь в Skype для бизнеса Online с планом вызова Microsoft. После обновления у этого пользователя будет по-прежнему содержаться план звонков по Microsoft. Это самый простой сценарий, требующий всего несколько действий. Дополнительные сведения можно найти [в разделе Skype для бизнеса Online с планами вызовов Microsoft](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- Пользователь в Skype для бизнеса Online с локальной функцией голосовой связи через Skype для бизнеса в локальной или облачной версии. Переход пользователя на Teams необходимо координировать с помощью миграции пользователя в направлении прямой маршрутизации, чтобы убедиться в том, что у пользователя TeamsOnly есть функция КТСОП.  Дополнительные сведения можно найти в разделе [Skype для бизнеса Online с локальной голосовой](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)связью.
+- Пользователь в Skype для бизнеса Online с локальной функцией голосовой связи через Skype для бизнеса в локальной или облачной версии. Переход пользователя на Teams необходимо координировать с помощью миграции пользователя в направлении прямой маршрутизации, чтобы убедиться в том, что у пользователя TeamsOnly есть функция КТСОП.  Дополнительные сведения можно найти в разделе [Skype для бизнеса Online с локальной голосовой](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)связью.
 
 
