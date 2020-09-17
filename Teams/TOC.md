@@ -311,6 +311,7 @@
 ## Планы звонков
 ### [Какой план звонков подходит для вас?](calling-plan-landing-page.md)
 ### [Как купить план звонков](calling-plans-for-office-365.md)
+### [Дополнительные минуты исходящих звонков для США и Канады](dial-out-minutes-canada-us.md)
 ### [Настройка планов звонков для организации](set-up-calling-plans.md)
 ### [Краткое руководство по началу работы. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 ### [Доступность планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [Прекращение поддержки Skype для бизнеса Online](skype-for-business-online-retirement.md)
 ## [Вопросы и ответы](FAQ-journey.md)
 
-## Техническая библиотека
-### [Руководство по обновлению для ИТ-администраторов](upgrade-to-teams-on-prem-overview.md)
-### [Миграция и взаимодействие со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
-### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
-### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
+## Техническая библиотека 
+### Руководство по обновлению для ИТ-администраторов
+#### [Обзор](upgrade-to-teams-on-prem-overview.md)
+#### [Способы обновления](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Средства управления обновлением](upgrade-to-teams-on-prem-tools.md)
+#### [Рекомендации для организаций с локальным Skype для бизнеса](upgrade-to-teams-on-prem-considerations.md)
+#### [Реализация перехода](upgrade-to-teams-on-prem-implement.md)
+#### [Сосуществование Teams и Skype для бизнеса](upgrade-to-teams-on-prem-coexistence.md)
+#### [Рекомендации по ТСОП](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Режимы сосуществования — справочник](migration-interop-guidance-for-teams-with-skype.md)
+#### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Настройка сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md)
 ### [Сначала собрания](meetings-first.md)
 
 
