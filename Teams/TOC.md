@@ -85,7 +85,6 @@
 ### [Назначение политик пользователям](assign-policies.md)
 ### [Просмотр назначений политик в журнале действий](activity-log.md)
 ### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
-### [Блокировка доступа к SharePoint для определенных пользователей](block-access-sharepoint.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 ### [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 ### [Управление политиками отзывов в Teams](manage-feedback-policies-in-teams.md)
@@ -733,7 +732,12 @@
 #### [Поиск событий в журнале аудита](audit-log-events.md)
 ## Конфиденциальность
 ### [Конфиденциальность и Microsoft Teams](teams-privacy.md)
+### [Рекомендации по сбору данных](data-collection-practices.md)
 ### [Расположение данных в Teams](location-of-data-in-teams.md)
+### [Блокировка доступа к SharePoint Online для определенных пользователей](block-access-sharepoint.md)
+### [Общие сведения об управлении политикой](policy-control-overview.md)
+### [Диагностические данные мобильных устройств](policy-control-diagnostic-data-mobile.md)
+### [Диагностические данные клиента для настольных ПК](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
@@ -780,8 +784,6 @@
 # Справочные материалы
 
 ## [Ограничения и спецификации для Teams](limits-specifications-teams.md)
-## [Расположение данных в Teams](location-of-data-in-teams.md)
-## [Рекомендации по сбору данных](data-collection-practices.md)
 
 ## Подготовка к развертыванию Teams
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
