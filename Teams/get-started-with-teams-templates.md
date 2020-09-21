@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583528"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135843"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Начало работы с шаблонами Teams с помощью Microsoft Graph
 
@@ -78,10 +78,11 @@ ms.locfileid: "46583528"
 |Учреждений<br>Больница | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Дистрибутор<ul><li>Обслуживании\*</li><li>Соответствие требованиям\*</li><li>Custodial</li><li>Человеческие ресурсы</li></li><li>Pharmacy</li></ul>\*Автоматический избранный канал|
 |||
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Создание команды](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (в предварительной версии)
 - [Новая группа](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
 - [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 - [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Начало работы с шаблонами групп на консоли администрирования](get-started-with-teams-templates-in-the-admin-console.md)

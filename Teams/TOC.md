@@ -76,8 +76,6 @@
 #### [Устранение неполадок гостевого доступа](troubleshoot-guest-access.md)
 ## [Кортана в Teams](cortana-in-teams.md)
 
-
-
 ## Управление Teams
 ### [Роли администратора](using-admin-roles.md)
 ### [Управление параметрами Teams в организации](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [Назначение политик пользователям](assign-policies.md)
 ### [Просмотр назначений политик в журнале действий](activity-log.md)
 ### [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
+### [Блокировка доступа к SharePoint для определенных пользователей](block-access-sharepoint.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 ### [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 ### [Управление политиками отзывов в Teams](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
 ### [Безопасные ссылки в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Политики управления приложениями AppLocker](applocker-in-teams.md)
+### [Блокировка доступа к SharePoint](block-access-sharepoint.md)
 ## Соответствие требованиям
 ### [Информационные барьеры](information-barriers-in-teams.md)
 ### [Политики хранения](retention-policies.md)

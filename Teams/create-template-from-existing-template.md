@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8e0fc3ba4e210007c5bb71bbc6d53eddbe80b14f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1d12a9422fe7f189d8ad85cf0b139e905550428f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583458"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135963"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Создание нового шаблона на основе существующего шаблона группы в Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "46583458"
 
 Microsoft Teams предоставляет готовые шаблоны, которые можно сохранить и изменить в соответствии с конкретными потребностями Организации.
 
-1. Войдите в центр администрирования.
+1. Войдите в центр администрирования Teams.
 
 2. На панели навигации **слева разверните раздел**  >  **шаблоны групп Teams**.
 

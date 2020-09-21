@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583698"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135863"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Создание настраиваемого шаблона группы в Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "46583698"
 
 Начало работы:
 
-1. Войдите в центр администрирования по адресу  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> .
+1. Войдите в центр администрирования Teams.
 
 2. На панели навигации **слева разверните раздел**  >  **шаблоны групп Teams**.
 
@@ -57,7 +57,7 @@ ms.locfileid: "46583698"
     2. В диалоговом окне **Добавить** имя канала.
     3. Добавьте описание.
     4. Определите, должен ли канал отображаться по умолчанию.
-    5. Найдите имя приложения, которое вы хотите addd в канале.
+    5. Найдите имя приложения, которое вы хотите добавить в канал.
     6. По завершении нажмите кнопку **Применить** .
 
 ![Изображение экрана: каналы, вкладки и приложения "шаблоны группы".](media/template-channels-tabs-apps.png)
@@ -66,7 +66,7 @@ ms.locfileid: "46583698"
 
 Новый шаблон появится в списке **шаблонов групп** . Шаблон можно использовать для создания групп в Teams.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Начало работы с шаблонами группы в центре администрирования](get-started-with-teams-templates-in-the-admin-console.md)
 - [Создание шаблона на основе существующей группы](create-template-from-existing-team.md)

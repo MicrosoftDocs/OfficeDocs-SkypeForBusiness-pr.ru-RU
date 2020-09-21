@@ -18,12 +18,12 @@ description: В этой статье вы ознакомитесь с факт�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820493"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962820"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
@@ -128,7 +128,7 @@ ms.locfileid: "47820493"
 |Автоматические субтитры |&#x2714; |&#x2714; |&#x274C; |
 |Подписи в записи живых событий |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR управления (пауза, перемотка) |&#x2714; |&#x2714; |&#x2714; |
-|Партнерская поддержка eCDN |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|Партнерская поддержка eCDN |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Отчет о посещаемости после трансляции для продюсеров |&#x2714; |&#x2714; |&#x274C; |
 |Анализ настроений аудитории - Голосование в реальном времени и опросы |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
