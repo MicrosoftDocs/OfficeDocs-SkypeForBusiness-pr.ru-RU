@@ -8,9 +8,11 @@
 
 # Обучение
 ## [Обзор](training-microsoft-teams-landing-page.md)
-## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.yml)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Сеансы Teams на Ignite 2020](ignite-2020-landing-page.md)
+## [Интерактивное обучение Teams](instructor-led-training-teams-landing-page.yml)
+## [Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Способ развертывания Teams](How-to-roll-out-teams.md)
@@ -116,16 +118,18 @@
 ## [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ## [Использование Microsoft 365 или Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ## [Согласие для определенных ресурсов](resource-specific-consent.md)
-## [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
-## [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
+## Пользовательские приложения
+### [Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams](submit-approve-custom-apps.md)
+### [Управление приложениями Power Platform в Центре администрирования Microsoft Teams](manage-power-platform-apps.md).
+### [Публикация настраиваемого приложения путем отправки пакета приложений](upload-custom-apps.md)
 ## [Сертификация приложения](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Разрешения и рекомендации для приложений](app-permissions.md)
 ## [Приобретение услуг для сторонних приложений Teams](purchase-third-party-apps.md)
 ## [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Управление приложением Lists для организации в Teams](manage-lists-app.md)
 ## [Управление приложением "Задачи" для организации](manage-tasks-app.md)
-## [Управление приложением "Благодарность" в Центре администрирования Teams](manage-praise-app.md)
 ## [Настройка иерархии целей для команды](set-up-your-team-hierarchy.md)
+## [Управление приложением "Благодарность" в Центре администрирования Teams](manage-praise-app.md)
 ## [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -619,7 +623,7 @@
 
 <!-- ============================================================ -->
 
-# Корпоративная голосовая связь Microsoft 365
+# Голосовая связь Microsoft 365 бизнес
 ## [Что такое корпоративная голосовая связь Microsoft 365?](business-voice/whats-business-voice.md)
 ## [Доступность в странах и регионах](business-voice/country-region-availability.md)
 ## Что нужно знать перед приобретением
@@ -981,5 +985,5 @@
 ### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
 
 ## [Обновление анкеты для обнаружения](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Экспорт контента с помощью API экспорта Microsoft Teams](export-teams-content.md)
 ## [Заметки о выпуске для функций администрирования Teams](release-notes/release-notes.md)
