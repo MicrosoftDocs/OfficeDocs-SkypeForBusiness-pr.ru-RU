@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581820"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177397"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Взаимодействие Microsoft Teams с облачными видеослужбами
 
@@ -61,6 +61,7 @@ Office 365 предоставляет возможность интеграци�
 |![Логотип, обозначающий Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Служба RealConnect Polycom</a> |
 |![Логотип, представляющий бесконечную Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip бесконечности для Microsoft Teams</a> | 
 |![Эмблема, представляющая шлюз BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз BlueJeans для Microsoft Teams</a> |
+|![Логотип компании Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Интеграция видео Cisco WebEx для Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>Общие сведения о облачном взаимодействии
 

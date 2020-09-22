@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: Используйте шаблоны Microsoft Teams в консоли администрирования, чтобы быстро и легко создавать группы, предоставляя готовый шаблон параметров, каналов и приложений.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136147"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171093"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Использование шаблонов здравоохранения в Teams на консоли администрирования
 
@@ -40,7 +40,6 @@ ms.locfileid: "48136147"
 
  Рационализация общения и совместной работы в любой среде, а также в других модулях или в сфере. Шаблон можно использовать для упрощения управления пациентами, а также для выполнения производственных задач.
 
-
 | Тип базового шаблона |baseTemplateId| Свойства, которые поставляются с этим базовым шаблоном |
 | ------------------ |---|----------------------------------------------------- |
 | Совместная работа над уходом пациента |`healthcareWard` | Дистрибутор<ul><li>Общий</li><li>Обслуживании</li><li>Huddles</li><li>До</li><li>Штата</li><li>Обучение</li></ul> Приложения <ul><li>Узел</li>|
@@ -52,7 +51,7 @@ ms.locfileid: "48136147"
 
 | Тип базового шаблона |baseTemplateId | Свойства, которые поставляются с этим базовым шаблоном |
 | ------------------|-- |----------------------------------------------------- |
-|Больница|` healthcareHospital`|Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Соответствие требованиям</li><li>Custodial</li><li>Человеческие ресурсы</li><li>Pharmacy</li></ul> Приложения <ul><li>Узел</li></ul>|
+|Больница|`healthcareHospital`|Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Соответствие требованиям</li><li>Custodial</li><li>Человеческие ресурсы</li><li>Pharmacy</li></ul> Приложения <ul><li>Узел</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Статьи по теме

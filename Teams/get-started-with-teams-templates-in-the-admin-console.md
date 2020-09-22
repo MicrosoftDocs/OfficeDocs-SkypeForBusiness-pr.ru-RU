@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135873"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171103"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Начало работы с шаблонами групп на консоли администрирования
 
@@ -74,7 +74,7 @@ ms.locfileid: "48135873"
 | Тип базового шаблона | baseTemplateId | Свойства, которые поставляются с этим базовым шаблоном |
 | ------------------ |----|----------------------------------------------------- |
 | Принятие Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Лидераминый угол</li> <li>Командные формы</li></ul> Приложения <ul><li>Узел</li>  <li>Календарь</li> |
-| Управление проектом |`com.microsoft.teams.template.ManageAnEvent`| Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Ресурсам</li> <li>Планирование</li></ul> Приложения<ul><li>Узел</li><li>OneNote</li></ul> |
+| Управление проектом |`com.microsoft.teams.template.ManageAProject`| Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Ресурсам</li> <li>Планирование</li></ul> Приложения<ul><li>Узел</li><li>OneNote</li></ul> |
 | Управление событием|`com.microsoft.teams.template.ManageAnEvent` | Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и пр.</li></ul> Приложения<ul><li>Узел</li><li>Веб-сайта</li> <li>YouTube</li> <li>Планировщик</li> <li>OneNote</li></ul> |
 |Встроенные сотрудники|`com.microsoft.teams.template.OnboardEmployees` | Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Чат для сотрудников</li> <li>Обучение</li></ul>Приложения<ul><li>Узел</li><li>Обществен</li></ul>|
 |Организация службы поддержки| `com.microsoft.teams.template.OrganizeHelpDesk`|Дистрибутор<ul><li>Общий</li><li>Обслуживании</li><li>Вопросы и ответы</li></ul>Приложения<ul><li>Узел</li><li>OneNote</li></ul> |

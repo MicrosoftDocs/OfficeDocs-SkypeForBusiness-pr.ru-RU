@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820333"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177229"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -78,7 +78,7 @@ ms.locfileid: "47820333"
 ![Снимок экрана с диалоговом окном "Оповещение системы безопасности Windows".](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Конфигурация брандмауэра Windows будет изменена, даже если закрыть запрос, нажав кнопку "Отмена". Создаются два правила входящего трафика для teams.exe с действием блокировки для протоколов TCP и UDP.
+> Конфигурация брандмауэра Windows будет изменена, даже если закрыть запрос, нажав кнопку "Отмена". Два правила для входящих подключений для teams.exe будут создаваться с разрешенными действиями для протоколов TCP и UDP.
 
 Если вы хотите запретить группам создавать правила брандмауэра, когда пользователи выполняют первый вызов из Teams, используйте [образец правила брандмауэра для входящего трафика PowerShell](#sample-powershell-script---inbound-firewall-rule) . 
 

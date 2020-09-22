@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177527"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -38,26 +38,23 @@ ms.locfileid: "46583897"
     |Порты     |UDP-порты <strong>3478</strong> – <strong>3481</strong>        |
     |[IP-адреса](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>и <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> Если вам нужно включить федерацию в Skype для бизнеса (локально или в сети), вам потребуется настроить некоторые дополнительные DNS-записи.
->
->|Записи CNAME/имя узла  |TTL  |Указывает на адрес или значение  |
->|---------|---------|---------|
->|Установка     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > Если вам нужно включить федерацию в Skype для бизнеса (локально или в сети), вам потребуется настроить некоторые дополнительные DNS-записи.
+    >
+    >|Записи CNAME/имя узла  |TTL  |Указывает на адрес или значение  |
+    >|---------|---------|---------|
+    >|Установка     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  У вас есть проверенный домен для Microsoft 365 или Office 365 (например, contoso.com)?
     
-      - Если в вашей организации не установлен Microsoft 365 или Office 365, ознакомьтесь со [статьей начало работы](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-      - Если ваша организация не добавила или не настроила проверенный домен для Microsoft 365 или Office 365, ознакомьтесь с разделами [вопросы и ответы о доменах](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - Если в вашей организации не установлен Microsoft 365 или Office 365, ознакомьтесь со [статьей начало работы](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - Если ваша организация не добавила или не настроила проверенный домен для Microsoft 365 или Office 365, ознакомьтесь с разделами [вопросы и ответы о доменах](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Была ли ваша организация развернута Exchange Online и SharePoint Online?
     
-      - Если в вашей организации нет Exchange Online, ознакомьтесь [со сведениями о взаимодействии Exchange и Microsoft Teams](exchange-teams-interact.md).
-      - Если в вашей организации нет SharePoint Online, ознакомьтесь [со сведениями о том, как SharePoint Online и OneDrive для бизнеса могут взаимодействовать с Microsoft Teams](sharepoint-onedrive-interact.md).
+    - Если в вашей организации нет Exchange Online, ознакомьтесь [со сведениями о взаимодействии Exchange и Microsoft Teams](exchange-teams-interact.md).
+    - Если в вашей организации нет SharePoint Online, ознакомьтесь [со сведениями о том, как SharePoint Online и OneDrive для бизнеса могут взаимодействовать с Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Убедившись в том, что вы отвечаете на эти сетевые требования, вы можете подготовиться к [развертыванию групп](How-to-roll-out-teams.md). Если вы используете крупную многонациональной среде или знаете, что у вас есть ограничения сети, прочтите сведения о том, как оценивать и оптимизировать сеть для Teams.
 
@@ -122,7 +119,7 @@ ms.locfileid: "46583897"
 </tr>
 <tr class="even">
 <td>Настройка VPN с разделением туннеля</td>
-<td><p>Мы рекомендуем предоставить альтернативный путь к трафику Teams, минуя виртуальную частную сеть (VPN), которая обычно называется " [разделенный туннельный VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)". Раздельное туннелирование означает, что трафик для Microsoft 365 или Office 365 не проходит через виртуальную частную сеть, а вместо этого отправляется непосредственно в Microsoft 365 или Office 365. Обходясь в сети VPN, вы получите положительное влияние на качество Teams, и оно сокращает нагрузку с VPN-устройств и в сеть Организации. Чтобы внедрить VPN с разделенными туннелями, работайте с поставщиком VPN.</p>
+<td><p>Мы рекомендуем предоставить альтернативный путь к трафику Teams, минуя виртуальную частную сеть (VPN), которая обычно называется " <a href="https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing">разделенный туннельный VPN</a>". Раздельное туннелирование означает, что трафик для Microsoft 365 или Office 365 не проходит через виртуальную частную сеть, а вместо этого отправляется непосредственно в Microsoft 365 или Office 365. Обходясь в сети VPN, вы получите положительное влияние на качество Teams, и оно сокращает нагрузку с VPN-устройств и в сеть Организации. Чтобы внедрить VPN с разделенными туннелями, работайте с поставщиком VPN.</p>
 <p>Другие причины, по которым мы рекомендуем исключить VPN:
 <ul>
 <li><p>Обычно виртуальные частные сети не разрабатываются и не настроены для поддержки мультимедиа в реальном времени.</p></li> 

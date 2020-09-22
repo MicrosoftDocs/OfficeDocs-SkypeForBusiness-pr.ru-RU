@@ -17,17 +17,17 @@ description: Соединители предоставляют команде а
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582476"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177219"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Использование Microsoft 365 и настраиваемых соединителей в Microsoft Teams
 =======================================================
 
-Соединительные линии своевременно заставляют вашу команду за счет часто используемых обновлений контента и служб прямо в канале. С помощью соединителей пользователи Microsoft Teams смогут получать обновления из популярных служб, таких как Twitter, Trello, Wunderlist, GitHub и Azure DevOps, в потоке чата в их команде.
+Соединительные линии своевременно заставляют вашу команду за счет часто используемых обновлений контента и служб прямо в канале. С помощью соединителей пользователи Microsoft Teams смогут получать обновления из популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps, в потоке чата в их команде.
 
 Любой участник команды может подключить свою команду к популярным облачным службам с соединителями, если разрешены разрешения для группы, и все участники группы уведомлены о действиях, выполняемых этой службой. Соединительные линии будут продолжать работать даже после того, как пользователь, который их первоначально найдет, оставил. Любой участник группы с разрешениями на разрешение на присоединение может изменять настройку соединителей другими участниками.
 
@@ -40,19 +40,23 @@ ms.locfileid: "46582476"
 
 1. Чтобы добавить соединительную линию в канал, щелкните **многоточие (...)** справа от имени канала и выберите пункт **соединители**.
 
-    ![Снимок экрана: интерфейс Teams с выбранным параметром "соединители".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Снимок экрана: интерфейс Teams с выбранным параметром "соединители".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2. Вы можете выбрать один из доступных соединителей, а затем нажать кнопку **Добавить**.
 
-    ![Снимок экрана: диалоговое окно "соединители", показывающее Доступные соединительные линии.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Снимок экрана: диалоговое окно "соединители", показывающее Доступные соединительные линии.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. Укажите требуемые данные о соединителе и нажмите кнопку **Сохранить**. Для правильной работы соединителям требуется самая разнообразная информация, а некоторым — еще и вход пользователя в службу по ссылкам на странице конфигурации соединителя.
 
-    ![Снимок экрана страницы конфигурации для соединителя RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Снимок экрана страницы конфигурации для соединителя RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. Предоставляемые соединителем данные автоматически публикуются в канале.
 
-    ![Снимок экрана интерфейса Teams с беседой в канале.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Снимок экрана интерфейса Teams с беседой в канале.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Разработка настраиваемых соединителей
 ----------------------------
