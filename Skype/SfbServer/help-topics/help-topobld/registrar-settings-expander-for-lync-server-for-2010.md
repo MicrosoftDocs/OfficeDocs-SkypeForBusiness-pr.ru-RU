@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 'Вы изменяете параметры устойчивости и конфигурируете следующие свойства:'
-ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Измените параметры для функции Устойчивость и настройте следующие свойства:'
+ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819341"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217180"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="09121-103">Расширитель настроек регистратора для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="09121-103">Registrar Settings Expander for Lync Server for 2010</span></span>
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a><span data-ttu-id="e63d7-103">Расширитель настроек регистратора для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="e63d7-103">Registrar Settings Expander for Lync Server for 2010</span></span>
  
-<span data-ttu-id="09121-104">Вы изменяете параметры **устойчивости** и конфигурируете следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="09121-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="e63d7-104">Измените параметры для функции **Устойчивость** и настройте следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="e63d7-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
   
-- <span data-ttu-id="09121-105">Выберите из списка **связанный пул регистратора резервного копирования** .</span><span class="sxs-lookup"><span data-stu-id="09121-105">Select **Associated backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="e63d7-105">Выберите в списке значение **Связанный пул резервного регистратора**.</span><span class="sxs-lookup"><span data-stu-id="e63d7-105">Select **Associated backup Registrar pool** from the list.</span></span>
     
-    <span data-ttu-id="09121-106">При необходимости установите флажок **Автоматический переход на другой ресурс и восстановление при сбое для голоса** .</span><span class="sxs-lookup"><span data-stu-id="09121-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="e63d7-106">При необходимости установите флажок **Автоматическая обработка отказов и восстановление после отказа для голосовой связи**.</span><span class="sxs-lookup"><span data-stu-id="e63d7-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
     
-    <span data-ttu-id="09121-107">Настройка **интервала обнаружения сбоев голосовой связи (сек)** и **интервала восстановления для передачи голоса (в секундах)**.</span><span class="sxs-lookup"><span data-stu-id="09121-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="09121-108">По умолчанию интервалы 120 секунд для обнаружения ошибок голосовой связи и 240 секунд для передачи голоса.</span><span class="sxs-lookup"><span data-stu-id="09121-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="e63d7-p101">Настройте параметры **Интервал обнаружения неполадок голосовой связи (сек)** и **Интервал восстановления после сбоя голосовой связи (сек)**. По умолчанию эти значения составляют 120 секунд для интервала обнаружения неполадок голосовой связи и 240 секунд для интервала восстановления после сбоя голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="e63d7-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
     
     > [!CAUTION]
-    > <span data-ttu-id="09121-109">Количество секунд, которое вы определяете для интервалов отработки отказа и восстановления, должно быть тщательно протестировано для обеспечения правильной работы устойчивости.</span><span class="sxs-lookup"><span data-stu-id="09121-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="09121-110">Если задать для интервала значение низкий (то есть менее 120 секунд), а отработка отказа и восстановление после сбоя не работают должным образом, может возникнуть фактическая отработка отказа и восстановление размещения.</span><span class="sxs-lookup"><span data-stu-id="09121-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
+    > <span data-ttu-id="e63d7-p102">Следует тщательно протестировать задаваемые значения интервалов обнаружения неполадок и восстановления после сбоя, чтобы гарантировать правильную работу функции устойчивости. Задание слишком малого интервала (менее 120 секунд) или незначительно различающихся интервалов обнаружения неполадок и восстановления после сбоя может привести к неправильной работе соответствующих функций.</span><span class="sxs-lookup"><span data-stu-id="e63d7-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span> 
   
-  <span data-ttu-id="09121-111">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="09121-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="e63d7-111">При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="e63d7-111">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="09121-112">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="09121-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="e63d7-112">При нажатии кнопки **Отмена** изменения отменяются, а диалоговое окно закрывается.</span><span class="sxs-lookup"><span data-stu-id="e63d7-112">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="09121-113">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="09121-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="e63d7-113">При нажатии кнопки **Справка** отображается данный экран справки.</span><span class="sxs-lookup"><span data-stu-id="e63d7-113">**Help** Displays this help screen.</span></span>
   
 

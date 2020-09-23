@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeLandingPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
-description: На странице "Настройка Edge" можно настроить старые данные пограничного сервера. Нажмите кнопку Добавить, чтобы указать версию устаревшего пограничного сервера для развертывания Office Communications Server. Если у вас нет пограничных серверов в устаревшей среде, нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 189ae2d1cb611b553af349c68def5b347634fb10
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Страница Укажите установочную программу пограничного сервера позволяет настроить данные устаревшего пограничного сервера. Нажмите кнопку Добавить, чтобы указать версию устаревшего пограничного сервера в существующем развертывании Office Communications Server. При отсутствии каких-либо пограничных серверов в устаревшей среде нажмите кнопку Далее, чтобы перейти к дальнейшим действиям.
+ms.openlocfilehash: d4aafec68e481749b0fda4f35e50194bf406d8cb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819751"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218130"
 ---
-# <a name="legacy-merge-landing"></a><span data-ttu-id="f4879-105">Устаревшая площадка объединения</span><span class="sxs-lookup"><span data-stu-id="f4879-105">Legacy Merge Landing</span></span>
+# <a name="legacy-merge-landing"></a><span data-ttu-id="35090-105">Устаревшая площадка объединения</span><span class="sxs-lookup"><span data-stu-id="35090-105">Legacy Merge Landing</span></span>
  
-<span data-ttu-id="f4879-106">На странице " **Настройка Edge** " можно настроить старые данные пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="f4879-106">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information.</span></span> <span data-ttu-id="f4879-107">Нажмите кнопку **Добавить** , чтобы указать версию устаревшего пограничного сервера для развертывания Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="f4879-107">Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment.</span></span> <span data-ttu-id="f4879-108">Если у вас нет пограничных серверов в устаревшей среде, нажмите кнопку **Далее** , чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="f4879-108">If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
+<span data-ttu-id="35090-p102">Страница **Укажите установочную программу пограничного сервера** позволяет настроить данные устаревшего пограничного сервера. Нажмите кнопку **Добавить**, чтобы указать версию устаревшего пограничного сервера в существующем развертывании Office Communications Server. При отсутствии каких-либо пограничных серверов в устаревшей среде нажмите кнопку **Далее**, чтобы перейти к дальнейшим действиям.</span><span class="sxs-lookup"><span data-stu-id="35090-p102">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information. Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment. If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
   
 

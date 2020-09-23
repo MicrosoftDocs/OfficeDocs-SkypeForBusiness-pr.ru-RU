@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddArchivingServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
-description: Для развертывания сервера архивации в топологической схеме необходимо указать полное доменное имя сервера, на котором требуется развернуть компонент архивации. Прежде чем публиковать топологию, в которую входит Архивация и установка Skype для бизнеса Server, необходимо выполнить все необходимые условия для развертывания архивирования.
-ms.openlocfilehash: 82a34d08828f2adee2f9f90fc952e4ef7cabd2e4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Чтобы развернуть сервер архивации в топологии, необходимо указать полное доменное имя сервера, на котором будет развернут компонент архивации. Перед публикацией топологии, включающей в себя архивацию и установку Skype для бизнеса Server, необходимо выполнить все необходимые условия для развертывания архивации.
+ms.openlocfilehash: 34e8b612963c691234d205afa38994fc18631d5f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821281"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217380"
 ---
-# <a name="add-archiving-server"></a><span data-ttu-id="470e8-104">Добавление сервера архивации</span><span class="sxs-lookup"><span data-stu-id="470e8-104">Add Archiving Server</span></span>
+# <a name="add-archiving-server"></a><span data-ttu-id="bb811-104">Добавление сервера архивации</span><span class="sxs-lookup"><span data-stu-id="bb811-104">Add Archiving Server</span></span>
  
-<span data-ttu-id="470e8-105">Для развертывания сервера архивации в топологической схеме необходимо указать полное доменное имя сервера, на котором требуется развернуть компонент архивации.</span><span class="sxs-lookup"><span data-stu-id="470e8-105">To deploy an Archiving Server into your topology design, you need to specify the fully qualified domain name (FQDN) of the server on which you want to deploy Archiving.</span></span> <span data-ttu-id="470e8-106">Прежде чем публиковать топологию, в которую входит Архивация и установка Skype для бизнеса Server, необходимо выполнить все необходимые условия для развертывания архивирования.</span><span class="sxs-lookup"><span data-stu-id="470e8-106">Prior to publishing a topology that includes Archiving and installing Skype for Business Server, you should have completed all prerequisites for deploying Archiving.</span></span> 
+<span data-ttu-id="bb811-105">Чтобы развернуть сервер архивации в топологии, необходимо указать полное доменное имя сервера, на котором будет развернут компонент архивации.</span><span class="sxs-lookup"><span data-stu-id="bb811-105">To deploy an Archiving Server into your topology design, you need to specify the fully qualified domain name (FQDN) of the server on which you want to deploy Archiving.</span></span> <span data-ttu-id="bb811-106">Перед публикацией топологии, включающей в себя архивацию и установку Skype для бизнеса Server, необходимо выполнить все необходимые условия для развертывания архивации.</span><span class="sxs-lookup"><span data-stu-id="bb811-106">Prior to publishing a topology that includes Archiving and installing Skype for Business Server, you should have completed all prerequisites for deploying Archiving.</span></span> 
   
 
