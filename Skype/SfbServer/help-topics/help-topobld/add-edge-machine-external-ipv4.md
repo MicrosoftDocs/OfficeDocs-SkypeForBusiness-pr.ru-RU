@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv4Page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
-description: В поле External IPv4 введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge.
-ms.openlocfilehash: 8b2e3ee26c67709d6777ef7d6ca631035da25ab1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: В поле внешний адрес IPv4 введите внешний IP-адрес, указывающий на службу пограничного сервера доступа, пограничный сервер веб-конференций и пограничная служба аудио-и видеоконференций.
+ms.openlocfilehash: 488c206b8a6c83c675d20fb1f80fea3bd51774bb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821161"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219430"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="c8961-103">Добавление внешнего IPv4-адреса пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="c8961-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="fe0ce-103">Добавление внешнего IPv4-адреса пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="fe0ce-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="c8961-104">В поле **External IPv4**введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge.</span><span class="sxs-lookup"><span data-stu-id="c8961-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="fe0ce-104">В поле **внешний адрес IPv4**введите внешний IP-адрес, указывающий на службу пограничного сервера доступа, пограничный сервер веб-конференций и пограничная служба аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="fe0ce-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 
