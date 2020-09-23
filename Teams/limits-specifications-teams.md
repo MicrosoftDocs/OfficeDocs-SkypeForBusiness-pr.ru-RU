@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897699"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203732"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -119,6 +119,9 @@ ms.locfileid: "46897699"
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
 |Максимальный размер файла PowerPoint | 2 ГБ|
 |Teams хранит [записи собраний](cloud-recording.md), которые не отправляются в Microsoft Stream и доступны для скачивания | 20 дней |
+
+>[!Note]
+> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний.
 
 ### <a name="meeting-expiration"></a>Окончание срока действия собрания
 
