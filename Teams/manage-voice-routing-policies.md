@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ''
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как создавать политики голосовой маршрутизации и управлять ими в Microsoft Teams.
-ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938135"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217660"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Управление политиками голосовой маршрутизации в Microsoft Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "44938135"
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Voice**  >  **политики маршрутизации голосовой голосовой связи**и нажмите кнопку **Добавить**.<br>
-    ![Снимок экрана: страница "Добавление политики голосовой маршрутизации" в центре администрирования Microsoft Teams](media/manage-voice-routing-policies.png) 
+    ![Снимок экрана: страница "Добавление политики голосовой маршрутизации" в центре администрирования Microsoft Teams ](media/manage-voice-routing-policies.png) 
 2. Введите имя и описание для политики.
 3. В разделе **записи использования PSTN**щелкните **Добавить использование КТСОП**и выберите записи, которые вы хотите добавить. Если вам нужно создать новую запись использования КТСОП, нажмите кнопку **Добавить**.
 4. Если вы добавили несколько записей PSTN Usage, расположите их в нужном порядке.

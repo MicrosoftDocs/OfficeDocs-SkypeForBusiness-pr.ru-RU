@@ -8,33 +8,33 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
-description: 'Мастер определения нового сервера Office Web Apps определяет новый сервер Office Web Apps в развертывании. You fill in the following information:'
-ms.openlocfilehash: 9f0d9680e57dd55b0a4370364aff23c7f37f57a4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Мастер определения нового сервера Office Web Apps определяет новый сервер Office Web Apps в развертывании. Следует указать следующие сведения.
+ms.openlocfilehash: 9e1726ea4b536e46fdbca5ec3eddce25358cbbbb
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820721"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218730"
 ---
 # <a name="add-office-web-apps-server"></a>Добавление сервера Office Web Apps
 
-Мастер **определения нового сервера Office Web Apps** определяет новый сервер Office Web Apps в развертывании. You fill in the following information:
+Мастер **определения нового сервера Office Web Apps** определяет новый сервер Office Web Apps в развертывании. Следует указать следующие сведения.
 
- **Доменное имя сервера Office Web Apps**: введите полное доменное имя сервера, на котором будет размещен сервер Office Web Apps.
+ ПОЛНОЕ доменное имя **сервера Office Web Apps**: введите полное доменное имя сервера, на котором будет размещаться сервер Office Web Apps.
 
- **URL-адрес обнаружения сервера Office Web Apps**: введите полный URL-адрес сервера Office Web Apps.
+ **URL-адрес обнаружения сервера Office Web Apps**: введите полный URL-адрес сервера Office Web Apps (URL-адрес)
 
 > [!TIP]
-> По умолчанию URL- **адрес обнаружения сервера Office Web Apps** — создание URL-адреса на основе полного доменного имени сервера Office Web Apps в формате: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In most cases you will not need to change the default format. Возможно, потребуется изменить формат по умолчанию в случае, если URL-адрес сервера Office Web Apps и веб-сайта Office Web Apps не должен отличаться. Например, сервер Office Web Apps размещается в демилитаризованной зоне, и его URL-адрес будет отличаться в зависимости от расположения.
+> По умолчанию URL- **адрес обнаружения сервера Office Web Apps** используется для создания URL-адреса на основе полного доменного имени сервера Office Web Apps в формате: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . В большинстве случаев нет необходимости изменять формат по умолчанию. Возможно, потребуется изменить формат по умолчанию в случае, если сервер Office Web Apps и URL-адрес обнаружения сервера Office Web Apps должны различаться. Например, сервер Office Web Apps размещается в сети периметра и будет иметь другой URL-адрес на основе расположения.
 
- **Сервер Office Web Apps развернут во внешней сети (то есть в сети периметра/Интернет)**: установите флажок, если сервер Office Web Apps размещается за пределами вашего внутреннего брандмауэра, например с демилитаризованной зоной, внешней сетью или другой сетевой зоной, не совпадающей с внутренней сетью.
+ **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**: Установите этот флажок, если сервер Office Web Apps размещен за пределами внутреннего брандмауэра, такого как демилитаризованная зона, внешняя сеть или другая зона сети, не совпадающую с внутренней сетью.
 
 ## <a name="see-also"></a>См. также
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Компоненты и топологии для конференц-связи](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
