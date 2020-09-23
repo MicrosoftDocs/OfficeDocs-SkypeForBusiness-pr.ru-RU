@@ -16,18 +16,21 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766913"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203972"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
 В Microsoft Teams пользователи могут записывать свои собрания Teams и групповые звонки. Можно записывать звук, видео и действия демонстрации экрана. Существует возможность записи с автоматической расшифровкой аудиозаписей, чтобы пользователи могли воспроизводить записи собрания с субтитрами и искать важные элементы обсуждения в расшифровке. Запись происходит в облаке и сохраняется в [Microsoft Stream](https://docs.microsoft.com/stream/), поэтому пользователи могут безопасно делиться ею со своей организацией.
 
 Связанные: [документация конечного пользователя записи собрания Teams](https://aka.ms/recordmeeting)
+
+>[!Note]
+> Поэтапный подход к изменению с помощью Microsoft Stream для [OneDrive для бизнеса и SharePoint для записей собраний](tmr-meeting-recording-change.md) . На начальном этапе вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и на раннем этапе 2021 мы постараемся, чтобы все пользователи были в OneDrive для бизнеса и SharePoint для записей собраний.
 
 > [!NOTE]
 > Сведения об использовании ролей в собраниях Teams и о том, как изменить роли пользователей, можно найти [в разделе роли в собрании Teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).

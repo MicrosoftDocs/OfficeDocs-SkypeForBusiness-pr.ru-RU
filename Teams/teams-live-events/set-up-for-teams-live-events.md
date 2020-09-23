@@ -17,12 +17,12 @@ description: Подготовьте трансляции в Teams, включа�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 0e2d35152ae8a840a6e0c0943144380e7169fe8b
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820533"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203942"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Подготовка к трансляциям в Microsoft Teams
 
@@ -79,7 +79,10 @@ ms.locfileid: "47820533"
 
 1. Включить Microsoft Stream для пользователей в организации. Поток доступен как часть подходящих подписок Microsoft 365 или Office 365 или как самостоятельная служба. Stream не входит в планы бизнес базовый и бизнес премиум. Дополнительные сведения см. в статье [Общие сведения о лицензировании Stream](https://docs.microsoft.com/stream/license-overview).
 
-      Узнайте больше о том, как [назначать лицензии пользователям](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) , чтобы они могли получать доступ к потоку. Убедитесь, что Stream не заблокирован для пользователей, как определено в [этой статье](https://docs.microsoft.com/stream/disable-user-organization).
+>[!Note]
+> Поэтапный подход к изменению с помощью Microsoft Stream для [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) . На этапе запуска вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и в некоторых случаях на раннем этапе 2021 мы постараемся, чтобы все пользователи могли использовать OneDrive для бизнеса и SharePoint для новых записей о собраниях.
+
+      Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Убедитесь, что у пользователей есть разрешение на создание трансляций в Stream. По умолчанию администраторы могут создавать трансляции с помощью внешнего приложения или устройства. Администратор Stream может [разрешить дополнительным пользователям создавать трансляции](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) в Stream.  
 

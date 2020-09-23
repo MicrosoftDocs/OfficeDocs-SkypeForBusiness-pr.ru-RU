@@ -8,32 +8,32 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: Вы можете настроить пул следующего прыжка для постоянного чата, выбрав сервер переднего плана или пул переднего плана из списка.
-ms.openlocfilehash: db729901a1df53fd3c69b0dec626a4add628bc5e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Пул следующего прыжка сохраняемого чата настраивается путем выбора сервера переднего плана или интерфейсного пула из списка.
+ms.openlocfilehash: 32e8b8ab0e2427458b42d58e08b99e845481630f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819461"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215970"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Расширитель параметров следующего скачка сохраняемого чата
  
-Вы можете настроить **пул следующего прыжка** для постоянного чата, выбрав сервер переднего плана или пул переднего плана из списка.
+**Пул следующего прыжка** сохраняемого чата настраивается путем выбора сервера переднего плана или интерфейсного пула из списка.
   
- **ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.
+ При нажатии кнопки **ОК** выполняется принятие и сохранение изменений в этом диалоговом окне.
   
- **Отмена**. Отмена изменений и закрытие диалогового окна.
+ При нажатии кнопки **Отмена** изменения отменяются, а диалоговое окно закрывается.
   
- **Справка**. Отображение этого экрана справки.
+ При нажатии кнопки **Справка** отображается данный экран справки.
   
 ## <a name="see-also"></a>См. также
 
-[Планирование для сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Планирование сервера сохраняемого чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Добавление постоянного сервера чата в топологию 2015 в Skype для бизнеса Server](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Добавление сервера сохраняемого чата к топологии Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203722"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -31,6 +31,9 @@ ms.locfileid: "46581360"
 Владельцы и участники команды могут добавлять вкладки в канал, приватный чат или групповой чат для интеграции с соответствующими облачными службами. С помощью вкладок можно легко получать доступ к нужным данным и управлять ими, а также работать с ними. Это может быть отчет Power BI, панель мониторинга и даже видеоканал [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785), где вы публикуете обучающие ролики.
 
 ![Три снимка экрана с различным содержимым на вкладках.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> Поэтапный подход к изменению с помощью Microsoft Stream для [OneDrive для бизнеса и SharePoint для записей собраний](tmr-meeting-recording-change.md) . На этапе запуска вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и в некоторых случаях на раннем этапе 2021 мы постараемся, чтобы все пользователи могли использовать OneDrive для бизнеса и SharePoint для новых записей о собраниях.
 
 ## <a name="work-with-tabs"></a>Работа с вкладками
 
