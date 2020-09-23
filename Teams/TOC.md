@@ -113,6 +113,7 @@
 # Приложения, боты и соединители
 
 ## [Обзор](deploy-apps-microsoft-teams-landing-page.md)
+## [Интеграция с Power Platform](teams-power-platfom-integration.md)
 ## [Управление приложениями для Teams](manage-apps.md)
 ## [Параметры администратора для приложений в Teams](admin-settings.md)
 ## [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [Собрания Teams в неподдерживаемых браузерах](unsupported-browsers.md)
 ## [Настройка совместного доступа к рабочему столу в Teams](configure-desktop-sharing.md)
 ## [Запись собрания Teams в облаке](cloud-recording.md)
+## [Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний](tmr-meeting-recording-change.md)
 ## [Интеграция центра контактов](teams-contact-center.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Облако видеовзаимодействия](cloud-video-interop.md)
 
 ## Прямые трансляции
@@ -293,14 +294,15 @@
 #### [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Автосекретари и очереди вызовов 
-#### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
-#### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
+#### [Планирование](plan-auto-attendant-call-queue.md)
+#### [Настройка автосекретаря](create-a-phone-system-auto-attendant.md)
+#### [Настройка очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Пример для малого бизнеса: настройка автосекретаря](tutorial-org-aa.yml)
 #### [Пример для малого бизнеса: настройка очереди вызовов](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Управление учетными записями ресурсов Teams](manage-resource-accounts.md)
-#### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Настройка праздников](set-up-holidays-in-teams.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Справочник набора номера и голосовых вызовов](dial-voice-reference.md)
 
 ### [Блокировка входящих звонков](block-inbound-calls.md)
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
