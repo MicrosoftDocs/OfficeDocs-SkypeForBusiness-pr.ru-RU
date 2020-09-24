@@ -16,22 +16,22 @@ search.appverid: MET150
 description: Используйте эти инструкции для того, чтобы помочь удаленно работающим сотрудникам вашей организации эффективно трудиться с применением Microsoft Teams, особенно если они работают дома в связи со вспышкой эпидемии COVID-19 (коронавируса).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583818"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235827"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Поддержка удаленных сотрудников с помощью Microsoft Teams
 
-Ваша организация хочет начать работу с Microsoft Teams, чтобы поддержать пользователей, работающих дистанционно или дома? Следуйте инструкциям, приведенным в этой статье, чтобы скорее приступить к работе.
+Ваша организация хочет использовать Microsoft Teams, чтобы поддержать пользователей, работающих удаленно или из дома? Следуйте инструкциям, приведенным в этой статье, чтобы скорее приступить к работе.
 
 Если у вас бизнес малого или среднего размера, то рассмотрите [Повышение эффективности малого бизнеса с помощью возможностей удаленной работы](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Инструкции для ИТ-администраторов
 
-- Убедитесь, что у всех есть доступ к Teams с помощью [платной подписки, включающей Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Кроме того, соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
+- Убедитесь, что у всех есть доступ к Teams в рамках [платной подписки, включающей Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). В качестве варианта соответствующие организации могут использовать **[бесплатную версию Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** или сотрудники могут активировать интерфейс **[Teams Exploratory](teams-exploratory.md)**.
 
 -  Если у вас уже есть подписка, включающая Teams, **[включите ее для всех](user-access.md)**.
     
@@ -40,7 +40,7 @@ ms.locfileid: "46583818"
 Дополнительные сведения см. в статье [Дополнительные ресурсы для поддержки удаленных сотрудников](#additional-resources-for-supporting-remote-workers), приведенной ниже.
 
 
-## <a name="end-user-communications"></a>Связь с пользователями
+## <a name="end-user-communications"></a>Связь с конечными пользователями
 
 Вы готовы к развертыванию Teams для своих пользователей? Получите **[Комплект клиента](https://aka.ms/TeamsCustomerSuccess)**, содержащий перечисленные ниже практичные шаблоны сообщений электронной почты.
 
@@ -74,7 +74,7 @@ ms.locfileid: "46583818"
    - [Как корпорация Майкрософт поддерживает удаленную работу своих сотрудников с помощью Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Помощь малым и средним предприятиями с удаленной работой в Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [9 основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивает удаленную работу для своих сотрудников](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Девять основных способов, с помощью которых ИТ-специалисты Майкрософт обеспечивают удаленную работу для своих сотрудников](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams для образовательных учреждений 
@@ -82,7 +82,7 @@ ms.locfileid: "46583818"
 
    - Не пропустите статью [Начало работы с Teams для удаленного обучения](remote-learning-edu.md).
 
-1. Убедитесь, что у сотрудников есть соответствующий доступ к Интернету и пропускная способность для Teams. Чтобы узнать, как это сделать, используйте инструкции из статьи [Подготовка сети организации к использованию Teams](prepare-network.md).
+1. Убедитесь, что у сотрудников есть соответствующий доступ к Интернету и пропускная способность для Teams. Чтобы узнать, как обеспечить подходящую пропускную способность, используйте инструкции из статьи [Подготовка сети организации к использованию Teams](prepare-network.md).
 
    - Ограниченная пропускная способность может влиять на качество звука в собраниях Teams. Чтобы обеспечить оптимальную работу собраний в условиях низкой пропускной способности, рекомендуйте пользователям ограничить видео и использовать ТСОП для звонков и звука собрания. 
 
@@ -128,13 +128,13 @@ ms.locfileid: "46583818"
       
       - [Удаленная работа с Teams](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Блог Teams (28 февраля 2020 г.): [4 совета по работе из дома с помощью Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Блог Teams (28 февраля 2020 г.): [Четыре совета по работе из дома с помощью Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Совместная работа с Microsoft 365 или Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Удаленная работа с помощью Microsoft 365 или Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [9 советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
+      - [Девять советов по удаленной работе](https://www.microsoft.com/tips/home/working-remotely)
 
       - Видео Сатьи Наделлы и руководителя по маркетингу продуктов Teams Айи Танге об [использовании Teams для удаленной работы](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (20 марта 2020 г.)
 
@@ -150,7 +150,7 @@ ms.locfileid: "46583818"
     
    - Рассылайте сведения о политиках организации для работы из дома, а также по безопасности и охране труда.
     
-   - Используйте [прямые трансляции](teams-live-events/what-are-teams-live-events.md) для собраний и объявлений в рамках всей компании. Проводите в виде прямых трансляций любые собрания с числом участников больше 250. Включите автоматические субтитры для [собраний](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) и [трансляций](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Дополнительно включите субтитры в трансляции. Эти функции повышают инклюзивность, производительность и понимание. 
+   - Используйте [прямые трансляции](teams-live-events/what-are-teams-live-events.md) для собраний и объявлений в рамках всей компании. Если ваше собрание достигает [ограничений и спецификаций](limits-specifications-teams.md) обычного собрания Teams, превратите его в трансляцию. Включите автоматические субтитры для [собраний](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) и [трансляций](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Включите субтитры в трансляциях. Эти функции повышают инклюзивность, производительность и понимание. 
 
 4.  Наберите сотрудников в свою [службу технической поддержки](troubleshoot-installation.md) для работы с запросами пользователей.
 
@@ -171,7 +171,7 @@ ms.locfileid: "46583818"
 - Попросите звонящего или организатора собрания позвонить вам по ТСОП или номеру мобильного телефона.
 - Присоединяйтесь к звонку или собранию из классических или мобильных клиентов с помощью VoIP.
 
-Если вам нужно отправить запрос в службу поддержки, укажите следующее:
+Если вам нужно отправить запрос в службу поддержки, укажите следующие пункты:
     
 - точное время звонка;
 - набранный номер моста конференц-связи;
