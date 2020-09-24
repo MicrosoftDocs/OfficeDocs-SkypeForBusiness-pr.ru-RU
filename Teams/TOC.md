@@ -9,7 +9,6 @@
 # Обучение
 ## [Обзор](training-microsoft-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
-## [Обучение конечных пользователей для работы с Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Сеансы Teams на Ignite 2020](ignite-2020-landing-page.md)
 ## [Интерактивное обучение Teams](instructor-led-training-teams-landing-page.yml)
 ## [Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [Определения и стандарты RFC](direct-routing-protocols.md)
 ##### [Протокол SIP](direct-routing-protocols-SIP.md)
 ##### [Протоколы мультимедиа](direct-routing-protocols-media.md)
-#### [Настройка бота переключения на удерживаемого абонента](direct-routing-ringback-bot.md)
 #### [Управление политиками маршрутизации голосовой связи](manage-voice-routing-policies.md) 
 
 
