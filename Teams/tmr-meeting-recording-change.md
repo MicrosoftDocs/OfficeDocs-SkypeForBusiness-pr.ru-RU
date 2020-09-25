@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65c0d50686346b715ca7e10b455845927ff22341
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218410"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269643"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
 > [!Note]
-> Поэтапный подход к изменению с помощью Microsoft Stream для OneDrive для бизнеса и SharePoint для записей собраний. На этапе запуска вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и в некоторых случаях на раннем этапе 2021 мы постараемся, чтобы все пользователи могли использовать OneDrive для бизнеса и SharePoint для новых записей о собраниях.
+> Переход с использования Microsoft Stream на OneDrive для бизнеса и SharePoint для записей собраний будет поэтапным процессом. При запуске Администраторы клиентов могут выбрать этот вариант рабочего процесса сегодня и начать просмотр записей с автоматическим добавлением в OneDrive для бизнеса и SharePoint в октябре 2020. В ноябре вам придется отказаться от использования Stream, и на раннем этапе 2021 потребуется, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собрания.
 
 В Microsoft Teams имеется новый способ сохранения записей собраний. Как и в случае с потоком, этот метод использует Microsoft OneDrive и SharePoint в Microsoft 365 и предоставляет множество преимуществ.
 
@@ -53,9 +53,9 @@ ms.locfileid: "48218410"
 - Вы можете управлять тем, кому предоставлен доступ к записи, но вы не сможете блокировать пользователей с общим доступом для загрузки записи.
 - Вы не получите сообщение по электронной почте, когда запись завершит сохранение, но запись появится в разделе чата собрания после ее завершения. Это происходит гораздо быстрее, чем в потоке ранее
 
-Дополнительные сведения смотрите в записях собрания. 
+Дополнительные сведения смотрите в записях собрания.
 
-> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Настройка параметров записи собраний для OneDrive для бизнеса и SharePoint
 

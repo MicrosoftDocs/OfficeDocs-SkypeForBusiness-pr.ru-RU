@@ -17,12 +17,12 @@ description: Сведения о том, как настроить планы з
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321742"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269653"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -141,7 +141,7 @@ ms.locfileid: "47321742"
 
 ## <a name="configure-location-information-service"></a>Настройка службы сведений о расположении
 
-Клиент Teams получает адреса для экстренного реагирования из местоположений, связанных с разными сетевыми идентификаторами. Поддерживаются как подсети, так и точки доступа к беспроводной сети (WAPs). (Ожидается поддержка коммутатора или порта Ethernet.)
+Клиент Teams получает адреса для экстренного реагирования из местоположений, связанных с разными сетевыми идентификаторами. Поддерживаются как подсети, так и точки доступа к беспроводной сети (WAPs). Коммутатор и порт Ethernet поддерживаются в Windows 8,1 и более поздних версий в настоящее время.
 
 Чтобы клиент получил расположение, необходимо заполнить его сетевыми идентификаторами (подсетями, WAPs, коммутаторами, портами) и местами для экстренного реагирования. Это можно сделать в центре администрирования Microsoft Teams или с помощью PowerShell.
 
@@ -216,7 +216,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ERSP для тестовых служб.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>Связанные статьи
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)

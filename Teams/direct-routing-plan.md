@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820643"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262536"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -189,7 +189,9 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - T-Systems International GmbH (Немецкая марка Telekom)
 - QuoVadis
 
-
+Для прямой маршрутизации в Office 365 GCC DoD, сертификат должен быть создан одним из следующих корневых центров сертификации.
+- Корневой ЦС DigiCert Global
+- Корневой центр сертификации высокой надежности DigiCert
 
 > [!NOTE]
 > * Если для соединения Teams в SBC включена поддержка взаимной TLS (MTLS), необходимо установить корневой сертификат Балтимор CyberTrust в доверенном корневом хранилище SBC для контекста служб TLS. (Это связано с тем, что сертификаты служб Microsoft используют корневой сертификат Балтимор). Чтобы загрузить корневой сертификат Балтимор, ознакомьтесь со [цепочкой шифрования Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).

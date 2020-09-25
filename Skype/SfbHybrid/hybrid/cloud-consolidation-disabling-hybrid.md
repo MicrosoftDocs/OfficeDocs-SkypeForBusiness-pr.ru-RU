@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этом приложении содержатся подробные инструкции по отключению гибридной среды в составе облачной консолидации для Teams и Skype для бизнеса.
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221503"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269663"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Отключение гибридной среды для завершения миграции в облако
 
@@ -40,6 +40,8 @@ ms.locfileid: "44221503"
 
 Эти действия необходимо выполнить вместе как единое целое. Подробные сведения приведены ниже. Кроме того, предоставляются рекомендации по управлению номерами телефонов для мигрировавших пользователей, когда локальное развертывание отключено.
 
+После выполнения этих действий локальные серверы Skype для бизнеса больше не используются, и эти серверы могут быть повторно изображены.
+
 > [!Important] 
 >Вы должны продолжить, чтобы атрибуты msRTCSIP в Active Directory синхронизировались через Azure AD Connect в Azure AD.  Не удаляйте эти атрибуты, пока не будет предоставлена поддержка.  Не запускайте параметр Disable – CsUser в локальной среде. Если вам нужно изменить SIP адрес пользователя, сделайте это в локальной службе Active Directory и дополните эту синхронизацию в Azure AD с помощью Azure AD Connect, как описано ниже. Аналогичным образом, если необходимо изменить номер телефона и LineURI пользователя уже определен локально, его следует изменить в локальной службе Active Directory.
 >Удаление локальных атрибутов msRTCSIP после переноса из локальной системы может привести к потере службы для пользователей!
@@ -51,10 +53,10 @@ ms.locfileid: "44221503"
 1.  *Обновление DNS для направления на Microsoft 365 или Office 365.*
 Необходимо обновить внешнюю DNS организации для локальной организации, чтобы записи Skype для бизнеса направлять в Microsoft 365 или Office 365, а не в локальное развертывание. Это означает следующее:
 
-    |Тип записи|Имя|TTL (Срок жизни)|Value (Значение)|
+    |Тип записи|Имя|TTL|Value (Значение)|
     |---|---|---|---|
-    |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. Online. Lync <span> . порта|
-    |SRV|_sip. _tls|3600|100 1 443 sipdir. Online. Lync <span> . порта|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed. Online. Lync <span> . порта|
+    |SRV|_sip._tls|3600|100 1 443 sipdir. Online. Lync <span> . порта|
     |CNAME| lyncdiscover|   3600|   webdir. Online. Lync <span> . порта|
     |CNAME| sip|    3600|   sipdir. Online. Lync <span> . порта|
     |CNAME| Согласно|   3600|   webdir. Online. Lync <span> . порта|
