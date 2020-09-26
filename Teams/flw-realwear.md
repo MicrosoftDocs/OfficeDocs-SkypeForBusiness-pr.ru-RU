@@ -18,28 +18,21 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780578"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262516"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams для RealWear
-
-> [!NOTE]
-> Это функция для предварительного или раннего доступа.
 
 В этой статье рассказывается о клиенте Microsoft Teams для носимых головных устройств RealWear. Работники FirstLine, использующие RealWear HMT-1 и HMT-1Z1, теперь могут сотрудничать с удаленным экспертом, используя видеосвязь в Teams. С помощью голосового интерфейса пользователя Teams для RealWear позволяют работникам на местах оставаться на 100% свободными от рук, сохраняя ситуационную осведомленность в шумной и опасной обстановке. Показывая то, что они видят в режиме реального времени, полевые работники могут ускорить решение проблем и снизить риск дорогостоящих простоев.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Как развернуть Microsoft Teams для RealWear
 
-Клиент Microsoft Teams для RealWear в настоящее время находится в открытом предварительном просмотре. Для участия в этом предварительном просмотре вам потребуется следующее:
-
-Устройства RealWear обновлены до версии 10.5.0 или выше. Больше информации [здесь](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/).
-
-> [!IMPORTANT]
-> Зарегистрируйтесь [здесь](https://www.realwear.com/solutions/microsoft-teams/#C1) для доступа в клиента Teams для RealWear в [RealWear Foresight](https://cloud.realwear.com/).
+- Устройства RealWear обновлены до версии 11.2 или выше. Дополнительные сведения см. [здесь](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/).
+- Доступ к [RealWear Foresight](https://cloud.realwear.com/) для распространения клиента Microsoft Teams для Realwear.
 
 ## <a name="required-licenses"></a>Требуемые лицензии
 
