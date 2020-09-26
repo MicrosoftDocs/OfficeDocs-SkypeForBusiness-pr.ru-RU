@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820613"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286115"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -413,9 +413,15 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 ### <a name="troubleshoot-citrix-components"></a>Устранение неполадок в компонентах Citrix
 
-Сведения о том, как устранять неполадки VDA и CWA, можно найти на [веб-сайте Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams аварийно завершает работу, или экран входа в Teams пуст
 
-## <a name="related-topics"></a>См. также
+Это известная проблема, связанная с Citrix VDA версиями 1906 и 1909. Чтобы устранить эту ошибку, добавьте следующий параметр реестра DWORD и установите для него значение 204 (шестнадцатеричное).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Затем перезапустите VDA. Дополнительные сведения об этом можно найти в статье Служба поддержки Citrix и [Устранение неполадок оптимизации HDX для Teams](https://support.citrix.com/article/CTX253754).
+
+## <a name="related-topics"></a>Связанные статьи
 
 - [Установка Microsoft Teams с помощью MSI](msi-deployment.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

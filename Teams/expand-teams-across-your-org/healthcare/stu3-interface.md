@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Сведения о том, как интегрировать электронные записи о работоспособности в приложение Microsoft Teams пациентов и спецификацию интерфейса STU3.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905751"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277213"
 ---
 # <a name="stu3-interface-specification"></a>Характеристики интерфейса STU3
+
+> [!IMPORTANT]
+> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+>
+>Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
+>
+>[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков благодаря специалистам по карьерным тарифам могут создаваться списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,7 +50,7 @@ ms.locfileid: "43905751"
 > [!NOTE]
 > Ресурс пациент является единственным обязательным ресурсом (без которого приложение не будет загружаться вообще); Тем не менее, рекомендуется, чтобы партнеры реализовали поддержку всех вышеупомянутых ресурсов для спецификаций, указанных ниже, для наилучшего взаимодействия с пользователем в приложении Microsoft Teams пациентов.
 
-Запросы из приложения Microsoft Teams пациентов для более чем одного ресурса должны публиковать набор (пакет) запросов на URL-адрес сервера FHIR. Сервер должен обрабатывать каждый запрос и возвращать набор ресурсов, соответствующих каждому запросу. Дополнительные сведения и примеры можно найти в [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction)разделе.
+Запросы из приложения Microsoft Teams пациентов для более чем одного ресурса должны публиковать набор (пакет) запросов на URL-адрес сервера FHIR. Сервер должен обрабатывать каждый запрос и возвращать набор ресурсов, соответствующих каждому запросу. Дополнительные сведения и примеры можно найти в разделе [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
 
 ## <a name="capability-statement"></a>Оператор возможностей
 
@@ -56,7 +63,7 @@ ms.locfileid: "43905751"
    4. Безопасность: [расширение URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (для нашего кода требуется, чтобы узнать, в какую версию следует поворачивать.)
 
-Дополнительные [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) сведения об этом множестве полей приведены в разделе.
+[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="patient"></a>Подождите
 
@@ -78,11 +85,11 @@ ms.locfileid: "43905751"
 
 1. номер
 2. Family = (Поиск всех пациентов, чье имя семейства не содержало значение)
-3. заданный\<= подстрока>
+3. указанный =\<substring>
 4. Дата рождения = (точное совпадение)
 5. Gender = (значения являются одним из административных пола)
-6. \_Count (максимальное количество возвращаемых результатов) <br> Ответ должен содержать общее количество записей, возвращенных в результате поиска, и \_счетчик будет использоваться PatientsApp, чтобы ограничить количество возвращаемых записей.
-7. Идентификатор =\<MRN>
+6. \_Count (максимальное количество возвращаемых результатов) <br> Ответ должен содержать общее количество записей, возвращенных в результате поиска, и \_ счетчик будет использоваться PatientsApp, чтобы ограничить количество возвращаемых записей.
+7. Идентификатор =\<mrn>
 
 Цель — найти и отфильтровать пациента в пациент, выполнив следующие действия:
 
@@ -97,18 +104,18 @@ ms.locfileid: "43905751"
 
     Запрос: POST <fhir-Server>/Patient/_search запроса: с указанным = Ruth&Family = Black
     
-    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "META": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00", "тип": ",", "всего", "ссылка": [{"отношение": "Self", "URL": <fhir-Server>/Patient/_search "}]," запись ". [{" fullUrl ": <fhir-Server>/Patient/<пациент-ID>", "ресурс": {"resourceType": "Patient", "ИД": "<пациент-ID>", "META": {«versionId»: «1», «lastUpdated»: «2017-10-18T18:32:37.000 + 00:00»}, «текст»: «создано», «div»: «<div>символ        <p>Ruth Черное</p>символ      </div>"}," идентификатор ": [{" использование ":" обычное "," тип ": {" код ": [{" System ":https://hl7.org/fhir/v2/0203" "," Code ":" MR "," Display ":" номер медицинские записи "," userSelected ": false}];" текст ":", "," "система":http://hospital.smarthealthit.org",", ",", ",", ",", "-", "," ","-",", ",": ["Ruth", "C". 1234567
+    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "META": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00", "тип": ",", "всего", "ссылка": [{"отношение": "Self", "URL": <fhir-Server>/Patient/_search "}]," запись ". [{" fullUrl ": <fhir-Server>/Patient/<пациент-ID>", "ресурс": {"resourceType": "Patient", "ИД": "<пациент-ID>", "META": {«versionId»: «1», «lastUpdated»: «2017-10-18T18:32:37.000 + 00:00»}, «текст»: «создано», «div»: «<div>символ        <p>Ruth Черное</p>символ      </div>"}," идентификатор ": [{" использование ":" обычное "," тип ": {" код ": [{" System ":" https://hl7.org/fhir/v2/0203 "," Code ":" MR "," Display ":" номер медицинские записи "," userSelected ": false}];" текст ":", "," "система": ",", ",", ",", ",", "-", "," ","-",", ",": http://hospital.smarthealthit.org ["Ruth", "C". 1234567
     ]}], "телекоммуникационной": [{"система": "Телефон", "значение": "800-599-2739", "использовать": "Главная"}, "использовать": ",", 800-808-7785 ",", ",", ",", ",", ",", ",", ",", ",". женщина "," ДеньРождения ":" 1951-08-23 "," адрес ": [{" использование ":" Главная "," строка ": [" 26-Южный RdApt 22 "]," город ":" Sapulpa "" состояние ":" ОК "," postalCode ":" 74066 "," страна ":" USA "}]}," Поиск ": {" Мода ":" Match "}}]}
 
 * * *
 
     Запрос: получение <fhir-Server>/Patient/<пациент-ID>
     
-    Response: {"resourceType": "пациент"; "идентификатор": <"Patient-ID>", "идентификатор": [{"использование": "обычно", "тип": {"программирование": [{"System": "https://hl7.org/fhir/v2/0203", "код": "MR",}], "текст": "номер медицинские записи"}, "имя": [{"использование": "официальный", "семья": "Адамова извлекла", "заданный": ["Дэниел", "X." 1234567 ]}], "пола": "папа", "ДеньРождения": "1925-12-23";}
+    Response: {"resourceType": "пациент"; "идентификатор": <"Patient-ID>", "идентификатор": [{"использование": "обычно", "тип": {"программирование": [{"System": " https://hl7.org/fhir/v2/0203 ", "код": "MR",}], "текст": "номер медицинские записи"}, "имя": [{"использование": "официальный", "семья": "Адамова извлекла", "заданный": ["Дэниел", "X." 1234567 ]}], "пола": "папа", "ДеньРождения": "1925-12-23";}
 
 * * *
 
-Дополнительные [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) сведения об этом множестве полей приведены в разделе.
+[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="observation"></a>Наблюдение
 
@@ -125,7 +132,7 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient ID>
+1. пациент =\<patient id>
 2. _sort =-Дата
 3. Category (мы будем запрашивать "Category =", чтобы получить список важных знаков.
 
@@ -135,14 +142,14 @@ ms.locfileid: "43905751"
 
     Запрос: GET <fhir-Server>/Observation? пациент =<пациент-ID>&Категория = важнейшие знаки
     
-    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "тип": "тип поиска", "Итого": 20, "запись": [{"ресурс": {"ResourceType": "значение", "идентификатор": "<ресурсов-идентификаторы>"; "Категория": [{"System": ""https://hl7.org/fhir/observation-category, "" код ": {" программирование ": [{" System ":" "http://loinc.org;" код ":" 8867-4 "," Display ":" effectiveDateTime "}]}," "...": "2009-04-08T00 heart_rate: 00:00-06:00"; "valueQuantity": {"значение": 72,0, "Unit": "{ритм} минуту"; "System": "http://unitsofmeasure.org",}}}.
+    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "тип": "тип поиска", "Итого": 20, "запись": [{"ресурс": {"ResourceType": "значение", "идентификатор": "<ресурсов-идентификаторы>"; "Категория": [{"System": "" https://hl7.org/fhir/observation-category , "" код ": {" программирование ": [{" System ":" ";" код ":" 8867-4 "," Display ":" effectiveDateTime "} http://loinc.org ]}," "...": "2009-04-08T00 heart_rate: 00:00-06:00"; "valueQuantity": {"значение": 72,0, "Unit": "{ритм} минуту"; "System": " http://unitsofmeasure.org ",}}}.
         .
         .
       ] }
 
 * * *
 
-Дополнительные [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) сведения об этом множестве полей приведены в разделе.
+[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="condition"></a>Условие
 
@@ -157,8 +164,8 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient ID>
-2. _count =\<максимальное число результатов>
+1. пациент =\<patient id>
+2. _count =\<max results>
 
 Ниже приведен пример этого звонка:
 
@@ -166,13 +173,13 @@ ms.locfileid: "43905751"
 
     Запрос: GET <fhir-Server>/Condition? пациент =<пациент-ID>&_count = 10
     
-    Ответ: {"resourceType": "набор", "идентификатор": "<пакет-ID>"; "тип": "набор поиска", "всего", "элемент": [{"ресурс": {"ИД": "условие", "идентификатор": "<ресурс-идентификатор>", "код": {"программирование": [{"System": "http://snomed.info/sct", "код": "185903001"; "вывод": "требуется influenza Immunization",}]}, "важность": {"http://snomed.info/sctCode": ",", ",": "24484000"; "вывод": "серьезный"}]}, "assertedDate": "2018-04-04"}}
+    Ответ: {"resourceType": "набор", "идентификатор": "<пакет-ID>"; "тип": "набор поиска", "всего", "элемент": [{"ресурс": {"ИД": "условие", "идентификатор": "<ресурс-идентификатор>", "код": {"программирование": [{"System": " http://snomed.info/sct ", "код": "185903001"; "вывод": "требуется influenza Immunization",}]}, "важность": {"Code": ",", ",": " http://snomed.info/sct 24484000"; "вывод": "серьезный"}]}, "assertedDate": "2018-04-04"}}
         .
         .
       ] }
 
 * * *
-Дополнительные [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) сведения об этом множестве полей приведены в разделе.
+[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="encounter"></a>Происходит
 
@@ -188,13 +195,13 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient ID>
-2. _sort: DESC =\<Field ex. Дата>
-3. _count =\<максимальное число результатов>
+1. пациент =\<patient id>
+2. _sort: DESC =\<field ex. date>
+3. _count =\<max results>
 
 Цель — получить Последнее известное расположение пациента. Каждый из этих обнаружений ссылается на ресурс расположения. Ссылка также должна включать поле отображения местоположения.
 
-Дополнительные [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) сведения об этом множестве полей приведены в разделе.
+[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -214,7 +221,7 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. Пациент = \<patient ID>
+1. Пациент =  \<patient id>
 
 Посмотрите следующий пример звонка: 
 
@@ -222,11 +229,11 @@ ms.locfileid: "43905751"
 
     Запрос: GET <fhir-Server>/AllergyIntolerance? пациент =<пациент-ID>
     
-    Response: {"resourceType": "пакет", "идентификатор": <"набор-ID>", "тип": "набор результатов", "Total": 1, "запись": [{"ресурс": {"resourceType": "AllergyIntolerance"; "идентификатор": "clinicalStatus": ",", "verificationStatus": "утверждено", "код": "http://rxnav.nlm.nih.gov/REST/Ndfrt,": ",".> <N0000175503 "," Display ":" sulfonamide ",}]," текст ":" sulfonamide ","} "," assertedDate ":" 2018-01-01T00:00:00-07:00 "," реакция ": [манифест": [{"программирование": [{"System": "http://snomed.info/sct"; "код": "271807003"; "отобразить": "Skin RASH",}], "текст": "Skin RASH"}],}]}}]}
+    Response: {"resourceType": "пакет", "идентификатор": <"набор-ID>", "тип": "набор результатов", "Total": 1, "запись": [{"ресурс": {"resourceType": "AllergyIntolerance"; "идентификатор": "clinicalStatus": ",", "verificationStatus": "утверждено", "код": ",": ",".> <http://rxnav.nlm.nih.gov/REST/Ndfrt N0000175503 "," Display ":" sulfonamide ",}]," текст ":" sulfonamide ","} "," assertedDate ":" 2018-01-01T00:00:00-07:00 "," реакция ": [манифест": [{"программирование": [{"System": ""; "код": "271807003"; http://snomed.info/sct "отобразить": "Skin RASH",}], "текст": "Skin RASH"}],}]}}]}
 
 * * *
 
-Дополнительные [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) сведения об этом множестве полей приведены в разделе.
+[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="medication-request"></a>Запрос лечения
 
@@ -244,10 +251,10 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient ID>
-2. _count =\<максимальное число результатов>
+1. пациент =\<patient id>
+2. _count =\<max results>
 
-Дополнительные [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) сведения об этом множестве полей приведены в разделе.
+[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="coverage"></a>Приложения
 
@@ -261,6 +268,6 @@ ms.locfileid: "43905751"
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. Пациент = \<patient ID>
+1. Пациент = \<patient id>
 
-Дополнительные [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) сведения об этом множестве полей приведены в разделе.
+[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)Дополнительные сведения об этом множестве полей приведены в разделе.

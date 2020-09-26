@@ -17,14 +17,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Сведения о том, как подключить приложение пациентов в Microsoft Teams к Azure API для FHIR (ресурсы для быстрого обеспечения для сферы здравоохранения).
-ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: cf59b7bddbd1a480a2e1a2f7d9381f3fdf59d210
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827727"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277308"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Подключение приложения для пациентов к Azure API для FHIR
+
+> [!IMPORTANT]
+> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+>
+>Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
+>
+>[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков благодаря специалистам по карьерным тарифам могут создаваться списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
 
 Выполните эти действия, чтобы разрешить приложению пациентов в Microsoft Teams получить доступ к интерфейсу API Azure для экземпляра FHIR. В этой статье предполагается, что у вас есть [API Azure для настройки экземпляра FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) и его настройки в клиенте.  Если вы еще не создали интерфейс Azure API для экземпляра FHIR в клиенте, ознакомьтесь [со ссылкой краткое руководство: развертывание Azure API для FHIR с помощью портала Azure](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
@@ -49,7 +56,7 @@ ms.locfileid: "41827727"
     ![Снимок экрана: параметры проверки подлинности на портале Azure](../../media/patients-app-azure-portal-authentication.png)
 
 6. Нажмите кнопку **Сохранить**. Это повторно развертывает экземпляр, который может занять несколько минут.
-7. Нажмите кнопку **Обзор**и скопируйте URL-адрес из **конечной точки метаданных FHIR**. Удалите тег metadata, чтобы получить URL-адрес сервера FHIR. Например, https://test02-teamshealth.azurehealthcareapis.com/. 
+7. Нажмите кнопку **Обзор**и скопируйте URL-адрес из **конечной точки метаданных FHIR**. Удалите тег metadata, чтобы получить URL-адрес сервера FHIR. Например, https://test02-teamshealth.azurehealthcareapis.com/ . 
 
     ![Снимок экрана: конечная точка метаданных на портале Azure](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
@@ -59,7 +66,7 @@ ms.locfileid: "41827727"
     
     Если вы получаете сообщение об ошибке при подключении к Teams на этом этапе, отправьте подробный снимок экрана с сообщением об ошибке, журналы из [Fiddler](https://www.telerik.com/download/fiddler) и другие шаги по воспроизводитию в сообщении электронной почты с темой "пациентов App-EMR" устранения неполадок "для [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Обзор приложения для пациентов](patients-app-overview.md)
 - [Интеграция электронных историй болезни в Microsoft Teams](patients-app.md)
