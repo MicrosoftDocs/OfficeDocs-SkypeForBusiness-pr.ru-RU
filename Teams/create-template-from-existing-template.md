@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219090"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294565"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Создание нового шаблона на основе существующего шаблона группы в Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Пользовательские шаблоны пока не поддерживаются для пользователей EDU.**
 
@@ -72,6 +69,9 @@ Microsoft Teams предоставляет готовые шаблоны, кот
 7. Завершив добавление каналов и приложений, нажмите кнопку **Отправить** .
 
     Новый шаблон будет сохранен в библиотеке шаблонов.
+
+> [!Note]
+> Чтобы пользователи Teams могли видеть настраиваемый шаблон в коллекции, может потребоваться до 24 часов.
 
 ## <a name="related-articles"></a>Статьи по теме
 

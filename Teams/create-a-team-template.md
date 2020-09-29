@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135863"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294595"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Создание настраиваемого шаблона группы в Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Пользовательские шаблоны пока не поддерживаются для пользователей EDU.**
 
@@ -66,7 +63,10 @@ ms.locfileid: "48135863"
 
 Новый шаблон появится в списке **шаблонов групп** . Шаблон можно использовать для создания групп в Teams.
 
-## <a name="related-topics"></a>Статьи по теме
+> [!Note]
+> Чтобы пользователи Teams могли видеть настраиваемый шаблон в коллекции, может потребоваться до 24 часов.
+
+## <a name="related-topics"></a>Связанные статьи
 
 - [Начало работы с шаблонами группы в центре администрирования](get-started-with-teams-templates-in-the-admin-console.md)
 - [Создание шаблона на основе существующей группы](create-template-from-existing-team.md)

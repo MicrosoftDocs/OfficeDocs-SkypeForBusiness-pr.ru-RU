@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
+ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938148"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48297381"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Управление политиками Teams в Microsoft Teams
 
-Администраторы могут использовать политики Teams в Microsoft Teams для управления тем, какие пользователи в организации могут выполнять в Teams и каналах. Например, вы можете указать, разрешено ли пользователям находить закрытые команды в результатах поиска и коллекции групп, а также могут ли пользователи создавать закрытые каналы.
+Администраторы могут использовать политики Teams в Microsoft Teams для управления тем, какие пользователи в организации могут выполнять в Teams и каналах. Например, вы можете указать, разрешено ли пользователям создавать закрытые каналы.
 
 Управление политиками Teams осуществляется путем **перехода в**  >  **политики** Teams в центре администрирования Microsoft Teams. Вы можете использовать глобальную политику (по умолчанию на уровне Организации) или создавать и назначать пользовательские политики. Пользователи вашей организации автоматически получают глобальную политику, если вы не создали и не назначили настраиваемую политику.
 
@@ -46,10 +46,7 @@ ms.locfileid: "44938148"
 3. Введите имя и описание для политики.
 
     ![Снимок экрана: параметры политики Teams](media/teams-policies.png)
-4. Выберите нужные параметры.
-
-- **Знакомство со закрытыми группами** (в частном<a name="discoverteams"> </a> предварительной версии): Включите этот параметр, чтобы разрешить пользователям находить частные команды в результатах поиска и коллекции групп.
-- **Создание частных каналов**: <a name="createchannels"> </a>включите этот параметр, чтобы разрешить пользователям создавать закрытые каналы.
+4. Включите или отключите функцию **создания частных каналов**в зависимости <a name="createchannels"> </a> от того, хотите ли вы разрешить пользователям создавать закрытые каналы.
 
 5. Нажмите кнопку **Сохранить**.
 
@@ -65,9 +62,7 @@ ms.locfileid: "44938148"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Статьи по теме
-
-[Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
+## <a name="related-topics"></a>Связанные статьи
 
 [Личные каналы в Teams](private-channels.md)
 

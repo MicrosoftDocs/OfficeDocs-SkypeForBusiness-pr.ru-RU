@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219130"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294575"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Создание шаблона на основе существующей группы в Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Пользовательские шаблоны пока не поддерживаются для пользователей EDU.**
 
@@ -63,6 +60,9 @@ Microsoft Teams позволяет создавать шаблоны из сущ
 8. Нажмите кнопку **Отправить** , чтобы сохранить изменения.
 
 Новый шаблон появится в списке **шаблонов групп** . Шаблон можно использовать для создания групп в Teams.
+
+> [!Note]
+> Чтобы пользователи Teams могли видеть настраиваемый шаблон в коллекции, может потребоваться до 24 часов.
 
 ## <a name="related-articles"></a>Статьи по теме
 
