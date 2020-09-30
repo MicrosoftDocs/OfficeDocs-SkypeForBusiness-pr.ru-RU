@@ -51,7 +51,15 @@
 ## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 ## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
-## [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
+## Работа с шаблонами Teams
+### [Использование шаблонов Teams в консоли администратора](get-started-with-teams-templates-in-the-admin-console.md)
+### [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
+### [Создание пользовательского шаблона Teams](create-a-team-template.md)
+### [Создание шаблона на основе существующей команды](create-template-from-existing-team.md)
+### [Создание шаблона на основе существующего шаблона](create-template-from-existing-template.md)
+### [Шаблоны Teams финансовой категории](financial-teams-templates-in-the-admin-console.md)
+### [Шаблоны Teams общей категории](general-teams-templates-in-the-admin-console.md)
+### [Шаблоны Teams производственной категории](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Общение с внешними пользователями
 ### [Общение с пользователями из других организаций](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## Teams для сферы здравоохранения
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Начало работы в консоли администратора с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Начало работы в консоли администратора с шаблонами Teams для розничной торговли](retail-teams-templates-in-the-admin-console.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Teams для государственных организаций](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Поддержка удаленных сотрудников (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Начало работы с шаблонами Teams для государственных организаций](government-teams-templates-in-the-admin-console.md)
 ### [Управление предложением пробной версии Office 365 G1](g1-trial-license.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
