@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как настроить параметры сети для функций голосовой связи в облаке в Microsoft Teams.
-ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 21d47b5b2fae0b22ea585168acdce4a5e25af2ea
+ms.sourcegitcommit: 7631af666ae439cc85f1dae8955653a67170cf20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539629"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48304583"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Управление топологией сети для облачных функций голосовой связи в Microsoft Teams
 
@@ -147,10 +147,10 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 Если вы используете несколько подсетей, вы можете импортировать CSV-файл с помощью такого сценария, как описано ниже.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-В этом примере CSV-файл выглядит примерно так:
+В этом примере CSV-файл выглядит примерно так: 
 
 ```console
 Identity, Mask, SiteID
@@ -178,6 +178,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 Дополнительные сведения можно найти в разделе [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Сведения о настройке современной проверки подлинности в комнатах Microsoft Teams
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506186"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308262"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Проверка подлинности в комнатах Microsoft Teams
 
@@ -90,6 +90,7 @@ ms.locfileid: "46506186"
 - У вас должен быть сервер Exchange Server 2016 обновления HF1 или более поздней версии или Exchange Server 2019 CU1 или более поздней версии.
 - У вас должен быть Skype для бизнеса Server 2015 CU5 или более поздней версии или Skype для бизнеса Server 2019 или более поздней версии.
 - MFA не поддерживается вне зависимости от того, какая у вас топология.
+- Комнаты Microsoft Teams не поддерживают несоответствие SIP и UPN. Для работы с учетной записью комнаты Microsoft Teams необходимо использовать один и тот же UPN и SIP.
 - Если вы используете сторонний поставщик проверки подлинности, который поддерживается Azure AD, он должен поддерживать активный поток проверки подлинности через WS-Trust.
 - Не используйте политики условного доступа на уровне устройства для учетной записи ресурсов, настроенной для приложения. Это может привести к сбоям при входе. Вместо этого зарегистрируйте устройство в Microsoft Intune и примените политики соответствия с помощью руководства, опубликованного в разделе [Управление комнатами собраний Teams с помощью Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 

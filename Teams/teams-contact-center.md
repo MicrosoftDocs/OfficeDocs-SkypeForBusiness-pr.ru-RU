@@ -13,12 +13,12 @@ f1.keywords:
 description: Обзор интегрированного центра управления контактами как службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177379"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308392"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция с центром контактов для Microsoft Teams
 
@@ -195,7 +195,7 @@ Microsoft Teams поддерживает широкий спектр возмо�
 <td>Пользователи с телефонным подключением к Teams?</td>
 <td>Неформальный, SME</td>
 <td>Неформальный, SME</td>
-<td>Неофициальная, SME, формально *</td>
+<td>Неформальные, SME, формально</td>
 <td>Неформальные, SME, формально</td>
 </tr>
 <tr class="odd">
