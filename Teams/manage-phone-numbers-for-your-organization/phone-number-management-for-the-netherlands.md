@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Нидерландов для Microsoft Teams.
-ms.openlocfilehash: 7e814786f8e381e59d4c56af815cefff1490dac1
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: ab5cd7fa88b0748f2628751f95087c9eff677dfd
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170670"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324115"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 
@@ -36,10 +36,11 @@ ms.locfileid: "44170670"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> | Скачайте эту форму.</br> [Новый запрос номера телефона для Нидерландов (v. 4.0) (nl-NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [Новый запрос номера телефона для Нидерландов (v. 4.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм:. <br/> [Доверенность для Нидерландов, географические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [Доверенность для Нидерландов, негеографические номера телефонов, версия 2.0 на нидерландском (Нидерланды)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-Netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> | Скачайте эту форму.</br> [Новый запрос номера телефона для Нидерландов (v. 5.0) (nl-NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/><br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм:. <br/> [Буква авторизации (LOA) для Нидерландов (все числа) (v. 5.0) (nl-NL)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.5.0)-(nl-nl).pdf?raw=true) <br/> <br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Настройка службы каталогов на номера очереди звонков или автосекретаря|Чтобы добавить или изменить номера очереди звонков или автосекретаря, обратитесь [в службу поддержки КТСОП](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>См. также:
 

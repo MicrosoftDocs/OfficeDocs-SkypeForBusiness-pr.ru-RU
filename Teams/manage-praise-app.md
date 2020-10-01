@@ -8,18 +8,21 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Сведения о параметрах администрирования в приложении благодарность в центре администрирования Microsoft Teams
-ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324033"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328208"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Управление приложением благодарность в центре администрирования Microsoft Teams
 
 Приложение благодарность в Microsoft Teams помогает пользователям продемонстрировать повышение стоимости участникам своей организации или занятия. Выбрав один из наборов индикаторов, и вы сможете создавать собственные эмблемы, благодарность разработана для того, чтобы помочь вам понять усилия, которые переходят в широкий спектр работ, выполняемых пользователями Teams, от преподавателей до первой строки работников.
 
 Администраторы могут управлять тем, какие эмблемы доступны для своей организации в центре администрирования Teams. На панели навигации слева выберите пункт **приложения teams > Управление приложениями**. Откройте благодарность в [каталоге приложений клиента](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)и перейдите в раздел " **Параметры**".
+
+> [!Note]
+> Функция приложения благодарность недоступна для государственных учреждений правительства США.
 
 ## <a name="use-built-in-badge-sets"></a>Использование встроенных наборов индикаторов
 

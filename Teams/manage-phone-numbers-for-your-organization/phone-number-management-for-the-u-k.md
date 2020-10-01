@@ -1,5 +1,5 @@
 ---
-title: Управление номерами телефонов в Соединенном Королевстве
+title: Управление номерами телефонов для Великобритании
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: В этой таблице содержатся сведения о том, как получить и управлять телефонными номерами в Великобритании (Великобритания) для Microsoft Teams.
-ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: В этой таблице содержатся сведения о том, как получить и управлять телефонными номерами в Великобритании для Microsoft Teams.
+ms.openlocfilehash: f35d1dba6a32306c37143a03a745e46a32e3109c
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706944"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324155"
 ---
-# <a name="phone-number-management-for-the-uk"></a>Управление номерами телефонов в Соединенном Королевстве
+# <a name="phone-number-management-for-the-united-kingdom"></a>Управление номерами телефонов для Великобритании
 
 В этой таблице содержатся сведения о том, как получить и управлять телефонными номерами в Великобритании для Microsoft Teams. 
   
@@ -36,10 +36,11 @@ ms.locfileid: "41706944"
   
 |**Требуемое действие**|**Загрузка подходящих форм**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Скачайте эту форму.  [Новый запрос на телефонный номер для Великобритании (v. 4,0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
-|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм: <br/> [Доверенность для Соединенного Королевства, географические номера телефонов, версия 2.0 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Доверенность для Соединенного Королевства, негеографические номера телефонов, версия 2.1 на английском (США)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Скачайте эту форму. <br/> [Новый запрос номера телефона для Великобритании (v. 5.0) (EN-GB)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
+|Получение телефонных номеров, перенесенных в США.  <br/> |Скачайте одну из следующих форм:. <br/> [Письмо об авторизации (LOA) для Великобритании (географические номера) (v. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> [Письмо об авторизации (LOA) для Великобритании (номера бесплатных телефонов) (v. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(toll-free-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/> Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации. <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
+|Настройка службы каталогов на номера очереди звонков или автосекретаря|Чтобы добавить или изменить номера очереди звонков или автосекретаря, обратитесь [в службу поддержки КТСОП](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>См. также:
 

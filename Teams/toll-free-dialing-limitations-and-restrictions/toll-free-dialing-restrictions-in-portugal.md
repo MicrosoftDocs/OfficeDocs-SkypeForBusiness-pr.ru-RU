@@ -1,11 +1,10 @@
 ---
 title: Ограничения набора бесплатных номеров в Португалии
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: d2672637-c5ce-4310-a2d9-6050a87a1a98
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 513a503f7e3d32b2a7b0a7a636837ac64bfb9179
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 11b3664f0b25967143dc029e65a11f80117595b8
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693394"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322268"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Ограничения набора бесплатных номеров в Португалии
 
@@ -38,7 +37,7 @@ ms.locfileid: "41693394"
 |**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
-|Формат набора  <br/> |800 XXX XXX  <br/> |
+|Формат набора  <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
 |Код страны или региона по ISO  <br/> |PT  <br/> |
 |Охватываемая территория  <br/> | Азорские острова, Мадейра <br/> |
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
@@ -46,11 +45,11 @@ ms.locfileid: "41693394"
 |Доступность мобильных сетей  <br/> |Да. Доступно по премиальному тарифу.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Получение номеров телефонов служб](/microsoftteams/getting-service-phone-numbers)
 
   
  

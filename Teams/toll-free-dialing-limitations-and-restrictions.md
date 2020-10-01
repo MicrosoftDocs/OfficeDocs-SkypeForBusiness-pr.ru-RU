@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Сведения о наборе бесплатных номеров в стране/регионе, включая доступность, проводные и стационарные и мобильные сети, а также ограничения.
-ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140558"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322308"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Ограничения и запреты для бесплатных номеров
 
@@ -41,6 +41,7 @@ ms.locfileid: "43140558"
 > [!div class="op_single_selector"]    
 > - [Аргентина](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [Австралия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [Австрия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 > - [Беларусь](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Бельгия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Белиз](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -68,6 +69,7 @@ ms.locfileid: "43140558"
 > - [Индонезия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [Ирландия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [Израиль](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+> - [Италия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 > - [Япония](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 > - [Кения](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 > - [Люксембург](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -93,6 +95,7 @@ ms.locfileid: "43140558"
 > - [Южная Корея](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
 > - [Испания](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 > - [Швеция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+> - [Швейцария](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 > - [Тайвань](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [Таиланд](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [Турция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)

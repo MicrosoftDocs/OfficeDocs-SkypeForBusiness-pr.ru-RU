@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955895"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328238"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Переход с Skype для бизнеса на Teams &mdash; для ИТ-администраторов
 
@@ -52,6 +52,9 @@ ms.locfileid: "47955895"
 Прежде чем приступить к работе, имейте в виду, что пользователь, который выполнил миграцию в Teams, больше не использует клиент Skype для бизнеса, за исключением присоединения к собранию, размещенному в Skype для бизнеса.  Все входящие разговоры и звонки, находящиеся в клиенте Teams пользователя, независимо от того, использует ли отправитель Teams или Skype для бизнеса. Все новые собрания, упорядоченные из мигрировавших пользователей, будут планироваться как собрания Teams. Если пользователь попытается использовать клиент Skype для бизнеса, инициирование чатов и звонков блокируется.  Тем не менее, пользователь может (и должен) по-прежнему использовать клиент Skype для бизнеса для присоединения к собраниям Skype для бизнеса, на которые они приглашены. (Старые клиенты Skype для бизнеса, которые поставлялись до 2017, не соблюдают TeamsUpgradePolicy. Убедитесь, что вы используете новейшую версию клиента Skype для бизнеса.)
  
 Управление переходом пользователя в Teams осуществляется с помощью концепции [mode](migration-interop-guidance-for-teams-with-skype.md), которая является свойством [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Пользователь, который был перенесен в Teams, как описано выше, находится в режиме "TeamsOnly".  Для Организации, которая переносится в Teams, конечная цель состоит в том, чтобы переместить всех пользователей в режим TeamsOnly.
+
+>[!NOTE]
+>Пользователи, у которых есть учетная запись в локальной среде Skype для бизнеса, не могут быть TeamsOnly. Несмотря на то что эти пользователи могут [использовать Teams в режиме острова](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype), это не предоставляет полный набор функциональных возможностей Teams, доступных в режиме TeamsOnly. Чтобы эти пользователи TeamsOnly, они должны быть перемещены в облако с помощью `Move-CsUser` локальных средств Skype для бизнеса Server.
 
 Хорошо. Приступим!  Первый шаг — общее представление о [доступных вам методах обновления](upgrade-to-teams-on-prem-upgrade-methods.md).
 

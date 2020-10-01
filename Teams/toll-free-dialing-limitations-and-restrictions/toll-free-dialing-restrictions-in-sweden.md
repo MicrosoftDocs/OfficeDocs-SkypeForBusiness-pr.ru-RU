@@ -1,11 +1,10 @@
 ---
 title: Ограничения набора бесплатных номеров в Швеции
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 2d5f5cf4-1068-4a6d-a9e5-3dc4c67f1105
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 299c39791968a488dc5ad8d210f5841824c83c50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681826"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321902"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Ограничения набора бесплатных номеров в Швеции
 
@@ -38,7 +37,7 @@ ms.locfileid: "41681826"
 |**Details**|**Описание**|
 |:-----|:-----|
 |Доступен ли бесплатный звонок?  <br/> |Да  <br/> |
-|Формат набора  <br/> | 02 XXX XXXX <br/>  0200 XX XXXX <br/> |
+|Формат набора  <br/> | 020 <br/> |
 |Код страны или региона по ISO  <br/> |SE  <br/> |
 |Охватываемая территория  <br/> |Неприменимо  <br/> |
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
@@ -46,7 +45,7 @@ ms.locfileid: "41681826"
 |Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

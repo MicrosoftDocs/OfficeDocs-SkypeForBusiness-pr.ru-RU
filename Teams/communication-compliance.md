@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328258"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Соответствие требованиям к общению с Microsoft Teams
 
@@ -32,9 +32,6 @@ ms.locfileid: "46597153"
 - Оскорбительный, нецензурный и преследованиющий язык
 - Для взрослых, racyов и goryных изображений
 - Совместное использование конфиденциальной информации
-
->[!IMPORTANT]
->Конфиденциальные каналы Microsoft Teams не поддерживаются в соответствии с требованиями связи. Обмен сообщениями в чате с помощью гостевых пользователей для пользователей Teams не отслеживается на предмет неприемлемого содержимого.
 
 Дополнительные сведения о требованиях к общению и настройке политик для организации можно найти [в разделе соответствие требованиям в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 

@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Узнайте, как получить и управлять номерами пользователей (абонентов) и служб (платные и Бесплатные телефоны) для Microsoft Teams для вашей организации.
-ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905851"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320824"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 
@@ -42,7 +42,7 @@ ms.locfileid: "43905851"
 - Используйте форму запроса для новых номеров телефонов, которые не указаны в центре администрирования Microsoft Teams.
 
 > [!IMPORTANT]
-> В Бельгии, Франции, Германии, Ирландии, Нидерландов и Испании невозможно получить новые номера телефонов с помощью центра администрирования Microsoft Teams. Вам нужно скачать и заполнить форму. Сведения о новых номерах телефонов в Австралии можно найти в статье: [**услуги голосовой связи Telstra**](https://aka.ms/TelstraVoicePlan).
+> Для получения информации о новых номерах телефонов в Австралии, перейдите в раздел [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). Новые номера телефонов в Японии можно найти в разделе [услуги голосовой связи SoftBank](https://aka.ms/SoftBankVoicePlan).
 
 ***
 Если вы знаете, какие типы форм вы ищете, используйте раскрывающийся список, чтобы выбрать страну или регион, в которых вы получаете номера.
@@ -50,16 +50,22 @@ ms.locfileid: "43905851"
 **Выберите свою страну или регион, чтобы найти загружаемые формы PDF LOA, которые вам понадобятся**
 > [!div class="op_single_selector"]
 > - [Австралия](phone-number-management-for-australia.md)
+> - [Австрия](phone-number-management-for-austria.md)
 > - [Бельгия](phone-number-management-for-belgium.md)
 > - [Канада](phone-number-management-for-canada.md)
+> - [Дания](phone-number-management-for-denmark.md)
 > - [Франция](phone-number-management-for-france.md)
 > - [Германия](phone-number-management-for-germany.md)
 > - [Ирландия](phone-number-management-for-ireland.md)
+> - [Италия](phone-number-management-for-italy.md)
 > - [Япония](phone-number-management-for-japan.md)
 > - [Нидерланды](phone-number-management-for-the-netherlands.md)
+> - [Португалия](phone-number-management-for-portugal.md)
 > - [Испания](phone-number-management-for-spain.md)
+> - [Швеция](phone-number-management-for-sweden.md)
+> - [Швейцария](phone-number-management-for-switzerland.md)
 > - [Соединенное Королевство](phone-number-management-for-the-u-k.md)
-> - [Американский & Пуэрто-Рико](phone-number-management-for-the-u-s.md)
+> - [Соединенные Штаты Америки & Пуэрто-Рико](phone-number-management-for-the-u-s.md)
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Вот немного дополнительных сведений об этих формах для запроса номеров.
@@ -94,7 +100,7 @@ ms.locfileid: "43905851"
 - Чтобы облегчить выбор правильного типа телефонных номеров, прочтите [различные типы телефонных номеров, используемых для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Чтобы получить помощь по настройке номеров телефонов для Организации, читайте в статье [Поддержка контактных лиц для бизнеса — Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Условия для экстренных вызовов](../emergency-calling-terms-and-conditions.md)
 
