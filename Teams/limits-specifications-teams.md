@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308202"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333269"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -119,7 +119,7 @@ ms.locfileid: "48308202"
 >- До 50 событий одновременно на одного клиента Teams
 >- До 16 часов на трансляцию
 >
-> Кроме того, с помощью программы поддержки прямых трансляций Microsoft можно запланировать прямые трансляции с участием до 100 000 человек. [Подробнее](https://aka.ms/Stream/Blog/LiveEventOptions). **После 1 января 2021 г. клиентам, которым необходимо увеличить лимит, потребуется приобрести [надстройку дополнительных параметров](teams-add-on-licensing/advanced-communications.md).**
+> Кроме того, с помощью программы поддержки Microsoft 365 можно запланировать трансляции с участием до 100 000 человек. Команда оценивает каждый запрос и взаимодействует с вами, чтобы определить имеющиеся варианты. [Подробнее](https://aka.ms/Stream/Blog/LiveEventOptions). **После 1 января 2021 г. клиентам, которым необходимо увеличить лимит, потребуется приобрести [надстройку дополнительных параметров](teams-add-on-licensing/advanced-communications.md).**
 
 
 |Компонент     | Максимальный предел |
