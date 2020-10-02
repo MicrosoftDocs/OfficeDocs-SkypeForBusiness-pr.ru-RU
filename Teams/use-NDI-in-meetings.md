@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308172"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337018"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Использование NDI® технологии в Microsoft Teams
 
@@ -50,7 +49,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 На приведенном ниже рисунке показано сообщение с рекламой, которое пользователь видит в собрании Teams.
 
-![Изображение баннера технологии NDI®, которое отображается в собрании Teams.](media/NDI-disclosure.png)
+![Он NDI®ный плакат, который отображается в собрании Teams.](media/NDI-disclosure.png)
 
 Баннер содержит ссылку на [политику конфиденциальности Майкрософт](https://aka.ms/teamsprivacy).
 
@@ -60,7 +59,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 - Полная поддержка в клиенте, Доставка которой осуществляется на основе звонков/tenantId/userId (в соответствии с политикой собраний).
 - Федеративная — нет доступа к потоку (даже если у них есть технология NDI®)<sup>1</sup>
-- Freemium — нет доступа к потоку
+- Premium — нет доступа к потоку
 - Анонимный – нет доступа к потоку
 - Гость — нет доступа к потоку  
 

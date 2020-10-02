@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761155"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333249"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 
-По умолчанию гостевой доступ отключен. Как администратор Microsoft 365 или Office 365 вы должны включить гостевой доступ для Teams, прежде чем администратор или владелец группы смогут добавить гостей. Чтобы включить гостевой доступ, вы можете [совместно работать с гостями в группе](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
+По умолчанию гостевой доступ отключен. Как администратор Microsoft 365 или Office 365 вы должны включить гостевой доступ для Teams, прежде чем администратор или владелец группы смогут добавить гостей.
 
 После включения гостевого доступа может пройти несколько часов, чтобы изменения вступили в силу. Если пользователь попытается добавить в группу гостя сообщение "обратитесь к своему администратору", возможно, что гостевой доступ не включен или параметры еще не вступают в силу.
 
 > [!IMPORTANT]
-> Включение гостевого доступа зависит от параметров в Azure Active Directory, Microsoft 365 или Office 365, SharePoint Online и Teams. Дополнительные сведения можно найти [в разделе Авторизация гостевой доступа в Teams](Teams-dependencies.md).
-
-
+> Включение гостевого доступа зависит от параметров в Azure Active Directory, Microsoft 365, SharePoint и Teams. Дополнительные сведения можно найти [в разделе совместная работа с гостями в группе](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Настройка гостевого доступа в центре администрирования Teams
 
@@ -68,10 +65,12 @@ ms.locfileid: "46761155"
 
 5. Нажмите кнопку **Сохранить**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Включение и отключение гостевого доступа с помощью PowerShell
-
-Прочтите этот параметр, [чтобы включить или отключить гостевой доступ с помощью PowerShell](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off).
-
 ## <a name="external-access-federation-vs-guest-access"></a>Сравнение внешнего (федерация) и гостевого доступа
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>См. также
+
+[Блокировка гостевых пользователей для определенной команды](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

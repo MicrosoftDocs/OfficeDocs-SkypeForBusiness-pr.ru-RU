@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597004"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320904"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -167,14 +167,8 @@ Teams доступен во всех лицензиях наборов Microsoft
 **Можно ли использовать Teams на Surface Hub?**<br>
 Собрания Teams теперь доступны на Surface Hub в специальном интерфейсе звонков и собраний. Дополнительные сведения см. в статье [Развертывание Microsoft Teams для Surface Hub](https://docs.microsoft.com/microsoftteams/teams-surface-hub).
 
-**Будут ли имеющиеся IP-телефоны (3PIP) сторонних производителей работать с Microsoft Teams? Если да, то как долго?**<br>
-После прекращения поддержки Skype для бизнеса Online 31 июля 2021 года пользователи устройств 3PIP, которые перешли на Teams, смогут использовать на своих устройствах 3PIP только ограниченный набор возможностей до 31 июля 2023 г.
+**Будут ли имеющиеся IP-телефоны (3PIP) сторонних производителей работать с Microsoft Teams? А что насчет сторонних телефонов SIP?**<br>
+Использование существующего оборудования может помочь снизить затраты при переходе на новую телефонную систему. Корпорация Майкрософт продлила поддержку телефонов Skype для бизнеса (3PIP) и будет осуществлять ее и после 2023 г., поэтому вы можете продолжать использовать существующие телефоны Skype для бизнеса при переходе на Teams. Кроме того, начиная с первой половины 2021 г., в Teams будут поддерживаться основные функции вызовов на телефоны SIP от Cisco, Yealink, Polycom и т. д.
 
 **Будут ли телефоны, сертифицированные для Skype для бизнеса Online, работать с Teams?**<br>
 Ответы на вопросы, связанные с совместимостью телефонов, см. в статье блога [Certified Skype for Business Online Phones and what this means for Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309) (Телефоны, сертифицированные для Skype для бизнеса Online, и их значение для Teams).
-
-
-
-
-
-
