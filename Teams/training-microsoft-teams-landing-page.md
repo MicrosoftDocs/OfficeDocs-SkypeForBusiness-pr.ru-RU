@@ -3,8 +3,8 @@ title: Обучение администраторов Microsoft Teams
 ms.reviewer: ''
 description: Используйте эти ресурсы обучения для пользователей и администраторов, а также учебные курсы с инструкторами, чтобы применять Microsoft Teams в своей организации максимально эффективно.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656340"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336978"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656340"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Интерактивное обучение Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия в Интернете предназначены для подготовки к работе с Teams. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Онлайн-обучение Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Используйте эти учебные ресурсы для изучения в своем темпе, чтобы помочь вашим пользователям максимально эффективно использовать Teams. |
 
-## <a name="dont-miss-this-key-training"></a>Не пропустите важные учебные курсы
+## <a name="dont-miss-these-key-training-offerings"></a>Не пропустите эти ключевые учебные материалы
 
 Регулярно проверяйте обновления этого списка, чтобы всегда знать о последних интересных и важных учебных курсах по Teams.
 
@@ -51,7 +51,7 @@ ms.locfileid: "46656340"
    :::column-end:::
 
    :::column:::
-   **[Командная работа](https://aka.ms/edx-cld267x-about)** </br>
+   **[Командная работа](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Курс. Командная работа с помощью Teams
 
    :::column-end:::

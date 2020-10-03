@@ -10,47 +10,45 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Priority
-description: Администраторы могут узнать, как добавлять новых гостевых пользователей в организацию в классическом и веб-клиенте Microsoft Teams, а также на портале для совместной работы Azure Active Directory B2B.
+localization_priority: Normal
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a67fd7ed111c1020eaf133e96e26ae03d4250637
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
-ms.translationtype: HT
+description: Администраторы могут узнать, как добавлять новых гостевых пользователей в организацию в классическом и веб-клиенте Microsoft Teams, а также на портале для совместной работы Azure Active Directory B2B.
+ms.openlocfilehash: e74819ba46af8a9f6bcf3b2198f78354bf7bfb79
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405716"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346180"
 ---
-<a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
-=====================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 
 Любой человек с учетной записью электронной почты для организации или пользователя, такой как Outlook, Gmail или другой, может участвовать в Teams в качестве гостя.
 
 Являясь администратором, вы можете добавить нового гостевого пользователя в организацию несколькими способами.
+
 - Глобальные администраторы или администраторы Teams, а также владельцы команд могут добавлять гостей в команду из клиентов Teams или Центра администрирования Teams. Дополнительные сведения см. в статье [Добавление гостей в команду](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Если гостевой доступ еще не настроен, выполните действия, указанные в статье [Совместная работа с гостями в команде](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
-- Добавить гостей в организацию можно с помощью службы совместной работы Azure Active Directory (Azure AD) B2B. Она позволяет глобальному администратору пригласить и авторизовать набор внешних пользователей, отправив на портал совместной работы B2B файл данных с разделителями-запятыми (CSV) длиной не больше 2000 строк. Дополнительные сведения см. в статье [Совместная работа Azure Active Directory B2B](https://go.microsoft.com/fwlink/p/?linkid=826383).
+- Добавить гостей в организацию можно с помощью службы совместной работы Azure Active Directory (Azure AD) B2B. Подробности можно найти в разделе [Краткое руководство: Добавление гостевых пользователей в каталог на портале Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 Кроме того, администратор может делегировать разрешения на добавление гостей другому пользователю в организации, назначив ему роль приглашающего гостей. Подробнее см. в статье [Включение внешней совместной работы B2B и управление ролями приглашающих](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations).
 
 С помощью службы совместной работы Azure AD B2B организации могут задавать для B2B-пользователей политики условного доступа и многофакторной проверки подлинности (MFA). Эти политики можно применять на уровне клиента, приложения или отдельных пользователей точно так же, как для штатных сотрудников и членов организации. Эти политики применяются в ресурсной организации. Дополнительные сведения см. в статье [Условный доступ для пользователей службы совместной работы B2B](https://go.microsoft.com/fwlink/?linkid=857454). Отдельных гостевых пользователей блокировать невозможно.
 
-Гостевые пользователи, добавленные через Azure AD B2B, группы Microsoft 365 или SharePoint Online, готовы к работе. Администратор Microsoft 365 или Office 365 либо владелец команды может добавить их в свои команды. Если команда уже имеет группу Microsoft 365, куда добавляется гость, он получит доступ к этой команде. Добавление гостя через группу Microsoft 365 не приводит к отправке ему приглашения по электронной почте, поэтому гостя должен уведомить один из участников команды.
+Гостевые пользователи, уже добавленные через Azure AD B2B, группы Microsoft 365 или SharePoint готовы к работе. Администратор Microsoft 365 или владелец группы может добавить этих гостей в соответствующие команды. Если добавить гостя непосредственно в группу Microsoft 365, связанную с группой, гостевой пользователь сможет получить доступ к группе, но в группе Microsoft 365 не будет создаваться приглашение на гость, так что кто-то из участников группы должен уведомлять гостя.
 
 > [!NOTE]
 > На гостей распространяются ограничения служб [Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) и [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
 
-Вы можете отслеживать добавление гостей в Azure AD или Центре безопасности Microsoft 365. Добавление гостя в Microsoft Teams проходит аудит и регистрируется в журнале администрирования групп Azure AD в виде записи "Added member to group" (Добавление участника в группу). Дополнительные сведения см. в статьях [Аудит и отчеты для пользователя службы совместной работы B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) и [Поиск по журналу аудита в Центре безопасности Microsoft 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Вы можете отслеживать добавление гостей в Azure AD или Центре безопасности Microsoft 365. Добавление гостя в Microsoft Teams проходит аудит и регистрируется в журнале администрирования групп Azure AD в виде записи "Added member to group" (Добавление участника в группу). Дополнительные сведения можно найти в разделе [Аудит и создание отчетов о пользователях совместной работы в B2B](https://docs.microsoft.com/azure/active-directory/external-identities/auditing-and-reporting) и [Поиск в журнале аудита в центре соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="related-topics"></a>Статьи по теме
 
-[Авторизация гостевого доступа в Microsoft Teams](teams-dependencies.md)</br>
-[Включение и отключение гостевого доступа в Microsoft Teams](set-up-guests.md)</br>
-[Использование PowerShell для управления гостевым доступом в команде](guest-access-powershell.md)
+[Авторизация гостевого доступа в Microsoft Teams](teams-dependencies.md)
+
+[Включение и отключение гостевого доступа в Microsoft Teams](set-up-guests.md)
