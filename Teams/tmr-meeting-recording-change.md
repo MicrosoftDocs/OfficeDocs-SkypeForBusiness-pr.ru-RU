@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269643"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346340"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -126,3 +126,7 @@ ms.locfileid: "48269643"
 **Как можно воспроизвести запись собрания группы?**
 
 Видео будет воспроизводиться на видеопроигрывателе OneDrive для бизнеса или SharePoint в зависимости от того, где вы хотите получить доступ к файлу.
+
+**Если вы планируете использовать устаревшее Добавление в поток, видеоролики будут оставаться как есть и как долго?**
+
+Поток как платформа не будет считаться устаревшим в ближайшем будущем. Видеоролики, которые в настоящее время проживают в потоке, будут оставаться на связи, пока не начнется перенос. После миграции эти видеоролики также будут перенесены в ODSP. Для получения дополнительных сведений ознакомьтесь с [этой страницей](https://docs.microsoft.com/stream/streamnew/classic-migration) .

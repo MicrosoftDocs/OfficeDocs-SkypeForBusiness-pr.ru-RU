@@ -19,20 +19,21 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170963"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346200"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
 Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое.
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Значок с изображением руки и стрелкой вверх](media/get-started-blue-small.svg)  | [Быстро приступите к работе с несколькими группами и каналами](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Значок, описывающий галочку](media/success-small.svg)  | [Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Значок, который показывает двух пользователей](media/users-people-small.svg)  | [Обучение пользователей](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![Символ в буфере обмена задачами](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams 30: серия обучающих курсов для ИТ-администраторов и руководителей управления изменениями для внедрения групп через 30 дней](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![Значок с изображением руки и стрелкой вверх](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Быстро приступите к работе с несколькими группами и каналами](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Значок, который показывает двух пользователей](https://docs.microsoft.com/office/media/icons/users-people.png) | [Обучение пользователей](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![Значок, описывающий галочку](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Символ в буфере обмена задачами](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams 30: серия обучающих курсов для ИТ-администраторов и руководителей управления изменениями для внедрения групп через 30 дней](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>Техническое обучение</h2>
 
@@ -73,7 +74,7 @@ ms.locfileid: "48170963"
 
 | Название                                                                       | Выделяет                                                                                                                                                                                                               |  Ссылка на руководство                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Идентификация, управление доступом & защита от угроз для Teams                   | Сведения о том, как использовать центры администрирования Майкрософт и PowersShell для настройки политик доступа и удостоверений и включения Office 365 Advanced Threat Protection для Teams                                                            | [Руководство по безопасности Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Идентификация, управление доступом & защита от угроз для Teams                   | Инструкции по настройке политик доступа и удостоверений в Office 365, а также о том, как использовать Microsoft Windows для администраторов Advanced Threat Protection для Teams                                                            | [Руководство по безопасности Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Управление соответствием в Teams                                                | Используйте центры безопасности Microsoft 365, Microsoft 365 и Microsoft Teams, а также Windows PowerShell для 365 управления политиками и параметрами Microsoft Teams в Организации и их настройки. | [Управление соответствием в руководстве по Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Консультант по teams: развертывание чатов, групп, каналов и приложений в Microsoft Teams | В этой статье рассказывается о том, как использовать помощник по Teams для оценки среды и построения плана для развертывания чатов, групп, каналов и приложений.                                                                                         |  [Руководство по Team Advisor](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Упрощение администрирования Teams с помощью PowerShell и динамических групп        | Преобразование группы Office 365 из статического членства в динамический и использование Windows PowerShell для назначения новой политики разрешений приложений всем пользователям.                                                                         |  [Упрощение руководства по администрированию Teams](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ ms.locfileid: "48170963"
 | Настройка руководства в Microsoft Teams                                     | Сведения о создании политики хранения сообщений Teams для Организации, а также о том, как архивировать, удалять и восстанавливать отдельные команды.                                                                                   |  [Настройка руководства в Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Настройка и развертывание собраний Microsoft Teams                          | Пошаговое руководство по развертыванию рабочей нагрузки для собраний в Microsoft Teams.                                                                                                                                       |  [Настройка и развертывание руководства по собраниям Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Настройка голосовой конференции для Microsoft Teams                            | Ознакомьтесь с возможностями голосовой конференции в Teams и научитесь назначать мосты и телефонные номера для телефонного подключения.                                                                                          |  [Настройка программы голосовой конференции в Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Настройка Microsoft Teams для Fisrtline работников                           | В этой статье рассказывается о том, как настроить и развернуть подданную среду Microsoft Teams для Firstlineных сотрудников.                                                                                                                  | [Руководство по настройке Microsoft Teams для Firstline Worker](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Настройка Microsoft Teams для Firstline работников                           | В этой статье рассказывается о том, как настроить и развернуть подданную среду Microsoft Teams для Firstlineных сотрудников.                                                                                                                  | [Руководство по настройке Microsoft Teams для Firstline Worker](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Краткие руководства по началу работы</h2>
 
@@ -98,5 +99,5 @@ ms.locfileid: "48170963"
 
 <h2>Курсы</h2>
 
-- [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Включение функции совместной работы с Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)

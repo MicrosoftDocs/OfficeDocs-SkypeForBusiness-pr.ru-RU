@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Узнайте, как включить или отключить функцию гостевой доступа в Microsoft Teams в качестве администратора Office 365.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: Узнайте, как включить или отключить функцию гостевой доступа в Microsoft Teams в качестве администратора Office 365.
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333249"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346330"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Включение и отключение гостевого доступа для Microsoft Teams
 
-По умолчанию гостевой доступ отключен. Как администратор Microsoft 365 или Office 365 вы должны включить гостевой доступ для Teams, прежде чем администратор или владелец группы смогут добавить гостей.
+По умолчанию гостевой доступ отключен. Вы должны включить гостевой доступ для Teams, прежде чем администраторы или владельцы групп смогут добавить гостей.
 
 После включения гостевого доступа может пройти несколько часов, чтобы изменения вступили в силу. Если пользователь попытается добавить в группу гостя сообщение "обратитесь к своему администратору", возможно, что гостевой доступ не включен или параметры еще не вступают в силу.
 
@@ -35,7 +36,7 @@ ms.locfileid: "48333249"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Настройка гостевого доступа в центре администрирования Teams
 
-1. Войдите в Центр администрирования Microsoft Teams.
+1. Войдите в [центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/).
 
 2. Выберите **Параметры на уровне организации** > **Гостевой доступ**.
 
@@ -63,6 +64,8 @@ ms.locfileid: "48333249"
       - **Использование мемов в беседах**. **Включите** этот параметр, чтобы разрешить гостям использовать мемы в беседах.
       - **Использование стикеров в беседах**. **Включите** этот параметр, чтобы разрешить гостям использовать стикеры в беседах. 
 
+    ![Параметры разрешений гостя в Teams](media/manage-guest-access-image1.png)
+
 5. Нажмите кнопку **Сохранить**.
 
 ## <a name="external-access-federation-vs-guest-access"></a>Сравнение внешнего (федерация) и гостевого доступа
@@ -70,6 +73,8 @@ ms.locfileid: "48333249"
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>См. также
+
+[Настройка безопасной совместной работы с помощью Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Блокировка гостевых пользователей для определенной команды](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 

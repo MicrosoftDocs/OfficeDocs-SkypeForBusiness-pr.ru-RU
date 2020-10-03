@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: В одном месте вы найдете обновления для Skype для бизнеса Server 2015/2019 и Lync 2013 и управляйте ими. Чтобы узнать больше об обновлениях и скачать их, воспользуйтесь ссылками на этой странице.
-ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: a6b93c7b0428073e9a13808fae1515b2e1c0b344
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814318"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341033"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления для Skype для бизнеса Server
 
@@ -32,6 +32,7 @@ ms.locfileid: "47814318"
 
 |Имя пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительный пакет обновления 4 (SP4) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2020 г. |
 |Накопительный пакет обновления 3 (SP1) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Июль 2020 г. |
 |Накопительный пакет обновления 3 для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Март 2020 г. |
 |Накопительный пакет обновления 2 (SP2) для Skype для бизнеса Server 2019 |[СТАТЬЯ БАЗЫ ЗНАНИЙ 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
@@ -244,7 +245,7 @@ ms.locfileid: "47814318"
 
 Посетите веб-сайт загрузки [набора ресурсов Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) , чтобы скачать главы книги по отдельности или скачать ZIP-файл, содержащий [все 19 глав из набора ресурсов Resource Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
-### <a name="group-chat"></a>Групповой чат
+### <a name="group-chat"></a>Group Chat
 
 Имя или ссылка пакета|Дата выпуска|
 |:--- |:--- |
