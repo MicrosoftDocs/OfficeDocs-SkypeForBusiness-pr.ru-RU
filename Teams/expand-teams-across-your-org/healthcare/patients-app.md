@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Узнайте о том, как интегрировать электронные записи в здравоохранение в приложение Microsoft Teams пациентов с помощью API-интерфейсов FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1046037ff2cac7f98b9a34ede05a4b30ce793d6c
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 29bb5b32cdd6e2f0d819adcc610639929921d078
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277297"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361389"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Интеграция электронных историй болезни в Microsoft Teams
 
 > [!IMPORTANT]
-> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+> **Эффективная работа с 15 октября 2020 г. приложение пациентов будет устаревшим, и пользователи больше не смогут установить его из магазина приложений Teams. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >

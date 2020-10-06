@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Администратор может прочитать заметки о выпуске для комнат Microsoft Teams, в которых перечислены накопительные улучшения в комнатах Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328228"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361499"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -74,6 +74,10 @@ ms.locfileid: "48328228"
 - Просмотр дополнительных видео с коллекцией видео 3x3 на лицевой стороне экрана  
 - Начало работы с локальными субтитрами в прямом эфире из MTR 
 - Присоединение к собраниям из комнат групп с помощью прямого гостя (Предварительная версия)
+
+> [!NOTE]
+> Коллекция видео 3x3 и локальные субтитры с субтитрами доставляются в рамках службы Microsoft Teams. Эти возможности доступны для всех комнат Teams в 4.5.37.0 и более поздних версиях приложения. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

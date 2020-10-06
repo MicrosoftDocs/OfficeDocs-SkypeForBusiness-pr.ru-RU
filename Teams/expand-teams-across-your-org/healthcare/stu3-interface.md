@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: Сведения о том, как интегрировать электронные записи о работоспособности в приложение Microsoft Teams пациентов и спецификацию интерфейса STU3.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 1c5e19ff28c67641ac5b643e1944bf2435fbf164
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277213"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361349"
 ---
 # <a name="stu3-interface-specification"></a>Характеристики интерфейса STU3
 
 > [!IMPORTANT]
-> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+> **Эффективная работа с 15 октября 2020 г. приложение пациентов будет устаревшим, и пользователи больше не смогут установить его из магазина приложений Teams. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >

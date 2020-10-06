@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Узнайте о функциях, которые необходимо учитывать для обеспечения бесперебойной работы, а также в том, чтобы обеспечить согласованность, безопасный обмен сообщениями, EHR интеграция и firstlineную интеграцию рабочих систем.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2257c82d602146210b217e396d65ebb1fdcb90f6
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 68954745bc1631e2031fce80ff1681056e9f4bdd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277272"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361589"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций в сфере здравоохранения
 
@@ -40,7 +40,7 @@ Microsoft Teams предоставляет ряд функций, полезны
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Координация координирования — приложение Microsoft Teams пациентов
 
 > [!IMPORTANT]
-> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+> **Эффективная работа с 15 октября 2020 г. приложение пациентов будет устаревшим, и пользователи больше не смогут установить его из магазина приложений Teams. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >

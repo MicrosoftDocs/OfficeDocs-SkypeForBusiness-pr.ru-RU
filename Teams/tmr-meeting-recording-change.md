@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346340"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361339"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -85,7 +85,7 @@ ms.locfileid: "48346340"
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Отказ от OneDrive для бизнеса и SharePoint для продолжения использования потока
 
-Даже если политика говорит о том, что для нее уже задано значение **Stream**, возможно, она не задана. Если для него установлено значение Nothing, по умолчанию используется Stream. Если вы хотите отказаться от этого, **необходимо** сбросить политику на **Stream** , чтобы обеспечить, чтобы поток был установлен по умолчанию.
+Даже если политика сообщает, что она настроена на **поток**, она может быть не настроена. Как правило, если политика не задана, по умолчанию используется значение **Stream**. Тем не менее, если вы хотите отказаться от использования SharePoint или OneDrive с новым изменением, необходимо сбросить политику в **Stream** , чтобы убедиться, что она используется по умолчанию.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в Австрии для Microsoft Teams.
-ms.openlocfilehash: 5924296d98696b0505b4ebad3d4b6b2d41cbebe0
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 4653dd744460dffc3407867e27d51f41f9fbb5a5
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324245"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361779"
 ---
 # <a name="phone-number-management-for-austria"></a>Управление номерами телефонов для Австрии
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324245"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Скачайте эту форму. <br/>  [Новый запрос на номер телефона для Австрии (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/>  <br/>Кроме того, необходимо включить счет служебной программы из бизнес-адреса, для которого вы хотите получить новые номера. <br/> 
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Загрузите одну из этих форм. <br/>  [Новый запрос на номер телефона для Австрии (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Новый запрос на телефонный номер для Австрии (v. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/>  <br/>Кроме того, необходимо включить счет служебной программы из бизнес-адреса, для которого вы хотите получить новые номера. <br/> 
 |Получение телефонных номеров, перенесенных в США.  <br/> | Скачайте эту форму. <br/>[Адрес для проверки подлинности (LOA) для Австрии (все номера) (v. 5.0) (de-AT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).  <br/> <br/>Кроме того, необходимо включить счет служебной программы из бизнес-адреса, для которого вы хотите передать номера.<br/> |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |

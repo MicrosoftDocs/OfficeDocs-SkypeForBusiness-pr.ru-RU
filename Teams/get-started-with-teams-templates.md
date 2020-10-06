@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294605"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361659"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Начало работы с шаблонами Teams с помощью Microsoft Graph
 
@@ -73,12 +73,12 @@ ms.locfileid: "48294605"
 | Получен<br>Группа сотрудников | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Приложения<ul><li>Служебная Записная книжка OneNote (закреплена на вкладке " **Общие** ")</li></ul> |
 |Получен<br>Группа с группой |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Приложения<ul><li>Записная книжка OneNote, закрепленная на вкладке " **Общие** "</ul></li>|
 | Магазины<br>Хранилище | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Дистрибутор<ul><li>Переносится смена</li><li>Образователь</li></ul>Свойства группы<ul><li>Для видимости команды установлено значение Public</li></ul>Разрешения для участников<ul><li>Запретить участникам создавать, обновлять и удалять каналы</li><li>Запретить пользователям добавлять или удалять приложения</li><li>Запретить пользователям создавать, обновлять и удалять соединители</li></ul> |
-| Магазины<br>Совместная работа руководителя | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Дистрибутор<ul><li>Переносится смена</li><li>Образователь</li></ul>Свойства группы:<ul><li>Для видимости команды установлено значение Private</li></ul>Разрешения для участников:<ul><li>Запретить участникам создавать, обновлять и удалять каналы</li><li>Запретить пользователям добавлять или удалять приложения</li><li>Запретить пользователям создавать, обновлять и удалять соединители</li></ul>|
+| Магазины<br>Совместная работа руководителя | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Дистрибутор<ul><li>Образователь</li><li>Операции</li></ul>Свойства группы:<ul><li>Для видимости команды установлено значение Private</li></ul>Разрешения для участников:<ul><li>Запретить участникам создавать, обновлять и удалять каналы</li><li>Запретить пользователям добавлять или удалять приложения</li><li>Запретить пользователям создавать, обновлять и удалять соединители</li></ul>|
 | Учреждений<br>Порядке |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Дистрибутор <ul><li>Обслуживании\*</li><li>Huddles\*</li><li>До</li><li>Штата\*</li><li>Обучение\*</li></ul>\*Автоматически добавленные в избранное каналы |
 |Учреждений<br>Больница | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Дистрибутор<ul><li>Обслуживании\*</li><li>Соответствие требованиям\*</li><li>Custodial</li><li>Человеческие ресурсы</li></li><li>Pharmacy</li></ul>\*Автоматический избранный канал|
 |||
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Начало работы с шаблонами групп на консоли администрирования](get-started-with-teams-templates-in-the-admin-console.md)
 - [Создание команды](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (в предварительной версии)

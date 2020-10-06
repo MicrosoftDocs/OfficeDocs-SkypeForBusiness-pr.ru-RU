@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Приложение пациентов для администраторов Teams
-ms.openlocfilehash: c377ce2db985b19fa576df9519ebd602b56814eb
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 0c37909e6a72ed83c2c499eb3b7de449a9239f80
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277244"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361479"
 ---
 # <a name="patients-app-overview"></a>Обзор приложения для пациентов
 
 > [!IMPORTANT]
-> **Действующий 30 сентября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+> **Эффективная работа с 15 октября 2020 г. приложение пациентов будет устаревшим, и пользователи больше не смогут установить его из магазина приложений Teams. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >
@@ -75,6 +75,6 @@ ms.locfileid: "48277244"
 
 Да, есть. Каждое действие в пользовательском интерфейсе, выполненное пользователем Microsoft Teams в приложении пациентов, подлежит аудиту и доступно в центре безопасности и соответствия требованиям. Эти сведения описаны в [журналах аудита для приложения пациентов](patients-audit.md).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Интеграция электронных историй болезни в Microsoft Teams](patients-app.md)

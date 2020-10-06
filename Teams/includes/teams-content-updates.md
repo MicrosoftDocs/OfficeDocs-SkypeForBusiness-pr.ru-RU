@@ -277,3 +277,112 @@
 | 9/25/2020 | [Модели удостоверений и проверка подлинности в Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | Изменено |
 | 9/25/2020 | [Управление приложением "списки" для Организации](/MicrosoftTeams/manage-lists-app) | Изменено |
 | 9/25/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+
+
+## <a name="week-of-september-28-2020"></a>Неделя 28 сентября 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 9/28/2020 | [Создание настраиваемого шаблона группы в Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Изменено |
+| 9/28/2020 | [Создание шаблона на основе существующей группы в Microsoft Teams](/MicrosoftTeams/create-template-from-existing-team) | Изменено |
+| 9/28/2020 | [Создание нового шаблона на основе существующего шаблона группы в Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | Изменено |
+| 9/28/2020 | [Использование шаблонов здравоохранения в Teams на консоли администрирования](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 9/28/2020 | [Шаблоны для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | Изменено |
+| 9/28/2020 | [Начало работы с финансовыми шаблонами Teams с помощью консоли администрирования](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Использование общих шаблонов групп на консоли администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Начало работы с шаблонами Teams для розничной торговли](/MicrosoftTeams/get-started-with-retail-teams-templates) | Изменено |
+| 9/28/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Начало работы с шаблонами Teams с помощью Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | Изменено |
+| 9/28/2020 | [Использование шаблонов правительства группы на консоли администрирования](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Начало работы с шаблонами производства Teams на консоли администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Использование розничных шаблонов Teams в консоли администрирования](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | Изменено |
+| 9/28/2020 | [Настройка лицензий на общие устройства с телефонным пространством](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
+| 9/28/2020 | [Шаблоны групп для малых и средних организаций, созданных с помощью Microsoft Graph](/MicrosoftTeams/smb-templates) | Изменено |
+| 9/28/2020 | [Управление обнаружением закрытых команд в Microsoft Teams](/MicrosoftTeams/manage-discovery-of-private-teams) | Изменено |
+| 9/28/2020 | [Управление политиками Teams в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
+| 9/29/2020 | [Управление топологией сети для облачных функций голосовой связи в Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | Изменено |
+| 9/29/2020 | [Голосовая связь в Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Изменено |
+| 9/29/2020 | [Создание настраиваемого шаблона группы в Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Изменено |
+| 9/29/2020 | [Создание шаблона на основе существующей группы в Microsoft Teams](/MicrosoftTeams/create-template-from-existing-team) | Изменено |
+| 9/29/2020 | [Создание нового шаблона на основе существующего шаблона группы в Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | Изменено |
+| 9/29/2020 | [Использование шаблонов здравоохранения в Teams на консоли администрирования](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 9/29/2020 | [Использование общих шаблонов групп на консоли администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
+| 9/29/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 9/29/2020 | [Использование шаблонов правительства группы на консоли администрирования](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Изменено |
+| 9/29/2020 | [Документация администратора Microsoft Teams # < 60 знаков](/MicrosoftTeams/index) | Изменено |
+| 9/29/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 9/29/2020 | [Начало работы с шаблонами производства Teams на консоли администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
+| 9/29/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 9/29/2020 | [Использование розничных шаблонов Teams в консоли администрирования](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | Изменено |
+| 9/29/2020 | [Проверка подлинности в комнатах Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | Изменено |
+| 9/29/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 9/29/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 9/29/2020 | [Использование NDI в Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | Изменено |
+| 9/30/2020 | [Переход со Skype для бизнеса на Teams: вопросы и ответы](/MicrosoftTeams/faq-journey) | Изменено |
+| 9/30/2020 | [Доступность в Австрии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | Изменено |
+| 9/30/2020 | [Доступность в Бельгии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | Изменено |
+| 9/30/2020 | [Доступность в Дании](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | Изменено |
+| 9/30/2020 | [Доступность во Франции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | Изменено |
+| 9/30/2020 | [Доступность в Германии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | Изменено |
+| 9/30/2020 | [Доступность в Италии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | Изменено |
+| 9/30/2020 | [Доступность в Португалии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | Изменено |
+| 9/30/2020 | [Доступность в Швеции](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | Изменено |
+| 9/30/2020 | [Доступность в Швейцарии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | Изменено |
+| 9/30/2020 | [Сведения о доступности страны/региона – голосовые конференции, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Австралии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Бельгии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Канаде](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов во Франции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Германии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Ирландии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов для Японии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Испании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов в Нидерландах](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | Изменено |
+| 9/30/2020 | [Управление номерами телефонов для Великобритании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | Изменено |
+| 9/30/2020 | [Управление телефонными номерами для Соединенных Штатов](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | Изменено |
+| 9/30/2020 | [Расширенная надстройка для связи в Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Изменено |
+| 9/30/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 9/30/2020 | [Настройка политик живых событий с помощью PowerShell](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Изменено |
+| 9/30/2020 | [Общие сведения о записи на основе политики в Teams для собраний по звонкам &](/MicrosoftTeams/teams-recording-policy) | Изменено |
+| 9/30/2020 | [Ограничения и запреты для бесплатных номеров](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | Изменено |
+| 9/30/2020 | [Ограничения набора бесплатных номеров в Дании](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | Изменено |
+| 9/30/2020 | [Ограничения набора бесплатных номеров в Португалии](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | Изменено |
+| 9/30/2020 | [Ограничения набора бесплатных номеров в Швеции](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | Изменено |
+| 9/30/2020 | [Соответствие требованиям к общению с Microsoft Teams](/MicrosoftTeams/communication-compliance) | Изменено |
+| 9/30/2020 | [Управление приложением благодарность в центре администрирования Teams](/MicrosoftTeams/manage-praise-app) | Изменено |
+| 9/30/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 9/30/2020 | [Лицензии на надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
+| 9/30/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | Изменено |
+| 9/30/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | Изменено |
+| 9/30/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | Изменено |
+| 10/1/2020 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 10/1/2020 | [Экспорт контента с помощью API экспорта Microsoft Teams](/MicrosoftTeams/export-teams-content) | Изменено |
+| 10/1/2020 | Использование PowerShell для управления гостевым доступом в команде | Удалено |
+| 10/1/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 10/1/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 10/1/2020 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
+| 10/1/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 10/1/2020 | [Просмотр разрешений приложения и предоставление согласия администратора в центре администрирования Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | Изменено |
+| 10/1/2020 | [Управление приложениями в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
+| 10/1/2020 | [Заметки о выпуске для Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 10/1/2020 | [Поддержка версий](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
+| 10/1/2020 | [Обучение администраторов Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | Изменено |
+| 10/1/2020 | [Использование NDI в Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | Изменено |
+| 10/2/2020 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 10/2/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 10/2/2020 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
+| 10/2/2020 | [Что такое кредиты на связь?](/MicrosoftTeams/what-are-communications-credits) | Изменено |
+| 10/2/2020 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Изменено |
+| 10/2/2020 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | Изменено |
+| 10/2/2020 | [Изменение сведений о гостевых пользователях](/MicrosoftTeams/edit-guests-information) | Изменено |
+| 10/2/2020 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
+| 10/2/2020 | [Работа гостя в Microsoft Teams](/MicrosoftTeams/guest-experience) | Изменено |
+| 10/2/2020 | Присоединение гостя к команде | Удалено |
+| 10/2/2020 | Управление гостевым доступом в Microsoft Teams | Удалено |
+| 10/2/2020 | [Управление номерами телефонов в Бельгии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Изменено |
+| 10/2/2020 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
+| 10/2/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 10/2/2020 | [Устранять проблемы с гостевым доступом в Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Изменено |
+| 10/2/2020 | [Просмотр гостевых пользователей в команде](/MicrosoftTeams/view-guests) | Изменено |

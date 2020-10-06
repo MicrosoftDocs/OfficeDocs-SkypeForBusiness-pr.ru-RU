@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Дании для Microsoft Teams.
-ms.openlocfilehash: 2c3c8e32ed0254c16f9e1f4b4968a505914bc2d3
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 3df6532531dd281c4695d4b94ecdffc82b9adde0
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324225"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361749"
 ---
 # <a name="phone-number-management-for-denmark"></a>Управление номерами телефонов для Дании
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324225"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Скачайте эту форму. <br/>  [Новый запрос на номер телефона для Дании (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Загрузите одну из этих форм. <br/>  [Новый запрос на номер телефона для Дании (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Новый запрос на номер телефона для Дании (v. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).
 |Получение телефонных номеров, перенесенных в США.  <br/> | Скачайте эту форму. <br/>[Разрешение письма (LOA) для Дании (все номера) (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |

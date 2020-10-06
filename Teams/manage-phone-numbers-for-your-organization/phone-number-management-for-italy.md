@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в Италии для Microsoft Teams.
-ms.openlocfilehash: 5a58e87f0e9ad53c541137ebe3366a49b6e27661
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: ea667b2211b221153ae5c66db1e87708f2e9cac4
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324085"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361709"
 ---
 # <a name="phone-number-management-for-italy"></a>Управление номерами телефонов для Италии
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324085"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Скачайте эту форму. <br>  [Новый запрос на номер телефона для Италии (версия. 5.0) (IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). |
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Загрузите одну из этих форм. <br>  [Новый запрос на номер телефона для Италии (версия. 5.0) (IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [Новый запрос на номер телефона для Италии (версия. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). |
 |Получение телефонных номеров, перенесенных в США.  <br/> | Скачайте эту форму. <br/>[Письмо об авторизации (LOA) для Италии (все номера) (v. 5.0) (ИТ)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.5.0)-(it-it).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |

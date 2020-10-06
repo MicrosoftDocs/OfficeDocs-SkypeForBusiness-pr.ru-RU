@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Швейцарии для Microsoft Teams.
-ms.openlocfilehash: feab44e6a6a6cc733ad0c13f2fc7c7c1133abe0f
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: e1fcc1de08256d0bc1ab0a8da95ebf9bc0f1450d
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324105"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361539"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Управление номерами телефонов для Швейцарии
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324105"
   
 |**Требуемое действие**|**Скачайте подходящие формы и отправьте их нам**|
 |:-----|:-----|
-|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Загрузите одну из этих форм. <br/>  [Новый запрос на телефонный номер для Швейцарии (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[Новый запрос на телефонный номер для Швейцарии (v. 5.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[Новый запрос на телефонный номер для Швейцарии (v. 5.0) (ИТ-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).|
+|Получение номеров телефонов для новых пользователей и служб, не указанных в центре администрирования Microsoft Teams.   <br/> |Загрузите одну из этих форм. <br/>  [Новый запрос на телефонный номер для Швейцарии (v. 5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[Новый запрос на телефонный номер для Швейцарии (v. 5.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[Новый запрос на телефонный номер для Швейцарии (v. 5.0) (ИТ-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [Новый запрос на телефонный номер для Швейцарии (v. 5.0) (EN-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com).|
 |Получение телефонных номеров, перенесенных в США.  <br/> | Загрузите одну из этих форм. <br/>[Буква авторизации (LOA) для Швейцарии (все номера) (v. 5.0) (de-CH)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[Буква авторизации (LOA) для Швейцарии (все номера) (v. 5.0) (ru-CH)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(fr-ch).pdf?raw=true)<br/>[Буква авторизации (LOA) для Швейцарии (все номера) (v. 5.0) (в-CH)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(it-ch).pdf?raw=true) <br/> <br/>Заполните ее и [отправьте его нам](mailto:ptneu@microsoft.com). <br/> |
 |Публикация и Отмена публикации номеров телефонов в каталоге национального телефона.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров телефонов для публикации или отмены публикации.      <br/> |
 |Изменение номера пользователя на номер Услуги.  <br/> |[Отправьте нам](mailto:ptneu@microsoft.com) список номеров пользователей, которые необходимо преобразовать в номера служб. <br/> |
