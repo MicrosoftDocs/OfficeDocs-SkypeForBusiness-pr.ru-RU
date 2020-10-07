@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Приложение пациентов для администраторов Teams
-ms.openlocfilehash: 0c37909e6a72ed83c2c499eb3b7de449a9239f80
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 1b6db686be1acbc7ee23be555c9794c644e5c5cc
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361479"
+ms.locfileid: "48367589"
 ---
 # <a name="patients-app-overview"></a>Обзор приложения для пациентов
 
 > [!IMPORTANT]
-> **Эффективная работа с 15 октября 2020 г. приложение пациентов будет устаревшим, и пользователи больше не смогут установить его из магазина приложений Teams. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
+> **Действующий 30 октября 2020 г. приложение пациентов будет признано устаревшим, и пользователи больше не смогут установить его из магазина App Store. Мы рекомендуем вам приступить к работе с [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams уже сегодня.**
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >

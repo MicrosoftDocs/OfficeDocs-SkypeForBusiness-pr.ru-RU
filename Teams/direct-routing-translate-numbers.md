@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 545d6a77fd9b3ee0462437b5b710d1d4eb782138
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077654"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369164"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Перевод телефонных номеров в альтернативный формат
 
@@ -30,7 +30,7 @@ ms.locfileid: "45077654"
 - Шаг 1. [Соединение SBC с телефонной системой Microsoft и проверка соединения](direct-routing-connect-the-sbc.md) 
 - Шаг 2. [Предоставление пользователям прямой маршрутизации, голоса и голосовой почты](direct-routing-enable-users.md)   
 - Шаг 3. [Настройка голосовой маршрутизации](direct-routing-voice-routing.md)
-- **Шаг 4. Перевод номеров в альтернативный формат** (в этой статье)
+- **Шаг 4. Перевод номеров в альтернативный формат**   (в этой статье)
 
 Сведения о всех шагах, необходимых для настройки прямой маршрутизации, приведены в статье [Настройка прямого маршрута](direct-routing-configure.md).
 
@@ -45,10 +45,10 @@ ms.locfileid: "45077654"
 
 Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)и [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
-Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе с параметрами InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRulesList, InboundPSTNNumberTranslationRulesList, OutboundTeamsNumberTranslationRulesList и OutboundPSTNNumberTranslationRulesList.
+Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе с параметрами InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules и OutboundPSTNNumberTranslationRules.
 
->[!NOTE]
-> Максимальное общее число правил перевода — 400, максимальная длина имени параметра перевода — 100 символов, максимальная длина шаблона параметра перевода — 1024 символов и максимальная длина перевода параметра перевода — 256 символа.
+> [!NOTE]
+> Максимальное общее число правил перевода — 400, максимальная длина имени параметра перевода — 100 символов, максимальная длина шаблона параметра перевода — 1024 символов, а максимальная длина перевода параметра перевода — 256 символа.
 
 
 ## <a name="example-sbc-configuration"></a>Пример настройки SBC
@@ -56,7 +56,7 @@ ms.locfileid: "45077654"
 Для этого сценария ```New-CsOnlinePSTNGateway``` запускается командлет для создания следующей конфигурации SBC:
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 Правила перевода, назначенные SBC, описаны в таблице ниже.
@@ -78,9 +78,9 @@ SBC использует 2065550100 в RequestURI, а к заголовкам и
 
 |Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:2065550100@sbc.contoso.com|ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
-|Кому    |Кому:\<sip:2065550100@sbc.contoso.com>|Кому:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
-|От   |От:\<sip:4255550100@sbc.contoso.com>|От:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+|RequestURI  |ПРИГЛАСИТЬ sip:2065550100@sbc.contoso.com|ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|Кому    |Кому: \<sip:2065550100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
+|От   |От: \<sip:4255550100@sbc.contoso.com>|От: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Пример 2: входящий звонок на четырехзначный номер
 
@@ -90,9 +90,9 @@ SBC использует 0100 в RequestURI, а к заголовкам и 42555
 
 |Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
-|Кому    |Кому:\<sip:0100@sbc.contoso.com>|Кому:\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
-|От   |От:\<sip:4255550100@sbc.contoso.com>|От:\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
+|От   |От: \<sip:4255550100@sbc.contoso.com>|От: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Пример 3: исходящий звонок с использованием 10-значного номера, отличного от числа E. 164.
 
@@ -104,9 +104,9 @@ SBC настроен на использование не-E. 164 десяти-з
 
 |Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:+14255550100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
-|Кому    |Кому:\<sip:+14255550100@sbc.contoso.com>|Кому:\<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
-|От   |От:\<sip:+12065550100@sbc.contoso.com>|От:\<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+|RequestURI  |ПРИГЛАСИТЬ sip:+14255550100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
+|Кому    |Кому: \<sip:+14255550100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
+|От   |От: \<sip:+12065550100@sbc.contoso.com>|От: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Пример 4: исходящий звонок, использующий 4-значный номер, отличный от E. 164.
 
@@ -116,9 +116,9 @@ SBC настроен на использование не-E. 164 4-значны�
 
 |Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com           |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
-|Кому    |Кому:\<sip:0100@sbc.contoso.com>|Кому:\<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|От   |От:\<sip:+12065550100@sbc.contoso.com>|От:\<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
+|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com           |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|От   |От: \<sip:+12065550100@sbc.contoso.com>|От: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 
 ## <a name="see-also"></a>См. также
 

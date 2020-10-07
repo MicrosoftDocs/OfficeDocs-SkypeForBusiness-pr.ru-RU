@@ -18,19 +18,19 @@ description: Примеры использования PowerShell для нас�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d83dd66914c835f62028fc4941da34646c75411d
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: e49c2dca91dca56366dd6b8a8ce460547043c120
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320804"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369154"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
 Вы можете использовать следующие командлеты Windows PowerShell для задания и назначения параметров политики для событий Live Events в teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 
@@ -145,7 +145,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Связанные статьи
+### <a name="related-topics"></a>Статьи по теме
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
 - [Обзор PowerShell в Teams](../teams-powershell-overview.md)
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361339"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369174"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -95,7 +95,7 @@ ms.locfileid: "48361339"
 
 **Где будет храниться запись собрания?**
 
-- Для собраний, не являющихся каналами, запись сохраняется в папке с именем. Записи * * находятся на высшем уровне OneDrive, принадлежащем пользователю, который запустил запись собрания. Образом
+- Для собраний, не являющихся каналами, запись сохраняется в папке с **именем "** Records", которая находится на верхнем уровне OneDrive, принадлежащем пользователю, который запустил запись собрания. Образом
 
   <i>OneDrive для бизнеса</i> / с записью **Записи**
 
