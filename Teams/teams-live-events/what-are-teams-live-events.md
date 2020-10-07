@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203962"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367679"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -67,7 +67,7 @@ Teams предоставляет возможность организаторо
     ![Снимок экрана, на котором показано событие Live, созданное с помощью внешнего приложения или устройства](../media/teams-live-events-external-encoder.png "Снимок экрана, показывающий событие Live, которое создается с помощью внешнего приложения или производственного метода устройства")
 
 >[!Note]
-> Поэтапный подход к изменению с помощью Microsoft Stream для [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) . На этапе запуска вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и в некоторых случаях на раннем этапе 2021 мы постараемся, чтобы все пользователи могли использовать OneDrive для бизнеса и SharePoint для новых записей о собраниях.
+> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний.
 
 ### <a name="streaming-platform"></a>Потоковая платформа
 Платформа потоковой передачи событий Live состоит из следующих элементов:
@@ -80,6 +80,7 @@ Teams предоставляет возможность организаторо
 - [Куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Снижение](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участником 
 Взаимодействие с участниками — наиболее важный аспект событий Live Events, и важно, чтобы участники могли принимать участие в событии Live без каких-либо проблем. Интерфейс участника использует потоковый проигрыватель (для событий, происходящих в Teams) и проигрыватель Azure Media (для событий, полученных во внешнем приложении или на устройстве), и работает на компьютере, в браузере и на мобильных устройствах (iOS, Android). Microsoft 365 и Office 365 предоставляют Yammer и Teams в качестве двух концентраторов для совместной работы, а взаимодействие с интерактивным участником интегрировано в эти средства для совместной работы. 
