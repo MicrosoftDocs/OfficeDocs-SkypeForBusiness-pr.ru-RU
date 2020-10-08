@@ -693,6 +693,14 @@
 ### "Смены" для Teams
 #### ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Управление приложением "Смены"](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### Приложение "Пациенты"
+#### [Обзор приложения для пациентов](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### Интеграция электронных историй болезни в приложение "Пациенты"
+##### [Интеграция электронных историй болезни в приложение "Пациенты" с использованием API FHIR](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Спецификация интерфейса DSTU2 для приложения "Пациенты"](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Спецификация интерфейса STU3 для приложения "Пациенты"](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Подключение приложения "Пациенты" к Azure API для FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [Журналы аудита приложения "Пациенты"](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
