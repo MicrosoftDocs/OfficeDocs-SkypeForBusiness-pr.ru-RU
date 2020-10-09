@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177229"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389877"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -42,7 +42,7 @@ ms.locfileid: "48177229"
 > [!TIP]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
-Классическое приложение Microsoft Teams является автономным и также [доступно в приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается в 32-и 64-разрядных версиях Windows (8,1 или более поздних версий) и Windows Server (2012 R2 или более поздней версии), а также для macOS и Linux (in `.deb` и `.rpm` formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
+Классическое приложение Microsoft Teams является автономным и также [доступно в приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается для 32-разрядных и 64-разрядных версий Windows (8,1 или более поздних), ARM64 для Windows 10 на ARM, Windows Server (2012 R2 или более поздней версии), а также для macOS и Linux (in `.deb` и `.rpm` formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux, диспетчеры пакетов, такие как `apt` и `yum`, пытаются установить любые требования. Однако, если этого не произойдет, вам нужно будет установить все заявленные требования перед установкой Teams в Linux.
 
 Классические клиенты поддерживают взаимодействие в реальном времени (звук, видео и общий доступ к контенту) для собраний команды, групповых звонков и частных индивидуальных звонков.
 

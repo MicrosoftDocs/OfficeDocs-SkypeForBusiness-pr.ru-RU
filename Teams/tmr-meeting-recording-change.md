@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369174"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389937"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
 > [!Note]
 > Переход с использования Microsoft Stream на OneDrive для бизнеса и SharePoint для записей собраний будет поэтапным процессом. При запуске Администраторы клиентов могут выбрать этот вариант рабочего процесса сегодня и начать просмотр записей с автоматическим добавлением в OneDrive для бизнеса и SharePoint в октябре 2020. В ноябре вам придется отказаться от использования Stream, и на раннем этапе 2021 потребуется, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собрания.
 
-В Microsoft Teams имеется новый способ сохранения записей собраний. Как и в случае с потоком, этот метод использует Microsoft OneDrive и SharePoint в Microsoft 365 и предоставляет множество преимуществ.
+В Microsoft Teams имеется новый способ сохранения записей собраний. В качестве первого этапа перехода из классической версии Microsoft Stream в [новый поток](https://docs.microsoft.com/stream/streamnew/new-stream)этот метод сохраняет записи в Microsoft OneDrive и SharePoint в Microsoft 365 и предоставляет множество преимуществ.
 
 С помощью OneDrive для бизнеса и SharePoint для хранения записей доступны следующие преимущества:
 
@@ -102,6 +102,10 @@ ms.locfileid: "48369174"
 - Для собраний по каналам запись сохраняется в библиотеке документации сайта Teams в папке с именем Records ( **записи**). Образом
 
   <i>Имя группы: название канала</i> / **Документы** / **Записи**
+
+**Как обрабатывать записи от бывших сотрудников?**
+
+Так как видеоролики похожи на любые другие файлы в OneDrive и SharePoint, обработка владельца и хранение после выхода сотрудника будет пройдет за обычный [процесс OneDrive и SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **У кого есть разрешения на просмотр записи собрания?**
 

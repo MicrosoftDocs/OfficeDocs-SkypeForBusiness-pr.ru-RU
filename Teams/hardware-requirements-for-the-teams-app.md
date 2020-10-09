@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff7a65127d94882c73b6bf85ff2a01e168f2da4a
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341013"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389887"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "48341013"
 |Жесткий диск    | 3,0 ГБ свободного пространства на жестком диске        |
 |Отображение    |   Разрешение экрана 1024 x 768 |
 |Графическое оборудование |  ОПЕРАЦИОННАЯ система Windows: для графического аппаратного ускорения требуется DirectX 9 или более поздней версии с WDDM 2,0 или выше для Windows 10 (или WDDM 1,3 или более поздней версии для устройств с Windows 10 для создателя обновлений)
-|Операционная система  |    Windows 10, Windows 8,1, Windows Server 2019, Windows Server 2016|
+|Операционная система  |    Windows 10, Windows 10 на ARM, Windows 8,1, Windows Server 2019, Windows Server 2016|
 |Версия .NET    |  Требуется .NET 4.5 CLR или более поздняя версия       |
 |Видео    |  Видеокамера USB 2.0       |
 |Устройства    |   Стандартная камера ноутбука, микрофон и динамики    |
