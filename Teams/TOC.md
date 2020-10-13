@@ -52,7 +52,7 @@
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 ## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
 ## Работа с шаблонами Teams
-### [Использование шаблонов Teams в консоли администратора](get-started-with-teams-templates-in-the-admin-console.md)
+### [Использование шаблонов Teams в центре администрирования](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Созданные в Graph шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
 ### [Создание пользовательского шаблона Teams](create-a-team-template.md)
 ### [Создание шаблона на основе существующей команды](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Безопасный обмен сообщениями для организаций здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Шаблоны Teams для организаций здравоохранения
-#### [Использование шаблонов Teams для здравоохранения в консоли администрирования](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Использование шаблонов Teams для здравоохранения в центре администрирования](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Управление приложением "Списки"](manage-lists-app.md)
 ### "Смены" для Teams
@@ -725,7 +725,7 @@
 ### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams для розничной торговли](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Начало работы в консоли администратора с шаблонами Teams для розничной торговли](retail-teams-templates-in-the-admin-console.md)
+### [Начало работы с шаблонами Teams для розничной торговли в центре администрирования](retail-teams-templates-in-the-admin-console.md)
 ### [Начало работы с шаблонами Teams для розничной торговли](get-started-with-retail-teams-templates.md)
 
 ## [Teams для государственных организаций](expand-teams-across-your-org/teams-for-government-landing-page.md)
