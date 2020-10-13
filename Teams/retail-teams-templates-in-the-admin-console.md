@@ -1,5 +1,5 @@
 ---
-title: Использование розничных шаблонов Teams в консоли администрирования
+title: Использование розничных шаблонов Teams в центре администрирования
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о том, как использовать шаблоны групп для создания структур групп, разработанных для продавцов, с помощью консоли администрирования, предоставляя предварительно определенные параметры, каналы и предустановленные приложения.
+description: Сведения о том, как использовать шаблоны групп для создания структур групп, разработанных для продавцов, предоставляя предопределенные параметры, каналы и предустановленные приложения с помощью центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77411e734ebbcfaea4d3e2a0454f48e43a8b8a7d
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 40e21687aa3d14b0cb9d51d4ba5f856eada3c538
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308332"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424569"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-console"></a>Использование розничных шаблонов Teams в консоли администрирования
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>Использование розничных шаблонов Teams в центре администрирования
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

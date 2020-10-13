@@ -1,5 +1,5 @@
 ---
-title: Использование общих шаблонов групп на консоли администрирования
+title: Использование общих шаблонов групп в центре администрирования
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Вы узнаете, как использовать общие шаблоны групп для создания структур групп, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью консоли администрирования.
+description: Сведения о том, как использовать общие шаблоны групп для создания структур групп, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308162"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424709"
 ---
-# <a name="use-general-teams-templates-in-the-admin-console"></a>Использование общих шаблонов групп на консоли администрирования
+# <a name="use-general-teams-templates-in-the-admin-center"></a>Использование общих шаблонов групп в центре администрирования
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

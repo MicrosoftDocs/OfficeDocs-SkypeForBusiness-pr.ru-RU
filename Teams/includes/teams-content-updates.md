@@ -386,3 +386,65 @@
 | 10/2/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 10/2/2020 | [Устранять проблемы с гостевым доступом в Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Изменено |
 | 10/2/2020 | [Просмотр гостевых пользователей в команде](/MicrosoftTeams/view-guests) | Изменено |
+
+
+## <a name="week-of-october-05-2020"></a>Неделя 5 октября 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 10/5/2020 | [Сеансы Teams на Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | Изменено |
+| 10/5/2020 | [Управление группами с помощью ролей администратора Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Изменено |
+| 10/5/2020 | [Создание команды для всей организации в Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | Изменено |
+| 10/5/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
+| 10/5/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
+| 10/5/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
+| 10/5/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
+| 10/5/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
+| 10/5/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
+| 10/5/2020 | [Начало работы с Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/5/2020 | [Начало работы с шаблонами Teams с помощью Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | Изменено |
+| 10/5/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Австрии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов в Бельгии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Дании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов во Франции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов в Германии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов в Ирландии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Италии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Португалия](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов в Испании](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Швеции](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов для Швейцарии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | Изменено |
+| 10/5/2020 | [Управление номерами телефонов в Нидерландах](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | Изменено |
+| 10/5/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 10/5/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 10/5/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 10/6/2020 | [Просмотр разрешений приложения и предоставление согласия администратора в центре администрирования Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | Изменено |
+| 10/6/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
+| 10/6/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
+| 10/6/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
+| 10/6/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
+| 10/6/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
+| 10/6/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
+| 10/6/2020 | [Начало работы с Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/6/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 10/6/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 10/6/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 10/6/2020 | [Сетевые конференции для голосовой конференции](/MicrosoftTeams/audio-conferencing-on-network) | Изменено |
+| 10/6/2020 | [Прямая маршрутизация – подключение аналоговых устройств](/MicrosoftTeams/direct-routing-analog-devices) | Изменено |
+| 10/6/2020 | [Перевод номеров телефонов для прямой маршрутизации](/MicrosoftTeams/direct-routing-translate-numbers) | Изменено |
+| 10/6/2020 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
+| 10/6/2020 | [Настройка политик живых событий с помощью PowerShell](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Изменено |
+| 10/6/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 10/6/2020 | [Требования для Microsoft Teams \| Улучшение службы](/MicrosoftTeams/upgrade-enhance-my-service) | Изменено |
+| 10/8/2020 | [Настройка голосовой конференции для малых и средних организаций](/MicrosoftTeams/audio-conferencing-smb) | Изменено |
+| 10/8/2020 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
+| 10/8/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 10/8/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 10/8/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 10/9/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 10/9/2020 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
+| 10/9/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 10/9/2020 | [Планирование управления в Teams — Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Изменено |
+| 10/9/2020 | [Планирование управления жизненным циклом](/MicrosoftTeams/plan-teams-lifecycle) | Изменено |

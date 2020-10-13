@@ -19,12 +19,12 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346200"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426934"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
@@ -56,9 +56,9 @@ ms.locfileid: "48346200"
 
 <h2>Группы комнат для ИТ-специалистов & AV-профессионалы</h2>
 
-<p>В приведенной ниже таблице содержатся ссылки на обучающие видеоматериалы с помощью плиток PowerPoint в комнатах Microsoft Teams.  
+<p>В следующей таблице приведены ссылки на обучающие видеоматериалы с помощью плиток PowerPoint (в формате PDF) в помещениях Microsoft Teams.  
 
-| Модуль | Видео | Набор слайдов PowerPoint  |
+| Модуль | Видео | Колода PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Модуль 1: Общие сведения о комнатах Microsoft Teams (18:29 мин) | [Видео](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Модуль 2: сеть Microsoft Teams (34:10 мин) | [Видео](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Крытий](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

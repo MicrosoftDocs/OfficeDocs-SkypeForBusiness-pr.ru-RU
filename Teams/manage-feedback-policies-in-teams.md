@@ -17,18 +17,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как использовать политики обратной связи для управления тем, могут ли пользователи Teams в организации отправлять отзывы о Teams в Майкрософт.
-ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0bece4515825a0d7ddf7e547f1607fbd6cf205cc
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938488"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433042"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Управление политиками обратной связи в Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Пользователи в вашей организации могут отправить отзыв о Teams в Майкрософт, чтобы сообщить нам, как мы делаем прямо в классической и веб-клиентах Teams. Мы постоянно улучшаем взаимодействие с Teams, и мы используем эту обратную связь, чтобы улучшить работу Teams.
+
+> [!NOTE]
+> Политики обратной связи недоступны в развертываниях GCC, GCC High или DOD.
 
 **Функция предоставления отзывов**
 

@@ -1,5 +1,5 @@
 ---
-title: Начало работы с шаблонами производства Teams на консоли администрирования
+title: Начало работы с шаблонами производства Teams в центре администрирования
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о том, как использовать. Шаблоны групп для создания структур групп, разработанных для производственных потребностей, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью консоли администрирования.
+description: Сведения о том, как использовать. Шаблоны групп для создания структур групп, разработанных для производственных потребностей, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308402"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424619"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>Использование шаблонов производства Teams в консоли администрирования
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>Использование шаблонов производства Teams в центре администрирования
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

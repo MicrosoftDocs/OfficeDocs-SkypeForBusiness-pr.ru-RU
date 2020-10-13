@@ -1,5 +1,5 @@
 ---
-title: Начало работы с финансовыми шаблонами Teams с помощью консоли администрирования
+title: Начало работы с финансовыми шаблонами Teams с помощью центра администрирования
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о том, как использовать. Шаблоны групп для создания структур групп, предназначенных для финансовых потребностей, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью консоли администрирования.
+description: Сведения о том, как использовать. Шаблоны групп для создания структур групп, предназначенных для финансовых потребностей, предоставляя предварительно определенные параметры, каналы и предустановленные приложения с помощью центра администрирования.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294415"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424609"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>Использование финансовых шаблонов Teams в консоли администрирования
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>Использование финансовых шаблонов Teams в центре администрирования
 
 Шаблоны групп позволяют быстро и легко создавать группы, предоставляя готовый шаблон параметров, каналов и предустановленных приложений.
 
