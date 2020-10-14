@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Ниже описаны открытые функции предварительного просмотра для голосовой конференции по сети.
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369184"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444215"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Открытие предварительной версии конференции по сети для голосовой конференции
 
@@ -38,7 +38,7 @@ ms.locfileid: "48369184"
 
 Перед настройкой конференции по сети убедитесь, что ваша организация соответствует следующим требованиям: 
 
-- Убедитесь, что все пользователи в вашей организации, которые включены или будут включены для голосовой конференции, работают только в режиме Teams. Маршрутизация входящей и исходящей голосовой связи через сетевую конференцию поддерживается только для собраний Teams.
+- Убедитесь, что все пользователи в вашей организации, которые включены или будут включены, для голосовой конференции используются группы для всех собраний. Маршрутизация входящей и исходящей голосовой связи через сетевую конференцию поддерживается только для собраний Teams.
 
 - Назначение лицензий на голосовую конференцию всем пользователям, которые будут использовать сетевую конференцию.
 
@@ -101,7 +101,7 @@ ms.locfileid: "48369184"
 
 Использование PSTN можно создать с помощью командлета Set-CsOnlinePstnUsage. Например:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 Вы можете создать голосовой маршрут и задать регулярное выражение и шлюзы, которые будут связаны с голосовыми маршрутами с помощью командлета New-CsOnlineVoiceRoute. Например:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 Вы можете создать политику маршрутизации голосовой связи с помощью командлета New-CsOnlineAudioConferencingRoutingPolicy. Например:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 Вы можете назначить политику маршрутизации голосовой связи для пользователя с помощью командлета Grant-CsOnlineAudioConferencingRoutingPolicy. Например:
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Настройка маршрутизации для оборудования телефонной связи в Организации
 
-На оборудовании организации телефонной связи необходимо убедиться, что звонки по исходящим звонкам, направляемые через прямую маршрутизацию, перенаправляются в нужное место.
+На оборудовании организации телефонной связи необходимо убедиться, что звонки по исходящим звонкам, направляемые через прямую маршрутизацию, перенаправляются в предназначенный для использования в сети адрес.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>Необязательно Настройка абонентской группы

@@ -16,17 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389937"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444235"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
 > [!Note]
-> Переход с использования Microsoft Stream на OneDrive для бизнеса и SharePoint для записей собраний будет поэтапным процессом. При запуске Администраторы клиентов могут выбрать этот вариант рабочего процесса сегодня и начать просмотр записей с автоматическим добавлением в OneDrive для бизнеса и SharePoint в октябре 2020. В ноябре вам придется отказаться от использования Stream, и на раннем этапе 2021 потребуется, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собрания.
+> Поэтапный подход к изменению с помощью Microsoft Stream для OneDrive для бизнеса и Microsoft SharePoint для записей собраний.
+
+|||
+|---|-----------------|
+|Дата|Событие|
+|Ранний квартал CY20|**Запись собрания Teams в OneDrive для бизнеса и SharePoint, доступных для использования или отказа от нее.**<br> Администраторы клиентов могут отказаться от использования OneDrive для бизнеса и SharePoint, указав политику Teams в PowerShell|
+|MID квартал CY20|**Запись собрания Teams в OneDrive для бизнеса и SharePoint по умолчанию настроены для клиентов, которые не отказывается**<br> Это рекомендуемый путь для большинства пользователей.|
+Q1 CY21|**Сохранение записи собрания группы в классическом потоке больше не разрешено**<br>Все клиенты будут сохранять запись собрания группы в OneDrive для бизнеса и SharePoint|
+|||
 
 В Microsoft Teams имеется новый способ сохранения записей собраний. В качестве первого этапа перехода из классической версии Microsoft Stream в [новый поток](https://docs.microsoft.com/stream/streamnew/new-stream)этот метод сохраняет записи в Microsoft OneDrive и SharePoint в Microsoft 365 и предоставляет множество преимуществ.
 
