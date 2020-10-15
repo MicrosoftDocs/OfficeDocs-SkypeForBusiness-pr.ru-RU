@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277284"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469565"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "списки" для Организации в Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview-of-lists"></a>Общие сведения о списках
 
@@ -116,6 +114,6 @@ ms.locfileid: "48277284"
   
 Чтобы отправить отзыв или сообщить об ошибке, нажмите кнопку **Справка** в нижней части левой навигации в Teams, а затем выберите **сообщить о проблеме**. Выберите **список**, а затем введите свой отзыв или сведения о возникшей неполадке.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Справочная документация по спискам](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
