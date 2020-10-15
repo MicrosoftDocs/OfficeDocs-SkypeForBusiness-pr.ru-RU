@@ -770,6 +770,7 @@
 ### [Общие сведения об управлении политикой](policy-control-overview.md)
 ### [Диагностические данные мобильных устройств](policy-control-diagnostic-data-mobile.md)
 ### [Диагностические данные клиента для настольных ПК](policy-control-diagnostic-data-desktop.md)
+### [Обзор необязательных сетевых функций в Microsoft Teams](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
@@ -861,7 +862,7 @@
 ### [Улучшение существующих групп Microsoft 365 с помощью Teams](enhance-office-365-groups.md)
 ### [Взаимодействие Exchange и Teams](exchange-teams-interact.md)
 #### [Настройка гибридной организации Exchange для работы с Teams](exchange-hybrid-organization.md)
-#### [Добавление домена SMTP Teams в качестве обслуживаемого в Exchange Online](smtp-accepted-domain.md)
+#### [Использование правил потока обработки почты в Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams](sharepoint-onedrive-interact.md)
 ### [Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов](teams-experience-o365odb-spo-multi-geo.md)
 
