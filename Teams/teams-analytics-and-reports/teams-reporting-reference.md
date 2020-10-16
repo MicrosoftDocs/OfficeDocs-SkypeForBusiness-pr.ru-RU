@@ -16,12 +16,12 @@ description: В этой статье вы узнаете о командах о
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690975"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476704"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Аналитика и отчеты Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "44690975"
 
 ## <a name="how-to-access-the-reports"></a>Получение доступа к отчетам
 
-Для доступа к отчетам необходимо быть глобальным администратором Microsoft 365 или Office 365, администратором служб Teams, администратором Team Communications или администратором Skype для бизнеса. Чтобы узнать больше о ролях администраторов Teams и о том, какие роли Администраторы могут получить доступ, ознакомьтесь со статьей [Использование ролей администратора Teams для управления группами](../using-admin-roles.md).
+Для доступа к отчетам необходимо быть глобальным администратором Microsoft 365 или Office 365, администратора службы Teams или администратора Skype для бизнеса. Чтобы узнать больше о ролях администраторов Teams и о том, какие роли Администраторы могут получить доступ, ознакомьтесь со статьей [Использование ролей администратора Teams для управления группами](../using-admin-roles.md).
 
 Перейдите в центр администрирования Microsoft Teams, на панели навигации слева выберите пункт **аналитические & отчеты**, а затем в разделе **отчет**выберите отчет, который нужно выполнить.
 

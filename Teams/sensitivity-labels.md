@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как определять и использовать метки чувствительности в Microsoft Teams.
-ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
-ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
+ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091272"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476724"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Метки чувствительности для Microsoft Teams
 
@@ -104,10 +104,6 @@ $setting["EnableMIPLabels"] = "False"
 Метки чувствительности можно задать при создании или изменении команды в центре администрирования Microsoft Teams. Метки чувствительности также отображаются в свойствах группы и в столбце **классификация** на странице Управление группами в центре администрирования Microsoft Teams.
 
 ## <a name="known-issues"></a>Известные проблемы
-
-**Дочерние метки по умолчанию не отображаются во время создания группы**
-
-В настоящее время дочерняя метка, установленная в качестве метки по умолчанию для Teams, не отображается в верхней части списка в раскрывающемся списке Метки чувствительности в модели создания групп. Создатели групп по-прежнему могут использовать раскрывающийся список для применения метки дочернего элемента в качестве временного решения.
 
 **Поддержка меток чувствительности в API Team Graph, командлеты PowerShell и шаблоны**
 

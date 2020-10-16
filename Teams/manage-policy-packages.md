@@ -20,17 +20,17 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams для упрощения, упрощения и обеспечения согласованности при управлении политиками для групп пользователей.
-ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48370578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48488390"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Управление пакетами политик в Microsoft Teams
 
 > [!NOTE]
-> Одна из функций, описанных в этой статье, — [пользовательские пакеты политик](#custom-policy-packages), еще не выпущены. Скоро это будет быть закрыто для предварительного просмотра.
+> Одна из функций, описанных в этой статье, [пользовательские пакеты политики](#custom-policy-packages), в настоящее время находится в частном предварительной версии.
 
 Пакет политики в Microsoft Teams — это набор предопределенных политик и параметров политики, которые можно назначить пользователям, имеющим аналогичные роли в Организации. Мы создали пакеты политик для упрощения, упрощения и обеспечения согласованности при управлении политиками для групп пользователей в Организации.  
 

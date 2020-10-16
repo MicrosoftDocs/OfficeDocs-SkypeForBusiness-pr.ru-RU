@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f940ea7c14ad55c8cd3842e9830eb82da0d8867f
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294465"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476714"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -67,7 +67,7 @@ ms.locfileid: "48294465"
 |Microsoft Teams |   &#x2714; |
 |Телефонная система |    &#x2714; |
 |Аудиоконференция |       &#x2718; &SUP1;  |
-|Microsoft Intune |    &#x2714; |
+|Microsoft Intune |    &#x2718; |
 |Доступность в разных странах мира |       &#x2718; &sup2;  |
 |Доступность канала |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
