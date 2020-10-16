@@ -3,6 +3,7 @@ title: Руководство по безопасности для Microsoft Te
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486804"
 ---
 # <a name="security-and-microsoft-teams"></a>Безопасность и Microsoft Teams
 
@@ -239,7 +240,7 @@ Teams предоставляет возможность корпоративны
 Организатор также может настроить параметры, чтобы разрешить звонящим с телефонным подключением стать первым пользователем собрания. Этот параметр настраивается в параметрах аудиоконференций для пользователей и применяется ко всем собраниям, запланированным пользователем.
 
 > [!NOTE]
-> Дополнительные сведения о гостевом и внешнем доступе в Teams см. в этой [статье](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). В ней описано, какие функции могут ожидать и использовать гости или внешние пользователи при входе в Teams.
+> Дополнительные сведения о гостевом и внешнем доступе в Teams см. в этой [статье](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). В ней описано, какие функции могут ожидать и использовать гости или внешние пользователи при входе в Teams. <p> Если вы записываете собрания и хотите просмотреть таблицу разрешений, связанную с доступом к содержимому, ознакомьтесь с [этой статьей](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) и ее таблицей.
 
 ### <a name="participant-roles"></a>Роли участников
 
@@ -305,3 +306,5 @@ Teams предоставляет возможность корпоративны
 [Оптимизация подключения Microsoft 365 или Office 365 для удаленных пользователей с использованием раздельного VPN-туннелирования](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Реализация раздельного туннелирования VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Записи собраний в Teams, место хранения записей и кто имеет к ним доступ](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

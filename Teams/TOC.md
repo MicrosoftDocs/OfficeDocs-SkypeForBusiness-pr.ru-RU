@@ -678,7 +678,6 @@
 ### [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ### ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams для сферы здравоохранения
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## Teams для сотрудников без компьютеров
 ### [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
 ### [Развертывание с помощью скрипта для сотрудников без компьютеров](flw-scripted-deployment.md)
+### [Управление доступом на основе смен для сотрудников без компьютеров](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear для Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Создание приложения портала интрасети Teams с сайта или страницы SPO](teams-standalone-static-tabs-using-spo-sites.md)
