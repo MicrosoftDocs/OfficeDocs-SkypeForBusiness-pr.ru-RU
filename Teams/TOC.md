@@ -770,7 +770,7 @@
 ### [Общие сведения об управлении политикой](policy-control-overview.md)
 ### [Диагностические данные мобильных устройств](policy-control-diagnostic-data-mobile.md)
 ### [Диагностические данные клиента для настольных ПК](policy-control-diagnostic-data-desktop.md)
-### [Обзор необязательных сетевых функций в Microsoft Teams](teams-privacy-oce-overview.md)
+### [Необязательные сетевые функции](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Отслеживание, управление и устранение неполадок
@@ -882,8 +882,8 @@
 ### [Установка PowerShell в Teams](teams-powershell-install.md)
 ### [Управление Teams с помощью PowerShell в Teams](teams-powershell-managing-teams.md)
 ### [Заметки о выпуске PowerShell в Teams](teams-powershell-release-notes.md)
+### [Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell](teams-powershell-move-from-sfbo.md)
 ### [Справочник по командлетам для Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Документация разработчиков для Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Получение справки в Teams](get-help-in-microsoft-teams.md)
 ## [Обновления контента Teams](teams-updates.md)
