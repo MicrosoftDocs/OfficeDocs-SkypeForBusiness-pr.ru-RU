@@ -1,5 +1,6 @@
 ---
 title: Тестирование и составление отчетов о готовности к проверке подлинности Kerberos
+description: Тестирование и составление отчетов о готовности к проверке подлинности Kerberos.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5d32591a8cced7dce2e0bb78cc26189dce1900a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519326"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554065"
 ---
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="7ac78-102">Тестирование и составление отчетов о готовности к использованию проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ac78-102">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="4ca52-103">Тестирование и составление отчетов о готовности к использованию проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ca52-103">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48519326"
 
 <span> </span>
 
-<span data-ttu-id="7ac78-103">_**Последнее изменение темы:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="7ac78-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="4ca52-104">_**Последнее изменение темы:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="4ca52-104">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="7ac78-104">Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="7ac78-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="4ca52-105">Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="4ca52-105">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="7ac78-105">С помощью командлета Windows PowerShell **Test-CsKerberosAccountAssignment**вы можете   протестировать и сообщить о готовности к работоспособности назначения сайта для проверки подлинности Kerberos.</span><span class="sxs-lookup"><span data-stu-id="7ac78-105">You can use the **Test-CsKerberosAccountAssignment** Windows PowerShell cmdlet to test and report the functional readiness of a site assignment for Kerberos authentication.</span></span> <span data-ttu-id="7ac78-106">Эта команда запрашивает сайт, указанный обязательным параметром Identity.</span><span class="sxs-lookup"><span data-stu-id="7ac78-106">This command queries the site specified in the required Identity parameter.</span></span> <span data-ttu-id="7ac78-107">Необязательный параметр Report создает командлет для записи HTML-отчета в журнал C: \\ журналы на компьютере, на котором выполняется команда.</span><span class="sxs-lookup"><span data-stu-id="7ac78-107">The optional Report parameter causes the cmdlet to write an HTML report to C:\\Logs on the computer on which the command is run.</span></span> <span data-ttu-id="7ac78-108">Дополнительный параметр Verbose передает данные об активности на экран.</span><span class="sxs-lookup"><span data-stu-id="7ac78-108">The optional Verbose parameter reports activity information to the screen.</span></span>
+<span data-ttu-id="4ca52-106">С помощью командлета Windows PowerShell **Test-CsKerberosAccountAssignment**вы можете   протестировать и сообщить о готовности к работоспособности назначения сайта для проверки подлинности Kerberos.</span><span class="sxs-lookup"><span data-stu-id="4ca52-106">You can use the **Test-CsKerberosAccountAssignment** Windows PowerShell cmdlet to test and report the functional readiness of a site assignment for Kerberos authentication.</span></span> <span data-ttu-id="4ca52-107">Эта команда запрашивает сайт, указанный обязательным параметром Identity.</span><span class="sxs-lookup"><span data-stu-id="4ca52-107">This command queries the site specified in the required Identity parameter.</span></span> <span data-ttu-id="4ca52-108">Необязательный параметр Report создает командлет для записи HTML-отчета в журнал C: \\ журналы на компьютере, на котором выполняется команда.</span><span class="sxs-lookup"><span data-stu-id="4ca52-108">The optional Report parameter causes the cmdlet to write an HTML report to C:\\Logs on the computer on which the command is run.</span></span> <span data-ttu-id="4ca52-109">Дополнительный параметр Verbose передает данные об активности на экран.</span><span class="sxs-lookup"><span data-stu-id="4ca52-109">The optional Verbose parameter reports activity information to the screen.</span></span>
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a><span data-ttu-id="7ac78-109">Тестирование и передача данных о функциональной готовности сайта для проверки подлинности Kerberos</span><span class="sxs-lookup"><span data-stu-id="7ac78-109">To test and report functional readiness for Kerberos authentication for a site</span></span>
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a><span data-ttu-id="4ca52-110">Тестирование и передача данных о функциональной готовности сайта для проверки подлинности Kerberos</span><span class="sxs-lookup"><span data-stu-id="4ca52-110">To test and report functional readiness for Kerberos authentication for a site</span></span>
 
-1.  <span data-ttu-id="7ac78-110">В качестве члена группы RTCUniversalServerAdmins Войдите на компьютер в домене, на котором работает Lync Server 2013 или на компьютер, на котором установлены средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="7ac78-110">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to the computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="4ca52-111">В качестве члена группы RTCUniversalServerAdmins Войдите на компьютер в домене, на котором работает Lync Server 2013 или на компьютер, на котором установлены средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="4ca52-111">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to the computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="7ac78-111">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7ac78-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="4ca52-112">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="4ca52-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="7ac78-112">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7ac78-112">From the command line, run the following command:</span></span>
+3.  <span data-ttu-id="4ca52-113">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="4ca52-113">From the command line, run the following command:</span></span>
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     
-    <span data-ttu-id="7ac78-113">Пример:</span><span class="sxs-lookup"><span data-stu-id="7ac78-113">For example:</span></span>
+    <span data-ttu-id="4ca52-114">Пример:</span><span class="sxs-lookup"><span data-stu-id="4ca52-114">For example:</span></span>
     
         Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "c:\logs\KerberosReport.htm" -Verbose
 
