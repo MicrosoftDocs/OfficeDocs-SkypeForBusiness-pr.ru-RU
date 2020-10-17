@@ -12,20 +12,22 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c82ecab8883a6ccb5e6573d1d164e41648f14bfe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11130c1882fd6d12784cf6c25559a4249453f5d3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530536"
 ---
+# <a name="testing-application-sharing-in-lync-server-2013"></a>Тестирование общего доступа к приложениям в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-application-sharing-in-lync-server-2013"></a>Тестирование общего доступа к приложениям в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -82,7 +84,7 @@ _**Последнее изменение темы:** 2014-11-01_
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-Команды, показанные в примере 2, проверяют возможность использования пользователями (litwareinc\\Pilar и litwareinc\\kenmyer) для входа в Lync Server 2013, а затем выполняют Конференц-связь с приложением. Для этого первая команда в примере использует командлет Get – Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman. (Так как имя для входа,\\litwareinc Pilar, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Pilar Ackerman.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1. Вторая команда производит аналогичную операцию, возвращая объект учетных данных для учетной записи Ken Myer.
+Команды, показанные в примере 2, проверяют возможность использования пользователями (litwareinc \\ Pilar и litwareinc \\ kenmyer) для входа в Lync Server 2013, а затем выполняют Конференц-связь с приложением. Для этого первая команда в примере использует командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman. (Так как имя для входа, litwareinc \\ Pilar, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Pilar Ackerman.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1. Вторая команда производит аналогичную операцию, возвращая объект учетных данных для учетной записи Ken Myer.
 
 Если у вас есть объекты учетных данных в наличии, третья команда определяет, могут ли эти два пользователя войти в Lync Server 2013 и провести конференц-совместный доступ к приложениям. Для выполнения этой задачи вызывается командлет **Test-CsASConference** , а также следующие параметры: TargetFqdn (полное доменное имя пула регистратора); SenderSipAddress (SIP-адрес для первого тестового пользователя); SenderCredential (объект Windows PowerShell, содержащий учетные данные для этого пользователя); ReceiverSipAddress (SIP-адрес для другого тестового пользователя); и ReceiverCredential (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).
 

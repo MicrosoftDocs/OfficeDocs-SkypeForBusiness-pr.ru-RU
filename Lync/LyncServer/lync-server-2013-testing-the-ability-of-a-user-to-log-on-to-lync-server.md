@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530476"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Проверка возможности входа пользователя в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Проверка возможности входа пользователя в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="description"></a>Описание
 
-Командлет Test-CsRegistration позволяет убедиться, что пользователи в организации могут войти в Lync Server. При выполнении командлета Test-CsRegistration командлет пытается войти в тестовый пользователь в Lync Server, а затем, если он был успешным, отсоединяется тестовый пользователь от системы. Все это происходит без вмешательства пользователя и без влияния на фактических пользователей. Например, предположим, что тестовая учетная запись sip:kenmyer@litwareinc.com соответствует реальному пользователю с действительной учетной записью Lync Server. В этом случае тест будет проводиться без какого-либо вмешательства в работу реального пользователя Ken Myer. Когда тестовая учетная запись Ken Myer выйдет из системы, личная учетная запись Ken Myer останется в системе.
+Командлет Test-CsRegistration позволяет убедиться, что пользователи в организации могут входить в систему на сервере Lync Server. При выполнении командлета Test-CsRegistration командлет пытается войти в тестовый пользователь в Lync Server, а затем, если он был успешным, отсоединяется тестовый пользователь от системы. Все это происходит без вмешательства пользователя и без влияния на фактических пользователей. Например, предположим, что тестовая учетная запись sip:kenmyer@litwareinc.com соответствует реальному пользователю с действительной учетной записью Lync Server. В этом случае тест будет проводиться без какого-либо вмешательства в работу реального пользователя Ken Myer. Когда тестовая учетная запись Ken Myer выйдет из системы, личная учетная запись Ken Myer останется в системе.
 
 </div>
 
@@ -123,11 +125,11 @@ Microsoft. RTC. Signal. Диагностичеадер
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-Если Test-CsRegistration завершается с ошибкой, вам может потребоваться повторно выполнить проверку, включая параметр verbose:
+Если Test-CsRegistration завершается с ошибкой, может потребоваться повторный запуск теста, в том числе параметр verbose:
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Если включен параметр Verbose, командлет Test-CsRegistration возвращает пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например:
+Если включен параметр Verbose, Test-CsRegistration будет возвращать пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например:
 
 VERBOSE: начато действие "Register".
 

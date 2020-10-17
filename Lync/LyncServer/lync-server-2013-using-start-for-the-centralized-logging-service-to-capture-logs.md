@@ -12,20 +12,22 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04614e970064f765e24b86b6e875d1fb284b3fbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529976"
 ---
+# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Использование Start для централизованной службы ведения журналов для захвата журналов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Использование Start для централизованной службы ведения журналов для захвата журналов в Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 
 > [!NOTE]
-> Если вы решили использовать ограниченный набор команд, доступный в командной строке, можно получить справку по CLSController. exe, введя <CODE>ClsController.exe</CODE>команду. По умолчанию <STRONG>ClsController. exe</STRONG> устанавливается в каталог C:\Program Files\Microsoft Lync Server 2013 \ ClsAgent.
+> Если вы решили использовать ограниченный набор команд, доступный в командной строке, можно получить справку по CLSController.exe, введя команду <CODE>ClsController.exe</CODE> . По умолчанию <STRONG>ClsController.exe</STRONG> устанавливается в каталог C:\Program Files\Microsoft Lync Server 2013 \ ClsAgent.
 
 
 
@@ -57,7 +59,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Запуск командлета Start – CsClsLogging с помощью Windows PowerShell с помощью основных команд
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Запуск Start-CsClsLogging с помощью Windows PowerShell с помощью основных команд
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
@@ -108,7 +110,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Выполнение командлета Start – CsClsLogging с помощью Windows PowerShell с помощью расширенных команд
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Запуск Start-CsClsLogging с помощью Windows PowerShell с помощью расширенных команд
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 

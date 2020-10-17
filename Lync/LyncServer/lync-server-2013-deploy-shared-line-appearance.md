@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531416"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Развертывание общего внешнего вида линии в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Развертывание общего внешнего вида линии в Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2016-06-13_
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    Командлет Set – CsSlaConfiguration помечает учетную запись корпоративного голоса SLAGroup1 как сущность SLA, а число SLAGroup1 становится номером для группы SLA. Все звонки на SLAGroup1 будут звонить всей группе SLA.
+    Командлет Set-CsSlaConfiguration помечает учетную запись корпоративного голоса SLAGroup1 как сущность SLA, а число SLAGroup1 становится номером для группы SLA. Все звонки на SLAGroup1 будут звонить всей группе SLA.
     
     В следующем примере создается группа SLA для существующего пользователя корпоративной голосовой связи, SLAGroup1, и используется номер, назначенный для SLAGroup1, в качестве номера магистрали SLA.
     
@@ -92,13 +94,13 @@ _**Последнее изменение темы:** 2016-06-13_
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    Set – CsSlaConfiguration можно использовать для создания новой группы SLA или изменения существующей.
+    Set-CsSlaConfiguration можно использовать для создания новой группы SLA или изменения существующей.
     
     <div>
     
 
     > [!NOTE]  
-    > Обратите внимание, что вы <CODE>-Identity</CODE> указали действительную учетную запись пользователя с включенной поддержкой корпоративной голосовой связи.
+    > Обратите внимание, что вы указали <CODE>-Identity</CODE> действительную учетную запись пользователя с включенной поддержкой корпоративной голосовой связи.
 
     
     </div>
@@ -126,7 +128,7 @@ _**Последнее изменение темы:** 2016-06-13_
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    В следующем примере задаются вызовы, которые превышают максимальное число одновременных вызовов, перенаправляемых на номер телефона 202-555-1234. Целевой объект может быть пользователем в вашей организации, а не номером телефона; в этом случае синтаксис для человека, получающего переадресованные звонки, совпадает с тем, что при указании делегата: `sip:<NameofDelegate@domain>`. Второй возможный параметр `BusyOption` `Voicemail`:
+    В следующем примере задаются вызовы, которые превышают максимальное число одновременных вызовов, перенаправляемых на номер телефона 202-555-1234. Целевой объект может быть пользователем в вашей организации, а не номером телефона; в этом случае синтаксис для человека, получающего переадресованные звонки, совпадает с тем, что при указании делегата: `sip:<NameofDelegate@domain>` . Второй возможный параметр `BusyOption` `Voicemail` :
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ _**Последнее изменение темы:** 2016-06-13_
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    В приведенном ниже примере указывается, что пропущенные звонки пересылаются пользователю с `sla_forward_number`именем. `-MissedCallOption` Допустимые параметры для параметра `Forward`:, `BusySignal`или. `Disconnect` `Forward`Если выбран этот `-MissedCallForwardTarget` параметр, необходимо также включить параметр с номером пользователя или телефона в качестве целевого значения:
+    В приведенном ниже примере указывается, что пропущенные звонки пересылаются пользователю с именем `sla_forward_number` . Допустимые параметры для `-MissedCallOption` параметра: `Forward` , `BusySignal` или `Disconnect` . Если выбран `Forward` этот параметр, необходимо также включить `-MissedCallForwardTarget` параметр с номером пользователя или телефона в качестве целевого значения:
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -160,7 +162,7 @@ _**Последнее изменение темы:** 2016-06-13_
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    Пример.
+    Например:
     ```powershell
     Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate3@contoso.com

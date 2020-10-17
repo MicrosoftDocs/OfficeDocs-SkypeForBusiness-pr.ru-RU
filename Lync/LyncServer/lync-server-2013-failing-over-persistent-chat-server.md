@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530946"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Отработка отказа сервером сохраняемого чата в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Отработка отказа сервером сохраняемого чата в Lync Server 2013
+
 
 </div>
 
@@ -69,15 +71,15 @@ _**Последнее изменение темы:** 2014-02-05_
 
 2.  Скопируйте все нескопированные файлы резервных копий из общей папки резервных копий в конечную папку копирования на резервном сервере.
 
-3.  По порядку примените все непримененные резервные копии журналов транзакций к базе данных-получателю. Дополнительные сведения см. в разделе "как: применение резервной копии журнала транзакций (Transact-SQL) https://go.microsoft.com/fwlink/p/?linkid=247428" по адресу.
+3.  По порядку примените все непримененные резервные копии журналов транзакций к базе данных-получателю. Дополнительные сведения см. в разделе "как: применение резервной копии журнала транзакций (Transact-SQL)" по адресу https://go.microsoft.com/fwlink/p/?linkid=247428 .
 
 4.  Подключите резервную базу данных mgc к сети. В окне запроса, которое было открыто в действии 1b, выполните следующие действия.
     
     1.  Завершите все подключения к базе данных mgc при их наличии:
         
-        1.  **exec SP\_who2** для определения подключений к базе данных mgc.
+        1.  **exec SP \_ who2** для определения подключений к базе данных mgc.
         
-        2.  **удалите \<SPID\> ** , чтобы завершить эти подключения.
+        2.  **Kill \<spid\> (удалить** ) для завершения этих подключений.
     
     2.  Подключите базу данных к сети.
         

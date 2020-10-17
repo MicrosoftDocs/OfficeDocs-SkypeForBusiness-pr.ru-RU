@@ -12,20 +12,22 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ed4bf8e4977391f557cb7f63d17eb735bde76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b28fa4a83e89e446c5f4739d95fedea88769bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216455"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530746"
 ---
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>Необязательно Проверка развертывания группы ответа в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>Необязательно Проверка развертывания группы ответа в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-09-11_
 
 После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают должным образом. Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:
 
-**Пользовательские**
+**пользователи**;
 
   - Пользователь, размещенный в Lync Server 2013
 

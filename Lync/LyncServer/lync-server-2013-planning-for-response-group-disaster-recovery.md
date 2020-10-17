@@ -12,20 +12,22 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab630dae949d1972d9e5077035d88d91964034f1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6cc238665ecb0222ded43e438e9f9370b561b85d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530576"
 ---
+# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>Планирование аварийного восстановления группы ответа в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>Планирование аварийного восстановления группы ответа в Lync Server 2013
+
 
 </div>
 
@@ -135,7 +137,7 @@ _**Последнее изменение темы:** 2012-11-01_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Необходимые группы и роли</th>
 </tr>
 </thead>
@@ -195,7 +197,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 </div></li>
 </ul></td>
-<td><p>Н/Д</p></td>
+<td><p>Недоступно</p></td>
 </tr>
 <tr class="odd">
 <td><p>После восстановления до восстановления размещения</p></td>

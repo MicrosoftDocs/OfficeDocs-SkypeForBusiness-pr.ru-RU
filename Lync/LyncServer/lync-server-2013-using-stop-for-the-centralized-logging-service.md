@@ -12,20 +12,22 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f764bbc93ae327e30fa6ac9daf3128963856460
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed971c014eb62f539dcb6551a78066a3462688ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529966"
 ---
+# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Использование Stop для централизованной службы ведения журналов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Использование Stop для централизованной службы ведения журналов в Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 </div>
 
-Для управления функциями централизованного ведения журналов с помощью Командная консоль Lync Server необходимо быть членом группы безопасности CsAdministrator или CsServerAdministrator с управлением доступом на основе ролей (RBAC) или настраиваемой роли RBAC, содержащей Любая из этих двух групп. Чтобы получить список всех ролей RBAC, которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните следующую команду в командной консоли Lync Server или в командной строке Windows PowerShell:
+Для управления функциями централизованной службы ведения журналов с помощью командной консоли Lync Server необходимо быть членом группы безопасности CsAdministrator или CsServerAdministrator с управлением доступом на основе ролей или настраиваемой роли RBAC, которая содержит любую из этих двух групп. Чтобы получить список всех ролей RBAC, которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните следующую команду в командной консоли Lync Server или в командной строке Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Show-CsClsLogging
     
-    ![Консоль Windows PowerShell после вызова Show — Кскл](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Консоль Windows PowerShell после вызова Show — Кскл")
+    ![Консоль Windows PowerShell после вызова Show — Кскл](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Консоль Windows PowerShell после вызова Show-CsCl")
     
     Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Подробные сведения см. в статье [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging).
 

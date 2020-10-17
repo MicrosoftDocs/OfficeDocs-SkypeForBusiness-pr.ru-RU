@@ -12,20 +12,22 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccef1e811d4ccd6b54350d6678a6b089eb4caafd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530276"
 ---
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Учетные записи пользователей, включенные для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Учетные записи пользователей, включенные для Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2014-04-18_
 
 </div>
 
-При выполнении любой административной задачи Lync Server 2013, которая включает поиск пользователя или фильтрацию результатов поиска пользователей, существуют некоторые свойства пользователей, которые существуют в качестве атрибутов в доменных службах Active Directory, но не реплицируются в глобальный каталог. до развертывания Microsoft Exchange Server. Microsoft Exchange, а не Lync Server, помечает следующие атрибуты репликации в глобальном каталоге при его установке:
+При выполнении любой административной задачи Lync Server 2013, которая включает поиск пользователя или фильтрацию результатов поиска пользователей, существуют некоторые свойства пользователя, которые существуют в качестве атрибутов в доменных службах Active Directory, но не реплицируются в глобальный каталог до развертывания Microsoft Exchange Server. Microsoft Exchange, а не Lync Server, помечает следующие атрибуты репликации в глобальном каталоге при его установке:
 
 
 <table>
@@ -67,13 +69,13 @@ _**Последнее изменение темы:** 2014-04-18_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Инициалы</p></td>
+<td><p>Initials</p></td>
 <td><p>Адрес (улица, дом)</p>
 <p>Страна или регион</p>
 <p>Пейджер</p>
-<p>Факс</p>
+<p>Fax</p>
 <p>Mobile</p></td>
-<td><p>Должность</p>
+<td><p>Название</p>
 <p>Company</p>
 <p>Отдел</p>
 <p>Кабинет</p></td>

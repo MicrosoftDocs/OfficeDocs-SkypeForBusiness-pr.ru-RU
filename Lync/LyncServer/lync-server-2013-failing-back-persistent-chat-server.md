@@ -12,20 +12,22 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da806e476635543e0afeafee8b7c195cf21cfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531006"
 ---
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Восстановление сервера сохраняемого чата в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Восстановление сервера сохраняемого чата в Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ _**Последнее изменение темы:** 2014-02-05_
     
     5.  В поле **Имя** оставьте имя резервного набора данных по умолчанию или введите другое имя.
     
-    6.  *Необязательное требование\> \<* В поле **Description (описание**) введите описание резервного набора данных.
+    6.  *\<Optional\>* В поле **Description (описание**) введите описание резервного набора данных.
     
     7.  Удалите расположение резервной копии по умолчанию из списка назначений.
     

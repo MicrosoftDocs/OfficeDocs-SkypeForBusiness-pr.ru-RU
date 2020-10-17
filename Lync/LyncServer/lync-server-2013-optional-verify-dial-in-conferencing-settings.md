@@ -12,20 +12,22 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ae67001d7e041cf0b4e8f6a01fb9278f3d79300
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c43646572171a93880dd5013c87a08a2051ab2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216523"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530796"
 ---
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Необязательно Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>Необязательно Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013
+
 
 </div>
 
@@ -43,11 +45,11 @@ _**Последнее изменение темы:** 2010-11-02_
 
 ## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Поиск абонентских групп с регионом конференц-связи с телефонным подключением, для которого не задан ни один номер доступа
 
-1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или участник роли **Cs-ServerAdministrator** или **CsAdministrator**.
+1.  Выполните вход на компьютер с учетной записью члена группы RTCUniversalServerAdmins или члена роли **Cs-ServerAdministrator** или **CsAdministrator**.
 
 2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Выполните в командной строке следующую команду:
+3.  Выполните следующий командлет:
     
         Get-CsDialinConferencingAccessNumber -EmptyRegion
     
