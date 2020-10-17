@@ -12,20 +12,22 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe0ed4bf8e4977391f557cb7f63d17eb735bde76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b28fa4a83e89e446c5f4739d95fedea88769bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216455"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530746"
 ---
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a><span data-ttu-id="106d2-102">Необязательно Проверка развертывания группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="106d2-102">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a><span data-ttu-id="29e69-102">Необязательно Проверка развертывания группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29e69-102">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42216455"
 
 <span> </span>
 
-<span data-ttu-id="29e69-103">_**Последнее изменение темы:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="29e69-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="106d2-103">_**Последнее изменение темы:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="106d2-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="29e69-104">После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают должным образом.</span><span class="sxs-lookup"><span data-stu-id="29e69-104">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="29e69-105">Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:</span><span class="sxs-lookup"><span data-stu-id="29e69-105">At minimum, verify the following scenarios by using the following types of users:</span></span>
+<span data-ttu-id="106d2-104">После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают должным образом.</span><span class="sxs-lookup"><span data-stu-id="106d2-104">After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected.</span></span> <span data-ttu-id="106d2-105">Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:</span><span class="sxs-lookup"><span data-stu-id="106d2-105">At minimum, verify the following scenarios by using the following types of users:</span></span>
 
-<span data-ttu-id="29e69-106">**Пользовательские**</span><span class="sxs-lookup"><span data-stu-id="29e69-106">**Users**</span></span>
+<span data-ttu-id="106d2-106">**пользователи**;</span><span class="sxs-lookup"><span data-stu-id="106d2-106">**Users**</span></span>
 
-  - <span data-ttu-id="29e69-107">Пользователь, размещенный в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29e69-107">A user who is homed on Lync Server 2013</span></span>
+  - <span data-ttu-id="106d2-107">Пользователь, размещенный в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="106d2-107">A user who is homed on Lync Server 2013</span></span>
 
-  - <span data-ttu-id="29e69-108">Внешний пользователь, использующий телефонную сеть общего пользования (ТСОП)</span><span class="sxs-lookup"><span data-stu-id="29e69-108">An external user who uses the public switched telephone network (PSTN)</span></span>
+  - <span data-ttu-id="106d2-108">Внешний пользователь, использующий телефонную сеть общего пользования (ТСОП)</span><span class="sxs-lookup"><span data-stu-id="106d2-108">An external user who uses the public switched telephone network (PSTN)</span></span>
 
-  - <span data-ttu-id="29e69-109">Агент, размещенный на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="29e69-109">An agent who is homed on Lync Server 2013</span></span>
+  - <span data-ttu-id="106d2-109">Агент, размещенный на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="106d2-109">An agent who is homed on Lync Server 2013</span></span>
 
-<span data-ttu-id="29e69-110">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="29e69-110">**Scenarios**</span></span>
+<span data-ttu-id="106d2-110">**Scenarios**</span><span class="sxs-lookup"><span data-stu-id="106d2-110">**Scenarios**</span></span>
 
-  - <span data-ttu-id="29e69-111">Пользователь Lync Server 2013 вызывает группу ответа.</span><span class="sxs-lookup"><span data-stu-id="29e69-111">The Lync Server 2013 user calls the response group.</span></span>
+  - <span data-ttu-id="106d2-111">Пользователь Lync Server 2013 вызывает группу ответа.</span><span class="sxs-lookup"><span data-stu-id="106d2-111">The Lync Server 2013 user calls the response group.</span></span>
 
-  - <span data-ttu-id="29e69-112">Внешний пользователь вызывает группу ответа.</span><span class="sxs-lookup"><span data-stu-id="29e69-112">The external user calls the response group.</span></span>
+  - <span data-ttu-id="106d2-112">Внешний пользователь вызывает группу ответа.</span><span class="sxs-lookup"><span data-stu-id="106d2-112">The external user calls the response group.</span></span>
 
-  - <span data-ttu-id="29e69-113">Пользователь вызывает группу ответа в то время, как агент обрабатывает другой вызов и переходит в очередь.</span><span class="sxs-lookup"><span data-stu-id="29e69-113">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
+  - <span data-ttu-id="106d2-113">Пользователь вызывает группу ответа в то время, как агент обрабатывает другой вызов и переходит в очередь.</span><span class="sxs-lookup"><span data-stu-id="106d2-113">A user calls the response group while the agent is on another call and goes to the queue.</span></span>
 
 </div>
 

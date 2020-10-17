@@ -12,20 +12,22 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b260347eaf1642c9ff86c347539439e50de179b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e09cd7e0c5cc8bc20f50ba2c2ae5a1d912f949ab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531626"
 ---
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="84b12-102">Приложение а: использование командлетов для развертывания устройства для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="84b12-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a><span data-ttu-id="fe41f-102">Приложение а: использование командлетов для развертывания устройства для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe41f-102">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42187212"
 
 <span> </span>
 
-<span data-ttu-id="fe41f-103">_**Последнее изменение темы:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="fe41f-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="84b12-103">_**Последнее изменение темы:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="84b12-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="fe41f-104">В этом разделе описывается, как развернуть устройство для обеспечения связи в филиалах с помощью командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fe41f-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="fe41f-105">Выполните эту процедуру на центральном сайте.</span><span class="sxs-lookup"><span data-stu-id="fe41f-105">Perform this procedure at the central site.</span></span>
+<span data-ttu-id="84b12-104">В этом разделе описывается, как развернуть устройство для обеспечения связи в филиалах с помощью командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="84b12-104">This topic describes how to deploy a Survivable Branch Appliance using the Lync Server Management Shell.</span></span> <span data-ttu-id="84b12-105">Выполните эту процедуру на центральном сайте.</span><span class="sxs-lookup"><span data-stu-id="84b12-105">Perform this procedure at the central site.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="fe41f-106">Удаленное развертывание устройства для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="fe41f-106">To deploy a Survivable Branch Appliance remotely</span></span>
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a><span data-ttu-id="84b12-106">Удаленное развертывание устройства для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="84b12-106">To deploy a Survivable Branch Appliance remotely</span></span>
 
-1.  <span data-ttu-id="fe41f-107">Чтобы добавить новый сайт филиала, выполните процедуру, описанную в разделе [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) .</span><span class="sxs-lookup"><span data-stu-id="fe41f-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
+1.  <span data-ttu-id="84b12-107">Чтобы добавить новый сайт филиала, выполните процедуру, описанную в разделе [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) .</span><span class="sxs-lookup"><span data-stu-id="84b12-107">Follow the procedure in [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) to add a new branch site.</span></span>
 
-2.  <span data-ttu-id="fe41f-108">Присоедините узел филиала к домену.</span><span class="sxs-lookup"><span data-stu-id="fe41f-108">Join the branch site to the domain.</span></span>
+2.  <span data-ttu-id="84b12-108">Присоедините узел филиала к домену.</span><span class="sxs-lookup"><span data-stu-id="84b12-108">Join the branch site to the domain.</span></span>
 
-3.  <span data-ttu-id="fe41f-109">Добавьте группу RTCUniversalSBATechnicians в локальную группу администраторов.</span><span class="sxs-lookup"><span data-stu-id="fe41f-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
+3.  <span data-ttu-id="84b12-109">Добавьте группу RTCUniversalSBATechnicians в локальную группу администраторов.</span><span class="sxs-lookup"><span data-stu-id="84b12-109">Add the RTCUniversalSBATechnicians group to the local Administrators group.</span></span>
 
-4.  <span data-ttu-id="fe41f-110">Перезапустите сервер и войдите в систему в качестве члена группы RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="fe41f-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
+4.  <span data-ttu-id="84b12-110">Перезапустите сервер и войдите в систему в качестве члена группы RTCUniversalSBATechnicians.</span><span class="sxs-lookup"><span data-stu-id="84b12-110">Restart the server, and log on to it as a member of the RTCUniversalSBATechnicians group.</span></span>
 
-5.  <span data-ttu-id="fe41f-111">В командной консоли Lync Server введите следующие команды, заменив заполнители на правильные сведения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="fe41f-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
+5.  <span data-ttu-id="84b12-111">В командной консоли Lync Server введите следующие команды, заменив заполнители на правильные сведения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="84b12-111">In the Lync Server Management Shell, type the following commands, replacing the placeholders with the correct information for your organization:</span></span>
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfe2b41293d58223817a06eef82f5c03d0909a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde0eb443a643371072c4c0018c05e2cd4538d0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531606"
 ---
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="df553-102">Связывание подсетей с сетевыми сайтами для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df553-102">Associate subnets with network sites for CAC in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="c09d5-102">Связывание подсетей с сетевыми сайтами для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c09d5-102">Associate subnets with network sites for CAC in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42205208"
 
 <span> </span>
 
-<span data-ttu-id="c09d5-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="c09d5-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="df553-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="df553-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="c09d5-p101">Каждая подсеть должна быть связана с определенным сетевым узлом. Это требование связано с тем, что данные подсети используются для определения сетевого узла, в котором расположена конечная точка. Имея сведения о расположении обоих участников сеанса, служба контроля допуска звонков может определить, достаточно ли пропускной способности сети для выполнения вызова.</span><span class="sxs-lookup"><span data-stu-id="c09d5-p101">Every subnet in your network must be associated with a specific network site. This is because subnet information is used to determine the network site on which an endpoint is located. When the locations of both parties in a session are known, call admission control (CAC) can determine if there is sufficient bandwidth to establish a call.</span></span>
+<span data-ttu-id="df553-p101">Каждая подсеть должна быть связана с определенным сетевым узлом. Это требование связано с тем, что данные подсети используются для определения сетевого узла, в котором расположена конечная точка. Имея сведения о расположении обоих участников сеанса, служба контроля допуска звонков может определить, достаточно ли пропускной способности сети для выполнения вызова.</span><span class="sxs-lookup"><span data-stu-id="df553-p101">Every subnet in your network must be associated with a specific network site. This is because subnet information is used to determine the network site on which an endpoint is located. When the locations of both parties in a session are known, call admission control (CAC) can determine if there is sufficient bandwidth to establish a call.</span></span>
 
-<span data-ttu-id="c09d5-107">Служба контроля допуска звонков не предъявляет никаких требований к связи подсетей с сетевыми узлами.</span><span class="sxs-lookup"><span data-stu-id="c09d5-107">Call admission control does not have any special requirements for associating subnets with network sites.</span></span> <span data-ttu-id="c09d5-108">Чтобы создать связь между подсетями и сетевыми сайтами в топологии, выполните процедуры, описанные в разделе [связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="c09d5-108">To create an association between the subnets and network sites in your topology, follow the procedures in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span> <span data-ttu-id="c09d5-109">Чтобы просмотреть сетевые сайты (и соответствующие подсети) в примере сетевой топологии для контроля допуска звонков, обратитесь к разделу [Пример: сбор требований для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="c09d5-109">To view the network sites (and their respective subnets) in the example network topology for call admission control, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="df553-107">Служба контроля допуска звонков не предъявляет никаких требований к связи подсетей с сетевыми узлами.</span><span class="sxs-lookup"><span data-stu-id="df553-107">Call admission control does not have any special requirements for associating subnets with network sites.</span></span> <span data-ttu-id="df553-108">Чтобы создать связь между подсетями и сетевыми сайтами в топологии, выполните процедуры, описанные в разделе [связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="df553-108">To create an association between the subnets and network sites in your topology, follow the procedures in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span> <span data-ttu-id="df553-109">Чтобы просмотреть сетевые сайты (и соответствующие подсети) в примере сетевой топологии для контроля допуска звонков, обратитесь к разделу [Пример: сбор требований для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="df553-109">To view the network sites (and their respective subnets) in the example network topology for call admission control, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
 </div>
 

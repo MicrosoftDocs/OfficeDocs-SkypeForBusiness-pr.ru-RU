@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193912"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530526"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a><span data-ttu-id="f3ea2-102">Тестирование разрешений на активацию служб и групп в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3ea2-102">Testing service activation and group permissions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a><span data-ttu-id="105d4-102">Тестирование разрешений на активацию служб и групп в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="105d4-102">Testing service activation and group permissions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193912"
 
 <span> </span>
 
-<span data-ttu-id="105d4-103">_**Последнее изменение темы:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="105d4-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="f3ea2-103">_**Последнее изменение темы:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="f3ea2-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42193912"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="105d4-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="105d4-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="105d4-105">Daily (Ежедневный)</span><span class="sxs-lookup"><span data-stu-id="105d4-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="f3ea2-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="f3ea2-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="f3ea2-105">Ежедневное</span><span class="sxs-lookup"><span data-stu-id="f3ea2-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="105d4-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="105d4-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="105d4-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="105d4-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="f3ea2-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="f3ea2-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="f3ea2-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="f3ea2-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="105d4-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="105d4-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="105d4-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="105d4-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="105d4-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsTopology.</span><span class="sxs-lookup"><span data-stu-id="105d4-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTopology cmdlet.</span></span> <span data-ttu-id="105d4-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="105d4-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="f3ea2-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="f3ea2-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="f3ea2-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="f3ea2-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsTopology.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTopology cmdlet.</span></span> <span data-ttu-id="f3ea2-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTopology&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +66,11 @@ ms.locfileid: "42193912"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="105d4-112">Описание</span><span class="sxs-lookup"><span data-stu-id="105d4-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="f3ea2-112">Описание</span><span class="sxs-lookup"><span data-stu-id="f3ea2-112">Description</span></span>
 
-<span data-ttu-id="105d4-113">Командлет Test-CsTopology позволяет убедиться, что Lync Server 2013 правильно работает в глобальной области.</span><span class="sxs-lookup"><span data-stu-id="105d4-113">The Test-CsTopology cmdlet enables you to verify that Lync Server 2013 is functioning correctly at a global scope.</span></span> <span data-ttu-id="105d4-114">По умолчанию командлет проверяет всю инфраструктуру Lync Server, проверяя, что необходимые службы запущены и установлены ли соответствующие разрешения для этих служб, а также для универсальных групп безопасности, создаваемых при установке Lync Server. .</span><span class="sxs-lookup"><span data-stu-id="105d4-114">By default, the cmdlet checks your whole Lync Server infrastructure, verifying that the required services are running and that the appropriate permissions are set for these services and for the universal security groups that are created when you install Lync Server.</span></span>
+<span data-ttu-id="f3ea2-113">Командлет Test-CsTopology позволяет убедиться, что Lync Server 2013 правильно работает в глобальной области.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-113">The Test-CsTopology cmdlet enables you to verify that Lync Server 2013 is functioning correctly at a global scope.</span></span> <span data-ttu-id="f3ea2-114">По умолчанию командлет проверяет всю инфраструктуру Lync Server, проверяя, что необходимые службы запущены и установлены ли соответствующие разрешения для этих служб, а также для универсальных групп безопасности, создаваемых при установке Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-114">By default, the cmdlet checks your whole Lync Server infrastructure, verifying that the required services are running and that the appropriate permissions are set for these services and for the universal security groups that are created when you install Lync Server.</span></span>
 
-<span data-ttu-id="105d4-115">Кроме проверки допустимости установки Lync Server, Test-CsTopology также позволяет проверить допустимость определенной службы.</span><span class="sxs-lookup"><span data-stu-id="105d4-115">In addition to verifying the validity of the Lync Server installation, Test-CsTopology also lets you check the validity of a specific service.</span></span> <span data-ttu-id="105d4-116">Например, эта команда проверяет состояние сервера аудио-и видеоконференций в пуле atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="105d4-116">For example, this command checks the state of the A/V Conferencing Server on the pool atl-cs-001.litwareinc.com:</span></span>
+<span data-ttu-id="f3ea2-115">Кроме проверки допустимости установки Lync Server, Test-CsTopology также позволяет проверить допустимость определенной службы.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-115">In addition to verifying the validity of the Lync Server installation, Test-CsTopology also lets you check the validity of a specific service.</span></span> <span data-ttu-id="f3ea2-116">Например, эта команда проверяет состояние сервера аудио-и видеоконференций в пуле atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-116">For example, this command checks the state of the A/V Conferencing Server on the pool atl-cs-001.litwareinc.com:</span></span>
 
     Test-CsTopology -Service "ConferencingServer:atl-cs-001.litwareinc.com"
 
@@ -76,41 +78,41 @@ ms.locfileid: "42193912"
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="105d4-117">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="105d4-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="f3ea2-117">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="f3ea2-117">Running the test</span></span>
 
-<span data-ttu-id="105d4-118">По умолчанию test-CsTopology отображает очень маленький вывод на экран.</span><span class="sxs-lookup"><span data-stu-id="105d4-118">By default, Test-CsTopology displays very little output on-screen.</span></span> <span data-ttu-id="105d4-119">Вместо этого сведения, возвращаемые командлетом, записываются в HTML-файл.</span><span class="sxs-lookup"><span data-stu-id="105d4-119">Instead, information returned by the cmdlet is written to an HTML file.</span></span> <span data-ttu-id="105d4-120">Параметр Report позволяет указать путь к файлу и имя файла для HTML-файла, созданного с помощью Test-CsTopology.</span><span class="sxs-lookup"><span data-stu-id="105d4-120">The Report parameter allows you to specify a file path and file name for the HTML file generated by Test-CsTopology.</span></span> <span data-ttu-id="105d4-121">Если не включить параметр отчета, HTML-файл будет автоматически сохранен в папке "Пользователи" и будет иметь имя, аналогичное следующему: ce84964a-c4da-4622-ad34-c54ff3ed361f. HTML.</span><span class="sxs-lookup"><span data-stu-id="105d4-121">If you do not include the Report parameter the HTML file will automatically be saved to your Users folder and be given a name similar to this: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.</span></span>
+<span data-ttu-id="f3ea2-118">По умолчанию на экране Test-CsTopology отображаются очень мелкие выходные данные.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-118">By default, Test-CsTopology displays very little output on-screen.</span></span> <span data-ttu-id="f3ea2-119">Вместо этого сведения, возвращаемые командлетом, записываются в HTML-файл.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-119">Instead, information returned by the cmdlet is written to an HTML file.</span></span> <span data-ttu-id="f3ea2-120">Параметр Report позволяет указать путь к файлу и имя файла для HTML-файла, созданного с помощью Test-CsTopology.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-120">The Report parameter allows you to specify a file path and file name for the HTML file generated by Test-CsTopology.</span></span> <span data-ttu-id="f3ea2-121">Если не включить параметр отчета, HTML-файл будет автоматически сохранен в папке "Пользователи" и будет иметь имя, аналогичное следующему: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-121">If you do not include the Report parameter the HTML file will automatically be saved to your Users folder and be given a name similar to this: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.</span></span>
 
-<span data-ttu-id="105d4-122">Приведенный ниже пример команды выполняет командлет Test-CsTopology и сохраняет выходные данные в файл с именем C:\\Logs\\компутертест. HTML:</span><span class="sxs-lookup"><span data-stu-id="105d4-122">The following sample command runs Test-CsTopology and saves the output to a file that is named C:\\Logs\\ComputerTest.html:</span></span>
+<span data-ttu-id="f3ea2-122">В приведенном ниже примере команда выполняет Test-CsTopology и сохраняет выходные данные в файл с именем C: \\ Logs \\ComputerTest.html:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-122">The following sample command runs Test-CsTopology and saves the output to a file that is named C:\\Logs\\ComputerTest.html:</span></span>
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
-<span data-ttu-id="105d4-123">Дополнительные сведения можно найти в справочной документации по командлету [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) .</span><span class="sxs-lookup"><span data-stu-id="105d4-123">For more information, see the Help documentation for the [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) cmdlet.</span></span>
+<span data-ttu-id="f3ea2-123">Дополнительные сведения можно найти в справочной документации по командлету [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) .</span><span class="sxs-lookup"><span data-stu-id="f3ea2-123">For more information, see the Help documentation for the [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="105d4-124">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="105d4-124">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="f3ea2-124">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="f3ea2-124">Determining success or failure</span></span>
 
-<span data-ttu-id="105d4-125">В отличие от большинства командлетов тестирования, Test-CsTopology отправляет отчет об успешном выполнении или сбое.</span><span class="sxs-lookup"><span data-stu-id="105d4-125">Unlike most of the test cmdlets, Test-CsTopology does report back Success or Failure.</span></span> <span data-ttu-id="105d4-126">Частично это вызвано большим количеством проверок, которые командлет должен выполнять при каждом запуске.</span><span class="sxs-lookup"><span data-stu-id="105d4-126">In part, that’s due to the large number of verification checks that the cmdlet must make every time that it runs.</span></span> <span data-ttu-id="105d4-127">Вместо этого данные сохраняются в HTML-отчете, который можно просмотреть с помощью Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="105d4-127">Instead, data is saved to an HTML report that can then be viewed by using Internet Explorer.</span></span>
+<span data-ttu-id="f3ea2-125">В отличие от большинства командлетов тестирования, Test-CsTopology отправляет отчет об успешном выполнении или сбое.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-125">Unlike most of the test cmdlets, Test-CsTopology does report back Success or Failure.</span></span> <span data-ttu-id="f3ea2-126">Частично это вызвано большим количеством проверок, которые командлет должен выполнять при каждом запуске.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-126">In part, that’s due to the large number of verification checks that the cmdlet must make every time that it runs.</span></span> <span data-ttu-id="f3ea2-127">Вместо этого данные сохраняются в HTML-отчете, который можно просмотреть с помощью Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-127">Instead, data is saved to an HTML report that can then be viewed by using Internet Explorer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="105d4-128">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="105d4-128">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="f3ea2-128">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="f3ea2-128">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="105d4-129">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка Test-CsTopology:</span><span class="sxs-lookup"><span data-stu-id="105d4-129">Here are some common reasons why Test-CsTopology might fail:</span></span>
+<span data-ttu-id="f3ea2-129">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка Test-CsTopology:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-129">Here are some common reasons why Test-CsTopology might fail:</span></span>
 
-  - <span data-ttu-id="105d4-130">Репликация может быть неактуальной на тестовом компьютере.</span><span class="sxs-lookup"><span data-stu-id="105d4-130">Replication might not be up-to-date on the test computer.</span></span> <span data-ttu-id="105d4-131">Вы можете проверить текущее состояние репликации для компьютера, выполнив командлет Get – CsManagementStoreReplicationStatus:</span><span class="sxs-lookup"><span data-stu-id="105d4-131">You can check the current replication status for a computer by running the Get-CsManagementStoreReplicationStatus cmdlet:</span></span>
+  - <span data-ttu-id="f3ea2-130">Репликация может быть неактуальной на тестовом компьютере.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-130">Replication might not be up-to-date on the test computer.</span></span> <span data-ttu-id="f3ea2-131">Вы можете проверить текущее состояние репликации для компьютера, выполнив командлет Get-CsManagementStoreReplicationStatus:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-131">You can check the current replication status for a computer by running the Get-CsManagementStoreReplicationStatus cmdlet:</span></span>
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     
-    <span data-ttu-id="105d4-132">Если состояние репликации устарело, можно вручную выполнить репликацию с помощью следующей команды:</span><span class="sxs-lookup"><span data-stu-id="105d4-132">If the replication status is not up-to-date, you can manually force replication to occur by using a command similar to this:</span></span>
+    <span data-ttu-id="f3ea2-132">Если состояние репликации устарело, можно вручную выполнить репликацию с помощью следующей команды:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-132">If the replication status is not up-to-date, you can manually force replication to occur by using a command similar to this:</span></span>
     
         Invoke-CsManagementStoreReplication -ReplicaFqdn "atl-cs-001.litwareinc.com"
 
-  - <span data-ttu-id="105d4-133">Возможно, топология включена.</span><span class="sxs-lookup"><span data-stu-id="105d4-133">The topology might have to be enabled.</span></span> <span data-ttu-id="105d4-134">При изменении топологии Lync Server (изменений, которые могут повлиять на локальный компьютер) необходимо включить новую топологию.</span><span class="sxs-lookup"><span data-stu-id="105d4-134">If you change the Lync Server topology (changes that might affect the local computer), then you must enable the new topology.</span></span> <span data-ttu-id="105d4-135">Вы можете включить топологию в любое время, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="105d4-135">You can enable the topology at any time by running this command:</span></span>
+  - <span data-ttu-id="f3ea2-133">Возможно, топология включена.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-133">The topology might have to be enabled.</span></span> <span data-ttu-id="f3ea2-134">При изменении топологии Lync Server (изменений, которые могут повлиять на локальный компьютер) необходимо включить новую топологию.</span><span class="sxs-lookup"><span data-stu-id="f3ea2-134">If you change the Lync Server topology (changes that might affect the local computer), then you must enable the new topology.</span></span> <span data-ttu-id="f3ea2-135">Вы можете включить топологию в любое время, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="f3ea2-135">You can enable the topology at any time by running this command:</span></span>
     
         Enable-CsTopology
 
