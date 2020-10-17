@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка политик голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий'
+description: 'Lync Server 2013: Настройка политик голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13057306d278d871ca7e4cba530ae8eba974ea5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a12c9c64c3f02effba7c7709321eda91350ebb75
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516966"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542285"
 ---
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="89ef5-102">Настройка политики голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89ef5-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="59c06-103">Настройка политики голосовой связи и записей использования PSTN для авторизации функций звонков и привилегий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59c06-103">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48516966"
 
 <span> </span>
 
-<span data-ttu-id="89ef5-103">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="89ef5-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="59c06-104">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="59c06-104">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="89ef5-104">*Политика голосовой связи* определяет набор функций звонков и разрешений, предоставляемых пользователям, которым назначена данная политика, путем связывания с одной или несколькими записями ТСОП.</span><span class="sxs-lookup"><span data-stu-id="89ef5-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
+<span data-ttu-id="59c06-105">*Политика голосовой связи* определяет набор функций звонков и разрешений, предоставляемых пользователям, которым назначена данная политика, путем связывания с одной или несколькими записями ТСОП.</span><span class="sxs-lookup"><span data-stu-id="59c06-105">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
 
-<span data-ttu-id="89ef5-p101">Областью действия политики голосовой связи может быть *сайт* (определяет функции и разрешения по умолчанию для сайта сети) или *пользователь* (определяет функции и разрешения, назначаемые на уровне пользователей или групп). Пользователям, которым не назначена политика голосовой связи, автоматически назначается глобальная политика. Она представляет собой политику голосовой связи по умолчанию, устанавливаемую вместе с продуктом.</span><span class="sxs-lookup"><span data-stu-id="89ef5-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
+<span data-ttu-id="59c06-p101">Областью действия политики голосовой связи может быть *сайт* (определяет функции и разрешения по умолчанию для сайта сети) или *пользователь* (определяет функции и разрешения, назначаемые на уровне пользователей или групп). Пользователям, которым не назначена политика голосовой связи, автоматически назначается глобальная политика. Она представляет собой политику голосовой связи по умолчанию, устанавливаемую вместе с продуктом.</span><span class="sxs-lookup"><span data-stu-id="59c06-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="89ef5-107">Подробнее о <A href="lync-server-2013-voice-policies.md">политиках голосовой связи в Lync Server 2013</A> можно найти в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="89ef5-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="59c06-108">Подробнее о <A href="lync-server-2013-voice-policies.md">политиках голосовой связи в Lync Server 2013</A> можно найти в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="59c06-108">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -55,13 +56,13 @@ ms.locfileid: "48516966"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="89ef5-108">Содержание</span><span class="sxs-lookup"><span data-stu-id="89ef5-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="59c06-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="59c06-109">In This Section</span></span>
 
-  - [<span data-ttu-id="89ef5-109">Создание политики голосовой связи и настройка записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89ef5-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="59c06-110">Создание политики голосовой связи и настройка записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59c06-110">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="89ef5-110">Изменение политики голосовой связи и настройка записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89ef5-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="59c06-111">Изменение политики голосовой связи и настройка записей использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59c06-111">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="89ef5-111">Настройка escape-последовательности голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89ef5-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
+  - [<span data-ttu-id="59c06-112">Настройка escape-последовательности голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59c06-112">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 

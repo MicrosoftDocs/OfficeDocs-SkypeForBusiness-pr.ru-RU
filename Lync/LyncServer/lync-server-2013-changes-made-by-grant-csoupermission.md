@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: изменения, внесенные Grant-CsOUPermission'
+description: 'Lync Server 2013: изменения, внесенные с помощью Grant – CsOUPermission.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ff916c0b4e284f9c6ce4d5dbaf9c2e196ed4bc6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10d3db0e9dde380628690bc016e2b4bd2ec85b54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529436"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543615"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a><span data-ttu-id="4580e-102">Изменения, внесенные Grant-CsOUPermission в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4580e-102">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a><span data-ttu-id="45ec5-103">Изменения, внесенные Grant-CsOUPermission в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45ec5-103">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48529436"
 
 <span> </span>
 
-<span data-ttu-id="4580e-103">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="4580e-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="45ec5-104">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="45ec5-104">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="4580e-104">Чтобы делегировать администрирование Lync Server 2013, можно добавить разрешения для указанных подразделений, чтобы участники универсальных групп RTC, созданные при подготовке леса, могли получать доступ к подразделениям, не открывая группу "Администраторы домена".</span><span class="sxs-lookup"><span data-stu-id="4580e-104">To delegate Lync Server 2013 administration, you can add permissions to specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access the OUs without being members of the Domain Admins group.</span></span>
+<span data-ttu-id="45ec5-105">Чтобы делегировать администрирование Lync Server 2013, можно добавить разрешения для указанных подразделений, чтобы участники универсальных групп RTC, созданные при подготовке леса, могли получать доступ к подразделениям, не открывая группу "Администраторы домена".</span><span class="sxs-lookup"><span data-stu-id="45ec5-105">To delegate Lync Server 2013 administration, you can add permissions to specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access the OUs without being members of the Domain Admins group.</span></span>
 
-<span data-ttu-id="4580e-105">Командлет **Grant-CsOuPermission** предоставляет разрешения объектам в указанном подразделении, как указано в следующих таблицах.</span><span class="sxs-lookup"><span data-stu-id="4580e-105">The **Grant-CsOuPermission** cmdlet grants permissions to objects in the specified OU as specified in the following tables.</span></span>
+<span data-ttu-id="45ec5-106">Командлет **Grant-CsOuPermission** предоставляет разрешения объектам в указанном подразделении, как указано в следующих таблицах.</span><span class="sxs-lookup"><span data-stu-id="45ec5-106">The **Grant-CsOuPermission** cmdlet grants permissions to objects in the specified OU as specified in the following tables.</span></span>
 
 <div>
 
-## <a name="granting-permission-for-user-objects"></a><span data-ttu-id="4580e-106">Предоставление разрешений для объектов-пользователей</span><span class="sxs-lookup"><span data-stu-id="4580e-106">Granting Permission for User Objects</span></span>
+## <a name="granting-permission-for-user-objects"></a><span data-ttu-id="45ec5-107">Предоставление разрешений для объектов-пользователей</span><span class="sxs-lookup"><span data-stu-id="45ec5-107">Granting Permission for User Objects</span></span>
 
-<span data-ttu-id="4580e-107">При запуске командлета **Grant-CsOuPermission** для объектов-пользователей в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="4580e-107">When you run the **Grant-CsOuPermission** cmdlet for User objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="45ec5-108">При запуске командлета **Grant-CsOuPermission** для объектов-пользователей в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45ec5-108">When you run the **Grant-CsOuPermission** cmdlet for User objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-user-objects"></a><span data-ttu-id="4580e-108">Разрешения, предоставленные объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="4580e-108">Permissions Granted for User Objects</span></span>
+### <a name="permissions-granted-for-user-objects"></a><span data-ttu-id="45ec5-109">Разрешения, предоставленные объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="45ec5-109">Permissions Granted for User Objects</span></span>
 
 <table>
 <colgroup>
@@ -59,49 +60,49 @@ ms.locfileid: "48529436"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4580e-109">Группа</span><span class="sxs-lookup"><span data-stu-id="4580e-109">Group</span></span></th>
-<th><span data-ttu-id="4580e-110">Разрешение</span><span class="sxs-lookup"><span data-stu-id="4580e-110">Permission</span></span></th>
-<th><span data-ttu-id="4580e-111">Применимо к</span><span class="sxs-lookup"><span data-stu-id="4580e-111">Applies to</span></span></th>
+<th><span data-ttu-id="45ec5-110">Группа</span><span class="sxs-lookup"><span data-stu-id="45ec5-110">Group</span></span></th>
+<th><span data-ttu-id="45ec5-111">Разрешение</span><span class="sxs-lookup"><span data-stu-id="45ec5-111">Permission</span></span></th>
+<th><span data-ttu-id="45ec5-112">Применимо к</span><span class="sxs-lookup"><span data-stu-id="45ec5-112">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-112">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="4580e-112">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="4580e-113">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="4580e-113">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="4580e-114">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-114">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-113">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="45ec5-113">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-114">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="45ec5-114">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-115">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-115">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-115">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-115">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-116">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-116">List contents</span></span></p>
-<p><span data-ttu-id="4580e-117">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-117">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-118">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-118">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-119">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-119">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-116">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-116">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-117">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-117">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-118">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-118">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-119">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-119">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-120">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-120">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-120">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-120">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-121">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-121">List contents</span></span></p>
-<p><span data-ttu-id="4580e-122">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-122">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-123">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-123">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-124">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-124">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-121">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-121">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-122">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-122">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-123">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-123">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-124">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-124">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-125">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-125">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-125">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-125">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-126">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-126">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-127">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-127">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-128">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-128">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-129">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-129">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-130">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-130">Read General-Information</span></span></p>
-<p><span data-ttu-id="4580e-131">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="4580e-131">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-132">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="4580e-132">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-126">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-126">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-127">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-127">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-128">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-128">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-129">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-129">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-130">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-130">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-131">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-131">Read General-Information</span></span></p>
+<p><span data-ttu-id="45ec5-132">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="45ec5-132">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-133">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="45ec5-133">Descendant User objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-133">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-133">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-134">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-134">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-135">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="4580e-135">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="4580e-136">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-136">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-137">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-137">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-138">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="4580e-138">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="4580e-139">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="4580e-139">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-134">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-134">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-135">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-135">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-136">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="45ec5-136">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="45ec5-137">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-137">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-138">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-138">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-139">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="45ec5-139">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-140">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="45ec5-140">Descendant User objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,11 +112,11 @@ ms.locfileid: "48529436"
 
 <div>
 
-## <a name="granting-permission-for-computer-objects"></a><span data-ttu-id="4580e-140">Предоставление разрешений для объектов-компьютеров</span><span class="sxs-lookup"><span data-stu-id="4580e-140">Granting Permission for Computer Objects</span></span>
+## <a name="granting-permission-for-computer-objects"></a><span data-ttu-id="45ec5-141">Предоставление разрешений для объектов-компьютеров</span><span class="sxs-lookup"><span data-stu-id="45ec5-141">Granting Permission for Computer Objects</span></span>
 
-<span data-ttu-id="4580e-141">При запуске командлета **Grant-CsOuPermission** для объектов-компьютеров в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="4580e-141">When you run the **Grant-CsOuPermission** cmdlet for Computer objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="45ec5-142">При запуске командлета **Grant-CsOuPermission** для объектов-компьютеров в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45ec5-142">When you run the **Grant-CsOuPermission** cmdlet for Computer objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-computer-objects"></a><span data-ttu-id="4580e-142">Разрешения, предоставленные объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="4580e-142">Permissions Granted for Computer Objects</span></span>
+### <a name="permissions-granted-for-computer-objects"></a><span data-ttu-id="45ec5-143">Разрешения, предоставленные объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="45ec5-143">Permissions Granted for Computer Objects</span></span>
 
 <table>
 <colgroup>
@@ -125,42 +126,42 @@ ms.locfileid: "48529436"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4580e-143">Группа</span><span class="sxs-lookup"><span data-stu-id="4580e-143">Group</span></span></th>
-<th><span data-ttu-id="4580e-144">Разрешение</span><span class="sxs-lookup"><span data-stu-id="4580e-144">Permission</span></span></th>
-<th><span data-ttu-id="4580e-145">Применимо к</span><span class="sxs-lookup"><span data-stu-id="4580e-145">Applies to</span></span></th>
+<th><span data-ttu-id="45ec5-144">Группа</span><span class="sxs-lookup"><span data-stu-id="45ec5-144">Group</span></span></th>
+<th><span data-ttu-id="45ec5-145">Разрешение</span><span class="sxs-lookup"><span data-stu-id="45ec5-145">Permission</span></span></th>
+<th><span data-ttu-id="45ec5-146">Применимо к</span><span class="sxs-lookup"><span data-stu-id="45ec5-146">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-146">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="4580e-146">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="4580e-147">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="4580e-147">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="4580e-148">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-148">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-147">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="45ec5-147">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-148">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="45ec5-148">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-149">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-149">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-149">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-149">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-150">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-150">List contents</span></span></p>
-<p><span data-ttu-id="4580e-151">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-151">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-152">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-152">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-153">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-153">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-150">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-150">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-151">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-151">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-152">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-152">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-153">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-153">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-154">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-154">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-154">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-154">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-155">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-155">List contents</span></span></p>
-<p><span data-ttu-id="4580e-156">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-156">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-157">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-157">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-158">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-158">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-155">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-155">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-156">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-156">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-157">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-157">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-158">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-158">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-159">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-159">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-159">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-159">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-160">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-160">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-161">Чтение Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="4580e-161">Read Validated-DNS-Host-Name</span></span></p></td>
-<td><p><span data-ttu-id="4580e-162">К дочерним объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="4580e-162">Descendant Computer objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-160">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-160">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-161">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-161">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-162">Чтение Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="45ec5-162">Read Validated-DNS-Host-Name</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-163">К дочерним объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="45ec5-163">Descendant Computer objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-163">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-163">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-164">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-164">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-165">Чтение Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="4580e-165">Read Validated-DNS-Host-Name</span></span></p></td>
-<td><p><span data-ttu-id="4580e-166">К дочерним объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="4580e-166">Descendant Computer objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-164">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-164">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-165">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-165">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-166">Чтение Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="45ec5-166">Read Validated-DNS-Host-Name</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-167">К дочерним объектам-компьютерам</span><span class="sxs-lookup"><span data-stu-id="45ec5-167">Descendant Computer objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -170,11 +171,11 @@ ms.locfileid: "48529436"
 
 <div>
 
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a><span data-ttu-id="4580e-167">Предоставление разрешений для контактных объектов  или объектов AppContact</span><span class="sxs-lookup"><span data-stu-id="4580e-167">Granting Permission for Contact or AppContact Objects</span></span>
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a><span data-ttu-id="45ec5-168">Предоставление разрешений для контактных объектов  или объектов AppContact</span><span class="sxs-lookup"><span data-stu-id="45ec5-168">Granting Permission for Contact or AppContact Objects</span></span>
 
-<span data-ttu-id="4580e-168">При запуске командлета **Grant-CsOuPermission** для контактных объектов и объектов AppContact в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="4580e-168">When you run the **Grant-CsOuPermission** cmdlet for Contact objects or AppContact objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="45ec5-169">При запуске командлета **Grant-CsOuPermission** для контактных объектов и объектов AppContact в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45ec5-169">When you run the **Grant-CsOuPermission** cmdlet for Contact objects or AppContact objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-contact-or-appcontact-objects"></a><span data-ttu-id="4580e-169">Разрешения, предоставленные контактным объектам и объектам AppContact</span><span class="sxs-lookup"><span data-stu-id="4580e-169">Permissions Granted for Contact or AppContact Objects</span></span>
+### <a name="permissions-granted-for-contact-or-appcontact-objects"></a><span data-ttu-id="45ec5-170">Разрешения, предоставленные контактным объектам и объектам AppContact</span><span class="sxs-lookup"><span data-stu-id="45ec5-170">Permissions Granted for Contact or AppContact Objects</span></span>
 
 <table>
 <colgroup>
@@ -184,54 +185,54 @@ ms.locfileid: "48529436"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4580e-170">Группа</span><span class="sxs-lookup"><span data-stu-id="4580e-170">Group</span></span></th>
-<th><span data-ttu-id="4580e-171">Разрешение</span><span class="sxs-lookup"><span data-stu-id="4580e-171">Permission</span></span></th>
-<th><span data-ttu-id="4580e-172">Применимо к</span><span class="sxs-lookup"><span data-stu-id="4580e-172">Applies to</span></span></th>
+<th><span data-ttu-id="45ec5-171">Группа</span><span class="sxs-lookup"><span data-stu-id="45ec5-171">Group</span></span></th>
+<th><span data-ttu-id="45ec5-172">Разрешение</span><span class="sxs-lookup"><span data-stu-id="45ec5-172">Permission</span></span></th>
+<th><span data-ttu-id="45ec5-173">Применимо к</span><span class="sxs-lookup"><span data-stu-id="45ec5-173">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-173">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="4580e-173">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="4580e-174">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="4580e-174">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="4580e-175">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-175">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-174">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="45ec5-174">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-175">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="45ec5-175">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-176">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-176">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-176">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-176">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-177">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-177">List contents</span></span></p>
-<p><span data-ttu-id="4580e-178">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-178">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-179">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-179">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-180">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-180">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-177">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-177">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-178">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-178">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-179">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-179">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-180">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-180">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-181">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-181">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-181">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-181">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-182">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-182">List contents</span></span></p>
-<p><span data-ttu-id="4580e-183">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-183">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-184">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-184">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-185">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-185">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-182">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-182">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-183">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-183">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-184">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-184">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-185">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-185">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-186">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-186">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-186">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-186">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-187">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-187">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-188">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-188">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-189">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-189">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-190">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-190">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-191">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-191">Read General-Information</span></span></p>
-<p><span data-ttu-id="4580e-192">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-192">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="4580e-193">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="4580e-193">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-194">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="4580e-194">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-187">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-187">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-188">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-188">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-189">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-189">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-190">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-190">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-191">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-191">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-192">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-192">Read General-Information</span></span></p>
+<p><span data-ttu-id="45ec5-193">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-193">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="45ec5-194">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="45ec5-194">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-195">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="45ec5-195">Descendant Contact objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-195">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-195">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-196">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-196">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-197">Запись otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="4580e-197">Write otherIpPhone</span></span></p>
-<p><span data-ttu-id="4580e-198">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="4580e-198">Write displayName</span></span></p>
-<p><span data-ttu-id="4580e-199">Запись description</span><span class="sxs-lookup"><span data-stu-id="4580e-199">Write description</span></span></p>
-<p><span data-ttu-id="4580e-200">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="4580e-200">Write telephoneNumber</span></span></p>
-<p><span data-ttu-id="4580e-201">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="4580e-201">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="4580e-202">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-202">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-203">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-203">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-204">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="4580e-204">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="4580e-205">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="4580e-205">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-196">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-196">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-197">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-197">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-198">Запись otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="45ec5-198">Write otherIpPhone</span></span></p>
+<p><span data-ttu-id="45ec5-199">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="45ec5-199">Write displayName</span></span></p>
+<p><span data-ttu-id="45ec5-200">Запись description</span><span class="sxs-lookup"><span data-stu-id="45ec5-200">Write description</span></span></p>
+<p><span data-ttu-id="45ec5-201">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="45ec5-201">Write telephoneNumber</span></span></p>
+<p><span data-ttu-id="45ec5-202">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="45ec5-202">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="45ec5-203">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-203">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-204">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-204">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-205">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="45ec5-205">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-206">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="45ec5-206">Descendant Contact objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -241,11 +242,11 @@ ms.locfileid: "48529436"
 
 <div>
 
-## <a name="granting-permission-for-device-objects"></a><span data-ttu-id="4580e-206">Предоставление разрешений для объектов-устройств</span><span class="sxs-lookup"><span data-stu-id="4580e-206">Granting Permission for Device Objects</span></span>
+## <a name="granting-permission-for-device-objects"></a><span data-ttu-id="45ec5-207">Предоставление разрешений для объектов-устройств</span><span class="sxs-lookup"><span data-stu-id="45ec5-207">Granting Permission for Device Objects</span></span>
 
-<span data-ttu-id="4580e-207">При запуске командлета **Grant-CsOuPermission** для объектов-устройств в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="4580e-207">When you run the **Grant-CsOuPermission** cmdlet for Device objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="45ec5-208">При запуске командлета **Grant-CsOuPermission** для объектов-устройств в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45ec5-208">When you run the **Grant-CsOuPermission** cmdlet for Device objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-device-objects"></a><span data-ttu-id="4580e-208">Разрешения, предоставленные объектам-устройствам</span><span class="sxs-lookup"><span data-stu-id="4580e-208">Permissions Granted for Device Objects</span></span>
+### <a name="permissions-granted-for-device-objects"></a><span data-ttu-id="45ec5-209">Разрешения, предоставленные объектам-устройствам</span><span class="sxs-lookup"><span data-stu-id="45ec5-209">Permissions Granted for Device Objects</span></span>
 
 <table>
 <colgroup>
@@ -255,68 +256,68 @@ ms.locfileid: "48529436"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4580e-209">Группа</span><span class="sxs-lookup"><span data-stu-id="4580e-209">Group</span></span></th>
-<th><span data-ttu-id="4580e-210">Разрешение</span><span class="sxs-lookup"><span data-stu-id="4580e-210">Permission</span></span></th>
-<th><span data-ttu-id="4580e-211">Применимо к</span><span class="sxs-lookup"><span data-stu-id="4580e-211">Applies to</span></span></th>
+<th><span data-ttu-id="45ec5-210">Группа</span><span class="sxs-lookup"><span data-stu-id="45ec5-210">Group</span></span></th>
+<th><span data-ttu-id="45ec5-211">Разрешение</span><span class="sxs-lookup"><span data-stu-id="45ec5-211">Permission</span></span></th>
+<th><span data-ttu-id="45ec5-212">Применимо к</span><span class="sxs-lookup"><span data-stu-id="45ec5-212">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-212">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="4580e-212">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="4580e-213">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="4580e-213">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="4580e-214">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-214">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-213">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="45ec5-213">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-214">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="45ec5-214">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-215">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-215">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-215">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-215">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-216">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-216">List contents</span></span></p>
-<p><span data-ttu-id="4580e-217">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-217">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-218">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-218">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-219">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-219">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-216">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-216">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-217">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-217">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-218">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-218">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-219">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-219">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-220">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-220">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-220">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-220">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-221">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-221">List contents</span></span></p>
-<p><span data-ttu-id="4580e-222">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-222">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-223">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-223">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-224">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-224">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-221">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-221">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-222">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-222">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-223">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-223">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-224">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-224">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-225">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-225">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-225">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-225">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-226">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-226">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-227">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-227">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-228">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-228">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-229">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-229">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-230">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-230">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="4580e-231">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-231">Read General-Information</span></span></p>
-<p><span data-ttu-id="4580e-232">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="4580e-232">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-233">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="4580e-233">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-226">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-226">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-227">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-227">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-228">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-228">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-229">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-229">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-230">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-230">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-231">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-231">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="45ec5-232">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-232">Read General-Information</span></span></p>
+<p><span data-ttu-id="45ec5-233">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="45ec5-233">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-234">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="45ec5-234">Descendant Contact objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-234">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-234">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-235">Создание дочернего объекта</span><span class="sxs-lookup"><span data-stu-id="4580e-235">Create child</span></span></p>
-<p><span data-ttu-id="4580e-236">Удаление дочернего объекта</span><span class="sxs-lookup"><span data-stu-id="4580e-236">Delete child</span></span></p>
-<p><span data-ttu-id="4580e-237">Удаление дерева</span><span class="sxs-lookup"><span data-stu-id="4580e-237">Delete tree</span></span></p></td>
-<td><p><span data-ttu-id="4580e-238">Контакт</span><span class="sxs-lookup"><span data-stu-id="4580e-238">Contact</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-235">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-235">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-236">Создание дочернего объекта</span><span class="sxs-lookup"><span data-stu-id="45ec5-236">Create child</span></span></p>
+<p><span data-ttu-id="45ec5-237">Удаление дочернего объекта</span><span class="sxs-lookup"><span data-stu-id="45ec5-237">Delete child</span></span></p>
+<p><span data-ttu-id="45ec5-238">Удаление дерева</span><span class="sxs-lookup"><span data-stu-id="45ec5-238">Delete tree</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-239">Контакт</span><span class="sxs-lookup"><span data-stu-id="45ec5-239">Contact</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-239">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-239">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-240">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="4580e-240">Write displayName</span></span></p>
-<p><span data-ttu-id="4580e-241">Запись description</span><span class="sxs-lookup"><span data-stu-id="4580e-241">Write description</span></span></p>
-<p><span data-ttu-id="4580e-242">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="4580e-242">Write telephoneNumber</span></span></p></td>
-<td><p><span data-ttu-id="4580e-243">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="4580e-243">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-240">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-240">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-241">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="45ec5-241">Write displayName</span></span></p>
+<p><span data-ttu-id="45ec5-242">Запись description</span><span class="sxs-lookup"><span data-stu-id="45ec5-242">Write description</span></span></p>
+<p><span data-ttu-id="45ec5-243">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="45ec5-243">Write telephoneNumber</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-244">К дочерним объектам-пользователям</span><span class="sxs-lookup"><span data-stu-id="45ec5-244">Descendant User objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-244">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-244">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-245">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-245">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-246">Запись otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="4580e-246">Write otherIpPhone</span></span></p>
-<p><span data-ttu-id="4580e-247">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="4580e-247">Write displayName</span></span></p>
-<p><span data-ttu-id="4580e-248">Запись description</span><span class="sxs-lookup"><span data-stu-id="4580e-248">Write description</span></span></p>
-<p><span data-ttu-id="4580e-249">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="4580e-249">Write telephoneNumber</span></span></p>
-<p><span data-ttu-id="4580e-250">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="4580e-250">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="4580e-251">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-251">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-252">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-252">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-253">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="4580e-253">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="4580e-254">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="4580e-254">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-245">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-245">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-246">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-246">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-247">Запись otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="45ec5-247">Write otherIpPhone</span></span></p>
+<p><span data-ttu-id="45ec5-248">Запись displayName</span><span class="sxs-lookup"><span data-stu-id="45ec5-248">Write displayName</span></span></p>
+<p><span data-ttu-id="45ec5-249">Запись description</span><span class="sxs-lookup"><span data-stu-id="45ec5-249">Write description</span></span></p>
+<p><span data-ttu-id="45ec5-250">Запись telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="45ec5-250">Write telephoneNumber</span></span></p>
+<p><span data-ttu-id="45ec5-251">Запись msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="45ec5-251">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="45ec5-252">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-252">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-253">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-253">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-254">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="45ec5-254">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-255">К дочерним контактным объектам</span><span class="sxs-lookup"><span data-stu-id="45ec5-255">Descendant Contact objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -326,11 +327,11 @@ ms.locfileid: "48529436"
 
 <div>
 
-## <a name="granting-permission-for-inetorgperson-objects"></a><span data-ttu-id="4580e-255">Предоставление разрешений для объектов inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="4580e-255">Granting Permission for InetOrgPerson Objects</span></span>
+## <a name="granting-permission-for-inetorgperson-objects"></a><span data-ttu-id="45ec5-256">Предоставление разрешений для объектов inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="45ec5-256">Granting Permission for InetOrgPerson Objects</span></span>
 
-<span data-ttu-id="4580e-256">При запуске командлета **Grant-CsOuPermission** для объектов inetOrgPerson в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="4580e-256">When you run the **Grant-CsOuPermission** cmdlet for InetOrgPerson objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="45ec5-257">При запуске командлета **Grant-CsOuPermission** для объектов inetOrgPerson в подразделении группам предоставляются разрешения, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45ec5-257">When you run the **Grant-CsOuPermission** cmdlet for InetOrgPerson objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-inetorgperson-objects"></a><span data-ttu-id="4580e-257">Разрешения, предоставленные объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="4580e-257">Permissions Granted for InetOrgPerson Objects</span></span>
+### <a name="permissions-granted-for-inetorgperson-objects"></a><span data-ttu-id="45ec5-258">Разрешения, предоставленные объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="45ec5-258">Permissions Granted for InetOrgPerson Objects</span></span>
 
 <table>
 <colgroup>
@@ -340,49 +341,49 @@ ms.locfileid: "48529436"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4580e-258">Группа</span><span class="sxs-lookup"><span data-stu-id="4580e-258">Group</span></span></th>
-<th><span data-ttu-id="4580e-259">Разрешение</span><span class="sxs-lookup"><span data-stu-id="4580e-259">Permission</span></span></th>
-<th><span data-ttu-id="4580e-260">Применимо к</span><span class="sxs-lookup"><span data-stu-id="4580e-260">Applies to</span></span></th>
+<th><span data-ttu-id="45ec5-259">Группа</span><span class="sxs-lookup"><span data-stu-id="45ec5-259">Group</span></span></th>
+<th><span data-ttu-id="45ec5-260">Разрешение</span><span class="sxs-lookup"><span data-stu-id="45ec5-260">Permission</span></span></th>
+<th><span data-ttu-id="45ec5-261">Применимо к</span><span class="sxs-lookup"><span data-stu-id="45ec5-261">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-261">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="4580e-261">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="4580e-262">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="4580e-262">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="4580e-263">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-263">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-262">ртчсуниверсалсервицес</span><span class="sxs-lookup"><span data-stu-id="45ec5-262">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-263">Репликация изменений каталога</span><span class="sxs-lookup"><span data-stu-id="45ec5-263">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-264">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-264">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-264">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-264">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-265">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-265">List contents</span></span></p>
-<p><span data-ttu-id="4580e-266">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-266">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-267">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-267">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-268">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-268">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-265">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-265">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-266">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-266">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-267">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-267">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-268">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-268">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-269">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-269">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-269">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-269">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-270">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="4580e-270">List contents</span></span></p>
-<p><span data-ttu-id="4580e-271">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="4580e-271">Read all properties</span></span></p>
-<p><span data-ttu-id="4580e-272">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="4580e-272">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-273">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="4580e-273">This object only</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-270">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-270">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-271">Содержимое списка</span><span class="sxs-lookup"><span data-stu-id="45ec5-271">List contents</span></span></p>
+<p><span data-ttu-id="45ec5-272">Чтение всех свойств</span><span class="sxs-lookup"><span data-stu-id="45ec5-272">Read all properties</span></span></p>
+<p><span data-ttu-id="45ec5-273">Разрешения на чтение</span><span class="sxs-lookup"><span data-stu-id="45ec5-273">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-274">Только к этому объекту</span><span class="sxs-lookup"><span data-stu-id="45ec5-274">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4580e-274">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="4580e-274">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="4580e-275">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-275">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-276">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-276">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-277">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-277">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-278">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-278">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="4580e-279">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-279">Read Public-Information</span></span></p>
-<p><span data-ttu-id="4580e-280">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="4580e-280">Read General-Information</span></span></p>
-<p><span data-ttu-id="4580e-281">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="4580e-281">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="4580e-282">К дочерним объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="4580e-282">Descendant inetOrgPerson objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-275">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="45ec5-275">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-276">Чтение RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-276">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-277">Чтение RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-277">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-278">Чтение RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-278">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-279">Чтение Personal-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-279">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="45ec5-280">Чтение Public-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-280">Read Public-Information</span></span></p>
+<p><span data-ttu-id="45ec5-281">Чтение General-Information</span><span class="sxs-lookup"><span data-stu-id="45ec5-281">Read General-Information</span></span></p>
+<p><span data-ttu-id="45ec5-282">Чтение User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="45ec5-282">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-283">К дочерним объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="45ec5-283">Descendant inetOrgPerson objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4580e-283">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="4580e-283">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="4580e-284">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-284">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-285">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-285">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-286">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="4580e-286">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="4580e-287">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="4580e-287">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="4580e-288">К дочерним объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="4580e-288">Descendant inetOrgPerson objects</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-284">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="45ec5-284">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-285">Запись RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-285">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-286">Запись RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-286">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-287">Запись RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="45ec5-287">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="45ec5-288">Запись proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="45ec5-288">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="45ec5-289">К дочерним объектам inetOrgPerson</span><span class="sxs-lookup"><span data-stu-id="45ec5-289">Descendant inetOrgPerson objects</span></span></p></td>
 </tr>
 </tbody>
 </table>

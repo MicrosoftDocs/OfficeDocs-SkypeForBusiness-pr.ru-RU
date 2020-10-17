@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица Pools'
+description: 'Lync Server 2013: таблица Pools.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f9895307599210a7d30fde58d7e09b8353388db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a587eba6798121f39fe64ff8bd720b62e9311ec0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527996"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543195"
 ---
-# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="88bb5-102">Таблица Pools в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88bb5-102">Pools table in Lync Server 2013</span></span>
+# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="11db2-103">Таблица Pools в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="11db2-103">Pools table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48527996"
 
 <span> </span>
 
-<span data-ttu-id="88bb5-103">_**Последнее изменение темы:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="88bb5-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="11db2-104">_**Последнее изменение темы:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="11db2-104">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="88bb5-104">Таблица Pools — это вспомогательная таблица, в которой хранятся сведения о различных пулах.</span><span class="sxs-lookup"><span data-stu-id="88bb5-104">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="88bb5-105">Каждая запись в таблице представляет один пул.</span><span class="sxs-lookup"><span data-stu-id="88bb5-105">Each record in the table represents one pool.</span></span>
+<span data-ttu-id="11db2-105">Таблица Pools — это вспомогательная таблица, в которой хранятся сведения о различных пулах.</span><span class="sxs-lookup"><span data-stu-id="11db2-105">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="11db2-106">Каждая запись в таблице представляет один пул.</span><span class="sxs-lookup"><span data-stu-id="11db2-106">Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48527996"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="88bb5-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="88bb5-106">Column</span></span></th>
-<th><span data-ttu-id="88bb5-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="88bb5-107">Data Type</span></span></th>
-<th><span data-ttu-id="88bb5-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="88bb5-108">Key/Index</span></span></th>
-<th><span data-ttu-id="88bb5-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="88bb5-109">Details</span></span></th>
+<th><span data-ttu-id="11db2-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="11db2-107">Column</span></span></th>
+<th><span data-ttu-id="11db2-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="11db2-108">Data Type</span></span></th>
+<th><span data-ttu-id="11db2-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="11db2-109">Key/Index</span></span></th>
+<th><span data-ttu-id="11db2-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="11db2-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="88bb5-110"><strong>пулид</strong></span><span class="sxs-lookup"><span data-stu-id="88bb5-110"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="88bb5-111">int</span><span class="sxs-lookup"><span data-stu-id="88bb5-111">int</span></span></p></td>
-<td><p><span data-ttu-id="88bb5-112">Primary</span><span class="sxs-lookup"><span data-stu-id="88bb5-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="88bb5-113">Уникальный номер, определяющий пул.</span><span class="sxs-lookup"><span data-stu-id="88bb5-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="11db2-111"><strong>пулид</strong></span><span class="sxs-lookup"><span data-stu-id="11db2-111"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11db2-112">int</span><span class="sxs-lookup"><span data-stu-id="11db2-112">int</span></span></p></td>
+<td><p><span data-ttu-id="11db2-113">Primary</span><span class="sxs-lookup"><span data-stu-id="11db2-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="11db2-114">Уникальный номер, определяющий пул.</span><span class="sxs-lookup"><span data-stu-id="11db2-114">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="88bb5-114"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="88bb5-114"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="88bb5-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="88bb5-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="11db2-115"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="11db2-115"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="11db2-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="11db2-116">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="88bb5-116">Полное доменное имя пула.</span><span class="sxs-lookup"><span data-stu-id="88bb5-116">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="11db2-117">Полное доменное имя пула.</span><span class="sxs-lookup"><span data-stu-id="11db2-117">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>
