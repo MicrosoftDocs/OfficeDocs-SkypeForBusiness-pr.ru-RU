@@ -12,20 +12,22 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d883b5446c843ac8b79e2b29d15f8a1c99f0089
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5b1ffd7b82b4addb24170644e227b11d50020043
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517996"
 ---
+# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="568ab-102">Проверка выполнения пользовательской репликации</span><span class="sxs-lookup"><span data-stu-id="568ab-102">Verify user replication has completed</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="98d4d-102">Проверка выполнения пользовательской репликации</span><span class="sxs-lookup"><span data-stu-id="98d4d-102">Verify user replication has completed</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "44755533"
 
 <span> </span>
 
-<span data-ttu-id="98d4d-103">_**Последнее изменение темы:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="98d4d-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="568ab-103">_**Последнее изменение темы:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="568ab-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="98d4d-104">При запуске командлета **Move-CsUser** может возникать сбой из-за того, что сведения о пользователях между доменными службами Active Directory (AD DS) и базами данных Lync Server 2013 не синхронизируются из-за того, что начальная репликация не завершена.</span><span class="sxs-lookup"><span data-stu-id="98d4d-104">When running the **Move-CsUser** cmdlet, you may experience a failure because user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases are out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="98d4d-105">Время, необходимое для успешного завершения начальной синхронизации службы Replicator для Lync Server 2013, зависит от количества контроллеров домена, размещенных в лесу Active Directory, в котором размещается пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="98d4d-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="98d4d-106">При первом запуске сервера переднего плана Lync Server 2013 выполняется начальная синхронизация службы Replicator пользователя Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="98d4d-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="98d4d-107">После этого синхронизация выполняется с интервалом репликатора пользовательских данных.</span><span class="sxs-lookup"><span data-stu-id="98d4d-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="98d4d-108">Чтобы проверить, что репликация пользовательских данных завершена до запуска командлета **Move-CsUser**, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="98d4d-108">Complete the following steps to verify user replication has completed before running the **Move-CsUser** cmdlet.</span></span>
+<span data-ttu-id="568ab-104">При запуске командлета **Move-CsUser** может возникать сбой из-за того, что сведения о пользователях между доменными службами Active Directory (AD DS) и базами данных Lync Server 2013 не синхронизируются из-за того, что начальная репликация не завершена.</span><span class="sxs-lookup"><span data-stu-id="568ab-104">When running the **Move-CsUser** cmdlet, you may experience a failure because user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases are out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="568ab-105">Время, необходимое для успешного завершения начальной синхронизации службы Replicator для Lync Server 2013, зависит от количества контроллеров домена, размещенных в лесу Active Directory, в котором размещается пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="568ab-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="568ab-106">При первом запуске сервера переднего плана Lync Server 2013 выполняется начальная синхронизация службы Replicator пользователя Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="568ab-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="568ab-107">После этого синхронизация выполняется с интервалом репликатора пользовательских данных.</span><span class="sxs-lookup"><span data-stu-id="568ab-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="568ab-108">Чтобы проверить, что репликация пользовательских данных завершена до запуска командлета **Move-CsUser**, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="568ab-108">Complete the following steps to verify user replication has completed before running the **Move-CsUser** cmdlet.</span></span>
 
 <div>
 
-## <a name="to-verify-user-replication-has-completed"></a><span data-ttu-id="98d4d-109">Чтобы проверить, что репликация пользовательских данных завершена</span><span class="sxs-lookup"><span data-stu-id="98d4d-109">To verify user replication has completed</span></span>
+## <a name="to-verify-user-replication-has-completed"></a><span data-ttu-id="568ab-109">Чтобы проверить, что репликация пользовательских данных завершена</span><span class="sxs-lookup"><span data-stu-id="568ab-109">To verify user replication has completed</span></span>
 
-1.  <span data-ttu-id="98d4d-110">Войдите в систему компьютера, на котором построитель топологий установлен как член группы администраторов доменов и группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="98d4d-110">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="568ab-110">Войдите в систему компьютера, на котором построитель топологий установлен как член группы администраторов доменов и группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="568ab-110">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="98d4d-111">Нажмите кнопку **Пуск** и выберите пункт **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="98d4d-111">Click the **Start** menu, and then click **Run**.</span></span>
+2.  <span data-ttu-id="568ab-111">Нажмите кнопку **Пуск** и выберите пункт **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="568ab-111">Click the **Start** menu, and then click **Run**.</span></span>
 
-3.  <span data-ttu-id="98d4d-112">Введите **eventvwr.exe**, затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="98d4d-112">Enter **eventvwr.exe** and then click **OK**.</span></span>
+3.  <span data-ttu-id="568ab-112">Введите **eventvwr.exe**, затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="568ab-112">Enter **eventvwr.exe** and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="98d4d-113">В окне просмотра событий щелкните **Журналы приложений и служб**, чтобы развернуть окно, а затем выберите "Lync Server".</span><span class="sxs-lookup"><span data-stu-id="98d4d-113">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
+4.  <span data-ttu-id="568ab-113">В окне просмотра событий щелкните **Журналы приложений и служб**, чтобы развернуть окно, а затем выберите "Lync Server".</span><span class="sxs-lookup"><span data-stu-id="568ab-113">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
 
-5.  <span data-ttu-id="98d4d-114">В области **Действия** щелкните пункт **Фильтровать текущий журнал**.</span><span class="sxs-lookup"><span data-stu-id="98d4d-114">In the **Actions** pane click **Filter Current Log**.</span></span>
+5.  <span data-ttu-id="568ab-114">В области **Действия** щелкните пункт **Фильтровать текущий журнал**.</span><span class="sxs-lookup"><span data-stu-id="568ab-114">In the **Actions** pane click **Filter Current Log**.</span></span>
 
-6.  <span data-ttu-id="98d4d-115">В списке **Источники событий** щелкните пункт **LS User Replicator**.</span><span class="sxs-lookup"><span data-stu-id="98d4d-115">From the **Event sources** list, click **LS User Replicator**.</span></span>
+6.  <span data-ttu-id="568ab-115">В списке **Источники событий** щелкните пункт **LS User Replicator**.</span><span class="sxs-lookup"><span data-stu-id="568ab-115">From the **Event sources** list, click **LS User Replicator**.</span></span>
 
-7.  <span data-ttu-id="98d4d-116">В **\<All Event IDs\>** поле введите **30024** , а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="98d4d-116">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
+7.  <span data-ttu-id="568ab-116">В **\<All Event IDs\>** поле введите **30024** , а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="568ab-116">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="98d4d-117">В фильтрованном списке событий перейдите на вкладку **Общие** и найдите запись, указывающую, что репликация пользователей успешно завершена.</span><span class="sxs-lookup"><span data-stu-id="98d4d-117">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
+8.  <span data-ttu-id="568ab-117">В фильтрованном списке событий перейдите на вкладку **Общие** и найдите запись, указывающую, что репликация пользователей успешно завершена.</span><span class="sxs-lookup"><span data-stu-id="568ab-117">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
 
 </div>
 

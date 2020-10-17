@@ -12,20 +12,22 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47ac330914a0d748c366d2a6e40ac0ad9f03543d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3fc6ab9bfb6d145b324c079e4bf746354e7329f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215485"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519856"
 ---
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a><span data-ttu-id="1da03-102">Планирование сертификатов пограничного сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1da03-102">Plan for Edge Server certificates in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a><span data-ttu-id="1389c-102">Планирование сертификатов пограничного сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1389c-102">Plan for Edge Server certificates in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42215485"
 
 <span> </span>
 
-<span data-ttu-id="1389c-103">_**Последнее изменение темы:** 2012-11-05_</span><span class="sxs-lookup"><span data-stu-id="1389c-103">_**Topic Last Modified:** 2012-11-05_</span></span>
+<span data-ttu-id="1da03-103">_**Последнее изменение темы:** 2012-11-05_</span><span class="sxs-lookup"><span data-stu-id="1da03-103">_**Topic Last Modified:** 2012-11-05_</span></span>
 
-<span data-ttu-id="1389c-104">Создание сертификатов для Edge упрощено в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1389c-104">Certificate creation for Edge is simplified in Lync Server 2013.</span></span>
+<span data-ttu-id="1da03-104">Создание сертификатов для Edge упрощено в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1da03-104">Certificate creation for Edge is simplified in Lync Server 2013.</span></span>
 
-<span data-ttu-id="1389c-105">**Сертификаты для пограничного сервера (блок-схема)**</span><span class="sxs-lookup"><span data-stu-id="1389c-105">**Certificates Flow Chart for Edge Server**</span></span>
+<span data-ttu-id="1da03-105">**Сертификаты для пограничного сервера (блок-схема)**</span><span class="sxs-lookup"><span data-stu-id="1da03-105">**Certificates Flow Chart for Edge Server**</span></span>
 
-<span data-ttu-id="1389c-106">![a5fc20db — 7ced – 4364 — b577 – 6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db — 7ced – 4364 — b577 – 6a709a8367cd")</span><span class="sxs-lookup"><span data-stu-id="1389c-106">![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")</span></span>
+<span data-ttu-id="1da03-106">![a5fc20db — 7ced – 4364 — b577 – 6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db — 7ced – 4364 — b577 – 6a709a8367cd")</span><span class="sxs-lookup"><span data-stu-id="1da03-106">![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")</span></span>
 
-<span data-ttu-id="1389c-107">Создайте единый общий сертификат, убедитесь в наличии экспортируемого частного ключа, определенного для сертификата, и назначьте его следующим внешним интерфейсам пограничного сервера с помощью мастера сертификатов:</span><span class="sxs-lookup"><span data-stu-id="1389c-107">Create a single public certificate, ensure that you have an exportable private key defined for the certificate, and assign it to the following Edge Server external interfaces using the certificate wizard:</span></span>
+<span data-ttu-id="1da03-107">Создайте единый общий сертификат, убедитесь в наличии экспортируемого частного ключа, определенного для сертификата, и назначьте его следующим внешним интерфейсам пограничного сервера с помощью мастера сертификатов:</span><span class="sxs-lookup"><span data-stu-id="1da03-107">Create a single public certificate, ensure that you have an exportable private key defined for the certificate, and assign it to the following Edge Server external interfaces using the certificate wizard:</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1389c-108">Сертификаты с подстановочными знаками не поддерживаются в Lync Server, за исключением случаев, где используется для суммирования простых URL-адресов через обратный прокси-сервер.</span><span class="sxs-lookup"><span data-stu-id="1389c-108">Wildcard certificates are not supported in Lync Server, except where used to summarize the Simple URLs through the reverse proxy.</span></span> <span data-ttu-id="1389c-109">Необходимо определить разные альтернативные имена субъектов (SAN) для каждого имени домена SIP, пограничной службы веб-конференций, пограничной службы аудио-и видеоданных и домена XMPP, предлагаемого развертыванием.</span><span class="sxs-lookup"><span data-stu-id="1389c-109">You must define distinct subject alternate names (SANs) for each SIP domain name, Web Conferencing Edge service, A/V Edge service and XMPP domain offered by your deployment.</span></span>
+> <span data-ttu-id="1da03-108">Сертификаты с подстановочными знаками не поддерживаются в Lync Server, за исключением случаев, где используется для суммирования простых URL-адресов через обратный прокси-сервер.</span><span class="sxs-lookup"><span data-stu-id="1da03-108">Wildcard certificates are not supported in Lync Server, except where used to summarize the Simple URLs through the reverse proxy.</span></span> <span data-ttu-id="1da03-109">Необходимо определить разные альтернативные имена субъектов (SAN) для каждого имени домена SIP, пограничной службы веб-конференций, пограничной службы аудио-и видеоданных и домена XMPP, предлагаемого развертыванием.</span><span class="sxs-lookup"><span data-stu-id="1da03-109">You must define distinct subject alternate names (SANs) for each SIP domain name, Web Conferencing Edge service, A/V Edge service and XMPP domain offered by your deployment.</span></span>
 
 
 
@@ -59,7 +61,7 @@ ms.locfileid: "42215485"
 
 
 > [!NOTE]  
-> <span data-ttu-id="1389c-110">В Lync Server 2013 сертификаты проверки подлинности для промежуточного хранения аудио-и видеоданных в течение срока действия текущего сертификата требуют дополнительного планирования.</span><span class="sxs-lookup"><span data-stu-id="1389c-110">Introduced in Lync Server 2013, staging Audio/Video Authentication certificates in advance of the expiration time of the current certificate requires some additional planning.</span></span> <span data-ttu-id="1389c-111">Вместо одного сертификата с несколькими целями для внешнего пограничного интерфейса потребуется два сертификата, один из которых назначен службе пограничного сервера доступа и пограничной службе веб-конференций и один сертификат для пограничной службы аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="1389c-111">Instead of one certificate with multiple purposes for the external Edge interface, you will require two certificates, one assigned to the Access Edge service and Web Conferencing Edge service, and one certificate for the A/V Edge service.</span></span> <span data-ttu-id="1389c-112">Дополнительные сведения см. <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">промежуточные сертификаты протокола AV и OAuth в Lync Server 2013 using in Set — CsCertificate</A></span><span class="sxs-lookup"><span data-stu-id="1389c-112">For additional details, see <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</A></span></span>
+> <span data-ttu-id="1da03-110">В Lync Server 2013 сертификаты проверки подлинности для промежуточного хранения аудио-и видеоданных в течение срока действия текущего сертификата требуют дополнительного планирования.</span><span class="sxs-lookup"><span data-stu-id="1da03-110">Introduced in Lync Server 2013, staging Audio/Video Authentication certificates in advance of the expiration time of the current certificate requires some additional planning.</span></span> <span data-ttu-id="1da03-111">Вместо одного сертификата с несколькими целями для внешнего пограничного интерфейса потребуется два сертификата, один из которых назначен службе пограничного сервера доступа и пограничной службе веб-конференций и один сертификат для пограничной службы аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="1da03-111">Instead of one certificate with multiple purposes for the external Edge interface, you will require two certificates, one assigned to the Access Edge service and Web Conferencing Edge service, and one certificate for the A/V Edge service.</span></span> <span data-ttu-id="1da03-112">Дополнительные сведения см. <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">промежуточные сертификаты протокола AV и OAuth в Lync Server 2013 using in Set — CsCertificate</A></span><span class="sxs-lookup"><span data-stu-id="1da03-112">For additional details, see <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</A></span></span>
 
 
 
@@ -69,29 +71,29 @@ ms.locfileid: "42215485"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1389c-113">В случае с пулом пограничных серверов вы экспортируете сертификат с закрытым ключом на каждый пограничный сервер и назначаете сертификат каждой службе пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1389c-113">In the event of a pool of Edge Servers, you export the certificate with the private key to each Edge Server and assign the certificate to each Edge Server service.</span></span> <span data-ttu-id="1389c-114">Сделайте то же самое для внутреннего сертификата пограничного сервера, экспортируйте сертификат с закрытым ключом и присвойте каждому внутреннему интерфейсу пограничный сервер.</span><span class="sxs-lookup"><span data-stu-id="1389c-114">Do the same for the internal Edge Server certificate, exporting the certificate with the private key and assigning to each internal Edge interface.</span></span>
+> <span data-ttu-id="1da03-113">В случае с пулом пограничных серверов вы экспортируете сертификат с закрытым ключом на каждый пограничный сервер и назначаете сертификат каждой службе пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1da03-113">In the event of a pool of Edge Servers, you export the certificate with the private key to each Edge Server and assign the certificate to each Edge Server service.</span></span> <span data-ttu-id="1da03-114">Сделайте то же самое для внутреннего сертификата пограничного сервера, экспортируйте сертификат с закрытым ключом и присвойте каждому внутреннему интерфейсу пограничный сервер.</span><span class="sxs-lookup"><span data-stu-id="1da03-114">Do the same for the internal Edge Server certificate, exporting the certificate with the private key and assigning to each internal Edge interface.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="1389c-115">Убедитесь в наличии экспортируемого частного ключа, назначенного сертификату</span><span class="sxs-lookup"><span data-stu-id="1389c-115">Ensure that you have an exportable private key assigned for the certificate</span></span>
+  - <span data-ttu-id="1da03-115">Убедитесь в наличии экспортируемого частного ключа, назначенного сертификату</span><span class="sxs-lookup"><span data-stu-id="1da03-115">Ensure that you have an exportable private key assigned for the certificate</span></span>
 
-  - <span data-ttu-id="1389c-116">Пограничная служба доступа (в мастере сертификатов называется **внешним пограничным сервером доступа SIP** )</span><span class="sxs-lookup"><span data-stu-id="1389c-116">Access Edge service (referred to as **SIP Access Edge External** in the certificate wizard)</span></span>
+  - <span data-ttu-id="1da03-116">Пограничная служба доступа (в мастере сертификатов называется **внешним пограничным сервером доступа SIP** )</span><span class="sxs-lookup"><span data-stu-id="1da03-116">Access Edge service (referred to as **SIP Access Edge External** in the certificate wizard)</span></span>
 
-  - <span data-ttu-id="1389c-117">Пограничная служба веб-конференций (в мастере сертификатов называется **внешним пограничным сервером веб-конференций** )</span><span class="sxs-lookup"><span data-stu-id="1389c-117">Web Conferencing Edge service (referred to as **Web Conferencing Edge External** in the certificate wizard)</span></span>
+  - <span data-ttu-id="1da03-117">Пограничная служба веб-конференций (в мастере сертификатов называется **внешним пограничным сервером веб-конференций** )</span><span class="sxs-lookup"><span data-stu-id="1da03-117">Web Conferencing Edge service (referred to as **Web Conferencing Edge External** in the certificate wizard)</span></span>
 
-  - <span data-ttu-id="1389c-118">Служба проверки подлинности аудио/видео (в мастере сертификатов называется **внешней пограничной службой аудио/видео**)</span><span class="sxs-lookup"><span data-stu-id="1389c-118">A/V Authentication service (referred to as **A/V Edge External** in the certificate wizard)</span></span>
+  - <span data-ttu-id="1da03-118">Служба проверки подлинности аудио/видео (в мастере сертификатов называется **внешней пограничной службой аудио/видео**)</span><span class="sxs-lookup"><span data-stu-id="1da03-118">A/V Authentication service (referred to as **A/V Edge External** in the certificate wizard)</span></span>
 
-<span data-ttu-id="1389c-119">Создайте единый внутренний сертификат с экспортируемым закрытым ключом, скопируйте его и назначьте каждому внутреннему интерфейсу пограничного сервера:</span><span class="sxs-lookup"><span data-stu-id="1389c-119">Create a single internal certificate with exportable private key, copy and assign it to each of the Edge Server internal interfaces:</span></span>
+<span data-ttu-id="1da03-119">Создайте единый внутренний сертификат с экспортируемым закрытым ключом, скопируйте его и назначьте каждому внутреннему интерфейсу пограничного сервера:</span><span class="sxs-lookup"><span data-stu-id="1da03-119">Create a single internal certificate with exportable private key, copy and assign it to each of the Edge Server internal interfaces:</span></span>
 
-  - <span data-ttu-id="1389c-120">Пограничный сервер (в мастере сертификатов называется **внутренним пограничным сервером**)</span><span class="sxs-lookup"><span data-stu-id="1389c-120">Edge Server (referred to as **Edge Internal** in the certificate wizard)</span></span>
+  - <span data-ttu-id="1da03-120">Пограничный сервер (в мастере сертификатов называется **внутренним пограничным сервером**)</span><span class="sxs-lookup"><span data-stu-id="1da03-120">Edge Server (referred to as **Edge Internal** in the certificate wizard)</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1389c-121">Можно использовать отдельные и разные сертификаты для каждой службы пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1389c-121">It is possible to use separate and distinct certificates for each Edge Server service.</span></span> <span data-ttu-id="1389c-122">Если вы хотите использовать новую функцию последовательного сертификата для сертификата пограничной службы аудио-и видеосвязи, рекомендуется выбрать отдельные сертификаты.</span><span class="sxs-lookup"><span data-stu-id="1389c-122">A good reason to choose separate certificates is if you want to use the new rolling certificate feature for the A/V Edge service certificate.</span></span> <span data-ttu-id="1389c-123">В этом случае рекомендуется отменять пограничный сертификат службы аудио-и видеоданных из службы пограничной службы доступа и пограничной службы веб-конференций.</span><span class="sxs-lookup"><span data-stu-id="1389c-123">In the case of this feature, decoupling the A/V Edge service certificate from the Access Edge service and Web Conferencing Edge service is recommended.</span></span> <span data-ttu-id="1389c-124">Если вы решили запросить, присвоить и назначить отдельные сертификаты для каждой службы, необходимо запросить возможность экспорта закрытого ключа для пограничной службы аудио-и видеоданных (опять же, это на самом деле это служба проверки подлинности a/V) и назначить один сертификат внешнему интерфейсу пограничного сервера аудио-и видеоданных на каждом пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="1389c-124">If you choose to request, acquire and assign separate certificates for each service, you must request that the private key be exportable for the A/V Edge service (again, this is in actuality the A/V Authentication service) and assign the same certificate to the A/V Edge External interface on each Edge Server.</span></span>
+> <span data-ttu-id="1da03-121">Можно использовать отдельные и разные сертификаты для каждой службы пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="1da03-121">It is possible to use separate and distinct certificates for each Edge Server service.</span></span> <span data-ttu-id="1da03-122">Если вы хотите использовать новую функцию последовательного сертификата для сертификата пограничной службы аудио-и видеосвязи, рекомендуется выбрать отдельные сертификаты.</span><span class="sxs-lookup"><span data-stu-id="1da03-122">A good reason to choose separate certificates is if you want to use the new rolling certificate feature for the A/V Edge service certificate.</span></span> <span data-ttu-id="1da03-123">В этом случае рекомендуется отменять пограничный сертификат службы аудио-и видеоданных из службы пограничной службы доступа и пограничной службы веб-конференций.</span><span class="sxs-lookup"><span data-stu-id="1da03-123">In the case of this feature, decoupling the A/V Edge service certificate from the Access Edge service and Web Conferencing Edge service is recommended.</span></span> <span data-ttu-id="1da03-124">Если вы решили запросить, присвоить и назначить отдельные сертификаты для каждой службы, необходимо запросить возможность экспорта закрытого ключа для пограничной службы аудио-и видеоданных (опять же, это на самом деле это служба проверки подлинности a/V) и назначить один сертификат внешнему интерфейсу пограничного сервера аудио-и видеоданных на каждом пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="1da03-124">If you choose to request, acquire and assign separate certificates for each service, you must request that the private key be exportable for the A/V Edge service (again, this is in actuality the A/V Authentication service) and assign the same certificate to the A/V Edge External interface on each Edge Server.</span></span>
 
 
 
@@ -99,13 +101,13 @@ ms.locfileid: "42215485"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1389c-125">См. также</span><span class="sxs-lookup"><span data-stu-id="1389c-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1da03-125">См. также</span><span class="sxs-lookup"><span data-stu-id="1da03-125">See Also</span></span>
 
 
-[<span data-ttu-id="1389c-126">Промежуточные сертификаты AV и OAuth в Lync Server 2013 using in Set — CsCertificate</span><span class="sxs-lookup"><span data-stu-id="1389c-126">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[<span data-ttu-id="1da03-126">Промежуточные сертификаты AV и OAuth в Lync Server 2013 using in Set — CsCertificate</span><span class="sxs-lookup"><span data-stu-id="1da03-126">Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate</span></span>](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
 
 
-[<span data-ttu-id="1389c-127">Изменения в Lync Server 2013, затрагивающие планирование пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="1389c-127">Changes in Lync Server 2013 that affect Edge Server planning</span></span>](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
+[<span data-ttu-id="1da03-127">Изменения в Lync Server 2013, затрагивающие планирование пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="1da03-127">Changes in Lync Server 2013 that affect Edge Server planning</span></span>](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
   
 
 </div>

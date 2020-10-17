@@ -12,20 +12,22 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20e7d013732a51f8069cb1a16315a28bde4a8fde
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518186"
 ---
+# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="0ade3-102">Этап 6: перемещение пользователей в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="0ade3-102">Phase 6: Move users to the pilot pool</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="932c2-102">Этап 6: перемещение пользователей в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="932c2-102">Phase 6: Move users to the pilot pool</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "44751141"
 
 <span> </span>
 
-<span data-ttu-id="932c2-103">_**Последнее изменение темы:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="932c2-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="0ade3-103">_**Последнее изменение темы:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="0ade3-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="932c2-104">Вы можете переместить одного пользователя или группы пользователей в новое развертывание Lync Server 2013 с помощью следующих двух методов: панель управления Lync Server и Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="932c2-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="932c2-105">В подразделах этого раздела описываются задачи, которые необходимо выполнить во время пилотного развертывания, а также перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="932c2-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="0ade3-104">Вы можете переместить одного пользователя или группы пользователей в новое развертывание Lync Server 2013 с помощью следующих двух методов: панель управления Lync Server и Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0ade3-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="0ade3-105">В подразделах этого раздела описываются задачи, которые необходимо выполнить во время пилотного развертывания, а также перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="0ade3-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="932c2-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="932c2-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0ade3-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="0ade3-106">In This Section</span></span>
 
-  - [<span data-ttu-id="932c2-107">Проверка выполнения пользовательской репликации</span><span class="sxs-lookup"><span data-stu-id="932c2-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
+  - [<span data-ttu-id="0ade3-107">Проверка выполнения пользовательской репликации</span><span class="sxs-lookup"><span data-stu-id="0ade3-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
 
-  - [<span data-ttu-id="932c2-108">Перемещение одного пользователя в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="932c2-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="0ade3-108">Перемещение одного пользователя в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="0ade3-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [<span data-ttu-id="932c2-109">Перемещение нескольких пользователей в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="932c2-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="0ade3-109">Перемещение нескольких пользователей в пилотный пул</span><span class="sxs-lookup"><span data-stu-id="0ade3-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 
