@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: архитектура размещенной единой системы обмена сообщениями Exchange и маршрутизация'
+description: 'Lync Server 2013: размещенная архитектура единой системы обмена сообщениями Exchange и маршрутизация.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28bb0057b563d3aeb465260b696251fd92922b8a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c00581cbe9e59a2d06cfaba21120ff4c7fe1d320
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512596"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552765"
 ---
 # <a name="hosted-exchange-um-architecture-and-routing-in-lync-server-2013"></a>Архитектура и маршрутизация размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
 

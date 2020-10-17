@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: удаление файлов обновления устройств, не связанных с устройством'
+description: 'Lync Server 2013: удаление файлов обновления устройств, не связанных с устройством.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ef2e9dae4c09ce975bd048f628930cd3dfeda
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8338f7274d1d27e2290d822324986238f4856fe4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536446"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553505"
 ---
 # <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>Удаление файлов обновления устройств, не связанных с устройством, в Lync Server 2013
 
