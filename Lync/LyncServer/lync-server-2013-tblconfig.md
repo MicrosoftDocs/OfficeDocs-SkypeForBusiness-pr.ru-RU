@@ -12,20 +12,22 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85d0c571ba4e206dc825784c2aaea1c6ceddbf89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509376"
 ---
+# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="fd2c6-102">tblConfig в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd2c6-102">tblConfig in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="31892-102">tblConfig в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31892-102">tblConfig in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42207144"
 
 <span> </span>
 
-<span data-ttu-id="31892-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="31892-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="fd2c6-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="fd2c6-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="31892-104">tblConfig содержит некоторую неподдерживаемую конфигурацию сервера сохраняемого чата в одной строке.</span><span class="sxs-lookup"><span data-stu-id="31892-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="fd2c6-104">tblConfig содержит некоторую неподдерживаемую конфигурацию сервера сохраняемого чата в одной строке.</span><span class="sxs-lookup"><span data-stu-id="fd2c6-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="31892-105">Columns</span><span class="sxs-lookup"><span data-stu-id="31892-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="fd2c6-105">Столбцы</span><span class="sxs-lookup"><span data-stu-id="fd2c6-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +51,32 @@ ms.locfileid: "42207144"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31892-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="31892-106">Column</span></span></th>
-<th><span data-ttu-id="31892-107">Тип</span><span class="sxs-lookup"><span data-stu-id="31892-107">Type</span></span></th>
-<th><span data-ttu-id="31892-108">Описание</span><span class="sxs-lookup"><span data-stu-id="31892-108">Description</span></span></th>
+<th><span data-ttu-id="fd2c6-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="fd2c6-106">Column</span></span></th>
+<th><span data-ttu-id="fd2c6-107">Тип</span><span class="sxs-lookup"><span data-stu-id="fd2c6-107">Type</span></span></th>
+<th><span data-ttu-id="fd2c6-108">Описание</span><span class="sxs-lookup"><span data-stu-id="fd2c6-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31892-109">конфиглабел</span><span class="sxs-lookup"><span data-stu-id="31892-109">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="31892-110">nvarchar (255), не равно null</span><span class="sxs-lookup"><span data-stu-id="31892-110">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="31892-111">Содержит &quot;пул.&quot;</span><span class="sxs-lookup"><span data-stu-id="31892-111">Contains &quot;pool.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-109">конфиглабел</span><span class="sxs-lookup"><span data-stu-id="fd2c6-109">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-110">nvarchar (255), не равно null</span><span class="sxs-lookup"><span data-stu-id="fd2c6-110">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-111">Содержит &quot; пул.&quot;</span><span class="sxs-lookup"><span data-stu-id="fd2c6-111">Contains &quot;pool.&quot;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="31892-112">конфигконтент</span><span class="sxs-lookup"><span data-stu-id="31892-112">configContent</span></span></p></td>
-<td><p><span data-ttu-id="31892-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="31892-113">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="31892-114">Содержимое конфигурации.</span><span class="sxs-lookup"><span data-stu-id="31892-114">Configuration content.</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-112">конфигконтент</span><span class="sxs-lookup"><span data-stu-id="fd2c6-112">configContent</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="fd2c6-113">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-114">Содержимое конфигурации.</span><span class="sxs-lookup"><span data-stu-id="fd2c6-114">Configuration content.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="31892-115">конфигпулид</span><span class="sxs-lookup"><span data-stu-id="31892-115">configPoolID</span></span></p></td>
-<td><p><span data-ttu-id="31892-116">GUID, не равно null</span><span class="sxs-lookup"><span data-stu-id="31892-116">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="31892-117">Уникальный идентификатор экземпляра базы данных.</span><span class="sxs-lookup"><span data-stu-id="31892-117">Unique ID of the database instance.</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-115">конфигпулид</span><span class="sxs-lookup"><span data-stu-id="fd2c6-115">configPoolID</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-116">GUID, не равно null</span><span class="sxs-lookup"><span data-stu-id="fd2c6-116">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-117">Уникальный идентификатор экземпляра базы данных.</span><span class="sxs-lookup"><span data-stu-id="fd2c6-117">Unique ID of the database instance.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="31892-118">Key</span><span class="sxs-lookup"><span data-stu-id="31892-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="fd2c6-118">Key</span><span class="sxs-lookup"><span data-stu-id="fd2c6-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +85,14 @@ ms.locfileid: "42207144"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31892-119">Столбец</span><span class="sxs-lookup"><span data-stu-id="31892-119">Column</span></span></th>
-<th><span data-ttu-id="31892-120">Описание</span><span class="sxs-lookup"><span data-stu-id="31892-120">Description</span></span></th>
+<th><span data-ttu-id="fd2c6-119">Столбец</span><span class="sxs-lookup"><span data-stu-id="fd2c6-119">Column</span></span></th>
+<th><span data-ttu-id="fd2c6-120">Описание</span><span class="sxs-lookup"><span data-stu-id="fd2c6-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31892-121">конфиглабел</span><span class="sxs-lookup"><span data-stu-id="31892-121">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="31892-122">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="31892-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-121">конфиглабел</span><span class="sxs-lookup"><span data-stu-id="fd2c6-121">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="fd2c6-122">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="fd2c6-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

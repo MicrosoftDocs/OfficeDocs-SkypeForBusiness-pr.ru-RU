@@ -12,20 +12,22 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce1d36eeb686dc20676715b0edf0e03a3267fb21
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 2294eeb182a94f639c08cb3b6e92fbd80fb4a96b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509236"
 ---
+# <a name="run-best-practices-analyzer"></a><span data-ttu-id="bcafa-102">Запуск анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="bcafa-102">Run Best Practices Analyzer</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-best-practices-analyzer"></a><span data-ttu-id="e664f-102">Запуск анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="e664f-102">Run Best Practices Analyzer</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "44755753"
 
 <span> </span>
 
-<span data-ttu-id="e664f-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="e664f-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="bcafa-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="bcafa-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="e664f-104">Анализатор соответствия рекомендациям Lync Server 2010 собирает сведения о конфигурации из развертывания Lync Server 2010 и определяет, настроена ли конфигурация в соответствии с рекомендациями Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="e664f-104">The Lync Server 2010 Best Practices Analyzer tool gathers configuration information from an Lync Server 2010 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="e664f-105">Средство можно установить на клиентский компьютер, на котором работает Microsoft .NET Framework 3,5 с пакетом обновления 1 (SP1), или непосредственно на сервере, на котором работает Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e664f-105">You can install the tool on a client computer that runs Microsoft .NET Framework 3.5 Service Pack 1, or directly on the server that runs Lync Server 2010.</span></span> <span data-ttu-id="e664f-106">Рекомендуется установить и запускать это средство на клиентском компьютере.</span><span class="sxs-lookup"><span data-stu-id="e664f-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="e664f-107">Средства администрирования Lync Server 2010 также должны быть установлены локально на клиентском компьютере, чтобы анализатор соответствия рекомендациям мог собирать полный набор данных.</span><span class="sxs-lookup"><span data-stu-id="e664f-107">The Lync Server 2010 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
+<span data-ttu-id="bcafa-104">Анализатор соответствия рекомендациям Lync Server 2010 собирает сведения о конфигурации из развертывания Lync Server 2010 и определяет, настроена ли конфигурация в соответствии с рекомендациями Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="bcafa-104">The Lync Server 2010 Best Practices Analyzer tool gathers configuration information from an Lync Server 2010 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="bcafa-105">Средство можно установить на клиентский компьютер, на котором работает Microsoft .NET Framework 3,5 с пакетом обновления 1 (SP1), или непосредственно на сервере, на котором работает Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="bcafa-105">You can install the tool on a client computer that runs Microsoft .NET Framework 3.5 Service Pack 1, or directly on the server that runs Lync Server 2010.</span></span> <span data-ttu-id="bcafa-106">Рекомендуется установить и запускать это средство на клиентском компьютере.</span><span class="sxs-lookup"><span data-stu-id="bcafa-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="bcafa-107">Средства администрирования Lync Server 2010 также должны быть установлены локально на клиентском компьютере, чтобы анализатор соответствия рекомендациям мог собирать полный набор данных.</span><span class="sxs-lookup"><span data-stu-id="bcafa-107">The Lync Server 2010 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
 
-<span data-ttu-id="e664f-108">Вы можете скачать анализатор соответствия рекомендациям Lync Server 2010 из центра загрузки Майкрософт по адресу <https://go.microsoft.com/fwlink/p/?linkid=246173> .</span><span class="sxs-lookup"><span data-stu-id="e664f-108">You can download the Lync Server 2010 Best Practices Analyzer from the Microsoft Download Center at <https://go.microsoft.com/fwlink/p/?linkid=246173> .</span></span>
+<span data-ttu-id="bcafa-108">Вы можете скачать анализатор соответствия рекомендациям Lync Server 2010 из центра загрузки Майкрософт по адресу <https://go.microsoft.com/fwlink/p/?linkid=246173> .</span><span class="sxs-lookup"><span data-stu-id="bcafa-108">You can download the Lync Server 2010 Best Practices Analyzer from the Microsoft Download Center at <https://go.microsoft.com/fwlink/p/?linkid=246173> .</span></span>
 
 </div>
 

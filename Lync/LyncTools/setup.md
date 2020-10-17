@@ -12,20 +12,22 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b5cd5ef156a61daa0c57ffbaf692f56af6691b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509086"
 ---
+# <a name="setup"></a><span data-ttu-id="e325f-102">Настройка</span><span class="sxs-lookup"><span data-stu-id="e325f-102">Setup</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a><span data-ttu-id="5411a-102">Настройка</span><span class="sxs-lookup"><span data-stu-id="5411a-102">Setup</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "44756860"
 
 <span> </span>
 
-<span data-ttu-id="5411a-103">_**Последнее изменение темы:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="5411a-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="e325f-103">_**Последнее изменение темы:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="e325f-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="5411a-104">Чтобы установить средства, предоставляемые в составе средства нагрузки и производительности Lync Server 2013, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="5411a-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
+<span data-ttu-id="e325f-104">Чтобы установить средства, предоставляемые в составе средства нагрузки и производительности Lync Server 2013, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="e325f-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="5411a-105">Установка средства нагрузки и производительности</span><span class="sxs-lookup"><span data-stu-id="5411a-105">Installing the Stress and Performance Tool</span></span>
+## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="e325f-105">Установка средства нагрузки и производительности</span><span class="sxs-lookup"><span data-stu-id="e325f-105">Installing the Stress and Performance Tool</span></span>
 
-<span data-ttu-id="5411a-106">Запустите файл установщика Windows **CapacityPlanningTool.msi**на каждом клиентском компьютере, который будет использоваться для имитации трафика пользователя.</span><span class="sxs-lookup"><span data-stu-id="5411a-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="5411a-107">На этих клиентских компьютерах не должны работать компоненты Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5411a-107">These client computers must not be running any Lync Server components.</span></span>
+<span data-ttu-id="e325f-106">Запустите файл установщика Windows **CapacityPlanningTool.msi**на каждом клиентском компьютере, который будет использоваться для имитации трафика пользователя.</span><span class="sxs-lookup"><span data-stu-id="e325f-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="e325f-107">На этих клиентских компьютерах не должны работать компоненты Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e325f-107">These client computers must not be running any Lync Server components.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58a054ba58ff7e1e839b0aeca88d0e61164e30b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f1f1fc7ca86c10fa9c409c73c2f4b54ee2777a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211654"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508516"
 ---
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="00ceb-102">Таблица Таблица videometricsthreshold в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00ceb-102">VideoMetricsThreshold table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videometricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="bb9be-102">Таблица Таблица videometricsthreshold в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb9be-102">VideoMetricsThreshold table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42211654"
 
 <span> </span>
 
-<span data-ttu-id="bb9be-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="bb9be-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="00ceb-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="00ceb-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="bb9be-104">Таблица VideoMetricsThreshold содержит оптимальные и допустимые значения метрик качества взаимодействия, используемых для видеозвонков.</span><span class="sxs-lookup"><span data-stu-id="bb9be-104">The VideoMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span>
+<span data-ttu-id="00ceb-104">Таблица VideoMetricsThreshold содержит оптимальные и допустимые значения метрик качества взаимодействия, используемых для видеозвонков.</span><span class="sxs-lookup"><span data-stu-id="00ceb-104">The VideoMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span>
 
 
 <table>
@@ -49,114 +51,114 @@ ms.locfileid: "42211654"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bb9be-105"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-105"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="bb9be-106"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-106"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="bb9be-107"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-107"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="bb9be-108"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-108"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="00ceb-105"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-105"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="00ceb-106"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-106"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="00ceb-107"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-107"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="00ceb-108"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-108"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-109"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-109"><strong>CallType</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-110">int</span><span class="sxs-lookup"><span data-stu-id="bb9be-110">int</span></span></p></td>
-<td><p><span data-ttu-id="bb9be-111">Primary</span><span class="sxs-lookup"><span data-stu-id="bb9be-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bb9be-112">Тип размещенного вызова.</span><span class="sxs-lookup"><span data-stu-id="bb9be-112">Type of call that was placed.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-109"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-109"><strong>CallType</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-110">int</span><span class="sxs-lookup"><span data-stu-id="00ceb-110">int</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-111">Primary</span><span class="sxs-lookup"><span data-stu-id="00ceb-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-112">Тип размещенного вызова.</span><span class="sxs-lookup"><span data-stu-id="00ceb-112">Type of call that was placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-113"><strong>видеопостфекплроптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-113"><strong>VideoPostFECPLROptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-114">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-114">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-113"><strong>видеопостфекплроптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-113"><strong>VideoPostFECPLROptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-114">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-114">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-115">Значение по умолчанию — 0,05.</span><span class="sxs-lookup"><span data-stu-id="bb9be-115">The default value is 0.05.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-115">Значение по умолчанию — 0,05.</span><span class="sxs-lookup"><span data-stu-id="00ceb-115">The default value is 0.05.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-116"><strong>видеопостфекплракцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-116"><strong>VideoPostFECPLRAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-117">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-117">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-116"><strong>видеопостфекплракцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-116"><strong>VideoPostFECPLRAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-117">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-117">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-118">Значение по умолчанию — 0,10.</span><span class="sxs-lookup"><span data-stu-id="bb9be-118">The default value is 0.10.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-118">Значение по умолчанию — 0,10.</span><span class="sxs-lookup"><span data-stu-id="00ceb-118">The default value is 0.10.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-119"><strong>видеолокалфрамелостперцентажеаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-119"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-120">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-120">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-119"><strong>видеолокалфрамелостперцентажеаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-119"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-120">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-120">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-121">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-121">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-121">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-121">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-122"><strong>видеолокалфрамелостперцентажеаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-122"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-123">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-123">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-122"><strong>видеолокалфрамелостперцентажеаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-122"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-123">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-123">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-124">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-124">The default value is 10.0.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-124">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-124">The default value is 10.0.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-125"><strong>реквфрамератеаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-125"><strong>RecvFrameRateAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-126">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="bb9be-126">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-125"><strong>реквфрамератеаверажеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-125"><strong>RecvFrameRateAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-126">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="00ceb-126">decimal(9,4)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-127">Значение по умолчанию — 12,0000.</span><span class="sxs-lookup"><span data-stu-id="bb9be-127">The default value is 12.0000.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-127">Значение по умолчанию — 12,0000.</span><span class="sxs-lookup"><span data-stu-id="00ceb-127">The default value is 12.0000.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-128"><strong>реквфрамератеаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-128"><strong>RecvFramerateAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-129">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="bb9be-129">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-128"><strong>реквфрамератеаверажеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-128"><strong>RecvFramerateAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-129">десятичное число (9, 4)</span><span class="sxs-lookup"><span data-stu-id="00ceb-129">decimal(9,4)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-130">Значение по умолчанию — 7,0000.</span><span class="sxs-lookup"><span data-stu-id="bb9be-130">The default value is 7.0000.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-130">Значение по умолчанию — 7,0000.</span><span class="sxs-lookup"><span data-stu-id="00ceb-130">The default value is 7.0000.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-131"><strong>ловфрамератекаллперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-131"><strong>LowFrameRateCallPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-132">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-132">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-131"><strong>ловфрамератекаллперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-131"><strong>LowFrameRateCallPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-132">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-132">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-133">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-133">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-133">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-133">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-134"><strong>ловфрамератекаллперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-134"><strong>LowFrameRateCallPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-135">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-135">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-134"><strong>ловфрамератекаллперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-134"><strong>LowFrameRateCallPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-135">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-135">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-136">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-136">The default value is 10.0/</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-136">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-136">The default value is 10.0/</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-137"><strong>ловресолутионкаллперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-137"><strong>LowResolutionCallPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-138">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-138">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-137"><strong>ловресолутионкаллперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-137"><strong>LowResolutionCallPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-138">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-138">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-139">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-139">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-139">Значение по умолчанию — 5,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-139">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-140"><strong>ловресолутионкаллперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-140"><strong>LowResolutionCallPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-141">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-141">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-140"><strong>ловресолутионкаллперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-140"><strong>LowResolutionCallPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-141">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-141">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-142">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="bb9be-142">The default value is 10.0.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-142">Значение по умолчанию — 10,0.</span><span class="sxs-lookup"><span data-stu-id="00ceb-142">The default value is 10.0.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-143"><strong>видеопаккетлоссратеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-143"><strong>VideoPacketLossRateOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-144">фоат</span><span class="sxs-lookup"><span data-stu-id="bb9be-144">foat</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-143"><strong>видеопаккетлоссратеоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-143"><strong>VideoPacketLossRateOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-144">фоат</span><span class="sxs-lookup"><span data-stu-id="00ceb-144">foat</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-145">Значение по умолчанию — 0,05.</span><span class="sxs-lookup"><span data-stu-id="bb9be-145">The default value is 0.05.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-145">Значение по умолчанию — 0,05.</span><span class="sxs-lookup"><span data-stu-id="00ceb-145">The default value is 0.05.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-146"><strong>видеопаккетлоссратеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-146"><strong>VideoPacketLossRateAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-147">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="bb9be-147">float</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-146"><strong>видеопаккетлоссратеакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-146"><strong>VideoPacketLossRateAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-147">float</span><span class="sxs-lookup"><span data-stu-id="00ceb-147">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-148">Значение по умолчанию — 0,10.</span><span class="sxs-lookup"><span data-stu-id="bb9be-148">The default value is 0.10.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-148">Значение по умолчанию — 0,10.</span><span class="sxs-lookup"><span data-stu-id="00ceb-148">The default value is 0.10.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-149"><strong>видеофрамератеавгоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-149"><strong>VideoFrameRateAvgOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-150">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="bb9be-150">float</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-149"><strong>видеофрамератеавгоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-149"><strong>VideoFrameRateAvgOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-150">float</span><span class="sxs-lookup"><span data-stu-id="00ceb-150">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-151">Значение по умолчанию — 12.</span><span class="sxs-lookup"><span data-stu-id="bb9be-151">The default value is 12.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-151">Значение по умолчанию — 12.</span><span class="sxs-lookup"><span data-stu-id="00ceb-151">The default value is 12.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-152"><strong>видеофрамератеавгакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-152"><strong>VideoFrameRateAvgAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-153">с плавающей запятой</span><span class="sxs-lookup"><span data-stu-id="bb9be-153">float</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-152"><strong>видеофрамератеавгакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-152"><strong>VideoFrameRateAvgAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-153">float</span><span class="sxs-lookup"><span data-stu-id="00ceb-153">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-154">Значение по умолчанию — 7.</span><span class="sxs-lookup"><span data-stu-id="bb9be-154">The default value is 7.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-154">Значение по умолчанию — 7.</span><span class="sxs-lookup"><span data-stu-id="00ceb-154">The default value is 7.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bb9be-155"><strong>динамиккапабилитиперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-155"><strong>DynamicCapabilityPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-156">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-156">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-155"><strong>динамиккапабилитиперцентоптимал</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-155"><strong>DynamicCapabilityPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-156">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-156">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-157">Значение по умолчанию — 5,00.</span><span class="sxs-lookup"><span data-stu-id="bb9be-157">The default value is 5.00.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-157">Значение по умолчанию — 5,00.</span><span class="sxs-lookup"><span data-stu-id="00ceb-157">The default value is 5.00.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bb9be-158"><strong>динамиккапабилитиперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="bb9be-158"><strong>DynamicCapabilityPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="bb9be-159">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="bb9be-159">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-158"><strong>динамиккапабилитиперцентакцептабле</strong></span><span class="sxs-lookup"><span data-stu-id="00ceb-158"><strong>DynamicCapabilityPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="00ceb-159">десятичное число (5, 2)</span><span class="sxs-lookup"><span data-stu-id="00ceb-159">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bb9be-160">Значение по умолчанию — 10,00.</span><span class="sxs-lookup"><span data-stu-id="bb9be-160">The default value is 10.00.</span></span></p></td>
+<td><p><span data-ttu-id="00ceb-160">Значение по умолчанию — 10,00.</span><span class="sxs-lookup"><span data-stu-id="00ceb-160">The default value is 10.00.</span></span></p></td>
 </tr>
 </tbody>
 </table>

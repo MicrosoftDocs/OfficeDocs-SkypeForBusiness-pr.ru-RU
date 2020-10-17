@@ -12,20 +12,22 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c522b72683bd07f92aa0442f8373458f43a7f62
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 305d7e02e9b123ead26f2d0dd77b247914b05470
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507936"
 ---
+# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a><span data-ttu-id="4b1e3-102">Сводка по сертификатам — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b1e3-102">Certificate summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a><span data-ttu-id="78763-102">Сводка по сертификатам — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78763-102">Certificate summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42207045"
 
 <span> </span>
 
-<span data-ttu-id="78763-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="78763-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="4b1e3-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="4b1e3-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="78763-104">Microsoft Lync Server 2013 использует сертификаты для взаимной проверки подлинности других серверов и для шифрования данных от сервера к серверу и к клиенту.</span><span class="sxs-lookup"><span data-stu-id="78763-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="78763-105">Для сертификатов требуется сопоставление записей DNS, связанных с серверами, именем субъекта (SN) и альтернативным именем субъекта (SAN) в сертификате.</span><span class="sxs-lookup"><span data-stu-id="78763-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="78763-106">Для успешного сопоставления серверов, DNS-записей и записей сертификатов необходимо тщательно спланировать полные доменные имена серверов как зарегистрированные записях DNS, SN и SAN в сертификате.</span><span class="sxs-lookup"><span data-stu-id="78763-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+<span data-ttu-id="4b1e3-104">Microsoft Lync Server 2013 использует сертификаты для взаимной проверки подлинности других серверов и для шифрования данных от сервера к серверу и к клиенту.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="4b1e3-105">Для сертификатов требуется сопоставление записей DNS, связанных с серверами, именем субъекта (SN) и альтернативным именем субъекта (SAN) в сертификате.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="4b1e3-106">Для успешного сопоставления серверов, DNS-записей и записей сертификатов необходимо тщательно спланировать полные доменные имена серверов как зарегистрированные записях DNS, SN и SAN в сертификате.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
 
-<span data-ttu-id="78763-107">Сертификат, назначенный внешним интерфейсам пограничного сервера, запрашивается от общедоступного центра сертификации (CA).</span><span class="sxs-lookup"><span data-stu-id="78763-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="78763-108">Общедоступные ЦС, которые продемонстрировали успешные попытки предоставления сертификатов в целях единой системы обмена сообщениями, перечислены [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)в следующей статье:.</span><span class="sxs-lookup"><span data-stu-id="78763-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="78763-109">При запросе сертификата можно использовать запрос сертификата, созданный мастером развертывания Lync Server, или создать запрос вручную или процессом, предоставленным общедоступным центром сертификации.</span><span class="sxs-lookup"><span data-stu-id="78763-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="78763-110">При назначении сертификата сертификату назначается интерфейс пограничной службы доступа, интерфейс пограничной службы веб-конференций и служба проверки подлинности аудио-и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="78763-110">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="78763-111">Службу проверки подлинности аудио и видео не следует путать с пограничной службой аудио-и видеоданных, которая не использует сертификат для шифрования аудио-и видеопотоков.</span><span class="sxs-lookup"><span data-stu-id="78763-111">The Audio/Video Authentication service should not be confused with the A/V Edge service, which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="78763-112">Внутренний интерфейс пограничного сервера может использовать сертификат из внутреннего ЦС организации или сертификата из общедоступного центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="78763-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="78763-113">Сертификат внутреннего интерфейса использует только SN и ему не требуются записи SAN.</span><span class="sxs-lookup"><span data-stu-id="78763-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+<span data-ttu-id="4b1e3-107">Сертификат, назначенный внешним интерфейсам пограничного сервера, запрашивается от общедоступного центра сертификации (CA).</span><span class="sxs-lookup"><span data-stu-id="4b1e3-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="4b1e3-108">Общедоступные ЦС, которые продемонстрировали успешные попытки предоставления сертификатов в целях единой системы обмена сообщениями, перечислены в следующей статье: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) .</span><span class="sxs-lookup"><span data-stu-id="4b1e3-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="4b1e3-109">При запросе сертификата можно использовать запрос сертификата, созданный мастером развертывания Lync Server, или создать запрос вручную или процессом, предоставленным общедоступным центром сертификации.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually or by a process provided by the public CA.</span></span> <span data-ttu-id="4b1e3-110">При назначении сертификата сертификату назначается интерфейс пограничной службы доступа, интерфейс пограничной службы веб-конференций и служба проверки подлинности аудио-и видеоданных.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-110">When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="4b1e3-111">Службу проверки подлинности аудио и видео не следует путать с пограничной службой аудио-и видеоданных, которая не использует сертификат для шифрования аудио-и видеопотоков.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-111">The Audio/Video Authentication service should not be confused with the A/V Edge service, which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="4b1e3-112">Внутренний интерфейс пограничного сервера может использовать сертификат из внутреннего ЦС организации или сертификата из общедоступного центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="4b1e3-113">Сертификат внутреннего интерфейса использует только SN и ему не требуются записи SAN.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="78763-p103">В следующей таблице показана вторая запись SIP (sip.fabrikam.com) в списке альтернативных имен субъекта для справки. Для каждого домена SIP домена в организации необходимо добавить соответствующее полное доменное имя в список альтернативных имен субъекта сертификата.</span><span class="sxs-lookup"><span data-stu-id="78763-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
+> <span data-ttu-id="4b1e3-p103">В следующей таблице показана вторая запись SIP (sip.fabrikam.com) в списке альтернативных имен субъекта для справки. Для каждого домена SIP домена в организации необходимо добавить соответствующее полное доменное имя в список альтернативных имен субъекта сертификата.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
@@ -53,7 +55,7 @@ ms.locfileid: "42207045"
 
 <div>
 
-## <a name="certificates-required-for-scaled-consolidated-edge-with-hardware-load-balancers"></a><span data-ttu-id="78763-116">Сертификаты, необходимые для масштабируемого консолидированного пограничного сервера с аппаратными средствами балансировки нагрузки</span><span class="sxs-lookup"><span data-stu-id="78763-116">Certificates Required for Scaled Consolidated Edge with Hardware Load Balancers</span></span>
+## <a name="certificates-required-for-scaled-consolidated-edge-with-hardware-load-balancers"></a><span data-ttu-id="4b1e3-116">Сертификаты, необходимые для масштабируемого консолидированного пограничного сервера с аппаратными средствами балансировки нагрузки</span><span class="sxs-lookup"><span data-stu-id="4b1e3-116">Certificates Required for Scaled Consolidated Edge with Hardware Load Balancers</span></span>
 
 
 <table>
@@ -65,32 +67,32 @@ ms.locfileid: "42207045"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="78763-117">Компонент</span><span class="sxs-lookup"><span data-stu-id="78763-117">Component</span></span></th>
-<th><span data-ttu-id="78763-118">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="78763-118">Subject name</span></span></th>
-<th><span data-ttu-id="78763-119">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="78763-119">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="78763-120">Комментарии</span><span class="sxs-lookup"><span data-stu-id="78763-120">Comments</span></span></th>
+<th><span data-ttu-id="4b1e3-117">Компонент</span><span class="sxs-lookup"><span data-stu-id="4b1e3-117">Component</span></span></th>
+<th><span data-ttu-id="4b1e3-118">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="4b1e3-118">Subject name</span></span></th>
+<th><span data-ttu-id="4b1e3-119">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="4b1e3-119">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="4b1e3-120">Comments</span><span class="sxs-lookup"><span data-stu-id="4b1e3-120">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="78763-121">Один консолидированный пограничный сервер (внешний пограничный сервер)</span><span class="sxs-lookup"><span data-stu-id="78763-121">Single consolidated Edge Server (External Edge)</span></span></p></td>
-<td><p><span data-ttu-id="78763-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-122">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="78763-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-123">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-124">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="78763-125">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="78763-126">Сертификат должен быть выдан общедоступным центром сертификации и иметь расширенное использование ключа "клиент" и "сервер", если необходимо настроить взаимодействие с общедоступной системой обмена сообщениями AOL.</span><span class="sxs-lookup"><span data-stu-id="78763-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="78763-127">Кроме того, для масштабируемых пограничных серверов закрытый ключ сертификата должен быть экспортируемым, а сертификат и закрытый ключ копируются на каждый пограничный сервер. сертификат назначается внешним интерфейсам пограничных интерфейсов для:</span><span class="sxs-lookup"><span data-stu-id="78763-127">Additionally, for scaled Edge Servers, the certificate private key must be exportable and the certificate and private key copied to each Edge Server.The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="4b1e3-121">Один консолидированный пограничный сервер (внешний пограничный сервер)</span><span class="sxs-lookup"><span data-stu-id="4b1e3-121">Single consolidated Edge Server (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-122">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-123">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-124">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-125">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-126">Сертификат должен быть выдан общедоступным центром сертификации и иметь расширенное использование ключа "клиент" и "сервер", если необходимо настроить взаимодействие с общедоступной системой обмена сообщениями AOL.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="4b1e3-127">Кроме того, для масштабируемых пограничных серверов закрытый ключ сертификата должен быть экспортируемым, а сертификат и закрытый ключ копируются на каждый пограничный сервер. сертификат назначается внешним интерфейсам пограничных интерфейсов для:</span><span class="sxs-lookup"><span data-stu-id="4b1e3-127">Additionally, for scaled Edge Servers, the certificate private key must be exportable and the certificate and private key copied to each Edge Server.The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="78763-128">Пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="78763-128">Access Edge service</span></span></p></li>
-<li><p><span data-ttu-id="78763-129">Служба пограничного сервера веб-конференций</span><span class="sxs-lookup"><span data-stu-id="78763-129">Web Conferencing Edge service</span></span></p></li>
-<li><p><span data-ttu-id="78763-130">Пограничная служба аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="78763-130">A/V Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-128">Пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="4b1e3-128">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-129">Служба пограничного сервера веб-конференций</span><span class="sxs-lookup"><span data-stu-id="4b1e3-129">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-130">Пограничная служба аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="4b1e3-130">A/V Edge service</span></span></p></li>
 </ul>
-<p><span data-ttu-id="78763-p105">Обратите внимание, что альтернативные имена субъекта автоматически добавляются в сертификат на основе определений в построителе топологий. Записи альтернативных имен необходимы для дополнительных доменов SIP и прочих записей, которые должны поддерживаться. Имя субъекта копируется в одно из альтернативных имен, что необходимо для правильного выполнения операций.</span><span class="sxs-lookup"><span data-stu-id="78763-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="4b1e3-p105">Обратите внимание, что альтернативные имена субъекта автоматически добавляются в сертификат на основе определений в построителе топологий. Записи альтернативных имен необходимы для дополнительных доменов SIP и прочих записей, которые должны поддерживаться. Имя субъекта копируется в одно из альтернативных имен, что необходимо для правильного выполнения операций.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="78763-134">Один консолидированный пограничный сервер (внутренний пограничный сервер)</span><span class="sxs-lookup"><span data-stu-id="78763-134">Single consolidated Edge Server (Internal Edge)</span></span></p></td>
-<td><p><span data-ttu-id="78763-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="78763-135">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="78763-136">SAN не требуется</span><span class="sxs-lookup"><span data-stu-id="78763-136">No SAN required</span></span></p></td>
-<td><p><span data-ttu-id="78763-137">Сертификат может быть выдан общедоступным или частным центром сертификации и должен содержать EKU сервера.</span><span class="sxs-lookup"><span data-stu-id="78763-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="78763-138">Сертификат назначается внутреннему интерфейсу пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="78763-138">The certificate is assigned to the internal Edge Server interface.</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-134">Один консолидированный пограничный сервер (внутренний пограничный сервер)</span><span class="sxs-lookup"><span data-stu-id="4b1e3-134">Single consolidated Edge Server (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="4b1e3-135">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-136">SAN не требуется</span><span class="sxs-lookup"><span data-stu-id="4b1e3-136">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-137">Сертификат может быть выдан общедоступным или частным центром сертификации и должен содержать EKU сервера.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="4b1e3-138">Сертификат назначается внутреннему интерфейсу пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-138">The certificate is assigned to the internal Edge Server interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ ms.locfileid: "42207045"
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="78763-139">Сводка по сертификату– подключение к общедоступным системам обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="78763-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="4b1e3-139">Сводка по сертификату– подключение к общедоступным системам обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="4b1e3-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -112,26 +114,26 @@ ms.locfileid: "42207045"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="78763-140">Компонент</span><span class="sxs-lookup"><span data-stu-id="78763-140">Component</span></span></th>
-<th><span data-ttu-id="78763-141">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="78763-141">Subject name</span></span></th>
-<th><span data-ttu-id="78763-142">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="78763-142">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="78763-143">Комментарии</span><span class="sxs-lookup"><span data-stu-id="78763-143">Comments</span></span></th>
+<th><span data-ttu-id="4b1e3-140">Компонент</span><span class="sxs-lookup"><span data-stu-id="4b1e3-140">Component</span></span></th>
+<th><span data-ttu-id="4b1e3-141">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="4b1e3-141">Subject name</span></span></th>
+<th><span data-ttu-id="4b1e3-142">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="4b1e3-142">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="4b1e3-143">Comments</span><span class="sxs-lookup"><span data-stu-id="4b1e3-143">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="78763-144">Внешняя служба/пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="78763-144">External/Access Edge service</span></span></p></td>
-<td><p><span data-ttu-id="78763-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-145">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="78763-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-146">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-147">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="78763-148">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="78763-p107">Сертификат должен быть выдан общедоступным центром сертификации и иметь расширенное использование ключа "клиент" и "сервер", если необходимо настроить взаимодействие с общедоступной системой обмена сообщениями AOL. Сертификат назначается внешним пограничным интерфейсам:</span><span class="sxs-lookup"><span data-stu-id="78763-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="4b1e3-144">Внешняя служба/пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="4b1e3-144">External/Access Edge service</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-145">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-146">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-147">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-148">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-p107">Сертификат должен быть выдан общедоступным центром сертификации и иметь расширенное использование ключа "клиент" и "сервер", если необходимо настроить взаимодействие с общедоступной системой обмена сообщениями AOL. Сертификат назначается внешним пограничным интерфейсам:</span><span class="sxs-lookup"><span data-stu-id="4b1e3-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="78763-151">Пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="78763-151">Access Edge service</span></span></p></li>
-<li><p><span data-ttu-id="78763-152">Служба пограничного сервера веб-конференций</span><span class="sxs-lookup"><span data-stu-id="78763-152">Web Conferencing Edge service</span></span></p></li>
-<li><p><span data-ttu-id="78763-153">Пограничная служба аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="78763-153">A/V Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-151">Пограничная служба доступа</span><span class="sxs-lookup"><span data-stu-id="4b1e3-151">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-152">Служба пограничного сервера веб-конференций</span><span class="sxs-lookup"><span data-stu-id="4b1e3-152">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="4b1e3-153">Пограничная служба аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="4b1e3-153">A/V Edge service</span></span></p></li>
 </ul>
-<p><span data-ttu-id="78763-p108">Обратите внимание, что альтернативные имена субъекта автоматически добавляются в сертификат на основе определений в построителе топологий. Записи альтернативных имен необходимы для дополнительных доменов SIP и прочих записей, которые должны поддерживаться. Имя субъекта копируется в одно из альтернативных имен, что необходимо для правильного выполнения операций.</span><span class="sxs-lookup"><span data-stu-id="78763-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="4b1e3-p108">Обратите внимание, что альтернативные имена субъекта автоматически добавляются в сертификат на основе определений в построителе топологий. Записи альтернативных имен необходимы для дополнительных доменов SIP и прочих записей, которые должны поддерживаться. Имя субъекта копируется в одно из альтернативных имен, что необходимо для правильного выполнения операций.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +143,7 @@ ms.locfileid: "42207045"
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="78763-157">Сводка по сертификатам для расширяемого протокола XMPP</span><span class="sxs-lookup"><span data-stu-id="78763-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="4b1e3-157">Сводка по сертификатам для расширяемого протокола XMPP</span><span class="sxs-lookup"><span data-stu-id="4b1e3-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -153,22 +155,22 @@ ms.locfileid: "42207045"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="78763-158">Компонент</span><span class="sxs-lookup"><span data-stu-id="78763-158">Component</span></span></th>
-<th><span data-ttu-id="78763-159">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="78763-159">Subject name</span></span></th>
-<th><span data-ttu-id="78763-160">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="78763-160">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="78763-161">Комментарии</span><span class="sxs-lookup"><span data-stu-id="78763-161">Comments</span></span></th>
+<th><span data-ttu-id="4b1e3-158">Компонент</span><span class="sxs-lookup"><span data-stu-id="4b1e3-158">Component</span></span></th>
+<th><span data-ttu-id="4b1e3-159">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="4b1e3-159">Subject name</span></span></th>
+<th><span data-ttu-id="4b1e3-160">Альтернативные имена субъекта (SAN)/порядок</span><span class="sxs-lookup"><span data-stu-id="4b1e3-160">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="4b1e3-161">Comments</span><span class="sxs-lookup"><span data-stu-id="4b1e3-161">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="78763-162">Назначение доступа к пограничной службе пограничного сервера или пограничного пула</span><span class="sxs-lookup"><span data-stu-id="78763-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="78763-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-163">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="78763-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-164">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-165">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="78763-166">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="78763-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="78763-167">xmpp.contoso.com</span></span></p>
-<p><span data-ttu-id="78763-168"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="78763-168"><strong>\*.contoso.com</strong></span></span></p></td>
-<td><p><span data-ttu-id="78763-169">Первые три записи SAN — это обычные записи SAN для полного пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="78763-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="78763-170">Contoso.com — это запись, необходимая для федерации с партнером XMPP на корневом уровне домена.</span><span class="sxs-lookup"><span data-stu-id="78763-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="78763-171">Эта запись позволит использовать XMPP для всех доменов с суффиксом \*.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="78763-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-162">Назначение доступа к пограничной службе пограничного сервера или пограничного пула</span><span class="sxs-lookup"><span data-stu-id="4b1e3-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-163">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-164">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-165">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-166">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="4b1e3-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="4b1e3-167">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="4b1e3-168"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="4b1e3-168"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="4b1e3-169">Первые три записи SAN — это обычные записи SAN для полного пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="4b1e3-170">Contoso.com — это запись, необходимая для федерации с партнером XMPP на корневом уровне домена.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="4b1e3-171">Эта запись позволит использовать XMPP для всех доменов с суффиксом \*.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="4b1e3-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
