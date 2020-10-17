@@ -12,20 +12,22 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e15580cdf9676f4e87cc6a9f385d2b75c16eb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71c8e30cfd4257982781e446a61c18518b570e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524006"
 ---
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="89e1b-102">Поддерживаемое выровненное размещение серверов для пограничных компонентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="89e1b-102">Supported server collocation for edge components in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="535fe-102">Поддерживаемое выровненное размещение серверов для пограничных компонентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="535fe-102">Supported server collocation for edge components in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42181562"
 
 <span> </span>
 
-<span data-ttu-id="535fe-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="535fe-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="89e1b-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="89e1b-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="535fe-104">Пограничная служба доступа, пограничная служба веб-конференций, пограничная служба аудио-и видеоданных и прокси-служба XMPP размещены на пограничных серверах.</span><span class="sxs-lookup"><span data-stu-id="535fe-104">The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMPP Proxy service are collocated on the Edge Servers.</span></span> <span data-ttu-id="535fe-105">Следующие серверы предоставляют функции, необходимые для доступа внешних пользователей, и их следует развернуть как выделенные серверы:</span><span class="sxs-lookup"><span data-stu-id="535fe-105">The following servers provide functions needed for external user access and must be deployed as dedicated servers:</span></span>
+<span data-ttu-id="89e1b-104">Пограничная служба доступа, пограничная служба веб-конференций, пограничная служба аудио-и видеоданных и прокси-служба XMPP размещены на пограничных серверах.</span><span class="sxs-lookup"><span data-stu-id="89e1b-104">The Access Edge service, Web Conferencing Edge service, A/V Edge service and XMPP Proxy service are collocated on the Edge Servers.</span></span> <span data-ttu-id="89e1b-105">Следующие серверы предоставляют функции, необходимые для доступа внешних пользователей, и их следует развернуть как выделенные серверы:</span><span class="sxs-lookup"><span data-stu-id="89e1b-105">The following servers provide functions needed for external user access and must be deployed as dedicated servers:</span></span>
 
-  - <span data-ttu-id="535fe-106">пограничный сервер;</span><span class="sxs-lookup"><span data-stu-id="535fe-106">Edge Server</span></span>
+  - <span data-ttu-id="89e1b-106">пограничный сервер;</span><span class="sxs-lookup"><span data-stu-id="89e1b-106">Edge Server</span></span>
 
-  - <span data-ttu-id="535fe-107">Директор (необязательно);</span><span class="sxs-lookup"><span data-stu-id="535fe-107">Director (Optional)</span></span>
+  - <span data-ttu-id="89e1b-107">Директор (необязательно);</span><span class="sxs-lookup"><span data-stu-id="89e1b-107">Director (Optional)</span></span>
 
-  - <span data-ttu-id="535fe-108">обратный прокси-сервер.</span><span class="sxs-lookup"><span data-stu-id="535fe-108">Reverse proxy</span></span>
+  - <span data-ttu-id="89e1b-108">обратный прокси-сервер.</span><span class="sxs-lookup"><span data-stu-id="89e1b-108">Reverse proxy</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="535fe-109">Обратный прокси-сервер не обязательно должен быть выделен для обслуживания только Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="535fe-109">The reverse proxy does not need to be dedicated to serving only Lync Server 2013.</span></span> <span data-ttu-id="535fe-110">Например, вы можете предоставить службы для публикации веб-служб Lync Server и одновременно предоставить опубликованный веб-сайт для другого веб-сайта, на котором не влияет Lync Server.</span><span class="sxs-lookup"><span data-stu-id="535fe-110">For example, you can provide services to publish the Lync Server Web services, and concurrently provide a published Web site for another Web site that has no bearing on Lync Server at all.</span></span> <span data-ttu-id="535fe-111">Если у вас уже есть обратный прокси-сервер в сети периметра для поддержки других служб, его можно использовать для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="535fe-111">If you already have a reverse proxy server in the perimeter network to support other services, you can use it for Lync Server 2013.</span></span>
+> <span data-ttu-id="89e1b-109">Обратный прокси-сервер не обязательно должен быть выделен для обслуживания только Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="89e1b-109">The reverse proxy does not need to be dedicated to serving only Lync Server 2013.</span></span> <span data-ttu-id="89e1b-110">Например, вы можете предоставить службы для публикации веб-служб Lync Server и одновременно предоставить опубликованный веб-сайт для другого веб-сайта, на котором не влияет Lync Server.</span><span class="sxs-lookup"><span data-stu-id="89e1b-110">For example, you can provide services to publish the Lync Server Web services, and concurrently provide a published Web site for another Web site that has no bearing on Lync Server at all.</span></span> <span data-ttu-id="89e1b-111">Если у вас уже есть обратный прокси-сервер в сети периметра для поддержки других служб, его можно использовать для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="89e1b-111">If you already have a reverse proxy server in the perimeter network to support other services, you can use it for Lync Server 2013.</span></span>
 
 
 

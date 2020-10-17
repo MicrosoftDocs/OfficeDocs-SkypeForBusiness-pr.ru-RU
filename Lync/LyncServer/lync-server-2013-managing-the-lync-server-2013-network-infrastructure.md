@@ -12,20 +12,22 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70f445130cfb9139c799bda789a5618a5983397d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdbb78b214590228b78b7eb002e6226cc712c175
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524936"
 ---
+# <a name="managing-the-lync-server-2013-network-infrastructure"></a><span data-ttu-id="ddad5-102">Управление инфраструктурой сети Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-102">Managing the Lync Server 2013 network infrastructure</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-network-infrastructure"></a><span data-ttu-id="2a6ca-102">Управление инфраструктурой сети Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-102">Managing the Lync Server 2013 network infrastructure</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42217745"
 
 <span> </span>
 
-<span data-ttu-id="2a6ca-103">_**Последнее изменение темы:** 2014-02-11_</span><span class="sxs-lookup"><span data-stu-id="2a6ca-103">_**Topic Last Modified:** 2014-02-11_</span></span>
+<span data-ttu-id="ddad5-103">_**Последнее изменение темы:** 2014-02-11_</span><span class="sxs-lookup"><span data-stu-id="ddad5-103">_**Topic Last Modified:** 2014-02-11_</span></span>
 
-<span data-ttu-id="2a6ca-104">Microsoft Lync Server 2013 включает поддержку контроля допуска звонков (CAC) и обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="2a6ca-104">Microsoft Lync Server 2013 includes support for call admission control (CAC) and media bypass.</span></span> <span data-ttu-id="2a6ca-105">Для реализации этих возможностей необходимо настроить сетевые области, узлы, подсети и т. д., которые позволят регулировать полосу пропускания в ситуациях, когда передачу аудио- и видеоданных нужно ограничить.</span><span class="sxs-lookup"><span data-stu-id="2a6ca-105">To implement these features you must configure a network of regions, sites, subnets, and so on that will allow you to manage bandwidth in situations where audio and video transmissions need to be restricted.</span></span> <span data-ttu-id="2a6ca-106">Можно также использовать сетевую технологию качества обслуживания (QoS) для обеспечения оптимальной работы пользователя при организации аудио- и видеосвязи.</span><span class="sxs-lookup"><span data-stu-id="2a6ca-106">You can also use the Quality of Service (QoS) networking technology to help provide an optimal end-user experience for audio and video communications.</span></span>
+<span data-ttu-id="ddad5-104">Microsoft Lync Server 2013 включает поддержку контроля допуска звонков (CAC) и обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="ddad5-104">Microsoft Lync Server 2013 includes support for call admission control (CAC) and media bypass.</span></span> <span data-ttu-id="ddad5-105">Для реализации этих возможностей необходимо настроить сетевые области, узлы, подсети и т. д., которые позволят регулировать полосу пропускания в ситуациях, когда передачу аудио- и видеоданных нужно ограничить.</span><span class="sxs-lookup"><span data-stu-id="ddad5-105">To implement these features you must configure a network of regions, sites, subnets, and so on that will allow you to manage bandwidth in situations where audio and video transmissions need to be restricted.</span></span> <span data-ttu-id="ddad5-106">Можно также использовать сетевую технологию качества обслуживания (QoS) для обеспечения оптимальной работы пользователя при организации аудио- и видеосвязи.</span><span class="sxs-lookup"><span data-stu-id="ddad5-106">You can also use the Quality of Service (QoS) networking technology to help provide an optimal end-user experience for audio and video communications.</span></span>
 
-<span data-ttu-id="2a6ca-107">С помощью панели управления Lync Server вы можете настроить CAC и управлять ими, а также выполнять обход сервера мультимедиа и качество обслуживания.</span><span class="sxs-lookup"><span data-stu-id="2a6ca-107">You can use the Lync Server Control Panel to set up and manage CAC, media bypass, and QoS.</span></span> <span data-ttu-id="2a6ca-108">В следующих разделах описаны действия, позволяющие это сделать</span><span class="sxs-lookup"><span data-stu-id="2a6ca-108">The following topics provide steps for how to do this.</span></span>
+<span data-ttu-id="ddad5-107">С помощью панели управления Lync Server вы можете настроить CAC и управлять ими, а также выполнять обход сервера мультимедиа и качество обслуживания.</span><span class="sxs-lookup"><span data-stu-id="ddad5-107">You can use the Lync Server Control Panel to set up and manage CAC, media bypass, and QoS.</span></span> <span data-ttu-id="ddad5-108">В следующих разделах описаны действия, позволяющие это сделать</span><span class="sxs-lookup"><span data-stu-id="ddad5-108">The following topics provide steps for how to do this.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2a6ca-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="2a6ca-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ddad5-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="ddad5-109">In This Section</span></span>
 
-  - [<span data-ttu-id="2a6ca-110">Управление качеством обслуживания (QoS) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-110">Managing Quality of Service (QoS) in Lync Server 2013</span></span>](lync-server-2013-managing-quality-of-service-qos.md)
+  - [<span data-ttu-id="ddad5-110">Управление качеством обслуживания (QoS) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-110">Managing Quality of Service (QoS) in Lync Server 2013</span></span>](lync-server-2013-managing-quality-of-service-qos.md)
 
-  - [<span data-ttu-id="2a6ca-111">Управление допуском звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-111">Managing call admission control in Lync Server 2013</span></span>](lync-server-2013-managing-call-admission-control.md)
+  - [<span data-ttu-id="ddad5-111">Управление допуском звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-111">Managing call admission control in Lync Server 2013</span></span>](lync-server-2013-managing-call-admission-control.md)
 
-  - [<span data-ttu-id="2a6ca-112">Сетевые интерфейсы Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-112">Lync Server 2013 network interfaces</span></span>](lync-server-2013-lync-server-network-interfaces.md)
+  - [<span data-ttu-id="ddad5-112">Сетевые интерфейсы Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-112">Lync Server 2013 network interfaces</span></span>](lync-server-2013-lync-server-network-interfaces.md)
 
-  - [<span data-ttu-id="2a6ca-113">Предотвращение новых подключений к Lync Server 2013 для обслуживания серверов</span><span class="sxs-lookup"><span data-stu-id="2a6ca-113">Prevent new connections to Lync Server 2013 for server maintenance</span></span>](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
+  - [<span data-ttu-id="ddad5-113">Предотвращение новых подключений к Lync Server 2013 для обслуживания серверов</span><span class="sxs-lookup"><span data-stu-id="ddad5-113">Prevent new connections to Lync Server 2013 for server maintenance</span></span>](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
 
-  - [<span data-ttu-id="2a6ca-114">Методология качества вызовов Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-114">Lync Call Quality Methodology in Lync Server 2013</span></span>](lync-server-2013-poster-lync-call-quality-methodology.md)
+  - [<span data-ttu-id="ddad5-114">Методология качества вызовов Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-114">Lync Call Quality Methodology in Lync Server 2013</span></span>](lync-server-2013-poster-lync-call-quality-methodology.md)
 
-  - [<span data-ttu-id="2a6ca-115">Ключевые индикаторы работоспособности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a6ca-115">Key Health Indicators in Lync Server 2013</span></span>](lync-server-2013-poster-key-health-indicators.md)
+  - [<span data-ttu-id="ddad5-115">Ключевые индикаторы работоспособности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddad5-115">Key Health Indicators in Lync Server 2013</span></span>](lync-server-2013-poster-key-health-indicators.md)
 
 </div>
 

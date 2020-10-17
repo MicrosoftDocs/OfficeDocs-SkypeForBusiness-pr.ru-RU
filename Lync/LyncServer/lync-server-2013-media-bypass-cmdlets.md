@@ -12,20 +12,22 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d5ac7ad7a1f65ed038dcbb570bb4bbfc0b76337
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a866871da028f134c21828b8d26a74e7ba8af169
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524606"
 ---
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a><span data-ttu-id="3fc41-102">Командлеты обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fc41-102">Media bypass cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a><span data-ttu-id="732bc-102">Командлеты обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="732bc-102">Media bypass cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42185232"
 
 <span> </span>
 
-<span data-ttu-id="732bc-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="732bc-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="3fc41-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="3fc41-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="732bc-104">Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="732bc-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
+<span data-ttu-id="3fc41-104">Обход сервера-посредника означает исключение сервера-посредника из пути (когда это возможно) для звонков, сигналы которых проходят через сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="3fc41-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a><span data-ttu-id="732bc-105">Командлеты обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="732bc-105">Media Bypass Cmdlets</span></span>
+## <a name="media-bypass-cmdlets"></a><span data-ttu-id="3fc41-105">Командлеты обхода сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="3fc41-105">Media Bypass Cmdlets</span></span>
 
-<span data-ttu-id="732bc-106">Используйте следующие командлеты для настройки обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="732bc-106">Use the following cmdlets to configure media bypass.</span></span>
+<span data-ttu-id="3fc41-106">Используйте следующие командлеты для настройки обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="3fc41-106">Use the following cmdlets to configure media bypass.</span></span>
 
-<span data-ttu-id="732bc-107">**Обход сервера-посредника**</span><span class="sxs-lookup"><span data-stu-id="732bc-107">**Media Bypass**</span></span>
+<span data-ttu-id="3fc41-107">**Обход сервера-посредника**</span><span class="sxs-lookup"><span data-stu-id="3fc41-107">**Media Bypass**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="732bc-108">[New — Кснетворкмедиабипассконфигуратион](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="732bc-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span></span>
+    <span data-ttu-id="3fc41-108">[New — Кснетворкмедиабипассконфигуратион](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3fc41-108">[New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="732bc-109">[Get — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="732bc-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span></span>
+    <span data-ttu-id="3fc41-109">[Get — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3fc41-109">[Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="732bc-110">[Remove — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="732bc-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span></span>
+    <span data-ttu-id="3fc41-110">[Remove — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3fc41-110">[Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="732bc-111">[Set — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="732bc-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span></span>
+    <span data-ttu-id="3fc41-111">[Set — CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="3fc41-111">[Set-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="732bc-112">См. также</span><span class="sxs-lookup"><span data-stu-id="732bc-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3fc41-112">См. также</span><span class="sxs-lookup"><span data-stu-id="3fc41-112">See Also</span></span>
 
 
-[<span data-ttu-id="732bc-113">Планирование обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="732bc-113">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
-[<span data-ttu-id="732bc-114">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="732bc-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="3fc41-113">Планирование обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fc41-113">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="3fc41-114">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="3fc41-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

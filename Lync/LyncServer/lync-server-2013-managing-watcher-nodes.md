@@ -12,20 +12,22 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f01d1375890d632052ee9b6110cf64111a6bdd20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94c1e056200a7fc1afec930b7548cfd018c1aa9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524806"
 ---
+# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="6abbe-102">Управление узлами-наблюдателями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6abbe-102">Managing watcher nodes in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="5f158-102">Управление узлами-наблюдателями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f158-102">Managing watcher nodes in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42217725"
 
 <span> </span>
 
-<span data-ttu-id="5f158-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="5f158-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="6abbe-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="6abbe-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="5f158-104">В дополнение к изменению искусственных транзакций, выполняемых на узле-наблюдателе, администраторы могут также использовать командлет **Set-CsWatcherNodeConfiguration** для выполнения двух других важных задач: включение/отключение узла-наблюдателя и настройка узла-наблюдателя для использования внутренних URL-адресов или внешних URL-адресов при проведении тестирования.</span><span class="sxs-lookup"><span data-stu-id="5f158-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
+<span data-ttu-id="6abbe-104">В дополнение к изменению искусственных транзакций, выполняемых на узле-наблюдателе, администраторы могут также использовать командлет **Set-CsWatcherNodeConfiguration** для выполнения двух других важных задач: включение/отключение узла-наблюдателя и настройка узла-наблюдателя для использования внутренних URL-адресов или внешних URL-адресов при проведении тестирования.</span><span class="sxs-lookup"><span data-stu-id="6abbe-104">In addition to modifying the synthetic transactions that are executed on a watcher node, administrators can also use the **Set-CsWatcherNodeConfiguration** cmdlet to carry out two other important tasks: enabling and disabling the watcher node, and configuring the watcher node to use either internal URLs or external URLs when running its tests.</span></span>
 
-<span data-ttu-id="5f158-105">По умолчанию узлы-наблюдатели периодически запускают все включенные искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="5f158-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="5f158-106">Однако иногда они могут приостановить выполнение транзакций.</span><span class="sxs-lookup"><span data-stu-id="5f158-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="5f158-107">Например, если узел-наблюдатель временно отключился от сети, у него больше нет причин запускать искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="5f158-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="5f158-108">Без сетевого подключения эти транзакции заведомо завершатся со сбоем.</span><span class="sxs-lookup"><span data-stu-id="5f158-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="5f158-109">Если вы хотите временно отключить узел-наблюдатель, выполните следующую команду в командной консоли Lync Server:</span><span class="sxs-lookup"><span data-stu-id="5f158-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
+<span data-ttu-id="6abbe-105">По умолчанию узлы-наблюдатели периодически запускают все включенные искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="6abbe-105">By default, watcher nodes are designed to periodically run all their enabled synthetic transactions.</span></span> <span data-ttu-id="6abbe-106">Однако иногда они могут приостановить выполнение транзакций.</span><span class="sxs-lookup"><span data-stu-id="6abbe-106">Sometimes, however, you may need to suspend those transactions.</span></span> <span data-ttu-id="6abbe-107">Например, если узел-наблюдатель временно отключился от сети, у него больше нет причин запускать искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="6abbe-107">For example, if the watcher node is temporarily disconnected from the network, then there is no reason to run the synthetic transactions.</span></span> <span data-ttu-id="6abbe-108">Без сетевого подключения эти транзакции заведомо завершатся со сбоем.</span><span class="sxs-lookup"><span data-stu-id="6abbe-108">Without network connectivity, those transactions are guaranteed to fail.</span></span> <span data-ttu-id="6abbe-109">Если вы хотите временно отключить узел-наблюдатель, выполните следующую команду в командной консоли Lync Server:</span><span class="sxs-lookup"><span data-stu-id="6abbe-109">If you want to temporarily disable a watcher node, run a command similar to this from the Lync Server Management Shell:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 
-<span data-ttu-id="5f158-p102">Эта команда приведет к отключению выполнения искусственных транзакций на узле-наблюдателе. Чтобы возобновить выполнение искусственных транзакций, снова задайте для свойства Enabled значение True ($True):</span><span class="sxs-lookup"><span data-stu-id="5f158-p102">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com. To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
+<span data-ttu-id="6abbe-p102">Эта команда приведет к отключению выполнения искусственных транзакций на узле-наблюдателе. Чтобы возобновить выполнение искусственных транзакций, снова задайте для свойства Enabled значение True ($True):</span><span class="sxs-lookup"><span data-stu-id="6abbe-p102">This command will disable the execution of synthetic transactions on the watcher node atl-watcher- 001.litwareinc.com. To resume execution of the synthetic transactions, set the Enabled property back to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
@@ -51,17 +53,17 @@ ms.locfileid: "42217725"
 
 
 > [!NOTE]  
-> <span data-ttu-id="5f158-112">Свойство Enabled может использоваться для включения или отключения узлов-наблюдателей.</span><span class="sxs-lookup"><span data-stu-id="5f158-112">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="5f158-113">Если нет необходимости временно удалять узел-наблюдатель, используйте командлет <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>:</span><span class="sxs-lookup"><span data-stu-id="5f158-113">If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="5f158-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="5f158-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="5f158-115">Эта команда удаляет с указанного компьютера все параметры конфигурации узла-наблюдателя, что препятствует автоматическому запуску на этом компьютере искусственных транзакций.</span><span class="sxs-lookup"><span data-stu-id="5f158-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="5f158-116">Однако команда не удаляет файлы агента System Center и системные файлы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5f158-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
+> <span data-ttu-id="6abbe-112">Свойство Enabled может использоваться для включения или отключения узлов-наблюдателей.</span><span class="sxs-lookup"><span data-stu-id="6abbe-112">The Enabled property can be used to turn watcher nodes on or off.</span></span> <span data-ttu-id="6abbe-113">Если нет необходимости временно удалять узел-наблюдатель, используйте командлет <STRONG>Remove-CsWatcherNodeConfiguration</STRONG>:</span><span class="sxs-lookup"><span data-stu-id="6abbe-113">If you want to permanently delete a watcher node, use the <STRONG>Remove-CsWatcherNodeConfiguration</STRONG> cmdlet:</span></span><BR><span data-ttu-id="6abbe-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="6abbe-114">Remove-CsWatcherNodeConfiguration –Identity "atl-watcher-001.litwareinc.com"</span></span><BR><span data-ttu-id="6abbe-115">Эта команда удаляет с указанного компьютера все параметры конфигурации узла-наблюдателя, что препятствует автоматическому запуску на этом компьютере искусственных транзакций.</span><span class="sxs-lookup"><span data-stu-id="6abbe-115">That command removes all the watcher node configuration settings from the specified computer, which prevents the computer from automatically running synthetic transactions.</span></span> <span data-ttu-id="6abbe-116">Однако команда не удаляет файлы агента System Center и системные файлы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6abbe-116">However, the command does not uninstall the System Center agent files or the Lync Server 2013 system files.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5f158-p105">По умолчанию узлы-наблюдатели используют при проведении тестов внешние URL-адреса. Однако узлы-наблюдатели можно настроить для использования внутренних URL-адресов организации. Это позволит администраторам проверить доступ к URL-адресам тех пользователей, которые находятся внутри сети периметра. Чтобы настроить узел-наблюдатель для использования внутренних URL-адресов вместо внешних URL-адресов, задайте для свойства UseInternalWebUrls значение True ($True):</span><span class="sxs-lookup"><span data-stu-id="5f158-p105">By default, watcher nodes use an organization's external URLs when conducting their tests. However, watcher nodes can also be configured to use the organization's internal URLs. This enables administrators to verify URL access for users located inside the perimeter network. To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
+<span data-ttu-id="6abbe-p105">По умолчанию узлы-наблюдатели используют при проведении тестов внешние URL-адреса. Однако узлы-наблюдатели можно настроить для использования внутренних URL-адресов организации. Это позволит администраторам проверить доступ к URL-адресам тех пользователей, которые находятся внутри сети периметра. Чтобы настроить узел-наблюдатель для использования внутренних URL-адресов вместо внешних URL-адресов, задайте для свойства UseInternalWebUrls значение True ($True):</span><span class="sxs-lookup"><span data-stu-id="6abbe-p105">By default, watcher nodes use an organization's external URLs when conducting their tests. However, watcher nodes can also be configured to use the organization's internal URLs. This enables administrators to verify URL access for users located inside the perimeter network. To configure a watcher node to use internal URLs instead of external URLs, set the UseInternalWebUrls property to True ($True):</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 
-<span data-ttu-id="5f158-121">Если сбросить это свойство до значения по умолчанию False ($False), наблюдатель будет использовать внешние URL-адреса:</span><span class="sxs-lookup"><span data-stu-id="5f158-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
+<span data-ttu-id="6abbe-121">Если сбросить это свойство до значения по умолчанию False ($False), наблюдатель будет использовать внешние URL-адреса:</span><span class="sxs-lookup"><span data-stu-id="6abbe-121">If you reset this property to the default value of False ($False), the watcher will then use the external URLs:</span></span>
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 
