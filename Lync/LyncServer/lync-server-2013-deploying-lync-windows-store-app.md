@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507486"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Развертывание приложения Lync Windows для магазина в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Развертывание приложения Lync Windows для магазина в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779585"
 
 _**Последнее изменение темы:** 2013-12-03_
 
-Прежде чем сделать приложение Lync Windows Store доступным для пользователей, убедитесь, что развертывание соответствует [требованиям к приложению для Магазина Windows Lync для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Для получения дополнительных сведений о настройке Lync Server 2013 для поддержки приложения Lync Windows для магазина ознакомьтесь со статьей блогов "Автообнаружение Lync Server" и "Lync Windows Store [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)" по адресу. После правильной настройки серверной среды можно направить пользователей на загрузку приложения Lync из Магазина Windows, выполнив поиск по словам "Lync".
+Прежде чем сделать приложение Lync Windows Store доступным для пользователей, убедитесь, что развертывание соответствует [требованиям к приложению для Магазина Windows Lync для Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Для получения дополнительных сведений о настройке Lync Server 2013 для поддержки приложения Lync Windows для магазина ознакомьтесь со статьей блогов "Автообнаружение Lync Server" и "Lync Windows Store" по адресу [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) . После правильной настройки серверной среды можно направить пользователей на загрузку приложения Lync из Магазина Windows, выполнив поиск по словам "Lync".
 
 <div>
 
@@ -66,9 +68,9 @@ _**Последнее изменение темы:** 2013-12-03_
 
 **Настройка многофакторной проверки подлинности**
 
-1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения можно найти в руководстве по развертыванию служб федерации Active Directory <https://go.microsoft.com/fwlink/p/?linkid=267511>2,0 по адресу.
+1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения можно найти в руководстве по развертыванию служб федерации Active Directory 2,0 по адресу <https://go.microsoft.com/fwlink/p/?linkid=267511> .
 
-2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
+2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в разделе "планирование и развертывание AD FS" [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  В интерфейсе командной строки Windows PowerShell выполните следующую команду:
     ```powershell
@@ -150,7 +152,7 @@ w32tm /resync
 
 Чтобы устранить неполадки, можно использовать журналы, созданные на устройстве. Журналы хранятся в следующей папке:
 
-% Локалаппдата%\\пакетов\\, трассировка\_Microsoft\\.\\линкмкс 8wekyb3d8bbwe локалстате
+% Локалаппдата% \\ пакетов \\ , трассировка Microsoft. линкмкс \_ 8wekyb3d8bbwe \\ локалстате \\
 
 Перед получением журналов от пользователя убедитесь, что ведение журнала включено, а затем попросите пользователя сохранить журналы, чтобы вся информация, хранящаяся в памяти, сохранялась в файлах на жестком диске.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195352"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507536"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Развертывание Lync Web App в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Развертывание Lync Web App в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Web App — это веб-клиент служб IIS, устанавлив
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Включение многофакторной проверки подлинности для Lync Web App
 
-Lync Server 2013 версии Lync Web App поддерживает многофакторную проверку подлинности. Помимо имени пользователя и пароля, для проверки подлинности пользователей, присоединяющихся к собраниям Lync, могут потребоваться дополнительные методы проверки подлинности, такие как смарт-карты или ПИН-коды. Вы можете включить многофакторную проверку подлинности, развернув сервер федерации службы федерации Active Directory (AD FS) и включив пассивную проверку подлинности в Lync Server 2013. После настройки AD FS внешние пользователи, пытающиеся присоединиться к собраниям Lync, отображаются с помощью веб-страницы многофакторной проверки подлинности AD FS, которая содержит имя пользователя и пароль, а также дополнительные методы проверки подлинности, настроенные .
+Lync Server 2013 версии Lync Web App поддерживает многофакторную проверку подлинности. Помимо имени пользователя и пароля, для проверки подлинности пользователей, присоединяющихся к собраниям Lync, могут потребоваться дополнительные методы проверки подлинности, такие как смарт-карты или ПИН-коды. Вы можете включить многофакторную проверку подлинности, развернув сервер федерации службы федерации Active Directory (AD FS) и включив пассивную проверку подлинности в Lync Server 2013. После настройки AD FS внешние пользователи, пытающиеся присоединиться к собраниям Lync, отображаются с помощью веб-страницы многофакторной проверки подлинности AD FS, которая содержит имя пользователя и пароль, а также дополнительные методы проверки подлинности, которые вы настроили.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ Lync Server 2013 версии Lync Web App поддерживает многоф
 
 **Настройка многофакторной проверки подлинности**
 
-1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения см. в руководстве по развертыванию служб федерации Active Directory 2,0 в<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Установите роль сервера федерации службы федерации Active Directory. Подробные сведения см. в руководстве по развертыванию служб федерации Active Directory 2,0 в <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)разделе "планирование и развертывание AD FS".
+2.  Создайте сертификаты для AD FS. Для получения дополнительных сведений обратитесь к разделу "сертификаты сервера федерации" плана for Active Directory для использования с одним входом в разделе "планирование и развертывание AD FS" [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  В интерфейсе командной строки Windows PowerShell выполните следующую команду:
     ```powershell
@@ -113,7 +115,7 @@ Lync Server 2013 версии Lync Web App поддерживает многоф
 
 Функция BranchCache в Windows 7 и Windows Server 2008 R2 может повлиять на веб-компоненты Lync Web App. Чтобы предотвратить возникновение проблем для пользователей Lync Web App, убедитесь, что служба BranchCache отключена.
 
-Дополнительные сведения об отключении BranchCache содержатся в руководстве по развертыванию BranchCache, доступном в формате Word в центре загрузки Майкрософт по [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) адресу и в формате HTML в технической библиотеке Windows Server 2008 R2 [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)по адресу.
+Дополнительные сведения об отключении BranchCache содержатся в руководстве по развертыванию BranchCache, доступном в формате Word в центре загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) и в формате HTML в технической библиотеке Windows Server 2008 R2 по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) .
 
 </div>
 
@@ -158,9 +160,9 @@ Lync Server 2013 версии Lync Web App поддерживает многоф
 
 2.  Чтобы открыть редактор реестра, введите **regedit**.
 
-3.  Перейдите в раздел\_hKey\_программное\\обеспечение\\локального\\компьютера\\\\, установщик Microsoft Windows.
+3.  Перейдите в раздел \_ hKey \_ \\ программное обеспечение локального компьютера \\ \\ \\ \\ , установщик Microsoft Windows.
 
-4.  Измените или добавьте раздел реестра параметр DisableMSI типа REG\_DWORD и присвойте ему значение 0.
+4.  Измените или добавьте раздел реестра параметр DisableMSI типа REG \_ DWORD и присвойте ему значение 0.
 
 5.  Присоединитесь к собранию повторно.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193122"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506666"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Обновление списка поддержки Outlook в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Обновление списка поддержки Outlook в Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42193122"
 
 _**Последнее изменение темы:** 2013-01-07_
 
-Вы можете убедиться, что надстройка "собрание по сети" для Microsoft Lync 2013 всегда остается включенной для пользователей, создав политику, которая включает ее в список управления надстройками для Outlook. Политика списка управления надстройками включается в файлы административных шаблонов Office для консоли управления групповыми политиками. Он создает раздел реестра в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList. Вы можете добавить значение для укаддин. dll в этот ключ и настроить значение укаддин. dll так, чтобы оно всегда было включено и пользователи не могли отключить его вручную.
+Вы можете убедиться, что надстройка "собрание по сети" для Microsoft Lync 2013 всегда остается включенной для пользователей, создав политику, которая включает ее в список управления надстройками для Outlook. Политика списка управления надстройками включается в файлы административных шаблонов Office для консоли управления групповыми политиками. Он создает раздел реестра в разделе \\ политики программного обеспечения HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ устойчивости \\ AddinList. Вы можете добавить в этот ключ значение ucaddin.dll и настроить ucaddin.dll значение, чтобы оно всегда было включено и пользователи не могли отключить его вручную.
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Добавление укаддин. dll в список надстроек Outlook
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Добавление ucaddin.dll в список надстроек Outlook
 
-  - В раздел реестра AddinList, расположенный в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList, добавьте следующее значение:
+  - В раздел реестра AddinList, расположенный в разделе \\ политики программного обеспечения HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ устойчивости \\ AddinList, добавьте следующее значение:
     
-      - Тип реестра = REG\_СЗ
+      - Тип реестра = REG \_ СЗ
     
       - Имя = ucaddin.dll
     

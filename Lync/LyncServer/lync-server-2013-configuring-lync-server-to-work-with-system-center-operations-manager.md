@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188372"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506236"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Настройка Lync Server 2013 для работы с System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Настройка Lync Server 2013 для работы с System Center Operations Manager
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2012-10-22_
 
   - Определите и настройте компьютеры Lync Server, которые необходимо отслеживать. Для наблюдения за компьютером Lync Server с помощью System Center Operations Manager необходимо установить файлы агента System Center Operations Manager и настроить каждый сервер для работы в качестве прокси-сервера.
 
-  - Определите и настройте компьютеры, которые будут использоваться в качестве *узлов-наблюдателей*Lync Server. Узлы-наблюдатели — это компьютеры, которые периодически выполняют синтетические транзакции Lync Server, которые являются командлетами Windows PowerShell, которые проверяют, что ключевые компоненты Lync Server, такие как возможность входа в систему или возможность обмена мгновенными сообщениями, работает должным образом.
+  - Определите и настройте компьютеры, которые будут использоваться в качестве *узлов-наблюдателей*Lync Server. Узлы-наблюдатели — это компьютеры, которые периодически выполняют синтетические транзакции Lync Server, которые являются командлетами Windows PowerShell, которые проверяют, что ключевые компоненты Lync Server, такие как возможность входа в систему или возможность обмена мгновенными сообщениями, работают ожидаемым образом.
 
 В подразделах этого раздела приведены инструкции по выполнению каждой из этих задач.
 

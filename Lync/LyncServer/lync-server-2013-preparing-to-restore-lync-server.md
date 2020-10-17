@@ -12,20 +12,22 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506836"
 ---
+# <a name="preparing-to-restore-lync-server-2013"></a>Подготовка к восстановлению Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>Подготовка к восстановлению Lync Server 2013
+
 
 </div>
 
@@ -134,7 +136,7 @@ _**Последнее изменение темы:** 2013-02-21_
     
 
     > [!NOTE]  
-    > Мастер развертывания Lync Server автоматически устанавливает SQL Server 2012 Express на каждом сервере Standard Edition и на любом другом сервере Lync Server при установке локального хранилища конфигурации, если вы не предустановили SQL Server 2012 или SQL Server 2008 R2 на сервер.
+    > Мастер развертывания Lync Server автоматически устанавливает SQL Server 2012 Express на каждом сервере Standard Edition и на любом другом сервере Lync Server при установке локального хранилища конфигурации, если вы не предустановили SQL Server 2012 или SQL Server 2008 R2 на сервере.
 
     
     </div>
@@ -150,13 +152,13 @@ _**Последнее изменение темы:** 2013-02-21_
     
     </div>
 
-  - Установка программного обеспечения Lync Server 2013. Мастер развертывания Lync Server находится в папке установки Lync Server или на носителе во время \\установки\\amd64\\. exe.
+  - Установка программного обеспечения Lync Server 2013. Мастер развертывания Lync Server находится в папке установки Lync Server или на носителе во время \\ установки \\ amd64 \\Setup.exe.
 
 Во время восстановления используются следующие инструменты:
 
   - Командлеты командной консоли Lync Server
 
-  - Import — CsUserData
+  - Import-CsUserData
 
   - Средства для восстановления папок Windows
 

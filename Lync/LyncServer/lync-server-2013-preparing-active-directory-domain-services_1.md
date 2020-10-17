@@ -12,20 +12,22 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c5d83acbe32d33a235e7c2918663340a3ac7ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b3af3ce7940b8d0fb58a74b4a8f7bb0a21c5e2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506996"
 ---
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Подготовка доменных служб Active Directory в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Подготовка доменных служб Active Directory в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2014-02-19_
 
 
 > [!IMPORTANT]  
-> Вы можете развернуть Lync Server в лесу или домене, где контроллеры домена выполняют 32-разрядные версии некоторых операционных систем (Дополнительные сведения см. в статье <A href="lync-server-2013-active-directory-infrastructure-requirements.md">требования к инфраструктуре Active Directory для Lync Server 2013</A>). Однако мастер развертывания Lync Server невозможно использовать для запуска схемы, леса и подготовки доменов в этих средах, так как мастер развертывания и вспомогательные файлы имеют только 64 бит. Вместо этого можно использовать Ldifde. exe и связанные LDF файлы на контроллере домена 32, чтобы подготовить схему, лес и домен. Ознакомьтесь с разделом "использование командлетов и LDIFDE. exe" Далее в этом разделе.
+> Вы можете развернуть Lync Server в лесу или домене, где контроллеры домена выполняют 32-разрядные версии некоторых операционных систем (Дополнительные сведения см. в статье <A href="lync-server-2013-active-directory-infrastructure-requirements.md">требования к инфраструктуре Active Directory для Lync Server 2013</A>). Однако мастер развертывания Lync Server невозможно использовать для запуска схемы, леса и подготовки доменов в этих средах, так как мастер развертывания и вспомогательные файлы имеют только 64 бит. Вместо этого можно использовать ldifde.exe и связанные LDF файлы на контроллере домена 32, чтобы подготовить схему, лес и домен. Ознакомьтесь с разделом "использование командлетов и Ldifde.exe" Далее в этом разделе.
 
 
 
@@ -61,7 +63,7 @@ _**Последнее изменение темы:** 2014-02-19_
 
 Для выполнения задач подготовки Active Directory необходимы следующие компоненты.
 
-  - Основные компоненты Lync Server (OCScore. msi)
+  - Основные компоненты Lync Server (OCScore.msi)
     
     <div>
     
@@ -72,13 +74,13 @@ _**Последнее изменение темы:** 2014-02-19_
     
     </div>
 
-  - Microsoft .NET Framework 4.5
+  - Microsoft .NET Framework 4.5
     
     <div>
     
 
     > [!NOTE]  
-    > Для Windows Server 2012 и Windows Server 2012 R2 вы устанавливаете и активизируете .NET Framework 4,5 с помощью диспетчера серверов. Подробнее: "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>. Для Windows Server&nbsp;2008&nbsp;R2 Скачайте и установите <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> на веб-сайте Майкрософт.
+    > Для Windows Server 2012 и Windows Server 2012 R2 вы устанавливаете и активизируете .NET Framework 4,5 с помощью диспетчера серверов. Подробнее: "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>. Для Windows Server &nbsp; 2008 &nbsp; R2 Скачайте и установите <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> на веб-сайте Майкрософт.
 
     
     </div>
@@ -126,7 +128,7 @@ _**Последнее изменение темы:** 2014-02-19_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Procedure</th>
+<th>Процедура</th>
 <th>Права или роли</th>
 </tr>
 </thead>
@@ -170,35 +172,35 @@ _**Последнее изменение темы:** 2014-02-19_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Install — CsAdServerSchema</p></td>
+<td><p>Install-CsAdServerSchema</p></td>
 <td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
 </tr>
 <tr class="even">
-<td><p>Get — CsAdServerSchema</p></td>
+<td><p>Get-CsAdServerSchema</p></td>
 <td><p>Lcscmd /forest /action:CheckSchemaPrepState</p></td>
 </tr>
 <tr class="odd">
-<td><p>Enable — CsAdForest</p></td>
+<td><p>Enable-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:ForestPrep</p></td>
 </tr>
 <tr class="even">
-<td><p>Disable — CsAdForest</p></td>
+<td><p>Disable-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:ForestUnprep</p></td>
 </tr>
 <tr class="odd">
-<td><p>Get — CsAdForest</p></td>
+<td><p>Get-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:CheckForestPrepState</p></td>
 </tr>
 <tr class="even">
-<td><p>Enable — CsAdDomain</p></td>
+<td><p>Enable-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action:DomainPrep</p></td>
 </tr>
 <tr class="odd">
-<td><p>Disable — CsAdDomain</p></td>
+<td><p>Disable-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action: DomainUnprep</p></td>
 </tr>
 <tr class="even">
-<td><p>Get — CsAdDomain</p></td>
+<td><p>Get-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action:CheckDomainPrepState</p></td>
 </tr>
 </tbody>
@@ -271,7 +273,7 @@ _**Последнее изменение темы:** 2014-02-19_
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Подробнее об использовании ldifde можно узнать в статье базы знаний Майкрософт 237677 "использование средства LDIFDE для импорта и экспорта объектов каталога в Active Directory" по адресу [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204).
+Подробнее об использовании ldifde можно узнать в статье базы знаний Майкрософт 237677 "использование средства LDIFDE для импорта и экспорта объектов каталога в Active Directory" по адресу [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204) .
 
 </div>
 

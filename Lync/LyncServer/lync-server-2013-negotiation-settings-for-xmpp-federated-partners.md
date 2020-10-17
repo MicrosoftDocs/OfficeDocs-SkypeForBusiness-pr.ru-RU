@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505596"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Параметры согласования для федеративных партнеров XMPP в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Параметры согласования для федеративных партнеров XMPP в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2012-10-21_
 <th>SASL (Simple Authentication and Security Layer)</th>
 <th>Проверка подлинности с обратным вызовом</th>
 <th>Ожидаемые методы проверки подлинности</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -132,8 +134,8 @@ _**Последнее изменение темы:** 2012-10-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Необязательна</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Необязательный</p></td>
+<td><p>Обязательный</p></td>
 <td><p>Верно</p></td>
 <td><p>SASL через TLS, обратный вызов TLS, обратный вызов TCP</p></td>
 <td><div>
@@ -145,8 +147,8 @@ _**Последнее изменение темы:** 2012-10-21_
 </div></td>
 </tr>
 <tr class="even">
-<td><p>Необязательна</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Необязательный</p></td>
+<td><p>Обязательный</p></td>
 <td><p>False</p></td>
 <td><p>SASL через TLS</p></td>
 <td><div>
@@ -159,7 +161,7 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 <td><p>Верно</p></td>
 <td><p>Обратный вызов TCP</p></td>
 <td><div>
@@ -172,7 +174,7 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="even">
 <td><p>Не поддерживается</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 <td><p>False</p></td>
 <td><div>
 
@@ -231,7 +233,7 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 <td><p>Верно</p></td>
 <td><p>Обратный вызов TCP</p></td>
 <td><div>
@@ -244,7 +246,7 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="even">
 <td><p>Не поддерживается</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 <td><p>False</p></td>
 <td><div>
 
@@ -262,14 +264,14 @@ _**Последнее изменение темы:** 2012-10-21_
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>Верно</p></td>
 <td><p>Обратный вызов TCP</p></td>
 <td><p>Конфигурация допускает использование обратного вызова TLS.</p></td>
 </tr>
 <tr class="even">
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>False</p></td>
 <td><p>Недопустимая конфигурация</p></td>
@@ -282,14 +284,14 @@ _**Последнее изменение темы:** 2012-10-21_
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>Верно</p></td>
 <td><p>Обратный вызов TLS, обратный вызов TCP</p></td>
 <td><p>В соответствии с вариантами согласования, включенными для другой конечной точки, будет принят обратный вызов TCP или TLS.</p></td>
 </tr>
 <tr class="even">
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>False</p></td>
 <td><p>Недопустимая конфигурация</p></td>

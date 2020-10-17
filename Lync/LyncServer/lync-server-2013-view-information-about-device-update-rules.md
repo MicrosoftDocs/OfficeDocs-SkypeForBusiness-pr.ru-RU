@@ -12,20 +12,22 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa10335c21a943c90937306a39262e651c392a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79fef5d58116da6b8cbc07ce2b16f3dd4f6b28ac
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506386"
 ---
+# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Просмотр сведений о правилах обновления устройств в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-device-update-rules-in-lync-server-2013"></a>Просмотр сведений о правилах обновления устройств в Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 
 > [!NOTE]  
-> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.
+> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .
 
 
 
@@ -105,7 +107,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="to-view-all-the-device-update-rules-on-a-specific-web-server"></a>Просмотр всех правил обновления устройств на определенном веб-сервере
 
-  - Чтобы просмотреть правила обновления устройств на определенном компьютере, используйте параметр Filter, а затем идентификатор сервера и подстановочный знак (\*). Например:
+  - Чтобы просмотреть правила обновления устройств на определенном компьютере, используйте параметр Filter, а затем идентификатор сервера и подстановочный знак ( \* ). Например:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 50873759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79eae7471760b31e300cdc310b33c44a80587215
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edd1720040c31545bc8b83465109700db77b2b84
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211555"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506586"
 ---
+# <a name="view-client-version-policies-in-lync-server-2013"></a>Просмотр политик версий клиентов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-policies-in-lync-server-2013"></a>Просмотр политик версий клиентов в Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a>Просмотр политик версий клиентов с помощью командлетов Windows PowerShell
 
-Политики версий клиентов можно просмотреть с помощью командлета **Get – CsClientVersionPolicy** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Политики версий клиентов можно просмотреть с помощью командлета **Get – CsClientVersionPolicy** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

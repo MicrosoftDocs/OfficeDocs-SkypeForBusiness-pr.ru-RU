@@ -12,20 +12,22 @@ ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81dbf72e995291731c95749c3b1daecbf454190a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a1a72a7fdc73aeda96a2875ac48fd51b6023ddba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214265"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506076"
 ---
+# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Членство в группах и требования к правам пользователей для анализатора соответствия рекомендациям в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Членство в группах и требования к правам пользователей для анализатора соответствия рекомендациям в Lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Последнее изменение темы:** 2012-10-21_
 
 Для успешного запуска анализатора соответствия рекомендациям используемая для входа учетная запись должна являться членом группы администраторов на локальном компьютере. Кроме того, для сканирования среды эта учетная запись пользователя должна быть членом следующих групп:
 
-  - **Администраторы домена**   для перечисления сведений о доменных службах Active Directory и для вызова поставщиков инструментария управления Windows (WMI) на контроллерах домена и серверах глобального каталога.
+  - **Администраторы домена**     Для перечисления сведений о доменных службах Active Directory и вызова поставщиков инструментария управления Windows (WMI) на контроллерах домена и серверах глобального каталога.
 
-  - **Администраторы**   , необходимые для каждого внутреннего компьютера Lync Server 2013 и каждый пограничный сервер для вызова поставщиков инструментария управления Windows (WMI) и доступа к реестру.
+  - **Администраторы**     Требуется на каждом внутреннем компьютере с Lync Server 2013 и на каждом пограничном сервере для вызова поставщиков инструментария управления Windows (WMI) и доступа к реестру.
 
-  - **RTCUniversalReadOnlyAdmins**   полный или делегированный доступ только для чтения Lync Server 2013 административные права.
+  - **RTCUniversalReadOnlyAdmins**     Полный или делегированный доступ только для чтения Lync Server 2013 административные права.
 
-  - **Только администратор Exchange с правами администратора**   только для просмотра или делегированного администратора в организации Microsoft Exchange.
+  - Администратор только для **просмотра Exchange**     Полный или делегированный просмотр Exchange администратор в организации Microsoft Exchange.
 
 Если ваша учетная запись пользователя не обладает достаточными правами, возможны два варианта:
 

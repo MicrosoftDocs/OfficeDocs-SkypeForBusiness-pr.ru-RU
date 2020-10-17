@@ -12,20 +12,22 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa89b5afe53937ee515dac45053dbd84ae12ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505736"
 ---
+# <a name="medialine-view-in-lync-server-2013"></a>Представление MediaLine в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a>Представление MediaLine в Lync Server 2013
+
 
 </div>
 
@@ -50,7 +52,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>подробности</th>
+<th>details</th>
 </tr>
 </thead>
 <tbody>
@@ -260,7 +262,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <td><p>Это фактическая полоса пропускания, применяемая к заданному потоку на стороне отправки при различных параметрах политики (TURN, API, SDP, Policy Server и т. д.). Её не следует путать с эффективной полосой пропускания, так как это может быть нижняя эффективная полоса пропускания, основанная на оценке ширины полосы пропускания. Это по существу максимальная полоса пропускания, которую может занимать отправляемый поток, в пределах, устанавливаемых оценкой полосы пропускания.</p></td>
 </tr>
 <tr class="even">
-<td><p>Таблица appliedbandwidthsource</p></td>
+<td><p>AppliedBandwidthSource</p></td>
 <td><p>varchar (256)</p></td>
 <td><p>Источник пределов, накладываемых на пропускную способность. Им описывается, откуда берутся пределы, устанавливаемые для полосы пропускания (например, “Сервер политики”, “TURN-сервер” или “Модальность”).</p></td>
 </tr>

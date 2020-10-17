@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198962"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507476"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями Exchange
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями Exchange
+
 
 </div>
 
@@ -62,9 +64,9 @@ _**Последнее изменение темы:** 2013-02-20_
 
 5.  В разделе **Тип записи ресурса** выберите **Расположение службы (запись SRV)**, а затем нажмите **Создать запись**.
 
-6.  В **новой записи ресурса**щелкните **Служба**и введите ** \_сипфедератионтлс**.
+6.  В **новой записи ресурса**щелкните **Служба**и введите ** \_ сипфедератионтлс**.
 
-7.  Щелкните **протокол**, а затем введите ** \_TCP**.
+7.  Щелкните **протокол**, а затем введите ** \_ TCP**.
 
 8.  Нажмите **Номер порта** и введите **5061**.
 
@@ -74,7 +76,7 @@ _**Последнее изменение темы:** 2013-02-20_
     
 
     > [!NOTE]
-    > Этот домен также должен быть настроен в параметрах Exchange Online как заслуживающий доверия обслуживающий домен. Для получения дополнительных сведений обратитесь к разделу <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>Создание обслуживаемых доменов на сайте.
+    > Этот домен также должен быть настроен в параметрах Exchange Online как заслуживающий доверия обслуживающий домен. Для получения дополнительных сведений обратитесь к разделу Создание обслуживаемых доменов на сайте <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>

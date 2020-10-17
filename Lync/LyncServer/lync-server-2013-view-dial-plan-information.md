@@ -12,20 +12,22 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4b668291c0e8ba5c402f17288bebe342ccceb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 763e60533af230f613be89cad16379b851549801
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211445"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506436"
 ---
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>Просмотр сведений о абонентской схеме в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>Просмотр сведений о абонентской схеме в Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Просмотр абонентских планов с помощью командлетов Windows PowerShell
 
-  - Абонентские группы можно просмотреть с помощью интерфейса командной строки Windows PowerShell и командлета **Get – CsDialPlan** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+  - Абонентские группы можно просмотреть с помощью интерфейса командной строки Windows PowerShell и командлета **Get – CsDialPlan** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
     Чтобы просмотреть сведения обо всех абонентских планах, введите следующую команду в командной консоли Lync Server, а затем нажмите клавишу ВВОД:
     

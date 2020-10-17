@@ -12,20 +12,22 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efabd082fce4dba5cf210e2c0f9c390324474cd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27c785596d1fe994e3156eb0e52ed840609a5c26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506856"
 ---
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Подготовка схемы Active Directory в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Подготовка схемы Active Directory в Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**Последнее изменение темы:** 2012-08-27_
 
   - VersionSchema.ldf, который используется для получения информации о версии подготовленной схемы
 
-Все файлы .ldf устанавливаются в ходе подготовки схемы независимо от того, выполняется ли перенос с предыдущей версии или чистая установка. Эти файлы схемы устанавливаются в последовательности, показанной в предыдущем списке, и находятся в папке \\схемы\\поддержки на установочном носителе.
+Все файлы .ldf устанавливаются в ходе подготовки схемы независимо от того, выполняется ли перенос с предыдущей версии или чистая установка. Эти файлы схемы устанавливаются в последовательности, показанной в предыдущем списке, и находятся в \\ \\ папке схемы поддержки на установочном носителе.
 
 Расширения схемы Lync Server реплицируются по всем доменам, что влияет на сетевой трафик. Выполняйте подготовку схемы в то время, когда уровень использования сети является низким.
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2012-08-27_
 
 
 > [!NOTE]  
-> Если вам нужно добавить поддержку Microsoft® Office Communicator Mobile 2007 R2 для Java и Microsoft® Office Communicator Mobile для Nokia 1,0 для мобильных клиентов в развертывание Lync Server 2013, необходимо подготовить схему Active Directory для Microsoft Office. Communications Server 2007 R2 во время установки Lync Server 2013. Необходимое программное обеспечение и документация см <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>.
+> Если вам нужно добавить поддержку Microsoft® Office Communicator Mobile 2007 R2 для Java и Microsoft® Office Communicator Mobile для Nokia 1,0 для мобильных клиентов в развертывание Lync Server 2013, необходимо подготовить схему Active Directory для Microsoft Office Communications Server 2007 R2 во время установки Lync Server 2013. Необходимое программное обеспечение и документация см <A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A> .
 
 
 
@@ -69,7 +71,7 @@ _**Последнее изменение темы:** 2012-08-27_
 
 Редактор ADSI устанавливается по умолчанию при установке роли AD DS, чтобы сделать сервер контроллером домена. Для Windows Server 2008 и Windows Server 2008 R2 в состав средств удаленного администрирования сервера (RSAT. msc) включено средство редактирования ADSI (adsiedit. msc). Можно также установить RSAT на рядовые серверы или автономные серверы. Пакет RSAT копируется на эти серверы по умолчанию при установке Windows, но их установка по умолчанию не выполняется. Можно установить отдельные средства с помощью диспетчера серверов. Редактор ADSI входит в **средства администрирования ролей**, **средства доменных служб Active Directory** и **средства контроллера домена Active Directory**.
 
-При использовании Windows Server 2003 редактор ADSI входит в состав средств поддержки. Средства поддержки доступны на компакт-диске Windows Server 2003 в папке " \\средства\\поддержки", или их можно загрузить с помощью средства поддержки Windows Server 2003 с пакетом обновления 2 32-разрядные [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770)версии. Инструкции по установке средств поддержки с компакт-диска продукта доступны в разделе "Установка средств поддержки Windows" [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771). Регистрация Adsiedit.dll выполняется автоматически при установке средств поддержки. Однако, если вы скопировали файлы на компьютер, необходимо выполнить команду **regsvr32** для регистрации файла adsiedit.dll, прежде чем вы сможете запустить это средство.
+При использовании Windows Server 2003 редактор ADSI входит в состав средств поддержки. Средства поддержки доступны на компакт-диске Windows Server 2003 в \\ \\ папке "средства поддержки", или их можно загрузить с помощью средства поддержки windows Server 2003 с пакетом обновления 2 32-разрядные версии [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770) . Инструкции по установке средств поддержки с компакт-диска продукта доступны в разделе "Установка средств поддержки Windows" [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771) . Регистрация Adsiedit.dll выполняется автоматически при установке средств поддержки. Однако, если вы скопировали файлы на компьютер, необходимо выполнить команду **regsvr32** для регистрации файла adsiedit.dll, прежде чем вы сможете запустить это средство.
 
 </div>
 
