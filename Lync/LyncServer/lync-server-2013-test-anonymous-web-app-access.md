@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Проверка анонимного доступа веб-приложения'
+description: 'Lync Server 2013: Протестируйте анонимный доступ к веб-приложению.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a3d90d3de8624f9965b04990ad996d9c04a954f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 11c33840912fefcaeef069e14773cfefd0834a8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519316"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547475"
 ---
 # <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Проверка анонимного доступа веб-приложения в Lync Server 2013
 

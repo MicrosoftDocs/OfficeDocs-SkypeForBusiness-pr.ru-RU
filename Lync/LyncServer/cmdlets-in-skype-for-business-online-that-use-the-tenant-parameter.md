@@ -1,5 +1,6 @@
 ---
 title: Командлеты в Skype для бизнеса Online, использующие параметр клиента
+description: Командлеты в Skype для бизнеса Online, использующие параметр клиента.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755045"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546805"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Командлеты в Skype для бизнеса Online, использующие параметр клиента
 
@@ -29,12 +30,12 @@ ms.locfileid: "44755045"
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-К счастью, вам не нужно вводить идентификатор клиента (например, bf19b7db-6960-41e5-A139-2aa373474354) каждый раз при запуске одного из этих командлетов. Вместо этого можно получить идентификатор клиента, выполнив командлет [Get – CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) , сохранив идентификатор клиента в переменной, а затем используя эту переменную при вызове одного из других командлетов. Пример:
+К счастью, вам не нужно вводить идентификатор клиента (например, bf19b7db-6960-41e5-A139-2aa373474354) каждый раз при запуске одного из этих командлетов. Вместо этого можно получить идентификатор клиента, выполнив командлет [Get – CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) , сохранив идентификатор клиента в переменной, а затем используя эту переменную при вызове одного из других командлетов. Например:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Кроме того, это можно сделать в одной команде, получая идентификатор клиента, а затем переконвейеровать это значение в командлет Set – Кстенантпубликпровидер:
+Кроме того, это можно сделать в одной команде, получая идентификатор клиента, а затем переконвейеровать это значение в командлет Set-CsTenantPublicProvider:
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
@@ -60,7 +61,7 @@ ms.locfileid: "44755045"
 
     Get-CsTenantFederationConfiguration
 
-Хотя это необязательно, вы можете включить параметр клиента при вызове get — Кстенантфедератионконфигуратион:
+Хотя это не обязательно, вы можете включить параметр клиента при вызове Get-CsTenantFederationConfiguration:
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
