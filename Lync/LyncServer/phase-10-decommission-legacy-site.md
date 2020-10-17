@@ -1,5 +1,6 @@
 ---
 title: 'Этап 10: списание устаревшего сайта'
+description: 'Этап 10: списание устаревшего сайта.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9692301a1da38cfd69780ce2524f00dd428454e5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533766"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571205"
 ---
 # <a name="phase-10-decommission-legacy-site"></a>Этап 10: списание устаревшего сайта
 
@@ -67,7 +68,7 @@ _**Последнее изменение темы:** 2012-10-16_
 
   - [Перемещение каталогов конференций](move-conference-directories.md)
 
-  - [Обновление записей DNS SRV](update-dns-srv-records_1.md)
+  - [Обновление записей DNS SRV](update-dns-srv-records.md)
 
   - [Списание серверов и пулов](decommissioning-servers-and-pools.md)
 

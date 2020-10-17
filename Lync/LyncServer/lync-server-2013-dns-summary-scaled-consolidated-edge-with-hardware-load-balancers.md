@@ -1,5 +1,6 @@
 ---
 title: Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки
+description: Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59581f435267a7db607e03a8cbf52d21f70897f8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501286"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570665"
 ---
 # <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013
 
