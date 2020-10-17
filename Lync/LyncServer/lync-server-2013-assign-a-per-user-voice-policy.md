@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: назначение политики голосовой связи на уровне пользователя'
+description: 'Lync Server 2013: назначение политики голосовой связи на уровне пользователя.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: e7ea0b171e10302b4c466187c54324cc2548e821
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943932"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563565"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Назначение политики голосовой связи на уровне пользователя в Lync Server 2013
 

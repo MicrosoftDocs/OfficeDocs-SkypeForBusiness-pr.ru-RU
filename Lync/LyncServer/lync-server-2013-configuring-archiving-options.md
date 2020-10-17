@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка параметров архивации'
+description: 'Lync Server 2013: Настройка параметров архивации.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185158
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdb8eda57f027c9776de11a6e36795dd57dc661a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 99d57f016d76f9ae6a538ef28663a4b4c965b0a6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502266"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562525"
 ---
 # <a name="configuring-archiving-options-in-lync-server-2013"></a>Настройка параметров архивации в Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Этап 9: выполнение задач, выполняемых после миграции'
+description: 'Этап 9: выполнение задач, выполняемых после миграции.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33e4b97e0290ef14acda9201bb25897d7a517113
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1448f2ca399fdd31f914a55d2940f41624a9794e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532816"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563745"
 ---
 # <a name="phase-9-complete-post-migration-tasks"></a>Этап 9: выполнение задач, выполняемых после миграции
 
@@ -45,25 +46,25 @@ _**Последнее изменение темы:** 2012-10-15_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Перенос групп ответа](migrate-response-groups_1.md)
+  - [Перенос групп ответа](migrate-response-groups.md)
 
-  - [Перенос номеров доступа](migrate-dial-in-access-numbers_1.md)
+  - [Перенос номеров доступа](migrate-dial-in-access-numbers.md)
 
   - [Включение Exchange 2013 Outlook Web App и интеграция обмена мгновенными сообщениями](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Перенос адресной книги](migrate-address-book_1.md)
+  - [Перенос адресной книги](migrate-address-book.md)
 
   - [Включение удаленного управления звонками](enable-remote-call-control.md)
 
-  - [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
 
   - [Перенос сервера-посредника](migrate-mediation-server.md)
 
-  - [Настройка доверенных серверов приложений](configure-trusted-application-servers_1.md)
+  - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
 
-  - [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page_1.md)
+  - [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page.md)
 
-  - [Развертывание клиентов Lync Server 2013](deploy-lync-server-2013-clients_1.md)
+  - [Развертывание клиентов Lync Server 2013](deploy-lync-server-2013-clients.md)
 
   - [Перемещение контактных объектов единой системы обмена сообщениями Exchange](move-exchange-unified-messaging-contact-objects.md)
 

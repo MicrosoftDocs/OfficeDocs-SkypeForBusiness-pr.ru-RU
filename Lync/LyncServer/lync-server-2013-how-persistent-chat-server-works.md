@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: работа сервера сохраняемого чата'
+description: 'Lync Server 2013: работа сервера сохраняемого чата.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d919d7c9d955355a45ebf3c05391204ca919a3fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c65df6a13305f75a8a25b85a39688fadf64e476c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528176"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562965"
 ---
 # <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>Принцип работы сервера сохраняемого чата в Lync Server 2013
 

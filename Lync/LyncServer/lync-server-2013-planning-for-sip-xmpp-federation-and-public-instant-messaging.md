@@ -1,5 +1,6 @@
 ---
 title: Планирование SIP, Федерации XMPP и общедоступных мгновенных сообщений
+description: Планирование SIP, Федерации XMPP и общедоступных мгновенных сообщений.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f213b584d62a9a40810de2a05676b6d0737258e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4c28c9c75310c884ea00117be2458384d408daae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513466"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564065"
 ---
 # <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Планирование SIP, Федерации XMPP и общедоступных мгновенных сообщений в Lync Server 2013
 

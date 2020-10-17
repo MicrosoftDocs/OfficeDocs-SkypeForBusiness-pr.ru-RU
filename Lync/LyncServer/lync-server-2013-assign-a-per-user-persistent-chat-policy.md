@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: назначение политики сохраняемого чата на уровне пользователя'
+description: 'Lync Server 2013: назначение политики сохраняемого чата на уровне пользователя.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134415"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563605"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Назначение политики сохраняемого чата на уровне пользователя в Lync Server 2013
 
@@ -69,10 +70,10 @@ ms.locfileid: "42134415"
     
 
     > [!NOTE]  
-    > Так как существует несколько политик, которые можно настроить с помощью диалогового окна <STRONG>Assign Policies (назначить политики</STRONG> ), <STRONG> &lt;&gt; </STRONG> по умолчанию для каждой политики в диалоговом окне флажок Сохранить как установлен. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
+    > Так как существует несколько политик, которые можно настроить с помощью диалогового окна <STRONG>Assign Policies (назначить политики</STRONG> ), по умолчанию для каждой политики в диалоговом окне флажок <STRONG> &lt; &gt; Сохранить как</STRONG> установлен. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
 
     
-      - Выберите ** \<автоматически\> ** , чтобы разрешить Lync Server 2013 автоматически выбрать политику глобального уровня или, если она определена, политику на уровне сайта.
+      - Установите флажок, **\<Automatic\>** чтобы разрешить Lync Server 2013 автоматически выбирать политику глобального уровня или, если она определена, политику на уровне сайта.
     
       - Щелкните имя политики сохраняемого чата на уровне пользователя, которую вы ранее определили на странице **Политика сохраняемого чата**.
         
@@ -84,9 +85,9 @@ ms.locfileid: "42134415"
 
 8.  По завершении нажмите кнопку **ОК**.
 
-## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики сохраняемого чата на уровне пользователя с помощью командлетов Windows PowerShell
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики сохраняемого чата Per-User с помощью командлетов Windows PowerShell
 
-Вы также можете назначить политики сохраняемого чата для отдельных пользователей с помощью командлета **Grant – CsPersistentChatPolicy** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы также можете назначить политики сохраняемого чата для отдельных пользователей с помощью командлета **Grant – CsPersistentChatPolicy** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>Назначение политики сохраняемого чата для отдельных пользователей одному пользователю
 
