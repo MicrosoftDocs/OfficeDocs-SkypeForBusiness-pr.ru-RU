@@ -1,5 +1,6 @@
 ---
 title: Контрольный список развертывания Lync Server 2013 для конференц-связи
+description: 'Сервер Lync Server 2013: контрольный список развертывания для конференц-связи.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d5d2fa19f9ba181a96b16ac9f30d3c49136a58a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e4b5585c00c7be9a6c453798c87f9e9701813077
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522816"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568385"
 ---
-# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="e81f5-102">Контрольный список развертывания для конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81f5-102">Deployment checklist for conferencing in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="e5cd4-103">Контрольный список развертывания для конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5cd4-103">Deployment checklist for conferencing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48522816"
 
 <span> </span>
 
-<span data-ttu-id="e81f5-103">_**Последнее изменение темы:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="e81f5-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="e5cd4-104">_**Последнее изменение темы:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="e5cd4-104">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="e81f5-104">В следующих статьях предоставляется контрольный список для развертывания и настройки веб-конференций, аудио- и видеоконференций, а также конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="e81f5-104">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="e5cd4-105">В следующих статьях предоставляется контрольный список для развертывания и настройки веб-конференций, аудио- и видеоконференций, а также конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="e5cd4-105">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e81f5-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="e81f5-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e5cd4-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="e5cd4-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e81f5-106">Контрольный список развертывания для веб-конференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81f5-106">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+  - [<span data-ttu-id="e5cd4-107">Контрольный список развертывания для веб-конференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5cd4-107">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
-  - [<span data-ttu-id="e81f5-107">Контрольный список развертывания для аудио-и видеоконференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81f5-107">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+  - [<span data-ttu-id="e5cd4-108">Контрольный список развертывания для аудио-и видеоконференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5cd4-108">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 
-  - [<span data-ttu-id="e81f5-108">Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81f5-108">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="e5cd4-109">Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5cd4-109">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: новые клиентские функции'
+description: 'Lync Server 2013: новые клиентские функции.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b414f6ced9f956b6a566fb8668da0f2d7c33ab84
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d7cfd0a1db524678111f493176eed344931d102
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505296"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568125"
 ---
-# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="178cd-102">Новые функции клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="178cd-102">New client features in Lync Server 2013</span></span>
+# <a name="new-client-features-in-lync-server-2013"></a><span data-ttu-id="2d296-103">Новые функции клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d296-103">New client features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48505296"
 
 <span> </span>
 
-<span data-ttu-id="178cd-103">_**Последнее изменение темы:** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="178cd-103">_**Topic Last Modified:** 2012-06-04_</span></span>
+<span data-ttu-id="2d296-104">_**Последнее изменение темы:** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="2d296-104">_**Topic Last Modified:** 2012-06-04_</span></span>
 
-<span data-ttu-id="178cd-104">В следующих разделах описываются новые функции и обновления развертывания для клиентов Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="178cd-104">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
+<span data-ttu-id="2d296-105">В следующих разделах описываются новые функции и обновления развертывания для клиентов Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2d296-105">The following sections describe new features and deployment updates for Lync Server 2013 clients.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="178cd-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="178cd-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2d296-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="2d296-106">In This Section</span></span>
 
-  - [<span data-ttu-id="178cd-106">Новые возможности для клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="178cd-106">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
+  - [<span data-ttu-id="2d296-107">Новые возможности для клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d296-107">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)
 
-  - [<span data-ttu-id="178cd-107">Новые возможности для устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="178cd-107">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
+  - [<span data-ttu-id="2d296-108">Новые возможности для устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d296-108">What's new for devices in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-devices.md)
 
 </div>
 

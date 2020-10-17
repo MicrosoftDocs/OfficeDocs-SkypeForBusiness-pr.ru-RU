@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: изменение фильтра URL-адресов по умолчанию'
+description: 'Lync Server 2013: изменение фильтра URL-адресов по умолчанию.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9d730bcdf17c9f78aee25ba3cec56f99a67086
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 079fcc83cd9041f99f1d14663ad51e86f6c23619
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515186"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566905"
 ---
-# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="e5ae5-102">Изменение фильтра URL-адресов по умолчанию в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5ae5-102">Modify the default URL filter in Lync Server 2013</span></span>
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="7d585-103">Изменение фильтра URL-адресов по умолчанию в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d585-103">Modify the default URL filter in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48515186"
 
 <span> </span>
 
-<span data-ttu-id="e5ae5-103">_**Последнее изменение темы:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="e5ae5-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="7d585-104">_**Последнее изменение темы:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="7d585-104">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="e5ae5-104">С помощью фильтра мгновенных сообщений Lync Server 2013 предоставляет глобальный фильтр URL-адресов, который блокирует конкретные URL-адреса, которые содержатся в текстовых беседах между пользователями в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e5ae5-104">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="e5ae5-105">С помощью панели управления Lync Server вы можете выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e5ae5-105">By using Lync Server Control Panel, you can do the following:</span></span>
+<span data-ttu-id="7d585-105">С помощью фильтра мгновенных сообщений Lync Server 2013 предоставляет глобальный фильтр URL-адресов, который блокирует конкретные URL-адреса, которые содержатся в текстовых беседах между пользователями в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7d585-105">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="7d585-106">С помощью панели управления Lync Server вы можете выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="7d585-106">By using Lync Server Control Panel, you can do the following:</span></span>
 
-  - <span data-ttu-id="e5ae5-106">блокировка всех URL-адресов или их подмножества в текстовых беседах;</span><span class="sxs-lookup"><span data-stu-id="e5ae5-106">Block all or a subset of URLs in instant message conversations.</span></span>
+  - <span data-ttu-id="7d585-107">блокировка всех URL-адресов или их подмножества в текстовых беседах;</span><span class="sxs-lookup"><span data-stu-id="7d585-107">Block all or a subset of URLs in instant message conversations.</span></span>
 
-  - <span data-ttu-id="e5ae5-p102">разрешение всех URL-адресов; вы также можете добавить оповещение в начало каждого мгновенного сообщения с URL-адресом;</span><span class="sxs-lookup"><span data-stu-id="e5ae5-p102">Allow all URLs. As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="7d585-p102">разрешение всех URL-адресов; вы также можете добавить оповещение в начало каждого мгновенного сообщения с URL-адресом;</span><span class="sxs-lookup"><span data-stu-id="7d585-p102">Allow all URLs. As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
 
-  - <span data-ttu-id="e5ae5-109">разрешение определенных URL-адресов и добавление предупреждения в каждое мгновенное сообщение, содержащее URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="e5ae5-109">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="7d585-110">разрешение определенных URL-адресов и добавление предупреждения в каждое мгновенное сообщение, содержащее URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="7d585-110">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
 
-<span data-ttu-id="e5ae5-110">Кроме того, вы можете блокировать URL-адреса, содержащие определенные типы файлов, либо только внутренние URL-адреса, разрешив передачу URL-адресов, входящих в зону местной интрасети сервера (URL-адреса интрасети).</span><span class="sxs-lookup"><span data-stu-id="e5ae5-110">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="e5ae5-111">Сведения об фильтрации URL-адресов приведены [в статье Настройка передачи файлов и фильтрации URL-адресов для обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="e5ae5-111">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="7d585-111">Кроме того, вы можете блокировать URL-адреса, содержащие определенные типы файлов, либо только внутренние URL-адреса, разрешив передачу URL-адресов, входящих в зону местной интрасети сервера (URL-адреса интрасети).</span><span class="sxs-lookup"><span data-stu-id="7d585-111">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="7d585-112">Сведения об фильтрации URL-адресов приведены [в статье Настройка передачи файлов и фильтрации URL-адресов для обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span><span class="sxs-lookup"><span data-stu-id="7d585-112">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e5ae5-112">См. также</span><span class="sxs-lookup"><span data-stu-id="e5ae5-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7d585-113">См. также</span><span class="sxs-lookup"><span data-stu-id="7d585-113">See Also</span></span>
 
 
-[<span data-ttu-id="e5ae5-113">Настройка передачи файлов и фильтрации URL-адресов для обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5ae5-113">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="e5ae5-114">Создание нового фильтра передачи файлов в Lync Server 2013 для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="e5ae5-114">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[<span data-ttu-id="e5ae5-115">Создание нового фильтра URL-адресов в Lync Server 2013 для обработки гиперссылок в текстовых беседах</span><span class="sxs-lookup"><span data-stu-id="e5ae5-115">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[<span data-ttu-id="e5ae5-116">Изменение фильтра передачи файлов по умолчанию в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5ae5-116">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="7d585-114">Настройка передачи файлов и фильтрации URL-адресов для обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d585-114">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="7d585-115">Создание нового фильтра передачи файлов в Lync Server 2013 для определенного сайта</span><span class="sxs-lookup"><span data-stu-id="7d585-115">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[<span data-ttu-id="7d585-116">Создание нового фильтра URL-адресов в Lync Server 2013 для обработки гиперссылок в текстовых беседах</span><span class="sxs-lookup"><span data-stu-id="7d585-116">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[<span data-ttu-id="7d585-117">Изменение фильтра передачи файлов по умолчанию в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d585-117">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
   
 
 </div>
