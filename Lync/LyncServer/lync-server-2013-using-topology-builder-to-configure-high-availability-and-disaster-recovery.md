@@ -1,5 +1,6 @@
 ---
 title: Использование построителя топологий для настройки высокой доступности и аварийного восстановления
+description: Использование построителя топологий для настройки высокой доступности и аварийного восстановления.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21e240e8fd597f1fe8a2669df45d674be7a7bef1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 04764a58ac3ae1bbe0df97aadeabb03158ce8100
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508656"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547325"
 ---
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="064f0-102">Использование построителя топологий для настройки высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="064f0-102">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="540e6-103">Использование построителя топологий для настройки высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="540e6-103">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48508656"
 
 <span> </span>
 
-<span data-ttu-id="064f0-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="064f0-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="540e6-104">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="540e6-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="064f0-104">Выполните указанные ниже действия в построителе топологий, чтобы настроить высокую доступность и аварийное восстановление для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="064f0-104">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
+<span data-ttu-id="540e6-105">Выполните указанные ниже действия в построителе топологий, чтобы настроить высокую доступность и аварийное восстановление для сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="540e6-105">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
 
-1.  <span data-ttu-id="064f0-105">Добавьте зеркальные базы данных и хранилища SQL Server, которые являются вторичными хранилищами баз данных SQL Server.</span><span class="sxs-lookup"><span data-stu-id="064f0-105">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
+1.  <span data-ttu-id="540e6-106">Добавьте зеркальные базы данных и хранилища SQL Server, которые являются вторичными хранилищами баз данных SQL Server.</span><span class="sxs-lookup"><span data-stu-id="540e6-106">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
 
-2.  <span data-ttu-id="064f0-106">Измените свойства службы сервера сохраняемого чата следующим образом:</span><span class="sxs-lookup"><span data-stu-id="064f0-106">Edit the Persistent Chat Server service properties to:</span></span>
+2.  <span data-ttu-id="540e6-107">Измените свойства службы сервера сохраняемого чата следующим образом:</span><span class="sxs-lookup"><span data-stu-id="540e6-107">Edit the Persistent Chat Server service properties to:</span></span>
     
-    1.  <span data-ttu-id="064f0-107">Включите зеркальное отображение для базы данных-источника.</span><span class="sxs-lookup"><span data-stu-id="064f0-107">Enable mirroring for the primary database.</span></span>
+    1.  <span data-ttu-id="540e6-108">Включите зеркальное отображение для базы данных-источника.</span><span class="sxs-lookup"><span data-stu-id="540e6-108">Enable mirroring for the primary database.</span></span>
     
-    2.  <span data-ttu-id="064f0-108">Добавьте основное зеркальное хранилище SQL Server.</span><span class="sxs-lookup"><span data-stu-id="064f0-108">Add the primary mirror SQL Server store.</span></span>
+    2.  <span data-ttu-id="540e6-109">Добавьте основное зеркальное хранилище SQL Server.</span><span class="sxs-lookup"><span data-stu-id="540e6-109">Add the primary mirror SQL Server store.</span></span>
     
-    3.  <span data-ttu-id="064f0-109">Включите базу данных доставки журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="064f0-109">Enable the SQL Server Log Shipping database.</span></span>
+    3.  <span data-ttu-id="540e6-110">Включите базу данных доставки журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="540e6-110">Enable the SQL Server Log Shipping database.</span></span>
     
-    4.  <span data-ttu-id="064f0-110">Добавьте дополнительное хранилище SQL Server для доставки журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="064f0-110">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
+    4.  <span data-ttu-id="540e6-111">Добавьте дополнительное хранилище SQL Server для доставки журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="540e6-111">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
     
-    5.  <span data-ttu-id="064f0-111">Добавьте зеркало хранилища SQL Server для базы данных получателя.</span><span class="sxs-lookup"><span data-stu-id="064f0-111">Add the SQL Server store mirror for the secondary database.</span></span>
+    5.  <span data-ttu-id="540e6-112">Добавьте зеркало хранилища SQL Server для базы данных получателя.</span><span class="sxs-lookup"><span data-stu-id="540e6-112">Add the SQL Server store mirror for the secondary database.</span></span>
     
-    6.  <span data-ttu-id="064f0-112">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="064f0-112">Publish the topology.</span></span>
+    6.  <span data-ttu-id="540e6-113">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="540e6-113">Publish the topology.</span></span>
 
 </div>
 

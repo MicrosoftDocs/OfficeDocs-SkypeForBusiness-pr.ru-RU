@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица Мсмкпроцессинг'
+description: 'Lync Server 2013: таблица Мсмкпроцессинг.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8de63095e8273f585ecd22a133393e864d80b93e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c52e1cf5a034282ab534c1cbff04f4035d2422e1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507066"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546935"
 ---
-# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="dea53-102">Таблица Мсмкпроцессинг в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dea53-102">MSMQProcessing table in Lync Server 2013</span></span>
+# <a name="msmqprocessing-table-in-lync-server-2013"></a><span data-ttu-id="8387e-103">Таблица Мсмкпроцессинг в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8387e-103">MSMQProcessing table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48507066"
 
 <span> </span>
 
-<span data-ttu-id="dea53-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="dea53-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="8387e-104">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="8387e-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="dea53-104">Таблица MSMQProcessing предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="dea53-104">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="dea53-105">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dea53-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="8387e-105">Таблица MSMQProcessing предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="8387e-105">The MSMQProcessing table is for internal use only.</span></span> <span data-ttu-id="8387e-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8387e-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

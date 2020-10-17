@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка существующего центрального сервера управления'
+description: 'Lync Server 2013: Настройка существующего центрального сервера управления.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bfcd872f765e4a2ee69b09c4f1328125bc581d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef93281be2537ca5e4a5892a8617500ce54f3c45
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523006"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546715"
 ---
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="d0aa4-102">Настройка существующего центрального сервера управления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0aa4-102">Configure an existing Central Management Server in Lync Server 2013</span></span>
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="2cbee-103">Настройка существующего центрального сервера управления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2cbee-103">Configure an existing Central Management Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48523006"
 
 <span> </span>
 
-<span data-ttu-id="d0aa4-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="d0aa4-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="2cbee-104">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="2cbee-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="d0aa4-104">Если вы повторно восиспользуете центральный сервер управления из существующего развертывания Lync Server 2013, необходимо выполнить процедуру, описанную ниже, чтобы убедиться, что панель управления Lync Server и функция Windows PowerShell правильно работают.</span><span class="sxs-lookup"><span data-stu-id="d0aa4-104">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
+<span data-ttu-id="2cbee-105">Если вы повторно восиспользуете центральный сервер управления из существующего развертывания Lync Server 2013, необходимо выполнить процедуру, описанную ниже, чтобы убедиться, что панель управления Lync Server и функция Windows PowerShell правильно работают.</span><span class="sxs-lookup"><span data-stu-id="2cbee-105">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
 
 <div>
 
-## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="d0aa4-105">Настройка существующего центрального сервера управления</span><span class="sxs-lookup"><span data-stu-id="d0aa4-105">To configure an existing Central Management Server</span></span>
+## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="2cbee-106">Настройка существующего центрального сервера управления</span><span class="sxs-lookup"><span data-stu-id="2cbee-106">To configure an existing Central Management Server</span></span>
 
-1.  <span data-ttu-id="d0aa4-106">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d0aa4-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="2cbee-107">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="2cbee-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="d0aa4-107">Используйте командлет **Update-CsAdminRole** , чтобы обновить роли управления доступом на основе РОЛЕЙ (RBAC), которые хранятся на центральном сервере управления.</span><span class="sxs-lookup"><span data-stu-id="d0aa4-107">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
+2.  <span data-ttu-id="2cbee-108">Используйте командлет **Update-CsAdminRole** , чтобы обновить роли управления доступом на основе РОЛЕЙ (RBAC), которые хранятся на центральном сервере управления.</span><span class="sxs-lookup"><span data-stu-id="2cbee-108">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="d0aa4-108">При отсутствии ошибок вывод результатов не ожидается.</span><span class="sxs-lookup"><span data-stu-id="d0aa4-108">No output is expected unless there is an error.</span></span>
+    > <span data-ttu-id="2cbee-109">При отсутствии ошибок вывод результатов не ожидается.</span><span class="sxs-lookup"><span data-stu-id="2cbee-109">No output is expected unless there is an error.</span></span>
 
     
     </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица Имрепортсуммари'
+description: 'Lync Server 2013: таблица Имрепортсуммари.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e750da3fd42a726012f089291d3e2c770e52b44
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dfafa81d1605845b29a3627321fcbc0f72ca7ac7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526636"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547745"
 ---
-# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="9dc08-102">Таблица Имрепортсуммари в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dc08-102">IMReportSummary table in Lync Server 2013</span></span>
+# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="ff632-103">Таблица Имрепортсуммари в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff632-103">IMReportSummary table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48526636"
 
 <span> </span>
 
-<span data-ttu-id="9dc08-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="9dc08-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="ff632-104">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="ff632-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="9dc08-104">В таблице IMReportSummaryTable приводится общий отчет о сеансах обмена мгновенными сообщениями, которые проводятся в организации.</span><span class="sxs-lookup"><span data-stu-id="9dc08-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="9dc08-105">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9dc08-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="ff632-105">В таблице IMReportSummaryTable приводится общий отчет о сеансах обмена мгновенными сообщениями, которые проводятся в организации.</span><span class="sxs-lookup"><span data-stu-id="ff632-105">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="ff632-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ff632-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,48 +52,48 @@ ms.locfileid: "48526636"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9dc08-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="9dc08-106">Column</span></span></th>
-<th><span data-ttu-id="9dc08-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="9dc08-107">Data Type</span></span></th>
-<th><span data-ttu-id="9dc08-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="9dc08-108">Key/Index</span></span></th>
-<th><span data-ttu-id="9dc08-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="9dc08-109">Details</span></span></th>
+<th><span data-ttu-id="ff632-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="ff632-107">Column</span></span></th>
+<th><span data-ttu-id="ff632-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="ff632-108">Data Type</span></span></th>
+<th><span data-ttu-id="ff632-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="ff632-109">Key/Index</span></span></th>
+<th><span data-ttu-id="ff632-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="ff632-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9dc08-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-110"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-111">datetime</span><span class="sxs-lookup"><span data-stu-id="9dc08-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-112">Primary</span><span class="sxs-lookup"><span data-stu-id="9dc08-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-113">Дата и время начала сеанса обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="9dc08-113">Date and time that the instant messaging session began.</span></span></p></td>
+<td><p><span data-ttu-id="ff632-111"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-111"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-112">datetime</span><span class="sxs-lookup"><span data-stu-id="ff632-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="ff632-113">Primary</span><span class="sxs-lookup"><span data-stu-id="ff632-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="ff632-114">Дата и время начала сеанса обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="ff632-114">Date and time that the instant messaging session began.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9dc08-114"><strong>Время</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-114"><strong>TimePeriod</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-115">char (1)</span><span class="sxs-lookup"><span data-stu-id="9dc08-115">char(1)</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-116">Primary</span><span class="sxs-lookup"><span data-stu-id="9dc08-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="ff632-115"><strong>Время</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-115"><strong>TimePeriod</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-116">char (1)</span><span class="sxs-lookup"><span data-stu-id="ff632-116">char(1)</span></span></p></td>
+<td><p><span data-ttu-id="ff632-117">Primary</span><span class="sxs-lookup"><span data-stu-id="ff632-117">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9dc08-117"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-117"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-118">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="9dc08-118">nvarchar(257)</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-119">Primary</span><span class="sxs-lookup"><span data-stu-id="9dc08-119">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-120">Полное доменное имя пула, в котором размещается сеанс.</span><span class="sxs-lookup"><span data-stu-id="9dc08-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
+<td><p><span data-ttu-id="ff632-118"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-118"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-119">nvarchar (257)</span><span class="sxs-lookup"><span data-stu-id="ff632-119">nvarchar(257)</span></span></p></td>
+<td><p><span data-ttu-id="ff632-120">Primary</span><span class="sxs-lookup"><span data-stu-id="ff632-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="ff632-121">Полное доменное имя пула, в котором размещается сеанс.</span><span class="sxs-lookup"><span data-stu-id="ff632-121">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9dc08-121"><strong>аустипе</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-121"><strong>AuthType</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-122">int</span><span class="sxs-lookup"><span data-stu-id="9dc08-122">int</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-123">Primary</span><span class="sxs-lookup"><span data-stu-id="9dc08-123">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9dc08-124">Приоритет звонка (например, срочный или несрочный).</span><span class="sxs-lookup"><span data-stu-id="9dc08-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="9dc08-125">Сведения о приоритетах хранятся в <a href="lync-server-2013-callpriorities-table.md">таблице таблица callpriorities в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="9dc08-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="ff632-122"><strong>аустипе</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-122"><strong>AuthType</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-123">int</span><span class="sxs-lookup"><span data-stu-id="ff632-123">int</span></span></p></td>
+<td><p><span data-ttu-id="ff632-124">Primary</span><span class="sxs-lookup"><span data-stu-id="ff632-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="ff632-125">Приоритет звонка (например, срочный или несрочный).</span><span class="sxs-lookup"><span data-stu-id="ff632-125">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="ff632-126">Сведения о приоритетах хранятся в <a href="lync-server-2013-callpriorities-table.md">таблице таблица callpriorities в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ff632-126">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9dc08-126"><strong>сессионкаунт</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-126"><strong>SessionCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-127">типу</span><span class="sxs-lookup"><span data-stu-id="9dc08-127">bigint</span></span></p></td>
+<td><p><span data-ttu-id="ff632-127"><strong>сессионкаунт</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-127"><strong>SessionCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-128">типу</span><span class="sxs-lookup"><span data-stu-id="ff632-128">bigint</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9dc08-128"><strong>мсгкаунт</strong></span><span class="sxs-lookup"><span data-stu-id="9dc08-128"><strong>MsgCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="9dc08-129">типу</span><span class="sxs-lookup"><span data-stu-id="9dc08-129">bigint</span></span></p></td>
+<td><p><span data-ttu-id="ff632-129"><strong>мсгкаунт</strong></span><span class="sxs-lookup"><span data-stu-id="ff632-129"><strong>MsgCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="ff632-130">типу</span><span class="sxs-lookup"><span data-stu-id="ff632-130">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="9dc08-130">Общее число мгновенных сообщений, отправленных в рамках сеанса.</span><span class="sxs-lookup"><span data-stu-id="9dc08-130">Total number of instant messages exchanged during the session.</span></span></p></td>
+<td><p><span data-ttu-id="ff632-131">Общее число мгновенных сообщений, отправленных в рамках сеанса.</span><span class="sxs-lookup"><span data-stu-id="ff632-131">Total number of instant messages exchanged during the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
