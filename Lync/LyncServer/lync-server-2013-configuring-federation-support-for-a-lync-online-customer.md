@@ -12,20 +12,22 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cffed0c856577a60a9782850006b82f2c9d45374
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbb7421f204ded840dc627354b0d66627840c594
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202925"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517536"
 ---
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Настройка поддержки федерации для клиента Lync Online в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Настройка поддержки федерации для клиента Lync Online в Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 
 > [!NOTE]  
-> В этой документации описываются только процедуры настройки организации для поддержки Федерации с клиентом Lync Online 2010. В этой документации не описываются процедуры настройки клиента Lync Online 2010 для поддержки Федерации. Подробнее о службах Lync Online можно узнать в статье Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>Online по адресу.
+> В этой документации описываются только процедуры настройки организации для поддержки Федерации с клиентом Lync Online 2010. В этой документации не описываются процедуры настройки клиента Lync Online 2010 для поддержки Федерации. Подробнее о службах Lync Online можно узнать в статье Lync Online по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A> .
 
 
 

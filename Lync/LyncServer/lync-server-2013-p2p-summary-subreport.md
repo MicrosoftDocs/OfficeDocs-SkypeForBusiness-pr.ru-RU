@@ -12,20 +12,22 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345a659d3edfe8542391719ed4b90717b45a3c35
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee8b2b914779cf8fde4f1e3a58d827dd355d28e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515996"
 ---
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Сводный сводный отчет P2P в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Сводный сводный отчет P2P в Lync Server 2013
+
 
 </div>
 
@@ -62,12 +64,12 @@ _**Последнее изменение темы:** 2012-10-21_
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Начальные дата и время временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 13:00.</p>
 <p>Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</p>
 <p>7/7/2012</p>
 <p>Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</p>
 <p>7/3/2012</p>
-<p>Неделя всегда начинается с воскресенья и заканчивается субботой.</p></td>
+<p>Неделя всегда начинается с воскресения и заканчивается субботой.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -80,7 +82,7 @@ _**Последнее изменение темы:** 2012-10-21_
 <p>Неделя всегда начинается с воскресения и заканчивается субботой.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>Полное доменное имя пула Регистраторов или пограничного сервера. Вы можете выбрать отдельный пул или щелкнуть элемент <strong>[All]</strong> (Все) для просмотра данных из всех пулов. Этот раскрывающийся список заполняется автоматически на основании записей в базе данных.</p></td>
 </tr>
 </tbody>
@@ -91,7 +93,7 @@ _**Последнее изменение темы:** 2012-10-21_
 
 <div>
 
-## <a name="metrics"></a>Метрик
+## <a name="metrics"></a>Метрики
 
 Следующая таблица содержит сведения, приведенные во вложенном сводном отчете по одноранговым подключениям.
 

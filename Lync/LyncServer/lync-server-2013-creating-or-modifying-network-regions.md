@@ -12,20 +12,22 @@ ms:contentKeyID: 48185266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52518c76efdb302661ed3f097cb382d399299798
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60e8a5309344a7d504cf958e29dc50a67d50ed29
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516736"
 ---
+# <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Создание или изменение областей сети в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Создание или изменение областей сети в Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните элемент **Конфигурация сети** и выберите элемент **Область**.
+3.  В левой панели навигации щелкните **Конфигурация сети** и затем щелкните **Область**.
 
 4.  На странице **Область**  щелкните **Создать**.
 

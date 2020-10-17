@@ -12,20 +12,22 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da27eed81ea63db059a23baad511471cbe31cfe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 755a53b6afc089093f5efbfd2a90699e12e66b8f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516696"
 ---
+# <a name="customizing-client-installation-in-lync-server-2013"></a>Настройка установки клиента в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-client-installation-in-lync-server-2013"></a>Настройка установки клиента в Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ _**Последнее изменение темы:** 2012-10-03_
 
   - [С помощью центра развертывания Office (OCT) в Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) вы можете настроить параметры установки и функции для Lync и других программ Office.
 
-  - [Использование файла config. XML для выполнения задач установки в Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) для указания пути к точке сетевой установки и выполнения автоматической установки.
+  - [Использование Config.xml для выполнения задач установки в Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) для указания пути к точке сетевой установки и выполнения автоматической установки.
 
-  - [Использование параметров командной строки программы установки в Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) для указания файла config. XML, который будет использоваться во время установки.
+  - [С помощью параметров командной строки программы установки в Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) укажите файл Config.xml, который будет использоваться во время установки.
 
   - [Настройка политик начальной загрузки клиентов в Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) с помощью оснастки MMC "Редактор объектов групповой политики".
 

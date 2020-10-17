@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191002"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517956"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Требования к сертификатам для доступа внешних пользователей в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Требования к сертификатам для доступа внешних пользователей в Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Последнее изменение темы:** 2016-03-29_
 
 Ниже приведены требования к общедоступным сертификатам, используемым для внешних пограничных интерфейсов доступа и веб-конференций и службы проверки подлинности A/V.
 
-  - Сертификат должен быть выпущен утвержденным общим ЦС, который поддерживает альтернативные имена субъектов. Подробные сведения можно найти в статье 929395 базы знаний Майкрософт "Партнеры сертификатов Объединенных коммуникаций для Exchange Server и Communications Server" по адресу [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+  - Сертификат должен быть выпущен утвержденным общим ЦС, который поддерживает альтернативные имена субъектов. Подробные сведения можно найти в статье 929395 базы знаний Майкрософт "Партнеры сертификатов Объединенных коммуникаций для Exchange Server и Communications Server" по адресу [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
   - Если сертификат будет использоваться для пограничного пула, он должен создаваться как экспортируемый; один и тот же сертификат должен использоваться на каждом пограничном сервере в пограничном пуле. Требование экспортируемого закрытого ключа связано с работой службы проверки подлинности A/V, которая должна использовать один и тот же закрытый ключ для всех пограничных серверов в пуле.
 

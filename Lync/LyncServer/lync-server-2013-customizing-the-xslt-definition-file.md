@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516636"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Настройка файла определения XSLT в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Настройка файла определения XSLT в Lync Server 2013
+
 
 </div>
 
@@ -107,17 +109,17 @@ _**Последнее изменение темы:** 2014-09-11_
 <tr class="odd">
 <td><p>Тип</p></td>
 <td><p>Указывает тип сообщения. Типы сообщений описаны в таблице типов сообщений элемента Message.</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 </tr>
 <tr class="even">
-<td><p>Контентная</p></td>
+<td><p>Контент</p></td>
 <td><p>Представляет собой содержимое сообщения. Для сообщений с типом Join или Part этот атрибут не используется.</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 </tr>
 <tr class="odd">
 <td><p>ID</p></td>
 <td><p>Указывает уникальный идентификатор содержимого. Этот атрибут используется только с сообщениями, имеющими тип Chat.</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 </tr>
 </tbody>
 </table>
@@ -144,27 +146,27 @@ _**Последнее изменение темы:** 2014-09-11_
 <tr class="odd">
 <td><p>Имя пользователя</p></td>
 <td><p>Имя отправителя.</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 </tr>
 <tr class="even">
 <td><p>ID</p></td>
 <td><p>Уникальный идентификатор отправителя.</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 </tr>
 <tr class="odd">
-<td><p>Электронная почта</p></td>
+<td><p>Электронный адрес</p></td>
 <td><p>Адрес электронной почты отправителя.</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 </tr>
 <tr class="even">
 <td><p>Внутренний</p></td>
 <td><p>Определяет, является ли пользователь внутренним или федеративным. Если задано значение true, пользователь является внутренним.</p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 </tr>
 <tr class="odd">
 <td><p>Uri</p></td>
 <td><p>Пользовательский URI для SIP.</p></td>
-<td><p>Обязательна</p></td>
+<td><p>Обязательный</p></td>
 </tr>
 </tbody>
 </table>

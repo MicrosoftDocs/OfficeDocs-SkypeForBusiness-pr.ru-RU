@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516136"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Функции и возможности мобильной работы в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Функции и возможности мобильной работы в Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2013-02-19_
 
 </div>
 
-Пользователи Apple iPad имеют доступ к расширенным возможностям. После присоединения к собранию с помощью голосового звонка пользователь iPad сможет просматривать загруженные презентации Microsoft PowerPoint в собрании, совместно использовать приложения и настольные компьютеры, просматривать список участников собрания и получать уведомления о других типах контента. для совместного использования в собрании.
+Пользователи Apple iPad имеют доступ к расширенным возможностям. После присоединения к собранию с помощью голосового звонка пользователь iPad сможет просматривать загруженные презентации Microsoft PowerPoint в собрании, совместно использовать приложения и настольные компьютеры, просматривать список участников собрания и получать уведомления о других типах контента, к которым предоставлен общий доступ в собрании.
 
 <div>
 
@@ -99,7 +101,7 @@ _**Последнее изменение темы:** 2013-02-19_
 
 
 > [!NOTE]  
-> Не все функции работают одинаково на всех мобильных устройствах. Для получения дополнительных сведений о функциях, поддерживаемых на мобильных устройствах, обратитесь к таблицам сравнения мобильных клиентов по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>. Дополнительные сведения о поддерживаемых устройствах и операционных системах приведены в разделах, посвященных <A href="lync-server-2013-planning-for-mobile-clients.md">планированию мобильных клиентов в Lync Server 2013</A>.
+> Не все функции работают одинаково на всех мобильных устройствах. Для получения дополнительных сведений о функциях, поддерживаемых на мобильных устройствах, обратитесь к таблицам сравнения мобильных клиентов по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> . Дополнительные сведения о поддерживаемых устройствах и операционных системах приведены в разделах, посвященных <A href="lync-server-2013-planning-for-mobile-clients.md">планированию мобильных клиентов в Lync Server 2013</A>.
 
 
 

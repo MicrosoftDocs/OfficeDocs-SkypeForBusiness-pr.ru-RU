@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197802"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517496"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Настройка для push-уведомлений в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Настройка для push-уведомлений в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197802"
 
 _**Последнее изменение темы:** 2013-02-12_
 
-Push-уведомления в форме индикаторов событий, значков или предупреждений могут отправляться на мобильное устройство, даже когда мобильное приложение неактивно. Push-уведомления уведомляют пользователя о таких событиях, как новое или пропущенное приглашение к обмену мгновенными сообщениями и голосовая почта. Служба Mobility Lync Server 2013 отправляет уведомления в службу push-уведомлений Lync Server на основе облака, которая затем отправляет уведомления в службу push-уведомлений Apple (APNS) (для устройства Apple, работающего с мобильным клиентом Lync 2010) или Служба push-уведомлений Майкрософт (MPNS) (для устройства с Windows Phone, на котором работает Lync 2010 Mobile или мобильный клиент Lync 2013).
+Push-уведомления в форме индикаторов событий, значков или предупреждений могут отправляться на мобильное устройство, даже когда мобильное приложение неактивно. Push-уведомления уведомляют пользователя о таких событиях, как новое или пропущенное приглашение к обмену мгновенными сообщениями и голосовая почта. Служба Mobility Lync Server 2013 отправляет уведомления в облачную службу push-уведомлений Lync Server, которая затем отправляет уведомления в службу push-уведомлений Apple (APNS) (для устройства Apple, работающего на Lync 2010 Mobile Client) или службу push-уведомлений Майкрософт (MPNS) (для устройства с Windows Phone, на котором работает Lync 2010 Mobile или Lync 2013 Mobile Client).
 
 <div>
 
@@ -80,7 +82,7 @@ Push-уведомления в форме индикаторов событий,
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
-    Например:
+    Пример:
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     

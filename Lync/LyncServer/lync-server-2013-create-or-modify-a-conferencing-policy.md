@@ -12,20 +12,22 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522f1d1240e73775ae1f0976556b882ba00fe1d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dc01c8bed503f06806c873431ef201e03c31811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516896"
 ---
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Создание или изменение политики конференц-связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Создание или изменение политики конференц-связи в Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**Последнее изменение темы:** 2013-02-07_
 
 2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Конференция**, а затем выберите **Политика конференц-связи**.
+3.  В левой панели навигации щелкните элемент **Конференции**, а затем **Политика конференций**.
 
 4.  Нажмите кнопку **Создать**, а затем выполните одно из следующих действий:
     
@@ -154,7 +156,7 @@ _**Последнее изменение темы:** 2013-02-07_
 
 5.  В области **Изменение конфигурации собрания** измените любые параметры политики за исключением имени, которое нельзя изменить.
 
-6.  Нажмите **Фиксировать**.
+6.  Нажмите кнопку **Зафиксировать**.
 
 </div>
 

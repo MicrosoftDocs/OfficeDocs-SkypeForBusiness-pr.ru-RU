@@ -12,20 +12,22 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93985818c62b195227323f4c0f6d5030db1f16f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5bd0776468b4b5dbbca4c8d2c98f6be02491b6d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516346"
 ---
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Делегирование административного управления Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>Делегирование административного управления Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190890"
 
 _**Последнее изменение темы:** 2013-02-22_
 
-В Lync Server 2013 административные задачи делегируются пользователям с помощью новой функции управления доступом на основе ролей (RBAC). При установке Lync Server создаются некоторые роли RBAC. Эти роли соответствуют универсальным группам безопасности в доменных службах Active Directory. Например, роль RBAC CsHelpDesk соответствует группе CsHelpDesk, находящуюся в контейнере "Пользователи" в доменных службах Active Directory. Кроме того, каждая роль RBAC связана с набором командлетов Windows PowerShell для Lync Server. Эти командлеты представляют задачи, которые могут выполнять пользователи, которым назначена данная роль RBAC. Например, роли CsHelpDesk назначены командлеты Lock — CsClientPin и Унлоккксклиентпин. Это означает, что пользователи, которым назначена роль CsHelpDesk, могут блокировать и разблокировать номера ПИН-кодов пользователей. Однако роли CsHelpDesk не назначен командлет New – CsVoicePolicy. Это означает, что пользователи, которым назначена роль CsHelpDesk, не могут создавать новые политики голосовой связи.
+В Lync Server 2013 административные задачи делегируются пользователям с помощью новой функции управления доступом на основе ролей (RBAC). При установке Lync Server создаются некоторые роли RBAC. Эти роли соответствуют универсальным группам безопасности в доменных службах Active Directory. Например, роль RBAC CsHelpDesk соответствует группе CsHelpDesk, находящуюся в контейнере "Пользователи" в доменных службах Active Directory. Кроме того, каждая роль RBAC связана с набором командлетов Windows PowerShell для Lync Server. Эти командлеты представляют задачи, которые могут выполнять пользователи, которым назначена данная роль RBAC. Например, для роли CsHelpDesk были назначены командлеты Lock-CsClientPin и Унлоккксклиентпин. Это означает, что пользователи, которым назначена роль CsHelpDesk, могут блокировать и разблокировать номера ПИН-кодов пользователей. Однако роли CsHelpDesk не назначен командлет New-CsVoicePolicy. Это означает, что пользователи, которым назначена роль CsHelpDesk, не могут создавать новые политики голосовой связи.
 
 <div>
 

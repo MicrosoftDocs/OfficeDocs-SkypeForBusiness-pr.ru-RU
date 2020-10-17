@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190912"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516312"
 ---
+# <a name="delegation-in-lync-server-2013"></a>Делегирование в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Делегирование в Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190912"
 
 _**Последнее изменение темы:** 2013-03-09_
 
-Возможности делегирования в Lync зависят от маршрутизации на основе расположения следующим образом:
+На возможности делегирования в Lync влияют Location-Based маршрутизацию следующим образом:
 
-  - Когда представитель, включенный для маршрутизации на основе расположения, помещает вызов от имени руководителя, политика голосовой связи представителя используется для авторизации звонка, а политика маршрутизации голосовых вызовов на сайте представителя будет использоваться для маршрутизации вызова.
+  - Когда представитель, включенный для маршрутизации Location-Based, помещает вызов от имени руководителя, политика голосовой связи представителя используется для авторизации звонка, а политика маршрутизации голосовой связи на сайте представителя будет использоваться для маршрутизации вызова.
 
   - Для входящих звонков по PSTN в директоре применяются те же правила, что и для переадресации звонков или одновременного звонка, как описано в разделах "передача и переадресация вызовов и одновременный Звонок".
 
@@ -52,7 +54,7 @@ _**Последнее изменение темы:** 2013-03-09_
 ## <a name="see-also"></a>См. также
 
 
-[Сценарии маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Сценарии для маршрутизации Location-Based в Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

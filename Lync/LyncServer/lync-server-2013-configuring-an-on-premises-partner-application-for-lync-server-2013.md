@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517586"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Настройка локального приложения партнера для Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Настройка локального приложения партнера для Microsoft Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ _**Последнее изменение темы:** 2013-02-04_
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-После копирования кода сохраните скрипт с помощью. Расширение файла PS1 (например, C:\\Scripts\\сервертосервераус. ps1). Обратите внимание, что перед выполнением этого сценария необходимо заменить URL-адреса https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 метаданных http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx и URL-адреса метаданных, используемые серверами Exchange 2013 и SharePoint соответственно. Сведения о том, как определить URL-адрес метаданных соответствующего продукта, можно найти в документации по продукту Exchange 2013 и SharePoint.
+После копирования кода сохраните скрипт с помощью. Расширение файла PS1 (например, C: \\ scripts \\ServerToServerAuth.ps1). Обратите внимание, что перед выполнением этого сценария необходимо заменить URL-адреса метаданных https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 и http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx URL-адреса метаданных, используемые серверами Exchange 2013 и SharePoint соответственно. Сведения о том, как определить URL-адрес метаданных соответствующего продукта, можно найти в документации по продукту Exchange 2013 и SharePoint.
 
 Если посмотреть на последнюю строку скрипта, можно заметить, что командлет Set-CsOAuthConfiguration вызывается помощью следующего синтаксиса:
 
@@ -107,7 +109,7 @@ _**Последнее изменение темы:** 2013-02-04_
 
 Это сообщение об ошибке обычно означает одно из двух: 1) один из URL-адресов, указанных в скрипте, недействительный (то есть один из URL-адресов метаданных не является фактическим URL-адресом метаданных); 2) не удалось связаться с одним из URL-адресов метаданных. В этом случае убедитесь, что заданы правильные и доступные URL-адреса, и повторно выполните скрипт.
 
-После создания партнерского приложения для Lync Server 2013 необходимо настроить Lync Server в качестве партнерского приложения для Exchange 2013. Вы можете настроить партнерские приложения для Exchange 2013, выполнив скрипт сценарий configure-enterprisepartnerapplication. ps1; все, что вам нужно сделать, — указать URL-адрес метаданных для Lync Server и указать, что Lync Server является новым партнерским приложением.
+После создания партнерского приложения для Lync Server 2013 необходимо настроить Lync Server в качестве партнерского приложения для Exchange 2013. Вы можете настроить партнерские приложения для Exchange 2013, выполнив Configure-EnterprisePartnerApplication.ps1 сценариев; все, что вам нужно сделать, — указать URL-адрес метаданных для Lync Server и указать, что Lync Server является новым партнерским приложением.
 
 Чтобы настроить Lync Server в качестве партнерского приложения для Exchange, откройте командную консоль Exchange и выполните команду, подобную следующей.
 

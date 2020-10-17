@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187392"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516506"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Поддержка программного обеспечения баз данных в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Поддержка программного обеспечения баз данных в Lync Server 2013
+
 
 </div>
 
@@ -120,7 +122,7 @@ Lync Server 2013 поддерживает как зеркальное отобр
 
 Для получения дополнительных сведений о зеркальном отображении SQL ознакомьтесь со статьей [Высокая доступность внутреннего сервера в Lync server 2013](lync-server-2013-back-end-server-high-availability.md). Подробнее о развертывании SQL кластеризации можно узнать в статье [Настройка кластеризации SQL Server для Lync server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Дополнительные сведения и рекомендации по обеспечению отказоустойчивости кластеров в SQL Server 2012 приведены <https://technet.microsoft.com/library/hh231721.aspx>в разделе. Сведения об отказоустойчивой кластеризации в SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>см.
+Дополнительные сведения и рекомендации по обеспечению отказоустойчивости кластеров в SQL Server 2012 приведены в разделе <https://technet.microsoft.com/library/hh231721.aspx> . Сведения об отказоустойчивой кластеризации в SQL Server 2008 см <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> .
 
 </div>
 
