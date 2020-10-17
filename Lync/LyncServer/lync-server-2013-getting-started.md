@@ -12,20 +12,22 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a3850d59a8d2612eedb54b44f4f5d7f836cffdd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 260bb7a241ee746e3a1374d6fc3e661edefccc68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181222"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515366"
 ---
+# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="c19a9-102">Начало работы с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c19a9-102">Getting started with Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="294cd-102">Начало работы с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="294cd-102">Getting started with Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42181222"
 
 <span> </span>
 
-<span data-ttu-id="294cd-103">_**Последнее изменение темы:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="294cd-103">_**Topic Last Modified:** 2015-04-03_</span></span>
+<span data-ttu-id="c19a9-103">_**Последнее изменение темы:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="c19a9-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-<span data-ttu-id="294cd-104">Lync Server 2013 предоставляет множество функций для повышения эффективности совместной работы и общения в Организации.</span><span class="sxs-lookup"><span data-stu-id="294cd-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="294cd-105">Многие из этих функций являются новыми по сравнению с доступными в предыдущих версиях.</span><span class="sxs-lookup"><span data-stu-id="294cd-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="294cd-106">В темах этого раздела приведено краткое описание этих новых возможностей.</span><span class="sxs-lookup"><span data-stu-id="294cd-106">The topics in this section give a brief overview of the new capabilities.</span></span>
+<span data-ttu-id="c19a9-104">Lync Server 2013 предоставляет множество функций для повышения эффективности совместной работы и общения в Организации.</span><span class="sxs-lookup"><span data-stu-id="c19a9-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="c19a9-105">Многие из этих функций являются новыми по сравнению с доступными в предыдущих версиях.</span><span class="sxs-lookup"><span data-stu-id="c19a9-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="c19a9-106">В темах этого раздела приведено краткое описание этих новых возможностей.</span><span class="sxs-lookup"><span data-stu-id="c19a9-106">The topics in this section give a brief overview of the new capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="294cd-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="294cd-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c19a9-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="c19a9-107">In This Section</span></span>
 
-  - [<span data-ttu-id="294cd-108">Введение в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="294cd-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
+  - [<span data-ttu-id="c19a9-108">Введение в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c19a9-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
 
-  - [<span data-ttu-id="294cd-109">Новые функции в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="294cd-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
+  - [<span data-ttu-id="c19a9-109">Новые функции в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c19a9-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
 
-  - [<span data-ttu-id="294cd-110">Новые функции клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="294cd-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
+  - [<span data-ttu-id="c19a9-110">Новые функции клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c19a9-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
 
-  - [<span data-ttu-id="294cd-111">Настройка взаимодействия с клиентом с помощью Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="294cd-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [<span data-ttu-id="c19a9-111">Настройка взаимодействия с клиентом с помощью Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="c19a9-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="294cd-112">Заметки о выпуске для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="294cd-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
+  - [<span data-ttu-id="c19a9-112">Заметки о выпуске для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c19a9-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
 
 </div>
 
