@@ -12,20 +12,22 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52930a4a6f1e128630a96254e9b84d8806776c81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eb162c2f4103c8dc6a1941e3f528b9de75bb0bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512456"
 ---
+# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="563d1-102">Командлеты шлюзов PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="563d1-102">PSTN gateways cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="873ad-102">Командлеты шлюзов PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="873ad-102">PSTN gateways cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,44 +37,44 @@ ms.locfileid: "42183543"
 
 <span> </span>
 
-<span data-ttu-id="873ad-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="873ad-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="563d1-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="563d1-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="873ad-p101">Шлюзы ТСОП позволяют пользователям корпоративной голосовой связи звонить по телефону людям в сети ТСОП (телефонной сети общего пользования) и принимать от них телефонные звонки. Эти шлюзы работают как мост между сервером-посредником и сетью ТСОП.</span><span class="sxs-lookup"><span data-stu-id="873ad-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
+<span data-ttu-id="563d1-p101">Шлюзы ТСОП позволяют пользователям корпоративной голосовой связи звонить по телефону людям в сети ТСОП (телефонной сети общего пользования) и принимать от них телефонные звонки. Эти шлюзы работают как мост между сервером-посредником и сетью ТСОП.</span><span class="sxs-lookup"><span data-stu-id="563d1-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
 
 <div>
 
-## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="873ad-106">Командлеты шлюзов ТСОП</span><span class="sxs-lookup"><span data-stu-id="873ad-106">PSTN Gateways Cmdlets</span></span>
+## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="563d1-106">Командлеты шлюзов ТСОП</span><span class="sxs-lookup"><span data-stu-id="563d1-106">PSTN Gateways Cmdlets</span></span>
 
-<span data-ttu-id="873ad-107">Командлеты [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) и [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) позволяют проверить, могут ли пользователи выполнять звонки в сеть ТСОП.</span><span class="sxs-lookup"><span data-stu-id="873ad-107">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
+<span data-ttu-id="563d1-107">Командлеты [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) и [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) позволяют проверить, могут ли пользователи выполнять звонки в сеть ТСОП.</span><span class="sxs-lookup"><span data-stu-id="563d1-107">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
 
-<span data-ttu-id="873ad-108">**Шлюзы ТСОП**</span><span class="sxs-lookup"><span data-stu-id="873ad-108">**PSTN Gateways**</span></span>
+<span data-ttu-id="563d1-108">**Шлюзы ТСОП**</span><span class="sxs-lookup"><span data-stu-id="563d1-108">**PSTN Gateways**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="873ad-109">[Set — CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="873ad-109">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
+    <span data-ttu-id="563d1-109">[Set — CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="563d1-109">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="873ad-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="873ad-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
+    <span data-ttu-id="563d1-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="563d1-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="873ad-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="873ad-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
+    <span data-ttu-id="563d1-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="563d1-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="873ad-112">[Set — CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="873ad-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
+    <span data-ttu-id="563d1-112">[Set — CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="563d1-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="873ad-113">См. также</span><span class="sxs-lookup"><span data-stu-id="873ad-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="563d1-113">См. также</span><span class="sxs-lookup"><span data-stu-id="563d1-113">See Also</span></span>
 
 
-[<span data-ttu-id="873ad-114">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="873ad-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="563d1-114">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="563d1-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

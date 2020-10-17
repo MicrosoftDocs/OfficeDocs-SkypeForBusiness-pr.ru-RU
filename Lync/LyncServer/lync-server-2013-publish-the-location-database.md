@@ -12,20 +12,22 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b773e5332ba05d20da9ece0b7ecb521d664e3b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 481a8406eeeec6fce25c19336519c4a9bf19da82
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512376"
 ---
+# <a name="publish-the-location-database-from-lync-server-2013"></a><span data-ttu-id="2aead-102">Публикация базы данных местоположений из Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2aead-102">Publish the location database from Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-location-database-from-lync-server-2013"></a><span data-ttu-id="44623-102">Публикация базы данных местоположений из Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44623-102">Publish the location database from Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42201675"
 
 <span> </span>
 
-<span data-ttu-id="44623-103">_**Последнее изменение темы:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="44623-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="2aead-103">_**Последнее изменение темы:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="2aead-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="44623-104">Новые расположения, добавленные вами в базу данных местоположений, останутся недоступны клиенту, пока не будут опубликованы.</span><span class="sxs-lookup"><span data-stu-id="44623-104">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
+<span data-ttu-id="2aead-104">Новые расположения, добавленные вами в базу данных местоположений, останутся недоступны клиенту, пока не будут опубликованы.</span><span class="sxs-lookup"><span data-stu-id="2aead-104">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
 
-<span data-ttu-id="44623-105">Для получения дополнительных сведений обратитесь к документации по командной консоли Lync Server для следующего командлета:</span><span class="sxs-lookup"><span data-stu-id="44623-105">For details, see the Lync Server Management Shell documentation for the following cmdlet:</span></span>
+<span data-ttu-id="2aead-105">Для получения дополнительных сведений обратитесь к документации по командной консоли Lync Server для следующего командлета:</span><span class="sxs-lookup"><span data-stu-id="2aead-105">For details, see the Lync Server Management Shell documentation for the following cmdlet:</span></span>
 
-  - <span data-ttu-id="44623-106">**Publish — CsLisConfiguration**</span><span class="sxs-lookup"><span data-stu-id="44623-106">**Publish-CsLisConfiguration**</span></span>
+  - <span data-ttu-id="2aead-106">**Publish — CsLisConfiguration**</span><span class="sxs-lookup"><span data-stu-id="2aead-106">**Publish-CsLisConfiguration**</span></span>
 
-<span data-ttu-id="44623-107">Если вы используете шлюзы Emergency Location Identification Number (ELIN), необходимо также загрузить номера ELIN в базу данных Automatic Location Identification (ALI) сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="44623-107">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="44623-108">Оператор PSTN может потребовать использования определенного формата для записей ELIN.</span><span class="sxs-lookup"><span data-stu-id="44623-108">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="44623-109">Обратитесь к оператору PSTN для получения более подробных сведений.</span><span class="sxs-lookup"><span data-stu-id="44623-109">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="44623-110">Вы можете экспортировать записи из базы данных службы сведений о расположении и отформатировать их по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="44623-110">You can export the records from the Location Information service database and format them as required.</span></span>
+<span data-ttu-id="2aead-107">Если вы используете шлюзы Emergency Location Identification Number (ELIN), необходимо также загрузить номера ELIN в базу данных Automatic Location Identification (ALI) сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="2aead-107">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="2aead-108">Оператор PSTN может потребовать использования определенного формата для записей ELIN.</span><span class="sxs-lookup"><span data-stu-id="2aead-108">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="2aead-109">Обратитесь к оператору PSTN для получения более подробных сведений.</span><span class="sxs-lookup"><span data-stu-id="2aead-109">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="2aead-110">Вы можете экспортировать записи из базы данных службы сведений о расположении и отформатировать их по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="2aead-110">You can export the records from the Location Information service database and format them as required.</span></span>
 
 <div>
 
-## <a name="to-publish-the-location-database"></a><span data-ttu-id="44623-111">Публикация базы данных местоположений</span><span class="sxs-lookup"><span data-stu-id="44623-111">To publish the location database</span></span>
+## <a name="to-publish-the-location-database"></a><span data-ttu-id="2aead-111">Публикация базы данных местоположений</span><span class="sxs-lookup"><span data-stu-id="2aead-111">To publish the location database</span></span>
 
-  - <span data-ttu-id="44623-112">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="44623-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+  - <span data-ttu-id="2aead-112">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="2aead-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-  - <span data-ttu-id="44623-113">Чтобы опубликовать базу данных местоположений, выполните следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="44623-113">Run the following cmdlet to publish the location database.</span></span>
+  - <span data-ttu-id="2aead-113">Чтобы опубликовать базу данных местоположений, выполните следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="2aead-113">Run the following cmdlet to publish the location database.</span></span>
     
         Publish-CsLisConfiguration
 

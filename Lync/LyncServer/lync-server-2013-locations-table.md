@@ -12,20 +12,22 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d93300acda297a026af03070680825899a608d86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 948581815b6e38fd08b47a95ea7176a694879e96
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186412"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513786"
 ---
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="05de8-102">Таблица Locations в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05de8-102">Locations table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="6ac41-102">Таблица Locations в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ac41-102">Locations table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42186412"
 
 <span> </span>
 
-<span data-ttu-id="6ac41-103">_**Последнее изменение темы:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="6ac41-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="05de8-103">_**Последнее изменение темы:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="05de8-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="6ac41-104">Каждая запись представляет одну ссылку на расположение в экстренном звонке, например звонке E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="6ac41-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="05de8-104">Каждая запись представляет одну ссылку на расположение в экстренном звонке, например звонке E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="05de8-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -49,30 +51,30 @@ ms.locfileid: "42186412"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6ac41-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="6ac41-105">Column</span></span></th>
-<th><span data-ttu-id="6ac41-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="6ac41-106">Data Type</span></span></th>
-<th><span data-ttu-id="6ac41-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="6ac41-107">Key/Index</span></span></th>
-<th><span data-ttu-id="6ac41-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="6ac41-108">Details</span></span></th>
+<th><span data-ttu-id="05de8-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="05de8-105">Column</span></span></th>
+<th><span data-ttu-id="05de8-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="05de8-106">Data Type</span></span></th>
+<th><span data-ttu-id="05de8-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="05de8-107">Key/Index</span></span></th>
+<th><span data-ttu-id="05de8-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="05de8-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6ac41-109"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="6ac41-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ac41-110">datetime</span><span class="sxs-lookup"><span data-stu-id="6ac41-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="6ac41-111">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="6ac41-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="6ac41-112">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="6ac41-112">Time of session request.</span></span> <span data-ttu-id="6ac41-113">В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="6ac41-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="6ac41-114">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="6ac41-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="05de8-109"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="05de8-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="05de8-110">datetime</span><span class="sxs-lookup"><span data-stu-id="05de8-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="05de8-111">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="05de8-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="05de8-112">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="05de8-112">Time of session request.</span></span> <span data-ttu-id="05de8-113">В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="05de8-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="05de8-114">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="05de8-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6ac41-115"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="6ac41-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ac41-116">int</span><span class="sxs-lookup"><span data-stu-id="6ac41-116">int</span></span></p></td>
-<td><p><span data-ttu-id="6ac41-117">Первичный, внешний</span><span class="sxs-lookup"><span data-stu-id="6ac41-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="6ac41-118">Идентификатор для идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="6ac41-118">ID number to identify the session.</span></span> <span data-ttu-id="6ac41-119">В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="6ac41-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="6ac41-120">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="6ac41-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="05de8-115"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="05de8-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="05de8-116">int</span><span class="sxs-lookup"><span data-stu-id="05de8-116">int</span></span></p></td>
+<td><p><span data-ttu-id="05de8-117">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="05de8-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="05de8-118">Идентификатор для идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="05de8-118">ID number to identify the session.</span></span> <span data-ttu-id="05de8-119">В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="05de8-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="05de8-120">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="05de8-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6ac41-121"><strong>Location</strong></span><span class="sxs-lookup"><span data-stu-id="6ac41-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ac41-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="6ac41-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="05de8-121"><strong>Location</strong></span><span class="sxs-lookup"><span data-stu-id="05de8-121"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="05de8-122">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="05de8-122">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6ac41-123">Расположение экстренного звонка.</span><span class="sxs-lookup"><span data-stu-id="6ac41-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="05de8-123">Расположение экстренного звонка.</span><span class="sxs-lookup"><span data-stu-id="05de8-123">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

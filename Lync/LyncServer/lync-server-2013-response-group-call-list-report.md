@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511766"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a><span data-ttu-id="5f515-102">Отчет по списку звонков группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f515-102">Response Group Call List Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a><span data-ttu-id="d3a44-102">Отчет по списку звонков группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d3a44-102">Response Group Call List Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,64 +37,64 @@ ms.locfileid: "42214895"
 
 <span> </span>
 
-<span data-ttu-id="d3a44-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="d3a44-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="5f515-103">_**Последнее изменение темы:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="5f515-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="d3a44-104">Приложение группы ответа позволяет Microsoft Lync Server 2013 отвечать на звонки и направлять их на основе номера телефона, который был набран, и (необязательно) в ответах вызывающего абонента на ряд вопросов.</span><span class="sxs-lookup"><span data-stu-id="d3a44-104">The Response Group application provides a way for Microsoft Lync Server 2013 to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions.</span></span> <span data-ttu-id="d3a44-105">Как правило, звонки групп ответа не направляются отдельному человеку, но вместо этого направляются группе людей, которые называются группами агентов.</span><span class="sxs-lookup"><span data-stu-id="d3a44-105">Typically, Response Group calls are not routed to an individual person but, instead, are routed to a team of people referred to as an agent group.</span></span> <span data-ttu-id="d3a44-106">Например, если кто-то звонит по номеру телефона в службу поддержки, Lync Server 2013 может автоматически перенаправлять этот вызов в первый доступный агент службы поддержки.</span><span class="sxs-lookup"><span data-stu-id="d3a44-106">For example, if someone calls the phone number for your help desk, Lync Server 2013 can automatically route that call to the first available help desk agent.</span></span> <span data-ttu-id="d3a44-107">Кроме того, Lync Server может задать ряд вопросов ("нажмите 1, если у вас возникнут проблемы с оборудованием.</span><span class="sxs-lookup"><span data-stu-id="d3a44-107">Alternatively, Lync Server could ask a series of questions ("Press 1 if you are having hardware problems.</span></span> <span data-ttu-id="d3a44-108">Если у вас возникли проблемы с программным обеспечением, нажмите 2.</span><span class="sxs-lookup"><span data-stu-id="d3a44-108">Press 2 if you are having software problems.</span></span> <span data-ttu-id="d3a44-109">Если у вас возникли проблемы с сетью, нажмите 3. " а затем направлять вызов в наиболее подходящий агент службы поддержки на основе ответа на эти вопросы.</span><span class="sxs-lookup"><span data-stu-id="d3a44-109">Press 3 if you are having network problems.") and then route the call to the most appropriate help desk agent based on the answer to those questions.</span></span>
+<span data-ttu-id="5f515-104">Приложение группы ответа позволяет Microsoft Lync Server 2013 отвечать на звонки и направлять их на основе номера телефона, который был набран, и (необязательно) в ответах вызывающего абонента на ряд вопросов.</span><span class="sxs-lookup"><span data-stu-id="5f515-104">The Response Group application provides a way for Microsoft Lync Server 2013 to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions.</span></span> <span data-ttu-id="5f515-105">Как правило, звонки групп ответа не направляются отдельному человеку, но вместо этого направляются группе людей, которые называются группами агентов.</span><span class="sxs-lookup"><span data-stu-id="5f515-105">Typically, Response Group calls are not routed to an individual person but, instead, are routed to a team of people referred to as an agent group.</span></span> <span data-ttu-id="5f515-106">Например, если кто-то звонит по номеру телефона в службу поддержки, Lync Server 2013 может автоматически перенаправлять этот вызов в первый доступный агент службы поддержки.</span><span class="sxs-lookup"><span data-stu-id="5f515-106">For example, if someone calls the phone number for your help desk, Lync Server 2013 can automatically route that call to the first available help desk agent.</span></span> <span data-ttu-id="5f515-107">Кроме того, Lync Server может задать ряд вопросов ("нажмите 1, если у вас возникнут проблемы с оборудованием.</span><span class="sxs-lookup"><span data-stu-id="5f515-107">Alternatively, Lync Server could ask a series of questions ("Press 1 if you are having hardware problems.</span></span> <span data-ttu-id="5f515-108">Если у вас возникли проблемы с программным обеспечением, нажмите 2.</span><span class="sxs-lookup"><span data-stu-id="5f515-108">Press 2 if you are having software problems.</span></span> <span data-ttu-id="5f515-109">Если у вас возникли проблемы с сетью, нажмите 3. " а затем направлять вызов в наиболее подходящий агент службы поддержки на основе ответа на эти вопросы.</span><span class="sxs-lookup"><span data-stu-id="5f515-109">Press 3 if you are having network problems.") and then route the call to the most appropriate help desk agent based on the answer to those questions.</span></span>
 
-<span data-ttu-id="d3a44-p102">Отчет Response Group Call List (Список звонков группы ответа) предоставляет список звонков, совершенных за указанный период времени, а также сведения о типах звонков. Отчет Response Group Usage (Использование группы ответа), который необходимо открывать до открытия отчета Response Group Call List (Список звонков группы ответа), содержит следующие типы звонков:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p102">The Response Group Call List Report represents a collection of calls made for a specified period of time and for a specified type of call. The Response Group Usage Report (which must be opened first before you can open the Response Group Call List Report) recognizes the following call types:</span></span>
+<span data-ttu-id="5f515-p102">Отчет Response Group Call List (Список звонков группы ответа) предоставляет список звонков, совершенных за указанный период времени, а также сведения о типах звонков. Отчет Response Group Usage (Использование группы ответа), который необходимо открывать до открытия отчета Response Group Call List (Список звонков группы ответа), содержит следующие типы звонков:</span><span class="sxs-lookup"><span data-stu-id="5f515-p102">The Response Group Call List Report represents a collection of calls made for a specified period of time and for a specified type of call. The Response Group Usage Report (which must be opened first before you can open the Response Group Call List Report) recognizes the following call types:</span></span>
 
-  - <span data-ttu-id="d3a44-p103">**Received calls** (Число полученных звонков). Общее число звонков, полученных всеми экземплярами приложения "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="d3a44-p103">**Received calls**. Total number of calls received by all instances of the Response Group application.</span></span>
+  - <span data-ttu-id="5f515-p103">**Received calls** (Число полученных звонков). Общее число звонков, полученных всеми экземплярами приложения "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="5f515-p103">**Received calls**. Total number of calls received by all instances of the Response Group application.</span></span>
 
-  - <span data-ttu-id="d3a44-114">**Успешные звонки**.</span><span class="sxs-lookup"><span data-stu-id="d3a44-114">**Successful calls**.</span></span> <span data-ttu-id="d3a44-115">Общее количество звонков, которые были выбраны приложением группы ответа.</span><span class="sxs-lookup"><span data-stu-id="d3a44-115">Total number of calls that were picked up by the Response Group application.</span></span>
+  - <span data-ttu-id="5f515-114">**Успешные звонки**.</span><span class="sxs-lookup"><span data-stu-id="5f515-114">**Successful calls**.</span></span> <span data-ttu-id="5f515-115">Общее количество звонков, которые были выбраны приложением группы ответа.</span><span class="sxs-lookup"><span data-stu-id="5f515-115">Total number of calls that were picked up by the Response Group application.</span></span>
 
-  - <span data-ttu-id="d3a44-p105">**Предложенные звонки**. Общее количество звонков, переданных агенту группы ответа.</span><span class="sxs-lookup"><span data-stu-id="d3a44-p105">**Offered calls**. Total number of calls that were transferred to a Response Group agent.</span></span>
+  - <span data-ttu-id="5f515-p105">**Предложенные звонки**. Общее количество звонков, переданных агенту группы ответа.</span><span class="sxs-lookup"><span data-stu-id="5f515-p105">**Offered calls**. Total number of calls that were transferred to a Response Group agent.</span></span>
 
-  - <span data-ttu-id="d3a44-p106">**Отвеченные звонки**. Общее количество звонков, на которые фактически ответил агент группы ответа.</span><span class="sxs-lookup"><span data-stu-id="d3a44-p106">**Answered calls**. Total number of calls that were actually answered by a Response Group agent.</span></span>
+  - <span data-ttu-id="5f515-p106">**Отвеченные звонки**. Общее количество звонков, на которые фактически ответил агент группы ответа.</span><span class="sxs-lookup"><span data-stu-id="5f515-p106">**Answered calls**. Total number of calls that were actually answered by a Response Group agent.</span></span>
 
-  - <span data-ttu-id="d3a44-120">Процент отклоненных звонков.</span><span class="sxs-lookup"><span data-stu-id="d3a44-120">Percentage of abandoned calls.</span></span> <span data-ttu-id="d3a44-121">Процент звонков, которые были приняты приложением группы ответа, но на которые не ответил агент.</span><span class="sxs-lookup"><span data-stu-id="d3a44-121">Percentage of calls that were received by the Response Group application but were never answered by an agent.</span></span> <span data-ttu-id="d3a44-122">Это значение вычисляется вычитанием числа отвеченных вызовов из количества принятых вызовов и последующим делением результата на число принятых вызовов.</span><span class="sxs-lookup"><span data-stu-id="d3a44-122">This value is calculated by subtracting the Answered calls from the Received calls, and then dividing that value by the number of Received calls.</span></span> <span data-ttu-id="d3a44-123">Например, если вы получили 10 вызовов, на 7 из которых был получен ответ, 7 вычитается из 10, что дает 3 неотвеченных вызовов.</span><span class="sxs-lookup"><span data-stu-id="d3a44-123">For example, if you received 10 calls and 7 were answered, you would subtract 7 from 10, leaving 3 unanswered calls.</span></span> <span data-ttu-id="d3a44-124">Это значение затем делится на 10, что дает процент звонков, оставшихся без ответа, равный 30%.</span><span class="sxs-lookup"><span data-stu-id="d3a44-124">That value would then be divided by 10, giving you an abandoned call percentage of 30%.</span></span>
+  - <span data-ttu-id="5f515-120">Процент отклоненных звонков.</span><span class="sxs-lookup"><span data-stu-id="5f515-120">Percentage of abandoned calls.</span></span> <span data-ttu-id="5f515-121">Процент звонков, которые были приняты приложением группы ответа, но на которые не ответил агент.</span><span class="sxs-lookup"><span data-stu-id="5f515-121">Percentage of calls that were received by the Response Group application but were never answered by an agent.</span></span> <span data-ttu-id="5f515-122">Это значение вычисляется вычитанием числа отвеченных вызовов из количества принятых вызовов и последующим делением результата на число принятых вызовов.</span><span class="sxs-lookup"><span data-stu-id="5f515-122">This value is calculated by subtracting the Answered calls from the Received calls, and then dividing that value by the number of Received calls.</span></span> <span data-ttu-id="5f515-123">Например, если вы получили 10 вызовов, на 7 из которых был получен ответ, 7 вычитается из 10, что дает 3 неотвеченных вызовов.</span><span class="sxs-lookup"><span data-stu-id="5f515-123">For example, if you received 10 calls and 7 were answered, you would subtract 7 from 10, leaving 3 unanswered calls.</span></span> <span data-ttu-id="5f515-124">Это значение затем делится на 10, что дает процент звонков, оставшихся без ответа, равный 30%.</span><span class="sxs-lookup"><span data-stu-id="5f515-124">That value would then be divided by 10, giving you an abandoned call percentage of 30%.</span></span>
 
-  - <span data-ttu-id="d3a44-p108">**Transferred calls** (Число переведенных звонков). Общее число звонков для приложения "Группа ответа", которые были переведены из-за превышения времени ожидания очереди или переполнения очереди.</span><span class="sxs-lookup"><span data-stu-id="d3a44-p108">**Transferred calls**. Total number of Response Group calls that were transferred because of a queue timeout or queue overflow.</span></span>
+  - <span data-ttu-id="5f515-p108">**Transferred calls** (Число переведенных звонков). Общее число звонков для приложения "Группа ответа", которые были переведены из-за превышения времени ожидания очереди или переполнения очереди.</span><span class="sxs-lookup"><span data-stu-id="5f515-p108">**Transferred calls**. Total number of Response Group calls that were transferred because of a queue timeout or queue overflow.</span></span>
 
 <div>
 
-## <a name="accessing-the-response-group-call-list-report"></a><span data-ttu-id="d3a44-127">Доступ к отчету Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="d3a44-127">Accessing the Response Group Call List Report</span></span>
+## <a name="accessing-the-response-group-call-list-report"></a><span data-ttu-id="5f515-127">Доступ к отчету Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="5f515-127">Accessing the Response Group Call List Report</span></span>
 
-<span data-ttu-id="d3a44-128">Чтобы получить доступ к отчету о списке звонков группы ответа, щелкните одну из указанных ниже метрик в [отчете об использовании группы ответа в Lync Server 2013](lync-server-2013-response-group-usage-report.md):</span><span class="sxs-lookup"><span data-stu-id="d3a44-128">The Response Group Call List Report can only be accessed by clicking one of the following metrics found on the [Response Group Usage Report in Lync Server 2013](lync-server-2013-response-group-usage-report.md):</span></span>
+<span data-ttu-id="5f515-128">Чтобы получить доступ к отчету о списке звонков группы ответа, щелкните одну из указанных ниже метрик в [отчете об использовании группы ответа в Lync Server 2013](lync-server-2013-response-group-usage-report.md):</span><span class="sxs-lookup"><span data-stu-id="5f515-128">The Response Group Call List Report can only be accessed by clicking one of the following metrics found on the [Response Group Usage Report in Lync Server 2013](lync-server-2013-response-group-usage-report.md):</span></span>
 
-  - <span data-ttu-id="d3a44-129">Принятые вызовы</span><span class="sxs-lookup"><span data-stu-id="d3a44-129">Received calls</span></span>
+  - <span data-ttu-id="5f515-129">Принятые вызовы</span><span class="sxs-lookup"><span data-stu-id="5f515-129">Received calls</span></span>
 
-  - <span data-ttu-id="d3a44-130">Успешные вызовы</span><span class="sxs-lookup"><span data-stu-id="d3a44-130">Successful calls</span></span>
+  - <span data-ttu-id="5f515-130">Успешные вызовы</span><span class="sxs-lookup"><span data-stu-id="5f515-130">Successful calls</span></span>
 
-  - <span data-ttu-id="d3a44-131">Предложенные вызовы</span><span class="sxs-lookup"><span data-stu-id="d3a44-131">Offered calls</span></span>
+  - <span data-ttu-id="5f515-131">Предложенные вызовы</span><span class="sxs-lookup"><span data-stu-id="5f515-131">Offered calls</span></span>
 
-  - <span data-ttu-id="d3a44-132">Отвеченные вызовы</span><span class="sxs-lookup"><span data-stu-id="d3a44-132">Answered calls</span></span>
+  - <span data-ttu-id="5f515-132">Отвеченные вызовы</span><span class="sxs-lookup"><span data-stu-id="5f515-132">Answered calls</span></span>
 
-  - <span data-ttu-id="d3a44-133">Transferred calls (Число переведенных звонков)</span><span class="sxs-lookup"><span data-stu-id="d3a44-133">Transferred calls</span></span>
+  - <span data-ttu-id="5f515-133">Transferred calls (Число переведенных звонков)</span><span class="sxs-lookup"><span data-stu-id="5f515-133">Transferred calls</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-response-group-call-list-report"></a><span data-ttu-id="d3a44-134">Рекомендации по использованию отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="d3a44-134">Making the Best Use of the Response Group Call List Report</span></span>
+## <a name="making-the-best-use-of-the-response-group-call-list-report"></a><span data-ttu-id="5f515-134">Рекомендации по использованию отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="5f515-134">Making the Best Use of the Response Group Call List Report</span></span>
 
-<span data-ttu-id="d3a44-p109">Отчет Response Group Call List (Список звонков группы ответа) позволяет просмотреть звонки, относящиеся к определенному рабочему процессу группы ответа. Для этого необходимо ввести URI рабочего процесса (SIP-адрес рабочего процесса) в поле Workflow URI (URI рабочего процесса). Разумеется, перед выполнением вышеуказанного действия необходимо отобразить поле Workflow URI (URI рабочего процесса). Чтобы открыть параметры фильтрации данных отчета Response Group Call List (Список звонков группы ответа), нажмите кнопку Show/Hide Parameters (Показать/скрыть параметры) в левом верхнем углу окна отчета.</span><span class="sxs-lookup"><span data-stu-id="d3a44-p109">The Response Group Call List Report allows you to limit the displayed data to calls involving a particular Response Group workflow. To do that, you need to enter the workflow URI (the workflow's SIP address) in the Workflow URI box. Before you can do that, however, you must actually be able to see the Workflow URI box. To display the filtering options for the Response Group Call List Report, click the Show/Hide Parameters button in the upper left-hand portion of the report window.</span></span>
+<span data-ttu-id="5f515-p109">Отчет Response Group Call List (Список звонков группы ответа) позволяет просмотреть звонки, относящиеся к определенному рабочему процессу группы ответа. Для этого необходимо ввести URI рабочего процесса (SIP-адрес рабочего процесса) в поле Workflow URI (URI рабочего процесса). Разумеется, перед выполнением вышеуказанного действия необходимо отобразить поле Workflow URI (URI рабочего процесса). Чтобы открыть параметры фильтрации данных отчета Response Group Call List (Список звонков группы ответа), нажмите кнопку Show/Hide Parameters (Показать/скрыть параметры) в левом верхнем углу окна отчета.</span><span class="sxs-lookup"><span data-stu-id="5f515-p109">The Response Group Call List Report allows you to limit the displayed data to calls involving a particular Response Group workflow. To do that, you need to enter the workflow URI (the workflow's SIP address) in the Workflow URI box. Before you can do that, however, you must actually be able to see the Workflow URI box. To display the filtering options for the Response Group Call List Report, click the Show/Hide Parameters button in the upper left-hand portion of the report window.</span></span>
 
-<span data-ttu-id="d3a44-139">Обратите внимание, что в отчете Response Group Call List (Список звонков группы ответа) при наведении указателя мыши на показатели Response code (Код ответа) или Diagnostic ID (ИД диагностики) не отображается всплывающая подсказка.</span><span class="sxs-lookup"><span data-stu-id="d3a44-139">Note that the Response Group Call List does not display information about either the Response code or the Diagnostic ID if you hold the mouse over either of those metrics.</span></span> <span data-ttu-id="d3a44-140">Если вам нужны дополнительные сведения, вы можете отметить код ответа и/или идентификатор диагностики, а затем выполнить поиск этих значений в [отчете о самых сбоях в Lync Server 2013](lync-server-2013-top-failures-report.md).</span><span class="sxs-lookup"><span data-stu-id="d3a44-140">If you need more information, you might note the Response code and/or Diagnostic ID, and then search for those values in the [Top Failures Report in Lync Server 2013](lync-server-2013-top-failures-report.md).</span></span>
+<span data-ttu-id="5f515-139">Обратите внимание, что в отчете Response Group Call List (Список звонков группы ответа) при наведении указателя мыши на показатели Response code (Код ответа) или Diagnostic ID (ИД диагностики) не отображается всплывающая подсказка.</span><span class="sxs-lookup"><span data-stu-id="5f515-139">Note that the Response Group Call List does not display information about either the Response code or the Diagnostic ID if you hold the mouse over either of those metrics.</span></span> <span data-ttu-id="5f515-140">Если вам нужны дополнительные сведения, вы можете отметить код ответа и/или идентификатор диагностики, а затем выполнить поиск этих значений в [отчете о самых сбоях в Lync Server 2013](lync-server-2013-top-failures-report.md).</span><span class="sxs-lookup"><span data-stu-id="5f515-140">If you need more information, you might note the Response code and/or Diagnostic ID, and then search for those values in the [Top Failures Report in Lync Server 2013](lync-server-2013-top-failures-report.md).</span></span>
 
-<span data-ttu-id="d3a44-141">Чтобы узнать, какие рабочие процессы получили наибольшее число звонков, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="d3a44-141">a question like this one: "Which individual workflow received the most calls?", you can do the following:</span></span>
+<span data-ttu-id="5f515-141">Чтобы узнать, какие рабочие процессы получили наибольшее число звонков, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="5f515-141">a question like this one: "Which individual workflow received the most calls?", you can do the following:</span></span>
 
-1.  <span data-ttu-id="d3a44-p111">В отчете Response Group Usage Report (Использование группы ответа) задайте требуемый период времени и затем щелкните показатель (Число полученных звонков). Откроется отчет Response Group Call List (Список звонков группы ответа).</span><span class="sxs-lookup"><span data-stu-id="d3a44-p111">On the Response Group Usage Report, set the desired time period and then click the Received Calls metric. That will open the Response Group Call List Report.</span></span>
+1.  <span data-ttu-id="5f515-p111">В отчете Response Group Usage Report (Использование группы ответа) задайте требуемый период времени и затем щелкните показатель (Число полученных звонков). Откроется отчет Response Group Call List (Список звонков группы ответа).</span><span class="sxs-lookup"><span data-stu-id="5f515-p111">On the Response Group Usage Report, set the desired time period and then click the Received Calls metric. That will open the Response Group Call List Report.</span></span>
 
-2.  <span data-ttu-id="d3a44-p112">Экспортируйте данные отчета Response Group Call List (Список звонков группы ответа). Например, можно экспортировать данные в формат Microsoft Excel и затем с помощью Excel преобразовать данные в файл данных с разделителями-запятыми.</span><span class="sxs-lookup"><span data-stu-id="d3a44-p112">Export the data shown on the Response Group Call List Report. For example, you might export the data in Microsoft Excel format, and then use Excel to convert that data to a comma-separated values file.</span></span>
+2.  <span data-ttu-id="5f515-p112">Экспортируйте данные отчета Response Group Call List (Список звонков группы ответа). Например, можно экспортировать данные в формат Microsoft Excel и затем с помощью Excel преобразовать данные в файл данных с разделителями-запятыми.</span><span class="sxs-lookup"><span data-stu-id="5f515-p112">Export the data shown on the Response Group Call List Report. For example, you might export the data in Microsoft Excel format, and then use Excel to convert that data to a comma-separated values file.</span></span>
 
-3.  <span data-ttu-id="d3a44-146">Выполните анализ с помощью Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d3a44-146">Run your analyses using Windows PowerShell.</span></span>
+3.  <span data-ttu-id="5f515-146">Выполните анализ с помощью Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5f515-146">Run your analyses using Windows PowerShell.</span></span>
 
-<span data-ttu-id="d3a44-147">Например, если вы сохранили данные в файл с именем\\C: Data\\Response\_Group\_\_List\_, Report. csv, вы можете использовать следующую команду, чтобы возвратить общее число полученных вызовов для каждого рабочего процесса, указанного в отчете:</span><span class="sxs-lookup"><span data-stu-id="d3a44-147">For example, if you have saved the data to a file named C:\\Data\\Response\_Group\_Call\_List\_Report.csv, you can then use the following command to return the total number of received calls for each workflow listed in the report:</span></span>
+<span data-ttu-id="5f515-147">Например, если вы сохранили данные в файл с именем C: \\ \\ List Call of Response \_ Group \_ \_ \_Report.csv, вы можете использовать следующую команду, чтобы возвратить общее число полученных вызовов для каждого рабочего процесса, указанного в отчете:</span><span class="sxs-lookup"><span data-stu-id="5f515-147">For example, if you have saved the data to a file named C:\\Data\\Response\_Group\_Call\_List\_Report.csv, you can then use the following command to return the total number of received calls for each workflow listed in the report:</span></span>
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 
-<span data-ttu-id="d3a44-148">Команда вернет сведения, похожие на следующие:</span><span class="sxs-lookup"><span data-stu-id="d3a44-148">That will information similar to this:</span></span>
+<span data-ttu-id="5f515-148">Команда вернет сведения, похожие на следующие:</span><span class="sxs-lookup"><span data-stu-id="5f515-148">That will information similar to this:</span></span>
 
     Count    Name
     -----    ----
@@ -106,11 +108,11 @@ ms.locfileid: "42214895"
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="d3a44-149">Фильтры</span><span class="sxs-lookup"><span data-stu-id="d3a44-149">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="5f515-149">Фильтры</span><span class="sxs-lookup"><span data-stu-id="5f515-149">Filters</span></span>
 
-<span data-ttu-id="d3a44-p113">Фильтры позволяют получить более детализированный набор данных или изменить способ просмотра возвращаемых данных. В следующей таблице перечислены фильтры, которые можно использовать в отчете Response Group Call List (Список звонков группы ответа).</span><span class="sxs-lookup"><span data-stu-id="d3a44-p113">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Response Group Call List Report.</span></span>
+<span data-ttu-id="5f515-p113">Фильтры позволяют получить более детализированный набор данных или изменить способ просмотра возвращаемых данных. В следующей таблице перечислены фильтры, которые можно использовать в отчете Response Group Call List (Список звонков группы ответа).</span><span class="sxs-lookup"><span data-stu-id="5f515-p113">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Response Group Call List Report.</span></span>
 
-### <a name="response-group-call-list-report-filters"></a><span data-ttu-id="d3a44-152">Фильтры отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="d3a44-152">Response Group Call List Report Filters</span></span>
+### <a name="response-group-call-list-report-filters"></a><span data-ttu-id="5f515-152">Фильтры отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="5f515-152">Response Group Call List Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -119,45 +121,45 @@ ms.locfileid: "42214895"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d3a44-153">Имя</span><span class="sxs-lookup"><span data-stu-id="d3a44-153">Name</span></span></th>
-<th><span data-ttu-id="d3a44-154">Описание</span><span class="sxs-lookup"><span data-stu-id="d3a44-154">Description</span></span></th>
+<th><span data-ttu-id="5f515-153">Имя</span><span class="sxs-lookup"><span data-stu-id="5f515-153">Name</span></span></th>
+<th><span data-ttu-id="5f515-154">Описание</span><span class="sxs-lookup"><span data-stu-id="5f515-154">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d3a44-155"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-155"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-p114">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p114">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="d3a44-158">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="d3a44-158">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="d3a44-p115">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p115">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="d3a44-161">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d3a44-161">7/7/2012</span></span></p>
-<p><span data-ttu-id="d3a44-162">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="d3a44-162">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="d3a44-163">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d3a44-163">7/3/2012</span></span></p>
-<p><span data-ttu-id="d3a44-164">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="d3a44-164">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-155"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-155"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-p114">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="5f515-p114">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="5f515-158">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="5f515-158">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="5f515-p115">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="5f515-p115">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="5f515-161">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5f515-161">7/7/2012</span></span></p>
+<p><span data-ttu-id="5f515-162">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="5f515-162">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="5f515-163">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5f515-163">7/3/2012</span></span></p>
+<p><span data-ttu-id="5f515-164">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="5f515-164">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d3a44-165"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-165"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-p116">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p116">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="d3a44-168">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="d3a44-168">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="d3a44-p117">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p117">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="d3a44-171">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="d3a44-171">7/7/2012</span></span></p>
-<p><span data-ttu-id="d3a44-172">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="d3a44-172">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="d3a44-173">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="d3a44-173">7/3/2012</span></span></p>
-<p><span data-ttu-id="d3a44-174">Первым днем недели считается воскресенье, а последним — суббота.</span><span class="sxs-lookup"><span data-stu-id="d3a44-174">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-165"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-165"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-p116">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="5f515-p116">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="5f515-168">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="5f515-168">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="5f515-p117">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="5f515-p117">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="5f515-171">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5f515-171">7/7/2012</span></span></p>
+<p><span data-ttu-id="5f515-172">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="5f515-172">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="5f515-173">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5f515-173">7/3/2012</span></span></p>
+<p><span data-ttu-id="5f515-174">Первым днем недели считается воскресенье, а последним — суббота.</span><span class="sxs-lookup"><span data-stu-id="5f515-174">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d3a44-175"><strong>Workflow URI</strong> (URI рабочего процесса)</span><span class="sxs-lookup"><span data-stu-id="d3a44-175"><strong>Workflow URI</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-p118">Позволяет ограничивать возвращаемые данные до указанного рабочего процесса группы ответа. Чтобы использовать этот фильтр, введите SIP-адрес рабочего процесса. Например:</span><span class="sxs-lookup"><span data-stu-id="d3a44-p118">Enables you to limit the returned data to the specified Response Group workflow. To use this filter, enter the Workflow SIP address. For example:</span></span></p>
-<p><span data-ttu-id="d3a44-179">sip:helpdesk@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d3a44-179">sip:helpdesk@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="5f515-175"><strong>Workflow URI</strong> (URI рабочего процесса)</span><span class="sxs-lookup"><span data-stu-id="5f515-175"><strong>Workflow URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-p118">Позволяет ограничивать возвращаемые данные до указанного рабочего процесса группы ответа. Чтобы использовать этот фильтр, введите SIP-адрес рабочего процесса. Например:</span><span class="sxs-lookup"><span data-stu-id="5f515-p118">Enables you to limit the returned data to the specified Response Group workflow. To use this filter, enter the Workflow SIP address. For example:</span></span></p>
+<p><span data-ttu-id="5f515-179">sip:helpdesk@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="5f515-179">sip:helpdesk@litwareinc.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d3a44-180"><strong>Звонки</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-180"><strong>Calls</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-181">Доступны следующие типы звонков:</span><span class="sxs-lookup"><span data-stu-id="d3a44-181">You can select one of the following call types:</span></span></p>
+<td><p><span data-ttu-id="5f515-180"><strong>Звонки</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-180"><strong>Calls</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-181">Доступны следующие типы звонков:</span><span class="sxs-lookup"><span data-stu-id="5f515-181">You can select one of the following call types:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="d3a44-182">Received Calls (Полученные звонки)</span><span class="sxs-lookup"><span data-stu-id="d3a44-182">Received Calls</span></span></p></li>
-<li><p><span data-ttu-id="d3a44-183">Successful Calls (Успешные звонки)</span><span class="sxs-lookup"><span data-stu-id="d3a44-183">Successful Calls</span></span></p></li>
-<li><p><span data-ttu-id="d3a44-184">Offered Calls (Предложенные звонки)</span><span class="sxs-lookup"><span data-stu-id="d3a44-184">Offered Calls</span></span></p></li>
-<li><p><span data-ttu-id="d3a44-185">Answered Calls (Звонки с ответом)</span><span class="sxs-lookup"><span data-stu-id="d3a44-185">Answered Calls</span></span></p></li>
-<li><p><span data-ttu-id="d3a44-186">Transferred Calls (Переведенные звонки)</span><span class="sxs-lookup"><span data-stu-id="d3a44-186">Transferred Calls</span></span></p></li>
+<li><p><span data-ttu-id="5f515-182">Received Calls (Полученные звонки)</span><span class="sxs-lookup"><span data-stu-id="5f515-182">Received Calls</span></span></p></li>
+<li><p><span data-ttu-id="5f515-183">Successful Calls (Успешные звонки)</span><span class="sxs-lookup"><span data-stu-id="5f515-183">Successful Calls</span></span></p></li>
+<li><p><span data-ttu-id="5f515-184">Offered Calls (Предложенные звонки)</span><span class="sxs-lookup"><span data-stu-id="5f515-184">Offered Calls</span></span></p></li>
+<li><p><span data-ttu-id="5f515-185">Answered Calls (Звонки с ответом)</span><span class="sxs-lookup"><span data-stu-id="5f515-185">Answered Calls</span></span></p></li>
+<li><p><span data-ttu-id="5f515-186">Transferred Calls (Переведенные звонки)</span><span class="sxs-lookup"><span data-stu-id="5f515-186">Transferred Calls</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -168,11 +170,11 @@ ms.locfileid: "42214895"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="d3a44-187">Метрик</span><span class="sxs-lookup"><span data-stu-id="d3a44-187">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="5f515-187">Метрики</span><span class="sxs-lookup"><span data-stu-id="5f515-187">Metrics</span></span>
 
-<span data-ttu-id="d3a44-188">В следующей таблице приведены показатели, доступные в отчете Response Group Call List Report (Список звонков группы ответа) для каждого звонка, полученного приложением "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="d3a44-188">The following table lists the information provided in the Response Group Call List Report for each call received by the Response Group application.</span></span>
+<span data-ttu-id="5f515-188">В следующей таблице приведены показатели, доступные в отчете Response Group Call List Report (Список звонков группы ответа) для каждого звонка, полученного приложением "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="5f515-188">The following table lists the information provided in the Response Group Call List Report for each call received by the Response Group application.</span></span>
 
-### <a name="response-group-call-list-report-metrics"></a><span data-ttu-id="d3a44-189">Показатели отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="d3a44-189">Response Group Call List Report Metrics</span></span>
+### <a name="response-group-call-list-report-metrics"></a><span data-ttu-id="5f515-189">Показатели отчета Response Group Call List (Список звонков группы ответа)</span><span class="sxs-lookup"><span data-stu-id="5f515-189">Response Group Call List Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -182,41 +184,41 @@ ms.locfileid: "42214895"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d3a44-190">Имя</span><span class="sxs-lookup"><span data-stu-id="d3a44-190">Name</span></span></th>
-<th><span data-ttu-id="d3a44-191">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="d3a44-191">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="d3a44-192">Описание</span><span class="sxs-lookup"><span data-stu-id="d3a44-192">Description</span></span></th>
+<th><span data-ttu-id="5f515-190">Имя</span><span class="sxs-lookup"><span data-stu-id="5f515-190">Name</span></span></th>
+<th><span data-ttu-id="5f515-191">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="5f515-191">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="5f515-192">Описание</span><span class="sxs-lookup"><span data-stu-id="5f515-192">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d3a44-193"><strong>Caller</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-193"><strong>Caller</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-194">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-194">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-195">SIP-адрес вызывающего.</span><span class="sxs-lookup"><span data-stu-id="d3a44-195">SIP address of the caller.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-193"><strong>Caller</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-193"><strong>Caller</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-194">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-194">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-195">SIP-адрес вызывающего.</span><span class="sxs-lookup"><span data-stu-id="5f515-195">SIP address of the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d3a44-196"><strong>Рабочий процесс</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-196"><strong>Workflow</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-197">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-197">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-198">SIP-адрес рабочего процесса "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="d3a44-198">SIP address of the Response Group workflow.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-196"><strong>Рабочий процесс</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-196"><strong>Workflow</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-197">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-197">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-198">SIP-адрес рабочего процесса "Группа ответа".</span><span class="sxs-lookup"><span data-stu-id="5f515-198">SIP address of the Response Group workflow.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d3a44-199"><strong>Start time</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-199"><strong>Start time</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-200">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-200">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-201">Дата и время начала звонка.</span><span class="sxs-lookup"><span data-stu-id="d3a44-201">Date and time that the call started.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-199"><strong>Start time</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-199"><strong>Start time</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-200">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-200">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-201">Дата и время начала звонка.</span><span class="sxs-lookup"><span data-stu-id="5f515-201">Date and time that the call started.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d3a44-202"><strong>End time</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-202"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-203">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-203">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-204">Дата и время окончания звонка.</span><span class="sxs-lookup"><span data-stu-id="d3a44-204">Date and time that the call ended.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-202"><strong>End time</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-202"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-203">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-203">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-204">Дата и время окончания звонка.</span><span class="sxs-lookup"><span data-stu-id="5f515-204">Date and time that the call ended.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d3a44-205"><strong>Response code</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-205"><strong>Response code</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-206">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-206">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-207">Код ответа SIP, отправленный при сбое сеанса.</span><span class="sxs-lookup"><span data-stu-id="d3a44-207">SIP response code sent when the session failed.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-205"><strong>Response code</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-205"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-206">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-206">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-207">Код ответа SIP, отправленный при сбое сеанса.</span><span class="sxs-lookup"><span data-stu-id="5f515-207">SIP response code sent when the session failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d3a44-208"><strong>Diagnostic ID</strong></span><span class="sxs-lookup"><span data-stu-id="d3a44-208"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="d3a44-209">Нет</span><span class="sxs-lookup"><span data-stu-id="d3a44-209">No</span></span></p></td>
-<td><p><span data-ttu-id="d3a44-210">Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</span><span class="sxs-lookup"><span data-stu-id="d3a44-210">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
+<td><p><span data-ttu-id="5f515-208"><strong>Diagnostic ID</strong></span><span class="sxs-lookup"><span data-stu-id="5f515-208"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="5f515-209">Нет</span><span class="sxs-lookup"><span data-stu-id="5f515-209">No</span></span></p></td>
+<td><p><span data-ttu-id="5f515-210">Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</span><span class="sxs-lookup"><span data-stu-id="5f515-210">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 </tbody>
 </table>
