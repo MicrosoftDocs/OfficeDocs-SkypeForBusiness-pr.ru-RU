@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Ниже описаны открытые функции предварительного просмотра для голосовой конференции по сети.
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444215"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503476"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Открытие предварительной версии конференции по сети для голосовой конференции
 
@@ -63,7 +63,7 @@ ms.locfileid: "48444215"
 
 Звонки по исходящим звонкам в сети загружаются в рамках собрания в вашей организации на номера PSTN, в том числе на звонки и звонки для новых участников собрания. 
 
-Чтобы включить маршрутизацию исходящих звонков в Teams через прямую маршрутизацию, необходимо создать и назначить политику маршрутизации видеоконференций с именем "OnlineAudioConferencingRoutingPolicy". 
+Чтобы включить маршрутизацию исходящих звонков в Teams через прямую маршрутизацию на пользователей, подключенных к сети, необходимо создать и назначить политику маршрутизации голосовой конференц-связи с именем "OnlineAudioConferencingRoutingPolicy". 
 
 Политика OnlineAudioConferencingRoutingPolicy эквивалентна CsOnlineVoiceRoutingPolicy для звонков по протоколу КТСОП для 1:1 PSTN через прямую маршрутизацию. Для управления политикой OnlineAudioConferencingRoutingPolicy используются следующие командлеты:
 

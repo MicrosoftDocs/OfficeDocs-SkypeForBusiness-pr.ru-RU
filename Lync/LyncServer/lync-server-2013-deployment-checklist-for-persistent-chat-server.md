@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213822"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522746"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Контрольный список развертывания для сервера сохраняемого чата в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Контрольный список развертывания для сервера сохраняемого чата в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-10-16_
 <thead>
 <tr class="header">
 <th>Задача</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Требуемые роли и членство в группах</th>
 <th>Связанные разделы</th>
 </tr>
@@ -107,7 +109,7 @@ _**Последнее изменение темы:** 2012-10-16_
 <li><p>Установите флажок определение пула серверов сохраняемого чата, чтобы обеспечить соответствие требованиям.</p></li>
 <li><p>Опубликуйте топологию</p></li>
 </ul>
-<p>Если сервер сохраняемого чата устанавливается на выпуск Standard Edition, полное доменное имя пула сервера сохраняемого чата должно отличаться от сервера Standard Edition, а базы данных SQL Server размещены в экземпляре SQL Server Express в стандартном Выпуск Server Edition</p></td>
+<p>При установке сервера сохраняемого чата на сервере Standard Edition полное доменное имя пула сервера сохраняемого чата должно отличаться от сервера Standard Edition, а базы данных SQL Server размещены в экземпляре SQL Server Express на сервере Standard Edition</p></td>
 <td><p>Для определения топологии требуется учетная запись члена локальной группы "Пользователи".</p>
 <p>Чтобы опубликовать топологию, учетная запись, которая является членом группы администраторов домена и группы RTCUniversalServerAdmins, также должна иметь разрешения на полный доступ (чтение/запись/изменение) в хранилище файлов Lync для файлов сервера сохраняемого чата (чтобы построитель топологии мог настроить требуемые списки DACL).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Добавление сервера сохраняемого чата в развертывание в Lync Server 2013</a> в документации по развертыванию</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 767f49aa0074e269de386b2db017dc183e4eb92d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d5eb996b149bda87ea799768aea9821ec06f49f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523016"
 ---
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>Настройка маршрута голосовой связи E9 – 1 – 1 в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>Настройка маршрута голосовой связи E9 – 1 – 1 в Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2012-09-17_
 
 
 > [!NOTE]  
-> Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете <STRONG>Set-CsTrunkConfiguration</STRONG> значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Например:<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Не требуется включать получение местоположений для резервных шлюзов ТСОП и шлюзов ELIN.
+> Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете <STRONG>Set-CsTrunkConfiguration</STRONG> значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Например: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Не требуется включать получение местоположений для резервных шлюзов ТСОП и шлюзов ELIN.
 
 
 

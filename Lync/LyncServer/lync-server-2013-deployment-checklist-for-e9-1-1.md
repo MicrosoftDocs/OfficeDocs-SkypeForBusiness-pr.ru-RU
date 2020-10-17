@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522806"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Контрольный список развертывания для E9 – 1 – 1 в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Контрольный список развертывания для E9 – 1 – 1 в Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Роли</th>
 <th>Документация по развертыванию</th>
 </tr>
@@ -104,7 +106,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <td><p>Настройка базы данных расположения</p></td>
 <td><ol>
 <li><p>Заполните базу данных с сопоставлением сетевых элементов местоположениям.</p></li>
-<li><p>Для шлюзов ELIN добавьте Elin в столбец &lt;CompanyName.&gt;</p></li>
+<li><p>Для шлюзов ELIN добавьте Elin в &lt; &gt; столбец CompanyName.</p></li>
 <li><p>Настройте подключение к поставщику услуг E9-1-1 для проверки адресов.</p></li>
 <li><p>Сверьте адреса у поставщика услуг E9-1-1.</p></li>
 <li><p>Опубликуйте обновленную базу данных.</p></li>

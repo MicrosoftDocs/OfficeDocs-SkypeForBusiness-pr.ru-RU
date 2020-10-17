@@ -12,20 +12,22 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ed92300ae3445019b7b6fc0bba4d73b91c980e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52f7646010e4048d135e11c98d06a651f923d633
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522616"
 ---
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Процесс развертывания для группового ответа на звонки в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Процесс развертывания для группового ответа на звонки в Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2013-02-25_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Необходимые группы и роли</th>
 <th>Документация по развертыванию</th>
 </tr>

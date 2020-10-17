@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Сведения о том, как управлять доступом пользователей к Teams с помощью назначения и удаления лицензий на группы для пользователей в вашей организации.
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521386"
 ---
 # <a name="manage-user-access-to-teams"></a>Управление доступом пользователей к Teams
 
@@ -31,6 +32,7 @@ ms.locfileid: "44042276"
 
 По умолчанию, когда пользователю назначается план лицензирования (например, Microsoft 365 корпоративный E3 или Microsoft 365 Business Premium), ему автоматически назначается лицензия Teams, и пользователь включает команды. Вы можете отключить или включить команды для пользователя, удалив или назначив лицензию в любое время.
 
+С помощью политик сообщений, управляемых из <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центра администрирования Teams</a>, можно управлять тем, какие функции чата и обмена сообщениями в каналах доступны для пользователей в Teams. Вы можете использовать политику по умолчанию или создать одну или несколько настраиваемых политик обмена сообщениями для пользователей в вашей организации. Дополнительные сведения можно найти в статье [Управление политиками обмена сообщениями в Teams](messaging-policies-in-teams.md).
 Вы управляете лицензиями Teams в центре администрирования Microsoft 365 или с помощью PowerShell. Для управления лицензиями необходимо быть глобальным администратором или администратором управления пользователями.
 
 > [!NOTE]
@@ -38,6 +40,10 @@ ms.locfileid: "44042276"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Использование центра администрирования Microsoft 365
 
+Управление лицензиями на уровне пользователей Teams осуществляется напрямую через интерфейсы управления пользователями в центре администрирования Microsoft 365. Администратор может назначать лицензии для новых пользователей при создании их учетных записей, а также для пользователей с существующими учетными записями. 
+
+> [!IMPORTANT]
+> Администратор должен иметь права глобального администратора или администратора управления пользователями, чтобы управлять лицензиями Microsoft Teams.
 С помощью центра администрирования Microsoft 365 вы можете управлять лицензиями Teams для отдельных пользователей и небольшим количество пользователей за один раз. Вы можете управлять лицензиями Teams на странице **лицензий** (для более 20 пользователей в данный момент) или страницы " **Активные пользователи** ". Выбор метода зависит от того, хотите ли вы управлять лицензиями на продукты для конкретных пользователей или управлять лицензиями пользователей для конкретных продуктов.
 
 Если вам нужно управлять лицензиями Teams для большого количества пользователей, например сотни или тысячи пользователей, [используйте PowerShell](#using-powershell) или [Лицензирование на основе групп в Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign). 
@@ -85,7 +91,7 @@ ms.locfileid: "44042276"
 
       Get-MsolAccountSku
 
-Выполните указанные ниже команды, где \<CompanyName: License> — название вашей организации и идентификатор плана лицензирования, полученный на предыдущем этапе. Например, ContosoSchool: ENTERPRISEPACK_STUDENT.
+Выполните указанные ниже команды, где \<CompanyName:License> имя Организации и идентификатор плана лицензирования, полученного на предыдущем этапе. Например, ContosoSchool: ENTERPRISEPACK_STUDENT.
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
@@ -98,7 +104,7 @@ ms.locfileid: "44042276"
 
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Лицензии на надстройки Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Назначение лицензий на надстройки Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)

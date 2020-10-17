@@ -12,20 +12,22 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6786d22d81f6b78d1e551d05f3d908876ca3068
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198002"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522466"
 ---
+# <a name="device-hardware-support-in-lync-server-2013"></a>Аппаратная поддержка устройств в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Аппаратная поддержка устройств в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-12-14_
 
 Перед развертыванием IP-телефонов и аналоговых устройств необходимо рассмотреть особые конфигурации оборудования.
 
-IP-телефоны с поддержкой Lync Phone Edition протокол обнаружения уровня связи — обнаружение конечных точек мультимедиа (LLDP-MED) и Power over Ethernet (ПОЕ).Чтобы воспользоваться преимуществами протокола LLDP-MED, коммутатор должен поддерживать IEEE802.1AB и ANSI/TIA-1057. Чтобы воспользоваться преимуществами протокола PoE, коммутатор должен поддерживать PoE802.3AF или 802.3at.
+IP-телефоны с Lync Phone Edition поддерживают обнаружение уровня связи Protocol-Media обнаружение конечных точек (LLDP-MED) и Power over Ethernet (ПОЕ).Чтобы воспользоваться преимуществами протокола LLDP-MED, коммутатор должен поддерживать IEEE802.1AB и ANSI/TIA-1057. Чтобы воспользоваться преимуществами протокола PoE, коммутатор должен поддерживать PoE802.3AF или 802.3at.
 
 Для включения LLDP-MED администратор должен включить LLDP с помощью консоли коммутатора и задать политику сети LLDP-MED с правильным ИД виртуальной локальной сети для голосовых служб.
 
@@ -53,7 +55,7 @@ IP-телефоны с поддержкой Lync Phone Edition протокол 
 
   - Устройство для обеспечения связи в филиалах, которое содержит шлюз ТСОП, взаимодействующий с аналоговым телефонным адаптером
 
-Чтобы узнать, как настроить аналоговый шлюз, ознакомьтесь со статьей "Планирование развертывания аналоговых устройств [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) " в библиотеке TechNet для Lync Server 2010. (Аналоговые устройства работают аналогичным образом в Lync Server 2013, как в Lync Server 2010.)
+Чтобы узнать, как настроить аналоговый шлюз, ознакомьтесь со статьей "Планирование развертывания аналоговых устройств" [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) в библиотеке TechNet для Lync Server 2010. (Аналоговые устройства работают аналогичным образом в Lync Server 2013, как в Lync Server 2010.)
 
 <div>
 

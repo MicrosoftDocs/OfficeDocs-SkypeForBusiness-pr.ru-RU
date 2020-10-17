@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504966"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Установите Microsoft Teams с помощью Microsoft Endpoint Configuration Manager
 
@@ -33,18 +33,18 @@ ms.locfileid: "47323933"
 
 Это ссылки на файлы MSI:
 
-|Объект  |32-разрядная версия      |64-разрядная версия      |
-|---------|---------|---------|
-|Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|Федеральное правительство - GCC     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|Федеральное правительство - GCC High    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|Федеральное правительство - DoD     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Объект  |32-разрядная версия      |64-разрядная версия      | ARM64 |
+|---------|---------|---------|-----------|
+|Коммерческий сектор     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Федеральное правительство - GCC     | [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Федеральное правительство - GCC High    | [32-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-разрядная версия](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Федеральное правительство - DoD     | [32-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-разрядная версия](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **Чтобы обеспечить успешное развертывание, имейте в виду следующее:**
 
 - Установите 64-разрядную версию Teams в 64-разрядной операционной системе. При попытке установить 64-разрядную версию Teams в 32-разрядной операционной системе установка не будет успешной, и в настоящее время вы не получите сообщение об ошибке.
 
-- Если клиент клиента находится в облаках GCCH или DoD, пользователь должен настроить начальную конечную точку в реестре, добавив значение **CloudType** в раздел **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** в реестре. Тип **CloudType** — это **DWORD** и значения (0 = неопределено, 1 = коммерческая версия, 2 = GCC, 3 = GCCH, 4 = DoD). Установка конечной точки с помощью раздела реестра ограничивает возможности подсоединения Teams к правильной облачной конечной точке для подключения с использованием предварительной учетной записи с помощью Teams.
+- Если клиент клиента находится в облаках GCCH или DoD, пользователь должен настроить начальную конечную точку в реестре, добавив значение **CloudType** в раздел реестра **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** . Тип **CloudType** — это **DWORD** и значения (0 = неопределено, 1 = коммерческая версия, 2 = GCC, 3 = GCCH, 4 = DoD). Установка конечной точки с помощью раздела реестра ограничивает возможности подсоединения Teams к правильной облачной конечной точке для подключения с использованием предварительной учетной записи с помощью Teams.
 
 - Кроме того, Teams можно включить в развертывание приложений Microsoft 365 для предприятий. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с помощью приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/teams-install).
 
@@ -124,7 +124,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 Когда пользователь входит в Windows, Teams устанавливаются вместе с MSI, и ярлык для запуска команд добавляется на рабочий стол пользователя. Teams не запускаются, пока пользователь не запустит Teams вручную. После того, как пользователь вручную запускает Teams, Teams автоматически запускаются при каждом входе пользователя в систему.
 
-Обратите внимание, что в этих примерах также используется параметр **ALLUSERS = 1** . Если вы задаете этот параметр, программа установки на уровне компьютера будет отображаться в окне "программы и компоненты" на панели управления, а также в приложениях & функциях в параметрах Windows для всех пользователей компьютера. Все пользователи могут удалять команды, если у них есть учетные данные администратора на компьютере.
+Обратите внимание, что в этих примерах также используется параметр **ALLUSERS = 1** . Если вы задаете этот параметр, программа Teams Machine-Wide откроется в разделе программы и компоненты на панели управления и в разделе приложения & функции в параметрах Windows для всех пользователей компьютера. Все пользователи могут удалять команды, если у них есть учетные данные администратора на компьютере.
 
 > [!Note]
 > Запуск MSI вручную требуется выполнять с повышенными разрешениями. Даже если вы запустите его как администратор, без запуска с повышенными правами, установщик не сможет настроить параметр для отключения автоматического запуска.

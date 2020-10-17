@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522636"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Процесс развертывания для парковки вызовов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Процесс развертывания для парковки вызовов в Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2013-02-25_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Необходимые группы и роли</th>
 <th>Документация по развертыванию</th>
 </tr>
@@ -74,7 +76,7 @@ _**Последнее изменение темы:** 2013-02-25_
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Настройка параметров парковки вызовов</p></td>
+<td><p>Настройка параметров приостановки звонков</p></td>
 <td><p>Используйте командлет <strong>Set – CsCpsConfiguration</strong> для настройки параметров парковки вызовов. Рекомендуется настроить параметр <strong>OnTimeoutURI</strong> для настройки резервного назначения для использования при истечении времени ожидания приостановленного вызова. Кроме того, можно настроить следующие параметры:</p>
 <ul>
 <li><p><strong>EnableMusicOnHold</strong> для включения и выключения музыки при удержании вызова (необязательный параметр);</p></li>
@@ -120,7 +122,7 @@ _**Последнее изменение темы:** 2013-02-25_
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Включение парковки вызовов для пользователей в Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Проверка правил нормализации для парковки вызовов</p></td>
+<td><p>Проверка правил нормализации для приостановки звонков</p></td>
 <td><p>Орбиты парковки вызовов не требуют нормализации. Убедитесь, что правила нормализации не включают ваши диапазоны орбиты. При необходимости создайте дополнительные правила нормализации для блокирования нормализации орбит.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
