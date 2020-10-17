@@ -1,5 +1,6 @@
 ---
 title: Объединение с помощью мастера объединения в построителе топологий
+description: Объединение с помощью мастера объединения в построителе топологий.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84d4cf270e54243b6120869827e8f2999e5839f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d71a63eef95e3e36802dedfa9fbc1a173d283b65
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535266"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544565"
 ---
-# <a name="merge-using-topology-builder-merge-wizard"></a><span data-ttu-id="eae59-102">Объединение с помощью мастера объединения в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="eae59-102">Merge using Topology Builder Merge wizard</span></span>
+# <a name="merge-using-topology-builder-merge-wizard"></a><span data-ttu-id="eca94-103">Объединение с помощью мастера объединения в построителе топологий</span><span class="sxs-lookup"><span data-stu-id="eca94-103">Merge using Topology Builder Merge wizard</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,75 +38,75 @@ ms.locfileid: "48535266"
 
 <span> </span>
 
-<span data-ttu-id="eae59-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="eae59-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="eca94-104">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="eca94-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-1.  <span data-ttu-id="eae59-104">Загрузите существующее развертывание с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="eae59-104">Download the existing deployment using Topology Builder.</span></span>
+1.  <span data-ttu-id="eca94-105">Загрузите существующее развертывание с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="eca94-105">Download the existing deployment using Topology Builder.</span></span>
 
-2.  <span data-ttu-id="eae59-105">В меню **Action** (Действие) выберите команду **Merge Office Communications Server 2007 R2** (Объединить Office Communications Server 2007 R2).</span><span class="sxs-lookup"><span data-stu-id="eae59-105">From the **Action** menu, select **Merge Office Communications Server 2007 R2**.</span></span>
+2.  <span data-ttu-id="eca94-106">В меню **Action** (Действие) выберите команду **Merge Office Communications Server 2007 R2** (Объединить Office Communications Server 2007 R2).</span><span class="sxs-lookup"><span data-stu-id="eca94-106">From the **Action** menu, select **Merge Office Communications Server 2007 R2**.</span></span>
 
-3.  <span data-ttu-id="eae59-106">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eae59-106">Click **Next**.</span></span>
+3.  <span data-ttu-id="eca94-107">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eca94-107">Click **Next**.</span></span>
 
-4.  <span data-ttu-id="eae59-107">В диалоговом окне **настройки пограничного сервера** нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="eae59-107">In **Specify Edge Setup**, click **Add**.</span></span>
+4.  <span data-ttu-id="eca94-108">В диалоговом окне **настройки пограничного сервера** нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="eca94-108">In **Specify Edge Setup**, click **Add**.</span></span>
     
-    <span data-ttu-id="eae59-108">![Мастер создания топологии слиянием, задать страницу настройки пограничного сервера](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Мастер создания топологии слиянием, задать страницу настройки пограничного сервера")</span><span class="sxs-lookup"><span data-stu-id="eae59-108">![Merge Topology Wizard, Specify Edge Setup page](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
+    <span data-ttu-id="eca94-109">![Мастер создания топологии слиянием, задать страницу настройки пограничного сервера](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Мастер создания топологии слиянием, задать страницу настройки пограничного сервера")</span><span class="sxs-lookup"><span data-stu-id="eca94-109">![Merge Topology Wizard, Specify Edge Setup page](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
 
-5.  <span data-ttu-id="eae59-p101">В диалоговом окне **указания типа пограничного сервера** введите тип конфигурации пограничного сервера и нажмите кнопку **Далее**. В этом примере используется параметр **Single Edge Server** (Один пограничный сервер).</span><span class="sxs-lookup"><span data-stu-id="eae59-p101">In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.</span></span>
-    
-    <div>
-    
-
-    > [!IMPORTANT]  
-    > <span data-ttu-id="eae59-p102">Конфигурация <STRONG>Expanded Edge deployment</STRONG> (Расширенное развертывание пограничного сервера) не поддерживается. <STRONG>Расширенный пограничный сервер</STRONG> необходимо сначала преобразовать в <STRONG>один пограничный сервер</STRONG> или в <STRONG>консолидированный пограничный сервер с балансировкой нагрузки</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="eae59-p102"><STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.</span></span>
-
-    
-    </div>
-
-6.  <span data-ttu-id="eae59-113">В поле **Укажите параметры внутреннего края** введите необходимые сведения о ВНУТРЕННЕМ полном доменном имени и портах пограничного пула, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eae59-113">In **Specify Internal Edge Settings** , enter the relevant information for your Edge pool’s internal FQDN and ports as needed, and then click **Next**.</span></span>
-    
-    <span data-ttu-id="eae59-114">![Диалоговое окно указания параметров внутреннего пограничного сервера](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Диалоговое окно указания параметров внутреннего пограничного сервера")</span><span class="sxs-lookup"><span data-stu-id="eae59-114">![Specify Internal Edge Settings dialog](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Specify Internal Edge Settings dialog")</span></span>  
-
-7.  <span data-ttu-id="eae59-115">В диалоговом окне **указания внешнего пограничного сервера** введите сведения о полном доменном имени веб-конференций для пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="eae59-115">In **Specify External Edge**, enter the web conferencing FQDN information for your Edge Server.</span></span>
+5.  <span data-ttu-id="eca94-p101">В диалоговом окне **указания типа пограничного сервера** введите тип конфигурации пограничного сервера и нажмите кнопку **Далее**. В этом примере используется параметр **Single Edge Server** (Один пограничный сервер).</span><span class="sxs-lookup"><span data-stu-id="eca94-p101">In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="eae59-p103">Прежде чем нажать кнопку <STRONG>Далее</STRONG>, выполните следующее действие из этой процедуры. Очень важно не пропустить это действие.</span><span class="sxs-lookup"><span data-stu-id="eae59-p103">Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.</span></span>
+    > <span data-ttu-id="eca94-p102">Конфигурация <STRONG>Expanded Edge deployment</STRONG> (Расширенное развертывание пограничного сервера) не поддерживается. <STRONG>Расширенный пограничный сервер</STRONG> необходимо сначала преобразовать в <STRONG>один пограничный сервер</STRONG> или в <STRONG>консолидированный пограничный сервер с балансировкой нагрузки</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="eca94-p102"><STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="eae59-118">Установите флажок **этот пограничный пул используется для Федерации и общедоступной службы обмена мгновенными сообщениями** , если вы планируете использовать устаревшее пограничный сервер Office Communications Server 2007 R2 для Федерации.</span><span class="sxs-lookup"><span data-stu-id="eae59-118">Check the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use the legacy Office Communications Server 2007 R2 Edge Server for federation.</span></span> <span data-ttu-id="eae59-119">Если развернуто несколько пограничных серверов, то для федерации будет включен только один из них.</span><span class="sxs-lookup"><span data-stu-id="eae59-119">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="eae59-120">Если этот флажок не установить, а впоследствии потребуется включить федерацию, то придется запустить мастер слияния построителя топологий и снова опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="eae59-120">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard and publish your topology again.</span></span>
+6.  <span data-ttu-id="eca94-114">В поле **Укажите параметры внутреннего края** введите необходимые сведения о ВНУТРЕННЕМ полном доменном имени и портах пограничного пула, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eca94-114">In **Specify Internal Edge Settings** , enter the relevant information for your Edge pool’s internal FQDN and ports as needed, and then click **Next**.</span></span>
     
-    <span data-ttu-id="eae59-121">![Диалоговое окно пограничного сервера, укажите внешнюю страницу](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Диалоговое окно пограничного сервера, укажите внешнюю страницу")</span><span class="sxs-lookup"><span data-stu-id="eae59-121">![Edge Server dialog, Specify External Edge page](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Edge Server dialog, Specify External Edge page")</span></span>  
+    <span data-ttu-id="eca94-115">![Диалоговое окно указания параметров внутреннего пограничного сервера](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Диалоговое окно указания параметров внутреннего пограничного сервера")</span><span class="sxs-lookup"><span data-stu-id="eca94-115">![Specify Internal Edge Settings dialog](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Specify Internal Edge Settings dialog")</span></span>  
 
-9.  <span data-ttu-id="eae59-122">В диалоговом окне **указания следующего прыжка** введите полное доменное имя расположения следующего прыжка в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="eae59-122">In **Specify Next Hop**, enter the fully qualified domain name (FQDN) of the next hop location in your environment.</span></span> <span data-ttu-id="eae59-123">Нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eae59-123">Click **Finish**.</span></span>
+7.  <span data-ttu-id="eca94-116">В диалоговом окне **указания внешнего пограничного сервера** введите сведения о полном доменном имени веб-конференций для пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="eca94-116">In **Specify External Edge**, enter the web conferencing FQDN information for your Edge Server.</span></span>
     
-    <span data-ttu-id="eae59-124">![Диалоговое окно пограничного сервера, укажите страницу следующего прыжка](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Диалоговое окно пограничного сервера, укажите страницу следующего прыжка")</span><span class="sxs-lookup"><span data-stu-id="eae59-124">![Edge Server dialog, Specify Next Hop page](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Edge Server dialog, Specify Next Hop page")</span></span>  
-
-10. <span data-ttu-id="eae59-125">В окне **задать настройку пограничного**сервера, если были добавлены все пограничные серверы Office Communications Server 2007 R2, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eae59-125">In **Specify Edge Setup**, if all your Office Communications Server 2007 R2 Edge Servers have been added, click **Next**.</span></span> <span data-ttu-id="eae59-126">Если вы добавляете дополнительные пограничные серверы Office Communications Server 2007 R2, повторите эту процедуру, начиная с шага 4.</span><span class="sxs-lookup"><span data-stu-id="eae59-126">If you have more Office Communications Server 2007 R2 Edge Servers to add, repeat this procedure starting at step 4.</span></span>
-
-11. <span data-ttu-id="eae59-127">В поле **укажите внутренний порт SIP** выберите значение по умолчанию (то есть, если вы не изменили порт SIP по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="eae59-127">In **Specify Internal SIP port** , select the default setting (that is, if you did not modify the default SIP port).</span></span> <span data-ttu-id="eae59-128">Если порт по умолчанию 5061 не используется, измените параметр соответствующим образом и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eae59-128">Change as appropriate if you are not using a default port of 5061, and then click **Next**.</span></span>
-
-12. <span data-ttu-id="eae59-129">В окне **Сводка** нажмите кнопку **Далее**, чтобы начать слияние топологий.</span><span class="sxs-lookup"><span data-stu-id="eae59-129">In **Summary**, click **Next** to begin merging the topologies.</span></span>
-
-13. <span data-ttu-id="eae59-130">Страница мастера проверяет успешность слияния топологий.</span><span class="sxs-lookup"><span data-stu-id="eae59-130">The wizard page verifies that the merging of the topologies was successful.</span></span>
-
-14. <span data-ttu-id="eae59-131">Убедитесь, что в столбце **Состояние** указано значение **Успешно**, и нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eae59-131">In the **Status** column, verify that the value is **Success**, and then click **Finish**.</span></span>
-
-15. <span data-ttu-id="eae59-132">На левой панели построителя топологий вы увидите **BackCompatSite**, который указывает, что ваша среда Office Communications Server 2007 R2 объединена с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eae59-132">In the left pane of Topology Builder, you should now see the **BackCompatSite**, which indicates that your Office Communications Server 2007 R2 environment has been merged with Lync Server 2013.</span></span>
+    <div>
     
-    <span data-ttu-id="eae59-133">![Построитель топологий, демонстрирующий объединенную топологию](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Построитель топологий, демонстрирующий объединенную топологию")</span><span class="sxs-lookup"><span data-stu-id="eae59-133">![Topology Builder showing a merged topology](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Topology Builder showing a merged topology")</span></span>  
 
-16. <span data-ttu-id="eae59-134">В меню **Action** (Действие) выберите команду **Publish Topology** (Опубликовать топологию) и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eae59-134">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+    > [!IMPORTANT]  
+    > <span data-ttu-id="eca94-p103">Прежде чем нажать кнопку <STRONG>Далее</STRONG>, выполните следующее действие из этой процедуры. Очень важно не пропустить это действие.</span><span class="sxs-lookup"><span data-stu-id="eca94-p103">Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.</span></span>
 
-17. <span data-ttu-id="eae59-135">Когда **мастер публикации** завершит работу, нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eae59-135">When the **Publishing wizard** completes, click **Finish**.</span></span>
+    
+    </div>
+
+8.  <span data-ttu-id="eca94-119">Установите флажок **этот пограничный пул используется для Федерации и общедоступной службы обмена мгновенными сообщениями** , если вы планируете использовать устаревшее пограничный сервер Office Communications Server 2007 R2 для Федерации.</span><span class="sxs-lookup"><span data-stu-id="eca94-119">Check the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use the legacy Office Communications Server 2007 R2 Edge Server for federation.</span></span> <span data-ttu-id="eca94-120">Если развернуто несколько пограничных серверов, то для федерации будет включен только один из них.</span><span class="sxs-lookup"><span data-stu-id="eca94-120">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="eca94-121">Если этот флажок не установить, а впоследствии потребуется включить федерацию, то придется запустить мастер слияния построителя топологий и снова опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="eca94-121">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard and publish your topology again.</span></span>
+    
+    <span data-ttu-id="eca94-122">![Диалоговое окно пограничного сервера, укажите внешнюю страницу](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Диалоговое окно пограничного сервера, укажите внешнюю страницу")</span><span class="sxs-lookup"><span data-stu-id="eca94-122">![Edge Server dialog, Specify External Edge page](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Edge Server dialog, Specify External Edge page")</span></span>  
+
+9.  <span data-ttu-id="eca94-123">В диалоговом окне **указания следующего прыжка** введите полное доменное имя расположения следующего прыжка в вашей среде.</span><span class="sxs-lookup"><span data-stu-id="eca94-123">In **Specify Next Hop**, enter the fully qualified domain name (FQDN) of the next hop location in your environment.</span></span> <span data-ttu-id="eca94-124">Нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eca94-124">Click **Finish**.</span></span>
+    
+    <span data-ttu-id="eca94-125">![Диалоговое окно пограничного сервера, укажите страницу следующего прыжка](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Диалоговое окно пограничного сервера, укажите страницу следующего прыжка")</span><span class="sxs-lookup"><span data-stu-id="eca94-125">![Edge Server dialog, Specify Next Hop page](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Edge Server dialog, Specify Next Hop page")</span></span>  
+
+10. <span data-ttu-id="eca94-126">В окне **задать настройку пограничного**сервера, если были добавлены все пограничные серверы Office Communications Server 2007 R2, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eca94-126">In **Specify Edge Setup**, if all your Office Communications Server 2007 R2 Edge Servers have been added, click **Next**.</span></span> <span data-ttu-id="eca94-127">Если вы добавляете дополнительные пограничные серверы Office Communications Server 2007 R2, повторите эту процедуру, начиная с шага 4.</span><span class="sxs-lookup"><span data-stu-id="eca94-127">If you have more Office Communications Server 2007 R2 Edge Servers to add, repeat this procedure starting at step 4.</span></span>
+
+11. <span data-ttu-id="eca94-128">В поле **укажите внутренний порт SIP** выберите значение по умолчанию (то есть, если вы не изменили порт SIP по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="eca94-128">In **Specify Internal SIP port** , select the default setting (that is, if you did not modify the default SIP port).</span></span> <span data-ttu-id="eca94-129">Если порт по умолчанию 5061 не используется, измените параметр соответствующим образом и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eca94-129">Change as appropriate if you are not using a default port of 5061, and then click **Next**.</span></span>
+
+12. <span data-ttu-id="eca94-130">В окне **Сводка** нажмите кнопку **Далее**, чтобы начать слияние топологий.</span><span class="sxs-lookup"><span data-stu-id="eca94-130">In **Summary**, click **Next** to begin merging the topologies.</span></span>
+
+13. <span data-ttu-id="eca94-131">Страница мастера проверяет успешность слияния топологий.</span><span class="sxs-lookup"><span data-stu-id="eca94-131">The wizard page verifies that the merging of the topologies was successful.</span></span>
+
+14. <span data-ttu-id="eca94-132">Убедитесь, что в столбце **Состояние** указано значение **Успешно**, и нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eca94-132">In the **Status** column, verify that the value is **Success**, and then click **Finish**.</span></span>
+
+15. <span data-ttu-id="eca94-133">На левой панели построителя топологий вы увидите **BackCompatSite**, который указывает, что ваша среда Office Communications Server 2007 R2 объединена с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eca94-133">In the left pane of Topology Builder, you should now see the **BackCompatSite**, which indicates that your Office Communications Server 2007 R2 environment has been merged with Lync Server 2013.</span></span>
+    
+    <span data-ttu-id="eca94-134">![Построитель топологий, демонстрирующий объединенную топологию](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Построитель топологий, демонстрирующий объединенную топологию")</span><span class="sxs-lookup"><span data-stu-id="eca94-134">![Topology Builder showing a merged topology](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Topology Builder showing a merged topology")</span></span>  
+
+16. <span data-ttu-id="eca94-135">В меню **Action** (Действие) выберите команду **Publish Topology** (Опубликовать топологию) и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="eca94-135">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+
+17. <span data-ttu-id="eca94-136">Когда **мастер публикации** завершит работу, нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eca94-136">When the **Publishing wizard** completes, click **Finish**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="eae59-136">Важно выполнить следующий раздел, <A href="import-policies-and-settings.md">импортировать политики и параметры</A>, чтобы убедиться, что устаревшие параметры политики импортированы в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eae59-136">It’s important that you complete the next topic, <A href="import-policies-and-settings.md">Import policies and settings</A>, to ensure that the legacy policy settings are imported into Lync Server 2013.</span></span>
+    > <span data-ttu-id="eca94-137">Важно выполнить следующий раздел, <A href="import-policies-and-settings.md">импортировать политики и параметры</A>, чтобы убедиться, что устаревшие параметры политики импортированы в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eca94-137">It’s important that you complete the next topic, <A href="import-policies-and-settings.md">Import policies and settings</A>, to ensure that the legacy policy settings are imported into Lync Server 2013.</span></span>
 
     
     </div>

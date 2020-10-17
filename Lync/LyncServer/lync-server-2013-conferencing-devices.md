@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: устройства конференц-связи'
+description: 'Lync Server 2013: устройства конференц-связи.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b69a754a0fff18dc8c2e5313a45f0c91e424e831
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8f4525a0a25df69157c656a8f5c4272a5d5aae4f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529166"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544205"
 ---
-# <a name="conferencing-devices-in-lync-server-2013"></a><span data-ttu-id="a5381-102">Устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5381-102">Conferencing devices in Lync Server 2013</span></span>
+# <a name="conferencing-devices-in-lync-server-2013"></a><span data-ttu-id="4e0c4-103">Устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e0c4-103">Conferencing devices in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48529166"
 
 <span> </span>
 
-<span data-ttu-id="a5381-103">_**Последнее изменение темы:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="a5381-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="4e0c4-104">_**Последнее изменение темы:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="4e0c4-104">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="a5381-104">Устройства конференц-связи обеспечивают функции Lync Phone Edition в конференц-залах, позволяя людям в комнате слышать и, в зависимости от устройства, просматривать людей в других расположениях.</span><span class="sxs-lookup"><span data-stu-id="a5381-104">Conferencing devices bring Lync Phone Edition features into conference rooms, enabling people in the room to hear, and, depending on the device, see people in other locations.</span></span>
+<span data-ttu-id="4e0c4-105">Устройства конференц-связи обеспечивают функции Lync Phone Edition в конференц-залах, позволяя людям в комнате слышать и, в зависимости от устройства, просматривать людей в других расположениях.</span><span class="sxs-lookup"><span data-stu-id="4e0c4-105">Conferencing devices bring Lync Phone Edition features into conference rooms, enabling people in the room to hear, and, depending on the device, see people in other locations.</span></span>
 
-<span data-ttu-id="a5381-105">Используйте подразделы этого раздела, чтобы узнать, как настраивать устройства конференц-связи и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="a5381-105">Use the topics in this section to learn how to set up and manage your conferencing devices.</span></span>
+<span data-ttu-id="4e0c4-106">Используйте подразделы этого раздела, чтобы узнать, как настраивать устройства конференц-связи и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="4e0c4-106">Use the topics in this section to learn how to set up and manage your conferencing devices.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a5381-106">Дополнительные сведения о устройствах конференц-связи, которые поддерживаются в Lync Server 2013, можно найти на веб-страницах <A href="https://technet.microsoft.com/lync/gg278164.aspx">телефонов и устройствах, соответствующих Microsoft Lync</A>.</span><span class="sxs-lookup"><span data-stu-id="a5381-106">For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.</span></span>
+> <span data-ttu-id="4e0c4-107">Дополнительные сведения о устройствах конференц-связи, которые поддерживаются в Lync Server 2013, можно найти на веб-страницах <A href="https://technet.microsoft.com/lync/gg278164.aspx">телефонов и устройствах, соответствующих Microsoft Lync</A>.</span><span class="sxs-lookup"><span data-stu-id="4e0c4-107">For more information about the conferencing devices supported for use with Lync Server 2013 see the web page <A href="https://technet.microsoft.com/lync/gg278164.aspx">Phones and devices qualified for Microsoft Lync</A>.</span></span>
 
 
 
@@ -55,15 +56,15 @@ ms.locfileid: "48529166"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a5381-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="a5381-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e0c4-108">Содержание</span><span class="sxs-lookup"><span data-stu-id="4e0c4-108">In This Section</span></span>
 
-  - [<span data-ttu-id="a5381-108">Просмотр сведений о устройствах конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5381-108">View conferencing device information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-device-information.md)
+  - [<span data-ttu-id="4e0c4-109">Просмотр сведений о устройствах конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e0c4-109">View conferencing device information in Lync Server 2013</span></span>](lync-server-2013-view-conferencing-device-information.md)
 
-  - [<span data-ttu-id="a5381-109">Создание или изменение объекта контакта устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5381-109">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
+  - [<span data-ttu-id="4e0c4-110">Создание или изменение объекта контакта устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e0c4-110">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-device-contact-object.md)
 
-  - [<span data-ttu-id="a5381-110">Включение или отключение устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5381-110">Enable or disable a conferencing device in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-conferencing-device.md)
+  - [<span data-ttu-id="4e0c4-111">Включение или отключение устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e0c4-111">Enable or disable a conferencing device in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [<span data-ttu-id="a5381-111">Перемещение устройства конференц-связи в новый пул регистратора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5381-111">Move a conferencing device to a new Registrar pool in Lync Server 2013</span></span>](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [<span data-ttu-id="4e0c4-112">Перемещение устройства конференц-связи в новый пул регистратора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e0c4-112">Move a conferencing device to a new Registrar pool in Lync Server 2013</span></span>](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 

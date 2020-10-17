@@ -1,5 +1,6 @@
 ---
 title: Резервное копирование систем и данных
+description: Резервное копирование систем и данных.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,14 +14,14 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3181c64fd8c113e155fb4596441cbd6ce63c0342
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 32d65f3cada4cda49cc49de449f2c71b0990373e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499756"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545825"
 ---
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="97af7-102">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="97af7-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="d306d-103">Резервное копирование систем и данных</span><span class="sxs-lookup"><span data-stu-id="d306d-103">Back up systems and data</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,11 +39,11 @@ ms.locfileid: "48499756"
 
 <span> </span>
 
-<span data-ttu-id="97af7-103">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="97af7-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="d306d-104">_**Последнее изменение темы:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="d306d-104">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="97af7-104">Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться к Lync Server 2010, если это будет необходимо.</span><span class="sxs-lookup"><span data-stu-id="97af7-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="97af7-105">Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.</span><span class="sxs-lookup"><span data-stu-id="97af7-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="d306d-105">Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться к Lync Server 2010, если это будет необходимо.</span><span class="sxs-lookup"><span data-stu-id="d306d-105">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="d306d-106">Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.</span><span class="sxs-lookup"><span data-stu-id="d306d-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="97af7-106">Подробные сведения и процедуры приведены в статье [резервное копирование и восстановление Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="97af7-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="d306d-107">Подробные сведения и процедуры приведены в статье [резервное копирование и восстановление Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="d306d-107">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 

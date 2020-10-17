@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: соответствие сохраняемого чата'
+description: 'Lync Server 2013: соответствие сохраняемого чата.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8255d4d2600366d63142d5c7cff2f74edff1399a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4524ab38b5d7faa76123a156dd9b726f57ac6ed1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524276"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544755"
 ---
-# <a name="persistent-chat-compliance-in-lync-server-2013"></a><span data-ttu-id="4332d-102">Соответствие сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4332d-102">Persistent Chat compliance in Lync Server 2013</span></span>
+# <a name="persistent-chat-compliance-in-lync-server-2013"></a><span data-ttu-id="58b7e-103">Соответствие сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="58b7e-103">Persistent Chat compliance in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48524276"
 
 <span> </span>
 
-<span data-ttu-id="4332d-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="4332d-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="58b7e-104">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="58b7e-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="4332d-104">Чтобы создать новую конфигурацию соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="4332d-104">To create a new Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="58b7e-105">Чтобы создать новую конфигурацию соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="58b7e-105">To create a new Persistent Chat compliance configuration</span></span>
 
     New-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-AdapterName <String>] [-AdapterOutputDirectory <String>] [-AdapterType <String>] [-AddChatRoomDetails <$true | $false>] [-AddUserDetails <$true | $false>] [-Confirm [<Switch Parameter>]] [-CreateFileAttachmentsManifest <$true | $false>] [-CustomConfiguration <String>] [-Force <Switch Parameter>] [-InMemory <Switch Parameter>] [-OneChatRoomPerOutputFile <$true | $false>] [-RunInterval <TimeSpan>] [-WhatIf [<Switch Parameter>]]
 
-<span data-ttu-id="4332d-105">Получение конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="4332d-105">To get Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="58b7e-106">Получение конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="58b7e-106">To get Persistent Chat compliance configuration</span></span>
 
     Get-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] [-LocalStore <Switch Parameter>]
 
-<span data-ttu-id="4332d-106">Настройка конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="4332d-106">To set Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="58b7e-107">Настройка конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="58b7e-107">To set Persistent Chat compliance configuration</span></span>
 
     Set-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-AdapterName <String>] [-AdapterOutputDirectory <String>] [-AdapterType <String>] [-AddChatRoomDetails <$true | $false>] [-AddUserDetails <$true | $false>] [-Confirm [<Switch Parameter>]] [-CreateFileAttachmentsManifest <$true | $false>] [-CustomConfiguration <String>] [-Force <Switch Parameter>] [-InMemory <Switch Parameter>] [-OneChatRoomPerOutputFile <$true | $false>] [-RunInterval <TimeSpan>] [-WhatIf [<Switch Parameter>]]
 
-<span data-ttu-id="4332d-107">Удаление конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="4332d-107">To remove Persistent Chat compliance configuration</span></span>
+<span data-ttu-id="58b7e-108">Удаление конфигурации соответствия сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="58b7e-108">To remove Persistent Chat compliance configuration</span></span>
 
     Remove-CsPersistentChatComplianceConfiguration -Identity <XdsIdentity> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка таблицы орбит парковки вызовов'
+description: 'Lync Server 2013: Настройка таблицы орбит парковки вызовов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0f4de5568dc8d265acd412999aafc814c68dbc9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ce9fb35c2958a426888d83d075064c88ddae4bfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520366"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544985"
 ---
-# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a><span data-ttu-id="99dc7-102">Настройка таблицы орбит парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99dc7-102">Configure the Call Park orbit table in Lync Server 2013</span></span>
+# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a><span data-ttu-id="b88af-103">Настройка таблицы орбит парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b88af-103">Configure the Call Park orbit table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48520366"
 
 <span> </span>
 
-<span data-ttu-id="99dc7-103">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="99dc7-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="b88af-104">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="b88af-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="99dc7-104">Парковки вызовов использует орбиты для вызовов парковки.</span><span class="sxs-lookup"><span data-stu-id="99dc7-104">Call Park uses orbits for parking calls.</span></span> <span data-ttu-id="99dc7-105">Чтобы пользователи могли приостанавливать и получать вызовы, необходимо настроить таблицу орбит парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="99dc7-105">Before users can park and retrieve calls, you must configure the Call Park orbit table.</span></span> <span data-ttu-id="99dc7-106">Необходимо указать диапазоны добавочных номеров (орбиты), которые ваша организация будет резервировать для вызовов парковки, и определить маршрутизацию для этих диапазонов, указав, какой пул парковки вызовов обрабатывает каждый диапазон.</span><span class="sxs-lookup"><span data-stu-id="99dc7-106">You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range.</span></span> <span data-ttu-id="99dc7-107">При определении диапазонов орбит требуется обеспечить достаточное число орбит, чтобы ни одна из орбит не использовалась повторно слишком часто, и одновременно не использовать слишком много орбит, чтобы не ограничивать количество добавочных номеров для пользователей и других служб.</span><span class="sxs-lookup"><span data-stu-id="99dc7-107">When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services.</span></span> <span data-ttu-id="99dc7-108">Вы можете создать несколько диапазонов орбит парковки вызовов для каждого пула Lync Server, в котором развернуто приложение парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="99dc7-108">You can create multiple Call Park orbit ranges for each Lync Server pool where the Call Park application is deployed.</span></span> <span data-ttu-id="99dc7-109">Каждый диапазон орбит приостановки вызовов должен иметь глобальное уникальное имя и уникальный набор расширений.</span><span class="sxs-lookup"><span data-stu-id="99dc7-109">Each Call Park orbit range must have a globally unique name and a unique set of extensions.</span></span>
+<span data-ttu-id="b88af-105">Парковки вызовов использует орбиты для вызовов парковки.</span><span class="sxs-lookup"><span data-stu-id="b88af-105">Call Park uses orbits for parking calls.</span></span> <span data-ttu-id="b88af-106">Чтобы пользователи могли приостанавливать и получать вызовы, необходимо настроить таблицу орбит парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="b88af-106">Before users can park and retrieve calls, you must configure the Call Park orbit table.</span></span> <span data-ttu-id="b88af-107">Необходимо указать диапазоны добавочных номеров (орбиты), которые ваша организация будет резервировать для вызовов парковки, и определить маршрутизацию для этих диапазонов, указав, какой пул парковки вызовов обрабатывает каждый диапазон.</span><span class="sxs-lookup"><span data-stu-id="b88af-107">You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range.</span></span> <span data-ttu-id="b88af-108">При определении диапазонов орбит требуется обеспечить достаточное число орбит, чтобы ни одна из орбит не использовалась повторно слишком часто, и одновременно не использовать слишком много орбит, чтобы не ограничивать количество добавочных номеров для пользователей и других служб.</span><span class="sxs-lookup"><span data-stu-id="b88af-108">When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services.</span></span> <span data-ttu-id="b88af-109">Вы можете создать несколько диапазонов орбит парковки вызовов для каждого пула Lync Server, в котором развернуто приложение парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="b88af-109">You can create multiple Call Park orbit ranges for each Lync Server pool where the Call Park application is deployed.</span></span> <span data-ttu-id="b88af-110">Каждый диапазон орбит приостановки вызовов должен иметь глобальное уникальное имя и уникальный набор расширений.</span><span class="sxs-lookup"><span data-stu-id="b88af-110">Each Call Park orbit range must have a globally unique name and a unique set of extensions.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="99dc7-p102">Обычно диапазон орбит содержит 100 или менее орбит. Каждый из диапазонов может быть значительно больше, максимальные значения составляют не более 10000 орбит на диапазон и менее 50000 орбит на пул. Если диапазон слишком мал, орбиты используются повторно с большей частотой.</span><span class="sxs-lookup"><span data-stu-id="99dc7-p102">An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.</span></span>
+> <span data-ttu-id="b88af-p102">Обычно диапазон орбит содержит 100 или менее орбит. Каждый из диапазонов может быть значительно больше, максимальные значения составляют не более 10000 орбит на диапазон и менее 50000 орбит на пул. Если диапазон слишком мал, орбиты используются повторно с большей частотой.</span><span class="sxs-lookup"><span data-stu-id="b88af-p102">An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="99dc7-113">Для своих диапазонов орбит используйте блоки виртуальных добавочных номеров (которым не назначен телефон или пользователь).</span><span class="sxs-lookup"><span data-stu-id="99dc7-113">Use blocks of virtual extensions (extensions that have no user or phone assigned to them) for your orbit ranges.</span></span>
+<span data-ttu-id="b88af-114">Для своих диапазонов орбит используйте блоки виртуальных добавочных номеров (которым не назначен телефон или пользователь).</span><span class="sxs-lookup"><span data-stu-id="b88af-114">Use blocks of virtual extensions (extensions that have no user or phone assigned to them) for your orbit ranges.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="99dc7-114">Назначение номеров прямой связи (не) в качестве номеров орбит в таблице орбит парковки вызовов не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="99dc7-114">Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.</span></span>
+> <span data-ttu-id="b88af-115">Назначение номеров прямой связи (не) в качестве номеров орбит в таблице орбит парковки вызовов не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="b88af-115">Assigning Direct Inward Dialing (DID) numbers as orbit numbers in the Call Park orbit table is not supported.</span></span>
 
 
 
@@ -65,9 +66,9 @@ ms.locfileid: "48520366"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="99dc7-115">Содержание</span><span class="sxs-lookup"><span data-stu-id="99dc7-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b88af-116">Содержание</span><span class="sxs-lookup"><span data-stu-id="b88af-116">In This Section</span></span>
 
-[<span data-ttu-id="99dc7-116">Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99dc7-116">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+[<span data-ttu-id="b88af-117">Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b88af-117">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
 </div>
 

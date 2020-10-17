@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: новые функции IPv6'
+description: 'Lync Server 2013: новые функции IPv6.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e926a22a712b4e1b1ee6fb8ff5ba3cea450cdf0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4f3e96066c8d0acb56a43b1c3be5fe0032314594
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534216"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545185"
 ---
-# <a name="new-ipv6-features-in-lync-server-2013"></a><span data-ttu-id="bf007-102">Новые функции IPv6 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf007-102">New IPv6 features in Lync Server 2013</span></span>
+# <a name="new-ipv6-features-in-lync-server-2013"></a><span data-ttu-id="90e8e-103">Новые функции IPv6 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90e8e-103">New IPv6 features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,18 +38,18 @@ ms.locfileid: "48534216"
 
 <span> </span>
 
-<span data-ttu-id="bf007-103">_**Последнее изменение темы:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="bf007-103">_**Topic Last Modified:** 2012-08-16_</span></span>
+<span data-ttu-id="90e8e-104">_**Последнее изменение темы:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="90e8e-104">_**Topic Last Modified:** 2012-08-16_</span></span>
 
-<span data-ttu-id="bf007-104">Lync Server 2013 включает поддержку IPv6-адресов.</span><span class="sxs-lookup"><span data-stu-id="bf007-104">Lync Server 2013 includes support for IPv6 addresses.</span></span> <span data-ttu-id="bf007-105">В связи с увеличением числа устройств, которым требуется IP-адрес, число доступных адресов IPv4, которые представляют собой 32-разрядные адреса, истекает из системы. IPv6 предоставляет большое количество доступных адресов, так как использует 128-разрядные адреса.</span><span class="sxs-lookup"><span data-stu-id="bf007-105">Due to an increasing number of devices requiring IP addresses, the number of available IPv4 addresses, which are 32-bit addresses, is running out. IPv6 provides a much larger number of available addresses, because it uses 128-bit addresses.</span></span> <span data-ttu-id="bf007-106">Использование адресов IPv6 в среде зависит от поддержки IPv6 конкретными устройствами.</span><span class="sxs-lookup"><span data-stu-id="bf007-106">Use of IPv6 addresses in your environment depends on support for IPv6 in the devices you use.</span></span>
+<span data-ttu-id="90e8e-105">Lync Server 2013 включает поддержку IPv6-адресов.</span><span class="sxs-lookup"><span data-stu-id="90e8e-105">Lync Server 2013 includes support for IPv6 addresses.</span></span> <span data-ttu-id="90e8e-106">В связи с увеличением числа устройств, которым требуется IP-адрес, число доступных адресов IPv4, которые представляют собой 32-разрядные адреса, истекает из системы. IPv6 предоставляет большое количество доступных адресов, так как использует 128-разрядные адреса.</span><span class="sxs-lookup"><span data-stu-id="90e8e-106">Due to an increasing number of devices requiring IP addresses, the number of available IPv4 addresses, which are 32-bit addresses, is running out. IPv6 provides a much larger number of available addresses, because it uses 128-bit addresses.</span></span> <span data-ttu-id="90e8e-107">Использование адресов IPv6 в среде зависит от поддержки IPv6 конкретными устройствами.</span><span class="sxs-lookup"><span data-stu-id="90e8e-107">Use of IPv6 addresses in your environment depends on support for IPv6 in the devices you use.</span></span>
 
-<span data-ttu-id="bf007-107">Поскольку многие устройства еще не поддерживают протокол IPv6, полный переход с адресов IPv4 на адреса IPv6, скорее всего, займет несколько лет.</span><span class="sxs-lookup"><span data-stu-id="bf007-107">Because many existing devices do not yet support IPv6, a complete transition from IPv4 to IPv6 is likely to take several years.</span></span> <span data-ttu-id="bf007-108">Таким образом, Lync Server 2013 включает поддержку сетевых сред только с адресами IPv4, только IPv6-адресами и двумя стеками (IPv4 и IPv6).</span><span class="sxs-lookup"><span data-stu-id="bf007-108">Therefore, Lync Server 2013 includes support for network environments with only IPv4 addresses, only IPv6 addresses, and dual-stack (both IPv4 and IPv6) addresses.</span></span>
+<span data-ttu-id="90e8e-108">Поскольку многие устройства еще не поддерживают протокол IPv6, полный переход с адресов IPv4 на адреса IPv6, скорее всего, займет несколько лет.</span><span class="sxs-lookup"><span data-stu-id="90e8e-108">Because many existing devices do not yet support IPv6, a complete transition from IPv4 to IPv6 is likely to take several years.</span></span> <span data-ttu-id="90e8e-109">Таким образом, Lync Server 2013 включает поддержку сетевых сред только с адресами IPv4, только IPv6-адресами и двумя стеками (IPv4 и IPv6).</span><span class="sxs-lookup"><span data-stu-id="90e8e-109">Therefore, Lync Server 2013 includes support for network environments with only IPv4 addresses, only IPv6 addresses, and dual-stack (both IPv4 and IPv6) addresses.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="bf007-109">См. также</span><span class="sxs-lookup"><span data-stu-id="bf007-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90e8e-110">См. также</span><span class="sxs-lookup"><span data-stu-id="90e8e-110">See Also</span></span>
 
 
-[<span data-ttu-id="bf007-110">Планирование и настройка IPv6 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf007-110">Planning for and configuring IPv6 in Lync Server 2013</span></span>](lync-server-2013-planning-for-and-configuring-ipv6.md)  
+[<span data-ttu-id="90e8e-111">Планирование и настройка IPv6 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90e8e-111">Planning for and configuring IPv6 in Lync Server 2013</span></span>](lync-server-2013-planning-for-and-configuring-ipv6.md)  
   
 
 </div>

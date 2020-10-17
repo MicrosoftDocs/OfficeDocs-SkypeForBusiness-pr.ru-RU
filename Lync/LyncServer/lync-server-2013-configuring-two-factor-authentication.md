@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка двухфакторной проверки подлинности'
+description: 'Lync Server 2013: Настройка двухфакторной проверки подлинности.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed219dcc90ffb6527a25a39af9fcb8c4ba172d75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c473ff7fec37840a76f3156b0e38c61bfa9f7ab6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517326"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544135"
 ---
-# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="492fe-102">Настройка двухфакторной проверки подлинности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-102">Configuring two-factor authentication in Lync Server 2013</span></span>
+# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="07a6b-103">Настройка двухфакторной проверки подлинности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-103">Configuring two-factor authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48517326"
 
 <span> </span>
 
-<span data-ttu-id="492fe-103">_**Последнее изменение темы:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="492fe-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="07a6b-104">_**Последнее изменение темы:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="07a6b-104">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="492fe-104">В следующих разделах описаны действия, необходимые для настройки двухфакторной проверки подлинности для развертывания.</span><span class="sxs-lookup"><span data-stu-id="492fe-104">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
+<span data-ttu-id="07a6b-105">В следующих разделах описаны действия, необходимые для настройки двухфакторной проверки подлинности для развертывания.</span><span class="sxs-lookup"><span data-stu-id="07a6b-105">The following sections describe the steps necessary to configure two-factor authentication for your deployment.</span></span> 
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="492fe-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="492fe-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="07a6b-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="07a6b-106">In This Section</span></span>
 
-[<span data-ttu-id="492fe-106">Настройка ЦС предприятия для проверки подлинности с помощью смарт-карты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-106">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
+[<span data-ttu-id="07a6b-107">Настройка ЦС предприятия для проверки подлинности с помощью смарт-карты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-107">Configuring Enterprise CA for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
 
-[<span data-ttu-id="492fe-107">Настройка Windows 8 для использования виртуальных смарт-карт с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-107">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+[<span data-ttu-id="07a6b-108">Настройка Windows 8 для использования виртуальных смарт-карт с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-108">Configuring Windows 8 for using Virtual Smart Cards with Lync Server 2013</span></span>](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
 
-[<span data-ttu-id="492fe-108">Регистрация пользователей для проверки подлинности с помощью смарт-карты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-108">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
+[<span data-ttu-id="07a6b-109">Регистрация пользователей для проверки подлинности с помощью смарт-карты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-109">Enrolling users for smart card authentication in Lync Server 2013</span></span>](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[<span data-ttu-id="492fe-109">Настройка служб федерации Active Directory (AD FS 2,0) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-109">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[<span data-ttu-id="07a6b-110">Настройка служб федерации Active Directory (AD FS 2,0) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-110">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[<span data-ttu-id="492fe-110">Настройка служб федерации Active Directory 2,0 для поддержки проверки подлинности клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-110">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[<span data-ttu-id="07a6b-111">Настройка служб федерации Active Directory 2,0 для поддержки проверки подлинности клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-111">Configuring AD FS 2.0 to support client authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
-[<span data-ttu-id="492fe-111">Настройка пассивной проверки подлинности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="492fe-111">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
+[<span data-ttu-id="07a6b-112">Настройка пассивной проверки подлинности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07a6b-112">Configuring Lync Server 2013 passive authentication</span></span>](lync-server-2013-configuring-passive-authentication.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="492fe-112">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="492fe-112">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="07a6b-113">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="07a6b-113">Related Sections</span></span>
 
 </div>
 
