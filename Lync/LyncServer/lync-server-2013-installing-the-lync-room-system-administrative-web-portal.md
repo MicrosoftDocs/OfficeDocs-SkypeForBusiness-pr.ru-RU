@@ -12,20 +12,22 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b475911da0e0508fecb53de533f75e9feb10155
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54b772311865a36ba17699fc876c32c5504214e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187612"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534906"
 ---
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Установка веб-портала администрирования системы комнат Lync в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Установка веб-портала администрирования системы комнат Lync в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187612"
 
 _**Последнее изменение темы:** 2015-04-09_
 
-Вы можете скачать веб-портал администрирования системы комнат Microsoft Lync из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044).
+Вы можете скачать веб-портал администрирования системы комнат Microsoft Lync из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044) .
 
 Чтобы установить веб-портал администрирования системы комнат Lync, выполните указанные ниже действия.
 
@@ -45,21 +47,21 @@ _**Последнее изменение темы:** 2015-04-09_
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  Чтобы установить портал "комната для собраний", скачайте **линкрумадминпортал. exe** , а затем запустите его от имени администратора.
+2.  Чтобы установить портал "комната для собраний", скачайте **LyncRoomAdminPortal.exe** , а затем запустите его от имени администратора.
 
-3.  Откройте файл Web. config в следующем расположении:
+3.  Откройте файл Web.config в следующем расположении:
     
-    % Program Files\\% Microsoft Lync Server\\2013 веб\\-компонентов для\\Конференц\\-зала портал\\
+    % Program Files% \\ Microsoft Lync Server 2013 \\ веб-компонентов для \\ конференц-зала портал \\ \\\\
 
-4.  В файле Web. config замените Порталусернаме на имя пользователя, созданное на шаге 2 в разделе "Настройка предварительных требований для портала администрирования системы комнат Lync" (рекомендуемое имя в шаге — Lrsapp включена поддержка):
+4.  В файле Web.Config замените Порталусернаме на имя пользователя, созданное на шаге 2 в разделе "Настройка предварительных требований для портала администрирования системы комнат Lync" (рекомендуемое имя в шаге — Lrsapp включена поддержка):
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  Так как портал администрирования LRS является доверенным приложением, вам не нужно указывать пароль в конфигурации портала. Если для этого пользователя используется другой регистратор, отличный от регистратора локального регистратора, необходимо указать для него регистратор, добавив следующую строку в файл Web. config:
+5.  Так как портал администрирования LRS является доверенным приложением, вам не нужно указывать пароль в конфигурации портала. Если для этого пользователя используется другой регистратор, отличный от регистратора локального регистратора, необходимо указать для него регистратор, добавив следующую строку в файл Web.Config:
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  Если используется порт, отличный от 5061, добавьте в файл Web. config следующую строку:
+6.  Если используется порт, отличный от 5061, добавьте следующую строку в файл Web.Config:
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
@@ -72,7 +74,7 @@ _**Последнее изменение темы:** 2015-04-09_
 
 1.  На сервере переднего плана перейдите по следующему URL-адресу:
     
-    https://\<Fe Server\>/ЛРС
+    https:// \<fe-server\> /ЛРС
     
     Не отображаются никакие ошибки, как показано на следующем рисунке:
     
@@ -80,9 +82,9 @@ _**Последнее изменение темы:** 2015-04-09_
 
 2.  Если ошибки не отображаются, попробуйте получить доступ к следующему URL-адресу с любого другого компьютера в топологии:
     
-    https://\<Fe Server\>/ЛРС
+    https:// \<fe-server\> /ЛРС
     
-    Чтобы получить доступ к странице, необходимо добавить записи DNS, как описано в разделе "необходимые записи DNS для автоматического входа клиентов" [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056).
+    Чтобы получить доступ к странице, необходимо добавить записи DNS, как описано в разделе "необходимые записи DNS для автоматического входа клиентов" [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056) .
 
 </div>
 

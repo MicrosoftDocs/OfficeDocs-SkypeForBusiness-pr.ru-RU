@@ -12,20 +12,22 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8cb9d4d75eca59ee3749197de8b373a33b4515d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c1970b85b5b0c76174dfbc9d6dcec9ac24cc4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183859"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534066"
 ---
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Сводка по портам — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**Последнее изменение темы:** 2012-10-21_
 <th>Роль/протокол/TCP или UDP/порт</th>
 <th>Исходный IP-адрес</th>
 <th>Конечный IP-адрес</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -71,7 +73,7 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Сервер переднего плана или интерфейсный пул</p></td>
 <td><p>Межсерверное взаимодействие между директором HLB VIP и серверами переднего плана</p></td>
 </tr>
@@ -95,21 +97,21 @@ _**Последнее изменение темы:** 2012-10-21_
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Любые</p></td>
-<td><p>Режиссер</p></td>
-<td><p>Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</p></td>
+<td><p>Любой</p></td>
+<td><p>Директор</p></td>
+<td><p>Команды и сбор журналов централизованной службы ведения журналов (ClsController.exe) или агента (ClsAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Любые</p></td>
-<td><p>Режиссер</p></td>
-<td><p>Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</p></td>
+<td><p>Любой</p></td>
+<td><p>Директор</p></td>
+<td><p>Команды и сбор журналов централизованной службы ведения журналов (ClsController.exe) или агента (ClsAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Любые</p></td>
-<td><p>Режиссер</p></td>
-<td><p>Команды и коллекция журналов для централизованного ведения журналов (ClsController. exe) или агента (ClsAgent. exe)</p></td>
+<td><p>Любой</p></td>
+<td><p>Директор</p></td>
+<td><p>Команды и сбор журналов централизованной службы ведения журналов (ClsController.exe) или агента (ClsAgent.exe)</p></td>
 </tr>
 </tbody>
 </table>

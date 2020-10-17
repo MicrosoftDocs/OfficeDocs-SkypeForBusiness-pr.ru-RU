@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535326"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Командлеты Windows PowerShell для служб адресной книги в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Командлеты Windows PowerShell для служб адресной книги в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210226"
 
 _**Последнее изменение темы:** 2012-11-01_
 
-Lync Server предоставляет несколько командлетов интерфейса командной строки Windows PowerShell для управления и настройки службы адресной книги. Некоторые из этих командлетов представляют собой замены для команд ABServer. exe, используемых в предыдущих версиях Office Communications Server. В следующих разделах описываются командлеты, используемые для задания, создания и извлечения сведений о службе адресной книги, ее настройках, а также сведений о веб-службах, которые используются службой адресной книги при извлечении клиентами ее файлов и параметров.
+Lync Server предоставляет несколько командлетов интерфейса командной строки Windows PowerShell для управления и настройки службы адресной книги. Некоторые из этих командлетов являются заменой для команд ABServer.exe, используемых в предыдущих версиях Office Communications Server. В следующих разделах описываются командлеты, используемые для задания, создания и извлечения сведений о службе адресной книги, ее настройках, а также сведений о веб-службах, которые используются службой адресной книги при извлечении клиентами ее файлов и параметров.
 
 Все эти командлеты выдаются с помощью командной консоли Lync Server, которую можно найти в средствах Lync Server на сервере или рабочей станции, на которых установлены средства администрирования.
 

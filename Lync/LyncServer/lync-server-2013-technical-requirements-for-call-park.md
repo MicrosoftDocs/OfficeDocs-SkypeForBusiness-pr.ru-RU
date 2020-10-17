@@ -12,20 +12,22 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6467f4047754697322780373521cdd47fe1e1ba3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b5fb5f86dd575daf603bd0a21235184346bca05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194952"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533956"
 ---
+# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Технические требования для парковки вызовов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Технические требования для парковки вызовов в Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**Последнее изменение темы:** 2013-11-07_
 
 Приложение парковки вызовов использует следующий порт:
 
-  - **Порт 5075**   используется для запросов прослушивания SIP.
+  - **Порт 5075**     Используется для запросов прослушивания SIP.
 
 <div>
 
@@ -89,7 +91,7 @@ _**Последнее изменение темы:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>Требования к аудиофайлам
 
-Приложение парковки вызовов поддерживает только файлы Windows Media Audio (WMA) для музыки при удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для музыкальных файлов на удержании. Чтобы скачать Expression Encoder 4, обратитесь к разделу "Expression Encoder [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)4" на странице. Используйте средство, чтобы преобразовать файл в формат WMA. Рекомендуемый формат для файлов музыки для парковки на удержание вызовов — Media Audio 9, 44 кГц, 16 бит, моно, CBR, 32 кбит/с.
+Приложение парковки вызовов поддерживает только файлы Windows Media Audio (WMA) для музыки при удержании. Вы можете использовать Microsoft Expression Encoder 4 для настройки файлов для музыкальных файлов на удержании. Чтобы скачать Expression Encoder 4, обратитесь к разделу "Expression Encoder 4" на странице [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) . Используйте средство, чтобы преобразовать файл в формат WMA. Рекомендуемый формат для файлов музыки для парковки на удержание вызовов — Media Audio 9, 44 кГц, 16 бит, моно, CBR, 32 кбит/с.
 
 <div>
 

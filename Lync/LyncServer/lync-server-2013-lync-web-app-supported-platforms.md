@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534616"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Платформы, поддерживаемые в Lync Web App для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Платформы, поддерживаемые в Lync Web App для Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2017-02-07_
 <td><p>Хром<sup>4</sup></p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 10</p></td>
+<td><p>Windows 10;</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Н/Д</p></td>
@@ -183,7 +185,7 @@ _**Последнее изменение темы:** 2017-02-07_
 
 <sup>3</sup> в поддерживаемых операционных системах Windows Server 2008, компьютерная голосовая связь и видео недоступны. Доступны Просмотр приложений, общий доступ к приложениям, просмотр рабочего стола и общий доступ к рабочему столу.
 
-<sup>4</sup> для подключаемого модуля необходима поддержка NPAPI в браузере. Firefox удалил поддержку NPAPI в версии 52,0, а поддержка Chrome удалена в версии 45, поэтому эти браузеры больше не поддерживаются в текущих версиях.
+<sup>4</sup>  для подключаемого модуля необходима поддержка NPAPI в браузере. Firefox удалил поддержку NPAPI в версии 52,0, а поддержка Chrome удалена в версии 45, поэтому эти браузеры больше не поддерживаются в текущих версиях.
 
 </div>
 

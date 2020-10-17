@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533996"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Сводка по портам — единственный директор в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Сводка по портам — единственный директор в Lync Server 2013
+
 
 </div>
 
@@ -53,25 +55,25 @@ _**Последнее изменение темы:** 2012-10-20_
 <th>Роль/протокол/TCP или UDP/порт</th>
 <th>Исходный IP-адрес</th>
 <th>Конечный IP-адрес</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>Внутренний интерфейс обратного прокси-сервера</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Полученная внешними сторонами обратного прокси-сервера, связь передается в директории и веб-службы сервера переднего плана</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>Внутренний интерфейс обратного прокси-сервера</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Полученная внешними сторонами обратного прокси-сервера, связь передается в директории и веб-службы сервера переднего плана</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Сервер переднего плана или интерфейсный пул</p></td>
 <td><p>Межсерверное взаимодействие между директором и сервером переднего плана</p></td>
 </tr>
@@ -90,24 +92,24 @@ _**Последнее изменение темы:** 2012-10-20_
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>Внутренний интерфейс пограничного сервера</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Обмен данными SIP от пограничного сервера к директоре и внешнему серверу.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Внутренний интерфейс пограничного сервера</p></td>
 <td><p>Команды и сбор данных журнала для контроллера централизованной службы ведения журналов (ClsController.exe) или агента (ClasAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Внутренний интерфейс пограничного сервера</p></td>
 <td><p>Команды и сбор данных журнала для контроллера централизованной службы ведения журналов (ClsController.exe) или агента (ClasAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Внутренний интерфейс пограничного сервера</p></td>
 <td><p>Команды и сбор данных журнала для контроллера централизованной службы ведения журналов (ClsController.exe) или агента (ClasAgent.exe)</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc4ab6a9c32a8b060308526fcdb1f1da403a9e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b77fae816140784e35c81dd9c30f4cf8790f5bef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186162"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534736"
 ---
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management Shell
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management Shell
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Последнее изменение темы:** 2017-09-20_
 
 
 > [!NOTE]  
-> Ссылка на командлет Skype для бизнеса перемещена в docs.microsoft.com. Перейдя по приведенным ниже ссылкам, вы перейдете на новую страницу docs.microsoft.com. Теперь контент открыт в исходном и доступном для участия в сообществах с помощью GitHub. Интересуетесь участниками? Ознакомьтесь со статьей README в репозитории здесь:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Ссылка на командлет Skype для бизнеса перемещена в docs.microsoft.com. Перейдя по приведенным ниже ссылкам, вы перейдете на новую страницу docs.microsoft.com. Теперь контент открыт в исходном и доступном для участия в сообществах с помощью GitHub. Интересуетесь участниками? Ознакомьтесь со статьей README в репозитории здесь: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -74,7 +76,7 @@ Windows PowerShell позволяет управлять приложениям�
 
   - Консоль управления Lync Server автоматически устанавливается на каждом сервере переднего плана Lync Server Enterprise Edition или на сервере Standard Edition.
 
-  - Новые и обновленные сведения, примеры сценариев и Справка по началу работы и дополнительные сведения о командлетах Windows PowerShell и Microsoft Lync Server 2013 доступны в блоге [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)Lync Server Windows PowerShell.
+  - Новые и обновленные сведения, примеры сценариев и Справка по началу работы и дополнительные сведения о командлетах Windows PowerShell и Microsoft Lync Server 2013 доступны в блоге Lync Server Windows PowerShell [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) .
 
 </div>
 

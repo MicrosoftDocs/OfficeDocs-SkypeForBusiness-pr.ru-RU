@@ -12,20 +12,22 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 001a94927d6160d138d344bf1a8fffcf519b58b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184962"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534396"
 ---
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Изменение магистрали в построителе топологий в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Изменение магистрали в построителе топологий в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2012-09-21_
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.
+2.  Выполните командлет Set-CsPstnGateway и измените поле Алтернатебипассид в командной консоли Lync Server.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -57,7 +59,7 @@ _**Последнее изменение темы:** 2012-09-21_
 
 1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Выполните командлет Set – CsPstnGateway и измените значение поля Алтернатебипассид в командной консоли Lync Server.
+2.  Выполните командлет Set-CsPstnGateway и измените поле Алтернатебипассид в командной консоли Lync Server.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a5565080f2b5fab0f47cc944f9569f55e8721c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533816"
 ---
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Технические требования для IPv6 в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Технические требования для IPv6 в Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2012-10-30_
     
     Можно развернуть записи узла DNS для IPv6 перед началом использования IPv6. Если клиент или сервер не используют IPv6, запись не будет указываться. Технологии туннелирования будут принимать решение относительно того, какую запись следует использовать, в зависимости от конфигурации технологии туннелирования и политик.
 
-  - Каждый адрес IPv6 обладает определенной областью. Три области, которые можно использовать для адресации IPv6, это глобальные IPv6-адреса (аналогичные общедоступным IPv4-адресам), уникальные локальные адреса IPv6 (аналогично диапазонам частных IPv4-адресов) и IPv6-адресам локальной связи (аналогично автоматическим частным IP-адресам в Windows Server для IPv4). Всем серверам в пуле должны быть назначены адреса IPv6, относящиеся к одной и той же области.
+  - Каждый адрес IPv6 обладает определенной областью. Три области, которые можно использовать для адресации IPv6, это глобальные IPv6-адреса (аналогичные общедоступным IPv4-адресам), уникальные локальные адреса IPv6 (аналогичные диапазонам частных IPv4-адресов) и IPv6-адреса локальной связи (аналогично автоматическим частным IP-адресам в Windows Server для IPv4). Всем серверам в пуле должны быть назначены адреса IPv6, относящиеся к одной и той же области.
 
 <div>
 

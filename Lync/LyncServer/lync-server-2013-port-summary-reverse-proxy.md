@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183912"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534156"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Сводка по портам — обратный прокси-сервер в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Сводка по портам — обратный прокси-сервер в Lync Server 2013
+
 
 </div>
 
@@ -76,20 +78,20 @@ _**Последнее изменение темы:** 2013-02-15_
 <th>Протокол/TCP или UDP/порт</th>
 <th>IP-адрес источника</th>
 <th>IP-адрес назначения</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Слушатель обратного прокси-сервера</p></td>
-<td><p>Необязательно Перенаправление на HTTPS, если пользователь вводит http://&lt;публишедситефкдн&gt;.</p>
+<td><p>Необязательно Перенаправление на HTTPS, если пользователь вводит http:// &lt; публишедситефкдн &gt; .</p>
 <p>Кроме того, необходимо использовать Office Web Apps для конференций и службу автообнаружения для мобильных устройств, работающих с Lync, в ситуациях, когда организациям не требуется изменять сертификат правила публикации внешних веб-служб.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Слушатель обратного прокси-сервера</p></td>
 <td><p>Загрузка адресной книги, служба веб-запросов к адресной книге, автообнаружение, обновление клиентов, содержимое собраний, обновления устройств, развертывание групп, Office Web Apps для конференций, Конференц-связь с телефонным подключением и собрания.</p></td>
 </tr>
@@ -111,7 +113,7 @@ _**Последнее изменение темы:** 2013-02-15_
 <th>Протокол/TCP или UDP/порт</th>
 <th>IP-адрес источника</th>
 <th>IP-адрес назначения</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
