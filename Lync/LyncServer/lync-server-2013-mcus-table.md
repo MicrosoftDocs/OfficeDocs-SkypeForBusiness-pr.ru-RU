@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица MCUs'
+description: 'Lync Server 2013: таблица MCUs.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 696a32ec4329b06c67dc8c54ba3ff2c1f15486d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b0b5d0bcbebb5efc1d767776b4581b18d9f2ed18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524666"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556485"
 ---
-# <a name="mcus-table-in-lync-server-2013"></a><span data-ttu-id="e6018-102">Таблица MCUs в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6018-102">Mcus table in Lync Server 2013</span></span>
+# <a name="mcus-table-in-lync-server-2013"></a><span data-ttu-id="cefc0-103">Таблица MCUs в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cefc0-103">Mcus table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524666"
 
 <span> </span>
 
-<span data-ttu-id="e6018-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="e6018-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cefc0-104">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cefc0-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="e6018-104">Таблица MCUs является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="e6018-104">The Mcus table is a supporting table.</span></span> <span data-ttu-id="e6018-105">Каждая запись содержит сведения об одной службе конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="e6018-105">Each record stores information about one conferencing service.</span></span> <span data-ttu-id="e6018-106">Они могут включать службу конференц-связи для обмена мгновенными сообщениями и службу конференц-связи, выполняемую как процессы на интерфейсных серверах, а также службу веб-конференций и службу аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="e6018-106">These can include the IM Conferencing service and the Telephony Conferencing service (which run as processes on front-end servers), and the Web Conferencing service and A/V Conferencing service.</span></span>
+<span data-ttu-id="cefc0-105">Таблица MCUs является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="cefc0-105">The Mcus table is a supporting table.</span></span> <span data-ttu-id="cefc0-106">Каждая запись содержит сведения об одной службе конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="cefc0-106">Each record stores information about one conferencing service.</span></span> <span data-ttu-id="cefc0-107">Они могут включать службу конференц-связи для обмена мгновенными сообщениями и службу конференц-связи, выполняемую как процессы на интерфейсных серверах, а также службу веб-конференций и службу аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="cefc0-107">These can include the IM Conferencing service and the Telephony Conferencing service (which run as processes on front-end servers), and the Web Conferencing service and A/V Conferencing service.</span></span>
 
 
 <table>
@@ -51,30 +52,30 @@ ms.locfileid: "48524666"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e6018-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="e6018-107">Column</span></span></th>
-<th><span data-ttu-id="e6018-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="e6018-108">Data Type</span></span></th>
-<th><span data-ttu-id="e6018-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="e6018-109">Key/Index</span></span></th>
-<th><span data-ttu-id="e6018-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="e6018-110">Details</span></span></th>
+<th><span data-ttu-id="cefc0-108">Столбец</span><span class="sxs-lookup"><span data-stu-id="cefc0-108">Column</span></span></th>
+<th><span data-ttu-id="cefc0-109">Тип данных</span><span class="sxs-lookup"><span data-stu-id="cefc0-109">Data Type</span></span></th>
+<th><span data-ttu-id="cefc0-110">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="cefc0-110">Key/Index</span></span></th>
+<th><span data-ttu-id="cefc0-111">Сведения</span><span class="sxs-lookup"><span data-stu-id="cefc0-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6018-111"><strong>мкуид</strong></span><span class="sxs-lookup"><span data-stu-id="e6018-111"><strong>McuId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6018-112">int</span><span class="sxs-lookup"><span data-stu-id="e6018-112">int</span></span></p></td>
-<td><p><span data-ttu-id="e6018-113">Primary</span><span class="sxs-lookup"><span data-stu-id="e6018-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e6018-114">Уникальный номер, идентифицирующий этот сервер конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="e6018-114">Unique number identifying this conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-112"><strong>мкуид</strong></span><span class="sxs-lookup"><span data-stu-id="cefc0-112"><strong>McuId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cefc0-113">int</span><span class="sxs-lookup"><span data-stu-id="cefc0-113">int</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-114">Primary</span><span class="sxs-lookup"><span data-stu-id="cefc0-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-115">Уникальный номер, идентифицирующий этот сервер конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="cefc0-115">Unique number identifying this conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6018-115"><strong>мкуури</strong></span><span class="sxs-lookup"><span data-stu-id="e6018-115"><strong>McuUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6018-116">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="e6018-116">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-116"><strong>мкуури</strong></span><span class="sxs-lookup"><span data-stu-id="cefc0-116"><strong>McuUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="cefc0-117">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="cefc0-117">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e6018-117"><strong>мкутипеид</strong></span><span class="sxs-lookup"><span data-stu-id="e6018-117"><strong>McuTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e6018-118">ининт</span><span class="sxs-lookup"><span data-stu-id="e6018-118">inyint</span></span></p></td>
-<td><p><span data-ttu-id="e6018-119"> Правительства</span><span class="sxs-lookup"><span data-stu-id="e6018-119"> Foreign</span></span></p></td>
-<td><p><span data-ttu-id="e6018-120">Тип сервера конференций, например conf: Chat (для мгновенных сообщений) или conf: Audio-Video.</span><span class="sxs-lookup"><span data-stu-id="e6018-120">Conferencing server type, such as conf:chat (for IMs) or conf:audio-video.</span></span> <span data-ttu-id="e6018-121">Дополнительные сведения см. <a href="lync-server-2013-uritypes-table.md">в таблице таблица uritypes в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e6018-121">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-118"><strong>мкутипеид</strong></span><span class="sxs-lookup"><span data-stu-id="cefc0-118"><strong>McuTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cefc0-119">ининт</span><span class="sxs-lookup"><span data-stu-id="cefc0-119">inyint</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-120"> Правительства</span><span class="sxs-lookup"><span data-stu-id="cefc0-120"> Foreign</span></span></p></td>
+<td><p><span data-ttu-id="cefc0-121">Тип сервера конференций, например conf: Chat (для мгновенных сообщений) или conf: Audio-Video.</span><span class="sxs-lookup"><span data-stu-id="cefc0-121">Conferencing server type, such as conf:chat (for IMs) or conf:audio-video.</span></span> <span data-ttu-id="cefc0-122">Дополнительные сведения см. <a href="lync-server-2013-uritypes-table.md">в таблице таблица uritypes в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="cefc0-122">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

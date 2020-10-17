@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Добавление ролей сервера'
+description: 'Lync Server 2013: Добавление ролей сервера.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56b37e7bfac81d80cb1e953e0e4284568d2e7dd9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59d1b7a2d8ca7feba2a192e2f868a8661311ba8f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505106"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558215"
 ---
-# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="c2499-102">Добавление ролей сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2499-102">Adding server roles in Lync Server 2013</span></span>
+# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="0a02d-103">Добавление ролей сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a02d-103">Adding server roles in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48505106"
 
 <span> </span>
 
-<span data-ttu-id="c2499-103">_**Последнее изменение темы:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="c2499-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="0a02d-104">_**Последнее изменение темы:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="0a02d-104">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="c2499-104">После первоначального развертывания и запуска можно добавить дополнительные роли сервера для Lync Server 2013, например директора или изолированного сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="c2499-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
+<span data-ttu-id="0a02d-105">После первоначального развертывания и запуска можно добавить дополнительные роли сервера для Lync Server 2013, например директора или изолированного сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="0a02d-105">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c2499-105">Перед установкой дополнительных ролей сервера ознакомьтесь с разделами по планированию по каждой устанавливаемой роли.</span><span class="sxs-lookup"><span data-stu-id="c2499-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
+> <span data-ttu-id="0a02d-106">Перед установкой дополнительных ролей сервера ознакомьтесь с разделами по планированию по каждой устанавливаемой роли.</span><span class="sxs-lookup"><span data-stu-id="0a02d-106">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
 
 
 
@@ -53,11 +54,11 @@ ms.locfileid: "48505106"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c2499-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="c2499-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0a02d-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="0a02d-107">In This Section</span></span>
 
-  - [<span data-ttu-id="c2499-107">Настройка конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2499-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [<span data-ttu-id="0a02d-108">Настройка конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a02d-108">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
-<span data-ttu-id="c2499-108">Кроме того, для получения дополнительных сведений о развертывании клиентского программного обеспечения и устройств, которые можно использовать с Lync Server 2013, ознакомьтесь со статьей [развертывание клиентов и устройств в Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="c2499-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
+<span data-ttu-id="0a02d-109">Кроме того, для получения дополнительных сведений о развертывании клиентского программного обеспечения и устройств, которые можно использовать с Lync Server 2013, ознакомьтесь со статьей [развертывание клиентов и устройств в Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="0a02d-109">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
 
 </div>
 

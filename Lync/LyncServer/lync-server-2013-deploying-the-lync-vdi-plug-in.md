@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Развертывание подключаемого модуля VDI для Lync'
+description: 'Lync Server 2013: Развертывание подключаемого модуля VDI для Lync.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160ca4459a73697e1a4dc82c9fd4b680e16f7beb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3addecb07f269e4524f3da835f479439639935ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522866"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557805"
 ---
-# <a name="deploying-the-lync-vdi-plug-in-in-lync-server-2013"></a><span data-ttu-id="93ac3-102">Развертывание подключаемого модуля VDI для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93ac3-102">Deploying the Lync VDI plug-in in Lync Server 2013</span></span>
+# <a name="deploying-the-lync-vdi-plug-in-in-lync-server-2013"></a><span data-ttu-id="54ab0-103">Развертывание подключаемого модуля VDI для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54ab0-103">Deploying the Lync VDI plug-in in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48522866"
 
 <span> </span>
 
-<span data-ttu-id="93ac3-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="93ac3-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="54ab0-104">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="54ab0-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="93ac3-104">Клиент Lync 2013 поддерживает аудио и видео в среде инфраструктуры виртуальных рабочих столов (VDI).</span><span class="sxs-lookup"><span data-stu-id="93ac3-104">The Lync 2013 client supports audio and video in a Virtual Desktop Infrastructure (VDI) environment.</span></span> <span data-ttu-id="93ac3-105">Пользователь может подключить аудио- или видеоустройство (например, гарнитуру или камеру) к локальному компьютеру (например, к тонкому клиенту или используемому в качестве такового старому компьютеру).</span><span class="sxs-lookup"><span data-stu-id="93ac3-105">A user can connect an audio or video device (for example, a headset or a camera) to the local computer (for example, a thin client or repurposed computer).</span></span> <span data-ttu-id="93ac3-106">Пользователь может подключиться к виртуальной машине, войти в клиент Lync 2013, запущенный на виртуальной машине, и участвовать в голосовой и видеосвязи в режиме реального времени, как будто клиент запущен на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="93ac3-106">The user can connect to the virtual machine, sign in to the Lync 2013 client that is running on the virtual machine, and participate in real-time audio and video communications as though the client is running locally.</span></span>
+<span data-ttu-id="54ab0-105">Клиент Lync 2013 поддерживает аудио и видео в среде инфраструктуры виртуальных рабочих столов (VDI).</span><span class="sxs-lookup"><span data-stu-id="54ab0-105">The Lync 2013 client supports audio and video in a Virtual Desktop Infrastructure (VDI) environment.</span></span> <span data-ttu-id="54ab0-106">Пользователь может подключить аудио- или видеоустройство (например, гарнитуру или камеру) к локальному компьютеру (например, к тонкому клиенту или используемому в качестве такового старому компьютеру).</span><span class="sxs-lookup"><span data-stu-id="54ab0-106">A user can connect an audio or video device (for example, a headset or a camera) to the local computer (for example, a thin client or repurposed computer).</span></span> <span data-ttu-id="54ab0-107">Пользователь может подключиться к виртуальной машине, войти в клиент Lync 2013, запущенный на виртуальной машине, и участвовать в голосовой и видеосвязи в режиме реального времени, как будто клиент запущен на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="54ab0-107">The user can connect to the virtual machine, sign in to the Lync 2013 client that is running on the virtual machine, and participate in real-time audio and video communications as though the client is running locally.</span></span>
 
-<span data-ttu-id="93ac3-107">Подключаемый модуль VDI для Lync — это автономное приложение, устанавливаемое на локальном компьютере и позволяющее использовать локальные аудио-и видеоустройства с клиентом Lync 2013, запущенным на виртуальной машине.</span><span class="sxs-lookup"><span data-stu-id="93ac3-107">The Lync VDI Plug-in is a stand-alone application that installs on the local computer and allows the use of local audio and video devices with the Lync 2013 client running on the virtual machine.</span></span> <span data-ttu-id="93ac3-108">Для подключаемого модуля не требуется установка Lync на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="93ac3-108">The plug-in does not require Lync to be installed on the local computer.</span></span> <span data-ttu-id="93ac3-109">После того как пользователь войдет в клиент Lync 2013, запущенный на виртуальной машине, Lync предложит пользователю повторно ввести свои учетные данные, чтобы установить подключение к подключаемому модулю Lync VDI, запущенному на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="93ac3-109">After the user signs in to the Lync 2013 client that is running on the virtual machine, Lync prompts the user to re-enter his or her credentials to establish a connection with the Lync VDI Plug-in that is running on the local computer.</span></span> <span data-ttu-id="93ac3-110">После того как это подключение установлено, пользователь готов выполнять и принимать аудио- и видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="93ac3-110">After this connection is established, the user is ready to make and receive audio and video calls.</span></span>
+<span data-ttu-id="54ab0-108">Подключаемый модуль VDI для Lync — это автономное приложение, устанавливаемое на локальном компьютере и позволяющее использовать локальные аудио-и видеоустройства с клиентом Lync 2013, запущенным на виртуальной машине.</span><span class="sxs-lookup"><span data-stu-id="54ab0-108">The Lync VDI Plug-in is a stand-alone application that installs on the local computer and allows the use of local audio and video devices with the Lync 2013 client running on the virtual machine.</span></span> <span data-ttu-id="54ab0-109">Для подключаемого модуля не требуется установка Lync на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="54ab0-109">The plug-in does not require Lync to be installed on the local computer.</span></span> <span data-ttu-id="54ab0-110">После того как пользователь войдет в клиент Lync 2013, запущенный на виртуальной машине, Lync предложит пользователю повторно ввести свои учетные данные, чтобы установить подключение к подключаемому модулю Lync VDI, запущенному на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="54ab0-110">After the user signs in to the Lync 2013 client that is running on the virtual machine, Lync prompts the user to re-enter his or her credentials to establish a connection with the Lync VDI Plug-in that is running on the local computer.</span></span> <span data-ttu-id="54ab0-111">После того как это подключение установлено, пользователь готов выполнять и принимать аудио- и видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="54ab0-111">After this connection is established, the user is ready to make and receive audio and video calls.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="93ac3-111">Содержание этого раздела</span><span class="sxs-lookup"><span data-stu-id="93ac3-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="54ab0-112">Содержание этого раздела</span><span class="sxs-lookup"><span data-stu-id="54ab0-112">In This Section</span></span>
 
-  - [<span data-ttu-id="93ac3-112">Необходимые условия для подключаемого модуля Lync VDI в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93ac3-112">Lync VDI plug-in prerequisites in Lync Server 2013</span></span>](lync-server-2013-lync-vdi-plug-in-prerequisites.md)
+  - [<span data-ttu-id="54ab0-113">Необходимые условия для подключаемого модуля Lync VDI в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54ab0-113">Lync VDI plug-in prerequisites in Lync Server 2013</span></span>](lync-server-2013-lync-vdi-plug-in-prerequisites.md)
 
-  - [<span data-ttu-id="93ac3-113">Подготовка среды Lync Server 2013 для VDI</span><span class="sxs-lookup"><span data-stu-id="93ac3-113">Preparing your Lync Server 2013 environment for VDI</span></span>](lync-server-2013-preparing-your-environment-for-vdi.md)
+  - [<span data-ttu-id="54ab0-114">Подготовка среды Lync Server 2013 для VDI</span><span class="sxs-lookup"><span data-stu-id="54ab0-114">Preparing your Lync Server 2013 environment for VDI</span></span>](lync-server-2013-preparing-your-environment-for-vdi.md)
 
-  - [<span data-ttu-id="93ac3-114">Вход на виртуальную машину и использование Lync 2013</span><span class="sxs-lookup"><span data-stu-id="93ac3-114">Signing in and using Lync 2013 on the virtual machine</span></span>](lync-server-2013-signing-in-and-using-lync-2013-on-the-virtual-machine.md)
+  - [<span data-ttu-id="54ab0-115">Вход на виртуальную машину и использование Lync 2013</span><span class="sxs-lookup"><span data-stu-id="54ab0-115">Signing in and using Lync 2013 on the virtual machine</span></span>](lync-server-2013-signing-in-and-using-lync-2013-on-the-virtual-machine.md)
 
-  - [<span data-ttu-id="93ac3-115">Устранение неполадок подключаемого модуля VDI для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93ac3-115">Troubleshooting the Lync VDI plug-in in Lync Server 2013</span></span>](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
+  - [<span data-ttu-id="54ab0-116">Устранение неполадок подключаемого модуля VDI для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54ab0-116">Troubleshooting the Lync VDI plug-in in Lync Server 2013</span></span>](lync-server-2013-troubleshooting-the-lync-vdi-plug-in.md)
 
-  - [<span data-ttu-id="93ac3-116">Поддерживаемые технологии виртуализации и известные ограничения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93ac3-116">Supported virtualization technologies and known limitations in Lync Server 2013</span></span>](lync-server-2013-supported-virtualization-technologies-and-known-limitations.md)
+  - [<span data-ttu-id="54ab0-117">Поддерживаемые технологии виртуализации и известные ограничения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54ab0-117">Supported virtualization technologies and known limitations in Lync Server 2013</span></span>](lync-server-2013-supported-virtualization-technologies-and-known-limitations.md)
 
 </div>
 

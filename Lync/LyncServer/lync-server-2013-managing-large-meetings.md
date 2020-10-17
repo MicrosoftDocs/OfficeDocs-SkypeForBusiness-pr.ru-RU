@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: управление большими собраниями'
+description: 'Lync Server 2013: управление большим объемом собраний.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6f3a7e7e0b2be3d1e36b7de809c62d440a235b9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23f3631f1953976501ea06f7503a7456479e0faf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498266"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557495"
 ---
-# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="6c770-102">Управление большим объемом собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-102">Managing large meetings in Lync Server 2013</span></span>
+# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="c6e94-103">Управление большим объемом собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-103">Managing large meetings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48498266"
 
 <span> </span>
 
-<span data-ttu-id="6c770-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="6c770-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="c6e94-104">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c6e94-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="6c770-p101">После настройки выделенного пула для конференций с большим числом участников вы можете проверить, обеспечивают ли собрания с большим числом участников, размещенные в пуле, наилучшее взаимодействие с пользователями. В подразделах этого раздела описывается, как организовывать собрания с большим числом участников и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="6c770-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
+<span data-ttu-id="c6e94-p101">После настройки выделенного пула для конференций с большим числом участников вы можете проверить, обеспечивают ли собрания с большим числом участников, размещенные в пуле, наилучшее взаимодействие с пользователями. В подразделах этого раздела описывается, как организовывать собрания с большим числом участников и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="c6e94-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6c770-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="6c770-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c6e94-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="c6e94-107">In This Section</span></span>
 
-  - [<span data-ttu-id="6c770-107">Выделенные организаторов собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
+  - [<span data-ttu-id="c6e94-108">Выделенные организаторов собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-108">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [<span data-ttu-id="6c770-108">Отдельный календарь больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
+  - [<span data-ttu-id="c6e94-109">Отдельный календарь больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-109">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
 
-  - [<span data-ttu-id="6c770-109">Процесс планирования больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
+  - [<span data-ttu-id="c6e94-110">Процесс планирования больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-110">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
 
-  - [<span data-ttu-id="6c770-110">Сведения о планировании собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
+  - [<span data-ttu-id="c6e94-111">Сведения о планировании собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-111">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
 
-  - [<span data-ttu-id="6c770-111">Выполнение больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c770-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
+  - [<span data-ttu-id="c6e94-112">Выполнение больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6e94-112">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
 
 </div>
 
