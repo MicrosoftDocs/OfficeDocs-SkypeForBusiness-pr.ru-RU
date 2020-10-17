@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: назначение политики конференц-связи на уровне пользователей'
+description: 'Lync Server 2013: назначение политики конференц-связи на уровне пользователя.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 819d1431a2a7a921ff8c306c47c8b5f86bf5d5bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134455"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559925"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Назначение политики конференц-связи на уровне пользователя в Lync Server 2013
 
@@ -77,10 +78,10 @@ ms.locfileid: "42134455"
     
 
     > [!NOTE]  
-    > Так как существует несколько политик, которые можно настроить в разделе <STRONG>назначение политик</STRONG>, <STRONG> &lt;&gt; </STRONG> по умолчанию для каждой политики в диалоговом окне выбран параметр Сохранить как. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
+    > Так как существует несколько политик, которые можно настроить в разделе <STRONG>назначение политик</STRONG>, по умолчанию для каждой политики в диалоговом окне выбран параметр <STRONG> &lt; &gt; Сохранить как</STRONG> . Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
 
     
-      - Выберите ** \<автоматически\> ** , чтобы разрешить Lync Server 2013 автоматически выбрать политику глобального уровня или, если она определена, политику на уровне сайта.
+      - Установите флажок, **\<Automatic\>** чтобы разрешить Lync Server 2013 автоматически выбирать политику глобального уровня или, если она определена, политику на уровне сайта.
     
       - Щелкните название политики конференц-связи на уровне пользователя, которую вы ранее определили на странице **Политика конференц-связи**.
         
@@ -92,9 +93,9 @@ ms.locfileid: "42134455"
 
 8.  По завершении нажмите кнопку **ОК**.
 
-## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики конференц-связи на уровне пользователя с помощью командлетов Windows PowerShell
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики конференц-связи с Per-User с помощью командлетов Windows PowerShell
 
-Политики конференц-связи для отдельных пользователей можно назначить с помощью Windows PowerShell и командлета Grant-CsConferencingPolicy. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Политики конференц-связи для отдельных пользователей можно назначить с помощью Windows PowerShell и командлета Grant-CsConferencingPolicy. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>Назначение индивидуальной политики конференц-связи одному пользователю
 

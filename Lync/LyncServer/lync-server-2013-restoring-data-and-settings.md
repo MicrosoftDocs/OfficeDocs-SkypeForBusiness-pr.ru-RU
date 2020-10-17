@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: восстановление данных и параметров'
+description: 'Lync Server 2013: восстановление данных и параметров.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 396899d636572e89782112ca7fa445ef1cb255e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 694b1e362d729d354b08367d31c47e8ca866dd91
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511436"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560295"
 ---
 # <a name="restoring-data-and-settings-in-lync-server-2013"></a>Восстановление данных и параметров в Lync Server 2013
 

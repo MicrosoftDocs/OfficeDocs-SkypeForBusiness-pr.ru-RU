@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: назначение политики абонентской группы на уровне пользователя'
+description: 'Lync Server 2013: назначение политики абонентской группы на уровне пользователя.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 654c1f15ccb1efa4d1aa35d957df7a2654fa41d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134445"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559905"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Назначение политики абонентской группы на уровне пользователя в Lync Server 2013
 
@@ -48,9 +49,9 @@ ms.locfileid: "42134445"
 
 Более подробную информацию о настройке абонентских группы можно узнать в статье [Настройка абонентских группы в Lync Server 2013](lync-server-2013-configuring-dial-plans.md) .
 
-## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Назначение абонентской группы на уровне пользователей с помощью командлетов Windows PowerShell
+## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Назначение абонентской группы Per-User с помощью командлетов Windows PowerShell
 
-Абонентские группы для отдельных пользователей можно назначить с помощью Windows PowerShell и командлета **Grant – CsdialPlan** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Абонентские группы для отдельных пользователей можно назначить с помощью Windows PowerShell и командлета **Grant – CsdialPlan** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Назначение абонентской группы отдельных пользователей одному пользователю
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Проверка структуры топологии'
+description: 'Lync Server 2013: Проверка структуры топологии.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e8dae20a945194fb4fda2bcc84eab232d9b34e1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cb1e65343aacddbc11d3b909dfdff715503cab93
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518596"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560195"
 ---
 # <a name="verify-the-topology-design-in-lync-server-2013"></a>Проверка структуры топологии в Lync Server 2013
 

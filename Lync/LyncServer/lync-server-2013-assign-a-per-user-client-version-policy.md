@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: назначение политики версий клиентов на уровне пользователей'
+description: 'Lync Server 2013: назначьте политику версий клиентов на уровне пользователей.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b84c4550d44a09e786d09d093e64cbc1901d91
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ec2fcbf9c005806a97dfbdceb22095fe0ff8f33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134465"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559985"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Назначение политики версий клиентов на уровне пользователей в Lync Server 2013
 
@@ -75,7 +76,7 @@ ms.locfileid: "42134465"
     
 
     > [!NOTE]  
-    > Так как существует несколько политик, которые можно настроить с помощью диалогового окна <STRONG>Assign Policies (назначить политики</STRONG> ), <STRONG> &lt;&gt; </STRONG> по умолчанию для каждой политики в диалоговом окне флажок Сохранить как установлен. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
+    > Так как существует несколько политик, которые можно настроить с помощью диалогового окна <STRONG>Assign Policies (назначить политики</STRONG> ), по умолчанию для каждой политики в диалоговом окне флажок <STRONG> &lt; &gt; Сохранить как</STRONG> установлен. Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.
 
     
       - Разрешить Lync Server автоматически выбирать либо политику глобального уровня, либо политику на уровне сайта или на уровне пула.
@@ -90,9 +91,9 @@ ms.locfileid: "42134465"
 
 8.  По завершении нажмите кнопку **ОК**.
 
-## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики версий клиентов на уровне пользователей с помощью командлетов Windows PowerShell
+## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики версий клиентов Per-User с помощью командлетов Windows PowerShell
 
-Индивидуальную политику версий клиента можно назначить с помощью командлета Grant-CsClientVersionPolicy. Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Индивидуальную политику версий клиента можно назначить с помощью командлета Grant-CsClientVersionPolicy. Этот командлет можно выполнить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>Назначение индивидуальной политики версий клиента одному пользователю
 

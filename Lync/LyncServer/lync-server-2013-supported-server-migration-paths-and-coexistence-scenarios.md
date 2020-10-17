@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Поддерживаемые пути миграции серверов и сценарии сосуществования'
+description: 'Lync Server 2013: Поддерживаемые пути миграции серверов и сценарии сосуществования.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523976"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560235"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Поддерживаемые пути миграции и сценарии сосуществования серверов в Lync Server 2013
 
@@ -82,7 +83,7 @@ Lync Server 2013 может сосуществовать с компонента
 
 Для экземпляров базы данных Lync Server 2013 необходимо использовать отдельные и разные компьютеры, на которых работает Microsoft SQL Server 2008 R2 или Microsoft SQL Server 2012. Нельзя использовать один и тот же экземпляр SQL Server для интерфейсного пула Lync Server 2013, который используется для интерфейсного пула Lync Server 2010 или Office Communications Server 2007 R2. Если вы определили и настроили Lync Server 2013 в построителе топологий для развертывания, в котором уже есть Lync Server 2010 или Office Communications Server 2007 R2, построитель топологий не позволит определить экземпляр сервера Lync Server 2013, который уже используется в топологии.
 
-В построителе топологий отобразится следующее сообщение об этой ошибке: " \[ полное доменное имя SQL Server \] уже содержит роль размещения экземпляра SQL" хранилище пользователей "."
+В построителе топологий отобразится следующее сообщение об этой ошибке: " \[ полное доменное имя SQL Server \] уже содержит роль размещения экземпляра SQL" хранилище пользователей ".
 
 <div>
 
