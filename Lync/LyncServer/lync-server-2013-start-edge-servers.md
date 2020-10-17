@@ -12,20 +12,22 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532976"
 ---
+# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="a1019-102">Запуск пограничных серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1019-102">Start Edge Servers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="c78f3-102">Запуск пограничных серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c78f3-102">Start Edge Servers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42208385"
 
 <span> </span>
 
-<span data-ttu-id="c78f3-103">_**Последнее изменение темы:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="c78f3-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="a1019-103">_**Последнее изменение темы:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="a1019-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="c78f3-104">После завершения настройки пограничных серверов и подсистем балансировки нагрузки потребуется запустить службы на каждом пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="c78f3-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
+<span data-ttu-id="a1019-104">После завершения настройки пограничных серверов и подсистем балансировки нагрузки потребуется запустить службы на каждом пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="a1019-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
 
 <div>
 
-## <a name="to-start-the-services"></a><span data-ttu-id="c78f3-105">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="c78f3-105">To start the services</span></span>
+## <a name="to-start-the-services"></a><span data-ttu-id="a1019-105">Запуск служб</span><span class="sxs-lookup"><span data-stu-id="a1019-105">To start the services</span></span>
 
-1.  <span data-ttu-id="c78f3-106">На каждом пограничном сервере в мастере развертывания в разделе **Step 4: Start Services** (Шаг 4. Запуск служб) нажмите кнопку **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="c78f3-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
+1.  <span data-ttu-id="a1019-106">На каждом пограничном сервере в мастере развертывания в разделе **Step 4: Start Services** (Шаг 4. Запуск служб) нажмите кнопку **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="a1019-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
 
-2.  <span data-ttu-id="c78f3-107">На странице **Start Lync Server 15 Services** (Запуск служб Lync Server 15) просмотрите список служб, а затем нажмите кнопку **Далее**, чтобы запустить службы.</span><span class="sxs-lookup"><span data-stu-id="c78f3-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
+2.  <span data-ttu-id="a1019-107">На странице **Start Lync Server 15 Services** (Запуск служб Lync Server 15) просмотрите список служб, а затем нажмите кнопку **Далее**, чтобы запустить службы.</span><span class="sxs-lookup"><span data-stu-id="a1019-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
 
-3.  <span data-ttu-id="c78f3-108">После того как службы будут запущены, нажмите кнопку **Готово**, чтобы закрыть мастер.</span><span class="sxs-lookup"><span data-stu-id="c78f3-108">After the services are started, click **Finish** to close the wizard.</span></span>
+3.  <span data-ttu-id="a1019-108">После того как службы будут запущены, нажмите кнопку **Готово**, чтобы закрыть мастер.</span><span class="sxs-lookup"><span data-stu-id="a1019-108">After the services are started, click **Finish** to close the wizard.</span></span>
 
-4.  <span data-ttu-id="c78f3-109">В разделе **Шаг 4. Запуск служб** щелкните шаг **Services Status (Optional)** (Состояние службы (дополнительно)).</span><span class="sxs-lookup"><span data-stu-id="c78f3-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="a1019-109">В разделе **Шаг 4. Запуск служб** щелкните шаг **Services Status (Optional)** (Состояние службы (дополнительно)).</span><span class="sxs-lookup"><span data-stu-id="a1019-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="c78f3-110">В консоли **управления Microsoft (** MMC) на сервере убедитесь, что все службы Lync Server 2013 работают.</span><span class="sxs-lookup"><span data-stu-id="c78f3-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="a1019-110">В консоли **управления Microsoft (** MMC) на сервере убедитесь, что все службы Lync Server 2013 работают.</span><span class="sxs-lookup"><span data-stu-id="a1019-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 

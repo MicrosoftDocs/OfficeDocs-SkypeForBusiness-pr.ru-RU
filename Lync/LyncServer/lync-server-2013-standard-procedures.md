@@ -12,20 +12,22 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 270261ea61aa8d2b0b8f1d3bbb97257ddd7a17e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 98f08eb27b35f6b8b9bcdbfcd4c5daff19bc2f70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181752"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533006"
 ---
+# <a name="standard-procedures-in-lync-server-2013"></a><span data-ttu-id="8042d-102">Стандартные процедуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8042d-102">Standard procedures in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-procedures-in-lync-server-2013"></a><span data-ttu-id="53501-102">Стандартные процедуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53501-102">Standard procedures in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,30 +37,30 @@ ms.locfileid: "42181752"
 
 <span> </span>
 
-<span data-ttu-id="53501-103">_**Последнее изменение темы:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="53501-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="8042d-103">_**Последнее изменение темы:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="8042d-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="53501-104">Некоторые ресурсы могут помочь определить, какие стандартные процедуры необходимы в Организации, и как их выполнять.</span><span class="sxs-lookup"><span data-stu-id="53501-104">Several resources can help you define what standard procedures are required in the organization, and how to perform them.</span></span> <span data-ttu-id="53501-105">Так как каждая организация уникальна, вам может потребоваться дополнительно настроить и адаптировать эти ресурсы для удовлетворения повседневных требований. Стандартные рабочие процедуры меняются, а документация иногда должна быть пересмотрена.</span><span class="sxs-lookup"><span data-stu-id="53501-105">Because each organization is unique, you may have to additionally customize and adapt these resources to suit everyday requirements.Standard operational procedures change, and documentation occasionally has to be revised.</span></span> <span data-ttu-id="53501-106">После внесения изменений процесс управления изменениями, как определено в функциях управления службами в Microsoft Operational Framework, должен определять, насколько часто каждое изменение может повлиять на то, как и когда выполняются административные задачи.</span><span class="sxs-lookup"><span data-stu-id="53501-106">As changes are made, the change management process, as defined in the Service Management Functions of the Microsoft Operational Framework, should identify how each change is likely to affect how and when administrative tasks are performed.</span></span> <span data-ttu-id="53501-107">Используйте функцию изменения управления для обновления и управления документацией по процедуре. Рекомендуется разделить операционные задачи на управляемые рабочие нагрузки, где задачи выполняются ежедневно, еженедельно, ежемесячно и по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="53501-107">Use the change management function to update and control the procedural documentation.We recommend that operational tasks be separated into manageable workloads, where tasks are performed on a daily, weekly, monthly, and as-needed basis.</span></span> <span data-ttu-id="53501-108">Ежедневные задачи будут сосредоточиться на аспектах, которые очень важны для работы системы и ежемесячных задач, чтобы сосредоточиться на долгосрочной работоспособности системы.</span><span class="sxs-lookup"><span data-stu-id="53501-108">Daily tasks would focus efforts on aspects that are very important to the functioning of a system and monthly tasks would focus more on ensuring the long-term health of a system.</span></span> <span data-ttu-id="53501-109">Задачи, которые необходимо выполнить, можно разделить на следующие категории:</span><span class="sxs-lookup"><span data-stu-id="53501-109">The tasks that must be performed can be separated into the following categories:</span></span>
+<span data-ttu-id="8042d-104">Некоторые ресурсы могут помочь определить, какие стандартные процедуры необходимы в Организации, и как их выполнять.</span><span class="sxs-lookup"><span data-stu-id="8042d-104">Several resources can help you define what standard procedures are required in the organization, and how to perform them.</span></span> <span data-ttu-id="8042d-105">Так как каждая организация уникальна, вам может потребоваться дополнительно настроить и адаптировать эти ресурсы для удовлетворения повседневных требований. Стандартные рабочие процедуры меняются, а документация иногда должна быть пересмотрена.</span><span class="sxs-lookup"><span data-stu-id="8042d-105">Because each organization is unique, you may have to additionally customize and adapt these resources to suit everyday requirements.Standard operational procedures change, and documentation occasionally has to be revised.</span></span> <span data-ttu-id="8042d-106">После внесения изменений процесс управления изменениями, как определено в функциях управления службами в Microsoft Operational Framework, должен определять, насколько часто каждое изменение может повлиять на то, как и когда выполняются административные задачи.</span><span class="sxs-lookup"><span data-stu-id="8042d-106">As changes are made, the change management process, as defined in the Service Management Functions of the Microsoft Operational Framework, should identify how each change is likely to affect how and when administrative tasks are performed.</span></span> <span data-ttu-id="8042d-107">Используйте функцию изменения управления для обновления и управления документацией по процедуре. Рекомендуется разделить операционные задачи на управляемые рабочие нагрузки, где задачи выполняются ежедневно, еженедельно, ежемесячно и по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="8042d-107">Use the change management function to update and control the procedural documentation.We recommend that operational tasks be separated into manageable workloads, where tasks are performed on a daily, weekly, monthly, and as-needed basis.</span></span> <span data-ttu-id="8042d-108">Ежедневные задачи будут сосредоточиться на аспектах, которые очень важны для работы системы и ежемесячных задач, чтобы сосредоточиться на долгосрочной работоспособности системы.</span><span class="sxs-lookup"><span data-stu-id="8042d-108">Daily tasks would focus efforts on aspects that are very important to the functioning of a system and monthly tasks would focus more on ensuring the long-term health of a system.</span></span> <span data-ttu-id="8042d-109">Задачи, которые необходимо выполнить, можно разделить на следующие категории:</span><span class="sxs-lookup"><span data-stu-id="8042d-109">The tasks that must be performed can be separated into the following categories:</span></span>
 
-  - [<span data-ttu-id="53501-110">Ежедневные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53501-110">Daily tasks in Lync Server 2013</span></span>](lync-server-2013-daily-tasks.md)
+  - [<span data-ttu-id="8042d-110">Ежедневные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8042d-110">Daily tasks in Lync Server 2013</span></span>](lync-server-2013-daily-tasks.md)
 
-  - [<span data-ttu-id="53501-111">Еженедельные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53501-111">Weekly tasks in Lync Server 2013</span></span>](lync-server-2013-weekly-tasks.md)
+  - [<span data-ttu-id="8042d-111">Еженедельные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8042d-111">Weekly tasks in Lync Server 2013</span></span>](lync-server-2013-weekly-tasks.md)
 
-  - [<span data-ttu-id="53501-112">Ежемесячные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53501-112">Monthly tasks in Lync Server 2013</span></span>](lync-server-2013-monthly-tasks.md)
+  - [<span data-ttu-id="8042d-112">Ежемесячные задачи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8042d-112">Monthly tasks in Lync Server 2013</span></span>](lync-server-2013-monthly-tasks.md)
 
-  - [<span data-ttu-id="53501-113">Задачи, необходимые для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53501-113">As-needed tasks in Lync Server 2013</span></span>](lync-server-2013-as-needed-tasks.md)
+  - [<span data-ttu-id="8042d-113">Задачи, необходимые для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8042d-113">As-needed tasks in Lync Server 2013</span></span>](lync-server-2013-as-needed-tasks.md)
 
-<span data-ttu-id="53501-114">При подготовке документации для управления операциями используйте контрольные списки, чтобы убедиться, что необходимые задачи выполняются в соответствующее время.</span><span class="sxs-lookup"><span data-stu-id="53501-114">When preparing documentation for operations management, use checklists to help ensure that the required tasks are performed at the appropriate time.</span></span> <span data-ttu-id="53501-115">Подробные сведения о подготовке контрольных списков операций можно найти в контрольных списках, расположенных в статье Operations Details.</span><span class="sxs-lookup"><span data-stu-id="53501-115">For detailed information about how to prepare operations checklists, see the sample checklists located in Operations Checklists.</span></span>
+<span data-ttu-id="8042d-114">При подготовке документации для управления операциями используйте контрольные списки, чтобы убедиться, что необходимые задачи выполняются в соответствующее время.</span><span class="sxs-lookup"><span data-stu-id="8042d-114">When preparing documentation for operations management, use checklists to help ensure that the required tasks are performed at the appropriate time.</span></span> <span data-ttu-id="8042d-115">Подробные сведения о подготовке контрольных списков операций можно найти в контрольных списках, расположенных в статье Operations Details.</span><span class="sxs-lookup"><span data-stu-id="8042d-115">For detailed information about how to prepare operations checklists, see the sample checklists located in Operations Checklists.</span></span>
 
-<span data-ttu-id="53501-116">Зачастую управление изменениями начинается там, где заканчивается системное администрирование.</span><span class="sxs-lookup"><span data-stu-id="53501-116">Frequently, change management takes over where system administration finishes.</span></span> <span data-ttu-id="53501-117">Если задача входит в стандартную процедуру, она является частью системного администрирования.</span><span class="sxs-lookup"><span data-stu-id="53501-117">If a task is covered by a standard procedure, it is part of the system administration function.</span></span> <span data-ttu-id="53501-118">Если для задачи нет стандартной процедуры, она должна быть обработана с помощью функции управления изменениями.</span><span class="sxs-lookup"><span data-stu-id="53501-118">If there is no standard procedure for a task, it should be handled by using the change management function.</span></span>
+<span data-ttu-id="8042d-116">Зачастую управление изменениями начинается там, где заканчивается системное администрирование.</span><span class="sxs-lookup"><span data-stu-id="8042d-116">Frequently, change management takes over where system administration finishes.</span></span> <span data-ttu-id="8042d-117">Если задача входит в стандартную процедуру, она является частью системного администрирования.</span><span class="sxs-lookup"><span data-stu-id="8042d-117">If a task is covered by a standard procedure, it is part of the system administration function.</span></span> <span data-ttu-id="8042d-118">Если для задачи нет стандартной процедуры, она должна быть обработана с помощью функции управления изменениями.</span><span class="sxs-lookup"><span data-stu-id="8042d-118">If there is no standard procedure for a task, it should be handled by using the change management function.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="53501-119">См. также</span><span class="sxs-lookup"><span data-stu-id="53501-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8042d-119">См. также</span><span class="sxs-lookup"><span data-stu-id="8042d-119">See Also</span></span>
 
 
-[<span data-ttu-id="53501-120">Контрольный список ежедневных задач</span><span class="sxs-lookup"><span data-stu-id="53501-120">Daily task checklist</span></span>](lync-server-2013-operations-checklists.md)  
-[<span data-ttu-id="53501-121">Контрольный список еженедельных задач</span><span class="sxs-lookup"><span data-stu-id="53501-121">Weekly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
-[<span data-ttu-id="53501-122">Контрольный список ежемесячных задач</span><span class="sxs-lookup"><span data-stu-id="53501-122">Monthly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="8042d-120">Контрольный список ежедневных задач</span><span class="sxs-lookup"><span data-stu-id="8042d-120">Daily task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="8042d-121">Контрольный список еженедельных задач</span><span class="sxs-lookup"><span data-stu-id="8042d-121">Weekly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
+[<span data-ttu-id="8042d-122">Контрольный список ежемесячных задач</span><span class="sxs-lookup"><span data-stu-id="8042d-122">Monthly task checklist</span></span>](lync-server-2013-operations-checklists.md)  
   
 
 </div>
