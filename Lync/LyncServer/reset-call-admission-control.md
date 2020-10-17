@@ -1,5 +1,6 @@
 ---
 title: Сброс контроля допуска звонков
+description: Сброс контроля допуска звонков.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f22f26ae48835dee6028e5b41b79dd116d610a25
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4539cda453de6249be3a9b9b61521ecf478cb70
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529816"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551245"
 ---
 # <a name="reset-call-admission-control"></a>Сброс контроля допуска звонков
 

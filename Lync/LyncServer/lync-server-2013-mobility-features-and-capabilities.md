@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: функции и возможности мобильной работы'
+description: 'Lync Server 2013: функции и возможности мобильной работы.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 20713145c18260f22d9635c34af291e9a7c5ea9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516136"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550585"
 ---
 # <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Функции и возможности мобильной работы в Lync Server 2013
 

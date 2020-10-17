@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Управление сетевыми подсетями'
+description: 'Lync Server 2013: Управление сетевыми подсетями.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0bcb6c52a538ddd879114e7d9f9351958221700
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0eef6c95ca9aab01eafc686f78982da14140d49
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497996"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551525"
 ---
 # <a name="managing-network-subnets-in-lync-server-2013"></a>Управление сетевыми подсетями в Lync Server 2013
 
