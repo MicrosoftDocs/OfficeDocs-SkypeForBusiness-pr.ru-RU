@@ -12,20 +12,22 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490068a9c9eec3e582471d9ff228b9bbccad43bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519036"
 ---
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Тестирование проверки подлинности клиента Lync в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Тестирование проверки подлинности клиента Lync в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="description"></a>Описание
 
-Командлет Test-CsClientAuth позволяет определить, может ли пользователь войти на сервер Lync с помощью сертификата клиента, можно запустить командлет Test-CsClientAuth. После вызова командлета Test-CsClientAuth командлет свяжется со службой подготовки сертификатов и загрузит копию всех клиентских сертификатов для указанного пользователя. Если сертификат клиента можно найти и скачать, Test-CsClientAuth будет пытаться войти в систему с помощью этого сертификата. Если вход выполнен успешно, то Test-CsClientAuth выйдет из системы и сообщит о том, что тест успешно выполнен. Если сертификат клиента не удается обнаружить или загрузить, или командлет не может войти с его помощью в систему, Test-CsClientAuth сообщает о неудачном завершении проверки.
+Командлет Test-CsClientAuth позволяет определить, может ли пользователь войти на сервер Lync с помощью клиентского сертификата, можно выполнить командлет Test-CsClientAuth. После вызова командлета Test-CsClientAuth командлет свяжется со службой подготовки сертификатов и загрузит копию всех клиентских сертификатов для указанного пользователя. Если сертификат клиента можно найти и скачать, Test-CsClientAuth будет пытаться войти в систему с помощью этого сертификата. Если вход выполнен успешно, Test-CsClientAuth выйдет из системы и сообщит о том, что тест успешно выполнен. Если сертификат клиента не удается обнаружить или загрузить, или командлет не может войти с его помощью в систему, Test-CsClientAuth сообщает о неудачном завершении проверки.
 
 </div>
 
@@ -74,7 +76,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Командлет Test-CsClientAuth запускается с помощью учетной записи любого пользователя, для которого включен Lync Server. Чтобы выполнить эту проверку с использованием реальной учетной записи пользователя, необходимо сначала создать объект учетных данных Windows PowerShell, который содержит имя и пароль учетной записи. Затем необходимо включить этот объект учетных данных и адрес SIP, назначенный учетной записи, когда система вызывает Test-CsClientAuth:
+Командлет Test-CsClientAuth выполняется с использованием учетной записи любого пользователя, для которого включен Lync Server. Чтобы выполнить эту проверку с использованием реальной учетной записи пользователя, необходимо сначала создать объект учетных данных Windows PowerShell, который содержит имя и пароль учетной записи. Затем необходимо включить этот объект учетных данных и адрес SIP, назначенный учетной записи, когда система вызывает Test-CsClientAuth:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -117,26 +119,26 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-Если Test-CsClientAuth завершается с ошибкой, вам может потребоваться повторно выполнить проверку, включая параметр verbose:
+Если Test-CsClientAuth завершается с ошибкой, может потребоваться повторный запуск теста, в том числе параметр verbose:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Если включен параметр Verbose, командлет Test-CsClientAuth возвращает пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например:
+Если включен параметр Verbose, Test-CsClientAuth будет возвращать пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например:
 
 Попытка скачать сертификат CS для пользователя: kenmyer@litwareinc.com конечная точка: Степид
 
-URL-адрес веб-службы:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+URL-адрес веб-службы: https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
 Не удалось скачать сертификат CS из веб-службы.
 
 ПРОВЕРЯТЬ
 
-\-URL-адрес веб-службы является допустимым, а веб-службы функционируют
+\- URL-адрес веб-службы является допустимым, а веб-службы функционируют
 
-\-Если для проверки\\\\подлинности используется ПИН-код фонено, убедитесь, что они совпадают с URI пользователя.
+\-Если \\ \\ для проверки подлинности используется ПИН-код фонено, убедитесь, что они совпадают с URI пользователя.
 
-\-При использовании проверки\\подлинности NTLM Kerberos убедитесь, что вы предоставили действительные учетные данные.
+\- При использовании \\ проверки подлинности NTLM Kerberos убедитесь, что вы предоставили действительные учетные данные.
 
 </div>
 

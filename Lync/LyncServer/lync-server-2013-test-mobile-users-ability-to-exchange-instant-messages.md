@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519226"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Проверка возможности мобильных пользователей обмениваться мгновенными сообщениями в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Проверка возможности мобильных пользователей обмениваться мгновенными сообщениями в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-07_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Monthly Channel</p></td>
+<td><p>Monthly</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -74,7 +76,7 @@ _**Последнее изменение темы:** 2014-06-07_
 
 3.  Используйте возможности Lync Server, такие как вызов с помощью конференц-связи по работе и удаленному доступу.
 
-Командлет Test-CsMxcP2PIM предоставляет простой и простой способ проверки того, что пользователи могут использовать службу Mobility Service для обмена мгновенными сообщениями.
+Командлет Test-CsMxcP2PIM обеспечивает быстрый и простой способ проверки того, что пользователи могут использовать службу Mobility Service для обмена мгновенными сообщениями.
 
 </div>
 
@@ -101,7 +103,7 @@ _**Последнее изменение темы:** 2014-06-07_
 
 Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Целевой URI:http://atl-cs-001.litwareinc.com:443/mcx
+Целевой URI: http://atl-cs-001.litwareinc.com:443/mcx
 
 Результат: успешное выполнение
 
@@ -115,13 +117,13 @@ _**Последнее изменение темы:** 2014-06-07_
 
 Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Целевой URI:https://atl-cs-001.litwareinc.com:443/mcx
+Целевой URI: https://atl-cs-001.litwareinc.com:443/mcx
 
 Результат: сбой
 
 Задержка: 00:00:00
 
-Сообщение об ошибке: нет ответа, полученного для службы веб-билета.
+Сообщение об ошибке: нет ответа, полученного для службы Web-Ticket.
 
 Внутреннее исключение: запрос ХХТП не авторизован для
 
@@ -139,7 +141,7 @@ _**Последнее изменение темы:** 2014-06-07_
 
 001.litwareinc.com
 
-Cache — Control: Private
+Cache-Control: Private
 
 Content-Type: Text/HTML; charset = UTF – 8.
 
@@ -175,7 +177,7 @@ Content — Length: 6305
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Зная имя политики, используйте командлет Get-CsMobilityPolicy, чтобы убедиться, что рассматриваемая политика (например, Редмондмобилитиполици) имеет свойство Енаблемобилити со значением true:
+Зная имя политики, используйте командлет Get-CsMobilityPolicy, чтобы убедиться в том, что в рассматриваемой политике (например, Редмондмобилитиполици) свойство Енаблемобилити имеет значение true:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 

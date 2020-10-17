@@ -12,20 +12,22 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61eb53c5c2f3cfe74087599535541cfb8286ab55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af6165da1c8d5093912f36413ef98812226cbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193992"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518996"
 ---
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Тестирование системы обмена сообщениями с помощью XMPP в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Тестирование системы обмена сообщениями с помощью XMPP в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-11-03_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -80,7 +82,7 @@ XMPP — это протокол стандартных коммуникаций
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-Команды, показанные в следующем примере, проверяют способность конкретного пользователя (litwareinc\\Pilar) войти в систему для отправки XMPP мгновенного сообщения пользователю adelaney@contoso.com. Для этого первая команда в примере использует командлет Get – Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman. (Так как имя для входа\\litwareinc Pilar было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо только ввести пароль для учетной записи Pilar Ackerman). Полученный объект учетных данных сохраняется в переменной с именем $cred 1.
+Команды, показанные в следующем примере, проверяют способность конкретного пользователя (litwareinc \\ Pilar) войти в систему для отправки XMPP мгновенного сообщения пользователю adelaney@contoso.com. Для этого первая команда в примере использует командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman. (Так как имя для входа litwareinc \\ Pilar было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо только ввести пароль для учетной записи Pilar Ackerman). Полученный объект учетных данных сохраняется в переменной с именем $cred 1.
 
 Вторая команда проверяет, может ли этот пользователь войти в пул atl-cs-001.litwareinc.com и отправить мгновенное сообщение XMPP. Для запуска этой задачи вызывается командлет **Test-CsXmppIm** , а также четыре параметра: TargetFqdn (полное доменное имя пула регистратора). Получатель (SIP-адрес пользователя, которому адресовано сообщение); UserCredential (объект Windows PowerShell, содержащий учетные данные пользователя Pilar Ackerman); и UserSipAddress (SIP-адрес, соответствующий предоставленным учетным данным пользователя).
 

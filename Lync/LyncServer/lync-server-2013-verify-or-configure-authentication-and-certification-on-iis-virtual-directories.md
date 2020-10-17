@@ -12,20 +12,22 @@ ms:contentKeyID: 48183883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca51a3c597be40c679a7b131f87775876a63811d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c07fc83680fd6b1d3f4d0d24429165ff9cc5ca65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518616"
 ---
+# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Проверка и Настройка проверки подлинности и сертификации в виртуальных каталогах IIS в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-or-configure-authentication-and-certification-on-iis-virtual-directories-in-lync-server-2013"></a>Проверка и Настройка проверки подлинности и сертификации в виртуальных каталогах IIS в Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2012-05-25_
 
 
 > [!NOTE]  
-> Приведенная ниже процедура определяет процедуру запроса комбинированного сертификата, используемого для всех целей Lync Server, внутреннего веб-сайта и внешнего веб-сайта в службах IIS. Lync Server 2010 представил набор командлетов&nbsp;Windows PowerShell для консоли управления Lync Server, чтобы выразить цель управления запросом сертификата, импортом и назначением. В данной процедуре предполагается, что существует внутренний развернутый центр сертификации (ЦС), который может обработать данный запрос. Если вы используете общедоступные сертификаты для целей Lync Server, или для вашего ЦС требуется автономный запрос, ознакомьтесь с подробным синтаксисом, приведенным в этом разделе, для получения сведений о параметре – OUTPUT. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request — CsCertificate</A>
+> Приведенная ниже процедура определяет процедуру запроса комбинированного сертификата, используемого для всех целей Lync Server, внутреннего веб-сайта и внешнего веб-сайта в службах IIS. Lync Server 2010 представил набор командлетов Windows PowerShell для консоли управления Lync Server, чтобы &nbsp; выразить цель управления запросом сертификата, импортом и назначением. В данной процедуре предполагается, что существует внутренний развернутый центр сертификации (ЦС), который может обработать данный запрос. Если вы используете общедоступные сертификаты для целей Lync Server, или для вашего ЦС требуется автономный запрос, ознакомьтесь с подробным синтаксисом, приведенным в этом разделе, для получения сведений о параметре – OUTPUT. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request — CsCertificate</A>
 
 
 
@@ -76,7 +78,7 @@ _**Последнее изменение темы:** 2012-05-25_
     
     выходные данные представляют собой список сертификатов, которые в данный момент находятся в хранилище личных сертификатов на компьютере. Обратите внимание на то, что в комбинированном сертификате (где компоненты по умолчанию, компоненты внутренних веб-служб и компоненты внешних веб-служб используют один и тот же сертификат) видно, что свойство Use заполняется значениями Default, WebServicesInternal и WebServicesExternal. Кроме того, свойство Thumbprint будет одинаковым для каждого из типов Use. Пример выходных данных Get-CsCertificate показан в следующем примере:
     
-    ![Get – CsCertificate сведения о текущем состоянии сцерт](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get – CsCertificate сведения о текущем состоянии сцерт")
+    ![Get – CsCertificate сведения о текущем состоянии сцерт](images/Gg429702.664f6326-6cd5-48e2-8235-fc3950ea43b4(OCS.15).jpg "Get-CsCertificate сведения о текущем состоянии сцерт")
 
 6.  В командной консоли Lync Server введите следующую команду:
     
@@ -95,7 +97,7 @@ _**Последнее изменение темы:** 2012-05-25_
     
     </div>
     
-    ![Выходные данные запроса сертификата с помощью команды Request — Ксцертифика](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Выходные данные запроса сертификата с помощью команды Request — Ксцертифика")
+    ![Выходные данные запроса сертификата с помощью команды Request — Ксцертифика](images/Gg429702.9e59a657-fa75-4454-8fd3-57c81e829f7b(OCS.15).jpg "Выходные данные запроса сертификата с помощью Request-CsCertifica")
 
 7.  В командной консоли Lync Server введите следующую команду:
     
@@ -107,7 +109,7 @@ _**Последнее изменение темы:** 2012-05-25_
     
     Выходные данные командлета Set-CsCertificate покажут, что один сертификат (обозначенный отпечатком сертификата) назначается для использования Default, WebServicesExternal и WebServicesInternal.
     
-    ![Выходные данные командлета Set — CsCertificate в службах IIS Вебекст](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Выходные данные командлета Set — CsCertificate в службах IIS Вебекст")
+    ![Выходные данные Set-CsCertificate на IIS Вебекст](images/Gg429702.dd451c9d-7b49-4408-8071-c868cb1e678c(OCS.15).jpg "Выходные данные Set-CsCertificate на IIS Вебекст")
 
 </div>
 

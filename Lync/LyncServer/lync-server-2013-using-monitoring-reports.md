@@ -12,20 +12,22 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582554c8f744c48b3eadab58359b965f910152f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae3182dd6129d9ce797739220faeef0cd97a3a92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518816"
 ---
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Использование отчетов мониторинга в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Использование отчетов мониторинга в Lync Server 2013
+
 
 </div>
 
@@ -45,15 +47,15 @@ Lync Server 2013 включает набор стандартных отчето
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Использование панели мониторинга в Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   предоставляет администраторам краткие сведения о работоспособности и использовании системы.
+  - [Использование панели мониторинга в Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)     Предоставляет администраторам краткие сведения о работоспособности и использовании системы.
 
-  - [Отчеты об использовании системы в Lync Server 2013](lync-server-2013-system-usage-reports.md)   предоставляют сведения об использовании системы на основе данных CDR, собранных Lync Server.
+  - [Отчеты об использовании системы в Lync Server 2013](lync-server-2013-system-usage-reports.md)     Предоставляет сведения об использовании системы на основе данных CDR, собранных Lync Server.
 
-  - [Диагностические отчеты по звонку (на пользователя) в Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   предоставляет сведения о неудачных одноранговых сеансах и сеансах конференц-связи для отдельных пользователей.
+  - [Диагностические отчеты по вызовам (на пользователя) в Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)     Предоставляет сведения о неудачных одноранговых сеансах и сеансах конференц-связи для отдельных пользователей.
 
-  - [Диагностические отчеты по вызовам в Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   предоставляет сводную информацию и диагностические данные для неудачных одноранговых сеансов и сеансов конференц-связи.
+  - [Диагностические отчеты по вызовам в Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)     Предоставляет сводную информацию и диагностические данные для неудачных одноранговых сеансов и сеансов конференц-связи.
 
-  - [Диагностические отчеты по качеству мультимедиа в Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   предоставляет сведения о качестве вызовов, а также диагностические сведения и сведения об устранении неполадок для неудачных вызовов.
+  - [Диагностические отчеты по качеству мультимедиа в Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)     Предоставляет сведения о качестве вызовов, а также диагностические сведения и сведения об устранении неполадок для неудачных вызовов.
 
 </div>
 

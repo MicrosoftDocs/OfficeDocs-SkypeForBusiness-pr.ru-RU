@@ -12,20 +12,22 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9b6cc13721ff249d9f8bd8bc0c38260c4ca7f55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3d419800842fed080efe4005e7282a25c91f29df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518526"
 ---
+# <a name="videostreamdetail-view-in-lync-server-2013"></a>Представление Видеостреамдетаил в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostreamdetail-view-in-lync-server-2013"></a>Представление Видеостреамдетаил в Lync Server 2013
+
 
 </div>
 
@@ -222,7 +224,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <tr class="even">
 <td><p>каллерипаддр</p></td>
 <td><p>var (50)</p></td>
-<td><p>IP-адрес вызывающего абонента. Адрес может быть представлен в формате IPv4 или IPv6.</p></td>
+<td><p>IP-адрес вызывающего абонента. Это может быть IPv4-адрес или IPv6-адрес.</p></td>
 </tr>
 <tr class="odd">
 <td><p>каллерпорт</p></td>
@@ -410,7 +412,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <td><p>Оценка пропускной способности для аудиопотока.</p></td>
 </tr>
 <tr class="even">
-<td><p>Таблица payloaddescription</p></td>
+<td><p>PayloadDescription</p></td>
 <td><p>int</p></td>
 <td><p>Аудиокодек, используемый для вызова, на который ссылается <a href="lync-server-2013-payloaddescription-table.md">таблица таблица payloaddescription в Lync Server 2013</a>.</p></td>
 </tr>

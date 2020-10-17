@@ -12,20 +12,22 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03aae75cfdb3e179347d14c6f42a90ffe060fad7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0269c66ad88f7be7f34874a8e4370fb65b954ccf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518666"
 ---
+# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Проверка связи с клиентом Lync Online в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Проверка связи с клиентом Lync Online в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2012-10-08_
 
   - Настроить пользовательские учетные записи для поддержки федерации. Дополнительную информацию можно узнать в статье [Настройка доступа пользователей для Федерации с клиентом Lync Online в Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).
 
-После выполнения всех этих действий администратор Lync Online 2010 завершает всю конфигурацию веб-служб, чтобы обеспечить поддержку Федерации с вашей организацией, проверить связь, проверив связь между внутренней пользователь в Организации и пользователь с клиентом Lync Online. В случае неудачного подключения используйте средство ведения журнала с пограничного сервера для записи файлов журнала и трассировки, чтобы устранить эту проблему. Сведения об использовании средства ведения журнала приведены в статье [Open the администрирование Lync Server 2013 Tools](lync-server-2013-open-lync-server-administrative-tools.md) в документации по операциям. Для получения дополнительных сведений о средстве ведения журнала обратитесь к документации по средству ведения журнала Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)в библиотеке TechNet по адресу.
+После выполнения всех этих действий администратор Lync Online 2010 завершает всю конфигурацию своих веб-служб для поддержки Федерации с вашей организацией, а также для проверки связи путем тестирования связи между внутренним пользователем в Организации и пользователем клиента Lync Online. В случае неудачного подключения используйте средство ведения журнала с пограничного сервера для записи файлов журнала и трассировки, чтобы устранить эту проблему. Сведения об использовании средства ведения журнала приведены в статье [Open the администрирование Lync Server 2013 Tools](lync-server-2013-open-lync-server-administrative-tools.md) в документации по операциям. Для получения дополнительных сведений о средстве ведения журнала обратитесь к документации по средству ведения журнала Lync Server 2010 в библиотеке TechNet по адресу [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) .
 
 </div>
 

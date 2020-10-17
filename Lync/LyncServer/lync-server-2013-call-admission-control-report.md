@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199542"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517966"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Отчет по контролю допуска звонков в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Отчет по контролю допуска звонков в Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ _**Последнее изменение темы:** 2012-06-29_
 <p>7/17/12012</p>
 <p>Чтобы просматривать данные по неделям или месяцам, введите дату, попадающую в интересующую неделю или месяц (не обязательно указывать первый день недели или месяца):</p>
 <p>7/13/2012</p>
-<p>Неделя всегда начинается с воскресенья и заканчивается субботой.</p></td>
+<p>Недели всегда продолжаются с воскресенья по субботу.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -106,7 +108,7 @@ _**Последнее изменение темы:** 2012-06-29_
 <p>Недели всегда продолжаются с воскресенья по субботу.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>Полное доменное имя пула регистратора или пограничного сервера. Можно выбрать отдельный пул или нажать <strong>[Все]</strong>, чтобы просмотреть данные для всех пулов. Этот раскрывающийся список автоматически заполняется на основе записей в базе данных.</p></td>
 </tr>
 <tr class="even">
@@ -115,7 +117,7 @@ _**Последнее изменение темы:** 2012-06-29_
 <ul>
 <li><p>Ко</p></li>
 <li><p>Одноранговая сеть</p></li>
-<li><p>Встречи</p></li>
+<li><p>Conference</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -186,7 +188,7 @@ _**Последнее изменение темы:** 2012-06-29_
 <td><p>Дата и время, когда было получено принятие приглашения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>End time</strong> (Время окончания)</p></td>
+<td><p><strong>Время окончания</strong></p></td>
 <td><p>Да</p></td>
 <td><p>Дата и время окончания сеанса.</p></td>
 </tr>
@@ -234,7 +236,7 @@ _**Последнее изменение темы:** 2012-06-29_
 <td><p>SIP-адрес пользователя, организовавшего конференцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>Да</p></td>
 <td><p>пограничный сервер, использовавшийся в конференции.</p></td>
 </tr>
@@ -277,7 +279,7 @@ _**Последнее изменение темы:** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Роль</strong></p></td>
+<td><p><strong>Role</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Роль (например, докладчик), которую играл участник конференции.</p></td>
 </tr>

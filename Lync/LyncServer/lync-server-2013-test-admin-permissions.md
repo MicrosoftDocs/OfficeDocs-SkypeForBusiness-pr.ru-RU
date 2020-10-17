@@ -12,20 +12,22 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cdb56dd75c168731ee386236302732088351e39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1653f2287e06db71f6e971a0a4f483b810734f2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519386"
 ---
+# <a name="test-admin-permissions-in-lync-server-2013"></a>Проверка разрешений администратора в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-admin-permissions-in-lync-server-2013"></a>Проверка разрешений администратора в Lync Server 2013
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**Последнее изменение темы:** 2014-08-18_
 
 Командлет Test-CsOUPermission проверяет, что необходимые разрешения, необходимые для управления пользователями, компьютерами и другими объектами, установлены в контейнере Active Directory. Если эти разрешения не заданы, можно устранить эту проблему, выполнив командлет [Grant – CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) .
 
-Обратите внимание, что Grant – CsOUPermission может назначать разрешения только членам группы RTCUniversalUserAdmins. Вы не можете использовать этот командлет для предоставления разрешений произвольному пользователю или группе. Если вы хотите, чтобы другой пользователь или группа применялись к разрешениям управления пользователями, необходимо добавить этого пользователя (или группу) в группу RTCUniversalUserAdmins.
+Обратите внимание, что Grant-CsOUPermission могут назначать разрешения только участникам группы RTCUniversalUserAdmins. Вы не можете использовать этот командлет для предоставления разрешений произвольному пользователю или группе. Если вы хотите, чтобы другой пользователь или группа применялись к разрешениям управления пользователями, необходимо добавить этого пользователя (или группу) в группу RTCUniversalUserAdmins.
 
 Дополнительные сведения о разрешениях для подразделений содержатся в статье [разрешения наследования разрешений отключены для компьютеров, пользователей и контейнеров inetOrgPerson в Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md).
 
@@ -80,7 +82,7 @@ _**Последнее изменение темы:** 2014-08-18_
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Чтобы проверить, установлены ли для контейнера разрешения на управление, запустите командлет Test-CsOUPermission, а затем различающееся имя контейнера и тип проверяемых разрешений. Например, эта команда проверяет, установлены ли разрешения пользователя для подразделения OU = Redmond, DC = litwareinc, DC = com:
+Чтобы убедиться в том, что для контейнера заданы разрешения на управление, выполните командлет Test-CsOUPermission, а затем различающееся имя контейнера и тип проверяемых разрешений. Например, эта команда проверяет, установлены ли разрешения пользователя для подразделения OU = Redmond, DC = litwareinc, DC = com:
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"
 
@@ -100,17 +102,17 @@ _**Последнее изменение темы:** 2014-08-18_
 
 Верно
 
-Если необходимые разрешения не заданы, Test-CsOUPermission будет возвращать значение false. Вам может потребоваться найти это значение в течение некоторого времени. Как правило, она обычно внедряется в несколько соответствующих предупреждений. Например:
+Если необходимые разрешения не заданы, Test-CsOUPermission вернет значение false. Вам может потребоваться найти это значение в течение некоторого времени. Как правило, она обычно внедряется в несколько соответствующих предупреждений. Например:
 
-Предупреждение: запись управления доступом (ACE) ATL-CS-001\\RTCUniversalUserReadOnlyGroup; разрешить Реадпроперти; Контаинеринхерит; Потомки bf967aba-0de6-11d0-00aa003049e2; d819615a — 3b9b – 4738 — b47e – f1bd8ee3aea4
+Предупреждение: запись управления доступом (ACE) ATL-CS-001 \\ RTCUniversalUserReadOnlyGroup; Allow; Реадпроперти; Контаинеринхерит; Потомки bf967aba-0de6-11d0-00aa003049e2; d819615a — 3b9b – 4738 — b47e – f1bd8ee3aea4
 
-Предупреждение: записи управления доступом (ACE) для объекта "OU = NorthAmerica, DC = ATL-CS-001\\DC = LITWAREINC, DC = com" не готовы.
+Предупреждение: записи управления доступом (ACE) для объекта "OU = NorthAmerica, DC = ATL-CS-001 \\ DC = litwareinc, DC = com" не готовы.
 
 False
 
 Предупреждение: "Test-CsOUPermission" обработка завершена с предупреждениями. во время этого запуска было записано предупреждение 2.
 
-Предупреждение: подробные результаты можно найти на странице "C:\\\\Users\\admin\\AppData\\Local\\Temp Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de. HTML".
+Предупреждение: подробные результаты можно найти на сайте "C: \\ Users \\ Admin \\ AppData \\ Local \\ temp \\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html".
 
 </div>
 
@@ -118,11 +120,11 @@ False
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-Если Test-CsOUPermission завершается с ошибкой, обычно это означает, что указанное разрешение не назначено группе RTCUniversalUserAdmins. Эту проблему можно решить и назначить необходимые разрешения с помощью командлета Grant – CsOUPermission. Например, эта команда предоставляет разрешения OU для пользователей, контактов и Инеторгперсонс группе RTCUniversalUserAdmins:
+Если Test-CsOUPermission завершается с ошибкой, обычно это означает, что указанное разрешение не назначено группе RTCUniversalUserAdmins. Эту проблему можно решить и назначить необходимые разрешения с помощью командлета Grant-CsOUPermission. Например, эта команда предоставляет разрешения OU для пользователей, контактов и Инеторгперсонс группе RTCUniversalUserAdmins:
 
     Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"
 
-Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета Grant – CsOUPermission.
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета Grant-CsOUPermission.
 
 </div>
 

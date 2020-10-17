@@ -12,20 +12,22 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f9cd0beea65cfb1718fea3bc1c0235eb7554ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518726"
 ---
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Проверка нормализации и маршрутизации голосовых номеров в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Проверка нормализации и маршрутизации голосовых номеров в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211815"
 
 _**Последнее изменение темы:** 2014-05-19_
 
-Правильная нормализация номеров и маршрутизация очень важны для функциональной среды корпоративной голосовой связи. В частности, при миграции из УАТС в изолированную среду Lync Server одним из ключей успешной миграции является отображение и документирование всех существующих правил для набора номера, а также создание соответствующих правил нормализации, политик голосовой связи использование и маршруты для телефонов.
+Правильная нормализация номеров и маршрутизация очень важны для функциональной среды корпоративной голосовой связи. В частности, при миграции из УАТС в изолированную среду Lync Server одним из ключей успешной миграции является отображение и документирование всех существующих правил набора номера, а также создание соответствующих правил нормализации, политик голосовой связи, использования и маршрутов использования телефона.
 
 Проверка нормализации номеров и маршрутизации важна не только во время миграции, но и во время нормальной и стабильной работы системы.
 

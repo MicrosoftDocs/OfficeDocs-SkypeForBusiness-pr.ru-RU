@@ -12,20 +12,22 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c6ca5761959b8b98cb4eb6a8f17e87c543e788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 558efe06fb8a91a4a1f923b004756b5791e4367e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518446"
 ---
+# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Просмотр записей использования PSTN в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Просмотр записей использования PSTN в Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2013-02-22_
 
 ## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений об использовании PSTN с помощью командлетов Windows PowerShell
 
-Вы также можете просматривать использование PSTN с помощью Windows PowerShell и командлета **Get – кспстнусаже** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы также можете просматривать использование PSTN с помощью Windows PowerShell и командлета **Get – кспстнусаже** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -76,7 +78,7 @@ _**Последнее изменение темы:** 2013-02-22_
     
         Get-CsPstnUsage
     
-    Этой командой возвращается информация, аналогичная следующим сведениям:
+    Эта команда возвращает следующую информацию:
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}

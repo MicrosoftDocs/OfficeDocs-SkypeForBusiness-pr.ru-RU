@@ -3,8 +3,8 @@ title: Руководство по безопасности для Skype для 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: ''
 ms.date: 01/22/2018
+ms.reviewer: ''
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Security
 description: Руководство по безопасности для Skype для бизнеса Online <add description>
-ms.openlocfilehash: c10dc554cc1d07dbefb4fba84aed55ae14e9374e
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a430d2b6aa4f1992e8710c4a7105530b3dd9fc24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505196"
 ---
 # <a name="security-and-skype-for-business-online"></a>Безопасность и Skype для бизнеса Online
 
-Skype для бизнеса Online (SfBO) в составе служб Microsoft 365 и Office 365 подчиняется всем рекомендациям по обеспечению безопасности и процедурам, таким как безопасность на уровне служб, с помощью глубокой защиты, контрольных элементов управления, а также рекомендации по обеспечению безопасности и работе. Подробные сведения можно найти в центре управления безопасностью (https://microsoft.com/trustcenter)Майкрософт).
+Skype для бизнеса Online (SfBO) в составе служб Microsoft 365 и Office 365 подчиняется всем рекомендациям по обеспечению безопасности и процедурам, таким как безопасность на уровне служб, с помощью глубокой защиты, контрольных элементов управления, а также рекомендации по обеспечению безопасности и работе. Подробные сведения можно найти в центре управления безопасностью (Майкрософт) https://microsoft.com/trustcenter) .
 
 ## <a name="trustworthy-by-design"></a>Защищенность, обеспечиваемая дизайном
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -207,7 +207,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 В SfBO ИТ-администраторы могут управлять своей службой через портал администрирования Office 365 или с помощью удаленной оболочки клиента PowerShell (TRPS). Администраторам клиентов для проверки подлинности TRPS используется современная проверка подлинности.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Настройка доступа к SfBO на границе вашего интернета
-Для того чтобы SfBO правильно работать (пользователи могут присоединяться к собраниям и т. д.), пользователям необходимо настроить доступ к Интернету таким образом, чтобы исходящий трафик UDP и TCP для служб в облаке SfBO разрешен. Дополнительные сведения можно найти здесь:https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+Для того чтобы SfBO правильно работать (пользователи могут присоединяться к собраниям и т. д.), пользователям необходимо настроить доступ к Интернету таким образом, чтобы исходящий трафик UDP и TCP для служб в облаке SfBO разрешен. Дополнительные сведения можно найти здесь: https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 и TCP 443
 
@@ -254,16 +254,16 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 
 ### <a name="participant-roles"></a>Роли участников
 Участники собраний разделяются на три группы с собственными правами и ограничениями:
-- **Organizer** &nbsp;Организатор &nbsp;для пользователя, который создал собрание, будь незапланированное или планирование. Организатор должен быть пользователем, прошедшим проверку подлинности, и управлять всеми аспектами пользователей на собрании.
-- Выступающий пользователь, которому разрешено представлять данные на собрании, используя любой поддерживаемый мультимедиа. **Presenter** &nbsp; &nbsp; Организатор собрания — определение также является выступающим и определяет, кто еще может быть выступающим. Организатор может выполнять это определение при планировании собрания или во время собрания.
-- Участники, которые были приглашены для участия в собрании, но не уполномоченные выступающим. **Attendee** &nbsp; &nbsp;
+- **Organizer** &nbsp; Организатор &nbsp; Пользователь, который создает собрание, будь то незапланированное или с помощью планирования. Организатор должен быть пользователем, прошедшим проверку подлинности, и управлять всеми аспектами пользователей на собрании.
+- **Выступающий** &nbsp; &nbsp; Пользователь, которому разрешено представлять данные на собрании, используя любой поддерживаемый мультимедиа. Организатор собрания — определение также является выступающим и определяет, кто еще может быть выступающим. Организатор может выполнять это определение при планировании собрания или во время собрания.
+- **Attendee** &nbsp; Участник &nbsp; Пользователь, приглашенный на собрание, но не уполномоченный выступающему.
 
 Докладчик также может перевести участника в роль докладчика во время собрания.
 
 ### <a name="participant-types"></a>Типы участников
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **Пользователи, которые находятся в клиенте** &nbsp; &nbsp;. Эти пользователи имеют учетные данные в Azure Active Directory для клиента.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+1.  **Пользователи, которые принадлежат клиенту** &nbsp; &nbsp; У этих пользователей есть учетные данные в Azure Active Directory для клиента.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
 2.  **Пользователи, принадлежащие арендатору**&nbsp;&nbsp;Эти пользователи имеют учетные данные в Azure Active Directory для арендатора.<br/>*Федеративные пользователи* : Федеративные пользователи, у которых есть действительные учетные данные с федеративными партнерами, и поэтому обрабатываются как прошедшие проверку подлинности с помощью SfBO. Федеративные пользователи могут присоединяться к конференциям и повышать их до выступающих после того, как они присоединились к собранию, но не могут создавать конференции на предприятиях, где они являются федеративными.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
@@ -275,14 +275,14 @@ In SfBO, anonymous users are transferred to a waiting area called the lobby. Pre
 Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **Только я, организатор совещания**&nbsp;&nbsp;Все, кроме организатора, должны ожидать в "зале ожидания" до тех пор, пока не будут допущены.
 - **Людей, которых я приглашаю из своей компании**&nbsp;&nbsp;Любой человек из вашей компании может напрямую попасть на совещание, даже если его не пригласят.
-- **Любой пользователь из моей организации**&nbsp;&nbsp;все пользователи SfBO в клиенте Microsoft 365 или Office 365 могут присоединиться к собранию, не дожидаясь в зале ожидания, даже если они не включены в список рассылки. Все остальные, включая всех внешних и анонимных пользователей, должны ждать в зале ожидания, пока они не будут допущены.
-- **Кто угодно**&nbsp;(не имеет ограничений), у которого есть доступ к ссылке на собрание, она находится на собрании&nbsp;напрямую. Если указан какой-либо метод, за исключением только организатора (заблокирована), организатор собрания может также указать пользователей, набираемых по телефону, минуя "зал ожидания". 
+- **Любой пользователь из моей организации** &nbsp; &nbsp; Все пользователи SfBO в клиенте Microsoft 365 или Office 365 могут присоединиться к собранию, не дожидаясь в зале ожидания, даже если они не включены в список рассылки. Все остальные, включая всех внешних и анонимных пользователей, должны ждать в зале ожидания, пока они не будут допущены.
+- **Любой пользователь** &nbsp; &nbsp; Все пользователи, у которых есть доступ к ссылке на собрание, находятся на собрании напрямую. Если указан какой-либо метод, за исключением только организатора (заблокирована), организатор собрания может также указать пользователей, набираемых по телефону, минуя "зал ожидания". 
 
 ### <a name="presenter-capabilities"></a>Возможности докладчика
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
-- **Organizer only**&nbsp;Только&nbsp;организатор собрания может представлять только организатор.
-- **Пользователи из моей организации**&nbsp;&nbsp;могут представлять пользователей.
-- **Все, включая пользователей за пределами своей организации**&nbsp;&nbsp;(нет ограничений), которые присоединяются к собранию.
+- **Organizer only** &nbsp; Только &nbsp; для организатора Только организатор собрания может представлять собой.
+- **Люди из моей компании** &nbsp; &nbsp; Могут представляться все внутренние пользователи.
+- **Все, включая пользователей за пределами Организации** &nbsp; &nbsp; Все (не имеет ограничений), которые присоединяются к собранию.
 - **Люди, которых я выбираю**&nbsp;&nbsp;Организатор совещания определяет, какие пользователи могут присутствовать, добавив их в список докладчиков.
 
 ## <a name="related-topics"></a>Статьи по теме

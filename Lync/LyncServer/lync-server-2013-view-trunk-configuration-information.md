@@ -12,20 +12,22 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 102fb942397b8329da067d8c41c16ec393076a00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe7c828fe771a410825fd641c333a2230d7e9798
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518376"
 ---
+# <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Просмотр сведений о конфигурации магистрали в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-trunk-configuration-information-in-lync-server-2013"></a>Просмотр сведений о конфигурации магистрали в Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**Последнее изменение темы:** 2013-02-22_
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации магистрали SIP с помощью командлетов Windows PowerShell
 
-Параметры конфигурации магистрали SIP можно просмотреть с помощью Lync Server PowerShell и командлета Get – CsTrunkConfiguration. Этот командлет можно запустить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Параметры конфигурации магистрали SIP можно просмотреть с помощью Lync Server PowerShell и командлета Get-CsTrunkConfiguration. Этот командлет можно запустить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

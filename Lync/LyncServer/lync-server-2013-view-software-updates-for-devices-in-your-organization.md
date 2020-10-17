@@ -12,20 +12,22 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce1940f92860d5ccd2d66c53a0a4da16cebada24
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3141f08e7973b123b8c8ee0fe9b9c3c93c8e752
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518406"
 ---
+# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Просмотр обновлений программного обеспечения для устройств в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Просмотр обновлений программного обеспечения для устройств в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211365"
 
 _**Последнее изменение темы:** 2012-11-01_
 
-С помощью Lync Server 2013 вы можете просматривать обновления программного обеспечения для устройств организации и управлять ими с помощью веб-службы обновления устройств. Эти обновления доступны в САВ-файлах на веб-сайте службы поддержки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091). После загрузки CAB-файла выполните командлет **Import-CSDeviceUpdate** , чтобы импортировать правила обновления устройств из CAB-файла. Подробные сведения о командлете **Import – CSDeviceUpdate** можно найти в статье [Import – CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) в документации по консоли управления Lync Server.
+С помощью Lync Server 2013 вы можете просматривать обновления программного обеспечения для устройств организации и управлять ими с помощью веб-службы обновления устройств. Эти обновления доступны в САВ-файлах на веб-сайте службы поддержки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) . После загрузки CAB-файла выполните командлет **Import-CSDeviceUpdate** , чтобы импортировать правила обновления устройств из CAB-файла. Подробные сведения о командлете **Import – CSDeviceUpdate** можно найти в статье [Import – CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) в документации по консоли управления Lync Server.
 
 <div>
 
@@ -55,9 +57,9 @@ _**Последнее изменение темы:** 2012-11-01_
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  На веб-сайте службы поддержки [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)корпорации Майкрософт по адресу Скачайте CAB-файл в папку на компьютере с Lync Server 2013 (например, C\\:\\Updates UCUpdates. cab).
+2.  На веб-сайте службы поддержки корпорации Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091) Скачайте CAB-файл в папку на компьютере с Lync Server 2013 (например, C: \\ updates \\UCUpdates.cab).
 
-3.  Импортируйте правила обновления устройств из файла C:\\Updates\\UCUpdates. cab, выполнив один из следующих командлетов:
+3.  Импортируйте правила обновления устройств из файла C: \\ updates \\UCUpdates.cab, выполнив один из следующих командлетов:
     
       - Если CAB-файл расположен на том же компьютере, на котором работает обновляемая служба (service:Redmond-websvc-2), запустите следующий командлет:
         
