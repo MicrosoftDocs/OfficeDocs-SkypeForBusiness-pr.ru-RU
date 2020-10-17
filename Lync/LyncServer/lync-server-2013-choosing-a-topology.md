@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529386"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="83ce8-102">Выбор топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-102">Choosing a topology in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="3e569-102">Выбор топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-102">Choosing a topology in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -33,45 +35,45 @@ ms.locfileid: "44221743"
 
 <div id="mainBody">
 
-<span data-ttu-id="3e569-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="3e569-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="83ce8-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="83ce8-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="3e569-104">При выборе топологии вы можете использовать один из следующих поддерживаемых вариантов топологии:</span><span class="sxs-lookup"><span data-stu-id="3e569-104">When you choose a topology, you can use one the following supported topology options:</span></span>
+<span data-ttu-id="83ce8-104">При выборе топологии вы можете использовать один из следующих поддерживаемых вариантов топологии:</span><span class="sxs-lookup"><span data-stu-id="83ce8-104">When you choose a topology, you can use one the following supported topology options:</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="3e569-105">Если не указано иное, если у вас есть опыт работы с Microsoft Lync Server 2010, здесь вы найдете рекомендации практически без изменений.</span><span class="sxs-lookup"><span data-stu-id="3e569-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
+> <span data-ttu-id="83ce8-105">Если не указано иное, если у вас есть опыт работы с Microsoft Lync Server 2010, здесь вы найдете рекомендации практически без изменений.</span><span class="sxs-lookup"><span data-stu-id="83ce8-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
 
 
 
 </div>
 
-  - [<span data-ttu-id="3e569-106">Единый консолидированный край с частными IP-адресами и NAT в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [<span data-ttu-id="83ce8-106">Единый консолидированный край с частными IP-адресами и NAT в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [<span data-ttu-id="3e569-107">Единый консолидированный край с общедоступными IP-адресами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="83ce8-107">Единый консолидированный край с общедоступными IP-адресами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="3e569-108">Масштабируемый консолидированный край, балансировка нагрузки на DNS с частными IP-адресами, использующими NAT, в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="83ce8-108">Масштабируемый консолидированный край, балансировка нагрузки на DNS с частными IP-адресами, использующими NAT, в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="3e569-109">Масштабируемый консолидированный край, балансировка нагрузки на DNS с общедоступными IP-адресами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="83ce8-109">Масштабируемый консолидированный край, балансировка нагрузки на DNS с общедоступными IP-адресами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="3e569-110">Масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e569-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="83ce8-110">Масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83ce8-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="3e569-p101">Внутренний пограничный интерфейс и внешний пограничный интерфейс должны использовать один тип балансировки нагрузки. Нельзя использовать балансировку нагрузки на DNS в одном пограничном интерфейсе и аппаратную балансировку нагрузки в другом пограничном интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="3e569-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
+> <span data-ttu-id="83ce8-p101">Внутренний пограничный интерфейс и внешний пограничный интерфейс должны использовать один тип балансировки нагрузки. Нельзя использовать балансировку нагрузки на DNS в одном пограничном интерфейсе и аппаратную балансировку нагрузки в другом пограничном интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="83ce8-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3e569-113">В следующей таблице перечислены функции, доступные в поддерживаемых топологиях Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3e569-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="3e569-114">В заголовках столбцов указываются возможности, доступные в данном варианте конфигурации пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="3e569-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="3e569-115">Например, в случае с масштабированной средой пограничных серверов (балансировка нагрузки на DNS) поддерживается высокая доступность, могут использоваться частные IP-адреса без поддержки маршрутизации (с преобразованием сетевых адресов (NAT)) или общедоступные IP-адреса с поддержкой маршрутизации, назначенные внешним пограничным интерфейсам, и обеспечивается экономия за счет отсутствия потребности в аппаратном балансировщике нагрузки.</span><span class="sxs-lookup"><span data-stu-id="3e569-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
+<span data-ttu-id="83ce8-113">В следующей таблице перечислены функции, доступные в поддерживаемых топологиях Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="83ce8-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="83ce8-114">В заголовках столбцов указываются возможности, доступные в данном варианте конфигурации пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="83ce8-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="83ce8-115">Например, в случае с масштабированной средой пограничных серверов (балансировка нагрузки на DNS) поддерживается высокая доступность, могут использоваться частные IP-адреса без поддержки маршрутизации (с преобразованием сетевых адресов (NAT)) или общедоступные IP-адреса с поддержкой маршрутизации, назначенные внешним пограничным интерфейсам, и обеспечивается экономия за счет отсутствия потребности в аппаратном балансировщике нагрузки.</span><span class="sxs-lookup"><span data-stu-id="83ce8-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
 
-<span data-ttu-id="3e569-116">Сценарии пограничного отработки отказа, поддерживаемые с помощью балансировки нагрузки на DNS, являются сеансами связи "Lync-to-Lync", сеансами конференц-связи Lync, сеансами Lync-PSTN, Office 365 и Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3e569-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions, Office 365, and Microsoft 365.</span></span> <span data-ttu-id="3e569-117">Сценарии отработки отказа при отработке отказа, не являющиеся преимуществами балансировки нагрузки на DNS, отправляются отработку отказа для удаленных пользователей единой системы обмена сообщениями Exchange (до Exchange 2010 SP1), подключения к общедоступным обмену сообщениями и Федерации с серверами Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="3e569-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
+<span data-ttu-id="83ce8-116">Сценарии пограничного отработки отказа, поддерживаемые с помощью балансировки нагрузки на DNS, являются сеансами связи "Lync-to-Lync", сеансами конференц-связи Lync, сеансами Lync-PSTN, Office 365 и Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="83ce8-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions, Office 365, and Microsoft 365.</span></span> <span data-ttu-id="83ce8-117">Сценарии отработки отказа при отработке отказа, не являющиеся преимуществами балансировки нагрузки на DNS, отправляются отработку отказа для удаленных пользователей единой системы обмена сообщениями Exchange (до Exchange 2010 SP1), подключения к общедоступным обмену сообщениями и Федерации с серверами Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="83ce8-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
 
-### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="3e569-118">Сводная таблица вариантов топологии пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="3e569-118">Summary of Edge Server Topology Options</span></span>
+### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="83ce8-118">Сводная таблица вариантов топологии пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="83ce8-118">Summary of Edge Server Topology Options</span></span>
 
 <table>
 <colgroup>
@@ -83,119 +85,79 @@ ms.locfileid: "44221743"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e569-119">Топология</span><span class="sxs-lookup"><span data-stu-id="3e569-119">Topology</span></span></th>
-<th><span data-ttu-id="3e569-120">Высокая доступность</span><span class="sxs-lookup"><span data-stu-id="3e569-120">High availability</span></span></th>
-<th><span data-ttu-id="3e569-121">Для внешних пограничных серверов в пограничном пуле требуются дополнительные записи A DNS</span><span class="sxs-lookup"><span data-stu-id="3e569-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
-<th><span data-ttu-id="3e569-122">Пограничный отработка отказа для сеансов Lync – Lync</span><span class="sxs-lookup"><span data-stu-id="3e569-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
-<th><span data-ttu-id="3e569-123">Пограничный отработка отказа для сеансов Федерации Lync-to-Lync EUM/PIC/OCS</span><span class="sxs-lookup"><span data-stu-id="3e569-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
+<th><span data-ttu-id="83ce8-119">Топология</span><span class="sxs-lookup"><span data-stu-id="83ce8-119">Topology</span></span></th>
+<th><span data-ttu-id="83ce8-120">Высокая доступность</span><span class="sxs-lookup"><span data-stu-id="83ce8-120">High availability</span></span></th>
+<th><span data-ttu-id="83ce8-121">Для внешних пограничных серверов в пограничном пуле требуются дополнительные записи A DNS</span><span class="sxs-lookup"><span data-stu-id="83ce8-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
+<th><span data-ttu-id="83ce8-122">Пограничный отработка отказа для сеансов Lync – Lync</span><span class="sxs-lookup"><span data-stu-id="83ce8-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
+<th><span data-ttu-id="83ce8-123">Пограничный отработка отказа для сеансов Федерации Lync-to-Lync EUM/PIC/OCS</span><span class="sxs-lookup"><span data-stu-id="83ce8-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e569-124">Отдельный пограничный сервер, использующий NAT</span><span class="sxs-lookup"><span data-stu-id="3e569-124">Single Edge using NAT</span></span></p></td>
-<td><p><span data-ttu-id="3e569-125">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-125">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-126">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-126">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-127">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-127">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-128">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-128">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-124">Отдельный пограничный сервер, использующий NAT</span><span class="sxs-lookup"><span data-stu-id="83ce8-124">Single Edge using NAT</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-125">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-125">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-126">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-126">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-127">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-127">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-128">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-128">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e569-129">Отдельный пограничный сервер, использующий общедоступный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="3e569-129">Single Edge using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="3e569-130">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-130">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-131">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-131">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-132">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-132">No</span></span></p></td>
-<td><p><span data-ttu-id="3e569-133">Нет</span><span class="sxs-lookup"><span data-stu-id="3e569-133">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-129">Отдельный пограничный сервер, использующий общедоступный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="83ce8-129">Single Edge using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-130">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-130">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-131">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-131">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-132">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-132">No</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-133">Нет</span><span class="sxs-lookup"><span data-stu-id="83ce8-133">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3e569-134">Масштабированная среда пограничных серверов (балансировка нагрузки на DNS), использующая NAT</span><span class="sxs-lookup"><span data-stu-id="3e569-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
-<td><p><span data-ttu-id="3e569-135">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-135">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-136">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-136">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-137">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-137">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-134">Масштабированная среда пограничных серверов (балансировка нагрузки на DNS), использующая NAT</span><span class="sxs-lookup"><span data-stu-id="83ce8-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-135">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-135">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-136">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-136">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-137">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-137">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e569-138">Масштабированная среда пограничных серверов (балансировка нагрузки на DNS), использующая общедоступный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="3e569-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="3e569-139">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-139">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-140">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-140">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-141">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-141">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-138">Масштабированная среда пограничных серверов (балансировка нагрузки на DNS), использующая общедоступный IP-адрес</span><span class="sxs-lookup"><span data-stu-id="83ce8-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-139">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-139">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-140">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-140">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-141">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-141">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3e569-142">Масштабированная среда пограничных серверов (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="3e569-142">Scaled Edge Hardware load balanced)</span></span></p></td>
-<td><p><span data-ttu-id="3e569-143">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-143">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-144">Нет (одна запись A DNS на каждый виртуальный IP-адрес)</span><span class="sxs-lookup"><span data-stu-id="3e569-144">No (one DNS A record per VIP)</span></span></p></td>
-<td><p><span data-ttu-id="3e569-145">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-145">Yes</span></span></p></td>
-<td><p><span data-ttu-id="3e569-146">Да</span><span class="sxs-lookup"><span data-stu-id="3e569-146">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-142">Масштабированная среда пограничных серверов (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="83ce8-142">Scaled Edge Hardware load balanced)</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-143">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-143">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-144">Нет (одна запись A DNS на каждый виртуальный IP-адрес)</span><span class="sxs-lookup"><span data-stu-id="83ce8-144">No (one DNS A record per VIP)</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-145">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-145">Yes</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-146">Да</span><span class="sxs-lookup"><span data-stu-id="83ce8-146">Yes</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="3e569-147">**\*** Отработка отказа для подключения к общедоступным службам обмена мгновенными сообщениями и Федерация с серверами Office Communications Server недоступны при балансировке нагрузки на DNS.</span><span class="sxs-lookup"><span data-stu-id="3e569-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="3e569-148">Для отработки отказа единой системы обмена сообщениями Exchange (удаленный пользователь) при использовании балансировки нагрузки на DNS требуется Exchange Server 2010 SP1 или более</span><span class="sxs-lookup"><span data-stu-id="3e569-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
+<span data-ttu-id="83ce8-147">**\*** Отработка отказа для подключения к общедоступным службам обмена мгновенными сообщениями и Федерация с серверами Office Communications Server недоступны при балансировке нагрузки на DNS.</span><span class="sxs-lookup"><span data-stu-id="83ce8-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="83ce8-148">Для отработки отказа единой системы обмена сообщениями Exchange (удаленный пользователь) при использовании балансировки нагрузки на DNS требуется Exchange Server 2010 SP1 или более</span><span class="sxs-lookup"><span data-stu-id="83ce8-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
 
 
 
 > [!NOTE]
-> <span data-ttu-id="3e569-149">В топологиях с одним пограничным сервером и масштабированной средой пограничных серверов (балансировка нагрузки на DNS) могут использоваться:</span><span class="sxs-lookup"><span data-stu-id="3e569-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
-> <ul><li><p><span data-ttu-id="3e569-150">общедоступные IP-адреса с поддержкой маршрутизации;</span><span class="sxs-lookup"><span data-stu-id="3e569-150">Routable public IP addresses</span></span></p></li>
-> <li><p><span data-ttu-id="3e569-151">Частный IP-адрес без маршрутизации при использовании симметричного преобразования сетевых адресов (NAT)</span><span class="sxs-lookup"><span data-stu-id="3e569-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
+> <span data-ttu-id="83ce8-149">В топологиях с одним пограничным сервером и масштабированной средой пограничных серверов (балансировка нагрузки на DNS) могут использоваться:</span><span class="sxs-lookup"><span data-stu-id="83ce8-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
+> <ul><li><p><span data-ttu-id="83ce8-150">общедоступные IP-адреса с поддержкой маршрутизации;</span><span class="sxs-lookup"><span data-stu-id="83ce8-150">Routable public IP addresses</span></span></p></li>
+> <li><p><span data-ttu-id="83ce8-151">Частный IP-адрес без маршрутизации при использовании симметричного преобразования сетевых адресов (NAT)</span><span class="sxs-lookup"><span data-stu-id="83ce8-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
 >
-> <ul><li> <span data-ttu-id="3e569-152">Если вы используете общедоступный IP-адрес или частный IP-адрес с NAT, вы по-прежнему будете использовать одинаковое число IP-адресов в зависимости от выбранного варианта конфигурации в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="3e569-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="3e569-153">Можно настроить пограничный сервер на использование одного IP-адреса с отдельными портами для каждой службы или использовать разные IP-адреса для каждой службы, но использовать один и тот же порт (по умолчанию — TCP 443).</span><span class="sxs-lookup"><span data-stu-id="3e569-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
-> <span data-ttu-id="3e569-154">Если вы решили использовать частные IP-адреса без поддержки маршрутизации для NAT:</span><span class="sxs-lookup"><span data-stu-id="3e569-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
-> <ul><li><p><span data-ttu-id="3e569-155">Вы должны использовать частные IP-адреса с маршрутизацией на всех трех внешних интерфейсах</span><span class="sxs-lookup"><span data-stu-id="3e569-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
-> <li><p><span data-ttu-id="3e569-156">необходимо настроить симметричное преобразование сетевых адресов (NAT) для входящего и исходящего трафика.</span><span class="sxs-lookup"><span data-stu-id="3e569-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
-> <span data-ttu-id="3e569-157">В топологии с масштабированной средой пограничных серверов (аппаратная балансировка нагрузки) необходимо использовать общедоступные IP-адреса.</span><span class="sxs-lookup"><span data-stu-id="3e569-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
+> <ul><li> <span data-ttu-id="83ce8-152">Если вы используете общедоступный IP-адрес или частный IP-адрес с NAT, вы по-прежнему будете использовать одинаковое число IP-адресов в зависимости от выбранного варианта конфигурации в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="83ce8-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="83ce8-153">Можно настроить пограничный сервер на использование одного IP-адреса с отдельными портами для каждой службы или использовать разные IP-адреса для каждой службы, но использовать один и тот же порт (по умолчанию — TCP 443).</span><span class="sxs-lookup"><span data-stu-id="83ce8-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
+> <span data-ttu-id="83ce8-154">Если вы решили использовать частные IP-адреса без поддержки маршрутизации для NAT:</span><span class="sxs-lookup"><span data-stu-id="83ce8-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
+> <ul><li><p><span data-ttu-id="83ce8-155">Вы должны использовать частные IP-адреса с маршрутизацией на всех трех внешних интерфейсах</span><span class="sxs-lookup"><span data-stu-id="83ce8-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
+> <li><p><span data-ttu-id="83ce8-156">необходимо настроить симметричное преобразование сетевых адресов (NAT) для входящего и исходящего трафика.</span><span class="sxs-lookup"><span data-stu-id="83ce8-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
+> <span data-ttu-id="83ce8-157">В топологии с масштабированной средой пограничных серверов (аппаратная балансировка нагрузки) необходимо использовать общедоступные IP-адреса.</span><span class="sxs-lookup"><span data-stu-id="83ce8-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
 
 
 
-<span data-ttu-id="3e569-158">Lync Server 2013 поддерживает размещение внешних интерфейсов доступа, веб-конференций и аудио-и пограничных интерфейсов на маршрутизаторе или брандмауэре, который выполняет преобразование сетевых адресов (NAT) как для одной, так и для масштабируемых топологий пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="3e569-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
+<span data-ttu-id="83ce8-158">Lync Server 2013 поддерживает размещение внешних интерфейсов доступа, веб-конференций и аудио-и пограничных интерфейсов на маршрутизаторе или брандмауэре, который выполняет преобразование сетевых адресов (NAT) как для одной, так и для масштабируемых топологий пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="83ce8-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
 
-<span data-ttu-id="3e569-p106">Для использования преобразования сетевых адресов (NAT) для всех пограничных внешних интерфейсов требуется балансировка нагрузки DNS. По сравнению с аппаратными балансировщиками нагрузки балансировка нагрузки DNS без NAT позволяет сократить число общедоступных IP-адресов на пограничный сервер в пограничном пуле, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="3e569-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
+<span data-ttu-id="83ce8-p106">Для использования преобразования сетевых адресов (NAT) для всех пограничных внешних интерфейсов требуется балансировка нагрузки DNS. По сравнению с аппаратными балансировщиками нагрузки балансировка нагрузки DNS без NAT позволяет сократить число общедоступных IP-адресов на пограничный сервер в пограничном пуле, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="83ce8-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
 
-  - <span data-ttu-id="3e569-161">Для масштабируемого консолидированного пограничного сервера Lync Server 2013 (Балансировка нагрузки DNS) требуются три общедоступных IP-адреса для каждого пограничного сервера в пограничном пуле.</span><span class="sxs-lookup"><span data-stu-id="3e569-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
+  - <span data-ttu-id="83ce8-161">Для масштабируемого консолидированного пограничного сервера Lync Server 2013 (Балансировка нагрузки DNS) требуются три общедоступных IP-адреса для каждого пограничного сервера в пограничном пуле.</span><span class="sxs-lookup"><span data-stu-id="83ce8-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
 
-  - <span data-ttu-id="3e569-162">Для масштабируемого консолидированного пограничного сервера Lync Server 2013 (аппаратная балансировка нагрузки) требуется три общедоступных IP-адреса для виртуальных IP-адресов подсистемы балансировки нагрузки (одно требование, не увеличивающееся при добавлении пограничных серверов в пул) плюс три общедоступных IP-адреса на пограничный сервер в пуле.</span><span class="sxs-lookup"><span data-stu-id="3e569-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
+  - <span data-ttu-id="83ce8-162">Для масштабируемого консолидированного пограничного сервера Lync Server 2013 (аппаратная балансировка нагрузки) требуется три общедоступных IP-адреса для виртуальных IP-адресов подсистемы балансировки нагрузки (одно требование, не увеличивающееся при добавлении пограничных серверов в пул) плюс три общедоступных IP-адреса на пограничный сервер в пуле.</span><span class="sxs-lookup"><span data-stu-id="83ce8-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
 
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="3e569-163">Требования к IP-адресам для масштабированной консолидированной среды пограничных серверов (отдельный IP-адрес для каждой роли)</span><span class="sxs-lookup"><span data-stu-id="3e569-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="3e569-164">Число пограничных серверов в пуле</span><span class="sxs-lookup"><span data-stu-id="3e569-164">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="3e569-165">Количество обязательных IP-адресов Lync Server 2013 (Балансировка нагрузки на DNS)</span><span class="sxs-lookup"><span data-stu-id="3e569-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="3e569-166">Количество обязательных IP-адресов Lync Server 2013 (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="3e569-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="3e569-167">2 </span><span class="sxs-lookup"><span data-stu-id="3e569-167">2</span></span></p></td>
-<td><p><span data-ttu-id="3e569-168">6 </span><span class="sxs-lookup"><span data-stu-id="3e569-168">6</span></span></p></td>
-<td><p><span data-ttu-id="3e569-169">3 (по 1 на виртуальный IP-адрес) + 6</span><span class="sxs-lookup"><span data-stu-id="3e569-169">3 (1 per VIP) + 6</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="3e569-170">4</span><span class="sxs-lookup"><span data-stu-id="3e569-170">3</span></span></p></td>
-<td><p><span data-ttu-id="3e569-171">9 </span><span class="sxs-lookup"><span data-stu-id="3e569-171">9</span></span></p></td>
-<td><p><span data-ttu-id="3e569-172">3 (по 1 на виртуальный IP-адрес) + 9</span><span class="sxs-lookup"><span data-stu-id="3e569-172">3 (1 per VIP) + 9</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="3e569-173">4 </span><span class="sxs-lookup"><span data-stu-id="3e569-173">4</span></span></p></td>
-<td><p><span data-ttu-id="3e569-174">12 </span><span class="sxs-lookup"><span data-stu-id="3e569-174">12</span></span></p></td>
-<td><p><span data-ttu-id="3e569-175">3 (по 1 на виртуальный IP-адрес) + 12</span><span class="sxs-lookup"><span data-stu-id="3e569-175">3 (1 per VIP) + 12</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="3e569-176">5 </span><span class="sxs-lookup"><span data-stu-id="3e569-176">5</span></span></p></td>
-<td><p><span data-ttu-id="3e569-177">15 </span><span class="sxs-lookup"><span data-stu-id="3e569-177">15</span></span></p></td>
-<td><p><span data-ttu-id="3e569-178">3 (по 1 на виртуальный IP-адрес) + 15</span><span class="sxs-lookup"><span data-stu-id="3e569-178">3 (1 per VIP) + 15</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="3e569-179">Требования к IP-адресам для масштабированной консолидированной среды пограничных серверов (один IP-адрес для всех ролей)</span><span class="sxs-lookup"><span data-stu-id="3e569-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="83ce8-163">Требования к IP-адресам для масштабированной консолидированной среды пограничных серверов (отдельный IP-адрес для каждой роли)</span><span class="sxs-lookup"><span data-stu-id="83ce8-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
 
 <table>
 <colgroup>
@@ -205,77 +167,117 @@ ms.locfileid: "44221743"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e569-180">Число пограничных серверов в пуле</span><span class="sxs-lookup"><span data-stu-id="3e569-180">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="3e569-181">Количество обязательных IP-адресов Lync Server 2013 (Балансировка нагрузки на DNS)</span><span class="sxs-lookup"><span data-stu-id="3e569-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="3e569-182">Количество обязательных IP-адресов Lync Server 2013 (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="3e569-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+<th><span data-ttu-id="83ce8-164">Число пограничных серверов в пуле</span><span class="sxs-lookup"><span data-stu-id="83ce8-164">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="83ce8-165">Количество обязательных IP-адресов Lync Server 2013 (Балансировка нагрузки на DNS)</span><span class="sxs-lookup"><span data-stu-id="83ce8-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="83ce8-166">Количество обязательных IP-адресов Lync Server 2013 (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="83ce8-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e569-183">2 </span><span class="sxs-lookup"><span data-stu-id="3e569-183">2</span></span></p></td>
-<td><p><span data-ttu-id="3e569-184">2 </span><span class="sxs-lookup"><span data-stu-id="3e569-184">2</span></span></p></td>
-<td><p><span data-ttu-id="3e569-185">1 (по 1 на виртуальный IP-адрес) + 2</span><span class="sxs-lookup"><span data-stu-id="3e569-185">1 (1 per VIP) + 2</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-167">2</span><span class="sxs-lookup"><span data-stu-id="83ce8-167">2</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-168">6 </span><span class="sxs-lookup"><span data-stu-id="83ce8-168">6</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-169">3 (по 1 на виртуальный IP-адрес) + 6</span><span class="sxs-lookup"><span data-stu-id="83ce8-169">3 (1 per VIP) + 6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e569-186">4</span><span class="sxs-lookup"><span data-stu-id="3e569-186">3</span></span></p></td>
-<td><p><span data-ttu-id="3e569-187">4</span><span class="sxs-lookup"><span data-stu-id="3e569-187">3</span></span></p></td>
-<td><p><span data-ttu-id="3e569-188">1 (по 1 на виртуальный IP-адрес) + 3</span><span class="sxs-lookup"><span data-stu-id="3e569-188">1 (1 per VIP) + 3</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-170">4</span><span class="sxs-lookup"><span data-stu-id="83ce8-170">3</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-171">9 </span><span class="sxs-lookup"><span data-stu-id="83ce8-171">9</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-172">3 (по 1 на виртуальный IP-адрес) + 9</span><span class="sxs-lookup"><span data-stu-id="83ce8-172">3 (1 per VIP) + 9</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3e569-189">4 </span><span class="sxs-lookup"><span data-stu-id="3e569-189">4</span></span></p></td>
-<td><p><span data-ttu-id="3e569-190">4 </span><span class="sxs-lookup"><span data-stu-id="3e569-190">4</span></span></p></td>
-<td><p><span data-ttu-id="3e569-191">1 (по 1 на виртуальный IP-адрес) + 4</span><span class="sxs-lookup"><span data-stu-id="3e569-191">1 (1 per VIP) + 4</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-173">4 </span><span class="sxs-lookup"><span data-stu-id="83ce8-173">4</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-174">12 </span><span class="sxs-lookup"><span data-stu-id="83ce8-174">12</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-175">3 (по 1 на виртуальный IP-адрес) + 12</span><span class="sxs-lookup"><span data-stu-id="83ce8-175">3 (1 per VIP) + 12</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e569-192">5 </span><span class="sxs-lookup"><span data-stu-id="3e569-192">5</span></span></p></td>
-<td><p><span data-ttu-id="3e569-193">17:00</span><span class="sxs-lookup"><span data-stu-id="3e569-193">5</span></span></p></td>
-<td><p><span data-ttu-id="3e569-194">1 (по 1 на виртуальный IP-адрес) + 5</span><span class="sxs-lookup"><span data-stu-id="3e569-194">1 (1 per VIP) + 5</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-176">5 </span><span class="sxs-lookup"><span data-stu-id="83ce8-176">5</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-177">15 </span><span class="sxs-lookup"><span data-stu-id="83ce8-177">15</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-178">3 (по 1 на виртуальный IP-адрес) + 15</span><span class="sxs-lookup"><span data-stu-id="83ce8-178">3 (1 per VIP) + 15</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="3e569-p107">Основными факторами при выборе топологии являются высокая доступность и балансировка нагрузки. Требования к высокой доступности могут влиять на решение в отношении балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="3e569-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="83ce8-179">Требования к IP-адресам для масштабированной консолидированной среды пограничных серверов (один IP-адрес для всех ролей)</span><span class="sxs-lookup"><span data-stu-id="83ce8-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
 
-  - <span data-ttu-id="3e569-197">**Высокая доступность**   Если вам нужна высокая доступность, разверните по крайней мере два пограничных сервера в пуле.</span><span class="sxs-lookup"><span data-stu-id="3e569-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="3e569-198">Один пограничный пул обеспечивает поддержку до двенадцати пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="3e569-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="3e569-199">Если требуется большая емкость, вы можете развернуть несколько пограничных пулов.</span><span class="sxs-lookup"><span data-stu-id="3e569-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="3e569-200">Как правило, внешний доступ требуется 10 % контингента пользователей.</span><span class="sxs-lookup"><span data-stu-id="3e569-200">As a general rule, 10% of a given user base will need external access.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="83ce8-180">Число пограничных серверов в пуле</span><span class="sxs-lookup"><span data-stu-id="83ce8-180">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="83ce8-181">Количество обязательных IP-адресов Lync Server 2013 (Балансировка нагрузки на DNS)</span><span class="sxs-lookup"><span data-stu-id="83ce8-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="83ce8-182">Количество обязательных IP-адресов Lync Server 2013 (аппаратная балансировка нагрузки)</span><span class="sxs-lookup"><span data-stu-id="83ce8-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="83ce8-183">2</span><span class="sxs-lookup"><span data-stu-id="83ce8-183">2</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-184">2</span><span class="sxs-lookup"><span data-stu-id="83ce8-184">2</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-185">1 (по 1 на виртуальный IP-адрес) + 2</span><span class="sxs-lookup"><span data-stu-id="83ce8-185">1 (1 per VIP) + 2</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="83ce8-186">4</span><span class="sxs-lookup"><span data-stu-id="83ce8-186">3</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-187">4</span><span class="sxs-lookup"><span data-stu-id="83ce8-187">3</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-188">1 (по 1 на виртуальный IP-адрес) + 3</span><span class="sxs-lookup"><span data-stu-id="83ce8-188">1 (1 per VIP) + 3</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="83ce8-189">4 </span><span class="sxs-lookup"><span data-stu-id="83ce8-189">4</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-190">4 </span><span class="sxs-lookup"><span data-stu-id="83ce8-190">4</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-191">1 (по 1 на виртуальный IP-адрес) + 4</span><span class="sxs-lookup"><span data-stu-id="83ce8-191">1 (1 per VIP) + 4</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="83ce8-192">5 </span><span class="sxs-lookup"><span data-stu-id="83ce8-192">5</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-193">17:00</span><span class="sxs-lookup"><span data-stu-id="83ce8-193">5</span></span></p></td>
+<td><p><span data-ttu-id="83ce8-194">1 (по 1 на виртуальный IP-адрес) + 5</span><span class="sxs-lookup"><span data-stu-id="83ce8-194">1 (1 per VIP) + 5</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="83ce8-p107">Основными факторами при выборе топологии являются высокая доступность и балансировка нагрузки. Требования к высокой доступности могут влиять на решение в отношении балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="83ce8-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+
+  - <span data-ttu-id="83ce8-197">**Высокая доступность**   Если вам нужна высокая доступность, разверните по крайней мере два пограничных сервера в пуле.</span><span class="sxs-lookup"><span data-stu-id="83ce8-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="83ce8-198">Один пограничный пул обеспечивает поддержку до двенадцати пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="83ce8-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="83ce8-199">Если требуется большая емкость, вы можете развернуть несколько пограничных пулов.</span><span class="sxs-lookup"><span data-stu-id="83ce8-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="83ce8-200">Как правило, внешний доступ требуется 10 % контингента пользователей.</span><span class="sxs-lookup"><span data-stu-id="83ce8-200">As a general rule, 10% of a given user base will need external access.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="3e569-201">Построитель топологий позволяет настраивать до двадцати пограничных серверов в один пограничный пул.</span><span class="sxs-lookup"><span data-stu-id="3e569-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="3e569-202">Проверенное и поддерживаемое максимальное количество пограничных серверов в пуле составляет двенадцать и построитель топологий, что позволяет не использовать более двенадцати пограничных серверов в пределах одного пограничного пула.</span><span class="sxs-lookup"><span data-stu-id="3e569-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
+    > <span data-ttu-id="83ce8-201">Построитель топологий позволяет настраивать до двадцати пограничных серверов в один пограничный пул.</span><span class="sxs-lookup"><span data-stu-id="83ce8-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="83ce8-202">Проверенное и поддерживаемое максимальное количество пограничных серверов в пуле составляет двенадцать и построитель топологий, что позволяет не использовать более двенадцати пограничных серверов в пределах одного пограничного пула.</span><span class="sxs-lookup"><span data-stu-id="83ce8-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="3e569-203">**Аппаратная балансировка нагрузки**   Аппаратная балансировка нагрузки поддерживается для балансировки нагрузки Lync Server 2013 пограничных серверов при использовании общедоступных IP-адресов для пограничных внешних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="3e569-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="3e569-204">Например, этот подход следует использовать для отработки отказа следующих приложений:</span><span class="sxs-lookup"><span data-stu-id="3e569-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
+  - <span data-ttu-id="83ce8-203">**Аппаратная балансировка нагрузки**   Аппаратная балансировка нагрузки поддерживается для балансировки нагрузки Lync Server 2013 пограничных серверов при использовании общедоступных IP-адресов для пограничных внешних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="83ce8-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="83ce8-204">Например, этот подход следует использовать для отработки отказа следующих приложений:</span><span class="sxs-lookup"><span data-stu-id="83ce8-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
     
-      - <span data-ttu-id="3e569-205">общедоступная служба обмена мгновенными сообщениями;</span><span class="sxs-lookup"><span data-stu-id="3e569-205">Public IM connectivity</span></span>
+      - <span data-ttu-id="83ce8-205">общедоступная служба обмена мгновенными сообщениями;</span><span class="sxs-lookup"><span data-stu-id="83ce8-205">Public IM connectivity</span></span>
     
-      - <span data-ttu-id="3e569-206">Федерация с компаниями, работающими под управлением Microsoft Office Communications Server 2007 или Microsoft Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="3e569-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
+      - <span data-ttu-id="83ce8-206">Федерация с компаниями, работающими под управлением Microsoft Office Communications Server 2007 или Microsoft Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="83ce8-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
     
-      - <span data-ttu-id="3e569-207">внешний доступ к единой системе обмена сообщениями Exchange 2007 или Exchange 2010;</span><span class="sxs-lookup"><span data-stu-id="3e569-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
+      - <span data-ttu-id="83ce8-207">внешний доступ к единой системе обмена сообщениями Exchange 2007 или Exchange 2010;</span><span class="sxs-lookup"><span data-stu-id="83ce8-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
         
         <div>
         
 
         > [!IMPORTANT]
-        > <span data-ttu-id="3e569-208">Балансировка нагрузки на DNS для Exchange 2010 SP1 и более поздних версий поддерживается для единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="3e569-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
+        > <span data-ttu-id="83ce8-208">Балансировка нагрузки на DNS для Exchange 2010 SP1 и более поздних версий поддерживается для единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="83ce8-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
 
         
         </div>
     
-    <span data-ttu-id="3e569-p111">Эти приложения не поддерживают балансировку нагрузки DNS и, хотя и будут работать, но будут подключаться только к первому пограничному серверу в пуле. Если он недоступен, установить подключение не удастся. Например, если в пуле развернуто несколько пограничных серверов для обработки федеративного трафика, только один прокси-сервер доступа будет получать трафик, а остальные будут бездействовать.</span><span class="sxs-lookup"><span data-stu-id="3e569-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
+    <span data-ttu-id="83ce8-p111">Эти приложения не поддерживают балансировку нагрузки DNS и, хотя и будут работать, но будут подключаться только к первому пограничному серверу в пуле. Если он недоступен, установить подключение не удастся. Например, если в пуле развернуто несколько пограничных серверов для обработки федеративного трафика, только один прокси-сервер доступа будет получать трафик, а остальные будут бездействовать.</span><span class="sxs-lookup"><span data-stu-id="83ce8-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="3e569-212">Использование балансировки нагрузки на DNS рекомендуется при Федерации с компаниями, использующими Lync Server 2010 и Office 365 или Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3e569-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Office 365 or Microsoft 365.</span></span> <span data-ttu-id="3e569-213">Имейте в виду, что в большинстве федеративных партнеров используется Office Communications Server 2007 или Office Communications Server 2007 R2, что существенно влияет на производительность.</span><span class="sxs-lookup"><span data-stu-id="3e569-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
+> <span data-ttu-id="83ce8-212">Использование балансировки нагрузки на DNS рекомендуется при Федерации с компаниями, использующими Lync Server 2010 и Office 365 или Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="83ce8-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Office 365 or Microsoft 365.</span></span> <span data-ttu-id="83ce8-213">Имейте в виду, что в большинстве федеративных партнеров используется Office Communications Server 2007 или Office Communications Server 2007 R2, что существенно влияет на производительность.</span><span class="sxs-lookup"><span data-stu-id="83ce8-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
 
 
 
-<span data-ttu-id="3e569-214"></div>
+<span data-ttu-id="83ce8-214"></div>
 
 </div>
 
@@ -285,7 +287,7 @@ ms.locfileid: "44221743"
 
 </div>
 
-</span><span class="sxs-lookup"><span data-stu-id="3e569-214"></div>
+</span><span class="sxs-lookup"><span data-stu-id="83ce8-214"></div>
 
 </div>
 

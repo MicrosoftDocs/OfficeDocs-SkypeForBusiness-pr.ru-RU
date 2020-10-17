@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528726"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="f6b37-102">Включение групповой отправки звонков для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6b37-102">Enable Group Call Pickup for users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="01b9a-102">Включение групповой отправки звонков для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01b9a-102">Enable Group Call Pickup for users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42190702"
 
 <span> </span>
 
-<span data-ttu-id="01b9a-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="01b9a-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="f6b37-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="f6b37-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="01b9a-104">Использование средства SEFAUtil Resource Kit для включения групповой отправки звонков для пользователей.</span><span class="sxs-lookup"><span data-stu-id="01b9a-104">Use the SEFAUtil resource kit tool to enable Group Call Pickup for users.</span></span> <span data-ttu-id="01b9a-105">Пользователям должен быть назначен номер группы с типом Грауппиккуп в таблице орбит парковки вызовов для включения групповой отправки звонков.</span><span class="sxs-lookup"><span data-stu-id="01b9a-105">Users must be assigned a group number with type GroupPickup in the call park orbit table to have Group Call Pickup enabled.</span></span> <span data-ttu-id="01b9a-106">Вы назначаете номер группы ответа на звонки и включаете запрос групп в то же время, используя параметр/енаблеграуппиккуп при запуске SEFAUtil. exe.</span><span class="sxs-lookup"><span data-stu-id="01b9a-106">You assign a call pickup group number and enable Group Call Pickup at the same time by using the /enablegrouppickup parameter when you run SEFAUtil.exe.</span></span>
+<span data-ttu-id="f6b37-104">Использование средства SEFAUtil Resource Kit для включения групповой отправки звонков для пользователей.</span><span class="sxs-lookup"><span data-stu-id="f6b37-104">Use the SEFAUtil resource kit tool to enable Group Call Pickup for users.</span></span> <span data-ttu-id="f6b37-105">Пользователям должен быть назначен номер группы с типом Грауппиккуп в таблице орбит парковки вызовов для включения групповой отправки звонков.</span><span class="sxs-lookup"><span data-stu-id="f6b37-105">Users must be assigned a group number with type GroupPickup in the call park orbit table to have Group Call Pickup enabled.</span></span> <span data-ttu-id="f6b37-106">Вы назначаете номер группы ответа на звонки и включаете запрос групп в то же время, используя параметр/енаблеграуппиккуп при запуске SEFAUtil.exe.</span><span class="sxs-lookup"><span data-stu-id="f6b37-106">You assign a call pickup group number and enable Group Call Pickup at the same time by using the /enablegrouppickup parameter when you run SEFAUtil.exe.</span></span>
 
 <div>
 
-## <a name="to-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="01b9a-107">Включение групповой отправки звонков для пользователя</span><span class="sxs-lookup"><span data-stu-id="01b9a-107">To enable Group Call Pickup for a user</span></span>
+## <a name="to-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="f6b37-107">Включение групповой отправки звонков для пользователя</span><span class="sxs-lookup"><span data-stu-id="f6b37-107">To enable Group Call Pickup for a user</span></span>
 
-1.  <span data-ttu-id="01b9a-108">Войдите на компьютер, на котором установлено средство SEFAUtil с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="01b9a-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="f6b37-108">Войдите на компьютер, на котором установлено средство SEFAUtil с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="f6b37-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="01b9a-109">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="01b9a-109">At the command line, run:</span></span>
+2.  <span data-ttu-id="f6b37-109">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="f6b37-109">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    <span data-ttu-id="01b9a-110">Пример:</span><span class="sxs-lookup"><span data-stu-id="01b9a-110">For example:</span></span>
+    <span data-ttu-id="f6b37-110">Пример:</span><span class="sxs-lookup"><span data-stu-id="f6b37-110">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -57,11 +59,11 @@ ms.locfileid: "42190702"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="01b9a-111">См. также</span><span class="sxs-lookup"><span data-stu-id="01b9a-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6b37-111">См. также</span><span class="sxs-lookup"><span data-stu-id="f6b37-111">See Also</span></span>
 
 
-[<span data-ttu-id="01b9a-112">Назначение номера группы для отправки звонков пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01b9a-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[<span data-ttu-id="01b9a-113">Отключение групповой отправки вызовов для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01b9a-113">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="f6b37-112">Назначение номера группы для отправки звонков пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6b37-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[<span data-ttu-id="f6b37-113">Отключение групповой отправки вызовов для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6b37-113">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

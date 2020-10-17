@@ -12,20 +12,22 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a5ed5c138d1389f0a3d4882bcdd437b5e7919e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5ebbebde30d39a95879a766280d3f34a830683e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528656"
 ---
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a><span data-ttu-id="a2867-102">Включение или отключение устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2867-102">Enable or disable a conferencing device in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a><span data-ttu-id="31304-102">Включение или отключение устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31304-102">Enable or disable a conferencing device in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42190682"
 
 <span> </span>
 
-<span data-ttu-id="31304-103">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="31304-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="a2867-103">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="a2867-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="31304-104">Включите или отключите устройство конференц-связи с помощью командлета **Enable-CsMeetingRoom** и командлета **Disable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="31304-104">Enable and disable a conferencing device by using the **Enable-CsMeetingRoom** cmdlet and the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="31304-105">Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="31304-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="a2867-104">Включите или отключите устройство конференц-связи с помощью командлета **Enable-CsMeetingRoom** и командлета **Disable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="a2867-104">Enable and disable a conferencing device by using the **Enable-CsMeetingRoom** cmdlet and the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="a2867-105">Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a2867-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="31304-106">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="31304-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="a2867-106">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="a2867-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -54,9 +56,9 @@ ms.locfileid: "42190682"
 
 <div>
 
-## <a name="enabling-a-conferencing-device"></a><span data-ttu-id="31304-107">Включение устройства для конференц-связи</span><span class="sxs-lookup"><span data-stu-id="31304-107">Enabling a Conferencing Device</span></span>
+## <a name="enabling-a-conferencing-device"></a><span data-ttu-id="a2867-107">Включение устройства для конференц-связи</span><span class="sxs-lookup"><span data-stu-id="a2867-107">Enabling a Conferencing Device</span></span>
 
-  - <span data-ttu-id="31304-108">Чтобы включить устройство для конференц-связи, используйте командлет **Enable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="31304-108">To enable a conferencing device, use the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="31304-109">При включении устройства для конференц-связи необходимо включить в него идентификатор устройства конференц-связи, b) пул регистратора, в котором будет размещена учетная запись комнаты, и c) SIP-адрес, назначаемый этой учетной записи.</span><span class="sxs-lookup"><span data-stu-id="31304-109">When enabling a conferencing device, you must include a) the conferencing device identity, b) the Registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span>
+  - <span data-ttu-id="a2867-108">Чтобы включить устройство для конференц-связи, используйте командлет **Enable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="a2867-108">To enable a conferencing device, use the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="a2867-109">При включении устройства для конференц-связи необходимо включить в него идентификатор устройства конференц-связи, b) пул регистратора, в котором будет размещена учетная запись комнаты, и c) SIP-адрес, назначаемый этой учетной записи.</span><span class="sxs-lookup"><span data-stu-id="a2867-109">When enabling a conferencing device, you must include a) the conferencing device identity, b) the Registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span>
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -64,15 +66,15 @@ ms.locfileid: "42190682"
 
 <div>
 
-## <a name="disabling-a-conferencing-device"></a><span data-ttu-id="31304-110">Отключение устройства конференц-связи</span><span class="sxs-lookup"><span data-stu-id="31304-110">Disabling a Conferencing Device</span></span>
+## <a name="disabling-a-conferencing-device"></a><span data-ttu-id="a2867-110">Отключение устройства конференц-связи</span><span class="sxs-lookup"><span data-stu-id="a2867-110">Disabling a Conferencing Device</span></span>
 
-  - <span data-ttu-id="31304-111">Чтобы отключить устройство для конференц-связи, используйте командлет **Disable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="31304-111">To disable a conferencing device, use the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="31304-112">Убедитесь, что вы указали идентификатор отключенного устройства конференц-связи:</span><span class="sxs-lookup"><span data-stu-id="31304-112">Make sure that you specify the identity of the conferencing device to be disabled:</span></span>
+  - <span data-ttu-id="a2867-111">Чтобы отключить устройство для конференц-связи, используйте командлет **Disable-CsMeetingRoom** .</span><span class="sxs-lookup"><span data-stu-id="a2867-111">To disable a conferencing device, use the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="a2867-112">Убедитесь, что вы указали идентификатор отключенного устройства конференц-связи:</span><span class="sxs-lookup"><span data-stu-id="a2867-112">Make sure that you specify the identity of the conferencing device to be disabled:</span></span>
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-<span data-ttu-id="31304-113">Дополнительные сведения можно найти в разделах справки о командлетах [Enable – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) и командлете [Disable – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .</span><span class="sxs-lookup"><span data-stu-id="31304-113">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) cmdlet.</span></span>
+<span data-ttu-id="a2867-113">Дополнительные сведения можно найти в разделах справки о командлетах [Enable – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) и командлете [Disable – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .</span><span class="sxs-lookup"><span data-stu-id="a2867-113">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) cmdlet.</span></span>
 
 </div>
 
