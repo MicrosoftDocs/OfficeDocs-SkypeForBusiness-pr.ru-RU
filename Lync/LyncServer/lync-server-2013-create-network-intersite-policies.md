@@ -12,20 +12,22 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae7024aa0a9f5c5734762ed0accb6e1dc723f2b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 55c8523fe86cfee7b9e2332e459959b096831abb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515596"
 ---
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Создание межсайтовых политик для сети в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Создание межсайтовых политик для сети в Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 </div>
 
-В примере области "Северная Америка" топологии существует прямая ссылка между сайтами Рино и Альбукерке. Для этих двух сайтов требуется межсайтовая политика, которая применяет соответствующий профиль политики пропускной способности. В следующем примере применяется профиль канала\_20Mb.
+В примере области "Северная Америка" топологии существует прямая ссылка между сайтами Рино и Альбукерке. Для этих двух сайтов требуется межсайтовая политика, которая применяет соответствующий профиль политики пропускной способности. В следующем примере применяется \_ профиль канала 20Mb.
 
 <div>
 

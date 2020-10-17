@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513886"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Список таблиц сервера сохраняемого чата в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Список таблиц сервера сохраняемого чата в Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">Тбладупдатес в Lync Server 2013</a></p></td>
-<td><p>Содержит изменения доменных служб Active Directory, которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory и являются одной из временных таблиц (вместе с таблицей tblPrincipalMemberDifference), которая используется на первом шаге Active Directory Синхр.</p>
+<td><p>Содержит изменения доменных служб Active Directory, которые еще не были обработаны с помощью последующих шагов синхронизации Active Directory и являются одной из временных таблиц (вместе с таблицей tblPrincipalMemberDifference), которая используется на первом этапе синхронизации Active Directory.</p>
 <p>Изменения в Active Directory сохраняются, обрабатываются или удаляются только для субъектов, которые уже указаны в таблице tblPrincipal.</p></td>
 </tr>
 <tr class="even">
@@ -143,11 +145,11 @@ _**Последнее изменение темы:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">Тбленуматтрибуте в Lync Server 2013</a></p></td>
-<td><p>Содержит только жестко &quot;запрограммированные атрибуты видимости&quot; и &quot;поведения&quot; , используемые в таблице tblNode.</p></td>
+<td><p>Содержит только жестко запрограммированные &quot; &quot; атрибуты видимости и &quot; поведения &quot; , используемые в таблице tblNode.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue в Lync Server 2013</a></p></td>
-<td><p>Содержит значения атрибутов режима &quot;&quot; "и" для нежесткого отображения, которые используются в таблице tblNode.</p></td>
+<td><p>Содержит значения &quot; атрибутов режима "и" для нежесткого отображения &quot; , которые используются в таблице tblNode.</p></td>
 </tr>
 </tbody>
 </table>

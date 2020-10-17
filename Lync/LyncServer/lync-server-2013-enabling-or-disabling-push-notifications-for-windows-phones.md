@@ -12,20 +12,22 @@ ms:contentKeyID: 49733767
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae8c2bf6cc567b0c4740fa6b7e547c2969ad4358
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4bcf8ccda422468416ae4c0b486e2e224b17f9f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515476"
 ---
+# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Включение и отключение push-уведомлений для телефонов с Windows в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Включение и отключение push-уведомлений для телефонов с Windows в Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Push-уведомления в форме эмблем, значков или о
 
 5.  Установите флажок **Разрешить push-уведомления от Майкрософт**.
 
-6.  Щелкните **Исполнить**.
+6.  Нажмите кнопку **Зафиксировать**.
 
 </div>
 
@@ -79,7 +81,7 @@ Push-уведомления в форме эмблем, значков или о
 
 ## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Включение и отключение push-уведомлений для Windows Phone с помощью командлетов Windows PowerShell
 
-Вы можете включать и отключать push-уведомления для Windows Phone с помощью командлета **Set-CsPushNotificationConfiguration** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы можете включать и отключать push-уведомления для Windows Phone с помощью командлета **Set-CsPushNotificationConfiguration** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

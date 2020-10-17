@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207536"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514456"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Представление ErrorReport в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Представление ErrorReport в Lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ _**Последнее изменение темы:** 2013-01-22_
 <td><p>Имя приложения, инициировавшего ошибку (если отчет был отправлен серверным компонентом).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>респонсекоде</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td><p>Код ответа SIP на сеанс SIP-сообщения, содержащего отчет об ошибках.</p></td>
 </tr>
@@ -198,12 +200,12 @@ _**Последнее изменение темы:** 2013-01-22_
 <td><p>Дополнительные сведения об ошибке.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Интерфейса</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>Полное доменное имя сервера переднего плана, который отправил отчет.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>Полное доменное имя пула, содержащего сервер переднего плана, который отправил отчет.</p></td>
 </tr>

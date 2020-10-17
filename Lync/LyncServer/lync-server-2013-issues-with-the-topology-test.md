@@ -12,20 +12,22 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa3e9b587a286cdff2b7ef08ec217a420792b121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7095e539ec8e9cc832b4ce69f2e347bfcea38ccc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186772"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514036"
 ---
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Проблемы, связанные с проверкой топологии в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Проблемы, связанные с проверкой топологии в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42186772"
 
 _**Последнее изменение темы:** 2012-09-21_
 
-Как и командлет **Test-CsTopology** , анализатор соответствия рекомендациям позволяет убедиться, что Lync Server 2013 правильно работает на глобальном уровне. По умолчанию анализатор соответствия рекомендациям, как и командлет, проверяет всю инфраструктуру Lync Server 2013, проверку того, что запущены необходимые службы, и что для этих служб установлены соответствующие права и разрешения пользователя, а также универсальные группы безопасности, создаваемые при установке Lync Server 2013.
+Как и командлет **Test-CsTopology** , анализатор соответствия рекомендациям позволяет убедиться, что Lync Server 2013 правильно работает на глобальном уровне. По умолчанию анализатор соответствия рекомендациям, как и командлет, проверяет всю инфраструктуру Lync Server 2013, проверку выполнения необходимых служб и наличие соответствующих прав и разрешений пользователя для этих служб, а также для универсальных групп безопасности, создаваемых при установке Lync Server 2013.
 
 Кроме проверки допустимости Lync Server в целом, **Test-CsTopology** также проверяет допустимость определенной службы. Дополнительные сведения об использовании командлета для тестирования определенных служб приведены в статье [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) в документации по консоли управления Lync Server. Используйте следующие сведения для устранения неполадок с топологией.
 

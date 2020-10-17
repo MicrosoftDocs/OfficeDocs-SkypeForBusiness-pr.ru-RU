@@ -12,20 +12,22 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d8f26e0ae1b0777823380ca4888cad4c13ee90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42d83536b3fac3f4050ce76015ce69a6a28522a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197022"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514196"
 ---
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Установка Lync для iPhone и iPad в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Установка Lync для iPhone и iPad в Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ Lync 2013 для iPhone и Lync 2013 для iPad это приложения, у
 
 Вы можете поручить пользователям устанавливать Lync 2013 для iPhone и Lync 2013 для iPad, направляя их в магазин приложений со своих устройств. Магазин приложений для каждого устройства также доступен в Интернете.
 
-  - Lync для iPhone доступен в магазине App Store \< <span></span>TTP://www.Apple.com/iPhone/from-the-App-Store/>
+  - Lync для iPhone доступен в магазине приложений по адресу \< h<span> </span> TTP://www.Apple.com/iPhone/from-the-App-Store/>
 
-  - Lync для iPad доступен в магазине приложений на сайте \< нт<span></span>TP://www.Apple.com/iPad/from-the-App-Store/>
+  - Lync для iPad доступен в магазине приложений по адресу \< ht<span> </span> TP://www.Apple.com/iPad/from-the-App-Store/>
 
 <div>
 

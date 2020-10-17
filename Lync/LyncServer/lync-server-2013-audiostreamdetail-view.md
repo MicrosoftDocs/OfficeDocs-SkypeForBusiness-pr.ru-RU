@@ -12,20 +12,22 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe995d08bf334308603512b4812b02c672d400f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205795"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515786"
 ---
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Представление Аудиостреамдетаил в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Представление Аудиостреамдетаил в Lync Server 2013
+
 
 </div>
 
@@ -238,7 +240,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <tr class="odd">
 <td><p>каллерипаддр</p></td>
 <td><p>var (50)</p></td>
-<td><p>IP-адрес вызывающего абонента. Адрес может быть представлен в формате IPv4 или IPv6.</p></td>
+<td><p>IP-адрес вызывающего абонента. Это может быть IPv4-адрес или IPv6-адрес.</p></td>
 </tr>
 <tr class="even">
 <td><p>каллерпорт</p></td>
@@ -456,7 +458,7 @@ _**Последнее изменение темы:** 2012-10-03_
 <td><p>Снижение экспертной оценки качества (MOS) в сети, вызванное потерей пакетов.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Таблица payloaddescription</p></td>
+<td><p>PayloadDescription</p></td>
 <td><p>int</p></td>
 <td><p>Аудиокодек, используемый для вызова, на который ссылается <a href="lync-server-2013-payloaddescription-table.md">таблица таблица payloaddescription в Lync Server 2013</a>.</p></td>
 </tr>
@@ -557,7 +559,7 @@ _**Последнее изменение темы:** 2012-10-03_
 </tr>
 <tr class="odd">
 <td><p>каллеринитиалсигналлевелрмс</p></td>
-<td><p>с плавающей запятой</p></td>
+<td><p>float</p></td>
 <td><p>Среднеквадратическое отклонение входящего сигнала вызывающего абонента до 30 первых секунд вызова.</p></td>
 </tr>
 <tr class="even">
@@ -652,7 +654,7 @@ _**Последнее изменение темы:** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>каллиинитиалсигналлевелрмс</p></td>
-<td><p>с плавающей запятой</p></td>
+<td><p>float</p></td>
 <td><p>Среднеквадратическое отклонение входящего сигнала вызываемого абонента до 30 первых секунд вызова.</p></td>
 </tr>
 <tr class="odd">
