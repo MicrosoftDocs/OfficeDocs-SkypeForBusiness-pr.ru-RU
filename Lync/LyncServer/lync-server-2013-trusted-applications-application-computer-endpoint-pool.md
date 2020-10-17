@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: доверенные приложения (приложение/компьютер/конечная точка/пул)'
+description: 'Lync Server 2013: доверенные приложения (приложение/компьютер/конечная точка/пул).'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cccfa4125327ee2077878fdbaf74d23f5388414e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2bd813ab8b5a2a06694341b4392a2bde82e8f9c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518916"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548905"
 ---
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="f68a2-102">Доверенные приложения (приложение/компьютер/конечная точка/пул) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f68a2-102">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a><span data-ttu-id="6a79c-103">Доверенные приложения (приложение/компьютер/конечная точка/пул) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a79c-103">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,32 +38,32 @@ ms.locfileid: "48518916"
 
 <span> </span>
 
-<span data-ttu-id="f68a2-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f68a2-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="6a79c-104">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6a79c-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="f68a2-104">Используйте процедуры, описанные в этом разделе, для управления доверенными приложениями для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f68a2-104">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
+<span data-ttu-id="6a79c-105">Используйте процедуры, описанные в этом разделе, для управления доверенными приложениями для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6a79c-105">Use the procedures in this section to manage trusted applications for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f68a2-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="f68a2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6a79c-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="6a79c-106">In This Section</span></span>
 
-  - [<span data-ttu-id="f68a2-106">Управление доверенными приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f68a2-106">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
+  - [<span data-ttu-id="6a79c-107">Управление доверенными приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a79c-107">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="f68a2-107">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="f68a2-107">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="6a79c-108">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="6a79c-108">Related Sections</span></span>
 
-[<span data-ttu-id="f68a2-108">Командлеты доверенных приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f68a2-108">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+[<span data-ttu-id="6a79c-109">Командлеты доверенных приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a79c-109">Trusted applications cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f68a2-109">См. также</span><span class="sxs-lookup"><span data-stu-id="f68a2-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6a79c-110">См. также</span><span class="sxs-lookup"><span data-stu-id="6a79c-110">See Also</span></span>
 
 
-[<span data-ttu-id="f68a2-110">Управление доверенными приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f68a2-110">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
+[<span data-ttu-id="6a79c-111">Управление доверенными приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a79c-111">Managing trusted applications in Lync Server 2013</span></span>](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

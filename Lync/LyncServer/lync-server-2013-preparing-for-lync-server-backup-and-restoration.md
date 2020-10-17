@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: подготовка к резервному копированию и восстановлению Lync Server'
+description: 'Lync Server 2013: подготовка к резервному копированию и восстановлению Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f0712324df0453f875b30946735e1f05ef50b0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 93fa02fd0bf8fb95419d13677ef0a253dfd6e3e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506896"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549915"
 ---
-# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a><span data-ttu-id="73037-102">Подготовка к резервному копированию и восстановлению Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73037-102">Preparing for Lync Server 2013 backup and restoration</span></span>
+# <a name="preparing-for-lync-server-2013-backup-and-restoration"></a><span data-ttu-id="9c535-103">Подготовка к резервному копированию и восстановлению Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c535-103">Preparing for Lync Server 2013 backup and restoration</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48506896"
 
 <span> </span>
 
-<span data-ttu-id="73037-103">_**Последнее изменение темы:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="73037-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="9c535-104">_**Последнее изменение темы:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="9c535-104">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="73037-104">В следующих разделах описываются параметры, конфигурация и другие данные, которые необходимо создать для резервного копирования, чтобы можно было восстановить серверы и базы данных в случае сбоя или сбоя.</span><span class="sxs-lookup"><span data-stu-id="73037-104">The following topics describe the settings, configuration, and other data that you need to back up, in order to be able to restore servers and databases in the event of a failure or outage.</span></span>
+<span data-ttu-id="9c535-105">В следующих разделах описываются параметры, конфигурация и другие данные, которые необходимо создать для резервного копирования, чтобы можно было восстановить серверы и базы данных в случае сбоя или сбоя.</span><span class="sxs-lookup"><span data-stu-id="9c535-105">The following topics describe the settings, configuration, and other data that you need to back up, in order to be able to restore servers and databases in the event of a failure or outage.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="73037-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="73037-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9c535-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="9c535-106">In This Section</span></span>
 
-  - [<span data-ttu-id="73037-106">Требования к резервному копированию и восстановлению в Lync Server 2013: Data</span><span class="sxs-lookup"><span data-stu-id="73037-106">Backup and restoration requirements in Lync Server 2013: data</span></span>](lync-server-2013-backup-and-restoration-requirements-data.md)
+  - [<span data-ttu-id="9c535-107">Требования к резервному копированию и восстановлению в Lync Server 2013: Data</span><span class="sxs-lookup"><span data-stu-id="9c535-107">Backup and restoration requirements in Lync Server 2013: data</span></span>](lync-server-2013-backup-and-restoration-requirements-data.md)
 
-  - [<span data-ttu-id="73037-107">Требования к резервному копированию и восстановлению в Lync Server 2013: инструменты и разрешения</span><span class="sxs-lookup"><span data-stu-id="73037-107">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
+  - [<span data-ttu-id="9c535-108">Требования к резервному копированию и восстановлению в Lync Server 2013: инструменты и разрешения</span><span class="sxs-lookup"><span data-stu-id="9c535-108">Backup and restoration requirements in Lync Server 2013: tools and permissions</span></span>](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
-  - [<span data-ttu-id="73037-108">Общие сведения о процессе резервного копирования и восстановления для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73037-108">Backup and restoration process overview for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-process-overview.md)
+  - [<span data-ttu-id="9c535-109">Общие сведения о процессе резервного копирования и восстановления для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c535-109">Backup and restoration process overview for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [<span data-ttu-id="73037-109">Разработка стратегии резервного копирования и восстановления и планирование для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73037-109">Developing a backup and restoration strategy and plan for Lync Server 2013</span></span>](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [<span data-ttu-id="9c535-110">Разработка стратегии резервного копирования и восстановления и планирование для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c535-110">Developing a backup and restoration strategy and plan for Lync Server 2013</span></span>](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
-  - [<span data-ttu-id="73037-110">Рекомендации по резервному копированию и восстановлению для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73037-110">Best practices for backup and restoration for Lync Server 2013</span></span>](lync-server-2013-best-practices-for-backup-and-restoration.md)
+  - [<span data-ttu-id="9c535-111">Рекомендации по резервному копированию и восстановлению для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c535-111">Best practices for backup and restoration for Lync Server 2013</span></span>](lync-server-2013-best-practices-for-backup-and-restoration.md)
 
 </div>
 

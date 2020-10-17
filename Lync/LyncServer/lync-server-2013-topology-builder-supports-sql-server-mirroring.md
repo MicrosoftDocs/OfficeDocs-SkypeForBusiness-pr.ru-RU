@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Topology Builder поддерживает зеркальное отображение SQL Server
+description: Lync Server 2013 Topology Builder поддерживает зеркальное отображение SQL Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3e6f32d50c0b568da48a343454070a79b675fa6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3849ea4d88aac70cee49b9103ca6df3c0d84a93a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530426"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549095"
 ---
-# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="cbf6c-102">Построитель топологий поддерживает зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbf6c-102">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="255b5-103">Построитель топологий поддерживает зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="255b5-103">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530426"
 
 <span> </span>
 
-<span data-ttu-id="cbf6c-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="cbf6c-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="255b5-104">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="255b5-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="cbf6c-104">Lync Server 2013 поддерживает зеркальное отображение внутренних серверов для обеспечения высокой доступности.</span><span class="sxs-lookup"><span data-stu-id="cbf6c-104">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="cbf6c-105">Вы можете использовать построитель топологий для настройки зеркального отображения, в том числе для настройки следящего сервера.</span><span class="sxs-lookup"><span data-stu-id="cbf6c-105">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
+<span data-ttu-id="255b5-105">Lync Server 2013 поддерживает зеркальное отображение внутренних серверов для обеспечения высокой доступности.</span><span class="sxs-lookup"><span data-stu-id="255b5-105">Lync Server 2013 supports mirroring of your Back End Servers for high availability.</span></span> <span data-ttu-id="255b5-106">Вы можете использовать построитель топологий для настройки зеркального отображения, в том числе для настройки следящего сервера.</span><span class="sxs-lookup"><span data-stu-id="255b5-106">You can use Topology Builder to set up mirroring, including setting up a witness.</span></span>
 
 </div>
 

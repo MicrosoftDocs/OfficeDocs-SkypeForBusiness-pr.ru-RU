@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: командлеты доверенных приложений'
+description: 'Lync Server 2013: командлеты доверенных приложений.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7301f9e139cc2f56f2576ba036a86d73d618ddc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7c23eca9e64f464b88479373846fb397e63bdd4f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518846"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548865"
 ---
-# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9c546-102">Командлеты доверенных приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c546-102">Trusted applications cmdlets in Lync Server 2013</span></span>
+# <a name="trusted-applications-cmdlets-in-lync-server-2013"></a><span data-ttu-id="d50de-103">Командлеты доверенных приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d50de-103">Trusted applications cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,77 +38,77 @@ ms.locfileid: "48518846"
 
 <span> </span>
 
-<span data-ttu-id="9c546-103">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="9c546-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="d50de-104">_**Последнее изменение темы:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="d50de-104">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="9c546-104">Доверенное приложение — это приложение, разработанное сторонним производителем, которое получает состояние "доверенное" для работы в составе Microsoft Lync Server 2013, но не является встроенной частью продукта.</span><span class="sxs-lookup"><span data-stu-id="9c546-104">A trusted application is an application developed by a third party that is given trusted status to run as part of Microsoft Lync Server 2013 but that is not a built-in part of the product.</span></span> <span data-ttu-id="9c546-105">Lync Server 2013 предоставляет командлеты, которые можно использовать для настройки доверенных приложений и управления ими.</span><span class="sxs-lookup"><span data-stu-id="9c546-105">Lync Server 2013 provides cmdlets that can be used to configure and managed trusted applications.</span></span>
+<span data-ttu-id="d50de-105">Доверенное приложение — это приложение, разработанное сторонним производителем, которое получает состояние "доверенное" для работы в составе Microsoft Lync Server 2013, но не является встроенной частью продукта.</span><span class="sxs-lookup"><span data-stu-id="d50de-105">A trusted application is an application developed by a third party that is given trusted status to run as part of Microsoft Lync Server 2013 but that is not a built-in part of the product.</span></span> <span data-ttu-id="d50de-106">Lync Server 2013 предоставляет командлеты, которые можно использовать для настройки доверенных приложений и управления ими.</span><span class="sxs-lookup"><span data-stu-id="d50de-106">Lync Server 2013 provides cmdlets that can be used to configure and managed trusted applications.</span></span>
 
 <div>
 
-## <a name="trusted-applications-cmdlets"></a><span data-ttu-id="9c546-106">Командлеты доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="9c546-106">Trusted Applications Cmdlets</span></span>
+## <a name="trusted-applications-cmdlets"></a><span data-ttu-id="d50de-107">Командлеты доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="d50de-107">Trusted Applications Cmdlets</span></span>
 
-<span data-ttu-id="9c546-107">Используйте следующие командлеты для управления доверенными приложениями.</span><span class="sxs-lookup"><span data-stu-id="9c546-107">Use the following cmdlets to manage trusted applications.</span></span>
+<span data-ttu-id="d50de-108">Используйте следующие командлеты для управления доверенными приложениями.</span><span class="sxs-lookup"><span data-stu-id="d50de-108">Use the following cmdlets to manage trusted applications.</span></span>
 
-<span data-ttu-id="9c546-108">**Доверенные приложения**</span><span class="sxs-lookup"><span data-stu-id="9c546-108">**Trusted Applications**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="9c546-109">[Get — Кструстедаппликатион](https://technet.microsoft.com/library/Gg399025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-109">[Get-CsTrustedApplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))</span></span>
+<span data-ttu-id="d50de-109">**Доверенные приложения**</span><span class="sxs-lookup"><span data-stu-id="d50de-109">**Trusted Applications**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-110">[New — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398259(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-110">[New-CsTrustedApplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-110">[Get — Кструстедаппликатион](https://technet.microsoft.com/library/Gg399025(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-110">[Get-CsTrustedApplication](https://technet.microsoft.com/library/Gg399025(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-111">[Remove — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398176(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-111">[Remove-CsTrustedApplication](https://technet.microsoft.com/library/Gg398176(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-111">[New — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398259(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-111">[New-CsTrustedApplication](https://technet.microsoft.com/library/Gg398259(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-112">[Set — Кструстедаппликатион](https://technet.microsoft.com/library/Gg425840(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-112">[Set-CsTrustedApplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-112">[Remove — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398176(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-112">[Remove-CsTrustedApplication](https://technet.microsoft.com/library/Gg398176(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="d50de-113">[Set — Кструстедаппликатион](https://technet.microsoft.com/library/Gg425840(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-113">[Set-CsTrustedApplication](https://technet.microsoft.com/library/Gg425840(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="9c546-113">[Get — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg425843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-113">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-114">[Get — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg425843(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-114">[Get-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg425843(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-114">[New — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398405(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-114">[New-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-115">[New — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398405(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-115">[New-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398405(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-115">[Remove — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398838(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-115">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398838(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-116">[Remove — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398838(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-116">[Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/library/Gg398838(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="9c546-116">[Get — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg413035(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-116">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-117">[Get — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg413035(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-117">[Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg413035(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-117">[New — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398594(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-117">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-118">[New — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398594(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-118">[New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398594(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-118">[Remove — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-118">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398837(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-119">[Remove — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398837(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-119">[Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398837(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-119">[Set — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398509(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-119">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-120">[Set — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398509(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-120">[Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/library/Gg398509(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="9c546-120">[Get — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg413055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-120">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-121">[Get — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg413055(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-121">[Get-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg413055(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-121">[New — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg425804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-121">[New-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-122">[New — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg425804(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-122">[New-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg425804(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-122">[Remove — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398750(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-122">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398750(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-123">[Remove — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398750(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-123">[Remove-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398750(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="9c546-123">[Set — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398187(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9c546-123">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))</span></span>
+    <span data-ttu-id="d50de-124">[Set — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398187(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d50de-124">[Set-CsTrustedApplicationPool](https://technet.microsoft.com/library/Gg398187(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9c546-124">См. также</span><span class="sxs-lookup"><span data-stu-id="9c546-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d50de-125">См. также</span><span class="sxs-lookup"><span data-stu-id="d50de-125">See Also</span></span>
 
 
-[<span data-ttu-id="9c546-125">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="9c546-125">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="d50de-126">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="d50de-126">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

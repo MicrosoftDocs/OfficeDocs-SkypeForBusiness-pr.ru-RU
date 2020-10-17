@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица Трацерауте'
+description: 'Lync Server 2013: таблица Трацерауте.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d0aa4d6d60c57adb35086ce653cbd906f11c600
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8af33e572065fbab1eaaaef684997e7f95edaed9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530366"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549065"
 ---
-# <a name="traceroute-table-in-lync-server-2013"></a><span data-ttu-id="ab938-102">Таблица Трацерауте в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ab938-102">TraceRoute table in Lync Server 2013</span></span>
+# <a name="traceroute-table-in-lync-server-2013"></a><span data-ttu-id="39f46-103">Таблица Трацерауте в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39f46-103">TraceRoute table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530366"
 
 <span> </span>
 
-<span data-ttu-id="ab938-103">_**Последнее изменение темы:** 2014-02-21_</span><span class="sxs-lookup"><span data-stu-id="ab938-103">_**Topic Last Modified:** 2014-02-21_</span></span>
+<span data-ttu-id="39f46-104">_**Последнее изменение темы:** 2014-02-21_</span><span class="sxs-lookup"><span data-stu-id="39f46-104">_**Topic Last Modified:** 2014-02-21_</span></span>
 
-<span data-ttu-id="ab938-104">Таблица TraceRoute содержит сведения о маршрутизации звонков.</span><span class="sxs-lookup"><span data-stu-id="ab938-104">The TraceRoute table contains routing information from calls.</span></span> <span data-ttu-id="ab938-105">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ab938-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="39f46-105">Таблица TraceRoute содержит сведения о маршрутизации звонков.</span><span class="sxs-lookup"><span data-stu-id="39f46-105">The TraceRoute table contains routing information from calls.</span></span> <span data-ttu-id="39f46-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="39f46-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,60 +52,60 @@ ms.locfileid: "48530366"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ab938-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="ab938-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="ab938-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="ab938-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="39f46-107"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="39f46-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="39f46-109"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="39f46-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ab938-110"><strong>конференцедатетиме</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-110"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-111">datetime</span><span class="sxs-lookup"><span data-stu-id="ab938-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="ab938-112">Первичный, внешний</span><span class="sxs-lookup"><span data-stu-id="ab938-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="ab938-113">Дата и время начала звонка.</span><span class="sxs-lookup"><span data-stu-id="ab938-113">Date and time that the call began.</span></span></p></td>
+<td><p><span data-ttu-id="39f46-111"><strong>конференцедатетиме</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-111"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-112">datetime</span><span class="sxs-lookup"><span data-stu-id="39f46-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="39f46-113">Первичный, внешний</span><span class="sxs-lookup"><span data-stu-id="39f46-113">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="39f46-114">Дата и время начала звонка.</span><span class="sxs-lookup"><span data-stu-id="39f46-114">Date and time that the call began.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ab938-114"><strong>сессионсек</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-114"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-115">int</span><span class="sxs-lookup"><span data-stu-id="ab938-115">int</span></span></p></td>
-<td><p><span data-ttu-id="ab938-116">Первичный, внешний</span><span class="sxs-lookup"><span data-stu-id="ab938-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="ab938-117">Уникальный идентификатор, используемых для однозначной идентификации звонков, которые могут начаться одновременно.</span><span class="sxs-lookup"><span data-stu-id="ab938-117">Unique identifier used to distinguish between multiple calls that might have begun on the same date and at the same time.</span></span></p></td>
+<td><p><span data-ttu-id="39f46-115"><strong>сессионсек</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-115"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-116">int</span><span class="sxs-lookup"><span data-stu-id="39f46-116">int</span></span></p></td>
+<td><p><span data-ttu-id="39f46-117">Первичный, внешний</span><span class="sxs-lookup"><span data-stu-id="39f46-117">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="39f46-118">Уникальный идентификатор, используемых для однозначной идентификации звонков, которые могут начаться одновременно.</span><span class="sxs-lookup"><span data-stu-id="39f46-118">Unique identifier used to distinguish between multiple calls that might have begun on the same date and at the same time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ab938-118"><strong>медиалинелабел</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-118"><strong>MediaLineLabel</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-119">tinyint</span><span class="sxs-lookup"><span data-stu-id="ab938-119">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="ab938-120">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="ab938-120">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="ab938-p102">Представляет тип видеоканала, используемого для звонка. Допускаются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="ab938-p102">Represents the type of video line used in the call. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="39f46-119"><strong>медиалинелабел</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-119"><strong>MediaLineLabel</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-120">tinyint</span><span class="sxs-lookup"><span data-stu-id="39f46-120">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="39f46-121">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="39f46-121">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="39f46-p102">Представляет тип видеоканала, используемого для звонка. Допускаются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="39f46-p102">Represents the type of video line used in the call. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="ab938-123">0 — звук</span><span class="sxs-lookup"><span data-stu-id="ab938-123">0 – Audio</span></span></p></li>
-<li><p><span data-ttu-id="ab938-124">1 — видео</span><span class="sxs-lookup"><span data-stu-id="ab938-124">1 – Video</span></span></p></li>
-<li><p><span data-ttu-id="ab938-125">2 — панорамное видео</span><span class="sxs-lookup"><span data-stu-id="ab938-125">2 – Panoramic video</span></span></p></li>
-<li><p><span data-ttu-id="ab938-126">3 — общий доступ к приложениям и рабочим столам</span><span class="sxs-lookup"><span data-stu-id="ab938-126">3 – Application/Desktop sharing</span></span></p></li>
+<li><p><span data-ttu-id="39f46-124">0 — звук</span><span class="sxs-lookup"><span data-stu-id="39f46-124">0 – Audio</span></span></p></li>
+<li><p><span data-ttu-id="39f46-125">1 — видео</span><span class="sxs-lookup"><span data-stu-id="39f46-125">1 – Video</span></span></p></li>
+<li><p><span data-ttu-id="39f46-126">2 — панорамное видео</span><span class="sxs-lookup"><span data-stu-id="39f46-126">2 – Panoramic video</span></span></p></li>
+<li><p><span data-ttu-id="39f46-127">3 — общий доступ к приложениям и рабочим столам</span><span class="sxs-lookup"><span data-stu-id="39f46-127">3 – Application/Desktop sharing</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ab938-127"><strong>фромкаллер</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-127"><strong>FromCaller</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-128">Битовая</span><span class="sxs-lookup"><span data-stu-id="ab938-128">bit</span></span></p></td>
-<td><p><span data-ttu-id="ab938-129">Primary</span><span class="sxs-lookup"><span data-stu-id="ab938-129">Primary</span></span></p></td>
-<td><p><span data-ttu-id="ab938-130">Конечная точка, выполнившая звонок.</span><span class="sxs-lookup"><span data-stu-id="ab938-130">Endpoint that placed the call.</span></span></p></td>
+<td><p><span data-ttu-id="39f46-128"><strong>фромкаллер</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-128"><strong>FromCaller</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-129">Битовая</span><span class="sxs-lookup"><span data-stu-id="39f46-129">bit</span></span></p></td>
+<td><p><span data-ttu-id="39f46-130">Primary</span><span class="sxs-lookup"><span data-stu-id="39f46-130">Primary</span></span></p></td>
+<td><p><span data-ttu-id="39f46-131">Конечная точка, выполнившая звонок.</span><span class="sxs-lookup"><span data-stu-id="39f46-131">Endpoint that placed the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ab938-131"><strong>Перехода</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-131"><strong>Hop</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-132">int</span><span class="sxs-lookup"><span data-stu-id="ab938-132">int</span></span></p></td>
+<td><p><span data-ttu-id="39f46-132"><strong>Перехода</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-132"><strong>Hop</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-133">int</span><span class="sxs-lookup"><span data-stu-id="39f46-133">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="ab938-133">Переход между сетями.</span><span class="sxs-lookup"><span data-stu-id="ab938-133">Network hop/</span></span></p></td>
+<td><p><span data-ttu-id="39f46-134">Переход между сетями.</span><span class="sxs-lookup"><span data-stu-id="39f46-134">Network hop/</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ab938-134"><strong>ипаддресскэй</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-134"><strong>IPAddressKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-135">int</span><span class="sxs-lookup"><span data-stu-id="ab938-135">int</span></span></p></td>
-<td><p><span data-ttu-id="ab938-136">Правительства</span><span class="sxs-lookup"><span data-stu-id="ab938-136">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="ab938-137">Уникальный идентификатор IP-адреса.</span><span class="sxs-lookup"><span data-stu-id="ab938-137">Unique identifier for the IP address.</span></span> <span data-ttu-id="ab938-138">Сведения об IP-адресе хранятся в <a href="lync-server-2013-ipaddress-table.md">таблице IPAddress в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ab938-138">IP address information is stored in the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="39f46-135"><strong>ипаддресскэй</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-135"><strong>IPAddressKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-136">int</span><span class="sxs-lookup"><span data-stu-id="39f46-136">int</span></span></p></td>
+<td><p><span data-ttu-id="39f46-137">Правительства</span><span class="sxs-lookup"><span data-stu-id="39f46-137">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="39f46-138">Уникальный идентификатор IP-адреса.</span><span class="sxs-lookup"><span data-stu-id="39f46-138">Unique identifier for the IP address.</span></span> <span data-ttu-id="39f46-139">Сведения об IP-адресе хранятся в <a href="lync-server-2013-ipaddress-table.md">таблице IPAddress в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="39f46-139">IP address information is stored in the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ab938-139"><strong>ПРИЕМА</strong></span><span class="sxs-lookup"><span data-stu-id="ab938-139"><strong>RTT</strong></span></span></p></td>
-<td><p><span data-ttu-id="ab938-140">int</span><span class="sxs-lookup"><span data-stu-id="ab938-140">int</span></span></p></td>
+<td><p><span data-ttu-id="39f46-140"><strong>ПРИЕМА</strong></span><span class="sxs-lookup"><span data-stu-id="39f46-140"><strong>RTT</strong></span></span></p></td>
+<td><p><span data-ttu-id="39f46-141">int</span><span class="sxs-lookup"><span data-stu-id="39f46-141">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="ab938-p104">Время цикла. Это время, которое требуется на то, чтобы пакет с голосовыми данными достиг назначения и отправил обратно уведомление о том, что он был получен.</span><span class="sxs-lookup"><span data-stu-id="ab938-p104">Roundtrip time. The roundtrip time measures the amount of time it takes for a voice packet to reach its destination and then send back notification that it was received.</span></span></p></td>
+<td><p><span data-ttu-id="39f46-p104">Время цикла. Это время, которое требуется на то, чтобы пакет с голосовыми данными достиг назначения и отправил обратно уведомление о том, что он был получен.</span><span class="sxs-lookup"><span data-stu-id="39f46-p104">Roundtrip time. The roundtrip time measures the amount of time it takes for a voice packet to reach its destination and then send back notification that it was received.</span></span></p></td>
 </tr>
 </tbody>
 </table>

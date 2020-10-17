@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: поддержка маршрутизации Location-Based на клиенте и сервере'
+description: 'Lync Server 2013: поддержка маршрутизации Location-Based клиентом и сервером.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85e2ce1738ee5de9d4d542cedd7a9e544771938
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 20dca7444f58ee62dbc36edbb7d9e1c976a97807
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529346"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549635"
 ---
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="7abca-102">Поддержка маршрутизации Location-Based для клиентов и серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-102">Client and server support for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="6767d-103">Поддержка маршрутизации Location-Based для клиентов и серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-103">Client and server support for Location-Based Routing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48529346"
 
 <span> </span>
 
-<span data-ttu-id="7abca-103">_**Последнее изменение темы:** 2013-06-18_</span><span class="sxs-lookup"><span data-stu-id="7abca-103">_**Topic Last Modified:** 2013-06-18_</span></span>
+<span data-ttu-id="6767d-104">_**Последнее изменение темы:** 2013-06-18_</span><span class="sxs-lookup"><span data-stu-id="6767d-104">_**Topic Last Modified:** 2013-06-18_</span></span>
 
-<span data-ttu-id="7abca-104">Location-Based маршрутизация обеспечивается Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7abca-104">Location-Based Routing is enforced by Lync Server.</span></span> <span data-ttu-id="7abca-105">Lync Server может определять сетевые сайты, к которым пользователи подключаются из корпоративной сети.</span><span class="sxs-lookup"><span data-stu-id="7abca-105">Lync Server can identify the network sites where users are connecting from within the corporate network.</span></span> <span data-ttu-id="7abca-106">Так как удаленные пользователи выходят за границы корпоративной сети, их расположение считается неизвестным.</span><span class="sxs-lookup"><span data-stu-id="7abca-106">Since remote users are outside the corporate network, their location is considered to be unknown.</span></span>
+<span data-ttu-id="6767d-105">Location-Based маршрутизация обеспечивается Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6767d-105">Location-Based Routing is enforced by Lync Server.</span></span> <span data-ttu-id="6767d-106">Lync Server может определять сетевые сайты, к которым пользователи подключаются из корпоративной сети.</span><span class="sxs-lookup"><span data-stu-id="6767d-106">Lync Server can identify the network sites where users are connecting from within the corporate network.</span></span> <span data-ttu-id="6767d-107">Так как удаленные пользователи выходят за границы корпоративной сети, их расположение считается неизвестным.</span><span class="sxs-lookup"><span data-stu-id="6767d-107">Since remote users are outside the corporate network, their location is considered to be unknown.</span></span>
 
 <div>
 
-## <a name="lync-server-support"></a><span data-ttu-id="7abca-107">Поддержка Lync Server</span><span class="sxs-lookup"><span data-stu-id="7abca-107">Lync Server Support</span></span>
+## <a name="lync-server-support"></a><span data-ttu-id="6767d-108">Поддержка Lync Server</span><span class="sxs-lookup"><span data-stu-id="6767d-108">Lync Server Support</span></span>
 
-<span data-ttu-id="7abca-108">Для маршрутизации Location-Based необходимо, чтобы Lync Server 2013 CU1 был развернут на всех интерфейсных пулах и серверах Standard Edition в заданной топологии.</span><span class="sxs-lookup"><span data-stu-id="7abca-108">Location-Based Routing requires that Lync Server 2013 CU1 is deployed on all Front End pools and Standard Edition servers in a given topology.</span></span> <span data-ttu-id="7abca-109">Если Lync Server 2013 CU1 не установлен на определенных компонентах Lync в топологии, ограничения маршрутизации Location-Based не могут быть полностью применены.</span><span class="sxs-lookup"><span data-stu-id="7abca-109">If Lync Server 2013 CU1 is not installed on certain Lync components in the topology, Location-Based Routing restrictions cannot be fully enforced.</span></span>
+<span data-ttu-id="6767d-109">Для маршрутизации Location-Based необходимо, чтобы Lync Server 2013 CU1 был развернут на всех интерфейсных пулах и серверах Standard Edition в заданной топологии.</span><span class="sxs-lookup"><span data-stu-id="6767d-109">Location-Based Routing requires that Lync Server 2013 CU1 is deployed on all Front End pools and Standard Edition servers in a given topology.</span></span> <span data-ttu-id="6767d-110">Если Lync Server 2013 CU1 не установлен на определенных компонентах Lync в топологии, ограничения маршрутизации Location-Based не могут быть полностью применены.</span><span class="sxs-lookup"><span data-stu-id="6767d-110">If Lync Server 2013 CU1 is not installed on certain Lync components in the topology, Location-Based Routing restrictions cannot be fully enforced.</span></span>
 
-<span data-ttu-id="7abca-110">В следующей таблице указаны комбинации ролей и версий сервера, которые поддерживаются для маршрутизации Location-Based.</span><span class="sxs-lookup"><span data-stu-id="7abca-110">The following table identifies the combination of server roles and versions that is supported for Location-Based Routing.</span></span>
+<span data-ttu-id="6767d-111">В следующей таблице указаны комбинации ролей и версий сервера, которые поддерживаются для маршрутизации Location-Based.</span><span class="sxs-lookup"><span data-stu-id="6767d-111">The following table identifies the combination of server roles and versions that is supported for Location-Based Routing.</span></span>
 
 
 <table>
@@ -58,46 +59,46 @@ ms.locfileid: "48529346"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7abca-111">Версия пула</span><span class="sxs-lookup"><span data-stu-id="7abca-111">Pool version</span></span></th>
-<th><span data-ttu-id="7abca-112">Версия сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="7abca-112">Mediation Server version</span></span></th>
-<th><span data-ttu-id="7abca-113">Поддерживается</span><span class="sxs-lookup"><span data-stu-id="7abca-113">Supported</span></span></th>
+<th><span data-ttu-id="6767d-112">Версия пула</span><span class="sxs-lookup"><span data-stu-id="6767d-112">Pool version</span></span></th>
+<th><span data-ttu-id="6767d-113">Версия сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="6767d-113">Mediation Server version</span></span></th>
+<th><span data-ttu-id="6767d-114">Поддерживается</span><span class="sxs-lookup"><span data-stu-id="6767d-114">Supported</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-114">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-114">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
-<td><p><span data-ttu-id="7abca-115">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-115">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
-<td><p><span data-ttu-id="7abca-116">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-116">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-115">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-115">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-116">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-116">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-117">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-117">yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-117">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-117">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
-<td><p><span data-ttu-id="7abca-118">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-118">Lync Server 2013</span></span></p></td>
-<td><p><span data-ttu-id="7abca-119">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-119">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-118">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-118">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-119">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-119">Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="6767d-120">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-120">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-120">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-120">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
-<td><p><span data-ttu-id="7abca-121">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="7abca-121">Lync Server 2010</span></span></p></td>
-<td><p><span data-ttu-id="7abca-122">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-122">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-121">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-121">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-122">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6767d-122">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="6767d-123">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-123">no</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-123">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-123">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
-<td><p><span data-ttu-id="7abca-124">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7abca-124">Office Communications Server 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="7abca-125">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-125">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-124">Накопительный пакет обновления Lync Server 2013 февраль 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-124">Lync Server 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-125">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="6767d-125">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="6767d-126">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-126">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-126">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-126">Lync Server 2013</span></span></p></td>
-<td><p><span data-ttu-id="7abca-127">любой</span><span class="sxs-lookup"><span data-stu-id="7abca-127">any</span></span></p></td>
-<td><p><span data-ttu-id="7abca-128">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-128">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-127">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-127">Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="6767d-128">любой</span><span class="sxs-lookup"><span data-stu-id="6767d-128">any</span></span></p></td>
+<td><p><span data-ttu-id="6767d-129">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-129">no</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-129">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="7abca-129">Lync Server 2010</span></span></p></td>
-<td><p><span data-ttu-id="7abca-130">любой</span><span class="sxs-lookup"><span data-stu-id="7abca-130">any</span></span></p></td>
-<td><p><span data-ttu-id="7abca-131">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-131">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-130">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6767d-130">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="6767d-131">любой</span><span class="sxs-lookup"><span data-stu-id="6767d-131">any</span></span></p></td>
+<td><p><span data-ttu-id="6767d-132">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-132">no</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-132">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7abca-132">Office Communications Server 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="7abca-133">любой</span><span class="sxs-lookup"><span data-stu-id="7abca-133">any</span></span></p></td>
-<td><p><span data-ttu-id="7abca-134">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-134">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-133">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="6767d-133">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="6767d-134">любой</span><span class="sxs-lookup"><span data-stu-id="6767d-134">any</span></span></p></td>
+<td><p><span data-ttu-id="6767d-135">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-135">no</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -107,9 +108,9 @@ ms.locfileid: "48529346"
 
 <div>
 
-## <a name="lync-client-support"></a><span data-ttu-id="7abca-135">Поддержка клиента Lync</span><span class="sxs-lookup"><span data-stu-id="7abca-135">Lync Client Support</span></span>
+## <a name="lync-client-support"></a><span data-ttu-id="6767d-136">Поддержка клиента Lync</span><span class="sxs-lookup"><span data-stu-id="6767d-136">Lync Client Support</span></span>
 
-<span data-ttu-id="7abca-136">В следующей таблице указаны клиенты, которые Location-Based поддерживаются службой маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="7abca-136">The following table identifies the clients that Location-Based Routing supports.</span></span>
+<span data-ttu-id="6767d-137">В следующей таблице указаны клиенты, которые Location-Based поддерживаются службой маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="6767d-137">The following table identifies the clients that Location-Based Routing supports.</span></span>
 
 
 <table>
@@ -120,50 +121,50 @@ ms.locfileid: "48529346"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7abca-137">Тип клиента</span><span class="sxs-lookup"><span data-stu-id="7abca-137">Client type</span></span></th>
-<th><span data-ttu-id="7abca-138">Поддерживается</span><span class="sxs-lookup"><span data-stu-id="7abca-138">Supported</span></span></th>
-<th><span data-ttu-id="7abca-139">Сведения</span><span class="sxs-lookup"><span data-stu-id="7abca-139">Details</span></span></th>
+<th><span data-ttu-id="6767d-138">Тип клиента</span><span class="sxs-lookup"><span data-stu-id="6767d-138">Client type</span></span></th>
+<th><span data-ttu-id="6767d-139">Поддерживается</span><span class="sxs-lookup"><span data-stu-id="6767d-139">Supported</span></span></th>
+<th><span data-ttu-id="6767d-140">Сведения</span><span class="sxs-lookup"><span data-stu-id="6767d-140">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-140">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-140">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="7abca-141">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-141">yes</span></span></p></td>
-<td><p><span data-ttu-id="7abca-142">В том числе Lync 2013 февраль 2013 накопительный пакет обновления</span><span class="sxs-lookup"><span data-stu-id="7abca-142">Including Lync 2013 February 2013 Cumulative Update</span></span></p></td>
+<td><p><span data-ttu-id="6767d-141">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-141">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="6767d-142">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-142">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-143">В том числе Lync 2013 февраль 2013 накопительный пакет обновления</span><span class="sxs-lookup"><span data-stu-id="6767d-143">Including Lync 2013 February 2013 Cumulative Update</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-143">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="7abca-143">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="7abca-144">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-144">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-144">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="6767d-144">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="6767d-145">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-145">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-145">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7abca-145">Office Communicator 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="7abca-146">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-146">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-146">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="6767d-146">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="6767d-147">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-147">no</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-147">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="7abca-147">Lync Phone Edition</span></span></p></td>
-<td><p><span data-ttu-id="7abca-148">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-148">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-148">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="6767d-148">Lync Phone Edition</span></span></p></td>
+<td><p><span data-ttu-id="6767d-149">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-149">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-149">Помощник по Lync</span><span class="sxs-lookup"><span data-stu-id="7abca-149">Lync Attendant</span></span></p></td>
-<td><p><span data-ttu-id="7abca-150">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-150">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-150">Помощник по Lync</span><span class="sxs-lookup"><span data-stu-id="6767d-150">Lync Attendant</span></span></p></td>
+<td><p><span data-ttu-id="6767d-151">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-151">yes</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-151">Lync для Windows 8</span><span class="sxs-lookup"><span data-stu-id="7abca-151">Lync for Windows 8</span></span></p></td>
-<td><p><span data-ttu-id="7abca-152">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-152">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-152">Lync для Windows 8</span><span class="sxs-lookup"><span data-stu-id="6767d-152">Lync for Windows 8</span></span></p></td>
+<td><p><span data-ttu-id="6767d-153">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-153">no</span></span></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7abca-153">Lync Mobile 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-153">Lync Mobile 2013</span></span></p></td>
-<td><p><span data-ttu-id="7abca-154">Нет</span><span class="sxs-lookup"><span data-stu-id="7abca-154">no</span></span></p></td>
-<td><p><span data-ttu-id="7abca-155">Службу VoIP необходимо отключить для клиентов Lync Mobile 2013, если они используются пользователями с включенной маршрутизацией Location-Based.</span><span class="sxs-lookup"><span data-stu-id="7abca-155">VoIP must be disabled for Lync Mobile 2013 clients if used by users with Location-Based Routing enabled.</span></span></p></td>
+<td><p><span data-ttu-id="6767d-154">Lync Mobile 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-154">Lync Mobile 2013</span></span></p></td>
+<td><p><span data-ttu-id="6767d-155">Нет</span><span class="sxs-lookup"><span data-stu-id="6767d-155">no</span></span></p></td>
+<td><p><span data-ttu-id="6767d-156">Службу VoIP необходимо отключить для клиентов Lync Mobile 2013, если они используются пользователями с включенной маршрутизацией Location-Based.</span><span class="sxs-lookup"><span data-stu-id="6767d-156">VoIP must be disabled for Lync Mobile 2013 clients if used by users with Location-Based Routing enabled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7abca-156">Lync Mobile 2010</span><span class="sxs-lookup"><span data-stu-id="7abca-156">Lync Mobile 2010</span></span></p></td>
-<td><p><span data-ttu-id="7abca-157">Да</span><span class="sxs-lookup"><span data-stu-id="7abca-157">yes</span></span></p></td>
+<td><p><span data-ttu-id="6767d-157">Lync Mobile 2010</span><span class="sxs-lookup"><span data-stu-id="6767d-157">Lync Mobile 2010</span></span></p></td>
+<td><p><span data-ttu-id="6767d-158">Да</span><span class="sxs-lookup"><span data-stu-id="6767d-158">yes</span></span></p></td>
 <td> </td>
 </tr>
 </tbody>
@@ -175,7 +176,7 @@ ms.locfileid: "48529346"
 
 
 > [!NOTE]  
-> <span data-ttu-id="7abca-158">Чтобы отключить VoIP для клиентов Lync Mobile 2013, назначьте политику мобильности с параметром, IP-аудио/видео, отключенным для всех пользователей, для которых включена маршрутизация на основе расположения.</span><span class="sxs-lookup"><span data-stu-id="7abca-158">To disable VoIP for Lync Mobile 2013 clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location Based Routing.</span></span> <span data-ttu-id="7abca-159">Дополнительные сведения о политике мобильности можно найти в статье <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New – CsMobilityPolicy</A>.</span><span class="sxs-lookup"><span data-stu-id="7abca-159">For more details about mobility policy, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.</span></span>
+> <span data-ttu-id="6767d-159">Чтобы отключить VoIP для клиентов Lync Mobile 2013, назначьте политику мобильности с параметром, IP-аудио/видео, отключенным для всех пользователей, для которых включена маршрутизация на основе расположения.</span><span class="sxs-lookup"><span data-stu-id="6767d-159">To disable VoIP for Lync Mobile 2013 clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location Based Routing.</span></span> <span data-ttu-id="6767d-160">Дополнительные сведения о политике мобильности можно найти в статье <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New – CsMobilityPolicy</A>.</span><span class="sxs-lookup"><span data-stu-id="6767d-160">For more details about mobility policy, see <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.</span></span>
 
 
 
@@ -185,10 +186,10 @@ ms.locfileid: "48529346"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7abca-160">См. также</span><span class="sxs-lookup"><span data-stu-id="7abca-160">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6767d-161">См. также</span><span class="sxs-lookup"><span data-stu-id="6767d-161">See Also</span></span>
 
 
-[<span data-ttu-id="7abca-161">Планирование маршрутизации Location-Based в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7abca-161">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="6767d-162">Планирование маршрутизации Location-Based в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6767d-162">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

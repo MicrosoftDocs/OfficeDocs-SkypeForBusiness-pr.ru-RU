@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Мониторинг службы Mobility Service и использования UCWA'
+description: 'Lync Server 2013: Мониторинг службы Mobility Service и использования UCWA.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6575941faf904e46cd1f66d7226a16c88e8cbaa3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531802"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548115"
 ---
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="5b02e-102">Мониторинг службы Mobility Service и использования UCWA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b02e-102">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="56c06-103">Мониторинг службы Mobility Service и использования UCWA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c06-103">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,53 +38,53 @@ ms.locfileid: "48531802"
 
 <span> </span>
 
-<span data-ttu-id="5b02e-103">_**Последнее изменение темы:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="5b02e-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="56c06-104">_**Последнее изменение темы:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="56c06-104">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="5b02e-104">На постоянной основе необходимо отслеживать ресурсы ЦП и памяти, используемые службой Mobility Server Mobility Service (MCX), и веб-API объединенных коммуникаций (UCWA).</span><span class="sxs-lookup"><span data-stu-id="5b02e-104">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="5b02e-105">Для мониторинга использования можно использовать следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="5b02e-105">To monitor usage, you can use the following:</span></span>
+<span data-ttu-id="56c06-105">На постоянной основе необходимо отслеживать ресурсы ЦП и памяти, используемые службой Mobility Server Mobility Service (MCX), и веб-API объединенных коммуникаций (UCWA).</span><span class="sxs-lookup"><span data-stu-id="56c06-105">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="56c06-106">Для мониторинга использования можно использовать следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="56c06-106">To monitor usage, you can use the following:</span></span>
 
-<span data-ttu-id="5b02e-106">**Для веб-интерфейса API объединенных коммуникаций (UCWA):**</span><span class="sxs-lookup"><span data-stu-id="5b02e-106">**For Unified Communications Web API (UCWA):**</span></span>
+<span data-ttu-id="56c06-107">**Для веб-интерфейса API объединенных коммуникаций (UCWA):**</span><span class="sxs-lookup"><span data-stu-id="56c06-107">**For Unified Communications Web API (UCWA):**</span></span>
 
-  - <span data-ttu-id="5b02e-107">Рабочий процесс **линкуква** в ДИСПЕТЧЕРЕ служб IIS.</span><span class="sxs-lookup"><span data-stu-id="5b02e-107">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="5b02e-108">На панели **Рабочие процессы** изучите столбцы **ЦП %** и **Частные байты (КБ)** (память).</span><span class="sxs-lookup"><span data-stu-id="5b02e-108">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+  - <span data-ttu-id="56c06-108">Рабочий процесс **линкуква** в ДИСПЕТЧЕРЕ служб IIS.</span><span class="sxs-lookup"><span data-stu-id="56c06-108">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="56c06-109">На панели **Рабочие процессы** изучите столбцы **ЦП %** и **Частные байты (КБ)** (память).</span><span class="sxs-lookup"><span data-stu-id="56c06-109">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
 
-  - <span data-ttu-id="5b02e-109">Счетчики производительности **ЦП** и **Процессор**.</span><span class="sxs-lookup"><span data-stu-id="5b02e-109">The **CPU** and **Processor** performance counters.</span></span>
+  - <span data-ttu-id="56c06-110">Счетчики производительности **ЦП** и **Процессор**.</span><span class="sxs-lookup"><span data-stu-id="56c06-110">The **CPU** and **Processor** performance counters.</span></span>
 
-<span data-ttu-id="5b02e-110">Для большинства развертываний использование ЦП UCWA должно быть менее 15% в среднем.</span><span class="sxs-lookup"><span data-stu-id="5b02e-110">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="5b02e-111">Использование памяти должно попадать в пределы, описанные в разделе [наблюдение за пределами объема памяти сервера в Lync server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span><span class="sxs-lookup"><span data-stu-id="5b02e-111">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+<span data-ttu-id="56c06-111">Для большинства развертываний использование ЦП UCWA должно быть менее 15% в среднем.</span><span class="sxs-lookup"><span data-stu-id="56c06-111">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="56c06-112">Использование памяти должно попадать в пределы, описанные в разделе [наблюдение за пределами объема памяти сервера в Lync server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span><span class="sxs-lookup"><span data-stu-id="56c06-112">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
 
-<span data-ttu-id="5b02e-112">В дополнение к счетчикам использования ЦП и памяти можно использовать следующие счетчики производительности, чтобы определить, когда сервер перегружается с запросами.</span><span class="sxs-lookup"><span data-stu-id="5b02e-112">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
+<span data-ttu-id="56c06-113">В дополнение к счетчикам использования ЦП и памяти можно использовать следующие счетчики производительности, чтобы определить, когда сервер перегружается с запросами.</span><span class="sxs-lookup"><span data-stu-id="56c06-113">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
 
-  - <span data-ttu-id="5b02e-113">**Ls: Интернет — регулирование и проверка подлинности \\ ВЕБ — общее количество обрабатываемых запросов**, которое указывает количество ожидающих веб-запросов на сервере.</span><span class="sxs-lookup"><span data-stu-id="5b02e-113">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="5b02e-114">Когда этот счетчик достигает 10 000, последующие запросы завершатся неудачей с сообщением об ошибке "503 — Служба недоступна".</span><span class="sxs-lookup"><span data-stu-id="5b02e-114">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
+  - <span data-ttu-id="56c06-114">**Ls: Интернет — регулирование и проверка подлинности \\ ВЕБ — общее количество обрабатываемых запросов**, которое указывает количество ожидающих веб-запросов на сервере.</span><span class="sxs-lookup"><span data-stu-id="56c06-114">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="56c06-115">Когда этот счетчик достигает 10 000, последующие запросы завершатся неудачей с сообщением об ошибке "503 — Служба недоступна".</span><span class="sxs-lookup"><span data-stu-id="56c06-115">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
 
-  - <span data-ttu-id="5b02e-115">**ASP.NET \\ Число запросов в очереди** (всегда должно быть равно нулю).</span><span class="sxs-lookup"><span data-stu-id="5b02e-115">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="5b02e-116">Если вы удовлетворяете или превышаете эти значения, необходимо повторно посетить и повторно вычислить планирование мощности для правильного определения размера ЦП, количества ядер и памяти для компьютеров, на которых размещаются веб-службы.</span><span class="sxs-lookup"><span data-stu-id="5b02e-116">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="5b02e-117">**Для службы Mobility Service (MCX):**</span><span class="sxs-lookup"><span data-stu-id="5b02e-117">**For the Mobility Service (Mcx):**</span></span>
-
-  - <span data-ttu-id="5b02e-118">Рабочие процессы **ксинтмкксапппул** и **Ксекстмкксапппул** в диспетчере служб IIS.</span><span class="sxs-lookup"><span data-stu-id="5b02e-118">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="5b02e-119">На панели **Рабочие процессы** изучите столбцы **ЦП %** и **Частные байты (КБ)** (память).</span><span class="sxs-lookup"><span data-stu-id="5b02e-119">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
-
-  - <span data-ttu-id="5b02e-120">Счетчики производительности **ЦП** и **Процессор**.</span><span class="sxs-lookup"><span data-stu-id="5b02e-120">The **CPU** and **Processor** performance counters.</span></span>
-
-<span data-ttu-id="5b02e-121">Для большинства развертываний загрузка ЦП службы Mobility Service должна быть менее 15% в среднем.</span><span class="sxs-lookup"><span data-stu-id="5b02e-121">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="5b02e-122">Использование памяти должно попадать в пределы, описанные в разделе [наблюдение за пределами объема памяти сервера в Lync server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span><span class="sxs-lookup"><span data-stu-id="5b02e-122">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
-
-<span data-ttu-id="5b02e-123">Помимо счетчиков производительности ЦП и памяти можно использовать следующие счетчики производительности ASP.NET, которые позволят определить степень перегрузки сервера запросами.</span><span class="sxs-lookup"><span data-stu-id="5b02e-123">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
-
-  - <span data-ttu-id="5b02e-124">**ASP.NET v 2.0.50727 \\ Текущее количество запросов**, которое указывает количество ожидающих веб-запросов на сервере.</span><span class="sxs-lookup"><span data-stu-id="5b02e-124">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="5b02e-125">Когда значение этого счетчика достигнет значения 5 000, последующие запросы завершатся неудачей с сообщением об ошибке "503 — Служба недоступна".</span><span class="sxs-lookup"><span data-stu-id="5b02e-125">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
-
-  - <span data-ttu-id="5b02e-126">**ASP.NET \\ Число запросов в очереди** (всегда должно быть равно нулю).</span><span class="sxs-lookup"><span data-stu-id="5b02e-126">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+  - <span data-ttu-id="56c06-116">**ASP.NET \\ Число запросов в очереди** (всегда должно быть равно нулю).</span><span class="sxs-lookup"><span data-stu-id="56c06-116">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5b02e-127">Если вы отвечаете или превышают эти значения, необходимо повторно посетить и повторно вычислить планирование мощности для правильного определения размера ЦП, количества ядер и памяти для компьютеров, на которых размещаются веб-службы.</span><span class="sxs-lookup"><span data-stu-id="5b02e-127">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
+> <span data-ttu-id="56c06-117">Если вы удовлетворяете или превышаете эти значения, необходимо повторно посетить и повторно вычислить планирование мощности для правильного определения размера ЦП, количества ядер и памяти для компьютеров, на которых размещаются веб-службы.</span><span class="sxs-lookup"><span data-stu-id="56c06-117">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="56c06-118">**Для службы Mobility Service (MCX):**</span><span class="sxs-lookup"><span data-stu-id="56c06-118">**For the Mobility Service (Mcx):**</span></span>
+
+  - <span data-ttu-id="56c06-119">Рабочие процессы **ксинтмкксапппул** и **Ксекстмкксапппул** в диспетчере служб IIS.</span><span class="sxs-lookup"><span data-stu-id="56c06-119">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="56c06-120">На панели **Рабочие процессы** изучите столбцы **ЦП %** и **Частные байты (КБ)** (память).</span><span class="sxs-lookup"><span data-stu-id="56c06-120">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+
+  - <span data-ttu-id="56c06-121">Счетчики производительности **ЦП** и **Процессор**.</span><span class="sxs-lookup"><span data-stu-id="56c06-121">The **CPU** and **Processor** performance counters.</span></span>
+
+<span data-ttu-id="56c06-122">Для большинства развертываний загрузка ЦП службы Mobility Service должна быть менее 15% в среднем.</span><span class="sxs-lookup"><span data-stu-id="56c06-122">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="56c06-123">Использование памяти должно попадать в пределы, описанные в разделе [наблюдение за пределами объема памяти сервера в Lync server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span><span class="sxs-lookup"><span data-stu-id="56c06-123">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+
+<span data-ttu-id="56c06-124">Помимо счетчиков производительности ЦП и памяти можно использовать следующие счетчики производительности ASP.NET, которые позволят определить степень перегрузки сервера запросами.</span><span class="sxs-lookup"><span data-stu-id="56c06-124">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
+
+  - <span data-ttu-id="56c06-125">**ASP.NET v 2.0.50727 \\ Текущее количество запросов**, которое указывает количество ожидающих веб-запросов на сервере.</span><span class="sxs-lookup"><span data-stu-id="56c06-125">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="56c06-126">Когда значение этого счетчика достигнет значения 5 000, последующие запросы завершатся неудачей с сообщением об ошибке "503 — Служба недоступна".</span><span class="sxs-lookup"><span data-stu-id="56c06-126">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
+
+  - <span data-ttu-id="56c06-127">**ASP.NET \\ Число запросов в очереди** (всегда должно быть равно нулю).</span><span class="sxs-lookup"><span data-stu-id="56c06-127">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="56c06-128">Если вы отвечаете или превышают эти значения, необходимо повторно посетить и повторно вычислить планирование мощности для правильного определения размера ЦП, количества ядер и памяти для компьютеров, на которых размещаются веб-службы.</span><span class="sxs-lookup"><span data-stu-id="56c06-128">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
 
 
 
@@ -91,10 +92,10 @@ ms.locfileid: "48531802"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5b02e-128">См. также</span><span class="sxs-lookup"><span data-stu-id="5b02e-128">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56c06-129">См. также</span><span class="sxs-lookup"><span data-stu-id="56c06-129">See Also</span></span>
 
 
-[<span data-ttu-id="5b02e-129">Мониторинг пределов объема памяти сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b02e-129">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
+[<span data-ttu-id="56c06-130">Мониторинг пределов объема памяти сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56c06-130">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
   
 
 </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: события UCWA'
+description: 'Lync Server 2013: события UCWA.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ae71fa6e91c0bc212bc019b1afa85ebcacb4d0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8104ce9c7533350f40ce194e1cde205bc3692792
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527796"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548855"
 ---
-# <a name="ucwa-events-in-lync-server-2013"></a><span data-ttu-id="e1e41-102">События UCWA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1e41-102">UCWA events in Lync Server 2013</span></span>
+# <a name="ucwa-events-in-lync-server-2013"></a><span data-ttu-id="fecb1-103">События UCWA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fecb1-103">UCWA events in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48527796"
 
 <span> </span>
 
-<span data-ttu-id="e1e41-103">_**Последнее изменение темы:** 2013-02-15_</span><span class="sxs-lookup"><span data-stu-id="e1e41-103">_**Topic Last Modified:** 2013-02-15_</span></span>
+<span data-ttu-id="fecb1-104">_**Последнее изменение темы:** 2013-02-15_</span><span class="sxs-lookup"><span data-stu-id="fecb1-104">_**Topic Last Modified:** 2013-02-15_</span></span>
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-<span data-ttu-id="e1e41-104">Lync Server 2013 использует веб-API объединенных коммуникаций (UCWA) для выполнения различных задач, от доступа к Microsoft Exchange для поиска контактов для обновления сведений о присутствии для мобильных клиентов.</span><span class="sxs-lookup"><span data-stu-id="e1e41-104">Lync Server 2013 uses the Unified Communications Web API (UCWA) for a number of purposes, from accessing Microsoft Exchange for contact searches to updating presence for mobile clients.</span></span>
+<span data-ttu-id="fecb1-105">Lync Server 2013 использует веб-API объединенных коммуникаций (UCWA) для выполнения различных задач, от доступа к Microsoft Exchange для поиска контактов для обновления сведений о присутствии для мобильных клиентов.</span><span class="sxs-lookup"><span data-stu-id="fecb1-105">Lync Server 2013 uses the Unified Communications Web API (UCWA) for a number of purposes, from accessing Microsoft Exchange for contact searches to updating presence for mobile clients.</span></span>
 
-<span data-ttu-id="e1e41-105">UCWA будет записывать записи оперативного поведения в виде информационных, предупреждений и ошибок типов событий.</span><span class="sxs-lookup"><span data-stu-id="e1e41-105">UCWA will write records of operational behavior as event types Informational, Warning, and Error.</span></span> <span data-ttu-id="e1e41-106">В следующей таблице описываются события, которые могут быть записаны компонентами UCWA.</span><span class="sxs-lookup"><span data-stu-id="e1e41-106">The following table describes the events that can be written by the UCWA components.</span></span>
+<span data-ttu-id="fecb1-106">UCWA будет записывать записи оперативного поведения в виде информационных, предупреждений и ошибок типов событий.</span><span class="sxs-lookup"><span data-stu-id="fecb1-106">UCWA will write records of operational behavior as event types Informational, Warning, and Error.</span></span> <span data-ttu-id="fecb1-107">В следующей таблице описываются события, которые могут быть записаны компонентами UCWA.</span><span class="sxs-lookup"><span data-stu-id="fecb1-107">The following table describes the events that can be written by the UCWA components.</span></span>
 
 
 <table>
@@ -55,194 +56,194 @@ ms.locfileid: "48527796"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e1e41-107">Код события</span><span class="sxs-lookup"><span data-stu-id="e1e41-107">Event ID</span></span></th>
-<th><span data-ttu-id="e1e41-108">Тип события</span><span class="sxs-lookup"><span data-stu-id="e1e41-108">Event Type</span></span></th>
-<th><span data-ttu-id="e1e41-109">Аннотация</span><span class="sxs-lookup"><span data-stu-id="e1e41-109">Summary</span></span></th>
-<th><span data-ttu-id="e1e41-110">Причина и решение</span><span class="sxs-lookup"><span data-stu-id="e1e41-110">Cause and Resolution</span></span></th>
+<th><span data-ttu-id="fecb1-108">Код события</span><span class="sxs-lookup"><span data-stu-id="fecb1-108">Event ID</span></span></th>
+<th><span data-ttu-id="fecb1-109">Тип события</span><span class="sxs-lookup"><span data-stu-id="fecb1-109">Event Type</span></span></th>
+<th><span data-ttu-id="fecb1-110">Аннотация</span><span class="sxs-lookup"><span data-stu-id="fecb1-110">Summary</span></span></th>
+<th><span data-ttu-id="fecb1-111">Причина и решение</span><span class="sxs-lookup"><span data-stu-id="fecb1-111">Cause and Resolution</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-111">20001</span><span class="sxs-lookup"><span data-stu-id="e1e41-111">20001</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-112">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-112">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-113">UCWA инициализировано</span><span class="sxs-lookup"><span data-stu-id="e1e41-113">UCWA initialized</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-114">Н/Д</span><span class="sxs-lookup"><span data-stu-id="e1e41-114">N/A</span></span></p>
-<p><span data-ttu-id="e1e41-115">Н/Д</span><span class="sxs-lookup"><span data-stu-id="e1e41-115">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-112">20001</span><span class="sxs-lookup"><span data-stu-id="fecb1-112">20001</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-113">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-113">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-114">UCWA инициализировано</span><span class="sxs-lookup"><span data-stu-id="fecb1-114">UCWA initialized</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-115">Н/Д</span><span class="sxs-lookup"><span data-stu-id="fecb1-115">N/A</span></span></p>
+<p><span data-ttu-id="fecb1-116">Н/Д</span><span class="sxs-lookup"><span data-stu-id="fecb1-116">N/A</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-116">20002</span><span class="sxs-lookup"><span data-stu-id="e1e41-116">20002</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-117">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-117">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-118">В UCWA возникло неожиданное исключение во время инициализации</span><span class="sxs-lookup"><span data-stu-id="e1e41-118">UCWA encountered an unexpected exception during initialization</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-119">Произошла непредвиденная ошибка во время инициализации</span><span class="sxs-lookup"><span data-stu-id="e1e41-119">An unexpected error has occurred during initialization</span></span></p>
-<p><span data-ttu-id="e1e41-120">Изучите сведения об исключении в связанной записи журнала событий, чтобы определить возможную причину</span><span class="sxs-lookup"><span data-stu-id="e1e41-120">Examine the exception details in the associated event log entry to determine the possible cause</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-117">20002</span><span class="sxs-lookup"><span data-stu-id="fecb1-117">20002</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-118">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-118">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-119">В UCWA возникло неожиданное исключение во время инициализации</span><span class="sxs-lookup"><span data-stu-id="fecb1-119">UCWA encountered an unexpected exception during initialization</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-120">Произошла непредвиденная ошибка во время инициализации</span><span class="sxs-lookup"><span data-stu-id="fecb1-120">An unexpected error has occurred during initialization</span></span></p>
+<p><span data-ttu-id="fecb1-121">Изучите сведения об исключении в связанной записи журнала событий, чтобы определить возможную причину</span><span class="sxs-lookup"><span data-stu-id="fecb1-121">Examine the exception details in the associated event log entry to determine the possible cause</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-121">20003</span><span class="sxs-lookup"><span data-stu-id="e1e41-121">20003</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-122">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-122">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-123">В UCWA возникло необработанное исключение</span><span class="sxs-lookup"><span data-stu-id="e1e41-123">UCWA encountered an unhandled exception</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-124">Произошло необработанное исключение</span><span class="sxs-lookup"><span data-stu-id="e1e41-124">An unhandled exception happened</span></span></p>
-<p><span data-ttu-id="e1e41-125">Перезапустите сервер.</span><span class="sxs-lookup"><span data-stu-id="e1e41-125">Restart the server.</span></span> <span data-ttu-id="e1e41-126">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="e1e41-126">If the problem persists contact product support</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-122">20003</span><span class="sxs-lookup"><span data-stu-id="fecb1-122">20003</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-123">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-123">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-124">В UCWA возникло необработанное исключение</span><span class="sxs-lookup"><span data-stu-id="fecb1-124">UCWA encountered an unhandled exception</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-125">Произошло необработанное исключение</span><span class="sxs-lookup"><span data-stu-id="fecb1-125">An unhandled exception happened</span></span></p>
+<p><span data-ttu-id="fecb1-126">Перезапустите сервер.</span><span class="sxs-lookup"><span data-stu-id="fecb1-126">Restart the server.</span></span> <span data-ttu-id="fecb1-127">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="fecb1-127">If the problem persists contact product support</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-127">20004</span><span class="sxs-lookup"><span data-stu-id="e1e41-127">20004</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-128">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-128">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-129">Не удается получить доступ к Exchange для фото в формате HD</span><span class="sxs-lookup"><span data-stu-id="e1e41-129">Cannot access Exchange for HD photo</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-130">Подключение к Exchange недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-130">Connection to Exchange is not available</span></span></p>
-<p><span data-ttu-id="e1e41-131">Убедитесь, что подключение к Exchange доступно.</span><span class="sxs-lookup"><span data-stu-id="e1e41-131">Make sure the connection to Exchange is available</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-128">20004</span><span class="sxs-lookup"><span data-stu-id="fecb1-128">20004</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-129">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-129">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-130">Не удается получить доступ к Exchange для фото в формате HD</span><span class="sxs-lookup"><span data-stu-id="fecb1-130">Cannot access Exchange for HD photo</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-131">Подключение к Exchange недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-131">Connection to Exchange is not available</span></span></p>
+<p><span data-ttu-id="fecb1-132">Убедитесь, что подключение к Exchange доступно.</span><span class="sxs-lookup"><span data-stu-id="fecb1-132">Make sure the connection to Exchange is available</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-132">20005</span><span class="sxs-lookup"><span data-stu-id="e1e41-132">20005</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-133">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-133">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-134">Восстановление после отказа в доступе к Exchange для фотографии HD</span><span class="sxs-lookup"><span data-stu-id="e1e41-134">Recovered from failing to access Exchange for HD photo</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-135">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-135">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-133">20005</span><span class="sxs-lookup"><span data-stu-id="fecb1-133">20005</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-134">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-134">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-135">Восстановление после отказа в доступе к Exchange для фотографии HD</span><span class="sxs-lookup"><span data-stu-id="fecb1-135">Recovered from failing to access Exchange for HD photo</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-136">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-136">N/A</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-136">20006</span><span class="sxs-lookup"><span data-stu-id="e1e41-136">20006</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-137">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-137">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-138">Не удается получить доступ к Exchange для поиска контактов</span><span class="sxs-lookup"><span data-stu-id="e1e41-138">Cannot access Exchange for contact search</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-139">Подключение к Exchange недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-139">Connection to Exchange is not available</span></span></p>
-<p><span data-ttu-id="e1e41-140">Убедитесь, что подключение к Exchange доступно.</span><span class="sxs-lookup"><span data-stu-id="e1e41-140">Make sure the connection to Exchange is available</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-137">20006</span><span class="sxs-lookup"><span data-stu-id="fecb1-137">20006</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-138">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-138">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-139">Не удается получить доступ к Exchange для поиска контактов</span><span class="sxs-lookup"><span data-stu-id="fecb1-139">Cannot access Exchange for contact search</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-140">Подключение к Exchange недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-140">Connection to Exchange is not available</span></span></p>
+<p><span data-ttu-id="fecb1-141">Убедитесь, что подключение к Exchange доступно.</span><span class="sxs-lookup"><span data-stu-id="fecb1-141">Make sure the connection to Exchange is available</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-141">20007</span><span class="sxs-lookup"><span data-stu-id="e1e41-141">20007</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-142">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-142">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-143">Восстановление после отказа поиска контакта в Exchange</span><span class="sxs-lookup"><span data-stu-id="e1e41-143">Recovered from failing to search contact in Exchange</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-144">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-144">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-142">20007</span><span class="sxs-lookup"><span data-stu-id="fecb1-142">20007</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-143">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-143">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-144">Восстановление после отказа поиска контакта в Exchange</span><span class="sxs-lookup"><span data-stu-id="fecb1-144">Recovered from failing to search contact in Exchange</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-145">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-145">N/A</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-145">20008</span><span class="sxs-lookup"><span data-stu-id="e1e41-145">20008</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-146">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="e1e41-146">Warning</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-147">Попытка подписки на приложение более чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="e1e41-147">Attempt to subscribe more than the allowed presence subscriptions per application</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-148">Попытка подписки на приложение более чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="e1e41-148">Attempt to subscribe more than the allowed presence subscriptions per application</span></span></p>
-<p><span data-ttu-id="e1e41-149">Проверка клиентов на наличие ненужных подписок</span><span class="sxs-lookup"><span data-stu-id="e1e41-149">Check the clients for unnecessary subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-146">20008</span><span class="sxs-lookup"><span data-stu-id="fecb1-146">20008</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-147">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="fecb1-147">Warning</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-148">Попытка подписки на приложение более чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="fecb1-148">Attempt to subscribe more than the allowed presence subscriptions per application</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-149">Попытка подписки на приложение более чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="fecb1-149">Attempt to subscribe more than the allowed presence subscriptions per application</span></span></p>
+<p><span data-ttu-id="fecb1-150">Проверка клиентов на наличие ненужных подписок</span><span class="sxs-lookup"><span data-stu-id="fecb1-150">Check the clients for unnecessary subscriptions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-150">20009</span><span class="sxs-lookup"><span data-stu-id="e1e41-150">20009</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-151">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="e1e41-151">Warning</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-152">Попытка подписки на пакет больше чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="e1e41-152">Attempt to subscribe more than the allowed presence subscriptions per batch</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-153">Попытка подписки на пакет больше чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="e1e41-153">Attempt to subscribe more than the allowed presence subscriptions per batch</span></span></p>
-<p><span data-ttu-id="e1e41-154">Проверка клиентов на наличие ненужных подписок</span><span class="sxs-lookup"><span data-stu-id="e1e41-154">Check the clients for unnecessary subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-151">20009</span><span class="sxs-lookup"><span data-stu-id="fecb1-151">20009</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-152">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="fecb1-152">Warning</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-153">Попытка подписки на пакет больше чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="fecb1-153">Attempt to subscribe more than the allowed presence subscriptions per batch</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-154">Попытка подписки на пакет больше чем разрешенных подписок на присутствие</span><span class="sxs-lookup"><span data-stu-id="fecb1-154">Attempt to subscribe more than the allowed presence subscriptions per batch</span></span></p>
+<p><span data-ttu-id="fecb1-155">Проверка клиентов на наличие ненужных подписок</span><span class="sxs-lookup"><span data-stu-id="fecb1-155">Check the clients for unnecessary subscriptions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-155">20010</span><span class="sxs-lookup"><span data-stu-id="e1e41-155">20010</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-156">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-156">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-157">Не удается получить данные из диапазона</span><span class="sxs-lookup"><span data-stu-id="e1e41-157">Cannot retrieve inband data</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-158">Не удается получить данные из диапазона</span><span class="sxs-lookup"><span data-stu-id="e1e41-158">Cannot retrieve inband data</span></span></p>
-<p><span data-ttu-id="e1e41-159">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="e1e41-159">If the problem persists contact product support</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-156">20010</span><span class="sxs-lookup"><span data-stu-id="fecb1-156">20010</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-157">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-157">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-158">Не удается получить данные из диапазона</span><span class="sxs-lookup"><span data-stu-id="fecb1-158">Cannot retrieve inband data</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-159">Не удается получить данные из диапазона</span><span class="sxs-lookup"><span data-stu-id="fecb1-159">Cannot retrieve inband data</span></span></p>
+<p><span data-ttu-id="fecb1-160">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="fecb1-160">If the problem persists contact product support</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-160">20011</span><span class="sxs-lookup"><span data-stu-id="e1e41-160">20011</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-161">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-161">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-162">Не удается подписать сведения о присутствии</span><span class="sxs-lookup"><span data-stu-id="e1e41-162">Cannot subscribe presence</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-163">Не удается подписать сведения о присутствии</span><span class="sxs-lookup"><span data-stu-id="e1e41-163">Cannot subscribe presence</span></span></p>
-<p><span data-ttu-id="e1e41-164">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="e1e41-164">If the problem persists contact product support</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-161">20011</span><span class="sxs-lookup"><span data-stu-id="fecb1-161">20011</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-162">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-162">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-163">Не удается подписать сведения о присутствии</span><span class="sxs-lookup"><span data-stu-id="fecb1-163">Cannot subscribe presence</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-164">Не удается подписать сведения о присутствии</span><span class="sxs-lookup"><span data-stu-id="fecb1-164">Cannot subscribe presence</span></span></p>
+<p><span data-ttu-id="fecb1-165">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="fecb1-165">If the problem persists contact product support</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-165">20012</span><span class="sxs-lookup"><span data-stu-id="e1e41-165">20012</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-166">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-166">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-167">Не удалось зарегистрировать конечную точку</span><span class="sxs-lookup"><span data-stu-id="e1e41-167">Failed to register endpoint</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-168">Не удалось зарегистрировать конечную точку</span><span class="sxs-lookup"><span data-stu-id="e1e41-168">Failed to register endpoint</span></span></p>
-<p><span data-ttu-id="e1e41-169">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="e1e41-169">If the problem persists contact product support</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-166">20012</span><span class="sxs-lookup"><span data-stu-id="fecb1-166">20012</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-167">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-167">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-168">Не удалось зарегистрировать конечную точку</span><span class="sxs-lookup"><span data-stu-id="fecb1-168">Failed to register endpoint</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-169">Не удалось зарегистрировать конечную точку</span><span class="sxs-lookup"><span data-stu-id="fecb1-169">Failed to register endpoint</span></span></p>
+<p><span data-ttu-id="fecb1-170">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="fecb1-170">If the problem persists contact product support</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-170">20013</span><span class="sxs-lookup"><span data-stu-id="e1e41-170">20013</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-171">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-171">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-172">MCU IM недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-172">IM MCU is unavailable</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-173">MCU IM недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-173">IM MCU is unavailable</span></span></p>
-<p><span data-ttu-id="e1e41-174">Проверьте, запущена ли служба мгновенных сообщений MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-174">See whether IM MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-171">20013</span><span class="sxs-lookup"><span data-stu-id="fecb1-171">20013</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-172">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-172">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-173">MCU IM недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-173">IM MCU is unavailable</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-174">MCU IM недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-174">IM MCU is unavailable</span></span></p>
+<p><span data-ttu-id="fecb1-175">Проверьте, запущена ли служба мгновенных сообщений MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-175">See whether IM MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-175">20014</span><span class="sxs-lookup"><span data-stu-id="e1e41-175">20014</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-176">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-176">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-177">Восстановление после отказа к подключению к IM MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-177">Recovered from failing to connect to IM MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-178">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-178">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-176">20014</span><span class="sxs-lookup"><span data-stu-id="fecb1-176">20014</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-177">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-177">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-178">Восстановление после отказа к подключению к IM MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-178">Recovered from failing to connect to IM MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-179">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-179">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-179">20015</span><span class="sxs-lookup"><span data-stu-id="e1e41-179">20015</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-180">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-180">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-181">AV MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-181">AV MCU is unavailable</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-182">AV MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-182">AV MCU is unavailable</span></span></p>
-<p><span data-ttu-id="e1e41-183">Проверьте, работает ли AV MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-183">See whether AV MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-180">20015</span><span class="sxs-lookup"><span data-stu-id="fecb1-180">20015</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-181">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-181">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-182">AV MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-182">AV MCU is unavailable</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-183">AV MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-183">AV MCU is unavailable</span></span></p>
+<p><span data-ttu-id="fecb1-184">Проверьте, работает ли AV MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-184">See whether AV MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-184">20016</span><span class="sxs-lookup"><span data-stu-id="e1e41-184">20016</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-185">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-185">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-186">Восстановление после отказа подключения к AV MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-186">Recovered from failing to connect to AV MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-187">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-187">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-185">20016</span><span class="sxs-lookup"><span data-stu-id="fecb1-185">20016</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-186">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-186">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-187">Восстановление после отказа подключения к AV MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-187">Recovered from failing to connect to AV MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-188">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-188">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-188">20017</span><span class="sxs-lookup"><span data-stu-id="e1e41-188">20017</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-189">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-189">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-190">Так как MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-190">AS MCU is unavailable</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-191">Так как MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-191">AS MCU is unavailable</span></span></p>
-<p><span data-ttu-id="e1e41-192">Проверьте, работает ли как MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-192">See whether AS MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-189">20017</span><span class="sxs-lookup"><span data-stu-id="fecb1-189">20017</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-190">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-190">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-191">Так как MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-191">AS MCU is unavailable</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-192">Так как MCU недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-192">AS MCU is unavailable</span></span></p>
+<p><span data-ttu-id="fecb1-193">Проверьте, работает ли как MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-193">See whether AS MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-193">20018</span><span class="sxs-lookup"><span data-stu-id="e1e41-193">20018</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-194">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-194">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-195">Восстановление после отказа к подключению в качестве MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-195">Recovered from failing to connect to AS MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-196">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-196">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-194">20018</span><span class="sxs-lookup"><span data-stu-id="fecb1-194">20018</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-195">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-195">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-196">Восстановление после отказа к подключению в качестве MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-196">Recovered from failing to connect to AS MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-197">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-197">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-197">20019</span><span class="sxs-lookup"><span data-stu-id="e1e41-197">20019</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-198">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-198">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-199">MCU данных недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-199">Data MCU is unavailable</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-200">MCU данных недоступен</span><span class="sxs-lookup"><span data-stu-id="e1e41-200">Data MCU is unavailable</span></span></p>
-<p><span data-ttu-id="e1e41-201">Проверьте, работает ли MCU данных</span><span class="sxs-lookup"><span data-stu-id="e1e41-201">See whether Data MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-198">20019</span><span class="sxs-lookup"><span data-stu-id="fecb1-198">20019</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-199">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-199">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-200">MCU данных недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-200">Data MCU is unavailable</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-201">MCU данных недоступен</span><span class="sxs-lookup"><span data-stu-id="fecb1-201">Data MCU is unavailable</span></span></p>
+<p><span data-ttu-id="fecb1-202">Проверьте, работает ли MCU данных</span><span class="sxs-lookup"><span data-stu-id="fecb1-202">See whether Data MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-202">20020</span><span class="sxs-lookup"><span data-stu-id="e1e41-202">20020</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-203">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-203">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-204">Восстановление после отказа подключения к данным MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-204">Recovered from failing to connect to Data MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-205">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-205">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-203">20020</span><span class="sxs-lookup"><span data-stu-id="fecb1-203">20020</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-204">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-204">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-205">Восстановление после отказа подключения к данным MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-205">Recovered from failing to connect to Data MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-206">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-206">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-206">20021</span><span class="sxs-lookup"><span data-stu-id="e1e41-206">20021</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-207">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-207">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-208">Не удается присоединиться к IM MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-208">Cannot join IM MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-209">Не удается присоединиться к IM MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-209">Cannot join IM MCU</span></span></p>
-<p><span data-ttu-id="e1e41-210">Проверьте, запущена ли служба мгновенных сообщений MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-210">See whether IM MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-207">20021</span><span class="sxs-lookup"><span data-stu-id="fecb1-207">20021</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-208">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-208">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-209">Не удается присоединиться к IM MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-209">Cannot join IM MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-210">Не удается присоединиться к IM MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-210">Cannot join IM MCU</span></span></p>
+<p><span data-ttu-id="fecb1-211">Проверьте, запущена ли служба мгновенных сообщений MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-211">See whether IM MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-211">20022</span><span class="sxs-lookup"><span data-stu-id="e1e41-211">20022</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-212">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-212">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-213">Не удается присоединиться к AV MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-213">Cannot join AV MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-214">Не удается присоединиться к AV MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-214">Cannot join AV MCU</span></span></p>
-<p><span data-ttu-id="e1e41-215">Проверьте, работает ли AV MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-215">See whether AV MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-212">20022</span><span class="sxs-lookup"><span data-stu-id="fecb1-212">20022</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-213">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-213">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-214">Не удается присоединиться к AV MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-214">Cannot join AV MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-215">Не удается присоединиться к AV MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-215">Cannot join AV MCU</span></span></p>
+<p><span data-ttu-id="fecb1-216">Проверьте, работает ли AV MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-216">See whether AV MCU is running</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-216">20023</span><span class="sxs-lookup"><span data-stu-id="e1e41-216">20023</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-217">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-217">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-218">Не удается присоединиться к MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-218">Cannot join AS MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-219">Не удается присоединиться к MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-219">Cannot join AS MCU</span></span></p>
-<p><span data-ttu-id="e1e41-220">Проверьте, работает ли как MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-220">See whether AS MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-217">20023</span><span class="sxs-lookup"><span data-stu-id="fecb1-217">20023</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-218">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-218">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-219">Не удается присоединиться к MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-219">Cannot join AS MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-220">Не удается присоединиться к MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-220">Cannot join AS MCU</span></span></p>
+<p><span data-ttu-id="fecb1-221">Проверьте, работает ли как MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-221">See whether AS MCU is running</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-221">20024</span><span class="sxs-lookup"><span data-stu-id="e1e41-221">20024</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-222">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-222">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-223">Не удается присоединиться к данным MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-223">Cannot join Data MCU</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-224">Не удается присоединиться к данным MCU</span><span class="sxs-lookup"><span data-stu-id="e1e41-224">Cannot join Data MCU</span></span></p>
-<p><span data-ttu-id="e1e41-225">Проверьте, работает ли MCU данных</span><span class="sxs-lookup"><span data-stu-id="e1e41-225">See whether Data MCU is running</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-222">20024</span><span class="sxs-lookup"><span data-stu-id="fecb1-222">20024</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-223">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-223">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-224">Не удается присоединиться к данным MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-224">Cannot join Data MCU</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-225">Не удается присоединиться к данным MCU</span><span class="sxs-lookup"><span data-stu-id="fecb1-225">Cannot join Data MCU</span></span></p>
+<p><span data-ttu-id="fecb1-226">Проверьте, работает ли MCU данных</span><span class="sxs-lookup"><span data-stu-id="fecb1-226">See whether Data MCU is running</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-226">20025</span><span class="sxs-lookup"><span data-stu-id="e1e41-226">20025</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-227">Error</span><span class="sxs-lookup"><span data-stu-id="e1e41-227">Error</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-228">Не удается получить доступ к Active Directory для фото</span><span class="sxs-lookup"><span data-stu-id="e1e41-228">Cannot access active directory for photo</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-229">Подключение к Active Directory недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-229">Connection to active directory is not available</span></span></p>
-<p><span data-ttu-id="e1e41-230">Убедитесь, что подключение к Active Directory доступно.</span><span class="sxs-lookup"><span data-stu-id="e1e41-230">Make sure the connection to active directory is available</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-227">20025</span><span class="sxs-lookup"><span data-stu-id="fecb1-227">20025</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-228">Error</span><span class="sxs-lookup"><span data-stu-id="fecb1-228">Error</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-229">Не удается получить доступ к Active Directory для фото</span><span class="sxs-lookup"><span data-stu-id="fecb1-229">Cannot access active directory for photo</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-230">Подключение к Active Directory недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-230">Connection to active directory is not available</span></span></p>
+<p><span data-ttu-id="fecb1-231">Убедитесь, что подключение к Active Directory доступно.</span><span class="sxs-lookup"><span data-stu-id="fecb1-231">Make sure the connection to active directory is available</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e1e41-231">20026</span><span class="sxs-lookup"><span data-stu-id="e1e41-231">20026</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-232">Справоч</span><span class="sxs-lookup"><span data-stu-id="e1e41-232">Informational</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-233">Восстановление из строя доступа к Active Directory для фотографии</span><span class="sxs-lookup"><span data-stu-id="e1e41-233">Recovered from failing to access active directory for photo</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-234">Недоступно</span><span class="sxs-lookup"><span data-stu-id="e1e41-234">N/A</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-232">20026</span><span class="sxs-lookup"><span data-stu-id="fecb1-232">20026</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-233">Справоч</span><span class="sxs-lookup"><span data-stu-id="fecb1-233">Informational</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-234">Восстановление из строя доступа к Active Directory для фотографии</span><span class="sxs-lookup"><span data-stu-id="fecb1-234">Recovered from failing to access active directory for photo</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-235">Недоступно</span><span class="sxs-lookup"><span data-stu-id="fecb1-235">N/A</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e1e41-235">20027</span><span class="sxs-lookup"><span data-stu-id="e1e41-235">20027</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-236">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="e1e41-236">Warning</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-237">Не удается десериализовать</span><span class="sxs-lookup"><span data-stu-id="e1e41-237">Cannot deserialize</span></span></p></td>
-<td><p><span data-ttu-id="e1e41-238">Не удается десериализовать</span><span class="sxs-lookup"><span data-stu-id="e1e41-238">Cannot deserialize</span></span></p>
-<p><span data-ttu-id="e1e41-239">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="e1e41-239">If the problem persists contact product support</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-236">20027</span><span class="sxs-lookup"><span data-stu-id="fecb1-236">20027</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-237">Предупреждение</span><span class="sxs-lookup"><span data-stu-id="fecb1-237">Warning</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-238">Не удается десериализовать</span><span class="sxs-lookup"><span data-stu-id="fecb1-238">Cannot deserialize</span></span></p></td>
+<td><p><span data-ttu-id="fecb1-239">Не удается десериализовать</span><span class="sxs-lookup"><span data-stu-id="fecb1-239">Cannot deserialize</span></span></p>
+<p><span data-ttu-id="fecb1-240">Если проблема не исчезнет, обратитесь в службу технической поддержки</span><span class="sxs-lookup"><span data-stu-id="fecb1-240">If the problem persists contact product support</span></span></p></td>
 </tr>
 </tbody>
 </table>
