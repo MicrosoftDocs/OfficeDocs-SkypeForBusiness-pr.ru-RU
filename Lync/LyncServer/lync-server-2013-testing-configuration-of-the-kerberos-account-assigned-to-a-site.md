@@ -12,20 +12,22 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a608f84c3c302c503450bfe1c763aebacc269e96
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08477e9902a1410a98516a79fe5fdd01c5e94214
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194172"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504126"
 ---
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Тестирование конфигурации учетной записи Kerberos, назначенной сайту, в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Тестирование конфигурации учетной записи Kerberos, назначенной сайту, в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -76,11 +78,11 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-По умолчанию test-CsKerberosAccountAssignment отображает очень маленький вывод на экран. Вместо этого сведения, возвращаемые командлетом, записываются в HTML-файл. Из-за этого мы рекомендуем включить параметр Verbose и параметр отчета каждый раз при запуске test-CsKerberosAccountAssignment. Параметр verbose предоставит немного более подробный вывод на экран при выполнении командлета. Параметр Report позволяет указать путь к файлу и имя файла для HTML-файла, созданного с помощью Test-CsKerberosAccountAssignment. Если не включить параметр отчета, HTML-файл будет автоматически сохранен в папке "Пользователи" и будет иметь имя, аналогичное следующему: ce84964a-c4da-4622-ad34-c54ff3ed361f. HTML.
+По умолчанию на экране Test-CsKerberosAccountAssignment отображаются очень мелкие выходные данные. Вместо этого сведения, возвращаемые командлетом, записываются в HTML-файл. Из-за этого мы рекомендуем включить параметр Verbose и параметр отчета каждый раз при запуске test-CsKerberosAccountAssignment. Параметр verbose предоставит немного более подробный вывод на экран при выполнении командлета. Параметр Report позволяет указать путь к файлу и имя файла для HTML-файла, созданного с помощью Test-CsKerberosAccountAssignment. Если не включить параметр отчета, HTML-файл будет автоматически сохранен в папке "Пользователи" и будет иметь имя, аналогичное следующему: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
 
 Кроме того, при выполнении командлета Test-CsKerberosAccountAssignment необходимо указать удостоверение сайта. Учетные записи Kerberos назначаются в области сайта.
 
-Приведенная ниже команда выполняет команду Test-CsKerberosAccountAssignment и сохраняет выходные данные в файл с именем C:\\Logs\\KerberosTest. HTML:
+Следующая команда выполняет Test-CsKerberosAccountAssignment и сохраняет выходные данные в файл с именем C: \\ Logs \\KerberosTest.html:
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
@@ -118,7 +120,7 @@ _**Последнее изменение темы:** 2014-06-05_
     
     Инвалидкерберосконфигуратион: Недопустимая конфигурация Kerberos.
     
-    Инвалидкерберосконфигуратион: Конфигурация Kerberos в atl-cs001.litwareinc.com является недопустимой. Предполагаемая назначенная учетная\\запись — litwareinc kerberostest. Убедитесь, что срок действия учетной записи не истек, а пароль, настроенный на компьютере, соответствует паролю учетной записи Active Directory.
+    Инвалидкерберосконфигуратион: Конфигурация Kerberos в atl-cs001.litwareinc.com является недопустимой. Предполагаемая назначенная учетная запись — litwareinc \\ kerberostest. Убедитесь, что срок действия учетной записи не истек, а пароль, настроенный на компьютере, соответствует паролю учетной записи Active Directory.
     
     Вы можете задать пароль с помощью командлета [Set – кскерберосаккаунтпассворд](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) .
 

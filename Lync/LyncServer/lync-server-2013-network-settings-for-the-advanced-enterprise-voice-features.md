@@ -12,20 +12,22 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340a1902137b6c675b154ef9ccf3d9fbcc882e88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2d8096f9dbce6e5e807cc806a5d87df7558f38a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505486"
 ---
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-lync-server-2013"></a>Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Lync Server включает три расширенные функции кор
 
 </div>
 
-Для управления CAC необходимо, чтобы у каждого региона сети был связанный центральный сайт Lync Server, который управляет трафиком мультимедиа в пределах региона (то есть принимает решения на основе настроенных политик, в зависимости от того, может ли работать аудио-или видеосеанс в режиме реального времени. устанавливаться). Центральные сайты Lync Server не представляют географические расположения, а логически группы серверов, которые настроены в качестве пула или набора пулов. Подробные сведения о центральных сайтах можно найти в статье [Справочник по топологии в Lync Server 2013](lync-server-2013-reference-topologies.md) в документации по планированию. В документации по поддержке также приведены [Поддерживаемые топологии в Lync Server 2013](lync-server-2013-supported-topologies.md) .
+Для управления CAC необходимо, чтобы у каждого региона сети был связанный центральный сайт Lync Server, который управляет трафиком мультимедиа в пределах региона (то есть принимает решения на основе настроенных политик, в зависимости от того, может ли быть установлено аудио-и видеосеансы в режиме реального времени. Центральные сайты Lync Server не представляют географические расположения, а логически группы серверов, которые настроены в качестве пула или набора пулов. Подробные сведения о центральных сайтах можно найти в статье [Справочник по топологии в Lync Server 2013](lync-server-2013-reference-topologies.md) в документации по планированию. В документации по поддержке также приведены [Поддерживаемые топологии в Lync Server 2013](lync-server-2013-supported-topologies.md) .
 
 Чтобы настроить область сети, можно либо использовать вкладку **области** в разделе **Конфигурация сети** в панели управления Lync Server, либо выполнить командлеты **New — CsNetworkRegion** или **Set CsNetworkRegion** Lync Server Management Shell. Инструкции приведены в статье [Создание или изменение области сети в Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) в документации по развертыванию или ссылка на документацию по консоли управления Lync Server.
 

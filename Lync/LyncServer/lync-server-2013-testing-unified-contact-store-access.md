@@ -12,20 +12,22 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503906"
 ---
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Тестирование доступа к единому хранилищу контактов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Тестирование доступа к единому хранилищу контактов в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2015-05-15_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -78,9 +80,9 @@ _**Последнее изменение темы:** 2015-05-15_
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Команды, показанные в следующем примере, определяют, можно ли найти контакты\\для пользователя litwareinc kenmyer в едином хранилище контактов. Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell для пользователя litwareinc\\kenmyer. Обратите внимание, что для этой учетной записи необходимо указать пароль, чтобы создать допустимый объект учетных данных, а затем убедиться, что командлет **Test-CsUnifiedContactStore** может выполнить его проверку.
+Команды, показанные в следующем примере, определяют, можно ли найти контакты для пользователя litwareinc \\ kenmyer в едином хранилище контактов. Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell для пользователя litwareinc \\ kenmyer. Обратите внимание, что для этой учетной записи необходимо указать пароль, чтобы создать допустимый объект учетных данных, а затем убедиться, что командлет **Test-CsUnifiedContactStore** может выполнить его проверку.
 
-Вторая команда в примере использует предоставленный объект учетных данных ($x) и SIP-адрес пользователя litwareinc\\kenmyer, чтобы определить, можно ли найти его контакты в едином хранилище контактов.
+Вторая команда в примере использует предоставленный объект учетных данных ($x) и SIP-адрес пользователя litwareinc kenmyer, \\ чтобы определить, можно ли найти его контакты в едином хранилище контактов.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503876"
 ---
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Тестирование подключения пользователя к единой системе обмена сообщениями Exchange в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Тестирование подключения пользователя к единой системе обмена сообщениями Exchange в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -78,14 +80,14 @@ _**Последнее изменение темы:** 2014-11-01_
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-Команды, показанные в следующем примере, проверяют подключение единой системы обмена сообщениями\\Exchange для пользователя litwareinc kenmyer. Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell для пользователя litwareinc\\kenmyer. Обратите внимание, что для этой учетной записи необходимо указать пароль, чтобы создать допустимый объект учетных данных и убедиться, что командлет **Test-CsExUMConnectivity** может выполнить его проверку.
+Команды, показанные в следующем примере, проверяют подключение единой системы обмена сообщениями Exchange для пользователя litwareinc \\ kenmyer. Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell для пользователя litwareinc \\ kenmyer. Обратите внимание, что для этой учетной записи необходимо указать пароль, чтобы создать допустимый объект учетных данных и убедиться, что командлет **Test-CsExUMConnectivity** может выполнить его проверку.
 
-Вторая команда в примере использует предоставленный объект учетных данных ($x) и SIP-адрес пользователя litwareinc\\kenmyer, чтобы определить, может ли этот пользователь подключиться к единой системе обмена сообщениями Exchange.
+Вторая команда в примере использует предоставленный объект учетных данных ($x) и SIP-адрес пользователя litwareinc kenmyer, \\ чтобы определить, может ли этот пользователь подключиться к единой системе обмена сообщениями Exchange.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Команда, показанная в следующем примере, является вариантом только что показанной команды. В этом случае параметр OutLoggerVariable включается для создания подробного журнала каждого шага, выполняемого с помощью **Test-CsExUMConnectivity** , кмдлетанд успешное или неуспешное выполнение каждого из этих действий. Для этого параметр OutLoggerVariable добавляется вместе со значением параметра Ексумтекст; Это приводит к тому, что подробные сведения о ведении журнала хранятся в переменной с именем $ExumTest. В завершающей команде в примере метод ToXML () используется для преобразования данных журнала в формат XML. После этого XML-данные записываются в файл с именем C:\\Logs\\, ексумтест. XML, с помощью командлета Out-File.
+Команда, показанная в следующем примере, является вариантом только что показанной команды. В этом случае параметр OutLoggerVariable включается для создания подробного журнала каждого шага, выполняемого с помощью **Test-CsExUMConnectivity** , кмдлетанд успешное или неуспешное выполнение каждого из этих действий. Для этого параметр OutLoggerVariable добавляется вместе со значением параметра Ексумтекст; Это приводит к тому, что подробные сведения о ведении журнала хранятся в переменной с именем $ExumTest. В завершающей команде в примере метод ToXML () используется для преобразования данных журнала в формат XML. После этого XML-данные записываются в файл с именем C: \\ Logs \\ExumTest.xml с помощью командлета Out-File.
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 

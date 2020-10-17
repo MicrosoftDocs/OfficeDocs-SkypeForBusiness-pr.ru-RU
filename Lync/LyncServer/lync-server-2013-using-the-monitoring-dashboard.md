@@ -12,20 +12,22 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 697023ef7c93191cbe13aa0abf4c175240e70ae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91efa1e0431c86fa1918473d01021f68e4dc16b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503746"
 ---
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Использование панели мониторинга в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>Использование панели мониторинга в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
 ## <a name="system-usage-metrics"></a>Показатели использования системы
 
-**Зарегистрировал**
+**Registration**
 
   - Уникальных входов пользователей в систему
 
@@ -75,7 +77,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
   - Среднее количество минут аудиосеанса
 
-**Встречи**
+**Conference**
 
   - Всего конференций
 
@@ -135,7 +137,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
   - Уровень сбоев общего доступа к приложениям
 
-Встречи
+Conference
 
   - Всего сбоев
 
@@ -163,7 +165,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
   - Вызовов ТСОП с плохим качеством
 
-Встречи
+Conference
 
   - Всего вызовов с плохим качеством
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503936"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Тестирование аудио конференц-связи сторонних производителей в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Тестирование аудио конференц-связи сторонних производителей в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-11-01_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -82,7 +84,7 @@ _**Последнее изменение темы:** 2014-11-01_
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-Команды, показанные в примере 2, проверяют возможность определенного пользователя (litwareinc\\kenmyer) для подключения к своему поставщику конференц-связи. Для этого первая команда в примере использует командлет Get – Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Ken Myer. (Так как имя для входа\\litwareinc kenmyer было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Ken Myer.) Полученный объект учетных данных хранится в переменной с именем $credential.
+Команды, показанные в примере 2, проверяют возможность определенного пользователя (litwareinc \\ kenmyer) для подключения к своему поставщику конференц-связи. Для этого первая команда в примере использует командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Ken Myer. (Так как имя для входа litwareinc \\ kenmyer было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Ken Myer.) Полученный объект учетных данных хранится в переменной с именем $credential.
 
 Вторая команда проверяет, может ли пользователь подключиться к своему поставщику услуг аудиоконференций. Для выполнения этой задачи вызывается командлет Test-CsAudioConferencingProvider, а также три параметра: TargetFqdn (полное доменное имя пула регистратора); UserCredential (объект Windows PowerShell, содержащий учетные данные пользователя Ken Myer); и UserSipAddress (SIP-адрес, соответствующий предоставленным учетным данным пользователя).
 
@@ -121,7 +123,7 @@ _**Последнее изменение темы:** 2014-11-01_
 
 не удалось установить подключение, так как у подключенного узла есть
 
-не удалось ответить \[на 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
+не удалось ответить на \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944: \] 5061
 
 Внутреннее исключение: сбой попытки подключения, так как
 
@@ -131,7 +133,7 @@ _**Последнее изменение темы:** 2014-11-01_
 
 не отвечает
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061
 
 Диагност
 

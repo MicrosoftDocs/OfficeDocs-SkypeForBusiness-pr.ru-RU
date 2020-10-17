@@ -12,20 +12,22 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e5217c4214e6e86ca4c1dff62410c247cf7f8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 80af780f0e7e78553cf8796569f668eae0b0e7e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505146"
 ---
+# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Удостоверения, области и клиенты в Skype для бизнеса Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Удостоверения, области и клиенты в Skype для бизнеса Online
+
 
 </div>
 
@@ -89,7 +91,7 @@ _**Последнее изменение темы:** 2015-03-09_
 
 Как видите, Ken Myer может обмениваться данными с поставщиками общедоступной системы обмена мгновенными сообщениями. Это связано с тем, что параметры политики на уровне пользователей, которым назначена эта политика, переопределяют параметры в глобальной политике. Pilar Ackerman не может обмениваться данными с поставщиками общедоступных мгновенных сообщений. Это связано с тем, что она управляется глобальной политикой, а глобальная политика запрещает такое взаимодействие.
 
-Политики для отдельных пользователей должны создаваться службой поддержки Майкрософт. После создания политик их можно назначить пользователям с помощью соответствующего командлета **Grant-CS** (например, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Политики на уровне пользователя легко определить, так как удостоверение политики всегда начинается с **префикса**тега. Пример:
+Политики для отдельных пользователей должны создаваться службой поддержки Майкрософт. После создания политик их можно назначить пользователям с помощью соответствующего командлета **Grant-CS** (например, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Политики на уровне пользователя легко определить, так как удостоверение политики всегда начинается с **префикса**тега. Например:
 
     Identity : tag:AllowPublicIMCommunication
 

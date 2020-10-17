@@ -12,20 +12,22 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c3fcfd33668918eb330b64d816ceca818de27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a33a5e9bb93371bdccac3c88b7a1c080e3efaa8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503686"
 ---
+# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Проверка конфигурации сервера Office Web Apps в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Проверка конфигурации сервера Office Web Apps в Lync Server 2013
+
 
 </div>
 
@@ -45,13 +47,13 @@ _**Последнее изменение темы:** 2014-04-22_
 
 **Сервер веб-конференций сервер Office Web Apps обнаружил успешность.**
 
-**Внутренняя страница выступающего сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Внутренняя страница выступающего сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Страница внутреннего участника сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Страница внутреннего участника сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Внешняя страница докладчика сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Внешняя страница докладчика сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Страница внутреннего участника сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Страница внутреннего участника сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
 Если событие LS Data MCU отображается с идентификатором события 41033, это означает, что произошел сбой обнаружения сервера Office Web Apps Server. В этом случае Microsoft Lync Server 2013 будет пытаться попытаться столько раз, сколько необходимо для обнаружения нового настроенного сервера Office Web Apps. Если происходит многократный сбой процесса обнаружения, следует удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию, а затем снова попробовать добавить сервер Office Web Apps в топологию после устранения неполадок, связанных с подключением.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b68398f14043492db5b4bd23ef7a31a68f06f72
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cee0478dfecd11d90e3c47d0ccf4921e43885e02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503676"
 ---
+# <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="microsoft-lync-server-2013"></a>Microsoft Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2014-03-14_
 
 Программное обеспечение Microsoft Lync Server 2013 Communications предоставляет решения для обмена мгновенными сообщениями, сведения о присутствии, конференц-связи и телефонии, которые могут поддерживать требования к совместной работе на уровне предприятия.
 
-Хотите скачать копию документации по Lync Server 2013? Файл COMPILED Help **LyncServer2013\_ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу. [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)
+Хотите скачать копию документации по Lync Server 2013? Файл COMPILED Help **LyncServer2013 \_ ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103) .
 
 В приведенных ниже таблицах перечислены разделы в библиотеке документации по Lync Server 2013.
 
@@ -295,7 +297,7 @@ _**Последнее изменение темы:** 2014-03-14_
 
 <div>
 
-## <a name="operations"></a>Операции
+## <a name="operations"></a>Operations
 
 
 <table>
