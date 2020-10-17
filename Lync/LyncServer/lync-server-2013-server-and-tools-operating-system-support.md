@@ -12,20 +12,22 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 757091b8f3c8155134fa1cc3e984e28093d49843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 495ac4ba1b09b6a58a146882d54e17a8f3dd70bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510376"
 ---
+# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a><span data-ttu-id="8a74c-102">Поддержка серверов и средств операционной системы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a74c-102">Server and tools operating system support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a><span data-ttu-id="15aad-102">Поддержка серверов и средств операционной системы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15aad-102">Server and tools operating system support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,61 +37,61 @@ ms.locfileid: "42182432"
 
 <span> </span>
 
-<span data-ttu-id="15aad-103">_**Последнее изменение темы:** 2014-12-01_</span><span class="sxs-lookup"><span data-stu-id="15aad-103">_**Topic Last Modified:** 2014-12-01_</span></span>
+<span data-ttu-id="8a74c-103">_**Последнее изменение темы:** 2014-12-01_</span><span class="sxs-lookup"><span data-stu-id="8a74c-103">_**Topic Last Modified:** 2014-12-01_</span></span>
 
-<span data-ttu-id="15aad-104">Lync Server 2013 доступен только в 64-разрядной версии, требующей 64-разрядное оборудование и 64-разрядные выпуски Windows Server.</span><span class="sxs-lookup"><span data-stu-id="15aad-104">Lync Server 2013 is available only in 64-bit, which requires 64-bit hardware and 64-bit editions of Windows Server.</span></span> <span data-ttu-id="15aad-105">Это означает, что все роли сервера и компьютеры, на которых запущены административные средства Lync Server 2013, запускают операционную систему 64 (разрядная версия).</span><span class="sxs-lookup"><span data-stu-id="15aad-105">This means that all server roles and computers running Lync Server 2013 administrative tools run a 64-bit edition operating system.</span></span>
+<span data-ttu-id="8a74c-104">Lync Server 2013 доступен только в 64-разрядной версии, требующей 64-разрядное оборудование и 64-разрядные выпуски Windows Server.</span><span class="sxs-lookup"><span data-stu-id="8a74c-104">Lync Server 2013 is available only in 64-bit, which requires 64-bit hardware and 64-bit editions of Windows Server.</span></span> <span data-ttu-id="8a74c-105">Это означает, что все роли сервера и компьютеры, на которых запущены административные средства Lync Server 2013, запускают операционную систему 64 (разрядная версия).</span><span class="sxs-lookup"><span data-stu-id="8a74c-105">This means that all server roles and computers running Lync Server 2013 administrative tools run a 64-bit edition operating system.</span></span>
 
 <div>
 
-## <a name="operating-systems-for-server-roles"></a><span data-ttu-id="15aad-106">ОС для ролей сервера</span><span class="sxs-lookup"><span data-stu-id="15aad-106">Operating Systems for Server Roles</span></span>
+## <a name="operating-systems-for-server-roles"></a><span data-ttu-id="8a74c-106">ОС для ролей сервера</span><span class="sxs-lookup"><span data-stu-id="8a74c-106">Operating Systems for Server Roles</span></span>
 
-<span data-ttu-id="15aad-107">Lync Server 2013 поддерживает 64 – разрядные выпуски следующих операционных систем для всех ролей серверов в Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="15aad-107">Lync Server 2013 supports the 64-bit editions of the following operating systems for all server roles in Lync Server 2013:</span></span>
+<span data-ttu-id="8a74c-107">Lync Server 2013 поддерживает 64 – разрядные выпуски следующих операционных систем для всех ролей серверов в Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="8a74c-107">Lync Server 2013 supports the 64-bit editions of the following operating systems for all server roles in Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="15aad-108">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) или более поздней версии (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-108">The Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system (required) or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-108">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) или более поздней версии (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-108">The Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system (required) or latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="15aad-109">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) (обязательно) или более поздняя версия пакета обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-109">The Windows Server 2008 R2 with SP1 Enterprise operating system (required) or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-109">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) (обязательно) или более поздняя версия пакета обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-109">The Windows Server 2008 R2 with SP1 Enterprise operating system (required) or latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="15aad-110">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) (обязательно) или более поздней версии (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-110">The Windows Server 2008 R2 with SP1 Datacenter operating system (required) or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-110">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1) (обязательно) или более поздней версии (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-110">The Windows Server 2008 R2 with SP1 Datacenter operating system (required) or latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="15aad-111">Операционная система Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="15aad-111">The Windows Server 2012 Standard operating system</span></span>
+  - <span data-ttu-id="8a74c-111">Операционная система Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="8a74c-111">The Windows Server 2012 Standard operating system</span></span>
 
-  - <span data-ttu-id="15aad-112">Операционная система Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="15aad-112">The Windows Server 2012 Datacenter operating system</span></span>
+  - <span data-ttu-id="8a74c-112">Операционная система Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="8a74c-112">The Windows Server 2012 Datacenter operating system</span></span>
 
-  - <span data-ttu-id="15aad-113">Операционные системы Windows Server 2012 R2 поддерживаются с накопительными пакетами обновления для Lync Server 2013:2013.</span><span class="sxs-lookup"><span data-stu-id="15aad-113">The Windows Server 2012 R2 operating systems are supported with the Cumulative Updates for Lync Server 2013: October 2013.</span></span>
+  - <span data-ttu-id="8a74c-113">Операционные системы Windows Server 2012 R2 поддерживаются с накопительными пакетами обновления для Lync Server 2013:2013.</span><span class="sxs-lookup"><span data-stu-id="8a74c-113">The Windows Server 2012 R2 operating systems are supported with the Cumulative Updates for Lync Server 2013: October 2013.</span></span>
 
-<span data-ttu-id="15aad-114">Lync Server 2013 не поддерживается для следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="15aad-114">Lync Server 2013 is not supported on the following:</span></span>
+<span data-ttu-id="8a74c-114">Lync Server 2013 не поддерживается для следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="8a74c-114">Lync Server 2013 is not supported on the following:</span></span>
 
-  - <span data-ttu-id="15aad-115">Вариант установки основных серверных компонентов Windows Server 2008 R2 или Windows Server 2012.</span><span class="sxs-lookup"><span data-stu-id="15aad-115">The Server Core installation option of Windows Server 2008 R2 or Windows Server 2012</span></span>
+  - <span data-ttu-id="8a74c-115">Вариант установки основных серверных компонентов Windows Server 2008 R2 или Windows Server 2012.</span><span class="sxs-lookup"><span data-stu-id="8a74c-115">The Server Core installation option of Windows Server 2008 R2 or Windows Server 2012</span></span>
 
-  - <span data-ttu-id="15aad-116">В ОС Windows Web Server 2008 R2 или Windows Web Server 2012</span><span class="sxs-lookup"><span data-stu-id="15aad-116">The Windows Web Server 2008 R2 operating system or the Windows Web Server 2012 operating system</span></span>
+  - <span data-ttu-id="8a74c-116">В ОС Windows Web Server 2008 R2 или Windows Web Server 2012</span><span class="sxs-lookup"><span data-stu-id="8a74c-116">The Windows Web Server 2008 R2 operating system or the Windows Web Server 2012 operating system</span></span>
 
-  - <span data-ttu-id="15aad-117">Windows Server 2008 R2 HPC Edition или Windows Server 2012 HPC Edition</span><span class="sxs-lookup"><span data-stu-id="15aad-117">Windows Server 2008 R2 HPC Edition or Windows Server 2012 HPC Edition</span></span>
+  - <span data-ttu-id="8a74c-117">Windows Server 2008 R2 HPC Edition или Windows Server 2012 HPC Edition</span><span class="sxs-lookup"><span data-stu-id="8a74c-117">Windows Server 2008 R2 HPC Edition or Windows Server 2012 HPC Edition</span></span>
 
 </div>
 
 <div>
 
-## <a name="additional-operating-systems-for-administrative-tools"></a><span data-ttu-id="15aad-118">Дополнительные ОС для средств администрирования</span><span class="sxs-lookup"><span data-stu-id="15aad-118">Additional Operating Systems for Administrative Tools</span></span>
+## <a name="additional-operating-systems-for-administrative-tools"></a><span data-ttu-id="8a74c-118">Дополнительные ОС для средств администрирования</span><span class="sxs-lookup"><span data-stu-id="8a74c-118">Additional Operating Systems for Administrative Tools</span></span>
 
-<span data-ttu-id="15aad-119">Lync Server 2013 административные средства устанавливаются по умолчанию на серверах с Lync Server 2013, но вы можете установить средства администрирования отдельно на других компьютерах под управлением операционных систем Windows.</span><span class="sxs-lookup"><span data-stu-id="15aad-119">Lync Server 2013 administrative tools are installed by default on servers running Lync Server 2013, but you can install administrative tools separately on other computers running Windows operating systems.</span></span> <span data-ttu-id="15aad-120">К ним относятся следующие 64-разрядные версии следующих операционных систем, а также 64-разрядные выпуски операционных систем, поддерживаемые для развертывания ролей сервера (как описано в предыдущем разделе).</span><span class="sxs-lookup"><span data-stu-id="15aad-120">These include the following 64-bit versions of the following operating systems, in addition to the 64-bit editions of the operating systems supported for deployment of server roles (as described in the previous section).</span></span>
+<span data-ttu-id="8a74c-119">Lync Server 2013 административные средства устанавливаются по умолчанию на серверах с Lync Server 2013, но вы можете установить средства администрирования отдельно на других компьютерах под управлением операционных систем Windows.</span><span class="sxs-lookup"><span data-stu-id="8a74c-119">Lync Server 2013 administrative tools are installed by default on servers running Lync Server 2013, but you can install administrative tools separately on other computers running Windows operating systems.</span></span> <span data-ttu-id="8a74c-120">К ним относятся следующие 64-разрядные версии следующих операционных систем, а также 64-разрядные выпуски операционных систем, поддерживаемые для развертывания ролей сервера (как описано в предыдущем разделе).</span><span class="sxs-lookup"><span data-stu-id="8a74c-120">These include the following 64-bit versions of the following operating systems, in addition to the 64-bit editions of the operating systems supported for deployment of server roles (as described in the previous section).</span></span>
 
-  - <span data-ttu-id="15aad-121">Операционная система Windows 7 с пакетом обновления 1 (SP1) или последним пакетом обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-121">The Windows 7 operating system with SP1 operating system (required) or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-121">Операционная система Windows 7 с пакетом обновления 1 (SP1) или последним пакетом обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-121">The Windows 7 operating system with SP1 operating system (required) or latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="15aad-122">Операционная система Windows 8 или последний пакет обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-122">The Windows 8 operating system or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-122">Операционная система Windows 8 или последний пакет обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-122">The Windows 8 operating system or latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="15aad-123">Операционная система Windows 8,1 или последний пакет обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="15aad-123">The Windows 8.1 operating system or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="8a74c-123">Операционная система Windows 8,1 или последний пакет обновления (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="8a74c-123">The Windows 8.1 operating system or latest service pack (recommended)</span></span>
 
 </div>
 
 <div>
 
-## <a name="operating-systems-for-other-servers-in-your-deployment"></a><span data-ttu-id="15aad-124">Операционные системы для других серверов в развертывании</span><span class="sxs-lookup"><span data-stu-id="15aad-124">Operating Systems for Other Servers in Your Deployment</span></span>
+## <a name="operating-systems-for-other-servers-in-your-deployment"></a><span data-ttu-id="8a74c-124">Операционные системы для других серверов в развертывании</span><span class="sxs-lookup"><span data-stu-id="8a74c-124">Operating Systems for Other Servers in Your Deployment</span></span>
 
-  - <span data-ttu-id="15aad-125">Сведения о требованиях к внутренним серверам и другим серверам баз данных можно найти [в разделе Поддержка программного обеспечения баз данных в Lync Server 2013](lync-server-2013-database-software-support.md).</span><span class="sxs-lookup"><span data-stu-id="15aad-125">For details about requirements for Back End Servers and other database servers, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md).</span></span>
+  - <span data-ttu-id="8a74c-125">Сведения о требованиях к внутренним серверам и другим серверам баз данных можно найти [в разделе Поддержка программного обеспечения баз данных в Lync Server 2013](lync-server-2013-database-software-support.md).</span><span class="sxs-lookup"><span data-stu-id="8a74c-125">For details about requirements for Back End Servers and other database servers, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md).</span></span>
 
-  - <span data-ttu-id="15aad-126">Дополнительные сведения о требованиях для обратных прокси-серверов (для пограничного развертывания) можно найти [в статье поддержка IIS в Lync Server 2013](lync-server-2013-iis-support.md).</span><span class="sxs-lookup"><span data-stu-id="15aad-126">For details about requirements for reverse proxy servers (for Edge deployment), see [IIS support in Lync Server 2013](lync-server-2013-iis-support.md).</span></span>
+  - <span data-ttu-id="8a74c-126">Дополнительные сведения о требованиях для обратных прокси-серверов (для пограничного развертывания) можно найти [в статье поддержка IIS в Lync Server 2013](lync-server-2013-iis-support.md).</span><span class="sxs-lookup"><span data-stu-id="8a74c-126">For details about requirements for reverse proxy servers (for Edge deployment), see [IIS support in Lync Server 2013](lync-server-2013-iis-support.md).</span></span>
 
-  - <span data-ttu-id="15aad-127">Сведения о других требованиях к программному обеспечению, включая поддержку инфраструктуры и виртуализации, можно найти в других разделах, посвященных [серверному программному обеспечению и инфраструктуре в Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).</span><span class="sxs-lookup"><span data-stu-id="15aad-127">For details about other software requirements, including infrastructure and virtualization support, see the other topics in the [Server software and infrastructure support in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).</span></span>
+  - <span data-ttu-id="8a74c-127">Сведения о других требованиях к программному обеспечению, включая поддержку инфраструктуры и виртуализации, можно найти в других разделах, посвященных [серверному программному обеспечению и инфраструктуре в Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).</span><span class="sxs-lookup"><span data-stu-id="8a74c-127">For details about other software requirements, including infrastructure and virtualization support, see the other topics in the [Server software and infrastructure support in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).</span></span>
 
 </div>
 

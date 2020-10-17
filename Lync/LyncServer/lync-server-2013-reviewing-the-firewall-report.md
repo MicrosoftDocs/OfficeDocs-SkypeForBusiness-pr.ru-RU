@@ -12,20 +12,22 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd9bd46b58b25999932127482b01c91a6b36461f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c8975f63f0596f9f3c0bb149c565879524f5df5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511286"
 ---
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="405f2-102">Просмотр отчета о брандмауэре в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="405f2-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="f44ca-102">Просмотр отчета о брандмауэре в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f44ca-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,20 +37,20 @@ ms.locfileid: "42201275"
 
 <span> </span>
 
-<span data-ttu-id="f44ca-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f44ca-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="405f2-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="405f2-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="f44ca-104">Lync Server 2013 имеет потенциально сложный набор правил брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="f44ca-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="f44ca-105">Средство планирования сокращает эту сложность, создавая отчет, который определяет сведения обо всех требованиях брандмауэра, исходя из критериев ввода в конструкторе.</span><span class="sxs-lookup"><span data-stu-id="f44ca-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="f44ca-106">Администратор брандмауэра ИТ сможет использовать этот отчет для настройки и определения необходимых правил.</span><span class="sxs-lookup"><span data-stu-id="f44ca-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
+<span data-ttu-id="405f2-104">Lync Server 2013 имеет потенциально сложный набор правил брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="405f2-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="405f2-105">Средство планирования сокращает эту сложность, создавая отчет, который определяет сведения обо всех требованиях брандмауэра, исходя из критериев ввода в конструкторе.</span><span class="sxs-lookup"><span data-stu-id="405f2-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="405f2-106">Администратор брандмауэра ИТ сможет использовать этот отчет для настройки и определения необходимых правил.</span><span class="sxs-lookup"><span data-stu-id="405f2-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
 
-<span data-ttu-id="f44ca-107">С точки зрения управления брандмауэром необходимо тщательно проанализировать отчет, чтобы убедиться в отсутствии конфликтов с выходом из правил брандмауэра, а также в отсутствии политик или процедур, которые могут быть нарушены.</span><span class="sxs-lookup"><span data-stu-id="f44ca-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
+<span data-ttu-id="405f2-107">С точки зрения управления брандмауэром необходимо тщательно проанализировать отчет, чтобы убедиться в отсутствии конфликтов с выходом из правил брандмауэра, а также в отсутствии политик или процедур, которые могут быть нарушены.</span><span class="sxs-lookup"><span data-stu-id="405f2-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
 
-<span data-ttu-id="f44ca-108">![Отчет администратора брандмауэра](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет администратора брандмауэра")</span><span class="sxs-lookup"><span data-stu-id="f44ca-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
+<span data-ttu-id="405f2-108">![Отчет администратора брандмауэра](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет администратора брандмауэра")</span><span class="sxs-lookup"><span data-stu-id="405f2-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f44ca-109">См. также</span><span class="sxs-lookup"><span data-stu-id="f44ca-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="405f2-109">См. также</span><span class="sxs-lookup"><span data-stu-id="405f2-109">See Also</span></span>
 
 
-[<span data-ttu-id="f44ca-110">Просмотр отчетов администратора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f44ca-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+[<span data-ttu-id="405f2-110">Просмотр отчетов администратора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="405f2-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>
