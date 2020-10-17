@@ -1,5 +1,6 @@
 ---
 title: 'Этап 8: переход от пилотного развертывания к рабочей среде'
+description: 'Этап 8: переход от пилотного развертывания к рабочей среде.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13b5edff336b73b84183162bec3243a55f8aeb67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 175906d916cf71e3d688a872b175da3f1cd5fcbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532906"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563765"
 ---
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="d35b6-102">Этап 8: переход от пилотного развертывания к рабочей среде</span><span class="sxs-lookup"><span data-stu-id="d35b6-102">Phase 8: Move from pilot deployment into production</span></span>
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a><span data-ttu-id="14382-103">Этап 8: переход от пилотного развертывания к рабочей среде</span><span class="sxs-lookup"><span data-stu-id="14382-103">Phase 8: Move from pilot deployment into production</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48532906"
 
 <span> </span>
 
-<span data-ttu-id="d35b6-103">_**Последнее изменение темы:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="d35b6-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="14382-104">_**Последнее изменение темы:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="14382-104">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="d35b6-104">В подразделах этого раздела описываются задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="d35b6-104">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="14382-105">В подразделах этого раздела описываются задачи, которые необходимо выполнить перед перемещением развертывания Lync Server 2013 из пилотного развертывания в производственное развертывание.</span><span class="sxs-lookup"><span data-stu-id="14382-105">The topics in this section describe tasks you must complete prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d35b6-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="d35b6-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="14382-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="14382-106">In This Section</span></span>
 
-  - [<span data-ttu-id="d35b6-106">Настройка маршрутов федерации и трафика мультимедиа</span><span class="sxs-lookup"><span data-stu-id="d35b6-106">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic_1.md)
+  - [<span data-ttu-id="14382-107">Настройка маршрутов федерации и трафика мультимедиа</span><span class="sxs-lookup"><span data-stu-id="14382-107">Configure federation routes and media traffic</span></span>](configure-federation-routes-and-media-traffic.md)
 
-  - [<span data-ttu-id="d35b6-107">Перемещение оставшихся пользователей на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d35b6-107">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013_1.md)
+  - [<span data-ttu-id="14382-108">Перемещение оставшихся пользователей на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14382-108">Move remaining users to Lync Server 2013</span></span>](move-remaining-users-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="d35b6-108">Настройка шлюза XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d35b6-108">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [<span data-ttu-id="14382-109">Настройка шлюза XMPP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14382-109">Configure XMPP gateway on Lync Server 2013</span></span>](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 

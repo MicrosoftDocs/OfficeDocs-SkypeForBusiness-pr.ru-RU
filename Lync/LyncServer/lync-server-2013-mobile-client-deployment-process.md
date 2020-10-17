@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: процесс развертывания мобильных клиентов'
+description: 'Lync Server 2013: процесс развертывания мобильных клиентов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d08cf2c6be2bef797a892dcc06798307e811bc5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4fa4e9e1d272915e06009df5c06480309ce104e0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505676"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563485"
 ---
-# <a name="mobile-client-deployment-process-in-lync-server-2013"></a><span data-ttu-id="ff78d-102">Процесс развертывания мобильных клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff78d-102">Mobile client deployment process in Lync Server 2013</span></span>
+# <a name="mobile-client-deployment-process-in-lync-server-2013"></a><span data-ttu-id="b19db-103">Процесс развертывания мобильных клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b19db-103">Mobile client deployment process in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48505676"
 
 <span> </span>
 
-<span data-ttu-id="ff78d-103">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="ff78d-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="b19db-104">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="b19db-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="ff78d-104">После завершения развертывания Microsoft Lync Server 2013 пользователи могут установить приложение Lync 2013 из мобильного магазина, с которым они привычны для конкретных устройств.</span><span class="sxs-lookup"><span data-stu-id="ff78d-104">After a deployment of Microsoft Lync Server 2013 has been completed, users can install the Lync 2013 app from the mobile marketplace that they are accustomed to using for their specific device.</span></span>
+<span data-ttu-id="b19db-105">После завершения развертывания Microsoft Lync Server 2013 пользователи могут установить приложение Lync 2013 из мобильного магазина, с которым они привычны для конкретных устройств.</span><span class="sxs-lookup"><span data-stu-id="b19db-105">After a deployment of Microsoft Lync Server 2013 has been completed, users can install the Lync 2013 app from the mobile marketplace that they are accustomed to using for their specific device.</span></span>
 
 <div>
 
-## <a name="lync-mobile-deployment-process"></a><span data-ttu-id="ff78d-105">Процесс развертывания Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="ff78d-105">Lync Mobile Deployment Process</span></span>
+## <a name="lync-mobile-deployment-process"></a><span data-ttu-id="b19db-106">Процесс развертывания Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="b19db-106">Lync Mobile Deployment Process</span></span>
 
 
 <table>
@@ -55,60 +56,60 @@ ms.locfileid: "48505676"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ff78d-106">Этап</span><span class="sxs-lookup"><span data-stu-id="ff78d-106">Phase</span></span></th>
-<th><span data-ttu-id="ff78d-107">Действия</span><span class="sxs-lookup"><span data-stu-id="ff78d-107">Steps</span></span></th>
-<th><span data-ttu-id="ff78d-108">Разрешения</span><span class="sxs-lookup"><span data-stu-id="ff78d-108">Permissions</span></span></th>
-<th><span data-ttu-id="ff78d-109">Документация</span><span class="sxs-lookup"><span data-stu-id="ff78d-109">Documentation</span></span></th>
+<th><span data-ttu-id="b19db-107">Этап</span><span class="sxs-lookup"><span data-stu-id="b19db-107">Phase</span></span></th>
+<th><span data-ttu-id="b19db-108">Действия</span><span class="sxs-lookup"><span data-stu-id="b19db-108">Steps</span></span></th>
+<th><span data-ttu-id="b19db-109">Разрешения</span><span class="sxs-lookup"><span data-stu-id="b19db-109">Permissions</span></span></th>
+<th><span data-ttu-id="b19db-110">Документация</span><span class="sxs-lookup"><span data-stu-id="b19db-110">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ff78d-110">Выполните задачи, выполняемые перед установкой.</span><span class="sxs-lookup"><span data-stu-id="ff78d-110">Perform pre-setup tasks.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-111">Выполните задачи, выполняемые перед установкой.</span><span class="sxs-lookup"><span data-stu-id="b19db-111">Perform pre-setup tasks.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ff78d-111">Проверьте развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ff78d-111">Verify Lync Server 2013 deployment.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-112">Проверьте требования к сертификатам.</span><span class="sxs-lookup"><span data-stu-id="ff78d-112">Verify certificate requirements.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-112">Проверьте развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b19db-112">Verify Lync Server 2013 deployment.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-113">Проверьте требования к сертификатам.</span><span class="sxs-lookup"><span data-stu-id="b19db-113">Verify certificate requirements.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ff78d-113">Администратор</span><span class="sxs-lookup"><span data-stu-id="ff78d-113">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="ff78d-114"><a href="lync-server-2013-planning-for-mobility.md">Планирование мобильных устройств в Lync server 2013</a> в документации по планированию серверов.</span><span class="sxs-lookup"><span data-stu-id="ff78d-114"><a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a> in the server planning documentation.</span></span></p>
-<p><span data-ttu-id="ff78d-115"><a href="lync-server-2013-deploying-mobility.md">Развертывание мобильных устройств в Lync server 2013</a> в документации по развертыванию серверов.</span><span class="sxs-lookup"><span data-stu-id="ff78d-115"><a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a> in the server deployment documentation.</span></span></p>
-<p><span data-ttu-id="ff78d-116"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Требования к инфраструктуре сертификатов для Lync Server 2013</a> в документации по планированию серверов.</span><span class="sxs-lookup"><span data-stu-id="ff78d-116"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</a> in the server planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-114">Администратор</span><span class="sxs-lookup"><span data-stu-id="b19db-114">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="b19db-115"><a href="lync-server-2013-planning-for-mobility.md">Планирование мобильных устройств в Lync server 2013</a> в документации по планированию серверов.</span><span class="sxs-lookup"><span data-stu-id="b19db-115"><a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a> in the server planning documentation.</span></span></p>
+<p><span data-ttu-id="b19db-116"><a href="lync-server-2013-deploying-mobility.md">Развертывание мобильных устройств в Lync server 2013</a> в документации по развертыванию серверов.</span><span class="sxs-lookup"><span data-stu-id="b19db-116"><a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a> in the server deployment documentation.</span></span></p>
+<p><span data-ttu-id="b19db-117"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Требования к инфраструктуре сертификатов для Lync Server 2013</a> в документации по планированию серверов.</span><span class="sxs-lookup"><span data-stu-id="b19db-117"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</a> in the server planning documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff78d-117">Установите приложение Lync на тестовом устройстве.</span><span class="sxs-lookup"><span data-stu-id="ff78d-117">Install the Lync application on a test device.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-118">Установите приложение Lync на тестовом устройстве.</span><span class="sxs-lookup"><span data-stu-id="b19db-118">Install the Lync application on a test device.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ff78d-118">Установите необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="ff78d-118">Install prerequisites.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-119">Установка из магазина, относящегося к мобильному устройству.</span><span class="sxs-lookup"><span data-stu-id="ff78d-119">Install from the marketplace specific to the mobile device.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-119">Установите необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="b19db-119">Install prerequisites.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-120">Установка из магазина, относящегося к мобильному устройству.</span><span class="sxs-lookup"><span data-stu-id="b19db-120">Install from the marketplace specific to the mobile device.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ff78d-120">Администратор</span><span class="sxs-lookup"><span data-stu-id="ff78d-120">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="ff78d-121">Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ff78d-121">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-121">Администратор</span><span class="sxs-lookup"><span data-stu-id="b19db-121">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="b19db-122">Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b19db-122">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff78d-122">Настройте клиент.</span><span class="sxs-lookup"><span data-stu-id="ff78d-122">Configure the client.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-123">Настройте клиент.</span><span class="sxs-lookup"><span data-stu-id="b19db-123">Configure the client.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="ff78d-123">Настройка параметров входа и сведений о сервере.</span><span class="sxs-lookup"><span data-stu-id="ff78d-123">Configure sign-in settings and server information.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-124">Настройка параметров входа и сведений о сервере.</span><span class="sxs-lookup"><span data-stu-id="b19db-124">Configure sign-in settings and server information.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="ff78d-124">Администратор</span><span class="sxs-lookup"><span data-stu-id="ff78d-124">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="ff78d-125"><a href="lync-server-2013-deploying-mobile-clients.md">Развертывание мобильных клиентов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="ff78d-125"><a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b19db-125">Администратор</span><span class="sxs-lookup"><span data-stu-id="b19db-125">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="b19db-126"><a href="lync-server-2013-deploying-mobile-clients.md">Развертывание мобильных клиентов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b19db-126"><a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ff78d-126">Протестируйте сценарии для мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="ff78d-126">Test mobile scenarios.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-127">Протестируйте сценарии для мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="b19db-127">Test mobile scenarios.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ff78d-127">Протестируйте обмен мгновенными сообщениями и сведения о присутствии.</span><span class="sxs-lookup"><span data-stu-id="ff78d-127">Test instant messaging (IM) and presence.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-128">Проверка конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="ff78d-128">Test dial-out conferencing.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-129">Поиск контакта в корпоративном каталоге.</span><span class="sxs-lookup"><span data-stu-id="ff78d-129">Search for a contact in the corporate directory.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-130">Протестируйте push-уведомления.</span><span class="sxs-lookup"><span data-stu-id="ff78d-130">Test push notifications.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-128">Протестируйте обмен мгновенными сообщениями и сведения о присутствии.</span><span class="sxs-lookup"><span data-stu-id="b19db-128">Test instant messaging (IM) and presence.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-129">Проверка конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="b19db-129">Test dial-out conferencing.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-130">Поиск контакта в корпоративном каталоге.</span><span class="sxs-lookup"><span data-stu-id="b19db-130">Search for a contact in the corporate directory.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-131">Протестируйте push-уведомления.</span><span class="sxs-lookup"><span data-stu-id="b19db-131">Test push notifications.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ff78d-131">Администратор</span><span class="sxs-lookup"><span data-stu-id="ff78d-131">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="ff78d-132">Инструкции по проверке, характерные для мобильного устройства при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ff78d-132">Verification instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-132">Администратор</span><span class="sxs-lookup"><span data-stu-id="b19db-132">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="b19db-133">Инструкции по проверке, характерные для мобильного устройства при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b19db-133">Verification instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ff78d-133">Установите приложение Lync на мобильных телефонах.</span><span class="sxs-lookup"><span data-stu-id="ff78d-133">Install the Lync application on mobile phones.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-134">Установите приложение Lync на мобильных телефонах.</span><span class="sxs-lookup"><span data-stu-id="b19db-134">Install the Lync application on mobile phones.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="ff78d-134">Установите необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="ff78d-134">Install prerequisites.</span></span></p></li>
-<li><p><span data-ttu-id="ff78d-135">Установка из магазина, относящегося к мобильному устройству.</span><span class="sxs-lookup"><span data-stu-id="ff78d-135">Install from the marketplace specific to the mobile device.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-135">Установите необходимые компоненты.</span><span class="sxs-lookup"><span data-stu-id="b19db-135">Install prerequisites.</span></span></p></li>
+<li><p><span data-ttu-id="b19db-136">Установка из магазина, относящегося к мобильному устройству.</span><span class="sxs-lookup"><span data-stu-id="b19db-136">Install from the marketplace specific to the mobile device.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="ff78d-136">Пользователь</span><span class="sxs-lookup"><span data-stu-id="ff78d-136">User</span></span></p></td>
-<td><p><span data-ttu-id="ff78d-137">Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="ff78d-137">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="b19db-137">Пользователь</span><span class="sxs-lookup"><span data-stu-id="b19db-137">User</span></span></p></td>
+<td><p><span data-ttu-id="b19db-138">Инструкции по установке, относящиеся к мобильному устройству при <a href="lync-server-2013-deploying-mobile-clients.md">развертывании мобильных клиентов в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="b19db-138">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

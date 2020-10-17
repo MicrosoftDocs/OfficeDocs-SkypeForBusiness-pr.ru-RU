@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка типов IP-адресов'
+description: 'Lync Server 2013: Настройка типов IP-адресов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8846d829965c5ad5920b29f912767350e703a2a4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9a5f39c8b053052550da7f996ddf0a201d92bee5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507646"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564375"
 ---
-# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="75aec-102">Настройка типов IP-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75aec-102">Configure IP address types in Lync Server 2013</span></span>
+# <a name="configure-ip-address-types-in-lync-server-2013"></a><span data-ttu-id="52eb4-103">Настройка типов IP-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52eb4-103">Configure IP address types in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48507646"
 
 <span> </span>
 
-<span data-ttu-id="75aec-103">_**Последнее изменение темы:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="75aec-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="52eb4-104">_**Последнее изменение темы:** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="52eb4-104">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="75aec-104">Вы развертываете типы IP-адресов с помощью параметров топологии, которые вы настроили в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="75aec-104">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="75aec-105">В этом разделе описывается, как развертывать типы IP-адресов на серверах переднего плана, серверах-посредниках и пограничных серверах.</span><span class="sxs-lookup"><span data-stu-id="75aec-105">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
+<span data-ttu-id="52eb4-105">Вы развертываете типы IP-адресов с помощью параметров топологии, которые вы настроили в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="52eb4-105">You deploy IP address types by using topology settings that you configure in Topology Builder.</span></span> <span data-ttu-id="52eb4-106">В этом разделе описывается, как развертывать типы IP-адресов на серверах переднего плана, серверах-посредниках и пограничных серверах.</span><span class="sxs-lookup"><span data-stu-id="52eb4-106">This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="75aec-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="75aec-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="52eb4-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="52eb4-107">In This Section</span></span>
 
-  - [<span data-ttu-id="75aec-107">Развертывание типов IP-адресов на сервере переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75aec-107">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [<span data-ttu-id="52eb4-108">Развертывание типов IP-адресов на сервере переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52eb4-108">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [<span data-ttu-id="75aec-108">Развертывание типов IP-адресов на сервере-посреднике для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75aec-108">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [<span data-ttu-id="52eb4-109">Развертывание типов IP-адресов на сервере-посреднике для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52eb4-109">Deploy IP address types on a Mediation Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [<span data-ttu-id="75aec-109">Развертывание типов IP-адресов на пограничном сервере для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75aec-109">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [<span data-ttu-id="52eb4-110">Развертывание типов IP-адресов на пограничном сервере для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52eb4-110">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 
