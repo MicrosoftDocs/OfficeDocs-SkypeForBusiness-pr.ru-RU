@@ -12,20 +12,22 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0a917364c31da4a944f41da586b53bc6a59b6ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 826f732f25996a9f8fcbd708f7e76157a5753a01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512776"
 ---
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Настройка политик начальной загрузки клиентов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Настройка политик начальной загрузки клиентов в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203155"
 
 _**Последнее изменение темы:** 2013-02-21_
 
-Консоль управления групповыми политиками и редактор объектов групповой политики являются инструментами, которые используются для управления групповой политикой. В административный шаблон групповой политики Office включены административные шаблоны Lync 2013. ADMX (ADMX) и. ADML (ADML), которые содержат параметры политики на основе реестра, которые вы настроили для объектов групповой политики в домене. ADML-файлы являются дополнениями ADMX-файлов для определенных языков. Каждый ADMX-файл или ADML-файл содержит параметры политики для одного приложения Office. Дополнительные сведения можно найти в статье "файлы административных шаблонов Office 2013 (ADMX, ADML)" в документации по Office 2013 <https://go.microsoft.com/fwlink/p/?linkid=267516>по адресу.
+Консоль управления групповыми политиками и редактор объектов групповой политики являются инструментами, которые используются для управления групповой политикой. В административный шаблон групповой политики Office включены административные шаблоны Lync 2013. ADMX (ADMX) и. ADML (ADML), которые содержат параметры политики на основе реестра, которые вы настроили для объектов групповой политики в домене. ADML-файлы являются дополнениями ADMX-файлов для определенных языков. Каждый ADMX-файл или ADML-файл содержит параметры политики для одного приложения Office. Дополнительные сведения можно найти в статье "файлы административных шаблонов Office 2013 (ADMX, ADML)" в документации по Office 2013 по адресу <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 Для Lync 2013 существует несколько политик начальной загрузки клиентов, которые необходимо настроить перед первым входом пользователей на сервер. Например, можно настроить серверы по умолчанию и режим безопасности, который должен использоваться клиентом до завершения процесса входа. С помощью групповых политик можно установить эти параметры в реестрах компьютеров пользователей до того, как они войдут и начнут получать от сервера параметры подготовки штатного канала. В следующей таблице перечислены параметры групповой политики, доступные для Lync 2013.
 
@@ -160,14 +162,14 @@ TrustModelData</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
-<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>SP4</p></td>
+<td><p>4 </p></td>
 <td><p>Диалоговое окно Lync — параметры в Lync 2013</p></td>
 </tr>
 </tbody>

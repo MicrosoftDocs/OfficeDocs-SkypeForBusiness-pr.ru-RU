@@ -12,20 +12,22 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a72bfcf9facfeaa3ca943275d9cdcb3b1ac7705
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183382"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512046"
 ---
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Повторная активация сервера после закрытия портов в IIS мастером настройки безопасности
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Повторная активация сервера после закрытия портов в IIS мастером настройки безопасности
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183382"
 
 _**Последнее изменение темы:** 2012-10-01_
 
-Некоторые роли Lync Server 2013 выполняют веб-службы на порте служб IIS 4443. При запуске мастера развертывания Lync Server, загрузчика. exe или с помощью командлета **Enable – CsComputer** создается исключение в брандмауэре и открывается порт. Если затем запустить мастер настройки безопасности Windows Server 2008 R2 (или другие сценарии усиления защиты), порт 4443 будет заблокирован, а внешние клиенты не смогут обращаться к веб-службам. Чтобы повторно открыть порт, можно напрямую изменить исключение брандмауэра или повторно активировать сервер.
+Некоторые роли Lync Server 2013 выполняют веб-службы на порте служб IIS 4443. При запуске мастера развертывания Lync Server, Bootstrapper.exe или с помощью командлета **Enable – CsComputer** создается исключение в брандмауэре и открывается порт. Если затем запустить мастер настройки безопасности Windows Server 2008 R2 (или другие сценарии усиления защиты), порт 4443 будет заблокирован, а внешние клиенты не смогут обращаться к веб-службам. Чтобы повторно открыть порт, можно напрямую изменить исключение брандмауэра или повторно активировать сервер.
 
 <div>
 

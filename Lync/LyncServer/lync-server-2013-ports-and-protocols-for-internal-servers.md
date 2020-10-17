@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513406"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Порты и протоколы для внутренних серверов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Порты и протоколы для внутренних серверов в Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2016-04-06_
 <th>Имя службы</th>
 <th>Порт</th>
 <th>Протокол</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -96,21 +98,21 @@ _**Последнее изменение темы:** 2016-04-06_
 </tr>
 <tr class="even">
 <td><p>Серверы переднего плана</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>При необходимости используется для статических маршрутов к доверенным службам серверами Standard Edition и серверами переднего плана, например серверами удаленного управления звонками.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Серверы переднего плана</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Используется серверами Standard Edition и серверами переднего плана для всех внутренних SIP-соединений между серверами (MTLS), для SIP-соединений между сервером и клиентом (TLS) и для SIP-соединений между серверами переднего плана и серверами-посредниками (MTLS). Также используется для соединений с сервером мониторинга.</p></td>
 </tr>
 <tr class="even">
 <td><p>Серверы переднего плана</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ _**Последнее изменение темы:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>Серверы переднего плана</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>135</p></td>
 <td><p>DCOM и удаленный вызов процедур (RPC)</p></td>
 <td><p>Используется для операций на базе DCOM, таких как перемещение пользователей, синхронизация репликаторов пользовательских данных и адресных книг.</p></td>
@@ -371,14 +373,14 @@ _**Последнее изменение темы:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>Директор</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>При необходимости используется для статических маршрутов к доверенным службам, таким как серверы удаленного управления звонками.</p></td>
 </tr>
 <tr class="even">
 <td><p>Директор</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ _**Последнее изменение темы:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>Директор</p></td>
-<td><p>Интерфейсная служба Lync Server</p></td>
+<td><p>Служба Front-End Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Используется для внутренних подключений между серверами и для клиентских подключений.</p></td>
@@ -480,7 +482,7 @@ _**Последнее изменение темы:** 2016-04-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Подсистема балансировки нагрузки</th>
+<th>Балансировщик нагрузки</th>
 <th>Порт</th>
 <th>Протокол</th>
 </tr>
@@ -602,7 +604,7 @@ _**Последнее изменение темы:** 2016-04-06_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Подсистема балансировки нагрузки</th>
+<th>Балансировщик нагрузки</th>
 <th>Порт</th>
 <th>Протокол</th>
 </tr>
@@ -661,7 +663,7 @@ _**Последнее изменение темы:** 2016-04-06_
 <th>Компонент</th>
 <th>Порт</th>
 <th>Протокол</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>

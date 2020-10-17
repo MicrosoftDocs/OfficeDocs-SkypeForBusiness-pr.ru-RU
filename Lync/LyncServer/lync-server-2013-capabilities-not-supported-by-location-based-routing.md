@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: возможности, не поддерживаемые маршрутизацией на основе расположения'
+title: 'Lync Server 2013: возможности, не поддерживаемые службой маршрутизации Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 321a48efd056f1f544a02d56e47d44da23951fb9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 40a7d32c0448abfe3552fdfe657b9c6bec960a08
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198482"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512866"
 ---
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Возможности, не поддерживаемые службой маршрутизации Location-Based в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Возможности, не поддерживаемые маршрутизацией на основе расположения в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198482"
 
 _**Последнее изменение темы:** 2014-03-12_
 
-Маршрутизация на основе расположения не относится к следующим типам взаимодействий. Маршрутизация на основе расположения не применяется, когда конечные точки Lync взаимодействуют с конечными точками PSTN, используя эти возможности.
+Маршрутизация Location-Based не относится к следующим типам взаимодействий. Маршрутизация Location-Based не применяется, когда конечные точки Lync взаимодействуют с конечными точками PSTN, используя эти возможности.
 
   - Подключаться к конференциям с поддержкой PSTN
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2014-03-12_
 
   - Входящие звонки PSTN, полученные с помощью групповой отправки звонков
 
-Для принудительного применения правил маршрутизации на основе расположения к типам взаимодействий, приведенным в следующем списке, необходимо включить маршрутизацию на основе расположения для конференц-связи:
+Для применения правил маршрутизации Location-Based к типам взаимодействия, приведенным в следующем списке, необходимо включить маршрутизацию Location-Based для конференц-связи:
 
   - Исходящие звонки PSTN из конференций
 
@@ -57,14 +59,14 @@ _**Последнее изменение темы:** 2014-03-12_
 
   - Консультативного передачи с использованием конечных точек PSTN
 
-Чтобы включить маршрутизацию на основе расположения для конференц-связи, ознакомьтесь со статьей [Маршрутизация на основе расположения для конференций в Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
+Чтобы включить Location-Basedную маршрутизацию для конференц-связи, ознакомьтесь со статьей [Маршрутизация на основе расположения для конференций в Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Планирование маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Планирование маршрутизации Location-Based в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

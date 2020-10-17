@@ -12,20 +12,22 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b1737bddb680f597b8009c59dff9e772a7719df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bfb2316de9ea09db49ac22e0cf0addd0a699739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215315"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513246"
 ---
+# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Предотвращение сеансов для служб в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Предотвращение сеансов для служб в Lync Server 2013
+
 
 </div>
 
@@ -47,11 +49,11 @@ _**Последнее изменение темы:** 2012-11-01_
 
 2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).
+3.  В левой панели навигации щелкните **Топология**, а затем щелкните **Состояние**.
 
 4.  На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.
 
-5.  Щелкните элемент **Action** (Действие).
+5.  Щелкните **Действие**.
 
 6.  Щелкните **Запретить новые сеансы для всех служб**.
 

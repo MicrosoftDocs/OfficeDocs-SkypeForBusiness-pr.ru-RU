@@ -12,20 +12,22 @@ ms:contentKeyID: 48184675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fe4be9f75e6e66d7b7b90e422ccd3ee6f5d2725
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72c025c15841e55462a5bab4f269e2fc4ed5f49a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511796"
 ---
+# <a name="reset-the-global-policy-for-external-user-access-in-lync-server-2013"></a>Сброс глобальной политики для доступа внешних пользователей в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-the-global-policy-for-external-user-access-in-lync-server-2013"></a>Сброс глобальной политики для доступа внешних пользователей в Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Последнее изменение темы:** 2013-02-22_
 
 ## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>Сброс глобальной политики внешнего доступа с помощью командлетов Windows PowerShell
 
-Глобальную политику внешнего доступа можно сбросить с помощью Windows PowerShell и командлета Remove – CsExternalAccessPolicy. Этот командлет можно запустить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Глобальную политику внешнего доступа можно сбросить с помощью Windows PowerShell и командлета Remove-CsExternalAccessPolicy. Этот командлет можно запустить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

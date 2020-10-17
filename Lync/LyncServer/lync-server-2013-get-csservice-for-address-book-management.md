@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get – CsService для управления адресной книгой'
+title: 'Lync Server 2013: Get-CsService для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a9e8be425a86eef0d548493e1466888d3d8728c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43c2c6ada55c1bc7db6c8593ee14028b986a2b78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512626"
 ---
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService для управления адресной книгой в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get – CsService для управления адресной книгой в Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры. Если указать полное доменное имя пула и параметр WebServer, командлет возвращает веб-службы, предлагаемые сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
+Get-CsService полезен для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры. Если указать полное доменное имя пула и параметр WebServer, командлет возвращает веб-службы, предлагаемые сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
 
 Например:
 
@@ -79,51 +81,51 @@ UserServer: UserServer:pool01. contoso. NET
 
 Аппшарингпорткаунт: 16383
 
-Лисервицеинтерналури:https://internalweb.contoso.net/locationinformation/liservice.svc
+Лисервицеинтерналури: https://internalweb.contoso.net/locationinformation/liservice.svc
 
-Абхандлеринтерналури:https://internalweb.contoso.net/abs/handler
+Абхандлеринтерналури: https://internalweb.contoso.net/abs/handler
 
-Абхандлерекстерналури:https://csweb.contoso.com/abs/handler
+Абхандлерекстерналури: https://csweb.contoso.com/abs/handler
 
-Длекспансионинтерналури:https://internalweb.contoso.net/groupexpansion/service.svc
+Длекспансионинтерналури: https://internalweb.contoso.net/groupexpansion/service.svc
 
-Длекспансионекстерналури:https://csweb.contoso.com/groupexpansion/service.svc
+Длекспансионекстерналури: https://csweb.contoso.com/groupexpansion/service.svc
 
-Кахандлеринтерналури:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+Кахандлеринтерналури: https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-Кахандлеринтерналанонури:http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+Кахандлеринтерналанонури: http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-Коллабконтентинтерналури:https://internalweb.contoso.net/CollabContent
+Коллабконтентинтерналури: https://internalweb.contoso.net/CollabContent
 
-Коллабконтентекстерналури:https://csweb.contoso.com/CollabContent
+Коллабконтентекстерналури: https://csweb.contoso.com/CollabContent
 
-Кахандлерекстерналури:https://csweb.contoso.com/CertProv/CertProvisioningService.svc
+Кахандлерекстерналури: https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
-Девицеупдатедовнлоадинтерналури:https://internalweb.contoso.net/RequestHandler/ucdevice.upx
+Девицеупдатедовнлоадинтерналури: https://internalweb.contoso.net/RequestHandler/ucdevice.upx
 
-Девицеупдатедовнлоадекстерналури:https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
+Девицеупдатедовнлоадекстерналури: https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
 
-Девицеупдатестореинтерналури:http://internalweb.contoso.net/RequestHandler/Files
+Девицеупдатестореинтерналури: http://internalweb.contoso.net/RequestHandler/Files
 
-Девицеупдатесторикстерналури:https://csweb.contoso.com/RequestHandlerExt/Files
+Девицеупдатесторикстерналури: https://csweb.contoso.com/RequestHandlerExt/Files
 
-Ргсажентсервицеинтерналури:https://internalweb.contoso.net/RgsClients/AgentService.svc
+Ргсажентсервицеинтерналури: https://internalweb.contoso.net/RgsClients/AgentService.svc
 
-Ргсажентсервицеекстерналури:https://csweb.contoso.com/RgsClients/AgentService.svc
+Ргсажентсервицеекстерналури: https://csweb.contoso.com/RgsClients/AgentService.svc
 
-Митекстерналури:https://csweb.contoso.com/Meet
+Митекстерналури: https://csweb.contoso.com/Meet
 
-Диалинекстерналури:https://csweb.contoso.com/Dialin
+Диалинекстерналури: https://csweb.contoso.com/Dialin
 
-Кскпинтерналури:https://internalweb.contoso.net/Cscp
+Кскпинтерналури: https://internalweb.contoso.net/Cscp
 
-Реачекстерналури:https://csweb.contoso.com/Reach
+Реачекстерналури: https://csweb.contoso.com/Reach
 
-Реачинтерналури:https://internalweb.contoso.net/Reach
+Реачинтерналури: https://internalweb.contoso.net/Reach
 
-Вебтиккетекстерналури:https://csweb.contoso.com/WebTicket/WebTicketService.svc
+Вебтиккетекстерналури: https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
-Вебтиккетинтерналури:https://internalweb.contoso.net/WebTicket/WebTicketService.svc
+Вебтиккетинтерналури: https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
 Екстерналфкдн: csweb.contoso.com
 
