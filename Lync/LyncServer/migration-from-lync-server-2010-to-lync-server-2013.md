@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189992"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527306"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Миграция с Lync Server 2010 на Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Миграция с Lync Server 2010 на Lync Server 2013
+
 
 </div>
 
@@ -87,11 +89,11 @@ _**Последнее изменение темы:** 2012-09-17_
 
   - [Этап 5: Добавление пограничного сервера Lync Server 2013 в пилотный пул](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Этап 6: переход от пилотного развертывания к рабочей среде](phase-6-move-from-pilot-deployment-into-production.md)
+  - [Этап 6: переход от пилотного развертывания к рабочей версии](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [Этап 7: выполнение задач, выполняемых после миграции](phase-7-complete-post-migration-tasks.md)
+  - [Этап 7: необходимые действия после миграции](phase-7-complete-post-migration-tasks.md)
 
-  - [Этап 8: списание устаревших пулов](phase-8-decommission-legacy-pools.md)
+  - [Этап 8: ликвидация старых пулов](phase-8-decommission-legacy-pools.md)
 
 </div>
 

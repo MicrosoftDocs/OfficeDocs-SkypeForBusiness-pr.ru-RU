@@ -1,6 +1,6 @@
 ---
 title: Классификация потоков на панели мониторинга качества звонков (CQD)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: В этой статье рассказывается о том, как можно классифицировать качество потока на панели мониторинга качества звонков (CQD) для Microsoft Teams и Skype для бизнеса Online.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526356"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Классификация потоков на панели мониторинга качества звонков (CQD)
 
@@ -50,7 +50,7 @@ ms.locfileid: "46583828"
 
 ### <a name="video-classifier-due-to-freeze"></a>Классификатор видео из-за закрепления
 
-Видеопоток помечается как _хорошее_ или _низкое_ , основываясь на значении оцененной оценки классификатора, чтобы оценить, что конечный пользователь мог заморозить видео. Этот классификатор доступен только для продуктов Microsoft Teams.
+Видеопоток помечается как  _хорошее_ или _низкое_ , основываясь на значении оцененной оценки классификатора, чтобы оценить, что конечный пользователь мог заморозить видео. Этот классификатор доступен только для продуктов Microsoft Teams.
 
 |Этап #|Показатель|Сценарий|Условие |Классификация, если условие верно |Классификация, если условие ложно |Классификация, если метрика недоступна |Пояснение |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

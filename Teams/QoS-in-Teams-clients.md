@@ -8,7 +8,6 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Сведения о том, как использовать качество обслуживания (QoS) для оптимизации сетевого трафика для настольного клиента Microsoft Teams.
-ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77f1754277cfeacd31de28dcee089a8f97991c87
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: bc352303cf63ea966927aece0aef36854a0ace1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583688"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526406"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Реализация качества обслуживания (QoS) в клиентах Microsoft Teams
 
@@ -37,7 +39,7 @@ ms.locfileid: "46583688"
 |Приложение / Разделение экрана| 50,040–50,059|TCP/UDP|18|Гарантированная пересылка (AF21)|
 | | | | | |
 
-Везде, где это возможно, настройте параметры качества обслуживания, основанные на политике, в объекте групповой политики. Описанные ниже действия очень похожи на [настройку диапазонов портов и политики качества обслуживания для клиентов в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), у которых есть некоторые дополнительные сведения, которые могут быть необязательными.
+Везде, где это возможно, настройте параметры качества обслуживания, основанные на политике, в объекте групповой политики. Описанные ниже действия очень похожи на  [настройку диапазонов портов и политики качества обслуживания для клиентов в Skype для бизнеса Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), у которых есть некоторые дополнительные сведения, которые могут быть необязательными.
 
 Чтобы создать политику качества звука QoS для домена на компьютерах с Windows 10, сначала войдите на компьютер, на котором установлен компонент управления групповыми политиками. Откройте средство управления групповыми политиками (нажмите кнопку Пуск, выберите пункт Администрирование, а затем — Управление групповыми политиками), а затем выполните указанные ниже действия.
 
@@ -120,6 +122,6 @@ ms.locfileid: "46583688"
 1. Убедитесь в том, что значение для записи имени приложения правильно для нужного клиента, и убедитесь, что в объекте групповой политики отражены значения DSCP и Local Port.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Реализация качества обслуживания (QoS) в Teams](QoS-in-Teams.md)

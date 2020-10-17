@@ -12,20 +12,22 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9641170534c4c4ad1ef4976d018699d01d6069a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a2adc9d0ca10382aa7faa7abf6f9ea46eb6cf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186992"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525816"
 ---
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Создание или изменение правила преобразования с помощью средства "Построение правила преобразования" в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Создание или изменение правила преобразования с помощью средства "Построение правила преобразования" в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-10-05_
     
     Значения, вводимые в этих полях, отражаются в полях **Pattern to match** (Шаблон для поиска соответствия) и **Translation rule** (Правило преобразования). Например, если вы ввели значения, показанные в предыдущем примере, в поле **Pattern to match** (Шаблон для поиска соответствия) будет добавлено следующее регулярное выражение:
     
-    **^\\+ (\\d{9}\\d) $**
+    **^\\+ ( \\ d {9} \\ d) $**
     
     Поле **Translation rule** (Правило преобразования) задает шаблон для формата преобразованных номеров. Этот шаблон состоит из 2 частей:
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526216"
 ---
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Проверка правил нормализации голосовой связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Проверка правил нормализации голосовой связи в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Monthly Channel</p></td>
+<td><p>Monthly</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -78,13 +80,13 @@ _**Последнее изменение темы:** 2014-05-20_
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Для запуска командлета Test-CsVoiceNormalizationRule сначала необходимо использовать командлет Get-CsVoiceNormalizationRule для извлечения экземпляра тестируемого правила, а затем передать этот экземпляр в Test-CsVoiceNormalizationRule. Синтаксис, похожий на этот, не работает:
+Для запуска командлета Test-CsVoiceNormalizationRule сначала необходимо использовать командлет Get-CsVoiceNormalizationRule, чтобы получить экземпляр тестируемого правила, а затем передать его в Test-CsVoiceNormalizationRule. Синтаксис, похожий на этот, не работает:
 
 Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "Global/prefix ALL"
 
-Вместо этого используйте синтаксис, аналогичный приведенному ниже, который сочетает командлеты Get-CsVoiceNormalizationRule и Test-CsVoiceNormalizationRule:
+Вместо этого используйте синтаксис, аналогичный приведенному ниже, который объединяет командлеты Get-CsVoiceNormalizationRule и Test-CsVoiceNormalizationRule:
 
-Get-CsVoiceNormalizationRule-Identity "Global/prefix ALL" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
+Get-CsVoiceNormalizationRule-Identity "Global/prefix ALL" | Test-CsVoiceNormalizationRule DialedNumber "12065551219"
 
 <div>
 
@@ -106,7 +108,7 @@ Get-CsVoiceNormalizationRule-Identity "Global/prefix ALL" | Test-CsVoiceNormaliz
 
 Если правило настроено правильно, оно автоматически добавляет код страны при преобразовании номера в формат E. 164, используемый Lync Server.
 
-Дополнительные сведения можно найти в справочной документации по командлету Test-CsVoiceNormalizationRule.
+Для получения дополнительных сведений обратитесь к справочной документации по командлету Test-CsVoiceNormalizationRule.
 
 </div>
 

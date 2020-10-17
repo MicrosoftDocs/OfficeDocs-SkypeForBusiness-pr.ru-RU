@@ -12,20 +12,22 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525956"
 ---
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Настройка Федерации Lync Server 2013 с помощью Lync Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Настройка Федерации Lync Server 2013 с помощью Lync Online
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2016-08-15_
 
 SIP-адрес это уникальный идентификатор каждого пользователя в сети, аналогичный номеру телефона или адресу электронной почты. Прежде чем попытаться переместить пользователей Lync из локальной среды в Skype для бизнеса Online, необходимо настроить организацию Microsoft 365 или Office 365 для совместного использования пространства адресов SIP с локальным развертыванием. Если этот параметр не настроен, может появиться следующее сообщение об ошибке:
 
-Move-CsUser: Хостедмигратион Fault: ошибка = (510), Description = (клиент этого пользователя не включен для общего адресного пространства SIP.)
+Move-CsUser: ошибка Хостедмигратион: ошибка = (510), Description = (клиент этого пользователя не включен для общего адресного пространства SIP.)
 
 Чтобы настроить общее адресное пространство SIP, установите удаленный сеанс PowerShell с помощью Skype для бизнеса Online, а затем выполните следующий командлет:
 ```powershell

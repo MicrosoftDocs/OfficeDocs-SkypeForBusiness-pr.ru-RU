@@ -12,20 +12,22 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 415cdcd247e815e83d31bd2339363929a5ded04c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8de7d29638a7d4a4ef8e480f85c0a310272f2863
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526696"
 ---
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Импорт тестовых примеров маршрутизации голосовой связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Импорт тестовых примеров маршрутизации голосовой связи в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196702"
 
 _**Последнее изменение темы:** 2013-02-21_
 
-Тестовые случаи предоставляют способ тестирования маршрутов голосовых вызовов в Организации: вы определяете, как набираемый номер, и используемая абонентская политика и политика голосовой связи, а Lync Server 2013 может проверить, что при условии, что предоставленный номер может сукцес сфулли направляется в сеть PSTN.
+Тестовые случаи предоставляют способ тестирования маршрутов голосовых вызовов в Организации: вы определяете, как набираемый номер, и используемая абонентская политика и голосовая политика, а Lync Server 2013 может проверить, что при наличии этих условий предоставленный номер может успешно маршрутизироваться в сеть PSTN.
 
 Тестовые случаи, которые можно создать с помощью панели управления Lync Server, обычно сохраняются только на том сервере, где было создано и запущено обращение. Однако эти тестовые случаи могут экспортироваться в виде XML-файлов (с расширением VTEST), а затем импортироваться на другие серверы. Это позволяет запускать одни и те же тесты на различных компьютерах, расположенных в различных точках топологии.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf9d53d8702fbd9e63ec05af2c4942538f7298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526236"
 ---
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Проверка конфигурации магистрали по номеру телефона в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Проверка конфигурации магистрали по номеру телефона в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Monthly Channel</p></td>
+<td><p>Monthly</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -74,7 +76,7 @@ _**Последнее изменение темы:** 2014-05-20_
 
   - Пограничный контроллер сеансов (SBC).
 
-Командлет Test-CsTrunkConfiguration проверяет, может ли телефонный номер (набираемый пользователем) быть преобразован в сеть E. 164 и маршрутизироваться по указанной магистральной линии SIP.
+Командлет Test-CsTrunkConfiguration проверяет, может ли телефонный номер (набираемый пользователем) быть преобразован в сеть E. 164 и направляться по указанной магистральной линии SIP.
 
 </div>
 
@@ -94,7 +96,7 @@ _**Последнее изменение темы:** 2014-05-20_
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-Дополнительные сведения можно найти в справочной документации по командлету Test-CsTrunkConfiguration.
+Для получения дополнительных сведений обратитесь к справочной документации по командлету Test-CsTrunkConfiguration.
 
 </div>
 
@@ -110,7 +112,7 @@ _**Последнее изменение темы:** 2014-05-20_
 
 \+12065551219 Global/Redmond
 
-Если проверка завершилась неудачно, Test-CsTrunkConfiguration возвратит пустые значения свойств:
+Если тест завершается неудачей, Test-CsTrunkConfiguration возвращает пустые значения свойств:
 
 Транслатеднумбер Матчингруле
 
@@ -130,13 +132,13 @@ _**Последнее изменение темы:** 2014-05-20_
 
 Описание: номера телефонов без кода страны или города.
 
-Шаблон: ^\\+ (\\d\*) $
+Шаблон: ^ \\ + ( \\ d \* ) $
 
 `Translation : $1`
 
 Name: Ноареакоде
 
-На этом шаге необходимо проверить значение свойства Pattern (это строка [регулярного выражения](https://go.microsoft.com/fwlink/?linkid=400464) ), чтобы проверить, настроены ли какие-либо правила преобразования для обработки набора номера. В противном случае необходимо изменить одно из существующих правил (Set-CsOutboundTranslationRule) или использовать командлет New-CsOutboundTranslationRule для добавления нового правила в коллекцию.
+На этом шаге необходимо проверить значение свойства Pattern (это строка [регулярного выражения](https://go.microsoft.com/fwlink/?linkid=400464) ), чтобы проверить, настроены ли какие-либо правила преобразования для обработки набора номера. В противном случае необходимо изменить одно из существующих правил (Set-CsOutboundTranslationRule) или использовать командлет New-CsOutboundTranslationRule, чтобы добавить новое правило в коллекцию.
 
 </div>
 

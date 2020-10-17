@@ -12,20 +12,22 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44fc32360fe7ffe1924fbc663709dd1f41cf4a36
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d38db71daed7a7946b62593a29f7f685c96c647
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526856"
 ---
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Процесс развертывания приложения "объявление" в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Процесс развертывания приложения "объявление" в Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2012-09-12_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Роли</th>
 <th>Документация по развертыванию</th>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525756"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Создание или изменение группы агентов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Создание или изменение группы агентов в Lync Server 2013
+
 
 </div>
 
@@ -152,7 +154,7 @@ _**Последнее изменение темы:** 2014-02-07_
         
           - Если список рассылки был настроен таким образом, что членство скрыто, а администратор группы ответа назначает список рассылки списку агентов, пользователи могут вызвать группу, чтобы узнать, кто является ее участником.
         
-          - Если список рассылки был настроен таким образом, что он скрыт в глобальном списке адресов Exchange, администратор группы ответа может видеть список рассылки и назначать его списку агентов, если процесс группы ответа имеет соответствующие права пользователя и разрешения, даже если у администратора нет соответствующих прав и разрешений пользователя.
+          - Если список рассылки был настроен таким образом, что он скрыт в глобальном списке адресов Exchange, администратор группы ответа может видеть список рассылки и назначать его списку агентов, если процесс группы ответа имеет соответствующие права и разрешения пользователя, даже если у администратора нет соответствующих прав и разрешений.
 
 11. Щелкните **Исполнить**.
 

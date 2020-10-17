@@ -12,20 +12,22 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f93229ee06a3d45db2478003a18ac22a2e7cf59
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fd551ede7d7be7e631c229e99613cfc8baa006eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526996"
 ---
+# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Настройка настраиваемых состояний присутствия в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Настройка настраиваемых состояний присутствия в Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2013-01-10_
 
   - Можно добавить не более четырех настраиваемых состояний присутствия.
 
-  - Параметр Кустомстатеурл указывает расположение файла конфигурации. В Lync 2013 режим высокой безопасности SIP включен по умолчанию, поэтому необходимо хранить пользовательский файл конфигурации присутствия на веб-сервере с включенным протоколом HTTPS. В противном случае Lync 2013 клиенты не смогут подключаться к нему. Например, допустимым адресом является `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml`.
+  - Параметр Кустомстатеурл указывает расположение файла конфигурации. В Lync 2013 режим высокой безопасности SIP включен по умолчанию, поэтому необходимо хранить пользовательский файл конфигурации присутствия на веб-сервере с включенным протоколом HTTPS. В противном случае Lync 2013 клиенты не смогут подключаться к нему. Например, допустимым адресом является `https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml` .
 
 <div>
 
@@ -58,19 +60,19 @@ _**Последнее изменение темы:** 2013-01-10_
 > Хотя это не рекомендуется в рабочей среде, вы можете протестировать файл конфигурации, расположенный на общем файловом ресурсе, с помощью параметра реестра EnableSIPHighSecurityMode, чтобы отключить режим высокой безопасности SIP на клиенте. Затем можно использовать параметр реестра Кустомстатеурл, чтобы указать расположение для файла конфигурации, отличное от HTTPS. Обратите внимание, что в Lync 2013 учитываются параметры реестра Lync 2010, но куст реестра обновлен. Вы создадите параметры реестра следующим образом: 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>Тип: DWORD</P>
 > <P>Данные значения: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
 > <P>Тип: строка (REG_SZ)</P>
-> <P>Данные о значении (примеры)\\: file://лспул. Corp. contoso. ком\лсфилешаре\клиентконфигфолдер\пресенце.ксмл или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.XML</P></LI></UL>
+> <P>Data value (примеры): file:// \\lspool.corp.contoso.com\LSFileShare\ClientConfigFolder\Presence.xml или file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
 
 
 </div>
 
-Локализовать пользовательское состояние присутствия, указав одну или несколько схем ИДЕНТИФИКАТОРов языковых стандартов (LCID) в XML-файле конфигурации. В примере далее в этом разделе показано локализация на английский (США), Норвежский (1033), Норвежский (1044), французский (США), французский (1055) (1036) и Турецкий (). Список LCID можно узнать в статье Языковые идентификаторы, назначенные корпорацией <https://go.microsoft.com/fwlink/p/?linkid=157331>Майкрософт по адресу.
+Локализовать пользовательское состояние присутствия, указав одну или несколько схем ИДЕНТИФИКАТОРов языковых стандартов (LCID) в XML-файле конфигурации. В примере далее в этом разделе показано локализация на английский (США), Норвежский (1033), Норвежский (1044), французский (США), французский (1055) (1036) и Турецкий (). Список LCID можно узнать в статье Языковые идентификаторы, назначенные корпорацией Майкрософт по адресу <https://go.microsoft.com/fwlink/p/?linkid=157331> .
 
 <div>
 
@@ -99,7 +101,7 @@ _**Последнее изменение темы:** 2013-01-10_
           </customState>
         </customStates>
 
-2.  Сохраните XML-файл конфигурации на веб-сервере с включенной поддержкой протокола HTTPS. В этом примере файл имеет имя presence. XML и сохраняется в указанном расположении https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml.
+2.  Сохраните XML-файл конфигурации на веб-сервере с включенной поддержкой протокола HTTPS. В этом примере файл называется Presence.xml и сохраняется в расположении https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml .
 
 3.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
@@ -118,9 +120,9 @@ _**Последнее изменение темы:** 2013-01-10_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>По умолчанию Lync Server 2013&nbsp;обновляет политики клиентов и параметры каждые три часа.</P>
+> <P>По умолчанию Lync Server 2013 &nbsp; обновляет политики клиентов и параметры каждые три часа.</P>
 > <LI>
-> <P>Если вы хотите продолжить использование параметров групповой политики из предыдущих выпусков, таких как Кустомстатеурл, то Lync 2013 будет распознавать параметры, если они находятся в новом кусте реестра (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Тем не менее, приоритет имеют серверные политики клиентов.</P></LI></UL>
+> <P>Если вы хотите продолжить использование параметров групповой политики из предыдущих выпусков, таких как Кустомстатеурл, Lync 2013 будет распознавать параметры, если они находятся в кусте реестра New Policy (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Тем не менее, приоритет имеют серверные политики клиентов.</P></LI></UL>
 
 
 
