@@ -12,20 +12,22 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c43cb727b83b06d6427e2bf3b6027d78dc025e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d17715718d66530686009fdc4b2b9e2acebfceaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498906"
 ---
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Предоставление разрешений организационных подразделений в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Предоставление разрешений организационных подразделений в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2012-05-14_
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Если параметр Domain не указан, значением по умолчанию является локальный домен.
+    Если не указать параметр Domain, значением по умолчанию является локальный домен.
 
 </div>
 
@@ -71,7 +73,7 @@ _**Последнее изменение темы:** 2012-05-14_
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Если параметр Domain не указан, значением по умолчанию является локальный домен.
+    Если не указать параметр Domain, значением по умолчанию является локальный домен.
 
 </div>
 

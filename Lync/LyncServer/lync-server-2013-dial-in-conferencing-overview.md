@@ -12,20 +12,22 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d088d07e5d49a916835da581af81ff7def581b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d91c455c1e4bfbb2b4fe7af827265a789c9ace68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214309"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498936"
 ---
+# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Обзор конференц-связи с телефонным подключением в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Обзор конференц-связи с телефонным подключением в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214309"
 
 _**Последнее изменение темы:** 2012-09-30_
 
-Если в Организации есть пользователи, которым необходимо посещать локальные конференции Lync Server 2013, когда они не находятся в офисе или не имеют доступа к компьютеру, можно развернуть Конференц-связь с телефонным подключением, чтобы присоединиться к Конференции с помощью телефонного подключения общего пользования сетевой телефон (PSTN).
+Если в Организации есть пользователи, которым необходимо посещать локальные конференции Lync Server 2013, когда они не находятся в офисе или не имеют доступа к компьютеру, можно развернуть Конференц-связь с телефонным подключением, чтобы присоединиться к Конференции с помощью телефонного телефона общего пользования (PSTN).
 
 Конференц-связь с телефонным подключением это дополнительный компонент, который можно настроить при развертывании конференц-связи Lync Server 2013. Хотя в конференц-связи с телефонным подключением используются некоторые компоненты Lync Server 2013, используемые корпоративной голосовой связью, вы можете развернуть Конференц-связь с телефонным подключением даже в том случае, если вы не развертываете корпоративную голосовую связь.
 

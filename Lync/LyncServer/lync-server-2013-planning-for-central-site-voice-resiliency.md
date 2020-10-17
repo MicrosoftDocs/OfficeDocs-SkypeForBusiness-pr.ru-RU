@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184412"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497736"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Планирование устойчивости голосовой связи для центрального сайта в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Планирование устойчивости голосовой связи для центрального сайта в Lync Server 2013
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server зависит от следующих компонентов инф
 </tr>
 <tr class="odd">
 <td><p>Параметры DHCP 120</p></td>
-<td><p>Если запись DNS SRV недоступна, то для обнаружения регистратора клиент будет пытаться использовать параметр DHCP 120. Чтобы это работало, необходимо настроить DHCP-сервер или включить службу DHCP Lync Server 2013. Сведения о требованиях к оборудованию и программному обеспечению для обеспечения устойчивости сайтов филиалов в разделе <a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013</a> .</p></td>
+<td><p>Если запись DNS SRV недоступна, то для обнаружения регистратора клиент будет пытаться использовать параметр DHCP 120. Чтобы это работало, необходимо настроить DHCP-сервер или включить службу DHCP Lync Server 2013. Сведения о требованиях к оборудованию и программному обеспечению для обеспечения устойчивости Branch-Site в разделе " <a href="lync-server-2013-branch-site-resiliency-requirements.md">требования к устойчивости сайта филиала" для Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

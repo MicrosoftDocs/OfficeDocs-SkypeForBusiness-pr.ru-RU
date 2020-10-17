@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498576"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Установка локального хранилища конфигурации в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Установка локального хранилища конфигурации в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2014-06-27_
 
 
 > [!IMPORTANT]  
-> Если вы еще не выпустили программу установки Lync Server 2013 на этом сервере, вам будет предложено указать диск и путь для установки Lync Server 2013. Это позволит установить на диск, отличный от системного диска, если это требуется в Организации, или если у вас есть проблемы с пространством. Можно просто изменить путь к расположению установки для файлов Lync Server в диалоговом окне программы установки на новый, доступный диск. Если вы устанавливаете файлы установки по этому пути, включая OCSCore. msi, остальные файлы Lync Server 2013 будут развернуты там же.
+> Если вы еще не выпустили программу установки Lync Server 2013 на этом сервере, вам будет предложено указать диск и путь для установки Lync Server 2013. Это позволит установить на диск, отличный от системного диска, если это требуется в Организации, или если у вас есть проблемы с пространством. Можно просто изменить путь к расположению установки для файлов Lync Server в диалоговом окне программы установки на новый, доступный диск. Если вы устанавливаете файлы установки по указанному пути, в том числе OCSCore.msi, остальные файлы Lync Server 2013 будут развернуты там же.
 
 
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2014-06-27_
 
 ## <a name="to-install-the-local-configuration-store"></a>Установка хранилища локальной конфигурации
 
-1.  На установочном носителе откройте файл Setup \\.\\exe\\для установки amd64 и нажмите кнопку **ОК**.
+1.  На установочном носителе откройте \\ программу установки \\ amd64 \\Setup.exe, а затем нажмите кнопку **ОК**.
 
 2.  Если вам будет предложено установить распространяемый пакет Microsoft Visual C++ 2012, нажмите кнопку **Да**.
 

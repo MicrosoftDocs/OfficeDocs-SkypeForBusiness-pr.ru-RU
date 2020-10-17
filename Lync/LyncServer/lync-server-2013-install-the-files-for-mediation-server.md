@@ -12,20 +12,22 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3172b2db7197cfec13249bdff4490128d8b664a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc7fd5613b39fd17724c9b62152f9d9401fbc072
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498596"
 ---
+# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Установка файлов для сервера-посредника в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Установка файлов для сервера-посредника в Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**Последнее изменение темы:** 2012-08-06_
 
 
 > [!NOTE]  
-> В этом разделе предполагается, что вы уже определили и опубликовали пул изолированных серверов-посредников, как описано в статье <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологий в Lync server 2013</A> и <A href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</A> в документации по развертыванию, а также проверила <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">2013</A> соответствие компьютеров в пуле серверов <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md"> Голосовая связь в Lync Server 2013</A>.
+> В этом разделе предполагается, что вы уже определили и опубликовали пул изолированных серверов-посредников, как описано в разделе <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологий в Lync server 2013</A> и <A href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</A> в документации по развертыванию, и убедитесь, что компьютеры в пуле серверов-посредников отвечают необходимым требованиям к <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">программному обеспечению для корпоративной голосовой связи в Lync Server 2013</A> , а <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">также необходимые условия для обеспечения безопасности и настройки корпоративной голосовой связи в Lync Server 2013</A>.
 
 
 
@@ -57,7 +59,7 @@ _**Последнее изменение темы:** 2012-08-06_
 
 ## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Установка файлов для автономного пула серверов-посредников
 
-1.  На установочном носителе щелкните правой кнопкой мыши \<установочный\>**\\\\,\\Setup. exe**, и выберите пункт **Запуск от имени администратора**.
+1.  На установочном носителе щелкните правой кнопкой мыши \<installation media\> ** \\ \\ \\Setup.exeустановки amd64 **, а затем выберите пункт **Запуск от имени администратора**.
 
 2.  На странице **Папка установки** нажмите кнопку **ОК**.
 

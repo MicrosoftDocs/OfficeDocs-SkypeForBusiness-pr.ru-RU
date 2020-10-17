@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191672"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498546"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>Установка отчетов мониторинга Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>Установка отчетов мониторинга Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2015-02-27_
 
 3.  В мастере развертывания отчетов мониторинга на странице **указания базы данных мониторинга** убедитесь, что в раскрывающемся списке **Monitoring database (База данных мониторинга)** отображается полное доменное имя компьютера, на котором размещается хранилище данных наблюдения. (Если имеется несколько хранилищ данных наблюдения, то потребуется выбрать соответствующий сервер в этом раскрывающемся списке.) Убедитесь, что в поле **SQL Server Reporting Services (SSRS) instance (Экземпляр служб SQL Server Reporting Services)** отображается правильный экземпляр SQL Server (например, **atl-sql-001.litwareinc.com/archinst**), а затем нажмите кнопку **Далее**.
 
-4.  На странице " **укажите учетные данные** " в поле **имя пользователя** введите доменное имя и имя пользователя учетной записи, которая будет использоваться при доступе к отчетам мониторинга (например, **\\litwareinc kenmyer**). Если вы не используете этот формат (доменное\\имя пользователя), возникнет ошибка.
+4.  На странице " **укажите учетные данные** " в поле **имя пользователя** введите доменное имя и имя пользователя учетной записи, которая будет использоваться при доступе к отчетам мониторинга (например, **litwareinc \\ kenmyer**). Если вы не используете этот формат (доменное \\ имя пользователя), возникнет ошибка.
     
     Введите пароль для этой учетной записи в поле **Пароль**, а затем нажмите кнопку **Далее**. Обратите внимание, что для этой учетной записи не требуются никакие специальные права. При завершении установки учетной записи автоматически будут предоставлены необходимые разрешения на вход и базу данных.
 
@@ -91,7 +93,7 @@ _**Последнее изменение темы:** 2015-02-27_
 
 6.  На странице **выполнения команд** нажмите кнопку **Готово**.
 
-Отчеты мониторинга также можно установить из командной консоли Lync Server, выполнив сценарий Деплойрепортс. ps1; Этот сценарий Windows PowerShell можно найти на установочном носителе Lync Server в папке \\установки\\репортингсетуп. Чтобы установить отчеты мониторинга с помощью скрипта DeployReports.ps1, в командной консоли введите команду, аналогичную следующей:
+Отчеты мониторинга также можно установить из командной консоли Lync Server, выполнив DeployReports.ps1 сценария; Этот сценарий Windows PowerShell можно найти на установочном носителе Lync Server в \\ \\ папке установки репортингсетуп. Чтобы установить отчеты мониторинга с помощью скрипта DeployReports.ps1, в командной консоли введите команду, аналогичную следующей:
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200012"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498776"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Требования к членству в группах для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Требования к членству в группах для Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**Последнее изменение темы:** 2012-10-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup. exe</strong> — исполняемый файл, который запускает установку средств администрирования Lync Server 2013.</p></td>
+<td><p><strong>Setup.exe</strong> — исполняемый файл, который запускает установку средств администрирования Lync Server 2013.</p></td>
 <td><p>Участник группы локальных администраторов на компьютере, с которого запускается исполняемый файл. Член группы "Пользователи домена" для чтения информации в доменных службах Active Directory. Этот уровень разрешений обязателен, так как для автоматической установки требуемых пакетов MSI на локальном компьютере необходимы права чтения и записи относительно защищенных ресурсов локального компьютера, таких как каталоги "Program Files", и защищенного реестра, такого как раздел "Local Machine".</p>
 <div>
 
@@ -87,7 +89,7 @@ _**Последнее изменение темы:** 2012-10-05_
 <td><p>Участник группы CsAdministrator или участник другой роли управления доступом на основе ролей (RBAC), которой назначена конкретная административная задача. Панель управления Lync Server 2013 реализует изменения конфигурации, запуская командлеты командной консоли Lync Server 2013. Список предопределенных ролей и членов командлетов, разрешенных для запуска, приведен в статье <a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование управления доступом на основе ролей в Lync Server 2013</a> в документации по планированию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PowerShell. exe с загруженным модулем Lync server 2013</strong> — административным средством командной строки с командлетами, предназначенными для управления Lync Server 2013.</p></td>
+<td><p><strong>PowerShell.exe с загруженным модулем Lync server 2013</strong> — административным средством командной строки с командлетами, предназначенными для управления Lync Server 2013.</p></td>
 <td><p>Участник группы CsAdministrator или участник другой роли RBAC, которой был назначен конкретных командлет. Список предопределенных ролей и членов командлетов, разрешенных для запуска, приведен в статье <a href="lync-server-2013-planning-for-role-based-access-control.md">Планирование управления доступом на основе ролей в Lync Server 2013</a> в документации по планированию.</p>
 <p>Либо участник одной или нескольких из следующих групп, в зависимости от командлета:</p>
 <ul>

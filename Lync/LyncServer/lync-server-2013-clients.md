@@ -12,20 +12,22 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 265febdc2a0b13833c1db04253430306edd2a952
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0a09f55bfb423e9b2288ea879da932ee637c1caa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499196"
 ---
+# <a name="clients-for-lync-server-2013"></a>Клиенты для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-for-lync-server-2013"></a>Клиенты для Lync Server 2013
+
 
 </div>
 
@@ -97,7 +99,7 @@ Lync 2013 Basic — это загружаемый клиент для клиен
 
 ## <a name="lync-2013-for-mobile-devices"></a>Lync 2013 для мобильных устройств
 
-Теперь мобильные приложения Lync 2013 включают в себя возможности VoIP и видео через IP, а также функции контактов, присутствия и обмена мгновенными сообщениями. Мобильные пользователи могут обмениваться данными с другими пользователями через обмен мгновенными сообщениями, голосовые вызовы или видеовызовы с помощью Wi/Fi или подключения к сотовому каналу данных. С помощью одного щелчка ссылки на собрание в элементе календаря мобильные пользователи могут присоединяться к голосовым и видеоконференциям. Для получения дополнительных сведений о мобильных приложениях Lync 2013, ознакомьтесь со статьей [планирование для мобильных клиентов в Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
+Теперь мобильные приложения Lync 2013 включают в себя возможности VoIP и видео через IP, а также функции контактов, присутствия и обмена мгновенными сообщениями. Мобильные пользователи могут обмениваться данными с другими пользователями через обмен мгновенными сообщениями, голосовые вызовы или видеозвонки с помощью Wi-Fi или их подключения к сотовой сети. С помощью одного щелчка ссылки на собрание в элементе календаря мобильные пользователи могут присоединяться к голосовым и видеоконференциям. Для получения дополнительных сведений о мобильных приложениях Lync 2013, ознакомьтесь со статьей [планирование для мобильных клиентов в Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
 
 </div>
 
