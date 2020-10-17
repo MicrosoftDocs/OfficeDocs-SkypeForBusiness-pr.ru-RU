@@ -12,20 +12,22 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2c956eb4f50a0a5e7ce1bafe955b5cea092cd2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e24932b23b1a9168ed64279f98db125f06ad0e2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520526"
 ---
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="5b718-102">Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b718-102">Configure network sites for CAC in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="a60e9-102">Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a60e9-102">Configure network sites for CAC in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42205275"
 
 <span> </span>
 
-<span data-ttu-id="a60e9-103">_**Последнее изменение темы:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="a60e9-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="5b718-103">_**Последнее изменение темы:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="5b718-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a60e9-104">Если вы уже создали сетевые сайты для службы E9-1-1 или обхода сервера-посредника, то вы можете применить к ним профиль политики пропускной способности с помощью командлета <STRONG>Set-CsNetworkSite</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="a60e9-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="a60e9-105">Пример изменения сетевого сайта представлен <A href="lync-server-2013-create-or-modify-a-network-site.md">в статье Создание или изменение сетевого сайта в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a60e9-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="5b718-104">Если вы уже создали сетевые сайты для службы E9-1-1 или обхода сервера-посредника, то вы можете применить к ним профиль политики пропускной способности с помощью командлета <STRONG>Set-CsNetworkSite</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="5b718-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="5b718-105">Пример изменения сетевого сайта представлен <A href="lync-server-2013-create-or-modify-a-network-site.md">в статье Создание или изменение сетевого сайта в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5b718-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a60e9-p102">*Сетевые сайты* — это офисы или расположения в каждой области сети контроля допуска звонков, E9-1-1 и обхода сервера-посредника. Чтобы создать сетевые сайты, соответствующие примеру топологии сети для контроля допуска звонков, используйте следующие процедуры. В этих процедурах демонстрируется создание и настройка сетевых сайтов, на которые распространяется ограничение пропускной способности глобальной сети. Следовательно, для этих сетевых сайтов требуются политики пропускной способности, которые ограничивают трафик звуковых и видеоданных в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="a60e9-p102">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments. Use the following procedures to create network sites that align to network sites in the example network topology for CAC. These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
+<span data-ttu-id="5b718-p102">*Сетевые сайты* — это офисы или расположения в каждой области сети контроля допуска звонков, E9-1-1 и обхода сервера-посредника. Чтобы создать сетевые сайты, соответствующие примеру топологии сети для контроля допуска звонков, используйте следующие процедуры. В этих процедурах демонстрируется создание и настройка сетевых сайтов, на которые распространяется ограничение пропускной способности глобальной сети. Следовательно, для этих сетевых сайтов требуются политики пропускной способности, которые ограничивают трафик звуковых и видеоданных в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="5b718-p102">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments. Use the following procedures to create network sites that align to network sites in the example network topology for CAC. These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
 
-<span data-ttu-id="a60e9-109">В примере развертывания контроля допуска звонков регион Северная Америка содержит 6 сайтов.</span><span class="sxs-lookup"><span data-stu-id="a60e9-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="a60e9-110">На 3 сайта распространяется ограничение пропускной способности глобальной сети: Рино, Портленд и Альбукерке.</span><span class="sxs-lookup"><span data-stu-id="a60e9-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="a60e9-111">На оставшиеся 3 сайта ограничение пропускной способности глобальной сети *не* действует: Нью-Йорк, Чикаго и Детройт.</span><span class="sxs-lookup"><span data-stu-id="a60e9-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="a60e9-112">Пример создания или изменения этих других сетевых сайтов представлен [в статье Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="a60e9-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
+<span data-ttu-id="5b718-109">В примере развертывания контроля допуска звонков регион Северная Америка содержит 6 сайтов.</span><span class="sxs-lookup"><span data-stu-id="5b718-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="5b718-110">На 3 сайта распространяется ограничение пропускной способности глобальной сети: Рино, Портленд и Альбукерке.</span><span class="sxs-lookup"><span data-stu-id="5b718-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="5b718-111">На оставшиеся 3 сайта ограничение пропускной способности глобальной сети *не* действует: Нью-Йорк, Чикаго и Детройт.</span><span class="sxs-lookup"><span data-stu-id="5b718-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="5b718-112">Пример создания или изменения этих других сетевых сайтов представлен [в статье Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="5b718-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
 
-<span data-ttu-id="a60e9-113">Пример сетевой топологии представлен в статье [Пример: сбор требований для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="a60e9-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="5b718-113">Пример сетевой топологии представлен в статье [Пример: сбор требований для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="5b718-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="a60e9-114">В следующей процедуре для создания сетевого сайта используется Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a60e9-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="a60e9-115">Дополнительные сведения об использовании панели управления Lync Server для создания сетевого сайта можно узнать <A href="lync-server-2013-create-or-modify-a-network-site.md">в статье Создание или изменение сетевого сайта в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a60e9-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="5b718-114">В следующей процедуре для создания сетевого сайта используется Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5b718-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="5b718-115">Дополнительные сведения об использовании панели управления Lync Server для создания сетевого сайта можно узнать <A href="lync-server-2013-create-or-modify-a-network-site.md">в статье Создание или изменение сетевого сайта в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5b718-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
@@ -65,11 +67,11 @@ ms.locfileid: "42205275"
 
 <div>
 
-## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="a60e9-116">Создание сетевых узлов для контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="a60e9-116">To create network sites for call admission control</span></span>
+## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="5b718-116">Создание сетевых узлов для контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="5b718-116">To create network sites for call admission control</span></span>
 
-1.  <span data-ttu-id="a60e9-117">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a60e9-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="5b718-117">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5b718-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="a60e9-118">Чтобы создать сетевые сайты и применить требуемый профиль политики пропускной способности для каждого сайта, выполните командлет **New-CsNetworkSite**.</span><span class="sxs-lookup"><span data-stu-id="a60e9-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="a60e9-119">Пример:</span><span class="sxs-lookup"><span data-stu-id="a60e9-119">For example, run:</span></span>
+2.  <span data-ttu-id="5b718-118">Чтобы создать сетевые сайты и применить требуемый профиль политики пропускной способности для каждого сайта, выполните командлет **New-CsNetworkSite**.</span><span class="sxs-lookup"><span data-stu-id="5b718-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="5b718-119">Пример:</span><span class="sxs-lookup"><span data-stu-id="5b718-119">For example, run:</span></span>
     
        ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
@@ -83,7 +85,7 @@ ms.locfileid: "42205275"
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 
-3.  <span data-ttu-id="a60e9-120">Чтобы завершить создание сетевых сайтов для всего примера топологии, повторите шаг 2 для сетевых сайтов с ограничением пропускной способности, расположенных в Европе, на Ближнем Востоке и в Африке, а также в Азиатско-тихоокеанском регионе.</span><span class="sxs-lookup"><span data-stu-id="a60e9-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
+3.  <span data-ttu-id="5b718-120">Чтобы завершить создание сетевых сайтов для всего примера топологии, повторите шаг 2 для сетевых сайтов с ограничением пропускной способности, расположенных в Европе, на Ближнем Востоке и в Африке, а также в Азиатско-тихоокеанском регионе.</span><span class="sxs-lookup"><span data-stu-id="5b718-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
 
 </div>
 

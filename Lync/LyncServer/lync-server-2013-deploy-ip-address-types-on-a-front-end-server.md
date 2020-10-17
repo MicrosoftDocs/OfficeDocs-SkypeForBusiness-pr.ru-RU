@@ -12,20 +12,22 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9c2f59cd3ee07e565a984ebb6f19d8ff07f50e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5037a723b16758280eec5ec4500e6f561cb9a8bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179676"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521636"
 ---
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a><span data-ttu-id="4d388-102">Развертывание типов IP-адресов на сервере переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d388-102">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a><span data-ttu-id="c236d-102">Развертывание типов IP-адресов на сервере переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c236d-102">Deploy IP address types on a Front End Server for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,38 +37,38 @@ ms.locfileid: "42179676"
 
 <span> </span>
 
-<span data-ttu-id="c236d-103">_**Последнее изменение темы:** 2016-07-28_</span><span class="sxs-lookup"><span data-stu-id="c236d-103">_**Topic Last Modified:** 2016-07-28_</span></span>
+<span data-ttu-id="4d388-103">_**Последнее изменение темы:** 2016-07-28_</span><span class="sxs-lookup"><span data-stu-id="4d388-103">_**Topic Last Modified:** 2016-07-28_</span></span>
 
-<span data-ttu-id="c236d-104">С помощью построителя топологий выполните действия, описанные в следующей процедуре, для развертывания типов IP-адресов на сервере переднего плана.</span><span class="sxs-lookup"><span data-stu-id="c236d-104">Using Topology Builder, perform the steps in the following procedure to deploy IP address types on a Front End Server.</span></span>
+<span data-ttu-id="4d388-104">С помощью построителя топологий выполните действия, описанные в следующей процедуре, для развертывания типов IP-адресов на сервере переднего плана.</span><span class="sxs-lookup"><span data-stu-id="4d388-104">Using Topology Builder, perform the steps in the following procedure to deploy IP address types on a Front End Server.</span></span>
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a><span data-ttu-id="c236d-105">Развертывание типов IP-адресов на сервере переднего плана</span><span class="sxs-lookup"><span data-stu-id="c236d-105">To deploy IP address types on a Front End Server</span></span>
+## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a><span data-ttu-id="4d388-105">Развертывание типов IP-адресов на сервере переднего плана</span><span class="sxs-lookup"><span data-stu-id="4d388-105">To deploy IP address types on a Front End Server</span></span>
 
-1.  <span data-ttu-id="c236d-p101">В узле **Enterprise Edition Front End pools** (Интерфейсные пулы Enterprise Edition) щелкните правой кнопкой мыши сервер пула и затем выберите команду **Edit Properties** (Изменить свойства). (Либо выберите сервер и затем в меню **Action** (Действие) выберите команду **Edit Properties** (Изменить свойства).)</span><span class="sxs-lookup"><span data-stu-id="c236d-p101">Under **Enterprise Edition Front End pools**, right-click the server within a pool, and then select **Edit Properties**. (Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)</span></span>
+1.  <span data-ttu-id="4d388-p101">В узле **Enterprise Edition Front End pools** (Интерфейсные пулы Enterprise Edition) щелкните правой кнопкой мыши сервер пула и затем выберите команду **Edit Properties** (Изменить свойства). (Либо выберите сервер и затем в меню **Action** (Действие) выберите команду **Edit Properties** (Изменить свойства).)</span><span class="sxs-lookup"><span data-stu-id="4d388-p101">Under **Enterprise Edition Front End pools**, right-click the server within a pool, and then select **Edit Properties**. (Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)</span></span>
 
-2.  <span data-ttu-id="c236d-p102">В диалоговом окне **Edit Properties** (Изменение свойств) выберите тип IP-адреса, который необходимо настроить. Для конфигурации двойного стека установите флажки **Enable IPv4** (Включить IP версии 4) и **Enable IPv6** (Включить IP версии 6).</span><span class="sxs-lookup"><span data-stu-id="c236d-p102">In the **Edit Properties** dialog box, select the IP address type that you want to configure. For a dual-stack configuration, select **Enable IPv4** and **Enable IPv6**, as shown in the following figure.</span></span>
+2.  <span data-ttu-id="4d388-p102">В диалоговом окне **Edit Properties** (Изменение свойств) выберите тип IP-адреса, который необходимо настроить. Для конфигурации двойного стека установите флажки **Enable IPv4** (Включить IP версии 4) и **Enable IPv6** (Включить IP версии 6).</span><span class="sxs-lookup"><span data-stu-id="4d388-p102">In the **Edit Properties** dialog box, select the IP address type that you want to configure. For a dual-stack configuration, select **Enable IPv4** and **Enable IPv6**, as shown in the following figure.</span></span>
     
-    <span data-ttu-id="c236d-110">**Диалоговое окно Edit Properties (Изменение свойств) для пула серверов переднего плана**</span><span class="sxs-lookup"><span data-stu-id="c236d-110">**Edit Properties dialog box for the Front End Server pool**</span></span>
+    <span data-ttu-id="4d388-110">**Диалоговое окно Edit Properties (Изменение свойств) для пула серверов переднего плана**</span><span class="sxs-lookup"><span data-stu-id="4d388-110">**Edit Properties dialog box for the Front End Server pool**</span></span>
     
-    <span data-ttu-id="c236d-111">![Диалоговое окно "изменение свойств сервера переднего плана"](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Диалоговое окно "изменение свойств сервера переднего плана"")</span><span class="sxs-lookup"><span data-stu-id="c236d-111">![Front End Server Edit Properties dialog box](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Front End Server Edit Properties dialog box")</span></span>
+    <span data-ttu-id="4d388-111">![Диалоговое окно "изменение свойств сервера переднего плана"](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Диалоговое окно "изменение свойств сервера переднего плана"")</span><span class="sxs-lookup"><span data-stu-id="4d388-111">![Front End Server Edit Properties dialog box](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Front End Server Edit Properties dialog box")</span></span>
     
-      - <span data-ttu-id="c236d-p103">**Use all configured IP addresses** (Использовать все заданные IP-адреса). Выберите этот параметр, если требуется разрешить использование любых IP-адресов, заданных на компьютере.</span><span class="sxs-lookup"><span data-stu-id="c236d-p103">**Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.</span></span>
+      - <span data-ttu-id="4d388-p103">**Use all configured IP addresses** (Использовать все заданные IP-адреса). Выберите этот параметр, если требуется разрешить использование любых IP-адресов, заданных на компьютере.</span><span class="sxs-lookup"><span data-stu-id="4d388-p103">**Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="c236d-114">Этот параметр рекомендуется использовать для конфигураций IP версии 6 (IPv6).</span><span class="sxs-lookup"><span data-stu-id="c236d-114">This is the recommended option for IP version 6 (IPv6) configurations.</span></span>
+        > <span data-ttu-id="4d388-114">Этот параметр рекомендуется использовать для конфигураций IP версии 6 (IPv6).</span><span class="sxs-lookup"><span data-stu-id="4d388-114">This is the recommended option for IP version 6 (IPv6) configurations.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="c236d-p104">**Limit service usage to selected IP addresses** (Разрешить использовать службу только указанным IP-адресам). Выберите этот параметр, чтобы указать адрес, используемый на новом сервере. Если вы выберете этот параметр, потребуется ввести значение в поле **Primary IP address** (Основной IP-адрес).</span><span class="sxs-lookup"><span data-stu-id="c236d-p104">**Limit service usage to selected IP addresses**. Select this option to specify a specific address to use on the new server. If you select this option, you must enter a value for **Primary IP address**.</span></span>
+      - <span data-ttu-id="4d388-p104">**Limit service usage to selected IP addresses** (Разрешить использовать службу только указанным IP-адресам). Выберите этот параметр, чтобы указать адрес, используемый на новом сервере. Если вы выберете этот параметр, потребуется ввести значение в поле **Primary IP address** (Основной IP-адрес).</span><span class="sxs-lookup"><span data-stu-id="4d388-p104">**Limit service usage to selected IP addresses**. Select this option to specify a specific address to use on the new server. If you select this option, you must enter a value for **Primary IP address**.</span></span>
     
-      - <span data-ttu-id="c236d-p105">**Primary IP address** (Основной IP-адрес). Введите IP-адрес, который будет использовать сервер для всех коммуникаций, за исключением ТСОП. Введенный IP-адрес должен соответствовать формату выбранного типа адресов.</span><span class="sxs-lookup"><span data-stu-id="c236d-p105">**Primary IP address**. Enter an IP address that the server will use for all communications except public switched telephone network (PSTN). The IP address entered must match the format of the select address type.</span></span>
+      - <span data-ttu-id="4d388-p105">**Primary IP address** (Основной IP-адрес). Введите IP-адрес, который будет использовать сервер для всех коммуникаций, за исключением ТСОП. Введенный IP-адрес должен соответствовать формату выбранного типа адресов.</span><span class="sxs-lookup"><span data-stu-id="4d388-p105">**Primary IP address**. Enter an IP address that the server will use for all communications except public switched telephone network (PSTN). The IP address entered must match the format of the select address type.</span></span>
     
-      - <span data-ttu-id="c236d-121">**PSTN IP address** (IP-адрес ТСОП).</span><span class="sxs-lookup"><span data-stu-id="c236d-121">**PSTN IP address**.</span></span> <span data-ttu-id="c236d-122">Установка дополнительных сетевых интерфейсных плат (NIC) для поддержки конфигурации IP-адреса PSTN для Lync Server 2013 не поддерживается на совмещенных ролях серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="c236d-122">The installation of additional network interface cards (NIC)s to support the PSTN IP address configuration for Lync Server 2013 is not supported on collocated Mediation Server roles.</span></span> <span data-ttu-id="c236d-123">Дополнительные сведения о поддерживаемых конфигурациях сетевых адаптеров для Lync Server 2013 вы найдете в статье [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="c236d-123">For more information about supported NIC configurations for Lync Server 2013, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
+      - <span data-ttu-id="4d388-121">**PSTN IP address** (IP-адрес ТСОП).</span><span class="sxs-lookup"><span data-stu-id="4d388-121">**PSTN IP address**.</span></span> <span data-ttu-id="4d388-122">Установка дополнительных сетевых интерфейсных плат (NIC) для поддержки конфигурации IP-адреса PSTN для Lync Server 2013 не поддерживается на совмещенных ролях серверов-посредников.</span><span class="sxs-lookup"><span data-stu-id="4d388-122">The installation of additional network interface cards (NIC)s to support the PSTN IP address configuration for Lync Server 2013 is not supported on collocated Mediation Server roles.</span></span> <span data-ttu-id="4d388-123">Дополнительные сведения о поддерживаемых конфигурациях сетевых адаптеров для Lync Server 2013 вы найдете в статье [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md).</span><span class="sxs-lookup"><span data-stu-id="4d388-123">For more information about supported NIC configurations for Lync Server 2013, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
 
 </div>
 
