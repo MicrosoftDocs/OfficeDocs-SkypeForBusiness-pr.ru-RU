@@ -12,20 +12,22 @@ ms:contentKeyID: 48185525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd1de11f9d169babc8a4367f429d9d99559d6aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16c4c77876064ca0ab9210b96d7c13d68cc4218
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187062"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537246"
 ---
+# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="e6ae1-102">Контрольный список развертывания контроля допуска звонков для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6ae1-102">Call admission control deployment checklist for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="1dc5c-102">Контрольный список развертывания контроля допуска звонков для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1dc5c-102">Call admission control deployment checklist for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42187062"
 
 <span> </span>
 
-<span data-ttu-id="1dc5c-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="1dc5c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="e6ae1-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="e6ae1-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="1dc5c-104">Используйте следующий контрольный список, чтобы убедиться в выполнении всех необходимых задач конфигурации для развертывания контроля допуска звонков (CAC).</span><span class="sxs-lookup"><span data-stu-id="1dc5c-104">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy call admission control (CAC).</span></span>
+<span data-ttu-id="e6ae1-104">Используйте следующий контрольный список, чтобы убедиться в выполнении всех необходимых задач конфигурации для развертывания контроля допуска звонков (CAC).</span><span class="sxs-lookup"><span data-stu-id="e6ae1-104">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy call admission control (CAC).</span></span>
 
-  - <span data-ttu-id="1dc5c-p101">Если развернут один или несколько пограничных серверов, IP-адреса внешних интерфейсов необходимо добавить в список подсетей в параметрах конфигурации с битовой маской 32. Кроме того, необходимо связать эту подсеть (IP-адрес) с ИД сетевого узла для географического расположения, где развернута пограничная служба A/V.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-p101">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32. You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
+  - <span data-ttu-id="e6ae1-p101">Если развернут один или несколько пограничных серверов, IP-адреса внешних интерфейсов необходимо добавить в список подсетей в параметрах конфигурации с битовой маской 32. Кроме того, необходимо связать эту подсеть (IP-адрес) с ИД сетевого узла для географического расположения, где развернута пограничная служба A/V.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-p101">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32. You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="1dc5c-107">Пограничные серверы не являются обязательным требованием для развертывания контроля допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-107">Edge servers are not required to implement CAC.</span></span>
+    > <span data-ttu-id="e6ae1-107">Пограничные серверы не являются обязательным требованием для развертывания контроля допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-107">Edge servers are not required to implement CAC.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="1dc5c-108">Убедитесь, что служба контроля допуска звонков включена либо с помощью панели управления Lync Server, либо с помощью командлета, указанного в разделе [Включение контроля допуска звонков в Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="1dc5c-108">Make sure that CAC is enabled, either through Lync Server Control Panel or by running the cmdlet as specified in [Enable call admission control in Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span></span>
+  - <span data-ttu-id="e6ae1-108">Убедитесь, что служба контроля допуска звонков включена либо с помощью панели управления Lync Server, либо с помощью командлета, указанного в разделе [Включение контроля допуска звонков в Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="e6ae1-108">Make sure that CAC is enabled, either through Lync Server Control Panel or by running the cmdlet as specified in [Enable call admission control in Lync Server 2013](lync-server-2013-enable-call-admission-control.md).</span></span>
 
-  - <span data-ttu-id="1dc5c-109">Убедитесь, что контроль допуска звонков включен на всех центральных сайтах.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-109">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="1dc5c-110">Это можно сделать с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-110">This can be done through the Topology Builder.</span></span> <span data-ttu-id="1dc5c-111">Если при публикации создается предупреждение, *не* игнорируйте его.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-111">If a warning is generated when you publish, *do not* ignore it.</span></span>
+  - <span data-ttu-id="e6ae1-109">Убедитесь, что контроль допуска звонков включен на всех центральных сайтах.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-109">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="e6ae1-110">Это можно сделать с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-110">This can be done through the Topology Builder.</span></span> <span data-ttu-id="e6ae1-111">Если при публикации создается предупреждение, *не* игнорируйте его.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-111">If a warning is generated when you publish, *do not* ignore it.</span></span>
 
-  - <span data-ttu-id="1dc5c-112">Убедитесь, что все подсети, управляемые в корпоративной сети, настроены в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-112">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="1dc5c-113">Кроме того, важно, чтобы каждая подсеть была связана с сетевым сайтом, как описано в [привязку подсети к сетевому сайту в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="1dc5c-113">It is also essential that every subnet be associated to a network site, as explained in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
+  - <span data-ttu-id="e6ae1-112">Убедитесь, что все подсети, управляемые в корпоративной сети, настроены в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-112">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="e6ae1-113">Кроме того, важно, чтобы каждая подсеть была связана с сетевым сайтом, как описано в [привязку подсети к сетевому сайту в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="e6ae1-113">It is also essential that every subnet be associated to a network site, as explained in [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).</span></span>
 
-  - <span data-ttu-id="1dc5c-114">Убедитесь, что подсеть или IP-адреса всех серверов переднего плана, устройств для обеспечения связи в филиалах, серверов аудио- и видеоконференций (если они размещаются в отдельном пуле) и серверов-посредников настроены в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="1dc5c-114">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
+  - <span data-ttu-id="e6ae1-114">Убедитесь, что подсеть или IP-адреса всех серверов переднего плана, устройств для обеспечения связи в филиалах, серверов аудио- и видеоконференций (если они размещаются в отдельном пуле) и серверов-посредников настроены в параметрах конфигурации сети.</span><span class="sxs-lookup"><span data-stu-id="e6ae1-114">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
 
 </div>
 

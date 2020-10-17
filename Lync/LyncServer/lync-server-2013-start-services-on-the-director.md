@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: запуск служб в директоре'
+description: 'Lync Server 2013: запуск служб в директоре.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1958ce00884bcb60318598f8088fe60aae69ac3f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 51c134099fb328b8647ed7a9176987c06eeb8070
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509586"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541815"
 ---
-# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="9f1ef-102">Запуск служб в директоре в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f1ef-102">Start services on the Director in Lync Server 2013</span></span>
+# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="c9e34-103">Запуск служб в директоре в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9e34-103">Start services on the Director in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48509586"
 
 <span> </span>
 
-<span data-ttu-id="9f1ef-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="9f1ef-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="c9e34-104">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c9e34-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="9f1ef-104">После установки локального хранилища конфигурации, установки компонентов Lync Server и настройки сертификатов в директоре необходимо запустить службы Lync Server на сервере.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="9f1ef-105">Чтобы запустить службы на каждом Директоре в развертывании, можно воспользоваться следующей процедурой.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
+<span data-ttu-id="c9e34-105">После установки локального хранилища конфигурации, установки компонентов Lync Server и настройки сертификатов в директоре необходимо запустить службы Lync Server на сервере.</span><span class="sxs-lookup"><span data-stu-id="c9e34-105">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="c9e34-106">Чтобы запустить службы на каждом Директоре в развертывании, можно воспользоваться следующей процедурой.</span><span class="sxs-lookup"><span data-stu-id="c9e34-106">You can use the following procedure to start services on each Director in your deployment.</span></span>
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a><span data-ttu-id="9f1ef-106">Запуск служб на Директоре</span><span class="sxs-lookup"><span data-stu-id="9f1ef-106">To start services on a Director</span></span>
+## <a name="to-start-services-on-a-director"></a><span data-ttu-id="c9e34-107">Запуск служб на Директоре</span><span class="sxs-lookup"><span data-stu-id="c9e34-107">To start services on a Director</span></span>
 
-1.  <span data-ttu-id="9f1ef-107">В мастере развертывания Lync Server на странице **Lync server 2013** нажмите кнопку **выполнить** рядом с **шагом 4: Start Services**.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
+1.  <span data-ttu-id="c9e34-108">В мастере развертывания Lync Server на странице **Lync server 2013** нажмите кнопку **выполнить** рядом с **шагом 4: Start Services**.</span><span class="sxs-lookup"><span data-stu-id="c9e34-108">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
 
-2.  <span data-ttu-id="9f1ef-108">На странице **Запуск служб** нажмите кнопку **Далее** , чтобы запустить службы Lync Server на сервере.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
+2.  <span data-ttu-id="c9e34-109">На странице **Запуск служб** нажмите кнопку **Далее** , чтобы запустить службы Lync Server на сервере.</span><span class="sxs-lookup"><span data-stu-id="c9e34-109">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
 
-3.  <span data-ttu-id="9f1ef-109">После успешного запуска всех служб на странице **Выполнение команд** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
+3.  <span data-ttu-id="c9e34-110">После успешного запуска всех служб на странице **Выполнение команд** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="c9e34-110">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
 
-4.  <span data-ttu-id="9f1ef-110">Под пунктом **Шаг 4. Запуск служб** щелкните **Состояние служб (дополнительно)**.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="c9e34-111">Под пунктом **Шаг 4. Запуск служб** щелкните **Состояние служб (дополнительно)**.</span><span class="sxs-lookup"><span data-stu-id="c9e34-111">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="9f1ef-111">В консоли **управления Microsoft (** MMC) на сервере убедитесь, что все службы Lync Server 2013 работают.</span><span class="sxs-lookup"><span data-stu-id="9f1ef-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="c9e34-112">В консоли **управления Microsoft (** MMC) на сервере убедитесь, что все службы Lync Server 2013 работают.</span><span class="sxs-lookup"><span data-stu-id="c9e34-112">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 
