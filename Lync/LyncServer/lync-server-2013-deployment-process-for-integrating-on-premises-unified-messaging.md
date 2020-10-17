@@ -12,20 +12,22 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f8edade1ed4f0480d776e77eb66816c033a7e3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529126"
 ---
+# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ _**Последнее изменение темы:** 2012-12-17_
 <thead>
 <tr class="header">
 <th>Этап</th>
-<th>Шаги</th>
+<th>Действия</th>
 <th>Необходимые группы и роли</th>
 <th>Документация по развертыванию</th>
 </tr>
@@ -97,13 +99,13 @@ _**Последнее изменение темы:** 2012-12-17_
 <td><p>Изучите соответствующую документацию для вашей версии Exchange Server:</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Документация по развертыванию Exchange Server <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>2007 на сайте.</p>
+<dd><p>Документация по развертыванию Exchange Server 2007 на сайте <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a> .</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Документация по развертыванию Exchange Server 2010 или новейшей <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>версии пакета обновления на сайте.</p>
+<dd><p>Документация по развертыванию Exchange Server 2010 или новейшей версии пакета обновления на сайте <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a> .</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Планирование и развертывание Microsoft Exchange Server 2013 на <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>сайте.</p>
+<dd><p>Планирование и развертывание Microsoft Exchange Server 2013 на сайте <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a> .</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +119,9 @@ _**Последнее изменение темы:** 2012-12-17_
 <td><p>Создайте и настройте новую абонентскую группу SIP единой системы обмена сообщениями Exchange.</p></td>
 <td><p>На сервере единой системы обмена сообщениями Exchange создайте абонентскую группу SIP на основе конкретных требований к развертыванию вашей организации.</p></td>
 <td><p>Администратор организации Exchange</p></td>
-<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1 &quot;) или более поздней версии ознакомьтесь со статьей&quot; создание <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>абонентской группы URI SIP единой системы обмена сообщениями в.</p>
-<p>&quot; В <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>статье &quot;Создание абонентской группы единой системы обмена сообщениями для Exchange 2010 или более позднего пакета обновления.</p>
-<p>Для Exchange 2013: единая система обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>сообщениями по адресу.</p></td>
+<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии ознакомьтесь со статьей &quot; Создание абонентской группы URI SIP единой системы обмена сообщениями &quot; в <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a> .</p>
+<p>&quot;В статье Создание абонентской группы единой системы обмена сообщениями для Exchange 2010 или более позднего пакета обновления &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a> .</p>
+<p>Для Exchange 2013: единая система обмена сообщениями по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Настройте параметры безопасности для абонентской группы SIP единой системы обмена сообщениями Exchange.</p></td>
@@ -127,32 +129,32 @@ _**Последнее изменение темы:** 2012-12-17_
 <td><p>Администратор организации Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Настройка единой системы обмена сообщениями в Microsoft Exchange для Lync Server 2013</a></p>
 <p>Сведения об Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии см.</p>
-<p>&quot;Настройка безопасности для абонентской группы единой системы обмена&quot; сообщениями <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a>по адресу.</p>
+<p>&quot;Настройка безопасности для абонентской группы единой системы обмена сообщениями &quot; по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a> .</p>
 <p>Для Exchange 2010 или более поздней версии пакета обновления см. также следующие статьи:</p>
-<p>&quot;Настройка безопасности VoIP для абонентской группы&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>единой системы обмена сообщениями.</p>
-<p>Для Exchange 2013: единая система обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>сообщениями по адресу.</p></td>
+<p>&quot;Настройка безопасности VoIP для абонентской группы единой системы обмена сообщениями &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a> .</p>
+<p>Для Exchange 2013: единая система обмена сообщениями по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Добавьте серверы единой системы обмена сообщениями в абонентскую группу SIP единой системы обмена сообщениями Exchange.</p></td>
 <td><p>Чтобы добавленный сервер единой системы обмена сообщениями отвечал на входящие звонки и обрабатывал их, необходимо добавить его в абонентскую группу единой системы обмена сообщениями. В этом случае добавьте сервер в абонентскую группу SIP единой системы обмена сообщениями Exchange.</p></td>
 <td><p>Администраторы</p>
 <p>Администраторы Exchange Server</p></td>
-<td><p>В случае с Exchange 2007 с пакетом обновления 1 &quot;(SP1) или более поздней версии Узнайте,&quot; как <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>добавить сервер единой системы обмена сообщениями в абонентскую службу.</p>
-<p>Для Exchange 2010 или более поздней версии можно &quot;просмотреть или настроить свойства сервера&quot; единой системы обмена сообщениями <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>на сайте.</p>
-<p>Для Exchange 2013: единая система обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>сообщениями по адресу.</p></td>
+<td><p>В случае с Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии Узнайте, &quot; как добавить сервер единой системы обмена сообщениями в абонентскую службу &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a> .</p>
+<p>Для Exchange 2010 или более поздней версии можно просмотреть &quot; или настроить свойства сервера единой системы обмена сообщениями &quot; на сайте <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a> .</p>
+<p>Для Exchange 2013: единая система обмена сообщениями по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Настройте SIP-адреса для почтовых ящиков.</p></td>
 <td><p>Назначьте SIP адреса почтовым ящикам пользователей корпоративной голосовой связи, которые будут использовать функции единой системы обмена сообщениями Exchange.</p></td>
 <td><p>Lync Server 2013, администратор</p>
 <p>Администратор получателей Exchange</p></td>
-<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1 &quot;) или более поздней версии Узнайте, как добавить, удалить или изменить SIP адрес для&quot; пользователя <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>с включенной поддержкой единой системы обмена сообщениями.</p>
-<p>Для Exchange 2010 или более поздней версии в &quot;разделе изменение SIP SIP Address для пользователя&quot; с включенной поддержкой <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>единой системы обмена сообщениями по адресу.</p>
-<p>Для Exchange 2013: единая система обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>сообщениями по адресу.</p></td>
+<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии Узнайте, &quot; как добавить, удалить или изменить SIP адрес для пользователя UM-Enabled по адресу &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a> .</p>
+<p>Для Exchange 2010 или более поздней версии в разделе &quot; изменение SIP SIP Address для UM-Enabled пользователя &quot; по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a> .</p>
+<p>Для Exchange 2013: единая система обмена сообщениями по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p>Запустите скрипт exchucutil.ps1.</p></td>
-<td><p>На сервере, на котором запущены службы единой системы обмена сообщениями, откройте командную консоль Exchange и запустите сценарий сценарий ExchUCUtil. ps1, который выполняет следующие действия:</p>
+<td><p>На сервере, на котором запущены службы единой системы обмена сообщениями, откройте командную консоль Exchange и выполните сценарий exchucutil.ps1, который выполняет следующие действия:</p>
 <ul>
 <li><p>Предоставляет Lync Server 2013 разрешение на чтение объектов доменных служб Active Directory единой системы обмена сообщениями Exchange, а именно абонентских групп SIP, созданных в предыдущей задаче.</p></li>
 <li><p>Создает объект шлюза IP единой системы обмена сообщениями в Active Directory для каждого пула Lync Server 2013 Enterprise Edition или сервера Standard Edition, на котором размещаются пользователи, для которых включена поддержка корпоративной голосовой связи.</p></li>
@@ -185,7 +187,7 @@ _**Последнее изменение темы:** 2012-12-17_
 </tr>
 <tr class="odd">
 <td><p>Запустите средство интеграции единой системы обмена сообщениями Exchange.</p></td>
-<td><p>На Lync Server 2013 выполните <strong>ocsumutil. exe</strong>, который:</p>
+<td><p>На сервере Lync Server 2013 выполните <strong>ocsumutil.exe</strong>, который:</p>
 <ul>
 <li><p>создает объекты контактов абонентского доступа и автосекретаря;</p></li>
 <li><p>Проверка наличия абонентской группы корпоративной голосовой связи с именем, которое соответствует полному доменному имени абонентской группы единой системы обмена сообщениями Exchange. Если вы используете Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии, имена абонентской группы не обязательно должны быть согласованы, и вы можете пропустить предупреждение этого средства.</p></li>
@@ -231,9 +233,9 @@ _**Последнее изменение темы:** 2012-12-17_
 <td><p>Включение пользователей корпоративной голосовой связи для единой системы обмена сообщениями Exchange.</p></td>
 <td><p>На сервере единой системы обмена сообщениями Exchange убедитесь, что создана политика почтовых ящиков единой системы обмена сообщениями и у каждого пользователя есть уникальное назначение добавочного номера, а затем включите для пользователя единую систему обмена сообщениями.</p></td>
 <td><p>Администратор получателей Exchange</p></td>
-<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1 &quot;) или более <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>поздней версии Узнайте,&quot; как включить для пользователя поддержку единой системы обмена сообщениями.</p>
-<p>Для сервера Exchange 2010 или более поздней версии &quot;в разделе Включение поддержки единой системы&quot; обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>сообщениями в Exchange или более поздней версии.</p>
-<p>Для Exchange 2013: единая система обмена <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>сообщениями по адресу.</p></td>
+<td><p>Для Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии Узнайте, &quot; как включить для пользователя поддержку единой системы обмена сообщениями &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a> .</p>
+<p>Для сервера Exchange 2010 или более поздней версии &quot; в разделе Включение поддержки единой системы обмена сообщениями в Exchange или более поздней версии &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a> .</p>
+<p>Для Exchange 2013: единая система обмена сообщениями по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> .</p></td>
 </tr>
 </tbody>
 </table>

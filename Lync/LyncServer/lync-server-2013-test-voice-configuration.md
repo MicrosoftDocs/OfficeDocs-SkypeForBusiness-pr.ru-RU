@@ -12,20 +12,22 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3bd2e9b86ee0c14d8fd9e2bbe386d48398d2418
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1491aa1d28de238bcadd2a024021fabf16e9128a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194392"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527906"
 ---
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Тестовая конфигурация голосовой связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a>Тестовая конфигурация голосовой связи в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-05-20_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Monthly Channel</p></td>
+<td><p>Monthly</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2014-05-20_
 
 ## <a name="description"></a>Описание
 
-Lync Server включает несколько командлетов Windows PowerShell (например, Test-Ксвоицерауте и Test-CsVoicePolicy, Test-CsTrunkConfiguration), которые позволяют проверить, что отдельные части корпоративной голосовой связи — маршруты голосовых вызовов, голосовая связь политики, магистральные линии SIP — работают должным образом.
+Lync Server включает несколько командлетов Windows PowerShell (таких как Test-CsVoiceRoute и Test-CsVoicePolicy, Test-CsTrunkConfiguration), позволяющих убедиться, что отдельные части корпоративной голосовой связи — маршруты голосовой связи, политики голосовой связи, магистральные линии SIP — работают должным образом.
 
 Несмотря на то, что корпоративная голосовая связь важна для всех отдельных частей, может существовать действительный маршрут голосовых вызовов, действительная политика голосовой связи и действительная магистральная линия SIP, но пользователи не могут совершать или принимать телефонные звонки. Из-за этого Lync Server также предоставляет возможность создавать конфигурации тестовых голосов. Конфигурации тестовых тестов представляют собой распространенные сценарии корпоративной голосовой связи: вы можете указать такие параметры, как маршрут голосовой связи, политика голосовой связи и абонентская абонентская группы, а затем убедиться, что эти отдельные элементы могут работать совместно для предоставления услуг телефонной связи. Кроме того, вы можете проверить свои ожидания в определенном сценарии. Например, предположим, что сочетание абонентской группы а и политика голосовой связи б приведут к маршрутизации вызовов через голосовую маршрутизацию C. Вы можете ввести Voice Route C в качестве Експектедрауте. Если вы выполняете тест, если голосовая связь C не установлена, тест будет помечен как неудачный.
 
@@ -76,7 +78,7 @@ Lync Server включает несколько командлетов Windows P
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Перед тестированием коллекций настройки голосовой связи с помощью Windows PowerShell сначала необходимо использовать командлет Get – CsVoiceTestConfiguration для получения экземпляра этих параметров конфигурации. Затем этот экземпляр должен быть передан в командлет Test-CsVoiceTestConfiguration. Например:
+Перед тестированием коллекций настройки голосовой связи с помощью Windows PowerShell необходимо сначала использовать командлет Get-CsVoiceTestConfiguration, чтобы получить экземпляр этих параметров конфигурации. Затем этот экземпляр должен быть передан в командлет Test-CsVoiceTestConfiguration. Например:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
@@ -84,7 +86,7 @@ Lync Server включает несколько командлетов Windows P
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-Дополнительные сведения можно найти в справочной документации по командлету Test-CsVoiceTestConfiguration.
+Для получения дополнительных сведений обратитесь к справочной документации по командлету Test-CsVoiceTestConfiguration.
 
 </div>
 
@@ -92,13 +94,13 @@ Lync Server включает несколько командлетов Windows P
 
 ## <a name="determining-success-or-failure"></a>Определение успешности или сбоя
 
-Командлет Test-CsVoiceTestConfiguration сообщает о том, что тест завершился успешно или успешно, и предоставляет дополнительные сведения о каждом успешном тесте, такие как правило преобразования, маршрут голосовых вызовов и использование PSTN, используемое для выполнения задачи.
+Командлет Test-CsVoiceTestConfiguration сообщает о неудачном или успешном выполнении теста и предоставляет дополнительные сведения о каждом успешном тесте, например правиле трансляции, маршруте голосовой связи и использовании PSTN, используемой для выполнения этой задачи:
 
 Результат: успешное выполнение
 
 Транслатеднумбер: + 15551234
 
-Матчингруле: Description =; Pattern = ^ (\\d{4}) $; Перевод = + 1\\d; Name = Test; Исинтерналекстенсион = false
+Матчингруле: Description =; Pattern = ^ ( \\ d {4} ) $; Перевод = + 1 \\ d; Name = Test; Исинтерналекстенсион = false
 
 Фирстматчинграуте: site: Redmond
 
@@ -128,7 +130,7 @@ Lync Server включает несколько командлетов Windows P
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-Параметр verbose предоставляет пошаговые инструкции для каждого действия, выполняемого с помощью Test-CsVoiceTestConfiguration, как показано в следующем примере:
+Параметр verbose предоставляет пошаговые учетные записи каждого действия, выполняемого Test-CsVoiceTestConfiguration, как показано в следующем примере:
 
 VERBOSE: Загрузка абонентской группы: "Глобальная"
 

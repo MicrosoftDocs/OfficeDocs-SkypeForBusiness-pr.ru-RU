@@ -12,20 +12,22 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1e8203d7ca76ed6bb6e9caab33d633af97c21ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 646f4ae59ce5058af84c0e5ddd3197f7a9f47fe7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528996"
 ---
+# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Отключение или повторное включение учетной записи пользователя для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Отключение или повторное включение учетной записи пользователя для Lync Server 2013
+
 
 </div>
 
@@ -75,13 +77,13 @@ _**Последнее изменение темы:** 2016-04-04_
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Использование Windows PowerShell для отключения или повторного включения учетных записей пользователей
 
-Учетные записи пользователей можно временно отключить, а затем снова включить с помощью командлета **Set – CsUser** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Учетные записи пользователей можно временно отключить, а затем снова включить с помощью командлета **Set – CsUser** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
 ## <a name="to-disable-a-user-account"></a>Отключение учетной записи пользователя
 
-  - Чтобы временно отключить учетную запись пользователя, установите значение свойства "Enabled" равным False ($False). Например:
+  - Чтобы временно отключить учетную запись пользователя, установите значение свойства "Enabled" равным False ($False). Пример:
     
         Set-CsUser -Identity "Ken Myer" -Enabled $False
 

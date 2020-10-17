@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528196"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Управление объектом контакта размещенного сервера Exchange в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a>Управление объектом контакта размещенного сервера Exchange в Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ _**Последнее изменение темы:** 2012-09-25_
 
 В этом примере создается новый контактный объект единой системы обмена сообщениями Exchange с SIP-адресом sip:exumaa1@fabrikam.com. Имя пула, в котором работает служба регистратора Lync Server 2013, — RedmondPool.litwareinc.com. Сведения будут сохраняться в подразделении Active Directory OU=ExUmContacts,DC=litwareinc,DC=com. Телефонный номер контактного объекта — 2065554567. Дополнительный параметр -AutoAttendant $True указывает, что этот объект является контактным объектом автосекретаря. Значение False параметра -AutoAttendant (установленное по умолчанию) указывает контактный объект абонентского доступа.
 
-Сведения о командлетах New – CsExUmContact и Set CsExUmContact можно найти в документации по консоли управления Lync Server.
+Сведения о командлетах New-CsExUmContact и Set-CsExUmContact содержатся в документации по консоли управления Lync Server.
 
 </div>
 

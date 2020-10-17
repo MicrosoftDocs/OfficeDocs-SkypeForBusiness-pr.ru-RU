@@ -12,20 +12,22 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebb2eb7695cfcc3b1ed6166f7768128dc48fb8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c8d7f99b4a7c72b9eb039fb7447397e711caa36
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527926"
 ---
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по портам — Федерация протокола XMPP (Extensible Messaging and Presence Protocol) в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по портам — Федерация протокола XMPP (Extensible Messaging and Presence Protocol) в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208774"
 
 _**Последнее изменение темы:** 2012-10-20_
 
-Порты и протоколы, определенные для прокси-сервера Extensible Messaging and Presence Protocol (XMPP), развернутого на пограничном сервере, разрешают обмен данными между федеративным партнером XMPP на пограничный сервер, а также обеспечивает обмен данными между пограничным сервером и XMPP Федеративный партнер. Кроме того, правило определяется на внутреннем брандмауэре от сервера переднего плана или интерфейсного пула до пограничного сервера или пограничного пула.
+Порты и протоколы, определенные для прокси-сервера Extensible Messaging and Presence Protocol (XMPP), развернутого на пограничном сервере, разрешают обмен данными между федеративным партнером XMPP на пограничный сервер, а также позволяет осуществлять обмен данными от пограничного сервера к федеративным партнеру XMPP. Кроме того, правило определяется на внутреннем брандмауэре от сервера переднего плана или интерфейсного пула до пограничного сервера или пограничного пула.
 
 <div>
 
@@ -56,25 +58,25 @@ _**Последнее изменение темы:** 2012-10-20_
 <th>Протокол/TCP или UDP/порт</th>
 <th>Источник (IP-адрес)</th>
 <th>Назначение (IP-адрес)</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
 <td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает связь с прокси-сервером пограничного сервера XMPP от федеративных партнеров XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает обмен данными от прокси-сервера пограничного сервера XMPP к федеративным партнерам XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>IP-адрес внутреннего интерфейса пограничного сервера</p></td>
 <td><p>Внутренний трафик XMPP от шлюза XMPP на сервере переднего плана или интерфейсном пуле к пограничным серверам</p></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддержка маршрутизации на основе расположения для клиентов и серверов'
+title: 'Lync Server 2013: поддержка маршрутизации Location-Based на клиенте и сервере'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daf0fb3656a5a57a5e4c7a6c25b7a08d29f79e86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d85e2ce1738ee5de9d4d542cedd7a9e544771938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529346"
 ---
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Поддержка маршрутизации Location-Based для клиентов и серверов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Поддержка маршрутизации на основе расположения в клиенте и сервере в Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42197852"
 
 _**Последнее изменение темы:** 2013-06-18_
 
-Маршрутизация на основе расположения обеспечивается Lync Server. Lync Server может определять сетевые сайты, к которым пользователи подключаются из корпоративной сети. Так как удаленные пользователи выходят за границы корпоративной сети, их расположение считается неизвестным.
+Location-Based маршрутизация обеспечивается Lync Server. Lync Server может определять сетевые сайты, к которым пользователи подключаются из корпоративной сети. Так как удаленные пользователи выходят за границы корпоративной сети, их расположение считается неизвестным.
 
 <div>
 
 ## <a name="lync-server-support"></a>Поддержка Lync Server
 
-Для маршрутизации на основе расположения необходимо, чтобы Lync Server 2013 CU1 был развернут на всех интерфейсных пулах и серверах Standard Edition в заданной топологии. Если Lync Server 2013 CU1 не установлен на определенных компонентах Lync в топологии, ограничения маршрутизации на основе расположения не могут быть полностью применены.
+Для маршрутизации Location-Based необходимо, чтобы Lync Server 2013 CU1 был развернут на всех интерфейсных пулах и серверах Standard Edition в заданной топологии. Если Lync Server 2013 CU1 не установлен на определенных компонентах Lync в топологии, ограничения маршрутизации Location-Based не могут быть полностью применены.
 
-В следующей таблице указаны комбинации ролей и версий сервера, которые поддерживают маршрутизацию на основе расположения.
+В следующей таблице указаны комбинации ролей и версий сервера, которые поддерживаются для маршрутизации Location-Based.
 
 
 <table>
@@ -70,32 +72,32 @@ _**Последнее изменение темы:** 2013-06-18_
 <tr class="even">
 <td><p>Накопительный пакет обновления Lync Server 2013 февраль 2013</p></td>
 <td><p>Lync Server 2013</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p>Накопительный пакет обновления Lync Server 2013 февраль 2013</p></td>
-<td><p>Lync Server 2010</p></td>
-<td><p>нет</p></td>
+<td><p>Lync Server 2010</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="even">
 <td><p>Накопительный пакет обновления Lync Server 2013 февраль 2013</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
 <td><p>любой</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2010</p></td>
+<td><p>Lync Server 2010</p></td>
 <td><p>любой</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>любой</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +109,7 @@ _**Последнее изменение темы:** 2013-06-18_
 
 ## <a name="lync-client-support"></a>Поддержка клиента Lync
 
-В следующей таблице указаны клиенты, поддерживаемые маршрутизацией на основе расположения.
+В следующей таблице указаны клиенты, которые Location-Based поддерживаются службой маршрутизации.
 
 
 <table>
@@ -136,7 +138,7 @@ _**Последнее изменение темы:** 2013-06-18_
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 <td> </td>
 </tr>
 <tr class="even">
@@ -151,13 +153,13 @@ _**Последнее изменение темы:** 2013-06-18_
 </tr>
 <tr class="even">
 <td><p>Lync для Windows 8</p></td>
-<td><p>нет</p></td>
+<td><p>Нет</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
-<td><p>нет</p></td>
-<td><p>Службу VoIP необходимо отключить для клиентов Lync Mobile 2013, если они используются пользователями, для которых включена маршрутизация на основе расположения.</p></td>
+<td><p>Нет</p></td>
+<td><p>Службу VoIP необходимо отключить для клиентов Lync Mobile 2013, если они используются пользователями с включенной маршрутизацией Location-Based.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -186,7 +188,7 @@ _**Последнее изменение темы:** 2013-06-18_
 ## <a name="see-also"></a>См. также
 
 
-[Планирование маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Планирование маршрутизации Location-Based в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

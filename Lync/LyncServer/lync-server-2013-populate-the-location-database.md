@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527976"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Заполнение базы данных расположений в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Заполнение базы данных расположений в Lync Server 2013
+
 
 </div>
 
@@ -58,23 +60,23 @@ _**Последнее изменение темы:** 2012-09-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>Точка беспроводного доступа</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;&gt;,... по направлению</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p>&lt;BSSID &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; хаусенумбер &gt; , &lt; хаусенумберсуффикс &gt; , &lt; ,... по направлению &gt;</p>
+<p>... &lt; Стритнаме &gt; , &lt; Стритсуффикс &gt; , &lt; двусторонний &gt; , City, &lt; &gt; &lt; штат &gt; , &lt; PostalCode &gt; , &lt; страна&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Подсеть</strong></p></td>
-<td><p>&lt;&gt;Подсеть&lt;,&gt;Описание&lt;,&gt;расположение&lt;,&gt;название&lt;Организации&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс, преднаправленный&gt;,...</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;Подсеть &gt; , &lt; Описание &gt; , &lt; расположение &gt; , &lt; название организации &gt; , &lt; хаусенумбер &gt; , &lt; хаусенумберсуффикс &gt; , &lt; преднаправленный &gt; ,...</p>
+<p>... &lt; Стритнаме &gt; , &lt; Стритсуффикс &gt; , &lt; двусторонний &gt; , City, &lt; &gt; &lt; штат &gt; , &lt; PostalCode &gt; , &lt; страна&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;Чассисид&gt;,&lt;портидсубтипе&gt;,&lt;Портид&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,...</p>
-<p>... &lt;Преднаправленный&gt;,&lt;стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, город&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p>&lt;Чассисид &gt; , &lt; портидсубтипе &gt; , &lt; Портид &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; хаусенумбер &gt; , &lt; хаусенумберсуффикс &gt; ,...</p>
+<p>... &lt; Преднаправленный &gt; , &lt; стритнаме &gt; , &lt; стритсуффикс &gt; , &lt; двусторонний &gt; , &lt; город &gt; , &lt; штат &gt; , PostalCode, &lt; &gt; &lt; страна&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Переключатель</strong></p></td>
-<td><p>&lt;Чассисид&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
-<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
+<td><p>&lt;Чассисид &gt; , &lt; Description &gt; , &lt; Location &gt; , &lt; CompanyName &gt; , &lt; хаусенумбер &gt; , &lt; хаусенумберсуффикс &gt; , &lt; преднаправленный &gt; ,...</p>
+<p>... &lt; Стритнаме &gt; , &lt; Стритсуффикс &gt; , &lt; двусторонний &gt; , City, &lt; &gt; &lt; штат &gt; , &lt; PostalCode &gt; , &lt; страна&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +90,7 @@ _**Последнее изменение темы:** 2012-09-17_
 
   - **Set — Кслиссубнет**
 
-  - Remove — Кслиссубнет
+  - Remove-CsLisSubnet
 
   - **Get — Кслисвирелессакцесспоинт**
 

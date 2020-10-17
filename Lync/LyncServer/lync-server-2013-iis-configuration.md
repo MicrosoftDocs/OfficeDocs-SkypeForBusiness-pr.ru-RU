@@ -12,20 +12,22 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2dd96b45105eabe644b86ba5ab3af099ea8e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fc8895a144b4911560af8fd6a2f12d576f3ec14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199352"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528156"
 ---
+# <a name="iis-configuration-in-lync-server-2013"></a>Конфигурация IIS в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a>Конфигурация IIS в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Если в Организации требуется, чтобы службы IIS и все веб-службы настроились на диске, отличном от системного диска, можно изменить путь к папке установки для файлов Lync Server 2013 в диалоговом окне программы установки при первоначальной установке Lync Server 2013 Средства администрирования. Средства администрирования устанавливаются перед установкой служб IIS. Если вы устанавливаете файлы установки по этому пути, включая OCSCore. msi, остальные файлы Lync Server 2013 будут развернуты на этом диске. Сведения о дтаилс можно найти в <A href="lync-server-2013-install-lync-server-administrative-tools.md">статье Установка средств администрирования Lync Server 2013</A>. Сведения о том, как переместить INETPUB, развернутый диспетчером Windows Server при установке IIS, <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>можно узнать в разделе.
+> Если в Организации требуется, чтобы службы IIS и все веб-службы настроились на диске, отличном от системного диска, можно изменить путь к папке установки для файлов Lync Server 2013 в диалоговом окне программы установки при первоначальной установке средств администрирования Lync Server 2013. Средства администрирования устанавливаются перед установкой служб IIS. Если вы устанавливаете файлы установки по указанному пути, в том числе OCSCore.msi, остальные файлы Lync Server 2013 будут развернуты на этом диске. Сведения о дтаилс можно найти в <A href="lync-server-2013-install-lync-server-administrative-tools.md">статье Установка средств администрирования Lync Server 2013</A>. Сведения о том, как переместить INETPUB, развернутый диспетчером Windows Server при установке IIS, можно узнать в разделе <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> .
 
 
 
@@ -155,7 +157,7 @@ _**Последнее изменение темы:** 2014-02-17_
 
 
 > [!NOTE]  
-> Анонимная проверка подлинности устанавливается по умолчанию при установке роли сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки служб IIS. Дополнительные сведения см. в <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>разделе "Включение анонимной проверки подлинности (IIS 7)".
+> Анонимная проверка подлинности устанавливается по умолчанию при установке роли сервера IIS. Вы можете управлять анонимной проверкой подлинности после установки служб IIS. Дополнительные сведения см. в разделе "Включение анонимной проверки подлинности (IIS 7)" <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A> .
 
 
 
@@ -167,7 +169,7 @@ _**Последнее изменение темы:** 2014-02-17_
 
 
 > [!NOTE]  
-> Для Windows Server 2012 и Windows Server 2012 R2 командлет Add $ WindowsFeature заменен командлетом Install/WindowsFeature. Дополнительные сведения см. в разделе <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install $ WindowsFeature</A>.
+> Для Windows Server 2012 и Windows Server 2012 R2 командлет Add-WindowsFeature был заменен командлетом Install-WindowsFeature. Дополнительные сведения см. в разделе <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install $ WindowsFeature</A>.
 
 
 
@@ -216,7 +218,7 @@ _**Последнее изменение темы:** 2014-02-17_
 <td><p>Ведение журнала HTTP</p></td>
 </tr>
 <tr class="even">
-<td><p>Работоспособность и диагностика</p></td>
+<td><p>Проверка работоспособности и диагностика</p></td>
 <td><p>Средства ведения журнала</p></td>
 </tr>
 <tr class="odd">
@@ -357,7 +359,7 @@ _**Последнее изменение темы:** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Новый элемент с Windows Server 2012 — это параметр – source, определяющий, где можно найти исходный носитель Windows Server 2012. Носитель можно определить как DVD-дисковод (например, Д:\саурцес\сксс) или в сетевую папку, в которую были скопированы файлы мультимедиа (например, \\fileserver\windows2012\sources\Sxs).
+> Новый элемент с Windows Server 2012 — это параметр – source, определяющий, где можно найти исходный носитель Windows Server 2012. Носитель можно определить как DVD-дисковод (например, Д:\саурцес\сксс) или в сетевую папку, в которую были скопированы файлы мультимедиа (например, \\ fileserver\windows2012\sources\Sxs).
 
 
 

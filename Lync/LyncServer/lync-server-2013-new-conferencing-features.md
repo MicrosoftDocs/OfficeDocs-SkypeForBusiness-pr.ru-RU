@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528046"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Новые возможности конференц-связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Новые возможности конференц-связи в Lync Server 2013
+
 
 </div>
 
@@ -49,13 +51,13 @@ Lync Server 2013 содержит несколько новых функций, 
     
       - устройства Apple iOS,
     
-      - Windows 8
+      - Windows 8
     
       - Internet Explorer 10
 
   - **Обновление функции совместного доступа к PowerPoint**
     
-    Lync Server 2013 теперь использует Office Web Apps и сервер Office Web Apps (прежнее название — WAC Server) для обработки презентаций PowerPoint. Использование сервера Office Web Apps обеспечивает более высокое разрешение экрана, а также улучшенную поддержку возможностей PowerPoint, доступ к дополнительным типам мобильных устройств (Lync Server 2013 использует стандартные DHTML и JavaScript для вещания презентаций PowerPoint), а также способность пользователей с соответствующими привилегиями прокручивать презентацию PowerPoint независимо от самой презентации.
+    Lync Server 2013 теперь использует Office Web Apps и сервер Office Web Apps (прежнее название — WAC Server) для обработки презентаций PowerPoint. Использование сервера Office Web Apps позволяет использовать более высокое разрешение экрана и улучшенную поддержку возможностей PowerPoint, доступ к дополнительным типам мобильных устройств (Lync Server 2013 использует стандартные DHTML и JavaScript для вещания презентаций PowerPoint), а пользователи с соответствующими привилегиями прокручивать презентацию PowerPoint независимо от самой презентации.
 
   - **Представление галереи и проведение видеоконференций в формате HD**
     

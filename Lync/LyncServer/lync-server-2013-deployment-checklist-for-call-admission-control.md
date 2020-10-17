@@ -12,20 +12,22 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96715d7f11cfa064681982be270f1030dc28a628
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 13d9591ad8dfed90373fedc8adfb3a3c3c44eb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529146"
 ---
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Контрольный список развертывания для контроля допуска звонков в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Контрольный список развертывания для контроля допуска звонков в Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2012-10-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Информация</th>
+<th>Сведения</th>
 <th>Сводка по необходимым сведениям</th>
 <th>Документация</th>
 </tr>
@@ -108,7 +110,7 @@ _**Последнее изменение темы:** 2012-10-08_
 <td><p>Требования к сетевому интерфейсу</p></td>
 <td><ul>
 <li><p>Сведения о внутреннем и внешнем интерфейсе</p></li>
-<li><p>Сведения о маршрутизации (в том числе сведения о блоге <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>, на который входит канал ответа группы Microsoft Lync Server).</p></li>
+<li><p>Сведения о маршрутизации (в том числе сведения о блоге <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a> , на который входит канал ответа группы Microsoft Lync Server).</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">Развертывание доступа внешних пользователей в Lync Server 2013</a></p></td>
 </tr>
@@ -126,7 +128,7 @@ _**Последнее изменение темы:** 2012-10-08_
 <tr class="odd">
 <td><p>Процесс развертывания</p></td>
 <td><ul>
-<li><p>Необходимые компоненты</p></li>
+<li><p>Предварительные условия</p></li>
 <li><p>Информационные требования</p></li>
 <li><p>Процесс и процедуры</p></li>
 </ul></td>

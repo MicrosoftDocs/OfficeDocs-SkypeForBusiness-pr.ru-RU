@@ -12,20 +12,22 @@ ms:contentKeyID: 48183347
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc93d529c5f93ad020634d631c94c09e0a94df1a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f06c4208e3830db2e32dc9866747b78a93b567e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528366"
 ---
+# <a name="exporting-archived-data-from-lync-server-2013"></a>Экспорт архивных данных из Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exporting-archived-data-from-lync-server-2013"></a>Экспорт архивных данных из Lync Server 2013
+
 
 </div>
 
@@ -45,11 +47,11 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Экспорт данных архивации с помощью командлетов Windows PowerShell
 
-Архивированные данные можно экспортировать с помощью командлета Export-CSArchivingData. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Архивированные данные можно экспортировать с помощью командлета Export-CSArchivingData. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 **Экспорт данных архивации**
 
-  - Эта команда экспортирует все данные atl-sql-001.litwareinc.com, архивированные с 1 июня 2012 г. Полученный выходной файл будет храниться в папке C:\\арчивинжекспортс.
+  - Эта команда экспортирует все данные atl-sql-001.litwareinc.com, архивированные с 1 июня 2012 г. Полученный выходной файл будет храниться в папке C: \\ арчивинжекспортс.
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 
