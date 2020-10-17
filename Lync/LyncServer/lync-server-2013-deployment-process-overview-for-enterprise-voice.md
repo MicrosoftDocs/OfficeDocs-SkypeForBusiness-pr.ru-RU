@@ -12,20 +12,22 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c57a737a272d8cdfd628dce394ecaffdb0c7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6e60786d8e46549a3f1e8fed70a96d4d28d2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499076"
 ---
+# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="f4456-102">Обзор процесса развертывания для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-102">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="429ef-102">Обзор процесса развертывания для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-102">Deployment process overview for Enterprise Voice in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,45 +37,45 @@ ms.locfileid: "42198202"
 
 <span> </span>
 
-<span data-ttu-id="429ef-103">_**Последнее изменение темы:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="429ef-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="f4456-103">_**Последнее изменение темы:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="f4456-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="429ef-104">Действия по развертыванию и настройке, которые необходимо выполнить, зависят от функции корпоративной голосовой связи или функциональных возможностей, добавляемых в среду Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="429ef-104">The deployment and configuration steps that you need to follow are dependent on the Enterprise Voice feature or functionality you are adding to your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="f4456-104">Действия по развертыванию и настройке, которые необходимо выполнить, зависят от функции корпоративной голосовой связи или функциональных возможностей, добавляемых в среду Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f4456-104">The deployment and configuration steps that you need to follow are dependent on the Enterprise Voice feature or functionality you are adding to your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="feature-deployment-overviews"></a><span data-ttu-id="429ef-105">Обзоры развертывания компонентов</span><span class="sxs-lookup"><span data-stu-id="429ef-105">Feature Deployment Overviews</span></span>
+## <a name="feature-deployment-overviews"></a><span data-ttu-id="f4456-105">Обзоры развертывания компонентов</span><span class="sxs-lookup"><span data-stu-id="f4456-105">Feature Deployment Overviews</span></span>
 
-<span data-ttu-id="429ef-106">Обзор развертывания подключения ТСОП см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="429ef-106">For an overview of deploying PSTN connectivity, see the following:</span></span>
+<span data-ttu-id="f4456-106">Обзор развертывания подключения ТСОП см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="f4456-106">For an overview of deploying PSTN connectivity, see the following:</span></span>
 
-  - [<span data-ttu-id="429ef-107">Контрольный список развертывания магистрали SIP для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-107">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [<span data-ttu-id="f4456-107">Контрольный список развертывания магистрали SIP для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-107">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
 
-  - [<span data-ttu-id="429ef-108">Параметры прямого развертывания SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-108">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
+  - [<span data-ttu-id="f4456-108">Параметры прямого развертывания SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-108">Direct SIP deployment options in Lync Server 2013</span></span>](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [<span data-ttu-id="429ef-109">Планирование маршрутизации исходящих голосовых вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-109">Planning outbound voice routing in Lync Server 2013</span></span>](lync-server-2013-planning-outbound-voice-routing.md)
+  - [<span data-ttu-id="f4456-109">Планирование маршрутизации исходящих голосовых вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-109">Planning outbound voice routing in Lync Server 2013</span></span>](lync-server-2013-planning-outbound-voice-routing.md)
 
-<span data-ttu-id="429ef-110">Общие сведения о развертывании единой системы обмена сообщениями Exchange (UM) приведены в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="429ef-110">For an overview of deploying Exchange Unified Messaging (UM), see the following:</span></span>
+<span data-ttu-id="f4456-110">Общие сведения о развертывании единой системы обмена сообщениями Exchange (UM) приведены в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="f4456-110">For an overview of deploying Exchange Unified Messaging (UM), see the following:</span></span>
 
-  - [<span data-ttu-id="429ef-111">Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-111">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="f4456-111">Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-111">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
-<span data-ttu-id="429ef-112">Обзор развертывания контроля допуска звонков см. в следующем разделе:</span><span class="sxs-lookup"><span data-stu-id="429ef-112">For an overview of deploying call admission control, see the following topics:</span></span>
+<span data-ttu-id="f4456-112">Обзор развертывания контроля допуска звонков см. в следующем разделе:</span><span class="sxs-lookup"><span data-stu-id="f4456-112">For an overview of deploying call admission control, see the following topics:</span></span>
 
-  - [<span data-ttu-id="429ef-113">Контрольный список развертывания для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-113">Deployment checklist for call admission control in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-call-admission-control.md)
+  - [<span data-ttu-id="f4456-113">Контрольный список развертывания для контроля допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-113">Deployment checklist for call admission control in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
-<span data-ttu-id="429ef-114">Обзор развертывания экстренных служб см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="429ef-114">For an overview of the deployment process for Emergency Services, see the following:</span></span>
+<span data-ttu-id="f4456-114">Обзор развертывания экстренных служб см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="f4456-114">For an overview of the deployment process for Emergency Services, see the following:</span></span>
 
-  - [<span data-ttu-id="429ef-115">Определение требований для экстренных вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-115">Defining your requirements for emergency calls in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
+  - [<span data-ttu-id="f4456-115">Определение требований для экстренных вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-115">Defining your requirements for emergency calls in Lync Server 2013</span></span>](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [<span data-ttu-id="429ef-116">Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-116">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [<span data-ttu-id="f4456-116">Выбор поставщика услуг E9 – 1 – 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-116">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [<span data-ttu-id="429ef-117">Контрольный список развертывания для E9 – 1 – 1 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-117">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [<span data-ttu-id="f4456-117">Контрольный список развертывания для E9 – 1 – 1 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-117">Deployment checklist for E9-1-1 in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-<span data-ttu-id="429ef-118">Общие сведения о развертывании частных телефонных линий можно найти в разделе "частные телефонные линии в смешанных развертываниях" [планирования для частных телефонных линий с помощью Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).</span><span class="sxs-lookup"><span data-stu-id="429ef-118">For an overview of deploying private telephone lines, see the “Private Telephone Lines in Mixed Deployments” section of [Planning for private telephone lines with Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).</span></span>
+<span data-ttu-id="f4456-118">Общие сведения о развертывании частных телефонных линий можно найти в разделе "частные телефонные линии в смешанных развертываниях" [планирования для частных телефонных линий с помощью Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).</span><span class="sxs-lookup"><span data-stu-id="f4456-118">For an overview of deploying private telephone lines, see the “Private Telephone Lines in Mixed Deployments” section of [Planning for private telephone lines with Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md).</span></span>
 
-<span data-ttu-id="429ef-119">Обзор развертывания функций обработки звонков (парковка вызова, приложение "Оповещение" и группы ответа) см. в следующем разделе:</span><span class="sxs-lookup"><span data-stu-id="429ef-119">For an overview of the deployment of call handling features (call parking, announcement application, and response groups), see the following:</span></span>
+<span data-ttu-id="f4456-119">Обзор развертывания функций обработки звонков (парковка вызова, приложение "Оповещение" и группы ответа) см. в следующем разделе:</span><span class="sxs-lookup"><span data-stu-id="f4456-119">For an overview of the deployment of call handling features (call parking, announcement application, and response groups), see the following:</span></span>
 
-  - [<span data-ttu-id="429ef-120">Процесс развертывания для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-120">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+  - [<span data-ttu-id="f4456-120">Процесс развертывания для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-120">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [<span data-ttu-id="429ef-121">Процесс развертывания приложения "объявление" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="429ef-121">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [<span data-ttu-id="f4456-121">Процесс развертывания приложения "объявление" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f4456-121">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

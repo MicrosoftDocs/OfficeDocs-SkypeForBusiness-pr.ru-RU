@@ -12,20 +12,22 @@ ms:contentKeyID: 48184176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd525e6c1690d2c1b1dd26bcae2aa447d8b9a02
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8987bc1078dfdfaec8cccdb6625ceb9846ef6a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205439"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499176"
 ---
+# <a name="clientversions-table-in-lync-server-2013"></a><span data-ttu-id="c006b-102">Таблица Таблица clientversions в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c006b-102">ClientVersions table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clientversions-table-in-lync-server-2013"></a><span data-ttu-id="6d6a6-102">Таблица Таблица clientversions в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d6a6-102">ClientVersions table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42205439"
 
 <span> </span>
 
-<span data-ttu-id="6d6a6-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="6d6a6-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="c006b-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="c006b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="6d6a6-p101">Таблица ClientVersions является вспомогательной таблицей, в которой хранится список различных типов и версий клиентов, которые приняли участие в сеансах, зарегистрированных в базе данных. Каждая запись в таблице представляет одну версию клиента.</span><span class="sxs-lookup"><span data-stu-id="6d6a6-p101">The ClientVersions table is a supporting table that stores a list of the various client types and versions that have participated in sessions recorded in the database. Each record in the table represents one client version.</span></span>
+<span data-ttu-id="c006b-p101">Таблица ClientVersions является вспомогательной таблицей, в которой хранится список различных типов и версий клиентов, которые приняли участие в сеансах, зарегистрированных в базе данных. Каждая запись в таблице представляет одну версию клиента.</span><span class="sxs-lookup"><span data-stu-id="c006b-p101">The ClientVersions table is a supporting table that stores a list of the various client types and versions that have participated in sessions recorded in the database. Each record in the table represents one client version.</span></span>
 
 
 <table>
@@ -49,31 +51,31 @@ ms.locfileid: "42205439"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6d6a6-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="6d6a6-106">Column</span></span></th>
-<th><span data-ttu-id="6d6a6-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="6d6a6-107">Data Type</span></span></th>
-<th><span data-ttu-id="6d6a6-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="6d6a6-108">Key/Index</span></span></th>
-<th><span data-ttu-id="6d6a6-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="6d6a6-109">Details</span></span></th>
+<th><span data-ttu-id="c006b-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="c006b-106">Column</span></span></th>
+<th><span data-ttu-id="c006b-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="c006b-107">Data Type</span></span></th>
+<th><span data-ttu-id="c006b-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="c006b-108">Key/Index</span></span></th>
+<th><span data-ttu-id="c006b-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="c006b-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6d6a6-110"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="6d6a6-110"><strong>VersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d6a6-111"><strong>int</strong></span><span class="sxs-lookup"><span data-stu-id="6d6a6-111"><strong>int</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d6a6-112">Primary</span><span class="sxs-lookup"><span data-stu-id="6d6a6-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6d6a6-113">Уникальный номер, идентифицирующий данный тип и версию клиента.</span><span class="sxs-lookup"><span data-stu-id="6d6a6-113">Unique number identifying this client type and version.</span></span></p></td>
+<td><p><span data-ttu-id="c006b-110"><strong>VersionId</strong></span><span class="sxs-lookup"><span data-stu-id="c006b-110"><strong>VersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="c006b-111"><strong>int</strong></span><span class="sxs-lookup"><span data-stu-id="c006b-111"><strong>int</strong></span></span></p></td>
+<td><p><span data-ttu-id="c006b-112">Primary</span><span class="sxs-lookup"><span data-stu-id="c006b-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="c006b-113">Уникальный номер, идентифицирующий данный тип и версию клиента.</span><span class="sxs-lookup"><span data-stu-id="c006b-113">Unique number identifying this client type and version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6d6a6-114"><strong>Версия</strong></span><span class="sxs-lookup"><span data-stu-id="6d6a6-114"><strong>Version</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d6a6-115"><strong>nvarchar (256)</strong></span><span class="sxs-lookup"><span data-stu-id="6d6a6-115"><strong>nvarchar(256)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c006b-114"><strong>Версия</strong></span><span class="sxs-lookup"><span data-stu-id="c006b-114"><strong>Version</strong></span></span></p></td>
+<td><p><span data-ttu-id="c006b-115"><strong>nvarchar (256)</strong></span><span class="sxs-lookup"><span data-stu-id="c006b-115"><strong>nvarchar(256)</strong></span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6d6a6-116">Название версии.</span><span class="sxs-lookup"><span data-stu-id="6d6a6-116">Version name.</span></span></p></td>
+<td><p><span data-ttu-id="c006b-116">Название версии.</span><span class="sxs-lookup"><span data-stu-id="c006b-116">Version name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6d6a6-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="6d6a6-117"><strong>ClientType</strong></span></span></p></td>
-<td><p><span data-ttu-id="6d6a6-118">int</span><span class="sxs-lookup"><span data-stu-id="6d6a6-118">int</span></span></p></td>
+<td><p><span data-ttu-id="c006b-117"><strong>ClientType</strong></span><span class="sxs-lookup"><span data-stu-id="c006b-117"><strong>ClientType</strong></span></span></p></td>
+<td><p><span data-ttu-id="c006b-118">int</span><span class="sxs-lookup"><span data-stu-id="c006b-118">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6d6a6-119">Указывает тип клиента, используемого в этом сеансе.</span><span class="sxs-lookup"><span data-stu-id="6d6a6-119">Specifies the type of client used in the session.</span></span> <span data-ttu-id="6d6a6-120">Дополнительные сведения см. <a href="lync-server-2013-useragentdef-table.md">в таблице таблица useragentdef в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="6d6a6-120">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more information.</span></span></p>
-<p><span data-ttu-id="6d6a6-121">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d6a6-121">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="c006b-119">Указывает тип клиента, используемого в этом сеансе.</span><span class="sxs-lookup"><span data-stu-id="c006b-119">Specifies the type of client used in the session.</span></span> <span data-ttu-id="c006b-120">Дополнительные сведения см. <a href="lync-server-2013-useragentdef-table.md">в таблице таблица useragentdef в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="c006b-120">See the <a href="lync-server-2013-useragentdef-table.md">UserAgentDef table in Lync Server 2013</a> for more information.</span></span></p>
+<p><span data-ttu-id="c006b-121">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c006b-121">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

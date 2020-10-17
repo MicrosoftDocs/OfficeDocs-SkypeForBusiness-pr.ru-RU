@@ -12,20 +12,22 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c953c3f60737ca6bd43e09cc22a4443f3c8410c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b0c1c9966945554af6d1d9cec02a17dd884a857
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498486"
 ---
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a><span data-ttu-id="a8f3d-102">Требования к службам IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8f3d-102">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a><span data-ttu-id="7ea4a-102">Требования к службам IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ea4a-102">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42214585"
 
 <span> </span>
 
-<span data-ttu-id="7ea4a-103">_**Последнее изменение темы:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="7ea4a-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="a8f3d-103">_**Последнее изменение темы:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="a8f3d-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="7ea4a-104">Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS).</span><span class="sxs-lookup"><span data-stu-id="7ea4a-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="7ea4a-105">В этом разделе описываются конкретные компоненты IIS, необходимые для поддержки Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7ea4a-105">This topic describes the specific IIS features required to support Lync Server.</span></span> <span data-ttu-id="7ea4a-106">В подразделах данного раздела рассматриваются требования отдельных компонентов к службам IIS.</span><span class="sxs-lookup"><span data-stu-id="7ea4a-106">The topics in this section describe the requirements of specific components for IIS.</span></span>
+<span data-ttu-id="a8f3d-104">Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS).</span><span class="sxs-lookup"><span data-stu-id="a8f3d-104">Several Lync Server 2013 components require Internet Information Services (IIS).</span></span> <span data-ttu-id="a8f3d-105">В этом разделе описываются конкретные компоненты IIS, необходимые для поддержки Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a8f3d-105">This topic describes the specific IIS features required to support Lync Server.</span></span> <span data-ttu-id="a8f3d-106">В подразделах данного раздела рассматриваются требования отдельных компонентов к службам IIS.</span><span class="sxs-lookup"><span data-stu-id="a8f3d-106">The topics in this section describe the requirements of specific components for IIS.</span></span>
 
-<span data-ttu-id="7ea4a-p102">Когда на Windows Server 2008 включена роль «Веб-сервер (IIS)», по умолчанию устанавливаются различные службы роли. В следующей таблице описываются дополнительные службы роли, которые следует установить при включении роли «Веб-сервер (IIS)» в Windows Server 2008.</span><span class="sxs-lookup"><span data-stu-id="7ea4a-p102">When the Web Server (IIS) role is enabled on Windows Server 2008, various role services are installed by default. The following table describes the additional role services that must be installed when the Web Server (IIS) role is enabled on Windows Server 2008.</span></span>
+<span data-ttu-id="a8f3d-p102">Когда на Windows Server 2008 включена роль «Веб-сервер (IIS)», по умолчанию устанавливаются различные службы роли. В следующей таблице описываются дополнительные службы роли, которые следует установить при включении роли «Веб-сервер (IIS)» в Windows Server 2008.</span><span class="sxs-lookup"><span data-stu-id="a8f3d-p102">When the Web Server (IIS) role is enabled on Windows Server 2008, various role services are installed by default. The following table describes the additional role services that must be installed when the Web Server (IIS) role is enabled on Windows Server 2008.</span></span>
 
 
 <table>
@@ -49,54 +51,54 @@ ms.locfileid: "42214585"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7ea4a-109">Служба роли</span><span class="sxs-lookup"><span data-stu-id="7ea4a-109">Role service</span></span></th>
-<th><span data-ttu-id="7ea4a-110">Функция</span><span class="sxs-lookup"><span data-stu-id="7ea4a-110">Feature</span></span></th>
+<th><span data-ttu-id="a8f3d-109">Служба роли</span><span class="sxs-lookup"><span data-stu-id="a8f3d-109">Role service</span></span></th>
+<th><span data-ttu-id="a8f3d-110">Компонент</span><span class="sxs-lookup"><span data-stu-id="a8f3d-110">Feature</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-111">Основные возможности HTTP</span><span class="sxs-lookup"><span data-stu-id="7ea4a-111">Common HTTP Features</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-112">Перенаправление HTTP</span><span class="sxs-lookup"><span data-stu-id="7ea4a-112">HTTP Redirection</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-111">Основные возможности HTTP</span><span class="sxs-lookup"><span data-stu-id="a8f3d-111">Common HTTP Features</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-112">Перенаправление HTTP</span><span class="sxs-lookup"><span data-stu-id="a8f3d-112">HTTP Redirection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ea4a-113">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="7ea4a-113">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-114">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="7ea4a-114">ASP.NET</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-113">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="a8f3d-113">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-114">ASP.NET</span><span class="sxs-lookup"><span data-stu-id="a8f3d-114">ASP.NET</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-115">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="7ea4a-115">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-116">Расширяемость .NET</span><span class="sxs-lookup"><span data-stu-id="7ea4a-116">.NET Extensibility</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-115">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="a8f3d-115">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-116">Расширяемость .NET</span><span class="sxs-lookup"><span data-stu-id="a8f3d-116">.NET Extensibility</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ea4a-117">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="7ea4a-117">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-118">Расширения ISAPI</span><span class="sxs-lookup"><span data-stu-id="7ea4a-118">ISAPI Extensions</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-117">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="a8f3d-117">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-118">Расширения ISAPI</span><span class="sxs-lookup"><span data-stu-id="a8f3d-118">ISAPI Extensions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-119">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="7ea4a-119">Application Development</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-120">Фильтры ISAPI</span><span class="sxs-lookup"><span data-stu-id="7ea4a-120">ISAPI Filters</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-119">Разработка приложений</span><span class="sxs-lookup"><span data-stu-id="a8f3d-119">Application Development</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-120">Фильтры ISAPI</span><span class="sxs-lookup"><span data-stu-id="a8f3d-120">ISAPI Filters</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ea4a-121">Работоспособность и диагностика</span><span class="sxs-lookup"><span data-stu-id="7ea4a-121">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-122">Средства ведения журнала</span><span class="sxs-lookup"><span data-stu-id="7ea4a-122">Logging Tools</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-121">Проверка работоспособности и диагностика</span><span class="sxs-lookup"><span data-stu-id="a8f3d-121">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-122">Средства ведения журнала</span><span class="sxs-lookup"><span data-stu-id="a8f3d-122">Logging Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-123">Проверка работоспособности и диагностика</span><span class="sxs-lookup"><span data-stu-id="7ea4a-123">Health and Diagnostics</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-124">Образца</span><span class="sxs-lookup"><span data-stu-id="7ea4a-124">Tracing</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-123">Проверка работоспособности и диагностика</span><span class="sxs-lookup"><span data-stu-id="a8f3d-123">Health and Diagnostics</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-124">Образца</span><span class="sxs-lookup"><span data-stu-id="a8f3d-124">Tracing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ea4a-125">Безопасность</span><span class="sxs-lookup"><span data-stu-id="7ea4a-125">Security</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-126">Обычная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="7ea4a-126">Basic Authentication</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-125">Безопасность</span><span class="sxs-lookup"><span data-stu-id="a8f3d-125">Security</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-126">Обычная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="a8f3d-126">Basic Authentication</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-127">Безопасность</span><span class="sxs-lookup"><span data-stu-id="7ea4a-127">Security</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-128">Проверка подлинности Windows</span><span class="sxs-lookup"><span data-stu-id="7ea4a-128">Windows Authentication</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-127">Безопасность</span><span class="sxs-lookup"><span data-stu-id="a8f3d-127">Security</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-128">Проверка подлинности Windows</span><span class="sxs-lookup"><span data-stu-id="a8f3d-128">Windows Authentication</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ea4a-129">Средства управления</span><span class="sxs-lookup"><span data-stu-id="7ea4a-129">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-130">Сценарии и средства управления IIS</span><span class="sxs-lookup"><span data-stu-id="7ea4a-130">IIS Management Scripts and Tools</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-129">Средства управления</span><span class="sxs-lookup"><span data-stu-id="a8f3d-129">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-130">Сценарии и средства управления IIS</span><span class="sxs-lookup"><span data-stu-id="a8f3d-130">IIS Management Scripts and Tools</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7ea4a-131">Средства управления</span><span class="sxs-lookup"><span data-stu-id="7ea4a-131">Management Tools</span></span></p></td>
-<td><p><span data-ttu-id="7ea4a-132">Совместимость управления IIS 6</span><span class="sxs-lookup"><span data-stu-id="7ea4a-132">IIS 6 Management Compatibility</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-131">Средства управления</span><span class="sxs-lookup"><span data-stu-id="a8f3d-131">Management Tools</span></span></p></td>
+<td><p><span data-ttu-id="a8f3d-132">Совместимость управления IIS 6</span><span class="sxs-lookup"><span data-stu-id="a8f3d-132">IIS 6 Management Compatibility</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -107,12 +109,12 @@ ms.locfileid: "42214585"
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="защиты" alt="security" /><span data-ttu-id="7ea4a-134">Примечание о безопасности:</span><span class="sxs-lookup"><span data-stu-id="7ea4a-134">Security Note:</span></span></th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="защиты" alt="security" /><span data-ttu-id="a8f3d-134">Примечание о безопасности:</span><span class="sxs-lookup"><span data-stu-id="a8f3d-134">Security Note:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="7ea4a-135">Если вы используете IIS 7,0 в операционной системе Windows Server 2008, программа установки Lync Server отключает проверку подлинности в режиме ядра в службах IIS.</span><span class="sxs-lookup"><span data-stu-id="7ea4a-135">If you are using IIS 7.0 on a Windows Server 2008 operating system, Lync Server Setup disables kernel mode authentication in IIS.</span></span></td>
+<td><span data-ttu-id="a8f3d-135">Если вы используете IIS 7,0 в операционной системе Windows Server 2008, программа установки Lync Server отключает проверку подлинности в режиме ядра в службах IIS.</span><span class="sxs-lookup"><span data-stu-id="a8f3d-135">If you are using IIS 7.0 on a Windows Server 2008 operating system, Lync Server Setup disables kernel mode authentication in IIS.</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -122,9 +124,9 @@ ms.locfileid: "42214585"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7ea4a-136">Содержание</span><span class="sxs-lookup"><span data-stu-id="7ea4a-136">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a8f3d-136">Содержание</span><span class="sxs-lookup"><span data-stu-id="a8f3d-136">In This Section</span></span>
 
-  - [<span data-ttu-id="7ea4a-137">Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ea4a-137">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [<span data-ttu-id="a8f3d-137">Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8f3d-137">IIS requirements for Front End pools and Standard Edition servers in Lync Server 2013</span></span>](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

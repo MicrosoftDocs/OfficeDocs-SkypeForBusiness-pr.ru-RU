@@ -12,20 +12,22 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40a101d383686c6178c153a40ac0c6b5b26f9a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497776"
 ---
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a><span data-ttu-id="d5a1e-102">Планирование функций управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a1e-102">Planning for call management features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a><span data-ttu-id="f46f8-102">Планирование функций управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46f8-102">Planning for call management features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,40 +37,40 @@ ms.locfileid: "42202165"
 
 <span> </span>
 
-<span data-ttu-id="f46f8-103">_**Последнее изменение темы:** 2012-12-17_</span><span class="sxs-lookup"><span data-stu-id="f46f8-103">_**Topic Last Modified:** 2012-12-17_</span></span>
+<span data-ttu-id="d5a1e-103">_**Последнее изменение темы:** 2012-12-17_</span><span class="sxs-lookup"><span data-stu-id="d5a1e-103">_**Topic Last Modified:** 2012-12-17_</span></span>
 
-<span data-ttu-id="f46f8-104">Функции управления вызовами в корпоративной голосовой связи управляют тем, каким образом происходит маршрутизация входящих вызовов и ответ на них.</span><span class="sxs-lookup"><span data-stu-id="f46f8-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="f46f8-105">Lync Server 2013 предоставляет следующие функции управления звонками:</span><span class="sxs-lookup"><span data-stu-id="f46f8-105">Lync Server 2013 provides the following call management features:</span></span>
+<span data-ttu-id="d5a1e-104">Функции управления вызовами в корпоративной голосовой связи управляют тем, каким образом происходит маршрутизация входящих вызовов и ответ на них.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="d5a1e-105">Lync Server 2013 предоставляет следующие функции управления звонками:</span><span class="sxs-lookup"><span data-stu-id="d5a1e-105">Lync Server 2013 provides the following call management features:</span></span>
 
-  - <span data-ttu-id="f46f8-106">**Приложение "Парковка вызовов"**:   предоставляет пользователям голосовой связи возможность временно запарковать вызов, а затем ответить на него с того же или с другого телефона.</span><span class="sxs-lookup"><span data-stu-id="f46f8-106">**Call Park**:   Enables voice users to temporarily park a call and then pick it up from the same or another phone.</span></span>
+  - <span data-ttu-id="d5a1e-106">**Приложение "Парковка вызовов"**:   предоставляет пользователям голосовой связи возможность временно запарковать вызов, а затем ответить на него с того же или с другого телефона.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-106">**Call Park**:   Enables voice users to temporarily park a call and then pick it up from the same or another phone.</span></span>
 
-  - <span data-ttu-id="f46f8-107">**Подбор групп**: позволяет пользователям голосовых вызовов получать звонки, которые обзвонают для других пользователей голосовой связи, назначенных группам ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="f46f8-107">**Group Pickup**:   Enables voice users to pick up calls that are ringing for other voice users who are assigned to call pickup groups.</span></span>
+  - <span data-ttu-id="d5a1e-107">**Подбор групп**: позволяет пользователям голосовых вызовов получать звонки, которые обзвонают для других пользователей голосовой связи, назначенных группам ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-107">**Group Pickup**:   Enables voice users to pick up calls that are ringing for other voice users who are assigned to call pickup groups.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f46f8-108">Подбор групп — это новая поддержка накопительных обновлений для Lync Server 2013:2013 февраля.</span><span class="sxs-lookup"><span data-stu-id="f46f8-108">Group Pickup is new with Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+    > <span data-ttu-id="d5a1e-108">Подбор групп — это новая поддержка накопительных обновлений для Lync Server 2013:2013 февраля.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-108">Group Pickup is new with Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="f46f8-109">**Группа ответа**: направляет входящие вызовы в группы агентов с помощью сервисных групп или вопросов и ответов интерактивного речевого ответа (IVR).</span><span class="sxs-lookup"><span data-stu-id="f46f8-109">**Response Group**:   Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
+  - <span data-ttu-id="d5a1e-109">**Группа ответа**: направляет входящие вызовы в группы агентов с помощью сервисных групп или вопросов и ответов интерактивного речевого ответа (IVR).</span><span class="sxs-lookup"><span data-stu-id="d5a1e-109">**Response Group**:   Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
 
-  - <span data-ttu-id="f46f8-110">**Извещение:**    воспроизводит сообщение для вызовов, выполненных с неназначенным номером, или направляет вызов в другое место или обоими способами.</span><span class="sxs-lookup"><span data-stu-id="f46f8-110">**Announcement:**    Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
+  - <span data-ttu-id="d5a1e-110">**Извещение:**     Воспроизводит сообщение для вызовов, выполненных с неназначенным номером, или направляет вызов в другое место или обоими способами.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-110">**Announcement:**    Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
 
-<span data-ttu-id="f46f8-111">Если планируется развертывание корпоративной голосовой связи, то можно указать, какие из этих функций управления вызовами следует реализовать.</span><span class="sxs-lookup"><span data-stu-id="f46f8-111">If you plan to deploy Enterprise Voice, you can choose to implement any or all of these call management features.</span></span>
+<span data-ttu-id="d5a1e-111">Если планируется развертывание корпоративной голосовой связи, то можно указать, какие из этих функций управления вызовами следует реализовать.</span><span class="sxs-lookup"><span data-stu-id="d5a1e-111">If you plan to deploy Enterprise Voice, you can choose to implement any or all of these call management features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f46f8-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="f46f8-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d5a1e-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="d5a1e-112">In This Section</span></span>
 
-  - [<span data-ttu-id="f46f8-113">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46f8-113">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)
+  - [<span data-ttu-id="d5a1e-113">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a1e-113">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)
 
-  - [<span data-ttu-id="f46f8-114">Планирование групповой отправки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46f8-114">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)
+  - [<span data-ttu-id="d5a1e-114">Планирование групповой отправки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a1e-114">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)
 
-  - [<span data-ttu-id="f46f8-115">Планирование групп ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46f8-115">Planning for response groups in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-groups.md)
+  - [<span data-ttu-id="d5a1e-115">Планирование групп ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a1e-115">Planning for response groups in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-groups.md)
 
-  - [<span data-ttu-id="f46f8-116">Планирование объявлений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f46f8-116">Planning for announcements in Lync Server 2013</span></span>](lync-server-2013-planning-for-announcements.md)
+  - [<span data-ttu-id="d5a1e-116">Планирование объявлений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a1e-116">Planning for announcements in Lync Server 2013</span></span>](lync-server-2013-planning-for-announcements.md)
 
 </div>
 
