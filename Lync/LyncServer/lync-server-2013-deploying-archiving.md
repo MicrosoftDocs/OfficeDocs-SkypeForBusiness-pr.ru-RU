@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: развертывание архивации'
+description: 'Lync Server 2013: развертывание архивации.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa4f0ccf1b9cd16a25a4c64fdaa8fc8d69eb7a2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4ba38b7dcde0c72469e361f59ade7cb7f6ebb53
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531326"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558505"
 ---
-# <a name="deploying-archiving-in-lync-server-2013"></a><span data-ttu-id="f771d-102">Развертывание архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-102">Deploying Archiving in Lync Server 2013</span></span>
+# <a name="deploying-archiving-in-lync-server-2013"></a><span data-ttu-id="4d969-103">Развертывание архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-103">Deploying Archiving in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48531326"
 
 <span> </span>
 
-<span data-ttu-id="f771d-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="f771d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="4d969-104">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="4d969-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="f771d-104">Lync Server 2013 предоставляет решение для архивации содержимого обмена мгновенными сообщениями и обмена мгновенными сообщениями в Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f771d-104">Lync Server 2013 provides a solution for archiving instant messaging (IM) content and conferencing communications in Lync Server.</span></span> <span data-ttu-id="f771d-105">Поддержку архивации можно реализовать путем интеграции хранилища архивации с хранилищем Exchange 2013, с помощью баз данных SQL Server для хранения данных архивации Lync Server 2013 или с помощью хранилища Lync Server 2013 и Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="f771d-105">You can implement archiving support by integrating archiving storage with Exchange 2013 storage, by using SQL Server databases for storage of Lync Server 2013 archiving data, or by using both Lync Server 2013 and Exchange 2013 storage.</span></span> <span data-ttu-id="f771d-106">Для управления архивацией данных используются политики и конфигурации архивации.</span><span class="sxs-lookup"><span data-stu-id="f771d-106">You control how data is archived using policies and archiving configurations.</span></span> <span data-ttu-id="f771d-107">Дополнительные сведения приведены в статье [Планирование архивации в Lync server 2013](lync-server-2013-planning-for-archiving.md) в документации по планированию, а [также о том, как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, документации по развертыванию или документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="f771d-107">For details, see [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) in the Planning documentation and [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="4d969-105">Lync Server 2013 предоставляет решение для архивации содержимого обмена мгновенными сообщениями и обмена мгновенными сообщениями в Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4d969-105">Lync Server 2013 provides a solution for archiving instant messaging (IM) content and conferencing communications in Lync Server.</span></span> <span data-ttu-id="4d969-106">Поддержку архивации можно реализовать путем интеграции хранилища архивации с хранилищем Exchange 2013, с помощью баз данных SQL Server для хранения данных архивации Lync Server 2013 или с помощью хранилища Lync Server 2013 и Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="4d969-106">You can implement archiving support by integrating archiving storage with Exchange 2013 storage, by using SQL Server databases for storage of Lync Server 2013 archiving data, or by using both Lync Server 2013 and Exchange 2013 storage.</span></span> <span data-ttu-id="4d969-107">Для управления архивацией данных используются политики и конфигурации архивации.</span><span class="sxs-lookup"><span data-stu-id="4d969-107">You control how data is archived using policies and archiving configurations.</span></span> <span data-ttu-id="4d969-108">Дополнительные сведения приведены в статье [Планирование архивации в Lync server 2013](lync-server-2013-planning-for-archiving.md) в документации по планированию, а [также о том, как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, документации по развертыванию или документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="4d969-108">For details, see [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) in the Planning documentation and [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
-<span data-ttu-id="f771d-108">Для первичной настройки архивации можно использовать инструкции данного раздела.</span><span class="sxs-lookup"><span data-stu-id="f771d-108">You can use the information in this section to set up and configure Archiving initially.</span></span> <span data-ttu-id="f771d-109">После развертывания можно изменить параметры архивации.</span><span class="sxs-lookup"><span data-stu-id="f771d-109">After deployment, you can change Archiving settings.</span></span> <span data-ttu-id="f771d-110">Сведения о том, как реализовать поддержку архивации для повседневного управления или для удовлетворения новых требований в Организации, можно найти в статье [Управление процессом архивации Lync Server 2013](lync-server-2013-managing-archiving.md) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="f771d-110">For details about how you implement archiving support for day-to-day management or to meet new requirements in your organization, see [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) in the Operations documentation.</span></span>
+<span data-ttu-id="4d969-109">Для первичной настройки архивации можно использовать инструкции данного раздела.</span><span class="sxs-lookup"><span data-stu-id="4d969-109">You can use the information in this section to set up and configure Archiving initially.</span></span> <span data-ttu-id="4d969-110">После развертывания можно изменить параметры архивации.</span><span class="sxs-lookup"><span data-stu-id="4d969-110">After deployment, you can change Archiving settings.</span></span> <span data-ttu-id="4d969-111">Сведения о том, как реализовать поддержку архивации для повседневного управления или для удовлетворения новых требований в Организации, можно найти в статье [Управление процессом архивации Lync Server 2013](lync-server-2013-managing-archiving.md) в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="4d969-111">For details about how you implement archiving support for day-to-day management or to meet new requirements in your organization, see [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) in the Operations documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f771d-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="f771d-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4d969-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="4d969-112">In This Section</span></span>
 
-  - [<span data-ttu-id="f771d-112">Принцип работы архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-112">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
+  - [<span data-ttu-id="4d969-113">Принцип работы архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-113">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
 
-  - [<span data-ttu-id="f771d-113">Контрольный список развертывания для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-113">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [<span data-ttu-id="4d969-114">Контрольный список развертывания для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-114">Deployment checklist for Archiving in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-archiving.md)
 
-  - [<span data-ttu-id="f771d-114">Настройка систем и инфраструктуры для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-114">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
+  - [<span data-ttu-id="4d969-115">Настройка систем и инфраструктуры для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-115">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
 
-  - [<span data-ttu-id="f771d-115">Добавление баз данных архивации к существующему развертыванию Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-115">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
+  - [<span data-ttu-id="4d969-116">Добавление баз данных архивации к существующему развертыванию Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-116">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
 
-  - [<span data-ttu-id="f771d-116">Настройка поддержки архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f771d-116">Configuring support for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-archiving.md)
+  - [<span data-ttu-id="4d969-117">Настройка поддержки архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d969-117">Configuring support for Archiving in Lync Server 2013</span></span>](lync-server-2013-configuring-support-for-archiving.md)
 
 </div>
 

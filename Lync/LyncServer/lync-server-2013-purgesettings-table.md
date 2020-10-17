@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица таблица purgesettings'
+description: 'Lync Server 2013: таблица таблица purgesettings.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84c75e96c9a1541a8bd56f68d5fcf9d1a8655204
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ec2d1508d8362988bddbab2fe7303a23a8ee2d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512216"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559185"
 ---
-# <a name="purgesettings-table-in-lync-server-2013"></a><span data-ttu-id="37d5c-102">Таблица Таблица purgesettings в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37d5c-102">PurgeSettings table in Lync Server 2013</span></span>
+# <a name="purgesettings-table-in-lync-server-2013"></a><span data-ttu-id="0c7ed-103">Таблица Таблица purgesettings в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c7ed-103">PurgeSettings table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48512216"
 
 <span> </span>
 
-<span data-ttu-id="37d5c-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="37d5c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="0c7ed-104">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0c7ed-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="37d5c-104">Таблица параметров очистки PurgeSettings содержит сведения, указывающие, следует ли автоматически удалять устаревшие записи регистрации вызовов из базы данных CDR, и когда это следует делать.</span><span class="sxs-lookup"><span data-stu-id="37d5c-104">The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database.</span></span> <span data-ttu-id="37d5c-105">Обратите внимание, что сведения об очистке можно также получить в командной консоли Microsoft Lync Server 2013, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="37d5c-105">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
+<span data-ttu-id="0c7ed-105">Таблица параметров очистки PurgeSettings содержит сведения, указывающие, следует ли автоматически удалять устаревшие записи регистрации вызовов из базы данных CDR, и когда это следует делать.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-105">The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database.</span></span> <span data-ttu-id="0c7ed-106">Обратите внимание, что сведения об очистке можно также получить в командной консоли Microsoft Lync Server 2013, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0c7ed-106">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
 
     Get-CsCdrConfiguration
 
-<span data-ttu-id="37d5c-106">Администраторы должны рассматривать таблицу таблица purgesettings как доступную только для чтения: изменения параметров очистки сведений о вызовах следует вносить только с помощью командлетов [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) и [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="37d5c-106">Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) or [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlets.</span></span>
+<span data-ttu-id="0c7ed-107">Администраторы должны рассматривать таблицу таблица purgesettings как доступную только для чтения: изменения параметров очистки сведений о вызовах следует вносить только с помощью командлетов [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) и [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="0c7ed-107">Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration) or [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlets.</span></span>
 
-<span data-ttu-id="37d5c-107">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37d5c-107">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0c7ed-108">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-108">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -57,42 +58,42 @@ ms.locfileid: "48512216"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37d5c-108">Столбец</span><span class="sxs-lookup"><span data-stu-id="37d5c-108">Column</span></span></th>
-<th><span data-ttu-id="37d5c-109">Тип данных</span><span class="sxs-lookup"><span data-stu-id="37d5c-109">Data Type</span></span></th>
-<th><span data-ttu-id="37d5c-110">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="37d5c-110">Key/Index</span></span></th>
-<th><span data-ttu-id="37d5c-111">Сведения</span><span class="sxs-lookup"><span data-stu-id="37d5c-111">Details</span></span></th>
+<th><span data-ttu-id="0c7ed-109">Столбец</span><span class="sxs-lookup"><span data-stu-id="0c7ed-109">Column</span></span></th>
+<th><span data-ttu-id="0c7ed-110">Тип данных</span><span class="sxs-lookup"><span data-stu-id="0c7ed-110">Data Type</span></span></th>
+<th><span data-ttu-id="0c7ed-111">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="0c7ed-111">Key/Index</span></span></th>
+<th><span data-ttu-id="0c7ed-112">Сведения</span><span class="sxs-lookup"><span data-stu-id="0c7ed-112">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37d5c-112"><strong>Id</strong></span><span class="sxs-lookup"><span data-stu-id="37d5c-112"><strong>Id</strong></span></span></p></td>
-<td><p><span data-ttu-id="37d5c-113">int</span><span class="sxs-lookup"><span data-stu-id="37d5c-113">int</span></span></p></td>
-<td><p><span data-ttu-id="37d5c-114">Primary</span><span class="sxs-lookup"><span data-stu-id="37d5c-114">Primary</span></span></p></td>
-<td><p><span data-ttu-id="37d5c-115">Уникальный идентификатор для набора параметров очистки CDR.</span><span class="sxs-lookup"><span data-stu-id="37d5c-115">Unique identifier for the collection of CDR purge settings.</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-113"><strong>Id</strong></span><span class="sxs-lookup"><span data-stu-id="0c7ed-113"><strong>Id</strong></span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-114">int</span><span class="sxs-lookup"><span data-stu-id="0c7ed-114">int</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-115">Primary</span><span class="sxs-lookup"><span data-stu-id="0c7ed-115">Primary</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-116">Уникальный идентификатор для набора параметров очистки CDR.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-116">Unique identifier for the collection of CDR purge settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37d5c-116"><strong>енаблепурже</strong></span><span class="sxs-lookup"><span data-stu-id="37d5c-116"><strong>EnablePurge</strong></span></span></p></td>
-<td><p><span data-ttu-id="37d5c-117">Битовая</span><span class="sxs-lookup"><span data-stu-id="37d5c-117">bit</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-117"><strong>енаблепурже</strong></span><span class="sxs-lookup"><span data-stu-id="0c7ed-117"><strong>EnablePurge</strong></span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-118">Битовая</span><span class="sxs-lookup"><span data-stu-id="0c7ed-118">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="37d5c-118">Если для этого параметра задано значение true (1), Microsoft Lync Server 2013 будет периодически очищать устаревшие записи из базы данных CDR.</span><span class="sxs-lookup"><span data-stu-id="37d5c-118">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the CDR database.</span></span> <span data-ttu-id="37d5c-119">Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour.</span><span class="sxs-lookup"><span data-stu-id="37d5c-119">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="37d5c-120">Если задано значение False (0), записи не будут очищаться автоматически.</span><span class="sxs-lookup"><span data-stu-id="37d5c-120">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="37d5c-121">Значение по умолчанию — True.</span><span class="sxs-lookup"><span data-stu-id="37d5c-121">The default value is True.</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-119">Если для этого параметра задано значение true (1), Microsoft Lync Server 2013 будет периодически очищать устаревшие записи из базы данных CDR.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-119">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the CDR database.</span></span> <span data-ttu-id="0c7ed-120">Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-120">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="0c7ed-121">Если задано значение False (0), записи не будут очищаться автоматически.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-121">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="0c7ed-122">Значение по умолчанию — True.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-122">The default value is True.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37d5c-122"><strong>кипкаллдетаилфордайс</strong></span><span class="sxs-lookup"><span data-stu-id="37d5c-122"><strong>KeepCallDetailForDays</strong></span></span></p></td>
-<td><p><span data-ttu-id="37d5c-123">int</span><span class="sxs-lookup"><span data-stu-id="37d5c-123">int</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-123"><strong>кипкаллдетаилфордайс</strong></span><span class="sxs-lookup"><span data-stu-id="0c7ed-123"><strong>KeepCallDetailForDays</strong></span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-124">int</span><span class="sxs-lookup"><span data-stu-id="0c7ed-124">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="37d5c-p103">Задает возраст записей CDR (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="37d5c-p103">Specifies the age of CDR records (in days) that will be purged from the database: if purging is enabled, CDR records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-p103">Задает возраст записей CDR (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-p103">Specifies the age of CDR records (in days) that will be purged from the database: if purging is enabled, CDR records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37d5c-126"><strong>киперроррепортфордайс</strong></span><span class="sxs-lookup"><span data-stu-id="37d5c-126"><strong>KeepErrorReportForDays</strong></span></span></p></td>
-<td><p><span data-ttu-id="37d5c-127">int</span><span class="sxs-lookup"><span data-stu-id="37d5c-127">int</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-127"><strong>киперроррепортфордайс</strong></span><span class="sxs-lookup"><span data-stu-id="0c7ed-127"><strong>KeepErrorReportForDays</strong></span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-128">int</span><span class="sxs-lookup"><span data-stu-id="0c7ed-128">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="37d5c-p104">Задает возраст записей отчета об ошибках (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи отчета об ошибках, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="37d5c-p104">Specifies the age of error report records (in days) that will be purged from the database: if purging is enabled, error report records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-p104">Задает возраст записей отчета об ошибках (в днях), которые будут удаляться из базы данных: если очистка включена, то все записи отчета об ошибках, возраст которых больше указанного, будут удаляться из базы данных. Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="0c7ed-p104">Specifies the age of error report records (in days) that will be purged from the database: if purging is enabled, error report records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="37d5c-130"><strong>пуржехаур</strong></span><span class="sxs-lookup"><span data-stu-id="37d5c-130"><strong>PurgeHour</strong></span></span></p></td>
-<td><p><span data-ttu-id="37d5c-131">int</span><span class="sxs-lookup"><span data-stu-id="37d5c-131">int</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-131"><strong>пуржехаур</strong></span><span class="sxs-lookup"><span data-stu-id="0c7ed-131"><strong>PurgeHour</strong></span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-132">int</span><span class="sxs-lookup"><span data-stu-id="0c7ed-132">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="37d5c-p105">Задает местное время суток, когда будет выполняться очистка базы данных. Время суток указывается в 24-часовом формате, где 0 соответствует полуночи, а 23 соответствует 11 часам вечера. Обратите внимание, что можно указывать только часы: значение 10 (задающее 10 утра) разрешено, а значение 10:30 (задающее 10:30 утра) не разрешено. Значение по умолчанию - 2 (2:00 ночи).</span><span class="sxs-lookup"><span data-stu-id="37d5c-p105">Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 2 (2:00 AM).</span></span></p></td>
+<td><p><span data-ttu-id="0c7ed-p105">Задает местное время суток, когда будет выполняться очистка базы данных. Время суток указывается в 24-часовом формате, где 0 соответствует полуночи, а 23 соответствует 11 часам вечера. Обратите внимание, что можно указывать только часы: значение 10 (задающее 10 утра) разрешено, а значение 10:30 (задающее 10:30 утра) не разрешено. Значение по умолчанию - 2 (2:00 ночи).</span><span class="sxs-lookup"><span data-stu-id="0c7ed-p105">Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 2 (2:00 AM).</span></span></p></td>
 </tr>
 </tbody>
 </table>

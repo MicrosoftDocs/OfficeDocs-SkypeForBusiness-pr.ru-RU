@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица UserAgent'
+description: 'Lync Server 2013: таблица UserAgent.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32586ddbe4dd6fac410a859fa00a1710bbaa2b47
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b701d8384313d0267dd566e0c32242f6cc077472
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530136"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558895"
 ---
-# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="d20fd-102">Таблица UserAgent в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d20fd-102">UserAgent table in Lync Server 2013</span></span>
+# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="83a59-103">Таблица UserAgent в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83a59-103">UserAgent table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530136"
 
 <span> </span>
 
-<span data-ttu-id="d20fd-103">_**Последнее изменение темы:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="d20fd-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="83a59-104">_**Последнее изменение темы:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="83a59-104">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="d20fd-104">Таблица UserAgent это вспомогательная таблица, в которой хранится список различных агентов пользователей, которые участвовали в сеансах, записанных в базе данных.</span><span class="sxs-lookup"><span data-stu-id="d20fd-104">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="d20fd-105">Каждая запись в таблице представляет одного агента пользователя</span><span class="sxs-lookup"><span data-stu-id="d20fd-105">Each record in the table represents one user agent</span></span>
+<span data-ttu-id="83a59-105">Таблица UserAgent это вспомогательная таблица, в которой хранится список различных агентов пользователей, которые участвовали в сеансах, записанных в базе данных.</span><span class="sxs-lookup"><span data-stu-id="83a59-105">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="83a59-106">Каждая запись в таблице представляет одного агента пользователя</span><span class="sxs-lookup"><span data-stu-id="83a59-106">Each record in the table represents one user agent</span></span>
 
 
 <table>
@@ -51,41 +52,41 @@ ms.locfileid: "48530136"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d20fd-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="d20fd-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="d20fd-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="d20fd-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="83a59-107"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="83a59-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="83a59-109"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="83a59-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d20fd-110"><strong>усераженткэй</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-110"><strong>UserAgentKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="d20fd-111">int</span><span class="sxs-lookup"><span data-stu-id="d20fd-111">int</span></span></p></td>
-<td><p><span data-ttu-id="d20fd-112">Primary</span><span class="sxs-lookup"><span data-stu-id="d20fd-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d20fd-113">Уникальное число, идентифицирующее этот агент пользователя.</span><span class="sxs-lookup"><span data-stu-id="d20fd-113">Unique number identifying this user agent.</span></span></p></td>
+<td><p><span data-ttu-id="83a59-111"><strong>усераженткэй</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-111"><strong>UserAgentKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="83a59-112">int</span><span class="sxs-lookup"><span data-stu-id="83a59-112">int</span></span></p></td>
+<td><p><span data-ttu-id="83a59-113">Primary</span><span class="sxs-lookup"><span data-stu-id="83a59-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="83a59-114">Уникальное число, идентифицирующее этот агент пользователя.</span><span class="sxs-lookup"><span data-stu-id="83a59-114">Unique number identifying this user agent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d20fd-114"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-114"><strong>UserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="d20fd-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d20fd-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="d20fd-116">Уникальные</span><span class="sxs-lookup"><span data-stu-id="d20fd-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="d20fd-117">Строка агента пользователя.</span><span class="sxs-lookup"><span data-stu-id="d20fd-117">User Agent string.</span></span></p></td>
+<td><p><span data-ttu-id="83a59-115"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-115"><strong>UserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="83a59-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="83a59-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="83a59-117">Уникальные</span><span class="sxs-lookup"><span data-stu-id="83a59-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="83a59-118">Строка агента пользователя.</span><span class="sxs-lookup"><span data-stu-id="83a59-118">User Agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d20fd-118"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="d20fd-118"><strong>UAType</strong></span></span></p></td>
-<td><p><span data-ttu-id="d20fd-119">smallint</span><span class="sxs-lookup"><span data-stu-id="d20fd-119">smallint</span></span></p></td>
+<td><p><span data-ttu-id="83a59-119"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="83a59-119"><strong>UAType</strong></span></span></p></td>
+<td><p><span data-ttu-id="83a59-120">smallint</span><span class="sxs-lookup"><span data-stu-id="83a59-120">smallint</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="d20fd-120">1 — сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="d20fd-120">1 is Mediation Server.</span></span></p>
-<p><span data-ttu-id="d20fd-121">2 это сервер аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="d20fd-121">2 is A/V Conferencing Server.</span></span></p>
-<p><span data-ttu-id="d20fd-122">4 — Lync.</span><span class="sxs-lookup"><span data-stu-id="d20fd-122">4 is Lync.</span></span></p>
-<p><span data-ttu-id="d20fd-123">8 — IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="d20fd-123">8 is IP Phone.</span></span></p>
-<p><span data-ttu-id="d20fd-124">16 — консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="d20fd-124">16 is Live Meeting Console.</span></span></p>
-<p><span data-ttu-id="d20fd-125">32 — средство проверки развертывания (ДВТ).</span><span class="sxs-lookup"><span data-stu-id="d20fd-125">32 is Deployment Validation Tool (DVT).</span></span></p>
-<p><span data-ttu-id="d20fd-126">64 — Lync на компьютерах Macintosh.</span><span class="sxs-lookup"><span data-stu-id="d20fd-126">64 is Lync on Macintosh computers.</span></span></p>
-<p><span data-ttu-id="d20fd-127">128 это Office Communications Server 2007 R2 Attendant.</span><span class="sxs-lookup"><span data-stu-id="d20fd-127">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
-<p><span data-ttu-id="d20fd-128">256 — служба извещений конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="d20fd-128">256 is Conferencing Announcement service.</span></span></p>
-<p><span data-ttu-id="d20fd-129">512 является автосекретарем конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="d20fd-129">512 is Conferencing Auto Attendant.</span></span></p>
-<p><span data-ttu-id="d20fd-130">1024 — приложение группы ответа.</span><span class="sxs-lookup"><span data-stu-id="d20fd-130">1024 is Response Group application.</span></span></p>
-<p><span data-ttu-id="d20fd-131">2048 находится за преноски управления голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="d20fd-131">2048 is Outside Voice Control.</span></span></p></td>
+<td><p><span data-ttu-id="83a59-121">1 — сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="83a59-121">1 is Mediation Server.</span></span></p>
+<p><span data-ttu-id="83a59-122">2 это сервер аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="83a59-122">2 is A/V Conferencing Server.</span></span></p>
+<p><span data-ttu-id="83a59-123">4 — Lync.</span><span class="sxs-lookup"><span data-stu-id="83a59-123">4 is Lync.</span></span></p>
+<p><span data-ttu-id="83a59-124">8 — IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="83a59-124">8 is IP Phone.</span></span></p>
+<p><span data-ttu-id="83a59-125">16 — консоль Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="83a59-125">16 is Live Meeting Console.</span></span></p>
+<p><span data-ttu-id="83a59-126">32 — средство проверки развертывания (ДВТ).</span><span class="sxs-lookup"><span data-stu-id="83a59-126">32 is Deployment Validation Tool (DVT).</span></span></p>
+<p><span data-ttu-id="83a59-127">64 — Lync на компьютерах Macintosh.</span><span class="sxs-lookup"><span data-stu-id="83a59-127">64 is Lync on Macintosh computers.</span></span></p>
+<p><span data-ttu-id="83a59-128">128 это Office Communications Server 2007 R2 Attendant.</span><span class="sxs-lookup"><span data-stu-id="83a59-128">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
+<p><span data-ttu-id="83a59-129">256 — служба извещений конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="83a59-129">256 is Conferencing Announcement service.</span></span></p>
+<p><span data-ttu-id="83a59-130">512 является автосекретарем конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="83a59-130">512 is Conferencing Auto Attendant.</span></span></p>
+<p><span data-ttu-id="83a59-131">1024 — приложение группы ответа.</span><span class="sxs-lookup"><span data-stu-id="83a59-131">1024 is Response Group application.</span></span></p>
+<p><span data-ttu-id="83a59-132">2048 находится за преноски управления голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="83a59-132">2048 is Outside Voice Control.</span></span></p></td>
 </tr>
 </tbody>
 </table>

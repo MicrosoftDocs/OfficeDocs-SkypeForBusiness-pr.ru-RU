@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 поддерживал выровненный сервер
+description: Lync Server 2013 поддерживал выровненный сервер.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61e4776b478180fca05edc17e4e0bc6c5456ed21
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 055556a3f7b24d041fcacada63895eaa37004240
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523996"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560305"
 ---
-# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="42446-102">Поддерживаемое выровненное размещение серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42446-102">Supported server collocation in Lync Server 2013</span></span>
+# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="887e5-103">Поддерживаемое выровненное размещение серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="887e5-103">Supported server collocation in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48523996"
 
 <span> </span>
 
-<span data-ttu-id="42446-103">_**Последнее изменение темы:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="42446-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="887e5-104">_**Последнее изменение темы:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="887e5-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="42446-104">Lync Server 2013 поддерживает совместное размещение некоторых ролей и компонентов сервера.</span><span class="sxs-lookup"><span data-stu-id="42446-104">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="42446-105">То, какие роли сервера и компоненты вы можете выровнять, частично зависит от того, выполняете ли вы развертывание интерфейсного пула или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="42446-105">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
+<span data-ttu-id="887e5-105">Lync Server 2013 поддерживает совместное размещение некоторых ролей и компонентов сервера.</span><span class="sxs-lookup"><span data-stu-id="887e5-105">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="887e5-106">То, какие роли сервера и компоненты вы можете выровнять, частично зависит от того, выполняете ли вы развертывание интерфейсного пула или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="887e5-106">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="42446-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="42446-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="887e5-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="887e5-107">In This Section</span></span>
 
-  - [<span data-ttu-id="42446-107">Выровненное размещение серверов в развертывании пула переднего плана Enterprise Edition для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42446-107">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
+  - [<span data-ttu-id="887e5-108">Выровненное размещение серверов в развертывании пула переднего плана Enterprise Edition для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="887e5-108">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
 
-  - [<span data-ttu-id="42446-108">Выровненное размещение серверов в развертывании сервера Standard Edition для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42446-108">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
+  - [<span data-ttu-id="887e5-109">Выровненное размещение серверов в развертывании сервера Standard Edition для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="887e5-109">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
 
 </div>
 
