@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: создание или изменение политики мобильности'
+description: 'Lync Server 2013: создание или изменение политики мобильности.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c54222d7fda3c3d5581db85b0fc264358e2bde22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fcf593c568a8ecf1bd6791641affc4076672b250
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501656"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566105"
 ---
-# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="baf22-102">Создание или изменение политики мобильности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf22-102">Create or modify a mobility policy in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a><span data-ttu-id="e6268-103">Создание или изменение политики мобильности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6268-103">Create or modify a mobility policy in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,73 +38,73 @@ ms.locfileid: "48501656"
 
 <span> </span>
 
-<span data-ttu-id="baf22-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="baf22-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="e6268-104">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="e6268-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="baf22-104">Вы можете создать или изменить политику мобильности, чтобы позволить мобильным пользователям использовать поддерживаемые мобильные устройства для доступа к функциональным возможностям Lync, таким как обмен мгновенными сообщениями, сведения о присутствии и контакты.</span><span class="sxs-lookup"><span data-stu-id="baf22-104">You can create or modify mobility policy to allow mobile users to use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="baf22-105">Вы можете создавать и изменять политики мобильности из панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="baf22-105">You can create or modify mobility policies from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell</span></span>
+<span data-ttu-id="e6268-105">Вы можете создать или изменить политику мобильности, чтобы позволить мобильным пользователям использовать поддерживаемые мобильные устройства для доступа к функциональным возможностям Lync, таким как обмен мгновенными сообщениями, сведения о присутствии и контакты.</span><span class="sxs-lookup"><span data-stu-id="e6268-105">You can create or modify mobility policy to allow mobile users to use supported mobile devices for Lync functionality such as instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="e6268-106">Вы можете создавать и изменять политики мобильности из панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e6268-106">You can create or modify mobility policies from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell</span></span>
 
 <div>
 
-## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a><span data-ttu-id="baf22-106">Создание политики мобильности с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="baf22-106">To create a mobility policy with Lync Server Control Panel</span></span>
+## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a><span data-ttu-id="e6268-107">Создание политики мобильности с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="e6268-107">To create a mobility policy with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="baf22-107">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="baf22-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="e6268-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="e6268-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="baf22-108">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="baf22-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="baf22-109">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="baf22-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="e6268-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e6268-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e6268-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e6268-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="baf22-110">В левой панели навигации щелкните элемент **Клиенты** и затем нажмите кнопку навигации **Политика мобильности**.</span><span class="sxs-lookup"><span data-stu-id="baf22-110">In the left navigation bar, click **Clients**, and then click the **Mobility Policy** navigation button.</span></span>
+3.  <span data-ttu-id="e6268-111">В левой панели навигации щелкните элемент **Клиенты** и затем нажмите кнопку навигации **Политика мобильности**.</span><span class="sxs-lookup"><span data-stu-id="e6268-111">In the left navigation bar, click **Clients**, and then click the **Mobility Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="baf22-111">На странице **политика мобильности** нажмите кнопку **создать**, а затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="baf22-111">On the **Mobility Policy** page, click **New**, and do one of the following:</span></span>
+4.  <span data-ttu-id="e6268-112">На странице **политика мобильности** нажмите кнопку **создать**, а затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="e6268-112">On the **Mobility Policy** page, click **New**, and do one of the following:</span></span>
     
-    1.  <span data-ttu-id="baf22-112">Чтобы создать политику мобильности сайта, щелкните элемент **Политика сайта**, выберите сайт, нажмите кнопку **ОК**, просмотрите параметры по умолчанию и при необходимости измените их.</span><span class="sxs-lookup"><span data-stu-id="baf22-112">To create a site mobility policy, click **Site policy**, click a site, click **OK**, review the default settings, and, if you want to, make any changes.</span></span>
+    1.  <span data-ttu-id="e6268-113">Чтобы создать политику мобильности сайта, щелкните элемент **Политика сайта**, выберите сайт, нажмите кнопку **ОК**, просмотрите параметры по умолчанию и при необходимости измените их.</span><span class="sxs-lookup"><span data-stu-id="e6268-113">To create a site mobility policy, click **Site policy**, click a site, click **OK**, review the default settings, and, if you want to, make any changes.</span></span>
     
-    2.  <span data-ttu-id="baf22-113">Чтобы создать политику мобильности сайта, щелкните элемент **Политика пользователя**, выберите имя, просмотрите параметры по умолчанию и при необходимости измените их.</span><span class="sxs-lookup"><span data-stu-id="baf22-113">To create a user mobility policy, click **User policy**, type a name, review the default settings, and if you want to, make any changes.</span></span>
+    2.  <span data-ttu-id="e6268-114">Чтобы создать политику мобильности сайта, щелкните элемент **Политика пользователя**, выберите имя, просмотрите параметры по умолчанию и при необходимости измените их.</span><span class="sxs-lookup"><span data-stu-id="e6268-114">To create a user mobility policy, click **User policy**, type a name, review the default settings, and if you want to, make any changes.</span></span>
 
-5.  <span data-ttu-id="baf22-114">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="baf22-114">Click **Commit**.</span></span>
+5.  <span data-ttu-id="e6268-115">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="e6268-115">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a><span data-ttu-id="baf22-115">Изменение политики мобильности с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="baf22-115">To modify a mobility policy with Lync Server Control Panel</span></span>
+## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a><span data-ttu-id="e6268-116">Изменение политики мобильности с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="e6268-116">To modify a mobility policy with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="baf22-116">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="baf22-116">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="e6268-117">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="e6268-117">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="baf22-117">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="baf22-117">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="baf22-118">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="baf22-118">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="e6268-118">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e6268-118">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e6268-119">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e6268-119">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="baf22-119">В левой панели навигации щелкните элемент **Клиенты** и затем нажмите кнопку навигации **Политика мобильности**.</span><span class="sxs-lookup"><span data-stu-id="baf22-119">In the left navigation bar, click **Clients**, and then click the **Mobility Policy** navigation button.</span></span>
+3.  <span data-ttu-id="e6268-120">В левой панели навигации щелкните элемент **Клиенты** и затем нажмите кнопку навигации **Политика мобильности**.</span><span class="sxs-lookup"><span data-stu-id="e6268-120">In the left navigation bar, click **Clients**, and then click the **Mobility Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="baf22-120">На странице **политика мобильности** выберите одну из существующих политик мобильности.</span><span class="sxs-lookup"><span data-stu-id="baf22-120">On the **Mobility Policy** page, click one of the existing mobility policies.</span></span>
+4.  <span data-ttu-id="e6268-121">На странице **политика мобильности** выберите одну из существующих политик мобильности.</span><span class="sxs-lookup"><span data-stu-id="e6268-121">On the **Mobility Policy** page, click one of the existing mobility policies.</span></span>
 
-5.  <span data-ttu-id="baf22-121">В меню **Правка** выберите пункт **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="baf22-121">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="e6268-122">В меню **Правка** выберите пункт **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="e6268-122">On the **Edit** menu, click **Show details**.</span></span>
 
-6.  <span data-ttu-id="baf22-122">Измените параметры.</span><span class="sxs-lookup"><span data-stu-id="baf22-122">Edit any of the settings.</span></span>
+6.  <span data-ttu-id="e6268-123">Измените параметры.</span><span class="sxs-lookup"><span data-stu-id="e6268-123">Edit any of the settings.</span></span>
 
-7.  <span data-ttu-id="baf22-123">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="baf22-123">Click **Commit**.</span></span>
+7.  <span data-ttu-id="e6268-124">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="e6268-124">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="baf22-124">Создание политик внешнего доступа с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="baf22-124">Creating External Access Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e6268-125">Создание политик внешнего доступа с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="e6268-125">Creating External Access Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="baf22-125">С помощью Windows PowerShell и командлета **New-CsMobilityPolicy** можно создавать политики мобильной связи (на уровне сайта или на уровне пользователя).</span><span class="sxs-lookup"><span data-stu-id="baf22-125">You can create mobility policies (at the site scope or the per-user scope) by using Windows PowerShell and the **New-CsMobilityPolicy** cmdlet.</span></span> <span data-ttu-id="baf22-126">Кроме того, вы можете использовать командлет **Set-CsMobilityPolicy** для изменения любых существующих политик, включая глобальную.</span><span class="sxs-lookup"><span data-stu-id="baf22-126">Additionally, you can use the **Set-CsMobilityPolicy** cmdlet to modify any of your existing policies, including the global policy.</span></span> <span data-ttu-id="baf22-127">Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="baf22-127">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="baf22-128">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="baf22-128">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="e6268-126">С помощью Windows PowerShell и командлета **New-CsMobilityPolicy** можно создавать политики мобильной связи (на уровне сайта или на уровне пользователя).</span><span class="sxs-lookup"><span data-stu-id="e6268-126">You can create mobility policies (at the site scope or the per-user scope) by using Windows PowerShell and the **New-CsMobilityPolicy** cmdlet.</span></span> <span data-ttu-id="e6268-127">Кроме того, вы можете использовать командлет **Set-CsMobilityPolicy** для изменения любых существующих политик, включая глобальную.</span><span class="sxs-lookup"><span data-stu-id="e6268-127">Additionally, you can use the **Set-CsMobilityPolicy** cmdlet to modify any of your existing policies, including the global policy.</span></span> <span data-ttu-id="e6268-128">Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e6268-128">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e6268-129">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="e6268-129">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-site-scope"></a><span data-ttu-id="baf22-129">Создание политики мобильности на уровне сайта</span><span class="sxs-lookup"><span data-stu-id="baf22-129">To create a mobility policy at the site scope</span></span>
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a><span data-ttu-id="e6268-130">Создание политики мобильности на уровне сайта</span><span class="sxs-lookup"><span data-stu-id="e6268-130">To create a mobility policy at the site scope</span></span>
 
-  - <span data-ttu-id="baf22-130">Данная команда создает новую политику мобильности для сайта Redmond:</span><span class="sxs-lookup"><span data-stu-id="baf22-130">This command creates a new mobility policy for the Redmond site:</span></span>
+  - <span data-ttu-id="e6268-131">Данная команда создает новую политику мобильности для сайта Redmond:</span><span class="sxs-lookup"><span data-stu-id="e6268-131">This command creates a new mobility policy for the Redmond site:</span></span>
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    <span data-ttu-id="baf22-131">Для всех свойств таких политик будут использоваться значения по умолчанию, так как в приведенной выше команде не заданы никакие параметры, кроме обязательного параметра Identity.</span><span class="sxs-lookup"><span data-stu-id="baf22-131">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the policies will use the default values for all its properties.</span></span>
+    <span data-ttu-id="e6268-132">Для всех свойств таких политик будут использоваться значения по умолчанию, так как в приведенной выше команде не заданы никакие параметры, кроме обязательного параметра Identity.</span><span class="sxs-lookup"><span data-stu-id="e6268-132">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the policies will use the default values for all its properties.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a><span data-ttu-id="baf22-132">Создание политики мобильности на уровне пользователя</span><span class="sxs-lookup"><span data-stu-id="baf22-132">To create a mobility policy at the per-user scope</span></span>
+## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a><span data-ttu-id="e6268-133">Создание политики мобильности на уровне пользователя</span><span class="sxs-lookup"><span data-stu-id="e6268-133">To create a mobility policy at the per-user scope</span></span>
 
-  - <span data-ttu-id="baf22-133">Чтобы создать политику мобильности на уровне пользователя, укажите для нее уникальный параметр Identity:</span><span class="sxs-lookup"><span data-stu-id="baf22-133">To create a mobility policy at the per-user scope, specify a unique Identity for the policy:</span></span>
+  - <span data-ttu-id="e6268-134">Чтобы создать политику мобильности на уровне пользователя, укажите для нее уникальный параметр Identity:</span><span class="sxs-lookup"><span data-stu-id="e6268-134">To create a mobility policy at the per-user scope, specify a unique Identity for the policy:</span></span>
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
@@ -111,9 +112,9 @@ ms.locfileid: "48501656"
 
 <div>
 
-## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a><span data-ttu-id="baf22-134">Изменение значения отдельного свойства при создании политики мобильности</span><span class="sxs-lookup"><span data-stu-id="baf22-134">To change a single property value when creating a mobility policy</span></span>
+## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a><span data-ttu-id="e6268-135">Изменение значения отдельного свойства при создании политики мобильности</span><span class="sxs-lookup"><span data-stu-id="e6268-135">To change a single property value when creating a mobility policy</span></span>
 
-  - <span data-ttu-id="baf22-p105">Чтобы создать политики, использующие разные значения свойства, включайте в них соответствующий параметр со значением. Например, следующая команда создает политику мобильности, отключающую возможность "Позвонить с рабочего":</span><span class="sxs-lookup"><span data-stu-id="baf22-p105">To create policies that use different property values, include the appropriate parameter and parameter value. For example, this command creates mobility policy that disables Call via Work:</span></span>
+  - <span data-ttu-id="e6268-p105">Чтобы создать политики, использующие разные значения свойства, включайте в них соответствующий параметр со значением. Например, следующая команда создает политику мобильности, отключающую возможность "Позвонить с рабочего":</span><span class="sxs-lookup"><span data-stu-id="e6268-p105">To create policies that use different property values, include the appropriate parameter and parameter value. For example, this command creates mobility policy that disables Call via Work:</span></span>
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
@@ -121,24 +122,24 @@ ms.locfileid: "48501656"
 
 <div>
 
-## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a><span data-ttu-id="baf22-137">Изменение значений нескольких свойств при создании политики мобильности</span><span class="sxs-lookup"><span data-stu-id="baf22-137">To change multiple property values when creating a mobility policy</span></span>
+## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a><span data-ttu-id="e6268-138">Изменение значений нескольких свойств при создании политики мобильности</span><span class="sxs-lookup"><span data-stu-id="e6268-138">To change multiple property values when creating a mobility policy</span></span>
 
-  - <span data-ttu-id="baf22-p106">Посредством включения нескольких параметров можно изменять значения нескольких свойств. Например, следующая команда создает политику, отключающую как мобильность, так и возможность "Позвонить с рабочего":</span><span class="sxs-lookup"><span data-stu-id="baf22-p106">Multiple property values can be modified by including multiple parameters. For example, this command creates a policy that disables both mobility and Call via Work:</span></span>
+  - <span data-ttu-id="e6268-p106">Посредством включения нескольких параметров можно изменять значения нескольких свойств. Например, следующая команда создает политику, отключающую как мобильность, так и возможность "Позвонить с рабочего":</span><span class="sxs-lookup"><span data-stu-id="e6268-p106">Multiple property values can be modified by including multiple parameters. For example, this command creates a policy that disables both mobility and Call via Work:</span></span>
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
 </div>
 
-<span data-ttu-id="baf22-140">Дополнительные сведения см. в разделе справки для командлетов [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) и [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy).</span><span class="sxs-lookup"><span data-stu-id="baf22-140">For details, see the Help topic for the [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) and the [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) cmdlets.</span></span>
+<span data-ttu-id="e6268-141">Дополнительные сведения см. в разделе справки для командлетов [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) и [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy).</span><span class="sxs-lookup"><span data-stu-id="e6268-141">For details, see the Help topic for the [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) and the [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) cmdlets.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="baf22-141">См. также</span><span class="sxs-lookup"><span data-stu-id="baf22-141">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6268-142">См. также</span><span class="sxs-lookup"><span data-stu-id="e6268-142">See Also</span></span>
 
 
-[<span data-ttu-id="baf22-142">Настройка политики мобильности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf22-142">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)  
+[<span data-ttu-id="e6268-143">Настройка политики мобильности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6268-143">Configuring mobility policy in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-policy.md)  
   
 
 </div>

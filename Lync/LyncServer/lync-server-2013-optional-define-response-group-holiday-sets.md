@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (необязательно) Определение наборов праздников группы ответа'
+description: 'Lync Server 2013: (необязательно) Определите наборы праздников группы ответа.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5613ee8e3c1d5038b72b32d4d59950b884d32db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d7ba735cc62efb9d5553c8bd6aad1aa9484f70f4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524456"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565765"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a><span data-ttu-id="a085c-102">Необязательно Определение наборов праздников группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a085c-102">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a><span data-ttu-id="f165f-103">Необязательно Определение наборов праздников группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f165f-103">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48524456"
 
 <span> </span>
 
-<span data-ttu-id="a085c-103">_**Последнее изменение темы:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="a085c-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="f165f-104">_**Последнее изменение темы:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="f165f-104">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="a085c-p101">Параметры праздников служат для определения дней, в которые группа ответа закрыта для использования, а также для определения действия в эти дни. Набор праздников — это коллекция праздников, которая применяется к группе ответа.</span><span class="sxs-lookup"><span data-stu-id="a085c-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
+<span data-ttu-id="f165f-p101">Параметры праздников служат для определения дней, в которые группа ответа закрыта для использования, а также для определения действия в эти дни. Набор праздников — это коллекция праздников, которая применяется к группе ответа.</span><span class="sxs-lookup"><span data-stu-id="f165f-p101">Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a085c-106">Если рабочий процесс определяется как управляемый рабочий процесс, пользователь, которому была назначена роль CsResponseGroupManager, может изменять праздники для управляемых им рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="a085c-106">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span>
+> <span data-ttu-id="f165f-107">Если рабочий процесс определяется как управляемый рабочий процесс, пользователь, которому была назначена роль CsResponseGroupManager, может изменять праздники для управляемых им рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="f165f-107">If a workflow is defined as a Managed workflow, then any user is assigned the CsResponseGroupManager role can set and modify holidays for workflows that they manage.</span></span>
 
 
 
@@ -53,21 +54,21 @@ ms.locfileid: "48524456"
 
 <div>
 
-## <a name="to-create-a-holiday-set"></a><span data-ttu-id="a085c-107">Чтобы создать набор праздников</span><span class="sxs-lookup"><span data-stu-id="a085c-107">To create a holiday set</span></span>
+## <a name="to-create-a-holiday-set"></a><span data-ttu-id="f165f-108">Чтобы создать набор праздников</span><span class="sxs-lookup"><span data-stu-id="f165f-108">To create a holiday set</span></span>
 
-1.  <span data-ttu-id="a085c-108">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="a085c-108">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="f165f-109">Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.</span><span class="sxs-lookup"><span data-stu-id="f165f-109">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="a085c-109">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a085c-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="f165f-110">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="f165f-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="a085c-110">Для каждого праздника, который следует определить, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="a085c-110">For each holiday you want to define, run:</span></span>
+3.  <span data-ttu-id="f165f-111">Для каждого праздника, который следует определить, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="f165f-111">For each holiday you want to define, run:</span></span>
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    <span data-ttu-id="a085c-111">Чтобы создать набор праздников, содержащий определенные праздники, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="a085c-111">To create the holiday set that contains the holidays you defined, run:</span></span>
+    <span data-ttu-id="f165f-112">Чтобы создать набор праздников, содержащий определенные праздники, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="f165f-112">To create the holiday set that contains the holidays you defined, run:</span></span>
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
-    <span data-ttu-id="a085c-112">В следующем примере приведен набор праздников, включающий два праздника:</span><span class="sxs-lookup"><span data-stu-id="a085c-112">The following example shows a holiday set that includes two holidays:</span></span>
+    <span data-ttu-id="f165f-113">В следующем примере приведен набор праздников, включающий два праздника:</span><span class="sxs-lookup"><span data-stu-id="f165f-113">The following example shows a holiday set that includes two holidays:</span></span>
     
         $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
@@ -77,15 +78,15 @@ ms.locfileid: "48524456"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a085c-113">См. также</span><span class="sxs-lookup"><span data-stu-id="a085c-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f165f-114">См. также</span><span class="sxs-lookup"><span data-stu-id="f165f-114">See Also</span></span>
 
 
-[<span data-ttu-id="a085c-114">Создание или изменение рабочего процесса сервисной группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a085c-114">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[<span data-ttu-id="a085c-115">Создание или изменение интерактивного рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a085c-115">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[<span data-ttu-id="f165f-115">Создание или изменение рабочего процесса сервисной группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f165f-115">Create or modify a hunt group workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[<span data-ttu-id="f165f-116">Создание или изменение интерактивного рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f165f-116">Create or modify an interactive workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[<span data-ttu-id="a085c-116">New — Ксргшолидай</span><span class="sxs-lookup"><span data-stu-id="a085c-116">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
-[<span data-ttu-id="a085c-117">New — CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="a085c-117">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+[<span data-ttu-id="f165f-117">New — Ксргшолидай</span><span class="sxs-lookup"><span data-stu-id="f165f-117">New-CsRgsHoliday</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[<span data-ttu-id="f165f-118">New — CsRgsHolidaySet</span><span class="sxs-lookup"><span data-stu-id="f165f-118">New-CsRgsHolidaySet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>
