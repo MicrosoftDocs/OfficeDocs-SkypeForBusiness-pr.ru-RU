@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: проверки безопасности'
+description: 'Lync Server 2013: проверки безопасности.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63fbc538e9d73afd4f5794897417814d8fdcefc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: efa3bb418f6b2e425431826786e752f6f514fcfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510466"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551465"
 ---
-# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="eb831-102">Проверки безопасности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb831-102">Security checks in Lync Server 2013</span></span>
+# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="a2a96-103">Проверки безопасности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2a96-103">Security checks in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,16 +38,16 @@ ms.locfileid: "48510466"
 
 <span> </span>
 
-<span data-ttu-id="eb831-103">_**Последнее изменение темы:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="eb831-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="a2a96-104">_**Последнее изменение темы:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="a2a96-104">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="eb831-104">Выполнять регулярный аудит безопасности, таких как правила брандмауэра, права пользователей, членство в группах, делегирование прав и т. д.</span><span class="sxs-lookup"><span data-stu-id="eb831-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
+<span data-ttu-id="a2a96-105">Выполнять регулярный аудит безопасности, таких как правила брандмауэра, права пользователей, членство в группах, делегирование прав и т. д.</span><span class="sxs-lookup"><span data-stu-id="a2a96-105">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="eb831-105">См. также</span><span class="sxs-lookup"><span data-stu-id="eb831-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2a96-106">См. также</span><span class="sxs-lookup"><span data-stu-id="a2a96-106">See Also</span></span>
 
 
-[<span data-ttu-id="eb831-106">Планирование безопасности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb831-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
+[<span data-ttu-id="a2a96-107">Планирование безопасности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2a96-107">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
   
 
 </div>

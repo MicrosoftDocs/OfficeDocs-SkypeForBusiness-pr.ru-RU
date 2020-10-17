@@ -1,5 +1,6 @@
 ---
 title: Включение Exchange 2013 Outlook Web App и интеграция обмена мгновенными сообщениями
+description: Включите Exchange 2013 Outlook Web App и интеграция с IM.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da6866565df12ff4484124836f9164d2bf8c35c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a7fd6e8600f255d6ac4dde52487776cdb5fe1a51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502886"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551125"
 ---
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a><span data-ttu-id="cd79a-102">Включение Exchange 2013 Outlook Web App и интеграция обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="cd79a-102">Enable Exchange 2013 Outlook Web App and IM integration</span></span>
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a><span data-ttu-id="6d082-103">Включение Exchange 2013 Outlook Web App и интеграция обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="6d082-103">Enable Exchange 2013 Outlook Web App and IM integration</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,72 +38,72 @@ ms.locfileid: "48502886"
 
 <span> </span>
 
-<span data-ttu-id="cd79a-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="cd79a-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="6d082-104">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="6d082-104">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="cd79a-104">Чтобы включить интеграцию с Exchange 2013 Outlook Web Access (OWA) и службу обмена мгновенными сообщениями с Lync Server 2013, необходимо добавить сервер сервера клиентского доступа Exchange 2013 в топологию Lync Server 2013 в качестве доверенного сервера приложений.</span><span class="sxs-lookup"><span data-stu-id="cd79a-104">To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) integration with Lync Server 2013, you must add the Exchange 2013 Client Access Server (CAS) server to the Lync Server 2013 topology as a trusted application server.</span></span>
+<span data-ttu-id="6d082-105">Чтобы включить интеграцию с Exchange 2013 Outlook Web Access (OWA) и службу обмена мгновенными сообщениями с Lync Server 2013, необходимо добавить сервер сервера клиентского доступа Exchange 2013 в топологию Lync Server 2013 в качестве доверенного сервера приложений.</span><span class="sxs-lookup"><span data-stu-id="6d082-105">To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) integration with Lync Server 2013, you must add the Exchange 2013 Client Access Server (CAS) server to the Lync Server 2013 topology as a trusted application server.</span></span>
 
 <div>
 
-## <a name="to-create-a-trusted-application-pool"></a><span data-ttu-id="cd79a-105">Чтобы создать пул доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="cd79a-105">To create a trusted application pool</span></span>
+## <a name="to-create-a-trusted-application-pool"></a><span data-ttu-id="6d082-106">Чтобы создать пул доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="6d082-106">To create a trusted application pool</span></span>
 
-1.  <span data-ttu-id="cd79a-106">Запустите командную консоль Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd79a-106">Start the Lync Server 2013 Management Shell.</span></span>
+1.  <span data-ttu-id="6d082-107">Запустите командную консоль Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d082-107">Start the Lync Server 2013 Management Shell.</span></span>
 
-2.  <span data-ttu-id="cd79a-107">Выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cd79a-107">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="6d082-108">Выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="6d082-108">Run the following cmdlet:</span></span>
     
         Get-CsSite
     
-    <span data-ttu-id="cd79a-108">Это вернет siteID для siteName, имени сайта, в котором следует создать пул.</span><span class="sxs-lookup"><span data-stu-id="cd79a-108">This returns the siteID for the siteName in which you are creating the pool.</span></span> <span data-ttu-id="cd79a-109">Дополнительные сведения см. в статье [Get – CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) в документации по консоли управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd79a-109">For details, see [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) in the Lync Server 2013 Management Shell documentation.</span></span>
+    <span data-ttu-id="6d082-109">Это вернет siteID для siteName, имени сайта, в котором следует создать пул.</span><span class="sxs-lookup"><span data-stu-id="6d082-109">This returns the siteID for the siteName in which you are creating the pool.</span></span> <span data-ttu-id="6d082-110">Дополнительные сведения см. в статье [Get – CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) в документации по консоли управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d082-110">For details, see [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) in the Lync Server 2013 Management Shell documentation.</span></span>
 
-3.  <span data-ttu-id="cd79a-110">Запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cd79a-110">Run the following cmdlet:</span></span>
+3.  <span data-ttu-id="6d082-111">Запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="6d082-111">Run the following cmdlet:</span></span>
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    <span data-ttu-id="cd79a-111">Дополнительные сведения см. в статье [New – кструстедаппликатионпул](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) в документации по среде управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd79a-111">For details, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) in the Lync Server 2013 Management Shell documentation.</span></span>
+    <span data-ttu-id="6d082-112">Дополнительные сведения см. в статье [New – кструстедаппликатионпул](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) в документации по среде управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d082-112">For details, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) in the Lync Server 2013 Management Shell documentation.</span></span>
     
-    <span data-ttu-id="cd79a-112">Полное доменное имя Exchange Server должно быть настроено в сертификате Exchange OWA как имя субъекта или альтернативное имя субъекта (SAN).</span><span class="sxs-lookup"><span data-stu-id="cd79a-112">The Exchange Server FQDN should be configured as the Exchange OWA certificate Subject Name (SN), or the Subject Alternate Name (SAN).</span></span>
+    <span data-ttu-id="6d082-113">Полное доменное имя Exchange Server должно быть настроено в сертификате Exchange OWA как имя субъекта или альтернативное имя субъекта (SAN).</span><span class="sxs-lookup"><span data-stu-id="6d082-113">The Exchange Server FQDN should be configured as the Exchange OWA certificate Subject Name (SN), or the Subject Alternate Name (SAN).</span></span>
     
-    <span data-ttu-id="cd79a-113">Убедитесь, что в Exchange OWA полное доменное имя пула также является доверенным.</span><span class="sxs-lookup"><span data-stu-id="cd79a-113">In Exchange OWA, verify that the pool’s FQDN is trusted as well.</span></span>
+    <span data-ttu-id="6d082-114">Убедитесь, что в Exchange OWA полное доменное имя пула также является доверенным.</span><span class="sxs-lookup"><span data-stu-id="6d082-114">In Exchange OWA, verify that the pool’s FQDN is trusted as well.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="cd79a-114">Если сервер CAS <EM>не</EM> размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, пропустите оставшиеся действия, описанные в этой процедуре, и выполните процедуру "создание доверенного приложения для сервера клиентского доступа Exchange 2013" Далее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="cd79a-114">If your CAS server is <EM>not</EM> collocated on the same server that is running Exchange 2013 Unified Messaging (UM), skip the remaining steps in this procedure and perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic.</span></span> <span data-ttu-id="cd79a-115">Если сервер CAS размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, выполните действия, описанные в этой процедуре, и не выполняйте процедуру "создание доверенного приложения для сервера клиентского доступа Exchange 2013" Далее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="cd79a-115">If your CAS server is collocated on the same server that is running Exchange 2013 Unified Messaging (UM), complete the steps in this procedure and do not perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic.</span></span>
+    > <span data-ttu-id="6d082-115">Если сервер CAS <EM>не</EM> размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, пропустите оставшиеся действия, описанные в этой процедуре, и выполните процедуру "создание доверенного приложения для сервера клиентского доступа Exchange 2013" Далее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="6d082-115">If your CAS server is <EM>not</EM> collocated on the same server that is running Exchange 2013 Unified Messaging (UM), skip the remaining steps in this procedure and perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic.</span></span> <span data-ttu-id="6d082-116">Если сервер CAS размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, выполните действия, описанные в этой процедуре, и не выполняйте процедуру "создание доверенного приложения для сервера клиентского доступа Exchange 2013" Далее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="6d082-116">If your CAS server is collocated on the same server that is running Exchange 2013 Unified Messaging (UM), complete the steps in this procedure and do not perform the “Create a trusted application for the Exchange 2013 CAS server” procedure later in this topic.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="cd79a-116">Запустите **Enable-CsTopology**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-116">Run **Enable-CsTopology**.</span></span>
+4.  <span data-ttu-id="6d082-117">Запустите **Enable-CsTopology**.</span><span class="sxs-lookup"><span data-stu-id="6d082-117">Run **Enable-CsTopology**.</span></span>
 
-5.  <span data-ttu-id="cd79a-117">Откройте построитель топологий и загрузите текущую топологию.</span><span class="sxs-lookup"><span data-stu-id="cd79a-117">Open Topology Builder and download the existing topology.</span></span>
+5.  <span data-ttu-id="6d082-118">Откройте построитель топологий и загрузите текущую топологию.</span><span class="sxs-lookup"><span data-stu-id="6d082-118">Open Topology Builder and download the existing topology.</span></span>
 
-6.  <span data-ttu-id="cd79a-118">На левой панели разверните дерево, пока не достигните узла **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-118">In the left pane, expand the tree until you reach **Trusted application servers**.</span></span>
+6.  <span data-ttu-id="6d082-119">На левой панели разверните дерево, пока не достигните узла **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="6d082-119">In the left pane, expand the tree until you reach **Trusted application servers**.</span></span>
 
-7.  <span data-ttu-id="cd79a-119">Разверните узел **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-119">Expand the **Trusted application servers** node.</span></span>
+7.  <span data-ttu-id="6d082-120">Разверните узел **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="6d082-120">Expand the **Trusted application servers** node.</span></span>
 
-8.  <span data-ttu-id="cd79a-120">Теперь сервер клиентского доступа Exchange 2013, указанный в качестве доверенного сервера приложений, должен отображаться как доверенный.</span><span class="sxs-lookup"><span data-stu-id="cd79a-120">You should now see the Exchange 2013 CAS server listed as a trusted application server.</span></span>
+8.  <span data-ttu-id="6d082-121">Теперь сервер клиентского доступа Exchange 2013, указанный в качестве доверенного сервера приложений, должен отображаться как доверенный.</span><span class="sxs-lookup"><span data-stu-id="6d082-121">You should now see the Exchange 2013 CAS server listed as a trusted application server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a><span data-ttu-id="cd79a-121">Создание доверенного приложения для сервера клиентского доступа Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="cd79a-121">To create a trusted application for the Exchange 2013 CAS server</span></span>
+## <a name="to-create-a-trusted-application-for-the-exchange-2013-cas-server"></a><span data-ttu-id="6d082-122">Создание доверенного приложения для сервера клиентского доступа Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="6d082-122">To create a trusted application for the Exchange 2013 CAS server</span></span>
 
-1.  <span data-ttu-id="cd79a-122">Запустите командную консоль Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd79a-122">Start the Lync Server 2013 Management Shell.</span></span>
+1.  <span data-ttu-id="6d082-123">Запустите командную консоль Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d082-123">Start the Lync Server 2013 Management Shell.</span></span>
 
-2.  <span data-ttu-id="cd79a-123">Если сервер CAS *не* размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cd79a-123">If your CAS server is *not* collocated on the same server that is running Exchange 2013 Unified Messaging (UM), run the following cmdlet:</span></span>
+2.  <span data-ttu-id="6d082-124">Если сервер CAS *не* размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="6d082-124">If your CAS server is *not* collocated on the same server that is running Exchange 2013 Unified Messaging (UM), run the following cmdlet:</span></span>
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    <span data-ttu-id="cd79a-124">Для получения дополнительных сведений обратитесь к разделу [New – кструстедаппликатион](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) в документации по консоли управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd79a-124">For details, see the topic [New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) in the Lync Server 2013 Management Shell documentation.</span></span>
+    <span data-ttu-id="6d082-125">Для получения дополнительных сведений обратитесь к разделу [New – кструстедаппликатион](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) в документации по консоли управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d082-125">For details, see the topic [New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) in the Lync Server 2013 Management Shell documentation.</span></span>
 
-3.  <span data-ttu-id="cd79a-125">Запустите **Enable-CsTopology**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-125">Run **Enable-CsTopology**.</span></span>
+3.  <span data-ttu-id="6d082-126">Запустите **Enable-CsTopology**.</span><span class="sxs-lookup"><span data-stu-id="6d082-126">Run **Enable-CsTopology**.</span></span>
 
-4.  <span data-ttu-id="cd79a-126">В построителе решений на левой панели разверните дерево, пока не достигните узла **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-126">From Topology Builder, in the left pane, expand the tree until you reach **Trusted application servers**.</span></span>
+4.  <span data-ttu-id="6d082-127">В построителе решений на левой панели разверните дерево, пока не достигните узла **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="6d082-127">From Topology Builder, in the left pane, expand the tree until you reach **Trusted application servers**.</span></span>
 
-5.  <span data-ttu-id="cd79a-127">Разверните узел **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="cd79a-127">Expand the **Trusted application servers** node.</span></span>
+5.  <span data-ttu-id="6d082-128">Разверните узел **Серверы доверенных приложений**.</span><span class="sxs-lookup"><span data-stu-id="6d082-128">Expand the **Trusted application servers** node.</span></span>
 
-6.  <span data-ttu-id="cd79a-128">Теперь сервер клиентского доступа Exchange 2013, указанный в качестве доверенного сервера приложений, должен отображаться как доверенный.</span><span class="sxs-lookup"><span data-stu-id="cd79a-128">You should now see the Exchange 2013 CAS server listed as a trusted application server.</span></span>
+6.  <span data-ttu-id="6d082-129">Теперь сервер клиентского доступа Exchange 2013, указанный в качестве доверенного сервера приложений, должен отображаться как доверенный.</span><span class="sxs-lookup"><span data-stu-id="6d082-129">You should now see the Exchange 2013 CAS server listed as a trusted application server.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Списание серверов и пулов
+description: Списание серверов и пулов.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3db7f76cd9d271de05cf28728ad6028749a50cfa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0c0fc3400ded1b4866c604755c63b1ae9cf689a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503076"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550255"
 ---
-# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="5b78c-102">Списание серверов и пулов</span><span class="sxs-lookup"><span data-stu-id="5b78c-102">Decommissioning servers and pools</span></span>
+# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="5a494-103">Списание серверов и пулов</span><span class="sxs-lookup"><span data-stu-id="5a494-103">Decommissioning servers and pools</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48503076"
 
 <span> </span>
 
-<span data-ttu-id="5b78c-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="5b78c-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="5a494-104">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="5a494-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="5b78c-104">На следующих веб-страницах содержатся сведения о списании серверов и пулов Office Communications Server 2007 R2 Standard Edition или Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="5b78c-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
+<span data-ttu-id="5a494-105">На следующих веб-страницах содержатся сведения о списании серверов и пулов Office Communications Server 2007 R2 Standard Edition или Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="5a494-105">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
 
-  - <span data-ttu-id="5b78c-105">Списание стандартного выпуска по адресу [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="5b78c-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
+  - <span data-ttu-id="5a494-106">Списание стандартного выпуска по адресу [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="5a494-106">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
 
-  - <span data-ttu-id="5b78c-106">Удаление серверов и ролей серверов в [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="5b78c-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
+  - <span data-ttu-id="5a494-107">Удаление серверов и ролей серверов в [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="5a494-107">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
 
-  - <span data-ttu-id="5b78c-107">Удаление корпоративного пула в [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="5b78c-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
+  - <span data-ttu-id="5a494-108">Удаление корпоративного пула в [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="5a494-108">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
 
 </div>
 

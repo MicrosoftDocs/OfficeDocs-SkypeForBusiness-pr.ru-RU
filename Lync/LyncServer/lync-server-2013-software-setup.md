@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка программного обеспечения'
+description: 'Lync Server 2013: Настройка программного обеспечения.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44d76e61bfcf98f55cdd04fefc232406de711e50
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 39b6139b6d635d686f97e86839a823f5500834e8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519596"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551335"
 ---
-# <a name="software-setup-for-lync-server-2013"></a><span data-ttu-id="dda4c-102">Настройка программного обеспечения для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-102">Software setup for Lync Server 2013</span></span>
+# <a name="software-setup-for-lync-server-2013"></a><span data-ttu-id="8c755-103">Настройка программного обеспечения для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-103">Software setup for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48519596"
 
 <span> </span>
 
-<span data-ttu-id="dda4c-103">_**Последнее изменение темы:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="dda4c-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="8c755-104">_**Последнее изменение темы:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="8c755-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="dda4c-104">В этом разделе описывается установка программного обеспечения, которая должна выполняться после установки оборудования в рабочей среде.</span><span class="sxs-lookup"><span data-stu-id="dda4c-104">This section details the software setup that is required after you have setup the hardware in your environment.</span></span>
+<span data-ttu-id="8c755-105">В этом разделе описывается установка программного обеспечения, которая должна выполняться после установки оборудования в рабочей среде.</span><span class="sxs-lookup"><span data-stu-id="8c755-105">This section details the software setup that is required after you have setup the hardware in your environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dda4c-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="dda4c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8c755-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="8c755-106">In This Section</span></span>
 
-  - [<span data-ttu-id="dda4c-106">Установка операционных систем и необходимого программного обеспечения на серверы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-106">Install operating systems and prerequisite software on servers for Lync Server 2013</span></span>](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
+  - [<span data-ttu-id="8c755-107">Установка операционных систем и необходимого программного обеспечения на серверы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-107">Install operating systems and prerequisite software on servers for Lync Server 2013</span></span>](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
-  - [<span data-ttu-id="dda4c-107">Настройка хранилища файлов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-107">Configure file storage for Lync Server 2013</span></span>](lync-server-2013-configure-dfs-file-storage.md)
+  - [<span data-ttu-id="8c755-108">Настройка хранилища файлов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-108">Configure file storage for Lync Server 2013</span></span>](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [<span data-ttu-id="dda4c-108">Запрос сертификатов в предварительной (необязательный) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-108">Request certificates in advance (optional) for Lync Server 2013</span></span>](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [<span data-ttu-id="8c755-109">Запрос сертификатов в предварительной (необязательный) для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-109">Request certificates in advance (optional) for Lync Server 2013</span></span>](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [<span data-ttu-id="dda4c-109">Настройка служб IIS для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-109">Configure IIS for Lync Server 2013</span></span>](lync-server-2013-configure-iis.md)
+  - [<span data-ttu-id="8c755-110">Настройка служб IIS для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-110">Configure IIS for Lync Server 2013</span></span>](lync-server-2013-configure-iis.md)
 
-  - [<span data-ttu-id="dda4c-110">Установка Windows PowerShell 3,0 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda4c-110">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [<span data-ttu-id="8c755-111">Установка Windows PowerShell 3,0 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c755-111">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

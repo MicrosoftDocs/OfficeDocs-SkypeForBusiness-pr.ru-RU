@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Изменение абонентской группы'
+description: 'Lync Server 2013: Изменение абонентской группы.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9e173552970c6b1799076b3f3b05d59ed6f0719e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534416"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550505"
 ---
-# <a name="modify-a-dial-plan-in-lync-server-2013"></a><span data-ttu-id="7f7ad-102">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7f7ad-102">Modify a dial plan in Lync Server 2013</span></span>
+# <a name="modify-a-dial-plan-in-lync-server-2013"></a><span data-ttu-id="cc343-103">Изменение абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc343-103">Modify a dial plan in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,118 +38,118 @@ ms.locfileid: "48534416"
 
 <span> </span>
 
-<span data-ttu-id="7f7ad-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="7f7ad-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="cc343-104">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="cc343-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="7f7ad-104">Чтобы изменить существующую абонентскую группу, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-104">To modify an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="7f7ad-105">Если вы хотите создать новую абонентскую схему, ознакомьтесь со статьей [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-105">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
+<span data-ttu-id="cc343-105">Чтобы изменить существующую абонентскую группу, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="cc343-105">To modify an existing dial plan, perform the steps in the following procedure.</span></span> <span data-ttu-id="cc343-106">Если вы хотите создать новую абонентскую схему, ознакомьтесь со статьей [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-106">If you want to create a new dial plan, see [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md).</span></span>
 
 <div>
 
-## <a name="to-modify-a-dial-plan"></a><span data-ttu-id="7f7ad-106">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="7f7ad-106">To modify a dial plan</span></span>
+## <a name="to-modify-a-dial-plan"></a><span data-ttu-id="cc343-107">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="cc343-107">To modify a dial plan</span></span>
 
-1.  <span data-ttu-id="7f7ad-107">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="7f7ad-108">Дополнительные сведения см [в разделе Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="cc343-108">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="cc343-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="cc343-109">Дополнительные сведения см [в разделе Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="7f7ad-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7f7ad-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="cc343-110">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="cc343-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="cc343-111">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="7f7ad-111">На панели навигации слева выберите **Маршрутизация телефонных звонков** и нажмите **Абонентская группа**.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-111">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
+3.  <span data-ttu-id="cc343-112">На панели навигации слева выберите **Маршрутизация телефонных звонков** и нажмите **Абонентская группа**.</span><span class="sxs-lookup"><span data-stu-id="cc343-112">In the left navigation bar, click **Voice Routing** and then click **Dial Plan**.</span></span>
 
-4.  <span data-ttu-id="7f7ad-112">На странице **Dial Plan** (Абонентская группа) дважды щелкните имя абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-112">On the **Dial Plan** page, double-click a dial plan name.</span></span>
+4.  <span data-ttu-id="cc343-113">На странице **Dial Plan** (Абонентская группа) дважды щелкните имя абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="cc343-113">On the **Dial Plan** page, double-click a dial plan name.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-p104">Область абонентской группы и ее имя задаются при создании абонентской группы. Они не могут быть изменены.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-p104">The dial plan scope and name were set when the dial plan was created. They cannot be changed.</span></span>
+    > <span data-ttu-id="cc343-p104">Область абонентской группы и ее имя задаются при создании абонентской группы. Они не могут быть изменены.</span><span class="sxs-lookup"><span data-stu-id="cc343-p104">The dial plan scope and name were set when the dial plan was created. They cannot be changed.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="7f7ad-115">В поле **Simple name** (Простое имя) (содержит имя, отображаемое в поле **Name** (Имя)) окна **Edit Dial Plan** (Изменение абонентской группы) укажите описательное имя, которое указывает на сайт, службу или пользователя, к которым применяется абонентская группа (необязательно).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-115">(Optional) In **Edit Dial Plan**, edit the **Simple name** field, which is prepopulated with the same name that appears in the **Name** field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
+5.  <span data-ttu-id="cc343-116">В поле **Simple name** (Простое имя) (содержит имя, отображаемое в поле **Name** (Имя)) окна **Edit Dial Plan** (Изменение абонентской группы) укажите описательное имя, которое указывает на сайт, службу или пользователя, к которым применяется абонентская группа (необязательно).</span><span class="sxs-lookup"><span data-stu-id="cc343-116">(Optional) In **Edit Dial Plan**, edit the **Simple name** field, which is prepopulated with the same name that appears in the **Name** field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="7f7ad-116"><STRONG>Простое имя</STRONG> должно быть уникальным среди всех абонентских группы в развертывании Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-116">The <STRONG>Simple name</STRONG> must be unique among all dial plans within the Lync Server 2013 deployment.</span></span> <span data-ttu-id="7f7ad-117">Длина не может превышать 256 символов Юникода, каждая из которых может быть буквенным или числовым символом, дефисом (-), точкой (.), знаком плюс (+) или символом подчеркивания (_).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-117">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), a plus sign (+), or an underscore (_).</span></span><BR><span data-ttu-id="7f7ad-118">В поле <STRONG>Simple name</STRONG> (Простое имя) нельзя использовать пробелы.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-118">Spaces are not allowed in the <STRONG>Simple name</STRONG> field.</span></span>
+    > <span data-ttu-id="cc343-117"><STRONG>Простое имя</STRONG> должно быть уникальным среди всех абонентских группы в развертывании Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cc343-117">The <STRONG>Simple name</STRONG> must be unique among all dial plans within the Lync Server 2013 deployment.</span></span> <span data-ttu-id="cc343-118">Длина не может превышать 256 символов Юникода, каждая из которых может быть буквенным или числовым символом, дефисом (-), точкой (.), знаком плюс (+) или символом подчеркивания (_).</span><span class="sxs-lookup"><span data-stu-id="cc343-118">It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), a plus sign (+), or an underscore (_).</span></span><BR><span data-ttu-id="cc343-119">В поле <STRONG>Simple name</STRONG> (Простое имя) нельзя использовать пробелы.</span><span class="sxs-lookup"><span data-stu-id="cc343-119">Spaces are not allowed in the <STRONG>Simple name</STRONG> field.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="7f7ad-119">В поле **Description** (Описание) укажите дополнительные сведения об абонентской группе (необязательно).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-119">(Optional) In the **Description** field, type descriptive information about the dial plan.</span></span>
+6.  <span data-ttu-id="cc343-120">В поле **Description** (Описание) укажите дополнительные сведения об абонентской группе (необязательно).</span><span class="sxs-lookup"><span data-stu-id="cc343-120">(Optional) In the **Description** field, type descriptive information about the dial plan.</span></span>
 
-7.  <span data-ttu-id="7f7ad-p106">Если эта абонентская группа будет использоваться в качестве региона для номеров доступа к конференц-связи, то укажите **Dial-in conferencing region** (Регион конференц-связи с телефонным подключением) (необязательно). В противном случае оставьте это поле пустым.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-p106">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
+7.  <span data-ttu-id="cc343-p106">Если эта абонентская группа будет использоваться в качестве региона для номеров доступа к конференц-связи, то укажите **Dial-in conferencing region** (Регион конференц-связи с телефонным подключением) (необязательно). В противном случае оставьте это поле пустым.</span><span class="sxs-lookup"><span data-stu-id="cc343-p106">(Optional) If you want to use this dial plan as a region for dial-in access numbers, specify a **Dial-in conferencing region**. If you do not want to use this dial plan for dial-in access numbers, leave this field empty.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-122">Регионы конференц-связи с телефонным подключением требуются для связи номеров доступа к конференц-связи с телефонным подключением с одной абонентской группой или несколькими.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-122">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
+    > <span data-ttu-id="cc343-123">Регионы конференц-связи с телефонным подключением требуются для связи номеров доступа к конференц-связи с телефонным подключением с одной абонентской группой или несколькими.</span><span class="sxs-lookup"><span data-stu-id="cc343-123">Dial-in conferencing regions are required to associate dial-in conferencing access numbers with one or more dial plans.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="7f7ad-123">Поле **External access prefix** (Префикс выхода на внешнюю линию) должно содержать значение только в том случае, если для выхода на внешнюю линию пользователям требуется набирать дополнительные цифры, например 9 (необязательно).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-123">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits to get an external line (for example, 9).</span></span> <span data-ttu-id="7f7ad-124">Можно ввести значение префикса длиной до четырех символов (то есть,, \# \* и 0-9).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-124">You can type in a prefix value of up to four characters (that is, \#, \*, and 0-9).</span></span>
+8.  <span data-ttu-id="cc343-124">Поле **External access prefix** (Префикс выхода на внешнюю линию) должно содержать значение только в том случае, если для выхода на внешнюю линию пользователям требуется набирать дополнительные цифры, например 9 (необязательно).</span><span class="sxs-lookup"><span data-stu-id="cc343-124">(Optional) In the **External access prefix** field, specify a value only if users need to dial one or more additional leading digits to get an external line (for example, 9).</span></span> <span data-ttu-id="cc343-125">Можно ввести значение префикса длиной до четырех символов (то есть,, \# \* и 0-9).</span><span class="sxs-lookup"><span data-stu-id="cc343-125">You can type in a prefix value of up to four characters (that is, \#, \*, and 0-9).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-125">При указании префикса выхода на внешнюю линию не требуется создавать новое правило нормализации для преобразования префикса.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-125">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
+    > <span data-ttu-id="cc343-126">При указании префикса выхода на внешнюю линию не требуется создавать новое правило нормализации для преобразования префикса.</span><span class="sxs-lookup"><span data-stu-id="cc343-126">If you specify an external access prefix, you do not need to create a new normalization rule to accommodate the prefix.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="7f7ad-126">Настройте и свяжите правила нормализации для абонентской группы:</span><span class="sxs-lookup"><span data-stu-id="7f7ad-126">Associate and configure normalization rules for the dial plan:</span></span>
+9.  <span data-ttu-id="cc343-127">Настройте и свяжите правила нормализации для абонентской группы:</span><span class="sxs-lookup"><span data-stu-id="cc343-127">Associate and configure normalization rules for the dial plan:</span></span>
     
-      - <span data-ttu-id="7f7ad-127">Чтобы выбрать одно или несколько правил из списка всех правил нормализации, доступных в развертывании корпоративной голосовой связи, нажмите кнопку **выбрать**.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-127">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="7f7ad-128">В диалоговом окне **Select Normalization Rules** (Выбор правил нормализации) выделите правила, которые необходимо связать с абонентской группой, и затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-128">In the **Select Normalization Rules** dialog box, highlight the rules that you want to associate with the dial plan and then click **OK**.</span></span>
+      - <span data-ttu-id="cc343-128">Чтобы выбрать одно или несколько правил из списка всех правил нормализации, доступных в развертывании корпоративной голосовой связи, нажмите кнопку **выбрать**.</span><span class="sxs-lookup"><span data-stu-id="cc343-128">To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**.</span></span> <span data-ttu-id="cc343-129">В диалоговом окне **Select Normalization Rules** (Выбор правил нормализации) выделите правила, которые необходимо связать с абонентской группой, и затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cc343-129">In the **Select Normalization Rules** dialog box, highlight the rules that you want to associate with the dial plan and then click **OK**.</span></span>
     
-      - <span data-ttu-id="7f7ad-129">Чтобы создать новое правило нормализации и связать его с абонентской группой, щелкните **New** (Создать).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-129">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="7f7ad-130">Дополнительные сведения об определении нового правила приведены в статье [Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-130">For details about defining a new rule, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
+      - <span data-ttu-id="cc343-130">Чтобы создать новое правило нормализации и связать его с абонентской группой, щелкните **New** (Создать).</span><span class="sxs-lookup"><span data-stu-id="cc343-130">To define a new normalization rule and associate it with the dial plan, click **New**.</span></span> <span data-ttu-id="cc343-131">Дополнительные сведения об определении нового правила приведены в статье [Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-131">For details about defining a new rule, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
     
-      - <span data-ttu-id="7f7ad-131">Чтобы изменить правило нормализации, которое уже связано с абонентской группой, выделите имя правила и щелкните **Show details** (Подробности).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-131">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span> <span data-ttu-id="7f7ad-132">Дополнительные сведения о редактировании правила приведены [в статье Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-132">For details about editing the rule, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
+      - <span data-ttu-id="cc343-132">Чтобы изменить правило нормализации, которое уже связано с абонентской группой, выделите имя правила и щелкните **Show details** (Подробности).</span><span class="sxs-lookup"><span data-stu-id="cc343-132">To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**.</span></span> <span data-ttu-id="cc343-133">Дополнительные сведения о редактировании правила приведены [в статье Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-133">For details about editing the rule, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
     
-      - <span data-ttu-id="7f7ad-133">Чтобы скопировать существующее правило нормализации и использовать его в качестве шаблона для нового правила, выделите имя правила и затем щелкните **Copy** (Копировать) и **Paste** (Вставить).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-133">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span> <span data-ttu-id="7f7ad-134">Сведения о редактировании копии приведены в статье [Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-134">For details about editing the copy, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
+      - <span data-ttu-id="cc343-134">Чтобы скопировать существующее правило нормализации и использовать его в качестве шаблона для нового правила, выделите имя правила и затем щелкните **Copy** (Копировать) и **Paste** (Вставить).</span><span class="sxs-lookup"><span data-stu-id="cc343-134">To copy an existing normalization rule to use as a starting point for defining a new rule, highlight the rule name and click **Copy**, and then click **Paste**.</span></span> <span data-ttu-id="cc343-135">Сведения о редактировании копии приведены в статье [Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span><span class="sxs-lookup"><span data-stu-id="cc343-135">For details about editing the copy, see [Defining normalization rules in Lync Server 2013](lync-server-2013-defining-normalization-rules.md).</span></span>
     
-      - <span data-ttu-id="7f7ad-135">Чтобы удалить правило нормализации из абонентской группы, выделите имя правила и щелкните **Remove** (Удалить).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-135">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
+      - <span data-ttu-id="cc343-136">Чтобы удалить правило нормализации из абонентской группы, выделите имя правила и щелкните **Remove** (Удалить).</span><span class="sxs-lookup"><span data-stu-id="cc343-136">To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-136">Каждая абонентская группа должна иметь как минимум одно правило нормализации, связанное с ней.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-136">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="7f7ad-137">Для получения дополнительных сведений о том, как определить все правила нормализации, необходимые для абонентской группы, ознакомьтесь с <A href="lync-server-2013-dial-plans-and-normalization-rules.md">разбираемыми планами и правилами нормализации в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-137">For details about how to determine all of the normalization rules a dial plan requires, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+    > <span data-ttu-id="cc343-137">Каждая абонентская группа должна иметь как минимум одно правило нормализации, связанное с ней.</span><span class="sxs-lookup"><span data-stu-id="cc343-137">Each dial plan must have at least one associated normalization rule.</span></span> <span data-ttu-id="cc343-138">Для получения дополнительных сведений о том, как определить все правила нормализации, необходимые для абонентской группы, ознакомьтесь с <A href="lync-server-2013-dial-plans-and-normalization-rules.md">разбираемыми планами и правилами нормализации в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="cc343-138">For details about how to determine all of the normalization rules a dial plan requires, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="7f7ad-p113">Убедитесь, что правила нормализации абонентской группы расположены в правильном порядке. Чтобы изменить расположение правила в списке, выделите имя правила и нажмите кнопку со стрелкой вверх или вниз.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-p113">Verify that the dial plan’s normalization rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.</span></span>
+10. <span data-ttu-id="cc343-p113">Убедитесь, что правила нормализации абонентской группы расположены в правильном порядке. Чтобы изменить расположение правила в списке, выделите имя правила и нажмите кнопку со стрелкой вверх или вниз.</span><span class="sxs-lookup"><span data-stu-id="cc343-p113">Verify that the dial plan’s normalization rules are arranged in the correct order. To change a rule’s position in the list, highlight the rule name and then click the up or down arrow.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="7f7ad-140">Lync Server выполняет обход списка правил нормализации сверху вниз и использует первое правило, которое соответствует набранному номеру.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-140">Lync Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="7f7ad-141">Если вы настроили абонентскую группу таким образом, что набираемый номер может соответствовать нескольким правилам нормализации, убедитесь, что после сортировки более строгие правила располагаются выше менее строгих правил.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-141">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span><BR><span data-ttu-id="7f7ad-142">Правило нормализации по умолчанию " <STRONG>сохранить все</STRONG> " <STRONG>^ (\d {11} ) $</STRONG> соответствует любому значению из 11 цифр.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-142">The default <STRONG>Keep All</STRONG> normalization rule <STRONG>^(\d{11})$</STRONG> matches any 11-digit number.</span></span> <span data-ttu-id="7f7ad-143">Например, если вы добавляете правило нормализации, которое соответствует номерам из 11 цифр, начинающимся с 1425, убедитесь, что для параметра <STRONG>сохранить все</STRONG> сортировка ниже более ограничительного правила <STRONG>^ (1425 \ d {7} ) $</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="7f7ad-143">If, for example, you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that <STRONG>Keep All</STRONG> is sorted below the more restrictive <STRONG>^(1425\d{7})$</STRONG> rule.</span></span>
+    > <span data-ttu-id="cc343-141">Lync Server выполняет обход списка правил нормализации сверху вниз и использует первое правило, которое соответствует набранному номеру.</span><span class="sxs-lookup"><span data-stu-id="cc343-141">Lync Server traverses the normalization rule list from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="cc343-142">Если вы настроили абонентскую группу таким образом, что набираемый номер может соответствовать нескольким правилам нормализации, убедитесь, что после сортировки более строгие правила располагаются выше менее строгих правил.</span><span class="sxs-lookup"><span data-stu-id="cc343-142">If you configure a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span><BR><span data-ttu-id="cc343-143">Правило нормализации по умолчанию " <STRONG>сохранить все</STRONG> " <STRONG>^ (\d {11} ) $</STRONG> соответствует любому значению из 11 цифр.</span><span class="sxs-lookup"><span data-stu-id="cc343-143">The default <STRONG>Keep All</STRONG> normalization rule <STRONG>^(\d{11})$</STRONG> matches any 11-digit number.</span></span> <span data-ttu-id="cc343-144">Например, если вы добавляете правило нормализации, которое соответствует номерам из 11 цифр, начинающимся с 1425, убедитесь, что для параметра <STRONG>сохранить все</STRONG> сортировка ниже более ограничительного правила <STRONG>^ (1425 \ d {7} ) $</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="cc343-144">If, for example, you add a normalization rule that matches 11-digit numbers that start with 1425, make sure that <STRONG>Keep All</STRONG> is sorted below the more restrictive <STRONG>^(1425\d{7})$</STRONG> rule.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="7f7ad-p116">Введите номер для проверки абонентской группы и щелкните **Go** (Проверить) (необязательно). Результаты проверки отображаются в **Enter a number to test** (Введите номер для проверки).</span><span class="sxs-lookup"><span data-stu-id="7f7ad-p116">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
+11. <span data-ttu-id="cc343-p116">Введите номер для проверки абонентской группы и щелкните **Go** (Проверить) (необязательно). Результаты проверки отображаются в **Enter a number to test** (Введите номер для проверки).</span><span class="sxs-lookup"><span data-stu-id="cc343-p116">(Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-146">Если абонентской группе не удается пройти проверку, то вы можете сохранить ее и настроить позже.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-146">You can save a dial plan that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="7f7ad-147">Дополнительные сведения см <A href="lync-server-2013-test-voice-routing.md">в статье Проверка маршрутизации голосовой связи в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-147">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="cc343-147">Если абонентской группе не удается пройти проверку, то вы можете сохранить ее и настроить позже.</span><span class="sxs-lookup"><span data-stu-id="cc343-147">You can save a dial plan that does not yet pass the test and then reconfigure it later.</span></span> <span data-ttu-id="cc343-148">Дополнительные сведения см <A href="lync-server-2013-test-voice-routing.md">в статье Проверка маршрутизации голосовой связи в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="cc343-148">For details, see <A href="lync-server-2013-test-voice-routing.md">Test voice routing in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-12. <span data-ttu-id="7f7ad-148">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-148">Click **OK**.</span></span>
+12. <span data-ttu-id="cc343-149">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cc343-149">Click **OK**.</span></span>
 
-13. <span data-ttu-id="7f7ad-149">На странице **Абонентская группа** нажмите кнопку **Зафиксировать**, а затем нажмите кнопку **Зафиксировать все**.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-149">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+13. <span data-ttu-id="cc343-150">На странице **Абонентская группа** нажмите кнопку **Зафиксировать**, а затем нажмите кнопку **Зафиксировать все**.</span><span class="sxs-lookup"><span data-stu-id="cc343-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7f7ad-150">Для публикации изменений конфигурации необходимо выполнять команду <STRONG>Commit all</STRONG> (Фиксировать все) при каждом изменении или создании абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-150">Any time you create or modify a dial plan, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="7f7ad-151">Дополнительные сведения см в статье <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</A> в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="7f7ad-151">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="cc343-151">Для публикации изменений конфигурации необходимо выполнять команду <STRONG>Commit all</STRONG> (Фиксировать все) при каждом изменении или создании абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="cc343-151">Any time you create or modify a dial plan, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="cc343-152">Дополнительные сведения см в статье <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</A> в документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="cc343-152">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -157,14 +158,14 @@ ms.locfileid: "48534416"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7f7ad-152">См. также</span><span class="sxs-lookup"><span data-stu-id="7f7ad-152">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cc343-153">См. также</span><span class="sxs-lookup"><span data-stu-id="cc343-153">See Also</span></span>
 
 
-[<span data-ttu-id="7f7ad-153">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7f7ad-153">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
-[<span data-ttu-id="7f7ad-154">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7f7ad-154">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[<span data-ttu-id="cc343-154">Создание абонентской группы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc343-154">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="cc343-155">Публикация ожидающих изменений в конфигурации маршрутизации голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc343-155">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[<span data-ttu-id="7f7ad-155">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7f7ad-155">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
+[<span data-ttu-id="cc343-156">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc343-156">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>

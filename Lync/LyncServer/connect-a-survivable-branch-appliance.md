@@ -1,5 +1,6 @@
 ---
 title: Подключение Survivable Branch Appliance
+description: Подключите устройство для обеспечения связи в филиалах.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95831fc6b6c43c6b4a1944187447fe3ff83f1d14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5bbf9e1a4189d3c80d6dec449adf68b82cd3691
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503116"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550285"
 ---
-# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="acedf-102">Подключение Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="acedf-102">Connect a Survivable Branch Appliance</span></span>
+# <a name="connect-a-survivable-branch-appliance"></a><span data-ttu-id="bbf26-103">Подключение Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="bbf26-103">Connect a Survivable Branch Appliance</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,64 +38,64 @@ ms.locfileid: "48503116"
 
 <span> </span>
 
-<span data-ttu-id="acedf-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="acedf-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="bbf26-104">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="bbf26-104">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="acedf-104">Каждое устройство для обеспечения связи в филиалах (SBA) связано с пулом переднего плана, который выступает в качестве регистратора резервных копий для SBA.</span><span class="sxs-lookup"><span data-stu-id="acedf-104">Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="acedf-105">Когда интерфейсный пул переносится на Lync Server 2013, SBA должен быть связан с интерфейсным пулом Lync Server 2010 при его обновлении, после переноса пула в Lync Server 2013, SBA может быть повторно связан с обновленным интерфейсным пулом.</span><span class="sxs-lookup"><span data-stu-id="acedf-105">When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="acedf-106">Это включает удаление SBA из устаревшей топологии Lync Server 2010 в построителе топологий и добавление SBA в топологию Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="acedf-106">This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology.</span></span> <span data-ttu-id="acedf-107">Пользователи, размещенные на старом сервере Lync 2010 SBA, необходимо сначала переместить в другой интерфейсный пул, прежде чем удалять SBA из топологии.</span><span class="sxs-lookup"><span data-stu-id="acedf-107">Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="acedf-108">После добавления SBA в топологию Lync Server 2013 эти пользователи затем могут быть возвращены в SBA.</span><span class="sxs-lookup"><span data-stu-id="acedf-108">Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA.</span></span> <span data-ttu-id="acedf-109">Эти действия приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="acedf-109">These steps are summarized below:</span></span>
+<span data-ttu-id="bbf26-105">Каждое устройство для обеспечения связи в филиалах (SBA) связано с пулом переднего плана, который выступает в качестве регистратора резервных копий для SBA.</span><span class="sxs-lookup"><span data-stu-id="bbf26-105">Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA.</span></span> <span data-ttu-id="bbf26-106">Когда интерфейсный пул переносится на Lync Server 2013, SBA должен быть связан с интерфейсным пулом Lync Server 2010 при его обновлении, после переноса пула в Lync Server 2013, SBA может быть повторно связан с обновленным интерфейсным пулом.</span><span class="sxs-lookup"><span data-stu-id="bbf26-106">When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool.</span></span> <span data-ttu-id="bbf26-107">Это включает удаление SBA из устаревшей топологии Lync Server 2010 в построителе топологий и добавление SBA в топологию Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bbf26-107">This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology.</span></span> <span data-ttu-id="bbf26-108">Пользователи, размещенные на старом сервере Lync 2010 SBA, необходимо сначала переместить в другой интерфейсный пул, прежде чем удалять SBA из топологии.</span><span class="sxs-lookup"><span data-stu-id="bbf26-108">Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology.</span></span> <span data-ttu-id="bbf26-109">После добавления SBA в топологию Lync Server 2013 эти пользователи затем могут быть возвращены в SBA.</span><span class="sxs-lookup"><span data-stu-id="bbf26-109">Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA.</span></span> <span data-ttu-id="bbf26-110">Эти действия приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="bbf26-110">These steps are summarized below:</span></span>
 
-1.  <span data-ttu-id="acedf-110">Переместите пользователей филиалов, размещенных на устаревшем SBA Lync Server 2010, в другой интерфейсный пул.</span><span class="sxs-lookup"><span data-stu-id="acedf-110">Move branch users homed on the legacy SBA Lync Server 2010 to another Front End pool.</span></span>
+1.  <span data-ttu-id="bbf26-111">Переместите пользователей филиалов, размещенных на устаревшем SBA Lync Server 2010, в другой интерфейсный пул.</span><span class="sxs-lookup"><span data-stu-id="bbf26-111">Move branch users homed on the legacy SBA Lync Server 2010 to another Front End pool.</span></span>
 
-2.  <span data-ttu-id="acedf-111">Удалите SBA из устаревшей топологии Lync Server 2010, чтобы отключить существующий интерфейсный пул в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="acedf-111">Remove SBA from the legacy Lync Server 2010 topology to disconnect the existing Front End pool as a backup registrar.</span></span>
+2.  <span data-ttu-id="bbf26-112">Удалите SBA из устаревшей топологии Lync Server 2010, чтобы отключить существующий интерфейсный пул в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="bbf26-112">Remove SBA from the legacy Lync Server 2010 topology to disconnect the existing Front End pool as a backup registrar.</span></span>
 
-3.  <span data-ttu-id="acedf-112">Добавьте SBA в топологию Lync Server 2013 и настройте этот новый интерфейсный пул в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="acedf-112">Add SBA to the Lync Server 2013 topology and configure this new Front End pool as the backup registrar.</span></span>
+3.  <span data-ttu-id="bbf26-113">Добавьте SBA в топологию Lync Server 2013 и настройте этот новый интерфейсный пул в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="bbf26-113">Add SBA to the Lync Server 2013 topology and configure this new Front End pool as the backup registrar.</span></span>
 
-4.  <span data-ttu-id="acedf-113">Переместите пользователей филиала на новый Lync Server 2013 SBA.</span><span class="sxs-lookup"><span data-stu-id="acedf-113">Move the branch users to the new Lync Server 2013 SBA.</span></span>
+4.  <span data-ttu-id="bbf26-114">Переместите пользователей филиала на новый Lync Server 2013 SBA.</span><span class="sxs-lookup"><span data-stu-id="bbf26-114">Move the branch users to the new Lync Server 2013 SBA.</span></span>
 
-<span data-ttu-id="acedf-114">**Добавление сайта филиала устройства для обеспечения связи в филиалах Lync Server 2010 в топологию**</span><span class="sxs-lookup"><span data-stu-id="acedf-114">**Add Lync Server 2010 SBA Branch Site to Your Topology**</span></span>
+<span data-ttu-id="bbf26-115">**Добавление сайта филиала устройства для обеспечения связи в филиалах Lync Server 2010 в топологию**</span><span class="sxs-lookup"><span data-stu-id="bbf26-115">**Add Lync Server 2010 SBA Branch Site to Your Topology**</span></span>
 
-1.  <span data-ttu-id="acedf-115">Откройте **построитель топологий**.</span><span class="sxs-lookup"><span data-stu-id="acedf-115">Open **Topology Builder**.</span></span>
+1.  <span data-ttu-id="bbf26-116">Откройте **построитель топологий**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-116">Open **Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="acedf-116">В левой панели щелкните правой кнопкой мыши элемент **Сайты филиалов**, а затем выберите пункт **Создать сайт филиала**.</span><span class="sxs-lookup"><span data-stu-id="acedf-116">In the left pane right-click **Branch sites**, and then click **New Branch Site**.</span></span>
+2.  <span data-ttu-id="bbf26-117">В левой панели щелкните правой кнопкой мыши элемент **Сайты филиалов**, а затем выберите пункт **Создать сайт филиала**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-117">In the left pane right-click **Branch sites**, and then click **New Branch Site**.</span></span>
 
-3.  <span data-ttu-id="acedf-117">В диалоговом окне **Определение нового сайта филиала для сайта** щелкните элемент **Имя**, а затем введите имя сайта филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-117">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
+3.  <span data-ttu-id="bbf26-118">В диалоговом окне **Определение нового сайта филиала для сайта** щелкните элемент **Имя**, а затем введите имя сайта филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-118">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
 
-4.  <span data-ttu-id="acedf-118">(Необязательно) Щелкните элемент **Описание**, а затем введите содержательное описание для сайта филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-118">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
+4.  <span data-ttu-id="bbf26-119">(Необязательно) Щелкните элемент **Описание**, а затем введите содержательное описание для сайта филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-119">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
 
-5.  <span data-ttu-id="acedf-119">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="acedf-119">Click **Next**.</span></span>
+5.  <span data-ttu-id="bbf26-120">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-120">Click **Next**.</span></span>
 
-6.  <span data-ttu-id="acedf-120">(Необязательно) В следующем диалоговом окне **Определение нового сайта филиала для сайта** выполните любое из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="acedf-120">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
+6.  <span data-ttu-id="bbf26-121">(Необязательно) В следующем диалоговом окне **Определение нового сайта филиала для сайта** выполните любое из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="bbf26-121">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
     
-    1.  <span data-ttu-id="acedf-121">Щелкните элемент **Город**, а затем введите название города, в котором расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-121">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
+    1.  <span data-ttu-id="bbf26-122">Щелкните элемент **Город**, а затем введите название города, в котором расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-122">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
     
-    2.  <span data-ttu-id="acedf-122">Щелкните элемент **Регион**, а затем введите название региона или области, где расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-122">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
+    2.  <span data-ttu-id="bbf26-123">Щелкните элемент **Регион**, а затем введите название региона или области, где расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-123">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
     
-    3.  <span data-ttu-id="acedf-123">Щелкните элемент **Код страны**, а затем введите двузначный вызывной код для страны/региона, где расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-123">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
+    3.  <span data-ttu-id="bbf26-124">Щелкните элемент **Код страны**, а затем введите двузначный вызывной код для страны/региона, где расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-124">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
 
-7.  <span data-ttu-id="acedf-124">Нажмите кнопку **Далее**, а затем выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="acedf-124">Click **Next**, and then do one of the following:</span></span>
+7.  <span data-ttu-id="bbf26-125">Нажмите кнопку **Далее**, а затем выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="bbf26-125">Click **Next**, and then do one of the following:</span></span>
     
-    1.  <span data-ttu-id="acedf-p102">Если вы используете на этом сайте устройство или сервер для обеспечения связи в филиалах Lync 2010, обязательно снимите флажок **Открыть мастер создания устройства для обеспечения связи в филиалах после завершения работы этого мастера**. Нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="acedf-p102">If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.</span></span>
+    1.  <span data-ttu-id="bbf26-p102">Если вы используете на этом сайте устройство или сервер для обеспечения связи в филиалах Lync 2010, обязательно снимите флажок **Открыть мастер создания устройства для обеспечения связи в филиалах после завершения работы этого мастера**. Нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-p102">If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.</span></span>
 
-8.  <span data-ttu-id="acedf-127">Сопоставление устаревшего сервера Lync Server 2010 SBA с интерфейсным пулом Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="acedf-127">To associate the legacy Lync Server 2010 SBA to the Lync Server 2013 Front End pool:</span></span>
+8.  <span data-ttu-id="bbf26-128">Сопоставление устаревшего сервера Lync Server 2010 SBA с интерфейсным пулом Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="bbf26-128">To associate the legacy Lync Server 2010 SBA to the Lync Server 2013 Front End pool:</span></span>
     
-    1.  <span data-ttu-id="acedf-128">Разверните созданный сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="acedf-128">Expand the branch site that has been created.</span></span>
+    1.  <span data-ttu-id="bbf26-129">Разверните созданный сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="bbf26-129">Expand the branch site that has been created.</span></span>
     
-    2.  <span data-ttu-id="acedf-129">Щелкните правой кнопкой мыши элемент **Lync Server 2010** и выберите пункт **Создать**.</span><span class="sxs-lookup"><span data-stu-id="acedf-129">Right click on **Lync Server 2010** and then click **New**.</span></span>
+    2.  <span data-ttu-id="bbf26-130">Щелкните правой кнопкой мыши элемент **Lync Server 2010** и выберите пункт **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-130">Right click on **Lync Server 2010** and then click **New**.</span></span>
     
-    3.  <span data-ttu-id="acedf-130">Щелкните элемент **Устройство для обеспечения связи в филиалах…**</span><span class="sxs-lookup"><span data-stu-id="acedf-130">Click **Survivable Branch Appliance…**</span></span>
+    3.  <span data-ttu-id="bbf26-131">Щелкните элемент **Устройство для обеспечения связи в филиалах…**</span><span class="sxs-lookup"><span data-stu-id="bbf26-131">Click **Survivable Branch Appliance…**</span></span>
 
-9.  <span data-ttu-id="acedf-131">Следуйте указаниям открывшегося мастера.</span><span class="sxs-lookup"><span data-stu-id="acedf-131">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="acedf-132">Сведения об элементах мастера можно найти [в разделе Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="acedf-132">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
+9.  <span data-ttu-id="bbf26-132">Следуйте указаниям открывшегося мастера.</span><span class="sxs-lookup"><span data-stu-id="bbf26-132">Follow the directions in the wizard that opens.</span></span> <span data-ttu-id="bbf26-133">Сведения об элементах мастера можно найти [в разделе Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="bbf26-133">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="acedf-133">Устройство для обеспечения связи в филиалах Lync Server 2010 может быть связано только с хранилищем мониторинга Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="acedf-133">A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store.</span></span>
+    > <span data-ttu-id="bbf26-134">Устройство для обеспечения связи в филиалах Lync Server 2010 может быть связано только с хранилищем мониторинга Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="bbf26-134">A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="acedf-134">Если вы не используете на этом сайте устройство или сервер для обеспечения связи в филиалах, снимите флажок **Открыть мастер создания устройства для обеспечения связи в филиалах после завершения работы этого мастера**. а затем нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="acedf-134">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
+10. <span data-ttu-id="bbf26-135">Если вы не используете на этом сайте устройство или сервер для обеспечения связи в филиалах, снимите флажок **Открыть мастер создания устройства для обеспечения связи в филиалах после завершения работы этого мастера**. а затем нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="bbf26-135">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
 
-11. <span data-ttu-id="acedf-135">Повторите перечисленные выше действия для каждого сайта филиала, который вы хотите добавить в топологию.</span><span class="sxs-lookup"><span data-stu-id="acedf-135">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
+11. <span data-ttu-id="bbf26-136">Повторите перечисленные выше действия для каждого сайта филиала, который вы хотите добавить в топологию.</span><span class="sxs-lookup"><span data-stu-id="bbf26-136">Repeat the previous steps for each branch site you want to add to the topology.</span></span>
 
 </div>
 

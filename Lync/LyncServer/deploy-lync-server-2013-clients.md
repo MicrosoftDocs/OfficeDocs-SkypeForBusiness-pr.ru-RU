@@ -1,5 +1,6 @@
 ---
 title: Развертывание клиентов Lync Server 2013
+description: Развертывание клиентов Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185375
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 235209fcbb74aabf46f30425d8c2e79e090f6b14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8022251b4f8ee783a7dbd1a5579c3c295d883579
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503066"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550245"
 ---
-# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="dffe0-102">Развертывание клиентов Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dffe0-102">Deploy Lync Server 2013 clients</span></span>
+# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="15dcb-103">Развертывание клиентов Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15dcb-103">Deploy Lync Server 2013 clients</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48503066"
 
 <span> </span>
 
-<span data-ttu-id="dffe0-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="dffe0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="15dcb-104">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="15dcb-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="dffe0-104">Сведения о развертывании [клиентов и устройств в Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) содержатся в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="dffe0-104">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="15dcb-105">Сведения о развертывании [клиентов и устройств в Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) содержатся в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="15dcb-105">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: определение требований к инфраструктуре'
+description: 'Lync Server 2013: определение требований к инфраструктуре.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56bdb5545c9bb77bc1240c3b9f451ffa138943a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 691fa481f75894988a7dd5a9593e129c65cc3be5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522566"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550925"
 ---
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="0faf1-102">Определение требований к инфраструктуре для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faf1-102">Determining your infrastructure requirements for Lync Server 2013</span></span>
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="4b5b8-103">Определение требований к инфраструктуре для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b5b8-103">Determining your infrastructure requirements for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48522566"
 
 <span> </span>
 
-<span data-ttu-id="0faf1-103">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="0faf1-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="4b5b8-104">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="4b5b8-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="0faf1-104">Необходимо определить и понять требования к инфраструктуре для развертывания, поэтому вы можете спланировать выполнение этих требований перед развертыванием Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0faf1-104">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
+<span data-ttu-id="4b5b8-105">Необходимо определить и понять требования к инфраструктуре для развертывания, поэтому вы можете спланировать выполнение этих требований перед развертыванием Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4b5b8-105">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0faf1-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="0faf1-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4b5b8-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="4b5b8-106">In This Section</span></span>
 
-  - [<span data-ttu-id="0faf1-106">Определение требований к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faf1-106">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
+  - [<span data-ttu-id="4b5b8-107">Определение требований к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b5b8-107">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
 
-  - [<span data-ttu-id="0faf1-107">Требования к инфраструктуре Active Directory для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faf1-107">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="4b5b8-108">Требования к инфраструктуре Active Directory для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b5b8-108">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="0faf1-108">Требования к инфраструктуре сертификатов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faf1-108">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [<span data-ttu-id="4b5b8-109">Требования к инфраструктуре сертификатов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b5b8-109">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="0faf1-109">Требования к службам IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0faf1-109">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [<span data-ttu-id="4b5b8-110">Требования к службам IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4b5b8-110">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 
