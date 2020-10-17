@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Управление параметрами обмена мгновенными сообщениями и сведениями о присутствии'
+description: 'Lync Server 2013: Управление параметрами обмена мгновенными сообщениями и сведениями о присутствии.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 182b1c0019e872568a0d9d848b2341dee2fb47b8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c7a03911e932a68e310dcc245e43317971d3767
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498276"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557505"
 ---
 # <a name="managing-im-and-presence-settings-in-lync-server-2013"></a>Управление параметрами обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013
 
