@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: определение правил преобразования и правил нормализации'
+description: 'Lync Server 2013: определение правил преобразования и правил нормализации.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d77562edd0b29bb176b7793b9f87efc717c2214
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c5b0e174d7eb1f22b8a2fb35a6ddfffd3da5d636
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504466"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570715"
 ---
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="5f91d-102">Определение правил и правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f91d-102">Defining translation rules and normalization rules in Lync Server 2013</span></span>
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="b372b-103">Определение правил и правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b372b-103">Defining translation rules and normalization rules in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,26 +38,26 @@ ms.locfileid: "48504466"
 
 <span> </span>
 
-<span data-ttu-id="5f91d-103">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="5f91d-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="b372b-104">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="b372b-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="5f91d-104">Используйте подразделы, приведенные в разделе, чтобы узнать, как настроить магистрали для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5f91d-104">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
+<span data-ttu-id="b372b-105">Используйте подразделы, приведенные в разделе, чтобы узнать, как настроить магистрали для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b372b-105">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5f91d-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="5f91d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b372b-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="b372b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="5f91d-106">Определение правил преобразования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f91d-106">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
+  - [<span data-ttu-id="b372b-107">Определение правил преобразования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b372b-107">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
 
-  - [<span data-ttu-id="5f91d-107">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f91d-107">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
+  - [<span data-ttu-id="b372b-108">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b372b-108">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5f91d-108">См. также</span><span class="sxs-lookup"><span data-stu-id="5f91d-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b372b-109">См. также</span><span class="sxs-lookup"><span data-stu-id="b372b-109">See Also</span></span>
 
 
-[<span data-ttu-id="5f91d-109">Управление маршрутизацией голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f91d-109">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
+[<span data-ttu-id="b372b-110">Управление маршрутизацией голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b372b-110">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

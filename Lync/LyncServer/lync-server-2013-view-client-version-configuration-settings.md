@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Просмотр параметров конфигурации версии клиента'
+description: 'Lync Server 2013: Просмотр параметров конфигурации версий клиентов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ec472bff967bc2a8ffb75d09e3515654487be41
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 04fc25a1ab4904cbc6ca7871e1568ac8bc488bdf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506606"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572505"
 ---
-# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="5379f-102">Просмотр параметров конфигурации версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5379f-102">View client version configuration settings in Lync Server 2013</span></span>
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="9c741-103">Просмотр параметров конфигурации версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c741-103">View client version configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48506606"
 
 <span> </span>
 
-<span data-ttu-id="5379f-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="5379f-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="9c741-104">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9c741-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="5379f-104">Параметры конфигурации используются для включения и отключения управления версиями клиентов.</span><span class="sxs-lookup"><span data-stu-id="5379f-104">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="5379f-105">Конфигурация глобальной версии клиента устанавливается вместе с Lync Server 2013 и используется для включения или отключения управления версиями клиентов для всего развертывания сервера.</span><span class="sxs-lookup"><span data-stu-id="5379f-105">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="5379f-106">Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="5379f-106">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="5379f-107">Параметры конфигурации версий клиентов можно просматривать на панели управления Lync Server 2013 или в командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5379f-107">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="9c741-105">Параметры конфигурации используются для включения и отключения управления версиями клиентов.</span><span class="sxs-lookup"><span data-stu-id="9c741-105">Client version configuration settings are used to turn client version control on or off.</span></span> <span data-ttu-id="9c741-106">Конфигурация глобальной версии клиента устанавливается вместе с Lync Server 2013 и используется для включения или отключения управления версиями клиентов для всего развертывания сервера.</span><span class="sxs-lookup"><span data-stu-id="9c741-106">The global client version configuration installs with Lync Server 2013 and is used to enable or disable client version control for the entire server deployment.</span></span> <span data-ttu-id="9c741-107">Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="9c741-107">When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on.</span></span> <span data-ttu-id="9c741-108">Параметры конфигурации версий клиентов можно просматривать на панели управления Lync Server 2013 или в командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9c741-108">You can view client version configuration settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5379f-108">Поскольку анонимные пользователи не сопоставлены с пользователем, сайтом или службой, они управляются только политиками глобального уровня.</span><span class="sxs-lookup"><span data-stu-id="5379f-108">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
+> <span data-ttu-id="9c741-109">Поскольку анонимные пользователи не сопоставлены с пользователем, сайтом или службой, они управляются только политиками глобального уровня.</span><span class="sxs-lookup"><span data-stu-id="9c741-109">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
 
 
@@ -53,33 +54,33 @@ ms.locfileid: "48506606"
 
 <div>
 
-## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="5379f-109">Просмотр параметров конфигурации версий клиентов с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="5379f-109">To view client version configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="9c741-110">Просмотр параметров конфигурации версий клиентов с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="9c741-110">To view client version configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="5379f-110">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="5379f-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="9c741-111">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="9c741-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="5379f-111">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5379f-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5379f-112">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="5379f-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="9c741-112">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9c741-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9c741-113">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9c741-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="5379f-113">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации **Конфигурация версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="5379f-113">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="9c741-114">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации **Конфигурация версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="9c741-114">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="5379f-114">Дважды щелкните имя конфигурации версии клиента, которую вы хотите просмотреть.</span><span class="sxs-lookup"><span data-stu-id="5379f-114">Double-click the name of the client version configuration you want to view.</span></span>
+4.  <span data-ttu-id="9c741-115">Дважды щелкните имя конфигурации версии клиента, которую вы хотите просмотреть.</span><span class="sxs-lookup"><span data-stu-id="9c741-115">Double-click the name of the client version configuration you want to view.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="5379f-115">Просмотр параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5379f-115">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="9c741-116">Просмотр параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="9c741-116">Viewing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="5379f-116">Параметры конфигурации версий клиентов можно просмотреть с помощью командлета **Get – CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="5379f-116">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="5379f-117">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5379f-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="5379f-118">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="5379f-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="9c741-117">Параметры конфигурации версий клиентов можно просмотреть с помощью командлета **Get – CsClientVersionConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="9c741-117">You can view client version configuration settings by using the **Get-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="9c741-118">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9c741-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="9c741-119">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .</span><span class="sxs-lookup"><span data-stu-id="9c741-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="5379f-119">Просмотр сведений о конфигурации версий клиентов</span><span class="sxs-lookup"><span data-stu-id="5379f-119">To view client version configuration information</span></span>
+## <a name="to-view-client-version-configuration-information"></a><span data-ttu-id="9c741-120">Просмотр сведений о конфигурации версий клиентов</span><span class="sxs-lookup"><span data-stu-id="9c741-120">To view client version configuration information</span></span>
 
-  - <span data-ttu-id="5379f-120">Чтобы просмотреть сведения о всех параметрах конфигурации версии клиента, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="5379f-120">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="9c741-121">Чтобы просмотреть сведения о всех параметрах конфигурации версии клиента, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="9c741-121">To view information about all your client version configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionConfiguration
     
-    <span data-ttu-id="5379f-121">Это приведет к возврату приблизительно такой информации:</span><span class="sxs-lookup"><span data-stu-id="5379f-121">That will return information similar to this:</span></span>
+    <span data-ttu-id="9c741-122">Это приведет к возврату приблизительно такой информации:</span><span class="sxs-lookup"><span data-stu-id="9c741-122">That will return information similar to this:</span></span>
     
         Identity      : Global
         DefaultAction : Allow
@@ -88,7 +89,7 @@ ms.locfileid: "48506606"
 
 </div>
 
-<span data-ttu-id="5379f-122">Дополнительные сведения см. в разделе справки по командлету [Get – CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="5379f-122">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
+<span data-ttu-id="9c741-123">Дополнительные сведения см. в разделе справки по командлету [Get – CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="9c741-123">For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.</span></span>
 
 </div>
 

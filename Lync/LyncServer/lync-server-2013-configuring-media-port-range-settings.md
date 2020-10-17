@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка параметров диапазона портов мультимедиа'
+description: 'Lync Server 2013: Настройка параметров диапазона портов мультимедиа.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e13e491037346d9c3186a8f15aada949c46ac8df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a7670284c593197068c366f43bbb3faaaad8f63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502096"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570745"
 ---
-# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="7debb-102">Настройка параметров диапазона портов мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7debb-102">Configuring media port range settings in Lync Server 2013</span></span>
+# <a name="configuring-media-port-range-settings-in-lync-server-2013"></a><span data-ttu-id="a3bf4-103">Настройка параметров диапазона портов мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3bf4-103">Configuring media port range settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48502096"
 
 <span> </span>
 
-<span data-ttu-id="7debb-103">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="7debb-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="a3bf4-104">_**Последнее изменение темы:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="a3bf4-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="7debb-104">Параметры диапазона портов медиаданных могут значительно влиять на производительность клиента и должны быть настроены.</span><span class="sxs-lookup"><span data-stu-id="7debb-104">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="7debb-105">Эти параметры можно настроить с помощью консоли управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7debb-105">You can configure these settings by using Lync Server Management Shell.</span></span>
+<span data-ttu-id="a3bf4-105">Параметры диапазона портов медиаданных могут значительно влиять на производительность клиента и должны быть настроены.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-105">Media port range settings can significantly impact client performance and should be configured.</span></span> <span data-ttu-id="a3bf4-106">Эти параметры можно настроить с помощью консоли управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-106">You can configure these settings by using Lync Server Management Shell.</span></span>
 
-### <a name="media-port-range-settings"></a><span data-ttu-id="7debb-106">Параметры диапазона портов медиаданных</span><span class="sxs-lookup"><span data-stu-id="7debb-106">Media Port Range Settings</span></span>
+### <a name="media-port-range-settings"></a><span data-ttu-id="a3bf4-107">Параметры диапазона портов медиаданных</span><span class="sxs-lookup"><span data-stu-id="a3bf4-107">Media Port Range Settings</span></span>
 
 <table>
 <colgroup>
@@ -52,30 +53,30 @@ ms.locfileid: "48502096"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7debb-107">Параметр</span><span class="sxs-lookup"><span data-stu-id="7debb-107">Setting</span></span></th>
-<th><span data-ttu-id="7debb-108">Описание</span><span class="sxs-lookup"><span data-stu-id="7debb-108">Description</span></span></th>
-<th><span data-ttu-id="7debb-109">Командлет командной консоли Lync Server</span><span class="sxs-lookup"><span data-stu-id="7debb-109">Lync Server Management Shell cmdlet</span></span></th>
-<th><span data-ttu-id="7debb-110">Параметры командлета</span><span class="sxs-lookup"><span data-stu-id="7debb-110">Cmdlet parameters</span></span></th>
+<th><span data-ttu-id="a3bf4-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="a3bf4-108">Setting</span></span></th>
+<th><span data-ttu-id="a3bf4-109">Описание</span><span class="sxs-lookup"><span data-stu-id="a3bf4-109">Description</span></span></th>
+<th><span data-ttu-id="a3bf4-110">Командлет командной консоли Lync Server</span><span class="sxs-lookup"><span data-stu-id="a3bf4-110">Lync Server Management Shell cmdlet</span></span></th>
+<th><span data-ttu-id="a3bf4-111">Параметры командлета</span><span class="sxs-lookup"><span data-stu-id="a3bf4-111">Cmdlet parameters</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7debb-111">портранже\енаблед</span><span class="sxs-lookup"><span data-stu-id="7debb-111">Portrange\Enabled</span></span></p></td>
-<td><p><span data-ttu-id="7debb-p102">Определяет, должен ли клиент использовать диапазоны портов, отправленные сервером, для обработки медиаданных и сигнализации. Используется в сочетании со значениями MinMediaPort и MaxMediaPort.</span><span class="sxs-lookup"><span data-stu-id="7debb-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
-<td><p><span data-ttu-id="7debb-114"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7debb-114"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7debb-115">Параметры clientmediaportrangeenabled</span><span class="sxs-lookup"><span data-stu-id="7debb-115">ClientMediaPortRangeEnabled</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-112">портранже\енаблед</span><span class="sxs-lookup"><span data-stu-id="a3bf4-112">Portrange\Enabled</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-p102">Определяет, должен ли клиент использовать диапазоны портов, отправленные сервером, для обработки медиаданных и сигнализации. Используется в сочетании со значениями MinMediaPort и MaxMediaPort.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-p102">Specifies whether the port ranges sent by the server should be used by the client for media and signaling. Used in conjunction with the subvalues MinMediaPort and MaxMediaPort.</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-115"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="a3bf4-115"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-116">Параметры clientmediaportrangeenabled</span><span class="sxs-lookup"><span data-stu-id="a3bf4-116">ClientMediaPortRangeEnabled</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7debb-116">портранже\минмедиапорт</span><span class="sxs-lookup"><span data-stu-id="7debb-116">Portrange\MinMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="7debb-p103">Определяет начальный номер порта медиаданных. Вместе с параметром MaxMediaPort позволяет задать диапазон портов. Рекомендуемый минимальный диапазон составляет 40 портов.</span><span class="sxs-lookup"><span data-stu-id="7debb-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="7debb-120"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7debb-120"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7debb-121">ClientMediaPort (представляет собой начальный номер порта медиаданных клиента)</span><span class="sxs-lookup"><span data-stu-id="7debb-121">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-117">портранже\минмедиапорт</span><span class="sxs-lookup"><span data-stu-id="a3bf4-117">Portrange\MinMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-p103">Определяет начальный номер порта медиаданных. Вместе с параметром MaxMediaPort позволяет задать диапазон портов. Рекомендуемый минимальный диапазон составляет 40 портов.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-p103">Specifies the starting port number to use for media. Combines with MaxMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-121"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="a3bf4-121"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-122">ClientMediaPort (представляет собой начальный номер порта медиаданных клиента)</span><span class="sxs-lookup"><span data-stu-id="a3bf4-122">ClientMediaPort (represents the starting port number to use for client media)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7debb-122">портранже\максмедиапорт</span><span class="sxs-lookup"><span data-stu-id="7debb-122">Portrange\MaxMediaPort</span></span></p></td>
-<td><p><span data-ttu-id="7debb-p104">Определяет максимальный номер порта медиаданных. Вместе с параметром MinMediaPort позволяет задать диапазон портов. Рекомендуемый минимальный диапазон составляет 40 портов.</span><span class="sxs-lookup"><span data-stu-id="7debb-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
-<td><p><span data-ttu-id="7debb-126"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="7debb-126"><strong>CsConferencingConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="7debb-127">ClientMediaPortRange (определяет общее число портов, доступных для медиаданных клиента; по умолчанию: 40)</span><span class="sxs-lookup"><span data-stu-id="7debb-127">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-123">портранже\максмедиапорт</span><span class="sxs-lookup"><span data-stu-id="a3bf4-123">Portrange\MaxMediaPort</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-p104">Определяет максимальный номер порта медиаданных. Вместе с параметром MinMediaPort позволяет задать диапазон портов. Рекомендуемый минимальный диапазон составляет 40 портов.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-p104">Specifies the highest port number to use for media. Combines with MinMediaPort to specify the range of ports. The recommended minimum range is 40 ports.</span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-127"><strong>CsConferencingConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="a3bf4-127"><strong>CsConferencingConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="a3bf4-128">ClientMediaPortRange (определяет общее число портов, доступных для медиаданных клиента; по умолчанию: 40)</span><span class="sxs-lookup"><span data-stu-id="a3bf4-128">ClientMediaPortRange (indicates the total number of ports available for client media; default is 40)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -83,17 +84,17 @@ ms.locfileid: "48502096"
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="7debb-128">Порядок настройки параметров диапазона портов медиаданных</span><span class="sxs-lookup"><span data-stu-id="7debb-128">To Configure Media Port Range Settings</span></span>
+## <a name="to-configure-media-port-range-settings"></a><span data-ttu-id="a3bf4-129">Порядок настройки параметров диапазона портов медиаданных</span><span class="sxs-lookup"><span data-stu-id="a3bf4-129">To Configure Media Port Range Settings</span></span>
 
-1.  <span data-ttu-id="7debb-129">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="7debb-129">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="a3bf4-130">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-130">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="7debb-130">Выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="7debb-130">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="a3bf4-131">Выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="a3bf4-131">Run the following cmdlet:</span></span>
     
         Get-CsConferencingConfiguration
     
-    <span data-ttu-id="7debb-131">Этот командлет возвращает параметры конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="7debb-131">This cmdlet returns the conferencing configuration settings.</span></span>
+    <span data-ttu-id="a3bf4-132">Этот командлет возвращает параметры конфигурации конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-132">This cmdlet returns the conferencing configuration settings.</span></span>
 
-3.  <span data-ttu-id="7debb-132">Выполните следующий командлет с параметрами и значениями, которые требуется изменить (Дополнительные сведения о параметрах этого командлета см. в документации по командной консоли Lync Server).</span><span class="sxs-lookup"><span data-stu-id="7debb-132">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
+3.  <span data-ttu-id="a3bf4-133">Выполните следующий командлет с параметрами и значениями, которые требуется изменить (Дополнительные сведения о параметрах этого командлета см. в документации по командной консоли Lync Server).</span><span class="sxs-lookup"><span data-stu-id="a3bf4-133">Run the following cmdlet with the parameters and values you want to change (for details about the parameters for this cmdlet, see the Lync Server Management Shell documentation):</span></span>
     
         Set-CsConferencingConfiguration
     
@@ -101,7 +102,7 @@ ms.locfileid: "48502096"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="7debb-133">Можно создавать дополнительные наборы параметров конфигурации конференц-связи для отдельных сайтов.</span><span class="sxs-lookup"><span data-stu-id="7debb-133">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="7debb-134">Используйте командлет <STRONG>New- CsConferencingConfiguration</STRONG> с указанием идентификатора сайта.</span><span class="sxs-lookup"><span data-stu-id="7debb-134">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="7debb-135">При создании новых параметров конфигурации конференц-связи для сайтов эти параметры сайтов имеют приоритет перед глобальными параметрами.</span><span class="sxs-lookup"><span data-stu-id="7debb-135">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="7debb-136">Дополнительные сведения см. в документации Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="7debb-136">For details, see the Lync Server Management Shell documentation.</span></span>
+    > <span data-ttu-id="a3bf4-134">Можно создавать дополнительные наборы параметров конфигурации конференц-связи для отдельных сайтов.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-134">You can create additional sets of conferencing configuration settings for specific sites.</span></span> <span data-ttu-id="a3bf4-135">Используйте командлет <STRONG>New- CsConferencingConfiguration</STRONG> с указанием идентификатора сайта.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-135">Use the <STRONG>New- CsConferencingConfiguration</STRONG> cmdlet with a site identity.</span></span> <span data-ttu-id="a3bf4-136">При создании новых параметров конфигурации конференц-связи для сайтов эти параметры сайтов имеют приоритет перед глобальными параметрами.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-136">When you create new conferencing configuration settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="a3bf4-137">Дополнительные сведения см. в документации Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="a3bf4-137">For details, see the Lync Server Management Shell documentation.</span></span>
 
     
     </div>
