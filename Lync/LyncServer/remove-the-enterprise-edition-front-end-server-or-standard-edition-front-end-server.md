@@ -12,20 +12,22 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 461a7868d0c8a6c00df8dba67ed0135a100d4e84
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 68f84d28dbf38eab710f4f16e30c4474720d8014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526436"
 ---
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a><span data-ttu-id="e3a48-102">Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition</span><span class="sxs-lookup"><span data-stu-id="e3a48-102">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a><span data-ttu-id="41f73-102">Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition</span><span class="sxs-lookup"><span data-stu-id="41f73-102">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "44757250"
 
 <span> </span>
 
-<span data-ttu-id="41f73-103">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="41f73-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="e3a48-103">_**Последнее изменение темы:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="e3a48-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="41f73-104">Процедуры, описанные в этом разделе, помогут вам удалить пул переднего плана Microsoft Lync Server 2010 Enterprise Edition или сервер переднего плана Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="41f73-104">The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="41f73-105">После перехода на Lync Server 2013 это один из первых этапов списания вашей устаревшей среды Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="41f73-105">After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment.</span></span>
+<span data-ttu-id="e3a48-104">Процедуры, описанные в этом разделе, помогут вам удалить пул переднего плана Microsoft Lync Server 2010 Enterprise Edition или сервер переднего плана Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="e3a48-104">The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="e3a48-105">После перехода на Lync Server 2013 это один из первых этапов списания вашей устаревшей среды Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e3a48-105">After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="41f73-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="41f73-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e3a48-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="e3a48-106">In This Section</span></span>
 
-  - [<span data-ttu-id="41f73-107">Сброс контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="41f73-107">Reset call admission control</span></span>](reset-call-admission-control.md)
+  - [<span data-ttu-id="e3a48-107">Сброс контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e3a48-107">Reset call admission control</span></span>](reset-call-admission-control.md)
 
-  - [<span data-ttu-id="41f73-108">Запрет сеансов для служб</span><span class="sxs-lookup"><span data-stu-id="41f73-108">Prevent sessions for services</span></span>](prevent-sessions-for-services.md)
+  - [<span data-ttu-id="e3a48-108">Запрет сеансов для служб</span><span class="sxs-lookup"><span data-stu-id="e3a48-108">Prevent sessions for services</span></span>](prevent-sessions-for-services.md)
 
-  - [<span data-ttu-id="41f73-109">Остановка служб Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="41f73-109">Stop Lync Server 2010 services</span></span>](stop-lync-server-2010-services.md)
+  - [<span data-ttu-id="e3a48-109">Остановка служб Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="e3a48-109">Stop Lync Server 2010 services</span></span>](stop-lync-server-2010-services.md)
 
-  - [<span data-ttu-id="41f73-110">Удаление сервера переднего плана из пула</span><span class="sxs-lookup"><span data-stu-id="41f73-110">Remove a Front End Server from a pool</span></span>](remove-a-front-end-server-from-a-pool.md)
+  - [<span data-ttu-id="e3a48-110">Удаление сервера переднего плана из пула</span><span class="sxs-lookup"><span data-stu-id="e3a48-110">Remove a Front End Server from a pool</span></span>](remove-a-front-end-server-from-a-pool.md)
 
-  - [<span data-ttu-id="41f73-111">Удаление пула переднего плана или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="41f73-111">Remove Front End pool or Standard Edition server</span></span>](remove-front-end-pool-or-standard-edition-server.md)
+  - [<span data-ttu-id="e3a48-111">Удаление пула переднего плана или сервера Standard Edition</span><span class="sxs-lookup"><span data-stu-id="e3a48-111">Remove Front End pool or Standard Edition server</span></span>](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

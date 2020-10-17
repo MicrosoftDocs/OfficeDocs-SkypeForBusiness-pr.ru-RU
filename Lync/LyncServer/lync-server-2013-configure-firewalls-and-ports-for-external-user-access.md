@@ -12,20 +12,22 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8f8ac768256a45e908905e3eed1c0fc343b6da9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 490d77fad964943515c6e487347f937144f5957c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525944"
 ---
+# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="21d05-102">Настройка брандмауэров и портов для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21d05-102">Configure firewalls and ports for external user access in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="53fec-102">Настройка брандмауэров и портов для доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53fec-102">Configure firewalls and ports for external user access in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42213135"
 
 <span> </span>
 
-<span data-ttu-id="53fec-103">_**Последнее изменение темы:** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="53fec-103">_**Topic Last Modified:** 2012-05-21_</span></span>
+<span data-ttu-id="21d05-103">_**Последнее изменение темы:** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="21d05-103">_**Topic Last Modified:** 2012-05-21_</span></span>
 
-<span data-ttu-id="53fec-104">Для настройки брандмауэров или портов необходимо настроить их для пограничных серверов, обратных прокси-серверов и аппаратных средств балансировки нагрузки (для масштабированного развертывания, не использующего балансировку нагрузки DNS).</span><span class="sxs-lookup"><span data-stu-id="53fec-104">To configure firewalls and ports, you need to configure them for Edge Servers, reverse proxy servers, and possibly hardware load balancers (for a scaled deployment that does not use DNS load balancing).</span></span> <span data-ttu-id="53fec-105">В этом разделе представлены сведения о требвоаниях к брандмауэру и портам для всех компонентов пограничных серверов и конфигурации портов брандмауэра для пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="53fec-105">This section provides information about firewall and port requirements for all Edge Server components and the configuration of firewall ports for Edge Servers.</span></span> <span data-ttu-id="53fec-106">Дополнительные сведения о настройке портов для обратных прокси-серверов приведены в статье [Настройка обратных прокси-серверов для Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md).</span><span class="sxs-lookup"><span data-stu-id="53fec-106">For details about configuring ports for reverse proxy servers, see [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md).</span></span> <span data-ttu-id="53fec-107">При развертывании масштабируемой пограничной топологии, а также при использовании аппаратной балансировки нагрузки вместо балансировки нагрузки DNS, ознакомьтесь [с масштабируемым консолидированным краем с аппаратными подсистемами балансировки нагрузки в Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) в документации по планированию для получения сведений о настройке портов для аппаратных подсистем балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="53fec-107">If you are deploying a scaled edge topology and are using hardware load balancing instead of DNS load balancing, see [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in the Planning documentation for details about configuring ports for hardware load balancers.</span></span>
+<span data-ttu-id="21d05-104">Для настройки брандмауэров или портов необходимо настроить их для пограничных серверов, обратных прокси-серверов и аппаратных средств балансировки нагрузки (для масштабированного развертывания, не использующего балансировку нагрузки DNS).</span><span class="sxs-lookup"><span data-stu-id="21d05-104">To configure firewalls and ports, you need to configure them for Edge Servers, reverse proxy servers, and possibly hardware load balancers (for a scaled deployment that does not use DNS load balancing).</span></span> <span data-ttu-id="21d05-105">В этом разделе представлены сведения о требвоаниях к брандмауэру и портам для всех компонентов пограничных серверов и конфигурации портов брандмауэра для пограничных серверов.</span><span class="sxs-lookup"><span data-stu-id="21d05-105">This section provides information about firewall and port requirements for all Edge Server components and the configuration of firewall ports for Edge Servers.</span></span> <span data-ttu-id="21d05-106">Дополнительные сведения о настройке портов для обратных прокси-серверов приведены в статье [Настройка обратных прокси-серверов для Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md).</span><span class="sxs-lookup"><span data-stu-id="21d05-106">For details about configuring ports for reverse proxy servers, see [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md).</span></span> <span data-ttu-id="21d05-107">При развертывании масштабируемой пограничной топологии, а также при использовании аппаратной балансировки нагрузки вместо балансировки нагрузки DNS, ознакомьтесь [с масштабируемым консолидированным краем с аппаратными подсистемами балансировки нагрузки в Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) в документации по планированию для получения сведений о настройке портов для аппаратных подсистем балансировки нагрузки.</span><span class="sxs-lookup"><span data-stu-id="21d05-107">If you are deploying a scaled edge topology and are using hardware load balancing instead of DNS load balancing, see [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in the Planning documentation for details about configuring ports for hardware load balancers.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="53fec-108">См. также</span><span class="sxs-lookup"><span data-stu-id="53fec-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21d05-108">См. также</span><span class="sxs-lookup"><span data-stu-id="21d05-108">See Also</span></span>
 
 
-[<span data-ttu-id="53fec-109">Определение требований к внешнему брандмауэру аудио-и видеоданных для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53fec-109">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[<span data-ttu-id="21d05-109">Определение требований к внешнему брандмауэру аудио-и видеоданных для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21d05-109">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

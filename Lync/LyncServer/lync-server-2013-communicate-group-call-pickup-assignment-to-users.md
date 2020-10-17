@@ -12,20 +12,22 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bce34eb1ad3c2b0b2d0e4b8b09b16e3ea6f398e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e45ff57a20a4b0455b534d69f35c1f6b7f9b2bcd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526066"
 ---
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="d55d4-102">Обмен назначениями группового ответа на звонки пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d55d4-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="24a64-102">Обмен назначениями группового ответа на звонки пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24a64-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42190932"
 
 <span> </span>
 
-<span data-ttu-id="24a64-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="24a64-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="d55d4-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="d55d4-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="24a64-104">После включения групповой отправки звонков для пользователей используйте электронную почту или другой механизм уведомления пользователей о своем номере группы ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="24a64-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="24a64-105">Уведомлять пользователей о номере группы ответа на звонки для любой группы, которую они могут использовать для отслеживания.</span><span class="sxs-lookup"><span data-stu-id="24a64-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="24a64-106">Так как пользователи могут получать вызовы для других пользователей, даже если они находятся не в одной группе, пользователям может потребоваться номер группы ответа на звонки для нескольких групп.</span><span class="sxs-lookup"><span data-stu-id="24a64-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
+<span data-ttu-id="d55d4-104">После включения групповой отправки звонков для пользователей используйте электронную почту или другой механизм уведомления пользователей о своем номере группы ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="d55d4-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="d55d4-105">Уведомлять пользователей о номере группы ответа на звонки для любой группы, которую они могут использовать для отслеживания.</span><span class="sxs-lookup"><span data-stu-id="d55d4-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="d55d4-106">Так как пользователи могут получать вызовы для других пользователей, даже если они находятся не в одной группе, пользователям может потребоваться номер группы ответа на звонки для нескольких групп.</span><span class="sxs-lookup"><span data-stu-id="d55d4-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
 
 </div>
 

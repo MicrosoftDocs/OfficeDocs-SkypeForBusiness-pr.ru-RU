@@ -12,20 +12,22 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf9d53d8702fbd9e63ec05af2c4942538f7298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526236"
 ---
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a><span data-ttu-id="ea28e-102">Проверка конфигурации магистрали по номеру телефона в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ea28e-102">Check trunk configuration against a phone number in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a><span data-ttu-id="5033d-102">Проверка конфигурации магистрали по номеру телефона в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5033d-102">Check trunk configuration against a phone number in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42190572"
 
 <span> </span>
 
-<span data-ttu-id="5033d-103">_**Последнее изменение темы:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="5033d-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="ea28e-103">_**Последнее изменение темы:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="ea28e-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42190572"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5033d-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="5033d-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="5033d-105">Monthly Channel</span><span class="sxs-lookup"><span data-stu-id="5033d-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="ea28e-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="ea28e-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="ea28e-105">Monthly</span><span class="sxs-lookup"><span data-stu-id="ea28e-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5033d-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="5033d-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="5033d-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5033d-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="ea28e-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="ea28e-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="ea28e-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="ea28e-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5033d-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="5033d-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="5033d-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="5033d-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="5033d-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="5033d-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="5033d-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="5033d-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="ea28e-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="ea28e-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="ea28e-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="ea28e-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="ea28e-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="ea28e-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="ea28e-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="ea28e-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,88 +66,88 @@ ms.locfileid: "42190572"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="5033d-112">Описание</span><span class="sxs-lookup"><span data-stu-id="5033d-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="ea28e-112">Описание</span><span class="sxs-lookup"><span data-stu-id="ea28e-112">Description</span></span>
 
-<span data-ttu-id="5033d-113">Магистральные линии SIP соединяют внутреннюю корпоративную сеть Lync Server с одним из следующих способов:</span><span class="sxs-lookup"><span data-stu-id="5033d-113">SIP trunks connect the Lync Server internal Enterprise Voice network to any of the following:</span></span>
+<span data-ttu-id="ea28e-113">Магистральные линии SIP соединяют внутреннюю корпоративную сеть Lync Server с одним из следующих способов:</span><span class="sxs-lookup"><span data-stu-id="ea28e-113">SIP trunks connect the Lync Server internal Enterprise Voice network to any of the following:</span></span>
 
-  - <span data-ttu-id="5033d-114">Телефонная сеть общего пользования (PSTN).</span><span class="sxs-lookup"><span data-stu-id="5033d-114">The Public Switched Telephone network (PSTN).</span></span>
+  - <span data-ttu-id="ea28e-114">Телефонная сеть общего пользования (PSTN).</span><span class="sxs-lookup"><span data-stu-id="ea28e-114">The Public Switched Telephone network (PSTN).</span></span>
 
-  - <span data-ttu-id="5033d-115">УАТС (IP-открытая ветвь).</span><span class="sxs-lookup"><span data-stu-id="5033d-115">An IP-public branch exchange (PBX).</span></span>
+  - <span data-ttu-id="ea28e-115">УАТС (IP-открытая ветвь).</span><span class="sxs-lookup"><span data-stu-id="ea28e-115">An IP-public branch exchange (PBX).</span></span>
 
-  - <span data-ttu-id="5033d-116">Пограничный контроллер сеансов (SBC).</span><span class="sxs-lookup"><span data-stu-id="5033d-116">A Session Border Controller (SBC).</span></span>
+  - <span data-ttu-id="ea28e-116">Пограничный контроллер сеансов (SBC).</span><span class="sxs-lookup"><span data-stu-id="ea28e-116">A Session Border Controller (SBC).</span></span>
 
-<span data-ttu-id="5033d-117">Командлет Test-CsTrunkConfiguration проверяет, может ли телефонный номер (набираемый пользователем) быть преобразован в сеть E. 164 и маршрутизироваться по указанной магистральной линии SIP.</span><span class="sxs-lookup"><span data-stu-id="5033d-117">The Test-CsTrunkConfiguration cmdlet verifies that a phone number (as dialed by a user) can be converted to the E.164 network and routed over a specified SIP trunk.</span></span>
+<span data-ttu-id="ea28e-117">Командлет Test-CsTrunkConfiguration проверяет, может ли телефонный номер (набираемый пользователем) быть преобразован в сеть E. 164 и направляться по указанной магистральной линии SIP.</span><span class="sxs-lookup"><span data-stu-id="ea28e-117">The Test-CsTrunkConfiguration cmdlet verifies that a phone number (as dialed by a user) can be converted to the E.164 network and routed over a specified SIP trunk.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="5033d-118">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="5033d-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="ea28e-118">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="ea28e-118">Running the test</span></span>
 
-<span data-ttu-id="5033d-119">Для запуска командлета Test-CsTrunkConfiguration сначала необходимо использовать командлет Get-CsTrunkConfiguration, чтобы получить экземпляр параметров конфигурации магистральной сети SIP; Затем этот экземпляр передается в командлет Test-CsTrunkConfiguration:</span><span class="sxs-lookup"><span data-stu-id="5033d-119">To run the Test-CsTrunkConfiguration cmdlet you must first use the Get-CsTrunkConfiguration cmdlet to retrieve an instance of your SIP trunk configuration settings; that instance is then piped to Test-CsTrunkConfiguration:</span></span>
+<span data-ttu-id="ea28e-119">Для запуска командлета Test-CsTrunkConfiguration сначала необходимо использовать командлет Get-CsTrunkConfiguration, чтобы получить экземпляр параметров конфигурации магистральной сети SIP; Затем этот экземпляр передается в командлет Test-CsTrunkConfiguration:</span><span class="sxs-lookup"><span data-stu-id="ea28e-119">To run the Test-CsTrunkConfiguration cmdlet you must first use the Get-CsTrunkConfiguration cmdlet to retrieve an instance of your SIP trunk configuration settings; that instance is then piped to Test-CsTrunkConfiguration:</span></span>
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-<span data-ttu-id="5033d-120">Выполнение Test-CsTrunkConfiguration без первого запуска Get-CsTrunkConfiguration не будет работать.</span><span class="sxs-lookup"><span data-stu-id="5033d-120">Running Test-CsTrunkConfiguration without first running Get-CsTrunkConfiguration won't work.</span></span> <span data-ttu-id="5033d-121">Например, эта команда завершится с ошибками, не возвращая никаких данных:</span><span class="sxs-lookup"><span data-stu-id="5033d-121">For example, this command will fail without returning any data:</span></span>
+<span data-ttu-id="ea28e-120">Выполнение Test-CsTrunkConfiguration без первого запуска Get-CsTrunkConfiguration не будет работать.</span><span class="sxs-lookup"><span data-stu-id="ea28e-120">Running Test-CsTrunkConfiguration without first running Get-CsTrunkConfiguration won't work.</span></span> <span data-ttu-id="ea28e-121">Например, эта команда завершится с ошибками, не возвращая никаких данных:</span><span class="sxs-lookup"><span data-stu-id="ea28e-121">For example, this command will fail without returning any data:</span></span>
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
-<span data-ttu-id="5033d-122">Если у вас есть несколько семейств параметров конфигурации магистрали SIP, вы можете использовать следующую команду для проверки каждой из них с одним и тем же номером телефона:</span><span class="sxs-lookup"><span data-stu-id="5033d-122">If you have multiple collections of SIP trunk configuration settings, you can use a command similar to the following to at the same time test each collection against the same phone number:</span></span>
+<span data-ttu-id="ea28e-122">Если у вас есть несколько семейств параметров конфигурации магистрали SIP, вы можете использовать следующую команду для проверки каждой из них с одним и тем же номером телефона:</span><span class="sxs-lookup"><span data-stu-id="ea28e-122">If you have multiple collections of SIP trunk configuration settings, you can use a command similar to the following to at the same time test each collection against the same phone number:</span></span>
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-<span data-ttu-id="5033d-123">Дополнительные сведения можно найти в справочной документации по командлету Test-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="5033d-123">For more information, see the Help documentation for the Test-CsTrunkConfiguration cmdlet.</span></span>
+<span data-ttu-id="ea28e-123">Для получения дополнительных сведений обратитесь к справочной документации по командлету Test-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="ea28e-123">For more information, see the Help documentation for the Test-CsTrunkConfiguration cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="5033d-124">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="5033d-124">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="ea28e-124">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="ea28e-124">Determining success or failure</span></span>
 
-<span data-ttu-id="5033d-125">Если Test-CsTrunkConfiguration может позвонить на набранный номер, переведенный номер телефона (в формате E. 164) и правило, используемое для перевода этого номера телефона, будут отображаться на экране.</span><span class="sxs-lookup"><span data-stu-id="5033d-125">If Test-CsTrunkConfiguration can place a call to the dialed number then the translated phone number (in the E.164 format) and the rule used to translate that phone number will both be displayed on screen:</span></span>
+<span data-ttu-id="ea28e-125">Если Test-CsTrunkConfiguration может позвонить на набранный номер, переведенный номер телефона (в формате E. 164) и правило, используемое для перевода этого номера телефона, будут отображаться на экране.</span><span class="sxs-lookup"><span data-stu-id="ea28e-125">If Test-CsTrunkConfiguration can place a call to the dialed number then the translated phone number (in the E.164 format) and the rule used to translate that phone number will both be displayed on screen:</span></span>
 
-<span data-ttu-id="5033d-126">Транслатеднумбер Матчингруле</span><span class="sxs-lookup"><span data-stu-id="5033d-126">TranslatedNumber MatchingRule</span></span>
+<span data-ttu-id="ea28e-126">Транслатеднумбер Матчингруле</span><span class="sxs-lookup"><span data-stu-id="ea28e-126">TranslatedNumber MatchingRule</span></span>
 
-<span data-ttu-id="5033d-127">\---------------- ------------</span><span class="sxs-lookup"><span data-stu-id="5033d-127">\---------------- ------------</span></span>
+<span data-ttu-id="ea28e-127">\---------------- ------------</span><span class="sxs-lookup"><span data-stu-id="ea28e-127">\---------------- ------------</span></span>
 
-<span data-ttu-id="5033d-128">\+12065551219 Global/Redmond</span><span class="sxs-lookup"><span data-stu-id="5033d-128">\+12065551219 Global/Redmond</span></span>
+<span data-ttu-id="ea28e-128">\+12065551219 Global/Redmond</span><span class="sxs-lookup"><span data-stu-id="ea28e-128">\+12065551219 Global/Redmond</span></span>
 
-<span data-ttu-id="5033d-129">Если проверка завершилась неудачно, Test-CsTrunkConfiguration возвратит пустые значения свойств:</span><span class="sxs-lookup"><span data-stu-id="5033d-129">If the test fails, Test-CsTrunkConfiguration will return empty property values:</span></span>
+<span data-ttu-id="ea28e-129">Если тест завершается неудачей, Test-CsTrunkConfiguration возвращает пустые значения свойств:</span><span class="sxs-lookup"><span data-stu-id="ea28e-129">If the test fails, Test-CsTrunkConfiguration will return empty property values:</span></span>
 
-<span data-ttu-id="5033d-130">Транслатеднумбер Матчингруле</span><span class="sxs-lookup"><span data-stu-id="5033d-130">TranslatedNumber MatchingRule</span></span>
+<span data-ttu-id="ea28e-130">Транслатеднумбер Матчингруле</span><span class="sxs-lookup"><span data-stu-id="ea28e-130">TranslatedNumber MatchingRule</span></span>
 
-<span data-ttu-id="5033d-131">\---------------- ------------</span><span class="sxs-lookup"><span data-stu-id="5033d-131">\---------------- ------------</span></span>
+<span data-ttu-id="ea28e-131">\---------------- ------------</span><span class="sxs-lookup"><span data-stu-id="ea28e-131">\---------------- ------------</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="5033d-132">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="5033d-132">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="ea28e-132">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="ea28e-132">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="5033d-133">Если Test-CsTrunkConfiguration не возвращает соответствующее значение, которое обычно означает, что тестируемые параметры конфигурации магистрали не имеют правила преобразования исходящих вызовов для преобразования набранных номеров в формат E. 164.</span><span class="sxs-lookup"><span data-stu-id="5033d-133">If Test-CsTrunkConfiguration does not return a match that typically means that the trunk configuration settings being test do not have an outgoing calling number translation rule capable to converting the dialed number to the E.164 format.</span></span> <span data-ttu-id="5033d-134">Чтобы получить правила преобразования, назначенные для коллекции параметров конфигурации магистрали, можно использовать следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="5033d-134">To retrieve the translation rules assigned to a collection of trunk configuration settings, you can use syntax similar to this:</span></span>
+<span data-ttu-id="ea28e-133">Если Test-CsTrunkConfiguration не возвращает соответствующее значение, которое обычно означает, что тестируемые параметры конфигурации магистрали не имеют правила преобразования исходящих вызовов для преобразования набранных номеров в формат E. 164.</span><span class="sxs-lookup"><span data-stu-id="ea28e-133">If Test-CsTrunkConfiguration does not return a match that typically means that the trunk configuration settings being test do not have an outgoing calling number translation rule capable to converting the dialed number to the E.164 format.</span></span> <span data-ttu-id="ea28e-134">Чтобы получить правила преобразования, назначенные для коллекции параметров конфигурации магистрали, можно использовать следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="ea28e-134">To retrieve the translation rules assigned to a collection of trunk configuration settings, you can use syntax similar to this:</span></span>
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
-<span data-ttu-id="5033d-135">Для каждого правила преобразования возвращаются сведения, аналогичные приведенным ниже.</span><span class="sxs-lookup"><span data-stu-id="5033d-135">That returns information similar to this for each translation rule:</span></span>
+<span data-ttu-id="ea28e-135">Для каждого правила преобразования возвращаются сведения, аналогичные приведенным ниже.</span><span class="sxs-lookup"><span data-stu-id="ea28e-135">That returns information similar to this for each translation rule:</span></span>
 
-<span data-ttu-id="5033d-136">Описание: номера телефонов без кода страны или города.</span><span class="sxs-lookup"><span data-stu-id="5033d-136">Description : Phone numbers without a country code or area code.</span></span>
+<span data-ttu-id="ea28e-136">Описание: номера телефонов без кода страны или города.</span><span class="sxs-lookup"><span data-stu-id="ea28e-136">Description : Phone numbers without a country code or area code.</span></span>
 
-<span data-ttu-id="5033d-137">Шаблон: ^\\+ (\\d\*) $</span><span class="sxs-lookup"><span data-stu-id="5033d-137">Pattern : ^\\+(\\d\*)$</span></span>
+<span data-ttu-id="ea28e-137">Шаблон: ^ \\ + ( \\ d \* ) $</span><span class="sxs-lookup"><span data-stu-id="ea28e-137">Pattern : ^\\+(\\d\*)$</span></span>
 
 `Translation : $1`
 
-<span data-ttu-id="5033d-138">Name: Ноареакоде</span><span class="sxs-lookup"><span data-stu-id="5033d-138">Name : NoAreaCode</span></span>
+<span data-ttu-id="ea28e-138">Name: Ноареакоде</span><span class="sxs-lookup"><span data-stu-id="ea28e-138">Name : NoAreaCode</span></span>
 
-<span data-ttu-id="5033d-139">На этом шаге необходимо проверить значение свойства Pattern (это строка [регулярного выражения](https://go.microsoft.com/fwlink/?linkid=400464) ), чтобы проверить, настроены ли какие-либо правила преобразования для обработки набора номера.</span><span class="sxs-lookup"><span data-stu-id="5033d-139">At that point, you check the value of the Pattern property (which is a [regular expression](https://go.microsoft.com/fwlink/?linkid=400464) string) to see whether any of the translation rules are configured to handle the dialed number.</span></span> <span data-ttu-id="5033d-140">В противном случае необходимо изменить одно из существующих правил (Set-CsOutboundTranslationRule) или использовать командлет New-CsOutboundTranslationRule для добавления нового правила в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="5033d-140">If not, you'll either have to change one of the existing rules (Set-CsOutboundTranslationRule) or use the New-CsOutboundTranslationRule cmdlet to add a new rule to the collection.</span></span>
+<span data-ttu-id="ea28e-139">На этом шаге необходимо проверить значение свойства Pattern (это строка [регулярного выражения](https://go.microsoft.com/fwlink/?linkid=400464) ), чтобы проверить, настроены ли какие-либо правила преобразования для обработки набора номера.</span><span class="sxs-lookup"><span data-stu-id="ea28e-139">At that point, you check the value of the Pattern property (which is a [regular expression](https://go.microsoft.com/fwlink/?linkid=400464) string) to see whether any of the translation rules are configured to handle the dialed number.</span></span> <span data-ttu-id="ea28e-140">В противном случае необходимо изменить одно из существующих правил (Set-CsOutboundTranslationRule) или использовать командлет New-CsOutboundTranslationRule, чтобы добавить новое правило в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="ea28e-140">If not, you'll either have to change one of the existing rules (Set-CsOutboundTranslationRule) or use the New-CsOutboundTranslationRule cmdlet to add a new rule to the collection.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5033d-141">См. также</span><span class="sxs-lookup"><span data-stu-id="5033d-141">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ea28e-141">См. также</span><span class="sxs-lookup"><span data-stu-id="ea28e-141">See Also</span></span>
 
 
-[<span data-ttu-id="5033d-142">Test-CsTrunkConfiguration</span><span class="sxs-lookup"><span data-stu-id="5033d-142">Test-CsTrunkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
+[<span data-ttu-id="ea28e-142">Test-CsTrunkConfiguration</span><span class="sxs-lookup"><span data-stu-id="ea28e-142">Test-CsTrunkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
   
 
 </div>
