@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187262"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508976"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Исключения антивирусной проверки для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Исключения антивирусной проверки для Lync Server 2013
+
 
 </div>
 
@@ -61,101 +63,101 @@ _**Последнее изменение темы:** 2015-11-02_
 
   - Lync Server 2013 процессы:
     
-      - ABServer. exe
+      - ABServer.exe
     
-      - Акпмкусвк. exe
+      - AcpMcuSvc.exe
     
-      - Асмкусвк. exe
+      - ASMCUSvc.exe
     
-      - Авмкусвк. exe
+      - AVMCUSvc.exe
     
-      - Чаннелсервице. exe
+      - ChannelService.exe
     
-      - ClsAgent. exe
+      - ClsAgent.exe
     
-      - Комплианцесервице. exe
+      - ComplianceService.exe
     
-      - Датамкусвк. exe
+      - DataMCUSvc.exe
     
-      - Прокси-сервер данных. exe
+      - DataProxy.exe
     
-      - Филетрансферажент. exe
+      - FileTransferAgent.exe
     
-      - Иммкусвк. exe
+      - IMMCUSvc.exe
     
-      - Лиссвк. exe
+      - LysSvc.exe
     
-      - Мастеррепликаторажент. exe
+      - MasterReplicatorAgent.exe
     
-      - Медиарелайсвк. exe
+      - MediaRelaySvc.exe
     
-      - Медиатионсерверсвк. exe
+      - MediationServerSvc.exe
     
-      - Мрассвк. exe
+      - MRASSvc.exe
     
-      - Оксаппсерверхост. exe
+      - OcsAppServerHost.exe
     
-      - Репликарепликаторажент. exe
+      - ReplicaReplicatorAgent.exe
     
-      - Репликатионапп. exe
+      - ReplicationApp.exe
     
-      - Ртчост. exe
+      - RtcHost.exe
     
-      - RTCSrv. exe
+      - RTCSrv.exe
     
-      - Ксмпппрокси. exe
+      - XmppProxy.exe
     
-      - Ксмпптгв. exe
+      - XmppTGW.exe
 
   - Процессы службы узла Windows Fabric:
     
-      - Fabric. exe
+      - Fabric.exe
     
-      - Фабрикдка. exe
+      - FabricDCA.exe
     
-      - Фабричост. exe
+      - FabricHost.exe
 
   - Процессы IIS:
     
-      - % SystemRoot%\\system32\\инетсрв\\w3wp. exe
+      - % SystemRoot% \\ system32 \\ инетсрв \\w3wp.exe
     
-      - % SystemRoot%\\SysWOW64\\инетсрв\\w3wp. exe
+      - % SystemRoot% \\ SysWOW64 \\ инетсрв \\w3wp.exe
 
-  - Фоновые процессы SQL Server:
+  - Процессы Back-End SQL Server:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\бинн\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. MSSQLSERVER \\ MSSQL \\ бинн \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. Репортингсервицессервице\\. exe\\Report\\Reporting Services: сервер_отчетов bin\\
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSRS11. \\ \\ \\ReportingServicesService.exe корзины служб отчетов MSSQLSERVER \\
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSAS11. \\ \\MSMDSrv.exe корзины для MSSQLSERVER OLAP \\
 
-  - Интерфейсные процессы SQL Server:
+  - Процессы Front-End SQL Server:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. ЛИНКЛОКАЛ\\MSSQL\\бинн\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. ЛИНКЛОКАЛ \\ MSSQL \\ бинн \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\бинн\\SQLServr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. RTCLOCAL \\ MSSQL \\ бинн \\SQLServr.exe
 
   - Каталоги и файлы:
     
-      - % SystemRoot%\\system32\\файлов журнала
+      - % SystemRoot% \\ system32 файлов \\ журнала
     
-      - % SystemRoot%\\SysWOW64\\файлов журнала
+      - % SystemRoot% \\ SysWOW64 файлов \\ журнала
     
-      - % SystemRoot%\\Microsoft.NET\\сборки\\GAC\_
+      - % SystemRoot% \\ Microsoft.NET \\ сборки \\ GAC \_
     
-      - % ProgramFiles%\\Microsoft Lync Server 2013
+      - % ProgramFiles% \\ Microsoft Lync Server 2013
     
-      - % ProgramFiles%\\общих файлов\\для узла-наблюдателя\\Microsoft Lync Server 2013
+      - % ProgramFiles% \\ общих файлов для \\ узла-наблюдателя Microsoft Lync Server 2013 \\
     
-      - % ProgramFiles%\\общих файлов\\, Microsoft Lync Server 2013
+      - % ProgramFiles% \\ общих файлов, \\ Microsoft Lync Server 2013
     
-      - % SystemDrive%\\рткрепликарут
+      - % SystemDrive% \\ рткрепликарут
     
       - Хранилище файлового ресурса (указано в построителе топологий). Хранилища файлов указываются в построителе топологий.
     
       - Файлы данных и журналов SQL Server, в том числе для серверной базы данных, хранилища пользователей, архивного хранилища, мониторинга и хранилища приложений. В построителе топологий можно указать файлы баз данных и журналов. Сведения о файлах данных и журналов для каждой базы данных, включая имена по умолчанию, можно найти в разделе [Data SQL Server and File log Placement for Lync server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) в документации по развертыванию.
     
-      - Файлы данных и журналов SQL Server, в том числе для интерфейсной базы данных, магазина Lync и хранилища Рткдатабасе. Обычно они находятся в папке% локалдриве\\% ксдата.
+      - Файлы данных и журналов SQL Server, в том числе для интерфейсной базы данных, магазина Lync и хранилища Рткдатабасе. Обычно они находятся в папке% локалдриве% \\ ксдата.
 
 </div>
 

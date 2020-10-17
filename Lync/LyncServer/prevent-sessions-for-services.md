@@ -12,20 +12,22 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 47202d91fdf0020a7692a9ff7b0c346ee3cb7aef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509276"
 ---
+# <a name="prevent-sessions-for-services"></a>Запрет сеансов для служб
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services"></a>Запрет сеансов для служб
+
 
 </div>
 
@@ -47,11 +49,11 @@ _**Последнее изменение темы:** 2012-10-04_
 
 2.  Откройте Панель управления Lync Server.
 
-3.  В левой панели навигации щелкните элемент **Topology** (Топология), а затем **Status** (Состояние).
+3.  В левой панели навигации щелкните **Топология**, а затем щелкните **Состояние**.
 
 4.  На странице **Состояние** выполните сортировку или поиск по списку, чтобы найти компьютер, на котором выполняются службы, для которых нужно запретить новые сеансы, а затем щелкните ее.
 
-5.  Щелкните элемент **Action** (Действие).
+5.  Щелкните **Действие**.
 
 6.  Щелкните **Запретить новые сеансы для всех служб**.
 

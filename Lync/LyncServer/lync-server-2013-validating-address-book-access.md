@@ -12,20 +12,22 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 665ee384afd85c4be5c82182691953e1c78c9659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3344c0a0a4f1992cc9ef67cd14bc2321419307
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508586"
 ---
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Проверка доступа к адресной книге в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>Проверка доступа к адресной книге в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="description"></a>Описание
 
-Командлет Test-CsAddressBookService предоставляет способ проверки возможности подключения пользователя к веб-службе загрузки адресной книги. При выполнении командлета Test-CsAddressBookService подключается к веб-службе загрузки адресной книги в указанном пуле и запрашивает расположение файлов адресной книги. Если веб-служба загрузки адресной книги предоставляет это расположение, проверка считается успешной. Если такой запрос отклоняется, то тест считается непройденным.
+Командлет Test-CsAddressBookService предоставляет способ проверки возможности подключения пользователя к веб-службе загрузки адресной книги. При запуске командлета Test-CsAddressBookService подключается к веб-службе загрузки адресной книги в указанном пуле и запрашивает расположение файлов адресной книги. Если веб-служба загрузки адресной книги предоставляет это расположение, проверка считается успешной. Если такой запрос отклоняется, то тест считается непройденным.
 
 </div>
 
@@ -93,7 +95,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 Если указанный пользователь может подключаться к службе адресной книги, будет выведен результат, подобный следующему, при этом свойство Result помечается как **успешное**:
 
-TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
+TargetUri https://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -125,23 +127,23 @@ Microsoft. RTC. Signal. Диагностичеадер
 
 Например, предыдущие выходные состояния не удалось выполнить тест, так как указанный пользователь (то есть "конечный URI") не существует или не включен для Lync Server. Вы можете проверить, является ли учетная запись пользователя допустимой, и убедиться, что указан правильный SIP-адрес, выполнив команду, подобную следующей:
 
-Get – CsUser — Identity "sip:kenmyer@litwareinc.com" | Select — объект SipAddress, включен
+Get-CsUser идентификатор "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, включен
 
-Если не удается выполнить команду Test-CsAddressBookService, вам может потребоваться повторить проверку, в том числе параметр verbose:
+В случае сбоя Test-CsAddressBookService вы можете повторно выполнить тест, на этот раз включая параметр verbose:
 
-Test-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-verbose
+Test-CsAddressBookService TargetFqdn "atl-cs-001.litwareinc.com" — подробные сведения
 
-Если параметр verbose включен, командлет Test-CsAddressBookService возвращает пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например, в приведенном ниже примере показана проверка того, что в этом примере кода CsAddressBookService, по крайней мере, в этом примере была возможность скачать файл адресной книги:
+Если включен параметр Verbose, Test-CsAddressBookService будет возвращать пошаговые учетные записи для каждого действия, выполняемого при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например, в приведенном ниже примере показана проверка того, что в этом примере кода CsAddressBookService, по крайней мере, в этом примере была возможность скачать файл адресной книги:
 
 Отправка HTTP-запроса GET.
 
-Путь к файлу =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Путь к файлу = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 Номер попытки = 1
 
 Время ожидания (МС) = 60000
 
-Файл ABS успешно скачанhttps://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Файл ABS успешно скачан https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 </div>
 

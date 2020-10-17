@@ -12,20 +12,22 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0dc8bc60f87b981a18f351df8ddd163d1b080be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b297a505b1a12335e545895e0203ffc0e29c7354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507636"
 ---
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на сервере Microsoft Exchange
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Настройка Lync Server 2013 для работы с единой системой обмена сообщениями на сервере Microsoft Exchange
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42197702"
 
 _**Последнее изменение темы:** 2013-04-03_
 
-Для этого шага требуется средство интеграции Exchange UM (OcsUmUtil.exe). Это средство находится на сервере Lync Server 2013 в... \\Program Files\\Common\\Files — папка\\поддержки Microsoft Lync Server 2013.
+Для этого шага требуется средство интеграции Exchange UM (OcsUmUtil.exe). Это средство находится на сервере Lync Server 2013 в... \\ Program Files \\ Common Files — \\ Папка поддержки Microsoft Lync Server 2013 \\ .
 
 <div>
 
@@ -57,8 +59,8 @@ _**Последнее изменение темы:** 2013-04-03_
 > Перед запуском средства интеграции Exchange UM убедитесь, что выполнены следующие действия:
 > <ul>
 > <li><p>Создайте одну или несколько абонентских групп единой системы обмена сообщениями Exchange, как описано в документации по продукту Exchange.</p>
-> <p>&quot; В <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>разделе &quot;Создание абонентской группы единой системы обмена сообщениями для Microsoft Exchange Server 2010.</p>
-> <p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) &quot;вы можете ознакомиться со статьей Создание абонентской группы&quot; URI <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>SIP единой системы обмена сообщениями по адресу.</p></li>
+> <p>&quot;В разделе Создание абонентской группы единой системы обмена сообщениями для Microsoft Exchange Server 2010 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a> .</p>
+> <p>Для Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) вы можете ознакомиться со статьей &quot; Создание абонентской группы URI SIP единой системы обмена сообщениями &quot; по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a> .</p></li>
 > <li><p>Создайте одну или несколько соответствующих абонентских группы Lync Server, как описано в разделе <a href="lync-server-2013-create-a-dial-plan.md">Create a Dialing Plan in Lync server 2013</a>.</p></li>
 > <ul><li>Если вы используете более раннюю версию Exchange, чем Microsoft Exchange Server 2010 с пакетом обновления 1 (SP1), необходимо ввести полное доменное имя соответствующей абонентской группы SIP единой системы обмена сообщениями Exchange в поле <STRONG>простого имени</STRONG> абонентской группы Lync Server 2013. Если вы используете Microsoft Exchange Server 2010 с пакетом обновления 1 (SP1) или более поздней версии, это имя не требуется.</li></ul>
 > <li>Создайте автосекретаря и убедитесь, что номер абонентского доступа и номера автосекретаря указаны в формате E.164.</li></ul>
@@ -68,7 +70,7 @@ _**Последнее изменение темы:** 2013-04-03_
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>Запуск средства интеграции Exchange UM
 
-1.  На сервере переднего плана откройте командную строку и введите **CD% COMMONPROGRAMFILES%\\% поддержки Microsoft Lync\\Server 2013**и нажмите клавишу ВВОД.
+1.  На сервере переднего плана откройте командную строку и введите **CD% COMMONPROGRAMFILES%% \\ \\ поддержки Microsoft Lync Server 2013**и нажмите клавишу ВВОД.
 
 2.  Введите **OcsUmUtil.exe**, а затем нажмите клавишу ВВОД.
 

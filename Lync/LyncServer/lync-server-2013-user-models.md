@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508736"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Пользовательские модели в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Пользовательские модели в Lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ _**Последнее изменение темы:** 2013-10-07_
 <td><p>Одноранговые сеансы обмена мгновенными сообщениями</p></td>
 <td><p>Каждый пользователь в среднем имеет по шесть одноранговых сеансов обмена мгновенными сообщениями в день.</p>
 <p>10 мгновенных сообщений на сеанс.</p>
-<p>Каждое сообщение сравнивается с двумя ИНФОРМАЦИОНными сообщениями SIP и 2 сообщениями SIP 200 ОК (для индикаторов состояния,&lt;таких&gt; как "имя вводит")</p></td>
+<p>Каждое сообщение сравнивается с двумя ИНФОРМАЦИОНными сообщениями SIP и 2 сообщениями SIP 200 ОК (для индикаторов состояния, таких как " &lt; имя &gt; вводит")</p></td>
 </tr>
 <tr class="even">
 <td><p>Опрос присутствия</p></td>
@@ -234,7 +236,7 @@ _**Последнее изменение темы:** 2013-10-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Запланированные собрания &quot;по сравнению с собранием в настоящее время&quot;</p></td>
+<td><p>Запланированные собрания по сравнению с собранием в &quot; настоящее время &quot;</p></td>
 <td><p>60% запланированных, 40% незапланированных.</p>
 <p>Мы предполагаем, что среди запланированных собраний 80% составляют назначенные конференции, которые являются случаями повторяющихся конференций; 10% составляют однократные открытые собрания, 8% составляют однократные анонимные собрания и 2% составляют однократные закрытые собрания.</p></td>
 </tr>

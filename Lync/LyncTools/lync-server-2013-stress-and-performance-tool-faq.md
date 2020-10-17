@@ -12,20 +12,22 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590453f6270ebcd2beebbb26b8035f9e33cc2cd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196192"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509216"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Вопросы и ответы по средствам нагрузочного тестирования и производительности Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Вопросы и ответы по средствам нагрузочного тестирования и производительности Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2013-02-24_
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>Можно ли запускать Линкперфтул. exe в рабочей среде?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>Можно ли запускать LyncPerfTool.exe в рабочей среде?
 
 Мы не рекомендуем это делать. Это средство оказывает влияние на производительность сервера, безопасность и взаимодействие с пользователем.
 
@@ -85,7 +87,7 @@ _**Последнее изменение темы:** 2013-02-24_
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Можно ли запускать Линкперфтул. exe на виртуальном сервере или на Microsoft Hyper Server V 2008/2012?
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Можно ли запускать LyncPerfTool.exe на виртуальном сервере или на Microsoft Hyper Server V 2008/2012?
 
 Да.
 
@@ -95,13 +97,13 @@ _**Последнее изменение темы:** 2013-02-24_
 
 ## <a name="what-does-mpop-mean"></a>Что означает МПОП?
 
-МПОП означает несколько точек присутствия. Это предназначено для имитации сценария, в котором пользователи выполнили вход в Lync 2013 с нескольких компьютеров. Обратите внимание, что в Линкперфтул. exe каждая конечная точка использует профиль по умолчанию (то есть профиль не разбивается между двумя точками присутствия).
+МПОП означает несколько точек присутствия. Это предназначено для имитации сценария, в котором пользователи выполнили вход в Lync 2013 с нескольких компьютеров. Обратите внимание, что в LyncPerfTool.exe каждая конечная точка использует профиль по умолчанию (то есть профиль не разбивается между двумя точками присутствия).
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Я начал Линкперфтул. exe, но ничего не происходит. Почему?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Я начал LyncPerfTool.exe, но ничего не происходит. Почему?
 
 Проверьте счетчик всех активных конечных точек на клиентах, чтобы проверить, подключаются ли пользователи. Если пользователи не подключаются, проверьте конфигурацию Lync Server 2013. Эта проблема обычно возникает из-за неправильного имени сервера, префикса пользователя или пароля. Обратите внимание на то, что внешние клиенты должны указать прокси доступа в качестве значения Таржетсервер. Проверьте порт в файле конфигурации.
 

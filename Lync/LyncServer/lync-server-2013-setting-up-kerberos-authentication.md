@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509656"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Настройка проверки подлинности Kerberos в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Настройка проверки подлинности Kerberos в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200565"
 
 _**Последнее изменение темы:** 2013-02-21_
 
-Lync Server 2013 поддерживает проверку подлинности NTLM и Kerberos для веб-служб. Office Communications Server 2007 и Office Communications Server 2007 R2 использовали Ртккомпонентсервице по умолчанию и Ртксервице в качестве учетных записей пользователей для запуска пулов приложений веб-служб, позволяя назначить пользователю имя участника-службы (SPN). учетные записи и служат субъектами проверки подлинности. Lync Server использует NetworkService для запуска веб-служб, а служба NetworkService не может иметь назначенные имена участников-служб.
+Lync Server 2013 поддерживает проверку подлинности NTLM и Kerberos для веб-служб. Office Communications Server 2007 и Office Communications Server 2007 R2 использовали Ртккомпонентсервице по умолчанию и Ртксервице в качестве учетных записей пользователей для запуска пулов приложений веб-служб, позволяя назначить учетным записям пользователей имя участника-службы (SPN) и выполнять роль субъекта проверки подлинности. Lync Server использует NetworkService для запуска веб-служб, а служба NetworkService не может иметь назначенные имена участников-служб.
 
 Чтобы устранить проблему, связанную с отсутствием объектов Active Directory для хранения имен участников-служб, в панели управления Lync Server для этой цели можно использовать объекты учетной записи компьютера. Эти объекты могут содержать имена субъектов-служб и не имеют пароля с истекающим сроком действия, который затруднял использование учетных записей пользователей в предыдущих версиях.
 

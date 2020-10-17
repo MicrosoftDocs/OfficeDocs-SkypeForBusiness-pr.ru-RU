@@ -12,20 +12,22 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfae4aef6e6f5ec0a33fe64d42ea7bfd093badee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208414"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509626"
 ---
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Размещение данных и файлов журналов SQL Server для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Размещение данных и файлов журналов SQL Server для Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208414"
 
 _**Последнее изменение темы:** 2013-02-21_
 
-При планировании и развертывании Microsoft SQL Server 2012 или Microsoft SQL Server 2008 R2 с пакетом обновления 1 (SP1) для пула переднего плана Lync Server 2013, важно учесть, что размещение файлов данных и журналов на физических жестких дисках для повышения производительности. Рекомендуемая конфигурация диска — реализация набора RAID 1 + 0 с использованием 6 шпинделей. Размещение всех файлов базы данных и журналов, используемых интерфейсным пулом и связанными ролями и службами серверов (то есть сервера архивации и мониторинга, службы группы ответа Lync Server, службы приостановки вызовов Lync Server) на набор дисков RAID с помощью Lync Server Мастер развертывания приведет к тому, что конфигурация была протестирована на хорошую производительность. В следующей таблице подробно описываются файлы базы данных и их назначение.
+При планировании и развертывании Microsoft SQL Server 2012 или Microsoft SQL Server 2008 R2 с пакетом обновления 1 (SP1) для пула переднего плана Lync Server 2013, важно учесть, что размещение файлов данных и журналов на физических жестких дисках для повышения производительности. Рекомендуемая конфигурация диска — реализация набора RAID 1 + 0 с использованием 6 шпинделей. Помещение всех файлов базы данных и журналов, используемых интерфейсным пулом и связанными ролями и службами серверов (то есть, сервера архивации и мониторинга, службы группы ответа Lync Server, службы парковки вызовов Lync Server) на набор дисков RAID с помощью мастера развертывания Lync Server, приведет к конфигурации, которая была протестирована на хорошую производительность. В следующей таблице подробно описываются файлы базы данных и их назначение.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fece34f8e5177760e470083cd929cbddaab60
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2ddd7a64da7d0939b7b97099cb12878c272766d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508856"
 ---
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Создание или изменение области сети в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Создание или изменение области сети в Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**Последнее изменение темы:** 2012-10-19_
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Например:
+    Пример:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
@@ -91,7 +93,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 1.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  В левой панели навигации выберите пункт **Конфигурация сети**.
+2.  В левой панели навигации щелкните **Network Configuration** (Параметры сети).
 
 3.  Щелкните **Region** (Область).
 
@@ -103,7 +105,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
 7.  В поле **Description** (Описание) введите дополнительные сведения об области сети (необязательно).
 
-8.  Нажмите кнопку **Зафиксировать**.
+8.  Щелкните **Commit** (Применить).
 
 9.  Чтобы завершить создание областей сети для вашей топологии, повторите шаги с 4 по 8, указав требуемые параметры для остальных областей.
 

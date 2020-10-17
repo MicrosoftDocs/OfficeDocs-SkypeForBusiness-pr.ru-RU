@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508876"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Настройка политики качества обслуживания в Lync Server 2013 для серверов конференц-связи, приложений и серверов-посредников
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Настройка политики качества обслуживания в Lync Server 2013 для серверов конференц-связи, приложений и серверов-посредников
+
 
 </div>
 
@@ -103,7 +105,7 @@ _**Последнее изменение темы:** 2014-06-23_
 
 2.  В диалоговом окне **Запуск команды** введите **regedit** и нажмите клавишу ENTER.
 
-3.  В редакторе реестра разверните узел **компьютер**, разверните **\_\_локальный компьютер**, а затем последовательно разверните узлы **программное обеспечение**, **политики**, **Microsoft**, разверните узел **Windows**и выберите **QoS**. В узле **QoS** должны быть разделы реестра для каждой только что созданной политики QoS. Например, если вы создали две новые политики (одно с именем Lync Server Audio QoS и другое с именем Lync Server Video QoS), то должны быть созданы записи в реестре для Lync Server Audio QoS и Lync Server Video QoS.
+3.  В редакторе реестра разверните узел **компьютер**, разверните ** \_ локальный \_ компьютер**, а затем последовательно разверните узлы **программное обеспечение**, **политики**, **Microsoft**, разверните узел **Windows**и выберите **QoS**. В узле **QoS** должны быть разделы реестра для каждой только что созданной политики QoS. Например, если вы создали две новые политики (одно с именем Lync Server Audio QoS и другое с именем Lync Server Video QoS), то должны быть созданы записи в реестре для Lync Server Audio QoS и Lync Server Video QoS.
 
 Чтобы обеспечить отметку сетевых пакетов соответствующим значением DSCP, необходимо также создать новый раздел реестра, выполнив следующую процедуру:
 
@@ -111,7 +113,7 @@ _**Последнее изменение темы:** 2014-06-23_
 
 2.  В диалоговом окне **Выполнить** введите **regedit**, затем нажмите ВВОД.
 
-3.  В редакторе реестра разверните узел **hKey\_Local\_Machine**, **система**, разверните **CurrentControlSet**, разверните узел **службы**, а затем разверните **TCP/IP**.
+3.  В редакторе реестра разверните узел **hKey \_ Local \_ Machine**, **система**, разверните **CurrentControlSet**, разверните узел **службы**, а затем разверните **TCP/IP**.
 
 4.  Щелкните правой кнопкой пункт **Tcpip**, выберите **Создать**, затем щелкните **Раздел**. После создания нового раздела реестра введите **QoS** и нажмите клавишу ВВОД, чтобы переименовать раздел.
 

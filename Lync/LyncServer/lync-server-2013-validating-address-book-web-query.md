@@ -12,20 +12,22 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 548ec62a56de829955647a696e33578b9ab3dfd8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508556"
 ---
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Проверка веб-запроса адресной книги в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Проверка веб-запроса адресной книги в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -66,7 +68,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 ## <a name="description"></a>Описание
 
-Командлет Test-CsAddressBookWebQuery позволяет администраторам проверять, могут ли пользователи использовать службу веб-запросов адресной книги для поиска определенного контакта. При выполнении командлета Test-CsAddressBookWebQuery будет сначала подключаться к службе веб-билета, чтобы пройти проверку подлинности. Если проверка подлинности прошла успешно, командлет будет подключаться к службе веб-запросов адресной книги и искать указанного контакта. При нахождении контакта командлет попытается вернуть данные на локальный компьютер. Тест будет помечен как успешный, только если все эти действия можно выполнить.
+Командлет Test-CsAddressBookWebQuery позволяет администраторам проверить, могут ли пользователи использовать службу веб-запросов адресной книги для поиска определенного контакта. При запуске командлета Test-CsAddressBookWebQuery будет сначала подключаться к службе веб-билетов, чтобы пройти проверку подлинности. Если проверка подлинности прошла успешно, командлет будет подключаться к службе веб-запросов адресной книги и искать указанного контакта. При нахождении контакта командлет попытается вернуть данные на локальный компьютер. Тест будет помечен как успешный, только если все эти действия можно выполнить.
 
 Дополнительные сведения можно найти в справочной документации по командлету [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) .
 
@@ -95,7 +97,7 @@ _**Последнее изменение темы:** 2014-06-05_
 
 Если указанный пользователь может подключаться к службе адресной книги и получать целевой адрес пользователя, будет выведен результат, подобный следующему, с свойством Result, помеченным как успешно:
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 Если указанный пользователь не может подключиться или не удается получить целевой адрес пользователя, результат будет отображаться как сбой, а в свойствах диагностики ошибок и диагностики будут записаны дополнительные сведения:
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -123,15 +125,15 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 Диагност
 
-Предыдущие выходные данные почтовых состояний не пройдены, так как целевой пользователь не найден. Вы можете определить, был ли действительный SIP-адрес передан в Test-CsAddressBookWebQuery, выполнив команду, аналогичную следующей:
+Предыдущие выходные данные почтовых состояний не пройдены, так как целевой пользователь не найден. Можно определить, был ли действительный SIP адрес передан Test-CsAddressBookWebQuery, выполнив команду, аналогичную следующей:
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-Если Test-CsAddressBookWebQuery завершается с ошибкой, вам может потребоваться повторно выполнить проверку, включая параметр verbose:
+Если Test-CsAddressBookWebQuery завершается с ошибкой, может потребоваться повторный запуск теста, в том числе параметр verbose:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-Если включен параметр Verbose, Test-CsAddressBookWebQuery будет возвращать пошаговое действие для каждого действия, которое он пытался выполнить, при проверке возможности входа на сервер Lync для указанного пользователя. Например, эти выходные данные указывают на то, что Test-CsAddressBookWebQuery удалось подключиться к службе адресной книги, но ему не удалось определить целевой SIP-адрес:
+Если включен параметр Verbose, Test-CsAddressBookWebQuery будет возвращать пошаговые учетные записи каждого выполняемого действия при проверке возможности указанного пользователя выполнить вход на сервер Lync Server. Например, эти выходные данные указывают на то, что Test-CsAddressBookWebQuery удалось подключиться к службе адресной книги, но ей не удалось определить конечный SIP адрес:
 
 Начато действие "Куеряддрессбуквебсервице".
 

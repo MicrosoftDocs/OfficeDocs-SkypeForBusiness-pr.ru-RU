@@ -12,20 +12,22 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8fd24bab9596f12060c87937d98cc2a57d0c887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7119bfd6209ac9a7d8eb2c4adfddb75c3601116d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508756"
 ---
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Сводка по портам: SIP, Федерация XMPP и общедоступные службы обмена мгновенными сообщениями в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Сводка по портам: SIP, Федерация XMPP и общедоступные службы обмена мгновенными сообщениями в Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ Windows Live Messenger может участвовать в аудио-и вид
 
 </div>
 
-Порты и протоколы, определенные для прокси-сервера Extensible Messaging and Presence Protocol (XMPP), развернутого на пограничном сервере, разрешают обмен данными между федеративным партнером XMPP на пограничный сервер, а также обеспечивает обмен данными между пограничным сервером и XMPP Федеративный партнер. Кроме того, правило определяется на внутреннем брандмауэре от сервера переднего плана или интерфейсного пула до пограничного сервера или пограничного пула.
+Порты и протоколы, определенные для прокси-сервера Extensible Messaging and Presence Protocol (XMPP), развернутого на пограничном сервере, разрешают обмен данными между федеративным партнером XMPP на пограничный сервер, а также позволяет осуществлять обмен данными от пограничного сервера к федеративным партнеру XMPP. Кроме того, правило определяется на внутреннем брандмауэре от сервера переднего плана или интерфейсного пула до пограничного сервера или пограничного пула.
 
 <div>
 
@@ -72,14 +74,14 @@ Windows Live Messenger может участвовать в аудио-и вид
 <th>Роль/протокол/TCP или UDP/порт</th>
 <th>Исходный IP-адрес</th>
 <th>Конечный IP-адрес</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Доступ/SIP (MTLS)/TCP/5061</p></td>
 <td><p>Общедоступный IP-адрес пограничной службы доступа</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Для федеративного подключения и подключения к общедоступным службам обмена мгновенными сообщениями с помощью SIP</p></td>
 </tr>
 </tbody>
@@ -105,7 +107,7 @@ Windows Live Messenger может участвовать в аудио-и вид
 <th>Роль/протокол/TCP или UDP/порт</th>
 <th>Исходный IP-адрес</th>
 <th>Конечный IP-адрес</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -168,25 +170,25 @@ Windows Live Messenger может участвовать в аудио-и вид
 <th>Протокол/TCP или UDP/порт</th>
 <th>Источник (IP-адрес)</th>
 <th>Назначение (IP-адрес)</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
 <td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает связь с прокси-сервером пограничного сервера XMPP от федеративных партнеров XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>IP-адрес интерфейса пограничного сервера доступа</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Стандартный порт для связи "сервер-сервер" через XMPP. Разрешает обмен данными от прокси-сервера пограничного сервера XMPP к федеративным партнерам XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>IP-адрес внутреннего интерфейса пограничного сервера</p></td>
 <td><p>Внутренний трафик XMPP от шлюза XMPP на сервере переднего плана или интерфейсном пуле к пограничным серверам</p></td>
 </tr>
