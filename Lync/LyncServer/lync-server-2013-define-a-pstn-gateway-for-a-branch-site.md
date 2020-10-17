@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: определение шлюза PSTN для сайта филиала'
+description: 'Lync Server 2013: определение шлюза PSTN для сайта филиала.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 435af3ab537097592325438707b89ce901da9bcd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 17fb1004366fef17f57d7e8b7d14696e1e3f0fbe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516396"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567775"
 ---
 # <a name="define-a-pstn-gateway-for-a-branch-site-in-lync-server-2013"></a>Определение шлюза PSTN для сайта филиала в Lync Server 2013
 
