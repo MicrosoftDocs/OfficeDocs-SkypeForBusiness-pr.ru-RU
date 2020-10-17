@@ -1,5 +1,6 @@
 ---
 title: 'Этап 6: перемещение пользователей в пилотный пул'
+description: 'Этап 6: перемещение пользователей в пилотный пул.'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8928e142be50398c47b4e9c3d1f92008846137b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518186"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566175"
 ---
 # <a name="phase-6-move-users-to-the-pilot-pool"></a>Этап 6: перемещение пользователей в пилотный пул
 
@@ -45,11 +46,11 @@ _**Последнее изменение темы:** 2012-10-16_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Проверка выполнения пользовательской репликации](verify-user-replication-has-completed_1.md)
+  - [Проверка выполнения пользовательской репликации](verify-user-replication-has-completed.md)
 
-  - [Перемещение одного пользователя в пилотный пул](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Перемещение одного пользователя в пилотный пул](move-a-single-user-to-the-pilot-pool.md)
 
-  - [Перемещение нескольких пользователей в пилотный пул](move-multiple-users-to-the-pilot-pool_1.md)
+  - [Перемещение нескольких пользователей в пилотный пул](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

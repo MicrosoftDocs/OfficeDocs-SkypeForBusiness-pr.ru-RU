@@ -1,5 +1,6 @@
 ---
 title: Калькулятор планирования мощности Lync Server 2013
+description: Калькулятор планирования мощности Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 230b731bf7b63a1ce86b5652d9e3d3b2956c94a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f78019c98cf280f38249ac52cd063cede5319af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512826"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565145"
 ---
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Использование калькулятора планирования емкости для Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (необязательно) Проверка развертывания группового ответа на звонки'
+description: 'Lync Server 2013: (необязательно) Проверьте развертывание раскладки группового вызова.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 307a5423da17c6882c580daf786554a81461b3c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94a0f920be72fc6effb55019adceaf710654e2d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530736"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565705"
 ---
 # <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a>Необязательно Проверка развертывания группового ответа на звонки в Lync Server 2013
 
