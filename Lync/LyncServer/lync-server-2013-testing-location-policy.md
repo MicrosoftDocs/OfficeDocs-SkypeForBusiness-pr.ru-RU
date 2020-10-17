@@ -12,20 +12,22 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c676247eabbce1d6453308bdbba5a7df0754caf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535996"
 ---
+# <a name="testing-location-policy-in-lync-server-2013"></a>Проверка политики расположения в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>Проверка политики расположения в Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -131,11 +133,11 @@ Microsoft. RTC. Signal. Диагностичеадер
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-Если Test-CsLocationPolicy завершается с ошибкой, вам может потребоваться повторно выполнить проверку, включая параметр verbose:
+Если Test-CsLocationPolicy завершается с ошибкой, может потребоваться повторный запуск теста, в том числе параметр verbose:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Если включен параметр Verbose, Test-CsLocationPolicy возвращает пошаговые учетные записи всех действий, которые он пытался проверить в политике расположения. Например, эти выходные данные показывают, что серверу Lync Server не удалось выполнить вход в систему тестового пользователя, вероятно, из-за неправильного пароля:
+Если включен параметр Verbose, Test-CsLocationPolicy будет возвращать пошаговые учетные записи всех действий, которые он пытался проверить в политике расположения. Например, эти выходные данные показывают, что серверу Lync Server не удалось выполнить вход в систему тестового пользователя, вероятно, из-за неправильного пароля:
 
 Отправка запроса на регистрацию:
 

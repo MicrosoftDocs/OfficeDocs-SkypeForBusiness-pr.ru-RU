@@ -12,20 +12,22 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b07ddfa11f23c7e5183c243020c441db7219660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0b06176a033c90ff915fccb145dac3b3ed6fe87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194772"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536126"
 ---
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Технические требования для группы ответа в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Технические требования для группы ответа в Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**Последнее изменение темы:** 2013-11-07_
 
 Приложение группы ответа имеет те же требования к операционной системе и программное обеспечение, что и серверы переднего плана. Сведения о требованиях к программному обеспечению приведены в статье [Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) в документации по поддержке.
 
-Если вы используете файлы Windows Media Audio (WMA) для музыкальных сообщений и оповещений для группы ответа, на всех серверах переднего плана или серверах Standard Edition, на которых работает приложение группы ответа, должна быть установлена среда выполнения формата Windows Media для серверов под управлением Windows. Сервер 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 среда выполнения формата Windows Media устанавливается в составе Windows Desktop Experience.
+Если вы используете файлы Windows Media Audio (WMA) для музыкальных сообщений и оповещений для группы ответа, на всех серверах переднего плана или стандартных выпусках, на которых работает приложение группы ответа, должна быть установлена среда выполнения формата Windows Media для серверов под управлением Windows Server 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 среда выполнения формата Windows Media устанавливается в составе Windows Desktop Experience.
 
 Дополнительные сведения о требованиях к звуку см. ниже в подразделе "Требования к звуковым файлам".
 
@@ -75,9 +77,9 @@ _**Последнее изменение темы:** 2013-11-07_
 
 Приложение группы ответа использует следующие порты:
 
-  - **Порт 5071**   используется для запросов прослушивания SIP
+  - **Порт 5071**     Используется для запросов прослушивания SIP
 
-  - **Порт 8404**   используется для межсерверной связи
+  - **Порт 8404**     Используется для межсерверной связи
     
     <div>
     
@@ -132,7 +134,7 @@ _**Последнее изменение темы:** 2013-11-07_
 
 Если вы используете файл WMA рекомендуется применять низкие скорости и проверить производительность системы под нагрузкой.
 
-Преобразовать файл в формат WMA вы можете с помощью Microsoft Expression Encoder 4. Чтобы скачать Expression Encoder 4, ознакомьтесь [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)со статьей.
+Преобразовать файл в формат WMA вы можете с помощью Microsoft Expression Encoder 4. Чтобы скачать Expression Encoder 4, ознакомьтесь со статьей [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .
 
 </div>
 

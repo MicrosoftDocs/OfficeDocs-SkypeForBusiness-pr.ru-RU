@@ -12,20 +12,22 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a64bde9cabcae282be83b671115a5cda4e5580e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c40fddd324cd687b54d0c3317edc533fa559c8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201505"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536696"
 ---
+# <a name="registration-table-in-lync-server-2013"></a>Таблица регистрации в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="registration-table-in-lync-server-2013"></a>Таблица регистрации в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-09-28_
 <tr class="even">
 <td><p><strong>сессионидсек</strong></p></td>
 <td><p>int</p></td>
-<td><p>Первичный, внешний</p></td>
+<td><p>Основной, внешний</p></td>
 <td><p>Идентификатор для идентификации сеанса. В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом. Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
@@ -149,7 +151,7 @@ _**Последнее изменение темы:** 2012-09-28_
 <td><p>Время отмены регистрации.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>респонсекоде</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>Код ответа запроса регистрации.</p></td>
@@ -173,7 +175,7 @@ _**Последнее изменение темы:** 2012-09-28_
 <td><p>Причина отмены регистрации, такая как "user initiated" ("инициатива пользователя"), "registration expired" ("истек срок действия регистрации"), "client fail" ("сбой клиента") и др. Дополнительные сведения см. <a href="lync-server-2013-deregistertype-table.md">в таблице таблица deregistertype в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адреса</strong></p></td>
+<td><p><strong>IPAddress</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>IP-адрес конечной точки зарегистрировавшегося пользователя. Это может быть IPv4-адрес или IPv6-адрес.</p>

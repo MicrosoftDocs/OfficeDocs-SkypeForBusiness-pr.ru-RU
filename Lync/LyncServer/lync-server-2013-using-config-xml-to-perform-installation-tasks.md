@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: использование файла config. XML для выполнения задач установки'
+title: 'Lync Server 2013: использование Config.xml для выполнения задач установки'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535786"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Использование Config.xml для выполнения задач установки в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Использование файла config. XML для выполнения задач установки в Lync Server 2013
+
 
 </div>
 
@@ -51,13 +53,13 @@ _**Последнее изменение темы:** 2012-10-02_
 
   - Добавление или удаление устанавливаемых языков.
 
-Рекомендуется использовать файл config. XML для настройки автоматической установки Lync 2013.
+Рекомендуется использовать файл Config.xml для настройки автоматической установки Lync 2013.
 
-По умолчанию файл config. XML, хранящийся в основной папке продукта (например, \\Product. WW) направляет программу установки для установки этого продукта. Например, файл config. XML в следующей папке устанавливает Lync 2013:
+По умолчанию файл Config.xml, хранящийся в основной папке продукта (например, \\ Product. WW) направляет программу установки для установки этого продукта. Например, файл Config.xml в следующей папке устанавливает Lync 2013:
 
-  - \\\\Общий\\доступ\\к\\серверу Lync15 Lync \\. WW config. XML
+  - \\\\\\общий доступ к серверу \\ Lync15 \\ Lync. WW \\Config.xml
 
-Элементы config. XML, наиболее часто используемые для установки Lync 2013, перечислены в следующей таблице.
+Элементы Config.xml, наиболее часто используемые для установки Lync 2013, перечислены в следующей таблице.
 
 ### <a name="configxml-elements"></a>Элементы Config.xml
 
@@ -81,24 +83,24 @@ _**Последнее изменение темы:** 2012-10-02_
 <td><p>OptionState</p></td>
 <td><p>Определяет, как при установке будут обрабатываться компоненты конкретного продукта. Используйте следующие атрибуты для предотвращения установки служб Business Connectivity Services, в том числе общих компонентов, которые мешают работе с Outlook 2010:</p>
 <ul>
-<li><p>ID =&quot;лобимаин&quot;</p></li>
-<li><p>State =&quot;отсутствует&quot;</p></li>
-<li><p>Дети =&quot;Force&quot;</p></li>
+<li><p>ID = &quot; лобимаин&quot;</p></li>
+<li><p>State = &quot; отсутствует&quot;</p></li>
+<li><p>Дети = &quot; Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Display</p></td>
+<td><p>Отображение</p></td>
 <td><p>Уровень пользовательского интерфейса, отображаемого пользователю программой установки. Обычно используются следующие атрибуты:</p>
 <ul>
-<li><p>CompletionNotice =&quot;да&quot; | &quot;нет&quot;(по умолчанию)</p></li>
-<li><p>AcceptEula =&quot;да&quot; | &quot;нет&quot;(по умолчанию)</p></li>
+<li><p>CompletionNotice = &quot; Да &quot;  |  &quot; нет &quot; (по умолчанию)</p></li>
+<li><p>AcceptEula = &quot; Да &quot;  |  &quot; нет &quot; (по умолчанию)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Ведение журнала</p></td>
 <td><p>Параметры ведения журнала программой установки. Обычно используются следующие атрибуты:</p>
 <ul>
-<li><p>Тип&quot; | =&quot;&quot;Standard&quot;(по умолчанию) | &quot;Подробные сведения&quot;</p></li>
+<li><p>Тип = &quot; &quot;  |  &quot; Standard &quot; (по умолчанию) | &quot; Verbose&quot;</p></li>
 <li><p>Template=”имя файла.txt” (имя файла журнала)</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ _**Последнее изменение темы:** 2012-10-02_
 <td><p>Параметр</p></td>
 <td><p>Определяет значения для свойств программы установщика Windows. Обычно используются следующие атрибуты:</p>
 <ul>
-<li><p>Параметр ID =&quot;Name&quot; (имя свойства установщика Windows)</p></li>
-<li><p>Значение =&quot;значение&quot; (значение, присваиваемое свойству)</p></li>
+<li><p>Параметр ID = &quot; Name &quot; (имя свойства установщика Windows)</p></li>
+<li><p>Значение = &quot; значение &quot; (значение, присваиваемое свойству)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ _**Последнее изменение темы:** 2012-10-02_
 </table>
 
 
-В следующем примере показан файл config. XML для типичной автоматической установки Lync 2013.
+В следующем примере показан файл Config.xml для типичной автоматической установки Lync 2013.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ _**Последнее изменение темы:** 2012-10-02_
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Подробные сведения об использовании файла config. XML для выполнения задач установки и обслуживания Office доступны по адресу <https://go.microsoft.com/fwlink/p/?linkid=267514>.
+Подробные сведения об использовании файла Config.xml для выполнения задач установки и обслуживания Office можно найти на сайте <https://go.microsoft.com/fwlink/p/?linkid=267514> .
 
 <div>
 
@@ -141,7 +143,7 @@ _**Последнее изменение темы:** 2012-10-02_
 
 2.  Найдите строки, содержащие элементы, которые нужно изменить.
 
-3.  Измените запись для элемента, используя нужные значения параметров автоматической установки. Убедитесь, что вы удалили разделители комментариев, "\<\!–" и "–\>". Например, используйте следующий синтаксис:
+3.  Измените запись для элемента, используя нужные значения параметров автоматической установки. Убедитесь, что вы удалили разделители комментариев, " \<\!--" and "--\> ". Например, используйте следующий синтаксис:
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

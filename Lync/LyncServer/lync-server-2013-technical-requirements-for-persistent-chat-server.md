@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536136"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Технические требования для сервера сохраняемого чата в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Технические требования для сервера сохраняемого чата в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2013-01-06_
 
 Каждый компьютер, на котором размещается сервер сохраняемого чата, должен иметь доступ к существующей топологии Lync Server 2013 со следующими компонентами:
 
-  - **Lync Server 2013, сервер переднего плана.**  Сервер переднего плана является основой для маршрутизации SIP, обеспечивающей связь между компьютерами с сервером сохраняемого чата и функциями сохраняемого чата. Прежде чем приступить к развертыванию сервера сохраняемого чата, проверьте развертывание Lync Server 2013, Standard Edition или интерфейсный пул Lync Server и все остальные внутренние компьютеры, на которых работает Lync Server, в соответствии с вашей организацией.
+  - **Lync server 2013, сервер переднего плана.**   Сервер переднего плана является основой для маршрутизации SIP, обеспечивающей связь между компьютерами с сервером сохраняемого чата и функциями сохраняемого чата. Прежде чем приступить к развертыванию сервера сохраняемого чата, проверьте развертывание Lync Server 2013, Standard Edition или интерфейсный пул Lync Server и все остальные внутренние компьютеры, на которых работает Lync Server, в соответствии с вашей организацией.
 
 В следующих разделах описываются конкретные требования для сервера сохраняемого чата и базы данных, в которых хранятся данные сохраняемого чата.
 
@@ -99,9 +101,9 @@ _**Последнее изменение темы:** 2013-01-06_
 
 Убедитесь, что на сервере базы данных установлено одно из следующих программных приложений:
 
-  - Microsoft SQL Server 2012. Сведения о том, как установить Microsoft SQL Server 2012, можно найти в [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559)разделе "Установка SQL Server 2012".
+  - Microsoft SQL Server 2012. Сведения о том, как установить Microsoft SQL Server 2012, можно найти в разделе "Установка SQL Server 2012" [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) .
 
-  - Microsoft SQL Server 2008 R2. Сведения о том, как установить Microsoft SQL Server 2008 R2, можно найти в [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702)разделе "Установка SQL Server (sql Server 2008 R2)".
+  - Microsoft SQL Server 2008 R2. Сведения о том, как установить Microsoft SQL Server 2008 R2, можно найти в разделе "Установка SQL Server (SQL Server 2008 R2)" [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195162"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536326"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-09-12_
 
 Таблица tblPrincipalType содержит типы субъектов для разделения содержимого таблицы tblPrincipal по категориям.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Столбцы
 
 <table>
 <colgroup>
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2012-09-12_
 </tr>
 <tr class="odd">
 <td><p>птипеиссистемусер</p></td>
-<td><p>bit, не равно null</p></td>
+<td><p>bit, не может быть null</p></td>
 <td><p>Имеет значение True, если тип соответствует субъектам, которые используются во внутренних целях.</p></td>
 </tr>
 <tr class="even">
@@ -113,7 +115,7 @@ _**Последнее изменение темы:** 2012-09-12_
 <thead>
 <tr class="header">
 <th>ID</th>
-<th>Роль</th>
+<th>Role</th>
 <th>Описание</th>
 <th>Пользователь</th>
 </tr>
@@ -121,7 +123,7 @@ _**Последнее изменение темы:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>1,1</p></td>
-<td><p>Любые</p></td>
+<td><p>Любой</p></td>
 <td><p>Общий субъект неизвестного типа. Не используется в таблице tblPrincipal.</p></td>
 <td></td>
 </tr>
@@ -138,13 +140,13 @@ _**Последнее изменение темы:** 2012-09-12_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>SP4</p></td>
+<td><p>4 </p></td>
 <td><p>системусер</p></td>
 <td><p>Субъект, используемый сервером сохраняемого чата для внутреннего использования.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>17:00</p></td>
+<td><p>5 </p></td>
 <td><p>Пользователь</p></td>
 <td><p>Обычный пользователь.</p></td>
 <td><p>Да</p></td>
@@ -157,7 +159,7 @@ _**Последнее изменение темы:** 2012-09-12_
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Group</p></td>
+<td><p>Группа</p></td>
 <td><p>Группа безопасности Active Directory.</p></td>
 <td></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a9c0bbce2ced36e9df99d7239c2f562b20edbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f7d5dc3675f06aafed18ddd18e430e2c61dc670
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204925"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537226"
 ---
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Настройка хранилища файлов DFS для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Настройка хранилища файлов DFS для Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204925"
 
 _**Последнее изменение темы:** 2016-05-23_
 
-Lync Server 2013 поддерживает использование файловых ресурсов распределенной файловой системы (DFS). Подробнее о DFS для Windows Server 2008 вы найдете в статье Пошаговое руководство по работе с DFS для Windows Server 2008 [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835)по адресу. Чтобы использовать DFS, Lync Server 2013 требует наличия следующих компонентов:
+Lync Server 2013 поддерживает использование файловых ресурсов распределенной файловой системы (DFS). Подробнее о DFS для Windows Server 2008 вы найдете в статье Пошаговое руководство по работе с DFS для Windows Server 2008 по адресу [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835) . Чтобы использовать DFS, Lync Server 2013 требует наличия следующих компонентов:
 
   - Пространства имен являются доменными.
 
@@ -75,9 +77,9 @@ Lync Server 2013 поддерживает использование файло�
     
       - **Полный доступ**
     
-      - **Изменение**
+      - **Change**
     
-      - **Чтение**
+      - **Read**
 
 6.  Нажмите кнопку **Применить**, а затем кнопку **ОК**.
 

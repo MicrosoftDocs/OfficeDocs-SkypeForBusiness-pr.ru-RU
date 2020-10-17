@@ -12,20 +12,22 @@ ms:contentKeyID: 48184506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d5091623e381191d23ae0c8a62835577a1f66a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c09231abfae7bbcc32083d7db72d8a4be79ecff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744249"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535926"
 ---
+# <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a>Использование растянутого пула серверов сохраняемого чата для аварийного восстановления в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a>Использование растянутого пула серверов сохраняемого чата для аварийного восстановления в Lync Server 2013
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "41744249"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Решение для аварийного восстановления для сервера сохраняемого чата формируется на основе подтянутого пула серверов для постоянного чата. Это похоже на устойчивость сайта в том, что и в Lync Server 2010; Тем не менее, для растянутых виртуальных локальных сетей (VLAN) это не требуется. За счет растяжения пула серверов для постоянного чата вы, по сути, настраиваете один пул в топологии логически, но вы физически размещаете серверы в пуле в двух разных центрах обработки данных. Настройте зеркальное отображение SQL Server для базы данных таким же образом и разместите базу данных и зеркало в том же центре обработки данных. You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery). This is the backup database used for failover during disaster recovery.
+Решение по аварийному восстановлению для сервера сохраняемого чата основано на растянутом пуле серверов сохраняемого чата. Эта функция аналогична устойчивости сайта на месте в Lync Server 2010; Однако для растянутой виртуальной локальной сети не требуется никаких требований. По мере растягиванием пула серверов сохраняемого чата вы, по сути, настраиваете один пул в топологии логически, но серверы в пуле физически размещаются в двух разных центрах обработки данных. Настройка зеркального отображения SQL Server для базы данных аналогичным образом и развертывание базы данных и зеркальной копии в одном центре обработки данных. Необходимо настроить резервную базу данных в дополнительном центре обработки данных (с дополнительным зеркалом для обеспечения высокой доступности во время аварийного восстановления). Это резервная база данных, используемая для отработки отказа при аварийном восстановлении.
 
-Подробнее о том, как настроить зеркальное отображение SQL Server для обеспечения высокой доступности, можно найти [в разделе Зеркальное отображение SQL Server в Lync server 2013](lync-server-2013-sql-server-mirroring.md). Подробные сведения о том, как возвращать базу данных для аварийного восстановления, приведены [в разделе Настройка доставки журналов SQL Server в Lync Server 2013 для базы данных сервера сохраняемого чата](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) , а также [Настройка доставки журналов SQL Server между основной зеркальной базой данных и получателем доставки журналов в Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md).
+Сведения о том, как настроить зеркальное отображение SQL Server для обеспечения высокой доступности, можно найти [в разделе зеркалирование SQL Server в Lync server 2013](lync-server-2013-sql-server-mirroring.md). Сведения о том, как отработка отказа базы данных для аварийного восстановления, приведены [в статье Настройка доставки журналов SQL Server в Lync server 2013 для основной базы данных сервера сохраняемого чата](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) и [Настройка доставки журналов SQL Server между основным зеркалом и базой данных доставки журналов в Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md).
 
 </div>
 
