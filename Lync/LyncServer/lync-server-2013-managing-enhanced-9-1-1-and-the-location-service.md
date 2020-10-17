@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Управление расширенными 9-1-1ми и служба расположения'
+description: 'Lync Server 2013: Управление расширенными 9-1-1ми и служба расположения.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aea9d60c26eed872ce59c7dbac012c93f8ab7564
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 942d7780a54d7e61052469410a1c03943babd56f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505806"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570345"
 ---
 # <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Управление службой Enhanced 9-1-1 и службой расположения в Lync Server 2013
 
