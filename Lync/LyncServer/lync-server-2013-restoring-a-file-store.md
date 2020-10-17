@@ -12,20 +12,22 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73ba97ccadcc5cb34a5dbc3963d80620da8e516
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511616"
 ---
+# <a name="restoring-a-file-store-in-lync-server-2013"></a>Восстановление хранилища файлов в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-file-store-in-lync-server-2013"></a>Восстановление хранилища файлов в Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2013-02-18_
 
 ## <a name="to-restore-a-file-store"></a>Восстановление хранилища файлов
 
-1.  В случае сбоя хранилища файлов скопируйте соответствующее хранилище файлов из $Backup\\ в расположение хранилища файлов на сервере или сервере Standard Edition, а затем предоставьте к ней общий доступ.
+1.  В случае сбоя хранилища файлов скопируйте соответствующее хранилище файлов из $Backup \\ в расположение хранилища файлов на сервере или сервере Standard Edition, а затем предоставьте к ней общий доступ.
     
     <div>
     

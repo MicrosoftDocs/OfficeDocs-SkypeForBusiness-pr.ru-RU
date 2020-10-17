@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182672"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510876"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Атрибуты и описания схемы в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Атрибуты и описания схемы в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-10-06_
 <tr class="header">
 <th>Атрибут</th>
 <th>Описание</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -385,7 +387,7 @@ _**Последнее изменение темы:** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP — Федератионенаблед</p></td>
 <td><p>Этот атрибут указывает, включена ли федерация для отдельного пользователя. Этот атрибут задается службами Enterprise Services. Он отмечен для репликации глобального каталога.</p>
-<p>Допустимые значения: <strong>true</strong> или <strong>false</strong>.</p></td>
+<p>Допустимые значения: <strong>TRUE</strong> или <strong>FALSE</strong>.</p></td>
 <td><p>Новые средства Live Communications Server 2005.</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +548,7 @@ _**Последнее изменение темы:** 2012-10-06_
 <td><p>msRTCSIP — Мкуфакторидата</p></td>
 <td><p>Это зарезервированный атрибут, который может принимать несколько строковых значений. Параметры, сохраняемые в этом атрибуте, представляют пары имя=значение. В настоящее время определены следующие пары имя=значение:</p>
 <ul>
-<li><p>Факторюрл = &lt;URL-адрес&gt;</p></li>
+<li><p>Факторюрл = &lt; URL-адрес&gt;</p></li>
 </ul></td>
 <td><p>Новые в Office Communications Server 2007.</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ _**Последнее изменение темы:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP — Усерекстенсион</p></td>
-<td><p>Этот атрибут, поддерживающий несколько значений, содержит список пар "имя — значение" в &quot;формате "имя = значение". &quot; Этот атрибут помечен для репликации глобального каталога.</p></td>
+<td><p>Этот атрибут, поддерживающий несколько значений, содержит список пар "имя — значение" в формате " &quot; имя = значение". &quot; Этот атрибут помечен для репликации глобального каталога.</p></td>
 <td><p>Новые средства Live Communications Server 2005 с пакетом обновления 1 (SP1).</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ _**Последнее изменение темы:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Этот существующий атрибут Active Directory, поддерживающий несколько значений, является частью базовой схемы Active Directory, представленной в Windows 2000. Этот атрибут содержит различные адреса X400, X500 и SMTP электронной почты пользователя. В Live Communications Server 2003 и более поздних версий URI пользователя SIP добавляется в этот список с помощью тега &quot;SIP:&quot; .</p>
+<td><p>Этот существующий атрибут Active Directory, поддерживающий несколько значений, является частью базовой схемы Active Directory, представленной в Windows 2000. Этот атрибут содержит различные адреса X400, X500 и SMTP электронной почты пользователя. В Live Communications Server 2003 и более поздних версий URI пользователя SIP добавляется в этот список с помощью &quot; тега SIP: &quot; .</p>
 <p>Этот атрибут используется для поиска SIP URI пользователя следующими приложениями:</p>
 <ul>
 <li><p>Клиент обмена сообщениями и совместной работы Microsoft Office Outlook 2003</p></li>

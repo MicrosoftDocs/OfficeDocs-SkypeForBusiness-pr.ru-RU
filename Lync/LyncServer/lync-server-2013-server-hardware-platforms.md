@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510276"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Аппаратные серверные платформы для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Аппаратные серверные платформы для Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2016-07-28_
 <thead>
 <tr class="header">
 <th>Компонент оборудования</th>
-<th>Рекомендовано</th>
+<th>Рекомендуемый</th>
 </tr>
 </thead>
 <tbody>
@@ -85,7 +87,7 @@ _**Последнее изменение темы:** 2016-07-28_
 <td><ul>
 <li><p>8 или более 10 000 жестких дисков с частотой об/мин и не менее 72 ГБ свободного места на диске.</p>
 <p>Два диска должны использовать RAID 1, а шесть остальных — RAID 10.</p>
-<p>-Также</p></li>
+<p>- Также</p></li>
 <li><p>Твердотельные накопители (SSD), производительность которых аналогична 8 механическим дискам со скоростью вращения 10000 об/мин.</p></li>
 </ul></td>
 </tr>
@@ -116,7 +118,7 @@ _**Последнее изменение темы:** 2016-07-28_
 <thead>
 <tr class="header">
 <th>Компонент оборудования</th>
-<th>Рекомендовано</th>
+<th>Рекомендуемый</th>
 </tr>
 </thead>
 <tbody>
@@ -124,7 +126,7 @@ _**Последнее изменение темы:** 2016-07-28_
 <td><p>ЦП</p></td>
 <td><ul>
 <li><p>64-разрядный двухъядерный процессор, четырехъядерный процессор с тактовой частотой 2,0 ГГц или выше.</p>
-<p>-Также</p></li>
+<p>- Также</p></li>
 <li><p>64 бит с 4 процессором, Двухъядерный процессор, 2,0 ГГц или выше.</p></li>
 </ul>
 <p>Процессоры Intel Itanium не поддерживаются для ролей сервера Lync Server.</p></td>
@@ -138,7 +140,7 @@ _**Последнее изменение темы:** 2016-07-28_
 <td><ul>
 <li><p>4 или более 10 000 жестких дисков с частотой об/мин и не менее 72 ГБ свободного места на диске.</p>
 <p>Диски должны находиться в конфигурации RAID 1 на 2 раза.</p>
-<p>-Также</p></li>
+<p>- Также</p></li>
 <li><p>Твердотельные накопители (SSDs), которые обеспечивают производительность, схожую с механическими дисковыми накопителями 4 10 000 об/мин.</p></li>
 </ul></td>
 </tr>

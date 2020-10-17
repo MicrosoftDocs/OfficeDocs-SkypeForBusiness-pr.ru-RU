@@ -12,20 +12,22 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05678690718563dac9187ee275d3809016b78d33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deda1ec30ef5267acd8b3826b77077e7902d98e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511266"
 ---
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Откат перенесенных пользователей в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Откат перенесенных пользователей в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208495"
 
 _**Последнее изменение темы:** 2012-10-07_
 
-Если необходимо выполнить откат единой системы хранения контактов, выполните откат контактов только в том случае, если пользователь перемещается обратно в Exchange 2010 или Lync Server 2010. Для выполнении отката отключите политику для пользователя, а затем выполните командлет **Invoke-CsUcsRollback**. Выполнения одного командлета **Invoke-CsUcsRollback**недостаточно для обеспечения постоянного отката, поскольку если политика не отключена, то миграция универсального хранилища контактов будет инициирована повторно. Например, если выполняется откат пользователя, так как сервер Exchange 2013 возвращается в Exchange 2010, а затем почтовый ящик пользователя перемещается в Exchange 2013, то процесс миграции единого хранилища контактов будет начат за семь дней после отката до тех пор, пока единое хранилище контактов все еще включено для пользователя в политике служб пользователя.
+Если необходимо выполнить откат единой системы хранения контактов, выполните откат контактов только в том случае, если пользователь перемещается обратно в Exchange 2010 или Lync Server 2010. Для выполнении отката отключите политику для пользователя, а затем выполните командлет **Invoke-CsUcsRollback**. Выполнения одного командлета **Invoke-CsUcsRollback**недостаточно для обеспечения постоянного отката, поскольку если политика не отключена, то миграция универсального хранилища контактов будет инициирована повторно. Например, если пользователь выполняет откат, так как Exchange 2013 возвращается в Exchange 2010, а почтовый ящик пользователя перемещается в Exchange 2013, то процесс миграции единого хранилища контактов будет начат за семь дней после отката до тех пор, пока единое хранилище контактов остается включенным для пользователя в политике служб пользователей.
 
 <div>
 
@@ -91,7 +93,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    Например:
+    Пример:
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +112,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Например:
+    Пример:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +145,7 @@ _**Последнее изменение темы:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    Например:
+    Пример:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

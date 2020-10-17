@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511566"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Восстановление сервера Standard Edition в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Восстановление сервера Standard Edition в Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ _**Последнее изменение темы:** 2013-02-21_
     
     3.  Выберите топологию, а затем нажмите кнопку **сохранить**. Нажмите кнопку **Да** , чтобы подтвердить выбор.
 
-5.  Перейдите к папке установки Lync Server или носителю, а затем запустите мастер развертывания Lync Server, расположенный в \\программе\\установки\\AMD64. exe. С помощью мастера развертывания Lync Server выполните следующие действия:
+5.  Перейдите к папке установки Lync Server или носителю, а затем запустите мастер развертывания Lync Server, расположенный в \\ программе установки \\ amd64 \\Setup.exe. С помощью мастера развертывания Lync Server выполните следующие действия:
     
     1.  Выполните **Шаг 1: установите локальное хранилище конфигураций** , чтобы установить локальные файлы конфигурации.
     
@@ -99,7 +101,7 @@ _**Последнее изменение темы:** 2013-02-21_
 
 6.  Восстановите данные пользователя, выполнив следующие действия:
     
-    1.  Скопируйте Експортедусердата. zip из $Backup\\ в локальный каталог.
+    1.  Копирование ExportedUserData.zip из $Backup \\ в локальный каталог.
     
     2.  Перед восстановлением данных пользователя необходимо остановить службы Lync. Для этого введите:
         
@@ -123,7 +125,7 @@ _**Последнее изменение темы:** 2013-02-21_
     
     Если вы использовали резервное копирование базы данных SQL Server для резервного копирования базы данных сохраняемого чата, используйте процедуры восстановления SQL Server для его восстановления.
     
-    Если вы использовали командлет Export – CsPersistentChatData для резервного копирования, выполните командлет Import + CsPersistentChatData, чтобы восстановить его.
+    Если для резервного копирования использовался командлет Export-CsPersistentChatData, его можно восстановить с помощью Import-CsPersistentChatData.
 
 </div>
 

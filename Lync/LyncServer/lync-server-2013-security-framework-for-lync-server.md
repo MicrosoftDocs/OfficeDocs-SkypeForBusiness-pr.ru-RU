@@ -12,20 +12,22 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7871d662d76f47685a58384804dfc6dee3b7b1d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f84b7eaf3476624479d1ecb7c7bb564a4eae8ad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200915"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510446"
 ---
+# <a name="security-framework-for-lync-server-2013"></a>Инфраструктура безопасности для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a>Инфраструктура безопасности для Lync Server 2013
+
 
 </div>
 
@@ -43,11 +45,11 @@ _**Последнее изменение темы:** 2013-11-08_
 
   - Доменные службы Active Directory (AD DS) предоставляют один надежный внутренний репозиторий для учетных записей пользователей и сетевых ресурсов.
 
-  - Управление доступом на основе ролей (RBAC) позволяет делегировать административные задачи, сохраняя при этом высокие стандарты безопасности.
+  - Role-Based управления доступом (RBAC) позволяет делегировать административные задачи, сохраняя при этом высокие стандарты безопасности.
 
   - Инфраструктура открытых ключей (PKI) использует сертификаты, выданные доверенными центрами сертификации (CA), для проверки подлинности серверов и обеспечения целостности данных.
 
-  - Протокол TLS, HTTPS over SSL (HTTPS) и взаимное TLS (MTLS) обеспечивают проверку подлинности конечных точек и шифрование IM. Потоки обмена аудио-и видеоданных и общего доступа к приложениям шифруются с помощью протокола Secure SRTP.
+  - Протокол TLS, HTTPS over SSL (HTTPS) и взаимное TLS (MTLS) обеспечивают проверку подлинности конечных точек и шифрование IM. Потоки передачи аудио-и видеоданных и общего доступа к приложениям шифруются с помощью протокола Secure Real-Time Transport Protocol (SRTP).
 
   - Стандартизированные протоколы для проверки подлинности пользователей, где это возможно.
 

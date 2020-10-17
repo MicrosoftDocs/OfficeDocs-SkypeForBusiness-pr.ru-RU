@@ -12,20 +12,22 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 254f9e95edfb445d996948a17064ae460dbdb7d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511666"
 ---
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Процедуры аварийного восстановления группы ответа в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Процедуры аварийного восстановления группы ответа в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214875"
 
 _**Последнее изменение темы:** 2012-11-01_
 
-На этапе отработки отказа в процессе аварийного восстановления группы ответа находятся в двух пулах: основном (который недоступен) и резервном. Группы ответа в обоих пулах имеют одинаковое имя и владельца (основной пул), но разные родительские объекты. В течение этого времени командлеты группы ответа работают немного по-другому. Используйте параметры так, как описано в следующей процедуре. Сведения о том, как работают командлеты на этапе отработки отказа, приведены в статье "Lync Server 2013: восстановление групп ответа при [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)аварийном восстановлении" на сайте. Эта статья в блоге также относится к выпущенной версии Lync Server 2013.
+На этапе отработки отказа в процессе аварийного восстановления группы ответа находятся в двух пулах: основном (который недоступен) и резервном. Группы ответа в обоих пулах имеют одинаковое имя и владельца (основной пул), но разные родительские объекты. В течение этого времени командлеты группы ответа работают немного по-другому. Используйте параметры так, как описано в следующей процедуре. Сведения о том, как работают командлеты на этапе отработки отказа, приведены в статье "Lync Server 2013: восстановление групп ответа при аварийном восстановлении" на сайте [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957) . Эта статья в блоге также относится к выпущенной версии Lync Server 2013.
 
 Выполните действия, описанные в следующей процедуре, чтобы подготовиться к аварийному восстановлению для службы группы ответа Lync Server и выполнить аварийное восстановление.
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    Например:
+    Пример:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
@@ -78,7 +80,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Например:
+        Пример:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
@@ -86,7 +88,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Например:
+        Пример:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -94,7 +96,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Например:
+        Пример:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -102,7 +104,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Например:
+        Пример:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -110,7 +112,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Например:
+        Пример:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
@@ -150,7 +152,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    Например:
+    Пример:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
@@ -167,7 +169,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    Например:
+    Пример:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
@@ -186,7 +188,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Например:
+        Пример:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
@@ -194,7 +196,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Например:
+        Пример:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -202,7 +204,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        Например:
+        Пример:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -210,7 +212,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Например:
+        Пример:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
@@ -218,7 +220,7 @@ _**Последнее изменение темы:** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Например:
+        Пример:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 

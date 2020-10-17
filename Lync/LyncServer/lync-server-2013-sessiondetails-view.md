@@ -12,20 +12,22 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66d883b48d1269fff8a57594101f083c88f1fbd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8baf67ce72103ef0dda64a9b0b43a8f6dd6402f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510066"
 ---
+# <a name="sessiondetails-view-in-lync-server-2013"></a>Представление SessionDetails в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-view-in-lync-server-2013"></a>Представление SessionDetails в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200715"
 
 _**Последнее изменение темы:** 2012-10-01_
 
-В представлении SessionDetails хранятся сведения об одноранговых сеансах, которые могут быть телефонным звонком VoIP, двусторонним сеансом обмена мгновенными сообщениями или другим типом сеансов. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении SessionDetails хранятся сведения об одноранговых сеансах, которые могут быть VoIP-VoIP телефонным звонком, двусторонним сеансом обмена мгновенными сообщениями или другими типами сеансов. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -227,7 +229,7 @@ _**Последнее изменение темы:** 2012-10-01_
 <td><p>Время ответа на первое сообщение INVITE. Обычно это поле содержит данные из первоначального сообщения INVITE в сеансе. Если сообщение INVITE отсутствует, в поле записывается дата и время первого соответствующего SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>респонсекоде</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td><p>Код SIP-ответа на приглашение в сеанс. Это поле обычно заполняется данными, генерируемыми из исходного сообщения INVITE в сеансе. Если сообщения INVITE нет, поле заполняется датой и временем первого релевантного SIP-сообщения (BYE, CANCEL, MESSAGE или INFO).</p></td>
 </tr>
@@ -242,12 +244,12 @@ _**Последнее изменение темы:** 2012-10-01_
 <td><p>Тип контента для этого сеанса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Интерфейса</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Полное доменное имя интерфейсного сервера, который получил данные этого сеанса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Полное доменное имя пула, который получил данные этого сеанса.</p></td>
 </tr>

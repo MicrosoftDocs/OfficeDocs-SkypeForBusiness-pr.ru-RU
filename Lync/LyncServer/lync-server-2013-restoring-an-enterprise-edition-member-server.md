@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511452"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Восстановление рядового сервера Enterprise Edition в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Восстановление рядового сервера Enterprise Edition в Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**Последнее изменение темы:** 2013-02-18_
 
   - Сервер-посредник
 
-  - Режиссер
+  - Директор
 
   - Сервер сохраняемого чата
 
@@ -76,7 +78,7 @@ _**Последнее изменение темы:** 2013-02-18_
 
 2.  Из учетной записи пользователя, входящей в группу RTCUniversalServerAdmins, войдите на сервер, который вы восстанавливаете.
 
-3.  Перейдите к папке установки Lync Server или носителю и запустите мастер развертывания Lync Server, расположенный в \\программе установки\\amd64\\. exe.
+3.  Перейдите к папке установки Lync Server или носителю и запустите мастер развертывания Lync Server, расположенный при \\ установке \\ amd64 \\Setup.exe.
 
 4.  Следуйте указаниям мастера развертывания, чтобы выполнить следующие действия:
     
