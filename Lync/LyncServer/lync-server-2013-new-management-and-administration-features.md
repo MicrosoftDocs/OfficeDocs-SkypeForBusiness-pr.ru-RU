@@ -12,20 +12,22 @@ ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc1e428584bb83070c1b7f953260cb347da68065
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c612efc380f9319f2c25f78e7a9666ce7c0955e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534206"
 ---
+# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="9cc2d-102">Новые функции управления и администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9cc2d-102">New management and administration features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="21215-102">Новые функции управления и администрирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21215-102">New management and administration features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42216885"
 
 <span> </span>
 
-<span data-ttu-id="21215-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="21215-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="9cc2d-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="9cc2d-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="21215-104">Lync Server 2013 содержит следующие новые функции, которые упрощают задачу управления развертыванием.</span><span class="sxs-lookup"><span data-stu-id="21215-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
+<span data-ttu-id="9cc2d-104">Lync Server 2013 содержит следующие новые функции, которые упрощают задачу управления развертыванием.</span><span class="sxs-lookup"><span data-stu-id="9cc2d-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
 
-  - [<span data-ttu-id="21215-105">Построитель топологий поддерживает зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21215-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+  - [<span data-ttu-id="9cc2d-105">Построитель топологий поддерживает зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9cc2d-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
 
-  - [<span data-ttu-id="21215-106">Новые функции управления доступом на основе ролей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21215-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
+  - [<span data-ttu-id="9cc2d-106">Новые функции управления доступом на основе ролей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9cc2d-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
 
-  - [<span data-ttu-id="21215-107">Интеграция средств управления сохраняемым сеансом беседы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21215-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+  - [<span data-ttu-id="9cc2d-107">Интеграция средств управления сохраняемым сеансом беседы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9cc2d-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
 
 </div>
 
