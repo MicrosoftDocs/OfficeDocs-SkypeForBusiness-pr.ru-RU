@@ -12,20 +12,22 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5637d4e0648de2273bad2a808c8557d562b15665
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a94d19026d2df00caf8079914d8b93bd70a87f6d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188182"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522856"
 ---
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="f8197-102">Развертывание единого хранилища контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8197-102">Deploying unified contact store in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="59a5f-102">Развертывание единого хранилища контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59a5f-102">Deploying unified contact store in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42188182"
 
 <span> </span>
 
-<span data-ttu-id="59a5f-103">_**Последнее изменение темы:** 2016-06-06_</span><span class="sxs-lookup"><span data-stu-id="59a5f-103">_**Topic Last Modified:** 2016-06-06_</span></span>
+<span data-ttu-id="f8197-103">_**Последнее изменение темы:** 2016-06-06_</span><span class="sxs-lookup"><span data-stu-id="f8197-103">_**Topic Last Modified:** 2016-06-06_</span></span>
 
-<span data-ttu-id="59a5f-104">Для включения единого хранилища контактов в Lync Server 2013 не требуются параметры топологии.</span><span class="sxs-lookup"><span data-stu-id="59a5f-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="59a5f-105">Чтобы включить единое хранилище контактов для пользователей, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="59a5f-105">Enabling unified contact store for users requires the following:</span></span>
+<span data-ttu-id="f8197-104">Для включения единого хранилища контактов в Lync Server 2013 не требуются параметры топологии.</span><span class="sxs-lookup"><span data-stu-id="f8197-104">Enabling unified contact store in Lync Server 2013 does not require any topology settings.</span></span> <span data-ttu-id="f8197-105">Чтобы включить единое хранилище контактов для пользователей, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="f8197-105">Enabling unified contact store for users requires the following:</span></span>
 
-  - <span data-ttu-id="59a5f-106">Политика единого хранилища контактов включена (по умолчанию — включена).</span><span class="sxs-lookup"><span data-stu-id="59a5f-106">Unified contact store policy is enabled (default is enabled).</span></span>
+  - <span data-ttu-id="f8197-106">Политика единого хранилища контактов включена (по умолчанию — включена).</span><span class="sxs-lookup"><span data-stu-id="f8197-106">Unified contact store policy is enabled (default is enabled).</span></span>
 
-  - <span data-ttu-id="59a5f-107">Пользователи входят в состав Lync 2013 по крайней мере один раз.</span><span class="sxs-lookup"><span data-stu-id="59a5f-107">Users log in with Lync 2013 at least once.</span></span>
+  - <span data-ttu-id="f8197-107">Пользователи входят в состав Lync 2013 по крайней мере один раз.</span><span class="sxs-lookup"><span data-stu-id="f8197-107">Users log in with Lync 2013 at least once.</span></span>
 
-<span data-ttu-id="59a5f-108">После миграции контактов пользователя, которые автоматически происходят при входе пользователя в Lync 2013, пользователь может получить доступ к своим контактам Lync и управлять ими из Lync 2013, Outlook 2013 или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="59a5f-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="59a5f-109">Пользователю не нужно войти в Lync, чтобы управлять своими контактами из Outlook или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="59a5f-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
+<span data-ttu-id="f8197-108">После миграции контактов пользователя, которые автоматически происходят при входе пользователя в Lync 2013, пользователь может получить доступ к своим контактам Lync и управлять ими из Lync 2013, Outlook 2013 или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="f8197-108">After a user’s contacts have been migrated, which happens automatically when a user logs in with Lync 2013, the user can access and manage their Lync contacts from Lync 2013, Outlook 2013, or Outlook Web Access.</span></span> <span data-ttu-id="f8197-109">Пользователю не нужно войти в Lync, чтобы управлять своими контактами из Outlook или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="f8197-109">The user does not have to be logged in to Lync to manage their contacts from Outlook or Outlook Web Access.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="59a5f-110">Если пользователь входит в состав Lync 2010 после миграции, контакты и группы доступны и актуальны, но пользователь не может управлять (то есть добавлять, удалять, перемещать, помечать, унтаг или изменять) эти контакты.</span><span class="sxs-lookup"><span data-stu-id="59a5f-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
+> <span data-ttu-id="f8197-110">Если пользователь входит в состав Lync 2010 после миграции, контакты и группы доступны и актуальны, но пользователь не может управлять (то есть добавлять, удалять, перемещать, помечать, унтаг или изменять) эти контакты.</span><span class="sxs-lookup"><span data-stu-id="f8197-110">If a user logs in from Lync 2010 after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts.</span></span>
 
 
 
@@ -57,13 +59,13 @@ ms.locfileid: "42188182"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="59a5f-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="59a5f-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f8197-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="f8197-111">In This Section</span></span>
 
-  - [<span data-ttu-id="59a5f-112">Включение пользователей для единого хранилища контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59a5f-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [<span data-ttu-id="f8197-112">Включение пользователей для единого хранилища контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8197-112">Enable users for unified contact store in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="59a5f-113">Миграция пользователей в единое хранилище контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59a5f-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [<span data-ttu-id="f8197-113">Миграция пользователей в единое хранилище контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8197-113">Migrate users to unified contact store in Lync Server 2013</span></span>](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [<span data-ttu-id="59a5f-114">Откат перенесенных пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59a5f-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
+  - [<span data-ttu-id="f8197-114">Откат перенесенных пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8197-114">Roll back migrated users in Lync Server 2013</span></span>](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 
