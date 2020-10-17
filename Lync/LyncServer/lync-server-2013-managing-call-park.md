@@ -12,20 +12,22 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210c7dcc7d563ebbf4066eef094de29717894686
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 046467dbe10e66d767d1ce8044984b3de0be1243
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505916"
 ---
+# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="3ae4c-102">Управление Парковким вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae4c-102">Managing Call Park in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-park-in-lync-server-2013"></a><span data-ttu-id="2605b-102">Управление Парковким вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605b-102">Managing Call Park in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42192762"
 
 <span> </span>
 
-<span data-ttu-id="2605b-103">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="2605b-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="3ae4c-103">_**Последнее изменение темы:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="3ae4c-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="2605b-104">Приложение парковки вызовов позволяет пользователю корпоративной голосовой связи выполнять вызов на удержании с одного телефона, а затем получать его позже с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="2605b-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="2605b-105">Когда пользователь Паркс вызов, Lync Server передает вызов на временный номер, который называется *орбитой*, когда вызов удерживается, пока кто-то не загружает его или не истечет.</span><span class="sxs-lookup"><span data-stu-id="2605b-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
+<span data-ttu-id="3ae4c-104">Приложение парковки вызовов позволяет пользователю корпоративной голосовой связи выполнять вызов на удержании с одного телефона, а затем получать его позже с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="3ae4c-104">The Call Park application enables an Enterprise Voice user to put a call on hold from one telephone and then retrieve the call later from any telephone.</span></span> <span data-ttu-id="3ae4c-105">Когда пользователь Паркс вызов, Lync Server передает вызов на временный номер, который называется *орбитой*, когда вызов удерживается, пока кто-то не загружает его или не истечет.</span><span class="sxs-lookup"><span data-stu-id="3ae4c-105">When the user parks a call, Lync Server transfers the call to a temporary number, called an *orbit*, where the call is held until someone retrieves it or it times out.</span></span>
 
-<span data-ttu-id="2605b-106">В подразделах этого раздела приводятся пошаговые процедуры для задач, которые можно выполнять для настройки и обслуживания приложения парковки вызовов в развертывании.</span><span class="sxs-lookup"><span data-stu-id="2605b-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
+<span data-ttu-id="3ae4c-106">В подразделах этого раздела приводятся пошаговые процедуры для задач, которые можно выполнять для настройки и обслуживания приложения парковки вызовов в развертывании.</span><span class="sxs-lookup"><span data-stu-id="3ae4c-106">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Call Park application in your deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2605b-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="2605b-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3ae4c-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="3ae4c-107">In This Section</span></span>
 
-  - [<span data-ttu-id="2605b-108">Настройка добавочных номеров телефонов для вызовов парковки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605b-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [<span data-ttu-id="3ae4c-108">Настройка добавочных номеров телефонов для вызовов парковки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae4c-108">Configure phone number extensions for parking calls in Lync Server 2013</span></span>](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
-  - [<span data-ttu-id="2605b-109">Настройка параметров парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605b-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
+  - [<span data-ttu-id="3ae4c-109">Настройка параметров парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae4c-109">Configure Call Park settings in Lync Server 2013</span></span>](lync-server-2013-configure-call-park-settings.md)
 
-  - [<span data-ttu-id="2605b-110">Настройка музыки парковки вызовов на удержании в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605b-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [<span data-ttu-id="3ae4c-110">Настройка музыки парковки вызовов на удержании в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae4c-110">Customize Call Park music on hold in Lync Server 2013</span></span>](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [<span data-ttu-id="2605b-111">Управление приостановкой вызовов во время аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605b-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [<span data-ttu-id="3ae4c-111">Управление приостановкой вызовов во время аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ae4c-111">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193122"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506666"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="6280d-102">Обновление списка поддержки Outlook в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6280d-102">Updating the Outlook enable list in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="6cc3f-102">Обновление списка поддержки Outlook в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6cc3f-102">Updating the Outlook enable list in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42193122"
 
 <span> </span>
 
-<span data-ttu-id="6cc3f-103">_**Последнее изменение темы:** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="6cc3f-103">_**Topic Last Modified:** 2013-01-07_</span></span>
+<span data-ttu-id="6280d-103">_**Последнее изменение темы:** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="6280d-103">_**Topic Last Modified:** 2013-01-07_</span></span>
 
-<span data-ttu-id="6cc3f-104">Вы можете убедиться, что надстройка "собрание по сети" для Microsoft Lync 2013 всегда остается включенной для пользователей, создав политику, которая включает ее в список управления надстройками для Outlook.</span><span class="sxs-lookup"><span data-stu-id="6cc3f-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="6cc3f-105">Политика списка управления надстройками включается в файлы административных шаблонов Office для консоли управления групповыми политиками.</span><span class="sxs-lookup"><span data-stu-id="6cc3f-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="6cc3f-106">Он создает раздел реестра в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList.</span><span class="sxs-lookup"><span data-stu-id="6cc3f-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="6cc3f-107">Вы можете добавить значение для укаддин. dll в этот ключ и настроить значение укаддин. dll так, чтобы оно всегда было включено и пользователи не могли отключить его вручную.</span><span class="sxs-lookup"><span data-stu-id="6cc3f-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
+<span data-ttu-id="6280d-104">Вы можете убедиться, что надстройка "собрание по сети" для Microsoft Lync 2013 всегда остается включенной для пользователей, создав политику, которая включает ее в список управления надстройками для Outlook.</span><span class="sxs-lookup"><span data-stu-id="6280d-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="6280d-105">Политика списка управления надстройками включается в файлы административных шаблонов Office для консоли управления групповыми политиками.</span><span class="sxs-lookup"><span data-stu-id="6280d-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="6280d-106">Он создает раздел реестра в разделе \\ политики программного обеспечения HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ устойчивости \\ AddinList.</span><span class="sxs-lookup"><span data-stu-id="6280d-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="6280d-107">Вы можете добавить в этот ключ значение ucaddin.dll и настроить ucaddin.dll значение, чтобы оно всегда было включено и пользователи не могли отключить его вручную.</span><span class="sxs-lookup"><span data-stu-id="6280d-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="6cc3f-108">Добавление укаддин. dll в список надстроек Outlook</span><span class="sxs-lookup"><span data-stu-id="6cc3f-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="6280d-108">Добавление ucaddin.dll в список надстроек Outlook</span><span class="sxs-lookup"><span data-stu-id="6280d-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
 
-  - <span data-ttu-id="6cc3f-109">В раздел реестра AddinList, расположенный в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList, добавьте следующее значение:</span><span class="sxs-lookup"><span data-stu-id="6cc3f-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
+  - <span data-ttu-id="6280d-109">В раздел реестра AddinList, расположенный в разделе \\ политики программного обеспечения HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ устойчивости \\ AddinList, добавьте следующее значение:</span><span class="sxs-lookup"><span data-stu-id="6280d-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
     
-      - <span data-ttu-id="6cc3f-110">Тип реестра = REG\_СЗ</span><span class="sxs-lookup"><span data-stu-id="6cc3f-110">Registry Type = REG\_SZ</span></span>
+      - <span data-ttu-id="6280d-110">Тип реестра = REG \_ СЗ</span><span class="sxs-lookup"><span data-stu-id="6280d-110">Registry Type = REG\_SZ</span></span>
     
-      - <span data-ttu-id="6cc3f-111">Имя = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="6cc3f-111">Name = ucaddin.dll</span></span>
+      - <span data-ttu-id="6280d-111">Имя = ucaddin.dll</span><span class="sxs-lookup"><span data-stu-id="6280d-111">Name = ucaddin.dll</span></span>
     
-      - <span data-ttu-id="6cc3f-112">Значение = 1 (указывает, что надстройка всегда включена и не управляется пользователем)</span><span class="sxs-lookup"><span data-stu-id="6cc3f-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
+      - <span data-ttu-id="6280d-112">Значение = 1 (указывает, что надстройка всегда включена и не управляется пользователем)</span><span class="sxs-lookup"><span data-stu-id="6280d-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
 
 </div>
 
