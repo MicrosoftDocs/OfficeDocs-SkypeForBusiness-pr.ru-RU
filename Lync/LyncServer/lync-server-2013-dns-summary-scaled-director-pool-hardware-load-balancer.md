@@ -12,20 +12,22 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10c742d8d58392b06bc563cd0a947d46243703d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501266"
 ---
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Сводка по DNS — масштабируемый пул директоров, аппаратный балансировщик нагрузки в Lync Server 2013
+
 
 </div>
 
@@ -58,9 +60,9 @@ _**Последнее изменение темы:** 2012-10-20_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Внутренний DNS/A</p></td>
+<td><p>Внутренняя запись DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Режиссер</p></td>
+<td><p>Директор</p></td>
 <td><p>Запись узла директора, используемая для обмена данными между репликацией и сервером</p></td>
 </tr>
 <tr class="even">

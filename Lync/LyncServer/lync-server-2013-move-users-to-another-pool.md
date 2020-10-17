@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192642"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500556"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Перемещение пользователей в другой пул в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>Перемещение пользователей в другой пул в Lync Server 2013
+
 
 </div>
 
@@ -159,7 +161,7 @@ _**Последнее изменение темы:** 2018-02-09_
     
     1.  Если вы выполняете команды на локальном компьютере (например, входите прямо на сервер переднего плана): Войдите на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
     
-    2.  Если вы выполняете команды удаленно на другом компьютере (например, входите на компьютер и выполняете команды удаленно на сервере переднего плана Standard Edition): от учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator роль Войдите на любой компьютер во внутреннем развертывании.
+    2.  Если вы выполняете команды удаленно на другом компьютере (например, входите на компьютер и выполняете команды удаленно на сервере переднего плана Standard Edition): от учетной записи пользователя, назначенной роли CsUserAdministrator или роли CsAdministrator, выполните вход на любой компьютер во внутреннем развертывании.
 
 2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 

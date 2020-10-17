@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501286"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013
+
 
 </div>
 
@@ -107,7 +109,7 @@ _**Последнее изменение темы:** 2013-01-27_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Внешний DNS/A</p></td>
+<td><p>Внешняя запись DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10</p></td>
 <td><p>Внешний интерфейс службы пограничного доступа (Contoso). Повторить по мере необходимости для всех доменов SIP с пользователями, которым разрешен Lync.</p></td>
@@ -126,13 +128,13 @@ _**Последнее изменение темы:** 2013-01-27_
 </tr>
 <tr class="even">
 <td><p>Внешний DNS/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Внешний интерфейс службы пограничного доступа. Требуется для автоматической настройки клиентов Lync 2013 и Lync 2010 для работы с внешними клиентами. Повторить по мере необходимости для всех доменов SIP с пользователями, которым разрешен Lync.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Внешняя DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Внешний интерфейс службы доступа SIP Внешний интерфейс, необходимый для автоматического обнаружения DNS федеративных партнеров, известных как "разрешенный домен SIP" (под названием Расширенная Федерация в предыдущих выпусках). Повторите эти действия для всех доменов SIP с пользователями Lync с поддержкой Lync и клиентами Microsoft Lync Mobile, которые используют службу push-уведомлений или службу push-уведомлений Apple.</p></td>
 </tr>

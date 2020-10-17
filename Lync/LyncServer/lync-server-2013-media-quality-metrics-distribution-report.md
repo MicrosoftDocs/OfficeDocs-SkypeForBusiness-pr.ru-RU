@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500656"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Отчет по распределению метрик качества мультимедиа в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Отчет по распределению метрик качества мультимедиа в Lync Server 2013
+
 
 </div>
 
@@ -65,11 +67,11 @@ _**Последнее изменение темы:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>SP4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>17:00</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -125,12 +127,12 @@ _**Последнее изменение темы:** 2012-06-06_
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 13:00.</p>
 <p>Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</p>
 <p>7/7/2012</p>
 <p>Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</p>
 <p>7/3/2012</p>
-<p>Неделя всегда начинается с воскресенья и заканчивается субботой.</p></td>
+<p>Неделя всегда начинается с воскресения и заканчивается субботой.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -156,7 +158,7 @@ _**Последнее изменение темы:** 2012-06-06_
 <ul>
 <li><p>Ко</p></li>
 <li><p>Внутренний</p></li>
-<li><p>External</p></li>
+<li><p>Внешний</p></li>
 </ul></td>
 </tr>
 <tr class="even">

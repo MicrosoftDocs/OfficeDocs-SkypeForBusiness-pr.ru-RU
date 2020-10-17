@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499386"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Резервное копирование основных данных и параметров в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Резервное копирование основных данных и параметров в Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**Последнее изменение темы:** 2014-04-23_
     
     </div>
 
-5.  Скопируйте файл конфигурации резервного хранилища центрального хранилища управления в $Backup\\.
+5.  Скопируйте файл конфигурации резервного хранилища центрального хранилища управления в $Backup \\ .
 
 6.  Резервное копирование данных службы сведений о местоположении. В командной строке введите следующую команду:
     
@@ -88,7 +90,7 @@ _**Последнее изменение темы:** 2014-04-23_
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Скопируйте файл конфигурации службы сведений о расположении резервной копии в $Backup\\.
+7.  Скопируйте файл конфигурации службы сведений о расположении резервной копии в $Backup \\ .
 
 8.  Создайте резервную копию пользовательских данных для каждой внутренней базы данных интерфейсного пула и каждого сервера Standard Edition. В командной строке введите следующую команду:
     
@@ -98,7 +100,7 @@ _**Последнее изменение темы:** 2014-04-23_
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Скопируйте резервную копию файла пользователя в $Backup\\.
+9.  Скопируйте резервную копию файла пользователя в $Backup \\ .
 
 10. В каждом пуле, где выполняется приложение группы ответа, создайте резервную копию конфигурации группы ответа. Выполните указанные ниже действия.
     
@@ -106,11 +108,11 @@ _**Последнее изменение темы:** 2014-04-23_
         
             Export-CsRgsConfiguration -Source "service:ApplicationServer:<pool FQDN>" -FileName <path and file name for backup>
         
-        Например:
+        Пример:
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. Скопируйте файл конфигурации группы ответа с резервной копией в\\$Backup.
+11. Скопируйте файл конфигурации группы ответа с резервной копией в $Backup \\ .
 
 </div>
 

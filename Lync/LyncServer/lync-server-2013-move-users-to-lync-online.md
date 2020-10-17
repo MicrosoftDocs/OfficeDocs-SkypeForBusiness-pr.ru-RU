@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221209"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500576"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Перемещение пользователей в Lync Online в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Перемещение пользователей в Lync Online в Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**Последнее изменение темы:** 2014-05-29_
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-Формат URL-адреса, указанный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, где запущена служба переноса, в следующем формате: https:// \< Pool FQDN \> /HostedMigration/hostedmigrationService.svc.
+Формат URL-адреса, заданный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, где запущена служба переноса, в следующем формате: https:// \<Pool FQDN\> /HostedMigration/hostedmigrationService.svc.
 
 Можно определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для учетной записи организации Microsoft 365 или Office 365.
 

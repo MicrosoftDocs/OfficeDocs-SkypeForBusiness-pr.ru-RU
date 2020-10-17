@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500816"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Вопросы и ответы: подготовка Lync Server 2013 для подключения к Skype
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Вопросы и ответы: подготовка Lync Server 2013 для подключения к Skype
+
 
 </div>
 
@@ -116,15 +118,15 @@ _**Последнее изменение темы:** 2019-03-22_
 
   - Контактные данные. Укажите адрес электронной почты администратора каждого указанного SIP домена SIP.
 
-**В. как включить подключение Lync — Skype в сценарии с разделенным доменом?**
+**В. как включить Lync-Skype подключения в сценарии с разделенными доменами?**
 
-**A:** Если вы используете Lync Online 2013 и Lync Server с локальным доменом с разделенным доменом (с пользователями в Интернете и локально с использованием того же домена SIP), включите Подключение Lync-Skype, выполнив эти два действия в следующем порядке.
+**A:** Если у вас есть сценарий Lync Online 2013 и Lync Server с локальным доменом с разделенным доменом (пользователи находятся как в Интернете, так и локально с использованием того же домена SIP), включите Lync-Skype подключения, выполнив эти два действия в следующем порядке.
 
-1.  Настройка локального подключения Lync — Skype, как описано в руководстве по подготовке PIC.
+1.  Настройте подключение к локальной Lync-Skype, как описано в руководстве по подготовке PIC.
 
 2.  Подождите, пока не появится подтверждение того, что ваш домен был подготовлен корпорацией Майкрософт.
 
-3.  После просмотра подтверждения используйте центр администрирования Lync, чтобы включить "внешние коммуникации". Дополнительные сведения см.[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  После просмотра подтверждения используйте центр администрирования Lync, чтобы включить "внешние коммуникации". Дополнительные сведения см. [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Этот порядок важен.Перед включением связи в Lync Online необходимо настроить локальное подключение. Если порядок обратной, сведения, введенные для локального размещения, <https://pic.lync.com> не будут проходить через. Если вы уже настроили Lync Online для внешних коммуникаций с этим доменом, необходимо отключить его, подождать 24 часа и затем снова начать работу, а <https://pic.lync.com> затем включить внешние коммуникации для Lync Online.
 
@@ -138,7 +140,7 @@ _**Последнее изменение темы:** 2019-03-22_
 
 **В. как добавить контакт Windows Live Messenger с ИДЕНТИФИКАТОРом, который содержит домен, отличный от того, что поддерживается Windows Live?**
 
-**A:** Если вы добавляете пользователя Windows Live Messenger с учетной записью или ИДЕНТИФИКАТОРом в домене, отличном от Windows Live, введите адрес в следующем формате: \< имя пользователя \> ( \< доменное имя \> ) @msn. com, где \< доменное имя \> — это доменное имя в адресе электронной почты пользователя. Например, если вы хотите добавить ted@contoso.com, используйте следующий формат: ", contoso. com) @msn. com. Список доменов, администрируемых службой Windows Live, приведен в разделе Поддерживаемые домены в разделе "известные проблемы, возникающие при работе с общедоступной службой обмена мгновенными сообщениями после установки пакета обновления 1 (SP1) для Live Communications Server с пакетом обновления 1 (SP1) https://support.microsoft.com/?kbid=897567 .
+**A:** Если вы добавляете пользователя Windows Live Messenger с учетной записью или ИДЕНТИФИКАТОРом в домене, отличном от Windows Live, введите адрес в следующем формате: \<user name\> ( \<domain name\> ) @msn. com, где \<domain name\> — это имя домена в адресе электронной почты пользователя. Например, если вы хотите добавить ted@contoso.com, используйте следующий формат: ", contoso. com) @msn. com. Список доменов, администрируемых службой Windows Live, приведен в разделе Поддерживаемые домены в разделе "известные проблемы, возникающие при работе с общедоступной службой обмена мгновенными сообщениями после установки пакета обновления 1 (SP1) для Live Communications Server с пакетом обновления 1 (SP1) https://support.microsoft.com/?kbid=897567 .
 
 **Вопрос: сколько времени занимает процесс подготовки?**
 

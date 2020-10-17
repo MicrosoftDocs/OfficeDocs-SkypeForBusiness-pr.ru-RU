@@ -12,20 +12,22 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f74963f080c244f375bac0ea00ab152e89cc2723
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308ba7b91fbe776ed49d72c54e2986ad95d080fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500946"
 ---
+# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Включение или отключение очистки архивных данных в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Включение или отключение очистки архивных данных в Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 
 > [!NOTE]  
-> Чтобы использовать архивацию для пользователей, размещенных в Lync Server 2013, необходимо настроить политики архивации, чтобы включить архивацию для внутренних коммуникаций, для внешних коммуникаций или для обоих. По умолчанию архивация не включена для внутренних и внешних коммуникаций. Прежде чем включать архивацию в любых политиках, необходимо указать соответствующие конфигурации архивации для развертывания и, при необходимости, для конкретных сайтов и пулов, как описано в этом разделе. Подробнее о том, как настроить архивацию, можно узнать в статье <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Настройка и назначение политик архивации в Lync Server 2013</A> в документации по развертыванию.<BR>Если вы решили после развертывания архивации, в которой вы хотите использовать интеграцию с Microsoft Exchange для хранения архивных данных и файлов на серверах Exchange 2013, а все пользователи размещены на серверах Exchange 2013, следует удалить конфигурацию базы данных SQL Server. из топологии. Для этого необходимо использовать построитель топологий. Дополнительные сведения приведены в статье <A href="lync-server-2013-changing-archiving-database-options.md">изменение параметров базы данных архивации в Lync Server 2013</A> в документации по операциям.
+> Чтобы использовать архивацию для пользователей, размещенных в Lync Server 2013, необходимо настроить политики архивации, чтобы включить архивацию для внутренних коммуникаций, для внешних коммуникаций или для обоих. По умолчанию архивация не включена для внутренних и внешних коммуникаций. Прежде чем включать архивацию в любых политиках, необходимо указать соответствующие конфигурации архивации для развертывания и, при необходимости, для конкретных сайтов и пулов, как описано в этом разделе. Подробнее о том, как настроить архивацию, можно узнать в статье <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Настройка и назначение политик архивации в Lync Server 2013</A> в документации по развертыванию.<BR>Если вы решили после развертывания архивации, в которой вы хотите использовать интеграцию с Microsoft Exchange для хранения архивных данных и файлов на серверах Exchange 2013, а все пользователи размещены на серверах Exchange 2013, следует удалить конфигурацию базы данных SQL Server из топологии. Для этого необходимо использовать построитель топологий. Дополнительные сведения приведены в статье <A href="lync-server-2013-changing-archiving-database-options.md">изменение параметров базы данных архивации в Lync Server 2013</A> в документации по операциям.
 
 
 
@@ -83,13 +85,13 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Включение или отключение очистки данных архивации с помощью командлетов Windows PowerShell
 
-Включение и отключение автоматической очистки данных архивации может осуществляться с помощью Windows PowerShell и командлета **Set – CsArchivingConfiguration** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Включение и отключение автоматической очистки данных архивации может осуществляться с помощью Windows PowerShell и командлета **Set – CsArchivingConfiguration** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
 ## <a name="to-enable-the-purging-of-all-archiving-data"></a>Включение очистки всех данных архивации
 
-  - Чтобы включить очистку всех данных архивации, установите для свойства **EnablePurging** значение True ($True). Например:
+  - Чтобы включить очистку всех данных архивации, установите для свойства **EnablePurging** значение True ($True). Пример:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203305"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499476"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Назначение сертификата проверки подлинности между серверами серверу Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Назначение сертификата проверки подлинности между серверами серверу Microsoft Lync Server 2013
+
 
 </div>
 
@@ -56,9 +58,9 @@ _**Последнее изменение темы:** 2013-10-24_
 
 В предыдущей команде полученный сертификат настраивается для работы в качестве глобального сертификата проверки подлинности "сервер-сервер"; Это означает, что сертификат будет реплицирован на все серверы переднего плана и использоваться им. Опять же, эта команда должна выполняться только один раз и только на одном из серверов переднего плана. Несмотря на то, что на всех серверах переднего плана должен использоваться один и тот же сертификат, не следует настраивать сертификат OAuthTokenIssuer на каждом сервере переднего плана. Вместо этого необходимо настроить сертификат один раз, а затем позволить серверу репликации Lync Server выполнить копирование этого сертификата на каждый сервер.
 
-Командлет Set – CsCertificate выполняет указанный сертификат и сразу же настраивает этот сертификат в качестве текущего сертификата OAuthTokenIssuer. (Lync Server 2013 хранит две копии типа сертификата: текущий сертификат и предыдущий сертификат). Если требуется, чтобы новый сертификат сразу начал работать в качестве сертификата OAuthTokenIssuer, следует использовать командлет Set – CsCertificate.
+Командлет Set-CsCertificate берет на себя сертификат и сразу же настраивает этот сертификат в качестве текущего сертификата OAuthTokenIssuer. (Lync Server 2013 хранит две копии типа сертификата: текущий сертификат и предыдущий сертификат). Если требуется, чтобы новый сертификат сразу начал работать в качестве сертификата OAuthTokenIssuer, следует использовать командлет Set-CsCertificate.
 
-Вы также можете использовать командлет Set – CsCertificate для "свертывания" нового сертификата. "Пошаговое" сертификат означает, что новый сертификат будет настроен в качестве текущего сертификата OAuthTokenIssuer в определенный момент времени. Например, эта команда получает сертификат по умолчанию, а затем настраивает этот сертификат для использования в качестве текущего сертификата OAuthTokenIssuer на 1 июля 2012 г.:
+Вы также можете использовать командлет Set-CsCertificate для "свертывания" нового сертификата. "Пошаговое" сертификат означает, что новый сертификат будет настроен в качестве текущего сертификата OAuthTokenIssuer в определенный момент времени. Например, эта команда получает сертификат по умолчанию, а затем настраивает этот сертификат для использования в качестве текущего сертификата OAuthTokenIssuer на 1 июля 2012 г.:
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2012" -Roll
