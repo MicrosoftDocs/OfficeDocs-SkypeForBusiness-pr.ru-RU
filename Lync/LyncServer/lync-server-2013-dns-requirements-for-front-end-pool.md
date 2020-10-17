@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532176"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Требования к DNS для пула переднего плана в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Требования к DNS для пула переднего плана в Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**Последнее изменение темы:** 2012-11-07_
 
 
 > [!WARNING]  
-> Lync Server 2013 не поддерживает домены с одной меткой. Например, лес с корневым доменом <STRONG>contoso.local</STRONG> будет поддерживаться, а с корневым доменом <STRONG>local</STRONG> — нет. Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем с одной меткой", "по <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>.
+> Lync Server 2013 не поддерживает домены с одной меткой. Например, лес с корневым доменом <STRONG>contoso.local</STRONG> будет поддерживаться, а с корневым доменом <STRONG>local</STRONG> — нет. Дополнительные сведения см. в статье 300684 базы знаний Майкрософт "сведения о настройке Windows для доменов с DNS-именем с одной меткой", "по <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp ; kbid = 300684</A>.
 
 
 
@@ -67,7 +69,7 @@ _**Последнее изменение темы:** 2012-11-07_
 
   - Для каждого сервера существует DNS-запись A.
 
-  - Запись DNS SRV для каждого домена SIP, если вы планируете использовать автоматический вход для клиентов в форме \_сипинтерналтлс\_TCP. \<Домен\>SIP. Если вы будете использовать ручную настройку для клиентов, эта запись не является обязательной.
+  - Запись DNS SRV для каждого домена SIP, если вы планируете использовать автоматический вход для клиентов в форме \_ сипинтерналтлс \_ TCP. \<SIP domain\> . Если вы будете использовать ручную настройку для клиентов, эта запись не является обязательной.
 
   - DNS-запись A для каждого настроенного простого URL-адреса, которых обычно существует четыре: meet, dialin, lwa и scheduler. Кроме того, существует простой URL-адрес администратора, который является специальным URL-адресом для доступа к панели управления Lync Server 2013.
 
@@ -90,7 +92,7 @@ _**Последнее изменение темы:** 2012-11-07_
 <tr class="header">
 <th>Расположение</th>
 <th>Тип</th>
-<th>FQDN</th>
+<th>полное доменное имя;</th>
 <th>Сопоставление/комментарии</th>
 </tr>
 </thead>
@@ -202,7 +204,7 @@ _**Последнее изменение темы:** 2012-11-07_
 <tr class="header">
 <th>Расположение</th>
 <th>Тип</th>
-<th>FQDN</th>
+<th>полное доменное имя;</th>
 <th>Целевое полное доменное имя</th>
 <th>Порт</th>
 <th>Сопоставление/комментарии</th>
@@ -212,7 +214,7 @@ _**Последнее изменение темы:** 2012-11-07_
 <tr class="odd">
 <td><p>Внутренняя DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. contoso. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Требуется для автоматической настройки клиентов Lync 2013 для внутреннего использования.</p></td>
@@ -220,7 +222,7 @@ _**Последнее изменение темы:** 2012-11-07_
 <tr class="even">
 <td><p>Внутренняя DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Требуется для автоматической настройки клиентов Lync 2013 для внутреннего использования.</p></td>
@@ -228,7 +230,7 @@ _**Последнее изменение темы:** 2012-11-07_
 <tr class="odd">
 <td><p>Внутренняя DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp. _udp. contoso. com</p></td>
+<td><p>_ntp _ntp._udp. contoso. com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>Источник сетевого времени (NTP), необходимый для устройств, на которых работает Lync Phone Edition. При внутреннем использовании она может указывать на контроллер домена. Если контроллер домена не задан, она пытается использовать сервер NTP time.windows.com.</p></td>

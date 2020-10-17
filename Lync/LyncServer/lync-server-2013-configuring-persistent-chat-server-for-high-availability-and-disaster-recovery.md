@@ -12,20 +12,22 @@ ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d0c3b9a35a138e3aadac8cc6ffcd4e808b2dca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90bb6ee0d9c060787c7b750046f79810aeb0c425
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532416"
 ---
+# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Настройка сервера сохраняемого чата для обеспечения высокой доступности и аварийного восстановления в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Настройка сервера сохраняемого чата для обеспечения высокой доступности и аварийного восстановления в Lync Server 2013
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "41756323"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-Сервер Lync Server 2013, служба постоянного чата использует конфигурацию *растянутого пула* для восстановления после аварии. Растянутый пул — это пул, который содержит компьютеры, распределенные между двумя физическими центрами обработки данных, но на одном логическом сайте сервера Lync Server.
+В Lync Server 2013 службы сервера сохраняемого чата используют конфигурацию *растянутого пула* для аварийного восстановления. Растянутый пул — это пул, который содержит компьютеры, распределенные между двумя физическими центрами обработки данных, но которые находятся на одном логическом сайте Lync Server.
 
 <div>
 
@@ -53,7 +55,7 @@ _**Тема последнего изменения:** 2012-10-01_
 
   - [Настройка доставки журналов SQL Server в Lync Server 2013 для основной базы данных сервера сохраняемого чата](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [Установка доставки журналов SQL Server между основным зеркалом и базой данных-получателем доставки журналов в Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md)
+  - [Настройка доставки журналов SQL Server между основным зеркалом и базой данных получателя доставки журналов в Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

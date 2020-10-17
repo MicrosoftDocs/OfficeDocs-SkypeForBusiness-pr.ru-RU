@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532646"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Требования к резервному копированию и восстановлению в Lync Server 2013: инструменты и разрешения
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Требования к резервному копированию и восстановлению в Lync Server 2013: инструменты и разрешения
+
 
 </div>
 
@@ -61,20 +63,20 @@ _**Последнее изменение темы:** 2013-02-17_
 <tbody>
 <tr class="odd">
 <td><p>Данные конфигурации топологии (XDS. mdf)</p></td>
-<td><p>Export — CsConfiguration</p></td>
+<td><p>Export-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Data Information Service (E9-1-1) Data (LIS. mdf)</p></td>
-<td><p>Export — CsLisConfiguration</p></td>
+<td><p>Export-CsLisConfiguration</p></td>
 </tr>
 <tr class="odd">
 <td><p>Данные конфигурации группы ответа (RgsConfig. mdf)</p></td>
-<td><p>Export — CsRgsConfiguration</p></td>
+<td><p>Export-CsRgsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Постоянные данные пользователя (база данных Rtcxds. mdf)</p>
 <p>Идентификаторы конференций</p></td>
-<td><p>Export — CsUserData</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -86,7 +88,7 @@ _**Последнее изменение темы:** 2013-02-17_
 </tr>
 <tr class="even">
 <td><p>База данных сохраняемого чата (MGC. mdf)</p></td>
-<td><p>Процедуры резервного копирования SQL Server или Export — CsPersistentChatData. Export — CsPersistentChatData экспортирует данные сохраняемого чата в виде файла.</p></td>
+<td><p>Процедуры резервного копирования SQL Server или Export — CsPersistentChatData. Export-CsPersistentChatData экспортирует данные сохраняемого чата в виде файла.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Все хранилища файлов: хранилище файлов Lync Server, архивирование хранилища файлов</p>
@@ -141,11 +143,11 @@ _**Последнее изменение темы:** 2013-02-17_
 <td><p>Повторно создайте пустые базы данных и установите разрешения для следующих параметров:</p>
 <ul>
 <li><p>Центральное хранилище управления</p></li>
-<li><p>Сервер переднего план</p></li>
+<li><p>Внутренний сервер</p></li>
 <li><p>база данных мониторинга;</p></li>
 <li><p>база данных архивации;</p></li>
 </ul></td>
-<td><p>Install — CsDatabase</p></td>
+<td><p>Install-CsDatabase</p></td>
 </tr>
 <tr class="even">
 <td><p>Восстановление указателя доменных служб Active Directory в центральном хранилище управления</p>
@@ -156,21 +158,21 @@ _**Последнее изменение темы:** 2013-02-17_
 
 
 </div></td>
-<td><p>Set — CsConfigurationStoreLocation</p></td>
+<td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
 <td><p>Импорт топологии, политик и параметров конфигурации в центральное хранилище управления (XDS. mdf)</p></td>
-<td><p>Import — CsConfiguration</p></td>
+<td><p>Import-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Публикация и включение топологии</p></td>
 <td><p>Построитель топологий</p>
 <p>-или-</p>
-<p>Publish — CsTopology и Enable — CsTopology</p></td>
+<p>Publish-CsTopology и Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>Включение последней опубликованной топологии</p></td>
-<td><p>Enable — CsTopology</p></td>
+<td><p>Enable-CsTopology</p></td>
 </tr>
 <tr class="even">
 <td><p>Переустановка компонентов Lync Server</p></td>
@@ -178,22 +180,22 @@ _**Последнее изменение темы:** 2013-02-17_
 <div>
 
 > [!NOTE]  
-> Размещается в папке установки Lync Server или на носителе по адресу \setup\amd64\Setup.exe.
+> Размещается в папке установки Lync Server или на носителе на \setup\amd64\Setup.exe.
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>Восстановление сведений о расположении (E9-1-1) Data (LIS. mdf)</p></td>
-<td><p>Import — CsLisConfiguration</p></td>
+<td><p>Import-CsLisConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Восстановление постоянных пользовательских данных (Rtcxds. mdf)</p></td>
-<td><p>Import — CsUserData</p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>Восстановление данных конфигурации группы ответа (RgsConfig. mdf)</p></td>
-<td><p>Import — CsRgsConfiguration</p>
+<td><p>Import-CsRgsConfiguration</p>
 <div>
 
 > [!NOTE]  
@@ -212,7 +214,7 @@ _**Последнее изменение темы:** 2013-02-17_
 </tr>
 <tr class="odd">
 <td><p>База данных сохраняемого чата (МГС. mdf)</p></td>
-<td><p>Процедуры восстановления SQL Server или импорт — CsPersistentChatData. Вы можете использовать import – CsPersistentChatData с файлом, созданным с помощью Export – CsPersistentChatData, и данные будут импортированы в базу данных сохраняемого чата.</p></td>
+<td><p>Процедуры восстановления SQL Server или импорт — CsPersistentChatData. Вы можете использовать Import-CsPersistentChatData с файлом, созданным с помощью Export CsPersistentChatData, и данные будут импортированы в базу данных сохраняемого чата.</p></td>
 </tr>
 </tbody>
 </table>

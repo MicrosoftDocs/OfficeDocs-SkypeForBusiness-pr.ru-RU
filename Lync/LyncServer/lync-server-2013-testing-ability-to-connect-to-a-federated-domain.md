@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194332"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532926"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Тестирование возможности подключения к федеративного домена из Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Тестирование возможности подключения к федеративного домена из Lync Server 2013
+
 
 </div>
 
@@ -46,7 +48,7 @@ _**Последнее изменение темы:** 2014-06-05_
 <tbody>
 <tr class="odd">
 <td><p>Расписание проверки</p></td>
-<td><p>Daily (Ежедневный)</p></td>
+<td><p>Ежедневное</p></td>
 </tr>
 <tr class="even">
 <td><p>Средство тестирования</p></td>
@@ -78,7 +80,7 @@ Test-CsFederatedPartner проверяет возможность подключ
 
 ## <a name="running-the-test"></a>Выполнение теста
 
-Для командлета Test-Федератедпартнер требуются два фрагмента информации: полное доменное имя пограничного сервера и полное доменное имя федеративного партнера. Например, эта команда проверяет возможность подключения к домену contoso.com:
+Командлету Test-FederatedPartner требуются два фрагмента информации: полное доменное имя пограничного сервера и полное доменное имя федеративного партнера. Например, эта команда проверяет возможность подключения к домену contoso.com:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -124,7 +126,7 @@ Microsoft. RTC. Signal. Диагностичеадер
 
 Например, предыдущие выходные данные погрешностей о том, что тест завершился сбоем из-за ошибки времени ожидания сервера. Как правило, это свидетельствует о проблемах с подключением к сети или проблемах связи с пограничным сервером.
 
-Если Test-CsFederatedPartner завершается с ошибкой, вам может потребоваться повторно выполнить проверку, включая параметр verbose:
+Если Test-CsFederatedPartner завершается с ошибкой, может потребоваться повторный запуск теста, в том числе параметр verbose:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 

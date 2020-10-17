@@ -12,20 +12,22 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688438e07416895f5c8070830e4bc0467325de14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7ac2e44382aa75b61ae4e2966b5ef87fd977e798
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199812"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532136"
 ---
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по DNS — Федерация XMPP (Extensible Messaging and Presence Protocol) в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Сводка по DNS — Федерация XMPP (Extensible Messaging and Presence Protocol) в Lync Server 2013
+
 
 </div>
 
@@ -54,7 +56,7 @@ _**Последнее изменение темы:** 2014-04-08_
 <thead>
 <tr class="header">
 <th>Расположение/тип/порт</th>
-<th>FQDN</th>
+<th>полное доменное имя;</th>
 <th>IP-адрес/запись узла полного доменного имени</th>
 <th>Сопоставление/комментарии</th>
 </tr>
@@ -62,9 +64,9 @@ _**Последнее изменение темы:** 2014-04-08_
 <tbody>
 <tr class="odd">
 <td><p>Внешний DNS/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Внешний интерфейс прокси-сервера XMPP в пограничной службе доступа или пограничном пуле. При необходимости повторите эти действия для всех внутренних доменов SIP с пользователями Lync, в которых доступ к контактам с контактами XMPP разрешен через конфигурацию политики внешнего доступа через глобальную политику, политику сайта, в которой находится пользователь, или политика пользователей, применяемая к Пользователь с поддержкой Lync. Разрешенный домен XMPP также должен быть настроен в политике федеративных партнеров XMPP. Дополнительные сведения можно найти в разделах, <strong>приведенных в разделе</strong> .</p></td>
+<td><p>Внешний интерфейс прокси-сервера XMPP в пограничной службе доступа или пограничном пуле. При необходимости повторите эти действия для всех внутренних доменов SIP с пользователями Lync, в которых доступ к контактам с контактами XMPP разрешен через конфигурацию политики внешнего доступа через глобальную политику, политику сайта, в которой находится пользователь, или политика пользователей, применяемая к пользователю с поддержкой Lync. Разрешенный домен XMPP также должен быть настроен в политике федеративных партнеров XMPP. Дополнительные сведения можно найти в разделах, <strong>приведенных в разделе</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p>Внешний DNS/A</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c783a79c6d3ed3cd0af47d53d136a47585cb94d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532306"
 ---
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**Последнее изменение темы:** 2012-09-24_
     
     В этих примерах используются следующие параметры:
     
-      - **SipAddress** указывает SIP-адрес контактного объекта. В качестве значения необходимо использовать адрес, который еще не использовался для настройки пользователя или контактного объекта в доменных службах Active Directory. Это значение должно быть в формате SIP:\<*SIP Address*\>, как показано в предыдущих примерах.
+      - **SipAddress** указывает SIP-адрес контактного объекта. В качестве значения необходимо использовать адрес, который еще не использовался для настройки пользователя или контактного объекта в доменных службах Active Directory. Это значение должно быть в формате SIP:, \<*SIP address*\> как показано в предыдущих примерах.
     
       - **RegistrarPool** указывает полное доменное имя пула, в котором выполняется служба регистратора.
         

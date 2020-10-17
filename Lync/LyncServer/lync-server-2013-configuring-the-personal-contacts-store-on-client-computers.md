@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191822"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532349"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Настройка хранилища личных контактов на клиентских компьютерах для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Настройка хранилища личных контактов на клиентских компьютерах для Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
 2.  В диалоговом окне **Выполнить** введите regedit, затем нажмите ВВОД.
 
-3.  В редакторе реестра разверните узел **"\_локальный\_компьютер**", разверните узел **программное обеспечение**, **политики**, разверните узел **Microsoft**, а затем — **Communicator**.
+3.  В редакторе реестра разверните узел **" \_ локальный \_ компьютер**", разверните узел **программное обеспечение**, **политики**, разверните узел **Microsoft**, а затем — **Communicator**.
 
 4.  Щелкните правой кнопкой мыши **Communicator**, наведите указатель мыши на **создать**и выберите **значение DWORD (32-бит)**.
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2014-02-05_
 
 6.  Убедитесь, что значение PersonalContactStoreOverride равно 0, а затем закройте редактор реестра.
 
-Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики. Дополнительные сведения см [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543). в документации по групповой политике.
+Если нужно внести это изменение на нескольких компьютерах, это можно сделать, создав пользовательский объект групповой политики. Дополнительные сведения см. в документации по групповой политике [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) .
 
 </div>
 

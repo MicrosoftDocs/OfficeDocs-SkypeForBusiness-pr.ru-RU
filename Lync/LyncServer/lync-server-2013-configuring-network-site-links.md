@@ -12,20 +12,22 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50457100f1ba476fd3ddfa923b73acd6bfe6d843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33461781f0392d0e6e4fbfa21bdde8948e7a9a1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532586"
 ---
+# <a name="configuring-network-site-links-in-lync-server-2013"></a>Настройка связей между сетевыми сайтами в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-site-links-in-lync-server-2013"></a>Настройка связей между сетевыми сайтами в Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    В этом примере создается сетевое подключение к сетевому\_сайту с именем Рино Портленде, которое задает ограничения пропускной способности между узлами Рино и сети Портленде. Перед выполнением этой команды уже должны существовать эти сетевые узлы и профиль политики пропускной способности.
+    В этом примере создается сетевое подключение к сетевому сайту с именем Рино \_ Портленде, которое задает ограничения пропускной способности между узлами Рино и сети Портленде. Перед выполнением этой команды уже должны существовать эти сетевые узлы и профиль политики пропускной способности.
 
 Подробное описание параметров приведено в разделе [New – CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server. Чтобы получить список профилей политик пропускной способности, которые можно применять к связи между сетевыми узлами, вызовите командлет **Get-CsNetworkBandwidthPolicyProfile**. Дополнительные сведения см. в статье [Get – CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) в документации по консоли управления Lync Server.
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Для изменения свойств конкретной связи между сетевыми узлами используется командлет **Set-CsNetworkInterSitePolicy**. Можно изменять каждый из связанных узлов (или оба этих узла), а также профиль политики пропускной способности, привязанный к этой связи. Ниже приведен пример изменения профиля политики пропускной способности для связи сайтов с именем Рино\_Портленде:
+3.  Для изменения свойств конкретной связи между сетевыми узлами используется командлет **Set-CsNetworkInterSitePolicy**. Можно изменять каждый из связанных узлов (или оба этих узла), а также профиль политики пропускной способности, привязанный к этой связи. Ниже приведен пример изменения профиля политики пропускной способности для связи сайтов с именем Рино \_ Портленде:
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
@@ -81,7 +83,7 @@ _**Последнее изменение темы:** 2012-11-01_
 
 2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Для удаления связи между сетевыми узлами используется командлет **Remove-CsNetworkInterSitePolicy**. В следующем примере удаляется ссылка\_на сетевой сайт Рино в Портленде:
+3.  Для удаления связи между сетевыми узлами используется командлет **Remove-CsNetworkInterSitePolicy**. В следующем примере удаляется \_ ссылка на сетевой сайт Рино в Портленде:
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 

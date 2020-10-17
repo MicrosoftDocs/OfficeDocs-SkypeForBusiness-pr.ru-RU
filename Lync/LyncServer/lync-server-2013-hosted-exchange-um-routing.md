@@ -12,20 +12,22 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bace74b58c706ef58d05e54e31d2f79ab587ba64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31091da9a80dc03c798cbf674c1c46e0ea7b901c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533116"
 ---
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Маршрутизация размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Маршрутизация размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 
 </div>
 
@@ -70,9 +72,9 @@ _**Последнее изменение темы:** 2012-10-01_
 
   - Политика маршрутизации размещенной голосовой почты, назначенная учетной записи пользователя Алисы, предоставляет следующие сведения для маршрутизации.
     
-      - Destination — размещенный поставщик службы единой системы обмена сообщениями Exchange (Ls. ExUm. \<хостедексчанжесервер\>. com в этом примере).
+      - Destination — размещенный поставщик службы единой системы обмена сообщениями Exchange (Ls. ExUm. \<hostedExchangeServer\> . в этом примере com).
     
-      - Организации идентифицируются по идентификаторам клиентов, которые являются полными доменными именами для сообщений SIP для клиентов Exchange Server, расположенных на сайте Ls. ExUm. \<хостедексчанжесервер\>. com (в этом примере — Corp.contoso.com и Corp.litwareinc.com).
+      - Организации идентифицируются по идентификаторам клиентов, которые являются полными доменными именами для сообщений SIP для клиентов Exchange Server, расположенных на сайте Ls. ExUm. \<hostedExchangeServer\> . com (в данном примере — corp.contoso.com и corp.litwareinc.com).
         
         <div>
         

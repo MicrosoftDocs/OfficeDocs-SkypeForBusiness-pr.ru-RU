@@ -12,20 +12,22 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fcf163893a84e4b9244e43b12c702cf0076b1ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 161a8577558705c773974b1cc733337b29b6dbd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532626"
 ---
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Таблицы резервного копирования и восстановления для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Таблицы резервного копирования и восстановления для Lync Server 2013
+
 
 </div>
 
@@ -77,7 +79,7 @@ _**Последнее изменение темы:** 2013-02-18_
 <th>Средство резервного копирования баз данных</th>
 <th>Резервный набор данных</th>
 <th>Назначение резервного копирования</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -170,13 +172,13 @@ _**Последнее изменение темы:** 2013-02-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Контентная</th>
+<th>Контент</th>
 <th>Имя сервера (полное доменное имя)</th>
 <th>Расписание резервного копирования</th>
 <th>Средство резервного копирования файловой системы</th>
 <th>Резервное копирование общего файлового ресурса *</th>
 <th>Назначение резервного копирования</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
@@ -221,7 +223,7 @@ _**Последнее изменение темы:** 2013-02-18_
 <th>Средство резервного копирования</th>
 <th>Имя файла конфигурации (XML)</th>
 <th>Расположение резервной копии</th>
-<th>Notes</th>
+<th>Примечания</th>
 </tr>
 </thead>
 <tbody>
