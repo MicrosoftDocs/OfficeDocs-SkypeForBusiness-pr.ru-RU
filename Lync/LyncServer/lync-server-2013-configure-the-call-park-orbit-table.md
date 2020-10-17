@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка таблицы орбит парковки вызовов'
+description: 'Lync Server 2013: Настройка таблицы орбит парковки вызовов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0f4de5568dc8d265acd412999aafc814c68dbc9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ce9fb35c2958a426888d83d075064c88ddae4bfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520366"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544985"
 ---
 # <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>Настройка таблицы орбит парковки вызовов в Lync Server 2013
 

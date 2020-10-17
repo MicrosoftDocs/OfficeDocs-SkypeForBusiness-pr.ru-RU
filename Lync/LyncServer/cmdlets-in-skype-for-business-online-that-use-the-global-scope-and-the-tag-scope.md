@@ -1,5 +1,6 @@
 ---
 title: Командлеты в Skype для бизнеса Online, использующие глобальную область и область тегов
+description: Командлеты в Skype для бизнеса Online, использующие глобальную область и область тегов.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba89ebe7322159027c5de765117afd366cb3dc23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755079"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545625"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Командлеты в Skype для бизнеса Online, использующие глобальную область и область тегов
 
@@ -39,7 +40,7 @@ ms.locfileid: "44755079"
 
 
 > [!NOTE]  
-> При ссылке на политику на уровне пользователя <STRONG>префикс</STRONG> тега является необязательным. Этот синтаксис, который включает префикс, также является допустимым:<BR>Get-CsExternalAccessPolicy – Identity "Tag: Редмондакцессполици"
+> При ссылке на политику на уровне пользователя <STRONG>префикс</STRONG> тега является необязательным. Этот синтаксис, который включает префикс, также является допустимым:<BR>Get-CsExternalAccessPolicy — идентификатор "Tag: Редмондакцессполици"
 
 
 

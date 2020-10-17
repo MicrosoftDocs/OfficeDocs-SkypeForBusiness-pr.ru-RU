@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка использования фотографий высокого разрешения'
+description: 'Lync Server 2013: Настройка использования фотографий высокого разрешения.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e817e86d6f05291192593e2345b9e4bc1c0b6db3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48b0077fbfe2d525a7dac651ebd4c2a95892d3d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517362"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544175"
 ---
 # <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Настройка использования фотографий высокого разрешения в Microsoft Lync Server 2013
 

@@ -1,5 +1,6 @@
 ---
 title: Отработка отказа центрального хранилища управления Lync Server 2013
+description: Отработка отказа центрального хранилища управления Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 675f5b8e2880303a99897da18f44047c73961e4a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d2960a55d6bdc49e00bf22997bc53946d4770fde
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508046"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544375"
 ---
 # <a name="central-management-store-failover-in-lync-server-2013"></a>Отработка отказа центрального хранилища управления в Lync Server 2013
 

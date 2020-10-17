@@ -88,7 +88,7 @@
               href: ../lync-server-2013-what-s-new-for-clients.md
             - name: Новые возможности для устройств
               href: ../lync-server-2013-what-s-new-for-devices.md
-        - name: Примечания к выпуску
+        - name: Заметки о выпуске
           href: ../lync-server-2013-release-notes.md
         - name: Обновления для Lync
           href: ../lync-2013-updates-for-client-and-server.md
@@ -751,7 +751,7 @@
                 - name: Компонент сервера-посредника
                   href: ../lync-server-2013-mediation-server-component.md
                   items:
-                    - name: 'Магистральная магистраль M:N'
+                    - name: 'Магистраль M:N'
                       href: ../lync-server-2013-m-n-trunk.md
                     - name: Контроль допуска звонков и сервер-посредник
                       href: ../lync-server-2013-call-admission-control-and-mediation-server.md
@@ -770,7 +770,7 @@
             - name: Планирование подключения PSTN
               href: ../lync-server-2013-planning-for-pstn-connectivity.md
               items:
-                - name: Распределение каналов SIP
+                - name: Настройка каналов SIP
                   href: ../lync-server-2013-sip-trunking.md
                   items:
                     - name: Обзор распределения каналов SIP
@@ -790,9 +790,9 @@
                       href: ../lync-server-2013-direct-sip-deployment-options.md
                     - name: Варианты развертывания шлюза PSTN
                       href: ../lync-server-2013-pstn-gateway-deployment-options.md
-                - name: 'Магистральная магистраль M:N'
+                - name: 'Магистраль M:N'
                   href: ../lync-server-2013-m-n-trunk.md
-                - name: Маршрутизация между магистральными системами
+                - name: Маршрутизация между магистралями
                   href: ../lync-server-2013-inter-trunk-routing.md
                 - name: Правила преобразования
                   href: ../lync-server-2013-translation-rules.md
@@ -913,19 +913,19 @@
                   href: ../lync-server-2013-technical-requirements-for-media-bypass.md
             - name: Планирование частных телефонных линий
               href: ../lync-server-2013-planning-for-private-telephone-lines.md
-            - name: Планирование маршрутизации на основе расположения
+            - name: Планирование маршрутизации Location-Based
               href: ../lync-server-2013-planning-for-location-based-routing.md
               items:
-                - name: Обзор маршрутизации на основе расположения
+                - name: Обзор маршрутизации Location-Based
                   href: ../lync-server-2013-overview-of-location-based-routing.md
-                - name: Руководство по маршрутизации на основе расположения
+                - name: Руководство по маршрутизации Location-Based
                   href: ../lync-server-2013-guidance-for-location-based-routing.md
                   items:
                     - name: Расположение пользователя
                       href: ../lync-server-2013-user-s-location.md
                     - name: Расположение шлюза PSTN
                       href: ../lync-server-2013-pstn-gateway-s-location.md
-                - name: Сценарии маршрутизации на основе расположения
+                - name: Сценарии для маршрутизации Location-Based
                   href: ../lync-server-2013-scenarios-for-location-based-routing.md
                   items:
                     - name: Исходящие звонки
@@ -940,24 +940,24 @@
                       href: ../lync-server-2013-delegation.md
                     - name: Групповые звонки.
                       href: ../lync-server-2013-team-calling-with-location-based-routing.md
-                - name: Технические рекомендации по маршрутизации на основе расположения
+                - name: Технические рекомендации по маршрутизации Location-Based
                   href: ../lync-server-2013-technical-considerations-for-location-based-routing.md
-                - name: Поддержка маршрутизации на основе расположения на стороне клиента и сервера
+                - name: Поддержка маршрутизации Location-Based клиентом и сервером
                   href: ../lync-server-2013-client-and-server-support-for-location-based-routing.md
-                - name: 'Возможности, не поддерживаемые маршрутизацией на основе расположения'
+                - name: 'Возможности, не поддерживаемые службой маршрутизации Location-Based'
                   href: ../lync-server-2013-capabilities-not-supported-by-location-based-routing.md
-                - name: Процесс развертывания для маршрутизации на основе расположения
+                - name: Процесс развертывания для маршрутизации Location-Based
                   href: ../lync-server-2013-deployment-process-for-location-based-routing.md
-                - name: Маршрутизация на основе расположения для конференц-связи
+                - name: Маршрутизация Location-Based для конференц-связи
                   href: ../lync-server-2013-location-based-routing-for-conferencing.md
                   items:
-                    - name: Обзор маршрутизации на основе расположения для конференций
+                    - name: Обзор маршрутизации Location-Based для конференц-связи
                       href: ../lync-server-2013-overview-of-location-based-routing-for-conferencing.md
-                    - name: Маршрутизация на основе расположения и передача вызовов Консультативного
+                    - name: Location-Based маршрутизации и передачи вызовов Консультативного
                       href: ../lync-server-2013-location-based-routing-and-consultative-call-transfers.md
-                    - name: Требования для маршрутизации на основе расположения для конференц-связи
+                    - name: Требования к маршрутизации Location-Based для конференц-связи
                       href: ../lync-server-2013-requirements-for-location-based-routing-for-conferencing.md
-                    - name: Настройка маршрутизации на основе расположения для конференц-связи
+                    - name: Настройка маршрутизации Location-Based для конференц-связи
                       href: ../lync-server-2013-configuration-of-location-based-routing-for-conferencing.md
             - name: Планирование функций управления звонками
               href: ../lync-server-2013-planning-for-call-management-features.md
@@ -975,7 +975,7 @@
                       href: ../lync-server-2013-clients-supported-for-call-park.md
                     - name: Планирование мощности для парковки вызовов
                       href: ../lync-server-2013-capacity-planning-for-call-park.md
-                    - name: Процесс развертывания для парковки вызовов
+                    - name: Процесс развертывания для приостановки звонков
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                 - name: Планирование групповой отправки звонков
                   href: ../lync-server-2013-planning-for-group-call-pickup.md
@@ -990,7 +990,7 @@
                       href: ../lync-server-2013-clients-supported-for-group-call-pickup.md
                     - name: Планирование мощности для групповой отправки звонков
                       href: ../lync-server-2013-capacity-planning-for-group-call-pickup.md
-                    - name: Процесс развертывания для группового ответа на звонки
+                    - name: Процесс развертывания компонента группового ответа на звонки
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
                 - name: Планирование групп ответа
                   href: ../lync-server-2013-planning-for-response-groups.md
@@ -1016,7 +1016,7 @@
                       href: ../lync-server-2013-components-used-by-the-announcement-application.md
                     - name: Технические требования для приложения "оповещение"
                       href: ../lync-server-2013-technical-requirements-for-the-announcement-application.md
-                    - name: Процесс развертывания приложения "извещения"
+                    - name: Процесс развертывания приложения "Объявления"
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
             - name: Планирование устойчивости корпоративной голосовой связи
               href: ../lync-server-2013-planning-for-enterprise-voice-resiliency.md
@@ -1285,7 +1285,7 @@
         - name: Развертывание Lync Server 2013
           href: ../lync-server-2013-deploying-lync-server.md
           items:
-            - name: Обзор процедуры развертывания
+            - name: Обзор развертывания
               href: ../lync-server-2013-deployment-overview.md
             - name: Требования к системе
               href: ../lync-server-2013-system-requirements.md
@@ -1346,7 +1346,7 @@
                     - name: Обзор подготовки доменных служб Active Directory
                       href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
                     - name: Подготовка доменных служб Active Directory
-                      href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+                      href: ../lync-server-2013-preparing-active-directory-domain-services.md
                       items:
                         - name: Подготовка схемы Active Directory
                           href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -1418,7 +1418,7 @@
                   href: ../lync-server-2013-installing-optional-software.md
                 - name: Навигация в средстве планирования
                   href: ../lync-server-2013-navigating-the-planning-tool.md
-                - name: Создание начального дизайна
+                - name: Создание начального проекта
                   href: ../lync-server-2013-create-the-initial-topology-design.md
                 - name: Редактирование макета
                   href: ../lync-server-2013-editing-the-design.md
@@ -1561,7 +1561,7 @@
                   href: ../lync-server-2013-start-services-on-the-director.md
                 - name: Проверка директора
                   href: ../lync-server-2013-test-the-director.md
-                - name: Настройка автоматического входа клиента для использования директора
+                - name: Настройка автоматического Sign-In клиента для использования директора
                   href: ../lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md
             - name: Настройка пограничных серверов
               href: ../lync-server-2013-setting-up-edge-servers.md
@@ -1607,7 +1607,7 @@
               items:
                 - name: Настройка политик для управления удаленным доступом пользователей
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: Включение или отключение удаленного доступа пользователей
+                - name: Включение или отключения удаленного доступа пользователей
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
                 - name: Включение или отключение анонимного доступа пользователей
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
@@ -1626,16 +1626,16 @@
                   href: ../lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md
             - name: Публикация сервера Office Web Apps с помощью обратного прокси-сервера
               href: ../lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md
-            - name: Руководство по подготовке к подключению Lync — Skype
+            - name: Руководство по подготовке к подключению к Lync-Skype
               href: ../lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md
               items:
-                - name: Примечание о подключении Lync-Skype для Lync Online
+                - name: Примечание о подключении к Lync-Skype для Lync Online
                   href: ../lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md
                 - name: Доступ к сайту подготовки общедоступной службы обмена мгновенными сообщениями Lync Server
                   href: ../lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md
-                - name: Включение подключения Lync и Skype
+                - name: Включение подключения к Lync-Skype
                   href: ../lync-server-2013-enabling-lync-skype-connectivity.md
-                - name: Использование Lync — подключение к Skype в качестве конечного пользователя
+                - name: Использование Lync-Skype подключения в качестве конечного пользователя
                   href: ../lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md
                 - name: 'Часто задаваемые вопросы: подготовка Lync Server для подключения Skype'
                   href: ../lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md
@@ -1652,7 +1652,7 @@
                   items:
                     - name: Настройка шифрования мультимедиа для общедоступных поставщиков
                       href: ../lync-server-2013-configure-media-encryption-for-public-providers.md
-                    - name: Настройка политик для управления доступом открытых пользователей
+                    - name: Настройка политик для управления общим доступом пользователей
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Настройка Федерации XMPP
                   href: ../lync-server-2013-setting-up-xmpp-federation.md
@@ -1713,7 +1713,7 @@
             - name: Настройка магистральных линий связи
               href: ../lync-server-2013-configuring-trunks.md
               items:
-                - name: Поддержка нескольких магистральных линий связи
+                - name: Поддержка нескольких каналов
                   href: ../lync-server-2013-multiple-trunk-support.md
                 - name: Настройка магистрали с обходом сервера мультимедиа
                   href: ../lync-server-2013-configure-a-trunk-with-media-bypass.md
@@ -1731,7 +1731,7 @@
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md
                         - name: Создание или изменение правила трансляции вручную
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-manually.md
-                - name: Маршрутизация между магистральными системами
+                - name: Маршрутизация между магистралями
                   href: ../lync-server-2013-inter-trunk-routing.md
             - name: Настройка абонентских планов
               href: ../lync-server-2013-configuring-dial-plans.md
@@ -1761,7 +1761,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: Настройка escape-последовательности голосовой почты
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: Просмотр записей использования PSTN
+                - name: Просмотр записей использования ТСОП
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: Настройка маршрутов голосовой связи для исходящих вызовов
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -1853,11 +1853,11 @@
                       href: ../lync-server-2013-configure-network-sites-for-cac.md
                     - name: Связывание подсетей с сетевыми сайтами для контроля допуска звонков
                       href: ../lync-server-2013-associate-subnets-with-network-sites-for-cac.md
-                    - name: Создание связей между областями сети
+                    - name: Создание связей между сетевыми областями
                       href: ../lync-server-2013-create-network-region-links.md
                     - name: Создание маршрутов между межсетевыми областями
                       href: ../lync-server-2013;-create-network-interregion-routes.md
-                    - name: Создание межсайтовых политик сети
+                    - name: Создание политик межсайтового взаимодействия
                       href: ../lync-server-2013-create-network-intersite-policies.md
                     - name: Включение контроля допуска звонков
                       href: ../lync-server-2013-enable-call-admission-control.md
@@ -1866,7 +1866,7 @@
                 - name: Настройка службы Enhanced 9-1-1
                   href: ../lync-server-2013-configure-enhanced-9-1-1.md
                   items:
-                    - name: Настройка маршрута голосовой связи E9 – 1 – 1
+                    - name: Настройка голосового маршрута для E9-1-1
                       href: ../lync-server-2013-configure-an-e9-1-1-voice-route.md
                     - name: Создание политик расположения
                       href: ../lync-server-2013-create-location-policies.md
@@ -1889,7 +1889,7 @@
                     - name: Настройка расширенных функций E9 – 1 – 1
                       href: ../lync-server-2013-configure-advanced-e9-1-1-features.md
                       items:
-                        - name: Настройка приложения SNMP
+                        - name: Настройка SNMP-приложения
                           href: ../lync-server-2013-configure-an-snmp-application.md
                         - name: Настройка службы сведений о дополнительном местоположении
                           href: ../lync-server-2013-configure-a-secondary-location-information-service.md
@@ -1916,14 +1916,14 @@
                           items:
                             - name: Связывание подсетей с сетевыми сайтами для обхода сервера-посредника
                               href: ../lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md
-                - name: Настройка маршрутизации на основе расположения
+                - name: Настройка маршрутизации Location-Based
                   href: ../lync-server-2013-configuring-location-based-routing.md
                   items:
                     - name: Настройка корпоративной голосовой связи
                       href: ../lync-server-2013-configuring-enterprise-voice.md
                     - name: 'Развертывание областей сети, сайтов и подсетей'
                       href: ../lync-server-2013-deploying-network-regions-sites-and-subnets.md
-                    - name: Включение маршрутизации на основе расположения
+                    - name: Включение маршрутизации Location-Based
                       href: ../lync-server-2013-enabling-location-based-routing.md
             - name: Развертывание функций управления звонками
               href: ../lync-server-2013-deploying-call-management-features.md
@@ -1933,38 +1933,38 @@
                   items:
                     - name: Необходимые условия и права пользователя для настройки парковки вызовов
                       href: ../lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md
-                    - name: Процесс развертывания для парковки вызовов
+                    - name: Процесс развертывания для приостановки звонков
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                     - name: Настройка таблицы орбит парковки вызовов
                       href: ../lync-server-2013-configure-the-call-park-orbit-table.md
                       items:
-                        - name: Создание или изменение диапазона орбит для парковки вызовов
+                        - name: Создание или изменение диапазона орбит для приостановки звонков
                           href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
-                    - name: Настройка параметров парковки вызовов
+                    - name: Настройка параметров приостановки звонков
                       href: ../lync-server-2013-configure-call-park-settings.md
-                    - name: Настройка музыки парковки вызовов на удержании
+                    - name: Настройка функции воспроизведения музыки для режима удержания при приостановке звонка
                       href: ../lync-server-2013-customize-call-park-music-on-hold.md
-                    - name: Включение парковки вызовов для пользователей
+                    - name: Включение для пользователей приостановки звонков
                       href: ../lync-server-2013-enable-call-park-for-users.md
-                    - name: Проверка правил нормализации для парковки вызовов
+                    - name: Проверка правил нормализации для приостановки звонков
                       href: ../lync-server-2013-verify-normalization-rules-for-call-park.md
-                    - name: Необязательно Проверка развертывания парковки вызовов
+                    - name: Проверка развертывания приостановки звонков (необязательно)
                       href: ../lync-server-2013-optional-verify-call-park-deployment.md
                 - name: Настройка групповой отправки звонков
                   href: ../lync-server-2013-configuring-group-call-pickup.md
                   items:
                     - name: Необходимые условия и права пользователя для настройки групповой отправки звонков
                       href: ../lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md
-                    - name: Процесс развертывания для группового ответа на звонки
+                    - name: Процесс развертывания компонента группового ответа на звонки
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
-                    - name: Развертывание средства SEFAUtil
+                    - name: Развертывание инструмента SEFAUtil
                       href: ../lync-server-2013-deploy-the-sefautil-tool.md
                     - name: Настройка номеров групп для ответа на звонки
                       href: ../lync-server-2013-configure-call-pickup-group-numbers.md
                       items:
                         - name: Создание или изменение диапазона номеров для группового ответа на звонки
                           href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
-                    - name: Включение групповой отправки звонков для пользователей и назначение номера группы
+                    - name: Включение группового ответа на звонки для пользователей и назначение группового номера
                       href: ../lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md
                     - name: Передача пользователям назначения группового ответа на звонки
                       href: ../lync-server-2013-communicate-group-call-pickup-assignment-to-users.md
@@ -1982,16 +1982,16 @@
                     - name: Создание групп агентов группы ответа
                       href: ../lync-server-2013-create-response-group-agent-groups.md
                       items:
-                        - name: Создание или изменение группы агентов
+                        - name: Создание или изменение группы агента
                           href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: Создание очередей группы ответа
                       href: ../lync-server-2013-create-response-group-queues.md
                       items:
                         - name: Создание или изменение очереди
                           href: ../lync-server-2013-create-or-modify-a-queue.md
-                    - name: Необязательно Определение рабочих часов для группы ответа
+                    - name: Определение рабочих часов для группы ответа (необязательно)
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Необязательно Определение наборов праздников для группы ответа
+                    - name: Определение набора праздников группы ответа (необязательно)
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: Создание рабочих процессов группы ответа
                       href: ../lync-server-2013-create-response-group-workflows.md
@@ -2004,27 +2004,27 @@
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
                     - name: Управление параметрами группы ответа уровня приложения
                       href: ../lync-server-2013-managing-application-level-response-group-settings.md
-                    - name: Необязательно Проверка развертывания группы ответа
+                    - name: Проверка развертывания группы ответа (необязательно)
                       href: ../lync-server-2013-optional-verify-response-group-deployment.md
                 - name: Настройка объявлений для неназначенных номеров
                   href: ../lync-server-2013-configuring-announcements-for-unassigned-numbers.md
                   items:
                     - name: Необходимые условия и роли для настройки объявлений
                       href: ../lync-server-2013-announcement-configuration-prerequisites-and-roles.md
-                    - name: Процесс развертывания приложения "извещения"
+                    - name: Процесс развертывания приложения "Объявления"
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
-                    - name: Создание извещения
+                    - name: Создание объявления
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: Настройка таблицы неназначенных номеров
                       href: ../lync-server-2013-configure-the-unassigned-number-table.md
                       items:
                         - name: Создание или изменение диапазона неназначенных номеров
                           href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
-                    - name: Необязательно Проверка развертывания объявлений
+                    - name: Проверка развертывания объявлений (необязательно)
                       href: ../lync-server-2013-optional-verify-announcement-deployment.md
             - name: Включение пользователей для корпоративной голосовой связи
               href: ../lync-server-2013-enable-users-for-enterprise-voice.md
-            - name: Развертывание представления общей линии
+            - name: Развертывание распределенной линии
               href: ../lync-server-2013-deploy-shared-line-appearance.md
         - name: Развертывание конференц-связи
           href: ../lync-server-2013-deploying-conferencing.md
@@ -2177,7 +2177,7 @@
                               href: ../lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md
                         - name: Настройка политик архивации при использовании интеграции с Exchange Server
                           href: ../lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md
-                - name: Включение или отключение отправки заявления об отказе от архивации федеративным партнерам
+                - name: Включение и отключение отправки отказа от архивирования федеративным партнерам
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
         - name: Планирование и развертывание видео
           href: ../lync-server-2013-planning-and-deploying-video.md
@@ -2343,7 +2343,7 @@
                   items:
                     - name: Использование средства настройки Office (OCT)
                       href: ../lync-server-2013-using-the-office-customization-tool-oct.md
-                    - name: 'Использование файла config. XML для выполнения задач установки [W15]'
+                    - name: 'Использование Config.xml для выполнения задач установки [W15]'
                       href: ../lync-server-2013-using-config-xml-to-perform-installation-tasks.md
                     - name: 'Использование параметров командной строки программы установки [W15]'
                       href: ../lync-server-2013-using-setup-command-line-options.md
@@ -2626,7 +2626,7 @@
                   items:
                     - name: Загрузка и установка модуля соединителя Skype для бизнеса Online
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Загрузка и установка помощника по входу в Microsoft Online Services
+                    - name: Загрузка и установка помощника по Sign-In Microsoft Online Services
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: 'Загрузка и установка Windows PowerShell 3,0'
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2711,9 +2711,9 @@
                 - name: Диагностика и устранение проблем с подключением к Skype для бизнеса Online
                   href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                   items:
-                    - name: 'Ошибка импорта модуля, вызванная политикой выполнения Windows PowerShell'
+                    - name: 'Import-Module ошибка, вызванная политикой выполнения Windows PowerShell'
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: 'Ошибка Import: Module, вызванная неверной версией Windows PowerShell'
+                    - name: 'Import-Module ошибка, вызванная неверной версией Windows PowerShell'
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: Не удалось подключиться к серверу Live ID
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2747,9 +2747,9 @@
             - name: 'Этап 1: Планирование миграции с Lync Server 2010'
               href: ../phase-1-plan-your-migration-from-lync-server-2010.md
               items:
-                - name: Миграция пользователей
+                - name: Перенос пользователей
                   href: ../user-migration.md
-                - name: Перенос серверов архивации и мониторинга
+                - name: Перенос серверов архивирования и мониторинга
                   href: ../migrating-archiving-and-monitoring-servers.md
                 - name: Перенос серверов группового чата
                   href: ../migrating-group-chat-servers.md
@@ -2757,7 +2757,7 @@
                   href: ../administering-servers-after-migration.md
                 - name: Перенос нескольких сайтов и пулов
                   href: ../migrating-multiple-sites-and-pools.md
-                - name: Миграция Федерации XMPP
+                - name: Перенос федерации XMPP
                   href: ../migrating-xmpp-federation.md
             - name: 'Этап 2: подготовка к миграции'
               href: ../phase-2-prepare-for-migration.md
@@ -2783,7 +2783,7 @@
                   href: ../download-topology-from-existing-deployment.md
                 - name: Развертывание пилотного пула Lync Server 2013
                   href: ../deploy-lync-server-2013-pilot-pool.md
-                - name: Проверка совместного использования пилотного пула с устаревшим пулом
+                - name: Проверка возможности совместного использования пилотного и старого пула
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
                 - name: Подключение пилотного пула к старым пограничным серверам
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
@@ -2794,7 +2794,7 @@
               items:
                 - name: Просмотр текущих пользователей в пуле Lync Server 2010
                   href: ../view-current-users-in-lync-server-2010-pool.md
-                - name: 'Проверка того, что репликация пользователя завершена'
+                - name: Проверка выполнения пользовательской репликации
                   href: ../verify-user-replication-has-completed.md
                 - name: Перемещение одного пользователя в пилотный пул
                   href: ../move-a-single-user-to-the-pilot-pool.md
@@ -2805,14 +2805,14 @@
               items:
                 - name: Развертывание пилотного пограничного сервера
                   href: ../deploy-pilot-edge-server.md
-                - name: Проверка параметров конфигурации
+                - name: Проверка параметров настройки
                   href: ../verify-configuration-settings.md
-            - name: 'Этап 6: переход от пилотного развертывания к рабочей среде'
+            - name: 'Этап 6: переход от пилотного развертывания к рабочей версии'
               href: ../phase-6-move-from-pilot-deployment-into-production.md
               items:
-                - name: Настройка маршрутов Федерации и трафика мультимедиа
+                - name: Настройка маршрутов федерации и трафика мультимедиа
                   href: ../configure-federation-routes-and-media-traffic.md
-                - name: Проверка Федерации и удаленного доступа для внешних пользователей
+                - name: Проверка федерации и удаленного доступа для внешних пользователей
                   href: ../verify-federation-and-remote-access-for-external-users.md
                 - name: Изменение простых URL-адресов после миграции
                   href: ../change-simple-urls-after-migration.md
@@ -2820,28 +2820,28 @@
                   href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Настройка шлюза XMPP в Lync Server 2013
                   href: ../configure-xmpp-gateway-on-lync-server-2013.md
-            - name: 'Этап 7: выполнение задач, выполняемых после миграции'
+            - name: 'Этап 7: необходимые действия после миграции'
               href: ../phase-7-complete-post-migration-tasks.md
               items:
                 - name: Перенос существующих собраний и содержимого собраний
                   href: ../migrate-existing-meetings-and-meeting-content.md
-                - name: Перенос номеров доступа для телефонного подключения
+                - name: Перенос номеров доступа
                   href: ../migrate-dial-in-access-numbers.md
-                - name: Миграция параметров приложения парковки вызовов
+                - name: Перенос параметров приложения приостановки звонков
                   href: ../migrate-call-park-application-settings.md
-                - name: Миграция групп ответа
+                - name: Перенос групп ответа
                   href: ../migrate-response-groups.md
-                - name: Миграция адресной книги
+                - name: Перенос адресной книги
                   href: ../migrate-address-book.md
-                - name: Настройка страницы присоединения к собранию
+                - name: Конфигурация страницы присоединения к собранию
                   href: ../configure-the-meeting-join-page.md
-                - name: Удаление устаревших серверов архивации и мониторинга
+                - name: Удаление старых серверов архивирования и мониторинга
                   href: ../remove-legacy-archiving-and-monitoring-servers.md
-                - name: Настройка серверов доверенных приложений
+                - name: Настройка доверенных серверов приложений
                   href: ../configure-trusted-application-servers.md
                 - name: Развертывание клиентов Lync Server 2013
                   href: ../deploy-lync-server-2013-clients.md
-                - name: Подключение устройства для обеспечения связи в филиалах
+                - name: Подключение Survivable Branch Appliance
                   href: ../connect-a-survivable-branch-appliance.md
                 - name: Настройка мониторинга SCOM
                   href: ../configure-scom-monitoring.md
@@ -2849,7 +2849,7 @@
                   href: ../migrate-common-area-phones.md
                 - name: Перенос аналоговых устройств
                   href: ../migrate-analog-devices.md
-            - name: 'Этап 8: списание устаревших пулов'
+            - name: 'Этап 8: ликвидация старых пулов'
               href: ../phase-8-decommission-legacy-pools.md
               items:
                 - name: Обновление записей DNS SRV
@@ -2858,22 +2858,22 @@
                   href: ../move-the-lync-server-2010-central-management-server-to-lync-server-2013.md
                 - name: Перемещение каталогов конференций
                   href: ../move-lync-server-2010-conference-directories-to-lync-server-2013.md
-                - name: Удаление связи сервера архивации
+                - name: Удаление связи с сервером архивирования
                   href: ../remove-the-archiving-server-association.md
-                - name: Удаление сопоставления сервера мониторинга
+                - name: Удаление связи с сервером мониторинга
                   href: ../remove-the-monitoring-server-association.md
                 - name: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
                   href: ../remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md
                   items:
                     - name: Сброс контроля допуска звонков
                       href: ../reset-call-admission-control.md
-                    - name: Предотвращение сеансов для служб
+                    - name: Запрет сеансов для служб
                       href: ../prevent-sessions-for-services.md
                     - name: Остановка служб Lync Server 2010
                       href: ../stop-lync-server-2010-services.md
                     - name: Удаление сервера переднего плана из пула
                       href: ../remove-a-front-end-server-from-a-pool.md
-                    - name: Удаление внешнего интерфейса пула или сервера Standard Edition
+                    - name: Удаление пула переднего плана или сервера Standard Edition
                       href: ../remove-front-end-pool-or-standard-edition-server.md
                 - name: Удаление экземпляров и баз данных SQL Server на внутреннем сервере
                   href: ../remove-sql-server-instances-and-databases-on-the-back-end-server.md
@@ -2882,57 +2882,57 @@
                       href: ../remove-the-sql-server-database-for-a-front-end-pool.md
                     - name: Удаление базы данных SQL Server для сервера мониторинга
                       href: ../remove-the-sql-server-database-for-a-monitoring-server.md
-                    - name: Удаление базы данных SQL Server для сервера архивации
+                    - name: Удаление базы данных SQL Server для сервера архивирования
                       href: ../remove-the-sql-server-database-for-an-archiving-server.md
         - name: Миграция с Office Communications Server 2007 R2 на Lync Server 2013
           href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
           items:
             - name: Перед началом миграции
-              href: ../before-you-begin-the-migration_1.md
+              href: ../before-you-begin-the-migration.md
               items:
                 - name: Процесс миграции
-                  href: ../migration-process_1.md
+                  href: ../migration-process.md
                 - name: Этапы миграции
-                  href: ../migration-phases_1.md
+                  href: ../migration-phases.md
             - name: 'Этап 1: Планирование миграции с Office Communications Server 2007 R2'
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
-                - name: Миграция пользователей
-                  href: ../user-migration_1.md
-                - name: Перенос серверов архивации и мониторинга
-                  href: ../migrating-archiving-and-monitoring-servers_1.md
+                - name: Перенос пользователей
+                  href: ../user-migration.md
+                - name: Перенос серверов архивирования и мониторинга
+                  href: ../migrating-archiving-and-monitoring-servers.md
                 - name: Администрирование серверов после миграции
-                  href: ../administering-servers-after-migration_1.md
+                  href: ../administering-servers-after-migration.md
                 - name: Перенос нескольких сайтов и пулов
-                  href: ../migrating-multiple-sites-and-pools_1.md
-                - name: Миграция Федерации XMPP
-                  href: ../migrating-xmpp-federation_1.md
+                  href: ../migrating-multiple-sites-and-pools.md
+                - name: Перенос федерации XMPP
+                  href: ../migrating-xmpp-federation.md
             - name: 'Этап 2: подготовка к миграции'
-              href: ../phase-2-prepare-for-migration_1.md
+              href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Применение обновлений Office Communications Server 2007 R2
                   href: ../apply-office-communications-server-2007-r2-updates.md
                 - name: Настройка DNS-записей для развертывания пилотного пула
-                  href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+                  href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: Запуск анализатора соответствия рекомендациям
-                  href: ../run-best-practices-analyzer_1.md
+                  href: ../run-best-practices-analyzer.md
                 - name: Резервное копирование систем и данных
-                  href: ../back-up-systems-and-data_1.md
+                  href: ../back-up-systems-and-data.md
                 - name: Настройка клиентов для миграции
-                  href: ../configure-clients-for-migration_1.md
+                  href: ../configure-clients-for-migration.md
                 - name: Проверка среды Office Communications Server 2007 R2
                   href: ../verify-office-communications-server-2007-r2-environment.md
             - name: 'Этап 3: Развертывание пилотного пула Lync Server 2013'
-              href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+              href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: Подготовка Active Directory для Lync Server 2013
                   href: ../prepare-active-directory-for-lync-server-2013.md
                 - name: Установка средств администрирования Lync Server
                   href: ../install-lync-server-administration-tools.md
                 - name: Развертывание пилотного пула Lync Server 2013
-                  href: ../deploy-lync-server-2013-pilot-pool_1.md
-                - name: Проверка совместного использования пилотного пула с устаревшим пулом
-                  href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+                  href: ../deploy-lync-server-2013-pilot-pool.md
+                - name: Проверка возможности совместного использования пилотного и старого пула
+                  href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: 'Этап 4: объединение топологий'
               href: ../phase-4-merge-topologies.md
               items:
@@ -2948,56 +2948,56 @@
               href: ../phase-5-configure-the-pilot-pool.md
               items:
                 - name: Подключение пилотного пула к старым пограничным серверам
-                  href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+                  href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
                   href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
-                - name: Проверка параметров конфигурации
-                  href: ../verify-configuration-settings_1.md
+                - name: Проверка параметров настройки
+                  href: ../verify-configuration-settings.md
                 - name: Настройка политик доступа и сертификатов шлюза XMPP
-                  href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+                  href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 'Этап 6: перемещение пользователей в пилотный пул'
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
-                - name: 'Проверка того, что репликация пользователя завершена'
-                  href: ../verify-user-replication-has-completed_1.md
+                - name: Проверка выполнения пользовательской репликации
+                  href: ../verify-user-replication-has-completed.md
                 - name: Перемещение одного пользователя в пилотный пул
-                  href: ../move-a-single-user-to-the-pilot-pool_1.md
+                  href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: Перемещение нескольких пользователей в пилотный пул
-                  href: ../move-multiple-users-to-the-pilot-pool_1.md
+                  href: ../move-multiple-users-to-the-pilot-pool.md
             - name: 'Этап 7: Добавление пограничного сервера Lync Server 2013 в пилотный пул'
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: Развертывание пилотного пограничного сервера
-                  href: ../deploy-pilot-edge-server_1.md
+                  href: ../deploy-pilot-edge-server.md
                 - name: Проверка репликации параметров конфигурации
                   href: ../validate-replication-of-configuration-settings.md
             - name: 'Этап 8: переход от пилотного развертывания к рабочей среде'
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
-                - name: Настройка маршрутов Федерации и трафика мультимедиа
-                  href: ../configure-federation-routes-and-media-traffic_1.md
+                - name: Настройка маршрутов федерации и трафика мультимедиа
+                  href: ../configure-federation-routes-and-media-traffic.md
                 - name: Перемещение оставшихся пользователей на Lync Server 2013
-                  href: ../move-remaining-users-to-lync-server-2013_1.md
+                  href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Настройка шлюза XMPP в Lync Server 2013
-                  href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+                  href: ../configure-xmpp-gateway-on-lync-server-2013.md
             - name: 'Этап 9: выполнение задач, выполняемых после миграции'
               href: ../phase-9-complete-post-migration-tasks.md
               items:
-                - name: Миграция групп ответа
-                  href: ../migrate-response-groups_1.md
-                - name: Перенос номеров доступа для телефонного подключения
-                  href: ../migrate-dial-in-access-numbers_1.md
+                - name: Перенос групп ответа
+                  href: ../migrate-response-groups.md
+                - name: Перенос номеров доступа
+                  href: ../migrate-dial-in-access-numbers.md
                 - name: Включение Exchange 2013 Outlook Web App и интеграция обмена мгновенными сообщениями
                   href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
-                - name: Миграция адресной книги
-                  href: ../migrate-address-book_1.md
+                - name: Перенос адресной книги
+                  href: ../migrate-address-book.md
                 - name: Включение удаленного управления звонками
                   href: ../enable-remote-call-control.md
                   items:
                     - name: Удаление авторизованной записи узла
                       href: ../remove-an-authorized-host-entry.md
-                - name: Удаление устаревших серверов архивации и мониторинга
-                  href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+                - name: Удаление старых серверов архивирования и мониторинга
+                  href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: Перенос сервера-посредника
                   href: ../migrate-mediation-server.md
                   items:
@@ -3007,12 +3007,12 @@
                       href: ../change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md
                     - name: Перевод совмещенного сервера-посредника на автономный сервер-посредник (необязательно)
                       href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
-                - name: Настройка серверов доверенных приложений
-                  href: ../configure-trusted-application-servers_1.md
-                - name: Настройка страницы присоединения к собранию
-                  href: ../configure-the-meeting-join-page_1.md
+                - name: Настройка доверенных серверов приложений
+                  href: ../configure-trusted-application-servers.md
+                - name: Конфигурация страницы присоединения к собранию
+                  href: ../configure-the-meeting-join-page.md
                 - name: Развертывание клиентов Lync Server 2013
-                  href: ../deploy-lync-server-2013-clients_1.md
+                  href: ../deploy-lync-server-2013-clients.md
                 - name: Перемещение контактных объектов единой системы обмена сообщениями Exchange
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: 'Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула'
@@ -3023,7 +3023,7 @@
                 - name: Перемещение каталогов конференций
                   href: ../move-conference-directories.md
                 - name: Обновление записей DNS SRV
-                  href: ../update-dns-srv-records_1.md
+                  href: ../update-dns-srv-records.md
                 - name: Списание серверов и пулов
                   href: ../decommissioning-servers-and-pools.md
                 - name: Удаление BackCompatSite
@@ -3037,7 +3037,7 @@
               href: ../migration-process-details.md
             - name: Рекомендации по сосуществованию
               href: ../coexistence-considerations.md
-    - name: Операции
+    - name: Operations
       href: ../lync-server-2013-operations.md
       items:
         - name: Руководство по работе
@@ -3319,7 +3319,7 @@
                       href: ../lync-server-2013-configure-telephony-for-a-user.md
                     - name: Перемещение пользователей в другой пул
                       href: ../lync-server-2013-move-users-to-another-pool.md
-                - name: Управление политикой внешнего доступа для Организации
+                - name: Управление политикой внешнего доступа для организации
                   href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
                   items:
                     - name: Настройка политик для управления доступом федеративных пользователей
@@ -3328,7 +3328,7 @@
                       href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
                     - name: Настройка политик для управления удаленным доступом пользователей
                       href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                    - name: Настройка политик для управления доступом открытых пользователей
+                    - name: Настройка политик для управления общим доступом пользователей
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                     - name: Назначение политики доступа внешних пользователей пользователю с включенной поддержкой Lync
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3346,7 +3346,7 @@
                       href: ../lync-server-2013-assign-a-per-user-conferencing-policy.md
                     - name: Назначение политики версий клиентов на уровне пользователей
                       href: ../lync-server-2013-assign-a-per-user-client-version-policy.md
-                    - name: Назначение политики ПИН-кодов для отдельных пользователей
+                    - name: Назначение политики ПИН-кодов уровня пользователя
                       href: ../lync-server-2013-assign-a-per-user-pin-policy.md
                     - name: Назначение политики доступа внешних пользователей пользователю с включенной поддержкой Lync
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3373,7 +3373,7 @@
               href: ../lync-server-2013-view-details-about-a-service.md
             - name: Запуск и остановка служб Lync Server 2013
               href: ../lync-server-2013-start-or-stop-lync-server-services.md
-            - name: Предотвращение сеансов для служб
+            - name: Запрет сеансов для служб
               href: ../lync-server-2013-prevent-sessions-for-services.md
             - name: Обновление или обновление серверов переднего плана
               href: ../lync-server-2013-upgrade-or-update-front-end-servers.md
@@ -3505,7 +3505,7 @@
             - name: Настройка магистральных линий связи
               href: ../lync-server-2013-configuring-trunks.md
               items:
-                - name: Поддержка нескольких магистральных линий связи
+                - name: Поддержка нескольких каналов
                   href: ../lync-server-2013-multiple-trunk-support.md
                 - name: Маршрутизация по магистрали
                   href: ../lync-server-2013-intertrunk-routing.md
@@ -3537,7 +3537,7 @@
                       href: ../lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md
                     - name: Настройка escape-последовательности голосовой почты
                       href: ../lync-server-2013-configuring-voice-mail-escape.md
-                - name: Просмотр записей использования PSTN
+                - name: Просмотр записей использования ТСОП
                   href: ../lync-server-2013-view-pstn-usage-records.md
                 - name: Настройка маршрутов голосовой связи для исходящих вызовов
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
@@ -3589,13 +3589,13 @@
                 - name: Настройка добавочных номеров телефонов для вызовов парковки
                   href: ../lync-server-2013-configure-phone-number-extensions-for-parking-calls.md
                   items:
-                    - name: Создание или изменение диапазона орбит для парковки вызовов
+                    - name: Создание или изменение диапазона орбит для приостановки звонков
                       href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
                     - name: Удаление диапазона орбит парковки вызовов
                       href: ../lync-server-2013-delete-a-call-park-orbit-range.md
-                - name: Настройка параметров парковки вызовов
+                - name: Настройка параметров приостановки звонков
                   href: ../lync-server-2013-configure-call-park-settings.md
-                - name: Настройка музыки парковки вызовов на удержании
+                - name: Настройка функции воспроизведения музыки для режима удержания при приостановке звонка
                   href: ../lync-server-2013-customize-call-park-music-on-hold.md
                 - name: Управление приостановкой вызовов во время аварийного восстановления
                   href: ../lync-server-2013-manage-call-park-during-disaster-recovery.md
@@ -3631,7 +3631,7 @@
                 - name: Управление группами агентов группы ответа
                   href: ../lync-server-2013-managing-response-group-agent-groups.md
                   items:
-                    - name: Создание или изменение группы агентов
+                    - name: Создание или изменение группы агента
                       href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: удалить группу агентов.
                       href: ../lync-server-2013-delete-an-agent-group.md
@@ -3647,9 +3647,9 @@
                   items:
                     - name: Создание потоков обработки вызовов интерактивного речевого ответа
                       href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
-                    - name: Необязательно Определение рабочих часов для группы ответа
+                    - name: Определение рабочих часов для группы ответа (необязательно)
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Необязательно Определение наборов праздников для группы ответа
+                    - name: Определение набора праздников группы ответа (необязательно)
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: Создание или изменение рабочего процесса
                       href: ../lync-server-2013-create-or-modify-a-workflow.md
@@ -3679,7 +3679,7 @@
                 - name: Настройка объявлений
                   href: ../lync-server-2013-configure-announcements.md
                   items:
-                    - name: Создание извещения
+                    - name: Создание объявления
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: Удаление извещения
                       href: ../lync-server-2013-delete-an-announcement.md
@@ -3695,7 +3695,7 @@
         - name: Управление собраниями и конференциями
           href: ../lync-server-2013-managing-meetings-and-conferences.md
           items:
-            - name: Параметры конфигурации собраний
+            - name: Параметры конфигурации собрания
               href: ../lync-server-2013-meeting-configuration-settings.md
               items:
                 - name: Просмотр параметров конфигурации собраний
@@ -3881,7 +3881,7 @@
         - name: Управление федерациями и внешним доступом к Lync Server 2013
           href: ../lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md
           items:
-            - name: Управление политикой внешнего доступа для Организации
+            - name: Управление политикой внешнего доступа для организации
               href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
               items:
                 - name: Настройка политик для управления доступом федеративных пользователей
@@ -3890,7 +3890,7 @@
                   href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
                 - name: Настройка политик для управления удаленным доступом пользователей
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: Настройка политик для управления доступом открытых пользователей
+                - name: Настройка политик для управления общим доступом пользователей
                   href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Назначение политики доступа внешних пользователей пользователю с включенной поддержкой Lync
                   href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3901,29 +3901,29 @@
                       href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
                     - name: Сброс глобальной политики для доступа внешних пользователей
                       href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
-            - name: Управление конфигурацией пограничного сервера доступа для Организации
+            - name: Управление конфигурацией пограничного сервера в организации
               href: ../lync-server-2013-manage-access-edge-configuration-for-your-organization.md
               items:
-                - name: Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями
+                - name: Включение или отключение федерации и подключение для общедоступного обмена мгновенными сообщениями
                   href: ../lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md
-                - name: Включение или отключение обнаружения партнеров Федерации
+                - name: Включение или отключение обнаружения федеративных партнеров
                   href: ../lync-server-2013-enable-or-disable-discovery-of-federation-partners.md
-                - name: Включение или отключение отправки заявления об отказе от архивации федеративным партнерам
+                - name: Включение и отключение отправки отказа от архивирования федеративным партнерам
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
-                - name: Включение или отключение удаленного доступа пользователей
+                - name: Включение или отключения удаленного доступа пользователей
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
                 - name: Включение или отключение анонимного доступа пользователей
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: Назначение политик конференц-связи для поддержки анонимных пользователей
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
-            - name: Управление федеративными доменами SIP для Организации
+            - name: Управление федеративными доменами SIP для организации
               href: ../lync-server-2013-manage-sip-federated-domains-for-your-organization.md
               items:
                 - name: Настройка поддержки для разрешенных внешних доменов
                   href: ../lync-server-2013-configure-support-for-allowed-external-domains.md
                 - name: Настройка поддержки заблокированных внешних доменов
                   href: ../lync-server-2013-configure-support-for-blocked-external-domains.md
-            - name: Управление федеративными поставщиками SIP для Организации
+            - name: Управление федеративными поставщиками SIP в организации
               href: ../lync-server-2013-manage-sip-federated-providers-for-your-organization.md
               items:
                 - name: Создание или изменение общедоступных федеративных поставщиков SIP
@@ -3979,7 +3979,7 @@
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: Включение или отключение критического режима для блокировки и разрешения сеансов обмена мгновенными сообщениями и веб-конференций в случае сбоя архивации
                   href: ../lync-server-2013-enable-disable-critical-mode.md
-                - name: Включение или отключение отправки заявления об отказе от архивации федеративным партнерам
+                - name: Включение и отключение отправки отказа от архивирования федеративным партнерам
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Включение или отключение интеграции с хранилищем Exchange
                   href: ../lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md
@@ -3995,7 +3995,7 @@
             - name: Управление сертификатами для рабочих процессов
               href: ../lync-server-2013-managing-certificates-for-operational-processes.md
               items:
-                - name: Размещение сертификатов AV и OAuth с помощью Set — CsCertificate
+                - name: Промежуточное хранение с использованием сертификатов AV и OAuth в Set-CsCertificate
                   href: 'https://technet.microsoft.com/library/Gg398518(v=OCS.15)'
             - name: Управление проверкой подлинности между серверами (OAuth) и партнерским приложением
               href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
@@ -4035,12 +4035,12 @@
                       href: ../lync-server-2013-modify-an-existing-pin-policy.md
                     - name: Удаление политики ПИН-кодов
                       href: ../lync-server-2013-delete-a-pin-policy.md
-                    - name: Назначение политики ПИН-кодов для отдельных пользователей
+                    - name: Назначение политики ПИН-кодов уровня пользователя
                       href: ../lync-server-2013-assign-a-per-user-pin-policy.md
                 - name: Управление ПИН-кодами пользователей
                   href: ../lync-server-2013-managing-user-pins.md
                   items:
-                    - name: Установка ПИН-кода для конференц-связи с телефонным подключением пользователя
+                    - name: Установка ПИН-кода пользователя для конференц-связи с телефонным подключением
                       href: ../lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md
                     - name: Просмотр сведений о ПИН-коде пользователя
                       href: ../lync-server-2013-view-user-pin-information.md
@@ -4186,33 +4186,33 @@
                 - name: Командлеты Windows PowerShell для управления адресной книгой
                   href: ../lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
                   items:
-                    - name: New – CsAddressBookConfiguration для управления адресной книгой
+                    - name: New-CsAddressBookConfiguration для управления адресной книгой
                       href: ../lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
-                    - name: Set – CsAddressBookConfiguration для управления адресной книгой
+                    - name: Set-CsAddressBookConfiguration для управления адресной книгой
                       href: ../lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
-                    - name: Get – CsAddressBookConfiguration для управления адресной книгой
+                    - name: Get-CsAddressBookConfiguration для управления адресной книгой
                       href: ../lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md
-                    - name: Remove – CsAddressBookConfiguration для управления адресной книгой
+                    - name: Remove-CsAddressBookConfiguration для управления адресной книгой
                       href: ../lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md
                     - name: Test-CsAddressBookService для управления адресной книгой
                       href: ../lync-server-2013-test-csaddressbookservice-for-address-book-management.md
                     - name: Test-CsAddressBookWebQuery для управления адресной книгой
                       href: ../lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md
-                    - name: Update — CsAddressBook для управления адресной книгой
+                    - name: Update-CsAddressBook для управления адресной книгой
                       href: ../lync-server-2013-update-csaddressbook-for-address-book-management.md
-                    - name: New – CsClientPolicy для управления адресной книгой
+                    - name: New-CsClientPolicy для управления адресной книгой
                       href: ../lync-server-2013-new-csclientpolicy-for-address-book-management.md
-                    - name: Set – CsClientPolicy для управления адресной книгой
+                    - name: Set-CsClientPolicy для управления адресной книгой
                       href: ../lync-server-2013-set-csclientpolicy-for-address-book-management.md
-                    - name: Get – CsService для управления адресной книгой
+                    - name: Get-CsService для управления адресной книгой
                       href: ../lync-server-2013-get-csservice-for-address-book-management.md
-                    - name: New – CsWebServiceConfiguration для управления адресной книгой
+                    - name: New-CsWebServiceConfiguration для управления адресной книгой
                       href: ../lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
-                    - name: Get – CsWebServiceConfiguration для управления адресной книгой
+                    - name: Get-CsWebServiceConfiguration для управления адресной книгой
                       href: ../lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
-                    - name: Set – CsWebServiceConfiguration для управления адресной книгой
+                    - name: Set-CsWebServiceConfiguration для управления адресной книгой
                       href: ../lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md
-                    - name: Remove – CsWebServiceConfiguration для управления адресной книгой
+                    - name: Remove-CsWebServiceConfiguration для управления адресной книгой
                       href: ../lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md
             - name: Изменение URL-адреса веб-служб
               href: ../lync-server-2013-change-the-web-services-url.md
@@ -4379,7 +4379,7 @@
               items:
                 - name: Использование панели мониторинга
                   href: ../lync-server-2013-using-the-monitoring-dashboard.md
-                - name: Отчеты об использовании системы
+                - name: Отчеты по использованию системы
                   href: ../lync-server-2013-system-usage-reports.md
                   items:
                     - name: Отчет о регистрации пользователей
@@ -4505,12 +4505,12 @@
     - name: Справочник по схеме
       href: ../lync-server-2013-schema-reference.md
       items:
-        - name: Схема базы данных регистрации вызовов (CDR)
+        - name: Схема базы данных регистрации звонков (CDR)
           href: ../lync-server-2013-call-detail-recording-cdr-database-schema.md
           items:
-            - name: Список таблиц CDR
+            - name: Список таблиц регистрации звонков
               href: ../lync-server-2013-list-of-cdr-tables.md
-            - name: Сведения о таблице CDR
+            - name: Сведения о таблице регистрации звонков
               href: ../lync-server-2013-cdr-table-details.md
               items:
                 - name: Таблица Application
@@ -4649,9 +4649,9 @@
         - name: Схема базы данных качества взаимодействия (QoE)
           href: ../lync-server-2013-quality-of-experience-qoe-database-schema.md
           items:
-            - name: Список таблиц QoE
+            - name: Список таблиц качества взаимодействия
               href: ../lync-server-2013-list-of-qoe-tables.md
-            - name: Сведения о таблице QoE
+            - name: Данные таблицы качества взаимодействия
               href: ../lync-server-2013-qoe-table-details.md
               items:
                 - name: Таблица Таблица appliedbandwidthsource
@@ -4724,7 +4724,7 @@
                   href: ../lync-server-2013-videometricsthreshold-table.md
                 - name: Таблица Таблица videostream
                   href: ../lync-server-2013-videostream-table.md
-            - name: Сведения о представлении QoE
+            - name: Данные представлений о качестве взаимодействия
               href: ../lync-server-2013-qoe-view-details.md
               items:
                 - name: Представление Аудиостреамдетаил
@@ -4739,25 +4739,25 @@
                   href: ../lync-server-2013-useragent-view.md
                 - name: Представление Видеостреамдетаил
                   href: ../lync-server-2013-videostreamdetail-view.md
-            - name: Примеры запросов к базе данных QoE
+            - name: Примеры запросов к базе данных качества взаимодействия
               href: ../lync-server-2013-sample-qoe-database-queries.md
         - name: Схема базы данных сохраняемого чата
           href: ../lync-server-2013-persistent-chat-database-schema.md
           items:
             - name: Список таблиц сервера сохраняемого чата
               href: ../lync-server-2013-list-of-persistent-chat-server-tables.md
-            - name: Список таблиц соответствия сервера сохраняемого чата
+            - name: Список таблиц соблюдения требований для сервера сохраняемого чата
               href: ../lync-server-2013-list-of-persistent-chat-server-compliance-tables.md
-            - name: Сведения о таблице сервера сохраняемого чата
+            - name: Данные таблицы сервера сохраняемого чата
               href: ../lync-server-2013-persistent-chat-server-table-details.md
               items:
                 - name: tblADCookie
                   href: ../lync-server-2013-tbladcookie.md
                 - name: tblPrincipalMemberDifference
                   href: ../lync-server-2013-tblprincipalmemberdifference.md
-                - name: тбладупдатес
+                - name: tblADUpdates
                   href: ../lync-server-2013-tbladupdates.md
-                - name: тблпринЦипалмемберс
+                - name: tblPrincipalMembers
                   href: ../lync-server-2013-tblprincipalmembers.md
                 - name: tblPrincipalMeta
                   href: ../lync-server-2013-tblprincipalmeta.md
@@ -4767,7 +4767,7 @@
                   href: ../lync-server-2013-tblprincipaltype.md
                 - name: tblPrincipal
                   href: ../lync-server-2013-tblprincipal.md
-                - name: тблпринЦипалаффилиатионс
+                - name: tblPrincipalAffiliations
                   href: ../lync-server-2013-tblprincipalaffiliations.md
                 - name: tblNode
                   href: ../lync-server-2013-tblnode.md
@@ -4779,7 +4779,7 @@
                   href: ../lync-server-2013-tblprincipalrole.md
                 - name: tblSiopWhiteList
                   href: ../lync-server-2013-tblsiopwhitelist.md
-                - name: тбленуматтрибуте
+                - name: tblEnumAttribute
                   href: ../lync-server-2013-tblenumattribute.md
                 - name: tblEnumValue
                   href: ../lync-server-2013-tblenumvalue.md
@@ -4791,17 +4791,17 @@
                   href: ../lync-server-2013-tbllastinviteid.md
                 - name: tblLastChatId
                   href: ../lync-server-2013-tbllastchatid.md
-                - name: тблпреференце
+                - name: tblPreference
                   href: ../lync-server-2013-tblpreference.md
-                - name: тблфилетокен
+                - name: tblFileToken
                   href: ../lync-server-2013-tblfiletoken.md
                 - name: tblServerIdentity
                   href: ../lync-server-2013-tblserveridentity.md
                 - name: tblAdminLock
                   href: ../lync-server-2013-tbladminlock.md
-                - name: тблсистемревисион
+                - name: tblSystemRevision
                   href: ../lync-server-2013-tblsystemrevision.md
-                - name: тблактивепирс
+                - name: tblActivePeers
                   href: ../lync-server-2013-tblactivepeers.md
                 - name: tblConfig
                   href: ../lync-server-2013-tblconfig.md
@@ -4809,9 +4809,9 @@
                   href: ../lync-server-2013-tblcompliancedata.md
                 - name: tblComplianceFanout
                   href: ../lync-server-2013-tblcompliancefanout.md
-                - name: тблкомплианцепартиЦипант
+                - name: tblComplianceParticipant
                   href: ../lync-server-2013-tblcomplianceparticipant.md
-                - name: тблкомплианцестате
+                - name: tblComplianceState
                   href: ../lync-server-2013-tblcompliancestate.md
             - name: Примеры запросов к базе данных сохраняемого чата
               href: ../lync-server-2013-sample-persistent-chat-database-queries.md
@@ -4822,17 +4822,17 @@
               href: ../lync-server-2013-schema-changes-in-lync-server-2013.md
             - name: Классы и описания схемы
               href: ../lync-server-2013-schema-classes-and-descriptions.md
-            - name: Атрибуты схемы по классу
+            - name: Атрибуты схемы по классам
               href: ../lync-server-2013-schema-attributes-by-class.md
-            - name: Атрибуты и описания схемы
+            - name: Атрибуты схемы и описания
               href: ../lync-server-2013-schema-attributes-and-descriptions.md
-            - name: 'Изменения, внесенные при подготовке леса'
+            - name: 'Изменения, вносимые во время подготовки леса'
               href: ../lync-server-2013-changes-made-by-forest-preparation.md
-            - name: 'Изменения, внесенные при подготовке домена'
+            - name: 'Изменения, внесенные в ходе подготовки домена'
               href: ../lync-server-2013-changes-made-by-domain-preparation.md
-            - name: 'Изменения, внесенные с помощью GRANT — CsSetupPermission'
+            - name: 'Изменения, вносимые командлетом Grant-CsSetupPermission'
               href: 'https://technet.microsoft.com/library/Gg398569(v=OCS.15)'
-            - name: 'Изменения, внесенные с помощью Grant — CsOUPermission'
+            - name: 'Изменения, вносимые командлетом Grant-CsOUPermission'
               href: 'https://technet.microsoft.com/library/Gg425739(v=OCS.15)'
     - name: Командная консоль Lync Server
       href: ../lync-server-2013-lync-server-management-shell.md
