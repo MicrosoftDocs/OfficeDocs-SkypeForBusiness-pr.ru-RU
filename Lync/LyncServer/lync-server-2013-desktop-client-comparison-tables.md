@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501506"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Таблицы сравнения клиентов для настольных ПК для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Таблицы сравнения клиентов для настольных ПК для Lync Server 2013
+
 
 </div>
 
@@ -1702,7 +1704,7 @@ _**Последнее изменение темы:** 2018-01-23_
 
 1 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи помощника Lync 2010 не поддерживаются.
 
-2 для пользователей Skype для бизнеса Online, Microsoft 365 или Office 365 эта функция требует Exchange Online и управляется атрибутом хранения на месте почтового ящика Exchange пользователя.
+2 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи эта функция требует Exchange Online и управляется с помощью почтовых ящиков Exchange пользователя In-Place удержание.
 
 3 для Skype для бизнеса Online, Microsoft 365 или Office 365 пользователи, архивация переносов файлов, общих страниц OneNote и примечаний PowerPoint недоступна.
 

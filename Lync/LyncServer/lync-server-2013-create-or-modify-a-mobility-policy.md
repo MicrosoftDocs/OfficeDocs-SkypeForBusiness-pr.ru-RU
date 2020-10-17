@@ -12,20 +12,22 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a240c55b4478c5cf5f67a4f0774b1979e884b3b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c54222d7fda3c3d5581db85b0fc264358e2bde22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501656"
 ---
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Создание или изменение политики мобильности в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Создание или изменение политики мобильности в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2013-02-23_
     
     2.  Чтобы создать политику мобильности сайта, щелкните элемент **Политика пользователя**, выберите имя, просмотрите параметры по умолчанию и при необходимости измените их.
 
-5.  Щелкните **Исполнить**.
+5.  Нажмите кнопку **Сохранить**.
 
 </div>
 
@@ -83,7 +85,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Создание политик внешнего доступа с помощью командлетов Windows PowerShell
 
-С помощью Windows PowerShell и командлета **New-CsMobilityPolicy** можно создавать политики мобильной связи (на уровне сайта или на уровне пользователя). Кроме того, вы можете использовать командлет **Set-CsMobilityPolicy** для изменения любых существующих политик, включая глобальную. Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+С помощью Windows PowerShell и командлета **New-CsMobilityPolicy** можно создавать политики мобильной связи (на уровне сайта или на уровне пользователя). Кроме того, вы можете использовать командлет **Set-CsMobilityPolicy** для изменения любых существующих политик, включая глобальную. Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

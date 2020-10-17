@@ -12,20 +12,22 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2c57f56f1f82b94b20feb7aa801ca26f0ae022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502136"
 ---
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Настройка записи сведений о вызовах и параметров качества взаимодействия в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>Настройка записи сведений о вызовах и параметров качества взаимодействия в Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180276"
 
 _**Последнее изменение темы:** 2012-10-17_
 
-После связывания хранилища мониторинга с пулом переднего плана Настройте хранилище мониторинга, а затем установите и настройте службы отчетов SQL Server и отчеты мониторинга, которые можно управлять записью сведений о вызовах (CDR) и качеством взаимодействия (QoE). мониторинг с помощью командной консоли Lync Server. Командлеты командной консоли Lync Server позволяют включать и отключать мониторинг CDR и/или QoE для определенного сайта или для всего развертывания Lync Server; эту команду можно выполнить простым, как показано ниже.
+После связывания хранилища мониторинга с пулом переднего плана Настройте хранилище мониторинга, а затем установите и настройте службы SQL Server Reporting Services и отчеты мониторинга, которые позволяют управлять записью сведений о вызовах (CDR) и мониторинг качества взаимодействия (QoE) с помощью командной консоли Lync Server. Командлеты командной консоли Lync Server позволяют включать и отключать мониторинг CDR и/или QoE для определенного сайта или для всего развертывания Lync Server; эту команду можно выполнить простым, как показано ниже.
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
@@ -72,7 +74,7 @@ _**Последнее изменение темы:** 2012-10-17_
 <td><p>кипкаллдетаилфордайс</p></td>
 <td><p>Задает период в днях, в течение которого записи CDR будут сохраняться в базе данных; все записи старше заданного количества дней будут автоматически удаляться. Однако это будет происходить только в том случае, если включена очистка.</p>
 <p>В качестве значения параметра KeepCallDetailForDays может быть установлено любое целое число от 1 до 2562 дней (приблизительно 7 лет).</p></td>
-<td><p>60 дней.</p></td>
+<td><p>60 дней</p></td>
 </tr>
 <tr class="even">
 <td><p>киперроррепортфордайс</p></td>

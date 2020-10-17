@@ -12,20 +12,22 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2201f097f06ea8e19e55395bc63c3bc932415be6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3db7f76cd9d271de05cf28728ad6028749a50cfa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751301"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503076"
 ---
+# <a name="decommissioning-servers-and-pools"></a>Списание серверов и пулов
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="decommissioning-servers-and-pools"></a>Списание серверов и пулов
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Последнее изменение темы:** 2012-09-26_
 
 На следующих веб-страницах содержатся сведения о списании серверов и пулов Office Communications Server 2007 R2 Standard Edition или Enterprise Edition.
 
-  - Списание стандартного выпуска по адресу[https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)
+  - Списание стандартного выпуска по адресу [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)
 
-  - Удаление серверов и ролей серверов в[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)
+  - Удаление серверов и ролей серверов в [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)
 
-  - Удаление корпоративного пула в[https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)
+  - Удаление корпоративного пула в [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)
 
 </div>
 

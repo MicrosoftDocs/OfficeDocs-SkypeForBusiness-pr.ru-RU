@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501436"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Требования DNS для мобильных устройств с Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>Требования DNS для мобильных устройств с Lync Server 2013
+
 
 </div>
 
@@ -70,12 +72,12 @@ DNS-записи могут быть либо записями CNAME, либо A
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>Полное доменное имя внутренних веб-служб (полное доменное имя) для пула директоров (если у вас есть) или для пула переднего плана, если у вас нет директора</p></td>
 </tr>
 <tr class="even">
 <td><p>A (узел)</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
+<td><p>lyncdiscoverinternal. &lt; sipdomain&gt;</p></td>
 <td><p>IP-адрес внутренних веб-служб (виртуальный IP-адрес, если вы используете подсистему балансировки нагрузки) пула директоров (если у вас есть один или из интерфейсного пула, если у вас нет директора)</p></td>
 </tr>
 </tbody>
@@ -113,7 +115,7 @@ DNS-записи могут быть либо записями CNAME, либо A
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls. _tcp. &lt;sipdomain&gt;</p>
+<td><p>_sipfederationtls _sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>Разрешается в запись узла (A или AAAA) для службы пограничного доступа</p></td>
 <td><p>Чтобы поддерживать службу push-уведомлений и службу push-уведомлений Apple, создайте одну запись SRV для каждого домена SIP с клиентами Microsoft Lync Mobile.</p>
 <div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7faf0cd00b59d5df5bab1650a28eff8b9563f91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b80b5dccfeab136f02705264fea985550cb11240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501726"
 ---
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Создание и проверка записей DNS SRV в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Создание и проверка записей DNS SRV в Lync Server 2013
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**Последнее изменение темы:** 2013-02-21_
 
 4.  В разделе **Выбор типа записи ресурса** выберите **Service Location (SRV) (Расположение службы (запись SRV))**, а затем нажмите кнопку **Создать запись**.
 
-5.  Выберите пункт **Служба**и введите ** \_сипинтерналтлс**.
+5.  Выберите пункт **Служба**и введите ** \_ сипинтерналтлс**.
 
-6.  Щелкните **протокол**, а затем введите ** \_TCP**.
+6.  Щелкните **протокол**, а затем введите ** \_ TCP**.
 
 7.  Нажмите **Номер порта** и введите **5061**.
 
@@ -79,15 +81,15 @@ _**Последнее изменение темы:** 2013-02-21_
 
 5.  Введите **set type=srv**, а затем нажмите клавишу ВВОД.
 
-6.  Введите ** \_сипинтерналтлс.\_ tcp.contoso.com**, а затем нажмите клавишу ВВОД. Для записи TLS отображаются следующие выходные данные:
+6.  Введите ** \_ сипинтерналтлс. \_ tcp.contoso.com**, а затем нажмите клавишу ВВОД. Для записи TLS отображаются следующие выходные данные:
     
-    Сервер: \<DNS server\>. contoso.com
+    Сервер: \<dns server\> . contoso.com
     
-    Адрес: \<IP-адрес DNS-сервера\>
+    Address \<IP address of DNS server\>
     
     Неофициальный ответ:
     
-    \_сипинтерналтлс. \_расположение службы TCP.contoso.com SRV:
+    \_сипинтерналтлс. \_ расположение службы tcp.contoso.com SRV:
     
     приоритет = 0
     
@@ -97,7 +99,7 @@ _**Последнее изменение темы:** 2013-02-21_
     
     SVR hostname = poolname.contoso.com (или запись сервера Standard Edition)
     
-    poolname.contoso.com Интернет-адрес \<= виртуальный IP-\> адрес подсистемы балансировки \<нагрузки или IP-адреса одного сервера Enterprise Edition для пулов с одним сервером Enterprise Edition\> или \<IP-адресом сервера Standard Edition.\>
+    адрес Интернета poolname.contoso.com = \<virtual IP Address of the load balancer\> или \<IP address of a single Enterprise Edition server for pools with only one Enterprise Edition server\>\<IP address of the Standard Edition server\>
 
 7.  По завершении введите **exit** в командной строке и нажмите клавишу ВВОД.
 
@@ -109,11 +111,11 @@ _**Последнее изменение темы:** 2013-02-21_
 
 1.  Войдите на клиентский компьютер в домене.
 
-2.  Нажмите кнопку **Пуск** и затем щелкните **Выполнить**.
+2.  Нажмите кнопку **Пуск** и затем выберите команду **Выполнить**.
 
 3.  В поле **Открыть** введите **cmd** и нажмите кнопку **ОК**.
 
-4.  В командной строки введите **nslookup** \<FQDN переднего плана\> или \<полное доменное имя сервера\>Standard Edition, а затем нажмите клавишу ВВОД.
+4.  В командной строки введите **nslookup** \<FQDN of the Front End pool\> или и нажмите \<FQDN of the Standard Edition server\> клавишу ВВОД.
 
 5.  Убедитесь, что вы получили ответ, который сводится к соответствующему IP-адресу для указанного полного доменного имени.
 

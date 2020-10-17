@@ -12,20 +12,22 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6015603d2c8c151cbe9d9b76410e51708f3ba9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1b96727af805107e7101c395d7c545c4e4967b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188452"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502196"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Настройка службы автообнаружения в Lync Server 2013 для гибридных развертываний
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Настройка службы автообнаружения в Lync Server 2013 для гибридных развертываний
+
 
 </div>
 
@@ -55,13 +57,13 @@ _**Последнее изменение темы:** 2012-12-12_
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Настройка службы автообнаружения для гибридного развертывания
 
-1.  В разделе, [требования к службе автообнаружения для Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md), вы можете использовать Get – CsHostingProvider для получения значения атрибута ProxyFQDN.
+1.  В этой статье [требования к службе автообнаружения для Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md)Get-CsHostingProvider, чтобы получить значение атрибута ProxyFQDN.
 
 2.  В командной консоли Lync Server введите
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    Где \[Identity\] заменяется доменным именем общего адресного пространства SIP.
+    Где \[ Identity \] заменяется доменным именем общего адресного пространства SIP.
 
 </div>
 

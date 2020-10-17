@@ -12,20 +12,22 @@ ms:contentKeyID: 48183879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a820ca891ceb8196f8b4e0d2e023799f36e9e9ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f06b1327b1f0718015de0a877963ad7eb04cc03c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190392"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502716"
 ---
+# <a name="changing-archiving-database-options-in-lync-server-2013"></a>Изменение параметров базы данных для архивации в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changing-archiving-database-options-in-lync-server-2013"></a>Изменение параметров базы данных для архивации в Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**Последнее изменение темы:** 2012-11-01_
     
 
     > [!NOTE]  
-    > Вы можете определить топологию с помощью учетной записи, которая является членом локальной группы "Пользователи", но для публикации топологии, необходимой для добавления компонента в топологию, необходимо использовать учетную запись, которая является членом группы <STRONG>администраторов домена</STRONG> и группы <STRONG>RTCUniversalServerAdmins</STRONG> , и иметь разрешения на полный доступ (то есть чтение, запись и изменение) к общему файловому ресурсу, используемому для хранилища файлов Lync Server 2013 (то есть, чтобы построитель топологии мог настроить требуемые списки управления доступом на уровне пользователей ( DACL) или учетная запись с эквивалентными правами.
+    > Вы можете определить топологию с помощью учетной записи, которая является членом локальной группы "Пользователи", но для публикации топологии, необходимой для добавления компонента в топологию, необходимо использовать учетную запись, которая является членом группы <STRONG>администраторов домена</STRONG> и группы <STRONG>RTCUniversalServerAdmins</STRONG> . и обладает разрешениями на полный доступ (чтение, запись и изменение) к общему файловому ресурсу, используемому для хранилища файлов Lync Server 2013 (то есть, чтобы построитель топологий мог настроить необходимые списки управления доступом на уровне пользователей (DACL) или учетную запись с эквивалентными правами.
 
     
     </div>

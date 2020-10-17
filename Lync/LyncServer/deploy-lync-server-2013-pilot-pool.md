@@ -12,20 +12,22 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbb620a4846b05c7f81ecea4d5cc525c9c16c0c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9489db1fef9b836749fe4f381e717a4d406f5938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180532"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502976"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Развертывание пилотного пула Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Развертывание пилотного пула Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**Последнее изменение темы:** 2013-11-22_
     
     ![Страница выбора компонентов пула переднего плана](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Страница выбора компонентов пула переднего плана")
 
-6.  На странице **Выбор размещенных ролей сервера** мы рекомендуем совместно использовать сервер-посредник в Lync Server 2013. При объединении устаревшей топологии с Lync Server 2013 необходимо сначала разместить сервер-посредник по Lync Server 2010. После объединения топологий и настройки сервера-посредника Lync Server 2013 вы можете решить, следует ли оставить совмещенный сервер-посредник или изменить его на изолированный сервер при перемещении роли сервера-посредника в Lync Server 2013 позже в развертывании. процесс.
+6.  На странице **Выбор размещенных ролей сервера** мы рекомендуем совместно использовать сервер-посредник в Lync Server 2013. При объединении устаревшей топологии с Lync Server 2013 необходимо сначала разместить сервер-посредник по Lync Server 2010. После объединения топологий и настройки сервера-посредника Lync Server 2013 вы можете решить, следует ли оставить совмещенный сервер-посредник или изменить его на изолированный сервер при перемещении роли сервера-посредника в Lync Server 2013 позже в процессе развертывания.
     
     ![Внешний интерфейсный пул страница выбора размещенных ролей сервера](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Внешний интерфейсный пул страница выбора размещенных ролей сервера")
 

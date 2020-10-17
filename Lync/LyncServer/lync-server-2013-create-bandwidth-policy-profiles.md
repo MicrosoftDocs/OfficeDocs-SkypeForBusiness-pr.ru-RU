@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501706"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Создание профилей политики пропускной способности в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Создание профилей политики пропускной способности в Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**Последнее изменение темы:** 2012-10-19_
 
   - [Remove — CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-Примеры политик, созданных в следующей процедуре, задают ограничения для общего трафика аудиоданных, отдельных аудиосеансов, общего трафика видеоданных и отдельных видеосеансов. Например, профиль политики пропускной способности канала 5\_в определяет следующие пределы:
+Примеры политик, созданных в следующей процедуре, задают ограничения для общего трафика аудиоданных, отдельных аудиосеансов, общего трафика видеоданных и отдельных видеосеансов. Например, \_ профиль политики пропускной способности канала 5 в определяет следующие пределы:
 
   - Аудиоданные: 2 000 кбит/с
 

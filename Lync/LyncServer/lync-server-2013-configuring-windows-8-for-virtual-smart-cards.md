@@ -12,20 +12,22 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10cedd0162b5d7680d3aadd016fbcb8ea87e0d67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09f6c33ab9619e7a6b168e5d552ac13d84343c3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195522"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502066"
 ---
+# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Настройка Windows 8 для использования виртуальных смарт-карт с Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Настройка Windows 8 для использования виртуальных смарт-карт с Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2013-07-03_
 
 Один фактор, который необходимо учитывать при развертывании двухфакторной проверки подлинности и технологии смарт-карт, — это стоимость реализации. Windows 8 предоставляет ряд новых возможностей обеспечения безопасности, а одна из наиболее интересных новых функций поддерживает виртуальные смарт-карты.
 
-Для компьютеров с микросхемами доверенного платформенного модуля (TPM), соответствующих спецификации версии 1,2, организации могут использовать преимущества входа с помощью смарт-карты, не внося дополнительных инвестиций в оборудование. Для получения дополнительных сведений обратитесь к разделу Использование виртуальной смарт-карты [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)в Windows 8 по адресу.
+Для компьютеров с микросхемами доверенного платформенного модуля (TPM), соответствующих спецификации версии 1,2, организации могут использовать преимущества входа с помощью смарт-карты, не внося дополнительных инвестиций в оборудование. Для получения дополнительных сведений обратитесь к разделу Использование виртуальной смарт-карты в Windows 8 по адресу [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365) .
 
 <div>
 
