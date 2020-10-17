@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: тестирование однорангового аудио-и видеозвонка'
+description: 'Lync Server 2013: тестирование однорангового аудио-и видеозвонка.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03bab69d926a99c091a510ce64b78dbf505d4cbc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504086"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556295"
 ---
 # <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Тестирование однорангового аудио-и видеозвонка в Lync Server 2013
 

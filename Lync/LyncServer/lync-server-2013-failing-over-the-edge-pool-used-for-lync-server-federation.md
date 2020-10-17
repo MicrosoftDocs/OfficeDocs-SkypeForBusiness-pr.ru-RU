@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: отработка отказа для пограничного пула, используемого для Федерации Lync Server'
+description: 'Lync Server 2013: отработка отказа для пограничного пула, используемого для Федерации Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ed4849aff6dd65de524a99ac8fc6f886d7c4db5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1e7e13ccd35a653d38174f55ace9dc6637ded04
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530926"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554915"
 ---
 # <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>Отработка отказа для пограничного пула, используемого для Федерации Lync Server в Lync Server 2013
 

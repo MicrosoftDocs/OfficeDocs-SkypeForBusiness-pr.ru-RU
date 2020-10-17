@@ -1,5 +1,6 @@
 ---
 title: Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула
+description: Убедитесь, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eae8f82016f8dd78c3ecd568e34c3cc408a204ae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8af5dea6cf746c55d8fecf074e132f721c380de1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515956"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555515"
 ---
 # <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>Проверка того, что все объекты контактов Exchange единой системы обмена сообщениями удалены из устаревшего пула
 
