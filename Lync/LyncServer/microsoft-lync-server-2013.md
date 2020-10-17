@@ -12,20 +12,22 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b68398f14043492db5b4bd23ef7a31a68f06f72
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cee0478dfecd11d90e3c47d0ccf4921e43885e02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503676"
 ---
+# <a name="microsoft-lync-server-2013"></a><span data-ttu-id="94115-102">Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94115-102">Microsoft Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="microsoft-lync-server-2013"></a><span data-ttu-id="1357e-102">Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1357e-102">Microsoft Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42190212"
 
 <span> </span>
 
-<span data-ttu-id="1357e-103">_**Последнее изменение темы:** 2014-03-14_</span><span class="sxs-lookup"><span data-stu-id="1357e-103">_**Topic Last Modified:** 2014-03-14_</span></span>
+<span data-ttu-id="94115-103">_**Последнее изменение темы:** 2014-03-14_</span><span class="sxs-lookup"><span data-stu-id="94115-103">_**Topic Last Modified:** 2014-03-14_</span></span>
 
-<span data-ttu-id="1357e-104">Программное обеспечение Microsoft Lync Server 2013 Communications предоставляет решения для обмена мгновенными сообщениями, сведения о присутствии, конференц-связи и телефонии, которые могут поддерживать требования к совместной работе на уровне предприятия.</span><span class="sxs-lookup"><span data-stu-id="1357e-104">Microsoft Lync Server 2013 communications software offers instant messaging (IM), presence, conferencing, and telephony solutions that can support enterprise-level collaboration requirements.</span></span>
+<span data-ttu-id="94115-104">Программное обеспечение Microsoft Lync Server 2013 Communications предоставляет решения для обмена мгновенными сообщениями, сведения о присутствии, конференц-связи и телефонии, которые могут поддерживать требования к совместной работе на уровне предприятия.</span><span class="sxs-lookup"><span data-stu-id="94115-104">Microsoft Lync Server 2013 communications software offers instant messaging (IM), presence, conferencing, and telephony solutions that can support enterprise-level collaboration requirements.</span></span>
 
-<span data-ttu-id="1357e-105">Хотите скачать копию документации по Lync Server 2013?</span><span class="sxs-lookup"><span data-stu-id="1357e-105">Want to download a copy of the Lync Server 2013 documentation?</span></span> <span data-ttu-id="1357e-106">Файл COMPILED Help **LyncServer2013\_ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу. [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103)</span><span class="sxs-lookup"><span data-stu-id="1357e-106">You can download the **LyncServer2013\_ITPro** compiled help (.chm) file from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103).</span></span>
+<span data-ttu-id="94115-105">Хотите скачать копию документации по Lync Server 2013?</span><span class="sxs-lookup"><span data-stu-id="94115-105">Want to download a copy of the Lync Server 2013 documentation?</span></span> <span data-ttu-id="94115-106">Файл COMPILED Help **LyncServer2013 \_ ИТ-специалистов** можно загрузить из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103) .</span><span class="sxs-lookup"><span data-stu-id="94115-106">You can download the **LyncServer2013\_ITPro** compiled help (.chm) file from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkID=331103](https://go.microsoft.com/fwlink/p/?linkid=331103).</span></span>
 
-<span data-ttu-id="1357e-107">В приведенных ниже таблицах перечислены разделы в библиотеке документации по Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1357e-107">The following tables list the topics in the Lync Server 2013 documentation library.</span></span>
+<span data-ttu-id="94115-107">В приведенных ниже таблицах перечислены разделы в библиотеке документации по Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="94115-107">The following tables list the topics in the Lync Server 2013 documentation library.</span></span>
 
 <div>
 
-## <a name="technical-diagrams"></a><span data-ttu-id="1357e-108">Технические схемы</span><span class="sxs-lookup"><span data-stu-id="1357e-108">Technical Diagrams</span></span>
+## <a name="technical-diagrams"></a><span data-ttu-id="94115-108">Технические схемы</span><span class="sxs-lookup"><span data-stu-id="94115-108">Technical Diagrams</span></span>
 
 
 <table>
@@ -54,7 +56,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-109">Просмотреть в Интернете: <a href="lync-server-2013-technical-diagrams.md">технические схемы для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-109">View online: <a href="lync-server-2013-technical-diagrams.md">Technical diagrams for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-109">Просмотреть в Интернете: <a href="lync-server-2013-technical-diagrams.md">технические схемы для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-109">View online: <a href="lync-server-2013-technical-diagrams.md">Technical diagrams for Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +66,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="getting-started"></a><span data-ttu-id="1357e-110">Начало работы</span><span class="sxs-lookup"><span data-stu-id="1357e-110">Getting Started</span></span>
+## <a name="getting-started"></a><span data-ttu-id="94115-110">Начало работы</span><span class="sxs-lookup"><span data-stu-id="94115-110">Getting Started</span></span>
 
 
 <table>
@@ -73,7 +75,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-111">Просмотреть в Интернете: <a href="lync-server-2013-getting-started.md">Приступая к работе с Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-111">View online: <a href="lync-server-2013-getting-started.md">Getting started with Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-111">Просмотреть в Интернете: <a href="lync-server-2013-getting-started.md">Приступая к работе с Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-111">View online: <a href="lync-server-2013-getting-started.md">Getting started with Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +85,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="supportability"></a><span data-ttu-id="1357e-112">Поддержка</span><span class="sxs-lookup"><span data-stu-id="1357e-112">Supportability</span></span>
+## <a name="supportability"></a><span data-ttu-id="94115-112">Поддержка</span><span class="sxs-lookup"><span data-stu-id="94115-112">Supportability</span></span>
 
 
 <table>
@@ -92,7 +94,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-113">Просмотреть в Интернете: <a href="lync-server-2013-supportability.md">Поддержка для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-113">View online: <a href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-113">Просмотреть в Интернете: <a href="lync-server-2013-supportability.md">Поддержка для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-113">View online: <a href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +104,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="planning"></a><span data-ttu-id="1357e-114">Планирование</span><span class="sxs-lookup"><span data-stu-id="1357e-114">Planning</span></span>
+## <a name="planning"></a><span data-ttu-id="94115-114">Планирование</span><span class="sxs-lookup"><span data-stu-id="94115-114">Planning</span></span>
 
 
 <table>
@@ -111,64 +113,64 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-115">Просмотреть в Интернете: <a href="lync-server-2013-planning.md">Planning for Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-115">View online: <a href="lync-server-2013-planning.md">Planning for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-115">Просмотреть в Интернете: <a href="lync-server-2013-planning.md">Planning for Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-115">View online: <a href="lync-server-2013-planning.md">Planning for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-116">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-your-organization.md">планирование организации для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-116">View online: <a href="lync-server-2013-planning-for-your-organization.md">Organization planning for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-116">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-your-organization.md">планирование организации для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-116">View online: <a href="lync-server-2013-planning-for-your-organization.md">Organization planning for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-117">Просмотреть в Интернете: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Определение требований к инфраструктуре для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-117">View online: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Determining your infrastructure requirements for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-117">Просмотреть в Интернете: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Определение требований к инфраструктуре для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-117">View online: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Determining your infrastructure requirements for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-118">Просмотреть в Интернете: <a href="lync-server-2013-network-planning.md">планирование сети для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-118">View online: <a href="lync-server-2013-network-planning.md">Network planning for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-118">Просмотреть в Интернете: <a href="lync-server-2013-network-planning.md">планирование сети для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-118">View online: <a href="lync-server-2013-network-planning.md">Network planning for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-119">Просмотреть в Интернете: <a href="lync-server-2013-capacity-planning.md">Планирование мощности для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-119">View online: <a href="lync-server-2013-capacity-planning.md">Capacity planning for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-119">Просмотреть в Интернете: <a href="lync-server-2013-capacity-planning.md">Планирование мощности для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-119">View online: <a href="lync-server-2013-capacity-planning.md">Capacity planning for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-120">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-120">View online: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planning for high availability and disaster recovery in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-120">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-120">View online: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planning for high availability and disaster recovery in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-121">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Планирование управления и виртуализации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-121">View online: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Planning for manageability and virtualization in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-121">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Планирование управления и виртуализации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-121">View online: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Planning for manageability and virtualization in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-122">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">планирование для серверов переднего плана, обмена мгновенными сообщениями и сведений о присутствии в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-122">View online: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-122">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">планирование для серверов переднего плана, обмена мгновенными сообщениями и сведений о присутствии в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-122">View online: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-123">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-conferencing.md">планирование конференц-связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-123">View online: <a href="lync-server-2013-planning-for-conferencing.md">Planning for conferencing in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-123">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-conferencing.md">планирование конференц-связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-123">View online: <a href="lync-server-2013-planning-for-conferencing.md">Planning for conferencing in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-124">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-external-user-access.md">Планирование доступа внешних пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-124">View online: <a href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-124">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-external-user-access.md">Планирование доступа внешних пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-124">View online: <a href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-125">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-enterprise-voice.md">планирование для корпоративной голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-125">View online: <a href="lync-server-2013-planning-for-enterprise-voice.md">Planning for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-125">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-enterprise-voice.md">планирование для корпоративной голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-125">View online: <a href="lync-server-2013-planning-for-enterprise-voice.md">Planning for Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-126">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-monitoring.md">Планирование мониторинга в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-126">View online: <a href="lync-server-2013-planning-for-monitoring.md">Planning for monitoring in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-126">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-monitoring.md">Планирование мониторинга в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-126">View online: <a href="lync-server-2013-planning-for-monitoring.md">Planning for monitoring in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-127">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-archiving.md">Планирование архивации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-127">View online: <a href="lync-server-2013-planning-for-archiving.md">Planning for Archiving in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-127">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-archiving.md">Планирование архивации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-127">View online: <a href="lync-server-2013-planning-for-archiving.md">Planning for Archiving in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-128">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-video.md">планирование и развертывание видео в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-128">View online: <a href="lync-server-2013-planning-and-deploying-video.md">Planning and deploying video in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-128">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-video.md">планирование и развертывание видео в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-128">View online: <a href="lync-server-2013-planning-and-deploying-video.md">Planning and deploying video in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-129">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-persistent-chat-server.md">планирование для сервера сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-129">View online: <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-129">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-persistent-chat-server.md">планирование для сервера сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-129">View online: <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for Persistent Chat Server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-130">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Планирование интеграции с Exchange Server с Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-130">View online: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Planning for Exchange Server integration with Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-130">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Планирование интеграции с Exchange Server с Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-130">View online: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Planning for Exchange Server integration with Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-131">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-clients-and-devices.md">планирование для клиентов и устройств в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-131">View online: <a href="lync-server-2013-planning-for-clients-and-devices.md">Planning for clients and devices in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-131">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-clients-and-devices.md">планирование для клиентов и устройств в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-131">View online: <a href="lync-server-2013-planning-for-clients-and-devices.md">Planning for clients and devices in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-132">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-remote-call-control.md">планирование удаленного управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-132">View online: <a href="lync-server-2013-planning-for-remote-call-control.md">Planning for remote call control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-132">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-remote-call-control.md">планирование удаленного управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-132">View online: <a href="lync-server-2013-planning-for-remote-call-control.md">Planning for remote call control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-133">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-mobility.md">планирование для мобильной работы в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-133">View online: <a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-133">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-mobility.md">планирование для мобильной работы в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-133">View online: <a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-134">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-security.md">Планирование безопасности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-134">View online: <a href="lync-server-2013-planning-for-security.md">Planning for security in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-134">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-security.md">Планирование безопасности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-134">View online: <a href="lync-server-2013-planning-for-security.md">Planning for security in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -178,7 +180,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="deployment"></a><span data-ttu-id="1357e-135">Развертывание</span><span class="sxs-lookup"><span data-stu-id="1357e-135">Deployment</span></span>
+## <a name="deployment"></a><span data-ttu-id="94115-135">Развертывание</span><span class="sxs-lookup"><span data-stu-id="94115-135">Deployment</span></span>
 
 
 <table>
@@ -187,58 +189,58 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-136">Просмотреть в Интернете: <a href="lync-server-2013-deployment.md">Deployment of Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-136">View online: <a href="lync-server-2013-deployment.md">Deployment of Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-136">Просмотреть в Интернете: <a href="lync-server-2013-deployment.md">Deployment of Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-136">View online: <a href="lync-server-2013-deployment.md">Deployment of Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-137">Просмотреть в Интернете: <a href="lync-server-2013-deploying-lync-server.md">deploy Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-137">View online: <a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-137">Просмотреть в Интернете: <a href="lync-server-2013-deploying-lync-server.md">deploy Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-137">View online: <a href="lync-server-2013-deploying-lync-server.md">Deploying Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-138">Просмотреть в Интернете: <a href="lync-server-2013-deploying-external-user-access.md">развертывание доступа внешних пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-138">View online: <a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-138">Просмотреть в Интернете: <a href="lync-server-2013-deploying-external-user-access.md">развертывание доступа внешних пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-138">View online: <a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-139">Просмотреть в Интернете: <a href="lync-server-2013-deploying-enterprise-voice.md">Развертывание корпоративной голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-139">View online: <a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-139">Просмотреть в Интернете: <a href="lync-server-2013-deploying-enterprise-voice.md">Развертывание корпоративной голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-139">View online: <a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-140">Просмотреть в Интернете: <a href="lync-server-2013-deploying-conferencing.md">развертывание конференц-связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-140">View online: <a href="lync-server-2013-deploying-conferencing.md">Deploying conferencing in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-140">Просмотреть в Интернете: <a href="lync-server-2013-deploying-conferencing.md">развертывание конференц-связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-140">View online: <a href="lync-server-2013-deploying-conferencing.md">Deploying conferencing in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-141">Просмотреть в Интернете: <a href="lync-server-2013-deploying-monitoring.md">развертывание мониторинга в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-141">View online: <a href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-141">Просмотреть в Интернете: <a href="lync-server-2013-deploying-monitoring.md">развертывание мониторинга в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-141">View online: <a href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-142">Просмотреть в Интернете: <a href="lync-server-2013-deploying-archiving.md">развертывание архивации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-142">View online: <a href="lync-server-2013-deploying-archiving.md">Deploying Archiving in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-142">Просмотреть в Интернете: <a href="lync-server-2013-deploying-archiving.md">развертывание архивации в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-142">View online: <a href="lync-server-2013-deploying-archiving.md">Deploying Archiving in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-143">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-video.md">планирование и развертывание видео в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-143">View online: <a href="lync-server-2013-planning-and-deploying-video.md">Planning and deploying video in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-143">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-video.md">планирование и развертывание видео в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-143">View online: <a href="lync-server-2013-planning-and-deploying-video.md">Planning and deploying video in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-144">Просмотреть в Интернете: <a href="lync-server-2013-deploying-branch-sites.md">Развертывание сайтов филиалов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-144">View online: <a href="lync-server-2013-deploying-branch-sites.md">Deploying branch sites in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-144">Просмотреть в Интернете: <a href="lync-server-2013-deploying-branch-sites.md">Развертывание сайтов филиалов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-144">View online: <a href="lync-server-2013-deploying-branch-sites.md">Deploying branch sites in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-145">Просмотреть в Интернете: <a href="lync-server-2013-deploying-persistent-chat-server.md">развертывание сервера сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-145">View online: <a href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-145">Просмотреть в Интернете: <a href="lync-server-2013-deploying-persistent-chat-server.md">развертывание сервера сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-145">View online: <a href="lync-server-2013-deploying-persistent-chat-server.md">Deploying Persistent Chat Server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-146">Просмотреть в Интернете: <a href="lync-server-2013-deploying-clients-and-devices.md">deploy clients and Devices in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-146">View online: <a href="lync-server-2013-deploying-clients-and-devices.md">Deploying clients and devices in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-146">Просмотреть в Интернете: <a href="lync-server-2013-deploying-clients-and-devices.md">deploy clients and Devices in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-146">View online: <a href="lync-server-2013-deploying-clients-and-devices.md">Deploying clients and devices in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-147">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">планирование и развертывание единого хранилища контактов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-147">View online: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">Planning and deploying unified contact store in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-147">Просмотреть в Интернете: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">планирование и развертывание единого хранилища контактов в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-147">View online: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">Planning and deploying unified contact store in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-148">Просмотреть в Интернете: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление проверкой подлинности между серверами (OAuth) и партнерским приложением в Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-148">View online: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-148">Просмотреть в Интернете: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Управление проверкой подлинности между серверами (OAuth) и партнерским приложением в Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-148">View online: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-149">Просмотреть в Интернете: <a href="lync-server-2013-updating-from-the-evaluation-version.md">обновление с ознакомительной версии Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-149">View online: <a href="lync-server-2013-updating-from-the-evaluation-version.md">Updating from the evaluation version of Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-149">Просмотреть в Интернете: <a href="lync-server-2013-updating-from-the-evaluation-version.md">обновление с ознакомительной версии Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-149">View online: <a href="lync-server-2013-updating-from-the-evaluation-version.md">Updating from the evaluation version of Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-150">Просмотреть в Интернете: <a href="lync-server-2013-deploying-remote-call-control.md">развертывание удаленного управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-150">View online: <a href="lync-server-2013-deploying-remote-call-control.md">Deploying remote call control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-150">Просмотреть в Интернете: <a href="lync-server-2013-deploying-remote-call-control.md">развертывание удаленного управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-150">View online: <a href="lync-server-2013-deploying-remote-call-control.md">Deploying remote call control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-151">Просмотреть в Интернете: <a href="lync-server-2013-deploying-mobility.md">deploy Mobility in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-151">View online: <a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-151">Просмотреть в Интернете: <a href="lync-server-2013-deploying-mobility.md">deploy Mobility in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-151">View online: <a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-152">Просмотр в Интернете: <a href="lync-server-2013-health-configuration-in-lync-server.md">Конфигурация работоспособности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-152">View online: <a href="lync-server-2013-health-configuration-in-lync-server.md">Health configuration in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-152">Просмотр в Интернете: <a href="lync-server-2013-health-configuration-in-lync-server.md">Конфигурация работоспособности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-152">View online: <a href="lync-server-2013-health-configuration-in-lync-server.md">Health configuration in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-153">Просмотреть в Интернете: <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">интеграция Microsoft Lync server 2013 и Microsoft Exchange server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-153">View online: <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-153">Просмотреть в Интернете: <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">интеграция Microsoft Lync server 2013 и Microsoft Exchange server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-153">View online: <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -248,7 +250,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="lync-server-hybrid-deployments"></a><span data-ttu-id="1357e-154">Гибридные развертывания Lync Server</span><span class="sxs-lookup"><span data-stu-id="1357e-154">Lync Server Hybrid Deployments</span></span>
+## <a name="lync-server-hybrid-deployments"></a><span data-ttu-id="94115-154">Гибридные развертывания Lync Server</span><span class="sxs-lookup"><span data-stu-id="94115-154">Lync Server Hybrid Deployments</span></span>
 
 
 <table>
@@ -257,7 +259,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-155">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-2013-hybrid.md">Lync Server 2013 для гибридной среды</a></span><span class="sxs-lookup"><span data-stu-id="1357e-155">View online: <a href="lync-server-2013-lync-server-2013-hybrid.md">Lync Server 2013 hybrid</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-155">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-2013-hybrid.md">Lync Server 2013 для гибридной среды</a></span><span class="sxs-lookup"><span data-stu-id="94115-155">View online: <a href="lync-server-2013-lync-server-2013-hybrid.md">Lync Server 2013 hybrid</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -267,7 +269,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="migration"></a><span data-ttu-id="1357e-156">Миграция</span><span class="sxs-lookup"><span data-stu-id="1357e-156">Migration</span></span>
+## <a name="migration"></a><span data-ttu-id="94115-156">Миграция</span><span class="sxs-lookup"><span data-stu-id="94115-156">Migration</span></span>
 
 
 <table>
@@ -276,16 +278,16 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-157">Просмотреть в Интернете: <a href="migration.md">Migration</a></span><span class="sxs-lookup"><span data-stu-id="1357e-157">View online: <a href="migration.md">Migration</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-157">Просмотреть в Интернете: <a href="migration.md">Migration</a></span><span class="sxs-lookup"><span data-stu-id="94115-157">View online: <a href="migration.md">Migration</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-158">Просмотреть в Интернете: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Миграция с Lync server 2010 на Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-158">View online: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Migration from Lync Server 2010 to Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-158">Просмотреть в Интернете: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Миграция с Lync server 2010 на Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-158">View online: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Migration from Lync Server 2010 to Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-159">Просмотреть в Интернете: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Миграция с Office Communications Server 2007 R2 на Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-159">View online: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-159">Просмотреть в Интернете: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Миграция с Office Communications Server 2007 R2 на Lync server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-159">View online: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-160">Просмотреть в Интернете: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Миграция с Lync server 2010, группового чата или Office Communications Server 2007 R2 Group Chat на Lync server 2013, сервер сохраняемого чата</a></span><span class="sxs-lookup"><span data-stu-id="1357e-160">View online: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-160">Просмотреть в Интернете: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Миграция с Lync server 2010, группового чата или Office Communications Server 2007 R2 Group Chat на Lync server 2013, сервер сохраняемого чата</a></span><span class="sxs-lookup"><span data-stu-id="94115-160">View online: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -295,7 +297,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="operations"></a><span data-ttu-id="1357e-161">Операции</span><span class="sxs-lookup"><span data-stu-id="1357e-161">Operations</span></span>
+## <a name="operations"></a><span data-ttu-id="94115-161">Operations</span><span class="sxs-lookup"><span data-stu-id="94115-161">Operations</span></span>
 
 
 <table>
@@ -304,73 +306,73 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-162">Просмотреть в Интернете: <a href="lync-server-2013-operations.md">Operations in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-162">View online: <a href="lync-server-2013-operations.md">Operations in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-162">Просмотреть в Интернете: <a href="lync-server-2013-operations.md">Operations in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-162">View online: <a href="lync-server-2013-operations.md">Operations in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-163">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-administrative-tools.md">Lync Server 2013 Tools администрирование</a></span><span class="sxs-lookup"><span data-stu-id="1357e-163">View online: <a href="lync-server-2013-lync-server-administrative-tools.md">Lync Server 2013 administrative tools</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-163">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-administrative-tools.md">Lync Server 2013 Tools администрирование</a></span><span class="sxs-lookup"><span data-stu-id="94115-163">View online: <a href="lync-server-2013-lync-server-administrative-tools.md">Lync Server 2013 administrative tools</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-164">Просмотреть в Интернете: <a href="lync-server-2013-managing-users-in-lync-server.md">Управление пользователями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-164">View online: <a href="lync-server-2013-managing-users-in-lync-server.md">Managing users in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-164">Просмотреть в Интернете: <a href="lync-server-2013-managing-users-in-lync-server.md">Управление пользователями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-164">View online: <a href="lync-server-2013-managing-users-in-lync-server.md">Managing users in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-165">Просмотреть в Интернете: <a href="lync-server-2013-managing-the-lync-server-topology.md">Управление топологией Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-165">View online: <a href="lync-server-2013-managing-the-lync-server-topology.md">Managing the Lync Server 2013 topology</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-165">Просмотреть в Интернете: <a href="lync-server-2013-managing-the-lync-server-topology.md">Управление топологией Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-165">View online: <a href="lync-server-2013-managing-the-lync-server-topology.md">Managing the Lync Server 2013 topology</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-166">Просмотреть в Интернете: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">Делегирование административного управления Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-166">View online: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">Delegating administrative control of Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-166">Просмотреть в Интернете: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">Делегирование административного управления Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-166">View online: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">Delegating administrative control of Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-167">Просмотреть в Интернете: <a href="lync-server-2013-managing-im-and-presence-settings.md">Управление параметрами обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-167">View online: <a href="lync-server-2013-managing-im-and-presence-settings.md">Managing IM and presence settings in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-167">Просмотреть в Интернете: <a href="lync-server-2013-managing-im-and-presence-settings.md">Управление параметрами обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-167">View online: <a href="lync-server-2013-managing-im-and-presence-settings.md">Managing IM and presence settings in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-168">Просмотреть в Интернете: <a href="managing-lync-server-2013-persistent-chat-server.md">Управление Lync server 2013, сервер сохраняемого чата</a></span><span class="sxs-lookup"><span data-stu-id="1357e-168">View online: <a href="managing-lync-server-2013-persistent-chat-server.md">Managing Lync Server 2013, Persistent Chat Server</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-168">Просмотреть в Интернете: <a href="managing-lync-server-2013-persistent-chat-server.md">Управление Lync server 2013, сервер сохраняемого чата</a></span><span class="sxs-lookup"><span data-stu-id="94115-168">View online: <a href="managing-lync-server-2013-persistent-chat-server.md">Managing Lync Server 2013, Persistent Chat Server</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-169">Просмотреть в Интернете: <a href="lync-server-2013-managing-voice-routing.md">Управление маршрутизацией голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-169">View online: <a href="lync-server-2013-managing-voice-routing.md">Managing voice routing in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-169">Просмотреть в Интернете: <a href="lync-server-2013-managing-voice-routing.md">Управление маршрутизацией голосовой связи в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-169">View online: <a href="lync-server-2013-managing-voice-routing.md">Managing voice routing in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-170">Просмотреть в Интернете: <a href="lync-server-2013-managing-call-management-features.md">Управление функциями управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-170">View online: <a href="lync-server-2013-managing-call-management-features.md">Managing call management features in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-170">Просмотреть в Интернете: <a href="lync-server-2013-managing-call-management-features.md">Управление функциями управления звонками в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-170">View online: <a href="lync-server-2013-managing-call-management-features.md">Managing call management features in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-171">Просмотреть в Интернете: <a href="lync-server-2013-managing-meetings-and-conferences.md">управление собраниями и конференциями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-171">View online: <a href="lync-server-2013-managing-meetings-and-conferences.md">Managing meetings and conferences in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-171">Просмотреть в Интернете: <a href="lync-server-2013-managing-meetings-and-conferences.md">управление собраниями и конференциями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-171">View online: <a href="lync-server-2013-managing-meetings-and-conferences.md">Managing meetings and conferences in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-172">Просмотреть в Интернете: <a href="lync-server-2013-managing-devices-phones-and-client-applications.md">Управление устройствами, телефонами и клиентскими приложениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-172">View online: <a href="lync-server-2013-managing-devices-phones-and-client-applications.md">Managing devices, phones, and client applications in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-172">Просмотреть в Интернете: <a href="lync-server-2013-managing-devices-phones-and-client-applications.md">Управление устройствами, телефонами и клиентскими приложениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-172">View online: <a href="lync-server-2013-managing-devices-phones-and-client-applications.md">Managing devices, phones, and client applications in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-173">Просмотреть в Интернете: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Управление федерациюм и внешним доступом к Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-173">View online: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-173">Просмотреть в Интернете: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Управление федерациюм и внешним доступом к Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-173">View online: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-174">Просмотреть в Интернете: <a href="lync-server-2013-managing-archiving.md">Управление архивацией Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-174">View online: <a href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 Archiving</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-174">Просмотреть в Интернете: <a href="lync-server-2013-managing-archiving.md">Управление архивацией Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-174">View online: <a href="lync-server-2013-managing-archiving.md">Managing Lync Server 2013 Archiving</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-175">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-authentication.md">Управление проверкой подлинности Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-175">View online: <a href="lync-server-2013-managing-lync-server-authentication.md">Managing Lync Server 2013 authentication</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-175">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-authentication.md">Управление проверкой подлинности Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-175">View online: <a href="lync-server-2013-managing-lync-server-authentication.md">Managing Lync Server 2013 authentication</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-176">Просмотреть в Интернете: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Управление инфраструктурой сети Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-176">View online: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Managing the Lync Server 2013 network infrastructure</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-176">Просмотреть в Интернете: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Управление инфраструктурой сети Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-176">View online: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Managing the Lync Server 2013 network infrastructure</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-177">Просмотреть в Интернете: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Управление службой Enhanced 9-1-1 и службой расположения в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-177">View online: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-177">Просмотреть в Интернете: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Управление службой Enhanced 9-1-1 и службой расположения в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-177">View online: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-178">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Управление службами Lync server 2013 и ролями серверов</a></span><span class="sxs-lookup"><span data-stu-id="1357e-178">View online: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Managing Lync Server 2013 services and server roles</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-178">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Управление службами Lync server 2013 и ролями серверов</a></span><span class="sxs-lookup"><span data-stu-id="94115-178">View online: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Managing Lync Server 2013 services and server roles</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-179">Просмотреть в Интернете: <a href="lync-server-2013-managing-applications.md">Управление приложениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-179">View online: <a href="lync-server-2013-managing-applications.md">Managing applications in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-179">Просмотреть в Интернете: <a href="lync-server-2013-managing-applications.md">Управление приложениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-179">View online: <a href="lync-server-2013-managing-applications.md">Managing applications in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-180">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Управление аварийным восстановлением, высокой доступностью и службой резервного копирования Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-180">View online: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-180">Просмотреть в Интернете: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Управление аварийным восстановлением, высокой доступностью и службой резервного копирования Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-180">View online: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-181">Просмотреть в Интернете: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">резервное копирование и восстановление Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-181">View online: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Backing up and restoring Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-181">Просмотреть в Интернете: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">резервное копирование и восстановление Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-181">View online: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Backing up and restoring Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-182">Просмотреть в Интернете: <a href="lync-server-2013-monitoring-and-health-configuration.md">мониторинг и Настройка работоспособности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-182">View online: <a href="lync-server-2013-monitoring-and-health-configuration.md">Monitoring and health configuration in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-182">Просмотреть в Интернете: <a href="lync-server-2013-monitoring-and-health-configuration.md">мониторинг и Настройка работоспособности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-182">View online: <a href="lync-server-2013-monitoring-and-health-configuration.md">Monitoring and health configuration in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-183">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</a></span><span class="sxs-lookup"><span data-stu-id="1357e-183">View online: <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-183">Просмотреть в Интернете: <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</a></span><span class="sxs-lookup"><span data-stu-id="94115-183">View online: <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-184">Просмотреть в Интернете: анализатор соответствия рекомендациям для <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-184">View online: <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013 Best Practices Analyzer</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-184">Просмотреть в Интернете: анализатор соответствия рекомендациям для <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-184">View online: <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013 Best Practices Analyzer</a></span></span></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -383,7 +385,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="security"></a><span data-ttu-id="1357e-185">Безопасность</span><span class="sxs-lookup"><span data-stu-id="1357e-185">Security</span></span>
+## <a name="security"></a><span data-ttu-id="94115-185">Безопасность</span><span class="sxs-lookup"><span data-stu-id="94115-185">Security</span></span>
 
 
 <table>
@@ -392,7 +394,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-186">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-security.md">Планирование безопасности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-186">View online: <a href="lync-server-2013-planning-for-security.md">Planning for security in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-186">Просмотреть в Интернете: <a href="lync-server-2013-planning-for-security.md">Планирование безопасности в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-186">View online: <a href="lync-server-2013-planning-for-security.md">Planning for security in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -402,7 +404,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="schema-reference"></a><span data-ttu-id="1357e-187">Справка по схеме</span><span class="sxs-lookup"><span data-stu-id="1357e-187">Schema Reference</span></span>
+## <a name="schema-reference"></a><span data-ttu-id="94115-187">Справка по схеме</span><span class="sxs-lookup"><span data-stu-id="94115-187">Schema Reference</span></span>
 
 
 <table>
@@ -411,19 +413,19 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-188">Просмотреть в Интернете: <a href="lync-server-2013-schema-reference.md">Справочник по схеме для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-188">View online: <a href="lync-server-2013-schema-reference.md">Schema reference for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-188">Просмотреть в Интернете: <a href="lync-server-2013-schema-reference.md">Справочник по схеме для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-188">View online: <a href="lync-server-2013-schema-reference.md">Schema reference for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-189">Просмотреть в Интернете: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">схема базы данных регистрации вызовов (CDR) в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-189">View online: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">Call detail recording (CDR) database schema in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-189">Просмотреть в Интернете: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">схема базы данных регистрации вызовов (CDR) в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-189">View online: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">Call detail recording (CDR) database schema in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-190">Просмотр в Интернете: <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">схема базы данных качества взаимодействия (QoE) в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-190">View online: <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">Quality of Experience (QoE) database schema in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-190">Просмотр в Интернете: <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">схема базы данных качества взаимодействия (QoE) в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-190">View online: <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">Quality of Experience (QoE) database schema in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1357e-191">Просмотреть в Интернете: <a href="lync-server-2013-persistent-chat-database-schema.md">схема базы данных сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-191">View online: <a href="lync-server-2013-persistent-chat-database-schema.md">Persistent Chat database schema in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-191">Просмотреть в Интернете: <a href="lync-server-2013-persistent-chat-database-schema.md">схема базы данных сохраняемого чата в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-191">View online: <a href="lync-server-2013-persistent-chat-database-schema.md">Persistent Chat database schema in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-192">Просмотреть в Интернете: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-192">View online: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-192">Просмотреть в Интернете: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-192">View online: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -433,7 +435,7 @@ ms.locfileid: "42190212"
 
 <div>
 
-## <a name="glossary"></a><span data-ttu-id="1357e-193">Глоссарий</span><span class="sxs-lookup"><span data-stu-id="1357e-193">Glossary</span></span>
+## <a name="glossary"></a><span data-ttu-id="94115-193">Глоссарий</span><span class="sxs-lookup"><span data-stu-id="94115-193">Glossary</span></span>
 
 
 <table>
@@ -442,7 +444,7 @@ ms.locfileid: "42190212"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1357e-194">Просмотреть в Интернете: <a href="lync-server-2013-glossary.md">глоссарий для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="1357e-194">View online: <a href="lync-server-2013-glossary.md">Glossary for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="94115-194">Просмотреть в Интернете: <a href="lync-server-2013-glossary.md">глоссарий для Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="94115-194">View online: <a href="lync-server-2013-glossary.md">Glossary for Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

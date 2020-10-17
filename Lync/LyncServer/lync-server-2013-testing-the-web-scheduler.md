@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193772"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503946"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a><span data-ttu-id="269ff-102">Тестирование веб-планировщика в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="269ff-102">Testing the Web scheduler in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a><span data-ttu-id="2df3b-102">Тестирование веб-планировщика в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2df3b-102">Testing the Web scheduler in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42193772"
 
 <span> </span>
 
-<span data-ttu-id="2df3b-103">_**Последнее изменение темы:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="2df3b-103">_**Topic Last Modified:** 2014-11-03_</span></span>
+<span data-ttu-id="269ff-103">_**Последнее изменение темы:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="269ff-103">_**Topic Last Modified:** 2014-11-03_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42193772"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2df3b-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="2df3b-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="2df3b-105">Daily (Ежедневный)</span><span class="sxs-lookup"><span data-stu-id="2df3b-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="269ff-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="269ff-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="269ff-105">Ежедневное</span><span class="sxs-lookup"><span data-stu-id="269ff-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2df3b-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="2df3b-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="2df3b-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2df3b-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="269ff-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="269ff-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="269ff-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="269ff-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2df3b-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="2df3b-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="2df3b-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="2df3b-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="2df3b-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-CsWebScheduler</strong> .</span><span class="sxs-lookup"><span data-stu-id="2df3b-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWebScheduler</strong> cmdlet.</span></span> <span data-ttu-id="2df3b-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="2df3b-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="269ff-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="269ff-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="269ff-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="269ff-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="269ff-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-CsWebScheduler</strong> .</span><span class="sxs-lookup"><span data-stu-id="269ff-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWebScheduler</strong> cmdlet.</span></span> <span data-ttu-id="269ff-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="269ff-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,37 +66,37 @@ ms.locfileid: "42193772"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="2df3b-112">Описание</span><span class="sxs-lookup"><span data-stu-id="2df3b-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="269ff-112">Описание</span><span class="sxs-lookup"><span data-stu-id="269ff-112">Description</span></span>
 
-<span data-ttu-id="2df3b-113">Командлет **Test-CsWebScheduler** позволяет определить, может ли определенный пользователь запланировать собрание с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="2df3b-113">The **Test-CsWebScheduler** cmdlet enables you to determine whether a specific user can schedule a meeting using the Web Scheduler.</span></span> <span data-ttu-id="2df3b-114">Веб-планировщик позволяет пользователям, не работающим в Outlook, планировать собрания по сети.</span><span class="sxs-lookup"><span data-stu-id="2df3b-114">The Web Scheduler enables users who are not running Outlook to schedule online meetings.</span></span> <span data-ttu-id="2df3b-115">Помимо прочего, эта новая функция (включающая в себя функциональные возможности средства веб-планировщика, включенного в пакет ресурсов Microsoft Lync Server 2010) позволяет пользователям выполнять указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="2df3b-115">Among other things, this new feature (which incorporates the functionality found in the Web Scheduler tool that was included with the Microsoft Lync Server 2010 resource kit) enables users to:</span></span>
+<span data-ttu-id="269ff-113">Командлет **Test-CsWebScheduler** позволяет определить, может ли определенный пользователь запланировать собрание с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="269ff-113">The **Test-CsWebScheduler** cmdlet enables you to determine whether a specific user can schedule a meeting using the Web Scheduler.</span></span> <span data-ttu-id="269ff-114">Веб-планировщик позволяет пользователям, не работающим в Outlook, планировать собрания по сети.</span><span class="sxs-lookup"><span data-stu-id="269ff-114">The Web Scheduler enables users who are not running Outlook to schedule online meetings.</span></span> <span data-ttu-id="269ff-115">Помимо прочего, эта новая функция (включающая в себя функциональные возможности средства веб-планировщика, включенного в пакет ресурсов Microsoft Lync Server 2010) позволяет пользователям выполнять указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="269ff-115">Among other things, this new feature (which incorporates the functionality found in the Web Scheduler tool that was included with the Microsoft Lync Server 2010 resource kit) enables users to:</span></span>
 
-  - <span data-ttu-id="2df3b-116">Планирование нового собрания по сети.</span><span class="sxs-lookup"><span data-stu-id="2df3b-116">Schedule a new online meeting.</span></span>
+  - <span data-ttu-id="269ff-116">Планирование нового собрания по сети.</span><span class="sxs-lookup"><span data-stu-id="269ff-116">Schedule a new online meeting.</span></span>
 
-  - <span data-ttu-id="2df3b-117">Отображение списка всех собраний, запланированных данным пользователем.</span><span class="sxs-lookup"><span data-stu-id="2df3b-117">List all meetings that he or she has scheduled.</span></span>
+  - <span data-ttu-id="269ff-117">Отображение списка всех собраний, запланированных данным пользователем.</span><span class="sxs-lookup"><span data-stu-id="269ff-117">List all meetings that he or she has scheduled.</span></span>
 
-  - <span data-ttu-id="2df3b-118">Просмотр и изменение существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="2df3b-118">View/modify an existing meeting.</span></span>
+  - <span data-ttu-id="269ff-118">Просмотр и изменение существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="269ff-118">View/modify an existing meeting.</span></span>
 
-  - <span data-ttu-id="2df3b-119">Удаление существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="2df3b-119">Delete an existing meeting.</span></span>
+  - <span data-ttu-id="269ff-119">Удаление существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="269ff-119">Delete an existing meeting.</span></span>
 
-  - <span data-ttu-id="2df3b-120">Отправка приглашения участникам собрания по электронной почте с использованием предварительно настроенного почтового SMTP-сервера.</span><span class="sxs-lookup"><span data-stu-id="2df3b-120">Send an email invitation to meeting participants by using a preconfigured SMTP mail server.</span></span>
+  - <span data-ttu-id="269ff-120">Отправка приглашения участникам собрания по электронной почте с использованием предварительно настроенного почтового SMTP-сервера.</span><span class="sxs-lookup"><span data-stu-id="269ff-120">Send an email invitation to meeting participants by using a preconfigured SMTP mail server.</span></span>
 
-  - <span data-ttu-id="2df3b-121">Присоединение к существующей конференции.</span><span class="sxs-lookup"><span data-stu-id="2df3b-121">Join an existing conference.</span></span>
+  - <span data-ttu-id="269ff-121">Присоединение к существующей конференции.</span><span class="sxs-lookup"><span data-stu-id="269ff-121">Join an existing conference.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="2df3b-122">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="2df3b-122">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="269ff-122">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="269ff-122">Running the test</span></span>
 
-<span data-ttu-id="2df3b-123">В следующем примере проверяется веб-планировщик для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="2df3b-123">The following example verifies the Web Scheduler for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="2df3b-124">Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="2df3b-124">This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="2df3b-125">В этом случае команда определит, может ли первый тестовый пользователь планировать собрание по сети с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="2df3b-125">If they have, then the command will determine whether the first test user can schedule an online meeting using the Web Scheduler.</span></span>
+<span data-ttu-id="269ff-123">В следующем примере проверяется веб-планировщик для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="269ff-123">The following example verifies the Web Scheduler for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="269ff-124">Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="269ff-124">This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="269ff-125">В этом случае команда определит, может ли первый тестовый пользователь планировать собрание по сети с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="269ff-125">If they have, then the command will determine whether the first test user can schedule an online meeting using the Web Scheduler.</span></span>
 
-<span data-ttu-id="2df3b-126">Если тестовые пользователи не определены, команда завершится с ошибками, так как не будет определять, какой пользователь должен войти в систему.</span><span class="sxs-lookup"><span data-stu-id="2df3b-126">If test users are not defined, then the command will fail because it won't know which user to log on as.</span></span> <span data-ttu-id="2df3b-127">Если тестовые пользователи не определены для пула, необходимо включить параметр UserSipAddress и учетные данные пользователя, который должна использовать команда при попытке входа в систему.</span><span class="sxs-lookup"><span data-stu-id="2df3b-127">If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user the command should use when trying to log on.</span></span>
+<span data-ttu-id="269ff-126">Если тестовые пользователи не определены, команда завершится с ошибками, так как не будет определять, какой пользователь должен войти в систему.</span><span class="sxs-lookup"><span data-stu-id="269ff-126">If test users are not defined, then the command will fail because it won't know which user to log on as.</span></span> <span data-ttu-id="269ff-127">Если тестовые пользователи не определены для пула, необходимо включить параметр UserSipAddress и учетные данные пользователя, который должна использовать команда при попытке входа в систему.</span><span class="sxs-lookup"><span data-stu-id="269ff-127">If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user the command should use when trying to log on.</span></span>
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="2df3b-128">Команды, показанные в следующем примере, проверяют возможность определенного пользователя (litwareinc\\кенмэйер) для планирования собраний по сети с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="2df3b-128">The commands shown in the next example test the ability of a specific user (litwareinc\\kenmeyer) to schedule an online meeting using the Web scheduler.</span></span> <span data-ttu-id="2df3b-129">Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Ken Крюкова.</span><span class="sxs-lookup"><span data-stu-id="2df3b-129">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Ken Meyer.</span></span> <span data-ttu-id="2df3b-130">(Так как имя для входа\\litwareinc кенмэйер включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Ken Крюкова.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="2df3b-130">(Because the logon name litwareinc\\kenmeyer is included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Meyer account.) The resulting credential object is then stored in a variable named $cred1.</span></span>
+<span data-ttu-id="269ff-128">Команды, показанные в следующем примере, проверяют возможность определенного пользователя (litwareinc \\ кенмэйер) для планирования собраний по сети с помощью веб-планировщика.</span><span class="sxs-lookup"><span data-stu-id="269ff-128">The commands shown in the next example test the ability of a specific user (litwareinc\\kenmeyer) to schedule an online meeting using the Web scheduler.</span></span> <span data-ttu-id="269ff-129">Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Ken Крюкова.</span><span class="sxs-lookup"><span data-stu-id="269ff-129">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Ken Meyer.</span></span> <span data-ttu-id="269ff-130">(Так как имя для входа litwareinc \\ кенмэйер включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Ken Крюкова.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="269ff-130">(Because the logon name litwareinc\\kenmeyer is included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Meyer account.) The resulting credential object is then stored in a variable named $cred1.</span></span>
 
-<span data-ttu-id="2df3b-131">Вторая команда проверяет, может ли этот пользователь войти в пул atl-cs-001.litwareinc.com и запланировать собрание по сети.</span><span class="sxs-lookup"><span data-stu-id="2df3b-131">The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and schedule an online meeting.</span></span> <span data-ttu-id="2df3b-132">Для запуска этой задачи вызывается командлет **Test-CsWebScheduler** вместе с тремя параметрами: TargetFqdn (полное доменное имя пула регистратора); UserCredential (объект Windows PowerShell, содержащий учетные данные пользователя Pilar Ackerman); и UserSipAddress (SIP-адрес, соответствующий предоставленным учетным данным пользователя).</span><span class="sxs-lookup"><span data-stu-id="2df3b-132">To run this task, the **Test-CsWebScheduler** cmdlet is called, together with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).</span></span>
+<span data-ttu-id="269ff-131">Вторая команда проверяет, может ли этот пользователь войти в пул atl-cs-001.litwareinc.com и запланировать собрание по сети.</span><span class="sxs-lookup"><span data-stu-id="269ff-131">The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and schedule an online meeting.</span></span> <span data-ttu-id="269ff-132">Для запуска этой задачи вызывается командлет **Test-CsWebScheduler** вместе с тремя параметрами: TargetFqdn (полное доменное имя пула регистратора); UserCredential (объект Windows PowerShell, содержащий учетные данные пользователя Pilar Ackerman); и UserSipAddress (SIP-адрес, соответствующий предоставленным учетным данным пользователя).</span><span class="sxs-lookup"><span data-stu-id="269ff-132">To run this task, the **Test-CsWebScheduler** cmdlet is called, together with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -104,70 +106,70 @@ ms.locfileid: "42193772"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="2df3b-133">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="2df3b-133">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="269ff-133">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="269ff-133">Determining success or failure</span></span>
 
-<span data-ttu-id="2df3b-134">Если веб-планировщик настроен правильно, будут получены выходные данные, аналогичные приведенным ниже, и свойство Result помечено как **Success**.</span><span class="sxs-lookup"><span data-stu-id="2df3b-134">If the web scheduler is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
+<span data-ttu-id="269ff-134">Если веб-планировщик настроен правильно, будут получены выходные данные, аналогичные приведенным ниже, и свойство Result помечено как **Success**.</span><span class="sxs-lookup"><span data-stu-id="269ff-134">If the web scheduler is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
 
-<span data-ttu-id="2df3b-135">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2df3b-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="269ff-135">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="269ff-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="2df3b-136">Целевой URI: https://atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="2df3b-136">Target Uri : https:// atl-cs-001.litwareinc.com.</span></span>
+<span data-ttu-id="269ff-136">Целевой URI: https://atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="269ff-136">Target Uri : https:// atl-cs-001.litwareinc.com.</span></span>
 
-<span data-ttu-id="2df3b-137">litwareinc.com:443/Scheduler</span><span class="sxs-lookup"><span data-stu-id="2df3b-137">litwareinc.com:443/Scheduler</span></span>
+<span data-ttu-id="269ff-137">litwareinc.com:443/Scheduler</span><span class="sxs-lookup"><span data-stu-id="269ff-137">litwareinc.com:443/Scheduler</span></span>
 
-<span data-ttu-id="2df3b-138">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="2df3b-138">Result : Success</span></span>
+<span data-ttu-id="269ff-138">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="269ff-138">Result : Success</span></span>
 
-<span data-ttu-id="2df3b-139">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="2df3b-139">Latency : 00:00:00</span></span>
+<span data-ttu-id="269ff-139">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="269ff-139">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="2df3b-140">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="2df3b-140">Error Message :</span></span>
+<span data-ttu-id="269ff-140">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="269ff-140">Error Message :</span></span>
 
-<span data-ttu-id="2df3b-141">Диагност</span><span class="sxs-lookup"><span data-stu-id="2df3b-141">Diagnosis :</span></span>
+<span data-ttu-id="269ff-141">Диагност</span><span class="sxs-lookup"><span data-stu-id="269ff-141">Diagnosis :</span></span>
 
-<span data-ttu-id="2df3b-142">Если веб-планировщик настроен неправильно, результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз:</span><span class="sxs-lookup"><span data-stu-id="2df3b-142">If the web scheduler is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="269ff-142">Если веб-планировщик настроен неправильно, результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз:</span><span class="sxs-lookup"><span data-stu-id="269ff-142">If the web scheduler is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="2df3b-143">Предупреждение: не удалось считать номер порта регистратора для данного полного имени</span><span class="sxs-lookup"><span data-stu-id="2df3b-143">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
+<span data-ttu-id="269ff-143">Предупреждение: не удалось считать номер порта регистратора для данного полного имени</span><span class="sxs-lookup"><span data-stu-id="269ff-143">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
 
-<span data-ttu-id="2df3b-144">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="2df3b-144">domain name (FQDN).</span></span> <span data-ttu-id="2df3b-145">Использование номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="2df3b-145">Using default Registrar port number.</span></span> <span data-ttu-id="2df3b-146">Возникновения</span><span class="sxs-lookup"><span data-stu-id="2df3b-146">Exception:</span></span>
+<span data-ttu-id="269ff-144">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="269ff-144">domain name (FQDN).</span></span> <span data-ttu-id="269ff-145">Использование номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="269ff-145">Using default Registrar port number.</span></span> <span data-ttu-id="269ff-146">Возникновения</span><span class="sxs-lookup"><span data-stu-id="269ff-146">Exception:</span></span>
 
-<span data-ttu-id="2df3b-147">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="2df3b-147">System.InvalidOperationException: No matching cluster found in topology.</span></span>
+<span data-ttu-id="269ff-147">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="269ff-147">System.InvalidOperationException: No matching cluster found in topology.</span></span>
 
-<span data-ttu-id="2df3b-148">в</span><span class="sxs-lookup"><span data-stu-id="2df3b-148">at</span></span>
+<span data-ttu-id="269ff-148">в</span><span class="sxs-lookup"><span data-stu-id="269ff-148">at</span></span>
 
-<span data-ttu-id="2df3b-149">Microsoft. RTC. Management. SyntheticTransactions. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="2df3b-149">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
+<span data-ttu-id="269ff-149">Microsoft. RTC. Management. SyntheticTransactions. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="269ff-149">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
 
-<span data-ttu-id="2df3b-150">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="2df3b-150">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
+<span data-ttu-id="269ff-150">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="269ff-150">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
 
-<span data-ttu-id="2df3b-151">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="2df3b-151">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="269ff-151">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="269ff-151">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="2df3b-152">Целевой URI:</span><span class="sxs-lookup"><span data-stu-id="2df3b-152">Target Uri :</span></span>
+<span data-ttu-id="269ff-152">Целевой URI:</span><span class="sxs-lookup"><span data-stu-id="269ff-152">Target Uri :</span></span>
 
-<span data-ttu-id="2df3b-153">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="2df3b-153">Result : Failure</span></span>
+<span data-ttu-id="269ff-153">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="269ff-153">Result : Failure</span></span>
 
-<span data-ttu-id="2df3b-154">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="2df3b-154">Latency : 00:00:00</span></span>
+<span data-ttu-id="269ff-154">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="269ff-154">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="2df3b-155">Сообщение об ошибке: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="2df3b-155">Error Message : No matching cluster found in topology.</span></span>
+<span data-ttu-id="269ff-155">Сообщение об ошибке: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="269ff-155">Error Message : No matching cluster found in topology.</span></span>
 
-<span data-ttu-id="2df3b-156">Диагност</span><span class="sxs-lookup"><span data-stu-id="2df3b-156">Diagnosis :</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="2df3b-157">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="2df3b-157">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="2df3b-158">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsWebScheduler** :</span><span class="sxs-lookup"><span data-stu-id="2df3b-158">Here are some common reasons why **Test-CsWebScheduler** might fail:</span></span>
-
-  - <span data-ttu-id="2df3b-159">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="2df3b-159">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="2df3b-160">Если используется, необязательные параметры должны быть настроены правильно или тест завершится с ошибками.</span><span class="sxs-lookup"><span data-stu-id="2df3b-160">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="2df3b-161">Выполните команду без необязательных параметров и проверьте, успешно ли это сделано.</span><span class="sxs-lookup"><span data-stu-id="2df3b-161">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
-
-  - <span data-ttu-id="2df3b-162">Эта команда завершится с ошибками, если веб-планировщик неправильно настроен или еще не развернут.</span><span class="sxs-lookup"><span data-stu-id="2df3b-162">This command will fail if the Web Scheduler is misconfigured or not yet deployed.</span></span>
+<span data-ttu-id="269ff-156">Диагност</span><span class="sxs-lookup"><span data-stu-id="269ff-156">Diagnosis :</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2df3b-163">См. также</span><span class="sxs-lookup"><span data-stu-id="2df3b-163">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="269ff-157">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="269ff-157">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="269ff-158">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsWebScheduler** :</span><span class="sxs-lookup"><span data-stu-id="269ff-158">Here are some common reasons why **Test-CsWebScheduler** might fail:</span></span>
+
+  - <span data-ttu-id="269ff-159">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="269ff-159">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="269ff-160">Если используется, необязательные параметры должны быть настроены правильно или тест завершится с ошибками.</span><span class="sxs-lookup"><span data-stu-id="269ff-160">If used, the optional parameters must be configured correctly or the test will fail.</span></span> <span data-ttu-id="269ff-161">Выполните команду без необязательных параметров и проверьте, успешно ли это сделано.</span><span class="sxs-lookup"><span data-stu-id="269ff-161">Rerun the command without the optional parameters and see whether that succeeds.</span></span>
+
+  - <span data-ttu-id="269ff-162">Эта команда завершится с ошибками, если веб-планировщик неправильно настроен или еще не развернут.</span><span class="sxs-lookup"><span data-stu-id="269ff-162">This command will fail if the Web Scheduler is misconfigured or not yet deployed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="269ff-163">См. также</span><span class="sxs-lookup"><span data-stu-id="269ff-163">See Also</span></span>
 
 
-[<span data-ttu-id="2df3b-164">Set — Ксвебсервер</span><span class="sxs-lookup"><span data-stu-id="2df3b-164">Set-CsWebServer</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
+[<span data-ttu-id="269ff-164">Set — Ксвебсервер</span><span class="sxs-lookup"><span data-stu-id="269ff-164">Set-CsWebServer</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
   
 
 </div>
