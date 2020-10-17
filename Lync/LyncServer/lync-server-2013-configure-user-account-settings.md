@@ -12,20 +12,22 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b3c8ea077b6dee724d131ea117aa7bf304e114
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71628f056298965f4033dc6bbecbe75b47b678a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520206"
 ---
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Настройка параметров учетных записей пользователей в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-account-settings-in-lync-server-2013"></a>Настройка параметров учетных записей пользователей в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-10-05_
 
 Для присоединения к конференции в качестве пользователей, прошедших проверку подлинности, пользователи конференц-связи с телефонным подключением вводят номера телефонов или добавочные номера и ПИН-код. Для проверки подлинности необходим URI телефонной **линии** , указанный в учетных записях пользователей Lync Server.
 
-В этом разделе описывается назначение **Line URI** (URI линии) отдельной учетной записи пользователя. Чтобы назначить **Line URI** (URI линии) нескольким учетным записям пользователей, создайте сценарий, использующий командлет **Set-CsUser**. Для получения дополнительных сведений об использовании примера сценария для назначения **универсального кода ресурса (URI)** для нескольких учетных записей пользователей, в [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945)разделе "Назначение URI строк нескольким пользователям".
+В этом разделе описывается назначение **Line URI** (URI линии) отдельной учетной записи пользователя. Чтобы назначить **Line URI** (URI линии) нескольким учетным записям пользователей, создайте сценарий, использующий командлет **Set-CsUser**. Для получения дополнительных сведений об использовании примера сценария для назначения **универсального кода ресурса (URI)** для нескольких учетных записей пользователей, в разделе "Назначение URI строк нескольким пользователям" [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945) .
 
 <div>
 

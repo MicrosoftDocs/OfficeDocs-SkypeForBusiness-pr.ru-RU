@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521046"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Настройка сертификатов на сервере, на котором работает единая система обмена сообщениями Microsoft Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Настройка сертификатов на сервере, на котором работает единая система обмена сообщениями Microsoft Exchange Server
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-download-the-ca-certificate"></a>Загрузка сертификата ЦС
 
-1.  На сервере единой системы обмена сообщениями Exchange нажмите кнопку **Пуск**, выберите пункт **выполнить**, введите **http://\<имя сервера\>выдающего ЦС/certsrv**и нажмите кнопку **ОК**.
+1.  На сервере с единой системой обмена сообщениями Exchange нажмите кнопку **Пуск**, выберите пункт **выполнить**, введите **http:// \<name of your Issuing CA Server\> /certsrv**и нажмите кнопку **ОК**.
 
 2.  В списке **Выберите задачу** выберите пункт **Загрузка сертификата ЦС, цепочки сертификатов или CRL**.
 
@@ -130,7 +132,7 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Настройка Exchange Server 2013 UM с Lync Server
 
-1.  Дополнительные сведения: "Интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server" в документации по [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)Exchange Server по адресу.
+1.  Дополнительные сведения: "Интеграция Exchange 2013 единой системы обмена сообщениями с Lync Server" в документации по Exchange Server по адресу [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 </div>
 
@@ -138,7 +140,7 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>Создание запроса сертификата и установка сертификата на сервере Exchange Server 2007 с пакетом обновления 1 (SP1)
 
-1.  На сервере единой системы обмена сообщениями Exchange нажмите кнопку **Пуск**, выберите пункт **выполнить**, введите **\<http://** имя сервера**\>** выдающего ЦС/certsrv и нажмите кнопку **ОК**.
+1.  На сервере с единой системой обмена сообщениями Exchange нажмите кнопку **Пуск**, выберите пункт **выполнить**, введите **http:// \<**name of your Issuing CA Server**\> /certsrv**и нажмите кнопку **ОК**.
 
 2.  В списке **Выберите задачу** выберите пункт **Запросить сертификат**.
 
@@ -177,13 +179,13 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Создание сертификата на сервере Exchange Server 2010
 
-1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
+1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в разделе "разрешения клиентского доступа" [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
 2.  Чтобы создать сертификат, обратитесь к следующим разделам:
     
-    1.  "Создать новый сертификат Exchange" по адресу[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Создать новый сертификат Exchange" по адресу [https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Импорт сертификата Exchange" по адресу[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Импорт сертификата Exchange" по адресу [https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +238,9 @@ _**Последнее изменение темы:** 2012-09-26_
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Назначение сертификата на сервере Exchange Server 2010
 
-1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)разделе "разрешения клиентского доступа".
+1.  Выполните вход на сервер единой системы обмена сообщениями Exchange с соответствующими правами пользователя. Дополнительные сведения см. в разделе "разрешения клиентского доступа" [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
-2.  Процедура назначения сертификата приведена в [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)разделе "назначение служб сертификату".
+2.  Процедура назначения сертификата приведена в разделе "назначение служб сертификату" [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497) .
 
 </div>
 

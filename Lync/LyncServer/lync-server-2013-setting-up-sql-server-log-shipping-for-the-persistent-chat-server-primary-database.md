@@ -12,20 +12,22 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 492d4be1865bdb022736a62a2507c115c892b47b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ff5f403329c430e18767d9b334982ecccc3898b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521806"
 ---
+# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Настройка доставки журналов SQL Server в Lync Server 2013 для основной базы данных сервера сохраняемого чата
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Настройка доставки журналов SQL Server в Lync Server 2013 для основной базы данных сервера сохраняемого чата
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**Последнее изменение темы:** 2012-11-12_
 
 6.  В поле **сетевой путь к папке резервной копии** введите сетевой путь к общему ресурсу, созданному для папки резервных копий журналов транзакций.
 
-7.  Если папка резервного копирования расположена на основном сервере, введите локальный путь к папке резервного копирования в том **случае, если папка резервного копирования расположена на основном сервере, введите в поле Локальный путь к папке (например: c:\\Backup)** . (Если резервная папка находится не на основном сервере, вы можете оставить это поле пустым.)
+7.  Если папка резервного копирования расположена на основном сервере, введите локальный путь к папке резервного копирования в том **случае, если папка резервного копирования расположена на основном сервере, введите в поле Локальный путь к папке (например: c: \\ Backup)** . (Если резервная папка находится не на основном сервере, вы можете оставить это поле пустым.)
     
     <div>
     

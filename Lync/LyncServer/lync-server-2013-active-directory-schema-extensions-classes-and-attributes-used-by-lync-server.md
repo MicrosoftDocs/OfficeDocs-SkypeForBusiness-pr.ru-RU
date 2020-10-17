@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191642"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521596"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**Последнее изменение темы:** 2012-06-19_
 
   - Записи управления доступом (ACE), которые создаются в корне домена и встроенных контейнерах во время подготовки домена
 
-  - Изменения, вносимые в подразделение Active Directory (OU) с помощью командлета Grant\_CsSetupPermission.
+  - Изменения, вносимые в подразделение Active Directory (OU) с помощью \_ командлета Grant CsSetupPermission.
 
-  - Изменения, вносимые в подразделение Active Directory с помощью командлета\_Grant CsOUPermission.
+  - Изменения, вносимые в подразделение Active Directory с помощью \_ командлета Grant CsOUPermission.
 
 <div>
 
@@ -73,9 +75,9 @@ _**Последнее изменение темы:** 2012-06-19_
 
   - [Изменения, внесенные при подготовке домена в Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Изменения, внесенные с помощью GRANT – CsSetupPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Изменения, внесенные Grant-CsSetupPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Изменения, внесенные с помощью Grant – CsOUPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Изменения, внесенные Grant-CsOUPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

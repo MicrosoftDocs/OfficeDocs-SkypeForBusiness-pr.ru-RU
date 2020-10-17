@@ -12,20 +12,22 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4565f91afeb703de967040edb8f6d437aedac9eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196402"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521236"
 ---
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Дополнительные требования к программному обеспечению для Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="additional-software-requirements-for-lync-server-2013"></a>Дополнительные требования к программному обеспечению для Lync Server 2013
+
 
 </div>
 
@@ -67,9 +69,9 @@ _**Последнее изменение темы:** 2016-12-08_
 
 <div>
 
-## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
+## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-Lync Server требует Microsoft .NET Framework 4,5 для всех внутренних ролей сервера и на любом компьютере, на котором будут выполняться средства администрирования Lync Server или Microsoft Lync Server 2013, средство планирования. Для Lync Server 2013 необходимо вручную установить 64 – разрядную версию Microsoft .NET Framework 4,5 на сервере перед установкой Lync Server 2013. Чтобы установить его вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+Lync Server требует Microsoft .NET Framework 4,5 для всех внутренних ролей сервера и на любом компьютере, на котором будут выполняться средства администрирования Lync Server или Microsoft Lync Server 2013, средство планирования. Для Lync Server 2013 необходимо вручную установить 64 – разрядную версию Microsoft .NET Framework 4,5 на сервере перед установкой Lync Server 2013. Чтобы установить его вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
 <div>
 
@@ -99,7 +101,7 @@ Lync Server требует Microsoft .NET Framework 4,5 для всех внут
 
 **Windows Identity Foundation** в Lync Server 2013 требует установки Windows Identity Foundation для поддержки сценариев проверки подлинности сервера и сервера. Windows Server 2008 R2 и Windows Server 2012 требуют различных процедур установки Windows Identify Foundation. Выберите серверную операционную систему из следующего списка:
 
-  - Windows Server 2008 R2 для Windows Server 2008 R2 убедитесь, что она уже установлена на вашем компьютере. Для этого откройте раздел **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** **Идентификация Windows Identity Foundation (KB974405)**. Подробные сведения об установке Windows Identity Foundation можно найти [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)в разделе.
+  - Windows Server 2008 R2 для Windows Server 2008 R2 убедитесь, что она уже установлена на вашем компьютере. Для этого откройте раздел **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** **Идентификация Windows Identity Foundation (KB974405)**. Подробные сведения об установке Windows Identity Foundation можно найти в разделе [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
 
   - Windows Server 2012 для Windows Server 2012 вы используете **Диспетчер серверов** для установки Windows Identity Foundation. В **мастере добавления ролей и компонентов**диспетчера серверов выберите **компоненты**. В списке выберите **Windows Identity Foundation 3,5** . Нажмите кнопку **Далее**, а затем — **установить**.
 
@@ -175,7 +177,7 @@ Lync Server требует Microsoft .NET Framework 4,5 для всех внут
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Подробные сведения об установке .NET 3,5 на серверах под управлением Windows Server 2012 приведены в разделе "рекомендации по <https://go.microsoft.com/fwlink/p/?linkid=275032>развертыванию Microsoft .net Framework 3,5".
+Подробные сведения об установке .NET 3,5 на серверах под управлением Windows Server 2012 приведены в разделе "рекомендации по развертыванию Microsoft .NET Framework 3,5" <https://go.microsoft.com/fwlink/p/?linkid=275032> .
 
 </div>
 
@@ -239,11 +241,11 @@ Lync Server требует Microsoft .NET Framework 4,5 для всех внут
 
   - На каждом сервере, на котором работает Lync Server 2013, должна быть установлена правильная версия Windows PowerShell 3,0. Дополнительные сведения см. в статье [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-  - Для Lync Server требуется Microsoft .NET Framework 4,5. Для Lync Server 2013, установленного в Windows Server 2008 R2, перед установкой Lync Server 2013 необходимо вручную установить выпуск 64 – bit для Microsoft .NET Framework 4,5 на сервере. Чтобы установить его вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+  - Для Lync Server требуется Microsoft .NET Framework 4,5. Для Lync Server 2013, установленного в Windows Server 2008 R2, перед установкой Lync Server 2013 необходимо вручную установить выпуск 64 – bit для Microsoft .NET Framework 4,5 на сервере. Чтобы установить его вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
   - **Windows Identity Foundation** в Lync Server 2013 требует установки Windows Identity Foundation для поддержки сценариев проверки подлинности сервера и сервера. Windows Server 2008 R2 и Windows Server 2012 требуют различных процедур установки Windows Identify Foundation. Выберите серверную операционную систему из следующего списка:
     
-      - Windows Server 2008 R2 для Windows Server 2008 R2 убедитесь, что она уже установлена на вашем компьютере. Для этого откройте раздел **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** **Идентификация Windows Identity Foundation (KB974405)**. Подробные сведения об установке Windows Identity Foundation можно найти [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)в разделе.
+      - Windows Server 2008 R2 для Windows Server 2008 R2 убедитесь, что она уже установлена на вашем компьютере. Для этого откройте раздел **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** **Идентификация Windows Identity Foundation (KB974405)**. Подробные сведения об установке Windows Identity Foundation можно найти в разделе [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
     
       - Windows Server 2012 для Windows Server 2012 вы используете **Диспетчер серверов** для установки Windows Identity Foundation. В **мастере добавления ролей и компонентов**диспетчера серверов выберите **компоненты**. В списке выберите **Windows Identity Foundation 3,5** . Нажмите кнопку **Далее**, а затем — **установить**.
 

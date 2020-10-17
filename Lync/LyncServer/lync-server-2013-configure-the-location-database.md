@@ -12,20 +12,22 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ff565c1d884fe2af9a49da6798e8c3e52cb38da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9495bc0c52e8e9af4af0daa3d29304d5b25d4b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213315"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520266"
 ---
+# <a name="configure-the-location-database-in-lync-server-2013"></a>Настройка базы данных местоположений в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-location-database-in-lync-server-2013"></a>Настройка базы данных местоположений в Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Последнее изменение темы:** 2012-09-17_
 
 Чтобы настроить базу данных местоположений, следует выполнить следующие задачи.
 
-1.  Заполните базу данных с сопоставлением сетевых элементов местоположениям. Если вы используете шлюз с идентификационным номером расположения экстренной службы (ELIN), необходимо включить ELIN в поле \<CompanyName\> .
+1.  Заполните базу данных с сопоставлением сетевых элементов местоположениям. Если вы используете шлюз с идентификационным номером расположения экстренной службы (ELIN), в поле необходимо включить ELIN \<CompanyName\> .
 
 2.  Поверьте адрес по руководству MSAG, которое поддерживается поставщиком услуг E9-1-1.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c519e6b89051dd2034c528a817a34afb9044f1e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48d56ec357892fd84e04ccbc9c4996cc6547370e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520022"
 ---
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Разработка топологии для Lync Server 2013 с помощью средства планирования
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Разработка топологии для Lync Server 2013 с помощью средства планирования
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204346"
 
 _**Последнее изменение темы:** 2013-03-04_
 
-Microsoft Lync Server 2013, средство планирования — это средство, которое управляется мастером, которое запрашивает вопросы о разрабатываемой топологии Lync Server 2013. В средстве планирования используются предоставленные сведения, которые связаны с рекомендуемыми рекомендациями по проектированию и емкости топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Средство планирования можно скачать в центре загрузки Майкрософт ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)).
+Microsoft Lync Server 2013, средство планирования — это средство, которое управляется мастером, которое запрашивает вопросы о разрабатываемой топологии Lync Server 2013. В средстве планирования используются предоставленные сведения, которые связаны с рекомендуемыми рекомендациями по проектированию и емкости топологии, чтобы представить рекомендуемую топологию на основе предоставленных ответов. Средство планирования можно скачать в центре загрузки Майкрософт ( [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) ).
 
 В конечном итоге, цель средства планирования заключается в том, чтобы упростить разработку полной топологии Lync Server 2013. Средство также предоставляет контекстные ссылки на документацию по планированию и развертыванию в средстве, при условии, что подключение к Интернету доступно для подключения к веб-сайту Microsoft TechNet.
 
