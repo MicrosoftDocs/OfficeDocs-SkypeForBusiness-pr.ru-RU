@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: создание объектов Contact для размещенной единой системы обмена сообщениями Exchange'
+description: 'Lync Server 2013: создание объектов Contact для размещенной единой системы обмена сообщениями Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c9760e2a39b5182f9b5194e364e059bddc6a63d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532306"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562305"
 ---
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a><span data-ttu-id="a8251-102">Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8251-102">Create contact objects for hosted Exchange UM in Lync Server 2013</span></span>
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a><span data-ttu-id="ffb16-103">Создание объектов Contact для размещенной единой системы обмена сообщениями Exchange в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ffb16-103">Create contact objects for hosted Exchange UM in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48532306"
 
 <span> </span>
 
-<span data-ttu-id="a8251-103">_**Последнее изменение темы:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a8251-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="ffb16-104">_**Последнее изменение темы:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="ffb16-104">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="a8251-104">В этом разделе описывается создание контактных объектов автосекретаря или абонентского доступа для размещенной единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="a8251-104">The following procedure explains how to create Auto Attendant (AA) or Subscriber Access (SA) contact objects for hosted Exchange Unified Messaging (UM).</span></span>
+<span data-ttu-id="ffb16-105">В этом разделе описывается создание контактных объектов автосекретаря или абонентского доступа для размещенной единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="ffb16-105">The following procedure explains how to create Auto Attendant (AA) or Subscriber Access (SA) contact objects for hosted Exchange Unified Messaging (UM).</span></span>
 
-<span data-ttu-id="a8251-105">Дополнительные сведения: [Управление контактными объектами размещенного Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="a8251-105">For details, see [Hosted Exchange Contact object management in Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) in the Planning documentation.</span></span>
+<span data-ttu-id="ffb16-106">Дополнительные сведения: [Управление контактными объектами размещенного Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="ffb16-106">For details, see [Hosted Exchange Contact object management in Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="a8251-106">Для получения дополнительных сведений о настройке объектов Contact обратитесь к документации по командной консоли Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="a8251-106">For details about configuring contact objects, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="ffb16-107">Для получения дополнительных сведений о настройке объектов Contact обратитесь к документации по командной консоли Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="ffb16-107">For details about configuring contact objects, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="a8251-107">New — CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="a8251-107">New-CsExUmContact</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
+  - [<span data-ttu-id="ffb16-108">New — CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="ffb16-108">New-CsExUmContact</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
-  - [<span data-ttu-id="a8251-108">Set — CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="a8251-108">Set-CsExUmContact</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
+  - [<span data-ttu-id="ffb16-109">Set — CsExUmContact</span><span class="sxs-lookup"><span data-stu-id="ffb16-109">Set-CsExUmContact</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="a8251-109">Перед тем как можно будет включить поддержку объектов контактов для размещенной единой системы обмена сообщениями Exchange Server 2013, необходимо развернуть политику размещенной голосовой почты, которая применяется к ним.</span><span class="sxs-lookup"><span data-stu-id="a8251-109">Before Lync Server 2013 contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="a8251-110">Дополнительные сведения см. <A href="lync-server-2013-hosted-voice-mail-policies.md">в разделе политики размещенной голосовой почты в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a8251-110">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="ffb16-110">Перед тем как можно будет включить поддержку объектов контактов для размещенной единой системы обмена сообщениями Exchange Server 2013, необходимо развернуть политику размещенной голосовой почты, которая применяется к ним.</span><span class="sxs-lookup"><span data-stu-id="ffb16-110">Before Lync Server 2013 contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="ffb16-111">Дополнительные сведения см. <A href="lync-server-2013-hosted-voice-mail-policies.md">в разделе политики размещенной голосовой почты в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ffb16-111">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
 
 
 
@@ -61,11 +62,11 @@ ms.locfileid: "48532306"
 
 <div>
 
-## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a><span data-ttu-id="a8251-111">Создание контактных объектов автосекретаря или абонентского доступа для размещенной единой системы обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="a8251-111">To create AA or SA contact objects for hosted Exchange UM</span></span>
+## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a><span data-ttu-id="ffb16-112">Создание контактных объектов автосекретаря или абонентского доступа для размещенной единой системы обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="ffb16-112">To create AA or SA contact objects for hosted Exchange UM</span></span>
 
-1.  <span data-ttu-id="a8251-112">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a8251-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="ffb16-113">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ffb16-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="a8251-p102">Чтобы создать любой контактный объект, необходимо выполнить командлет New-CsExUmContact. Например, для создания контактного объекта автосекретаря и абонентского доступа выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="a8251-p102">Run the New-CsExUmContact cmdlet to create any contact objects required for your deployment. For example, run the following to create an AA and an SA contact object:</span></span>
+2.  <span data-ttu-id="ffb16-p102">Чтобы создать любой контактный объект, необходимо выполнить командлет New-CsExUmContact. Например, для создания контактного объекта автосекретаря и абонентского доступа выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="ffb16-p102">Run the New-CsExUmContact cmdlet to create any contact objects required for your deployment. For example, run the following to create an AA and an SA contact object:</span></span>
     
        ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
@@ -75,26 +76,26 @@ ms.locfileid: "48532306"
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     
-    <span data-ttu-id="a8251-115">В этих примерах используются следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="a8251-115">These examples set the following parameters:</span></span>
+    <span data-ttu-id="ffb16-116">В этих примерах используются следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="ffb16-116">These examples set the following parameters:</span></span>
     
-      - <span data-ttu-id="a8251-116">**SipAddress** указывает SIP-адрес контактного объекта.</span><span class="sxs-lookup"><span data-stu-id="a8251-116">**SipAddress** specifies the SIP address of the contact object.</span></span> <span data-ttu-id="a8251-117">В качестве значения необходимо использовать адрес, который еще не использовался для настройки пользователя или контактного объекта в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="a8251-117">This must be an address that has not already been used to configure a user or contact object in Active Directory Domain Services.</span></span> <span data-ttu-id="a8251-118">Это значение должно быть в формате SIP:, \<*SIP address*\> как показано в предыдущих примерах.</span><span class="sxs-lookup"><span data-stu-id="a8251-118">This value must be in the format “sip:\<*SIP address*\>“ as shown in the previous examples.</span></span>
+      - <span data-ttu-id="ffb16-117">**SipAddress** указывает SIP-адрес контактного объекта.</span><span class="sxs-lookup"><span data-stu-id="ffb16-117">**SipAddress** specifies the SIP address of the contact object.</span></span> <span data-ttu-id="ffb16-118">В качестве значения необходимо использовать адрес, который еще не использовался для настройки пользователя или контактного объекта в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ffb16-118">This must be an address that has not already been used to configure a user or contact object in Active Directory Domain Services.</span></span> <span data-ttu-id="ffb16-119">Это значение должно быть в формате SIP:, \<*SIP address*\> как показано в предыдущих примерах.</span><span class="sxs-lookup"><span data-stu-id="ffb16-119">This value must be in the format “sip:\<*SIP address*\>“ as shown in the previous examples.</span></span>
     
-      - <span data-ttu-id="a8251-119">**RegistrarPool** указывает полное доменное имя пула, в котором выполняется служба регистратора.</span><span class="sxs-lookup"><span data-stu-id="a8251-119">**RegistrarPool** specifies the fully qualified domain name (FQDN) of the pool on which the Registrar service is running.</span></span>
+      - <span data-ttu-id="ffb16-120">**RegistrarPool** указывает полное доменное имя пула, в котором выполняется служба регистратора.</span><span class="sxs-lookup"><span data-stu-id="ffb16-120">**RegistrarPool** specifies the fully qualified domain name (FQDN) of the pool on which the Registrar service is running.</span></span>
         
         <div class=" ">
         
 
         > [!NOTE]  
-        > <span data-ttu-id="a8251-120">Объекты контактов Exchange единой системы обмена сообщениями невозможно переместить в пулы, которые входят в состав развертываний Lync Server 2013 до Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a8251-120">Exchange UM contact objects cannot be moved to pools that are part of Lync Server 2013 deployments prior to Lync Server 2013.</span></span>
+        > <span data-ttu-id="ffb16-121">Объекты контактов Exchange единой системы обмена сообщениями невозможно переместить в пулы, которые входят в состав развертываний Lync Server 2013 до Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ffb16-121">Exchange UM contact objects cannot be moved to pools that are part of Lync Server 2013 deployments prior to Lync Server 2013.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="a8251-121">**OU** задает подразделение Active Directory, в котором будет находиться данный контактный объект.</span><span class="sxs-lookup"><span data-stu-id="a8251-121">**OU** specifies the Active Directory organizational unit where this contact object will be located.</span></span>
+      - <span data-ttu-id="ffb16-122">**OU** задает подразделение Active Directory, в котором будет находиться данный контактный объект.</span><span class="sxs-lookup"><span data-stu-id="ffb16-122">**OU** specifies the Active Directory organizational unit where this contact object will be located.</span></span>
     
-      - <span data-ttu-id="a8251-p104">**DisplayNumber** указывает номер телефона контактного объекта. Номер телефона для каждого контактного объекта должен быть уникальным.</span><span class="sxs-lookup"><span data-stu-id="a8251-p104">**DisplayNumber** specifies the telephone number of the contact object. The phone number for each contact object must be unique.</span></span>
+      - <span data-ttu-id="ffb16-p104">**DisplayNumber** указывает номер телефона контактного объекта. Номер телефона для каждого контактного объекта должен быть уникальным.</span><span class="sxs-lookup"><span data-stu-id="ffb16-p104">**DisplayNumber** specifies the telephone number of the contact object. The phone number for each contact object must be unique.</span></span>
     
-      - <span data-ttu-id="a8251-p105">**AutoAttendant** указывает, является ли данный контактный объект автосекретарем. Автосекретарь предоставляет набор голосовых приглашений, которые позволяют звонящим перемещаться по телефонной системе, чтобы найти требуемого абонента. Значение **False** (по умолчанию) для этого параметра указывает контактный объект абонентского доступа.</span><span class="sxs-lookup"><span data-stu-id="a8251-p105">**AutoAttendant** specifies whether the Contact object is an Auto Attendant. Auto Attendant provides a set of voice prompts that allow callers to navigate the phone system and reach the party that they want to contact. A value of **False** (the default) for this parameter indicates a Subscriber Access contact object.</span></span>
+      - <span data-ttu-id="ffb16-p105">**AutoAttendant** указывает, является ли данный контактный объект автосекретарем. Автосекретарь предоставляет набор голосовых приглашений, которые позволяют звонящим перемещаться по телефонной системе, чтобы найти требуемого абонента. Значение **False** (по умолчанию) для этого параметра указывает контактный объект абонентского доступа.</span><span class="sxs-lookup"><span data-stu-id="ffb16-p105">**AutoAttendant** specifies whether the Contact object is an Auto Attendant. Auto Attendant provides a set of voice prompts that allow callers to navigate the phone system and reach the party that they want to contact. A value of **False** (the default) for this parameter indicates a Subscriber Access contact object.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Тестирование и составление отчетов о состоянии и назначении проверки подлинности Kerberos
+description: Тестирование и составление отчетов о состоянии и назначении проверки подлинности Kerberos.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d322264b8617d62a3c4d108ba18591ae0530aa94
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d5756499558e474cdd500d4013d544968c88b0c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530546"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560755"
 ---
-# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="f85b2-102">Тестирование и составление отчетов о состоянии и назначении проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f85b2-102">Testing and reporting the status and assignment of Kerberos authentication in Lync Server 2013</span></span>
+# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="8da78-103">Тестирование и составление отчетов о состоянии и назначении проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8da78-103">Testing and reporting the status and assignment of Kerberos authentication in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48530546"
 
 <span> </span>
 
-<span data-ttu-id="f85b2-103">_**Последнее изменение темы:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="f85b2-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="8da78-104">_**Последнее изменение темы:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="8da78-104">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="f85b2-104">Если необходимо протестировать назначения Kerberos или определить состояние проверки подлинности Kerberos, можно использовать командлеты Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f85b2-104">If you need to test the Kerberos assignments or determine the status of Kerberos authentication, you can use Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="8da78-105">Если необходимо протестировать назначения Kerberos или определить состояние проверки подлинности Kerberos, можно использовать командлеты Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8da78-105">If you need to test the Kerberos assignments or determine the status of Kerberos authentication, you can use Windows PowerShell cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f85b2-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="f85b2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8da78-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="8da78-106">In This Section</span></span>
 
-  - [<span data-ttu-id="f85b2-106">Тестирование и составление отчетов о готовности к использованию проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f85b2-106">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [<span data-ttu-id="8da78-107">Тестирование и составление отчетов о готовности к использованию проверки подлинности Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8da78-107">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
-  - [<span data-ttu-id="f85b2-107">Отчет о назначениях учетных записей Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f85b2-107">Report Kerberos account assignments in Lync Server 2013</span></span>](lync-server-2013-report-kerberos-account-assignments.md)
+  - [<span data-ttu-id="8da78-108">Отчет о назначениях учетных записей Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8da78-108">Report Kerberos account assignments in Lync Server 2013</span></span>](lync-server-2013-report-kerberos-account-assignments.md)
 
 </div>
 

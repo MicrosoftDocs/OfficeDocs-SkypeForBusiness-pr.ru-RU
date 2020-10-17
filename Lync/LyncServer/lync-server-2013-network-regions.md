@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: области сети'
+description: 'Lync Server 2013: области сети.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3506f3c543c0728f27bd091b9cd63991c4633da7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505496"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561485"
 ---
-# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="646a0-102">Регионы сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="646a0-102">Network regions in Lync Server 2013</span></span>
+# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="5f9f6-103">Регионы сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f9f6-103">Network regions in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48505496"
 
 <span> </span>
 
-<span data-ttu-id="646a0-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="646a0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="5f9f6-104">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="5f9f6-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="646a0-104">*Области сети* представляют собой сетевые концентраторы или магистрали, используемые в конфигурации контроля допуска звонков, E9-1-1 и обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="646a0-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="646a0-105">Следующие процедуры используются для просмотра, создания или изменения областей сети.</span><span class="sxs-lookup"><span data-stu-id="646a0-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="646a0-106">Например, если области сети уже созданы для одного из компонентов голосовой связи, новые области сети создавать не требуется; остальные расширенные компоненты корпоративной голосовой связи используют те же области сети.</span><span class="sxs-lookup"><span data-stu-id="646a0-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="646a0-107">Тем не менее, возможно, потребуется изменить существующее определение области сети, чтобы применить специальные настройки для конкретных компонентов.</span><span class="sxs-lookup"><span data-stu-id="646a0-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="646a0-108">Например, когда после создания областей сети для системы E9-1-1 (которой не требуется связанный центральный сайт) выполняется развертывание системы контроля допуска звонков, потребуется изменить определения области сети для указания центрального сайта.</span><span class="sxs-lookup"><span data-stu-id="646a0-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="646a0-109">Дополнительные сведения см. [в статье configure Network regions for CAC в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="646a0-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+<span data-ttu-id="5f9f6-105">*Области сети* представляют собой сетевые концентраторы или магистрали, используемые в конфигурации контроля допуска звонков, E9-1-1 и обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-105">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="5f9f6-106">Следующие процедуры используются для просмотра, создания или изменения областей сети.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-106">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="5f9f6-107">Например, если области сети уже созданы для одного из компонентов голосовой связи, новые области сети создавать не требуется; остальные расширенные компоненты корпоративной голосовой связи используют те же области сети.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-107">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="5f9f6-108">Тем не менее, возможно, потребуется изменить существующее определение области сети, чтобы применить специальные настройки для конкретных компонентов.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-108">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="5f9f6-109">Например, когда после создания областей сети для системы E9-1-1 (которой не требуется связанный центральный сайт) выполняется развертывание системы контроля допуска звонков, потребуется изменить определения области сети для указания центрального сайта.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-109">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="5f9f6-110">Дополнительные сведения см. [в статье configure Network regions for CAC в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="5f9f6-110">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="646a0-110">Все специальные требования в отношении определений области сети для конкретных компонентов указаны в документации по развертыванию данных компонентов.</span><span class="sxs-lookup"><span data-stu-id="646a0-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
+> <span data-ttu-id="5f9f6-111">Все специальные требования в отношении определений области сети для конкретных компонентов указаны в документации по развертыванию данных компонентов.</span><span class="sxs-lookup"><span data-stu-id="5f9f6-111">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
@@ -53,21 +54,21 @@ ms.locfileid: "48505496"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="646a0-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="646a0-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5f9f6-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="5f9f6-112">In This Section</span></span>
 
-  - [<span data-ttu-id="646a0-112">Просмотр сведений о области сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="646a0-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
+  - [<span data-ttu-id="5f9f6-113">Просмотр сведений о области сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f9f6-113">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
 
-  - [<span data-ttu-id="646a0-113">Создание или изменение областей сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="646a0-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [<span data-ttu-id="5f9f6-114">Создание или изменение областей сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f9f6-114">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [<span data-ttu-id="646a0-114">Удаление существующих областей сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="646a0-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
+  - [<span data-ttu-id="5f9f6-115">Удаление существующих областей сети в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f9f6-115">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="646a0-115">Справочные материалы</span><span class="sxs-lookup"><span data-stu-id="646a0-115">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="5f9f6-116">Справочные материалы</span><span class="sxs-lookup"><span data-stu-id="5f9f6-116">Reference</span></span>
 
-[<span data-ttu-id="646a0-116">Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="646a0-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="5f9f6-117">Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f9f6-117">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
