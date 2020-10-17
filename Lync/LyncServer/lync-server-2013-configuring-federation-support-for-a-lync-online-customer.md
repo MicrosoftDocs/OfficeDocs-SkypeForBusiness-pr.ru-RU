@@ -12,20 +12,22 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cffed0c856577a60a9782850006b82f2c9d45374
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbb7421f204ded840dc627354b0d66627840c594
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202925"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517536"
 ---
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="fede2-102">Настройка поддержки федерации для клиента Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fede2-102">Configuring federation support for a Lync Online customer in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="024c9-102">Настройка поддержки федерации для клиента Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="024c9-102">Configuring federation support for a Lync Online customer in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42202925"
 
 <span> </span>
 
-<span data-ttu-id="024c9-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="024c9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="fede2-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fede2-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="024c9-104">Вы можете предоставить службы мгновенных сообщений пользователям свой организации любым из следующих способов:</span><span class="sxs-lookup"><span data-stu-id="024c9-104">You can provide communications services to users in your organization in any of the following ways:</span></span>
+<span data-ttu-id="fede2-104">Вы можете предоставить службы мгновенных сообщений пользователям свой организации любым из следующих способов:</span><span class="sxs-lookup"><span data-stu-id="fede2-104">You can provide communications services to users in your organization in any of the following ways:</span></span>
 
-  - <span data-ttu-id="024c9-105">Развертывание Lync Server 2013 в Организации (называемой *локальными службами*) и Настройка учетных записей пользователей Lync 2013 в Организации.</span><span class="sxs-lookup"><span data-stu-id="024c9-105">Deploying Lync Server 2013 in your organization (known as *on-premises services*) and setting up Lync 2013 user accounts in your organization.</span></span>
+  - <span data-ttu-id="fede2-105">Развертывание Lync Server 2013 в Организации (называемой *локальными службами*) и Настройка учетных записей пользователей Lync 2013 в Организации.</span><span class="sxs-lookup"><span data-stu-id="fede2-105">Deploying Lync Server 2013 in your organization (known as *on-premises services*) and setting up Lync 2013 user accounts in your organization.</span></span>
 
-  - <span data-ttu-id="024c9-106">Настройка учетной записи клиента Microsoft Lync Online 2010 с поставщиком услуг хостинга и Настройка учетных записей пользователей с помощью поставщика услуг хостинга (известного как *веб-службы*).</span><span class="sxs-lookup"><span data-stu-id="024c9-106">Setting up a Microsoft Lync Online 2010 customer account with a Hosting Provider and setting up user accounts with the Hosting Provider (known as *online services*).</span></span>
+  - <span data-ttu-id="fede2-106">Настройка учетной записи клиента Microsoft Lync Online 2010 с поставщиком услуг хостинга и Настройка учетных записей пользователей с помощью поставщика услуг хостинга (известного как *веб-службы*).</span><span class="sxs-lookup"><span data-stu-id="fede2-106">Setting up a Microsoft Lync Online 2010 customer account with a Hosting Provider and setting up user accounts with the Hosting Provider (known as *online services*).</span></span>
 
-<span data-ttu-id="024c9-107">При развертывании Lync 2013 в Организации можно использовать федерацию с доменами одного или нескольких клиентов Microsoft Lync Online 2010.</span><span class="sxs-lookup"><span data-stu-id="024c9-107">If you deploy Lync 2013 in your organization, you can federate with the domains of one or more Microsoft Lync Online 2010 customers.</span></span> <span data-ttu-id="024c9-108">Чтобы включить федерацию между пользователями локального развертывания Lync 2013 и пользователями клиента Lync Online 2010, необходимо настроить поддержку домена и пользователей клиента Lync Online.</span><span class="sxs-lookup"><span data-stu-id="024c9-108">To enable federation between users of your on-premises Lync 2013 deployment and users of a Lync Online 2010 customer, you must configure support for the domain and users of the Lync Online customer.</span></span>
+<span data-ttu-id="fede2-107">При развертывании Lync 2013 в Организации можно использовать федерацию с доменами одного или нескольких клиентов Microsoft Lync Online 2010.</span><span class="sxs-lookup"><span data-stu-id="fede2-107">If you deploy Lync 2013 in your organization, you can federate with the domains of one or more Microsoft Lync Online 2010 customers.</span></span> <span data-ttu-id="fede2-108">Чтобы включить федерацию между пользователями локального развертывания Lync 2013 и пользователями клиента Lync Online 2010, необходимо настроить поддержку домена и пользователей клиента Lync Online.</span><span class="sxs-lookup"><span data-stu-id="fede2-108">To enable federation between users of your on-premises Lync 2013 deployment and users of a Lync Online 2010 customer, you must configure support for the domain and users of the Lync Online customer.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="024c9-109">В этой документации описываются только процедуры настройки организации для поддержки Федерации с клиентом Lync Online 2010.</span><span class="sxs-lookup"><span data-stu-id="024c9-109">This documentation describes only the procedures for configuring your organization to support federation with an Lync Online 2010 customer.</span></span> <span data-ttu-id="024c9-110">В этой документации не описываются процедуры настройки клиента Lync Online 2010 для поддержки Федерации.</span><span class="sxs-lookup"><span data-stu-id="024c9-110">This documentation does not describe the procedures for configuring the Lync Online 2010 customer to support federation.</span></span> <span data-ttu-id="024c9-111">Подробнее о службах Lync Online можно узнать в статье Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>Online по адресу.</span><span class="sxs-lookup"><span data-stu-id="024c9-111">For details about Lync Online services, see Lync Online at <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>.</span></span>
+> <span data-ttu-id="fede2-109">В этой документации описываются только процедуры настройки организации для поддержки Федерации с клиентом Lync Online 2010.</span><span class="sxs-lookup"><span data-stu-id="fede2-109">This documentation describes only the procedures for configuring your organization to support federation with an Lync Online 2010 customer.</span></span> <span data-ttu-id="fede2-110">В этой документации не описываются процедуры настройки клиента Lync Online 2010 для поддержки Федерации.</span><span class="sxs-lookup"><span data-stu-id="fede2-110">This documentation does not describe the procedures for configuring the Lync Online 2010 customer to support federation.</span></span> <span data-ttu-id="fede2-111">Подробнее о службах Lync Online можно узнать в статье Lync Online по адресу <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A> .</span><span class="sxs-lookup"><span data-stu-id="fede2-111">For details about Lync Online services, see Lync Online at <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>.</span></span>
 
 
 
@@ -57,15 +59,15 @@ ms.locfileid: "42202925"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="024c9-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="024c9-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fede2-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="fede2-112">In This Section</span></span>
 
-  - [<span data-ttu-id="024c9-113">Необходимые условия для Федерации с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="024c9-113">Prerequisites for federating with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
+  - [<span data-ttu-id="fede2-113">Необходимые условия для Федерации с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fede2-113">Prerequisites for federating with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
 
-  - [<span data-ttu-id="024c9-114">Настройка поддержки федерации для домена Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="024c9-114">Configure federation support for a Lync Online domain in Lync Server 2013</span></span>](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+  - [<span data-ttu-id="fede2-114">Настройка поддержки федерации для домена Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fede2-114">Configure federation support for a Lync Online domain in Lync Server 2013</span></span>](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
 
-  - [<span data-ttu-id="024c9-115">Настройка доступа пользователей для Федерации с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="024c9-115">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+  - [<span data-ttu-id="fede2-115">Настройка доступа пользователей для Федерации с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fede2-115">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
 
-  - [<span data-ttu-id="024c9-116">Проверка связи с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="024c9-116">Verify communications with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+  - [<span data-ttu-id="fede2-116">Проверка связи с клиентом Lync Online в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fede2-116">Verify communications with a Lync Online customer in Lync Server 2013</span></span>](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
 
 </div>
 
