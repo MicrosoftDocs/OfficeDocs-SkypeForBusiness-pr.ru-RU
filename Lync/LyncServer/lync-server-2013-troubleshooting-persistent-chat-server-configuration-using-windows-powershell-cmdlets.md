@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Устранение неполадок конфигурации сервера сохраняемого чата с помощью командлетов Windows PowerShell'
+description: 'Lync Server 2013: Устранение неполадок конфигурации сервера сохраняемого чата с помощью командлетов Windows PowerShell.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc6c5ece30c9ff65009b154b193f28f0d24ebe2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d73f4e07f909f0872e127240b4cc9c329a243bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518986"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548925"
 ---
 # <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Устранение неполадок конфигурации сервера сохраняемого чата с помощью командлетов Windows PowerShell в Lync Server 2013
 
