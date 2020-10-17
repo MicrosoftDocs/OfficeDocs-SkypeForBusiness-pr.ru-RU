@@ -12,20 +12,22 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b864bb96ea7d342dbfd449cc9a151b0d7c2dee6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: acca3c362a5e0a2a8a6198d156c24be47884d70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525446"
 ---
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a>Удаление конфигурации архивации в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a>Удаление конфигурации архивации в Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации архивации с помощью командлетов Windows PowerShell
 
-Параметры конфигурации архивации можно удалить с помощью Windows PowerShell и командлета **Remove – CsArchivingConfiguration** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Параметры конфигурации архивации можно удалить с помощью Windows PowerShell и командлета **Remove – CsArchivingConfiguration** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

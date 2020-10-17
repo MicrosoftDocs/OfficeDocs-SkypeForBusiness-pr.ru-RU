@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214447"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523746"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>ТблпринЦипалаффилиатионс в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>ТблпринЦипалаффилиатионс в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-09-12_
 
 ТблпринЦипалаффилиатионс содержит основные сведения о членстве в расположениях, включая группы безопасности доменных служб Active Directory, в контейнерах Active Directory в доменах.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Столбцы
 
 <table>
 <colgroup>
@@ -57,18 +59,18 @@ _**Последнее изменение темы:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>принЦипалид</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор присоединенного субъекта.</p></td>
 </tr>
 <tr class="even">
 <td><p>аффилиатионид</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор субъекта, представляющего присоединение. Каждый субъект (за исключением типов пользователей системы) также присоединен сам к себе.</p></td>
 </tr>
 <tr class="odd">
 <td><p>index</p></td>
 <td><p>int, NOT NULL</p></td>
-<td><p>Индекса. Значение для самоназначений равно-1, а для других присоединений он последовательно увеличивается от 1 в каждом &lt;сегменте ПринЦипалид, аффилиатионид.&gt;</p></td>
+<td><p>Индекса. Значение для самоназначений равно-1, а для других присоединений он последовательно увеличивается от 1 в каждом &lt; сегменте принЦипалид, аффилиатионид &gt; .</p></td>
 </tr>
 <tr class="even">
 <td><p>упдатедби</p></td>
@@ -88,7 +90,7 @@ _**Последнее изменение темы:** 2012-09-12_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columns</th>
+<th>Столбцы</th>
 <th>Описание</th>
 </tr>
 </thead>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b205b8fefd29d537ce772aa3ebb8be02aa0ea14
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fcd4c54fb475a9d9c999c8b16b38b0bd4c3a965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186372"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525186"
 ---
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Поддержка клиентского программного обеспечения Lync в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-software-support-in-lync-server-2013"></a>Поддержка клиентского программного обеспечения Lync в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2016-02-25_
 <tbody>
 <tr class="odd">
 <td><p>Операционная система Windows</p></td>
-<td><p>Windows 10</p>
+<td><p>Windows 10</p>
 <p>Windows 8.1</p>
 <p>Windows 8</p>
 <p>Операционная система Windows 7</p>
@@ -124,9 +126,9 @@ _**Последнее изменение темы:** 2016-02-25_
 
 Lync 2013 доступен только для Windows. Тем не менее, Lync Server 2013 поддерживает следующие клиенты на компьютерах под управлением ОС Mac OS 10.5.8 или более поздней версии (операционная система на базе Mac OS 10,9 в настоящее время не поддерживается). Дополнительные сведения о поддерживаемых функциях приведены в [таблицах сравнения клиентов для Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Lync для Mac 2011 (раздел "Руководство по развертыванию Lync для Mac 2011 [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786)")
+  - Microsoft Lync для Mac 2011 (раздел "Руководство по развертыванию Lync для Mac 2011" [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786) )
 
-  - Microsoft Communicator для Mac 2011 (раздел "Руководство по развертыванию Communicator for Mac 2011 [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787)")
+  - Microsoft Communicator для Mac 2011 (раздел "Руководство по развертыванию Communicator for Mac 2011" [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787) )
 
 </div>
 
@@ -156,7 +158,7 @@ Lync Server 2013 клиенты поддерживают интеграцию с
 
 ## <a name="using-mandatory-profiles"></a>Использование обязательных профилей
 
-Если пользователям планируется использовать функции конференц-связи Lync 2013, им не следует использовать обязательные профили доменных служб Active Directory для входа в клиент Lync 2013. Так как обязательные профили являются профилями пользователей с доступом только для чтения, ключи инфраструктуры открытых ключей (PKI), необходимые для конференц-связи Lync 2013, невозможно сохранить в профиле. Дополнительные сведения можно найти в [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)статье базы знаний Майкрософт 2552221, если пользователь вошел с помощью обязательного профиля пользователя, функция конференц-связи Lync 2010 завершается с ошибкой.
+Если пользователям планируется использовать функции конференц-связи Lync 2013, им не следует использовать обязательные профили доменных служб Active Directory для входа в клиент Lync 2013. Так как обязательные профили являются профилями пользователей с доступом только для чтения, ключи инфраструктуры открытых ключей (PKI), необходимые для конференц-связи Lync 2013, невозможно сохранить в профиле. Дополнительные сведения можно найти в статье базы знаний Майкрософт 2552221, если пользователь вошел с помощью обязательного профиля пользователя, функция конференц-связи Lync 2010 завершается с ошибкой [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221) .
 
 </div>
 

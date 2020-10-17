@@ -12,20 +12,22 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d413c53f8f6600170cf7ec7bfdcca8b052101eca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99a563df5e0eb21bf94b97dd4c578aefea896496
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186832"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525246"
 ---
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Поддержка протоколов IP и сети в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Поддержка протоколов IP и сети в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-09-21_
 
 Lync Server 2013 поддерживает следующие протоколы IP и сети:
 
-  - **IP-протоколы.**    Lync Server 2013 поддерживает протокол IP версии 4 (IPv4) или IP версии 6 (IPv6) для сети сервера.
+  - **IP-протоколы.**     Lync Server 2013 поддерживает протокол IP версии 4 (IPv4) или IP версии 6 (IPv6) для сети сервера.
     
     <div>
     
@@ -50,7 +52,7 @@ Lync Server 2013 поддерживает следующие протоколы 
     
     </div>
 
-  - **Транспортный протокол SIP.**    В общем случае SIP может использовать по крайней мере три типа транспорта: протокол UDP, протокол управления передачей (TCP) и протокол TLS (Transport Layer Security). В конфигурации SIP по умолчанию TLS запускается поверх TCP. Протокол TLS используется в сети Lync Server 2013. На краю сети Lync Server 2013 может взаимодействовать по протоколу TCP. Lync Server 2013 не поддерживает транспортный протокол UDP, так как он не соответствует минимальным стандартам безопасности, надежности и масштабируемости для корпоративной связи. Дополнительные сведения см. в статье, посвященной записи в блоге, "to UDP, а не UDP, который является вопросом [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369)" по адресу.
+  - **Транспортный протокол SIP.**     В общем случае SIP может использовать по крайней мере три типа транспорта: протокол UDP, протокол управления передачей (TCP) и протокол TLS (Transport Layer Security). В конфигурации SIP по умолчанию TLS запускается поверх TCP. Протокол TLS используется в сети Lync Server 2013. На краю сети Lync Server 2013 может взаимодействовать по протоколу TCP. Lync Server 2013 не поддерживает транспортный протокол UDP, так как он не соответствует минимальным стандартам безопасности, надежности и масштабируемости для корпоративной связи. Дополнительные сведения см. в статье, посвященной записи в блоге, "to UDP, а не UDP, который является вопросом" по адресу [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369) .
     
     <div>
     

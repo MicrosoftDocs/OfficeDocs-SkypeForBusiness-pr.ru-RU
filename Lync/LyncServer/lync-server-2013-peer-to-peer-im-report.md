@@ -12,20 +12,22 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddfd9bc59a42a8ab8cad77fa0c434adc1da02c27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16098a1d549c155f9a642f7e68f056f07973217d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524376"
 ---
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Отчет об одноранговом обмене мгновенными сообщениями в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Отчет об одноранговом обмене мгновенными сообщениями в Lync Server 2013
+
 
 </div>
 
@@ -82,12 +84,12 @@ _**Последнее изменение темы:** 2012-11-01_
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>Начальные дата и время временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</p>
-<p>7/7/2012 1:00 PM</p>
+<p>7/7/2012 13:00.</p>
 <p>Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</p>
 <p>7/7/2012</p>
 <p>Чтобы просмотреть данные за неделю или месяц, введите любую дату соответствующей недели или месяца (необязательно первую их дату):</p>
 <p>7/3/2012</p>
-<p>Недели всегда начинаются с Воскресенья и заканчиваются в Субботу.</p></td>
+<p>Неделя всегда начинается с воскресения и заканчивается субботой.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -147,7 +149,7 @@ _**Последнее изменение темы:** 2012-11-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ресурсов</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Имя пула регистратора или пограничного сервера.</p></td>
 </tr>

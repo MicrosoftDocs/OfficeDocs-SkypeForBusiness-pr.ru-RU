@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525156"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Средство диагностики предзвонков для Lync в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Средство диагностики предзвонков для Lync в Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ PCD наиболее полезен в ситуациях, когда после
 
   - Улучшения стабильности
 
-Мы ценим ваши отзывы. Отправьте все вопросы по поддержке или проблемы в псевдоним [отзывов PCD](mailto:pcdfb@microsoft.com) по адресу <pcdfb@microsoft.com>.
+Мы ценим ваши отзывы. Отправьте все вопросы по поддержке или проблемы в псевдоним [отзывов PCD](mailto:pcdfb@microsoft.com) по адресу <pcdfb@microsoft.com> .
 
 В этом разделе содержатся следующие разделы:
 
@@ -75,7 +77,7 @@ PCD наиболее полезен в ситуациях, когда после
 
 В этом разделе описываются следующие версии средства, доступные для бесплатной загрузки:
 
-  - Классическое приложение Windows[https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914)()
+  - Классическое приложение Windows ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ PCD наиболее полезен в ситуациях, когда после
 
   - Любой выпуск операционной системы Windows 7 или Windows 8
 
-  - Microsoft .NET Framework 4,5 доступен по адресу[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4,5 доступен по адресу [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

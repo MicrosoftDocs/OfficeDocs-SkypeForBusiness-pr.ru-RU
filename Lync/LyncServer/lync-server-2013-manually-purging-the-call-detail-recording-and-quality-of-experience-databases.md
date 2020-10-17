@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185382"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524786"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Ручное удаление баз данных регистрации вызовов и качества взаимодействия в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Ручное удаление баз данных регистрации вызовов и качества взаимодействия в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2014-07-07_
 
 Администраторы могут настроить базы данных регистрации вызовов (CDR) и/или качества взаимодействия (QoE) для автоматического удаления старых записей из базы данных. Это происходит в том случае, если для указанной базы данных (CDR или QoE) включена очистка (или), и в базе данных есть записи, которые находятся в базе данных дольше указанного промежутка времени. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.
 
-В дополнение к этой автоматической очистке в Microsoft Lync Server 2013 добавлены два новых командлета — Invoke — CsCdrDatabasePurge и Invoke — Кскоедатбасепурже. Эти командлеты позволяют администраторам вручную удалять записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
+В дополнение к этой автоматической очистке в Microsoft Lync Server 2013 добавлены два новых командлета: Invoke-CsCdrDatabasePurge и Invoke-CsQoEDatbasePurge. Эти командлеты позволяют администраторам вручную удалять записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 

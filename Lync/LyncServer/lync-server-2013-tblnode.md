@@ -12,20 +12,22 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 459b5393f255ade4e510f17c11beccf2f38f7cfc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523816"
 ---
+# <a name="tblnode-in-lync-server-2013"></a>tblNode в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblnode-in-lync-server-2013"></a>tblNode в Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Последнее изменение темы:** 2012-09-12_
 
 tblNode содержит дерево объектов (с узлами категории или комнаты чата), которое управляется в панели управления Lync Server 2013 и административные командлеты.
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>Столбцы
 
 <table>
 <colgroup>
@@ -57,7 +59,7 @@ tblNode содержит дерево объектов (с узлами кате
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int, не null</p></td>
+<td><p>int, not null</p></td>
 <td><p>ИД узла (уникальное число).</p></td>
 </tr>
 <tr class="even">
@@ -72,13 +74,13 @@ tblNode содержит дерево объектов (с узлами кате
 </tr>
 <tr class="even">
 <td><p>nodeType</p></td>
-<td><p>bit, не равно null</p></td>
+<td><p>bit, not null</p></td>
 <td><p>True, если узел является категорией.</p>
 <p>False, если узел является комнатой чата.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeName</p></td>
-<td><p>nvarchar (256), не может быть null</p></td>
+<td><p>nvarchar (256), not null</p></td>
 <td><p>Имя узла.</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +129,7 @@ tblNode содержит дерево объектов (с узлами кате
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>активирован</p></td>
+<td><p>отключено</p></td>
 <td><p>bit, not null</p></td>
 <td><p>True, если комната чата отключена. Применяется только к комнатам чата. (Для категорий — False.)</p></td>
 </tr>
@@ -138,7 +140,7 @@ tblNode содержит дерево объектов (с узлами кате
 </tr>
 <tr class="even">
 <td><p>такое</p></td>
-<td><p>smallint, не может быть null</p></td>
+<td><p>smallint, not null</p></td>
 <td><p>Поведение (поиск в таблице EnumValue):</p>
 <ul>
 <li><p>4: Normal (обычные комнаты чата).</p></li>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c2a3d9b8907d888f7edbd65c550315dfabe3306
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6ab6d90109d177fde84f8693cb4d14b5d8a6fdb9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525546"
 ---
+# <a name="delete-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Удаление параметров конфигурации качества взаимодействия в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-quality-of-experience-configuration-settings-in-lync-server-2013"></a>Удаление параметров конфигурации качества взаимодействия в Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации QoE с помощью командлетов Windows PowerShell
 
-Вы можете удалить параметры конфигурации QoE с помощью Windows PowerShell и командлета **Remove – CsQoEConfiguration** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Вы можете удалить параметры конфигурации QoE с помощью Windows PowerShell и командлета **Remove – CsQoEConfiguration** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

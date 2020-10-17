@@ -12,20 +12,22 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c87de9c57abaf4938b350aa40e8deea1150d22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524176"
 ---
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Поддержка интеграции размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Поддержка интеграции размещенной единой системы обмена сообщениями Exchange в Lync Server 2013
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42208295"
 
 _**Последнее изменение темы:** 2012-09-21_
 
-Приложение Lync Server 2013 ExUM Routing поддерживает интеграцию с единой системой обмена сообщениями Exchange в локальной среде, где Lync Server 2013 и единая система обмена сообщениями установлены локально на предприятии, или с единой системой обмена сообщениями Exchange, размещенной на сервере поставщика услуг, как показано на следующей схеме.
+Приложение Lync Server 2013 ExUM Routing поддерживает интеграцию с единой системой обмена сообщениями Exchange в локальной среде, где Lync Server 2013 и Exchange единой системы обмена сообщениями устанавливаются локально на предприятии, или с единой системой обмена сообщениями Exchange, размещенной у поставщика услуг, как показано на следующей схеме.
 
 ![Развертывание локальной единой системы обмена сообщениями Lync Server Exchange](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Развертывание локальной единой системы обмена сообщениями Lync Server Exchange")
 
 Поддерживаются следующие режимы:
 
-  - **Локальный режим**   Lync Server 2013 и единой системы обмена сообщениями Exchange развернуты на локальных серверах предприятия.
+  - **Локальный режим**     Lync Server 2013 и служба единой системы обмена сообщениями Exchange развернуты на локальных серверах предприятия.
 
-  - ****   Распределенный режим Lync Server 2013 развернут на локальных серверах в Организации, а единая система обмена сообщениями Exchange размещается в средстве поставщика веб-служб, например в центре обработки данных Microsoft Exchange Online.
+  - **Перекрестный режим**     Lync Server 2013 развернут на локальных серверах в Организации, а единая система обмена сообщениями Exchange размещается в средстве поставщика веб-служб, например в центре обработки данных Microsoft Exchange Online.
 
-  - **Смешанный режим**   в развертывании Lync Server 2013 имеются некоторые почтовые ящики пользователей, размещенные на локальных серверах Microsoft Exchange Server на предприятии, а некоторые почтовые ящики расположены в размещенном центре обработки данных службы Exchange.
+  - **Смешанный режим**     В развертывании Lync Server 2013 есть некоторые почтовые ящики пользователей, размещенные на локальных серверах Microsoft Exchange Server на предприятии, а некоторые почтовые ящики расположены в размещенном центре обработки данных службы Exchange.
     
     <div>
     
