@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица phones'
+description: 'Lync Server 2013: phones Table.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1f7e2a4cb5d55dad8284e71688d3ee41ce05856
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9c62fffecd2442b79aefde77eb037dca4bffc9d4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524186"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554815"
 ---
-# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="8de9e-102">Таблица phones в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8de9e-102">Phones table in Lync Server 2013</span></span>
+# <a name="phones-table-in-lync-server-2013"></a><span data-ttu-id="394b8-103">Таблица phones в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="394b8-103">Phones table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48524186"
 
 <span> </span>
 
-<span data-ttu-id="8de9e-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="8de9e-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="394b8-104">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="394b8-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="8de9e-104">Таблица phones это вспомогательная таблица.</span><span class="sxs-lookup"><span data-stu-id="8de9e-104">The Phones table is a supporting table.</span></span> <span data-ttu-id="8de9e-105">Каждая запись в таблице содержит сведения об одном номере телефона, участвующем в вызовах VoIP с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="8de9e-105">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
+<span data-ttu-id="394b8-105">Таблица phones это вспомогательная таблица.</span><span class="sxs-lookup"><span data-stu-id="394b8-105">The Phones table is a supporting table.</span></span> <span data-ttu-id="394b8-106">Каждая запись в таблице содержит сведения об одном номере телефона, участвующем в вызовах VoIP с записями в базе данных.</span><span class="sxs-lookup"><span data-stu-id="394b8-106">Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.</span></span>
 
 
 <table>
@@ -51,31 +52,31 @@ ms.locfileid: "48524186"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8de9e-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="8de9e-106">Column</span></span></th>
-<th><span data-ttu-id="8de9e-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="8de9e-107">Data Type</span></span></th>
-<th><span data-ttu-id="8de9e-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="8de9e-108">Key/Index</span></span></th>
-<th><span data-ttu-id="8de9e-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="8de9e-109">Details</span></span></th>
+<th><span data-ttu-id="394b8-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="394b8-107">Column</span></span></th>
+<th><span data-ttu-id="394b8-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="394b8-108">Data Type</span></span></th>
+<th><span data-ttu-id="394b8-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="394b8-109">Key/Index</span></span></th>
+<th><span data-ttu-id="394b8-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="394b8-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8de9e-110"><strong>фонеид</strong></span><span class="sxs-lookup"><span data-stu-id="8de9e-110"><strong>PhoneId</strong></span></span></p></td>
-<td><p><span data-ttu-id="8de9e-111">int</span><span class="sxs-lookup"><span data-stu-id="8de9e-111">int</span></span></p></td>
-<td><p><span data-ttu-id="8de9e-112">Primary</span><span class="sxs-lookup"><span data-stu-id="8de9e-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="8de9e-113">Уникальный номер, идентифицирующий этот телефон.</span><span class="sxs-lookup"><span data-stu-id="8de9e-113">Unique number identifying this phone.</span></span></p></td>
+<td><p><span data-ttu-id="394b8-111"><strong>фонеид</strong></span><span class="sxs-lookup"><span data-stu-id="394b8-111"><strong>PhoneId</strong></span></span></p></td>
+<td><p><span data-ttu-id="394b8-112">int</span><span class="sxs-lookup"><span data-stu-id="394b8-112">int</span></span></p></td>
+<td><p><span data-ttu-id="394b8-113">Primary</span><span class="sxs-lookup"><span data-stu-id="394b8-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="394b8-114">Уникальный номер, идентифицирующий этот телефон.</span><span class="sxs-lookup"><span data-stu-id="394b8-114">Unique number identifying this phone.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8de9e-114"><strong>фонеури</strong></span><span class="sxs-lookup"><span data-stu-id="8de9e-114"><strong>PhoneUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="8de9e-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="8de9e-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="394b8-115"><strong>фонеури</strong></span><span class="sxs-lookup"><span data-stu-id="394b8-115"><strong>PhoneUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="394b8-116">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="394b8-116">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="8de9e-116">Номер телефона.</span><span class="sxs-lookup"><span data-stu-id="8de9e-116">Phone number.</span></span></p></td>
+<td><p><span data-ttu-id="394b8-117">Номер телефона.</span><span class="sxs-lookup"><span data-stu-id="394b8-117">Phone number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8de9e-117"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="8de9e-117"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="8de9e-118">dateTime</span><span class="sxs-lookup"><span data-stu-id="8de9e-118">dateTime</span></span></p></td>
+<td><p><span data-ttu-id="394b8-118"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="394b8-118"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="394b8-119">dateTime</span><span class="sxs-lookup"><span data-stu-id="394b8-119">dateTime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="8de9e-119">Отметка времени (только для внутреннего использования).</span><span class="sxs-lookup"><span data-stu-id="8de9e-119">Time stamp (for internal use only).</span></span></p>
-<p><span data-ttu-id="8de9e-120">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8de9e-120">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="394b8-120">Отметка времени (только для внутреннего использования).</span><span class="sxs-lookup"><span data-stu-id="394b8-120">Time stamp (for internal use only).</span></span></p>
+<p><span data-ttu-id="394b8-121">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="394b8-121">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

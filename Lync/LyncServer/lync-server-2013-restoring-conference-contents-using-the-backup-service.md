@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: восстановление содержимого конференций с помощью службы резервного копирования'
+description: 'Lync Server 2013: восстановление содержимого конференций с помощью службы резервного копирования.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252cdf6713db7fcb3c4658cc4adb0eb51905c1ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3a0037af711948c008e74c5444373ed995f0e6e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511456"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555185"
 ---
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="6ce8d-102">Восстановление содержимого конференций с помощью службы резервного копирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ce8d-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="d3270-103">Восстановление содержимого конференций с помощью службы резервного копирования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d3270-103">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48511456"
 
 <span> </span>
 
-<span data-ttu-id="6ce8d-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6ce8d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d3270-104">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d3270-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6ce8d-p101">Если сведения о конференциях, содержащиеся в хранилище файлов на интерфейсном пуле, становятся недоступными, необходимо восстановить эти сведения, чтобы пользователи, размещенные в пуле, сохранили свои данные конференций. Если интерфейсный пул, утративший данные конференций, объединен в пару с другим интерфейсным пулом, можно использовать службу резервного копирования для восстановления данных.</span><span class="sxs-lookup"><span data-stu-id="6ce8d-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
+<span data-ttu-id="d3270-p101">Если сведения о конференциях, содержащиеся в хранилище файлов на интерфейсном пуле, становятся недоступными, необходимо восстановить эти сведения, чтобы пользователи, размещенные в пуле, сохранили свои данные конференций. Если интерфейсный пул, утративший данные конференций, объединен в пару с другим интерфейсным пулом, можно использовать службу резервного копирования для восстановления данных.</span><span class="sxs-lookup"><span data-stu-id="d3270-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
 
-<span data-ttu-id="6ce8d-p102">Необходимо также выполнить эту задачу, если вследствие сбоя не работает весь пул и необходимо перенести его пользователей в резервный пул. При восстановлении пользователей в исходном пуле необходимо использовать эту процедуру для копирования контента конференций обратно в исходный пул.</span><span class="sxs-lookup"><span data-stu-id="6ce8d-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
+<span data-ttu-id="d3270-p102">Необходимо также выполнить эту задачу, если вследствие сбоя не работает весь пул и необходимо перенести его пользователей в резервный пул. При восстановлении пользователей в исходном пуле необходимо использовать эту процедуру для копирования контента конференций обратно в исходный пул.</span><span class="sxs-lookup"><span data-stu-id="d3270-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
 
-<span data-ttu-id="6ce8d-109">Предположим, что пул1 объединен с пулом2, а данные конференций в пуле1 утрачены.</span><span class="sxs-lookup"><span data-stu-id="6ce8d-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="6ce8d-110">Можно использовать следующий командлет для вызова службы резервного копирования для восстановления содержимого:</span><span class="sxs-lookup"><span data-stu-id="6ce8d-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
+<span data-ttu-id="d3270-110">Предположим, что пул1 объединен с пулом2, а данные конференций в пуле1 утрачены.</span><span class="sxs-lookup"><span data-stu-id="d3270-110">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="d3270-111">Можно использовать следующий командлет для вызова службы резервного копирования для восстановления содержимого:</span><span class="sxs-lookup"><span data-stu-id="d3270-111">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6ce8d-p104">Восстановление содержимого конференций может занять некоторое время в зависимости от размера. Можно использовать приведенный ниже командлет для проверки состояния процесса:</span><span class="sxs-lookup"><span data-stu-id="6ce8d-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
+<span data-ttu-id="d3270-p104">Восстановление содержимого конференций может занять некоторое время в зависимости от размера. Можно использовать приведенный ниже командлет для проверки состояния процесса:</span><span class="sxs-lookup"><span data-stu-id="d3270-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6ce8d-113">Процесс завершается, когда этот командлет возвращает значение Steady State для данных в модуле конференций.</span><span class="sxs-lookup"><span data-stu-id="6ce8d-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
+<span data-ttu-id="d3270-114">Процесс завершается, когда этот командлет возвращает значение Steady State для данных в модуле конференций.</span><span class="sxs-lookup"><span data-stu-id="d3270-114">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: тестирование сохраняемого чата'
+description: 'Lync Server 2013: тестирование сохраняемого чата.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a8b1dc4eef1870f1287dacdc1852ab1e24edd169
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504076"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556285"
 ---
-# <a name="testing-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="0b7c8-102">Тестирование сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b7c8-102">Testing persistent chat in Lync Server 2013</span></span>
+# <a name="testing-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="06cdd-103">Тестирование сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06cdd-103">Testing persistent chat in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +38,7 @@ ms.locfileid: "48504076"
 
 <span> </span>
 
-<span data-ttu-id="0b7c8-103">_**Последнее изменение темы:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="0b7c8-103">_**Topic Last Modified:** 2014-11-03_</span></span>
+<span data-ttu-id="06cdd-104">_**Последнее изменение темы:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="06cdd-104">_**Topic Last Modified:** 2014-11-03_</span></span>
 
 
 <table>
@@ -47,17 +48,17 @@ ms.locfileid: "48504076"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0b7c8-104">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="0b7c8-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="0b7c8-105">Ежедневное</span><span class="sxs-lookup"><span data-stu-id="0b7c8-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="06cdd-105">Расписание проверки</span><span class="sxs-lookup"><span data-stu-id="06cdd-105">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="06cdd-106">Ежедневное</span><span class="sxs-lookup"><span data-stu-id="06cdd-106">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b7c8-106">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="0b7c8-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="0b7c8-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b7c8-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="06cdd-107">Средство тестирования</span><span class="sxs-lookup"><span data-stu-id="06cdd-107">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="06cdd-108">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="06cdd-108">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0b7c8-108">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="0b7c8-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="0b7c8-109">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="0b7c8-110">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-CsPersistentChatMessage</strong> .</span><span class="sxs-lookup"><span data-stu-id="0b7c8-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsPersistentChatMessage</strong> cmdlet.</span></span> <span data-ttu-id="0b7c8-111">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="0b7c8-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="06cdd-109">Необходимые разрешения</span><span class="sxs-lookup"><span data-stu-id="06cdd-109">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="06cdd-110">При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="06cdd-110">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="06cdd-111">При выполнении с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-CsPersistentChatMessage</strong> .</span><span class="sxs-lookup"><span data-stu-id="06cdd-111">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsPersistentChatMessage</strong> cmdlet.</span></span> <span data-ttu-id="06cdd-112">Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните следующую команду в командной консоли Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="06cdd-112">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,19 +67,19 @@ ms.locfileid: "48504076"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="0b7c8-112">Описание</span><span class="sxs-lookup"><span data-stu-id="0b7c8-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="06cdd-113">Описание</span><span class="sxs-lookup"><span data-stu-id="06cdd-113">Description</span></span>
 
-<span data-ttu-id="0b7c8-113">Командлет **Test-CsPersistentChatMessage** проверяет, может ли пользователь, выполняющий проверку, обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-113">The **Test-CsPersistentChatMessage** cmdlet verifies that a pair of test users can exchange messages using the Persistent Chat service.</span></span> <span data-ttu-id="0b7c8-114">Для этого командлет записывает два пользователя в Lync Server 2013, подключает пользователей к комнате сохраняемого чата, обменивается с другими сообщениями, а затем выходит из комнаты чата и выходит из системы двух пользователей.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-114">To do this, the cmdlet logs the two users on to Lync Server 2013, connects the users to a persistent Chat room, exchanges a pair of messages, then exits the chat room and logs off the two users.</span></span> <span data-ttu-id="0b7c8-115">Обратите внимание на то, что вызовы этого командлета завершатся неуспешно, если вы не создали комнаты чата или две тестовых учетных записей пользователей не назначены политике сохраняемого чата, которая предоставляет им доступ к службе сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-115">Note that calls to this cmdlet will fail if you have not created any chat rooms or if the two test user accounts are not assigned a Persistent Chat policy that gives them access to the Persistent Chat service.</span></span>
+<span data-ttu-id="06cdd-114">Командлет **Test-CsPersistentChatMessage** проверяет, может ли пользователь, выполняющий проверку, обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="06cdd-114">The **Test-CsPersistentChatMessage** cmdlet verifies that a pair of test users can exchange messages using the Persistent Chat service.</span></span> <span data-ttu-id="06cdd-115">Для этого командлет записывает два пользователя в Lync Server 2013, подключает пользователей к комнате сохраняемого чата, обменивается с другими сообщениями, а затем выходит из комнаты чата и выходит из системы двух пользователей.</span><span class="sxs-lookup"><span data-stu-id="06cdd-115">To do this, the cmdlet logs the two users on to Lync Server 2013, connects the users to a persistent Chat room, exchanges a pair of messages, then exits the chat room and logs off the two users.</span></span> <span data-ttu-id="06cdd-116">Обратите внимание на то, что вызовы этого командлета завершатся неуспешно, если вы не создали комнаты чата или две тестовых учетных записей пользователей не назначены политике сохраняемого чата, которая предоставляет им доступ к службе сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="06cdd-116">Note that calls to this cmdlet will fail if you have not created any chat rooms or if the two test user accounts are not assigned a Persistent Chat policy that gives them access to the Persistent Chat service.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="0b7c8-116">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="0b7c8-116">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="06cdd-117">Выполнение теста</span><span class="sxs-lookup"><span data-stu-id="06cdd-117">Running the test</span></span>
 
-<span data-ttu-id="0b7c8-117">Команды, показанные в следующем примере, проверяют способность пользователей (litwareinc \\ Pilar и litwareinc \\ kenmyer) войти в Lync Server 2013, а затем обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-117">The commands shown in the following example test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then exchange messages using the Persistent Chat service.</span></span> <span data-ttu-id="0b7c8-118">Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-118">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="0b7c8-119">(Так как имя для входа, litwareinc \\ Pilar, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Pilar Ackerman.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-119">(Because the logon name, litwareinc\\pilar, was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credentials object is then stored in a variable named $cred1.</span></span> <span data-ttu-id="0b7c8-120">Вторая команда производит аналогичную операцию, возвращая объект учетных данных для учетной записи Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-120">The second command does the same thing, this time returning a credential object for the Ken Myer account.</span></span>
+<span data-ttu-id="06cdd-118">Команды, показанные в следующем примере, проверяют способность пользователей (litwareinc \\ Pilar и litwareinc \\ kenmyer) войти в Lync Server 2013, а затем обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="06cdd-118">The commands shown in the following example test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then exchange messages using the Persistent Chat service.</span></span> <span data-ttu-id="06cdd-119">Для этого первая команда в примере использует командлет **Get – Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Pilar Ackerman.</span><span class="sxs-lookup"><span data-stu-id="06cdd-119">To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman.</span></span> <span data-ttu-id="06cdd-120">(Так как имя для входа, litwareinc \\ Pilar, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell необходимо, чтобы администратор вводил пароль для учетной записи Pilar Ackerman.) Полученный объект учетных данных сохраняется в переменной с именем $cred 1.</span><span class="sxs-lookup"><span data-stu-id="06cdd-120">(Because the logon name, litwareinc\\pilar, was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credentials object is then stored in a variable named $cred1.</span></span> <span data-ttu-id="06cdd-121">Вторая команда производит аналогичную операцию, возвращая объект учетных данных для учетной записи Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="06cdd-121">The second command does the same thing, this time returning a credential object for the Ken Myer account.</span></span>
 
-<span data-ttu-id="0b7c8-121">Если у вас есть объекты учетных данных в наличии, третья команда определяет, могут ли эти два пользователя входить в Lync Server 2013 и обмениваться сообщениями с помощью сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-121">With the credential objects in hand, the third command determines whether these two users can log on to Lync Server 2013 and exchange messages using Persistent Chat.</span></span> <span data-ttu-id="0b7c8-122">Для выполнения этой задачи командлет **Test-CsPersistentChatMessage** вызывается с использованием следующих параметров: TargetFqdn (полное доменное имя пула регистратора); SenderSipAddress (SIP-адрес для первого тестового пользователя); SenderCredential (объект Windows PowerShell, содержащий учетные данные для этого пользователя); ReceiverSipAddress (SIP-адрес для другого тестового пользователя); и ReceiverCredential (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).</span><span class="sxs-lookup"><span data-stu-id="0b7c8-122">To perform this task, the **Test-CsPersistentChatMessage** cmdlet is called using the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object that contains the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object that contains the credentials for the other test user).</span></span>
+<span data-ttu-id="06cdd-122">Если у вас есть объекты учетных данных в наличии, третья команда определяет, могут ли эти два пользователя входить в Lync Server 2013 и обмениваться сообщениями с помощью сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="06cdd-122">With the credential objects in hand, the third command determines whether these two users can log on to Lync Server 2013 and exchange messages using Persistent Chat.</span></span> <span data-ttu-id="06cdd-123">Для выполнения этой задачи командлет **Test-CsPersistentChatMessage** вызывается с использованием следующих параметров: TargetFqdn (полное доменное имя пула регистратора); SenderSipAddress (SIP-адрес для первого тестового пользователя); SenderCredential (объект Windows PowerShell, содержащий учетные данные для этого пользователя); ReceiverSipAddress (SIP-адрес для другого тестового пользователя); и ReceiverCredential (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).</span><span class="sxs-lookup"><span data-stu-id="06cdd-123">To perform this task, the **Test-CsPersistentChatMessage** cmdlet is called using the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object that contains the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object that contains the credentials for the other test user).</span></span>
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -89,82 +90,82 @@ ms.locfileid: "48504076"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="0b7c8-123">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="0b7c8-123">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="06cdd-124">Определение успешности или сбоя</span><span class="sxs-lookup"><span data-stu-id="06cdd-124">Determining success or failure</span></span>
 
-<span data-ttu-id="0b7c8-124">Если указанный пользователь имеет действительную политику расположения, вы получите выходные данные, аналогичные приведенным ниже, и свойство Result помечено как **Success**.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-124">If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
+<span data-ttu-id="06cdd-125">Если указанный пользователь имеет действительную политику расположения, вы получите выходные данные, аналогичные приведенным ниже, и свойство Result помечено как **Success**.</span><span class="sxs-lookup"><span data-stu-id="06cdd-125">If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success**:</span></span>
 
-<span data-ttu-id="0b7c8-125">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0b7c8-125">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="06cdd-126">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="06cdd-126">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0b7c8-126">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="0b7c8-126">Result : Success</span></span>
+<span data-ttu-id="06cdd-127">Результат: успешное выполнение</span><span class="sxs-lookup"><span data-stu-id="06cdd-127">Result : Success</span></span>
 
-<span data-ttu-id="0b7c8-127">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="0b7c8-127">Latency : 00:00:00</span></span>
+<span data-ttu-id="06cdd-128">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="06cdd-128">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="0b7c8-128">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="0b7c8-128">Error Message :</span></span>
+<span data-ttu-id="06cdd-129">Сообщение об ошибке:</span><span class="sxs-lookup"><span data-stu-id="06cdd-129">Error Message :</span></span>
 
-<span data-ttu-id="0b7c8-129">Диагност</span><span class="sxs-lookup"><span data-stu-id="0b7c8-129">Diagnosis :</span></span>
+<span data-ttu-id="06cdd-130">Диагност</span><span class="sxs-lookup"><span data-stu-id="06cdd-130">Diagnosis :</span></span>
 
-<span data-ttu-id="0b7c8-130">Если указанные пользователи не могут обмениваться сообщениями с помощью службы сохраняемого чата, результат будет отображаться как **сбой**, а в свойствах диагностики ошибок и диагностики будут записаны дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-130">If the specified users can't exchange messages using the Persistent Chat service, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="06cdd-131">Если указанные пользователи не могут обмениваться сообщениями с помощью службы сохраняемого чата, результат будет отображаться как **сбой**, а в свойствах диагностики ошибок и диагностики будут записаны дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="06cdd-131">If the specified users can't exchange messages using the Persistent Chat service, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="0b7c8-131">Предупреждение: не удалось считать номер порта регистратора для данного полного имени</span><span class="sxs-lookup"><span data-stu-id="0b7c8-131">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
+<span data-ttu-id="06cdd-132">Предупреждение: не удалось считать номер порта регистратора для данного полного имени</span><span class="sxs-lookup"><span data-stu-id="06cdd-132">WARNING: Failed to read Registrar port number for the given fully qualified</span></span>
 
-<span data-ttu-id="0b7c8-132">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="0b7c8-132">domain name (FQDN).</span></span> <span data-ttu-id="0b7c8-133">Использование номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-133">Using default Registrar port number.</span></span> <span data-ttu-id="0b7c8-134">Возникновения</span><span class="sxs-lookup"><span data-stu-id="0b7c8-134">Exception:</span></span>
+<span data-ttu-id="06cdd-133">доменное имя (FQDN).</span><span class="sxs-lookup"><span data-stu-id="06cdd-133">domain name (FQDN).</span></span> <span data-ttu-id="06cdd-134">Использование номера порта регистратора по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="06cdd-134">Using default Registrar port number.</span></span> <span data-ttu-id="06cdd-135">Возникновения</span><span class="sxs-lookup"><span data-stu-id="06cdd-135">Exception:</span></span>
 
-<span data-ttu-id="0b7c8-135">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-135">System.InvalidOperationException: No matching cluster found in topology.</span></span>
+<span data-ttu-id="06cdd-136">System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.</span><span class="sxs-lookup"><span data-stu-id="06cdd-136">System.InvalidOperationException: No matching cluster found in topology.</span></span>
 
-<span data-ttu-id="0b7c8-136">в</span><span class="sxs-lookup"><span data-stu-id="0b7c8-136">at</span></span>
+<span data-ttu-id="06cdd-137">в</span><span class="sxs-lookup"><span data-stu-id="06cdd-137">at</span></span>
 
-<span data-ttu-id="0b7c8-137">Microsoft. RTC. Management. SyntheticTransactions. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="0b7c8-137">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
+<span data-ttu-id="06cdd-138">Microsoft. RTC. Management. SyntheticTransactions. Сипсинсетиктрансактион. Триретри</span><span class="sxs-lookup"><span data-stu-id="06cdd-138">Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri</span></span>
 
-<span data-ttu-id="0b7c8-138">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="0b7c8-138">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
+<span data-ttu-id="06cdd-139">Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)</span><span class="sxs-lookup"><span data-stu-id="06cdd-139">eveRegistrarPortFromTopology(Int32& registrarPortNumber)</span></span>
 
-<span data-ttu-id="0b7c8-139">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0b7c8-139">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="06cdd-140">Целевое полное доменное имя: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="06cdd-140">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0b7c8-140">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="0b7c8-140">Result : Failure</span></span>
+<span data-ttu-id="06cdd-141">Результат: сбой</span><span class="sxs-lookup"><span data-stu-id="06cdd-141">Result : Failure</span></span>
 
-<span data-ttu-id="0b7c8-141">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="0b7c8-141">Latency : 00:00:00</span></span>
+<span data-ttu-id="06cdd-142">Задержка: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="06cdd-142">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="0b7c8-142">Сообщение об ошибке: 10060, попытка подключения не удалась, так как подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="0b7c8-142">Error Message : 10060, A connection attempt failed because the connected party</span></span>
+<span data-ttu-id="06cdd-143">Сообщение об ошибке: 10060, попытка подключения не удалась, так как подключенная сторона</span><span class="sxs-lookup"><span data-stu-id="06cdd-143">Error Message : 10060, A connection attempt failed because the connected party</span></span>
 
-<span data-ttu-id="0b7c8-143">не ответил должным образом по истечении определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="0b7c8-143">did not properly respond after a period of time, or</span></span>
+<span data-ttu-id="06cdd-144">не ответил должным образом по истечении определенного периода времени или</span><span class="sxs-lookup"><span data-stu-id="06cdd-144">did not properly respond after a period of time, or</span></span>
 
-<span data-ttu-id="0b7c8-144">не удалось установить подключение, так как у подключенного узла есть</span><span class="sxs-lookup"><span data-stu-id="0b7c8-144">established connection failed because connected host has</span></span>
+<span data-ttu-id="06cdd-145">не удалось установить подключение, так как у подключенного узла есть</span><span class="sxs-lookup"><span data-stu-id="06cdd-145">established connection failed because connected host has</span></span>
 
-<span data-ttu-id="0b7c8-145">не удалось ответить на \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944: \] 5061</span><span class="sxs-lookup"><span data-stu-id="0b7c8-145">failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061</span></span>
+<span data-ttu-id="06cdd-146">не удалось ответить на \[ 2001:4898: E8: f39e: 5c9a: ad83:81b3:9944: \] 5061</span><span class="sxs-lookup"><span data-stu-id="06cdd-146">failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061</span></span>
 
-<span data-ttu-id="0b7c8-146">Внутреннее исключение: сбой попытки подключения, так как</span><span class="sxs-lookup"><span data-stu-id="0b7c8-146">Inner Exception:A connection attempt failed because the</span></span>
+<span data-ttu-id="06cdd-147">Внутреннее исключение: сбой попытки подключения, так как</span><span class="sxs-lookup"><span data-stu-id="06cdd-147">Inner Exception:A connection attempt failed because the</span></span>
 
-<span data-ttu-id="0b7c8-147">подключенная сторона не ответила должным образом после периода</span><span class="sxs-lookup"><span data-stu-id="0b7c8-147">connected party did not properly respond after a period of</span></span>
+<span data-ttu-id="06cdd-148">подключенная сторона не ответила должным образом после периода</span><span class="sxs-lookup"><span data-stu-id="06cdd-148">connected party did not properly respond after a period of</span></span>
 
-<span data-ttu-id="0b7c8-148">время или установленное подключение не выполнено, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="0b7c8-148">time, or established connection failed because connected host</span></span>
+<span data-ttu-id="06cdd-149">время или установленное подключение не выполнено, так как подключенный узел</span><span class="sxs-lookup"><span data-stu-id="06cdd-149">time, or established connection failed because connected host</span></span>
 
-<span data-ttu-id="0b7c8-149">не отвечает</span><span class="sxs-lookup"><span data-stu-id="0b7c8-149">has failed to respond</span></span>
+<span data-ttu-id="06cdd-150">не отвечает</span><span class="sxs-lookup"><span data-stu-id="06cdd-150">has failed to respond</span></span>
 
-<span data-ttu-id="0b7c8-150">\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061</span><span class="sxs-lookup"><span data-stu-id="0b7c8-150">\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061</span></span>
+<span data-ttu-id="06cdd-151">\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944 \] : 5061</span><span class="sxs-lookup"><span data-stu-id="06cdd-151">\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061</span></span>
 
-<span data-ttu-id="0b7c8-151">Диагност</span><span class="sxs-lookup"><span data-stu-id="0b7c8-151">Diagnosis :</span></span>
-
-</div>
-
-<div>
-
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="0b7c8-152">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="0b7c8-152">Reasons why the test might have failed</span></span>
-
-<span data-ttu-id="0b7c8-153">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsPersistentChatMessage** :</span><span class="sxs-lookup"><span data-stu-id="0b7c8-153">Here are some common reasons why **Test-CsPersistentChatMessage** might fail:</span></span>
-
-  - <span data-ttu-id="0b7c8-154">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-154">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="0b7c8-155">Возможно, необходимые тестовые учетные записи не существуют или созданы неправильно.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-155">The required test accounts may not exist or have been correctly created.</span></span>
-
-  - <span data-ttu-id="0b7c8-156">Возможно, возникла проблема с сетью, которая привела к непредвиденной задержке, при которой истекло время ожидания проверки.</span><span class="sxs-lookup"><span data-stu-id="0b7c8-156">There may have been a network issue causing an unexpected delay which timed out the test.</span></span>
+<span data-ttu-id="06cdd-152">Диагност</span><span class="sxs-lookup"><span data-stu-id="06cdd-152">Diagnosis :</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0b7c8-157">См. также</span><span class="sxs-lookup"><span data-stu-id="0b7c8-157">See Also</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="06cdd-153">Причины, по которым может произойти сбой теста</span><span class="sxs-lookup"><span data-stu-id="06cdd-153">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="06cdd-154">Ниже приведены некоторые распространенные причины, по которым может произойти ошибка **Test-CsPersistentChatMessage** :</span><span class="sxs-lookup"><span data-stu-id="06cdd-154">Here are some common reasons why **Test-CsPersistentChatMessage** might fail:</span></span>
+
+  - <span data-ttu-id="06cdd-155">Предоставлено неправильное значение параметра.</span><span class="sxs-lookup"><span data-stu-id="06cdd-155">An incorrect parameter value was supplied.</span></span> <span data-ttu-id="06cdd-156">Возможно, необходимые тестовые учетные записи не существуют или созданы неправильно.</span><span class="sxs-lookup"><span data-stu-id="06cdd-156">The required test accounts may not exist or have been correctly created.</span></span>
+
+  - <span data-ttu-id="06cdd-157">Возможно, возникла проблема с сетью, которая привела к непредвиденной задержке, при которой истекло время ожидания проверки.</span><span class="sxs-lookup"><span data-stu-id="06cdd-157">There may have been a network issue causing an unexpected delay which timed out the test.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="06cdd-158">См. также</span><span class="sxs-lookup"><span data-stu-id="06cdd-158">See Also</span></span>
 
 
-[<span data-ttu-id="0b7c8-158">Granting — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="0b7c8-158">Grant-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
-[<span data-ttu-id="0b7c8-159">New — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="0b7c8-159">New-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
-[<span data-ttu-id="0b7c8-160">Set — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="0b7c8-160">Set-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
+[<span data-ttu-id="06cdd-159">Granting — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="06cdd-159">Grant-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
+[<span data-ttu-id="06cdd-160">New — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="06cdd-160">New-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
+[<span data-ttu-id="06cdd-161">Set — CsPersistentChatPolicy</span><span class="sxs-lookup"><span data-stu-id="06cdd-161">Set-CsPersistentChatPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
   
 
 </div>

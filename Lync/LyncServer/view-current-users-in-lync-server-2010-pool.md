@@ -1,5 +1,6 @@
 ---
 title: Просмотр текущих пользователей в пуле Lync Server 2010
+description: Просмотр текущих пользователей в пуле Lync Server 2010.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96ace0fe20c0fa1256db7806b571b0a40593aad4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55d328bf03c34db632f239bd9d3221ef942cd463
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517986"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555475"
 ---
-# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="9b694-102">Просмотр текущих пользователей в пуле Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="9b694-102">View current users in Lync Server 2010 pool</span></span>
+# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="36621-103">Просмотр текущих пользователей в пуле Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="36621-103">View current users in Lync Server 2010 pool</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48517986"
 
 <span> </span>
 
-<span data-ttu-id="9b694-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="9b694-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="36621-104">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="36621-104">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="9b694-104">Прежде чем приступать к изучению различных способов перемещения пользователей между пулами, сначала необходимо определить, какие пользователи существуют в устаревшем пуле Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9b694-104">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="9b694-105">На изображении ниже в столбце пул регистратора указывается шесть пользователей, настроенных для устаревшего пула Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9b694-105">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="9b694-106">Это тестовые пользователи, которые мы перейдем в пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9b694-106">These are the test users we will move to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="36621-105">Прежде чем приступать к изучению различных способов перемещения пользователей между пулами, сначала необходимо определить, какие пользователи существуют в устаревшем пуле Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="36621-105">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="36621-106">На изображении ниже в столбце пул регистратора указывается шесть пользователей, настроенных для устаревшего пула Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="36621-106">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="36621-107">Это тестовые пользователи, которые мы перейдем в пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="36621-107">These are the test users we will move to the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="9b694-107">**Просмотр списка пользователей в пуле Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="9b694-107">**To see the list of users in the Lync Server 2010 pool**</span></span>
+<span data-ttu-id="36621-108">**Просмотр списка пользователей в пуле Lync Server 2010**</span><span class="sxs-lookup"><span data-stu-id="36621-108">**To see the list of users in the Lync Server 2010 pool**</span></span>
 
-1.  <span data-ttu-id="9b694-108">Войдите на сервер переднего плана Lync Server 2010 с помощью учетной записи, которая является членом группы RTCUniversalServerAdmins или членом административной роли CsAdministrator или CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="9b694-108">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1.  <span data-ttu-id="36621-109">Войдите на сервер переднего плана Lync Server 2010 с помощью учетной записи, которая является членом группы RTCUniversalServerAdmins или членом административной роли CsAdministrator или CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="36621-109">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
 
-2.  <span data-ttu-id="9b694-109">Откройте **Панель управления Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9b694-109">Open **Lync Server Control Panel**.</span></span>
+2.  <span data-ttu-id="36621-110">Откройте **Панель управления Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="36621-110">Open **Lync Server Control Panel**.</span></span>
 
-3.  <span data-ttu-id="9b694-110">Щелкните **Пользователи**, затем выберите поиск и нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="9b694-110">Click **Users**, click Search, and then click **Find**.</span></span>
+3.  <span data-ttu-id="36621-111">Щелкните **Пользователи**, затем выберите поиск и нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="36621-111">Click **Users**, click Search, and then click **Find**.</span></span>
 
-<span data-ttu-id="9b694-111">**Панель управления Lync Server 15**</span><span class="sxs-lookup"><span data-stu-id="9b694-111">**The Lync Server 15 Control Panel**</span></span>
+<span data-ttu-id="36621-112">**Панель управления Lync Server 15**</span><span class="sxs-lookup"><span data-stu-id="36621-112">**The Lync Server 15 Control Panel**</span></span>
 
-<span data-ttu-id="9b694-112">![Панель управления Lync Server, диалоговое окно перемещения пользователя](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Панель управления Lync Server, диалоговое окно перемещения пользователя")</span><span class="sxs-lookup"><span data-stu-id="9b694-112">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
+<span data-ttu-id="36621-113">![Панель управления Lync Server, диалоговое окно перемещения пользователя](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Панель управления Lync Server, диалоговое окно перемещения пользователя")</span><span class="sxs-lookup"><span data-stu-id="36621-113">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
 
 </div>
 
