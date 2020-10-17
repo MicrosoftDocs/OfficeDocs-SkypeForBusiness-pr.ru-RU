@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица таблица uritypes'
+description: 'Lync Server 2013: таблица таблица uritypes.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184553
 ms.date: 06/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca63f2ea00ab05f767642045663c934a6f4728d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 97a63173b7ada258e7da22591b28a6a0410e666a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530306"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569895"
 ---
-# <a name="uritypes-table-in-lync-server-2013"></a><span data-ttu-id="d4f05-102">Таблица Таблица uritypes в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d4f05-102">UriTypes table in Lync Server 2013</span></span>
+# <a name="uritypes-table-in-lync-server-2013"></a><span data-ttu-id="1e740-103">Таблица Таблица uritypes в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e740-103">UriTypes table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530306"
 
 <span> </span>
 
-<span data-ttu-id="d4f05-103">_**Последнее изменение темы:** 2015-06-16_</span><span class="sxs-lookup"><span data-stu-id="d4f05-103">_**Topic Last Modified:** 2015-06-16_</span></span>
+<span data-ttu-id="1e740-104">_**Последнее изменение темы:** 2015-06-16_</span><span class="sxs-lookup"><span data-stu-id="1e740-104">_**Topic Last Modified:** 2015-06-16_</span></span>
 
-<span data-ttu-id="d4f05-104">Таблица Таблица uritypes содержит различные типы URI (универсального идентификатора ресурса), отслеживаемые в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d4f05-104">The UriTypes Table contains the different URI (Uniform resource identifier) types monitored in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="1e740-105">Таблица Таблица uritypes содержит различные типы URI (универсального идентификатора ресурса), отслеживаемые в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1e740-105">The UriTypes Table contains the different URI (Uniform resource identifier) types monitored in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,27 +52,27 @@ ms.locfileid: "48530306"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d4f05-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="d4f05-105">Column</span></span></th>
-<th><span data-ttu-id="d4f05-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d4f05-106">Data Type</span></span></th>
-<th><span data-ttu-id="d4f05-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="d4f05-107">Key/Index</span></span></th>
-<th><span data-ttu-id="d4f05-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="d4f05-108">Details</span></span></th>
+<th><span data-ttu-id="1e740-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="1e740-106">Column</span></span></th>
+<th><span data-ttu-id="1e740-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="1e740-107">Data Type</span></span></th>
+<th><span data-ttu-id="1e740-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="1e740-108">Key/Index</span></span></th>
+<th><span data-ttu-id="1e740-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="1e740-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4f05-109"><strong>уритипеид</strong></span><span class="sxs-lookup"><span data-stu-id="d4f05-109"><strong>UriTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4f05-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="d4f05-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="d4f05-111">Primary</span><span class="sxs-lookup"><span data-stu-id="d4f05-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d4f05-112">Уникальный идентификатор типа URI.</span><span class="sxs-lookup"><span data-stu-id="d4f05-112">Unique identifier assigned to a URI type.</span></span></p></td>
+<td><p><span data-ttu-id="1e740-110"><strong>уритипеид</strong></span><span class="sxs-lookup"><span data-stu-id="1e740-110"><strong>UriTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="1e740-111">tinyint</span><span class="sxs-lookup"><span data-stu-id="1e740-111">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="1e740-112">Primary</span><span class="sxs-lookup"><span data-stu-id="1e740-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="1e740-113">Уникальный идентификатор типа URI.</span><span class="sxs-lookup"><span data-stu-id="1e740-113">Unique identifier assigned to a URI type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4f05-113"><strong>уритипе</strong></span><span class="sxs-lookup"><span data-stu-id="d4f05-113"><strong>UriType</strong></span></span></p></td>
-<td><p><span data-ttu-id="d4f05-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="d4f05-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="1e740-114"><strong>уритипе</strong></span><span class="sxs-lookup"><span data-stu-id="1e740-114"><strong>UriType</strong></span></span></p></td>
+<td><p><span data-ttu-id="1e740-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1e740-115">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="d4f05-p101">Описания различных типов URI. Допустимые значения:</span><span class="sxs-lookup"><span data-stu-id="d4f05-p101">Descriptions of the different URI types. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="1e740-p101">Описания различных типов URI. Допустимые значения:</span><span class="sxs-lookup"><span data-stu-id="1e740-p101">Descriptions of the different URI types. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="d4f05-117">1 — URI телефона</span><span class="sxs-lookup"><span data-stu-id="d4f05-117">1 – Phone Uri</span></span></p></li>
-<li><p><span data-ttu-id="d4f05-118">0 — универсальный код ресурса (URI) пользователя</span><span class="sxs-lookup"><span data-stu-id="d4f05-118">0 – User Uri</span></span></p></li>
+<li><p><span data-ttu-id="1e740-118">1 — URI телефона</span><span class="sxs-lookup"><span data-stu-id="1e740-118">1 – Phone Uri</span></span></p></li>
+<li><p><span data-ttu-id="1e740-119">0 — универсальный код ресурса (URI) пользователя</span><span class="sxs-lookup"><span data-stu-id="1e740-119">0 – User Uri</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
