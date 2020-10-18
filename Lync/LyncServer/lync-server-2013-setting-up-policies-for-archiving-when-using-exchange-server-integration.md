@@ -1,5 +1,6 @@
 ---
 title: Настройка политик архивации при использовании интеграции с Exchange Server
+description: Настройка политик для архивации при использовании интеграции с Exchange Server.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a63392507579a64aede11adb2bf327d0d6d56aa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8281d27101c049b1029a2005ed062a934438afc5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521866"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579465"
 ---
-# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a><span data-ttu-id="bb1a2-102">Настройка политик архивации в Lync Server 2013 при использовании интеграции с Exchange Server</span><span class="sxs-lookup"><span data-stu-id="bb1a2-102">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</span></span>
+# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a><span data-ttu-id="526d9-103">Настройка политик архивации в Lync Server 2013 при использовании интеграции с Exchange Server</span><span class="sxs-lookup"><span data-stu-id="526d9-103">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48521866"
 
 <span> </span>
 
-<span data-ttu-id="bb1a2-103">_**Последнее изменение темы:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="bb1a2-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="526d9-104">_**Последнее изменение темы:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="526d9-104">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="bb1a2-104">Если почтовые ящики пользователей, размещенных в Exchange 2013, почтовые ящики помещаются на In-Place удержание, политики In-Place удержания управляются архивацией для этих пользователей.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-104">If users homed on Exchange 2013 have their mailboxes put on In-Place Hold, Exchange In-Place Hold policies control archiving for those users.</span></span> <span data-ttu-id="bb1a2-105">Если вы используете интеграцию Microsoft Exchange для своего развертывания, политики Exchange 2013 переопределяют политики архивации Lync Server для пользователей, размещенных в Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-105">If you use Microsoft Exchange integration for your deployment, Exchange 2013 policies override Lync Server Archiving policies for users who are homed on Exchange 2013.</span></span> <span data-ttu-id="bb1a2-106">Сведения о настройке политик архивации Exchange можно найти в документации по Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-106">For information about configuring Exchange Archiving policies, see the Exchange 2013 documentation.</span></span> <span data-ttu-id="bb1a2-107">Сведения о настройке политик пользователей для пользователей, размещенных на Lync Server 2013, приведены в статье [Настройка политик пользователей для архивации в Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-107">For details about setting up user policies for users homed on Lync Server 2013, see [Setting up user policies for Archiving in Lync Server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) in the Deployment documentation.</span></span> <span data-ttu-id="bb1a2-108">Чтобы узнать, как работают политики, посмотрите, [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, документации по развертыванию или документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-108">For details about how policies work, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="526d9-105">Если почтовые ящики пользователей, размещенных в Exchange 2013, почтовые ящики помещаются на In-Place удержание, политики In-Place удержания управляются архивацией для этих пользователей.</span><span class="sxs-lookup"><span data-stu-id="526d9-105">If users homed on Exchange 2013 have their mailboxes put on In-Place Hold, Exchange In-Place Hold policies control archiving for those users.</span></span> <span data-ttu-id="526d9-106">Если вы используете интеграцию Microsoft Exchange для своего развертывания, политики Exchange 2013 переопределяют политики архивации Lync Server для пользователей, размещенных в Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="526d9-106">If you use Microsoft Exchange integration for your deployment, Exchange 2013 policies override Lync Server Archiving policies for users who are homed on Exchange 2013.</span></span> <span data-ttu-id="526d9-107">Сведения о настройке политик архивации Exchange можно найти в документации по Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="526d9-107">For information about configuring Exchange Archiving policies, see the Exchange 2013 documentation.</span></span> <span data-ttu-id="526d9-108">Сведения о настройке политик пользователей для пользователей, размещенных на Lync Server 2013, приведены в статье [Настройка политик пользователей для архивации в Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="526d9-108">For details about setting up user policies for users homed on Lync Server 2013, see [Setting up user policies for Archiving in Lync Server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) in the Deployment documentation.</span></span> <span data-ttu-id="526d9-109">Чтобы узнать, как работают политики, посмотрите, [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, документации по развертыванию или документации по операциям.</span><span class="sxs-lookup"><span data-stu-id="526d9-109">For details about how policies work, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="bb1a2-109">Если вы развертываете Exchange 2013 и Lync Server 2013 в одном лесу, политики хранения для Exchange 2013 In-Place управления архивацией.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-109">If you deploy Exchange 2013 and Lync Server 2013 in the same forest, your Exchange 2013 In-Place Hold policies control archiving.</span></span> <span data-ttu-id="bb1a2-110">Если вы развертываете Exchange 2013 и Lync Server 2013 в отдельных лесах, ознакомьтесь со статьей "развертывание Lync Server и Microsoft Exchange в разных лесах" в <A href="lync-server-2013-deployment-checklist-for-archiving.md">контрольном списке развертывания для архивации в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="bb1a2-110">If you deploy Exchange 2013 and Lync Server 2013 in separate forests, see “Deploying Lync Server and Microsoft Exchange in Different Forests” in <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="526d9-110">Если вы развертываете Exchange 2013 и Lync Server 2013 в одном лесу, политики хранения для Exchange 2013 In-Place управления архивацией.</span><span class="sxs-lookup"><span data-stu-id="526d9-110">If you deploy Exchange 2013 and Lync Server 2013 in the same forest, your Exchange 2013 In-Place Hold policies control archiving.</span></span> <span data-ttu-id="526d9-111">Если вы развертываете Exchange 2013 и Lync Server 2013 в отдельных лесах, ознакомьтесь со статьей "развертывание Lync Server и Microsoft Exchange в разных лесах" в <A href="lync-server-2013-deployment-checklist-for-archiving.md">контрольном списке развертывания для архивации в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="526d9-111">If you deploy Exchange 2013 and Lync Server 2013 in separate forests, see “Deploying Lync Server and Microsoft Exchange in Different Forests” in <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment checklist for Archiving in Lync Server 2013</A>.</span></span>
 
 
 

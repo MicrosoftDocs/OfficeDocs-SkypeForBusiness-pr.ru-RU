@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Просмотр параметров конфигурации обновления устройств'
+description: 'Lync Server 2013: Просмотр параметров конфигурации обновления устройств.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f7f3d6ae80aa83d7edcf6d64a13c4cbda90c9ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e686562d99da679149b6b977bd3cb9feb5c9a7fc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506456"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579425"
 ---
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="5bfdd-102">Просмотр параметров конфигурации обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bfdd-102">View Device Update configuration settings in Lync Server 2013</span></span>
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="59bd3-103">Просмотр параметров конфигурации обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59bd3-103">View Device Update configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48506456"
 
 <span> </span>
 
-<span data-ttu-id="5bfdd-103">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="5bfdd-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="59bd3-104">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="59bd3-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="5bfdd-104">Параметры конфигурации службы обновления устройств можно просмотреть с помощью командной консоли Lync Server и командлета **Get – CsDeviceUpdateConfiguration** , который можно запустить из командной консоли lync Server 2013 или из удаленного сеанса Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5bfdd-104">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
+<span data-ttu-id="59bd3-105">Параметры конфигурации службы обновления устройств можно просмотреть с помощью командной консоли Lync Server и командлета **Get – CsDeviceUpdateConfiguration** , который можно запустить из командной консоли lync Server 2013 или из удаленного сеанса Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="59bd3-105">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5bfdd-105">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="5bfdd-105">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="59bd3-106">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> .</span><span class="sxs-lookup"><span data-stu-id="59bd3-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -57,11 +58,11 @@ ms.locfileid: "48506456"
 <div>
 
 
-  - <span data-ttu-id="5bfdd-106">Чтобы просмотреть сведения о всех маршрутах голосовой связи, введите следующую команду в командной консоли Lync Server и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="5bfdd-106">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
+  - <span data-ttu-id="59bd3-107">Чтобы просмотреть сведения о всех маршрутах голосовой связи, введите следующую команду в командной консоли Lync Server и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="59bd3-107">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
     
         Get-CsDeviceUpdateConfiguration
     
-    <span data-ttu-id="5bfdd-107">Эта команда возвращает следующую информацию:</span><span class="sxs-lookup"><span data-stu-id="5bfdd-107">This command returns information similar to the following:</span></span>
+    <span data-ttu-id="59bd3-108">Эта команда возвращает следующую информацию:</span><span class="sxs-lookup"><span data-stu-id="59bd3-108">This command returns information similar to the following:</span></span>
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -74,7 +75,7 @@ ms.locfileid: "48506456"
 
 </div>
 
-<span data-ttu-id="5bfdd-108">Подробнее об этом командлете можно узнать в статье [Get/CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5bfdd-108">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
+<span data-ttu-id="59bd3-109">Подробнее об этом командлете можно узнать в статье [Get/CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span><span class="sxs-lookup"><span data-stu-id="59bd3-109">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
 
 </div>
 
