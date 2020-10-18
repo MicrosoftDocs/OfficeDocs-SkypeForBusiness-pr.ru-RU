@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblAdminLock'
+description: 'Lync Server 2013: tblAdminLock.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 608dcc5d8044b5e1dd62166bfd13124013b3979f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c3313826b2c0d578c515fb25f83e713b8978ae63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509526"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573715"
 ---
-# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="d4206-102">tblAdminLock в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d4206-102">tblAdminLock in Lync Server 2013</span></span>
+# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="e9ef5-103">tblAdminLock в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9ef5-103">tblAdminLock in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509526"
 
 <span> </span>
 
-<span data-ttu-id="d4206-103">_**Последнее изменение темы:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="d4206-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="e9ef5-104">_**Последнее изменение темы:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="e9ef5-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="d4206-104">tblAdminLock содержит блокировку администратора, необходимую для запуска некоторых команд администратора.</span><span class="sxs-lookup"><span data-stu-id="d4206-104">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
+<span data-ttu-id="e9ef5-105">tblAdminLock содержит блокировку администратора, необходимую для запуска некоторых команд администратора.</span><span class="sxs-lookup"><span data-stu-id="e9ef5-105">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="d4206-105">Столбцы</span><span class="sxs-lookup"><span data-stu-id="d4206-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="e9ef5-106">Столбцы</span><span class="sxs-lookup"><span data-stu-id="e9ef5-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,26 +52,26 @@ ms.locfileid: "48509526"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d4206-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="d4206-106">Column</span></span></th>
-<th><span data-ttu-id="d4206-107">Тип</span><span class="sxs-lookup"><span data-stu-id="d4206-107">Type</span></span></th>
-<th><span data-ttu-id="d4206-108">Описание</span><span class="sxs-lookup"><span data-stu-id="d4206-108">Description</span></span></th>
+<th><span data-ttu-id="e9ef5-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="e9ef5-107">Column</span></span></th>
+<th><span data-ttu-id="e9ef5-108">Тип</span><span class="sxs-lookup"><span data-stu-id="e9ef5-108">Type</span></span></th>
+<th><span data-ttu-id="e9ef5-109">Описание</span><span class="sxs-lookup"><span data-stu-id="e9ef5-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d4206-109">локкекспирестиме</span><span class="sxs-lookup"><span data-stu-id="d4206-109">lockExpiresTime</span></span></p></td>
-<td><p><span data-ttu-id="d4206-110">datetime, не null</span><span class="sxs-lookup"><span data-stu-id="d4206-110">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="d4206-p101">Дата и время истечения срока блокировки. Владелец может периодически продлевать этот срок.</span><span class="sxs-lookup"><span data-stu-id="d4206-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-110">локкекспирестиме</span><span class="sxs-lookup"><span data-stu-id="e9ef5-110">lockExpiresTime</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-111">datetime, не null</span><span class="sxs-lookup"><span data-stu-id="e9ef5-111">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-p101">Дата и время истечения срока блокировки. Владелец может периодически продлевать этот срок.</span><span class="sxs-lookup"><span data-stu-id="e9ef5-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d4206-113">локксерверид</span><span class="sxs-lookup"><span data-stu-id="d4206-113">lockServerID</span></span></p></td>
-<td><p><span data-ttu-id="d4206-114">int, не null</span><span class="sxs-lookup"><span data-stu-id="d4206-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="d4206-115">Идентификатора сервера, которому принадлежит блокировка.</span><span class="sxs-lookup"><span data-stu-id="d4206-115">ID of the server that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-114">локксерверид</span><span class="sxs-lookup"><span data-stu-id="e9ef5-114">lockServerID</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-115">int, не null</span><span class="sxs-lookup"><span data-stu-id="e9ef5-115">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-116">Идентификатора сервера, которому принадлежит блокировка.</span><span class="sxs-lookup"><span data-stu-id="e9ef5-116">ID of the server that owns the lock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d4206-116">локкакторид</span><span class="sxs-lookup"><span data-stu-id="d4206-116">lockActorID</span></span></p></td>
-<td><p><span data-ttu-id="d4206-117">int, не null</span><span class="sxs-lookup"><span data-stu-id="d4206-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="d4206-118">Идентификатора участника, которому принадлежит блокировка.</span><span class="sxs-lookup"><span data-stu-id="d4206-118">ID of the principal that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-117">локкакторид</span><span class="sxs-lookup"><span data-stu-id="e9ef5-117">lockActorID</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-118">int, не null</span><span class="sxs-lookup"><span data-stu-id="e9ef5-118">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="e9ef5-119">Идентификатора участника, которому принадлежит блокировка.</span><span class="sxs-lookup"><span data-stu-id="e9ef5-119">ID of the principal that owns the lock.</span></span></p></td>
 </tr>
 </tbody>
 </table>

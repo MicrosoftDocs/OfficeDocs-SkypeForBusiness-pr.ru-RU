@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Установка и настройка узлов-наблюдателей'
+description: 'Lync Server 2013: Установка и настройка узлов-наблюдателей.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 87bf43e1651fabfa0137d09234d663cc905e947b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534946"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574005"
 ---
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="32695-102">Установка и настройка узлов-наблюдателей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32695-102">Installing and configuring watcher nodes in Lync Server 2013</span></span>
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="6e26d-103">Установка и настройка узлов-наблюдателей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e26d-103">Installing and configuring watcher nodes in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48534946"
 
 <span> </span>
 
-<span data-ttu-id="32695-103">_**Последнее изменение темы:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="32695-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="6e26d-104">_**Последнее изменение темы:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="6e26d-104">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="32695-104">*Узлы-наблюдатели* — это компьютеры, периодически выполняющие синтетические транзакции Lync Server.</span><span class="sxs-lookup"><span data-stu-id="32695-104">*Watcher nodes* are computers that periodically run Lync Server synthetic transactions.</span></span> <span data-ttu-id="32695-105">*Искусственные транзакции* — это командлеты Windows PowerShell, которые проверяют, что ключевые сценарии конечного пользователя (например, возможность входа в систему или возможность обмениваться мгновенными сообщениями) работают должным образом.</span><span class="sxs-lookup"><span data-stu-id="32695-105">*Synthetic transactions* are Windows PowerShell cmdlets that verify that key end user scenarios—such as the ability to sign in to the system, or the ability to exchange instant messages—are working as expected.</span></span> <span data-ttu-id="32695-106">Для Lync Server 2013 System Center Operations Manager может выполнять синтетические транзакции, показанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="32695-106">For Lync Server 2013, System Center Operations Manager can run the synthetic transactions shown in the following table.</span></span> <span data-ttu-id="32695-107">Здесь показаны три разных типа искусственных транзакций.</span><span class="sxs-lookup"><span data-stu-id="32695-107">There are three different synthetic transaction types shown in the table:</span></span>
+<span data-ttu-id="6e26d-105">*Узлы-наблюдатели* — это компьютеры, периодически выполняющие синтетические транзакции Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6e26d-105">*Watcher nodes* are computers that periodically run Lync Server synthetic transactions.</span></span> <span data-ttu-id="6e26d-106">*Искусственные транзакции* — это командлеты Windows PowerShell, которые проверяют, что ключевые сценарии конечного пользователя (например, возможность входа в систему или возможность обмениваться мгновенными сообщениями) работают должным образом.</span><span class="sxs-lookup"><span data-stu-id="6e26d-106">*Synthetic transactions* are Windows PowerShell cmdlets that verify that key end user scenarios—such as the ability to sign in to the system, or the ability to exchange instant messages—are working as expected.</span></span> <span data-ttu-id="6e26d-107">Для Lync Server 2013 System Center Operations Manager может выполнять синтетические транзакции, показанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="6e26d-107">For Lync Server 2013, System Center Operations Manager can run the synthetic transactions shown in the following table.</span></span> <span data-ttu-id="6e26d-108">Здесь показаны три разных типа искусственных транзакций.</span><span class="sxs-lookup"><span data-stu-id="6e26d-108">There are three different synthetic transaction types shown in the table:</span></span>
 
-  - <span data-ttu-id="32695-108">**По умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="32695-108">**Default**.</span></span> <span data-ttu-id="32695-109">Это искусственные транзакции, которые узел-наблюдатель будет выполнять по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32695-109">These are the synthetic transactions that a watcher node will run by default.</span></span> <span data-ttu-id="32695-110">При создании нового узла-наблюдателя имеется возможность указать, какие искусственные транзакции будет запускать этот узел.</span><span class="sxs-lookup"><span data-stu-id="32695-110">When you create a new watcher node, you have the option of specifying which synthetic transactions that node will run.</span></span> <span data-ttu-id="32695-111">(Это назначение параметра Tests, используемого командлетом **New-CsWatcherNodeConfiguration** .) Если вы не используете параметр Tests при создании узла-наблюдателя, он будет автоматически выполнять все синтетические транзакции по умолчанию и не будет выполнять искусственные транзакции, не связанные с по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32695-111">(That's the purpose of the Tests parameter used by the **New-CsWatcherNodeConfiguration** cmdlet.) If you do not use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and will not run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="32695-112">То есть, к примеру, узел-наблюдатель будет настроен для запуска теста Test-CsAddressBookService, но не сможет запускать тест Test-CsExumConnectivity.</span><span class="sxs-lookup"><span data-stu-id="32695-112">That means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but will not be configured to run the Test-CsExumConnectivity test.</span></span>
+  - <span data-ttu-id="6e26d-109">**По умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="6e26d-109">**Default**.</span></span> <span data-ttu-id="6e26d-110">Это искусственные транзакции, которые узел-наблюдатель будет выполнять по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6e26d-110">These are the synthetic transactions that a watcher node will run by default.</span></span> <span data-ttu-id="6e26d-111">При создании нового узла-наблюдателя имеется возможность указать, какие искусственные транзакции будет запускать этот узел.</span><span class="sxs-lookup"><span data-stu-id="6e26d-111">When you create a new watcher node, you have the option of specifying which synthetic transactions that node will run.</span></span> <span data-ttu-id="6e26d-112">(Это назначение параметра Tests, используемого командлетом **New-CsWatcherNodeConfiguration** .) Если вы не используете параметр Tests при создании узла-наблюдателя, он будет автоматически выполнять все синтетические транзакции по умолчанию и не будет выполнять искусственные транзакции, не связанные с по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6e26d-112">(That's the purpose of the Tests parameter used by the **New-CsWatcherNodeConfiguration** cmdlet.) If you do not use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and will not run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="6e26d-113">То есть, к примеру, узел-наблюдатель будет настроен для запуска теста Test-CsAddressBookService, но не сможет запускать тест Test-CsExumConnectivity.</span><span class="sxs-lookup"><span data-stu-id="6e26d-113">That means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but will not be configured to run the Test-CsExumConnectivity test.</span></span>
 
-  - <span data-ttu-id="32695-113">**Не по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="32695-113">**Non-default**.</span></span> <span data-ttu-id="32695-114">Как следует из названия, не по умолчанию искусственные транзакции — это тесты, которые не запускаются по умолчанию узлами-наблюдателями.</span><span class="sxs-lookup"><span data-stu-id="32695-114">As the name implies, Non-default synthetic transactions are tests that watcher nodes do not run by default.</span></span> <span data-ttu-id="32695-115">Однако узел-наблюдатель можно включить для запуска любой из искусственных транзакций, не являющихся по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32695-115">However, the watcher node can be enabled to run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="32695-116">Это можно сделать при создании узла-наблюдателя (с помощью командлета **New-CsWatcherNodeConfiguration** ) или в любое время после этого.</span><span class="sxs-lookup"><span data-stu-id="32695-116">You can do this when you create the watcher node (by using the **New-CsWatcherNodeConfiguration** cmdlet), or at any time after that.</span></span> <span data-ttu-id="32695-117">Многие из искусственных транзакций по умолчанию требуют дополнительных действий по настройке.</span><span class="sxs-lookup"><span data-stu-id="32695-117">Many of the Non-default synthetic transactions require extra setup steps.</span></span> <span data-ttu-id="32695-118">Дополнительные сведения см. [в статье специальные инструкции по настройке для искусственных транзакций в Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="32695-118">For details, see [Special setup instructions for synthetic transactions in Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span></span>
+  - <span data-ttu-id="6e26d-114">**Не по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="6e26d-114">**Non-default**.</span></span> <span data-ttu-id="6e26d-115">Как следует из названия, не по умолчанию искусственные транзакции — это тесты, которые не запускаются по умолчанию узлами-наблюдателями.</span><span class="sxs-lookup"><span data-stu-id="6e26d-115">As the name implies, Non-default synthetic transactions are tests that watcher nodes do not run by default.</span></span> <span data-ttu-id="6e26d-116">Однако узел-наблюдатель можно включить для запуска любой из искусственных транзакций, не являющихся по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6e26d-116">However, the watcher node can be enabled to run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="6e26d-117">Это можно сделать при создании узла-наблюдателя (с помощью командлета **New-CsWatcherNodeConfiguration** ) или в любое время после этого.</span><span class="sxs-lookup"><span data-stu-id="6e26d-117">You can do this when you create the watcher node (by using the **New-CsWatcherNodeConfiguration** cmdlet), or at any time after that.</span></span> <span data-ttu-id="6e26d-118">Многие из искусственных транзакций по умолчанию требуют дополнительных действий по настройке.</span><span class="sxs-lookup"><span data-stu-id="6e26d-118">Many of the Non-default synthetic transactions require extra setup steps.</span></span> <span data-ttu-id="6e26d-119">Дополнительные сведения см. [в статье специальные инструкции по настройке для искусственных транзакций в Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="6e26d-119">For details, see [Special setup instructions for synthetic transactions in Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span></span>
 
-  - <span data-ttu-id="32695-119">**Расширенный**.</span><span class="sxs-lookup"><span data-stu-id="32695-119">**Extended**.</span></span> <span data-ttu-id="32695-120">Расширенные тесты являются специальным типом искусственных транзакций не по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32695-120">Extended tests are a special type of Non-default synthetic transaction.</span></span> <span data-ttu-id="32695-121">В отличие от других искусственных транзакций расширенные тесты могут выполняться несколько раз в течение каждого прохода.</span><span class="sxs-lookup"><span data-stu-id="32695-121">Unlike other synthetic transactions, Extended tests can be run multiple times during each pass.</span></span> <span data-ttu-id="32695-122">Это может оказаться полезным при проверке поведения, например при наличии в пуле нескольких маршрутов голосовой связи в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="32695-122">This can be useful when verifying behavior such as multiple public switched telephone network (PSTN) voice routes for a pool.</span></span> <span data-ttu-id="32695-123">В этом случае настройка заключается в простом добавлении нескольких экземпляров расширенного теста в узел-наблюдатель.</span><span class="sxs-lookup"><span data-stu-id="32695-123">This can be configured simply by adding multiple instances of an Extended test to a watcher node.</span></span>
+  - <span data-ttu-id="6e26d-120">**Расширенный**.</span><span class="sxs-lookup"><span data-stu-id="6e26d-120">**Extended**.</span></span> <span data-ttu-id="6e26d-121">Расширенные тесты являются специальным типом искусственных транзакций не по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6e26d-121">Extended tests are a special type of Non-default synthetic transaction.</span></span> <span data-ttu-id="6e26d-122">В отличие от других искусственных транзакций расширенные тесты могут выполняться несколько раз в течение каждого прохода.</span><span class="sxs-lookup"><span data-stu-id="6e26d-122">Unlike other synthetic transactions, Extended tests can be run multiple times during each pass.</span></span> <span data-ttu-id="6e26d-123">Это может оказаться полезным при проверке поведения, например при наличии в пуле нескольких маршрутов голосовой связи в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="6e26d-123">This can be useful when verifying behavior such as multiple public switched telephone network (PSTN) voice routes for a pool.</span></span> <span data-ttu-id="6e26d-124">В этом случае настройка заключается в простом добавлении нескольких экземпляров расширенного теста в узел-наблюдатель.</span><span class="sxs-lookup"><span data-stu-id="6e26d-124">This can be configured simply by adding multiple instances of an Extended test to a watcher node.</span></span>
 
-<span data-ttu-id="32695-124">Сведения о процессе добавления других искусственных транзакций на узел-наблюдатель можно найти [в разделе Управление узлами-наблюдателями в Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span><span class="sxs-lookup"><span data-stu-id="32695-124">For details about the process of adding other synthetic transactions to a watcher node, see [Managing watcher nodes in Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span></span> <span data-ttu-id="32695-125">Можно использовать командную консоль Lync Server для удаления искусственных транзакций из узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="32695-125">You can use the Lync Server Management Shell to remove synthetic transactions from a watcher node.</span></span>
+<span data-ttu-id="6e26d-125">Сведения о процессе добавления других искусственных транзакций на узел-наблюдатель можно найти [в разделе Управление узлами-наблюдателями в Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span><span class="sxs-lookup"><span data-stu-id="6e26d-125">For details about the process of adding other synthetic transactions to a watcher node, see [Managing watcher nodes in Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span></span> <span data-ttu-id="6e26d-126">Можно использовать командную консоль Lync Server для удаления искусственных транзакций из узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="6e26d-126">You can use the Lync Server Management Shell to remove synthetic transactions from a watcher node.</span></span>
 
-<span data-ttu-id="32695-126">Узлам-наблюдателям доступны следующие искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="32695-126">The synthetic transactions available to watcher nodes include the following:</span></span>
+<span data-ttu-id="6e26d-127">Узлам-наблюдателям доступны следующие искусственные транзакции.</span><span class="sxs-lookup"><span data-stu-id="6e26d-127">The synthetic transactions available to watcher nodes include the following:</span></span>
 
 
 <table>
@@ -60,149 +61,149 @@ ms.locfileid: "48534946"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32695-127">Имя командлета (название теста)</span><span class="sxs-lookup"><span data-stu-id="32695-127">Cmdlet Name (Test Name)</span></span></th>
-<th><span data-ttu-id="32695-128">Описание</span><span class="sxs-lookup"><span data-stu-id="32695-128">Description</span></span></th>
-<th><span data-ttu-id="32695-129">Тип искусственной транзакции</span><span class="sxs-lookup"><span data-stu-id="32695-129">Synthetic Transaction Type</span></span></th>
+<th><span data-ttu-id="6e26d-128">Имя командлета (название теста)</span><span class="sxs-lookup"><span data-stu-id="6e26d-128">Cmdlet Name (Test Name)</span></span></th>
+<th><span data-ttu-id="6e26d-129">Описание</span><span class="sxs-lookup"><span data-stu-id="6e26d-129">Description</span></span></th>
+<th><span data-ttu-id="6e26d-130">Тип искусственной транзакции</span><span class="sxs-lookup"><span data-stu-id="6e26d-130">Synthetic Transaction Type</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-130">Test-CsAddressBookService (ABS)</span><span class="sxs-lookup"><span data-stu-id="32695-130">Test-CsAddressBookService (ABS)</span></span></p></td>
-<td><p><span data-ttu-id="32695-131">Проверяет, могут ли пользователи искать других пользователей, которых нет в их списках контактов.</span><span class="sxs-lookup"><span data-stu-id="32695-131">Confirms that users are able to look up users that aren’t in their contact list.</span></span></p></td>
-<td><p><span data-ttu-id="32695-132">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-132">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-131">Test-CsAddressBookService (ABS)</span><span class="sxs-lookup"><span data-stu-id="6e26d-131">Test-CsAddressBookService (ABS)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-132">Проверяет, могут ли пользователи искать других пользователей, которых нет в их списках контактов.</span><span class="sxs-lookup"><span data-stu-id="6e26d-132">Confirms that users are able to look up users that aren’t in their contact list.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-133">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-133">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-133">Test-CsAddressBookWebQuery (ABWQ)</span><span class="sxs-lookup"><span data-stu-id="32695-133">Test-CsAddressBookWebQuery (ABWQ)</span></span></p></td>
-<td><p><span data-ttu-id="32695-134">Проверяет, могут ли пользователи искать других пользователей, которых нет в их списках контактов, по протоколу HTTP.</span><span class="sxs-lookup"><span data-stu-id="32695-134">Confirms that users are able to look up users that aren’t in their contact list via HTTP.</span></span></p></td>
-<td><p><span data-ttu-id="32695-135">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-135">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-134">Test-CsAddressBookWebQuery (ABWQ)</span><span class="sxs-lookup"><span data-stu-id="6e26d-134">Test-CsAddressBookWebQuery (ABWQ)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-135">Проверяет, могут ли пользователи искать других пользователей, которых нет в их списках контактов, по протоколу HTTP.</span><span class="sxs-lookup"><span data-stu-id="6e26d-135">Confirms that users are able to look up users that aren’t in their contact list via HTTP.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-136">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-136">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-136">Test-CsIM (IM)</span><span class="sxs-lookup"><span data-stu-id="32695-136">Test-CsIM (IM)</span></span></p></td>
-<td><p><span data-ttu-id="32695-137">Проверяет, могут ли пользователи обмениваться мгновенными сообщениями друг с другом.</span><span class="sxs-lookup"><span data-stu-id="32695-137">Confirms that users are able to send peer-to-peer instant messages.</span></span></p></td>
-<td><p><span data-ttu-id="32695-138">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-138">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-137">Test-CsIM (IM)</span><span class="sxs-lookup"><span data-stu-id="6e26d-137">Test-CsIM (IM)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-138">Проверяет, могут ли пользователи обмениваться мгновенными сообщениями друг с другом.</span><span class="sxs-lookup"><span data-stu-id="6e26d-138">Confirms that users are able to send peer-to-peer instant messages.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-139">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-139">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-139">Test-CsP2PAV (P2PAV)</span><span class="sxs-lookup"><span data-stu-id="32695-139">Test-CsP2PAV (P2PAV)</span></span></p></td>
-<td><p><span data-ttu-id="32695-140">Проверяет, могут ли пользователи совершать звонки другим пользователям (только сигнализация).</span><span class="sxs-lookup"><span data-stu-id="32695-140">Confirms that users are able to place peer-to-peer audio calls (signaling only).</span></span></p></td>
-<td><p><span data-ttu-id="32695-141">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-141">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-140">Test-CsP2PAV (P2PAV)</span><span class="sxs-lookup"><span data-stu-id="6e26d-140">Test-CsP2PAV (P2PAV)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-141">Проверяет, могут ли пользователи совершать звонки другим пользователям (только сигнализация).</span><span class="sxs-lookup"><span data-stu-id="6e26d-141">Confirms that users are able to place peer-to-peer audio calls (signaling only).</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-142">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-142">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-142">Test-CsPresence (Presence)</span><span class="sxs-lookup"><span data-stu-id="32695-142">Test-CsPresence (Presence)</span></span></p></td>
-<td><p><span data-ttu-id="32695-143">Проверяет, могут ли пользователи просматривать сведения о присутствии других пользователей.</span><span class="sxs-lookup"><span data-stu-id="32695-143">Confirms that users are able to view other users’ presence.</span></span></p></td>
-<td><p><span data-ttu-id="32695-144">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-144">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-143">Test-CsPresence (Presence)</span><span class="sxs-lookup"><span data-stu-id="6e26d-143">Test-CsPresence (Presence)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-144">Проверяет, могут ли пользователи просматривать сведения о присутствии других пользователей.</span><span class="sxs-lookup"><span data-stu-id="6e26d-144">Confirms that users are able to view other users’ presence.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-145">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-145">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-145">Test-CsRegistration (Registration)</span><span class="sxs-lookup"><span data-stu-id="32695-145">Test-CsRegistration (Registration)</span></span></p></td>
-<td><p><span data-ttu-id="32695-146">Проверяет, могут ли пользователи входить в Lync.</span><span class="sxs-lookup"><span data-stu-id="32695-146">Confirms that users are able sign in to Lync.</span></span></p></td>
-<td><p><span data-ttu-id="32695-147">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-147">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-146">Test-CsRegistration (Registration)</span><span class="sxs-lookup"><span data-stu-id="6e26d-146">Test-CsRegistration (Registration)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-147">Проверяет, могут ли пользователи входить в Lync.</span><span class="sxs-lookup"><span data-stu-id="6e26d-147">Confirms that users are able sign in to Lync.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-148">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-148">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-148">Test-CsAudioConferencingProvider (ACP)</span><span class="sxs-lookup"><span data-stu-id="32695-148">Test-CsAudioConferencingProvider (ACP)</span></span></p></td>
-<td><p><span data-ttu-id="32695-149">Не используется с локальной версией Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32695-149">Not used with the on-premises version of Lync Server 2013</span></span></p></td>
-<td><p><span data-ttu-id="32695-150">Долго</span><span class="sxs-lookup"><span data-stu-id="32695-150">Extended</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-149">Test-CsAudioConferencingProvider (ACP)</span><span class="sxs-lookup"><span data-stu-id="6e26d-149">Test-CsAudioConferencingProvider (ACP)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-150">Не используется с локальной версией Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e26d-150">Not used with the on-premises version of Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-151">Долго</span><span class="sxs-lookup"><span data-stu-id="6e26d-151">Extended</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-151">Test-CsPstnPeerToPeerCall (ТСОП)</span><span class="sxs-lookup"><span data-stu-id="32695-151">Test-CsPstnPeerToPeerCall (PSTN)</span></span></p></td>
-<td><p><span data-ttu-id="32695-152">Проверяет, могут ли пользователи совершать и принимать звонки от людей вне их предприятия (номера ТСОП).</span><span class="sxs-lookup"><span data-stu-id="32695-152">Confirms that users are able to place and receive calls with people outside of the enterprise (PSTN numbers).</span></span></p></td>
-<td><p><span data-ttu-id="32695-153">Не по умолчанию, Расширенная</span><span class="sxs-lookup"><span data-stu-id="32695-153">Non-default, Extended</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-152">Test-CsPstnPeerToPeerCall (ТСОП)</span><span class="sxs-lookup"><span data-stu-id="6e26d-152">Test-CsPstnPeerToPeerCall (PSTN)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-153">Проверяет, могут ли пользователи совершать и принимать звонки от людей вне их предприятия (номера ТСОП).</span><span class="sxs-lookup"><span data-stu-id="6e26d-153">Confirms that users are able to place and receive calls with people outside of the enterprise (PSTN numbers).</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-154">Не по умолчанию, Расширенная</span><span class="sxs-lookup"><span data-stu-id="6e26d-154">Non-default, Extended</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-154">Test-CsAVConference (Авконференце)</span><span class="sxs-lookup"><span data-stu-id="32695-154">Test-CsAVConference (AvConference)</span></span></p></td>
-<td><p><span data-ttu-id="32695-155">Проверяет, могут ли пользователи создавать аудио- и видеоконференции и принимать в них участие.</span><span class="sxs-lookup"><span data-stu-id="32695-155">Confirms that users are able to create and participate in an audio/video conference.</span></span></p></td>
-<td><p><span data-ttu-id="32695-156">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-156">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-155">Test-CsAVConference (Авконференце)</span><span class="sxs-lookup"><span data-stu-id="6e26d-155">Test-CsAVConference (AvConference)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-156">Проверяет, могут ли пользователи создавать аудио- и видеоконференции и принимать в них участие.</span><span class="sxs-lookup"><span data-stu-id="6e26d-156">Confirms that users are able to create and participate in an audio/video conference.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-157">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-157">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-157">Test-CsAVEdgeConnectivity (Аведжеконнективити)</span><span class="sxs-lookup"><span data-stu-id="32695-157">Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</span></span></p></td>
-<td><p><span data-ttu-id="32695-158">Проверяет, что пограничные серверы звука и видео могут принимать подключения для выполнения одноранговых вызовов и вызовов конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="32695-158">Confirms that the A/V Edge servers are able to accept connections for peer-to-peer calls and conference calls.</span></span></p></td>
-<td><p><span data-ttu-id="32695-159">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-159">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-158">Test-CsAVEdgeConnectivity (Аведжеконнективити)</span><span class="sxs-lookup"><span data-stu-id="6e26d-158">Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-159">Проверяет, что пограничные серверы звука и видео могут принимать подключения для выполнения одноранговых вызовов и вызовов конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="6e26d-159">Confirms that the A/V Edge servers are able to accept connections for peer-to-peer calls and conference calls.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-160">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-160">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-160">Test-CsDataConference (конференция)</span><span class="sxs-lookup"><span data-stu-id="32695-160">Test-CsDataConference (DataConference)</span></span></p></td>
-<td><p><span data-ttu-id="32695-161">Проверяет, могут ли пользователи участвовать в конференциях совместной работы с данными — собраниях по сети, включающих такие возможности, как доски и опросы.</span><span class="sxs-lookup"><span data-stu-id="32695-161">Confirms that users can participate in a data collaboration conference, an online meeting that includes activities such as whiteboards and polls.</span></span></p></td>
-<td><p><span data-ttu-id="32695-162">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-162">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-161">Test-CsDataConference (конференция)</span><span class="sxs-lookup"><span data-stu-id="6e26d-161">Test-CsDataConference (DataConference)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-162">Проверяет, могут ли пользователи участвовать в конференциях совместной работы с данными — собраниях по сети, включающих такие возможности, как доски и опросы.</span><span class="sxs-lookup"><span data-stu-id="6e26d-162">Confirms that users can participate in a data collaboration conference, an online meeting that includes activities such as whiteboards and polls.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-163">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-163">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-163">Test-CsExumConnectivity (ExumConnectivity)</span><span class="sxs-lookup"><span data-stu-id="32695-163">Test-CsExumConnectivity (ExumConnectivity)</span></span></p></td>
-<td><p><span data-ttu-id="32695-164">Подтверждает, что пользователь может подключаться к единой системе обмена сообщениями Exchange (единой системы обмена сообщениями).</span><span class="sxs-lookup"><span data-stu-id="32695-164">Confirms that a user can connect to Exchange Unified Messaging (UM).</span></span></p></td>
-<td><p><span data-ttu-id="32695-165">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-165">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-164">Test-CsExumConnectivity (ExumConnectivity)</span><span class="sxs-lookup"><span data-stu-id="6e26d-164">Test-CsExumConnectivity (ExumConnectivity)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-165">Подтверждает, что пользователь может подключаться к единой системе обмена сообщениями Exchange (единой системы обмена сообщениями).</span><span class="sxs-lookup"><span data-stu-id="6e26d-165">Confirms that a user can connect to Exchange Unified Messaging (UM).</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-166">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-166">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-166">Test-CsGroupIM (Граупим)</span><span class="sxs-lookup"><span data-stu-id="32695-166">Test-CsGroupIM (GroupIM)</span></span></p></td>
-<td><p><span data-ttu-id="32695-167">Проверяет, могут ли пользователи отправлять мгновенные сообщения в рамках конференций и участвовать в текстовых беседах с тремя и более людьми.</span><span class="sxs-lookup"><span data-stu-id="32695-167">Confirms that users are able to send instant messages in conferences and participate in instant message conversations with three or more people.</span></span></p></td>
-<td><p><span data-ttu-id="32695-168">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-168">Default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-167">Test-CsGroupIM (Граупим)</span><span class="sxs-lookup"><span data-stu-id="6e26d-167">Test-CsGroupIM (GroupIM)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-168">Проверяет, могут ли пользователи отправлять мгновенные сообщения в рамках конференций и участвовать в текстовых беседах с тремя и более людьми.</span><span class="sxs-lookup"><span data-stu-id="6e26d-168">Confirms that users are able to send instant messages in conferences and participate in instant message conversations with three or more people.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-169">По умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-169">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-169">Test-CsGroupIM – Тестжоинлаунчер (Жоинлаунчер)</span><span class="sxs-lookup"><span data-stu-id="32695-169">Test-CsGroupIM –TestJoinLauncher (JoinLauncher)</span></span></p></td>
-<td><p><span data-ttu-id="32695-170">Подтверждает, что пользователи могут создавать запланированные собрания по веб-ссылке и присоединяться к ним.</span><span class="sxs-lookup"><span data-stu-id="32695-170">Confirms that users are able to create and join scheduled meetings via a web address link.</span></span></p></td>
-<td><p><span data-ttu-id="32695-171">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-171">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-170">Test-CsGroupIM – Тестжоинлаунчер (Жоинлаунчер)</span><span class="sxs-lookup"><span data-stu-id="6e26d-170">Test-CsGroupIM –TestJoinLauncher (JoinLauncher)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-171">Подтверждает, что пользователи могут создавать запланированные собрания по веб-ссылке и присоединяться к ним.</span><span class="sxs-lookup"><span data-stu-id="6e26d-171">Confirms that users are able to create and join scheduled meetings via a web address link.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-172">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-172">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-172">Test-CsMCXP2PIM (MCXP2PIM)</span><span class="sxs-lookup"><span data-stu-id="32695-172">Test-CsMCXP2PIM (MCXP2PIM)</span></span></p></td>
-<td><p><span data-ttu-id="32695-173">Проверяет, могут ли пользователи мобильных устройств регистрироваться и отправлять мгновенные сообщения.</span><span class="sxs-lookup"><span data-stu-id="32695-173">Confirms that mobile device users are able to register and send instant messages.</span></span></p></td>
-<td><p><span data-ttu-id="32695-174">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-174">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-173">Test-CsMCXP2PIM (MCXP2PIM)</span><span class="sxs-lookup"><span data-stu-id="6e26d-173">Test-CsMCXP2PIM (MCXP2PIM)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-174">Проверяет, могут ли пользователи мобильных устройств регистрироваться и отправлять мгновенные сообщения.</span><span class="sxs-lookup"><span data-stu-id="6e26d-174">Confirms that mobile device users are able to register and send instant messages.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-175">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-175">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-175">Test-CsPersistentChatMessage (Персистентчатмессаже)</span><span class="sxs-lookup"><span data-stu-id="32695-175">Test-CsPersistentChatMessage (PersistentChatMessage)</span></span></p></td>
-<td><p><span data-ttu-id="32695-176">Подтверждает, что пользователи могут обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="32695-176">Confirms that users can exchange messages by using the Persistent Chat service.</span></span></p></td>
-<td><p><span data-ttu-id="32695-177">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-177">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-176">Test-CsPersistentChatMessage (Персистентчатмессаже)</span><span class="sxs-lookup"><span data-stu-id="6e26d-176">Test-CsPersistentChatMessage (PersistentChatMessage)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-177">Подтверждает, что пользователи могут обмениваться сообщениями с помощью службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="6e26d-177">Confirms that users can exchange messages by using the Persistent Chat service.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-178">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-178">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-178">Test-CsUnifiedContactStore (Унифиедконтактсторе)</span><span class="sxs-lookup"><span data-stu-id="32695-178">Test-CsUnifiedContactStore (UnifiedContactStore)</span></span></p></td>
-<td><p><span data-ttu-id="32695-179">Проверяет возможность доступа к контактам пользователя посредством единого хранилища контактов.</span><span class="sxs-lookup"><span data-stu-id="32695-179">Confirms that a user's contacts can be accessed through the unified contact store.</span></span> <span data-ttu-id="32695-180">Единое хранилище контактов предоставляет пользователям способ обслуживания одного набора контактов, доступ к которому можно получить с помощью Lync 2013, Outlook и/или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="32695-180">The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Lync 2013, Outlook, and/or Outlook Web Access.</span></span></p></td>
-<td><p><span data-ttu-id="32695-181">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-181">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-179">Test-CsUnifiedContactStore (Унифиедконтактсторе)</span><span class="sxs-lookup"><span data-stu-id="6e26d-179">Test-CsUnifiedContactStore (UnifiedContactStore)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-180">Проверяет возможность доступа к контактам пользователя посредством единого хранилища контактов.</span><span class="sxs-lookup"><span data-stu-id="6e26d-180">Confirms that a user's contacts can be accessed through the unified contact store.</span></span> <span data-ttu-id="6e26d-181">Единое хранилище контактов предоставляет пользователям способ обслуживания одного набора контактов, доступ к которому можно получить с помощью Lync 2013, Outlook и/или Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="6e26d-181">The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Lync 2013, Outlook, and/or Outlook Web Access.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-182">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-182">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-182">Test-CsXmppIM (Ксмппим)</span><span class="sxs-lookup"><span data-stu-id="32695-182">Test-CsXmppIM (XmppIM)</span></span></p></td>
-<td><p><span data-ttu-id="32695-183">Проверяет возможность отправки мгновенного сообщения через шлюз XMPP.</span><span class="sxs-lookup"><span data-stu-id="32695-183">Confirms that an instant message can be sent across the XMPP (Extensible Messaging and Presence Protocol) gateway.</span></span></p></td>
-<td><p><span data-ttu-id="32695-184">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32695-184">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-183">Test-CsXmppIM (Ксмппим)</span><span class="sxs-lookup"><span data-stu-id="6e26d-183">Test-CsXmppIM (XmppIM)</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-184">Проверяет возможность отправки мгновенного сообщения через шлюз XMPP.</span><span class="sxs-lookup"><span data-stu-id="6e26d-184">Confirms that an instant message can be sent across the XMPP (Extensible Messaging and Presence Protocol) gateway.</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-185">Не по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6e26d-185">Non-default</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="32695-185">Чтобы использовать System Center Operations Manager, не нужно устанавливать узлы-наблюдатели.</span><span class="sxs-lookup"><span data-stu-id="32695-185">You do not need to install watcher nodes in order to use System Center Operations Manager.</span></span> <span data-ttu-id="32695-186">Если вы не установите эти узлы, вы по-прежнему можете получать оповещения в режиме реального времени от компонентов Lync Server 2013 при возникновении проблемы.</span><span class="sxs-lookup"><span data-stu-id="32695-186">If you do not install these nodes, you can still get real-time alerts from Lync Server 2013 components when an issue occurs.</span></span> <span data-ttu-id="32695-187">(Пакет управления компонентом и пользовательским пакетом не использует узлы-наблюдатели.) Однако узлы-наблюдатели необходимы для мониторинга сквозных сценариев с помощью пакета управления Active Monitoring Management Pack.</span><span class="sxs-lookup"><span data-stu-id="32695-187">(The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.</span></span>
+<span data-ttu-id="6e26d-186">Чтобы использовать System Center Operations Manager, не нужно устанавливать узлы-наблюдатели.</span><span class="sxs-lookup"><span data-stu-id="6e26d-186">You do not need to install watcher nodes in order to use System Center Operations Manager.</span></span> <span data-ttu-id="6e26d-187">Если вы не установите эти узлы, вы по-прежнему можете получать оповещения в режиме реального времени от компонентов Lync Server 2013 при возникновении проблемы.</span><span class="sxs-lookup"><span data-stu-id="6e26d-187">If you do not install these nodes, you can still get real-time alerts from Lync Server 2013 components when an issue occurs.</span></span> <span data-ttu-id="6e26d-188">(Пакет управления компонентом и пользовательским пакетом не использует узлы-наблюдатели.) Однако узлы-наблюдатели необходимы для мониторинга сквозных сценариев с помощью пакета управления Active Monitoring Management Pack.</span><span class="sxs-lookup"><span data-stu-id="6e26d-188">(The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="32695-188">Администраторы могут также выполнять искусственные транзакции вручную, не используя и не устанавливая Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="32695-188">Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager.</span></span> <span data-ttu-id="32695-189">Дополнительные сведения о различных командлетах Test-Cs см. в <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">индексе командлетов Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="32695-189">For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.</span></span>
+> <span data-ttu-id="6e26d-189">Администраторы могут также выполнять искусственные транзакции вручную, не используя и не устанавливая Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="6e26d-189">Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager.</span></span> <span data-ttu-id="6e26d-190">Дополнительные сведения о различных командлетах Test-Cs см. в <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">индексе командлетов Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="6e26d-190">For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="32695-190">В зависимости от размера развертывания искусственные транзакции могут использовать большой объем памяти компьютера и процессорного времени.</span><span class="sxs-lookup"><span data-stu-id="32695-190">Depending on the size of your deployment, synthetic transactions may use a large amount of computer memory and processor time.</span></span> <span data-ttu-id="32695-191">По этой причине мы рекомендуем использовать выделенный компьютер в качестве узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="32695-191">For this reason, we recommend that you use a dedicated computer as a watcher node.</span></span> <span data-ttu-id="32695-192">Например, не следует настраивать сервер переднего плана для работы в качестве узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="32695-192">For example, you should not configure a Front End Server to act as a watcher node.</span></span> <span data-ttu-id="32695-193">Узлы-наблюдатели должны соответствовать следующим спецификациям оборудования:</span><span class="sxs-lookup"><span data-stu-id="32695-193">Watcher nodes should meet the following hardware specifications:</span></span>
+<span data-ttu-id="6e26d-191">В зависимости от размера развертывания искусственные транзакции могут использовать большой объем памяти компьютера и процессорного времени.</span><span class="sxs-lookup"><span data-stu-id="6e26d-191">Depending on the size of your deployment, synthetic transactions may use a large amount of computer memory and processor time.</span></span> <span data-ttu-id="6e26d-192">По этой причине мы рекомендуем использовать выделенный компьютер в качестве узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="6e26d-192">For this reason, we recommend that you use a dedicated computer as a watcher node.</span></span> <span data-ttu-id="6e26d-193">Например, не следует настраивать сервер переднего плана для работы в качестве узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="6e26d-193">For example, you should not configure a Front End Server to act as a watcher node.</span></span> <span data-ttu-id="6e26d-194">Узлы-наблюдатели должны соответствовать следующим спецификациям оборудования:</span><span class="sxs-lookup"><span data-stu-id="6e26d-194">Watcher nodes should meet the following hardware specifications:</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="32695-194">Невозможно совместное размещение устаревшего узла-наблюдателя Microsoft Lync Server 2010 на одном компьютере с узлом-наблюдателем Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32695-194">A legacy Microsoft Lync Server 2010 watcher node cannot be collocated on the same machine with a Lync Server 2013 watcher node.</span></span> <span data-ttu-id="32695-195">Это связано с тем, что основные системные файлы для Lync Server 2010 и Lync Server 2013 не могут быть установлены на одном компьютере.</span><span class="sxs-lookup"><span data-stu-id="32695-195">This is because the core system files for Lync Server 2010 and Lync Server 2013 cannot be installed on the same computer.</span></span><BR><span data-ttu-id="32695-196">Однако узлы-наблюдатели Lync Server 2013 могут одновременно отслеживать как Lync Server 2013, так и Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="32695-196">However, Lync Server 2013 watcher nodes can simultaneously monitor both Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="32695-197">Искусственные транзакции по умолчанию поддерживаются для обеих версий продукта.</span><span class="sxs-lookup"><span data-stu-id="32695-197">The Default synthetic transactions are supported on both product versions.</span></span>
+> <span data-ttu-id="6e26d-195">Невозможно совместное размещение устаревшего узла-наблюдателя Microsoft Lync Server 2010 на одном компьютере с узлом-наблюдателем Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6e26d-195">A legacy Microsoft Lync Server 2010 watcher node cannot be collocated on the same machine with a Lync Server 2013 watcher node.</span></span> <span data-ttu-id="6e26d-196">Это связано с тем, что основные системные файлы для Lync Server 2010 и Lync Server 2013 не могут быть установлены на одном компьютере.</span><span class="sxs-lookup"><span data-stu-id="6e26d-196">This is because the core system files for Lync Server 2010 and Lync Server 2013 cannot be installed on the same computer.</span></span><BR><span data-ttu-id="6e26d-197">Однако узлы-наблюдатели Lync Server 2013 могут одновременно отслеживать как Lync Server 2013, так и Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="6e26d-197">However, Lync Server 2013 watcher nodes can simultaneously monitor both Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="6e26d-198">Искусственные транзакции по умолчанию поддерживаются для обеих версий продукта.</span><span class="sxs-lookup"><span data-stu-id="6e26d-198">The Default synthetic transactions are supported on both product versions.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="32695-198">Узлы-наблюдатели Lync Server 2013 могут быть развернуты внутри или за пределами предприятия, чтобы проверить следующее:</span><span class="sxs-lookup"><span data-stu-id="32695-198">Lync Server 2013 watcher nodes may be deployed inside or outside of an enterprise to help verify:</span></span>
+<span data-ttu-id="6e26d-199">Узлы-наблюдатели Lync Server 2013 могут быть развернуты внутри или за пределами предприятия, чтобы проверить следующее:</span><span class="sxs-lookup"><span data-stu-id="6e26d-199">Lync Server 2013 watcher nodes may be deployed inside or outside of an enterprise to help verify:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="32695-199">Подключение пользователей внутри предприятия к пулам</span><span class="sxs-lookup"><span data-stu-id="32695-199">Connectivity to pools for users inside the enterprise.</span></span>
+    <span data-ttu-id="6e26d-200">Подключение пользователей внутри предприятия к пулам</span><span class="sxs-lookup"><span data-stu-id="6e26d-200">Connectivity to pools for users inside the enterprise.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="32695-200">Подключение через сети периметра удаленных пользователей, которые работают за пределами предприятия.</span><span class="sxs-lookup"><span data-stu-id="32695-200">Connectivity through perimeter networks for remote users who work outside the enterprise.</span></span>
+    <span data-ttu-id="6e26d-201">Подключение через сети периметра удаленных пользователей, которые работают за пределами предприятия.</span><span class="sxs-lookup"><span data-stu-id="6e26d-201">Connectivity through perimeter networks for remote users who work outside the enterprise.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="32695-201">Подключение к устройствам обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="32695-201">Connectivity to branch office appliances.</span></span>
+    <span data-ttu-id="6e26d-202">Подключение к устройствам обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="6e26d-202">Connectivity to branch office appliances.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="32695-202">Подключение к Lync Server 2010 внутри предприятия и через сети периметра.</span><span class="sxs-lookup"><span data-stu-id="32695-202">Connectivity to Lync Server 2010 inside the enterprise and through perimeter networks.</span></span>
+    <span data-ttu-id="6e26d-203">Подключение к Lync Server 2010 внутри предприятия и через сети периметра.</span><span class="sxs-lookup"><span data-stu-id="6e26d-203">Connectivity to Lync Server 2010 inside the enterprise and through perimeter networks.</span></span>
 
-<span data-ttu-id="32695-203">Различные методы проверки подлинности доступны как внутри, так и снаружи предприятия, что упрощает администрирования.</span><span class="sxs-lookup"><span data-stu-id="32695-203">Different authentication options are available for inside and outside of the enterprise to help simplify administration.</span></span> <span data-ttu-id="32695-204">Дополнительные сведения см. в разделе [Настройка узла-наблюдателя для запуска искусственных транзакций в Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="32695-204">For details, see [Configuring a watcher node to run synthetic transactions in Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span></span>
+<span data-ttu-id="6e26d-204">Различные методы проверки подлинности доступны как внутри, так и снаружи предприятия, что упрощает администрирования.</span><span class="sxs-lookup"><span data-stu-id="6e26d-204">Different authentication options are available for inside and outside of the enterprise to help simplify administration.</span></span> <span data-ttu-id="6e26d-205">Дополнительные сведения см. в разделе [Настройка узла-наблюдателя для запуска искусственных транзакций в Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span><span class="sxs-lookup"><span data-stu-id="6e26d-205">For details, see [Configuring a watcher node to run synthetic transactions in Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span></span>
 
-<span data-ttu-id="32695-205">Чтобы настроить компьютер в качестве узла-наблюдателя, необходимо выполнить следующие действия после установки System Center Operations Manager и импортировать пакеты управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32695-205">To configure a computer to act as a watcher node, you must complete the following steps after you have installed System Center Operations Manager and imported the Lync Server 2013 management packs.</span></span>
+<span data-ttu-id="6e26d-206">Чтобы настроить компьютер в качестве узла-наблюдателя, необходимо выполнить следующие действия после установки System Center Operations Manager и импортировать пакеты управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6e26d-206">To configure a computer to act as a watcher node, you must complete the following steps after you have installed System Center Operations Manager and imported the Lync Server 2013 management packs.</span></span>
 
-<span data-ttu-id="32695-206">Перед установкой основных файлов Lync Server 2013 и файлов агента System Center необходимо убедиться, что компьютер узла-наблюдателя соответствует всем требованиям для установки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32695-206">Before you install the Lync Server 2013 core files and the System Center agent files, you should also make sure that the watcher node computer meets all the prerequisites for installing Lync Server 2013.</span></span> <span data-ttu-id="32695-207">Кроме того, на этом компьютере должны быть установлены следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="32695-207">In addition, the watcher node computer should also have the following items installed:</span></span>
+<span data-ttu-id="6e26d-207">Перед установкой основных файлов Lync Server 2013 и файлов агента System Center необходимо убедиться, что компьютер узла-наблюдателя соответствует всем требованиям для установки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6e26d-207">Before you install the Lync Server 2013 core files and the System Center agent files, you should also make sure that the watcher node computer meets all the prerequisites for installing Lync Server 2013.</span></span> <span data-ttu-id="6e26d-208">Кроме того, на этом компьютере должны быть установлены следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="6e26d-208">In addition, the watcher node computer should also have the following items installed:</span></span>
 
 
 <table>
@@ -212,50 +213,50 @@ ms.locfileid: "48534946"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32695-208">Компонент оборудования</span><span class="sxs-lookup"><span data-stu-id="32695-208">Hardware component</span></span></th>
-<th><span data-ttu-id="32695-209">Минимальное требование</span><span class="sxs-lookup"><span data-stu-id="32695-209">Minimum requirement</span></span></th>
+<th><span data-ttu-id="6e26d-209">Компонент оборудования</span><span class="sxs-lookup"><span data-stu-id="6e26d-209">Hardware component</span></span></th>
+<th><span data-ttu-id="6e26d-210">Минимальное требование</span><span class="sxs-lookup"><span data-stu-id="6e26d-210">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-210">ЦП</span><span class="sxs-lookup"><span data-stu-id="32695-210">CPU</span></span></p></td>
-<td><p><span data-ttu-id="32695-211">Один из следующих:</span><span class="sxs-lookup"><span data-stu-id="32695-211">One of the following:</span></span></p>
+<td><p><span data-ttu-id="6e26d-211">ЦП</span><span class="sxs-lookup"><span data-stu-id="6e26d-211">CPU</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-212">Один из следующих:</span><span class="sxs-lookup"><span data-stu-id="6e26d-212">One of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="32695-212">64 – разрядный процессор, четырехъядерный, 2,33 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="32695-212">64-bit processor, quad-core, 2.33 GHz or higher</span></span></p></li>
-<li><p><span data-ttu-id="32695-213">64 бит, Двухъядерный процессор, 2,33 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="32695-213">64-bit 2-way processor, dual-core, 2.33 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="6e26d-213">64 – разрядный процессор, четырехъядерный, 2,33 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="6e26d-213">64-bit processor, quad-core, 2.33 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="6e26d-214">64 бит, Двухъядерный процессор, 2,33 ГГц или выше</span><span class="sxs-lookup"><span data-stu-id="6e26d-214">64-bit 2-way processor, dual-core, 2.33 GHz or higher</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32695-214">Память</span><span class="sxs-lookup"><span data-stu-id="32695-214">Memory</span></span></p></td>
-<td><p><span data-ttu-id="32695-215">8 ГБ</span><span class="sxs-lookup"><span data-stu-id="32695-215">8 GB</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-215">Память</span><span class="sxs-lookup"><span data-stu-id="6e26d-215">Memory</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-216">8 ГБ</span><span class="sxs-lookup"><span data-stu-id="6e26d-216">8 GB</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32695-216">Сетевая операционная система</span><span class="sxs-lookup"><span data-stu-id="32695-216">Network operating system</span></span></p></td>
+<td><p><span data-ttu-id="6e26d-217">Сетевая операционная система</span><span class="sxs-lookup"><span data-stu-id="6e26d-217">Network operating system</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="32695-217">1 сетевой адаптер 1 Гбит/с</span><span class="sxs-lookup"><span data-stu-id="32695-217">1 network adapter 1 Gbps</span></span></p></li>
-<li><p><span data-ttu-id="32695-218">Windows Server 2008 R2, Windows Server 2012 или</span><span class="sxs-lookup"><span data-stu-id="32695-218">Windows Server 2008 R2, Windows Server 2012, or</span></span></p>
-<p><span data-ttu-id="32695-219">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="32695-219">Windows Server 2012 R2</span></span></p></li>
+<li><p><span data-ttu-id="6e26d-218">1 сетевой адаптер 1 Гбит/с</span><span class="sxs-lookup"><span data-stu-id="6e26d-218">1 network adapter 1 Gbps</span></span></p></li>
+<li><p><span data-ttu-id="6e26d-219">Windows Server 2008 R2, Windows Server 2012 или</span><span class="sxs-lookup"><span data-stu-id="6e26d-219">Windows Server 2008 R2, Windows Server 2012, or</span></span></p>
+<p><span data-ttu-id="6e26d-220">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="6e26d-220">Windows Server 2012 R2</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-  - <span data-ttu-id="32695-220">полная версия .NET Framework 4.5;</span><span class="sxs-lookup"><span data-stu-id="32695-220">The full version of .NET Framework 4.5.</span></span>
+  - <span data-ttu-id="6e26d-221">полная версия .NET Framework 4.5;</span><span class="sxs-lookup"><span data-stu-id="6e26d-221">The full version of .NET Framework 4.5.</span></span>
 
-  - <span data-ttu-id="32695-221">Windows Identity Foundation;</span><span class="sxs-lookup"><span data-stu-id="32695-221">Windows Identity Foundation.</span></span>
+  - <span data-ttu-id="6e26d-222">Windows Identity Foundation;</span><span class="sxs-lookup"><span data-stu-id="6e26d-222">Windows Identity Foundation.</span></span>
 
-  - <span data-ttu-id="32695-222">Windows PowerShell 3.0.</span><span class="sxs-lookup"><span data-stu-id="32695-222">Windows PowerShell 3.0.</span></span>
+  - <span data-ttu-id="6e26d-223">Windows PowerShell 3.0.</span><span class="sxs-lookup"><span data-stu-id="6e26d-223">Windows PowerShell 3.0.</span></span>
 
-<span data-ttu-id="32695-223">Если все эти предварительные требования выполнены, вы можете настроить компьютер узла-наблюдателя следующим образом.</span><span class="sxs-lookup"><span data-stu-id="32695-223">As soon as all these prerequisites have been met, you can configure the watcher node by:</span></span>
+<span data-ttu-id="6e26d-224">Если все эти предварительные требования выполнены, вы можете настроить компьютер узла-наблюдателя следующим образом.</span><span class="sxs-lookup"><span data-stu-id="6e26d-224">As soon as all these prerequisites have been met, you can configure the watcher node by:</span></span>
 
-  - <span data-ttu-id="32695-224">Установка основных файлов Lync Server 2013 на компьютере узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="32695-224">Installing the Lync Server 2013 core files on the watcher node computer.</span></span>
+  - <span data-ttu-id="6e26d-225">Установка основных файлов Lync Server 2013 на компьютере узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="6e26d-225">Installing the Lync Server 2013 core files on the watcher node computer.</span></span>
 
-  - <span data-ttu-id="32695-225">Установка агента System Center Operations Manager на компьютере узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="32695-225">Installing System Center Operations Manager agent on the watcher node computer.</span></span>
+  - <span data-ttu-id="6e26d-226">Установка агента System Center Operations Manager на компьютере узла-наблюдателя.</span><span class="sxs-lookup"><span data-stu-id="6e26d-226">Installing System Center Operations Manager agent on the watcher node computer.</span></span>
 
-  - <span data-ttu-id="32695-226">Запустите исполняемый файл Watchernode.msi.</span><span class="sxs-lookup"><span data-stu-id="32695-226">Running the Watchernode.msi executable file.</span></span>
+  - <span data-ttu-id="6e26d-227">Запустите исполняемый файл Watchernode.msi.</span><span class="sxs-lookup"><span data-stu-id="6e26d-227">Running the Watchernode.msi executable file.</span></span>
 
-  - <span data-ttu-id="32695-227">С помощью командлетов **CsWatcherNodeConfiguration** настройте тестовых пользователей, которые будут использоваться узлом-наблюдателем.</span><span class="sxs-lookup"><span data-stu-id="32695-227">Using the **CsWatcherNodeConfiguration** cmdlets to configure test users to be employed by the watcher node.</span></span>
+  - <span data-ttu-id="6e26d-228">С помощью командлетов **CsWatcherNodeConfiguration** настройте тестовых пользователей, которые будут использоваться узлом-наблюдателем.</span><span class="sxs-lookup"><span data-stu-id="6e26d-228">Using the **CsWatcherNodeConfiguration** cmdlets to configure test users to be employed by the watcher node.</span></span>
 
 </div>
 

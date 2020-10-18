@@ -1,5 +1,6 @@
 ---
 title: Вопросы и ответы по средствам нагрузочного тестирования и производительности Lync Server 2013
+description: Вопросы и ответы по работе с выгрузкой и производительностью Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 716325390bc33df209be3bdc67ed8b6cd7d1ec30
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509216"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573545"
 ---
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a><span data-ttu-id="06c13-102">Вопросы и ответы по средствам нагрузочного тестирования и производительности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06c13-102">Lync Server 2013 Stress and Performance Tool FAQ</span></span>
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a><span data-ttu-id="4335f-103">Вопросы и ответы по средствам нагрузочного тестирования и производительности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4335f-103">Lync Server 2013 Stress and Performance Tool FAQ</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,107 +38,107 @@ ms.locfileid: "48509216"
 
 <span> </span>
 
-<span data-ttu-id="06c13-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="06c13-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="4335f-104">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="4335f-104">_**Topic Last Modified:** 2013-02-24_</span></span>
 
 <div>
 
-## <a name="frequently-asked-questions"></a><span data-ttu-id="06c13-104">Вопросы и ответы</span><span class="sxs-lookup"><span data-stu-id="06c13-104">Frequently Asked Questions</span></span>
+## <a name="frequently-asked-questions"></a><span data-ttu-id="4335f-105">Вопросы и ответы</span><span class="sxs-lookup"><span data-stu-id="4335f-105">Frequently Asked Questions</span></span>
 
-<span data-ttu-id="06c13-105">Ниже приведены часто задаваемые вопросы о средстве нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="06c13-105">Here are some frequently asked questions about the Lync Server 2013 Stress and Performance Tool.</span></span>
+<span data-ttu-id="4335f-106">Ниже приведены часто задаваемые вопросы о средстве нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4335f-106">Here are some frequently asked questions about the Lync Server 2013 Stress and Performance Tool.</span></span>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a><span data-ttu-id="06c13-106">Можно ли запускать LyncPerfTool.exe в рабочей среде?</span><span class="sxs-lookup"><span data-stu-id="06c13-106">Can I run LyncPerfTool.exe in production?</span></span>
+## <a name="can-i-run-lyncperftoolexe-in-production"></a><span data-ttu-id="4335f-107">Можно ли запускать LyncPerfTool.exe в рабочей среде?</span><span class="sxs-lookup"><span data-stu-id="4335f-107">Can I run LyncPerfTool.exe in production?</span></span>
 
-<span data-ttu-id="06c13-107">Мы не рекомендуем это делать.</span><span class="sxs-lookup"><span data-stu-id="06c13-107">We do not recommend this.</span></span> <span data-ttu-id="06c13-108">Это средство оказывает влияние на производительность сервера, безопасность и взаимодействие с пользователем.</span><span class="sxs-lookup"><span data-stu-id="06c13-108">This tool will impact server performance, security, and user experience.</span></span>
+<span data-ttu-id="4335f-108">Мы не рекомендуем это делать.</span><span class="sxs-lookup"><span data-stu-id="4335f-108">We do not recommend this.</span></span> <span data-ttu-id="4335f-109">Это средство оказывает влияние на производительность сервера, безопасность и взаимодействие с пользователем.</span><span class="sxs-lookup"><span data-stu-id="4335f-109">This tool will impact server performance, security, and user experience.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a><span data-ttu-id="06c13-109">Я выполняю вход в систему для пользователей в первый раз.</span><span class="sxs-lookup"><span data-stu-id="06c13-109">I am logging on my users for the first time.</span></span> <span data-ttu-id="06c13-110">Почему серверы работают на такой высокой нагрузке?</span><span class="sxs-lookup"><span data-stu-id="06c13-110">Why are the servers running at such high load?</span></span>
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a><span data-ttu-id="4335f-110">Я выполняю вход в систему для пользователей в первый раз.</span><span class="sxs-lookup"><span data-stu-id="4335f-110">I am logging on my users for the first time.</span></span> <span data-ttu-id="4335f-111">Почему серверы работают на такой высокой нагрузке?</span><span class="sxs-lookup"><span data-stu-id="4335f-111">Why are the servers running at such high load?</span></span>
 
-<span data-ttu-id="06c13-111">При первом входе пользователей в систему возникают дополнительные операции.</span><span class="sxs-lookup"><span data-stu-id="06c13-111">The first time the users log on, there are additional operations that occur.</span></span> <span data-ttu-id="06c13-112">В результате производительность на внутреннем сервере Microsoft SQL Server будет снижена.</span><span class="sxs-lookup"><span data-stu-id="06c13-112">As a result, the performance on the Microsoft SQL Server Back End Server will be degraded.</span></span> <span data-ttu-id="06c13-113">Мы рекомендуем выполнить короткий тест, который заносится в журнал для всех пользователей, а затем перезапустите клиенты, прежде чем измерять результаты.</span><span class="sxs-lookup"><span data-stu-id="06c13-113">We recommend that you run a short test that logs on all of the users, and then restart the clients before you measure results.</span></span> <span data-ttu-id="06c13-114">Мы не поддерживаем более 12 одновременных сеансов входа пользователей в секунду, но это зависит от конфигурации оборудования.</span><span class="sxs-lookup"><span data-stu-id="06c13-114">We do not support more than 12 concurrent user logon sessions per second, but this depends on your hardware configuration.</span></span>
-
-</div>
-
-<div>
-
-## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a><span data-ttu-id="06c13-115">В работе клиентов недостаточно памяти.</span><span class="sxs-lookup"><span data-stu-id="06c13-115">My clients are running out of memory.</span></span> <span data-ttu-id="06c13-116">Что делать?</span><span class="sxs-lookup"><span data-stu-id="06c13-116">What should I do?</span></span>
-
-<span data-ttu-id="06c13-117">Если на ваших клиентах не хватает памяти, необходимо уменьшить количество пользователей на компьютер.</span><span class="sxs-lookup"><span data-stu-id="06c13-117">If your clients are running out of memory, you need to reduce the number of users per computer.</span></span>
+<span data-ttu-id="4335f-112">При первом входе пользователей в систему возникают дополнительные операции.</span><span class="sxs-lookup"><span data-stu-id="4335f-112">The first time the users log on, there are additional operations that occur.</span></span> <span data-ttu-id="4335f-113">В результате производительность на внутреннем сервере Microsoft SQL Server будет снижена.</span><span class="sxs-lookup"><span data-stu-id="4335f-113">As a result, the performance on the Microsoft SQL Server Back End Server will be degraded.</span></span> <span data-ttu-id="4335f-114">Мы рекомендуем выполнить короткий тест, который заносится в журнал для всех пользователей, а затем перезапустите клиенты, прежде чем измерять результаты.</span><span class="sxs-lookup"><span data-stu-id="4335f-114">We recommend that you run a short test that logs on all of the users, and then restart the clients before you measure results.</span></span> <span data-ttu-id="4335f-115">Мы не поддерживаем более 12 одновременных сеансов входа пользователей в секунду, но это зависит от конфигурации оборудования.</span><span class="sxs-lookup"><span data-stu-id="4335f-115">We do not support more than 12 concurrent user logon sessions per second, but this depends on your hardware configuration.</span></span>
 
 </div>
 
 <div>
 
-## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a><span data-ttu-id="06c13-118">В каждый момент времени у моих клиентов составляется 100 процентов.</span><span class="sxs-lookup"><span data-stu-id="06c13-118">My clients are at 100 percent CPU all the time.</span></span> <span data-ttu-id="06c13-119">Что делать?</span><span class="sxs-lookup"><span data-stu-id="06c13-119">What should I do?</span></span>
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a><span data-ttu-id="4335f-116">В работе клиентов недостаточно памяти.</span><span class="sxs-lookup"><span data-stu-id="4335f-116">My clients are running out of memory.</span></span> <span data-ttu-id="4335f-117">Что делать?</span><span class="sxs-lookup"><span data-stu-id="4335f-117">What should I do?</span></span>
 
-<span data-ttu-id="06c13-120">Если клиенты работают с очень большим ПРОЦЕССОРом после входа всех пользователей, необходимо уменьшить число пользователей на компьютер.</span><span class="sxs-lookup"><span data-stu-id="06c13-120">If your clients are running with very high CPU after all the users have logged on, you need to reduce the number of users per computer.</span></span> <span data-ttu-id="06c13-121">Высокие пиковые выгрузки ЦП приемлемы, но если они поддерживаются, необходимо уменьшить нагрузку.</span><span class="sxs-lookup"><span data-stu-id="06c13-121">High CPU spikes are acceptable, but if it is sustained, you need to reduce the load.</span></span>
-
-</div>
-
-<div>
-
-## <a name="can-i-run-the-tool-on-the-server-itself"></a><span data-ttu-id="06c13-122">Можно ли запускать средство на самом сервере?</span><span class="sxs-lookup"><span data-stu-id="06c13-122">Can I run the tool on the server itself?</span></span>
-
-<span data-ttu-id="06c13-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="06c13-123">No.</span></span> <span data-ttu-id="06c13-124">Этот сценарий не поддерживается и может не работать из-за несовпадения двоичных файлов.</span><span class="sxs-lookup"><span data-stu-id="06c13-124">This scenario is not supported and may fail due to a binary mismatch.</span></span> <span data-ttu-id="06c13-125">Кроме того, поскольку точка предназначена для измерения потребления ресурсов на сервере, при запуске средства отображается небессмысленное измерение.</span><span class="sxs-lookup"><span data-stu-id="06c13-125">Also, because the point is to measure resource consumption on the server, running the tool there would render the measurements meaningless.</span></span>
+<span data-ttu-id="4335f-118">Если на ваших клиентах не хватает памяти, необходимо уменьшить количество пользователей на компьютер.</span><span class="sxs-lookup"><span data-stu-id="4335f-118">If your clients are running out of memory, you need to reduce the number of users per computer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a><span data-ttu-id="06c13-126">Можно ли запускать LyncPerfTool.exe на виртуальном сервере или на Microsoft Hyper Server V 2008/2012?</span><span class="sxs-lookup"><span data-stu-id="06c13-126">Can I run LyncPerfTool.exe on a Virtual Server or on Microsoft Hyper-V Server 2008/2012?</span></span>
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a><span data-ttu-id="4335f-119">В каждый момент времени у моих клиентов составляется 100 процентов.</span><span class="sxs-lookup"><span data-stu-id="4335f-119">My clients are at 100 percent CPU all the time.</span></span> <span data-ttu-id="4335f-120">Что делать?</span><span class="sxs-lookup"><span data-stu-id="4335f-120">What should I do?</span></span>
 
-<span data-ttu-id="06c13-127">Да.</span><span class="sxs-lookup"><span data-stu-id="06c13-127">Yes.</span></span>
-
-</div>
-
-<div>
-
-## <a name="what-does-mpop-mean"></a><span data-ttu-id="06c13-128">Что означает МПОП?</span><span class="sxs-lookup"><span data-stu-id="06c13-128">What does MPOP mean?</span></span>
-
-<span data-ttu-id="06c13-129">МПОП означает несколько точек присутствия.</span><span class="sxs-lookup"><span data-stu-id="06c13-129">MPOP stands for multiple points of presence.</span></span> <span data-ttu-id="06c13-130">Это предназначено для имитации сценария, в котором пользователи выполнили вход в Lync 2013 с нескольких компьютеров.</span><span class="sxs-lookup"><span data-stu-id="06c13-130">It is meant to simulate the scenario where users are logged on to Lync 2013 from multiple machines.</span></span> <span data-ttu-id="06c13-131">Обратите внимание, что в LyncPerfTool.exe каждая конечная точка использует профиль по умолчанию (то есть профиль не разбивается между двумя точками присутствия).</span><span class="sxs-lookup"><span data-stu-id="06c13-131">Note that in LyncPerfTool.exe, each endpoint uses the default profile (that is, the profile is not split between the two points of presence).</span></span>
+<span data-ttu-id="4335f-121">Если клиенты работают с очень большим ПРОЦЕССОРом после входа всех пользователей, необходимо уменьшить число пользователей на компьютер.</span><span class="sxs-lookup"><span data-stu-id="4335f-121">If your clients are running with very high CPU after all the users have logged on, you need to reduce the number of users per computer.</span></span> <span data-ttu-id="4335f-122">Высокие пиковые выгрузки ЦП приемлемы, но если они поддерживаются, необходимо уменьшить нагрузку.</span><span class="sxs-lookup"><span data-stu-id="4335f-122">High CPU spikes are acceptable, but if it is sustained, you need to reduce the load.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a><span data-ttu-id="06c13-132">Я начал LyncPerfTool.exe, но ничего не происходит.</span><span class="sxs-lookup"><span data-stu-id="06c13-132">I started LyncPerfTool.exe but nothing is happening.</span></span> <span data-ttu-id="06c13-133">Почему?</span><span class="sxs-lookup"><span data-stu-id="06c13-133">What’s going on?</span></span>
+## <a name="can-i-run-the-tool-on-the-server-itself"></a><span data-ttu-id="4335f-123">Можно ли запускать средство на самом сервере?</span><span class="sxs-lookup"><span data-stu-id="4335f-123">Can I run the tool on the server itself?</span></span>
 
-<span data-ttu-id="06c13-134">Проверьте счетчик всех активных конечных точек на клиентах, чтобы проверить, подключаются ли пользователи.</span><span class="sxs-lookup"><span data-stu-id="06c13-134">Check the Total Active Endpoints counter on the clients to see if the users are connecting.</span></span> <span data-ttu-id="06c13-135">Если пользователи не подключаются, проверьте конфигурацию Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="06c13-135">If users are not connecting, verify your Lync Server 2013 configuration.</span></span> <span data-ttu-id="06c13-136">Эта проблема обычно возникает из-за неправильного имени сервера, префикса пользователя или пароля.</span><span class="sxs-lookup"><span data-stu-id="06c13-136">This issue usually occurs because the server name, the user prefix, or the password is incorrect.</span></span> <span data-ttu-id="06c13-137">Обратите внимание на то, что внешние клиенты должны указать прокси доступа в качестве значения Таржетсервер.</span><span class="sxs-lookup"><span data-stu-id="06c13-137">Note that external clients should specify the Access Proxy as the TargetServer value.</span></span> <span data-ttu-id="06c13-138">Проверьте порт в файле конфигурации.</span><span class="sxs-lookup"><span data-stu-id="06c13-138">Verify the port in the configuration file.</span></span>
-
-</div>
-
-<div>
-
-## <a name="how-do-i-know-something-is-happening"></a><span data-ttu-id="06c13-139">Как узнать, что происходит?</span><span class="sxs-lookup"><span data-stu-id="06c13-139">How do I know something is happening?</span></span>
-
-<span data-ttu-id="06c13-140">Различные счетчики производительности Линкперфтул указывают, поддаются ли пользователи для подключения и выполнения действий.</span><span class="sxs-lookup"><span data-stu-id="06c13-140">The various LyncPerfTool performance counters indicate whether or not users are connecting and performing actions.</span></span> <span data-ttu-id="06c13-141">Тем не менее, простой способ проверки заключается в входе в одну из учетных записей с помощью Lync 2013 и выполнения требуемого действия.</span><span class="sxs-lookup"><span data-stu-id="06c13-141">However, an easy way to check is to log on to one of the accounts by using Lync 2013 and performing the action you want.</span></span>
+<span data-ttu-id="4335f-124">Нет.</span><span class="sxs-lookup"><span data-stu-id="4335f-124">No.</span></span> <span data-ttu-id="4335f-125">Этот сценарий не поддерживается и может не работать из-за несовпадения двоичных файлов.</span><span class="sxs-lookup"><span data-stu-id="4335f-125">This scenario is not supported and may fail due to a binary mismatch.</span></span> <span data-ttu-id="4335f-126">Кроме того, поскольку точка предназначена для измерения потребления ресурсов на сервере, при запуске средства отображается небессмысленное измерение.</span><span class="sxs-lookup"><span data-stu-id="4335f-126">Also, because the point is to measure resource consumption on the server, running the tool there would render the measurements meaningless.</span></span>
 
 </div>
 
 <div>
 
-## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a><span data-ttu-id="06c13-142">У меня установлены средства планирования емкости Live Communications Server 2007 R2 и/или Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="06c13-142">I have Live Communications Server 2007 R2 Capacity Planning Tools and/or Lync Server 2010 installed.</span></span> <span data-ttu-id="06c13-143">Это нормально?</span><span class="sxs-lookup"><span data-stu-id="06c13-143">Is that OK?</span></span>
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a><span data-ttu-id="4335f-127">Можно ли запускать LyncPerfTool.exe на виртуальном сервере или на Microsoft Hyper Server V 2008/2012?</span><span class="sxs-lookup"><span data-stu-id="4335f-127">Can I run LyncPerfTool.exe on a Virtual Server or on Microsoft Hyper-V Server 2008/2012?</span></span>
 
-<span data-ttu-id="06c13-144">Нет.</span><span class="sxs-lookup"><span data-stu-id="06c13-144">No.</span></span> <span data-ttu-id="06c13-145">Существуют проблемы с взаимодействием, поэтому необходимо удалить все предыдущие версии этого продукта.</span><span class="sxs-lookup"><span data-stu-id="06c13-145">There are interoperability issues, and you must uninstall all previous versions of this product.</span></span>
-
-</div>
-
-<div>
-
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a><span data-ttu-id="06c13-146">Настроила или не повлияет на топологию сервера информации о вызовах CAA?</span><span class="sxs-lookup"><span data-stu-id="06c13-146">Will the Stress and Performance tools set up the CAA Call Information server topology?</span></span>
-
-<span data-ttu-id="06c13-147">Нет.</span><span class="sxs-lookup"><span data-stu-id="06c13-147">No.</span></span> <span data-ttu-id="06c13-148">Средства создают только пользователей, контакты и списки рассылки, а также имитируют нагрузку пользователей.</span><span class="sxs-lookup"><span data-stu-id="06c13-148">The tools only create users, contacts, and distribution lists, and simulate user load.</span></span>
+<span data-ttu-id="4335f-128">Да.</span><span class="sxs-lookup"><span data-stu-id="4335f-128">Yes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a><span data-ttu-id="06c13-149">Каково максимальное количество пользователей, поддерживаемых средствами?</span><span class="sxs-lookup"><span data-stu-id="06c13-149">What is the maximum number of users that the tools support?</span></span>
+## <a name="what-does-mpop-mean"></a><span data-ttu-id="4335f-129">Что означает МПОП?</span><span class="sxs-lookup"><span data-stu-id="4335f-129">What does MPOP mean?</span></span>
 
-<span data-ttu-id="06c13-150">Мы создали до 80 000 пользователей и выполнили тестирование с учетом всего 30 000 пользователей, используя эти средства.</span><span class="sxs-lookup"><span data-stu-id="06c13-150">We have created up to a total of 80,000 users and executed tests totaling 30,000 users, using these tools.</span></span> <span data-ttu-id="06c13-151">Мы рекомендуем не более 120 000 пользователей, несмотря на то, что технические ограничения допускают более высокое значение, в зависимости от того, какое аппаратное обеспечение доступно для клиента и сервера.</span><span class="sxs-lookup"><span data-stu-id="06c13-151">We suggest a maximum of 120,000 users, although the technical limitations allow for a higher value, depending on the client and server hardware available.</span></span>
+<span data-ttu-id="4335f-130">МПОП означает несколько точек присутствия.</span><span class="sxs-lookup"><span data-stu-id="4335f-130">MPOP stands for multiple points of presence.</span></span> <span data-ttu-id="4335f-131">Это предназначено для имитации сценария, в котором пользователи выполнили вход в Lync 2013 с нескольких компьютеров.</span><span class="sxs-lookup"><span data-stu-id="4335f-131">It is meant to simulate the scenario where users are logged on to Lync 2013 from multiple machines.</span></span> <span data-ttu-id="4335f-132">Обратите внимание, что в LyncPerfTool.exe каждая конечная точка использует профиль по умолчанию (то есть профиль не разбивается между двумя точками присутствия).</span><span class="sxs-lookup"><span data-stu-id="4335f-132">Note that in LyncPerfTool.exe, each endpoint uses the default profile (that is, the profile is not split between the two points of presence).</span></span>
+
+</div>
+
+<div>
+
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a><span data-ttu-id="4335f-133">Я начал LyncPerfTool.exe, но ничего не происходит.</span><span class="sxs-lookup"><span data-stu-id="4335f-133">I started LyncPerfTool.exe but nothing is happening.</span></span> <span data-ttu-id="4335f-134">Почему?</span><span class="sxs-lookup"><span data-stu-id="4335f-134">What’s going on?</span></span>
+
+<span data-ttu-id="4335f-135">Проверьте счетчик всех активных конечных точек на клиентах, чтобы проверить, подключаются ли пользователи.</span><span class="sxs-lookup"><span data-stu-id="4335f-135">Check the Total Active Endpoints counter on the clients to see if the users are connecting.</span></span> <span data-ttu-id="4335f-136">Если пользователи не подключаются, проверьте конфигурацию Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4335f-136">If users are not connecting, verify your Lync Server 2013 configuration.</span></span> <span data-ttu-id="4335f-137">Эта проблема обычно возникает из-за неправильного имени сервера, префикса пользователя или пароля.</span><span class="sxs-lookup"><span data-stu-id="4335f-137">This issue usually occurs because the server name, the user prefix, or the password is incorrect.</span></span> <span data-ttu-id="4335f-138">Обратите внимание на то, что внешние клиенты должны указать прокси доступа в качестве значения Таржетсервер.</span><span class="sxs-lookup"><span data-stu-id="4335f-138">Note that external clients should specify the Access Proxy as the TargetServer value.</span></span> <span data-ttu-id="4335f-139">Проверьте порт в файле конфигурации.</span><span class="sxs-lookup"><span data-stu-id="4335f-139">Verify the port in the configuration file.</span></span>
+
+</div>
+
+<div>
+
+## <a name="how-do-i-know-something-is-happening"></a><span data-ttu-id="4335f-140">Как узнать, что происходит?</span><span class="sxs-lookup"><span data-stu-id="4335f-140">How do I know something is happening?</span></span>
+
+<span data-ttu-id="4335f-141">Различные счетчики производительности Линкперфтул указывают, поддаются ли пользователи для подключения и выполнения действий.</span><span class="sxs-lookup"><span data-stu-id="4335f-141">The various LyncPerfTool performance counters indicate whether or not users are connecting and performing actions.</span></span> <span data-ttu-id="4335f-142">Тем не менее, простой способ проверки заключается в входе в одну из учетных записей с помощью Lync 2013 и выполнения требуемого действия.</span><span class="sxs-lookup"><span data-stu-id="4335f-142">However, an easy way to check is to log on to one of the accounts by using Lync 2013 and performing the action you want.</span></span>
+
+</div>
+
+<div>
+
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a><span data-ttu-id="4335f-143">У меня установлены средства планирования емкости Live Communications Server 2007 R2 и/или Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="4335f-143">I have Live Communications Server 2007 R2 Capacity Planning Tools and/or Lync Server 2010 installed.</span></span> <span data-ttu-id="4335f-144">Это нормально?</span><span class="sxs-lookup"><span data-stu-id="4335f-144">Is that OK?</span></span>
+
+<span data-ttu-id="4335f-145">Нет.</span><span class="sxs-lookup"><span data-stu-id="4335f-145">No.</span></span> <span data-ttu-id="4335f-146">Существуют проблемы с взаимодействием, поэтому необходимо удалить все предыдущие версии этого продукта.</span><span class="sxs-lookup"><span data-stu-id="4335f-146">There are interoperability issues, and you must uninstall all previous versions of this product.</span></span>
+
+</div>
+
+<div>
+
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a><span data-ttu-id="4335f-147">Настроила или не повлияет на топологию сервера информации о вызовах CAA?</span><span class="sxs-lookup"><span data-stu-id="4335f-147">Will the Stress and Performance tools set up the CAA Call Information server topology?</span></span>
+
+<span data-ttu-id="4335f-148">Нет.</span><span class="sxs-lookup"><span data-stu-id="4335f-148">No.</span></span> <span data-ttu-id="4335f-149">Средства создают только пользователей, контакты и списки рассылки, а также имитируют нагрузку пользователей.</span><span class="sxs-lookup"><span data-stu-id="4335f-149">The tools only create users, contacts, and distribution lists, and simulate user load.</span></span>
+
+</div>
+
+<div>
+
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a><span data-ttu-id="4335f-150">Каково максимальное количество пользователей, поддерживаемых средствами?</span><span class="sxs-lookup"><span data-stu-id="4335f-150">What is the maximum number of users that the tools support?</span></span>
+
+<span data-ttu-id="4335f-151">Мы создали до 80 000 пользователей и выполнили тестирование с учетом всего 30 000 пользователей, используя эти средства.</span><span class="sxs-lookup"><span data-stu-id="4335f-151">We have created up to a total of 80,000 users and executed tests totaling 30,000 users, using these tools.</span></span> <span data-ttu-id="4335f-152">Мы рекомендуем не более 120 000 пользователей, несмотря на то, что технические ограничения допускают более высокое значение, в зависимости от того, какое аппаратное обеспечение доступно для клиента и сервера.</span><span class="sxs-lookup"><span data-stu-id="4335f-152">We suggest a maximum of 120,000 users, although the technical limitations allow for a higher value, depending on the client and server hardware available.</span></span>
 
 </div>
 

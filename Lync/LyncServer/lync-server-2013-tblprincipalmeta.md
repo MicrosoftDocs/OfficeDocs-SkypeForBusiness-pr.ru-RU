@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalMeta'
+description: 'Lync Server 2013: tblPrincipalMeta.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d70b26dc074213c30248da0e13f137c8b1e2f58a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 899fd1e450dac52afa56c1ee1de86da82b2db309
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523646"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573645"
 ---
-# <a name="tblprincipalmeta-in-lync-server-2013"></a><span data-ttu-id="aecdb-102">tblPrincipalMeta в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aecdb-102">tblPrincipalMeta in Lync Server 2013</span></span>
+# <a name="tblprincipalmeta-in-lync-server-2013"></a><span data-ttu-id="d2605-103">tblPrincipalMeta в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2605-103">tblPrincipalMeta in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523646"
 
 <span> </span>
 
-<span data-ttu-id="aecdb-103">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="aecdb-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="d2605-104">_**Последнее изменение темы:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="d2605-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="aecdb-104">tblPrincipalMeta содержит субъекты, которые необходимо обновить из доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="aecdb-104">tblPrincipalMeta contains the principals that have to be refreshed from Active Directory Domain Services.</span></span>
+<span data-ttu-id="d2605-105">tblPrincipalMeta содержит субъекты, которые необходимо обновить из доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="d2605-105">tblPrincipalMeta contains the principals that have to be refreshed from Active Directory Domain Services.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="aecdb-105">Столбцы</span><span class="sxs-lookup"><span data-stu-id="aecdb-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="d2605-106">Столбцы</span><span class="sxs-lookup"><span data-stu-id="d2605-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,52 +52,52 @@ ms.locfileid: "48523646"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aecdb-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="aecdb-106">Column</span></span></th>
-<th><span data-ttu-id="aecdb-107">Тип</span><span class="sxs-lookup"><span data-stu-id="aecdb-107">Type</span></span></th>
-<th><span data-ttu-id="aecdb-108">Описание</span><span class="sxs-lookup"><span data-stu-id="aecdb-108">Description</span></span></th>
+<th><span data-ttu-id="d2605-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="d2605-107">Column</span></span></th>
+<th><span data-ttu-id="d2605-108">Тип</span><span class="sxs-lookup"><span data-stu-id="d2605-108">Type</span></span></th>
+<th><span data-ttu-id="d2605-109">Описание</span><span class="sxs-lookup"><span data-stu-id="d2605-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aecdb-109">prinID</span><span class="sxs-lookup"><span data-stu-id="aecdb-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-110">int, not null</span><span class="sxs-lookup"><span data-stu-id="aecdb-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-111">ИД субъекта.</span><span class="sxs-lookup"><span data-stu-id="aecdb-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-110">prinID</span><span class="sxs-lookup"><span data-stu-id="d2605-110">prinID</span></span></p></td>
+<td><p><span data-ttu-id="d2605-111">int, not null</span><span class="sxs-lookup"><span data-stu-id="d2605-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="d2605-112">ИД субъекта.</span><span class="sxs-lookup"><span data-stu-id="d2605-112">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecdb-112">принаффилиатионсдирти</span><span class="sxs-lookup"><span data-stu-id="aecdb-112">prinAffiliationsDirty</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-113">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="aecdb-113">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-114">Значение true, если назначения субъектов требуется обновить.</span><span class="sxs-lookup"><span data-stu-id="aecdb-114">True if principal affiliations have to be refreshed.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-113">принаффилиатионсдирти</span><span class="sxs-lookup"><span data-stu-id="d2605-113">prinAffiliationsDirty</span></span></p></td>
+<td><p><span data-ttu-id="d2605-114">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="d2605-114">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="d2605-115">Значение true, если назначения субъектов требуется обновить.</span><span class="sxs-lookup"><span data-stu-id="d2605-115">True if principal affiliations have to be refreshed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aecdb-115">принаттрибутесдирти</span><span class="sxs-lookup"><span data-stu-id="aecdb-115">prinAttributesDirty</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-116">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="aecdb-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-117">Значение true, если атрибуты субъектов требуется обновить.</span><span class="sxs-lookup"><span data-stu-id="aecdb-117">True if principal attributes have to be refreshed.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-116">принаттрибутесдирти</span><span class="sxs-lookup"><span data-stu-id="d2605-116">prinAttributesDirty</span></span></p></td>
+<td><p><span data-ttu-id="d2605-117">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="d2605-117">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="d2605-118">Значение true, если атрибуты субъектов требуется обновить.</span><span class="sxs-lookup"><span data-stu-id="d2605-118">True if principal attributes have to be refreshed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecdb-118">принделетед</span><span class="sxs-lookup"><span data-stu-id="aecdb-118">prinDeleted</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-119">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="aecdb-119">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-120">Значение true, если субъект был удален.</span><span class="sxs-lookup"><span data-stu-id="aecdb-120">True if the principal has been deleted.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-119">принделетед</span><span class="sxs-lookup"><span data-stu-id="d2605-119">prinDeleted</span></span></p></td>
+<td><p><span data-ttu-id="d2605-120">bit, не равно null</span><span class="sxs-lookup"><span data-stu-id="d2605-120">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="d2605-121">Значение true, если субъект был удален.</span><span class="sxs-lookup"><span data-stu-id="d2605-121">True if the principal has been deleted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aecdb-121">трикаунт</span><span class="sxs-lookup"><span data-stu-id="aecdb-121">tryCount</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-122">int</span><span class="sxs-lookup"><span data-stu-id="aecdb-122">int</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-123">Число попыток обновления субъекта из доменных служб Active Directory, предпринятых на данный момент.</span><span class="sxs-lookup"><span data-stu-id="aecdb-123">Number of attempts to refresh the principal from AD DS that have happened so far.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-122">трикаунт</span><span class="sxs-lookup"><span data-stu-id="d2605-122">tryCount</span></span></p></td>
+<td><p><span data-ttu-id="d2605-123">int</span><span class="sxs-lookup"><span data-stu-id="d2605-123">int</span></span></p></td>
+<td><p><span data-ttu-id="d2605-124">Число попыток обновления субъекта из доменных служб Active Directory, предпринятых на данный момент.</span><span class="sxs-lookup"><span data-stu-id="d2605-124">Number of attempts to refresh the principal from AD DS that have happened so far.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecdb-124">ласттри</span><span class="sxs-lookup"><span data-stu-id="aecdb-124">lastTry</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-125">datetime</span><span class="sxs-lookup"><span data-stu-id="aecdb-125">datetime</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-p101">Метка времени для последней попытки обновления субъекта. Может иметь значение null, если попытки обновления еще не предпринимались.</span><span class="sxs-lookup"><span data-stu-id="aecdb-p101">Time stamp from the latest attempt to refresh the principal. Can be null if no refresh has been attempted yet.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-125">ласттри</span><span class="sxs-lookup"><span data-stu-id="d2605-125">lastTry</span></span></p></td>
+<td><p><span data-ttu-id="d2605-126">datetime</span><span class="sxs-lookup"><span data-stu-id="d2605-126">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d2605-p101">Метка времени для последней попытки обновления субъекта. Может иметь значение null, если попытки обновления еще не предпринимались.</span><span class="sxs-lookup"><span data-stu-id="d2605-p101">Time stamp from the latest attempt to refresh the principal. Can be null if no refresh has been attempted yet.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aecdb-128">нексттри</span><span class="sxs-lookup"><span data-stu-id="aecdb-128">nextTry</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-129">datetime</span><span class="sxs-lookup"><span data-stu-id="aecdb-129">datetime</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-p102">Метка времени для следующего запланированного обновления. Может иметь значение null, если дальнейшее обновление не запланировано.</span><span class="sxs-lookup"><span data-stu-id="aecdb-p102">Time stamp for the next scheduled refresh. Can be null if no further refresh has been scheduled.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-129">нексттри</span><span class="sxs-lookup"><span data-stu-id="d2605-129">nextTry</span></span></p></td>
+<td><p><span data-ttu-id="d2605-130">datetime</span><span class="sxs-lookup"><span data-stu-id="d2605-130">datetime</span></span></p></td>
+<td><p><span data-ttu-id="d2605-p102">Метка времени для следующего запланированного обновления. Может иметь значение null, если дальнейшее обновление не запланировано.</span><span class="sxs-lookup"><span data-stu-id="d2605-p102">Time stamp for the next scheduled refresh. Can be null if no further refresh has been scheduled.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="aecdb-132">Keys</span><span class="sxs-lookup"><span data-stu-id="aecdb-132">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="d2605-133">Keys</span><span class="sxs-lookup"><span data-stu-id="d2605-133">Keys</span></span>
 
 <table>
 <colgroup>
@@ -105,18 +106,18 @@ ms.locfileid: "48523646"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="aecdb-133">Столбец</span><span class="sxs-lookup"><span data-stu-id="aecdb-133">Column</span></span></th>
-<th><span data-ttu-id="aecdb-134">Описание</span><span class="sxs-lookup"><span data-stu-id="aecdb-134">Description</span></span></th>
+<th><span data-ttu-id="d2605-134">Столбец</span><span class="sxs-lookup"><span data-stu-id="d2605-134">Column</span></span></th>
+<th><span data-ttu-id="d2605-135">Описание</span><span class="sxs-lookup"><span data-stu-id="d2605-135">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aecdb-135">prinID</span><span class="sxs-lookup"><span data-stu-id="aecdb-135">prinID</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-136">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="aecdb-136">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-136">prinID</span><span class="sxs-lookup"><span data-stu-id="d2605-136">prinID</span></span></p></td>
+<td><p><span data-ttu-id="d2605-137">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="d2605-137">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aecdb-137">prinID</span><span class="sxs-lookup"><span data-stu-id="aecdb-137">prinID</span></span></p></td>
-<td><p><span data-ttu-id="aecdb-138">Внешний ключ с поиском в таблице tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="aecdb-138">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="d2605-138">prinID</span><span class="sxs-lookup"><span data-stu-id="d2605-138">prinID</span></span></p></td>
+<td><p><span data-ttu-id="d2605-139">Внешний ключ с поиском в таблице tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="d2605-139">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

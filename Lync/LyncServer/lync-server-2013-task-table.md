@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица задач'
+description: 'Lync Server 2013: таблица Task.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50db621b8d8304a0ca53297f5aa5968d6611ba07
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8fe0e561b1ad118065f6cb9d1e9485394a7b51d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497346"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573775"
 ---
-# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="df180-102">Таблица Task в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df180-102">Task table in Lync Server 2013</span></span>
+# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="323e5-103">Таблица Task в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="323e5-103">Task table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48497346"
 
 <span> </span>
 
-<span data-ttu-id="df180-103">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="df180-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="323e5-104">_**Последнее изменение темы:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="323e5-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="df180-104">Таблица задач предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="df180-104">The Task Table is for internal use only.</span></span> <span data-ttu-id="df180-105">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="df180-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="323e5-105">Таблица задач предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="323e5-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="323e5-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="323e5-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 
