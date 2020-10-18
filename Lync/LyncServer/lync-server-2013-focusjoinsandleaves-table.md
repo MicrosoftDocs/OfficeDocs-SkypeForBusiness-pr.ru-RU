@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: таблица таблица focusjoinsandleaves'
+description: 'Lync Server 2013: таблица таблица focusjoinsandleaves.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f7691a008dae1fc822b6632a60f5324bb4e80fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5796de16ed204ce4f33935d937cbaa425d63a67f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500836"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577445"
 ---
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a><span data-ttu-id="473b3-102">Таблица Таблица focusjoinsandleaves в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="473b3-102">FocusJoinsAndLeaves table in Lync Server 2013</span></span>
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a><span data-ttu-id="8d7dd-103">Таблица Таблица focusjoinsandleaves в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d7dd-103">FocusJoinsAndLeaves table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500836"
 
 <span> </span>
 
-<span data-ttu-id="473b3-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="473b3-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="8d7dd-104">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="8d7dd-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="473b3-104">Каждая запись в этой таблице содержит сведения о CDR для одного пользователя и оставляют информацию для одной конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-104">Each record in this table contains the CDR information about one user’s join and leave information for one conference.</span></span> <span data-ttu-id="473b3-105">Каждая конференция представлена в этой таблице по одной записи на каждый раз, когда пользователь присоединяется к Конференции и покидает ее.</span><span class="sxs-lookup"><span data-stu-id="473b3-105">Each conference is represented in this table by one record for each time a user joins and leaves the conference.</span></span>
+<span data-ttu-id="8d7dd-105">Каждая запись в этой таблице содержит сведения о CDR для одного пользователя и оставляют информацию для одной конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-105">Each record in this table contains the CDR information about one user’s join and leave information for one conference.</span></span> <span data-ttu-id="8d7dd-106">Каждая конференция представлена в этой таблице по одной записи на каждый раз, когда пользователь присоединяется к Конференции и покидает ее.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-106">Each conference is represented in this table by one record for each time a user joins and leaves the conference.</span></span>
 
 
 <table>
@@ -51,85 +52,85 @@ ms.locfileid: "48500836"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="473b3-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="473b3-106">Column</span></span></th>
-<th><span data-ttu-id="473b3-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="473b3-107">Data Type</span></span></th>
-<th><span data-ttu-id="473b3-108">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="473b3-108">Key/Index</span></span></th>
-<th><span data-ttu-id="473b3-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="473b3-109">Details</span></span></th>
+<th><span data-ttu-id="8d7dd-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="8d7dd-107">Column</span></span></th>
+<th><span data-ttu-id="8d7dd-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="8d7dd-108">Data Type</span></span></th>
+<th><span data-ttu-id="8d7dd-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="8d7dd-109">Key/Index</span></span></th>
+<th><span data-ttu-id="8d7dd-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="8d7dd-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-110"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-110"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-111">datetime</span><span class="sxs-lookup"><span data-stu-id="473b3-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="473b3-112">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="473b3-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-113">Время экземпляра конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-113">Time of conference instance.</span></span> <span data-ttu-id="473b3-114">Используется совместно с <strong>сессионидсек</strong> для уникальной идентификации экземпляра Конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="473b3-115">Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="473b3-115">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-111"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-111"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-112">datetime</span><span class="sxs-lookup"><span data-stu-id="8d7dd-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-113">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="8d7dd-113">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-114">Время экземпляра конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-114">Time of conference instance.</span></span> <span data-ttu-id="8d7dd-115">Используется совместно с <strong>сессионидсек</strong> для уникальной идентификации экземпляра Конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-115">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="8d7dd-116">Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8d7dd-116">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-116"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-116"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-117">int</span><span class="sxs-lookup"><span data-stu-id="473b3-117">int</span></span></p></td>
-<td><p><span data-ttu-id="473b3-118">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="473b3-118">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-119">Идентификатор для определения экземпляра конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-119">ID number to identify the conference instance.</span></span> <span data-ttu-id="473b3-120">Используется совместно с <strong>сессионидтиме</strong> для уникальной идентификации экземпляра Конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="473b3-121">Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="473b3-121">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-117"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-117"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-118">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-118">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-119">Основной, Внешний</span><span class="sxs-lookup"><span data-stu-id="8d7dd-119">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-120">Идентификатор для определения экземпляра конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-120">ID number to identify the conference instance.</span></span> <span data-ttu-id="8d7dd-121">Используется совместно с <strong>сессионидтиме</strong> для уникальной идентификации экземпляра Конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-121">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="8d7dd-122">Дополнительные сведения см. <a href="lync-server-2013-conferences-table.md">в таблице конференций в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8d7dd-122">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-122"><strong>диалогсессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-122"><strong>DialogSessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-123">datetime</span><span class="sxs-lookup"><span data-stu-id="473b3-123">datetime</span></span></p></td>
-<td><p><span data-ttu-id="473b3-124">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="473b3-124">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-125">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="473b3-125">Time of session request.</span></span> <span data-ttu-id="473b3-126">В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="473b3-126">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="473b3-127">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="473b3-127">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-123"><strong>диалогсессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-123"><strong>DialogSessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-124">datetime</span><span class="sxs-lookup"><span data-stu-id="8d7dd-124">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-125">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="8d7dd-125">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-126">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-126">Time of session request.</span></span> <span data-ttu-id="8d7dd-127">В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-127">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8d7dd-128">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8d7dd-128">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-128"><strong>диалогсессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-128"><strong>DialogSessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-129">int</span><span class="sxs-lookup"><span data-stu-id="473b3-129">int</span></span></p></td>
-<td><p><span data-ttu-id="473b3-130">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="473b3-130">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-131">Идентификатор для идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="473b3-131">ID number to identify the session.</span></span> <span data-ttu-id="473b3-132">В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="473b3-132">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="473b3-133">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="473b3-133">see the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-129"><strong>диалогсессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-129"><strong>DialogSessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-130">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-130">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-131">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="8d7dd-131">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-132">Идентификатор для идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-132">ID number to identify the session.</span></span> <span data-ttu-id="8d7dd-133">В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-133">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8d7dd-134">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8d7dd-134">see the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-134"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-134"><strong>UserId</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-135">int</span><span class="sxs-lookup"><span data-stu-id="473b3-135">int</span></span></p></td>
-<td><p><span data-ttu-id="473b3-136">Правительства</span><span class="sxs-lookup"><span data-stu-id="473b3-136">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-137">Уникальный номер, идентифицирующий этого пользователя, на который ссылается <a href="lync-server-2013-users-table.md">таблица Users в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="473b3-137">Unique number identifying this user, referenced from the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-135"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-135"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-136">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-136">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-137">Правительства</span><span class="sxs-lookup"><span data-stu-id="8d7dd-137">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-138">Уникальный номер, идентифицирующий этого пользователя, на который ссылается <a href="lync-server-2013-users-table.md">таблица Users в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-138">Unique number identifying this user, referenced from the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-138"><strong>фокусусеринстанце</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-138"><strong>FocusUserInstance</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-139">int</span><span class="sxs-lookup"><span data-stu-id="473b3-139">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-139"><strong>фокусусеринстанце</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-139"><strong>FocusUserInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-140">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-140">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="473b3-140">Если пользователь вошел в систему на нескольких компьютерах или устройствах одновременно, <strong>усеринстанце</strong> используется для уникальной идентификации комбинации "пользователь-устройство".</span><span class="sxs-lookup"><span data-stu-id="473b3-140">If a user is logged on at multiple computers or devices at the same time, <strong>UserInstance</strong> is used to uniquely identify the user/device combination.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-141">Если пользователь вошел в систему на нескольких компьютерах или устройствах одновременно, <strong>усеринстанце</strong> используется для уникальной идентификации комбинации "пользователь-устройство".</span><span class="sxs-lookup"><span data-stu-id="8d7dd-141">If a user is logged on at multiple computers or devices at the same time, <strong>UserInstance</strong> is used to uniquely identify the user/device combination.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-141"><strong>исусеринтернал</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-141"><strong>IsUserInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-142">Битовая</span><span class="sxs-lookup"><span data-stu-id="473b3-142">bit</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-142"><strong>исусеринтернал</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-142"><strong>IsUserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-143">Битовая</span><span class="sxs-lookup"><span data-stu-id="8d7dd-143">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="473b3-143">Указывает, вошел ли пользователь из внутренней сети или нет.</span><span class="sxs-lookup"><span data-stu-id="473b3-143">Whether the user logged on from internal or not.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-144">Указывает, вошел ли пользователь из внутренней сети или нет.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-144">Whether the user logged on from internal or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-144"><strong>UserRole</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-144"><strong>UserRole</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-145">int</span><span class="sxs-lookup"><span data-stu-id="473b3-145">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-145"><strong>UserRole</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-145"><strong>UserRole</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-146">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-146">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="473b3-146">Роль этого пользователя в конференции, например докладчик или участник.</span><span class="sxs-lookup"><span data-stu-id="473b3-146">This user’s role in the conference, such as Presenter or Attendee.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-147">Роль этого пользователя в конференции, например докладчик или участник.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-147">This user’s role in the conference, such as Presenter or Attendee.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-147"><strong>усержоинтиме</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-147"><strong>UserJoinTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-148">datetime</span><span class="sxs-lookup"><span data-stu-id="473b3-148">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-148"><strong>усержоинтиме</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-148"><strong>UserJoinTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-149">datetime</span><span class="sxs-lookup"><span data-stu-id="8d7dd-149">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="473b3-149">Время, когда этот пользователь присоединяется к Конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-149">The time this user joins the conference.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-150">Время, когда этот пользователь присоединяется к Конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-150">The time this user joins the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-150"><strong>усерлеаветиме</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-150"><strong>UserLeaveTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-151">datetime</span><span class="sxs-lookup"><span data-stu-id="473b3-151">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-151"><strong>усерлеаветиме</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-151"><strong>UserLeaveTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-152">datetime</span><span class="sxs-lookup"><span data-stu-id="8d7dd-152">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="473b3-152">Время, когда этот пользователь покидает Конференцию.</span><span class="sxs-lookup"><span data-stu-id="473b3-152">The time this user leaves the conference.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-153">Время, когда этот пользователь покидает Конференцию.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-153">The time this user leaves the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="473b3-153"><strong>клиентверид</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-153"><strong>ClientVerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-154">int</span><span class="sxs-lookup"><span data-stu-id="473b3-154">int</span></span></p></td>
-<td><p><span data-ttu-id="473b3-155">Правительства</span><span class="sxs-lookup"><span data-stu-id="473b3-155">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="473b3-156">Версия клиентского программного обеспечения пользователя, на которую ссылается <a href="lync-server-2013-clientversions-table.md">таблица таблица clientversions в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="473b3-156">Version of the user’s client software, referenced to the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-154"><strong>клиентверид</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-154"><strong>ClientVerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-155">int</span><span class="sxs-lookup"><span data-stu-id="8d7dd-155">int</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-156">Правительства</span><span class="sxs-lookup"><span data-stu-id="8d7dd-156">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-157">Версия клиентского программного обеспечения пользователя, на которую ссылается <a href="lync-server-2013-clientversions-table.md">таблица таблица clientversions в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-157">Version of the user’s client software, referenced to the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="473b3-157"><strong>усерендпоинтид</strong></span><span class="sxs-lookup"><span data-stu-id="473b3-157"><strong>UserEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="473b3-158">Идентификатора</span><span class="sxs-lookup"><span data-stu-id="473b3-158">uniqueIdentifier</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-158"><strong>усерендпоинтид</strong></span><span class="sxs-lookup"><span data-stu-id="8d7dd-158"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-159">Идентификатора</span><span class="sxs-lookup"><span data-stu-id="8d7dd-159">uniqueIdentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="473b3-159">Глобальный уникальный идентификатор (GUID) конечной точки, используемой в Конференции.</span><span class="sxs-lookup"><span data-stu-id="473b3-159">Globally unique identifier (GUID) of the endpoint used in the conference.</span></span></p>
-<p><span data-ttu-id="473b3-160">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="473b3-160">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="8d7dd-160">Глобальный уникальный идентификатор (GUID) конечной точки, используемой в Конференции.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-160">Globally unique identifier (GUID) of the endpoint used in the conference.</span></span></p>
+<p><span data-ttu-id="8d7dd-161">Это поле было введено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8d7dd-161">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>

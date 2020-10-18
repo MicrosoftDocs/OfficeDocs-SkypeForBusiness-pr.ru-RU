@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Просмотр состояния пулов'
+description: 'Lync Server 2013: Просмотр состояния пулов.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06415d68a468a45ae849b27b7f57cba502d64cbf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c47372b87ad6903fd0ff77bc83d0bdac59481e54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535566"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578445"
 ---
-# <a name="viewing-status-of-pools-in-lync-server-2013"></a><span data-ttu-id="b1d07-102">Просмотр состояния пулов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b1d07-102">Viewing status of pools in Lync Server 2013</span></span>
+# <a name="viewing-status-of-pools-in-lync-server-2013"></a><span data-ttu-id="5bac1-103">Просмотр состояния пулов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bac1-103">Viewing status of pools in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48535566"
 
 <span> </span>
 
-<span data-ttu-id="b1d07-103">_**Последнее изменение темы:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="b1d07-103">_**Topic Last Modified:** 2014-05-01_</span></span>
+<span data-ttu-id="5bac1-104">_**Последнее изменение темы:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="5bac1-104">_**Topic Last Modified:** 2014-05-01_</span></span>
 
-<span data-ttu-id="b1d07-104">Для каждого пула предприятия и пула каждого сервера Standard Edition можно просмотреть сведения о состоянии пула и о состоянии других компонентов, используемых пулом, с помощью панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b1d07-104">For each Enterprise Pool and the pool of each Standard Edition Server, you can view information about pool status and the status of other components used by the pool through the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="b1d07-105">Мы рекомендуем реализовать System Center Operations Manager 2012 с помощью панели управления Lync Server, чтобы помочь администраторам в просмотре работоспособности пулов в среде.</span><span class="sxs-lookup"><span data-stu-id="b1d07-105">We recommended implementing System Center Operations Manager 2012 with the Lync Server Control Panel to help administrators in viewing the health of pools within their environment.</span></span>
+<span data-ttu-id="5bac1-105">Для каждого пула предприятия и пула каждого сервера Standard Edition можно просмотреть сведения о состоянии пула и о состоянии других компонентов, используемых пулом, с помощью панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5bac1-105">For each Enterprise Pool and the pool of each Standard Edition Server, you can view information about pool status and the status of other components used by the pool through the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="5bac1-106">Мы рекомендуем реализовать System Center Operations Manager 2012 с помощью панели управления Lync Server, чтобы помочь администраторам в просмотре работоспособности пулов в среде.</span><span class="sxs-lookup"><span data-stu-id="5bac1-106">We recommended implementing System Center Operations Manager 2012 with the Lync Server Control Panel to help administrators in viewing the health of pools within their environment.</span></span>
 
 <div>
 
-## <a name="view-pools"></a><span data-ttu-id="b1d07-106">Просмотр пулов</span><span class="sxs-lookup"><span data-stu-id="b1d07-106">View pools</span></span>
+## <a name="view-pools"></a><span data-ttu-id="5bac1-107">Просмотр пулов</span><span class="sxs-lookup"><span data-stu-id="5bac1-107">View pools</span></span>
 
-1.  <span data-ttu-id="b1d07-107">С помощью панели управления Lync Server откройте панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b1d07-107">Using the Lync Server Control Panel, open the Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="5bac1-108">С помощью панели управления Lync Server откройте панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5bac1-108">Using the Lync Server Control Panel, open the Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="b1d07-108">Щелкните топология и проверьте состояние всех серверов в топологии.</span><span class="sxs-lookup"><span data-stu-id="b1d07-108">Click Topology, and check status of all servers in the Topology.</span></span>
+2.  <span data-ttu-id="5bac1-109">Щелкните топология и проверьте состояние всех серверов в топологии.</span><span class="sxs-lookup"><span data-stu-id="5bac1-109">Click Topology, and check status of all servers in the Topology.</span></span>
 
 </div>
 
