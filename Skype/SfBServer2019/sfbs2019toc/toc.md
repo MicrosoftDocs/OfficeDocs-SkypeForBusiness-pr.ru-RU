@@ -15,7 +15,7 @@
 ### [Основы топологии](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Эталонные топологии](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### Требования 
-####[Требования к системе](../plan/system-requirements.md)
+#### [Требования к системе](../plan/system-requirements.md)
 #### [Требования к балансировке нагрузки](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Требования к сети](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [Звонок с рабочего телефона](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Удаленное управление звонками](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### Голосовая почта в облаке
-#####[Планирование голосовой почты в облаке](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [Планирование голосовой почты в облаке](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Настройка голосовой почты в облаке](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Автосекретари в облаке
 ##### [Планирование автосекретарей в облаке](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
