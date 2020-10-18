@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Просмотр сведений о политике конференц-связи'
+description: 'Lync Server 2013: Просмотр сведений о политике конференц-связи.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +13,22 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 664078db23ecba5d26852c2e1348935a3e4c60b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e463c500e48f4032c8dab3a3787715f7265be9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211515"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579435"
 ---
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Просмотр сведений о политике конференц-связи в Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Просмотр сведений о политике конференц-связи в Lync Server 2013
+
 
 </div>
 
@@ -57,7 +60,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 5.  В окне **Изменение фильтра файлов** установите флажок **Показать подробности**.
     
-    **Изменить политику конференц- \<связи\> — политика** открывает отображение параметров выбранной политики. Подробнее о настройке параметров можно узнать в статье [Создание или изменение политики конференц-связи в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+    **Изменение политики Конференц- \<policy\> связи —** открывает отображение параметров для выбранной политики. Подробнее о настройке параметров можно узнать в статье [Создание или изменение политики конференц-связи в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
 </div>
 
@@ -65,7 +68,7 @@ _**Последнее изменение темы:** 2013-02-23_
 
 ## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Просмотр политик конференц-связи с помощью командлетов Windows PowerShell
 
-Политики конференц-связи можно просмотреть с помощью Windows PowerShell и командлета Get-CsConferencingPolicy. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
+Политики конференц-связи можно просмотреть с помощью Windows PowerShell и командлета Get-CsConferencingPolicy. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в статье Lync Server Windows PowerShell в блоге [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
