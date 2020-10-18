@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Настройка узла-наблюдателя для использования проверки подлинности с помощью учетных данных'
+description: 'Lync Server 2013: Настройка узла-наблюдателя для использования проверки подлинности с помощью учетных данных.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e05ac48896b50b4b83e4211a5036f6a6d513d43
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b65d4e3f90b27aac69b8569472ac9896766e093e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517696"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576325"
 ---
 # <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Настройка узла-наблюдателя для использования проверки подлинности с помощью учетных данных в Lync Server 2013
 
