@@ -1,5 +1,6 @@
 ---
 title: Технические требования к серверам переднего плана, обмену мгновенными сообщениями и присутствию
+description: Технические требования к серверам переднего плана, обмену мгновенными сообщениями и присутствию.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09bf8825674e73b7c3e152557e955f01b64a0297
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2eeeb638a43a9bb09c1015c010b9cb857d9944a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533916"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577115"
 ---
 # <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Технические требования к серверам переднего плана, обмену мгновенными сообщениями и сведениям о присутствии в Lync Server 2013
 

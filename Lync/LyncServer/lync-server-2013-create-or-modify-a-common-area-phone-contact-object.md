@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: создание или изменение объекта контактного телефона общего пользования'
+description: 'Lync Server 2013: создание или изменение объекта контактного телефона общего пользования.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0855db68e1f08a26070689b1699bd200a1edbfaf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: adc5ede23f495a63b2d556b556817d4171a08723
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504746"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578235"
 ---
 # <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>Создание или изменение объекта контактного телефона общего пользования в Lync Server 2013
 
