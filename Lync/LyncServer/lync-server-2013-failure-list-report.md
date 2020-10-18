@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: отчет по списку сбоев'
+description: 'Lync Server 2013: отчет по списку сбоев.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7467144fe207ab61fd086cd35aac74779fd4f771
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515386"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575055"
 ---
-# <a name="failure-list-report-in-lync-server-2013"></a><span data-ttu-id="ecf30-102">Отчет по списку отказов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ecf30-102">Failure List Report in Lync Server 2013</span></span>
+# <a name="failure-list-report-in-lync-server-2013"></a><span data-ttu-id="6690e-103">Отчет по списку отказов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6690e-103">Failure List Report in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,50 +38,50 @@ ms.locfileid: "48515386"
 
 <span> </span>
 
-<span data-ttu-id="ecf30-103">_**Последнее изменение темы:** 2012-07-02_</span><span class="sxs-lookup"><span data-stu-id="ecf30-103">_**Topic Last Modified:** 2012-07-02_</span></span>
+<span data-ttu-id="6690e-104">_**Последнее изменение темы:** 2012-07-02_</span><span class="sxs-lookup"><span data-stu-id="6690e-104">_**Topic Last Modified:** 2012-07-02_</span></span>
 
-<span data-ttu-id="ecf30-p101">Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="ecf30-p101">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
+<span data-ttu-id="6690e-p101">Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="6690e-p101">The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="ecf30-106">Доступ к отчету Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="ecf30-106">Accessing the Failure List Report</span></span>
+## <a name="accessing-the-failure-list-report"></a><span data-ttu-id="6690e-107">Доступ к отчету Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="6690e-107">Accessing the Failure List Report</span></span>
 
-<span data-ttu-id="ecf30-107">Чтобы получить доступ к отчету по списку отказов, щелкните любой из следующих метрик в [отчете о распределении сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span><span class="sxs-lookup"><span data-stu-id="ecf30-107">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span></span>
+<span data-ttu-id="6690e-108">Чтобы получить доступ к отчету по списку отказов, щелкните любой из следующих метрик в [отчете о распределении сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span><span class="sxs-lookup"><span data-stu-id="6690e-108">The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md):</span></span>
 
-  - <span data-ttu-id="ecf30-108">Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-108">Top diagnostic reasons (sessions)</span></span>
+  - <span data-ttu-id="6690e-109">Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-109">Top diagnostic reasons (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-109">Top modalities (sessions) (Основные условия (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-109">Top modalities (sessions)</span></span>
+  - <span data-ttu-id="6690e-110">Top modalities (sessions) (Основные условия (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-110">Top modalities (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-110">Top pools (sessions) (Основные пулы (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-110">Top pools (sessions)</span></span>
+  - <span data-ttu-id="6690e-111">Top pools (sessions) (Основные пулы (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-111">Top pools (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-111">Top sources (sessions) (Основные источники (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-111">Top sources (sessions)</span></span>
+  - <span data-ttu-id="6690e-112">Top sources (sessions) (Основные источники (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-112">Top sources (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-112">Top components (sessions) (Основные компоненты (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-112">Top components (sessions)</span></span>
+  - <span data-ttu-id="6690e-113">Top components (sessions) (Основные компоненты (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-113">Top components (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-113">Top from users (sessions) (Основные пользователи с ошибками исходящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-113">Top from users (sessions)</span></span>
+  - <span data-ttu-id="6690e-114">Top from users (sessions) (Основные пользователи с ошибками исходящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-114">Top from users (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-114">Top to users (sessions) (Основные пользователи с ошибками входящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-114">Top to users (sessions)</span></span>
+  - <span data-ttu-id="6690e-115">Top to users (sessions) (Основные пользователи с ошибками входящей связи (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-115">Top to users (sessions)</span></span>
 
-  - <span data-ttu-id="ecf30-115">Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))</span><span class="sxs-lookup"><span data-stu-id="ecf30-115">Top from user agents (sessions)</span></span>
+  - <span data-ttu-id="6690e-116">Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))</span><span class="sxs-lookup"><span data-stu-id="6690e-116">Top from user agents (sessions)</span></span>
 
-<span data-ttu-id="ecf30-116">В отчете по списку сбоев можно получить доступ к [отчету по деталям однорангового сеанса в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) , щелкнув метрику сведений о сеансе для однорангового сеанса.</span><span class="sxs-lookup"><span data-stu-id="ecf30-116">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="ecf30-117">Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.</span><span class="sxs-lookup"><span data-stu-id="ecf30-117">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
+<span data-ttu-id="6690e-117">В отчете по списку сбоев можно получить доступ к [отчету по деталям однорангового сеанса в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) , щелкнув метрику сведений о сеансе для однорангового сеанса.</span><span class="sxs-lookup"><span data-stu-id="6690e-117">From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session.</span></span> <span data-ttu-id="6690e-118">Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.</span><span class="sxs-lookup"><span data-stu-id="6690e-118">You can also access the Conference Detail Report by clicking the Conference metric for a conference.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="ecf30-118">Рекомендации по использованию отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="ecf30-118">Making the Best Use of the Failure List Report</span></span>
+## <a name="making-the-best-use-of-the-failure-list-report"></a><span data-ttu-id="6690e-119">Рекомендации по использованию отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="6690e-119">Making the Best Use of the Failure List Report</span></span>
 
-<span data-ttu-id="ecf30-p103">Чтобы просмотреть описание кода ответа или ИД диагностики, наведите указатель мыши на значение. Например, если вы наведете указатель мыши на Diagnostic ID (ИД диагностики) 7 025, то вы увидите следующую всплывающую подсказку:</span><span class="sxs-lookup"><span data-stu-id="ecf30-p103">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
+<span data-ttu-id="6690e-p103">Чтобы просмотреть описание кода ответа или ИД диагностики, наведите указатель мыши на значение. Например, если вы наведете указатель мыши на Diagnostic ID (ИД диагностики) 7 025, то вы увидите следующую всплывающую подсказку:</span><span class="sxs-lookup"><span data-stu-id="6690e-p103">In the Failure List Report, you can view a description for each Response code or each Diagnostic ID simply by holding your mouse over that value. For example, if you hold your mouse over Diagnostic ID 7025 you'll see the following displayed in a tooltip:</span></span>
 
-<span data-ttu-id="ecf30-121">Internal server error creating media for user (Внутренняя ошибка сервера при создании среды для пользователя).</span><span class="sxs-lookup"><span data-stu-id="ecf30-121">Internal server error creating media for user.</span></span>
+<span data-ttu-id="6690e-122">Internal server error creating media for user (Внутренняя ошибка сервера при создании среды для пользователя).</span><span class="sxs-lookup"><span data-stu-id="6690e-122">Internal server error creating media for user.</span></span>
 
-<span data-ttu-id="ecf30-122">Важно отметить, что отчет Failure List (Список ошибок) не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками.</span><span class="sxs-lookup"><span data-stu-id="ecf30-122">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="ecf30-123">(Для одного из них отчет о списке отказов не имеет возможностей фильтрации). Тем не менее, если вы экспортируете данные и затем преобразуете их в файл с разделителями запятыми, вы можете использовать Windows PowerShell, чтобы найти ответы на такие вопросы.</span><span class="sxs-lookup"><span data-stu-id="ecf30-123">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="ecf30-124">Например, предположим, что вы сохраняете данные в файле. CSV-файл с именем C: \\ \\ сбой данных \_List.csv.</span><span class="sxs-lookup"><span data-stu-id="ecf30-124">For example, suppose you save the data to a .CSV file named C:\\Data\\Failure\_List.csv.</span></span> <span data-ttu-id="ecf30-125">Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:</span><span class="sxs-lookup"><span data-stu-id="ecf30-125">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span>
+<span data-ttu-id="6690e-123">Важно отметить, что отчет Failure List (Список ошибок) не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками.</span><span class="sxs-lookup"><span data-stu-id="6690e-123">It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session.</span></span> <span data-ttu-id="6690e-124">(Для одного из них отчет о списке отказов не имеет возможностей фильтрации). Тем не менее, если вы экспортируете данные и затем преобразуете их в файл с разделителями запятыми, вы можете использовать Windows PowerShell, чтобы найти ответы на такие вопросы.</span><span class="sxs-lookup"><span data-stu-id="6690e-124">(For one thing, the Failure List Report has no filtering capabilities.) However, if you export the data and then convert it to a comma-separated values file, you can use Windows PowerShell to find the answers to questions like those.</span></span> <span data-ttu-id="6690e-125">Например, предположим, что вы сохраняете данные в файле. CSV-файл с именем C: \\ \\ сбой данных \_List.csv.</span><span class="sxs-lookup"><span data-stu-id="6690e-125">For example, suppose you save the data to a .CSV file named C:\\Data\\Failure\_List.csv.</span></span> <span data-ttu-id="6690e-126">Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:</span><span class="sxs-lookup"><span data-stu-id="6690e-126">Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:</span></span>
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-<span data-ttu-id="ecf30-126">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="ecf30-126">That command will return a list similar to this:</span></span>
+<span data-ttu-id="6690e-127">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="6690e-127">That command will return a list similar to this:</span></span>
 
     From user
     ----
@@ -90,12 +91,12 @@ ms.locfileid: "48515386"
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-<span data-ttu-id="ecf30-127">Следующие команды возвращают общее число сеансов каждого пользователя, завершившихся с ошибкой:</span><span class="sxs-lookup"><span data-stu-id="ecf30-127">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
+<span data-ttu-id="6690e-128">Следующие команды возвращают общее число сеансов каждого пользователя, завершившихся с ошибкой:</span><span class="sxs-lookup"><span data-stu-id="6690e-128">These two commands report back the total number of failed sessions that each user was involved in:</span></span>
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-<span data-ttu-id="ecf30-128">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="ecf30-128">That will return data similar to this:</span></span>
+<span data-ttu-id="6690e-129">Эти команды возвращают сведения, схожие со следующими:</span><span class="sxs-lookup"><span data-stu-id="6690e-129">That will return data similar to this:</span></span>
 
     Count    Name
      -----    ----
@@ -109,19 +110,19 @@ ms.locfileid: "48515386"
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="ecf30-129">Фильтры</span><span class="sxs-lookup"><span data-stu-id="ecf30-129">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="6690e-130">Фильтры</span><span class="sxs-lookup"><span data-stu-id="6690e-130">Filters</span></span>
 
-<span data-ttu-id="ecf30-p105">Нет. В отчете Failure List (Список ошибок) нельзя использовать фильтр.</span><span class="sxs-lookup"><span data-stu-id="ecf30-p105">None. You cannot filter the Failure List Report.</span></span>
+<span data-ttu-id="6690e-p105">Нет. В отчете Failure List (Список ошибок) нельзя использовать фильтр.</span><span class="sxs-lookup"><span data-stu-id="6690e-p105">None. You cannot filter the Failure List Report.</span></span>
 
 </div>
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="ecf30-132">Метрики</span><span class="sxs-lookup"><span data-stu-id="ecf30-132">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="6690e-133">Метрики</span><span class="sxs-lookup"><span data-stu-id="6690e-133">Metrics</span></span>
 
-<span data-ttu-id="ecf30-133">В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="ecf30-133">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
+<span data-ttu-id="6690e-134">В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="6690e-134">The following table lists the information provided in the Failure List Report for each failed call.</span></span>
 
-### <a name="failure-list-report-metrics"></a><span data-ttu-id="ecf30-134">Показатели отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="ecf30-134">Failure List Report Metrics</span></span>
+### <a name="failure-list-report-metrics"></a><span data-ttu-id="6690e-135">Показатели отчета Failure List (Список ошибок)</span><span class="sxs-lookup"><span data-stu-id="6690e-135">Failure List Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -131,51 +132,51 @@ ms.locfileid: "48515386"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ecf30-135">Имя</span><span class="sxs-lookup"><span data-stu-id="ecf30-135">Name</span></span></th>
-<th><span data-ttu-id="ecf30-136">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="ecf30-136">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="ecf30-137">Описание</span><span class="sxs-lookup"><span data-stu-id="ecf30-137">Description</span></span></th>
+<th><span data-ttu-id="6690e-136">Имя</span><span class="sxs-lookup"><span data-stu-id="6690e-136">Name</span></span></th>
+<th><span data-ttu-id="6690e-137">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="6690e-137">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="6690e-138">Описание</span><span class="sxs-lookup"><span data-stu-id="6690e-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ecf30-138"><strong>Reported time</strong> (Время создания отчета)</span><span class="sxs-lookup"><span data-stu-id="ecf30-138"><strong>Reported time</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-139">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-139">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-140">Дата и время создания отчета.</span><span class="sxs-lookup"><span data-stu-id="ecf30-140">Date and time the report was recorded.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-139"><strong>Reported time</strong> (Время создания отчета)</span><span class="sxs-lookup"><span data-stu-id="6690e-139"><strong>Reported time</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-140">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-140">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-141">Дата и время создания отчета.</span><span class="sxs-lookup"><span data-stu-id="6690e-141">Date and time the report was recorded.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ecf30-141"><strong>Запрос</strong></span><span class="sxs-lookup"><span data-stu-id="ecf30-141"><strong>Request</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-142">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-142">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-p106">Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.</span><span class="sxs-lookup"><span data-stu-id="ecf30-p106">SIP request type that failed. For example, INVITE or BYE.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-142"><strong>Запрос</strong></span><span class="sxs-lookup"><span data-stu-id="6690e-142"><strong>Request</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-143">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-143">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-p106">Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.</span><span class="sxs-lookup"><span data-stu-id="6690e-p106">SIP request type that failed. For example, INVITE or BYE.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ecf30-145"><strong>Response code</strong> (Код ответа)</span><span class="sxs-lookup"><span data-stu-id="ecf30-145"><strong>Response code</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-146">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-146">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-147">Код ответа SIP, отправленный при сбое конференции.</span><span class="sxs-lookup"><span data-stu-id="ecf30-147">SIP response code sent when the conference failed.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-146"><strong>Response code</strong> (Код ответа)</span><span class="sxs-lookup"><span data-stu-id="6690e-146"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-147">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-147">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-148">Код ответа SIP, отправленный при сбое конференции.</span><span class="sxs-lookup"><span data-stu-id="6690e-148">SIP response code sent when the conference failed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ecf30-148"><strong>Diagnostic ID</strong> (ИД диагностики)</span><span class="sxs-lookup"><span data-stu-id="ecf30-148"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-149">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-149">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-150">Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</span><span class="sxs-lookup"><span data-stu-id="ecf30-150">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-149"><strong>Diagnostic ID</strong> (ИД диагностики)</span><span class="sxs-lookup"><span data-stu-id="6690e-149"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-150">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-150">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-151">Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</span><span class="sxs-lookup"><span data-stu-id="6690e-151">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ecf30-151"><strong>Join cost time (ms)</strong> (Время присоединения (мс))</span><span class="sxs-lookup"><span data-stu-id="ecf30-151"><strong>Join cost time (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-152">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-152">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-153">Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</span><span class="sxs-lookup"><span data-stu-id="ecf30-153">Amount of time (in milliseconds) required for the user to join the conference.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-152"><strong>Join cost time (ms)</strong> (Время присоединения (мс))</span><span class="sxs-lookup"><span data-stu-id="6690e-152"><strong>Join cost time (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-153">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-153">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-154">Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</span><span class="sxs-lookup"><span data-stu-id="6690e-154">Amount of time (in milliseconds) required for the user to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ecf30-154"><strong>From user</strong> (От пользователя)</span><span class="sxs-lookup"><span data-stu-id="ecf30-154"><strong>From user</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-155">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-155">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-156">SIP-адрес пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="ecf30-156">SIP address of the user who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-155"><strong>From user</strong> (От пользователя)</span><span class="sxs-lookup"><span data-stu-id="6690e-155"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-156">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-156">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-157">SIP-адрес пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="6690e-157">SIP address of the user who initiated the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="ecf30-157"><strong>From user agent</strong> (От агента пользователя)</span><span class="sxs-lookup"><span data-stu-id="ecf30-157"><strong>From user agent</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-158">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-158">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-159">Программное обеспечение, используемое конечной точкой пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="ecf30-159">Software used by the endpoint of the user who initiated the call.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-158"><strong>From user agent</strong> (От агента пользователя)</span><span class="sxs-lookup"><span data-stu-id="6690e-158"><strong>From user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-159">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-159">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-160">Программное обеспечение, используемое конечной точкой пользователя, инициировавшего звонок.</span><span class="sxs-lookup"><span data-stu-id="6690e-160">Software used by the endpoint of the user who initiated the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ecf30-160"><strong>To user</strong> (К пользователю)</span><span class="sxs-lookup"><span data-stu-id="ecf30-160"><strong>To user</strong></span></span></p></td>
-<td><p><span data-ttu-id="ecf30-161">Нет</span><span class="sxs-lookup"><span data-stu-id="ecf30-161">No</span></span></p></td>
-<td><p><span data-ttu-id="ecf30-162">SIP-адрес пользователя, принявшего звонок.</span><span class="sxs-lookup"><span data-stu-id="ecf30-162">SIP address of the user who was being called.</span></span></p></td>
+<td><p><span data-ttu-id="6690e-161"><strong>To user</strong> (К пользователю)</span><span class="sxs-lookup"><span data-stu-id="6690e-161"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="6690e-162">Нет</span><span class="sxs-lookup"><span data-stu-id="6690e-162">No</span></span></p></td>
+<td><p><span data-ttu-id="6690e-163">SIP-адрес пользователя, принявшего звонок.</span><span class="sxs-lookup"><span data-stu-id="6690e-163">SIP address of the user who was being called.</span></span></p></td>
 </tr>
 </tbody>
 </table>
