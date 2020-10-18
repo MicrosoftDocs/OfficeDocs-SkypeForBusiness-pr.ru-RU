@@ -1,5 +1,6 @@
 ---
 title: Требования к службам IIS для пулов переднего плана и серверов Standard Edition
+description: Требования к службам IIS для пулов переднего плана и серверов Standard Edition.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f56452c7e47352333ac3ac5a51d649b0828a0ff9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528146"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573345"
 ---
 # <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Требования к службам IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013
 
