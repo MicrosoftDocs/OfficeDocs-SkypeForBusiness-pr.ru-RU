@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367569"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508086"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -102,7 +102,7 @@ ms.locfileid: "48367569"
 
 Названия каналов не могут содержать следующие символы и слова.
 
-|||
+|Тип|Пример|
 |---------|---------|
 |Символы     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Символы из этих диапазонов    | 0–1F<br>80–9F        |
