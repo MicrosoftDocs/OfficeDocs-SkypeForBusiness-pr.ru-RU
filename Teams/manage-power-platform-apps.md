@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять доступом к приложениям Power Platform в центре администрирования Microsoft Teams.
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171463"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599554"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Power Platform в центре администрирования Microsoft Teams
 
@@ -79,7 +79,14 @@ ms.locfileid: "48171463"
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Снимок экрана: пример политики разрешений на доступ к приложениям с заблокированными общими приложениями Powering":::
 
-## <a name="related-topics"></a>Статьи по теме
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий по установке на платформе Power Platform
+
+Журналы аудита для Teams можно использовать для изучения событий, в которых пользователи установили приложения Power Platform из раздела " **создано коллегами** " на странице "приложения" в Teams. Для этого [выполните поиск по журналу аудита](https://docs.microsoft.com/microsoftteams/audit-log-events) для **установленного события приложения** Teams (в рамках операции **AppInstalled** ) для определенного пользователя или набора пользователей. Чтобы найти приложения, установленные с помощью раздела " **создано коллегами** ", найдите значение **TemplatedInstance** в разделе "свойство **AppDistributionMode** " в подробных сведениях данной записи. 
+
+> [!NOTE]
+> Вы можете экспортировать записи аудита в формате CSV для упрощения фильтрации.
+
+## <a name="related-topics"></a>См. также
 
 - [Предоставление общего доступа к приложению Canvas в приложениях для опытных приложений](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app)
 - [Предоставление доступа к Bot другим пользователям](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)
