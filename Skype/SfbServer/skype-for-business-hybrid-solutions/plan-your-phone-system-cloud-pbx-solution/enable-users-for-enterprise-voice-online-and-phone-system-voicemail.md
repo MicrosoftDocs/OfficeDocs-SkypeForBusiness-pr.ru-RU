@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Узнайте, как включить службы голосовой связи телефонной системы для пользователей Skype для бизнеса.
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359185"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625115"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Предоставление пользователям доступа к корпоративной голосовой связи через сеть и к голосовой почте по телефонной линии
  
@@ -41,14 +41,18 @@ ms.locfileid: "47359185"
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Предоставление пользователям голосовой и голосовой почты телефонной системы
 
-1. Прежде чем приступать к работе, убедитесь, что на серверах переднего плана развернут соединитель Skype для бизнеса Online (модуль Windows PowerShell). Если это не так, вы можете скачать его из [центра загрузки](https://www.microsoft.com/download/details.aspx?id=39366). Дополнительные сведения об использовании этого модуля можно найти в странице [Настройка компьютера для управления Skype для бизнеса Online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+> [!NOTE]
+> Skype для бизнеса Online Connector входит в состав последней версии модуля PowerShell Teams.
+> Если вы используете последний [общедоступный выпуск Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), вам не нужно устанавливать соединитель Skype для бизнеса Online.
+
+1. Прежде чем приступать к работе, убедитесь, что на серверах переднего плана установлен модуль Teams PowerShell. Если это не так, установите их, выполнив инструкции [установки модуля Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Запустите Windows PowerShell от имени администратора.
     
 3. Введите следующую команду и нажмите клавишу ВВОД:
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. Введите следующую команду и нажмите клавишу ВВОД:
@@ -75,13 +79,13 @@ ms.locfileid: "47359185"
 
     При запуске PowerShell в Skype для бизнеса Server локальные командлеты Skype для бизнеса уже загружены при открытии PowerShell. Необходимо указать параметр-Алловклоббер, чтобы разрешить интерактивным командлетам перезаписать локальные командлеты с тем же именем.
     
-8. Используйте командлет Set – CsUser, чтобы назначить для пользователя свойства $EnterpriseVoiceEnabled и $HostedVoiceMail следующим образом:
+8. Используйте командлет Set-CsUser, чтобы назначить пользователю свойства $EnterpriseVoiceEnabled и $HostedVoiceMail следующим образом:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Например:
+    Например,
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ ms.locfileid: "47359185"
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Отмена назначения политики маршрутизации голосовых вызовов на уровне пользователя
 
-- С помощью GRANT – CsVoiceRoutingPolicy можно отменить назначение любой политики маршрутизации голосовых вызовов на уровне пользователя, ранее назначенной Кен Myer. После назначения политики маршрутизации голосовых вызовов на уровне пользователя Ken Myer будет автоматически управляться с помощью глобальной политики маршрутизации голосовых вызовов.
+- Используйте Grant-CsVoiceRoutingPolicy, чтобы отменить назначение любой политики маршрутизации голосовых вызовов на уровне пользователя, которая ранее была назначена Ken Myer. После назначения политики маршрутизации голосовых вызовов на уровне пользователя Ken Myer будет автоматически управляться с помощью глобальной политики маршрутизации голосовых вызовов.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
