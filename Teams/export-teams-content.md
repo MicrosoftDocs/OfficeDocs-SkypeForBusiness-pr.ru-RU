@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03fc030361419e5f42b2e792e752f2007e6d2
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333495"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650982"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Экспорт контента с помощью API экспорта Microsoft Teams
 
-API экспорта в Teams позволяют экспортировать сообщения из Microsoft Teams в 1:1 и группового чата. Если в вашей организации необходимо экспортировать сообщения Microsoft Teams, вы сможете извлечь их с помощью API экспорта для групп. *Сообщение чата* обозначает отдельное сообщение чата в [канале](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) или [чате](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). Сообщение чата может представлять собой корневое сообщение чата или часть ответа, определяемое свойством **replyToId** в сообщении чата.
+API экспорта в Teams позволяют экспортировать сообщения из Microsoft Teams в 1:1 и группового чата. Если в вашей организации необходимо экспортировать сообщения Microsoft Teams, вы можете извлечь их с помощью API экспорта в Teams. *Сообщение чата* обозначает отдельное сообщение чата в [канале](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) или [чате](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). Сообщение чата может представлять собой корневое сообщение чата или часть ответа, определяемое свойством **replyToId** в сообщении чата.
 
 Вот несколько примеров того, как можно использовать следующие API экспорта:
 

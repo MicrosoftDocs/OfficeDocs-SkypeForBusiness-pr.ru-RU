@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять доступом к приложениям Power Platform в центре администрирования Microsoft Teams.
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599554"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650962"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Управление приложениями Power Platform в центре администрирования Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "48599554"
 
 [Power Apps](https://powerapps.microsoft.com) — это неограниченная и непроизводительная среда разработки приложений, которую производители могут использовать для создания собственных приложений, которые подключаются к бизнес-данным. [Виртуальные агенты Power](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) — это непроизводительная среда для создания мощных ботов. Благодаря интеграции приложений Power Platform в Teams организации могут оптимизировать бизнес-процессы, реагировать на более быстрое изменение бизнес-задач, а также создавать и совместно использовать пользовательские решения для более эффективной работы.  
 
-Приложения Power Platform, созданные лицами, созданными специалистами в вашей организации, автоматически добавляются в Teams. Пользователи могут управлять тем, кто может получать доступ к своему приложению с помощью [функции совместного доступа в приложениях Powers](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) и [функции общего доступа в виртуальных агентах Power](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). 
+Приложения Power Platform, созданные лицами, созданными специалистами в вашей организации, автоматически добавляются в Teams. Пользователи могут управлять тем, кто может получать доступ к своему приложению с помощью [функции совместного доступа в приложениях Powers](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) и [функции общего доступа в виртуальных агентах Power](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).
 
 Когда приложение Power Platform создано или совместно используется, пользователи могут просмотреть и установить его на странице приложения, перейдя на страницу с ** *названием своей организации***,  >  **созданным вашими коллегами**. (Это может занять несколько минут после создания приложения или предоставления общего доступа к нему для отображения в нем приложения.)
 
@@ -77,11 +77,13 @@ ms.locfileid: "48599554"
 
 Например, чтобы запретить определенным пользователям доступ к приложениям, созданным в приложениях Power, создайте пользовательскую политику разрешений для блокирования **общего доступа к приложениям**, а затем назначьте политику этим пользователям.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Снимок экрана: пример политики разрешений на доступ к приложениям с заблокированными общими приложениями Powering":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Снимок экрана: пример политики разрешений на доступ к приложениям с заблокированными общими приложениями Powering":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий по установке на платформе Power Platform
 
-Журналы аудита для Teams можно использовать для изучения событий, в которых пользователи установили приложения Power Platform из раздела " **создано коллегами** " на странице "приложения" в Teams. Для этого [выполните поиск по журналу аудита](https://docs.microsoft.com/microsoftteams/audit-log-events) для **установленного события приложения** Teams (в рамках операции **AppInstalled** ) для определенного пользователя или набора пользователей. Чтобы найти приложения, установленные с помощью раздела " **создано коллегами** ", найдите значение **TemplatedInstance** в разделе "свойство **AppDistributionMode** " в подробных сведениях данной записи. 
+Журналы аудита для Teams можно использовать для изучения событий, в которых пользователи установили приложения Power Platform из раздела " **создано коллегами** " на странице "приложения" в Teams. Для этого [выполните поиск по журналу аудита](https://docs.microsoft.com/microsoftteams/audit-log-events) для **установленного события приложения** Teams (в рамках операции **AppInstalled** ) для пользователя или группы пользователей. Чтобы найти приложения, установленные с **помощью ваших коллег**, найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях о конкретной записи. 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Снимок экрана: значение TemplatedInstance в свойстве AppDistributionMode":::
 
 > [!NOTE]
 > Вы можете экспортировать записи аудита в формате CSV для упрощения фильтрации.

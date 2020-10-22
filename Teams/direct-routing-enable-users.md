@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как включить прямую маршрутизацию для пользователей Microsoft Phone System.
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814548"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655486"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Предоставление пользователям прямой маршрутизации, голоса и голосовой почты
 
@@ -91,7 +91,7 @@ ms.locfileid: "47814548"
 2. Выдайте команду: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     Например, чтобы добавить номер телефона пользователя "Spencer Low", введите следующее: 
@@ -99,9 +99,18 @@ ms.locfileid: "47814548"
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    Если пользователи "Spencer Low" и "Stacy Quinn" имеют один и тот же базовый номер с уникальными расширениями, введите следующее:
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    Номер телефона должен быть настроен как полный E. 164 номер телефона с кодом страны. 
-
+    Рекомендуется (но не обязательно) использовать номер телефона, указанный в качестве полного номера в формате E. 164 с кодом страны. Поддерживается настройка номеров телефонов с расширениями, которые будут использоваться для поиска пользователей, если подстановка для базового числа возвращает более одного результата. Это позволяет компаниям настраивать телефонные номера с использованием одинакового базового номера и уникальных расширений. Чтобы подсчитаться успешным, приглашение должно содержать полный номер с расширением следующим образом:
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > Если в качестве номера телефона пользователя используется локальный, используйте локальную среду управления и панель управления Skype для бизнеса, чтобы настроить номер телефона пользователя. 
 

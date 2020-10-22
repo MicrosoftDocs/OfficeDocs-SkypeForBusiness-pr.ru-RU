@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Узнайте о поддержке жизненного цикла в комнатах Microsoft Teams, включая структуру динамической поддержки и ее этапы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336988"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650922"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Поддержка версии приложения в комнатах Microsoft Teams
  
@@ -38,7 +38,7 @@ ms.locfileid: "48336988"
 
 ## <a name="windows-10-release-support"></a>Поддержка выпусков Windows 10
 
-В помещениях для Microsoft Teams требуется Windows 10 для предприятий IoT Корпоративная или Windows 10 Корпоративная в параметрах обслуживания с помощью одноежегодных каналов. Другие выпуски Windows 10 не поддерживаются:
+В помещениях для Microsoft Teams требуется Windows 10 для предприятий IoT Корпоративная или Windows 10 Корпоративная SKU в разделе Параметры обслуживания канала Semi-Annual. Другие выпуски Windows 10 не поддерживаются:
 
 - (LTSB) и долгосрочные выпуски (LTSC) для Windows 10 Корпоративная (долгосрочный канал обслуживания)
 - Интернет-LTSB и LTSCные выпуски Windows 10 для предприятий (IoT)
@@ -53,7 +53,8 @@ ms.locfileid: "48336988"
 
 |Версия  |Дата доступности   |Состояние поддержки комнат Microsoft Teams   |Минимальная версия приложения для комнат Microsoft Teams | Рекомендуемая сборка ОС  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 2004 |2020-05-27 |В разделе Проверка <br/>Не рекомендуется|&#x2014; |19041,264 |
+| 20H2 |2020-10-20 |В разделе Проверка <br/>Пока не поддерживается|&#x2014; |19042,572 |
+| 2004 |2020-05-27 |Пропущена <br/> Не рекомендуется|&#x2014; |19041,264 |
 | 1909 |2019-11-12 |Поддерживаются <br/>Рекомендуется |4.5.33.0 |18363,418  |
 | 1903 |2019-05-21 |Поддерживается  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Не поддерживается, <br/>Известные проблемы с совместимостью &#x2780;|&#x2014; |&#x2014; |
@@ -67,7 +68,7 @@ ms.locfileid: "48336988"
 
 Если вы используете поддерживаемую версию Windows 10, вы всегда будете получать последние обновления приложений для приложения Microsoft Teams комнаты.  
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>См. также
 
 [Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
