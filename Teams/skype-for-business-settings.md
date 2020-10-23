@@ -8,27 +8,118 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection:
-- M365-voice
+ms.collection: ''
 f1.keywords:
 - CSH
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
+- ms.teamsadmincenter.users.skypeforbusiness.settings
 ms.custom: ''
 appliesto:
+- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
-description: Сведения о том, как управлять параметрами Skype для бизнеса в центре администрирования Microsoft Teams.
-ms.openlocfilehash: 8262e1fcc051433a0db8131525c76ce4d09889b1
-ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
+description: Сведения о том, как управлять параметрами функций Skype для бизнеса в центре администрирования Microsoft Teams.
+ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "48297401"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739237"
 ---
-# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="42754-103">Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="42754-103">Manage Skype for Business settings in the Microsoft Teams admin center</span></span>
+# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="e5c0f-103">Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e5c0f-103">Manage Skype for Business settings in the Microsoft Teams admin center</span></span>
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<span data-ttu-id="e5c0f-104"><a name="sfb-settings"> </a></span><span class="sxs-lookup"><span data-stu-id="e5c0f-104"><a name="sfb-settings"> </a></span></span>
+<!-- Do not remove the bookmark link above. -->
+
+<span data-ttu-id="e5c0f-105">Как администратор, центр администрирования Microsoft Teams — это область, в которой вы управляете функциями Skype для бизнеса для пользователей Skype для бизнеса в Организации.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-105">As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization.</span></span> <span data-ttu-id="e5c0f-106">Вы можете управлять параметрами [Организации](#manage-skype-for-business-settings-for-your-organization) на странице **Skype для бизнеса** и параметрами [отдельных пользователей](#manage-skype-for-business-settings-for-individual-users) на вкладке **Skype для бизнеса** на страницах сведений о пользователях.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-106">You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) on the **Skype for Business** page and settings [for individual users](#manage-skype-for-business-settings-for-individual-users) on the **Skype for Business** tab of user detail pages.</span></span>
+
+<span data-ttu-id="e5c0f-107">Страница **Skype для бизнеса** в центре администрирования Microsoft Teams будет отображаться только в том случае, если режим сосуществования для вашей организации не задан **только для Teams**.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-107">You'll only see the **Skype for Business** page in the Microsoft Teams admin center if the coexistence mode for your organization isn't set to **Teams only**.</span></span> <span data-ttu-id="e5c0f-108">Аналогичным образом вкладка " **Skype для бизнеса** " отображается только в том случае, если режим сосуществования пользователя не **только Teams**.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-108">Similarly, you'll only see the **Skype for Business** tab for a user if the coexistence mode of the user isn't **Teams only**.</span></span> <span data-ttu-id="e5c0f-109">Чтобы узнать больше о режимах сосуществования, ознакомьтесь со статьей общие сведения о [взаимодействии групп и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md) и [Настройте параметры сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md).</span><span class="sxs-lookup"><span data-stu-id="e5c0f-109">To learn more about coexistence modes, see [Understand Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="e5c0f-110">Настройки Skype для бизнеса ранее находились в **устаревшем портале** в центре администрирования Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-110">Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center.</span></span> <span data-ttu-id="e5c0f-111">После выхода из устаревшего портала вы переводили параметры в эти новые места в центре администрирования для управления Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-111">With the retirement of the legacy portal, we migrated the settings to these new locations in the Teams admin center for Skype for Business management.</span></span>
+
+## <a name="manage-skype-for-business-settings-for-your-organization"></a><span data-ttu-id="e5c0f-112">Управление параметрами Skype для бизнеса в Организации</span><span class="sxs-lookup"><span data-stu-id="e5c0f-112">Manage Skype for Business settings for your organization</span></span>
+
+<span data-ttu-id="e5c0f-113">В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **Параметры организации**в  >  **Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-113">In the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Skype for Business**.</span></span> <span data-ttu-id="e5c0f-114">Отсюда вы можете настраивать трансляции собраний Skype, а также уведомления о присутствии и мобильное устройство для всех пользователей Skype для бизнеса в вашей организации и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-114">From here, you can configure and manage Skype Meeting Broadcast, presence privacy, and mobile device notifications for all Skype for Business users in your organization.</span></span>
+
+### <a name="skype-meeting-broadcast"></a><span data-ttu-id="e5c0f-115">Трансляция собрания Skype</span><span class="sxs-lookup"><span data-stu-id="e5c0f-115">Skype Meeting Broadcast</span></span>
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<span data-ttu-id="e5c0f-116"><a name="sfb-org-wide-broadcast"> </a></span><span class="sxs-lookup"><span data-stu-id="e5c0f-116"><a name="sfb-org-wide-broadcast"> </a></span></span>
+<!-- Do not remove the bookmark link above. -->
+
+<span data-ttu-id="e5c0f-117">Используйте указанные ниже параметры для управления [широковещательным показом собраний Skype](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) в Организации.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-117">Use the following settings to manage [Skype Meeting Broadcast](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) in your organization.</span></span>
+
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Снимок экрана: параметры трансляции собраний Skype в центре администрирования":::
+
+- <span data-ttu-id="e5c0f-119">**Трансляции собраний Skype**: Включите этот параметр, чтобы включить трансляцию собраний Skype для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-119">**Skype Meeting Broadcasts**: Turn this on to enable Skype Meeting Broadcast for your organization.</span></span> <span data-ttu-id="e5c0f-120">После включения этой функции необходимо [настроить сеть для трансляции собраний Skype](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).</span><span class="sxs-lookup"><span data-stu-id="e5c0f-120">After you enable this feature, you need to [set up your network for Skype Meeting Broadcast](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).</span></span>
+- <span data-ttu-id="e5c0f-121">**Дополнительные**возможности: Установите этот флажок, чтобы получать более ранний доступ к новым функциям.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-121">**See preview features**: Turn this on to get early access to new features.</span></span>
+- <span data-ttu-id="e5c0f-122">**Организаторов может планировать анонимные собрания**: Включите этот параметр, если вы хотите разрешить организаторов создавать события широковещательного показа, позволяющие любому пользователю за пределами вашей организации присоединиться, не входя в Skype.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-122">**Organizers can schedule anonymous meetings**: Turn this on if you want to let organizers create broadcast events that allow anyone outside your organization to join without having to sign in.</span></span> 
+- <span data-ttu-id="e5c0f-123">**Запись собраний по трансляции собраний Skype**: Включите этот параметр, чтобы разрешить организаторов и выступающим записывать собрания.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-123">**Record Skype Meeting Broadcast meetings**: Turn this on to enable organizers and presenters to record meetings.</span></span>  
+- <span data-ttu-id="e5c0f-124">**URL-адрес поддержки службы поддержки для участников**: введите URL-адрес своей организации, который может использовать участники собрания, если им нужна помощь во время собрания.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-124">**Helpdesk support URL for attendees**: Enter your organization's support URL that meeting attendees can use if they need help during a meeting.</span></span>
+
+### <a name="presence-and-mobile-notifications"></a><span data-ttu-id="e5c0f-125">Уведомления о присутствии и мобильном телефоне</span><span class="sxs-lookup"><span data-stu-id="e5c0f-125">Presence and mobile notifications</span></span>
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<span data-ttu-id="e5c0f-126"><a name="sfb-org-wide-presence-mobile"> </a></span><span class="sxs-lookup"><span data-stu-id="e5c0f-126"><a name="sfb-org-wide-presence-mobile"> </a></span></span>
+<!-- Do not remove the bookmark link above. -->
 
 
+<span data-ttu-id="e5c0f-127">Используйте указанные ниже параметры, чтобы управлять конфиденциальностью и мобильными уведомлениями о присутствии в Skype для бизнеса в Организации.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-127">Use the following settings to manage Skype for Business presence privacy and mobile notifications in your organization.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="42754-104">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="42754-104">Related topics</span></span>
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Снимок экрана: параметры присутствия в центре администрирования":::
 
+#### <a name="presence"></a><span data-ttu-id="e5c0f-129">Присутствие</span><span class="sxs-lookup"><span data-stu-id="e5c0f-129">Presence</span></span>
+
+<span data-ttu-id="e5c0f-130">По умолчанию пользователи Skype для бизнеса в организации могут видеть состояние присутствия (например, "доступно", "занят" или "нет на месте") других пользователей Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-130">By default, Skype for Business users in your organization can see the presence status (such as Available, Busy, or Away) of other Skype for Business users.</span></span> <span data-ttu-id="e5c0f-131">Выберите один из указанных ниже вариантов, чтобы указать, кто может видеть наличие пользователей Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-131">Choose one of the following to set who can see the presence of your Skype for Business users.</span></span>
+
+- <span data-ttu-id="e5c0f-132">**Автоматически отображать сведения о присутствии**: любой пользователь Skype для бизнеса в вашей организации, который не был добавлен в **внешний** или **заблокированный** список пользователя, может видеть его присутствие.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-132">**Automatically display presence information**: Any Skype for Business user in your organization who hasn't been added to the user's **External** or **Blocked** list can see that user's presence.</span></span>
+- <span data-ttu-id="e5c0f-133">**Отображать сведения о присутствии только для контактов пользователя**: любой пользователь Skype для бизнеса в списке контактов пользователя, который не добавлен в свой **внешний** или **заблокированный** список, может видеть присутствие этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-133">**Display presence information only to a user's contacts**: Any Skype for Business user in the user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence.</span></span> <span data-ttu-id="e5c0f-134">Пользователи могут переопределить этот параметр в Skype для бизнеса, перейдя **Settings**в  >  **Tools**  >  **Параметры**средств настройки.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-134">Users can override this setting in Skype for Business by going to **Settings** > **Tools** > **Options**.</span></span>
+
+#### <a name="mobile-notifications"></a><span data-ttu-id="e5c0f-135">Мобильные уведомления</span><span class="sxs-lookup"><span data-stu-id="e5c0f-135">Mobile notifications</span></span>
+
+<span data-ttu-id="e5c0f-136">Вы можете указать, будут ли пользователи Skype для бизнеса Mobile получать уведомления о входящих и пропущенных мгновенных сообщениях, голосовых сообщениях и пропущенных звонках через службу push-уведомлений.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-136">You can set whether your Skype for Business mobile users get alerts about incoming and missed instant messages, voicemail messages, and missed calls through a push notification service.</span></span> <span data-ttu-id="e5c0f-137">В зависимости от того, какие мобильные устройства используются в вашей организации, вы можете использовать **службу push-уведомлений (Майкрософт**), **службу push-уведомлений Apple**или и то, и другое.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-137">Depending on the mobile devices used in your organization, you can use the **Microsoft Push Notification Service**, the **Apple Push Notification Service**, or both.</span></span>
+
+<span data-ttu-id="e5c0f-138">Учитывайте следующее.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-138">Keep the following in mind:</span></span>
+
+- <span data-ttu-id="e5c0f-139">Если вы отключите push-уведомления, пользователи получат все оповещения при следующем запуске Skype для бизнеса на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-139">If you turn off push notifications, users will get all alerts the next time they start Skype for Business on their mobile device.</span></span>
+- <span data-ttu-id="e5c0f-140">По умолчанию push-уведомления включены.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-140">By default, push notifications are turned on.</span></span> <span data-ttu-id="e5c0f-141">Отдельные пользователи могут отключить их в Skype для бизнеса на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-141">Individual users can turn them off in Skype for Business on their mobile device.</span></span>
+- <span data-ttu-id="e5c0f-142">Если вы отключите push-уведомления, пользователи не смогут снова включить их.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-142">When you turn off push notifications, users can't turn them back on.</span></span> 
+
+> [!IMPORTANT]
+> <span data-ttu-id="e5c0f-143">Корпорация Майкрософт использует другие компании для получения уведомлений о Skype для бизнеса в реальном времени для пользователей Windows Phone, iPhone и iPad.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-143">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="e5c0f-144">Ознакомьтесь с этим заявлением [о конфиденциальности](https://go.microsoft.com/fwlink/p/?linkid=247732).</span><span class="sxs-lookup"><span data-stu-id="e5c0f-144">See this [Privacy Statement](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span>
+
+## <a name="manage-skype-for-business-settings-for-individual-users"></a><span data-ttu-id="e5c0f-145">Управление параметрами Skype для бизнеса для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="e5c0f-145">Manage Skype for Business settings for individual users</span></span>
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<span data-ttu-id="e5c0f-146"><a name="sfb-user-settings"> </a></span><span class="sxs-lookup"><span data-stu-id="e5c0f-146"><a name="sfb-user-settings"> </a></span></span>
+<!-- Do not remove the bookmark link above. -->
+
+<span data-ttu-id="e5c0f-147">Чтобы настроить параметры Skype для бизнеса для отдельных пользователей, в левой области навигации центра администрирования Teams перейдите в раздел **Пользователи**, щелкните отображаемое имя пользователя, чтобы открыть страницу сведений о пользователе, а затем откройте вкладку **Параметры Skype для бизнеса** . Здесь вы можете настроить внешний доступ и параметры собрания для пользователя.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-147">To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business settings** tab. From here, you can configure external access and meeting settings for the user.</span></span>
+
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Снимок экрана: вкладка "Skype для бизнеса" на странице "сведения о пользователе"":::
+
+### <a name="external-access-settings"></a><span data-ttu-id="e5c0f-149">Параметры внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="e5c0f-149">External access settings</span></span>
+
+<span data-ttu-id="e5c0f-150">Вы можете включить или отключить возможность общения с пользователями за пределами Организации.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-150">You can selectively allow or block whether a user can communicate with people outside your organization.</span></span>
+
+- <span data-ttu-id="e5c0f-151">**Внешние пользователи Skype для бизнеса**: Включите этот параметр, если вы хотите разрешить пользователю общаться с пользователями Skype для бизнеса в федеративных доменах.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-151">**External Skype for Business users**: Turn this on if you want to allow the user to communicate with Skype for Business users in federated domains.</span></span>
+- <span data-ttu-id="e5c0f-152">**Внешние пользователи Skype**: Включите этот параметр, если вы хотите разрешить пользователю общаться с пользователями Skype.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-152">**External Skype users**: Turn this on if you want to allow the user to communicate with Skype users.</span></span> 
+
+### <a name="meeting-settings"></a><span data-ttu-id="e5c0f-153">Параметры собрания</span><span class="sxs-lookup"><span data-stu-id="e5c0f-153">Meeting settings</span></span>
+
+<span data-ttu-id="e5c0f-154">Вы можете настроить указанные ниже параметры собрания для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-154">You can configure the following meeting settings for the user.</span></span>
+
+- <span data-ttu-id="e5c0f-155">**Аудио & видео**: выберите один из следующих параметров звука и видео.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-155">**Audio & video**: Choose one of the following audio and video settings:</span></span>
+
+    - <span data-ttu-id="e5c0f-156">**Нет**: пользователь не может использовать аудио или видео.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-156">**None**: User can't use audio or video.</span></span>
+    - <span data-ttu-id="e5c0f-157">**Только звук**: пользователь может использовать звук, но не видео.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-157">**Audio only**: User can use audio but not video.</span></span>
+    - <span data-ttu-id="e5c0f-158">**Аудио и видео**: пользователь может использовать звук и видео.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-158">**Audio and video**: User can use audio and video.</span></span>
+    - <span data-ttu-id="e5c0f-159">**Аудио-и видеофайлы (HD)**: пользователь может использовать звук и видео с высокой четкостью определения.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-159">**Audio and video (HD)**: User can use audio and high definition video.</span></span>
+    
+- <span data-ttu-id="e5c0f-160">**Запись бесед & собрания**: Включите этот параметр, чтобы разрешить пользователям записывать беседы и собрания.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-160">**Record conversations & meetings**: Turn this on to allow the user to record conversations and meetings.</span></span>
+- <span data-ttu-id="e5c0f-161">**Соответствие**: Включите этот параметр, если вы обязаны хранить данные, хранящиеся в электронном виде.</span><span class="sxs-lookup"><span data-stu-id="e5c0f-161">**Compliance**: Turn this on if you're legally required to retain electronically stored information.</span></span> 
