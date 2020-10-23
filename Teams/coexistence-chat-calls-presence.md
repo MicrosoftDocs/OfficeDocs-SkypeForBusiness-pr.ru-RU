@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Возможность сосуществования между группами & Skype для бизнеса, в том числе параметры маршрутизации, чата & маршрутизация звонков, разговоры & звонков из уже существующих потоков, & присутствия.
-ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
+ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757240"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48661351"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 
@@ -70,7 +70,7 @@ ms.locfileid: "44757240"
 В приведенных ниже таблицах показано, какой клиент в данном режиме будет получать вызов от инициатора (три крайние левые столбцы), в зависимости от того, какой режим клиента выбран, и где находится клиент Skype для бизнеса (локальный или Интернет).
 
 В следующих таблицах: 
-- **SfB \* ** представляет любой из следующих режимов: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **SfB \* * _ представляет любой из следующих режимов: _SfBOnly *, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - *Курсивом выделяется текстовая* беседа.
 
@@ -78,7 +78,7 @@ ms.locfileid: "44757240"
 
 **Таблица 1А: новый чат или маршрут звонков для получателя в режиме острова**
 
-| <br/><br/> Режиме | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс | | Получателя <br/><br/> Острова  |
+| <br/><br/> Режиме | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс |<br/><br/>Route (>)| Получателя <br/><br/> Острова  |
 |--- |--- |--- |--- |--- |
 | Острова | Teams <br/> Skype для бизнеса<br/> Teams<br/> Skype для бизнеса| В Интернете<br/> В Интернете<br/> Локальная<br/>Локальная| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype для бизнеса<br/> Teams<br/> Skype для бизнеса|
 |SfB\* <br/> | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> Локальная<br/> |&boxv;<br/>&boxv;|Skype для бизнеса<br/>Skype для бизнеса<br/>|
@@ -87,7 +87,7 @@ ms.locfileid: "44757240"
 
 **Таблица 1b: новый чат или маршрут звонков для получателя в \* режиме SfB**
 
-| <br/><br/> Режиме   | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс | |   Получателя <br/><br/> SfB\*   |
+| <br/><br/> Режиме   | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс |<br/><br/>Route (>) |   Получателя <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | Острова |Teams<br/>Skype для бизнеса<br/>Teams <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса<br/> **Невозможно** <br/>Skype для бизнеса<br/> |
 |SfB\* <br/> | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> Локальная<br/> |&boxv;<br/>&boxv; |  Skype для бизнеса<br/>Skype для бизнеса<br/> |
@@ -96,9 +96,9 @@ ms.locfileid: "44757240"
 
 **Таблица 1C: новый чат или маршрут звонков для абонента в режиме TeamsOnly**
 
-| <br/><br/> Режиме   | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс | |   Получателя <br/><br/> TeamsOnly  |
+| <br/><br/> Режиме   | Открытого <br/><br/> Клиент | <br/><br/> SfBный &nbsp; сетевой интерфейс |<br/><br/>Route (>)|   Получателя <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Острова   |Teams<br/>Skype для бизнеса<br/>В Teams <br/>Skype для бизнеса<br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| Острова   |Teams<br/>Skype для бизнеса<br/>Teams <br/>Skype для бизнеса<br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype для бизнеса<br/>Skype для бизнеса<br/> | В Интернете<br/> Локальная<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | В Интернете |  &boxv; |Teams   |
 |  |  |  | | |
@@ -118,27 +118,27 @@ ms.locfileid: "44757240"
 
 **Таблица 2а: Федеративные новые чата или маршрутные звонки получателям острова**
 
-| <br/><br/>Режиме   | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс| | Получателя<br/><br/> Острова |
+| <br/><br/>Режиме   | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс|<br/><br/>Route (>) | Получателя<br/><br/> Острова |
 |--- |--- |--- |--- |--- |
-| Острова |Teams<br/>Skype для бизнеса <br/>В Teams <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Невозможно**   <br/> Skype для бизнеса |
+| Острова |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса  |В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Невозможно**   <br/> Skype для бизнеса |
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса |В Интернете<br/> Локальная<br/> | &boxv;<br/>&boxv;|Skype для бизнеса <br/>Skype для бизнеса |
 | TeamsOnly |Teams |В Интернете| &boxv;|*Skype для бизнеса* |
 |  | | | | 
 
 **Таблица 2b: Федеративные новые чата или маршрутные звонки получателям в режиме SfB \***
 
-| <br/><br/>Режиме   | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс| |  Получателя<br/><br/> SfB\* |  
+| <br/><br/>Режиме   | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс|<br/><br/>Route (>)|  Получателя<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Острова |Teams<br/>Skype для бизнеса <br/>В Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Невозможно** <br/>Skype для бизнеса <br/> |  
+| Острова |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype для бизнеса* <br/> Skype для бизнеса <br/> **Невозможно** <br/>Skype для бизнеса <br/> |  
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса  |В Интернете<br/> Локальная<br/>  |&boxv;<br/>&boxv; | Skype для бизнеса <br/>Skype для бизнеса  |
 | TeamsOnly | Teams|В Интернете |&boxv; |*Skype для бизнеса*  |
 |  | | | | |
 
 **Таблица 2c: Федеративная новая беседа или маршрут звонков для получателя в режиме TeamsOnly**
 
-| <br/><br/>Режиме | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс| |  Получателя<br/>  <br/> TeamsOnly  |
+| <br/><br/>Режиме | Открытого<br/><br/> Клиент| <br/><br/>SfBный сетевой интерфейс|<br/><br/>Route (>)|  Получателя<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Острова  |Teams<br/>Skype для бизнеса <br/>В Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**Невозможно** <br/>*Teams* |
+| Острова  |Teams<br/>Skype для бизнеса <br/>Teams <br/>Skype для бизнеса <br/>|В Интернете<br/> В Интернете<br/> Локальная<br/> Локальная<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**Невозможно** <br/>*Teams* |
 | SfB\* |Skype для бизнеса <br/>Skype для бизнеса  | В Интернете<br/> Локальная| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |В Интернете |&boxv; |Teams |
 |  | | | | |
@@ -189,10 +189,10 @@ ms.locfileid: "44757240"
 
 **Таблица 3: присутствие в клиенте (новый поток)**
 
-|Наблюдателя <br/><br/>Клиент| |<br/><br/>Острова |Publisher <br/><br/>SfB\* |<br/>Только для Teams|
+|Наблюдателя <br/><br/>Клиент|<br/><br/>Route (>) |<br/><br/>Острова |Publisher <br/><br/>SfB\* |<br/>Только для Teams|
 |--- |--- |--- |--- |---|
 |Skype для бизнеса |&boxv;|Skype для бизнеса | Skype для бизнеса | Teams|
-|Teams |&boxv; |Teams |Skype для бизнеса |В Teams |
+|Teams |&boxv; |Teams |Skype для бизнеса |Teams |
 | | | | |
 
 ### <a name="federated-presence"></a>Федеративное присутствие
@@ -203,10 +203,10 @@ ms.locfileid: "44757240"
 
 **Таблица 4: федеративное присутствие (новый поток)**
 
-|Наблюдателя <br/><br/> Клиент | |<br/><br/> Острова  |Publisher <br/><br/> SfB\* |<br/><br/> Только для Teams |
+|Наблюдателя <br/><br/> Клиент |<br/><br/>Route (>)|<br/><br/> Острова  |Publisher <br/><br/> SfB\* |<br/><br/> Только для Teams |
 |--- |--- |--- |--- |---|
 |Skype для бизнеса |&boxv; |Skype для бизнеса  | Skype для бизнеса  | Teams  |
-|Teams | &boxv;|Skype для бизнеса |Skype для бизнеса |В Teams|
+|Teams | &boxv;|Skype для бизнеса |Skype для бизнеса |Teams|
 | | | | ||
 
 ### <a name="presence-in-pre-existing-threads"></a>Присутствие в уже существующих потоках

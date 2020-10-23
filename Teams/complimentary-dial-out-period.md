@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: В этой статье рассказывается о бесплатном периоде исходящих звонков для Microsoft 365 и планов звонков по Office 365 и Office 365 Audio-конференции в Microsoft Teams.
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690895"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739257"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатный период исходящих звонков для аудиоконференций
 
@@ -68,7 +68,7 @@ ms.locfileid: "44690895"
 
 **Зона и регионы стран и регионов**
 
-|    |
+|Страну    |
 |-----|
 |Австралия  <br/> |
 |Австрия  <br/> |
@@ -115,5 +115,5 @@ ms.locfileid: "44690895"
 |Соединенное Королевство  <br/> |
 |США  <br/> |
      
-## <a name="related-topics"></a>См. также:
-[Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## <a name="related-topics"></a>Статьи по теме
+[Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599564"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739227"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -66,6 +66,9 @@ ms.locfileid: "48599564"
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Настройка параметров записи собраний для OneDrive для бизнеса и SharePoint
+
+> [!Note]
+> Параметр "запись собрания" — это параметр на уровне политики Teams. В следующем примере показано, как настроить глобальную политику. Убедитесь, что вы установили параметр записи собраний для политики или политик, назначенных пользователям. Изменения политики собраний Teams вступят в силу в течение некоторого времени. Вернитесь по истечении определенного времени, а затем выйдите из нее и войдите снова.
 
 1. Установите Skype для бизнеса Online PowerShell. 
 **Примечание**. в настоящее время соединитель Skype для бизнеса Online уже входит в состав последнего модуля PowerShell для Teams. Если вы используете последнюю версию общедоступной оболочки для Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online. [В разделе Управление Skype для бизнеса Online с помощью PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
