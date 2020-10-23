@@ -19,14 +19,17 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778124"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739057"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
+
+> [!IMPORTANT]
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью [партнера Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) .
 
@@ -35,11 +38,11 @@ ms.locfileid: "43778124"
 
 ![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-1. Войдите в систему с помощью учетной записи глобального администратора или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
+1. Войдите в систему с помощью учетной записи глобального администратора или учетной записи администратора Skype для бизнеса по адресу [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
     
-2. В центре администрирования перейдите в раздел **центры** > администрирования**Teams**.
+2. В центре администрирования перейдите в раздел **центры администрирования**  >  **Teams**.
     
-3. В **центре администрирования Teams**перейдите к старым**собраниям**по**сети** > с помощью **портала** > и выберите **Включить трансляцию собраний Skype**.
+3. В **центре администрирования Teams**перейдите к старым собраниям по сети с помощью **портала**  >  **Online meetings**  >  **Broadcast meetings**и выберите **Включить трансляцию собраний Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включение трансляции собраний Skype с помощью PowerShell
 
@@ -69,7 +72,7 @@ ms.locfileid: "43778124"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    Убедитесь, что для _EnableBroadcastMeeting_ `False`параметра EnableBroadcastMeeting задано значение.
+    Убедитесь, что для параметра  _EnableBroadcastMeeting_ задано значение `False` .
     
      ![Трансляция собраний Skype с помощью командлета Organization.](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
@@ -79,7 +82,7 @@ ms.locfileid: "43778124"
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Вы можете подтвердить, что параметр включен, запустив `Get-CsBroadcastMeetingConfiguration` его еще раз.
+    Вы можете подтвердить, что параметр включен, запустив его  `Get-CsBroadcastMeetingConfiguration` еще раз.
     
      ![Трансляция собраний Skype с помощью командлета Organization.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   

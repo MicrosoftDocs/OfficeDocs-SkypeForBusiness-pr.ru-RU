@@ -20,14 +20,17 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Сведения о том, как включать и отключать уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих, голосовых сообщениях и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164118"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739217"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
+
+> [!IMPORTANT]
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Как **[назначить роли администратора в приложениях Microsoft 365 для бизнеса в](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** Организации, вы можете выбрать, будут ли пользователи Skype для бизнеса получать оповещения о входящих и пропущенных мгновенных сообщениях, находящихся на мобильных телефонах или планшетах.
   
@@ -42,7 +45,7 @@ ms.locfileid: "44164118"
     
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
     
-3. Перейдите к разделу**Общие** **Организации** > . 
+3. Перейдите к **Organization**разделу  >  **Общие**Организации. 
     
 4. В разделе **уведомления на мобильном телефоне**снимите флажок рядом с службой уведомлений, которую вы хотите отключить, и нажмите кнопку **сохранить**.
     

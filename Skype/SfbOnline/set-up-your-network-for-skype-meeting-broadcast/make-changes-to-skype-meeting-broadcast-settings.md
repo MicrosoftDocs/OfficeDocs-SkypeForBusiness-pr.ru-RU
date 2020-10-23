@@ -20,14 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Вы можете включить трансляцию собраний Skype и внести изменения в параметры и политики для этих собраний.
-ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769482"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739067"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Внесение изменений в параметры трансляции собраний Skype для Организации
+
+> [!IMPORTANT]
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Вы можете включить трансляцию собраний Skype и внести изменения в параметры и политики для этих собраний.
   
@@ -41,7 +44,7 @@ ms.locfileid: "41769482"
     
 - **URL-адрес поддержки службы поддержки для участников** Введите ссылку для участников широковещательного показа собрания, если вам нужна помощь по подключению к собранию или участию на нем.
     
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 
