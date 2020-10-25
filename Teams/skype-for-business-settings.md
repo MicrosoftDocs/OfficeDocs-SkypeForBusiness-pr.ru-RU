@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять параметрами функций Skype для бизнеса в центре администрирования Microsoft Teams.
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739237"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753564"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739237"
 
 Как администратор, центр администрирования Microsoft Teams — это область, в которой вы управляете функциями Skype для бизнеса для пользователей Skype для бизнеса в Организации. Вы можете управлять параметрами [Организации](#manage-skype-for-business-settings-for-your-organization) на странице **Skype для бизнеса** и параметрами [отдельных пользователей](#manage-skype-for-business-settings-for-individual-users) на вкладке **Skype для бизнеса** на страницах сведений о пользователях.
 
-Страница **Skype для бизнеса** в центре администрирования Microsoft Teams будет отображаться только в том случае, если режим сосуществования для вашей организации не задан **только для Teams**. Аналогичным образом вкладка " **Skype для бизнеса** " отображается только в том случае, если режим сосуществования пользователя не **только Teams**. Чтобы узнать больше о режимах сосуществования, ознакомьтесь со статьей общие сведения о [взаимодействии групп и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md) и [Настройте параметры сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md).
+Вы увидите страницу **Skype для бизнеса** только в том случае, если режим сосуществования для вашей организации не задан **только для Teams**. Аналогичным образом вкладка " **Skype для бизнеса** " отображается только в том случае, если режим сосуществования пользователя не **только Teams**. Чтобы узнать больше о режимах сосуществования, ознакомьтесь со статьей общие сведения о [взаимодействии групп и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md) и [Настройте параметры сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
 > Настройки Skype для бизнеса ранее находились в **устаревшем портале** в центре администрирования Microsoft Teams. После выхода из устаревшего портала вы переводили параметры в эти новые места в центре администрирования для управления Skype для бизнеса.
+
+Для управления функциями Skype для бизнеса в центре администрирования Microsoft Teams необходимо назначить [роль администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) для администратора глобального администратора или Skype для бизнеса.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Управление параметрами Skype для бизнеса в Организации
 

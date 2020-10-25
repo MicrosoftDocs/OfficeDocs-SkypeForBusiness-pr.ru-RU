@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 20d3671beb608413c5d0d61f599f65a47b55732d
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739057"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753434"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Для управления функциями Skype для бизнеса в центре администрирования Teams необходимо назначить [роль администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) для администратора глобального администратора или Skype для бизнеса. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью [партнера Майкрософт](https://go.microsoft.com/fwlink/?linkid=391089) .
 

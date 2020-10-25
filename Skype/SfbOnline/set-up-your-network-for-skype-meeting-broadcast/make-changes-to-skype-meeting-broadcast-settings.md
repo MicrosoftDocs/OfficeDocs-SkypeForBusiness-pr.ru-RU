@@ -20,17 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Вы можете включить трансляцию собраний Skype и внести изменения в параметры и политики для этих собраний.
-ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739067"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753414"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Внесение изменений в параметры трансляции собраний Skype для Организации
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Для управления функциями Skype для бизнеса в центре администрирования Teams необходимо назначить [роль администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) для администратора глобального администратора или Skype для бизнеса. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 Вы можете включить трансляцию собраний Skype и внести изменения в параметры и политики для этих собраний.
   

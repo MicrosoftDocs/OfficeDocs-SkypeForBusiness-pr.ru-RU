@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583448"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739247"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -97,6 +97,10 @@ Microsoft Teams позволяет организациям назначать 
 - В учебном заведении требуется ограничить возможности общения преподавателей с учащимися в чатах. 
 
 Установите параметр в значение **Вкл**, чтобы активировать функции поиска в области каталога.
+
+### <a name="skype-for-business"></a>Skype для бизнеса
+
+Эта страница служит для управления возможностями Skype для бизнеса для пользователей Skype для бизнеса в организации. Дополнительные сведения см. в статье [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](skype-for-business-settings.md)
 
 ### <a name="teams-upgrade"></a>Переход на Teams
 

@@ -23,17 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Сведения о том, как изменить параметры Skype для бизнеса для отдельных пользователей, например, голосовые и видеоконференции, записи звонков и собраний. '
-ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: cf54637bda51a7994121035b3db1585213c56c00
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739177"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753424"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Администраторы: настройка параметров Skype для бизнеса для отдельных пользователей
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Для управления функциями Skype для бизнеса в центре администрирования Teams необходимо назначить [роль администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) для администратора глобального администратора или Skype для бизнеса. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 В этой статье объясняется, как администраторы настраивают Skype для бизнеса для небольшого количества пользователей. Чтобы выполнить эти действия, мы включили ссылки на командлеты Windows PowerShell, которые вы можете использовать.
   

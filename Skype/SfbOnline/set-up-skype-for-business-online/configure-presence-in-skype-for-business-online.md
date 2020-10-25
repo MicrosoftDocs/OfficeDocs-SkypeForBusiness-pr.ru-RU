@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739197"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753454"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Настройка присутствия в Skype для бизнеса Online
 
 > [!IMPORTANT]
-> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Центр администрирования Microsoft Teams заменяет центр администрирования Skype для бизнеса (устаревший портал). Все параметры, необходимые для управления Skype для бизнеса, теперь находятся в центре администрирования Teams. Для управления функциями Skype для бизнеса в центре администрирования Teams необходимо назначить [роль администратора Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) для администратора глобального администратора или Skype для бизнеса. Дополнительные сведения можно найти в разделе [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 По умолчанию любой пользователь, который может общаться с одним из сотрудников вашей организации с помощью Skype для бизнеса, также сможет узнать, доступен ли этот пользователь в сети. В Skype для бизнеса показано, доступен ли пользователь в сети, на собрании, в автономном режиме или в другом индикаторе.
 
