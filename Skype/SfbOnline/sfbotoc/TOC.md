@@ -235,9 +235,10 @@
 ### [Что такое кредиты на связь?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [Управление параметрами Skype для бизнеса в Центре администрирования Microsoft Teams](/microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Настройка сведений о присутствии в Skype для бизнеса Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Настройка режима конфиденциальности присутствия](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Настройка параметров Skype для бизнеса для отдельных пользователей](../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
 ### [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [Развертывание клиента Skype для бизнеса](../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
