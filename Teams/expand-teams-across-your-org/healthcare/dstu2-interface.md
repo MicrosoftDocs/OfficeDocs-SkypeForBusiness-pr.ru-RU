@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Узнайте о спецификации интерфейса DSTU2 в Teams, в том числе Настройка и перенастройка сервера FHIR для работы с приложением Microsoft Teams пациентов.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ab502f66785af7947185fb0fbee0d3a55dd70c67
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367609"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766982"
 ---
 # <a name="dstu2-interface-specification"></a>Характеристики интерфейса DSTU2
 
@@ -32,7 +32,7 @@ ms.locfileid: "48367609"
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >
->[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков благодаря специалистам по карьерным тарифам могут создаваться списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
+>[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков группы работоспособности могут создавать списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,12 +58,14 @@ ms.locfileid: "48367609"
 
  Сервер FHIR должен реализовать инструкцию соответствия, чтобы получить сводную информацию о ее возможностях factual. Ниже перечислены параметры на сервере DSTU2 FHIR:
 
-1. ДЕРЖИВАЕТ
-   1. Режиме
-   2. Действует
-   3. Ресурс: тип
-   4. Безопасность: [расширение URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (для нашего кода требуется, чтобы узнать, в какую версию следует поворачивать, так как мы поддерживаем несколько версий.)
+ - ДЕРЖИВАЕТ
+
+    - Режиме
+    - Действует
+    - Ресурс: тип
+    - Безопасность: [расширение URI OAuth](https://hl7.org/fhir/extension-oauth-uris.html)
+   
+ - FhirVersion (для нашего кода требуется, чтобы узнать, в какую версию следует поворачивать, так как мы поддерживаем несколько версий.)
 
 [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -71,38 +73,66 @@ ms.locfileid: "48367609"
 
 Это минимальные обязательные поля, которые являются подмножеством полей [профиля пациента Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) :
 
-1. Family (имя)
-2. Name (имя). задано
-3. Полу
-4. Рождения
-5. MRN (идентификатор)
+ - Family (имя)
+ - Name (имя). задано
+ - Полу
+ - Рождения
+ - MRN (идентификатор)
 
 В дополнение к полям Argonaut для удобства пользователей приложение пациентов также считывает следующие поля:
 
-1. Name. use
-2. Name. prefix
-3. CareProvider (эта ссылка на ресурс пациент должна содержать отображаемые поля, показанные в приведенном ниже примере).
+ - Name. use
+ - Name. prefix
+ - CareProvider (эта ссылка на ресурс пациент должна содержать отображаемые поля, показанные в приведенном ниже примере).
 
-* * *
-
-    Запрос: получение <fhir-Server>/Patient/<пациент-ID>
+    ```
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
     
-    Ответ: {"resourceType": "Patient", "идентификатор": "<пациент-ID>";.
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
       .
       .
-      "имя": [{"use": "официальный", "префикс": ["MR"], "Family": ["Hugh"] "," ". [" Chau "]}]," идентификатор ": [{" использование ":" официальный "," тип ": {" программирование ": [{" System ":" "; https://hl7.org/fhir/v2/0203 " код ":" MR "}]};" значение ":" м ";" careProvider ": [{" Display ":" Джейн Петров "}],} 1234567 1957-06-05
-
-* * *
+      .
+      "name": [
+        {
+          "use": "official",
+          "prefix": [ "Mr" ],
+          "family": [ "Chau" ],
+          "given": [ "Hugh" ]
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "coding": [
+              {
+                "system": "https://hl7.org/fhir/v2/0203",
+                "code": "MR"
+              }
+            ]
+          },
+          "value": "1234567"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1957-06-05",
+      "careProvider": [{ "display": "Jane Doe" }],
+    }
+    ```
 
 Поиск ресурсов использует метод POST по адресу/Patient/_search и следующие параметры:
 
-1. номер
-2. Семья: Contains = (ищет все пациентов, чье имя семейства оно содержат.)
-3. указанный =\<substring>
-4. Name =\<substring>
-5. Дата рождения = (точное совпадение)
-6. \_Count (максимальное количество возвращаемых результатов) <br> Ответ должен содержать общее количество записей, возвращенных в результате поиска, и \_ количество будет использоваться PatientsApp для ограничения количества возвращенных записей.
-7. Идентификатор =\<mrn>
+ - номер
+ - Семья: Contains = (ищет все пациентов, чье имя семейства оно содержат.)
+ - указанный =\<substring>
+ - Name =\<substring>
+ - Дата рождения = (точное совпадение)
+ - \_Count (максимальное количество возвращаемых результатов) <br> Ответ должен содержать общее количество записей, возвращенных в результате поиска, и \_ количество будет использоваться PatientsApp для ограничения количества возвращенных записей.
+ - Идентификатор =\<mrn>
 
 Цель — найти и отфильтровать пациента в пациент, выполнив следующие действия:
 
@@ -113,16 +143,41 @@ ms.locfileid: "48367609"
 
 Ниже приведен пример этого звонка.
 
-* * *
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=hugh&family=chau
 
-    Запрос: POST <fhir-Server>/Patient/_search запроса: с указанным = Hugh&Family = Chau
-    
-    Response: {"resourceType": "пакет", "идентификатор": "<-ID пакета>".
-      .
-      .
-      "Entry": [{"ресурс": {"resourceType": "пациент"; "идентификатор": "<пациент-ID>", "имя": [{"текст": "Hugh Chau", "семья": ["Chau"], ""--"," Дата ":" м ":"----------"1957-06-05
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  .
+  .
+  .
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "<patient-id>",
+        "name": [
+          {
+            "text": "Hugh Chau",
+            "family": [ "Chau" ],
+            "given": [ "Hugh" ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1957-06-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -130,34 +185,66 @@ ms.locfileid: "48367609"
 
 Это минимальные обязательные поля, которые являются подмножеством профиля Argonaut важную подпись:
 
- 1. Эффективная (Дата и время)
- 2. Код. кодирование. Code
- 3. ValueQuantity. Value
+ - Эффективная (Дата и время)
+ - Код. кодирование. Code
+ - ValueQuantity. Value
 
 В дополнение к полям Argonaut для удобства пользователей приложение пациентов также считывает следующие поля:
 
- 1. Код. программирование. Display
- 2. ValueQuantity. ед.
+ - Код. программирование. Display
+ - ValueQuantity. ед.
 
 При использовании наблюдения за компонентами одна и та же логика применяется для наблюдения за каждым компонентом.
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient id\>
-2. сортировка: DESC =\<field ex. date\>
+ - пациент =\<patient id\>
+ - сортировка: DESC =\<field ex. date\>
 
 Цель состоит в том, чтобы получить последние важные знаки для пациента, [VitalSigns. DSTU. saz] (наблюдение?).
 
-* * *
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
 
-    Запрос: GET <fhir-Server>/Observation? пациент =<пациент-ID>&_sort:d ESC = Дата&Category = важные-признаки
-    
-    Response: {"resourceType": "пакет", "идентификатор": <"пакет-ID>", "введите": ",", "," Итого ": 20," Entry ": [{" ресурс ": {" resourceType ":" наблюдение "," идентификатор ":" <ресурс-идентификатор> ";" Категория ": {" программирование ": [{code": "важные-знаки"}],}, "код": {"программирование": [{"System": " http://loinc.org "; "код": "39156-5", "Display": "BMI"}],}, "effectiveDateTime": "2009-12-01"; "valueQuantity": {"значение": 34,4; "единица": "кг/m2", "система": " http://unitsofmeasure.org кг/m2"}},},.
-        .
-        .
-      ] }
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "<resource-id>",
+        "category": {
+          "coding": [ { code": "vital-signs" } ],
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "bmi"
+            }
+          ],
+        },
+        "effectiveDateTime": "2009-12-01",
+        "valueQuantity": {
+          "value": 34.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -169,23 +256,55 @@ ms.locfileid: "48367609"
 
 В дополнение к полям Argonaut для удобства пользователей приложение пациентов также может прочитать следующие поля:
 
-1. Дата записи
-2. Уровню серьезности
+ - Дата записи
+ - Уровню серьезности
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient id>
-2. _count =\<max results>
+ - пациент =\<patient id>
+ - _count =\<max results>
 
 Ниже приведен пример этого звонка:
 
-* * *
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
 
-    Запрос: GET <fhir-Server>/Condition? пациент =<пациент-ID>&_count = 10
-    
-    Response: {"resourceType": "пакет", "идентификатор <": "набор-ID>", "тип": "набор поиска", "Итого", "элемент": [{"ресурс": {"имя ресурса": "условие", "идентификатор": "<Resource-id>", "код": {"программирование": [{"System": " http://snomed.info/sct ", "код": "386033004", "Display": "Neuropathy (Nerve)"}]}, "dateRecorded": "2018-09-17", "сервер": {"программирование": [{"System": " http://snomed.info/sct "; "код": "24484000"; "вывод": "серьезный"}]}}}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "<resource-id>",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386033004",
+              "display": "Neuropathy (nerve damage)"
+            }
+          ]
+        },
+        "dateRecorded": "2018-09-17",
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        }
+      },
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -193,28 +312,55 @@ ms.locfileid: "48367609"
 
 Это минимальные обязательные поля, которые являются подмножеством подмножества для основного профиля в США, которое должно иметь следующие поля:
 
-1. Состояни
-2. Введите [0]. Кодирование [0]. Показан
+ - Состояни
+ - Введите [0]. Кодирование [0]. Показан
 
 Кроме того, ниже перечислены поля, которые можно получить из основного приложения US "требуется поддержка".
 
-1. Period. Start
-2. Расположение [0]. Расположение. Display
+ - Period. Start
+ - Расположение [0]. Расположение. Display
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient id>
-2. _sort: DESC =\<field ex. date>
-3. _count =\<max results>
+ - пациент =\<patient id>
+ - _sort: DESC =\<field ex. date>
+ - _count =\<max results>
 
 Цель — получить Последнее известное расположение пациента. Каждый из этих обнаружений ссылается на ресурс расположения. Ссылка также должна включать поле отображения местоположения. Ниже приведен пример этого звонка.
-* * *
 
-    Запрос: GET <fhir-Server>/Encounter? пациент =<пациент-ID>&_sort:d ESC = Дата&_count = 1
-    
-    Ответ: {"resourceType": "комплект", "тип": "набор результатов поиска", "всего": 1, "элемент": [{"ресурс": {"ИД": "Поиск", "идентификатор"-"<ресурсов>"; "идентификатор": [{"use": "официальный", "значение": " <id> состояние": "поступило"; "тип": [{"код": [{"Display": "Встреча"}],}], "пациент": {"ссылка": "пациент/<пациент-ID"> "};" период ": {" начало ":" 09/17/2018 1:00:00 PM "}," расположение ": [{" расположение ": {" Display ":" курс-корпоративный "},}]}}]}
+```
+Request:
+GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
 
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "<resource-id>",
+        "identifier": [{ "use": "official", "value": "<id>" }],
+        "status": "arrived",
+        "type": [
+          {
+            "coding": [{ "display": "Appointment" }],
+          }
+        ],
+        "patient": { "reference": "Patient/<patient-id>" },
+        "period": { "start": "09/17/2018 1:00:00 PM" },
+        "location": [
+          {
+            "location": { "display": "Clinic - ENT" },
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -222,31 +368,61 @@ ms.locfileid: "48367609"
 
 Это минимальные обязательные поля, которые являются подмножеством профиля Argonaut AllergyIntolerance:
 
-1. Code. Text
-2. Код. кодирование [0]. Показан
-3. Состояни
+ - Code. Text
+ - Код. кодирование [0]. Показан
+ - Состояни
 
 В дополнение к полям Argonaut для удобства пользователей приложение пациентов также считывает следующие поля:
 
-1. RecordedDate
-2. Примечание. текст
-3. Реакция [..]. Вещество. текст
-4. Реакция [..]. Манифест [..]. Текстовые
-5. Text. Div
+ - RecordedDate
+ - Примечание. текст
+ - Реакция [..]. Вещество. текст
+ - Реакция [..]. Манифест [..]. Текстовые
+ - Text. Div
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. Пациент =  \<patient id>
+ - Пациент =  \<patient id>
 
 Ниже приведен пример этого звонка:
 
-* * *
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
 
-    Запрос: GET <fhir-Server>/AllergyIntolerance? пациент =<пациент-ID>
-    
-    Response: {"resourceType": "набор", "идентификатор <": "пакет-ID>", "тип": "набор поиска", "всего", "элемент": [{"ресурс": {"resourceType": "AllergyIntolerance", "идентификатор": "<Resource-id>", "recordedDate": "2018-09-17T07:00:00.000 Z", "веществ": {"текст": "Cashew" "}", "состояние": "подтверждено", "реакция": [{"вещество". ": {" текст ":" Cashew Гайк allergenic извлечь введенный продукт "}," проявление ": [{" текст ":" реакция на Anaphylactic "}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "<resource-id>",
+        "recordedDate": "2018-09-17T07:00:00.000Z",
+        "substance": {
+          "text": "Cashew nuts"
+        },
+        "status": "confirmed",
+        "reaction": [
+          {
+            "substance": {
+              "text": "cashew nut allergenic extract Injectable Product"
+            },
+            "manifestation": [
+              {
+                "text": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -254,31 +430,56 @@ ms.locfileid: "48367609"
 
 Это минимальные обязательные поля, которые являются подмножеством профиля Argonaut MedicationOrder:
 
-1. DateWritten
-2. Предписанный. Display
-3. Лечения. Display (если ссылка)
-4. Лечения. Text (если понятие)
+ - DateWritten
+ - Предписанный. Display
+ - Лечения. Display (если ссылка)
+ - Лечения. Text (если понятие)
 
 В дополнение к полям Argonaut для удобства пользователей приложение пациентов также может прочитать следующие поля:
 
-1. DateEnded
-2. DosageInstruction. Text
-3. Text. Div
+ - DateEnded
+ - DosageInstruction. Text
+ - Text. Div
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient id>
-2. _count =\<max results>
+ - пациент =\<patient id>
+ - _count =\<max results>
 
 Ниже приведен пример этого звонка:
 
-* * *
+```
+Request:
+GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
 
-    Запрос: GET <fhir-Server>/MedicationOrder? пациент =<пациент-ID>&_count = 10
-    
-    Response: {"resourceType": "пакет", "идентификатор <": "набор-ID>", "тип": "набор поиска", "всего": 1, "запись": [{"ресурс": {"resourceType": "MedicationOrder", "идентификатор": "<ресурс-идентификатор>"; "dateWritten": "," medicationCodeableConcept ": {", ":" Lisinopril 20 mg устные Планшет "}," предназначается ": {" вывод ":" Джейн Петров "}," dosageInstruction ": [{" текст ":" 2018-09-17
-
-* * *  
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "id": "<resource-id>",
+        "dateWritten": "2018-09-17",
+        "medicationCodeableConcept": {
+          "text": "Lisinopril 20 MG Oral Tablet"
+        },
+        "prescriber": {
+          "display": "Jane Doe"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 daily"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
@@ -286,22 +487,36 @@ ms.locfileid: "48367609"
 
 Это минимальный обязательный набор полей, не охваченных профилями США или Argonaut:
 
-1. Payor
+ - Payor
 
 Поиск ресурсов использует метод GET и следующие параметры:
 
-1. пациент =\<patient id>
+ - пациент =\<patient id>
 
 Ниже приведен пример этого звонка:
 
-* * *
+```
+Request:
+GET <fhir-server>/Coverage?patient=<patient-id>
 
-    Запрос: GET <fhir-Server>/Coverage? пациент =<пациент-ID>
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "<resource-id>",
+        "plan": "No Primary Insurance",
+        "subscriber": { "reference": "Patient/<patient-id>" }
+      }
+    }
+  ]
+}
+```
     
-    Ответ: {"resourceType": "пакет", "тип": "функция поиска", "Итого": 1, "запись": [{"ресурс": {"resourceType": "Coverage", "план": "без основного страхового обеспечения", "> <подписчик": "нет на месте", "на"> <
-
-* * *
-
 [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)Дополнительные сведения об этом множестве полей приведены в разделе.
 
 ## <a name="location"></a>Местоположение

@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Узнайте о том, как интегрировать электронные записи в здравоохранение в приложение Microsoft Teams пациентов с помощью API-интерфейсов FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8978596a8d386e2ec615a4eb84bab49edb3249
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367689"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766952"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Интеграция электронных историй болезни в Microsoft Teams
 
@@ -32,13 +32,14 @@ ms.locfileid: "48367689"
 >
 >Данные приложения пациентов хранятся в почтовом ящике группы Office 365, которая является резервной командой. Когда приложение пациентов удаляется, все связанные с ним данные будут храниться в этой группе, но к нему больше нельзя будет получить доступ с помощью пользовательского интерфейса. Текущие пользователи могут повторно создавать свои списки с помощью [приложения "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)".
 >
->[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков благодаря специалистам по карьерным тарифам могут создаваться списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
+>[Приложение "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " предустановлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. С помощью списков группы работоспособности могут создавать списки пациента с использованием встроенного шаблона пациентов, с нуля или путем импорта данных в Excel. Дополнительные сведения об управлении приложением Lists в Организации можно найти в разделе [Управление приложением "списки"](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Эта статья предназначена для общего СПЕЦИАЛИСТа, заинтересованного в использовании API FHIR в верхней части системы медицинских данных для подключения к Microsoft Teams. Это позволит соблюдать сценарии координирования, соответствующие потребностям организации здравоохранения.
 
 Связанные статьи. документ: спецификации интерфейса FHIR для приложения Microsoft Teams пациентов и следующие разделы содержат сведения о том, что необходимо для настройки сервера FHIR и подключения к приложению пациентов в среде разработки или в клиенте. Вам также необходимо ознакомиться с документацией по выбранному серверу FHIR, который должен быть одним из поддерживаемых вариантов:
+
 - Datica (в рамках своего [CMIного](https://datica.com/compliant-managed-integration/) предложения)
 - Cloverleaf информационного моста (через [мост FHIR](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (с помощью [сервера R ^ FHIR](https://www.redoxengine.com/fhir/))
@@ -75,31 +76,69 @@ ms.locfileid: "48367689"
 Проверка подлинности службы для проверки должна выполняться с помощью [потока учетных данных клиента](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)OAuth 2,0. Служба-партнер должна предоставить следующее:
 
 1. Служба Partner позволяет приложению пациентов создать учетную запись с партнером, которая позволяет приложению пациентов создавать и владеть client_id и client_secret, управляемым с помощью портала регистрации проверки подлинности на сервере аутентификации партнера.
+
 2. Служба-партнер владеет системой проверки подлинности и авторизации, которая принимает и проверяет (проверяет подлинность) предоставленные учетные данные клиента и возвращает маркер доступа с указанием клиента в области действия, как описано ниже.
+
 3. В целях обеспечения безопасности, а также в случае нарушения секретности приложение пациентов может повторно создать секретный код и сделать недействительным или удалить старый секрет (пример такого же можно найти на портале Azure — регистрация приложений AAD).
+
 4. Для конечной точки метаданных, в которой размещена Инструкция по обеспечению соответствия, необходимо отменить проверку подлинности, поэтому она должна быть доступна без маркера проверки подлинности.
+
 5. Служба Partner предоставляет конечной точке маркера для приложения пациентов запрос токена доступа с помощью потока учетных данных клиента. URL-адрес маркера, указанный на сервере авторизации, должен быть частью инструкции FHIR (возможности), полученной из метаданных на сервере FHIR, как показано в следующем примере:
 
-* * *
-    {"resourceType": "CapabilityStatement";
+    ```
+    {
+        "resourceType": "CapabilityStatement",
         .
         .
-        "оставшаяся: [{" Mode ":" сервер "," безопасность ": {" расширение ": [{" расширение ": [{" URL ":" token "," valueUri ":" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {" URL-адрес ":" Авторизация "," valueUri ":" "}]," https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize URL-адрес ": http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris [{" System ":" https://hl7.org/fhir/ValueSet/restful-security-service "," код ":" OAuth "}]}]},.
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 .
                 .
-            } ] }
-
-* * *
+                .
+            }
+        ]
+    }
+    ```
 
 Запрос маркера доступа состоит из следующих параметров:
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    Публикация узла HTTP/1.1/Token: authorization-server.com
-
-    Grant-Type = client_credentials &client_id = XXXXXXXXXX &client_secret = XXXXXXXXXX
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 Служба Partner предоставляет client_id и client_secret для приложения пациентов, управляемого через портал регистрации проверки подлинности на стороне партнера. Служба Partner предоставляет конечной точке запрос на доступ к маркеру доступа с помощью потока учетных данных клиента. Успешный ответ должен включать параметры token_type, access_token и expires_in.
 
@@ -115,21 +154,27 @@ ms.locfileid: "48367689"
 
 1. Запрос маркера доступа к приложению путем отправки:
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. Ответьте на маркер приложения:
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. Запросите защищенные данные с помощью маркера доступа.
-4. Сообщение о проверке подлинности: выберите соответствующий сервер FHIR для маршрутизации из идентификатора клиента в области
+
+4. Сообщение о проверке подлинности: выберите соответствующий сервер FHIR для маршрутизации из идентификатора клиента в области.
+
 5. Отправляет данные, защищенные приложением, от авторизованного сервера FHIR после проверки подлинности с помощью маркера приложения.
 
 ## <a name="interfaces"></a>Приклад

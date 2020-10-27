@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476654"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766762"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Требования к оборудованию для Microsoft Teams
 
@@ -74,7 +74,9 @@ ms.locfileid: "48476654"
 |Устройства    |   Стандартная камера ноутбука, микрофон и динамики    |
 |Голос    |  Совместимый микрофон и динамики, гарнитура с микрофоном или аналогичное устройство       |
 |Видеозвонки и встречи | <ul><li>Требуется 2-ядерный процессор. Для более высокой разрешающей способности экрана и частоты кадров, рекомендуется использовать 4-ядерный процессор или более высокое качество видеозвонка.</li><li>Присоединение к собранию с помощью обнаружения близости в комнате Microsoft Teams недоступно в Linux.</li></ul>
-|Поддерживаемые дистрибутивы Linux | Ubuntu 16.04 LTS, 18.04 LTS, Рабочая станция Fedora 30, Рабочая станция RHEL 8, CentOS 8
+|Поддерживаемые дистрибутивы Linux | Ubuntu 18,04 LTS, 20,04 LTS, Fedora 30 Workstation, RHEL 8 рабочих станций, CentOS 8       |
+|Поддерживаемая настольная среда | GNOME, KDE       |
+|Поддерживаемый сервер дисплея | X11       |
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Требования к оборудованию для Teams на мобильных устройствах
 
