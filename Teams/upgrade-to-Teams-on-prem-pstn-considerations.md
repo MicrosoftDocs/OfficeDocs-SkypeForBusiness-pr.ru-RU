@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533556"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772220"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Рекомендации по PSTN при обновлении до Teams &mdash; для ИТ – администраторов
 
@@ -45,7 +45,7 @@ ms.locfileid: "48533556"
 
  > [!NOTE]
  > - Использование телефонной системы в Teams поддерживается, только если пользователь находится в режиме TeamsOnly.  Если пользователь находится в режиме "острова", телефонная система поддерживается только в Skype для бизнеса. 
- > - Все параметры переадресации звонков и делегирования из Skype для бизнеса не переносятся, и их потребуется повторно создать для Teams.
+ > - Все переадресации звонков, группы приема звонков и параметры делегирования из Skype для бизнеса не переносятся, и их потребуется повторно создать для Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Сценарии КОММУТИРУЕМой телефонной сети

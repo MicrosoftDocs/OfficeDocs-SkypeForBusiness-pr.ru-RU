@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424659"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772230"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>Начало работы с шаблонами групп в центре администрирования
 
@@ -68,7 +68,7 @@ ms.locfileid: "48424659"
 > Предварительно определенные базовые шаблоны в Microsoft Teams можно дублировать, но нельзя редактировать.
 
 | Тип базового шаблона | baseTemplateId | Свойства, которые поставляются с этим базовым шаблоном |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Принятие Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Лидераминый угол</li> <li>Командные формы</li></ul> Приложения <ul><li>Узел</li>  <li>Календарь</li> |
 | Управление проектом |`com.microsoft.teams.template.ManageAProject`| Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Ресурсам</li> <li>Планирование</li></ul> Приложения<ul><li>Узел</li><li>OneNote</li></ul> |
 | Управление событием|`com.microsoft.teams.template.ManageAnEvent` | Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и пр.</li></ul> Приложения<ul><li>Узел</li><li>Веб-сайта</li> <li>YouTube</li> <li>Планировщик</li> <li>OneNote</li></ul> |

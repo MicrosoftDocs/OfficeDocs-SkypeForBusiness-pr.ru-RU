@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361659"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772200"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Начало работы с шаблонами Teams с помощью Microsoft Graph
 
@@ -64,7 +64,7 @@ ms.locfileid: "48361659"
 
 После определения базового типа шаблона вы можете расширять или переопределять эти шаблоны с помощью дополнительных свойств, которые вы хотели бы задать. Некоторые базовые типы шаблонов содержат свойства, которые не могут быть переопределены.
 
-По умолчанию для базового шаблона задано значение **Standard**, которое не содержит никаких дополнительных приложений или специальных свойств. Ниже приведен текущий список доступных типов базовых шаблонов.
+По умолчанию для базового шаблона задано значение **Standard** , которое не содержит никаких дополнительных приложений или специальных свойств. Ниже приведен текущий список доступных типов базовых шаблонов.
 
 | Тип базового шаблона | baseTemplateId | Свойства, которые поставляются с этим базовым шаблоном |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -77,6 +77,29 @@ ms.locfileid: "48361659"
 | Учреждений<br>Порядке |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Дистрибутор <ul><li>Обслуживании\*</li><li>Huddles\*</li><li>До</li><li>Штата\*</li><li>Обучение\*</li></ul>\*Автоматически добавленные в избранное каналы |
 |Учреждений<br>Больница | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Дистрибутор<ul><li>Обслуживании\*</li><li>Соответствие требованиям\*</li><li>Custodial</li><li>Человеческие ресурсы</li></li><li>Pharmacy</li></ul>\*Автоматический избранный канал|
 |||
+
+
+Используйте следующие шаблоны для создания групп как в клиенте Teams, так и в Microsoft Graph.
+
+
+| Тип базового шаблона | baseTemplateId | Свойства, которые поставляются с этим базовым шаблоном |
+| ------------------ | -------------- | ----------------------------------------------------- |
+| Принятие Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Лидераминый угол</li> <li>Командные формы</li></ul> Приложения <ul><li>Узел</li>  <li>Календарь</li> |
+| Управление проектом |`com.microsoft.teams.template.`<br>`ManageAProject`| Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Ресурсам</li> <li>Планирование</li></ul> Приложения<ul><li>Узел</li><li>OneNote</li></ul> |
+| Управление событием|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Бюджет</li> <li>Содержимое</li><li>Логистика</li> <li>Планирование</li> <li> Маркетинг и пр.</li></ul> Приложения<ul><li>Узел</li><li>Веб-сайта</li> <li>YouTube</li> <li>Планировщик</li> <li>OneNote</li></ul> |
+|Встроенные сотрудники|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Дистрибутор <ul><li>Общий</li> <li>Обслуживании</li> <li>Чат для сотрудников</li> <li>Обучение</li></ul>Приложения<ul><li>Узел</li><li>Обществен</li></ul>|
+|Организация службы поддержки| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Дистрибутор<ul><li>Общий</li><li>Обслуживании</li><li>Вопросы и ответы</li></ul>Приложения<ul><li>Узел</li><li>OneNote</li></ul> |
+| Совместная работа над уходом пациента| `healthcareWard `| Дистрибутор<ul><li>Общий</li><li>Обслуживании</li><li>Huddles</li><li>До</li><li>Штата</li><li>Обучение</li></ul> Приложения <ul><li>Узел</li>|
+| Совместная работа в глобальной аварийной ситуации или мероприятии |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Новости мира</li><li>Бесперебойность бизнеса</li><li>Удаленная работа</li><li>Внутренние каналы связи</li><li>Внешние каналы связи</li><li>Жалобы клиентов</li><li>Баллами</li><li>Руководящее обновление</li></ul>Приложения <ul><li>Благодарность</li><li>Узел</li><li>Веб-сайта</li></ul>|
+|Совместная работа в рамках банковского отделения| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Huddles</li><li>Собрания пользователей</li><li>Тренингов</li><li>Разработка навыков</li><li>Обработка займа</li><li>Жалобы клиентов</li><li>Баллами</li><li>Забавные вещи</li><li>Соответствие требованиям</li></ul>|
+|Координирование реагирования на инциденты| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Логистика</li><li>Планирование</li><li>Восстанавливать</li><li>Сроч</li></ul> Приложения <ul><li>Узел</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Планировщик</li></ul>|
+|Больница| `healthcareHospita`проведен |Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Соответствие требованиям</li><li>Custodial</li><li>Человеческие ресурсы</li><li>Pharmacy</li></ul> Приложения <ul><li>Узел</li></ul>|
+|Упорядочение магазина| `retailStore` |Дистрибутор <ul><li>Общий<li>Переносится смена</li><li>Образователь</li></ul> Приложения <ul><li>Узел</li></ul>|
+|Качество и безопасность |`com.microsoft.teams.`<br>`template.QualitySafety`|Дистрибутор <ul><li>Общий<li>Обслуживании</li><li>Строка 1</li><li>Строка 2</li><li>Строка 3</li><li>Безопасность</li><li>Обучение</li><li>Настройки</li><li>Забавные вещи</li></ul> Приложения <ul><li>Узел</li></ul>|
+|Совместная работа в Retail Manager| `retailManagerCollaboration` |Дистрибутор <ul><li>Общий<li>Операции</li><li>Образователь</li></ul> Приложения <ul><li>Узел</li></ul>|
+||||
+
+Более подробную информацию вы [сможете найти в разделе Начало работы с шаблонами групп в центре администрирования](get-started-with-teams-templates-in-the-admin-console.md) .
 
 ## <a name="related-topics"></a>Статьи по теме
 

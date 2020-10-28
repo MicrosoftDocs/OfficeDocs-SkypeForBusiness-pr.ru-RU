@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Настройка системы виртуальных посещений с помощью Microsoft Teams
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766722"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778892"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Виртуальные посещения с помощью Teams – интеграция с EHR
 
@@ -35,6 +35,10 @@ ms.locfileid: "48766722"
 - Чтобы включить автоматическую аудит и сохранение записи, снова напишите метаданные EHR в событиях Connect и Disconnect.
 
 - Интегрируйтесь с существующими рабочими процессами Clinician и пациента, разрешая им использовать Microsoft Teams.
+
+  Посмотрите видео о том, как управлять виртуальными посещениями на портале EHR.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>До начала работы
 
