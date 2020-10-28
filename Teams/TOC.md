@@ -678,28 +678,24 @@
 ### [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ### ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## Teams для сферы здравоохранения
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Приложение Bookings и виртуальные посещения](bookings-app-admin.md)
-### [Пакеты политик Teams для здравоохранения](policy-packages-healthcare.md)
-### Политики безопасного обмена сообщениями
-#### [Безопасный обмен сообщениями для организаций здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### Виртуальные визиты
+#### [Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [Виртуальные визиты с помощью Bookings и Teams](bookings-app-admin.md)
+### [Создание пакетов политик Teams](policy-packages-healthcare.md)
+### Безопасный обмен сообщениями
+#### [Безопасный обмен сообщениями](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### Шаблоны Teams для организаций здравоохранения
-#### [Использование шаблонов Teams для здравоохранения в центре администрирования](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Шаблоны Teams
+#### [Использование шаблонов Teams для здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Шаблоны Teams для здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Управление приложением "Списки"](manage-lists-app.md)
+### [Управление приложением "Задачи"](manage-tasks-app.md)
 ### "Смены" для Teams
 #### ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Управление приложением "Смены"](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### Приложение "Пациенты"
-#### [Обзор приложения для пациентов](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### Интеграция электронных историй болезни в приложение "Пациенты"
-##### [Интеграция электронных историй болезни в приложение "Пациенты" с использованием API FHIR](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [Спецификация интерфейса DSTU2 для приложения "Пациенты"](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [Спецификация интерфейса STU3 для приложения "Пациенты"](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [Подключение приложения "Пациенты" к Azure API для FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [Журналы аудита приложения "Пациенты"](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
