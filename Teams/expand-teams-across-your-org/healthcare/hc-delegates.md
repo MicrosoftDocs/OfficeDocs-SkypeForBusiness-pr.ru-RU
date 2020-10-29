@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Сведения о том, как пользователь с состоянием "нет на месте" или "не беспокоить" может явным образом задать другого пользователя в качестве делегата в своем сообщении о состоянии.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904741"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790471"
 ---
 # <a name="message-delegation"></a>Делегирование сообщений
 
@@ -45,7 +49,7 @@ ms.locfileid: "43904741"
 
 Администраторам следует помнить, что заметка о состоянии и поведение упоминания о делегировании будут частично зависеть от режима совместного существования пользователя. В этой матрице показаны возможности:
 
-|Режим совместного существования | Ожидаемое поведение|
+|Режим Co-Existence | Ожидаемое поведение|
 |---|---|
 |TeamsOnly |Пользователи могут устанавливать заметки только из Teams. <br> В Teams & SfB отображается Примечание для пользователей Teams. |
 |Острова | Заметки пользователя в Teams видны только в Teams. <br> Примечание пользователя, установленное в SfB, видимо только в SfB |

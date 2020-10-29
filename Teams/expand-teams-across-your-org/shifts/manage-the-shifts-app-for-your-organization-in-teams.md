@@ -8,6 +8,9 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: Сведения о том, как настроить и управлять приложением смен в Teams для Firstline работников в Организации.
 f1.keywords:
 - NOCSH
@@ -15,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820473"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790511"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -59,8 +63,8 @@ ms.locfileid: "47820473"
 1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел **приложения Teams**  >  **Управление приложениями** .
 2. В списке приложений выполните одно из указанных ниже действий.
 
-    - Чтобы отключить смену для Организации, выполните поиск по приложению смены, выделите его, а затем выберите команду **блокировать**.
-    - Чтобы включить смену для Организации, выполните поиск по приложению смены, выберите его и нажмите кнопку **Разрешить**.
+    - Чтобы отключить смену для Организации, выполните поиск по приложению смены, выделите его, а затем выберите команду **блокировать** .
+    - Чтобы включить смену для Организации, выполните поиск по приложению смены, выберите его и нажмите кнопку **Разрешить** .
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Включение и отключение смен для отдельных пользователей в Организации
 
@@ -72,7 +76,7 @@ ms.locfileid: "47820473"
  
 Команды включают встроенную политику настройки приложения FirstlineWorker, которую можно назначить Firstline сотрудникам Организации. По умолчанию политика включает в себя действия, смену, чат и звонки приложений. 
 
-Для просмотра политики FirstlineWorker на левой панели навигации центра администрирования Microsoft Teams перейдите в раздел **Teams app**  >  **политики настройки приложения**Teams.
+Для просмотра политики FirstlineWorker на левой панели навигации центра администрирования Microsoft Teams перейдите в раздел **Teams app**  >  **политики настройки приложения** Teams.
 
 ![Снимок экрана: Политика настройки приложения FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Снимок экрана: Политика настройки приложения FirstlineWorker в центре администрирования Microsoft Teams")
 
@@ -88,7 +92,7 @@ ms.locfileid: "47820473"
 
 Перед тем как выполнять поиск в журнале аудита, необходимо сначала включить аудит в [центре безопасности & соответствия требованиям](https://protection.office.com). Дополнительные сведения можно найти [в разделе Включение и отключение поиска в журнале аудита](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Имейте в виду, что данные аудита доступны только из той точки, в которой вы включили аудит.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Справка по сменам для Firstline работников](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Назначение политик пользователям в Teams](../../assign-policies.md)
