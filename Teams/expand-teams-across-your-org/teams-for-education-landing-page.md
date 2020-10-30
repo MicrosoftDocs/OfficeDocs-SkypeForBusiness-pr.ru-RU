@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 6c84caf7bd2307d290887ef9206f16625a25c996
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a78acd180527f87eaa4647f722a827c62077a4a
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506326"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803471"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 
@@ -35,6 +35,7 @@ ms.locfileid: "48506326"
 | ------------- | ------------- |
 | ![стрелка-права на 2 группы](../media/arrow-right-2-teams.svg)  |  [Краткое руководство для администраторов — Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
 | ![регистрация — Teams](../media/sign-up-teams.svg) | [Задания в Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![Insights — Teams](../media/insights-teams.svg) | [Аналитика в Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/class-insights) |
 | ![элементов](../media/toolbox.svg)  |  [Ресурсы Teams для администраторов для образования](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
 | ![Контрольный список задачи — планирование: teams](../media/task-checklist-planning-teams.svg)  |  [Вопросы и ответы по управлению для администраторов Teams для образовательных учреждений](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
 

@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Узнайте о возможностях для обеспечения бесперебойной работы, включающих координацию координирования, безопасный обмен сообщениями, виртуальные посещения, интеграция EHR и firstlineную интеграцию рабочих систем.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790641"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803537"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций здравоохранения
 
@@ -107,7 +107,7 @@ Microsoft Teams позволяет использовать врача, clinicia
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>Предоставление общего доступа к спискам и сведениям о записях в приложении "списки"
 
 > [!NOTE]
-> Действительно 30 октября 2020 г. приложение пациентов будет прекращено и заменено [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams. Благодаря спискам, благодаря вашим командам в организации здравоохранения вы сможете создавать списки пациент для сценариев, начиная с округляющих и interdisciplinaryных собраний групп и заканчивая общим мониторингом пациента.
+> Действительно 30 октября 2020 г. приложение пациентов было прекращено и заменено [приложением "списки](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) " в Teams. Благодаря спискам, благодаря вашим командам в организации здравоохранения вы сможете создавать списки пациент для сценариев, начиная с округляющих и interdisciplinaryных собраний групп и заканчивая общим мониторингом пациента.
 
 Приложение "списки" в Teams помогает Teams отслеживать данные и упорядочивать работу. Приложение предварительно установлено для всех пользователей Teams и доступно в виде вкладки в каждой команде и канале. Списки можно создавать с нуля, из готовых шаблонов или путем импорта данных в Excel.
 
