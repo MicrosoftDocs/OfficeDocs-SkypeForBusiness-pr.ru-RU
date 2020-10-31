@@ -40,7 +40,6 @@
 ## [Создание групп руководителей](create-manager-directs-teams.md)
 ## [Управление командами и политиками каналов](teams-policies.md)
 ## [Метки конфиденциальности для Teams](sensitivity-labels.md)
-## [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
 ## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
 ## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Teams и интеграция электронной почты Outlook](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [Обновление анкеты для обнаружения](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Экспорт контента с помощью API экспорта Microsoft Teams](export-teams-content.md)
 ## [Заметки о выпуске для функций администрирования Teams](release-notes/release-notes.md)
+## [Общедоступная предварительная версия в Microsoft Teams](public-preview-doc-updates.md)
