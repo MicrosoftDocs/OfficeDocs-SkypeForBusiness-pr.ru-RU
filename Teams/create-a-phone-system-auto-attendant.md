@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических ассистентов для Microsoft Teams.
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803793"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820031"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -48,7 +48,7 @@ ms.locfileid: "48803793"
 
 ## <a name="general-info"></a>Общие сведения
 
-![](media/auto-attendant-general-info-page-new.png)
+![Снимок экрана: параметры автосекретаря для имени, оператора, часового пояса, языка и входного голоса](media/auto-attendant-general-info-page-new.png)
 
 1. Введите имя автосекретаря в поле в верхней части экрана.
 
@@ -64,7 +64,7 @@ ms.locfileid: "48803793"
 
 ## <a name="call-flow"></a>Поток звонков
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![Снимок экрана: параметры сообщения приветствия](media/auto-attendant-call-flow-greeting-message.png)
 
 Укажите, нужно ли воспроизводить приветствие, когда автосекретарь отвечает на звонок.
 
@@ -72,7 +72,7 @@ ms.locfileid: "48803793"
 
 Если вы выбрали команду **Введите сообщение приветствия** , система будет прочитать текст, который вы вводите (до 1000 символов), когда автосекретарь ответит на звонок.
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![Снимок экрана: настройки маршрутизации звонков](media/auto-attendant-call-flow-route-call-message.png)
 
 Укажите, как вы хотите перенаправить звонок.
 
@@ -84,7 +84,7 @@ ms.locfileid: "48803793"
 
 ### <a name="menu-options"></a>Параметры меню
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![Снимок экрана: параметры ключа набора](media/auto-attendant-call-flow-menu-options-complete.png)
 
 Для параметров набора номера можно назначить клавиши 0-9 на клавиатуре телефона одному из адресатов маршрутизации звонков. (Клавиши \* (Повтор) и \# (назад) зарезервированы системой и не могут быть переназначены.)
 
@@ -129,7 +129,7 @@ ms.locfileid: "48803793"
 
 ## <a name="call-flow-for-after-hours"></a>Поток звонков за часы
 
-![](media/auto-attendant-business-hours.png)
+![Снимок экрана: Настройка дня и времени в течение часа](media/auto-attendant-business-hours.png)
 
 Рабочие часы можно настроить для каждого автосекретаря. Если рабочие часы не настроены, по умолчанию устанавливается круглосуточный график работы без выходных дней. Рабочие часы можно настроить с разбивкой на время в течение дня, а все часы, не заданные в качестве рабочих часов, рассматриваются после-часов. Вы можете настроить различные параметры обработки входящих звонков и приветствия в течение не более часа.
 
@@ -143,7 +143,7 @@ ms.locfileid: "48803793"
 
 ## <a name="call-flows-during-holidays"></a>Потоки звонка во время праздников
 
-![](media/auto-attendant-holiday-greeting.png)
+![Снимок экрана: параметры поздравления праздников и праздников](media/auto-attendant-holiday-greeting.png)
 
 У автосекретаря может быть поток звонков для каждого [настроенного праздника](set-up-holidays-in-teams.md). Вы можете добавить до 20 запланированных праздников для каждого автосекретаря.
 
@@ -155,7 +155,7 @@ ms.locfileid: "48803793"
 
 4. Выберите тип приветствия, который вы хотите использовать.
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![Снимок экрана: параметры действия звонка в праздничные дни](media/auto-attendant-holiday-actions.png)
 
 5. Выберите, хотите ли вы **Отключить** или **перенаправить** звонок.
 
@@ -163,7 +163,7 @@ ms.locfileid: "48803793"
 
 7. Нажмите кнопку **Сохранить** .
 
-![](media/auto-attendant-holiday-call-settings.png)
+![Снимок экрана с параметрами праздников в списке праздников](media/auto-attendant-holiday-call-settings.png)
 
 Повторите процедуру, если это необходимо для каждого дополнительного праздника.
 
@@ -171,7 +171,7 @@ ms.locfileid: "48803793"
 
 ## <a name="dial-scope"></a>Область набора номера
 
-![](media/auto-attendant-dial-scope.png)
+![Снимок экрана: параметры включения и исключения в области набора номера](media/auto-attendant-dial-scope.png)
 
 *Область набора номера* определяет, какие пользователи доступны в каталоге, когда вызывающий абонент использует коммутируемое имя или коммутируемое подключение. Значения по умолчанию для **всех пользователей** в Организации включают в себя пользователей, которые являются сетевыми и подключенными к сети с помощью Skype для бизнеса Server.
 
@@ -186,11 +186,11 @@ ms.locfileid: "48803793"
 
 У всех автосекретарей должна быть соответствующая учетная запись ресурса.  Для автосекретаря первого уровня требуется по крайней мере одна учетная запись ресурса с соответствующим номером услуги. При желании вы можете назначить несколько учетных записей ресурсов для автосекретаря, каждый из которых имеет отдельный номер Услуги.
 
-![](media/auto-attendant-add-resource-account.png)
+![Снимок экрана: панель "Добавление учетных записей"](media/auto-attendant-add-resource-account.png)
 
 Чтобы добавить учетную запись ресурса, нажмите кнопку **Добавить учетную** запись и выполните поиск учетной записи, которую вы хотите добавить. Нажмите кнопку **Добавить** , а затем — **Добавить** .
 
-![](media/auto-attendant-resource-account-assigned.png)
+![Снимок экрана: список "учетные записи ресурсов" с назначенным номером услуги](media/auto-attendant-resource-account-assigned.png)
 
 Завершив добавление учетных записей служб, нажмите кнопку **Отправить** . После этого Автоматическая Настройка автосекретаря завершается.
 
@@ -216,23 +216,23 @@ ms.locfileid: "48803793"
 
 Вы также можете использовать PowerShell для создания и настройки автоматических ассистентов. Ниже приведены командлеты, необходимые для управления автосекретарем.
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>Статьи по теме
