@@ -3,6 +3,105 @@
 
 
 
+## <a name="week-of-october-26-2020"></a>Неделя 26 октября 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 10/26/2020 | [Планирование автоматических ассистентов и очередей звонков в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
+| 10/26/2020 | [Переход со Skype для бизнеса на Teams: вопросы и ответы](/MicrosoftTeams/faq-journey) | Изменено |
+| 10/26/2020 | [Качество обслуживания в Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Изменено |
+| 10/26/2020 | [Виртуальные посещения в Microsoft Teams и приложении "резервирование"](/MicrosoftTeams/bookings-app-admin) | Изменено |
+| 10/26/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
+| 10/26/2020 | [Использование шаблонов здравоохранения в группе "центр администрирования"](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 10/26/2020 | [Шаблоны для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | Изменено |
+| 10/26/2020 | [Защита сообщений в организациях здравоохранения с помощью Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | Изменено |
+| 10/26/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
+| 10/26/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
+| 10/26/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
+| 10/26/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
+| 10/26/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
+| 10/26/2020 | [Начало работы с Teams для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/26/2020 | [Teams для сферы здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | Изменено |
+| 10/26/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
+| 10/26/2020 | [Сеансы Teams на Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | Изменено |
+| 10/26/2020 | [Управление приложением "списки" для Организации](/MicrosoftTeams/manage-lists-app) | Изменено |
+| 10/26/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
+| 10/27/2020 | [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](/MicrosoftTeams/accessibility-solutions-in-france) | Изменено |
+| 10/27/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
+| 10/27/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
+| 10/27/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
+| 10/27/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
+| 10/27/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
+| 10/27/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
+| 10/27/2020 | [Начало работы с Teams для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/27/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 10/27/2020 | [Начало работы с шаблонами Teams с помощью Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | Изменено |
+| 10/27/2020 | [Уведомления о приоритетах в сообщениях в Teams](/MicrosoftTeams/teams-add-on-licensing/pri-message) | Изменено |
+| 10/27/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Изменено |
+| 10/27/2020 | [Телефоны и устройства для групп](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 10/27/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 10/27/2020 | [Команды для виртуальных посетителей](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 10/27/2020 | [Установка Teams с помощью диспетчера конфигураций конечных точек Майкрософт](/MicrosoftTeams/msi-deployment) | Изменено |
+| 10/27/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 10/27/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 10/28/2020 | [Помощь по голосовой связи кортаны в Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Изменено |
+| 10/28/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 10/28/2020 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/devices/device-management) | Изменено |
+| 10/28/2020 | [Телефоны для Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams) | Изменено |
+| 10/28/2020 | [Начало работы с Teams для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/28/2020 | [Пакеты политики Teams для здравоохранения](/MicrosoftTeams/policy-packages-healthcare) | Изменено |
+| 10/28/2020 | [Совместимость окружающей среды — Microsoft Teams](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | Изменено |
+| 10/28/2020 | [Виртуальные посещения в Microsoft Teams и приложении "резервирование"](/MicrosoftTeams/bookings-app-admin) | Изменено |
+| 10/28/2020 | [Microsoft Teams Chalk рассказывает о них](/MicrosoftTeams/chalk-talks-landing-page) | Изменено |
+| 10/28/2020 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
+| 10/28/2020 | [Управление параметрами для организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
+| 10/28/2020 | [Команды для виртуальных посетителей](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 10/28/2020 | [Делегирование сообщений](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | Изменено |
+| 10/28/2020 | [Использование шаблонов здравоохранения в группе "центр администрирования"](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 10/28/2020 | [Шаблоны для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | Изменено |
+| 10/28/2020 | [Защита сообщений в организациях здравоохранения с помощью Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | Изменено |
+| 10/28/2020 | ["Смены" для Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | Изменено |
+| 10/28/2020 | [Управление приложением смен для Организации](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Изменено |
+| 10/28/2020 | [Управление приложением "списки" для Организации](/MicrosoftTeams/manage-lists-app) | Изменено |
+| 10/28/2020 | [Управление приложением "задачи" для Организации в Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | Изменено |
+| 10/28/2020 | [Управление переходом команд в новой версии центра администрирования Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Изменено |
+| 10/28/2020 | [Оценка среды обновления Microsoft Teams \| , вопросы по обнаружению](/MicrosoftTeams/upgrade-plan-journey-discovery-questionnaire) | Изменено |
+| 10/29/2020 | [Руководство для ИТ-администраторов по Insights в Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
+| 10/29/2020 | [Создание настраиваемого шаблона группы в Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Изменено |
+| 10/29/2020 | [Создание нового шаблона на основе существующего шаблона группы в Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | Изменено |
+| 10/29/2020 | [Автосекретарь и ссылки на набор номера в очереди звонков и распознавание голоса](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 10/29/2020 | [Использование шаблонов здравоохранения в группе "центр администрирования"](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 10/29/2020 | [Teams для сферы образования](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Изменено |
+| 10/29/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 10/29/2020 | [Использование шаблонов правительства группы в центре администрирования](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Изменено |
+| 10/29/2020 | [Начало работы с шаблонами производства Teams в центре администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
+| 10/29/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
+| 10/29/2020 | [Использование розничных шаблонов Teams в центре администрирования](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | Изменено |
+| 10/29/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 10/29/2020 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 10/29/2020 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 10/29/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
+| 10/29/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
+| 10/29/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
+| 10/29/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
+| 10/29/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
+| 10/29/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
+| 10/29/2020 | [Начало работы с Teams для организаций здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
+| 10/30/2020 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
+| 10/30/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 10/30/2020 | [Переход на отображение команд на телефоны Teams](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Изменено |
+| 10/30/2020 | [Заметки о выпуске для Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Изменено |
+| 10/30/2020 | [Доступность в Австралии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | Изменено |
+| 10/30/2020 | [Сведения о доступности страны/региона – голосовые конференции, планы звонков](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 10/30/2020 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 10/30/2020 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 10/30/2020 | [Хранилище "пользовательские приложения"](/MicrosoftTeams/customize-your-app-store) | Изменено |
+| 10/30/2020 | [Автосекретарь и ссылки на набор номера в очереди звонков и распознавание голоса](/MicrosoftTeams/dial-voice-reference) | Изменено |
+| 10/30/2020 | Управление обнаружением закрытых команд в Microsoft Teams | Удалено |
+| 10/30/2020 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
+
+
 ## <a name="week-of-october-19-2020"></a>Неделя 19 октября 2020 г.
 
 
@@ -313,70 +412,3 @@
 | 10/2/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
 | 10/2/2020 | [Устранять проблемы с гостевым доступом в Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Изменено |
 | 10/2/2020 | [Просмотр гостевых пользователей в команде](/MicrosoftTeams/view-guests) | Изменено |
-
-
-## <a name="week-of-september-21-2020"></a>Неделя от 21 сентября 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 9/21/2020 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
-| 9/21/2020 | [Использование шаблонов здравоохранения в Teams на консоли администрирования](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
-| 9/21/2020 | [Использование общих шаблонов групп на консоли администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
-| 9/21/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
-| 9/21/2020 | [Начало работы с шаблонами производства Teams на консоли администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
-| 9/21/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 9/21/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/remote-learning-edu) | Изменено |
-| 9/21/2020 | [Использование розничных шаблонов Teams в консоли администрирования](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | Изменено |
-| 9/21/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
-| 9/21/2020 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | Изменено |
-| 9/21/2020 | [Известные проблемы](/MicrosoftTeams/rooms/known-issues) | Изменено |
-| 9/21/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
-| 9/21/2020 | [Использование Microsoft 365 и настраиваемых соединителей](/MicrosoftTeams/office-365-custom-connectors) | Изменено |
-| 9/21/2020 | [Приложения, боты и соединители в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
-| 9/21/2020 | [Настройка параметров аудиоконференций — Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | Изменено |
-| 9/21/2020 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 9/21/2020 | [Подготовка сети организации к использованию Teams](/MicrosoftTeams/prepare-network) | Изменено |
-| 9/22/2020 | [Блокировка доступа к SharePoint для определенных пользователей](/MicrosoftTeams/block-access-sharepoint) | Изменено |
-| 9/22/2020 | [Встроенные и настраиваемые вкладки в Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | Изменено |
-| 9/22/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 9/22/2020 | [Собрания и конференции в Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Изменено |
-| 9/22/2020 | [Документация администратора Microsoft Teams # < 60 знаков](/MicrosoftTeams/index) | Изменено |
-| 9/22/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 9/22/2020 | [Расширенная надстройка для связи в Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Изменено |
-| 9/22/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
-| 9/22/2020 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
-| 9/22/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 9/22/2020 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
-| 9/22/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 9/22/2020 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
-| 9/22/2020 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 9/22/2020 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 9/22/2020 | [Сеансы Teams на Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | Изменено |
-| 9/22/2020 | [Что представляют собой облачные автосекретари?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | Изменено |
-| 9/23/2020 | [Экспорт контента с помощью API экспорта Microsoft Teams](/MicrosoftTeams/export-teams-content) | Изменено |
-| 9/23/2020 | [Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions) | Изменено |
-| 9/23/2020 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 9/23/2020 | [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
-| 9/23/2020 | [Поддержка удаленных сотрудников с помощью Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Изменено |
-| 9/23/2020 | [Вход в Teams с современной проверкой подлинности](/MicrosoftTeams/sign-in-teams) | Изменено |
-| 9/24/2020 | [Группы Microsoft 365 и Microsoft Teams](/MicrosoftTeams/office-365-groups) | Изменено |
-| 9/24/2020 | [Голосовые конференции с прямой маршрутизацией, GCCH и DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | Изменено |
-| 9/24/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 9/24/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
-| 9/24/2020 | [Информация ИТ-администратора для клиента Microsoft Teams RealWear (предварительная версия)](/MicrosoftTeams/flw-realwear) | Изменено |
-| 9/24/2020 | [Политики и пакеты политик Microsoft Teams для администраторов образовательных учреждений](/MicrosoftTeams/policy-packages-edu) | Изменено |
-| 9/24/2020 | [Настройка учетных записей для комнат Microsoft Teams](/MicrosoftTeams/rooms/rooms-configure-accounts) | Изменено |
-| 9/24/2020 | [Приложение очень рация в Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Изменено |
-| 9/24/2020 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
-| 9/24/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 9/25/2020 | [Интерфейс DSTU2 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Изменено |
-| 9/25/2020 | [Подключение приложения для пациентов к Azure API для FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | Изменено |
-| 9/25/2020 | [Приложение пациентов для администраторов Teams ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | Изменено |
-| 9/25/2020 | [Обзор приложения для пациентов](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | Изменено |
-| 9/25/2020 | [Аудит приложения пациентов для Teams и администраторов соответствия требованиям ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | Изменено |
-| 9/25/2020 | [Интерфейс STU3 пациентов для приложений и EHR интеграции](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | Изменено |
-| 9/25/2020 | [Начало работы с Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
-| 9/25/2020 | [Модели удостоверений и проверка подлинности в Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | Изменено |
-| 9/25/2020 | [Управление приложением "списки" для Организации](/MicrosoftTeams/manage-lists-app) | Изменено |
-| 9/25/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
