@@ -1,7 +1,7 @@
 ---
 title: 'Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams'
 ms.reviewer: ''
-description: Быстрое начало работы с собраниями и трансляциями в Microsoft Teams.
+description: Краткое руководство для администраторов о получении соответствующих лицензий, развертывании и настройке собраний по сети и трансляций в Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739397"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878663"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "48739397"
 
 ## <a name="make-sure-your-networks-ready"></a>Проверка готовности сети
 
-Если вы уже подготовили свою сеть при развертывании Microsoft 365 или Office 365, возможно, у вас все настроено. В любом случае, особенно если вы быстро развертываете Teams в качестве первой рабочей нагрузки Office 365 для поддержки **удаленных работников**, ознакомьтесь со статьей [Подготовка сети организации к использованию Teams](prepare-network.md), чтобы убедиться в своей готовности.
+Если вы уже подготовили свою сеть при развертывании Microsoft 365 или Office 365, возможно, у вас все настроено. В любом случае, особенно если вы быстро развертываете Teams в качестве первой рабочей нагрузки Office 365 для поддержки **удаленных работников** , ознакомьтесь со статьей [Подготовка сети организации к использованию Teams](prepare-network.md), чтобы убедиться в своей готовности.
 
 ## <a name="meetings-and-conferencing"></a>Собрания и конференции
 

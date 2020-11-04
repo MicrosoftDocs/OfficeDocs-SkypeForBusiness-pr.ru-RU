@@ -1,7 +1,7 @@
 ---
 title: Как выполнить развертывание Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,14 +19,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637918"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878693"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Как выполнить развертывание Microsoft Teams
 
@@ -50,7 +51,7 @@ ms.locfileid: "44637918"
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Если вы начинаете работу со Skype для бизнеса, используйте локальное или гибридное развертывание
 
-Если вы пришли к Teams через Skype для бизнеса (онлайн версия или локальная версия) или вам нужна гибридная конфигурация, мы все равно рекомендуем следовать указанному выше [рекомендованному пути](#recommended-path-to-teams) при развертывании Teams, но в этом случае вам потребуется дополнительное планирование. Начните со знакомства с инструкциями, приведенным в таблице ниже, которые отвечают профилю вашей организации.
+Если вы пришли к Teams через Skype для бизнеса (сетевая или локальная версия) или вам нужна гибридная конфигурация, вам все равно желательно следовать указанному выше [рекомендованному пути](#recommended-path-to-teams) при развертывании Teams, но в этом случае вам потребуется дополнительное планирование. Начните со знакомства с инструкциями, приведенным в таблице ниже, которые соответствуют профилю вашей организации.
 
 
 
