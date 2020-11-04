@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814418"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852170"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,14 +31,15 @@ ms.locfileid: "47814418"
 
 | Дата | Версия | Обновлении |
 |------- | -------------------- | ------------------------------ |
+| Ноябрь 2020 г. | [1.1.7 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использует MSAL для проверки подлинности & авторизации</li><li>Командлеты пакетов политики с рефакторингом и добавление группового пакета</li><li>Реструктурированная Целевая иерархия. выгрузка команд отправки для использования асинхронной модели</li> |
 | Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
 | Сентябрь 2020 г. | [1.1.5 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
 | 2020 июля | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [командлеты назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| Июнь 2020 | [1.1.3 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация команды Get-Team<li>Повышенная надежность</li> |
+| Июнь 2020 | [1.1.3 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация Get-Team<li>Повышенная надежность</li> |
 | Июнь 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена Предварительная загрузка командлета<li>Оптимизации платформы .NET Framework</li>   |
-| Апрель 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Подписывание Authenticode и сборка<li>Добавлены Get-CsPolicyPackage<li>Добавлены Get-CsUserPolicyPackage<li>Добавлены Get-CsUserPolicyPackageRecommendation<li>Добавлены гранты-CsUserPolicyPackage<li>Добавлены новые-CsBatchPolicyPackageAssignmentOperation<li>Добавленный Set-TeamArchivedState<li>Добавленный Set-TeamPicture<li>Удалено Get-TeamHelp</li>  |
-| Март 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены новые-CsBatchPolicyAssignmentOperation</li> |
-| Фев 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Оптимизация команды Get-Team</li>  |
+| Апрель 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Подписывание Authenticode и сборка<li>Добавлены Get-CsPolicyPackage<li>Добавлены Get-CsUserPolicyPackage<li>Добавлены Get-CsUserPolicyPackageRecommendation<li>Добавлены Grant-CsUserPolicyPackage<li>Добавлены New-CsBatchPolicyPackageAssignmentOperation<li>Добавлены Set-TeamArchivedState<li>Добавлены Set-TeamPicture<li>Удален Get-TeamHelp</li>  |
+| Март 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены New-CsBatchPolicyAssignmentOperation</li> |
+| Фев 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Оптимизация Get-Team</li>  |
 
 ### <a name="cmdlet-availability"></a>Доступность командлетов
 
@@ -90,7 +91,7 @@ ms.locfileid: "47814418"
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Да | **Нет** |
 | [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Да | **Нет** |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 

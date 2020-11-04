@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Как в Microsoft Teams используется системная память, и почему использование памяти одинаково между классским приложением и веб-приложением.
+description: Сведения об использовании памяти системы Microsoft Teams, а также о том, почему использование памяти одинаково между классским приложением и веб-приложением.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033403"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878723"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Использование памяти в Microsoft Teams
 
@@ -35,7 +36,7 @@ ms.locfileid: "43033403"
 
 На приведенном ниже рисунке показано использование оперативной памяти в классическом приложении Teams для Windows и в веб-приложении Teams (в этом примере выполняется в Google Chrome).
 
-![Классическое приложение Teams и использование памяти веб-приложения](media/teams-memory-clientweb.png)
+![Использование памяти Teams для классического приложения и веб-приложения](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Использование памяти в Teams
 

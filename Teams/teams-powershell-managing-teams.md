@@ -13,12 +13,12 @@ ms.collection:
 description: Сведения о том, как управлять Microsoft Teams с помощью PowerShell Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217cea4a9ad800c1f31f8dcfae9c88ee281188c
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 09d11b2c697ba57ea161d0ce961cf5ba73794617
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944148"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852180"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Управление группами с помощью Microsoft Teams PowerShell
 
@@ -30,10 +30,10 @@ ms.locfileid: "44944148"
 
 Командлеты для создания и управления группами находятся в [модуле Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Команды создаются для групп Office 365, поэтому при создании группы создайте группу. Существует набор командлетов, предназначенных для работы с основной командой и ее параметрами ( ``new-team`` , ``get-team`` , ``set-team`` ), Управление пользователями группы ( ``add-teamuser`` , ``remove-teamuser`` ), а также командлетами для управления каналами группы ( ``new-teamchannel`` , ``remove-teamchannel`` ). Все эти командлеты можно запускать как конечные пользователи, но они будут работать только в тех группах, которыми вы владеете или являетесь участниками. Если вы являетесь администратором глобального администратора или службы Teams Service, вы сможете работать со всеми группами в Организации.
+Команды создаются для групп Office 365, поэтому при создании группы создайте группу. Существует набор командлетов, предназначенных для работы с основной командой и ее параметрами ( ``new-team`` , ``get-team`` ,  ``set-team`` ), Управление пользователями группы ( ``add-teamuser`` , ``remove-teamuser`` ), а также командлетами для управления каналами группы ( ``new-teamchannel`` , ``remove-teamchannel`` ). Все эти командлеты можно запускать как конечные пользователи, но они будут работать только в тех группах, которыми вы владеете или являетесь участниками. Если вы являетесь администратором глобального администратора или службы Teams Service, вы сможете работать со всеми группами в Организации.
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department
+New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Идентификатор **groupId** , используемый в командлетах модуля Microsoft Teams PowerShell, совпадает со свойством **Identity** , возвращенным ``Get-UnifiedGroup`` в модуле Exchange PowerShell.
@@ -68,7 +68,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 Общие параметры:
 
-- **Identity**: for ``Get-`` , ``Set-`` , ``New-`` и ``Remove-`` , параметр **Identity** всегда будет ссылаться на определенный экземпляр политики. Для ``Grant`` параметра **Identity** — конкретный объект пользователя, которому применяется политика.
+- **Identity** : for ``Get-`` , ``Set-`` , ``New-`` и ``Remove-`` , параметр **Identity** всегда будет ссылаться на определенный экземпляр политики. Для ``Grant`` параметра **Identity** — конкретный объект пользователя, которому применяется политика.
 
 ## <a name="manage-configurations-via-powershell"></a>Управление конфигурациями с помощью PowerShell
 
@@ -76,10 +76,10 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 Конфигурации — это сегменты параметров, поддерживаемых в службе, которые не могут быть указаны на уровне пользователя. Параметры всегда применяются во всей Организации. Ваша Глобальная конфигурация является единственной действующей конфигурацией в вашей организации. Каждый тип конфигурации поставляется с двумя основными командлетами:
 
-- ``Get-Cs<ConfigurationName>``(например, ``Get-CsTeamsClientConfiguration`` ):
+- ``Get-Cs<ConfigurationName>`` (например, ``Get-CsTeamsClientConfiguration`` ):
 
 - SET Commands (например, ``Set-CsTeamsClientConfiguration`` ): Настройка свойств в конфигурации этого типа. Укажите параметры, которые вы хотите изменить.
-   > Вы можете создать ссылку на изменяемую конфигурацию одним из двух способов: указав**глобальный идентификатор**или запустив приложение ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
+   > Вы можете создать ссылку на изменяемую конфигурацию одним из двух способов: указав **глобальный идентификатор** или запустив приложение ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` .
 
 ## <a name="what-can-each-admin-role-do"></a>Что может делать каждая роль администратора?
 

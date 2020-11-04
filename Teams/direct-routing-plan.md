@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262536"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852200"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -189,7 +189,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 - T-Systems International GmbH (Немецкая марка Telekom)
 - QuoVadis
 
-Для прямой маршрутизации в Office 365 GCC DoD, сертификат должен быть создан одним из следующих корневых центров сертификации.
+Для прямой маршрутизации в средах Office 365 GCCH и DoD сертификат должен быть создан одним из следующих корневых центров сертификации.
 - Корневой ЦС DigiCert Global
 - Корневой центр сертификации высокой надежности DigiCert
 
@@ -235,7 +235,7 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.  Если брандмауэр поддерживает DNS-имена, полное доменное имя **SIP-ALL.pstnhub.Microsoft.com** разрешается всем этим IP-адресам. 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Среда Microsoft 365 GCC с неиспользуемой по требованию
+### <a name="office-365-gcch-and-dod-environment"></a>Среда Office 365 GCCH и по требованию
 
 Точка соединения для прямой маршрутизации — это следующее полное доменное имя:
 
@@ -299,7 +299,7 @@ SBC делает запрос DNS для разрешения sip.pstnhub.micros
 - 52.112.0.0/14 (IP-адреса из 52.112.0.1 в 52.115.255.254).
 - 52.120.0.0/14 (IP-адреса из 52.120.0.1 в 52.123.255.254).
 
-### <a name="office-365-gcc-dod-environment"></a>Среда Microsoft 365 GCC с неиспользуемой по требованию
+### <a name="office-365-dod-environment"></a>Среда Microsoft 365 по требованию
 
 - 52.127.64.0/21
 

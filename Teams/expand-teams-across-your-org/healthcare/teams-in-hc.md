@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Узнайте о возможностях для обеспечения бесперебойной работы, включающих координацию координирования, безопасный обмен сообщениями, виртуальные посещения, интеграция EHR и firstlineную интеграцию рабочих систем.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Узнайте о функциях здравоохранения, таких как Microsoft Team Health, интеграция EHR, Firstline интеграция рабочих систем и приложение пациентов.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803537"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878713"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций здравоохранения
 
-Microsoft Teams предоставляет ряд функций, полезных для больницами и других организаций здравоохранения, в том числе:
+Microsoft Teams предоставляет ряд функций telemedicine, полезных для больницами и других организаций здравоохранения. Возможности Teams находятся на стадии разработки, чтобы помочь больницами:
 
 - Виртуальные визиты и интеграция с электронными записями в здравоохранение (EHR)
 - Пакеты политики Teams

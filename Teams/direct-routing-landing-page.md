@@ -14,16 +14,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Ознакомьтесь с дополнительными сведениями о прямой маршрутизации и Узнайте о необходимых решениях для развертывания.
-ms.custom: seo-marvel-apr2020
+description: Ознакомьтесь с дополнительными сведениями о прямой маршрутизации, такими как конфигурация, требования к развертыванию, необходимые основные решения для развертывания и рекомендации по маршрутизации голосовой связи.
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497306"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878523"
 ---
 # <a name="phone-system-direct-routing"></a>Прямая маршрутизация телефонной системы
 

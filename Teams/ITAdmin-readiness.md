@@ -19,12 +19,12 @@ ms.custom:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426934"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878373"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Приступая к работе с обучением для администраторов Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "48426934"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![Значок с изображением руки и стрелкой вверх](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Быстро приступите к работе с несколькими группами и каналами](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Значок, который показывает двух пользователей](https://docs.microsoft.com/office/media/icons/users-people.png) | [Обучение пользователей](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Значок, описывающий галочку](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Символ в буфере обмена задачами](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams 30: серия обучающих курсов для ИТ-администраторов и руководителей управления изменениями для внедрения групп через 30 дней](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![Значок, описывающий галочку](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Символ в буфере обмена задачами](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk: практические рекомендации и практические рекомендации по распространенным сценариям работы с группами](https://aka.ms/TeamsChalkTalks) |
 
 <h2>Техническое обучение</h2>
 

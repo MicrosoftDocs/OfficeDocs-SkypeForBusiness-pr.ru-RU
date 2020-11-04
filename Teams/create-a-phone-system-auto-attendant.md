@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических ассистентов для Microsoft Teams.
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840424"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878189"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -213,7 +213,7 @@ ms.locfileid: "48840424"
 
 Передача данных между магистральными тарифными планами и магистральными магистрали прямой маршрутизации не поддерживается.
 
-В гибридной среде для передачи вызова автосекретаря в КТСОП через Skype для бизнеса PSTN вы можете создать нового локального пользователя с помощью переадресации звонков, для которого установлен номер КТСОП. Пользователь должен быть активирован для корпоративной голосовой связи и имеет назначенную политику голосовой связи. Дополнительные сведения можно найти в разделе Переадресация [звонков по автосекретарем в КТСОП](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+В гибридной среде Skype для бизнеса, чтобы передать автоматический звонок в КТСОП, создайте нового локального пользователя с переадресацией звонков, установленным на номер КТСОП. Пользователь должен быть активирован для корпоративной голосовой связи и имеет назначенную политику голосовой связи. Дополнительные сведения можно найти в разделе Переадресация [звонков по автосекретарем в КТСОП](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Создание автосекретаря с помощью PowerShell
 
