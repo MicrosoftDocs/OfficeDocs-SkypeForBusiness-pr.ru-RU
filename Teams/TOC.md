@@ -258,6 +258,7 @@
 ### Справка
 #### [Поддерживаемые языки аудиоконференций](audio-conferencing-supported-languages.md)
 #### [Телефонные номера для аудиоконференций](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [Зоны аудиоконференций в различных странах и регионах](audio-conferencing-zones.md)
 #### [Видео- и аудиоконференции в Teams](audio-conferencing-videos.md)
 
 
@@ -683,7 +684,7 @@
 ### Виртуальные визиты
 #### [Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [Виртуальные визиты с помощью Bookings и Teams](bookings-app-admin.md)
-### [Создание пакетов политик Teams](policy-packages-healthcare.md)
+### [Просмотр и назначение пакетов политик](policy-packages-healthcare.md)
 ### Безопасный обмен сообщениями
 #### [Безопасный обмен сообщениями](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -930,7 +931,6 @@
 ### [Финляндия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [Франция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [Грузия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [Гана](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Германия](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [Гана](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Греция](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
