@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739337"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908578"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Общие сведения о записи на основе политики для групп звонков & собраний
 
@@ -39,6 +39,8 @@ ms.locfileid: "48739337"
 - Поддержка захвата взаимодействия между пользователями Teams и поддерживаемыми конечными точками (Teams, Teams Mobile, Skype для бизнеса, КТСОП)
 
 - Новые политики администрирования для записи соответствия требованиям, в том числе интеграция с существующими средствами администрирования, а также средства и политики для собраний.
+
+Запись соответствия требованиям может быть включена в Microsoft 365 a3/A5/E3/водои Office 365 a3/A5/E3/водопользователи. 
 
 Возможности интеграции с решением для записи соответствия требованиям также проверяются на Ignite 2019 в [<span class="underline">записи соответствия требованиям и сеансе Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -206,6 +208,13 @@ Teams предоставляет различные возможности дл�
 
 Помимо публикации общедоступных API-интерфейсов, позволяющих партнерам разрабатывать и интегрировать решения CCaaS с помощью Teams, мы разработали запись соответствия требованиям для программы сертификации Microsoft Teams, чтобы предоставить клиентам гарантию о том, что решение для каждого участника было проверено и проверено на предмет качества, совместимости и надежности, которые они ожидают от решений Microsoft.  
 
+Следующие партнеры получили Вам свое решение для Microsoft Teams.
+
+|Сотрудничать|Веб-сайт решения |
+|:--|:--|
+|ПРИВЛЕКАТЕЛЬН |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 Следующие партнеры находятся в процессе сертификации своих решений для Microsoft Teams.
 
 |Сотрудничать|Веб-сайт решения |
@@ -216,7 +225,6 @@ Teams предоставляет различные возможности дл�
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Технологии Landis |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|ПРИВЛЕКАТЕЛЬН |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Для новаторства (дуб) |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Красная рамка |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
