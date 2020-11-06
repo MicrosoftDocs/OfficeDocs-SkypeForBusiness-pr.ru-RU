@@ -1,0 +1,35 @@
+- name: Гибридные решения для Teams и Skype для бизнеса
+  items:
+    - name: Планирование гибридного подключения
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: Настройка гибридного подключения
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items:
+        - name: Настройка Azure AD Connect для гибридной среды
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: Настройка гибридной среды Skype для бизнеса
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: Перемещение пользователей между локальной средой и облаком
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items:
+        - name: Перемещение пользователей из локальной среды в Teams
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: Перемещение пользователей из облака в локальную среду
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: Управление миграцией собраний
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: Отключение гибридной среды для завершения миграции в облако
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: Развертывание топологии леса ресурсов
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: Консолидация облачных хранилищ для Teams и Skype для бизнеса
+      href: ../hybrid/cloud-consolidation.md
+      items:
+        - name: Обновление пограничного сертификата
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: Обновление AAD Connect для включения нескольких лесов
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: Интеграция с Exchange и SharePoint
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
