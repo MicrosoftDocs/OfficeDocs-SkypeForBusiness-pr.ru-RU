@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических ассистентов для Microsoft Teams.
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878189"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922467"
 ---
 # <a name="set-up-an-auto-attendant"></a>Настройка автосекретаря
 
@@ -118,7 +118,7 @@ ms.locfileid: "48878189"
 - TelephoneNumber/заданный
 - OtherTelephone
 
-Формат, необходимый для ввода расширения в поле "телефонный номер пользователя", должен быть *+ <phone number> ext <extension> =* или *+ <phone number> x <extension>*.
+Формат, необходимый для ввода расширения в поле "телефонный номер пользователя", должен быть *+ \<phone number> ext \<extension> =* или *+ \<phone number> x \<extension>*.
 
 Вы можете настроить расширение в [центре администрирования Microsoft 365](https://admin.microsoft.com/) или в [центре администрирования Azure Active Directory](https://aad.portal.azure.com). Чтобы изменения были доступны для автосекретарей и очередей звонков, может потребоваться до 12 часов.
 

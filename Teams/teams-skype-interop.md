@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Узнайте о возможностях взаимодействия между пользователями Teams в Организации и пользователями Skype (потребителем).
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919041"
+ms.locfileid: "48925431"
 ---
 # <a name="teams-and-skype-interoperability"></a>Взаимодействие Teams и Skype
 
@@ -90,7 +90,10 @@ ms.locfileid: "48919041"
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` Разрешить пользователям команды общаться с пользователями Skype. Вы можете использовать этот ```EnablePublicCloudAudioVideoAccess``` параметр, чтобы включить или отключить голосовые и видеозвонки.
+Выполните указанные ниже действия. 
+1. Используйте командлет [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) вместе с ```EnablePublicCloudAccess``` параметром, чтобы управлять тем, могут ли пользователи Teams общаться с пользователями Skype. Задать параметр, чтобы ```true``` Разрешить пользователям команды общаться с пользователями Skype. Вы можете использовать этот ```EnablePublicCloudAudioVideoAccess``` параметр, чтобы включить или отключить голосовые и видеозвонки.
+
+2. Используйте командлет [Set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) вместе с ```Provider``` параметром Set, чтобы ```"WindowsLive"``` Пользователи Teams могли общаться с пользователями Skype.
 
 ## <a name="related-topics"></a>Статьи по теме
 
