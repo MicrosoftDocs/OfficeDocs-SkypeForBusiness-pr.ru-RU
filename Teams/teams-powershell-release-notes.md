@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852170"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937748"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,7 +31,7 @@ ms.locfileid: "48852170"
 
 | Дата | Версия | Обновлении |
 |------- | -------------------- | ------------------------------ |
-| Ноябрь 2020 г. | [1.1.7 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использует MSAL для проверки подлинности & авторизации</li><li>Командлеты пакетов политики с рефакторингом и добавление группового пакета</li><li>Реструктурированная Целевая иерархия. выгрузка команд отправки для использования асинхронной модели</li> |
+| Ноябрь 2020 г. | [1.1.7 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использует MSAL для проверки подлинности & авторизации</li><li>Командлеты пакетов политики с рефакторингом и добавление группового пакета</li><li>Реструктурированная Целевая иерархия. выгрузка команд отправки для использования асинхронной модели</li> <li>Пользователю будет предложено дважды ввести запрос на начальную проверку подлинности, если он не использует параметр-Credential. Пользователи могут передавать учетные данные с помощью параметра-Credential, чтобы избежать дублирования запроса. Это поведение будет устранено в следующем выпуске.</li> |
 | Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
 | Сентябрь 2020 г. | [1.1.5 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
 | 2020 июля | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [командлеты назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
