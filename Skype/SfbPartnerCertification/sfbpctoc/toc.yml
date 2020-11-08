@@ -1,0 +1,138 @@
+- name: Программа сертификации Skype для бизнеса и Teams
+  href: ../certification/overview.md
+  items:
+    - name: Как присоединиться
+      href: ../certification/how-to-join.md
+    - name: Спецификации к тестированию Skype и Lync
+      href: ../certification/test-spec.md
+    - name: Телефоны и устройства
+      items:
+        - name: IP-телефоны Skype для бизнеса
+          href: ../certification/devices-ip-phones.md
+        - name: IP-телефоны Teams
+          href: /microsoftteams/teams-ip-phones
+        - name: USB-устройства для аудио и видео
+          href: ../certification/devices-usb-devices.md
+        - name: Компьютеры
+          href: ../certification/devices-pcs.md
+        - name: Комнатные устройства и решения для проведения собраний
+          href: ../certification/devices-meeting-rooms.md
+    - name: Инфраструктура
+      items:
+        - name: Шлюзы
+          href: ../certification/infra-gateways.md
+        - name: IP PBXs
+          href: ../certification/infra-ip-pbxs.md
+        - name: Устройство для обеспечения связи в филиалах
+          href: ../certification/infra-sba.md
+        - name: Пограничные контроллеры сеансов
+          href: ../certification/infra-sbc.md
+        - name: Обратный прокси-сервер
+          href: ../certification/infra-rev-proxy.md
+        - name: Подсистемы балансировки нагрузки
+          href: ../certification/infra-load-balancers.md
+    - name: Сеть
+      items:
+        - name: Wi-Fi для Skype для бизнеса
+          href: ../certification/networking-wifi.md
+          items:
+            - name: Планирование сетей Wi-Fi
+              href: ../certification/plan-wifi.md
+        - name: Проводная связь для Skype для бизнеса
+          href: ../certification/networking-wired.md
+        - name: SDN для Skype для бизнеса
+          href: ../certification/networking-sdn.md
+    - name: Службы
+      items:
+        - name: Службы настройки каналов SIP
+          href: ../certification/services-sip-trunking.md
+        - name: Поставщики служб E-911
+          href: ../certification/services-e911.md
+        - name: Поставщики услуг аудиоконференций
+          href: ../certification/services-acps.md
+        - name: Партнеры по сертификату единой системы связи
+          href: ../certification/services-ssl.md
+    - name: ИТ-специалист
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: Предварительная оценка сети
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: Миграция
+          href: ../certification/it-pro-tools-migration.md
+        - name: Подготовка пользователей и политик
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: Мониторинг и устранение неполадок
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: Отчётность
+          href: ../certification/it-pro-tools-reporting.md
+    - name: Видео
+      href: ../certification/video.md
+    - name: Независимый поставщик программного обеспечения
+      href: ../certification/isv-overview.md
+    - name: Квалификация партнера Lync
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: Приложения
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Участие в программе квалификации независимого поставщика программного обеспечения Lync
+              href: ../lync-cert/participation.md
+            - name: Консольные приложения участников программы
+              href: ../lync-cert/attendant-console-apps.md
+            - name: Приложения для выставления счетов и расширенной отчетности
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: Приложения центра контактов
+              href: ../lync-cert/contact-center-apps.md
+            - name: Приложения расширяемости Lync
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: Приложения сохраняемого чата
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: Приложения для записи
+              href: ../lync-cert/recording-apps.md
+            - name: Приложения программно-конфигурируемой сети
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: Проверенные приложения Lync
+              href: ../lync-cert/validated-lync-apps.md
+        - name: Устройства
+          items:
+            - name: 'Телефоны и устройства, соответствующие требованиям Lync'
+              href: ../lync-cert/ip-phones.md
+            - name: USB-устройства для аудио и видео
+              href: ../lync-cert/usb-and-video.md
+            - name: Системы комнат Lync
+              href: ../lync-cert/room-systems.md
+            - name: Комнатные устройства и решения для проведения собраний
+              href: ../lync-cert/meeting-room-devices.md
+            - name: Компьютеры
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: Инфраструктура
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP-АТС и шлюзы
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: Поддерживаемые IP-АТС
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: Устройство для обеспечения связи в филиалах
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: Пограничные контроллеры сеансов
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: Сеть
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: Подсистемы балансировки нагрузки
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: Обратные прокси-серверы
+              href: ../lync-cert/reverse-proxies.md
+            - name: Инфраструктура виртуальных рабочих столов
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: Службы
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: Службы E-911
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Выделенный Lync Online
+              href: ../lync-cert/online-dedicated.md
+        - name: Видео
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: Комнатные устройства и решения для проведения собраний
+              href: ../lync-cert/meeting-room-devices.md
