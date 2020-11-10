@@ -13,12 +13,12 @@ f1.keywords:
 description: Обзор интегрированного центра управления контактами как службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 59c763139a7ccadbf855bb766a05092a98ed03b0
+ms.sourcegitcommit: 339e36d24e5ef9940b7fcf43dcf6f31acf22dd69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827743"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "48948240"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция с центром контактов для Microsoft Teams
 
@@ -44,18 +44,19 @@ Microsoft Teams поддерживает рабочие потоки взаим�
 
 |  Сотрудничать                                                                                                                               |  Веб-сайт решения                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
-| Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| ContactCenter4All | www.contactcenter4all.com |
-| Enghouse в интерактивном режиме | http://www.enghouseteams.com/                                                       |
-| Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
-| Genesys | https://www.genesys.com/microsoft                                                                                   |
-| Технологии Landis | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| Luware | https://luware.com/en/solutions/                                                                                       |
-| ХОРОШИЙ контакт | https://www.niceincontact.com/microsoft-teams                                                            |
-| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| Tendfor | https://www.tendfor.com/en/                                                                                     |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `ContactCenter4All` | www.contactcenter4all.com |
+| `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
+| `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
+
 
 Этот список будет обновляться по мере того, как дополнительные участники будут присоединяться к критерию сертификации и отвечать на них.
 
