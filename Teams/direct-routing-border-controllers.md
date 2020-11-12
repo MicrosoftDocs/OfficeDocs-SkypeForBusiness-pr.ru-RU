@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Администратор может узнать, какие контроллеры границ сеансов (SBCs) были сертифицированы на прямую маршрутизацию.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45695462228ad675add26eeb9cad74dfed72f616
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
+ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778872"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999253"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -79,6 +79,7 @@ ms.locfileid: "48778872"
 |                                 |     Объединенный элемент Border (куб) Cisco для маршрутизаторов служб агрегации данных серии 1000      |     &#10004;   |  |      IOS XE Амстердам 17.2.1 r      |    <ul> <li> [Маршрутизация динамического расположения пропускной способности](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Служба маршрутизации Intrado в экстренном случае (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Шлюз экстренной помощи Intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Контроллер границ сеанса Avaya для предприятия (ASBCE)    |     &#10004;     |           |       Выпусти 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Контроллер границ сеанса Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
+|                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5,0       |     |    | 
 
 <br/>
 <br/>

@@ -16,12 +16,12 @@ description: В этой статье объясняется, что такое 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988326"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996020"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Информационные барьеры в Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "48988326"
 
 > [!NOTE]
 > - Группы барьера для данных нельзя создавать на разных клиентах.
-> - Использование ботов для добавления пользователей не поддерживается в версии 1.
+> - Использование ботов, приложений AAD и некоторых API для добавления пользователей не поддерживается в версии 1.
 > - Закрытые каналы соответствуют настройкам для заданных политик барьера.
 > - Новое: сведения о поддержке барьеров для сайта SharePoint, подключенного к Teams, щелкните [здесь](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
