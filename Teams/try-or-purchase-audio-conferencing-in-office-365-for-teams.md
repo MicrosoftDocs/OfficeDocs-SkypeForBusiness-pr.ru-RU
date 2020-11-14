@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Узнайте, как попробовать или приобрести лицензии на Конференц-связь с Microsoft 365 или Office 365, чтобы настроить телефонные конференции, на которые смогут звонить люди. '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788443"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031275"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Попробуйте или купите голосовую конференцию в Microsoft 365 для Microsoft Teams
 
@@ -50,7 +51,7 @@ ms.locfileid: "46788443"
 
    - **Попробуйте сделать это** , прежде чем приобретать его. Вы можете подписаться на бесплатную пробную версию Office 365 Enterprise, включающую голосовую конференцию. См. раздел [Пробная версия Office 365 корпоративный E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Купите его**: [лицензирование надстроек Microsoft Teams] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
+   - **Купите его** : [лицензирование надстроек Microsoft Teams] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) .
 
 3. [Назначение лицензий пользователям](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) в вашей организации, которые планируется планировать или приходить на собрания.
 
@@ -82,7 +83,7 @@ ms.locfileid: "46788443"
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 
-Следующие шаги являются **необязательными**, однако многие администраторы считают их необходимыми:
+Следующие шаги являются **необязательными** , однако многие администраторы считают их необходимыми:
 
 1. [Настройка приглашений на собрания](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Номера для телефонного подключения, настроенные для пользователя, будут автоматически добавлены в приглашения на собрания, отправляемые участникам. Тем не менее, вы можете добавить собственную справку и юридические ссылки, текстовое сообщение и рисунок маленькой компании.
 

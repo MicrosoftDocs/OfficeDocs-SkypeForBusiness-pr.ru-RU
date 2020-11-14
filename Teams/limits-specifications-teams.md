@@ -14,16 +14,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - SPO_Content
+- m365initiative-deployteams
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa78b6a86b3216cd74fb07ae83f2ca99886d4213
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: a552fd88d469c7daaae324614c398c24ac2f9d41
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655376"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031365"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -116,7 +117,7 @@ ms.locfileid: "48655376"
 > [!IMPORTANT]
 > **Повышение предельных значений для трансляций Microsoft 365**
 >
-> **Чтобы лучше поддерживать клиентов, мы продлеваем временные снятия ограничений на трансляции, проводящиеся в Teams, Stream и Yammer, до 1 января 2021 года включительно, в том числе**:
+> **Чтобы лучше поддерживать клиентов, мы продлеваем временные снятия ограничений на трансляции, проводящиеся в Teams, Stream и Yammer, до 1 января 2021 года включительно, в том числе** :
 >
 >- До 20 000 участников на каждое событие
 >- До 50 событий одновременно на одного клиента Teams
@@ -163,7 +164,7 @@ ms.locfileid: "48655376"
 > [!IMPORTANT]
 > **Повышение предельных значений для трансляций Microsoft 365**
 >
-> **Чтобы лучше поддерживать клиентов, мы продлеваем временные снятия ограничений на трансляции, проводящиеся в Teams, Stream и Yammer, до 1 января 2021 года включительно, в том числе**:
+> **Чтобы лучше поддерживать клиентов, мы продлеваем временные снятия ограничений на трансляции, проводящиеся в Teams, Stream и Yammer, до 1 января 2021 года включительно, в том числе** :
 >
 > - До 20 000 участников на каждое событие
 > - До 50 событий одновременно на одного клиента Teams

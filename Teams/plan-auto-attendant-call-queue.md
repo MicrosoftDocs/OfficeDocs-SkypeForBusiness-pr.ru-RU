@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Узнайте о автосекретарях и очередях звонков, а также о том, как использовать их для перемещения между абонентами из системы меню для доступа к людям или подразделениям в Организации.
-ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908608"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031565"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Планирование автоматических ассистентов и очередей звонков в Teams
 

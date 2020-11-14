@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177527"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032995"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams 
 
@@ -59,9 +60,9 @@ ms.locfileid: "48177527"
 Убедившись в том, что вы отвечаете на эти сетевые требования, вы можете подготовиться к [развертыванию групп](How-to-roll-out-teams.md). Если вы используете крупную многонациональной среде или знаете, что у вас есть ограничения сети, прочтите сведения о том, как оценивать и оптимизировать сеть для Teams.
 
 > [!IMPORTANT]
-> **Для образовательных учреждений**: Если ваша организация — образовательное учреждение и вы используете систему информации об учащихся (SIS), выполните [развертывание School Data Sync](https://docs.microsoft.com/schooldatasync/) , прежде чем приступать к развертыванию групп.
+> **Для образовательных учреждений** : Если ваша организация — образовательное учреждение и вы используете систему информации об учащихся (SIS), выполните [развертывание School Data Sync](https://docs.microsoft.com/schooldatasync/) , прежде чем приступать к развертыванию групп.
 >  
-> **Выполнение локального сервера Skype для бизнеса**: Если ваша организация работает локально в Skype для бизнеса Server (или Lync Server), необходимо [настроить Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) для синхронизации локального каталога с Microsoft 365 или Office 365.
+> **Выполнение локального сервера Skype для бизнеса** : Если ваша организация работает локально в Skype для бизнеса Server (или Lync Server), необходимо [настроить Azure AD Connect](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) для синхронизации локального каталога с Microsoft 365 или Office 365.
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>Рекомендации: мониторинг сети с помощью CQD и аналитики звонков 
 

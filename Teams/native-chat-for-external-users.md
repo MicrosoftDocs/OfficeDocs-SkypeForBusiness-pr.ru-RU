@@ -9,17 +9,18 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Узнайте о том, как работать с другими пользователями в Microsoft Teams с помощью чата, если оба пользователя находятся в режиме обновления TeamsOnly.
-ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583848"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030605"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Встроенные функции чата для внешних (Федеративных) пользователей в Microsoft Teams
 ======================================
@@ -47,6 +48,6 @@ ms.locfileid: "46583848"
 Если в Teams будет найден старый чат с внешним пользователем, он Revive этот чат. В противном случае Teams создает новый текстовый чат.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Управление внешним доступом в Teams](manage-external-access.md)

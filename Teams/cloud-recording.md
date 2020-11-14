@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +18,12 @@ description: Практическое руководство по разверт
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503466"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031035"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись облачного собрания в Teams
 
@@ -131,7 +132,7 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 Для новых и существующих арендаторов, которые еще не включили запись собрания, новые записи сохраняются в стране после того, как Microsoft Stream станет доступным в регионе расположения данных в стране. Тем не менее, любой клиент, который включает запись о собрании, прежде чем Microsoft Stream будет доступен в области Кель данных в стране, будет использовать хранилище Microsoft Stream для существующих и новых записей, даже после того, как Microsoft Stream будет доступен в регионе Кель данных в стране.
 
-Чтобы найти регион, в котором хранятся ваши данные Microsoft Stream, в Microsoft Stream нажмите **?** в правом верхнем углу нажмите **О Microsoft Stream**, а затем нажмите **Ваши данные хранятся в**.  Чтобы узнать больше о регионах, где Microsoft Stream хранит данные, см. [Вопросы-Ответы по Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Чтобы найти регион, в котором хранятся ваши данные Microsoft Stream, в Microsoft Stream нажмите **?** в правом верхнем углу нажмите **О Microsoft Stream** , а затем нажмите **Ваши данные хранятся в**.  Чтобы узнать больше о регионах, где Microsoft Stream хранит данные, см. [Вопросы-Ответы по Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
 Чтобы узнать больше о том, где хранятся данные в разных службах Microsoft 365 или Office 365, посмотрите, [где находятся ваши данные?](https://products.office.com/where-is-your-data-located?rtc=1)
 

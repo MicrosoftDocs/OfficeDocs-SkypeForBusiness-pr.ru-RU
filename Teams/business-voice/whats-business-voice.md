@@ -13,17 +13,18 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: Голосовая связь Microsoft 365 бизнес — это недорогой вариант для голосовых звонков, позволяющий малым и средним организациям общаться эффективнее.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878603"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030785"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Что такое голосовая связь Microsoft 365 бизнес?
 
@@ -54,7 +55,7 @@ ms.locfileid: "48878603"
 
 > [!IMPORTANT]
 >
-> Microsoft Teams и корпоративная голосовая связь работает, только если почтовые ящики пользователей находятся в Microsoft 365.  Почтовые ящики, размещенные на локальном сервере Exchange Server, не поддерживаются.
+> Microsoft Teams и корпоративная голосовая связь работают, только если почтовые ящики пользователей находятся в Microsoft 365. Почтовые ящики, размещенные на локальном сервере Exchange Server, не поддерживаются.
 
 При приобретении корпоративной голосовой связи вы получите среди прочих следующие функции:
 
@@ -68,8 +69,7 @@ ms.locfileid: "48878603"
 <tr>
         <td><b><a href="/microsoftteams/calling-plan-landing-page">Местные звонки</a></b>
         </td>
-        <td>Звонки внутри вашей страны или региона бесплатны. Также доступны международные планы и бесплатные номера.
-        </td>
+        <td>Звонки внутри вашей страны или региона бесплатны. Также доступны международные планы и бесплатные номера.</td>
     </tr>
     <tr>
         <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Аудиоконференции</a></b>

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Узнайте, как получить и управлять номерами пользователей (абонентов) и служб (платные и Бесплатные телефоны) для Microsoft Teams для вашей организации.
-ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320824"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031755"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 
@@ -67,7 +68,7 @@ ms.locfileid: "48320824"
 > - [Соединенное Королевство](phone-number-management-for-the-u-k.md)
 > - [Соединенные Штаты Америки & Пуэрто-Рико](phone-number-management-for-the-u-s.md)
 
-***
+**_
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Вот немного дополнительных сведений об этих формах для запроса номеров.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Формы запроса новых номеров телефонов
@@ -82,10 +83,10 @@ ms.locfileid: "48320824"
 
 Если вам нужно передать или перенести существующие номера телефонов, вам потребуется скачать, заполнить и отправить нам письмо по авторизации (LOA), которое дает нам разрешение на запрос и перенос от вашего имени от другого поставщика услуг в Microsoft Teams.
 
-Пожалуйста, отправьте нам **LOA** , если в настоящее время у вас есть одна из указанных ниже операторов.
+Пожалуйста, отправьте нам подписку на подписку на подписку на *LOA* *, если у вас уже есть другой оператор.
 - Номера пользователей (абонентов).
 - Услуги (платные платные номера) для мостов, автосекретарей и очередей звонков.
-- Бесплатные телефонные номера.
+- Toll-Free номера телефонов.
 - В центре администрирования Microsoft Teams с помощью мастера переноса местных номеров более 999 абонентов, которые вам нужно передавать или переносить.
 
 После того как ты **заполнит заполненные и подписанные** LOA, [обратитесь в службу поддержки сети PSTN](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) , чтобы мы смогли вам помочь.
@@ -100,7 +101,7 @@ ms.locfileid: "48320824"
 - Чтобы облегчить выбор правильного типа телефонных номеров, прочтите [различные типы телефонных номеров, используемых для планов звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Чтобы получить помощь по настройке номеров телефонов для Организации, читайте в статье [Поддержка контактных лиц для бизнеса — Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Условия для экстренных вызовов](../emergency-calling-terms-and-conditions.md)
 

@@ -15,15 +15,16 @@ ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 description: Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам.
-ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416854"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030285"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 
@@ -57,7 +58,7 @@ ms.locfileid: "48416854"
   Гостевые пользователи, у которых есть рабочая или учебная учетная запись в Azure Active Directory, могут принять приглашение и пройти проверку подлинности напрямую. Другие пользователи отправляют код одноразового этапа для проверки их личности (требуется[одноразовая проверка подлинности кода](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode) ).
 4. Приняв приглашение, гость сможет [использовать команды и каналы](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), просматривать сообщения каналов и отвечать на них, [получать доступ к файлам в каналах](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), участвовать в чатах, присоединяться к собраниям, вести совместную работу над документами и т. д. 
 
-Гости в Teams четко определены. Имя гостевого пользователя включает метку **(Гость)**, а канал содержит значок, указывающий на то, что в команде присутствуют гости. Дополнительные сведения см. в разделе [Взаимодействие с гостями](guest-experience.md).
+Гости в Teams четко определены. Имя гостевого пользователя включает метку **(Гость)** , а канал содержит значок, указывающий на то, что в команде присутствуют гости. Дополнительные сведения см. в разделе [Взаимодействие с гостями](guest-experience.md).
   
 Находясь внутри Teams, гости могут выходить из команды в любое время. Дополнительные сведения см. в разделе [Как покинуть команду?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 

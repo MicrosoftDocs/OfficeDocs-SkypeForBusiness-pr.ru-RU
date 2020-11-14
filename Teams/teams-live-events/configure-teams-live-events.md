@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: Сведения о том, как управлять параметрами для событий Teams, которые хранятся в Организации.
 f1.keywords:
 - CSH
@@ -19,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203952"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030895"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -41,7 +42,7 @@ ms.locfileid: "48203952"
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите к параметрам **собраний**  >  **Live Event**.
-2. В разделе **URL-адрес службы поддержки**введите URL-адрес своей организации.
+2. В разделе **URL-адрес службы поддержки** введите URL-адрес своей организации.
 
     ![URL-адрес службы поддержки для событий Live в центре администрирования](../media/teams-live-events-settings-supporturl.png "Снимок экрана с параметром "URL-адрес поддержки" для событий Teams в реальном времени")
 
@@ -60,7 +61,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
 1. На панели навигации слева перейдите к параметрам **собраний**  >  **Live Event**.
-2. В разделе **сторонние поставщики средств распространения видео**выполните указанные ниже действия. 
+2. В разделе **сторонние поставщики средств распространения видео** выполните указанные ниже действия. 
 
     ![Параметры стороннего поставщика услуг распространения видео в центре администрирования](../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры стороннего поставщика услуг распространения видео для событий Live")
 
@@ -91,7 +92,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > Если вы планируете создавать события Live с помощью внешнего приложения или устройства, вам также потребуется [настроить поставщик eCDN с помощью Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 >[!Note]
-> Поэтапный подход к изменению с помощью Microsoft Stream для [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) . На этапе запуска вы сможете принять участие в этой службе, в ноябре вам придется отказаться от использования потока, и в некоторых случаях на раннем этапе 2021 мы постараемся, чтобы все пользователи могли использовать OneDrive для бизнеса и SharePoint для новых записей о собраниях.
+> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний.
 
 ### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)

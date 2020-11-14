@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Сведения о том, как настроить конференц-связь или аудиоконференцию для тех участников вашего бизнеса, которым нужно присоединиться к конференции, используя телефон. '
-ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788703"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031425"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -101,7 +102,7 @@ ms.locfileid: "46788703"
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
 1. На панели мониторинга выберите один за другим пункты **Собрания** > **Мосты конференции**.
-2. Выберите**Параметры моста**. Откроется панель **Параметры моста**. 
+2. Выберите **Параметры моста**. Откроется панель **Параметры моста**. 
 
 Подробнее см. статью [Изменение параметров моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md).
 
@@ -113,8 +114,8 @@ ms.locfileid: "46788703"
 
 ![Значок с логотипом Microsoft Teams](media/teams-logo-30x30.png) **Использование центра администрирования Microsoft Teams**
 
-1. На панели мониторинга нажмите **Пользователи**, выберите пользователя из списка и нажмите **Редактировать**.
-2. Нажмите**Редактировать** рядом с **Аудиоконференции**, затем на панели **Аудиоконференции** выберите номер из списков номеров **Платный номер** и**Бесплатный номер**.
+1. На панели мониторинга нажмите **Пользователи** , выберите пользователя из списка и нажмите **Редактировать**.
+2. Нажмите **Редактировать** рядом с **Аудиоконференции** , затем на панели **Аудиоконференции** выберите номер из списков номеров **Платный номер** и **Бесплатный номер**.
 
 Подробнее см. в разделе [Назначение Майкрософт в качестве поставщика услуг аудиоконференций](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 

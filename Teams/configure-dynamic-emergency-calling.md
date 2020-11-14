@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Сведения о том, как настроить планы з
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269653"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031015"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -147,8 +148,8 @@ ms.locfileid: "48269653"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
-1. На панели навигации слева перейдите в раздел **расположения**,  >  **& расположением**.
-2. Откройте вкладку, представляющую идентификатор сети, который вы хотите добавить. Например, выберите **подсети**, **точки доступа Wi-Fi**, **переключатели**или **порты**. Затем нажмите кнопку **Добавить**.
+1. На панели навигации слева перейдите в раздел **расположения** ,  >  **& расположением**.
+2. Откройте вкладку, представляющую идентификатор сети, который вы хотите добавить. Например, выберите **подсети** , **точки доступа Wi-Fi** , **переключатели** или **порты**. Затем нажмите кнопку **Добавить**.
 3. Заполните поля, добавьте место для экстренного реагирования и нажмите кнопку **Применить**.
 
 ### <a name="using-powershell"></a>Использование PowerShell
@@ -216,7 +217,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **Прямые маршруты клиентов в США** должны координироваться в соответствии с их ERSP для тестовых служб.
 
- ## <a name="related-topics"></a>Связанные статьи
+ ## <a name="related-topics"></a>Статьи по теме
 
 - [Управление вызовом экстренной помощи](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)

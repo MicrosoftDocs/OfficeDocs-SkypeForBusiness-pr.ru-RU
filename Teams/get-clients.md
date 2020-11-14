@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: 9e42e002e8ae0c2462bc0021ac1103c59e96f7cc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389877"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030425"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -196,9 +197,9 @@ sudo zypper install teams
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 
--   **Android**: поддержка ограничена последними четырьмя основными версиями Android. Когда выпущена новая основная версия Android, официально поддерживается новая версия и предыдущие три версии.
+-   **Android** : поддержка ограничена последними четырьмя основными версиями Android. Когда выпущена новая основная версия Android, официально поддерживается новая версия и предыдущие три версии.
 
--   **iOS**: поддержка ограничена двумя последними основными версиями iOS. Когда выпущена новая основная версия iOS, официально поддерживается новая версия iOS и предыдущая версия.
+-   **iOS** : поддержка ограничена двумя последними основными версиями iOS. Когда выпущена новая основная версия iOS, официально поддерживается новая версия iOS и предыдущая версия.
 
 > [!NOTE]
 > Мобильная версия должна быть общедоступной, чтобы приложение Teams работало правильно.
