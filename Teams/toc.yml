@@ -1,6 +1,6 @@
 - name: Добро пожаловать в Teams
   href: teams-overview.md
-- name: '& архитектуры и плакаты для решений телефонной связи'
+- name: Плакаты & архитектуры решений для телефонной связи
   href: teams-architecture-solutions-posters.md
 - name: Поддержка удаленных работников (WFH)
   href: support-remote-work-with-teams.md
@@ -22,11 +22,11 @@
   items:
     - name: Обзор
       href: get-started-with-teams-quick-start.md
-    - name: 'Шаг 1: Создание первых команд и каналов'
+    - name: 'Шаг 1: создание первых команд и каналов'
       href: get-started-with-teams-create-your-first-teams-and-channels.md
-    - name: Шаг 2. Набор первых пользователей
+    - name: 'Шаг 2: набор первых пользователей'
       href: get-started-with-teams-onboard-early-adopters.md
-    - name: 'Шаг 3: Мониторинг использования и отзывы.'
+    - name: 'Шаг 3: мониторинг использования и отзывы'
       href: get-started-with-teams-monitor-usage-and-feedback.md
     - name: 'Шаг 4: планирование развертывания во всей организации'
       href: get-started-with-teams-resources-for-org-wide-rollout.md
@@ -48,11 +48,11 @@
       href: dynamic-memberships.md
     - name: Рекомендации по работе с командами в Teams
       href: best-practices-organizing.md
-    - name: Управление крупными группами
+    - name: Управление большими командами
       href: best-practices-large-groups.md
     - name: "Создание команды для всей организации в\_Teams"
       href: create-an-org-wide-team.md
-    - name: Создание групп руководителя пользователей
+    - name: Создание групп руководителей
       href: create-manager-directs-teams.md
     - name: Управление командами и политиками каналов
       href: teams-policies.md
@@ -62,7 +62,7 @@
       href: manage-channel-moderation-in-teams.md
     - name: Общий доступ к файлам в Teams
       href: sharing-files-in-teams.md
-    - name: Интеграция Teams и электронной почты Outlook
+    - name: Teams и интеграция электронной почты Outlook
       href: teams-outlook-email-integration.md
     - name: Управление политиками обмена сообщениями
       href: messaging-policies-in-teams.md
@@ -70,7 +70,7 @@
       href: presence-admins.md
     - name: Управление тегами в Teams
       href: manage-tags.md
-    - name: Просмотр аналитических данных в Teams
+    - name: Просмотр аналитики в Teams
       href: teams-analytics-and-reports/view-analytics.md
     - name: Окончание и продление срока действия команды
       href: team-expiration-renewal.md
@@ -78,23 +78,23 @@
       href: archive-or-delete-a-team.md
     - name: Миграция из Slack в Teams
       href: migrate-slack-to-teams.md
-    - name: Работа с шаблонами групп
+    - name: Работа с шаблонами Teams
       items:
         - name: Использование шаблонов Teams в центре администрирования
           href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: 'Шаблоны групп, встроенные в граф для малых и средних организаций'
+        - name: Созданные в Graph шаблоны Teams для малого и среднего бизнеса
           href: smb-templates.md
-        - name: Создание шаблона настраиваемой команды
+        - name: Создание пользовательского шаблона Teams
           href: create-a-team-template.md
-        - name: Создание шаблона на основе существующей группы
+        - name: Создание шаблона на основе существующей команды
           href: create-template-from-existing-team.md
         - name: Создание шаблона на основе существующего шаблона
           href: create-template-from-existing-template.md
-        - name: Шаблоны групп финансовых категорий
+        - name: Шаблоны Teams финансовой категории
           href: financial-teams-templates-in-the-admin-console.md
-        - name: Шаблоны групп общих категорий
+        - name: Шаблоны Teams общей категории
           href: general-teams-templates-in-the-admin-console.md
-        - name: Шаблоны групп категорий производства
+        - name: Шаблоны Teams производственной категории
           href: manufacturing-teams-templates-in-the-admin-console.md
     - name: Общение с внешними пользователями
       items:
@@ -114,15 +114,15 @@
               href: guest-access.md
             - name: Контрольный список гостевого доступа
               href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
-            - name: Работа гостя
+            - name: Работа в режиме гостевого доступа
               href: guest-experience.md
-            - name: Авторизовать гостевой доступ
+            - name: Авторизация гостевого доступа
               href: teams-dependencies.md
             - name: Включение и отключение гостевого доступа
               href: set-up-guests.md
             - name: Добавление гостя в команду
               href: add-guests.md
-            - name: Просмотр гостевых пользователей к команде
+            - name: Просмотр гостевых пользователей в команде
               href: view-guests.md
             - name: Изменение сведений о гостевых пользователях
               href: edit-guests-information.md
@@ -144,7 +144,7 @@
           href: assign-roles-permissions.md
         - name: Назначение политик пользователям
           href: assign-policies.md
-        - name: Просмотр назначений политики в журнале активности
+        - name: Просмотр назначений политик в журнале действий
           href: activity-log.md
         - name: Управление политиками разрешений для приложений в Teams
           href: teams-app-permission-policies.md
@@ -166,7 +166,7 @@
           href: teams-scoped-directory-search.md
         - name: Аналитика и отчеты в центре администрирования Teams
           items:
-            - name: Обзор
+            - name: Общие сведения
               href: teams-analytics-and-reports/teams-reporting-reference.md
             - name: Отчет об использовании Teams
               href: teams-analytics-and-reports/teams-usage-report.md
@@ -180,7 +180,7 @@
               href: teams-analytics-and-reports/pstn-blocked-users-report.md
             - name: 'Отчет о пулах минут, затраченных по ТСОП'
               href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: Отчет об использовании услуг ТСОП
+            - name: Отчет об использовании ТСОП
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Отчет об использовании трансляций в Teams
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
@@ -190,7 +190,7 @@
   items:
     - name: Обзор
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Интеграция с платформой Power Platform
+    - name: Интеграция с Power Platform
       href: teams-power-platfom-integration.md
     - name: Управление приложениями для Teams
       href: manage-apps.md
@@ -198,41 +198,41 @@
       href: admin-settings.md
     - name: Использование встроенных и настраиваемых вкладок
       href: built-in-custom-tabs.md
-    - name: Использование Microsoft 365 или Office 365 и настраиваемых соединителей
+    - name: "Использование Microsoft 365 или Office\_365 и настраиваемых соединителей"
       href: Office-365-custom-connectors.md
-    - name: Согласие на конкретные ресурсы
+    - name: Согласие для определенных ресурсов
       href: resource-specific-consent.md
     - name: Пользовательские приложения
       items:
-        - name: 'Публикация настраиваемого приложения, отправленного с помощью API отправки приложений Teams'
+        - name: 'Публикация настраиваемого приложения, отправленного с помощью API передачи приложений Teams'
           href: submit-approve-custom-apps.md
-        - name: Управление приложениями Power Platform в центре администрирования Microsoft Teams
+        - name: "Управление приложениями Power Platform в Центре администрирования Microsoft\_Teams."
           href: manage-power-platform-apps.md
-        - name: Публикация настраиваемого приложения путем отправки пакета приложения
+        - name: Публикация настраиваемого приложения путем отправки пакета приложений
           href: upload-custom-apps.md
     - name: Сертификация приложения
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Просмотр разрешений приложения и предоставление согласия администратора в центре администрирования Microsoft Teams
+    - name: Просмотр разрешений для приложений и предоставление разрешения администратора в центре администрирования Microsoft Teams
       href: app-permissions-admin-center.md
     - name: Разрешения и рекомендации для приложений
       href: app-permissions.md
-    - name: Приобретение служб для приложений сторонних разработчиков
+    - name: Приобретение услуг для сторонних приложений Teams
       href: purchase-third-party-apps.md
     - name: Шаблоны приложений для Teams
       href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: Управление приложением "списки" для Организации в Teams
+    - name: Управление приложением Lists для организации в Teams
       href: manage-lists-app.md
-    - name: Управление приложением "задачи" для Организации
+    - name: Управление приложением "Задачи" для организации
       href: manage-tasks-app.md
-    - name: Настройка иерархии нацеливания группы
+    - name: Настройка иерархии целей для команды
       href: set-up-your-team-hierarchy.md
-    - name: Управление приложением благодарность в центре администрирования Teams
+    - name: Управление приложением "Благодарность" в Центре администрирования Teams
       href: manage-praise-app.md
     - name: Настройка приложения "Собрания Skype" для работы с Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
 - name: Собрания и конференции
   items:
-    - name: Краткие руководства по началу работы – собрания и динамические мероприятия
+    - name: "Краткое руководство\_— собрания и трансляции"
       href: quick-start-meetings-live-events.md
     - name: Планирование развертывания
       href: deploy-meetings-microsoft-teams-landing-page.md
@@ -240,13 +240,13 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: Планирование
+        - name: План
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
             - name: Поддержка версии
               href: rooms/rooms-lifecycle-support.md
-            - name: Примечания к выпуску
+            - name: Заметки о выпуске
               href: rooms/rooms-release-note.md
             - name: Подготовка среды
               href: rooms/rooms-prep.md
@@ -256,11 +256,11 @@
               href: rooms/rooms-licensing.md
             - name: Планирование управления с помощью Azure Monitor
               href: rooms/azure-monitor-plan.md
-            - name: Управляемая служба комнат Microsoft Teams
+            - name: Управляемая служба "Комнаты Microsoft Teams"
               items:
-                - name: Управление планированием с помощью управляемой службы комнат Microsoft Teams
+                - name: Планирование управления с помощью управляемой службы "Комнаты Microsoft Teams"
                   href: rooms/microsoft-teams-rooms-premium.md
-                - name: Управление доступом на основе ролей с помощью управляемой службы комнат Microsoft Teams
+                - name: Управление доступом на основе ролей с помощью управляемой службы "Комнаты Microsoft Teams"
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Развертывание
           items:
@@ -268,9 +268,9 @@
               href: rooms/rooms-deploy.md
             - name: Настройка учетных записей
               href: rooms/rooms-configure-accounts.md
-            - name: Surface HUB
+            - name: Surface Hub
               items:
-                - name: Настройка согласованных собраний
+                - name: Настройка координированных собраний
                   href: rooms/coordinated-meetings.md
                 - name: Управление параметрами Microsoft Teams
                   href: rooms/surface-hub-manage-config.md
@@ -286,9 +286,9 @@
               href: rooms/console.md
             - name: Настройка проверки подлинности
               href: rooms/rooms-authentication.md
-            - name: Присоединение к собраниям третьих лиц
+            - name: Присоединение к сторонним собраниям
               href: rooms/third-party-join.md
-            - name: С помощью диспетчера конфигураций конечных точек Майкрософт
+            - name: С помощью Microsoft Endpoint Configuration Manager
               href: rooms/rooms-scale.md
             - name: Управление с помощью Azure Monitor
               href: rooms/azure-monitor-deploy.md
@@ -302,7 +302,7 @@
               href: rooms/rooms-manage.md
             - name: Обслуживание и эксплуатация
               href: rooms/rooms-operations.md
-            - name: Поддержка Teams в Организации
+            - name: Поддержка Teams в организации
               href: rooms/known-issues.md
             - name: Устройства с Azure Monitor
               href: rooms/azure-monitor-manage.md
@@ -312,9 +312,9 @@
               href: rooms/recovery-tool.md
     - name: Руководство. Собрания в Teams
       href: Tutorial-Meetings-in-Teams.yml
-    - name: Управление политиками собрания
+    - name: Управление политиками собраний
       href: meeting-policies-in-teams.md
-    - name: Удаление политики собрания RestrictedAnonymousAccess из пользователей
+    - name: Удаление политики собраний RestrictedAnonymousAccess для пользователей
       href: meeting-policies-restricted-anonymous-access.md
     - name: Управление параметрами собраний
       href: meeting-settings-in-teams.md
@@ -324,27 +324,27 @@
       href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
     - name: Включение и отключение объявлений о входе и выходе в собраниях
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-    - name: Использование NDI® технологии в Teams
+    - name: Использование технологии NDI® в Teams
       href: use-NDI-in-meetings.md
-    - name: Функция «поднимите руку» на собраниях Teams
+    - name: Возможность поднять руку на собраниях Teams
       href: raise-hand-meetings.md
     - name: Собрания Teams в неподдерживаемых браузерах
       href: unsupported-browsers.md
     - name: Настройка совместного доступа к рабочему столу в Teams
       href: configure-desktop-sharing.md
-    - name: Запись облачного собрания в Teams
+    - name: Запись собрания Teams в облаке
       href: cloud-recording.md
-    - name: Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
+    - name: Использование OneDrive для бизнеса и SharePoint или Stream для записи собраний
       href: tmr-meeting-recording-change.md
-    - name: Интеграция с центром контактов
+    - name: Интеграция центра контактов
       href: teams-contact-center.md
     - name: "Использование надстройки \"Собрание\_Teams\" в\_Outlook"
       href: teams-add-in-for-outlook.md
     - name: Настройка функции "Позвонить мне" для пользователей
       href: set-up-the-call-me-feature-for-your-users.md
-    - name: Получение отчета о присутствии для собрания
+    - name: Получение отчета о присутствии на собрании
       href: teams-analytics-and-reports/meeting-attendance-report.md
-    - name: Настройка службы переноса собраний (MMS)
+    - name: "Настройка службы переноса собраний\_(MMS)"
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Управление Доской в Teams
       href: manage-whiteboard.md
@@ -352,25 +352,25 @@
       items:
         - name: Планирование развертывания
           href: deploy-audio-conferencing-teams-landing-page.md
-        - name: Голосовые конференции в Microsoft 365
+        - name: "Аудиоконференции в Microsoft\_365"
           href: audio-conferencing-in-office-365.md
-        - name: 'Открыть предварительный просмотр: Конференц-связь по сети для голосовых конференций'
+        - name: 'Открытая предварительная версия: конференц-связь по сети для аудиоконференций'
           href: audio-conferencing-on-network.md
         - name: Общие вопросы об аудиоконференциях
           href: audio-conferencing-common-questions.md
         - name: Руководство. Аудиоконференции в Teams
           href: Tutorial-Audio-Conferencing.yml
-        - name: Попробуйте или купите голосовую конференцию в Microsoft 365
+        - name: Платная или пробная версия аудиоконференций в Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
         - name: Льготный период обратных звонков для аудиоконференций
           href: complimentary-dial-out-period.md
-        - name: Подписка на голосовую подписку "/" позвоните мне по телефону "преимущества"
+        - name: Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
           href: audio-conferencing-subscription-dial-out.md
         - name: Настройка аудиоконференций
           href: set-up-audio-conferencing-in-teams.md
-        - name: Настройка голосовой конференции – краткое руководство для малых и средних предприятий
+        - name: Настройка аудиоконференций — краткое руководство для малых и средних предприятий
           href: audio-conferencing-smb.md
-        - name: Назначение Майкрософт в качестве поставщика услуг аудиоконференций
+        - name: Назначение Майкрософт поставщиком услуг аудиоконференций
           href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Управление мостом аудиоконференций
           items:
@@ -378,11 +378,11 @@
               href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
             - name: Изменение настроек для моста аудиоконференций
               href: change-the-settings-for-an-audio-conferencing-bridge.md
-            - name: Просмотр списка номеров для аудиоконференции
+            - name: Просмотр списка номеров для аудиоконференций
               href: see-a-list-of-audio-conferencing-numbers-in-teams.md
             - name: Установка языков автосекретаря для аудиоконференций
               href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: Настройка подтверждения исходящих подключений к собранию для пользователей
+            - name: Настройка подтверждения присоединения к собранию исходящим звонком для пользователей
               href: set-up-meeting-dial-out-confirmation.md
         - name: Управление настройками аудиоконференций для организации
           href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
@@ -392,25 +392,25 @@
           items:
             - name: Обзор
               href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-            - name: 'Просмотр списка пользователей, активированных для аудиоконференции'
+            - name: Список пользователей с включенными аудиоконференциями
               href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
             - name: Разрешение пользователям записывать свои имена при присоединении к собранию
               href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
             - name: Сброс идентификатора конференции для пользователя
               href: reset-a-conference-id-for-a-user-in-teams.md
-            - name: Сброс ПИН-кода для конференц-связи с телефонным подключением для пользователя
+            - name: Сброс ПИН-кода для аудиоконференции для пользователя
               href: reset-the-audio-conferencing-pin-in-teams.md
             - name: Автоматическая отправка пользователям писем при смене настроек
               href: emails-sent-to-users-when-their-settings-change-in-teams.md
-            - name: Включение и отключение отправки сообщения электронной почты при изменении параметров аудиоконференций
+            - name: Включение и отключение отправки писем при смене настроек аудиоконференций
               href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-            - name: Отключение бесплатных номеров для определенных пользователей
+            - name: Отключение бесплатных номеров для отдельных пользователей
               href: disabling-toll-free-numbers-for-specific-teams-users.md
             - name: Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
               href: outbound-calling-restriction-policies.md
             - name: 'Просмотр и сброс идентификатора конференции, назначенного пользователю'
               href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-            - name: Отправка пользователям электронных писем с информацией о конференции с телефонным подключением
+            - name: Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции
               href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
         - name: Управление настройками собраний для аудиоконференций
           items:
@@ -418,9 +418,9 @@
               href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
             - name: Включение и отключение объявлений о входе и выходе в собраниях
               href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: Установка длины ПИН-кода для аудиоконференции
+            - name: Установка длины ПИН-кода для собраний аудиоконференций
               href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-            - name: 'Указание номеров телефонов, которые можно включать в приглашения'
+            - name: 'Настройка телефонных номеров, включаемых в приглашения'
               href: set-the-phone-numbers-included-on-invites-in-teams.md
             - name: Начало аудиоконференции по телефону без ПИН-кода
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
@@ -430,19 +430,19 @@
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
-            - name: Номера телефонов для аудиоконференции
+            - name: Телефонные номера для аудиоконференций
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Зоны стран и регионов для голосовой конференции
+            - name: Зоны аудиоконференций в различных странах и регионах
               href: audio-conferencing-zones.md
             - name: Видео- и аудиоконференции в Teams
               href: audio-conferencing-videos.md
     - name: Облако видеовзаимодействия
       href: cloud-video-interop.md
-    - name: Трансляции
+    - name: Прямые трансляции
       items:
         - name: "Что такое прямые трансляции\_Teams?"
           href: teams-live-events/what-are-teams-live-events.md
-        - name: "Планирование трансляций\_Teams"
+        - name: "Планирование прямых трансляций\_Teams"
           href: teams-live-events/plan-for-teams-live-events.md
         - name: "Настройка прямых трансляций\_Teams"
           href: teams-live-events/set-up-for-teams-live-events.md
@@ -450,9 +450,9 @@
           href: teams-live-events/set-teams-live-events-policies-using-powershell.md
         - name: Настройка параметров прямых трансляций Teams
           href: teams-live-events/configure-teams-live-events.md
-- name: 'Голосовая связь, телефонная подсистема и PSTN'
+- name: Голосовая связь — телефонная система и связь с ТСОП
   items:
-    - name: Планирование решения голосовых команд
+    - name: Планирование голосового решения в Teams
       href: cloud-voice-landing-page.md
     - name: Телефонная система
       items:
@@ -470,7 +470,7 @@
               href: set-up-phone-system-voicemail.md
             - name: Изменение языка по умолчанию для голосовой почты
               href: change-the-default-language-for-greetings-and-emails.md
-            - name: 'Языки, используемые для приветствий в голосовой почтые и сообщений'
+            - name: Языки для приветствий и сообщений голосовой почты
               href: languages-for-voicemail-greetings-and-messages.md
         - name: Идентификатор звонящего
           items:
@@ -478,7 +478,7 @@
               href: how-can-caller-id-be-used-in-your-organization.md
             - name: Управление политиками идентификации звонящего
               href: caller-id-policies.md
-            - name: Настройка идентификатора абонента для пользователя
+            - name: Настройка идентификатора звонящего для пользователя
               href: set-the-caller-id-for-a-user.md
             - name: Дополнительные сведения об ИД линии вызова и имени вызывающей стороны
               href: more-about-calling-line-id-and-calling-party-name.md
@@ -488,7 +488,7 @@
               href: plan-auto-attendant-call-queue.md
             - name: Настройка автосекретаря
               href: create-a-phone-system-auto-attendant.md
-            - name: Настройка очереди звонков
+            - name: Настройка очереди вызовов
               href: create-a-phone-system-call-queue.md
             - name: 'Пример для малого бизнеса: настройка автосекретаря'
               href: tutorial-org-aa.yml
@@ -500,9 +500,11 @@
               href: set-up-holidays-in-teams.md
             - name: Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Набор номера и голосовая Справка
+            - name: Отчеты
+              href: aa-cq-cqd-historical-reports.md
+            - name: Справочник набора номера и голосовых вызовов
               href: dial-voice-reference.md
-        - name: Блокировать входящие звонки
+        - name: Блокировка входящих звонков
           href: block-inbound-calls.md
         - name: Приостановка и восстановление звонка
           href: call-park-and-retrieve.md
@@ -520,7 +522,7 @@
           href: calling-plan-landing-page.md
         - name: Как купить план звонков
           href: calling-plans-for-office-365.md
-        - name: Расширенное время исходящих звонков для США и Канады
+        - name: Дополнительные минуты исходящих звонков для США и Канады
           href: dial-out-minutes-canada-us.md
         - name: Настройка планов звонков для организации
           href: set-up-calling-plans.md
@@ -540,17 +542,17 @@
           items:
             - name: Обзор
               href: direct-routing-configure.md
-            - name: 'Действие 1: подключение SBC'
+            - name: "Шаг\_1. Подключение SBC"
               href: direct-routing-connect-the-sbc.md
-            - name: 'Действие 2: включение пользователей'
+            - name: Шаг 2. Включение пользователей
               href: direct-routing-enable-users.md
-            - name: 'Шаг 3: Настройка голосовой маршрутизации'
+            - name: Шаг 3. Настройка маршрутизации голосовых вызовов
               href: direct-routing-voice-routing.md
-            - name: 'Шаг 4: перевод номеров телефонов'
+            - name: Шаг 4. Перевод телефонных номеров
               href: direct-routing-translate-numbers.md
             - name: Настройка SBC для нескольких клиентов
               href: direct-routing-sbc-multiple-tenants.md
-            - name: Как использовать аналоговые устройства с прямой маршрутизацией
+            - name: Использование аналоговых устройств при прямой маршрутизации
               href: direct-routing-analog-devices.md
         - name: Маршрутизация на основе расположения
           items:
@@ -568,9 +570,9 @@
               href: direct-routing-configure-media-bypass.md
         - name: Оптимизация локальных файлов мультимедиа для прямой маршрутизации
           items:
-            - name: Планирование оптимизации локального мультимедиа
+            - name: Планирование оптимизации локальных файлов мультимедиа
               href: direct-routing-media-optimization.md
-            - name: Настройка оптимизации локальных носителей
+            - name: Настройка оптимизации локальных файлов мультимедиа
               href: direct-routing-media-optimization-configure.md
         - name: Учетные записи пользователей в гибридной среде со связью с ТСОП
           href: direct-routing-user-accounts-in-a-hybrid-environment.md
@@ -600,19 +602,19 @@
                   href: direct-routing-protocols-SIP.md
                 - name: Протоколы мультимедиа
                   href: direct-routing-protocols-media.md
-            - name: Управление политиками голосовой маршрутизации
+            - name: Управление политиками маршрутизации голосовой связи
               href: manage-voice-routing-policies.md
     - name: Номера телефонов
       items:
-        - name: Управление номерами телефонов организации
+        - name: Управление номерами телефонов для организации
           href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
         - name: 'Типы телефонных номеров, используемые для плана звонков'
           href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-        - name: Получение телефонных номеров для пользователей
+        - name: Получение номеров телефонов для пользователей
           href: getting-phone-numbers-for-your-users.md
         - name: Предоставляемое количество номеров телефонов
           href: how-many-phone-numbers-can-you-get.md
-        - name: Поиск номеров телефонов для пользователей
+        - name: Поиск номеров телефонов пользователей
           href: search-for-phone-numbers-for-users.md
         - name: Просмотр списка телефонных номеров в организации
           href: see-a-list-of-phone-numbers-in-your-organization.md
@@ -652,7 +654,7 @@
           href: configure-dynamic-emergency-calling.md
         - name: Управление адресами для экстренного реагирования
           items:
-            - name: 'Добавление, изменение и удаление местоположения организации для экстренного реагирования'
+            - name: 'Добавление, изменение и удаление расположения для экстренного реагирования для организации'
               href: add-change-remove-emergency-location-organization.md
             - name: 'Добавление, изменение и удаление места для расположения для экстренного реагирования для организации'
               href: add-change-remove-emergency-place-organization.md
@@ -666,11 +668,11 @@
           href: manage-emergency-calling-policies.md
         - name: Управление политиками маршрутизации экстренных вызовов
           href: manage-emergency-call-routing-policies.md
-    - name: Учебный анализ для переноса голосовых учетных записи contoso
+    - name: Пример перехода на Contoso Voice
       items:
-        - name: Обзор
+        - name: Общие сведения
           href: voice-case-study-overview.md
-        - name: План обновления Teams
+        - name: План перехода на Teams
           href: voice-case-study-migration-plan.md
         - name: Телефонная система
           href: voice-case-study-phone-system.md
@@ -678,7 +680,7 @@
           href: voice-case-study-location-based-routing.md
         - name: Экстренные вызовы
           href: voice-case-study-emergency-calling.md
-        - name: Аудиоконференция
+        - name: Аудиоконференции
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
@@ -688,13 +690,13 @@
           items:
             - name: Управление номерами телефонов в Австралии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: Управление номерами телефонов для Австрии
+            - name: Управление номерами телефонов в Австрии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
             - name: Управление номерами телефонов в Бельгии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Управление номерами телефонов в Канаде
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: Управление номерами телефонов для Дании
+            - name: Управление номерами телефонов в Дании
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
             - name: Управление номерами телефонов во Франции
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
@@ -702,23 +704,23 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
             - name: Управление номерами телефонов в Ирландии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: Управление номерами телефонов для Италии
+            - name: Управление номерами телефонов в Италии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: Управление номерами телефонов для Японии
+            - name: Управление номерами телефонов в Японии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: Управление номерами телефонов для Португалия
+            - name: Управление номерами телефонов в Португалии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
             - name: Управление номерами телефонов в Испании
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Управление номерами телефонов в Нидерландах
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: Управление номерами телефонов для Швеции
+            - name: Управление номерами телефонов в Швеции
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: Управление номерами телефонов для Швейцарии
+            - name: Управление номерами телефонов в Швейцарии
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: Управление номерами телефонов для Великобритании
+            - name: "Управление номерами телефонов в\_Соединенном Королевстве"
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: Управление телефонными номерами для Соединенных Штатов
+            - name: "Управление номерами телефонов в\_США"
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Ограничения и запреты для бесплатных номеров
           items:
@@ -736,11 +738,11 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: Белиз
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Босния и Герцеговина
+            - name: Босния & Герцеговина
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: Бразилия
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: Бруней
+            - name: Бруней-Даруссалам
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
             - name: Болгария
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
@@ -796,7 +798,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
             - name: Мексика
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: Молдавия
+            - name: Молдова
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
             - name: Монако
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
@@ -830,7 +832,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
             - name: Южная Африка
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: Южная Корея
+            - name: Республика Корея
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
             - name: Испания
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
@@ -846,7 +848,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
             - name: Объединенные Арабские Эмираты
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: Великобритания
+            - name: Соединенное Королевство
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
             - name: Уругвай
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
@@ -901,7 +903,7 @@
           href: teams-adoption-onboard-support.md
     - name: Этап 3 — масштабирование
       items:
-        - name: Масштабирование
+        - name: Масштаб
           href: teams-adoption-phase3-enable.md
         - name: Определение результатов и критериев успеха
           href: teams-adoption-define-outcomes.md
@@ -929,11 +931,11 @@
               href: upgrade-define-project-scope.md
             - name: Общие сведения о сосуществовании и взаимодействии
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Общие сведения о параметрах подключения для телефонной системы и PSTN
+            - name: Общие сведения о телефонной системе и параметрах связи с ТСОП
               href: cloud-voice-landing-page.md
             - name: Выбор процедуры обновления
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: Планирование пилотной версии пользователя
+            - name: Планирование пилотного развертывания для пользователей
               href: pilot-essentials.md
         - name: Подготовка среды для Teams
           items:
@@ -941,7 +943,7 @@
               href: upgrade-prepare-environment.md
             - name: Подготовка ИТ-персонала к использованию Teams
               href: upgrade-prepare-IT-pros.md
-            - name: Необходимые компоненты
+            - name: Предварительные условия
               href: upgrade-plan-journey-prerequisites.md
             - name: Оценка среды
               href: upgrade-plan-journey-evaluate-environment.md
@@ -951,7 +953,7 @@
           items:
             - name: Обзор готовности организации
               href: upgrade-prepare-organization.md
-            - name: Оценка готовности организации к изменению
+            - name: Оценка готовности к организационным изменениям
               href: upgrade-org-change-readiness.md
             - name: Подготовка плана готовности пользователей
               href: upgrade-user-readiness.md
@@ -977,23 +979,23 @@
               href: upgrade-to-teams-on-prem-overview.md
             - name: Способы обновления
               href: upgrade-to-teams-on-prem-upgrade-methods.md
-            - name: Инструменты для управления обновлением
+            - name: Средства управления обновлением
               href: upgrade-to-teams-on-prem-tools.md
-            - name: Рекомендации для организаций с локальными приложениями Skype для бизнеса
+            - name: Рекомендации для организаций с локальным Skype для бизнеса
               href: upgrade-to-teams-on-prem-considerations.md
             - name: Реализация перехода
               href: upgrade-to-teams-on-prem-implement.md
             - name: Сосуществование Teams и Skype для бизнеса
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: Рекомендации по PSTN
+            - name: Рекомендации по ТСОП
               href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: Режимы сосуществования — справочные материалы
+            - name: Режимы сосуществования — справочник
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
               href: teams-client-experience-and-conformance-to-coexistence-modes.md
         - name: Настройка сосуществования и обновления
           href: setting-your-coexistence-and-upgrade-settings.md
-        - name: Вначале собрания
+        - name: Сначала собрания
           href: meetings-first.md
 - name: Гибридное подключение
   items:
@@ -1005,7 +1007,7 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
         - name: Настройка Azure AD Connect для гибридной среды
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-        - name: Настройка гибридного развертывания Skype для бизнеса
+        - name: Настройка гибридной среды Skype для бизнеса
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
     - name: Перемещение пользователей между локальной средой и облаком
       items:
@@ -1013,13 +1015,13 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
         - name: Перемещение пользователей из локальной среды в Teams
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-        - name: Перемещение локальных пользователей в Skype для бизнеса Online
+        - name: Перемещение пользователей из локальной среды в Skype для бизнеса Online
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
         - name: Перемещение пользователей из облака в локальную среду
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
         - name: Управление миграцией собраний
           href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-    - name: Отключение гибридного развертывания для завершения миграции в облако
+    - name: Отключение гибридной среды для завершения миграции в облако
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
     - name: Развертывание топологии леса ресурсов
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
@@ -1033,17 +1035,17 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
     - name: Интеграция с Exchange и SharePoint
       href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: Корпоративная голосовая связь Microsoft 365
+- name: Голосовая связь Microsoft 365 бизнес
   items:
     - name: Что такое корпоративная голосовая связь Microsoft 365?
       href: business-voice/whats-business-voice.md
-    - name: Доступность страны и региона
+    - name: Доступность в странах и регионах
       href: business-voice/country-region-availability.md
     - name: Что нужно знать перед приобретением
       items:
         - name: 'Что нужно приобрести, чтобы получить корпоративную голосовую связь'
           href: business-voice/what-to-buy.md
-        - name: Получение помощи от торгового посредника или партнера
+        - name: Обратитесь за помощью к торговому посреднику или партнеру
           href: business-voice/reseller-partner-support.md
         - name: Проверка подключения к Интернету
           href: business-voice/get-ready-internet.md
@@ -1077,7 +1079,7 @@
           href: business-voice/manage-devices.md
         - name: Отслеживание качества звонка
           href: business-voice/monitor-quality.md
-        - name: Панель мониторинга качества вызовов
+        - name: Панель мониторинга качества звонков
           href: business-voice/analytics-dashboard.md
     - name: Ресурсы для партнеров
       href: business-voice/partner-resources.md
@@ -1096,13 +1098,13 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams для сферы здравоохранения
       items:
-        - name: Начало работы с Teams для организаций здравоохранения
+        - name: Начало работы с Teams для организаций в сфере здравоохранения
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Виртуальные посещения
+        - name: Виртуальные визиты
           items:
-            - name: Виртуальные посещения с помощью Teams – интеграция с EHR
+            - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Виртуальные визиты с резервированием и командами
+            - name: Виртуальные визиты с помощью Bookings и Teams
               href: bookings-app-admin.md
         - name: Просмотр и назначение пакетов политик
           href: policy-packages-healthcare.md
@@ -1112,21 +1114,21 @@
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Делегирование сообщений
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Шаблоны групп
+        - name: Шаблоны Teams
           items:
-            - name: Использование шаблонов здравоохранения в Teams
+            - name: Использование шаблонов Teams для здравоохранения
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Шаблоны групп для здравоохранения
+            - name: Шаблоны Teams для здравоохранения
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Управление приложением "списки"
+        - name: Управление приложением "Списки"
           href: manage-lists-app.md
-        - name: Управление приложением "задачи"
+        - name: Управление приложением "Задачи"
           href: manage-tasks-app.md
         - name: '"Смены" для Teams'
           items:
             - name: '"Смены" для Teams'
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Управление приложением "Смена"
+            - name: Управление приложением "Смены"
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams для образовательных учреждений
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1135,15 +1137,15 @@
           href: teams-quick-start-edu.yml
         - name: Начало работы с удаленным обучением
           href: remote-learning-edu.md
-        - name: Политики и пакеты политик для Teams
+        - name: Политики и пакеты политик для Teams EDU
           href: policy-packages-edu.md
-        - name: Назначение политик большим наборам пользователей
+        - name: Назначение политик для крупных наборов пользователей
           href: batch-group-policy-assignment-edu.md
         - name: Сценарий PowerShell для создания групп безопасности для преподавателей и учащихся
           href: scripts/powershell-script-security-groups-edu.md
-        - name: Рекомендации по низкой пропускной способности для администраторов образования
+        - name: Инструкции по низкой пропускной способности для администраторов образовательных учреждений
           href: edu-remote-low-bandwidth.md
-        - name: Приступая к работе с аналитическим представлением
+        - name: Начало работы с Аналитикой
           href: class-insights.md
         - name: Задания в Teams для образовательных учреждений
           href: expand-teams-across-your-org/assignments-in-teams.md
@@ -1155,37 +1157,37 @@
           href: install-moodle-integration.md
         - name: Лицензирование Teams для образовательных учреждений
           href: teams-edu-licensing.md
-        - name: Справочник по образовательной конфигурации
+        - name: Справочник по SKU для образовательных учреждений
           href: sku-reference-edu.md
-    - name: Teams для Firstline работников
+    - name: Teams для сотрудников без компьютеров
       items:
-        - name: Краткое руководство для сотрудников Firstline
+        - name: Краткое руководство для сотрудников без компьютеров
           href: firstline-workers-quickstart.yml
-        - name: Firstline работников с заданной в сценарии развернутым
+        - name: Развертывание с помощью скрипта для сотрудников без компьютеров
           href: flw-scripted-deployment.md
-        - name: Управление доступом на основе смены для FirstLine работников
+        - name: Управление доступом на основе смен для сотрудников без компьютеров
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear для Microsoft Teams
           href: flw-realwear.md
-        - name: Очень рация
+        - name: Walkie Talkie
           href: walkie-talkie.md
-        - name: Создание приложения портала Teams в интрасети с сайта SPO или со страницы
+        - name: Создание приложения портала интрасети Teams с сайта или страницы SPO
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams для розничной торговли
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Начало работы с шаблонами розничных групп в центре администрирования
+        - name: Начало работы с шаблонами Teams для розничной торговли в центре администрирования
           href: retail-teams-templates-in-the-admin-console.md
         - name: Начало работы с шаблонами Teams для розничной торговли
           href: get-started-with-retail-teams-templates.md
     - name: Teams для государственных организаций
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
-        - name: Поддержка удаленных работников (WFH)
+        - name: Поддержка удаленных сотрудников (WFH)
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: Начало работы с правительственными шаблонами групп
+        - name: Начало работы с шаблонами Teams для государственных организаций
           href: government-teams-templates-in-the-admin-console.md
-        - name: Управление пробным предложением Office 365 G1
+        - name: Управление предложением пробной версии Office 365 G1
           href: g1-trial-license.md
         - name: Планирование развертываний Microsoft 365 для государственных организаций — GCC
           href: plan-for-government-gcc.md
@@ -1195,7 +1197,7 @@
           href: plan-for-government-dod.md
         - name: Аудиоконференции с прямой маршрутизацией для GCC High и DoD
           href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: Пакеты политики Teams для государственных организаций
+        - name: Пакеты политик Teams для государственных организаций
           href: policy-packages-gov.md
 - name: 'Безопасность, конфиденциальность и соответствие требованиям'
   items:
@@ -1219,19 +1221,19 @@
           href: block-access-sharepoint.md
     - name: Соответствие требованиям
       items:
-        - name: Барьеры информации
+        - name: Информационные барьеры
           href: information-barriers-in-teams.md
         - name: Политики хранения
           href: retention-policies.md
-        - name: Соответствие требованиям к общению
+        - name: Соответствие требованиям к обмену данными
           href: communication-compliance.md
-        - name: Запись на основе политики для звонков & собраний
+        - name: Запись на основе политики для вызовов & собраний
           href: teams-recording-policy.md
         - name: Защита от потери данных
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Обнаружение электронных данных
           items:
-            - name: Проведение исследований обнаружения электронных данных
+            - name: Обнаружение электронных данных
               href: ediscovery-investigation.md
             - name: Помещение пользователя или команды Teams на удержание по юридическим причинам
               href: legal-hold.md
@@ -1245,7 +1247,7 @@
       items:
         - name: Конфиденциальность и Microsoft Teams
           href: teams-privacy.md
-        - name: Принципы сбора данных
+        - name: Рекомендации по сбору данных
           href: data-collection-practices.md
         - name: Расположение данных в Teams
           href: location-of-data-in-teams.md
@@ -1253,11 +1255,11 @@
           href: block-access-sharepoint.md
         - name: Общие сведения об управлении политикой
           href: policy-control-overview.md
-        - name: Данные диагностики для мобильных устройств
+        - name: Диагностические данные мобильных устройств
           href: policy-control-diagnostic-data-mobile.md
-        - name: Диагностические данные клиента для настольных систем
+        - name: Диагностические данные клиента для настольных ПК
           href: policy-control-diagnostic-data-desktop.md
-        - name: Необязательный подключенный опыт
+        - name: необязательные сетевые функции.
           href: teams-privacy-oce-overview.md
 - name: 'Отслеживание, управление и устранение неполадок'
   items:
@@ -1267,43 +1269,43 @@
       href: upgrade-enhance-my-service.md
     - name: Отслеживание качества звонка и управление им
       items:
-        - name: Мониторинг и улучшение качества связи
+        - name: Отслеживание и улучшение качества звонка
           href: monitor-call-quality-qos.md
-        - name: Панель мониторинга качества звонков (CQD)
+        - name: Панель мониторинга качества звонка (ПМКЗ)
           items:
-            - name: Что такое CQD?
+            - name: Что такое ПМКЗ?
               href: CQD-what-is-call-quality-dashboard.md
-            - name: Настройка CQD
+            - name: Настройка ПМКЗ
               href: turning-on-and-using-call-quality-dashboard.md
             - name: Отправка клиента и создание данных
               href: CQD-upload-tenant-building-data.md
-            - name: Данные CQD и отчеты
+            - name: Данные и отчеты ПМКЗ
               href: CQD-data-and-reports.md
-            - name: Использование CQD для управления качеством звонков и собраний
+            - name: Использование ПМКЗ для управления качеством звонков и собраний
               href: quality-of-experience-review-guide.md
             - name: Вопросы и ответы
               href: CQD-frequently-asked-questions.md
-            - name: 'Измерения и меры, доступные в CQD'
+            - name: Измерения и меры на ПМКЗ
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Классификация потоков в CQD
+            - name: Классификация потоков в ПМКЗ
               href: stream-classification-in-call-quality-dashboard.md
-            - name: Создание схемы здания
+            - name: Создание карты здания
               href: CQD-building-mapping.md
-            - name: Анализ данных CQD с помощью Power BI
+            - name: Использование Power BI для анализа данных ПМКЗ
               items:
-                - name: Анализ данных CQD с помощью Power BI
+                - name: Использование Power BI для анализа данных ПМКЗ
                   href: CQD-Power-BI-query-templates.md
-                - name: Установка соединителя Power BI для использования шаблонов запросов CQD
+                - name: Установка соединителя Power BI для использования шаблонов запросов ПМКЗ
                   href: CQD-Power-BI-connector.md
-                - name: Получение данных CQD в использовании Teams
+                - name: Получение данных ПМКЗ об использовании Teams
                   href: CQD-teams-utilization-report.md
-                - name: Использование отчета о прямой маршрутизации CQD PSTN
+                - name: Использование отчета прямой маршрутизации ПМКЗ по ТСОП
                   href: CQD-PSTN-report.md
-        - name: Анализ звонков
+        - name: Аналитика звонков
           items:
-            - name: Настройка средства аналитики звонков
+            - name: Настройка аналитики звонков
               href: set-up-call-analytics.md
-            - name: Использование средства аналитики звонков для устранения неудовлетворительного качества связи
+            - name: Использование аналитики звонков для устранения проблем с качеством звонка
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
         - name: Качество обслуживания (QoS)
           items:
@@ -1311,7 +1313,7 @@
               href: QoS-in-Teams.md
             - name: Настройка качества обслуживания в клиентах Windows
               href: QoS-in-Teams-clients.md
-    - name: Устранение неполадок Teams
+    - name: Устранение неполадок с Microsoft Teams
       href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
     - name: Устранение неполадок при установке и обновлении
       href: troubleshoot-installation.md
@@ -1343,7 +1345,7 @@
           href: tutorial-network-planner-example.yml
         - name: Прокси-серверы для Teams или Skype для бизнеса Online
           href: proxy-servers-for-skype-for-business-online.md
-        - name: Планирование групп Microsoft 365 при создании групп в Teams
+        - name: "Планирование использования групп Microsoft 365 при создании команд в\_Teams"
           href: plan-office-365-groups.md
         - name: "Планирование управления жизненным циклом в\_Teams"
           href: plan-teams-lifecycle.md
@@ -1353,7 +1355,7 @@
       items:
         - name: Работа с клиентами для Teams
           href: get-clients.md
-        - name: Получение Teams для Android в Китае
+        - name: Получение Microsoft Teams для Android в Китае
           href: get-teams-android-in-china.md
         - name: Аппаратные требования для приложения Teams
           href: hardware-requirements-for-the-teams-app.md
@@ -1365,7 +1367,7 @@
           href: Office-365-set-up.md
         - name: Использование памяти в Microsoft Teams
           href: teams-memory-usage-perf.md
-        - name: URL-адреса и диапазоны IP-адресов для Microsoft 365 и Office 365
+        - name: "URL-адреса и диапазоны IP-адресов в Microsoft 365 и Office\_365."
           href: office-365-urls-ip-address-ranges.md
         - name: Teams для инфраструктуры виртуальных рабочих столов (VDI)
           href: teams-for-vdi.md
@@ -1379,33 +1381,33 @@
       items:
         - name: Управление доступом пользователей к Teams
           href: user-access.md
-        - name: Варианты лицензий для надстройки Teams
+        - name: Варианты лицензий для дополнительных Teams
           href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
-        - name: Назначение лицензий на надстройки Teams
+        - name: Назначать дополнительные лицензии для Teams
           href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: Управление пробным предложением Office 365 E1
+        - name: Управление предложением пробной версии Office 365 E1
           href: e1-trial-license.md
-        - name: Управление пробным предложением Office 365 G1
+        - name: Управление предложением пробной версии Office 365 G1
           href: g1-trial-license.md
         - name: Управление предложением Teams Exploratory
           href: teams-exploratory.md
         - name: Управление бесплатной версией Teams
           href: manage-freemium.md
-        - name: Обновление команд бесплатно до версии подписки
+        - name: Перевод бесплатной версии Teams на версию по подписке
           href: upgrade-freemium.md
-        - name: Улучшенная связь
+        - name: Расширенные коммуникации
           href: teams-add-on-licensing/advanced-communications.md
         - name: Лицензирование политик обмена сообщениями
           href: teams-add-on-licensing/pri-message.md
-        - name: Телефонная система Microsoft 365 – лицензия виртуальных пользователей
+        - name: Microsoft 365 Phone System - лицензия виртуального пользователя
           href: teams-add-on-licensing/virtual-user.md
     - name: Взаимодействие с Microsoft 365 и Office 365
       items:
-        - name: Группы и команды Microsoft 365
+        - name: Группы Microsoft 365 и Teams
           href: office-365-groups.md
-        - name: Создание учетной записи ресурса Microsoft 365 с помощью центра администрирования Microsoft 365
+        - name: Создание учетной записи ресурса Microsoft 365 с помощью Центра администрирования Microsoft 365
           href: devices/resource-account-ui.md
-        - name: Улучшение существующих групп Microsoft 365 с помощью Teams
+        - name: "Улучшение существующих групп Microsoft 365 с помощью\_Teams"
           href: enhance-office-365-groups.md
         - name: Взаимодействие Exchange и Teams
           href: exchange-teams-interact.md
@@ -1416,7 +1418,7 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
           href: sharepoint-onedrive-interact.md
-        - name: Взаимодействие Teams в Microsoft 365 или Office 365 с поддержкой нескольких географических возможностей
+        - name: Взаимодействие с Teams в клиенте Microsoft 365 или Office 365 с поддержкой нескольких регионов
           href: teams-experience-o365odb-spo-multi-geo.md
     - name: Поддерживаемые устройства
       items:
@@ -1424,15 +1426,15 @@
           href: devices/device-management.md
         - name: Удаленное обновление устройств
           href: devices/remote-update.md
-        - name: Управление тегами устройств в Teams
+        - name: Управление тегами устройств Teams
           href: devices/manage-device-tags.md
         - name: Телефоны для Teams
           href: devices/phones-for-teams.md
-        - name: Команды отображаются
+        - name: Дисплеи Teams
           href: devices/teams-displays.md
-        - name: Переход на отображение команд на телефоны Teams
+        - name: Обновление телефонов Teams до дисплеев Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Развертывание команд "телефоны" и "команды" отображаются с помощью Intune
+        - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
           href: devices/phones-displays-deploy.md
         - name: USB-устройства для аудио и видео
           href: devices/usb-devices.md
@@ -1448,13 +1450,13 @@
       items:
         - name: Обзор
           href: teams-powershell-overview.md
-        - name: Установка оболочки PowerShell для Teams
+        - name: Установка PowerShell в Teams
           href: teams-powershell-install.md
-        - name: Управление группами с помощью PowerShell Teams
+        - name: Управление Teams с помощью PowerShell в Teams
           href: teams-powershell-managing-teams.md
-        - name: Заметки о выпуске оболочки PowerShell для Teams
+        - name: Заметки о выпуске PowerShell в Teams
           href: teams-powershell-release-notes.md
-        - name: Переход из соединителя Skype для бизнеса Online в модуль PowerShell Teams
+        - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
           href: teams-powershell-move-from-sfbo.md
         - name: Справочник по командлетам для Teams
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1464,7 +1466,7 @@
       href: get-help-in-microsoft-teams.md
     - name: Обновления контента Teams
       href: teams-updates.md
-    - name: Как найти ПИН-код в службе поддержки
+    - name: Как найти ПИН-код поддержки
       href: support-pin.md
     - name: Доступность аудиоконференций и планов звонков в различных странах и регионах
       items:
@@ -1474,7 +1476,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
         - name: Алжир
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
-        - name: Атнтигуа и Барбуда
+        - name: Антигуа и Барбуда
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
         - name: Аргентина
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
@@ -1498,13 +1500,13 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
         - name: Бенин
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
-        - name: Бермудские острова
+        - name: Бермуды
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: Босния и Герцеговина
+        - name: Босния & Герцеговина
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: Бразилия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
-        - name: Бруней
+        - name: Бруней-Даруссалам
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
         - name: Болгария
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
@@ -1522,7 +1524,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
         - name: Колумбия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
-        - name: Costa Rica
+        - name: Коста-Рика
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
         - name: Хорватия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
@@ -1540,7 +1542,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
         - name: Египет
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
-        - name: El Salvador
+        - name: Эль-Сальвадор
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
         - name: Эстония
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
@@ -1594,7 +1596,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
         - name: Люксембург
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: Республика Македония
+        - name: Северная Македония
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
         - name: Малайзия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
@@ -1602,7 +1604,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
         - name: Мексика
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
-        - name: Молдавия
+        - name: Молдова
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
         - name: Монако
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
@@ -1616,7 +1618,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
         - name: Нигерия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
-        - name: Северные Марианские острова
+        - name: Северные Марианские о-ва
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
         - name: Норвегия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
@@ -1658,11 +1660,11 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
         - name: Южная Африка
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
-        - name: Южная Корея
+        - name: Республика Корея
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
         - name: Испания
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
-        - name: Sri Lanka
+        - name: Шри-Ланка
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
         - name: Швеция
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
@@ -1678,17 +1680,17 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
         - name: Турция
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
-        - name: Острова Теркс и Кайкос
+        - name: О-ва Теркс и Кайкос
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
         - name: Уганда
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
         - name: Украина
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
-        - name: Объединенные Арабские Эмираты (ОАЭ)
+        - name: Объединенные Арабские Эмираты
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
         - name: Соединенное Королевство
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
-        - name: США
+        - name: Соединенные Штаты
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
         - name: Уругвай
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
@@ -1696,19 +1698,19 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
         - name: Вьетнам
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
-    - name: Специальные возможности и соответствие
+    - name: Специальные возможности и соответствие требованиям
       items:
         - name: Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams
           href: accessibility-declaration-of-conformance-in-france-for-teams.md
         - name: Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams
           href: accessibility-solutions-in-france.md
-        - name: Планы звонков в Microsoft 365 — кодекс обучения в Великобритании
+        - name: Планы звонков в Microsoft 365 — нормы и правила для Великобритании
           href: code-of-practice-for-the-united-kingdom-u-k.md
-        - name: Планы звонков в Microsoft 365 – обработка кода для Великобритании на основе жалоб
+        - name: Планы звонков в Microsoft 365 — процедура подачи претензий для Великобритании
           href: complaint-handling-code-for-the-united-kingdom-u-k.md
-        - name: 'Условия и положения, распространяющиеся на экстренные вызовы'
+        - name: Условия для экстренных вызовов
           href: emergency-calling-terms-and-conditions.md
-    - name: Обновление анкеты для поиска
+    - name: Обновление анкеты для обнаружения
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Экспорт контента с помощью API экспорта Microsoft Teams
       href: export-teams-content.md

@@ -13,12 +13,12 @@ f1.keywords:
 description: Обзор интегрированного центра управления контактами как службы (CCaaS) для Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee029be0d3d908820a4bf9f7cdabdb03c9e6ec83
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c9f8b331161ed4886f5e811fe7ed985af4cf12df
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988306"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085691"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Интеграция с центром контактов для Microsoft Teams
 
@@ -48,6 +48,7 @@ Microsoft Teams поддерживает рабочие потоки взаим�
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
+| "Специалист по контенту" | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |

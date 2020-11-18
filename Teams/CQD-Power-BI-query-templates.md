@@ -16,22 +16,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Проанализируйте данные CQD в Microsoft Teams с помощью Power BI.
-ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908648"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085573"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Анализ данных CQD в Microsoft Teams с помощью Power BI
 
-Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
+Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://www.microsoft.com/download/details.aspx?id=102291). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
 
 Если вы хотите использовать Power BI для запроса и создания отчетов о ваших данных, скачайте шаблоны CQD для CQD Power BI в Teams. Когда вы открываете шаблоны в Power BI, вам будет предложено выполнить вход с учетными данными администратора CQD. Вы можете настроить эти шаблоны запросов и распространить их среди всех пользователей в Организации, у которых есть лицензия на Power BI и разрешения администратора CQD.
 
-Прежде чем вы сможете использовать эти файлы PBIT-, вам потребуется [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Прежде чем вы сможете использовать эти файлы PBIT-, вам потребуется [установить соединитель Power BI для Microsoft CQD](CQD-Power-BI-connector.md) с помощью файла *MicrosoftCallQuality. PQx* , включенного в файл для [скачивания](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Убедитесь в том, что у вас есть права [доступа CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) для доступа к отчетам Power BI. 
+Убедитесь в том, что у вас есть права [доступа CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) для доступа к отчетам Power BI. 
 
 |  |  |
 |---------|---------|

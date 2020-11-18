@@ -1,9 +1,9 @@
 ---
-title: Использование CQD Power BI для просмотра автосекретаря & исторический отчет "очередь звонков"
-ms.author: colongma
-author: clyvr
-manager: roykuntz
-ms.reviewer: mikedav, siunies, gageames
+title: Автосекретарь & исторический отчет "очередь звонков"
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
+ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,68 +21,81 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-- seo-marvel-apr2020
 description: Узнайте о том, как использовать отчет Power BI панели мониторинга качества звонков для просмотра автосекретаря и журнальных данных в очереди звонков.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
+ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
 ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085583"
+ms.locfileid: "49085720"
 ---
-# <a name="what-are-the-requirements"></a>Каковы требования? 
+# <a name="auto-attendant--call-queue-historical-report"></a>Автосекретарь & исторический отчет "очередь звонков"
+
+Следующие три отчета включают в себя CQD группового авто& секретаря, постановки в очередь звонков с помощью шаблона Power BI.
+
+- Автосекретарь: отображает аналитические звонки, поступающие в автоматические ассистенты.
+- Очередь звонков — показана аналитика для звонков, поступающих в очереди звонков.
+- Временная шкала агента — отображает представление временной шкалы агентов, активных в вызовах очереди звонков.
+
+Эти отчеты используют данные из хранилища данных [панели мониторинга качества звонков](CQD-Power-BI-query-templates.md) и позволяют организациям сообщать о количестве звонков, которые обрабатываются автосекретарем, и о том, что очередь звонков работает в очереди звонков.
+
+## <a name="what-are-the-requirements"></a>Каковы требования? 
+
 Необходимо установить Power BI Desktop. Вы можете установить его из [магазина Microsoft Windows](https://aka.ms/pbidesktopstore).
 
 Вы можете использовать бесплатную версию Power BI Desktop. Минимальная совместимая версия — 2.85.681.0 (Сентябрь 2020).
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Разрешения на доступ к конвейеру CQD
+
 Учетная запись, которую вы используете для просмотра CQ аналитического отчета "AA &, должны иметь разрешения на доступ к конвейеру CQD данных. Для получения дополнительных сведений обратитесь к [роли доступа CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) .
 
 ## <a name="installation"></a>Установка 
+
 Описанные ниже действия предполагают, что на компьютере уже установлен Power BI Desktop и что у вашей учетной записи есть необходимые разрешения на доступ к конвейеру данных CQD.
 
 Выполните указанные ниже действия.
-- Скачайте [шаблон отчета CQD & Teams](https://aka.ms/TAPAACQAnalytics) и сохраните его в каталоге на своем компьютере.
-- Дважды щелкните шаблон и запустите Power BI Desktop.
+- Скачайте [шаблоны запросов Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) и сохраните ZIP-файл в каталоге на своем компьютере.
+- Дважды щелкните ZIP-файл, чтобы открыть его.
+- Дважды щелкните файл шаблона "CQ and AA, объединенный с 20201105. pbit-" и запустите Power BI Desktop.
 - Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится ваш клиент.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: выбор области конвейера данных CQD":::
 
  - Вы можете просмотреть область с помощью командлета PS Skype для бизнеса Online (Get-CsTenant). ServiceInstance Output. 
  Регион будет отображаться после того, как в этом примере: microsoftcommunicationsonline/Северная-4A-S7, где регион — Северная.
  - Отчет будет запущен с образцом данных.
  - Чтобы просмотреть свои данные, нажмите кнопку **Обновить** на вкладке Главная в разделе запросы в Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: выбор параметра "Обновить"":::
 
 - После этого вам будет предложено выполнить вход. Выберите пункт **учетная запись организации** и нажмите кнопку **Вход**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана, на котором показан вход":::
 
 - Нажмите кнопку Подключить и просмотрите данные, **связанные** с обновлением.
 
-## <a name="data-latency-any-aa--cq-analytics"></a>Задержки в данных любая & AA CQ аналитика
+## <a name="data-latency-and-aa--cq-analytics"></a>& "задержка данных" и "AA" CQ аналитика
+
 Данные будут доступны в конвейере данных CQD в течение 30 минут.
 
 Чтобы увидеть новые аналитические данные, вам потребуется обновить данные. 
 
 ## <a name="customization"></a>Выполнен 
+
 Вы можете настраивать определенные аспекты зрительных образов отчетов, например добавлять или удалять поля, которые будут отображаться в различных визуализациях, изменяя тип диаграммы и т. д.
 
 Добавлять дополнительные поля данных, отличные от тех, которые содержатся в отчете, нельзя.
 
 ### <a name="change-color-schema"></a>Изменение схемы цвета 
+
 Следующие действия предполагают, что вы уже завершили этапы установки.
 
 Выполните указанные ниже действия.
 - На ленте выберите **вкладку Вид** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "вид" для изменения цветовой схемы":::
 
 - Выберите цветовую схему из раскрывающегося списка.
-
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
-
 
 ## <a name="cqd-fields-description"></a>Описание полей CQD
 
@@ -91,7 +104,7 @@ ms.locfileid: "49085583"
 |Удостоверение автосекретаря                 |подстрок                   |Имя учетной записи ресурса, присоединенной к AA<br>Пример: aa_test@microsoft.com|
 |Время начала цепочки автосекретаря         |datetime                 |Время начала цепочки AA                    |
 |Метод поиска в каталоге для автоматического ассистента  |подстрок                   |Метод поиска в последней адресной книге        |
-|Действие передачи для автосекретаря          |подстрок                   |Тип целевого объекта передачи звонка<br>Возможные значения<br>§ не указан неизвестный тип субъекта<br>§ пользователь — Пользовательская сущность<br>§ orgaa — сущность "Автоматический секретарь для организаций"<br>§ hunt_group — сущность "очередь звонков"<br>§ приложение — сущность приложения для голосового сообщения<br>§ external_pstn-внешняя компания PSTN<br>§ shared_voicemail — общая Голосовая почта|
+|Действие передачи для автосекретаря          |подстрок                   |Тип целевого объекта передачи звонка<br>возможные значения:<br>§ не указан неизвестный тип субъекта<br>§ пользователь — Пользовательская сущность<br>§ orgaa — сущность "Автоматический секретарь для организаций"<br>§ hunt_group — сущность "очередь звонков"<br>§ приложение — сущность приложения для голосового сообщения<br>§ external_pstn-внешняя компания PSTN<br>§ shared_voicemail — общая Голосовая почта|
 |Результат звонка для автосекретаря              |подстрок                   |Результат звонка:<br>§ Unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
 |Поток звонков для автосекретаря                |подстрок                   |Инкапсулирует различные состояния звонка автосекретаря<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ объявление|
 |Включен ли автоматический секретарь              |Boolean                  |Указывает, участвует ли в звонке AA. |
@@ -113,18 +126,18 @@ ms.locfileid: "49085583"
 |Имя                                    |Тип данных                |Описание                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Название AA                                   |подстрок                   |Идентификатор автосекретаря (ИД учетной записи ресурса) |
-|AACallFlow                              |подстрок                   |Инкапсулирует различные состояния звонка автосекретаря<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>объявление |
-|AACallResult                            |подстрок                   |Результат автоматического звонка:<br>§ Unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – ошибка конфигурации AA<br>§ service_terminated – ошибки внутренних AA<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AACallFlow                              |подстрок                   |Инкапсулирует различные состояния звонка автосекретаря<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ объявление |
+|AACallResult                            |подстрок                   |Результат автоматического звонка:<br>§ Unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – ошибка конфигурации AA<br>§ service_terminated – ошибки внутренних AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |подстрок                   |Продолжительность звонка автосекретаря в секундах  |
 |AACount                                 |подстрок                   |число автосекретаря, задействованного в звонке         |
-|AADirectorySearchMethod                 |подстрок                   |Метод поиска, используемый в звонке:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
-|AAStartTime                             |подстрок                   |Время вызова в формате UTC                            |
+|AADirectorySearchMethod                 |подстрок                   |Метод поиска, используемый в звонке:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
+|AAStartTime                             |подстрок                   |Время вызова в формате UTC      |
 |AATransferAction                        |подстрок                   |Получатель звонка:<br>§ не указан неизвестный тип субъекта<br>§ пользователь — Пользовательская сущность<br>§ AA — сущность автосекретаря Организации<br>§ CQ — объект очереди звонков<br>§ приложение — сущность приложения для голосового сообщения<br>§ external_pstn-внешняя компания PSTN<br>§ shared_voicemail — общая Голосовая почта      |
 |PSTNMinutes                             |целое                      |Общее использование минут                          |
-|Результат вызова очереди звонков                  |подстрок                   |Очередь звонков — Заключительное состояние<br>возможные значения:<br>§ Ошибка<br>§ отклонено<br>§ overflown<br>§ не удалось<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Результат вызова очереди звонков                  |подстрок                   |Очередь звонков — Заключительное состояние<br>возможные значения:<br>§ Ошибка<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
 |Удостоверение очереди звонков                     |подстрок                   |Имя учетной записи ресурса, прикрепленной к CQ     |
 |Тип целевого объекта очереди звонков                  |подстрок                   |Конечный тип перенаправления вызова:<br>§ User (пользователь)<br>§ Конечная точка приложения<br>§ Other     |
-|Результат вызова очереди звонков                  |подстрок                   |Очередь звонков — Заключительное состояние<br>возможные значения:<br>§ Ошибка<br>§ отклонено<br>§ overflown<br>§ не удалось<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
+|Результат вызова очереди звонков                  |подстрок                   |Очередь звонков — Заключительное состояние<br>возможные значения:<br>§ Ошибка<br>§ отклонено<br>§ overflown<br>§ не удалось<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
 |Действие в конечном состоянии очереди звонков           |подстрок                   |Последнее действие "очередь звонков"<br>возможные значения:<br>§ Forward (вперед)<br>§ Отключение<br>§ Голосовая почта<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other             |
 |Имя агента                              |подстрок                   |Имя участника-пользователя               |
 
@@ -175,5 +188,6 @@ ms.locfileid: "49085583"
 
 
 ## <a name="known-issues"></a>Известные проблемы
+
 - В настоящее время очередь звонков и автоматический секретарь отображают идентификаторы учетных записей ресурсов вместо имен очереди звонков и автосекретаря.  Чтобы показать весь трафик для автосекретаря или очереди звонков, необходимо выбрать все учетные записи ресурсов, назначенные автосекретарьу или списку звонков.
 - В настоящее время на панели мониторинга доступна только 28 дней, так как данные очереди звонков и сведения о автосекретарях рассматриваются как конечные пользователи, которые подпадают под политику хранения данных о конфиденциальности.

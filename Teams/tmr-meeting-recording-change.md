@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11a5e01105cde728c0efbda46a38c4643a332bf
-ms.sourcegitcommit: 803a7acf628819e4edd95bd7a67867bb9ebdd344
+ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073160"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085553"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -37,7 +37,7 @@ ms.locfileid: "49073160"
 |Развертывание начинается с 7 июля 2021 г. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Обучение пользователей**<br>Новые записи собрания невозможно сохранить в Microsoft Stream (классическая версия); для всех пользователей в OneDrive для бизнеса и SharePoint автоматически будут сохраняться записи о собраниях, даже если они изменили политики собрания Teams на **Stream**. Мы рекомендуем клиентам устранить эту функцию до этой даты, чтобы они могли управлять временем выпуска. Мы обновили это расписание, чтобы предоставить пользователям для образования возможность заполнить прохождения в состоянии полугодия. |
 
 > [!Note]
-> Корпорация Майкрософт рекомендует корпоративным и образовательным пользователям, чтобы лучше управлять изменением в вашей организации, а не ждать, пока вы не забудете. 
+> Корпорация Майкрософт рекомендует корпоративным и образовательным пользователям, чтобы лучше управлять изменением в вашей организации, а не ждать, пока вы не забудете.
 
 В Microsoft Teams имеется новый способ сохранения записей собраний. В качестве первого этапа перехода из классической версии Microsoft Stream в [новый поток](https://docs.microsoft.com/stream/streamnew/new-stream)этот метод сохраняет записи в Microsoft OneDrive для бизнеса и SharePoint в Microsoft 365 и предоставляет множество преимуществ.
 
@@ -85,7 +85,7 @@ ms.locfileid: "49073160"
 
 2. Запуск PowerShell с правами администратора
 
-3. Импортируйте соединитель SkypeOnline и войдите в систему как администратор Teams.
+3. Импортируйте соединитель SkypeOnline и войдите в качестве администратора Teams.
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -101,7 +101,7 @@ ms.locfileid: "49073160"
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Отказ от OneDrive для бизнеса и SharePoint для продолжения использования потока
 
-Даже если политика сообщает, что она настроена на **поток** , она может быть не настроена. Как правило, если политика не задана, по умолчанию используется значение **Stream**. Однако если вы хотите отказаться от использования SharePoint или OneDrive для бизнеса с помощью этого нового изменения, необходимо сбросить политику в **Stream** , чтобы убедиться, что она используется по умолчанию.
+Даже если политика сообщает, что она настроена на **поток**, она может быть не настроена. Как правило, если политика не задана, по умолчанию используется значение **Stream**. Однако если вы хотите отказаться от использования SharePoint или OneDrive для бизнеса с помощью этого нового изменения, необходимо сбросить политику в **Stream** , чтобы убедиться, что она используется по умолчанию.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -130,7 +130,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>OneDrive для бизнеса</i> / с записью **Записи**
 
-- Для собраний по каналам запись сохраняется в библиотеке документации сайта Teams в папке с именем Records ( **записи** ). Образом
+- Для собраний по каналам запись сохраняется в библиотеке документации сайта Teams в папке с именем Records ( **записи**). Образом
 
   <i>Имя группы: название канала</i> / **Документы** / **Записи**
 
@@ -156,9 +156,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 Закрытые субтитры не полностью поддерживаются в том случае, если запись собрания Teams перемещается или копируется из исходного расположения в OneDrive для бизнеса или SharePoint.
 
-**Как будет влиять квота хранилища**
+**Как будет влиять квота хранилища?**
 
-Файлы записываются в OneDrive для бизнеса и SharePoint с помощью группового собрания, которые включены в вашу квоту для этих служб. Ознакомьтесь с [квотой SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) и [квота OneDrive для бизнеса] ( https://docs.microsoft.com/onedrive/set-default-storage-space) .
+Файлы записываются в OneDrive для бизнеса и SharePoint с помощью группового собрания, которые включены в вашу квоту для этих служб. Для просмотра квоты [SharePoint](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) и [квоты OneDrive для бизнеса](https://docs.microsoft.com/onedrive/set-default-storage-space).
+
+Вы получаете больше места для хранения данных в [OneDrive для бизнеса](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) с помощью Stream и более fungible хранилища с помощью SharePoint.
 
 **Как можно воспроизвести запись собрания группы?**
 
