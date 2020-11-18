@@ -166,7 +166,7 @@
           href: teams-scoped-directory-search.md
         - name: Аналитика и отчеты в центре администрирования Teams
           items:
-            - name: Общие сведения
+            - name: Обзор
               href: teams-analytics-and-reports/teams-reporting-reference.md
             - name: Отчет об использовании Teams
               href: teams-analytics-and-reports/teams-usage-report.md
@@ -426,7 +426,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справка
+        - name: Справочные материалы
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Справочник набора номера и голосовых вызовов
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Блокировка входящих звонков
           href: block-inbound-calls.md
         - name: Приостановка и восстановление звонка
@@ -670,7 +672,7 @@
           href: manage-emergency-call-routing-policies.md
     - name: Пример перехода на Contoso Voice
       items:
-        - name: Общие сведения
+        - name: Обзор
           href: voice-case-study-overview.md
         - name: План перехода на Teams
           href: voice-case-study-migration-plan.md
@@ -684,7 +686,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справка
+    - name: Справочные материалы
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -1329,7 +1331,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справка
+- name: Справочные материалы
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
