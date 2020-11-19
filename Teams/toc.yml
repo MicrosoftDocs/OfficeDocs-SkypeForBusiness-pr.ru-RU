@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Настройка очереди вызовов
               href: create-a-phone-system-call-queue.md
-            - name: 'Пример для малого бизнеса: настройка автосекретаря'
-              href: tutorial-org-aa.yml
-            - name: 'Пример для малого бизнеса: настройка очереди вызовов'
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Управление учетными записями ресурсов Teams
               href: manage-resource-accounts.md
             - name: Настройка праздников
@@ -945,7 +941,7 @@
               href: upgrade-prepare-environment.md
             - name: Подготовка ИТ-персонала к использованию Teams
               href: upgrade-prepare-IT-pros.md
-            - name: Предварительные условия
+            - name: Необходимые компоненты
               href: upgrade-plan-journey-prerequisites.md
             - name: Оценка среды
               href: upgrade-plan-journey-evaluate-environment.md
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Перенос номеров телефонов
           href: business-voice/port-phone-numbers.md
-        - name: Настройка автосекретарей
-          href: business-voice/set-up-auto-attendants.md
         - name: Настройка политик звонков
           href: business-voice/set-up-policies.md
         - name: Управление пакетами политик
           href: business-voice/policy-packages.md
         - name: Создание дополнительных пользователей
           href: business-voice/create-users.md
+        - name: 'Пример: Настройка очереди звонков'
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Настройка очередей звонков
           href: business-voice/set-up-call-queues.md
+        - name: 'Пример: Настройка автосекретаря'
+          href: tutorial-org-aa.yml
+        - name: Настройка автосекретарей
+          href: business-voice/set-up-auto-attendants.md
     - name: Управление настройкой
       items:
         - name: Создание одного или нескольких пользователей
