@@ -14,16 +14,17 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031635"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130630"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams
 
@@ -52,7 +53,7 @@ ms.locfileid: "49031635"
 
 ## <a name="make-sure-your-networks-ready"></a>Проверка готовности сети
 
-Если вы уже подготовили свою сеть при развертывании Microsoft 365 или Office 365, возможно, у вас все настроено. В любом случае, особенно если вы быстро развертываете Teams в качестве первой рабочей нагрузки Office 365 для поддержки **удаленных сотрудников** , ознакомьтесь со статьей [Подготовка сети организации к использованию Teams](prepare-network.md), чтобы убедиться в своей готовности.
+Если вы уже подготовили свою сеть при развертывании Microsoft 365 или Office 365, возможно, у вас все настроено. В любом случае, особенно если вы быстро развертываете Teams в качестве первой рабочей нагрузки Office 365 для поддержки **удаленных сотрудников**, ознакомьтесь со статьей [Подготовка сети организации к использованию Teams](prepare-network.md), чтобы убедиться в своей готовности.
 
 ## <a name="meetings-and-conferencing"></a>Собрания и конференции
 

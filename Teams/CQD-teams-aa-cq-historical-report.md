@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Узнайте о том, как использовать отчет Power BI панели мониторинга качества звонков для просмотра автосекретаря и журнальных данных в очереди звонков.
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085583"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130430"
 ---
 # <a name="what-are-the-requirements"></a>Каковы требования? 
 Необходимо установить Power BI Desktop. Вы можете установить его из [магазина Microsoft Windows](https://aka.ms/pbidesktopstore).
@@ -43,21 +43,27 @@ ms.locfileid: "49085583"
 
 Выполните указанные ниже действия.
 - Скачайте [шаблон отчета CQD & Teams](https://aka.ms/TAPAACQAnalytics) и сохраните его в каталоге на своем компьютере.
+
 - Дважды щелкните шаблон и запустите Power BI Desktop.
+
 - Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится ваш клиент.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
 
  - Вы можете просмотреть область с помощью командлета PS Skype для бизнеса Online (Get-CsTenant). ServiceInstance Output. 
- Регион будет отображаться после того, как в этом примере: microsoftcommunicationsonline/Северная-4A-S7, где регион — Северная.
+ Регион будет отображаться после того, как в этом примере: 
+ 
+   microsoftcommunicationsonline/Северная-4A-S7, где находится область Северная.
+   
  - Отчет будет запущен с образцом данных.
+ 
  - Чтобы просмотреть свои данные, нажмите кнопку **Обновить** на вкладке Главная в разделе запросы в Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
 
 - После этого вам будет предложено выполнить вход. Выберите пункт **учетная запись организации** и нажмите кнопку **Вход**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
 
 - Нажмите кнопку Подключить и просмотрите данные, **связанные** с обновлением.
 
@@ -77,11 +83,11 @@ ms.locfileid: "49085583"
 Выполните указанные ниже действия.
 - На ленте выберите **вкладку Вид** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
 
 - Выберите цветовую схему из раскрывающегося списка.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Снимок экрана: кнопка панели мониторинга качества звонка в центре администрирования Teams":::
 
 
 ## <a name="cqd-fields-description"></a>Описание полей CQD
@@ -176,4 +182,5 @@ ms.locfileid: "49085583"
 
 ## <a name="known-issues"></a>Известные проблемы
 - В настоящее время очередь звонков и автоматический секретарь отображают идентификаторы учетных записей ресурсов вместо имен очереди звонков и автосекретаря.  Чтобы показать весь трафик для автосекретаря или очереди звонков, необходимо выбрать все учетные записи ресурсов, назначенные автосекретарьу или списку звонков.
+
 - В настоящее время на панели мониторинга доступна только 28 дней, так как данные очереди звонков и сведения о автосекретарях рассматриваются как конечные пользователи, которые подпадают под политику хранения данных о конфиденциальности.

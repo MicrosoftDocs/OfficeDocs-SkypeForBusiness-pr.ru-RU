@@ -1,31 +1,16 @@
 ---
-title: Что такое трансляции Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: В этой статье рассказывается о том, как в реальном времени пользователи могут широковещательно передавать видео и содержимое в крупные сетевые аудитории в Teams, Yammer и в потоке.
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085563"
+Заголовок: что такое мероприятия Microsoft Teams Live? Автор: lanachin MS. author: v-Lanac Manager: serdars мсек. раздел: Общие сведения о MS. Service: MS. Collection: 
+  - M365 — совместная работа
+  - m365initiative — собрания
+  - m365solution — "
+- m365solution-сценарий MS. Review: sonua аудитория: "Поиск в Интернете". appverid: MET150 описание: сведения о том, как просматривайте события, позволяющие пользователям транслировать видео и содержимое для крупных групповых аудиторий в Teams, Yammer и в потоке.
+F1. Ключевые слова. 
+- CSH MS. Custom:
+  - MS. teamsadmincenter. Dashboard. helparticle. liveevents
+  - appliesTo для MS. teamsadmincenter. liveevents. Policies: 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое события Microsoft Teams Live
 
 ## <a name="overview"></a>Обзор

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Узнайте о том, как использовать отчет Power BI панели мониторинга качества звонков для просмотра автосекретаря и журнальных данных в очереди звонков.
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085720"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130410"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Автосекретарь & исторический отчет "очередь звонков"
 
@@ -54,23 +54,31 @@ ms.locfileid: "49085720"
 Описанные ниже действия предполагают, что на компьютере уже установлен Power BI Desktop и что у вашей учетной записи есть необходимые разрешения на доступ к конвейеру данных CQD.
 
 Выполните указанные ниже действия.
+
 - Скачайте [шаблоны запросов Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) и сохраните ZIP-файл в каталоге на своем компьютере.
+
 - Дважды щелкните ZIP-файл, чтобы открыть его.
+
 - Дважды щелкните файл шаблона "CQ and AA, объединенный с 20201105. pbit-" и запустите Power BI Desktop.
+
 - Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится ваш клиент.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: выбор области конвейера данных CQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Снимок экрана: выбор области конвейера данных CQD":::
 
- - Вы можете просмотреть область с помощью командлета PS Skype для бизнеса Online (Get-CsTenant). ServiceInstance Output. 
- Регион будет отображаться после того, как в этом примере: microsoftcommunicationsonline/Северная-4A-S7, где регион — Северная.
+ - Вы можете просмотреть область с помощью командлета PowerShell Skype для бизнеса Online (Get-CsTenant). ServiceInstance Output. 
+ Регион будет отображаться после того, как в этом примере:
+
+   microsoftcommunicationsonline/Северная-4A-S7, где находится область Северная.
+ 
  - Отчет будет запущен с образцом данных.
+ 
  - Чтобы просмотреть свои данные, нажмите кнопку **Обновить** на вкладке Главная в разделе запросы в Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: выбор параметра "Обновить"":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Снимок экрана: выбор параметра "Обновить"":::
 
 - После этого вам будет предложено выполнить вход. Выберите пункт **учетная запись организации** и нажмите кнопку **Вход**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана, на котором показан вход":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Снимок экрана, на котором показан вход":::
 
 - Нажмите кнопку Подключить и просмотрите данные, **связанные** с обновлением.
 
@@ -93,9 +101,11 @@ ms.locfileid: "49085720"
 Выполните указанные ниже действия.
 - На ленте выберите **вкладку Вид** .
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "вид" для изменения цветовой схемы":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки "вид" для изменения цветовой схемы":::
 
 - Выберите цветовую схему из раскрывающегося списка.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Снимок экрана, на котором показаны различные цветовые схемы":::
 
 ## <a name="cqd-fields-description"></a>Описание полей CQD
 
@@ -121,11 +131,11 @@ ms.locfileid: "49085720"
 |Задействована очередь звонков                  |Boolean                  |Если в результате вызова очереди вызовов этот звонок равен 1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>Измерения модели данных PowerBI
+### <a name="power-bi-data-model-dimensions"></a>Измерения модели данных Power BI
 
 |Имя                                    |Тип данных                |Описание                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Название AA                                   |подстрок                   |Идентификатор автосекретаря (ИД учетной записи ресурса) |
+|Название AA                                   |подстрок                   |ИДЕНТИФИКАТОР автосекретаря (ИД учетной записи ресурса) |
 |AACallFlow                              |подстрок                   |Инкапсулирует различные состояния звонка автосекретаря<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ объявление |
 |AACallResult                            |подстрок                   |Результат автоматического звонка:<br>§ Unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – ошибка конфигурации AA<br>§ service_terminated – ошибки внутренних AA<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |подстрок                   |Продолжительность звонка автосекретаря в секундах  |
@@ -189,5 +199,6 @@ ms.locfileid: "49085720"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-- В настоящее время очередь звонков и автоматический секретарь отображают идентификаторы учетных записей ресурсов вместо имен очереди звонков и автосекретаря.  Чтобы показать весь трафик для автосекретаря или очереди звонков, необходимо выбрать все учетные записи ресурсов, назначенные автосекретарьу или списку звонков.
+- В настоящее время очередь звонков и автоматический секретарь отображают идентификатор учетной записи ресурса вместо имен "очередь звонков" и "Авто-секретарь".  Чтобы показать весь трафик для автосекретаря или очереди звонков, необходимо выбрать все учетные записи ресурсов, назначенные автосекретарьу или списку звонков.
+
 - В настоящее время на панели мониторинга доступна только 28 дней, так как данные очереди звонков и сведения о автосекретарях рассматриваются как конечные пользователи, которые подпадают под политику хранения данных о конфиденциальности.

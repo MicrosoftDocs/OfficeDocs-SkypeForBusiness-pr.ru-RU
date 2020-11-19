@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Сведения о наборе бесплатных номеров в Египет, включая доступность, пропускную или стационарную и мобильную сеть, а также ограничения.
-ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938428"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130670"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Ограничения набора бесплатных номеров в Египте
 
@@ -44,7 +44,7 @@ ms.locfileid: "44938428"
 |Охватываемая территория  <br/> |Неприменимо  <br/> |
 |Неохватываемая территория  <br/> |Неприменимо  <br/> |
 |Доступность проводных и наземных линий связи  <br/> |Только для абонентов Telecom Egypt.  <br/> |
-|Доступность мобильных сетей  <br/> |Да  <br/> |
+|Доступность мобильных сетей  <br/> |Нет  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Нет  <br/> |
    
 ## <a name="related-topics"></a>Статьи по теме

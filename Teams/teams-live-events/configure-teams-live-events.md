@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 description: Сведения о том, как управлять параметрами для событий Teams, которые хранятся в Организации.
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f3731a43e16b7853a4370a61b848499383d51ffc
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030895"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130620"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 

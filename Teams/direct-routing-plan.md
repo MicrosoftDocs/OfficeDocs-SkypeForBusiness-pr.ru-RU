@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Сведения о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030705"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130640"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -235,6 +235,8 @@ contoso.com|Да|**Допустимые имена:**<br/>sbc1.contoso.com<br/>s
 
 Чтобы разрешить входящий и исходящий трафик для отправки сигналов, необходимо открыть порты для всех этих IP-адресов в брандмауэре.  Если брандмауэр поддерживает DNS-имена, полное доменное имя **SIP-ALL.pstnhub.Microsoft.com** разрешается всем этим IP-адресам. 
 
+> [!IMPORTANT]
+>  В рамках функций прямого перенаправления и усовершенствования служб в Teams вы развернули новые экземпляры инфраструктуры прямой маршрутизации в Австралии. Это относится к двум дополнительным IP-адресам (52.114.16.74 и 52.114.20.29), к которым разрешаются следующие полные доменные имена для клиентов, использующих Австралийский способ: sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com и sip3.pstnhub.microsoft.com. Вы должны добавить эти два IP-адреса (52.114.16.74 и 52.114.20.29) в списки управления доступом по IP-адресу (ACL) и открыть порты для всех этих IP-адресов в брандмауэре, чтобы разрешить входящий и исходящий трафик на адреса и из них для сигналов.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Среда Office 365 GCCH и по требованию
 
