@@ -1,5 +1,5 @@
 ---
-title: Вход в Teams с современной проверкой подлинности
+title: Вход в Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944193"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350571"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Вход в Microsoft Teams
 ==========================
@@ -102,7 +102,7 @@ ms.locfileid: "48944193"
 
 |Платформа |Ключ  |Значение  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Включено**. Единственной разрешенной учетной записью является управляемая учетная запись пользователя, определяемая ключом IntuneMAMUPN.<br> **Отключено** (или любое другое значение, не соответствующее с учетом регистра значению **Включено** ). Разрешены любые учетные записи.        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Включено**. Единственной разрешенной учетной записью является управляемая учетная запись пользователя, определяемая ключом IntuneMAMUPN.<br> **Отключено** (или любое другое значение, не соответствующее с учетом регистра значению **Включено**). Разрешены любые учетные записи.        |
 |iOS     |   **IntuneMAMUPN**      |   UPN учетной записи, которой разрешен вход в Teams.<br> Для устройств, зарегистрированных в Intune, может использоваться маркер {{userprincipalname}} для представления зарегистрированной учетной записи.       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Разрешены только управляемые учетные записи пользователей, определенные этим ключом.<br> Одно или несколько имен участников-пользователей (UPN), разделенных точками с запятой (;).<br> Для устройств, зарегистрированных в Intune, может использоваться маркер {{userprincipalname}} для представления зарегистрированной учетной записи.
 

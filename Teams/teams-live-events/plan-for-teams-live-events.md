@@ -32,24 +32,24 @@ ms.locfileid: "49130590"
 При планировании трансляций в Teams для проведения крупных собраний в организации необходимо учесть ряд факторов перед началом настройки.
 
 > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+> Подробные сведения о трансляциях Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).Дополнительные сведения о требованиях к пропускной способности для трансляций в Teams см. в разделе [подготовка организации](../prepare-network.md).
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Кто может посещать, создавать и планировать трансляции
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+Любой пользователь может принять участие в трансляции без лицензии. См. статью [Краткое руководство для администраторов: собрания и трансляции ](../quick-start-meetings-live-events.md).
 
 Следующие предварительные условия необходимы для пользователя, чтобы запланировать живое событие Команды.
 
 Ниже перечислены лицензии, которые необходимы для создания или показа трансляций Teams.  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- Лицензия Microsoft или Office 365 корпоративный E1, E3 или E5 либо лицензия Office 365 для образования A3 или A5. Исключением из этого требования является то, что гостевые пользователи могут работать без лицензии, если соблюдены другие критерии для [гостевых пользователей](plan-for-teams-live-events.md#guest-to-present).
 - Лицензия Microsoft Teams включена в лицензии, перечисленные в первом маркере.
 - Если вы планируете предоставлять общий доступ к контенту для внешнего приложения или устройства, потребуется лицензия Microsoft Stream —. см. [Лицензирование Microsoft Stream](https://docs.microsoft.com/stream/license-overview).
 
   Пользователям не потребуется назначенная лицензия Microsoft Stream, если нужно, чтобы у пользователей была возможность только записывать и скачивать собрания. Это означает, что записи будут храниться не в Microsoft Stream, а в Azure Media Services (AMS) в течение 180 дней, после чего они будут удалены. В настоящее время у администраторов нет возможности управлять этой функцией, в том числе и возможности удалять ее.
 
 >[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи перешли на OneDrive для бизнеса и SharePoint для записей собраний.
 
 > [!NOTE]
 > В настоящее время не существует планов Microsoft 365 для малого бизнеса, которые можно использовать для создания и хранения трансляций Teams.
@@ -84,7 +84,7 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 2. Пользователь должен принять гостевое приглашение и присоединиться к команде.
 3. [Запланируйте трансляцию и добавьте гостя в свою группу события](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+Рекомендуется создать канал для организаторов и выступающих трансляции, чтобы они могли общаться в чате и делиться сведениями перед трансляцией. Гости, не имеющие учетных данных Microsoft 365, не увидят календарь в Teams. Чтобы упростить для них присоединение к событию, организаторы могут опубликовать ссылку на него в канале. После этого выступающие смогут открыть Teams, перейти в канал и щелкнуть ссылку, чтобы присоединиться к событию.
 
 ## <a name="who-can-watch-live-events"></a>Кто может смотреть трансляции
 
@@ -142,12 +142,12 @@ As a best practice, we recommend that you create a channel for producers and pre
 |Отчет о посещаемости после трансляции для продюсеров |&#x2714; |&#x2714; |&#x274C; |
 |Анализ настроений аудитории - Голосование в реальном времени и опросы |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
+<sup>1</sup> Установленные ограничения могут быть изменены. См. статью [Ограничения и спецификации для Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Вы можете использовать до 250 докладчиков и организаторов в трансляции, но в списке отображаются только последние 10 выступавших.
 
 ## <a name="regional-availability"></a>Доступность в регионах
 
-You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
+Вы можете использовать живые события Teams в разных регионах мира. Следующая информация показывает доступность для членов команды и участников мероприятия.
 
 > [!IMPORTANT]
 > Регион для мероприятия выбирается автоматически в зависимости от организатора и местоположения арендатора Microsoft 365.
@@ -183,7 +183,7 @@ You can use Teams live events in multiple regions across the world. The followin
 **Исключения и соображения**
 
 - **Расположение данных:** расположения данных Teams, за исключением перечисленных выше, в настоящее время не поддерживаются.
-- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+- **Китай:** члены команды и участники мероприятия не смогут использовать прямые трансляции команд, так как Azure CDN недоступен в Китае. Обходной путь - использовать корпоративное VPN-соединение, которое подключает клиента к CDN через корпоративную сеть клиента.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
