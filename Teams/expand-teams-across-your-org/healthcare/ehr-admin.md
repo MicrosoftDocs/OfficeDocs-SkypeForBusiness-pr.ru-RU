@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Настройка системы виртуальных посещений с помощью Microsoft Teams
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790461"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355969"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Виртуальные посещения с помощью Teams – интеграция с EHR
 
@@ -91,7 +91,7 @@ ms.locfileid: "48790461"
 
 Чтобы выполнить это действие, администратор Microsoft 365 должен получить действительный базовый URL-адрес для ресурсов с быстрой совместимостью (FHIR) от администратора Microsoft 365 и имя пользователя администратора, который будет утверждать конфигурацию. Чтобы начать процесс настройки, администратор Microsoft 365 должен запустить страницу конфигурации соединителя и войти с помощью учетных данных Майкрософт.
 
-- Базовый URL-адрес FHIR является статическим адресом, соответствующим конечной точке сервера FHIR API. Пример URL-адреса [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) .
+- Базовый URL-адрес FHIR является статическим адресом, соответствующим конечной точке сервера FHIR API. Пример URL-адреса `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` .
 
 - Имя утверждающего конфигурации — это имя системного администратора, который будет ответственен за утверждение конфигурации.
 

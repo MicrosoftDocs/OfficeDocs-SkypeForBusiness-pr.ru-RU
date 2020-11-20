@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гватемала.
-ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878033"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349145"
 ---
 # <a name="availability-in-guatemala"></a>Доступность в Гватемала
 
@@ -44,16 +44,16 @@ ms.locfileid: "44878033"
 |Доступно ли приобретение аудиоконференций?  <br/> |Да. Оплата только за минуту.  <br/> |
 |Номера телефонов автоматически назначаются для аудио конференций?  <br/> | Нет |
 |Возможность дозвона с помощью функции «Позвони мне»  <br/> | Требуются кредиты связи <br/> |
-   
+
 ## <a name="phone-system"></a>Телефонная система
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-|Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
-   
+
 ## <a name="calling-plans"></a>Планы звонков
 
 |**Функция**|**Details**|
@@ -63,15 +63,15 @@ ms.locfileid: "44878033"
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
 Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Cuidad де Гватемала<br/> |
-|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Телефонные номера доступны только в пределах страны.|
 |Доступны ли бесплатно бесплатные номера?  <br/> |Нет  <br/> |
-   
+
  Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
@@ -79,7 +79,7 @@ ms.locfileid: "44878033"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступны ли кредиты на связь?  <br/> |Да  <br/> |
-   
+
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Статьи по теме
@@ -87,4 +87,3 @@ ms.locfileid: "44878033"
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
