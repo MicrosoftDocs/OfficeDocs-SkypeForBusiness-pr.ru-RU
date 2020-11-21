@@ -1,16 +1,33 @@
 ---
-Заголовок: что такое мероприятия Microsoft Teams Live? Автор: lanachin MS. author: v-Lanac Manager: serdars мсек. раздел: Общие сведения о MS. Service: MS. Collection: 
-  - M365 — совместная работа
-  - m365initiative — собрания
-  - m365solution — "
-- m365solution-сценарий MS. Review: sonua аудитория: "Поиск в Интернете". appverid: MET150 описание: сведения о том, как просматривайте события, позволяющие пользователям транслировать видео и содержимое для крупных групповых аудиторий в Teams, Yammer и в потоке.
-F1. Ключевые слова. 
-- CSH MS. Custom:
-  - MS. teamsadmincenter. Dashboard. helparticle. liveevents
-  - appliesTo для MS. teamsadmincenter. liveevents. Policies: 
-  - Microsoft Teams
+title: Что такое трансляции Microsoft Teams?
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: В этой статье рассказывается о том, как в реальном времени пользователи могут широковещательно передавать видео и содержимое в крупные сетевые аудитории в Teams, Yammer и в потоке.
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373475"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое события Microsoft Teams Live
 
 ## <a name="overview"></a>Обзор
@@ -50,14 +67,12 @@ Teams предоставляет возможность организаторо
 
 - **Teams**: Этот производственный метод позволяет пользователям создавать свои события Live в Teams с помощью веб-камеры или с помощью входных данных из системы комнат в Teams. Этот параметр является лучшим и наиболее быстрым вариантом, если вы хотите использовать аудио-и видеоустройства, подключенные к компьютеру, или пригласить удаленных докладчиков для участия в событии. Этот параметр позволяет пользователям с легкостью использовать веб-камеры и демонстрировать свой экран в качестве входных данных в событии.
 
-    ![событие Live, созданное с помощью метода быстрого запуска](../media/teams-live-events-quick-start.png "Снимок экрана, показывающий событие Live, созданное с помощью метода краткого запуска производства")
-
 - **Внешнее приложение или устройство**: внешние кодировщики позволяют пользователям создавать свои прямые события непосредственно из внешнего аппаратного или программного кодировщика с [потоком](https://stream.microsoft.com). Этот параметр лучше использовать в том случае, если у вас уже есть оборудование QoS (например, Media Mixers), поддерживающее потоковую передачу в службу протокола передачи сообщений в реальном времени (RTMP). Этот тип производства обычно используется в крупномасштабных событиях, например в hallsном городе, где один поток из микшера мультимедиа передается аудитории.
 
     ![событие Live, созданное с помощью внешнего приложения или устройства.](../media/teams-live-events-external-encoder.png "Снимок экрана, показывающий событие Live, которое создается с помощью внешнего приложения или производственного метода устройства")
 
 >[!Note]
-> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре вам потребуется отказаться от использования, если вы хотите продолжить применение Stream. В начале 2021 г. мы потребуем, чтобы все пользователи использовали OneDrive для бизнеса и SharePoint для новых записей собраний.
+> Переход с использования Microsoft Stream на [OneDrive для бизнеса и SharePoint для записей собраний](../tmr-meeting-recording-change.md) будет поэтапным процессом. При запуске вы сможете согласиться на использование этого интерфейса. В ноябре потребуется отказаться от использования, если вы хотите продолжить использование Stream. В начале 2021 г. мы сделаем использование OneDrive для бизнеса и SharePoint для новых записей собраний обязательным для всех пользователей.
 
 ### <a name="streaming-platform"></a>Потоковая платформа
 
