@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-november-16-2020"></a>Неделя 16 ноября 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11/16/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 11/16/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
+| 11/16/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 11/16/2020 | [Анализ данных CQD в Microsoft Teams с помощью Power BI](/MicrosoftTeams/cqd-power-bi-query-templates) | Изменено |
+| 11/16/2020 | [Использование CQD Power BI для просмотра автосекретаря & исторический отчет "очередь звонков"](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | Изменено |
+| 11/16/2020 | [Назначение политик вашим пользователям в Microsoft Teams](/MicrosoftTeams/assign-policies) | Изменено |
+| 11/16/2020 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 11/16/2020 | [Microsoft 365 правительственные учреждения — развертывание GCC](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
+| 11/16/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 11/16/2020 | [Интеграция Teams с Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | Изменено |
+| 11/17/2020 | [Использование CQD Power BI для просмотра автосекретаря & исторический отчет "очередь звонков"](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | Изменено |
+| 11/17/2020 | [Автосекретарь & исторический отчет "очередь звонков"](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
+| 11/17/2020 | [Планы звонков для Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | Изменено |
+| 11/17/2020 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 11/17/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 11/17/2020 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 11/17/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 11/17/2020 | [Управление номерами телефонов в Канаде](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | Изменено |
+| 11/17/2020 | [Управление телефонными номерами для Соединенных Штатов](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | Изменено |
+| 11/17/2020 | [Управление приложением "задачи" для Организации в Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | Изменено |
+| 11/17/2020 | [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
+| 11/17/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
+| 11/17/2020 | [Расширенная надстройка для связи в Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Изменено |
+| 11/17/2020 | [Отчет о присутствии в собраниях Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | Изменено |
+| 11/17/2020 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
+| 11/17/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 11/17/2020 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
+| 11/17/2020 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 11/17/2020 | [Ограничения набора бесплатных номеров в Египте](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | Изменено |
+| 11/18/2020 | [Доступность в Гватемала](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | Изменено |
+| 11/18/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 11/18/2020 | [Команды для виртуальных посетителей](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 11/18/2020 | [Вход в Microsoft Teams](/MicrosoftTeams/sign-in-teams) | Изменено |
+| 11/18/2020 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 11/19/2020 | [Команды для виртуальных посетителей](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Изменено |
+| 11/19/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 11/20/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
+| 11/20/2020 | [Вход в Microsoft Teams](/MicrosoftTeams/sign-in-teams) | Изменено |
+
+
 ## <a name="week-of-november-09-2020"></a>Неделя 9 ноября 2020 г.
 
 
@@ -320,95 +365,3 @@
 | 10/23/2020 | [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | Изменено |
 | 10/23/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
 | 10/23/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-
-
-## <a name="week-of-october-12-2020"></a>Неделя 12 октября 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 10/12/2020 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
-| 10/12/2020 | [Использование шаблонов здравоохранения в группе "центр администрирования"](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
-| 10/12/2020 | [Начало работы с Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
-| 10/12/2020 | [Начало работы с финансовыми шаблонами Teams с помощью центра администрирования](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Использование общих шаблонов групп в центре администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Начало работы с шаблонами Teams для розничной торговли](/MicrosoftTeams/get-started-with-retail-teams-templates) | Изменено |
-| 10/12/2020 | [Создание новой команды с помощью шаблонов Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Использование шаблонов правительства группы в центре администрирования](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Начало работы с шаблонами производства Teams в центре администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Использование розничных шаблонов Teams в центре администрирования](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | Изменено |
-| 10/12/2020 | [Краткое руководство по управлению Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | Изменено |
-| 10/12/2020 | [Центр контактов в Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
-| 10/12/2020 | [Учебные ресурсы для администраторов: Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
-| 10/12/2020 | [Резервирование приложений и виртуальных посетителей в Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Изменено |
-| 10/12/2020 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 10/12/2020 | [Пакеты политики Teams для здравоохранения](/MicrosoftTeams/policy-packages-healthcare) | Изменено |
-| 10/12/2020 | [Просмотр разрешений приложения и предоставление согласия администратора в центре администрирования Microsoft Teams](/MicrosoftTeams/app-permissions-admin-center) | Изменено |
-| 10/12/2020 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | Изменено |
-| 10/12/2020 | [Управление политиками обратной связи в Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Изменено |
-| 10/13/2020 | [Сетевые конференции для голосовой конференции](/MicrosoftTeams/audio-conferencing-on-network) | Изменено |
-| 10/13/2020 | [Настройка выходных в Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | Изменено |
-| 10/13/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 10/13/2020 | [Группы Microsoft 365 и Microsoft Teams](/MicrosoftTeams/office-365-groups) | Изменено |
-| 10/13/2020 | Добавление домена SMTP в качестве разрешенного домена отправителя в Exchange Online | Удалено |
-| 10/13/2020 | [Хранилище "пользовательские приложения"](/MicrosoftTeams/customize-your-app-store) | Изменено |
-| 10/13/2020 | [Контрольный список для интегрированных систем — Настройка основных возможностей — Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities) | Изменено |
-| 10/14/2020 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
-| 10/14/2020 | [Начало работы с Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Изменено |
-| 10/14/2020 | [Управление приложением "списки" для Организации](/MicrosoftTeams/manage-lists-app) | Изменено |
-| 10/15/2020 | [Требования к оборудованию для Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
-| 10/15/2020 | [Метки чувствительности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
-| 10/15/2020 | [Настройка лицензий на общие устройства с телефонным пространством](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
-| 10/15/2020 | [Аналитика и отчеты Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Изменено |
-| 10/15/2020 | [Контроллеры границ сеанса, сертифицированные для прямого маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
-| 10/15/2020 | [Управление приложениями в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-apps) | Изменено |
-| 10/15/2020 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 10/15/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
-| 10/15/2020 | [Руководство по безопасности для Microsoft Teams](/MicrosoftTeams/teams-security-guide) | Изменено |
-| 10/15/2020 | [Использование OneDrive и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 10/15/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Изменено |
-| 10/16/2020 | [Развертывание облачной голосовой службы Microsoft Teams](/MicrosoftTeams/3-onboard-deploy-my-service) | Изменено |
-| 10/16/2020 | [Реализация качества обслуживания (QoS) в клиентах Microsoft Teams](/MicrosoftTeams/qos-in-teams-clients) | Изменено |
-| 10/16/2020 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
-| 10/16/2020 | [Учебник: голосовой Конференц-связь с Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | Изменено |
-| 10/16/2020 | [Параметры администратора для приложений в Microsoft Teams](/MicrosoftTeams/admin-settings) | Изменено |
-| 10/16/2020 | [Внедрение Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | Изменено |
-| 10/16/2020 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
-| 10/16/2020 | [Взаимодействие Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop) | Изменено |
-| 10/16/2020 | [Настройка параметров аудиоконференций — Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | Изменено |
-| 10/16/2020 | [Прямая маршрутизация телефонной системы](/MicrosoftTeams/direct-routing-landing-page) | Изменено |
-| 10/16/2020 | [Управление доступом на основе смены для Firstline работников в Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | Изменено |
-| 10/16/2020 | [Teams для сферы образования](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | Изменено |
-| 10/16/2020 | [Выбор пути для развертывания в масштабе всей организации](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | Изменено |
-| 10/16/2020 | [Сеансы Teams на Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | Изменено |
-| 10/16/2020 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 10/16/2020 | [Установка интеграции Moodle с Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | Изменено |
-| 10/16/2020 | Ограничения и спецификации для Microsoft Teams | Удалено |
-| 10/16/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 10/16/2020 | [Управление политиками маршрутизации экстренных вызовов](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
-| 10/16/2020 | [Установка Teams с помощью диспетчера конфигураций конечных точек Майкрософт](/MicrosoftTeams/msi-deployment) | Изменено |
-| 10/16/2020 | [Ресурсы Microsoft Teams для образовательных учреждений (администраторы)](/MicrosoftTeams/resources-teams-edu) | Изменено |
-| 10/16/2020 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 10/16/2020 | [Сведения о настройке камер содержимого — Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | Изменено |
-| 10/16/2020 | [Удаленное управление параметрами устройства в комнатах Microsoft Teams](/MicrosoftTeams/rooms/xml-config-file) | Изменено |
-| 10/16/2020 | [Включение и отключение гостевого доступа для Microsoft Teams](/MicrosoftTeams/set-up-guests) | Изменено |
-| 10/16/2020 | [Классификация потоков на панели мониторинга качества звонков (CQD)](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | Изменено |
-| 10/16/2020 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | Изменено |
-| 10/16/2020 | [Аналитика и отчеты Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Изменено |
-| 10/16/2020 | [Взаимодействие между Skype для бизнеса и Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Изменено |
-| 10/16/2020 | [Политики звонков в Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | Изменено |
-| 10/16/2020 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-| 10/16/2020 | [Teams за 30](/MicrosoftTeams/teams-in-30-workshops) | Изменено |
-| 10/16/2020 | [Пример сценария с помощью планировщика сети](/MicrosoftTeams/tutorial-network-planner-example) | Изменено |
-| 10/16/2020 | [Пример для малого бизнеса: Настройка автосекретаря](/MicrosoftTeams/tutorial-org-aa) | Изменено |
-| 10/16/2020 | [Начало перехода на Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | Изменено |
-| 10/16/2020 | [Сосуществование в Microsoft Teams и Skype для бизнеса](/MicrosoftTeams/upgrade-to-teams-on-prem-coexistence) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | Изменено |
-| 10/16/2020 | [Переход на Teams из локального развертывания Skype для бизнеса (Microsoft Teams)](/MicrosoftTeams/upgrade-to-teams-on-prem-upgrade-methods) | Изменено |
-| 10/16/2020 | [Использование помощника для Teams для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
-| 10/16/2020 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
-| 10/16/2020 | [Что такое телефонная система?](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
