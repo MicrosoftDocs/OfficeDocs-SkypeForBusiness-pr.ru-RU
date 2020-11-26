@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec1500d9e7d5896d1b4cd2414355602d7400591a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405786"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420959"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Настройка Ringback Bot для прямой маршрутизации
 
 В этой статье описывается программа Ringback Bot, с помощью которой можно избежать неожиданного замыкания, которое может возникнуть, если для установки звонков требуется больше времени. Ringback Bot доступен для прямой маршрутизации в режиме обхода файлов, не являющихся мультимедийными.
 
-Иногда входящие звонки из телефонной сети общего пользования (КТСОП) для клиентов Teams могут занять больше времени, чем ожидалось. Это может быть вызвано различными причинами. В этом случае абонент может не слышать ничего, так как клиент Teams не позвонит, и звонок может быть прерван некоторыми поставщиками телекоммуникационных услуг.
+Иногда входящие звонки из телефонной сети общего пользования (КТСОП) для клиентов Teams могут занять больше времени, чем ожидалось. Это может быть вызвано различными причинами. В этом случае абонент может не слышать ничего, так как клиент Teams не позвонит, а некоторые поставщики телекоммуникационных услуг могут отменить звонок.
 
 Ringback Bot помогает избежать неожиданного тишины, которое может возникнуть в этом сценарии. Для входящих звонков от КТСОП к клиентам Teams в Ringback Bot воспроизводится Специальный звуковой сигнал для вызывающего абонента, указывающий на то, что команды находятся в процессе установки звонка.
 
@@ -36,11 +36,11 @@ Ringback Bot помогает избежать неожиданного тиши
 
 ## <a name="configure-the-ringback-bot"></a>Настройка Ringback Bot
 
-Используйте командлеты [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) и [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) вместе с параметром **GenerateRingingWhileLocatingUser** , чтобы настроить робот Ringback.
+Используйте командлет [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) , чтобы изменить ранее определенную конфигурацию (SBC) или командлет [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) , чтобы создать новую конфигурацию SBC вместе с параметром **GenerateRingingWhileLocatingUser** для настройки Ringback Bot.
 
-Чтобы включить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$true**". Это значение по умолчанию. 
+- Чтобы включить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$true**". Это значение по умолчанию. 
 
-Чтобы отключить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$false**". 
+- Чтобы отключить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$false**". 
 
 ## <a name="related-topics"></a>Статьи по теме
 
