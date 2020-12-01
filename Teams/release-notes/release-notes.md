@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Заметки о выпуске для функций администратора Microsoft Teams.
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816109"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477038"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Заметки о выпуске для функций администратора Microsoft Teams
 
 Эти заметки о выпуске содержат сведения о новых возможностях администратора для Microsoft Teams.
+
+## <a name="november-25-2020"></a>25 ноября 2020 г.
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Настройка надстройки для собраний Microsoft Teams в Google Workspace
+
+С помощью надстройки для собраний Microsoft Teams можно планировать пользователей Google календаря и присоединяться к собранию Microsoft Teams прямо из Google Workspace. Пользователи получают доступ к функциям собраний Teams, в том числе к видеоконференциям и голосовой связи, демонстрации экрана, чат для собраний, цифровых досках и т. д. Оставайтесь на связи и работайте над ними, чтобы больше узнать о работе в рамках работы, учебного заведения и жизненного цикла.
+
+Надстройка для собраний Microsoft Teams для Google Workspace должна быть включена администратором Teams, прежде чем пользователи клиента смогут получить доступ к приложению. [Подробнее](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
 ## <a name="october-28-2020"></a>28 октября 2020 г.
 
@@ -55,7 +63,7 @@ Microsoft Teams — это категория всех выделенных ус
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Управление параметрами Skype для бизнеса в Организации
 
-Вы можете управлять функциями Skype для бизнеса для пользователей Skype для бизнеса в центре администрирования Microsoft Teams. Перейдите в **Org-wide settings**  >  **Skype для бизнеса** "Параметры в масштабе организации". Отсюда вы можете управлять телевизионными уведомлениями, сведениями о присутствии и мобильным собраниям Skype. [Подробнее](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Вы можете управлять функциями Skype для бизнеса для пользователей Skype для бизнеса в центре администрирования Microsoft Teams. Перейдите в **Org-wide settings**  >  **Skype для бизнеса**"Параметры в масштабе организации". Отсюда вы можете управлять телевизионными уведомлениями, сведениями о присутствии и мобильным собраниям Skype. [Подробнее](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16 октября 2020 г.
 
@@ -67,7 +75,7 @@ Microsoft Teams — это категория всех выделенных ус
 
 ### <a name="custom-policy-packages"></a>Пользовательские пакеты политик
 
-*Эта функция доступна в частном предварительной версии*
+*Эта функция доступна в закрытой ознакомительной версии*
 
 Пользовательские пакеты политик позволяют объединять собственные наборы политик для пользователей с аналогичными ролями в Организации. Создайте собственные пакеты политики, добавив необходимые типы политик и политики. [Подробнее](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
@@ -373,7 +381,7 @@ Microsoft Teams — это категория всех выделенных ус
 
 ### <a name="tag-youre-it"></a>Тег
 
-Создавайте Теги и назначайте им людей, чтобы можно было @mention группу, роль, подразделение и т. д. Владельцы группы, попробуйте выполнить ее для yourselves. Перейдите в группу, выберите **Дополнительные параметры**  >  **управления тегами** . [Подробнее](../manage-tags.md).
+Создавайте Теги и назначайте им людей, чтобы можно было @mention группу, роль, подразделение и т. д. Владельцы группы, попробуйте выполнить ее для yourselves. Перейдите в группу, выберите **Дополнительные параметры**  >  **управления тегами**. [Подробнее](../manage-tags.md).
 
 ## <a name="march-30-2020"></a>30 марта 2020 г.
 

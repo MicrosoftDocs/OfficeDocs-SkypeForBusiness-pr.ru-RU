@@ -3,6 +3,19 @@
 
 
 
+## <a name="week-of-november-23-2020"></a>Неделя 23 ноября 2020 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 11/23/2020 | [Отправка клиента и создание данных на панели мониторинга качества вызова (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | Изменено |
+| 11/23/2020 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
+| 11/23/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
+| 11/25/2020 | [Настройка Ringback Bot для прямой маршрутизации](/MicrosoftTeams/direct-routing-ringback-bot) | Изменено |
+| 11/25/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 11/25/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+
+
 ## <a name="week-of-november-16-2020"></a>Неделя 16 ноября 2020 г.
 
 
@@ -316,52 +329,3 @@
 | 10/30/2020 | [Автосекретарь и ссылки на набор номера в очереди звонков и распознавание голоса](/MicrosoftTeams/dial-voice-reference) | Изменено |
 | 10/30/2020 | Управление обнаружением закрытых команд в Microsoft Teams | Удалено |
 | 10/30/2020 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
-
-
-## <a name="week-of-october-19-2020"></a>Неделя 19 октября 2020 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 10/19/2020 | [Настройка голосовой конференции для малых и средних организаций](/MicrosoftTeams/audio-conferencing-smb) | Изменено |
-| 10/19/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 10/19/2020 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
-| 10/19/2020 | [Телефоны и устройства для групп](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
-| 10/19/2020 | [Управление приложениями Power Platform в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 10/19/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 10/20/2020 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 10/20/2020 | [Заметки о выпуске](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
-| 10/21/2020 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
-| 10/21/2020 | [URL-адреса и диапазоны IP-адресов для Microsoft 365 и Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Изменено |
-| 10/21/2020 | [Экспорт контента с помощью API экспорта Microsoft Teams](/MicrosoftTeams/export-teams-content) | Изменено |
-| 10/21/2020 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 10/21/2020 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
-| 10/21/2020 | [Управление приложениями Power Platform в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 10/21/2020 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
-| 10/21/2020 | [Поддержка версий](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Изменено |
-| 10/21/2020 | [Общие сведения о записи на основе политики в Teams для собраний по звонкам &](/MicrosoftTeams/teams-recording-policy) | Изменено |
-| 10/21/2020 | [Разрешить пользователям прямую маршрутизацию](/MicrosoftTeams/direct-routing-enable-users) | Изменено |
-| 10/21/2020 | [Настройка контроллера границ сеанса — несколько клиентов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Изменено |
-| 10/21/2020 | [Использование общих шаблонов групп в центре администрирования](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | Изменено |
-| 10/21/2020 | [Использование шаблонов правительства группы в центре администрирования](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | Изменено |
-| 10/21/2020 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
-| 10/21/2020 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
-| 10/21/2020 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
-| 10/22/2020 | [Краткое руководство для администраторов — Microsoft Teams для образовательных учреждений](/MicrosoftTeams/teams-quick-start-edu) | Изменено |
-| 10/22/2020 | [Сосуществование со Skype для бизнеса](/MicrosoftTeams/coexistence-chat-calls-presence) | Изменено |
-| 10/22/2020 | [Оценка среды для облачных рабочих нагрузок в облаке](/MicrosoftTeams/3-envision-evaluate-my-environment) | Изменено |
-| 10/22/2020 | [Разрешения и рекомендации для приложений Microsoft Teams](/MicrosoftTeams/app-permissions) | Изменено |
-| 10/22/2020 | [Назначение владельцев и участников команд в Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | Изменено |
-| 10/22/2020 | [Создание стратегии управления изменениями](/MicrosoftTeams/change-management-strategy) | Изменено |
-| 10/22/2020 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
-| 10/22/2020 | [Краткое руководство по началу работы: Настройка планов звонков](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | Изменено |
-| 10/22/2020 | [Управление параметрами для организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
-| 10/22/2020 | [Краткое руководство для администраторов: собрания и трансляции в Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
-| 10/22/2020 | [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | Изменено |
-| 10/22/2020 | [Общие сведения о записи на основе политики в Teams для собраний по звонкам &](/MicrosoftTeams/teams-recording-policy) | Изменено |
-| 10/22/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |
-| 10/23/2020 | [Планирование автоматических ассистентов и очередей звонков в Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Изменено |
-| 10/23/2020 | [Управление приложениями платформы Microsoft Power Platform в центре администрирования Microsoft Teams](/MicrosoftTeams/manage-power-platform-apps) | Изменено |
-| 10/23/2020 | [Управление параметрами Skype для бизнеса в центре администрирования Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | Изменено |
-| 10/23/2020 | [Управление предложением Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | Изменено |
-| 10/23/2020 | [Использование OneDrive для бизнеса и SharePoint для записей собраний](/MicrosoftTeams/tmr-meeting-recording-change) | Изменено |

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385626"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477048"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -94,11 +94,14 @@ ms.locfileid: "49385626"
    Import-PSSession $sfbSession
    ```
 
-4. С помощью [Set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) можно настроить политику собрания Teams на переход из хранилища потока в OneDrive для бизнеса и SharePoint.
+4. С помощью [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) можно настроить политику собрания Teams на переход из хранилища потока в OneDrive для бизнеса и SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> Если некоторые пользователи назначили политику "на Организатор" или "на пользователя", необходимо настроить этот параметр для этой политики, если вы хотите, чтобы они также могли хранить записи собраний в OneDrive для бизнеса и SharePoint. Дополнительные сведения можно найти [в разделе Управление политиками собраний в Teams](meeting-policies-in-teams.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Отказ от OneDrive для бизнеса и SharePoint для продолжения использования потока
 
