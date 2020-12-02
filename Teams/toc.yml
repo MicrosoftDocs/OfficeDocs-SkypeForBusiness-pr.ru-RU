@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Подготовка среды
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Требования
               href: rooms/requirements.md
             - name: Интернет-лицензирование
               href: rooms/rooms-licensing.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: Платная или пробная версия аудиоконференций в Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Дополнительные минуты исходящих звонков для США и Канады
+          href: dial-out-minutes-canada-us.md
         - name: Льготный период обратных звонков для аудиоконференций
           href: complimentary-dial-out-period.md
         - name: Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"
@@ -428,13 +430,13 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справка
+        - name: Справочные материалы
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
             - name: Телефонные номера для аудиоконференций
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Зоны аудиоконференций в различных странах и регионах
+            - name: Зоны страны и региона для конференц-связи с голосовым сопровождением
               href: audio-conferencing-zones.md
             - name: Видео- и аудиоконференции в Teams
               href: audio-conferencing-videos.md
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: Как купить план звонков
           href: calling-plans-for-office-365.md
-        - name: Дополнительные минуты исходящих звонков для США и Канады
-          href: dial-out-minutes-canada-us.md
         - name: Настройка планов звонков для организации
           href: set-up-calling-plans.md
         - name: Краткое руководство по началу работы. Настройка планов звонков
@@ -684,7 +684,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справка
+    - name: Справочные материалы
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -879,7 +879,7 @@
       href: teams-adoption-get-started.md
     - name: Этап 1 — начало
       items:
-        - name: Начало
+        - name: Start
           href: teams-adoption-phase1.md
         - name: Общие сведения о командах и каналах
           href: teams-adoption-understand-teams-and-channels.md
@@ -1102,31 +1102,31 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams для сферы здравоохранения
       items:
-        - name: Начало работы с Teams для организаций в сфере здравоохранения
+        - name: Начало работы с Teams для организаций здравоохранения
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Виртуальные визиты
+        - name: Виртуальные посещения
           items:
-            - name: Виртуальные визиты с помощью Teams — интеграция с электронными медицинскими картами
+            - name: Виртуальные посещения с помощью Teams — интеграция с ехр
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Виртуальные визиты с помощью Bookings и Teams
+            - name: Виртуальные визиты с резервированием и Teams
               href: bookings-app-admin.md
         - name: Просмотр и назначение пакетов политик
           href: policy-packages-healthcare.md
-        - name: Безопасный обмен сообщениями
+        - name: Защита обмена сообщениями
           items:
-            - name: Безопасный обмен сообщениями
+            - name: Защита обмена сообщениями
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Делегирование сообщений
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
         - name: Шаблоны Teams
           items:
-            - name: Использование шаблонов Teams для здравоохранения
+            - name: Использование шаблонов здравоохранения в Teams
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Шаблоны Teams для здравоохранения
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: Управление приложением "Списки"
           href: manage-lists-app.md
-        - name: Управление приложением "Задачи"
+        - name: Управление приложением "задачи"
           href: manage-tasks-app.md
         - name: '"Смены" для Teams'
           items:
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: Развертывание с помощью скрипта для сотрудников без компьютеров
           href: flw-scripted-deployment.md
-        - name: Управление доступом на основе смен для сотрудников без компьютеров
+        - name: Управление доступом на основе смены для рабочих процессов задействование
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear для Microsoft Teams
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: Teams для розничной торговли
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Начало работы с шаблонами Teams для розничной торговли в центре администрирования
+        - name: Начало работы с шаблонами розничных групп в центре администрирования
           href: retail-teams-templates-in-the-admin-console.md
         - name: Начало работы с шаблонами Teams для розничной торговли
           href: get-started-with-retail-teams-templates.md
@@ -1263,7 +1263,7 @@
           href: policy-control-diagnostic-data-mobile.md
         - name: Диагностические данные клиента для настольных ПК
           href: policy-control-diagnostic-data-desktop.md
-        - name: необязательные сетевые функции.
+        - name: Необязательные сетевые функции.
           href: teams-privacy-oce-overview.md
 - name: 'Отслеживание, управление и устранение неполадок'
   items:
@@ -1333,7 +1333,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справка
+- name: Справочные материалы
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
@@ -1418,7 +1418,7 @@
           items:
             - name: Настройка гибридной организации Exchange для работы с Teams
               href: exchange-hybrid-organization.md
-            - name: Использование правил потока обработки почты в Exchange
+            - name: Использование правил обработки почтового процесса в Exchange
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
           href: sharepoint-onedrive-interact.md
@@ -1434,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Телефоны для Teams
           href: devices/phones-for-teams.md
-        - name: Дисплеи Teams
+        - name: Teams отображает
           href: devices/teams-displays.md
-        - name: Обновление телефонов Teams до дисплеев Teams
+        - name: Переход с телефонов Teams на дисплеи Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
+        - name: Развертывание телефонов Teams и Teams отображается с помощью Intune
           href: devices/phones-displays-deploy.md
         - name: USB-устройства для аудио и видео
           href: devices/usb-devices.md
@@ -1460,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Заметки о выпуске PowerShell в Teams
           href: teams-powershell-release-notes.md
-        - name: Переход с соединителя Skype для бизнеса Online на модуль Teams PowerShell
+        - name: Переход со Skype для бизнеса Online Connector на модуль Teams PowerShell
           href: teams-powershell-move-from-sfbo.md
         - name: Справочник по командлетам для Teams
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1720,5 +1720,5 @@
       href: export-teams-content.md
     - name: Заметки о выпуске для функций администрирования Teams
       href: release-notes/release-notes.md
-    - name: Общедоступная предварительная версия в Microsoft Teams
+    - name: Общедоступная Предварительная версия в Microsoft Teams
       href: public-preview-doc-updates.md
