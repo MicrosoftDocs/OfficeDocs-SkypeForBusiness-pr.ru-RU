@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385646"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557953"
 ---
 # <a name="user-presence-in-teams"></a>Присутствие пользователей в Teams
 
@@ -78,6 +78,9 @@ ms.locfileid: "49385646"
 | Не беспокоить|1 день|
 | Нему|7 дней|
 |||
+
+> [!NOTE]
+> Кроме того, пользователь может вручную настроить длительность своего присутствия. Например, пользователь может настроить себя так, чтобы она отображалась в автономном режиме, пока не завтра утро.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Параметры администрирования в Teams по сравнению с параметрами в Skype для бизнеса
 

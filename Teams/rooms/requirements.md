@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Узнайте о требованиях для поддержки комнат Microsoft Teams, в том числе выбора соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a77558feb7ffaeb330750c60e0f47e619823726a
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 2656e1b2b6b89c390ff292276d6d897be79242d3
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655476"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557963"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -103,6 +103,7 @@ ms.locfileid: "48655476"
 
 |Периферийные устройства комнат Microsoft Teams|Сертифицированная версия встроенного ПО | Камера поддерживающая использование содержимого|
 |:--- |:--- | :--- |
+|[Aver VC520 Pro Camera + громкоговоритель](https://www.averusa.com/products/conference-camera/vc520pro) |1004,35|
 |[Aver VB342 + Камера Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Averная Камера 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Averная Камера 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
