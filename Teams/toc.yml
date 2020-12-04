@@ -240,7 +240,7 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: План
+        - name: Планирование
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Подготовка среды
               href: rooms/rooms-prep.md
-            - name: Требования
+            - name: Requirements
               href: rooms/requirements.md
             - name: Интернет-лицензирование
               href: rooms/rooms-licensing.md
@@ -430,7 +430,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справочные материалы
+        - name: Справка
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
@@ -684,7 +684,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справочные материалы
+    - name: Справка
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -1124,7 +1124,7 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Шаблоны Teams для здравоохранения
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Управление приложением "Списки"
+        - name: Управление приложением списков
           href: manage-lists-app.md
         - name: Управление приложением "задачи"
           href: manage-tasks-app.md
@@ -1132,7 +1132,7 @@
           items:
             - name: '"Смены" для Teams'
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Управление приложением "Смены"
+            - name: Управление приложением "смены"
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams для образовательных учреждений
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: Защита от потери данных
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Обнаружение электронных данных
-          items:
-            - name: Обнаружение электронных данных
-              href: ediscovery-investigation.md
-            - name: Помещение пользователя или команды Teams на удержание по юридическим причинам
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: Удержание по юридическим причинам
+          href: legal-hold.md
         - name: Поиск контента
-          items:
-            - name: Использование поиска контента
-              href: content-search.md
-            - name: Поиск событий в журнале аудита
-              href: audit-log-events.md
+          href: content-search.md
+        - name: Аудит
+          href: audit-log-events.md
     - name: Конфиденциальность
       items:
         - name: Конфиденциальность и Microsoft Teams
@@ -1333,7 +1329,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справочные материалы
+- name: Справка
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
