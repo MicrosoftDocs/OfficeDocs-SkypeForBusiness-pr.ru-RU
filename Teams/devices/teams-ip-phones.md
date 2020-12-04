@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, какие телефоны и стационарные конференции сертифицированы для Microsoft Teams, чтобы добиться наилучших результатов.
-ms.openlocfilehash: 4bd11a800713dcfa5cbfa2092cd08adb6b86e05e
-ms.sourcegitcommit: 476cbb4c65ccb9d9b7635eff6b2e657e099425f6
+ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49518274"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570898"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -57,11 +57,12 @@ ms.locfileid: "49518274"
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 января                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Декабрь 2019 г.                |
 | Poly тройкой 8500/8800 (только в режиме общего доступа) | 5.9.0.10869                                                                                                                                                                                                                                | Июнь 2019 г.                    |
-| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | Март 2020                   |
-| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | Июнь 2019 г.                    |
-| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | Май 2019 г.                     |
-| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | Декабрь 2018 г.                |
-| Yealink T58 & T56               | 58.15.0.20                                                                                                                                                                                                                                 | Декабрь 2018 г.                |
+| Yealink MP54 | 122.15.0.27| Ноябрь 2020 г. |
+| Yealink MP56 | 122.15.0.6 | Март 2020    |
+| Yealink VP59 | 91.15.0.16 | Июнь 2019 г.     |
+| Yealink T55  | 58.15.0.36 | Май 2019 г.      |
+| Yealink CP 960| 73.15.0.20 | Декабрь 2018 г.|
+| Yealink T58 & T56 | 58.15.0.20 | Декабрь 2018 г. |
 
 ## <a name="currently-certified-collaboration-bars"></a>Текущие сертифицированные панели совместной работы
 
