@@ -1,13 +1,13 @@
 ---
 title: Взаимодействие между Skype для бизнеса и Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Подробные сведения о возможностях сосуществования Skype для бизнеса и Microsoft Teams и взаимодействие между Skype для бизнеса и Teams.
+description: Сведения о параметрах косуществования Skype для бизнеса и Microsoft Teams, а также о том, как обеспечить взаимодействие между Skype для бизнеса и рабочими группами.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515896"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578502"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Общие сведения о сосуществовании и взаимодействии Microsoft Teams и Skype для бизнеса
 
@@ -144,7 +144,7 @@ ms.locfileid: "48515896"
 > [!Important]
 > Для взаимодействия с локальным развертыванием Skype для бизнеса требуется локальная среда в гибридном режиме с Microsoft 365 или Office 365 Skype для бизнеса. Подробности можно найти в [статье Руководство по миграции и взаимодействию](https://aka.ms/SkypeToTeams-Interop).
 
-Это взаимодействие между пользователями, у которых есть один из следующих вариантов сосуществования: **Skype для бизнеса с совместной работой в Teams**, Skype для бизнеса с участием в **совместной работе и собраниями**, **Skype для**бизнеса и **только для Teams**. Взаимодействие с пользователями в режиме " **острова** " не поддерживается.
+Это взаимодействие между пользователями, у которых есть один из следующих вариантов сосуществования: **Skype для бизнеса с совместной работой в Teams**, Skype для бизнеса с участием в **совместной работе и собраниями**, **Skype для** бизнеса и **только для Teams**. Взаимодействие с пользователями в режиме " **острова** " не поддерживается.
 
 ### <a name="native-interop-experience-limitations"></a>Ограничения взаимодействия с собственными интерфейсами
 

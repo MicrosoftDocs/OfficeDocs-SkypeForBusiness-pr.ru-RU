@@ -1,7 +1,7 @@
 ---
 title: Закрепление заинтересованных лиц | Планирование обновления Skype для бизнеса в Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22fe71ec94ffec24f1a06846e51981db957c15f8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2b57608b6db645ad48ab372b6bb390b4bc4a1bcb
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522592"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578332"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Составление списка заинтересованных лиц проекта
 

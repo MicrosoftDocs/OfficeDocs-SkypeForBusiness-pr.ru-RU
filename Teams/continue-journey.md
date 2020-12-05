@@ -1,14 +1,14 @@
 ---
-title: План внедрения пользователей Microsoft Teams | Рекомендации
-author: serdarsoysal
-ms.author: serdars
+title: Эффективная работа в Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: В этой статье рассказывается о том, как использовать Teams для наблюдения за работоспособностью сети, поддерживать пользователей и готовиться к новым функциям.
+description: В этой статье объясняется, как использовать Teams для наблюдения за работоспособностью сети, для хранения пользователей и для подготовки новых функций.
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 9ec8523ca154341ea213a6cce6712506dae47cad
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158507"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578052"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Эффективная работа в Microsoft Teams
 

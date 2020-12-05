@@ -1,13 +1,13 @@
 ---
-title: Обновление Microsoft Teams из Skype для бизнеса | Режимы, сосуществование
-author: lanachin
-ms.author: v-lanac
+title: Выберите свое путешествие из Skype для бизнеса в Microsoft Teams.
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Подробные сведения о возможностях и режимах косуществования в Skype для бизнеса и Microsoft Teams, а затем переход к Teams из Skype для бизнеса с помощью примеров сценариев.
+description: Подробные сведения о возможностях сосуществования Skype для бизнеса и Microsoft Teams и о возможных переходах между обновлениями в Teams с примерами сценариев.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940419"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578162"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Выбор обновления в Skype для бизнеса в Teams
 

@@ -1,13 +1,13 @@
 ---
-title: Обновите Skype для бизнеса Online до Microsoft Teams | Внедрять
-author: lanachin
-ms.author: v-lanac
+title: Переход с Skype для бизнеса Online на Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Сведения о том, как обновить организационную структуру до Microsoft Teams с помощью Skype для бизнеса Online deployement.
+description: Сведения о том, как обновить организационную структуру до Microsoft Teams с помощью развертывания Skype для бизнеса Online.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940509"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578262"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Переход со Skype для бизнеса Online на Teams
 
@@ -58,8 +58,8 @@ ms.locfileid: "47940509"
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Шаг 1: уведомление пользователей об изменении (необязательно)
 
-1. В центре администрирования Microsoft Teams выберите **Org-wide settings**  >  **Обновление Teams**по всей Организации.
-2. В разделе **режим сосуществования**измените параметр **уведомлять пользователей Skype для бизнеса о доступности обновления для Teams** **.**
+1. В центре администрирования Microsoft Teams выберите **Org-wide settings**  >  **Обновление Teams** по всей Организации.
+2. В разделе **режим сосуществования** измените параметр **уведомлять пользователей Skype для бизнеса о доступности обновления для Teams** **.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Шаг 2: Настройка режима сосуществования TeamsOnly для Организации
 
@@ -79,7 +79,7 @@ ms.locfileid: "47940509"
 Если вы используете центр администрирования Microsoft Teams, вы можете настроить TeamsUpgradePolicy для работы до 20 пользователей одновременно:
 1. В центре администрирования Microsoft Teams выберите пункт **Пользователи**, а затем — один или несколько флажков для пользователей, которые должны быть обновлены до 20. 
 2. Нажмите кнопку **изменить параметры** в левом верхнем углу ListView. 
-3. На панели " **Редактирование параметров** " справа в разделе **Обновление Teams**нажмите изменить **, чтобы перейти на вкладку** **пользователь Skype для бизнеса** . Примечание. Если параметр режимом сосуществования имеет значение "использовать параметры организации", этот параметр не отображается, поэтому необходимо явным образом задать режим совместного существования для этих пользователей в соответствии со значением по умолчанию для Организации.
+3. На панели " **Редактирование параметров** " справа в разделе **Обновление Teams** нажмите изменить **, чтобы перейти на вкладку** **пользователь Skype для бизнеса** . Примечание. Если параметр режимом сосуществования имеет значение "использовать параметры организации", этот параметр не отображается, поэтому необходимо явным образом задать режим совместного существования для этих пользователей в соответствии со значением по умолчанию для Организации.
 
 Кроме того, вы можете легко включить уведомления для групп пользователей одновременно с помощью PowerShell. 
 

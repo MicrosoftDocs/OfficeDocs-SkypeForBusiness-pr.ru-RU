@@ -1,13 +1,13 @@
 ---
-title: Пилотная версия Microsoft Teams с помощью Skype для бизнеса | Развертывание, реализация внедрения
-author: lanachin
-ms.author: v-lanac
+title: Оценка и тестирование работы Microsoft Teams в Организации
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Руководство по запуску проекта Microsoft Teams для ознакомления со всеми участниками вашей организации, когда вы продолжаете использовать Skype для бизнеса
+description: Руководство по запуску проекта Microsoft Teams для ознакомления со всеми участниками вашей организации, в то время как вы продолжаете использовать Skype для бизнеса
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522692"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578322"
 ---
 # <a name="conduct-a-user-pilot"></a>Проведение пилотного развертывания для пользователей
 
@@ -109,7 +109,7 @@ ms.locfileid: "44522692"
 - **Ваши пилотные задачи (например, удовлетворенность пользователей и качество сети)** были готовы к переходу на следующий этап развертывания. В зависимости от целей проекта это может быть одним из указанных ниже способов.
   - Расширение пилотной программы для дополнительных участников
   - [Включение команд в Skype для бизнеса (режим "**острова** ") для некоторых или всех организаций](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Обновление пользователей из Skype для бизнеса на Teams (режим**только для Teams** ) для некоторых или всех организаций](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Обновление пользователей из Skype для бизнеса на Teams (режим **только для Teams** ) для некоторых или всех организаций](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **Ваши пилотные программы не смогли найти нужные вам результаты (например, удовлетворение пользователей и качество сети)**, уделите время для внесения изменений в план и повторного посещения пилотной версии.
 
 > [!Tip]

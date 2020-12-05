@@ -1,13 +1,13 @@
 ---
-title: Подготовка плана готовности пользователя к обновлению до Teams
-author: lanachin
-ms.author: v-lanac
+title: Подготовка плана готовности пользователя к обновлению из Skype для бизнеса в Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Составьте план общения, обучения и поддержки пользователей в рамках пилотного, встроенного и обновленного до Microsoft Teams.
+description: Составьте план общения, обучения и поддержки пользователей в рамках пилотной, встроенной и обновленной версии до Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ab120ac31a8624343551cf4a9aec10e08acf3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9033718f2bd9463d09478c69ed73df3c4ae08073
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523362"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578422"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Подготовка плана готовности пользователей
 

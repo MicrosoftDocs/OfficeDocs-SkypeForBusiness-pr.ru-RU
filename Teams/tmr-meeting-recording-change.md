@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477048"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578512"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Использование OneDrive для бизнеса и SharePoint или Stream для записей собраний
 
@@ -99,7 +99,7 @@ ms.locfileid: "49477048"
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > Если некоторые пользователи назначили политику "на Организатор" или "на пользователя", необходимо настроить этот параметр для этой политики, если вы хотите, чтобы они также могли хранить записи собраний в OneDrive для бизнеса и SharePoint. Дополнительные сведения можно найти [в разделе Управление политиками собраний в Teams](meeting-policies-in-teams.md).
 
@@ -153,7 +153,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Как управлять записями?**
 
-Пользователи, которые проявляют в этом предварительном просмотре, не смогут использовать субтитры, доступные в записях собрания Teams, которые перенесены в OneDrive для бизнеса и SharePoint.Мы работаем над добавлением субтитров, начинающих с субтитров на английском языке и записями о собраниях в октябре 2020.
+Пользователи, которые проявляют в этом предварительном просмотре, не смогут использовать субтитры, доступные в записях собрания Teams, которые перенесены в OneDrive для бизнеса и SharePoint.Мы работаем над добавлением субтитров, начинающих с субтитров на английском языке и записями о собраниях в квартале CY2020.
 
 Закрытые субтитры будут доступны в записях собраний Teams для пользователей, которые не участвуют в разрешении на запись, как описано в [облачных записях Teams](cloud-recording.md) .
 
@@ -180,3 +180,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 **Как применить метку хранения?**
 
 Узнайте [, как автоматически применить метку хранения](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**Как назначать политики пользователям в Microsoft Teams и какие политики имеют приоритет?**
+
+Узнайте [, какая политика имеет приоритет?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
