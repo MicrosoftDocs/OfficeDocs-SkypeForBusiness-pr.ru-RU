@@ -240,7 +240,7 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: Планирование
+        - name: План
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: Подготовка среды
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: Требования
               href: rooms/requirements.md
             - name: Интернет-лицензирование
               href: rooms/rooms-licensing.md
@@ -430,7 +430,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справка
+        - name: Справочные материалы
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Управление политиками маршрутизации голосовой связи
               href: manage-voice-routing-policies.md
+            - name: Прямое маршрутизация устройства для обеспечения связи в филиалах
+              href: direct-routing-survivable-branch-appliance.md
     - name: Номера телефонов
       items:
         - name: Управление номерами телефонов для организации
@@ -684,7 +686,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справка
+    - name: Справочные материалы
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -943,7 +945,7 @@
               href: upgrade-prepare-environment.md
             - name: Подготовка ИТ-персонала к использованию Teams
               href: upgrade-prepare-IT-pros.md
-            - name: Необходимые компоненты
+            - name: Предварительные условия
               href: upgrade-plan-journey-prerequisites.md
             - name: Оценка среды
               href: upgrade-plan-journey-evaluate-environment.md
@@ -1329,7 +1331,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справка
+- name: Справочные материалы
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
