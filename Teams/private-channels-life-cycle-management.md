@@ -1,7 +1,7 @@
 ---
 title: Управление жизненным циклом частных каналов в Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
+ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012295"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49601664"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
