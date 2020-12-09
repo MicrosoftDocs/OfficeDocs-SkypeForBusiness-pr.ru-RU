@@ -1,7 +1,7 @@
 ---
 title: 'Переход со Skype для бизнеса на Teams: вопросы и ответы'
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766592"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578372"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "48766592"
 
 
 **К кому можно обратиться по вопросам, связанным с процессом перехода?**<br>
-Если у вас есть вопросы, связанные с переходом, обратитесь к назначенным вам контактным лицам, например из службы технической поддержки учетных записей Майкрософт, у наших партнеров или в [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Вы также можете отправить запрос в службу поддержки в [Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com/), нажав кнопку **Нужна помощь** .
+Если у вас есть вопросы, связанные с переходом, обратитесь к назначенным вам контактным лицам, например из службы технической поддержки учетных записей Майкрософт, у наших партнеров или в [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1). Вы также можете отправить запрос в службу поддержки в [Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com/), нажав кнопку **Нужна помощь**.
 
 ![Кнопка "Нужна помощь"](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "48766592"
 
 **Что произойдет после перевода моих пользователей на Teams?**<br>
 
-После перевода пользователей на Teams (режим **Только Teams** ):
+После перевода пользователей на Teams (режим **Только Teams**):
 
 - Их клиент Skype для бизнеса будет отключен, так как все чаты и звонки будут перенесены в Teams. Этот клиент будет по-прежнему использоваться для ранее запланированных собраний Skype для бизнеса. Если удалить этот настольный клиент, то ранее запланированные собрания будут доступны пользователям в веб-приложении Skype для бизнеса.
 
