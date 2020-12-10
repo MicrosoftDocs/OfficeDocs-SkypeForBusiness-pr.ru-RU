@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9e64dc908bafdd63b17e22716e76c4f04df1409
-ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
+ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588607"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611793"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Бесперебойно работающее устройство филиала (SBA) для прямой маршрутизации — общедоступная Предварительная версия
 
@@ -89,7 +89,7 @@ SBA является распространяемым кодом, предост
 
 | Параметр| Описание |
 | :------------|:-------|
-| Identity  | Полное доменное имя SBA  |
+| Identity  | Удостоверение SBA  |
 | Fqdn | Полное доменное имя SBA |
 | Сайт | TenantNetworkSite, где находится SBA |
 | Описание | Бесплатный формат текста |
@@ -98,7 +98,7 @@ SBA является распространяемым кодом, предост
 Например:
 
 ``` powershell
-C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
+C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
 Identity    : sba1.contoso.com 
 Fqdn        : sba1.contoso.com 
 Site        : 
@@ -120,7 +120,7 @@ Description : SBA 1
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
+BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
 Вы можете добавить или удалить SBAs из политики с помощью командлета Set-CsTeamsSurvivableBranchAppliancePolicy. Например: 

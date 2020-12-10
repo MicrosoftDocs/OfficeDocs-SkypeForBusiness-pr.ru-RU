@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d370bec6eb8a3319427c934593016f2b85d6c26
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521386"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611463"
 ---
 # <a name="manage-user-access-to-teams"></a>Управление доступом пользователей к Teams
 
-Управление доступом к Teams осуществляется на уровне пользователя с помощью назначения или удаления лицензии на продукт Microsoft Teams. У каждого пользователя в вашей организации должна быть лицензия Teams, прежде чем они смогут использовать Teams. Вы можете назначить лицензию Teams для новых пользователей при создании новых учетных записей пользователей или для пользователей с существующими учетными записями.
+Управление доступом к Teams осуществляется на уровне пользователя с помощью назначения или удаления лицензии на продукт Microsoft Teams. За исключением того, что для анонимного присоединения к собраниям групп у каждого пользователя в вашей организации должна быть лицензия Teams, прежде чем они смогут использовать Teams. Вы можете назначить лицензию Teams для новых пользователей при создании новых учетных записей пользователей или для пользователей с существующими учетными записями.
 
 По умолчанию, когда пользователю назначается план лицензирования (например, Microsoft 365 корпоративный E3 или Microsoft 365 Business Premium), ему автоматически назначается лицензия Teams, и пользователь включает команды. Вы можете отключить или включить команды для пользователя, удалив или назначив лицензию в любое время.
 
@@ -89,16 +89,23 @@ ms.locfileid: "48521386"
 
 Чтобы отобразить все доступные планы лицензирования в вашей организации, выполните следующую команду: Дополнительные сведения можно найти в статье [Просмотр лицензий и служб с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
-      Get-MsolAccountSku
+
+```powershell
+Get-MsolAccountSku
+```
 
 Выполните указанные ниже команды, где \<CompanyName:License> имя Организации и идентификатор плана лицензирования, полученного на предыдущем этапе. Например, ContosoSchool: ENTERPRISEPACK_STUDENT.
 
-      $acctSKU="<CompanyName:License>
-      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```powershell
+$acctSKU="<CompanyName:License>
+$x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```
 
 Чтобы отключить команды для всех пользователей, у которых есть действующая лицензия на план лицензирования, выполните следующую команду:
 
-      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```powershell
+Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```
 
 ## <a name="manage-teams-at-the-organization-level"></a>Управление группами на уровне Организации
 

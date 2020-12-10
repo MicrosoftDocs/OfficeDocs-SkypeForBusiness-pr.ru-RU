@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557953"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616953"
 ---
 # <a name="user-presence-in-teams"></a>Присутствие пользователей в Teams
 
@@ -97,7 +97,7 @@ ms.locfileid: "49557953"
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Параметры администратора в Teams в сравнении с Microsoft Outlook
 
-Сведения о присутствии Teams в Outlook поддерживаются в классическом приложении Outlook 2013 и более поздних версиях.
+Присутствие Teams в Outlook поддерживается в классическом приложении Outlook 2013, а также в более поздних версиях для контактов в той же организации.
 
 Если для политики режима обновления учетной записи пользователя задано значение TeamsOnly, Outlook обращается к Teams для получения сведений о присутствии. Если для учетной записи пользователя не задано значение TeamsOnly, Outlook обращается к Skype для бизнеса.
 

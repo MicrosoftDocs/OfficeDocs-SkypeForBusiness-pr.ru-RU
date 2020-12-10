@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523426"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611853"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Взаимодействие Microsoft Teams с облачными видеослужбами
 
@@ -59,7 +59,7 @@ Office 365 предоставляет возможность интеграци�
 
 |Сотрудничать|Решение для партнеров|
 |----|---|
-|![Логотип, обозначающий Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Служба RealConnect Polycom</a> |
+|![Логотип, обозначающий Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Служба RealConnect Poly</a> |
 |![Логотип, представляющий бесконечную Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip бесконечности для Microsoft Teams</a> | 
 |![Эмблема, представляющая шлюз BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз BlueJeans для Microsoft Teams</a> |
 |![Логотип компании Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Интеграция видео Cisco WebEx для Microsoft Teams</a>|
