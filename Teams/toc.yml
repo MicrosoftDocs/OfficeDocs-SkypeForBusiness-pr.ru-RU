@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Публикация настраиваемого приложения путем отправки пакета приложений
           href: upload-custom-apps.md
+        - name: Пользовательское хранилище приложений
+          href: customize-your-app-store.md
     - name: Сертификация приложения
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Просмотр разрешений для приложений и предоставление разрешения администратора в центре администрирования Microsoft Teams
@@ -240,7 +242,7 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: План
+        - name: Планирование
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Управление Доской в Teams
       href: manage-whiteboard.md
-    - name: Настройка надстройки "собрание Teams" для Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Аудиоконференции
       items:
         - name: Планирование развертывания
