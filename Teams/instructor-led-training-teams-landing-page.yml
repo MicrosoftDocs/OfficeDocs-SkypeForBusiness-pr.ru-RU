@@ -10,19 +10,19 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: aea8fd2b9345946a8b0725d76cc5fc08724cd6ae
   ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 11/04/2020
   ms.locfileid: "48878483"
 highlightedContent:
   items:
-  - title: Проверка знаний Teams
+  - title: Проверка знаний по Teams
     itemType: learn
     url: https://aka.ms/TeamsKnowledgeCheck
-  - title: Обучение для конечных пользователей по запросу
+  - title: Обучение пользователей по запросу
     itemType: video
     url: https://aka.ms/TeamsOnDemand
-  - title: Средства внедрения Microsoft 365
+  - title: Инструменты принятия Microsoft 365
     itemType: deploy
     url: https://adoption.microsoft.com
 productDirectory:
@@ -55,11 +55,11 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: 'Сведения об использовании Teams в высшем образовании. (Аудитория: преподаватели, учащиеся, исследовательские факультеты, ИТ-специалисты)'
     url: https://aka.ms/TeamsEduWebinars
-  - title: Освойте работу с Teams из дома
+  - title: Освойте работу из дома с помощью Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: " НОВИНКА! Узнайте о том, как поддерживать связь с командой и сохранять производительность. (Аудитория: для конечных пользователей, руководителей групп и отделов)"
+    summary: " НОВИНКА! Узнайте, как поддерживать связь с командой и сохранять производительность. (Аудитория: пользователи, руководители групп и подразделений)"
     url: https://aka.ms/WorkathomewithTeams
   - title: Семинары по планированию перехода
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Планируйте и реализуйте успешное обновление до Teams. (Аудитория: ИТ-специалисты, руководители по внедрению изменений)'
+    summary: 'Планируйте и выполняйте успешный переход на Teams. (Аудитория: ИТ-специалисты, руководители по внедрению изменений)'
     url: /MicrosoftTeams/upgrade-workshops-landing-page
