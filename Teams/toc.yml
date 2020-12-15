@@ -1,6 +1,6 @@
 - name: Добро пожаловать в Teams
   href: teams-overview.md
-- name: Плакаты & архитектуры решений для телефонной связи
+- name: Плакаты & решений для телефонии
   href: teams-architecture-solutions-posters.md
 - name: Поддержка удаленных работников (WFH)
   href: support-remote-work-with-teams.md
@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Работа с шаблонами Teams
       items:
-        - name: Использование шаблонов Teams в центре администрирования
+        - name: Использование шаблонов Teams в Центре администрирования
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: Созданные в Graph шаблоны Teams для малого и среднего бизнеса
           href: smb-templates.md
@@ -210,7 +210,7 @@
           href: manage-power-platform-apps.md
         - name: Публикация настраиваемого приложения путем отправки пакета приложений
           href: upload-custom-apps.md
-        - name: Пользовательское хранилище приложений
+        - name: Хранилище пользовательских приложений
           href: customize-your-app-store.md
     - name: Сертификация приложения
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Настройка приложения "Собрания Skype" для работы с Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Доступность приложения "Утверждения Teams"
+      href: approval-admin.md
 - name: Собрания и конференции
   items:
     - name: "Краткое руководство\_— собрания и трансляции"
@@ -430,13 +432,13 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справочные материалы
+        - name: Справка
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
             - name: Телефонные номера для аудиоконференций
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Зоны страны и региона для конференц-связи с голосовым сопровождением
+            - name: Зоны стран и регионов для аудиоконференций
               href: audio-conferencing-zones.md
             - name: Видео- и аудиоконференции в Teams
               href: audio-conferencing-videos.md
@@ -604,7 +606,7 @@
                   href: direct-routing-protocols-media.md
             - name: Управление политиками маршрутизации голосовой связи
               href: manage-voice-routing-policies.md
-            - name: Прямое маршрутизация устройства для обеспечения связи в филиалах
+            - name: Устройство прямой маршрутки для связи в филиалах
               href: direct-routing-survivable-branch-appliance.md
     - name: Номера телефонов
       items:
@@ -686,7 +688,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справочные материалы
+    - name: Справка
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -1055,7 +1057,7 @@
           href: business-voice/prepare-users.md
     - name: Запуск мастера начальной настройки
       href: business-voice/use-getting-started-wizard.md
-    - name: Что нужно предпринять
+    - name: Что нужно попробовать
       href: business-voice/things-to-try.md
     - name: Настройка установки
       items:
@@ -1069,11 +1071,11 @@
           href: business-voice/policy-packages.md
         - name: Создание дополнительных пользователей
           href: business-voice/create-users.md
-        - name: 'Пример: Настройка очереди звонков'
+        - name: 'Пример: настройка очереди вызовов'
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Настройка очередей звонков
           href: business-voice/set-up-call-queues.md
-        - name: 'Пример: Настройка автосекретаря'
+        - name: 'Пример: настройка автозахващика'
           href: tutorial-org-aa.yml
         - name: Настройка автосекретарей
           href: business-voice/set-up-auto-attendants.md
@@ -1108,33 +1110,33 @@
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: Виртуальные посещения
           items:
-            - name: Виртуальные посещения с помощью Teams — интеграция с ехр
+            - name: Виртуальные посещения с Teams — интеграция в EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: Виртуальные визиты с резервированием и Teams
+            - name: Виртуальные посещения с помощью Bookings и Teams
               href: bookings-app-admin.md
-        - name: Просмотр и назначение пакетов политик
+        - name: Просмотр и назначение пакетов политики
           href: policy-packages-healthcare.md
-        - name: Защита обмена сообщениями
+        - name: Безопасный обмен сообщениями
           items:
-            - name: Защита обмена сообщениями
+            - name: Безопасная система обмена сообщениями
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Делегирование сообщений
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
         - name: Шаблоны Teams
           items:
-            - name: Использование шаблонов здравоохранения в Teams
+            - name: Использование шаблонов для здравоохранения Teams
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: Шаблоны Teams для здравоохранения
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Управление приложением списков
+        - name: Управление приложением "Списки"
           href: manage-lists-app.md
-        - name: Управление приложением "задачи"
+        - name: Управление приложением "Задачи"
           href: manage-tasks-app.md
         - name: '"Смены" для Teams'
           items:
             - name: '"Смены" для Teams'
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Управление приложением "смены"
+            - name: Управление приложением "Смены"
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams для образовательных учреждений
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1171,7 +1173,7 @@
           href: firstline-workers-quickstart.yml
         - name: Развертывание с помощью скрипта для сотрудников без компьютеров
           href: flw-scripted-deployment.md
-        - name: Управление доступом на основе смены для рабочих процессов задействование
+        - name: Управление доступом на основе смен для сотрудников FirstLine
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear для Microsoft Teams
           href: flw-realwear.md
@@ -1182,7 +1184,7 @@
     - name: Teams для розничной торговли
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Начало работы с шаблонами розничных групп в центре администрирования
+        - name: Начало работы с шаблонами Teams в Центре администрирования
           href: retail-teams-templates-in-the-admin-console.md
         - name: Начало работы с шаблонами Teams для розничной торговли
           href: get-started-with-retail-teams-templates.md
@@ -1233,13 +1235,13 @@
           href: retention-policies.md
         - name: Соответствие требованиям к обмену данными
           href: communication-compliance.md
-        - name: Запись на основе политики для вызовов & собраний
+        - name: Запись на основе политики для звонков & собраниях
           href: teams-recording-policy.md
         - name: Защита от потери данных
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: Обнаружение электронных данных
           href: ediscovery-investigation.md
-        - name: Удержание по юридическим причинам
+        - name: Удержание по юридическим основаниям
           href: legal-hold.md
         - name: Поиск контента
           href: content-search.md
@@ -1331,7 +1333,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справочные материалы
+- name: Справка
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
@@ -1416,7 +1418,7 @@
           items:
             - name: Настройка гибридной организации Exchange для работы с Teams
               href: exchange-hybrid-organization.md
-            - name: Использование правил обработки почтового процесса в Exchange
+            - name: Использование правил потока почты с Exchange
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Взаимодействие SharePoint Online и OneDrive для бизнеса с Teams
           href: sharepoint-onedrive-interact.md
@@ -1432,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Телефоны для Teams
           href: devices/phones-for-teams.md
-        - name: Teams отображает
+        - name: Отображение Teams
           href: devices/teams-displays.md
-        - name: Переход с телефонов Teams на дисплеи Teams
+        - name: Обновление телефонов Teams до отображения Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Развертывание телефонов Teams и Teams отображается с помощью Intune
+        - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
           href: devices/phones-displays-deploy.md
         - name: USB-устройства для аудио и видео
           href: devices/usb-devices.md
@@ -1718,5 +1720,5 @@
       href: export-teams-content.md
     - name: Заметки о выпуске для функций администрирования Teams
       href: release-notes/release-notes.md
-    - name: Общедоступная Предварительная версия в Microsoft Teams
+    - name: Общедоступный предварительный просмотр в Microsoft Teams
       href: public-preview-doc-updates.md
