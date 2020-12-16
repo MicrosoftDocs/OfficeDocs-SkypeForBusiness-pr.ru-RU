@@ -244,7 +244,7 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: Планирование
+        - name: План
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
@@ -432,7 +432,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справка
+        - name: Справочные материалы
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
@@ -688,7 +688,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справка
+    - name: Справочные материалы
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -883,7 +883,7 @@
       href: teams-adoption-get-started.md
     - name: Этап 1 — начало
       items:
-        - name: Start
+        - name: Начало
           href: teams-adoption-phase1.md
         - name: Общие сведения о командах и каналах
           href: teams-adoption-understand-teams-and-channels.md
@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: Общие сведения о сосуществовании и взаимодействии
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Общие сведения о телефонной системе и параметрах связи с ТСОП
-              href: cloud-voice-landing-page.md
+            - name: Рекомендации по ТСОП
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Выбор процедуры обновления
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Планирование пилотного развертывания для пользователей
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Сосуществование Teams и Skype для бизнеса
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: Рекомендации по ТСОП
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Режимы сосуществования — справочник
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
@@ -1333,7 +1331,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справка
+- name: Справочные материалы
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
@@ -1438,7 +1436,7 @@
           href: devices/teams-displays.md
         - name: Обновление телефонов Teams до отображения Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
+        - name: Развертывание телефонов и дисплеев Teams с помощью Intune
           href: devices/phones-displays-deploy.md
         - name: USB-устройства для аудио и видео
           href: devices/usb-devices.md
