@@ -1,5 +1,5 @@
 ---
-title: Что такое голосовая связь Microsoft 365 бизнес?
+title: Что такое корпоративная голосовая связь Microsoft 365?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -26,7 +26,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030785"
 ---
-# <a name="what-is-microsoft-365-business-voice"></a>Что такое голосовая связь Microsoft 365 бизнес?
+# <a name="what-is-microsoft-365-business-voice"></a>Что такое корпоративная голосовая связь Microsoft 365?
 
 Голосовая связь Microsoft 365 бизнес позволяет малым и средним организациям превратить Microsoft Teams в эффективную и гибкую телефонную систему. Это замена традиционных служб доступа к телефонии и собственных телефонных систем, которыми сложно и дорого управлять. Вы можете настроить платные и бесплатные номера, голосовые меню, чтобы звонящие попадали в нужный отдел, аудиоконференции для проведения собраний с любыми пользователями и т. д. Вы даже можете предоставлять пользователям собственные номера телефонов, чтобы им можно было звонить напрямую.
 
@@ -79,5 +79,5 @@ ms.locfileid: "49030785"
     </tr>
 </table>
 
-Информация о всех компонентах корпоративной голосовой связи доступна в статье [Описание службы голосовой связи Microsoft 365 бизнес](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Информация о всех компонентах корпоративной голосовой связи доступна в статье [Описание службы корпоративной голосовой связи Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
