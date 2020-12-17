@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Узнайте, как устранять проблемы с установкой и обновлением клиентского приложения Teams для настольных компьютеров в Windows.
 ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
 ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/28/2020
 ms.locfileid: "47300283"
@@ -49,7 +49,7 @@ ms.locfileid: "47300283"
 
 ### <a name="troubleshoot-update-issues"></a>Устранение неполадок при обновлении
 
-После успешной установки Teams расположение журнала переключается с%LocalAppData%\SquirrelTemp на%LocalAppData%\Microsoft\Teams. В этом месте есть два файла журнала, представляющих интерес, SquirrelSetup.log и logs.txt.
+Когда Teams успешно установлен, расположение журнала меняется с %LocalAppData%\SquirrelTemp на %LocalAppData%\Microsoft\Teams. В этом месте есть два файла журнала, представляющих интерес, SquirrelSetup.log и logs.txt.
 
 - Файл SquirrelSetup.log в этом месте записывается с помощью Update.exe, который является исполняемым файлом, обслуживающим приложение Teams.
 - Файл Logs.txt используется приложением Teams (в частности, Teams.exe) для записи важных событий приложения. Скорее всего, он будет содержать информацию об ошибках.
