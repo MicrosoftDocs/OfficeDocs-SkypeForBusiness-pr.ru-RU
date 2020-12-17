@@ -12,48 +12,50 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- m365solution-voice
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: В этой статье объясняется, как настроить прямую маршрутизацию Microsoft Phone System для подключения локальной инфраструктуры телефонной связи с Microsoft Teams.
+description: Узнайте, как настроить маршрутинг Microsoft Phone System Direct Routing для подключения локальной инфраструктуры телефонии к Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031775"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701297"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
-Прямая маршрутизация Microsoft Phone System позволяет подключать локальную инфраструктуру телефонной связи с Microsoft Teams. В этой статье перечислены общие действия, которые необходимо выполнить, чтобы подключить поддерживаемый локальный контроллер рабочего места (SBC) для прямой маршрутизации и настроить пользователей Teams прямо на использование прямой маршрутизации для подключения к коммутируемой телефонной сети с открытым коммутируемым подключением (КТСОП). В этой статье приведены ссылки на статьи с подробными сведениями о ней.  
+Прямая маршрутия в телефонной системе Майкрософт позволяет подключить к Microsoft Teams свою локальное инфраструктуру телефонии. В этой статье перечислены высокоуровневые действия, необходимые для подключения поддерживаемого локального граничного контроллера сеанса (SBC) к прямой маршрутике, а также настройка использования прямой маршрутии для подключения к телефонной сети общего пользования (STN) пользователей Teams. В этой статье вы также ссылки на статьи со ссылками на статьи с подробными сведениями.  
 
-Сведения о том, является ли прямая маршрутизация подходящего решения для вашей организации, можно найти в разделе [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md). Сведения о предварительных требованиях и планировании развертывания можно найти в разделе [Планирование прямого маршрутизации](direct-routing-plan.md).
+Сведения о том, является ли прямая маршрутизации правильным решением для вашей организации, см. в подсистеме телефонной [системы.](direct-routing-landing-page.md) Сведения о необходимых предварительных условиях и планировании развертывания см. в плане [прямой маршрутации.](direct-routing-plan.md)
 
 > [!Tip]
-> Вы также можете узнать о преимуществах прямой маршрутизации, о том, как ее планировать и развертывать в следующем сеансе: [Прямая маршрутизация в Microsoft Teams](https://aka.ms/teams-direct-routing).
+> Вы также можете посмотреть этот сеанс, чтобы узнать о преимуществах прямой маршрутинга, планировании и развертывании: [Direct Routing в Microsoft Teams.](https://aka.ms/teams-direct-routing)
 
-Чтобы выполнить шаги, описанные в этой статье, администраторы должны ознакомиться с командлетами PowerShell. Дополнительные сведения об использовании PowerShell можно найти в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Для выполнения действий, которые объясняются в этой статье, администраторам необходимо ознакомиться с cmdlets PowerShell. Дополнительные сведения об использовании PowerShell см. в [Windows PowerShell.](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
-Перед выполнением действий, описанных в этой статье, корпорация Microsoft рекомендует подтвердить, что ваш SBC уже настроен в соответствии с рекомендациями вашего поставщика SBC. 
+Прежде чем выполнять действия, указанные в этих статьях, корпорация Майкрософт рекомендует подтвердить, что ваш поставщик SBC уже настроил SBC: 
 
 - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [Документация по развертыванию связи с лентой](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [Документация по развертыванию системы TE (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
-- [Документация по развертыванию Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)
+- [Документация по развертыванию информационного сообщения на ленте](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Документация по развертыванию TE-Systems (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Документация по развертыванию Metasw deployment](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-Полный список поддерживаемых SBCs можно найти в разделе [список контроллеров границ сеансов, сертифицированных для прямого маршрутизации](direct-routing-border-controllers.md).
+Полный список поддерживаемых SBCs см. в списке граничных контроллеров сеанса, сертифицированных для [прямой маршрутики.](direct-routing-border-controllers.md)
 
-Чтобы настроить телефонную систему Microsoft и разрешить пользователям использовать прямую маршрутизацию, выполните указанные ниже действия. 
+Чтобы настроить телефонную систему Майкрософт и позволить пользователям использовать прямую маршрутику, выполните следующие действия: 
 
-- **Шаг 1.** [Соединение SBC с телефонной системой Microsoft и проверка соединения](direct-routing-connect-the-sbc.md)
-- **Шаг 2.** [Предоставление пользователям прямой маршрутизации, голоса и голосовой почты](direct-routing-enable-users.md)
-- **Шаг 3.** [Настройка голосовой маршрутизации](direct-routing-voice-routing.md)
+- **Шаг 1.** [Подключение SBC к телефонной системе Майкрософт и проверка подключения](direct-routing-connect-the-sbc.md)
+- **Шаг 2.** [Включить для пользователей прямую маршрутику, голосовую и голосовую почту](direct-routing-enable-users.md)
+- **Шаг 3.** [Настройка голосовой маршрутии](direct-routing-voice-routing.md)
 - **Шаг 4.** [Перевод чисел в альтернативный формат](direct-routing-translate-numbers.md) 
 
-Если вы настраиваете SBC для нескольких клиентов, вы также захотите прочитать [настройку SBC для нескольких клиентов](direct-routing-sbc-multiple-tenants.md).
+Если вы настраиваетЕ SBC для нескольких клиентов, также необходимо прочитать статью "Настройка [SBC для нескольких клиентов".](direct-routing-sbc-multiple-tenants.md)
 
 
 ## <a name="related-topics"></a>Статьи по теме
