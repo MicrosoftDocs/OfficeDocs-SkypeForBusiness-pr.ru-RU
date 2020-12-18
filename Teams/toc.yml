@@ -244,7 +244,7 @@
       items:
         - name: Обзор
           href: rooms/index.md
-        - name: План
+        - name: Планирование
           items:
             - name: Обзор планирования комнат Microsoft Teams
               href: rooms/rooms-plan.md
@@ -432,7 +432,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: Доступность аудиоконференций в различных странах и регионах
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Справочные материалы
+        - name: Справка
           items:
             - name: Поддерживаемые языки аудиоконференций
               href: audio-conferencing-supported-languages.md
@@ -506,7 +506,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: Справочник набора номера и голосовых вызовов
               href: dial-voice-reference.md
-            - name: Reporting
+            - name: Отчетность
               href: aa-cq-cqd-historical-reports.md
         - name: Блокировка входящих звонков
           href: block-inbound-calls.md
@@ -688,7 +688,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: Автосекретари и очереди вызовов
           href: voice-case-study-call-queues.md
-    - name: Справочные материалы
+    - name: Справка
       items:
         - name: Управление номерами телефонов в различных странах
           items:
@@ -742,11 +742,11 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: Белиз
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Босния & Герцеговина
+            - name: Босния и Герцеговина
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: Бразилия
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: Бруней-Даруссалам
+            - name: Бруней
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
             - name: Болгария
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
@@ -778,7 +778,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Гондурас
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Гонконг
+            - name: 'Гонконг, САР'
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: Венгрия
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -836,7 +836,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
             - name: Южная Африка
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: Республика Корея
+            - name: Южная Корея
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
             - name: Испания
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
@@ -852,7 +852,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
             - name: Объединенные Арабские Эмираты
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: Соединенное Королевство
+            - name: Великобритания
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
             - name: Уругвай
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
@@ -974,7 +974,7 @@
     - name: Прекращение поддержки Skype для бизнеса Online
       href: skype-for-business-online-retirement.md
     - name: Вопросы и ответы
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: Техническая библиотека
       items:
         - name: Руководство по обновлению для ИТ-администраторов
@@ -1249,7 +1249,7 @@
       items:
         - name: Конфиденциальность и Microsoft Teams
           href: teams-privacy.md
-        - name: Рекомендации по сбору данных
+        - name: Принципы сбора данных
           href: data-collection-practices.md
         - name: Расположение данных в Teams
           href: location-of-data-in-teams.md
@@ -1331,7 +1331,7 @@
       href: service-health.md
     - name: Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Справочные материалы
+- name: Справка
   items:
     - name: Ограничения и спецификации для Teams
       href: limits-specifications-teams.md
@@ -1436,7 +1436,7 @@
           href: devices/teams-displays.md
         - name: Обновление телефонов Teams до отображения Teams
           href: devices/upgrade-phones-to-displays.md
-        - name: Развертывание телефонов и дисплеев Teams с помощью Intune
+        - name: Развертывание телефонов Teams и дисплеев Teams с помощью Intune
           href: devices/phones-displays-deploy.md
         - name: USB-устройства для аудио и видео
           href: devices/usb-devices.md
@@ -1504,11 +1504,11 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: Бермуды
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: Босния & Герцеговина
+        - name: Босния и Герцеговина
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: Бразилия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
-        - name: Бруней-Даруссалам
+        - name: Бруней
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
         - name: Болгария
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
@@ -1568,7 +1568,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Гондурас
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: Гонконг
+        - name: 'Гонконг, САР'
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: Венгрия
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
@@ -1662,7 +1662,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
         - name: Южная Африка
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
-        - name: Республика Корея
+        - name: Южная Корея
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
         - name: Испания
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
@@ -1676,7 +1676,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: Таиланд
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: Тринидад & Тобаго
+        - name: Тринидад и Тобаго
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: Тунис
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
@@ -1690,7 +1690,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
         - name: Объединенные Арабские Эмираты
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
-        - name: Соединенное Королевство
+        - name: Великобритания
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
         - name: Соединенные Штаты
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
