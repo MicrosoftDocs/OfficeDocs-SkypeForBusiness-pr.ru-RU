@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Узнайте, какие USB-периферийные устройства, такие как гарнитуры, динамики, веб-камеры и мониторы, сертифицированы для Microsoft Teams.
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712307"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718583"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видео устройства USB, сертифицированные для Microsoft Teams
 
@@ -78,6 +78,13 @@ ms.locfileid: "49712307"
 
 | Производитель        | Модель                                                     | Квалифицировать      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
+|Dell                 |C3422WE Monitor                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Dell                 |C2722DE Monitor                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор C2422HE                                            |12/11/2020      |Сертифицировано для Microsoft Teams                           |
+|Poly                 |Синхронизация 20 + динамик телефона с poly BT600 USB Dongle          |11/9/2020       |Сертифицировано для Microsoft Teams                           |
+|Poly                 |Синхронизация 20 динамиков                                       |11/9/2020       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype для бизнеса с обновлением до Microsoft Teams      |
