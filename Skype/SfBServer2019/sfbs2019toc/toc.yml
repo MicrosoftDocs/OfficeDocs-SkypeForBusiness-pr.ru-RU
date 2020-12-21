@@ -1,4 +1,4 @@
-- name: Skype для бизнеса Server 2019
+- name: Skype for Business Server 2019
   href: ../skype-for-business-server-2019.yml
   items:
     - name: Новые возможности
