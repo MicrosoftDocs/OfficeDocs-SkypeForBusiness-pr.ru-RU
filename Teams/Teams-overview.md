@@ -33,7 +33,7 @@ ms.locfileid: "49030985"
 
 <span data-ttu-id="9dfab-108">Не пропустите наше видео "Добро пожаловать в Teams" для администраторов Teams (чуть больше 3 минут):</span><span class="sxs-lookup"><span data-stu-id="9dfab-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vAJL]
 
 <span data-ttu-id="9dfab-109">Если вы ищете справку по Teams для пользователей, выберите элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams).</span><span class="sxs-lookup"><span data-stu-id="9dfab-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="9dfab-110">Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="9dfab-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
