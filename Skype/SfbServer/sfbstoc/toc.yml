@@ -1,9 +1,9 @@
-- name: Skype for Business Server 2015
+- name: Skype для бизнеса Server 2015
   href: ../skype-for-business-server-2015.yml
   items:
     - name: Технические графики
       href: ../technical-diagrams.md
-    - name: Новые возможности Skype для бизнеса Server
+    - name: Новые возможности в Skype для бизнеса Server
       href: ../what-s-new-in-skype-for-business-server.md
     - name: Загрузки и обновления Skype для бизнеса
       href: ../software-updates.md
@@ -15,9 +15,9 @@
     - name: Решения Майкрософт для телефонии
       href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
       items:
-        - name: Планирование телефонной системы с соединением на локальной ТСОП в Skype для бизнеса Server
+        - name: Планирование телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
-        - name: Активация пользователей телефонной системы с возможностью подключения к локальной ТСОП в Skype для бизнеса Server
+        - name: Активация пользователей телефонной системы с соединением по локальной ТСОП в Skype для бизнеса Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md
           items:
             - name: Включение локальной корпоративной голосовой связи для пользователей
@@ -29,7 +29,7 @@
         - name: Планирование Skype для бизнеса Cloud Connector Edition
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md
           items:
-            - name: Планирование узлов ТСОП Cloud Connector Edition
+            - name: Планирование сайтов ТСОП Cloud Connector Edition
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md
             - name: Планирование обхода сервера-посредника в Cloud Connector Edition
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md
@@ -152,7 +152,7 @@
               href: ../plan-your-deployment/requirements-for-your-environment/server-requirements.md
             - name: Требования к среде
               href: ../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md
-        - name: 'Требования к сети:'
+        - name: Требования к сети
           href: ../plan-your-deployment/network-requirements/network-requirements.md
           items:
             - name: IPv6
@@ -180,7 +180,7 @@
           items:
             - name: Взаимодействие с пользователем
               href: ../plan-your-deployment/clients-and-devices/user-experience.md
-            - name: Сравнение настольных возможностей
+            - name: Сравнение классических возможностей
               href: ../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md
             - name: Сравнение мобильных возможностей
               href: ../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md
@@ -214,7 +214,7 @@
               href: ../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md
             - name: Общий доступ к файлам
               href: ../plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md
-        - name: Обмен мгновенными сообщениями и сведения о присутствии
+        - name: Мгновенные сообщения и присутствие
           href: ../plan-your-deployment/instant-messaging-and-presence.md
         - name: Сервер видеовзаимодействия
           href: ../plan-your-deployment/video-interop-server.md
@@ -227,7 +227,7 @@
               href: ../plan-your-deployment/persistent-chat-server/topology.md
             - name: Высокая доступность и аварийное восстановление
               href: ../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md
-            - name: Планирование ресурсов
+            - name: Планирование мощности
               href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md
             - name: 'Категории, комнаты чата и роли пользователей'
               href: ../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md
@@ -240,7 +240,7 @@
                 - name: 'Компоненты, необходимые для корпоративной голосовой связи'
                   href: ../plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md
                   items:
-                    - name: Mediation Server (Сервер-посредник);
+                    - name: Сервер-посредник
                       href: ../plan-your-deployment/enterprise-voice-solution/mediation-server.md
                     - name: Связь с ТСОП
                       href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md
@@ -319,13 +319,13 @@
                   items:
                     - name: Парковка вызовов
                       href: ../plan-your-deployment/enterprise-voice-solution/call-park.md
-                    - name: Ответ на групповой вызов
+                    - name: Групповой прием звонков
                       href: ../plan-your-deployment/enterprise-voice-solution/group-call-pickup.md
                     - name: Группа ответа
                       href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
                     - name: Объявление
                       href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
-                - name: Вид общей линии
+                - name: Распределенная линия
                   href: ../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md
                 - name: Параметры доступности
                   href: ../plan-your-deployment/enterprise-voice-solution/busy-options.md
@@ -356,7 +356,7 @@
           href: ../plan-your-deployment/monitoring.md
         - name: Архивация
           href: ../plan-your-deployment/archiving/archiving.md
-        - name: Конференции
+        - name: Конференц-связь
           href: ../plan-your-deployment/conferencing/conferencing.md
           items:
             - name: Требования к оборудованию и программному обеспечению
@@ -405,7 +405,7 @@
                   href: ../plan-your-deployment/security/encryption.md
                 - name: Средства управления
                   href: ../plan-your-deployment/security/management-tools.md
-            - name: Адресация угроз
+            - name: Устранение угроз
               href: ../plan-your-deployment/security/addressing-threats.md
               items:
                 - name: Рекомендации
@@ -485,7 +485,7 @@
               href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
             - name: Установка отчетов мониторинга
               href: ../deploy/deploy-monitoring/install-monitoring-reports.md
-            - name: Отчеты по отслеживанию с зеркальной базой данных
+            - name: Отчеты мониторинга с зеркальной базой данных
               href: ../deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md
             - name: Регистрация вызовов и QoE
               href: ../deploy/deploy-monitoring/call-detail-recording-and-qoe.md
@@ -520,7 +520,7 @@
             - name: Настройка магистралей
               href: ../deploy/deploy-enterprise-voice/configure-trunks.md
               items:
-                - name: Поддержка нескольких каналов
+                - name: Поддержка нескольких магистралей
                   href: ../manage/voice-routing/multiple-trunk-support.md
                 - name: Маршрутизация между магистралями
                   href: ../manage/voice-routing/inter-trunk-routing.md
@@ -575,7 +575,7 @@
                   items:
                     - name: Создание профилей политики пропускной способности
                       href: ../deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md
-                    - name: Создание связей между сетевыми областями
+                    - name: Создание связей между областями сети
                       href: ../deploy/deploy-enterprise-voice/create-network-region-links.md
                     - name: Создание межрегиональных сетевых маршрутов
                       href: ../deploy/deploy-enterprise-voice/create-network-interregional-routes.md
@@ -598,7 +598,7 @@
                       href: ../deploy/deploy-enterprise-voice/configure-the-location-database.md
                     - name: Настройка SNMP-приложения
                       href: ../deploy/deploy-enterprise-voice/configure-an-snmp-application.md
-                    - name: Служба сведений о дополнительном расположении
+                    - name: Служба информирования о дополнительном местонахождении
                       href: ../deploy/deploy-enterprise-voice/secondary-location-information-service.md
                     - name: Настройка нескольких номеров экстренных служб
                       href: ../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md
@@ -612,29 +612,29 @@
             - name: Развертывание функций управления звонками
               href: ../deploy/deploy-enterprise-voice/deploy-call-management-features.md
               items:
-                - name: Процесс развертывания для приостановки звонков
+                - name: Процесс развертывания для парковки вызовов
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-call-park.md
                   items:
-                    - name: Создание или изменение диапазона орбит для приостановки звонков
+                    - name: Создание или изменение диапазона орбит для парковки вызовов
                       href: ../deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md
-                    - name: Настройка параметров приостановки звонков
+                    - name: Настройка параметров парковки вызовов
                       href: ../deploy/deploy-enterprise-voice/configure-call-park-settings.md
-                    - name: Настройка функции воспроизведения музыки для режима удержания при приостановке звонка
+                    - name: Настройка музыки при удержании для парковки вызовов
                       href: ../deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md
-                    - name: Включение для пользователей приостановки звонков
+                    - name: Включение парковки вызовов для пользователей
                       href: ../deploy/deploy-enterprise-voice/enable-call-park-for-users.md
-                    - name: Проверка правил нормализации для приостановки звонков
+                    - name: Проверка правил нормализации для парковки вызовов
                       href: ../deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md
-                    - name: Проверка развертывания приостановки звонков (необязательно)
+                    - name: Проверка развертывания парковки вызовов (необязательно)
                       href: ../deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md
-                - name: Процесс развертывания компонента группового ответа на звонки
+                - name: Процесс развертывания группового приема звонков
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md
                   items:
                     - name: Развертывание инструмента SEFAUtil
                       href: ../deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md
-                    - name: Создание или изменение диапазона номеров для группового ответа на звонки
+                    - name: Создание или изменение диапазона номеров для группового приема звонков
                       href: ../deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md
-                    - name: Включение группового ответа на звонки для пользователей и назначение группового номера
+                    - name: Включение группового приема звонков для пользователей и назначение группового номера
                       href: ../deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md
                 - name: Процесс развертывания для группы ответа
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-response-group.md
@@ -719,7 +719,7 @@
               items:
                 - name: Использование центра развертывания Office (OCT)
                   href: ../deploy/deploy-clients/use-the-office-customization-tool-oct.md
-                - name: 'Использование Config.xml для выполнения задач, связанных с установкой'
+                - name: Использование Config.xml для выполнения задач установки
                   href: ../deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md
                 - name: Использование параметров командной строки программы установки
                   href: ../deploy/deploy-clients/use-setup-command-line-options.md
@@ -734,18 +734,18 @@
             - name: Настройка интеллектуального списка контактов
               href: ../deploy/deploy-clients/configure-smart-contacts-list.md
               items:
-                - name: Учетные записи Exchange для системы комнат Skype и Skype
+                - name: Учетные записи Exchange и Skype для системы комнат Skype
                   href: ../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md
                   items:
-                    - name: Локальные развертывания одного леса
+                    - name: Локальные развертывания с одним лесом
                       href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
-                    - name: Развертывание нескольких локальных лесов
+                    - name: Локальные развертывания с несколькими лесами
                       href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
-                    - name: Подготовка учетных записей системы комнат Skype в Office 365
+                    - name: Предоставление учетных записей системы комнат Skype в Office 365
                       href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
                     - name: Гибридные развертывания
                       href: ../deploy/deploy-clients/hybrid-deployments.md
-                    - name: Система комнат и Федеративные партнеры
+                    - name: Система комнат и федеративные партнеры
                       href: ../deploy/deploy-clients/room-system-and-federated-partners.md
                     - name: Управление учетными записями системы комнат Skype
                       href: ../deploy/deploy-clients/manage-skype-room-system-accounts.md
@@ -753,28 +753,28 @@
                   href: ../deploy/deploy-clients/conferencing-policy.md
                 - name: Доверенные домены
                   href: ../deploy/deploy-clients/trusted-domains.md
-                - name: Рекомендации по перемещению
+                - name: Сведения о выполнении миграции
                   href: ../deploy/deploy-clients/migration-considerations.md
-                - name: Рекомендации по присоединению к домену
+                - name: Сведения о присоединении к домену
                   href: ../deploy/deploy-clients/domain-joining-considerations.md
                 - name: Лицензия на программное обеспечение Skype для бизнеса
                   href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
-                - name: Возможности управления и инструменты
+                - name: Возможность управления и инструменты
                   href: ../deploy/deploy-clients/manageability-and-tools.md
-                - name: Сценарии настройки комнаты
+                - name: Сценарии настройки комнат
                   href: ../deploy/deploy-clients/room-setup-scripts.md
-            - name: Системы комнат v2
+            - name: "Системы комнат Skype версии\_2"
               href: ../deploy/deploy-clients/room-systems-v2.md
               items:
                 - name: В Office 365
                   href: ../deploy/deploy-clients/with-office-365.md
-                - name: С помощью Skype для бизнеса Server 2015
+                - name: В Skype для бизнеса Server 2015
                   href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
                 - name: В Exchange Online
                   href: ../deploy/deploy-clients/with-exchange-online.md
                 - name: В локальной среде Exchange
                   href: ../deploy/deploy-clients/with-exchange-on-premises.md
-                - name: Текстовое
+                - name: Консоль
                   href: ../deploy/deploy-clients/console.md
             - name: Развертывание подключаемого модуля VDI для Lync
               href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
@@ -825,7 +825,7 @@
           items:
             - name: Категории
               href: ../manage/persistent-chat/categories.md
-            - name: Комнат чата
+            - name: Комнаты чата
               href: ../manage/persistent-chat/chat-rooms.md
             - name: Настройка надстроек
               href: ../manage/persistent-chat/configure-add-ins.md
@@ -842,7 +842,7 @@
           items:
             - name: Доступ к данным мониторинга
               href: ../manage/health-and-monitoring/access-monitoring-data.md
-            - name: Регистрация вызовов (CDR).
+            - name: Регистрация вызовов (CDR)
               href: ../manage/health-and-monitoring/call-detail-recording-cdr.md
               items:
                 - name: Просмотр сведений о конфигурации
@@ -901,7 +901,7 @@
                     - name: Сводный отчет по конференц-связи
                       href: ../manage/health-and-monitoring/conference-summary-report.md
                       items:
-                        - name: Отчет об активности
+                        - name: Отчет о действиях
                           href: ../manage/health-and-monitoring/activity-report.md
                         - name: Подробный отчет
                           href: ../manage/health-and-monitoring/detail-report.md
@@ -914,12 +914,12 @@
                       items:
                         - name: Отчет по списку звонков
                           href: ../manage/health-and-monitoring/call-list-report.md
-                    - name: Отчет по запасам IP-телефонов (Phone Inventory Report)
+                    - name: Отчет по инвентаризации IP-телефонов
                       href: ../manage/health-and-monitoring/ip-phone-inventory-report.md
-                    - name: Отчет по контролю допуска звонков (Call Admission Control Report)
+                    - name: Отчет по контролю допуска звонков
                       href: ../manage/health-and-monitoring/call-admission-control-report.md
                       items:
-                        - name: Подробный отчет по сеансу однорановой связи
+                        - name: Подробный отчет по сеансу одноранговой связи
                           href: ../manage/health-and-monitoring/peer-to-peer-session-detail-report.md
                 - name: Отчеты по диагностике звонков (по пользователям)
                   href: ../manage/health-and-monitoring/call-diagnostic-reports-per-user.md
@@ -929,13 +929,13 @@
                     - name: Сводный отчет
                       href: ../manage/health-and-monitoring/summary-report.md
                       items:
-                        - name: Сводный подотчет по конференции
+                        - name: Сводный вложенный отчет по конференц-связи
                           href: ../manage/health-and-monitoring/conference-summary-subreport.md
-                        - name: Сводный подотчет P2P
+                        - name: Сводный вложенный отчет P2P
                           href: ../manage/health-and-monitoring/p2p-summary-subreport.md
                     - name: Диагностический отчет по одноранговой активности
                       href: ../manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md
-                    - name: Диагностический отчет по конференции
+                    - name: Диагностический отчет по конференц-связи
                       href: ../manage/health-and-monitoring/conference-diagnostic-report.md
                     - name: Отчет по самым частым отказам
                       href: ../manage/health-and-monitoring/top-failures-report.md
@@ -948,25 +948,25 @@
                 - name: Диагностические отчеты по качеству среды
                   href: ../manage/health-and-monitoring/media-quality-diagnostic-reports.md
                   items:
-                    - name: Аннотация
+                    - name: Сводка
                       href: ../manage/health-and-monitoring/summary.md
                     - name: Сравнение
                       href: ../manage/health-and-monitoring/comparison.md
                     - name: Производительность сервера
                       href: ../manage/health-and-monitoring/server-performance.md
-                    - name: Отчет о местоположении
+                    - name: Отчет о расположении
                       href: ../manage/health-and-monitoring/location-report.md
                     - name: Отчет об устройстве
                       href: ../manage/health-and-monitoring/device-report.md
                     - name: Отчет по списку звонков
                       href: ../manage/health-and-monitoring/call-list-report-0.md
-                    - name: Отчет о звонке
+                    - name: Отчет со сведениями о звонке
                       href: ../manage/health-and-monitoring/call-detail-report.md
                     - name: Отчет по качеству работы серверов
                       href: ../manage/health-and-monitoring/server-media-quality-trend-report.md
                     - name: Отчет по распределению метрик качества среды
                       href: ../manage/health-and-monitoring/media-quality-metrics-distribution-report.md
-                    - name: Отчет о тенденциях в выборе местоположений
+                    - name: Отчет о тенденциях в выборе расположений
                       href: ../manage/health-and-monitoring/location-trend-report.md
             - name: Функция оценки звонка
               href: ../manage/health-and-monitoring/rate-my-call.md
@@ -1001,7 +1001,7 @@
               href: ../manage/archiving/change-archiving-database-options.md
             - name: Экспорт архивных данных
               href: ../manage/archiving/export-archived-data.md
-        - name: Конференции
+        - name: Конференц-связь
           href: ../manage/conferencing/conferencing.md
           items:
             - name: Политики конференц-связи
@@ -1037,7 +1037,7 @@
                   href: ../manage/conferencing/enable-or-disable.md
                 - name: Номера доступа
                   href: ../manage/conferencing/access-numbers.md
-                - name: политики ПИН-кодов
+                - name: Политики ПИН-кодов
                   href: ../manage/conferencing/pin-policies.md
                 - name: Оповещения о присоединении и выходе
                   href: ../manage/conferencing/join-and-leave-announcements.md
@@ -1113,15 +1113,15 @@
                   href: ../manage/network-management/call-admission-control/enabling-call-admission-control.md
                 - name: Управление профилями политики пропускной способности сети в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md
-                - name: Управление сетевыми областями в Skype для бизнеса Server
+                - name: Управление областями сети в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/managing-network-regions.md
-                - name: Управление маршрутами сетевых областей в Skype для бизнеса Server
+                - name: Управление маршрутами областей сети в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/managing-network-region-routes.md
                 - name: Управление контролем допуска звонков для сайтов в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md
                 - name: Включение и отключение обхода сервера-посредника в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md
-                - name: Связывание сетевых областей в Skype для бизнеса Server
+                - name: Связывание областей сети в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/linking-network-regions.md
                 - name: Управление подсетями в Skype для бизнеса Server
                   href: ../manage/network-management/call-admission-control/managing-network-subnets.md
@@ -1151,7 +1151,7 @@
               items:
                 - name: Просмотр сведений о политике ПИН-кодов
                   href: ../manage/authentication/view-pin-policy-information.md
-                - name: Создание новой политики ПИН-кодов
+                - name: Создание политики ПИН-кодов
                   href: ../manage/authentication/create-a-new-pin-policy.md
                 - name: Изменение существующей политики ПИН-кодов
                   href: ../manage/authentication/modify-an-existing-pin-policy.md
@@ -1210,10 +1210,10 @@
       items:
         - name: Установка и открытие средств администрирования
           href: ../management-tools/install-and-open-administrative-tools.md
-        - name: Панель мониторинга качества звонков
+        - name: Панель мониторинга качества звонка
           href: ../management-tools/call-quality-dashboard/call-quality-dashboard.md
           items:
-            - name: План
+            - name: Планирование
               href: ../management-tools/call-quality-dashboard/plan.md
             - name: Развертывание
               href: ../management-tools/call-quality-dashboard/deploy-0.md
@@ -1229,7 +1229,7 @@
                       href: ../management-tools/call-quality-dashboard/get-cube.md
                     - name: Получение элементов измерений
                       href: ../management-tools/call-quality-dashboard/get-dimension-members.md
-                    - name: Выполнение запроса
+                    - name: Запуск запроса
                       href: ../management-tools/call-quality-dashboard/run-query.md
                     - name: Очистка кэша
                       href: ../management-tools/call-quality-dashboard/clear-cache.md
@@ -1300,7 +1300,7 @@
         - name: Диспетчер статистики
           href: ../management-tools/statistics-manager/statistics-manager.md
           items:
-            - name: План
+            - name: Планирование
               href: ../management-tools/statistics-manager/plan.md
             - name: Развертывание
               href: ../management-tools/statistics-manager/deploy.md
@@ -1328,7 +1328,7 @@
             - name: Ссылка на пользовательский интерфейс
               href: ../management-tools/planning-tool/ui-reference.md
               items:
-                - name: Видео- и голосовая конференц-связь
+                - name: Голосовые и видеоконференции
                   href: ../management-tools/planning-tool/audio-video-conferencing.md
                 - name: Конференц-связь с телефонным подключением
                   href: ../management-tools/planning-tool/dial-in-conferencing.md
@@ -1405,7 +1405,7 @@
             - name: Сведения о таблице регистрации звонков
               href: ../schema-reference/call-detail-recording-cdr-database-schema/cdr-table-details.md
               items:
-                - name: Приложение
+                - name: Application
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/application.md
                 - name: CallPriorities
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/callpriorities.md
@@ -1417,7 +1417,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencejointimethresholds.md
                 - name: ConferenceMessageCount
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount.md
-                - name: Конференции
+                - name: Conferences
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences.md
                 - name: ConferenceSessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails-0.md
@@ -1427,9 +1427,9 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/contenttypes.md
                 - name: DeRegisterType
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/deregistertype.md
-                - name: Устройства
+                - name: Devices
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/devices.md
-                - name: Диалоговые окна
+                - name: Dialogs
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/dialogs.md
                 - name: EdgeServers
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/edgeservers.md
@@ -1443,7 +1443,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers-0.md
                 - name: FocusJoinsAndLeaves
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves.md
-                - name: Интерфейса
+                - name: FrontEnd
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/frontend.md
                 - name: Gateways
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/gateways.md
@@ -1451,7 +1451,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/hardwareversions.md
                 - name: IMReportSummary
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/imreportsummary.md
-                - name: Расположения
+                - name: Locations
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/locations.md
                 - name: Manufacturers
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/manufacturers.md
@@ -1459,7 +1459,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves.md
                 - name: Mcus
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus.md
-                - name: СМИ
+                - name: Media
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/media.md
                 - name: MediaList
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/medialist.md
@@ -1467,7 +1467,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mediationservers.md
                 - name: MSMQProcessing
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/msmqprocessing.md
-                - name: Мобильных
+                - name: Phones
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/phones.md
                 - name: Pools
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/pools.md
@@ -1477,7 +1477,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/purgesettings.md
                 - name: Registration
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration.md
-                - name: Роли
+                - name: Roles
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/roles.md
                 - name: Servers
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/servers.md
@@ -1489,17 +1489,17 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicators.md
                 - name: SyndicatorsTenantMap
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicatorstenantmap.md
-                - name: Задача
+                - name: Task
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/task.md
-                - name: Клиенты
+                - name: Tenants
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/tenants.md
                 - name: UriTypes
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/uritypes.md
-                - name: Пользователи
+                - name: Users
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/users.md
                 - name: UserAgentDef
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/useragentdef.md
-                - name: Таблица voipdetails
+                - name: VoipDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails-0.md
                 - name: UserStatistics
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/userstatistics.md
@@ -1510,7 +1510,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions-0.md
                 - name: ConferenceMessageCount
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount-0.md
-                - name: Конференции
+                - name: Conferences
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences-0.md
                 - name: ConferenceSessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails.md
@@ -1526,7 +1526,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus-0.md
                 - name: McuJoinsAndLeaves
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves-0.md
-                - name: СМИ
+                - name: Media
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/media-0.md
                 - name: ProgressReport
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport-0.md
@@ -1534,7 +1534,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration-0.md
                 - name: SessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails-0.md
-                - name: Пользователь
+                - name: User
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/user.md
                 - name: VoIPDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails.md
@@ -1562,11 +1562,11 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/codecdescription.md
                 - name: Conference
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/conference.md
-                - name: Устройство
+                - name: Device
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/device.md
                 - name: DeviceDriver
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/devicedriver.md
-                - name: Диалоговое окно
+                - name: Dialog
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/dialog.md
                 - name: Endpoint
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/endpoint.md
@@ -1590,19 +1590,19 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/pool.md
                 - name: PurgeSettings (QoE)
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe.md
-                - name: Регион
+                - name: Region
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/region.md
-                - name: Сервер
+                - name: Server
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/server.md
-                - name: Сеанс
+                - name: Session
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/session.md
                 - name: SessionCorrelation
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/sessioncorrelation.md
-                - name: Подсеть
+                - name: Subnet
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/subnet.md
                 - name: TraceRoute
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/traceroute.md
-                - name: Пользователь
+                - name: User
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/user-0.md
                 - name: UserAgent
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent.md
@@ -1625,7 +1625,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/medialine.md
                 - name: NetworkConfigurationSettings
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconfigurationsettings.md
-                - name: Сеанс
+                - name: Session
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/session-0.md
                 - name: UserAgent
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent-0.md
@@ -1638,7 +1638,7 @@
           items:
             - name: Список таблиц сервера сохраняемого чата
               href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-tables.md
-            - name: Список таблиц соблюдения требований для сервера сохраняемого чата
+            - name: Список таблиц соответствия требованиям для сервера сохраняемого чата
               href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-compliance-tables.md
             - name: Данные таблицы сервера сохраняемого чата
               href: ../schema-reference/persistent-chat-database-schema/persistent-chat-server-table-details.md
@@ -1804,7 +1804,7 @@
               href: ../help-topics/help-depwiz/prepare-current-domain-intro.md
             - name: Подготовка текущего домена (вызов)
               href: ../help-topics/help-depwiz/prepare-current-domain-invoke.md
-            - name: Подготовка текущего леса (местонахождение универсальной группы)
+            - name: Подготовка текущего леса (расположение универсальной группы)
               href: ../help-topics/help-depwiz/prepare-current-forest-universal-group-location.md
             - name: Подготовка текущего леса (введение)
               href: ../help-topics/help-depwiz/prepare-current-forrest-intro.md
@@ -1866,7 +1866,7 @@
               href: ../help-topics/help-depwiz/deployment-wizard-admin-tools.md
             - name: 'Мастер развертывания: путь к установщику MSI'
               href: ../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md
-            - name: 'Мастер развертывания: центр обновления Windows'
+            - name: 'Мастер развертывания: Центр обновления Windows'
               href: ../help-topics/help-depwiz/deployment-wizard-windows-update.md
             - name: 'Мастер развертывания: API унифицированных коммуникаций'
               href: ../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md
@@ -1874,13 +1874,13 @@
           items:
             - name: Использование панели управления
               href: ../help-topics/help-lscp/use-the-control-panel.md
-            - name: 'Политика версии клиента: создание новой или редактирование существующей'
+            - name: 'Политика версий клиентов: создание новой или редактирование существующей'
               href: ../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md
             - name: Политика версий клиентов
               href: ../help-topics/help-lscp/client-version-policy.md
             - name: Правило версий клиентов
               href: ../help-topics/help-lscp/client-version-rule.md
-            - name: 'Конфигурация версии клиента: создание новой или редактирование существующей'
+            - name: 'Конфигурация версий клиентов: создание новой или редактирование существующей'
               href: ../help-topics/help-lscp/client-version-configuration-create-new-or-edit-existing.md
             - name: Конфигурация версий клиентов
               href: ../help-topics/help-lscp/client-version-configuration.md
@@ -1990,7 +1990,7 @@
               href: ../help-topics/help-lscp/assign-properties.md
             - name: Выбор связи между областями
               href: ../help-topics/help-lscp/select-a-region-link.md
-            - name: 'Настройка сетевого сайта: создание новых или редактирование существующих'
+            - name: 'Настройка сетевого сайта: создание нового или редактирование существующего'
               href: ../help-topics/help-lscp/configure-a-network-site-create-new-or-edit-existing.md
             - name: Настройка сетевого сайта
               href: ../help-topics/help-lscp/configure-a-network-site.md
@@ -2060,7 +2060,7 @@
               href: ../help-topics/help-lscp/users-new-lync-server-user.md
             - name: 'Пользователи: новые объекты контактов'
               href: ../help-topics/help-lscp/users-new-contact-objects.md
-            - name: ПИН-код задан успешно
+            - name: Успешная настройка ПИН-кода
               href: ../help-topics/help-lscp/pin-set-successfully.md
             - name: Выбор в Active Directory
               href: ../help-topics/help-lscp/select-from-active-directory.md
@@ -2072,7 +2072,7 @@
               href: ../help-topics/help-lscp/users-view-or-configure-archiving-policy.md
             - name: 'Пользователи: просмотр или настройка политики конференц-связи'
               href: ../help-topics/help-lscp/users-view-or-configure-conferencing-policy.md
-            - name: 'Пользователи: просмотр или настройка политики версии клиентов'
+            - name: 'Пользователи: просмотр или настройка политики версий клиентов'
               href: ../help-topics/help-lscp/users-view-or-configure-client-version-policy.md
             - name: 'Пользователи: просмотр или настройка абонентской группы'
               href: ../help-topics/help-lscp/users-view-or-configure-dial-plan.md
@@ -2212,7 +2212,7 @@
           items:
             - name: Архивация
               href: ../management-tools/planning-tool/archiving.md
-            - name: Видео- и голосовая конференц-связь
+            - name: Голосовые и видеоконференции
               href: ../management-tools/planning-tool/audio-video-conferencing.md
             - name: Сайты филиалов
               href: ../management-tools/planning-tool/branch-sites.md
@@ -2270,7 +2270,7 @@
               href: ../help-topics/help-topobld/add-archiving-server.md
             - name: Добавление хранилища SQL для сервера архивации
               href: ../help-topics/help-topobld/add-archiving-server-sql-server-store.md
-            - name: Добавление машины специального типа мультимедиа для аудио и видео
+            - name: Добавление компьютера A/V MCU
               href: ../help-topics/help-topobld/add-a-v-mcu-machine.md
             - name: Добавление пула A/V MCU
               href: ../help-topics/help-topobld/add-a-v-mcu-pool.md
@@ -2278,19 +2278,19 @@
               href: ../help-topics/help-topobld/add-survivable-branch-appliance-pool.md
             - name: Добавление ТСОП для устройства обеспечения связи в филиалах
               href: ../help-topics/help-topobld/add-survivable-branch-appliance-pstn.md
-            - name: Добавление сведений о среде филиала
+            - name: Добавление сведений о сайте филиала
               href: ../help-topics/help-topobld/add-branch-site-details.md
-            - name: Добавление имени филиала
+            - name: Добавление имени сайта филиала
               href: ../help-topics/help-topobld/add-branch-site-name.md
             - name: Добавление домена SIP по умолчанию
               href: ../help-topics/help-topobld/add-default-sip-domain.md
-            - name: Добавление компонентов Директора
+            - name: Добавление компонентов директора
               href: ../help-topics/help-topobld/add-director-features.md
-            - name: Добавление файлового хранилища Директора
+            - name: Добавление файлового хранилища директора
               href: ../help-topics/help-topobld/add-director-file-store.md
-            - name: Добавление компьютера Директора
+            - name: Добавление компьютера директора
               href: ../help-topics/help-topobld/add-director-machine.md
-            - name: Добавление мониторинга Директора
+            - name: Добавление мониторинга директора
               href: ../help-topics/help-topobld/add-director-monitoring.md
             - name: Добавление пула директоров
               href: ../help-topics/help-topobld/add-director-pool.md
@@ -2330,7 +2330,7 @@
               href: ../help-topics/help-topobld/add-edge-server-nat-ip.md
             - name: Добавление IP-адреса NAT пограничного сервера 2010
               href: ../help-topics/help-topobld/add-edge-server-nat-ip-2010.md
-            - name: Добавление следующего скачка для пограничного сервера
+            - name: Добавление следующего перехода для пограничного сервера
               href: ../help-topics/help-topobld/add-edge-server-next-hop.md
             - name: Добавление параметров пограничного сервера
               href: ../help-topics/help-topobld/add-edge-server-options.md
@@ -2340,11 +2340,11 @@
               href: ../help-topics/help-topobld/add-edge-server.md
             - name: Добавление поддержки для пограничного сервера
               href: ../help-topics/help-topobld/add-edge-server-support.md
-            - name: Добавление доверенного компьютера приложений
+            - name: Добавление компьютера доверенных приложений
               href: ../help-topics/help-topobld/add-trusted-application-machine.md
-            - name: Добавление сервера доверенных приложений NextHop
+            - name: Добавление сервера доверенных приложений следующего переходв
               href: ../help-topics/help-topobld/add-nexthop-trusted-application-server.md
-            - name: Добавление полного доменного имени надежного пула приложений
+            - name: Добавление полного доменного имени пула доверенных приложений
               href: ../help-topics/help-topobld/add-trusted-application-pool-fqdn.md
             - name: Добавление хранилища файлов
               href: ../help-topics/help-topobld/add-file-store.md
@@ -2372,7 +2372,7 @@
               href: ../help-topics/help-topobld/add-front-end-pool-fqdn.md
             - name: Добавление хранилища SQL Server для сервера переднего плана
               href: ../help-topics/help-topobld/add-front-end-sql-server-store.md
-            - name: Добавление страницы хранения данных SQL пограничного сервера для Lync Server 2010
+            - name: Страница добавления хранилища SQL пограничного сервера для Lync Server 2010
               href: ../help-topics/help-topobld/add-front-end-sql-store-page-for-lync-server-2010.md
             - name: Добавление веб-служб переднего плана
               href: ../help-topics/help-topobld/add-front-end-web-services.md
@@ -2380,7 +2380,7 @@
               href: ../help-topics/help-topobld/add-server.md
             - name: Добавление компьютера-посредника
               href: ../help-topics/help-topobld/add-mediation-machine.md
-            - name: Добавление следующего скачка для серверов-посредников
+            - name: Добавление следующего перехода для серверов-посредников
               href: ../help-topics/help-topobld/add-mediation-server-nexthop.md
             - name: Добавление сервера-посредника
               href: ../help-topics/help-topobld/add-mediation-server.md
@@ -2394,7 +2394,7 @@
               href: ../help-topics/help-topobld/add-persistent-chat-compliance-backup-sql-server-store.md
             - name: Добавление резервного хранилища SQL Server сохраняемого чата
               href: ../help-topics/help-topobld/add-persistent-chat-backup-sql-server-store.md
-            - name: Добавление хранилища SQL Server для совместимости сохраняемого чата
+            - name: Добавление хранилища SQL Server соответствия сохраняемого чата
               href: ../help-topics/help-topobld/add-persistent-chat-compliance-sql-server-store.md
             - name: Добавление файлового хранилища сохраняемого чата
               href: ../help-topics/help-topobld/add-persistent-chat-file-store.md
@@ -2416,7 +2416,7 @@
               href: ../help-topics/help-topobld/define-the-root-trunk-for-a-new-ip-or-pstn-gateway.md
             - name: Добавление простого URL-адреса
               href: ../help-topics/help-topobld/add-simple-url.md
-            - name: Добавление сведений о среде
+            - name: Добавление сведений о сайте
               href: ../help-topics/help-topobld/add-site-details.md
             - name: Добавление имени сайта
               href: ../help-topics/help-topobld/add-site-name.md
@@ -2424,57 +2424,57 @@
               href: ../help-topics/help-topobld/add-sql-store.md
             - name: Определение новой линии связи
               href: ../help-topics/help-topobld/define-a-new-trunk.md
-            - name: Расширитель общих настроек сервера архивации
+            - name: Расширитель общих параметров сервера архивации
               href: ../help-topics/help-topobld/archiving-server-general-settings-expander.md
-            - name: Узел области применения сервера архивации
+            - name: Узел области сервера архивации
               href: ../help-topics/help-topobld/archiving-server-scope-node.md
             - name: Узел области серверов архивации
               href: ../help-topics/help-topobld/archiving-servers-scope-node.md
             - name: Связывание AV MCU с сервером переднего плана
               href: ../help-topics/help-topobld/associate-av-mcu-with-front-end.md
-            - name: Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером
+            - name: Связывание устройства для обеспечения связи в филиалах с пограничным сервером
               href: ../help-topics/help-topobld/associate-branch-office-appliance-with-edge.md
-            - name: Связывание устройства филиала с сервером переднего плана
+            - name: Связывание устройства для обеспечения связи в филиалах с сервером переднего плана
               href: ../help-topics/help-topobld/associate-branch-office-appliance-with-front-end.md
             - name: Связывание сервера переднего плана с архивированием
               href: ../help-topics/help-topobld/associate-front-end-with-archiving.md
-            - name: Сопоставление сервера переднего плана с AV MCU
+            - name: Связывание сервера переднего плана с AV MCU
               href: ../help-topics/help-topobld/associate-front-end-with-av-mcu.md
-            - name: Связывание сервера переднего плана с пограничным
+            - name: Связывание сервера переднего плана с пограничным сервером
               href: ../help-topics/help-topobld/associate-front-end-with-edge.md
             - name: Связывание сервера переднего плана с мониторингом
               href: ../help-topics/help-topobld/associate-front-end-with-monitoring.md
-            - name: Страница сопоставления сервера переднего плана с сервером Office Web Apps
+            - name: Страница связывания сервера переднего плана с сервером Office Web Apps
               href: ../help-topics/help-topobld/associate-front-end-with-office-web-apps-server-page.md
             - name: Связывание сервера-посредника с пограничным сервером
               href: ../help-topics/help-topobld/associate-mediation-server-with-edge.md
-            - name: Расширитель общих настроек AV MCU
+            - name: Расширитель общих параметров AV MCU
               href: ../help-topics/help-topobld/av-mcu-general-settings-expander.md
             - name: Узел области AV MCU
               href: ../help-topics/help-topobld/av-mcu-scope-node.md
             - name: Расширитель параметров AV MCU
               href: ../help-topics/help-topobld/av-mcu-settings-expander.md
-            - name: Узел области применения AV MCU
+            - name: Узел области AV MCU
               href: ../help-topics/help-topobld/av-mcus-scope-node.md
             - name: Расширитель общих параметров устройства для обеспечения связи в филиалах
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander.md
-            - name: Расширитель общих настроек устройства для обеспечения связи в филиалах для Lync Server 2010
+            - name: Расширитель общих параметров устройства для обеспечения связи в филиалах для Lync Server 2010
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander-for-lync-server-2010.md
-            - name: Узел области применения устройства для обеспечения связи в филиалах
+            - name: Узел области устройства для обеспечения связи в филиалах
               href: ../help-topics/help-topobld/branch-office-appliance-scope-node.md
-            - name: Узел области применения устройств для обеспечения связи в филиалах
+            - name: Узел области устройств для обеспечения связи в филиалах
               href: ../help-topics/help-topobld/branch-office-appliances-scope-node.md
             - name: Узел области филиалов
               href: ../help-topics/help-topobld/branch-offices-scope-node.md
-            - name: Расширитель настроек CMS
+            - name: Расширитель параметров CMS
               href: ../help-topics/help-topobld/cms-settings-expander.md
             - name: Расширитель параметров развертывания
               href: ../help-topics/help-topobld/deployment-settings-expander.md
-            - name: Расширитель общих настроек директора
+            - name: Расширитель общих параметров директора
               href: ../help-topics/help-topobld/director-general-settings-expander.md
             - name: Расширитель общих параметров директора для Lync Server 2010
               href: ../help-topics/help-topobld/director-general-settings-expander-for-lync-server-2010.md
-            - name: Узел области применения Директора
+            - name: Узел области директора
               href: ../help-topics/help-topobld/director-scope-node.md
             - name: Узел области директоров
               href: ../help-topics/help-topobld/directors-scope-node.md
@@ -2486,7 +2486,7 @@
               href: ../help-topics/help-topobld/edge-machine-settings-expander.md
             - name: Расширитель параметров пограничного сервера для Lync Server 2010
               href: ../help-topics/help-topobld/edge-machine-settings-expander-for-lync-server-2010.md
-            - name: Расширитель параметров следующего пограничного перехода
+            - name: Расширитель параметров следующего перехода пограничного сервера
               href: ../help-topics/help-topobld/edge-next-hop-settings-expander.md
             - name: Добавление компьютера пограничного сервера
               href: ../help-topics/help-topobld/edge-server-add-machine.md
@@ -2494,37 +2494,37 @@
               href: ../help-topics/help-topobld/edge-server-scope-node.md
             - name: Узел области пограничных серверов
               href: ../help-topics/help-topobld/edge-servers-scope-node.md
-            - name: Расширитель пограничных параметров
+            - name: Расширитель параметров пограничного сервера
               href: ../help-topics/help-topobld/edge-settings-expander.md
-            - name: Изменение расширителя пограничных параметров для Lync Server 2010
+            - name: Изменение расширителя параметров пограничного сервера для Lync Server 2010
               href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
             - name: Расширитель общих параметров внешних приложений
               href: ../help-topics/help-topobld/external-application-general-settings-expander.md
-            - name: Расширитель параметров следующего скачка для внешних приложений
+            - name: Расширитель параметров следующего перехода для внешних приложений
               href: ../help-topics/help-topobld/external-application-next-hop-settings-expander.md
-            - name: Внешний узел области применения приложений
+            - name: Узел области внешнего приложения
               href: ../help-topics/help-topobld/external-application-scope-node.md
-            - name: Внешний узел области применения приложений
+            - name: Узел области внешних приложений
               href: ../help-topics/help-topobld/external-applications-scope-node.md
-            - name: Расширитель настроек маршрута федерации
+            - name: Расширитель параметров маршрута федерации
               href: ../help-topics/help-topobld/federation-route-settings-expander.md
-            - name: Расширитель настроек службы сервера-посредника
+            - name: Расширитель параметров службы сервера-посредника
               href: ../help-topics/help-topobld/mediation-service-settings-expander.md
-            - name: Расширитель настроек службы сервера-посредника переднего плана для Lync Server 2010
+            - name: Расширитель параметров службы сервера-посредника переднего плана для Lync Server 2010
               href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
             - name: Узел области хранилища файлов
               href: ../help-topics/help-topobld/file-store-scope-node.md
-            - name: Расширитель настроек хранилища файлов
+            - name: Расширитель параметров хранилища файлов
               href: ../help-topics/help-topobld/file-store-settings-expander.md
-            - name: Узел области применения файловых хранилищ
+            - name: Узел области хранилищ файлов
               href: ../help-topics/help-topobld/file-stores-scope-node.md
             - name: Расширитель общих параметров сервера переднего плана
               href: ../help-topics/help-topobld/front-end-general-settings-expander.md
-            - name: Расширитель интерфейсных общих параметров для Lync Server 2010
+            - name: Расширитель общих параметров сервера переднего плана для Lync Server 2010
               href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
             - name: Узел области сервера переднего плана
               href: ../help-topics/help-topobld/front-end-server-scope-node.md
-            - name: Узел области применения серверов переднего плана
+            - name: Узел области серверов переднего плана
               href: ../help-topics/help-topobld/front-end-servers-scope-node.md
             - name: Начальная страница сервера переднего плана
               href: ../help-topics/help-topobld/front-end-start-page.md
@@ -2532,7 +2532,7 @@
               href: ../help-topics/help-topobld/install-and-create-databases.md
             - name: Страница установки для создания зеркальной базы данных
               href: ../help-topics/help-topobld/install-database-create-mirror-database-page.md
-            - name: Страница установки параметров базы данных
+            - name: Страница параметров установки базы данных
               href: ../help-topics/help-topobld/install-database-options-page.md
             - name: Страница параметров установки зеркальной базы данных
               href: ../help-topics/help-topobld/install-mirror-database-option-page.md
@@ -2544,9 +2544,9 @@
               href: ../help-topics/help-topobld/legacy-merge.md
             - name: Тип пограничного сервера при объединении с устаревшей версией
               href: ../help-topics/help-topobld/legacy-merge-edge-type.md
-            - name: Полное доменное имя устаревшего объединения
+            - name: Полное доменное имя для объединения с устаревшей версией
               href: ../help-topics/help-topobld/legacy-merge-fqdn.md
-            - name: Устаревшая площадка объединения
+            - name: Целевая страница для объединения с устаревшей версией
               href: ../help-topics/help-topobld/legacy-merge-landing.md
             - name: Следующий переход для объединения с устаревшей версией
               href: ../help-topics/help-topobld/legacy-merge-next-hop.md
@@ -2568,19 +2568,19 @@
               href: ../help-topics/help-topobld/server-settings-expander.md
             - name: Расширитель параметров сервера для Lync Server 2010
               href: ../help-topics/help-topobld/server-settings-expander-for-lync-server-2010.md
-            - name: Расширитель параметров следующего узла посредника
+            - name: Расширитель параметров следующего перехода сервера-посредника
               href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
-            - name: Расширитель общих настроек сервера-посредника
+            - name: Расширитель общих параметров сервера-посредника
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
-            - name: Расширитель общих настроек сервера-посредника для Lync Server 2010
+            - name: Расширитель общих параметров сервера-посредника для Lync Server 2010
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
             - name: Узел области сервера-посредника
               href: ../help-topics/help-topobld/mediation-server-scope-node.md
-            - name: Узел области применения серверов-посредников
+            - name: Узел области серверов-посредников
               href: ../help-topics/help-topobld/mediation-servers-scope-node.md
             - name: Расширитель параметров службы посредника
               href: ../help-topics/help-topobld/mediation-service-setting-expander.md
-            - name: Расширитель настроек службы сервера-посредника для Lync Server 2010
+            - name: Расширитель параметров службы сервера-посредника для Lync Server 2010
               href: ../help-topics/help-topobld/mediation-service-settings-expander-for-lync-server-2010.md
             - name: Расширитель общих параметров сервера мониторинга
               href: ../help-topics/help-topobld/monitoring-server-general-settings-expander.md
@@ -2590,9 +2590,9 @@
               href: ../help-topics/help-topobld/monitoring-servers-scope-node.md
             - name: Узел Lync в построителе топологий
               href: ../help-topics/help-topobld/topology-builder-lync-node.md
-            - name: Узел области применения сервера Office Communications
+            - name: Узел области сервера Office Communications
               href: ../help-topics/help-topobld/office-communications-server-scope-node.md
-            - name: Расширитель узла области применения сервера Office Web Apps
+            - name: Расширитель узла области сервера Office Web Apps
               href: ../help-topics/help-topobld/office-web-apps-server-scope-node-expander.md
             - name: Изменение параметров сервера Office Web Apps
               href: ../help-topics/help-topobld/edit-office-web-apps-server-settings.md
@@ -2600,23 +2600,23 @@
               href: ../help-topics/help-topobld/office-web-apps-servers-scope-node.md
             - name: Расширитель параметров контроля допуска звонков
               href: ../help-topics/help-topobld/call-admission-control-settings-expander.md
-            - name: Расширитель общих настроек сохраняемого чата
+            - name: Расширитель общих параметров сохраняемого чата
               href: ../help-topics/help-topobld/persistent-chat-general-settings-expander.md
-            - name: Расширитель настроек компьютеров сохраняемого чата
+            - name: Расширитель параметров компьютеров сохраняемого чата
               href: ../help-topics/help-topobld/persistent-chat-machines-expander.md
-            - name: Расширитель параметров следующего скачка сохраняемого чата
+            - name: Расширитель параметров следующего перехода сохраняемого чата
               href: ../help-topics/help-topobld/persistent-chat-next-hop-settings-expander.md
             - name: Узел области сохраняемого чата
               href: ../help-topics/help-topobld/persistent-chat-scope-node.md
-            - name: Расширитель настроек сохраняемого чата
+            - name: Расширитель параметров сохраняемого чата
               href: ../help-topics/help-topobld/persistent-chat-settings-expander.md
-            - name: Создание узла области применения серверов сохраняемого чата
+            - name: Создание узла области серверов сохраняемого чата
               href: ../help-topics/help-topobld/create-persistent-chat-servers-scope-node.md
-            - name: Узел области применения шлюза ТСОП
+            - name: Узел области шлюза ТСОП
               href: ../help-topics/help-topobld/pstn-gateway-scope-node.md
-            - name: Расширитель настроек шлюза ТСОП
+            - name: Расширитель параметров шлюза ТСОП
               href: ../help-topics/help-topobld/pstn-gateway-settings-expander.md
-            - name: Узел области применения шлюзов ТСОП
+            - name: Узел области шлюзов ТСОП
               href: ../help-topics/help-topobld/pstn-gateways-scope-node.md
             - name: Создание базы данных
               href: ../help-topics/help-topobld/create-database.md
@@ -2634,19 +2634,19 @@
               href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
             - name: Расширитель параметров регистратора
               href: ../help-topics/help-topobld/registrar-settings-expander.md
-            - name: Расширитель настроек регистратора для Lync Server 2010
+            - name: Расширитель параметров регистратора для Lync Server 2010
               href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
             - name: Удаление развертывания
               href: ../help-topics/help-topobld/remove-deployment.md
             - name: Введение в удаление развертывания
               href: ../help-topics/help-topobld/remove-deployment-introduction.md
-            - name: Узел области применения общих компонентов
+            - name: Узел области общих компонентов
               href: ../help-topics/help-topobld/shared-components-scope-node.md
             - name: Расширитель параметров простого URL-адреса
               href: ../help-topics/help-topobld/simple-url-settings-expander.md
             - name: Расширитель параметров среды Lync Server
               href: ../help-topics/help-topobld/lync-server-site-settings-expander.md
-            - name: Узел области применения экземпляра SQL
+            - name: Узел области экземпляра SQL
               href: ../help-topics/help-topobld/sql-instance-scope-node.md
             - name: Узел области экземпляров SQL
               href: ../help-topics/help-topobld/sql-instances-scope-node.md
@@ -2654,15 +2654,15 @@
               href: ../help-topics/help-topobld/sql-store-settings-expander.md
             - name: Диалоговое окно запуска построителя топологии
               href: ../help-topics/help-topobld/topology-builder-startup-dialog.md
-            - name: Узел области применения линии связи
+            - name: Узел области магистральной линии связи
               href: ../help-topics/help-topobld/trunk-scope-node.md
-            - name: Расширитель настроек магистральной линии связи
+            - name: Расширитель параметров магистральной линии связи
               href: ../help-topics/help-topobld/trunk-settings-expander.md
             - name: Узел области магистральных линий связи
               href: ../help-topics/help-topobld/trunks-scope-node.md
             - name: Расширитель параметров веб-служб
               href: ../help-topics/help-topobld/web-services-settings-expander.md
-            - name: Добавление связи Директора для Lync Server 2010
+            - name: Добавление связи директора для Lync Server 2010
               href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
             - name: Страница сопоставления директора с мониторингом для Lync Server 2010
               href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
@@ -2680,7 +2680,7 @@
               href: ../help-topics/help-topobld/add-vis-fqdn.md
             - name: Добавление компьютера сервера видеовзаимодействия
               href: ../help-topics/help-topobld/add-vis-machine.md
-            - name: Добавление следующего скачка сервера видеовзаимодействия
+            - name: Добавление следующего перехода сервера видеовзаимодействия
               href: ../help-topics/help-topobld/add-vis-next-hop.md
             - name: Добавление сведений об использовании сервера видеовзаимодействия
               href: ../help-topics/help-topobld/add-vis-usage.md
@@ -2704,7 +2704,7 @@
               href: ../help-topics/help-topobld/video-gateways-scope.md
             - name: Общие параметры сервера видеовзаимодействия
               href: ../help-topics/help-topobld/video-interop-server-general-settings.md
-            - name: Параметры следующего скачка сервера видеовзаимодействия
+            - name: Параметры следующего перехода сервера видеовзаимодействия
               href: ../help-topics/help-topobld/video-interop-server-next-hop-settings.md
             - name: Расширитель параметров порта сервера видеовзаимодействия
               href: ../help-topics/help-topobld/video-interop-server-port-settings-expander.md
