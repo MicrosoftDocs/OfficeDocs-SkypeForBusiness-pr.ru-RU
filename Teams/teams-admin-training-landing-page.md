@@ -1,7 +1,7 @@
 ---
 title: Обучение ИТ-администратора для работы с Microsoft Teams
 ms.reviewer: ''
-description: Получите обучение администратора и поддержку, необходимые для управления Microsoft Teams в Организации.
+description: Получите обучение и поддержку для администраторов, необходимые для управления Microsoft Teams в организации.
 author: lanachin
 manager: serdars
 audience: admin
@@ -29,7 +29,7 @@ ms.locfileid: "48535182"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
-Сведения о том, как управлять группами в Организации.
+Узнайте, как управлять Teams в организации.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "48535182"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>НОВЫЕ возможности учебного засветов для преподавателей в Teams</h3>
+                        <h3>NEW: обучение с инструктором по Teams</h3>
                     </div>
                 </div>
             </div>

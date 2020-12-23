@@ -1,5 +1,5 @@
 ---
-title: Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации
+title: Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Используйте этот пример сценария PowerShell для тестирования подключений между контроллерами границ для сеансов прямого маршрутизации в Microsoft Teams.
+description: Используйте этот пример сценария PowerShell, чтобы протестировать прямое подключение к контроллеру границ сеанса маршрутинга в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -23,22 +23,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/30/2020
 ms.locfileid: "43951264"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга
 
-Клиент тестеров SIP — это образец сценария PowerShell, который можно использовать для тестирования подключений между однонаправленными контроллерами границ (SBC) для связи в Microsoft Teams. Этот сценарий проверяет основные функциональные возможности магистрального протокола SIP с прямой маршрутизацией.
+Клиент SIP Tester — это пример сценария PowerShell, который можно использовать для проверки подключений граничного контроллера SBC к прямой маршрутике в Microsoft Teams. Этот сценарий проверяет основные функции связи SIP с прямой маршрутицией, сопряженной с клиентом.
 
-Сценарий отправляет тест SIP в средство выполнения тестов, ждет результата, а затем представляет его в удобочитаемом формате. Вы можете использовать этот сценарий, чтобы протестировать указанные ниже сценарии.
+Сценарий сообщает тест SIP тест-тесту, ждет результат, а затем представляет его в учитываемом для человека формате. Этот сценарий можно использовать для проверки следующих сценариев:
 
-- Входящие и исходящие звонки
+- Исходящие и входящие звонки
 - Одновременный звонок
-- Эскалация мультимедиа
-- Передача consultative
+- Медианаука
+- Консультация и передача
 
-## <a name="download-the-script-and-documentation"></a>Скачайте сценарий и документацию
+## <a name="download-the-script-and-documentation"></a>Скачивание сценария и документации
 
-Скачайте [клиентский сценарий тестеров SIP и документацию](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
+Скачайте сценарий клиента [SIP Tester и документацию.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)
 
   > [!NOTE]
-  > Клиентский сценарий тестера SIP поддерживает только adal.ps версии 3.19.8.1. Если используется более поздняя версия adal.ps, будет возвращена ошибка.
+  > Сценарий клиента SIP Tester поддерживает только adal.ps версии 3.19.8.1. Если используется более поздней версии adal.ps возвращается ошибка.
   
   

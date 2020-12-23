@@ -1,5 +1,5 @@
 ---
-title: Доступность в Барбадос
+title: Доступность в Барбадосе
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Барбадос.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Барбадоса.
 ms.openlocfilehash: 551275b6cd17bacbce836e03d1b981ef9fd897af
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230978"
 ---
-# <a name="availability-in-barbados"></a>Доступность в Барбадос
+# <a name="availability-in-barbados"></a>Доступность в Барбадосе
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Барбадос.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Барбадоса.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -50,8 +50,8 @@ ms.locfileid: "44230978"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-|Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
@@ -64,15 +64,15 @@ ms.locfileid: "44230978"
 
 Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
+## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо <br/> |
 |Доступны ли платные номера?  <br/> |Нет <br/> |
-|Доступны ли бесплатно бесплатные номера? <br/> |Да  <br/> |
+|Доступны ли бесплатные номера? <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

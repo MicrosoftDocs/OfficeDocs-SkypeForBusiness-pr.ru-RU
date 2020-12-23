@@ -1,5 +1,5 @@
 ---
-title: Перевод номеров телефонов для прямой маршрутизации
+title: Перевод номеров телефонов для прямой маршрутки
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
+description: Узнайте, как настроить прямую маршрутику из microsoft Phone System.
 ms.openlocfilehash: 7d48e9163dd5927cbeddf4a4104d2382e69e7e2b
 ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
@@ -23,100 +23,100 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/07/2020
 ms.locfileid: "48369164"
 ---
-# <a name="translate-phone-numbers-to-an-alternate-format"></a>Перевод телефонных номеров в альтернативный формат
+# <a name="translate-phone-numbers-to-an-alternate-format"></a>Перевод номеров телефонов в другой формат
 
-В этой статье описано, как перевести номера для исходящего и входящего звонка в альтернативный формат.  Это шаг 4 описанных ниже действий для настройки прямой маршрутизации.
+В этой статье описано, как перевести номера для исходящие и входящие вызовы в альтернативный формат.  Это шаг 4 из следующих действий по настройке прямой маршрутинга:
 
-- Шаг 1. [Соединение SBC с телефонной системой Microsoft и проверка соединения](direct-routing-connect-the-sbc.md) 
-- Шаг 2. [Предоставление пользователям прямой маршрутизации, голоса и голосовой почты](direct-routing-enable-users.md)   
-- Шаг 3. [Настройка голосовой маршрутизации](direct-routing-voice-routing.md)
-- **Шаг 4. Перевод номеров в альтернативный формат**   (в этой статье)
+- Шаг 1. [Подключение SBC к телефонной системе Майкрософт и проверка подключения](direct-routing-connect-the-sbc.md) 
+- Шаг 2. [Включить для пользователей прямую маршрутику, голосовую и голосовую почту](direct-routing-enable-users.md)   
+- Шаг 3. [Настройка голосовой маршрутии](direct-routing-voice-routing.md)
+- **Шаг 4. Перевод чисел в другой формат**   (в этой статье)
 
-Сведения о всех шагах, необходимых для настройки прямой маршрутизации, приведены в статье [Настройка прямого маршрута](direct-routing-configure.md).
+Сведения о всех шагах, необходимых для настройки прямой маршрутинга, см. в этой [ссылке.](direct-routing-configure.md)
 
-Иногда администраторам клиентов может потребоваться изменить номер для исходящих и/или входящих звонков на основе созданных вами шаблонов, чтобы обеспечить взаимодействие с контроллерами границ сеансов (SBCs). В этой статье объясняется, как указать политику правил преобразования чисел, чтобы перевести числа в альтернативный формат. 
+Иногда администраторам клиентов может потребоваться изменить номер исходящие и/или входящие звонки на основе созданных шаблонов для обеспечения связи с граничными контроллерами сеансов. В этой статье описано, как задать политику правил перевода чисел для перевода чисел в альтернативный формат. 
 
-Вы можете использовать политику правил преобразования чисел для перевода указанных ниже чисел.
+С помощью политики правил перевода чисел можно переводить номера для следующих номеров:
 
-- Входящие звонки: звонки из конечной точки PSTN (вызывающего абонента) клиенту Teams (вызываемый)
-- Исходящие звонки: звонки из клиента Teams (вызывающего абонента) в конечную точку PSTN (вызываемый)
+- Входящие звонки: звонки из конечной точки ННР (вызываемого звонка) в клиент Teams (вызываемому)
+- Исходящие звонки: звонки из клиента Teams (вызываемого вызова) в конечную точку STN (вызываемого)
 
-Политика применяется на уровне SBC. Вы можете назначить для SBC несколько правил перевода, которые применяются в том порядке, в котором они отображаются при их перечислении в PowerShell. Вы также можете изменить порядок правил в политике.
+Политика применяется на уровне SBC. Можно назначить СКА несколько правил перевода, которые применяются в порядке их упорядочения при их составлении списка в PowerShell. Вы также можете изменить порядок правил в политике.
 
-Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)и [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
+Для создания, изменения, просмотра и удаления правил обработки номеров используйте для управления числами [new-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)и [Remove-CsTeamsTranslationRule.](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule)
 
-Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе с параметрами InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules и OutboundPSTNNumberTranslationRules.
+Чтобы назначать, настраивать и настраивать правила управления номерами списков на SBCs, используйте вместе с правилом InboundTeamsNumberTranslationRules для [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-CSOnlinePSTNGateway.](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules и OutboundPSTNNumberTranslationRules.
 
 > [!NOTE]
-> Максимальное общее число правил перевода — 400, максимальная длина имени параметра перевода — 100 символов, максимальная длина шаблона параметра перевода — 1024 символов, а максимальная длина перевода параметра перевода — 256 символа.
+> Максимальное общее количество правил перевода — 400, максимальная длина имени параметра перевода — 100 символов, длина шаблона параметра перевода — 1024, а длина длины перевода — 256.
 
 
-## <a name="example-sbc-configuration"></a>Пример настройки SBC
+## <a name="example-sbc-configuration"></a>Пример конфигурации SBC
 
-Для этого сценария ```New-CsOnlinePSTNGateway``` запускается командлет для создания следующей конфигурации SBC:
+В этом случае будет ```New-CsOnlinePSTNGateway``` выполниться cmdlet, чтобы создать следующую конфигурацию SBC:
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
-Правила перевода, назначенные SBC, описаны в таблице ниже.
+Правила перевода, которые назначены SBC, суммируются в следующей таблице:
 
 |Имя  |Шаблон |Преобразование  |
 |---------|---------|---------|
-|AddPlus1     |^ (\d {10} ) $          |+1$1          |
-|AddE164SeattleAreaCode      |^ (\d {4} ) $          | + 1206555 $1         |
-|AddSeattleAreaCode    |^ (\d {4} ) $          | 425555 $1         |
-|StripPlus1    |^ + 1 (\d {10} ) $          | $1         |
+|AddPlus1     |^(\d {10} )$          |+1$1          |
+|AddE164SeattleAreaCode      |^(\d {4} )$          | +1206555$1         |
+|AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
+|ПолосаPlus1    |^+1(\d {10} )$          | $1         |
 
-В приведенных ниже примерах есть два пользователя: Алиса и Боб. Алиса — это пользователь Teams, номер которого равен + 1 206 555 0100. Боб — это пользователь PSTN, номер которого равен + 1 425 555 0100.
+В следующих примерах есть два пользователя: Андрей и Г. Он — пользователь Teams, номер которого + 1 206 555 0100. Г.: пользователь ННР, номер которого + 1 425 555 0100.
 
-## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Пример 1: входящий звонок на 10-значный номер
+## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Пример 1. Входящий звонок на десятизначный номер
 
-Боб вызывает Алиса, используя не-E. 164 число из десяти цифр. Боб набирает номер 2065550100, чтобы связаться с Алисой.
-SBC использует 2065550100 в RequestURI, а к заголовкам и 4255550100м в заголовке From.
+Г-н Климов звонит на десятизначный номер, не 164- или E.164. Bob dials 2065550100 to reach To Прил.
+В SBC используется 2065550100 в области requestURI и To, а в заглавной области "От" - 4255550100.
 
 
-|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:2065550100@sbc.contoso.com|ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|RequestURI  |ПРИГЛАШЕНИЕ sip:2065550100@sbc.contoso.com|ПРИГЛАШЕНИЕ sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
 |Кому    |Кому: \<sip:2065550100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
 |От   |От: \<sip:4255550100@sbc.contoso.com>|От: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
-## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Пример 2: входящий звонок на четырехзначный номер
+## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Пример 2. Входящий звонок на четырехзначный номер
 
-Боб вызывает Алиса, используя четырехзначный номер. Боб набирает номер 0100, чтобы связаться с Алисой.
-SBC использует 0100 в RequestURI, а к заголовкам и 4255550100м в заголовке From.
+Г-н Климов звонит по четырехзначным номерам. Bob dials 0100 to reach To Прил.
+В SBC используется 0100 в запросеURI и to headers, а в заглавной области "От" используется 4255550100.
 
 
-|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|RequestURI  |ПРИГЛАШЕНИЕ sip:0100@sbc.contoso.com          |ПРИГЛАШЕНИЕ sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
 |Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
 |От   |От: \<sip:4255550100@sbc.contoso.com>|От: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
-## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Пример 3: исходящий звонок с использованием 10-значного номера, отличного от числа E. 164.
+## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Пример 3. Исходящие вызовы с десятизначным номером без E.164
 
-Алиса звонит Бобу по 10-значным числам. Алиса набирает номер 425 555 0100, чтобы связаться с Бобом.
-SBC настроен на использование не-E. 164 десяти-значных номеров для пользователей Teams и КТСОП.
+Звонит Гюлену, используя десятизначный номер. Звонить по номеру 425 555 0100, чтобы связаться с Гомом.
+SBC настроен для использования десятизначных номеров, не от E.164, для пользователей Teams и STN.
 
-В этом сценарии абонентская группа преобразует номер перед отправкой в интерфейс Direct Routing. Когда Алиса вводит 425 555 0100 в клиенте Teams, номер преобразуется в + 14255550100 с помощью абонентской группы "страны". Результирующие числа — это совокупная нормализация правил абонентской группы и переводов групп. Правила перевода команды удаляют "+ 1", добавленный абонентской панелью.
+В этом сценарии номер перед отправкой в интерфейс прямой маршрутки переводится с помощью телефонной линии. При вводе в клиенте Teams номера 425 555 0100 преобразуются в +14255550100 в каждой стране. Итогом является совокупная нормализация правил набора и правил перевода Teams. Правила перевода Teams удаляют "+1", добавленное в наборную группу.
 
 
-|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:+14255550100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
+|RequestURI  |ПРИГЛАШЕНИЕ sip:+14255550100@sbc.contoso.com          |ПРИГЛАШЕНИЕ sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
 |Кому    |Кому: \<sip:+14255550100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
 |От   |От: \<sip:+12065550100@sbc.contoso.com>|От: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
-## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Пример 4: исходящий звонок, использующий 4-значный номер, отличный от E. 164.
+## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Пример 4. Исходящие вызовы с четырехзначным номером без номера E.164
 
-Алиса звонит Бобу, используя четырехзначный номер. Алиса использует 0100 для доступа к Бобу из звонков или с помощью контакта.
-SBC настроен на использование не-E. 164 4-значных номеров для пользователей Teams и десяти-значных номеров для пользователей PSTN. Абонентская группа не применяется в этом сценарии.
+Он звонит Гюлену, используя четырехзначный номер. Для связи с Гом из звонка или с помощью контакта Климов использует 0100.
+В SBC настроено использование четырехзначных номеров, не влияемых на E.164, для пользователей Teams и десятизначных номеров для пользователей ННР. В этом сценарии набор номеров не применяется.
 
 
-|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|Заглавная  |Исходный текст |Заглавный текст с переводом |Параметр и правило  |
 |---------|---------|---------|---------|
-|RequestURI  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com           |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|RequestURI  |ПРИГЛАШЕНИЕ sip:0100@sbc.contoso.com           |ПРИГЛАШЕНИЕ sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
 |Кому    |Кому: \<sip:0100@sbc.contoso.com>|Кому: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
 |От   |От: \<sip:+12065550100@sbc.contoso.com>|От: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 

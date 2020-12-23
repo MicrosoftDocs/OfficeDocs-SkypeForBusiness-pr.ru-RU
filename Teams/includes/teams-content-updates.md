@@ -33,7 +33,7 @@
 | 12/18/2020 | [Центр контактов Teams](/MicrosoftTeams/teams-contact-center) | Изменено |
 | 12/18/2020 | [Телефоны и устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
 | 12/18/2020 | [Телефоны и устройства для Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Изменено |
-| 12/18/2020 | [Мастер политики Teams для образования для простого применения политик безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
+| 12/18/2020 | [Мастер политики Teams для образовательных сфере для простого применения политик безопасного обучения](/MicrosoftTeams/easy-policy-setup-edu) | Изменено |
 | 12/18/2020 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 12/18/2020 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/rooms/requirements) | Изменено |
 | 12/18/2020 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |

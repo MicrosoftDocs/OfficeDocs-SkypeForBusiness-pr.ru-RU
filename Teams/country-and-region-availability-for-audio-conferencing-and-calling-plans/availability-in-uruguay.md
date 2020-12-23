@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Уругвай.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
 ms.openlocfilehash: 780a713673b40aee77ff9f517a863143cd06b6fc
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230317"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Уругвай.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Уругвая.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -51,8 +51,8 @@ ms.locfileid: "44230317"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
@@ -69,8 +69,8 @@ ms.locfileid: "44230317"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Montevideo ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Монтевидео[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Доступны ли платные номера?  <br/> |Да[(по запросу)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

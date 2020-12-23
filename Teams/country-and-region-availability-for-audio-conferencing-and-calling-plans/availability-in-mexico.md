@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Мексике.
 ms.openlocfilehash: 50519cecfad9ff97761cc590523a032155eaa027
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230407"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams для Мексики.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Мексике.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -44,15 +44,15 @@ ms.locfileid: "44230407"
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Мехико</ul> Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |В сети  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков

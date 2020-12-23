@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Узнайте, как подготовить инфраструктуру к развертыванию комнат Microsoft Teams, чтобы использовать все возможности.
+description: Узнайте, как подготовить инфраструктуру для развертывания комнат Microsoft Teams, чтобы использовать все возможности.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
@@ -55,7 +55,7 @@ ms.locfileid: "49662434"
 - Доступ к экземпляру Active Directory или Azure Active Directory (Azure AD), а также серверам Microsoft Exchange и Skype для бизнеса.
 - Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнаты Microsoft Teams невозможно настроить с помощью статического IP-адреса при первом запуске единицы.
 - Доступ к HTTP-портам 80 и 443.
-- Порты TCP и UDP, [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) настроенные в требованиях к портам и протоколам для серверов для реализации локального сервера Skype для бизнеса Server, а также URL-адресов и диапазонов IP-адресов [Microsoft 365 и Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для решений Microsoft Teams или Skype для бизнеса Online.
+- Порты TCP и UDP, [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) настроенные в требованиях к портам и протоколам для серверов для локальной реализации Skype для бизнеса Server, а также URL-адреса и диапазоны IP-адресов [Microsoft 365 и Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для решений Microsoft Teams или Skype для бизнеса Online.
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 
@@ -76,15 +76,15 @@ ms.locfileid: "49662434"
 
 Комнаты Microsoft Teams предназначены для наследования параметров прокси-сервера от ос Windows. Для доступа к параметрам ОС Windows выполните следующие действия.
   
-1. В пользовательском интерфейсе комнат Microsoft Teams щелкните значок шестеренки "Параметры", где вам будет предложено вводить пароль локального администратора на устройстве (пароль по умолчанию **— SFB).**
+1. В пользовательском интерфейсе комнат Microsoft Teams щелкните значок шестеренки "Параметры", где вам будет предложено вводить пароль локального администратора на устройстве (по умолчанию — **sfb).**
 2. Коснитесь кнопки "Параметры", нажмите кнопку "Перейти в **Windows",** затем  коснитесь кнопки "Перейти к входу администратора", а затем нажмите кнопку "Администратор" (если компьютер присоединился к домену, выберите "Другой  пользователь", а затем в качестве имени пользователя выберите ".\admin").  
 3. В поле **поиска Windows** слева внизу введите regedit (длинное нажатие экрана или щелкните правой кнопкой мыши и выберите "Запуск **от администратора").**
 4. Щелкните папку HKEY_USERS (вы увидите список идентификаторов SID пользователей компьютера) и убедитесь в том, что выбрана корневая папка HKEY_USERS.
        
-5. Щелкните "Файл" и выберите **"Загрузить файл".**
+5. Щелкните "Файл" и выберите **"Загрузитьгрузку".**
 6. Перейдите в папку **C:\Users\Skype** и введите имя файла N ПЕРЕУПОЧ.dat и нажмите кнопку "Открыть".
 
-7. Вам будет предложено в качестве имени ключа для загруженного ключа. введите в Skype (теперь вы увидите параметры реестра для пользователя Skype).
+7. Вам будет предложено в качестве имени ключа для вашего загруженного ключа; введите в Skype (теперь вы увидите параметры реестра для пользователя Skype).
  
 8. Откройте клавишу Skype и перейдите к HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings ввели указанные параметры. 
     
@@ -110,7 +110,7 @@ ms.locfileid: "49662434"
 
 |Назначение|Источник учетных данных|Исходный порт|Конечный порт|Сеть доставки содержимого|ExpressRoute для Office 365|Конечный IP-адрес|Конечный порт|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Проверка подлинности и удостоверение в  <br/> |См. [проверку подлинности и удостоверения Microsoft 365 и Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Проверка подлинности и удостоверение в  <br/> |Проверка [подлинности и удостоверения Microsoft 365 и Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Портал и общие службы  <br/> |См. [Центр администрирования Microsoft 365 и общие службы](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*.contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов для Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
 |Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*.contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов для Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -138,7 +138,7 @@ ms.locfileid: "49662434"
   
 ## <a name="local-accounts"></a>Локальные учетные записи
 
-### <a name="microsoft-teams-rooms-local-user-account"></a>Учетная запись локального пользователя Комнаты Microsoft Teams
+### <a name="microsoft-teams-rooms-local-user-account"></a>Учетная запись локального пользователя в Microsoft Teams
 
 Учетная запись устройства, как правило, не использует пароль. При необходимости ей можно назначить пароль, однако это может иметь негативные последствия, включая вероятность блокировки консольного приложения при истечении срока действия пароля. Соответственно, администратор должен установить настройки таким образом, чтобы срок действия пароля не истекал.
   

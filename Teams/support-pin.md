@@ -1,5 +1,5 @@
 ---
-title: Как найти PIN-код в службе поддержки?
+title: Как искать ПИН-код поддержки?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: Сведения о том, как найти PIN-код в службе поддержки.
+description: Узнайте, как найти ПИН-код поддержки.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -20,17 +20,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44221643"
 ---
-# <a name="how-to-look-up-your-support-pin"></a>Как найти ПИН-код в службе поддержки
+# <a name="how-to-look-up-your-support-pin"></a>Как найти ПИН-код поддержки
 
-Чтобы найти ПИН-код поддержки, который включает поддержку клиентов Майкрософт по телефону, сделайте следующее: 
+Чтобы найти ПИН-код поддержки, который включает службу поддержки Майкрософт по телефону, выполните следующие действия: 
 
-1. Войдите в [центр администрирования Office](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage). 
+1. Войдите в [Центр администрирования Office.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 
 2. Щелкните значок шестеренки.
 
-3. ПИН-код службы поддержки появится в правом правом углу. При необходимости вы также можете выбрать повторное создание PIN-кода.  
+3. Пин-код поддержки будет отображаться в нижней правой области. При необходимости вы также можете повторно создать ПИН-код.  
 
-   ![Схема, показывающая ПИН-код поддержки](media/support-pin.png)
+   ![Схема, показывающая ПОДДЕРЖИВАЕМЫЙ ПИН-код](media/support-pin.png)
 
 
 

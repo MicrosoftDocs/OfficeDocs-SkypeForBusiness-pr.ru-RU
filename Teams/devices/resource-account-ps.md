@@ -1,5 +1,5 @@
 ---
-title: Создание учетных записей Microsoft Teams для панелей совместной работы в Microsoft Teams с помощью PowerShell
+title: Создание учетных записей ресурсов Microsoft Teams для полос совместной работы в Microsoft Teams с помощью PowerShell
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: В этой статье приведены сведения о том, как развертывать панели совместной работы в Microsoft Teams.
+description: В этой теме вы также начитайте сведения о том, как развернуть отлаголовки совместной работы в Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 0cb8043e0530c986b9ddcaa9a1022254939adfd2
 ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
@@ -25,98 +25,98 @@ ms.locfileid: "44268049"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Создание учетной записи ресурса Microsoft 365 с помощью PowerShell
 
-В этой статье приведены сведения о том, как создавать учетные записи ресурсов для панелей совместной работы в Microsoft Teams с помощью PowerShell.
+В этой теме вы можете найти сведения о том, как создавать учетные записи ресурсов для отсчиток совместной работы в Microsoft Teams с помощью PowerShell.
 
-Самый простой способ создать учетную запись ресурса — с помощью центра администрирования Microsoft 365. [В этой статье показано, как это сделать](resource-account-ui.md).
+Проще всего создать учетную запись ресурса с помощью Центра администрирования Microsoft 365. [См. статью о том, как это сделать.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>Требования
 
-Перед развертыванием комнат Microsoft Teams с помощью Office 365 убедитесь, что вы удовлетворены требованиями. Дополнительные сведения можно найти в разделе [Развертывание панелей совместной работы в Microsoft Teams](collab-bar-deploy.md).
+Прежде чем развернуть комнаты Microsoft Teams с Office 365, убедитесь, что выполнили требования. Дополнительные сведения см. в [подмногих развертываниях совместной работы в Microsoft Teams.](collab-bar-deploy.md)
 
-- Если вам понадобятся возможности PSTN для панели совместной работы, вам понадобится лицензия на телефонную систему.
+- Если для панели совместной работы нужны возможности ННР, вам потребуется лицензия на телефонную систему.
 
-- Ваши учетные записи ресурсов должны иметь почтовые ящики Exchange. Так как это учетные записи ресурсов, лицензия Exchange не требуется. Мы рекомендуем использовать лицензию на использование комнат для собраний для учетных записей ресурсов.
+- Учетные записи ресурсов должны иметь почтовые ящики Exchange. Поскольку это учетные записи ресурсов, лицензия на Exchange не требуется. Рекомендуем использовать лицензию на комнаты собраний для учетных записей ресурсов.
 
 
 ### <a name="add-a-resource-account"></a>Добавление учетной записи ресурса
 
-1. Подключитесь к Exchange Online PowerShell. Инструкции можно найти [в разделе Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
+1. Подключите Exchange Online PowerShell. Инструкции см. в [инструкциях по подключению к Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
-2. В Exchange Online PowerShell создайте новый почтовый ящик помещения или измените существующий почтовый ящик помещения.
+2. В Exchange Online PowerShell создайте почтовый ящик новой комнаты или измените существующий.
 
-   - Чтобы создать новый почтовый ящик комнаты, используйте следующий синтаксис:
+   - Чтобы создать почтовый ящик помещения, используйте следующий синтаксис:
 
      ``` PowerShell
      New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере создается новый почтовый ящик комнаты со следующими параметрами:
+     В этом примере создается почтовый ящик помещения со следующими настройками:
 
-     - Name (имя): Huddle-Room-01
+     - Имя: Huddle-Room-01
 
-     - Alias (псевдоним): HuddleRoom01
+     - Псевдоним: HuddleRoom01
 
      - Учетная запись: huddleroom01@contoso.onmicrosoft.com
 
-     - Пароль учетной записи: P@ $ $W 0rd242
+     - Пароль учетной записи: P@$$W 0rd242
 
      ``` PowerShell
      New-Mailbox -Name "Huddle-Room-01" -Alias HuddleRoom01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID HuddleRoom01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd242' -AsPlainText -Force)
      ```
 
-   - Чтобы изменить существующий почтовый ящик помещения, используйте следующий синтаксис:
+   - Чтобы изменить почтовый ящик помещения, используйте следующий синтаксис:
 
      ``` PowerShell
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     В этом примере включается учетная запись для почтового ящика помещения с параметром Alias HuddleRoom02 и устанавливается пароль для 808P@ $ $W 0rd. Обратите внимание, что учетная запись будет HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
+     В этом примере включается учетная запись существующего почтового ящика помещения, который имеет значение псевдонима HuddleRoom02, и устанавливает пароль 808P@$$W 0rd. Обратите внимание, что учетная запись будет HuddleRoom02@contoso.onmicrosoft.com из-за существующего значения псевдонима.
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Подробные сведения о синтаксисе и параметрах можно найти в разделе [Создание почтового ящика](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) и [Настройка почтового ящика](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+   Подробные сведения о синтаксисах и параметрах см. в настройках [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) [и Set-Mailbox.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
 
 
-3. В Exchange Online PowerShell настройте следующие параметры в почтовом ящике комнаты, чтобы улучшить процесс собрания:
+3. В Exchange Online PowerShell настройте следующие параметры почтового ящика помещения, чтобы улучшить качество собрания:
 
-   - AutomateProcessing: с помощью автопринятия (организаторов собраний) получайте решение о резервировании комнаты непосредственно без вмешательства человека: бесплатное = принять; занято = отклонить.)
+   - AutomateProcessing: autoAccept (организаторы собраний принимают решение о резервировании помещений напрямую без участия человека: бесплатно = принять; занят = отклонуть.)
 
-   - AddOrganizerToSubject: $false (Организатор собрания не добавляется в тему приглашения на собрание.)
+   - AddOrganizerToSubject: $false (организатор собрания не добавляется в тему запроса на собрание.)
 
-   - DeleteComments: $false (Храните текст в тексте сообщения для входящих приглашений на собрания.)
+   - DeleteComments: $false (текст должен быть в тексте входящих запросов на собрания).)
 
-   - DeleteSubject: $false (сохранить тему приглашений на входящие собрания).
+   - DeleteSubject: $false (Храните тему входящих запросов на собрания.)
 
-   - RemovePrivateProperty: $false (гарантируется, что частный флаг, отправленный организатором собрания в исходном приглашении на собрание, будет установлен.)
+   - RemovePrivateProperty: $false (Гарантирует, что личный флаг, отправленный организатором собрания в исходном запросе собрания, останется указанным.)
 
-   - AddAdditionalResponse: $true (текст, указанный в параметре AdditionalResponse, добавляется в приглашения на собрание.)
+   - AddAdditionalResponse: $true (текст, заданный параметром AdditionalResponse, добавляется в запросы на собрания.)
 
-   - AdditionalResponse: "в этой комнате есть панель совместной работы для Microsoft Teams!" (Дополнительный текст, добавляемый в приглашение на собрание.)
+   - AdditionalResponse: "В этой комнате есть панели совместной работы для Microsoft Teams!" (Дополнительный текст, который нужно добавить в запрос на собрание.)
 
-   В этом примере эти параметры настраиваются в почтовом ящике комнаты с именем Huddle-Room-01.
+   В этом примере эти параметры настраиваются для почтового ящика помещения Huddle-Room-01.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Huddle-Room-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This room has a collaboration bar for Microsoft Teams!"
    ```
 
-   Подробные сведения о синтаксисе и параметрах можно найти в разделе [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Подробные сведения о синтаксисе и параметрах см. в описании [set-CalendarProcessing.](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)
 
-4. Подключитесь к MS Online PowerShell, чтобы настроить параметры Active Directory, запустив `Connect-MsolService -Credential $cred` командлет PowerShell.   Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Подключите MS Online PowerShell, чтобы создать параметры Active Directory, задав его с помощью `Connect-MsolService -Credential $cred` cmdlet PowerShell.   Подробные сведения об Active Directory см. в [azure ActiveDirectory (MSOnline) 1.0.](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
-5. Установите для пароля huddleroom01@contoso.onmicrosoft.com значение Not Expires, используя следующий синтаксис:
+5. Установите пароль для huddleroom01@contoso.onmicrosoft.com, используя следующий синтаксис:
 
       ``` Powershell
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. Для учетной записи ресурса требуется действительная лицензия Office 365, предпочтительная SKU для помещения для собраний. Кроме того, необходимо назначить место использования учетной записи устройства, чтобы определить, какие SKU лицензий будут доступны для вашей учетной записи. Вы можете использовать `Get-MsolAccountSku` для получения списка доступных SKU для вашего клиента Office 365.
+6. У учетной записи ресурса должна быть действительная лицензия На Office 365 ( предпочтительно номер SKU комнаты для собраний). Кроме того, необходимо назначить учетной записи устройства место использования— от этого зависит, какие номера номеров лицензий доступны для вашей учетной записи. Вы можете получить список доступных skus для клиента `Get-MsolAccountSku` Office 365.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,15 +128,15 @@ ms.locfileid: "44268049"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   Подробные инструкции приведены в разделе [Назначение лицензий учетным записям пользователей с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   Подробные инструкции см. в описании назначения лицензий учетным записям пользователей с [помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 
 
 
-[Настройка учетных записей для панелей совместной работы в Microsoft Teams с помощью PowerShell](resource-account-ps.md)
+[Настройка учетных записей для полос совместной работы в Microsoft Teams с помощью PowerShell](resource-account-ps.md)
 
-[Развертывание панелей совместной работы в Microsoft Teams](collab-bar-deploy.md)
+[Развертывание отетков совместной работы в Microsoft Teams](collab-bar-deploy.md)
 
-[Панели совместной работы для лицензирования Microsoft Teams](../rooms/rooms-licensing.md)
+[Полосы совместной работы для лицензирования Microsoft Teams](../rooms/rooms-licensing.md)
 
 

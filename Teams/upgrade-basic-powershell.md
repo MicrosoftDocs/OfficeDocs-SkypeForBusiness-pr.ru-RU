@@ -1,5 +1,5 @@
 ---
-title: Основное обновление оболочки PowerShell | Microsoft Teams | Предоставление политики взаимодействия по обновлению
+title: PowerShell для базового обновления| Microsoft Teams| Политика предоставления обновления для interop
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Узнайте о том, как stopgap обновить приложение до Microsoft Teams, если в вашем клиенте не горит центр администрирования.
+description: Узнайте о том, как остановить обновление до Microsoft Teams, если Центр администрирования не загорелся в вашем клиенте.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,19 +27,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44522482"
 ---
-# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Обновление пользователей из Skype для бизнеса Online в Microsoft Teams
+# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Переход с Skype для бизнеса Online на Microsoft Teams
 
 > [!Note]
-> Команды, описанные в этой статье, предназначены для использования в качестве части базового контрольного списка [обновления](https://aka.ms/UpgradeBasic) .
+> Описанные в этой статье команды предназначены для использования в контрольном списке ["Обновить](https://aka.ms/UpgradeBasic) базовую".
 
-Благодаря техническим аспектам миграции ваши пользователи получат уведомление о том, что Skype для бизнеса будет обновлен до Teams, а затем перейдет в режим " **только для Team** ". Эти действия можно выполнить с помощью удаленного сеанса Windows PowerShell в Skype для бизнеса или через центр администрирования Microsoft Teams.
+Аспекты технической миграции при обновлении необходимо уведомить пользователей о том, что Skype для бизнеса будет обновляться до Teams, а затем перенано в режим **только Teams.** Эти действия можно выполнить в удаленном сеансе удаленного Windows PowerShell Skype для Windows PowerShell центре администрирования Microsoft Teams.
 
-Мы активно выстраиваете средства обновления в [центре администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md), и он должен быть доступен только в вашем клиенте. По мере их появления вы можете найти сведения о переносе пользователей с [помощью настройки сосуществования и обновления](https://aka.ms/SkypeToTeams-SetCoexistence).
+Мы активно развертываем средства обновления в Центре администрирования [Microsoft Teams,](manage-teams-skypeforbusiness-admin-center.md)и они должны стать доступны в ближайшее время в вашем клиенте. Как только она станет доступна, вы найдете сведения о переносе пользователей в параметрах сосуществования и [обновления.](https://aka.ms/SkypeToTeams-SetCoexistence)
 
-Если вы готовы обновить уже сегодня, вы можете использовать команды [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) , указанные в приведенной ниже таблице.
+Если вы готовы к обновлению, воспользуйтесь командами [PowerShell,](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) перечисленными в таблице ниже.
 
-| Основные действия по обновлению # | Режиме | Команда PowerShell |
+| Шаг "Основные обновления" # | Режим | Команда PowerShell |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | О-ва + уведомление пользователей Skype для бизнеса<br>(Используйте эту команду, если в настоящее время пользователи находятся в режиме " **острова** " (по умолчанию)). | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(например, $SipAddress = "TestUser@contoso.com")* |
-| [5](upgrade-basic.md#step-5) | Только Skype для бизнеса + уведомление пользователей Skype для бизнеса <br>(Используйте эту команду, если в настоящее время пользователи находятся в режиме " **только Skype для бизнеса** "). | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
-| [7](upgrade-basic.md#step-7) | Только для Teams | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |
+| [5](upgrade-basic.md#step-5) | Islands + Уведомить пользователя Skype для бизнеса<br>(Используйте эту команду, если пользователи находятся **в** режиме "Острова" (по умолчанию)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(Например, $SipAddress='TestUser@contoso.com')* |
+| [5](upgrade-basic.md#step-5) | Только Skype для бизнеса + Уведомление пользователя Skype для бизнеса <br>(Используйте эту команду, если пользователи в настоящее время находятся в **режиме только Skype для** бизнеса) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
+| [7](upgrade-basic.md#step-7) | Только в Teams | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |

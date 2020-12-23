@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Рекомендуется проверить работоспособность службы Teams, а также других компонентов Microsoft 365 или Office 365 (например, Exchange, SharePoint и OneDrive для бизнеса).
+description: Мы тренимся проверять, работает ли служба Teams, а также другие компоненты Microsoft 365 и Office 365, такие как Exchange, SharePoint и OneDrive для бизнеса.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
@@ -26,15 +26,15 @@ ms.locfileid: "46581840"
 <a name="verify-service-health-for-microsoft-teams"></a>Проверка работоспособности службы для Microsoft Teams
 ===========================================
 
-Служба работоспособности служб для Microsoft Teams отображается в центре администрирования Microsoft 365. Ее лучше всего проверить перед устранением неполадок. Перейдите в консоль <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">работоспособности службы Teams</a> , чтобы проверить работоспособность службы.
+Состояние службы для Microsoft Teams отображается в Центре администрирования Microsoft 365. Ее лучше всего проверить перед устранением неполадок. Перейдите в консоль <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">"Состояние службы Teams",</a> чтобы просмотреть состояние службы.
 
-Кроме того, имейте в виду, что Microsoft Teams строится на основе дополнительных служб Microsoft 365 или Office 365, поэтому при просмотре работоспособности служб не забудьте также проверить состояние Exchange, SharePoint и OneDrive для бизнеса. Проблемы с их работоспособностью еще не означают, что затронута служба Microsoft Teams (например, недоступно скачивание адресной книги в Exchange), однако следует проконсультироваться со справочными материалами по этим службам.
+Кроме того, помните, что Microsoft Teams построен на основе дополнительных служб Microsoft 365 или Office 365, поэтому при проверке состояния службы не забудьте проверить состояние Exchange, SharePoint и OneDrive для бизнеса. Проблемы с их работоспособностью еще не означают, что затронута служба Microsoft Teams (например, недоступно скачивание адресной книги в Exchange), однако следует проконсультироваться со справочными материалами по этим службам.
 
 ![Снимок экрана со страницей работоспособности службы.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Снимок экрана со сведениями о том, что служба Microsoft Teams работоспособна.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Устранение неполадок Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

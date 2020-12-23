@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для выхода в течение бестурция.
+description: Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Турция.
 ms.openlocfilehash: 1a78d11a4e52f1d9e3debfdc4c90d086e11c4e17
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "44230837"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для выхода в течение бестурция.
+Ниже находятся службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Турция.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -51,8 +51,8 @@ ms.locfileid: "44230837"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков

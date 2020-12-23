@@ -1,5 +1,5 @@
 ---
-title: Пример сценария PowerShell — создание политики обмена сообщениями & назначение
+title: 'Пример сценария PowerShell: создание политики & сообщений'
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Teams и назначения ее пользователям в своей организации.
+description: Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Teams и назначить ее пользователям в организации.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,18 +26,18 @@ ms.locfileid: "46533744"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 
-Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Microsoft Teams и назначения ее пользователям. 
+Используйте этот сценарий PowerShell, чтобы создать политику обмена сообщениями в Microsoft Teams и назначить ее пользователям. 
 
-Дополнительные сведения об использовании этого сценария PowerShell можно найти в [кратком разделе Начало — группы для образовательных учреждений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
+Дополнительные сведения об использовании этого сценария PowerShell см. в кратком запуске [Teams для образования.](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)
 
-Этот сценарий использует командлет [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) , который входит в модуль PowerShell Skype для бизнеса Online. Дополнительные сведения об управлении группами с помощью PowerShell см. в разделе [Общие сведения о Teams PowerShell](../teams-powershell-overview.md) .
+Этот сценарий использует [командлет Grant-CsTeamsMessagingPolicy,](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) который находится в модуле PowerShell Skype для бизнеса Online. Дополнительные сведения об управлении Teams с помощью [PowerShell](../teams-powershell-overview.md) см. в обзоре Teams PowerShell.
 
 
 ## <a name="before-you-start"></a>Перед началом работы
 
-Скачайте и установите [модуль PowerShell Skype для бизнеса Online](https://www.microsoft.com/download/details.aspx?id=39366), а затем перезагрузите компьютер при появлении соответствующего запроса.
+Скачайте и установите [модуль Skype для бизнеса Online PowerShell,](https://www.microsoft.com/download/details.aspx?id=39366)а затем перезагрузите компьютер, если будет предложено.
 
-Для более рациональной работы ознакомьтесь [со списком Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Подробнее об управлении Skype для бизнеса [Online можно узнать с помощью Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>Пример сценария
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Вы также можете назначить политику обмена сообщениями непосредственно пользователям при масштабировании с помощью назначения пакетной политики или группы, в которую входят пользователи. Дополнительные сведения можно найти в разделе [назначение политик большим наборам пользователей в учебном заведении](../batch-group-policy-assignment-edu.md) и [назначение политик пользователям в Teams](../assign-policies.md).
+> Кроме того, можно назначить политику обмена сообщениями непосредственно пользователям в масштабе с помощью пакетного назначения политики или группе, в которую они в являются. Дополнительные сведения [см.](../batch-group-policy-assignment-edu.md) в дополнительных сведениях о назначении политик большим наборам пользователей в учебном за учебных заведениях и о назначении политик [пользователям в Teams.](../assign-policies.md)

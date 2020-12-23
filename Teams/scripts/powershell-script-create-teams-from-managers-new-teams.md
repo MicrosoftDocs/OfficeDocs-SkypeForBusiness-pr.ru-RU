@@ -1,5 +1,5 @@
 ---
-title: 'Пример сценария PowerShell: создание групп руководителей пользователей'
+title: 'Пример сценария PowerShell: создание групп диспетчера людей'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: С помощью этого сценария PowerShell можно создать группу для каждого руководителя, которому они являются участниками группы.
+description: Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, управив его участниками.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583116"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Пример сценария PowerShell: создание групп руководителей пользователей
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>Пример сценария PowerShell: создание групп диспетчера людей
 
-С помощью этого сценария PowerShell можно создать группу для каждого руководителя, которому они являются участниками группы. Перед запуском этого сценария запустите сценарий [экспорта](powershell-script-create-teams-from-managers-export-managers.md) для экспорта (из службы каталогов Active Directory) в список руководителей и их прямые для вашей организации.
+Используйте этот сценарий PowerShell, чтобы создать команду для каждого руководителя, управив его участниками. Перед запуском этого сценария [](powershell-script-create-teams-from-managers-export-managers.md) запустите сценарий диспетчеров экспорта, чтобы экспортировать (из Active Directory) список руководителей и их руководителей для вашей организации.
 
-Чтобы ознакомиться с этим сценарием PowerShell, ознакомьтесь с разделом [Создание групп диспетчера пользователей](../create-manager-directs-teams.md).
+Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)
 
 Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## <a name="create-new-people-manager-teams"></a>Создание новых групп руководителя пользователей 
+## <a name="create-new-people-manager-teams"></a>Создание новых групп менеджеров людей 
 
 ```powershell
 <# 

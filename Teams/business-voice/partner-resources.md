@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Voice и Microsoft Teams Partner Resources
+title: Microsoft 365 Business Voice и ресурсы партнеров Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,19 +24,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41862849"
 ---
-# <a name="microsoft-365-business-voice-partner-resources"></a>Ресурсы партнера Microsoft 365 Business Voice
+# <a name="microsoft-365-business-voice-partner-resources"></a>Ресурсы партнеров Microsoft 365 Business Voice
 
-Эта статья поможет вам разворачивать и поддерживать Microsoft 365 Business Voice. В этой статье рассказывается о деловой голосовой связи и звонке.
+Эта статья поможет вам развернуть и поддерживать Microsoft 365 Business Voice. В этой статье посвящены деловые голосовые и голосовые вызовы.
 
-Перед развертыванием деловой голосовой связи необходимо иметь основу для развертывания и поддержки Microsoft Teams.
+Перед развертыванием Бизнес-голосовой почты у вас должна быть фундамент для развертывания и поддержки Microsoft Teams.
 
-Эта статья является кратким ресурсом для технической доставки и сотрудников службы поддержки, которые являются новинками для деловой голосовой связи. Используйте эти ресурсы, чтобы расширить свои знания о деловой голосовой связи, включая основы развертывания и поддержки.
+Эта статья является кратким ресурсом для технической доставки и поддержки сотрудников, которые еще не являются сотрудниками службы бизнес-голосовой связи. Используйте эти ресурсы для расширения знаний о бизнес-голосовой поддержке, включая основы развертывания и поддержки.
 
-- [Рекомендации для практических руководств по Teams](../cloud-voice-landing-page.md)
+- [Практические рекомендации по Teams](../cloud-voice-landing-page.md)
 - [Предварительная оценка и планирование](../3-envision-evaluate-my-environment.md)
 - [Развертывание](../3-onboard-deploy-my-service.md)
-- [Своей](../1-drive-value-operate-my-service.md)
+- [Оперировать](../1-drive-value-operate-my-service.md)
 - [Поддержка](../prepare-network.md)
 - [Устранение неполадок](../connectivity-issues.md)
 - [Планы поддержки партнеров](https://partner.microsoft.com/support/partnersupport)
-- [Руководство по поставщику услуг Teams](https://aka.ms/teamsserviceproviderguide)
+- [Руководство поставщика служб Teams](https://aka.ms/teamsserviceproviderguide)

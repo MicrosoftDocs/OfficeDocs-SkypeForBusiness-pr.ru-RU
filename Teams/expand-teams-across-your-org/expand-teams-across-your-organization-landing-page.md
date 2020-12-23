@@ -1,6 +1,6 @@
 ---
 title: Использование Microsoft Teams во всей организации
-description: Узнайте о ресурсах, которые можно использовать в стандартном развертывании Teams, чтобы максимально эффективно использовать группы для конкретных типов организаций.
+description: Узнайте о ресурсах, доступных для построения на основе стандартного развертывания Teams, чтобы помочь вам использовать Все возможности Teams для определенных типов организаций.
 ms.topic: conceptual
 author: lanachin
 ms.author: v-lanac
@@ -24,9 +24,9 @@ ms.locfileid: "46576973"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Использование Microsoft Teams во всей организации
 
-Эти ресурсы посвящены стандартным рекомендациям по развертыванию Teams и предназначены для того, чтобы максимально эффективно использовать группы для конкретных типов организаций. Если вы еще не развернули команды, ознакомьтесь с рекомендуемыми путями для Teams, [чтобы развернуть Microsoft Teams](../How-to-roll-out-teams.md).
+Эти ресурсы работают на основе стандартных рекомендаций по развертыванию Teams и предназначены для того, чтобы помочь вам использовать Все возможности Teams для определенных типов организаций. Если вы еще не развернули Teams, см. рекомендуемый путь к Teams в окте" [для развертывания Microsoft Teams.](../How-to-roll-out-teams.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![Контрольный список задачи — планирование: teams](../media/clock-teams-small.svg)  |  ["Смены" для Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![работоспособность — Teams](../media/health-teams-small.svg)  | [Teams для сферы здравоохранения](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![учебный курс — учебник по Teams](../media/education-tutorial-teams-small.svg) |  [Teams для сферы образования](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
-|![Малый бизнес — Teams](../media/small-business-teams-small.svg)  | [Teams для розничной торговли](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![блоки — группы](../media/blocks-teams-small.svg)  | [Teams для государственных организаций](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |
+| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  ["Смены" для Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![health-teams](../media/health-teams-small.svg)  | [Teams для сферы здравоохранения](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams для сферы образования](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
+|![small-business-teams](../media/small-business-teams-small.svg)  | [Teams для розничной торговли](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams для государственных организаций](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |

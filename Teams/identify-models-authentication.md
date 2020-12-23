@@ -1,5 +1,5 @@
 ---
-title: Модели удостоверений и проверка подлинности в Microsoft Teams
+title: Модели удостоверений и проверка подлинности для Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -25,43 +25,43 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/25/2020
 ms.locfileid: "48277119"
 ---
-# <a name="identity-models-and-authentication-for-microsoft-teams"></a>Модели удостоверений и проверка подлинности в Microsoft Teams
+# <a name="identity-models-and-authentication-for-microsoft-teams"></a>Модели удостоверений и проверка подлинности для Microsoft Teams
 
-Microsoft Teams поддерживает все модели удостоверений, доступные в Microsoft 365 и Office 365, включая следующие:
+Microsoft Teams поддерживает все модели удостоверений, доступные в Microsoft 365 и Office 365, в том числе:
 
-- **Только в облаке**: учетные записи пользователей создаются и управляются в Microsoft 365 или Office 365 и хранятся в Azure Active Directory (Azure AD). Azure AD проверяют учетные данные для входа пользователя (имя учетной записи и пароль).
+- **Только в облаке:** учетные записи пользователей создаются и управляются в Microsoft 365 или Office 365 и хранятся в Azure Active Directory (Azure AD). Учетные данные пользователя (имя учетной записи и пароль) проверяются службой Azure AD.
 
-- **Гибридные**пользователи обычно управляются в локальном лесе доменных служб Active Directory (AD DS). В зависимости от конфигурации проверка учетных данных может выполняться службой Azure AD, AD DS или провайдером федеративного удостоверения. В этой модели используется синхронизация каталогов из AD DS в Azure AD с помощью Azure AD Connect.
+- **Гибридное:** управление учетными записями пользователей обычно происходит в локальном лесу доменных служб Active Directory (AD DS). В зависимости от конфигурации проверку учетных данных может сделать Azure AD, AD DS или федерационный поставщик удостоверений. Эта модель использует синхронизацию службы каталогов из AD DS с Azure AD с Azure AD Connect.
 
-Дополнительные сведения можно найти в разделе [модели удостоверений Microsoft 365 и Azure AD](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity).
+Дополнительные сведения см. в моделях [удостоверений Microsoft 365 и Службе Azure AD.](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity)
 
 ## <a name="configurations"></a>Конфигурации
 
-В зависимости от того, какие модели удостоверения и конфигурация используются в вашей организации, этапы реализации могут отличаться.
+В зависимости от решений организации относительно используемой модели и конфигурации удостоверений действия по внедрению могут различаться.
 
 Если вы еще не развернули Microsoft 365 или Office 365 и модель удостоверений, используйте эту таблицу. 
 
 |Модель удостоверений |Контрольный список развертывания  |Дополнительная информация  |
 |---------|---------|---------|
-|Все     |<ol type="1"><li>Сравните параметры плана Microsoft 365 и Office 365 и получите подписку и клиент.</li><li>Создание организации Microsoft 365 или Office 365 для вашего клиента.</li><li>Приобретение лицензий Microsoft 365 или Office 365 для клиента</li><li>Настраивать домены и учетные записи администраторов.</li></ol>  |<ul><li>[Параметры плана Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Сравнение планов Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Приобретение и удаление лицензий на подписку](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Добавление лицензий в подписку](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Настройка Microsoft 365 для бизнеса](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Добавление домена с помощью мастера настройки](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Служба Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) может помочь вам.  |
-|Облачное удостоверение     |<ul><li>Создание учетных записей пользователей в центре администрирования Microsoft 365</li></ul> |<ul style="list-style-type:none"><li>[Добавление пользователей и назначение лицензий](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
-|Гибридная идентификация     |<ol type="1"><li>Установите Azure AD Connect.</li><li>Настройка синхронизации службы каталогов.</li><li>Управление пользователями и группами с помощью средств доменных служб Active Directory.</li></ol> |<ul style="list-style-type:none"><li>[Настройка синхронизации службы каталогов](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
-|Гибридная идентификация с федеративной проверкой подлинности    |<ol type="1"><li>Установка и Настройка провайдера федеративного удостоверения, например AD FS.</li><li>Установите Azure AD Connect и настройте синхронизацию службы каталогов и федеративное аутентификацию.</li><li>Управление пользователями и группами с помощью средств доменных служб Active Directory.</li></ol> |<ul><li>[Планирование развертывания AD FS](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[Контрольный список: Развертывание фермы серверов федерации](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Настройка доступа к экстрасети для AD FS](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[Настройка доверия между AD FS и Azure AD](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[Проверка единого доступа и управление им с помощью ADFS](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Настройка синхронизации службы каталогов](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+|Все     |<ol type="1"><li>Сравните варианты планов Microsoft 365 и Office 365 и получите подписку и клиент.</li><li>Создайте организацию Microsoft 365 или Office 365 для своего клиента.</li><li>Приобретение лицензий Microsoft 365 или Office 365 для клиента</li><li>Настройте домены и учетные записи администраторов.</li></ol>  |<ul><li>[Варианты плана Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Сравнение планов Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Покупка и удаление лицензий подписки](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Добавление лицензий в подписку](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Настройка Microsoft 365 для бизнеса](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Добавление домена с помощью мастера настройки](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Служба Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) поможет вам.  |
+|Облачные удостоверения     |<ul><li>Создание учетных записей пользователей в Центре администрирования Microsoft 365</li></ul> |<ul style="list-style-type:none"><li>[Добавление пользователей и назначение лицензий](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|Гибридные удостоверения     |<ol type="1"><li>Установите Azure AD Connect.</li><li>Настройте синхронизацию каталогов.</li><li>Управляйте пользователями и группами с помощью средств AD DS.</li></ol> |<ul style="list-style-type:none"><li>[Настройка синхронизации каталогов](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
+|Гибридное удостоверение с федерацией проверки подлинности    |<ol type="1"><li>Установите и настройте федератетного поставщика удостоверений, например AD FS.</li><li>Установите Azure AD Connect и настройте синхронизацию службы каталогов и федерационную проверку подлинности.</li><li>Управляйте пользователями и группами с помощью средств AD DS.</li></ol> |<ul><li>[Планирование развертывания AD FS](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[Контрольный список: Развертывание фермы серверов федерации](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[Настройка доступа к экстрасети для AD FS](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[Настройка доверия между AD FS и Azure AD](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[Проверка единого доступа и управление им с помощью ADFS](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Настройка синхронизации каталогов](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 ||||
 
 ## <a name="multi-factor-authentication"></a>Многофакторная проверка подлинности
 
-Пароли — это наиболее распространенный способ проверки подлинности при входе на компьютер или в веб-службу, но они также наиболее уязвимы. Пользователи смогут выбирать удобные пароли и использовать одни и те же пароли для нескольких входов на разных компьютерах и в службах. 
+Пароли — это наиболее распространенный способ проверки подлинности при входе на компьютер или в веб-службу, но они также наиболее уязвимы. Люди могут выбирать простые пароли и использовать один и тот же пароль для нескольких входов на разные компьютеры и в разные службы. 
 
-Чтобы обеспечить дополнительный уровень безопасности для входа, используйте многофакторную проверку подлинности (MFA), для которой требуется и пароль, и дополнительный метод проверки, например:
+Чтобы обеспечить дополнительный уровень безопасности при входе в систему, используйте многофакторную проверку подлинности (MFA), которая требует как пароля, так и дополнительного способа проверки, например:
 
-- Текстовое сообщение, отправленное на телефон, в котором пользователь должен ввести проверочный код.
+- Текстовое сообщение, отправленное на телефон, в которое пользователь должен ввести код проверки.
 - Телефонный звонок.
-- Приложение интеллектуального телефона для проверки подлинности Microsoft.
-- Другие методы, доступные в гибридной идентификации и Федеративной проверке подлинности.
+- Приложение Microsoft Authenticator для смартфонов.
+- Другие способы, доступные при гибридных удостоверениях и федераированной проверке подлинности.
 
-MFA поддерживается в любом плане Microsoft 365 или Office 365, включающем Microsoft Teams. Настоятельно рекомендуется как минимум указать MFA для учетных записей, которым [назначены роли администратора](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide), например администратор службы Teams.
+MFA поддерживается в любом плане Microsoft 365 или Office 365, который включает Microsoft Teams. Настоятельно рекомендуется как минимум требовать многофаксную оценку для [](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)учетных записей, которые назначены роли администратора, например для администраторов служб Teams.
 
-Кроме того, необходимо выполнить развертывание MFA для пользователей. После того как ваши пользователи будут зарегистрированы на MFA, при следующем входе в приложение появится сообщение с запросом на настройку дополнительного способа проверки. 
+Кроме того, следует разо свернуть многофайтовую статью для пользователей. После регистрации пользователей в многофаксной проверке данных при следующем входе они увидят сообщение с запросом на настройка дополнительного способа проверки. 
 
-Дополнительные сведения можно найти в разделе [многофакторная проверка подлинности для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).
+Дополнительные сведения см. в [многофакторной проверке подлинности для Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Индии.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
 ms.openlocfilehash: 7ec292a4d30db652df19a8e31c26d2bf5542a750
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -36,23 +36,23 @@ ms.locfileid: "44231148"
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже приведены службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в Индии.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Корпорация Майкрософт не продает голосовую конференцию в Индии. TATA связь – это служба, поддерживающая подключение к телефонным номерам и телефонной связи, совместимая с собраниями Microsoft Teams. Дополнительные сведения можно найти на [веб-сайте Tata Communications](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Ченнай<li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |В сети  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Майкрософт не продает аудиоконференцию в Индии. TATA Communications предлагает службу для телефонного и телефонного ветвей, совместимую с собраниями Microsoft Teams. Дополнительные сведения можно получить на веб-сайте [TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Ченнаи<li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
@@ -69,11 +69,11 @@ ms.locfileid: "44231148"
 
 |**Функция**|**Details**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Ченнай <li>Мумбай<li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Ченнаи <li>Мумбай<li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Обратите внимание, что в Индии номера услуг можно использовать только для голосовой конференции. Таким образом, если вы хотите получить бесплатные и платные телефонные номера для голосовой конференции, ознакомьтесь со статьей [получение телефонных номеров служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Обратите внимание, что в Индии номера служб можно использовать только для аудиоконференций. Таким образом, если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, см. получение номеров телефонов служб для Skype для бизнеса [и Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: Как выполнить подробное обнаружение окружающей среды, как вы планируете путешествие из Skype для бизнеса в Microsoft Teams.
+description: Подробные сведения о среде при планировании пути от Skype для бизнеса к Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
 ms.openlocfilehash: 6bf47cc134dd5b1b532933b7c1ee3d6bc173543c
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -34,9 +34,9 @@ ms.locfileid: "44231188"
 ---
 # <a name="availability-in-costa-rica"></a>Доступность в Коста-Рике
 
-[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или Узнайте больше о доступности страны и региона для голосовой конференции и планов звонков.
+[Узнайте больше](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)о доступности аудиоконференций и планов звонков в другой стране или регионе.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Коста-Рика.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -51,8 +51,8 @@ ms.locfileid: "44231188"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+| Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков

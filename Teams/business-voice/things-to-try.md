@@ -1,5 +1,5 @@
 ---
-title: Что нужно предпринять после настройки деловой голосовой почты
+title: Что делать после настройки бизнес-голосовой почты
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827367"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>Что нужно предпринять после настройки деловой голосовой почты
+# <a name="things-to-try-after-setting-up-business-voice"></a>Что делать после настройки бизнес-голосовой почты
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

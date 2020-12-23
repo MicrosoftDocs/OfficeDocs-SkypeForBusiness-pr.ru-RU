@@ -1,5 +1,5 @@
 ---
-title: Управление переходом команд в новой версии центра администрирования Teams
+title: Управление Переходом Teams на новый Центр администрирования Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Сведения о том, как управлять параметрами на уровне клиента и пользователями для Teams во время перехода с Teams в центре администрирования Microsoft 365 в новый центр администрирования Teams.
+description: Узнайте, как управлять настройками клиентов и пользователей для Teams во время перехода с Teams в Центре администрирования Microsoft 365 на новый Центр администрирования Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -34,73 +34,73 @@ ms.locfileid: "48790421"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Общие сведения о новом центре администрирования Microsoft Teams  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Что такое новый Центр администрирования Microsoft Teams  
 
-Новые возможности центра администрирования предоставляют единый интерфейс для управления группами и Skype для бизнеса. Мы предлагаем дополнительные функции, сквозное представление и возможность управлять параметрами групп на уровне пользователя.
+Новый интерфейс Центра администрирования обеспечивает единый интерфейс для управления Teams и Skype для бизнеса. Мы будем предоставлять дополнительные функции, концевую информацию и возможность управления настройками Teams на уровне пользователя.
 
-![Снимок экрана: центр администрирования Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Снимок экрана: Центр администрирования Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Параметры, перенесенные в новый центр администрирования Microsoft Teams
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Параметры перенесены в новый Центр администрирования Microsoft Teams
 
-В приведенной ниже таблице указаны разделы, которые были перенесены, и показана связь между текущими параметрами и политиками на новом портале администрирования.
+В следующей таблице указаны перенесенные разделы интерфейса Teams и показана связь между текущими настройками и политиками на новом портале администрирования.
 
-|Раздел "Teams" в центре администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Политика центра администрирования Microsoft Teams   |Level (уровень): клиент или пользователь   |
+|Раздел Teams в Центре администрирования Microsoft 365  |Имя параметра (на уровне клиента)  |Политика Центра администрирования Microsoft Teams   |Уровень: клиент или пользователь   |
 |---------|---------|---------|---------|
-|Общий     |Показать организационную диаграмму в личном профиле        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиента       |
-|Общий     |Использование Skype для бизнеса для получателей, не имеющих групп         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция электронной почты     |Разрешение пользователям отправлять сообщения электронной почты по каналам         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция электронной почты     |Список разрешенных отправителей         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиента         |
-|Настраиваемое облачное хранилище     |Полем         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Данных        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Google диск        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Параметры по типу пользователя и лицензии     |Включение и отключение Microsoft Teams для всех пользователей          |Устаревший<sup>1</sup>        |         |
-|Команды и каналы     |         |Перенаправляет Управление группами Azure Active Directory (то же, что и текущий интерфейс).              |Пользователь         |
-|Команды и каналы     |         |Перенаправление на управление группами AAD (то же, что и текущий интерфейс).             |Пользователь          |
-|Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения в масштабе Организации|Клиента|
-|Приложения|Разрешить внешние приложения|Параметры приложения в масштабе Организации|Клиента|
-|Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
+|Общий     |Показывать организационную диаграмму в личном профиле        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиент       |
+|Общий     |Использование Skype для бизнеса для получателей, у которых нет Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция электронной почты     |Разрешение пользователям отправлять сообщения электронной почты в каналы         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Интеграция электронной почты     |Список "Разрешить отправителей"         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиент         |
+|Настраиваемое облачное хранилище     |Box         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |Google Диск        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Настраиваемое облачное хранилище     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиент         |
+|Параметры по типу пользователя или лицензии     |Отключение и отключение Microsoft Teams для всех пользователей          |Неподготовленные<sup>1</sup>        |         |
+|Команды и каналы     |         |Перенаправление на управление группой Azure Active Directory (как и в текущем действии).              |Пользователь         |
+|Команды и каналы     |         |Перенаправление на управление группой AAD (как и в текущей ситуации).             |Пользователь          |
+|Приложения|Включение новых внешних приложений по умолчанию|Параметры приложений для всей организации|Клиент|
+|Приложения|Разрешить внешние приложения|Параметры приложений для всей организации|Клиент|
+|Приложения|Разрешить загрузку внешних приложений<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
 |Приложения|Приложения по умолчанию<sup>3</sup>|TeamsAppPermissionPolicy|Пользователь|
-|Приложения|Внешние приложения<sup>3</sup>|TeamsAppPermissionPolicy|Пользователь|
+|Приложения|Внешние<sup>приложения 3</sup>|TeamsAppPermissionPolicy|Пользователь|
 |Звонки и собрания     |Разрешить планирование для частных собраний         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить рекламный канал обсудим         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить встречу в канале Ad-hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
 |Звонки и собрания     |Разрешить планирование для собраний канала         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешение видеороликов в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешение демонстрации экрана в собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить частный Звонок         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
-|Обмен сообщениями     |Включение GIF, чтобы пользователи могли добавлять в беседы GIF-файлы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Рейтинг контента         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение мемов, которые пользователи могут редактировать и добавлять в беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение поддержки наклеек, которые пользователи могут редактировать и добавлять в беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Звонки и собрания     |Разрешение видео на собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить совместный доступ к экрану на собраниях         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить частные вызовы         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
+|Обмен сообщениями     |Включить GIPHY, чтобы пользователи могли добавлять GIF-эмотицы в беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Оценка содержимого         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включить мемы, которые пользователи могут редактировать и добавлять в беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включить наклейки, которые пользователи могут редактировать и добавлять в беседы         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 |Обмен сообщениями     |Разрешить владельцам удалять все сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Предоставление пользователям разрешения на редактирование собственных сообщений         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешение пользователям изменять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 |Обмен сообщениями     |Разрешение пользователям удалять собственные сообщения         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Позволяет пользователям в закрытом чате         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Позволяет пользователям общаться в приватном чате         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 
-<sup>1</sup> устарело для гостя. Теперь можно управлять включением и отключением гостя в центре администрирования Microsoft Teams. В ближайшее время вы не сможете включать и отключать группы для бизнеса Enterprise, edu Student и edu. Для этого необходимо назначить лицензии в центре администрирования Microsoft 365. Ознакомьтесь со сведениями о том [, как управлять доступом пользователей к Microsoft Teams](user-access.md).
+<sup>1</sup> Неподготовлен для гостя. Включением и отключением гостя теперь можно управлять в Центре администрирования Microsoft Teams. Включение и отключение Teams для бизнеса корпоративный, Edu student и Edu faculty в ближайшее время будет отключлено. Для этого нужно назначить лицензии в Центре администрирования Microsoft 365. См. [управление доступом пользователей к Microsoft Teams.](user-access.md)
 <br><br>
-<sup>2</sup> для корпоративных пользователей делятся следующим образом:
+<sup>Загрузка 2</sup> неогружаемой нагрузки разделяется следующим образом:
 
-- Разрешите пользователям неопубликованного приложения, которыми можно управлять на уровне пользователей в [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
-- Разрешить пользователям в клиенте взаимодействовать с пользовательскими приложениями, которыми можно управлять на уровне клиента в параметрах приложения в масштабах Организации.
+- Разрешайте пользователю загрузку приложений, управление которыми на уровне пользователя [в TeamsAppSetupPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)
+- Разрешить пользователям в клиенте работать с пользовательскими приложениями, управление которыми можно на уровне клиента в параметрах приложений для всей организации.
 
-<sup>3</sup> приложения по умолчанию и внешние приложения можно включить и отключить на уровне пользователя в TeamsAppPermissionPolicy. Кроме того, приложения могут быть заблокированы на уровне клиента в параметрах приложения в масштабе организации, которые переопределяют параметры любого пользователя и на уровне клиента.
+В TeamsAppPermissionPolicy на уровне пользователя можно включить и отключить <sup>3</sup> приложения по умолчанию и внешние приложения. Кроме того, приложения могут быть заблокированы на уровне клиента в параметрах приложений для всей организации, что переопределит любые пользовательские и клиентский параметры.
 
 > [!NOTE]
-> Вы продолжаете использовать панель мониторинга "группы" в центре администрирования Microsoft 365 для настройки, связанной с группами и каналами. Параметры приложений будут сохраняться в области Teams в центре администрирования Microsoft 365 и будут перенесены позже.
+> Вы по-прежнему будете использовать панель мониторинга "Группы" в Центре администрирования Microsoft 365 для настройки, связанной с Teams и каналами. Параметры приложений останутся в области Teams Центра администрирования Microsoft 365 и будут перенесены позже.
 
-## <a name="manage-settings-during-the-migration"></a>Управление параметрами во время миграции
+## <a name="manage-settings-during-the-migration"></a>Управление настройками во время миграции
 
-Вы можете продолжить изменение параметров в центре администрирования Microsoft 365 и центре администрирования Skype для бизнеса, пока для вашего клиента не будет завершена миграция раздела.
+Вы можете изменять параметры в Центре администрирования Microsoft 365 и Центре администрирования Skype для бизнеса, пока не завершится перенос раздела для вашего клиента.
 
-В следующей таблице показано, как управлять функциями во время миграции.
+В таблице ниже показано, где можно управлять функциями во время миграции.
 
-|Компонент  |Центр администрирования Microsoft Teams                      |Центр администрирования Skype для бизнеса (устаревший)  |Центр администрирования Microsoft 365  |
+|Компонент  |Центр администрирования Microsoft Teams                      |Центр администрирования Skype для бизнеса (устаревшая версия)  |Центр администрирования Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
-|Политики для обмена сообщениями, собраний и динамических событий в Teams     |     X    |         |         |
+|Политики сообщений, собраний и трансляций Teams     |     X    |         |         |
 |Политика обновления Teams     |    X     |         |         |
-|Параметры гостя для обмена сообщениями, собраний и голосовой связи     |   X      |         |         |
+|Параметры гостя для обмена сообщениями, собраний и голосовой почты     |   X      |         |         |
 |Управление жизненным циклом Teams   |    X    |      |       |
 |Параметры Teams   |    X    |      |       |
 |Параметры внешнего доступа     |    X    |      |       |
@@ -108,11 +108,11 @@ ms.locfileid: "48790421"
 |Аудиоконференции     |    X     |    X     |         |
 |Планы звонков     |    X    |    X     |         |
 |Телефонная система    |    X    |     X    |         |
-|Управление телефонными номерами     |    X    |   X      |         |
-|Лицензирование функций голосовой связи в облаке     |         |         |    X     |
+|Управление номерами телефонов     |    X    |   X      |         |
+|Лицензирование голосовых функций в облаке     |         |         |    X     |
 |Автосекретари     |    X    |          |         |
 |Очередь звонков     |    X    |          |         |
 
-## <a name="manage-settings-after-the-migration"></a>Управление параметрами после миграции
+## <a name="manage-settings-after-the-migration"></a>Управление настройками после миграции
 
-Когда миграция этих параметров завершится, они будут отключены в центре администрирования Microsoft 365 и центре администрирования Skype для бизнеса, и затем их можно будет управлять в новом центре администрирования Microsoft Teams.
+После переноса этих параметров они будут отключены в Центре администрирования Microsoft 365 и Центре администрирования Skype для бизнеса, а затем управлять ими можно в новом Центре администрирования Microsoft Teams.

@@ -1,5 +1,5 @@
 ---
-title: Настройка Ringback Bot для прямой маршрутизации
+title: Настройка бота Ringback для прямой маршрутки
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-description: В этой статье объясняется, как использовать Ringback Bot для прямой маршрутизации, чтобы предотвратить неожиданные тишины, которые могут возникать при установке звонка.
+description: Узнайте, как использовать бот Ringback для прямой маршрутки, чтобы предотвратить неожиданные тишины, которые могут возникать при звонках.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -23,24 +23,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 11/25/2020
 ms.locfileid: "49420959"
 ---
-# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Настройка Ringback Bot для прямой маршрутизации
+# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Настройка бота Ringback для прямой маршрутки
 
-В этой статье описывается программа Ringback Bot, с помощью которой можно избежать неожиданного замыкания, которое может возникнуть, если для установки звонков требуется больше времени. Ringback Bot доступен для прямой маршрутизации в режиме обхода файлов, не являющихся мультимедийными.
+В этой статье описан бот Ringback, с помощью которого можно предотвратить неожиданные тишины, которые могут возникать, когда звонки устанавливаются дольше. Он доступен для прямой маршрутации в режиме обхода мультимедиа.
 
-Иногда входящие звонки из телефонной сети общего пользования (КТСОП) для клиентов Teams могут занять больше времени, чем ожидалось. Это может быть вызвано различными причинами. В этом случае абонент может не слышать ничего, так как клиент Teams не позвонит, а некоторые поставщики телекоммуникационных услуг могут отменить звонок.
+Иногда входящие звонки из телефонной сети общего звонков (STN) на клиенты Teams могут занять больше времени, чем ожидалось. Это может произойти по разным причинам. В этом случае звонок может ничего не слышать, клиент Teams не звонит, а некоторые поставщики телекоммуникаций могут отменить звонок.
 
-Ringback Bot помогает избежать неожиданного тишины, которое может возникнуть в этом сценарии. Для входящих звонков от КТСОП к клиентам Teams в Ringback Bot воспроизводится Специальный звуковой сигнал для вызывающего абонента, указывающий на то, что команды находятся в процессе установки звонка.
+В этом сценарии бот Ringback помогает избежать неожиданного тишины. Для входящие вызовы из PSTN в клиенты Teams, бот Ringback воспроизводит характерный звуковой сигнал для вызываемого звонка, чтобы показать, что Teams находится в процессе установления звонка.
 
 > [!NOTE]
-> Ringback Bot создает ранний носитель из серверной части Teams. В некоторых странах и регионах вам может взиматься плата за звонок, когда вы начнете перетекание материала.
+> Бот Ringback создает мультимедиа на ранних стадиях из backend Teams. В некоторых странах и регионах с вас может взиматься плата за звонок, когда начнется поток мультимедиа.
 
-## <a name="configure-the-ringback-bot"></a>Настройка Ringback Bot
+## <a name="configure-the-ringback-bot"></a>Настройка бота Ringback
 
-Используйте командлет [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) , чтобы изменить ранее определенную конфигурацию (SBC) или командлет [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) , чтобы создать новую конфигурацию SBC вместе с параметром **GenerateRingingWhileLocatingUser** для настройки Ringback Bot.
+Используйте cmdlet [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) для изменения ранее определенной конфигурации граничного контроллера сеанса (SBC) или для создания новой конфигурации SBC с параметром GenerateRingingWhileLocatingUser(New-CsOnlinePSTNGateway), чтобы создать новую конфигурацию SBC, а также параметр **GenerateRingingWhileLocatingUser** для настройки бота Ringback: [](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
 
-- Чтобы включить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$true**". Это значение по умолчанию. 
+- Чтобы включить бот Ringback, установите для параметра **GenerateRingingWhileLocatingUser** **$True.** Это значение по умолчанию. 
 
-- Чтобы отключить Ringback Bot, задайте для параметра **GenerateRingingWhileLocatingUser** значение " **$false**". 
+- Чтобы отключить бот Ringback, установите для параметра **GenerateRingingWhileLocatingUser** **$False.** 
 
 ## <a name="related-topics"></a>Статьи по теме
 

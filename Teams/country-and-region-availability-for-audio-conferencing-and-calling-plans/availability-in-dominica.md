@@ -1,5 +1,5 @@
 ---
-title: Доступность в Доминика
+title: Доступность в Доминиканской области
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминика.
+description: Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
 ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230277"
 ---
-# <a name="availability-in-dominica"></a>Доступность в Доминика
+# <a name="availability-in-dominica"></a>Доступность в Доминиканске
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Доминика.
+Ниже 2010 г. доступны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Учетной записи Майкрософт.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -52,8 +52,8 @@ ms.locfileid: "44230277"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> | Да <br/> |
-|Автосекретари <br/> | В сети  <br/> |
-|Очередь звонков  <br/> | В сети <br/> |
+|Автосекретари <br/> | Доступно  <br/> |
+|Очередь звонков  <br/> | Доступно <br/> |
 |Голосовая почта  <br/> | Доступно <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков

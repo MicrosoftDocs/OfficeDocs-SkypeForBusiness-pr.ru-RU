@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о внедрении обновления в Microsoft Teams
+title: Общие сведения о внедрении обновления до Microsoft Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Определите оптимальный способ обновления для Microsoft Teams в соответствии с текущим развертыванием Skype для бизнеса.
+description: Определите оптимальный путь обновления До Microsoft Teams на основе текущего развертывания Skype для бизнеса.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,37 +27,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49578362"
 ---
-# <a name="overview-of-implementing-your-upgrade"></a>Общие сведения о реализации обновления
+# <a name="overview-of-implementing-your-upgrade"></a>Общие сведения о внедрении обновления
 
-![Этапы поездки на обновление, акцент на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
+![Этапы пути обновления с акцентом на этапе развертывания и реализации](media/upgrade-banner-deployment.png "Этапы пути обновления с акцентом на этапе развертывания и реализации")
 
-Эта статья входит в стадию развертывания и внедрения вашего путешествия по обновлению. 
+Эта статья является частью этапа развертывания и реализации, которое вы начинаете. 
 
 
 
 ## <a name="prerequisite-planning-activities"></a>Необходимые действия по планированию
 
 > [!IMPORTANT]
-> Прежде чем приступить к реализации обновления, подтвердите, что вы прочитали содержимое планирования, начиная с [плана обновления](upgrade-plan-journey.md) , чтобы убедиться, что вы выполнили все необходимые требования к планированию activites.
+> Прежде чем начать обновление, убедитесь в том, что [](upgrade-plan-journey.md) вы прочитали материалы по планированию, начиная с плана обновления, чтобы убедиться, что все необходимые действия по планированию завершены.
 
 
-- [Вовлеченные заинтересованные лица в проект](upgrade-enlist-stakeholders.md)
-- [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
-- [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
-- [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Планирование пилотной версии пользователя](pilot-essentials.md)
-- [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
+- [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
+- [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Запланировано пилотное проект пользователя](pilot-essentials.md)
+- [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)
 
 ## <a name="choose-your-upgrade-starting-point"></a>Выбор начальной точки обновления
 
-Действия, которые необходимо выполнить для перехода на Teams, зависят от текущего развертывания Skype для бизнеса.
+Действия, которые необходимо выполнить для обновления до Teams, зависят от текущего развертывания Skype для бизнеса.
 
-В соответствии с текущей средой выберите отправную точку.  
+В зависимости от текущей среды выберите отправную точку:  
 
-- **Если вы обновляете Skype для бизнеса Online в Teams**, выполните действия, описанные в статье [Переход с Skype для бизнеса Online на Teams](https://aka.ms/SkypeToTeams-UpgradeOnline).
+- **Если вы обновляете Skype для** бизнеса Online до Teams, выполните действия по переходу со Skype для бизнеса [Online на Teams.](https://aka.ms/SkypeToTeams-UpgradeOnline)
 
--  **Если вы обновляете локальную среду Skype для бизнеса**, вам потребуется выполнить дополнительные действия, чтобы настроить связь между локальными и Интернет-средами перед перемещением пользователей в Teams. Дополнительные сведения можно найти [в разделе Обновление локальной версии Skype для бизнеса для Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+-  **Если** вы выполняете переход с локальной среды Skype для бизнеса, вам потребуется выполнить некоторые дополнительные действия, чтобы настроить подключение между локальной и сетевой средами, прежде чем перемещать пользователей в Teams. Дополнительные сведения [см. в локальном обновлении Skype](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)для бизнеса до Teams.
 
 
 

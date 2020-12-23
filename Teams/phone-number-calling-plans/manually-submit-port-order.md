@@ -17,7 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Сведения о том, как вручную отправить запрос на перенос.
+description: Узнайте, как вручную отправить запрос на перенос.
 ms.openlocfilehash: 3ebbe51262adcb3f3cd3e9db2c60d1b667fb0a42
 ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
@@ -27,23 +27,23 @@ ms.locfileid: "47962830"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
-В некоторых странах и регионах может потребоваться ручная отправка запроса на обслуживание для получения телефонных номеров, передачи телефонных номеров, освобождения телефонных номеров и изменения адресов. Чтобы узнать, что требуется для каждой страны и региона, или узнать больше о переносе номеров, ознакомьтесь со статьей [Управление телефонными номерами в Организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+В некоторых странах и регионах может потребоваться вручную отправить запрос на обслуживание для получения номеров телефонов, переноса номеров телефонов, освобождения номеров телефонов или изменения адресов. Чтобы узнать, что требуется для каждой страны или региона, или узнать больше о переносе номеров, см. управление номерами телефонов [для вашей организации.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-Выполните действия, описанные в этой статье, чтобы вручную отправить заказ на перенос по номеру, если ваша страна или регион не указаны в [мастере переноса в центре администрирования Microsoft Teams](transfer-phone-numbers-to-teams.md).
+Воспользуйтесь действиями, указанными в этой статье, чтобы вручную отправить заказ на перенос, если ваша страна или регион не указаны в мастере переноса в Центре администрирования [Microsoft Teams.](transfer-phone-numbers-to-teams.md)
 
-## <a name="manually-submit-a-new-port-order-request"></a>Отправка нового запроса на перенос вручную
+## <a name="manually-submit-a-new-port-order-request"></a>Отправка нового заказа на перенос вручную
 
-Чтобы вручную отправить новый заказ на перенос, отправьте форму по электронной аккредитиву (LOA) прямо на Рабочий стол PSTN для вашего региона.
+Чтобы вручную отправить новый заказ на перенос, отправьте заполненную форму досье (LOA) непосредственно в службу поддержки ННР для вашего региона.
 
-1. Скачайте [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
-2. Заполните форму.
-3. Отправьте его на [Рабочий стол PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) в вашем регионе.
+1. Скачайте [досье](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
+2. Заполнять форму.
+3. Отправьте ее в службу [поддержки ННР](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) для вашего региона.
 
-## <a name="what-else-should-you-know-about-number-porting"></a>Другие сведения о переносе номеров
+## <a name="what-else-should-you-know-about-number-porting"></a>Что еще следует знать о переносе номеров
 
-- Чтобы использовать планы звонков, вы должны приобрести и назначить лицензии пользователям. Ознакомьтесь [со сведениями о лицензировании надстроек Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- Чтобы использовать планы звонков, необходимо приобрести и назначить лицензии пользователям. См. [лицензирование надстройки Teams.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
-- Вам необходимо назначить новые телефонные номера каждому из пользователей. В разделе [назначение, изменение или удаление номера телефона пользователя](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- Каждому пользователю необходимо назначить новые телефонные номера. См. ["Назначение, изменение или удаление номера телефона для пользователя".](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
 ## <a name="related-topics"></a>Статьи по теме
 
@@ -51,4 +51,4 @@ ms.locfileid: "47962830"
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
-- [Метка отказа в звонке в экстренном случае](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Метка заявление об отказе для экстренных вызовов](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

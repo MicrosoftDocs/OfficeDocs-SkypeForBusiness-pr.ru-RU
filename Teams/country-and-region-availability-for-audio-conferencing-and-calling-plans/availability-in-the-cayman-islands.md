@@ -1,5 +1,5 @@
 ---
-title: Доступность в Каймановы острова
+title: Доступность на Каймановых островах
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Каймановы острова.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные на Островах Кайман.
 ms.openlocfilehash: 06d83dc2f9d33a02e3d68301446186ca89370052
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230747"
 ---
-# <a name="availability-in-the-cayman-islands"></a>Доступность в Каймановы острова
+# <a name="availability-in-the-cayman-islands"></a>Доступность на Каймановых островах
 
 [Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) или узнайте больше о доступности стран и регионов для аудио конференций и тарифных планов.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для Каймановы острова.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные на Островах Кайман.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -50,8 +50,8 @@ ms.locfileid: "44230747"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-|Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
@@ -64,15 +64,15 @@ ms.locfileid: "44230747"
 
 Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
+## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо <br/> |
 |Доступны ли платные номера?  <br/> |Нет  <br/> |
-|Доступны ли бесплатно бесплатные номера?  <br/> |Да  <br/> |
+|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

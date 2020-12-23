@@ -1,5 +1,5 @@
 ---
-title: Просмотр списка пользователей, имеющих доступ к голосовой конференции
+title: См. список пользователей, включенных для аудиоконференции
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,35 +31,35 @@ ms.locfileid: "44691165"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Просмотр списка пользователей, активированных для аудиоконференций в Microsoft Teams
 
-После включения для голосовой конференции пользователей Microsoft Teams в Организации можно просмотреть список пользователей, которые были включены. 
+После включения аудиоконференций для пользователей Microsoft Teams в организации можно просмотреть список тех пользователей, которые были включены. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Просмотр списка пользователей
 
-- В центре администрирования Microsoft Teams в области навигации слева выберите пункт **Пользователи**.
+- В Центре администрирования Microsoft Teams в области навигации слева выберите **"Пользователи".**
 
 
 ## <a name="what-else-should-i-know"></a>Дополнительные сведения
 
-- При просмотре списка включенных пользователей можно выбрать пользователя из списка, чтобы изменить параметры голосовой конференции для этого пользователя.
+- При просмотре списка включенных пользователей можно выбрать пользователя из списка, чтобы изменить для него параметры аудиоконференции.
     
-- Если вы выбрали одного пользователя, вы можете просмотреть номер телефона по умолчанию, назначенный пользователю, и любые другие подходящие настройки голосовой связи.    
+- При выборе одного пользователя можно просмотреть номер телефона по умолчанию, присвоенный пользователю, а также другие параметры аудиоконференции.    
    
 - Вы можете использовать кнопку поиска, чтобы найти определенного пользователя в списке.
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

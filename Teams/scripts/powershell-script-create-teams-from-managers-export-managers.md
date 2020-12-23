@@ -1,5 +1,5 @@
 ---
-title: Образец сценария PowerShell — руководители экспорта и их прямые
+title: 'Пример сценария PowerShell: диспетчеры экспорта и их руководители'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Используйте этот сценарий PowerShell для экспорта списка руководителей и их прямых для Организации, в процессе подготовки к созданию группы для каждого руководителя, которому они являются участниками группы.
+description: Используйте этот сценарий PowerShell, чтобы экспортировать список руководителей и их руководителей для организации, чтобы подготовиться к созданию команды для каждого руководителя со своими непосредственно членами.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583126"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Образец сценария PowerShell — руководители экспорта и их прямые
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Пример сценария PowerShell: диспетчеры экспорта и их руководители
 
-Используйте этот сценарий PowerShell для экспорта списка руководителей и их прямых для вашей организации, в процессе подготовки к созданию группы менеджеров пользователей для каждого руководителя, которому предоставлены прямые участники группы.
+Используйте этот сценарий PowerShell для экспорта списка руководителей и их руководителей в организации, чтобы подготовиться к созданию команды диспетчера людей для каждого руководителя со своими непосредственными участниками.
 
-Чтобы ознакомиться с этим сценарием PowerShell, ознакомьтесь с разделом [Создание групп диспетчера пользователей](../create-manager-directs-teams.md).
+Чтобы узнать об этом сценарии PowerShell, прочитайте статью ["Создание групп диспетчера людей".](../create-manager-directs-teams.md)
 
 Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
 
-## <a name="export-managers-script"></a>Сценарий экспорта — руководители
+## <a name="export-managers-script"></a>Export-Managers сценария
 
 ```powershell
 <# 

@@ -22,37 +22,37 @@ ms.locfileid: "48937748"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
-На этой странице вы найдете самую последнюю версию журнала изменений для Teams PowerShell для общедоступной доступности и общедоступной предварительной версии.
+На этой странице содержится последний журнал изменений Teams PowerShell для общих выпусков доступности и общедоступной предварительной версии.
 
 ## <a name="release-notes"></a>Заметки о выпуске
 
 > [!NOTE]
-> **-Preview** в столбце Version (версия) ниже представлены обновления для общедоступной предварительной версии оболочки PowerShell для Teams.
+> **-preview** в столбце версии ниже представляет обновления для общедоступных предварительных версий Teams PowerShell.
 
-| Дата | Версия | Обновлении |
+| Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
-| Ноябрь 2020 г. | [1.1.7 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использует MSAL для проверки подлинности & авторизации</li><li>Командлеты пакетов политики с рефакторингом и добавление группового пакета</li><li>Реструктурированная Целевая иерархия. выгрузка команд отправки для использования асинхронной модели</li> <li>Пользователю будет предложено дважды ввести запрос на начальную проверку подлинности, если он не использует параметр-Credential. Пользователи могут передавать учетные данные с помощью параметра-Credential, чтобы избежать дублирования запроса. Это поведение будет устранено в следующем выпуске.</li> |
-| Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
-| Сентябрь 2020 г. | [1.1.5 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция соединителя Skype для бизнеса Online</li> |
-| 2020 июля | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [командлеты назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| Июнь 2020 | [1.1.3 — предварительный просмотр](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция соединителя Skype для бизнеса Online<li>Оптимизация Get-Team<li>Повышенная надежность</li> |
-| Июнь 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена Предварительная загрузка командлета<li>Оптимизации платформы .NET Framework</li>   |
-| Апрель 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Подписывание Authenticode и сборка<li>Добавлены Get-CsPolicyPackage<li>Добавлены Get-CsUserPolicyPackage<li>Добавлены Get-CsUserPolicyPackageRecommendation<li>Добавлены Grant-CsUserPolicyPackage<li>Добавлены New-CsBatchPolicyPackageAssignmentOperation<li>Добавлены Set-TeamArchivedState<li>Добавлены Set-TeamPicture<li>Удален Get-TeamHelp</li>  |
-| Март 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлены New-CsBatchPolicyAssignmentOperation</li> |
-| Фев 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Оптимизация Get-Team</li>  |
+| Ноябрь 2020 г. | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Использование MSAL для проверки подлинности & авторизации</li><li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Рефакторed targeting hierarchy upload commands to use an asynchroned model</li> <li>При использовании параметра -credential пользователю будет дважды предложено сделать это при начальной проверке подлинности. Пользователи могут передавать учетные данные, используя параметр -credential, чтобы избежать дублирования запроса. Это будет исправлено в следующем выпуске.</li> |
+| Сентябрь 2020 г. | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
+| Сентябрь 2020 г. | [1.1.5-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Интеграция Соединитела Skype для бизнеса Online</li> |
+| Июль 2020 г. | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Добавлены [cmdlets назначения групповой политики](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| Июнь 2020 г. | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Интеграция Соединитела Skype для бизнеса Online<li>Get-Team оптимизации<li>Повышенная надежность</li> |
+| Июнь 2020 г. | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Добавлена предварительная загрузка для cmdlet<li>Оптимизация .Net Framework</li>   |
+| Апрель 2020 г. | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode и подписание сборки<li>Добавлено Get-CsPolicyPackage<li>Добавлено Get-CsUserPolicyPackage<li>Добавлено Get-CsUserPolicyPackageRecommendation<li>Добавлено Grant-CsUserPolicyPackage<li>Добавлено New-CsBatchPolicyPackageAssignmentOperation<li>Добавлено Set-TeamArchivedState<li>Добавлено Set-TeamPicture<li>Удалено Get-TeamHelp</li>  |
+| Март 2020 г. | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Добавлено New-CsBatchPolicyAssignmentOperation</li> |
+| Февраль 2020 г. | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team оптимизации</li>  |
 
-### <a name="cmdlet-availability"></a>Доступность командлетов
+### <a name="cmdlet-availability"></a>Доступность для cmdlet
 
 > [!NOTE]
-> Список в приведенной ниже таблице содержит только командлеты, которые встроены в модуль PowerShell Teams. Командлеты Teams в[модуле соединителя S kype для бизнеса Online](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) не отображаются. Тем не менее, так как эти командлеты переносятся в Teams PowerShell, они будут добавлены в эту таблицу.
+> В приведенной ниже таблице содержатся только командлеты, которые являются частью модуля Teams PowerShell. Командлеты Teams в модуле соединителя S[kype для бизнеса Online](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) не отображаются. Но так как эти командлеты перенесены в Teams PowerShell, мы добавим их в эту таблицу.
 
-| Командлет | Доступно в общедоступной предварительной версии | Доступно в GA |
+| Командлет | Доступно в режиме предварительной версии | Доступно в ga |
 | -| -- | --|
 | [Add-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/add-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Add-TeamUser](https://docs.microsoft.com/powershell/module/teams/add-teamuser?view=teams-ps) | Да | Да |
 | [Add-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/add-teamsappinstallation?view=teams-ps) | Да | **Нет**|
 | [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | Да | Да |
-| [Разъединить — MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Да | Да |
+| [Disconnect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Да | Да |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Да | Да |
 | [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Да | **Нет** |
 | [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Да | Да |
@@ -60,7 +60,7 @@ ms.locfileid: "48937748"
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Да | Да |
 | [Get-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Да | Да |
 | [Get-CsUserPolicyPackageRecommendation](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackagerecommendation?view=teams-ps) | Да | Да |
-| [Получение и команда](https://docs.microsoft.com/powershell/module/teams/get-team?view=teams-ps) | Да | Да |
+| [Get-Team](https://docs.microsoft.com/powershell/module/teams/get-team?view=teams-ps) | Да | Да |
 | [Get-TeamChannel](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | Да | Да|
 | [Get-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/get-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Get-TeamUser](https://docs.microsoft.com/powershell/module/teams/get-teamuser?view=teams-ps) | Да | Да |
@@ -71,11 +71,11 @@ ms.locfileid: "48937748"
 | [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Да | Да |
 | [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Да | Да |
 | [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Да | Да |
-| [Новая группа](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Да | Да |
+| [New-Team](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Да | Да |
 | [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Да | Да |
 | [New-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Да | Да |
 | [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Да | Да |
-| [Удаление группы](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Да | Да |
+| [Remove-Team](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | Да | Да |
 | [Remove-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | Да | Да |
 | [Remove-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Да | **Нет** |
 | [Remove-TeamsApp](https://docs.microsoft.com/powershell/module/teams/remove-teamsapp?view=teams-ps) | Да | Да |
@@ -95,10 +95,10 @@ ms.locfileid: "48937748"
 
 [Обзор PowerShell в Teams](teams-powershell-overview.md)
 
-[Установка оболочки PowerShell для Teams](teams-powershell-install.md)
+[Установка Teams PowerShell](teams-powershell-install.md)
 
-[Управление группами с помощью PowerShell Teams](teams-powershell-managing-teams.md)
+[Управление Teams с помощью Teams PowerShell](teams-powershell-managing-teams.md)
 
 [Справочник по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[Справочник по командлетам Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Справочник по cmdlet в Skype для бизнеса](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

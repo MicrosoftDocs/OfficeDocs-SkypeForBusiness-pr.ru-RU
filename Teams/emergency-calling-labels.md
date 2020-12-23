@@ -1,5 +1,5 @@
 ---
-title: Метки отказа в звонке в экстренных случаях
+title: Метки отказов в экстренных вызовах
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,14 +28,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44691465"
 ---
-# <a name="emergency-calling-labels"></a>Этикетки для экстренных вызовов
+# <a name="emergency-calling-labels"></a>Метки экстренных вызовов
 
-Это метки отказов на использование средств экстренной помощи (911), которые предназначены для подписок на Avery 5160 (1 "x 2 5/8"), или их размер, если вы хотите использовать другие типы наклеек.
+Это наклейки с заявлением об отказе от ответственности (911) для использования с наклейками адреса Avery 5160 (1" x 2 5/8) или наклеек другого типа.
 
-[Щелкните, чтобы скачать ZIP-файл для подписей на экстренные звонки (EN – US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
+[Щелкните, чтобы скачать ZIP-файл с](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)наклейками для экстренных вызовов (en-us).
 
 ## <a name="related-topics"></a>См. также:
 
 [Типы номеров телефонов, используемые в планах звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
+[Условия и положения, распространяющиеся на экстренные вызовы](emergency-calling-terms-and-conditions.md)

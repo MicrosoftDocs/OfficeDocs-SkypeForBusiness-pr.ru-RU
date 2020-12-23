@@ -1,5 +1,5 @@
 ---
-title: Включение встроенного перевода сообщений
+title: Включить перевод в текстовом сообщении
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о включении встроенного перевода в Microsoft Teams с помощью центра администрирования Microsoft Teams или PowerShell.
+description: Узнайте, как включить в Microsoft Teams возможность перевода с помощью Центра администрирования Microsoft Teams или PowerShell.
 f1.keywords:
 - CSH
 ms.custom:
@@ -27,25 +27,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/04/2020
 ms.locfileid: "47395388"
 ---
-<a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Отключение перевода встроенных сообщений в Microsoft Teams
+<a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Отключение перевода в текстовом сообщении в Microsoft Teams
 =================================================
 
-Преобразование встроенных сообщений — это функция Microsoft Teams, которая позволяет пользователям переводить сообщения группы в [язык](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) , заданный их личными языковыми параметрами.
+Inline message translation is a Microsoft Teams feature that lets users translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings.
 
-Перевод встроенных сообщений выполняется по умолчанию для вашей организации. Если вы хотите разрешить пользователям использовать эту функцию в клиенте Teams, вам не нужно вносить изменения.
-
-> [!NOTE]
->Этот выпуск исключен из подписок на Office 365 в облаке сообщества Office 365 для государственных организаций и Office 365 для Германии.
-
-## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Отключение перевода встроенных сообщений с помощью PowerShell
-
-Вы можете отключить перевод встроенных сообщений с помощью политики обмена сообщениями.
-
-Отключите политику с помощью командлета [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) . Для применения политики требуется несколько минут. Пользователям может потребоваться выйти из Teams и войти в нее снова.
-
-## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Отключение перевода встроенных сообщений с помощью центра администрирования Microsoft Teams
-
-В **центре администрирования Microsoft Teams**выберите **политики обмена сообщениями** в левой области навигации, а затем создайте новую политику или измените существующую, а затем установите для параметра **перевод сообщений** значение **отключено**.
+По умолчанию для организации в организации перевод сообщений в тексте. Вам не нужно вносить изменения, если вы хотите разрешить пользователям использовать эту функцию в клиенте Teams.
 
 > [!NOTE]
-> Служба выполняет перевод и доставляет его клиенту без воздействия на содержимое, захваченное в записях соответствия требованиям. Чтобы узнать больше о переводе, ознакомьтесь со статьей [Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+>Эта раздатка исключается из подписок на Office 365 в среде Сообщества государственных организаций Office 365 и Office 365 Germany.
+
+## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Отключение перевода в текстовом сообщении с помощью PowerShell
+
+Вы можете использовать политику обмена сообщениями, чтобы отключить перевод в текстовом сообщении.
+
+Отключите политику с помощью [cmdlet Set-CsTeamsMessagingPolicy.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) Применение политики займет несколько минут. Пользователям может потребоваться выйти и снова войти в Teams.
+
+## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Отключение перевода в текстовом сообщении с помощью Центра администрирования Microsoft Teams
+
+В Центре **администрирования** Microsoft  Teams выберите "Политики обмена сообщениями" в области навигации слева, а затем создайте новую политику или отредактйте существующую политику и установите для параметра **"Перевести** сообщения" параметр **"Отключено".**
+
+> [!NOTE]
+> Служба переводит его и передает клиенту, не влияя на содержимое, записанное в записях соответствия требованиям. Подробнее о переводе см. в [подмносях "Что такое Microsoft Translator?".](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)

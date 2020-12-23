@@ -1,5 +1,5 @@
 ---
-title: Доступность на Антигуа и Барбуда
+title: Доступность в Антигуа и Барбуде
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуда.
+description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуды.
 ms.openlocfilehash: ac99aa5acb0c3372a59b500ce604d851df811c92
 ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/14/2020
 ms.locfileid: "44230487"
 ---
-# <a name="availability-in-antigua-and-barbuda"></a>Доступность на Антигуа и Барбуда
+# <a name="availability-in-antigua-and-barbuda"></a>Доступность в Антигуа и Барбуде
 
-[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или ознакомьтесь с дополнительными сведениями о доступности стран и регионов для голосовой конференции и планов звонков.
+[Узнайте больше о доступности](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)аудиоконференций и планов звонков в другой стране или регионе.
 
-Ниже указаны службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуда.
+Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуды.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
@@ -50,8 +50,8 @@ ms.locfileid: "44230487"
 |**Функция**|**Details**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-|Автосекретари <br/> |В сети  <br/> |
-|Очередь звонков  <br/> |В сети  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
+|Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
 ## <a name="calling-plans"></a>Планы звонков
@@ -65,15 +65,15 @@ ms.locfileid: "44230487"
 Если тарифные планы недоступны для покупки, рассмотрите возможность использования [прямой телефонной системы](../direct-routing-landing-page.md). Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
 
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
+## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
 |**Функция**|**Details**|
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо |
 |Доступны ли платные номера?  <br/> |Нет <br/> |
-|Доступны ли бесплатно бесплатные номера?  <br/> |Да  <br/> |
+|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

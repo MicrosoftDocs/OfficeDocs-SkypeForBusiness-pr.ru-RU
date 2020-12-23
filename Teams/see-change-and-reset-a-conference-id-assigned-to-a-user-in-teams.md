@@ -1,5 +1,5 @@
 ---
-title: Просмотр, изменение и сброс идентификатора конференции пользователя
+title: Просмотр, изменение и сброс ИД конференции пользователя
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и указать параметры идентификаторов конференц-связи.
+description: Узнайте, как назначить пользователю в Microsoft Teams ИД конференции и какие параметры должны быть заданы.
 ms.openlocfilehash: 4f24fb85479e6a52c8b2658b7a8a41beb0e1c6ad
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,11 +30,11 @@ ms.locfileid: "44691155"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
 
-Идентификатор конференции автоматически назначается пользователю Microsoft Teams, когда он настроен для проведения голосовой конференции в Microsoft 365 или Office 365 и использует Microsoft в качестве поставщика видеоконференций. Назначенный идентификатор конференции отправляется в приглашении на собрание при планировании собрания. Каждому собранию, запланированному пользователем, будет назначен уникальный идентификатор конференции. 
+Когда пользователь Microsoft Teams настроил аудиоконференцию в Microsoft 365 или Office 365 и в качестве поставщика услуг аудиоконференции использует Майкрософт, пользователь автоматически получает соответствующий ИД. Назначенный идентификатор конференции отправляется в приглашении на собрание при планировании собрания. Каждому собранию, запланированному пользователем, будет назначен уникальный идентификатор конференции. 
   
 Хотя идентификатор конференции создается и назначается пользователю автоматически, в некоторых случаях пользователю может потребоваться использовать в качестве идентификатора конкретный номер, кроме того, пользователи могут забыть или потерять этот идентификатор. С помощью Центра администрирования Microsoft Teams или Windows PowerShell вы можете просмотреть, изменить и сбросить идентификатор конференции пользователя.
   
-Идентификатор конференции и телефонные номера для проведения аудиоконференции, назначенные по умолчанию, будут отправлены пользователю по электронной почте. Если вы сбросите идентификатор конференции в настройках, по электронной почте вам придет другой идентификатор конференции, но не ПИН-код. Дополнительные сведения о том, как сбросить PIN-код организатора конференции, можно найти [в разделе Сброс идентификатора конференции для пользователя в Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md) . 
+Идентификатор конференции и телефонные номера для проведения аудиоконференции, назначенные по умолчанию, будут отправлены пользователю по электронной почте. Если вы сбросите идентификатор конференции в настройках, по электронной почте вам придет другой идентификатор конференции, но не ПИН-код. Дополнительные [сведения о сбросе ПИН-кода](reset-a-conference-id-for-a-user-in-teams.md) организатора конференции см. в сведениях о сбросе пользователем кода конференции в Microsoft Teams. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -89,14 +89,14 @@ ms.locfileid: "44691155"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell можно управлять Microsoft 365 или Office 365, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365 или Office 365, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Дополнительные сведения о Windows PowerShell см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Попробуйте или купите голосовую конференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Попробуйте или приобретйте аудиоконференцию в Microsoft 365 или Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

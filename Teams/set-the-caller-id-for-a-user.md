@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Узнайте о Microsoft 365 и Office 365 ID вызывающего абонента по умолчанию (назначенный пользователю номер телефона), также называемый ИДЕНТИФИКАТОРом телефонной строки. Вы можете изменить или заблокировать идентификатор звонящего пользователя.
+description: Узнайте о microsoft 365 и стандартном номере вызываемого звонка Microsoft 365 и Office 365 (назначенном номере телефона пользователя), также называемом ИД строки звонков. Вы можете изменить или заблокировать ИД вызываемой точки пользователя.
 ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814328"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
-Телефонная система в Microsoft 365 и Office 365 предоставляет идентификатор вызывающего абонента по умолчанию, который является назначенным пользователем номером телефона. Можно изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в своей организации можно получить, перейдя к статье [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).
+Телефонная система в Microsoft 365 и Office 365 предоставляет номер телефона, который назначен пользователю по умолчанию. Можно изменить или заблокировать идентификатор абонента (также называемый идентификатором вызывающей линии) для пользователя. Дополнительные сведения об использовании идентификатора абонента в своей организации можно получить, перейдя к статье [Использование идентификатора абонента в организации](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > В настоящее время в Skype для бизнеса Online невозможно заблокировать входящие вызовы. 
@@ -45,9 +45,9 @@ ms.locfileid: "47814328"
     > [!NOTE]
     > Чтобы использовать параметр  _Service_, необходимо указать допустимый номер службы.
   
-- **Блокировка идентификатора исходящего вызывающего абонента** Вы можете заблокировать поступающий идентификатор вызывающего абонента при исходящих звонках с помощью КТСОП пользователя. Это заблокирует отображение номера телефона на телефоне вызываемого абонента.
+- **Блокировать ИД исходящие вызываемой вызовы** Вы можете заблокировать отправление исходя из этой службы ИД звонив пользователю при исходяющих звонках по ННР. В этом случае номер телефона не будет отображаться на телефоне звонимого.
     
-- **Блокировка идентификатора входящего вызывающего абонента** Вы можете запретить пользователю получать идентификатор вызывающего абонента во всех входящих звонках по сети PSTN.
+- **Блокировать его ИД входящих вызовов** Вы можете заблокировать получение ИД вызываемой службы во всех входящих звонках по ДНР.
     
 > [!IMPORTANT]
 > При звонках в экстренные службы номер телефона пользователя (идентификатор абонента) передается всегда. 
@@ -59,7 +59,7 @@ ms.locfileid: "47814328"
 ## <a name="set-your-caller-id-policy-settings"></a>Задание настроек политики идентификатора абонента
 
 > [!NOTE]
-> Для всех параметров идентификации вызывающего абонента в Skype для бизнеса Online необходимо использовать Windows PowerShell и **нельзя использовать** **центр администрирования Skype для бизнеса**. 
+> Для всех параметров " ИД звоня" в Skype для бизнеса Online  необходимо использовать Windows PowerShell и не использовать Центр администрирования **Skype для бизнеса.** 
   
 ### <a name="verify-and-start-windows-powershell"></a>Проверка и запуск Windows PowerShell
 
@@ -69,22 +69,22 @@ ms.locfileid: "47814328"
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
-3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . При появлении запроса перезагрузите компьютер.
+3. Если у вас более ранняя версия, вам необходимо скачать и установить обновления для Windows PowerShell. Чтобы [скачать Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) и обновить Windows PowerShell до версии 4.0, см. Windows PowerShell 4.0. При появлении запроса перезагрузите компьютер.
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-    Дополнительные сведения можно найти в разделе [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Если вам нужно узнать больше, см. подключение к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx)в одном окне Windows PowerShell окна.
     
 - **Запуск сеанса Windows PowerShell**
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. В окне **Windows PowerShell** подключитесь к службе Microsoft 365 или Office 365, выполнив следующие действия:
+2. В **окне Windows PowerShell** подключились к Microsoft 365 или Office 365, вы работающим с помощью:
     
    > [!NOTE]
    >
-   > Skype для бизнеса Online уже входит в состав последнего модуля PowerShell для Teams.
-   > Если вы используете последнюю версию [общедоступной оболочки для Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), вам не нужно устанавливать соединитель Skype для бизнеса Online.
+   > Соединитель Skype для бизнеса Online сейчас является частью последнего модуля Teams PowerShell.
+   > Если вы используете последний общедоступный выпуск [Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)вам не нужно устанавливать соединитель Skype для бизнеса Online.
    ```PowerShell
     Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
@@ -92,21 +92,21 @@ ms.locfileid: "47814328"
     Import-PSSession $session
    ```
 
-Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Microsoft 365 или Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Если вам нужна дополнительные сведения о запуске Windows PowerShell, см. сведения о подключении к всем службам [Microsoft 365 или Office 365](https://technet.microsoft.com/library/dn568015.aspx) в одном окне Windows PowerShell или настройка компьютера [для](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell.
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Просмотр всех настроек политики идентификатора абонента в организации
 
-- Чтобы просмотреть все параметры политики идентификации вызывающего абонента в Организации, выполните следующие действия:
+- Чтобы просмотреть все параметры политики "ИД звоня" в организации, запустите 4
 
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx).
+  См. другие примеры и подробные сведения о [Get-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793856.aspx)
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Создание политики идентификатора абонента для организации
 
 
-- Чтобы создать политику идентификации вызывающего абонента, которая устанавливает анонимный идентификатор вызывающего абонента, выполните следующие действия:
+- Чтобы создать политику, которая задает анонимный ИД звоня, запустите 3.
     
   ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -114,27 +114,27 @@ ms.locfileid: "47814328"
   > [!NOTE]  
   > Во всех случаях поле «Номер службы» не должно содержать начальный символ «+».
 
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых ВозCsCallingLineIdentityх](https://technet.microsoft.com/library/mt793855.aspx).
+  См. другие примеры и подробные сведения о [New-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793855.aspx)
     
-- Чтобы применить новую политику, созданную для Иван мрамора, выполните указанные ниже действия.
+- Чтобы применить новую политику, созданную для amos Marble, запустите 365:
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx).
     
-Если вы уже создали политику, вы можете использовать командлет [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) , чтобы применить параметры к вашим пользователям.
+Если вы уже создали политику, вы можете внести изменения в существующую политику с помощью [cmdlet Set-CsCallingLineIdentity,](https://technet.microsoft.com/library/mt793854.aspx) а затем применить параметры к пользователям с помощью cmdletentity [Grant-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793857.aspx)
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
 
-- Чтобы заблокировать входящий идентификатор вызывающего абонента, выполните следующие действия:
+- Чтобы заблокировать ИД входящих звонив, запустите 4.
     
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx).
+  См. другие примеры и подробные сведения о [Set-CsCallingLineIdentity.](https://technet.microsoft.com/library/mt793854.aspx)
     
-- Чтобы применить параметр политики, созданный для пользователя в Организации, выполните следующие действия:
+- Чтобы применить параметр политики, созданный для пользователя в организации, запустите 4
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -155,15 +155,15 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С помощью Windows PowerShell вы можете управлять Microsoft 365 или Office 365 и Skype для бизнеса Online, используя единую точку администрирования, которая позволяет упростить повседневную работу, если у вас есть несколько задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. С Windows PowerShell вы можете управлять Microsoft 365, Office 365 и Skype для бизнеса Online, используя единый пункт администрирования, который упростит выполнение ваших повседневных задач. Чтобы начать работу с Windows PowerShell, ознакомьтесь с приведенными ниже разделами.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Шесть причин, по которым вам может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Шесть причин, по которым может потребоваться использовать Windows PowerShell для управления Microsoft 365 или Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Microsoft 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
-  - [Лучшие способы управления Microsoft 365 и Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Лучшие способы управления Microsoft 365 или Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Использование Windows PowerShell для управления Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
