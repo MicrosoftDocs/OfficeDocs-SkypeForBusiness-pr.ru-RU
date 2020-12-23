@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: Каково состояние ваших заказов на перенос номеров?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Поддерживаемые центры тарификации и охват
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Маршрутизация вызовов
       items:
         - name: Что такое абонентские группы?
