@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Этот раздел содержит список разделов справки по Microsoft Teams, которые недавно обновлялись, в том числе ссылки на обновленные разделы.
+description: Эта тема — это список разделов справки по Microsoft Teams, которые были недавно обновлены, в том числе ссылки на обновленные разделы.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583808"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="df75c-103">Обновления содержимого Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df75c-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="639ee-103">Обновления содержимого Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="639ee-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="df75c-104">В этом разделе перечислены разделы Microsoft Teams, которые были изменены недавно.</span><span class="sxs-lookup"><span data-stu-id="df75c-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="639ee-104">В этой теме перечислены недавно измененные темы Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="639ee-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

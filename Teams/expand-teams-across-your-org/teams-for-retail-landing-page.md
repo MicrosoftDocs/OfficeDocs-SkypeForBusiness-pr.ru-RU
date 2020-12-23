@@ -1,6 +1,6 @@
 ---
 title: Teams для розничной торговли
-description: Узнайте о ресурсах администраторов, которые можно использовать для управления и эффективного использования групп для розничных магазинов и сотрудников.
+description: Узнайте о ресурсах администрирования, доступных для управления Teams и эффективного использования Teams для розничных магазинов и рабочих сотрудников.
 ms.topic: conceptual
 author: lanachin
 ms.author: v-lanac
@@ -23,10 +23,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46576901"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="ec45a-103">Teams для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="ec45a-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="55b22-103">Teams для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="55b22-103">Teams for Retail</span></span>
 
-<span data-ttu-id="ec45a-104">Используйте ресурсы администратора для управления и получения максимумов из групп для розничных магазинов и сотрудников.</span><span class="sxs-lookup"><span data-stu-id="ec45a-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="55b22-104">Используйте ресурсы администратора здесь, чтобы управлять Teams и использовать все возможности Teams для розничных магазинов и рабочих сотрудников.</span><span class="sxs-lookup"><span data-stu-id="55b22-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![Пошаговое руководство: команды Map](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="ec45a-106">Начало работы с шаблонами Teams для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="ec45a-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="55b22-106">Начало работы с шаблонами Teams для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="55b22-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |

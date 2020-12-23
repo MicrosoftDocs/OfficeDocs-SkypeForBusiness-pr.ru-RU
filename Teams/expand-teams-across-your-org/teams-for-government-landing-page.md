@@ -1,8 +1,6 @@
 ---
 title: Teams для государственных организаций
-description: Сведения о планировании и развертывании групп в правительственных средах Microsoft 365.
-layout: LandingPage
-ms.topic: landing-page
+description: Узнайте, как планировать и развертывать Teams в средах Microsoft 365 для государственных органов.
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,88 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0511556c89751bd8145af59ada90e5c26dbaf2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 40deab0ebaef4ba6ab4568d6cd27c4a0012cee76
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008131"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189266"
 ---
-# <a name="teams-for-government"></a>Teams для государственных организаций
+# <a name="teams-for-government"></a><span data-ttu-id="6841b-103">Teams для государственных организаций</span><span class="sxs-lookup"><span data-stu-id="6841b-103">Teams for Government</span></span>
 
-Эти ресурсы помогут вам узнать, какие особенности следует учитывать при развертывании Teams в правительственных средах Microsoft 365. Когда вы будете готовы, следуйте тем же рекомендациям по развертыванию для групп, как в разделе [развертывание Microsoft Teams](../How-to-roll-out-teams.md).
+<span data-ttu-id="6841b-104">Используйте эти ресурсы, чтобы узнать о конкретных соображениях по развертыванию Teams в среде Microsoft 365 для государственных органов.</span><span class="sxs-lookup"><span data-stu-id="6841b-104">Use these resources to learn about specific considerations for deploying Teams in Microsoft 365 Government environments.</span></span> <span data-ttu-id="6841b-105">Когда будете готовы, следуйте тому же рекомендуемом пути развертывания для Teams, который описан в описании [развертывания Microsoft Teams.](../How-to-roll-out-teams.md)</span><span class="sxs-lookup"><span data-stu-id="6841b-105">When you're ready, follow the same recommended deployment path for Teams as outlined in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).</span></span>
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Планирование для государственных организаций (Microsoft 365) — развертывание GCC</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Планирование развертываний Microsoft 365 для государственных организаций — GCC High</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Планирование развертывания Microsoft 365 для государственных организаций (DOD)</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Аудиоконференции с прямой маршрутизацией для GCC High и DoD</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![list-123-teams](../media/list-123-teams.svg)  |  [<span data-ttu-id="6841b-107">Планирование развертывания Microsoft 365 для государственных органов — GCC</span><span class="sxs-lookup"><span data-stu-id="6841b-107">Plan for Microsoft 365 Government - GCC deployments</span></span>](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
+| ![tasks-teams](../media/tasks-teams.svg) | [<span data-ttu-id="6841b-109">Планирование развертываний Microsoft 365 для государственных организаций — GCC High</span><span class="sxs-lookup"><span data-stu-id="6841b-109">Plan for Microsoft 365 Government - GCC High</span></span>](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
+| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [<span data-ttu-id="6841b-111">Планирование развертывания Microsoft 365 для государственных органов — DOD</span><span class="sxs-lookup"><span data-stu-id="6841b-111">Plan for Microsoft 365 Government - DOD deployments</span></span>](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
+| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [<span data-ttu-id="6841b-113">Аудиоконференции с прямой маршрутизацией для GCC High и DoD</span><span class="sxs-lookup"><span data-stu-id="6841b-113">Audio Conferencing with Direct Routing for GCC High and DoD</span></span>](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |

@@ -1,5 +1,5 @@
 ---
-title: Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации
+title: Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Используйте этот пример сценария PowerShell для тестирования подключений между контроллерами границ для сеансов прямого маршрутизации в Microsoft Teams.
+description: Используйте этот пример сценария PowerShell, чтобы протестировать прямое подключение к контроллеру границ сеанса маршрутинга в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -23,22 +23,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/30/2020
 ms.locfileid: "43951264"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a><span data-ttu-id="ca3dd-103">Сценарий PowerShell для проверки соединения с контроллером границ между прямыми сеансами маршрутизации</span><span class="sxs-lookup"><span data-stu-id="ca3dd-103">PowerShell script to test Direct Routing Session Border Controller connections</span></span>
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a><span data-ttu-id="a7d68-103">Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга</span><span class="sxs-lookup"><span data-stu-id="a7d68-103">PowerShell script to test Direct Routing Session Border Controller connections</span></span>
 
-<span data-ttu-id="ca3dd-104">Клиент тестеров SIP — это образец сценария PowerShell, который можно использовать для тестирования подключений между однонаправленными контроллерами границ (SBC) для связи в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-104">SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams.</span></span> <span data-ttu-id="ca3dd-105">Этот сценарий проверяет основные функциональные возможности магистрального протокола SIP с прямой маршрутизацией.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-105">This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.</span></span>
+<span data-ttu-id="a7d68-104">Клиент SIP Tester — это пример сценария PowerShell, который можно использовать для проверки подключений граничного контроллера SBC к прямой маршрутике в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="a7d68-104">SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams.</span></span> <span data-ttu-id="a7d68-105">Этот сценарий проверяет основные функции связи SIP с прямой маршрутицией, сопряженной с клиентом.</span><span class="sxs-lookup"><span data-stu-id="a7d68-105">This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.</span></span>
 
-<span data-ttu-id="ca3dd-106">Сценарий отправляет тест SIP в средство выполнения тестов, ждет результата, а затем представляет его в удобочитаемом формате.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-106">The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format.</span></span> <span data-ttu-id="ca3dd-107">Вы можете использовать этот сценарий, чтобы протестировать указанные ниже сценарии.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-107">You can use this script to test the following scenarios:</span></span>
+<span data-ttu-id="a7d68-106">Сценарий сообщает тест SIP тест-тесту, ждет результат, а затем представляет его в учитываемом для человека формате.</span><span class="sxs-lookup"><span data-stu-id="a7d68-106">The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format.</span></span> <span data-ttu-id="a7d68-107">Этот сценарий можно использовать для проверки следующих сценариев:</span><span class="sxs-lookup"><span data-stu-id="a7d68-107">You can use this script to test the following scenarios:</span></span>
 
-- <span data-ttu-id="ca3dd-108">Входящие и исходящие звонки</span><span class="sxs-lookup"><span data-stu-id="ca3dd-108">Outbound and inbound calls</span></span>
-- <span data-ttu-id="ca3dd-109">Одновременный звонок</span><span class="sxs-lookup"><span data-stu-id="ca3dd-109">Simultaneous ring</span></span>
-- <span data-ttu-id="ca3dd-110">Эскалация мультимедиа</span><span class="sxs-lookup"><span data-stu-id="ca3dd-110">Media escalation</span></span>
-- <span data-ttu-id="ca3dd-111">Передача consultative</span><span class="sxs-lookup"><span data-stu-id="ca3dd-111">Consultative transfer</span></span>
+- <span data-ttu-id="a7d68-108">Исходящие и входящие звонки</span><span class="sxs-lookup"><span data-stu-id="a7d68-108">Outbound and inbound calls</span></span>
+- <span data-ttu-id="a7d68-109">Одновременный звонок</span><span class="sxs-lookup"><span data-stu-id="a7d68-109">Simultaneous ring</span></span>
+- <span data-ttu-id="a7d68-110">Медианаука</span><span class="sxs-lookup"><span data-stu-id="a7d68-110">Media escalation</span></span>
+- <span data-ttu-id="a7d68-111">Консультация и передача</span><span class="sxs-lookup"><span data-stu-id="a7d68-111">Consultative transfer</span></span>
 
-## <a name="download-the-script-and-documentation"></a><span data-ttu-id="ca3dd-112">Скачайте сценарий и документацию</span><span class="sxs-lookup"><span data-stu-id="ca3dd-112">Download the script and documentation</span></span>
+## <a name="download-the-script-and-documentation"></a><span data-ttu-id="a7d68-112">Скачивание сценария и документации</span><span class="sxs-lookup"><span data-stu-id="a7d68-112">Download the script and documentation</span></span>
 
-<span data-ttu-id="ca3dd-113">Скачайте [клиентский сценарий тестеров SIP и документацию](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).</span><span class="sxs-lookup"><span data-stu-id="ca3dd-113">Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).</span></span>
+<span data-ttu-id="a7d68-113">Скачайте сценарий клиента [SIP Tester и документацию.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a7d68-113">Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).</span></span>
 
   > [!NOTE]
-  > <span data-ttu-id="ca3dd-114">Клиентский сценарий тестера SIP поддерживает только adal.ps версии 3.19.8.1.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-114">SIP Tester client script only supports adal.ps version 3.19.8.1.</span></span> <span data-ttu-id="ca3dd-115">Если используется более поздняя версия adal.ps, будет возвращена ошибка.</span><span class="sxs-lookup"><span data-stu-id="ca3dd-115">An error will be returned if a later version of the adal.ps is used.</span></span>
+  > <span data-ttu-id="a7d68-114">Сценарий клиента SIP Tester поддерживает только adal.ps версии 3.19.8.1.</span><span class="sxs-lookup"><span data-stu-id="a7d68-114">SIP Tester client script only supports adal.ps version 3.19.8.1.</span></span> <span data-ttu-id="a7d68-115">Если используется более поздней версии adal.ps возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="a7d68-115">An error will be returned if a later version of the adal.ps is used.</span></span>
   
   
