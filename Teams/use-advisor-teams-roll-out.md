@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Используйте помощника для Teams, чтобы спланировать и развернуть Microsoft Teams.
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616933"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731137"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника для Teams для развертывания Microsoft Teams
 
@@ -200,7 +200,7 @@ ms.locfileid: "49616933"
 
 Инструкции и ресурсы по подготовке службы технической поддержки и лидеров к Teams см. в разделах [Подготовка организации](https://adoption.microsoft.com/microsoft-teams/#train-your-org) и [Создание лидеров](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-При возникновении у пользователей вопросов, первыми к кому они обращаются, — это ваша служба технической поддержки и лидеры, которые могут использовать сайт схем обучения для подготовки пользователей и в качестве альтернативы созданию запросов в службу поддержки. Рекомендуйте своей службе технической поддержки и лидерам [настроить сайт схем обучения](https://docs.microsoft.comoffice365/customlearning/custom_overview) путем создания страницы обучения и поддержки, а затем [добавить его в качестве вкладки в канал](#add-your-site-to-teams) команды для самостоятельного применения пользователями.
+При возникновении у пользователей вопросов, первыми к кому они обращаются, — это ваша служба технической поддержки и лидеры, которые могут использовать сайт схем обучения для подготовки пользователей и в качестве альтернативы созданию запросов в службу поддержки. Рекомендуйте своей службе технической поддержки и лидерам [настроить сайт схем обучения](https://docs.microsoft.com/office365/customlearning/) путем создания страницы обучения и поддержки, а затем [добавить его в качестве вкладки в канал](#add-your-site-to-teams) команды для самостоятельного применения пользователями.
 
 ### <a name="drive-adoption"></a>Внедрение
 

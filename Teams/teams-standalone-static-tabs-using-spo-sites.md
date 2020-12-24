@@ -1,6 +1,6 @@
 ---
 title: Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Вы можете использовать существующий сайт или страницу SharePoint Online, а также создать отдельную статическую вкладку, которую можно использовать в вашей организации в качестве портала интрасети.
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083169"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731117"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Создание приложения портала интрасети Teams с сайта или страницы SharePoint Online
 
@@ -42,7 +42,8 @@ ms.locfileid: "45083169"
 2. Необходимо знать поддомен клиента, который будет использоваться в заполнителе **{{поддомен}}**.
 
 3. Эта статья будет использовать **{{siteUrl}}** в качестве заполнителя для *URL* выбранного вами сайта или страницы.
-    - Например, *URL-адреса*:   https://contoso.sharepoint.com/teams/Contoso   *или* https://contoso.sharepoint.com/sites/Contoso
+    - Примеры *URL-адресов*: `https://contoso.sharepoint.com/teams/Contoso`
+        *или* `https://contoso.sharepoint.com/sites/Contoso`
 4. Кроме того, заполнитель **{{sitePath}}** будет использоваться для обозначения *пути* URL-адреса (например, /teams/Contoso).
     - Примеры *путей*:   /teams/Contoso   *или* /sites/Contoso
 
@@ -71,11 +72,11 @@ ms.locfileid: "45083169"
 - **URL-адрес контента**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **URL-адрес веб-сайта**: {{siteUrl}}
 
-    Например, **URL-адрес контента**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    Например, **URL-адрес контента**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Перейдите в раздел **Домены и разрешения**. Убедитесь в том, что в разделе "Допустимые домены" указано ваше доменное имя SharePoint Online.
 
-    Например, contoso.sharepoint.com
+    Пример: `contoso.sharepoint.com`
 
 12. Добавьте указанные ниже свойства **единого входа** веб-приложения.
 

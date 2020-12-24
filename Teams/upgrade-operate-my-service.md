@@ -1,7 +1,7 @@
 ---
 title: Операции для Microsoft Teams| Управление службами | Качество
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085915"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731167"
 ---
 # <a name="operate-your-service"></a>Использование службы
 
@@ -145,7 +145,7 @@ Microsoft System Center — это интегрированная платфор
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Мониторинг сложных сценариев
 
-Вы можете отслеживать состояние служб и предстоящие изменения с помощью API службы Communications API для доступа к ее состоянию и изменениям программным путем. Используйте этот API для создания собственного средства мониторинга или подключения существующих средств мониторинга к службам Microsoft 365 или Office 365, что может упростить мониторинг среды. Дополнительные сведения см. в [microsoft 365 или Office 365 для корпоративных разработчиков.](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)
+Вы можете отслеживать состояние служб и предстоящие изменения с помощью API службы Communications API для доступа к ее состоянию и изменениям программным путем. Используйте этот API для создания собственного средства мониторинга или подключения существующих средств мониторинга к службам Microsoft 365 или Office 365, что может упростить мониторинг среды. Дополнительные сведения см. в [microsoft 365 или Office 365 для корпоративных разработчиков.](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq)
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Ежедневно, еженедельно, ежемесячно или по мере необходимости
 
