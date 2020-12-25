@@ -2,7 +2,7 @@
   href: teams-overview.md
 - name: Плакаты архитектуры и решений для телефонии
   href: teams-architecture-solutions-posters.md
-- name: Поддержка удаленных работников (WFH)
+- name: Поддержка удаленных сотрудников (WFH)
   href: support-remote-work-with-teams.md
 - name: Учебные курсы
   items:
@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: Настройка консоли
               href: rooms/console.md
+            - name: Обновление устройства вручную
+              href: rooms/manual-update.md
             - name: Настройка проверки подлинности
               href: rooms/rooms-authentication.md
             - name: Присоединение к сторонним собраниям
@@ -1191,7 +1193,7 @@
     - name: Teams для государственных организаций
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
-        - name: Поддержка удаленных работников (WFH)
+        - name: Поддержка удаленных сотрудников (WFH)
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
         - name: Начало работы с шаблонами Teams для государственных организаций
           href: government-teams-templates-in-the-admin-console.md
