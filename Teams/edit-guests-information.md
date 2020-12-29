@@ -20,31 +20,31 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
+ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030595"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734267"
 ---
-# <a name="edit-guest-user-information"></a><span data-ttu-id="fd4dc-103">Изменение сведений о гостевых пользователях</span><span class="sxs-lookup"><span data-stu-id="fd4dc-103">Edit guest user information</span></span>
+# <a name="edit-guest-user-information"></a><span data-ttu-id="ca403-103">Изменение сведений о гостевых пользователях</span><span class="sxs-lookup"><span data-stu-id="ca403-103">Edit guest user information</span></span>
 
-<span data-ttu-id="fd4dc-104">Вы можете изменить гостевую информацию в Центре администрирования Microsoft 365 или на портале Azure Directory.</span><span class="sxs-lookup"><span data-stu-id="fd4dc-104">You can edit guest information from the Microsoft 365 admin center or the Azure Directory portal.</span></span>
+<span data-ttu-id="ca403-104">Вы можете изменить гостевую информацию в Центре администрирования Microsoft 365 или на портале Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ca403-104">You can edit guest information from the Microsoft 365 admin center or the Azure Active Directory portal.</span></span>
 
-## <a name="guest-users-in-the-microsoft-365-admin"></a><span data-ttu-id="fd4dc-105">Гостевых пользователей в администраторе Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fd4dc-105">Guest users in the Microsoft 365 admin</span></span>
+## <a name="guest-users-in-the-microsoft-365-admin"></a><span data-ttu-id="ca403-105">Гостевых пользователей в администраторе Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="ca403-105">Guest users in the Microsoft 365 admin</span></span>
 
-1. <span data-ttu-id="fd4dc-106">Чтобы изменить гостевую информацию в Центре администрирования [Microsoft 365,](https://admin.microsoft.com)выберите **"Пользователи-**  >  **гостевых пользователей".**</span><span class="sxs-lookup"><span data-stu-id="fd4dc-106">To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.</span></span>
+1. <span data-ttu-id="ca403-106">Чтобы изменить гостевую информацию в Центре администрирования [Microsoft 365,](https://admin.microsoft.com)выберите **"Пользователи-**  >  **гостевых пользователей".**</span><span class="sxs-lookup"><span data-stu-id="ca403-106">To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.</span></span>
 
    ![Редактируемая информация гостевого пользователя](media/access-guest-user.png)
 
-2. <span data-ttu-id="fd4dc-108">Выберите пользователя в **гостевом доступе.**</span><span class="sxs-lookup"><span data-stu-id="fd4dc-108">Select a user from **Guest users**.</span></span>
+2. <span data-ttu-id="ca403-108">Выберите пользователя в **гостевом доступе.**</span><span class="sxs-lookup"><span data-stu-id="ca403-108">Select a user from **Guest users**.</span></span>
 
-3. <span data-ttu-id="fd4dc-109">В сведениях о гостевых пользователях выберите **"Управление контактной информацией".**</span><span class="sxs-lookup"><span data-stu-id="fd4dc-109">In guest user information, select **Manage contact information**.</span></span>
+3. <span data-ttu-id="ca403-109">В сведениях о гостевых пользователях выберите **"Управление контактной информацией".**</span><span class="sxs-lookup"><span data-stu-id="ca403-109">In guest user information, select **Manage contact information**.</span></span>
 
-   ![<span data-ttu-id="fd4dc-110">Управление контактной информацией</span><span class="sxs-lookup"><span data-stu-id="fd4dc-110">Manage contact information</span></span> ](media/guest-user-data1.png)
+   ![<span data-ttu-id="ca403-110">Управление контактной информацией</span><span class="sxs-lookup"><span data-stu-id="ca403-110">Manage contact information</span></span> ](media/guest-user-data1.png)
 
-4. <span data-ttu-id="fd4dc-111">Отредактировать любые  выбранные поля, кроме отображаемой, в области "Управление контактной информацией" и выбрать **"Сохранить изменения".**</span><span class="sxs-lookup"><span data-stu-id="fd4dc-111">Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.</span></span>
+4. <span data-ttu-id="ca403-111">Отредактировать любые  выбранные поля, кроме отображаемой, в области "Управление контактной информацией" и выбрать **"Сохранить изменения".**</span><span class="sxs-lookup"><span data-stu-id="ca403-111">Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.</span></span>
 
    ![Изменение контактных данных гостевого пользователя](media/manage-guest-contact.png)
 
-<span data-ttu-id="fd4dc-113">Гостевой пользователь также можно изменить на [портале Azure Active Directory.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)</span><span class="sxs-lookup"><span data-stu-id="fd4dc-113">You can also edit the guest user from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span></span>
+<span data-ttu-id="ca403-113">Гостевой пользователь также можно изменить на [портале Azure Active Directory.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)</span><span class="sxs-lookup"><span data-stu-id="ca403-113">You can also edit the guest user from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).</span></span>
