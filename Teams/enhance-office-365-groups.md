@@ -1,8 +1,8 @@
 ---
 title: Расширение существующих групп Microsoft 365
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582306"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757694"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Расширение существующих групп Microsoft 365 с помощью Microsoft Teams
 =======================================================
