@@ -1,5 +1,5 @@
 ---
-title: Управление жизненным циклом закрытых каналов в Microsoft Teams
+title: Управление частными каналами в Microsoft Teams с помощью API Graph
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,24 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения об управлении жизненным циклом закрытых каналов в организации.
-ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
-ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
-ms.translationtype: HT
+description: Узнайте, как управлять частными каналами в организации с помощью Graph API.
+ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
+ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49601664"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772042"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом закрытых каналов в Microsoft Teams
 
-В этой статье приводятся необходимые инструкции по управлению жизненным циклом [закрытых каналов](private-channels.md) в организации.
-
-> [!IMPORTANT]
-> Чтобы использовать PowerShell для управления закрытыми каналами, как описано в этой статье, нужно установить и использовать модуль общедоступной предварительной версии PowerShell для Teams из [коллекции PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Инструкции по установке модуля см. в статье [Установка PowerShell для Teams](teams-powershell-install.md). Модуль последней общедоступной версии PowerShell для Teams не поддерживает управление закрытыми каналами.
+Здесь вы найдете рекомендации, необходимые для управления использованием Graph API для управления частными каналами [Teams](https://docs.microsoft.com/microsoftteams/private-channels) в вашей организации.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Укажите, могут ли участники команды создавать закрытые каналы
-
-Владельцы команды могут включить или отключить возможность создания закрытых каналов для участников в параметрах команды. Для этого на вкладке **Параметры** команды включите или отключите параметр **Разрешить участникам создавать закрытые каналы**.
 
 Администратор может управлять возможностью создания закрытых каналов для членов конкретных команд с помощью API Graph. Приведем пример.
 
@@ -47,31 +42,9 @@ PATCH /teams/<team_id>
 }
 ```
 
-## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a>Укажите, могут ли пользователи в вашей организации создавать закрытые каналы
-
-Администратор может задать политики с помощью Центра администрирования Microsoft Teams или PowerShell, чтобы выбрать пользователей в организации, которым разрешено создавать закрытые каналы.
-
-### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
-
-Используйте политики команд, чтобы указать пользователей в организации, которым разрешено создавать закрытые каналы. Дополнительные сведения см. в статье [Управление политиками команд в Teams](teams-policies.md).
-
-### <a name="using-powershell"></a>С помощью PowerShell
-
-Используйте **CsTeamsChannelsPolicy**, чтобы указать пользователей в организации, которым разрешено создавать закрытые каналы. Задайте значение **true** для параметра **AllowPrivateChannelCreation**, чтобы разрешить пользователям, которым назначена политика, создавать закрытые каналы. Если для этого параметра задать значение **false**, возможность создания закрытых каналов будет отключена для пользователей, которым назначена политика.
-
-Дополнительные сведения см. в статье [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
-
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Создайте закрытый канал от имени владельца команды
 
-Администратор может создать закрытый канал от имени владельца команды с помощью PowerShell или API Graph. Например, это можно сделать в случае централизации создания закрытых каналов в организации.
-
-### <a name="using-powershell"></a>С помощью PowerShell
-
-```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
-```
-
-### <a name="using-graph-api"></a>С помощью API Graph
+Как администратор вы можете использовать API Graph для создания частного канала от имени владельца группы. Например, это можно сделать в случае централизации создания закрытых каналов в организации.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -97,22 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Требуется ли выполнить обнаружение электронных данных или удержание по юридическим причинам для файлов в закрытом канале либо создать пользовательское приложение, которое помещает файлы в определенные закрытые каналы, вам понадобится запросить уникальные семейства веб-сайтов SharePoint, которые создаются для каждого закрытого канала.
 
-Администратор может запросить эти URL-адреса с помощью команд PowerShell или API Graph.
-
-### <a name="using-powershell"></a>С помощью PowerShell
-
-1. Установите [командную консоль SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) и подключитесь к ней с учетной записью администратора.
-2. Выполните следующие команды, где &lt;group_id&gt; — ИД группы. (Вы легко найдете ИД группы в ссылке на команду.)
-
-    ```PowerShell
-    $sites = get-sposite -template "teamchannel#0"
-    $groupID = "<group_id>"
-    foreach ($site in $sites) {$x= Get-SpoSite -Identity
-    $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
-    {$x.RelatedGroupId;$x.url}}
-    ```
-
-### <a name="using-graph-api"></a>С помощью API Graph
+Как администратор вы можете использовать команды API Graph для запроса этих URL-адресов.
 
 Эти команды можно выполнить, используя [песочницу Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -180,27 +138,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Возможно, вы хотите составить список владельцев и участников закрытого канала, чтобы решить, нужно ли повысить уровень некоторых участников до владельца. Это происходит в тех случаях, когда владельцы закрытых каналов покинули организацию и необходима помощь администратора, чтобы заявить о праве собственности на закрытый канал.
 
-Администратор может выполнить эти действия с помощью Центра администрирования Microsoft Teams, PowerShell или API Graph.
-
-### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
-
-Сведения об управлении участниками команды с помощью Центра администрирования Microsoft Teams см. в статье [Управление командами в Центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md).
-
-### <a name="using-powershell"></a>С помощью PowerShell
-
-1. Выполните следующие команды, где &lt;group_id&gt; — ИД группы, а &lt;channel_name&gt; — имя канала.
-
-    ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
-    ```
-
-2. Повысьте уровень участника до владельца.
-
-    ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
-    ```
-
-### <a name="using-graph-api"></a>С помощью API Graph
+Как администратор вы можете использовать API Graph для выполнения этих действий.
 
 Эти команды можно выполнить, используя [песочницу Graph](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -273,10 +211,14 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор PowerShell в Teams](teams-powershell-overview.md)
-- [Использование Microsoft Graph API для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
-    - [Перечисление каналов](https://docs.microsoft.com/graph/api/channel-list)
-    - [Создание канала](https://docs.microsoft.com/graph/api/channel-post)
-    - [Добавление участника в канал](https://docs.microsoft.com/graph/api/conversationmember-add)
-    - [Обновление участника в канале](https://docs.microsoft.com/graph/api/conversationmember-update)
-    - [Удаление участника из канала](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[Использование Microsoft Graph API для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+
+[Перечисление каналов](https://docs.microsoft.com/graph/api/channel-list)
+
+[Создание канала](https://docs.microsoft.com/graph/api/channel-post)
+
+[Добавление участника в канал](https://docs.microsoft.com/graph/api/conversationmember-add)
+
+[Обновление участника в канале](https://docs.microsoft.com/graph/api/conversationmember-update)
+
+[Удаление участника из канала](https://docs.microsoft.com/graph/api/conversationmember-delete)
