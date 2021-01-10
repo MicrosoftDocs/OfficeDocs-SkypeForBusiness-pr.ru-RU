@@ -656,7 +656,7 @@
           href: manage-your-network-topology.md
     - name: Экстренные вызовы
       items:
-        - name: Обзор
+        - name: Общие сведения
           href: what-are-emergency-locations-addresses-and-call-routing.md
         - name: Настройка динамических экстренных вызовов
           href: configure-dynamic-emergency-calling.md
@@ -732,7 +732,7 @@
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Ограничения и запреты для бесплатных номеров
           items:
-            - name: Обзор
+            - name: Общие сведения
               href: toll-free-dialing-limitations-and-restrictions.md
             - name: Аргентина
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: Инструкции по низкой пропускной способности для администраторов образовательных учреждений
           href: edu-remote-low-bandwidth.md
+        - name: Мастер политики Teams для образования
+          href: easy-policy-setup-edu.md
         - name: Начало работы с Аналитикой
           href: class-insights.md
         - name: Задания в Teams для образования

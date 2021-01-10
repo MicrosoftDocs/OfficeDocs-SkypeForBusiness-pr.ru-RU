@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
+ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776850"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49786791"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "49776850"
 
 <sup>1</sup> Любой объект каталога в Azure Active Directory учитывается в этом ограничении. Исключение делается для глобальных администраторов, а также приложений, вызывающих Microsoft Graph с помощью [разрешений для приложений](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Это ограничение включает архивированные команды. Чтобы превзойти ограничение по максимальному количеству команд для организации Microsoft 365 или Office 365, вы должны обратиться в службу поддержки Майкрософт.
+<sup>2</sup> Это ограничение включает архивированные команды. Чтобы не ограничиваться максимальным количеством команд, которое может иметь организация Microsoft 365 или Office 365, обратитесь в службу поддержки Майкрософт и запросите дальнейшее увеличение числа объектов Azure Active Directory в клиенте.
 
 <sup>3</sup> Удаленные каналы можно восстановить в течение 30 дней. В течение этих 30 дней удаленный канал продолжает учитываться в ограничении 200 каналов или 30 закрытых каналов на команду. После 30 дней удаленный канал и его содержимое безвозвратно удаляются, и канал больше не учитывается в ограничении количества каналов на команду.
 
