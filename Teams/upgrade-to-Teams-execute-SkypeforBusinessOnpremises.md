@@ -36,7 +36,7 @@ ms.locfileid: "49820949"
 - [Привлечение заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 - [Определение области проекта](https://aka.ms/SkypetoTeams-Scope)
 - [Понимание сосуществования и совместной работы Skype для бизнеса и Teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Вы решили перейти на нее](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Выбранный путь обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Подготовлена среда](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Подготовив организацию](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Проводится пилотный проект](https://aka.ms/SkypeToTeams-Pilot)

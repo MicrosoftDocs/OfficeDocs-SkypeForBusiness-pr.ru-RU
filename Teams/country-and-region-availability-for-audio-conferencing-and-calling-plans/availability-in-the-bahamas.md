@@ -1,7 +1,7 @@
 ---
 title: Доступность на Багамах
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Вот службы Microsoft 365 и Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Багамов.
-ms.openlocfilehash: d051b9e7148225b9745db3784ec00ac69cc93350
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230757"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831324"
 ---
 # <a name="availability-in-the-bahamas"></a>Доступность на Багамах
 
@@ -62,7 +62,7 @@ ms.locfileid: "44230757"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
 
-Если планы звонков недоступны для приобретения, можно использовать [прямую маршрутизаку.](../direct-routing-landing-page.md) Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
+Если планы звонков недоступны для приобретения, можно использовать [прямую маршрутику.](../direct-routing-landing-page.md) Благодаря прямой маршрутизации вы можете использовать телефонную систему практически с любым оператором телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера для служб
 
@@ -72,7 +72,7 @@ ms.locfileid: "44230757"
 |Доступны ли платные номера?  <br/> |Нет <br/> |
 |Доступны ли бесплатные номера? <br/> | Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автоотетарей и очередей звонков, см. получение номеров телефонов служб для Skype для бизнеса и [Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференции, автоотетаря и очередей звонков, см. в этом видео. [](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
