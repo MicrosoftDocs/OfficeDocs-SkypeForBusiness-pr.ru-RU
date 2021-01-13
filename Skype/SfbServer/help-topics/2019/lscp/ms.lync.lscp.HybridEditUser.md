@@ -1,8 +1,8 @@
 ---
-title: Мастер гибридной работы для редактирования пользователей
+title: Мастер гибридного редактирования пользователей
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
-description: Мастер редактирования пользователей используется для изменения учетных записей пользователей в развертывании. Дополнительные сведения см. в разделе Use the Hybrid Manageability wizard.
-ms.openlocfilehash: cdea63adb2a5899fdd5d10e5da6c72bb996e0e03
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Используйте мастер редактирования пользователей для изменения учетных записей пользователей в развертывании. Дополнительные сведения см. в мастере гибридного управления.
+ms.openlocfilehash: 1dc7c62c5f10032df5b2915972f1ac9a4bfa6c75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796478"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836569"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="0a910-104">Мастер гибридизации: редактирование пользователей</span><span class="sxs-lookup"><span data-stu-id="0a910-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="117f7-104">Мастер гибридной среды: редактирование пользователей</span><span class="sxs-lookup"><span data-stu-id="117f7-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="0a910-p102">Мастер редактирования пользователей используется для изменения учетных записей пользователей в развертывании. Дополнительные сведения см. в разделе [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="0a910-p102">Use the Edit Users wizard to modify the user accounts in your deployment. For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="117f7-105">Используйте мастер редактирования пользователей для изменения учетных записей пользователей в развертывании.</span><span class="sxs-lookup"><span data-stu-id="117f7-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="117f7-106">Дополнительные сведения см. в [мастере гибридного](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)управления.</span><span class="sxs-lookup"><span data-stu-id="117f7-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

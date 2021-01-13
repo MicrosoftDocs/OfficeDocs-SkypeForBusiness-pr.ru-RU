@@ -1,8 +1,8 @@
 ---
-title: Добавление связи директоров для Lync Server 2010
+title: Добавление связи директора для Lync Server 2010
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
-description: Вы можете определить, будет ли для директора или Директорго пула связан сервер мониторинга. Установите флажок, чтобы связать сервер мониторинга с директором или пулом директоров.
-ms.openlocfilehash: 31eedd38d4ef63019d2e333759ec2195c9e6ebc9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Определяется, будет ли с директором или пулом директоров связан сервер мониторинга. Чтобы связать сервер мониторинга с директором или пулом директоров, выберите его.
+ms.openlocfilehash: 598ede0a090d4c76ba6698ce92ce4c65c3b60959
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217310"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835539"
 ---
-# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="b66ff-104">Добавление связи директоров для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="b66ff-104">Add Director Association for Lync Server 2010</span></span>
+# <a name="add-director-association-for-lync-server-2010"></a><span data-ttu-id="51273-104">Добавление связи директора для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="51273-104">Add Director Association for Lync Server 2010</span></span>
  
-<span data-ttu-id="b66ff-105">Вы можете определить, будет ли для директора или Директорго пула связан сервер мониторинга.</span><span class="sxs-lookup"><span data-stu-id="b66ff-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="b66ff-106">Установите флажок, чтобы связать сервер мониторинга с директором или пулом директоров.</span><span class="sxs-lookup"><span data-stu-id="b66ff-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
+<span data-ttu-id="51273-105">Определяется, будет ли с директором или пулом директоров связан сервер мониторинга.</span><span class="sxs-lookup"><span data-stu-id="51273-105">You define whether the Director or Director pool will have a Monitoring Server associated with it.</span></span> <span data-ttu-id="51273-106">Чтобы связать сервер мониторинга с директором или пулом директоров, выберите его.</span><span class="sxs-lookup"><span data-stu-id="51273-106">Select the check box to associate a Monitoring Server with the Director or Director pool.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="b66ff-107">Если вы еще не создали базу данных сервера мониторинга (и Необязательный экземпляр), вам будет предоставлена возможность ее создания позже, если установить этот флажок, чтобы связать сервер мониторинга с директором или пулом директоров.</span><span class="sxs-lookup"><span data-stu-id="b66ff-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
+> <span data-ttu-id="51273-107">Если вы еще не создали базу данных сервера мониторинга (и необязательный экземпляр), вам будет предоставлена возможность создать ее позже, если этот установлен, чтобы связать сервер мониторинга с директором или пулом директоров.</span><span class="sxs-lookup"><span data-stu-id="51273-107">If you have not yet created a Monitoring Server database (and optional instance), you will be given the opportunity to create it later if you select this check box to associate a Monitoring Server with the Director or Director pool.</span></span> 
   
 

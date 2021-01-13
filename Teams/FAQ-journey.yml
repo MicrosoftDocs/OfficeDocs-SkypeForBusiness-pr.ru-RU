@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712631"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841480"
 title: Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: Существует ли крайний срок, к которому клиентам требуется перейти со Skype для бизнеса Online на Teams?
     answer: >
       Да. [Поддержка Skype для бизнеса Online будет прекращена](skype-for-business-online-retirement.md) 31 июля 2021 г., после чего эта служба больше не будет доступна. Рекомендуем клиентам Skype для бизнеса Online приступить к использованию Teams и планированию перехода уже сейчас, чтобы оставить достаточно времени для перехода до прекращения поддержки.
+  - question: Будет ли трансляция собраний Skype отойти в одно и то же время, что и в Skype для бизнеса Online?
+    answer: "Да. Трансляции Teams — это решение для трансляции собраний Skype.    \n"
   - question: Сколько времени займет переход моей организации на Teams?
     answer: >
       Вы можете сами выбрать, как ваша организация будет переходить со Skype для бизнеса на Teams. Чтобы помочь вам с планированием и исполнением, мы составили исчерпывающее руководство по переходу с использованием проверенного плана, призванного помочь вам разобраться с техническими и организационными аспектами изменения. Для начала ознакомьтесь с [планом успешного перехода](upgrade-framework.md) и другими материалами по теме, которые станут вашими ориентирами при переходе со Skype для бизнеса на Teams.
