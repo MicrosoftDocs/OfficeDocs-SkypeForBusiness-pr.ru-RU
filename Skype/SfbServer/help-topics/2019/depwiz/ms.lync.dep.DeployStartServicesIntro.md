@@ -1,8 +1,8 @@
 ---
 title: Запуск служб (введение)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы запустить службы на сервере ролей Skype для бизнеса Server, который вы развертываете, ознакомьтесь с начальным экраном. Обратите внимание на то, что команды, выданные для запуска Skype для бизнеса Server, не ожидают запуска службы. Это наилучший из возможных способов запуска служб; наблюдать за текущим состоянием служб следует с консоли управления (MMC) для служб Windows. Нажмите Далее для перехода к задаче Запустить службы.
-ms.openlocfilehash: a3b4fc5cd867888ebb3c0d6fe5f3a63e78caa124
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы запустить службы на развертываемом сервере ролей Skype для бизнеса Server, просмотрите экран ввода. Обратите внимание, что команды, выдав команду для запуска Skype для бизнеса Server, не ждут запуска службы. Это наилучший способ запуска служб, а наблюдать за реальным состоянием служб можно с помощью панели управления (MMC) для служб Windows. Нажмите кнопку Далее, чтобы начать выполнение задачи Запустить службы.
+ms.openlocfilehash: 0a74a7bf02ec03098c7c8f6449ce17961d1cd665
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794638"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808769"
 ---
-# <a name="startservices-intro"></a><span data-ttu-id="f6a46-106">Запуск служб (введение)</span><span class="sxs-lookup"><span data-stu-id="f6a46-106">StartServices (Intro)</span></span>
+# <a name="startservices-intro"></a><span data-ttu-id="23cab-106">Запуск служб (введение)</span><span class="sxs-lookup"><span data-stu-id="23cab-106">StartServices (Intro)</span></span>
  
-<span data-ttu-id="f6a46-107">Чтобы запустить службы на сервере ролей Skype для бизнеса Server, который вы развертываете, ознакомьтесь с начальным экраном.</span><span class="sxs-lookup"><span data-stu-id="f6a46-107">To start services on the Skype for Business Server role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="f6a46-108">Обратите внимание на то, что команды, выданные для запуска Skype для бизнеса Server, не ожидают запуска службы.</span><span class="sxs-lookup"><span data-stu-id="f6a46-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="f6a46-109">Это наилучший из возможных способов запуска служб; наблюдать за текущим состоянием служб следует с консоли управления (MMC) для служб Windows.</span><span class="sxs-lookup"><span data-stu-id="f6a46-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="f6a46-110">Нажмите **Далее** для перехода к задаче **Запустить службы**.</span><span class="sxs-lookup"><span data-stu-id="f6a46-110">Click **Next** to begin the **Start Services** task.</span></span>
+<span data-ttu-id="23cab-107">Чтобы запустить службы на развертываемом сервере ролей Skype для бизнеса Server, просмотрите экран ввода.</span><span class="sxs-lookup"><span data-stu-id="23cab-107">To start services on the Skype for Business Server role server that you are deploying, review the introduction screen.</span></span> <span data-ttu-id="23cab-108">Обратите внимание, что команды, выдав команду для запуска Skype для бизнеса Server, не ждут запуска службы.</span><span class="sxs-lookup"><span data-stu-id="23cab-108">Notice that the commands issued to start the Skype for Business Server do not wait for the service to start.</span></span> <span data-ttu-id="23cab-109">Это наилучший способ запуска служб, а наблюдать за реальным состоянием служб можно с помощью панели управления (MMC) для служб Windows.</span><span class="sxs-lookup"><span data-stu-id="23cab-109">This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC).</span></span> <span data-ttu-id="23cab-110">Нажмите кнопку **Далее**, чтобы начать выполнение задачи **Запустить службы**.</span><span class="sxs-lookup"><span data-stu-id="23cab-110">Click **Next** to begin the **Start Services** task.</span></span>
   
 

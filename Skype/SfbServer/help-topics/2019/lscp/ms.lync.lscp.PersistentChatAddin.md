@@ -1,8 +1,8 @@
 ---
 title: Надстройка сохраняемого чата
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
-description: Вы можете использовать раздел надстройки на странице сохраняемый чат, чтобы сопоставить URL-адреса с сохраняемыми комнатами чата. Эти URL-адреса отображаются в клиенте в комнате чата в области расширения беседы. Администратор должен добавить надстройки в список зарегистрированных надстроек, а руководители или создатели комнат чата должны связать комнаты с одной из зарегистрированных надстроек, чтобы пользователи могли увидеть это обновление в клиенте.
-ms.openlocfilehash: f4de4aefc6ce9c6439058b2bc66d6f5473adf578
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Вы можете использовать раздел надстройки на странице сохраняемого чата, чтобы связать URL-адреса с комнатами сохраняемого чата. Эти URL-адреса отображаются в клиенте в комнате чата в области возможностей беседы. Администратор должен добавить надстройки в список зарегистрированных надстройок, а руководители и создатели комнат чата должны связать комнаты с одной из зарегистрированных надстройок, прежде чем пользователи смогут увидеть это обновление в клиенте.
+ms.openlocfilehash: 87fa42ec690a46183b0121fe9504749031e14b4a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797610"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808399"
 ---
-# <a name="persistent-chat-add-in"></a><span data-ttu-id="ffd0a-105">Надстройка сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="ffd0a-105">Persistent Chat Add-in</span></span>
+# <a name="persistent-chat-add-in"></a><span data-ttu-id="fa7d8-105">Надстройка сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="fa7d8-105">Persistent Chat Add-in</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="ffd0a-106">Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="ffd0a-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="ffd0a-107">Такие же функции доступны в Teams.</span><span class="sxs-lookup"><span data-stu-id="ffd0a-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="ffd0a-108">Дополнительные сведения можно найти [в разделе Skype для бизнеса и Microsoft Teams Upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="ffd0a-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="ffd0a-109">Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым нужны эти функции, в Teams, либо продолжить работу в Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="ffd0a-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="fa7d8-106">Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="fa7d8-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="fa7d8-107">Такие же функции доступны в Teams.</span><span class="sxs-lookup"><span data-stu-id="fa7d8-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="fa7d8-108">Дополнительные сведения см. в [обновлении Skype для бизнеса до Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)</span><span class="sxs-lookup"><span data-stu-id="fa7d8-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="fa7d8-109">Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использовать Skype для бизнеса Server 2015.</span><span class="sxs-lookup"><span data-stu-id="fa7d8-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

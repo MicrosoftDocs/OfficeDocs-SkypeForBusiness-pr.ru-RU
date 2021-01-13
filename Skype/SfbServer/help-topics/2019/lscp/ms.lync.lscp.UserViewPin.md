@@ -1,8 +1,8 @@
 ---
-title: Пользователи просматривают состояние PIN-кода
+title: Пользователи просматривают состояние ПИН-кода
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797916"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808079"
 ---
-# <a name="users-view-pin-status"></a><span data-ttu-id="184e1-104">Пользователи: просмотр состояния ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="184e1-104">Users: View PIN Status</span></span>
+# <a name="users-view-pin-status"></a><span data-ttu-id="c4496-104">Пользователи: просмотр состояния ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="c4496-104">Users: View PIN Status</span></span>
  
-<span data-ttu-id="184e1-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="184e1-105">What do you want to do?</span></span> <span data-ttu-id="184e1-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="184e1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c4496-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="c4496-105">What do you want to do?</span></span> <span data-ttu-id="c4496-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="c4496-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="184e1-107">Установка ПИН-кода конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="184e1-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="c4496-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="c4496-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

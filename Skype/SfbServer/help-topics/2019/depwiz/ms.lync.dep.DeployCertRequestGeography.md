@@ -1,8 +1,8 @@
 ---
 title: Запрос сертификата (сведения о местонахождении)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
-description: На странице сведения о географическом местоположении запрашиваются дополнительные сведения о запросе сертификата. На этой странице вы выбираете "страна", а затем вводите в текстовом поле область, край и Город/населенный пункт. Обратите внимание, что вы не должны использовать аббревиатуры и должны заполнять полные названия Республики и района, а также города и мест.
-ms.openlocfilehash: a23a7398479378d8289f139795c1e6cc5bec1047
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: На странице Сведения о местоположении запрашивается дополнительная информация для запроса сертификата. На этой странице нужно выбрать значение в поле Страна, а затем ввести значения Область или регион и Город или местоположение. Не используйте сокращения, указывайте полное название области или региона и города или местоположения.
+ms.openlocfilehash: 64e110126cac5a5e192f5d04383f3a85fcac58e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796720"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808839"
 ---
-# <a name="certificate-request-geography"></a><span data-ttu-id="f7b48-105">Запрос сертификата (сведения о местонахождении)</span><span class="sxs-lookup"><span data-stu-id="f7b48-105">Certificate Request (Geography)</span></span>
+# <a name="certificate-request-geography"></a><span data-ttu-id="0812f-105">Запрос сертификата (сведения о местонахождении)</span><span class="sxs-lookup"><span data-stu-id="0812f-105">Certificate Request (Geography)</span></span>
  
-<span data-ttu-id="f7b48-106">На странице **сведения о географическом местоположении** запрашиваются дополнительные сведения о запросе сертификата.</span><span class="sxs-lookup"><span data-stu-id="f7b48-106">The **Geographical Information** page requests additional information for the certificate request.</span></span> <span data-ttu-id="f7b48-107">На этой странице вы выбираете " **страна**", а затем вводите в текстовом поле **область, край** и **Город/населенный** пункт.</span><span class="sxs-lookup"><span data-stu-id="f7b48-107">On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box.</span></span> <span data-ttu-id="f7b48-108">Обратите внимание, что вы не должны использовать аббревиатуры и должны заполнять полные названия Республики и района, а также города и мест.</span><span class="sxs-lookup"><span data-stu-id="f7b48-108">Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
+<span data-ttu-id="0812f-p102">На странице **Сведения о местоположении** запрашивается дополнительная информация для запроса сертификата. На этой странице нужно выбрать значение в поле **Страна**, а затем ввести значения **Область или регион** и **Город или местоположение**. Не используйте сокращения, указывайте полное название области или региона и города или местоположения.</span><span class="sxs-lookup"><span data-stu-id="0812f-p102">The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.</span></span>
   
 

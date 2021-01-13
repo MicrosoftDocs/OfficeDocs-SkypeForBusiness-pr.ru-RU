@@ -1,8 +1,8 @@
 ---
-title: Состояние отправки голосовой почты изменений для настройки голосовой маршрутизации
+title: Состояние маршрутации голосовой почты для фиксации изменений в конфигурации маршрутации голосовой почты
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
-description: Если изменения не были выполнены, просмотрите сообщения в этом диалоговом окне, измените конфигурацию голосовой маршрутизации и повторите попытку.
-ms.openlocfilehash: 22f20a75666c0eea05b75a1a53ee39cd04434545
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.
+ms.openlocfilehash: d1127f9621761d62560226ffc7c2a287a4499e4a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797796"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807919"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="4e19d-103">Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных</span><span class="sxs-lookup"><span data-stu-id="4e19d-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="1d590-103">Маршрутизация голосовых данных: состояние фиксации изменений для конфигурации маршрутизации голосовых данных</span><span class="sxs-lookup"><span data-stu-id="1d590-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="4e19d-104">Если изменения не были выполнены, просмотрите сообщения в этом диалоговом окне, измените конфигурацию голосовой маршрутизации и повторите попытку.</span><span class="sxs-lookup"><span data-stu-id="4e19d-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="1d590-104">Если изменения не были завершены, просмотрите сообщения в данном диалоговом окне, измените конфигурацию маршрутизации голосовых данных и повторите попытку.</span><span class="sxs-lookup"><span data-stu-id="1d590-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
  
   

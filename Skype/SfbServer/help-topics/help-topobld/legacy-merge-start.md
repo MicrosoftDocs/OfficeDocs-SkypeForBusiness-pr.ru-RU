@@ -1,8 +1,8 @@
 ---
 title: Начало объединения с устаревшей версией
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
-description: Чтобы начать объединение устаревшего развертывания с Skype для бизнеса Server 2015, нажмите кнопку Далее.
-ms.openlocfilehash: d9ee69bb3616447fb0e3883c278701834a0a3f07
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server 2015, нажмите кнопку "Далее".
+ms.openlocfilehash: 004eb9f8fdfef25c5af8514b5f4dc1ff7a088d2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218050"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806759"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="c72a9-103">Начало объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="c72a9-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="814fe-103">Начало объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="814fe-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="c72a9-104">Чтобы начать объединение устаревшего развертывания с Skype для бизнеса Server 2015, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="c72a9-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
+<span data-ttu-id="814fe-104">Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server 2015, нажмите кнопку **"Далее".**</span><span class="sxs-lookup"><span data-stu-id="814fe-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 

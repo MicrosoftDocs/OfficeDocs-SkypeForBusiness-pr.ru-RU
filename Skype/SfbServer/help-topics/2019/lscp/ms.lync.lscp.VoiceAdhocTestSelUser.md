@@ -1,8 +1,8 @@
 ---
 title: Выбор пользователей корпоративной голосовой связи
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
-description: В диалоговом окне "Выбор пользователей корпоративной голосовой связи" можно найти пользователей, для которых разрешено использование корпоративной голосовой связи. В поле поиска введите адрес SIP или отображаемое имя пользователя, которого вы хотите найти, и нажмите кнопку найти. Чтобы выбрать пользователя, выберите его в списке результатов поиска и нажмите кнопку ОК. Если вы не можете найти нужного пользователя, он может быть недоступен для корпоративной голосовой связи.
-ms.openlocfilehash: 657370b80b3fb538e39a46aa73266c727ad8d3ce
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Используйте диалоговое Корпоративная голосовая связь "Выбор пользователей", чтобы найти пользователей, для которых включена Корпоративная голосовая связь. В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти, а затем нажмите кнопку Найти. Чтобы выбрать пользователя, щелкните его в списке результатов поиска, а затем нажмите кнопку ОК. Если вы не можете найти нужного пользователя, этот пользователь может быть не включен для Корпоративная голосовая связь.
+ms.openlocfilehash: 5b554bfbf964d1fdb7069b2bc6b76d12583df414
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797876"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807949"
 ---
-# <a name="select-enterprise-voice-users"></a><span data-ttu-id="8e674-106">Выбор пользователей корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="8e674-106">Select Enterprise Voice Users</span></span>
+# <a name="select-enterprise-voice-users"></a><span data-ttu-id="3ea55-106">Выбор пользователей корпоративной голосовой связи</span><span class="sxs-lookup"><span data-stu-id="3ea55-106">Select Enterprise Voice Users</span></span>
  
-<span data-ttu-id="8e674-107">В диалоговом окне " **Выбор пользователей корпоративной голосовой связи** " можно найти пользователей, для которых разрешено использование корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="8e674-107">Use the **Select Enterprise Voice Users** dialog box to find users who are enabled for Enterprise Voice.</span></span> <span data-ttu-id="8e674-108">В поле поиска введите адрес SIP или отображаемое имя пользователя, которого вы хотите найти, и нажмите кнопку **найти**.</span><span class="sxs-lookup"><span data-stu-id="8e674-108">In the search box, type the SIP address or display name of the user that you want to find, and then click **Find**.</span></span> <span data-ttu-id="8e674-109">Чтобы выбрать пользователя, выберите его в списке результатов поиска и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="8e674-109">To select a user, click the user in the search results list and then click **OK**.</span></span> <span data-ttu-id="8e674-110">Если вы не можете найти нужного пользователя, он может быть недоступен для корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="8e674-110">If you cannot find the user that you are looking for, that user might not be enabled for Enterprise Voice.</span></span> 
+<span data-ttu-id="3ea55-107">Используйте **диалоговое Корпоративная голосовая связь "Выбор** пользователей" для поиска пользователей, для которых включена Корпоративная голосовая связь.</span><span class="sxs-lookup"><span data-stu-id="3ea55-107">Use the **Select Enterprise Voice Users** dialog box to find users who are enabled for Enterprise Voice.</span></span> <span data-ttu-id="3ea55-108">В поле поиска введите SIP-адрес или отображаемое имя пользователя, которого требуется найти, а затем нажмите кнопку **Найти**.</span><span class="sxs-lookup"><span data-stu-id="3ea55-108">In the search box, type the SIP address or display name of the user that you want to find, and then click **Find**.</span></span> <span data-ttu-id="3ea55-109">Чтобы выбрать пользователя, щелкните его в списке результатов поиска, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="3ea55-109">To select a user, click the user in the search results list and then click **OK**.</span></span> <span data-ttu-id="3ea55-110">Если вы не можете найти нужного пользователя, этот пользователь может быть не включен для Корпоративная голосовая связь.</span><span class="sxs-lookup"><span data-stu-id="3ea55-110">If you cannot find the user that you are looking for, that user might not be enabled for Enterprise Voice.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="8e674-111">Чтобы получить доступ ко всем пользователям, для которых разрешена Корпоративная голосовая связь, не вводите ничего в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="8e674-111">To retrieve all users enabled for Enterprise Voice, do not type anything in the search box.</span></span> <span data-ttu-id="8e674-112">Вы также можете найти всех пользователей, имена отображаемых имен или адреса SIP которых начинаются с определенной строки.</span><span class="sxs-lookup"><span data-stu-id="8e674-112">You can also find all users whose display names or SIP addresses begin with a certain string.</span></span> <span data-ttu-id="8e674-113">Например, чтобы найти всех пользователей, чей адрес SIP начинается с Ken, введите SIP: Кен.</span><span class="sxs-lookup"><span data-stu-id="8e674-113">For example, to find all users whose SIP address begins with ken, type sip:ken.</span></span> <span data-ttu-id="8e674-114">Будут возвращены пользователи, такие как sip:kenmyer@fabrikam.com, SIP:кенквок. fabrikam. com и sip:kenmallit@fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="8e674-114">This will return users such as sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com, and sip:kenmallit@fabrikam.com.</span></span> 
+> <span data-ttu-id="3ea55-111">Чтобы получить всех пользователей, для Корпоративная голосовая связь, ничего не введите в поле поиска.</span><span class="sxs-lookup"><span data-stu-id="3ea55-111">To retrieve all users enabled for Enterprise Voice, do not type anything in the search box.</span></span> <span data-ttu-id="3ea55-112">Также можно найти всех пользователей, чьи отображаемые имена или SIP-адреса начинаются с определенной строки.</span><span class="sxs-lookup"><span data-stu-id="3ea55-112">You can also find all users whose display names or SIP addresses begin with a certain string.</span></span> <span data-ttu-id="3ea55-113">Например, чтобы найти всех пользователей, чьи SIP-адреса начинаются с ken, введите sip:ken.</span><span class="sxs-lookup"><span data-stu-id="3ea55-113">For example, to find all users whose SIP address begins with ken, type sip:ken.</span></span> <span data-ttu-id="3ea55-114">Эта команда возвратит таких пользователей, как sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com и sip:kenmallit@fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="3ea55-114">This will return users such as sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com, and sip:kenmallit@fabrikam.com.</span></span> 
   
  
   

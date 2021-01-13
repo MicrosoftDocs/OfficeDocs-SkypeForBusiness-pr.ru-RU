@@ -1,8 +1,8 @@
 ---
 title: Абонентская группа
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: f6ad3ef11448b6bfe1ac2d34b49b95a71acc6c10
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: f8283f2dfcbbc25aca9c79eaeca2d6430064c547
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797856"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807939"
 ---
-# <a name="dial-plan"></a><span data-ttu-id="5fd7e-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="5fd7e-104">Dial Plan</span></span>
+# <a name="dial-plan"></a><span data-ttu-id="5760c-104">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="5760c-104">Dial Plan</span></span>
 
-<span data-ttu-id="5fd7e-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="5fd7e-105">What do you want to do?</span></span> <span data-ttu-id="5fd7e-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="5fd7e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="5760c-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="5760c-105">What do you want to do?</span></span> <span data-ttu-id="5760c-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="5760c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="5fd7e-107">Создание и изменение абонентской группы в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="5fd7e-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="5760c-107">Создание или изменение телефонной плана в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="5760c-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [<span data-ttu-id="5fd7e-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="5fd7e-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="5760c-108">Изменение абонентской группы</span><span class="sxs-lookup"><span data-stu-id="5760c-108">Modify a Dial Plan</span></span>](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [<span data-ttu-id="5fd7e-109">Создание и изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="5fd7e-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="5760c-109">Создание или изменение правила нормализации в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="5760c-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [<span data-ttu-id="5fd7e-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="5fd7e-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="5760c-110">Создание или изменение правила нормализации вручную</span><span class="sxs-lookup"><span data-stu-id="5760c-110">Create or Modify a Normalization Rule Manually</span></span>](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 
