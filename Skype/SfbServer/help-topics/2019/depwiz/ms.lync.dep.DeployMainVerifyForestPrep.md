@@ -1,8 +1,8 @@
 ---
-title: Проверка репликации подготовки леса
+title: Проверка репликации раздела леса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы убедиться в том, что репликация глобального каталога и создание объектов во время подготовки леса выполнена успешно, выполните указанные ниже действия.
-ms.openlocfilehash: 371846c77c2a41278edaddd753906b46668e7699
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Чтобы проверить успешность репликации глобального каталога и создания объектов в ходе подготовки леса, сделайте следующее:'
+ms.openlocfilehash: 299b738bbfa14ad13825e5c08e87c03167c9f4cc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794758"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801599"
 ---
-# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="57355-103">Проверка репликации подготовки леса</span><span class="sxs-lookup"><span data-stu-id="57355-103">Verify Replication of Forest Preparation</span></span>
+# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="b9f6e-103">Проверка репликации раздела леса</span><span class="sxs-lookup"><span data-stu-id="b9f6e-103">Verify Replication of Forest Preparation</span></span>
  
-<span data-ttu-id="57355-104">Чтобы убедиться в том, что репликация глобального каталога и создание объектов во время подготовки леса выполнена успешно, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="57355-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
+<span data-ttu-id="b9f6e-104">Чтобы проверить успешность репликации глобального каталога и создания объектов в ходе подготовки леса, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="b9f6e-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
   
-1. <span data-ttu-id="57355-105">На контроллере домена (желательно в месте, удаленном от других контроллеров домена) в лесу, для которого выполнялась подготовка, откройте окно **Пользователи и компьютеры Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="57355-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
+1. <span data-ttu-id="b9f6e-105">На контроллере домена (желательно в месте, удаленном от других контроллеров домена) в лесу, для которого выполнялась подготовка, откройте окно **Active Directory — пользователи и компьютеры**.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
     
-2. <span data-ttu-id="57355-106">В окне **Пользователи и компьютеры Active Directory** разверните имя домена своего леса или дочернего домена.</span><span class="sxs-lookup"><span data-stu-id="57355-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
+2. <span data-ttu-id="b9f6e-106">В окне **Active Directory — пользователи и компьютеры** разверните имя домена своего леса или дочернего домена.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
     
-3. <span data-ttu-id="57355-107">Щелкните контейнер **Пользователи** в левой части экрана и найдите универсальную группу ксадминистратор в правой области.</span><span class="sxs-lookup"><span data-stu-id="57355-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="57355-108">Если присутствует Ксадминистратор (среди восьми других новых универсальных групп, начинающихся с CS), репликация подготовки леса была выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="57355-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
+3. <span data-ttu-id="b9f6e-107">Щелкните **контейнер Users** в левой области и найдите универсальную группу CsAdministrator в правой области.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="b9f6e-108">Если присутствует CsAdministrator (среди восьми других новых универсальных групп, которые начинаются с Cs), репликация подготовки леса была успешной.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
     
-4. <span data-ttu-id="57355-109">Если группы еще нет в списке, вы можете принудительно выполнить репликацию или подождать 15 минут и обновить ее в правой части окна.</span><span class="sxs-lookup"><span data-stu-id="57355-109">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane.</span></span> <span data-ttu-id="57355-110">Если группы появились, репликация завершена.</span><span class="sxs-lookup"><span data-stu-id="57355-110">When the groups are present, replication is complete.</span></span>
+4. <span data-ttu-id="b9f6e-p102">Если группа или группы отсутствуют, вы можете принудительно ускорить выполнение репликации или подождать 15 минут и затем обновить правую панель. Если группы появились, репликация завершена.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-p102">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane. When the groups are present, replication is complete.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="57355-111">Если вы хотите просмотреть файлы журнала, созданные с помощью мастера развертывания Skype для бизнеса Server, вы можете найти их на компьютере, на котором был запущен мастер развертывания, в каталоге Users доменных служб Active Directory, выполнившего этот шаг.</span><span class="sxs-lookup"><span data-stu-id="57355-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="57355-112">Например, если пользователь выполнил вход в качестве администратора домена в Contoso.net домена, файлы журнала находятся в: К:\усерс\администратор.контосо\аппдата\локал\темп</span><span class="sxs-lookup"><span data-stu-id="57355-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
+> <span data-ttu-id="b9f6e-111">Если вы хотите просмотреть файлы журналов, созданные мастером развертывания Skype для бизнеса Server, их можно найти на компьютере, на котором был развернут мастер развертывания, в каталоге Users пользователя доменных служб Active Directory, который запустил этот шаг.</span><span class="sxs-lookup"><span data-stu-id="b9f6e-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="b9f6e-112">Например, если пользователь вошел с учетной записью администратора домена в домене Contoso.net, файлы журнала будут расположены в папке C:\Users\Administrator.Contoso\AppData\Local\Temp</span><span class="sxs-lookup"><span data-stu-id="b9f6e-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
   
 

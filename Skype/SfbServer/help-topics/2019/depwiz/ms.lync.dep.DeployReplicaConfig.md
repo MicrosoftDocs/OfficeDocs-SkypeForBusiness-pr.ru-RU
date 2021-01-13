@@ -1,8 +1,8 @@
 ---
 title: Вызов установки локального хранилища конфигурации (настройка)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы приступить к установке базы данных, в которой будет храниться локальная копия центрального хранилища, предназначенная только для чтения, выбери определенную конфигурацию, опубликованную с помощью построителя топологии из уже установленного и настроенного централизованного центра администрирования. Управление хранилищем или чтение определенных конфигураций из других носителей. Для компьютера, который находится в внутренней сети организации, выберите пункт загрузить конфигурацию автоматически из хранилища центрального управления.
-ms.openlocfilehash: b4cc16b26e40b0215a72917c5cab47de8bce5e1b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы начать установку базы данных, в которой будет храниться локализованная копия центрального банка управления, доступная только для чтения, необходимо выбрать между искомой конфигурацией, опубликованной с помощью построитель топологий, из уже установленного и настроенного центрального хранения управления или чтением определенной конфигурации с другого носитель. Для компьютера во внутренней сети организации автоматически выберите "Получить конфигурацию" из центрального банка управления.
+ms.openlocfilehash: f8f9aeaccb510de4efec0020a8993d56851d0544
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794728"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801549"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="a09a8-104">Вызов установки локального хранилища конфигурации (настройка)</span><span class="sxs-lookup"><span data-stu-id="a09a8-104">Install Local Configuration Store Invoke (Configure)</span></span>
+# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="e2ff2-104">Вызов установки локального хранилища конфигурации (настройка)</span><span class="sxs-lookup"><span data-stu-id="e2ff2-104">Install Local Configuration Store Invoke (Configure)</span></span>
  
-<span data-ttu-id="a09a8-105">Чтобы приступить к установке базы данных, в которой будет храниться локальная копия центрального хранилища, предназначенная только для чтения, выбери определенную конфигурацию, опубликованную с помощью построителя топологии из уже установленного и настроенного централизованного центра администрирования. Управление хранилищем или чтение определенных конфигураций из других носителей.</span><span class="sxs-lookup"><span data-stu-id="a09a8-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="a09a8-106">Для компьютера, который находится в внутренней сети организации, выберите пункт **загрузить конфигурацию автоматически из хранилища центрального управления**.</span><span class="sxs-lookup"><span data-stu-id="a09a8-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
+<span data-ttu-id="e2ff2-105">Чтобы начать установку базы данных, в которой будет храниться локализованная копия центрального банка управления, доступная только для чтения, необходимо выбрать между искомой конфигурацией, опубликованной с помощью построитель топологий, из уже установленного и настроенного центрального хранения управления или чтением определенной конфигурации с другого носитель.</span><span class="sxs-lookup"><span data-stu-id="e2ff2-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="e2ff2-106">На компьютере, который находится во внутренней сети организации, выберите "Получить конфигурацию" автоматически **из центрального** банка управления.</span><span class="sxs-lookup"><span data-stu-id="e2ff2-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
   
-<span data-ttu-id="a09a8-107">Если вы устанавливаете реплику центрального хранилища на пограничном сервере, вы выбираете прочитать экспортированную копию документа конфигурации с переносного носителя, например USB-устройства флэш-памяти, жесткого диска USB или другого носителя.</span><span class="sxs-lookup"><span data-stu-id="a09a8-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
+<span data-ttu-id="e2ff2-107">Если реплика центрального хранилища управления устанавливается на пограничный сервер, выберите чтение экспортированной копии документа конфигурации с переносного носителя, такого как флэш-накопитель USB, жесткий диск USB, компакт-диск или другой носитель.</span><span class="sxs-lookup"><span data-stu-id="e2ff2-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="a09a8-108">Если вы устанавливаете локальное хранилище конфигураций на пограничном сервере, сведения о конфигурации должны быть в формате, который был экспортирован из хранилища для централизованного управления с помощью командлета Windows PowerShell:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="a09a8-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
+> <span data-ttu-id="e2ff2-108">При установке локального хранения конфигурации на edge Server сведения о конфигурации должны быть в формате, экспортируемом из центрального банка управления с помощью Windows PowerShell данных:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="e2ff2-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
   
-<span data-ttu-id="a09a8-109">После выбора нужного параметра нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="a09a8-109">After you have selected the appropriate option, click **Next**.</span></span>
+<span data-ttu-id="e2ff2-109">Выбрав подходящий параметр, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="e2ff2-109">After you have selected the appropriate option, click **Next**.</span></span>
   
 

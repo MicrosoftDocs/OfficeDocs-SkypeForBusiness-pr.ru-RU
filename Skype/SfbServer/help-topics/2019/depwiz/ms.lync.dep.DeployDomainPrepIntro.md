@@ -1,8 +1,8 @@
 ---
 title: Подготовка текущего домена (введение)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
-description: На странице Подготовка домена начинается подготовка домена для работы с Skype для бизнеса Server. Нажмите Далее для запуска подготовки домена.
-ms.openlocfilehash: 5774d5d1bc99856877d0497436ada32b98f4c2cd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: На странице "Подготовка домена" начинается процесс подготовки домена для Skype для бизнеса Server. Чтобы начать подготовку домена, нажмите кнопку Далее.
+ms.openlocfilehash: 87335f45b1f87c30f41c9aca1c4e979594b6d014
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795630"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801709"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="dbadb-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="dbadb-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="dd8e5-104">Подготовка текущего домена (введение)</span><span class="sxs-lookup"><span data-stu-id="dd8e5-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="dbadb-105">На странице **Подготовка домена** начинается подготовка домена для работы с Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="dbadb-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="dbadb-106">Нажмите **Далее** для запуска подготовки домена.</span><span class="sxs-lookup"><span data-stu-id="dbadb-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="dd8e5-105">На **странице "Подготовка** домена" начинается процесс подготовки домена для Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="dd8e5-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="dd8e5-106">Чтобы начать подготовку домена, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="dd8e5-106">Click **Next** to begin preparing the domain.</span></span>
   
 

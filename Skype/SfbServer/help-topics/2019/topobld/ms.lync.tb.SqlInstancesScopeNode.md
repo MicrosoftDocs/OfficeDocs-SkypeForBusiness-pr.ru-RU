@@ -1,8 +1,8 @@
 ---
 title: Узел области экземпляров SQL
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: На узле "магазины SQL" перечислены базы данных SQL Server в топологии. Доступно следующее действие.
-ms.openlocfilehash: 4c138cb24f7b6c213da41f67563dce4863347b69
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: В SQL узла содержится список SQL Server баз данных в топологии. Здесь можно выполнить следующее действие.
+ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794308"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805529"
 ---
-# <a name="sql-instances-scope-node"></a><span data-ttu-id="18f2b-104">Узел области экземпляров SQL</span><span class="sxs-lookup"><span data-stu-id="18f2b-104">SQL Instances Scope Node</span></span>
+# <a name="sql-instances-scope-node"></a><span data-ttu-id="0aebc-104">Узел области экземпляров SQL</span><span class="sxs-lookup"><span data-stu-id="0aebc-104">SQL Instances Scope Node</span></span>
  
-<span data-ttu-id="18f2b-105">На узле " **магазины SQL** " перечислены базы данных SQL Server в топологии.</span><span class="sxs-lookup"><span data-stu-id="18f2b-105">The **SQL stores** node lists the SQL Server databases in your topology.</span></span> <span data-ttu-id="18f2b-106">Доступно следующее действие.</span><span class="sxs-lookup"><span data-stu-id="18f2b-106">You can perform the following action:</span></span>
+<span data-ttu-id="0aebc-105">В **SQL узла** содержится список SQL Server баз данных в топологии.</span><span class="sxs-lookup"><span data-stu-id="0aebc-105">The **SQL stores** node lists the SQL Server databases in your topology.</span></span> <span data-ttu-id="0aebc-106">Можно выполнить следующее действие.</span><span class="sxs-lookup"><span data-stu-id="0aebc-106">You can perform the following action:</span></span>
   
-- <span data-ttu-id="18f2b-107">**Создать хранилище SQL**.</span><span class="sxs-lookup"><span data-stu-id="18f2b-107">**New SQL Store**.</span></span> <span data-ttu-id="18f2b-108">Запускает мастер **определения нового хранилища SQL** , с помощью которого можно добавить в топологию новую базу данных SQL Server.</span><span class="sxs-lookup"><span data-stu-id="18f2b-108">Starts the **Define New SQL Store** wizard, which you use to add a new SQL Server database to the topology.</span></span>
+- <span data-ttu-id="0aebc-107">**Создать хранилище SQL**.</span><span class="sxs-lookup"><span data-stu-id="0aebc-107">**New SQL Store**.</span></span> <span data-ttu-id="0aebc-108">Запускает мастер **определения SQL Store,** который используется для добавления новой SQL Server базы данных в топологию.</span><span class="sxs-lookup"><span data-stu-id="0aebc-108">Starts the **Define New SQL Store** wizard, which you use to add a new SQL Server database to the topology.</span></span>
     
-<span data-ttu-id="18f2b-109">В дополнение к параметрам базы данных SQL Server вы можете выполнять следующие общие задачи.</span><span class="sxs-lookup"><span data-stu-id="18f2b-109">In addition to the SQL Server database options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="0aebc-109">Помимо параметров SQL Server баз данных, можно выполнять следующие общие задачи:</span><span class="sxs-lookup"><span data-stu-id="0aebc-109">In addition to the SQL Server database options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="18f2b-p104">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="18f2b-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="0aebc-110">**Топология.**</span><span class="sxs-lookup"><span data-stu-id="0aebc-110">**Topology**.</span></span> <span data-ttu-id="0aebc-111">С помощью этого параметра можно определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="0aebc-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="18f2b-p105">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="18f2b-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="0aebc-p105">**Вид**. Можно использовать данный параметр для настройки представления в построителе топологий, выбирая элементы для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="0aebc-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="18f2b-p106">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="18f2b-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="0aebc-p106">**Справка**. Вы можете использовать данный параметр для доступа к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="0aebc-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

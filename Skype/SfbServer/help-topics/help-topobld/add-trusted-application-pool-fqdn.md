@@ -1,8 +1,8 @@
 ---
 title: Добавление полного доменного имени надежного пула приложений
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: Чтобы определить полное доменное имя пула доверенных приложений, укажите следующие параметры.
-ms.openlocfilehash: 94cf0f611d754dc614111add734bf231c92c5a81
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acbae42e5bd37e8fcdb009a033bdf583eab00a5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217010"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803559"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="cfc27-103">Добавление полного доменного имени надежного пула приложений</span><span class="sxs-lookup"><span data-stu-id="cfc27-103">Add Trusted Application Pool FQDN</span></span>
+# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="e7cb4-103">Добавление полного доменного имени пула доверенных приложений</span><span class="sxs-lookup"><span data-stu-id="e7cb4-103">Add Trusted Application Pool FQDN</span></span>
  
-<span data-ttu-id="cfc27-104">Чтобы определить полное доменное имя пула доверенных приложений, укажите следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="cfc27-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
+<span data-ttu-id="e7cb4-104">Чтобы определить полное доменное имя пула доверенных приложений, укажите следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="e7cb4-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
   
-<span data-ttu-id="cfc27-105">Полное доменное имя сервера или пула серверов, где размещены доверенные приложения.</span><span class="sxs-lookup"><span data-stu-id="cfc27-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
+<span data-ttu-id="e7cb4-105">Полное доменное имя сервера или пула серверов, где размещены доверенные приложения.</span><span class="sxs-lookup"><span data-stu-id="e7cb4-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
   
-<span data-ttu-id="cfc27-106">Выберите параметр **Пул с несколькими компьютерами** при развертывании пула серверов для доверенных приложений с поддержкой балансировки нагрузки и высокой доступности или выберите **Отдельный пул компьютеров**, если нет необходимости в балансировки нагрузки или высокой доступности.</span><span class="sxs-lookup"><span data-stu-id="cfc27-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
+<span data-ttu-id="e7cb4-106">Выберите параметр **Пул с несколькими компьютерами** при развертывании пула серверов для доверенных приложений с поддержкой балансировки нагрузки и высокой доступности или выберите **Отдельный пул компьютеров**, если нет необходимости в балансировки нагрузки или высокой доступности.</span><span class="sxs-lookup"><span data-stu-id="e7cb4-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="cfc27-p101">Отдельный сервер доверенных приложений не может быть преобразован в пул серверов. Если в будущем может понадобиться пул, можно развернуть на данном этапе пул серверов, состоящий только из одного сервера, а впоследствии добавить в него серверы.</span><span class="sxs-lookup"><span data-stu-id="cfc27-p101">A single Trusted Applications Server cannot be converted to a pool of servers later. If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
+> <span data-ttu-id="e7cb4-p101">Отдельный сервер доверенных приложений не может быть преобразован в пул серверов. Если в будущем может понадобиться пул, можно развернуть на данном этапе пул серверов, состоящий только из одного сервера, а впоследствии добавить в него серверы.</span><span class="sxs-lookup"><span data-stu-id="e7cb4-p101">A single Trusted Applications Server cannot be converted to a pool of servers later. If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
   
-<span data-ttu-id="cfc27-109">Дополнительные сведения о пуле доверенных приложений см. в разделе [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="cfc27-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
+<span data-ttu-id="e7cb4-109">Дополнительные сведения о пуле доверенных приложений см. в разделе [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="e7cb4-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: Таблица PayloadDescription
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
-description: Таблица Пайлоаддескриптион является вспомогательной таблицей. Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.
-ms.openlocfilehash: 3a5719d7fbfe23eb8c1457565a36df0a02617fde
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица PayloadDescription является вспомогательной. Каждая запись представляет один кодек, используемый в аудио- или видеосеансе.
+ms.openlocfilehash: c9476aea28993a053096a095469d2d4e13251581
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807497"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806299"
 ---
-# <a name="payloaddescription-table"></a><span data-ttu-id="e6086-104">Таблица PayloadDescription</span><span class="sxs-lookup"><span data-stu-id="e6086-104">PayloadDescription table</span></span>
+# <a name="payloaddescription-table"></a><span data-ttu-id="4c5ab-104">Таблица PayloadDescription</span><span class="sxs-lookup"><span data-stu-id="4c5ab-104">PayloadDescription table</span></span>
  
-<span data-ttu-id="e6086-105">Таблица Пайлоаддескриптион является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="e6086-105">The PayloadDescription table is a supporting table.</span></span> <span data-ttu-id="e6086-106">Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.</span><span class="sxs-lookup"><span data-stu-id="e6086-106">Each record represents one Codec, which is used in an audio or video session.</span></span>
+<span data-ttu-id="4c5ab-p102">Таблица PayloadDescription является вспомогательной. Каждая запись представляет один кодек, используемый в аудио- или видеосеансе.</span><span class="sxs-lookup"><span data-stu-id="4c5ab-p102">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
   
-|<span data-ttu-id="e6086-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="e6086-107">**Column**</span></span>|<span data-ttu-id="e6086-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="e6086-108">**Data Type**</span></span>|<span data-ttu-id="e6086-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="e6086-109">**Key/Index**</span></span>|<span data-ttu-id="e6086-110">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="e6086-110">**Details**</span></span>|
+|<span data-ttu-id="4c5ab-107">**Столбец**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-107">**Column**</span></span>|<span data-ttu-id="4c5ab-108">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-108">**Data Type**</span></span>|<span data-ttu-id="4c5ab-109">**Ключ/индекс**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-109">**Key/Index**</span></span>|<span data-ttu-id="4c5ab-110">**Details**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="e6086-111">**пайлоаддескриптионкэй**</span><span class="sxs-lookup"><span data-stu-id="e6086-111">**PayloadDescriptionKey**</span></span> <br/> |<span data-ttu-id="e6086-112">целое</span><span class="sxs-lookup"><span data-stu-id="e6086-112">int</span></span>  <br/> |<span data-ttu-id="e6086-113">Primary</span><span class="sxs-lookup"><span data-stu-id="e6086-113">Primary</span></span>  <br/> |<span data-ttu-id="e6086-114">Уникальный номер кодека.</span><span class="sxs-lookup"><span data-stu-id="e6086-114">Unique number identifying the Codec.</span></span>  <br/> |
-|<span data-ttu-id="e6086-115">**PayloadDescription**</span><span class="sxs-lookup"><span data-stu-id="e6086-115">**PayloadDescription**</span></span> <br/> |<span data-ttu-id="e6086-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e6086-116">nvarchar(256)</span></span>  <br/> |<span data-ttu-id="e6086-117">Повторя</span><span class="sxs-lookup"><span data-stu-id="e6086-117">Unique</span></span>  <br/> |<span data-ttu-id="e6086-118">Имя кодека.</span><span class="sxs-lookup"><span data-stu-id="e6086-118">Codec name.</span></span>  <br/> |
+|<span data-ttu-id="4c5ab-111">**PayloadDescriptionKey**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-111">**PayloadDescriptionKey**</span></span> <br/> |<span data-ttu-id="4c5ab-112">int</span><span class="sxs-lookup"><span data-stu-id="4c5ab-112">int</span></span>  <br/> |<span data-ttu-id="4c5ab-113">Primary</span><span class="sxs-lookup"><span data-stu-id="4c5ab-113">Primary</span></span>  <br/> |<span data-ttu-id="4c5ab-114">Уникальный номер, обозначающий кодек.</span><span class="sxs-lookup"><span data-stu-id="4c5ab-114">Unique number identifying the Codec.</span></span>  <br/> |
+|<span data-ttu-id="4c5ab-115">**PayloadDescription**</span><span class="sxs-lookup"><span data-stu-id="4c5ab-115">**PayloadDescription**</span></span> <br/> |<span data-ttu-id="4c5ab-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="4c5ab-116">nvarchar(256)</span></span>  <br/> |<span data-ttu-id="4c5ab-117">Уникальные</span><span class="sxs-lookup"><span data-stu-id="4c5ab-117">Unique</span></span>  <br/> |<span data-ttu-id="4c5ab-118">Имя кодека.</span><span class="sxs-lookup"><span data-stu-id="4c5ab-118">Codec name.</span></span>  <br/> |
    
 
