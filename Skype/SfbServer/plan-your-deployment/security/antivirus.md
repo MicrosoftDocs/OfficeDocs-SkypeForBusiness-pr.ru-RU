@@ -1,8 +1,8 @@
 ---
-title: Исключения проверки антивирусной программы для Skype для бизнеса Server
+title: Исключения антивирусной проверки для Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Общие сведения о взаимодействиях антивирусных сканеров с Skype для бизнеса Server.
-ms.openlocfilehash: 10d296e36324fdbc8bca8f7da48370d619774501
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Обзор меж антивирусного сканера со Skype для бизнеса Server.
+ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815697"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832269"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Исключения проверки антивирусной программы для Skype для бизнеса Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Исключения антивирусной проверки для Skype для бизнеса Server
 
-Общие сведения о взаимодействиях антивирусных сканеров с Skype для бизнеса Server.
+Обзор меж антивирусного сканера со Skype для бизнеса Server.
 
-Чтобы антивирусная программа не мешала работе со Skype для бизнеса Server, необходимо исключить определенные процессы и каталоги для каждого сервера Skype для бизнеса Server или серверной роли, для которой вы запускаете антивирусную программу. Исключите перечисленные ниже процессы и каталоги.
+Чтобы антивирусная программа не помешала работе Skype для бизнеса Server, необходимо исключить определенные процессы и каталоги для каждого сервера или роли сервера Skype для бизнеса Server, на котором работает антивирусная программа. Следует исключить следующие процессы и каталоги:
 
 > [!NOTE]
-> Ниже указаны расположения файлов и папок, используемые в Skype для бизнеса Server по умолчанию. Если в вашей организации какие-либо из этих объектов расположены в других местах, укажите соответствующие пути.
+> Папки и расположения файлов, перечисленные ниже, являются расположениями по умолчанию для Skype для бизнеса Server. Для всех местоположений, для которых вы не использовали значение по умолчанию, исключите расположения, указанные для организации, а не расположения по умолчанию, указанные в этом разделе.
 
 > [!IMPORTANT]
-> Обратите внимание, что в некоторых антивирусных программах в списке исключений необходимо указывать абсолютные пути, а не относительные.
+> Обратите внимание, что некоторым антивирусным программам могут потребоваться абсолютные, а не относительные пути, для списка исключений.
 
-- Серверные процессы Skype для бизнеса:
+- Процессы Skype для бизнеса Server:
 
   - ABServer.exe
 
@@ -56,7 +56,7 @@ ms.locfileid: "41815697"
 
   - IMMCUSvc.exe
   
-  - Линкбаккупсервице. exe
+  - LyncBackupService.exe
 
   - LysSvc.exe
 
@@ -82,7 +82,7 @@ ms.locfileid: "41815697"
 
   - XmppTGW.exe
 
-- Процессы службы узла Windows Fabric
+- Процессы службы windows Fabric Host Service:
 
   - Fabric.exe
 
@@ -90,24 +90,24 @@ ms.locfileid: "41815697"
 
   - FabricHost.exe
 
-- Процессы IIS
+- Процессы IIS:
 
   - %systemroot%\system32\inetsrv\w3wp.exe
 
   - %systemroot%\SysWOW64\inetsrv\w3wp.exe
 
-- Внутренние процессы сервера SQL Server
+- SQL Server Back-End процессов:
 
     > [!NOTE]
-    > Обратите внимание, что эти пути зависят от версии SQL Server.
+    > Обратите внимание, что эти пути являются специфическими для SQL Server версии.
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe
 
-  - %ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+  - %ProgramFiles%\Microsoft SQL Server\MSRS11. MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
 
   - %ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe
 
-- Внешние процессы сервера SQL Server
+- SQL Server Front-End процессов:
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe
 
@@ -117,7 +117,7 @@ ms.locfileid: "41815697"
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
-- Каталоги и файлы
+- Каталоги и файлы:
 
   - %systemroot%\System32\LogFiles
 
@@ -126,22 +126,22 @@ ms.locfileid: "41815697"
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Обратите внимание, что эти пути специфичны для версии Skype для бизнеса Server.
+    > Обратите внимание, что эти пути являются специфическими для версии Skype для бизнеса Server.
 
-  - %programfiles%\Skype для бизнеса Server 2015
+  - %programfiles%\Skype for Business Server 2015
 
-  - %programfiles%\Common Files\Skype для бизнеса Server 2015\Watcher Node
+  - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
 
-  - %programfiles%\Common Files\Skype для бизнеса Server 2015
+  - %programfiles%\Common Files\Skype for Business Server 2015
 
-  - %programfiles%\Common Files\Skype для бизнеса Online
+  - %programfiles%\Common Files\Skype for Business Online
 
   - %SystemDrive%\RtcReplicaRoot
 
-  - Хранилище общих папок (указывается в построителе топологий). Хранилища файлов задаются в построителе топологий.
+  - Хранилище файлового файла (указано в построителе топологий). Хранилища файлов указаны в построителье топологий.
 
-  - Файлы данных и журналов сервера SQL Server, включая объекты внутренней базы данных, хранилища пользователей, архивов, мониторинга и приложений. Файлы баз данных и журналов можно указать в построителе топологий. Подробные сведения о файлах данных и журналов для каждой базы, включая имена по умолчанию, см. в статье [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) в разделе, посвященном документации развертывания.
+  - SQL Server данных и журналов, в том числе для тыловой базы данных, пользовательского хранения, архивного хранения, мониторинга и приложения. Файлы базы данных и журналов можно у указаны в построителье топологий. Подробные сведения о данных и файлах журналов для каждой базы данных, включая имена по умолчанию, см. в SQL Server [data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.
 
-  - Файлы данных и журналов SQL Server, в том числе для интерфейсной базы данных, магазина Skype для бизнеса и Рткдатабасе магазина. Как правило, они находятся в папке %localdrive%\CSData.
+  - SQL Server данных и журналов, в том числе для базы данных переднего входа, магазина Skype для бизнеса и хранения RtcDatabase. Обычно они находятся в %localdrive%\CSData.
 
 

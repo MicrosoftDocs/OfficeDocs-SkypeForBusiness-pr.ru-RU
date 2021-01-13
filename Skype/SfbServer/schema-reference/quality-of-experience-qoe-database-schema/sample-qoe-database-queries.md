@@ -1,8 +1,8 @@
 ---
-title: Образцы запросов к базе данных качества взаимодействия
+title: Примеры запросов к базе данных качества взаимодействия
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888658"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834369"
 ---
-# <a name="sample-qoe-database-queries"></a>Образцы запросов к базе данных качества взаимодействия
+# <a name="sample-qoe-database-queries"></a>Примеры запросов к базе данных качества взаимодействия
  
 В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE). 
   
-В следующем примере показано, как получить значение нарушения колебаний и потери пакетов для всех звуковых потоков.
+Используйте следующий пример, чтобы получить значение дрожания и среднюю потерю пакетов для всех аудиопотоков.
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-В следующем примере показано, как найти общее количество конференций, в которых использовалась консоль собрания.
+Используйте следующий пример, чтобы определить общее количество конференций, использовавших консоль Live Meeting.
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-Следующий пример используется для получения Конверсстионалмос, Сендингмос и Листендингмос для каждого устройства захвата.
+Используйте следующий пример, чтобы получить ConversstionalMOS, SendingMOS и ListendingMOS для устройства захвата.
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS

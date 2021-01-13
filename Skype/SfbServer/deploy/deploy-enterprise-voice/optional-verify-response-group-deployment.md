@@ -1,8 +1,8 @@
 ---
-title: Необязательно Проверка развертывания группы ответа в Skype для бизнеса
+title: (Необязательно) Проверка развертывания группы ответа в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Проверка успешности развертывания группы ответа в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: 55faa68531d9e82cafc4ecbb25354343355dfe3f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Проверьте успешность развертывания группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830889"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>Необязательно Проверка развертывания группы ответа в Skype для бизнеса
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Необязательно) Проверка развертывания группы ответа в Skype для бизнеса
  
-Проверка успешности развертывания группы ответа в корпоративной голосовой связи Skype для бизнеса Server.
+Проверьте успешность развертывания группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
   
-После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают должным образом. Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:
+После настройки группы ответа необходимо проверить конфигурацию, чтобы убедиться, что группы ответа работают правильно. Необходимо проверить работу, как минимум, следующих сценариев, используя следующие типы пользователей:
   
  **пользователи**;
   
-- Пользователь, размещенный в Skype для бизнеса
+- Пользователь, который находится в Skype для бизнеса
     
 - Внешний пользователь, использующий телефонную сеть общего пользования (ТСОП)
     
-- Агент, размещенный в Skype для бизнеса
+- Агент, который находится в Skype для бизнеса
     
   **Scenarios**
   
@@ -43,6 +43,6 @@ ms.locfileid: "42028910"
 - Пользователь вызывает группу ответа в то время, как агент обрабатывает другой вызов и переходит в очередь.
 
     > [!NOTE]
-    > Если группа ответа не работает должным образом, обратитесь к следующей ссылке:https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > Если группа ответа не работает ожидаемым образом, проверьте следующую ссылку: https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

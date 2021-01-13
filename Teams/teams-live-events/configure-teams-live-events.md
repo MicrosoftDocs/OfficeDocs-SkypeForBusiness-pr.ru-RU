@@ -1,7 +1,7 @@
 ---
 title: Настройка параметров трансляции в Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3731a43e16b7853a4370a61b848499383d51ffc
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 8c62b7ed2afcfdb9baa779c57f3fcf566295053b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130620"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831199"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "49130620"
 
 ![Снимок экрана: параметры трансляций Teams](../media/teams-live-events-settings.png "Снимок экрана: параметры трансляций Teams, которые можно настроить в Центре администрирования Microsoft Teams")
 
-## <a name="set-up-event-support-url"></a>URL-адрес поддержки событий
+## <a name="set-up-event-support-url"></a>НАСТРОЙКА URL-адреса поддержки событий
 
 Этот URL-адрес отображается для участников трансляции. Добавьте URL-адрес службы поддержки для вашей организации, чтобы предоставить участникам возможность обратиться в службу поддержки во время трансляции.
 
@@ -62,7 +62,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Значок с логотипом Microsoft Teams](../media/teams-logo-30x30.png) С помощью Центра администрирования Microsoft Teams
 
 1. В области навигации слева перейдите к **настройкам**  >  **трансляции собраний.**
-2. В **области сторонних поставщиков видеоконференции** выполните следующее: 
+2. В **области сторонних поставщиков видеоконференции** выполните следующие этапы: 
 
     ![Параметры стороного поставщика видеоконференции в Центре администрирования](../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры сторонного поставщика видеоконференции для трансляций")
 

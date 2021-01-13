@@ -1,8 +1,8 @@
 ---
-title: Включение отправки группового звонка для пользователей и назначение номера группы в Skype для бизнеса
+title: Enable Group Call Pickup for users and assign a group number in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Предоставление пользователям возможности отправки группового звонка в Skype для бизнеса Server Enterprise и назначение номера группы.
-ms.openlocfilehash: bebddb5f71612cf23d442366c774d0e8d4b9f500
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Включить для пользователей групповой выбор звонков в Skype для бизнеса Server Корпоративная голосовая связь и назначить номер группы.
+ms.openlocfilehash: 3467aea1b9671a93cca2f66a2ac73c39f15dc26e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767272"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830969"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Включение отправки группового звонка для пользователей и назначение номера группы в Skype для бизнеса
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Enable Group Call Pickup for users and assign a group number in Skype for Business
 
-Предоставление пользователям возможности отправки группового звонка в Skype для бизнеса Server Enterprise и назначение номера группы.
+Включить для пользователей групповой выбор звонков в Skype для бизнеса Server Корпоративная голосовая связь и назначить номер группы.
 
-После добавления номеров групп для отправки звонков в таблицу "приостановить Звонок" вы можете использовать средство Сефаутил, чтобы назначить номера групп пользователям и включить для них функцию отправки групповых звонков.
+После того как вы добавите номера группы раздатки вызовов в таблицу орбит парковки вызовов, используйте средство SEFAUtil, чтобы назначить номера групп пользователям и включить для них групповой звонок.
 
 > [!NOTE]
-> В гибридном развертывании не назначайте группу отправки группового звонка пользователям, которые находятся в сети. Пользователи, которые подключены к сети, не могут принимать участие в расправке групповых звонков. That is, their calls cannot be answered by other users, and they cannot answer calls to other users.
+> В гибридном развертывании не назначать группу группового вызова пользователям, которые размещены в Интернете. Пользователи, которые находятся в Сети, не могут участвовать в групповом звоноке. То есть другие пользователи не могут отвечать на их вызовы, а они не могут отвечать на вызовы других пользователей.
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Назначение номера группы и включение отправки группового звонка для пользователя
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Назначение номера группы и включить групповой звонок для пользователя
 
-1. Войдите в систему компьютера, на котором установлено средство SEFAUtil, с правами администратора.
+1. Войдите на компьютер, на котором установлено средство SEFAUtil, с правами администратора.
 
 2. В командной строке выполните следующую команду:
 
@@ -42,7 +42,7 @@ ms.locfileid: "41767272"
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
-    Например, чтобы назначить пользователю групповой номер 199, введите:
+    Например, чтобы назначить пользователю номер группы 199:
 
    ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
@@ -50,5 +50,5 @@ ms.locfileid: "41767272"
 
 ## <a name="see-also"></a>См. также
 
-[Disable Group Pickup for Users](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[Отключение группового разметки для пользователей](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

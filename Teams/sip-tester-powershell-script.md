@@ -1,7 +1,7 @@
 ---
-title: Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга
-author: LanaChin
-ms.author: v-lanac
+title: Сценарий PowerShell для тестирования подключений к граничным контроллерам прямого маршрутинга сеанса
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c52febae3d734af49d1b23c7c65ceb0c2f746f7a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951264"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834279"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Сценарий PowerShell для тестирования подключений к контроллеру границ прямого сеанса маршрутинга
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Сценарий PowerShell для тестирования подключений к граничным контроллерам прямого маршрутинга сеанса
 
 Клиент SIP Tester — это пример сценария PowerShell, который можно использовать для проверки подключений граничного контроллера SBC к прямой маршрутике в Microsoft Teams. Этот сценарий проверяет основные функции связи SIP с прямой маршрутицией, сопряженной с клиентом.
 
-Сценарий сообщает тест SIP тест-тесту, ждет результат, а затем представляет его в учитываемом для человека формате. Этот сценарий можно использовать для проверки следующих сценариев:
+Сценарий сообщает тест SIP тест-тесту, ждет результат, а затем представляет его в учитываемом для человека формате. С помощью этого сценария можно проверить следующие сценарии:
 
 - Исходящие и входящие звонки
 - Одновременный звонок

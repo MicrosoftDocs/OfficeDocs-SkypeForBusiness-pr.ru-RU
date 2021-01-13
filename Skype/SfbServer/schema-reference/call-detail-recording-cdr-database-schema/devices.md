@@ -1,8 +1,8 @@
 ---
-title: Таблица "устройства" в Skype для бизнеса Server 2015
+title: Таблица Devices в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-description: Таблица "устройства" является вспомогательной таблицей. Каждая запись хранит информацию об одном устройстве (стационарном телефоне).
-ms.openlocfilehash: e53a8947d106d6a92d7cf5cb881f20022e1bac69
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица устройств является вспомогательной. В каждой записи хранится информация об одном устройстве (стационарный телефон).
+ms.openlocfilehash: da0d6ea8143fb8c81225e885fba1f05a90e2fda5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815287"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831819"
 ---
-# <a name="devices-table-in-skype-for-business-server-2015"></a>Таблица "устройства" в Skype для бизнеса Server 2015
+# <a name="devices-table-in-skype-for-business-server-2015"></a>Таблица Devices в Skype для бизнеса Server 2015
  
-Таблица "устройства" является вспомогательной таблицей. Каждая запись хранит информацию об одном устройстве (стационарном телефоне).
+Таблица устройств является вспомогательной. В каждой записи хранится информация об одном устройстве (стационарный телефон).
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Устройства** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий эту аппаратную версию.  <br/> |
-|**ManufacturerId** <br/> |целое  <br/> |Другом  <br/> |Производитель этого устройства. Более подробную информацию вы увидите [в таблице изготовителей в Skype для бизнеса Server 2015](manufacturers.md) . <br/> |
-|**хардвареверсионид** <br/> |целое  <br/> |Другом  <br/> |Аппаратная версия этого устройства. Для получения дополнительных сведений ознакомьтесь с [таблицей хардвареверсионс в Skype для бизнеса Server 2015](hardwareversions.md) . <br/> |
+|**DeviceId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий версию оборудования.  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |Внешняя  <br/> |Производитель этого устройства. Дополнительные сведения см. в таблице [Manufacturers в Skype для бизнеса Server 2015.](manufacturers.md) <br/> |
+|**HardwareVersionId** <br/> |int  <br/> |Внешняя  <br/> |Версия оборудования этого устройства. Дополнительные сведения см. в таблице [HardwareVersions в Skype для бизнеса Server 2015.](hardwareversions.md) <br/> |
 |**MacAddress** <br/> |bigint  <br/> ||MAC-адрес  <br/> |
    
 

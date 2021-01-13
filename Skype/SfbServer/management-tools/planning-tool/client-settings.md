@@ -1,27 +1,28 @@
 ---
-title: Client Settings (Planning Tool)
+title: Параметры клиента (средство планирования)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.ClientCapacity
+- ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах. Дополнительные сведения см. в статье Planning for Mobility.
-ms.openlocfilehash: d6bde873eedb051ccde9fedf11fcaff2415a15ed
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Функция мобильности в Skype для бизнеса Server 2015 поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения см. в планировании мобильности.
+ms.openlocfilehash: 1cda331a7d99bd22c73d3d0c75d43555292c1394
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816508"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834979"
 ---
-# <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
+# <a name="client-settings-planning-tool"></a>Параметры клиента (средство планирования)
 
-Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах. Дополнительные сведения см. в статье [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
+Функция мобильности в Skype для бизнеса Server 2015 поддерживает функции Skype для бизнеса на мобильных устройствах. Подробные сведения [см. в сведениях о планировании мобильности.](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
 

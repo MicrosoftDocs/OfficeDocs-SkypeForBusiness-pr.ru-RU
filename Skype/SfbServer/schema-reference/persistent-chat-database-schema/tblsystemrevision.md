@@ -1,8 +1,8 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: Тблсистемревисион содержит номер редакции, который используется в таблице Тбладминлокк для обеспечения согласованности в нескольких клиентах администратора.
-ms.openlocfilehash: f08c8c98e9e4dd78e394268859032a4fe598b361
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица tblSystemRevision содержит номер редакции, который используется с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
+ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811907"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831419"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
-Тблсистемревисион содержит номер редакции, который используется в таблице Тбладминлокк для обеспечения согласованности в нескольких клиентах администратора.
+Таблица tblSystemRevision содержит номер редакции, который используется с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|сисревисион  <br/> |bigint, NOT NULL  <br/> |Номер редакции.  <br/> |
+|sysRevision  <br/> |bigint, не может быть null  <br/> |Номер редакции.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Включение управления допуском звонков в Skype для бизнеса Server
+title: Включить контроль допуска звонков в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: c5fc500b4e0839b4db43bd229087b3a6bcc7e644
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Включить контроль допуска звонков в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 9ea8b03b48827abbb73e3d6e93ffb88ab93ad1ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767292"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831019"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включение управления допуском звонков в Skype для бизнеса Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Включить контроль допуска звонков в Skype для бизнеса Server
  
-Включите управление допуском звонков в корпоративной голосовой связи Skype для бизнеса Server. 
+Включить контроль допуска звонков в Skype для бизнеса Server Корпоративная голосовая связь. 
   
 Чтобы политики пропускной способности сети вступили в силу, необходимо включить службу контроля допуска звонков (после настройки параметров сети для развертывания этой службы).
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Включение управления допуском звонков с помощью командной консоли Skype для бизнеса Server
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>To enable call admission control by using Skype for Business Server Management Shell
 
-1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
 2. Чтобы включить службу контроля допуска звонков в сети, выполните командлет Set-CsNetworkConfiguration. Пример:
     
@@ -45,26 +45,26 @@ ms.locfileid: "41767292"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Включение управления допуском звонков с помощью панели управления "Skype для бизнеса" на сервере
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Чтобы включить контроль допуска звонков с помощью панели управления Skype для бизнеса Server
 
 1. Откройте панель управления Skype для бизнеса Server.
     
-2. В левой области навигации щелкните элемент **Конфигурация сети**.
+2. В левой панели навигации щелкните **Network Configuration** (Параметры сети).
     
-3. Нажмите кнопку навигации **Глобальные**.
+3. Нажмите кнопку навигации **Global** (Глобальные).
     
-4. Выберите **Глобальные** в списке и затем в меню **Изменить** выберите **Показать сведения**.
+4. Выберите **Global** (Глобальные) в списке и затем в меню **Edit** (Изменить) выберите **Show Details** (Показать сведения).
     
-5. На странице **Изменение глобальных параметров** установите флажок **Включить контроль допуска звонков**.
+5. На странице **Edit Global Settings** (Изменение глобальных параметров) установите флажок **Enable call admission control** (Включить службу контроля допуска звонков).
     
     > [!NOTE]
     > Чтобы отключить службу контроля допуска звонков во всем развертывании, снимите этот флажок. 
   
-6. Нажмите **Исполнить**. 
+6. Щелкните **Commit** (Применить). 
     
 ## <a name="see-also"></a>См. также
 
-[Get-Кснетворкконфигуратион](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
 [Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   

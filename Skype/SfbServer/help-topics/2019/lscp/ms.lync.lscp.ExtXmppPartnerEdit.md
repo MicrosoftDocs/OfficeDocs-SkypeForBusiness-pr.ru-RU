@@ -1,8 +1,8 @@
 ---
-title: КСМПП Федеративные партнеры создание новых и изменение существующих
+title: Создание новых или редактирование существующих федераированных партнеров XMPP
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 2ca59a2c8815dad8b4f5e55b37b4f4b8a38b1b53
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 8bb7e7cd0b9273d4c6635444eea75af6b791cdc2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797660"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833719"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Федеративные партнеры XMPP: создание новых или редактирование существующих
 
 > [!NOTE]
-> Прокси-серверы и шлюзы XMPP доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Дополнительные сведения см. в статье [Перенос федерации XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md).
+> Шлюзы и прокси-серверы XMPP доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Дополнительные сведения см. в переносе [федерации XMPP.](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)
 
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание и изменение конфигурации КСМПП партнера](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [Создание или изменение конфигурации XMPP-партнера](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
 
-- [Таблица параметров согласования для федеративных партнеров КСМПП](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [Таблица параметров согласования для федераированных партнеров XMPP](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
 

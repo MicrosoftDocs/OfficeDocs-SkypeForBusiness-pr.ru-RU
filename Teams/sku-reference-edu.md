@@ -1,7 +1,7 @@
 ---
 title: Справка по SKU для образования
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Список планов лицензирования для преподавателей и учащихся и SKU.
 f1keywords: ''
-ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: dc8b476e4af134199fe402c998a20dbd84d0919d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533896"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834249"
 ---
 # <a name="education-sku-reference"></a>Справка по SKU для образования
 
@@ -35,7 +35,7 @@ ms.locfileid: "46533896"
 |Office 365 для образования (преподавательский)       |STANDARDWOFFPACK_FACULTY        |94763226-9b3c-4e75-a931-5c89701abe66         |
 |Office 365 для образования (преподавательский)       |STANDARDWOFFPACK_IW_FACULTY     |78e66a63-337a-4a9a-8959-41c6654dfb56         |
 |Office 365 для образования E5 (преподавательский)    |ENTERPRISEPREMIUM_FACULTY       |a4585165-0533-458a-97e3-c400570268c4         |
-|Office 365 для образования E5 без использования ННР для преподавателей      |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
+|Office 365 для образования E5 без использования conferencing по ННР для преподавателей      |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
 |Office 365 для образования E1 (преподавательский)     |STANDARDPACK_FACULTY         |a19037fc-48b4-4d57-b079-ce44b7832473         |
 |Office 365 для образования E3 (преподавательский)     |ENTERPRISEPACK_EDULRG         |f5a9147f-b4f8-4924-a9f0-8fadaac4982f         |
 |Office 365 для образования E4 (преподавательский)      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |
@@ -60,11 +60,11 @@ ms.locfileid: "46533896"
 |Microsoft 365 для образования A5 (для учащихся)        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
 |Преимущества Microsoft 365 A5 для учащихся     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5 без аудиоконференции для учащихся      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Использование преимущества Microsoft 365 A5 без аудиоконференции для учащихся    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Преимущество Использования Microsoft 365 A5 без аудиоконференции для учащихся    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 для учащихся     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Использование преимущества Office 365 A3 для учащихся     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Использование преимущества Office 365 A5 для учащихся    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
-|Преимущество использования аудиоконференции для учащихся в Office 365 A5  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
+|Использование преимуществ в Office 365 A5 без аудиоконференции для учащихся  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |Office 365 для образования (Homeschool) для учащихся     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
 |Office 365 A1 для учащихся (для устройств)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Plus для учащихся     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |

@@ -1,8 +1,8 @@
 ---
 title: Результаты объединения с устаревшей версией
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Чтобы приступить к объединению устаревшего развертывания с помощью Skype для бизнеса Server, нажмите кнопку Далее. Дополнительные сведения о работе с мастером объединения построителя топологий см. в разделе Merge Using Topology Builder Merge Wizard документации по миграции.
-ms.openlocfilehash: 59aff716a1f5d8d7244492904073b1cc3d72ff8f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку "Далее". Подробные сведения о запуске мастера объединения построитель топологий см. в документации по миграции в мастере объединения с помощью построщика топологий.
+ms.openlocfilehash: f3a7daf233c01fd3afbabdab2778a047807244fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795350"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833419"
 ---
 # <a name="legacy-merge-results"></a>Результаты объединения с устаревшей версией
 
-Чтобы приступить к объединению устаревшего развертывания с помощью Skype для бизнеса Server, нажмите кнопку **Далее**. Дополнительные сведения о работе с мастером объединения построителя топологий см. в разделе [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) документации по миграции.
+Чтобы начать объединение устаревшего развертывания со Skype для бизнеса Server, нажмите кнопку **"Далее".** Подробные сведения о запуске мастера [](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) объединения построитель топологий см. в документации по миграции в мастере объединения с помощью построщика топологий.
 
 

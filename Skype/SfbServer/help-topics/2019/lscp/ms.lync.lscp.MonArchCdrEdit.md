@@ -1,8 +1,8 @@
 ---
-title: Запись сведений о звонке создание нового или изменение существующего
+title: Создание новой или редактирование существующей регистрации вызовов
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 21f31565093c842265d52e8383de8314798e68b4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796398"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833679"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Запись сведений о звонке: создание новой или редактирование существующей
  
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Включение записи сведений о звонках в Skype для бизнеса Server](../../../manage/health-and-monitoring/enable-cdr.md)
+- [Включить регистрацию вызовов в Skype для бизнеса Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Настройка хранения данных CDR в Skype для бизнеса Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Указание хранения данных CDR в Skype для бизнеса Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

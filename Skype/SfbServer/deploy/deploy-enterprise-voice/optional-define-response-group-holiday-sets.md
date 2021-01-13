@@ -1,8 +1,8 @@
 ---
-title: Необязательно Определение групп праздников группы для ответа в Skype для бизнеса
+title: (Необязательно) Определение наборов праздников группы ответа в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Создавайте и изменяйте наборы праздников группы ответа в Skype для бизнеса Server Enterprise Voice.
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Создание или изменение наборов праздников группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767322"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830989"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Необязательно Определение групп праздников группы для ответа в Skype для бизнеса
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Необязательно) Определение наборов праздников группы ответа в Skype для бизнеса
  
-Создавайте и изменяйте наборы праздников группы ответа в Skype для бизнеса Server Enterprise Voice.
+Создание или изменение наборов праздников группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
   
 Параметры праздников служат для определения дней, в которые группа ответа закрыта для использования, а также для определения действия в эти дни. Набор праздников — это коллекция праздников, которая применяется к группе ответа.
   
@@ -31,9 +31,9 @@ ms.locfileid: "41767322"
   
 ### <a name="to-create-a-holiday-set"></a>Чтобы создать набор праздников
 
-1. Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1. Войдите в качестве члена группы RTCUniversalServerAdmins или одной из предопределяемых административных ролей, которые поддерживают группу ответа.
     
-2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
 3. Для каждого праздника, который следует определить, выполните следующую команду:
     
@@ -57,8 +57,8 @@ ms.locfileid: "41767322"
 
 ## <a name="see-also"></a>См. также
 
-[Разработка и создание рабочих процессов групп ответа в Skype для бизнеса](designing-and-creating-response-group-workflows.md)
+[Проектирование и создание рабочих процессов группы ответа в Skype для бизнеса](designing-and-creating-response-group-workflows.md)
 
-[New-Ксргшолидай](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

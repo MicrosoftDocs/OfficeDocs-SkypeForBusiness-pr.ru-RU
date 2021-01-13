@@ -1,8 +1,8 @@
 ---
-title: Необязательно Определение группы ответа "Часы" в Skype для бизнеса
+title: (Необязательно) Определение часов работы группы ответа в Skype для бизнеса
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Создавайте и изменяйте рабочие часы группы ответа в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: f6a7d6bb8154d3113282a603ab39b45cf92d5556
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Создание или изменение рабочих часов группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767302"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830999"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Необязательно Определение группы ответа "Часы" в Skype для бизнеса 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Необязательно) Определение часов работы группы ответа в Skype для бизнеса 
  
-Создавайте и изменяйте рабочие часы группы ответа в Skype для бизнеса Server Enterprise.
+Создание или изменение рабочих часов группы ответа в Skype для бизнеса Server Корпоративная голосовая связь.
   
 ## <a name="defining-business-hours"></a>Определение рабочих часов
 
 Настройки рабочих часов определяют, когда рабочий процесс доступен для ответа на вызовы, и задают процессы обработки вызовов, поступающих в нерабочее время. Администраторы группы ответа могут использовать командлет **New-CsRgsHoursOfBusiness** для создания предварительно заданных расписаний, которые можно использовать для любого количества групп ответа.
   
 > [!TIP]
-> При создании или изменении рабочего процесса можно задать настраиваемое расписание, которое будет применяться только к этому рабочему процессу. Подробные сведения можно найти [в разделе Создание и создание рабочих процессов групп ответа в Skype для бизнеса](designing-and-creating-response-group-workflows.md). 
+> При создании или изменении рабочего процесса можно указать настраиваемый график, который применяется только к этому рабочего процесса. For details, see [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Если рабочий процесс был определен как управляемый, все пользователи, которым назначена роль CsResponseGroupManager, могут задавать и изменять рабочие часы для управляемых ими рабочих процессов. 
@@ -39,9 +39,9 @@ ms.locfileid: "41767302"
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>Создание предварительно определенной коллекции рабочих часов
 
-1. Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1. Войдите в качестве члена группы RTCUniversalServerAdmins или одной из предопределяемых административных ролей, которые поддерживают группу ответа.
     
-2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+2. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
 3. Для каждого уникального определяемого диапазона рабочих часов выполните команду:
     
