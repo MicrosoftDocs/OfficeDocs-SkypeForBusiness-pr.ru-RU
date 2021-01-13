@@ -1,8 +1,8 @@
 ---
-title: Таблица Servers
+title: Таблица "Серверы"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
-description: Таблица Servers — это вспомогательная таблица, в которой хранятся сведения о различных серверах. Каждая запись в таблице представляет один сервер.
-ms.openlocfilehash: e2e2c86e96f7f929a218a5efa86100d3c383e339
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица "Серверы" является вспомогательной таблицей, в которую хранится информация о различных серверах. Каждая запись в таблице представляет один сервер.
+ms.openlocfilehash: acbc929c1c47ebf86e1b58f4c008f4351de35496
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814927"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809949"
 ---
 # <a name="servers-table"></a>Таблица Servers
  
-Таблица Servers — это вспомогательная таблица, в которой хранятся сведения о различных серверах. Каждая запись в таблице представляет один сервер.
+Таблица "Серверы" является вспомогательной таблицей, в которую хранится информация о различных серверах. Каждая запись в таблице представляет один сервер.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**серверид** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот сервер.  <br/> |
-|**серверфкдн** <br/> |nvarchar(256)  <br/> | <br/> |Полное доменное имя сервера.  <br/> |
+|**ServerId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот сервер.  <br/> |
+|**ServerFQDN** <br/> |nvarchar(256)  <br/> | <br/> |FQDN сервера.  <br/> |
    
 

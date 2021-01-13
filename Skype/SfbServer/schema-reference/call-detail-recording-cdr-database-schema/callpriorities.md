@@ -1,8 +1,8 @@
 ---
-title: Таблица Каллприоритиес в Skype для бизнеса Server 2015
+title: Таблица CallPriorities в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-description: Таблица Каллприоритиес — это статическая таблица, в которой хранится список возможных приоритетов звонков, например "экстренная", "срочно" или "Обычная".
-ms.openlocfilehash: 57ab4c2b190b14d26a7f8be1791eb70473f1eb3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица CallPriorities — это статическая таблица, в которую хранится список возможных приоритетов вызовов, таких как "экстренный", "срочный" или "обычный".
+ms.openlocfilehash: 54fdd70dcd939cfeb227862d6152577c4c91d3b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815447"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813439"
 ---
-# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Таблица Каллприоритиес в Skype для бизнеса Server 2015
+# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Таблица CallPriorities в Skype для бизнеса Server 2015
  
-Таблица Каллприоритиес — это статическая таблица, в которой хранится список возможных приоритетов звонков, например "экстренная", "срочно" или "Обычная".
+Таблица CallPriorities — это статическая таблица, в которую хранится список возможных приоритетов вызовов, таких как "экстренный", "срочный" или "обычный".
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**приоритид** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Priority** <br/> |nvarchar(256)  <br/> || Допустимые значения: <br/>  0 — неизвестно <br/>  1-срочный <br/>  2-обычный <br/>  3-Срочный <br/>  4-экстренная ситуация <br/> |
+|**PriorityId** <br/> |tinyint  <br/> |Primary  <br/> ||
+|**Priority** <br/> |nvarchar(256)  <br/> || Допустимые значения: <br/>  0 — неизвестно <br/>  1 — несрочные <br/>  2 — обычный <br/>  3 — срочный <br/>  4 — экстренный <br/> |
    
 

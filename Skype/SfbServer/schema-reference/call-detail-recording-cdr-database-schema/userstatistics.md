@@ -1,8 +1,8 @@
 ---
-title: Таблица Усерстатистикс
+title: Таблица UserStatistics
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: Таблица Усерстатистикс является вспомогательной таблицей. Каждая запись в таблице содержит сведения об использовании системы конкретным пользователем. Эта таблица введена в Microsoft Lync Server 2013.
-ms.openlocfilehash: 048c26279deb6f89e69784d754567dfde84d9983
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица UserStatistics предназначена для поддержки. В каждой записи таблицы хранится информация об использовании системы отдельным пользователем. Эта таблица была представлена в Microsoft Lync Server 2013.
+ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814797"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813109"
 ---
-# <a name="userstatistics-table"></a>Таблица Усерстатистикс
+# <a name="userstatistics-table"></a>Таблица UserStatistics
  
-Таблица Усерстатистикс является вспомогательной таблицей. Каждая запись в таблице содержит сведения об использовании системы конкретным пользователем. Эта таблица введена в Microsoft Lync Server 2013.
+Таблица UserStatistics предназначена для поддержки. В каждой записи таблицы хранится информация об использовании системы отдельным пользователем. Эта таблица была представлена в Microsoft Lync Server 2013.
   
-|**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
+|**Столбец**|**Тип данных**|**Ключ/индекс**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Идентификатора пользователя** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этого пользователя.  <br/> |
-|**ластлогинтиме** <br/> |datetime  <br/> ||Время последнего входа пользователя в систему.  <br/> |
-|**ластконфорганизедтиме** <br/> |datetime  <br/> ||Последний раз, когда пользователь организует конференцию.  <br/> |
-|**ласткаллорганизеркаллфаилуретиме** <br/> |datetime  <br/> ||Последнее время, когда пользователь попытался вызвать сбой звонка.  <br/> |
-|**ластконфорганизеркаллфаилуретиме** <br/> |datetime  <br/> ||Последний раз, когда пользователь попытался вызвать сбой в организаторе конференц-связи.  <br/> |
+|**UserId** <br/> |int  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий данного пользователя.  <br/> |
+|**LastLogInTime** <br/> |datetime  <br/> ||Время последнего входа пользователя в систему.  <br/> |
+|**LastConfOrganizedTime** <br/> |datetime  <br/> ||Время последней конференции, организованной пользователем.  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||Время последнего сбоя вызова пользователя.  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||Время последнего сбоя вызова, когда организатором конференции был данный пользователь.  <br/> |
    
 

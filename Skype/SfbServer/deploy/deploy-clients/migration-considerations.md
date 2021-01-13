@@ -1,7 +1,7 @@
 ---
-title: Рекомендации по перемещению системы комнат Skype
-ms.author: v-lanac
-author: lanachin
+title: Вопросы миграции системы комнат Skype
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,54 +11,54 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: В этой статье рассказывается, как развернуть систему комнат Skype в среде с несколькими версиями Skype для бизнеса Server и Lync Server.
-ms.openlocfilehash: a4856977931d459fba3b11a65b21e49a25cc418b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: В этом разделе вы узнаете, как развернуть систему комнат Skype в среде с несколькими версиями Skype для бизнеса Server и Lync Server.
+ms.openlocfilehash: 30b2a4733ea2e2e42b8a879914a2e0e3c4903c8e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768842"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805789"
 ---
-# <a name="skype-room-system-migration-considerations"></a>Рекомендации по перемещению системы комнат Skype
+# <a name="skype-room-system-migration-considerations"></a>Вопросы миграции системы комнат Skype
  
-В этой статье рассказывается, как развернуть систему комнат Skype в среде с несколькими версиями Skype для бизнеса Server и Lync Server.
+В этом разделе вы узнаете, как развернуть систему комнат Skype в среде с несколькими версиями Skype для бизнеса Server и Lync Server.
   
-## <a name="migration-considerations"></a>Рекомендации по перемещению
+## <a name="migration-considerations"></a>Сведения о выполнении миграции
 
-В этом разделе приведены рекомендации по развертыванию системы комнат Skype в среде с несколькими пулами, включающей различные версии Skype для бизнеса Server или Lync Server. 
+В этом разделе содержатся рекомендации по развертыванию системы комнат Skype в среде с несколькими пулами, которая включает различные версии Skype для бизнеса Server или Lync Server. 
   
-The User Replicator (UR) component in Lync Server gets user objects from Active Directory and places them into the Lync Server back-end SQL Server database. Только UR в Lync Server 2013 знают об объектах системы комнаты Skype. The UR in previous versions of Lync Server and Office Communications Server do not detect the Active Directory attributes that designate LRS objects, and therefore was not aware of them. 
+Компонент репликатора пользовательских данных (UR) в Lync Server получает объекты пользователей из Active Directory и помещает их в серверную SQL Server Lync Server. Только URL-адрес в Lync Server 2013 знает об объектах системы комнат Skype. URL-адрес в предыдущих версиях Lync Server и Office Communications Server не определяет атрибуты Active Directory, которые обозначают объекты LRS, и поэтому не знает о них. 
   
-Если при попытке входа в приложение Lync с помощью учетной записи в комнате Skype выполняется автоматическое обнаружение на основе записи SRV или DNS A, а если эти учетные записи указывают на предыдущую версию Lync Server или Office Communications Server, ЛРС получит 404  пул устаревших. Пул из старого пула не сможет перенаправлять систему комнат Skype на свой пул Lync Server 2013 Home. 
+If a Skype Room System account tries to sign in to Lync , and performs auto discovery based on SRV record or DNS A record look up, and if those accounts point to a previous version of Lync Server or Office Communications Server, LRS will receive a 404 Not Found response from the legacy pool. Устаревший пул не сможет перенаправлять систему комнат Skype в домашний пул Lync Server 2013. 
   
-Эту проблему можно решить следующими способами: 
+Эту проблему можно решить с помощью следующих вариантов: 
   
-- Сделайте так, чтобы запись SRV с автоматическим обнаружением (_sipinternaltls._tcp.contoso.com) указывала на пул Lync Server 2013.
+- Указать запись SRV автообнаружена (_sipinternaltls._tcp.contoso.com) на пул Lync Server 2013.
     
-- Если первый вариант невозможен, вы должны вручную настроить ЛРС и предоставить адрес пула Lync Server 2013, настроив его непосредственно в консольном приложении системы комнат Skype. 
+- Если первый вариант невозможен, необходимо вручную настроить LRS и предоставить адрес пула Lync Server 2013, непосредственно настроив его в консольном приложении системы комнат Skype. 
     
-- Если система комнат Skype развернута за пределами корпоративной сети, а граничный сервер Lync развернут и настроен на указание устаревшего пула или режиссера, требуется сайт дополнительного пограничного сервера, который указывает на пул Lync Server 2013. Refer to the Edge Server deployment documentation for more information about deploying a secondary Edge Server. 
+- Если система комнат Skype развернута за пределами корпоративной сети, а Lync Edge Server развернут и настроен так, чтобы он указывает на устаревший пул или директор, требуется дополнительный сайт edge Server, который указывает на пул Lync Server 2013. Дополнительные сведения о развертывании дополнительного сервера можно найти в документации по развертыванию edge Server. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Взаимодействие системы комнаты Skype с использованием пула Lync Server 2010
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Room System Interoperability with a Lync Server 2010 Pool
 
-Если пользователь, размещенный на сервере Lync Server 2010, планирует собрание и приглашает учетную запись системы комнаты для помещения в Skype, то при участии в собрании клиентская система комнаты Skype будет работать с ограниченными возможностями. 
+Если во время миграции пользователь, который находится в пуле Lync Server 2010, запланировать собрание и пригласить учетную запись системы комнат Skype, клиент системы комнат Skype будет иметь ограниченную функциональность при посещении собрания. 
   
-Когда клиент системы комнаты Skype присоединяется к запланированным звонкам, которые упорядочены пользователем, настроенным на Lync Server 2010, в системе комнат Skype предусмотрены следующие ограничения для собраний. 
+When the Skype Room System client joins a scheduled conference call that has been organized by a user homed on Lync Server 2010, Skype Room System has the following in-meeting limitations: 
   
-- Система комнат Skype не может показать коллекцию видео с несколькими представлениями.
+- Система комнат Skype не может показывать видеогалерею с несколькими представлениями.
     
-- Если в качестве выступающего есть клиент системы комнаты Skype, он не сможет применять блокировку видео для участников.
+- Если клиент системы комнат Skype является presenter, он не может применить блокировку видео к участникам.
     
-- Система комнат Skype не может отобразить разрешение 1080p (входящее или исходящее), даже если эта возможность разрешена политикой конференц-связи Lync Server 2013, из-за указанных ниже действий. 
+- Система комнат Skype не может показывать разрешение видео 1080p (входящие и исходящие), даже если это разрешает политика Lync Server 2013, так как это возможно из-за следующих проблем: 
     
   - Lync Server 2010 не поддерживает разрешение 1080p.
     
-  - Система комнат Skype всегда ограничивается политикой конференц-связи организатора для разрешения видеосигнала. Таким образом, даже если пул Lync 2010 поддерживает разрешение 720p, система комнат Skype не сможет использовать преимущества разрешения 720p, так как она не поддерживается политикой организатора. 
+  - Система комнат Skype всегда ограничена политикой конференций организатора для разрешения видео. Поэтому даже если пул Lync 2010 поддерживает разрешение 720p, система комнат Skype не сможет использовать разрешение 720p, если политика организатора не поддерживает его. 
     
-- Клиенты Lync 2013 обнаруживают присутствие LRS в комнате переговоров и автоматически отключают звук для себя, чтобы избежать возникновения эха в физической комнате переговоров. Эта функция не работает в собраниях, размещенных в системе Lync Server 2010.
+- Клиенты Lync 2013 обнаруживают присутствие LRS в комнате для собраний и автоматически от звука, чтобы избежать эха в физической комнате для собраний. Эта функция не работает на собраниях, размещенных в Lync Server 2010.
     
-- Для собраний, размещенных в системе Lync Server 2010, имеются ограничения по совместному использованию рабочего стола.
+- Существуют ограничения на производительность общего доступа к рабочему столу для собраний, которые находятся в Lync Server 2010.
     
-- Пользователи не смогут присоединиться к частным (ограниченным) собраниям, размещенным в Lync 2010, в системе комнат Skype.
+- Пользователи не смогут присоединяться к частным (ограниченным) собраниям, которые будут проводиться в Lync 2010 с помощью системы комнат Skype.
     
 

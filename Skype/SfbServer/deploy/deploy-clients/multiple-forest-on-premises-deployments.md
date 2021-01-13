@@ -1,7 +1,7 @@
 ---
-title: Развертывание нескольких локальных лесов для системы комнат Skype
-ms.author: v-lanac
-author: lanachin
+title: Локальное развертывание системы комнат Skype с несколькими лесами
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
-description: В этом разделе описывается развертывание системы комнат Skype в локальной среде с несколькими лесами.
-ms.openlocfilehash: ac9a5edac94d182812aefaf9eb817765c7af6444
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: В этом разделе вы узнаете, как развернуть систему комнат Skype в локальной среде с несколькими лесами.
+ms.openlocfilehash: 168244033a681b9aa9dc6e4c9697b7e3c7e89127
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768822"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805749"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Развертывание нескольких локальных лесов для системы комнат Skype
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Локальное развертывание системы комнат Skype с несколькими лесами
  
-В этом разделе описывается развертывание системы комнат Skype в локальной среде с несколькими лесами.
+В этом разделе вы узнаете, как развернуть систему комнат Skype в локальной среде с несколькими лесами.
   
 > [!NOTE]
-> Для развертывания в нескольких лесах для системы комнат Skype требуется Exchange Server 2013 CU6 выпущены 26 августа 2014 г. Старайтесь не использовать существующий почтовый ящик для системы комнат Skype. Использование нового почтового ящика ресурсов (удаление старого почтового ящика и повторного создания) для системы комнат Skype. Чтобы восстановить собрания из-за удаления почтового ящика, обратитесь к разделу [подключение или восстановление удаленного почтового ящика](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+> Для развертывания в нескольких лесах системе комнат Skype требуется Exchange Server 2013 CU6, выпущенный 26 августа 2014 г. Избегайте повторного использования существующего почтового ящика для системы комнат Skype. Используйте новый (удалить старый почтовый ящик и повторно создать) почтовый ящик ресурса для системы комнат Skype. Чтобы восстановить собрания, потерянные при удалении почтового ящика, см. в подключении или [восстановлении удаленного почтового ящика.](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx) 
   
-After creating the mailbox, you can use Set-CalendarProcessing to configure the mailbox. Refer to steps 3 through 6 under Single forest on-premises deployments for more details. После создания почтового ящика ресурсов Exchange для системы комнат Skype включите учетную запись Skype для бизнеса, выполнив действия, описанные в статье Включение системных учетных записей Skype для бизнеса в рамках локальных развертываний с одним лесом.
+После создания почтового ящика можно использовать Set-CalendarProcessing для настройки почтового ящика. Дополнительные сведения можно найти в шагах с 3 по 6 в рамках локального развертывания с одним лесом. After creating an Exchange Resource mailbox for Skype Room System, enable the account for Skype for Business by following the steps in Enabling Skype Room System Accounts for Skype for Business under Single forest on-premises deployments.
   
-## <a name="option-1-create-a-new-resource-mailbox"></a>Вариант 1. Создание нового почтового ящика ресурсов
+## <a name="option-1-create-a-new-resource-mailbox"></a>Вариант 1. Создание нового почтового ящика ресурса
 
-Чтобы развернуть систему комнат Skype в среде с несколькими лесами:
+Развертывание системы комнат Skype в среде с несколькими лесами
   
-1. Создайте связанного пользователя (LinkedRoomTest) в Active Directory (Authentication Forest).
+1. Создание связанного пользователя (LinkedRoomTest) в Active Directory (лес проверки подлинности).
     
-2. Выполните следующие команды в командной консоли Exchange Server:
+2. В командной Exchange Server командной Exchange Server следующие команды:
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Вариант 2: изменение почтового ящика помещения на почтовый ящик системы комнаты Skype (связанный)
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Вариант 2. Изменение существующего почтового ящика помещения на почтовый ящик системы комнат Skype (связанный)
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

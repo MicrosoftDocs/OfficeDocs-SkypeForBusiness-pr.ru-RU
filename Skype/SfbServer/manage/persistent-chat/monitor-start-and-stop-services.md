@@ -1,8 +1,8 @@
 ---
-title: Мониторинг, запуск и остановка служб сохраняемого чата в Skype для бизнеса Server 2015
+title: Мониторинг, запуск и остановка служб сохраняемой беседы в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
-description: 'Сводка: сведения о запуске, остановке и мониторинге служб сохраняемого чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 846d7376e1a3e9bd06ae74c20ee0812c8c78bbeb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Узнайте, как запускать, останавливать и отслеживать службы сохраняемой беседы в Skype для бизнеса Server 2015.
+ms.openlocfilehash: 31285fe5f7eefaa6579f2891a4b29111324de22d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817478"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814139"
 ---
-# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Мониторинг, запуск и остановка служб сохраняемого чата в Skype для бизнеса Server 2015
+# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Мониторинг, запуск и остановка служб сохраняемой беседы в Skype для бизнеса Server 2015
  
-**Сводка:** Инструкции по запуску, остановке и мониторингу служб сохраняемого чата в Skype для бизнеса Server 2015.
+**Сводка:** Узнайте, как запускать, останавливать и отслеживать службы сохраняемой беседы в Skype для бизнеса Server 2015.
   
-Службы постоянной видеосвязи и проверки соответствия требованиям в чате входят в топологию сервера Skype для бизнеса и поэтому могут быть отслеживаемы, остановлены и запущены с помощью следующих командлетов:
+Службы сохраняемого чата и службы соответствия сохраняемого чата являются частью топологии Skype для бизнеса Server и поэтому могут отслеживаться, остановлены и запущены с помощью следующих cmdlets:
   
 |||
 |:-----|:-----|
-|get-CsWindowsService  <br/> |Возвращает подробные сведения о компонентах Skype для бизнеса Server 2015, которые выполняются в качестве служб Windows.  <br/> |
-|start-CsWindowsService  <br/> |Запуск службы.  <br/> |
-|stop-CsWindowsService  <br/> |Остановка службы.  <br/> |
+|get-CsWindowsService  <br/> |Возвращает подробные сведения о компонентах Skype для бизнеса Server 2015, которые работают как службы Windows.  <br/> |
+|start-CsWindowsService  <br/> |Запускает службу.  <br/> |
+|stop-CsWindowsService  <br/> |Останавливает службу.  <br/> |
    
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
+> Сохраняемая беседа доступна в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения [см. в сведениях о том,](/microsoftteams/upgrade-start-here)как начать обновление Microsoft Teams. Если необходимо использовать сохраняемого чата, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить использование Skype для бизнеса Server 2015. 
 
-Подробные сведения об использовании командлетов см. в разделе [Skype for Business Server 2015 Management Shell](../management-shell.md).
+Подробные сведения об использовании этих cmdlets см. в описании [skype для бизнеса Server 2015 Management Shell.](../management-shell.md)
   
 

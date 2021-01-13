@@ -1,8 +1,8 @@
 ---
-title: Добавление политики расположения на сайт сети в Skype для бизнеса Server
+title: Добавление политики расположения на сетевой сайт в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Назначьте политики местоположения E9-1-1 на сайты сети в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: ef6395b2239256abce82612b4863a667ce3b27ab
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Назначьте политики расположения E9-1-1 сетевым сайтам в Skype для бизнеса Server Корпоративная голосовая связь.
+ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768282"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804279"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Добавление политики расположения на сайт сети в Skype для бизнеса Server
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Добавление политики расположения на сетевой сайт в Skype для бизнеса Server
  
-Назначьте политики местоположения E9-1-1 на сайты сети в Skype для бизнеса Server Enterprise. 
+Назначьте политики расположения E9-1-1 сетевым сайтам в Skype для бизнеса Server Корпоративная голосовая связь. 
   
-В следующих примерах показано, как добавить политику расположения в **Редмонде** , определенную в разделе [Создание политик местоположений в Skype для бизнеса Server](create-location-policies.md) , на существующий сайт сети и как создать новый сайт сети, использующий политику расположения в **Редмонде** .
+В следующих примерах покажем, как добавить политику расположения **Redmond,** задаемую в области "Создание политик расположения" в Skype для бизнеса [Server,](create-location-policies.md) к существующему сетевому сайту и создать новый сетевой сайт, использующий политику расположения **Redmond.**
   
-Дополнительные сведения о работе с сетевыми сайтами можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
+Подробные сведения о работе с сетевыми сайтами см. в документации по Lync Server Management Shell для следующих cmdlets:
   
 - **New-CsNetworkSite**
     
@@ -41,11 +41,11 @@ ms.locfileid: "41768282"
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Назначение политики местоположения существующему сетевому узлу
 
-1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
 2. Выполните следующие командлеты для изменения существующего сетевого узла.
     
-    Назначьте политику расположения с меткой **Redmond** существующему сетевому сайту с именем **Redmond**.
+    Назначьте политику расположения с тегами **Redmond** существующему сетевому сайту **с именем Redmond.**
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,11 +53,11 @@ ms.locfileid: "41768282"
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Назначение политики местоположения новому сетевому узлу
 
-1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
+1. Запустите оболочку управления Skype для бизнеса Server: нажмите кнопку "Начните", выберите "Все программы", "Skype для бизнеса **2015",** а затем щелкните "Skype для бизнеса Server Management **Shell".**
     
 2. Выполните следующий командлет для создания нового сетевого узла.
     
-    Создайте новый сетевой сайт в области сети и назначьте ему политику расположения с меткой **Redmond**.
+    Создайте новый сетевой узел в области сети и назначьте ему политику местоположения с меткой **Redmond**.
     
    ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"

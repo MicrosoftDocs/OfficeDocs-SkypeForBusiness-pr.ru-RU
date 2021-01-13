@@ -1,8 +1,8 @@
 ---
 title: Настройка установки клиента Windows в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
-description: 'Сводка: обзор способов установки и средств для Skype для бизнеса.'
-ms.openlocfilehash: ea8a07bf6a6e00eee93f2a0a8b3ffc756b239ce9
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Сводка. Обзор методов установки и средств для Skype для бизнеса.
+ms.openlocfilehash: 001224369e46978e96ee063b31fcb546ef213a05
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220839"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805719"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Настройка установки клиента Windows в Skype для бизнеса Server
  
-**Сводка:** Общие сведения о методах и средствах установки Skype для бизнеса.
+**Сводка:** Обзор методов установки и средств для Skype для бизнеса.
   
 > [!NOTE]
-> Сведения об установке Skype для бизнеса, поставляемые с Microsoft 365 и Office 365, приведены [в статье Развертывание клиента Skype для бизнеса в microsoft 365 или office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
+> Сведения об установке Skype для бизнеса, которая поставляется вместе с Microsoft 365 и Office 365, см. в сведениях о развертывании клиента Skype для бизнеса в [Microsoft 365 или Office 365.](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96) 
   
-Администраторы предприятия могут настроить установку на основе установщика Windows (MSI) версии Skype для бизнеса с корпоративной лицензией с помощью методов, описанных в этом разделе. Так как ни одно средство не предоставляет все параметры настройки, скорее всего, вы будете использовать сочетание этих методов в развертывании Skype для бизнеса. Вы можете использовать средства, описанные в следующих разделах:
+Администраторы предприятия могут настраивать установку версий Skype для бизнеса с корпоративной лицензией на основе установщика Windows (MSI), используя методы, рассмотренные в этом разделе. Так как ни одно средство не предоставляет все параметры настройки, скорее всего, вы будете использовать сочетание этих методов в развертывании Skype для бизнеса. Можно использовать средства, описанные в следующих разделах:
   
-- С [помощью центра развертывания Office (OCT) в Skype для бизнеса Server](use-the-office-customization-tool-oct.md) можно настроить параметры установки и функции Skype для бизнеса и других программ Office.
+- [Use the Office Customization Tool (OCT) in Skype for Business Server](use-the-office-customization-tool-oct.md) to customize setup options and features for Skype for Business and other Office programs.
     
-- [Используйте файл config. XML для выполнения задач установки в Skype для бизнеса Server](use-config-xml-to-perform-installation-tasks.md) , чтобы указать путь к точке сетевой установки и выполнить автоматическую установку.
+- [Используйте Config.xml для выполнения](use-config-xml-to-perform-installation-tasks.md) задач установки в Skype для бизнеса Server, чтобы указать путь к точке сетевой установки и выполнить установку в тихом режиме.
     
-- [Используйте параметры командной строки программы установки в Skype для бизнеса Server](use-setup-command-line-options.md) , чтобы указать файл config. XML для использования во время установки.
+- [Используйте параметры командной строки](use-setup-command-line-options.md) программы установки в Skype для бизнеса Server, чтобы указать Config.xml для использования во время установки.
     
-- [Настройте политики начальной загрузки клиентов в Skype для бизнеса Server](configure-client-bootstrapping-policies.md) с помощью оснастки MMC редактора объектов групповой политики.
+- [Настройте политики загрузки](configure-client-bootstrapping-policies.md) клиентов в Skype для бизнеса Server с помощью оснастки редактора объектов групповой политики MMC.
     
-Скорее всего, будут доступны другие варианты, которые необходимо настроить при развертывании набора продуктов Office. В подразделах этого раздела приводится обзор этих средств настройки и рассматриваются вопросы, связанные с Skype для бизнеса. Здесь предоставляются ссылки на подробную справку Office по каждому средству. 
+Возможно, при развертывании набора продуктов Office вам придется настроить другие параметры. В темах этого раздела приводится обзор этих средств настройки и рассматриваются вопросы, связанные со Skype для бизнеса. Здесь предоставляются ссылки на подробную справку Office по каждому средству. 
   
 

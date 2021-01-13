@@ -1,8 +1,8 @@
 ---
-title: Развертывание пограничного сервера в Skype для бизнеса Server
+title: Развертывание сервера Edge Server в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,38 +14,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: 'Сводка: сведения о развертывании пограничного сервера или пограничного пула в среде Skype для бизнеса Server.'
-ms.openlocfilehash: ca0fba35165c05ab9cdf6010c3c5dd076ec1ea5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Сводка. Узнайте, как развернуть в среде Skype для бизнеса Server edge server или пул.
+ms.openlocfilehash: edd2ff501320c4252b8032d1528ede7b83b8fcd6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768322"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804389"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание пограничного сервера в Skype для бизнеса Server
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание сервера Edge Server в Skype для бизнеса Server
  
-**Сводка:** Сведения о развертывании пограничного сервера или пограничного пула в среде Skype для бизнеса Server.
+**Сводка:** Learn how to deploy an Edge Server or an Edge pool into your Skype for Business Server environment.
   
-Зачем развертывать пограничный сервер или пограничный пул в среду Skype для бизнеса Server? Это необходимо, если вам понадобятся внешние пользователи, которые не вошли в внутреннюю сеть Организации, чтобы обеспечить взаимодействие с внутренними пользователями. Такие внешние пользователи могут быть аутентифицированными и анонимными удаленными пользователями, федеративными партнерами или другими мобильными клиентами.
+Зачем развертывать в среде Skype для бизнеса Server edge Server или пул? Это необходимо, если внешние пользователи, которые не вошли во внутреннюю сеть организации, должны иметь возможность взаимодействовать с внутренними пользователями. Эти внешние пользователи могут быть аутентификацией и анонимными удаленными пользователями, федератерными партнерами или другими мобильными клиентами.
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Контрольный список развертывания для пограничного сервера в Skype для бизнеса Server
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Контрольный список развертывания для edge для Skype для бизнеса Server
 
-Как отмечалось выше, в приложении пограничного сервера в среде Skype для бизнеса Server осуществляется переход на пограничный сервер. Этот контрольный список содержит общие сведения о задачах, которые необходимо выполнить, и ссылки на подробные инструкции.
+Как уже было отмечено выше, в развертывании edge Server для Skype для бизнеса Server многое происходит. Этот контрольный список предоставляет обзор задач, которые необходимо выполнить, и ссылки на более подробные инструкции.
   
-Надеемся, что вы начали [планировать развертывание пограничного сервера в разделе Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . В противном случае многие из вещей, на которые мы будем ссылаться, подробно описаны здесь. Раздел Развертывание содержит только процедуры, поэтому если вы хотите узнать, какие действия выполняются за этими инструкциями, планирование — это место для начала.
+Мы надеемся, что вы начали работу в разделе "Планирование развертывания edge [Server в Skype для бизнеса Server".](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) В этом случае многие из ссылок на них подробно описаны. Раздел развертывания содержит только процедуры, поэтому, если вы хотите узнать причину этих действий, необходимо начать планирование.
   
-В этой документации также предполагается, что вы уже завершили простое развертывание Skype для бизнеса Server. Вы можете выполнить это развертывание параллельно с ребром, но вам потребуется сначала выполнить эти действия, и тогда вы сможете внести изменения в топологию за границу, описанную здесь.
+В этой документации также предполагается, что базовое развертывание Skype для бизнеса Server уже завершено. Возможно, вы будете выполнять это развертывание рядом с edge, но сначала вам потребуется выполнять эти действия, а затем вы сможете внести изменения в топологию для edge, которые описаны здесь.
   
-Далее перечислены ссылки на описание высокоуровных действий, которые необходимо выполнить:
+Ниже следуют высокоуровневые шаги, которые необходимо выполнять, и места, где вы найдете эти действия:
   
-- [Требования к системе пограничного сервера в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Требования к системе для сервера Edge Server в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Требования к среде пограничных серверов в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Требования к среде для edge Server в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Создание топологии Edge для Skype для бизнеса Server](create-your-edge-topology.md)
+- [Создание топологии edge для Skype для бизнеса Server](create-your-edge-topology.md)
     
-- [Развертывание пограничных серверов в Skype для бизнеса Server](deploy-edge-servers.md)
+- [Развертывание серверов в Skype для бизнеса Server](deploy-edge-servers.md)
     
-- [Проверка пограничного развертывания в Skype для бизнеса Server](validate-edge-deployment.md)
+- [Проверка развертывания edge в Skype для бизнеса Server](validate-edge-deployment.md)
     
 
