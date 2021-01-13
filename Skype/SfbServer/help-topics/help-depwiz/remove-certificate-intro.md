@@ -1,8 +1,8 @@
 ---
 title: Удаление сертификата (введение)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
-description: На странице "Удаление сертификата" ознакомьтесь со сведениями о последствиях удаления сертификата. После прочтения этих данных нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: 8f0c334198a723cb333287fd421e11cf907da432
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: На начальной странице задачи Удаление сертификата внимательно прочитайте информацию о последствиях удаления сертификата. Затем нажмите кнопку Далее, чтобы продолжить.
+ms.openlocfilehash: 1c62971c765593c630eda0f38239a0fdd35049f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823433"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829739"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="8a6c1-104">Удаление сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="8a6c1-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="ba617-104">Удаление сертификата (введение)</span><span class="sxs-lookup"><span data-stu-id="ba617-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="8a6c1-105">На странице " **Удаление сертификата** " ознакомьтесь со сведениями о последствиях удаления сертификата.</span><span class="sxs-lookup"><span data-stu-id="8a6c1-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="8a6c1-106">После прочтения этих данных нажмите кнопку **Далее** , чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="8a6c1-106">After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="ba617-p102">На начальной странице задачи **Удаление сертификата** внимательно прочитайте информацию о последствиях удаления сертификата. Затем нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="ba617-p102">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.</span></span>
   
 
