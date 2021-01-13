@@ -1,8 +1,8 @@
 ---
 title: tblAdminLock
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
-description: Тбладминлокк содержит блокировку администратора, которая необходима для выполнения некоторых команд администратора.
-ms.openlocfilehash: cb3a03fa7404004df37da2adf07eff1e37ff334f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblAdminLock содержит блокировку администратора, необходимую для запуска некоторых команд администратора.
+ms.openlocfilehash: aed7720a9b74483a34704c0009958ea91a786fc1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814697"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809889"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  
-Тбладминлокк содержит блокировку администратора, которая необходима для выполнения некоторых команд администратора.
+tblAdminLock содержит блокировку администратора, необходимую для запуска некоторых команд администратора.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|локкекспирестиме  <br/> |DateTime, NOT NULL  <br/> |Заблокируйте дату и время окончания срока действия. Владелец может периодически увеличивать это значение.  <br/> |
-|локксерверид  <br/> |int, NOT NULL  <br/> |Идентификатор сервера, владеющего блокировкой.  <br/> |
-|локкакторид  <br/> |int, NOT NULL  <br/> |Идентификатор участника, владеющего блокировкой.  <br/> |
+|lockExpiresTime  <br/> |datetime, не null  <br/> |Дата и время истечения срока блокировки. Владелец может периодически продлевать этот срок.  <br/> |
+|lockServerID  <br/> |int, не null  <br/> |Идентификатора сервера, которому принадлежит блокировка.  <br/> |
+|lockActorID  <br/> |int, не null  <br/> |Идентификатора участника, которому принадлежит блокировка.  <br/> |
    
 

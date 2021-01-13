@@ -1,8 +1,8 @@
 ---
 title: Добавление сведений о среде филиала
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
-description: Для задания сведений о сайте выполните следующие действия.
-ms.openlocfilehash: 33e593a763a1bd9095bee7cbb2b0dce6e83a908c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Чтобы указать сведения о сайте, сделайте следующее:'
+ms.openlocfilehash: 8efb8225e725dbadc3bb6e82f22a6845e58c0c4c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796650"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811939"
 ---
-# <a name="add-branch-site-details"></a>Добавление сведений о среде филиала
+# <a name="add-branch-site-details"></a>Добавление сведений о сайте филиала
 
-Для задания сведений о сайте выполните следующие действия.
+Чтобы указать сведения о сайте, сделайте следующее:
 
 Укажите название города для нового сайта филиала. Значение города не является обязательной записью.
 

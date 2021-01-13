@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: ТблпринЦипалмембердифференце содержит изменения членства в группах (добавленные и удаленные участники), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.
-ms.openlocfilehash: c7e965658c9e351a7a2d079921b7abe8166b48ad
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMemberDifference содержит изменения членства в группах (как добавленных, так и удаленных членов), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.
+ms.openlocfilehash: 8fac76f1abfbd55d13d89c96bb23a6953d38edf9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814077"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809709"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-ТблпринЦипалмембердифференце содержит изменения членства в группах (добавленные и удаленные участники), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.
+tblPrincipalMemberDifference содержит изменения членства в группах (как добавленных, так и удаленных членов), которые еще не были обработаны в последующих шагах синхронизации доменных служб Active Directory.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|прингуид  <br/> |GUID, а не NULL  <br/> |Идентификатор GUID участника измененной группы.  <br/> |
-|мемберадпас  <br/> |nvarchar (256)  <br/> |Отличительное имя участника.  <br/> |
-|мемберремовед  <br/> |bit, NOT NULL  <br/> |Значение false, если элемент был добавлен. Значение true, если элемент удален.  <br/> |
+|prinGuid  <br/> |GUID, не NULL  <br/> |GUID субъекта для измененной группы.  <br/> |
+|memberADPath  <br/> |nvarchar (256)  <br/> |Различающееся имя члена.  <br/> |
+|memberRemoved  <br/> |bit, не NULL  <br/> |False, если член был добавлен. True, если член был удален.  <br/> |
    
-**Ключ**
+**Раздел**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<Прингуид, Мемберадпас\>  <br/> |Первичный ключ.  <br/> |
+|\<prinGuid, memberADPath\>  <br/> |Первичный ключ.  <br/> |
    
 

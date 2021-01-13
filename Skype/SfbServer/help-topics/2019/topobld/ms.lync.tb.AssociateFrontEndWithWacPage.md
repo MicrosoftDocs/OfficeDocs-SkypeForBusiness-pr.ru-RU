@@ -1,8 +1,8 @@
 ---
 title: Страница сопоставления сервера переднего плана с сервером Office Web Apps
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
-ms.openlocfilehash: e13895381c3a3d7962fb55b541239b85357a8921
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Сервер Office Web Apps предоставляет службы, похожие на службы, которые представляют собой отправку документа для использования на собрании, но предоставляют дополнительные функции, которые не были доступны в предыдущих версиях.
+ms.openlocfilehash: 4f48f47f0a895486fb42154955b4bcd06dab64a9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793977"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811359"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a>Страница сопоставления сервера переднего плана с сервером Office Web Apps
+# <a name="associate-front-end-with-office-web-apps-server-page"></a>Страница связывания сервера переднего плана с сервером Office Web Apps
 
-Службы, выполняющиеся на сервере Office Web Apps, позволяют выступающему загрузить документ для демонстрации на собрании; при этом их функциональные возможности расширены по сравнению с предыдущими версиями.
+Сервер Office Web Apps предоставляет службы, похожие на службы, которые выкладывают документы для использования на собрании, но предоставляют дополнительные функции, которые не были доступны в предыдущих версиях.
 
-Вы выбираете сервер Office Web Apps для развертывания, если вы выбрали Конференц-связь в качестве одной из возможностей, описанных в настройках сервера Skype для бизнеса.
+Сервер Office Web Apps для развертывания выбирается, если в качестве одного из вариантов функций конфигурации Skype для бизнеса Server выбрана функция "Conferencing".
 
 Параметры в этом диалоговом окне предоставляют следующие возможности.
 
-1. **Связывание пула с сервером Office Web Apps** . вы выбираете этот флажок, если вы предоставляете и разворачиваете сервер Office Web Apps для пользователей конференц-связи.
+1. **Связывание пула с** сервером Office Web Apps. Этот флаг необходимо использовать, если вы предоставите и развернете сервер Office Web Apps для пользователей, которые будут использовать эту услугу.
 
 2. Если этот флажок установлен, следует использовать список для выбора уже определенного сервера Office Web Apps.
 
-3. Нажмите кнопку **Создать** для определения нового сервера Office Web Apps, относящегося к данному развертыванию.
+3. Щелкните пункт **Создать** для определения нового сервера Office Web Apps для развертывания.
 
 ## <a name="see-also"></a>См. также
 
-[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Публикация сервера приложений Office Web Apps с помощью обратного прокси-сервера](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

@@ -1,8 +1,8 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: Тбленуматтрибуте — это жесткая таблица, которая содержит атрибуты видимости и поведения, которые используются в таблице node.
-ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Жестко запрограммированная таблица tblEnumAttribute содержит атрибуты Visibility и Behavior, которые используются в таблице Node.
+ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814617"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809719"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-Тбленуматтрибуте — это жесткая таблица, которая содержит атрибуты видимости и поведения, которые используются в таблице node.
+Жестко запрограммированная таблица tblEnumAttribute содержит атрибуты Visibility и Behavior, которые используются в таблице Node.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|attributeID  <br/> |smallint, NOT NULL  <br/> |Идентификатор атрибута.  <br/> |
-|attributeName  <br/> |nvarchar (256), NOT NULL  <br/> |Имя атрибута.  <br/> |
+|attributeID  <br/> |smallint, не может быть null  <br/> |Идентификатор атрибута.  <br/> |
+|attributeName  <br/> |nvarchar (256), не может быть null  <br/> |Имя атрибута.  <br/> |
    
-**Ключ**
+**Раздел**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
@@ -41,8 +41,8 @@ ms.locfileid: "41814617"
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |Отображение.  <br/> |
-|2  <br/> |Расширения.  <br/> |
+|1   <br/> |Видимость.  <br/> |
+|2   <br/> |Поведение.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

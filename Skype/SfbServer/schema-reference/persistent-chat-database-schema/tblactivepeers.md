@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.
-ms.openlocfilehash: 4604c13dbff9565748dd59e5917a5c133bd71947
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.
+ms.openlocfilehash: befba4086a78281fbfbec1e270b7c8e3f8174752
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814717"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812939"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-Тблактивепирс включает в себя текущие одноранговые соединения между службами чата.
+Таблица tblActivePeers содержит текущие одноранговые соединения между службами чата.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|аплсерверид  <br/> |int, NOT NULL  <br/> |Идентификатор сервера, на котором размещена запись.  <br/> |
-|аплпирид  <br/> |int, NOT NULL  <br/> |Идентификатор однорангового узла, к которому подключен сервер публикации.  <br/> |
+|aplServerID  <br/> |int, not null  <br/> |ИД сервера, добавившего запись.  <br/> |
+|aplPeerID  <br/> |int, not null  <br/> |ИД узла, к которому подключен сервер, добавивший запись.  <br/> |
    
-**Параметры**
+**Keys**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|\<Аплсерверид, Аплпирид\>  <br/> |Первичный ключ.  <br/> |
-|аплсерверид  <br/> |Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.  <br/> |
-|аплпирид  <br/> |Внешний ключ с подстановкой в таблице Тблсерверидентити. Серверид.  <br/> |
+|\<aplServerID, aplPeerID\>  <br/> |Первичный ключ.  <br/> |
+|aplServerID  <br/> |Внешний ключ с поиском в таблице tblServerIdentity.serverID.  <br/> |
+|aplPeerID  <br/> |Внешний ключ с поиском в таблице tblServerIdentity.serverID.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Список таблиц соответствия требованиям сервера для работы с сохраняемым сервером чата в Skype для бизнеса Server
+title: Список таблиц соответствия для сервера сохраняемого чата в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-description: Схема базы данных соответствия требованиям к сохраненным Чатам состоит из следующих таблиц.
-ms.openlocfilehash: a992f00718d831af1b5a30f08baaf779ea3ee2c1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Схема базы данных соответствия сохраняемого чата состоит из следующих таблиц.
+ms.openlocfilehash: 8fa9c47c2abd28922716cd42c5ff150ddd975393
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814767"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813059"
 ---
-# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Список таблиц соответствия требованиям сервера для работы с сохраняемым сервером чата в Skype для бизнеса Server
+# <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Список таблиц соответствия для сервера сохраняемого чата в Skype для бизнеса Server
  
-Схема базы данных соответствия требованиям к сохраненным Чатам состоит из следующих таблиц.
+Схема базы данных соответствия сохраняемого чата состоит из следующих таблиц.
   
-## <a name="list-of-persistent-chat-server-compliance-tables"></a>Список таблиц соответствия требованиям сервера для работы с постоянной версией чата
+## <a name="list-of-persistent-chat-server-compliance-tables"></a>Список таблиц соблюдения требований для сервера сохраняемого чата
 
-|**Таблица**|**Описание**|
+|**Table**|**Описание**|
 |:-----|:-----|
-|[tblComplianceData](tblcompliancedata.md) <br/> |Содержит события соответствия требованиям, которые еще не были обработаны настроенным адаптером.  <br/> В этой таблице содержатся сохраняемые события, связанные с чат, такие как сообщения чата и загружаемые файлы. (События участников отслеживаются таблицей ТблкомплианцепартиЦипант.)  <br/> (Серверы, обработавшие события в этой таблице, перечислены в таблице Тблкомплианцефанаут).  <br/> |
-|[tblComplianceFanout](tblcompliancefanout.md) <br/> |Содержат серверы, которые обрабатывали событие соответствия требованиям. Эта таблица тесно связана с таблицей Тблкомплианцедата.  <br/> |
-|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Включает в себя текущих участников для каждой службы чата и для каждого сервера. Она поддерживается на основе событий присоединения и частей соответствия, полученных от службы сохраняемого чата.  <br/> |
-|[tblComplianceState](tblcompliancestate.md) <br/> |Сведения о состоянии соответствия требованиям всего пула.  <br/> |
+|[tblComplianceData](tblcompliancedata.md) <br/> |Содержит события соответствия, которые еще не были обработаны настроенным адаптером.  <br/> Эта таблица содержит события, связанные с сохраняемого чата, такие как сообщения чата и загрузка файлов. (События, связанные с участниками, отслеживаются в таблице tblComplianceParticipant.)  <br/> (Серверы, которые обработали события, содержащиеся в этой таблице, приводятся в таблице tblComplianceFanout.)  <br/> |
+|[tblComplianceFanout](tblcompliancefanout.md) <br/> |Содержит серверы, обработавшие события соответствия. Эта таблица тесно связана с таблицей tblComplianceData.  <br/> |
+|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Содержит сведения о текущих участниках по службам чата и серверам. Она поддерживается на основе событий join и part compliance, полученных от службы сохраняемой беседы.  <br/> |
+|[tblComplianceState](tblcompliancestate.md) <br/> |Содержит сведения о состоянии соответствия во всем пуле.  <br/> |
    
 

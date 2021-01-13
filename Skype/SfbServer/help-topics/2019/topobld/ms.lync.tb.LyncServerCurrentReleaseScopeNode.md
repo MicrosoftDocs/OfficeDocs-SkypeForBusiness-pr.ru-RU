@@ -1,8 +1,8 @@
 ---
 title: Создание нового расширителя Lync Server 2013
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: Вы можете создать новые роли сервера на узле Lync Server 2013 в построителе топологии, щелкнув правой кнопкой мыши Lync Server 2013, выбрать команду Создать, а затем выбрать роль сервера для создания.
-ms.openlocfilehash: 67a8416e02f98fc396237c3601b2208a2557396b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Можно создать новые роли сервера в узле Lync Server 2013 построитель топологий, щелкнув правой кнопкой мыши Lync Server 2013, выберите "Создать", а затем выберите роль сервера, которую необходимо создать.
+ms.openlocfilehash: 851c457598f1abf21e19f6c391ce85164991d84b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796268"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811129"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a>Создание нового расширителя в Skype для бизнеса Server
+# <a name="skype-for-business-server-create-new-expander"></a>Skype для бизнеса Server Create New Expander
  
-Вы можете создать новые роли сервера в построителе топологии, щелкнув правой кнопкой мыши **сервер Skype для бизнеса Server**, выбрав пункт **создать**и выбрав роль сервера для создания.
+Вы можете создать новые роли сервера в построитель топологий, щелкнув правой кнопкой мыши Skype для бизнеса **Server,** выбрав "Создать" и выбрав роль сервера для создания.
   
 
