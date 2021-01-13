@@ -1,8 +1,8 @@
 ---
 title: Определение IP-адреса шлюза IP или ТСОП
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Адреса IPv4 или IPv6 для шлюза IP-телефонии или ТСОП можно определить, выбрав параметр Включить IPv4 или Включить IPv6. Можно выбрать параметр Использовать все настроенные IP-адреса или Ограничить использование службы выбранными IP-адресами.
-ms.openlocfilehash: e8e3635fbe232b2b58f0f4ba0fc47a101ddc7085
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b3eade1ed9272f8edfdc51c471c5de2400512994
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217740"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803319"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Определение IP-адреса шлюза IP или ТСОП
 

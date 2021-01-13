@@ -1,8 +1,8 @@
 ---
-title: Развертывание роли сервера ВИС в Skype для бизнеса Server
+title: Развертывание роли сервера VIS в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
-description: 'Сводка: развертывание роли сервера видеосвязи (ВИС) в Skype для бизнеса Server.'
-ms.openlocfilehash: 1fadab718a37dba2ffee5338d4dc898316b4d24d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Сводка. Развертывание роли сервера видеосвязи (VIS) в Skype для бизнеса Server.
+ms.openlocfilehash: 773e2ddf790aa1b6c36ff6926d8bc4d16ea613f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798046"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801969"
 ---
-# <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Развертывание роли сервера ВИС в Skype для бизнеса Server
+# <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Развертывание роли сервера VIS в Skype для бизнеса Server
  
-**Сводка:** Разверните роль сервера видеосвязи (ВИС) в Skype для бизнеса Server.
+**Сводка:** Развертывание роли сервера видеосвязи (VIS) в Skype для бизнеса Server.
   
-Чтобы настроить службу ВИС на сервере, который только что создан в построителе топологии, запустите мастер развертывания Skype для бизнеса Server, нажмите "установить" или "Обновить" в **системе Skype для бизнеса Server** , а затем выполните следующие действия в мастере.
+Чтобы настроить службу VIS на сервере, только что созданном в построите топологий, запустите мастер развертывания Skype для бизнеса Server, нажмите кнопку "Установить" или "Обновить систему Skype для бизнеса **Server"** и выполните следующие действия в мастере:
   
-1.  Выберите **Установка локального хранилища конфигурации**.
+1.  Выберите **"Установить локальное хранилище конфигурации".**
     
-2. Выберите пункт **Настройка или удалите компоненты Skype для бизнеса Server**.
+2. Выберите **"Установка" или "Удалить компоненты Skype для бизнеса Server".**
     
-3. Выберите **Запросить, установить или назначить сертификаты**.
+3. Выберите **"Запрос", "Установить" или "Назначить сертификаты".**
     
-4. Выберите **Запустить службы**.
+4. Выберите **"Запустить службы".**
     
-The software for this service is now installed and running. Вы можете открыть средство MMC "службы", чтобы узнать, работает ли служба сервера видеосвязи **Skype для бизнеса Server** с другими службами Skype для бизнеса Server. Next, you must configure the VIS server or pool.
+Программное обеспечение для этой службы теперь установлено и запущено. You may open the Services mmc tool to see if the **Skype for Business Server Video Interop Server** service is running along with other Skype for Business Server services. Далее необходимо настроить сервер или пул СЕРВЕРА VIS.
 ## <a name="see-also"></a>См. также
 
 [Настройка сервера видеосвязи в Skype для бизнеса Server](configure-the-vis.md)

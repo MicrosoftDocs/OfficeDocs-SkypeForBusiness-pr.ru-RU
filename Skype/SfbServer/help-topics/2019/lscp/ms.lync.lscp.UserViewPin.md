@@ -1,8 +1,8 @@
 ---
-title: Пользователи просматривают состояние PIN-кода
+title: Пользователи просматривают состояние ПИН-кода
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 0f4d30860560150d3988a85dffafcd0c85e5f9c3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 06a9fbf6411747c43213a5490fde3358ed6e798c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797916"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808079"
 ---
 # <a name="users-view-pin-status"></a>Пользователи: просмотр состояния ПИН-кода
  
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
   
-- [Установка ПИН-кода конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Set a user's dial-in conferencing PIN in Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

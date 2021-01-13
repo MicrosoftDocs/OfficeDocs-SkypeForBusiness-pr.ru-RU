@@ -1,8 +1,8 @@
 ---
-title: Пользователи Просмотр политики мобильности
+title: Пользователи просматривают политику мобильности
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
-description: В диалоговом окне политики для просмотра в списке отображаются свойства выбранной политики мобильных устройств.
-ms.openlocfilehash: 32625a69cab3aa7e0ccc5c0ec984f885f6862d93
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: В диалоговом окне Вид — Политика мобильных устройств отображаются свойства выбранной политики мобильных устройств.
+ms.openlocfilehash: ef40fa67f1762ed67439aef55ec38e19dfb5dbcc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797936"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808099"
 ---
 # <a name="users-view-mobility-policy"></a>Пользователи: просмотр политики мобильных устройств
 
-В диалоговом окне **политики для просмотра** в списке отображаются свойства выбранной политики мобильных устройств.
+В диалоговом окне **Вид — Политика мобильных устройств** отображаются свойства выбранной политики мобильных устройств.
 
-Подробнее о назначении политик мобильной связи можно узнать [в разделе Назначение политики мобильной связи пользователей](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) и [Настройка политики мобильности](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Дополнительные сведения о назначении политик мобильных устройств см. в разделах [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) и [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
 ## <a name="see-also"></a>См. также
 
-[Планирование для мобильных устройств](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Планирование мобильной работы](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[Развертывание мобильных устройств](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Развертывание поддержки мобильной работы](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 
-[Политики мобильной связи](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
+[Политики мобильности](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)

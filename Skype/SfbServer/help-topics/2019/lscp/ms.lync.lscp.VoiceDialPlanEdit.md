@@ -1,8 +1,8 @@
 ---
-title: Абонентская группа создание нового или изменение существующего
+title: Создание новой или редактирование существующей телефонной программы
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 750861c6d709ba9c7dae11fc7fc1ea7f8c403d5d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 8a781336a735ed9fd84f342477cda91e6744af04
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797866"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807929"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: создание новой или редактирование существующей
+# <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа : создание новой или редактирование существующей
 
-Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
+Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
 
-- [Создание и изменение абонентской группы в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Создание или изменение телефонной плана в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Изменение абонентской группы](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
 
-- [Создание и изменение правила нормализации в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Создание или изменение правила нормализации в Skype для бизнеса](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Создание или изменение правила нормализации вручную](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 

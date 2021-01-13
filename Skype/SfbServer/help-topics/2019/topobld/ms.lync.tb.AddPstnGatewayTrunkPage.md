@@ -1,8 +1,8 @@
 ---
 title: Определение корневой магистральной линии для нового шлюза IP или ТСОП
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,32 +14,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Вы определяете корневой магистраль для IP-или коммутируемой телефонной сети (PSTN), настроив следующие настройки:'
-ms.openlocfilehash: 7920335c4d29b883be8d2076223425db103b605c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:'
+ms.openlocfilehash: dae2078aea093f14e4cfd2642a98e73ec7eb4293
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794358"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807659"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Определение корневой магистральной линии для нового шлюза IP или ТСОП
 
-Вы определяете корневой магистраль для IP-или коммутируемой телефонной сети (PSTN), настроив следующие настройки:
+Корневую магистраль для IP-телефонии или ТСОП можно определить, настроив следующие параметры:
 
-- **Имя канала**связи: определение полного доменного имени, связанного с магистрали
+- **Имя линии связи** — определяет полное доменное имя, связанное с магистралью;
 
-- **Прослушивающий порт для IP/КТСОП Gateway**: определение порта, который будет прослушивать этот магистрали
+- **Порт прослушивания для IP-адреса/шлюза ТСОП** — определяет порт, по которому выполняется прослушивание для данной магистрали
 
-- **Транспортный протокол SIP**: выберите из списка один из **протоколов TCP** или **TLS**в соответствии с требованиями к магистрали.
+- **Транспортный протокол SIP** — выберите в списке **TCP** или **TLS** в зависимости от потребностей магистрали
 
-- **Связанный сервер исправлений**: выбор из списка доступных серверов обновлений в развертывании
+- **Связанный сервер-посредник**: выберите из списка доступных серверов-посредников в развертывании
 
-- **Порт сервера связанных исправлений**: определение порта, прослушиваемого выбранным сервером исправлений
+- **Связанный порт сервера-посредника**: определите порт, который прослушивает выбранный сервер-посредник
 
 ## <a name="see-also"></a>См. также
 
-[Настройка канала связи с помощью мультимедиа в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Настройка магистрали с обходом сервера-посредника в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Настройка магистрали без пропуска мультимедиа в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Настройка магистрали без обхода сервера-посредника в Skype для бизнеса Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Поддержка по магистрали SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Поддержка распределения каналов SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

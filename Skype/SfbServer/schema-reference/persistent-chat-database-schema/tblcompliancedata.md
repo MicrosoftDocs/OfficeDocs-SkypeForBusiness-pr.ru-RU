@@ -1,8 +1,8 @@
 ---
 title: tblComplianceData
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,36 +12,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: Тблкомплианцедата содержит события соответствия требованиям, которые пока не обрабатывались адаптером соответствия требованиям.
-ms.openlocfilehash: f09acd44e803c629e45afa18683ac7bc863564a9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceData содержит события соответствия нормативным требованиям, которые еще не были обработаны адаптером соответствия.
+ms.openlocfilehash: e4ceda662b2f601660c144319a4231cebeea39ad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814667"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809859"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
-Тблкомплианцедата содержит события соответствия требованиям, которые пока не обрабатывались адаптером соответствия требованиям.
+tblComplianceData содержит события соответствия нормативным требованиям, которые еще не были обработаны адаптером соответствия.
   
-**Столбцов**
+**Columns**
 
 |**Столбец**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|кмплевентид  <br/> |bigint, NOT NULL  <br/> |Код события.  <br/> |
-|ентридате  <br/> |smalldatetime, NOT NULL  <br/> |Время вставки (может быть в будущем для Кмплтипе = 9, так как в этом случае запись является заполнителем в этом случае).  <br/> |
-|кмплтипе  <br/> |int, NOT NULL  <br/> | Тип события соответствия: <br/>  1: чат <br/>  2: чат <br/>  3: Загрузка файла <br/>  4: Отправка файлов <br/>  9: подготовка к передаче файлов <br/>  10: удаление чата (с заменой) <br/>  11: Очистка чата <br/> |
-|кмплтиме  <br/> |bigint, NOT NULL  <br/> |Метка времени для события.  <br/> |
-|кмплчаннелури  <br/> |nvarchar (255), NOT NULL  <br/> |Универсальный код ресурса (URI) канала.  <br/> |
-|кмплчатид  <br/> |bigint  <br/> |ИДЕНТИФИКАТОР чата (соответствующая таблице Тблчат. Чатид).  <br/> |
-|кмплусерид  <br/> |int, NOT NULL  <br/> |Идентификатор участника афиши (соответствующий таблице ТблпринЦипал. Принид).  <br/> |
-|кмплусерури  <br/> |nvarchar (255), NOT NULL  <br/> |URI пользователя.  <br/> |
-|кмплмессаже  <br/> |nvarchar (max)  <br/> |Сообщение (Кодировка зависит от Кмплтипе).  <br/> |
+|cmplEventID  <br/> |bigint, не NULL  <br/> |Идентификатор события.  <br/> |
+|entryDate  <br/> |smalldatetime, не NULL  <br/> |Время вставки (может относиться к далекому будущему для  cmplType=9, так как в этом случае запись является всего лишь заполнителем).  <br/> |
+|cmplType  <br/> |int, не NULL  <br/> | Типа события соответствия нормативным требованиям: <br/>  1: Чат <br/>  2: Ответ на чат <br/>  3: Загрузка файла <br/>  4: Отправка файла <br/>  9: Промежуточная передача файла <br/>  10: Удаление чата (с заменой) <br/>  11: Очистка чата <br/> |
+|cmplTime  <br/> |bigint, не NULL  <br/> |Метка времени для события.  <br/> |
+|cmplChannelUri  <br/> |nvarchar (255), не NULL  <br/> |Универсальный код ресурса (URI) для канала.  <br/> |
+|cmplChatID  <br/> |bigint  <br/> |Идентификатор чата (в соответствии с таблицей tblChat.chatId).  <br/> |
+|cmplUserID  <br/> |int, не NULL  <br/> |Идентификатор субъекта для отправителя (в соответствии с таблицей tblPrincipal.prinID).  <br/> |
+|cmplUserUri  <br/> |nvarchar (255), не NULL  <br/> |Универсальный код ресурса (URI) для пользователя.  <br/> |
+|cmplMessage  <br/> |nvarchar (max)  <br/> |Сообщение (кодировка зависит от cmplType).  <br/> |
    
-**Ключ**
+**Раздел**
 
 |**Столбец**|**Описание**|
 |:-----|:-----|
-|кмплевентид  <br/> |Первичный ключ.  <br/> |
+|cmplEventID  <br/> |Первичный ключ.  <br/> |
    
 

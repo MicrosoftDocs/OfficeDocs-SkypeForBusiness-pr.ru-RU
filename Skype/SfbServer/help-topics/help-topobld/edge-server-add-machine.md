@@ -1,8 +1,8 @@
 ---
 title: Добавление компьютера пограничного сервера
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Укажите полное доменное имя для каждого компьютера, который нужно добавить в качестве пограничного сервера в этот пул. Добавив компьютер в список, вы можете обновить полное доменное имя или удалить его из пула в любое время до публикации топологии. После публикации топологии для изменения полного доменного имени потребуется сначала удалить сервер в построителе топологий, а затем добавить новый сервер в пул с новым полным доменным именем. Дополнительные сведения о разработке топологии для пограничного пула см. в разделе Define Your Edge Topology руководства по развертыванию пограничного сервера.
-ms.openlocfilehash: a71f54debfdabab6705924c491f92d3ff0e8e241
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 973d3649d736b0ff9056085e0d53f7cc5ef711b6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218270"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807119"
 ---
 # <a name="edge-server-add-machine"></a>Добавление компьютера пограничного сервера
 
