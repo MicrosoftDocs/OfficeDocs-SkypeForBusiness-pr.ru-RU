@@ -1,8 +1,8 @@
 ---
 title: Управление состоянием и мониторингом в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,35 +11,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Сводка: сведения о задачах мониторинга и настройки работоспособности в Skype для бизнеса Server.'
-ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения о задачах мониторинга и настройки состояния в Skype для бизнеса Server.
+ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817939"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823519"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a><span data-ttu-id="66bb2-103">Управление состоянием и мониторингом в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="66bb2-103">Manage health and monitoring in Skype for Business Server</span></span>
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a><span data-ttu-id="4a890-103">Управление состоянием и мониторингом в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4a890-103">Manage health and monitoring in Skype for Business Server</span></span>
 
-<span data-ttu-id="66bb2-104">**Сводка:** Сведения о задачах мониторинга и настройки работоспособности в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="66bb2-104">**Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server.</span></span>
+<span data-ttu-id="4a890-104">**Сводка:** Узнайте о задачах мониторинга и настройки состояния в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="4a890-104">**Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server.</span></span>
 
-<span data-ttu-id="66bb2-105">В этой статье приведены пошаговые инструкции для мониторинга и настройки работоспособности, которые можно выполнить на панели управления Skype для бизнеса Server и в командной консоли управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="66bb2-105">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Skype for Business Server Control Panel and Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="4a890-105">Разделы в этом разделе предоставляют пошаговую процедуру для задач мониторинга и настройки состояния, которые можно выполнять в панели управления Skype для бизнеса Server и в оболочке управления Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="4a890-105">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Skype for Business Server Control Panel and Skype for Business Server Management Shell.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="66bb2-106">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="66bb2-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4a890-106">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="4a890-106">In this section</span></span>
 
-- [<span data-ttu-id="66bb2-107">Запись сведений о звонке (CDR) в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="66bb2-107">Call detail recording (CDR) in Skype for Business Server</span></span>](call-detail-recording-cdr.md)
+- [<span data-ttu-id="4a890-107">Регистрация вызовов (CDR) в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4a890-107">Call detail recording (CDR) in Skype for Business Server</span></span>](call-detail-recording-cdr.md)
 
-- [<span data-ttu-id="66bb2-108">Качество работы (QoE) в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="66bb2-108">Quality of Experience (QoE) in Skype for Business Server</span></span>](quality-of-experience.md)
+- [<span data-ttu-id="4a890-108">Качество обслуживания (QoE) в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4a890-108">Quality of Experience (QoE) in Skype for Business Server</span></span>](quality-of-experience.md)
 
-- [<span data-ttu-id="66bb2-109">Мониторинг производительности в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="66bb2-109">Monitor mobility for performance in Skype for Business Server</span></span>](monitor-mobility-performance.md)
+- [<span data-ttu-id="4a890-109">Отслеживание мобильности для повышения производительности в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4a890-109">Monitor mobility for performance in Skype for Business Server</span></span>](monitor-mobility-performance.md)
 
-- [<span data-ttu-id="66bb2-110">Использование отчетов мониторинга в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="66bb2-110">Using Monitoring Reports in Skype for Business Server</span></span>](monitoring-reports.md)
+- [<span data-ttu-id="4a890-110">Использование отчетов мониторинга в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4a890-110">Using Monitoring Reports in Skype for Business Server</span></span>](monitoring-reports.md)
 
-## <a name="see-also"></a><span data-ttu-id="66bb2-111">См. также</span><span class="sxs-lookup"><span data-stu-id="66bb2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a890-111">См. также</span><span class="sxs-lookup"><span data-stu-id="4a890-111">See also</span></span>
 
 
 
-[<span data-ttu-id="66bb2-112">Планирование мониторинга</span><span class="sxs-lookup"><span data-stu-id="66bb2-112">Plan for monitoring</span></span>](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[<span data-ttu-id="4a890-112">Планирование мониторинга</span><span class="sxs-lookup"><span data-stu-id="4a890-112">Plan for monitoring</span></span>](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[<span data-ttu-id="66bb2-113">Развертывание функции мониторинга</span><span class="sxs-lookup"><span data-stu-id="66bb2-113">Deploy monitoring</span></span>](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[<span data-ttu-id="4a890-113">Развертывание функции мониторинга</span><span class="sxs-lookup"><span data-stu-id="4a890-113">Deploy monitoring</span></span>](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

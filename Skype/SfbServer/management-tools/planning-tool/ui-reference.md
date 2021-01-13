@@ -1,8 +1,8 @@
 ---
-title: Справочник по пользовательскому интерфейсу планировщика
+title: Справочник по пользовательскому интерфейсу средства планирования
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -12,67 +12,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 65d76c522b028900bbfe6fb92c574330dfab15e1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816288"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823310"
 ---
-# <a name="planning-tool-ui-reference"></a><span data-ttu-id="a358f-102">Справочник по пользовательскому интерфейсу планировщика</span><span class="sxs-lookup"><span data-stu-id="a358f-102">Planning Tool UI Reference</span></span>
+# <a name="planning-tool-ui-reference"></a><span data-ttu-id="7cb0b-102">Справочник по пользовательскому интерфейсу средства планирования</span><span class="sxs-lookup"><span data-stu-id="7cb0b-102">Planning Tool UI Reference</span></span>
  
-## <a name="in-this-section"></a><span data-ttu-id="a358f-103">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="a358f-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7cb0b-103">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="7cb0b-103">In this section</span></span>
 
-<span data-ttu-id="a358f-104">В этих разделах описывается интерфейс средства планирования, доступного в [центре загрузки Майкрософт](https://go.microsoft.com/fwlink/p/?LinkID=282725).</span><span class="sxs-lookup"><span data-stu-id="a358f-104">These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725).</span></span> 
+<span data-ttu-id="7cb0b-104">В этих темах документировать интерфейс средства планирования, доступного в [Центре загрузки Майкрософт.](https://go.microsoft.com/fwlink/p/?LinkID=282725)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-104">These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725).</span></span> 
   
-- [<span data-ttu-id="a358f-105">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-105">Audio Video Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/audio-video-conferencing.md)
+- [<span data-ttu-id="7cb0b-105">Аудиоконференция (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-105">Audio Video Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/audio-video-conferencing.md)
     
-- [<span data-ttu-id="a358f-106">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-106">Dial-in Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/dial-in-conferencing.md)
+- [<span data-ttu-id="7cb0b-106">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-106">Dial-in Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/dial-in-conferencing.md)
     
-- [<span data-ttu-id="a358f-107">Web Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-107">Web Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/web-conferencing.md)
+- [<span data-ttu-id="7cb0b-107">Веб-conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-107">Web Conferencing (Planning Tool)</span></span>](../../help-topics/help-planning/web-conferencing.md)
     
-- [<span data-ttu-id="a358f-108">Enterprise Voice (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-108">Enterprise Voice (Planning Tool)</span></span>](../../help-topics/help-planning/enterprise-voice.md)
+- [<span data-ttu-id="7cb0b-108">Корпоративная голосовая связь (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-108">Enterprise Voice (Planning Tool)</span></span>](../../help-topics/help-planning/enterprise-voice.md)
     
-- [<span data-ttu-id="a358f-109">Exchange Unified Messaging Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-109">Exchange Unified Messaging Settings (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [<span data-ttu-id="7cb0b-109">Параметры единой системы обмена сообщениями Exchange (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-109">Exchange Unified Messaging Settings (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
-- [<span data-ttu-id="a358f-110">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-110">Call Admission Control (Planning Tool)</span></span>](../../help-topics/help-planning/call-admission-control.md)
+- [<span data-ttu-id="7cb0b-110">Контроль допуска вызовов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-110">Call Admission Control (Planning Tool)</span></span>](../../help-topics/help-planning/call-admission-control.md)
     
-- [<span data-ttu-id="a358f-111">Monitoring (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-111">Monitoring (Planning Tool)</span></span>](../../help-topics/help-planning/monitoring.md)
+- [<span data-ttu-id="7cb0b-111">Мониторинг (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-111">Monitoring (Planning Tool)</span></span>](../../help-topics/help-planning/monitoring.md)
     
-- [<span data-ttu-id="a358f-112">Persistent Chat (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-112">Persistent Chat (Planning Tool)</span></span>](../../help-topics/help-planning/persistent-chat.md)
+- [<span data-ttu-id="7cb0b-112">Сохраняемая беседа (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-112">Persistent Chat (Planning Tool)</span></span>](../../help-topics/help-planning/persistent-chat.md)
     
-- [<span data-ttu-id="a358f-113">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-113">Mobility (Planning Tool)</span></span>](../../help-topics/help-planning/mobility.md)
+- [<span data-ttu-id="7cb0b-113">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-113">Mobility (Planning Tool)</span></span>](../../help-topics/help-planning/mobility.md)
     
-- [<span data-ttu-id="a358f-114">Federation (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-114">Federation (Planning Tool)</span></span>](../../help-topics/help-planning/federation.md)
+- [<span data-ttu-id="7cb0b-114">Федерация (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-114">Federation (Planning Tool)</span></span>](../../help-topics/help-planning/federation.md)
     
-- [<span data-ttu-id="a358f-115">High Availability (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-115">High Availability (Planning Tool)</span></span>](../../help-topics/help-planning/high-availability.md)
+- [<span data-ttu-id="7cb0b-115">Высокая доступность (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-115">High Availability (Planning Tool)</span></span>](../../help-topics/help-planning/high-availability.md)
     
-- [<span data-ttu-id="a358f-116">IP Version (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-116">IP Version (Planning Tool)</span></span>](../../help-topics/help-planning/ip-version.md)
+- [<span data-ttu-id="7cb0b-116">ВЕРСИЯ IP (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-116">IP Version (Planning Tool)</span></span>](../../help-topics/help-planning/ip-version.md)
     
-- [<span data-ttu-id="a358f-117">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-117">Disaster Recovery (Planning Tool)</span></span>](../../help-topics/help-planning/disaster-recovery.md)
+- [<span data-ttu-id="7cb0b-117">Аварийное восстановление (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-117">Disaster Recovery (Planning Tool)</span></span>](../../help-topics/help-planning/disaster-recovery.md)
     
-- [<span data-ttu-id="a358f-118">Feature Overview (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-118">Feature Overview (Planning Tool)</span></span>](../../help-topics/help-planning/feature-overview.md)
+- [<span data-ttu-id="7cb0b-118">Обзор функций (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-118">Feature Overview (Planning Tool)</span></span>](../../help-topics/help-planning/feature-overview.md)
     
-- [<span data-ttu-id="a358f-119">Exchange Unified Messaging (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-119">Exchange Unified Messaging (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [<span data-ttu-id="7cb0b-119">Exchange Unified Messaging (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-119">Exchange Unified Messaging (Planning Tool)</span></span>](../../help-topics/help-planning/exchange-unified-messaging.md)
     
-- [<span data-ttu-id="a358f-120">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-120">Load Balancer (Planning Tool)</span></span>](../../help-topics/help-planning/load-balancer.md)
+- [<span data-ttu-id="7cb0b-120">Балансировка нагрузки (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-120">Load Balancer (Planning Tool)</span></span>](../../help-topics/help-planning/load-balancer.md)
     
-- [<span data-ttu-id="a358f-121">Director (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-121">Director (Planning Tool)</span></span>](../../help-topics/help-planning/director.md)
+- [<span data-ttu-id="7cb0b-121">Директор (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-121">Director (Planning Tool)</span></span>](../../help-topics/help-planning/director.md)
     
-- [<span data-ttu-id="a358f-122">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-122">Client Settings (Planning Tool)</span></span>](../../help-topics/help-planning/client-settings.md)
+- [<span data-ttu-id="7cb0b-122">Параметры клиента (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-122">Client Settings (Planning Tool)</span></span>](../../help-topics/help-planning/client-settings.md)
     
-- [<span data-ttu-id="a358f-123">Mediation Collocation (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-123">Mediation Collocation (Planning Tool)</span></span>](../../help-topics/help-planning/mediation-collocation.md)
+- [<span data-ttu-id="7cb0b-123">Mediation Collocation (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-123">Mediation Collocation (Planning Tool)</span></span>](../../help-topics/help-planning/mediation-collocation.md)
     
-- [<span data-ttu-id="a358f-124">Archiving (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-124">Archiving (Planning Tool)</span></span>](../../help-topics/help-planning/archiving.md)
+- [<span data-ttu-id="7cb0b-124">Archiving (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-124">Archiving (Planning Tool)</span></span>](../../help-topics/help-planning/archiving.md)
     
-- [<span data-ttu-id="a358f-125">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-125">Branch Sites (Planning Tool)</span></span>](../../help-topics/help-planning/branch-sites.md)
+- [<span data-ttu-id="7cb0b-125">Сайты филиалов (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-125">Branch Sites (Planning Tool)</span></span>](../../help-topics/help-planning/branch-sites.md)
     
-- [<span data-ttu-id="a358f-126">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-126">Edge Network (Planning Tool)</span></span>](../../help-topics/help-planning/edge-network.md)
+- [<span data-ttu-id="7cb0b-126">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-126">Edge Network (Planning Tool)</span></span>](../../help-topics/help-planning/edge-network.md)
     
-- [<span data-ttu-id="a358f-127">Media Bypass (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-127">Media Bypass (Planning Tool)</span></span>](../../help-topics/help-planning/media-bypass.md)
+- [<span data-ttu-id="7cb0b-127">Обход посредника (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-127">Media Bypass (Planning Tool)</span></span>](../../help-topics/help-planning/media-bypass.md)
     
-- [<span data-ttu-id="a358f-128">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-128">Voice Infrastructure (Planning Tool)</span></span>](../../help-topics/help-planning/voice-infrastructure.md)
+- [<span data-ttu-id="7cb0b-128">Инфраструктура голосовой связи (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-128">Voice Infrastructure (Planning Tool)</span></span>](../../help-topics/help-planning/voice-infrastructure.md)
     
-- [<span data-ttu-id="a358f-129">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a358f-129">Voice Traffic (Planning Tool)</span></span>](../../help-topics/help-planning/voice-traffic.md)
+- [<span data-ttu-id="7cb0b-129">Голосовой трафик (средство планирования)</span><span class="sxs-lookup"><span data-stu-id="7cb0b-129">Voice Traffic (Planning Tool)</span></span>](../../help-topics/help-planning/voice-traffic.md)
     
 

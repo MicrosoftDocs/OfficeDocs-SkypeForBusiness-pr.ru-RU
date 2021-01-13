@@ -1,8 +1,8 @@
 ---
 title: Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: 'Сводка: Узнайте, как добавить дополнительные базы данных Skype для бизнеса Server в существующую группу доступности AlwaysOn и ознакомиться с необходимыми дополнительными инструкциями после исправления или обновления сервера, который входит в группу доступности AlwaysOn в Skype для Business Server.'
-ms.openlocfilehash: 579b00047a9966e3ce991863506f5686d8a2d520
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Узнайте, как добавить дополнительные базы данных Skype для бизнеса Server в существующую группу доступности AlwaysOn и узнать о необходимых дополнительных действиях после исправления или обновления тылого сервера, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.
+ms.openlocfilehash: 444194c9cda5f4c3f82e6f3f7698395dce1a5d07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817140"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826369"
 ---
-# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a><span data-ttu-id="fb0b2-103">Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="fb0b2-103">Manage databases with an AlwaysOn Availability Group in Skype for Business Server</span></span>
+# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a><span data-ttu-id="4c1ba-103">Управление базами данных с помощью группы доступности AlwaysOn в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="4c1ba-103">Manage databases with an AlwaysOn Availability Group in Skype for Business Server</span></span>
 
-<span data-ttu-id="fb0b2-104">Выполните действия, описанные в этой статье, чтобы добавить дополнительные базы данных Skype для бизнеса Server в существующую группу доступности AlwaysOn в Skype для бизнеса Server, и ознакомьтесь с необходимыми дополнительными инструкциями после исправления или обновления сервера, который входит в состав AlwaysOn. Группа "доступность" в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-104">Use the steps in this article to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server, and find out about the necessary additional steps after you patch or upgrade a Back End Server that is part of a AlwaysOn Availability Group in Skype for Business Server.</span></span>
+<span data-ttu-id="4c1ba-104">Воспользуйтесь действиями в этой статье, чтобы добавить дополнительные базы данных Skype для бизнеса Server в существующую группу доступности AlwaysOn в Skype для бизнеса Server, а также узнать о необходимых дополнительных действиях после исправления или обновления тылого сервера, который входит в группу доступности AlwaysOn в Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-104">Use the steps in this article to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server, and find out about the necessary additional steps after you patch or upgrade a Back End Server that is part of a AlwaysOn Availability Group in Skype for Business Server.</span></span>
 
-## <a name="add-databases-to-an-alwayson-availability-group"></a><span data-ttu-id="fb0b2-105">Добавление баз данных в группу доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="fb0b2-105">Add databases to an AlwaysOn Availability Group</span></span> 
+## <a name="add-databases-to-an-alwayson-availability-group"></a><span data-ttu-id="4c1ba-105">Добавление баз данных в группу доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="4c1ba-105">Add databases to an AlwaysOn Availability Group</span></span> 
 
-1. <span data-ttu-id="fb0b2-106">Откройте центр SQL Server Management Studio и перейдите в группу доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-106">Open SQL Server Management Studio, and navigate to the AlwaysOn Availability Group.</span></span> <span data-ttu-id="fb0b2-107">Переключиться на основную реплику.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-107">Fail it over to the primary replica.</span></span>
+1. <span data-ttu-id="4c1ba-106">Откройте SQL Server Management Studio и перейдите в группу доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-106">Open SQL Server Management Studio, and navigate to the AlwaysOn Availability Group.</span></span> <span data-ttu-id="4c1ba-107">Перенаправь его в первичную реплику.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-107">Fail it over to the primary replica.</span></span>
     
-2. <span data-ttu-id="fb0b2-108">В построителе топологии Настройте полное доменное имя SQL Server группы доступности AlwaysOn на полное доменное имя основного узла этой группы.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-108">In Topology Builder, set the SQL Server FQDN of the AlwaysOn Availability Group to the FQDN of the primary node of that group.</span></span>
+2. <span data-ttu-id="4c1ba-108">В построителе топологий SQL Server FQDN группы доступности AlwaysOn в качестве FQDN основного узла этой группы.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-108">In Topology Builder, set the SQL Server FQDN of the AlwaysOn Availability Group to the FQDN of the primary node of that group.</span></span>
     
-   - <span data-ttu-id="fb0b2-109">Откройте конфигуратор топологии, выберите пункт **загрузить топологию из существующего развертывания**и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-109">Open Topology Builder, select **Download topology from existing deployment**, and click **OK**.</span></span>
+   - <span data-ttu-id="4c1ba-109">Откройте построитель топологий, выберите "Загрузить **топологию" из** существующего развертывания и нажмите кнопку **"ОК".**</span><span class="sxs-lookup"><span data-stu-id="4c1ba-109">Open Topology Builder, select **Download topology from existing deployment**, and click **OK**.</span></span>
     
-   - <span data-ttu-id="fb0b2-110">Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-110">Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**.</span></span> <span data-ttu-id="fb0b2-111">Щелкните правой кнопкой мыши хранилище SQL для новой группы доступности AlwaysOn и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-111">Right-click the SQL store of the new AlwaysOn Availability Group, and click **Edit Properties**.</span></span>
+   - <span data-ttu-id="4c1ba-110">Разверите Skype для бизнеса Server, развяйте топологию и SQL Server **хранилищах.**</span><span class="sxs-lookup"><span data-stu-id="4c1ba-110">Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**.</span></span> <span data-ttu-id="4c1ba-111">Щелкните правой кнопкой мыши SQL новой группы доступности AlwaysOn и выберите "Изменить **свойства".**</span><span class="sxs-lookup"><span data-stu-id="4c1ba-111">Right-click the SQL store of the new AlwaysOn Availability Group, and click **Edit Properties**.</span></span>
     
-   - <span data-ttu-id="fb0b2-112">В нижней части страницы в поле **полное доменное имя сервера SQL Server** введите полное доменное имя основного узла группы доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-112">At the bottom of the page, in the **SQL Server FQDN** box, type in the FQDN of the primary node of the AlwaysOn Availability Group.</span></span>
+   - <span data-ttu-id="4c1ba-112">В нижней части страницы в поле **SQL Server Введите FQDN** основного узла группы доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-112">At the bottom of the page, in the **SQL Server FQDN** box, type in the FQDN of the primary node of the AlwaysOn Availability Group.</span></span>
     
-3. <span data-ttu-id="fb0b2-113">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-113">Publish the topology.</span></span> <span data-ttu-id="fb0b2-114">В меню **Действие** щелкните **Топология**, затем **Опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-114">From the **Action** menu click **Topology** and then **Publish**.</span></span> <span data-ttu-id="fb0b2-115">Затем на странице подтверждения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-115">Then in the confirmation page click **Next**.</span></span>
+3. <span data-ttu-id="4c1ba-113">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-113">Publish the topology.</span></span> <span data-ttu-id="4c1ba-114">В меню **действий** **щелкните "Топология",** а затем **"Опубликовать".**</span><span class="sxs-lookup"><span data-stu-id="4c1ba-114">From the **Action** menu click **Topology** and then **Publish**.</span></span> <span data-ttu-id="4c1ba-115">Затем на странице подтверждения нажмите кнопку **"Далее".**</span><span class="sxs-lookup"><span data-stu-id="4c1ba-115">Then in the confirmation page click **Next**.</span></span>
     
-4. <span data-ttu-id="fb0b2-116">С помощью SQL Server Management Studio вы можете добавить новую базу данных в группу доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-116">Use SQL Server Management Studio to add the new database to the AlwaysOn Availability Group.</span></span>
+4. <span data-ttu-id="4c1ba-116">Используйте SQL Server Management Studio, чтобы добавить новую базу данных в группу доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-116">Use SQL Server Management Studio to add the new database to the AlwaysOn Availability Group.</span></span>
     
-## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a><span data-ttu-id="fb0b2-117">Установка исправления или обновления SQL Server в составе группы доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="fb0b2-117">Patch or update a SQL Server in an AlwaysOn Availability Group</span></span>
+## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a><span data-ttu-id="4c1ba-117">Исправление или обновление SQL Server в группе доступности AlwaysOn</span><span class="sxs-lookup"><span data-stu-id="4c1ba-117">Patch or update a SQL Server in an AlwaysOn Availability Group</span></span>
 
-<span data-ttu-id="fb0b2-118">После внесения исправлений на сервер, который входит в группу доступности AlwaysOn, необходимо повторно опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-118">After patching a Back End Server that is part of an AlwaysOn Availability Group, you must republish the topology.</span></span>
+<span data-ttu-id="4c1ba-118">После исправления тыловых серверов, в которые входит группа доступности AlwaysOn, необходимо повторно опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-118">After patching a Back End Server that is part of an AlwaysOn Availability Group, you must republish the topology.</span></span>
 
-1. <span data-ttu-id="fb0b2-119">Установите обновления на сервер или серверы Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-119">Install the update on your Skype for Business server or servers.</span></span>
+1. <span data-ttu-id="4c1ba-119">Установите обновление на сервер или серверы Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-119">Install the update on your Skype for Business server or servers.</span></span>
     
-2. <span data-ttu-id="fb0b2-120">Выполните следующую команду PowerShell в командной консоли Skype для бизнеса (необходимо выполнить вход с использованием учетной записи с разрешениями на применение изменений к базам данных SQL AlwaysOn).</span><span class="sxs-lookup"><span data-stu-id="fb0b2-120">Run the following PowerShell command in your Skype for Business Management Shell (logged in with an account that's appropriately permissioned to apply changes to the SQL AlwaysOn databases) as follows:</span></span>
+2. <span data-ttu-id="4c1ba-120">Выполните следующую команду PowerShell в командной оболочке Skype для бизнеса (во время входа с использованием учетной записи, которая имеет соответствующее разрешение на применение изменений к базам данных AlwaysOn SQL) следующим образом:</span><span class="sxs-lookup"><span data-stu-id="4c1ba-120">Run the following PowerShell command in your Skype for Business Management Shell (logged in with an account that's appropriately permissioned to apply changes to the SQL AlwaysOn databases) as follows:</span></span>
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 
-    <span data-ttu-id="fb0b2-121">Здесь [sqlpool.contoso.com] заменяется FQDN группы доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="fb0b2-121">Where [sqlpool.contoso.com] is replaced with the fully qualified domain name (FQDN) of your AlwaysOn availability group.</span></span>
+    <span data-ttu-id="4c1ba-121">Где [sqlpool.contoso.com] заменяется на полное доменное имя группы доступности AlwaysOn.</span><span class="sxs-lookup"><span data-stu-id="4c1ba-121">Where [sqlpool.contoso.com] is replaced with the fully qualified domain name (FQDN) of your AlwaysOn availability group.</span></span>

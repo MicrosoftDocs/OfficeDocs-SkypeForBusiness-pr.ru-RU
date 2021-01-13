@@ -1,8 +1,8 @@
 ---
 title: Назначение сертификата (из запроса)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: На странице Назначение сертификата запускается процесс назначения сертификата запрашиваемым вариантам использования на сервере с ролью. Для просмотра сертификата выберите Просмотр сведений о сертификате. Вы можете выбрать вкладку "Общие", вкладку "сведения" или вкладку "путь сертификации". На вкладке Общие отображаются основные сведения о сертификате, например выдающий центр сертификации и состояние закрытого ключа. На вкладке "Сведения" отображаются имя субъекта, альтернативные имена субъектов и прочие сведения. На вкладке "путь сертификации" отображается цертификатечаин сертификата в корневом центре сертификации (если они есть) с учетом всех выдающих или промежуточных центров сертификации (если они есть).
-ms.openlocfilehash: 994b3f3c215b7b887730077437e4922a95760354
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: На странице "Назначение сертификата" запускается процесс назначения сертификата для запрашиваемого использования на сервере ролей. Для просмотра сертификата щелкните Просмотреть сведения о сертификате. Можно выбрать вкладку "Общие", "Сведения" или "Путь сертификации". На вкладке "Общие" отображаются основные сведения о сертификате, такие как выдача сертификата и состояние закрытого ключа. На вкладке "Сведения" отображается такая информация о сертификате, как имя субъекта, альтернативные имена субъектов и прочие сведения. На вкладке "Путь сертификации" будет отображаться пошаговая путя сертификата из сертификата через любые выдав или промежуточные органы сертификации (если они присутствуют) корневому органу сертификации.
+ms.openlocfilehash: f2f7e520720aba1872fc56696c87ef717ac1c6be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823973"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824419"
 ---
-# <a name="certificate-assignment-from-request"></a><span data-ttu-id="88f34-107">Назначение сертификата (из запроса)</span><span class="sxs-lookup"><span data-stu-id="88f34-107">Certificate Assignment (From Request)</span></span>
+# <a name="certificate-assignment-from-request"></a><span data-ttu-id="3691b-107">Назначение сертификата (из запроса)</span><span class="sxs-lookup"><span data-stu-id="3691b-107">Certificate Assignment (From Request)</span></span>
  
-<span data-ttu-id="88f34-p102">На странице **Назначение сертификата** запускается процесс назначения сертификата запрашиваемым вариантам использования на сервере с ролью. Для просмотра сертификата выберите **Просмотр сведений о сертификате**. Можно выбрать вкладку **Общие**, **Сведения** или **Путь сертификации**. На вкладке **Общие** представлена основная информация о сертификате, включая выпускающий центр сертификации и состояние закрытого ключа. На вкладке "Сведения" отображаются имя субъекта, альтернативные имена субъектов и прочие сведения. На вкладке **Путь сертификации** показана "цепочка сертификатов" от данного сертификата через все выпускающие и промежуточные центры сертификации (при их наличии) к корневому центру сертификации.</span><span class="sxs-lookup"><span data-stu-id="88f34-p102">The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server. Click the **View Certificate Details** to view the certificate. You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key. The Details tab will display certificate information such as the subject name, subject alternative names, and other details. The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.</span></span>
+<span data-ttu-id="3691b-108">На **странице "Назначение** сертификата" запускается процесс назначения сертификата для запрашиваемого использования на сервере ролей.</span><span class="sxs-lookup"><span data-stu-id="3691b-108">The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server.</span></span> <span data-ttu-id="3691b-109">Для просмотра сертификата щелкните **Просмотреть сведения о сертификате**.</span><span class="sxs-lookup"><span data-stu-id="3691b-109">Click the **View Certificate Details** to view the certificate.</span></span> <span data-ttu-id="3691b-110">Можно выбрать вкладку **"Общие",** **"Сведения"** или **"Путь сертификации".** На **вкладке** "Общие" отображаются основные сведения о сертификате, такие как выдача сертификата и состояние закрытого ключа.</span><span class="sxs-lookup"><span data-stu-id="3691b-110">You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key.</span></span> <span data-ttu-id="3691b-111">На вкладке "Сведения" отображается такая информация о сертификате, как имя субъекта, альтернативные имена субъектов и прочие сведения.</span><span class="sxs-lookup"><span data-stu-id="3691b-111">The Details tab will display certificate information such as the subject name, subject alternative names, and other details.</span></span> <span data-ttu-id="3691b-112">На **вкладке** "Путь сертификации" будет отображаться "цепочка доверия" сертификата через любые выдавлив или промежуточные органы сертификации (если они присутствуют) в корневой.</span><span class="sxs-lookup"><span data-stu-id="3691b-112">The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.</span></span>
   
-<span data-ttu-id="88f34-113">Чтобы продолжить, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="88f34-113">Click **Next** to continue.</span></span>
+<span data-ttu-id="3691b-113">Нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="3691b-113">Click **Next** to continue.</span></span>
   
 

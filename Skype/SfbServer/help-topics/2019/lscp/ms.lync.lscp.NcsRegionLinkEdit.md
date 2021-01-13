@@ -1,8 +1,8 @@
 ---
-title: Настройка ссылки на сетевой регион создание нового или изменение существующего
+title: Настройка связи между областями сети создание новой или редактирование существующей
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 68d82e3c3286d132dfa7bf0466f8c236b3a0d50a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 5ad673c0f793a42b150b9fe9781e875fea1f9ebf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795650"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824709"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="2f373-104">Настройка связи области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="2f373-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a><span data-ttu-id="50678-104">Настройка связи области сети: создание новых или редактирование существующих</span><span class="sxs-lookup"><span data-stu-id="50678-104">Configure a Network Region Link: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="2f373-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="2f373-105">What do you want to do?</span></span> <span data-ttu-id="2f373-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="2f373-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="50678-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="50678-105">What do you want to do?</span></span> <span data-ttu-id="50678-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="50678-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2f373-107">Настройка ссылок на сетевой регион</span><span class="sxs-lookup"><span data-stu-id="2f373-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="50678-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="50678-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

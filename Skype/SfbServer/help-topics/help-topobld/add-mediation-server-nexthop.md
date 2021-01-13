@@ -1,8 +1,8 @@
 ---
 title: Добавление следующего скачка для серверов-посредников
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
-description: Чтобы определить следующий прыжок для сервера-посредника, который вы определяете, выберите в раскрывающемся списке пул следующего прыжка сервер Enterprise Edition или сервер Standard Edition, который будет использоваться в качестве следующего прыжка для сервера-посредника. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: d4517030d0f9f6adfc7fc048a4356bbb04be3e17
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Чтобы определить следующий переход для определяемого сервера-посредника, выберите в выпадаемом списке пула следующего перехода сервер Enterprise Edition или сервер Standard Edition, который будет выступать в качестве следующего прыжка для сервера-посредника. Для продолжения нажмите кнопку Далее.
+ms.openlocfilehash: 4893f2a4b00274d9f1297c483eff8df6092f08ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218760"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823969"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="3c795-104">Добавление следующего скачка для серверов-посредников</span><span class="sxs-lookup"><span data-stu-id="3c795-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="ffe77-104">Добавление следующего перехода для серверов-посредников</span><span class="sxs-lookup"><span data-stu-id="ffe77-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="3c795-105">Чтобы определить следующий прыжок для сервера-посредника, который вы определяете, выберите в раскрывающемся списке **пул следующего прыжка** сервер Enterprise Edition или сервер Standard Edition, который будет использоваться в качестве следующего прыжка для сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="3c795-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="3c795-106">Нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="3c795-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="ffe77-105">Чтобы определить следующий переход для определяемого сервера-посредника, выберите в выпадаемом списке пула следующего прыжка сервер Enterprise Edition или сервер Standard Edition, который будет выступать в качестве следующего прыжка для сервера-посредника. </span><span class="sxs-lookup"><span data-stu-id="ffe77-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="ffe77-106">Нажмите кнопку **Далее**, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="ffe77-106">Click **Next** to continue.</span></span>
   
 

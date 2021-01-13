@@ -1,8 +1,8 @@
 ---
-title: Отслеживание файлов журнала трассировки запросов служб IIS в Skype для бизнеса Server 2015
+title: Мониторинг файлов журнала трасситуры запросов IIS в Skype для бизнеса Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 'Сводка: сведения о службе Mobility Service (МККС) в Skype для бизнеса Server 2015, поддерживающем устаревшие клиенты.'
-ms.openlocfilehash: 982e5842499e5cb2f6ff21ff884d1baa45075627
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Сведения о поддержке службы Mobility Service (Mcx) в Skype для бизнеса Server 2015 для устаревших клиентов.
+ms.openlocfilehash: 5fb9e66efa468e8755fe369c3ce4f2a4b8979e57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817929"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823509"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a><span data-ttu-id="bdee4-103">Отслеживание файлов журнала трассировки запросов служб IIS в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="bdee4-103">Monitoring IIS request tracing log files in Skype for Business Server 2015</span></span>
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a><span data-ttu-id="9ef3c-103">Мониторинг файлов журнала трасситуры запросов IIS в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="9ef3c-103">Monitoring IIS request tracing log files in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="bdee4-104">**Сводка:** Узнайте о службе Mobility Service (МККС) в Skype для бизнеса Server 2015, поддерживающем устаревшие клиенты.</span><span class="sxs-lookup"><span data-stu-id="bdee4-104">**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.</span></span>
+<span data-ttu-id="9ef3c-104">**Сводка:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-104">**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.</span></span>
   
-<span data-ttu-id="bdee4-105">В этом разделе описываются развертывания с поддержкой только для клиентов Lync 2010 Lync Mobile, он предназначен только для службы Mobility Service (Mcx).</span><span class="sxs-lookup"><span data-stu-id="bdee4-105">This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).</span></span>
+<span data-ttu-id="9ef3c-105">Этот раздел относится к развертываниям, поддерживающих только клиенты Lync 2010 Lync Mobile, и предназначен для службы Mobility Service (Mcx).</span><span class="sxs-lookup"><span data-stu-id="9ef3c-105">This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="bdee4-106">Поддержка МККС (служба Mobility Service) для устаревших мобильных клиентов больше не доступна в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="bdee4-106">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="bdee4-107">На всех текущих мобильных клиентах Skype для бизнеса уже используется веб-API единой системы обмена сообщениями (УКВА) для поддержки мгновенных сообщений, присутствия и контактов.</span><span class="sxs-lookup"><span data-stu-id="bdee4-107">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="bdee4-108">Пользователи с устаревшими клиентами, использующими МККС, должны обновиться до текущего клиента.</span><span class="sxs-lookup"><span data-stu-id="bdee4-108">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
+> <span data-ttu-id="9ef3c-106">Поддержка MCX (Mobility Service) для устаревших мобильных клиентов больше недоступна в Skype для бизнеса Server 2019.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-106">MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019.</span></span> <span data-ttu-id="9ef3c-107">Все текущие мобильные клиенты Skype для бизнеса уже используют веб-API объединенных коммуникаций (UCWA) для поддержки обмена мгновенными сообщениями, присутствия и контактов.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-107">All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts.</span></span> <span data-ttu-id="9ef3c-108">Пользователям с устаревшими клиентами, использующими MCX, потребуется обновиться до текущего клиента.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-108">Users with legacy clients using MCX will need to upgrade to a current client.</span></span>
   
-<span data-ttu-id="bdee4-109">При включении трассировки запросов служб IIS для службы Mobility Service в Skype для бизнеса Server (МККС) создаваемые файлы журнала могут занимать до 3 ГБ дискового пространства за день.</span><span class="sxs-lookup"><span data-stu-id="bdee4-109">When you enable Internet Information Services (IIS) request tracing for the Skype for Business Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="bdee4-110">IIS trace logging is enabled by default.</span><span class="sxs-lookup"><span data-stu-id="bdee4-110">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="bdee4-111">Убедитесь, что на серверах переднего плана не осталось свободного места.</span><span class="sxs-lookup"><span data-stu-id="bdee4-111">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span> 
+<span data-ttu-id="9ef3c-109">Если включить трассировку запросов служб IIS для Службы Skype для бизнеса Server Mobility Service (Mcx), созданные файлы журнала могут потреблять до трех гигабайт дискового пространства в день.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-109">When you enable Internet Information Services (IIS) request tracing for the Skype for Business Server Mobility Service (Mcx), the log files that are generated can consume up to three gigabytes of disk space per day.</span></span> <span data-ttu-id="9ef3c-110">Ведение журнала трассировки служб IIS включено по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-110">IIS trace logging is enabled by default.</span></span> <span data-ttu-id="9ef3c-111">Необходимо отслеживать серверы переднего сервера, чтобы убедиться, что на них не заканчивается место на диске.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-111">You should monitor the Front End Servers to make sure that they do not run out of disk space.</span></span> 
   
-<span data-ttu-id="bdee4-112">По умолчанию службы IIS используют для хранения файлов журнала папку %SystemDrive%\inetpub\logs\LogFiles.</span><span class="sxs-lookup"><span data-stu-id="bdee4-112">By default, IIS stores the log files at %SystemDrive%\inetpub\logs\LogFiles.</span></span>
+<span data-ttu-id="9ef3c-112">По умолчанию службы IIS используют для хранения файлов журнала папку %SystemDrive%\inetpub\logs\LogFiles.</span><span class="sxs-lookup"><span data-stu-id="9ef3c-112">By default, IIS stores the log files at %SystemDrive%\inetpub\logs\LogFiles.</span></span>
   
-<span data-ttu-id="bdee4-113">Чтобы отключить трассировку запросов служб IIS для всего сервера, выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="bdee4-113">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
+<span data-ttu-id="9ef3c-113">Чтобы отключить трассировку запросов служб IIS для всего сервера, выполните в командной строке следующую команду:</span><span class="sxs-lookup"><span data-stu-id="9ef3c-113">To turn off IIS request tracing for an entire server, at the command line, type the following:</span></span>
   
 ```console
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-<span data-ttu-id="bdee4-114">Подробные сведения о команде **хттплоггинг** можно найти [в справочнике по командам](https://go.microsoft.com/fwlink/p/?linkId=234927).</span><span class="sxs-lookup"><span data-stu-id="bdee4-114">For details about the **httpLogging** command, see [the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).</span></span>
+<span data-ttu-id="9ef3c-114">Подробные сведения о **команде httpLogging** см. [в справке по команде.](https://go.microsoft.com/fwlink/p/?linkId=234927)</span><span class="sxs-lookup"><span data-stu-id="9ef3c-114">For details about the **httpLogging** command, see [the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).</span></span>
   
 

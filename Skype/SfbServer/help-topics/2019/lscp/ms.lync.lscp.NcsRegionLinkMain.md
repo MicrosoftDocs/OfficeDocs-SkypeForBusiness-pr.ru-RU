@@ -1,8 +1,8 @@
 ---
 title: Настройка связи области сети
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 0df3ce9008a604b410ccc8038ab2ec86d5cce7e5
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Что нужно сделать Щелкните ссылку на задачу, которую необходимо выполнить.
+ms.openlocfilehash: 863092934e1f868d7af3242733b1f32a2ce6642f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795640"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824689"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="246b5-104">Настройка связи области сети</span><span class="sxs-lookup"><span data-stu-id="246b5-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="2cb0a-104">Настройка связи области сети</span><span class="sxs-lookup"><span data-stu-id="2cb0a-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="246b5-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="246b5-105">What do you want to do?</span></span> <span data-ttu-id="246b5-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="246b5-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2cb0a-105">Что нужно сделать</span><span class="sxs-lookup"><span data-stu-id="2cb0a-105">What do you want to do?</span></span> <span data-ttu-id="2cb0a-106">Щелкните ссылку на задачу, которую необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="2cb0a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="246b5-107">Настройка ссылок на сетевой регион</span><span class="sxs-lookup"><span data-stu-id="246b5-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="2cb0a-107">Настройка связей между сетевыми областями</span><span class="sxs-lookup"><span data-stu-id="2cb0a-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 
